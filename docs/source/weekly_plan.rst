@@ -77,7 +77,7 @@ watch video lessons and read through web contents.
      - `10 mins <lesson/collaboration/git.html#exercise>`_
 
 .. list-table:: System Access to FutureSystems                                                                              
-   :widths: 30 10 10 10 10 10
+   :widths: 30 10 10 10
    :header-rows: 1
 
    * - Topic
@@ -108,7 +108,7 @@ watch video lessons and read through web contents.
 
        
 .. list-table:: Linux Basics
-   :widths: 30 10 10 10 10 10
+   :widths: 30 10 10 10
    :header-rows: 1
 
    * - Topic
