@@ -12,7 +12,7 @@ Weekly Plan
 Schedule for Technology Units
 
 .. list-table:: Schedule Section on Technologies
-   :widths: 10 30 10 
+   :widths: 30 10
    :header-rows: 1
 
    * - Topic
@@ -51,7 +51,7 @@ collaboration tools i.e. GitHub, Google Hangout and Remote Desktop. Please
 watch video lessons and read through web contents. 
 
 .. list-table:: Collaboration Tools
-   :widths: 30 10 10 10 10 10
+   :widths: 30 10 10 10
    :header-rows: 1
 
    * - Topic
