@@ -73,31 +73,29 @@ watch video lessons and read through web contents.
      - HW Due
    * - **Overview and Introduction**
      - `2 mins <https://www.youtube.com/watch?v=ZWzYGwnbZK4&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=1>`_
-     - `10 mins <../lesson/collaboration/overview.html>`_
+     - `10 mins <lesson/collaboration/overview.html>`_
      - 
-     - 03/23
+     - 
      - N/A
    * - **Google**
         - Google+, Hangout, Remote Desktop
      - `4 mins  <https://www.youtube.com/watch?v=kOrWm830vxQ&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=2>`_
-     - `15 mins  <../lesson/google.html>`_
+     - `15 mins  <lesson/collaboration/google.html>`_
      -
-     - 03/23
+     - 
      - N/A
    * - **Shell Access**                  
      - `3 mins <https://www.youtube.com/watch?v=aJDXfvOrzRE&index=3&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx>`_
-     - `10 mins <../lesson/shell-access.html>`_
+     - `10 mins <lesson/collaboration/shell-access.html>`_
      - 
-     - 03/23
+     - 
      - N/A
    * - **GitHub**
      - `18 mins <https://www.youtube.com/watch?v=KrAjal1a30w&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=4>`_
-     - `30 mins <../lesson/git.html>`_
-     - `10 mins <../lesson/git.html#exercise>`_
-     - 03/23
-     - 04/03 
-
-
+     - `30 mins <lesson/collaboration/git.html>`_
+     - `10 mins <lesson/collaboration/git.html#exercise>`_
+     - 
+     -  
 
 .. list-table:: System Access to FutureSystems                                                                              
    :widths: 30 10 10 10 10 10
@@ -123,13 +121,13 @@ watch video lessons and read through web contents.
      - 04/03 see (a) below
    * - **Remote Login**                                                                             
      - `6 mins <https://mix.office.com/watch/eddgjmovoty0>`_ 
-     - `10 mins <../lesson/system/futuresystemsuse.html#remote-login>`_
+     - `10 mins <lesson/system/futuresystemsuse.html#remote-login>`_
      - see (a) below
      - 03/23
      - 04/03 see (a) below
    * - **Putty for Windows**
      - `11 mins <https://mix.office.com/watch/9z30n7rs67x0>`_
-     - `10 mins <../lesson/system/futuresystemsuse.html#putty-under-preparation>`_
+     - `10 mins <lesson/system/futuresystemsuse.html#putty-under-preparation>`_
      - see (a) below
      - 03/23
      - 04/03 see (a) below
@@ -152,52 +150,52 @@ watch video lessons and read through web contents.
      - HW Due
    * - **Overview and Introduction** 
      - `4 mins <https://www.youtube.com/watch?v=2uVZrGPCNcY&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=1>`_
-     - `5 mins <../lesson/linux/overview.html>`_
+     - `5 mins <lesson/linux/overview.html>`_
      - 
      - 03/23
      - 
    * - **Shell Scripting**                                                         
      - `15 mins <https://www.youtube.com/watch?v=TBOG3wmU8ZA&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=2>`_
-     - `30 mins <../lesson/linux/shell.html>`_
-     - `5 mins <../lesson/linux/shell.html#exercises>`_,
-       `5 mins <../lesson/linux/shell.html#id7>`_,
-       `10 mins <../lesson/linux/shell.html#id11>`_,
-       `10 mins <../lesson/linux/shell.html#id14>`_
+     - `30 mins <lesson/linux/shell.html>`_
+     - `5 mins <lesson/linux/shell.html#exercises>`_,
+       `5 mins <lesson/linux/shell.html#id7>`_,
+       `10 mins <lesson/linux/shell.html#id11>`_,
+       `10 mins <lesson/linux/shell.html#id14>`_
      - 03/23
      - 04/03 all 4 Labs 
    * - **Editors**                            
         - Emacs, vi, and nano                                           
      - `5 mins <https://www.youtube.com/watch?v=yHW_qzOzPa0&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=3>`_
-     - `30 mins <../lesson/linux/editors.html>`_
+     - `30 mins <lesson/linux/editors.html>`_
      - see (b) below
      - 03/23
      - 04/03 see (b) below
    * - **Python**                             
         - virtualenv, Pypi                                                                                
      - `27 mins <https://www.youtube.com/watch?v=e_RuGr1dL0c&index=7&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp>`_
-     - `1 hour <../lesson/linux/python.html>`_
-     - `30 mins <../lesson/linux/python.html#exercises>`_
+     - `1 hour <lesson/linux/python.html>`_
+     - `30 mins <lesson/linux/python.html#exercises>`_
      - 03/23
      - 04/03
    * - **Package Managers**                   
         - yum, apt-get, and brew                                                      
      - `3 mins <https://www.youtube.com/watch?v=Onn9SKdUDUc&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=4>`_
-     - `10 mins <../lesson/linux/packagemanagement.html>`_
+     - `10 mins <lesson/linux/packagemanagement.html>`_
      - see (c) below
      - 03/23
      - 04/03 see (c) below
    * - **Advanced SSH**
         - SSH Config and Tunnel
      - `3 mins <https://www.youtube.com/watch?v=eYanElmtqMo&index=6&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp>`_
-     - `20 mins <../lesson/linux/advancedssh.html>`_
-     - `5 mins <../lesson/linux/advancedssh.html#exercise-i>`_, 
-       `5 mins <../lesson/linux/advancedssh.html#exercise-ii>`_
+     - `20 mins <lesson/linux/advancedssh.html>`_
+     - `5 mins <lesson/linux/advancedssh.html#exercise-i>`_, 
+       `5 mins <lesson/linux/advancedssh.html#exercise-ii>`_
      - 03/23
      - 04/03 both Labs
    * - **Modules**
      - `3 mins <https://www.youtube.com/watch?v=0mBERd57pZ8&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=6>`_
      - `10 mins <../ lesson/linux/modules.html>`_
-     - `5 mins <../lesson/linux/modules.html#exercises>`_
+     - `5 mins <lesson/linux/modules.html#exercises>`_
      - 03/23
      - 04/03
 
@@ -251,7 +249,7 @@ Length of the lessons in Unit 1
              - HW Due
            * - **Introduction and Overview**
              - `12 mins <https://mix.office.com/watch/u7uovy9i06jo>`_
-             - `10 mins <../lesson/iaas/overview_openstack.html>`_
+             - `10 mins <lesson/iaas/overview_openstack.html>`_
              - 
              - 03/30
              - 
@@ -263,31 +261,31 @@ Length of the lessons in Unit 1
              - 
            * - -- Compute Engine (Nova)
              -
-             - `1 hour <../lesson/iaas/openstack.html>`_
-             - `30 mins <../lesson/iaas/openstack.html#exercises>`_
+             - `1 hour <lesson/iaas/openstack.html>`_
+             - `30 mins <lesson/iaas/openstack.html#exercises>`_
              - 03/30
              - 04/10
            * - -- Web Dashboard (Horizon)
              - 
-             - `15 mins <../lesson/iaas/openstack_horizon.html>`_
-             - `15 mins <../lesson/iaas/openstack_horizon.html#exercises>`_
+             - `15 mins <lesson/iaas/openstack_horizon.html>`_
+             - `15 mins <lesson/iaas/openstack_horizon.html#exercises>`_
              - 03/30
              - 04/10
            * - **Storage (Swift)**
              - `3 mins <https://mix.office.com/watch/w3rko4itecgc>`_
-             - `10 mins <../lesson/iaas/openstack.html#swift-storage>`_
+             - `10 mins <lesson/iaas/openstack.html#swift-storage>`_
              -
              - 03/30
              - 
            * - **Network (Neutron)**
              - `3 mins <https://mix.office.com/watch/1dt5hp0e2grov>`_
-             - `10 mins <../lesson/iaas/openstack.html#neutron-network>`_
+             - `10 mins <lesson/iaas/openstack.html#neutron-network>`_
              -
              - 03/30
              - 
            * - **Introduction to OpenStack Juno Release**
              - `2 mins <https://mix.office.com/watch/cz6xehrs9xor>`_
-             - `10 mins <../lesson/iaas/openstack_juno.html>`_
+             - `10 mins <lesson/iaas/openstack_juno.html>`_
              - 
              - 03/30
              - 
@@ -304,15 +302,15 @@ Length of the lessons in Unit 1
              - HW Due
            * - **Amazon Web Services (AWS)**
              - `16 mins <https://mix.office.com/watch/1351hz8j187i7>`_
-             - `30 mins <../lesson/iaas/aws_tutorial.html>`_
-             - `45 mins <../lesson/iaas/aws_tutorial.html#exercises>`_
+             - `30 mins <lesson/iaas/aws_tutorial.html>`_
+             - `45 mins <lesson/iaas/aws_tutorial.html#exercises>`_
                (optional, not required)
              - 03/30
              - 
            * - **Microsoft Azure**
              - `29 mins <https://mix.office.com/watch/kzh0nwvdw6tm>`_
-             - `50 mins <../lesson/iaas/azure_tutorial.html>`_
-             - `10 mins <../lesson/iaas/azure_tutorial.html#exercise1>`_
+             - `50 mins <lesson/iaas/azure_tutorial.html>`_
+             - `10 mins <lesson/iaas/azure_tutorial.html#exercise1>`_
                (optional, not required)
              - 03/30
              - 
@@ -339,7 +337,7 @@ Length of the lessons in Unit 1
                      - Microsoft Azure
              -
              -
-             - `50 mins <../lesson/iaas/azure_tutorial.html#exercise2>`_
+             - `50 mins <lesson/iaas/azure_tutorial.html#exercise2>`_
              - Not due
              - Not due
 
