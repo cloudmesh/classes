@@ -13,6 +13,15 @@ Notice
 
 :ref:`System Notice <ref-class-notice>`
 
+Weekly Plan
+-------------------------------------------------------------------------------
+
+.. toctree::
+           :maxdepth: 1
+           :glob:
+
+           weekly_plan
+
 Office Hours
 -------------------------------------------------------------------------------
 
@@ -43,7 +52,7 @@ Make sure you are prepared to join a meeting by the following links:
 
 .. important::
 
-   You can join the meeting by clicking on `this link <https://connect.iu.edu/bdossp_sp16/>`_.
+   You can join a meeting by `this link <https://connect.iu.edu/bdossp_sp16/>`_.
 
    .. raw:: html
 
