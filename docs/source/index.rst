@@ -13,7 +13,7 @@ Notice
 
 :ref:`System Notice <ref-class-notice>`
 
-Weekly Plan
+Technology Section
 -------------------------------------------------------------------------------
 
 .. toctree::

@@ -1,6 +1,6 @@
 .. _ref-units-sp16:
 
-Technology Units - Spring 2016
+Technology Section - Spring 2016
 ===============================================================================
 
 .. sidebar:: Page Contents
@@ -12,12 +12,11 @@ Overview
 -------------------------------------------------------------------------------
 
 Projects on Big Data Software course introduces lessons in two sections: Theory
-Units and Technology Units. Technology Units are listed in this page. To
+and Technology. Units in Technology are listed in this page. To
 navigate Theory Units, syllabus and discussions, please use the course site
 scholargrid.org.
 
-
-Schedule for Technology Units
+Schedule for Units in Technology Section
 
 .. list-table:: Schedule Section on Technologies
    :widths: 30 10
@@ -49,7 +48,7 @@ Notice
 :ref:`System Notice <ref-class-notice>`
 
 Gaining Access to FutureSystems and Core Technologies
-*******************************************************************************
+-------------------------------------------------------------------------------
 
 In this unit, you will learn how to gain access to the FutureSystems resources.
 It includes the portal account creation, class project participation, SSH key
@@ -94,11 +93,11 @@ watch video lessons and read through web contents.
      - Assignment
    * - **ssh-keygen**
      - `4 mins <https://www.youtube.com/watch?v=pQb2VV1zNIc&feature=em-upload_owner>`_
-     - `10 mins <../../accounts/ssh.html#s-using-ssh>`_
+     - `10 mins <lesson/system/ssh.html#s-using-ssh>`_
      - 
    * - **Account Creation**
      - `12 mins <https://www.youtube.com/watch?v=X6zeVEALzTk>`_
-     - `10 mins <../../accounts/accounts.html>`_
+     - `10 mins <lesson/system/accounts.html>`_
      - 
    * - **Remote Login**                                                                             
      - `6 mins <https://mix.office.com/watch/eddgjmovoty0>`_ 
@@ -157,7 +156,7 @@ watch video lessons and read through web contents.
        `5 mins <lesson/linux/advancedssh.html#exercise-ii>`_
    * - **Modules**
      - `3 mins <https://www.youtube.com/watch?v=0mBERd57pZ8&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=6>`_
-     - `10 mins <../ lesson/linux/modules.html>`_
+     - `10 mins <lesson/linux/modules.html>`_
      - `5 mins <lesson/linux/modules.html#exercises>`_
 
 * (b) Find an editor that you will be useing to do your programming
@@ -172,7 +171,7 @@ watch video lessons and read through web contents.
   done. Which package manager is used on ubuntu?
 
 Length of the lessons in this Unit
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*******************************************************************************
 
 * Total of video lessons: 2 hours
 * Total of study materials: 4 hours and 30 minutes
