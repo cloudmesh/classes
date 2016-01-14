@@ -15,41 +15,30 @@ Schedule for Technology Units
    :widths: 10 30 10 
    :header-rows: 1
 
-   * - Unit
-     - Topic
+   * - Topic
      - Due
-   * - Unit 1 (Tech)
-     - **Gaining Access to FutureSystems and Core Technologies**
+   * - **Gaining Access to FutureSystems and Core Technologies**
      - 01/25
 
 .. comment::
 
-   * - Unit 2 (Tech)
-     - **The Basics of OpenStack**
+   * - **The Basics of OpenStack**
      - 
-   * - Unit 3 (Tech)
-     - **Cloudmesh - Cloud Management Software**
+   * - **Cloudmesh - Cloud Management Software**
      - 
-   * - Unit 4 (Tech)
-     - **IT Operations - Automation and Orchestration**
+   * - **IT Operations - Automation and Orchestration**
      - 
-   * - Unit 5 (Tech)
-     - **Virtual Clusters I (First Appearance of Hadoop)**
+   * - **Virtual Clusters I (First Appearance of Hadoop)**
      - 
-   * - Unit 6 (Tech)
-     - **Virtual Clusters II (Composite Cluster with Sub-Clusters)**
+   * - **Virtual Clusters II (Composite Cluster with Sub-Clusters)**
      - 
-   * - Unit 7 (Tech)
-     - **Other Technologies**
+   * - **Other Technologies**
      - 
 
 Notice
 ===============================================================================
 
 :ref:`System Notice <ref-class-notice>`
-
-Unit 1
--------------------------------------------------------------------------------
 
 Gaining Access to FutureSystems and Core Technologies
 *******************************************************************************
@@ -69,33 +58,23 @@ watch video lessons and read through web contents.
      - Video
      - Text
      - Assignment
-     - Study Material By
-     - HW Due
    * - **Overview and Introduction**
      - `2 mins <https://www.youtube.com/watch?v=ZWzYGwnbZK4&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=1>`_
      - `10 mins <lesson/collaboration/overview.html>`_
      - 
-     - 
-     - N/A
    * - **Google**
         - Google+, Hangout, Remote Desktop
      - `4 mins  <https://www.youtube.com/watch?v=kOrWm830vxQ&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=2>`_
      - `15 mins  <lesson/collaboration/google.html>`_
      -
-     - 
-     - N/A
    * - **Shell Access**                  
      - `3 mins <https://www.youtube.com/watch?v=aJDXfvOrzRE&index=3&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx>`_
      - `10 mins <lesson/collaboration/shell-access.html>`_
      - 
-     - 
-     - N/A
    * - **GitHub**
      - `18 mins <https://www.youtube.com/watch?v=KrAjal1a30w&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=4>`_
      - `30 mins <lesson/collaboration/git.html>`_
      - `10 mins <lesson/collaboration/git.html#exercise>`_
-     - 
-     -  
 
 .. list-table:: System Access to FutureSystems                                                                              
    :widths: 30 10 10 10 10 10
@@ -105,32 +84,22 @@ watch video lessons and read through web contents.
      - Video
      - Text
      - Assignment
-     - Study Material By
-     - HW Due
    * - **ssh-keygen**
      - `4 mins <https://www.youtube.com/watch?v=pQb2VV1zNIc&feature=em-upload_owner>`_
      - `10 mins <../../accounts/ssh.html#s-using-ssh>`_
-     - see (a) below
-     - 03/23
-     - 04/03 see (a) below
+     - 
    * - **Account Creation**
      - `12 mins <https://www.youtube.com/watch?v=X6zeVEALzTk>`_
      - `10 mins <../../accounts/accounts.html>`_
-     - see (a) below
-     - 03/23
-     - 04/03 see (a) below
+     - 
    * - **Remote Login**                                                                             
      - `6 mins <https://mix.office.com/watch/eddgjmovoty0>`_ 
      - `10 mins <lesson/system/futuresystemsuse.html#remote-login>`_
-     - see (a) below
-     - 03/23
-     - 04/03 see (a) below
+     - 
    * - **Putty for Windows**
      - `11 mins <https://mix.office.com/watch/9z30n7rs67x0>`_
      - `10 mins <lesson/system/futuresystemsuse.html#putty-under-preparation>`_
-     - see (a) below
-     - 03/23
-     - 04/03 see (a) below
+     - 
 
 * (a) Create an account on the FutureSystems Portal, upload your ssh
   key and log into india. Dependent on your OS you may or may not need
@@ -146,13 +115,9 @@ watch video lessons and read through web contents.
      - Video
      - Text
      - Assignment
-     - Study Material By
-     - HW Due
    * - **Overview and Introduction** 
      - `4 mins <https://www.youtube.com/watch?v=2uVZrGPCNcY&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=1>`_
      - `5 mins <lesson/linux/overview.html>`_
-     - 
-     - 03/23
      - 
    * - **Shell Scripting**                                                         
      - `15 mins <https://www.youtube.com/watch?v=TBOG3wmU8ZA&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=2>`_
@@ -161,44 +126,31 @@ watch video lessons and read through web contents.
        `5 mins <lesson/linux/shell.html#id7>`_,
        `10 mins <lesson/linux/shell.html#id11>`_,
        `10 mins <lesson/linux/shell.html#id14>`_
-     - 03/23
-     - 04/03 all 4 Labs 
    * - **Editors**                            
         - Emacs, vi, and nano                                           
      - `5 mins <https://www.youtube.com/watch?v=yHW_qzOzPa0&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=3>`_
      - `30 mins <lesson/linux/editors.html>`_
      - see (b) below
-     - 03/23
-     - 04/03 see (b) below
    * - **Python**                             
         - virtualenv, Pypi                                                                                
      - `27 mins <https://www.youtube.com/watch?v=e_RuGr1dL0c&index=7&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp>`_
      - `1 hour <lesson/linux/python.html>`_
      - `30 mins <lesson/linux/python.html#exercises>`_
-     - 03/23
-     - 04/03
    * - **Package Managers**                   
         - yum, apt-get, and brew                                                      
      - `3 mins <https://www.youtube.com/watch?v=Onn9SKdUDUc&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=4>`_
      - `10 mins <lesson/linux/packagemanagement.html>`_
      - see (c) below
-     - 03/23
-     - 04/03 see (c) below
    * - **Advanced SSH**
         - SSH Config and Tunnel
      - `3 mins <https://www.youtube.com/watch?v=eYanElmtqMo&index=6&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp>`_
      - `20 mins <lesson/linux/advancedssh.html>`_
      - `5 mins <lesson/linux/advancedssh.html#exercise-i>`_, 
        `5 mins <lesson/linux/advancedssh.html#exercise-ii>`_
-     - 03/23
-     - 04/03 both Labs
    * - **Modules**
      - `3 mins <https://www.youtube.com/watch?v=0mBERd57pZ8&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=6>`_
      - `10 mins <../ lesson/linux/modules.html>`_
      - `5 mins <lesson/linux/modules.html#exercises>`_
-     - 03/23
-     - 04/03
-
 
 * (b) Find an editor that you will be useing to do your programming
   with. For advanced Python programming we recommend PyCharm. However
@@ -210,8 +162,6 @@ watch video lessons and read through web contents.
   with Openstack. Provide a verification that the package was
   installed (log). Do not forget to delete the VM after you are
   done. Which package manager is used on ubuntu?
-
-
 
 Length of the lessons in Unit 1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
