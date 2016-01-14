@@ -1,14 +1,22 @@
-.. _ref-weekly-plan:
+.. _ref-units-sp16:
 
-===============================================================================
-Weekly Plan
+Technology Units - Spring 2016
 ===============================================================================
 
 .. sidebar:: Page Contents
 
    .. contents::
       :local:
-	 
+
+Overview
+-------------------------------------------------------------------------------
+
+Projects on Big Data Software course introduces lessons in two sections: Theory
+Units and Technology Units. Technology Units are listed in this page. To
+navigate Theory Units, syllabus and discussions, please use the course site
+scholargrid.org.
+
+
 Schedule for Technology Units
 
 .. list-table:: Schedule Section on Technologies
@@ -36,7 +44,7 @@ Schedule for Technology Units
      - 
 
 Notice
-===============================================================================
+-------------------------------------------------------------------------------
 
 :ref:`System Notice <ref-class-notice>`
 
@@ -163,7 +171,7 @@ watch video lessons and read through web contents.
   installed (log). Do not forget to delete the VM after you are
   done. Which package manager is used on ubuntu?
 
-Length of the lessons in Unit 1
+Length of the lessons in this Unit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Total of video lessons: 2 hours

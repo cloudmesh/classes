@@ -20,7 +20,7 @@ Weekly Plan
            :maxdepth: 1
            :glob:
 
-           weekly_plan
+           units_sp16
 
 Office Hours
 -------------------------------------------------------------------------------
