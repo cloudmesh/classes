@@ -154,14 +154,14 @@ Length of the lessons in this Unit
 Assignment HW
 *******************************************************************************
 
-.. list-table:: HW2
+.. list-table:: Get Ready for FutureSystems and Warm-Up
    :widths: 30 10
    :header-rows: 1
 
    * - Topic
      - Description
-   * - **Get Ready for FutureSystems**
-     - `Start with Account, Github and Python <hw2.html>`_
+   * - **Start with Account, Github and Python**
+     - `9 tasks <hw2.html>`_
  
 
 .. comment::
