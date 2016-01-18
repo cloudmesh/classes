@@ -58,7 +58,7 @@ GitHub
    update to github and opened a webpage to check.  When he get access to his
    repository on github.com via a web browser, he found that Contact Info was
    missing so he added the info in the `README.rst` file online using a web
-   browser and the his description showed wih the new Contact Info. He returned
+   browser and his description showed with the new Contact Info. He returned
    to his local repository and updated his repository because he wanted to sync
    the changes that he made on github.com. His next task was adding
    `new_feature.py` and `bug.py` in a separate branch, not in master because he
