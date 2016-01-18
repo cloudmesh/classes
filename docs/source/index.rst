@@ -20,7 +20,7 @@ Technology Section
            :maxdepth: 1
            :glob:
 
-           units_sp16
+           units
 
 Office Hours
 -------------------------------------------------------------------------------
