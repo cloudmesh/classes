@@ -79,8 +79,7 @@ project.
 #. Upon approval you will receive an email.
 
 .. tip::
-   Please see :ref:`s-account-join-project` for further details.
-
+   FG491: I590 Projects on Big Data Software Spring 2016 - Geoffrey Fox
 
 Remote Login
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -99,19 +98,18 @@ In order to login into your account on FutureSystems you will need:
 
 
 Linux and OSX
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-We assume that Linux users are familiar on how to start a terminal. On
-Mac OS X open a terminal via `Applications --> Utilities --> Terminal`. Alternatively you can search for the term "terminal" in the
-spotlight search and locate the terminal application and click on it.
+We assume that Linux users are familiar on how to start a terminal. On Mac OS X
+open a terminal via `Applications --> Utilities --> Terminal`.  Alternatively
+you can search for the term "terminal" in the spotlight search and locate the
+terminal application and click on it.
 
-To proceed you will need to know your FutureSystems Portalname and
-Project ID.
+To proceed you will need to know your FutureSystems Portalname and Project ID.
 
-For this example we assume you have set the shell variable PORTALNAME
-to your FutureSystems portal username. This can be done as
-follwows. Let us assume your portal name is `albert`. Than you can set
-it with::
+For this example we assume you have set the shell variable PORTALNAME to your
+FutureSystems portal username. This can be done as follwows. Let us assume your
+portal name is `albert`. Than you can set it with::
 
             export PORTALNAME=albert
 
@@ -136,10 +134,10 @@ alternatively to the above command::
 
 
 Windows
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-In order to SSH into your FutureSystems account using Windows, you
-will need to install PuTTY and PuTTYgen from the `PuTTY project page`_
+In order to SSH into your FutureSystems account on Windows, you will need to
+install PuTTY and PuTTYgen from the `PuTTY project page`_
 
 Generate an key using PuTTYgen:
 
@@ -161,14 +159,13 @@ connect using the passphrase specified in ``puttygen.exe``.
 .. _PuTTY: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 
 
-
 Useful SSH commands
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 The following is a short list of useful SSH commands.
 
 Change the password
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 You can change the password for the key by using the  the ``-p`` flag.
 For example::
@@ -176,7 +173,7 @@ For example::
   $ ssh-keygen -p
 
 Change the comment
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 You can change the comment of an key by modifying the public key file.
 For example, Ada Lovelace wishes to replace an uninformative comment
@@ -189,9 +186,8 @@ She would execute the following::
   $ cat ~/.ssh/id_rsa.pub
   ssh-rsa  AAAAB3N.... lovelace@gmail.com
 
-
 Show fingerprint
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 The fingerprint of a key can be used to authenticate the validity of
 the key.  For example, if Ada were to share his public key with Albert
@@ -207,9 +203,8 @@ they have been uploaded.  You may see this fingerprint on the
 `FutureSystems portal
 <https://portal.futuresystems.org/my/ssh-keys>`_.
 
-
 Delete a known host
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Whenever you log into a new machine via SSH, the host key of the
 destination machine is added to ``~/.ssh/known_hosts``.
@@ -219,22 +214,18 @@ to log back in.
 
 .. note::
    The host key may change if the machine undergoes a major upgrade or
-   change.
-   Another reason may be that a third party is performing a
+   change. Another reason may be that a third party is performing a
    `man-in-the-middle attack`_.
-
 
 To remove a key for ``india.futuresystems.org`` from ``~/.ssh/known_hosts``::
 
   $ ssh-keygen -R india.futuresystems.org
 
-
 .. _man-in-the-middle attack: http://en.wikipedia.org/wiki/Man-in-the-middle_attack
 
 
-
 SSH
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Secure Shell, or SSH, is a protocol for securely connecting to a Shell
 on a remote computer.
@@ -250,7 +241,8 @@ considered "safe", the machines need to identify each other.  The
 identity is usually accomplished through the use of a **key** file,
 which usually comes in pairs: a **public** key and a **private** key.
 This is usually called a **key pair**.  On Mac OS X and Linux a key
-pair can be created using the ``ssh-keygen`` command. You can test this out by opening a terminal and entering the following:
+pair can be created using the ``ssh-keygen`` command. You can test this out by
+opening a terminal and entering the following:
 
 .. code:: bash
 
@@ -271,19 +263,21 @@ GitHub (see Section :ref:`s-lesson-git`) you add it to your account.
 
    **Never** share the private key with anyone.  This is used to
    identify you and can be used to completely regenerate the public
-   key. Try it for yourself with:
+   key. Try it for yourself with, if you like to generate a public key from
+   your private key:
 
    .. code:: bash
 
       $ ssh-keygen -y -f ~/test_identity
 
-   and compare the output with ``~/test_identity.pub``
+   and compare the key string with the original public key
+   ``~/test_identity.pub``
 
 .. tip::
 
    A good practice for managing SSH keys is to create a key pair on
    each machine you use and to add a comment indicating your contact
-   information and the machine this key belongs to.::
+   information and the machine this key belongs to, for example::
 
      $ ssh-keygen -C 'host:relativity contact:albert@gmail.com'
 
@@ -295,7 +289,6 @@ GitHub (see Section :ref:`s-lesson-git`) you add it to your account.
 
    The host information is useful for you if you have multiple
    machines.
-
 
 .. _lab-futuresystems-access:
 
@@ -312,5 +305,5 @@ Execute the following commands:
 - ``uname -a``
 - ``pwd``
 
-Post the result (copy and paste the ASCII text of what you see in the
-screen to the homework system.
+.. Post the result (copy and paste the ASCII text of what you see in the
+.. screen to the homework system.
