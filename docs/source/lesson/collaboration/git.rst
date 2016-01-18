@@ -40,11 +40,6 @@ This prerequisite is satisfied if you are able to
 * go to `https://github.com`
 * sign in
 
-.. comment:: note::
-   Please use a Gmail account to create your GitHub account.
-   You can find details on how to do so at
-   https://accounts.google.com/signup
-
 Form a Group and Identify a Project (By Week 10)
 ----------------------------------------------------------------------
 
