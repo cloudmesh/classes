@@ -71,9 +71,6 @@ watch video lessons and read through web contents.
         - Google+, Hangout, Remote Desktop
      - `4 mins  <https://www.youtube.com/watch?v=kOrWm830vxQ&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=2>`_
      - `15 mins  <lesson/collaboration/google.html>`_
-   * - **Shell Access**                  
-     - `3 mins <https://www.youtube.com/watch?v=aJDXfvOrzRE&index=3&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx>`_
-     - `10 mins <lesson/collaboration/shell-access.html>`_
    * - **GitHub**
      - `18 mins <https://www.youtube.com/watch?v=KrAjal1a30w&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=4>`_
      - `30 mins <lesson/collaboration/git.html>`_
