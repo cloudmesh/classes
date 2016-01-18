@@ -13,7 +13,7 @@ Complete the following tasks. Place all answers in a file named HW2-$USERID.txt
 and submit it via IU Canvas. (Replace $USERID with your email name at IU e.g.
 HW2-albert.txt if your email address is albert@indiana.edu)
 
-FutureGrid Access
+FutureSystems Access
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Sign Up portal.futuresystems.org, if not exist.
