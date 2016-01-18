@@ -69,6 +69,9 @@ Cheatsheet
    :glob:
 
    cheatsheet-shell
+
+.. comment::
+
    cheatsheet-editor
    cheatsheet-python
    cheatsheet-ssh
