@@ -1,6 +1,6 @@
 .. _ref-units-sp16:
 
-Unites in Technology Section - Spring 2016
+Units in Technology Section - Spring 2016
 ===============================================================================
 
 .. sidebar:: Page Contents
