@@ -155,13 +155,13 @@ Assignment HW
 *******************************************************************************
 
 .. list-table:: HW2
-   :widths: 30 10 10
+   :widths: 30 10
    :header-rows: 1
 
    * - Topic
      - Description
-   * - **HW2**
-     - `Account <hw2.html>`_
+   * - **Get Ready for FutureSystems**
+     - `Start with Account, Github and Python <hw2.html>`_
  
 
 .. comment::
