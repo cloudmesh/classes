@@ -47,7 +47,7 @@ GitHub
    Create 'hw2' branch.
 
 7. This is a question for you to answer with appropriate git commands to
-   satisfy the following descriptions.::
+   satisfy the following descriptions::
 
    Albert has some Python code files that he was developing on his local
    machine but he wanted to use github.com to trace changes and share his work
@@ -64,7 +64,7 @@ GitHub
    `new_feature.py` and `bug.py` in a separate branch, not in master because he
    thought these two files are still in progress with different purposes. He
    simply created 'next' and 'error' branches in his current repository and
-   added the two files accordingly.
+   added the two files accordingly. his all tasks are applied to github.com.
 
 List ``git`` commands that `Albert` used in his work above in your submission.
 
