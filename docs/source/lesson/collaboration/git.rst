@@ -139,7 +139,7 @@ you can view the key by executing the following command::
 
 You may see something like the following::
 
-  ssh-rsa AAA....... lovelace@gmail.com
+  ssh-rsa AAA....... albert@gmail.com
 
 Copy this public key by selecting it and ``right-click -> Copy``.
 
@@ -152,7 +152,7 @@ Next go to your `GitHub account SSH keys`_ and click ``Add SSH key``
 on the top right.
 You will need to provide a title and the key.
 It is a good idea to use your name and course number in the title,
-for example, Ada could use ``Ada Lovelace BUEX-V 594``.
+for example, Albert has ``Albert I590 12388``.
 Next paste the key into the ``Key`` field and click ``Add key``
 at the bottom.
 
@@ -162,69 +162,77 @@ title and a fingerprint such as::
 
  d8:c3:dd:c8:2f:98:11:ca:[...]
 
+The fingerprint should be same with one on portal.futuresystems.org if you used
+a same public key.
+
 .. _GitHub account SSH keys: https://github.com/settings/ssh
 
+.. comment::
+        Getting Access to Github Repository
+        ----------------------------------------------------------------------
 
-Getting access to repository
-----------------------------------------------------------------------
+        Send an email to Badi' Abdul-Wahid (by 4pm on a business day)
+        and include the following information:
 
-Send an email to Badi' Abdul-Wahid (by 4pm on a business day)
-and include the following information:
+        * the first and last name of each group member
+        * the email address of each group member
+        * the GitHub username of each group member
+        * the course number registered for
+        .. * the project proposal approved by the instructor
 
-* the first and last name of each group member
-* the email address of each group member
-* the GitHub username of each group member
-* the course number registered for
-.. * the project proposal approved by the instructor
+        Please adhere to the following template for this email::
 
-Please adhere to the following template for this email::
+          Subject: Request FutureSystems GitHub project
+          Body:
+            <first name> <last name>, <email> <github username>
+            <first name> <last name>, <email> <github username>
+            ...
+            <course number>
+            
+            <project proposal>
 
-  Subject: request FutureSystems GitHub project
-  Body:
-    <first name> <last name>, <email> <github username>
-    <first name> <last name>, <email> <github username>
-    ...
-    <course number>
-    
-    <project proposal>
+        For example, if Ada Lovelace and Albert Einstein are working together
+        to develop a computer simulations of the theory of relativity, they
+        would send the following (truncated) email::
 
-For example, if Ada Lovelace and Albert Einstein are working together
-to develop a computer simulations of the theory of relativity, they
-would send the following (truncated) email::
+          Subject: request FutureSystems GitHub project
+          Body:
+            Ada Lovelace, adalovelace@gmail.com lovelace
+            Albert Einstein, emc2@gmail.com albert
+            SP15-BL-BUEX-V594-37186
 
-  Subject: request FutureSystems GitHub project
-  Body:
-    Ada Lovelace, adalovelace@gmail.com lovelace
-    Albert Einstein, emc2@gmail.com albert
-    SP15-BL-BUEX-V594-37186
+            Development of a computer simulation of the Theory of General Relativity
+            [...]
 
-    Development of a computer simulation of the Theory of General Relativity
-    [...]
-
-A repository will then be created for your group and you will be
-emailed the link.
+        A repository will then be created for your group and you will be
+        emailed the link.
 
 
-.. warning::
-   Please adhere to this format as improper formatting
-   may result in your email being caught by spam filters.
+        .. warning::
+           Please adhere to this format as improper formatting
+           may result in your email being caught by spam filters.
 
-.. warning::
-   All members of a group will have access to this
-   repository and can make changes.
-   This means that anybody in your group can modify the work of of
-   everybody else in that group.
+        .. warning::
+           All members of a group will have access to this
+           repository and can make changes.
+           This means that anybody in your group can modify the work of of
+           everybody else in that group.
 
-.. warning::
-   This repository is publicly view-able.
-   Any content is view-able by *THE ENTIRE WORLD* so please do not add any
-   private information.
+        .. warning::
+           This repository is publicly view-able.
+           Any content is view-able by *THE ENTIRE WORLD* so please do not add any
+           private information.
 
-This prerequisite is satisfied if are able to
+        This prerequisite is satisfied if are able to
 
-* go to `https://github.com/futuresystems`
-* find your repository (for example: ``class-bigdata-technology-spring-2016-ABCDE``)
-* you are in the ``students`` team
+        * go to `https://github.com/futuresystems`
+        * find your repository (for example: ``class-bigdata-technology-spring-2016-ABCDE``)
+        * you are in the ``students`` team
+
+New Personal Repository
+-------------------------------------------------------------------------------
+
+https://github.com/new allows you create a new repository on github.com.
 
 Configuring your Git Identity (``git config``)
 ----------------------------------------------------------------------
@@ -235,6 +243,10 @@ The following are required:
 * your name
 * your email address
 * your SSH keys (``id_rsa`` and ``id_rsa.pub``)
+
+.. note::
+   We will use id_rsa and id_rsa.pub filenames to indicate a private and a
+   public key in this lesson. You may have different filenames.
 
 .. note::
    In order for git to function properly you will need to repeat the
@@ -266,11 +278,10 @@ information::
 Initializing the Repository with ``git clone``
 ----------------------------------------------------------------------
 
-Once you have access to a repository you should use it to work on
-assignments.
-You must do so from your FutureSystems account by logging into
-``india.futuresystems.org`` with ssh.
-For instance, if your account name on FutureSystems is ``albert``::
+Once you have access to a repository you should use it to work on assignments.
+You may use your local machine or FutureSystems account via
+``india.futuresystems.org``.  For instance, if your account name on
+FutureSystems is ``albert``::
 
   ssh albert@india.futuresystems.org
 
@@ -579,7 +590,7 @@ However, Ada can now tell Albert that she made some change:
 
 Albert can then do the following::
 
- $ cd class-bigdata-technology-spring-201**Overview and Introduction** 6-ABCDE
+ $ cd class-bigdata-technology-spring-2016-ABCDE
  $ git pull origin master
 
 Albert now has all the changes Ada made.
@@ -630,12 +641,12 @@ Now, Ada does the ``pull``-ing and sees Albert's changes::
  $ ls
  eggs.txt   fish.txt
 
+.. comment::
 
+        Resolving Conflicts
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Resolving Conflicts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-**In preparation**
+        **In preparation**
 
 
 Exercise
