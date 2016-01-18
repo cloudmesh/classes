@@ -1,10 +1,10 @@
 .. _ref-advanced-ssh:
 
 Advanced SSH
-======================================================================
+===============================================================================
 
 Overview
-----------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 This lesson will introduce you to advanced SSH configuration and
 tunneling. You can have a shortcut to your SSH connection with a
@@ -21,7 +21,7 @@ Topics:
 * SSH tunneling
 
 Prerequisite
-----------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 In order to conduct this lesson you should have knowledge of basics of SSH.
 
@@ -29,7 +29,7 @@ If you missed the lesson of basic SSH, go to
 `here <../system/futuresystemsuse.html#ssh>`_
 
 SSH Configuration File
-----------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 If you frequently log into a large number of remote machines with different
 keys and user names, you probably want to avoid typing a path of your key, a
@@ -69,7 +69,7 @@ configuation file. If you would like know more about other keywords, please see
           `here <../system/futuresystemsuse.html#ssh>`_
 
 SSH Tunneling (Port Forwarding)
-----------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 If you need to ensure a secure and encrypted connection between a local machine
 and a remote machine, SSH tunneling rather than VPN is simple and useful to
@@ -85,15 +85,15 @@ This is useful to bypass certain restrictions, e.g. blocked ports or protocols,
 especially if you are behind a firewall or on a private network. 
 
 Exercises
-----------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Exercise I
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Configure your FutureSystems account in SSH configuration file.
 
 Exercise II
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Assume that we have ``ssh -L 10010:remote:80
   albert@exercise.futuresystems.org``. Define your SSH configuration to simply
@@ -103,8 +103,6 @@ Exercise II
    keyword will be required.  
    
 Next Step
------------
+-------------------------------------------------------------------------------
 
-In the next page, ...
-
-`Modules Environment Tools <modules.html>`_
+In the next page, `Modules Environment Tools <modules.html>`_
