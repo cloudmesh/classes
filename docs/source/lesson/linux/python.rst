@@ -12,7 +12,7 @@ Overview
 
 This lesson will introduce you to programming in Python.
 
-.. tip:: Duration: 1 hour
+.. .. tip:: Duration: 1 hour
 
 Prerequisite
 ----------------------------------------------------------------------

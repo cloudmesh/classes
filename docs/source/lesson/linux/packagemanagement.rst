@@ -6,7 +6,7 @@ Overview
 
 This lesson will introduce you to using yum, apt-get and brew.
 
-.. tip:: Duration: 30 minutes
+.. .. tip:: Duration: 30 minutes
 
 Prerequisite
 ----------------------------------------------------------------------
@@ -46,7 +46,8 @@ then selected one to install.
 A package manager like yum, apt-get, and brew contains a **database**
 of software packages and their and their state: installed or not,
 version installed, version available, name, description.
-When you want to install a particular package, you need to know the name and then you can issue the appropriate install directive.
+When you want to install a particular package, you need to know the name and
+then you can issue the appropriate install directive.
 
 .. tip::
 
