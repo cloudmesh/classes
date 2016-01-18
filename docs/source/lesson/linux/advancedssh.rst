@@ -13,7 +13,7 @@ between local and remote machines using SSH tunneling. You will find
 out as how to define ssh options in the ``ssh`` config and what
 commands you need to establish SSH tunneling with a few examples.
 
-.. tip:: Duration: 30 mins
+.. .. tip:: Duration: 30 mins
 
 Topics:
 

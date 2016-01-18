@@ -6,7 +6,7 @@ Overview
 
 This lesson will introduce you using Softare Modules on FutureSystems
 
-.. tip:: Duration: 15 minutes
+.. .. tip:: Duration: 15 minutes
 
 Prerequisite
 ----------------------------------------------------------------------
