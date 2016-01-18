@@ -21,6 +21,10 @@ following areas:
 The material will allow you to easily get onto FutureSystems and either
 create your own project or join an existing one
 
+.. warning:: The following classes will use existing projects. Creating a new project is not allowed.
+
+* FG491: I590 - Projects on Big Data Software (Geoffrey Fox) Spring 2016
+
 Videos for users in a class project
 ----------------------------------------------------------------------
 
@@ -88,14 +92,15 @@ General videos
 
 
 Exercises
---------------
+-------------------------------------------------------------------------------
 
 Creating FutureSystems Accounts and Projects
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Create a portal account on FutureSystems.
    
-#. Identify an interesting project that you can conduct on FutureSystemss Cloud, HPC, or Grid resources.
+#. Identify an interesting project that you can conduct on FutureSystemss
+   Cloud, HPC, or Grid resources.
 
 #. Apply for a FutureSystems project or join a project.
 
@@ -128,9 +133,5 @@ Creating FutureSystems Accounts and Projects
 .. |video-portal-create-proj| replace:: |video-image| :youtube:`DzbLS6iCeTE`
 .. |video-fs-account| replace:: |video-image| :youtube:`CwHFaluDgzc`
 
-
-
-
- 
 
 
