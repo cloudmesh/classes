@@ -38,49 +38,50 @@ please feel free to use it.
 The most popular software making ssh clients available to Windows
 users include 
 
-* `cygwin <http://cygwin.com/install.html>`__
 * `putty <http://the.earth.li/~sgtatham/putty/0.62/htmldoc/>`__
+* `cygwin <http://cygwin.com/install.html>`__
 * or installing a `virtualiztion software
-  <http://cygwin.com/install.html>`__ and running Linux virtual
+  <http://www.vagrantup.com/downloads>`__ and running Linux virtual
   machine on your Windows OS.
 
-For a real quick start we recommend you use Cygwin (Linux-like environment for Windows)
-because it will ease your experience with FutureSystem and provide you
-with a command shell that is Linux like. If you have cygwin already
-installed, please use it, but make sure you have ssh installed. If
-not, we have made it even easier for you as we prepared a special
-Cygwin version that is ready to use. Once you have installed it, you
-can follow the same instructions as given in the rest of the sections
-presented to access FutureSystem from ssh. You can install cygwin it with the
-following simple steps.
+Putty is a single file to run. It does not require installation. You simply
+download a file and run it to open a SSH session. Cygwin provides
+Linux-like environment for Windows and both Putty or Cygwin will ease your
+experience with FutureSystems.
+
+.. comment:: If you have cygwin already installed, please use it, but make sure you have ssh
+        installed. If not, we have made it even easier for you as we prepared a special
+        Cygwin version that is ready to use. Once you have installed it, you can follow
+        the same instructions as given in the rest of the sections presented to access
+        FutureSystems from SSH. You can install cygwin with the following steps.
 
 
-.. list-table:: 
-   :widths: 10 60 30
-   :header-rows: 1
+        .. list-table:: 
+           :widths: 10 60 30
+           :header-rows: 1
 
-   * - Step
-     - Description
-     - Supporting Screenshot
-   * - Step 1
-     - Download Cygwin from our Portal \ :portal:`sites/default/files/cygwin.zip`.
-     - 
-   * - Step 2
-     - Uncompress the file.
-     - |image21|
-   * - Step 3
-     - Execute the file the 'Windows Batch File' called Cygwin.bat
-     - 
-   * - Step 4
-     - You may get a warning. Click on the Run button
-     - |image22|
-   * - Step 5
-     - You get a Linux-like terminal that will allow you to continue
-       with this manual. Hint: When showing examples of commands, the $ symbol precedes the
-       actual command. So, the other lines are the output obtained after
-       executing the command.
-     - |image23|
-     
+           * - Step
+             - Description
+             - Supporting Screenshot
+           * - Step 1
+             - Download Cygwin from our Portal \ :portal:`sites/default/files/cygwin.zip`.
+             - 
+           * - Step 2
+             - Uncompress the file.
+             - |image21|
+           * - Step 3
+             - Execute the file the 'Windows Batch File' called Cygwin.bat
+             - 
+           * - Step 4
+             - You may get a warning. Click on the Run button
+             - |image22|
+           * - Step 5
+             - You get a Linux-like terminal that will allow you to continue
+               with this manual. Hint: When showing examples of commands, the $ symbol precedes the
+               actual command. So, the other lines are the output obtained after
+               executing the command.
+             - |image23|
+             
 
 
 .. _s-ssh-osx:
@@ -98,7 +99,7 @@ Now click ``Utilities`` and then open the ``Terminal`` application.
 .. _s-ssh-generate:
 
 Generate a SSH key
------------------------
+-------------------------------------------------------------------------------
 
 .. sidebar:: |info-image| Hint
 
@@ -106,17 +107,13 @@ Generate a SSH key
    please learn about ssh-agent and ssh-add.
 
 First we must generate a ssh key with the tool `ssh-keygen
-<http://linux.die.net/man/1/ssh-keygen>`__. This program is commonly
-available on most UNIX systems (this includes Cygwin if you installed
-the ssh module or use our pre-generated cygwin executable). It will
-ask you for the location and name of the new key. It will also ask you
-for a passphrase, which you **MUST** provide. Some teachers and teaching 
-assistants advice you to not use passphrases. This is **WRONG** as it 
-allows someone that gains access to your computer to also gain access to 
-all resources that have the public key. Also, please use a strong passphrase 
-to protect it appropriately. 
+<http://linux.die.net/man/1/ssh-keygen>`__. This program is commonly available
+on most UNIX systems. It will ask you for the location and name of the new key.
+It will also ask you for a passphrase, which you **MUST** provide. Also, please
+use a strong passphrase to protect it appropriately. 
 
-In case you already have a ssh key in your machine, you can reuse it and skip this whole section.
+If you already have a ssh key in your machine, you can reuse it and skip
+this section.
 
 To generate the key, please type::
 
@@ -124,7 +121,7 @@ Example::
 
     ssh-keygen -t rsa -C localname@indiana.edu
 
-This command requires the interaction of the user. The first question is::
+This command requires a user input like::
 
     Enter file in which to save the key (/home/localname/.ssh/id_rsa): 
 
@@ -137,11 +134,10 @@ To do so, just press the enter key.
    your computer and may be different from your *portalusername*.
 
 
-The second and third question is to protect your ssh key with a
-passphrase. This passphrase will protect your key because you need to
-type it when you want to use it. Thus, you can either type a
-passphrase or press enter to leave it without passphrase. To avoid
-security problems, you **MUST** chose a passphrase. Make sure to not
+The second and third questions are to protect your ssh key with a passphrase.
+This passphrase will protect your key because you need to type it when your key
+is used. You can skip these if you want not to have passphrase. To avoid
+security problems, however, you **MUST** choose a passphrase. Make sure not to
 just type return for an empty passphrase::
 
     Enter passphrase (empty for no passphrase):
@@ -151,7 +147,7 @@ and::
     Enter same passphrase again:
 
 
-If executed correctly, you will see some output similar to::
+If you executed correctly, some output messages will be displayed similar to::
 
     Generating public/private rsa key pair.
     Enter file in which to save the key (/home/localname/.ssh/id_rsa): 
@@ -171,26 +167,31 @@ If executed correctly, you will see some output similar to::
     +-----------------+
 
 
-Once, you have generated your key, you should have them in the .ssh
+Once, you have generated a new key, you should have them in the .ssh
 directory. You can check it by ::
 
-    $ cat ~/.ssh/id_rsa.pub
+    $ ls -al $HOME/.ssh/
+
+To confirm a public key with a default name id_rsa.pub, run::
+
+    $ cat $HOME/.ssh/id_rsa.pub
+
 
 If everything is normal, you will see something like::
 
     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCXJH2iG2FMHqC6T/U7uB8kt6KlRh4kUOjgw9sc4Uu+Uwe/EwD0wk6CBQMB+HKb9upvCRW/851UyRUagtlhgythkoamyi0VvhTVZhj61pTdhyl1t8hlkoL19JVnVBPP5kIN3wVyNAJjYBrAUNW4dXKXtmfkXp98T3OW4mxAtTH434MaT+QcPTcxims/hwsUeDAVKZY7UgZhEbiExxkejtnRBHTipi0W03W05TOUGRW7EuKf/4ftNVPilCO4DpfY44NFG1xPwHeimUk+t9h48pBQj16FrUCp0rS02Pj+4/9dNeS1kmNJu5ZYS8HVRhvuoTXuAY/UVcynEPUegkp+qYnR user@myemail.edu
 
-Add or Replace Passphrase for an Already Generated Key
-----------------------------------------------------------------------
+Add or Replace Passphrase for an existing Key
+-------------------------------------------------------------------------------
 
 In case you need to change your change passphrase, you can simply run
 “ssh-keygen -p” command. Then specify the location of your current key,
 and input (old and) new passphrases. There is no need to re-generate
-keys::
+a key::
 
     ssh-keygen -p
 
-You will see the following output once you have completed that step::
+You will see the following output once you have completed ::
 
     Enter file in which the key is (/home/localname/.ssh/id_rsa):
     Enter old passphrase:
@@ -200,10 +201,11 @@ You will see the following output once you have completed that step::
     Your identification has been saved with the new passphrase.  
 
 
-Upload the key to the FutureSystem Portal
-----------------------------------------------------------------------
+Upload Publick Key to FutureSystems (portal.futuresystems.org)
+-------------------------------------------------------------------------------
 
-Next you need to upload the key to the portal. You must be logged into the portal to do so.
+Next you need to upload the key to the portal. You must sign in the portal to
+do so.
 
 
 .. list-table:: 
@@ -212,7 +214,7 @@ Next you need to upload the key to the portal. You must be logged into the porta
 
    * - Step
      - Description
-     - Supporting Screensho
+     - Supporting Screenshot
    * - Step 1 
      - Log into the portal
      - |image25|
@@ -235,23 +237,20 @@ Next you need to upload the key to the portal. You must be logged into the porta
        newlines or carriage returns that may have been introduced by
        incorrect pasting and copying. If so, please remove them.
      - 
-   
      
-At this point you have uploaded your key. However you will still need
-to wait till all accounts have been set up to use the key, or if you
-did not have an account till it has been created by an
-administrator. Please, check your email for further updates. You can
-also refresh this page and see if the boxes in your account status
-information are all green. Than you can continue.
+At this point you have uploaded your key. However you may wait till the key is
+activated. You will receive notification emails once there are progress. You
+can also check the status at the portal and see if the boxes in your account
+status information are all greens. Contact course team or issue a ticket at
+FutureSystems if you think there is an error. 
 
-Testing your ssh key
------------------------
+Login FutureSystems with New SSH Key
+-------------------------------------------------------------------------------
 
-If you have had no FutureSystem account before, you need to wait for
-up to two business days so we can verify your identity and create the
-account. So please wait.  Otherwise, testing your new key is almost
-instantaneous on india.  For other clusters like it can take
-around 30 minutes to update the ssh keys.
+If you are a first time user on FutureSystems, you may wait one-two business
+days until your account is activated. Otherwise, using your new key is almost
+instantaneous on india.futuresystems.org.  For other clusters e.g. juliet it
+can take upto 30 minutes to apply your new ssh keys.
 
 To log into india simply type the usual ssh command such as:: 
 
@@ -261,12 +260,12 @@ The first time you ssh into a machine you will see a message like this::
 
     The authenticity of host 'india.futuresystems.org (192.165.148.5)' can't be established.
     RSA key fingerprint is 11:96:de:b7:21:eb:64:92:ab:de:e0:79:f3:fb:86:dd.
-    Are you sure you want to continue connecting (yes/no)? yes 
+    Are you sure you want to continue connecting (yes/no)?
 
-You have to type yes and press enter. Then you will be logging into
-india. Other FutureSystem machines can be reached in the same
-fashion. Just replace the name india, with the appropriate
-FutureSystems resource name.
+You have to type ``yes`` to confirm host key verification. Then you will be
+logging into india. Other FutureSystem machines can be reached in a same
+fashion. Just replace the name ``india``, with the appropriate
+FutureSystems resource name e.g. ``juliet``.
 
 
 .. |image21| image:: ../images/cygwim1.png
