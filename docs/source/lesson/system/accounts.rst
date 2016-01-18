@@ -126,12 +126,12 @@ Creating FutureSystems Accounts and Projects
 
 .. |video-image| image:: /images/glyphicons_402_youtube.png 
 
-.. |video-portal-account| replace:: |video-image| :youtube:`c7mjKI8mJws`
-.. |video-portal-openid| replace:: |video-image| :youtube:`rZzpCYWDEpI`
-.. |video-portal-sshkey| replace:: |video-image| :youtube:`4wjVwQbOlSU`
-.. |video-portal-join-proj| replace:: |video-image| :youtube:`5xQiPBwt58s`
-.. |video-portal-create-proj| replace:: |video-image| :youtube:`DzbLS6iCeTE`
-.. |video-fs-account| replace:: |video-image| :youtube:`CwHFaluDgzc`
+.. |video-portal-account| replace:: |video-image| `c7mjKI8mJws <http://www.youtube.com/watch?v=c7mjKI8mJws>`_
+.. |video-portal-openid| replace:: |video-image| `rZzpCYWDEpI <http://www.youtube.com/watch?v=rZzpCYWDEpI>`_
+.. |video-portal-sshkey| replace:: |video-image| `4wjVwQbOlSU <http://www.youtube.com/watch?v=4wjVwQbOlSU>`_
+.. |video-portal-join-proj| replace:: |video-image| `5xQiPBwt58s <http://www.youtube.com/watch?v=5xQiPBwt58s>`_
+.. |video-portal-create-proj| replace:: |video-image| `DzbLS6iCeTE <http://www.youtube.com/watch?v=DzbLS6iCeTE>`_
+.. |video-fs-account| replace:: |video-image| `CwHFaluDgzc <http://www.youtube.com/watch?v=CwHFaluDgzc>`_
 
 
 
