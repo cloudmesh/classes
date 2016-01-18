@@ -268,22 +268,22 @@ fashion. Just replace the name ``india``, with the appropriate
 FutureSystems resource name e.g. ``juliet``.
 
 
-.. |image21| image:: ../images/cygwim1.png
+.. |image21| image:: /images/cygwim1.png
    :width: 200px
-.. |image22| image:: ../images/cygwin2.png
+.. |image22| image:: /images/cygwin2.png
    :width: 200px
-.. |image23| image:: ../images/cygwinfirst.png
+.. |image23| image:: /images/cygwinfirst.png
    :width: 200px
-.. |image24| image:: ../images/register-sshkey.png
+.. |image24| image:: /images/register-sshkey.png
    :target: https://portal.futuresystems.org/my/ssh-keys
-.. |image25| image:: ../images/portalLogin_0.png
+.. |image25| image:: /images/portalLogin_0.png
    :width: 200px
-.. |image26| image:: ../images/portalsshkey.png
+.. |image26| image:: /images/portalsshkey.png
    :width: 200px
-.. |image27| image:: ../images/portalclikaddkey_0.png
+.. |image27| image:: /images/portalclikaddkey_0.png
    :width: 200px
-.. |image28| image:: ../images/portalkeypaste_0.png
+.. |image28| image:: /images/portalkeypaste_0.png
    :width: 200px
 
 
-.. |info-image| image:: ../images/glyphicons_195_circle_info.png 
+.. |info-image| image:: /images/glyphicons_195_circle_info.png 
