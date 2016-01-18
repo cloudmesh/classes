@@ -95,11 +95,6 @@ watch video lessons and read through web contents.
      - `11 mins <https://mix.office.com/watch/9z30n7rs67x0>`_
      - `10 mins <lesson/system/futuresystemsuse.html#putty-under-preparation>`_
 
-* (a) Create an account on the FutureSystems Portal, upload your ssh
-  key and log into india. Dependent on your OS you may or may not need
-  to use putty. Please identify a location from where you can login
-  via ssh. Maybe such a location exists outside of your office.
-
        
 .. list-table:: Linux Basics
    :widths: 30 10 10
@@ -134,16 +129,12 @@ watch video lessons and read through web contents.
      - `3 mins <https://www.youtube.com/watch?v=0mBERd57pZ8&list=PLLO4AVszo1SOZF0tvCxLfS4AwkAJ1QKyp&index=6>`_
      - `10 mins <lesson/linux/modules.html>`_
 
-* (b) Find an editor that you will be useing to do your programming
-  with. For advanced Python programming we recommend PyCharm. However
-  you can probably only use this on your local computer. The way you
-  could use it is to edit python locally, check the code into github
-  and check it out into your vm or your login on
-  india.futuresystems.org. This is how many of us work.
-* (c) locate a package that you install on your VM that you started
-  with Openstack. Provide a verification that the package was
-  installed (log). Do not forget to delete the VM after you are
-  done. Which package manager is used on ubuntu?
+.. note:: Find an editor that you will be using to do your programming
+  with. For advanced Python programming we recommend PyCharm. However you can
+  use others e.g. Enthought Canopy on your local computer. The way you could
+  use it is to edit python locally, push the code into github and check it out into
+  your vm or your login node on india.futuresystems.org. This is how many of us
+  work.
 
 Length of the lessons in this Unit
 *******************************************************************************
