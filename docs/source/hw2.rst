@@ -13,13 +13,20 @@ Complete the following tasks. Place all answers in a file named HW2-$USERID.txt
 and submit it via IU Canvas. (Replace $USERID with your email name at IU e.g.
 HW2-albert.txt if your email address is albert@indiana.edu)
 
+Example view of your submission::
+
+  1. albert
+  2. ...
+  3. ...
+  9. http://... 
+
 FutureSystems Access
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Sign Up portal.futuresystems.org, if not exist.
    Provide your portal ID in your submission.
 
-2. Join a Class Project and provide a project number in your submission.
+2. Join Class Project and provide a project number in your submission.
 
 3. Generate a new SSH key and register on the portal.futuresystems.org.
    Provide your key fingerprint in your submission.
