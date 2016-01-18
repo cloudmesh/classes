@@ -154,6 +154,15 @@ Length of the lessons in this Unit
 Assignment HW
 *******************************************************************************
 
+.. list-table:: HW2
+   :widths: 30 10 10
+   :header-rows: 1
+
+   * - Topic
+     - Description
+   * - **HW2**
+     - `Account <hw2.html>`_
+ 
 
 .. comment::
 

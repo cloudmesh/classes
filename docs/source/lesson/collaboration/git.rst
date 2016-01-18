@@ -23,7 +23,7 @@ submitting assignments for your course.
 In order to use GitHub you will need (detailed below):
 
 * a GitHub account
-* to form a group with other students
+* to form a group with other students (by Week 10)
 * a FutureSystems account (see `Getting a FutureSystems account`_)
 * an SSH key
 
@@ -40,16 +40,16 @@ This prerequisite is satisfied if you are able to
 * go to `https://github.com`
 * sign in
 
-.. note::
+.. comment:: note::
    Please use a Gmail account to create your GitHub account.
    You can find details on how to do so at
    https://accounts.google.com/signup
 
-Form a Group and Identify a Project
+Form a Group and Identify a Project (By Week 10)
 ----------------------------------------------------------------------
 
 You need to form a group with other students and determine a project
-to work on together.
+to work on together by the 10th week of the class.
 If you have difficulty on deciding a project please contact the
 instructors.
 The instructors need to approve your project so please send them
@@ -79,8 +79,8 @@ an account.
 If you have trouble uploading an SSH Key please first consult
 documentation on `how to upload an SSH Key`_ before contact support.
 
-.. _FutureSystems documentation: http://futuregrid.github.io/manual/account.html#create-a-portal-account
-.. _how to upload an SSH Key: http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/ssh.html#s-using-ssh
+.. _FutureSystems documentation: http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/details.html#create-a-portal-account
+.. _how to upload an SSH Key: /lesson/system/ssh.html#s-using-ssh
 
 This prerequisite is satisfied if you are able to accomplish the following:
 
@@ -100,18 +100,14 @@ The prerequisite is satisfied if:
 
 * You can log onto ``india.futuresystems.org``
 
-On **Mac OS X** you will have
+If you have created a key with a default name:
 
-* The ``~/.ssh/id_rsa`` and ``~/.ssh/id_rsa.pub`` files exists
-
-On **Windows** using Putty:
-
-* **In Preparation**
+* The ``~/.ssh/id_rsa`` and ``~/.ssh/id_rsa.pub`` files exist
 
 If you have not satisfied this section, please see the `documentation`_
 for details on how to do so.
 
-.. _documentation: http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/ssh.html#s-using-ssh
+.. _documentation: /lesson/system/ssh.html#s-using-ssh
 
 Using git on india.futuresystems.org
 ----------------------------------------------------------------------
@@ -134,14 +130,15 @@ A sample output looks like::
         ...
 
 
-Upload your SSH key to GitHub
+Add your SSH Public key to GitHub
 ----------------------------------------------------------------------
 
-Now that you have an SSH key you need to upload it to GitHub in order
-to access your repository (once it is assigned).
+Now that you have an SSH keypair, you need to upload your public key to GitHub
+in order to access your repository with your SSH key.
 
-To add this key to GitHub, first copy your public ssh key.
-You can view the key by executing the following command::
+To add this key to GitHub, first copy your public SSH key string. This is a
+same key string that you registered on portal.futuresystems.org. For example,
+you can view the key by executing the following command::
 
  $ cat ~/.ssh/id_rsa.pub
 
@@ -231,7 +228,7 @@ emailed the link.
 This prerequisite is satisfied if are able to
 
 * go to `https://github.com/futuresystems`
-* find your repository (for example: ``class-bigdata-technology-spring-2015-ABCDE``)
+* find your repository (for example: ``class-bigdata-technology-spring-2016-ABCDE``)
 * you are in the ``students`` team
 
 Configuring your Git Identity (``git config``)
@@ -283,11 +280,11 @@ For instance, if your account name on FutureSystems is ``albert``::
   ssh albert@india.futuresystems.org
 
 Once you have your repository URL
-(for example: ``git@github.com:futuresystems/class-bigdata-technology-spring-2015-ABCDE.git``)
+(for example: ``git@github.com:futuresystems/class-bigdata-technology-spring-2016-ABCDE.git``)
 you can download the repository like so::
 
-  git clone git@github.com:futuresystems/class-bigdata-technology-spring-2015-ABCDE.git
-  cd class-bigdata-technology-spring-2015-ABCDE
+  git clone git@github.com:futuresystems/class-bigdata-technology-spring-2016-ABCDE.git
+  cd class-bigdata-technology-spring-2016-ABCDE
 
 Using the Repository
 ----------------------------------------------------------------------
@@ -465,7 +462,7 @@ Try it out using ``git show`` to view the contents of a commit::
  $ git show
  commit 05b162b8e7ffe5eb8dda8822a691244a26ff2c0e
  Author: Ada Lovelace <lovelace@gmail.com>
- Date:   Wed Feb 25 12:40:20 2015 -0500
+ Date:   Wed Feb 25 12:40:20 2016 -0500
 
      added counting fish
 
@@ -500,7 +497,7 @@ However, please try this out again later after making further commits.
  $ git log
  commit 05b162b8e7ffe5eb8dda8822a691244a26ff2c0e
  Author: Ada Lovelace <lovelace@gmail.com>
- Date:   Wed Feb 25 12:40:20 2015 -0500
+ Date:   Wed Feb 25 12:40:20 2016 -0500
 
      added counting fish
 
@@ -530,10 +527,10 @@ At this point there are two repositories: **local**  and **remote**
 (also known as ``origin``).
 You can inspect this for yourself.::
 
- $ cd class-bigdata-technology-spring-2015-ABCDE
+ $ cd class-bigdata-technology-spring-2016-ABCDE
  $ git remote -v
- origin	git@github.com:futresystems/class-bigdata-technology-spring-2015-ABCDE.git (fetch)
- origin	git@github.com:futresystems/class-bigdata-technology-spring-2015-ABCDE.git (push)
+ origin	git@github.com:futresystems/class-bigdata-technology-spring-2016-ABCDE.git (fetch)
+ origin	git@github.com:futresystems/class-bigdata-technology-spring-2016-ABCDE.git (push)
 
 Here, ``origin`` is the shorthand name referring the the location
 of the **remote** repository that this **local** one was created
@@ -587,7 +584,7 @@ However, Ada can now tell Albert that she made some change:
 
 Albert can then do the following::
 
- $ cd class-bigdata-technology-spring-2015-ABCDE
+ $ cd class-bigdata-technology-spring-201**Overview and Introduction** 6-ABCDE
  $ git pull origin master
 
 Albert now has all the changes Ada made.

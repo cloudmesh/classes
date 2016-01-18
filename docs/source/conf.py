@@ -44,7 +44,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Projects On Big Data Software'
-copyright = u'2016, Hyungro Lee, Badi Abdul-Wahid, Gregor von Laszewski'
+copyright = u'2016, Hyungro Lee, Badi Abdul-Wahid, Gregor von Laszewski,
+Geoffrey Fox'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
