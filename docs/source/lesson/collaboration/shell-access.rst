@@ -29,11 +29,10 @@ These prerequisites are satisfied if
 * your FutureSystems status is all green in your "Portal Account" tab on https://portal.futuresystems.org/
 * log into ``india.futuresystems.org`` using SSH.
 
-You may wish to view a `Detailed discussion about SSH`_.
+You may wish to view a :ref:`Detailed discussion about SSH <ref-advanced-ssh>`.
 
 .. _Creating FutureSystems Accounts and Projects: http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/accounts.html
 .. _Using SSH Keys: http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/accounts.html
-.. _Detailed discussion about SSH: http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/linux/advancedssh.html
 
 
 .. note:: Futuresystems Portalname and Project ID

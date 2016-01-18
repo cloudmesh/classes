@@ -65,7 +65,7 @@ watch video lessons and read through web contents.
      - Video
      - Text
    * - **Overview and Introduction**
-     - `2 mins <https://www.youtube.com/watch?v=ZWzYGwnbZK4&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=1>`_
+     - `16 mins <https://mix.office.com/watch/49k32frqaeri>`_ 
      - `10 mins <lesson/collaboration/overview.html>`_
    * - **Google**
         - Google+, Hangout, Remote Desktop
