@@ -41,7 +41,7 @@ GitHub
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 5. Sign up github.com with your SSH key.
-   Provide your github.com ID in your submission.
+   Provide your github.com user name in your submission.
 
 6. Create a 'I590-Projects-BigData-Software' repository on your account. 
    Create 'hw2' branch.
