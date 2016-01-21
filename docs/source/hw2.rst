@@ -5,6 +5,7 @@ Guidelines
 -------------------------------------------------------------------------------
 
 * Assignments must be completed individually.
+* Use an individual github repository. A repository in FutureSystems will be given later.
 
 Tasks
 -------------------------------------------------------------------------------
