@@ -5,6 +5,7 @@ Guidelines
 -------------------------------------------------------------------------------
 
 * Assignments must be completed individually.
+* Discussion is allowed (e.g. via Slack) but the submission should be made by yourself. Acknowledge your helpers/collaborators name in the submission if you discussed or get help from anyone.
 * Use an individual github repository. A repository in FutureSystems will be given later.
 
 Tasks
