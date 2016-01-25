@@ -46,7 +46,7 @@ GitHub
    Provide your github.com user name in your submission.
 
 6. Create a 'I590-Projects-BigData-Software' repository on your account. 
-   Create 'hw2' branch.
+   Create 'hw2' branch. Provide a clone URL of 'hw2' branch in your submission.
 
 7. This is a question for you to answer with appropriate git commands to
    satisfy the following descriptions::
