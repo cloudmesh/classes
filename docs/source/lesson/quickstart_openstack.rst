@@ -440,6 +440,15 @@ You will see the message like::
 ID is unique but Name of your VM is not. Try to use ID when you terminate VM
 instance.
 
+FAQ
+-------
+
+Q. ``nova`` command doesn't work with the error::
+
+   ERROR (Unauthorized): The request you have made requires authentication. (HTTP 401) (Request-ID: req-82f94837-78e7-4abd-a413-ff7645c45a7f)
+
+A. Your OpenStack credential (i.e. openrc.sh) is not valid. Check your file and project ID. If a problem is consistent, report to the course team.
+
 Any Questions?
 -------------------------------------------------------------------------------
 
