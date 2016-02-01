@@ -35,7 +35,7 @@ Horizon on FutureSystems
      - Protocol
      - Description
    * - |image-horizon| 
-     - Juno
+     - Kilo
      - India_OpenStack_Kilo_
      - Native OpenStack
      - GUI for OpenStack
