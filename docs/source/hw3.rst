@@ -30,12 +30,14 @@ Example view of your submission::
 IU GitHub
 -------------------------------------------------------------------------------
 
-From now on, we will use IU GitHub to submit assignments using a forked private
+From now on, we will use IU GitHub to submit assignments using a private
 repository. :ref:`IU GitHub Guidelines <ref-github-iu>`
 
-1. Fork a master and a HW3 repositories from the course organization.
-   Make a pull request to merge as instructed in the guidelines.
-   https://github.iu.edu/orgs/BDOSSPSpring2016/
+1. Create a private individual repository in the course organization and run
+   ``pull`` command to fetch and merge with the template repository.
+
+2. Create a ``HW3`` branch 
+   a HW3 repositories from the course organization.
 
 Play with ``nova`` command
 -------------------------------------------------------------------------------
