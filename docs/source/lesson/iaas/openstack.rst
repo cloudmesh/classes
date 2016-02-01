@@ -1,7 +1,7 @@
 .. _ref-openstack-beginners:
 
 OpenStack for Beginners
-======================================================================
+===============================================================================
 
 .. sidebar:: Page Contents
 
@@ -9,7 +9,7 @@ OpenStack for Beginners
       :local:
 
 Overview
-----------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 This lesson will introduce you to a very important topic to OpenStack core
 components.
@@ -17,18 +17,19 @@ components.
 .. tip:: Duration: 1 hour
 
 Prerequisite
-----------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 In order to conduct this lesson you should have knowledge of
 
 * `Overview OpenStack <overview_openstack.html>`_
 * Create an ssh key by following :ref:`s-ssh-generate`
-* Make sure to set the ``PORTALNAME`` appropriatly (``albert`` is just an example)::
+* Make sure to set the ``PORTALNAME`` appropriatly (``albert`` is just an
+  example)::
 
     $ export PORTALNAME=albert
 
 Description
-----------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 OpenStack is an open source cloud IaaS platform which provides compute,
 storage, and networking resources with service components.  We explore these
@@ -86,11 +87,15 @@ Next, you need to set up your environment correctly to use some
 OpenStack commands. This has been configured for you so you just need
 to source the appropriate file::
 
-  $ source ~/.cloudmesh/clouds/india/juno/openrc.sh
+  $ source ~/.cloudmesh/clouds/india/kilo/openrc.sh
 
+And select a project number that you are participated in, for example,
+``fg491`` if you are in I590 Spring 2015 class::
+
+ $ source ~/.cloudmesh/clouds/india/kilo/fg491
 
 Adding your SSH key
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Access to the machines we will start is authenticated using SSH.
 First, we need to tell openstack about our ssh key.
@@ -104,7 +109,8 @@ This only needs to be done once for each public key you wish to register::
    the section :ref:`Generate an SSH Key <s-ssh-generate>` to do so.
 
 
-For instance, in order to log into an openstack virtual machine from india, make sure you created an SSH keypair **on** india first, then add it to nova.
+For instance, in order to log into an openstack virtual machine from india,
+make sure you created an SSH keypair **on** india first, then add it to nova.
 You can now see that your key is visible to OpenStack::
 
   $ nova keypair-list
@@ -137,7 +143,7 @@ Launching a New Instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Starting a new instance is simple. The following command starts a new
-instance named *$PORTALNAME-tutorial1* with a Ubuntu 14.04 base image.  The size
+instance named *$PORTALNAME-tutorial1* with a Ubuntu 15.10 base image.  The size
 of the machine will be **small**.
 
 
@@ -145,8 +151,9 @@ Boot the instance using the following command:
 
 ::
 
-  $ nova boot --flavor m1.small --image futuresystems/ubuntu-14.04 --key_name $PORTALNAME-key $PORTALNAME-tutorial1
-
+  $ nova boot --flavor m1.small --image Ubuntu-15.10-64 --key_name
+  $PORTALNAME-key $PORTALNAME-tutorial1 --nic
+  net-id=e5228c15-38af-4f91-a6de-1590d399427e
 
 Here are some explanations for the arguments.
 
@@ -159,7 +166,11 @@ Here are some explanations for the arguments.
   should be registered on Nova Compute. Try ``nova keypair-list`` to
   see registered keys.
 * ``$PORTALNAME-tutorial1`` is a name for your vm instance.
-
+* ``--nic net-id`` is a network id to use for internal connection. Try ``nova
+  network-list`` to see available networks.
+* ``e5228c15-38af-4f91-a6de-1590d399427e`` is a network id for fg491, for
+  example. Each project has a individual network for internal use. Floating
+  IP addresses should be used if external access is required.
 
 Some useful ``nova`` subcommands are:
 
@@ -228,7 +239,7 @@ Access to VM Instance
 
 **REPLACE** the IP address ``10.23.2.182`` with one you have.
 
-You expect to see welcome message of your Ubuntu 14.04 VM instance.
+You expect to see welcome message of your Ubuntu VM instance.
 
 ::
 
@@ -257,6 +268,14 @@ You expect to see welcome message of your Ubuntu 14.04 VM instance.
   ubuntu@$PORTALNAME-tutorial1:~$ 
 
 Now you are on the VM instance.
+
+.. warning:: We are currently experiencing a network limitation as of
+        01/31/2016, you are able to use either a private IP address or a floating
+        IP address. You can't use both. If you don't assign a floating IP
+        address to your machine, you simply use your private IP address but if
+        you assigned a floating IP address, you have to use the floating IP.
+        Private IP won't be accessible via india.futuresystems.org. For more
+        information, please send a message to the Course email.
 
 Deleting VM Instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -321,6 +340,9 @@ These commands are available in glance version 0.15.0.
 Creating a New Image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. note:: This is reference only. You are NOT required to execute the
+        following commands as part of lessons.
+
 The following command will register Ubuntu 14.04 image to OpenStack cloud. You
 can download cloud images from Ubuntu Cloud.
 
@@ -354,6 +376,9 @@ Keystone.
 Project Creation (Tenant)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. note:: This is reference only. You are NOT required to execute the
+        following commands as part of lessons.
+
 OpenStack manages user accounts with a group. OpenStack represents a group as a
 *project* or a *tenant* interchangeably. Each user should participate in at
 least a single project, they can join multiple projects though. With a group of
@@ -368,6 +393,9 @@ have higher or smaller size of vm instances.
 User Creation 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. note:: This is reference only. You are NOT required to execute the
+        following commands as part of lessons.
+
 To create a new user, you need a tenant (project) id, if you provide a
 group-based cloud service.
 
@@ -380,6 +408,9 @@ group-based cloud service.
 
 List of Users or Projects
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: This is reference only. You are NOT required to execute the
+        following commands as part of lessons.
 
 Try ``user-list`` or ``tenant-list`` sub command to see a list of users or
 projects.
@@ -416,6 +447,11 @@ The following commands are useful to manage roles in a project:
 Swift Storage 
 ------------------------------------------------------------------------------
 
+.. note:: This is reference only. You are NOT required to execute the
+        following commands as part of lessons.
+
+.. note:: Swift is not available on OpenStack Kilo FutureSystems. (1/31/2016)
+
 Swift is an object storage service on OpenStack like Amazon Simple Storage
 Service (S3). If you are looking for a block storage, OpenStack Cinder is one
 for you.
@@ -441,6 +477,9 @@ The following sub commands tell what you can do:
 
 Neutron Network
 ------------------------------------------------------------------------------
+
+.. note:: This is reference only. You are NOT required to execute the
+        following commands as part of lessons.
 
 Neutron is a OpenStack Networking service to manage NAT, firewall, etc. This
 type of tasks is for OpenStack cloud administrator. We briefly explore a few
@@ -515,10 +554,10 @@ Exercises
 
 
 Next Step
------------
+-------------------------------------------------------------------------------
 
 In the next page, we will learn how to start a virtual server using OpenStack
 Horizon.
 
-`OpenStack horizon <openstack_horizon.html>`_
+.. `OpenStack horizon <openstack_horizon.html>`_
 
