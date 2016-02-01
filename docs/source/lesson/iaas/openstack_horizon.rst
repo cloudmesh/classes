@@ -90,12 +90,6 @@ Exercises
    To find your password, find the ``OS_PASSWORD`` field in your openrc.sh.
    See the comment above for details.
 
-Next Step
--------------------------------------------------------------------------------
-
-In the next page, we explore other features of OpenStack.
-
-`Link here </introduction_to_cloud_computing/iaas/index.html>`_
 
 .. _India_OpenStack_Kilo: https://openstack.futuresystems.org/horizon
 
