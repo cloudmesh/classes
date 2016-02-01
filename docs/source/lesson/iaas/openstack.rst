@@ -151,9 +151,7 @@ Boot the instance using the following command:
 
 ::
 
-  $ nova boot --flavor m1.small --image Ubuntu-15.10-64 --key_name
-  $PORTALNAME-key $PORTALNAME-tutorial1 --nic
-  net-id=e5228c15-38af-4f91-a6de-1590d399427e
+  $ nova boot --flavor m1.small --image Ubuntu-15.10-64 --key_name $PORTALNAME-key $PORTALNAME-tutorial1 --nic net-id=e5228c15-38af-4f91-a6de-1590d399427e
 
 Here are some explanations for the arguments.
 
