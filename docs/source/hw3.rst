@@ -46,7 +46,7 @@ are:
    * pip
    * ansible
 
-.. warning:: Do not terminate your instance, even though you completed and
+.. warning:: Do not terminate your instance, even if you completed and
         submitted hw3.
 
 Test Program
