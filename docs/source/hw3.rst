@@ -11,6 +11,13 @@ Guidelines
 * Use an individual github repository. A repository in FutureSystems will be
   given later.
 
+
+Create IU GitHub Account
+-------------------------------------------------------------------------------
+
+* Simply login https://github.iu.edu with your IU Username and Password
+  (It is a same IU Credential that you use on other IU sites e.g. one.iu.edu)
+
 OpenStack Command Line Tool ``nova``
 -------------------------------------------------------------------------------
 
