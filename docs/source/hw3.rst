@@ -47,8 +47,13 @@ Test Program
 
 We provide ``hw3.py`` test file in your repository. Run this on
 india.futuresystems.org, if you completed all tasks above. All available tests
-should be passed without errors. How to run? simply run this on your ssh
-terminal::
+should be passed without errors. We use *virtualenv* to prepare packages.
+Run::
+
+        bash setup.sh
+        source $HOME/bdossp_sp16/bin/activate
+
+Now, we can run the test program::
 
         python hw3.py
 
