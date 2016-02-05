@@ -31,19 +31,39 @@ are:
    * on ``fg491`` project
    * with a ``m1.small`` flavor,
    * a ``Ubuntu-15.10-64`` image,
-   * the registered key,
+   * the registered key above,
    * and ``hw3-$OS_USERNAME`` vm name
    * Assign a Floating IP address
 * Install required software on a virtual instance
    * virtualenv
    * pip
    * ansible
-   * python-dev
 
-.. note:: The two terms, VM or virtual instance, are exchangeable in this
-        context.
+.. warning:: Do not terminate your instance, if you completed and submitted
+        hw3.
 
-Submission on IU GitHub (github.iu.edu)
+Test Program
+-------------------------------------------------------------------------------
+
+We provide ``hw3.py`` test file in your repository. Run this on
+india.futuresystems.org, if you completed all tasks above. All available tests
+should be passed without errors. How to run? simply run this on your ssh
+terminal::
+
+        python hw3.py
+
+Completed all? You may see::
+
+        ...........
+        ----------------------------------------------------------------------
+        Ran 11 tests in 1.646s
+
+        OK
+
+Find ``hw3-results.txt`` file after you ran ``hw3.py`` python program in your
+current directory. Add this file in your IU GitHub repository.
+
+Submission via IU GitHub (github.iu.edu)
 -------------------------------------------------------------------------------
 
 From now on, we will use IU GitHub to submit assignments on a private
@@ -75,20 +95,25 @@ repository. :ref:`IU GitHub Guidelines <ref-github-iu>`
 
    git push origin hw3
 
-Challenging Tasks (Optional with bonus points)
+Challenging Tasks (Optional)
 -------------------------------------------------------------------------------
 
-The following tasks are optional but strongly recommended to try.
+The following tasks are optional but strongly recommended to try. These are
+related to **Python** packages and APIs (application program interface).
+OpenStack ``nova`` is also extended to get more experience.
 
-'Hello Big Data' Flask
+'Hello Big Data' Flask Web Framework
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Find a ``flask`` directory in your assignment repository. We provide
-``hello.py`` python file and you can run the file in your VM but there are a few
-requirements that we request::
+Find a ``flask`` sub-directory in ``challange`` directory in your assignment
+repository.  We provide ``hello.py`` python file and you can run the file in
+your VM but there are a few requirements that we request::
 
    * Use virtualenv named 'bdossp-sp16' in your home directory
    * Open a web port to the Flask application to allow access from outside
+
+.. note:: The two terms, VM or virtual instance, are exchangeable in this
+        context.
 
 1. What command(s) do you run to create and enable the virtualenv?
 2. ``python hello.py`` may not work if you run only with standard python
@@ -104,8 +129,39 @@ requirements that we request::
    you need to see current rule(s) in the security group and to apply it to
    your VM?
 
-Cloud Management API (challenge task, optional, bonus points)
+Write your solution in the name of ``flask-sol.txt`` text file after completing
+the tasks above. 
+
+Example view of your submission::
+
+  1. albert
+  2. ...
+  3. ...
+  9. http://... 
+
+.. comment::
+
+        Writing a script
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+        Find a `hw3-script` directory in your assignment repository. We provide a template
+        bash script named ``hw3-
+
+        Cloud Management API (libcloud)
+        -------------------------------------------------------------------------------
+
+
+Useful links
 -------------------------------------------------------------------------------
 
-4. libcloud
+* Python lesson:
+  http://bdossp-spring2016.readthedocs.org/en/latest/lesson/linux/python.html
 
+* OpenStack Beginners:
+  http://bdossp-spring2016.readthedocs.org/en/latest/lesson/iaas/openstack.html
+
+* OpenStack QuickGuide:
+  http://bdossp-spring2016.readthedocs.org/en/latest/lesson/quickstart_openstack.html
+
+* OpenStack Operations Guide: 
+  http://docs.openstack.org/openstack-ops/content/user_facing_operations.html
