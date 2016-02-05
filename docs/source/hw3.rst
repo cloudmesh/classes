@@ -91,7 +91,7 @@ repository. :ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`
 
 3. Run ``pull`` command to fetch and merge with the template repository::
 
-   git pull git@github.iu.edu:BDOSSPSpring2016/assignments.git hw3
+   git pull git@github.iu.edu:bdossp-sp16/assignments.git hw3
 
 4. Merge the template::
 
