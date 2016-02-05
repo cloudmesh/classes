@@ -72,7 +72,7 @@ Submission via IU GitHub (github.iu.edu)
 -------------------------------------------------------------------------------
 
 From now on, we will use IU GitHub to submit assignments on a private
-repository. :ref:`IU GitHub Guidelines <ref-github-iu>`
+repository. :ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`
 
 1. Clone your private repository from the course organization.
    You IU Username is the name of your repository.
