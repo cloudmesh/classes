@@ -39,7 +39,7 @@ At the end of this lesson you will be able to:
 Description
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/description.rst
+.. include:: /lesson/linux/python/description.rst
 
 Acknowledgments
 ----------------------------------------------------------------------
@@ -53,23 +53,23 @@ Tutorial`_ copyright `Python Software Foundation`_.
 Introduction
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/introduction.rst
+.. include:: /lesson/linux/python/introduction.rst
 
 Using Python on FutureSystems
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/on-futuresystems.rst
+.. include:: /lesson/linux/python/on-futuresystems.rst
 
 Interactive Python
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/interactive.rst
+.. include:: /lesson/linux/python/interactive.rst
 
 
 Syntax
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/syntax.rst
+.. include:: /lesson/linux/python/syntax.rst
 
 
 Writing and Saving Programs
@@ -78,17 +78,17 @@ Writing and Saving Programs
 Make sure you are no longer in the interactive interpreter.
 If you are you can type ``quit()`` and press Enter to exit.
 
-.. include:: /class/lesson/linux/python/saving.rst
+.. include:: /lesson/linux/python/saving.rst
 
 Installing Libraries
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/pip-install.rst
+.. include:: /lesson/linux/python/pip-install.rst
 
 Resources
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/resources.rst
+.. include:: /lesson/linux/python/resources.rst
 
   
 Exercises
