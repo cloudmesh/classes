@@ -55,14 +55,14 @@ We provide ``hw3.py`` test file in your repository. Run this on
 india.futuresystems.org, if you completed all tasks above. All available tests
 should be passed without errors. Clone your private repository from IU GitHub. 
 See details here: :ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`. 
-We use *virtualenv* to prepare packages.
+You will use *virtualenv* to prepare packages.
 
 Run::
 
         bash setup.sh
         source $HOME/bdossp_sp16/bin/activate
 
-Now, we can run the test program::
+Now, you can run the test program::
 
         python hw3.py
 
@@ -80,7 +80,7 @@ current directory. Add this file in your IU GitHub repository.
 Submission via IU GitHub (github.iu.edu)
 -------------------------------------------------------------------------------
 
-From now on, we will use IU GitHub to submit assignments on a private
+From now on, you will use IU GitHub to submit assignments on a private
 repository. :ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`
 
 1. Clone your private repository from the course organization.
@@ -144,7 +144,7 @@ your VM but there are a few requirements that we request::
    your VM?
 
 Write your solution in the name of ``flask-sol.txt`` text file after completing
-the tasks above. 
+the tasks above. Add this file in the ``flask`` sub-directory.
 
 Example view of your submission::
 
