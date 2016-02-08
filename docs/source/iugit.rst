@@ -30,8 +30,8 @@ Instructions
 - Find your private repository named as IU Username:
   https://github.iu.edu/organizations/bdossp-sp16/USERNAME
 .. note:: Report to Course Team if you can't find your repository
-- Clone your private repository on your local machine, and **REPLACE** USERNAME
-  with your real IU Username: ::
+- Clone your private repository on your home directory on india.futuresystems.org,
+and **REPLACE** USERNAME with your real IU Username: ::
 
      git clone git@github.iu.edu:bdossp-sp16/USERNAME.git
 
