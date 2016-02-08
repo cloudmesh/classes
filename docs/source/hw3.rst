@@ -11,7 +11,6 @@ Guidelines
 * Use an individual github repository. A repository in FutureSystems will be
   given later.
 
-
 Create IU GitHub Account
 -------------------------------------------------------------------------------
 
@@ -54,7 +53,10 @@ Test Program
 
 We provide ``hw3.py`` test file in your repository. Run this on
 india.futuresystems.org, if you completed all tasks above. All available tests
-should be passed without errors. We use *virtualenv* to prepare packages.
+should be passed without errors. Clone your private repository from IU GitHub. 
+See details here: :ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`. 
+We use *virtualenv* to prepare packages.
+
 Run::
 
         bash setup.sh
