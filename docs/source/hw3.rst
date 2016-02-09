@@ -51,10 +51,11 @@ are:
 Test Program
 -------------------------------------------------------------------------------
 
-We provide ``hw3.py`` test file in your repository. Run this on
-india.futuresystems.org, if you completed all tasks above. All available tests
-should be passed without errors. Clone your private repository from IU GitHub. 
-See details here: :ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`. 
+We provide ``hw3.py`` test file in your repository, checkout ``hw3`` branch.
+Run this on india.futuresystems.org, if you completed all tasks above. All 
+available tests should be succeeded without errors. First, *clone* your 
+private repository from IU GitHub.  See details here: 
+:ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`. 
 You will use *virtualenv* to prepare packages.
 
 Run::
