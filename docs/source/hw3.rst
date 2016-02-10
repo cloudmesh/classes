@@ -78,6 +78,8 @@ Completed all? You may see::
 Find ``hw3-results.txt`` file after you ran ``hw3.py`` python program in your
 current directory. Add this file in your IU GitHub repository.
 
+.. note:: Where should I run the test program hw3.py? It is on india.futuresystems.org, not your VM instance.
+
 Submission via IU GitHub (github.iu.edu)
 -------------------------------------------------------------------------------
 
