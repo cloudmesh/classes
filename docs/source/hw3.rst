@@ -78,7 +78,18 @@ Completed all? You may see::
 Find ``hw3-results.txt`` file after you ran ``hw3.py`` python program in your
 current directory. Add this file in your IU GitHub repository.
 
-.. note:: Where should I run the test program hw3.py? It is on india.futuresystems.org, not your VM instance.
+FAQ
+^^^^
+
+Q. Where should I run the test program hw3.py?
+A. It is on india.futuresystems.org, not your VM instance.
+
+Q. ``bash setup.sh`` produces ``command not found`` errors.
+A. Make sure you can use ``nova`` command to start a new VM like you did in the hw3 tasks. Otherwise, the test program can't verify what you accomplished.
+
+Q. The ``hw3.py`` test program was failed due to missing python package named  ``lib``.
+A. Run hw3.py in a main directory of the hw3 branch. ``hw3.py`` itself won't work. Helper functions are required.
+
 
 Submission via IU GitHub (github.iu.edu)
 -------------------------------------------------------------------------------
