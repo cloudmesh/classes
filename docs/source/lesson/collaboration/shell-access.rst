@@ -1,5 +1,7 @@
+.. _ref-shell-access:
+
 Shell Access
-======================================================================
+===============================================================================
 
 .. sidebar:: Page Contents
 
@@ -17,21 +19,24 @@ FutureSystems to a Teaching Assistant.
 
 
 Prerequisites
-----------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 You will need:
 
 * an account on FutureSystems (see `Creating FutureSystems Accounts and Projects`_)
+
 * upload an SSH key (see `Using SSH Keys`_)
 
 These prerequisites are satisfied if
 
-* your FutureSystems status is all green in your "Portal Account" tab on https://portal.futuresystems.org/
+* your FutureSystems status is all green in your "Portal Account" tab on
+  https://portal.futuresystems.org/
 * log into ``india.futuresystems.org`` using SSH.
 
 You may wish to view a :ref:`Detailed discussion about SSH <ref-advanced-ssh>`
 
 .. _Creating FutureSystems Accounts and Projects: http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/accounts.html
+
 .. _Using SSH Keys: http://cloudmesh.github.io/introduction_to_cloud_computing/accounts/accounts.html
 
 
