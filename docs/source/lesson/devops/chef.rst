@@ -353,7 +353,7 @@ Now, we open a web browser and see Apache up and running.
 
 http://[IP_ADDRESS]
 
-.. image:: ../../../images/lesson_chef.png
+.. image:: ../../images/lesson_chef.png
 
 Acknowledgement
 -------------------------------------------------------------------------------
