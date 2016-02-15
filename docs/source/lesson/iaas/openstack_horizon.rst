@@ -1,4 +1,4 @@
-.. _openstack_horizion_lesson:
+.. _openstack_horizon_lesson:
 
 OpenStack Horizion Web Dashboard
 ===============================================================================
