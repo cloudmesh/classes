@@ -100,7 +100,9 @@ repository. :ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`
 1. Clone your private repository from the course organization.
    You IU Username is the name of your repository.
 
-2. Create a ``hw3`` branch ::
+2. Create a ``hw3`` branch 
+
+::
 
    git branch hw3
    git checkout hw3
@@ -109,19 +111,21 @@ repository. :ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`
 
    git pull git@github.iu.edu:bdossp-sp16/assignments.git hw3
 
-4. Merge the template::
+4. Sync with remote::
 
-   git commit -am "initial merge with the template"
+   git push -u origin hw3
 
 5. Add ``hw3-results.txt`` to your repository::
 
    git add hw3-results.txt
 
-5. Commit your changes
+6. Merge the template::
 
-6. Sync with remote::
+   git commit -am "initial merge with the template"
 
-   git push origin hw3
+7. Sync your changes::
+
+   git push -u origin hw3
 
 Challenging Tasks (Optional)
 -------------------------------------------------------------------------------
