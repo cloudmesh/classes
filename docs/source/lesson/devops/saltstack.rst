@@ -76,11 +76,11 @@ one.
 
 On a VM instance, simply run a switch user command::
 
-  ubuntu@salt:~$ sudo su -
+  ubuntu@myserver:~$ sudo su -
 
 If you see ``root`` label, you are in ``root`` account on your machine::
 
-  root@salt:~#
+  root@myserver:~#
 
 
 Update Hostname
@@ -134,7 +134,7 @@ on various operating systems.
 Or two lines will be used::
 
   curl -L https://bootstrap.saltstack.com -o install_salt.sh
-  sudo sh install_salt.sh
+  sudo sh install_salt.sh -P git develop
 
 SLS Files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -294,15 +294,17 @@ each other.
 
   salt-key -L
 
-Our test machine (hostname: salt) may generate outputs like so::
+.. note:: salt-key requires a root privilege. Run with ``sudo`` command.
+
+Our test machine generates outputs like so::
 
         Accepted Keys:
         Unaccepted Keys:
-        salt
+        myserver
         Rejected Keys:
 
 The ``Unaccepted Keys`` means that there is no registered keys for the hosts,
-in this example, the ``salt`` host is not registered.  What we need to do is
+in this example, the host ``myserver`` is not registered.  What we need to do is
 simply registering the host with the following command::
 
   salt-key -a '$HOSTNAME'
@@ -312,9 +314,9 @@ Use a different hostname if you have other name.
 Once you registered your host, list public keys again to confirm that it's
 registered. The output looks like this::
 
- root@salt:~# salt-key -L
+ root@myserver:~# salt-key -L
  Accepted Keys:
- salt
+ myserver 
  Unaccepted Keys:
  Rejected Keys:
 
@@ -336,7 +338,7 @@ The following commands install ``nginx`` web server and starts its service.
 
 The output looks like so::
 
-  salt:
+  myserver:
       ----------
       nginx:
            ----------
@@ -353,13 +355,13 @@ The following command starts a ``nginx`` web server.
 
 The output looks like so::
 
-  salt:
+  $HOSTNAME:
       True
 
 * '*': all hosts
   The ‘*’ refers to all minions whose key is accepted. In this example,
-  ``salt`` in only minion targeted to install ``nginx``.  The particular
-  hostname can be speicified, e.g. ``salt 'salt' ...``.
+  ``myserver`` is the minion targeted to install ``nginx``.  The particular
+  hostname can be speicified instead of '*'.
 
 * pkg.install: Install a package, ``refresh=True`` option can be added to
   update the dpkg database.
@@ -385,8 +387,8 @@ To check remote machines are alive, we can use ``ping``.
 
 ::
 
-  root@salt:~# salt '*' test.ping
-  salt:
+  root@myserver:~# salt '*' test.ping
+  myserver:
       True
 
 System Command
@@ -397,8 +399,8 @@ sub-command. Our test result looks like so:
 
 :: 
 
-  root@salt:~# salt '*' cmd.run 'ifconfig'
-  salt:
+  root@myserver:~# salt '*' cmd.run 'ifconfig'
+  myserver:
   
     eth0      Link encap:Ethernet  HWaddr fa:16:3e:6d:a1:40
               inet addr:10.23.0.1  Bcast:10.23.3.255  Mask:255.255.252.0
@@ -437,8 +439,8 @@ remote machines satisfy the conditions specified with ``-G`` option.  For
 example, if you like to view IP address on *Ubuntu* minions (remote machines),
 run salt like this::
 
-  root@salt:~# salt -G 'os:Ubuntu' grains.get ip_interfaces:eth0
-  salt:
+  root@myserver:~# salt -G 'os:Ubuntu' grains.get ip_interfaces:eth0
+  myserver:
       - 10.23.0.162
 
 The similar command is ::
@@ -532,5 +534,5 @@ Exercise I
 * Install Python ``virtualenv`` using salt. 
 * Run ``virtualenv --version``.
 * Type ``exit`` to save the script.
-* Submit ``salt_ex1_$USERNAME.txt`` file.
+.. * Submit ``salt_ex1_$USERNAME.txt`` file.
 
