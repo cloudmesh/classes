@@ -162,7 +162,7 @@ Stack Creation
 
 You need a template first. Save a sample template above in a YAML file, e.g.
 ``openstack_heat_ex1.yaml`` It will create a new VM instance with a ``Ubuntu
-14.04`` image, ``albert-india-key`` SSH keypair and a ``m1.small`` flavor.  You
+15.10`` image, ``albert-india-key`` SSH keypair and a ``m1.small`` flavor.  You
 have to **REPLACE** ``albert-india-key`` with your registered keyname.
 
 If you are ready to create a new stack, run a following command:
@@ -205,7 +205,7 @@ The output looks like::
   |                      |   "OS::stack_id": "a6c98d15-f569-426b-a364-46bcca83104",                   |
   |                      |   "OS::stack_name": "heat-tutorial-albert",                                |
   |                      |   "instance_type": "m1.small",                                             |
-  |                      |   "image_id": "futuresystems/ubuntu-14.04",                                |
+  |                      |   "image_id": "futuresystems/ubuntu-15.10-64",                             |
   |                      |   "key_name": "albert-india-key"                                           |
   |                      | }                                                                          |
   | parent               | None                                                                       |
