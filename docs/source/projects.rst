@@ -13,8 +13,10 @@ Important Dates
 
 * Project Proposal: March 18th
 * Oral Presentation: Week 12 - April 1st, 2nd (Tentative)
-                     Week 13 - April 8th, 9th (Tentative)
 * Final Submission: April 29th
+
+.. note:: Those who can't make the presentation with a time conflict, schedule
+        a meeting with Course Team.
 
 Submission
 -------------------------------------------------------------------------------
@@ -54,14 +56,97 @@ Project Style
  * Basic 
  * Bonus
 
+You do not require any strong background or programming skills with HPC or
+Hadoop to complete a final project. We've noticed that, however, there are some
+difficulties learning Linux systems, shells, or scripts and improving
+programming skills with parallelization in general. You have two options, Basic
+and Bonus, to start your project based on your capability on these.
+
+Basic Project
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Basic project starts from existing projects and extends the scope of the
+projects with minimal efforts on code developments.  For example, take existing
+Hadoop benchmark tools and run them on hadoop clusters with different system
+configurations to compare. Try to increase data nodes, master nodes or add
+ZooKeeper with different settings and measure differences. Comparing
+performance in different software versions, settings or configurations tells
+you where focal points are to optimize or improve throughput of hadoop. Choose
+a basic project if you are not conpetent with programming languages e.g. Java
+or Python. Note that starting from existing projects doesn't mean that you can
+simply search and download popular projects on the internet and execute. You
+need to address new findings and include the original source of the projects
+that you referenced in your final project and reports.
+
+.. TeraSort, DFSIO, NNBench, or MRBench on a different system configurations 
+
+Bonus Project
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you are working on a bonus project, you are required to write code/scripts
+to implement your idea in the final project. Installation and configuration
+should be done by Ansible Playbooks. For example, take NIST Facial Recognition
+software and run with Hadoop clusters. Change serial calculation to be executed
+in parallel. Writing map and reduce functions may be necessary in Java, Python
+or Scala. If data analytics is the area that you are interested, you may try to
+develop new algorithms for complex face detection. Developing parallel programs
+would be involved in most cases. There are many other possibilities. For
+instance, take hadoop-ansible-stacks and create new roles and addons. Add Hives
+or update Spark with the latest release using parameters or definition in YAML.
+If you focus on managing systems and software deployments, think about how to
+balance load by adding/removing additional nodes or how to apply patches on
+particular nodes.
+
 Project Type
 -------------------------------------------------------------------------------
 
 * Deployment
-* Performance
-* Parallel
+* Benchmark (Performance Test)
+* Parallelization
 * Analytics
-* Created Own
+* Created Own (upon approval)
+
+Deployment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Deployment project focuses on automated software deployments on multiple nodes
+using automation tools/configuration managements such as Ansible, Chef, Puppet,
+Salt or Juju.
+
+Ansible is recommended and supported in the class.
+
+Benchmark
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Benchmark project focuses on testing system's performance by putting some
+stresses on different spots. Filesystems, CPUs, or memories can be tested and
+measured, if you think about hardware benchmark.  APIs, messaging queues, load
+balancers or any applications can be tested and measured, if software is more
+focused. Hibench, Big Data Benchmark, or default built-in tools e.g. Terasort
+are available for Hadoop benchmark.
+
+Parallelization
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Parallelization project focuses on building efficient software stacks in
+parallel including MPI and Hadoop clusters. For example, you may find writing
+map and reduce functions is relatively easy e.g. WordCount, but applying it in
+practice with large datasets isn't that simple.
+
+Analytics
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Analytics project focuses on developing algorithms for different problems based
+on datasets and topics that you chose in your project. You will be required
+to develop algorithms for improving parallelism or performance in this project 
+rather than developing new algorithm for face recognition, for example.
+
+Created Own
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can develop own project idea and make it as a class project upon approval.
+Describe your thought, topics and make a clear statement of the problems you
+identified in your project proposal.
 
 Project Requirement
 -------------------------------------------------------------------------------
@@ -214,8 +299,18 @@ Q. Report or survey type of final project is allowed?
 
 A. No, software project is only allowed in this class.
 
+Q. I found there is a similar project that I proposed, should I keep working
+on my project?
+
+A. Consult with Course Team to make differences in detail. You may be asked to
+focus on specific area in order to avoid similarity.
+
+Q. Can't make a oral presentation because I have a business trip (or a conference).
+
+A. Schedule a meeting in Week 11 or Week 13 with Course Team.
+
 Questions & Support
 -------------------------------------------------------------------------------
 
 * Course Email: bdosspcoursehelp@googlegroups.com
-
+* Google Hangout (voice & screen share): upon request
