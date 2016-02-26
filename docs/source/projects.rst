@@ -56,7 +56,7 @@ Project Style
  * Basic 
  * Bonus
 
-You do not require any strong background or programming skills with HPC or
+You do not require strong background or programming skills with HPC or
 Hadoop to complete a final project. We've noticed that, however, there are some
 difficulties learning Linux systems, shells, or scripts and improving
 programming skills with parallelization in general. You have two options, Basic
@@ -88,14 +88,17 @@ to implement your idea in the final project. Installation and configuration
 should be done by Ansible Playbooks. For example, take NIST Facial Recognition
 software and run with Hadoop clusters. Change serial calculation to be executed
 in parallel. Writing map and reduce functions may be necessary in Java, Python
-or Scala. If data analytics is the area that you are interested, you may try to
-develop new algorithms for complex face detection. Developing parallel programs
-would be involved in most cases. There are many other possibilities. For
-instance, take hadoop-ansible-stacks and create new roles and addons. Add Hives
-or update Spark with the latest release using parameters or definition in YAML.
-If you focus on managing systems and software deployments, think about how to
-balance load by adding/removing additional nodes or how to apply patches on
-particular nodes.
+or Scala. Write Ansible Playbooks to install and configure your software
+packages within a few commands. If data analytics is the area that you are
+interested, you may try to develop new techniques to improve performance or
+implement parallel algorithms for complex face detection. Developing parallel
+programs would be involved in most cases. There are other possibilities as
+well. For instance, take hadoop-ansible-stacks which consists of basic
+components of Hadoop and append new software tools by writing new playbooks in
+roles and addons. You could add Hives or update Spark with the latest release
+using parameters or definition in YAML. If you focus on managing systems and
+software deployments, think about how to manage traffics by adding/removing
+additional nodes or how to apply new patches or fix bugs on particular nodes.
 
 Project Type
 -------------------------------------------------------------------------------
@@ -111,7 +114,9 @@ Deployment
 
 Deployment project focuses on automated software deployments on multiple nodes
 using automation tools/configuration managements such as Ansible, Chef, Puppet,
-Salt or Juju.
+Salt or Juju. For example, you can work on deploying Hadoop clusters with 10
+medium virtual instances or Sharded MongoDB clusters or filesystems e.g. NFS or
+Gluster.
 
 Ansible is recommended and supported in the class.
 
@@ -122,7 +127,7 @@ Benchmark project focuses on testing system's performance by putting some
 stresses on different spots. Filesystems, CPUs, or memories can be tested and
 measured, if you think about hardware benchmark.  APIs, messaging queues, load
 balancers or any applications can be tested and measured, if software is more
-focused. Hibench, Big Data Benchmark, or default built-in tools e.g. Terasort
+focused. Hibench, Big Data Benchmark, or built-in tools e.g. Terasort
 are available for Hadoop benchmark.
 
 Parallelization
@@ -154,6 +159,7 @@ Project Requirement
 * Installation/Configuration by Ansible playbook
 * Reproducibility - runnable on Linux distribution
 * Sample Dataset - up to 500GB per team
+* 10 VM instances with m1.medium are given to the utmost each team
 
 Project Copyright
 -------------------------------------------------------------------------------
@@ -164,9 +170,11 @@ by others online after the end of semester.
 Project Proposal
 -------------------------------------------------------------------------------
 
-Please submit your project proposal to IU Canvas. The submission format is in a
-file (either txt, Adobe PDF, or MS word). A project proposal is typically 1-2
-pages long and should contain in the description section:
+Please submit your project proposal to IU GitHub. The submission format is in a
+``proposal.rst`` RST file. `RST Quick Reference
+<http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_ , `Online RST
+Editor <http://rst.ninjs.org/>`_. A project proposal is typically 1-2 pages
+long and should contain in the description section:
 
 * the nature of the project and its context
 * the technologies used
@@ -174,8 +182,7 @@ pages long and should contain in the description section:
 * specific aims you intent to complete
 * and a list of intended deliverables (atrifacts produced)
 
-
-Sample Project Proposal
+Project Proposal Example
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ::
@@ -203,23 +210,27 @@ Sample Project Proposal
 Oral Presentation
 -------------------------------------------------------------------------------
 
-* A student will use Adobe Connect to give a presentation.
+You are required to demonstrate your project during the presentation week. The
+clear statement of problems are necessary with schedule, plan, role of team
+members, resources to use.
 
+* A student will use Adobe Connect to give a presentation which will be
+  recorded.
 * 3-5 minutes per team.
-
-* Oral presentation can be replaced with a 1-2 page progress report(s) upon
-  approval.
-
+* Presentation can be substituted with written reports upon approval.
+  1-2 page progress report(s) need to be included.
 
 Presentation Guideline
--------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Demonstrate the following criteria:
-   - team members
+   - team members (roles)
    - problem definition
    - list of technologies
    - list of development tools, languages
    - list of dataset and its availability
+   - schedule
+   - resources to use
 * All presentations will be recorded.
 
 List of Possible Projects
