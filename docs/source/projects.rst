@@ -136,7 +136,9 @@ Parallelization
 Parallelization project focuses on building efficient software stacks in
 parallel including MPI and Hadoop clusters. For example, you may find writing
 map and reduce functions is relatively easy e.g. WordCount, but applying it in
-practice with large datasets isn't that simple.
+practice with large datasets isn't that simple. Think about how to load your
+dataset into hadoop file systems or databases and run your jobs in a
+distributed fashion.
 
 Analytics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -150,8 +152,8 @@ Created Own
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can develop own project idea and make it as a class project upon approval.
-Describe your thought, topics and make a clear statement of the problems you
-identified in your project proposal.
+Describe your thought, tools, and topics and make a clear statement of the
+problems you identified in your project proposal.
 
 Project Requirement
 -------------------------------------------------------------------------------
@@ -238,6 +240,8 @@ List of Possible Projects
 
 TBD
 
+:ref:`2015-fall-list-of-projects`
+
 Details on Software Submission
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -260,8 +264,8 @@ The page limit of the final report is 4 - 6 pages.
 - Time Roman 12 point -- spacing 1.1 in Microsoft Word
 - Figures can be included 
 - Proper citations must be included
-- Material may be taken from other sources but that must amount to at most 25% of original work 
-  and must be cited
+- Material may be taken from other sources but that must amount to at most 25%
+  of original work and must be cited
 - The level should be similar to a publishable paper or technical report
 
 Details on Grading Criteria
@@ -273,7 +277,7 @@ Details on Grading Criteria
    - Interest
 * Code
    - Reproducibility
-   - Executable
+   - Executable (Most weighted)
    - Instruction of Installation
    - Instruction of Configuration
    - Datasets
@@ -283,6 +287,21 @@ Details on Grading Criteria
    - Related Work
    - Completeness
    - Level of insight
+
+.. comment::
+
+        What We Expect (or NOT)
+        -------------------------------------------------------------------------------
+
+
+
+        Example Recommended
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+        Example Avoided
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+        -
 
 FAQ
 -------------------------------------------------------------------------------
