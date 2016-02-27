@@ -21,6 +21,9 @@ Technology Section
            :glob:
 
            units
+           hw2
+           hw3
+           projects
 
 Office Hours
 -------------------------------------------------------------------------------
