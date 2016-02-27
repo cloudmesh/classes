@@ -11,7 +11,7 @@ Data courses.  These are reference only.
    :widths: 
 
       BeautifulSoup,Python Package,`link <https://pypi.python.org/pypi/beautifulsoup4>`_, Python package for parsing HTML and XML documents as a web scrapper
-      dpkt,Python Package,`link <https://dpkt.readthedocs.org/en/latest/>`_,#NAME?
+      dpkt,Python Package,`link <https://dpkt.readthedocs.org/en/latest/>`_,
       Folium,Python package,`link <http://folium.readthedocs.org/en/latest/>`_,Folium - Python map API with Leaflet.js
       gmplot,Python package,`link <https://pypi.python.org/pypi/gmplot/1.0.5>`_,interface to plotting data with Google Maps
       Hadoopy,Python package,`link <https://hadoopy.readthedocs.org/en/latest/>`_,Hadoopy: Python wrapper for Hadoop using Cython
@@ -21,28 +21,19 @@ Data courses.  These are reference only.
       matplotlib,Python Package,`link <http://matplotlib.org/>`_,matplotlib: Basic plotting library in Python; most other Python plotting libraries are built on top of it.
       NetworkX: complex networks,Python Package,`link <https://networkx.github.io/>`_,Visualization for complex networks
       NLTK,Python Package,`link <http://www.nltk.org/>`_,Natural Language Toolkit
-      Numpy,Python package,`link <http://www.numpy.org/>`_,"Provides a fast numerical array structure and helper functions.
-      "
-      Pandas,Python package,`link <http://pandas.pydata.org/>`_,"pandas: Provides a DataFrame structure to store data in memory and work with it easily and efficiently.
-      "
+      Numpy,Python package,`link <http://www.numpy.org/>`_,"Provides a fast numerical array structure and helper functions."
+      Pandas,Python package,`link <http://pandas.pydata.org/>`_,"pandas: Provides a DataFrame structure to store data in memory and work with it easily and efficiently."
       pandasql,Python package,`link <https://pypi.python.org/pypi/pandasql>`_,Python package for querying pandas DataFrames using SQL syntax
       Psycopg2,Python package,`link <http://initd.org/psycopg/>`_,PostgreSQL on Python
       Pygal,Python Package,`link <http://www.pygal.org/en/latest/>`_,Chart tool
-      pygeoip,Python Package,`link <http://pygeoip.readthedocs.org/en/v0.3.1/getting-started.html>`_,#NAME?
+      pygeoip,Python Package,`link <http://pygeoip.readthedocs.org/en/v0.3.1/getting-started.html>`_,
       pylab,Python Package,`link <http://scipy.github.io/old-wiki/pages/PyLab>`_,
-      scikit-learn,Python Package,`link <http://scikit-learn.org/stable/>`_,"Python machine learning package
-      e.g.  LogisticRegression
-      , RandomForestClassifier
-      , AdaBoostClassifier
-      , VotingClassifier
-      , GradientBoostingClassifier
-      , ExtraTreesClassifier"""
+      scikit-learn,Python Package,`link <http://scikit-learn.org/stable/>`_,"Python machine learning package"
       scipy,Python Package,`link <http://www.scipy.org/>`_,Python library for scientific computing
       Seaborn,Python Package,`link <http://stanford.edu/~mwaskom/software/seaborn/>`_,Python library for statistical data visualization
       tkinter,Python Package,`link <https://docs.python.org/2/library/tkinter.html>`_,Python interface to Tcl/Tk
       Tweepy,Python Package,`link <http://www.tweepy.org/>`_,Python package for Twitter
-      Unirest,Python Package,`link <http://unirest.io/>`_,"Lightweight HTTP Request Client Libraries
-      "
+      Unirest,Python Package,`link <http://unirest.io/>`_,"Lightweight HTTP Request Client Libraries"
       vaderSentiment,Python Package,`link <https://github.com/cjhutto/vaderSentiment>`_,Python package for (Valence Aware Dictionary and sEntiment Reasoner)
 
 .. csv-table:: Software
@@ -75,8 +66,7 @@ Data courses.  These are reference only.
 
      Splunk for PCAP analyzer,Apps,`link <https://splunkbase.splunk.com/app/2748/>`_,Network packet capture and analyzer
      Tweetinvi,C# library,`link <https://tweetinvi.codeplex.com/>`_,Tweetinvi - a friendly Twitter C# library
-     Datumbox,Framework,`link <https://github.com/datumbox/datumbox-framework/>`_,"Datumbox Machine Learning Framework
-      written in Java"
+     Datumbox,Framework,`link <https://github.com/datumbox/datumbox-framework/>`_,"Datumbox Machine Learning Framework written in Java"
       Hadoop,Framework,`link <https://hadoop.apache.org/>`_,MapReduce implementation wrtten in Java with HDFS (Hadoop Distributed File System)
       Spark,Framework,`link <http://spark.apache.org/>`_,MapReduce implementation with in-memory primitives
       Apache POI,Java API,`link <https://poi.apache.org/>`_,Java API for Microsoft Document
@@ -89,37 +79,35 @@ Data courses.  These are reference only.
       MLLib,Library,`link <http://spark.apache.org/mllib/>`_,Spark's Machine Learning Library
       Pig,Platform,`link <https://pig.apache.org/>`_,High-level programming tool for MapReduce
       Apache Commons,Project,`link <https://commons.apache.org/>`_,Apache Commons provides reusable Java components
-
       Karst at IU,Resource,`link <https://kb.iu.edu/d/bezu>`_,HPC at Indiana University
       Amazon RDS,Web Services,`link <https://aws.amazon.com/rds/>`_,Amazon Relational Database Service (RDS)
       Google Charts,Web Services,`link <https://developers.google.com/chart/?hl=en>`_,Javascript chart tools with HTTP requests
       Google Earth API,Web Services,`link <https://developers.google.com/earth/?hl=en>`_,(deprecated)
-      Google Geochart,Web Services,`link <https://developers.google.com/chart/interactive/docs/gallery/geochart?hl=en," a map of a country, a continent, or a region with areas identified in one of three ways: region, markers>`_, and text"
+      Google Geochart,Web Services,`link <https://developers.google.com/chart/interactive/docs/gallery/geochart?hl=en>`_," a map of a country a continent or a region with areas identified in one of three ways: region markers and text"
       Google Geolocation API,Web Services,`link <https://developers.google.com/maps/documentation/geolocation/intro?hl=en>`_,returns a location and accuracy radius based on information about cell towers and WiFi nodes that the mobile client can detect
       Mashape,Web services,`link <https://www.mashape.com/>`_,Private company that offers open source tools and cloud services
-      Plotly,Web services,`link <https://plot.ly/,"visualization in Excel, R>`_, Python"
+      Plotly,Web services,`link <https://plot.ly/>`_,"visualization in Excel R Python"
       Cloudera,Web Services - Hadoop,`link <http://www.cloudera.com/>`_,Hadoop-based software company which provides CDH (Cloudera Distribution Including Apache Hadoop)
 
-.. comment::
+.. csv-table:: R packages
+   :header: Tech,Type,Website,Description
+   :widths: 
 
       C50,R package,`link <https://cran.r-project.org/web/packages/C50/index.html>`_,Decision Trees
       caret,R package,`link <http://caret.r-forge.r-project.org/>`_,Classification and Regression Training
       corrplot,R package,`link <https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html>`_,To plot the correlation between the features
       cowplot,R package,`link <https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html>`_,simple add-on to ggplot2 in R
       Deducer,R package,`link <https://cran.r-project.org/web/packages/Deducer/index.html>`_,Plot ROC plot for logistic regression model
-      "dplyr
-      ",R package,`link <https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html>`_,A Grammar of Data Manipulation
+      "dplyr",R package,`link <https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html>`_,A Grammar of Data Manipulation
       e1071,R package,`link <https://cran.r-project.org/web/packages/e1071/index.html>`_,Svm and naïve bayes
       ggmap,R package,`link <https://cran.r-project.org/web/packages/ggmap/index.html>`_,Spatial Visualization with ggplot2
       ggplot2,R package,`link <http://ggplot2.org/>`_,Visualizations of feature interactions
-      ggthemes,R package,`link <https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html,"Some extra geoms, scales>`_, and themes for ggplot in R"
+      ggthemes,R package,`link <https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html>`_,"Some extra geoms scales and themes for ggplot in R"
       glm2,R package,`link <https://cran.r-project.org/web/packages/glm2/index.html>`_,glm2: Fitting Generalized Linear Models (Logistic Regression Analysis)
       MASS,R package,`link <https://cran.r-project.org/web/packages/MASS/index.html>`_,Use stepAIC to generate top 10 models according to AIC criterion
-      "mlbench, caret, class,
-      randomforest",R package,,To evaluate the importance of each feature given the predict credit card purchase.
-      "pitchRx
-      ",R package,`link <http://cpsievert.github.io/pitchRx/>`_,Major League Baseball (MLB) data and visualization PITCHf/x in R
-      plyr,R package,`link <https://cran.r-project.org/web/packages/plyr/index.html,"Splitting>`_, Applying and Combining Data in R"
+      "randomforest",R package,,To evaluate the importance of each feature given the predict credit card purchase.
+      "pitchRx",R package,`link <http://cpsievert.github.io/pitchRx/>`_,Major League Baseball (MLB) data and visualization PITCHf/x in R
+      plyr,R package,`link <https://cran.r-project.org/web/packages/plyr/index.html>`_,"Splitting Applying and Combining Data in R"
       pROC,R package,`link <https://cran.r-project.org/web/packages/pROC/index.html>`_,Display and Analyze ROC Curves
       randomForest,R package,`link <https://cran.r-project.org/web/packages/randomForest/index.html>`_,Breiman and Cutler’s Random Forests for Classification and Regression)
       rattle,R package,`link <https://cran.r-project.org/web/packages/rattle/index.html>`_,Graphical User Interface for Data Mining in R (v.4.0.5)
@@ -128,6 +116,5 @@ Data courses.  These are reference only.
       Rglpk,R package,`link <https://cran.r-project.org/web/packages/Rglpk/index.html>`_,R/GNU Linear Programming Kit Interface in R
       rpart,R package,`link <https://cran.r-project.org/web/packages/rpart/index.html>`_,Recursive Partitioning and Regression Trees
       rpart.plot,R package,,Plot ‘rpart’ Models: An Enhanced Version of ‘plot.rpart’(v.1.5.3)
-      "RSQLite
-      ",R package,`link <https://cran.r-project.org/web/packages/RSQLite/index.html>`_,SQLite Interface for R
+      "RSQLite",R package,`link <https://cran.r-project.org/web/packages/RSQLite/index.html>`_,SQLite Interface for R
 
