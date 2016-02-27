@@ -175,7 +175,7 @@ rather than developing new algorithm for face recognition, for example.
 Examples:
 
 * Faunus Graph analytics
-* IBis
+* Ibis
 
 Created Own
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
