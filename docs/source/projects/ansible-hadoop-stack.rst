@@ -1,4 +1,6 @@
-ansible-hadoop-stack
+.. _ref-ansible-hadoop-stacks:
+
+ansible-hadoop-stacks
 ===============================================================================
 
 Description of possible projects

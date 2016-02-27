@@ -260,7 +260,7 @@ List of Possible Projects (In Progress)
 We are currently working on this and any software and/or details are subject to
 change without notice. This is reference only.
 
-* Deployment: ansible-hadoop-stacks
+* Deployment: :ref:`ref-ansible-hadoop-stacks`
 :ref:`ref-2015-fall-list-of-projects`
 
 List of Datasets (In Progress)
