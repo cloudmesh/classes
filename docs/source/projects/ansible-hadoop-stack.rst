@@ -23,6 +23,7 @@ The goal is for students to pick one or more of the projects listed here to
 work on.  They can also propose a project by submitting an issue.
 
 Steps required:
+
 *       fork the ansible-hadoop-stack repository
 *       defining an ansible role for that addon
 *       adding the role to the roles directory as a git submodule
@@ -36,8 +37,7 @@ need to be transferred to the futuresystems organization.
 For example: adding mahout involves:
 
 *       defining a repository called ansible-role-mahoot housing the ansible
-  role code
-
+        role code
 *       adding this repo as a git submodule names roles/mahout
 *       defining a playbook called addons/mahout.yml
 
