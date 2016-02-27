@@ -1,6 +1,6 @@
 .. _ref-list-of-datasets-2015-fall:
 
-List of Datasets 2015 Fall (In Progress)
+List of Datasets 2015 Fall
 ===============================================================================
 
 Note that these are some of students projects from one of Big Data courses.
@@ -9,50 +9,36 @@ These are reference only.
 .. csv-table:: 2015 Fall (alphabetical order)
    :header: Dataset,Type,Source
 
-        Dataset,Type,Source
-        Amazon Movie Data,Recommendation,http://snap.stanford.edu/data/movies.txt.gz
-        ATP Tennis Data,,"http://www.tennisabstract.com/blog/2015/03/24/free-atp-and-wta-results-and-stats-databases/
-        http://www.tennis-data.co.uk/alldata.php"
-        bts.gov,,http://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
-        CDC,,http://www.cdc.gov/diseasesconditions/
+        Amazon Movie Data,Recommendation,`link <http://snap.stanford.edu/data/movies.txt.gz>`_
+        ATP Tennis Data,,"`link <http://www.tennisabstract.com/blog/2015/03/24/free-atp-and-wta-results-and-stats-databases/>`_, `link2 <http://www.tennis-data.co.uk/alldata.php">`_
+        bts.gov,,`link <http://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp>`_
+        CDC,,`link <http://www.cdc.gov/diseasesconditions/>`_
         census.gov,,
-        China Foundations,,http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2673879
-        Chinese Statistical Yearbook,Public State/City/County/Government,"http://www.stats.gov.cn/tjsj/ndsj/2014/indexee.htm
-        "
-        City of Chicago,Public State/City/County/Government,"https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
-        https://data.cityofchicago.org/"
-        "Crime Statistics - City of Houston, Texas",,
-        Crossfit,Sports,http://games.crossfit.com/leaderboard
-        CRSP US Stock,Research,https://wrds-web.wharton.upenn.edu/wrds/ds/crsp//index.cfm
-        edmunds.com,Commercial,http://developer.edmunds.com/
-        ESPN MLB,Sports,
-        GDP,Public State/City/County/Government,http://data.worldbank.org/indicator/NY.GDP.PCAP.CD
-        https://www.fanduel.com/,Sports,
-        Hubway Bike data,,"https://github.com/gdwangh/edxTheAnalyticsEdge/blob/master/finalExam/HubwayTrips.csv
-        http://hubwaydatachallenge.org/
-        "
-        Indiana Lidar from SDSC,,http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.062012.4326.1
-        Kaggle.com,,www.kaggle.com/c/titanic/data
-        Lahman’s data,Sports,http://www.seanlahman.com/baseball-archive/statistics/
-        LIBOR Rates from St. Louis,,https://research.stlouisfed.org/fred2/categories/33003/downloaddata
-        Movie reviews,,http://grouplens.org/datasets/movielens/1m/
-        Movie Reviews - Rotten Tomatos,,http://developer.rottentomatoes.com/
-        noaa.gov,,http://www.ncdc.noaa.gov/cdo-web/datasets/
-        PITCHfx,Sports,http://www.brooksbaseball.net/
-        PubMed,,http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi
-        Retrosheet,Sports,http://www.retrosheet.org/
-        SF OpenData - SFPD Incidents,Public State/City/County/Government,https://data.sfgov.org/Public-Safety/SFPD-Incidents-Current-Year-2015-/ritf-b9ki
-        SNAP - Stanford Network Analysis Project,,http://snap.stanford.edu/data/web-Movies.html
-        State of Washington,Public State/City/County/Government,https://data.wa.gov/Natural-Resources-Environment/Water-Right-Applications/9ubz-5r4b
-        Statistical Computing,Public,http://stat-computing.org/dataexpo/2009/the-data.html
-        Stock Price,,
-        Titanic survival data,,"http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic3.xls
-        "
-        Twitter,,
-        UCI Machine Learning Repository,,https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity
-        United Nation Population Division,Public State/City/County/Government,"http://esa.un.org/unpd/wpp/Download/Standard/Population/
-        "
-        Vehicle regional cost ,,
-        VIX,,
+        China Foundations,,`link <http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2673879>`_
+        Chinese Statistical Yearbook,Public State/City/County/Government,"`link <http://www.stats.gov.cn/tjsj/ndsj/2014/indexee.htm>`_
+        City of Chicago,Public State/City/County/Government,"`link <https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2>`_, `link2 <https://data.cityofchicago.org/">`_
+        "Crime Statistics - City of Houston, Texas",,>`_
+        Crossfit,Sports,`link <http://games.crossfit.com/leaderboard>`_
+        CRSP US Stock,Research,`link <https://wrds-web.wharton.upenn.edu/wrds/ds/crsp//index.cfm>`_
+        edmunds.com,Commercial,`link <http://developer.edmunds.com/>`_
+        GDP,Public State/City/County/Government,`link <http://data.worldbank.org/indicator/NY.GDP.PCAP.CD>`_
+        Hubway Bike data,,"`link <https://github.com/gdwangh/edxTheAnalyticsEdge/blob/master/finalExam/HubwayTrips.csv>`_, `link2 <http://hubwaydatachallenge.org/>`_
+        Indiana Lidar from SDSC,,`link <http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.062012.4326.1>`_
+        Kaggle.com,,www.kaggle.com/c/titanic/data>`_
+        Lahman’s data,Sports,`link <http://www.seanlahman.com/baseball-archive/statistics/>`_
+        LIBOR Rates from St. Louis,,`link <https://research.stlouisfed.org/fred2/categories/33003/downloaddata>`_
+        Movie reviews,,`link <http://grouplens.org/datasets/movielens/1m/>`_
+        Movie Reviews - Rotten Tomatos,,`link <http://developer.rottentomatoes.com/>`_
+        noaa.gov,,`link <http://www.ncdc.noaa.gov/cdo-web/datasets/>`_
+        PITCHfx,Sports,`link <http://www.brooksbaseball.net/>`_
+        PubMed,,`link <http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi>`_
+        Retrosheet,Sports,`link <http://www.retrosheet.org/>`_
+        SF OpenData - SFPD Incidents,Public State/City/County/Government,`link <https://data.sfgov.org/Public-Safety/SFPD-Incidents-Current-Year-2015-/ritf-b9ki>`_
+        SNAP - Stanford Network Analysis Project,,`link <http://snap.stanford.edu/data/web-Movies.html>`_
+        State of Washington,Public State/City/County/Government,`link <https://data.wa.gov/Natural-Resources-Environment/Water-Right-Applications/9ubz-5r4b>`_
+        Statistical Computing,Public,`link <http://stat-computing.org/dataexpo/2009/the-data.html>`_
+        Titanic survival data,,"`link <http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic3.xls>`_
+        UCI Machine Learning Repository,,`link <https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity>`_
+        United Nation Population Division,Public State/City/County/Government,"`link <http://esa.un.org/unpd/wpp/Download/Standard/Population/>`_
         WRDS CRSP data,,
-        Yelp Dataset,Recommendation,http://www.yelp.com/dataset_challenge
+        Yelp Dataset,Recommendation,`link <http://www.yelp.com/dataset_challenge>`_
