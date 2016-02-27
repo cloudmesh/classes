@@ -1,6 +1,6 @@
 .. _ref-list-of-tech-2015-spring:
 
-List of Technologies (In Progress)
+List of Technologies 
 ===============================================================================
 
 You can find and use other tools not listed in this page.
