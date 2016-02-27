@@ -6,6 +6,16 @@ List of Project 2015 Fall (In Progress)
 Note that these are some of students projects from one of Big Data courses.
 These are reference only.
 
+.. csv-table:: 2015 Fall Suggested Projects
+   :header: Title, Data set, Software, Category
+
+        "`NIST Fingerprint <http://www.nist.gov/itl/iad/ig/nbis.cfm>`_(a subset of): NFIQ PCASYS MINDTCT BOZORTH3 NFSEG SIVV",NIST Special Database 27A `[4GB] <http://www.nist.gov/itl/iad/ig/sd27a.cfm>`_,NIST Biometric Image Software (NBIS)`v5.0 <http://nigos.nist.gov:8080/nist/nbis/nbis_v5_0_0.zip>`_ [`userguide <http://www.nist.gov/customcf/get_pdf.cfm?pub_id=51097>`_],Batch Data Analytics
+        Hadoop Benchmark (each) - TeraSort Suite,Teragen,hadoop-examples.jar,Batch Data Analytics
+        Hadoop Benchmark (each) - DFSIO (HDFS Performance),,hadoop-mapreduce-client-jobclient,Batch Data Analytics
+        Hadoop Benchmark (each) - NNBench (NameNode Perf.),,hadoop-mapreduce-client-jobclient,Batch Data Analytics
+        Hadoop Benchmark (each) - MRBench (MapReduce Perf.),,src/test/org/apache/hadoop/mapred/MRBench.java,Batch Data Analytics
+        Stock Data Analysis with MPI,"`CRSP <https://wrds-web.wharton.upenn.edu/wrds/>`_",`Stock Analysis <https://github.com/iotcloud/stock-analysis>`_,Streaming Data Analytics
+
 .. csv-table:: 2015 Fall
    :header: Id,Title,Technology*,User Interface Language,Backend Environment**,Dataset
    :widths: 5 10 10 5 10 10
