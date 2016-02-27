@@ -141,6 +141,22 @@ Wang, Lei, et al. "Bigdatabench: A big data benchmark suite from internet servic
         * \**Reference URL of these projects:
           http://prof.ict.ac.cn/BigDataBench/#Benchmarks
 
+.. list-table:: Storm, Hadoop, Hive, Mahout from Intel and Yahoo
+   :header-rows: 1
+
+   * - Title
+     - Category
+     - Data Sets
+     - Technologies
+   * - Storm Benchmark
+     - Batch Data Analytics
+     - https://github.com/intel-hadoop/storm-benchmark
+     - Storm
+   * - Big Data Benchmark for Big Bench
+     - Batch Data Analytics
+     - https://github.com/intel-hadoop/Big-Data-Benchmark-for-Big-Bench
+     - Hadoop, Hive, Mahout
+ 
 .. list-table:: HiBench
    :header-rows: 1
 
