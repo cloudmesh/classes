@@ -1,4 +1,4 @@
-.. _ref-list_of_datasets_2015:
+.. _ref-list-of-datasets-2015-fall:
 
 List of Datasets 2015 Fall (In Progress)
 ===============================================================================

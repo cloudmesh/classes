@@ -215,12 +215,21 @@ Presentation Guideline
    - resources to use
 * All presentations will be recorded.
 
-List of Possible Projects
+List of Possible Projects (In Progress)
 -------------------------------------------------------------------------------
 
-TBD
+We are currently working on this and any software and/or details are subject to
+change without notice. This is reference only.
 
 :ref:`ref-2015-fall-list-of-projects`
+
+List of Datasets (In Progress)
+-------------------------------------------------------------------------------
+
+We are currently working on this and any software and/or details are subject to
+change without notice. This is reference only.
+
+:ref:`ref-list-of-datasets-2015-fall`
 
 Details on Software Submission
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
