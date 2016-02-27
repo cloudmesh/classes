@@ -1,4 +1,4 @@
-List of Possible Projects
+List of Possible Projects (2016 Spring)
 -------------------------------------------------------------------------------
 
 You can choose one of the possible projects here to start developing your
