@@ -231,6 +231,16 @@ change without notice. This is reference only.
 
 :ref:`ref-list-of-datasets-2015-fall`
 
+List of Technologies (In Progress)
+-------------------------------------------------------------------------------
+
+We are currently working on this and any software and/or details are subject to
+change without notice. This is reference only.
+
+`ABDS and HPC Technologies and Software Stacks <http://hpc-abds.org/kaleidoscope/>`_
+:ref:`ref-list-of-tech-2015-fall`
+
+
 Details on Software Submission
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
