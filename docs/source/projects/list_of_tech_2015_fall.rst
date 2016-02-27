@@ -8,7 +8,6 @@ Data courses.  These are reference only.
 
 .. csv-table:: Python Packages
    :header: Tech,Type,Website,Description
-   :widths: 
 
       BeautifulSoup,Python Package,`link <https://pypi.python.org/pypi/beautifulsoup4>`_, Python package for parsing HTML and XML documents as a web scrapper
       dpkt,Python Package,`link <https://dpkt.readthedocs.org/en/latest/>`_,
@@ -38,7 +37,6 @@ Data courses.  These are reference only.
 
 .. csv-table:: Software
    :header: Tech,Type,Website,Description
-   :widths: 
 
       Apache Lucene,Software,`link <https://lucene.apache.org/>`_,text search engine library written in Java
       Cassandra,Software,`link <http://cassandra.apache.org/>`_,NoSQL distributed database management system written in Java
@@ -62,7 +60,6 @@ Data courses.  These are reference only.
 
 .. csv-table:: Others
    :header: Tech,Type,Website,Description
-   :widths: 
 
      Splunk for PCAP analyzer,Apps,`link <https://splunkbase.splunk.com/app/2748/>`_,Network packet capture and analyzer
      Tweetinvi,C# library,`link <https://tweetinvi.codeplex.com/>`_,Tweetinvi - a friendly Twitter C# library
@@ -91,7 +88,6 @@ Data courses.  These are reference only.
 
 .. csv-table:: R packages
    :header: Tech,Type,Website,Description
-   :widths: 
 
       C50,R package,`link <https://cran.r-project.org/web/packages/C50/index.html>`_,Decision Trees
       caret,R package,`link <http://caret.r-forge.r-project.org/>`_,Classification and Regression Training
