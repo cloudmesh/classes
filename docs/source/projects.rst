@@ -13,6 +13,7 @@ Important Dates
 
 * Project Proposal: March 18th
 * Oral Presentation: Week 12 - April 1st, 2nd (Tentative)
+* Progress Checkup: Week 14 - April 15th, 16th (Tentative)
 * Final Submission: April 29th
 
 .. note:: Those who can't make the presentation with a time conflict, schedule
@@ -78,6 +79,9 @@ simply search and download popular projects on the internet and execute. You
 need to address new findings and include the original source of the projects
 that you referenced in your final project and reports.
 
+* Minimal code writing
+* Start from existing projects
+
 .. TeraSort, DFSIO, NNBench, or MRBench on a different system configurations 
 
 Bonus Project
@@ -98,9 +102,15 @@ components of Hadoop and append new software tools by writing new playbooks in
 roles and addons. You could add Hives or update Spark with the latest release
 using parameters or definition in YAML. If you focus on managing systems and
 software deployments, think about how to manage traffics by adding/removing
-additional nodes or how to apply new patches or fix bugs on particular nodes.
+additional nodes or how to apply new patches on particular nodes. Bonus points
+are given exceptional project results.
 
-Project Type
+* Ansible is required
+* Extensive code and scripts writing are welcome
+* Using GitHub Issues is mandatory to communicate with AIs for your projects
+* Bonus points
+
+Project Choice
 -------------------------------------------------------------------------------
 
 * Deployment
@@ -116,9 +126,12 @@ Deployment project focuses on automated software deployments on multiple nodes
 using automation tools/configuration managements such as Ansible, Chef, Puppet,
 Salt or Juju. For example, you can work on deploying Hadoop clusters with 10
 medium virtual instances or Sharded MongoDB clusters or filesystems e.g. NFS or
-Gluster.
+Gluster. **Ansible** is recommended and supported in the class.
 
-Ansible is recommended and supported in the class.
+Examples:
+
+* Deployment Hadoop clusters
+* Deployment cluster managers (e.g. Mesos)
 
 Benchmark
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -130,6 +143,12 @@ balancers or any applications can be tested and measured, if software is more
 focused. Hibench, Big Data Benchmark, or built-in tools e.g. Terasort
 are available for Hadoop benchmark.
 
+Examples:
+
+* Hibench
+* Storm Benchmark
+* Big Data Benchmark for Big Bench
+
 Parallelization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -140,6 +159,11 @@ practice with large datasets isn't that simple. Think about how to load your
 dataset into hadoop file systems or databases and run your jobs in a
 distributed fashion.
 
+Examples:
+
+* Pig
+* Spark
+
 Analytics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -147,6 +171,11 @@ Analytics project focuses on developing algorithms for different problems based
 on datasets and topics that you chose in your project. You will be required
 to develop algorithms for improving parallelism or performance in this project 
 rather than developing new algorithm for face recognition, for example.
+
+Examples:
+
+* Faunus Graph analytics
+* IBis
 
 Created Own
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -166,7 +195,7 @@ Project Requirement
 Project Copyright
 -------------------------------------------------------------------------------
 
-Your project deliverables may be referenced in the future classes or be shared
+Your project deliverables may be introduced in the future classes or be shared
 by others online after the end of semester.
 
 Project Proposal
@@ -215,12 +244,23 @@ Presentation Guideline
    - resources to use
 * All presentations will be recorded.
 
+Progress Checkup
+-------------------------------------------------------------------------------
+
+The following activities will be evaluated:
+
+* Code development in a project repository
+* Participation of team members
+* Software installation
+* Datasets preparation
+
 List of Possible Projects (In Progress)
 -------------------------------------------------------------------------------
 
 We are currently working on this and any software and/or details are subject to
 change without notice. This is reference only.
 
+* Deployment: ansible-hadoop-stacks
 :ref:`ref-2015-fall-list-of-projects`
 
 List of Datasets (In Progress)
@@ -258,7 +298,22 @@ Code submission should be made at Github including a ``README`` file.
 Details on Final Report 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The page limit of the final report is 4 - 6 pages.
+Final report concludes the work of your team and describes findings with its
+results.  The following sections should be included:
+
+* Description of your project
+* Problem statement
+* Purpose and objectives
+* Results 
+* Findings
+* Implementation
+* References
+   - original source of code snippets
+   - original source of datasets
+
+   .. http://ipro.iit.edu/wp-content/uploads/ipro-final-report-guidelines.pdf
+
+The final reports should sastify the following guidelines:
 
 - 4 - 6 pages
 - Time Roman 12 point -- spacing 1.1 in Microsoft Word
