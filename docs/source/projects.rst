@@ -239,6 +239,7 @@ change without notice. This is reference only.
 
 `ABDS and HPC Technologies and Software Stacks <http://hpc-abds.org/kaleidoscope/>`_
 :ref:`ref-list-of-tech-2015-fall`
+:ref:`ref-list-of-tech-2015-spring`
 
 
 Details on Software Submission
