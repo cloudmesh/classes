@@ -1,6 +1,6 @@
 .. _ref-project-proposal:
 
-Project Proposal (In Progress)
+Project Proposal 
 ===============================================================================
 
 Your Title goes here
