@@ -261,7 +261,7 @@ We are currently working on this and any software and/or details are subject to
 change without notice. This is reference only.
 
 * Deployment: :ref:`ref-ansible-hadoop-stacks`
-:ref:`ref-2015-fall-list-of-projects`
+* :ref:`ref-2015-fall-list-of-projects`
 
 List of Datasets (In Progress)
 -------------------------------------------------------------------------------
@@ -269,7 +269,7 @@ List of Datasets (In Progress)
 We are currently working on this and any software and/or details are subject to
 change without notice. This is reference only.
 
-:ref:`ref-list-of-datasets-2015-fall`
+* :ref:`ref-list-of-datasets-2015-fall`
 
 List of Technologies (In Progress)
 -------------------------------------------------------------------------------
@@ -277,9 +277,9 @@ List of Technologies (In Progress)
 We are currently working on this and any software and/or details are subject to
 change without notice. This is reference only.
 
-`ABDS and HPC Technologies and Software Stacks <http://hpc-abds.org/kaleidoscope/>`_
-:ref:`ref-list-of-tech-2015-fall`
-:ref:`ref-list-of-tech-2015-spring`
+* `ABDS and HPC Technologies and Software Stacks <http://hpc-abds.org/kaleidoscope/>`_
+* :ref:`ref-list-of-tech-2015-fall`
+* :ref:`ref-list-of-tech-2015-spring`
 
 
 Details on Software Submission
