@@ -187,27 +187,7 @@ long and should contain in the description section:
 Project Proposal Example
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-::
-
-        Title: This is my title
-
-        Team: (YOU CAN HAVE UP TO 3 PEOPLE IN A TEAM, IF YOU WANT MORE, PLEASE
-        BE SURE TO CONTACT US)
-
-                Fullname        e-mail  github username portalname
-
-        Description:
-
-                Put here your description
-
-        Artifacts:
-
-                Put here a list of artifacts that you will create (this can be
-                filled out at a later time
-
-                Examples are: A Survey Paper, a github repository link (with
-                everything being there, including this description),
-                screenshots, ...  
+:ref:`ref-project-proposal`
 
 Oral Presentation
 -------------------------------------------------------------------------------
@@ -240,7 +220,7 @@ List of Possible Projects
 
 TBD
 
-:ref:`2015-fall-list-of-projects`
+:ref:`ref-2015-fall-list-of-projects`
 
 Details on Software Submission
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
