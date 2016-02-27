@@ -17,7 +17,7 @@ These are reference only.
         China Foundations,,`link <http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2673879>`_
         Chinese Statistical Yearbook,Public State/City/County/Government,"`link <http://www.stats.gov.cn/tjsj/ndsj/2014/indexee.htm>`_
         City of Chicago,Public State/City/County/Government,"`link <https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2>`_; `link2 <https://data.cityofchicago.org/">`_
-        "Crime Statistics - City of Houston, Texas",,>`_
+        "Crime Statistics - City of Houston Texas",,
         Crossfit,Sports,`link <http://games.crossfit.com/leaderboard>`_
         CRSP US Stock,Research,`link <https://wrds-web.wharton.upenn.edu/wrds/ds/crsp//index.cfm>`_
         edmunds.com,Commercial,`link <http://developer.edmunds.com/>`_
