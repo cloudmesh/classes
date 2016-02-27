@@ -10,19 +10,19 @@ These are reference only.
    :header: Dataset,Type,Source
 
         Amazon Movie Data,Recommendation,`link <http://snap.stanford.edu/data/movies.txt.gz>`_
-        ATP Tennis Data,,"`link <http://www.tennisabstract.com/blog/2015/03/24/free-atp-and-wta-results-and-stats-databases/>`_, `link2 <http://www.tennis-data.co.uk/alldata.php">`_
+        ATP Tennis Data,,"`link <http://www.tennisabstract.com/blog/2015/03/24/free-atp-and-wta-results-and-stats-databases/>`_; `link2 <http://www.tennis-data.co.uk/alldata.php">`_
         bts.gov,,`link <http://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp>`_
         CDC,,`link <http://www.cdc.gov/diseasesconditions/>`_
         census.gov,,
         China Foundations,,`link <http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2673879>`_
         Chinese Statistical Yearbook,Public State/City/County/Government,"`link <http://www.stats.gov.cn/tjsj/ndsj/2014/indexee.htm>`_
-        City of Chicago,Public State/City/County/Government,"`link <https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2>`_, `link2 <https://data.cityofchicago.org/">`_
+        City of Chicago,Public State/City/County/Government,"`link <https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2>`_; `link2 <https://data.cityofchicago.org/">`_
         "Crime Statistics - City of Houston, Texas",,>`_
         Crossfit,Sports,`link <http://games.crossfit.com/leaderboard>`_
         CRSP US Stock,Research,`link <https://wrds-web.wharton.upenn.edu/wrds/ds/crsp//index.cfm>`_
         edmunds.com,Commercial,`link <http://developer.edmunds.com/>`_
         GDP,Public State/City/County/Government,`link <http://data.worldbank.org/indicator/NY.GDP.PCAP.CD>`_
-        Hubway Bike data,,"`link <https://github.com/gdwangh/edxTheAnalyticsEdge/blob/master/finalExam/HubwayTrips.csv>`_, `link2 <http://hubwaydatachallenge.org/>`_
+        Hubway Bike data,,"`link <https://github.com/gdwangh/edxTheAnalyticsEdge/blob/master/finalExam/HubwayTrips.csv>`_; `link2 <http://hubwaydatachallenge.org/>`_
         Indiana Lidar from SDSC,,`link <http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.062012.4326.1>`_
         Kaggle.com,,www.kaggle.com/c/titanic/data>`_
         Lahman’s data,Sports,`link <http://www.seanlahman.com/baseball-archive/statistics/>`_
