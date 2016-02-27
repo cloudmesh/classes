@@ -200,27 +200,27 @@ Wang, Lei, et al. "Bigdatabench: A big data benchmark suite from internet servic
      - Technologies
    * - Graph 500
      - Batch Data Analytics
-     - http://www.graph500.org/
+     - `main site <http://www.graph500.org/>`_
      - MPI
    * - BigBench 
      - Batch Data Analytics
-     - http://www.msrg.org/project/BigBench
+     - `main site <http://www.msrg.org/project/BigBench>`_
      - - MapReduce
        - Hadoop 
    * - LinkBench
      - Batch Data Analytics
-     - https://github.com/facebook/linkbench 
+     - `main repo <https://github.com/facebook/linkbench>`_
      - - Java
        - MySQL
    * - BG Benchmark
      - Batch Data Analytics
-     - http://www.bgbenchmark.org/BG/overview.html
+     - `main site <http://www.bgbenchmark.org/BG/overview.html>`_
      - - MongoDB
        - HBase
        - VoltDB
    * - Berkeley Big Data Benchmark
      - Data Systems
-     - https://amplab.cs.berkeley.edu/benchmark/#workload
+     - `main site <https://amplab.cs.berkeley.edu/benchmark/#workload>`_
      - - Redshift
        - Hive
        - SparkSQL
@@ -228,15 +228,15 @@ Wang, Lei, et al. "Bigdatabench: A big data benchmark suite from internet servic
        - Stinger/Tez
    * - TPCx-HS
      - Data Systems
-     - http://www.tpc.org/tpcx-hs/
+     - `main site <http://www.tpc.org/tpcx-hs/>`_
      - Hadoop
    * - CloudSuite
      - Batch Data Analytics
-     - http://parsa.epfl.ch/cloudsuite/downloads.html
+     - `main site <http://parsa.epfl.ch/cloudsuite/downloads.html>`_
      - MapReduce
    * - MineBench
      - Batch Data Analytics
-     - http://cucis.ece.northwestern.edu/projects/DMS/MineBench.html
+     - `main site <http://cucis.ece.northwestern.edu/projects/DMS/MineBench.html>`_, `Data Generator <http://cucis.ece.northwestern.edu/projects/DMS/cluster_generator.tar.gz>`_
      - 
 
 .. csv-table:: 2015 Fall Suggested Projects
