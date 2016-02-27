@@ -187,7 +187,7 @@ problems you identified in your project proposal.
 Project Requirement
 -------------------------------------------------------------------------------
 
-* Installation/Configuration by Ansible playbook
+* Installation/Configuration by Ansible playbook or relevant tools
 * Reproducibility - runnable on Linux distribution
 * Sample Dataset - up to 500GB per team
 * 10 VM instances with m1.medium are given to the utmost each team
