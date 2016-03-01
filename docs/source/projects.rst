@@ -260,6 +260,34 @@ List of Possible Projects (In Progress)
 We are currently working on this and any software and/or details are subject to
 change without notice. This is reference only.
 
+* Big Dat Analytics Stack
+   - Deployment project using Ansible Playbooks
+
+.. list-table:: Software Layers
+    :widths: 10 10 10 10
+    :header-rows: 1
+
+    * - Layer
+      - Supported
+      - In Progress
+      - Optional
+    * Scheduling Layer
+      - YARN
+      -
+      - Mesos
+    * - Database Layer
+      - 
+      - MongoDB, HBase, MySQL
+      - CouchDB, PostgreSQL, Memcached, Redis
+    * - Analytics Layer
+      - Java
+      - MLlib, Python
+      - BLAS, LAPACK, Mahout, MLbase, R
+    * - Data Processing Layer
+      - Hadoop MapReduce, Spark, Pig
+      - Storm, Flink
+      - Tez, Hama, Hive
+
 .. include:: projects/list_of_projects_2016sp.rst
 
 * Deployment: :ref:`ref-big-data-stacks`
