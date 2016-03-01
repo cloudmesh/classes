@@ -1,6 +1,6 @@
 .. _ref-big-data-stacks:
 
-big-data-stacks
+big-data-stack
 ===============================================================================
 
 Description of possible projects
