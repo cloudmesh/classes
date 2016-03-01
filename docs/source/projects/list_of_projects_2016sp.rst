@@ -80,7 +80,7 @@ define a simple, easily deployable, customizable, data analytics stack built on
 hadoop. Currently, deployment is done to a virtual cluster running on OpenStack
 Kilo on FutureSystems.
 
-.. list-table:: ansible-hadoop-stack
+.. list-table:: big-data-stack
    :widths: 30 10 10 10
    :header-rows: 1
 
@@ -88,7 +88,7 @@ Kilo on FutureSystems.
      - Category
      - Data Sets
      - Technologies
-   * - :ref:`ref-ansible-hadoop-stacks`
+   * - :ref:`ref-big-data-stacks`
      - Software Deployments
      - n/a
      - Ansible

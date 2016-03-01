@@ -262,7 +262,7 @@ change without notice. This is reference only.
 
 .. include:: projects/list_of_projects_2016sp.rst
 
-* Deployment: :ref:`ref-ansible-hadoop-stacks`
+* Deployment: :ref:`ref-big-data-stacks`
 * :ref:`ref-2015-fall-list-of-projects`
 
 List of Datasets (In Progress)

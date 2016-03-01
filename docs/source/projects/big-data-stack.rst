@@ -1,6 +1,6 @@
-.. _ref-ansible-hadoop-stacks:
+.. _ref-big-data-stacks:
 
-ansible-hadoop-stacks
+big-data-stacks
 ===============================================================================
 
 Description of possible projects
@@ -16,7 +16,7 @@ Extending
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A non-exhaustive list of possible projects are currently listed `here
-<https://github.com/futuresystems/ansible-hadoop-stack/issues?q=is:issue+is:open+label:project>`_.
+<https://github.com/futuresystems/big-data-stack/issues?q=is:issue+is:open+label:project>`_.
 These include adding hbase, mahoot, storm, and others to the deployment
 options.
 The goal is for students to pick one or more of the projects listed here to
@@ -24,7 +24,7 @@ work on.  They can also propose a project by submitting an issue.
 
 Steps required:
 
-*       fork the ansible-hadoop-stack repository
+*       fork the big-data-stack repository
 *       defining an ansible role for that addon
 *       adding the role to the roles directory as a git submodule
 *       define a playbook to deploy the role in the addons directory
