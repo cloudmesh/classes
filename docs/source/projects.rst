@@ -271,9 +271,9 @@ change without notice. This is reference only.
       - Supported
       - In Progress
       - Optional
-    * Scheduling Layer
+    * - Scheduling Layer
       - YARN
-      -
+      - 
       - Mesos
     * - Database Layer
       - 
