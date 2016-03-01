@@ -301,6 +301,9 @@ change without notice. This is reference only.
 
 * :ref:`ref-list-of-datasets-2015-fall`
 
+.. note:: There is no direct support on datasets.
+.. note:: Large datasets will be downloadable via NFS on india.futuresystems.org
+
 List of Technologies (In Progress)
 -------------------------------------------------------------------------------
 
@@ -311,6 +314,7 @@ change without notice. This is reference only.
 * :ref:`ref-list-of-tech-2015-fall`
 * :ref:`ref-list-of-tech-2015-spring`
 
+.. note:: There is no direct support on Analytics software.
 
 Details on Software Submission
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -424,8 +428,19 @@ Q. Can't make a oral presentation because I have a business trip (or a conferenc
 
 A. Schedule a meeting in Week 11 or Week 13 with Course Team.
 
+Q. What does that mean there is no direct support on Datasets and Analytics software?
+
+A. You can choose your dataset and analytics tool freely from many choices but
+   the course team can't assist you to validate whether datasets or tools you chose
+   are runnable in your software stacks. Downloading large dataset is supported though.
+
 Questions & Support
 -------------------------------------------------------------------------------
 
 * Course Email: bdosspcoursehelp@googlegroups.com
 * Google Hangout (voice & screen share): upon request
+
+Useful Links
+-------------------------------------------------------------------------------
+
+
