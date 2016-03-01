@@ -191,6 +191,7 @@ Project Requirement
 * Reproducibility - runnable on Linux distribution
 * Sample Dataset - up to 480GB per team
 * 12 VM instances with m1.medium are given to the utmost each team
+* Software Stacks similar to :ref:`ref-software-layers`
 
 Project Copyright
 -------------------------------------------------------------------------------
@@ -260,8 +261,10 @@ List of Possible Projects (In Progress)
 We are currently working on this and any software and/or details are subject to
 change without notice. This is reference only.
 
-* Big Dat Analytics Stack
+* Big Data Analytics Stack
    - Deployment project using Ansible Playbooks
+
+.. _ref-software-layers:
 
 .. list-table:: Software Layers
     :widths: 10 10 10 10
@@ -288,9 +291,14 @@ change without notice. This is reference only.
       - Storm, Flink
       - Tez, Hama, Hive
 
+You may consider to work on Big Data Analytics Stack using Ansible Playbooks.
+The default configuration of the stack is YARN + HDFS + Java + Hadoop
+MapReduce, Spark, and Pig. You can develop a new addon for one of the optional
+software and attach to your stack. Find more details here
+:ref:`ref-big-data-stacks`.
+
 .. include:: projects/list_of_projects_2016sp.rst
 
-* Deployment: :ref:`ref-big-data-stacks`
 * :ref:`ref-2015-fall-list-of-projects`
 
 List of Datasets (In Progress)
