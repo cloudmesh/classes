@@ -279,8 +279,8 @@ List of Possible Projects
       - 
       - Mesos
     * - Database Layer
-      - 
-      - MongoDB, HBase, MySQL
+      - HBase
+      - MongoDB,  MySQL
       - CouchDB, PostgreSQL, Memcached, Redis
     * - Analytics Layer
       - Java
