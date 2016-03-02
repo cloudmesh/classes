@@ -451,4 +451,28 @@ Questions & Support
 Useful Links
 -------------------------------------------------------------------------------
 
-
+* Analytics tools
+   * `Spark Quick Start Tutorial with Python <https://spark.apache.org/docs/latest/quick-start.html#tab_python_0>`_
+   * `Pig Getting Started <http://pig.apache.org/docs/r0.15.0/start.html>`_
+   * `Flink Python API <https://ci.apache.org/projects/flink/flink-docs-release-0.10/apis/python.html>`_
+   * `MLlib <http://spark.apache.org/docs/latest/mllib-guide.html>`_
+   * `Storm Tutorial <http://storm.apache.org/tutorial.html>`_
+   * `Ibis Tutorial <http://docs.ibis-project.org/tutorial.html>`_
+* Scheduler
+   * `Running Marathon with Apache Mesos <https://mesosphere.github.io/marathon/docs/>`_
+* Database
+   * `Getting Started with MongoDB <https://docs.mongodb.org/getting-started/shell/introduction/>`_
+   * `M101P: MongoDB for Developers (MongoDB Online Courses <https://university.mongodb.com/courses/M101P/about>`_
+   * `HBase Getting Started <http://hbase.apache.org/book.html#quickstart>`_
+   * `Cassandra <http://wiki.apache.org/cassandra/GettingStarted>`_
+* GUI Tools
+   * `MongoDB Web Interfaces <https://docs.mongodb.org/ecosystem/tools/administration-interfaces/>`_
+   * `MySQL phpMyAdmin <https://www.phpmyadmin.net/>`_
+   * `MySQL Workbench <http://www.mysql.com/products/workbench/>`_
+   * `HeidiSQL for MySQL Windows <http://www.heidisql.com/>`_
+* Python Tools
+   * `Pydoop <http://crs4.github.io/pydoop/>`_
+   * `IPython Notebook (Jupyter) <http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Examples%20and%20Tutorials%20Index.ipynb>`_
+* Visualization
+   * `Highcharts Getting Started <http://www.highcharts.com/docs/getting-started/your-first-chart>`_
+   * `Pyplot Tutorial <http://matplotlib.org/users/pyplot_tutorial.html>`_
