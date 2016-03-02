@@ -202,11 +202,13 @@ by others online after the end of semester.
 Project Proposal
 -------------------------------------------------------------------------------
 
-Please submit your project proposal to IU GitHub. The submission format is in a
-``proposal.rst`` RST file. `RST Quick Reference
+Please submit your project proposal by due. The ``proposal.rst`` RST file is
+provided in the project template repository.  Fork `this
+<https://github.iu.edu/bdossp-sp16/bdossp-project>`_ repository and write your
+proposal in the file under 'doc' directory.  Find `RST Quick Reference
 <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_ , `Online RST
-Editor <http://rst.ninjs.org/>`_. A project proposal is typically 1-2 pages
-long and should contain in the description section:
+Editor <http://rst.ninjs.org/>`_ here. A project proposal is typically 1-2
+pages long and should contain in the description section:
 
 * the nature of the project and its context
 * the technologies used
@@ -214,10 +216,8 @@ long and should contain in the description section:
 * specific aims you intent to complete
 * and a list of intended deliverables (atrifacts produced)
 
-Project Proposal Example
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-:ref:`ref-project-proposal`
+- :ref:`Project Proposal Example <ref-project-proposal>`
+- `Project Template Repository <https://github.iu.edu/bdossp-sp16/bdossp-project>`_
 
 Oral Presentation
 -------------------------------------------------------------------------------
@@ -255,11 +255,11 @@ The following activities will be evaluated:
 * Software installation
 * Datasets preparation
 
-List of Possible Projects (In Progress)
+List of Possible Projects
 -------------------------------------------------------------------------------
 
-We are currently working on this and any software and/or details are subject to
-change without notice. This is reference only.
+.. note:: We are currently working on this and any software and/or details are
+        subject to change without notice. This is reference only.
 
 * Big Data Analytics Stack
    - Deployment project using Ansible Playbooks
@@ -299,28 +299,34 @@ software and attach to your stack. Find more details here
 
 .. include:: projects/list_of_projects_2016sp.rst
 
-* :ref:`ref-2015-fall-list-of-projects`
+* Examples from the previous class
+   * :ref:`ref-2015-fall-list-of-projects`
 
-List of Datasets (In Progress)
+List of Datasets
 -------------------------------------------------------------------------------
 
-We are currently working on this and any software and/or details are subject to
-change without notice. This is reference only.
+.. note:: We are currently working on this and any software and/or details are
+         subject to change without notice. This is reference only.
 
-* :ref:`ref-list-of-datasets-2015-fall`
+* Examples from the previous class
+   * :ref:`ref-list-of-datasets-2015-fall`
 
 .. note:: There is no direct support on datasets.
-.. note:: Large datasets will be downloadable via NFS on india.futuresystems.org
+.. note:: Large datasets should be informed to Course Team. These will be
+          prepared and downloadable via ``/share/project2/FG491`` on
+          india.futuresystems.org
 
-List of Technologies (In Progress)
+List of Technologies
 -------------------------------------------------------------------------------
 
-We are currently working on this and any software and/or details are subject to
-change without notice. This is reference only.
+.. note:: We are currently working on this and any software and/or details are
+        subject to change without notice. This is reference only.
 
 * `ABDS and HPC Technologies and Software Stacks <http://hpc-abds.org/kaleidoscope/>`_
-* :ref:`ref-list-of-tech-2015-fall`
-* :ref:`ref-list-of-tech-2015-spring`
+
+* Examples from the previous class
+   * :ref:`ref-list-of-tech-2015-fall`
+   * :ref:`ref-list-of-tech-2015-spring`
 
 .. note:: There is no direct support on Analytics software.
 
@@ -329,7 +335,7 @@ Details on Software Submission
 
 Code submission should be made at Github including a ``README`` file.
 
-* Source code on Github: https://github.iu.edu/bdossp-sp16/
+* Source code on Github: https://github.iu.edu/bdossp-sp16/bdossp-project
 
 ``README`` includes:
 
