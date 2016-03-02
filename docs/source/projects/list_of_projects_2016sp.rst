@@ -1,8 +1,10 @@
-List of Possible Projects (2016 Spring)
--------------------------------------------------------------------------------
+.. comment::
 
-You can choose one of the possible projects here to start developing your
-projects.
+        List of Possible Projects (2016 Spring)
+        -------------------------------------------------------------------------------
+
+        You can choose one of the possible projects here to start developing your
+        projects.
 
 Projects from Software Deployments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
