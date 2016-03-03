@@ -20,7 +20,6 @@ You must have a Hadoop installed machine up and running to execute Word Count.
 If you don't have a hadoop installation, one of the following pages help you
 install and configure a Hadoop cluster on OpenStack FutureSystems. 
 
-* :ref:`Hadoop Cluster with Cludmesh <ref-class-lesson-deploying-hadoop-cluster-with-cloudmesh>`
 * :ref:`Hadoop Cluster Manual Installation with Chef<ref-class-lesson-deploying-hadoop-cluster-manual>`
 
 Word Count v1.0
@@ -44,9 +43,6 @@ First, create a ``WordCount.java`` file to implement Map and Reduce functions.
 
 .. literalinclude:: WordCount.java
 
-Or, you can download the file.::
-
-  wget https://raw.githubusercontent.com/cloudmesh/introduction_to_cloud_computing/master/docs/source/class/lesson/cluster/WordCount.java
 
 Environment Variables
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
