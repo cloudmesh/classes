@@ -12,6 +12,8 @@ News
 -------------------------------------------------------------------------------
 
 * HBase is now supported (03/02/2016)
+* Examples are under development (03/02/2016)
+* Projects, datasets, and technologies from the past are available (02/26/2016)
 
 Important Dates
 -------------------------------------------------------------------------------
