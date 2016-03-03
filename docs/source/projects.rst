@@ -418,8 +418,10 @@ FAQ
 
 Q. Use of FutureSytem is required?
 
-A. No, it is not required. However, you need to provide instructions how to
-install your software project in a single or multiple nodes.
+A. No, it is not required, but it must be deployable and runnable on
+FutureSystems Kilo and you should provide detailed instructions on how to do
+so. Ideally, running ``ansbile-playbook site.yml`` should be all that is needed
+to deploy, after booting and editing ``inventory.txt`` file.
 
 Q. I need more time to complete code development, may I have an extension?
 
@@ -451,9 +453,7 @@ A. Schedule a meeting in Week 11 or Week 13 with Course Team.
 
 Q. What does that mean there is no direct support on Datasets and Analytics software?
 
-A. You can choose your dataset and analytics tool freely from many choices but
-   the course team can't assist you to validate whether datasets or tools you chose
-   are runnable in your software stacks. Downloading large dataset is supported though.
+A. We will provide support for accessing a dataset under 500 GB
 
 Questions & Support
 -------------------------------------------------------------------------------
