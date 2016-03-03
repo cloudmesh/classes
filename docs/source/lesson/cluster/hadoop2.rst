@@ -19,42 +19,9 @@ In this tutorial, remember a few things below.
 Deploying Virtual Cluster
 -------------------------------------------------------------------------------
 
-Virtual Cluster (VC) with ``cluster`` CM command
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Create Virtual Cluster with 4 VM instances.
 
-On Cloudmesh Shell::
-
-  cm> cluster create albert-hadoop-cluster --count=4
-
-**REPLACE** ``albert`` with your username.
-
-.. tip:: If you see ``albert`` in this tutorial, ALWAYS CHANGE it with your
-   userid (FutureSystems portal id).
-
-You expect to see outputs like:
-
-::
-
-  ...
-  DONE.
-  cluster group:  albert-hadoop-cluster
-  albert_1 100.200.1.1, 10.20.30.1
-  albert_2 100.200.1.2, 10.20.30.2
-  albert_3 100.200.1.3, 10.20.30.3
-  albert_4 100.200.1.4, 10.20.30.4
-
 There will be **1 MASTER** and **3 SLAVES** in this tutorial using these four VM instances.
-
-SSH to a Node
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-on Cloudmesh::
-
-  cm> vm login albert_1 --ln=ubuntu
-
-**REPLACE** ``albert`` with your vm name.
 
 Operating System Configuration
 -------------------------------------------------------------------------------
@@ -85,9 +52,6 @@ selected as a master.
   logout
   logout
 
-.. tip:: The last two logout(s) will move your shell back to ``cm>`` shell.
-        To use a updated hostname, your shell need to be re-established.
-
 Remember, we make changes to:
 
 * Hostname of albert_1 vm: ``hc-master``
@@ -105,10 +69,10 @@ Remember, we make changes to:
 SSH to a Node 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Since you are logged out and get back to ``cm>`` shell, let's go to your
+Let's go to your
 VC node again to see the new hostname ``hc-master``.::
 
-  cm> vm login albert_1 --ln=ubuntu
+  ssh albert_1 -l ubuntu
 
 *Replace ``albert_1`` with your vm name* 
 
