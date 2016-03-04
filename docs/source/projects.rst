@@ -194,8 +194,7 @@ problems you identified in your project proposal.
 Project Requirement
 -------------------------------------------------------------------------------
 
-* Installation/Configuration by Ansible playbook or relevant tools
-   - :ref:`ref-ansible-roles`
+* Installation/Configuration by Ansible playbook or relevant tools (:ref:`ref-ansible-roles`)
 * Reproducibility - runnable on Linux distribution
 * Sample Dataset - up to 480GB per team
 * 12 VM instances with m1.medium are given to the utmost each team
@@ -270,8 +269,7 @@ List of Possible Projects
         subject to change without notice. This is reference only.
 
 * Big Data Analytics Stack
-   - Deployment project using Ansible Playbooks
-      - :ref:`ref-ansible-roles`
+   - Deployment project using Ansible Playbooks (:ref:`ref-ansible-roles`)
 
 .. _ref-software-layers:
 
