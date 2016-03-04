@@ -1,6 +1,7 @@
 .. _ref-ansible-roles:
 
- Ansible Roles
+
+Ansible Roles
 -------------------------------------------------------------------------------
 
 There are two ways to use a role in your project:
