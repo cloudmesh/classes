@@ -195,6 +195,7 @@ Project Requirement
 -------------------------------------------------------------------------------
 
 * Installation/Configuration by Ansible playbook or relevant tools
+   - :ref:`ref-ansible-roles`
 * Reproducibility - runnable on Linux distribution
 * Sample Dataset - up to 480GB per team
 * 12 VM instances with m1.medium are given to the utmost each team
@@ -270,6 +271,7 @@ List of Possible Projects
 
 * Big Data Analytics Stack
    - Deployment project using Ansible Playbooks
+      - :ref:`ref-ansible-roles`
 
 .. _ref-software-layers:
 
@@ -302,7 +304,7 @@ You may consider to work on Big Data Analytics Stack using Ansible Playbooks.
 The default configuration of the stack is YARN + HDFS + Java + Hadoop
 MapReduce, Spark, and Pig. You can develop a new addon for one of the optional
 software and attach to your stack. Find more details here
-:ref:`ref-big-data-stacks`.
+:ref:`ref-big-data-stacks`, :ref:`ref-ansible-roles`.
 
 .. include:: projects/list_of_projects_2016sp.rst
 
