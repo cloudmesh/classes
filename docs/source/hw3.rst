@@ -119,9 +119,11 @@ repository. :ref:`IU GitHub Guidelines <ref-iu-github-for-assignments>`
 
    git add hw3-results.txt
 
-6. Merge the template::
+6. Merge the template
 
-   git commit -am "initial merge with the template"
+   ::
+
+     git commit -am "initial merge with the template"
 
 7. Sync your changes::
 
