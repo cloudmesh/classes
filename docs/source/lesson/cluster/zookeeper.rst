@@ -20,7 +20,7 @@ familiar directory tree structure of file systems. It runs in Java and has
 bindings for both Java and C. (as quoted in ZooKeeper overview:
 http://zookeeper.apache.org/doc/trunk/zookeeperOver.html)
 
-.. figure:: ../../../images/lesson/zkservice.jpg
+.. figure:: ../../images/lesson_zkservice.jpg
 
    Figure 1. ZooKeeper Service
 
