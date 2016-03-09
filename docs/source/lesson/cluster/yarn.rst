@@ -24,14 +24,14 @@ container. YARN is an abbreviation for Yet Another Resource Negotiator which
 was addressed in January, 2008 from
 https://issues.apache.org/jira/browse/MAPREDUCE-279
 
-.. figure:: ../../../images/lesson/yarn.png
+.. figure:: ../../images/lesson_yarn.png
 
    Figure 1. Changes of Hadoop v1 to v2 (image source: http://media.bestofmicro.com/X/8/430172/original/yarn.png)
 
 Hadoop v1
 -------------------------------------------------------------------------------
 
-.. figure:: ../../../images/lesson/mapreduce1_architecture.png
+.. figure:: ../../images/lesson_mapreduce1_architecture.png
 
    Figure 2. Hadoop v1 Architecture (image source: http://hortonworks.com/blog/apache-hadoop-yarn-background-and-an-overview/)
 
@@ -43,7 +43,7 @@ Hadoop v1
 Hadoop v2
 -------------------------------------------------------------------------------
 
-.. figure:: ../../../images/lesson/mapreduce2_architecture.png
+.. figure:: ../../images/lesson_mapreduce2_architecture.png
 
    Figure 3. Hadoop v2 Architecture (image source: http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
 
@@ -66,7 +66,7 @@ Benefits of changing MR1 to MR2
 ResourceManager (RM)
 -------------------------------------------------------------------------------
 
-.. figure:: ../../../images/lesson/mapreduce_resourcemanager.gif
+.. figure:: ../../images/lesson_mapreduce_resourcemanager.gif
 
    Figure3. ResourceManager Components
    (image source: http://hortonworks.com/blog/apache-hadoop-yarn-resourcemanager/)
@@ -104,7 +104,7 @@ Map-Reduce schedulers
 NodeManager (NM)
 -------------------------------------------------------------------------------
 
-.. figure:: ../../../images/lesson/mapreduce_nodemanager.png
+.. figure:: ../../images/lesson_mapreduce_nodemanager.png
 
    Figure4. NodeManager Components
    (image source: http://hortonworks.com/blog/apache-hadoop-yarn-nodemanager/)
@@ -161,7 +161,7 @@ Web Interface
 
     http://[node address]:8088
 
-.. figure:: ../../../images/lesson/yarn-resourcemanager-gui.png
+.. figure:: ../../images/lesson_yarn-resourcemanager-gui.png
 
    Figure 4. Overview of YARN GUI
 
