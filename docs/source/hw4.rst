@@ -82,7 +82,7 @@ met in your submission, see the requirements below:
    - owner/group of the destination file is ``root``
    - mode of the file is ``0644``
    - reload mongodb after adding this file to remote
-   - *You can find mongodb.service* template file in your hw4 branch
+   - You can find *mongodb.service.j2* template file in your hw4 branch
 
 * Write a main playbook:
    - to include your new role
@@ -145,7 +145,27 @@ Guidelines <ref-iu-github-for-assignments>`
 
    git push -u origin hw4
 
+Challenging Tasks (Optional)
+-------------------------------------------------------------------------------
+
+The following tasks are optional but strongly recommended to try. These are
+to write mongodb roles for RedHat-based operating system as well using Ansible
+conditionals and different modules, if necessary.
+
+MongoDB Roles for RedHat
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You have completed writing mongodb roles for Ubuntu 15.10 which is Debian-based
+operating system only.  In this challenge task, you are required to extend your
+mongodb roles for RedHat-based operating system as well.  Ansible conditionals
+is recommended to select correct tasks/files in different operating systems.
+
+Find ``mongodb-redhat`` directory in challange sub-directory. Add your extended
+mongodb role in the directory.
+
 Useful links
 -------------------------------------------------------------------------------
 
-
+* Ansible Basic: http://bdossp-spring2016.readthedocs.org/en/latest/lesson/ansible.html
+* Ansible Playbook: http://bdossp-spring2016.readthedocs.org/en/latest/lesson/ansible_playbook.html
+* Ansible official documentation: http://docs.ansible.com/ansible/index.html
