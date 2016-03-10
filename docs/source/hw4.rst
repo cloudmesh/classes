@@ -194,4 +194,6 @@ Useful links
 
 * Ansible Basic: http://bdossp-spring2016.readthedocs.org/en/latest/lesson/ansible.html
 * Ansible Playbook: http://bdossp-spring2016.readthedocs.org/en/latest/lesson/ansible_playbook.html
+* Ansible Role: http://bdossp-spring2016.readthedocs.org/en/latest/lesson/ansible_roles.html
+* Ansible Best Practices: https://docs.ansible.com/ansible/playbooks_best_practices.html
 * Ansible official documentation: http://docs.ansible.com/ansible/index.html
