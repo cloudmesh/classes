@@ -47,11 +47,11 @@ HW4 Tasks
 -------------------------------------------------------------------------------
 
 You need to write an Ansible role to install mongodb on your vm instance
-``hw3-$USER``.  Ansible Playbook for MongoDB installation is given in Ansible
-lessons. You may start from there but you need to install MongoDB on Ubuntu
-15.10 at this time. Systemd is a main init system in Ubuntu 15.10 and you need
-to place a service file using an Ansible module. Certain conditions should be
-met in your submission, see the requirements below:
+``hw3-$USER``.  Ansible Playbook for MongoDB installation is given in the
+Ansible lessons. You may start from there but you need to install MongoDB on
+Ubuntu 15.10 at this time. Systemd is a main init system in Ubuntu 15.10 and
+you need to locate a service file using Ansible modules. Certain conditions
+should be met in your submission, see the requirements below:
 
 * create a new Ansible role where
    - ``mongodb`` is a role name
@@ -70,14 +70,14 @@ met in your submission, see the requirements below:
 
    - mongodb_keyserver (to store hkp://...)
    - mongodb_gpgkey_id (to store EA312...)
-   - mongodb_repository_list (to store deb http://...)a
+   - mongodb_repository_list (to store deb http://...)
    - (more vars can be defined)
 
 * Two handlers
    - one for starting mongodb
    - one for reloading mongodb
 
-* Place a service file where:
+* Locate a service file where:
    - destination is ``/lib/systemd/system/mongodb.service``
    - owner/group of the destination file is ``root``
    - mode of the file is ``0644``
@@ -89,6 +89,20 @@ met in your submission, see the requirements below:
    - in ``site.yml`` file
 
 * Run ``hw4.sh`` to record your outputs in ``hw4-cmd.script`` file
+
+Grading Guidelines
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Existence of required files/directories (15%)
+   - inventory 
+   - site.yml
+   - (role) directory including subdirectories
+   - hw4-cmd.script
+* Proper use of Ansible Variables (20%)
+* Proper use of Ansible Tasks (20%)
+* Proper use of Ansible Templates (20%)
+* Proper use of Ansible Handlers (20%)
+* Successful Execution (5%)
 
 FAQ
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
