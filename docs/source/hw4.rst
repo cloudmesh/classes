@@ -26,7 +26,7 @@ Writing Mongodb playbook is taught in the Ansible lessons. You write
 MongoDB Ansible role in this assignment. Submit inventory, main playbook,
 command script and your role including sub-directories.
 
-Submission
+Requirements
 -------------------------------------------------------------------------------
 
 The following files should be included in your submission
