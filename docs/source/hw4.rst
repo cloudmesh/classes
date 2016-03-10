@@ -109,10 +109,11 @@ Grading Guidelines
    - site.yml
    - (role) directory including subdirectories
    - hw4-cmd.script
-* Proper use of Ansible Variables (20%)
-* Proper use of Ansible Tasks (20%)
-* Proper use of Ansible Templates (20%)
-* Proper use of Ansible Handlers (20%)
+* Proper use of Ansible Variables (15%)
+* Proper use of Ansible Tasks (15%)
+* Proper use of Ansible Templates (15%)
+* Proper use of Ansible Handlers (15%)
+* General understanding of Ansible Roles (20%)
 * Successful Execution (5%)
 
 FAQ
