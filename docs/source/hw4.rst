@@ -43,6 +43,9 @@ Preparation
 * Use the same ``bdossp-sp16`` virtualenv used in hw3
 * Install ``ansible`` via python package manager
 * Change a directory to your IU GitHub repository where you work on hw4
+* Create a new branch ``hw4`` by::
+
+   git checkout -b hw4
 * Pull hw4 template files by::
 
    git pull git@github.iu.edu:bdossp-sp16/assignments.git hw4
