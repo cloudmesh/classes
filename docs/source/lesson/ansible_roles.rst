@@ -325,7 +325,20 @@ You can use other options, find more details here:
 You may check out shell module as well here:
 `[documentation] <http://docs.ansible.com/ansible/shell_module.html>`_
 
-Useful Links
+Ansible Best Practices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Ansible glossary: http://docs.ansible.com/ansible/glossary.html#handlers
+We have discussed Ansible roles, conditionals, loops and a few modules in this
+lesson to get a general idea on writing Ansible Roles. There are other useful
+examples you can find such as Ansible directory layout, group and host
+variables and using tags from here `Ansible Best Practices
+<https://docs.ansible.com/ansible/playbooks_best_practices.html>`_. The
+examples in the best practices may help you keep your Ansible Playbooks and
+Roles simple even if it's getting complicated. For example, ``group_by`` tells
+you how to deal with different operating systems with different tasks or
+variables.
+
+Useful Links
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* Ansible Best Practices: https://docs.ansible.com/ansible/playbooks_best_practices.html
+* Ansible glossary: http://docs.ansible.com/ansible/glossary.html#handlers
