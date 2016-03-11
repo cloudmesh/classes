@@ -1,4 +1,4 @@
-HW4: Ansible Exercise
+HW5: Ansible Exercise
 ===============================================================================
 
 Guidelines
@@ -11,13 +11,13 @@ Guidelines
 * Use an individual github repository. A repository in FutureSystems will be
   given later.
 
-Use ``hw4`` branch
+Use ``hw5`` branch
 -------------------------------------------------------------------------------
 
 * Login https://github.iu.edu with your IU Username and Password
   (It is a same IU Credential that you use on other IU sites e.g. one.iu.edu)
 
-* Checkout hw4 branch
+* Checkout hw5 branch
 
 MongoDB Ansible Role
 -------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ The following files should be included in your submission
 * ``inventory`` file
 * ``site.yml`` the main playbook file
 * ``mongodb`` directory (which is ansible role for mongodb)
-* ``hw4-cmd.script`` file
+* ``hw5-cmd.script`` file
 
 Preparation
 -------------------------------------------------------------------------------
@@ -42,19 +42,19 @@ Preparation
 * Login to india.futuresystems.org
 * Use the same ``bdossp-sp16`` virtualenv used in hw3
 * Install ``ansible`` via python package manager
-* Change a directory to your IU GitHub repository where you work on hw4
-* Create a new branch ``hw4`` by::
+* Change a directory to your IU GitHub repository where you work on hw5
+* Create a new branch ``hw5`` by::
 
-   git checkout -b hw4
-* Pull hw4 template files by::
+   git checkout -b hw5
+* Pull hw5 template files by::
 
-   git pull git@github.iu.edu:bdossp-sp16/assignments.git hw4
+   git pull git@github.iu.edu:bdossp-sp16/assignments.git hw5
 * Sync to remote by::
 
-    git push origin hw4
-* Start working on hw4
+    git push origin hw5
+* Start working on hw5
 
-HW4 Tasks
+HW5 Tasks
 -------------------------------------------------------------------------------
 
 You need to write an Ansible role to install mongodb on your vm instance
@@ -93,13 +93,13 @@ should be met in your submission, see the requirements below:
    - owner/group of the destination file is ``root``
    - mode of the file is ``0644``
    - reload mongodb after adding this file to remote
-   - You can find *mongodb.service.j2* template file in your hw4 branch
+   - You can find *mongodb.service.j2* template file in your hw5 branch
 
 * Write a main playbook:
    - to include your new role
    - in ``site.yml`` file
 
-* Run ``hw4.sh`` to record your outputs in ``hw4-cmd.script`` file
+* Run ``hw5.sh`` to record your outputs in ``hw5-cmd.script`` file
 
 Grading Guidelines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -108,7 +108,7 @@ Grading Guidelines
    - inventory 
    - site.yml
    - (role) directory including subdirectories
-   - hw4-cmd.script
+   - hw5-cmd.script
 * Proper use of Ansible Variables (15%)
 * Proper use of Ansible Tasks (15%)
 * Proper use of Ansible Templates (15%)
@@ -139,37 +139,37 @@ Guidelines <ref-iu-github-for-assignments>`
 1. Clone your private repository from the course organization.
    You IU Username is the name of your repository.
 
-2. Create a ``hw4`` branch 
+2. Create a ``hw5`` branch 
 
 ::
 
-   git branch hw4
-   git checkout hw4
+   git branch hw5
+   git checkout hw5
 
 3. Run ``pull`` command to fetch and merge with the template repository::
 
-   git pull git@github.iu.edu:bdossp-sp16/assignments.git hw4
+   git pull git@github.iu.edu:bdossp-sp16/assignments.git hw5
 
 4. Sync with remote::
 
-   git push -u origin hw4
+   git push -u origin hw5
 
 5. Add files and directories to your repository::
 
    git add inventory
    git add mongodb
    git add site.yml
-   git add hw4-cmd.script
+   git add hw5-cmd.script
 
 6. commit
 
    ::
 
-     git commit -am "submission hw4"
+     git commit -am "submission hw5"
 
 7. Sync your changes::
 
-   git push -u origin hw4
+   git push -u origin hw5
 
 Challenging Tasks (Optional)
 -------------------------------------------------------------------------------
