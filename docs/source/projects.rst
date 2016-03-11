@@ -10,7 +10,9 @@ Project Guidelines
 
 News
 -------------------------------------------------------------------------------
-
+* `NIST Fingerprint Example
+  <https://github.com/futuresystems/big-data-stack/tree/examples/nist/fingerprint/examples/nist_fingerprint>`_
+  (03/09/2016)
 * HBase is now supported (03/02/2016)
 * Examples are under development (03/02/2016)
 * Projects, datasets, and technologies from the past are available (02/26/2016)
