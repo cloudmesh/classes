@@ -192,8 +192,8 @@ mongodb role in the directory.
 Possible Project idea (Running Ansible on Windows)
 -------------------------------------------------------------------------------
 
-Develop Ansible Playbooks and Roles for Windows machines using PowerShell
-instead of SSH and winrm Python package. You may find multiple ways like:
+Develop Ansible Playbooks and Roles for Windows machines using PowerShell and
+winrm Python package instead of SSH. You may find multiple ways like:
 
 - develop a PowereShell script that starts a VirtualBox and runs the Debian
   ansible in it, have a local key be used see the instalation instructions of
