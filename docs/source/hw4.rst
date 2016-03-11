@@ -189,6 +189,22 @@ is recommended to select correct tasks/files in different operating systems.
 Find ``mongodb-redhat`` directory in challange sub-directory. Add your extended
 mongodb role in the directory.
 
+Possible Project idea (Running Ansible on Windows)
+-------------------------------------------------------------------------------
+
+Develop Ansible Playbooks and Roles for Windows machines using PowerShell
+instead of SSH and winrm Python package. You may find multiple ways like:
+
+- develop a PowereShell script that starts a VirtualBox and runs the Debian
+  ansible in it, have a local key be used see the instalation instructions of
+  Cloudmesh that let you set up ssh on a windows machine also.
+
+- develop a Docker based ansible container. However this is not as straight
+  forward as the key management need to be done right.
+
+You can find more information here `Windows Support
+<http://docs.ansible.com/ansible/intro_windows.html#configuring-kerberos>`_
+
 Useful links
 -------------------------------------------------------------------------------
 
