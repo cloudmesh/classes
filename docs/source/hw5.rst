@@ -203,7 +203,7 @@ winrm Python package instead of SSH. You may find multiple ways like:
   forward as the key management need to be done right.
 
 You can find more information here `Windows Support
-<http://docs.ansible.com/ansible/intro_windows.html#configuring-kerberos>`_
+<http://docs.ansible.com/ansible/intro_windows.html>`_
 
 Useful links
 -------------------------------------------------------------------------------
