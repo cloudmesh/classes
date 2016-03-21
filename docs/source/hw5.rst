@@ -1,6 +1,10 @@
 HW5: Ansible Exercise
 ===============================================================================
 
+.. note:: Replace ``mongodb.yml`` to ``site.yml`` in *hw5.sh*, if you failed
+   running hw5.sh with the incorrect filename. If you recently pulled hw5
+   branch in your private repository, you don't need this fix.
+
 Guidelines
 -------------------------------------------------------------------------------
 
