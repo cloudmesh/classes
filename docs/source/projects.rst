@@ -214,7 +214,7 @@ Project Proposal
 Please submit your project proposal by due. The ``proposal.rst`` RST file is
 provided in the project template repository.  Fork `this
 <https://github.iu.edu/bdossp-sp16/sw-project-template>`_ repository and write
-your proposal in the file under 'doc' directory.  Find `RST Quick Reference
+your proposal in the file under 'docs' directory.  Find `RST Quick Reference
 <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_ , `Online RST
 Editor <http://rst.ninjs.org/>`_ here. A project proposal is typically 1-2
 pages long and should contain in the description section:
