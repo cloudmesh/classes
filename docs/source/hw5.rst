@@ -134,6 +134,14 @@ Q. Where should I run Ansible Playbooks or Roles?
 
 A. It is on india.futuresystems.org, not on your VM instance.
 
+Q. I see *mongodb.service.j2* template file but don't exactly know what to do.
+
+A. Once you installed a mongodb server to a destination, you may need to
+   register a mongodb server as a service. In Ubuntu 15.10, *systemd* is a main
+   init system and you need to locate a service file to register. Explore Ansible
+   ``template`` module which is useful to locate a file with variables. See
+   documentation here: http://docs.ansible.com/ansible/template_module.html
+
 Submission via IU GitHub (github.iu.edu)
 -------------------------------------------------------------------------------
 
