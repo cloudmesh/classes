@@ -45,7 +45,7 @@ Preparation
 
 * Login to india.futuresystems.org
 * Use the same ``bdossp-sp16`` virtualenv used in hw3
-* Install ``ansible`` via python package manager
+* Install ``ansible`` to the bodssp-sp16 virtualenv via python package manager
 * Change a directory to your IU GitHub repository where you work on hw5
 * Create a new branch ``hw5`` by::
 
