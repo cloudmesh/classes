@@ -142,6 +142,14 @@ A. Once you installed a mongodb server to a destination, you may need to
    ``template`` module which is useful to locate a file with variables. See
    documentation here: http://docs.ansible.com/ansible/template_module.html
 
+Q. Permission denied on ``git pull git@github.iu.edu:bdossp-sp16/assignments.git hw5``
+
+A. Try https or register your ssh key at IU GitHub. Using https URL is like:
+
+  ::
+    
+    git pull https://github.iu.edu/bdossp-sp16/assignments.git hw5
+
 Submission via IU GitHub (github.iu.edu)
 -------------------------------------------------------------------------------
 
