@@ -90,7 +90,7 @@ should be met in your submission, see the requirements below:
 
 * Two handlers
    - one for starting mongodb
-   - one for reloading mongodb
+   - one for restarting mongodb
 
 * Locate a service file where:
    - destination is ``/lib/systemd/system/mongodb.service``
