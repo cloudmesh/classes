@@ -50,6 +50,21 @@ and **REPLACE** USERNAME with your real IU Username: ::
 
      git push -u origin hw3
 
+IU GitHub via HTTPS or SSH
+-------------------------------------------------------------------------------
+
+Two authenticated ways to clong IU GitHub. SSH and HTTPS.
+
+* SSH: if you see a git URL starts with ``git@``, you are using SSH
+- go to SSH keys at settings: https://github.iu.edu/settings/ssh
+- register your ssh key
+
+e.g. git@github.iu.edu:bdossp-sp16/assignments.git
+
+* HTTPS: Your IU site wide ID and Password will be required to authenticate in terminal.
+
+e.g. https://github.iu.edu/bdossp-sp16/assignments.git
+
 Useful Links
 -------------------------------------------------------------------------------
 
