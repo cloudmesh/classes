@@ -53,7 +53,7 @@ and **REPLACE** USERNAME with your real IU Username: ::
 IU GitHub via HTTPS or SSH
 -------------------------------------------------------------------------------
 
-Two authenticated ways to clong IU GitHub. SSH and HTTPS.
+Two authenticated ways to clone IU GitHub. SSH and HTTPS.
 
 * SSH: if you see a git URL starts with ``git@``, you are using SSH
 - go to SSH keys at settings: https://github.iu.edu/settings/ssh
