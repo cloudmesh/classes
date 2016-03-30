@@ -80,12 +80,13 @@ should be met in your submission, see the requirements below:
      LTS by adding a MongoDB repository from:
        - ``deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse``
 
-* Define those as Ansible variables in *defaults* directory, at least the three
+* Define those as Ansible variables in *defaults* directory, at least the four
   variable names below should be used:
 
    - mongodb_keyserver (to store hkp://...)
    - mongodb_gpgkey_id (to store EA312...)
    - mongodb_repository_list (to store deb http://...)
+   - monogodb_package_name (use 'mongodb')
    - (more vars can be defined)
 
 * Two handlers
