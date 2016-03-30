@@ -67,12 +67,6 @@ OpenStack is a collection of many distributed systems, and the nature of distrib
 
 If you are still unable to log in, please contact us and indicate that you have gone through these steps, and show the output of the above commands.
 
-
-
-How do I check VM accessibility?
-===============================
-
-
 Why I can't modify my ``~/.ssh/authorized_keys`` file?
 ======================================================
 
