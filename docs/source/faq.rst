@@ -6,11 +6,72 @@
 How to ask a question
 =====================
 
-I can't ``ssh`` into a VM
-=========================
+Why can't I ``ssh`` into my VM?
+===============================
 
-How to check VM accessibility
-=============================
+#. Make sure that the machine have fnished boot by checking that ssh daemon is listening on port 22. If the private IP does not work, assign a floating ip as use that:
+
+   ::
+
+      $ nc -zv $IP 22
+      Connection to 149.165.158.1 22 port [tcp/ssh] succeeded!
+
+#. Check that you have a registered with openstack using ``nova keypair-list`` and make note of the fingerprint:
+
+   ::
+
+      $ nova keypair list
+      +----------------+-------------------------------------------------+
+      | Name           | Fingerprint                                     |
+      +----------------+-------------------------------------------------+
+      | india          | 41:29:20:a2:51:25:5d:66:71:02:15:b6:cd:e2:36:06 |
+      +----------------+-------------------------------------------------+
+
+#. Check that the correct key name was passed to ``nova boot`` when starting the VM by using ``nova show``:
+
+   ::
+
+      $ nova show $USER-myvmname
+      +--------------------------------------+----------------------------------------------------------+
+      | Property                             | Value                                                    |
+      +--------------------------------------+----------------------------------------------------------+
+      # ...
+      | key_name                             | india                                                    |
+      # ...
+      +--------------------------------------+----------------------------------------------------------+
+
+#. Ensure that the fingerprint matches:
+
+   ::
+
+      $ ssh-keygen -lf ~/.ssh/id_rsa.pub
+      2048 41:29:20:a2:51:25:5d:66:71:02:15:b6:cd:e2:36:06 ~/.ssh/id_rsa.pub
+
+#. Make sure that the key was injected into the VM during the startup by grabbing the console log and searching for your fingerprint. Make sure to wait for a few minutes after ``nova boot`` to allow the node start up:
+
+  ::
+
+     $ nova console-log status.futuresystems.org | grep -A 2 -B 4 '41:29:20:a2:51:25:5d:66:71:02:15:b6:cd:e2:36:06'
+     ci-info: ++++++++++++++++++Authorized keys from /home/centos/.ssh/authorized_keys for user centos+++++++++++++++++++
+     ci-info: +---------+-------------------------------------------------+---------+-----------------------------------+
+     ci-info: | Keytype |                Fingerprint (md5)                | Options |              Comment              |
+     ci-info: +---------+-------------------------------------------------+---------+-----------------------------------+
+     ci-info: | ssh-rsa | 41:29:20:a2:51:25:5d:66:71:02:15:b6:cd:e2:36:06 |    -    |                                   |
+     ci-info: +---------+-------------------------------------------------+---------+-----------------------------------+
+
+
+
+
+If, after going through these steps, you are still unable to access the VM, delete the VM and try again two or three times, waiting a few minutes between each attempt.
+OpenStack is a collection of many distributed systems, and the nature of distributed systems is that they can be prone to random failure.
+
+If you are still unable to log in, please contact us and indicate that you have gone through these steps, and show the output of the above commands.
+
+
+
+How do I check VM accessibility?
+===============================
+
 
 Why I can't modify my ``~/.ssh/authorized_keys`` file?
 ======================================================
