@@ -15,6 +15,9 @@ How to check VM accessibility
 Why I can't modify my ``~/.ssh/authorized_keys`` file?
 ======================================================
 
+You can not manually manage your ``authorized_keys`` file on ``india`` for security reasons.
+If you need to change your ssh key, do so via the ``SSH keys`` tab on your `Web Portal Account <https://portal.futuresystems.org/user>`_.
+
 Why does my MongoDB deployment fail?
 ====================================
 
