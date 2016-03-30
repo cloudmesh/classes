@@ -98,3 +98,8 @@ As the `hw instructions say <https://github.iu.edu/bdossp-sp16/assignments/tree/
 
 .. _Upstart: http://upstart.ubuntu.com/
 .. _systemd: https://freedesktop.org/wiki/Software/systemd/
+
+
+#. How do I choose and/or use security groups?
+
+#. How do I assign a floating ip?
