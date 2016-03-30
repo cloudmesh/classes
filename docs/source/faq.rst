@@ -1,6 +1,3 @@
-============================
- Frequently Asked Questions
-============================
 
 #. How to ask a question
 
