@@ -93,7 +93,7 @@ There are many solutions to this type of problem:
 #. use a different repository which includes the systemd service file
 
 For the purposes of this homework, the first option is taken, and the service file is provided in the repository.
-As the `hw instructions say <https://github.iu.edu/bdossp-sp16/assignments/tree/hw5#hw5-tasks>`_ place the provided service file in the appropriate location.
+As the `hw instructions say <https://github.iu.edu/bdossp-sp16/assignments/tree/hw5#hw5-tasks>`_ place the `provided service file <https://github.iu.edu/bdossp-sp16/assignments/blob/hw5/mongodb.service.j2>`_ in the appropriate location.
 
 
 .. _Upstart: http://upstart.ubuntu.com/
