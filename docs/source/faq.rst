@@ -6,6 +6,66 @@
 How to ask a question
 =====================
 
+When submitting a questions please:
+
+#. do not send text files, zipfiles, or other attachments as they may be not be opened.
+   Screen grabs *may* be acceptable if you add annotate the relevant parts, or are integral to showing the problem.
+   Instead, copy/paste directly from the terminal into the email message
+
+#. use the mailing list (bdosspcoursehelp@googlegroups.com) to direct questions as all support staff are subscribed.
+   Direct message via Slack is discouraged.
+
+#. describe the specific step you are trying to accomplish, include action you took and the result.
+   Ensure that you can reproduce your problem by executing only the steps present in your email.
+   Also include:
+
+   - your futuresystems username
+   - the output of ``nova show MY_VM`` (replacing ``MY_VM`` appropriately)
+
+   For example:
+
+   ::
+
+      I cannot ssh into my VM due to permission denied errors:
+
+      $ ssh user@machine
+      Permission denied (publickey,hostbased).
+
+      I tried following the steps in the FAQ as defined here: https://...
+      <SHOW THE COMMANDS AND THEIR OUTPUT> 
+
+
+      Relvant information is:
+
+      Username: albert
+      $ nova show MY_VM
+      +--------------------------------------+----------------------------------------------------------+
+      | Property                             | Value                                                    |
+      +--------------------------------------+----------------------------------------------------------+
+      | accessIPv4                           |                                                          |
+      | accessIPv6                           |                                                          |
+      | config_drive                         |                                                          |
+      | created                              | 2016-03-29T19:35:41Z                                     |
+      | fg491-net network                    | 10.0.5.42, 149.165.158.241                               |
+      | flavor                               | m1.large (4)                                             |
+      | hostId                               | 683eed6c03fcc23879620b6042eaaa22149d915bfcd4ec9e5feab7c5 |
+      | id                                   | 60dc4420-e5c0-4897-9a58-2cd48d6521b0                     |
+      | image                                | CentOS7 (dc5c041f-7881-441e-af91-e9620efde901)           |
+      | key_name                             | gambit                                                   |
+      | metadata                             | {}                                                       |
+      | name                                 | MY_VM                                                    |
+      | os-extended-volumes:volumes_attached | []                                                       |
+      | progress                             | 0                                                        |
+      | security_groups                      | default, monitor, web                                    |
+      | status                               | ACTIVE                                                   |
+      | tenant_id                            | 74e41156d99e4497901d4c4e2b159f41                         |
+      | updated                              | 2016-03-29T19:35:56Z                                     |
+      | user_id                              | 090ea72e35c94c49ad8cc8133627fa1a                         |
+      +--------------------------------------+----------------------------------------------------------+
+
+
+
+
 Why can't I ``ssh`` into my VM?
 ===============================
 
