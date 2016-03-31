@@ -108,7 +108,7 @@ Why can't I ``ssh`` into my VM?
 
    ::
 
-      $ ssh ubuntu@$IP -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
+      $ ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ubuntu@$IP
 
 #. If you are still unable to ssh, try a hard reboot a few times:
 
