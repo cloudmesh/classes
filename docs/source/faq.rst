@@ -144,8 +144,7 @@ Why can't I ``ssh`` into my VM?
 
   ::
 
-     $ nova console-log $USER-myvmname \
-       | grep -A 2 -B 4 '41:29:20:a2:51:25:5d:66:71:02:15:b6:cd:e2:36:06'
+     $ nova console-log $USER-myvmname | grep -A 2 -B 4 '41:29:20:a2:51:25:5d:66:71:02:15:b6:cd:e2:36:06'
      ci-info: ++++++Authorized keys from /home/centos/.ssh/authorized_keys for user centos+++++++
      ci-info: +---------+-------------------------------------------------+---------+-----------+
      ci-info: | Keytype |                Fingerprint (md5)                | Options |  Comment  |
