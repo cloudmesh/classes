@@ -1,4 +1,4 @@
-.. contents:: :depth: 1
+.. contents:: :depth: 2
 
 
 FAQ
