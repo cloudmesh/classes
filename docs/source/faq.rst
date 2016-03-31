@@ -10,12 +10,12 @@ When submitting a questions please:
 
 #. copy/paste directly from the terminal into the email message.
    Do not send text files, zipfiles, or other attachments as they may be not be opened.
-   Screen grabs *may* be acceptable if you add annotate the relevant parts, or are integral to showing the problem.
+   Screen grabs *may* be acceptable if you annotate the relevant parts using an image editor, or they are integral to showing the problem.
 
 #. use the mailing list (bdosspcoursehelp@googlegroups.com) to direct questions as all support staff are subscribed.
    Direct message via Slack is discouraged.
 
-#. describe the specific step you are trying to accomplish, include action you took and the result.
+#. describe the specific step you are trying to accomplish, include the actions you took and the results.
    Ensure that you can reproduce your problem by executing only the steps present in your email.
    Also include:
 
@@ -46,21 +46,21 @@ When submitting a questions please:
       | accessIPv6                           |                                                          |
       | config_drive                         |                                                          |
       | created                              | 2016-03-29T19:35:41Z                                     |
-      | fg491-net network                    | 10.0.5.42, 149.165.158.241                               |
+      | fg491-net network                    | 10.0.5.22, 149.165.159.241                               |
       | flavor                               | m1.large (4)                                             |
       | hostId                               | 683eed6c03fcc23879620b6042eaaa22149d915bfcd4ec9e5feab7c5 |
       | id                                   | 60dc4420-e5c0-4897-9a58-2cd48d6521b0                     |
       | image                                | CentOS7 (dc5c041f-7881-441e-af91-e9620efde901)           |
-      | key_name                             | gambit                                                   |
+      | key_name                             | india                                                    |
       | metadata                             | {}                                                       |
-      | name                                 | MY_VM                                                    |
+      | name                                 | $USER-myvmname                                           |
       | os-extended-volumes:volumes_attached | []                                                       |
       | progress                             | 0                                                        |
-      | security_groups                      | default, monitor, web                                    |
+      | security_groups                      | default                                                  |
       | status                               | ACTIVE                                                   |
-      | tenant_id                            | 74e41156d99e4497901d4c4e2b159f41                         |
+      | tenant_id                            | 74e411d6d99e4497901d4c4e2b159f41                         |
       | updated                              | 2016-03-29T19:35:56Z                                     |
-      | user_id                              | 090ea72e35c94c49ad8cc8133627fa1a                         |
+      | user_id                              | 090ea72e85c94c49ad8cc8133627fa1a                         |
       +--------------------------------------+----------------------------------------------------------+
 
 
@@ -96,7 +96,7 @@ Why can't I ``ssh`` into my VM?
 
       $ ping -c 5 $IP
 
-#. Make sure that the machine have fnished boot by checking that ssh daemon is listening on port 22. If the private IP does not work, assign a floating ip as use that:
+#. Make sure that the machine have fnished boot by checking that ssh daemon is listening on port 22:
 
    ::
 
@@ -109,7 +109,7 @@ Why can't I ``ssh`` into my VM?
 
       $ nova reboot --hard $USER-myvmname
 
-#. Check that you have a registered with openstack using ``nova keypair-list`` and make note of the fingerprint:
+#. Check that you have an ssh key registered with openstack using ``nova keypair-list`` and make note of the fingerprint:
 
    ::
 
@@ -137,7 +137,7 @@ Why can't I ``ssh`` into my VM?
 
    ::
 
-      $ ssh-keygen -lf ~/.ssh/id_rsa.pub
+      $ ssh-keygen -lf ~/.ssh/id_rsa
       2048 41:29:20:a2:51:25:5d:66:71:02:15:b6:cd:e2:36:06 ~/.ssh/id_rsa.pub
 
 #. Make sure that the key was injected into the VM during the startup by grabbing the console log and searching for your fingerprint. Make sure to wait for a few minutes after ``nova boot`` to allow the node start up:
@@ -160,7 +160,7 @@ OpenStack is a collection of many distributed systems, and the nature of distrib
 
 If you are still unable to log in, please contact us and indicate that you have gone through these steps, and show the output of the above commands.
 
-Why I can't modify my ``~/.ssh/authorized_keys`` file?
+Why can't I modify my ``~/.ssh/authorized_keys`` file?
 ======================================================
 
 You can not manually manage your ``authorized_keys`` file on ``india`` for security reasons.
