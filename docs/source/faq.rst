@@ -75,7 +75,7 @@ Why can't I ``ssh`` into my VM?
       $ nova boot --nic net-id=$NET_ID      # ... etc
       $ nova floating-ip-list | grep ' - '  # find an available floating ip.
       $ # create a floating ip with nova floating-ip-create if there are no floating ips available
-      $ nova floating-ip-attach             # ... etc
+      $ nova floating-ip-associate          # ... etc
 
 #. If your VM is on the 10.1.x.y it is accessible:
 
