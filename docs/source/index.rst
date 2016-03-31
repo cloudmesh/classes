@@ -72,9 +72,6 @@ meeting, please see the following for guidance.
 
 .. include:: ../adobe-connect-tips.rst
 
-:doc:`FAQ <faq>`
-===============================================================================
-
 .. toctree:: faq
 
 .. comment::
