@@ -8,9 +8,9 @@ How to ask a question
 
 When submitting a questions please:
 
-#. do not send text files, zipfiles, or other attachments as they may be not be opened.
+#. copy/paste directly from the terminal into the email message.
+   Do not send text files, zipfiles, or other attachments as they may be not be opened.
    Screen grabs *may* be acceptable if you add annotate the relevant parts, or are integral to showing the problem.
-   Instead, copy/paste directly from the terminal into the email message
 
 #. use the mailing list (bdosspcoursehelp@googlegroups.com) to direct questions as all support staff are subscribed.
    Direct message via Slack is discouraged.
