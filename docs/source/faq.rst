@@ -152,7 +152,14 @@ Why can't I ``ssh`` into my VM?
      ci-info: | ssh-rsa | 41:29:20:a2:51:25:5d:66:71:02:15:b6:cd:e2:36:06 |    -    |           |
      ci-info: +---------+-------------------------------------------------+---------+-----------+
 
+#. Make sure you are trying to log in with the correct username.
+   For Ubuntu VMs, the username is ``ubuntu``; for CentOS use ``centos``.
 
+   For example, to log into an Ubuntu VM:
+   
+   ::
+
+      $ ssh ubuntu@$IP
 
 
 If, after going through these steps, you are still unable to access the VM, delete the VM and try again two or three times, waiting a few minutes between each attempt.
