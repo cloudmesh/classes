@@ -69,12 +69,45 @@ When submitting a questions please:
 Why can't I ``ssh`` into my VM?
 ===============================
 
+#. Make sure to boot using on the internal network **first**. Once the node is up, **then** attach the floating ip.
+
+   ::
+
+      $ NET_ID=$(nova net-list | grep $OS_PROJECT_NAME | cut -d' ' -f2)
+      $ nova boot --nic net-id=$NET_ID      # ... etc
+      $ nova floating-ip-list | grep ' - '  # find an available floating ip.
+      $ # create a floating ip with nova floating-ip-create if there are no floating ips available
+      $ nova floating-ip-attach             # ... etc
+
+#. If your VM is on the 10.1.x.y it is accessible:
+
+   - from outside the subnet with a floating ip only
+   - from inside the 10.1.x.y subnet
+
+   Check ip of your VM(s) with
+
+   ::
+
+      $ nova show $USER-myvmname | grep network
+
+#. Make sure you can ping your VM:
+
+   ::
+
+      $ ping -c 5 $IP
+
 #. Make sure that the machine have fnished boot by checking that ssh daemon is listening on port 22. If the private IP does not work, assign a floating ip as use that:
 
    ::
 
       $ nc -zv $IP 22
       Connection to 149.165.158.1 22 port [tcp/ssh] succeeded!
+
+#. If you are still unable to ssh, try a hard reboot a few times:
+
+   ::
+
+      $ nova reboot --hard $USER-myvmname
 
 #. Check that you have a registered with openstack using ``nova keypair-list`` and make note of the fingerprint:
 
