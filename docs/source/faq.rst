@@ -1,6 +1,4 @@
-.. toctree::
-           :maxdepth: 1
-
+.. contents:: :depth: 1
 
 
 How to ask a question
