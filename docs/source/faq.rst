@@ -65,7 +65,7 @@ When submitting a questions please:
 
 
 Why can't I ``ssh`` into my VM?
-===============================
+-------------------------------------------------------------------------------
 
 #. Make sure to boot using on the internal network **first**. Once the node is up, **then** attach the floating ip.
 
@@ -165,13 +165,13 @@ OpenStack is a collection of many distributed systems, and the nature of distrib
 If you are still unable to log in, please contact us and indicate that you have gone through these steps, and show the output of the above commands.
 
 Why can't I modify my ``~/.ssh/authorized_keys`` file?
-======================================================
+-------------------------------------------------------------------------------
 
 You can not manually manage your ``authorized_keys`` file on ``india`` for security reasons.
 If you need to change your ssh key, do so via the ``SSH keys`` tab on your `Web Portal Account <https://portal.futuresystems.org/user>`_.
 
 Why does my MongoDB deployment fail?
-====================================
+-------------------------------------------------------------------------------
 
 In this case: mongodb is installed successfully, but the service cannot be started.
 Solving this is the goal of the assignment, which is demonstrating an important aspect of many development processes: namely the affects of changing infrastructure.
@@ -199,8 +199,8 @@ As the `hw instructions say <https://github.iu.edu/bdossp-sp16/assignments/tree/
 
 
 How do I choose and/or use security groups?
-===========================================
+-------------------------------------------------------------------------------
 
 How do I assign a floating ip?
-==============================
+-------------------------------------------------------------------------------
 
