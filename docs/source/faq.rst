@@ -94,7 +94,7 @@ Why can't I ``ssh`` into my VM?
 
       $ ping -c 5 $IP
 
-#. Make sure that the machine have fnished boot by checking that ssh daemon is listening on port 22:
+#. Make sure that the machine have finished boot by checking that ssh daemon is listening on port 22:
 
    ::
 
