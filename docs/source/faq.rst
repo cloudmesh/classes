@@ -103,6 +103,15 @@ Why can't I ``ssh`` into my VM?
       $ nc -zv $IP 22
       Connection to 149.165.158.1 22 port [tcp/ssh] succeeded!
 
+#. Make sure you are trying to log in with the correct username.
+   For Ubuntu VMs, the username is ``ubuntu``; for CentOS use ``centos``.
+
+   For example, to log into an Ubuntu VM:
+
+   ::
+
+      $ ssh ubuntu@$IP
+
 #. If you are still unable to ssh, try a hard reboot a few times:
 
    ::
@@ -151,16 +160,6 @@ Why can't I ``ssh`` into my VM?
      ci-info: +---------+-------------------------------------------------+---------+-----------+
      ci-info: | ssh-rsa | 41:29:20:a2:51:25:5d:66:71:02:15:b6:cd:e2:36:06 |    -    |           |
      ci-info: +---------+-------------------------------------------------+---------+-----------+
-
-#. Make sure you are trying to log in with the correct username.
-   For Ubuntu VMs, the username is ``ubuntu``; for CentOS use ``centos``.
-
-   For example, to log into an Ubuntu VM:
-   
-   ::
-
-      $ ssh ubuntu@$IP
-
 
 If, after going through these steps, you are still unable to access the VM, delete the VM and try again two or three times, waiting a few minutes between each attempt.
 OpenStack is a collection of many distributed systems, and the nature of distributed systems is that they can be prone to random failure.
