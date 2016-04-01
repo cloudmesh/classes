@@ -195,6 +195,8 @@ There are many solutions to this type of problem:
 For the purposes of this homework, the first option is taken, and the service file is provided in the repository.
 As the `hw instructions say <https://github.iu.edu/bdossp-sp16/assignments/tree/hw5#hw5-tasks>`_ place the `provided service file <https://github.iu.edu/bdossp-sp16/assignments/blob/hw5/mongodb.service.j2>`_ in the appropriate location.
 
+If, after deploying the service file you are still unable to start the mongodb service, please include the contents of ``/lib/systemd/system/mongodb.service`` in your email.
+
 
 .. _Upstart: http://upstart.ubuntu.com/
 .. _systemd: https://freedesktop.org/wiki/Software/systemd/
