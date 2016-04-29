@@ -202,6 +202,13 @@ If, after deploying the service file you are still unable to start the mongodb s
 .. _systemd: https://freedesktop.org/wiki/Software/systemd/
 
 
+One common issue is the user the mongodb service runs as: you should make sure that the username in the service file matches the user account created for mongodb.
+
+- Check the username in the service file by looking at the ``User`` value.
+- Check the username on the system by ``grep -i mongo /etc/passwd``
+
+If these two values do not match, adjust your ansible deployment.
+
 
 
 Using Chameleon Cloud
