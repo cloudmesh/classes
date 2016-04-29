@@ -210,6 +210,48 @@ One common issue is the user the mongodb service runs as: you should make sure t
 If these two values do not match, adjust your ansible deployment.
 
 
+Security Groups
+--------------------------------------------------------------------------------
+
+As projects are shared and everyone can modify the security groups, it is best to create security groups prefixed the your username: eg ``$USER-default`` and add your rules to that.
+
+Naming VMs
+--------------------------------------------------------------------------------
+
+All VMs should be prefixed by your username.
+This will allow everyone to identify the VMs that belong to your.
+
+Naming the key on the Cloud
+--------------------------------------------------------------------------------
+
+It is best to name the key on the cloud with your <portalname> in
+order not to confuse that with others its also good practice to
+optionally put -key behind it, SO your key name would be
+<portalname>-key.
+
+Accessing Root
+--------------------------------------------------------------------------------
+
+The default login user (``ubuntu`` on India, ``cc`` on Chameleon) has ``sudo`` privileges.
+
+Beware of Denial-of-Service attacking your own machine
+--------------------------------------------------------------------------------
+
+We have seen students looping through an ssh command and as soon as it failed issued a new one during boot.
+They did it so many times that they flodded the network as they did it not just with one but many many vms.
+Multiply this by X users and you can see that alone through this process you can create a denial of service attack on cloud services.
+So what you have to do is to put a sleep between such ssh attemts to see if your vm is really up.
+Put at least 30 seconds
+At time it can be as much as 10 minutes dependent on usage.
+
+You can do this in bash and zsh using ``until``:
+
+::
+
+   $ until nc -zv $IP 22; do sleep 30s; done
+
+This sleeps for seconds each iteration until the ssh service is detect to be available on port 22.
+
 
 Using Chameleon Cloud
 --------------------------------------------------------------------------------
