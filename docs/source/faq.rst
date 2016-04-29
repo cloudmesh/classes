@@ -204,4 +204,45 @@ If, after deploying the service file you are still unable to start the mongodb s
 
 
 
+Using Chameleon Cloud
+--------------------------------------------------------------------------------
+
+You can find documentation on how to migrate from India (Futuresystems) OpenStack to Chameleon cloud here:
+https://github.com/futuresystems/class-admin-tools/blob/master/chameleon/big-data-stack.org
+
+Make sure you follow these instructions.
+
+Regarding some common questions about switching to and using Chameleon, here are some tips if you are having trouble:
+
+General
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. there is so far **no** evidence that chameleon is experiencing the same load problems that india is
+#. make sure you **don't** source **anything** under ``~/.cloudmesh/``
+#. make sure you **do** source the ``CH-817724-openrc.sh`` file
+#. make sure you enter your password in correctly
+#. make sure that running ``nova list`` works as a sanity check (if not, try steps 2, 3 again)
+     As there is **no confirmation or denial** that your password is entered correctly or incorrectly, you should test using ``nova list`` to ensure authentication is possible. Make sure you have **not** sourced **anything** under ``~/.cloudmesh/clouds/...`` as this will corrupt the environment nova uses to authenticate to chameleon.
+
+Differences between Chameleon and India:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. the username to log into the VM is different: use ``cc`` instead of ``ubuntu``
+#. you cannot log into the internal IP address (192.X.Y.Z). You **must** associate a floating ip address first
+#. the ubuntu image is called ``CC-Ubuntu14.04`` instead of ``Ubuntu-14.04-64``.
+
+BDS on Chameleon
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you are using the `Big Data Stack <https://github.com/futuresystems/big-data-stack>`_, you need to make the following changes as well to tell BDS to use the Chameleon-specific environment instead of india:
+
+
+#. update ``.cluster.py`` to use the ``CC-Ubuntu14.04`` image (as per `here <https://github.com/futuresystems/class-admin-tools/blob/master/chameleon/big-data-stack.org#setup-instructions>`_)
+#. set "create_floating_ip" to "True" in .cluster.py (as per `here <https://github.com/futuresystems/class-admin-tools/blob/master/chameleon/big-data-stack.org#setup-instructions>`_)
+#. set the user to ``cc`` in ``ansible.cfg`` (as per `here <https://github.com/futuresystems/class-admin-tools/blob/master/chameleon/big-data-stack.org#setup-instructions>`_)
+
+SSH problems with Chameleon
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you experience trouble ssh-ing into a Chameleon instance, make sure that the fingerprint of the key injected into the instance (get it with ``nova console-log $VM_NAME``) matches the one you are using (default is ``~/.ssh/id_rsa`, use ``ssh-keygen -lf $PATH_TO_KEY`` to see it).
 
