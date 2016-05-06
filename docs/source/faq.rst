@@ -295,3 +295,31 @@ SSH problems with Chameleon
 
 If you experience trouble ssh-ing into a Chameleon instance, make sure that the fingerprint of the key injected into the instance (get it with ``nova console-log $VM_NAME``) matches the one you are using (default is ``~/.ssh/id_rsa`, use ``ssh-keygen -lf $PATH_TO_KEY`` to see it).
 
+Keystone problems
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The authentication mechanisms for FutureSystems and Chameleon clouds are incompatible.
+This means that if you source the openrc file for FutureSystems (usually in your ``~/.cloudmesh/clouds/india`` directory and then your Chameleon Cloud openrc file, you may get something like this:
+
+::
+
+   $ nova list
+   ERROR (DiscoveryFailure): Cannot use v2 authentication with domain scope
+
+The following has also been reported
+
+::
+
+   $ nova list
+   No handlers could be found for logger "keystoneclient.auth.identity.generic.base"
+   ... terminating nova client
+
+The solution is to open a new terminal session with a fresh environment and source **only** the openrc file for the cloud you need to use.
+
+For the adventurous, you may alternatively clear your openstack environment variables using the following.
+
+::
+
+   env | egrep '^OS_' | cut -d= -f1 | while read var; do unset $var; done
+
+The above should work in `sh`\-like shells (eg `sh`, `bash`, `zsh`).
