@@ -1,5 +1,9 @@
+
+
 About This Course
 -----------------
+
+http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
 
 The Big Data Applications and Analytics course is an overview course in
 Data Science and covers the applications and technologies (data
@@ -19,14 +23,13 @@ Students will gain broad understanding of Big Data application areas and
 approaches used. This course is a good preparation for any student
 likely to be involved with Big Data in their future.
 
-Course Staff
+Instructors
 ------------
-
-|Gregor von Laszewski|
-
 
 Gregor von Laszewski
 ~~~~~~~~~~~~~~~~~~~~
+
+.. image:: images/gregor2.png
 
 Gregor von Laszewski is an Assistant Director of CLoud Computing in the
 DSC. He is currently conducting research in Cloud computing as part of
@@ -58,11 +61,11 @@ independent studies. Current topics include cloudmesh, big data
 benchmarking, scientific impact of supercomputer and data centers.
 
 
-|Dr. Geoffrey Fox|
-
-
 Dr. Geoffrey Fox
 ~~~~~~~~~~~~~~~~
+
+
+.. image:: images/gcf.jpg
 
 Professor Geoffrey Fox received a PhD in Theoretical Physics from
 Cambridge University and is now Professor of Informatics and Computing
@@ -84,11 +87,20 @@ education and its use in MOOCs for areas like Data and Computational
 Science.
 
 
-|Hyungro Lee|
+Badi Abduhl-Whadi
+-----------------
 
+.. todo: add picture and paragraph
+
+Teaching Assistants
+-------------------
 
 Hyungro Lee
 ~~~~~~~~~~~
+
+				  
+.. image:: images/Hyungro.jpg
+				  
 
 Hyungro Lee is a PhD candidate in Computer Science at Indiana University
 working with Dr. Geoffrey C. Fox. Prior to beginning the PhD program,
@@ -105,24 +117,12 @@ grid and cloud test-bed to the research community, together with user
 supports. His research interests are parallel and distributed systems,
 and cloud computing
 
-OpenEdX Support
----------------
 
+Jerome Mitchell
+~~~~~~~~~~~~~~~~~~~~~~
 
-|Sidd Maini|
+.. todo:: add picture and paragraph
 
-
-Sidd Maini
-~~~~~~~~~~
-
-Sidd Maini works as a User Experience Engineer at the School of
-Informatics and Computing. He currently leads and manages online course
-technology for the Data Science graduate program. He holds a masters
-degree in Information Architecture and Knowledge Management from the
-Kent State University and a Masters degree in Human Computer Interaction
-from the Indiana University. Sidd is responsible for managing the
-OpenEdX software and if you have technicall issues with it you can
-contact him.
 
 Frequently Asked Questions
 --------------------------
@@ -153,7 +153,4 @@ Where is the official IU calendar for the Fall?
 Please follow this
 `link <http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml>`__
 
-.. |Gregor von Laszewski| image:: https://sites.google.com/site/laszewski/_/rsrc/1296058464115/home/gregor.jpg
-.. |Dr. Geoffrey Fox| image:: /static/gcf.jpg
-.. |Hyungro Lee| image:: /static/Hyungro.jpg
-.. |Sidd Maini| image:: /static/Sidd.jpg
+				  
