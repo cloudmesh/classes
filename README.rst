@@ -9,4 +9,4 @@ at Indiana University (Bloomington) Fall 2016.
  Documentation
 ===============
 
-Documentation is available on `ReadTheDocs <https://cloudmeshfall2016.readthedocs.io/en/latest/>`_
+Documentation is available on `ReadTheDocs <http://bdaafall2016.readthedocs.io/en/latest/>`_
