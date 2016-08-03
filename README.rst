@@ -9,7 +9,4 @@ at Indiana University (Bloomington) Fall 2016.
  Documentation
 ===============
 
-Documentation is available on ReadTheDocs. See the approriate branch
-
-- `unstable <https://cloudmeshfall2016.readthedocs.io/en/unstable/>`_
-- `master <https://cloudmeshfall2016.readthedocs.io/en/master/>`_
+Documentation is available on `ReadTheDocs <https://cloudmeshfall2016.readthedocs.io/en/latest/>`_
