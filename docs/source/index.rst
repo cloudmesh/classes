@@ -3,14 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Big Data Applications and Analytics Fall 2016's documentation!
+Big Data Applications and Analytics 
 =========================================================================
+
+Fall 2016
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
+   policy
+   links
 
 
 Indices and tables
