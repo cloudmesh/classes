@@ -69,8 +69,26 @@ Assignments will be accepted up to 48 hours after the due date, but a 10% late p
 ACADEMIC INTEGRITY POLICY
 ----------------------------------------------------------------------
 
-We take academic integrity very seriously. You are required to abide by the Indiana University policy on academic integrity, as described in the Code of Student Rights, Responsibilities, and Conduct, as well as the Computer Science Statement on Academic Integrity (http://www.soic.indiana. edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf). It is your responsibility to understand these policies. Briefly summarized, the work you submit for course assignments, projects, quizzes, and exams must be entirely your own (or entirely that of your group, if groupwork is permitted). You may use the ideas of others but you must give proper credit. You may discuss assignments with other students (or students in other groups) at a high level, by for example discussing general methods or strategies to solve a problem, but you must cite the other student in your submission.
+We take academic integrity very seriously. You are required to abide by the Indiana University policy on academic integrity, as described in the Code of Student Rights, Responsibilities, and Conduct, as well as the Computer Science Statement on Academic Integrity (http://www.soic.indiana. edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf). It is your responsibility to understand these policies. Briefly summarized, the work you submit for course assignments, projects, quizzes, and exams must be your own or that of your group, if groupwork is permitted. You may use the ideas of others but you must give proper credit. You may discuss assignments with other students but you must acknowledge them in the refrence section according to scholarly citation rules. Please also make sure that you know how to not plagerise text from other sources while reviewing citation rules.
 
 We will respond to acts of plagiarism and academic misconduct according to university policy. Sanctions typically involve a grade of 0 for the assignment in question and/or a grade of F in the course. In addition, University policy requires us to report the incident to the Dean of Students, who may apply additional sanctions, including expulsion from the university.
 
-Students agree that by taking this course, papers and source code submitted to us may be subject to textual similarity review, for example by Turnitin.com. These submissions may be included as source documents in reference databases solely for the purpose of detecting plagiarism of such papers or codes. 
+Students agree that by taking this course, papers and source code submitted to us may be subject to textual similarity review, for example by Turnitin.com. These submissions may be included as source documents in reference databases for the purpose of detecting plagiarism of such papers or codes.
+
+LICENSING
+---------
+
+All projects are developed under an open source license such as Apache 2.0 License, or similar. You will be required to add a License file and if you use other software identify how it can be reused in your project. Code repositories are for code, if you have additional libraries that are needed you need to develop a script or use a DeVOps framework to install such software. Thus zip files and .class, .o files are not permissable in the project. Ech project must be reproducable with a simple script. An example is
+
+    git clone ....  
+    make install
+    make run
+    make view
+
+Which would use a simple make file to install, run, and view the results. Naturally you can use ansible or shell scripts. It is not permissible to use GUI based DevOps preinstalled frameworks. Everything must be installable form the command line.
+
+
+REPORT FORMAT
+---------------
+
+All reports will be using the ACM pubform format. The Word template can be found at TBD A LaTeX version can be found at https://www.acm.org/publications/proceedings-template There will be **NO EXEPTION** to this format. In case you are in a team, you can use either github while collaboratively developing the LaTeX document or use MicrosoftOne Drive which allows collaborative editing features. All bibliographical entries must be put into a bibliography manager such as jabref, Mendeley, or endnote. This will gurantee that you follow proper citation styles. You can use either ACM or IEEE refernce styles. Documents that do not follow the ACM format and are not accomponied by refrences managed with jabref or endnote will be returned without review.
