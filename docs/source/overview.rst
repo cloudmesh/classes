@@ -90,7 +90,7 @@ Science.
 Badi Abduhl-Whadi
 -----------------
 
-.. todo: add picture and paragraph
+.. todo:: add picture and paragraph
 
 Teaching Assistants
 -------------------
