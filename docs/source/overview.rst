@@ -83,18 +83,6 @@ Or Telephone:
   * SIP: 195576919@zoomcrc.com
 
 
-Special Sessions
-~~~~~~~~~~~~~~~~
-
-Special Online sections with Instructors:
-
-Time: 26th September, 2016 @ 1 pm US Eastern Time (Time may change)
-
-We will be using Zoom for online sessions with the following URL
-
-.. todo:: Gregor. set zoom url for discussion URL for online session: TBD.
-
-
 Calendar
 ---------
 
