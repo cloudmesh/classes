@@ -27,11 +27,11 @@ University credit please go to:
 
 .. todo:: 
 
-INFO-I 523  32864 Graduate Only
+.. INFO-I 523  32864 Graduate Only
 
-INFO-I 523  32866 Data Science Majors Only 
+.. INFO-I 523  32866 Data Science Majors Only 
 
-INFO-I 423  34955 Undergraduates Only
+.. INFO-I 423  34955 Undergraduates Only
  
                 
    	  
