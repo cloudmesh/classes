@@ -54,10 +54,9 @@ Office Hours
 
 Office hours will be held every week. These are live sessions that
 will allow you to interact in group or one-on-one with either an
-instructor ow a TA. During these times, we can be reached via zoom at
-the following URL.
-
-Office hours sessions may be recorded.
+instructor ow a TA. Office hours sessions may be recorded. During
+these times, we can be reached via zoom with the following information
+for the call:
 
 Join from PC, Mac, Linux, iOS or Android: 
 
