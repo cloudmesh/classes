@@ -135,7 +135,7 @@ you and it may only be used initially.
 Getting Access and Systems Support
 ----------------------------------------------------------------------
 
-For some cases you will need accee to a cloud. We recommend you
+For some projects you will need accee to a cloud. We recommend you
 evaluate which cloud would be most appropriate for your project. This
 includes:
 
@@ -145,6 +145,14 @@ includes:
 * Azure (you will be responsible for charges)
 * virtualbox if you have a powerful computer and like to prototype
 * other clouds
+
+We intend to make some small number of virtual machines availabe for
+us in a project FG511 on Futuresystems:
+
+* https://portal.futuresystems.org/projects/511
+
+Once you created an account on FUturesystems and you do a project YOu
+can add yourself to the project so you gain access.
 
 Systems staff is available only during regular buisiness hours Mo-Fri 10am - 4pm.
 
