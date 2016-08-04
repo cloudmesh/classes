@@ -1,21 +1,21 @@
 Introduction to Python
 ======================
 
-Link TBD (Jerome)
+.. todo:: Jerome. Link TBD. We will use RST not ppt
 
 Installing Python
 =================
 
-Link TBD (jerome)
+.. todo:: Jerome. Link TBD (jerome)
 
 Installing Cloudmesh Client
 ===========================
 
-Prashanth
+.. todo:: Prashanth. Test out cloudmesh install Prashanth
 
 
-Video Conferencing
-==================
+Introduction to Python
+======================
 
-Zoom.us
 
+.. todo:: Jerome. Link TBD. We will use RST not ppt

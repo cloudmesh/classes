@@ -7,8 +7,9 @@ University credit please go to:
 
 * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
 
-.. todo:: Put table of course numbers here with columns coursenumber,
-title, description. where description indicates what this is for.
+.. todo:: Jerome. Put table of course numbers here with columns
+   	  coursenumber, title, description. where description
+   	  indicates what this is for.
 
 
 About This Course
@@ -22,12 +23,30 @@ analytics and clouds) needed to process the application data. It is
 organized around rallying cry: Use Clouds running Data Analytics
 Collaboratively processing Big Data to solve problems in X-Informatics.
 
-Meeting times 
-------------------------
+Meeting times and Office Hours
+--------------------------------
 
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place Fridays
 09:30A-10:45A. For the 100% online students a time will be determined.
+
+
+Office Hours
+----------------------------------------------------------------------
+
+.. todo:: Gregor. clenup this secion
+
+Office hours will be held every week. These are live sessions that
+will allow you to interact one-on-one or in groups with either an
+instructor ow a TA. During these times, we can be reached via zoom at
+the following URL.
+
+.. todo:: Gregor. put link here
+
+Office hours sessions may be recorded.
+
+Special Sessions
+------------------
 
 Special Online sections with Instructors:
 
@@ -35,24 +54,35 @@ Time: 26th September, 2016 @ 1 pm US Eastern Time (Time may change)
 
 We will be using Zoom for online sessions with the following URL
 
-.. todo:: set zoom url for discussion URL for online session: TBD.
-
-Ok. Office Hours
-----------------------------------------------------------------------
-
-Office hours will be held every week. These are live sessions that will allow you to interact one-on-one or in groups with either an instructor ow a TA. During these times, we can be reached via a ZOOM link, found under the "Class/Office Hours" tab. All office hour sessions may be recorded.
+.. todo:: Gregor. set zoom url for discussion URL for online session: TBD.
 
 
 Calendar
 ========
 
-.. todo:: add a calendar here with when what takes place on a weely basis
+.. todo:: Prashanth. add a calendar here with when what takes place on a weely basis
 
++------------+-------+------------------------------------------+
+| Date       | Week  | Sessions | Descriptions                  |
++------------+-------+------------------------------------------+
+| mm/dd/2016 | 1     | urls     | Introduction                  |      
++------------+-------+------------------------------------------+
+
+first day
+last day
+due data projects
+due date papers
+
+class calendar
+
+date week lecture discussion date
+
+put details here
 
 Email 
 ----------------------------------------------------------------------
 
-..todo:: cleanup
+..todo:: Gregor. cleanup
 
 You can expect a reply from someone on the course staff within 24
 hours; if you do not receive one, please re-send your email. If you
@@ -73,7 +103,9 @@ email the instructors directly (laszewski@gmail.com).
 * https://groups.google.com/forum/#!forum/bigdata-iu-fall-2016
 
   This is an open mailing list students, TAs, Dr. von Laszewski, and
-  Dr. Abduhl-Wahi. 
+  Dr. Abduhl-Wahi.
+
+.. todo:: look at piazza as alternative
 
 Getting Access and Systems Support
 ==================================
@@ -93,7 +125,7 @@ Systems staff is available only during regular buisiness hours Mo-Fri 10am - 4pm
 
 We will have a Section in the class material about these resources.
 
-.. todo:: add the link to the section and prepare this section.
+.. todo:: Hyungro. add the link to the section and prepare this section.
 
 You could also use the cloudmesh client software on Linux and OSX to
 access multiple clouds in easy fashion. A Section will introduce this
@@ -116,12 +148,16 @@ privately with other classmembers to formulate a team.
 
 The following artifacts are part of the deliverabels
 
-.. todo:: include paper/report length requirement	
+.. todo:: Hyungro. include paper/report length requirement	
 
 This needs also to be provided for Papers that are written in a team.
 
+
+
 Report Format
 ---------------
+
+`paper-report.docx <files/paper-report.docx>`__
 
 All reports will be using the ACM pubform format. The Word template
 can be found at TBD A LaTeX version can be found at
@@ -264,19 +300,6 @@ plagiarism of such papers or codes.
 Instructors
 ------------
 
-Instructor
-----------------------------------------------------------------------
-
-Gregor von Laszewski
-Geoffrey C. Fox
-Badi Abdhul-Wahid
-
-TA's
-----------------------------------------------------------------------
-
-Hyungro Lee
-Jerome Mitchell
-Prashant ???
 
 Gregor von Laszewski
 ~~~~~~~~~~~~~~~~~~~~
@@ -377,7 +400,12 @@ and cloud computing
 Jerome Mitchell
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. todo:: add picture and paragraph
+.. todo:: Jerome. add picture and paragraph 100x100px
+
+Prashant ...
+----------------------------------------------------------------------
+
+.. todo:: Prashant. add picture and paragraph 100x100px
 
 
 Frequently Asked Questions
