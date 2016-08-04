@@ -45,22 +45,42 @@ Meeting times and Office Hours
 
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place Fridays
-09:30A-10:45A. For the 100% online students a time will be determined.
+09:30A-10:45A. For the 100% online students a time will be determined
+and this page will be updated.
 
 
 Office Hours
 ~~~~~~~~~~~~
 
-.. todo:: Gregor. clenup this secion
-
 Office hours will be held every week. These are live sessions that
-will allow you to interact one-on-one or in groups with either an
+will allow you to interact in group or one-on-one with either an
 instructor ow a TA. During these times, we can be reached via zoom at
 the following URL.
 
-.. todo:: Gregor. put link here
-
 Office hours sessions may be recorded.
+
+Join from PC, Mac, Linux, iOS or Android: 
+
+* https://IU.zoom.us/j/195576919
+
+Or Telephone:
+
+  * However as we are most likely sharing documents phone
+    participation may not be too useful.
+
+  * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
+  * Meeting ID: 195 576 919 
+
+  * International numbers available: https://IU.zoom.us/zoomconference?m=GUZ8CEVGWPB_312js4gnzkGM_QvcVUy3 
+
+
+* Or a H.323/SIP room system:
+
+  * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East) 
+  * Meeting ID: 195 576 919
+
+  * SIP: 195576919@zoomcrc.com
+
 
 Special Sessions
 ~~~~~~~~~~~~~~~~
