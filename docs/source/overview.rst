@@ -548,7 +548,7 @@ and cloud computing
 Jerome Mitchell
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/mitchell.jpg
+.. image:: images/jerome.jpg
 
 Jerome Mitchell is a Ph.D candidate in computer science at Indiana University and is interested in coupling the fields of computer and polar science. He has participated in the United State Antarctic Program, (USAP), where he collaborated with a multidisciplinary team of engineers and scientists to design a mobile robot for harsh polar environments to autonomously collect ice sheet data, decrease the human footprint of polar expeditions, and enhance measurement precision. His current work include: using machine learning techniques to help polar scientists identify  bedrock and internal layers in radar imagery. He has also been involved in facilitating workshops to educate faculty and students on the importance of parallel and distributed computing at minority-serving institutions.
 
