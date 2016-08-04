@@ -25,7 +25,9 @@ University credit please go to:
 
 * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
 
-.. todo:: INFO-I 523  32864 Graduate Only
+.. todo:: 
+
+INFO-I 523  32864 Graduate Only
 
 INFO-I 523  32866 Data Science Majors Only 
 
