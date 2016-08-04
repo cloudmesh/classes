@@ -2,7 +2,7 @@
 Disclosure
 ----------
 
-This page may be updated througout Fall 2016, we recommend to review
+This page may be updated throughout Fall 2016, we recommend to review
 this page weekly for changes.
 
 About the Course
@@ -19,17 +19,17 @@ Collaboratively processing Big Data to solve problems in X-Informatics.
 Course Numbers
 --------------
 
-This course is offered for Graduate and Undergraduate Students at
-Indiana University and as pure online course. To Register, for
+This course is offered for Graduate and Undergraduate students at
+Indiana University and as an online course. To Register, for
 University credit please go to:
 
 * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
 
-.. todo:: Jerome. Put table of course numbers here with columns
-   	  coursenumber, title, description. where description
-   	  indicates what this is for.
 
+FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+FA16-BL-ENGR-E599-36362
 
+<<<<<<< HEAD
 +------------+------------+-----------------------------+
 | Course Number | Section |         Description         |
 +============+============+===========+==================
@@ -40,6 +40,34 @@ University credit please go to:
 +------------+------------+-----------------------------+
 | INFO-I 423 | 34955      |  Online Undergraduates Only |
 +------------+------------+-----------------------------+
+=======
+FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+FA16-BL-ENGR-E599-36362
+>>>>>>> 3196bdffa50da764e78b3d098190c8c39b62abad
+
+FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+FA16-BL-ENGR-E599-36362
+
+FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+FA16-BL-ENGR-E599-36362
+
+FA16: BIG DATA APPLS & ANALYTICS: 32866
+FA16-BL-INFO-I523-32866
+
+FA16: BIG DATA APPLS & ANALYTICS: 32866
+FA16-BL-INFO-I523-32866
+
+FA16: BIG DATA APPLS & ANALYTICS: 34955
+FA16-BL-INFO-I423-34955
+FALL 2016
+
+.. todo::
+
+INFO-I 523  32864 Graduate Only
+
+INFO-I 523  32866 Data Science Majors Only
+
+INFO-I 423  34955 Undergraduates Only
 
 
 Meeting times and Office Hours
@@ -47,8 +75,12 @@ Meeting times and Office Hours
 
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place Fridays
-09:30A-10:45A. For the 100% online students a time will be determined
+09:30A-10:45 am EST. For the 100% online students a time will be determined
 and this page will be updated.
+
+For online course participants we will also have office hours are Tue,
+Thu 10-11am EST.
+
 
 
 Office Hours
@@ -81,18 +113,6 @@ Or Telephone:
   * Meeting ID: 195 576 919
 
   * SIP: 195576919@zoomcrc.com
-
-
-Special Sessions
-~~~~~~~~~~~~~~~~
-
-Special Online sections with Instructors:
-
-Time: 26th September, 2016 @ 1 pm US Eastern Time (Time may change)
-
-We will be using Zoom for online sessions with the following URL
-
-.. todo:: Gregor. set zoom url for discussion URL for online session: TBD.
 
 
 Calendar
@@ -152,35 +172,40 @@ put details here
 Email
 ----------------------------------------------------------------------
 
-..todo:: Gregor. cleanup
-
-You can expect a reply from someone on the course staff within 24
-hours; if you do not receive one, please re-send your email. If you
-are writing with questions about the assignments or course material,
-please ask on the Discussion Forums so that other students can benefit
-from the discussion. For sensitive personal matters, feel free to
-email the instructors directly (laszewski@gmail.com).
+We have set up a ticketing system for this class with Google
+Collaborative Groups e-mails at
 
 * https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help
 
-  For general help to contact instructors and TAs. This mailinglist is
-  shared with all TAs, Dr. von Laszewski, and Dr. Abduhl-Wahid
+This mailinglist is for general help and to contact instructors and
+TAs. This mailinglist is shared with all TAs, Dr. von Laszewski, and
+Dr. Abduhl-Wahid
 
-* https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-announce
+You can expect a reply from someone on the course staff within 24
+hours; if you do not receive one, please re-send your email.
 
-  Class announcements will be send here
+We also have a general discussion mailing list at
 
 * https://groups.google.com/forum/#!forum/bigdata-iu-fall-2016
 
-  This is an open mailing list students, TAs, Dr. von Laszewski, and
-  Dr. Abduhl-Wahi.
+If you are writing with questions about the assignments or course
+material, please ask on the Discussion Forums so that other students
+can benefit from the discussion. For sensitive personal matters, feel
+free to email the instructors directly (laszewski@gmail.com).
 
-.. todo:: look at piazza as alternative
+Class announcements are send to:
+
+* https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-announce
+
+You will be responsible that you verify that you are subscribed to
+this list. We will not use canvas e-mail system to communicate with
+you and it may only be used initially.
+
 
 Getting Access and Systems Support
 ----------------------------------------------------------------------
 
-For some cases you will need accee to a cloud. We recommend you
+For some projects you will need access to a cloud. We recommend you
 evaluate which cloud would be most appropriate for your project. This
 includes:
 
@@ -191,11 +216,20 @@ includes:
 * virtualbox if you have a powerful computer and like to prototype
 * other clouds
 
-Systems staff is available only during regular buisiness hours Mo-Fri 10am - 4pm.
+We intend to make some small number of virtual machines available for
+us in a project FG511 on FutureSystems:
+
+* https://portal.futuresystems.org/projects/511
+
+Once you created an account on FutureSystems and you do a project YOu
+can add yourself to the project so you gain access.
+
+Systems staff is available only during regular business hours Mo-Fri 10am - 4pm.
 
 We will have a Section in the class material about these resources.
 
 .. todo:: Hyungro. add the link to the section and prepare this section.
+:ref:`OpenStack FutureSystems <ref-quickstart_openstack>`
 
 You could also use the cloudmesh client software on Linux and OSX to
 access multiple clouds in easy fashion. A Section will introduce this
@@ -211,14 +245,21 @@ our cloud computing test bed.
 
 In case of a software project, we encourage a group project with up to three members.
 
-You can use the discusson TBD  to form project teams or just communicate
-privately with other classmembers to formulate a team.
+You can use the discussion TBD  to form project teams or just communicate
+privately with other class members to formulate a team.
 
-.. todo:: include a link to the dicussion for formulating projects.
+.. todo:: include a link to the discussion for formulating projects.
 
-The following artifacts are part of the deliverabels
+The following artifacts are part of the deliverables
 
 .. todo:: Hyungro. include paper/report length requirement as RST table
+
+* Template: ACM Proceedings - `WORD <https://www.acm.org/sigs/publications/pubform.doc>`_
+* 9 point fonts in two column page
+* Software Project: 3-4 pages
+* Paper Project: 6 pages (individual)
+    - 9 pages (two members)
+    - 12 pages (three members)
 
 This needs also to be provided for Papers that are written in a team.
 
@@ -227,9 +268,7 @@ This needs also to be provided for Papers that are written in a team.
 Report Format
 ---------------
 
-
-
-All reports will be using the ACM pubform format. The Word template
+All reports will be using the ACM proceedings format. The MSWord template
 can be found here:
 
 * :download:`paper-report.docx <files/paper-report.docx>`
@@ -238,19 +277,19 @@ A LaTeX version can be found at
 
 * https://www.acm.org/publications/proceedings-template
 
-however you have to remove the copyright notice.
+however you have to remove the ACM copyright notice in the LaTeX version.
 
 There will be **NO EXEPTION** to this format. In case you are in a
-team, you can use either github while collaboratively developing the
+team, you can use either gitlab while collaboratively developing the
 LaTeX document or use MicrosoftOne Drive which allows collaborative
 editing features. All bibliographical entries must be put into a
 bibliography manager such as jabref, endnote, or Mendeley. This will
-gurantee that you follow proper citation styles. You can use either
-ACM or IEEE refernce styles. YOur final submission will include the
-bibligraphy file as a separte document.
+guarantee that you follow proper citation styles. You can use either
+ACM or IEEE reference styles. Your final submission will include the
+bibliography file as a separate document.
 
-Documents that do not follow the ACM format and are not accomponied by
-refrences managed with jabref or endnote will be returned without
+Documents that do not follow the ACM format and are not accompanied by
+references managed with jabref or endnote will be returned without
 review.
 
 Report Checklist:
@@ -259,47 +298,40 @@ Report Checklist:
   format
 * [ ] In case of LaTeX, have you removed the ACM copyright information
 * [ ] Have you included the report in gitlab
-* [ ] Have you specified tha names and e-mails of all team members in
+* [ ] Have you specified the names and e-mails of all team members in
   your report.
 * [ ] have you included all images in native and PDF format in gitlab
   in the images folder
-* [ ] have you added the bibligraphy file (such as endnote or bibtex
+* [ ] have you added the bibliography file (such as endnote or bibtex
   file e.g. jabref) in a directory bib
 * [ ] have you submitted an additional page that describes who did
   what in the project or report.
 
 
-Code repositories Deliverables
+Code Repositories Deliverables
 ------------------------------
 
-Code repositories are for code, if you have additional libraries that are needed you need to develop a script or use a DeVOps framework to install such software. Thus zip files and .class, .o files are not permissable in the project. Ech project must be reproducable with a simple script. An example is
+Code repositories are for code, if you have additional libraries that
+are needed you need to develop a script or use a DevOps framework to
+install such software. Thus zip files and .class, .o files are not
+permissible in the project. Each project must be reproducible with a
+simple script. An example is
 
     git clone ....
     make install
     make run
     make view
 
-Which would use a simple make file to install, run, and view the results. Naturally you can use ansible or shell scripts. It is not permissible to use GUI based DevOps preinstalled frameworks. Everything must be installable form the command line.
+Which would use a simple make file to install, run, and view the
+results. Naturally you can use ansible or shell scripts. It is not
+permissible to use GUI based DevOps preinstalled
+frameworks. Everything must be installable form the command line.
 
-
-Office Hours
-----------------------------------------------------------------------
-
-Office hours will be held every week. These are live sessions that
-will allow you to interact one-on-one or in groups with either an
-instructor ow a TA. During these times, we can be reached via a ZOOM
-link. Office hours are Tue, Thu 10-11am.
-
-
-Requirements
-------------
-
-Python or Java experience (programming load is modest). Optionally: In
-case you are interested in further development of cloudmesh for big
-data strong Python or JavaScript experience is needed.
 
 Prerequisites
 ----------------------------------------------------------------------
+
+Python or Java experience (programming load is modest).
 
 In case you elect a programming project we will assume that you are
 familiar with the programming languages required as part of the
@@ -315,6 +347,10 @@ including linear 1 algebra, probability theory, and basic calculus. We
 students with limited math backgrounds may need to do additional
 reading outside of class.
 
+In case you are interested in further development of cloudmesh for big
+data strong Python or JavaScript experience is needed.
+
+
 Learning Outcomes
 -----------------
 
@@ -326,17 +362,20 @@ likely to be involved with Big Data in their future.
 Grading
 ----------------------------------------------------------------------
 
-Grading for homeworks will be done within a week for submission on due
-date. For homeworks that were submitted beyond the due date, the grading
+Grading for homework will be done within a week for submission on due
+date. For homework that were submitted beyond the due date, the grading
 will be done within 2-3 weeks after the submission. Some homework can
 not be delivered late and a 10% grade reduction will be given. We will
 be clearly mark such mandatory deadlines.
 
- It is the student’s responsibility to upload submissions well ahead
- of the deadline to avoid last minute problems with network
- connectivity, browser crashes, etc. It is a very good idea to make
- early submissions and then upload updates as the deadline approaches;
- we will grade the last submission received before the deadline.
+It is the student’s responsibility to upload submissions well ahead of
+the deadline to avoid last minute problems with network connectivity,
+browser crashes, cloud issues, etc. It is a very good idea to make
+early submissions and then upload updates as the deadline approaches;
+we will grade the last submission received before the deadline.
+
+Note that paper and project will take a considerable time and doing
+proper time management is a must for this class.
 
 Licensing
 ---------
@@ -359,7 +398,7 @@ summarized, the work you submit for course assignments, projects,
 quizzes, and exams must be your own or that of your group, if
 groupwork is permitted. You may use the ideas of others but you must
 give proper credit. You may discuss assignments with other students
-but you must acknowledge them in the refrence section according to
+but you must acknowledge them in the reference section according to
 scholarly citation rules. Please also make sure that you know how to
 not plagerise text from other sources while reviewing citation rules.
 
@@ -479,7 +518,7 @@ communications platforms including emails, texts and messaging at large
 scale to support over 40 million users. From this work he developed an
 interest in how distributed systems achieve scalability and high
 availability along with managing resources efficiently. He is currently
-working on the Futuresystems project to support Big Data Analysis
+working on the FutureSystems project to support Big Data Analysis
 Software Stacks in Virtual Clusters. He was also working on the
 FutureGrid project, an NSF funded significant new experimental computing
 grid and cloud test-bed to the research community, together with user
