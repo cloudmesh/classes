@@ -189,17 +189,8 @@ Calendar
 +------------+-------+-------------------------------------------------+
 | 12/16/2016 | 16    | Last Day	  | End Date of Semester               |
 +------------+-------+-------------------------------------------------+
-			       						
-first day		       						
-last day
-due data projects
-due date papers
+	      		       						
 
-class calendar
-
-date week lecture discussion date
-
-put details here
 
 Email
 ----------------------------------------------------------------------
