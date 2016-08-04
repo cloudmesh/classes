@@ -6,7 +6,15 @@ Introduction to Python
 Installing Python
 =================
 
-.. todo:: Jerome. Link TBD (jerome)
+Windows:
+http://docs.enthought.com/canopy/quick-start/install_windows.html
+
+MAC OS X:
+http://docs.enthought.com/canopy/quick-start/install_macos.html
+
+Linux:
+http://docs.enthought.com/canopy/quick-start/install_linux.html
+
 
 Installing Cloudmesh Client
 ===========================
@@ -16,6 +24,4 @@ Installing Cloudmesh Client
 
 Introduction to Python
 ======================
-
-
-.. todo:: Jerome. Link TBD. We will use RST not ppt
+The following is to help guide 
