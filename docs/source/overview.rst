@@ -163,6 +163,7 @@ Systems staff is available only during regular buisiness hours Mo-Fri 10am - 4pm
 We will have a Section in the class material about these resources.
 
 .. todo:: Hyungro. add the link to the section and prepare this section.
+:ref:`OpenStack FutureSystems <ref-quickstart_openstack>`
 
 You could also use the cloudmesh client software on Linux and OSX to
 access multiple clouds in easy fashion. A Section will introduce this
@@ -186,6 +187,13 @@ privately with other classmembers to formulate a team.
 The following artifacts are part of the deliverabels
 
 .. todo:: Hyungro. include paper/report length requirement as RST table
+
+* Template: ACM Proceedings - `WORD <https://www.acm.org/sigs/publications/pubform.doc>`_
+* 9 point fonts in two column page
+* Software Project: 3-4 pages
+* Paper Project: 6 pages (individual)
+    - 9 pages (two members)
+    - 12 pages (three members)
 
 This needs also to be provided for Papers that are written in a team.
 
