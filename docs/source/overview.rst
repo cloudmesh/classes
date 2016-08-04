@@ -102,11 +102,6 @@ From Registrar::
               36363 RSTR     01:00P-02:15P   F      HD TBA    Von Laszewski G          25   25    0
                  Above class meets Smith Research Center Room 151E
 		 
-INFO-I 523  32864 Graduate Only
-
-INFO-I 523  32866 Data Science Majors Only
-
-INFO-I 423  34955 Undergraduates Only
 
 
 Meeting times and Office Hours
@@ -458,11 +453,11 @@ as the Computer Science Statement on Academic Integrity
 is your responsibility to understand these policies. Briefly
 summarized, the work you submit for course assignments, projects,
 quizzes, and exams must be your own or that of your group, if
-groupwork is permitted. You may use the ideas of others but you must
+group work is permitted. You may use the ideas of others but you must
 give proper credit. You may discuss assignments with other students
 but you must acknowledge them in the reference section according to
 scholarly citation rules. Please also make sure that you know how to
-not plagerise text from other sources while reviewing citation rules.
+not plagiarize text from other sources while reviewing citation rules.
 
 We will respond to acts of plagiarism and academic misconduct
 according to university policy. Sanctions typically involve a grade of
@@ -506,11 +501,11 @@ http://cloudmesh.github.io/client/
 
 His Web page is located at http://gregor.cyberaide.org. To contact him
 please send mail to laszewski@gmail.com. For class related e-mail please use the
-goouple group
+google group
 https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help,
 which is shared between all instructors and AIs.
 
-In his freetime he teaches Lego Robotics to highschool students. In 2015
+In his free time he teaches Lego Robotics to high school students. In 2015
 the team won the 1st prize in programming design in Indiana. If you like
 to volunteer helping in this effort please contact him.
 
@@ -593,7 +588,18 @@ Jerome Mitchell
 
 .. image:: images/jerome.jpg
 
-Jerome Mitchell is a Ph.D candidate in computer science at Indiana University and is interested in coupling the fields of computer and polar science. He has participated in the United State Antarctic Program, (USAP), where he collaborated with a multidisciplinary team of engineers and scientists to design a mobile robot for harsh polar environments to autonomously collect ice sheet data, decrease the human footprint of polar expeditions, and enhance measurement precision. His current work include: using machine learning techniques to help polar scientists identify  bedrock and internal layers in radar imagery. He has also been involved in facilitating workshops to educate faculty and students on the importance of parallel and distributed computing at minority-serving institutions.
+Jerome Mitchell is a Ph.D candidate in computer science at Indiana
+University and is interested in coupling the fields of computer and
+polar science. He has participated in the United State Antarctic
+Program, (USAP), where he collaborated with a multidisciplinary team
+of engineers and scientists to design a mobile robot for harsh polar
+environments to autonomously collect ice sheet data, decrease the
+human footprint of polar expeditions, and enhance measurement
+precision. His current work include: using machine learning techniques
+to help polar scientists identify bedrock and internal layers in radar
+imagery. He has also been involved in facilitating workshops to
+educate faculty and students on the importance of parallel and
+distributed computing at minority-serving institutions.
 
 
 
