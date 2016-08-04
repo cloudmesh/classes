@@ -1,3 +1,15 @@
+
+About This Course
+-----------------
+
+http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
+
+The Big Data Applications and Analytics course is an overview course in
+Data Science and covers the applications and technologies (data
+analytics and clouds) needed to process the application data. It is
+organized around rallying cry: Use Clouds running Data Analytics
+Collaboratively processing Big Data to solve problems in X-Informatics.
+
 Course Numbers
 --------------
 
@@ -10,18 +22,6 @@ University credit please go to:
 .. todo:: Jerome. Put table of course numbers here with columns
    	  coursenumber, title, description. where description
    	  indicates what this is for.
-
-
-About This Course
------------------
-
-http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
-
-The Big Data Applications and Analytics course is an overview course in
-Data Science and covers the applications and technologies (data
-analytics and clouds) needed to process the application data. It is
-organized around rallying cry: Use Clouds running Data Analytics
-Collaboratively processing Big Data to solve problems in X-Informatics.
 
 Meeting times and Office Hours
 --------------------------------
