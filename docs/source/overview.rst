@@ -31,7 +31,7 @@ University credit please go to:
 
 
 +------------+------------+-----------------------------+
-| Course Number | Section |         Description         |            
+| Course Number | Section |         Description         |
 +============+============+===========+==================
 | INFO-I 523 |  32864  | Online Graduate Students ONLY  |
 |            +---------+------------------------------- |
@@ -60,7 +60,7 @@ instructor ow a TA. Office hours sessions may be recorded. During
 these times, we can be reached via zoom with the following information
 for the call:
 
-Join from PC, Mac, Linux, iOS or Android: 
+Join from PC, Mac, Linux, iOS or Android:
 
 * https://IU.zoom.us/j/195576919
 
@@ -70,14 +70,14 @@ Or Telephone:
     participation may not be too useful.
 
   * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
-  * Meeting ID: 195 576 919 
+  * Meeting ID: 195 576 919
 
-  * International numbers available: https://IU.zoom.us/zoomconference?m=GUZ8CEVGWPB_312js4gnzkGM_QvcVUy3 
+  * International numbers available: https://IU.zoom.us/zoomconference?m=GUZ8CEVGWPB_312js4gnzkGM_QvcVUy3
 
 
 * Or a H.323/SIP room system:
 
-  * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East) 
+  * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East)
   * Meeting ID: 195 576 919
 
   * SIP: 195576919@zoomcrc.com
@@ -100,11 +100,43 @@ Calendar
 
 .. todo:: Prashanth. add a calendar here with when what takes place on a weekly basis
 
-+------------+-------+------------------------------------------+
-| Date       | Week  | Sessions | Descriptions                  |
-+------------+-------+------------------------------------------+
-| mm/dd/2016 | 1     | urls     | Introduction                  |
-+------------+-------+------------------------------------------+
++------------+-------+-------------------------------------------------+
+| Date       | Week  | Sessions   | Descriptions                       |
++------------+-------+-------------------------------------------------+
+| 08/22/2016 | 1     | Content W1 | Starting day of semester           |
+| 08/26/2016 | 1     | Discussion | Introduction                       |
+| 08/29/2016 | 2     | Content W2 | Introduction                       |
+| 09/02/2016 | 2     | Discussion | Introduction                       |
+| 09/05/2016 | 3     | Holiday    | Labor Day                          |
+| 09/05/2016 | 3     | Content W3 | Introduction                       |
+| 09/09/2016 | 3     | Discussion | Introduction                       |
+| 09/12/2016 | 4     | Content W4 | Introduction                       |
+| 09/16/2016 | 4     | Discussion | Introduction                       |
+| 09/19/2016 | 5     | Content W5 | Introduction                       |
+| 09/23/2016 | 5     | Discussion | Introduction                       |
+| 09/26/2016 | 6     | Content W6 | Introduction                       |
+| 09/30/2016 | 6     | Discussion | Introduction                       |
+| 10/03/2016 | 7     | Content W7 | Introduction                       |
+| 10/07/2016 | 7     | Holiday    | Fall Break                         |
+| 10/08/2016 | 7     | Holiday    | Fall Break                         |
+| 10/09/2016 | 7     | Holiday    | Fall Break                         |
+| 10/10/2016 | 8     | Content W8 | Introduction                       |
+| 10/14/2016 | 8     | Discussion | Introduction                       |
+| 10/17/2016 | 9     | Content W9 | Introduction                       |
+| 10/21/2016 | 9     | Discussion | Introduction                       |
+| 10/24/2016 | 10    | Content W10| Introduction                       |
+| 10/28/2016 | 10    | Discussion | Introduction                       |
+| 10/31/2016 | 11    | Content W11| Introduction                       |
+| 11/04/2016 | 11    | Discussion | Introduction                       |
+| 11/07/2016 | 12    | Content W12| Introduction                       |
+| 11/11/2016 | 12    | Discussion | Introduction                       |
+| 11/14/2016 | 13    | Content W13| Introduction                       |
+| 11/18/2016 | 13    | Discussion | Introduction                       |
+| 11/20/2016 | 14    | Holiday    | Thanksgiving break Starts          |
+| 11/27/2016 | 14    | Holiday    | Thanksgiving break Ends            |
+| 12/02/2016 | 15    | Due Date   | Due Date for papers and projects   |
+| 12/16/2016 | 16    | End of Sem | End Date of Semester               |
++------------+-------+-------------------------------------------------+
 
 first day
 last day
