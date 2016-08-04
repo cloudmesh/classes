@@ -24,41 +24,84 @@ Indiana University and as an online course. To Register, for
 University credit please go to:
 
 * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
+* http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I423.shtml
+* http://registrar.indiana.edu/browser/soc4168/ENGR/ENGR-E599.shtml
 
-+------------+-------+------------+------------------------------------+
-|Department  | Course| Section    | Description                        |
-+------------+-------+------------+------------------------------------+
-| ENGR       | E599  |  36362     | Engineering Grad Students          |
-+------------+-------+------------+------------------------------------+
-| INFO       | I523  | 32864      |  Graduate Student                  |
-+------------+-------+------------+------------------------------------+
-| INFO       | I523  | 32866      | Data Science Student               |
-+------------+-------+------------+------------------------------------+
-| INFO       | I423  | 34955      | Undergraduate Student              |
-+------------+-------+------------+------------------------------------+
+Please, select the course that is most suitable for your program.
 
++------------+-------+---------+------------------------------------+
+|Department  | Course| Section | Description                        |
++------------+-------+---------+------------------------------------+
+| ENGR       | E599  | 36362   | Engineering Grad Students          |
++------------+-------+---------+------------------------------------+
+| INFO       | I523  | 32864   |  Graduate Student                  |
++------------+-------+---------+------------------------------------+
+| INFO       | I523  | 32866   | Data Science Student               |
++------------+-------+---------+------------------------------------+
+| INFO       | I423  | 34955   | Undergraduate Student              |
++------------+-------+---------+------------------------------------+
 
-FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
-FA16-BL-ENGR-E599-36362
+From Canvas::
 
-FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
-FA16-BL-ENGR-E599-36362
+    FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+    FA16-BL-ENGR-E599-36362
 
-FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
-FA16-BL-ENGR-E599-36362
+    FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+    FA16-BL-ENGR-E599-36362
 
-FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
-FA16-BL-ENGR-E599-36362
+    FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+    FA16-BL-ENGR-E599-36362
 
-FA16: BIG DATA APPLS & ANALYTICS: 32866
-FA16-BL-INFO-I523-32866
+    FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+    FA16-BL-ENGR-E599-36362
 
-FA16: BIG DATA APPLS & ANALYTICS: 32866
-FA16-BL-INFO-I523-32866
+    FA16: BIG DATA APPLS & ANALYTICS: 32866
+    FA16-BL-INFO-I523-32866
 
-FA16: BIG DATA APPLS & ANALYTICS: 34955
-FA16-BL-INFO-I423-34955
+    FA16: BIG DATA APPLS & ANALYTICS: 32866
+    FA16-BL-INFO-I523-32866
 
+    FA16: BIG DATA APPLS & ANALYTICS: 34955
+    FA16-BL-INFO-I423-34955
+
+From Registrar::
+
+    INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
+         CLSD *****          ARR             ARR    ARR       Von Laszewski G          50    0    2
+                 Above class open to graduates only
+                 Above class taught online
+                 Discussion (DIS)
+         CLSD 32864          09:30A-10:45A   F      I2 150    Von Laszewski G          50    0    2
+                 Above class meets with INFO-I 423
+		 
+    INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
+        I 523 : P - Data Science majors only
+              32866 RSTR     ARR             ARR    ARR       Von Laszewski G          90   72    0
+                 This is a 100% online class taught by IU Bloomington. No
+                 on-campus class meetings are required. A distance education
+                 fee may apply; check your campus bursar website for more
+                 information
+                 Above class for students not in residence on the Bloomington
+                 campus
+		 
+    INFO-I 423  BIG DATA APPLS & ANALYTICS (3 CR)
+         CLSD ***** RSTR     ARR             ARR    ARR       Von Laszewski G          10    0    6 
+                 Above class open to undergraduates only
+                 Above class taught online
+                 Discussion (DIS)
+         CLSD 34955 RSTR     09:30A-10:45A   F      I2 150    Von Laszewski G          10    0    6
+                 Above class meets with INFO-I 523
+		 
+    ENGR-E 599  TOPICS IN INTELL SYS ENGINEER (3 CR)
+           VT: BG DATA APPLICATNS & ANLYTCS ISE
+              ***** RSTR     ARR             ARR    ARR       Von Laszewski G          25   25    0
+                 Above class open to graduate engineering students only
+                 Above class taught online
+                 Discussion (DIS)
+           VT: BG DATA APPLICATNS & ANLYTCS ISE
+              36363 RSTR     01:00P-02:15P   F      HD TBA    Von Laszewski G          25   25    0
+                 Above class meets Smith Research Center Room 151E
+		 
 INFO-I 523  32864 Graduate Only
 
 INFO-I 523  32866 Data Science Majors Only
