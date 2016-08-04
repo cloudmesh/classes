@@ -30,13 +30,9 @@ University credit please go to:
 +------------+-------+------------+------------------------------------+
 | ENGR       | E599  |  36362     | Engineering Grad Students          |
 +------------+-------+------------+------------------------------------+
-| INFO       | I523  | 32863      |  TBA                               |
-+------------+-------+------------+------------------------------------+
 | INFO       | I523  | 32864      |  Graduate Student                  |
 +------------+-------+------------+------------------------------------+
 | INFO       | I523  | 32866      | Data Science Student               |
-+------------+-------+------------+------------------------------------+
-| INFO       | I423  | 34954      | TBA                                |
 +------------+-------+------------+------------------------------------+
 | INFO       | I423  | 34955      | Undergraduate Student              |
 +------------+-------+------------+------------------------------------+
@@ -552,7 +548,12 @@ and cloud computing
 Jerome Mitchell
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. todo:: Jerome. add picture and paragraph 100x100px
+.. image:: images/mitchell.jpg
+
+Jerome Mitchell is a Ph.D candidate in computer science at Indiana University and is interested in coupling the fields of computer and polar science. He has participated in the United State Antarctic Program, (USAP), where he collaborated with a multidisciplinary team of engineers and scientists to design a mobile robot for harsh polar environments to autonomously collect ice sheet data, decrease the human footprint of polar expeditions, and enhance measurement precision. His current work include: using machine learning techniques to help polar scientists identify  bedrock and internal layers in radar imagery. He has also been involved in facilitating workshops to educate faculty and students on the importance of parallel and distributed computing at minority-serving institutions.
+
+
+
 
 Prashanth Balasubramani
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
