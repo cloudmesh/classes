@@ -148,7 +148,7 @@ privately with other classmembers to formulate a team.
 
 The following artifacts are part of the deliverabels
 
-.. todo:: Hyungro. include paper/report length requirement	
+.. todo:: Hyungro. include paper/report length requirement as RST table
 
 This needs also to be provided for Papers that are written in a team.
 
@@ -157,22 +157,33 @@ This needs also to be provided for Papers that are written in a team.
 Report Format
 ---------------
 
-`paper-report.docx <files/paper-report.docx>`__
+
 
 All reports will be using the ACM pubform format. The Word template
-can be found at TBD A LaTeX version can be found at
-https://www.acm.org/publications/proceedings-template There will be
-**NO EXEPTION** to this format. In case you are in a team, you can use
-either github while collaboratively developing the LaTeX document or
-use MicrosoftOne Drive which allows collaborative editing
-features. All bibliographical entries must be put into a bibliography
-manager such as jabref, Mendeley, or endnote. This will gurantee that
-you follow proper citation styles. You can use either ACM or IEEE
-refernce styles. Documents that do not follow the ACM format and are
-not accomponied by refrences managed with jabref or endnote will be
-returned without review.
+can be found here:
 
-Checklist:
+* :download:`paper-report.docx <files/paper-report.docx>`
+
+A LaTeX version can be found at
+
+* https://www.acm.org/publications/proceedings-template
+
+however you have to remove the copyright notice.
+
+There will be **NO EXEPTION** to this format. In case you are in a
+team, you can use either github while collaboratively developing the
+LaTeX document or use MicrosoftOne Drive which allows collaborative
+editing features. All bibliographical entries must be put into a
+bibliography manager such as jabref, endnote, or Mendeley. This will
+gurantee that you follow proper citation styles. You can use either
+ACM or IEEE refernce styles. YOur final submission will include the
+bibligraphy file as a separte document.
+
+Documents that do not follow the ACM format and are not accomponied by
+refrences managed with jabref or endnote will be returned without
+review.
+
+Report Checklist:
 
 * [ ] Have you written the report in word or LaTeX in the specified
   format
