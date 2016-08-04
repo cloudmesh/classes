@@ -414,10 +414,20 @@ and its use in MOOCs for areas like Data and Computational Science. He
 is a Fellow of APS (Physics) and ACM (Computing).
 
 
-Badi Abduhl-Whadi
+Dr. Badi' Abdul-Wahid
 ~~~~~~~~~~~~~~~~
 
-.. todo:: add picture and paragraph
+.. image:: images/badi.png
+
+Badi' received a Ph.D. in Computer Science at the University of Notre
+Dame under Professor Jesus Izaguirre. The primary focus of his
+graduate work was the development of scalable, fault-tolerant, elastic
+distributed applications for running Molecular Dynamics simulations.
+
+At Indiana University, Badi' is works with the FutureSystems project
+on a NIST-funded study whose goal is to understand patterns in the
+development and usage of Big Data Analysis pipelines.
+
 
 Teaching Assistants
 -------------------
