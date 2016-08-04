@@ -31,6 +31,7 @@ FA16-BL-ENGR-E599-36362
 
 FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
 FA16-BL-ENGR-E599-36362
+>>>>>>> 3196bdffa50da764e78b3d098190c8c39b62abad
 
 FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
 FA16-BL-ENGR-E599-36362
@@ -46,17 +47,23 @@ FA16-BL-INFO-I523-32866
 
 FA16: BIG DATA APPLS & ANALYTICS: 34955
 FA16-BL-INFO-I423-34955
+<<<<<<< HEAD
 
   
 .. todo:: 
+=======
+FALL 2016
+
+.. todo::
+>>>>>>> 8de7abeec9f933c07823c443d482421b8a7f7b81
 
 INFO-I 523  32864 Graduate Only
 
-INFO-I 523  32866 Data Science Majors Only 
+INFO-I 523  32866 Data Science Majors Only
 
 INFO-I 423  34955 Undergraduates Only
- 
-              
+
+
 Meeting times and Office Hours
 --------------------------------
 
@@ -79,7 +86,7 @@ instructor ow a TA. Office hours sessions may be recorded. During
 these times, we can be reached via zoom with the following information
 for the call:
 
-Join from PC, Mac, Linux, iOS or Android: 
+Join from PC, Mac, Linux, iOS or Android:
 
 * https://IU.zoom.us/j/195576919
 
@@ -89,14 +96,14 @@ Or Telephone:
     participation may not be too useful.
 
   * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
-  * Meeting ID: 195 576 919 
+  * Meeting ID: 195 576 919
 
-  * International numbers available: https://IU.zoom.us/zoomconference?m=GUZ8CEVGWPB_312js4gnzkGM_QvcVUy3 
+  * International numbers available: https://IU.zoom.us/zoomconference?m=GUZ8CEVGWPB_312js4gnzkGM_QvcVUy3
 
 
 * Or a H.323/SIP room system:
 
-  * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East) 
+  * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East)
   * Meeting ID: 195 576 919
 
   * SIP: 195576919@zoomcrc.com
@@ -107,28 +114,83 @@ Calendar
 
 .. todo:: Prashanth. add a calendar here with when what takes place on a weekly basis
 
-+------------+-------+------------------------------------------+
-| Date       | Week  | Sessions | Descriptions                  |
-+------------+-------+------------------------------------------+
-| mm/dd/2016 | 1     | urls     | Introduction                  |
-+------------+-------+------------------------------------------+
++------------+-------+-------------------------------------------------+
+| Date       | Week  | Sessions   | Descriptions                       |
++------------+-------+-------------------------------------------------+
+| 08/22/2016 | 1     | Content W1 | Starting day of semester           |
++------------+-------+-------------------------------------------------+
+| 08/26/2016 | 1     | Discussion | Introduction                       |
++------------+-------+-------------------------------------------------+
+| 08/29/2016 | 2     | Content W2 | TBD                                |
++------------+-------+-------------------------------------------------+
+| 09/02/2016 | 2     | Discussion | TBD	       	                       |
++------------+-------+-------------------------------------------------+
+| 09/05/2016 | 3     | Holiday    | Labor Day                          |
++------------+-------+-------------------------------------------------+
+| 09/05/2016 | 3     | Content W3 | TBD                                |
++------------+-------+-------------------------------------------------+
+| 09/09/2016 | 3     | Discussion | TBD	       	                       |
++------------+-------+-------------------------------------------------+
+| 09/12/2016 | 4     | Content W4 | TBD                                |
++------------+-------+-------------------------------------------------+
+| 09/16/2016 | 4     | Discussion | TBD                                |
++------------+-------+-------------------------------------------------+
+| 09/19/2016 | 5     | Content W5 | TBD	       	                       |
++------------+-------+-------------------------------------------------+
+| 09/23/2016 | 5     | Discussion | TBD                                |
++------------+-------+-------------------------------------------------+
+| 09/26/2016 | 6     | Content W6 | TBD        	                       |
++------------+-------+-------------------------------------------------+
+| 09/30/2016 | 6     | Discussion | TBD                                |
++------------+-------+-------------------------------------------------+
+| 10/03/2016 | 7     | Content W7 | TBD	       	                       |
++------------+-------+-------------------------------------------------+
+| 10/07/2016 | 7     | No Lectures| No Lectures                        |
++------------+-------+-------------------------------------------------+
+| 10/08/2016 | 7     | No Lectures| No Lectures                        |
++------------+-------+-------------------------------------------------+
+| 10/09/2016 | 7     | No Lectures| No Lectures                        |
++------------+-------+-------------------------------------------------+
+| 10/10/2016 | 8     | Content W8 | TBD                                |
++------------+-------+-------------------------------------------------+
+| 10/14/2016 | 8     | Discussion | TBD                                |
++------------+-------+-------------------------------------------------+
+| 10/17/2016 | 9     | Content W9 | TBD	       	                       |
++------------+-------+-------------------------------------------------+
+| 10/21/2016 | 9     | Discussion | TBD                                |
++------------+-------+-------------------------------------------------+
+| 10/24/2016 | 10    | Content W10| TBD                                |
++------------+-------+-------------------------------------------------+
+| 10/28/2016 | 10    | Discussion | TBD                                |
++------------+-------+-------------------------------------------------+
+| 10/31/2016 | 11    | Content W11| TBD                                |
++------------+-------+-------------------------------------------------+
+| 11/04/2016 | 11    | Discussion | TBD                                |
++------------+-------+-------------------------------------------------+
+| 11/07/2016 | 12    | Content W12| TBD                                |
++------------+-------+-------------------------------------------------+
+| 11/11/2016 | 12    | Discussion | TBD                                |
++------------+-------+-------------------------------------------------+
+| 11/14/2016 | 13    | Content W13| TBD                                |
++------------+-------+-------------------------------------------------+
+| 11/18/2016 | 13    | Discussion | TBD                                |
++------------+-------+-------------------------------------------------+
+| 11/20/2016 | 14    | No Lectures| Thanksgiving break Starts          |
++------------+-------+-------------------------------------------------+
+| 11/27/2016 | 14    | No Lectures| Thanksgiving break Ends            |
++------------+-------+-------------------------------------------------+
+| 12/02/2016 | 15    | Due Date   | Due Date for papers and projects   |
++------------+-------+-------------------------------------------------+
+| 12/16/2016 | 16    | Last Day	  | End Date of Semester               |
++------------+-------+-------------------------------------------------+
+	      		       						
 
-first day
-last day
-due data projects
-due date papers
-
-class calendar
-
-date week lecture discussion date
-
-put details here
 
 Email
 ----------------------------------------------------------------------
 
 We have set up a ticketing system for this class with Google
-Collaborative Groups e-mails at 
+Collaborative Groups e-mails at
 
 * https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help
 
@@ -154,7 +216,7 @@ Class announcements are send to:
 
 You will be responsible that you verify that you are subscribed to
 this list. We will not use canvas e-mail system to communicate with
-you and it may only be used initially. 
+you and it may only be used initially.
 
 
 Getting Access and Systems Support
@@ -286,7 +348,7 @@ frameworks. Everything must be installable form the command line.
 Prerequisites
 ----------------------------------------------------------------------
 
-Python or Java experience (programming load is modest). 
+Python or Java experience (programming load is modest).
 
 In case you elect a programming project we will assume that you are
 familiar with the programming languages required as part of the
@@ -489,4 +551,18 @@ Jerome Mitchell
 Prashanth Balasubramani
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. todo:: Prashant. add picture and paragraph 100x100px
+.. image:: images/Prashanth.jpg
+
+Prashanth Balasubramani is an MS student in Computer Science at Indiana
+University working with Gregor von Laszewski, Assistant Director of Cloud
+Computing at DSC. He has been working under Professor Gregor and Dr.Geoffrey Fox
+for the past year as an Associate Instructor for the course Big Data Analytics
+and Applications during the Fall 2015 and Spring 2016 semesters. Before joining
+Indiana University, he worked as a ETL developer for Capital One Banking firm
+(Wipro Technologies, Bangalore) developing Hadoop MR and Spark jobs for real
+time migration of Historical Data into virtual clusters on the Cloud. He is
+currently working as an Teaching Assistant for the Big Data Applications and
+Analytics course for the Fall 2016 semester. He is also working on NIST
+benchmarking project for recording benchmarks on different cloud platforms
+His research interests include Big Data applications, Cloud computing and
+Data Warehousing.
