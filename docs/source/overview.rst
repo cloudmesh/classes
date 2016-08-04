@@ -66,7 +66,7 @@ We will be using Zoom for online sessions with the following URL
 Calendar
 ---------
 
-.. todo:: Prashanth. add a calendar here with when what takes place on a weely basis
+.. todo:: Prashanth. add a calendar here with when what takes place on a weekly basis
 
 +------------+-------+------------------------------------------+
 | Date       | Week  | Sessions | Descriptions                  |
@@ -421,4 +421,18 @@ Jerome Mitchell
 Prashanth Balasubramani
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. todo:: Prashant. add picture and paragraph 100x100px
+.. image:: images/Prashanth.jpg
+
+Prashanth Balasubramani is an MS student in Computer Science at Indiana
+University working with Gregor von Laszewski, Assistant Director of Cloud
+Computing at DSC. He has been working under Professor Gregor and Dr.Geoffrey Fox
+for the past year as an Associate Instructor for the course Big Data Analytics
+and Applications during the Fall 2015 and Spring 2016 semesters. Before joining
+Indiana University, he worked as a ETL developer for Capital One Banking firm
+(Wipro Technologies, Bangalore) developing Hadoop MR and Spark jobs for real
+time migration of Historical Data into virtual clusters on the Cloud. He is
+currently working as an Teaching Assistant for the Big Data Applications and
+Analytics course for the Fall 2016 semester. He is also working on NIST
+benchmarking project for recording benchmarks on different cloud platforms
+His research interests include Big Data applications, Cloud computing and
+Data Warehousing.
