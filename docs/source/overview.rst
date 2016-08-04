@@ -29,27 +29,59 @@ University credit please go to:
    	  coursenumber, title, description. where description
    	  indicates what this is for.
 
-Meeting Times and Office Hours
+
++------------+------------+-----------------------------+
+| Course Number | Section |         Description         |            
++============+============+===========+==================
+| INFO-I 523 |  32864  | Online Graduate Students ONLY  |
+|            +---------+------------------------------- |
+|	     |	32866  | Online Data Science Majors ONLY|
+-------------+---------+--------------------------------+
++------------+------------+-----------------------------+
+| INFO-I 423 | 34955      |  Online Undergraduates Only |
++------------+------------+-----------------------------+
+
+
+Meeting times and Office Hours
 --------------------------------
 
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place Fridays
-09:30A-10:45A. For the 100% online students a time will be determined.
+09:30A-10:45A. For the 100% online students a time will be determined
+and this page will be updated.
 
 
 Office Hours
 ~~~~~~~~~~~~
 
-.. todo:: Gregor. clenup this secion
-
 Office hours will be held every week. These are live sessions that
-will allow you to interact one-on-one or in groups with either an
-instructor ow a TA. During these times, we can be reached via zoom at
-the following URL.
+will allow you to interact in group or one-on-one with either an
+instructor ow a TA. Office hours sessions may be recorded. During
+these times, we can be reached via zoom with the following information
+for the call:
 
-.. todo:: Gregor. put link here
+Join from PC, Mac, Linux, iOS or Android: 
 
-Office hours sessions may be recorded.
+* https://IU.zoom.us/j/195576919
+
+Or Telephone:
+
+  * However as we are most likely sharing documents phone
+    participation may not be too useful.
+
+  * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
+  * Meeting ID: 195 576 919 
+
+  * International numbers available: https://IU.zoom.us/zoomconference?m=GUZ8CEVGWPB_312js4gnzkGM_QvcVUy3 
+
+
+* Or a H.323/SIP room system:
+
+  * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East) 
+  * Meeting ID: 195 576 919
+
+  * SIP: 195576919@zoomcrc.com
+
 
 Special Sessions
 ~~~~~~~~~~~~~~~~
@@ -383,10 +415,20 @@ and its use in MOOCs for areas like Data and Computational Science. He
 is a Fellow of APS (Physics) and ACM (Computing).
 
 
-Badi Abduhl-Whadi
+Dr. Badi' Abdul-Wahid
 ~~~~~~~~~~~~~~~~
 
-.. todo:: add picture and paragraph
+.. image:: images/badi.png
+
+Badi' received a Ph.D. in Computer Science at the University of Notre
+Dame under Professor Jesus Izaguirre. The primary focus of his
+graduate work was the development of scalable, fault-tolerant, elastic
+distributed applications for running Molecular Dynamics simulations.
+
+At Indiana University, Badi' is works with the FutureSystems project
+on a NIST-funded study whose goal is to understand patterns in the
+development and usage of Big Data Analysis pipelines.
+
 
 Teaching Assistants
 -------------------
