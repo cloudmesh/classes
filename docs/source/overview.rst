@@ -71,7 +71,7 @@ Calendar
 +------------+-------+------------------------------------------+
 | Date       | Week  | Sessions | Descriptions                  |
 +------------+-------+------------------------------------------+
-| mm/dd/2016 | 1     | urls     | Introduction                  |      
+| mm/dd/2016 | 1     | urls     | Introduction                  |
 +------------+-------+------------------------------------------+
 
 first day
@@ -85,7 +85,7 @@ date week lecture discussion date
 
 put details here
 
-Email 
+Email
 ----------------------------------------------------------------------
 
 ..todo:: Gregor. cleanup
@@ -101,7 +101,7 @@ email the instructors directly (laszewski@gmail.com).
 
   For general help to contact instructors and TAs. This mailinglist is
   shared with all TAs, Dr. von Laszewski, and Dr. Abduhl-Wahid
-  
+
 * https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-announce
 
   Class announcements will be send here
@@ -145,7 +145,7 @@ Term Paper or Project
 You have a choice to write a term paper or do a software project using
 our cloud computing test bed.
 
-In case of a software project, we encourage a group project with up to three members. 
+In case of a software project, we encourage a group project with up to three members.
 
 You can use the discusson TBD  to form project teams or just communicate
 privately with other classmembers to formulate a team.
@@ -210,7 +210,7 @@ Code repositories Deliverables
 
 Code repositories are for code, if you have additional libraries that are needed you need to develop a script or use a DeVOps framework to install such software. Thus zip files and .class, .o files are not permissable in the project. Ech project must be reproducable with a simple script. An example is
 
-    git clone ....  
+    git clone ....
     make install
     make run
     make view
@@ -218,13 +218,13 @@ Code repositories are for code, if you have additional libraries that are needed
 Which would use a simple make file to install, run, and view the results. Naturally you can use ansible or shell scripts. It is not permissible to use GUI based DevOps preinstalled frameworks. Everything must be installable form the command line.
 
 
-Office Hours 
+Office Hours
 ----------------------------------------------------------------------
 
 Office hours will be held every week. These are live sessions that
 will allow you to interact one-on-one or in groups with either an
 instructor ow a TA. During these times, we can be reached via a ZOOM
-link. Office hours are Tue, Thu 10-11am. 
+link. Office hours are Tue, Thu 10-11am.
 
 
 Requirements
@@ -393,9 +393,9 @@ Teaching Assistants
 
 Hyungro Lee
 ~~~~~~~~~~~
-				  
+
 .. image:: images/Hyungro.jpg
-				  
+
 
 Hyungro Lee is a PhD candidate in Computer Science at Indiana University
 working with Dr. Geoffrey C. Fox. Prior to beginning the PhD program,
@@ -418,11 +418,7 @@ Jerome Mitchell
 
 .. todo:: Jerome. add picture and paragraph 100x100px
 
-Prashant ...
+Prashanth Balasubramani
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. todo:: Prashant. add picture and paragraph 100x100px
-
-
-
-				  
