@@ -25,21 +25,15 @@ University credit please go to:
 
 * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
 
-.. todo:: Jerome. Put table of course numbers here with columns
-   	  coursenumber, title, description. where description
-   	  indicates what this is for.
+.. todo:: Course Number INFO-I 523  32864 Graduate Only
+	                INFO-I 523  32866 Data Science Majors Only
+			INFO-I 423  34955 Undergraduates Only
+ 
+                
+   	  
+   	  
 
 
-+------------+------------+-----------------------------+
-| Course Number | Section |         Description         |            
-+============+============+===========+==================
-| INFO-I 523 |  32864  | Online Graduate Students ONLY  |
-|            +---------+------------------------------- |
-|	     |	32866  | Online Data Science Majors ONLY|
--------------+---------+--------------------------------+
-+------------+------------+-----------------------------+
-| INFO-I 423 | 34955      |  Online Undergraduates Only |
-+------------+------------+-----------------------------+
 
 
 Meeting times and Office Hours
