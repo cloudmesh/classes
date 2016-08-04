@@ -289,7 +289,7 @@ We take academic integrity very seriously. You are required to abide
 by the Indiana University policy on academic integrity, as described
 in the Code of Student Rights, Responsibilities, and Conduct, as well
 as the Computer Science Statement on Academic Integrity
-(http://www.soic.indiana. edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf). It
+(http://www.soic.indiana.edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf). It
 is your responsibility to understand these policies. Briefly
 summarized, the work you submit for course assignments, projects,
 quizzes, and exams must be your own or that of your group, if
@@ -393,7 +393,6 @@ Teaching Assistants
 
 Hyungro Lee
 ~~~~~~~~~~~
-
 				  
 .. image:: images/Hyungro.jpg
 				  
