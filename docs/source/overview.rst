@@ -23,6 +23,16 @@ University credit please go to:
    	  coursenumber, title, description. where description
    	  indicates what this is for.
 
++------------+------------+-----------+
+| Course #  | Title   | Description  |
++============+============+===========+
+| # 1 |  title 1   | description  |
++------------+------------+-----------+
+| body row 2 | Cells may span columns.|
++------------+------------+-----------+
+| body row 3 | Cells may  | - Cells   |
++------------+------------+-----------
+
 Meeting times and Office Hours
 --------------------------------
 
