@@ -25,6 +25,29 @@ University credit please go to:
 
 * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
 
+
+FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+FA16-BL-ENGR-E599-36362
+
+FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+FA16-BL-ENGR-E599-36362
+
+FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+FA16-BL-ENGR-E599-36362
+
+FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
+FA16-BL-ENGR-E599-36362
+
+FA16: BIG DATA APPLS & ANALYTICS: 32866
+FA16-BL-INFO-I523-32866
+
+FA16: BIG DATA APPLS & ANALYTICS: 32866
+FA16-BL-INFO-I523-32866
+
+FA16: BIG DATA APPLS & ANALYTICS: 34955
+FA16-BL-INFO-I423-34955
+FALL 2016
+  
 .. todo:: 
 
 .. INFO-I 523  32864 Graduate Only
@@ -330,7 +353,7 @@ summarized, the work you submit for course assignments, projects,
 quizzes, and exams must be your own or that of your group, if
 groupwork is permitted. You may use the ideas of others but you must
 give proper credit. You may discuss assignments with other students
-but you must acknowledge them in the refrence section according to
+but you must acknowledge them in the reference section according to
 scholarly citation rules. Please also make sure that you know how to
 not plagerise text from other sources while reviewing citation rules.
 
