@@ -1,6 +1,32 @@
 FAQ
 ====
 
+Do I need to buy a textbook?
+----------------------------------------------------------------------
+
+No, the resources will be provided for every unit. However, there are
+some optional textbooks if you would like to purchase one.
+
+#. “Taming The Big Data Tidal Wave: Finding Opportunities in Huge Data
+   Streams with Advanced Analytics”, Bill Franks Wiley ISBN:
+   978-1-118-20878-6
+#. “Doing Data Science: Straight Talk from the Frontline”, Cathy O'Neil,
+   Rachel Schutt, O'Reilly Media, ISBN 978-1449358655
+
+Representative Bibliography
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. `Big data: The next frontier for innovation, competition, and
+   productivity <http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation>`__
+#. `Big Data Spring 2015
+   Class <https://bigdatacoursespring2015.appspot.com>`__
+
+Where is the official IU calendar for the Fall?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Please follow this
+`link <http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml>`__
+
 How to write a research article on computer science
 ----------------------------------------------------------------------
 

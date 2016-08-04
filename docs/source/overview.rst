@@ -1,5 +1,11 @@
 
-About This Course
+Disclosure
+----------
+
+This page may be updated througout Fall 2016, we recommend to review
+this page weekly for changes.
+
+About the Course
 -----------------
 
 http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
@@ -23,6 +29,7 @@ University credit please go to:
    	  coursenumber, title, description. where description
    	  indicates what this is for.
 
+
 +------------+------------+-----------+
 | Course #  | Title   | Description  |
 +============+============+===========+
@@ -42,7 +49,7 @@ University will participate in a discussion taking place Fridays
 
 
 Office Hours
-----------------------------------------------------------------------
+~~~~~~~~~~~~
 
 .. todo:: Gregor. clenup this secion
 
@@ -56,7 +63,7 @@ the following URL.
 Office hours sessions may be recorded.
 
 Special Sessions
-------------------
+~~~~~~~~~~~~~~~~
 
 Special Online sections with Instructors:
 
@@ -68,14 +75,14 @@ We will be using Zoom for online sessions with the following URL
 
 
 Calendar
-========
+---------
 
 .. todo:: Prashanth. add a calendar here with when what takes place on a weely basis
 
 +------------+-------+------------------------------------------+
 | Date       | Week  | Sessions | Descriptions                  |
 +------------+-------+------------------------------------------+
-| mm/dd/2016 | 1     | urls     | Introduction                  |      
+| mm/dd/2016 | 1     | urls     | Introduction                  |
 +------------+-------+------------------------------------------+
 
 first day
@@ -89,7 +96,7 @@ date week lecture discussion date
 
 put details here
 
-Email 
+Email
 ----------------------------------------------------------------------
 
 ..todo:: Gregor. cleanup
@@ -105,7 +112,7 @@ email the instructors directly (laszewski@gmail.com).
 
   For general help to contact instructors and TAs. This mailinglist is
   shared with all TAs, Dr. von Laszewski, and Dr. Abduhl-Wahid
-  
+
 * https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-announce
 
   Class announcements will be send here
@@ -118,7 +125,7 @@ email the instructors directly (laszewski@gmail.com).
 .. todo:: look at piazza as alternative
 
 Getting Access and Systems Support
-==================================
+----------------------------------------------------------------------
 
 For some cases you will need accee to a cloud. We recommend you
 evaluate which cloud would be most appropriate for your project. This
@@ -144,12 +151,12 @@ software.
 
 
 Term Paper or Project
-=====================
+----------------------------------------------------------------------
 
 You have a choice to write a term paper or do a software project using
 our cloud computing test bed.
 
-In case of a software project, we encourage a group project with up to three members. 
+In case of a software project, we encourage a group project with up to three members.
 
 You can use the discusson TBD  to form project teams or just communicate
 privately with other classmembers to formulate a team.
@@ -214,7 +221,7 @@ Code repositories Deliverables
 
 Code repositories are for code, if you have additional libraries that are needed you need to develop a script or use a DeVOps framework to install such software. Thus zip files and .class, .o files are not permissable in the project. Ech project must be reproducable with a simple script. An example is
 
-    git clone ....  
+    git clone ....
     make install
     make run
     make view
@@ -222,13 +229,13 @@ Code repositories are for code, if you have additional libraries that are needed
 Which would use a simple make file to install, run, and view the results. Naturally you can use ansible or shell scripts. It is not permissible to use GUI based DevOps preinstalled frameworks. Everything must be installable form the command line.
 
 
-Office Hours 
+Office Hours
 ----------------------------------------------------------------------
 
 Office hours will be held every week. These are live sessions that
 will allow you to interact one-on-one or in groups with either an
 instructor ow a TA. During these times, we can be reached via a ZOOM
-link. Office hours are Tue, Thu 10-11am. 
+link. Office hours are Tue, Thu 10-11am.
 
 
 Requirements
@@ -264,7 +271,7 @@ likely to be involved with Big Data in their future.
 
 
 Grading
-=======
+----------------------------------------------------------------------
 
 Grading for homeworks will be done within a week for submission on due
 date. For homeworks that were submitted beyond the due date, the grading
@@ -293,7 +300,7 @@ We take academic integrity very seriously. You are required to abide
 by the Indiana University policy on academic integrity, as described
 in the Code of Student Rights, Responsibilities, and Conduct, as well
 as the Computer Science Statement on Academic Integrity
-(http://www.soic.indiana. edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf). It
+(http://www.soic.indiana.edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf). It
 is your responsibility to understand these policies. Briefly
 summarized, the work you submit for course assignments, projects,
 quizzes, and exams must be your own or that of your group, if
@@ -323,7 +330,7 @@ Instructors
 
 
 Gregor von Laszewski
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: images/gregor2.png
 
@@ -359,7 +366,7 @@ benchmarking, scientific impact of supercomputer and data centers.
 
 
 Dr. Geoffrey Fox
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: images/gcf.jpg
 
@@ -388,7 +395,7 @@ is a Fellow of APS (Physics) and ACM (Computing).
 
 
 Badi Abduhl-Whadi
------------------
+~~~~~~~~~~~~~~~~
 
 .. todo:: add picture and paragraph
 
@@ -398,9 +405,8 @@ Teaching Assistants
 Hyungro Lee
 ~~~~~~~~~~~
 
-				  
 .. image:: images/Hyungro.jpg
-				  
+
 
 Hyungro Lee is a PhD candidate in Computer Science at Indiana University
 working with Dr. Geoffrey C. Fox. Prior to beginning the PhD program,
@@ -423,39 +429,7 @@ Jerome Mitchell
 
 .. todo:: Jerome. add picture and paragraph 100x100px
 
-Prashant ...
-----------------------------------------------------------------------
+Prashanth Balasubramani
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. todo:: Prashant. add picture and paragraph 100x100px
-
-
-Frequently Asked Questions
---------------------------
-
-Do I need to buy a textbook?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-No, the resources will be provided for every unit. However, there are
-some optional textbooks if you would like to purchase one.
-
-#. “Taming The Big Data Tidal Wave: Finding Opportunities in Huge Data
-   Streams with Advanced Analytics”, Bill Franks Wiley ISBN:
-   978-1-118-20878-6
-#. “Doing Data Science: Straight Talk from the Frontline”, Cathy O'Neil,
-   Rachel Schutt, O'Reilly Media, ISBN 978-1449358655
-
-Representative Bibliography
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-#. `Big data: The next frontier for innovation, competition, and
-   productivity <http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation>`__
-#. `Big Data Spring 2015
-   Class <https://bigdatacoursespring2015.appspot.com>`__
-
-Where is the official IU calendar for the Fall?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Please follow this
-`link <http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml>`__
-
-				  
