@@ -19,19 +19,17 @@ Collaboratively processing Big Data to solve problems in X-Informatics.
 Course Numbers
 --------------
 
-This course is offered for Graduate and Undergraduate Students at
-Indiana University and as pure online course. To Register, for
+This course is offered for Graduate and Undergraduate students at
+Indiana University and as an online course. To Register, for
 University credit please go to:
 
 * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
 
-.. todo:: 
+INFO-I 523  32864 Graduate Only
 
-.. INFO-I 523  32864 Graduate Only
+INFO-I 523  32866 Data Science Majors Only 
 
-.. INFO-I 523  32866 Data Science Majors Only 
-
-.. INFO-I 423  34955 Undergraduates Only
+INFO-I 423  34955 Undergraduates Only
  
                 
    	  
