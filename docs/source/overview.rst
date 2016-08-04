@@ -2,7 +2,7 @@
 Disclosure
 ----------
 
-This page may be updated througout Fall 2016, we recommend to review
+This page may be updated throughout Fall 2016, we recommend to review
 this page weekly for changes.
 
 About the Course
@@ -29,20 +29,18 @@ University credit please go to:
 	                INFO-I 523  32866 Data Science Majors Only
 			INFO-I 423  34955 Undergraduates Only
  
-                
-   	  
-   	  
-
-
-
-
+              
 Meeting times and Office Hours
 --------------------------------
 
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place Fridays
-09:30A-10:45A. For the 100% online students a time will be determined
+09:30A-10:45 am EST. For the 100% online students a time will be determined
 and this page will be updated.
+
+For online course participants we will also have office hours are Tue,
+Thu 10-11am EST.
+
 
 
 Office Hours
@@ -80,7 +78,7 @@ Or Telephone:
 Calendar
 ---------
 
-.. todo:: Prashanth. add a calendar here with when what takes place on a weely basis
+.. todo:: Prashanth. add a calendar here with when what takes place on a weekly basis
 
 +------------+-------+------------------------------------------+
 | Date       | Week  | Sessions | Descriptions                  |
@@ -135,7 +133,7 @@ you and it may only be used initially.
 Getting Access and Systems Support
 ----------------------------------------------------------------------
 
-For some projects you will need accee to a cloud. We recommend you
+For some projects you will need access to a cloud. We recommend you
 evaluate which cloud would be most appropriate for your project. This
 includes:
 
@@ -146,15 +144,15 @@ includes:
 * virtualbox if you have a powerful computer and like to prototype
 * other clouds
 
-We intend to make some small number of virtual machines availabe for
-us in a project FG511 on Futuresystems:
+We intend to make some small number of virtual machines available for
+us in a project FG511 on FutureSystems:
 
 * https://portal.futuresystems.org/projects/511
 
-Once you created an account on FUturesystems and you do a project YOu
+Once you created an account on FutureSystems and you do a project YOu
 can add yourself to the project so you gain access.
 
-Systems staff is available only during regular buisiness hours Mo-Fri 10am - 4pm.
+Systems staff is available only during regular business hours Mo-Fri 10am - 4pm.
 
 We will have a Section in the class material about these resources.
 
@@ -174,12 +172,12 @@ our cloud computing test bed.
 
 In case of a software project, we encourage a group project with up to three members.
 
-You can use the discusson TBD  to form project teams or just communicate
-privately with other classmembers to formulate a team.
+You can use the discussion TBD  to form project teams or just communicate
+privately with other class members to formulate a team.
 
-.. todo:: include a link to the dicussion for formulating projects.
+.. todo:: include a link to the discussion for formulating projects.
 
-The following artifacts are part of the deliverabels
+The following artifacts are part of the deliverables
 
 .. todo:: Hyungro. include paper/report length requirement as RST table
 
@@ -190,9 +188,7 @@ This needs also to be provided for Papers that are written in a team.
 Report Format
 ---------------
 
-
-
-All reports will be using the ACM pubform format. The Word template
+All reports will be using the ACM proceedings format. The MSWord template
 can be found here:
 
 * :download:`paper-report.docx <files/paper-report.docx>`
@@ -201,19 +197,19 @@ A LaTeX version can be found at
 
 * https://www.acm.org/publications/proceedings-template
 
-however you have to remove the copyright notice.
+however you have to remove the ACM copyright notice in the LaTeX version.
 
 There will be **NO EXEPTION** to this format. In case you are in a
-team, you can use either github while collaboratively developing the
+team, you can use either gitlab while collaboratively developing the
 LaTeX document or use MicrosoftOne Drive which allows collaborative
 editing features. All bibliographical entries must be put into a
 bibliography manager such as jabref, endnote, or Mendeley. This will
-gurantee that you follow proper citation styles. You can use either
-ACM or IEEE refernce styles. YOur final submission will include the
-bibligraphy file as a separte document.
+guarantee that you follow proper citation styles. You can use either
+ACM or IEEE reference styles. Your final submission will include the
+bibliography file as a separate document.
 
-Documents that do not follow the ACM format and are not accomponied by
-refrences managed with jabref or endnote will be returned without
+Documents that do not follow the ACM format and are not accompanied by
+references managed with jabref or endnote will be returned without
 review.
 
 Report Checklist:
@@ -222,47 +218,40 @@ Report Checklist:
   format
 * [ ] In case of LaTeX, have you removed the ACM copyright information
 * [ ] Have you included the report in gitlab
-* [ ] Have you specified tha names and e-mails of all team members in
+* [ ] Have you specified the names and e-mails of all team members in
   your report.
 * [ ] have you included all images in native and PDF format in gitlab
   in the images folder
-* [ ] have you added the bibligraphy file (such as endnote or bibtex
+* [ ] have you added the bibliography file (such as endnote or bibtex
   file e.g. jabref) in a directory bib
 * [ ] have you submitted an additional page that describes who did
   what in the project or report.
 
 
-Code repositories Deliverables
+Code Repositories Deliverables
 ------------------------------
 
-Code repositories are for code, if you have additional libraries that are needed you need to develop a script or use a DeVOps framework to install such software. Thus zip files and .class, .o files are not permissable in the project. Ech project must be reproducable with a simple script. An example is
+Code repositories are for code, if you have additional libraries that
+are needed you need to develop a script or use a DevOps framework to
+install such software. Thus zip files and .class, .o files are not
+permissible in the project. Each project must be reproducible with a
+simple script. An example is
 
     git clone ....
     make install
     make run
     make view
 
-Which would use a simple make file to install, run, and view the results. Naturally you can use ansible or shell scripts. It is not permissible to use GUI based DevOps preinstalled frameworks. Everything must be installable form the command line.
+Which would use a simple make file to install, run, and view the
+results. Naturally you can use ansible or shell scripts. It is not
+permissible to use GUI based DevOps preinstalled
+frameworks. Everything must be installable form the command line.
 
-
-Office Hours
-----------------------------------------------------------------------
-
-Office hours will be held every week. These are live sessions that
-will allow you to interact one-on-one or in groups with either an
-instructor ow a TA. During these times, we can be reached via a ZOOM
-link. Office hours are Tue, Thu 10-11am.
-
-
-Requirements
-------------
-
-Python or Java experience (programming load is modest). Optionally: In
-case you are interested in further development of cloudmesh for big
-data strong Python or JavaScript experience is needed.
 
 Prerequisites
 ----------------------------------------------------------------------
+
+Python or Java experience (programming load is modest). 
 
 In case you elect a programming project we will assume that you are
 familiar with the programming languages required as part of the
@@ -278,6 +267,10 @@ including linear 1 algebra, probability theory, and basic calculus. We
 students with limited math backgrounds may need to do additional
 reading outside of class.
 
+In case you are interested in further development of cloudmesh for big
+data strong Python or JavaScript experience is needed.
+
+
 Learning Outcomes
 -----------------
 
@@ -289,17 +282,20 @@ likely to be involved with Big Data in their future.
 Grading
 ----------------------------------------------------------------------
 
-Grading for homeworks will be done within a week for submission on due
-date. For homeworks that were submitted beyond the due date, the grading
+Grading for homework will be done within a week for submission on due
+date. For homework that were submitted beyond the due date, the grading
 will be done within 2-3 weeks after the submission. Some homework can
 not be delivered late and a 10% grade reduction will be given. We will
 be clearly mark such mandatory deadlines.
 
- It is the student’s responsibility to upload submissions well ahead
- of the deadline to avoid last minute problems with network
- connectivity, browser crashes, etc. It is a very good idea to make
- early submissions and then upload updates as the deadline approaches;
- we will grade the last submission received before the deadline.
+It is the student’s responsibility to upload submissions well ahead of
+the deadline to avoid last minute problems with network connectivity,
+browser crashes, cloud issues, etc. It is a very good idea to make
+early submissions and then upload updates as the deadline approaches;
+we will grade the last submission received before the deadline.
+
+Note that paper and project will take a considerable time and doing
+proper time management is a must for this class.
 
 Licensing
 ---------
@@ -442,7 +438,7 @@ communications platforms including emails, texts and messaging at large
 scale to support over 40 million users. From this work he developed an
 interest in how distributed systems achieve scalability and high
 availability along with managing resources efficiently. He is currently
-working on the Futuresystems project to support Big Data Analysis
+working on the FutureSystems project to support Big Data Analysis
 Software Stacks in Virtual Clusters. He was also working on the
 FutureGrid project, an NSF funded significant new experimental computing
 grid and cloud test-bed to the research community, together with user
