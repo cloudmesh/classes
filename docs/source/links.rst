@@ -1,7 +1,7 @@
 Links Python
 ------------
 
-..todo:: Jerome. Go to Python documentation and consolodate to python.rst, Integrate Jeromes ppt
+.. todo:: Jerome. Go to Python documentation and consolodate to python.rst, Integrate Jeromes ppt
 
 * https://github.com/cloudmesh/intro_to_cloudcomputing/blob/master/doc/source/python.rst
 * https://github.com/cloudmesh/introduction_to_cloud_computing-old/tree/master/docs/source/python
