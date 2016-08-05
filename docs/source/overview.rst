@@ -1,15 +1,11 @@
 
-Disclosure
-----------
-
 This page may be updated throughout Fall 2016, we recommend to review
 this page weekly for changes.
 
+
 About the Course
 -----------------
-
-http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
-
+  
 The Big Data Applications and Analytics course is an overview course in
 Data Science and covers the applications and technologies (data
 analytics and clouds) needed to process the application data. It is
@@ -34,9 +30,9 @@ Please, select the course that is most suitable for your program.
 +------------+-------+---------+------------------------------------+
 | ENGR       | E599  | 36362   | Engineering Grad Students          |
 +------------+-------+---------+------------------------------------+
-| INFO       | I523  | 32864   |  Graduate Student                  |
+| INFO       | I523  | 32864   | Graduate Student                   |
 +------------+-------+---------+------------------------------------+
-| INFO       | I523  | 32866   | Data Science Student               |
+| INFO       | I523  | 32866   | Data Science Student (Online)      |
 +------------+-------+---------+------------------------------------+
 | INFO       | I423  | 34955   | Undergraduate Student              |
 +------------+-------+---------+------------------------------------+
@@ -103,28 +99,28 @@ From Registrar::
                  Above class meets Smith Research Center Room 151E
 		 
 
-
-Meeting times and Office Hours
---------------------------------
+Meeting Times
+-------------
 
 The classes are published online. Residential students at Indiana
-University will participate in a discussion taking place Fridays
-09:30A-10:45 am EST. For the 100% online students a time will be determined
-and this page will be updated.
+University will participate in a discussion taking place at the
+following times dependent on which class you are in:
 
-For online course participants we will also have office hours are Tue,
-Thu 10-11am EST.
+* INFO-I 523: Fridays 09:30am - 10:45am EST, I2 150 
+* ENGR-E 599: Fridays 01:00pm - 02:15pm EST, Research Center Room 151E
 
+* For the 100% online students a time will be determined
 
 
 Office Hours
-~~~~~~~~~~~~
+------------
 
-Office hours will be held every week. These are live sessions that
-will allow you to interact in group or one-on-one with either an
-instructor ow a TA. Office hours sessions may be recorded. During
-these times, we can be reached via zoom with the following information
-for the call:
+Office hours will be held every week Tue, Thu 10-11am EST.
+
+These are live sessions that will allow you to interact in group or
+one-on-one with either an instructor ow a TA. Office hours sessions
+may be recorded. During these times, we can be reached via zoom with
+the following information for the call:
 
 Join from PC, Mac, Linux, iOS or Android:
 
@@ -148,42 +144,49 @@ Or Telephone:
 
   * SIP: 195576919@zoomcrc.com
 
+Please use a headphone with microphone to increase sound quality. 
 
 Calendar
 ---------
 
-.. todo:: Prashanth. add a calendar here with when what takes place on a weekly basis
+.. todo:: Prashanth. add a calendar here with when what takes place on
+	  a weekly basis
+
+
+All sessions refer to Sections, Discussions and Units published at the
+`Course Content Web Page <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/f712efaeae5a4d6ea2c87a0f34e0720b/>`_
+
+* All lectures are assigned Monday's
+* All discussions are due Friday's
 
 +------------+-------+------------+------------------------------------+
 | Date       | Week  | Sessions   | Descriptions                       |
 +------------+-------+------------+------------------------------------+
-| 08/22/2016 | 1     | Content W1 | Starting day of semester           |
+| 08/22/2016 | 1     | Content W1 | | S1 Introduction                  |
+|            |       |            | | S2 Overview                      |
+|            |       |            | | D1 Introduction                  |
 +------------+-------+------------+------------------------------------+
-| 08/26/2016 | 1     | Discussion | Introduction                       |
-+------------+-------+------------+------------------------------------+
-| 08/29/2016 | 2     | Content W2 | TBD                                |
-+------------+-------+------------+------------------------------------+
-| 09/02/2016 | 2     | Discussion | TBD	       	                       |
+| 08/29/2016 | 2     | Content W2 | | S3 Health Info                   |
+|            |       |            | | D2, D3	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     | Holiday    | Labor Day                          |
 +------------+-------+------------+------------------------------------+
-| 09/05/2016 | 3     | Content W3 | TBD                                |
+| 09/05/2016 | 3     | Content W3 | Project and Paper Discussion       |
 +------------+-------+------------+------------------------------------+
-| 09/09/2016 | 3     | Discussion | TBD	       	                       |
+| 09/05/2016 | 3     | Content W3 | | S4 Sports                        |
+|            |       |            | | D2, D3	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/12/2016 | 4     | Content W4 | TBD                                |
+| 09/12/2016 | 4     | Content W4 | | S5 Python, IaaS, FutureSystems   |
+|            |       |            | | D5	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/16/2016 | 4     | Discussion | TBD                                |
+| 09/19/2016 | 5     | Content W5 | | S6 Physics	               |
+|            |       |            | | D6	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/19/2016 | 5     | Content W5 | TBD	       	                       |
+| 09/26/2016 | 6     | Content W6 | | S7 Use Cases        	       |
+|            |       |            | | D7	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/23/2016 | 5     | Discussion | TBD                                |
-+------------+-------+------------+------------------------------------+
-| 09/26/2016 | 6     | Content W6 | TBD        	                       |
-+------------+-------+------------+------------------------------------+
-| 09/30/2016 | 6     | Discussion | TBD                                |
-+------------+-------+------------+------------------------------------+
-| 10/03/2016 | 7     | Content W7 | TBD	       	                       |
+| 10/03/2016 | 7     | Content W7 | | S8 Technology Viz	       	       |
+|            |       |            | | D8	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/07/2016 | 7     | No Lectures| No Lectures                        |
 +------------+-------+------------+------------------------------------+
@@ -191,29 +194,22 @@ Calendar
 +------------+-------+------------+------------------------------------+
 | 10/09/2016 | 7     | No Lectures| No Lectures                        |
 +------------+-------+------------+------------------------------------+
-| 10/10/2016 | 8     | Content W8 | TBD                                |
+| 10/10/2016 | 8     | Content W8 | | S9 e-Commerce                    |
+|            |       |            | | D9	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/14/2016 | 8     | Discussion | TBD                                |
+| 10/17/2016 | 9     | Content W9 | | S10 Clustering	       	       |
+|            |       |            | | D10	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/17/2016 | 9     | Content W9 | TBD	       	                       |
+| 10/24/2016 | 10    | Content W10| | S11 Cloud Computing              |
+|            |       |            | | D10	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/21/2016 | 9     | Discussion | TBD                                |
+| 10/31/2016 | 11    | Content W11| S13 BigData Technologies           |
 +------------+-------+------------+------------------------------------+
-| 10/24/2016 | 10    | Content W10| TBD                                |
+| 11/07/2016 | 12    | Content W12|  S13 BigData Technologies          |
 +------------+-------+------------+------------------------------------+
-| 10/28/2016 | 10    | Discussion | TBD                                |
-+------------+-------+------------+------------------------------------+
-| 10/31/2016 | 11    | Content W11| TBD                                |
-+------------+-------+------------+------------------------------------+
-| 11/04/2016 | 11    | Discussion | TBD                                |
-+------------+-------+------------+------------------------------------+
-| 11/07/2016 | 12    | Content W12| TBD                                |
-+------------+-------+------------+------------------------------------+
-| 11/11/2016 | 12    | Discussion | TBD                                |
-+------------+-------+------------+------------------------------------+
-| 11/14/2016 | 13    | Content W13| TBD                                |
-+------------+-------+------------+------------------------------------+
-| 11/18/2016 | 13    | Discussion | TBD                                |
+| 11/14/2016 | 13    | Content W13| | S14 Sensors                      |
+|            |       |            | | S15 Radar	       	               |
+|            |       |            | | TBD Deep Learning                |
 +------------+-------+------------+------------------------------------+
 | 11/20/2016 | 14    | No Lectures| Thanksgiving break Starts          |
 +------------+-------+------------+------------------------------------+
@@ -278,15 +274,15 @@ us in a project FG511 on FutureSystems:
 
 * https://portal.futuresystems.org/projects/511
 
-Once you created an account on FutureSystems and you do a project YOu
-can add yourself to the project so you gain access.
-
-Systems staff is available only during regular business hours Mo-Fri 10am - 4pm.
-
-We will have a Section in the class material about these resources.
-
-.. todo:: Hyungro. add the link to the section and prepare this section.
-:ref:`OpenStack FutureSystems <ref-quickstart_openstack>`
+.. note:: FutureSystems OpenSTack cloud is currently updated and will
+	  not be available till Sept.
+	  
+Documentation about FutureSystems can be found at
+:ref:`OpenStackFutureSystems <ref-quickstart_openstack>`
+  
+Once you created an account on FutureSystems and you do a project yOu
+can add yourself to the project so you gain access. Systems staff is
+available only during regular business hours Mo-Fri 10am - 4pm.  
 
 You could also use the cloudmesh client software on Linux and OSX to
 access multiple clouds in easy fashion. A Section will introduce this
@@ -300,26 +296,67 @@ Term Paper or Project
 You have a choice to write a term paper or do a software project using
 our cloud computing test bed.
 
-In case of a software project, we encourage a group project with up to three members.
+Software Project
+----------------
 
-You can use the discussion TBD  to form project teams or just communicate
-privately with other class members to formulate a team.
+.. todo: Hyungro. CReate a discussion for this and link it here
 
-.. todo:: include a link to the discussion for formulating projects.
+.. todo: Hyungro. Can you doublecheck the page numbers
+   
+In case of a software project, we encourage a group project with up to
+three members.  You can use the discussion TBD  to form project teams
+or just communicate privately with other class members to formulate a
+team. The following artifacts are part of the deliverables for a
+project
 
-The following artifacts are part of the deliverables
+Code:
+    You must deliver the code in gitlab. The code must be compilable
+    and a TA may try to replicate to run your code. You MUST avoid
+    lengthy install descriptions and everything must be installable
+    from the commandline
 
-.. todo:: Hyungro. include paper/report length requirement as RST table
+Project Report:
+    A report must be produced while using the format discussed in the
+    Report Format section. The following length is required:
 
-* Template: ACM Proceedings - `WORD <https://www.acm.org/sigs/publications/pubform.doc>`_
-* 9 point fonts in two column page
-* Software Project: 3-4 pages
-* Paper Project: 6 pages (individual)
-    - 9 pages (two members)
-    - 12 pages (three members)
+    * 6 pages, one student in the project
+    * 9 pages, one student in the project
+    * 12 pages, one student in the project
 
-This needs also to be provided for Papers that are written in a team.
+Work Breackdown:
+    This document is only needed for team projects. A one page PDF
+    document describing who did what. It includes pointers to
+    the git history that documents the statistics that demonstrate not
+    only one student has worked on the project.
 
+License:
+    All projects are developed under an open source license such as
+    Apache 2.0 License, or similar. You will be required to add a
+    LICENCE.txt file and if you use other software identify how it can be
+    reused in your project. If your project uses different licenses,
+    please add in a README.rst file which packages are used and which
+    license these packages have.
+
+    
+Term Paper
+-----------
+
+In case you chose the term paper, you or your team will pick a topic
+relevant for the class. You wil write a high quality scholarly paper
+about this topic. The following artifacts are part of the deliverables
+for a term paper
+
+Project Report:
+    A report must be produced while using the format discussed in the
+    Report Format section. The following length is required:
+
+    * ? pages, one student in the project
+    * ? pages, one student in the project
+    * ? pages, one student in the project
+
+Work Breackdown:
+    This document is only needed for team projects. A one page PDF
+    document describing who did what. 
 
 
 Report Format
@@ -333,7 +370,7 @@ can be found here:
 A LaTeX version can be found at
 
 * https://www.acm.org/publications/proceedings-template
-
+  
 however you have to remove the ACM copyright notice in the LaTeX version.
 
 There will be **NO EXEPTION** to this format. In case you are in a
@@ -346,23 +383,25 @@ ACM or IEEE reference styles. Your final submission will include the
 bibliography file as a separate document.
 
 Documents that do not follow the ACM format and are not accompanied by
-references managed with jabref or endnote will be returned without
-review.
+references managed with jabref or endnote or are not spell checked
+will be returned without review.
 
 Report Checklist:
 
 * [ ] Have you written the report in word or LaTeX in the specified
-  format
+  format.
 * [ ] In case of LaTeX, have you removed the ACM copyright information
-* [ ] Have you included the report in gitlab
+* [ ] Have you included the report in gitlab.
 * [ ] Have you specified the names and e-mails of all team members in
-  your report.
-* [ ] have you included all images in native and PDF format in gitlab
-  in the images folder
-* [ ] have you added the bibliography file (such as endnote or bibtex
-  file e.g. jabref) in a directory bib
-* [ ] have you submitted an additional page that describes who did
+  your report. E.g. the username in Canvas.
+* [ ] Have you included all images in native and PDF format in gitlab
+  in the images folder.
+* [ ] Have you added the bibliography file (such as endnote or bibtex
+  file e.g. jabref) in a directory bib.
+* [ ] Have you submitted an additional page that describes who did
   what in the project or report.
+* [ ] Have you spellchecked the paper.
+* [ ] Have you made sure you do not plageurize.
 
 
 Code Repositories Deliverables
@@ -372,7 +411,7 @@ Code repositories are for code, if you have additional libraries that
 are needed you need to develop a script or use a DevOps framework to
 install such software. Thus zip files and .class, .o files are not
 permissible in the project. Each project must be reproducible with a
-simple script. An example is
+simple script. An example is::
 
     git clone ....
     make install
@@ -434,13 +473,10 @@ we will grade the last submission received before the deadline.
 Note that paper and project will take a considerable time and doing
 proper time management is a must for this class.
 
-Licensing
----------
+* 40% Homework
+* 40% Term Paper
+* 20% Participation
 
-All projects are developed under an open source license such as Apache
-2.0 License, or similar. You will be required to add a License file
-and if you use other software identify how it can be reused in your
-project.
 
 Academic Integrity Policy
 ----------------------------------------------------------------------
@@ -609,16 +645,27 @@ Prashanth Balasubramani
 
 .. image:: images/Prashanth.jpg
 
-Prashanth Balasubramani is an MS student in Computer Science at Indiana
-University working with Gregor von Laszewski, Assistant Director of Cloud
-Computing at DSC. He has been working under Professor Gregor and Dr.Geoffrey Fox
-for the past year as an Associate Instructor for the course Big Data Analytics
-and Applications during the Fall 2015 and Spring 2016 semesters. Before joining
-Indiana University, he worked as a ETL developer for Capital One Banking firm
-(Wipro Technologies, Bangalore) developing Hadoop MR and Spark jobs for real
-time migration of Historical Data into virtual clusters on the Cloud. He is
-currently working as an Teaching Assistant for the Big Data Applications and
-Analytics course for the Fall 2016 semester. He is also working on NIST
-benchmarking project for recording benchmarks on different cloud platforms
-His research interests include Big Data applications, Cloud computing and
-Data Warehousing.
+Prashanth Balasubramani is an MS student in Computer Science at
+Indiana University working with Gregor von Laszewski, Assistant
+Director of Cloud Computing at DSC. He has been working under
+Professor Gregor and Dr.Geoffrey Fox for the past year as an Associate
+Instructor for the course Big Data Analytics and Applications during
+the Fall 2015 and Spring 2016 semesters. Before joining Indiana
+University, he worked as a ETL developer for Capital One Banking firm
+(Wipro Technologies, Bangalore) developing Hadoop MR and Spark jobs
+for real time migration of Historical Data into virtual clusters on
+the Cloud. He is currently working as an Teaching Assistant for the
+Big Data Applications and Analytics course for the Fall 2016
+semester. He is also working on NIST benchmarking project for
+recording benchmarks on different cloud platforms His research
+interests include Big Data applications, Cloud computing and Data
+Warehousing.
+
+Links
+------
+
+This page is published at the following locations:
+
+* OpenEdX: http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
+* Readthedocs: http://bdaafall2016.readthedocs.io/en/latest/
+* Source: https://gitlab.com/cloudmesh/fall2016
