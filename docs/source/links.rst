@@ -26,14 +26,17 @@ In order to conduct this lesson you should
 Learning Goals
 ----------------------------------------------------------------------
 
-At the end of this lesson you will be able to:
+Strings
+----------------------------------------------------------------------
 
-- use Python in your FutureSystems account
-- use the interactive Python interface
-- understand the basic syntax of Python
-- write and run Python programs stored in a file
-- have an overview of the standard library
-- install Python libraries using ``virtualenv``
+Iterations
+----------------------------------------------------------------------
+
+Conditional Statements
+----------------------------------------------------------------------
+
+Functions
+----------------------------------------------------------------------
 
 
 
