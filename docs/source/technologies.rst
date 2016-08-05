@@ -24,4 +24,6 @@ Installing Cloudmesh Client
 
 Introduction to Python
 ======================
-The following is to help guide 
+This lesson will help introduce you to programming in Python
+
+Pre 
