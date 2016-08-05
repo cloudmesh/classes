@@ -10,21 +10,17 @@ Links Python
 Overview
 ----------------------------------------------------------------------
 
-This lesson will introduce you to programming in Python.
-
 .. tip:: Duration: 1 hour
 
-Prerequisite
+Audience
 ----------------------------------------------------------------------
+The purpose of this lesson is to introduce you to python programming
 
-In order to conduct this lesson you should
-
-* Log onto your FutureSystems account
-* Completed the :doc:`shell` lesson
-* Completed the :doc:`editors` lesson
-
-Learning Goals
+Prerequisites
 ----------------------------------------------------------------------
+You should have a basic understanding of computer programming terminologies. A basic understanding of another programming language is a plus.
+
+
 
 Strings
 ----------------------------------------------------------------------
