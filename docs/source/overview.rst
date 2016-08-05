@@ -30,12 +30,25 @@ Please, select the course that is most suitable for your program.
 +------------+-------+---------+------------------------------------+
 | ENGR       | E599  | 36362   | Engineering Grad Students          |
 +------------+-------+---------+------------------------------------+
-| INFO       | I523  | 32864   | Graduate Student                   |
+| INFO       | I523  | 32863   | INFO Grad Students                 |
 +------------+-------+---------+------------------------------------+
-| INFO       | I523  | 32866   | Data Science Student (Online)      |
+| INFO       | I523  | 32866   | Data Science Grad Student          |
 +------------+-------+---------+------------------------------------+
-| INFO       | I423  | 34955   | Undergraduate Student              |
+| INFO       | I423  | 34954   | Undergraduate Student              |
 +------------+-------+---------+------------------------------------+
+
+From Student Center:
+
+    - INFO-I 423 - BIG DATA APPLS & ANALYTICS
+       - 34954 online undergraduate students
+       - 34955 Discussion Friday 9:30 - 10:45AM Informatics East (I2) 150
+    - INFO-I 523 - BIG DATA APPLS & ANALYTICS
+       - 32863 online graduate students
+       - 32864 Discussion Friday 9:30 - 10:45AM Informatics East (I2) 150
+       - 32866 Data Science majors only
+    - ENGR-E 599 - TOPICS IN INTELLIGENT SYSTEMS ENGINEERING
+       - 36362 online graduate engineering students
+       - 36363 Discussion Friday 1:00 - 2:15PM Smith Research Center 151E
 
 From Canvas::
 
@@ -155,6 +168,8 @@ Calendar
 
           * Discussion for Section 32866
 	  * Discussion for all others
+
+.. comment:: Discussion D[0-9] for All (I423/I523/E599) is posted          
 
 
 All sessions refer to Sections, Discussions and Units published at the
@@ -304,6 +319,11 @@ Software Project
 
 .. todo:: Hyungro. Create a discussion for this and link it here
 
+.. comment:: Direct needs to be updated once it's moved to
+             datascience.scholargrid.org
+
+`Discussion on Software Project <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/3d53c765145a457cbd003e80897723d4/>`_
+
 .. todo: Hyungro. Can you doublecheck the page numbers
    
 In case of a software project, we encourage a group project with up to
@@ -343,6 +363,10 @@ License:
     
 Term Paper
 -----------
+
+.. comment:: direct link to discussion on term paper
+
+`Discussion on Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
 
 .. todo: Hyungro. Can you doublecheck the page numbers
 
