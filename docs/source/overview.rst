@@ -149,8 +149,12 @@ Please use a headphone with microphone to increase sound quality.
 Calendar
 ---------
 
-.. todo:: Prashanth. add a calendar here with when what takes place on
-	  a weekly basis
+.. todo:: Hyungro. Go to openedex and change the section numbers for
+          discussions accordingly. I am not sure if we could do jsut
+          the following:
+
+          * Discussion for Section 32866
+	  * Discussion for all others
 
 
 All sessions refer to Sections, Discussions and Units published at the
@@ -164,17 +168,16 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 08/22/2016 | 1     | Content W1 | | S1 Introduction                  |
 |            |       |            | | S2 Overview                      |
-|            |       |            | | D1 Introduction                  |
+|            |       |            | | D1                               |
 +------------+-------+------------+------------------------------------+
 | 08/29/2016 | 2     | Content W2 | | S3 Health Info                   |
 |            |       |            | | D2, D3	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/05/2016 | 3     | Holiday    | Labor Day                          |
+| 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
-| 09/05/2016 | 3     | Content W3 | Project and Paper Discussion       |
-+------------+-------+------------+------------------------------------+
-| 09/05/2016 | 3     | Content W3 | | S4 Sports                        |
-|            |       |            | | D2, D3	       	               |
+| 09/05/2016 | 3     | Content W3 | | Project and Paper Discussion     |
+|            |       |            | | S4 Sport	       	               |
+|            |       |            | | D4	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/12/2016 | 4     | Content W4 | | S5 Python, IaaS, FutureSystems   |
 |            |       |            | | D5	       	               |
@@ -188,11 +191,11 @@ All sessions refer to Sections, Discussions and Units published at the
 | 10/03/2016 | 7     | Content W7 | | S8 Technology Viz	       	       |
 |            |       |            | | D8	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/07/2016 | 7     | No Lectures| No Lectures                        |
+| 10/07/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
-| 10/08/2016 | 7     | No Lectures| No Lectures                        |
+| 10/08/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
-| 10/09/2016 | 7     | No Lectures| No Lectures                        |
+| 10/09/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
 | 10/10/2016 | 8     | Content W8 | | S9 e-Commerce                    |
 |            |       |            | | D9	       	               |
@@ -203,21 +206,21 @@ All sessions refer to Sections, Discussions and Units published at the
 | 10/24/2016 | 10    | Content W10| | S11 Cloud Computing              |
 |            |       |            | | D10	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/31/2016 | 11    | Content W11| S13 BigData Technologies           |
+| 10/31/2016 | 11    | Content W11| | S13 BigData Technologies         |
 +------------+-------+------------+------------------------------------+
-| 11/07/2016 | 12    | Content W12|  S13 BigData Technologies          |
+| 11/07/2016 | 12    | Content W12| | S13 BigData Technologies         |
 +------------+-------+------------+------------------------------------+
 | 11/14/2016 | 13    | Content W13| | S14 Sensors                      |
 |            |       |            | | S15 Radar	       	               |
 |            |       |            | | TBD Deep Learning                |
 +------------+-------+------------+------------------------------------+
-| 11/20/2016 | 14    | No Lectures| Thanksgiving break Starts          |
+| 11/20/2016 | 14    | No Lectures| | Thanksgiving break Starts        |
 +------------+-------+------------+------------------------------------+
-| 11/27/2016 | 14    | No Lectures| Thanksgiving break Ends            |
+| 11/27/2016 | 14    | No Lectures| | Thanksgiving break Ends          |
 +------------+-------+------------+------------------------------------+
-| 12/02/2016 | 15    | Due Date   | Due Date for papers and projects   |
+| 12/02/2016 | 15    | Due Date   | | Due Date for papers and projects |
 +------------+-------+------------+------------------------------------+
-| 12/16/2016 | 16    | Last Day	  | End Date of Semester               |
+| 12/16/2016 | 16    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
 	      		       	   					
 				   
@@ -274,7 +277,7 @@ us in a project FG511 on FutureSystems:
 
 * https://portal.futuresystems.org/projects/511
 
-.. note:: FutureSystems OpenSTack cloud is currently updated and will
+.. note:: FutureSystems OpenStack cloud is currently updated and will
 	  not be available till Sept.
 	  
 Documentation about FutureSystems can be found at
@@ -299,7 +302,7 @@ our cloud computing test bed.
 Software Project
 ----------------
 
-.. todo: Hyungro. CReate a discussion for this and link it here
+.. todo:: Hyungro. Create a discussion for this and link it here
 
 .. todo: Hyungro. Can you doublecheck the page numbers
    
@@ -340,6 +343,8 @@ License:
     
 Term Paper
 -----------
+
+.. todo: Hyungro. Can you doublecheck the page numbers
 
 In case you chose the term paper, you or your team will pick a topic
 relevant for the class. You wil write a high quality scholarly paper
