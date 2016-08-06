@@ -10,7 +10,7 @@ Links Python
 
 Python is a high-level, interpreted, interactive and object-oriented scripting language. 
 
-Comprehensive overview of Python programming python_
+For a comprehensive overview of Python programming see section python_
 
 .. _python: python.rst
 
