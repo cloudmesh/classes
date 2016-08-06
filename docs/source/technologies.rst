@@ -25,7 +25,4 @@ Installing Cloudmesh Client
 .. todo:: Prashanth. Test out cloudmesh install Prashanth
 
 
-Introduction to Python
-======================
-This lesson will help introduce you to programming in Python
 
