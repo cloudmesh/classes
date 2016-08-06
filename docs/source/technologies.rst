@@ -3,6 +3,9 @@ Introduction to Python
 
 .. todo:: Jerome. Link TBD. We will use RST not ppt
 
+Introduction to programming..
+
+
 Installing Python
 =================
 
