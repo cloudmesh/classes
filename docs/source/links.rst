@@ -7,7 +7,11 @@ Links Python
 * https://github.com/cloudmesh/introduction_to_cloud_computing-old/tree/master/docs/source/python
 * http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/linux/python.html?highlight=python
 
-Hello World!
+For a comprehensive overview on python: python.rst
+
+For an indepth treatment of python, see http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
+
+
 
 Links Report
 -------------
