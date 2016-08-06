@@ -3,17 +3,6 @@ Introduction to Python
 
 .. todo:: Jerome. Link TBD. We will use RST not ppt
 
-Introduction to programming..
-
-Below is a comprehensive overview of python. For absolute beginners, consult: http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
-
-* Introduction
-
-* Conditionals
-
-* Iteration
-
-
 
 -------------------------------------------
 Modules
