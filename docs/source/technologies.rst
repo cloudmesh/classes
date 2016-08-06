@@ -26,4 +26,3 @@ Introduction to Python
 ======================
 This lesson will help introduce you to programming in Python
 
-Pre 
