@@ -7,7 +7,10 @@ Links Python
 * https://github.com/cloudmesh/introduction_to_cloud_computing-old/tree/master/docs/source/python
 * http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/linux/python.html?highlight=python
 
-For a comprehensive overview on python: python.rst
+
+Python is a high-level, interpreted, interactive and object-oriented scripting language. 
+
+For a comprehensive overview on python: source/python.rst
 
 For an indepth treatment of python, see http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
 
