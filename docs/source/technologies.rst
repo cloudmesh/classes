@@ -5,9 +5,23 @@ Introduction to Python
 
 Introduction to programming..
 
+Below is a comprehensive overview of python. For absolute beginners, consult: http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
+
+* Introduction
+
+* Conditionals
+
+* Iteration
+
+
+
 -------------------------------------------
 Modules
 -------------------------------------------
+* http://www.numpy.org/
+* https://www.scipy.org/
+* http://matplotlib.org/
+
 
 Installing Python
 =================
