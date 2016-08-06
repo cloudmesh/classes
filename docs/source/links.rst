@@ -8,7 +8,6 @@ Links Python
 * http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/linux/python.html?highlight=python
 
 Introduction to Python
-Python is a ... . For a comprehensive overview of python python.rst 
 
 Links Report
 -------------
