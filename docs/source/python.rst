@@ -126,7 +126,36 @@ Functions
 ----------------------------------------------------------------------
 
 
-----------------------------------------------------------------------
+To repeat lines of code, you can use a function. A function has a unique distinct name in the program. Once you call a function it will execute one or more lines of codes, which we will call a code block.
+
+.. code:: python
+    import math
+
+    def computePower(a):
+        value = math.pow(a,2)
+        print(value)
+
+computePower(3)
+
+
+We call the function with parameter a=3 .  A function can be called several times with varying parameters. There is no limit to the number of function calls.
+
+The def keyword tells Python we define a function.  Always use four spaces to indent the code block, using another number of spaces will throw a syntax error.
+
+It is also possible to store the output of a function in a variable.  To do so, we use the keyword return.
+
+.. code:: python
+import math
+
+def computePower(a):
+    value = math.pow(a,2)
+    return value
+
+
+result = computePower(3)
+print(result)
+
+
 Strings
 ----------------------------------------------------------------------
 
