@@ -55,15 +55,71 @@ The first output of the program above is simply the raw value of the variables. 
 ----------------------------------------------------------------------
 Control Statements
 ----------------------------------------------------------------------
+Computer programs do not only execute instructions. Occasionally, a choice needs to be made. Such as a choice is based on a condition. Python has several conditional operators:
 
 
+.. code:: python
 
+    >   greater than
+    <   smaller than
+    ==  equals
+    !=  is not
+
+Conditions are always combined with variables. A program can make a choice using the if keyword. For example:
+
+.. code:: python
+    x = int(input("Tell X"))
+
+    if x == 4:
+        print('You guessed correctly!')
+
+    print('End of program.')
+
+
+When you execute this program it will always print ‘End of program’, but the text ‘You guessed correctly!’ will only be printed if the variable x equals to four (see table above). Python can also execute a block of code if x does not equal to 4. The else keyword is used for that.
+
+
+.. code:: python
+x = int(input("Tell X"))
+
+    if x == 4:
+        print('You guessed correctly!')
+    else:
+        print('Wrong guess')
+
+    print('End of program.')
 
 ----------------------------------------------------------------------
 Iterations
 ----------------------------------------------------------------------
 
+To repeat code, the for keyword can be used. To execute a line of code 10 times we can do:
 
+.. code:: python
+
+    for i in range(1,11):
+        print(i)
+
+The last number (11) is not included. This will output the numbers 1 to 10. Python itself starts counting from 0, so this code will also work:
+
+.. code:: python
+    
+    for i in range(0,10):
+        print(i)
+
+but will output 0 to 9.
+
+
+The code is repeated while the condition is True. In this case the condition is: i < 10. Every iteration (round), the variable i is updated.Nested loops
+Loops can be combined:
+
+.. code:: python
+    
+    for i in range(0,10):
+        for j in range(0,10):
+            print(i,' ',j)
+
+In this case we have a multidimensional loops. It will iterate over the entire coordinate range (0,0) to (9,9)
 ----------------------------------------------------------------------
 Functions
 ----------------------------------------------------------------------
