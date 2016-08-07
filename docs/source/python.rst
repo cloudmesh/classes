@@ -120,6 +120,7 @@ Loops can be combined:
             print(i,' ',j)
 
 In this case we have a multidimensional loops. It will iterate over the entire coordinate range (0,0) to (9,9)
+
 ----------------------------------------------------------------------
 Functions
 ----------------------------------------------------------------------
