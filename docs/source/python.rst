@@ -68,11 +68,10 @@ Computer programs do not only execute instructions. Occasionally, a choice needs
 Conditions are always combined with variables. A program can make a choice using the if keyword. For example:
 
 .. code:: python
+    
     x = int(input("Tell X"))
-
     if x == 4:
         print('You guessed correctly!')
-
     print('End of program.')
 
 
