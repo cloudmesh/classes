@@ -79,7 +79,8 @@ When you execute this program it will always print ‘End of program’, but the
 
 
 .. code:: python
-x = int(input("Tell X"))
+
+    x = int(input("Tell X"))
 
     if x == 4:
         print('You guessed correctly!')
