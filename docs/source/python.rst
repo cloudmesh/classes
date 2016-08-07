@@ -152,8 +152,8 @@ It is also possible to store the output of a function in a variable.  To do so, 
         value = math.pow(a,2)
         return value
 
-result = computePower(3)
-print(result)
+    result = computePower(3)
+    print(result)
 
 
 Strings
