@@ -6,11 +6,12 @@ Introduction
 Variables, Expressions, and Statements
 ----------------------------------------------------------------------
 Variables in Python can hold text and numbers. For example:
- .. code:: python
 
-x = 2
-price = 2.5
-word = 'Hello'
+.. code:: python
+
+    x = 2
+    price = 2.5
+    word = 'Hello'
 
 
 
