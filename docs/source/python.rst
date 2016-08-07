@@ -145,12 +145,12 @@ The def keyword tells Python we define a function.  Always use four spaces to in
 It is also possible to store the output of a function in a variable.  To do so, we use the keyword return.
 
 .. code:: python
-import math
 
-def computePower(a):
-    value = math.pow(a,2)
-    return value
+    import math
 
+    def computePower(a):
+        value = math.pow(a,2)
+        return value
 
 result = computePower(3)
 print(result)
