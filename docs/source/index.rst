@@ -11,6 +11,13 @@ Big Data Applications and Analytics
    overview
 
 .. toctree::
+   :caption: Assignments
+   :maxdepth: 2
+
+   assignments
+   programming
+   
+.. toctree::
    :caption: Technologies
    :maxdepth: 2
 
