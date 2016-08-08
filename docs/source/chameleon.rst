@@ -1,8 +1,8 @@
 .. _ref-chalemelon:
 
 .. comment::
-  
-  This page is a copy of 
+
+  This page is a copy of
   https://github.com/futuresystems/class-admin-tools/blob/master/chameleon/big-data-stack.org
   prepared by Badi
 
@@ -79,4 +79,3 @@ Notes
   issue.  Nonetheless, the workaround is simple: rerun the playbook that
   failed.  This may need to be repeated a few times, but this has been
   sufficient to resolve the issue when I encounter them.
-
