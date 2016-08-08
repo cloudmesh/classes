@@ -151,10 +151,10 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 08/22/2016 | 1     |         W1 | | S1 Introduction                  |
 |            |       |            | | S2 Overview                      |
-|            |       |            | | D1, P1                               |
+|            |       |            | | D1, P1                           |
 +------------+-------+------------+------------------------------------+
 | 08/29/2016 | 2     |         W2 | | S3 Health Info                   |
-|            |       |            | | D2, D3, P1	       	       |
+|            |       |            | | D2, D3, P2	       	       |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
@@ -332,24 +332,29 @@ License:
 Term Paper
 -----------
 
-.. comment:: direct link to discussion on term paper
-
-`Discussion on Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
-
-.. todo: Hyungro. Can you doublecheck the page numbers
-
-In case you chose the term paper, you or your team will pick a topic
-relevant for the class. You wil write a high quality scholarly paper
-about this topic. The following artifacts are part of the deliverables
-for a term paper
-
 Project Report:
+    A report must be produced while using the format discussed
+    in the Report Format section. The following length is required:
+
+    3-4 pages, one student+ in the project​
+
+Term Report:
     A report must be produced while using the format discussed in the
     Report Format section. The following length is required:
 
-    * ? pages, one student in the project
-    * ? pages, one student in the project
-    * ? pages, one student in the project
+
+    Link to discussion on term paper: `Discussion on Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
+
+    In case you chose the term paper, you or your team will pick a topic
+    relevant for the class. You wil write a high quality scholarly paper
+    about this topic. The following artifacts are part of the deliverables
+    for a term paper. A report must be produced while using the format discussed in the
+    Report Format section. The following length is required:
+
+    * 6 pages, one student in the project
+    * 9 pages, two student in the project
+    * 12 pages, three student in the projet
+
 
 Work Breackdown:
     This document is only needed for team projects. A one page PDF

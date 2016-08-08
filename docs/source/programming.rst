@@ -1,4 +1,4 @@
-Homework HW4 and Sample Software
+Programming Assignments
 ======================================================================
 
 HOMEWORK H4: GET YOUR SOFTWARE SET UP FOR LATER
@@ -53,7 +53,7 @@ Terabyte Sort procedure. The components are:
 • TeraSort: analyze the data using MapReduce
 • TeraValidate: validation of the output
   
-2.1 Invocation
+Invocation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The teragen command accepts two parameters:
@@ -62,6 +62,7 @@ The teragen command accepts two parameters:
 * the output directory
 
 ::
+
    hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar
    teragen $COUNT /user/$USER/tera-gen
    hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar
@@ -69,7 +70,7 @@ The teragen command accepts two parameters:
    hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar
    teravalidate /user/$USER/tera-sort /user/$USER/tera-validate
 
-2.2 Exercise
+Exercise
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Run the Terabyte Sort procedure for various sizes of data:
@@ -98,7 +99,7 @@ Software
 • Use R to analyze a particular dataset (business or sports)
 
 
-8 Chapter 3. Previous Projects
+Chapter 3. Previous Projects
 ----------------------------------------------------------------------
 
 In this homework, you are expected to run Python or Java programs on
@@ -132,9 +133,9 @@ Download: FirstProgram.java
 
 This example prints out the message on your screen by println method
 in the System class. In Java Programming, you need to complie your
-code to execute. Compiling and Execution
+code to execute. Compiling and Execution::
 
-javac FirstProgram.java
+  javac FirstProgram.java
 
 Now, you will have FirstProgram.class file on your system. Java
 Compiler (javac) creates Java bytecode with a .class extension. We
@@ -145,12 +146,12 @@ will execute the class file with java command::
 My first program on Big Data Applications and Analytics!
 
 
-4.1.2 Python
+Python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let’s write a same program in Python.
 
-Create the following program: FirstProgram.py:
+Create the following program: FirstProgram.py::
 
   # Run python FirstProgram.py
   print ’My first program on Big Data Applications and Analytics!’
@@ -162,7 +163,7 @@ with python command.::
 
   python FirstProgram.py
 
-  My first program on Big Data Applications and Analytics!
+My first program on Big Data Applications and Analytics!
 
 
 First Program with system information
@@ -172,7 +173,7 @@ Java
 ~~~~~~~~~~~
 We now understand how to print out a message using Python or Java. System information such as time, date, user
 name or hostname (machine name) can be displayed as well with built-in functions in each language.
-Download: FirstProgramWithSystemInfo.java
+Download: FirstProgramWithSystemInfo.java::
 
     import java.util.Date;
     import java.text.DateFormat;
@@ -241,19 +242,31 @@ Download FirstProgramWithSystemInfo.py::
 Submission of HW4
 ----------------------
 
-[Java]
+Java
 ------
-• FirstProgram.class or a screenshot image of the ‘FirstProgram’ execution (25%)
-• FirstProgramWithSystemInfo.class or a screenshot image of the ‘FirstProgramWithSystemInfo’ execution
-(25%)
 
-[Python]
+• FirstProgram.class or a screenshot image of the ‘FirstProgram’
+  execution (25%)
+• FirstProgramWithSystemInfo.class or a screenshot image of the
+  ‘FirstProgramWithSystemInfo’ execution (25%)
+
+Python
 --------
-• FirstProgram.pyc or a screenshot image of the ‘FirstProgram’ execution (25%)
-– run python -m compileall FirstProgram.py to generate FirstProgram.pyc
-• FirstProgramWithSystemInfo.pyc or a screenshot image of the ‘FirstProgramWithSystemInfo’ execution (25%)
-– run python -m compileall FirstProgramWithSystemInfo.py to generate
-FirstProgramWithSystemInfo.pyc
+
+• FirstProgram.pyc or a screenshot image of the ‘FirstProgram’
+  execution (25%). Run::
+
+     python -m compileall FirstProgram.py
+
+  to generate FirstProgram.pyc
+
+• FirstProgramWithSystemInfo.pyc or a screenshot image of the
+  ‘FirstProgramWithSystemInfo’ execution (25%). Run
+
+  – run python -m compileall FirstProgramWithSystemInfo.py
+
+  to generate FirstProgramWithSystemInfo.pyc
+
 • Submit these files or image files to IU Canvas
 
 4.3. Submission of HW4 11
@@ -265,11 +278,18 @@ Challenge tasks
 ----------------------------------------------------------------------
 
 • Run any Java or Python on a FutureSystems OpenStack instance
-– Submit screenshot images of your terminal executing Java or Python code on FutureSystems
+  
+  * Submit screenshot images of your terminal executing Java or Python code on FutureSystems
+
 • Run NumPyTutorial Python on IPython Notebook
-– Submit screentshot images of your web browser executing NumPyTutorial on FutureSystems
+
+  * Submit screentshot images of your web browser executing NumPyTutorial on FutureSystems
+
 • Tips: See tutorials for Big Data Applications and Analytics Shell on FutureSystems
-4.5 Preview Course Examples
+
+Preview Course Examples
+----------------------------------------------------------------------
+
 • The Elusive Mr.Higgs [Java][Python]
 • Number Theory [Python]
 • Calculated Dice Roll [Java][Python]

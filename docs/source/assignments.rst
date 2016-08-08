@@ -148,7 +148,7 @@ Openstack:
 	* Optionally, you can use cloudmesh_client for this (If you
           use cloudmesh client you will get bonus points). 
 
-Python H:
+Homework Programming:
 	You can find sample software and paper projects in Chapters
 	two and three (page 7):
 	http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
@@ -210,38 +210,41 @@ Homework Programming:
  
 Discussion D6:
 	   Post on Discussion D6 after Section 7, the “Physics” topic:
-	   What you found interesting, remarkable or shocking about
-	   the search for Higgs Bosons. Was it worth all that money?
-	   Please also comment on at least 2 other posts. Note 15590
-	   and 36624 share a discussion for residential students.
-	   Please PREFACE YOUR POSTS with your login.
-
-Due date October 20
-
+	   
+	   * What you found interesting, remarkable or shocking about
+	     the search for Higgs Bosons.
+	   * Was it worth all that money?
+	   * Please also comment on at least 2 other posts.
 
 Video V7: 
       Video Review/Study Section 8 "Technology Training - Plotviz"
       Unit - 15
  
 Discussion D7:
-	   Post on Discussion D7 on the topic : Which is the most
-	   interesting/important of the 51 use cases in section 7.
-	   Why? Also what is most interesting/important use case not
-	   in group of 51? Please write one post and comment on
-	   atleast 2 other posts in the discussionn. This will count
-	   for your participation grades.
+	   Post on Discussion D7 on the topic:
+
+	   * Which is the most interesting/important of the 51 use cases in section 7.
+	   * Why?
+	   * What is most interesting/important use case not
+	     in group of 51?
+	   * Please write one post and comment on atleast 2 other
+	     posts in the discussionn.
 
 Week 6
 ------
 
 There will be a term paper at end of course which is final project
 worth 40% grade This can be individual or in a team of up to 3
-students You can choose between a "serious paper" scientifically
+students. You can choose between a "serious term paper" scientifically
 examining technologies and application (see below for rules) OR
 develop a simple software system with OpenStack available on
-FutureSystems to support it. Only choose software option if you are
-prepared. See
+FutureSystems to support it. Only choose the software option if you are
+prepared to take on programming tasks. See
+
 http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/FinalProjectGuidelines-bdaafall2015.pdf
+
+.. todo:: convert to RST
+
 (Links to an external site.) for discussion of software projects
  
 Homework is to make a plan for your term paper and write a one page
