@@ -80,7 +80,7 @@ When you execute this program it will always print ‘End of program’, but the
 
 .. code:: python
 
-    x = int(input("Tell X"))
+    x = int(input("What is the value of  X"))
 
     if x == 4:
         print('You guessed correctly!')
@@ -138,7 +138,7 @@ To repeat lines of code, you can use a function. A function has a unique distinc
 computePower(3)
 
 
-We call the function with parameter a=3 .  A function can be called several times with varying parameters. There is no limit to the number of function calls.
+We call the function with parameter a = 3 .  A function can be called several times with varying parameters. There is no limit to the number of function calls.
 
 The def keyword tells Python we define a function.  Always use four spaces to indent the code block, using another number of spaces will throw a syntax error.
 
@@ -162,26 +162,24 @@ Strings
 
 Modules
 ----------------------------------------------------------------------
-
+Modules are are a great way to import 
 
 ----------------------------------------------------------------------
 Numpy
 ----------------------------------------------------------------------
 
 
+* http://www.numpy.org/
 
 ----------------------------------------------------------------------
 Scipy
 ----------------------------------------------------------------------
 
 
+* https://www.scipy.org/
 ----------------------------------------------------------------------
 MatplotLib
 ----------------------------------------------------------------------
 
-
-
-* http://www.numpy.org/
-* https://www.scipy.org/
 * http://matplotlib.org/
 
