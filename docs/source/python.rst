@@ -9,19 +9,19 @@ Variables in Python can hold text and numbers. For example:
 
 .. code:: python
 
-    x = 2
-    price = 2.5
-    word = 'Hello'
+    x = 7
+    price = 7.5
+    word = 'Hello World'
 
-The variable names are on the left and the values on the right. Once a variable is assigned, it can be used in other places of the program.
+Variable names on the left and the values are on the right. Once a variable is assigned, it can be used in other places of the program.
 In the example above, we have three variables: x, price and word. Variables may not contain spaces or special characters. 
 Text variables may be defined in 3 ways:
 
 .. code:: python
     
-    word = 'Hello'
-    word = "Hello"
-    word = '''Hello'''
+    word = 'Hello World'
+    word = "Hello World"
+    word = '''Hello World'''
 
 
 The type depends on what you prefer.  Once defined variables can be replaced or modified:
@@ -160,9 +160,27 @@ Strings
 ----------------------------------------------------------------------
 
 
-
 Modules
 ----------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+Numpy
+----------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------
+Scipy
+----------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+MatplotLib
+----------------------------------------------------------------------
+
+
+
 * http://www.numpy.org/
 * https://www.scipy.org/
 * http://matplotlib.org/
