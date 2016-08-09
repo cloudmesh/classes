@@ -3,7 +3,7 @@ Assignments
 
 If not otherwise stated homework in all sections and classes is
 the same. All lectures are assigned Monday's. Homework are due Friday.
-Therefore we have not posted expicict due dates, as they are obvious
+Therefore we have not posted explicit due dates, as they are obvious
 from the calendar.
 
 You are welcome to work ahead, but check back in case the homework has
@@ -23,7 +23,7 @@ Video V2:
     have overlap with Unit 2 of Section 1.
 
 Discussion D1:
-    Cosider Discussion D1 after Section 1. Please post on topic "Why
+    Consider Discussion D1 after Section 1. Please post on topic "Why
     is Big Data interesting to`me" and also comment on at least 2
     other posts. 
 
@@ -34,9 +34,9 @@ Paper P1:
       
       - What is Big Data?
       - Why is Big Data interesting to me? (Summarize and/or contrast
-        positngs in the dicsussion list)
+        positions in the discussion list)
       - Why is Big Data uninteresting to me? (Summarize and/or
-        contrast positngs in the dicsussion list)
+        contrast positions in the discussion list)
       - What limitations does Big Data Analytics have?
       
 Week 2
@@ -86,10 +86,10 @@ Paper P3:
 	 * How is Big Data and Little Data applied to the Olympics2016?
 
 Term Paper and Project Report Assignment:
-     Please review the disscussion in the Course overview about term
+     Please review the discussion in the course overview about term papers
      and projects
      
-     * Review the Guidlines for the project and term paper.
+     * Review the guidelines for the project and term paper.
      * Identify if you are likely to do a project or a term paper
      * Build teams, chose your team members wisely. For example if you
        have 3 people in the team and only two do the work, you still get
@@ -108,13 +108,13 @@ Task:
 	Get your software set up for later lectures and final project. 
  
 	First some background: You will need modest software for some
-	of lectures and homeworks. This can be most easily done in
+	of lectures and homework. This can be most easily done in
 	Python (Java is also possible, but no other languages are
 	allowed). Software such as R or D3.js are accepted in the
 	final project
 
 Python:
-	Learn Python and do a simple Python application demonstarting:
+	Learn Python and do a simple Python application demonstrating:
 	
 	* a linechart
 	* a barchart
@@ -127,7 +127,7 @@ Python:
 	Review of Scipy
 
 	* look at the scipy manual and be aware what you can do with
-	it in case you choese a Project
+	it in case you chose a Project
 
 
 
@@ -142,9 +142,9 @@ ChameleonCloud:
 	* Obtain an account on https://www.chameleoncloud.org. Fill
 	  out the Poll TBD
 
-Openstack:
+OpenStack:
 	* Inform yourself about OpenStack and how to start and stop
-	  virtual machines via the commandline.
+	  virtual machines via the command line.
 	* Optionally, you can use cloudmesh_client for this (If you
           use cloudmesh client you will get bonus points). 
 
@@ -169,7 +169,7 @@ Homework Programming:
 	   vi/vim which are available for all operating systems. When
 	   using python we assume you use pip. Please read up on it.
 	
- 	.. note:: The follwoing will be changed.
+ 	.. note:: The following will be changed.
 		  Submit results to show your software is set up and running.
 		  Solve task following instructions in chapters one and four of
 		  http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
@@ -227,8 +227,8 @@ Discussion D7:
 	   * Why?
 	   * What is most interesting/important use case not
 	     in group of 51?
-	   * Please write one post and comment on atleast 2 other
-	     posts in the discussionn.
+	   * Please write one post and comment on at least 2 other
+	     posts in the discussions.
 
 Week 6
 ------
