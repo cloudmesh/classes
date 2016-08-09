@@ -158,7 +158,7 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
-| 09/05/2016 | 3     |         W3 | | Project and Paper Discussion     |
+| 09/05/2016 | 3     |         W3 | | T1 Project and Paper Preparation |
 |            |       |            | | S4 Sport	       	               |
 |            |       |            | | D4	       	               |
 +------------+-------+------------+------------------------------------+
@@ -171,7 +171,7 @@ All sessions refer to Sections, Discussions and Units published at the
 | 09/26/2016 | 6     |         W6 | | S7 Use Cases        	       |
 |            |       |            | | D7	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/03/2016 | 7     |         W7 | | S8 Technology Viz	       	       |
+| 10/03/2016 | 7     |         W7 | | S8 ???             	       |
 |            |       |            | | D8	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/07/2016 | 7     | No Lectures| | No Lectures                      |

@@ -85,9 +85,8 @@ Paper P3:
 	 * Which offer most opportunity on what sports?
 	 * How is Big Data and Little Data applied to the Olympics2016?
 
-Term Paper and Project Report Assignment:
-     Please review the discussion in the course overview about term papers
-     and projects
+Term Paper and Term Project Report Assignment T1:
+     Please prepare for the selection process for a project or a term paper:
      
      * Review the guidelines for the project and term paper.
      * Identify if you are likely to do a project or a term paper
@@ -107,29 +106,23 @@ Video V5:
 Task:
 	Get your software set up for later lectures and final project. 
  
-	First some background: You will need modest software for some
-	of lectures and homework. This can be most easily done in
-	Python (Java is also possible, but no other languages are
-	allowed). Software such as R or D3.js are accepted in the
-	final project
+	You will need modest software for some of lectures and
+	homework. This can be most easily done in Python (Java is also
+	possible, but no other languages are allowed). Software such
+	as R or D3.js are accepted in the final project.
 
 Python:
-	Learn Python and do a simple Python application demonstrating:
-	
-	* a linechart
-	* a barchart
+	* Install Python on your computer, use virtualenv
+	* Learn Python
+	* Learn Python pandas and do a simple Python application demonstrating:
 
-	Learn pandas and demonstrate how to create 
+		* a linechart
+		* a barchart
 
-	* a linechart
-	* a barchart
+	Review of Scipy:
 
-	Review of Scipy
-
-	* look at the scipy manual and be aware what you can do with
-	it in case you chose a Project
-
-
+		* look at the scipy manual and be aware what you can do with
+		  it in case you chose a Project
 
 Futuresystems:
 	* Obtain an account on Futuresystems.org and join project
@@ -140,7 +133,11 @@ Futuresystems:
 	
 ChameleonCloud:
 	* Obtain an account on https://www.chameleoncloud.org. Fill
-	  out the Poll TBD
+	  out the Poll TBD (This assignment is optional, but we have
+	  made good experience with Chameleon cloud, so we advise you
+	  to get an account. As you are a student you will not be able
+	  to create a project. We will announce the project in due
+	  time that you can join and use chameleon cloud). 
 
 OpenStack:
 	* Inform yourself about OpenStack and how to start and stop
@@ -148,36 +145,38 @@ OpenStack:
 	* Optionally, you can use cloudmesh_client for this (If you
           use cloudmesh client you will get bonus points). 
 
-Homework Programming:
-	You can find sample software and paper projects in Chapters
-	two and three (page 7):
-	http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
-	(Links to an external site.)
+.. todo:: This section has to be redone
 
-	.. note: Prashanth: The content of this file will move to sphinx
- 
-	Java and Python are installed on our cloud as explained in
-	Unit 11. Here you chose between Python on your laptop, Python
-	in cloud or Java in cloud.
-
-	DO - Python on your laptop:
-	   If you elect to use python on your laptop, be careful with
-	   your setup. Please read up on **virtualenv** and use that
-	   instead of youst overwriting the python environment from
-	   your computer. Please use an IDE if you like such as
-	   PyCharm. However you can also use editors such as emacs and
-	   vi/vim which are available for all operating systems. When
-	   using python we assume you use pip. Please read up on it.
-	
- 	.. note:: The following will be changed.
-		  Submit results to show your software is set up and running.
-		  Solve task following instructions in chapters one and four of
+	  Homework Programming:
+		  You can find sample software and paper projects in Chapters
+		  two and three (page 7):
 		  http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
-		  (Links to an external site.) or go to
-		  http://bdaafall2015.readthedocs.org/en/latest/hw4.html- or go
-		  to http://bdaafall2015.readthedocs.org/en/latest/hw4.html
-		  .Submit your Java and Python program results to IU Canvas
- 
+		  (Links to an external site.)
+
+		  .. note: Prashanth: The content of this file will move to sphinx
+
+		  Java and Python are installed on our cloud as explained in
+		  Unit 11. Here you chose between Python on your laptop, Python
+		  in cloud or Java in cloud.
+
+		  DO - Python on your laptop:
+		     If you elect to use python on your laptop, be careful with
+		     your setup. Please read up on **virtualenv** and use that
+		     instead of youst overwriting the python environment from
+		     your computer. Please use an IDE if you like such as
+		     PyCharm. However you can also use editors such as emacs and
+		     vi/vim which are available for all operating systems. When
+		     using python we assume you use pip. Please read up on it.
+
+		  .. note:: The following will be changed.
+			    Submit results to show your software is set up and running.
+			    Solve task following instructions in chapters one and four of
+			    http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
+			    (Links to an external site.) or go to
+			    http://bdaafall2015.readthedocs.org/en/latest/hw4.html- or go
+			    to http://bdaafall2015.readthedocs.org/en/latest/hw4.html
+			    .Submit your Java and Python program results to IU Canvas
+
 Discussion D5:
 	   Create a NEW post to discuss final project you want to do
 	   and look for team members on Slack for Software Projects if
@@ -216,9 +215,6 @@ Discussion D6:
 	   * Was it worth all that money?
 	   * Please also comment on at least 2 other posts.
 
-Video V7: 
-      Video Review/Study Section 8 "Technology Training - Plotviz"
-      Unit - 15
  
 Discussion D7:
 	   Post on Discussion D7 on the topic:
@@ -354,4 +350,19 @@ Discussion D11
 
 Due December 11
 
+Possible Term Paper Topics
+---------------------------
 
+* Big Data and Agriculture
+* Big Data and Transportation
+* Big Data and Home Automation
+* Big Data and Internet of Things
+* Big Data and Olympics
+* Big Data and Environment
+* Big Data and Astrophysics 
+* Big Data and Deep Learning
+* Big Data and Biology
+* Survey of Big Data Applications (Difficult as lots of work, tHis is
+  a 3 person project only and at least 15 pages are required, where
+  additional three pages are given for references.)
+* Big Data and "Suggest your own"

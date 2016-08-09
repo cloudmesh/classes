@@ -7,8 +7,15 @@ Python Programming
       :local:
 
 
-Overview
+Instalation
 ----------------------------------------------------------------------
+
+We assume that you have a computer with python installed. We will be
+using Python 2.7.10 but not Python 3
+
+Instalation instructions are provided at the python.org web
+pages. However, we recommend that you use pythons virtualenv to
+isolate your development python from the system installed python.
 
 This lesson will introduce you to programming in Python.
 
@@ -19,17 +26,22 @@ Prerequisite
 
 In order to conduct this lesson you should
 
-* Log onto your FutureSystems account
-* Completed the :doc:`shell` lesson
-* Completed the :doc:`editors` lesson
-
+* A computer with python 2.7.x where x <= 10
+* Knowledge about commandlines
+* Having knowledga about an editor such as PyCharm, emacs, vi or
+  others. It will be up to you to identify and set up a working
+  environment.
+* We do not recommend anaconda, or canopy as we ran into issues once
+  you do some more advanced python. INstead we recommend you use pip
+  and virtualenv. If you are unfamiliar with these tools, please
+  consult the manual and tutorials available for it n the internet.
 
 Learning Goals
 ----------------------------------------------------------------------
 
 At the end of this lesson you will be able to:
 
-- use Python in your FutureSystems account
+- use Python 
 - use the interactive Python interface
 - understand the basic syntax of Python
 - write and run Python programs stored in a file
@@ -492,8 +504,17 @@ In addition to access to charts via matplotlib it has elementary
 functionality for conduction data analysis. Pandas may be very
 suitable for your projects.
 
+Tutorial: http://pandas.pydata.org/pandas-docs/stable/10min.html
+
 
 Numpy
 ----------------------------------------------------------------------
 
 * http://www.numpy.org/
+
+According to the Numpy Web page "NumPy is a package for scientific
+computing with Python. It contains a powerful N-dimensional array
+object, sophisticated (broadcasting) functions, tools for integrating
+C/C++ and Fortran code, useful linear algebra, Fourier transform, and
+random number capabilities
+
