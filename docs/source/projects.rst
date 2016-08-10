@@ -38,61 +38,117 @@ Supported Projects
 projects, such as NIST Fingerprint, may be accomplished by running a subset of 1
 or more of the software packages.
 
+NIST Fingerprint
+----------------------------------------------------------------------
 
-+--------------------+--------------------+---------------------+--------------------------------+
-|  Title             |     Data Set       |     Software        |          Category              |
-+--------------------+--------------------+---------------------+--------------------------------+
-| NIST Fingerprint   |NIST Special        |NIST Biometric Image |    Batch Data Analytics        |
-| A subset of:       |Database 27A [4GB]  |Software (NBIS) v5.0 |                                |
-|  * NFIQ            |http://www.nist.gov/|[userguide]          |                                |
-|  * PCASYS          |itl/iad/ig/sd27a.cfm|http://www.nist.gov/ |                                |
-|  * MINDTCT         |                    |customcf/get_pdf.cfm |                                |
-|  * BOZORTH3        |                    |?pub_id=51097        |                                |
-|  * NFSEG           |                    |                     |                                |
-|  * SIVV            |                    |                     |                                |
+Title:  NIST Fingerprint   
 
+ A subset of:       
+  * NFIQ            
+  * PCASYS          
+  * MINDTCT         
+  * BOZORTH3        
+  * NFSEG           
+  * SIVV 
 
-+--------------------+--------------------+---------------------+--------------------------------+
-| HadoopBenchmark -  |  Teragen           |hadoop-examples.jar  |    Batch Data Analytics        |
-| TeraSort Suite     |                    |                     |                                |
+Data Set:
+  * NIST Special        
+  * Database 27A [4GB]  
+  * http://www.nist.gov/itl/iad/ig/sd27a.cfm
+                    
+                                    
+Software:
+  * http://www.nist.gov/customcf/get_pdf.cfm?pub_id=51097
 
-
-+--------------------+--------------------+---------------------+--------------------------------+
-| HadoopBenchmark -  |                    |hadoop-mapreduce-job |    Batch Data Analytics        |
-| DFSIO              |                    |client               |                                |
-| (HDFS Performance) |                    |                     |                                |
-
-
-+--------------------+--------------------+---------------------+--------------------------------+
-| HadoopBenchmark -  |                    |hadoop-mapreduce-job |    Batch Data Analytics        |
-| NNBench            |                    |client               |                                |
-| NameNodePerformance|                    |                     |                                |
+Category:
+    Batch Data Analytics       
 
 
-+--------------------+--------------------+---------------------+--------------------------------+
-| HadoopBenchmark -  |                    |src/test/org/apache/ |    Batch Data Analytics        |
-| NNBench            |                    |hadoop/mapred/MRBench|                                |
-| NameNodePerformance|                    |.java                |                                |
+HadoopBenchmark - TeraSort Suite
+---------------------------------
+Title:
+    HadoopBenchmark - TeraSort Suite
+
+Data Set:
+    Teragen
+
+Software:
+    hadoop-examples.jar
+
+Category:
+    Batch Data Analytics        |
 
 
-+--------------------+--------------------+---------------------+--------------------------------+
-| Stock Data Analysis| CRSP -             | Stock Analysis -    |    Streaming Data Analytics    |
-| with MPI           | https://wrds-web.  | https://github.com/ |                                |
-|                    | wharton.upenn.edu/ | iotcloud/           |                                |
-|                    | wrds/              | stock-analysis      |                                |
-|                    | Ex : Tradingsymbol |                     |                                |
-|                    | Price,# of Shares  |                     |                                |
-|                    | Outstanding Factor |                     |                                |
-|                    | to adjust Price,   |                     |                                |
-|                    | Share              |                     |                                |
-+--------------------+--------------------+---------------------+--------------------------------+
+Hadoopbenchmark DFS10 (HDF Performance)
+----------------------------------------------------------------------
+
+Title:
+    Hadoopbenchmark DFS10 (HDF Performance)
+
+Data Set:
+    N/A
+
+Software:
+    hadoop-mapreduce-job client
+
+Category:
+    Batch Data Analytics      
+
+
+HadoopBenchmark - NNBench NameNodeperformance
+----------------------------------------------------------------------
+Title: HadoopBenchmark - NNBench NameNodeperformance
+
+
+Data Set:
+    N/A
+
+Software:
+    hadoop-mapreduce-job client
+
+Category:
+    Batch Data Analytics      
+
+
+
+HadoopBenchmark - NNBench NameNodeperformance
+----------------------------------------------------------------------
+Title: HadoopBenchmark - NNBench NameNodeperformance
+
+
+Data Set:
+    N/A
+
+Software:
+    src/test/org/apache/hadoop/mapred/MRBench.java
+
+Category:
+    Batch Data Analytics      
+
+    
+
+Stock Data Analysis with MPI
+----------------------------------------------------------------------
+Title:
+Stock Data Analysis with MPI
+
+
+Data Set:
+    CRSP - https://wrds-web.  wharton.upenn.edu/wrds/
+    Ex : Tradingsymbol Price,# of Outstanding Factor to adjust Price, Share              
+
+Software:
+    Stock Analysis - https://github.com/iotcloud/stock-analysis
+
+Category:
+    Streaming Data Analytics   
+
 
 
 Other Possible Projects
 ------------------------
 
 * These are projects for which there may be tentative, or no, direct support on FutureSystems resources.
-
 
 +--------------------+-----------------------+---------------------+--------------------------------+
 |  Title             |     Data Set          |     Software        |          Category              |
