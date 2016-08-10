@@ -1,21 +1,6 @@
+Sample Project suggestions
+===========================
 
-Final Project Guidelines
-------------------------
-
-This page describes the final project guidelines for Big Data Applications and
-Analytics Fall 2015.
-
-Submission Due Date
-------------------------
-
-December 11th, 2015 23:59 PM EST
-
-Grading Weightage
-------------------------
-40%
-
-Project Style
-------------------------
 * Non-Software (written paper)
 * Software with any tools (No restriction on Python or Java)
 
@@ -26,17 +11,6 @@ Using FutureSystems
 * Supports for Java and Python which can be used for class software
 * Hadoop Cluster Access [Guide]
 
-Project Team Up
-------------------------
-
-* Use The discussion to find members and discuss (up to 3 person recommended)
-* Individual project is allowed
-
-Supported Projects
-------------------------
-* These are projects that will be supported on FutureSystems resources. Certain
-projects, such as NIST Fingerprint, may be accomplished by running a subset of 1
-or more of the software packages.
 
 NIST Fingerprint
 ----------------------------------------------------------------------
