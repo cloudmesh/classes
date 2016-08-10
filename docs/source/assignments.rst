@@ -585,3 +585,60 @@ Possible Term Paper Topics:
       a 3 person project only and at least 15 pages are required, where
       additional three pages are given for references.)
     * Big Data and "Suggest your own"
+
+      Project Proposal
+------------------
+
+
+Project and Term Paper Proposal Format
+-----------------------------------------------
+
+Please submit a one page ACM style 2 column paper in which you include
+the following information dependent on if you do a term paper or
+Project. The title will be preceeded with the keyworkd "PROJECT" or "REPORT"
+
+A project proposal should contain in the proposal section:
+
+* The nature of the project and its context
+* The technologies used
+* Any proprietary issues
+* Specific aims you intent to complete
+* A list of intended deliverables (artifacts produced)
+
+
+Title:
+    * REPORT: Your title
+
+    or
+
+    * Project: Your title
+
+Authors:
+
+    The Authors need to be listed in the proposal with Fullname,
+    e-mail, and gitlab username, if you use futuresystems or
+    chameleoncloud you will also need to add your futuresystems or
+    chameleoncloud name. Please put the prefix futuresystems: and/or
+    chameloncloud: in the author field accordingly.
+
+Abstract:                                                                                        
+       Include in your abstract a short summary of the report or
+       project
+
+Proposal:
+       Include a section called proposl in which you in detail
+       describe wht you will do.
+                                                                                                      
+
+Artifacts:
+       Include a section Artifacts describing what you will produce
+       and where you will store it.
+                                                                                                      
+       Examples are:
+       * A Survey Paper
+       * Code on gitlab
+       * Screenshots, ...                                       
+
+
+
+

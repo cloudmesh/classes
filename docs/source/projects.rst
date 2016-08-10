@@ -7,13 +7,18 @@ NIST Fingerprint
 
 Title:  NIST Fingerprint
 
- A subset of:
-  * NFIQ
-  * PCASYS
-  * MINDTCT
-  * BOZORTH3
-  * NFSEG
-  * SIVV
+A subset of:
+
+* NFIQ: NIST Fingerprint Image Quality (NFIQ): Tabassi, Elham, C. Wilson, and C. Watson.
+  "Nist fingerprint image quality."NIST Res. Rep. NISTIR7151 (2004)
+  [pdf] - http://biometrics.nist.gov/cs_links/standard/archived/workshops/workshop1/presentations/Tabassi-Image-Quality.pdf
+* PCASYS: Fingerprint Pattern Classification: Candela, G. T., et al. "PCASYS-A pattern-level
+  classification automation system for fingerprints." NIST technical report NISTIR 5647 (1995).
+  [pdf] - http://www.nist.gov/manuscript-publication-search.cfm?pub_id=900754
+* MINDTCT
+* BOZORTH3
+* NFSEG
+* SIVV [pdf] - http://www.nist.gov/manuscript-publication-search.cfm?pub_id=903078
 
 Data Set:
   * NIST Special
@@ -496,24 +501,40 @@ description section:
 * Specific aims you intent to complete
 * A list of intended deliverables (artifacts produced)
 
-Sample Proposal Template
---------------------------
+Sample Project abd Term Paper Proposal Template
+-----------------------------------------------
 
-Title: This is my title                                                                             
+Please submit a one page ACM style 2 column paper in which you include
+the following information dependent on if you do a term paper or
+Project. The title will be preceeded with the keyworkd "PROJECT" or "REPORT"
+
+Title:
+    * REPORT: Your title
+
+    or
+
+    * Project: Your title
+
+Authors:
+
+    The Authors need to be listed in the proposal with Fullname,
+    e-mail, and gitlab username, if you use futuresystems or
+    chameleoncloud you will also need to add your futuresystems or
+    chameleoncloud name. Please put the prefix futuresystems: and/or
+    chameloncloud: in the author field accordingly.
+
+Abstract:                                                                                        
+       Include in your abstract a short summary of the report or
+       project
+
+Proposal:
+       Include a section called proposl in which you in detail
+       describe wht you will do.
                                                                                                       
-Team: (YOU CAN HAVE UP TO 3 PEOPLE IN A TEAM, IF YOU WANT MORE, PLEASE                              
-       BE SURE TO CONTACT US)                                                                       
-                                                                                                     
-       Fullname,  e-mail,  gitlab (if available) username portalname                                
 
-
-Description:                                                                                        
-       Put here your description                                                                      
-                                                                                                      
-
-Artifacts:                                                                                          
-       Put here a list of artifacts that you will create (this can be                                 
-       filled out at a later time                                                                     
+Artifacts:
+       Include a section Artifacts describing what you will produce
+       and where you will store it.
                                                                                                       
        Examples are:
        * A Survey Paper
@@ -522,92 +543,8 @@ Artifacts:
 
 
 
-Submission
------------
-
-* Report
-  * Submit to IU Canvas (https://canvas.iu.edu)
-  * Times Roman 12 point – spacing 1.1
-  * Figures can be included
-  * Proper citations must be included
-  * Software project: 4 - 6 pages
-  * Non-software project:
-    * 9 pages - individuals
-    * 14 pages 2 person team
-    * 18 pages 3 person team
-  * Content Rules
-    * Material may be taken from other sources but that must amount to at most 25% of paper and must be cited
-    * Figures may be used
-    * Topic: should be close to what you proposed. Please contact Dr. Fox or bdaacoursehelp@googlegroups.com
-      if you change significantly topic. Also inform bdaacoursehelp@googlegroups.com if you change teaming.
-      These changes are allowed; We just need to know/review
-    * The level should be similar to a publishable paper or technical report
-
-
-
-* Source Code (if available)
-  * Submit to a team project repository at GitHub (https://github.com/futuresystems-courses)
-    * Get permission by email to bdaacoursehelp@googlegroups.com
-  * README file
-    * Required with
-      * Instruction of Installation and execution
-      * List of data source
-* Snapshot of VM Image (if necessary)
-  * Making a snapshot is available
-  [FutureSystems guide] - http://cloudmesh.github.io/introduction_to_cloud_computing/iaas/openstack.html#make-a-snapshot-of-an-instance
-  [OpenStack doc] - http://docs.openstack.org/openstack-ops/content/snapshots.html
-
-Contacts
----------
-
-* bdaacoursehelp@googlegroups.com
-
-
-
-FutureSystems Information (being updated as of 10/16/2015)
-----------------------------------------------------------
-
-* News
-  * Hadoop Cluster MR v2 is ready (10-16-2015)
-
-* Requirements
-  * Portal account
-  * ssh key registration
-* Login Node (OpenStack Kilo)
-  * 149.165.159.122
-  * e.g. ssh [portal user id]@149.165.159.122
-* Hadoop Cluster
-  * 149.165.159.122
-* Available Images
-  * NIST-NBIS
-  * Stock Analysis with MPI
-  * Drug-Drug Interactions with Twitter
-
-* UserGuide (TBD)
-  * Access to Kilo
-  * Use of Hadoop Cluster [link] - http://bdaafall2015.readthedocs.org/en/latest/HadoopClusterAccess.html
-  * Running Hadoop Benchmark
-    * TeraSort [link] - http://bdaafall2015.readthedocs.org/en/latest/SoftwareProjects.html
-    * DFSIO
-    * NNBench
-    * MRBench
-  * NIST NBIS
-  * Stock Analysis with MPI
-  * Drug-Drug Interaction with Twitter
 
 
 
 Project Information (being updated as of 10/16/2015)
 ----------------------------------------------------
-
-* NIST
-  * NFIQ: NIST Fingerprint Image Quality (NFIQ): Tabassi, Elham, C. Wilson, and C. Watson.
-    "Nist fingerprint image quality."NIST Res. Rep. NISTIR7151 (2004)
-    [pdf] - http://biometrics.nist.gov/cs_links/standard/archived/workshops/workshop1/presentations/Tabassi-Image-Quality.pdf
-  * PCASYS: Fingerprint Pattern Classification: Candela, G. T., et al. "PCASYS-A pattern-level
-    classification automation system for fingerprints." NIST technical report NISTIR 5647 (1995).
-    [pdf] - http://www.nist.gov/manuscript-publication-search.cfm?pub_id=900754
-  * MINDTCT
-  * BOZORTH3
-  * NFSEG
-  * SIVV [pdf] - http://www.nist.gov/manuscript-publication-search.cfm?pub_id=903078
