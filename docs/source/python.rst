@@ -518,3 +518,4 @@ object, sophisticated (broadcasting) functions, tools for integrating
 C/C++ and Fortran code, useful linear algebra, Fourier transform, and
 random number capabilities
 
+Tutorial: https://docs.scipy.org/doc/numpy-dev/user/quickstart.html

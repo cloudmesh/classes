@@ -1,13 +1,15 @@
+.. _assignments:
+   
 Assignments
 ======================================================================
 
-If not otherwise stated homework in all sections and classes is
-the same. All lectures are assigned Monday's. Homework are due Friday.
-Therefore we have not posted explicit due dates, as they are obvious
-from the calendar.
-
-You are welcome to work ahead, but check back in case the homework has
-been updated. 
+If not otherwise stated homework in all sections and classes is the
+same. All lectures are assigned Friday's and homework is due next week
+Friday, other than the first week of the semester where the lectures
+are assigned on Monday (22nd of August) and the first homework is due
+Friday.  Therefore we have not posted explicit due dates, as they are
+obvious from the calendar. You are welcome to work ahead, but check
+back in case the homework has been updated.
 
 As you will be doing some discussions, please PREFACE YOUR POSTS with
 your Full Name.
@@ -28,7 +30,7 @@ Discussion D1:
     other posts. 
 
 Paper P1:
-      This requires to write a paper that is from one to two pages in
+      This requires to write a paper that is 2 pages in
       length. Please use the 2 column ACM proceedings Format. Write a
       paper discussing the following topics:
       
@@ -46,20 +48,21 @@ Video V3:
       Please watch Section 3 Unit 6. Total Length 2.5 hours 
 
 Discussion D3:
-	   Consider Discussion D3 after Section 3 Please post on topic
-	   "Where are the Big Data Jobs now and in future? Discuss
-	   anything you can share -- areas that are hots, good online
-	   sites etc." and also comment on at least 2 other posts.
+           Consider Discussion D3 after Section 3. Please post
+	   about the topic "Where are the Big Data Jobs now and in
+	   future? Discuss anything you can share -- areas that are
+	   hots, good online sites etc." and also comment on at least
+	   2 other posts.
 
 Paper P2:
-	  This requires to write a paper that is from one to two pages in
+	  This requires to write a paper that is two pages in
       	  length. Please use the 2 column ACM proceedings Format.
 	  Write a paper discussing the following topics:
 
 	  * What is the role of Big Data in health?
-	  * Discuss any or all
-	    areas from telemedicine, personalized (precision)
-	    medicine, personal monitors like Fitbit, privacy issues.
+	  * Discuss any or all areas from telemedicine, personalized
+	    (precision) medicine, personal monitors like Fitbit,
+	    privacy issues.
 
 Week 3
 ------
@@ -69,10 +72,13 @@ Video V4:
 
 Discussion D4:
 	   Consider Discussion D4 after Section 4 Please post on topic
-	   "Sports and Health Informatics" Which are most interesting
-	   job areas; which are likely to make most progress; which
-	   one would you work in given similar offers in both fields"
-	   and also comment on at least 2 other posts. 
+	   "Sports and Health Informatics":
+
+	   * Which are most interesting job areas;
+	   * Which are likely to make most progress
+	   * Which one would you work in given similar offers in both
+	     fields
+	   * Comment on at least 2 other posts. 
 
 Paper P3:
          This requires to write a paper that is from one to two pages in
@@ -104,32 +110,42 @@ Video V5:
 
 
 Task:
-	Get your software set up for later lectures and final project. 
- 
-	You will need modest software for some of lectures and
-	homework. This can be most easily done in Python (Java is also
-	possible, but no other languages are allowed). Software such
-	as R or D3.js are accepted in the final project.
+        Get your software set up for later lectures and final project.
+        You will be using Python. Optionally, you can also use Java
+        but we will not provide any help with Java. No other languages
+        are allowed. Software such as R or D3.js are accepted in the
+        final project.
 
 Python:
+
+        Please read up on **virtualenv** and use that instead of youst
+	overwriting the python environment from your computer. Please
+	use an IDE if you like such as PyCharm. However you can also
+	use editors such as emacs and vi/vim which are available for
+	all operating systems. When using python we assume you use
+	pip. Please read up on it.
+	     
 	* Install Python on your computer, use virtualenv
 	* Learn Python
 	* Learn Python pandas and do a simple Python application demonstrating:
 
 		* a linechart
-		* a barchart
+		* a barchart, e.g. a histogram
 
 	Review of Scipy:
 
 		* look at the scipy manual and be aware what you can do with
 		  it in case you chose a Project
 
+	Submit your programs in gitlab in a folder called *prg1*. THe
+	programs are called linechart.py, histogram.py
+	
 Futuresystems:
 	* Obtain an account on Futuresystems.org and join project
 	  FG511. Not that this will take time and you need to do this
 	  ASAP. No late assignments will be accepted. If you are late
 	  this assignment will receive 0 points.
-	  Fill out the Poll TBD 
+	  Fill out the Poll **TBD**. 
 	
 ChameleonCloud:
 	* Obtain an account on https://www.chameleoncloud.org. Fill
@@ -159,39 +175,34 @@ OpenStack:
 		  Unit 11. Here you chose between Python on your laptop, Python
 		  in cloud or Java in cloud.
 
-		  DO - Python on your laptop:
-		     If you elect to use python on your laptop, be careful with
-		     your setup. Please read up on **virtualenv** and use that
-		     instead of youst overwriting the python environment from
-		     your computer. Please use an IDE if you like such as
-		     PyCharm. However you can also use editors such as emacs and
-		     vi/vim which are available for all operating systems. When
-		     using python we assume you use pip. Please read up on it.
+DO - Python on your laptop:
+	     If you elect to use python on your laptop, be careful with
+	     your setup.
 
-		  .. note:: The following will be changed.
-			    Submit results to show your software is set up and running.
-			    Solve task following instructions in chapters one and four of
-			    http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
-			    (Links to an external site.) or go to
-			    http://bdaafall2015.readthedocs.org/en/latest/hw4.html- or go
-			    to http://bdaafall2015.readthedocs.org/en/latest/hw4.html
-			    .Submit your Java and Python program results to IU Canvas
+		       
+	     Solve task following instructions in chapters
+	     one and four of
+	     http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
+             http://bdaafall2015.readthedocs.org/en/latest/hw4.html-
+             or go to
+             http://bdaafall2015.readthedocs.org/en/latest/hw4.html
+
 
 Discussion D5:
-	   Create a NEW post to discuss final project you want to do
-	   and look for team members on Slack for Software Projects if
-	   that's what you want. Please use the #project channel
-	   https://bdaafall2015.slack.com/messages/project/ for that
-	   purpose. Once you form your team, you can also create your
-	   own public or private channel for your team in Slack.
+	   Create a NEW post to discuss your final project you want to do
+	   and look for team members (if you want to build a team).
 
-	   .. note:: the link will change we no longer use slack
+Week 5
+------
 
-Homework Programming:
+Video S6:
+      Watht the video in Section 6.
+
+PRG2:
 	 Consider the Python/Java code available on Section 6 Unit 13
  	 “Files” tab (the third one) as HiggsClassIIUniform.py or
 	 HiggsClassIIUniform.java. This software is also available on
-	 FutureSystems virtual machines.When run it should produce
+	 FutureSystems virtual machines. When run it should produce
 	 results like the file TypicalResultsHW5.docx on the same tab.
 	 This code corresponds to 42000 background events and 300
 	 Higgs. Background is uniformly distributed and Higgs is a
@@ -200,12 +211,13 @@ Homework Programming:
 	 experiments with a factor of 10 more or a factor of 10 less
 	 data. (Both Higgs and Background increase or decrease by same
 	 factor). Return the two new figures and your code as
-	 Homework. What do you conclude from figures about ability to
-	 see Higgs particle with different amount of data
-	 (corresponding to different lengths of time experiment runs)
-	 Due date October 25 Video V6: Video Review/Study Section 7
-	 Units 12-15; total 3 hours 7 minutes. This is Physics
-	 Informatics Section. Due date October 20
+	 Homework in github under the folder *prg2".
+
+	 What do you conclude from figures about ability to see Higgs
+	 particle with different amount of data (corresponding to
+	 different lengths of time experiment runs) Due date October
+	 25 Video V6: Video Review/Study Section 7 Units 12-15; total
+	 3 hours 7 minutes. This is Physics Informatics Section. 
  
 Discussion D6:
 	   Post on Discussion D6 after Section 7, the “Physics” topic:
@@ -215,27 +227,279 @@ Discussion D6:
 	   * Was it worth all that money?
 	   * Please also comment on at least 2 other posts.
 
+Week 6:
+~~~~~~~
+
+Video S7:
+      Watch the videaos in section 7
  
 Discussion D7:
 	   Post on Discussion D7 on the topic:
 
-	   * Which is the most interesting/important of the 51 use cases in section 7.
+	   * Which is the most interesting/important of the 51
+	     use cases in section 7.
 	   * Why?
 	   * What is most interesting/important use case not
 	     in group of 51?
 	   * Please write one post and comment on at least 2 other
 	     posts in the discussions.
 
-Week 6
-------
 
-There will be a term paper at end of course which is final project
-worth 40% grade This can be individual or in a team of up to 3
-students. You can choose between a "serious term paper" scientifically
-examining technologies and application (see below for rules) OR
-develop a simple software system with OpenStack available on
-FutureSystems to support it. Only choose the software option if you are
-prepared to take on programming tasks. See
+Week 7
+------------
+
+This weeks lecture will be determined at a later time.
+	     
+Week 9
+------------	       
+
+Video S9:
+      Watch the videos related to Section 9
+
+Discussion D9:
+            Post on Discussion D9:
+
+	    * What are benefits for e-Commerce?
+	    * What are limitations for e-Commerce?
+
+	    * Waht are risks and benefits for Banking industry using
+	      big data?
+
+	    
+      
+Week 9
+------------	       
+
+Programming PRG2:
+
+         Develop a python program conducting k-means (Java is
+         also possible). Use a meanungful dataset of your choice but
+         not just random. Produce a histogram that shows the distance
+         of all points to its nearast cluster center.
+
+	 You can chose Python or Java for implementation.  For
+	 visualisation you can chose a python library, or you can use
+	 D3.js and a histogram library based on it, if you are
+	 familiar with it.
+
+	 Submit your solution to gitlab in the directory *prg3*
+
+	 Discuss in your solution the details of the dataset.
+
+
+Week 10
+--------
+
+Discussion D11:
+          Discuss what you learnt from video you watched in
+	  S11: Parallel Computing and Clouds
+	   
+Paper P11:
+     Consider any 5 cloud or cloud like activities from list of 11 below.
+     Describe the ones you chose and expalin what ways they could be used
+     to generate an X-Informatics for some X. Write a 2 page paper wit
+     the Paper format from Section :ref:`paper_format`:
+      
+     * http://aws.amazon.com/ (Links to an external site.) 
+     * http://www.windowsazure.com/en-us/ (Links to an external site.) 
+     * https://cloud.google.com/compute/ (Links to an external site.)
+     * https://portal.futuresystems.org/ (Links to an external site.) 
+     * http://joyent.com/ (Links to an external site.) 
+     * https://pod.penguincomputing.com/ (Links to an external site.)
+     * http://www.rackspace.com/cloud/ (Links to an external site.) 
+     * http://www.salesforce.com/cloudcomputing/ (Links to an external site.) 
+     * http://earthengine.google.org/ (Links to an external site.) 
+     * http://www.openstack.org/ (Links to an external site.) 
+     * https://www.docker.com/ (Links to an external site.)
+
+Week 11 - Week 13
+------------------------
+
+Project or Term Report:
+    Work on your project
+    
+Discussion 11, 12, 13, 14: 
+	   Discuss what you learnt from videos you watched in last 2
+	   weeks of class Sections 12-15; chose one of the topics: Web
+	   Search and Text mining, Big Data Technology, Sensors, Radar
+	   Eeach Discussion about the topic is to be conducted in the
+	   week it is introduced. Due dates Friday's.
+	   
+
+Week 13 - Dec. 2nd:
+          Continue to work on your Term Paper or Project
+
+	  Due date for the project is Dec 2nd.  It will a considerable
+	  amount of time to grade your project and term papers. Thus
+	  the deadline is mandatory. Late projects and term papers
+	  will receive a 10% grade reduction. Furthermore dependent on
+ 	  when the project is handed in it may not be graded over the
+	  Christmass break. 
+
+
+Assignment Guidelines
+======================================================================
+
+Getting Access and Systems Support
+----------------------------------------------------------------------
+
+For some projects you will need access to a cloud. We recommend you
+evaluate which cloud would be most appropriate for your project. This
+includes:
+
+* chameleoncloud.org
+* furturesystems.org
+* AWS (you will be responsible for charges)
+* Azure (you will be responsible for charges)
+* virtualbox if you have a powerful computer and like to prototype
+* other clouds
+
+We intend to make some small number of virtual machines available for
+us in a project FG511 on FutureSystems:
+
+* https://portal.futuresystems.org/projects/511
+
+.. note:: FutureSystems OpenStack cloud is currently updated and will
+	  not be available till Sept.
+	  
+Documentation about FutureSystems can be found at
+:ref:`OpenStackFutureSystems <ref-quickstart_openstack>`
+  
+Once you created an account on FutureSystems and you do a project yOu
+can add yourself to the project so you gain access. Systems staff is
+available only during regular business hours Mo-Fri 10am - 4pm.  
+
+You could also use the cloudmesh client software on Linux and OSX to
+access multiple clouds in easy fashion. A Section will introduce this
+software.
+
+
+.. _s_paper_format:
+
+Report and Paper Format
+----------------------------------------------------------------------
+
+
+All reports and paper assignments will be using the ACM proceedings
+format. The MSWord template can be found here:
+
+* :download:`paper-report.docx <files/paper-report.docx>`
+
+A LaTeX version can be found at
+
+* https://www.acm.org/publications/proceedings-template
+  
+however you have to remove the ACM copyright notice in the LaTeX version.
+
+There will be **NO EXEPTION** to this format. In case you are in a
+team, you can use either gitlab while collaboratively developing the
+LaTeX document or use MicrosoftOne Drive which allows collaborative
+editing features. All bibliographical entries must be put into a
+bibliography manager such as jabref, endnote, or Mendeley. This will
+guarantee that you follow proper citation styles. You can use either
+ACM or IEEE reference styles. Your final submission will include the
+bibliography file as a separate document.
+
+Documents that do not follow the ACM format and are not accompanied by
+references managed with jabref or endnote or are not spell checked
+will be returned without review.
+
+Please do not use figures ore tables toe artificially inflate the
+length of the report. Make figures readable and provide the original
+images. Use PDF for figures and not png, gif, org jpeg. This way the
+figures you produce are scalable and zooming into the paper will be
+possible.
+
+Report Checklist:
+
+* [ ] Have you written the report in word or LaTeX in the specified
+  format.
+* [ ] In case of LaTeX, have you removed the ACM copyright information
+* [ ] Have you included the report in gitlab.
+* [ ] Have you specified the names and e-mails of all team members in
+  your report. E.g. the username in Canvas.
+* [ ] Have you included all images in native and PDF format in gitlab
+  in the images folder.
+* [ ] Have you added the bibliography file (such as endnote or bibtex
+  file e.g. jabref) in a directory bib.
+* [ ] Have you submitted an additional page that describes who did
+  what in the project or report.
+* [ ] Have you spellchecked the paper.
+* [ ] Have you made sure you do not plageurize.
+
+
+Software Project
+----------------------------------------------------------------------
+
+Develop a software system with OpenStack available on FutureSystems or
+Chameleoncloud to support it. Only choose the software option if you
+are prepared to take on programming tasks.
+	     
+In case of a software project, we encourage a group project with up to
+three members.  You can use the discussion list for the
+`Software Project <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/3d53c765145a457cbd003e80897723d4/>`_
+to form project teams or just communicate privately with other class
+members to formulate a team. The following artifacts are part of the
+deliverables for a project
+
+Code:
+    You must deliver the code in gitlab. The code must be compilable
+    and a TA may try to replicate to run your code. You MUST avoid
+    lengthy install descriptions and everything must be installable
+    from the commandline.
+
+Project Report:
+    A report must be produced while using the format discussed in the
+    Report Format section. The following length is required:
+							    
+    * 3 pages, one student in the project		    
+    * 5 pages, one student in the project		    
+    * 7 pages, one student in the project		    
+							    
+    Reports can be longer up to 10 pages if needed.  Your high quality
+    scientific report should describe a) What you did b) results
+    obtained and c) Software documentation including how to install,
+    and run it. If c) is longer than half a page and can not be
+    reproduced with shell scripts or easy to folow steps you will get
+    points deducted. 
+    							    
+Work Breackdown:
+    This document is only needed for team projects. A one page PDF
+    document describing who did what. It includes pointers to
+    the git history that documents the statistics that demonstrate not
+    only one student has worked on the project.
+
+License:
+    All projects are developed under an open source license such as
+    Apache 2.0 License, or similar. You will be required to add a
+    LICENCE.txt file and if you use other software identify how it can be
+    reused in your project. If your project uses different licenses,
+    please add in a README.rst file which packages are used and which
+    license these packages have.
+
+Code Repository:
+    Code repositories are for code, if you have additional libraries
+    that are needed you need to develop a script or use a DevOps
+    framework to install such software. Thus zip files and .class, .o
+    files are not permissible in the project. Each project must be
+    reproducible with a simple script. An example is::
+
+      git clone ....
+      make install
+      make run
+      make view
+
+    Which would use a simple make file to install, run, and view the
+    results. Naturally you can use ansible or shell scripts. It is not
+    permissible to use GUI based DevOps preinstalled
+    frameworks. Everything must be installable form the command line.
+
+Datasets that may inspire projects:
+  * https://cloud.google.com/bigquery/public-data/github
+  * https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public
+
+
+See
 
 http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/FinalProjectGuidelines-bdaafall2015.pdf
 
@@ -249,120 +513,75 @@ change in actual final project. If you are in a team, each student
 must submit an (identical) plan with a notation as to teaming. Note
 teaming can change in actual final project.
  
-Rules of Term paper Non software Final Project Format 1 inch margins,
-Times Roman font size 12, 1.1 spacing. (minimum) Size of Report:
-(including text, figures, citations). This is sum over a) and b) for
-software/analytics
 
-Individual:   9 pages
-Team of 2: 14 pages
-Team of 3: 18 Pages
+    
+    
+Term Paper
+----------------------------------------------------------------------
 
-Content Rules
+Term Report:
+    In case you chose the term paper, you or your team will pick a topic
+    relevant for the class. You will write a high quality scholarly paper
+    about this topic. This includes scientifically examining technologies and
+    application.
 
-Material may be taken from other sources but that must amount to at
-most 25% of paper and must be cited Figures may be used
+Content Rules:
+    Material may be taken from other sources but that
+    must amount to at most 25% of paper and must be cited Figures may
+    be used (citations in the figure caption are required).
+    As usual, proper citations and quotations must be given to such
+    content. The quality should be similar to a publishable paper or
+    technical report. Plagiarism is not allowed.
+    
+Proposal:
+    The topic should be close to what you will propose. Please contact
+    me if you change significantly topic. Also inform me if you change teaming.
+    These changes are allowed; We just need to know, review, and approve.
 
-Topic: should be close to what you proposed. Please contact me if you
-change significantly topic. Also inform me if you change teaming.
-These changes are allowed; I just need to know/review The level should
-be similar to a publishable paper or technical report
+    You can use the discussion list for the
+    `Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
+    to form project teams or just communicate privately with other class
+    members to formulate a team.
+    
+Deliverables:
+    The following artifacts are part of the deliverables for a term
+    paper. A report must be produced while using the format discussed
+    in the Report Format section. The following length is required:
 
-Discussion D10: Due Nov 23
+    * 6 pages, one student in the project
+    * 9 pages, two student in the project
+    * 12 pages, three student in the projet
 
-Discuss what you learnt from video you watched in Section 11:Parallel
-Computing and Clouds
+    A gitlab repository will contain the paper your wrote in PDF and
+    in docx or latex. All images will be in an image folder and be
+    clearly marked. All bibtex or endnote files will be included in
+    the repository. 
 
-Week 8
-------
+    Work Breackdown:
+       This document is only needed for team projects. A one page PDF
+       document describing who did what. The document is called
+       workbreakdown.pdf
 
-Homework H8: Due Dec 1
-    Consider any 5 cloud or cloud like activities from list of 11 below.
-    Describe the ones you chose and expalin what ways they could be used
-    to generate an X-Informatics for some X.
+    The directory structure thus look like::
 
-    http://aws.amazon.com/ (Links to an external site.) 
-    http://www.windowsazure.com/en-us/ (Links to an external site.) 
-    https://cloud.google.com/compute/ (Links to an external site.)
-    https://portal.futuresystems.org/ (Links to an external site.) 
-    http://joyent.com/ (Links to an external site.) 
-    https://pod.penguincomputing.com/ (Links to an external site.)
-    http://www.rackspace.com/cloud/ (Links to an external site.) 
-    http://www.salesforce.com/cloudcomputing/ (Links to an external site.) 
-    http://earthengine.google.org/ (Links to an external site.) 
-    http://www.openstack.org/ (Links to an external site.) 
-    https://www.docker.com/ (Links to an external site.)
+      ./paper.docx
+      ./paper.pdf
+      ./refrences.enl
+      ./images/myniftyimage-fig1.pptx
+      ./images/myniftyimage-fig1.pdf
+    
 
-
-Week 9
-------
-
-	 Due Dec 11 and Available until Dec 18
-
-	 40% Grade
-
-	 See
-	 http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/FinalProjectGuidelines-bdaafall2015.pdf
-	 (Links to an external site.) (Links to an external site.)
-	 (Links to an external site.)
- 
-Rules of Software Project:
-      ASK for help if you are having problems. Either
-      bdaacoursehelp@googlegroups.com or issue FutureSystems ticket.
-      Your write-up should describe a) What you did b) results
-      obtained and c) Software documentation including how to run. There is
-      no length requirement
-
-      Please submit write-up to Canvas PLUS 
-
-      Please submit write-up and Software to Github.
- 
-Rules of Term paper:
-
-    Non software Final Project Format 1 inch margins,
-    Times Roman font size 12, 1.1 spacing. (minimum) Size of Report:
-    (including text, figures, citations). This is sum over a) and b) for
-    software/analytics
-
-    Individual: 9 pages
-    Team of 2: 14 pages
-    Team of 3: 18 Pages
-
-Content Rules
-
-	Material may be taken from other sources but that must amount
-	to at most 25% of paper and must be cited Figures may be used
-
-Topic:
-	should be close to what you proposed. Please contact me if you
-	change significantly topic. Also inform me if you change
-	teaming. These changes are allowed; I just need to know/review
-	The level should be similar to a publishable paper or
-	technical report Submit this to Canvas
- 
-	For teams, submit one copy only but the the team members NOT
-	submitting should submit to Canvas, statement on teaming.
-
-Discussion D11
-	   Discuss what you learnt from videos you watched in last 2
-	   weeks of class Sections 12-15; chose one of the topics: Web
-	   Search and Text mining, Big Data Technology, Sensors, Radar
-
-Due December 11
-
-Possible Term Paper Topics
----------------------------
-
-* Big Data and Agriculture
-* Big Data and Transportation
-* Big Data and Home Automation
-* Big Data and Internet of Things
-* Big Data and Olympics
-* Big Data and Environment
-* Big Data and Astrophysics 
-* Big Data and Deep Learning
-* Big Data and Biology
-* Survey of Big Data Applications (Difficult as lots of work, tHis is
-  a 3 person project only and at least 15 pages are required, where
-  additional three pages are given for references.)
-* Big Data and "Suggest your own"
+Possible Term Paper Topics:
+    * Big Data and Agriculture
+    * Big Data and Transportation
+    * Big Data and Home Automation
+    * Big Data and Internet of Things
+    * Big Data and Olympics
+    * Big Data and Environment
+    * Big Data and Astrophysics 
+    * Big Data and Deep Learning
+    * Big Data and Biology
+    * Survey of Big Data Applications (Difficult as lots of work, tHis is
+      a 3 person project only and at least 15 pages are required, where
+      additional three pages are given for references.)
+    * Big Data and "Suggest your own"

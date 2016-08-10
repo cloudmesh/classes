@@ -171,7 +171,7 @@ All sessions refer to Sections, Discussions and Units published at the
 | 09/26/2016 | 6     |         W6 | | S7 Use Cases        	       |
 |            |       |            | | D7	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/03/2016 | 7     |         W7 | | S8 ???             	       |
+| 10/03/2016 | 7     |         W7 | | S8 ???       Viz      	       |
 |            |       |            | | D8	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/07/2016 | 7     | No Lectures| | No Lectures                      |
@@ -185,17 +185,22 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 10/17/2016 | 9     |         W9 | | S10 Clustering	       	       |
 |            |       |            | | D10	       	               |
+|            |       |            | | PRG1	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/24/2016 | 10    |         W10| | S11 Cloud Computing              |
-|            |       |            | | D10	       	               |
+|            |       |            | | D11	       	               |
+|            |       |            | | P11	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/31/2016 | 11    |         W11| | S13 BigData Technologies         |
+|            |       |            | | D12	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/07/2016 | 12    |         W12| | S13 BigData Technologies         |
+|            |       |            | | D13	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/14/2016 | 13    |         W13| | S14 Sensors                      |
 |            |       |            | | S15 Radar	       	               |
 |            |       |            | | TBD Deep Learning                |
+|            |       |            | | D14	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/20/2016 | 14    | No Lectures| | Thanksgiving break Starts        |
 +------------+-------+------------+------------------------------------+
@@ -241,12 +246,11 @@ this list. We will not use canvas e-mail system to communicate with
 you and it may only be used initially.
 
 
-Getting Access and Systems Support
+Systems Usage
 ----------------------------------------------------------------------
 
-For some projects you will need access to a cloud. We recommend you
-evaluate which cloud would be most appropriate for your project. This
-includes:
+Projects can be executed on Your local computer, a cloud or other
+resources you may have access to. This may include:
 
 * chameleoncloud.org
 * furturesystems.org
@@ -255,177 +259,13 @@ includes:
 * virtualbox if you have a powerful computer and like to prototype
 * other clouds
 
-We intend to make some small number of virtual machines available for
-us in a project FG511 on FutureSystems:
-
-* https://portal.futuresystems.org/projects/511
-
-.. note:: FutureSystems OpenStack cloud is currently updated and will
-	  not be available till Sept.
-	  
-Documentation about FutureSystems can be found at
-:ref:`OpenStackFutureSystems <ref-quickstart_openstack>`
-  
-Once you created an account on FutureSystems and you do a project yOu
-can add yourself to the project so you gain access. Systems staff is
-available only during regular business hours Mo-Fri 10am - 4pm.  
-
-You could also use the cloudmesh client software on Linux and OSX to
-access multiple clouds in easy fashion. A Section will introduce this
-software.
-
-
 
 Term Paper or Project
 ----------------------------------------------------------------------
 
 You have a choice to write a term paper or do a software project using
-our cloud computing test bed.
-
-Software Project
-----------------
-
-.. todo:: Hyungro. Create a discussion for this and link it here
-
-.. comment:: Direct needs to be updated once it's moved to
-             datascience.scholargrid.org
-
-`Discussion on Software Project <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/3d53c765145a457cbd003e80897723d4/>`_
-
-.. todo: Hyungro. Can you doublecheck the page numbers
-   
-In case of a software project, we encourage a group project with up to
-three members.  You can use the discussion TBD  to form project teams
-or just communicate privately with other class members to formulate a
-team. The following artifacts are part of the deliverables for a
-project
-
-Code:
-    You must deliver the code in gitlab. The code must be compilable
-    and a TA may try to replicate to run your code. You MUST avoid
-    lengthy install descriptions and everything must be installable
-    from the commandline
-
-Project Report:
-    A report must be produced while using the format discussed in the
-    Report Format section. The following length is required:
-
-    * 6 pages, one student in the project
-    * 9 pages, one student in the project
-    * 12 pages, one student in the project
-
-Work Breackdown:
-    This document is only needed for team projects. A one page PDF
-    document describing who did what. It includes pointers to
-    the git history that documents the statistics that demonstrate not
-    only one student has worked on the project.
-
-License:
-    All projects are developed under an open source license such as
-    Apache 2.0 License, or similar. You will be required to add a
-    LICENCE.txt file and if you use other software identify how it can be
-    reused in your project. If your project uses different licenses,
-    please add in a README.rst file which packages are used and which
-    license these packages have.
-
-    
-Term Paper
------------
-
-Project Report:
-    A report must be produced while using the format discussed
-    in the Report Format section. The following length is required:
-
-    3-4 pages, one student+ in the project​
-
-Term Report:
-    A report must be produced while using the format discussed in the
-    Report Format section. The following length is required:
-
-
-    Link to discussion on term paper: `Discussion on Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
-
-    In case you chose the term paper, you or your team will pick a topic
-    relevant for the class. You wil write a high quality scholarly paper
-    about this topic. The following artifacts are part of the deliverables
-    for a term paper. A report must be produced while using the format discussed in the
-    Report Format section. The following length is required:
-
-    * 6 pages, one student in the project
-    * 9 pages, two student in the project
-    * 12 pages, three student in the projet
-
-
-Work Breackdown:
-    This document is only needed for team projects. A one page PDF
-    document describing who did what. 
-
-
-Report Format
----------------
-
-All reports will be using the ACM proceedings format. The MSWord template
-can be found here:
-
-* :download:`paper-report.docx <files/paper-report.docx>`
-
-A LaTeX version can be found at
-
-* https://www.acm.org/publications/proceedings-template
-  
-however you have to remove the ACM copyright notice in the LaTeX version.
-
-There will be **NO EXEPTION** to this format. In case you are in a
-team, you can use either gitlab while collaboratively developing the
-LaTeX document or use MicrosoftOne Drive which allows collaborative
-editing features. All bibliographical entries must be put into a
-bibliography manager such as jabref, endnote, or Mendeley. This will
-guarantee that you follow proper citation styles. You can use either
-ACM or IEEE reference styles. Your final submission will include the
-bibliography file as a separate document.
-
-Documents that do not follow the ACM format and are not accompanied by
-references managed with jabref or endnote or are not spell checked
-will be returned without review.
-
-Report Checklist:
-
-* [ ] Have you written the report in word or LaTeX in the specified
-  format.
-* [ ] In case of LaTeX, have you removed the ACM copyright information
-* [ ] Have you included the report in gitlab.
-* [ ] Have you specified the names and e-mails of all team members in
-  your report. E.g. the username in Canvas.
-* [ ] Have you included all images in native and PDF format in gitlab
-  in the images folder.
-* [ ] Have you added the bibliography file (such as endnote or bibtex
-  file e.g. jabref) in a directory bib.
-* [ ] Have you submitted an additional page that describes who did
-  what in the project or report.
-* [ ] Have you spellchecked the paper.
-* [ ] Have you made sure you do not plageurize.
-
-
-Code Repositories Deliverables
-------------------------------
-
-Code repositories are for code, if you have additional libraries that
-are needed you need to develop a script or use a DevOps framework to
-install such software. Thus zip files and .class, .o files are not
-permissible in the project. Each project must be reproducible with a
-simple script. An example is::
-
-    git clone ....
-    make install
-    make run
-    make view
-
-Which would use a simple make file to install, run, and view the
-results. Naturally you can use ansible or shell scripts. It is not
-permissible to use GUI based DevOps preinstalled
-frameworks. Everything must be installable form the command line.
-
-
+our cloud computing test bed. This will constitute to 40% of your
+class grade.
 Prerequisites
 ----------------------------------------------------------------------
 
@@ -460,11 +300,13 @@ likely to be involved with Big Data in their future.
 Grading
 ----------------------------------------------------------------------
 
-Grading for homework will be done within a week for submission on due
-date. For homework that were submitted beyond the due date, the grading
-will be done within 2-3 weeks after the submission. Some homework can
-not be delivered late and a 10% grade reduction will be given. We will
-be clearly mark such mandatory deadlines.
+Grading for homework will be done within a week for submission on the
+due date. For homework that were submitted beyond the due date, the
+grading will be done within 2-3 weeks after the submission. A 10%
+grade reduction will be given. Some homework can not be delivered late
+(which will be clearly marked and 0 points will be given if
+late. These are mostly related to setting up your account and
+communicating to us your account names.) 
 
 It is the student’s responsibility to upload submissions well ahead of
 the deadline to avoid last minute problems with network connectivity,
@@ -477,7 +319,9 @@ proper time management is a must for this class.
 
 * 40% Homework
 * 40% Term Paper
-* 20% Participation
+* 20% Participation/Discussion
+
+Details about the assignments can be found in the Section :ref:`assignments`.
 
 
 Academic Integrity Policy
