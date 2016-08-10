@@ -1,21 +1,6 @@
+Sample Project suggestions
+===========================
 
-Final Project Guidelines
-------------------------
-
-This page describes the final project guidelines for Big Data Applications and
-Analytics Fall 2015.
-
-Submission Due Date
-------------------------
-
-December 11th, 2015 23:59 PM EST
-
-Grading Weightage
-------------------------
-40%
-
-Project Style
-------------------------
 * Non-Software (written paper)
 * Software with any tools (No restriction on Python or Java)
 
@@ -26,66 +11,115 @@ Using FutureSystems
 * Supports for Java and Python which can be used for class software
 * Hadoop Cluster Access [Guide]
 
-Project Team Up
-------------------------
-
-* Use The discussion to find members and discuss (up to 3 person recommended)
-* Individual project is allowed
-
 Supported Projects
-------------------------
-* These are projects that will be supported on FutureSystems resources. Certain
-projects, such as NIST Fingerprint, may be accomplished by running a subset of 1
-or more of the software packages.
+---------------------------------------------------------------------
+These are projects that will be supported on FutureSystems resources. Certain
+projects, such as NIST Fingerprint, may be accomplished by running a subset of 1 or more of the software packages.
+
+1. NIST Fingerprint
+---------------------------------------------------------------------
+
+Title:  NIST Fingerprint
+
+ A subset of:
+  * NFIQ
+  * PCASYS
+  * MINDTCT
+  * BOZORTH3
+  * NFSEG
+  * SIVV
+
+Data Set:
+  * NIST Special
+  * Database 27A [4GB]
+  * http://www.nist.gov/itl/iad/ig/sd27a.cfm
+
+Software:
+  * http://www.nist.gov/customcf/get_pdf.cfm?pub_id=51097
+
+Category:
+    Batch Data Analytics
 
 
-+--------------------+--------------------+---------------------+--------------------------------+
-|  Title             |     Data Set       |     Software        |          Category              |
-+--------------------+--------------------+---------------------+--------------------------------+
-| NIST Fingerprint   |NIST Special        |NIST Biometric Image |    Batch Data Analytics        |
-| A subset of:       |Database 27A [4GB]  |Software (NBIS) v5.0 |                                |
-|  * NFIQ            |http://www.nist.gov/|[userguide]          |                                |
-|  * PCASYS          |itl/iad/ig/sd27a.cfm|http://www.nist.gov/ |                                |
-|  * MINDTCT         |                    |customcf/get_pdf.cfm |                                |
-|  * BOZORTH3        |                    |?pub_id=51097        |                                |
-|  * NFSEG           |                    |                     |                                |
-|  * SIVV            |                    |                     |                                |
+2. HadoopBenchmark - TeraSort Suite
+---------------------------------
+Title:
+    HadoopBenchmark - TeraSort Suite
+
+Data Set:
+    Teragen
+
+Software:
+    hadoop-examples.jar
+
+Category:
+    Batch Data Analytics        |
 
 
-+--------------------+--------------------+---------------------+--------------------------------+
-| HadoopBenchmark -  |  Teragen           |hadoop-examples.jar  |    Batch Data Analytics        |
-| TeraSort Suite     |                    |                     |                                |
+3. Hadoopbenchmark DFS10 (HDF Performance)
+----------------------------------------------------------------------
+
+Title:
+    Hadoopbenchmark DFS10 (HDF Performance)
+
+Data Set:
+    N/A
+
+Software:
+    hadoop-mapreduce-job client
+
+Category:
+    Batch Data Analytics
 
 
-+--------------------+--------------------+---------------------+--------------------------------+
-| HadoopBenchmark -  |                    |hadoop-mapreduce-job |    Batch Data Analytics        |
-| DFSIO              |                    |client               |                                |
-| (HDFS Performance) |                    |                     |                                |
+4. HadoopBenchmark - NNBench NameNodeperformance
+----------------------------------------------------------------------
+Title: HadoopBenchmark - NNBench NameNodeperformance
 
 
-+--------------------+--------------------+---------------------+--------------------------------+
-| HadoopBenchmark -  |                    |hadoop-mapreduce-job |    Batch Data Analytics        |
-| NNBench            |                    |client               |                                |
-| NameNodePerformance|                    |                     |                                |
+Data Set:
+    N/A
+
+Software:
+    hadoop-mapreduce-job client
+
+Category:
+    Batch Data Analytics
 
 
-+--------------------+--------------------+---------------------+--------------------------------+
-| HadoopBenchmark -  |                    |src/test/org/apache/ |    Batch Data Analytics        |
-| NNBench            |                    |hadoop/mapred/MRBench|                                |
-| NameNodePerformance|                    |.java                |                                |
+
+5. HadoopBenchmark - NNBench NameNodeperformance
+----------------------------------------------------------------------
+Title: HadoopBenchmark - NNBench NameNodeperformance
 
 
-+--------------------+--------------------+---------------------+--------------------------------+
-| Stock Data Analysis| CRSP -             | Stock Analysis -    |    Streaming Data Analytics    |
-| with MPI           | https://wrds-web.  | https://github.com/ |                                |
-|                    | wharton.upenn.edu/ | iotcloud/           |                                |
-|                    | wrds/              | stock-analysis      |                                |
-|                    | Ex : Tradingsymbol |                     |                                |
-|                    | Price,# of Shares  |                     |                                |
-|                    | Outstanding Factor |                     |                                |
-|                    | to adjust Price,   |                     |                                |
-|                    | Share              |                     |                                |
-+--------------------+--------------------+---------------------+--------------------------------+
+Data Set:
+    N/A
+
+Software:
+    src/test/org/apache/hadoop/mapred/MRBench.java
+
+Category:
+    Batch Data Analytics
+
+
+
+6. Stock Data Analysis with MPI
+----------------------------------------------------------------------
+Title:
+Stock Data Analysis with MPI
+
+
+Data Set:
+    CRSP - https://wrds-web.  wharton.upenn.edu/wrds/
+    Ex : Tradingsymbol Price,# of Outstanding Factor to adjust Price, Share
+
+Software:
+    Stock Analysis - https://github.com/iotcloud/stock-analysis
+
+Category:
+    Streaming Data Analytics
+
 
 
 Other Possible Projects
@@ -93,7 +127,9 @@ Other Possible Projects
 
 * These are projects for which there may be tentative, or no, direct support on FutureSystems resources.
 
-1.  Title:
+1. Census
+---------------------------------------------------------------------
+    Title:
       Census
     Data Set:
       Data: csv files downloadable (click "Internet tables" to select subsets)
@@ -102,7 +138,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-2.  Title:
+2. Face Detection
+---------------------------------------------------------------------
+    Title:
       Face Detection
     Data Set:
       Data: images from INRIA dataset (< 1GB)
@@ -111,7 +149,9 @@ Other Possible Projects
     Category:
       Streaming Data Analytics
 
-3.  Title:
+3. Amazon Movie Reviews (1997-2012)
+---------------------------------------------------------------------
+    Title:
       Amazon Movie Reviews (1997-2012)
     Data Set:
       Data: 3GB (compressed)
@@ -120,8 +160,10 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-4.  Title:
-      Live Twitter Feed analysis
+4. Live Twitter Feed Analysis
+---------------------------------------------------------------------
+    Title:
+      Live Twitter Feed Analysis
     Data Set:
       Live Twitter feed
     Software:
@@ -129,7 +171,9 @@ Other Possible Projects
     Category:
       Streaming Data Analytics
 
-5.  Title:
+5. Medicare Part-B (2000-2013)
+---------------------------------------------------------------------
+    Title:
       Medicare Part-B (2000-2013)
     Data Set:
       Data: <30 MB, CSV ('00-'09), Excel ('10-'13) files
@@ -138,7 +182,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-6.  Title:
+6. HiBench (each) - Sort
+---------------------------------------------------------------------
+    Title:
       HiBench (each) - sort
     Data Set:
       n/a
@@ -147,7 +193,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-7.  Title:
+7. HiBench (each) - WordCount
+---------------------------------------------------------------------
+    Title:
       HiBench (each) - wordcount
     Data Set:
       n/a
@@ -156,7 +204,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-8.  Title:
+8. HiBench (each) - TeraSort
+---------------------------------------------------------------------
+    Title:
       HiBench (each) - terasort
     Data Set:
       n/a
@@ -165,7 +215,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-9.  Title:
+9. HiBench (each) - Scan/Join/Aggregate
+---------------------------------------------------------------------
+    Title:
       HiBench (each) - scan/join/aggregate
     Data Set:
       n/a
@@ -174,8 +226,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-
-10. Title:
+10. HiBench (each) - PageRank
+---------------------------------------------------------------------
+    Title:
       HiBench (each) - pagerank
     Data Set:
       n/a
@@ -184,7 +237,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-11. Title:
+11. HiBench (each) - NetchIndexing
+---------------------------------------------------------------------
+    Title:
       HiBench (each) - netchindexing
     Data Set:
       n/a
@@ -193,7 +248,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-12. Title:
+12. HiBench (each) - Bayes
+---------------------------------------------------------------------
+    Title:
       HiBench (each) - bayes
     Data Set:
       n/a
@@ -202,7 +259,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-13. Title:
+13. HiBench (each) - Kmeans
+---------------------------------------------------------------------
+    Title:
       HiBench (each) - kmeans
     Data Set:
       n/a
@@ -211,8 +270,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-
-14. Title:
+14. HiBench (each) - DFSIO
+---------------------------------------------------------------------
+    Title:
       HiBench (each) - dfsio
     Data Set:
       n/a
@@ -221,7 +281,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-15. Title:
+15. Movie Reviews using IPython
+---------------------------------------------------------------------
+    Title:
       Movie Reviews using IPython
     Data Set:
       Data from Rottentomatoes.com
@@ -230,7 +292,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-16. Title:
+16. Red Wine Quality using IPython
+---------------------------------------------------------------------
+    Title:
       Red Wine Quality using IPython
     Data Set:
       UCI’s Red Wine Data
@@ -239,7 +303,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-17. Title:
+17. Airline Delays with Hadoop
+---------------------------------------------------------------------
+    Title:
       Airline Delays with Hadoop
     Data Set:
       Airline Delay Dataset 2007, 2008
@@ -248,7 +314,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-18. Title:
+18. BigBench
+---------------------------------------------------------------------
+    Title:
       BigBench
     Data Set:
       n/a
@@ -257,7 +325,9 @@ Other Possible Projects
     Category:
       Batch Data Analytics
 
-19. Title:
+19. Drug-Drug interactions on Twitter
+---------------------------------------------------------------------
+    Title:
       Drug-Drug interactions on Twitter
     Data Set:
       Live Twitter Data
@@ -266,7 +336,9 @@ Other Possible Projects
     Category:
       Streaming Data Analytics
 
-20. Title:
+20. Genome Sequence Data
+---------------------------------------------------------------------
+    Title:
       Genome sequence data
     Data Set:
       .cfa sample data (unstructured text file) [link]
@@ -289,7 +361,9 @@ If you have selected non-software projects, you or your team can develop your pr
 development or applications. Use examples given below to choose a project. You can follow one of these
 examples or choose your own.
 
-1.  Title:
+1. Survey HPC-ABDS
+---------------------------------------------------------------------
+    Title:
      Survey HPC-ABDS
     Description:
      Several topics such as review level 17 (orchestration), Compare level 6 (DevOps)
@@ -297,26 +371,34 @@ examples or choose your own.
     Reference:
      http://hpc-abds.org/kaleidoscope/
 
-2.  Title:
+2. Review of Recommender Systems: Technology & Applications
+---------------------------------------------------------------------
+    Title:
      Review of Recommender Systems: Technology & Applications
     Description:
      Define classification of information filtering system with current technologies
      and applications
 
-3.  Title:
+3. Review of Big Data in BioInformatics
+---------------------------------------------------------------------
+    Title:
      Review of Big Data in BioInformatics
     Description:
      Find current challenges and understand state of bioinformatics solutions for big
      data including analytics, security and privacy.
 
 
-4.  Title:
+4. Review of Data Visualization including High Dimensional Data
+---------------------------------------------------------------------
+    Title:
      Review of Data Visualization including High Dimensional Data
     Description:
      Explore data mining methods for knowledge  discovery with data visualization tools.
      Example : D3.js, matplotlib
 
-5.  Title:
+5. Design of NoSQL database for a specialized application
+---------------------------------------------------------------------
+    Title:
      Design of NoSQL database for a specialized application
     Description:
      Explore design of databases for big data including HBase, MongoDB, etc.
