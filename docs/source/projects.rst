@@ -93,160 +93,187 @@ Other Possible Projects
 
 * These are projects for which there may be tentative, or no, direct support on FutureSystems resources.
 
+1.  Title:
+      Census
+    Data Set:
+      Data: csv files downloadable (click "Internet tables" to select subsets)
+    Software:
+      n/a
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-|  Title             |     Data Set          |     Software        |          Category              |
-+--------------------+-----------------------+---------------------+--------------------------------+
+2.  Title:
+      Face Detection
+    Data Set:
+      Data: images from INRIA dataset (< 1GB)
+    Software:
+      OpenCV (c++ library, possible python bindings)
+    Category:
+      Streaming Data Analytics
 
-| Census             | csv files link        | n/a                 |    Batch Data Analytics        |
-|                    | http://www.census.gov/|                     |                                |
-|                    | population/www/cen2010|                     |                                |
-|                    | /glance/              |                     |                                |
+3.  Title:
+      Amazon Movie Reviews (1997-2012)
+    Data Set:
+      Data: 3GB (compressed)
+    Software:
+      n/a
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| FaceDetection      | Images from INRIA set | OpenCV (C++ Library,|    Streaming Data Analytics    |
-|                    | (< 1GB)               | possible python     |                                |
-|                    | http://pascal.inrialpe| bindings)           |                                |
-|                    | s.fr/data/human/      |                     |                                |
+4.  Title:
+      Live Twitter Feed analysis
+    Data Set:
+      Live Twitter feed
+    Software:
+      n/a
+    Category:
+      Streaming Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| AmazonMovie Reviews| 3GB Compressed        |                     |    Batch Data Analytics        |
-| (1997-2012)        | http://snap.stanford  |                     |                                |
-|                    | .edu/data/web-Movies  |                     |                                |
-|                    | .html                 |                     |                                |
-|                    |                       |                     |                                |
+5.  Title:
+      Medicare Part-B (2000-2013)
+    Data Set:
+      Data: <30 MB, CSV ('00-'09), Excel ('10-'13) files
+    Software:
+      n/a
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| Live Twitter Feed  | Live Twitter Feed     |                     |   Streaming Data Analytics     |
-| Analysis           |                       |                     |                                |
+6.  Title:
+      HiBench (each) - sort
+    Data Set:
+      n/a
+    Software:
+      Hibench Suite -
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-|                    |                       |                     |                                |
-|                    |                       |                     |                                |
-|                    |                       |                     |                                |
-+--------------------+-----------------------+---------------------+--------------------------------+
-| Medicare Part-B    | https://www.cms.gov/  |   n/a               |    Batch Data Analytics        |
-| (2000 - 2013)      | Research-Statistics-  |                     |                                |
-|                    | Data-and-Systems/     |                     |                                |
-|                    | Downloadable-Public-  |                     |                                |
-|                    | Use-Files/Part-B-Nati |                     |                                |
-|                    | onal-Summary-Data-File|                     |                                |
-|                    | /Overview.html        |                     |                                |
-|                    |                       |                     |                                |
-|                    | <30 MB, CSV ('00-'09) |                     |                                |
-|                    | Excel ('10-'13) files |                     |                                |
-|                    |                       |                     |                                |
+7.  Title:
+      HiBench (each) - wordcount
+    Data Set:
+      n/a
+    Software:
+      Hibench Suite -
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| HiBench (each) -   |  n/a                  | HiBench Suite -     |    Batch Data Analytics        |
-| Sort               |                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/HiBench|                                |
-|                    |                       |                     |                                |
+8.  Title:
+      HiBench (each) - terasort
+    Data Set:
+      n/a
+    Software:
+      Hibench Suite -
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| HiBench (each) -   |  n/a                  | HiBench Suite -     |    Batch Data Analytics        |
-| Word Count         |                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/HiBench|                                |
-|                    |                       |                     |                                |
+9.  Title:
+      HiBench (each) - scan/join/aggregate
+    Data Set:
+      n/a
+    Software:
+      Hibench Suite -
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| HiBench (each) -   |  n/a                  | HiBench Suite -     |    Batch Data Analytics        |
-| Tera Sort          |                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/HiBench|                                |
-|                    |                       |                     |                                |
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| HiBench (each) -   |  n/a                  | HiBench Suite -     |    Batch Data Analytics        |
-| Scan/Join/Aggregate|                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/HiBench|                                |
-|                    |                       |                     |                                |
+10. Title:
+      HiBench (each) - pagerank
+    Data Set:
+      n/a
+    Software:
+      Hibench Suite -
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| HiBench (each) -   |  n/a                  | HiBench Suite -     |    Batch Data Analytics        |
-| PageRank           |                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/HiBench|                                |
-|                    |                       |                     |                                |
+11. Title:
+      HiBench (each) - netchindexing
+    Data Set:
+      n/a
+    Software:
+      Hibench Suite -
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| HiBench (each) -   |  n/a                  | HiBench Suite -     |    Batch Data Analytics        |
-| NetchIndexing      |                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/HiBench|                                |
-|                    |                       |                     |                                |
+12. Title:
+      HiBench (each) - bayes
+    Data Set:
+      n/a
+    Software:
+      Hibench Suite -
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| HiBench (each) -   |  n/a                  | HiBench Suite -     |    Batch Data Analytics        |
-| Bayes              |                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/HiBench|                                |
-|                    |                       |                     |                                |
+13. Title:
+      HiBench (each) - kmeans
+    Data Set:
+      n/a
+    Software:
+      Hibench Suite -
+    Category:
+      Batch Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| HiBench (each) -   |  n/a                  | HiBench Suite -     |    Batch Data Analytics        |
-| Kmeans             |                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/HiBench|                                |
-|                    |                       |                     |                                |
-+--------------------+-----------------------+---------------------+--------------------------------+
 
-| HiBench (each) -   |  n/a                  | HiBench Suite -     |    Batch Data Analytics        |
-| dfsio              |                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/HiBench|                                |
-|                    |                       |                     |                                |
-+--------------------+-----------------------+---------------------+--------------------------------+
+14. Title:
+      HiBench (each) - dfsio
+    Data Set:
+      n/a
+    Software:
+      Hibench Suite -
+    Category:
+      Batch Data Analytics
 
-|Movie Reviews using |Data frm Rottentomatoes| IPython Notebook 1  |    Batch Data Analytics        |
-|IPython             |                       | http://nbviewer     |                                |
-|                    |                       | .ipython.org/github/|                                |
-|                    |                       | cs109/content/blob/ |                                |
-|                    |                       | master/HW3_solutions|                                |
-|                    |                       | .ipynb              |                                |
-+--------------------+-----------------------+---------------------+--------------------------------+
+15. Title:
+      Movie Reviews using IPython
+    Data Set:
+      Data from Rottentomatoes.com
+    Software:
+      IPython Notebook 1
+    Category:
+      Batch Data Analytics
 
-| Red Wine Quality   | UCI’s Red Wine Data   | IPython Notebook 2  |    Batch Data Analytics        |
-| using IPython      | https://archive.ics.  | http://nbviewer.    |                                |
-|                    | uci.edu/ml/machine-   | .jupyter.org/github/|                                |
-|                    | learning-databases/   | cs109/2014/blob/    |                                |
-|                    | wine-quality/         | master/homework-    |                                |
-|                    |                       | solutions/          |                                |
-|                    |                       | HW5-solutions.ipynb |                                |
-|                    |                       |                     |                                |
-+--------------------+-----------------------+---------------------+--------------------------------+
+16. Title:
+      Red Wine Quality using IPython
+    Data Set:
+      UCI’s Red Wine Data
+    Software:
+      IPython Notebook 2
+    Category:
+      Batch Data Analytics
 
-| Airline Delays with| Airline Delay Dataset | IPython Notebook 3  |     Batch Data Analytics       |
-| Hadoop             | 2007, 2008            |                     |                                |
-|                    |                       | http://nbviewer.    |                                |
-|                    | http://stat-computing | ipython.org/github/ |                                |
-|                    | .org/dataexpo/2009/   | ofermend/IPython-note|                               |
-|                    | the-data.html         | books/blob/master/  |                                |
-|                    |                       | blog-part-1.ipynb   |                                |
-|                    |                       |                     |                                |
-|                    |                       |                     |                                |
-+--------------------+-----------------------+---------------------+--------------------------------+
+17. Title:
+      Airline Delays with Hadoop
+    Data Set:
+      Airline Delay Dataset 2007, 2008
+    Software:
+      IPython Notebook 3
+    Category:
+      Batch Data Analytics
 
-| BigBench           |   n/a                 | Big Data Benchmark  |    Batch Data Analytics        |
-|                    |                       | for BigBench        |                                |
-|                    |                       |                     |                                |
-|                    |                       | https://github.com/ |                                |
-|                    |                       | intel-hadoop/Big-   |                                |
-|                    |                       | Data-Benchmark-for- |                                |
-|                    |                       | Big-Bench           |                                |
-|                    |                       |                     |                                |
-+--------------------+-----------------------+---------------------+--------------------------------+
+18. Title:
+      BigBench
+    Data Set:
+      n/a
+    Software:
+      Big Data Benchmark for BigBench
+    Category:
+      Batch Data Analytics
 
-|Drug-Drug Interation| Live Twitter Data     | drug-drug interation|  Streaming Data Analysis       |
-|on Twitter          |                       |                     |                                |
-|                    |                       |https://github.com/  |                                |
-|                    |                       |cloud-class-projects/|                                |
-|                    |                       |drug-drug-interaction|                                |
-|                    |                       |                     |                                |
-|                    |                       |                     |                                |
+19. Title:
+      Drug-Drug interactions on Twitter
+    Data Set:
+      Live Twitter Data
+    Software:
+      drug-drug-interaction
+    Category:
+      Streaming Data Analytics
 
-+--------------------+-----------------------+---------------------+--------------------------------+
-| Genome Sequence    |  .cfa sample data     | SAND -              |  Batch Data Analysis           |
-| Data               | unstructured textfile |                     |                                |
-|                    |                       | [link] -            |                                |
-|                    | [link] -              | http://ccl.cse.nd   |                                |
-|                    | http://ccl.cse.nd.edu/| .edu/software/sand/ |                                |
-|                    | software/sand/        |                     |                                |
-+--------------------+-----------------------+---------------------+--------------------------------+
+20. Title:
+      Genome sequence data
+    Data Set:
+      .cfa sample data (unstructured text file) [link]
+    Software:
+      SAND
+    Category:
+      Batch Data Analytics
 
 
 Your Own Projects
@@ -262,52 +289,38 @@ If you have selected non-software projects, you or your team can develop your pr
 development or applications. Use examples given below to choose a project. You can follow one of these
 examples or choose your own.
 
-+--------------------+--------------------------------------------+----------------------------------------+
-|  Title             |                Description                 |          Reference                     |
-
-
-Title:
+1.  Title:
      Survey HPC-ABDS
-     
-Description:
-|    | Several topics such as review level 17     |     |
-|                    | (orchestration), Compare level 6 (DevOps)  |                                        |
-|                    | and level 15B (PaaS Frameworks) and        |                                        |
-|                    | level 17                                   |                                        |
-|                    |                                            |                                        |
+    Description:
+     Several topics such as review level 17 (orchestration), Compare level 6 (DevOps)
+     and level 15B (PaaS Frameworks) and level 17
+    Reference:
+     http://hpc-abds.org/kaleidoscope/
 
-Refrence:
-     http://hpc-abds.org/kaleidoscope/ 
+2.  Title:
+     Review of Recommender Systems: Technology & Applications
+    Description:
+     Define classification of information filtering system with current technologies
+     and applications
+
+3.  Title:
+     Review of Big Data in BioInformatics
+    Description:
+     Find current challenges and understand state of bioinformatics solutions for big
+     data including analytics, security and privacy.
 
 
+4.  Title:
+     Review of Data Visualization including High Dimensional Data
+    Description:
+     Explore data mining methods for knowledge  discovery with data visualization tools.
+     Example : D3.js, matplotlib
 
-+--------------------+--------------------------------------------+----------------------------------------+
-| ReviewofRecommender| Define classification of information       | http://bdaafall2015.readthedocs.org/en |
-| Systems: Technology| filtering system with current technologies | /latest/tp1-recommender.html           |
-| & Applications     | and applications                           |                                        |
-|                    |                                            |                                        |
+5.  Title:
+     Design of NoSQL database for a specialized application
+    Description:
+     Explore design of databases for big data including HBase, MongoDB, etc.
 
-+--------------------+--------------------------------------------+----------------------------------------+
-| Review of BigData  | Find current challenges and understand     |                                        |
-| in BioInformatics  | state of bioinformatics solutions for big  |                                        |
-|                    | data including analytics, security         |                                        |
-|                    | and privacy.                               |                                        |
-|                    |                                            |                                        |
-
-+--------------------+--------------------------------------------+----------------------------------------+
-| Review of Data     | Explore data mining methods for knowledge  |                                        |
-| visualization      | discovery with data visualization tools    |                                        |
-| including high     | Example : D3.js, matplotlib                |                                        |
-| dimensional data   |                                            |                                        |
-|                    |                                            |                                        |
-
-+--------------------+--------------------------------------------+----------------------------------------+
-| Design of a NoSQL  | Explore design of databases for big data   |                                        |
-| database for a     | including HBase, MongoDB, etc.             |                                        |
-| specialized        |                                            |                                        |
-| application        |                                            |                                        |
-|                    |                                            |                                        |
-+--------------------+--------------------------------------------+----------------------------------------+
 
 Project Proposal
 ------------------
