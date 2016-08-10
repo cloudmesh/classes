@@ -5,7 +5,7 @@ this page weekly for changes.
 
 About the Course
 -----------------
-  
+
 The Big Data Applications and Analytics course is an overview course in
 Data Science and covers the applications and technologies (data
 analytics and clouds) needed to process the application data. It is
@@ -55,18 +55,6 @@ From Canvas::
     FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
     FA16-BL-ENGR-E599-36362
 
-    FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
-    FA16-BL-ENGR-E599-36362
-
-    FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
-    FA16-BL-ENGR-E599-36362
-
-    FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
-    FA16-BL-ENGR-E599-36362
-
-    FA16: BIG DATA APPLS & ANALYTICS: 32866
-    FA16-BL-INFO-I523-32866
-
     FA16: BIG DATA APPLS & ANALYTICS: 32866
     FA16-BL-INFO-I523-32866
 
@@ -82,7 +70,7 @@ From Registrar::
                  Discussion (DIS)
          CLSD 32864          09:30A-10:45A   F      I2 150    Von Laszewski G          50    0    2
                  Above class meets with INFO-I 423
-		 
+
     INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
         I 523 : P - Data Science majors only
               32866 RSTR     ARR             ARR    ARR       Von Laszewski G          90   72    0
@@ -92,15 +80,15 @@ From Registrar::
                  information
                  Above class for students not in residence on the Bloomington
                  campus
-		 
+
     INFO-I 423  BIG DATA APPLS & ANALYTICS (3 CR)
-         CLSD ***** RSTR     ARR             ARR    ARR       Von Laszewski G          10    0    6 
+         CLSD ***** RSTR     ARR             ARR    ARR       Von Laszewski G          10    0    6
                  Above class open to undergraduates only
                  Above class taught online
                  Discussion (DIS)
          CLSD 34955 RSTR     09:30A-10:45A   F      I2 150    Von Laszewski G          10    0    6
                  Above class meets with INFO-I 523
-		 
+
     ENGR-E 599  TOPICS IN INTELL SYS ENGINEER (3 CR)
            VT: BG DATA APPLICATNS & ANLYTCS ISE
               ***** RSTR     ARR             ARR    ARR       Von Laszewski G          25   25    0
@@ -110,7 +98,7 @@ From Registrar::
            VT: BG DATA APPLICATNS & ANLYTCS ISE
               36363 RSTR     01:00P-02:15P   F      HD TBA    Von Laszewski G          25   25    0
                  Above class meets Smith Research Center Room 151E
-		 
+
 
 Meeting Times
 -------------
@@ -119,7 +107,7 @@ The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place at the
 following times dependent on which class you are in:
 
-* INFO-I 523: Fridays 09:30am - 10:45am EST, I2 150 
+* INFO-I 523: Fridays 09:30am - 10:45am EST, I2 150
 * ENGR-E 599: Fridays 01:00pm - 02:15pm EST, Research Center Room 151E
 
 * For the 100% online students a time will be determined
@@ -157,7 +145,7 @@ Or Telephone:
 
   * SIP: 195576919@zoomcrc.com
 
-Please use a headphone with microphone to increase sound quality. 
+Please use a headphone with microphone to increase sound quality.
 
 Calendar
 ---------
@@ -169,7 +157,7 @@ Calendar
           * Discussion for Section 32866
 	  * Discussion for all others
 
-.. comment:: Discussion D[0-9] for All (I423/I523/E599) is posted          
+.. comment:: Discussion D[0-9] for All (I423/I523/E599) is posted
 
 
 All sessions refer to Sections, Discussions and Units published at the
@@ -237,8 +225,8 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 12/16/2016 | 16    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
-	      		       	   					
-				   
+
+
 
 Email
 ----------------------------------------------------------------------
@@ -294,13 +282,13 @@ us in a project FG511 on FutureSystems:
 
 .. note:: FutureSystems OpenStack cloud is currently updated and will
 	  not be available till Sept.
-	  
+
 Documentation about FutureSystems can be found at
 :ref:`OpenStackFutureSystems <ref-quickstart_openstack>`
-  
+
 Once you created an account on FutureSystems and you do a project yOu
 can add yourself to the project so you gain access. Systems staff is
-available only during regular business hours Mo-Fri 10am - 4pm.  
+available only during regular business hours Mo-Fri 10am - 4pm.
 
 You could also use the cloudmesh client software on Linux and OSX to
 access multiple clouds in easy fashion. A Section will introduce this
@@ -325,7 +313,7 @@ Software Project
 `Discussion on Software Project <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/3d53c765145a457cbd003e80897723d4/>`_
 
 .. todo: Hyungro. Can you doublecheck the page numbers
-   
+
 In case of a software project, we encourage a group project with up to
 three members.  You can use the discussion TBD  to form project teams
 or just communicate privately with other class members to formulate a
@@ -360,7 +348,7 @@ License:
     please add in a README.rst file which packages are used and which
     license these packages have.
 
-    
+
 Term Paper
 -----------
 
@@ -385,7 +373,7 @@ Project Report:
 
 Work Breackdown:
     This document is only needed for team projects. A one page PDF
-    document describing who did what. 
+    document describing who did what.
 
 
 Report Format
@@ -399,7 +387,7 @@ can be found here:
 A LaTeX version can be found at
 
 * https://www.acm.org/publications/proceedings-template
-  
+
 however you have to remove the ACM copyright notice in the LaTeX version.
 
 There will be **NO EXEPTION** to this format. In case you are in a
