@@ -2,7 +2,7 @@ Sample Project suggestions
 ===========================
 
 
-1. NIST Fingerprint
+NIST Fingerprint
 ---------------------------------------------------------------------
 
 Title:  NIST Fingerprint
@@ -27,7 +27,7 @@ Category:
     Batch Data Analytics
 
 
-2. HadoopBenchmark - TeraSort Suite
+HadoopBenchmark - TeraSort Suite
 ---------------------------------
 Title:
     HadoopBenchmark - TeraSort Suite
@@ -42,7 +42,7 @@ Category:
     Batch Data Analytics        |
 
 
-3. Hadoopbenchmark DFS10 (HDF Performance)
+Hadoopbenchmark DFS10 (HDF Performance)
 ----------------------------------------------------------------------
 
 Title:
@@ -58,7 +58,7 @@ Category:
     Batch Data Analytics
 
 
-4. HadoopBenchmark - NNBench NameNodeperformance
+HadoopBenchmark - NNBench NameNodeperformance
 ----------------------------------------------------------------------
 Title: HadoopBenchmark - NNBench NameNodeperformance
 
@@ -74,7 +74,7 @@ Category:
 
 
 
-5. HadoopBenchmark - NNBench NameNodeperformance
+HadoopBenchmark - NNBench NameNodeperformance
 ----------------------------------------------------------------------
 Title: HadoopBenchmark - NNBench NameNodeperformance
 
@@ -90,7 +90,7 @@ Category:
 
 
 
-6. Stock Data Analysis with MPI
+Stock Data Analysis with MPI
 ----------------------------------------------------------------------
 Title:
 Stock Data Analysis with MPI
@@ -113,280 +113,373 @@ Other Possible Projects
 
 * These are projects for which there may be tentative, or no, direct support on FutureSystems resources.
 
-1. Census
+Census
 ---------------------------------------------------------------------
-    Title:
+Title:
       Census
-    Data Set:
+
+Data Set:
       Data: csv files downloadable (click "Internet tables" to select subsets)
-    Software:
+
+Software:
       n/a
-    Category:
+
+Category:
       Batch Data Analytics
 
-2. Face Detection
+Face Detection
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       Face Detection
-    Data Set:
+
+Data Set:
       Data: images from INRIA dataset (< 1GB)
-    Software:
+
+Software:
       OpenCV (c++ library, possible python bindings)
-    Category:
+
+Category:
       Streaming Data Analytics
 
-3. Amazon Movie Reviews (1997-2012)
+Amazon Movie Reviews (1997-2012)
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       Amazon Movie Reviews (1997-2012)
-    Data Set:
+
+Data Set:
       Data: 3GB (compressed)
-    Software:
+
+Software:
       n/a
-    Category:
+
+Category:
       Batch Data Analytics
 
-4. Live Twitter Feed Analysis
+Live Twitter Feed Analysis
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       Live Twitter Feed Analysis
-    Data Set:
+
+Data Set:
       Live Twitter feed
-    Software:
+
+Software:
       n/a
-    Category:
+
+Category:
       Streaming Data Analytics
 
-5. Medicare Part-B (2000-2013)
+Medicare Part-B (2000-2013)
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       Medicare Part-B (2000-2013)
-    Data Set:
+
+Data Set:
       Data: <30 MB, CSV ('00-'09), Excel ('10-'13) files
-    Software:
+
+Software:
       n/a
-    Category:
+
+Category:
       Batch Data Analytics
 
-6. HiBench (each) - Sort
+HiBench (each) - Sort
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       HiBench (each) - sort
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Hibench Suite -
-    Category:
+
+Category:
       Batch Data Analytics
 
-7. HiBench (each) - WordCount
+HiBench (each) - WordCount
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       HiBench (each) - wordcount
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Hibench Suite -
-    Category:
+
+Category:
       Batch Data Analytics
 
-8. HiBench (each) - TeraSort
+HiBench (each) - TeraSort
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       HiBench (each) - terasort
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Hibench Suite -
-    Category:
+
+Category:
       Batch Data Analytics
 
-9. HiBench (each) - Scan/Join/Aggregate
+HiBench (each) - Scan/Join/Aggregate
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       HiBench (each) - scan/join/aggregate
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Hibench Suite -
-    Category:
+
+Category:
       Batch Data Analytics
 
-10. HiBench (each) - PageRank
+HiBench (each) - PageRank
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       HiBench (each) - pagerank
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Hibench Suite -
-    Category:
+
+Category:
       Batch Data Analytics
 
-11. HiBench (each) - NetchIndexing
+HiBench (each) - NetchIndexing
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       HiBench (each) - netchindexing
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Hibench Suite -
-    Category:
+
+Category:
       Batch Data Analytics
 
-12. HiBench (each) - Bayes
+HiBench (each) - Bayes
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       HiBench (each) - bayes
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Hibench Suite -
-    Category:
+
+Category:
       Batch Data Analytics
 
-13. HiBench (each) - Kmeans
+HiBench (each) - Kmeans
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       HiBench (each) - kmeans
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Hibench Suite -
-    Category:
+
+Category:
       Batch Data Analytics
 
-14. HiBench (each) - DFSIO
+HiBench (each) - DFSIO
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       HiBench (each) - dfsio
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Hibench Suite -
-    Category:
+
+Category:
       Batch Data Analytics
 
-15. Movie Reviews using IPython
+Movie Reviews using IPython
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       Movie Reviews using IPython
-    Data Set:
+
+Data Set:
       Data from Rottentomatoes.com
-    Software:
+
+Software:
       IPython Notebook 1
-    Category:
+
+Category:
       Batch Data Analytics
 
-16. Red Wine Quality using IPython
+Red Wine Quality using IPython
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       Red Wine Quality using IPython
-    Data Set:
+
+Data Set:
       UCI’s Red Wine Data
-    Software:
+
+Software:
       IPython Notebook 2
-    Category:
+
+Category:
       Batch Data Analytics
 
-17. Airline Delays with Hadoop
+Airline Delays with Hadoop
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       Airline Delays with Hadoop
-    Data Set:
+
+Data Set:
       Airline Delay Dataset 2007, 2008
-    Software:
+
+Software:
       IPython Notebook 3
-    Category:
+
+Category:
       Batch Data Analytics
 
-18. BigBench
+BigBench
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       BigBench
-    Data Set:
+
+Data Set:
       n/a
-    Software:
+
+Software:
       Big Data Benchmark for BigBench
-    Category:
+
+Category:
       Batch Data Analytics
 
-19. Drug-Drug interactions on Twitter
+Drug-Drug interactions on Twitter
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       Drug-Drug interactions on Twitter
-    Data Set:
+
+Data Set:
       Live Twitter Data
-    Software:
+
+Software:
       drug-drug-interaction
-    Category:
+
+Category:
       Streaming Data Analytics
 
-20. Genome Sequence Data
+Genome Sequence Data
 ---------------------------------------------------------------------
-    Title:
+
+Title:
       Genome sequence data
-    Data Set:
+
+Data Set:
       .cfa sample data (unstructured text file) [link]
-    Software:
+
+Software:
       SAND
-    Category:
+
+Category:
       Batch Data Analytics
 
 
 Your Own Projects
 ------------------
-You have an option to create your own project with your idea. You can use Python, Java, R, or other
-languages that you prefer. The size or the domain of your datasets is open as long as they can be
-handled and reproduced by course instructors.
+
+You have an option to create your own project with your idea. You can
+use Python, Java, R, or other languages that you prefer. The size or
+the domain of your datasets is open as long as they can be handled and
+reproduced by course instructors.
 
 
 Non-Software Projects
 ----------------------
-If you have selected non-software projects, you or your team can develop your project without software
-development or applications. Use examples given below to choose a project. You can follow one of these
+
+If you have selected non-software projects, you or your team can
+develop your project without software development or applications. Use
+examples given below to choose a project. You can follow one of these
 examples or choose your own.
 
-1. Survey HPC-ABDS
+Survey HPC-ABDS
 ---------------------------------------------------------------------
-    Title:
-     Survey HPC-ABDS
-    Description:
+
+Title:
+      Survey HPC-ABDS
+
+Description:
      Several topics such as review level 17 (orchestration), Compare level 6 (DevOps)
      and level 15B (PaaS Frameworks) and level 17
-    Reference:
+
+Reference:
      http://hpc-abds.org/kaleidoscope/
 
-2. Review of Recommender Systems: Technology & Applications
+Review of Recommender Systems: Technology & Applications
 ---------------------------------------------------------------------
-    Title:
+
+Title:
      Review of Recommender Systems: Technology & Applications
-    Description:
+
+Description:
      Define classification of information filtering system with current technologies
      and applications
 
-3. Review of Big Data in BioInformatics
+Review of Big Data in BioInformatics
 ---------------------------------------------------------------------
-    Title:
+Title:
      Review of Big Data in BioInformatics
-    Description:
+
+Description:
      Find current challenges and understand state of bioinformatics solutions for big
      data including analytics, security and privacy.
 
 
-4. Review of Data Visualization including High Dimensional Data
+Review of Data Visualization including High Dimensional Data
 ---------------------------------------------------------------------
-    Title:
+
+Title:
      Review of Data Visualization including High Dimensional Data
-    Description:
+
+Description:
      Explore data mining methods for knowledge  discovery with data visualization tools.
      Example : D3.js, matplotlib
 
-5. Design of NoSQL database for a specialized application
+Design of NoSQL database for a specialized application
 ---------------------------------------------------------------------
-    Title:
+
+Title:
      Design of NoSQL database for a specialized application
-    Description:
+
+Description:
      Explore design of databases for big data including HBase, MongoDB, etc.
 
 
@@ -406,33 +499,32 @@ description section:
 Sample Proposal Template
 --------------------------
 
-+------------------------------------------------------------------------------------------------------+
-|                                                                                                      |
-|  Title: This is my title                                                                             |
-|                                                                                                      |
-|  Team: (YOU CAN HAVE UP TO 3 PEOPLE IN A TEAM, IF YOU WANT MORE, PLEASE                              |
-|         BE SURE TO CONTACT US)                                                                       |
-|                                                                                                      |
-|     Fullname        e-mail  github (if available) username portalname                                |
-|                                                                                                      |
-|                                                                                                      |
-|  Description:                                                                                        |
-|                                                                                                      |
-|       Put here your description                                                                      |
-|                                                                                                      |
-|                                                                                                      |
-|  Artifacts:                                                                                          |
-|                                                                                                      |
-|       Put here a list of artifacts that you will create (this can be                                 |
-|       filled out at a later time                                                                     |
-|                                                                                                      |
-|       Examples are: A Survey Paper, a github, screenshots, ...                                       |
-|                                                                                                      |
-+------------------------------------------------------------------------------------------------------+
+Title: This is my title                                                                             
+                                                                                                      
+Team: (YOU CAN HAVE UP TO 3 PEOPLE IN A TEAM, IF YOU WANT MORE, PLEASE                              
+       BE SURE TO CONTACT US)                                                                       
+                                                                                                     
+       Fullname,  e-mail,  gitlab (if available) username portalname                                
+
+
+Description:                                                                                        
+       Put here your description                                                                      
+                                                                                                      
+
+Artifacts:                                                                                          
+       Put here a list of artifacts that you will create (this can be                                 
+       filled out at a later time                                                                     
+                                                                                                      
+       Examples are:
+       * A Survey Paper
+       * Code on gitlab
+       * Screenshots, ...                                       
+
 
 
 Submission
 -----------
+
 * Report
   * Submit to IU Canvas (https://canvas.iu.edu)
   * Times Roman 12 point – spacing 1.1
