@@ -5,7 +5,7 @@ this page weekly for changes.
 
 About the Course
 -----------------
-  
+
 The Big Data Applications and Analytics course is an overview course in
 Data Science and covers the applications and technologies (data
 analytics and clouds) needed to process the application data. It is
@@ -38,7 +38,6 @@ From Student Center:
        - 36362 online graduate engineering students
        - 36363 Discussion Friday 1:00 - 2:15PM Smith Research Center 151E
 
-
 From Registrar::
 
     INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
@@ -48,7 +47,7 @@ From Registrar::
                  Discussion (DIS)
          CLSD 32864          09:30A-10:45A   F      I2 150    Von Laszewski G          50    0    2
                  Above class meets with INFO-I 423
-		 
+
     INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
         I 523 : P - Data Science majors only
               32866 RSTR     ARR             ARR    ARR       Von Laszewski G          90   72    0
@@ -58,15 +57,15 @@ From Registrar::
                  information
                  Above class for students not in residence on the Bloomington
                  campus
-		 
+
     INFO-I 423  BIG DATA APPLS & ANALYTICS (3 CR)
-         CLSD ***** RSTR     ARR             ARR    ARR       Von Laszewski G          10    0    6 
+         CLSD ***** RSTR     ARR             ARR    ARR       Von Laszewski G          10    0    6
                  Above class open to undergraduates only
                  Above class taught online
                  Discussion (DIS)
          CLSD 34955 RSTR     09:30A-10:45A   F      I2 150    Von Laszewski G          10    0    6
                  Above class meets with INFO-I 523
-		 
+
     ENGR-E 599  TOPICS IN INTELL SYS ENGINEER (3 CR)
            VT: BG DATA APPLICATNS & ANLYTCS ISE
               ***** RSTR     ARR             ARR    ARR       Von Laszewski G          25   25    0
@@ -76,7 +75,7 @@ From Registrar::
            VT: BG DATA APPLICATNS & ANLYTCS ISE
               36363 RSTR     01:00P-02:15P   F      HD TBA    Von Laszewski G          25   25    0
                  Above class meets Smith Research Center Room 151E
-		 
+
 
 Meeting Times
 -------------
@@ -85,7 +84,7 @@ The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place at the
 following times dependent on which class you are in:
 
-* INFO-I 523: Fridays 09:30am - 10:45am EST, I2 150 
+* INFO-I 523: Fridays 09:30am - 10:45am EST, I2 150
 * ENGR-E 599: Fridays 01:00pm - 02:15pm EST, Research Center Room 151E
 
 * For the 100% online students a time will be determined
@@ -123,7 +122,7 @@ Or Telephone:
 
   * SIP: 195576919@zoomcrc.com
 
-Please use a headphone with microphone to increase sound quality. 
+Please use a headphone with microphone to increase sound quality.
 
 Calendar
 ---------
@@ -135,7 +134,7 @@ Calendar
           * Discussion for Section 32866
 	  * Discussion for all others
 
-.. comment:: Discussion D[0-9] for All (I423/I523/E599) is posted          
+.. comment:: Discussion D[0-9] for All (I423/I523/E599) is posted
 
 
 All sessions refer to Sections, Discussions and Units published at the
@@ -210,8 +209,8 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 12/16/2016 | 16    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
-	      		       	   					
-				   
+
+
 
 Email
 ----------------------------------------------------------------------
@@ -266,10 +265,156 @@ Term Paper or Project
 You have a choice to write a term paper or do a software project using
 our cloud computing test bed. This will constitute to 40% of your
 class grade.
+
+
+Software Project
+----------------
+
+.. todo:: Hyungro. Create a discussion for this and link it here
+
+.. comment:: Direct needs to be updated once it's moved to
+             datascience.scholargrid.org
+
+`Discussion on Software Project <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/3d53c765145a457cbd003e80897723d4/>`_
+
+.. todo: Hyungro. Can you doublecheck the page numbers
+
+In case of a software project, we encourage a group project with up to
+three members.  You can use the discussion TBD  to form project teams
+or just communicate privately with other class members to formulate a
+team. The following artifacts are part of the deliverables for a
+project
+
+Code:
+    You must deliver the code in gitlab. The code must be compilable
+    and a TA may try to replicate to run your code. You MUST avoid
+    lengthy install descriptions and everything must be installable
+    from the commandline
+
+Project Report:
+    A report must be produced while using the format discussed in the
+    Report Format section. The following length is required:
+
+    * 6 pages, one student in the project
+    * 9 pages, one student in the project
+    * 12 pages, one student in the project
+
+Work Breackdown:
+    This document is only needed for team projects. A one page PDF
+    document describing who did what. It includes pointers to
+    the git history that documents the statistics that demonstrate not
+    only one student has worked on the project.
+
+License:
+    All projects are developed under an open source license such as
+    Apache 2.0 License, or similar. You will be required to add a
+    LICENCE.txt file and if you use other software identify how it can be
+    reused in your project. If your project uses different licenses,
+    please add in a README.rst file which packages are used and which
+    license these packages have.
+
+
+Term Paper
+-----------
+
+Project Report:
+    A report must be produced while using the format discussed
+    in the Report Format section. The following length is required:
+
+    3-4 pages, one student+ in the project​
+
+Term Report:
+    A report must be produced while using the format discussed in the
+    Report Format section. The following length is required:
+
+
+    Link to discussion on term paper: `Discussion on Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
+
+    In case you chose the term paper, you or your team will pick a topic
+    relevant for the class. You wil write a high quality scholarly paper
+    about this topic. The following artifacts are part of the deliverables
+    for a term paper. A report must be produced while using the format discussed in the
+    Report Format section. The following length is required:
+
+    * 6 pages, one student in the project
+    * 9 pages, two student in the project
+    * 12 pages, three student in the projet
+
+
+Work Breackdown:
+    This document is only needed for team projects. A one page PDF
+    document describing who did what.
+
+
+Report Format
+---------------
+
+All reports will be using the ACM proceedings format. The MSWord template
+can be found here:
+
+* :download:`paper-report.docx <files/paper-report.docx>`
+
+A LaTeX version can be found at
+
+* https://www.acm.org/publications/proceedings-template
+
+however you have to remove the ACM copyright notice in the LaTeX version.
+
+There will be **NO EXEPTION** to this format. In case you are in a
+team, you can use either gitlab while collaboratively developing the
+LaTeX document or use MicrosoftOne Drive which allows collaborative
+editing features. All bibliographical entries must be put into a
+bibliography manager such as jabref, endnote, or Mendeley. This will
+guarantee that you follow proper citation styles. You can use either
+ACM or IEEE reference styles. Your final submission will include the
+bibliography file as a separate document.
+
+Documents that do not follow the ACM format and are not accompanied by
+references managed with jabref or endnote or are not spell checked
+will be returned without review.
+
+Report Checklist:
+
+* [ ] Have you written the report in word or LaTeX in the specified
+  format.
+* [ ] In case of LaTeX, have you removed the ACM copyright information
+* [ ] Have you included the report in gitlab.
+* [ ] Have you specified the names and e-mails of all team members in
+  your report. E.g. the username in Canvas.
+* [ ] Have you included all images in native and PDF format in gitlab
+  in the images folder.
+* [ ] Have you added the bibliography file (such as endnote or bibtex
+  file e.g. jabref) in a directory bib.
+* [ ] Have you submitted an additional page that describes who did
+  what in the project or report.
+* [ ] Have you spellchecked the paper.
+* [ ] Have you made sure you do not plageurize.
+
+
+Code Repositories Deliverables
+------------------------------
+
+Code repositories are for code, if you have additional libraries that
+are needed you need to develop a script or use a DevOps framework to
+install such software. Thus zip files and .class, .o files are not
+permissible in the project. Each project must be reproducible with a
+simple script. An example is::
+
+    git clone ....
+    make install
+    make run
+    make view
+
+Which would use a simple make file to install, run, and view the
+results. Naturally you can use ansible or shell scripts. It is not
+permissible to use GUI based DevOps preinstalled
+frameworks. Everything must be installable form the command line.
+
+
 Prerequisites
 ----------------------------------------------------------------------
 
-Python or Java experience (programming load is modest).
+Python or Java experience is expected. The programming load is modest.
 
 In case you elect a programming project we will assume that you are
 familiar with the programming languages required as part of the
