@@ -25,18 +25,6 @@ University credit please go to:
 
 Please, select the course that is most suitable for your program.
 
-+------------+-------+---------+------------------------------------+
-|Department  | Course| Section | Description                        |
-+------------+-------+---------+------------------------------------+
-| ENGR       | E599  | 36362   | Engineering Grad Students          |
-+------------+-------+---------+------------------------------------+
-| INFO       | I523  | 32863   | INFO Grad Students                 |
-+------------+-------+---------+------------------------------------+
-| INFO       | I523  | 32866   | Data Science Grad Student          |
-+------------+-------+---------+------------------------------------+
-| INFO       | I423  | 34954   | Undergraduate Student              |
-+------------+-------+---------+------------------------------------+
-
 From Student Center:
 
     - INFO-I 423 - BIG DATA APPLS & ANALYTICS
@@ -49,17 +37,6 @@ From Student Center:
     - ENGR-E 599 - TOPICS IN INTELLIGENT SYSTEMS ENGINEERING
        - 36362 online graduate engineering students
        - 36363 Discussion Friday 1:00 - 2:15PM Smith Research Center 151E
-
-From Canvas::
-
-    FA16: BG DATA APPLICATNS&ANLYTCS ISE: 36362
-    FA16-BL-ENGR-E599-36362
-
-    FA16: BIG DATA APPLS & ANALYTICS: 32866
-    FA16-BL-INFO-I523-32866
-
-    FA16: BIG DATA APPLS & ANALYTICS: 34955
-    FA16-BL-INFO-I423-34955
 
 From Registrar::
 
@@ -163,35 +140,37 @@ Calendar
 All sessions refer to Sections, Discussions and Units published at the
 `Course Content Web Page <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/f712efaeae5a4d6ea2c87a0f34e0720b/>`_
 
+* This document superseeds any assignment dates and comments regardign
+  assignments made in videos or sateted elsewhere
 * All lectures are assigned Monday's
-* All discussions are due Friday's
+* All discussions and hoemwork are due Friday's
 
 +------------+-------+------------+------------------------------------+
-| Date       | Week  | Sessions   | Descriptions                       |
+| Date       | Week  | Week       | Descriptions                       |
 +------------+-------+------------+------------------------------------+
-| 08/22/2016 | 1     | Content W1 | | S1 Introduction                  |
+| 08/22/2016 | 1     |         W1 | | S1 Introduction                  |
 |            |       |            | | S2 Overview                      |
-|            |       |            | | D1                               |
+|            |       |            | | D1, P1                           |
 +------------+-------+------------+------------------------------------+
-| 08/29/2016 | 2     | Content W2 | | S3 Health Info                   |
-|            |       |            | | D2, D3	       	               |
+| 08/29/2016 | 2     |         W2 | | S3 Health Info                   |
+|            |       |            | | D2, D3, P2	       	       |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
-| 09/05/2016 | 3     | Content W3 | | Project and Paper Discussion     |
+| 09/05/2016 | 3     |         W3 | | T1 Project and Paper Preparation |
 |            |       |            | | S4 Sport	       	               |
 |            |       |            | | D4	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/12/2016 | 4     | Content W4 | | S5 Python, IaaS, FutureSystems   |
+| 09/12/2016 | 4     |         W4 | | S5 Python, IaaS, FutureSystems   |
 |            |       |            | | D5	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/19/2016 | 5     | Content W5 | | S6 Physics	               |
+| 09/19/2016 | 5     |         W5 | | S6 Physics	               |
 |            |       |            | | D6	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/26/2016 | 6     | Content W6 | | S7 Use Cases        	       |
+| 09/26/2016 | 6     |         W6 | | S7 Use Cases        	       |
 |            |       |            | | D7	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/03/2016 | 7     | Content W7 | | S8 Technology Viz	       	       |
+| 10/03/2016 | 7     |         W7 | | S8 ???             	       |
 |            |       |            | | D8	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/07/2016 | 7     | No Lectures| | No Lectures                      |
@@ -200,20 +179,20 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 10/09/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
-| 10/10/2016 | 8     | Content W8 | | S9 e-Commerce                    |
+| 10/10/2016 | 8     |         W8 | | S9 e-Commerce                    |
 |            |       |            | | D9	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/17/2016 | 9     | Content W9 | | S10 Clustering	       	       |
+| 10/17/2016 | 9     |         W9 | | S10 Clustering	       	       |
 |            |       |            | | D10	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/24/2016 | 10    | Content W10| | S11 Cloud Computing              |
+| 10/24/2016 | 10    |         W10| | S11 Cloud Computing              |
 |            |       |            | | D10	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/31/2016 | 11    | Content W11| | S13 BigData Technologies         |
+| 10/31/2016 | 11    |         W11| | S13 BigData Technologies         |
 +------------+-------+------------+------------------------------------+
-| 11/07/2016 | 12    | Content W12| | S13 BigData Technologies         |
+| 11/07/2016 | 12    |         W12| | S13 BigData Technologies         |
 +------------+-------+------------+------------------------------------+
-| 11/14/2016 | 13    | Content W13| | S14 Sensors                      |
+| 11/14/2016 | 13    |         W13| | S14 Sensors                      |
 |            |       |            | | S15 Radar	       	               |
 |            |       |            | | TBD Deep Learning                |
 +------------+-------+------------+------------------------------------+
@@ -352,24 +331,29 @@ License:
 Term Paper
 -----------
 
-.. comment:: direct link to discussion on term paper
-
-`Discussion on Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
-
-.. todo: Hyungro. Can you doublecheck the page numbers
-
-In case you chose the term paper, you or your team will pick a topic
-relevant for the class. You wil write a high quality scholarly paper
-about this topic. The following artifacts are part of the deliverables
-for a term paper
-
 Project Report:
+    A report must be produced while using the format discussed
+    in the Report Format section. The following length is required:
+
+    3-4 pages, one student+ in the project​
+
+Term Report:
     A report must be produced while using the format discussed in the
     Report Format section. The following length is required:
 
-    * ? pages, one student in the project
-    * ? pages, one student in the project
-    * ? pages, one student in the project
+
+    Link to discussion on term paper: `Discussion on Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
+
+    In case you chose the term paper, you or your team will pick a topic
+    relevant for the class. You wil write a high quality scholarly paper
+    about this topic. The following artifacts are part of the deliverables
+    for a term paper. A report must be produced while using the format discussed in the
+    Report Format section. The following length is required:
+
+    * 6 pages, one student in the project
+    * 9 pages, two student in the project
+    * 12 pages, three student in the projet
+
 
 Work Breackdown:
     This document is only needed for team projects. A one page PDF

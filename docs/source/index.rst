@@ -11,11 +11,23 @@ Big Data Applications and Analytics
    overview
 
 .. toctree::
+   :caption: Assignments
+   :maxdepth: 2
+
+   assignments
+   programming
+   
+.. toctree::
    :caption: Technologies
    :maxdepth: 2
 
    technologies
-
+   python
+   iaas
+   quickstart_openstack
+   chameleon
+   
+   
 .. toctree::
    :caption: FAQ
    :maxdepth: 2
@@ -27,5 +39,5 @@ Big Data Applications and Analytics
    :maxdepth: 2
 
    links
-	      
+    
 
