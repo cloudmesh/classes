@@ -1,16 +1,6 @@
 Sample Project suggestions
 ===========================
 
-* Non-Software (written paper)
-* Software with any tools (No restriction on Python or Java)
-
-Using FutureSystems
-------------------------
-* Not mandatory
-* A state of the art OpenStack installation with supported software applications
-* Supports for Java and Python which can be used for class software
-* Hadoop Cluster Access [Guide]
-
 
 NIST Fingerprint
 ----------------------------------------------------------------------
