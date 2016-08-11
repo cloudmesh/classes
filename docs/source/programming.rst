@@ -1,6 +1,11 @@
 Programming Assignments
 ======================================================================
 
+.. sidebar:: Page Contents
+
+.. contents::
+   :local:
+
 HOMEWORK H4: GET YOUR SOFTWARE SET UP FOR LATER
 ----------------------------------------------------------------------
 
