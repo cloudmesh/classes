@@ -121,19 +121,20 @@ Video V5
       Please watch Section 5 Units 10, 11. Total Length 2.5 hours.
 
 
-Lesson
-~~~~~~~
-        Go through the :doc:`python` lesson.
-
-Python
-~~~~~~~
+Programming PRG1: Python
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 	* Install Python and other listed dependencies on your computer
-	* Learn Python
-	* Learn Python pandas and do a simple Python application demonstrating:
+	* Learn Python, E.g. go through the :doc:`python` lesson.
+	* Learn `Python pandas <http://pandas.pydata.org/>` and do a
+          simple Python application demonstrating:
 
 		* a linechart
 		* a barchart, e.g. a histogram
+
+          Find some real meaningful data such as number of people born
+	  in a year or some other more interesting data set to
+	  demonstrate the various features.
 
 	Review of Scipy:
 
