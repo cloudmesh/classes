@@ -38,13 +38,13 @@ In order to conduct this lesson you should
 Dependencies
 ----------------------------------------------------------------------
 
-  - `Python <https://www.python.org/`_ 
+  - `Python <https://www.python.org/>`_ 
   - `Pip <https://pip.pypa.io/en/stable/>`_
   - `Virtualenv <https://virtualenv.pypa.io/en/stable/>`_
-  - `NumPy <http://www.numpy.org/`_
-  - `SciPy <https://scipy.org/`_
+  - `NumPy <http://www.numpy.org/>`_
+  - `SciPy <https://scipy.org/>`_
   - `Matplotlib <http://matplotlib.org/>`_
-  - `Pandas <http://pandas.pydata.org/`_
+  - `Pandas <http://pandas.pydata.org/>`_
 
 
 Learning Goals
@@ -59,17 +59,13 @@ At the end of this lesson you will be able to:
 - have an overview of the standard library
 - install Python libraries using ``virtualenv``
 
+
+.. _python-resources:
+
 Resources
 ----------------------------------------------------------------------
 
-If you are unfamilliar with programming in Python, we also refer you
-to some of the numerous online resources. You may wish to start with
-www.learnpython.org or the book `Learn Python the Hard Way
-<http://learnpythonthehardway.org/book/>`_. Other options include
-`Tutorials Point <http://www.tutorialspoint.com/python/>`_ or `Code
-Academy <https://www.codecademy.com/learn/python>`_, and the Python
-wiki page contains a long list of `references for learning
-<https://wiki.python.org/moin/BeginnersGuide/Programmers>`_ as well.
+.. include:: /python/resources.rst
 
 Acknowledgments
 ----------------------------------------------------------------------
@@ -83,23 +79,23 @@ Tutorial`_ copyright `Python Software Foundation`_.
 Introduction
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/introduction.rst
+.. include:: /python/introduction.rst
 
 Using Python on FutureSystems
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/on-futuresystems.rst
+.. include:: /python/on-futuresystems.rst
 
 Interactive Python
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/interactive.rst
+.. include:: /python/interactive.rst
 
 
 Syntax
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/syntax.rst
+.. include:: /python/syntax.rst
 
 
 Writing and Saving Programs
@@ -108,17 +104,17 @@ Writing and Saving Programs
 Make sure you are no longer in the interactive interpreter.
 If you are you can type ``quit()`` and press Enter to exit.
 
-.. include:: /class/lesson/linux/python/saving.rst
+.. include:: /python/saving.rst
 
 Installing Libraries
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/pip-install.rst
+.. include:: /python/pip-install.rst
 
-Resources
+Further Learning
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/resources.rst
+.. include:: /python/further-learning.rst
 
   
 Exercises
