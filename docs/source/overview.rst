@@ -222,7 +222,7 @@ Collaborative Groups e-mails at
 
 This mailinglist is for general help and to contact instructors and
 TAs. This mailinglist is shared with all TAs, Dr. von Laszewski, and
-Dr. Abduhl-Wahid
+Dr. Abdul-Wahid
 
 You can expect a reply from someone on the course staff within 24
 hours; if you do not receive one, please re-send your email.
