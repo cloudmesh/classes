@@ -124,8 +124,11 @@ Video V5
 Programming PRG1: Python
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-	* Install Python and other listed dependencies on your computer
+	* Install Python and other listed dependencies on your
+	  computer, alternatively you can use resources on
+	  FutureSystems. 
 	* Learn Python, E.g. go through the :doc:`python` lesson.
+	* Use *virtualenv* and *pip* to customize your environment.
 	* Learn `Python pandas <http://pandas.pydata.org/>` and do a
           simple Python application demonstrating:
 
@@ -135,29 +138,41 @@ Programming PRG1: Python
           Find some real meaningful data such as number of people born
 	  in a year or some other more interesting data set to
 	  demonstrate the various features.
+	* Review of Scipy: look at the scipy manual and be aware what
+          you can do with it in case you chose a Project
 
-	Review of Scipy:
-
-		* look at the scipy manual and be aware what you can do with
-		  it in case you chose a Project
-
-	The goal of this assignment is to choose one or two datasets (see :doc:`datasets`), preprocess it to clean it up, and generate a line graph and histogram plot.  Your figures must provide labels for the axes along with units.
-
-Deliverables
-~~~~~~~~~~~~~
-
-       Submit your programs in a folder called ``prg1``, which must contain the following.
-
-       .. warning::
-
-          Missing items will result in zero points being given
-
-       * ``requirements.txt``: list of python libraries your programs need as installable by: ``pip install -r requirements.txt``
-       * ``fetchdata.py``: a python program that, when run as ``python fetchdata.py`` will produce dataset files in CSV format called ``data-line.csv`` and ``data-hist.csv``.
-       * ``linechart.py``: a python program that, when run as ``python linechart.py data-line.csv`` will generate a line chart as save it in PNG format to a file called ``linechart.png``.
-       * ``histogram.py``: a python program that, when run as ``python historgram.py data-hist.csv`` will generate a histogram plot as save it in PNG format to a file called ``histogram.png``
-       * ``README.rst``: a RST format file which documents the datasets you used, where you fetched them from, how ``fetchdata.py`` cleans them to generate the ``data-{line,hist}.csv`` files.
 	
+	Deliverables PRG1:
+
+	    The goal of this assignment is to choose one or two datasets
+            (see :doc:`datasets`), preprocess it to clean it up, and
+            generate a line graph and histogram plot.  Your figures must
+            provide labels for the axes along with units.
+	
+            Submit your programs in a folder called ``prg1``, which
+            must contain the following:
+
+	    * ``requirements.txt``: list of python libraries your programs
+	      need as installable by: ``pip install -r requirements.txt``
+	    * ``fetchdata.py``: a python program that, when run as ``python
+	      fetchdata.py`` will produce dataset files in CSV format
+	      called ``data-line.csv`` and ``data-hist.csv``.
+	    * ``linechart.py``: a python program that, when run as
+	      ``python linechart.py data-line.csv`` will generate a
+	      line chart as save it in PNG format to a file called ``linechart.png``.
+	    * ``histogram.py``: a python program that, when run as
+	      ``python historgram.py data-hist.csv`` will generate
+	      a histogram plot as save it in PNG format to a file called
+	      ``histogram.png``
+	    * ``README.rst``: a RST format file which documents the
+	      datasets
+	      you used, where you fetched them from, how ``fetchdata.py``
+	      cleans them to generate the ``data-{line,hist}.csv`` files.
+
+	    .. warning::
+
+	       Missing items will result in zero points being given
+	      
 Futuresystems
 ~~~~~~~~~~~~~~
 	* Obtain an account on Futuresystems.org and join project
@@ -182,31 +197,10 @@ OpenStack
 	* Optionally, you can use cloudmesh_client for this (If you
           use cloudmesh client you will get bonus points). 
 
-.. todo:: This section has to be redone
 
-	  Homework Programming:
-		  You can find sample software and paper projects in Chapters
-		  two and three (page 7):
-		  http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
-		  (Links to an external site.)
 
-		  .. note: Prashanth: The content of this file will move to sphinx
-
-		  Java and Python are installed on our cloud as explained in
-		  Unit 11. Here you chose between Python on your laptop, Python
-		  in cloud or Java in cloud.
-
-DO - Python on your laptop
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	     If you elect to use python on your laptop, be careful with
-	     your setup.
 
 		       
-	     Solve task following instructions in chapters
-	     one and four of
-	     http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
-
-             http://bdaafall2015.readthedocs.org/en/latest/hw4.html
 
 
 Discussion D5
