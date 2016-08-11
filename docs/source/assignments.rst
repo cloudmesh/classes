@@ -287,7 +287,7 @@ This weeks lecture will be determined at a later time.
 
 ----------------------------------------------------------------------
 
-Week 9
+Week 8
 ------------	       
 
 Video S9
@@ -311,17 +311,25 @@ Discussion D9
 Week 9
 ------------	       
 
-Programming PRG2
+Video S10
+~~~~~~~~~
+      Watch the videos related to Section 10
+
+Discussion D10
 ~~~~~~~~~~~~~~~~~
 
-         Develop a python program conducting k-means (Java is
-         also possible). Use a meanungful dataset of your choice but
-         not just random. Produce a histogram that shows the distance
-         of all points to its nearast cluster center.
+        Use Discussion D10 in case you have questions about PRG3
 
-	 You can chose Python or Java for implementation.  For
-	 visualisation you can chose a python library, or you can use
-	 D3.js and a histogram library based on it, if you are
+Programming PRG3
+~~~~~~~~~~~~~~~~~
+
+         Develop a python program conducting k-means. Use a meanungful
+         dataset of your choice but not just random. Produce a
+         histogram that shows the distance of all points to its
+         nearast cluster center.
+
+	 For visualisation you can chose a python library, or you can
+	 use D3.js and a histogram library based on it, if you are
 	 familiar with it.
 
 	 Submit your solution to gitlab in the directory *prg3*
