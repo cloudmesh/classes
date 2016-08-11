@@ -1,13 +1,20 @@
 Python Programming
 ======================================================================
 
+.. todo::
+
+   The current contents are perhaps a bit too basic and covered by
+   numerous other resources. Instead, the lesson should focus on
+   installation of requirements, ecosystem (pip, virtualenv) usage,
+   and demonstrate a simple visualization with Pandas/Matplotlib.
+
 .. sidebar:: Page Contents
 
    .. contents::
       :local:
 
 
-Instalation
+Installation
 ----------------------------------------------------------------------
 
 We assume that you have a computer with python installed. We will be
@@ -444,29 +451,6 @@ gitlab
 
 .. todo:: describe
   
-Python resources
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-There is a rich set of resources related to python programming on the
-internet. Some resources that we found useful include:
-
-* http://ivory.idyll.org/articles/advanced-swc/
-
-* http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
-
-* http://www.youtube.com/watch?v=0vJJlVBVTFg
-
-The following have been found useful by previous students. However
-there may be much better resources out there.
-
-* http://www.korokithakis.net/tutorials/python/
-
-and here is one that you can do on a web browser in case you have not
-installed python on your computer
-
-* http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
-
-
 
 Libraries
 ----------

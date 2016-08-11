@@ -4,6 +4,13 @@ to some of the numerous online resources. You may wish to start with
 `Learn Python`_ or the book `Learn Python the Hard Way`_. Other
 options include `Tutorials Point`_ or `Code Academy`_, and the Python wiki page
 contains a long list of `references for learning`_ as well.
+Additional resources include:
+
+- http://ivory.idyll.org/articles/advanced-swc/
+- http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+- http://www.youtube.com/watch?v=0vJJlVBVTFg
+- http://www.korokithakis.net/tutorials/python/
+- http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
 
 
 .. _Code Academy: http://www.codecademy.com/en/tracks/python
