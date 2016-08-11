@@ -14,6 +14,8 @@ back in case the homework has been updated.
 As you will be doing some discussions, please PREFACE YOUR POSTS with
 your Full Name.
 
+----------------------------------------------------------------------
+
 Week 1
 ------
 
@@ -44,7 +46,9 @@ Paper P1
       - Why is Big Data uninteresting to me? (Summarize and/or
         contrast positions in the discussion list)
       - What limitations does Big Data Analytics have?
-      
+
+----------------------------------------------------------------------
+
 Week 2
 ------
 
@@ -70,6 +74,8 @@ Paper P2
 	  * Discuss any or all areas from telemedicine, personalized
 	    (precision) medicine, personal monitors like Fitbit,
 	    privacy issues.
+
+----------------------------------------------------------------------
 
 Week 3
 ------
@@ -112,6 +118,8 @@ Term Paper and Term Project Report Assignment T1
        graded based on a 3 person team.
      * Decide for a topic that you want to do and the team. Commit to
        it by end of Week 4.
+
+----------------------------------------------------------------------
 
 Week 4
 ------
@@ -204,6 +212,8 @@ Discussion D5
 	   Create a NEW post to discuss your final project you want to do
 	   and look for team members (if you want to build a team).
 
+----------------------------------------------------------------------
+
 Week 5
 ------
 
@@ -247,6 +257,8 @@ Discussion D6
 	   * Was it worth all that money?
 	   * Please also comment on at least 2 other posts.
 
+----------------------------------------------------------------------	     
+	     
 Week 6
 -------
 
@@ -266,12 +278,15 @@ Discussion D7
 	   * Please write one post and comment on at least 2 other
 	     posts in the discussions.
 
+----------------------------------------------------------------------
 
 Week 7
 ------------
 
 This weeks lecture will be determined at a later time.
-	     
+
+----------------------------------------------------------------------
+
 Week 9
 ------------	       
 
@@ -291,6 +306,8 @@ Discussion D9
 
 	    
       
+----------------------------------------------------------------------
+
 Week 9
 ------------	       
 
@@ -311,6 +328,7 @@ Programming PRG2
 
 	 Discuss in your solution the details of the dataset.
 
+----------------------------------------------------------------------
 
 Week 10
 --------
@@ -338,6 +356,8 @@ Paper P11
      * http://earthengine.google.org/ (Links to an external site.) 
      * http://www.openstack.org/ (Links to an external site.) 
      * https://www.docker.com/ (Links to an external site.)
+
+----------------------------------------------------------------------
 
 Week 11 - Week 13
 ------------------------
@@ -404,6 +424,8 @@ access multiple clouds in easy fashion. A Section will introduce this
 software.
 
 
+----------------------------------------------------------------------
+
 .. _s_paper_format:
 
 Report and Paper Format
@@ -457,7 +479,8 @@ Report Checklist:
 * [ ] Have you spellchecked the paper.
 * [ ] Have you made sure you do not plageurize.
 
-
+----------------------------------------------------------------------
+  
 Software Project
 ----------------------------------------------------------------------
 
@@ -544,7 +567,7 @@ must submit an (identical) plan with a notation as to teaming. Note
 teaming can change in actual final project.
  
 
-    
+----------------------------------------------------------------------    
     
 Term Paper
 ----------------------------------------------------------------------
@@ -616,8 +639,11 @@ Possible Term Paper Topics:
       additional three pages are given for references.)
     * Big Data and "Suggest your own"
 
+
+----------------------------------------------------------------------
+
       Project Proposal
-------------------
+------------------------------------
 
 
 Project and Term Paper Proposal Format
