@@ -580,7 +580,7 @@ Dame under Professor Jesus Izaguirre. The primary focus of his
 graduate work was the development of scalable, fault-tolerant, elastic
 distributed applications for running Molecular Dynamics simulations.
 
-At Indiana University, Badi' is works with the FutureSystems project
+At Indiana University, Badi' works with the FutureSystems project
 on a NIST-funded study whose goal is to understand patterns in the
 development and usage of Big Data Analysis pipelines.
 
