@@ -21,8 +21,15 @@ Java and Python are installed on our cloud as explained in Unit 11.
 Here you choose between Python on your laptop, Python in cloud or Java
 in cloud.
 
-• DO - Python on your laptop: Download Enthought Canopy Express (free) from
-https://store.enthought.com/downloads/ including NumPy SciPy Matplotlib
+• DO - Install a Python environment on your system. You need:
+
+  - `Python <https://www.python.org/`_ 
+  - `NumPy <http://www.numpy.org/`_
+  - `SciPy <https://scipy.org/`_
+  - `Matplotlib <http://matplotlib.org/>`_
+  - `Pandas <http://pandas.pydata.org/`_
+
+  We do not recommend Enthought Canopy of Continuum Anaconda for this.
 
 • OR - Set up Python in cloud or Java in cloud. See Unit 11.
 
