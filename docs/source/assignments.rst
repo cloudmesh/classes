@@ -109,23 +109,12 @@ Video V5:
       Please watch Section 5 Units 10, 11. Total Length 2.5 hours.
 
 
-Task:
-        Get your software set up for later lectures and final project.
-        You will be using Python. Optionally, you can also use Java
-        but we will not provide any help with Java. No other languages
-        are allowed. Software such as R or D3.js are accepted in the
-        final project.
+Lesson:
+        Go through the :doc:`python` lesson.
 
 Python:
 
-        Please read up on **virtualenv** and use that instead of youst
-	overwriting the python environment from your computer. Please
-	use an IDE if you like such as PyCharm. However you can also
-	use editors such as emacs and vi/vim which are available for
-	all operating systems. When using python we assume you use
-	pip. Please read up on it.
-	     
-	* Install Python on your computer, use virtualenv
+	* Install Python and other listed dependencies on your computer
 	* Learn Python
 	* Learn Python pandas and do a simple Python application demonstrating:
 
@@ -137,8 +126,21 @@ Python:
 		* look at the scipy manual and be aware what you can do with
 		  it in case you chose a Project
 
-	Submit your programs in gitlab in a folder called *prg1*. THe
-	programs are called linechart.py, histogram.py
+	The goal of this assignment is to choose one or two datasets (see :doc:`datasets`), preprocess it to clean it up, and generate a line graph and histogram plot.
+
+Deliverables:
+
+       Submit your programs in a folder called ``prg1``, which must contain the following.
+
+       .. warning::
+
+          Missing items will result in zero points being given
+
+       * ``requirements.txt``: list of python libraries your programs need as installable by: ``pip install -r requirements.txt``
+       * ``fetchdata.py``: a python program that, when run as ``python fetchdata.py`` will produce dataset files in CSV format called ``data-line.csv`` and ``data-hist.csv``.
+       * ``linechart.py``: a python program that, when run as ``python linechart.py data-line.csv`` will generate a line chart as save it in PNG format to a file called ``linechart.png``.
+       * ``histogram.py``: a python program that, when run as ``python historgram.py data-hist.csv`` will generate a histogram plot as save it in PNG format to a file called ``histogram.png``
+       * ``README.rst``: a RST format file which documents the datasets you used, where you fetched them from, how ``fetchdata.py`` cleans them to generate the ``data-{line,hist}.csv`` files.
 	
 Futuresystems:
 	* Obtain an account on Futuresystems.org and join project
