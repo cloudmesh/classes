@@ -217,7 +217,12 @@ PRG2:
 	 different lengths of time experiment runs) Due date October
 	 25 Video V6: Video Review/Study Section 7 Units 12-15; total
 	 3 hours 7 minutes. This is Physics Informatics Section. 
- 
+
+
+	 https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.Higgs
+
+	 https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs
+	 
 Discussion D6:
 	   Post on Discussion D6 after Section 7, the “Physics” topic:
 	   
