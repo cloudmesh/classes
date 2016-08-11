@@ -35,7 +35,7 @@ How to write a research article on computer science
 #. `http://www.cs.columbia.edu/~hgs/etc/writing-style.html <http://www.cs.columbia.edu/~hgs/etc/writing-style.html>`__ 
 #. `https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal <https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal>`__ 
 
-How to you use bibliography managers jabref & endnode or mandalay
+How to you use bibliography managers JabRef & Endnote or Mendeley
 ----------------------------------------------------------------------
 
 #. `http://www.jabref.org/ <http://www.jabref.org/>`__ 
