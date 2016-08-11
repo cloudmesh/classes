@@ -17,6 +17,7 @@ Big Data Applications and Analytics
    assignments
    programming
    projects
+   as1
    
 .. toctree::
    :caption: Technologies

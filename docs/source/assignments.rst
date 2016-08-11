@@ -183,8 +183,7 @@ DO - Python on your laptop:
 	     Solve task following instructions in chapters
 	     one and four of
 	     http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
-             http://bdaafall2015.readthedocs.org/en/latest/hw4.html-
-             or go to
+
              http://bdaafall2015.readthedocs.org/en/latest/hw4.html
 
 
