@@ -140,7 +140,7 @@ Python
 		* look at the scipy manual and be aware what you can do with
 		  it in case you chose a Project
 
-	The goal of this assignment is to choose one or two datasets (see :doc:`datasets`), preprocess it to clean it up, and generate a line graph and histogram plot.
+	The goal of this assignment is to choose one or two datasets (see :doc:`datasets`), preprocess it to clean it up, and generate a line graph and histogram plot.  Your figures must provide labels for the axes along with units.
 
 Deliverables
 ~~~~~~~~~~~~~
