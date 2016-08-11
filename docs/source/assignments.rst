@@ -198,13 +198,9 @@ OpenStack
           use cloudmesh client you will get bonus points). 
 
 
-
-
-		       
-
-
 Discussion D5
 ~~~~~~~~~~~~~~
+
 	   Create a NEW post to discuss your final project you want to do
 	   and look for team members (if you want to build a team).
 
