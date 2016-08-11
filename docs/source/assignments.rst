@@ -17,19 +17,23 @@ your Full Name.
 Week 1
 ------
 
-Video V1:
+Video V1
+~~~~~~~~~
     Do Polls in Section 0. Watch Videos in Section 1: Units 1 and 2
 
-Video V2:
+Video V2
+~~~~~~~~~
     Watch Videos in Section 2: Units 3, 4, and 5. Note these units
     have overlap with Unit 2 of Section 1.
 
-Discussion D1:
+Discussion D1
+~~~~~~~~~~~~~~
     Consider Discussion D1 after Section 1. Please post on topic "Why
     is Big Data interesting to`me" and also comment on at least 2
     other posts. 
 
-Paper P1:
+Paper P1
+~~~~~~~~~
       This requires to write a paper that is 2 pages in
       length. Please use the 2 column ACM proceedings Format. Write a
       paper discussing the following topics:
@@ -44,17 +48,20 @@ Paper P1:
 Week 2
 ------
 
-Video V3:
+Video V3
+~~~~~~~~~
       Please watch Section 3 Unit 6. Total Length 2.5 hours 
 
-Discussion D3:
+Discussion D3
+~~~~~~~~~~~~~~
            Consider Discussion D3 after Section 3. Please post
 	   about the topic "Where are the Big Data Jobs now and in
 	   future? Discuss anything you can share -- areas that are
 	   hots, good online sites etc." and also comment on at least
 	   2 other posts.
 
-Paper P2:
+Paper P2
+~~~~~~~~~
 	  This requires to write a paper that is two pages in
       	  length. Please use the 2 column ACM proceedings Format.
 	  Write a paper discussing the following topics:
@@ -67,10 +74,12 @@ Paper P2:
 Week 3
 ------
 
-Video V4:
+Video V4
+~~~~~~~~~
       Please watch Section 4 Unit 7-9. Total Length 3.5 hours
 
-Discussion D4:
+Discussion D4
+~~~~~~~~~~~~~~
 	   Consider Discussion D4 after Section 4 Please post on topic
 	   "Sports and Health Informatics":
 
@@ -80,7 +89,8 @@ Discussion D4:
 	     fields
 	   * Comment on at least 2 other posts. 
 
-Paper P3:
+Paper P3
+~~~~~~~~~
          This requires to write a paper that is from one to two pages in
       	 length. Please use the 2 column ACM proceedings Format.
 	
@@ -91,7 +101,8 @@ Paper P3:
 	 * Which offer most opportunity on what sports?
 	 * How is Big Data and Little Data applied to the Olympics2016?
 
-Term Paper and Term Project Report Assignment T1:
+Term Paper and Term Project Report Assignment T1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      Please prepare for the selection process for a project or a term paper:
      
      * Review the guidelines for the project and term paper.
@@ -105,14 +116,17 @@ Term Paper and Term Project Report Assignment T1:
 Week 4
 ------
 
-Video V5:
+Video V5
+~~~~~~~~~
       Please watch Section 5 Units 10, 11. Total Length 2.5 hours.
 
 
-Lesson:
+Lesson
+~~~~~~~
         Go through the :doc:`python` lesson.
 
-Python:
+Python
+~~~~~~~
 
 	* Install Python and other listed dependencies on your computer
 	* Learn Python
@@ -128,7 +142,8 @@ Python:
 
 	The goal of this assignment is to choose one or two datasets (see :doc:`datasets`), preprocess it to clean it up, and generate a line graph and histogram plot.
 
-Deliverables:
+Deliverables
+~~~~~~~~~~~~~
 
        Submit your programs in a folder called ``prg1``, which must contain the following.
 
@@ -142,14 +157,16 @@ Deliverables:
        * ``histogram.py``: a python program that, when run as ``python historgram.py data-hist.csv`` will generate a histogram plot as save it in PNG format to a file called ``histogram.png``
        * ``README.rst``: a RST format file which documents the datasets you used, where you fetched them from, how ``fetchdata.py`` cleans them to generate the ``data-{line,hist}.csv`` files.
 	
-Futuresystems:
+Futuresystems
+~~~~~~~~~~~~~~
 	* Obtain an account on Futuresystems.org and join project
 	  FG511. Not that this will take time and you need to do this
 	  ASAP. No late assignments will be accepted. If you are late
 	  this assignment will receive 0 points.
 	  Fill out the Poll **TBD**. 
 	
-ChameleonCloud:
+ChameleonCloud
+~~~~~~~~~~~~~~~
 	* Obtain an account on https://www.chameleoncloud.org. Fill
 	  out the Poll TBD (This assignment is optional, but we have
 	  made good experience with Chameleon cloud, so we advise you
@@ -157,7 +174,8 @@ ChameleonCloud:
 	  to create a project. We will announce the project in due
 	  time that you can join and use chameleon cloud). 
 
-OpenStack:
+OpenStack
+~~~~~~~~~~
 	* Inform yourself about OpenStack and how to start and stop
 	  virtual machines via the command line.
 	* Optionally, you can use cloudmesh_client for this (If you
@@ -177,7 +195,8 @@ OpenStack:
 		  Unit 11. Here you chose between Python on your laptop, Python
 		  in cloud or Java in cloud.
 
-DO - Python on your laptop:
+DO - Python on your laptop
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	     If you elect to use python on your laptop, be careful with
 	     your setup.
 
@@ -189,17 +208,20 @@ DO - Python on your laptop:
              http://bdaafall2015.readthedocs.org/en/latest/hw4.html
 
 
-Discussion D5:
+Discussion D5
+~~~~~~~~~~~~~~
 	   Create a NEW post to discuss your final project you want to do
 	   and look for team members (if you want to build a team).
 
 Week 5
 ------
 
-Video S6:
-      Watht the video in Section 6.
+Video S6
+~~~~~~~~~
+      Watch the video in Section 6.
 
-PRG2:
+PRG2
+~~~~~
 	 Consider the Python/Java code available on Section 6 Unit 13
  	 “Files” tab (the third one) as HiggsClassIIUniform.py or
 	 HiggsClassIIUniform.java. This software is also available on
@@ -225,7 +247,8 @@ PRG2:
 
 	 https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs
 	 
-Discussion D6:
+Discussion D6
+~~~~~~~~~~~~~~
 	   Post on Discussion D6 after Section 7, the “Physics” topic:
 	   
 	   * What you found interesting, remarkable or shocking about
@@ -233,13 +256,15 @@ Discussion D6:
 	   * Was it worth all that money?
 	   * Please also comment on at least 2 other posts.
 
-Week 6:
-~~~~~~~
+Week 6
+-------
 
-Video S7:
+Video S7
+~~~~~~~~~
       Watch the videaos in section 7
  
-Discussion D7:
+Discussion D7
+~~~~~~~~~~~~~~
 	   Post on Discussion D7 on the topic:
 
 	   * Which is the most interesting/important of the 51
@@ -259,10 +284,12 @@ This weeks lecture will be determined at a later time.
 Week 9
 ------------	       
 
-Video S9:
+Video S9
+~~~~~~~~~
       Watch the videos related to Section 9
 
-Discussion D9:
+Discussion D9
+~~~~~~~~~~~~~~
             Post on Discussion D9:
 
 	    * What are benefits for e-Commerce?
@@ -276,7 +303,8 @@ Discussion D9:
 Week 9
 ------------	       
 
-Programming PRG2:
+Programming PRG2
+~~~~~~~~~~~~~~~~~
 
          Develop a python program conducting k-means (Java is
          also possible). Use a meanungful dataset of your choice but
@@ -296,11 +324,13 @@ Programming PRG2:
 Week 10
 --------
 
-Discussion D11:
+Discussion D11
+~~~~~~~~~~~~~~~
           Discuss what you learnt from video you watched in
 	  S11: Parallel Computing and Clouds
 	   
-Paper P11:
+Paper P11
+~~~~~~~~~~
      Consider any 5 cloud or cloud like activities from list of 11 below.
      Describe the ones you chose and expalin what ways they could be used
      to generate an X-Informatics for some X. Write a 2 page paper wit
@@ -321,10 +351,12 @@ Paper P11:
 Week 11 - Week 13
 ------------------------
 
-Project or Term Report:
+Project or Term Report
+~~~~~~~~~~~~~~~~~~~~~~~
     Work on your project
     
-Discussion 11, 12, 13, 14: 
+Discussion 11, 12, 13, 14
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 	   Discuss what you learnt from videos you watched in last 2
 	   weeks of class Sections 12-15; chose one of the topics: Web
 	   Search and Text mining, Big Data Technology, Sensors, Radar
@@ -332,7 +364,8 @@ Discussion 11, 12, 13, 14:
 	   week it is introduced. Due dates Friday's.
 	   
 
-Week 13 - Dec. 2nd:
+Week 13 - Dec. 2nd
+-------------------
           Continue to work on your Term Paper or Project
 
 	  Due date for the project is Dec 2nd.  It will a considerable
