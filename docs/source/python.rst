@@ -26,15 +26,26 @@ Prerequisite
 
 In order to conduct this lesson you should
 
-* A computer with python 2.7.x where x <= 10
-* Knowledge about commandlines
-* Having knowledga about an editor such as PyCharm, emacs, vi or
-  others. It will be up to you to identify and set up a working
-  environment.
+* A computer with python 2.7.x
+* Familiarity with commandline usage
+* A text editor such as PyCharm, emacs, vi or others. You should
+  identity which works best for you and set it up.
 * We do not recommend anaconda, or canopy as we ran into issues once
   you do some more advanced python. Instead we recommend you use pip
   and virtualenv. If you are unfamiliar with these tools, please
-  consult the manual and tutorials available for it n the internet.
+  consult the manual and tutorials available for it on the internet.
+
+Dependencies
+----------------------------------------------------------------------
+
+  - `Python <https://www.python.org/`_ 
+  - `Pip <https://pip.pypa.io/en/stable/>`_
+  - `Virtualenv <https://virtualenv.pypa.io/en/stable/>`_
+  - `NumPy <http://www.numpy.org/`_
+  - `SciPy <https://scipy.org/`_
+  - `Matplotlib <http://matplotlib.org/>`_
+  - `Pandas <http://pandas.pydata.org/`_
+
 
 Learning Goals
 ----------------------------------------------------------------------
@@ -48,10 +59,17 @@ At the end of this lesson you will be able to:
 - have an overview of the standard library
 - install Python libraries using ``virtualenv``
 
-Description
+Resources
 ----------------------------------------------------------------------
 
-.. include:: /class/lesson/linux/python/description.rst
+If you are unfamilliar with programming in Python, we also refer you
+to some of the numerous online resources. You may wish to start with
+www.learnpython.org or the book `Learn Python the Hard Way
+<http://learnpythonthehardway.org/book/>`_. Other options include
+`Tutorials Point <http://www.tutorialspoint.com/python/>`_ or `Code
+Academy <https://www.codecademy.com/learn/python>`_, and the Python
+wiki page contains a long list of `references for learning
+<https://wiki.python.org/moin/BeginnersGuide/Programmers>`_ as well.
 
 Acknowledgments
 ----------------------------------------------------------------------
