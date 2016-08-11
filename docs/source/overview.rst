@@ -127,16 +127,6 @@ Please use a headphone with microphone to increase sound quality.
 Calendar
 ---------
 
-.. todo:: Hyungro. Go to openedex and change the section numbers for
-          discussions accordingly. I am not sure if we could do jsut
-          the following:
-
-          * Discussion for Section 32866
-	  * Discussion for all others
-
-.. comment:: Discussion D[0-9] for All (I423/I523/E599) is posted
-
-
 All sessions refer to Sections, Discussions and Units published at the
 `Course Content Web Page <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/f712efaeae5a4d6ea2c87a0f34e0720b/>`_
 
