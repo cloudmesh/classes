@@ -32,7 +32,7 @@ In order to conduct this lesson you should
   others. It will be up to you to identify and set up a working
   environment.
 * We do not recommend anaconda, or canopy as we ran into issues once
-  you do some more advanced python. INstead we recommend you use pip
+  you do some more advanced python. Instead we recommend you use pip
   and virtualenv. If you are unfamiliar with these tools, please
   consult the manual and tutorials available for it n the internet.
 
