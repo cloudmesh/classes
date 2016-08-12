@@ -16,13 +16,22 @@ your Full Name.
 
 ----------------------------------------------------------------------
 
+External hyperlinks, like Python_.
+
+.. _Python: http://www.python.org/
+
 Week 1
 ------
 
 Video V1
 ~~~~~~~~~
-    Do Polls in Section 0. Watch Videos in Section 1: Units 1 and 2
 
+    Do Enrty Survey SURVEY1_ in Section 0
+    
+    Watch Videos in Section 1: Units 1 and 2
+
+.. _SURVEY1: http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/78c99cf482ba48e1aa08e3fc46186804/51746d1cce3643b68a0340d5502c6d16/
+    
 Video V2
 ~~~~~~~~~
     Watch Videos in Section 2: Units 3, 4, and 5. Note these units

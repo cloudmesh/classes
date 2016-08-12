@@ -200,7 +200,13 @@ All sessions refer to Sections, Discussions and Units published at the
 | 12/16/2016 | 16    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
 
+Common Mistakes
+---------------
 
+* starting the project to late.
+* not using gitlab for homework submission
+* not using the 2 colum ACM perport template
+* not using jabref or endnote for references
 
 Email
 ----------------------------------------------------------------------
@@ -408,20 +414,22 @@ Python or Java experience is expected. The programming load is modest.
 
 In case you elect a programming project we will assume that you are
 familiar with the programming languages required as part of the
-project you suggest. We will limit the languages to Python, Java, and
-JavaScript.  If you do not know the required technologies, we will
-expect you to learn it outside of class. For example, Python has a
-reputation for being easy to learn, and those with strong programming
-background in another general-purpose programming language (like
-C/C++, Java, Ruby, etc.) can learn it within a few days. Please
-consult the instructor if you have concerns about your programming
-background. In addition, we may encounter math of various kinds,
-including linear 1 algebra, probability theory, and basic calculus. We
-students with limited math backgrounds may need to do additional
-reading outside of class.
+project you suggest. We will limit the languages to Python and
+JavaScript if you like to do interactive vizulisation.  If you do not
+know the required technologies, we will expect you to learn it outside
+of class. For example, Python has a reputation for being easy to
+learn, and those with strong programming background in another
+general-purpose programming language (like C/C++, Java, Ruby, etc.)
+can learn it within a few hours to days dependent on experience
+level. Please consult the instructor if you have concerns about your
+programming background. In addition, we may encounter math of various
+kinds, including linear algebra, probability theory, and basic
+calculus. We expect that you know them on an elementary
+level. Students with limited math backgrounds may need to do
+additional reading outside of class.
 
 In case you are interested in further development of cloudmesh for big
-data strong Python or JavaScript experience is needed.
+data strong Python or JavaScript experience is needed. 
 
 
 Learning Outcomes
@@ -435,12 +443,12 @@ likely to be involved with Big Data in their future.
 Grading
 ----------------------------------------------------------------------
 
-Grading for homework will be done within a week for submission on the
+Grading for homework will be done within a week of submission on the
 due date. For homework that were submitted beyond the due date, the
 grading will be done within 2-3 weeks after the submission. A 10%
 grade reduction will be given. Some homework can not be delivered late
 (which will be clearly marked and 0 points will be given if
-late. These are mostly related to setting up your account and
+late; these are mostly related to setting up your account and
 communicating to us your account names.) 
 
 It is the student’s responsibility to upload submissions well ahead of
@@ -449,8 +457,9 @@ browser crashes, cloud issues, etc. It is a very good idea to make
 early submissions and then upload updates as the deadline approaches;
 we will grade the last submission received before the deadline.
 
-Note that paper and project will take a considerable time and doing
-proper time management is a must for this class.
+Note that paper and project will take a considerable amount of time
+and doing proper time management is a must for this class. Avoid
+starting your project late. Procastenation does not pay off.
 
 * 40% Homework
 * 40% Term Paper

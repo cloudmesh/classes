@@ -10,6 +10,14 @@ Big Data Applications and Analytics
 
    overview
 
+
+.. toctree::
+   :caption: Course
+   :maxdepth: 2
+
+   course
+   
+   
 .. toctree::
    :caption: Assignments
    :maxdepth: 2
