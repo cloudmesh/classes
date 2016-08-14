@@ -3017,13 +3017,47 @@ Download files from http://salsahpc.indiana.edu/pviz3/
 
 Section 9 - X= e-Commerce and LifeStyle Case Study 
 ======================================================================
- 
-
- 
 
 Section Overview 
 ----------------------------------------------------------------------
+
+Recommender systems operate under the hood of such widely recognized
+sites as Amazon, eBay, Monster and Netflix where everything is a
+recommendation. This involves a symbiotic relationship between vendor
+and buyer whereby the buyer provides the vendor with information about
+their preferences, while the vendor then offers recommendations
+tailored to match their needs. Kaggle competitions h improve the
+success of the Netflix and other recommender systems. Attention is
+paid to models that are used to compare how changes to the systems
+affect their overall performance. It is interesting that the humble
+ranking has become such a dominant driver of the world's economy. More
+examples of recommender systems are given from Google News, Retail
+stores and in depth Yahoo! covering the multi-faceted criteria used in
+deciding recommendations on web sites. 
+
+The formulation of recommendations in terms of points in a space or
+bag is given where bags of item properties, user properties, rankings
+and users are useful. Detail is given on basic principles behind
+recommender systems: user-based collaborative filtering, which uses
+similarities in user rankings to predict their interests, and the
+Pearson correlation, used to statistically quantify correlations
+between users viewed as points in a space of items. Items are viewed
+as points in a space of users in item-based collaborative
+filtering. The Cosine Similarity is introduced, the difference between
+implicit and explicit ratings and the k Nearest Neighbors
+algorithm. General features like the curse of dimensionality in high
+dimensions are discussed. A simple Python k Nearest Neighbor code and
+its application to an artificial data set in 3 dimensions is
+given. Results are visualized in Matplotlib in 2D and with Plotviz in
+3D. The concept of a training and a testing set are introduced with
+training set pre labeled. Recommender system are used to discuss
+clustering with k-means based clustering methods used and their
+results examined in Plotviz. The original labelling is compared to
+clustering results and extension to 28 clusters given. General issues
+in clustering are discussed including local optima, the use of
+annealing to avoid this and value of heuristic algorithms. 
  
+
 
  
 
@@ -3032,31 +3066,67 @@ Unit 20 - Recommender Systems: Introduction
  
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+We introduce Recommender systems as an optimization technology
+used in a variety of applications and contexts online. They operate in
+the background of such widely recognized sites as Amazon, eBay,
+Monster and Netflix where everything is a recommendation. This
+involves a symbiotic relationship between vendor and buyer whereby the
+buyer provides the vendor with information about their preferences,
+while the vendor then offers recommendations tailored to match their
+needs, to the benefit of both. 
+
+There follows an exploration of the Kaggle competition site, other
+recommender systems and Netflix, as well as competitions held to
+improve the success of the Netflix recommender system. Finally
+attention is paid to models that are used to compare how changes to
+the systems affect their overall performance. It is interesting how the
+humble ranking has become such a dominant driver of the world's
+economy. 
+
+
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+https://iu.app.box.com/s/v2coa6mxql12iax4yc8f
 
  
 
 Lesson 1 - Recommender Systems as an Optimization Problem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We define a set of general recommender systems as matching of items to
+people or perhaps collections of items to collections of people where
+items can be other people, products in a store, movies, jobs, events,
+web pages etc. We present this as "yet another optimization problem".
 
+https://youtu.be/rymBt1kdyVU
  
 
 Lesson 2 - Recommender Systems Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We give a general discussion of recommender systems and point out that
+they are particularly valuable in long tail of tems (to be
+recommended) that aren't commonly known. We pose them as a rating
+system and relate them to information retrieval rating systems. We can
+contrast recommender systems based on user profile and context; the
+most familiar collaborative filtering of others ranking; item
+properties; knowledge and hybrid cases mixing some or all of these.
 
+https://youtu.be/KbjBKrzFYKg
  
 
 Lesson 3 - Kaggle Competitions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+We look at Kaggle competitions with examples from web site. In
+particular we discuss an Irvine class project involving ranking jokes.
+
+https://youtu.be/DFH7GPrbsJA
 
  
 
@@ -3064,29 +3134,75 @@ Lesson 4 - Examples of Recommender Systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 
+We go through a list of 9 recommender systems from the same Irvine
+class.
+
+https://youtu.be/1Eh1epQj-EQ
  
 
 Lesson 5 - Netflix on Recommender Systems I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We summarize some interesting points from a tutorial from Netflix for
+whom ''everything is a recommendation''. Rankings are given in
+multiple categories and categories that reflect user interests are
+especially important. Criteria used include explicit user preferences,
+implicit based on ratings and hybrid methods as well as freshness and
+diversity. Netflix tries to explain the rationale of its
+recommendations. We give some data on Netflix operations and some
+methods used in its recommender systems. We describe the famous
+Netflix Kaggle competition to improve its rating system. The analogy
+to maximizing click through rate is given and the objectives of
+optimization are given.
 
+https://youtu.be/tXsU5RRAD-w
  
 
 Lesson 6 - Netflix on Recommender Systems II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We summarize some interesting points from a tutorial from Netflix for
+whom ''everything is a recommendation''. Rankings are given in
+multiple categories and categories that reflect user interests are
+especially important. Criteria used include explicit user preferences,
+implicit based on ratings and hybrid methods as well as freshness and
+diversity. Netflix tries to explain the rationale of its
+recommendations. We give some data on Netflix operations and some
+methods used in its recommender systems. We describe the famous
+Netflix Kaggle competition to improve its rating system. The analogy
+to maximizing click through rate is given and the objectives of
+optimization are given.
 
+https://youtu.be/GnAol5aGuEo
  
 
 Lesson 7 - Consumer Data Science
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Here we go through Netflix's methodology in letting data speak for
+itself in optimizing the recommender engine. An example iis given on
+choosing self produced movies. A/B testing is discussed with examples
+showing how testing does allow optimizing of sophisticated
+criteria. This lesson is concluded by comments on Netflix technology
+and the full spectrum of issues that are involved including user
+interface, data, AB testing, systems and architectures. We comment on
+optimizing for a household rather than optimizing for individuals in
+household.
 
+https://youtu.be/B8cjaOQ57LI
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutorial
+* http://www.ifi.uzh.ch/ce/teaching/spring2012/16-Recommender-Systems_Slides.pdf
+* https://www.kaggle.com/
+* http://www.ics.uci.edu/~welling/teaching/CS77Bwinter12/CS77B_w12.html
+* Jeff Hammerbacher https://berkeleydatascience.files.wordpress.com/2012/01/20120117berkeley1.pdf
+* http://www.techworld.com/news/apps/netflix-foretells-house-of-cards-success-with-cassandra-big-data-engine-3437514/
+* https://en.wikipedia.org/wiki/A/B_testing
+* http://www.infoq.com/presentations/Netflix-Architecture
 
 Unit 21 - Recommender Systems: Examples and Algorithms 
 ----------------------------------------------------------------------
@@ -3094,66 +3210,134 @@ Unit 21 - Recommender Systems: Examples and Algorithms
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We continue the discussion of recommender systems and their use in e-commerce. More examples are given from Google News, Retail stores and in depth Yahoo! covering the multi-faceted criteria used in deciding recommendations on web sites. Then the formulation of recommendations in terms of points in a space or bag is given.
 
+Here bags of item properties, user properties, rankings and users are useful. Then we go into detail on basic principles behind recommender systems: user-based collaborative filtering, which uses similarities in user rankings to predict their interests, and the Pearson correlation, used to statistically quantify correlations between users viewed as points in a space of items.
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/pqa1xpk7g4jnr7k2xlbe
  
 
 Lesson 1 - Recap and Examples of Recommender Systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+We start with a quick recap of recommender systems from previous unit;
+what they are with brief examples.
+
+https://youtu.be/dcdm5AfGZ64
 
  
 
 Lesson 2 - Examples of Recommender Systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We give 2 examples in more detail: namely Google News and Markdown in
+Retail.
 
+https://youtu.be/og07mH9fU0M
  
 
 Lesson 3 - Recommender Systems in Yahoo Use Case Example I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We describe in greatest detail the methods used to optimize Yahoo web
+sites. There are two lessons discussing general approach and a third
+lesson examines a particular personalized Yahoo page with its
+different components. We point out the different criteria that must be
+blended in making decisions; these criteria include analysis of what
+user does after a particular page is clicked; is the user satisfied
+and cannot that we quantified by purchase decisions etc. We need to
+choose Articles, ads, modules, movies, users, updates, etc to optimize
+metrics such as relevance score, CTR, revenue, engagement.These lesson
+stress that if though we have big data, the recommender data is
+sparse. We discuss the approach that involves both batch (offline) and
+on-line (real time) components.
 
+https://youtu.be/FBn7HpGFNvg
  
 
 Lesson 4 - Recommender Systems in Yahoo Use Case Example II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We give some examples in more detail including Google News, Markdown
+in Retail and in greatest detail the methods used to optimize a Yahoo
+page. Here we review recommender engines yet again put then examine a
+personalized Yahoo page with its different components. We point out
+the different criteria that must be blended in making decisions; these
+criteria include analysis of what user does after a particular page is
+clicked; is the user satisfied and cannot that we quantified by
+purchase decisions etc. We need to choose Articles, ads, modules,
+movies, users, updates, etc to optimize metrics such as relevance
+score, CTR, revenue, engagement.This lesson stresses that if though we
+have big data, the recommender data is sparse. We discuss the approach
+that involves both batch (offline) and on-line (real time) components.
 
+https://youtu.be/VS2Y4lAiP5A
  
 
 Lesson 5 - Recommender Systems in Yahoo Use Case Example III: Particular Module
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+We describe in greatest detail the methods used to optimize Yahoo web
+sites. There are two lessons discussing general approach and a third
+lesson examines a particular personalized Yahoo page with its
+different components. We point out the different criteria that must be
+blended in making decisions; these criteria include analysis of what
+user does after a particular page is clicked; is the user satisfied
+and cannot that we quantified by purchase decisions etc. We need to
+choose Articles, ads, modules, movies, users, updates, etc to optimize
+metrics such as relevance score, CTR, revenue, engagement.These lesson
+stress that if though we have big data, the recommender data is
+sparse. We discuss the approach that involves both batch (offline) and
+on-line (real time) components.
+
+https://youtu.be/HrRJWEF8EfU
 
  
 
 Lesson 6 - User-based nearest-neighbor collaborative filtering I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+Collaborative filtering is a core approach to recommender
+systems. There is user-based and item-based collaborative filtering
+and here we discuss the user-based case. Here similarities in user
+rankings allow one to predict their interests, and typically this
+quantified by the Pearson correlation, used to statistically quantify
+correlations between users.
+
+https://youtu.be/lsf_AE-8dSk
 
  
 
 Lesson 7 - User-based nearest-neighbor collaborative filtering I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Collaborative filtering is a core approach to recommender
+systems. There is user-based and item-based collaborative filtering
+and here we discuss the user-based case. Here similarities in user
+rankings allow one to predict their interests, and typically this
+quantified by the Pearson correlation, used to statistically quantify
+correlations between users.
 
+https://youtu.be/U7-qeX2ItPk
  
 
 Lesson 8 - Vector Space Formulation of Recommender Systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We go through recommender systems thinking of them as formulated in a
+funny vector space. This suggests using clustering to make
+recommendations.
 
+https://youtu.be/IlQUZOXlaSU
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* http://pages.cs.wisc.edu/~beechung/icml11-tutorial/
 
 Unit 22 - Item-based Collaborative Filtering and its Technologies 
 ----------------------------------------------------------------------
@@ -3161,29 +3345,59 @@ Unit 22 - Item-based Collaborative Filtering and its Technologies
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+We move on to item-based collaborative filtering where items
+are viewed as points in a space of users. The Cosine Similarity is
+introduced, the difference between implicit and explicit ratings and
+the k Nearest Neighbors algorithm. General features like the curse of
+dimensionality in high dimensions are discussed. 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/fvrwds7zd65m79a7uur3
  
 
 Lesson 1 - Item-based Collaborative Filtering I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We covered user-based collaborative filtering in the previous
+unit. Here we start by discussing memory-based real time and model
+based offline (batch) approaches. Now we look at item-based
+collaborative filtering where items are viewed in the space of users
+and the cosine measure is used to quantify distances. WE discuss
+optimizations and how batch processing can help. We discuss different
+Likert ranking scales and issues with new items that do not have a
+significant number of rankings.
 
+https://youtu.be/25sBgh3HwxY
  
 
 Lesson 2 - Item-based Collaborative Filtering II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We covered user-based collaborative filtering in the previous
+unit. Here we start by discussing memory-based real time and model
+based offline (batch) approaches. Now we look at item-based
+collaborative filtering where items are viewed in the space of users
+and the cosine measure is used to quantify distances. WE discuss
+optimizations and how batch processing can help. We discuss different
+Likert ranking scales and issues with new items that do not have a
+significant number of rankings.
 
+https://youtu.be/SM8EJdAa4mw
  
 
 Lesson 3 - k Nearest Neighbors and High Dimensional Spaces
- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We define the k Nearest Neighbor algorithms and present the Python
+software but do not use it. We give examples from Wikipedia and
+describe performance issues. This algorithm illustrates the curse of
+dimensionality. If items were a real vectors in a low dimension space,
+there would be faster solution methods.
+
+https://youtu.be/2NqUsDGQDy8
 
 Section 10 - Technology Training - kNN & Clustering 
 ======================================================================
@@ -3194,6 +3408,12 @@ Section 10 - Technology Training - kNN & Clustering
 Section Overview 
 ----------------------------------------------------------------------
  
+This section is meant to provide a discussion on the kth Nearest
+Neighbor (kNN) algorithm and clustering using K-means. Python version
+for kNN is discussed in the video and instructions for both Java and
+Python are mentioned in the slides. Plotviz is used for generating 3D
+visualizations.
+
 
  
 
@@ -3203,101 +3423,197 @@ Unit 23 - Recommender Systems - K-Nearest Neighbors (Python & Java Track)
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We discuss simple Python k Nearest Neighbor code and its
+application to an artificial data set in 3 dimensions. Results are
+visualized in Matplotlib in 2D and with Plotviz in 3D. The concept of
+training and testing sets are introduced with training set
+pre-labelled.
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+https://iu.app.box.com/s/i9et3dxnhr3qt5gn14bg
 
  
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+#. `kNNDriver.py </static/kNNDriver.py>`__
+#. `kNN.py </static/kNN.py>`__
+#. `datingTestSet2.txt </static/datingTestSet2.txt>`__
+#. `clusterFinal-M3-C3Dating-ReClustered.pviz </static/clusterFinal-M3-C3Dating-ReClustered.pviz>`__
+#. `DatingRating-OriginalLabels.pviz </static/DatingRating-OriginalLabels.pviz>`__
+#. `clusterFinal-M30-C28.pviz </static/clusterFinal-M30-C28.pviz>`__
+#. `java.zip </static/java.zip>`__
 
  
 
 Lesson 1 - Python k'th Nearest Neighbor Algorithms I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson considers the Python k Nearest Neighbor code found on the
+web associated with a book by Harrington on Machine Learning. There
+are two data sets. First we consider a set of 4 2D vectors divided
+into two categories (clusters) and use k=3 Nearest Neighbor algorithm
+to classify 3 test points. Second we consider a 3D dataset that has
+already been classified and show how to normalize. In this lesson we
+just use Matplotlib to give 2D plots.
 
+https://youtu.be/o16L0EqsQ_g
  
 
 Lesson 2 - Python k'th Nearest Neighbor Algorithms II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson considers the Python k Nearest Neighbor code found on the
+web associated with a book by Harrington on Machine Learning. There
+are two data sets. First we consider a set of 4 2D vectors divided
+into two categories (clusters) and use k=3 Nearest Neighbor algorithm
+to classify 3 test points. Second we consider a 3D dataset that has
+already been classified and show how to normalize. In this lesson we
+just use Matplotlib to give 2D plots.
 
+https://youtu.be/JK5p24mnTjs
  
 
 Lesson 3 - 3D Visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+The lesson modifies the online code to allow it to produce files
+readable by PlotViz. We visualize already classified 3D set and rotate
+in 3D.
 
+https://youtu.be/fLtH-ZI1Jqk
  
 
 Lesson 4 - Testing k'th Nearest Neighbor Algorithms
- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The lesson goes through an example of using k NN classification
+algorithm by dividing dataset into 2 subsets. One is training set with
+initial classification; the other is test point to be classified by
+k=3 NN using training set. The code records fraction of points with a
+different classification from that input. One can experiment with
+different sizes of the two subsets. The Python implementation of
+algorithm is analyzed in detail.
+
+https://youtu.be/zLaPGMIQ9So
 
 Unit 24 - Clustering and heuristic methods 
 ----------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+We use example of recommender system to discuss clustering. The
+details of methods are not discussed but k-means based clustering
+methods are used and their results examined in Plotviz. The original
+labelling is compared to clustering results and extension to 28
+clusters given. General issues in clustering are discussed including
+local optima, the use of annealing to avoid this and value of
+heuristic algorithms.
+
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/70qn6d61oln9b50jqobl
  
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+#. `fungi\_LSU\_3\_15\_to\_3\_26\_zeroidx.pviz </static/fungi_LSU_3_15_to_3_26_zeroidx.pviz>`__
+#. `DatingRating-OriginalLabels.pviz </static/DatingRating-OriginalLabels.pviz>`__
+#. `clusterFinal-M30-C28.pviz </static/clusterFinal-M30-C28.pviz>`__
+#. `clusterFinal-M3-C3Dating-ReClustered.pviz </static/clusterFinal-M3-C3Dating-ReClustered.pviz>`__
 
  
 
 Lesson 1 - Kmeans Clustering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We introduce the k means algorithm in a gentle fashion and
+describes its key features including dangers of local minima. A simple
+example from Wikipedia is examined.
 
+https://youtu.be/3KTNJ0Okrqs
  
 
 Lesson 2 - Clustering of Recommender System Example
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Plotviz is used to examine and compare the original classification
+with an ''optimal'' clustering into 3 clusters using a fancy
+deterministic annealing method that is similar to k means. The new
+clustering has centers marked.
 
+https://youtu.be/yl_KZ86NT-A
  
 
 Lesson 3 - Clustering of Recommender Example into more than 3 Clusters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+The previous division into 3 clusters is compared into a clustering
+into 28 separate clusters that are naturally smaller in size and
+divide 3D space covered by 1000 points into compact geometrically
+local regions.
+
+https://youtu.be/JWZmh48l0cw
 
  
 
 Lesson 4 - Local Optima in Clustering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson introduces some general principles. First many important
+processes are ''just'' optimization problems. Most such problems are
+rife with local optima. The key idea behind annealing to avoid local
+optima is described. The pervasive greedy optimization method is
+described.
 
+https://youtu.be/Zmq8O_axCmc
  
 
 Lesson 5 - Clustering in General
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+The two different applications of clustering are described. First find
+geometrically distinct regions and secondly divide spaces into
+geometrically compact regions that may have no ''thin air'' between
+them. Generalizations such as mixture models and latent factor methods
+are just mentioned. The important distinction between applications in
+vector spaces and those where only inter-point distances are defined
+is described. Examples are then given using PlotViz from 2D clustering
+of a mass spectrometry example and the results of clustering genomic
+data mapped into 3D with Multi Dimensional Scaling MDS.
+
+https://youtu.be/JejNZhBxjRU
 
  
 
 Lesson 6 - Heuristics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Some remarks are given on heuristics; why are they so important why
+getting exact answers is often not so important?
 
+https://youtu.be/KT22YuX8ZMY
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  https://en.wikipedia.org/wiki/Kmeans
+-  http://grids.ucs.indiana.edu/ptliupages/publications/DACIDR_camera_ready_v0.3.pdf
+-  http://salsahpc.indiana.edu/millionseq/
+-  http://salsafungiphy.blogspot.com/
+-  https://en.wikipedia.org/wiki/Heuristic
 
  
 
@@ -3309,7 +3625,23 @@ Section 11 - Cloud Computing Technology for Big Data Applications & Analytics (w
 
 Section Overview 
 ----------------------------------------------------------------------
- 
+
+We describe the central role of Parallel computing in Clouds and Big Data which is decomposed into lots of ''Little data'' running in individual cores. Many examples are given and it is stressed that issues in parallel computing are seen in day to day life for communication, synchronization, load balancing and decomposition. Cyberinfrastructure for e-moreorlessanything or moreorlessanything-Informatics and the basics of cloud computing are introduced. This includes virtualization and the important ''as a Service'' components and we go through several different definitions of cloud computing.
+
+Gartner's Technology Landscape includes hype cycle and priority matrix and covers clouds and Big Data. Two simple examples of the value of clouds for enterprise applications are given with a review of different views as to nature of Cloud Computing. This IaaS (Infrastructure as a Service) discussion is followed by PaaS and SaaS (Platform and Software as a Service). Features in Grid and cloud computing and data are treated. We summarize the 21 layers and almost 300 software packages in the HPC-ABDS Software Stack explaining how they are used.
+
+Cloud (Data Center) Architectures with physical setup, Green Computing
+issues and software models are discussed followed by the Cloud
+Industry stakeholders with a 2014 Gartner analysis of Cloud computing
+providers. This is followed by applications on the cloud including
+data intensive problems, comparison with high performance computing,
+science clouds and the Internet of Things. Remarks on Security, Fault
+Tolerance and Synchronicity issues in cloud follow. We describe the
+way users and data interact with a cloud system. The Big Data
+Processing from an application perspective with commercial examples
+including eBay concludes section after a discussion of data system
+architectures.
+
 
  
 
@@ -3319,121 +3651,258 @@ Unit 25 - Parallel Computing: Overview of Basic Principles with familiar Example
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+We describe the central role of Parallel computing in Clouds and Big Data which is decomposed into lots of ''Little data'' running in individual cores. Many examples are given and it is stressed that issues in parallel computing are seen in day to day life for communication, synchronization, load balancing and decomposition.
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/nau0rsr39kyej240s4yz
  
 
 Lesson 1 - Decomposition I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We describe why parallel computing is essential with Big Data
+and distinguishes parallelism over users to that over the data in
+problem. The general ideas behind data decomposition are given
+followed by a few often whimsical examples dreamed up 30 years ago in
+the early heady days of parallel computing. These include scientific
+simulations, defense outside missile attack and computer chess. The
+basic problem of parallel computing -- efficient coordination of
+separate tasks processing different data parts -- is described with
+MPI and MapReduce as two approaches. The challenges of data
+decomposition in irregular problems is noted.
 
+https://youtu.be/R-wHQW2YuRE
  
 
 Lesson 2 - Decomposition II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We describe why parallel computing is essential with Big Data
+and distinguishes parallelism over users to that over the data in
+problem. The general ideas behind data decomposition are given
+followed by a few often whimsical examples dreamed up 30 years ago in
+the early heady days of parallel computing. These include scientific
+simulations, defense outside missile attack and computer chess. The
+basic problem of parallel computing -- efficient coordination of
+separate tasks processing different data parts -- is described with
+MPI and MapReduce as two approaches. The challenges of data
+decomposition in irregular problems is noted.
 
+https://youtu.be/iIi9wdvlwCM
  
 
 Lesson 3 - Decomposition III
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+We describe why parallel computing is essential with Big Data
+and distinguishes parallelism over users to that over the data in
+problem. The general ideas behind data decomposition are given
+followed by a few often whimsical examples dreamed up 30 years ago in
+the early heady days of parallel computing. These include scientific
+simulations, defense outside missile attack and computer chess. The
+basic problem of parallel computing -- efficient coordination of
+separate tasks processing different data parts -- is described with
+MPI and MapReduce as two approaches. The challenges of data
+decomposition in irregular problems is noted.
+
+https://youtu.be/F0aeeLeTD9I
 
  
 
 Lesson 4 - Parallel Computing in Society I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This lesson from the past notes that one can view society as an
+approach to parallel linkage of people. The largest example given is
+that of the construction of a long wall such as that (Hadrian's wall)
+between England and Scotland. Different approaches to parallelism are
+given with formulae for the speed up and efficiency. The concepts of
+grain size (size of problem tackled by an individual processor) and
+coordination overhead are exemplified. This example also illustrates
+Amdahl's law and the relation between data and processor topology. The
+lesson concludes with other examples from nature including collections
+of neurons (the brain) and ants.
+
+https://youtu.be/8rtjoe8AeJw
 
  
 
 Lesson 5 - Parallel Computing in Society II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson from the past notes that one can view society as an
+approach to parallel linkage of people. The largest example given is
+that of the construction of a long wall such as that (Hadrian's wall)
+between England and Scotland. Different approaches to parallelism are
+given with formulae for the speed up and efficiency. The concepts of
+grain size (size of problem tackled by an individual processor) and
+coordination overhead are exemplified. This example also illustrates
+Amdahl's law and the relation between data and processor topology. The
+lesson concludes with other examples from nature including collections
+of neurons (the brain) and ants.
 
+https://youtu.be/7sCgH_TTPGk
  
 
 Lesson 6 - Parallel Processing for Hadrian's Wall
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson returns to Hadrian's wall and uses it to illustrate
+advanced issues in parallel computing. First We describe the
+basic SPMD -- Single Program Multiple Data -- model. Then irregular
+but homogeneous and heterogeneous problems are discussed. Static and
+dynamic load balancing is needed. Inner parallelism (as in vector
+instruction or the multiple fingers of masons) and outer parallelism
+(typical data parallelism) are demonstrated. Parallel I/O for
+Hadrian's wall is followed by a slide summarizing this quaint
+comparison between Big data parallelism and the construction of a
+large wall.
 
+https://youtu.be/ZD2AQ08cy8I
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* Solving Problems in Concurrent Processors-Volume 1,
+  with M. Johnson, G. Lyzenga, S. Otto, J. Salmon, D. Walker, Prentice
+  Hall, March 1988.
+* Parallel Computing Works!, with P. Messina, R. Williams, Morgan
+  Kaufman (1994). http://www.netlib.org/utk/lsi/pcwLSI/text/
+* The Sourcebook of Parallel Computing book edited by Jack Dongarra,
+  Ian Foster, Geoffrey Fox, William Gropp, Ken Kennedy, Linda Torczon,
+  and Andy White, Morgan Kaufmann, November 2002.
+* Geoffrey Fox Computational Sciences and Parallelism to appear in
+  Enclyclopedia on Parallel Computing edited by David Padua and
+  published by
+  Springer. http://grids.ucs.indiana.edu/ptliupages/publications/SpringerEncyclopedia_Fox.pdf
 
 Unit 26 - Cloud Computing Technology Part I: Introduction 
 ----------------------------------------------------------------------
  
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+We discuss Cyberinfrastructure for e-moreorlessanything or
+moreorlessanything-Informatics and the basics of cloud computing. This
+includes virtualization and the important 'as a Service' components
+and we go through several different definitions of cloud
+computing.Gartner's Technology Landscape includes hype cycle and
+priority matrix and covers clouds and Big Data. The unit concludes
+with two simple examples of the value of clouds for enterprise
+applications. Gartner also has specific predictions for cloud
+computing growth areas.
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/p3lztuu9kv240pdm66141or9b8p1uvzb
  
 
 Lesson 1 - Cyberinfrastructure for E-MoreOrLessAnything
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This introduction describes Cyberinfrastructure or e-infrastructure
+and its role in solving the electronic implementation of any problem
+where e-moreorlessanything is another term for
+moreorlessanything-Informatics and generalizes early discussion of
+e-Science and e-Business.
+
+https://youtu.be/gHz0cu195ZM
 
  
 
 Lesson 2 - What is Cloud Computing: Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Cloud Computing is introduced with an operational definition involving
+virtualization and efficient large data centers that can rent
+computers in an elastic fashion. The role of services is essential --
+it underlies capabilities being offered in the cloud. The four basic
+aaS's -- Software (SaaS), Platform (Paas), Infrastructure (IaaS) and
+Network (NaaS) -- are introduced with Research aaS and other
+capabilities (for example Sensors aaS are discussed later) being built
+on top of these.
 
+https://youtu.be/Od_mYXRs5As
  
 
 Lesson 3 - What and Why is Cloud Computing: Several Other Views I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 
+This lesson contains 5 slides with diverse comments on ''what is cloud
+computing'' from the web.
+
+https://youtu.be/5VeqMjXKU_Y
  
 
 Lesson 4 - What and Why is Cloud Computing: Several Other Views II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson contains 5 slides with diverse comments on ''what is cloud
+computing'' from the web.
 
+https://youtu.be/J963LR0PS_g
  
 
 Lesson 5 - What and Why is Cloud Computing: Several Other Views III
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson contains 5 slides with diverse comments on ''what is cloud
+computing'' from the web.
 
+https://youtu.be/_ryLXUnOAzo
  
 
 Lesson 6 - Gartner's Emerging Technology Landscape for Clouds and Big Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson gives Gartner's projections around futures of cloud and
+Big data. We start with a review of hype charts and then go into
+detailed Gartner analyses of the Cloud and Big data areas. Big data
+itself is at the top of the hype and by definition predictions of doom
+are emerging. Before too much excitement sets in, note that spinach is
+above clouds and Big data in Google trends.
 
+https://youtu.be/N7aEtU1mUwc
  
 
 Lesson 7 - Simple Examples of use of Cloud Computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This short lesson gives two examples of rather straightforward
+commercial applications of cloud computing. One is server
+consolidation for multiple Microsoft database applications and the
+second is the benefits of scale comparing gmail to multiple smaller
+installations. It ends with some fiscal comments.
 
+https://youtu.be/VCctCP6BKEo
  
 
 Lesson 8 - Value of Cloud Computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Some comments on fiscal value of cloud computing.
+
+https://youtu.be/HM1dZCxdsaA
 
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing
+* http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis
+* https://setandbma.wordpress.com/2012/08/10/hype-cycle-2012-emerging-technologies/
+* http://insights.dice.com/2013/01/23/big-data-hype-is-imploding-gartner-analyst-2/
+* http://research.microsoft.com/pubs/78813/AJ18_EN.pdf
+* http://static.googleusercontent.com/media/www.google.com/en//green/pdfs/google-green-computing.pdf
 
 Unit 27 - Cloud Computing Technology Part II: Software and Systems 
 ----------------------------------------------------------------------
@@ -3441,115 +3910,222 @@ Unit 27 - Cloud Computing Technology Part II: Software and Systems
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We cover different views as to nature of architecture and
+application for Cloud Computing. Then we discuss cloud software for
+the cloud starting at virtual machine management (IaaS) and the broad
+Platform (middleware) capabilities with examples from Amazon and
+academic studies. We summarize the 21 layers and almost 300 software
+packages in the HPC-ABDS Software Stack explaining how they are used.
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/k61o0ff1w6jkn5zmpaaiw02yth4v4alh
  
 
 Lesson 1 - What is Cloud Computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson gives some general remark of cloud systems from an
+architecture and application perspective.
 
+https://youtu.be/h3Rpb0Eyj1c
  
 
 Lesson 2 - Introduction to Cloud Software Architecture: IaaS and PaaS I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We discuss cloud software for the cloud starting at virtual
+machine management (IaaS) and the broad Platform (middleware)
+capabilities with examples from Amazon and academic studies.
 
+https://youtu.be/1AnyJYyh490
  
 
 Lesson 3 - Introduction to Cloud Software Architecture: IaaS and PaaS II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We cover different views as to nature of architecture and
+application for Cloud Computing. Then we discuss cloud software for
+the cloud starting at virtual machine management (IaaS) and the broad
+Platform (middleware) capabilities with examples from Amazon and
+academic studies. We summarize the 21 layers and almost 300 software
+packages in the HPC-ABDS Software Stack explaining how they are used.
 
+https://youtu.be/hVpFAUHcAd4
  
 
 Lesson 4 - Using the HPC-ABDS Software Stack
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Using the HPC-ABDS Software Stack.
 
+https://youtu.be/JuTQdRW78Pg
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis
+* http://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf
+* http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf
+* http://cloudonomic.blogspot.com/2009/02/cloud-taxonomy-and-ontology.html
 
 Unit 28 - Cloud Computing Technology Part III: Architectures, Applications and Systems 
 ----------------------------------------------------------------------
  
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+We start with a discussion of Cloud (Data Center)
+Architectures with physical setup, Green Computing issues and software
+models. We summarize a 2014 Gartner analysis of Cloud computing
+providers. This is followed by applications on the cloud including
+data intensive problems, comparison with high performance computing,
+science clouds and the Internet of Things. Remarks on Security, Fault
+Tolerance and Synchronicity issues in cloud follow.
+
+
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/0bn57opwe56t0rx4k18bswupfwj7culv
  
 
 Lesson 1 - Cloud (Data Center) Architectures I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+ome remarks on what it takes to build (in software) a cloud ecosystem,
+and why clouds are the data center of the future are followed by
+pictures and discussions of several data centers from Microsoft
+(mainly) and Google. The role of containers is stressed as part of
+modular data centers that trade scalability for fault tolerance. Sizes
+of cloud centers and supercomputers are discussed as is "green"
+computing.
+
+https://youtu.be/j0P32DmQjI8
 
  
 
 Lesson 2 - Cloud (Data Center) Architectures II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+Some remarks on what it takes to build (in software) a cloud
+ecosystem, and why clouds are the data center of the future are
+followed by pictures and discussions of several data centers from
+Microsoft (mainly) and Google. The role of containers is stressed as
+part of modular data centers that trade scalability for fault
+tolerance. Sizes of cloud centers and supercomputers are discussed as
+is ''green'' computing.
+
+https://youtu.be/3HAGqz34AB4
 
  
 
 Lesson 3 - Analysis of Major Cloud Providers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+Gartner 2014 Analysis of leading cloud providers.
+
+https://youtu.be/Tu8hE1SeT28
 
  
 
 Lesson 4 - Commercial Cloud Storage Trends
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+Use of Dropbox, iCloud, Box etc.
+
+https://youtu.be/i5OI6R526kM
 
  
 
 Lesson 5 - Cloud Applications I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This short lesson discusses the need for security and issues in its
+implementation.
 
+https://youtu.be/nkeSOMTGbbo
  
 
 Lesson 6 - Cloud Applications II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Clouds trade scalability for greater possibility of faults but here
+clouds offer good support for recovery from faults. We discuss both
+storage and program fault tolerance noting that parallel computing is
+especially sensitive to faults as a fault in one task will impact all
+other tasks in the parallel job.
 
+https://youtu.be/ORd3aBhc2Rc
  
 
 Lesson 7 - Science Clouds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+Science Applications and Internet of Things.
+
+https://youtu.be/2PDvpZluyvs
 
  
 
 Lesson 8 - Security
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This short lesson discusses the need for security and issues in its
+implementation.
 
+https://youtu.be/NojXG3fbrEo
  
 
 Lesson 9 - Comments on Fault Tolerance and Synchronicity Constraints
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+Clouds trade scalability for greater possibility of faults but here
+clouds offer good support for recovery from faults. We discuss both
+storage and program fault tolerance noting that parallel computing is
+especially sensitive to faults as a fault in one task will impact all
+other tasks in the parallel job.
+
+https://youtu.be/OMZiSiN7dlU
 
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing
+* http://www.eweek.com/c/a/Cloud-Computing/AWS-Innovation-Means-Cloud-Domination-307831
+* CSTI General Assembly 2012, Washington, D.C., USA Technical Activities Coordinating Committee (TACC) Meeting, Data Management, Cloud Computing and the Long Tail of Science October 2012 Dennis Gannon.
+* http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf
+* http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/
+* https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/
+* http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf
+* http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis
+* http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus
+* http://www.venus-c.eu/Pages/Home.aspx
+* Geoffrey Fox and Dennis Gannon Using Clouds for Technical Computing To be published in Proceedings of HPC 2012 Conference at Cetraro, Italy June 28 2012 http://grids.ucs.indiana.edu/ptliupages/publications/Clouds_Technical_Computing_FoxGannonv2.pdf
+* https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf
+* Taming The Big Data Tidal Wave: Finding Opportunities in Huge Data Streams with Advanced Analytics, Bill Franks Wiley ISBN: 978-1-118-20878-6
+* Anjul Bhambhri, VP of Big Data, IBM http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
+* Conquering Big Data with the Oracle Information Model, Helen Sun, Oracle 
+* Hugh Williams VP Experience, Search & Platforms, eBay http://businessinnovation.berkeley.edu/fisher-cio-leadership-program/
+* Dennis Gannon, Scientific Computing Environments, http://www.nitrd.gov/nitrdgroups/images/7/73/D_Gannon_2025_scientific_computing_environments.pdf
+* http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf
+* http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/
+* https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/
+* http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf
+* http://searchcloudcomputing.techtarget.com/feature/Cloud-computing-experts-forecast-the-market-climate-in-2014
+* http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus
+* http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing
+* http://www.venus-c.eu/Pages/Home.aspx
+* http://www.kpcb.com/internet-trends
 
 Unit 29 - Cloud Computing Technology Part IV: Data Systems 
 ----------------------------------------------------------------------
@@ -3558,48 +4134,80 @@ Unit 29 - Cloud Computing Technology Part IV: Data Systems
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We describe the way users and data interact with a cloud system. The
+unit concludes with the treatment of data in the cloud from an
+architecture perspective and Big Data Processing from an application
+perspective with commercial examples including eBay.
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/ftfpybxm8jzjepzp409vgair1fttv3m1
  
 
 Lesson 1 - The 10 Interaction scenarios (access patterns) I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+The next 3 lessons describe the way users and data interact with the
+system.
+
+https://youtu.be/vB4rCNri_P0
 
  
 
 Lesson 2 - The 10 Interaction scenarios - Science Examples
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson describes the way users and data interact with the system
+for some science examples.
 
+https://youtu.be/cFX1PQpiSbk
  
 
 Lesson 3 - Remaining general access patterns
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson describe the way users and data interact with the system
+for the final set of examples.
 
+https://youtu.be/-dtE9zXB-I0
  
 
 Lesson 4 - Data in the Cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Databases, File systems, Object Stores and NOSQL are discussed and
+compared. The way to build a modern data repository in the cloud is
+introduced.
 
+https://youtu.be/HdtIOnk3qX4
  
 
 Lesson 5 - Applications Processing Big Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson collects remarks on Big data processing from several
+sources: Berkeley, Teradata, IBM, Oracle and eBay with architectures
+and application opportunities.
 
+https://youtu.be/d6A2m4GR-hw
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* http://bigdatawg.nist.gov/_uploadfiles/M0311_v2_2965963213.pdf
+* https://dzone.com/articles/hadoop-t-etl
+* http://venublog.com/2013/07/16/hadoop-summit-2013-hive-authorization/
+* https://indico.cern.ch/event/214784/session/5/contribution/410
+* http://asd.gsfc.nasa.gov/archive/hubble/a_pdf/news/facts/FS14.pdf
+* http://blogs.teradata.com/data-points/announcing-teradata-aster-big-analytics-appliance/
+* http://wikibon.org/w/images/2/20/Cloud-BigData.png
+* http://hortonworks.com/hadoop/yarn/
+* https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf
+* http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
 
 Section 12 - X-Informatics with X = Web Search and Text Mining and their technologies 
 ======================================================================
@@ -3610,6 +4218,31 @@ Section 12 - X-Informatics with X = Web Search and Text Mining and their technol
 Section Overview 
 ----------------------------------------------------------------------
  
+This section starts with an overview of data mining and puts our study
+of classification, clustering and exploration methods in context. We
+examine the problem to be solved in web and text search and note the
+relevance of history with libraries, catalogs and concordances. An
+overview of web search is given describing the continued evolution of
+search engines and the relation to the field of Information
+Retrieval. The importance of recall, precision and diversity is
+discussed. The important Bag of Words model is introduced and both
+Boolean queries and the more general fuzzy indices. The important
+vector space model and revisiting the Cosine Similarity as a distance
+in this bag follows. The basic TF-IDF approach is dis
+cussed. Relevance is discussed with a probabilistic model while the
+distinction between Bayesian and frequency views of probability
+distribution completes this unit. 
+
+We start with an overview of the different steps (data
+analytics) in web search and then goes key steps in detail starting
+with document preparation. An inverted index is described and then how
+it is prepared for web search. The Boolean and Vector Space approach
+to query processing follow. This is followed by Link Structure
+Analysis including Hubs, Authorities and PageRank. The application of
+PageRank ideas as reputation outside web search is covered. The web
+graph structure, crawling it and issues in web advertising and search
+follow. The use of clustering and topic models completes section
+
 
  
 
@@ -3619,78 +4252,132 @@ Unit 30 - Web Search and Text Mining I
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+The unit starts with the web with its size, shape (coming from the mutual linkage of pages by URL's) and universal power laws for number of pages with particular number of URL's linking out or in to page. Information retrieval is introduced and compared to web search. A comparison is given between semantic searches as in databases and the full text search that is base of Web search. The origin of web search in libraries, catalogs and concordances is summarized. DIKW -- Data Information Knowledge Wisdom -- model for web search is discussed. Then features of documents, collections and the important Bag of Words representation. Queries are presented in context of an Information Retrieval architecture. The method of judging quality of results including recall, precision and diversity is described. A time line for evolution of search engines is given.
 
+Boolean and Vector Space models for query including the cosine similarity are introduced. Web Crawlers are discussed and then the steps needed to analyze data from Web and produce a set of terms. Building and accessing an inverted index is followed by the importance of term specificity and how it is captured in TF-IDF. We note how frequencies are converted into belief and relevance.
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+https://iu.app.box.com/s/qo7itbtcxp2b58syz3jg
 
  
 
 Lesson 1 - Web and Document/Text Search: The Problem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This lesson starts with the web with its size, shape (coming from the
+mutual linkage of pages by URL's) and universal power laws for number
+of pages with particular number of URL's linking out or in to page.
+
+https://youtu.be/T12BccKe8p4
 
  
 
 Lesson 2 - Information Retrieval leading to Web Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Information retrieval is introduced A comparison is given between
+semantic searches as in databases and the full text search that is
+base of Web search. The ACM classification illustrates potential
+complexity of ontologies. Some differences between web search and
+information retrieval are given.
 
+https://youtu.be/KtWhk2cdRa4
  
 
 Lesson 3 - History behind Web Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+The origin of web search in libraries, catalogs and concordances is
+summarized.
+
+https://youtu.be/J7D61uH5gVM
 
  
 
 Lesson 4 - Key Fundamental Principles behind Web Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson describes the DIKW -- Data Information Knowledge Wisdom --
+model for web search. Then it discusses documents, collections and the
+important Bag of Words representation.
 
+https://youtu.be/yPFi6xFnDHE
  
 
 Lesson 5 - Information Retrieval (Web Search) Components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 
+This describes queries in context of an Information Retrieval
+architecture. The method of judging quality of results including
+recall, precision and diversity is described.
+
+https://youtu.be/EGsnonXgb3Y
  
 
 Lesson 6 - Search Engines
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This short lesson describes a time line for evolution of search
+engines. The first web search approaches were directly built on
+Information retrieval but in 1998 the field was changed when Google
+was founded and showed the importance of URL structure as exemplified
+by PageRank.
 
+https://youtu.be/kBV-99N6f7k
  
 
 Lesson 7 - Boolean and Vector Space Models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This lesson describes the Boolean and Vector Space models for query
+including the cosine similarity.
+
+https://youtu.be/JzGBA0OhsIk
 
  
 
 Lesson 8 - Web crawling and Document Preparation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This describes a Web Crawler and then the steps needed to analyze data
+from Web and produce a set of terms.
 
+https://youtu.be/Wv-r-PJ9lro
  
 
 Lesson 9 - Indices
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson describes both building and accessing an inverted
+index. It describes how phrases are treated and gives details of query
+structure from some early logs.
 
+https://youtu.be/NY2SmrHoBVM
  
 
 Lesson 10 - TF-IDF and Probabilistic Models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+It describes the importance of term specificity and how it is captured
+in TF-IDF. It notes how frequencies are converted into belief and
+relevance.
+
+https://youtu.be/9P_HUmpselU
 
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+http* ://saedsayad.com/data_mining_map.htm
+* http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html
+* The Web Graph: an Overview Jean-Loup Guillaume and Matthieu Latapy https://hal.archives-ouvertes.fr/file/index/docid/54458/filename/webgraph.pdf
+* Constructing a reliable Web graph with information on browsing behavior, Yiqun Liu, Yufei Xue, Danqing Xu, Rongwei Cen, Min Zhang, Shaoping Ma, Liyun Ru http://www.sciencedirect.com/science/article/pii/S0167923612001844
+* http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
 
 Unit 31 - Web Search and Text Mining II 
 ----------------------------------------------------------------------
@@ -3699,48 +4386,89 @@ Unit 31 - Web Search and Text Mining II
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+We start with an overview of the different steps (data analytics) in web search. This is followed by Link Structure Analysis including Hubs, Authorities and PageRank. The application of PageRank ideas as reputation outside web search is covered. Issues in web advertising and search follow. his leads to emerging field of computational advertising. The use of clustering and topic models completes unit with Google News as an example.
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/iuzc1qfep748z1o2kgx2
  
 
 Lesson 1 - Data Analytics for Web Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
 
+This short lesson describes the different steps needed in web search
+including: Get the digital data (from web or from scanning); Crawl
+web; Preprocess data to get searchable things (words, positions); Form
+Inverted Index mapping words to documents; Rank relevance of documents
+with potentially sophisticated techniques; and integrate technology to
+support advertising and ways to allow or stop pages artificially
+enhancing relevance.
+
+https://youtu.be/ugyycKBjaBQ
  
 
 Lesson 2 - Link Structure Analysis including PageRank I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+The value of links and the concepts of Hubs and Authorities are
+discussed. This leads to definition of PageRank with
+examples. Extensions of PageRank viewed as a reputation are discussed
+with journal rankings and university department rankings as
+examples. There are many extension of these ideas which are not
+discussed here although topic models are covered briefly in a later
+lesson.
+
+https://youtu.be/1oXdopVxqfI
 
  
 
 Lesson 3 - Link Structure Analysis including PageRank II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+The value of links and the concepts of Hubs and Authorities are
+discussed. This leads to definition of PageRank with
+examples. Extensions of PageRank viewed as a reputation are discussed
+with journal rankings and university department rankings as
+examples. There are many extension of these ideas which are not
+discussed here although topic models are covered briefly in a later
+lesson.
 
+https://youtu.be/OCn-gCTxvrU
  
 
 Lesson 4 - Web Advertising and Search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+Internet and mobile advertising is growing fast and can be
+personalized more than for traditional media. There are several
+advertising types Sponsored search, Contextual ads, Display ads and
+different models: Cost per viewing, cost per clicking and cost per
+action. This leads to emerging field of computational advertising.
+
+https://youtu.be/GgkmG0NzQvg
 
  
 
 Lesson 5 - Clustering and Topic Models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We discuss briefly approaches to defining groups of documents. We
+illustrate this for Google News and give an example that this can give
+different answers from word-based analyses. We mention some work at
+Indiana University on a Latent Semantic Indexing model.
 
+https://youtu.be/95cHMyZ-TUs
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
+* https://en.wikipedia.org/wiki/PageRank
+* http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html
+* Meeker/Wu May 29 2013 Internet Trends D11 Conference http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013
 
 Section 13 - Technology for Big Data Applications and Analytics 
 ======================================================================
@@ -3752,7 +4480,27 @@ Section Overview
 ----------------------------------------------------------------------
  
 
- 
+We use the K-means Python code in SciPy package to show real
+code for clustering. After a simple example we generate 4 clusters of
+distinct centers and various choice for sizes using Matplotlib tor
+visualization. We show results can sometimes be incorrect and
+sometimes make different choices among comparable solutions. We
+discuss the ''hill'' between different solutions and rationale for
+running K-means many times and choosing best answer. Then we introduce
+MapReduce with the basic architecture and a homely example. The
+discussion of advanced topics includes an extension to Iterative
+MapReduce from Indiana University called Twister and a generalized Map
+Collective model. Some measurements of parallel performance are
+given. The SciPy K-means code is modified to support a MapReduce
+execution style. This illustrates the key ideas of mappers and
+reducers. With appropriate runtime this code would run in parallel but
+here the ''parallel'' maps run sequentially. This simple 2 map version
+can be generalized to scalable parallelism. Python is used to
+Calculate PageRank from Web Linkage Matrix showing several different
+formulations of the basic matrix equations to finding leading
+eigenvector. The unit is concluded by a calculation of PageRank for
+general web pages by extracting the secret from Google.
+
 
 Unit 32 - Technology for X-Informatics: K-means (Python & Java Track) 
 ----------------------------------------------------------------------
@@ -3760,40 +4508,115 @@ Unit 32 - Technology for X-Informatics: K-means (Python & Java Track)
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We use the K-means Python code in SciPy package to show real
+code for clustering. After a simple example we generate 4 clusters of
+distinct centers and various choice for sizes using Matplotlib tor
+visualization. We show results can sometimes be incorrect and
+sometimes make different choices among comparable solutions. We
+discuss the ''hill'' between different solutions and rationale for
+running K-means many times and choosing best answer.
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+https://iu.app.box.com/s/ltgbehfjwvgh40l5d3w8
 
  
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+#. `xmean.py </static/xmean.py>`__
+#. `sample.csv </static/sample.csv>`__
+#. `ParallelKmeans.py </static/ParallelKmeans.py>`__
+#. `KmeansExtra.py </static/KmeansExtra.py>`__
+#. `KMeans.java </static/KMeans.java>`__
+#. `ReadMe </static/ReadMe>`__
+#. `ScatterPlot.java </static/ScatterPlot.java>`__
+#. `SimpleKMeans.java </static/SimpleKMeans.java>`__
 
  
 
 Lesson 1 - K-means in Python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+We use the K-means Python code in SciPy package to show real
+code for clustering and applies it a set of 85 two dimensional vectors
+-- officially sets of weights and heights to be clustered to find
+T-shirt sizes. We run through Python code with Matplotlib displays to
+divide into 2-5 clusters. Then we discuss Python to generate 4
+clusters of varying sizes and centered at corners of a square in two
+dimensions. We formally give the K means algorithm better than before
+and make definition consistent with code in SciPy.
+
+https://youtu.be/I79ISV6XBbE
 
  
 
 Lesson 2 - Analysis of 4 Artificial Clusters I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We present clustering results on the artificial set of 1000 2D points
+described in previous lesson for 3 choices of cluster sizes ''small''
+''large'' and ''very large''. We emphasize the SciPy always does 20
+independent K means and takes the best result -- an approach to
+avoiding local minima. We allow this number of independent runs to be
+changed and in particular set to 1 to generate more interesting
+erratic results. We define changes in our new K means code that also
+has two measures of quality allowed. The slides give many results of
+clustering into 2 4 6 and 8 clusters (there were only 4 real
+clusters). We show that the ''very small'' case has two very different
+solutions when clustered into two clusters and use this to discuss
+functions with multiple minima and a hill between them. The lesson has
+both discussion of already produced results in slides and interactive
+use of Python for new runs.
+
+https://youtu.be/Srgq9VDg4C8
 
  
 
 Lesson 3 - Analysis of 4 Artificial Clusters II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We present clustering results on the artificial set of 1000 2D points
+described in previous lesson for 3 choices of cluster sizes ''small''
+''large'' and ''very large''. We emphasize the SciPy always does 20
+independent K means and takes the best result -- an approach to
+avoiding local minima. We allow this number of independent runs to be
+changed and in particular set to 1 to generate more interesting
+erratic results. We define changes in our new K means code that also
+has two measures of quality allowed. The slides give many results of
+clustering into 2 4 6 and 8 clusters (there were only 4 real
+clusters). We show that the ''very small'' case has two very different
+solutions when clustered into two clusters and use this to discuss
+functions with multiple minima and a hill between them. The lesson has
+both discussion of already produced results in slides and interactive
+use of Python for new runs.
 
+https://youtu.be/rjyAXjA_mOk
  
 
 Lesson 4 - Analysis of 4 Artificial Clusters III
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We present clustering results on the artificial set of 1000 2D points
+described in previous lesson for 3 choices of cluster sizes ''small''
+''large'' and ''very large''. We emphasize the SciPy always does 20
+independent K means and takes the best result -- an approach to
+avoiding local minima. We allow this number of independent runs to be
+changed and in particular set to 1 to generate more interesting
+erratic results. We define changes in our new K means code that also
+has two measures of quality allowed. The slides give many results of
+clustering into 2 4 6 and 8 clusters (there were only 4 real
+clusters). We show that the ''very small'' case has two very different
+solutions when clustered into two clusters and use this to discuss
+functions with multiple minima and a hill between them. The lesson has
+both discussion of already produced results in slides and interactive
+use of Python for new runs.
+
+https://youtu.be/N6QKyrhNVAc
 
  
 
@@ -3805,28 +4628,53 @@ Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 
- 
+We describe the basic architecture of MapReduce and a homely
+example. The discussion of advanced topics includes extension to
+Iterative MapReduce from Indiana University called Twister and a
+generalized Map Collective model. Some measurements of parallel
+performance are given.
+
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.app.box.com/s/hqykdx1bquez7ers3d1j
  
 
 Lesson 1 - Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This introduction uses an analogy to making fruit punch by slicing and
+blending fruit to illustrate MapReduce. The formal structure of
+MapReduce and Iterative MapReduce is presented with parallel data
+flowing from disks through multiple Map and Reduce phases to be
+inspected by the user.
 
+https://youtu.be/67qFY64aj7g
  
 
 Lesson 2 - Advanced Topics I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This defines 4 types of MapReduce and the Map Collective model of
+Qiu. The Iterative MapReduce model from Indiana University called
+Twister is described and a few performance measurements on Microsoft
+Azure are presented.
+
+https://youtu.be/lo4movzSyVw
 
  
 
 Lesson 3 - Advanced Topics II
- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This defines 4 types of MapReduce and the Map Collective model of
+Qiu. The Iterative MapReduce model from Indiana University called
+Twister is described and a few performance measurements on Microsoft
+Azure are presented.
+
+https://youtu.be/wnanWncQBow
+
 
 Unit 34 - Technology for X-Informatics: Kmeans and MapReduce Parallelism (Python & Java Track) 
 ----------------------------------------------------------------------
@@ -3834,29 +4682,59 @@ Unit 34 - Technology for X-Informatics: Kmeans and MapReduce Parallelism (Python
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We modify the SciPy K-means code to support a MapReduce
+execution style and runs it in this short unit. This illustrates the
+key ideas of mappers and reducers. With appropriate runtime this code
+would run in parallel but here the ''parallel'' maps run
+sequentially. We stress that this simple 2 map version can be
+generalized to scalable parallelism.
+
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+https://iu.app.box.com/s/zc9pckhyehn0cog8wy19
 
  
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+#. `ParallelKmeans.py </static/ParallelKmeans.py>`__
+#. `KMeans.java </static/KMeans.java>`__
+#. `ReadMe </static/ReadMe>`__
+#. `ScatterPlot.java </static/ScatterPlot.java>`__
+#. `SimpleKMeans.java </static/SimpleKMeans.java>`__
 
  
 
 Lesson 1 - MapReduce Kmeans in Python I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We modify the SciPy K-means code to support a MapReduce
+execution style and runs it in this short unit. This illustrates the
+key ideas of mappers and reducers. With appropriate runtime this code
+would run in parallel but here the ''parallel'' maps run
+sequentially. We stress that this simple 2 map version can be
+generalized to scalable parallelism.
 
+https://youtu.be/2El1oL3gKpQ
  
 
 Lesson 2 - MapReduce Kmeans in Python II
- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We modify the SciPy K-means code to support a MapReduce
+execution style and runs it in this short unit. This illustrates the
+key ideas of mappers and reducers. With appropriate runtime this code
+would run in parallel but here the ''parallel'' maps run
+sequentially. We stress that this simple 2 map version can be
+generalized to scalable parallelism.
+
+https://youtu.be/LLrTWWdE3T0
+
 
 Unit 35 - Technology for X-Informatics: PageRank (Python & Java Track) 
 ----------------------------------------------------------------------
@@ -3864,35 +4742,57 @@ Unit 35 - Technology for X-Informatics: PageRank (Python & Java Track)
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We use Python to Calculate PageRank from Web Linkage Matrix
+showing several different formulations of the basic matrix equations
+to finding leading eigenvector. The unit is concluded by a calculation
+of PageRank for general web pages by extracting the secret from
+Google.
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+https://iu.app.box.com/s/gwq1qp0kmwbvilo0kjqq
 
  
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+#. `pagerank1.py </static/pagerank1.py>`__
+#. `pagerank2.py </static/pagerank2.py>`__
+#. `JenkinsHash.java </static/JenkinsHash.java>`__
+#. `PageRank.java </static/PageRank.java>`__
 
  
 
 Lesson 1 - Calculate PageRank from Web Linkage Matrix I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We take two simple matrices for 6 and 8 web sites respectively
+to illustrate the calculation of PageRank.
 
+https://youtu.be/rLWUvvcHrCQ
  
 
 Lesson 2 - Calculate PageRank from Web Linkage Matrix II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+We take two simple matrices for 6 and 8 web sites respectively
+to illustrate the calculation of PageRank.
+
+https://youtu.be/UzQRukCFQv8
 
  
 
 Lesson 3 - Calculate PageRank of a real page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+This tiny lesson presents a Python code that finds the Page Rank that
+Google calculates for any page on the web.
+
+https://youtu.be/8L_72bRLQVk
 
 Section 14 - X = Sensors Case Study 
 ======================================================================
@@ -3903,6 +4803,16 @@ Section 14 - X = Sensors Case Study
 Section Overview 
 ----------------------------------------------------------------------
  
+We start with the Internet of Things IoT giving examples like
+monitors of machine operation, QR codes, surveillance cameras,
+scientific sensors, drones and self driving cars and more generally
+transportation systems. We give examples of robots and drones. We
+introduce the Industrial Internet of Things IIoT and summarize surveys
+and expectations Industry wide. We give examples from General
+Electric. Sensor clouds control the many small distributed devices of
+IoT and IIoT. More detail is given for radar data gathered by sensors;
+ubiquitous or smart cities and homes including U-Korea; and finally
+the smart electric grid.
 
  
 
@@ -3912,125 +4822,222 @@ Unit 36 - X-Informatics Case Study: Sensors
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We start with the Internet of Things IoT giving examples like
+monitors of machine operation, QR codes, surveillance cameras,
+scientific sensors, drones and self driving cars and more generally
+transportation systems. We give examples of robots and drones. We
+introduce the Industrial Internet of Things IIoT and summarize surveys
+and expectations Industry wide. We give examples from General
+Electric. Sensor clouds control the many small distributed devices of
+IoT and IIoT. More detail is given for radar data gathered by sensors;
+ubiquitous or smart cities and homes including U-Korea; and finally
+the smart electric grid.
 
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+https://iu.box.com/s/9a5y7p7xvhjqgrc9zjob8gorv3ft4kyq
  
 
 Lesson 1 - Internet of Things
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+There are predicted to be 24-50 Billion devices on the Internet by
+2020; these are typically some sort of sensor defined as any source or
+sink of time series data. Sensors include smartphones, webcams,
+monitors of machine operation, barcodes, surveillance cameras,
+scientific sensors (especially in earth and environmental science),
+drones and self driving cars and more generally transportation
+systems. The lesson gives many examples of distributed sensors, which
+form a Grid that is controlled by a cloud.
+
 
  
 
 Lesson 2 - Robotics and IOT Expectations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Examples of Robots and Drones.
 
+https://youtu.be/VqXvn0dwqxs
  
 
 Lesson 3 - Industrial Internet of Things I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We summarize surveys and expectations Industry wide.
 
+https://youtu.be/jqQJjtTEsEo
  
 
 Lesson 4 - Industrial Internet of Things II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+Examples from General Electric.
+
+https://youtu.be/YiIvQRCi3j8
 
  
 
 Lesson 5 - Sensor Clouds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+We describe the architecture of a Sensor Cloud control
+environment and gives example of interface to an older version of
+it. The performance of system is measured in terms of processing
+latency as a function of number of involved sensors with each
+delivering data at 1.8 Mbps rate.
 
+https://youtu.be/0egT1FsVGrU
  
 
 Lesson 6 - Earth/Environment/Polar Science data gathered by Sensors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson gives examples of some sensors in the
+Earth/Environment/Polar Science field. It starts with material from
+the CReSIS polar remote sensing project and then looks at the NSF
+Ocean Observing Initiative and NASA's MODIS or Moderate Resolution
+Imaging Spectroradiometer instrument on a satellite.
 
+https://youtu.be/CS2gX7axWfI
  
 
 Lesson 7 - Ubiquitous/Smart Cities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+For Ubiquitous/Smart cities we give two examples: Iniquitous Korea and
+smart electrical grids.
+
+https://youtu.be/MFFIItQ3SOo
 
  
 
 Lesson 8 - U-Korea (U=Ubiquitous)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+Korea has an interesting positioning where it is first worldwide in
+broadband access per capita, e-government, scientific literacy and
+total working hours. However it is far down in measures like quality
+of life and GDP. U-Korea aims to improve the latter by Pervasive
+computing, everywhere, anytime i.e. by spreading sensors
+everywhere. The example of a 'High-Tech Utopia' New Songdo is given.
 
+https://youtu.be/wdot23r4YKs
  
 
 Lesson 9 - Smart Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+The electrical Smart Grid aims to enhance USA's aging electrical
+infrastructure by pervasive deployment of sensors and the integration
+of their measurement in a cloud or equivalent server infrastructure. A
+variety of new instruments include smart meters, power monitors, and
+measures of solar irradiance, wind speed, and temperature. One goal is
+autonomous local power units where good use is made of waste heat.
+
+https://youtu.be/m3eX8act0GU
 
  
 
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* https://www.gesoftware.com/minds-and-machines
+* https://www.gesoftware.com/predix
+* https://www.gesoftware.com/sites/default/files/the-industrial-internet/index.html
+* https://developer.cisco.com/site/eiot/discover/overview/
+* http://www.accenture.com/SiteCollectionDocuments/PDF/Accenture-Industrial-Internet-Changing-Competitive-Landscape-Industries.pdf
+* http://www.gesoftware.com/ge-predictivity-infographic
+* http://www.getransportation.com/railconnect360/rail-landscape
+www.gesoftware.com/sites/default/files/GE-Software-Modernizing-Machine-to-Machine-Interactions.pdf
  
 
 Section 15 - X= Radar Case Study 
 ======================================================================
  
 
- 
-
 Unit 37 - X-Informatics Case Study: Radar 
 ----------------------------------------------------------------------
- 
- 
+
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-
+The changing global climate is suspected to have long-term effects on much of the world's inhabitants. Among the various effects, the rising sea level will directly affect many people living in low-lying coastal regions. While the ocean-s thermal expansion has been the dominant contributor to rises in sea level, the potential contribution of discharges from the polar ice sheets in Greenland and Antarctica may provide a more significant threat due to the unpredictable response to the changing climate. The Radar-Informatics unit provides a glimpse in the processes fueling global climate change and explains what methods are used for ice data acquisitions and analysis.
  
 
 Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
 
+https://iu.app.box.com/s/njxktkb71e2cbroopsx2
  
 
 Lesson 1 - Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson motivates radar-informatics by building on previous
+discussions on why X-applications are growing in data size and why
+analytics are necessary for acquiring knowledge from large data. The
+lesson details three mosaics of a changing Greenland ice sheet and
+provides a concise overview to subsequent lessons by detailing
+explaining how other remote sensing technologies, such as the radar,
+can be used to sound the polar ice sheets and what we are doing with
+radar images to extract knowledge to be incorporated into numerical
+models.
 
+https://youtu.be/LXOncC2AhsI
  
 
 Lesson 2 - Remote Sensing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson explains the basics of remote sensing, the characteristics
+of remote sensors and remote sensing applications. Emphasis is on
+image acquisition and data collection in the electromagnetic spectrum.
 
+https://youtu.be/TTrm9rmZySQ
  
 
 Lesson 3 - Ice Sheet Science
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 
+This lesson provides a brief understanding on why melt water at the
+base of the ice sheet can be detrimental and why it’s important for
+sensors to sound the bedrock.
+
+https://youtu.be/rDpjMLguVBc
  
 
 Lesson 4 - Global Climate Change
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This lesson provides an understanding and the processes for the
+greenhouse effect, how warming effects the Polar Regions, and the
+implications of a rise in sea level.
+
+https://youtu.be/f9hzzJX0qDs
 
  
 
 Lesson 5 - Radio Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+ This lesson provides an elementary introduction to radar and its
+ importance to remote sensing, especially to acquiring information
+ about Greenland and Antarctica.
+
+ https://youtu.be/PuI7F-RMKCI
 
  
 
 Lesson 6 - Radio Informatics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This lesson focuses on the use of sophisticated computer vision
+algorithms, such as active contours and a hidden markov model to
+support data analysis for extracting layers, so ice sheet models can
+accurately forecast future changes in climate.
+
+https://youtu.be/q3Pwyt49syE
