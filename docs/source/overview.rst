@@ -459,7 +459,8 @@ we will grade the last submission received before the deadline.
 
 Note that paper and project will take a considerable amount of time
 and doing proper time management is a must for this class. Avoid
-starting your project late. Procastenation does not pay off.
+starting your project late. Procastenation does not pay off. Late
+Projects or term papers will receive a 10% grade reduction.
 
 * 40% Homework
 * 40% Term Paper
