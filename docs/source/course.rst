@@ -611,14 +611,9 @@ Video: http://youtu.be/u1h6bAkuWQ8
 Lesson 2 - Science & Research II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We look into more big data examples with a focus on science and
-research. We give astronomy, genomics, radiology, particle physics and
-discovery of Higgs particle (Covered in more detail in later lessons),
-European Bioinformatics Institute and contrast to Facebook and
-Walmart.
+Continuation of Lesson 1 - Part 2
 
 Video: http://youtu.be/_JfcUg2cheg
-
 
 
 Lesson 3 - Implications for Scientific Method
@@ -737,11 +732,7 @@ Video: http://youtu.be/FMktnTQGyrw
 Lesson 3 - Features of Data Deluge II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Data, Information, intelligence algorithms, infrastructure, data
-structure, semantics and knowledge are related. The semantic web and
-Big data are compared. We give an example where "More data usually
-beats better algorithms". We discuss examples of intelligent big data
-and list 8 different types of data deluge.
+Continuation of Lesson 2 - Part 2
 
 Video: http://youtu.be/QNVZobXHiZw
 
@@ -771,9 +762,7 @@ Video: http://youtu.be/RPVojR8jrb8
 Lesson 6 - Data Analytics II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We stress the importance of data analytics giving examples from
-several fields. We note that better analytics is as important as
-better computing and storage capability.
+Continuation of Lesson 5 - Part 2
 
 Link to the slide:
 href="http://archive2.cra.org/ccc/files/docs/nitrdsymposium/keyes.pdf
@@ -786,7 +775,7 @@ Video: http://youtu.be/wOSgywqdJDY
 
 
 Resources
----------
+---------------
 
 * CSTI General Assembly 2012, Washington, D.C., USA Technical Activities Coordinating Committee (TACC) Meeting, Data Management, Cloud Computing and the Long Tail of Science October 2012 Dennis Gannon
 * Dan Reed Roger Barga Dennis Gannon Rich Wolskihttp://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf
@@ -911,9 +900,7 @@ Video: http://youtu.be/-D9mEdM62uY
 Lesson 6 - Medical image Big Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
 Video: http://youtu.be/aaNplveyKf0
-
 
 
 Lesson 7 - Clouds and Health
@@ -1410,11 +1397,7 @@ Lesson 4 - Numpy 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
- NumPy - It is popular library on top of which many other libraries
- (like pandas, scipy) are built. It provides a way a vectorizing
- data. This helps to organize in a more intuitive fashion and also
- helps us use the various matrix operations which are popularly used
- by the machine learning community.
+Continuation of Lesson 3 - Part 2
 
  Video: http://youtu.be/7QfW7AT7UNU
 
@@ -1422,11 +1405,7 @@ Lesson 4 - Numpy 2
 Lesson 5 - Numpy 3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-NumPy - It is popular library on top of which many other libraries
-(like pandas, scipy) are built. It provides a way a vectorizing
-data. This helps to organize in a more intuitive fashion and also
-helps us use the various matrix operations which are popularly used by
-the machine learning community.
+Continuation of Lesson 3 - Part 3
 
 Video: http://youtu.be/Ccb67Q5gpsk
 
@@ -1444,9 +1423,7 @@ Video: http://youtu.be/3UOvB5OmtYE
 Lesson 7 - Matplotlib 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Matplotlib: This a data visualization package. It allows you to create
-graphs charts and other such diagrams. It supports Images in JPEG,
-GIF, TIFF format.
+Continuation of Lesson 6 - Part 2
 
 Video: http://youtu.be/9ONSnsN4hcg
 
@@ -1465,10 +1442,7 @@ Video: http://youtu.be/lpC6Mn-09jY
 Lesson 9 - Scipy 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-SciPy: SciPy is a library built above numpy and has a number of off
-the shelf algorithms / operations implemented. These include
-algorithms from calculus(like integration), statistics, linear
-algebra, image-processing, signal processing, machine learning, etc.
+Continuation of Lesson 9 - Part 2
 
 Video: http://youtu.be/-XKBz7qCUqw
 
