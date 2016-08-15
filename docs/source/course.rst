@@ -1764,8 +1764,6 @@ https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y
  
 :download:`HiggsClassIII.py <files/python/physics/number_theory/higgs_classIII.py>`
 
-HiggsClassIII.py
-
 Lesson 1 - Statistics Overview and Fundamental Idea: Random Variables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
