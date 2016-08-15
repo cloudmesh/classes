@@ -3650,6 +3650,8 @@ https://iu.app.box.com/s/nau0rsr39kyej240s4yz
 Lesson 1 - Decomposition I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We describe why parallel computing is essential with Big Data
 and distinguishes parallelism over users to that over the data in
 problem. The general ideas behind data decomposition are given
@@ -3667,16 +3669,7 @@ https://youtu.be/R-wHQW2YuRE
 Lesson 2 - Decomposition II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We describe why parallel computing is essential with Big Data
-and distinguishes parallelism over users to that over the data in
-problem. The general ideas behind data decomposition are given
-followed by a few often whimsical examples dreamed up 30 years ago in
-the early heady days of parallel computing. These include scientific
-simulations, defense outside missile attack and computer chess. The
-basic problem of parallel computing -- efficient coordination of
-separate tasks processing different data parts -- is described with
-MPI and MapReduce as two approaches. The challenges of data
-decomposition in irregular problems is noted.
+This is Part 2 of "Decomposition".
 
 https://youtu.be/iIi9wdvlwCM
  
@@ -3684,16 +3677,7 @@ https://youtu.be/iIi9wdvlwCM
 Lesson 3 - Decomposition III
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We describe why parallel computing is essential with Big Data
-and distinguishes parallelism over users to that over the data in
-problem. The general ideas behind data decomposition are given
-followed by a few often whimsical examples dreamed up 30 years ago in
-the early heady days of parallel computing. These include scientific
-simulations, defense outside missile attack and computer chess. The
-basic problem of parallel computing -- efficient coordination of
-separate tasks processing different data parts -- is described with
-MPI and MapReduce as two approaches. The challenges of data
-decomposition in irregular problems is noted.
+This is Part 3 of "Decomposition".
 
 https://youtu.be/F0aeeLeTD9I
 
