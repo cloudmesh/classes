@@ -450,6 +450,27 @@ additional reading outside of class.
 In case you are interested in further development of cloudmesh for big
 data strong Python or JavaScript experience is needed. 
 
+You will also need a sufficently modern and powerfull computer to do
+the class work. Naturally if you expect that you want to to the course
+only on your cell phone or iPad, or your windows 98 computer, this
+does not work. We recommend that you have a relatively new and updated
+computer with sufficient memory. In some cases its easier to not use
+Windows and for example use Linux via virtualbox, so your machine
+should have sufficient memory to comfortably run it. If you do not
+have such a machine we are at this time trying to get virtual machines
+that you can use on our cloud. However, runtime of these VMs is
+limited to 6 hours and they will be terminated after that. Naturally
+you can run new VMs. This is done in order to avoid resource "hogging"
+of idle VMs. In contrast to AWS you are not paying for our VMs so we
+enforce a rule to encourage proper community spirit while not
+occupying resources that could be used by others. Certainly you can
+naturally also use AWS or other clouds where you can run virtual
+machines, but in that case you need to pay for the usage yourself.
+
+Please remember that this course does not have a required text books
+and the money you safe on this you can use to buy a new or upgrade
+your current computer if needed. 
+
 
 Learning Outcomes
 -----------------

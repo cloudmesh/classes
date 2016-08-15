@@ -1,7 +1,10 @@
 .. _assignments:
-   
+
+Homework
+========
+
 Assignments
-======================================================================
+----------------------------------------------------------------------
 
 If not otherwise stated homework in all sections and classes is the
 same. All lectures are assigned Friday's and homework is due next week
@@ -14,17 +17,17 @@ back in case the homework has been updated.
 As you will be doing some discussions, please PREFACE YOUR POSTS with
 your Full Name.
 
-----------------------------------------------------------------------
+
 
 External hyperlinks, like Python_.
 
 .. _Python: http://www.python.org/
 
 Week 1
-------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Communication
--------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     * Enroll in https://piazza.com/class/irqfvh1ctrg2vt
     * Enroll in gmail.com
@@ -33,7 +36,7 @@ Communication
       
 
 Video V1
-~~~~~~~~~
+^^^^^^^^^
 
     Do Enrty Survey SURVEY1_ in Section 0
     
@@ -42,18 +45,18 @@ Video V1
 .. _SURVEY1: https://docs.google.com/forms/d/148AAxmPqXvoRz_zouYEg5JRgJ14WYDYezDtQUSnsiFg
 
 Video V2
-~~~~~~~~~
+^^^^^^^^^
     Watch Videos in Section 2: Units 3, 4, and 5. Note these units
     have overlap with Unit 2 of Section 1.
 
 Discussion d1
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
     Consider Discussion d1 after Section 1. Please post on topic "Why
     is Big Data interesting to`me" and also comment on at least 2
     other posts. 
 
 Paper p1
-~~~~~~~~~
+^^^^^^^^^
       This requires to write a paper that is 2 pages in
       length. Please use the 2 column ACM proceedings Format. Write a
       paper discussing the following topics:
@@ -68,14 +71,14 @@ Paper p1
 ----------------------------------------------------------------------
 
 Week 2
-------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Video V3
-~~~~~~~~~
+^^^^^^^^^
       Please watch Section 3 Unit 6. Total Length 2.5 hours 
 
 Discussion d3
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
            Consider Discussion d3 after Section 3. Please post
 	   about the topic "Where are the Big Data Jobs now and in
 	   future? Discuss anything you can share -- areas that are
@@ -83,7 +86,7 @@ Discussion d3
 	   2 other posts.
 
 Paper p2
-~~~~~~~~~
+^^^^^^^^^
 	  This requires to write a paper that is two pages in
       	  length. Please use the 2 column ACM proceedings Format.
 	  Write a paper discussing the following topics:
@@ -96,14 +99,14 @@ Paper p2
 ----------------------------------------------------------------------
 
 Week 3
-------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Video V4
-~~~~~~~~~
+^^^^^^^^^
       Please watch Section 4 Unit 7-9. Total Length 3.5 hours
 
 Discussion d4
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 	   Consider Discussion d4 after Section 4 Please post on topic
 	   "Sports and Health Informatics":
 
@@ -114,7 +117,7 @@ Discussion d4
 	   * Comment on at least 2 other posts. 
 
 Paper p3
-~~~~~~~~~
+^^^^^^^^^
          This requires to write a paper that is from one to two pages in
       	 length. Please use the 2 column ACM proceedings Format.
 	
@@ -126,7 +129,7 @@ Paper p3
 	 * How is Big Data and Little Data applied to the Olympics2016?
 
 Term Paper and Term Project Report Assignment T1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
      Please prepare for the selection process for a project or a term paper:
      
      * Review the guidelines for the project and term paper.
@@ -137,18 +140,18 @@ Term Paper and Term Project Report Assignment T1
      * Decide for a topic that you want to do and the team. Commit to
        it by end of Week 4.
 
-----------------------------------------------------------------------
+----------------------------------------------------------------------       
 
 Week 4
-------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Video V5
-~~~~~~~~~
+^^^^^^^^^
       Please watch Section 5 Units 10, 11. Total Length 2.5 hours.
 
 
 Programming prg1: Python
-~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 	* Install Python and other listed dependencies on your
 	  computer, alternatively you can use resources on
@@ -200,7 +203,7 @@ Programming prg1: Python
 	       Missing items will result in zero points being given
 	      
 Futuresystems
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 	* Obtain an account on Futuresystems.org and join project
 	  FG511. Not that this will take time and you need to do this
 	  ASAP. No late assignments will be accepted. If you are late
@@ -208,7 +211,7 @@ Futuresystems
 	  Fill out the Poll **TBD**. 
 	
 ChameleonCloud
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 	* Obtain an account on https://www.chameleoncloud.org. Fill
 	  out the Poll TBD (This assignment is optional, but we have
 	  made good experience with Chameleon cloud, so we advise you
@@ -217,7 +220,7 @@ ChameleonCloud
 	  time that you can join and use chameleon cloud). 
 
 OpenStack
-~~~~~~~~~~
+^^^^^^^^^^
 	* Inform yourself about OpenStack and how to start and stop
 	  virtual machines via the command line.
 	* Optionally, you can use cloudmesh_client for this (If you
@@ -225,7 +228,7 @@ OpenStack
 
 
 Discussion d5
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 	   Create a NEW post to discuss your final project you want to do
 	   and look for team members (if you want to build a team).
@@ -233,14 +236,14 @@ Discussion d5
 ----------------------------------------------------------------------
 
 Week 5
-------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Video S6
-~~~~~~~~~
+^^^^^^^^^
       Watch the video in Section 6.
 
 prg2
-~~~~~
+^^^^^
 	 Consider the Python/Java code available on Section 6 Unit 13
  	 “Files” tab (the third one) as HiggsClassIIUniform.py or
 	 HiggsClassIIUniform.java. This software is also available on
@@ -267,7 +270,7 @@ prg2
 	 https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs
 	 
 Discussion d6
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 	   Post on Discussion d6 after Section 7, the “Physics” topic:
 	   
 	   * What you found interesting, remarkable or shocking about
@@ -278,14 +281,14 @@ Discussion d6
 ----------------------------------------------------------------------	     
 	     
 Week 6
--------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Video S7
-~~~~~~~~~
+^^^^^^^^^
       Watch the videaos in section 7
  
 Discussion d7
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 	   Post on Discussion d7 on the topic:
 
 	   * Which is the most interesting/important of the 51
@@ -299,21 +302,21 @@ Discussion d7
 ----------------------------------------------------------------------
 
 Week 7
-------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This weeks lecture will be determined at a later time.
 
 ----------------------------------------------------------------------
 
 Week 8
-------------	       
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Video S9
-~~~~~~~~~
+^^^^^^^^^
       Watch the videos related to Section 9
 
 Discussion d9
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
             Post on Discussion d9:
 
 	    * What are benefits for e-Commerce?
@@ -327,19 +330,19 @@ Discussion d9
 ----------------------------------------------------------------------
 
 Week 9
-------------	       
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Video S10
-~~~~~~~~~
+^^^^^^^^^
       Watch the videos related to Section 10
 
 Discussion d10
-~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^
 
         Use Discussion d10 in case you have questions about prg3
 
 Programming prg3
-~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^
 
          Develop a python program conducting k-means. Use a meanungful
          dataset of your choice but not just random. Produce a
@@ -357,15 +360,15 @@ Programming prg3
 ----------------------------------------------------------------------
 
 Week 10
---------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Discussion d11
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
           Discuss what you learnt from video you watched in
 	  S11: Parallel Computing and Clouds
 	   
 Paper p11
-~~~~~~~~~~
+^^^^^^^^^^
      Consider any 5 cloud or cloud like activities from list of 11 below.
      Describe the ones you chose and expalin what ways they could be used
      to generate an X-Informatics for some X. Write a 2 page paper wit
@@ -386,14 +389,14 @@ Paper p11
 ----------------------------------------------------------------------
 
 Week 11 - Week 13
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Project or Term Report
-~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^
     Work on your project
     
 Discussion 11, 12, 13, 14
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 	   Discuss what you learnt from videos you watched in last 2
 	   weeks of class Sections 12-15; chose one of the topics: Web
 	   Search and Text mining, Big Data Technology, Sensors, Radar
@@ -402,7 +405,8 @@ Discussion 11, 12, 13, 14
 	   
 
 Week 13 - Dec. 2nd
--------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
           Continue to work on your Term Paper or Project
 
 	  Due date for the project is Dec 2nd.  It will a considerable
@@ -414,10 +418,10 @@ Week 13 - Dec. 2nd
 
 
 Assignment Guidelines
-======================================================================
+----------------------------------------------------------------------
 
 Getting Access and Systems Support
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For some projects you will need access to a cloud. We recommend you
 evaluate which cloud would be most appropriate for your project. This
@@ -455,7 +459,7 @@ software.
 .. _s_paper_format:
 
 Report and Paper Format
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 All reports and paper assignments will be using the ACM proceedings
@@ -508,7 +512,7 @@ Report Checklist:
 ----------------------------------------------------------------------
   
 Software Project
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Develop a software system with OpenStack available on FutureSystems or
 Chameleoncloud to support it. Only choose the software option if you
@@ -596,7 +600,7 @@ teaming can change in actual final project.
 ----------------------------------------------------------------------    
     
 Term Paper
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Term Report:
     In case you chose the term paper, you or your team will pick a topic
@@ -669,11 +673,11 @@ Possible Term Paper Topics:
 ----------------------------------------------------------------------
 
       Project Proposal
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Project and Term Paper Proposal Format
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Please submit a one page ACM style 2 column paper in which you include
 the following information dependent on if you do a term paper or
