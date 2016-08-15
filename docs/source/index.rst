@@ -13,7 +13,7 @@ Big Data Applications and Analytics
 
 .. toctree::
    :caption: Course
-   :maxdepth: 2
+   :maxdepth: 4
 
    course
    

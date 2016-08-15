@@ -72,7 +72,7 @@ Video: http://youtu.be/mbZyXrVX4G4
 
 
 Lesson 3 - Course Topics I 
----------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Discussion of some of the available units:
 
@@ -87,7 +87,8 @@ Video: http://youtu.be/9NgG-AUOpYQ
 
 
 Lesson 4 - Course Topics II
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Discussion of some more of the available units:
 
@@ -101,7 +102,7 @@ Discussion of some more of the available units:
 Video http://youtu.be/pxuyjeLQc54
 
 Lesson 5 - Course Topics III
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Discussesion of the remainder of the available units:
 
