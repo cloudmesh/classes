@@ -3686,6 +3686,8 @@ https://youtu.be/F0aeeLeTD9I
 Lesson 4 - Parallel Computing in Society I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+This is Part 1.
+
 This lesson from the past notes that one can view society as an
 approach to parallel linkage of people. The largest example given is
 that of the construction of a long wall such as that (Hadrian's wall)
@@ -3703,17 +3705,8 @@ https://youtu.be/8rtjoe8AeJw
 
 Lesson 5 - Parallel Computing in Society II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-This lesson from the past notes that one can view society as an
-approach to parallel linkage of people. The largest example given is
-that of the construction of a long wall such as that (Hadrian's wall)
-between England and Scotland. Different approaches to parallelism are
-given with formulae for the speed up and efficiency. The concepts of
-grain size (size of problem tackled by an individual processor) and
-coordination overhead are exemplified. This example also illustrates
-Amdahl's law and the relation between data and processor topology. The
-lesson concludes with other examples from nature including collections
-of neurons (the brain) and ants.
+
+This is Part 2 of "Parallel Computing in Society".
 
 https://youtu.be/7sCgH_TTPGk
  
