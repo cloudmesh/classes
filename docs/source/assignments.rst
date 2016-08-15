@@ -33,7 +33,14 @@ Communication
     * Enroll in gmail.com
     * Enroll in gitlab.com
     * Enroll in class ;-)
-      
+
+    * If you do not have a computer on which you can do your
+      assignments please apply for an account with Chameleon Cloud.
+      You will have to ask for you to be added to project
+
+      CH-818144: https://www.chameleoncloud.org/user/projects/33130/
+
+      Note: You will only be allowed to use VMs for a duration of 6 hours.
 
 Video V1
 ^^^^^^^^^
