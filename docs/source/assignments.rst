@@ -153,10 +153,36 @@ Video V5
 Programming prg1: Python
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-	* Install Python and other listed dependencies on your
-	  computer, alternatively you can use resources on
-	  FutureSystems. 
-	* Learn Python, E.g. go through the :doc:`python` lesson.
+    Hardware:
+        Identify a suitable hardware enviornment that works
+        for you to conduct the assignments. Firts you must have access
+	to a sufficiently powerful computer. This could be your Laptop
+	or Desktop, or you could get access to machines at IU's
+	computer labs or virtual machines.
+
+    Setup Python:
+        Next you will need to setup Python on the machin or
+        verify if python works. We recommend that you use python 2.7
+        and *NOT* python 3. We recommend that you follow the
+	instructions from python.org and use virtualenv.  As editor
+	we recommend you use Pycharm or Emacs.
+
+    Alternative:
+        Optionally you can use canopy for some of the simpler
+	projects, it is an integrated python environment that is good
+	for beginners. We do not recommend anaconda as some libraries
+	may not be ported to it yet. IN case you have difficulties
+	with canopy, please use python.org
+
+    Useful software: 
+        - `Python <https://www.python.org/`_ 
+	- `NumPy <http://www.numpy.org/`_
+	- `SciPy <https://scipy.org/`_
+	- `Matplotlib <http://matplotlib.org/>`_
+	- `Pandas <http://pandas.pydata.org/`_
+
+    Tasks:
+        * Learn Python, E.g. go through the :doc:`python` lesson.
 	* Use *virtualenv* and *pip* to customize your environment.
 	* Learn `Python pandas <http://pandas.pydata.org/>` and do a
           simple Python application demonstrating:
@@ -672,7 +698,7 @@ Possible Term Paper Topics:
 
 ----------------------------------------------------------------------
 
-      Project Proposal
+Project Proposal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 

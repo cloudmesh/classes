@@ -6,46 +6,6 @@ Programming Assignments
 .. contents::
    :local:
 
-HOMEWORK H4: GET YOUR SOFTWARE SET UP FOR LATER
-----------------------------------------------------------------------
-
-First some background: You will need modest software for some of
-lectures and homeworks. This can be most easily done in Python but
-Java is also possible; no other languages are relevant. You MIGHT use
-software in final project. Note the final project will be individual
-or up to a three person team and can either be a significant PAPER or
-a SOFTWARE PROJECT. We can support Software in Java on clouds or
-Python but other software such as R allowed in final project Your team
-chooses. You can find sample software and paper projects. See Chapter
-Two: Sample Project.
-
-Preparing Software
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Java and Python are installed on our cloud as explained in Unit 11.
-Here you choose between Python on your laptop, Python in cloud or Java
-in cloud.
-
-• DO - Install a Python environment on your system. You need:
-
-  - `Python <https://www.python.org/`_ 
-  - `NumPy <http://www.numpy.org/`_
-  - `SciPy <https://scipy.org/`_
-  - `Matplotlib <http://matplotlib.org/>`_
-  - `Pandas <http://pandas.pydata.org/`_
-
-  We do not recommend Enthought Canopy of Continuum Anaconda for this.
-
-• OR - Set up Python in cloud or Java in cloud. See Unit 11.
-
-Tasks
-~~~~~~~~~
-
-Submit results to show your software is set up and running. Solve
-tasks following instructions. See Chapter Three Homework HW4
-(FirstProgram).
-
-• Submit your Java OR Python program results to IU Canvas
 
 Discussion D5
 ~~~~~~~~~~~~~
