@@ -262,6 +262,12 @@ You have a choice to write a term paper or do a software project using
 our cloud computing test bed. This will constitute to 40% of your
 class grade.
 
+In case you chose a project your maximum grade could be an
+A+. However, and A+ project must be truly outstanding and include an
+exceptional project report. Such a project and report will have the
+potential quality of being able to be published in a confernece. 
+
+In case you chose a Term Paper your maximum Grade will be an A-.
 
 Software Project
 ----------------
