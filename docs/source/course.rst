@@ -158,7 +158,7 @@ economic imperative, computing model, research model, Opportunities in
 advancing computing, Opportunities in X-Informatics, Data Science
 Education
 
-http://youtu.be/kyJxstTivoI
+Video: http://youtu.be/kyJxstTivoI
  
 
 Lesson 2: Data Deluge
@@ -179,7 +179,7 @@ Finance, Health, Intelligence, Lifestyle, Marketing, Medicine,
 Pathology, Policy, Radar, Security, Sensor, Social, Sustainability,
 Wealth and Wellness"
 
-http://youtu.be/sVNV0NxlQ6A
+Video: http://youtu.be/sVNV0NxlQ6A
 
  
 
@@ -190,7 +190,7 @@ Jobs abound in clouds and data science. There are documented shortages
 in data science, computer science and the major tech companies
 advertise for new talent.
 
-http://youtu.be/h9u7YeKkHHU
+Video: http://youtu.be/h9u7YeKkHHU
  
 
 Lesson 4 - Industrial Trends
@@ -202,7 +202,7 @@ comparative decrease in desktop access, the export of internet
 content, the change in dominant client operating systems, use of
 social media, thriving chinese internet companies.
 
-http://youtu.be/EIRIPDYN5nM
+Video: http://youtu.be/EIRIPDYN5nM
 
 Lesson 5 - Digital Disruption of Old Favorites
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -211,7 +211,7 @@ Not everything goes up. The rise of the Internet has led to declines
 in some traditional areas including Shopping malls and Postal
 Services.
 
-http://youtu.be/RxGopRuMWOE
+Video: http://youtu.be/RxGopRuMWOE
 
  
 
@@ -226,7 +226,7 @@ consolidation. Then key characteristics of clouds are reviewed with
 expected high growth in Infrastructure, Platform and Software as a
 Service.
 
-http://youtu.be/NBZPQqXKbiw
+Video: http://youtu.be/NBZPQqXKbiw
 
 
  
@@ -237,7 +237,7 @@ Lesson 7 - Research Model: 4th Paradigm; From Theory to Data driven science?
 We introduce the 4 paradigms of scientific research with the
 focus on the new fourth data driven methodology.
 
-http://youtu.be/2ke459BRBhw
+Video: http://youtu.be/2ke459BRBhw
  
 
 Lesson 8 - Data Science Process
@@ -248,7 +248,7 @@ We introduce the DIKW data to information to knowledge to
 wisdom paradigm. Data flows through cloud services transforming itself
 and emerging as new information to input into other transformations.
 
-http://youtu.be/j9ytOaBoe2k
+Video: http://youtu.be/j9ytOaBoe2k
 
 Lesson 9 - Physics-Informatics Looking for Higgs Particle with Large Hadron Collider LHC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -259,7 +259,7 @@ as a bump in a histogram; something that so amazed him 50 years ago
 that he got a PhD in this field. He left field partly due to the
 incredible size of author lists on papers.
 
-http://youtu.be/qUB0q4AOavY
+Video: http://youtu.be/qUB0q4AOavY
  
 
 Lesson 10 - Recommender Systems I
@@ -273,7 +273,7 @@ recommendation and muses about the power of viewing all sorts of
 things as items in a bag or more abstractly some space with funny
 properties.
 
-http://youtu.be/Aj5k0Sa7XGQ
+Video: http://youtu.be/Aj5k0Sa7XGQ
 
  
 
@@ -288,7 +288,7 @@ recommendation and muses about the power of viewing all sorts of
 things as items in a bag or more abstractly some space with funny
 properties.
 
-http://youtu.be/VHS7il5OdjM
+Video: http://youtu.be/VHS7il5OdjM
 
 
  
@@ -302,7 +302,7 @@ overview of the data analytics for web search, Pagerank as a method of
 ranking web pages returned and uses material from Yahoo on the subtle
 algorithms for dynamic personalized choice of material for web pages.
 
-http://youtu.be/i9gR9PdVXUU
+Video: http://youtu.be/i9gR9PdVXUU
  
 
 Lesson 13 - Cloud Application in Research
@@ -312,7 +312,7 @@ We describe scientific applications and how they map onto
 clouds, supercomputers, grids and high throughput systems. He likes
 the cloud use of the Internet of Things and gives examples.
 
-http://youtu.be/C19-5WQH2TU
+Video: http://youtu.be/C19-5WQH2TU
  
 
 Lesson 14 - Parallel Computing and MapReduce
@@ -321,7 +321,7 @@ Lesson 14 - Parallel Computing and MapReduce
 We define MapReduce and gives a homely example from fruit
 blending.
 
-http://youtu.be/BbW1PFNnKrE
+Video: http://youtu.be/BbW1PFNnKrE
  
 
 Lesson 15 - Data Science Education
@@ -340,7 +340,7 @@ model. Grading and mentoring models and important online tools are
 discussed. Clouds have MOOC's describing them and MOOC's are stored in
 clouds; a pleasing symmetry.
 
-http://youtu.be/x2LuiX8DYLs
+Video: http://youtu.be/x2LuiX8DYLs
 
 
  
@@ -354,7 +354,7 @@ ecosystem in one sentence "Use Clouds running Data Analytics
 Collaboratively processing Big Data to solve problems in X-Informatics
 educated in data science"
 
-http://youtu.be/C0GszJg-MjE
+Video: http://youtu.be/C0GszJg-MjE
  
 
 Resources
@@ -400,8 +400,7 @@ Section 2 - Overview of Data Science: What is Big Data, Data Analytics and X-Inf
 ===============================================================================================
  
 
-
- Section Overview 
+Section Overview 
 -----------------------------------------------------------
 
 The course introduction starts with X-Informatics and its rallying
@@ -437,7 +436,7 @@ to give a good composite picture of this emerging field.
 
  
 
- Unit 3 - Part I: Data Science generics and Commercial Data Deluge 
+Unit 3 - Part I: Data Science generics and Commercial Data Deluge 
 -----------------------------------------------------------
  
 Unit Overview
@@ -473,7 +472,7 @@ to solve problems in X-Informatics. We list many values of X you can
 defined in various activities across the world.
  
 
-http://youtu.be/AKkyWF95Fp4
+Video: http://youtu.be/AKkyWF95Fp4
 
 Lesson 2 - Jobs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -484,7 +483,7 @@ reports by Microsoft and the McKinsey institute respectively. We show
 a plot from LinkedIn showing rapid increase in the number of data
 science and analytics jobs as a function of time.
 
-http://youtu.be/pRlfEigUJAc
+Video: http://youtu.be/pRlfEigUJAc
 
 
 Lesson 3 - Data Deluge -- General Structure
@@ -497,7 +496,7 @@ how it is integrated into an enterprise IT architecture. We give some
 views as to what characterizes Big data and why data science is a
 science that is needed to interpret all the data.
  
-http://youtu.be/mPJ9twAFRQU
+Video: http://youtu.be/mPJ9twAFRQU
 
 Lesson 4 - Data Science -- Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -507,7 +506,7 @@ knowledge and then wisdom, policy and decisions. This pipeline is
 illustrated with Google maps and we show how complex the ecosystem of
 data, transformations (filters) and its derived forms is.
 
-http://youtu.be/ydH34L-z0Rk
+Video: http://youtu.be/ydH34L-z0Rk
 
  
 
@@ -518,7 +517,7 @@ We give examples of Big data from the Internet with Tweets, uploaded
 photos and an illustration of the vitality and size of many commodity
 applications.
 
-http://youtu.be/rtuq5y2Bx2g
+Video: http://youtu.be/rtuq5y2Bx2g
 
  
 
@@ -532,7 +531,7 @@ offline in shopping malls. We give examples from ebay showing how
 analytics allowing them to refine and improve the customer
 experiences.
 
-http://youtu.be/PJz38t6yn_s
+Video: http://youtu.be/PJz38t6yn_s
 
  
 
@@ -546,7 +545,7 @@ offline in shopping malls. We give examples from ebay showing how
 analytics allowing them to refine and improve the customer
 experiences.
 
-http://youtu.be/fESm-2Vox9M
+Video: http://youtu.be/fESm-2Vox9M
 
  
 
@@ -560,7 +559,7 @@ offline in shopping malls. We give examples from ebay showing how
 analytics allowing them to refine and improve the customer
 experiences.
 
-http://youtu.be/fcvn-IxPO00
+Video: http://youtu.be/fcvn-IxPO00
  
 
 Resources
@@ -579,7 +578,7 @@ Resources
 * Hugh Williams http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
 
 
- Unit 4 - Part II: Data Deluge and Scientific Applications and Methodology 
+Unit 4 - Part II: Data Deluge and Scientific Applications and Methodology 
 -----------------------------------------------------------
  
 
@@ -616,7 +615,7 @@ discovery of Higgs particle (Covered in more detail in later lessons),
 European Bioinformatics Institute and contrast to Facebook and
 Walmart.
 
-http://youtu.be/u1h6bAkuWQ8
+Video: http://youtu.be/u1h6bAkuWQ8
 
 Lesson 2 - Science & Research II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -627,7 +626,7 @@ discovery of Higgs particle (Covered in more detail in later lessons),
 European Bioinformatics Institute and contrast to Facebook and
 Walmart.
 
-http://youtu.be/_JfcUg2cheg
+Video: http://youtu.be/_JfcUg2cheg
 
  
 
@@ -639,7 +638,7 @@ research based on data driven inquiry. We contrast this with third --
 computation or simulation based discovery - methodology which emerged
 itself some 25 years ago.
 
-http://youtu.be/srEbOAmU_g8
+Video: http://youtu.be/srEbOAmU_g8
 
  
 
@@ -651,7 +650,7 @@ experiment has 3000 people collaborate!.Then there are individual
 investigators who don't generate a lot of data each but together they
 add up to Big data.
 
-http://youtu.be/dwzEKEGYhqE
+Video: http://youtu.be/dwzEKEGYhqE
  
 
 Lesson 5 - Internet of Things
@@ -661,7 +660,7 @@ A final category of Big data comes from the Internet of Things where
 lots of small devices -- smart phones, web cams, video games collect
 and disseminate data and are controlled and coordinated in the cloud.
 
-http://youtu.be/K2anbyxX48w
+Video: http://youtu.be/K2anbyxX48w
  
 
 Resources
@@ -686,7 +685,7 @@ Resources
   https://sites.google.com/site/opensourceiotcloud/
 
 
- Unit 5 - Part III: Clouds and Big Data Processing; Data Science Process and Analytics 
+Unit 5 - Part III: Clouds and Big Data Processing; Data Science Process and Analytics 
 -----------------------------------------------------------
  
 Unit Overview
@@ -727,7 +726,7 @@ terms of power consumption and the environment are also touched upon,
 followed by a list of the most critical features of Cloud computing
 and a comparison to supercomputing.
 
-http://youtu.be/8RBzooC_2Fw
+Video: http://youtu.be/8RBzooC_2Fw
 
  
 
@@ -740,7 +739,7 @@ Big data are compared. We give an example where "More data usually
 beats better algorithms". We discuss examples of intelligent big data
 and list 8 different types of data deluge
 
-http://youtu.be/FMktnTQGyrw
+Video: http://youtu.be/FMktnTQGyrw
 
  
 
@@ -753,7 +752,7 @@ Big data are compared. We give an example where "More data usually
 beats better algorithms". We discuss examples of intelligent big data
 and list 8 different types of data deluge.
 
-http://youtu.be/QNVZobXHiZw
+Video: http://youtu.be/QNVZobXHiZw
 
  
 
@@ -764,7 +763,7 @@ We describe and critique one view of the work of a data scientists.
 Then we discuss and contrast 7 views of the process needed to speed
 data through the DIKW pipeline.
 
-http://youtu.be/lpQ-Q9ZidR4
+Video: http://youtu.be/lpQ-Q9ZidR4
 
  
 
@@ -775,7 +774,7 @@ We stress the importance of data analytics giving examples from
 several fields. We note that better analytics is as important as
 better computing and storage capability.
 
-http://youtu.be/RPVojR8jrb8
+Video: http://youtu.be/RPVojR8jrb8
  
 
 Lesson 6 - Data Analytics II
@@ -791,7 +790,7 @@ href="http://archive2.cra.org/ccc/files/docs/nitrdsymposium/keyes.pdf
 High Performance Computing in Science and Engineering: the Tree and
 the Fruit
 
-http://youtu.be/wOSgywqdJDY
+Video: http://youtu.be/wOSgywqdJDY
 
  
 
@@ -813,7 +812,7 @@ Resources
 * http://www.mckinsey.com/mgi/publications/big_data/index.asp
 * http://cra.org/ccc/docs/nitrdsymposium/pdfs/keyes.pdf
  
- Section 3 - X= Health Informatics Case Study 
+Section 3 - X= Health Informatics Case Study 
 ===================================================
 
  
@@ -879,7 +878,7 @@ given in radiology, genomics, personalized medicine, and the
 Quantified Self movement, with sizes and access to European
 Bioinformatics Institute.
 
-http://youtu.be/i7volfOVAmY
+Video: http://youtu.be/i7volfOVAmY
 
  
 
@@ -890,7 +889,7 @@ This covers trends of costs and type of healthcare with low cost
 genomes and an aging population. Social media and government Brain
 initiative.
 
-http://youtu.be/tAT3pux4zeg
+Video: http://youtu.be/tAT3pux4zeg
  
 
 Lesson 3 - Telemedicine (Virtual Health)
@@ -899,7 +898,7 @@ Lesson 3 - Telemedicine (Virtual Health)
 This describes increasing use of telemedicine and how we tried and
 failed to do this in 1994.
 
-http://youtu.be/4JbGim9FFXg
+Video: http://youtu.be/4JbGim9FFXg
  
 
 Lesson 4 - Big Data and Healthcare Industry
@@ -907,7 +906,7 @@ Lesson 4 - Big Data and Healthcare Industry
  
 Summary of an industry survey by GE and Accenture.
 
-http://youtu.be/wgK9JIUiWpQ
+Video: http://youtu.be/wgK9JIUiWpQ
  
 
 Lesson 5 - Medical Big Data in the Clouds
@@ -915,21 +914,21 @@ Lesson 5 - Medical Big Data in the Clouds
  
 An impressive exemplar Cloud-based medicine system from Potsdam.
 
-http://youtu.be/-D9mEdM62uY
+Video: http://youtu.be/-D9mEdM62uY
  
 
 Lesson 6 - Medical image Big Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-http://youtu.be/aaNplveyKf0
+Video: http://youtu.be/aaNplveyKf0
 
  
 
 Lesson 7 - Clouds and Health
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-http://youtu.be/9Whkl_UPS5g
+Video: http://youtu.be/9Whkl_UPS5g
  
 
 Lesson 8 - McKinsey Report on the big-data revolution in US health care
@@ -949,7 +948,7 @@ data transformation should provide the leadership required for the
 associated cultural transformation; Companies must develop a range of
 big data capabilities.
 
-http://youtu.be/bBoHzRjMEmY
+Video: http://youtu.be/bBoHzRjMEmY
  
 
 Lesson 9 - Microsoft Report on Big Data in Health
@@ -960,7 +959,7 @@ Science Data, Patient & Consumer Data, Claims & Cost Data and
 Correlational Data. Three approaches are Live data feed, Advanced
 analytics and Social analytics.
 
-http://youtu.be/PjffvVgj1PE
+Video: http://youtu.be/PjffvVgj1PE
 
  
 
@@ -969,7 +968,7 @@ Lesson 10 - EU Report on Redesigning health in Europe for 2020
 
 This lesson summarizes an EU Report on Redesigning health in Europe for 2020. The power of data is seen as a lever for change in My Data, My decisions; Liberate the data; Connect up everything; Revolutionize health; and Include Everyone removing the current correlation between health and wealth.
 
-http://youtu.be/9mbt_ZSs0iw
+Video: http://youtu.be/9mbt_ZSs0iw
 
 
 Lesson 11 - Medicine and the Internet of Things
@@ -978,7 +977,7 @@ Lesson 11 - Medicine and the Internet of Things
 The Internet of Things will have great impact on health including
 telemedicine and wearables. Examples are given.
 
-http://youtu.be/QGRfWlvw584
+Video: http://youtu.be/QGRfWlvw584
 
  
 
@@ -988,7 +987,7 @@ Lesson 12 - Extrapolating to 2032
 A study looks at 4 scenarios for healthcare in 2032. Two are positive,
 one middle of the road and one negative.
 
-http://youtu.be/Qel4gmBxy8U
+Video: http://youtu.be/Qel4gmBxy8U
  
 
 Lesson 13 - Genomics, Proteomics and Information Visualization I
@@ -1006,7 +1005,7 @@ is discussed. We note that the MDS approach is related to the well
 known chisq method and some aspects of nonlinear minimization of chisq
 (Least Squares) are discussed.
 
-http://youtu.be/r1yENstaAUE
+Video: http://youtu.be/r1yENstaAUE
  
 
 Lesson 14 - Genomics, Proteomics and Information Visualization II
@@ -1029,7 +1028,7 @@ emphasizing the importance of visualizing results of data analytics.
 The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
-http://youtu.be/_F1Eo6bfN0w
+Video: http://youtu.be/_F1Eo6bfN0w
  
 
 Lesson 15 - Genomics, Proteomics and Information Visualization III
@@ -1045,7 +1044,7 @@ emphasizing the importance of visualizing results of data analytics.
 The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
-http://youtu.be/R1svGGKipkc
+Video: http://youtu.be/R1svGGKipkc
  
 
 Resources
@@ -1156,7 +1155,7 @@ Introduction to all Sports Informatics, Moneyball The 2002-2003
 Oakland Athletics, Diamond Dollars economic model of baseball,
 Performance - Dollar relationship, Value of a Win.
 
-http://youtu.be/oviNJ-_fLto
+Video: http://youtu.be/oviNJ-_fLto
  
 
 Lesson 2 - Basic Sabermetrics
@@ -1166,7 +1165,7 @@ Different Types of Baseball Data, Sabermetrics, Overview of all data,
 Details of some statistics based on basic data, OPS, wOBA, ERA, ERC,
 FIP, UZR.
 
-http://youtu.be/-5JYfQXC2ew
+Video: http://youtu.be/-5JYfQXC2ew
 
 
  
@@ -1178,7 +1177,7 @@ Wins above Replacement WAR, Discussion of Calculation, Examples,
 Comparisons of different methods, Coefficient of Determination,
 Another, Sabermetrics Example, Summary of Sabermetrics.
 
-http://youtu.be/V5uzUS6jdHw
+Video: http://youtu.be/V5uzUS6jdHw
  
 
 Resources
@@ -1231,7 +1230,7 @@ Lesson 1 - Pitching Clustering
 A Big Data Pitcher Clustering method introduced by Vince Gennaro, Data
 from Blog and video at 2013 SABR conference. 
 
-http://youtu.be/I06_AOKyB20
+Video: http://youtu.be/I06_AOKyB20
 
 Lesson 2 - Pitcher Quality
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1239,7 +1238,7 @@ Lesson 2 - Pitcher Quality
 Results of optimizing match ups, Data from video at 2013 SABR
 conference.
 
-http://youtu.be/vAPJx8as4_0
+Video: http://youtu.be/vAPJx8as4_0
  
 
 Lesson 3 - PITCHf/X
@@ -1247,7 +1246,7 @@ Lesson 3 - PITCHf/X
  
 Examples of use of PITCHf/X.
 
-http://youtu.be/JN1-sCa9Bjs
+Video: http://youtu.be/JN1-sCa9Bjs
  
 
 Lesson 4 - Other Video Data Gathering in Baseball
@@ -1255,7 +1254,7 @@ Lesson 4 - Other Video Data Gathering in Baseball
 
 FIELDf/X, MLBAM, HITf/X, COMMANDf/X.
 
-http://youtu.be/zGGThkkIJg8
+Video: http://youtu.be/zGGThkkIJg8
 
  
 
@@ -1297,7 +1296,7 @@ Lesson 1 - Wearables
  
 Consumer Sports, Stake Holders, and Multiple Factors.
 
-http://youtu.be/1UzvNHzFCFQ
+Video: http://youtu.be/1UzvNHzFCFQ
  
 
 Lesson 2 - Soccer and the Olympics
@@ -1305,7 +1304,7 @@ Lesson 2 - Soccer and the Olympics
  
 Soccer, Tracking Players and Balls, Olympics.
 
-http://youtu.be/01mlZ2KBkzE
+Video: http://youtu.be/01mlZ2KBkzE
  
 
 Lesson 3 - Spatial Visualization in NFL and NBA
@@ -1313,7 +1312,7 @@ Lesson 3 - Spatial Visualization in NFL and NBA
  
 NFL, NBA, and Spatial Visualization.
 
-http://youtu.be/Q0Pt97BwRlo
+Video: http://youtu.be/Q0Pt97BwRlo
  
 
 Lesson 4 - Tennis and Horse Racing
@@ -1321,7 +1320,7 @@ Lesson 4 - Tennis and Horse Racing
 
 Tennis, Horse Racing, and Continued Emphasis on Spatial Visualization.
 
-http://youtu.be/EuXrtfHG3cY
+Video: http://youtu.be/EuXrtfHG3cY
 
  
 
@@ -1341,7 +1340,7 @@ Resources
 * http://www.trakus.com/technology.asp#tNetText
  
 
- Section 5 - Technology Training - Python & FutureSystems (will be updated) 
+Section 5 - Technology Training - Python & FutureSystems (will be updated) 
 ======================================================================
  
 
@@ -1389,7 +1388,7 @@ for doing for this course. These are really powerful tools which every
 data scientist who wishes to use python must know. This section covers
 Canopy, NumPy, MatPlotLib, and Scipy.
 
-http://youtu.be/mN_JpGO9Y6s
+Video: http://youtu.be/mN_JpGO9Y6s
  
 
 Lesson 2 - Canopy
@@ -1400,7 +1399,7 @@ Canopy - Its is an IDE for python developed by EnThoughts. The aim of
 this IDE is to bring the various python libraries under one single
 framework or ''Canopy'' - that is why the name.
 
-http://youtu.be/x7IQL5YvDwk
+Video: http://youtu.be/x7IQL5YvDwk
 
  
 
@@ -1413,7 +1412,7 @@ data. This helps to organize in a more intuitive fashion and also
 helps us use the various matrix operations which are popularly used by
 the machine learning community. 
 
-http://youtu.be/mN_JpGO9Y6s
+Video: http://youtu.be/mN_JpGO9Y6s
 
 
 Lesson 4 - Numpy 2
@@ -1426,7 +1425,7 @@ Lesson 4 - Numpy 2
  helps us use the various matrix operations which are popularly used
  by the machine learning community.
 
- http://youtu.be/7QfW7AT7UNU
+ Video: http://youtu.be/7QfW7AT7UNU
  
 
 Lesson 5 - Numpy 3
@@ -1438,7 +1437,7 @@ data. This helps to organize in a more intuitive fashion and also
 helps us use the various matrix operations which are popularly used by
 the machine learning community.
 
-http://youtu.be/Ccb67Q5gpsk
+Video: http://youtu.be/Ccb67Q5gpsk
  
 
 Lesson 6 - Matplotlib 1
@@ -1448,7 +1447,7 @@ Matplotlib: This a data visualization package. It allows you to create
 graphs charts and other such diagrams. It supports Images in JPEG,
 GIF, TIFF format.
 
-http://youtu.be/3UOvB5OmtYE
+Video: http://youtu.be/3UOvB5OmtYE
  
 
 Lesson 7 - Matplotlib 2
@@ -1458,7 +1457,7 @@ Matplotlib: This a data visualization package. It allows you to create
 graphs charts and other such diagrams. It supports Images in JPEG,
 GIF, TIFF format.
 
-http://youtu.be/9ONSnsN4hcg
+Video: http://youtu.be/9ONSnsN4hcg
  
 
 Lesson 8 - Scipy 1
@@ -1469,7 +1468,7 @@ the shelf algorithms / operations implemented. These include
 algorithms from calculus(like integration), statistics, linear
 algebra, image-processing, signal processing, machine learning, etc.
 
-http://youtu.be/lpC6Mn-09jY
+Video: http://youtu.be/lpC6Mn-09jY
  
 
 Lesson 9 - Scipy 2
@@ -1480,7 +1479,7 @@ the shelf algorithms / operations implemented. These include
 algorithms from calculus(like integration), statistics, linear
 algebra, image-processing, signal processing, machine learning, etc.
 
-http://youtu.be/-XKBz7qCUqw
+Video: http://youtu.be/-XKBz7qCUqw
 
 Unit 11 - Using FutureSystems (will be updated) 
 ----------------------------------------------------------------------
@@ -1506,7 +1505,7 @@ services and features.
 FirstProgram.java:
  http://openedx.scholargrid.org:18010/c4x/SoIC/INFO-I-523/asset/FirstProgram.java
 
-http://youtu.be/RibpNSyd4qg
+Video: http://youtu.be/RibpNSyd4qg
 
 Lesson 2 - Creating Portal Account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1516,7 +1515,7 @@ first step in gaining access to FutureSystems.
 
 See Lesson 4 and 7 for SSH key generation on Linux, OSX or Windows.
 
-http://youtu.be/X6zeVEALzTk
+Video: http://youtu.be/X6zeVEALzTk
 
 
 Lesson 3 - Upload an OpenId
@@ -1525,7 +1524,7 @@ Lesson 3 - Upload an OpenId
 This lesson explains how to upload and use OpenID to easily log into
 the FutureSystems portal.
 
-http://youtu.be/rZzpCYWDEpI
+Video: http://youtu.be/rZzpCYWDEpI
  
 
 Lesson 4 - SSH Key Generation using ssh-keygen command
@@ -1535,7 +1534,7 @@ SSH keys are used to identify user accounts in most systems including
 FutureSystems. This lesson walks you through generating an SSH key via
 ssh-keygen command line tool.
 
-http://youtu.be/pQb2VV1zNIc
+Video: http://youtu.be/pQb2VV1zNIc
 
  
 
@@ -1545,7 +1544,7 @@ Lesson 5 - Shell Access via SSH
 This lesson explains how to get access FutureSystems resources vis SSH
 terminal with your registered SSH key.
 
-http://youtu.be/aJDXfvOrzRE
+Video: http://youtu.be/aJDXfvOrzRE
 
  
 
@@ -1555,7 +1554,7 @@ Lesson 6 - Advanced SSH
 This lesson shows you how to write SSH 'config' file in advanced
 settings.
 
-http://youtu.be/eYanElmtqMo
+Video: http://youtu.be/eYanElmtqMo
  
 
 Lesson 7 - SSH Key Generation via putty (Windows user only)
@@ -1567,7 +1566,7 @@ You will learn how to create an SSH key using PuTTYgen, add the public
 key to you FutureSystems portal, and then login using the PuTTY SSH
 client.
 
-http://youtu.be/irmVJKwWQCU
+Video: http://youtu.be/irmVJKwWQCU
  
 
 Lesson 8 - Using FS - Creating VM using Cloudmesh and running IPython
@@ -1580,7 +1579,7 @@ this upcoming lessons.
 Instruction is at:
 http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/cm-mooc.html 
 
-http://youtu.be/nbZbJxheLwc
+Video: http://youtu.be/nbZbJxheLwc
 
 Lesson 9 - How to run Java Class Programs on Virtual Machine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1590,7 +1589,7 @@ This lesson explains about Running Java and Python on FutureSystems.
 Instruction is here:
 http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/javafiles.html
 
-http://youtu.be/E1SVmLb_QK8
+Video: http://youtu.be/E1SVmLb_QK8
 
 
 Section 6 - X= Physics Case Study 
@@ -1602,7 +1601,21 @@ Section 6 - X= Physics Case Study
 Section Overview 
 ----------------------------------------------------------------------
  
-This section starts by describing the LHC accelerator at CERN and evidence found by the experiments suggesting existence of a Higgs Boson. The huge number of authors on a paper, remarks on histograms and Feynman diagrams is followed by an accelerator picture gallery. The next unit is devoted to Python experiments looking at histograms of Higgs Boson production with various forms of shape of signal and various background and with various event totals. Then random variables and some simple principles of statistics are introduced with explanation as to why they are relevant to Physics counting experiments. The unit introduces Gaussian (normal) distributions and explains why they seen so often in natural phenomena. Several Python illustrations are given. Random Numbers with their Generators and Seeds lead to a discussion of Binomial and Poisson Distribution. Monte-Carlo and accept-reject methods. The Central Limit Theorem concludes discussion.
+This section starts by describing the LHC accelerator at CERN and
+evidence found by the experiments suggesting existence of a Higgs
+Boson. The huge number of authors on a paper, remarks on histograms
+and Feynman diagrams is followed by an accelerator picture
+gallery. The next unit is devoted to Python experiments looking at
+histograms of Higgs Boson production with various forms of shape of
+signal and various background and with various event totals. Then
+random variables and some simple principles of statistics are
+introduced with explanation as to why they are relevant to Physics
+counting experiments. The unit introduces Gaussian (normal)
+distributions and explains why they seen so often in natural
+phenomena. Several Python illustrations are given. Random Numbers with
+their Generators and Seeds lead to a discussion of Binomial and
+Poisson Distribution. Monte-Carlo and accept-reject methods. The
+Central Limit Theorem concludes discussion. 
  
 
 Unit 12 - I: Looking for Higgs Particles, Bumps in Histograms, Experiments and Accelerators 
@@ -1639,7 +1652,7 @@ that particles often manifested as bumps in histograms and those bumps
 need to be large enough to stand out from background in a
 statistically significant fashion.
 
-http://youtu.be/VQAupoFUWTg
+Video: http://youtu.be/VQAupoFUWTg
  
 
 Lesson 2 - Looking for Higgs Particle and Counting Introduction II
@@ -1650,7 +1663,7 @@ physics papers have a staggering number of authors and quite big
 budgets. Feynman diagrams describe processes in a fundamental
 fashion.
 
-http://youtu.be/UAMzmOgjj7I
+Video: http://youtu.be/UAMzmOgjj7I
  
 
 Lesson 3 - Physics-Informatics Looking for Higgs Particle Experiments
@@ -1661,7 +1674,7 @@ physics papers have a staggering number of authors and quite big
 budgets. Feynman diagrams describe processes in a fundamental
 fashion.
 
-http://youtu.be/BW12d780qT8
+Video: http://youtu.be/BW12d780qT8
  
 
 Lesson 4 - Accelerator Picture Gallery of Big Science
@@ -1672,7 +1685,7 @@ accelerators. Accelerators, detection chambers and magnets in tunnels
 and a large underground laboratory used fpr experiments where you need
 to be shielded from background like cosmic rays.
 
-http://youtu.be/WLJIxWWMYi8
+Video: http://youtu.be/WLJIxWWMYi8
  
 
 Resources
@@ -1735,7 +1748,7 @@ We discuss how this unit uses Java and Python on both a backend server
 (FutureGrid) or a local client. WE point out useful book on Python for
 data analysis. This builds on technology training in Section 3.
 
-http://youtu.be/tOFJEUM-Vww
+Video: http://youtu.be/tOFJEUM-Vww
 
  
 
@@ -1749,7 +1762,7 @@ background plus either a Higgs particle generated similarly to LHC
 observation or one observed with better resolution (smaller
 measurement error).
 
-http://youtu.be/h8-szCeFugQ
+Video: http://youtu.be/h8-szCeFugQ
  
 
 Lesson 3 - Physics Use Case II 3: With Python examples of Signal plus Background
@@ -1759,7 +1772,7 @@ This uses Monte Carlo data both to generate data like the experimental
 observations and explore effect of changing amount of data and
 changing measurement resolution for Higgs.
 
-http://youtu.be/bl2f0tAzLj4
+Video: http://youtu.be/bl2f0tAzLj4
 
  
 
@@ -1770,7 +1783,7 @@ This lesson continues the examination of Monte Carlo data looking at
 effect of change in number of Higgs particles produced and in change
 in shape of background.
 
-http://youtu.be/bw3fd5cfQhk
+Video: http://youtu.be/bw3fd5cfQhk
  
 
 Resources
@@ -1819,7 +1832,7 @@ Lesson 1 - Statistics Overview and Fundamental Idea: Random Variables
 We go through the many different areas of statistics covered in the
 Physics unit. We define the statistics concept of a random variable.
 
-http://youtu.be/0oZzALLzYBM
+Video: http://youtu.be/0oZzALLzYBM
  
 
 Lesson 2 - Physics and Random Variables I
@@ -1832,7 +1845,7 @@ state particles seen in a few events. We illustrate how physicists
 decide whats going on with a plot of expected Higgs production
 experimental cross sections (probabilities) for signal and background.
 
-http://youtu.be/Tn3GBxgplxg
+Video: http://youtu.be/Tn3GBxgplxg
  
 
 Lesson 3 - Physics and Random Variables II
@@ -1845,7 +1858,7 @@ state particles seen in a few events. We illustrate how physicists
 decide whats going on with a plot of expected Higgs production
 experimental cross sections (probabilities) for signal and background.
 
-http://youtu.be/qWEjp0OtvdA
+Video: http://youtu.be/qWEjp0OtvdA
 
  
 
@@ -1858,7 +1871,7 @@ large numbers defining the errors in counting and leading to Gaussian
 distributions for many things. We demonstrate this in Python
 experiments.
 
-http://youtu.be/LMBtpWOOQLo
+Video: http://youtu.be/LMBtpWOOQLo
  
 
 Lesson 5 - Gaussian Distributions
@@ -1867,7 +1880,7 @@ Lesson 5 - Gaussian Distributions
 We introduce the Gaussian distribution and give Python examples of the
 fluctuations in counting Gaussian distributions.
 
-http://youtu.be/LWIbPa-P5W0
+Video: http://youtu.be/LWIbPa-P5W0
 
  
 
@@ -1878,7 +1891,7 @@ We discuss the significance of a standard deviation and role of biases
 and insufficient statistics with a Python example in getting incorrect
 answers.
 
-http://youtu.be/n4jlUrGwgic
+Video: http://youtu.be/n4jlUrGwgic
  
 
 Resources
@@ -1927,7 +1940,7 @@ We define random numbers and describe how to generate them on the
 computer giving Python examples. We define the seed used to define to
 specify how to start generation.
 
-http://youtu.be/76jbRphjRWo
+Video: http://youtu.be/76jbRphjRWo
  
 
 Lesson 2 - Generators and Seeds II
@@ -1937,7 +1950,7 @@ We define random numbers and describe how to generate them on the
 computer giving Python examples. We define the seed used to define to
 specify how to start generation.
 
-http://youtu.be/9QY5qkQj2Ag
+Video: http://youtu.be/9QY5qkQj2Ag
  
 
 Lesson 3 - Binomial Distribution
@@ -1946,7 +1959,7 @@ Lesson 3 - Binomial Distribution
 We define binomial distribution and give LHC data as an eaxmple of
 where this distribution valid.
 
-http://youtu.be/DPd-eVI_twQ
+Video: http://youtu.be/DPd-eVI_twQ
  
 
 Lesson 4 - Accept-Reject
@@ -1955,7 +1968,7 @@ Lesson 4 - Accept-Reject
 We introduce an advanced method -- accept/reject -- for generating
 random variables with arbitrary distrubitions.
 
-http://youtu.be/GfshkKMKCj8
+Video: http://youtu.be/GfshkKMKCj8
 
  
 
@@ -1966,7 +1979,7 @@ Lesson 5 - Monte Carlo Method
 We define Monte Carlo method which usually uses accept/reject method
 in typical case for distribution.
 
-http://youtu.be/kIQ-BTyDfOQ
+Video: http://youtu.be/kIQ-BTyDfOQ
 
 
  
@@ -1977,7 +1990,7 @@ Lesson 6 - Poisson Distribution
 We extend the Binomial to the Poisson distribution and give a set of
 amusing examples from Wikipedia.
 
-http://youtu.be/WFvgsVo-k4s
+Video: http://youtu.be/WFvgsVo-k4s
 
  
 
@@ -1986,7 +1999,7 @@ Lesson 7 - Central Limit Theorem
 
 We introduce Central Limit Theorem and give examples from Wikipedia.
 
-http://youtu.be/ZO53iKlPn7c
+Video: http://youtu.be/ZO53iKlPn7c
 
  
 
@@ -1998,7 +2011,7 @@ probability. Bayes's law of conditional probability is derived and
 applied to Higgs example to enable information about Higgs from
 multiple channels and multiple experiments to be accumulated.
 
-http://youtu.be/jzDkExAQI9M
+Video: http://youtu.be/jzDkExAQI9M
 
  
 
@@ -2073,7 +2086,7 @@ computing platforms and clusters while allowing value-added from big
 data service providers and flow of data between the stakeholders in a
 cohesive and secure manner.
 
-http://youtu.be/ofRfHBKpyvg
+Video: http://youtu.be/ofRfHBKpyvg
 
  
 
@@ -2096,7 +2109,7 @@ from all stakeholders, categorize them into components and
 subcomponents based on their similarities and differences. In
 particular data Science and Big Data terms are discussed.
 
-http://youtu.be/sGshHN-DdbE
+Video: http://youtu.be/sGshHN-DdbE
 
 Lesson 3 - Reference Architecture Subgroup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2112,7 +2125,7 @@ the flow of the data between the stakeholders in a cohesive and secure
 manner. Results include a reference architecture with well defined
 components and linkage as well as several exemplars.
 
-http://youtu.be/JV596ZH36YA
+Video: http://youtu.be/JV596ZH36YA
  
 
 Lesson 4 - Security and Privacy Subgroup
@@ -2131,7 +2144,7 @@ Traffic Analysis, Healthcare, Health Information Exchange, Genetic
 Privacy, Pharma Clinical Trial Data Sharing, Cyber-security,
 Government, Military and Education. 
 
-http://youtu.be/Gbk0LaWE3lM
+Video: http://youtu.be/Gbk0LaWE3lM
 
 Lesson 5 - Technology Roadmap Subgroup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2151,7 +2164,7 @@ analysis and document the findings; identify what possible barriers
 may delay or prevent adoption of Big Data; and document vision and
 recommendations.
 
-http://youtu.be/GCc9yfErmd0
+Video: http://youtu.be/GCc9yfErmd0
 
  
 
@@ -2173,7 +2186,7 @@ explicitly implementing some patterns based on use cases. The progress
 of gathering use cases (discussed in next two units) and requirements
 systemization are discussed.
 
-http://youtu.be/sztqNXJ9P6c
+Video: http://youtu.be/sztqNXJ9P6c
 
 
 Lesson 7 - Requirements and Use Case Subgroup Introduction II
@@ -2193,7 +2206,7 @@ explicitly implementing some patterns based on use cases. The progress
 of gathering use cases (discussed in next two units) and requirements
 systemization are discussed.
 
-http://youtu.be/0sbfIqHUauI
+Video: http://youtu.be/0sbfIqHUauI
 
  
 
@@ -2214,7 +2227,7 @@ explicitly implementing some patterns based on use cases. The progress
 of gathering use cases (discussed in next two units) and requirements
 systemization are discussed.
 
-http://youtu.be/u59559nqjiY
+Video: http://youtu.be/u59559nqjiY
  
 
 Resources
@@ -2366,7 +2379,7 @@ Preservation; Statistical Survey Response Improvement (Adaptive
 Design) and Non-Traditional Data in Statistical Survey Response
 Improvement (Adaptive Design).
 
-http://youtu.be/gCqBFYDDzSQ
+Video: http://youtu.be/gCqBFYDDzSQ
  
 
 Lesson 2 - Government Use Cases II
@@ -2378,7 +2391,7 @@ Preservation; Statistical Survey Response Improvement (Adaptive
 Design) and Non-Traditional Data in Statistical Survey Response
 Improvement (Adaptive Design).
 
-http://youtu.be/y0nIed-Nxjw
+Video: http://youtu.be/y0nIed-Nxjw
  
 
 Lesson 3 - Commercial Use Cases I
@@ -2392,7 +2405,7 @@ Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
 Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
 Simulation driven Materials Genomics.
 
-http://youtu.be/P1iuViI-AKc
+Video: http://youtu.be/P1iuViI-AKc
  
 
 Lesson 4 - Commercial Use Cases II
@@ -2406,7 +2419,7 @@ Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
 Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
 Simulation driven Materials Genomics.
 
-http://youtu.be/epFH4w_Q9lc
+Video: http://youtu.be/epFH4w_Q9lc
  
 
 Lesson 5 - Commercial Use Cases III
@@ -2420,7 +2433,7 @@ Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
 Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
 Simulation driven Materials Genomics.
 
-http://youtu.be/j5kWjL4y7Bo
+Video: http://youtu.be/j5kWjL4y7Bo
 
 
 
@@ -2432,7 +2445,7 @@ identification and tracking from Wide Area Large Format Imagery (WALF)
 Imagery or Full Motion Video (FMV) - Persistent Surveillance and
 Intelligence Data Processing and Analysis.
 
-http://youtu.be/8hXG7dinhjg
+Video: http://youtu.be/8hXG7dinhjg
  
 
 Lesson 7 - Defense Use Cases II
@@ -2443,7 +2456,7 @@ identification and tracking from Wide Area Large Format Imagery (WALF)
 Imagery or Full Motion Video (FMV) - Persistent Surveillance and
 Intelligence Data Processing and Analysis.
 
-http://youtu.be/MplyAfmuxko
+Video: http://youtu.be/MplyAfmuxko
 
  
 
@@ -2458,7 +2471,7 @@ Intelligence for Health Care; World Population Scale Epidemiological
 Study; Social Contagion Modeling for Planning, Public Health and
 Disaster Management and Biodiversity and LifeWatch.
 
-http://youtu.be/jVARCWVeYxQ
+Video: http://youtu.be/jVARCWVeYxQ
  
 
 Lesson 9 - Healthcare and Life Science Use Cases II
@@ -2472,7 +2485,7 @@ Intelligence for Health Care; World Population Scale Epidemiological
 Study; Social Contagion Modeling for Planning, Public Health and
 Disaster Management and Biodiversity and LifeWatch.
 
-http://youtu.be/y9zJzrH4P8k
+Video: http://youtu.be/y9zJzrH4P8k
  
 
 Lesson 10 - Healthcare and Life Science Use Cases III
@@ -2486,7 +2499,7 @@ Intelligence for Health Care; World Population Scale Epidemiological
 Study; Social Contagion Modeling for Planning, Public Health and
 Disaster Management and Biodiversity and LifeWatch.
 
-http://youtu.be/eU5emeI3AmM
+Video: http://youtu.be/eU5emeI3AmM
 
  
 
@@ -2501,7 +2514,7 @@ Network (Graph) Science and Analytics and NIST Information Access
 Division analytic technology performance measurement, evaluations, and
 standards.
 
-http://youtu.be/WLSe6MF4ha4
+Video: http://youtu.be/WLSe6MF4ha4
  
 
 Lesson 12 - Research Ecosystem Use Cases
@@ -2511,7 +2524,7 @@ DataNet Federation Consortium DFC; The 'Discinnet process', metadata -
 big data global experiment; Semantic Graph-search on Scientific
 Chemical and Text-based Data and Light source beamlines.
 
-http://youtu.be/pZ6JucTCKcw
+Video: http://youtu.be/pZ6JucTCKcw
 
  
 
@@ -2524,7 +2537,7 @@ Survey and Simulations; Large Survey Data for Cosmology; Particle
 Physics: Analysis of LHC Large Hadron Collider Data: Discovery of
 Higgs particle and Belle II High Energy Physics Experiment.
 
-http://youtu.be/rWqkF-b3Kwk
+Video: http://youtu.be/rWqkF-b3Kwk
  
 
 Lesson 14 - Astronomy and Physics Use Cases II
@@ -2536,7 +2549,7 @@ Survey and Simulations; Large Survey Data for Cosmology; Particle
 Physics: Analysis of LHC Large Hadron Collider Data: Discovery of
 Higgs particle and Belle II High Energy Physics Experiment.
 
-http://youtu.be/RxLCB6yLmpk
+Video: http://youtu.be/RxLCB6yLmpk
 
  
 
@@ -2553,7 +2566,7 @@ Community Earth System Model at DOE's NERSC center; DOE-BER Subsurface
 Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and
 FLUXNET Networks.
 
-http://youtu.be/u2zTIGwsJwU
+Video: http://youtu.be/u2zTIGwsJwU
 
  
 
@@ -2570,7 +2583,7 @@ Community Earth System Model at DOE's NERSC center; DOE-BER Subsurface
 Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and
 FLUXNET Networks.
 
-http://youtu.be/sH3B3gXuJ7E
+Video: http://youtu.be/sH3B3gXuJ7E
 
  
 
@@ -2579,7 +2592,7 @@ Lesson 17 - Energy Use Case
  
 This covers Consumption forecasting in Smart Grids.
 
-http://youtu.be/ttmVypmgWmw
+Video: http://youtu.be/ttmVypmgWmw
  
 
 Resources
@@ -2738,7 +2751,7 @@ demand; Pleasingly parallel processing; HPC assimilated with
 observational data; Agent-based models; Multi-modal data fusion or
 Knowledge Management; Crowd Sourcing. 
 
-http://youtu.be/dfgH6YvHCGE
+Video: http://youtu.be/dfgH6YvHCGE
 
 Lesson 2 - Summary of Use Case Classification II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2762,7 +2775,7 @@ demand; Pleasingly parallel processing; HPC assimilated with
 observational data; Agent-based models; Multi-modal data fusion or
 Knowledge Management; Crowd Sourcing.
 
-http://youtu.be/TjHus5-HaMQ
+Video: http://youtu.be/TjHus5-HaMQ
  
 
 Lesson 3 - Summary of Use Case Classification III
@@ -2787,7 +2800,7 @@ demand; Pleasingly parallel processing; HPC assimilated with
 observational data; Agent-based models; Multi-modal data fusion or
 Knowledge Management; Crowd Sourcing.
 
-http://youtu.be/EbuNBbt4rQc
+Video: http://youtu.be/EbuNBbt4rQc
  
 
 Lesson 4 - Database(SQL) Use Case Classification
@@ -2797,7 +2810,7 @@ This discusses classic (SQL) datbase approach to data handling with
 Search&Query and Index features. Comparisons are made to NoSQL
 approaches.
 
-http://youtu.be/8QDcUWjA9Ok
+Video: http://youtu.be/8QDcUWjA9Ok
  
 
 Lesson 5 - NoSQL Use Case Classification
@@ -2807,7 +2820,7 @@ This discusses NoSQL (compared in previous lesson) with HDFS, Hadoop
 and Hbase. The Apache Big data stack is introduced and further details
 of comparison with SQL.
 
-http://youtu.be/aJ127gkHQUs
+Video: http://youtu.be/aJ127gkHQUs
  
 
 Lesson 6 - Use Case Classifications I
@@ -2816,7 +2829,7 @@ Lesson 6 - Use Case Classifications I
 This discusses a subset of use case features: GIS, Sensors. the
 support of data analysis and fusion by streaming data between filters.
 
-http://youtu.be/STAoaS1T2bM
+Video: http://youtu.be/STAoaS1T2bM
  
 
 Lesson 7 - Use Case Classifications II Part 1
@@ -2826,7 +2839,7 @@ This discusses a subset of use case features: Pleasingly parallel,
 MRStat, Data Assimilation, Crowd sourcing, Agents, data fusion and
 agents, EGO and security.
 
-http://youtu.be/_tJRzG-jS4A
+Video: http://youtu.be/_tJRzG-jS4A
 
  
 
@@ -2837,7 +2850,7 @@ This discusses a subset of use case features: Pleasingly parallel,
 MRStat, Data Assimilation, Crowd sourcing, Agents, data fusion and
 agents, EGO and security.
 
-http://youtu.be/5iHdzMNviZo
+Video: http://youtu.be/5iHdzMNviZo
  
 
 Lesson 9 - Use Case Classifications III Part 1
@@ -2849,7 +2862,7 @@ Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and
 local analytics (machine learning), parallel computing, Expectation
 Maximization, graphs and Collaborative Filtering.
 
-http://youtu.be/tITbuwCRVzs
+Video: http://youtu.be/tITbuwCRVzs
 
  
 
@@ -2861,7 +2874,7 @@ Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and
 local analytics (machine learning), parallel computing, Expectation
 Maximization, graphs and Collaborative Filtering.
 
-http://youtu.be/0zaXWo8A4Co
+Video: http://youtu.be/0zaXWo8A4Co
  
 
 Resources
@@ -2947,7 +2960,7 @@ structure of Plotviz interface. The next two slides explain the core
 3D and 2D manipulations respectively. Note all files used in examples
 are available to students.
 
-http://youtu.be/4aQlCmQ1jfY
+Video: http://youtu.be/4aQlCmQ1jfY
 
  
 
@@ -2960,7 +2973,7 @@ size/color/labels and Legend of points. The second example shows a
 dataset (coming from GTM dimension reduction) with significant
 structure. This has .pviz and a .txt versions that are compared.
 
-http://youtu.be/nCTT5mI_j_Q
+Video: http://youtu.be/nCTT5mI_j_Q
  
 
 Lesson 3 - Example of Use II: Proteomics and Synchronized Rotation
@@ -2973,7 +2986,7 @@ compare two datasets with synchronized rotation of a dataset clustered
 in 2 different ways; this dataset comes from k Nearest Neighbor
 discussion.
 
-http://youtu.be/lDbIhnLrNkk
+Video: http://youtu.be/lDbIhnLrNkk
 
  
 
@@ -2984,7 +2997,7 @@ This starts by describing use of Labels and Glyphs and the Default
 mode in Plotviz. Then we illustrate sophisticated use of these ideas
 to view a large Proteomics dataset.
 
-http://youtu.be/KBkUW_QNSvs
+Video: http://youtu.be/KBkUW_QNSvs
  
 
 Lesson 5 - Example of Use IV: Tools and Examples
@@ -2994,7 +3007,7 @@ This lesson starts by describing the Plotviz tools and then sets up
 two examples -- Oil Flow and Trading -- described in PowerPoint. It
 finishes with the Plotviz viewing of Oil Flow data.
 
-http://youtu.be/zp_709imR40
+Video: http://youtu.be/zp_709imR40
  
 
 Lesson 6 - Example of Use V: Final Examples
@@ -3006,7 +3019,7 @@ large biology examples with 446K and 100K points and each with over
 100 clusters. We finish remarks on Plotviz software structure and how
 to download. We also remind you that a picture is worth a 1000 words.
 
-http://youtu.be/FKoCfTJ_cDM
+Video: http://youtu.be/FKoCfTJ_cDM
 
  
 
@@ -3626,9 +3639,26 @@ Section 11 - Cloud Computing Technology for Big Data Applications & Analytics (w
 Section Overview 
 ----------------------------------------------------------------------
 
-We describe the central role of Parallel computing in Clouds and Big Data which is decomposed into lots of ''Little data'' running in individual cores. Many examples are given and it is stressed that issues in parallel computing are seen in day to day life for communication, synchronization, load balancing and decomposition. Cyberinfrastructure for e-moreorlessanything or moreorlessanything-Informatics and the basics of cloud computing are introduced. This includes virtualization and the important ''as a Service'' components and we go through several different definitions of cloud computing.
+We describe the central role of Parallel computing in Clouds and Big
+Data which is decomposed into lots of ''Little data'' running in
+individual cores. Many examples are given and it is stressed that
+issues in parallel computing are seen in day to day life for
+communication, synchronization, load balancing and
+decomposition. Cyberinfrastructure for e-moreorlessanything or
+moreorlessanything-Informatics and the basics of cloud computing are
+introduced. This includes virtualization and the important ''as a
+Service'' components and we go through several different definitions
+of cloud computing. 
 
-Gartner's Technology Landscape includes hype cycle and priority matrix and covers clouds and Big Data. Two simple examples of the value of clouds for enterprise applications are given with a review of different views as to nature of Cloud Computing. This IaaS (Infrastructure as a Service) discussion is followed by PaaS and SaaS (Platform and Software as a Service). Features in Grid and cloud computing and data are treated. We summarize the 21 layers and almost 300 software packages in the HPC-ABDS Software Stack explaining how they are used.
+Gartner's Technology Landscape includes hype cycle and priority matrix
+and covers clouds and Big Data. Two simple examples of the value of
+clouds for enterprise applications are given with a review of
+different views as to nature of Cloud Computing. This IaaS
+(Infrastructure as a Service) discussion is followed by PaaS and SaaS
+(Platform and Software as a Service). Features in Grid and cloud
+computing and data are treated. We summarize the 21 layers and almost
+300 software packages in the HPC-ABDS Software Stack explaining how
+they are used. 
 
 Cloud (Data Center) Architectures with physical setup, Green Computing
 issues and software models are discussed followed by the Cloud
@@ -3651,7 +3681,11 @@ Unit 25 - Parallel Computing: Overview of Basic Principles with familiar Example
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We describe the central role of Parallel computing in Clouds and Big Data which is decomposed into lots of ''Little data'' running in individual cores. Many examples are given and it is stressed that issues in parallel computing are seen in day to day life for communication, synchronization, load balancing and decomposition.
+We describe the central role of Parallel computing in Clouds and Big
+Data which is decomposed into lots of ''Little data'' running in
+individual cores. Many examples are given and it is stressed that
+issues in parallel computing are seen in day to day life for
+communication, synchronization, load balancing and decomposition. 
  
 
 Slides
@@ -4252,9 +4286,26 @@ Unit 30 - Web Search and Text Mining I
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-The unit starts with the web with its size, shape (coming from the mutual linkage of pages by URL's) and universal power laws for number of pages with particular number of URL's linking out or in to page. Information retrieval is introduced and compared to web search. A comparison is given between semantic searches as in databases and the full text search that is base of Web search. The origin of web search in libraries, catalogs and concordances is summarized. DIKW -- Data Information Knowledge Wisdom -- model for web search is discussed. Then features of documents, collections and the important Bag of Words representation. Queries are presented in context of an Information Retrieval architecture. The method of judging quality of results including recall, precision and diversity is described. A time line for evolution of search engines is given.
+The unit starts with the web with its size, shape (coming from the
+mutual linkage of pages by URL's) and universal power laws for number
+of pages with particular number of URL's linking out or in to
+page. Information retrieval is introduced and compared to web
+search. A comparison is given between semantic searches as in
+databases and the full text search that is base of Web search. The
+origin of web search in libraries, catalogs and concordances is
+summarized. DIKW -- Data Information Knowledge Wisdom -- model for web
+search is discussed. Then features of documents, collections and the
+important Bag of Words representation. Queries are presented in
+context of an Information Retrieval architecture. The method of
+judging quality of results including recall, precision and diversity
+is described. A time line for evolution of search engines is given. 
 
-Boolean and Vector Space models for query including the cosine similarity are introduced. Web Crawlers are discussed and then the steps needed to analyze data from Web and produce a set of terms. Building and accessing an inverted index is followed by the importance of term specificity and how it is captured in TF-IDF. We note how frequencies are converted into belief and relevance.
+Boolean and Vector Space models for query including the cosine
+similarity are introduced. Web Crawlers are discussed and then the
+steps needed to analyze data from Web and produce a set of
+terms. Building and accessing an inverted index is followed by the
+importance of term specificity and how it is captured in TF-IDF. We
+note how frequencies are converted into belief and relevance. 
  
 
 Slides
@@ -4386,7 +4437,13 @@ Unit 31 - Web Search and Text Mining II
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We start with an overview of the different steps (data analytics) in web search. This is followed by Link Structure Analysis including Hubs, Authorities and PageRank. The application of PageRank ideas as reputation outside web search is covered. Issues in web advertising and search follow. his leads to emerging field of computational advertising. The use of clustering and topic models completes unit with Google News as an example.
+We start with an overview of the different steps (data analytics) in
+web search. This is followed by Link Structure Analysis including
+Hubs, Authorities and PageRank. The application of PageRank ideas as
+reputation outside web search is covered. Issues in web advertising
+and search follow. his leads to emerging field of computational
+advertising. The use of clustering and topic models completes unit
+with Google News as an example. 
  
 
 Slides
@@ -4965,7 +5022,16 @@ Unit 37 - X-Informatics Case Study: Radar
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-The changing global climate is suspected to have long-term effects on much of the world's inhabitants. Among the various effects, the rising sea level will directly affect many people living in low-lying coastal regions. While the ocean-s thermal expansion has been the dominant contributor to rises in sea level, the potential contribution of discharges from the polar ice sheets in Greenland and Antarctica may provide a more significant threat due to the unpredictable response to the changing climate. The Radar-Informatics unit provides a glimpse in the processes fueling global climate change and explains what methods are used for ice data acquisitions and analysis.
+The changing global climate is suspected to have long-term effects on
+much of the world's inhabitants. Among the various effects, the rising
+sea level will directly affect many people living in low-lying coastal
+regions. While the ocean-s thermal expansion has been the dominant
+contributor to rises in sea level, the potential contribution of
+discharges from the polar ice sheets in Greenland and Antarctica may
+provide a more significant threat due to the unpredictable response to
+the changing climate. The Radar-Informatics unit provides a glimpse in
+the processes fueling global climate change and explains what methods
+are used for ice data acquisitions and analysis. 
  
 
 Slides
