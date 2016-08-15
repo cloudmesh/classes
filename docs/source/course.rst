@@ -3239,6 +3239,8 @@ https://youtu.be/og07mH9fU0M
 Lesson 3 - Recommender Systems in Yahoo Use Case Example I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We describe in greatest detail the methods used to optimize Yahoo web
 sites. There are two lessons discussing general approach and a third
 lesson examines a particular personalized Yahoo page with its
@@ -3258,36 +3260,15 @@ https://youtu.be/FBn7HpGFNvg
 Lesson 4 - Recommender Systems in Yahoo Use Case Example II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We give some examples in more detail including Google News, Markdown
-in Retail and in greatest detail the methods used to optimize a Yahoo
-page. Here we review recommender engines yet again put then examine a
-personalized Yahoo page with its different components. We point out
-the different criteria that must be blended in making decisions; these
-criteria include analysis of what user does after a particular page is
-clicked; is the user satisfied and cannot that we quantified by
-purchase decisions etc. We need to choose Articles, ads, modules,
-movies, users, updates, etc to optimize metrics such as relevance
-score, CTR, revenue, engagement.This lesson stresses that if though we
-have big data, the recommender data is sparse. We discuss the approach
-that involves both batch (offline) and on-line (real time) components.
+This is Part 2 of "Recommender Systems in Yahoo Use Case Example"
 
 https://youtu.be/VS2Y4lAiP5A
  
 
 Lesson 5 - Recommender Systems in Yahoo Use Case Example III: Particular Module
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We describe in greatest detail the methods used to optimize Yahoo web
-sites. There are two lessons discussing general approach and a third
-lesson examines a particular personalized Yahoo page with its
-different components. We point out the different criteria that must be
-blended in making decisions; these criteria include analysis of what
-user does after a particular page is clicked; is the user satisfied
-and cannot that we quantified by purchase decisions etc. We need to
-choose Articles, ads, modules, movies, users, updates, etc to optimize
-metrics such as relevance score, CTR, revenue, engagement.These lesson
-stress that if though we have big data, the recommender data is
-sparse. We discuss the approach that involves both batch (offline) and
-on-line (real time) components.
+
+This is Part 3 of "Recommender Systems in Yahoo Use Case Example"
 
 https://youtu.be/HrRJWEF8EfU
 
