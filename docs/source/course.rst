@@ -4612,6 +4612,8 @@ https://youtu.be/67qFY64aj7g
 Lesson 2 - Advanced Topics I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+This is Part 1.
+
 This defines 4 types of MapReduce and the Map Collective model of
 Qiu. The Iterative MapReduce model from Indiana University called
 Twister is described and a few performance measurements on Microsoft
@@ -4624,10 +4626,7 @@ https://youtu.be/lo4movzSyVw
 Lesson 3 - Advanced Topics II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This defines 4 types of MapReduce and the Map Collective model of
-Qiu. The Iterative MapReduce model from Indiana University called
-Twister is described and a few performance measurements on Microsoft
-Azure are presented.
+This is Part 2 of "Advanced Topics".
 
 https://youtu.be/wnanWncQBow
 
