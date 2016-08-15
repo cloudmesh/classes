@@ -30,8 +30,8 @@ Video V1
     
     Watch Videos in Section 1: Units 1 and 2
 
-.. _SURVEY1: http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/78c99cf482ba48e1aa08e3fc46186804/51746d1cce3643b68a0340d5502c6d16/
-    
+.. _SURVEY1: https://docs.google.com/forms/d/148AAxmPqXvoRz_zouYEg5JRgJ14WYDYezDtQUSnsiFg
+
 Video V2
 ~~~~~~~~~
     Watch Videos in Section 2: Units 3, 4, and 5. Note these units
