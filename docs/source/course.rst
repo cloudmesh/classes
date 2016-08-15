@@ -4537,7 +4537,9 @@ https://youtu.be/I79ISV6XBbE
 
 Lesson 2 - Analysis of 4 Artificial Clusters I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This is Part 1.
+
 We present clustering results on the artificial set of 1000 2D points
 described in previous lesson for 3 choices of cluster sizes ''small''
 ''large'' and ''very large''. We emphasize the SciPy always does 20
@@ -4559,21 +4561,8 @@ https://youtu.be/Srgq9VDg4C8
 
 Lesson 3 - Analysis of 4 Artificial Clusters II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-We present clustering results on the artificial set of 1000 2D points
-described in previous lesson for 3 choices of cluster sizes ''small''
-''large'' and ''very large''. We emphasize the SciPy always does 20
-independent K means and takes the best result -- an approach to
-avoiding local minima. We allow this number of independent runs to be
-changed and in particular set to 1 to generate more interesting
-erratic results. We define changes in our new K means code that also
-has two measures of quality allowed. The slides give many results of
-clustering into 2 4 6 and 8 clusters (there were only 4 real
-clusters). We show that the ''very small'' case has two very different
-solutions when clustered into two clusters and use this to discuss
-functions with multiple minima and a hill between them. The lesson has
-both discussion of already produced results in slides and interactive
-use of Python for new runs.
+
+This is Part 2 of "Analysis of 4 Artificial Clusters".
 
 https://youtu.be/rjyAXjA_mOk
  
@@ -4581,20 +4570,7 @@ https://youtu.be/rjyAXjA_mOk
 Lesson 4 - Analysis of 4 Artificial Clusters III
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We present clustering results on the artificial set of 1000 2D points
-described in previous lesson for 3 choices of cluster sizes ''small''
-''large'' and ''very large''. We emphasize the SciPy always does 20
-independent K means and takes the best result -- an approach to
-avoiding local minima. We allow this number of independent runs to be
-changed and in particular set to 1 to generate more interesting
-erratic results. We define changes in our new K means code that also
-has two measures of quality allowed. The slides give many results of
-clustering into 2 4 6 and 8 clusters (there were only 4 real
-clusters). We show that the ''very small'' case has two very different
-solutions when clustered into two clusters and use this to discuss
-functions with multiple minima and a hill between them. The lesson has
-both discussion of already produced results in slides and interactive
-use of Python for new runs.
+This is Part 3 of "Analysis of 4 Artificial Clusters".
 
 https://youtu.be/N6QKyrhNVAc
 
