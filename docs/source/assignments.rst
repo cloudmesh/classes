@@ -687,13 +687,19 @@ Title:
     * Project: Your title
 
 Authors:
-
     The Authors need to be listed in the proposal with Fullname,
     e-mail, and gitlab username, if you use futuresystems or
     chameleoncloud you will also need to add your futuresystems or
     chameleoncloud name. Please put the prefix futuresystems: and/or
     chameloncloud: in the author field accordingly.
 
+    Example::
+      
+      Gregor von Laszewski
+      laszewski@gmail.com
+      chameleon: gregor
+      futuresystems: gvl
+    
 Abstract:                                                                                        
        Include in your abstract a short summary of the report or
        project
@@ -708,9 +714,11 @@ Artifacts:
        and where you will store it.
                                                                                                       
        Examples are:
-       * A Survey Paper
-       * Code on gitlab
-       * Screenshots, ...                                       
+       
+       * A Survey Paper 
+       * Code on gitlab 
+       * Screenshots
+       * ...
 
 
 
