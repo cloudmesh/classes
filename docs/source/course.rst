@@ -4537,7 +4537,9 @@ https://youtu.be/I79ISV6XBbE
 
 Lesson 2 - Analysis of 4 Artificial Clusters I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This is Part 1.
+
 We present clustering results on the artificial set of 1000 2D points
 described in previous lesson for 3 choices of cluster sizes ''small''
 ''large'' and ''very large''. We emphasize the SciPy always does 20
@@ -4559,21 +4561,8 @@ https://youtu.be/Srgq9VDg4C8
 
 Lesson 3 - Analysis of 4 Artificial Clusters II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-We present clustering results on the artificial set of 1000 2D points
-described in previous lesson for 3 choices of cluster sizes ''small''
-''large'' and ''very large''. We emphasize the SciPy always does 20
-independent K means and takes the best result -- an approach to
-avoiding local minima. We allow this number of independent runs to be
-changed and in particular set to 1 to generate more interesting
-erratic results. We define changes in our new K means code that also
-has two measures of quality allowed. The slides give many results of
-clustering into 2 4 6 and 8 clusters (there were only 4 real
-clusters). We show that the ''very small'' case has two very different
-solutions when clustered into two clusters and use this to discuss
-functions with multiple minima and a hill between them. The lesson has
-both discussion of already produced results in slides and interactive
-use of Python for new runs.
+
+This is Part 2 of "Analysis of 4 Artificial Clusters".
 
 https://youtu.be/rjyAXjA_mOk
  
@@ -4581,20 +4570,7 @@ https://youtu.be/rjyAXjA_mOk
 Lesson 4 - Analysis of 4 Artificial Clusters III
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We present clustering results on the artificial set of 1000 2D points
-described in previous lesson for 3 choices of cluster sizes ''small''
-''large'' and ''very large''. We emphasize the SciPy always does 20
-independent K means and takes the best result -- an approach to
-avoiding local minima. We allow this number of independent runs to be
-changed and in particular set to 1 to generate more interesting
-erratic results. We define changes in our new K means code that also
-has two measures of quality allowed. The slides give many results of
-clustering into 2 4 6 and 8 clusters (there were only 4 real
-clusters). We show that the ''very small'' case has two very different
-solutions when clustered into two clusters and use this to discuss
-functions with multiple minima and a hill between them. The lesson has
-both discussion of already produced results in slides and interactive
-use of Python for new runs.
+This is Part 3 of "Analysis of 4 Artificial Clusters".
 
 https://youtu.be/N6QKyrhNVAc
 
@@ -4636,6 +4612,8 @@ https://youtu.be/67qFY64aj7g
 Lesson 2 - Advanced Topics I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+This is Part 1.
+
 This defines 4 types of MapReduce and the Map Collective model of
 Qiu. The Iterative MapReduce model from Indiana University called
 Twister is described and a few performance measurements on Microsoft
@@ -4648,10 +4626,7 @@ https://youtu.be/lo4movzSyVw
 Lesson 3 - Advanced Topics II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This defines 4 types of MapReduce and the Map Collective model of
-Qiu. The Iterative MapReduce model from Indiana University called
-Twister is described and a few performance measurements on Microsoft
-Azure are presented.
+This is Part 2 of "Advanced Topics".
 
 https://youtu.be/wnanWncQBow
 
@@ -4692,7 +4667,9 @@ Files
 
 Lesson 1 - MapReduce Kmeans in Python I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This is Part 1.
+
 We modify the SciPy K-means code to support a MapReduce
 execution style and runs it in this short unit. This illustrates the
 key ideas of mappers and reducers. With appropriate runtime this code
@@ -4706,12 +4683,7 @@ https://youtu.be/2El1oL3gKpQ
 Lesson 2 - MapReduce Kmeans in Python II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We modify the SciPy K-means code to support a MapReduce
-execution style and runs it in this short unit. This illustrates the
-key ideas of mappers and reducers. With appropriate runtime this code
-would run in parallel but here the ''parallel'' maps run
-sequentially. We stress that this simple 2 map version can be
-generalized to scalable parallelism.
+This is Part 2 of "MapReduce Kmeans in Python"
 
 https://youtu.be/LLrTWWdE3T0
 
@@ -4750,6 +4722,8 @@ Files
 Lesson 1 - Calculate PageRank from Web Linkage Matrix I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We take two simple matrices for 6 and 8 web sites respectively
 to illustrate the calculation of PageRank.
 
@@ -4759,8 +4733,7 @@ https://youtu.be/rLWUvvcHrCQ
 Lesson 2 - Calculate PageRank from Web Linkage Matrix II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We take two simple matrices for 6 and 8 web sites respectively
-to illustrate the calculation of PageRank.
+This is Part 2 of "Calculate PageRank for Web linkage Matrix".
 
 https://youtu.be/UzQRukCFQv8
 
@@ -4802,16 +4775,7 @@ Unit 36 - X-Informatics Case Study: Sensors
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We start with the Internet of Things IoT giving examples like
-monitors of machine operation, QR codes, surveillance cameras,
-scientific sensors, drones and self driving cars and more generally
-transportation systems. We give examples of robots and drones. We
-introduce the Industrial Internet of Things IIoT and summarize surveys
-and expectations Industry wide. We give examples from General
-Electric. Sensor clouds control the many small distributed devices of
-IoT and IIoT. More detail is given for radar data gathered by sensors;
-ubiquitous or smart cities and homes including U-Korea; and finally
-the smart electric grid.
+See Section Overview
 
  
 
@@ -4847,6 +4811,8 @@ https://youtu.be/VqXvn0dwqxs
 Lesson 3 - Industrial Internet of Things I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We summarize surveys and expectations Industry wide.
 
 https://youtu.be/jqQJjtTEsEo
@@ -4854,6 +4820,8 @@ https://youtu.be/jqQJjtTEsEo
 
 Lesson 4 - Industrial Internet of Things II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is Part 2 of "Industrial Internet of Things".
 
 Examples from General Electric.
 
