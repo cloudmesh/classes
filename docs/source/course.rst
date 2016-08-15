@@ -3424,6 +3424,8 @@ Files
 Lesson 1 - Python k'th Nearest Neighbor Algorithms I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 This lesson considers the Python k Nearest Neighbor code found on the
 web associated with a book by Harrington on Machine Learning. There
 are two data sets. First we consider a set of 4 2D vectors divided
@@ -3438,13 +3440,7 @@ https://youtu.be/o16L0EqsQ_g
 Lesson 2 - Python k'th Nearest Neighbor Algorithms II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-This lesson considers the Python k Nearest Neighbor code found on the
-web associated with a book by Harrington on Machine Learning. There
-are two data sets. First we consider a set of 4 2D vectors divided
-into two categories (clusters) and use k=3 Nearest Neighbor algorithm
-to classify 3 test points. Second we consider a 3D dataset that has
-already been classified and show how to normalize. In this lesson we
-just use Matplotlib to give 2D plots.
+This is Part 2 of "Python k'th Nearest Neighbor Algorithms".
 
 https://youtu.be/JK5p24mnTjs
  
