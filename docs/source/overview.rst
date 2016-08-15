@@ -143,10 +143,10 @@ Calendar
 All sessions refer to Sections, Discussions and Units published at the
 `Course Content Web Page <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/f712efaeae5a4d6ea2c87a0f34e0720b/>`_
 
-* This document superseeds any assignment dates and comments regardign
-  assignments made in videos or sateted elsewhere
+* This document supersedes any assignment dates and comments regarding
+  assignments made in videos or stated elsewhere
 * All lectures are assigned Monday's
-* All discussions and hoemwork are due Friday's
+* All discussions and homework are due Friday's
 
 +------------+-------+------------+------------------------------------+
 | Date       | Week  | Week       | Descriptions                       |
@@ -218,7 +218,7 @@ Common Mistakes
 
 * starting the project to late.
 * not using gitlab for homework submission
-* not using the 2 colum ACM perport template
+* not using the 2 column ACM report template
 * not using jabref or endnote for references
 
 Email
@@ -278,7 +278,7 @@ class grade.
 In case you chose a project your maximum grade could be an
 A+. However, and A+ project must be truly outstanding and include an
 exceptional project report. Such a project and report will have the
-potential quality of being able to be published in a confernece. 
+potential quality of being able to be published in a conference. 
 
 In case you chose a Term Paper your maximum Grade will be an A-.
 
@@ -304,7 +304,7 @@ Code:
     You must deliver the code in gitlab. The code must be compilable
     and a TA may try to replicate to run your code. You MUST avoid
     lengthy install descriptions and everything must be installable
-    from the commandline
+    from the command line
 
 Project Report:
     A report must be produced while using the format discussed in the
@@ -314,7 +314,7 @@ Project Report:
     * 9 pages, one student in the project
     * 12 pages, one student in the project
 
-Work Breackdown:
+Work Breakdown:
     This document is only needed for team projects. A one page PDF
     document describing who did what. It includes pointers to
     the git history that documents the statistics that demonstrate not
@@ -353,10 +353,10 @@ Term Report:
 
     * 6 pages, one student in the project
     * 9 pages, two student in the project
-    * 12 pages, three student in the projet
+    * 12 pages, three student in the project
 
 
-Work Breackdown:
+Work Breakdown:
     This document is only needed for team projects. A one page PDF
     document describing who did what.
 
@@ -375,7 +375,7 @@ A LaTeX version can be found at
 
 however you have to remove the ACM copyright notice in the LaTeX version.
 
-There will be **NO EXEPTION** to this format. In case you are in a
+There will be **NO EXCEPTION** to this format. In case you are in a
 team, you can use either gitlab while collaboratively developing the
 LaTeX document or use MicrosoftOne Drive which allows collaborative
 editing features. All bibliographical entries must be put into a
@@ -403,7 +403,7 @@ Report Checklist:
 * [ ] Have you submitted an additional page that describes who did
   what in the project or report.
 * [ ] Have you spellchecked the paper.
-* [ ] Have you made sure you do not plageurize.
+* [ ] Have you made sure you do not plagiarize.
 
 
 Code Repositories Deliverables
@@ -434,7 +434,7 @@ Python or Java experience is expected. The programming load is modest.
 In case you elect a programming project we will assume that you are
 familiar with the programming languages required as part of the
 project you suggest. We will limit the languages to Python and
-JavaScript if you like to do interactive vizulisation.  If you do not
+JavaScript if you like to do interactive visualization.  If you do not
 know the required technologies, we will expect you to learn it outside
 of class. For example, Python has a reputation for being easy to
 learn, and those with strong programming background in another
@@ -450,7 +450,7 @@ additional reading outside of class.
 In case you are interested in further development of cloudmesh for big
 data strong Python or JavaScript experience is needed. 
 
-You will also need a sufficently modern and powerfull computer to do
+You will also need a sufficiently modern and powerful computer to do
 the class work. Naturally if you expect that you want to to the course
 only on your cell phone or iPad, or your windows 98 computer, this
 does not work. We recommend that you have a relatively new and updated
@@ -468,7 +468,7 @@ naturally also use AWS or other clouds where you can run virtual
 machines, but in that case you need to pay for the usage yourself.
 
 Please remember that this course does not have a required text books
-and the money you safe on this you can use to buy a new or upgrade
+and the money you safe on this you can be used to buy a new or upgrade
 your current computer if needed. 
 
 
