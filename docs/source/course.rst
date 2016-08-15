@@ -1641,8 +1641,8 @@ https://iu.app.box.com/s/6uz4ofnnd9usv75cab71
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-HiggsClassI-Sloping.py:
-http://openedx.scholargrid.org:18010/c4x/SoIC/INFO-I-523/asset/HiggsClassISloping.py
+HiggsClassI-Sloping.py
+
  
 
 Lesson 1 - Looking for Higgs Particle and Counting Introduction I
