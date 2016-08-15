@@ -1641,7 +1641,7 @@ https://iu.app.box.com/s/6uz4ofnnd9usv75cab71
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-HiggsClassI-Sloping.py
+* :download:`HiggsClassI-Sloping.py  <files/python/physics/higgs_classI_sloping.py>` 
 
  
 
