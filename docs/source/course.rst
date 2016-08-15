@@ -4667,7 +4667,9 @@ Files
 
 Lesson 1 - MapReduce Kmeans in Python I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This is Part 1.
+
 We modify the SciPy K-means code to support a MapReduce
 execution style and runs it in this short unit. This illustrates the
 key ideas of mappers and reducers. With appropriate runtime this code
@@ -4681,12 +4683,7 @@ https://youtu.be/2El1oL3gKpQ
 Lesson 2 - MapReduce Kmeans in Python II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We modify the SciPy K-means code to support a MapReduce
-execution style and runs it in this short unit. This illustrates the
-key ideas of mappers and reducers. With appropriate runtime this code
-would run in parallel but here the ''parallel'' maps run
-sequentially. We stress that this simple 2 map version can be
-generalized to scalable parallelism.
+This is Part 2 of "MapReduce Kmeans in Python"
 
 https://youtu.be/LLrTWWdE3T0
 
