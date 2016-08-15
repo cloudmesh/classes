@@ -1761,22 +1761,10 @@ Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y
-
-
-
-Files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
-
  
 :download:`HiggsClassIII.py <files/python/physics/number_theory/higgs_classIII.py>`
-=======
 
 HiggsClassIII.py
-
-http://openedx.scholargrid.org:18010/c4x/SoIC/INFO-I-523/asset/HiggsClassIII.py
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
-
 
 Lesson 1 - Statistics Overview and Fundamental Idea: Random Variables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
