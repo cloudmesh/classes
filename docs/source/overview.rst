@@ -124,6 +124,19 @@ Or Telephone:
 
 Please use a headphone with microphone to increase sound quality.
 
+Discussions
+-----------
+
+Online discussions will be conducted in piazza at the following
+URL:
+
+https://piazza.com/iu/fall2016/infoi523/home
+
+Discussions are conducted in clearly marked folders/topics. For
+example "Discussion d1" will be conducted in the piazza folder
+"d1". Students are responsible for posting their content to the right
+folder. No credit will be given if the post has been filed wrongly.
+
 Calendar
 ---------
 
@@ -509,6 +522,18 @@ plagiarism of such papers or codes.
 
 Instructors
 ------------
+
+The course presents lectures in online form given by the instructors
+listed bellow. Many others have helped making this material available
+and may not be listed here.
+
+For the class the support is provided by
+
+* Gregor von Laszewski (PhD)
+* Badi Abdhul-Wahid (PhD)
+* Jerome Mitchell (Teaching Assistant)
+* Prashanth Balasubramani (Teaching Assistant)
+* Hyungro Lee (Teaching Assistant)
 
 
 Gregor von Laszewski
