@@ -4007,8 +4007,14 @@ https://youtu.be/i5OI6R526kM
 Lesson 5 - Cloud Applications I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 This short lesson discusses the need for security and issues in its
-implementation.
+implementation. Clouds trade scalability for greater possibility of
+faults but here clouds offer good support for recovery from faults. We
+discuss both storage and program fault tolerance noting that parallel
+computing is especially sensitive to faults as a fault in one task
+will impact all other tasks in the parallel job.
 
 https://youtu.be/nkeSOMTGbbo
  
@@ -4016,11 +4022,7 @@ https://youtu.be/nkeSOMTGbbo
 Lesson 6 - Cloud Applications II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-Clouds trade scalability for greater possibility of faults but here
-clouds offer good support for recovery from faults. We discuss both
-storage and program fault tolerance noting that parallel computing is
-especially sensitive to faults as a fault in one task will impact all
-other tasks in the parallel job.
+This is Part 2 of "Cloud Applications".
 
 https://youtu.be/ORd3aBhc2Rc
  
