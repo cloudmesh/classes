@@ -1668,7 +1668,7 @@ Unit 13 - II: Looking for Higgs Particles: Python Event Counting for Signal and 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This unit is devoted to Python experiments ooking at
+This unit is devoted to Python experiments looking at
 histograms of Higgs Boson production with various forms of shape of
 signal and various background and with various event totals.
 
@@ -1681,11 +1681,14 @@ https://iu.app.box.com/s/77iw9brrugz2pjoq6fw1
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 :download:`HiggsClassI-Sloping.py <files/python/physics/mr_higgs/higgs_classI_sloping.py>`
 
 :download:`HiggsClassIII.py <files/python/physics/number_theory/higgs_classIII.py>`
 
 :download:`HiggsClassIIUniform.py <files/python/physics/mr_higgs/higgs_classII_uniform.py>`
+
+
 
 Lesson 1 - Physics Use Case II 1: Class Software
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1763,6 +1766,7 @@ Slides
 https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y
  
 :download:`HiggsClassIII.py <files/python/physics/number_theory/higgs_classIII.py>`
+
 
 Lesson 1 - Statistics Overview and Fundamental Idea: Random Variables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
