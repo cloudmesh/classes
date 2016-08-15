@@ -3239,6 +3239,8 @@ https://youtu.be/og07mH9fU0M
 Lesson 3 - Recommender Systems in Yahoo Use Case Example I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We describe in greatest detail the methods used to optimize Yahoo web
 sites. There are two lessons discussing general approach and a third
 lesson examines a particular personalized Yahoo page with its
@@ -3258,36 +3260,15 @@ https://youtu.be/FBn7HpGFNvg
 Lesson 4 - Recommender Systems in Yahoo Use Case Example II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We give some examples in more detail including Google News, Markdown
-in Retail and in greatest detail the methods used to optimize a Yahoo
-page. Here we review recommender engines yet again put then examine a
-personalized Yahoo page with its different components. We point out
-the different criteria that must be blended in making decisions; these
-criteria include analysis of what user does after a particular page is
-clicked; is the user satisfied and cannot that we quantified by
-purchase decisions etc. We need to choose Articles, ads, modules,
-movies, users, updates, etc to optimize metrics such as relevance
-score, CTR, revenue, engagement.This lesson stresses that if though we
-have big data, the recommender data is sparse. We discuss the approach
-that involves both batch (offline) and on-line (real time) components.
+This is Part 2 of "Recommender Systems in Yahoo Use Case Example"
 
 https://youtu.be/VS2Y4lAiP5A
  
 
 Lesson 5 - Recommender Systems in Yahoo Use Case Example III: Particular Module
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We describe in greatest detail the methods used to optimize Yahoo web
-sites. There are two lessons discussing general approach and a third
-lesson examines a particular personalized Yahoo page with its
-different components. We point out the different criteria that must be
-blended in making decisions; these criteria include analysis of what
-user does after a particular page is clicked; is the user satisfied
-and cannot that we quantified by purchase decisions etc. We need to
-choose Articles, ads, modules, movies, users, updates, etc to optimize
-metrics such as relevance score, CTR, revenue, engagement.These lesson
-stress that if though we have big data, the recommender data is
-sparse. We discuss the approach that involves both batch (offline) and
-on-line (real time) components.
+
+This is Part 3 of "Recommender Systems in Yahoo Use Case Example"
 
 https://youtu.be/HrRJWEF8EfU
 
@@ -3295,6 +3276,8 @@ https://youtu.be/HrRJWEF8EfU
 
 Lesson 6 - User-based nearest-neighbor collaborative filtering I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is Part 1.
 
 Collaborative filtering is a core approach to recommender
 systems. There is user-based and item-based collaborative filtering
@@ -3307,15 +3290,10 @@ https://youtu.be/lsf_AE-8dSk
 
  
 
-Lesson 7 - User-based nearest-neighbor collaborative filtering I
+Lesson 7 - User-based nearest-neighbor collaborative filtering II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-Collaborative filtering is a core approach to recommender
-systems. There is user-based and item-based collaborative filtering
-and here we discuss the user-based case. Here similarities in user
-rankings allow one to predict their interests, and typically this
-quantified by the Pearson correlation, used to statistically quantify
-correlations between users.
+This is Part 2 of "User-based nearest-neighbor collaborative filtering"
 
 https://youtu.be/U7-qeX2ItPk
  
@@ -3357,6 +3335,8 @@ https://iu.app.box.com/s/fvrwds7zd65m79a7uur3
 Lesson 1 - Item-based Collaborative Filtering I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We covered user-based collaborative filtering in the previous
 unit. Here we start by discussing memory-based real time and model
 based offline (batch) approaches. Now we look at item-based
@@ -3372,14 +3352,8 @@ https://youtu.be/25sBgh3HwxY
 Lesson 2 - Item-based Collaborative Filtering II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We covered user-based collaborative filtering in the previous
-unit. Here we start by discussing memory-based real time and model
-based offline (batch) approaches. Now we look at item-based
-collaborative filtering where items are viewed in the space of users
-and the cosine measure is used to quantify distances. WE discuss
-optimizations and how batch processing can help. We discuss different
-Likert ranking scales and issues with new items that do not have a
-significant number of rankings.
+This is Part 2 of "Item-based Collaborative Filtering"
+
 
 https://youtu.be/SM8EJdAa4mw
  
@@ -3450,6 +3424,8 @@ Files
 Lesson 1 - Python k'th Nearest Neighbor Algorithms I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 This lesson considers the Python k Nearest Neighbor code found on the
 web associated with a book by Harrington on Machine Learning. There
 are two data sets. First we consider a set of 4 2D vectors divided
@@ -3464,13 +3440,7 @@ https://youtu.be/o16L0EqsQ_g
 Lesson 2 - Python k'th Nearest Neighbor Algorithms II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-This lesson considers the Python k Nearest Neighbor code found on the
-web associated with a book by Harrington on Machine Learning. There
-are two data sets. First we consider a set of 4 2D vectors divided
-into two categories (clusters) and use k=3 Nearest Neighbor algorithm
-to classify 3 test points. Second we consider a 3D dataset that has
-already been classified and show how to normalize. In this lesson we
-just use Matplotlib to give 2D plots.
+This is Part 2 of "Python k'th Nearest Neighbor Algorithms".
 
 https://youtu.be/JK5p24mnTjs
  
@@ -3680,6 +3650,8 @@ https://iu.app.box.com/s/nau0rsr39kyej240s4yz
 Lesson 1 - Decomposition I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We describe why parallel computing is essential with Big Data
 and distinguishes parallelism over users to that over the data in
 problem. The general ideas behind data decomposition are given
@@ -3697,16 +3669,7 @@ https://youtu.be/R-wHQW2YuRE
 Lesson 2 - Decomposition II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We describe why parallel computing is essential with Big Data
-and distinguishes parallelism over users to that over the data in
-problem. The general ideas behind data decomposition are given
-followed by a few often whimsical examples dreamed up 30 years ago in
-the early heady days of parallel computing. These include scientific
-simulations, defense outside missile attack and computer chess. The
-basic problem of parallel computing -- efficient coordination of
-separate tasks processing different data parts -- is described with
-MPI and MapReduce as two approaches. The challenges of data
-decomposition in irregular problems is noted.
+This is Part 2 of "Decomposition".
 
 https://youtu.be/iIi9wdvlwCM
  
@@ -3714,16 +3677,7 @@ https://youtu.be/iIi9wdvlwCM
 Lesson 3 - Decomposition III
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We describe why parallel computing is essential with Big Data
-and distinguishes parallelism over users to that over the data in
-problem. The general ideas behind data decomposition are given
-followed by a few often whimsical examples dreamed up 30 years ago in
-the early heady days of parallel computing. These include scientific
-simulations, defense outside missile attack and computer chess. The
-basic problem of parallel computing -- efficient coordination of
-separate tasks processing different data parts -- is described with
-MPI and MapReduce as two approaches. The challenges of data
-decomposition in irregular problems is noted.
+This is Part 3 of "Decomposition".
 
 https://youtu.be/F0aeeLeTD9I
 
