@@ -1,4 +1,6 @@
-Python Programming
+
+
+Introduction to Python Programming
 ======================================================================
 
 .. todo::
@@ -72,7 +74,7 @@ At the end of this lesson you will be able to:
 Resources
 ----------------------------------------------------------------------
 
-.. include:: /python/resources.rst
+.. include:: /python_intro/resources.rst
 
 Acknowledgments
 ----------------------------------------------------------------------
@@ -86,23 +88,23 @@ Tutorial`_ copyright `Python Software Foundation`_.
 Introduction
 ----------------------------------------------------------------------
 
-.. include:: /python/introduction.rst
+.. include:: /python_intro/introduction.rst
 
 Using Python on FutureSystems
 ----------------------------------------------------------------------
 
-.. include:: /python/on-futuresystems.rst
+.. include:: /python_intro/on-futuresystems.rst
 
 Interactive Python
 ----------------------------------------------------------------------
 
-.. include:: /python/interactive.rst
+.. include:: /python_intro/interactive.rst
 
 
 Syntax
 ----------------------------------------------------------------------
 
-.. include:: /python/syntax.rst
+.. include:: /python_intro/syntax.rst
 
 
 Writing and Saving Programs
@@ -111,17 +113,17 @@ Writing and Saving Programs
 Make sure you are no longer in the interactive interpreter.
 If you are you can type ``quit()`` and press Enter to exit.
 
-.. include:: /python/saving.rst
+.. include:: /python_intro/saving.rst
 
 Installing Libraries
 ----------------------------------------------------------------------
 
-.. include:: /python/pip-install.rst
+.. include:: /python_intro/pip-install.rst
 
 Further Learning
 ----------------------------------------------------------------------
 
-.. include:: /python/further-learning.rst
+.. include:: /python_intro/further-learning.rst
 
   
 Exercises
