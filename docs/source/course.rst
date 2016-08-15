@@ -3277,6 +3277,8 @@ https://youtu.be/HrRJWEF8EfU
 Lesson 6 - User-based nearest-neighbor collaborative filtering I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+This is Part 1.
+
 Collaborative filtering is a core approach to recommender
 systems. There is user-based and item-based collaborative filtering
 and here we discuss the user-based case. Here similarities in user
@@ -3288,15 +3290,10 @@ https://youtu.be/lsf_AE-8dSk
 
  
 
-Lesson 7 - User-based nearest-neighbor collaborative filtering I
+Lesson 7 - User-based nearest-neighbor collaborative filtering II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-Collaborative filtering is a core approach to recommender
-systems. There is user-based and item-based collaborative filtering
-and here we discuss the user-based case. Here similarities in user
-rankings allow one to predict their interests, and typically this
-quantified by the Pearson correlation, used to statistically quantify
-correlations between users.
+This is Part 2 of "User-based nearest-neighbor collaborative filtering"
 
 https://youtu.be/U7-qeX2ItPk
  
