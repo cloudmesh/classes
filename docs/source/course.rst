@@ -3963,7 +3963,9 @@ https://iu.app.box.com/s/0bn57opwe56t0rx4k18bswupfwj7culv
 Lesson 1 - Cloud (Data Center) Architectures I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ome remarks on what it takes to build (in software) a cloud ecosystem,
+This is Part 1.
+
+Some remarks on what it takes to build (in software) a cloud ecosystem,
 and why clouds are the data center of the future are followed by
 pictures and discussions of several data centers from Microsoft
 (mainly) and Google. The role of containers is stressed as part of
@@ -3978,13 +3980,7 @@ https://youtu.be/j0P32DmQjI8
 Lesson 2 - Cloud (Data Center) Architectures II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Some remarks on what it takes to build (in software) a cloud
-ecosystem, and why clouds are the data center of the future are
-followed by pictures and discussions of several data centers from
-Microsoft (mainly) and Google. The role of containers is stressed as
-part of modular data centers that trade scalability for fault
-tolerance. Sizes of cloud centers and supercomputers are discussed as
-is ''green'' computing.
+This is Part 2 of "Cloud (Data Center) Architectures".
 
 https://youtu.be/3HAGqz34AB4
 
