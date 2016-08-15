@@ -3,13 +3,6 @@
 Introduction to Python Programming
 ======================================================================
 
-.. todo::
-
-   The current contents are perhaps a bit too basic and covered by
-   numerous other resources. Instead, the lesson should focus on
-   installation of requirements, ecosystem (pip, virtualenv) usage,
-   and demonstrate a simple visualization with Pandas/Matplotlib.
-
 .. sidebar:: Page Contents
 
    .. contents::
