@@ -1720,8 +1720,8 @@ https://iu.app.box.com/s/77iw9brrugz2pjoq6fw1
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-HiggsClassIII.py http://openedx.scholargrid.org:18010/c4x/SoIC/INFO-I-523/asset/HiggsClassIII.py
-HiggsClassISloping.py http://openedx.scholargrid.org:18010/c4x/SoIC/INFO-I-523/asset/HiggsClassISloping.py
+.. include:: ../files/python/Section-4_Physics-Units-9-10-11/Unit-10_Number-Theory/python/HiggsClassIII.py 
+HiggsClassISloping.py 
 HiggsClassISloping.java
 HiggsClassIIUniform.py
 HiggsClassIIUniform.java
@@ -1730,16 +1730,6 @@ Dependencies.zip
 TypicalResultsHW5.docx
 
 
-<ol>
-<li><span style="text-decoration: underline;"><a href="/static/HiggsClassIII.py" target="_blank">HiggsClassIII.py</a></span></li>
-<li><span style="text-decoration: underline;"><a href="/static/HiggsClassISloping.py" target="_blank">HiggsClassISloping.py</a></span></li>
-<li><span style="text-decoration: underline;"><a href="/static/HiggsClassISloping.java" target="_blank">HiggsClassISloping.java</a></span></li>
-<li><span style="text-decoration: underline;"><a href="/static/HiggsClassIIUniform.py" target="_blank">HiggsClassIIUniform.py</a></span></li>
-<li><span style="text-decoration: underline;"><a href="/static/HiggsClassIIUniform.java" target="_blank">HiggsClassIIUniform.java</a></span></li>
-<li><span style="text-decoration: underline;"><a href="/static/Java_ReadMe" target="_blank">Java_ReadMe</a></span></li>
-<li><span style="text-decoration: underline;"><a href="/static/Dependencies.zip" target="_blank">Dependencies.zip</a></span></li>
-<li><span style="text-decoration: underline;"><a href="/static/BDAASpring2015PhysicsHW.docx" target="_blank">TypicalResultsHW5.docx</a></span></li>
-</ol>
 
 
 Lesson 1 - Physics Use Case II 1: Class Software
