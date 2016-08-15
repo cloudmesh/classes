@@ -3335,6 +3335,8 @@ https://iu.app.box.com/s/fvrwds7zd65m79a7uur3
 Lesson 1 - Item-based Collaborative Filtering I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We covered user-based collaborative filtering in the previous
 unit. Here we start by discussing memory-based real time and model
 based offline (batch) approaches. Now we look at item-based
@@ -3350,14 +3352,8 @@ https://youtu.be/25sBgh3HwxY
 Lesson 2 - Item-based Collaborative Filtering II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We covered user-based collaborative filtering in the previous
-unit. Here we start by discussing memory-based real time and model
-based offline (batch) approaches. Now we look at item-based
-collaborative filtering where items are viewed in the space of users
-and the cosine measure is used to quantify distances. WE discuss
-optimizations and how batch processing can help. We discuss different
-Likert ranking scales and issues with new items that do not have a
-significant number of rankings.
+This is Part 2 of "Item-based Collaborative Filtering"
+
 
 https://youtu.be/SM8EJdAa4mw
  
