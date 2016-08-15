@@ -3798,7 +3798,8 @@ https://youtu.be/Od_mYXRs5As
 
 Lesson 3 - What and Why is Cloud Computing: Several Other Views I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
+This is Part 1.
 
 This lesson contains 5 slides with diverse comments on ''what is cloud
 computing'' from the web.
@@ -3808,18 +3809,16 @@ https://youtu.be/5VeqMjXKU_Y
 
 Lesson 4 - What and Why is Cloud Computing: Several Other Views II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-This lesson contains 5 slides with diverse comments on ''what is cloud
-computing'' from the web.
+
+This is Part 2 of "What and Why is Cloud Computing: Several Other Views".
 
 https://youtu.be/J963LR0PS_g
  
 
 Lesson 5 - What and Why is Cloud Computing: Several Other Views III
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-This lesson contains 5 slides with diverse comments on ''what is cloud
-computing'' from the web.
+
+This is Part 3 of "What and Why is Cloud Computing: Several Other Views".
 
 https://youtu.be/_ryLXUnOAzo
  
