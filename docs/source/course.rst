@@ -4722,6 +4722,8 @@ Files
 Lesson 1 - Calculate PageRank from Web Linkage Matrix I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We take two simple matrices for 6 and 8 web sites respectively
 to illustrate the calculation of PageRank.
 
@@ -4731,8 +4733,7 @@ https://youtu.be/rLWUvvcHrCQ
 Lesson 2 - Calculate PageRank from Web Linkage Matrix II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We take two simple matrices for 6 and 8 web sites respectively
-to illustrate the calculation of PageRank.
+This is Part 2 of "Calculate PageRank for Web linkage Matrix".
 
 https://youtu.be/UzQRukCFQv8
 
