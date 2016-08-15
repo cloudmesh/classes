@@ -37,13 +37,13 @@ Video V2
     Watch Videos in Section 2: Units 3, 4, and 5. Note these units
     have overlap with Unit 2 of Section 1.
 
-Discussion D1
+Discussion d1
 ~~~~~~~~~~~~~~
-    Consider Discussion D1 after Section 1. Please post on topic "Why
+    Consider Discussion d1 after Section 1. Please post on topic "Why
     is Big Data interesting to`me" and also comment on at least 2
     other posts. 
 
-Paper P1
+Paper p1
 ~~~~~~~~~
       This requires to write a paper that is 2 pages in
       length. Please use the 2 column ACM proceedings Format. Write a
@@ -65,15 +65,15 @@ Video V3
 ~~~~~~~~~
       Please watch Section 3 Unit 6. Total Length 2.5 hours 
 
-Discussion D3
+Discussion d3
 ~~~~~~~~~~~~~~
-           Consider Discussion D3 after Section 3. Please post
+           Consider Discussion d3 after Section 3. Please post
 	   about the topic "Where are the Big Data Jobs now and in
 	   future? Discuss anything you can share -- areas that are
 	   hots, good online sites etc." and also comment on at least
 	   2 other posts.
 
-Paper P2
+Paper p2
 ~~~~~~~~~
 	  This requires to write a paper that is two pages in
       	  length. Please use the 2 column ACM proceedings Format.
@@ -93,9 +93,9 @@ Video V4
 ~~~~~~~~~
       Please watch Section 4 Unit 7-9. Total Length 3.5 hours
 
-Discussion D4
+Discussion d4
 ~~~~~~~~~~~~~~
-	   Consider Discussion D4 after Section 4 Please post on topic
+	   Consider Discussion d4 after Section 4 Please post on topic
 	   "Sports and Health Informatics":
 
 	   * Which are most interesting job areas;
@@ -104,7 +104,7 @@ Discussion D4
 	     fields
 	   * Comment on at least 2 other posts. 
 
-Paper P3
+Paper p3
 ~~~~~~~~~
          This requires to write a paper that is from one to two pages in
       	 length. Please use the 2 column ACM proceedings Format.
@@ -138,7 +138,7 @@ Video V5
       Please watch Section 5 Units 10, 11. Total Length 2.5 hours.
 
 
-Programming PRG1: Python
+Programming prg1: Python
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 	* Install Python and other listed dependencies on your
@@ -159,7 +159,7 @@ Programming PRG1: Python
           you can do with it in case you chose a Project
 
 	
-	Deliverables PRG1:
+	Deliverables prg1:
 
 	    The goal of this assignment is to choose one or two datasets
             (see :doc:`datasets`), preprocess it to clean it up, and
@@ -215,7 +215,7 @@ OpenStack
           use cloudmesh client you will get bonus points). 
 
 
-Discussion D5
+Discussion d5
 ~~~~~~~~~~~~~~
 
 	   Create a NEW post to discuss your final project you want to do
@@ -230,7 +230,7 @@ Video S6
 ~~~~~~~~~
       Watch the video in Section 6.
 
-PRG2
+prg2
 ~~~~~
 	 Consider the Python/Java code available on Section 6 Unit 13
  	 “Files” tab (the third one) as HiggsClassIIUniform.py or
@@ -257,9 +257,9 @@ PRG2
 
 	 https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs
 	 
-Discussion D6
+Discussion d6
 ~~~~~~~~~~~~~~
-	   Post on Discussion D6 after Section 7, the “Physics” topic:
+	   Post on Discussion d6 after Section 7, the “Physics” topic:
 	   
 	   * What you found interesting, remarkable or shocking about
 	     the search for Higgs Bosons.
@@ -275,9 +275,9 @@ Video S7
 ~~~~~~~~~
       Watch the videaos in section 7
  
-Discussion D7
+Discussion d7
 ~~~~~~~~~~~~~~
-	   Post on Discussion D7 on the topic:
+	   Post on Discussion d7 on the topic:
 
 	   * Which is the most interesting/important of the 51
 	     use cases in section 7.
@@ -303,9 +303,9 @@ Video S9
 ~~~~~~~~~
       Watch the videos related to Section 9
 
-Discussion D9
+Discussion d9
 ~~~~~~~~~~~~~~
-            Post on Discussion D9:
+            Post on Discussion d9:
 
 	    * What are benefits for e-Commerce?
 	    * What are limitations for e-Commerce?
@@ -324,12 +324,12 @@ Video S10
 ~~~~~~~~~
       Watch the videos related to Section 10
 
-Discussion D10
+Discussion d10
 ~~~~~~~~~~~~~~~~~
 
-        Use Discussion D10 in case you have questions about PRG3
+        Use Discussion d10 in case you have questions about prg3
 
-Programming PRG3
+Programming prg3
 ~~~~~~~~~~~~~~~~~
 
          Develop a python program conducting k-means. Use a meanungful
@@ -350,12 +350,12 @@ Programming PRG3
 Week 10
 --------
 
-Discussion D11
+Discussion d11
 ~~~~~~~~~~~~~~~
           Discuss what you learnt from video you watched in
 	  S11: Parallel Computing and Clouds
 	   
-Paper P11
+Paper p11
 ~~~~~~~~~~
      Consider any 5 cloud or cloud like activities from list of 11 below.
      Describe the ones you chose and expalin what ways they could be used
@@ -691,7 +691,9 @@ Authors:
     e-mail, and gitlab username, if you use futuresystems or
     chameleoncloud you will also need to add your futuresystems or
     chameleoncloud name. Please put the prefix futuresystems: and/or
-    chameloncloud: in the author field accordingly.
+    chamelon: in the author field accordingly. Please only include if
+    you have used the resources. If you do not use the resources for
+    the project or report, ther is no need to include them. 
 
     Example::
       
@@ -699,6 +701,8 @@ Authors:
       laszewski@gmail.com
       chameleon: gregor
       futuresystems: gvl
+
+    
     
 Abstract:                                                                                        
        Include in your abstract a short summary of the report or
