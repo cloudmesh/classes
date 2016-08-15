@@ -23,6 +23,15 @@ External hyperlinks, like Python_.
 Week 1
 ------
 
+Communication
+-------------
+
+    * Enroll in https://piazza.com/class/irqfvh1ctrg2vt
+    * Enroll in gmail.com
+    * Enroll in gitlab.com
+    * Enroll in class ;-)
+      
+
 Video V1
 ~~~~~~~~~
 
