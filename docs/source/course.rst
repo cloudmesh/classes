@@ -3147,6 +3147,8 @@ https://youtu.be/1Eh1epQj-EQ
 Lesson 5 - Netflix on Recommender Systems I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We summarize some interesting points from a tutorial from Netflix for
 whom ''everything is a recommendation''. Rankings are given in
 multiple categories and categories that reflect user interests are
@@ -3165,17 +3167,7 @@ https://youtu.be/tXsU5RRAD-w
 Lesson 6 - Netflix on Recommender Systems II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We summarize some interesting points from a tutorial from Netflix for
-whom ''everything is a recommendation''. Rankings are given in
-multiple categories and categories that reflect user interests are
-especially important. Criteria used include explicit user preferences,
-implicit based on ratings and hybrid methods as well as freshness and
-diversity. Netflix tries to explain the rationale of its
-recommendations. We give some data on Netflix operations and some
-methods used in its recommender systems. We describe the famous
-Netflix Kaggle competition to improve its rating system. The analogy
-to maximizing click through rate is given and the objectives of
-optimization are given.
+This is Part 2 of "Netflix on Recommender Systems"
 
 https://youtu.be/GnAol5aGuEo
  
