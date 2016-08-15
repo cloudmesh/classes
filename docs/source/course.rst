@@ -4775,16 +4775,7 @@ Unit 36 - X-Informatics Case Study: Sensors
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-We start with the Internet of Things IoT giving examples like
-monitors of machine operation, QR codes, surveillance cameras,
-scientific sensors, drones and self driving cars and more generally
-transportation systems. We give examples of robots and drones. We
-introduce the Industrial Internet of Things IIoT and summarize surveys
-and expectations Industry wide. We give examples from General
-Electric. Sensor clouds control the many small distributed devices of
-IoT and IIoT. More detail is given for radar data gathered by sensors;
-ubiquitous or smart cities and homes including U-Korea; and finally
-the smart electric grid.
+See Section Overview
 
  
 
@@ -4820,6 +4811,8 @@ https://youtu.be/VqXvn0dwqxs
 Lesson 3 - Industrial Internet of Things I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
+This is Part 1.
+
 We summarize surveys and expectations Industry wide.
 
 https://youtu.be/jqQJjtTEsEo
@@ -4827,6 +4820,8 @@ https://youtu.be/jqQJjtTEsEo
 
 Lesson 4 - Industrial Internet of Things II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is Part 2 of "Industrial Internet of Things".
 
 Examples from General Electric.
 
