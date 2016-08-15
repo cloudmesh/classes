@@ -4396,6 +4396,8 @@ https://youtu.be/ugyycKBjaBQ
 Lesson 2 - Link Structure Analysis including PageRank I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+This is Part 1.
+
 The value of links and the concepts of Hubs and Authorities are
 discussed. This leads to definition of PageRank with
 examples. Extensions of PageRank viewed as a reputation are discussed
@@ -4410,14 +4412,8 @@ https://youtu.be/1oXdopVxqfI
 
 Lesson 3 - Link Structure Analysis including PageRank II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-The value of links and the concepts of Hubs and Authorities are
-discussed. This leads to definition of PageRank with
-examples. Extensions of PageRank viewed as a reputation are discussed
-with journal rankings and university department rankings as
-examples. There are many extension of these ideas which are not
-discussed here although topic models are covered briefly in a later
-lesson.
+
+This is Part 2 of "Link Structure Analysis including PageRank".
 
 https://youtu.be/OCn-gCTxvrU
  
