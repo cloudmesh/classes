@@ -2866,15 +2866,13 @@ https://iu.app.box.com/s/jypomnrz755xgps5e6iw
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
 
-#. `Plotvis 3 (all
-   files) <https://iu.app.box.com/s/v18n876ufe9cwqdbn0vo>`__
-#. `fungi\_LSU\_3\_15\_to\_3\_26\_zeroidx.pviz </static/fungi_LSU_3_15_to_3_26_zeroidx.pviz>`__
-#. `DatingRating-OriginalLabels.pviz </static/DatingRating-OriginalLabels.pviz>`__
-#. `clusterFinal-M30-C28.pviz </static/clusterFinal-M30-C28.pviz>`__
-#. `clusterFinal-M3-C3Dating-ReClustered.pviz </static/clusterFinal-M3-C3Dating-ReClustered.pviz>`__
+* :download:`DatingRatings-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
 
+* :download:`ClusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
 
+* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz`
 
 
 Lesson 1 - Motivation and Introduction to use
