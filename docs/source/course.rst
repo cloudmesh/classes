@@ -2866,15 +2866,13 @@ https://iu.app.box.com/s/jypomnrz755xgps5e6iw
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
 
-#. `Plotvis 3 (all
-   files) <https://iu.app.box.com/s/v18n876ufe9cwqdbn0vo>`__
-#. `fungi\_LSU\_3\_15\_to\_3\_26\_zeroidx.pviz </static/fungi_LSU_3_15_to_3_26_zeroidx.pviz>`__
-#. `DatingRating-OriginalLabels.pviz </static/DatingRating-OriginalLabels.pviz>`__
-#. `clusterFinal-M30-C28.pviz </static/clusterFinal-M30-C28.pviz>`__
-#. `clusterFinal-M3-C3Dating-ReClustered.pviz </static/clusterFinal-M3-C3Dating-ReClustered.pviz>`__
+* :download:`DatingRatings-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
 
+* :download:`ClusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
 
+* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz`
 
 
 Lesson 1 - Motivation and Introduction to use
@@ -3362,25 +3360,12 @@ https://iu.app.box.com/s/i9et3dxnhr3qt5gn14bg
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
-:download:`kNN.py <files/python/knn/kNN.py>`
-:download:`kNNDriver.py <files/python/knn/kNN_driver.py>`
-:download:`DatingTesting2.txt  <files/python/knn/dating_test_set2.txt>`
-:download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/knn/clusterFinal-M3-C3Dating-ReClustered.pviz>`
-:download:`DatingRating-OriginalLabels.pviz <files/python/knn/dating_rating_original_labels.pviz>`
-:download:`clusterFinal-M30-C28.pviz <files/python/knn/clusterFinal-M30-C28.pviz>`
-
-=======
-
-#. `kNNDriver.py </static/kNNDriver.py>`__
-#. `kNN.py </static/kNN.py>`__
-#. `datingTestSet2.txt </static/datingTestSet2.txt>`__
-#. `clusterFinal-M3-C3Dating-ReClustered.pviz </static/clusterFinal-M3-C3Dating-ReClustered.pviz>`__
-#. `DatingRating-OriginalLabels.pviz </static/DatingRating-OriginalLabels.pviz>`__
-#. `clusterFinal-M30-C28.pviz </static/clusterFinal-M30-C28.pviz>`__
-#. `java.zip </static/java.zip>`__
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
-
+* :download:`kNN.py <files/python/knn/kNN.py>`
+* :download:`kNNDriver.py <files/python/knn/kNN_driver.py>`
+* :download:`DatingTesting2.txt  <files/python/knn/dating_test_set2.txt>`
+* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/knn/clusterFinal-M3-C3Dating-ReClustered.pviz>`
+* :download:`DatingRating-OriginalLabels.pviz <files/python/knn/dating_rating_original_labels.pviz>`
+* :download:`clusterFinal-M30-C28.pviz <files/python/knn/clusterFinal-M30-C28.pviz>`
 
 
 Lesson 1 - Python k'th Nearest Neighbor Algorithms I
@@ -3456,10 +3441,10 @@ https://iu.app.box.com/s/70qn6d61oln9b50jqobl
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-:download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
-:download:`DatingRating-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
-:download:`clusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
-:download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
+* :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
+* :download:`DatingRating-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
+* :download:`clusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
+* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
 
 
 
@@ -4470,24 +4455,10 @@ https://iu.app.box.com/s/ltgbehfjwvgh40l5d3w8
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- 
-:download:`xmean.py <files/python/k_means/xmean.py>`
-:download:`sample.csv <files/python/k_means/sample.csv>`
-:download:`parallel_kmeans.py <files/python/k_means/parallel_kmeans.py>`
-:download:`kmeans_extra.py <files/python/k_means/kmeans_extra.py>`
-
-
-#. `xmean.py </static/xmean.py>`__
-#. `sample.csv </static/sample.csv>`__
-#. `ParallelKmeans.py </static/ParallelKmeans.py>`__
-#. `KmeansExtra.py </static/KmeansExtra.py>`__
-#. `KMeans.java </static/KMeans.java>`__
-#. `ReadMe </static/ReadMe>`__
-#. `ScatterPlot.java </static/ScatterPlot.java>`__
-#. `SimpleKMeans.java </static/SimpleKMeans.java>`__
-
-
-
+* :download:`xmean.py <files/python/k_means/xmean.py>`
+* :download:`sample.csv <files/python/k_means/sample.csv>`
+* :download:`parallel_kmeans.py <files/python/k_means/parallel_kmeans.py>`
+* :download:`kmeans_extra.py <files/python/k_means/kmeans_extra.py>`
 
 Lesson 1 - K-means in Python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4626,18 +4597,8 @@ https://iu.app.box.com/s/zc9pckhyehn0cog8wy19
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
  
-:download:`ParallelKmeans <files/python/kmeans/parallel_kmeans.py>`
- 
-
-
-#. `ParallelKmeans.py </static/ParallelKmeans.py>`__
-#. `KMeans.java </static/KMeans.java>`__
-#. `ReadMe </static/ReadMe>`__
-#. `ScatterPlot.java </static/ScatterPlot.java>`__
-#. `SimpleKMeans.java </static/SimpleKMeans.java>`__
-
+* :download:`ParallelKmeans <files/python/kmeans/parallel_kmeans.py>`
 
 Lesson 1 - MapReduce Kmeans in Python I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4687,17 +4648,8 @@ Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
-:download:`pagerank1.py <files/python/page_rank/pagerank1.py>`
-
-:download:`pagerank2.py <files/python/page_rank/pagerank2.py>`
-
-
-#. `pagerank1.py </static/pagerank1.py>`__
-#. `pagerank2.py </static/pagerank2.py>`__
-#. `JenkinsHash.java </static/JenkinsHash.java>`__
-#. `PageRank.java </static/PageRank.java>`__
-
-
+* :download:`pagerank1.py <files/python/page_rank/pagerank1.py>`
+* :download:`pagerank2.py <files/python/page_rank/pagerank2.py>`
 
 
 Lesson 1 - Calculate PageRank from Web Linkage Matrix I
