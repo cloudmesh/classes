@@ -1689,7 +1689,6 @@ Files
 * :download:`HiggsClassIIUniform.py <files/python/physics/mr_higgs/higgs_classII_uniform.py>`
 
 
-
 Lesson 1 - Physics Use Case II 1: Class Software
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
