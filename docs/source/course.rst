@@ -281,13 +281,7 @@ Video: http://youtu.be/Aj5k0Sa7XGQ
 Lesson 11 - Recommender Systems II
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Many important applications involve matching users, web pages, jobs,
-movies, books, events etc. These are all optimization problems with
-recommender systems one important way of performing this optimization.
-We go through the example of Netflix -- everything is a
-recommendation and muses about the power of viewing all sorts of
-things as items in a bag or more abstractly some space with funny
-properties.
+Continuation of Lesson 10 - Part 2
 
 Video: http://youtu.be/VHS7il5OdjM
 
@@ -765,7 +759,7 @@ Lesson 6 - Data Analytics II
 Continuation of Lesson 5 - Part 2
 
 Link to the slide:
-href="http://archive2.cra.org/ccc/files/docs/nitrdsymposium/keyes.pdf
+http://archive2.cra.org/ccc/files/docs/nitrdsymposium/keyes.pdf
 
 High Performance Computing in Science and Engineering: the Tree and
 the Fruit
@@ -1399,7 +1393,7 @@ Lesson 4 - Numpy 2
 
 Continuation of Lesson 3 - Part 2
 
- Video: http://youtu.be/7QfW7AT7UNU
+Video: http://youtu.be/7QfW7AT7UNU
 
 
 Lesson 5 - Numpy 3
@@ -1468,7 +1462,7 @@ In this video we introduce FutureSystems in terms of its
 services and features.
 
 FirstProgram.java:
- http://openedx.scholargrid.org:18010/c4x/SoIC/INFO-I-523/asset/FirstProgram.java
+http://openedx.scholargrid.org:18010/c4x/SoIC/INFO-I-523/asset/FirstProgram.java
 
 Video: http://youtu.be/RibpNSyd4qg
 
@@ -1763,7 +1757,7 @@ Slides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y
- 
+
 :download:`HiggsClassIII.py <files/python/physics/number_theory/higgs_classIII.py>`
 
 
@@ -2177,7 +2171,11 @@ Resources
 -  Use Case 7 Netflix
    http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutoria
 -  Use Case 8 Search
-   \ http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013 , http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html , http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws , http://www.slideshare.net/beechung/recommender-systems-tutorialpart1intro , http://www.worldwidewebsize.com/
+   http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013, 
+   http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html,
+   http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws,
+   http://www.slideshare.net/beechung/recommender-systems-tutorialpart1intro,
+   http://www.worldwidewebsize.com/
 -  Use Case 9 IaaS (Infrastructure as a Service) Big Data Business
    Continuity & Disaster Recovery (BC/DR) Within A Cloud Eco-System
    provided by Cloud Service Providers (CSPs) and Cloud Brokerage
@@ -2185,15 +2183,20 @@ Resources
 -  Use Case 11 and Use Case 12 Simulation driven Materials Genomics
    https://www.materialsproject.org/
 -  Use Case 13 Large Scale Geospatial Analysis and Visualization
-   \ http://www.opengeospatial.org/standards , http://geojson.org/ , http://earth-info.nga.mil/publications/specs/printed/CADRG/cadrg.html 
+   http://www.opengeospatial.org/standards, 
+   http://geojson.org/ ,
+   http://earth-info.nga.mil/publications/specs/printed/CADRG/cadrg.html 
 -  Use Case 14 Object identification and tracking from Wide Area Large
    Format Imagery (WALF) Imagery or Full Motion Video (FMV) - Persistent
    Surveillance
-   http://www.militaryaerospace.com/topics/m/video/79088650/persistent-surveillance-relies-on-extracting-relevant-data-points-and-connecting-the-dots.htm
-   ,
+   http://www.militaryaerospace.com/topics/m/video/79088650/persistent-surveillance-relies-on-extracting-relevant-data-points-and-connecting-the-dots.htm,
    http://www.defencetalk.com/wide-area-persistent-surveillance-revolutionizes-tactical-isr-45745/
 -  Use Case 15 Intelligence Data Processing and Analysis
-   \ http://www.afcea-aberdeen.org/files/presentations/AFCEAAberdeen_DCGSA_COLWells_PS.pdf ,` http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012\_T14\_SmithEtAl\_HorizontalIntegrationOfWarfighterIntel.pdf <http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012_T14_SmithEtAl_HorizontalIntegrationOfWarfighterIntel.pdf>`__ , http://stids.c4i.gmu.edu/STIDS2011/papers/STIDS2011_CR_T1_SalmenEtAl.pdf , https://www.youtube.com/watch?v=l4Qii7T8zeg , http://dcgsa.apg.army.mil/
+   http://www.afcea-aberdeen.org/files/presentations/AFCEAAberdeen_DCGSA_COLWells_PS.pdf,
+   http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012\_T14\_SmithEtAl\_HorizontalIntegrationOfWarfighterIntel.pdf,
+   http://stids.c4i.gmu.edu/STIDS2011/papers/STIDS2011_CR_T1_SalmenEtAl.pdf,
+   https://www.youtube.com/watch?v=l4Qii7T8zeg,
+   http://dcgsa.apg.army.mil/
 -  Use Case 16 Electronic Medical Record (EMR) Data: `Regenstrief
    Institute <http://www.regenstrief.org/>`__ , `Logical observation
    identifiers names and codes <http://loinc.org/>`__ , `Indiana Health
@@ -2210,11 +2213,14 @@ Resources
    and `LifeWatch <http://www.lifewatch.eu/web/guest/home>`__
 -  Use Case 26 Deep Learning: Recent popular press coverage of deep
    learning technology:
-   http://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html , http://www.nytimes.com/2012/06/26/technology/in-a-big-network-of-computers-evidence-of-machine-learning.html , http://www.wired.com/2013/06/andrew_ng/ ; A
-   recent research paper on HPC for Deep Learning:
-   http://www.stanford.edu/~acoates/papers/CoatesHuvalWangWuNgCatanzaro_icml2013.pdf
+   http://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html ,
+   http://www.nytimes.com/2012/06/26/technology/in-a-big-network-of-computers-evidence-of-machine-learning.html ,
+   http://www.wired.com/2013/06/andrew_ng/, 
+
+   A recent research paper on HPC for Deep Learning:
+   http://www.stanford.edu/~acoates/papers/CoatesHuvalWangWuNgCatanzaro_icml2013.pdf,
    Widely-used tutorials and references for Deep Learning:
-   http://ufldl.stanford.edu/wiki/index.php/Main_Page ,
+   http://ufldl.stanford.edu/wiki/index.php/Main_Page,
    http://deeplearning.net/
 -  Use Case 27 Organizing large-scale, unstructured collections of
    consumer photos http://vision.soic.indiana.edu/projects/disco/
@@ -2246,7 +2252,8 @@ Resources
    http://www.darkenergysurvey.org/
 -  Use Case 39 Particle Physics: Analysis of LHC Large Hadron Collider
    Data: Discovery of Higgs particle
-   http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf , http://www.es.net/assets/pubs_presos/High-throughput-lessons-from-the-LHC-experience.Johnston.TNC2013.pdf
+   http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf ,
+   http://www.es.net/assets/pubs_presos/High-throughput-lessons-from-the-LHC-experience.Johnston.TNC2013.pdf
 -  Use Case 40 Belle II High Energy Physics Experiment
    http://belle2.kek.jp/
 -  Use Case 41 EISCAT 3D incoherent scatter radar system
@@ -2268,7 +2275,7 @@ Resources
    Sheets https://www.cresis.ku.edu/
 -  Use Case 44 UAVSAR Data Processing, Data Product Delivery, and Data
    Services
-   \ http://uavsar.jpl.nasa.gov/ , http://www.asf.alaska.edu/program/sdc , http://geo-gateway.org/main.html
+   http://uavsar.jpl.nasa.gov/ , http://www.asf.alaska.edu/program/sdc , http://geo-gateway.org/main.html
 -  Use Case 47 Atmospheric Turbulence - Event Discovery and Predictive
    Analytics
    http://oceanworld.tamu.edu/resources/oceanography-book/teleconnections.htm
@@ -2276,11 +2283,14 @@ Resources
    http://www.forbes.com/sites/toddwoody/2012/03/21/meet-the-scientists-mining-big-data-to-predict-the-weather/
 -  Use Case 48 Climate Studies using the Community Earth System Model at
    DOE.s NERSC center
-   \ http://www-pcmdi.llnl.gov/ , http://www.nersc.gov/ , http://science.energy.gov/ber/research/cesd/ , http://www2.cisl.ucar.edu/
+   http://www-pcmdi.llnl.gov/ , http://www.nersc.gov/ , http://science.energy.gov/ber/research/cesd/ , http://www2.cisl.ucar.edu/
 -  Use Case 50 DOE-BER AmeriFlux and FLUXNET Networks
    http://ameriflux.lbl.gov/ , http://www.fluxdata.org/default.aspx
 -  Use Case 51 Consumption forecasting in Smart Grids
-   \ http://smartgrid.usc.edu/ , http://ganges.usc.edu/wiki/Smart_Grid , https://www.ladwp.com/ladwp/faces/ladwp/aboutus/a-power/a-p-smartgridla?_afrLoop=157401916661989&_afrWindowMode=0&_afrWindowId=null#%40%3F_afrWindowId%3Dnull%26_afrLoop%3D157401916661989%26_afrWindowMode%3D0%26_adf.ctrl-state%3Db7yulr4rl_17 , http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6475927
+   http://smartgrid.usc.edu/,
+   http://ganges.usc.edu/wiki/Smart_Grid,
+   https://www.ladwp.com/ladwp/faces/ladwp/aboutus/a-power/a-p-smartgridla?_afrLoop=157401916661989&_afrWindowMode=0&_afrWindowId=null#%40%3F_afrWindowId%3Dnull%26_afrLoop%3D157401916661989%26_afrWindowMode%3D0%26_adf.ctrl-state%3Db7yulr4rl_17,
+   http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6475927
 
 
 Unit 17 - 51 Big Data Use Cases
@@ -2872,7 +2882,7 @@ Files
 
 * :download:`ClusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
 
-* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz`
+* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
 
 
 Lesson 1 - Motivation and Introduction to use
@@ -3151,14 +3161,14 @@ We continue the discussion of recommender systems and their use in
 e-commerce. More examples are given from Google News, Retail stores
 and in depth Yahoo! covering the multi-faceted criteria used in
 deciding recommendations on web sites. Then the formulation of
-recommendations in terms of points in a space or bag is given. 
+recommendations in terms of points in a space or bag is given.
 
 Here bags of item properties, user properties, rankings and users are
 useful. Then we go into detail on basic principles behind recommender
 systems: user-based collaborative filtering, which uses similarities
 in user rankings to predict their interests, and the Pearson
 correlation, used to statistically quantify correlations between users
-viewed as points in a space of items. 
+viewed as points in a space of items.
 
 
 Slides
@@ -3440,7 +3450,7 @@ https://iu.app.box.com/s/70qn6d61oln9b50jqobl
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
 * :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
 * :download:`DatingRating-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
 * :download:`clusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
@@ -4298,10 +4308,14 @@ https://youtu.be/9P_HUmpselU
 Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-http* ://saedsayad.com/data_mining_map.htm
+* http://saedsayad.com/data_mining_map.htm
 * http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html
-* The Web Graph: an Overview Jean-Loup Guillaume and Matthieu Latapy https://hal.archives-ouvertes.fr/file/index/docid/54458/filename/webgraph.pdf
-* Constructing a reliable Web graph with information on browsing behavior, Yiqun Liu, Yufei Xue, Danqing Xu, Rongwei Cen, Min Zhang, Shaoping Ma, Liyun Ru http://www.sciencedirect.com/science/article/pii/S0167923612001844
+
+* The Web Graph: an Overview Jean-Loup Guillaume and Matthieu Latapy
+  https://hal.archives-ouvertes.fr/file/index/docid/54458/filename/webgraph.pdf
+* Constructing a reliable Web graph with information on browsing behavior, Yiqun Liu, Yufei Xue, Danqing Xu, Rongwei Cen, Min Zhang, Shaoping Ma, Liyun Ru
+  http://www.sciencedirect.com/science/article/pii/S0167923612001844
+
 * http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
 
 Unit 31 - Web Search and Text Mining II
@@ -4597,8 +4611,8 @@ https://iu.app.box.com/s/zc9pckhyehn0cog8wy19
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-* :download:`ParallelKmeans <files/python/kmeans/parallel_kmeans.py>`
+
+* :download:`ParallelKmeans <files/python/k_means/parallel_kmeans.py>`
 
 Lesson 1 - MapReduce Kmeans in Python I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4647,7 +4661,7 @@ https://iu.app.box.com/s/gwq1qp0kmwbvilo0kjqq
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- 
+
 * :download:`pagerank1.py <files/python/page_rank/pagerank1.py>`
 * :download:`pagerank2.py <files/python/page_rank/pagerank2.py>`
 
@@ -4833,7 +4847,7 @@ Resources
 * http://www.accenture.com/SiteCollectionDocuments/PDF/Accenture-Industrial-Internet-Changing-Competitive-Landscape-Industries.pdf
 * http://www.gesoftware.com/ge-predictivity-infographic
 * http://www.getransportation.com/railconnect360/rail-landscape
-www.gesoftware.com/sites/default/files/GE-Software-Modernizing-Machine-to-Machine-Interactions.pdf
+* http://www.gesoftware.com/sites/default/files/GE-Software-Modernizing-Machine-to-Machine-Interactions.pdf
 
 
 Section 15 - X= Radar Case Study
@@ -4914,11 +4928,11 @@ https://youtu.be/f9hzzJX0qDs
 
 Lesson 5 - Radio Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- This lesson provides an elementary introduction to radar and its
- importance to remote sensing, especially to acquiring information
- about Greenland and Antarctica.
+This lesson provides an elementary introduction to radar and its
+importance to remote sensing, especially to acquiring information
+about Greenland and Antarctica.
 
- https://youtu.be/PuI7F-RMKCI
+https://youtu.be/PuI7F-RMKCI
 
 
 

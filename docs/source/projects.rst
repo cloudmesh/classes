@@ -11,33 +11,33 @@ running a subset of 1 or more of the software packages.
 
 
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
-| **Title**                                             | **Data set**                   | **Software**                                          | 
+| **Title**                                             | **Data set**                   | **Software**                                          |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
-| | **Category: Batch Data Analytics**                  |                                |                                                       | 
+| | **Category: Batch Data Analytics**                  |                                |                                                       |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
-| | NIST_Fingerprint_ (a subset of):                    | | NISTDatabase27A_ [4GB]       | | NISTBiometric_                                      | 
-| | NFIQ                                                |                                | | Image Software (NBIS) `v5.0 Userguide_              | 
-| | PCASYS                                              |                                | |                                                     | 
-| | MINDTCT                                             |                                | |                                                     | 
-| | BOZORTH3                                            |                                | |                                                     | 
-| | NFSEG                                               |                                | |                                                     | 
-| | SIVV                                                |                                | |                                                     | 
+| | NIST_Fingerprint_ (a subset of):                    | | NISTDatabase27A_ [4GB]       | | NISTBiometric_                                      |
+| | NFIQ                                                |                                | | Image Software (NBIS) `v5.0 Userguide_              |
+| | PCASYS                                              |                                | |                                                     |
+| | MINDTCT                                             |                                | |                                                     |
+| | BOZORTH3                                            |                                | |                                                     |
+| | NFSEG                                               |                                | |                                                     |
+| | SIVV                                                |                                | |                                                     |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
-| | Hadoop Benchmark                                    |                                |                                                       | 
+| | Hadoop Benchmark                                    |                                |                                                       |
 | | TeraSort Suite                                      | | Teragen                      | hadoop-examples.jar                                   |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
-| | Hadoop Benchmark                                    |                                |                                                       | 
-| | DFSIO (HDFS Performance)                            |                                | hadoop-mapreduce-client-jobclient                     | 
+| | Hadoop Benchmark                                    |                                |                                                       |
+| | DFSIO (HDFS Performance)                            |                                | hadoop-mapreduce-client-jobclient                     |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
-| | Hadoop Benchmark                                    |                                |                                                       | 
-| | NNBench (NameNode Perf.)                            |                                | hadoop-mapreduce-client-jobclient                     | 
+| | Hadoop Benchmark                                    |                                |                                                       |
+| | NNBench (NameNode Perf.)                            |                                | hadoop-mapreduce-client-jobclient                     |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
-| | Hadoop Benchmark                                    |                                |                                                       | 
-| | MRBench (MapReduce Perf.)                           |                                | src/test/org/apache/hadoop/mapred/MRBench.java        | 
+| | Hadoop Benchmark                                    |                                |                                                       |
+| | MRBench (MapReduce Perf.)                           |                                | src/test/org/apache/hadoop/mapred/MRBench.java        |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
-| | Stock Data Analysis with MPI                        | | CRSP_ Stock Analysis         | | Streaming Data Analytics                            | 
-| |                                                     | | e.g. Trading Symbol,         | |                                                     | 
-| |                                                     | | Price                        | |                                                     | 
+| | Stock Data Analysis with MPI                        | | CRSP_ Stock Analysis         | | Streaming Data Analytics                            |
+| |                                                     | | e.g. Trading Symbol,         | |                                                     |
+| |                                                     | | Price                        | |                                                     |
 | |                                                     | | Number of Shares Outstanding | |                                                     |
 | |                                                     | | Factor to adjust price       | |                                                     |
 | |                                                     | | Factor to adjust shares      | |                                                     |
@@ -123,7 +123,7 @@ support on FutureSystems resources.
 
 .. _Data4: https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use-Files/Part-B-National-Summary-Data-File/Overview.html
 
-.. _HibenchSuite: https://github.com/intel-hadoop/HiBench>
+.. _HibenchSuite: https://github.com/intel-hadoop/HiBench
 
 .. _iPython1: http://nbviewer.ipython.org/github/cs109/content/blob/master/HW3_solutions.ipynb
 
@@ -209,4 +209,3 @@ NIST Examples
 
    -  SIVV
           [`*pdf* <http://www.nist.gov/manuscript-publication-search.cfm?pub_id=903078>`__]
-
