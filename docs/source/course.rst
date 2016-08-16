@@ -1865,7 +1865,7 @@ Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-:download:`HiggsClassIII.py <files/python/physics/calculated_dice_roll/higgs_classIV_seeds.py>`
+* :download:`HiggsClassIII.py <files/python/physics/calculated_dice_roll/higgs_classIV_seeds.py>`
 
 Lesson 1 - Generators and Seeds I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
