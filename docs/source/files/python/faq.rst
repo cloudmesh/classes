@@ -29,12 +29,9 @@ MapReduce </cglmoocs/PythonFiles/tree/master/Section%2010%20Unit%2026%20Kmeans%2
 
 
 
-'''This file has code to perform     
-kmeans in a parallel fashion. If the 
-Parallelism parameters is set = 2 it 
-k-means is parallelized If it is set 
-to 1 it is not. Here Parallelism is  
-set to 2'''                          
+'''This file has code to perform kmeans in a parallel fashion. If the
+Parallelism parameters is set = 2 it k-means is parallelized If it is
+set to 1 it is not. Here Parallelism is set to 2'''
 
 from scipy.cluster.vq import vq      
 
