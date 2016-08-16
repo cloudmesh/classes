@@ -23,6 +23,14 @@ External hyperlinks, like Python_.
 
 .. _Python: http://www.python.org/
 
+Homework Submission is done as follows:
+
+  * TBD
+
+  .. todo:: Gregor, Badi, Hyungro we need to figure out how to do
+	  homework in canvas and in gitlab
+	  
+
 Week 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
