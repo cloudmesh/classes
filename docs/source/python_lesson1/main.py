@@ -1,5 +1,6 @@
 from __future__ import print_function
 
+import sqlite3
 import os.path
 import os
 import urllib
@@ -161,6 +162,21 @@ class bozorth3(object):
     gallery = attr.ib()
     score = attr.ib()
 
+
+    @staticmethod
+    def sql_stmt_create_table():
+        return 'CREATE TABLE bozorth3 (probe TEXT, gallery TEXT, score NUMERIC)'
+
+
+    @staticmethod
+    def sql_prepared_stmt_insert():
+        return 'INSERT INTO bozorth3 VALUES (?, ?, ?)'
+
+
+    def sql_insert_values(self):
+        return self.probe, self.gallery, self.score
+
+
 @attr.s(slots=True)
 class bozorth3_input(object):
     probe = attr.ib()
@@ -226,6 +242,8 @@ if __name__ == '__main__':
     perc_gallery = float(sys.argv[4])
 
     pool = multiprocessing.Pool()
+    conn = sqlite3.connect('scores.db')
+    cursor = conn.cursor()
 
     dataprefix = prepare_dataset(prefix=prefix, skip=True)
 
@@ -242,8 +260,11 @@ if __name__ == '__main__':
     input   = [bozorth3_input(probe=probe, gallery=gallery) for probe in probes]
 
     print ('Matching')
+    cursor.execute(bozorth3.sql_stmt_create_table())
     bozorth3s = pool.map(run_bozorth3, input)
     for group in bozorth3s:
+        vals = map(bozorth3.sql_insert_values, group)
+        cursor.executemany(bozorth3.sql_prepared_stmt_insert(), vals)
         map(print, group)
 
 
