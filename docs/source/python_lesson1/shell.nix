@@ -9,6 +9,12 @@ let
     pip
     virtualenv
     numpy
+    scipy
+    matplotlib
+    pandas
+    statsmodels
+    cycler
+    pyqt4
   ];
 
   nbis = callPackage ./nbis.nix {};
