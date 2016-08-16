@@ -3149,9 +3149,18 @@ Unit 21 - Recommender Systems: Examples and Algorithms
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We continue the discussion of recommender systems and their use in e-commerce. More examples are given from Google News, Retail stores and in depth Yahoo! covering the multi-faceted criteria used in deciding recommendations on web sites. Then the formulation of recommendations in terms of points in a space or bag is given.
+We continue the discussion of recommender systems and their use in
+e-commerce. More examples are given from Google News, Retail stores
+and in depth Yahoo! covering the multi-faceted criteria used in
+deciding recommendations on web sites. Then the formulation of
+recommendations in terms of points in a space or bag is given. 
 
-Here bags of item properties, user properties, rankings and users are useful. Then we go into detail on basic principles behind recommender systems: user-based collaborative filtering, which uses similarities in user rankings to predict their interests, and the Pearson correlation, used to statistically quantify correlations between users viewed as points in a space of items.
+Here bags of item properties, user properties, rankings and users are
+useful. Then we go into detail on basic principles behind recommender
+systems: user-based collaborative filtering, which uses similarities
+in user rankings to predict their interests, and the Pearson
+correlation, used to statistically quantify correlations between users
+viewed as points in a space of items. 
 
 
 Slides
@@ -3446,20 +3455,11 @@ https://iu.app.box.com/s/70qn6d61oln9b50jqobl
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
  
 :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
 :download:`DatingRating-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
 :download:`clusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
 :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
-
-=======
-
-#. `fungi\_LSU\_3\_15\_to\_3\_26\_zeroidx.pviz </static/fungi_LSU_3_15_to_3_26_zeroidx.pviz>`__
-#. `DatingRating-OriginalLabels.pviz </static/DatingRating-OriginalLabels.pviz>`__
-#. `clusterFinal-M30-C28.pviz </static/clusterFinal-M30-C28.pviz>`__
-#. `clusterFinal-M3-C3Dating-ReClustered.pviz </static/clusterFinal-M3-C3Dating-ReClustered.pviz>`__
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
 
 
 
@@ -4469,13 +4469,13 @@ https://iu.app.box.com/s/ltgbehfjwvgh40l5d3w8
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
+
  
 :download:`xmean.py <files/python/k_means/xmean.py>`
 :download:`sample.csv <files/python/k_means/sample.csv>`
 :download:`parallel_kmeans.py <files/python/k_means/parallel_kmeans.py>`
 :download:`kmeans_extra.py <files/python/k_means/kmeans_extra.py>`
-=======
+
 
 #. `xmean.py </static/xmean.py>`__
 #. `sample.csv </static/sample.csv>`__
@@ -4487,7 +4487,7 @@ Files
 #. `SimpleKMeans.java </static/SimpleKMeans.java>`__
 
 
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
+
 
 Lesson 1 - K-means in Python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4626,11 +4626,11 @@ https://iu.app.box.com/s/zc9pckhyehn0cog8wy19
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
+
  
 :download:`ParallelKmeans <files/python/kmeans/parallel_kmeans.py>`
  
-=======
+
 
 #. `ParallelKmeans.py </static/ParallelKmeans.py>`__
 #. `KMeans.java </static/KMeans.java>`__
@@ -4638,8 +4638,6 @@ Files
 #. `ScatterPlot.java </static/ScatterPlot.java>`__
 #. `SimpleKMeans.java </static/SimpleKMeans.java>`__
 
-
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
 
 Lesson 1 - MapReduce Kmeans in Python I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4687,12 +4685,12 @@ https://iu.app.box.com/s/gwq1qp0kmwbvilo0kjqq
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
+
  
 :download:`pagerank1.py <files/python/page_rank/pagerank1.py>`
 
 :download:`pagerank2.py <files/python/page_rank/pagerank2.py>`
-=======
+
 
 #. `pagerank1.py </static/pagerank1.py>`__
 #. `pagerank2.py </static/pagerank2.py>`__
@@ -4700,7 +4698,7 @@ Files
 #. `PageRank.java </static/PageRank.java>`__
 
 
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
+
 
 Lesson 1 - Calculate PageRank from Web Linkage Matrix I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

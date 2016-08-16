@@ -65,3 +65,15 @@ Big Data Applications and Analytics
    links
     
 
+Big Data Applications and Analytics 
+=========================================================================
+
+* Semester: Fall 2016
+* URL: http://bdaafall2016.readthedocs.io/en/latest/
+
+.. toctree::
+   :caption: Information
+   :maxdepth: 2
+
+   overview
+
