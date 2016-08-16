@@ -14,6 +14,7 @@ import shutil
 import tempfile
 import subprocess
 import multiprocessing
+import functools
 
 
 # NIST Special Database 4
@@ -39,17 +40,11 @@ def zipWith(function, *iterables):
         yield function(*group)
 
 
-def isstring(obj, attribute, val):
-    """
-    attrs validator
-    """
-    return isinstance(val, types.StringType)
-
-
-def isnumber(obje, attribute, val):
-    """attrs validator"""
-    return isinstance(val, types.LongType) or isinstance(val, types.FloatType)
-
+def uncurry(function):
+    @functools.wraps(function)
+    def wrapper(args):
+        return function(*args)
+    return wrapper
 
 
 def fetch_url(url, sha256, prefix='.', checksum_blocksize=2**20, dryRun=False):
@@ -102,32 +97,46 @@ def locate_paths(path_md5list, prefix):
             parts = line.split()
             if not len(parts) == 2: continue
             md5sum, path = parts
-            yield os.path.join(prefix, path)
+            chksum = Checksum(value=md5sum, kind='md5')
+            filepath = os.path.join(prefix, path)
+            yield Path(checksum=chksum, filepath=filepath)
 
 
 def locate_images(paths):
 
     def predicate(path):
-        _, ext = os.path.splitext(path)
+        _, ext = os.path.splitext(path.filepath)
         return ext in ['.png']
 
     for path in itertools.ifilter(predicate, paths):
-        yield image(path=path)
+        yield image(id=path.checksum.value, path=path)
 
 
+@attr.s(slots=True)
+class Checksum(object):
+    value = attr.ib()
+    kind = attr.ib(validator=lambda o, a, v: v in 'md5 sha1 sha224 sha256 sha384 sha512'.split())
 
-@attr.s
+@attr.s(slots=True)
+class Path(object):
+    checksum = attr.ib()
+    filepath = attr.ib()
+
+
+@attr.s(slots=True)
 class image(object):
-    path = attr.ib(validator=isstring)
+    id = attr.ib()
+    path = attr.ib()
 
 
-@attr.s
+@attr.s(slots=True)
 class mindtct(object):
-    xyt = attr.ib(validator=isstring)
+    image = attr.ib()
+    xyt = attr.ib()
 
     @staticmethod
     def from_image(image):
-        imgpath = os.path.abspath(image.path)
+        imgpath = os.path.abspath(image.path.filepath)
         tempdir = tempfile.mkdtemp()
         oroot = os.path.join(tempdir, 'result')
 
@@ -139,16 +148,18 @@ class mindtct(object):
             with open(oroot + '.xyt') as fd:
                 xyt = fd.read()
 
-            result = mindtct(xyt=xyt)
+            result = mindtct(image=image.id, xyt=xyt)
             return result
 
         finally:
             shutil.rmtree(tempdir)
 
 
-@attr.s
+@attr.s(slots=True)
 class bozorth3(object):
-    score = attr.ib(validator=isnumber)
+    probe = attr.ib()
+    gallery = attr.ib()
+    score = attr.ib()
 
     @staticmethod
     def from_group(probe, gallery):
@@ -165,7 +176,7 @@ class bozorth3(object):
             result = subprocess.check_output(cmd)
             score = int(result.strip())
 
-            return bozorth3(score=score)
+            return bozorth3(probe=probe.image, gallery=gallery.image, score=score)
         finally:
             shutil.rmtree(tempdir)
 
@@ -179,15 +190,22 @@ if __name__ == '__main__':
 
     dataprefix = prepare_dataset(prefix=prefix, skip=True)
 
+    print ('Loading images')
     paths = locate_paths(md5listpath, dataprefix)
     images = take(10, locate_images(paths))
     mindtcts = itertools.imap(mindtct.from_image, images)
     mindtcts = list(mindtcts)
 
+
+    print ('Generating samples')
     probes  = random.sample(mindtcts, int(perc_probe   * len(mindtcts)))
     gallery = random.sample(mindtcts, int(perc_gallery * len(mindtcts)))
 
-    print ('probes size =', len(probes), 'gallery size =', len(gallery))
+    print ('Product')
+    pairs   = itertools.product(probes, gallery)
 
-    bozorth3s = zipWith(bozorth3.from_group, probes, gallery)
+    print ('probes size =', len(probes), 'gallery size =', len(gallery), 'num pairs =', len(probes) * len(gallery))
+
+    print ('Matching')
+    bozorth3s = itertools.imap(uncurry(bozorth3.from_group), pairs)
     map(print, bozorth3s)
