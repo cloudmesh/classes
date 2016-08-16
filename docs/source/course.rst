@@ -1442,7 +1442,7 @@ Video: http://youtu.be/lpC6Mn-09jY
 Lesson 9 - Scipy 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Continuation of Lesson 9 - Part 2
+Continuation of Lesson 8 - Part 2
 
 Video: http://youtu.be/-XKBz7qCUqw
 
