@@ -1,3 +1,5 @@
+Resources
+==========
 
 If you are unfamilliar with programming in Python, we also refer you
 to some of the numerous online resources. You may wish to start with

@@ -1,5 +1,8 @@
-Often you may need functionality that is not present in Python's standard library.
-In this case you have two option:
+Pip Install
+-----------
+
+Often you may need functionality that is not present in Python's
+standard library.  In this case you have two option:
 
 - implement the features yourself
 - use a third-party library that has the desired features.
@@ -142,7 +145,7 @@ by hand would be a time-consuming and error-prone process.  Luckily,
 this is a common problem so there exist a couple packages to help in
 this situation.
 
-Using ``pip`` to install packages
+Using pip to install packages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In order to install package from PyPI, use the ``pip`` command.
@@ -161,7 +164,7 @@ install the requested packages.
 .. note:: You can skip '--trusted-host pypi.python.org' option if you have a
         patch on urllib3 on Python 2.7.9.
 
-Using ``autopep8``
+Using autopep8
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We can now run the bad code through autopep8 to fix formatting
