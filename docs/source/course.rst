@@ -1682,11 +1682,11 @@ https://iu.app.box.com/s/77iw9brrugz2pjoq6fw1
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:download:`HiggsClassI-Sloping.py <files/python/physics/mr_higgs/higgs_classI_sloping.py>`
+* :download:`HiggsClassI-Sloping.py <files/python/physics/mr_higgs/higgs_classI_sloping.py>`
 
-:download:`HiggsClassIII.py <files/python/physics/number_theory/higgs_classIII.py>`
+* :download:`HiggsClassIII.py <files/python/physics/number_theory/higgs_classIII.py>`
 
-:download:`HiggsClassIIUniform.py <files/python/physics/mr_higgs/higgs_classII_uniform.py>`
+* :download:`HiggsClassIIUniform.py <files/python/physics/mr_higgs/higgs_classII_uniform.py>`
 
 
 
