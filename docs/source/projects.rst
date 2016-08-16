@@ -5,8 +5,6 @@ Sample Project suggestions
 NIST Fingerprint
 ---------------------------------------------------------------------
 
-Title:  NIST Fingerprint
-
 A subset of:
 
 * NFIQ: NIST Fingerprint Image Quality (NFIQ): Tabassi, Elham, C. Wilson, and C. Watson.
@@ -34,8 +32,6 @@ Category:
 
 HadoopBenchmark - TeraSort Suite
 ---------------------------------
-Title:
-    HadoopBenchmark - TeraSort Suite
 
 Data Set:
     Teragen
@@ -50,9 +46,6 @@ Category:
 Hadoopbenchmark DFS10 (HDF Performance)
 ----------------------------------------------------------------------
 
-Title:
-    Hadoopbenchmark DFS10 (HDF Performance)
-
 Data Set:
     N/A
 
@@ -65,8 +58,6 @@ Category:
 
 HadoopBenchmark - NNBench NameNodeperformance
 ----------------------------------------------------------------------
-Title: HadoopBenchmark - NNBench NameNodeperformance
-
 
 Data Set:
     N/A
@@ -81,8 +72,6 @@ Category:
 
 HadoopBenchmark - NNBench NameNodeperformance
 ----------------------------------------------------------------------
-Title: HadoopBenchmark - NNBench NameNodeperformance
-
 
 Data Set:
     N/A
@@ -97,9 +86,6 @@ Category:
 
 Stock Data Analysis with MPI
 ----------------------------------------------------------------------
-Title:
-Stock Data Analysis with MPI
-
 
 Data Set:
     CRSP - https://wrds-web.  wharton.upenn.edu/wrds/
@@ -120,8 +106,6 @@ Other Possible Projects
 
 Census
 ---------------------------------------------------------------------
-Title:
-      Census
 
 Data Set:
       Data: csv files downloadable (click "Internet tables" to select subsets)
@@ -135,9 +119,6 @@ Category:
 Face Detection
 ---------------------------------------------------------------------
 
-Title:
-      Face Detection
-
 Data Set:
       Data: images from INRIA dataset (< 1GB)
 
@@ -149,9 +130,6 @@ Category:
 
 Amazon Movie Reviews (1997-2012)
 ---------------------------------------------------------------------
-
-Title:
-      Amazon Movie Reviews (1997-2012)
 
 Data Set:
       Data: 3GB (compressed)
@@ -544,7 +522,3 @@ Artifacts:
 
 
 
-
-
-Project Information (being updated as of 10/16/2015)
-----------------------------------------------------
