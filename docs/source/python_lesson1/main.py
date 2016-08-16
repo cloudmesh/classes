@@ -165,7 +165,7 @@ class bozorth3(object):
 
     @staticmethod
     def sql_stmt_create_table():
-        return 'CREATE TABLE bozorth3 (probe TEXT, gallery TEXT, score NUMERIC)'
+        return 'CREATE TABLE IF NOT EXISTS bozorth3 (probe TEXT, gallery TEXT, score NUMERIC)'
 
 
     @staticmethod
@@ -245,6 +245,9 @@ if __name__ == '__main__':
     conn = sqlite3.connect('scores.db')
     cursor = conn.cursor()
 
+    cursor.execute(bozorth3.sql_stmt_create_table())
+
+
     dataprefix = prepare_dataset(prefix=prefix, skip=True)
 
     print ('Loading images')
@@ -260,11 +263,12 @@ if __name__ == '__main__':
     input   = [bozorth3_input(probe=probe, gallery=gallery) for probe in probes]
 
     print ('Matching')
-    cursor.execute(bozorth3.sql_stmt_create_table())
     bozorth3s = pool.map(run_bozorth3, input)
     for group in bozorth3s:
         vals = map(bozorth3.sql_insert_values, group)
         cursor.executemany(bozorth3.sql_prepared_stmt_insert(), vals)
+        conn.commit()
         map(print, group)
 
 
+    conn.close()
