@@ -3360,25 +3360,12 @@ https://iu.app.box.com/s/i9et3dxnhr3qt5gn14bg
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
-:download:`kNN.py <files/python/knn/kNN.py>`
-:download:`kNNDriver.py <files/python/knn/kNN_driver.py>`
-:download:`DatingTesting2.txt  <files/python/knn/dating_test_set2.txt>`
-:download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/knn/clusterFinal-M3-C3Dating-ReClustered.pviz>`
-:download:`DatingRating-OriginalLabels.pviz <files/python/knn/dating_rating_original_labels.pviz>`
-:download:`clusterFinal-M30-C28.pviz <files/python/knn/clusterFinal-M30-C28.pviz>`
-
-=======
-
-#. `kNNDriver.py </static/kNNDriver.py>`__
-#. `kNN.py </static/kNN.py>`__
-#. `datingTestSet2.txt </static/datingTestSet2.txt>`__
-#. `clusterFinal-M3-C3Dating-ReClustered.pviz </static/clusterFinal-M3-C3Dating-ReClustered.pviz>`__
-#. `DatingRating-OriginalLabels.pviz </static/DatingRating-OriginalLabels.pviz>`__
-#. `clusterFinal-M30-C28.pviz </static/clusterFinal-M30-C28.pviz>`__
-#. `java.zip </static/java.zip>`__
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
-
+* :download:`kNN.py <files/python/knn/kNN.py>`
+* :download:`kNNDriver.py <files/python/knn/kNN_driver.py>`
+* :download:`DatingTesting2.txt  <files/python/knn/dating_test_set2.txt>`
+* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/knn/clusterFinal-M3-C3Dating-ReClustered.pviz>`
+* :download:`DatingRating-OriginalLabels.pviz <files/python/knn/dating_rating_original_labels.pviz>`
+* :download:`clusterFinal-M30-C28.pviz <files/python/knn/clusterFinal-M30-C28.pviz>`
 
 
 Lesson 1 - Python k'th Nearest Neighbor Algorithms I
