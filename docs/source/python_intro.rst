@@ -444,6 +444,13 @@ To check your setup you can say::
 gitlab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. todo:: describe
-  
+Gitlab provides a Git repository management with code reviews, issue
+tracking, activity feeds and wikis. It comes with GitLab CI for
+continuous integration and delivery. It supports public and private
+repositories in the community addition and has fewer space
+restrictions. Thus we are using gitlab for this projet. 
+
+You can find a list of features at https://about.gitlab.com/features/
+
+A comparision to the enterprise level is given here: https://about.gitlab.com/features/#compare
 

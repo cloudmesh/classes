@@ -14,6 +14,7 @@ import shutil
 import tempfile
 import subprocess
 import multiprocessing
+import functools
 
 
 # NIST Special Database 4
@@ -39,17 +40,11 @@ def zipWith(function, *iterables):
         yield function(*group)
 
 
-def isstring(obj, attribute, val):
-    """
-    attrs validator
-    """
-    return isinstance(val, types.StringType)
-
-
-def isnumber(obje, attribute, val):
-    """attrs validator"""
-    return isinstance(val, types.LongType) or isinstance(val, types.FloatType)
-
+def uncurry(function):
+    @functools.wraps(function)
+    def wrapper(args):
+        return function(*args)
+    return wrapper
 
 
 def fetch_url(url, sha256, prefix='.', checksum_blocksize=2**20, dryRun=False):
@@ -102,72 +97,125 @@ def locate_paths(path_md5list, prefix):
             parts = line.split()
             if not len(parts) == 2: continue
             md5sum, path = parts
-            yield os.path.join(prefix, path)
+            chksum = Checksum(value=md5sum, kind='md5')
+            filepath = os.path.join(prefix, path)
+            yield Path(checksum=chksum, filepath=filepath)
 
 
 def locate_images(paths):
 
     def predicate(path):
-        _, ext = os.path.splitext(path)
+        _, ext = os.path.splitext(path.filepath)
         return ext in ['.png']
 
     for path in itertools.ifilter(predicate, paths):
-        yield image(path=path)
+        yield image(id=path.checksum.value, path=path)
 
 
+@attr.s(slots=True)
+class Checksum(object):
+    value = attr.ib()
+    kind = attr.ib(validator=lambda o, a, v: v in 'md5 sha1 sha224 sha256 sha384 sha512'.split())
 
-@attr.s
+@attr.s(slots=True)
+class Path(object):
+    checksum = attr.ib()
+    filepath = attr.ib()
+
+
+@attr.s(slots=True)
 class image(object):
-    path = attr.ib(validator=isstring)
+    id = attr.ib()
+    path = attr.ib()
 
 
-@attr.s
+@attr.s(slots=True)
 class mindtct(object):
-    xyt = attr.ib(validator=isstring)
-
-    @staticmethod
-    def from_image(image):
-        imgpath = os.path.abspath(image.path)
-        tempdir = tempfile.mkdtemp()
-        oroot = os.path.join(tempdir, 'result')
-
-        cmd = ['mindtct', imgpath, oroot]
-
-        try:
-            subprocess.check_call(cmd)
-
-            with open(oroot + '.xyt') as fd:
-                xyt = fd.read()
-
-            result = mindtct(xyt=xyt)
-            return result
-
-        finally:
-            shutil.rmtree(tempdir)
+    image = attr.ib()
+    xyt = attr.ib()
 
 
-@attr.s
+def mindtct_from_image(image):
+    imgpath = os.path.abspath(image.path.filepath)
+    tempdir = tempfile.mkdtemp()
+    oroot = os.path.join(tempdir, 'result')
+
+    cmd = ['mindtct', imgpath, oroot]
+
+    try:
+        subprocess.check_call(cmd)
+
+        with open(oroot + '.xyt') as fd:
+            xyt = fd.read()
+
+        result = mindtct(image=image.id, xyt=xyt)
+        return result
+
+    finally:
+        shutil.rmtree(tempdir)
+
+
+@attr.s(slots=True)
 class bozorth3(object):
-    score = attr.ib(validator=isnumber)
+    probe = attr.ib()
+    gallery = attr.ib()
+    score = attr.ib()
 
-    @staticmethod
-    def from_group(probe, gallery):
-        tempdir = tempfile.mkdtemp()
-        probeFile = os.path.join(tempdir, 'probe.xyt')
-        galleryFile = os.path.join(tempdir, 'gallery.xyt')
+@attr.s(slots=True)
+class bozorth3_input(object):
+    probe = attr.ib()
+    gallery = attr.ib()
 
-        with open(probeFile, 'wb')   as fd: fd.write(probe.xyt)
+    def run(self):
+        if isinstance(self.gallery, mindtct):
+            return bozorth3_from_group(self.probe, self.gallery)
+        elif isinstance(self.gallery, types.ListType):
+            return bozorth3_from_one_to_many(self.probe, self.gallery)
+        else:
+            raise ValueError('Unhandled type for gallery: {}'.format(type(gallery)))
+
+
+def run_bozorth3(input):
+    return input.run()
+
+
+def bozorth3_from_group(probe, gallery):
+    tempdir = tempfile.mkdtemp()
+    probeFile = os.path.join(tempdir, 'probe.xyt')
+    galleryFile = os.path.join(tempdir, 'gallery.xyt')
+
+    with open(probeFile, 'wb')   as fd: fd.write(probe.xyt)
+    with open(galleryFile, 'wb') as fd: fd.write(gallery.xyt)
+
+    cmd = ['bozorth3', probeFile, galleryFile]
+
+    try:
+        result = subprocess.check_output(cmd)
+        score = int(result.strip())
+
+        return bozorth3(probe=probe.image, gallery=gallery.image, score=score)
+    finally:
+        shutil.rmtree(tempdir)
+
+
+def bozorth3_from_one_to_many(probe, galleryset):
+    tempdir = tempfile.mkdtemp()
+    probeFile = os.path.join(tempdir, 'probe.xyt')
+    galleryFiles = [os.path.join(tempdir, 'gallery%d.xyt' % i) for i, _ in enumerate(galleryset)]
+
+    with open(probeFile, 'wb') as fd: fd.write(probe.xyt)
+    for galleryFile, gallery in itertools.izip(galleryFiles, galleryset):
         with open(galleryFile, 'wb') as fd: fd.write(gallery.xyt)
 
-        cmd = ['bozorth3', probeFile, galleryFile]
+    cmd = ['bozorth3', '-p', probeFile] + galleryFiles
 
-        try:
-            result = subprocess.check_output(cmd)
-            score = int(result.strip())
-
-            return bozorth3(score=score)
-        finally:
-            shutil.rmtree(tempdir)
+    try:
+        result = subprocess.check_output(cmd).strip()
+        scores = map(int, result.split('\n'))
+        return [bozorth3(probe=probe.image, gallery=gallery.image, score=score)
+                for score, gallery in zip(scores, galleryset)]
+    finally:
+        shutil.rmtree(tempdir)
 
 
 if __name__ == '__main__':
@@ -177,17 +225,25 @@ if __name__ == '__main__':
     perc_probe = float(sys.argv[3])
     perc_gallery = float(sys.argv[4])
 
+    pool = multiprocessing.Pool()
+
     dataprefix = prepare_dataset(prefix=prefix, skip=True)
 
+    print ('Loading images')
     paths = locate_paths(md5listpath, dataprefix)
-    images = take(10, locate_images(paths))
-    mindtcts = itertools.imap(mindtct.from_image, images)
+    images = locate_images(paths)
+    mindtcts = pool.map(mindtct_from_image, images)
     mindtcts = list(mindtcts)
 
+
+    print ('Generating samples')
     probes  = random.sample(mindtcts, int(perc_probe   * len(mindtcts)))
     gallery = random.sample(mindtcts, int(perc_gallery * len(mindtcts)))
+    input   = [bozorth3_input(probe=probe, gallery=gallery) for probe in probes]
 
-    print ('probes size =', len(probes), 'gallery size =', len(gallery))
+    print ('Matching')
+    bozorth3s = pool.map(run_bozorth3, input)
+    for group in bozorth3s:
+        map(print, group)
 
-    bozorth3s = zipWith(bozorth3.from_group, probes, gallery)
-    map(print, bozorth3s)
+

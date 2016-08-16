@@ -21,4 +21,8 @@ stdenv.mkDerivation {
     pythonTools
     nbis
   ];
+  shellHook = ''
+    test -d venv || virtualenv venv
+    source venv/bin/activate
+  '';
 }
