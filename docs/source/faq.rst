@@ -1,8 +1,18 @@
 FAQ
 ====
 
+I am full time student at IUPUI? Can i take the online version?
+---------------------------------------------------------------
+
+I suggest you verify this with the international student office and
+the registrar if you are an international student. There may be some
+restrictions for international students. Also some degree programs may
+have a limit or do not allow to take online classes. It will be up to
+you to verify the requirements with the appropriate administrators.
+
+
 Do I need to buy a textbook?
-----------------------------------------------------------------------
+----------------------------
 
 No, the resources will be provided for every unit. However, there are
 some optional textbooks if you would like to purchase one.
@@ -14,7 +24,7 @@ some optional textbooks if you would like to purchase one.
    Rachel Schutt, O'Reilly Media, ISBN 978-1449358655
 
 Representative Bibliography
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. `Big data: The next frontier for innovation, competition, and
    productivity <http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation>`__
@@ -28,7 +38,7 @@ Please follow this
 `link <http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml>`__
 
 How to write a research article on computer science
-----------------------------------------------------------------------
+---------------------------------------------------
 
 #. `http://www.wv.inf.tu-dresden.de/Teaching/SS-2012/howto/writing.pdf <http://www.wv.inf.tu-dresden.de/Teaching/SS-2012/howto/writing.pdf>`__
 #. `https://globaljournals.org/guidelines-tips/research-paper-publishing <https://globaljournals.org/guidelines-tips/research-paper-publishing>`__ 
@@ -36,7 +46,7 @@ How to write a research article on computer science
 #. `https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal <https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal>`__ 
 
 How to you use bibliography managers JabRef & Endnote or Mendeley
-----------------------------------------------------------------------
+-----------------------------------------------------------------
 
 #. `http://www.jabref.org/ <http://www.jabref.org/>`__ 
 #. `http://endnote.com/ <http://endnote.com/>`__ 
@@ -45,7 +55,7 @@ How to you use bibliography managers JabRef & Endnote or Mendeley
 #. `https://community.mendeley.com/guides/using-citation-editor/05-creating-bibliography <https://community.mendeley.com/guides/using-citation-editor/05-creating-bibliography>`__ 
 
 Plagiarism test and resources related to that
-----------------------------------------------------------------------
+---------------------------------------------
 
 #. `https://www.grammarly.com/plagiarism-checker <https://www.grammarly.com/plagiarism-checker>`__ 
 #. `http://turnitin.com/ <http://turnitin.com/>`__ 

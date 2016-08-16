@@ -4,6 +4,13 @@ Big Data Applications and Analytics
 * Semester: Fall 2016
 * URL: http://bdaafall2016.readthedocs.io/en/latest/
 
+
+.. toctree::
+   :caption: Todo
+   :maxdepth: 2
+
+   todo
+   
 .. toctree::
    :caption: Information
    :maxdepth: 2
@@ -23,12 +30,33 @@ Big Data Applications and Analytics
    :maxdepth: 2
 
    assignments
+
+.. toctree::
+   :caption: Python for Big Data
+   :maxdepth: 2
+
+   python_big_data
+   
+.. toctree::
+   :caption: FAQ 
+   :maxdepth: 2
+
+   faq
+
+
+
+
+.. toctree::
+   :caption: Programming (TODO)
+   :maxdepth: 2
+   
+   
    programming
    projects
    as1
    
 .. toctree::
-   :caption: Technologies
+   :caption: Technologies (TODO)
    :maxdepth: 2
 
    technologies
@@ -36,18 +64,27 @@ Big Data Applications and Analytics
    iaas
    quickstart_openstack
    chameleon
-   
-   
+
 .. toctree::
-   :caption: FAQ
+   :caption: Python (TODO)
    :maxdepth: 2
 
-   faq
-	      
+   python_intro
+   python_intro/introduction
+   python_intro/on-futuresystems
+   python_intro/pip-install
+   python_intro/resources
+   python_intro/saving
+   python_intro/syntax
+   python_intro/description
+   python_intro/interactive
+   python_intro/further-learning
+   
 .. toctree::
-   :caption: Links
+   :caption: Links (TODO)
    :maxdepth: 2
 
    links
+	      
     
 

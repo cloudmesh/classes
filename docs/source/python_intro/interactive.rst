@@ -1,3 +1,6 @@
+Interactive
+============
+
 Start by entering the interactive loop by executing the command::
 
   $ python

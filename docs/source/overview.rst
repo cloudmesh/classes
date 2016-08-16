@@ -1,4 +1,7 @@
 
+Overview
+========
+
 This page may be updated throughout Fall 2016, we recommend to review
 this page weekly for changes.
 
@@ -285,20 +288,14 @@ In case you chose a Term Paper your maximum Grade will be an A-.
 Software Project
 ----------------
 
-.. todo:: Hyungro. Create a discussion for this and link it here
 
-.. comment:: Direct needs to be updated once it's moved to
-             datascience.scholargrid.org
-
-`Discussion on Software Project <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/3d53c765145a457cbd003e80897723d4/>`_
-
-.. todo: Hyungro. Can you doublecheck the page numbers
 
 In case of a software project, we encourage a group project with up to
-three members.  You can use the discussion TBD  to form project teams
-or just communicate privately with other class members to formulate a
-team. The following artifacts are part of the deliverables for a
-project
+three members.  You can use the
+`discussion forum in the folder project <https://piazza.com/class/irqfvh1ctrg2vt>`_
+to form project teams or just communicate privately with other class
+members to formulate a team. The following artifacts are part of the
+deliverables for a project
 
 Code:
     You must deliver the code in gitlab. The code must be compilable
@@ -338,12 +335,14 @@ Project Report:
 
     3-4 pages, one student+ in the project​
 
+Teams:
+    Up to three people. You can use the
+    `discussion forum in the folder term-project <https://piazza.com/class/irqfvh1ctrg2vt>`_
+    to build teams.
+    
 Term Report:
     A report must be produced while using the format discussed in the
     Report Format section. The following length is required:
-
-
-    Link to discussion on term paper: `Discussion on Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
 
     In case you chose the term paper, you or your team will pick a topic
     relevant for the class. You wil write a high quality scholarly paper
