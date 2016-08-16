@@ -36,7 +36,21 @@ Big Data Applications and Analytics
    iaas
    quickstart_openstack
    chameleon
-   
+
+.. toctree::
+   :caption: Python
+   :maxdepth: 2
+
+   python_intro
+   python_intro/introduction
+   python_intro/on-futuresystems
+   python_intro/pip-install
+   python_intro/resources
+   python_intro/saving
+   python_intro/syntax
+   python_intro/description
+   python_intro/interactive
+   python_intro/further-learning
    
 .. toctree::
    :caption: FAQ

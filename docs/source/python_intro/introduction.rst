@@ -1,6 +1,7 @@
+Introduction
+=============
 
-..
-   This is taken from docs.python.org
+.. note:: This is taken from docs.python.org
 
 
 Python is an easy to learn, powerful programming language. It has

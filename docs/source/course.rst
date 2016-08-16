@@ -206,7 +206,7 @@ social media, thriving chinese internet companies.
 Video: http://youtu.be/EIRIPDYN5nM
 
 Lesson 5 - Digital Disruption of Old Favorites
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Not everything goes up. The rise of the Internet has led to declines
 in some traditional areas including Shopping malls and Postal
@@ -217,7 +217,7 @@ Video: http://youtu.be/RxGopRuMWOE
 
 
 Lesson 6 - Computing Model: Industry adopted clouds which are attractive for data analytics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Clouds and Big Data are transformational on a 2-5 year time scale.
 Already Amazon AWS is a lucrative business with almost a $4B revenue.
@@ -233,7 +233,7 @@ Video: http://youtu.be/NBZPQqXKbiw
 
 
 Lesson 7 - Research Model: 4th Paradigm; From Theory to Data driven science?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We introduce the 4 paradigms of scientific research with the
 focus on the new fourth data driven methodology.
@@ -252,7 +252,7 @@ and emerging as new information to input into other transformations.
 Video: http://youtu.be/j9ytOaBoe2k
 
 Lesson 9 - Physics-Informatics Looking for Higgs Particle with Large Hadron Collider LHC
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We look at important particle physics example where the Large
 hadron Collider has observed the Higgs Boson. He shows this discovery
@@ -307,7 +307,7 @@ Video: http://youtu.be/i9gR9PdVXUU
 
 
 Lesson 13 - Cloud Application in Research
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We describe scientific applications and how they map onto
 clouds, supercomputers, grids and high throughput systems. He likes
@@ -317,7 +317,7 @@ Video: http://youtu.be/C19-5WQH2TU
 
 
 Lesson 14 - Parallel Computing and MapReduce
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We define MapReduce and gives a homely example from fruit
 blending.
@@ -438,7 +438,7 @@ to give a good composite picture of this emerging field.
 
 
 Unit 3 - Part I: Data Science generics and Commercial Data Deluge
------------------------------------------------------------
+------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -570,7 +570,7 @@ Resources
 
 
 Unit 4 - Part II: Data Deluge and Scientific Applications and Methodology
------------------------------------------------------------
+---------------------------------------------------------------------------------
 
 
 Unit Overview
@@ -672,7 +672,7 @@ Resources
 
 
 Unit 5 - Part III: Clouds and Big Data Processing; Data Science Process and Analytics
------------------------------------------------------------
+---------------------------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -910,7 +910,7 @@ Video: http://youtu.be/9Whkl_UPS5g
 
 
 Lesson 8 - McKinsey Report on the big-data revolution in US health care
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This lesson covers 9 aspects of the McKinsey report. These are the
 convergence of multiple positive changes has created a tipping point
@@ -930,7 +930,7 @@ Video: http://youtu.be/bBoHzRjMEmY
 
 
 Lesson 9 - Microsoft Report on Big Data in Health
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This lesson identifies data sources as Clinical Data, Pharma & Life
 Science Data, Patient & Consumer Data, Claims & Cost Data and
@@ -942,7 +942,7 @@ Video: http://youtu.be/PjffvVgj1PE
 
 
 Lesson 10 - EU Report on Redesigning health in Europe for 2020
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This lesson summarizes an EU Report on Redesigning health in Europe for 2020. The power of data is seen as a lever for change in My Data, My decisions; Liberate the data; Connect up everything; Revolutionize health; and Include Everyone removing the current correlation between health and wealth.
 
@@ -950,7 +950,7 @@ Video: http://youtu.be/9mbt_ZSs0iw
 
 
 Lesson 11 - Medicine and the Internet of Things
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Internet of Things will have great impact on health including
 telemedicine and wearables. Examples are given.
@@ -969,7 +969,7 @@ Video: http://youtu.be/Qel4gmBxy8U
 
 
 Lesson 13 - Genomics, Proteomics and Information Visualization I
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A study of an Azure application with an Excel frontend and a cloud
 BLAST backend starts this lesson. This is followed by a big data
@@ -987,7 +987,7 @@ Video: http://youtu.be/r1yENstaAUE
 
 
 Lesson 14 - Genomics, Proteomics and Information Visualization II
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This lesson continues the discussion of the COG Protein Universe
 introduced in the last lesson. It is shown how Proteomics clusters are
@@ -1319,7 +1319,7 @@ Resources
 
 
 Section 5 - Technology Training - Python & FutureSystems (will be updated)
-======================================================================
+=======================================================================================
 
 
 
@@ -1348,7 +1348,7 @@ machine learning, etc.
 
 
 Unit 10 - Python for Big Data and X-Informatics: NumPy, SciPy, MatPlotlib (will be updated)
-----------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1663,7 +1663,7 @@ Resources
 * http://www.nature.com/news/specials/lhc/interactive.html
 
 Unit 13 - II: Looking for Higgs Particles: Python Event Counting for Signal and Background
-----------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1714,7 +1714,7 @@ Video: http://youtu.be/h8-szCeFugQ
 
 
 Lesson 3 - Physics Use Case II 3: With Python examples of Signal plus Background
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This uses Monte Carlo data both to generate data like the experimental
 observations and explore effect of changing amount of data and
@@ -1725,7 +1725,7 @@ Video: http://youtu.be/bl2f0tAzLj4
 
 
 Lesson 4 - Physics Use Case II 4: Change shape of background & num of Higgs Particles
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This lesson continues the examination of Monte Carlo data looking at
 effect of change in number of Higgs particles produced and in change
@@ -1768,7 +1768,7 @@ https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y
 
 
 Lesson 1 - Statistics Overview and Fundamental Idea: Random Variables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We go through the many different areas of statistics covered in the
 Physics unit. We define the statistics concept of a random variable.
@@ -1843,7 +1843,7 @@ Resources
 * http://cms.web.cern.ch/
 
 Unit 15 - IV: Looking for Higgs Particles: Random Numbers, Distributions and Central Limit Theorem
-----------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1938,7 +1938,7 @@ Video: http://youtu.be/ZO53iKlPn7c
 
 
 Lesson 8 - Interpretation of Probability: Bayes v. Frequency
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This lesson describes difference between Bayes and frequency views of
 probability. Bayes's law of conditional probability is derived and
@@ -1986,7 +1986,7 @@ describe the key features of this classification.
 
 
 Unit 16 - Overview of NIST Big Data Public Working Group (NBD-PWG) Process and Results
-----------------------------------------------------------------------
+----------------------------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2007,7 +2007,7 @@ https://iu.app.box.com/s/bgr7lyaz7uazcarangqd
 
 
 Lesson 1 - Introduction to NIST Big Data Public Working Group (NBD-PWG) Process
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The focus of the (NBD-PWG) is to form a community of interest from
 industry, academia, and government, with the goal of developing a
@@ -2103,7 +2103,7 @@ Video: http://youtu.be/GCc9yfErmd0
 
 
 Lesson 6 - Requirements and Use Case Subgroup Introduction I
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 The focus is to form a community of interest from industry, academia,
@@ -2124,7 +2124,7 @@ Video: http://youtu.be/sztqNXJ9P6c
 
 
 Lesson 7 - Requirements and Use Case Subgroup Introduction II
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The focus is to form a community of interest from industry, academia,
 and government, with the goal of developing a consensus list of Big
@@ -2145,7 +2145,7 @@ Video: http://youtu.be/0sbfIqHUauI
 
 
 Lesson 8 - Requirements and Use Case Subgroup Introduction III
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The focus is to form a community of interest from industry, academia,
 and government, with the goal of developing a consensus list of Big
@@ -2505,7 +2505,7 @@ Video: http://youtu.be/u2zTIGwsJwU
 
 
 Lesson 16 - Environment, Earth and Polar Science Use Cases II
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 EISCAT 3D incoherent scatter radar system; ENVRI, Common Operations of
 Environmental Research Infrastructure; Radar Data Analysis for CReSIS
@@ -2839,7 +2839,7 @@ Plotviz.
 
 
 Unit 19 - Using Plotviz Software for Displaying Point Distributions in 3D
-----------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2909,7 +2909,7 @@ Video: http://youtu.be/nCTT5mI_j_Q
 
 
 Lesson 3 - Example of Use II: Proteomics and Synchronized Rotation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This starts with an examination of a sample of Protein Universe
 Browser showing how one uses Plotviz to look at different features of
@@ -2923,7 +2923,7 @@ Video: http://youtu.be/lDbIhnLrNkk
 
 
 Lesson 4 - Example of Use III: More Features and larger Proteomics Sample
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This starts by describing use of Labels and Glyphs and the Default
 mode in Plotviz. Then we illustrate sophisticated use of these ideas
@@ -3147,9 +3147,18 @@ Unit 21 - Recommender Systems: Examples and Algorithms
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We continue the discussion of recommender systems and their use in e-commerce. More examples are given from Google News, Retail stores and in depth Yahoo! covering the multi-faceted criteria used in deciding recommendations on web sites. Then the formulation of recommendations in terms of points in a space or bag is given.
+We continue the discussion of recommender systems and their use in
+e-commerce. More examples are given from Google News, Retail stores
+and in depth Yahoo! covering the multi-faceted criteria used in
+deciding recommendations on web sites. Then the formulation of
+recommendations in terms of points in a space or bag is given. 
 
-Here bags of item properties, user properties, rankings and users are useful. Then we go into detail on basic principles behind recommender systems: user-based collaborative filtering, which uses similarities in user rankings to predict their interests, and the Pearson correlation, used to statistically quantify correlations between users viewed as points in a space of items.
+Here bags of item properties, user properties, rankings and users are
+useful. Then we go into detail on basic principles behind recommender
+systems: user-based collaborative filtering, which uses similarities
+in user rankings to predict their interests, and the Pearson
+correlation, used to statistically quantify correlations between users
+viewed as points in a space of items. 
 
 
 Slides
@@ -3199,7 +3208,7 @@ https://youtu.be/FBn7HpGFNvg
 
 
 Lesson 4 - Recommender Systems in Yahoo Use Case Example II
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is Part 2 of "Recommender Systems in Yahoo Use Case Example"
 
@@ -3207,7 +3216,7 @@ https://youtu.be/VS2Y4lAiP5A
 
 
 Lesson 5 - Recommender Systems in Yahoo Use Case Example III: Particular Module
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is Part 3 of "Recommender Systems in Yahoo Use Case Example"
 
@@ -3216,7 +3225,7 @@ https://youtu.be/HrRJWEF8EfU
 
 
 Lesson 6 - User-based nearest-neighbor collaborative filtering I
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is Part 1.
 
@@ -3232,7 +3241,7 @@ https://youtu.be/lsf_AE-8dSk
 
 
 Lesson 7 - User-based nearest-neighbor collaborative filtering II
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is Part 2 of "User-based nearest-neighbor collaborative filtering"
 
@@ -3329,7 +3338,7 @@ visualizations.
 
 
 Unit 23 - Recommender Systems - K-Nearest Neighbors (Python & Java Track)
-----------------------------------------------------------------------
+---------------------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3444,20 +3453,11 @@ https://iu.app.box.com/s/70qn6d61oln9b50jqobl
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
  
 :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
 :download:`DatingRating-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
 :download:`clusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
 :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
-
-=======
-
-#. `fungi\_LSU\_3\_15\_to\_3\_26\_zeroidx.pviz </static/fungi_LSU_3_15_to_3_26_zeroidx.pviz>`__
-#. `DatingRating-OriginalLabels.pviz </static/DatingRating-OriginalLabels.pviz>`__
-#. `clusterFinal-M30-C28.pviz </static/clusterFinal-M30-C28.pviz>`__
-#. `clusterFinal-M3-C3Dating-ReClustered.pviz </static/clusterFinal-M3-C3Dating-ReClustered.pviz>`__
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
 
 
 
@@ -3544,7 +3544,7 @@ Resources
 
 
 Section 11 - Cloud Computing Technology for Big Data Applications & Analytics (will be updated)
-======================================================================
+================================================================================================
 
 
 
@@ -3589,7 +3589,7 @@ architectures.
 
 
 Unit 25 - Parallel Computing: Overview of Basic Principles with familiar Examples
-----------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3757,7 +3757,7 @@ https://youtu.be/Od_mYXRs5As
 
 
 Lesson 3 - What and Why is Cloud Computing: Several Other Views I
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is Part 1.
 
@@ -3768,7 +3768,7 @@ https://youtu.be/5VeqMjXKU_Y
 
 
 Lesson 4 - What and Why is Cloud Computing: Several Other Views II
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is Part 2 of "What and Why is Cloud Computing: Several Other Views".
 
@@ -3776,7 +3776,7 @@ https://youtu.be/J963LR0PS_g
 
 
 Lesson 5 - What and Why is Cloud Computing: Several Other Views III
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is Part 3 of "What and Why is Cloud Computing: Several Other Views".
 
@@ -3784,7 +3784,7 @@ https://youtu.be/_ryLXUnOAzo
 
 
 Lesson 6 - Gartner's Emerging Technology Landscape for Clouds and Big Data
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This lesson gives Gartner's projections around futures of cloud and
 Big data. We start with a review of hype charts and then go into
@@ -3858,7 +3858,7 @@ https://youtu.be/h3Rpb0Eyj1c
 
 
 Lesson 2 - Introduction to Cloud Software Architecture: IaaS and PaaS I
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We discuss cloud software for the cloud starting at virtual
 machine management (IaaS) and the broad Platform (middleware)
@@ -3868,7 +3868,7 @@ https://youtu.be/1AnyJYyh490
 
 
 Lesson 3 - Introduction to Cloud Software Architecture: IaaS and PaaS II
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We cover different views as to nature of architecture and
 application for Cloud Computing. Then we discuss cloud software for
@@ -3897,7 +3897,7 @@ Resources
 * http://cloudonomic.blogspot.com/2009/02/cloud-taxonomy-and-ontology.html
 
 Unit 28 - Cloud Computing Technology Part III: Architectures, Applications and Systems
-----------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 Unit Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4467,13 +4467,13 @@ https://iu.app.box.com/s/ltgbehfjwvgh40l5d3w8
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
+
  
 :download:`xmean.py <files/python/k_means/xmean.py>`
 :download:`sample.csv <files/python/k_means/sample.csv>`
 :download:`parallel_kmeans.py <files/python/k_means/parallel_kmeans.py>`
 :download:`kmeans_extra.py <files/python/k_means/kmeans_extra.py>`
-=======
+
 
 #. `xmean.py </static/xmean.py>`__
 #. `sample.csv </static/sample.csv>`__
@@ -4485,7 +4485,7 @@ Files
 #. `SimpleKMeans.java </static/SimpleKMeans.java>`__
 
 
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
+
 
 Lesson 1 - K-means in Python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4624,11 +4624,11 @@ https://iu.app.box.com/s/zc9pckhyehn0cog8wy19
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
+
  
 :download:`ParallelKmeans <files/python/kmeans/parallel_kmeans.py>`
  
-=======
+
 
 #. `ParallelKmeans.py </static/ParallelKmeans.py>`__
 #. `KMeans.java </static/KMeans.java>`__
@@ -4636,8 +4636,6 @@ Files
 #. `ScatterPlot.java </static/ScatterPlot.java>`__
 #. `SimpleKMeans.java </static/SimpleKMeans.java>`__
 
-
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
 
 Lesson 1 - MapReduce Kmeans in Python I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4685,12 +4683,12 @@ https://iu.app.box.com/s/gwq1qp0kmwbvilo0kjqq
 
 Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<<<<<<< HEAD
+
  
 :download:`pagerank1.py <files/python/page_rank/pagerank1.py>`
 
 :download:`pagerank2.py <files/python/page_rank/pagerank2.py>`
-=======
+
 
 #. `pagerank1.py </static/pagerank1.py>`__
 #. `pagerank2.py </static/pagerank2.py>`__
@@ -4698,7 +4696,7 @@ Files
 #. `PageRank.java </static/PageRank.java>`__
 
 
->>>>>>> bc3f7cd9bfe26e7bb704237c474eb6302c1ecb0c
+
 
 Lesson 1 - Calculate PageRank from Web Linkage Matrix I
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4823,7 +4821,7 @@ https://youtu.be/0egT1FsVGrU
 
 
 Lesson 6 - Earth/Environment/Polar Science data gathered by Sensors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This lesson gives examples of some sensors in the
 Earth/Environment/Polar Science field. It starts with material from

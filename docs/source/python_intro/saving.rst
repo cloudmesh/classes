@@ -1,6 +1,9 @@
+Saving
+======
+
 You can save your programs to files which the interpreter can then
-execute.
-This has the benefit of allowing you to track changes made to your programs and sharing them with other people.
+execute.  This has the benefit of allowing you to track changes made
+to your programs and sharing them with other people.
 
 Start by opening a new file ``hello.py``::
 
