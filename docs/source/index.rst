@@ -12,28 +12,12 @@ Big Data Applications and Analytics
    todo
    
 .. toctree::
-   :caption: Information
+   :caption: Course
    :maxdepth: 2
 
    overview
-
-
-.. toctree::
-   :caption: Course
-   :maxdepth: 4
-
    course
-   
-.. toctree::
-   :caption: FAQ 
-   :maxdepth: 2
-
    faq
-   
-.. toctree::
-   :caption: Assignments
-   :maxdepth: 2
-
    assignments
 
 .. toctree::
