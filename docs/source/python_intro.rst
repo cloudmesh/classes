@@ -9,6 +9,38 @@ Introduction to Python Programming
       :local:
 
 
+Description
+============
+
+Python is an interpreted, dynamic, high-level programming language and
+is suitable for a wide range of applications.
+
+The ideals of Python are expressed in `The Zen of Python`_, of which
+several statements are:
+
+- Explicit is better than implicit
+- Simple is better than complex
+- Complex is better than complicated
+- Readability counts
+
+The main features of Python are:
+
+- Use of indentation whitespace to indicate blocks
+- Object orient paradigm
+- Dynamic typing
+- Interpreted runtime
+- Garbage collected memory management
+- a large standard library
+- a large repository of third-party libraries
+
+Python is used by many companies (such as Google, Yahoo!, CERN, NASA)
+and is applied for web development, scientific computing, embedded
+applications, artificial intelligence, software development, and
+information security, to name a few.
+
+.. _The Zen of Python: https://www.python.org/dev/peps/pep-0020/
+	 
+
 Installation
 ----------------------------------------------------------------------
 
@@ -415,6 +447,34 @@ program that asks the user to enter a number, *n*, and prints out the
 .. include:: /python/print_fibs.py
    :code: python
 
+::
+
+    import sys
+
+    def fib(n):
+	"""
+	Return the nth fibonacci number
+
+	The nth fibonacci number is defined as follows:
+	Fn = Fn-1 + Fn-2
+	F2 = 1
+	F1 = 1
+	F0 = 0
+	"""
+
+	if n == 0:
+	    return 0
+	elif n == 1:
+	    return 1
+	else:
+	    return fib(n-1) + fib(n-2)
+
+
+    if __name__ == '__main__':
+	n = int(sys.argv[1])
+	print fib(n)
+
+	  
 We can now run this like so::
 
   $ python print_fibs.py 5
