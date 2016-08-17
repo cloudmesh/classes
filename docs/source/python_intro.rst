@@ -222,7 +222,7 @@ This is why you may see the interactive loop referred to as a
 Syntax
 ----------------------------------------------------------------------
 
-tatements and Strings
+Statements and Strings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let us explore the syntax of Python.
