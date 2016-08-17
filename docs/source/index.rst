@@ -24,6 +24,11 @@ Big Data Applications and Analytics
 
    course
    
+.. toctree::
+   :caption: FAQ 
+   :maxdepth: 2
+
+   faq
    
 .. toctree::
    :caption: Assignments
@@ -35,16 +40,17 @@ Big Data Applications and Analytics
    :caption: Python for Big Data
    :maxdepth: 2
 
+   python_intro
    python_big_data
    
+
 .. toctree::
-   :caption: FAQ 
+   :caption: Useful Tools and Tips
    :maxdepth: 2
 
-   faq
-
-
-
+   edu/linux
+   edu/latex
+   
 
 .. toctree::
    :caption: Programming (TODO)
@@ -66,34 +72,17 @@ Big Data Applications and Analytics
    chameleon
 
 .. toctree::
-   :caption: Python (TODO)
-   :maxdepth: 4
-
-   python_intro
-   
-.. toctree::
    :caption: Links (TODO)
    :maxdepth: 2
 
    links
 
 
-.. toctree::
-   :caption: Useful Tools and Tips
-   :maxdepth: 2
-
-   edu/linux
-   edu/latex
 
 .. toctree::
    :caption: Contributing
    :maxdepth: 2
 
    edu/contributing
-
-    
-
-
-   edu/index	      
     
 

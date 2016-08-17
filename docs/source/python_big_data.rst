@@ -1,6 +1,13 @@
 Python for Big Data
 ===================
 
+.. sidebar:: Page Contents
+
+   .. contents::
+      :local:
+
+
+
 Managing Data
 -------------
 

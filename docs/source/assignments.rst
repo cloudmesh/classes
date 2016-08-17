@@ -3,6 +3,12 @@
 Homework
 ========
 
+.. sidebar:: Page Contents
+
+   .. contents::
+      :local:
+
+
 Assignments
 ----------------------------------------------------------------------
 

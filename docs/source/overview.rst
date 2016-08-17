@@ -2,6 +2,12 @@
 Overview
 ========
 
+.. sidebar:: Page Contents
+
+   .. contents::
+      :local:
+
+
 This page may be updated throughout Fall 2016, we recommend to review
 this page weekly for changes.
 
