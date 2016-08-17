@@ -103,8 +103,8 @@ The best installation of python is provided by python.og. However
 others claim to have simpler and integrated environments that allow
 you to install python in an even easier fashion. This includes
 
-* Canopy
-* Anaconda
+* `Canopy <https://store.enthought.com/downloads/#default>`_
+* `Anaconda <https://www.continuum.io/downloads>`_
 
 Typically they include not only the python compiler but also several
 useful packages. It is fine to use such environments for the class,
