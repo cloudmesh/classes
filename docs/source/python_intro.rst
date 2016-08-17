@@ -816,66 +816,13 @@ Lab - Python - Setup for FutureSystems
 #. Demonstrate the program works and submit the code and output.
 
 
-OTHER TEXT 
-======================================================================
+SYNTAX 2
+----------------------------------------------------------------------
 
 
 Variables, Expressions, and Statements
 ----------------------------------------------------------------------
 
-Variables in Python can hold text and numbers. For example:
-
-.. code:: python
-
-    x = 7
-    price = 7.5
-    word = 'Hello World'
-
-Variable names on the left and the values are on the right. Once a
-variable is assigned, it can be used in other places of the program.
-In the example above, we have three variables: x, price and
-word. Variables may not contain spaces or special characters.  Text
-variables may be defined in 3 ways:
-
-.. code:: python
-    
-    word = 'Hello World'
-    word = "Hello World"
-    word = '''Hello World'''
-
-
-The type depends on what you prefer.  Once defined variables can be
-replaced or modified:
-
-.. code:: python
-
-    x = 2
-
-    # increase x by one
-    x = x + 1
-
-    # replace x
-    x = 5
-
-Python supports the operators +, -, / and * as well as brackets.
-Variables may be shown on the screen using the print statement.
-
-.. code:: python
-
-    x = 5
-    print(x)
-
-    y = 3 * x
-    print(y)
-
-    # more detailed output
-    print("x = " + str(x))
-    print("y = " + str(y))
-
-The first output of the program above is simply the raw value of the
-variables. If you want to print a more detailed message like “x = 5”,
-use the line ‘print(“x = ” + str(x))’. This str() function converts
-the numeric variable to text.
 
 
 Control Statements
@@ -1119,4 +1066,29 @@ restrictions. Thus we are using gitlab for this projet.
 You can find a list of features at https://about.gitlab.com/features/
 
 A comparision to the enterprise level is given here: https://about.gitlab.com/features/#compare
+
+OTHER STUFF (TODO)
+-------------------
+
+Links Python
+------------
+
+.. todo:: Jerome. Go to Python documentation and consolodate to python.rst, Integrate Jeromes ppt
+
+* https://github.com/cloudmesh/intro_to_cloudcomputing/blob/master/doc/source/python.rst
+* https://github.com/cloudmesh/introduction_to_cloud_computing-old/tree/master/docs/source/python
+* http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/linux/python.html?highlight=python
+
+
+Python is a high-level, interpreted, interactive and object-oriented scripting language. 
+
+For a comprehensive overview of Python programming see section python_
+
+.. _python: python.rst
+
+
+For an indepth treatment of python, see http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
+
+
+
 
