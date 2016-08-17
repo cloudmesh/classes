@@ -1,7 +1,7 @@
 
 
-Introduction to Python Programming
-======================================================================
+Introduction to Python
+======================
 
 .. sidebar:: Page Contents
 
@@ -10,7 +10,7 @@ Introduction to Python Programming
 
 
 Description
-============
+----------------------------------------------------------------------
 
 Python is an interpreted, dynamic, high-level programming language and
 is suitable for a wide range of applications.
@@ -45,7 +45,7 @@ Installation
 ----------------------------------------------------------------------
 
 We assume that you have a computer with python installed. We will be
-using Python 2.7.10 but not Python 3
+using Python 2.7.12 but not Python 3
 
 Instalation instructions are provided at the python.org web
 pages. However, we recommend that you use pythons virtualenv to
