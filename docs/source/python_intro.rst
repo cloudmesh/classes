@@ -432,7 +432,7 @@ You can also ask for help about something using ``help()``:
 
 
 Control Statements
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Computer programs do not only execute instructions. Occasionally, a
 choice needs to be made. Such as a choice is based on a
@@ -477,7 +477,7 @@ that.
 
 
 Iterations
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To repeat code, the for keyword can be used. To execute a line of code
 10 times we can do:
@@ -514,8 +514,7 @@ the entire coordinate range (0,0) to (9,9)
 
 
 Functions
-----------------------------------------------------------------------
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To repeat lines of code, you can use a function. A function has a
 unique distinct name in the program. Once you call a function it will
@@ -555,13 +554,13 @@ To do so, we use the keyword return.
     print(result)
 
 Classes
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note:: you can earn extra credits if you contribute a section about
 	  classes
 
-Shell
------
+Cloudmesh Shell API
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cloudmesh client is an API that contains a very simple way of calling
 shell commands
