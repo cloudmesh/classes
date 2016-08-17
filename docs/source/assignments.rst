@@ -630,14 +630,9 @@ Code Repository:
     permissible to use GUI based DevOps preinstalled
     frameworks. Everything must be installable form the command line.
 
-Datasets that may inspire projects:
+Datasets that may inspire projects can be found in :doc:`datasets`.
 
-  * https://cloud.google.com/bigquery/public-data/github
-  * https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public
-
-Project keywords that may inspire projects:
-
-* :ref:`sampleprojects`
+You should also review :ref:`sampleprojects`.
     
 
 ----------------------------------------------------------------------    
