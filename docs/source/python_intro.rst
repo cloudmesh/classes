@@ -711,11 +711,19 @@ flag::
 
 Further Learning
 ----------------------------------------------------------------------
+There is much more to python than what we have covered here:
 
-.. include:: /python_intro/further-learning.rst
+- conditional expression (``if``, ``if...then``,``if..elif..then``)
+- function definition(``def``)
+- class definition (``class``)
+- function positional arguments and keyword arguments
+- lambda expression
+- iterators
+- generators
+- loops
 
   
-Exercises
+Exercisee
 ----------------------------------------------------------------------
 
 .. _lab-python-1:
