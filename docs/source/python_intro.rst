@@ -9,14 +9,40 @@ Introduction to Python
       :local:
 
 
-Description
+Acknowledgments
 ----------------------------------------------------------------------
 
-Python is an interpreted, dynamic, high-level programming language and
-is suitable for a wide range of applications.
+Portions of this lesson have been adapted from the `official Python
+Tutorial`_ copyright `Python Software Foundation`_.
 
-The ideals of Python are expressed in `The Zen of Python`_, of which
-several statements are:
+.. _official Python Tutorial: https://docs.python.org/2/tutorial/
+.. _Python Software Foundation: http://www.python.org/
+
+Description
+-----------------------------------------------------------------
+
+Python is an easy to learn programming language. It has
+efficient high-level data structures and a simple but effective
+approach to object-oriented programming. Python’s simple syntax and
+dynamic typing, together with its interpreted nature, make it an ideal
+language for scripting and rapid application development in many areas
+on most platforms.
+
+The Python interpreter and the extensive standard library are freely
+available in source or binary form for all major platforms from the
+Python Web site, https://www.python.org/, and may be freely
+distributed. The same site also contains distributions of and pointers
+to many free third party Python modules, programs and tools, and
+additional documentation.
+
+The Python interpreter is easily extended with new functions and data
+types implemented in C or C++ (or other languages callable from
+C). Python is also suitable as an extension language for customizable
+applications.
+
+Python is an interpreted, dynamic, high-level programming language
+suitable for a wide range of applications. The `The Zen of Python`_
+summarizes some of its philosophy including:
 
 - Explicit is better than implicit
 - Simple is better than complex
@@ -38,23 +64,90 @@ and is applied for web development, scientific computing, embedded
 applications, artificial intelligence, software development, and
 information security, to name a few.
 
+This tutorial introduces the reader informally to the basic concepts
+and features of the Python language and system. It helps to have a
+Python interpreter handy for hands-on experience, but all examples are
+self-contained, so the tutorial can be read off-line as well.
+
+This tutorial does not attempt to be comprehensive and cover every
+single feature, or even every commonly used feature. Instead, it
+introduces many of Python's most noteworthy features, and will give
+you a good idea of the language's flavor and style. After reading it,
+you will be able to read and write Python modules and programs, and
+you will be ready to learn more about the various Python library
+modules.
+
+
+
 .. _The Zen of Python: https://www.python.org/dev/peps/pep-0020/
 	 
 
 Installation
 ----------------------------------------------------------------------
 
-We assume that you have a computer with python installed. We will be
-using Python 2.7.12 but not Python 3
+Python is easy to install and very good instructions for most
+platforms can be found on the python.org Web page. We will be
+using Python 2.7.12 but not Python 3.
 
-Instalation instructions are provided at the python.org web
-pages. However, we recommend that you use pythons virtualenv to
+We assume that you have a computer with python installed.
+However, we recommend that you use pythons virtualenv to
 isolate your development python from the system installed python.
 
-This lesson will introduce you to programming in Python.
+.. note:: If you are not familiar with virtualenv, please read up on
+	  it.
+	  
+Alternative Installations
+-------------------------
 
-.. note:: Duration: 1 hour
+The best installation of python is provided by python.og. However
+others claim to have simpler and integrated environments that allow
+you to install python in an even easier fashion. This includes
 
+* Canopy
+* Anaconda
+
+Typically they include not only the python compiler but also several
+useful packages. It is fine to use such environments for the class,
+but it should be noted that in both cases not every python library may
+be available for install in the given environment. For example if you
+need to use cloudmesh client, it may not be available as conda or
+Canopy package. This is also the case for many other cloud related and
+useful python libraries. Hence, we do recommend that if you are new to
+python to use the distribution form python.org, and use pip and
+virtualenv. 
+
+Resources
+----------------------------------------------------------------------
+If you are unfamilliar with programming in Python, we also refer you
+to some of the numerous online resources. You may wish to start with
+`Learn Python`_ or the book `Learn Python the Hard Way`_. Other
+options include `Tutorials Point`_ or `Code Academy`_, and the Python wiki page
+contains a long list of `references for learning`_ as well.
+Additional resources include:
+
+- http://ivory.idyll.org/articles/advanced-swc/
+- http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+- http://www.youtube.com/watch?v=0vJJlVBVTFg
+- http://www.korokithakis.net/tutorials/python/
+- http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
+- http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
+
+.. _Code Academy: http://www.codecademy.com/en/tracks/python
+.. _Python documentation site: https://docs.python.org/2.7/
+.. _list of introductory books: https://wiki.python.org/moin/IntroductoryBooks
+.. _Python Module index: https://docs.python.org/2/py-modindex.html
+.. _StackOverflow python tags: http://stackoverflow.com/questions/tagged/python
+.. _searching Google: https://www.google.com/?gws_rd=ssl#q=python+how+to
+.. _PyCharm IDE: https://www.jetbrains.com/pycharm/
+.. _Learn Python the Hard Way: http://learnpythonthehardway.org/book/
+.. _Tutorials Point: http://www.tutorialspoint.com/python/
+.. _references for learning: https://wiki.python.org/moin/BeginnersGuide/Programmers
+.. _Learn Python: https://www.learnpython.org
+
+
+
+
+	  
 Prerequisite
 ----------------------------------------------------------------------
 
@@ -96,80 +189,12 @@ At the end of this lesson you will be able to:
 
 .. _python-resources:
 
-Resources
-----------------------------------------------------------------------
-If you are unfamilliar with programming in Python, we also refer you
-to some of the numerous online resources. You may wish to start with
-`Learn Python`_ or the book `Learn Python the Hard Way`_. Other
-options include `Tutorials Point`_ or `Code Academy`_, and the Python wiki page
-contains a long list of `references for learning`_ as well.
-Additional resources include:
-
-- http://ivory.idyll.org/articles/advanced-swc/
-- http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
-- http://www.youtube.com/watch?v=0vJJlVBVTFg
-- http://www.korokithakis.net/tutorials/python/
-- http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
-
-
-.. _Code Academy: http://www.codecademy.com/en/tracks/python
-.. _Python documentation site: https://docs.python.org/2.7/
-.. _list of introductory books: https://wiki.python.org/moin/IntroductoryBooks
-.. _Python Module index: https://docs.python.org/2/py-modindex.html
-.. _StackOverflow python tags: http://stackoverflow.com/questions/tagged/python
-.. _searching Google: https://www.google.com/?gws_rd=ssl#q=python+how+to
-.. _PyCharm IDE: https://www.jetbrains.com/pycharm/
-.. _Learn Python the Hard Way: http://learnpythonthehardway.org/book/
-.. _Tutorials Point: http://www.tutorialspoint.com/python/
-.. _references for learning: https://wiki.python.org/moin/BeginnersGuide/Programmers
-.. _Learn Python: https://www.learnpython.org
-
-Acknowledgments
-----------------------------------------------------------------------
-
-Portions of this lesson have been adapted from the `official Python
-Tutorial`_ copyright `Python Software Foundation`_.
-
-.. _official Python Tutorial: https://docs.python.org/2/tutorial/
-.. _Python Software Foundation: http://www.python.org/
-
-Introduction
-----------------------------------------------------------------------
-Python is an easy to learn, powerful programming language. It has
-efficient high-level data structures and a simple but effective
-approach to object-oriented programming. Python’s elegant syntax and
-dynamic typing, together with its interpreted nature, make it an ideal
-language for scripting and rapid application development in many areas
-on most platforms.
-
-The Python interpreter and the extensive standard library are freely
-available in source or binary form for all major platforms from the
-Python Web site, https://www.python.org/, and may be freely
-distributed. The same site also contains distributions of and pointers
-to many free third party Python modules, programs and tools, and
-additional documentation.
-
-The Python interpreter is easily extended with new functions and data
-types implemented in C or C++ (or other languages callable from
-C). Python is also suitable as an extension language for customizable
-applications.
-
-This tutorial introduces the reader informally to the basic concepts
-and features of the Python language and system. It helps to have a
-Python interpreter handy for hands-on experience, but all examples are
-self-contained, so the tutorial can be read off-line as well.
-
-This tutorial does not attempt to be comprehensive and cover every
-single feature, or even every commonly used feature. Instead, it
-introduces many of Python's most noteworthy features, and will give
-you a good idea of the language's flavor and style. After reading it,
-you will be able to read and write Python modules and programs, and
-you will be ready to learn more about the various Python library
-modules.
-
 
 Using Python on FutureSystems
 ----------------------------------------------------------------------
+
+.. note:: This is only important if you use Futuresystems resources.
+	  
 In order to use Python you must log into your FutureSystems account.
 Then at the shell prompt execute the following command::
 
@@ -187,7 +212,8 @@ you.
 Interactive Python
 ----------------------------------------------------------------------
 
-tart by entering the interactive loop by executing the command::
+Python can be used interactively.  Start by entering the interactive
+loop by executing the command::
 
   $ python
 
@@ -405,6 +431,146 @@ You can also ask for help about something using ``help()``:
 
 
 
+Control Statements
+----------------------------------------------------------------------
+
+Computer programs do not only execute instructions. Occasionally, a
+choice needs to be made. Such as a choice is based on a
+condition. Python has several conditional operators:
+
+
+.. code:: python
+
+    >   greater than
+    <   smaller than
+    ==  equals
+    !=  is not
+
+Conditions are always combined with variables. A program can make a
+choice using the if keyword. For example:
+
+.. code:: python
+    
+    x = int(input("Tell X"))
+    if x == 4:
+        print('You guessed correctly!')
+    print('End of program.')
+
+
+When you execute this program it will always print ‘End of program’,
+but the text ‘You guessed correctly!’ will only be printed if the
+variable x equals to four (see table above). Python can also execute a
+block of code if x does not equal to 4. The else keyword is used for
+that.
+
+
+.. code:: python
+
+    x = int(input("What is the value of  X"))
+
+    if x == 4:
+        print('You guessed correctly!')
+    else:
+        print('Wrong guess')
+
+    print('End of program.')
+
+
+Iterations
+----------------------------------------------------------------------
+
+To repeat code, the for keyword can be used. To execute a line of code
+10 times we can do:
+
+.. code:: python
+
+    for i in range(1,11):
+        print(i)
+
+The last number (11) is not included. This will output the numbers 1
+to 10. Python itself starts counting from 0, so this code will also
+work:
+
+.. code:: python
+    
+    for i in range(0,10):
+        print(i)
+
+but will output 0 to 9.
+
+
+The code is repeated while the condition is True. In this case the
+condition is: i < 10. Every iteration (round), the variable i is
+updated.Nested loops Loops can be combined:
+
+.. code:: python
+    
+    for i in range(0,10):
+        for j in range(0,10):
+            print(i,' ',j)
+
+In this case we have a multidimensional loops. It will iterate over
+the entire coordinate range (0,0) to (9,9)
+
+
+Functions
+----------------------------------------------------------------------
+
+
+To repeat lines of code, you can use a function. A function has a
+unique distinct name in the program. Once you call a function it will
+execute one or more lines of codes, which we will call a code block.
+
+.. code:: python
+	  
+    import math
+
+    def computePower(a):
+        value = math.pow(a,2)
+        print(value)
+
+    computePower(3)
+
+
+We call the function with parameter a = 3 .  A function can be called
+several times with varying parameters. There is no limit to the number
+of function calls.
+
+The def keyword tells Python we define a function.  Always use four
+spaces to indent the code block, using another number of spaces will
+throw a syntax error.
+
+It is also possible to store the output of a function in a variable.
+To do so, we use the keyword return.
+
+.. code:: python
+
+    import math
+
+    def computePower(a):
+        value = math.pow(a,2)
+        return value
+
+    result = computePower(3)
+    print(result)
+
+Classes
+----------------------------------------------------------------------
+
+.. note:: you can earn extra credits if you contribute a section about
+	  classes
+
+Shell
+-----
+
+Cloudmesh client is an API that contains a very simple way of calling
+shell commands
+
+.. note:: you can get extra credit if you provide an example and
+	  explain it on how to use the cloudmesh.common.Shell API
+
+	  
+	  
 Writing and Saving Programs
 ----------------------------------------------------------------------
 
@@ -442,10 +608,7 @@ You can make this programs more interesting as well.  Let's write a
 program that asks the user to enter a number, *n*, and prints out the
 *n*\-th number in the `Fibonacci sequence`_::
 
-   $ nano print_fibs.py
-
-.. include:: /python/print_fibs.py
-   :code: python
+   $ emacs print_fibs.py
 
 ::
 
@@ -633,12 +796,12 @@ Let's create an empty file ``/bin/hello-$PORTALNAME``::
 
 .. tip::
 
-   Recall that $PORTALNAME is your username on FutureSystems, which can
-   also be obtained using the ``whoami`` shell command.
-t seems that this is not possible.  Since ``india`` is a shared
-resources not all users should be allowed to make changes that could
-affect everyone else.  Only a small number of users, the
-administrators, have the ability to globally modify the system.
+   Recall that $PORTALNAME is your username on FutureSystems, which
+   can also be obtained using the ``whoami`` shell command.  t seems
+   that this is not possible.  Since ``india`` is a shared resources
+   not all users should be allowed to make changes that could affect
+   everyone else.  Only a small number of users, the administrators,
+   have the ability to globally modify the system.
 
 We can still create our program in our home directory::
 
@@ -783,6 +946,11 @@ There is much more to python than what we have covered here:
 - iterators
 - generators
 - loops
+- docopts
+- humanize
+
+.. note:: you can receive extra credit if you contribute such a
+	  section of your choice addressing the above topics
 
   
 Exercisee
@@ -816,146 +984,9 @@ Lab - Python - Setup for FutureSystems
 #. Demonstrate the program works and submit the code and output.
 
 
-SYNTAX 2
-----------------------------------------------------------------------
-
-
-Variables, Expressions, and Statements
-----------------------------------------------------------------------
 
 
 
-Control Statements
-----------------------------------------------------------------------
-
-Computer programs do not only execute instructions. Occasionally, a
-choice needs to be made. Such as a choice is based on a
-condition. Python has several conditional operators:
-
-
-.. code:: python
-
-    >   greater than
-    <   smaller than
-    ==  equals
-    !=  is not
-
-Conditions are always combined with variables. A program can make a
-choice using the if keyword. For example:
-
-.. code:: python
-    
-    x = int(input("Tell X"))
-    if x == 4:
-        print('You guessed correctly!')
-    print('End of program.')
-
-
-When you execute this program it will always print ‘End of program’,
-but the text ‘You guessed correctly!’ will only be printed if the
-variable x equals to four (see table above). Python can also execute a
-block of code if x does not equal to 4. The else keyword is used for
-that.
-
-
-.. code:: python
-
-    x = int(input("What is the value of  X"))
-
-    if x == 4:
-        print('You guessed correctly!')
-    else:
-        print('Wrong guess')
-
-    print('End of program.')
-
-
-Iterations
-----------------------------------------------------------------------
-
-To repeat code, the for keyword can be used. To execute a line of code
-10 times we can do:
-
-.. code:: python
-
-    for i in range(1,11):
-        print(i)
-
-The last number (11) is not included. This will output the numbers 1
-to 10. Python itself starts counting from 0, so this code will also
-work:
-
-.. code:: python
-    
-    for i in range(0,10):
-        print(i)
-
-but will output 0 to 9.
-
-
-The code is repeated while the condition is True. In this case the
-condition is: i < 10. Every iteration (round), the variable i is
-updated.Nested loops Loops can be combined:
-
-.. code:: python
-    
-    for i in range(0,10):
-        for j in range(0,10):
-            print(i,' ',j)
-
-In this case we have a multidimensional loops. It will iterate over
-the entire coordinate range (0,0) to (9,9)
-
-
-Functions
-----------------------------------------------------------------------
-
-
-To repeat lines of code, you can use a function. A function has a
-unique distinct name in the program. Once you call a function it will
-execute one or more lines of codes, which we will call a code block.
-
-.. code:: python
-	  
-    import math
-
-    def computePower(a):
-        value = math.pow(a,2)
-        print(value)
-
-    computePower(3)
-
-
-We call the function with parameter a = 3 .  A function can be called
-several times with varying parameters. There is no limit to the number
-of function calls.
-
-The def keyword tells Python we define a function.  Always use four
-spaces to indent the code block, using another number of spaces will
-throw a syntax error.
-
-It is also possible to store the output of a function in a variable.
-To do so, we use the keyword return.
-
-.. code:: python
-
-    import math
-
-    def computePower(a):
-        value = math.pow(a,2)
-        return value
-
-    result = computePower(3)
-    print(result)
-
-
-Strings
-----------------------------------------------------------------------
-
-
-Modules
-----------------------------------------------------------------------
-Modules are are a great way to import 
 
 
 Ecosystem
@@ -1067,27 +1098,10 @@ You can find a list of features at https://about.gitlab.com/features/
 
 A comparision to the enterprise level is given here: https://about.gitlab.com/features/#compare
 
-OTHER STUFF (TODO)
--------------------
-
-Links Python
-------------
-
-.. todo:: Jerome. Go to Python documentation and consolodate to python.rst, Integrate Jeromes ppt
-
-* https://github.com/cloudmesh/intro_to_cloudcomputing/blob/master/doc/source/python.rst
-* https://github.com/cloudmesh/introduction_to_cloud_computing-old/tree/master/docs/source/python
-* http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/linux/python.html?highlight=python
 
 
-Python is a high-level, interpreted, interactive and object-oriented scripting language. 
-
-For a comprehensive overview of Python programming see section python_
-
-.. _python: python.rst
 
 
-For an indepth treatment of python, see http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
 
 
 
