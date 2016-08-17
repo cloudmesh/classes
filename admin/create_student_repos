@@ -1,0 +1,99 @@
+#!/usr/bin/env python
+
+import requests
+import pandas as pd
+
+import argparse
+import copy
+import json
+import sys
+
+
+GROUP = 'cloudmesh_fall2016'
+VISIBILITY = 0
+CLASS_NAME = 'bdaafall2016'
+CLASS_DESCRIPTION = 'Class assignments'
+ENABLE_ISSUES = True
+ENABLE_BUILDS = False
+ENABLE_WIKI = False
+ENABLE_SNIPPETS = False
+ENABLE_CONTAINER_REGISTERY = False
+ENABLE_SHARED_RUNNERS = False
+
+URL = 'https://gitlab.com/api/v3'
+NAMESPACES_URL = URL + '/namespaces'
+PROJECTS_URL   = URL + '/projects'
+
+
+def getopts():
+
+    p = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    p.add_argument('-c', '--classname', default=CLASS_NAME, help='Class name')
+    p.add_argument('-n', '--namespace', default=GROUP, help='Namespace (group) name')
+    p.add_argument('-t', '--token', help='GitLab API token for authentication')
+    p.add_argument('-o', '--output_file', default='repoids.csv', help='File to write mapping from repo id to repo name')
+    p.add_argument('students', metavar='CSV', nargs='+',
+                   help="CSV files exported from the 'Grades' on Canvas for each course")
+
+    return p.parse_args()
+
+
+
+if __name__ == '__main__':
+
+    opts = getopts()
+
+    # header is line the first line (line 0)
+    # line 1 contains additional comments that should be skipped
+    frames = [pd.read_csv(path, header=0, skiprows=[1]) for path in opts.students]
+    students = pd.concat(frames)
+    students = students.drop_duplicates(subset='ID')
+
+    # for testing and debugging
+    students = students[:2]
+
+
+    headers = {'PRIVATE-TOKEN': opts.token}
+
+    # get namespace id
+    print 'Getting namespace id'
+    params = {'search': opts.namespace}
+    r = requests.get(NAMESPACES_URL, headers=headers, params=params)
+    assert r.status_code == 200
+    j = r.json()
+    assert type(j) is list
+    assert len(j) == 1
+    groupid = j[0]['id']
+    print 'Groupid for', opts.namespace, '=', groupid
+
+    params = {
+        'namespace_id': groupid,
+        'issues_enabled': ENABLE_ISSUES,
+        'builds_enabled': ENABLE_BUILDS,
+        'wiki_enabled': ENABLE_WIKI,
+        'snippets_enabled': ENABLE_SNIPPETS,
+        'container_registry_enabled': ENABLE_CONTAINER_REGISTERY,
+        'visibility_level': VISIBILITY,
+    }
+
+    repoids = open(opts.output_file, 'w')
+
+    print 'Creating projects'
+    for _,student in students.iterrows():
+        repo = student['SIS Login ID']
+        print '...', repo
+
+        p = copy.copy(params)
+        p.update({
+            'name': repo,
+            'path': repo,
+            'description': '{} repository for {}'.format(opts.classname, student['Student']),
+        })
+        j = json.dumps(p)
+        r = requests.post(PROJECTS_URL, data=p, headers=headers)
+        if r.status_code == 201:
+            repoid = r.json()['id']
+            print '...', 'repository id', repoid
+            repoids.write('{},{}\n'.format(repoid,repo))
+        elif r.status_code == 400:
+            print '...', 'Repository', repo, 'already exists, skipping'
