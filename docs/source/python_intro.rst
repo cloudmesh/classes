@@ -274,6 +274,7 @@ You can combine booleans with **boolean operators**:
    True
    >>> print False or False
    False
+   
 Numbers and Math
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -522,6 +523,7 @@ which assigns the value ``5`` to the variable ``n``.
 We can now call ``fib(n)`` and ``print`` the result.
 
 .. _Fibonacci sequence: http://en.wikipedia.org/wiki/Fibonacci_number
+
 Installing Libraries
 ----------------------------------------------------------------------
 

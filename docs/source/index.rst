@@ -85,6 +85,24 @@ Big Data Applications and Analytics
    :maxdepth: 2
 
    links
-	      
+
+
+.. toctree::
+   :caption: Useful Tools and Tips
+   :maxdepth: 2
+
+   edu/linux
+   edu/latex
+
+.. toctree::
+   :caption: Contributing
+   :maxdepth: 2
+
+   edu/contributing
+
+    
+
+
+   edu/index	      
     
 
