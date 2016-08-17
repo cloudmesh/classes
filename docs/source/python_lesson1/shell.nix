@@ -9,6 +9,12 @@ let
     pip
     virtualenv
     numpy
+    scipy
+    matplotlib
+    pandas
+    statsmodels
+    cycler
+    pyqt4
   ];
 
   nbis = callPackage ./nbis.nix {};
@@ -21,4 +27,8 @@ stdenv.mkDerivation {
     pythonTools
     nbis
   ];
+  shellHook = ''
+    test -d venv || virtualenv venv
+    source venv/bin/activate
+  '';
 }

@@ -99,7 +99,7 @@ Office Hours
 Office hours will be held every week Tue, Thu 10-11am EST.
 
 These are live sessions that will allow you to interact in group or
-one-on-one with either an instructor ow a TA. Office hours sessions
+one-on-one with either an instructor or a TA. Office hours sessions
 may be recorded. During these times, we can be reached via zoom with
 the following information for the call:
 
@@ -283,7 +283,7 @@ class grade.
 In case you chose a project your maximum grade could be an
 A+. However, and A+ project must be truly outstanding and include an
 exceptional project report. Such a project and report will have the
-potential quality of being able to be published in a conference. 
+potential quality of being able to be published in a conference.
 
 In case you chose a Term Paper your maximum Grade will be an A-.
 
@@ -341,7 +341,7 @@ Teams:
     Up to three people. You can use the
     `discussion forum in the folder term-project <https://piazza.com/class/irqfvh1ctrg2vt>`_
     to build teams.
-    
+
 Term Report:
     A report must be produced while using the format discussed in the
     Report Format section. The following length is required:
@@ -449,7 +449,7 @@ level. Students with limited math backgrounds may need to do
 additional reading outside of class.
 
 In case you are interested in further development of cloudmesh for big
-data strong Python or JavaScript experience is needed. 
+data strong Python or JavaScript experience is needed.
 
 You will also need a sufficiently modern and powerful computer to do
 the class work. Naturally if you expect that you want to to the course
@@ -470,7 +470,7 @@ machines, but in that case you need to pay for the usage yourself.
 
 Please remember that this course does not have a required text books
 and the money you safe on this you can be used to buy a new or upgrade
-your current computer if needed. 
+your current computer if needed.
 
 
 Learning Outcomes
@@ -490,7 +490,7 @@ grading will be done within 2-3 weeks after the submission. A 10%
 grade reduction will be given. Some homework can not be delivered late
 (which will be clearly marked and 0 points will be given if
 late; these are mostly related to setting up your account and
-communicating to us your account names.) 
+communicating to us your account names.)
 
 It is the student’s responsibility to upload submissions well ahead of
 the deadline to avoid last minute problems with network connectivity,
