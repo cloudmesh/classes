@@ -1,5 +1,15 @@
 #!/usr/bin/env python
 
+"""
+Create repositories on GitLab.
+Requires: pandas, requests, GitLab API Access Token (under your profile settings)
+"""
+
+__EXAMPLE_USAGE__ = """
+python admin/create_student_repos -t $GITLAB_TOKEN /tmp/students/*.csv
+"""
+
+
 import requests
 import pandas as pd
 
@@ -27,7 +37,10 @@ PROJECTS_URL   = URL + '/projects'
 
 def getopts():
 
-    p = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    p = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+                                description=__doc__,
+                                epilog=__EXAMPLE_USAGE__,
+    )
     p.add_argument('-c', '--classname', default=CLASS_NAME, help='Class name')
     p.add_argument('-n', '--namespace', default=GROUP, help='Namespace (group) name')
     p.add_argument('-t', '--token', help='GitLab API token for authentication')
