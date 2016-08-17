@@ -213,7 +213,9 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 12/02/2016 | 15    | Due Date   | | Due Date for papers and projects |
 +------------+-------+------------+------------------------------------+
-| 12/16/2016 | 16    | Last Day	  | | End Date of Semester             |
+| 12/12/2016 | 16    | Last Class | | Last Homework due                |
++------------+-------+------------+------------------------------------+
+| 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
 
 Common Mistakes

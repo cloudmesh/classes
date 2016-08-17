@@ -1,3 +1,5 @@
+.. _sampleprojects:
+
 Sample Project suggestions
 ===========================
 
@@ -42,6 +44,26 @@ running a subset of 1 or more of the software packages.
 | |                                                     | | Factor to adjust price       | |                                                     |
 | |                                                     | | Factor to adjust shares      | |                                                     |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
+
+Note: 
+* TeraSort: hadoop-examples.jar is included in hadoop package.
+
+* MRBench, NNBench, DFSIO: hadoop-mapreduce-client-jobclient-2.7.1.jar is included as well. If not, it can be downloaded directly from
+  `*here* <https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.7.1/hadoop-mapreduce-client-jobclient-2.7.1.jar>`__.
+
+ Brief guidelines for these benchmark tools from last year:
+
+-  `TeraSort Hadoop
+   Benchmark <http://bdaafall2015.readthedocs.io/en/latest/terasort.html#terasort>`__
+
+-  `DFSIO Distributed I/O
+   Benchmark <http://bdaafall2015.readthedocs.io/en/latest/dfsio.html#dfsio>`__
+
+-  `MRBench MapReduce
+   Benchmark <http://bdaafall2015.readthedocs.io/en/latest/mrbench.html#mrbench>`__
+
+`NNBench NameNode
+Benchmark <http://bdaafall2015.readthedocs.io/en/latest/nnbench.html#nnbench>`__
 
 
 .. _NISTFIngerprint: http://www.nist.gov/itl/iad/ig/nbis.cfm

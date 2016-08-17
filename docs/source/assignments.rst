@@ -154,6 +154,18 @@ Term Paper and Term Project Report Assignment T1
        graded based on a 3 person team.
      * Decide for a topic that you want to do and the team. Commit to
        it by end of Week 4.
+     * For that week the homework also includes to make a plan for
+       your term paper and write a one page summary which we will
+       approve and give comments on. Note teaming can change in actual
+       final project. If you are in a team, each student must submit
+       an (identical) plan with a notation as to teaming. Note teaming
+       can change in actual final project. 
+     * You will be over the semester completing this
+       `Form <https://docs.google.com/forms/d/1AYEpZxVpsmWLBSa4xuPl7i2l2gGy0L9S2wikEEGW9-I>`_, 
+       in which you will be uploading the title,
+       the team members, and the location of your proposal in gitlab
+       with direct URL, description of the artifacts and the final
+       project report.
 
 ----------------------------------------------------------------------       
 
@@ -619,24 +631,14 @@ Code Repository:
     frameworks. Everything must be installable form the command line.
 
 Datasets that may inspire projects:
+
   * https://cloud.google.com/bigquery/public-data/github
   * https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public
 
+Project keywords that may inspire projects:
 
-See
-
-http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/FinalProjectGuidelines-bdaafall2015.pdf
-
-.. todo:: convert to RST
-
-(Links to an external site.) for discussion of software projects
- 
-Homework is to make a plan for your term paper and write a one page
-summary which we will approve and give comments on. Note teaming can
-change in actual final project. If you are in a team, each student
-must submit an (identical) plan with a notation as to teaming. Note
-teaming can change in actual final project.
- 
+* :ref:`sampleprojects`
+    
 
 ----------------------------------------------------------------------    
     
