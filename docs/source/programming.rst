@@ -14,13 +14,13 @@ components are:
 * TeraValidate: validation of the output
 
 Access to the cluster
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 .. todo:: HadoopClusterAccess.html
 
 
 Invocation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^
 
 The teragen command accepts two parameters:
 
@@ -37,7 +37,7 @@ The teragen command accepts two parameters:
    teravalidate /user/$USER/tera-sort /user/$USER/tera-validate
 
 Exercise
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^
 
 Run the Terabyte Sort procedure for various sizes of data:
 
@@ -50,7 +50,7 @@ time, data read and written (in GB) as well as the cumulative values.
 
 
 Programming: Using futuresystems.org
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In this homework, you are expected to run Python or Java programs on
 FutureSystems or on your local machine. A few examples for beginners
@@ -65,7 +65,7 @@ frequency.
 
 
 Java
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^
 
 Here is a simple program in Java.
 
@@ -117,7 +117,7 @@ Compiling and Execution::
 
 
 Python
-~~~~~~
+^^^^^^
 
 Let’s write a simple program in Python.
 
@@ -156,16 +156,17 @@ What does the output look like?:
   
   
 Challenge tasks
-----------------------------------------------------------------------
+^^^^^^^^^^^^^^^
 
 * Run any Java or Python on a FutureSystems OpenStack instance
 * Run NumPyTutorial Python on IPython Notebook
 
 
-Preview Course Examples
-----------------------------------------------------------------------
+Code Examples
+~~~~~~~~~~~~~~~~~~~~~~~
 
-.. todo:: The links are missing
+.. todo:: The links are missing.THis may be already in some other
+          section.
 	  
 * The Elusive Mr.Higgs [Java][Python]
 * Number Theory [Python]
@@ -175,7 +176,7 @@ Preview Course Examples
 * KMeans [Java][Python]
 
 Hadoop Cluster Access
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This document describes getting access to the Hadoop cluster for the course.
 
@@ -184,9 +185,6 @@ You will need
 1. An a account with FutureSystems
 2. To be a member of a active project on FutureSystems (fg511) 
 3. Have uploaded an ssh key to the portal
-
-Access
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The cluster frontend is located at <IP_ADDRESS> Login using ssh::
 
@@ -198,9 +196,6 @@ In the above:
   been added to the futuresystems portal
 * $PORTAL_USERNAME is the username on the futuresystems portal
 * $HADOOP_IP is the IP address of the hadoop frontend node
-
-Usage
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Hadoop is installed under /opt/hadoop, and you can refer to this
 location using $HADOOP_HOME. See::
