@@ -280,7 +280,15 @@ Futuresystems
 	  FG511. Not that this will take time and you need to do this
 	  ASAP. No late assignments will be accepted. If you are late
 	  this assignment will receive 0 points.
-	  Fill out the Poll **TBD**.
+
+	  Which accountname should i use?:
+	      The same name as you use at IU to register. If you have
+	      had a previous class and used a different name, please
+	      let us know, so we can make a note of it. Please do not
+	      apply for two accounts. If you accountname is already
+	      taken, please use a different one.
+	  
+
 
 ChameleonCloud
 ^^^^^^^^^^^^^^^
