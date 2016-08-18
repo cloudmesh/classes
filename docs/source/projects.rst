@@ -227,5 +227,4 @@ NIST Examples
 
    -  NFSEG
 
-   -  SIVV
-          [`pdf <http://www.nist.gov/manuscript-publication-search.cfm?pub_id=903078>`__]
+   -  SIVV: `pdf <http://www.nist.gov/manuscript-publication-search.cfm?pub_id=903078>`__
