@@ -46,22 +46,10 @@ Big Data Applications and Analytics
 
 	      
 .. toctree::
-   :caption: Technologies (TODO)
+   :caption: Drafts(TODO)
    :maxdepth: 2
 
-.. toctree::
-   :caption: DRAFTS (TODO)
-   :maxdepth: 2
-      
-   programming
-   projects
-   as1
-   technologies
-   python
-   iaas
-   quickstart_openstack
-   chameleon
-
+   drafts	        
 
 .. toctree::
    :caption: Contributing

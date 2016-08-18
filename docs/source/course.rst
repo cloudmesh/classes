@@ -795,8 +795,8 @@ Resources
 * http://www.mckinsey.com/mgi/publications/big_data/index.asp
 * http://cra.org/ccc/docs/nitrdsymposium/pdfs/keyes.pdf
 
-Section 3 - X= Health Informatics Case Study
--------------------------------------------------
+Section 3 - Health Informatics Case Study
+-----------------------------------------
 
 
 
@@ -4136,8 +4136,8 @@ Resources
 * https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf
 * http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
 
-Section 12 - X-Informatics with X = Web Search and Text Mining and their technologies
-----------------------------------------------------------------------
+Section 12 - X-Informatics with Web Search and Text Mining and their technologies
+---------------------------------------------------------------------------------
 
 
 
@@ -4595,8 +4595,8 @@ This is Part 2 of "Advanced Topics".
 https://youtu.be/wnanWncQBow
 
 
-Unit 34 - Technology for X-Informatics: Kmeans and MapReduce Parallelism (Python & Java Track)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unit 34 - Technology: Kmeans and MapReduce Parallelism
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unit Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -4646,7 +4646,7 @@ This is Part 2 of "MapReduce Kmeans in Python"
 https://youtu.be/LLrTWWdE3T0
 
 
-Unit 35 - Technology for X-Informatics: PageRank (Python & Java Track)
+Unit 35 - Technology: PageRank (Python & Java Track)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unit Overview
@@ -4725,7 +4725,7 @@ the smart electric grid.
 
 
 
-Unit 36 - X-Informatics Case Study: Sensors
+Unit 36 - Case Study: Sensors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unit Overview
@@ -4859,11 +4859,11 @@ Resources
 * http://www.gesoftware.com/sites/default/files/GE-Software-Modernizing-Machine-to-Machine-Interactions.pdf
 
 
-Section 15 - X= Radar Case Study
+Section 15 - Radar Case Study
 ----------------------------------------------------------------------
 
 
-Unit 37 - X-Informatics Case Study: Radar
+Unit 37 - Case Study: Radar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unit Overview
