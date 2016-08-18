@@ -18,6 +18,7 @@ Big Data Applications and Analytics
    overview
    course
    faq
+   refcards
    assignments
 
 .. toctree::
@@ -32,35 +33,29 @@ Big Data Applications and Analytics
    :caption: Useful Tools and Tips
    :maxdepth: 2
 
+   edu/refcards	     
    edu/linux
    edu/latex
-   
+   links
+
+	      
+.. toctree::
+   :caption: Technologies (TODO)
+   :maxdepth: 2
 
 .. toctree::
-   :caption: Programming (TODO)
+   :caption: DRAFTS (TODO)
    :maxdepth: 2
    
    
    programming
    projects
    as1
-   
-.. toctree::
-   :caption: Technologies (TODO)
-   :maxdepth: 2
-
    technologies
    python
    iaas
    quickstart_openstack
    chameleon
-
-.. toctree::
-   :caption: Links (TODO)
-   :maxdepth: 2
-
-   links
-
 
 
 .. toctree::
