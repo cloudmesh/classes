@@ -216,7 +216,7 @@ NIST Examples
    -  **NFIQ**: `NIST Fingerprint Image Quality (NFIQ) <http://biometrics.nist.gov/cs_links/standard/archived/workshops/workshop1/presentations/Tabassi-Image-Quality.pdf>`__,
           Tabassi, Elham,
           C. Wilson, and C. Watson. "Nist fingerprint image
-          quality."NIST Res. Rep. NISTIR7151 (2004).
+          quality." NIST Res. Rep. NISTIR7151 (2004).
    -  **PCASYS**: `Fingerprint Pattern Classification <http://www.nist.gov/manuscript-publication-search.cfm?pub_id=900754>`__,
           Candela, G. T., et al. "PCASYS-A pattern-level classification automation system
           for fingerprints." *NIST technical report NISTIR* 5647 (1995).
