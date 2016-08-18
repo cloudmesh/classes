@@ -1,28 +1,35 @@
-HW Referneces
-=============
+.. _hw_references:
+   
+Homework References
+===================
 
 It is important that you know how to properly cite references. IN
 order to teach you how to do that we have taken the almost 300
-refernces from the class and will ask you to provide **PROPER**
-academic references for them. All refernces will be managed with
+references from the class and will ask you to provide **PROPER**
+academic references for them. All references will be managed with
 jabref.
 
 Due to the number of students in the class this will be amounting to
-about 5 refernces per student. Studenst should build teams of 2
+about 5 references per student. Students should build teams of 2
 students to correct each others contribution if possible.
 You will only get point for the references that are absolute
-correct. It does not amtter if a colleague has helped you correcting
-your refrences. What is important is that you know how to cite
+correct. It does not matter if a colleague has helped you correcting
+your references. What is important is that you know how to cite
 correctly.
 
 How will you know which citation you need to do?:
     You will be assigned a number in class and you simply have to do
-    all the refernces that is indicated by a TBD formula::
+    all the references that is indicated by a TBD formula::
 
         number modulo *Total number of students* = 1
 
+What if i get a reference to "--------"?
+     You are in luck, you get a free point.
 
+Can I use endnote for this?
+     No. However for your final paper you can use endnote.
 
+::
 
      1	* ----------------------------
      2	* http://www.gartner.com/technology/home.jsp and many web links

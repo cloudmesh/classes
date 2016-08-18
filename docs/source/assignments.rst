@@ -117,6 +117,15 @@ Paper p2
 	    (precision) medicine, personal monitors like Fitbit,
 	    privacy issues.
 
+References R1
+^^^^^^^^^^^^^
+
+          It is important that you know how to cite. Please conduct
+	  `Reference Homework <hw_references>`_
+	  
+          
+	    
+
 ----------------------------------------------------------------------
 
 Week 3

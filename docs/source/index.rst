@@ -38,6 +38,12 @@ Big Data Applications and Analytics
    edu/latex
    links
 
+.. toctree::
+   :caption: APPENDIX
+   :maxdepth: 2
+
+   n-resources
+
 	      
 .. toctree::
    :caption: Technologies (TODO)
