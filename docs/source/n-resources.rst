@@ -29,6 +29,30 @@ What if i get a reference to "--------"?
 Can I use endnote for this?
      No. However for your final paper you can use endnote.
 
+What is an article?
+     An article is published in a journal.
+
+What is inProceedings?
+     That is an article published in a conference proceedings
+
+What is inBook?
+     That is a chapter or pages in a book
+
+How do I cite urls?
+     Often you can find a proper article and use that in addition to
+     the url. Hence, you may have to introduce two references.
+     If you just cite the URL, watch out for how published it, what is
+     the author, when was it published, what is the proper url, and
+     when was it accessed.
+
+What label should I give the reference?
+     For grading purposes use BD followed by the number in this
+     assignment. This way if you want to use it in your final paper
+     you can also use other students references
+
+
+     
+
 ::
 
      1	* ----------------------------

@@ -122,6 +122,10 @@ References R1
 
           It is important that you know how to cite. Please conduct
 	  `Reference Homework <hw_references>`_
+
+	  Bonus points: Use Discussion d3-r to discuss the topic of
+	  croud sourcing in relationship to big data. Conduct research
+	  if needed.
 	  
           
 	    
