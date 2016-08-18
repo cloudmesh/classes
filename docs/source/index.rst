@@ -46,8 +46,7 @@ Big Data Applications and Analytics
 .. toctree::
    :caption: DRAFTS (TODO)
    :maxdepth: 2
-   
-   
+      
    programming
    projects
    as1

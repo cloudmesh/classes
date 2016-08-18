@@ -96,7 +96,7 @@ support on FutureSystems resources.
 +--------------------------------------+------------------------------------------------+------------------+
 | Amazon Movie Reviews (1997-2012)     | Data3_ 3GB (compressed)                        |                  |
 +--------------------------------------+------------------------------------------------+------------------+
-| Medicare Part-B (2000-2013)          | `Data4_ <30 MB, CSV ('00-'09), Excel ('10-'13) | n/a              |
+| Medicare Part-B (2000-2013)          | Data4_ <30 MB, CSV ('00-'09), Excel ('10-'13)  | n/a              |
 +--------------------------------------+------------------------------------------------+------------------+
 | HiBench        - sort                | n/a                                            | HibenchSuite_    |
 +--------------------------------------+------------------------------------------------+------------------+
@@ -204,8 +204,8 @@ these examples or choose your own.
 * Design of a NoSQL database for a specialized application; Explore
   design of databases for big data including HBase, MongoDB, etc.
 
-.. _KALEIDOSCOPE_: http://hpc-abds.org/kaleidoscope
-.. _RECOMENDER_: http://bdaafall2015.readthedocs.org/en/latest/tp1-recommender.html#tp1-recommender
+.. _KALEIDOSCOPE: http://hpc-abds.org/kaleidoscope
+.. _RECOMENDER: http://bdaafall2015.readthedocs.org/en/latest/tp1-recommender.html#tp1-recommender
 
 
 NIST Examples
