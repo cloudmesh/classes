@@ -733,8 +733,11 @@ Possible Term Paper Topics:
       a 3 person project only and at least 15 pages are required, where
       additional three pages are given for references.)
     * Big Data and "Suggest your own"
-
-
+    * Review of Recommender Systems: technology & applications
+    * Review of Big Data in Bioinformatics
+    * Review of Data visualization including high dimensional data
+    * Design of a NoSQL database for a specialized application
+      
 ----------------------------------------------------------------------
 
 Project Proposal
