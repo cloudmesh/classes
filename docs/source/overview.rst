@@ -227,10 +227,10 @@ All sessions refer to Sections, Discussions and Units published at the
 Common Mistakes
 ---------------
 
-* starting the project to late.
-* not using gitlab for homework submission
-* not using the 2 column ACM report template
-* not using jabref or endnote for references
+* Starting the Project late.
+* Not using gitlab for homework submission
+* Not using the 2 column ACM report template
+* Not using jabref or endnote for References
 
 Email
 ----------------------------------------------------------------------
@@ -287,7 +287,7 @@ our cloud computing test bed. This will constitute to 40% of your
 class grade.
 
 In case you chose a project your maximum grade could be an
-A+. However, and A+ project must be truly outstanding and include an
+A+. However, an A+ project must be truly outstanding and include an
 exceptional project report. Such a project and report will have the
 potential quality of being able to be published in a conference.
 
@@ -630,7 +630,7 @@ is a Fellow of APS (Physics) and ACM (Computing).
 
 
 Dr. Badi' Abdul-Wahid
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: images/badi.png
 

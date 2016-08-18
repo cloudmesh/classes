@@ -5,7 +5,7 @@ Syllabus
 .. contents::
    :local:
 
-   
+
 
 Section 1 - Overview
 ----------------------------------------------------------------------
@@ -4753,7 +4753,7 @@ drones and self driving cars and more generally transportation
 systems. The lesson gives many examples of distributed sensors, which
 form a Grid that is controlled by a cloud.
 
-
+https://youtu.be/fFMvxYW6Yu0
 
 
 Lesson 2 - Robotics and IOT Expectations

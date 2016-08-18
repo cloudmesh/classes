@@ -35,7 +35,7 @@ Homework Submission is done as follows:
 
   .. todo:: Gregor, Badi, Hyungro we need to figure out how to do
 	  homework in canvas and in gitlab
-	  
+
 
 Week 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,7 +60,7 @@ Video V1
 ^^^^^^^^^
 
     Do Enrty Survey SURVEY1_ in Section 0
-    
+
     Watch Videos in Section 1: Units 1 and 2
 
 .. _SURVEY1: https://docs.google.com/forms/d/148AAxmPqXvoRz_zouYEg5JRgJ14WYDYezDtQUSnsiFg
@@ -74,14 +74,14 @@ Discussion d1
 ^^^^^^^^^^^^^^
     Consider Discussion d1 after Section 1. Please post on topic "Why
     is Big Data interesting to`me" and also comment on at least 2
-    other posts. 
+    other posts.
 
 Paper p1
 ^^^^^^^^^
       This requires to write a paper that is 2 pages in
       length. Please use the 2 column ACM proceedings Format. Write a
       paper discussing the following topics:
-      
+
       - What is Big Data?
       - Why is Big Data interesting to me? (Summarize and/or contrast
         positions in the discussion list)
@@ -96,7 +96,7 @@ Week 2
 
 Video V3
 ^^^^^^^^^
-      Please watch Section 3 Unit 6. Total Length 2.5 hours 
+      Please watch Section 3 Unit 6. Total Length 2.5 hours
 
 Discussion d3
 ^^^^^^^^^^^^^^
@@ -126,9 +126,9 @@ References R1
 	  Bonus points: Use Discussion d3-r to discuss the topic of
 	  croud sourcing in relationship to big data. Conduct research
 	  if needed.
-	  
-          
-	    
+
+
+
 
 ----------------------------------------------------------------------
 
@@ -148,13 +148,13 @@ Discussion d4
 	   * Which are likely to make most progress
 	   * Which one would you work in given similar offers in both
 	     fields
-	   * Comment on at least 2 other posts. 
+	   * Comment on at least 2 other posts.
 
 Paper p3
 ^^^^^^^^^
          This requires to write a paper that is from one to two pages in
       	 length. Please use the 2 column ACM proceedings Format.
-	
+
 	 Using what we call Big Data (such as video) and Little Data
 	 (such as Baseball numerical statistics) in Sports
 	 Analytics. Write a paper discussing the following topics:
@@ -165,7 +165,7 @@ Paper p3
 Term Paper and Term Project Report Assignment T1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
      Please prepare for the selection process for a project or a term paper:
-     
+
      * Review the guidelines for the project and term paper.
      * Identify if you are likely to do a project or a term paper
      * Build teams, chose your team members wisely. For example if you
@@ -178,15 +178,15 @@ Term Paper and Term Project Report Assignment T1
        approve and give comments on. Note teaming can change in actual
        final project. If you are in a team, each student must submit
        an (identical) plan with a notation as to teaming. Note teaming
-       can change in actual final project. 
+       can change in actual final project.
      * You will be over the semester completing this
-       `Form <https://docs.google.com/forms/d/1AYEpZxVpsmWLBSa4xuPl7i2l2gGy0L9S2wikEEGW9-I>`_, 
+       `Form <https://docs.google.com/forms/d/1AYEpZxVpsmWLBSa4xuPl7i2l2gGy0L9S2wikEEGW9-I>`_,
        in which you will be uploading the title,
        the team members, and the location of your proposal in gitlab
        with direct URL, description of the artifacts and the final
        project report.
 
-----------------------------------------------------------------------       
+----------------------------------------------------------------------
 
 Week 4
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -220,12 +220,12 @@ Programming prg1: Python
 	may not be ported to it yet. IN case you have difficulties
 	with canopy, please use python.org
 
-    Useful software: 
-        - `Python <https://www.python.org/`_ 
-	- `NumPy <http://www.numpy.org/`_
-	- `SciPy <https://scipy.org/`_
-	- `Matplotlib <http://matplotlib.org/>`_
-	- `Pandas <http://pandas.pydata.org/`_
+    Useful software:
+        - `Python <https://www.python.org/>`_
+	      - `NumPy <http://www.numpy.org/>`_
+	      - `SciPy <https://scipy.org/>`_
+	      - `Matplotlib <http://matplotlib.org/>`_
+	      - `Pandas <http://pandas.pydata.org/>`_
 
     Tasks:
         * Learn Python, E.g. go through the :doc:`python` lesson.
@@ -242,14 +242,14 @@ Programming prg1: Python
 	* Review of Scipy: look at the scipy manual and be aware what
           you can do with it in case you chose a Project
 
-	
+
 	Deliverables prg1:
 
 	    The goal of this assignment is to choose one or two datasets
             (see :doc:`datasets`), preprocess it to clean it up, and
             generate a line graph and histogram plot.  Your figures must
             provide labels for the axes along with units.
-	
+
             Submit your programs in a folder called ``prg1``, which
             must contain the following:
 
@@ -273,15 +273,15 @@ Programming prg1: Python
 	    .. warning::
 
 	       Missing items will result in zero points being given
-	      
+
 Futuresystems
 ^^^^^^^^^^^^^^
 	* Obtain an account on Futuresystems.org and join project
 	  FG511. Not that this will take time and you need to do this
 	  ASAP. No late assignments will be accepted. If you are late
 	  this assignment will receive 0 points.
-	  Fill out the Poll **TBD**. 
-	
+	  Fill out the Poll **TBD**.
+
 ChameleonCloud
 ^^^^^^^^^^^^^^^
 	* Obtain an account on https://www.chameleoncloud.org. Fill
@@ -289,14 +289,14 @@ ChameleonCloud
 	  made good experience with Chameleon cloud, so we advise you
 	  to get an account. As you are a student you will not be able
 	  to create a project. We will announce the project in due
-	  time that you can join and use chameleon cloud). 
+	  time that you can join and use chameleon cloud).
 
 OpenStack
 ^^^^^^^^^^
 	* Inform yourself about OpenStack and how to start and stop
 	  virtual machines via the command line.
 	* Optionally, you can use cloudmesh_client for this (If you
-          use cloudmesh client you will get bonus points). 
+          use cloudmesh client you will get bonus points).
 
 
 Discussion d5
@@ -316,7 +316,7 @@ Video S6
 
 prg2
 ^^^^^
-	 Consider the Python/Java code available on Section 6 Unit 13
+	 Consider the Python or Java code available on Section 6 Unit 13
  	 “Files” tab (the third one) as HiggsClassIIUniform.py or
 	 HiggsClassIIUniform.java. This software is also available on
 	 FutureSystems virtual machines. When run it should produce
@@ -334,31 +334,31 @@ prg2
 	 particle with different amount of data (corresponding to
 	 different lengths of time experiment runs) Due date October
 	 25 Video V6: Video Review/Study Section 7 Units 12-15; total
-	 3 hours 7 minutes. This is Physics Informatics Section. 
+	 3 hours 7 minutes. This is Physics Informatics Section.
 
 
 	 https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.Higgs
 
 	 https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs
-	 
+
 Discussion d6
 ^^^^^^^^^^^^^^
 	   Post on Discussion d6 after Section 7, the “Physics” topic:
-	   
+
 	   * What you found interesting, remarkable or shocking about
 	     the search for Higgs Bosons.
 	   * Was it worth all that money?
 	   * Please also comment on at least 2 other posts.
 
-----------------------------------------------------------------------	     
-	     
+----------------------------------------------------------------------
+
 Week 6
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Video S7
 ^^^^^^^^^
       Watch the videaos in section 7
- 
+
 Discussion d7
 ^^^^^^^^^^^^^^
 	   Post on Discussion d7 on the topic:
@@ -397,8 +397,8 @@ Discussion d9
 	    * Waht are risks and benefits for Banking industry using
 	      big data?
 
-	    
-      
+
+
 ----------------------------------------------------------------------
 
 Week 9
@@ -438,24 +438,24 @@ Discussion d11
 ^^^^^^^^^^^^^^^
           Discuss what you learnt from video you watched in
 	  S11: Parallel Computing and Clouds
-	   
+
 Paper p11
 ^^^^^^^^^^
      Consider any 5 cloud or cloud like activities from list of 11 below.
      Describe the ones you chose and expalin what ways they could be used
      to generate an X-Informatics for some X. Write a 2 page paper wit
      the Paper format from Section :ref:`paper_format`:
-      
-     * http://aws.amazon.com/ (Links to an external site.) 
-     * http://www.windowsazure.com/en-us/ (Links to an external site.) 
+
+     * http://aws.amazon.com/ (Links to an external site.)
+     * http://www.windowsazure.com/en-us/ (Links to an external site.)
      * https://cloud.google.com/compute/ (Links to an external site.)
-     * https://portal.futuresystems.org/ (Links to an external site.) 
-     * http://joyent.com/ (Links to an external site.) 
+     * https://portal.futuresystems.org/ (Links to an external site.)
+     * http://joyent.com/ (Links to an external site.)
      * https://pod.penguincomputing.com/ (Links to an external site.)
-     * http://www.rackspace.com/cloud/ (Links to an external site.) 
-     * http://www.salesforce.com/cloudcomputing/ (Links to an external site.) 
-     * http://earthengine.google.org/ (Links to an external site.) 
-     * http://www.openstack.org/ (Links to an external site.) 
+     * http://www.rackspace.com/cloud/ (Links to an external site.)
+     * http://www.salesforce.com/cloudcomputing/ (Links to an external site.)
+     * http://earthengine.google.org/ (Links to an external site.)
+     * http://www.openstack.org/ (Links to an external site.)
      * https://www.docker.com/ (Links to an external site.)
 
 ----------------------------------------------------------------------
@@ -466,7 +466,7 @@ Week 11 - Week 13
 Project or Term Report
 ^^^^^^^^^^^^^^^^^^^^^^^
     Work on your project
-    
+
 Discussion 11, 12, 13, 14
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 	   Discuss what you learnt from videos you watched in last 2
@@ -474,7 +474,7 @@ Discussion 11, 12, 13, 14
 	   Search and Text mining, Big Data Technology, Sensors, Radar
 	   Eeach Discussion about the topic is to be conducted in the
 	   week it is introduced. Due dates Friday's.
-	   
+
 
 Week 13 - Dec. 2nd
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -486,7 +486,7 @@ Week 13 - Dec. 2nd
 	  the deadline is mandatory. Late projects and term papers
 	  will receive a 10% grade reduction. Furthermore dependent on
  	  when the project is handed in it may not be graded over the
-	  Christmass break. 
+	  Christmass break.
 
 
 Assignment Guidelines
@@ -513,13 +513,13 @@ us in a project FG511 on FutureSystems:
 
 .. note:: FutureSystems OpenStack cloud is currently updated and will
 	  not be available till Sept.
-	  
+
 Documentation about FutureSystems can be found at
 :ref:`OpenStackFutureSystems <ref-quickstart_openstack>`
-  
+
 Once you created an account on FutureSystems and you do a project yOu
 can add yourself to the project so you gain access. Systems staff is
-available only during regular business hours Mo-Fri 10am - 4pm.  
+available only during regular business hours Mo-Fri 10am - 4pm.
 
 You could also use the cloudmesh client software on Linux and OSX to
 access multiple clouds in easy fashion. A Section will introduce this
@@ -542,7 +542,7 @@ format. The MSWord template can be found here:
 A LaTeX version can be found at
 
 * https://www.acm.org/publications/proceedings-template
-  
+
 however you have to remove the ACM copyright notice in the LaTeX version.
 
 There will be **NO EXEPTION** to this format. In case you are in a
@@ -582,14 +582,14 @@ Report Checklist:
 * [ ] Have you made sure you do not plageurize.
 
 ----------------------------------------------------------------------
-  
+
 Software Project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Develop a software system with OpenStack available on FutureSystems or
 Chameleoncloud to support it. Only choose the software option if you
 are prepared to take on programming tasks.
-	     
+
 In case of a software project, we encourage a group project with up to
 three members.  You can use the discussion list for the
 `Software Project <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/3d53c765145a457cbd003e80897723d4/>`_
@@ -606,18 +606,18 @@ Code:
 Project Report:
     A report must be produced while using the format discussed in the
     Report Format section. The following length is required:
-							    
-    * 3 pages, one student in the project		    
-    * 5 pages, one student in the project		    
-    * 7 pages, one student in the project		    
-							    
+
+    * 3 pages, one student in the project
+    * 5 pages, one student in the project
+    * 7 pages, one student in the project
+
     Reports can be longer up to 10 pages if needed.  Your high quality
     scientific report should describe a) What you did b) results
     obtained and c) Software documentation including how to install,
     and run it. If c) is longer than half a page and can not be
     reproduced with shell scripts or easy to folow steps you will get
-    points deducted. 
-    							    
+    points deducted.
+
 Work Breackdown:
     This document is only needed for team projects. A one page PDF
     document describing who did what. It includes pointers to
@@ -652,10 +652,10 @@ Code Repository:
 Datasets that may inspire projects can be found in :doc:`datasets`.
 
 You should also review :ref:`sampleprojects`.
-    
 
-----------------------------------------------------------------------    
-    
+
+----------------------------------------------------------------------
+
 Term Paper
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -672,7 +672,7 @@ Content Rules:
     As usual, proper citations and quotations must be given to such
     content. The quality should be similar to a publishable paper or
     technical report. Plagiarism is not allowed.
-    
+
 Proposal:
     The topic should be close to what you will propose. Please contact
     me if you change significantly topic. Also inform me if you change teaming.
@@ -682,7 +682,7 @@ Proposal:
     `Term Paper <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/7870c4bd238147e7a98e6a46f349f0cf/2dbde1a636034a36b62c4a160ddde62a/>`_
     to form project teams or just communicate privately with other class
     members to formulate a team.
-    
+
 Deliverables:
     The following artifacts are part of the deliverables for a term
     paper. A report must be produced while using the format discussed
@@ -695,7 +695,7 @@ Deliverables:
     A gitlab repository will contain the paper your wrote in PDF and
     in docx or latex. All images will be in an image folder and be
     clearly marked. All bibtex or endnote files will be included in
-    the repository. 
+    the repository.
 
     Work Breackdown:
        This document is only needed for team projects. A one page PDF
@@ -709,7 +709,7 @@ Deliverables:
       ./refrences.enl
       ./images/myniftyimage-fig1.pptx
       ./images/myniftyimage-fig1.pdf
-    
+
 
 Possible Term Paper Topics:
     * Big Data and Agriculture
@@ -718,7 +718,7 @@ Possible Term Paper Topics:
     * Big Data and Internet of Things
     * Big Data and Olympics
     * Big Data and Environment
-    * Big Data and Astrophysics 
+    * Big Data and Astrophysics
     * Big Data and Deep Learning
     * Big Data and Biology
     * Survey of Big Data Applications (Difficult as lots of work, tHis is
@@ -763,36 +763,33 @@ Authors:
     chameleoncloud name. Please put the prefix futuresystems: and/or
     chamelon: in the author field accordingly. Please only include if
     you have used the resources. If you do not use the resources for
-    the project or report, ther is no need to include them. 
+    the project or report, ther is no need to include them.
 
     Example::
-      
+
       Gregor von Laszewski
       laszewski@gmail.com
       chameleon: gregor
       futuresystems: gvl
 
-    
-    
-Abstract:                                                                                        
+
+
+Abstract:
        Include in your abstract a short summary of the report or
        project
 
 Proposal:
        Include a section called proposl in which you in detail
        describe wht you will do.
-                                                                                                      
+
 
 Artifacts:
        Include a section Artifacts describing what you will produce
        and where you will store it.
-                                                                                                      
+
        Examples are:
-       
-       * A Survey Paper 
-       * Code on gitlab 
+
+       * A Survey Paper
+       * Code on gitlab
        * Screenshots
        * ...
-
-
-
