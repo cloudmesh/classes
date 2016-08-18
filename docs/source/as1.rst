@@ -1,8 +1,10 @@
-Homework H4: Get your software set up for later lectures and final project
+Additional Programming Assignemts 2
 ===============================================================================
 
-.. Homework HW4 (FirstProgram)
-.. ===============================================================================
+.. todo:: merge this into programming.rst. Remove the hello world
+	  example and only do the system info. Add information such as
+	  processor, Mhz, cores, memory
+	  
 
 In this homework, you are expected to run Python or Java programs on
 FutureSystems or on your local machine. A few examples for beginners will help
@@ -225,14 +227,5 @@ Challenge tasks
    - Submit screentshot images of your web browser executing NumPyTutorial on FutureSystems
 * **Tips: See** `tutorials for Big Data Applications and Analytics Shell on FutureSystems <http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/index.html>`_
 
-Preview Course Examples
--------------------------------------------------------------------------------
 
-* The Elusive Mr.Higgs [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.Higgs>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs>`_]
-* Number Theory [`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-10_Number-Theory>`_]
-* Calculated Dice Roll [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-11_A-Calculated-Dice-Roll>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-11_A-Calculated-Dice-Roll>`_]
-* KNN [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section_7_Unit_19/KNN>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section%205%20e-Commerce%20Unit%2015_%20K'th%20Nearest%20Neighbor/knn>`_]
-
-* PageRank [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Unit-27_PageRank>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Unit%2019_%20PageRank/Page-Rank>`_]
-* KMeans [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Unit-28_KMeans>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Unit%2016_%20Kmeans-%20Software/K-Means>`_]
 
