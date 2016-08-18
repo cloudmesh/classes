@@ -22,6 +22,7 @@ stdenv.mkDerivation {
   name = "python-lesson-1";
   buildInputs = [
     pythonTools
+    pandoc
   ];
   shellHook = ''
     test -d venv || virtualenv venv
