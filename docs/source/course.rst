@@ -1,10 +1,9 @@
 Syllabus
 ========
 
-.. sidebar:: Page Contents
 
-   .. contents::
-      :local:
+.. contents::
+   :local:
 
    
 
@@ -154,13 +153,13 @@ data science education and the benefits of using MOOC's.
 
 
 Slides
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 https://iu.box.com/s/muldo1qkcdlpdeiog3zo
 
 
 Lesson 1 - Introduction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This presents the overview of talk, some trends in computing and data
 and jobs. Gartner's emerging technology hype cycle shows many areas of
@@ -173,7 +172,7 @@ Video: http://youtu.be/kyJxstTivoI
 
 
 Lesson 2: Data Deluge
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We give some amazing statistics for total storage; uploaded
 video and uploaded photos; the social media interactions every minute;
@@ -195,7 +194,7 @@ Video: http://youtu.be/sVNV0NxlQ6A
 
 
 Lesson 3 - Jobs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Jobs abound in clouds and data science. There are documented shortages
 in data science, computer science and the major tech companies
@@ -205,7 +204,7 @@ Video: http://youtu.be/h9u7YeKkHHU
 
 
 Lesson 4 - Industrial Trends
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 Trends include the growing importance of mobile devices and
@@ -243,7 +242,7 @@ Video: http://youtu.be/NBZPQqXKbiw
 
 
 Lesson 7 - Research Model: 4th Paradigm; From Theory to Data driven science?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We introduce the 4 paradigms of scientific research with the
 focus on the new fourth data driven methodology.
@@ -252,7 +251,7 @@ Video: http://youtu.be/2ke459BRBhw
 
 
 Lesson 8 - Data Science Process
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 We introduce the DIKW data to information to knowledge to
@@ -262,7 +261,7 @@ and emerging as new information to input into other transformations.
 Video: http://youtu.be/j9ytOaBoe2k
 
 Lesson 9 - Physics-Informatics Looking for Higgs Particle with Large Hadron Collider LHC
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We look at important particle physics example where the Large
 hadron Collider has observed the Higgs Boson. He shows this discovery
@@ -274,7 +273,7 @@ Video: http://youtu.be/qUB0q4AOavY
 
 
 Lesson 10 - Recommender Systems I
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Many important applications involve matching users, web pages, jobs,
 movies, books, events etc. These are all optimization problems with
@@ -289,7 +288,7 @@ Video: http://youtu.be/Aj5k0Sa7XGQ
 
 
 Lesson 11 - Recommender Systems II
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Continuation of Lesson 10 - Part 2
 
@@ -330,7 +329,7 @@ Video: http://youtu.be/BbW1PFNnKrE
 
 
 Lesson 15 - Data Science Education
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We discuss one reason you are taking this course ~~ Data
 Science as an educational initiative and aspects of its Indiana
@@ -351,7 +350,7 @@ Video: http://youtu.be/x2LuiX8DYLs
 
 
 Lesson 16 - Conclusions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The conclusions highlight clouds, data-intensive methodology,
 employment, data science, MOOC's and never forget the Big Data
@@ -402,11 +401,11 @@ Resources
 
 
 Section 2 - Overview of Data Science: What is Big Data, Data Analytics and X-Informatics?
-----------------------------------------------------------------------------------------------=
+---------------------------------------------------------------------------------------------
 
 
 Section Overview
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The course introduction starts with X-Informatics and its rallying
 cry. The growing number of jobs in data science is highlighted. The
@@ -574,7 +573,7 @@ Resources
 
 
 Unit 4 - Part II: Data Deluge and Scientific Applications and Methodology
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Unit Overview
@@ -676,7 +675,7 @@ Resources
 
 
 Unit 5 - Part III: Clouds and Big Data Processing; Data Science Process and Analytics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unit Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -779,7 +778,7 @@ Video: http://youtu.be/wOSgywqdJDY
 
 
 Resources
-~~~~~~~~~~~~~~-
+~~~~~~~~~~~~~
 
 * CSTI General Assembly 2012, Washington, D.C., USA Technical Activities Coordinating Committee (TACC) Meeting, Data Management, Cloud Computing and the Long Tail of Science October 2012 Dennis Gannon
 * Dan Reed Roger Barga Dennis Gannon Rich Wolskihttp://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf
@@ -797,7 +796,7 @@ Resources
 * http://cra.org/ccc/docs/nitrdsymposium/pdfs/keyes.pdf
 
 Section 3 - X= Health Informatics Case Study
---------------------------------------------------=
+-------------------------------------------------
 
 
 
@@ -832,7 +831,7 @@ Unit 6 - X-Informatics Case Study: Health Informatics
 
 
 Unit Overview
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This section starts by discussing general aspects of Big Data and
 Health including data sizes, different areas including genomics, EBI,
@@ -854,7 +853,7 @@ Visualization.
 
 
 Lesson 1 - Big Data and Health
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This lesson starts with general aspects of Big Data and Health
 including listing subareas where Big data important. Data sizes are
@@ -867,7 +866,7 @@ Video: http://youtu.be/i7volfOVAmY
 
 
 Lesson 2 - Status of Healthcare Today
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This covers trends of costs and type of healthcare with low cost
 genomes and an aging population. Social media and government Brain
@@ -877,7 +876,7 @@ Video: http://youtu.be/tAT3pux4zeg
 
 
 Lesson 3 - Telemedicine (Virtual Health)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This describes increasing use of telemedicine and how we tried and
 failed to do this in 1994.
@@ -886,7 +885,7 @@ Video: http://youtu.be/4JbGim9FFXg
 
 
 Lesson 4 - Big Data and Healthcare Industry
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Summary of an industry survey by GE and Accenture.
 
@@ -894,7 +893,7 @@ Video: http://youtu.be/wgK9JIUiWpQ
 
 
 Lesson 5 - Medical Big Data in the Clouds
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 An impressive exemplar Cloud-based medicine system from Potsdam.
 
@@ -902,13 +901,13 @@ Video: http://youtu.be/-D9mEdM62uY
 
 
 Lesson 6 - Medical image Big Data
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Video: http://youtu.be/aaNplveyKf0
 
 
 Lesson 7 - Clouds and Health
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Video: http://youtu.be/9Whkl_UPS5g
 
@@ -934,7 +933,7 @@ Video: http://youtu.be/bBoHzRjMEmY
 
 
 Lesson 9 - Microsoft Report on Big Data in Health
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This lesson identifies data sources as Clinical Data, Pharma & Life
 Science Data, Patient & Consumer Data, Claims & Cost Data and
@@ -946,7 +945,7 @@ Video: http://youtu.be/PjffvVgj1PE
 
 
 Lesson 10 - EU Report on Redesigning health in Europe for 2020
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This lesson summarizes an EU Report on Redesigning health in Europe for 2020. The power of data is seen as a lever for change in My Data, My decisions; Liberate the data; Connect up everything; Revolutionize health; and Include Everyone removing the current correlation between health and wealth.
 
@@ -954,7 +953,7 @@ Video: http://youtu.be/9mbt_ZSs0iw
 
 
 Lesson 11 - Medicine and the Internet of Things
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Internet of Things will have great impact on health including
 telemedicine and wearables. Examples are given.
@@ -964,7 +963,7 @@ Video: http://youtu.be/QGRfWlvw584
 
 
 Lesson 12 - Extrapolating to 2032
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A study looks at 4 scenarios for healthcare in 2032. Two are positive,
 one middle of the road and one negative.
@@ -973,7 +972,7 @@ Video: http://youtu.be/Qel4gmBxy8U
 
 
 Lesson 13 - Genomics, Proteomics and Information Visualization I
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A study of an Azure application with an Excel frontend and a cloud
 BLAST backend starts this lesson. This is followed by a big data
@@ -991,7 +990,7 @@ Video: http://youtu.be/r1yENstaAUE
 
 
 Lesson 14 - Genomics, Proteomics and Information Visualization II
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This lesson continues the discussion of the COG Protein Universe
 introduced in the last lesson. It is shown how Proteomics clusters are
@@ -1014,7 +1013,7 @@ Video: http://youtu.be/_F1Eo6bfN0w
 
 
 Lesson 15 - Genomics, Proteomics and Information Visualization III
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This lesson continues the discussion of the COG Protein Universe introduced in the last lesson. It is shown how Proteomics clusters are clearly seen in the Universe browser. This motivates a side remark on different clustering methods applied to metagenomics. Then we discuss the Generative Topographic Map GTM method that can be used in dimension reduction when original data is in a metric space and is in this case faster than MDS as GTM computational complexity scales like N not N squared as seen in MDS.
 
@@ -1030,7 +1029,7 @@ Video: http://youtu.be/R1svGGKipkc
 
 
 Resources
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * https://wiki.nci.nih.gov/display/CIP/CIP+Survey+of+Biomedical+Imaging+Archives
 * http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf
@@ -1323,7 +1322,7 @@ Resources
 
 
 Section 5 - Technology Training - Python & FutureSystems (will be updated)
---------------------------------------------------------------------------------------=
+-------------------------------------------------------------------------------------
 
 
 
@@ -2128,7 +2127,7 @@ Video: http://youtu.be/sztqNXJ9P6c
 
 
 Lesson 7 - Requirements and Use Case Subgroup Introduction II
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The focus is to form a community of interest from industry, academia,
 and government, with the goal of developing a consensus list of Big
@@ -3228,7 +3227,7 @@ https://youtu.be/FBn7HpGFNvg
 
 
 Lesson 4 - Recommender Systems in Yahoo Use Case Example II
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is Part 2 of "Recommender Systems in Yahoo Use Case Example"
 
@@ -3245,7 +3244,7 @@ https://youtu.be/HrRJWEF8EfU
 
 
 Lesson 6 - User-based nearest-neighbor collaborative filtering I
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is Part 1.
 
@@ -3358,7 +3357,7 @@ visualizations.
 
 
 Unit 23 - Recommender Systems - K-Nearest Neighbors (Python & Java Track)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unit Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -3865,7 +3864,7 @@ https://youtu.be/h3Rpb0Eyj1c
 
 
 Lesson 2 - Introduction to Cloud Software Architecture: IaaS and PaaS I
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We discuss cloud software for the cloud starting at virtual
 machine management (IaaS) and the broad Platform (middleware)
@@ -3875,7 +3874,7 @@ https://youtu.be/1AnyJYyh490
 
 
 Lesson 3 - Introduction to Cloud Software Architecture: IaaS and PaaS II
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We cover different views as to nature of architecture and
 application for Cloud Computing. Then we discuss cloud software for
@@ -4799,7 +4798,7 @@ https://youtu.be/0egT1FsVGrU
 
 
 Lesson 6 - Earth/Environment/Polar Science data gathered by Sensors
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This lesson gives examples of some sensors in the
 Earth/Environment/Polar Science field. It starts with material from
