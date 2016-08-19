@@ -23,18 +23,11 @@ back in case the homework has been updated.
 As you will be doing some discussions, please PREFACE YOUR POSTS with
 your Full Name.
 
-
-
-External hyperlinks, like Python_.
-
-.. _Python: http://www.python.org/
-
 Homework Submission is done as follows:
 
-  * TBD
-
-  .. todo:: Gregor, Badi, Hyungro we need to figure out how to do
-	  homework in canvas and in gitlab
+#. you will be notified of assignments in Canvas
+#. you will develop your solutions in a gitlab.com repository (see :doc:`gitlab`)
+#. you will submit to canvas a link to your solution in gitlab
 
 
 Week 1
