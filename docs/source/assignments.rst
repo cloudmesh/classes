@@ -31,10 +31,9 @@ External hyperlinks, like Python_.
 
 Homework Submission is done as follows:
 
-  * TBD
-
-  .. todo:: Gregor, Badi, Hyungro we need to figure out how to do
-	  homework in canvas and in gitlab
+#. you will be notified of assignments in Canvas
+#. you will develop your solutions in a gitlab.com repository (see :doc:`gitlab`)
+#. you will submit to canvas a link to your solution in gitlab
 
 
 Week 1
