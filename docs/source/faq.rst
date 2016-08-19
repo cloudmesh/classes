@@ -1,7 +1,7 @@
 FAQ
 ====
 
-I am full time student at IUPUI? Can i take the online version?
+I am full time student at IUPUI? Can I take the online version?
 ---------------------------------------------------------------
 
 I suggest you verify this with the international student office and
@@ -9,6 +9,17 @@ the registrar if you are an international student. There may be some
 restrictions for international students. Also some degree programs may
 have a limit or do not allow to take online classes. It will be up to
 you to verify the requirements with the appropriate administrators.
+
+I am a residential student can I take the online version only?
+--------------------------------------------------------------
+
+If you are an international student or a student of a particular
+degree program restrictions may be placed in if and how many online
+courses you can take. It will be up to you to contact the appropriate
+administrative departments including the international student office
+to verify what is allowed for you. In general international students
+have such restrictions. Please find out what they are and which
+section of the course is appropriate for you. 
 
 
 Do I need to buy a textbook?
@@ -23,6 +34,25 @@ some optional textbooks if you would like to purchase one.
 #. “Doing Data Science: Straight Talk from the Frontline”, Cathy O'Neil,
    Rachel Schutt, O'Reilly Media, ISBN 978-1449358655
 
+Do I need a computer to participate in this class?
+--------------------------------------------------
+
+Obviously if you are an online student you do need a computer. If you
+are a residential student the facilities provided by SOIC will be
+sufficient. However, as you study involves computers, its probably
+important to evaluate if a computer will make your work easier. 
+
+If it comes to what computer to buy we really do not have a good
+recommendation as this depends on your budget. A computer running
+Linux or OSX makes programming probably easier. A windows computer has
+the advantage of also being able to run Word and ppt. A cheap machine
+with multiple cores and sufficient memory (4GB+) is a good idea. A SSD
+will make access to data especially if large data snappy.
+
+For this reason I myself use a Mac, but you probably can get much
+cheaper machines with similar specs elsewhere.
+
+   
 Representative Bibliography
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
