@@ -531,7 +531,7 @@ Running
 
 You can run the code like so:
 
-.. code:: shell
+.. code:: bash
 
       time python python_lesson1.py \
            python_lesson1 \

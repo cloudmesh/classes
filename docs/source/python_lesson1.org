@@ -533,7 +533,7 @@ more space-efficient.
 
   You can run the code like so:
 
-  #+BEGIN_SRC shell
+  #+BEGIN_SRC sh :tangle no
     time python python_lesson1.py \
          python_lesson1 \
          NISTSpecialDatabase4GrayScaleImagesofFIGS/sd04/sd04_md5.lst \
