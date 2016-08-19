@@ -558,7 +558,7 @@ and may not be listed here.
 For the class the support is provided by
 
 * Gregor von Laszewski (PhD)
-* Badi Abdhul-Wahid (PhD)
+* Badi' Abdul-Wahid (PhD)
 * Jerome Mitchell (Teaching Assistant)
 * Prashanth Balasubramani (Teaching Assistant)
 * Hyungro Lee (Teaching Assistant)
