@@ -482,10 +482,12 @@ Puting it all together
 
       if __name__ == '__main__':
 
-          DBFILE = 'scores.db'
-          PLOTFILE = 'plot.png'
 
           prefix = sys.argv[1]
+
+          DBFILE = os.path.join(prefix, 'scores.db')
+          PLOTFILE = os.path.join(prefix, 'plot.png')
+
           md5listpath = sys.argv[2]
           perc_probe = float(sys.argv[3])
           perc_gallery = float(sys.argv[4])
@@ -524,3 +526,22 @@ Puting it all together
 
           plot(DBFILE, nprobes=5, outfile=PLOTFILE)
 
+Running
+=======
+
+You can run the code like so:
+
+.. code:: shell
+
+      time python python_lesson1.py \
+           python_lesson1 \
+           NISTSpecialDatabase4GrayScaleImagesofFIGS/sd04/sd04_md5.lst \
+           0.001 \
+           0.1
+
+This will result in a figure like the following
+
+.. figure:: ./python_lesson1/plot.png
+   :alt: pyl1
+
+   Fingperprint Match scores
