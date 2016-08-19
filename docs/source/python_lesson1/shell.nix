@@ -26,6 +26,9 @@ stdenv.mkDerivation {
   buildInputs = [
     pythonTools
     nbis
+    pkgs.sqlite
+    pkgs.sqlite-interactive
+    pkgs.sqlitebrowser
   ];
   shellHook = ''
     test -d venv || virtualenv venv

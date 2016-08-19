@@ -91,6 +91,15 @@ import subprocess
 import multiprocessing
 #+END_SRC
 
+As for plotting, we'll use =matplotlib=, though there are many other
+alternatives you may choose from.
+
+#+BEGIN_SRC python
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+#+END_SRC
+
 Finally, we'll write the results to a database
 #+BEGIN_SRC python
 import sqlite3
@@ -180,18 +189,39 @@ enough that it could be used to retrieve most files, but we'll default
 it to use the values from above.
 
 #+BEGIN_SRC python
-def prepare_dataset(url=None, sha256=None, prefix='.', skip=False):
-    url = url or DATASET_URL
-    sha256 = sha256 or DATASET_SHA256
-    local = fetch_url(url, sha256=sha256, prefix=prefix, dryRun=skip)
+  def prepare_dataset(url=None, sha256=None, prefix='.', skip=False):
+      url = url or DATASET_URL
+      sha256 = sha256 or DATASET_SHA256
+      local = fetch_url(url, sha256=sha256, prefix=prefix, dryRun=skip)
 
-    if not skip:
-        print ('Extracting', local, 'to', prefix)
-        with zipfile.ZipFile(local, 'r') as zip:
-            zip.extractall(prefix)
+      if not skip:
+          print ('Extracting', local, 'to', prefix)
+          with zipfile.ZipFile(local, 'r') as zip:
+              zip.extractall(prefix)
 
-    name, _ = os.path.splitext(local)
-    return name
+      name, _ = os.path.splitext(local)
+      return name
+
+
+  def locate_paths(path_md5list, prefix):
+      with open(path_md5list) as fd:
+          for line in itertools.imap(str.strip, fd):
+              parts = line.split()
+              if not len(parts) == 2: continue
+              md5sum, path = parts
+              chksum = Checksum(value=md5sum, kind='md5')
+              filepath = os.path.join(prefix, path)
+              yield Path(checksum=chksum, filepath=filepath)
+
+
+  def locate_images(paths):
+
+      def predicate(path):
+          _, ext = os.path.splitext(path.filepath)
+          return ext in ['.png']
+
+      for path in itertools.ifilter(predicate, paths):
+          yield image(id=path.checksum.value, path=path)
 #+END_SRC
 
 
@@ -400,6 +430,52 @@ more space-efficient.
     #+END_SRC
 
 
+* Plotting
+
+  For plotting we'll operation only on the database.  We'll choose a
+  small number of probe images and plot the score between them and the
+  rest of the gallery images.
+
+
+  #+BEGIN_SRC python
+    def plot(dbfile, nprobes=10, outfile='figure.png'):
+
+        conn = sqlite3.connect(dbfile)
+
+        results = pd.read_sql("SELECT probe FROM bozorth3 ORDER BY score LIMIT '%s'" % nprobes,
+                              con=conn)
+
+        shortlabels = mk_short_labels(results.probe)
+
+        plt.figure()
+
+        for i, probe in results.probe.iteritems():
+            stmt = 'SELECT gallery, score FROM bozorth3 WHERE probe = ? ORDER BY gallery DESC'
+            matches = pd.read_sql(stmt, params=(probe,), con=conn)
+            xs = np.arange(len(matches), dtype=np.int)
+            plt.plot(xs, matches.score, label='probe %s' % shortlabels[i])
+
+        plt.ylabel('Score')
+        plt.xlabel('Gallery')
+        plt.legend()
+        plt.savefig(outfile)
+  #+END_SRC
+
+
+  The image ids are long hash strings. In order to minimize the amount
+  of space on the figure the labels take, we provide a helper function
+  to create a short label that still uniquely identifies each probe
+  image in the selected sample.
+
+  #+BEGIN_SRC python
+    def mk_short_labels(series, start=7):
+        for size in xrange(start, len(series[0])):
+            if len(series) == len(set(map(lambda s: s[:size], series))):
+                break
+
+        return map(lambda s: s[:size], series)
+  #+END_SRC
+
 * Main Entry Point
 
   Puting it all together
@@ -407,13 +483,18 @@ more space-efficient.
   #+BEGIN_SRC python
     if __name__ == '__main__':
 
+
         prefix = sys.argv[1]
+
+        DBFILE = os.path.join(prefix, 'scores.db')
+        PLOTFILE = os.path.join(prefix, 'plot.png')
+
         md5listpath = sys.argv[2]
         perc_probe = float(sys.argv[3])
         perc_gallery = float(sys.argv[4])
 
         pool = multiprocessing.Pool()
-        conn = sqlite3.connect('scores.db')
+        conn = sqlite3.connect(DBFILE)
         cursor = conn.cursor()
 
         cursor.execute(bozorth3.sql_stmt_create_table())
@@ -443,4 +524,25 @@ more space-efficient.
 
 
         conn.close()
+
+        plot(DBFILE, nprobes=5, outfile=PLOTFILE)
   #+END_SRC
+
+
+* Running
+
+  You can run the code like so:
+
+  #+BEGIN_SRC sh :tangle no
+    time python python_lesson1.py \
+         python_lesson1 \
+         NISTSpecialDatabase4GrayScaleImagesofFIGS/sd04/sd04_md5.lst \
+         0.001 \
+         0.1
+  #+END_SRC
+
+  This will result in a figure like the following
+
+  #+CAPTION: Fingperprint Match scores
+  #+NAME: fig:pyl1
+  [[./python_lesson1/plot.png]]
