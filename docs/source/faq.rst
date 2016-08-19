@@ -91,3 +91,25 @@ Plagiarism test and resources related to that
 #. `http://turnitin.com/ <http://turnitin.com/>`__ 
 #. `http://www.plagscan.com/plagiarism-check/ <http://www.plagscan.com/plagiarism-check/>`__
 
+How many hours will this course take to work on every week?
+-----------------------------------------------------------
+
+This question can not rely be answered precisely. Typically we have
+2-3 hours video per week. However starting from that its difficult to
+put a real number down as things amy also depend on your background.
+
+* The programming load is modest, but requires knowledge in python
+  which you may have to learn outside of this class.
+
+* Some students have more experience than others, thus it may be
+  possible to put in 6 hours per week overall, but other may have to
+  put in 12 hours, while yet others may enjoy this class so much that
+  they spend a lot more hours.
+
+* We will certainly not stopping you form spending time in the class.
+  It will be up to you to figure out how much time you willl spend.
+
+* Please remem ber that procrastenation will not pay of in this class.
+  
+* The project or term paper will take a significant amount of time.
+
