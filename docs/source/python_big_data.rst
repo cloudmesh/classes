@@ -104,6 +104,17 @@ statistical plots.
 * Original Tutorial: http://stanford.edu/~mwaskom/software/seaborn/tutorial.html
 * Additional Tutorial: https://stanford.edu/~mwaskom/software/seaborn/tutorial/distributions.html
 
+Bokeh
+~~~~~
+
+Bokeh is an interactive visualization library with focus on 
+web browsers for display. Its goal is to provide a similar experience
+as D3.js
+  
+* URL: http://bokeh.pydata.org/
+* Gallery: http://bokeh.pydata.org/en/latest/docs/gallery.html
+  
+  
 Network and Graphs
 ------------------
 
