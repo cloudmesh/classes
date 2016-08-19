@@ -23,12 +23,6 @@ back in case the homework has been updated.
 As you will be doing some discussions, please PREFACE YOUR POSTS with
 your Full Name.
 
-
-
-External hyperlinks, like Python_.
-
-.. _Python: http://www.python.org/
-
 Homework Submission is done as follows:
 
 #. you will be notified of assignments in Canvas
