@@ -73,13 +73,13 @@ Lesson 2 - Overall Introduction
 This course gives an overview of big data from a use case
 (application) point of view noting that big data in field X drives the
 concept of X-Informatics. It covers applications, algorithms and
-infrastructure/technology (cloud computing). There are 3 versions of
-Spring 2014 course: I400 Informatics at IU for Undergraduates, I590
-Informatics at IU for Graduate students, I590 component of non
-residential data science certificate. They differ in homework and
-recommended/required lectures.
+infrastructure/technology (cloud computing). We are provideing a shor
+overview of the Syllabus
 
-Video: http://youtu.be/mbZyXrVX4G4
+
+Video: https://youtu.be/Gpivfx4v5eY
+
+.. Older Video: http://youtu.be/mbZyXrVX4G4
 
 
 Lesson 3 - Course Topics I
