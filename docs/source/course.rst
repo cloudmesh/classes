@@ -63,7 +63,9 @@ are further subdivided into 5-15 minute lessons. It follows
 discussion of mechanics of course with a list of all the units
 offered.
 
-Video: http://youtu.be/GmE9dSQqVIM
+Video: https://youtu.be/CRYz3iTJxRQ
+
+.. Older Video fom previous course: http://youtu.be/GmE9dSQqVIM
 
 Lesson 2 - Overall Introduction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
