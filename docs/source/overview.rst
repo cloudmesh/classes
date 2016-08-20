@@ -133,11 +133,11 @@ Or Telephone:
 
 Please use a headphone with microphone to increase sound quality.
 
-Discussions
------------
+Discussions and communication
+-----------------------------
 
-Online discussions will be conducted in piazza at the following
-URL:
+Online discussions and communication will be conducted in piazza at
+the following URL:
 
 https://piazza.com/iu/fall2016/infoi523/home
 
@@ -145,6 +145,13 @@ Discussions are conducted in clearly marked folders/topics. For
 example "Discussion d1" will be conducted in the piazza folder
 "d1". Students are responsible for posting their content to the right
 folder. No credit will be given if the post has been filed wrongly.
+
+Please note that the communications to instructors can be seen by all
+instructors. In matters that are sensitive, please use
+gvonlasz@indiana.edu. Please, never share your university ID number or
+your social security number or any other sensitive information with us
+either in e-mail or in the discussion lists.
+
 
 Calendar
 ---------
@@ -162,28 +169,28 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 08/22/2016 | 1     |         W1 | | S1 Introduction                  |
 |            |       |            | | S2 Overview                      |
-|            |       |            | | D1, P1                           |
+|            |       |            | | D1_, P1                          |
 +------------+-------+------------+------------------------------------+
 | 08/29/2016 | 2     |         W2 | | S3 Health Info                   |
-|            |       |            | | D2, D3, P2	       	       |
+|            |       |            | | D2_, D3_, P2	       	       |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     |         W3 | | T1 Project and Paper Preparation |
 |            |       |            | | S4 Sport	       	               |
-|            |       |            | | D4	       	               |
+|            |       |            | | D4_	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/12/2016 | 4     |         W4 | | S5 Python, IaaS, FutureSystems   |
-|            |       |            | | D5	       	               |
+|            |       |            | | D5_	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/19/2016 | 5     |         W5 | | S6 Physics	               |
-|            |       |            | | D6	       	               |
+|            |       |            | | D6_	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/26/2016 | 6     |         W6 | | S7 Use Cases        	       |
-|            |       |            | | D7	       	               |
+|            |       |            | | D7_	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/03/2016 | 7     |         W7 | | S8 ???       Viz      	       |
-|            |       |            | | D8	       	               |
+| 10/03/2016 | 7     |         W7 | | S8 Viz (TBD)        	       |
+|            |       |            | | D8_	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/07/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
@@ -192,26 +199,26 @@ All sessions refer to Sections, Discussions and Units published at the
 | 10/09/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
 | 10/10/2016 | 8     |         W8 | | S9 e-Commerce                    |
-|            |       |            | | D9	       	               |
+|            |       |            | | D9_	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/17/2016 | 9     |         W9 | | S10 Clustering	       	       |
-|            |       |            | | D10	       	               |
+|            |       |            | | D10_	       	               |
 |            |       |            | | PRG1	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/24/2016 | 10    |         W10| | S11 Cloud Computing              |
-|            |       |            | | D11	       	               |
+|            |       |            | | D11_	       	               |
 |            |       |            | | P11	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/31/2016 | 11    |         W11| | S13 BigData Technologies         |
-|            |       |            | | D12	       	               |
+|            |       |            | | D12_	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/07/2016 | 12    |         W12| | S13 BigData Technologies         |
-|            |       |            | | D13	       	               |
+|            |       |            | | D13_	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/14/2016 | 13    |         W13| | S14 Sensors                      |
 |            |       |            | | S15 Radar	       	               |
 |            |       |            | | TBD Deep Learning                |
-|            |       |            | | D14	       	               |
+|            |       |            | | D14_	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/20/2016 | 14    | No Lectures| | Thanksgiving break Starts        |
 +------------+-------+------------+------------------------------------+
@@ -224,6 +231,22 @@ All sessions refer to Sections, Discussions and Units published at the
 | 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
 
+.. _D1: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D2: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D3: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D4: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D5: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D6: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D7: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D8: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D9: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D10: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D11: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D12: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D13: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D14: https://piazza.com/class/irqfvh1ctrg2vt
+
+
 Common Mistakes
 ---------------
 
@@ -232,37 +255,6 @@ Common Mistakes
 * Not using the 2 column ACM report template
 * Not using jabref or endnote for References
 
-Email
-----------------------------------------------------------------------
-
-We have set up a ticketing system for this class with Google
-Collaborative Groups e-mails at
-
-* https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help
-
-This mailinglist is for general help and to contact instructors and
-TAs. This mailinglist is shared with all TAs, Dr. von Laszewski, and
-Dr. Abdul-Wahid
-
-You can expect a reply from someone on the course staff within 24
-hours; if you do not receive one, please re-send your email.
-
-We also have a general discussion mailing list at
-
-* https://groups.google.com/forum/#!forum/bigdata-iu-fall-2016
-
-If you are writing with questions about the assignments or course
-material, please ask on the Discussion Forums so that other students
-can benefit from the discussion. For sensitive personal matters, feel
-free to email the instructors directly (laszewski@gmail.com).
-
-Class announcements are send to:
-
-* https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-announce
-
-You will be responsible that you verify that you are subscribed to
-this list. We will not use canvas e-mail system to communicate with
-you and it may only be used initially.
 
 
 Systems Usage
@@ -719,3 +711,26 @@ This page is published at the following locations:
 * OpenEdX: http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
 * Readthedocs: http://bdaafall2016.readthedocs.io/en/latest/
 * Source: https://gitlab.com/cloudmesh/fall2016
+
+Updates
+-------
+
+This page is conveniently managed with git. The location for the
+changes can be found at 
+
+* https://gitlab.com/cloudmesh/fall2016/commits/master
+
+The repository is at
+
+* https://gitlab.com/cloudmesh/fall2016/tree/master
+
+Issues can be submitted at
+
+* https://gitlab.com/cloudmesh/fall2016/issues
+
+Or better use piazza so you notify us in our discussion lists. If you
+detect errors, you could also create a merge request at
+
+* https://gitlab.com/cloudmesh/fall2016/merge_requests
+
+

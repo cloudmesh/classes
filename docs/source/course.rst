@@ -1087,7 +1087,7 @@ Slides
 * https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
 
 
-Section 4 - X= Sports Case Study
+Section 4 - Sports Case Study
 ----------------------------------------------------------------------
 
 
@@ -1560,7 +1560,7 @@ http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/javafil
 Video: http://youtu.be/E1SVmLb_QK8
 
 
-Section 6 - X= Physics Case Study
+Section 6 - Physics Case Study
 ----------------------------------------------------------------------
 
 
@@ -2979,7 +2979,7 @@ Resources
 
 Download files from http://salsahpc.indiana.edu/pviz3/
 
-Section 9 - X= e-Commerce and LifeStyle Case Study
+Section 9 - e-Commerce and LifeStyle Case Study
 ----------------------------------------------------------------------
 
 Section Overview
@@ -4123,7 +4123,7 @@ https://youtu.be/d6A2m4GR-hw
 
 
 Resources
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^
 
 * http://bigdatawg.nist.gov/_uploadfiles/M0311_v2_2965963213.pdf
 * https://dzone.com/articles/hadoop-t-etl
@@ -4136,8 +4136,8 @@ Resources
 * https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf
 * http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
 
-Section 12 - X-Informatics with Web Search and Text Mining and their technologies
----------------------------------------------------------------------------------
+Section 12 - Web Search and Text Mining and their technologies
+--------------------------------------------------------------
 
 
 
@@ -4703,7 +4703,7 @@ Google calculates for any page on the web.
 
 https://youtu.be/8L_72bRLQVk
 
-Section 14 - X = Sensors Case Study
+Section 14 - Sensors Case Study
 ----------------------------------------------------------------------
 
 
