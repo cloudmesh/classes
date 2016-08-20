@@ -12,4 +12,4 @@ Drafts (TODO)
    iaas
    quickstart_openstack
    chameleon
-
+   notebooks/lesson-a
