@@ -11,7 +11,7 @@ ifeq ($(UNAME), CYGWIN_NT-6.3)
 BROWSER=/cygdrive/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
 endif
 
-doc: 
+doc: change
 	cd docs; make html
 
 simple:
@@ -134,4 +134,5 @@ rmtag:
 
 
 change:
-	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" | fgrep -v "Jerome Mitchell" | fgrep -v "Prashanth" | fgrep -v "remove ds store" > CHANGELOG
+	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" | fgrep -v "Jerome Mitchell" | fgrep -v "Prashanth" | fgrep -v "remove ds store" | fgrep -v "Hyungro Lee" | fgrep -v "Badi" > CHANGELOG
+	cp CHANGELOG docs/source/CHANGELOG.rst
