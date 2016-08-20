@@ -25,7 +25,7 @@ your Full Name.
 
 
 
-External hyperlinks, like Python_.
+External hyperlinks, like Python_
 
 .. _Python: http://www.python.org/
 
@@ -44,9 +44,8 @@ Communication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     * Enroll in https://piazza.com/class/irqfvh1ctrg2vt
-    * Enroll in gmail.com
+    * Enroll in g
     * Enroll in gitlab.com
-    * Enroll in class ;-)
 
     * If you do not have a computer on which you can do your
       assignments please apply for an account with Chameleon Cloud.
@@ -59,9 +58,11 @@ Communication
 Video V1
 ^^^^^^^^^
 
-    Do Enrty Survey SURVEY1_ in Section 0
+    Do Entry Survey SURVEY1_ in Section 0
 
     Watch Videos in Section 1: Units 1 and 2
+
+    `Course Page <course.html>`_
 
 .. _SURVEY1: https://docs.google.com/forms/d/148AAxmPqXvoRz_zouYEg5JRgJ14WYDYezDtQUSnsiFg
 
@@ -70,11 +71,15 @@ Video V2
     Watch Videos in Section 2: Units 3, 4, and 5. Note these units
     have overlap with Unit 2 of Section 1.
 
+    `Course Page <course.html>`_
+
 Discussion d1
 ^^^^^^^^^^^^^^
     Consider Discussion d1 after Section 1. Please post on topic "Why
-    is Big Data interesting to`me" and also comment on at least 2
+    is Big Data interesting to me" and also comment on at least 2
     other posts.
+
+    `Discussion <https://piazza.com/iu/fall2016/infoi523/home>`_
 
 Paper p1
 ^^^^^^^^^
@@ -287,7 +292,7 @@ Futuresystems
 	      let us know, so we can make a note of it. Please do not
 	      apply for two accounts. If you accountname is already
 	      taken, please use a different one.
-	  
+
 
 
 ChameleonCloud
@@ -737,7 +742,7 @@ Possible Term Paper Topics:
     * Review of Big Data in Bioinformatics
     * Review of Data visualization including high dimensional data
     * Design of a NoSQL database for a specialized application
-      
+
 ----------------------------------------------------------------------
 
 Project Proposal
