@@ -134,4 +134,4 @@ rmtag:
 
 
 change:
-	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" > CHANGELOG
+	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" | fgrep -v "Jerome Mitchell" | fgrep -v "Prashanth" | fgrep -v "remove ds store" > CHANGELOG
