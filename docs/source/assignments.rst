@@ -72,7 +72,7 @@ Video V1
 
     Watch Videos in Section 1: Units 1 and 2
 
-.. _SURVEY1: https://docs.google.com/forms/d/148AAxmPqXvoRz_zouYEg5JRgJ14WYDYezDtQUSnsiFg
+.. _SURVEY1: https://goo.gl/forms/25LQnC5kUOUmM4DV2
 
 Video V2
 ^^^^^^^^^
