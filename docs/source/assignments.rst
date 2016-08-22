@@ -44,9 +44,9 @@ each other the content of the class. However such groups should not be
 used to copy homework assignments that are intendet for individual
 submissions.
 
-When working in a team, please force yourself to use English as the
-communication language for the team work. This will help those that
-are not native English speakers.
+When working in a team, we recommend that you use English as the
+communication language. This will help those that are not native
+English speakers.
 
 
 Week 1
