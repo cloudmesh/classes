@@ -102,16 +102,20 @@ Discussion d1
     
 Paper p1
 ^^^^^^^^^
+
       This assigment may be conducted as a group with at most two
-      students. There is no need to keep this arrangement during the
-      semester. It will be up to you to find another student, or you can 
-      just do the paper yourself.
+      students. It will be up to you to find another student, or you can 
+      just do the paper yourself. There is no need to keep this team during the
+      semester or the project assignment you can build new
+      teams throughout the semester for different homework. Make sure
+      your team contributes equally.
       
       
       This assignment requires to write a paper that is 2 pages in
       length. Please use the 2 column ACM proceedings Format. Write a
       paper discussing the following topics:
 
+      - Conduct the Discussion homework first.
       - Review what plagiarism is and how to not do it
       - Install jabref and organize your citations with jabref
       - What is Big Data?
