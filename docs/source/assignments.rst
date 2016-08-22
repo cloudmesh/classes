@@ -56,7 +56,7 @@ Communication
     * Register in https://about.gitlab.com/
     * Register in https://www.chameleoncloud.org
 
-Resources R1
+Resources r1
 ^^^^^^^^^^^^
 
     * If you do not have a computer on which you can do your
@@ -90,7 +90,8 @@ Discussion d1
     is Big Data interesting to me" and also comment on at least 2
     other posts.
 
-
+.. _P1:
+    
 Paper p1
 ^^^^^^^^^
       This requires to write a paper that is 2 pages in
@@ -122,6 +123,8 @@ Discussion d3
 	   future? Discuss anything you can share -- areas that are
 	   hot, good online sites etc." and also comment on at least
 	   2 other posts.
+
+.. _P2:
 
 Paper p2
 ^^^^^^^^^
@@ -208,9 +211,9 @@ Term Paper and Term Project Report Assignment T1
        final project. If you are in a team, each student must submit
        an (identical) plan with a notation as to teaming. Note teaming
        can change in actual final project.
-     * You will be over the semester completing this
+     * You will completing this Form 
        `Form <https://docs.google.com/forms/d/1AYEpZxVpsmWLBSa4xuPl7i2l2gGy0L9S2wikEEGW9-I>`_,
-       in which you will be uploading the title,
+       throughout the semester in which you will be uploading the title,
        the team members, and the location of your proposal in gitlab
        with direct URL, description of the artifacts and the final
        project report.
@@ -475,6 +478,8 @@ Discussion d11
 ^^^^^^^^^^^^^^^
           Discuss what you learnt from video you watched in
 	  S11: Parallel Computing and Clouds under `Discussion d11 <https://piazza.com/iu/fall2016/infoi523/home>`_
+
+.. _p11:
 
 Paper p11
 ^^^^^^^^^^

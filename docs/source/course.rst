@@ -5,9 +5,9 @@ Syllabus
 .. contents::
    :local:
 
+.. _S1:
 
-
-Section 1 - Overview
+Section 1 - Introduction
 ----------------------------------------------------------------------
 
 This section has a technical overview of course followed by a broad
@@ -401,7 +401,8 @@ Resources
 * http://iucloudsummerschool.appspot.com/preview
 * https://www.youtube.com/watch?v=M3jcSCA9_hM
 
-
+.. _S2:
+  
 Section 2 - Overview of Data Science: What is Big Data, Data Analytics and X-Informatics?
 ---------------------------------------------------------------------------------------------
 
@@ -797,6 +798,8 @@ Resources
 * http://www.mckinsey.com/mgi/publications/big_data/index.asp
 * http://cra.org/ccc/docs/nitrdsymposium/pdfs/keyes.pdf
 
+.. _S3:
+  
 Section 3 - Health Informatics Case Study
 -----------------------------------------
 
@@ -1088,7 +1091,8 @@ Slides
 
 * https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
 
-
+.. _S4:
+  
 Section 4 - Sports Case Study
 ----------------------------------------------------------------------
 
@@ -1322,7 +1326,8 @@ Resources
 * http://gamesetmap.com/
 * http://www.trakus.com/technology.asp#tNetText
 
-
+.. _S5:
+  
 Section 5 - Technology Training - Python & FutureSystems (will be updated)
 -------------------------------------------------------------------------------------
 
@@ -1561,6 +1566,7 @@ http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/javafil
 
 Video: http://youtu.be/E1SVmLb_QK8
 
+.. _S6:
 
 Section 6 - Physics Case Study
 ----------------------------------------------------------------------
@@ -1968,6 +1974,8 @@ Resources
 * https://en.wikipedia.org/wiki/Central_limit_theorem
 * http://jwork.org/scavis/api/
 * https://en.wikipedia.org/wiki/DataMelt
+
+.. _S7:
 
 Section 7 - Big Data Use Cases Survey
 ----------------------------------------------------------------------
@@ -2837,6 +2845,8 @@ Resources
 
 See previous section
 
+.. _S8:
+
 Section 8 - Technology Training - Plotviz
 ----------------------------------------------------------------------
 
@@ -2980,6 +2990,8 @@ Resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Download files from http://salsahpc.indiana.edu/pviz3/
+
+.. _S9:
 
 Section 9 - e-Commerce and LifeStyle Case Study
 ----------------------------------------------------------------------
@@ -3340,6 +3352,8 @@ there would be faster solution methods.
 
 https://youtu.be/2NqUsDGQDy8
 
+.. _S10:
+   
 Section 10 - Technology Training - kNN & Clustering
 ----------------------------------------------------------------------
 
@@ -3549,7 +3563,7 @@ Resources
 -  http://salsafungiphy.blogspot.com/
 -  https://en.wikipedia.org/wiki/Heuristic
 
-
+.. _S11:
 
 Section 11 - Cloud Computing Technology for Big Data Applications & Analytics (will be updated)
 ------------------------------------------------------------------------------------------------
@@ -4138,6 +4152,8 @@ Resources
 * https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf
 * http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
 
+.. _S12:
+
 Section 12 - Web Search and Text Mining and their technologies
 --------------------------------------------------------------
 
@@ -4422,6 +4438,8 @@ Resources
 * http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html
 * Meeker/Wu May 29 2013 Internet Trends D11 Conference http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013
 
+.. _S13:
+  
 Section 13 - Technology for Big Data Applications and Analytics
 ----------------------------------------------------------------------
 
@@ -4705,6 +4723,8 @@ Google calculates for any page on the web.
 
 https://youtu.be/8L_72bRLQVk
 
+.. _S14:
+
 Section 14 - Sensors Case Study
 ----------------------------------------------------------------------
 
@@ -4860,7 +4880,8 @@ Resources
 * http://www.getransportation.com/railconnect360/rail-landscape
 * http://www.gesoftware.com/sites/default/files/GE-Software-Modernizing-Machine-to-Machine-Interactions.pdf
 
-
+.. _S15:
+  
 Section 15 - Radar Case Study
 ----------------------------------------------------------------------
 
