@@ -25,9 +25,7 @@ As you will be doing some discussions, please PREFACE YOUR POSTS with
 your Full Name.
 
 
-External hyperlinks, like Python_
-
-.. _Python: http://www.python.org/
+External hyperlinks, like `Python <http://www.python.org/>`_
 
 =======
 Homework Submission is done as follows:
