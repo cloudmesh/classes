@@ -170,28 +170,28 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 08/22/2016 | 1     |         W1 | | S1 Introduction                  |
 |            |       |            | | S2 Overview                      |
-|            |       |            | | D1_, P1                          |
+|            |       |            | | d1_, p1                          |
 +------------+-------+------------+------------------------------------+
 | 08/29/2016 | 2     |         W2 | | S3 Health Info                   |
-|            |       |            | | D2_, D3_, P2	       	       |
+|            |       |            | | d2_, d3_, p2	       	       |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     |         W3 | | T1 Project and Paper Preparation |
 |            |       |            | | S4 Sport	       	               |
-|            |       |            | | D4_	       	               |
+|            |       |            | | d4_	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/12/2016 | 4     |         W4 | | S5 Python, IaaS, FutureSystems   |
-|            |       |            | | D5_	       	               |
+|            |       |            | | d5_	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/19/2016 | 5     |         W5 | | S6 Physics	               |
-|            |       |            | | D6_	       	               |
+|            |       |            | | d6_	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/26/2016 | 6     |         W6 | | S7 Use Cases        	       |
-|            |       |            | | D7_	       	               |
+|            |       |            | | d7_	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/03/2016 | 7     |         W7 | | S8 Viz (TBD)        	       |
-|            |       |            | | D8_	       	               |
+|            |       |            | | d8_	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/07/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
@@ -200,26 +200,26 @@ All sessions refer to Sections, Discussions and Units
 | 10/09/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
 | 10/10/2016 | 8     |         W8 | | S9 e-Commerce                    |
-|            |       |            | | D9_	       	               |
+|            |       |            | | d9_	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/17/2016 | 9     |         W9 | | S10 Clustering	       	       |
-|            |       |            | | D10_	       	               |
+|            |       |            | | d10_	       	               |
 |            |       |            | | PRG1	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/24/2016 | 10    |         W10| | S11 Cloud Computing              |
-|            |       |            | | D11_	       	               |
-|            |       |            | | P11	       	               |
+|            |       |            | | d11_	       	               |
+|            |       |            | | p11	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/31/2016 | 11    |         W11| | S13 BigData Technologies         |
-|            |       |            | | D12_	       	               |
+|            |       |            | | d12_	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/07/2016 | 12    |         W12| | S13 BigData Technologies         |
-|            |       |            | | D13_	       	               |
+|            |       |            | | d13_	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/14/2016 | 13    |         W13| | S14 Sensors                      |
 |            |       |            | | S15 Radar	       	               |
 |            |       |            | | TBD Deep Learning                |
-|            |       |            | | D14_	       	               |
+|            |       |            | | d14_	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/20/2016 | 14    | No Lectures| | Thanksgiving break Starts        |
 +------------+-------+------------+------------------------------------+
@@ -232,20 +232,20 @@ All sessions refer to Sections, Discussions and Units
 | 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
 
-.. _D1: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D2: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D3: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D4: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D5: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D6: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D7: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D8: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D9: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D10: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D11: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D12: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D13: https://piazza.com/class/irqfvh1ctrg2vt
-.. _D14: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d1: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d2: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d3: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d4: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d5: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d6: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d7: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d8: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d9: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d10: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d11: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d12: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d13: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d14: https://piazza.com/class/irqfvh1ctrg2vt
 
 
 Common Mistakes
