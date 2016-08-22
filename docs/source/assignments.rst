@@ -183,7 +183,7 @@ Paper p3
 
 	 Although not covered in class big data and IoT could be used
 	 in wildlife, pets, farming, and other related areas. Write a 2
-	 page paper report that covers the topic and addresses
+	 page report that covers the topic and addresses
 
 	 * Which opportunities are there related to animals?
 	 * Which opportunities are there for wildlife preservation?
