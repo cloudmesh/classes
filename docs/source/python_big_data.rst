@@ -120,3 +120,10 @@ Network and Graphs
 
 * igraph: http://www.pythonforsocialscientists.org/t_igraph.html
 * networkx: https://networkx.github.io/
+
+
+
+Examples
+----------------------------------------------------------------------
+
+- :doc:`Fingerprint Analysis <python_lesson1>`
