@@ -70,10 +70,18 @@ Resources r1
 
     * Register in https://portal.futuresystems.org/
 
-Video V1
+
+.. _SURVEY1:
+      
+Survey 1
 ^^^^^^^^^
 
-    Please fill the `Survey <https://goo.gl/forms/25LQnC5kUOUmM4DV2>`_ to let us help you better with the course
+Please fill the `Survey <https://goo.gl/forms/25LQnC5kUOUmM4DV2>`_ to let us help you better with the course
+
+
+      
+Video V1
+^^^^^^^^^
 
     Watch Videos in Section 1: Units 1 and 2 at the Course Page :doc:`course`
 
