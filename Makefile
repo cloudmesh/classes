@@ -11,7 +11,7 @@ ifeq ($(UNAME), CYGWIN_NT-6.3)
 BROWSER=/cygdrive/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
 endif
 
-doc: 
+doc: change
 	cd docs; make html
 
 simple:
@@ -132,35 +132,7 @@ tag:
 rmtag:
 	python setup.py rmtag
 
-######################################################################
-# DOCKER
-######################################################################
 
-docker-mahine:
-	docker-machine create --driver virtualbox cloudmesh
-
-docker-machine-login:
-	eval "$(docker-machine env cloudmesh)"
-
-docker-build:
-	docker build -t laszewski/cloudmesh .
-
-# dockerhub
-docker-login:
-	docker login
-
-docker-push:
-	docker push laszewski/cloudmesh
-
-docker-pull:
-	docker pull laszewski/client
-
-#
-# does not work yet
-#
-docker-run:
-	docker run -t -i cloudmesh /bin/bash
-
-docker-clean-images:
-	bin/docker-clean-images
-
+change:
+	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" | fgrep -v "Jerome Mitchell" | fgrep -v "Prashanth" | fgrep -v "remove ds store" | fgrep -v "Hyungro Lee" | fgrep -v "Badi" > CHANGELOG
+	cp CHANGELOG docs/source/CHANGELOG.rst

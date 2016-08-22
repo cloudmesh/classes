@@ -53,5 +53,5 @@ Big Data Applications and Analytics
 
    edu/contributing
    todo
-    
+   CHANGELOG    
 
