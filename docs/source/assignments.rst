@@ -24,11 +24,17 @@ be posted however in CANVAS. Please visit canvas for these due dates.
 As you will be doing some discussions, please PREFACE YOUR POSTS with
 your Full Name.
 
+
+External hyperlinks, like `Python <http://www.python.org/>`_
+
+=======
 Homework Submission is done as follows:
 
-#. you will be notified of assignments in Canvas with due dates
-#. you will develop your solutions in a gitlab.com repository (see :doc:`gitlab`)
-#. you will submit to canvas a link to your solution in gitlab
+#. All assignments will be posted through Canvas
+#. You will be provided with a GitLab folder once you register at https://about.gitlab.com/
+#. You will complete your assignments and check in your solutions to
+   your gitlab.com repository (see :doc:`gitlab`)
+#. You will submit to canvas a link to your solution in gitlab
 
 Study groups
 ~~~~~~~~~~~~
@@ -44,12 +50,11 @@ Week 1
 
 Communication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. _Discussion: https://piazza.com/class/irqfvh1ctrg2vt
+.. _Piazza: https://piazza.com/class/irqfvh1ctrg2vt
 
-    * Enroll in the Discussion_ list
-    * Enroll in gmail.com
-    * Enroll in gitlab.com
-    * Enroll in class ;-)
+    * Enroll in the class at Piazza_
+    * Register in https://about.gitlab.com/
+    * Register in https://www.chameleoncloud.org
 
 Resources R1
 ^^^^^^^^^^^^
@@ -61,18 +66,17 @@ Resources R1
       CH-818144: https://www.chameleoncloud.org/user/projects/33130/
 
       Note: You will only be allowed to use VMs for a duration of 6
-      hours. 
+      hours.
 
-    * Enroll in futuresystems.org
+    * Register in https://portal.futuresystems.org/
 
 Video V1
 ^^^^^^^^^
 
-    Do Enrty Survey SURVEY1_ in Section 0
+    Please fill the `Survey <https://goo.gl/forms/25LQnC5kUOUmM4DV2>`_ to let us help you better with the course
 
-    Watch Videos in Section 1: Units 1 and 2
+    Watch Videos in Section 1: Units 1 and 2 at the Course Page :doc:`course`
 
-.. _SURVEY1: https://goo.gl/forms/25LQnC5kUOUmM4DV2
 
 Video V2
 ^^^^^^^^^
@@ -81,9 +85,11 @@ Video V2
 
 Discussion d1
 ^^^^^^^^^^^^^^
-    Consider Discussion_ d1 after Section 1. Please post on topic "Why
-    is Big Data interesting to`me" and also comment on at least 2
+
+    Consider `Discussion d1 <https://piazza.com/iu/fall2016/infoi523/home>`_ after Section 1. Please create a new post on the topic "Why
+    is Big Data interesting to me" and also comment on at least 2
     other posts.
+
 
 Paper p1
 ^^^^^^^^^
@@ -111,7 +117,7 @@ Video V3
 
 Discussion d3
 ^^^^^^^^^^^^^^
-           Consider Discussion_ d3 after Section 3. Please post
+           Consider `Discussion d3 <https://piazza.com/iu/fall2016/infoi523/home>`_  after Section 3. Please post
 	   about the topic "Where are the Big Data Jobs now and in
 	   future? Discuss anything you can share -- areas that are
 	   hot, good online sites etc." and also comment on at least
@@ -131,10 +137,10 @@ Paper p2
 References R1
 ^^^^^^^^^^^^^
 
-          It is important that you know how to cite. Please conduct
-	  `Reference Homework <hw_references>`_
+          It is important that you know how to cite. Please see the page
+	  :doc:`n-resources` for guidelines
 
-	  Bonus points: Use Discussion_ d3-r to discuss the topic of
+	  Bonus points: Use `Discussion d3-r <https://piazza.com/iu/fall2016/infoi523/home>`_ to discuss the topic of
 	  crowd sourcing in relationship to big data. Conduct research
 	  if needed.
 
@@ -152,7 +158,7 @@ Video V4
 
 Discussion d4
 ^^^^^^^^^^^^^^
-	   Consider Discussion_ d4 after Section 4 Please post on topic
+	   Consider `Discussion d4 <https://piazza.com/iu/fall2016/infoi523/home>`_ after Section 4 Please post on topic
 	   "Sports and Health Informatics":
 
 	   * Which are most interesting job areas;
@@ -176,15 +182,15 @@ Paper p3
 	 Alternative:
 
 	 Although not covered in class big data and IoT could be used
-	 in wildlife, pets, farming, pets, and other areas. Write a 2
-	 page paper report that covers the topic and addresses also
+	 in wildlife, pets, farming, and other related areas. Write a 2
+	 page paper report that covers the topic and addresses
 
 	 * Which opportunities are there related to animals?
 	 * Which opportunities are there for wildlife preservation?
 	 * What limitations are there?
 	 * How can big data be best used? give concrete examples.
-	 
-	   
+
+
 Term Paper and Term Project Report Assignment T1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
      Please prepare for the selection process for a project or a term paper:
@@ -310,7 +316,7 @@ Futuresystems
 	      let us know, so we can make a note of it. Please do not
 	      apply for two accounts. If you accountname is already
 	      taken, please use a different one.
-	  
+
 
 
 ChameleonCloud
@@ -374,7 +380,7 @@ prg2
 
 Discussion d6
 ^^^^^^^^^^^^^^
-	   Post on Discussion_ d6 after Section 7, the “Physics” topic:
+	   Post on `Discussion d6 <https://piazza.com/iu/fall2016/infoi523/home>`_ after Section 7, the “Physics” topic:
 
 	   * What you found interesting, remarkable or shocking about
 	     the search for Higgs Bosons.
@@ -392,7 +398,7 @@ Video S7
 
 Discussion d7
 ^^^^^^^^^^^^^^
-	   Post on Discussion_ d7 on the topic:
+	   Post on `Discussion d7 <https://piazza.com/iu/fall2016/infoi523/home>`_ on the topic:
 
 	   * Which is the most interesting/important of the 51
 	     use cases in section 7.
@@ -420,7 +426,7 @@ Video S9
 
 Discussion d9
 ^^^^^^^^^^^^^^
-            Post on Discussion_ d9:
+            Post on `Discussion d9 <https://piazza.com/iu/fall2016/infoi523/home>`_:
 
 	    * What are benefits for e-Commerce?
 	    * What are limitations for e-Commerce?
@@ -442,7 +448,7 @@ Video S10
 Discussion d10
 ^^^^^^^^^^^^^^^^^
 
-        Use Discussion_ d10 in case you have questions about prg3
+        Use `Discussion d10 <https://piazza.com/iu/fall2016/infoi523/home>`_ in case you have questions about prg3
 
 Programming prg3
 ^^^^^^^^^^^^^^^^^
@@ -468,7 +474,7 @@ Week 10
 Discussion d11
 ^^^^^^^^^^^^^^^
           Discuss what you learnt from video you watched in
-	  S11: Parallel Computing and Clouds
+	  S11: Parallel Computing and Clouds under `Discussion d11 <https://piazza.com/iu/fall2016/infoi523/home>`_
 
 Paper p11
 ^^^^^^^^^^
@@ -503,7 +509,7 @@ Discussion 11, 12, 13, 14
 	   Discuss what you learnt from videos you watched in last 2
 	   weeks of class Sections 12-15; chose one of the topics: Web
 	   Search and Text mining, Big Data Technology, Sensors, Radar
-	   Eeach Discussion_ about the topic is to be conducted in the
+	   Each `Discussion <https://piazza.com/iu/fall2016/infoi523/home>`_ about the topic is to be conducted in the
 	   week it is introduced. Due dates Friday's.
 
 
@@ -517,7 +523,7 @@ Week 13 - Dec. 2nd
 	  the deadline is mandatory. Late projects and term papers
 	  will receive a 10% grade reduction. Furthermore dependent on
  	  when the project is handed in it may not be graded over the
-	  Christmass break.
+	  Christmas break.
 
 
 Assignment Guidelines
@@ -760,7 +766,7 @@ Possible Term Paper Topics:
     * Review of Big Data in Bioinformatics
     * Review of Data visualization including high dimensional data
     * Design of a NoSQL database for a specialized application
-      
+
 ----------------------------------------------------------------------
 
 Project Proposal
