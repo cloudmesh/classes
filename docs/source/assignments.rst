@@ -102,7 +102,13 @@ Discussion d1
     
 Paper p1
 ^^^^^^^^^
-      This requires to write a paper that is 2 pages in
+      This assigment may be conducted as a group with at most two
+      students. There is no need to keep this arrangement during the
+      semester. It will be up to you to find another student, or you can 
+      just do the paper yourself.
+      
+      
+      This assignment requires to write a paper that is 2 pages in
       length. Please use the 2 column ACM proceedings Format. Write a
       paper discussing the following topics:
 
@@ -114,6 +120,10 @@ Paper p1
       - Why is Big Data uninteresting to me? (Summarize and/or
         contrast positions in the discussion list)
       - What limitations does Big Data Analytics have?
+      - If you work in a team please also discuss different positions
+	if there are any.
+      - Make sure the work is shared and no academic honesty policy
+	has been violated. 
 
 ----------------------------------------------------------------------
 
