@@ -121,8 +121,7 @@ Paper p1
         contrast positions in the discussion list)
       - What limitations does Big Data Analytics have?
       - If you work in a team please also discuss different positions
-	if there are any.
-      - Make sure the work is shared and no academic honesty policy
+	if there are any. Make sure the work is shared and no academic honesty policy
 	has been violated. 
 
 ----------------------------------------------------------------------
