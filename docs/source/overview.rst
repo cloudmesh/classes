@@ -245,7 +245,7 @@ All sessions refer to Sections, Discussions and Units
 .. _d9: https://piazza.com/class/irqfvh1ctrg2vt
 .. _d10: https://piazza.com/class/irqfvh1ctrg2vt
 .. _d11: https://piazza.com/class/irqfvh1ctrg2vt
-.. _d12: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d12: https://piazza.com/class/irqfvh1ctrg2vt?cid=24
 .. _d13: https://piazza.com/class/irqfvh1ctrg2vt
 .. _d14: https://piazza.com/class/irqfvh1ctrg2vt
 
