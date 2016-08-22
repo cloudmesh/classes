@@ -237,17 +237,17 @@ All sessions refer to Sections, Discussions and Units
 .. _d1: https://piazza.com/class/irqfvh1ctrg2vt?cid=10
 .. _d2: https://piazza.com/class/irqfvh1ctrg2vt?cid=11
 .. _d3: https://piazza.com/class/irqfvh1ctrg2vt?cid=12
-.. _d4: https://piazza.com/class/irqfvh1ctrg2vt
-.. _d5: https://piazza.com/class/irqfvh1ctrg2vt
-.. _d6: https://piazza.com/class/irqfvh1ctrg2vt
-.. _d7: https://piazza.com/class/irqfvh1ctrg2vt
-.. _d8: https://piazza.com/class/irqfvh1ctrg2vt
-.. _d9: https://piazza.com/class/irqfvh1ctrg2vt
-.. _d10: https://piazza.com/class/irqfvh1ctrg2vt
-.. _d11: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d4: https://piazza.com/class/irqfvh1ctrg2vt?cid=16
+.. _d5: https://piazza.com/class/irqfvh1ctrg2vt?cid=17
+.. _d6: https://piazza.com/class/irqfvh1ctrg2vt?cid=18
+.. _d7: https://piazza.com/class/irqfvh1ctrg2vt?cid=19
+.. _d8: https://piazza.com/class/irqfvh1ctrg2vt?cid=20
+.. _d9: https://piazza.com/class/irqfvh1ctrg2vt?cid=21
+.. _d10: https://piazza.com/class/irqfvh1ctrg2vt?cid=22
+.. _d11: https://piazza.com/class/irqfvh1ctrg2vt?cid=23
 .. _d12: https://piazza.com/class/irqfvh1ctrg2vt?cid=24
-.. _d13: https://piazza.com/class/irqfvh1ctrg2vt
-.. _d14: https://piazza.com/class/irqfvh1ctrg2vt
+.. _d13: https://piazza.com/class/irqfvh1ctrg2vt?cid=25
+.. _d14: https://piazza.com/class/irqfvh1ctrg2vt?cid=26
 
 
 Common Mistakes
