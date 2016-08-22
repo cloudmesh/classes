@@ -114,7 +114,7 @@ Discussion d3
            Consider Discussion_ d3 after Section 3. Please post
 	   about the topic "Where are the Big Data Jobs now and in
 	   future? Discuss anything you can share -- areas that are
-	   hots, good online sites etc." and also comment on at least
+	   hot, good online sites etc." and also comment on at least
 	   2 other posts.
 
 Paper p2
@@ -176,8 +176,8 @@ Paper p3
 	 Alternative:
 
 	 Although not covered in class big data and IoT could be used
-	 in wildlife, pets, farming, pets, and other areas. Write a 3 paper report
-	 that covers the topic and addresses also 
+	 in wildlife, pets, farming, pets, and other areas. Write a 2
+	 page paper report that covers the topic and addresses also
 
 	 * Which opportunities are there related to animals?
 	 * Which opportunities are there for wildlife preservation?
