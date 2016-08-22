@@ -18,23 +18,31 @@ Friday, other than the first week of the semester where the lectures
 are assigned on Monday (22nd of August) and the first homework is due
 Friday.  Therefore we have not posted explicit due dates, as they are
 obvious from the calendar. You are welcome to work ahead, but check
-back in case the homework has been updated.
+back in case the homework has been updated. Adiitional due dates will
+be posted however in CANVAS. Please visit canvas for these due dates.
 
 As you will be doing some discussions, please PREFACE YOUR POSTS with
 your Full Name.
-
 
 
 External hyperlinks, like Python_
 
 .. _Python: http://www.python.org/
 
+=======
 Homework Submission is done as follows:
 
-  * TBD
+#. you will be notified of assignments in Canvas with due dates
+#. you will develop your solutions in a gitlab.com repository (see :doc:`gitlab`)
+#. you will submit to canvas a link to your solution in gitlab
 
-  .. todo:: Gregor, Badi, Hyungro we need to figure out how to do
-	  homework in canvas and in gitlab
+Study groups
+~~~~~~~~~~~~
+
+It is very common and encouraged to build study groups to discuss with
+each other the content of the class. However such groups should not be
+used to copy homework assignments that are intendet for individual
+submissions.
 
 
 Week 1
@@ -42,10 +50,15 @@ Week 1
 
 Communication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. _Discussion: https://piazza.com/class/irqfvh1ctrg2vt
 
     * Enroll in https://piazza.com/class/irqfvh1ctrg2vt
-    * Enroll in g
+    * Enroll in the Discussion_ list
+    * Enroll in gmail.com
     * Enroll in gitlab.com
+
+Resources R1
+^^^^^^^^^^^^
 
     * If you do not have a computer on which you can do your
       assignments please apply for an account with Chameleon Cloud.
@@ -53,7 +66,10 @@ Communication
 
       CH-818144: https://www.chameleoncloud.org/user/projects/33130/
 
-      Note: You will only be allowed to use VMs for a duration of 6 hours.
+      Note: You will only be allowed to use VMs for a duration of 6
+      hours.
+
+    * Enroll in futuresystems.org
 
 Video V1
 ^^^^^^^^^
@@ -75,8 +91,9 @@ Video V2
 
 Discussion d1
 ^^^^^^^^^^^^^^
-    Consider Discussion d1 after Section 1. Please post on topic "Why
-    is Big Data interesting to me" and also comment on at least 2
+
+    Consider Discussion_ d1 after Section 1. Please post on topic "Why
+    is Big Data interesting to`me" and also comment on at least 2
     other posts.
 
     `Discussion <https://piazza.com/iu/fall2016/infoi523/home>`_
@@ -87,6 +104,8 @@ Paper p1
       length. Please use the 2 column ACM proceedings Format. Write a
       paper discussing the following topics:
 
+      - Review what plagiarism is and how to not do it
+      - Install jabref and organize your citations with jabref
       - What is Big Data?
       - Why is Big Data interesting to me? (Summarize and/or contrast
         positions in the discussion list)
@@ -105,7 +124,7 @@ Video V3
 
 Discussion d3
 ^^^^^^^^^^^^^^
-           Consider Discussion d3 after Section 3. Please post
+           Consider Discussion_ d3 after Section 3. Please post
 	   about the topic "Where are the Big Data Jobs now and in
 	   future? Discuss anything you can share -- areas that are
 	   hots, good online sites etc." and also comment on at least
@@ -128,8 +147,8 @@ References R1
           It is important that you know how to cite. Please conduct
 	  `Reference Homework <hw_references>`_
 
-	  Bonus points: Use Discussion d3-r to discuss the topic of
-	  croud sourcing in relationship to big data. Conduct research
+	  Bonus points: Use Discussion_ d3-r to discuss the topic of
+	  crowd sourcing in relationship to big data. Conduct research
 	  if needed.
 
 
@@ -146,7 +165,7 @@ Video V4
 
 Discussion d4
 ^^^^^^^^^^^^^^
-	   Consider Discussion d4 after Section 4 Please post on topic
+	   Consider Discussion_ d4 after Section 4 Please post on topic
 	   "Sports and Health Informatics":
 
 	   * Which are most interesting job areas;
@@ -166,6 +185,18 @@ Paper p3
 
 	 * Which offer most opportunity on what sports?
 	 * How is Big Data and Little Data applied to the Olympics2016?
+
+	 Alternative:
+
+	 Although not covered in class big data and IoT could be used
+	 in wildlife, pets, farming, pets, and other areas. Write a 3 paper report
+	 that covers the topic and addresses also
+
+	 * Which opportunities are there related to animals?
+	 * Which opportunities are there for wildlife preservation?
+	 * What limitations are there?
+	 * How can big data be best used? give concrete examples.
+
 
 Term Paper and Term Project Report Assignment T1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -356,7 +387,7 @@ prg2
 
 Discussion d6
 ^^^^^^^^^^^^^^
-	   Post on Discussion d6 after Section 7, the “Physics” topic:
+	   Post on Discussion_ d6 after Section 7, the “Physics” topic:
 
 	   * What you found interesting, remarkable or shocking about
 	     the search for Higgs Bosons.
@@ -374,7 +405,7 @@ Video S7
 
 Discussion d7
 ^^^^^^^^^^^^^^
-	   Post on Discussion d7 on the topic:
+	   Post on Discussion_ d7 on the topic:
 
 	   * Which is the most interesting/important of the 51
 	     use cases in section 7.
@@ -402,7 +433,7 @@ Video S9
 
 Discussion d9
 ^^^^^^^^^^^^^^
-            Post on Discussion d9:
+            Post on Discussion_ d9:
 
 	    * What are benefits for e-Commerce?
 	    * What are limitations for e-Commerce?
@@ -424,7 +455,7 @@ Video S10
 Discussion d10
 ^^^^^^^^^^^^^^^^^
 
-        Use Discussion d10 in case you have questions about prg3
+        Use Discussion_ d10 in case you have questions about prg3
 
 Programming prg3
 ^^^^^^^^^^^^^^^^^
@@ -485,7 +516,7 @@ Discussion 11, 12, 13, 14
 	   Discuss what you learnt from videos you watched in last 2
 	   weeks of class Sections 12-15; chose one of the topics: Web
 	   Search and Text mining, Big Data Technology, Sensors, Radar
-	   Eeach Discussion about the topic is to be conducted in the
+	   Eeach Discussion_ about the topic is to be conducted in the
 	   week it is introduced. Due dates Friday's.
 
 

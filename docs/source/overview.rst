@@ -102,7 +102,8 @@ following times dependent on which class you are in:
 Office Hours
 ------------
 
-Office hours will be held every week Tue, Thu 10-11am EST.
+Office hours will be held every week Tue, Thu 10-11am EST. Starting in
+the second week.
 
 These are live sessions that will allow you to interact in group or
 one-on-one with either an instructor or a TA. Office hours sessions
@@ -133,11 +134,11 @@ Or Telephone:
 
 Please use a headphone with microphone to increase sound quality.
 
-Discussions
------------
+Discussions and communication
+-----------------------------
 
-Online discussions will be conducted in piazza at the following
-URL:
+Online discussions and communication will be conducted in piazza at
+the following URL:
 
 https://piazza.com/iu/fall2016/infoi523/home
 
@@ -146,14 +147,21 @@ example "Discussion d1" will be conducted in the piazza folder
 "d1". Students are responsible for posting their content to the right
 folder. No credit will be given if the post has been filed wrongly.
 
+Please note that the communications to instructors can be seen by all
+instructors. In matters that are sensitive, please use
+gvonlasz@indiana.edu. Please, never share your university ID number or
+your social security number or any other sensitive information with us
+either in e-mail or in the discussion lists.
+
+
 Calendar
 ---------
 
-All sessions refer to Sections, Discussions and Units published at the
-`Course Content Web Page <http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/courseware/f712efaeae5a4d6ea2c87a0f34e0720b/>`_
+All sessions refer to Sections, Discussions and Units 
 
 * This document supersedes any assignment dates and comments regarding
   assignments made in videos or stated elsewhere
+* Official and additional announcements will be send via CANVAS  
 * All lectures are assigned Monday's
 * All discussions and homework are due Friday's
 
@@ -162,28 +170,28 @@ All sessions refer to Sections, Discussions and Units published at the
 +------------+-------+------------+------------------------------------+
 | 08/22/2016 | 1     |         W1 | | S1 Introduction                  |
 |            |       |            | | S2 Overview                      |
-|            |       |            | | D1, P1                           |
+|            |       |            | | D1_, P1                          |
 +------------+-------+------------+------------------------------------+
 | 08/29/2016 | 2     |         W2 | | S3 Health Info                   |
-|            |       |            | | D2, D3, P2	       	       |
+|            |       |            | | D2_, D3_, P2	       	       |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     |         W3 | | T1 Project and Paper Preparation |
 |            |       |            | | S4 Sport	       	               |
-|            |       |            | | D4	       	               |
+|            |       |            | | D4_	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/12/2016 | 4     |         W4 | | S5 Python, IaaS, FutureSystems   |
-|            |       |            | | D5	       	               |
+|            |       |            | | D5_	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/19/2016 | 5     |         W5 | | S6 Physics	               |
-|            |       |            | | D6	       	               |
+|            |       |            | | D6_	       	               |
 +------------+-------+------------+------------------------------------+
 | 09/26/2016 | 6     |         W6 | | S7 Use Cases        	       |
-|            |       |            | | D7	       	               |
+|            |       |            | | D7_	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/03/2016 | 7     |         W7 | | S8 ???       Viz      	       |
-|            |       |            | | D8	       	               |
+| 10/03/2016 | 7     |         W7 | | S8 Viz (TBD)        	       |
+|            |       |            | | D8_	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/07/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
@@ -192,26 +200,26 @@ All sessions refer to Sections, Discussions and Units published at the
 | 10/09/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
 | 10/10/2016 | 8     |         W8 | | S9 e-Commerce                    |
-|            |       |            | | D9	       	               |
+|            |       |            | | D9_	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/17/2016 | 9     |         W9 | | S10 Clustering	       	       |
-|            |       |            | | D10	       	               |
+|            |       |            | | D10_	       	               |
 |            |       |            | | PRG1	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/24/2016 | 10    |         W10| | S11 Cloud Computing              |
-|            |       |            | | D11	       	               |
+|            |       |            | | D11_	       	               |
 |            |       |            | | P11	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/31/2016 | 11    |         W11| | S13 BigData Technologies         |
-|            |       |            | | D12	       	               |
+|            |       |            | | D12_	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/07/2016 | 12    |         W12| | S13 BigData Technologies         |
-|            |       |            | | D13	       	               |
+|            |       |            | | D13_	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/14/2016 | 13    |         W13| | S14 Sensors                      |
 |            |       |            | | S15 Radar	       	               |
 |            |       |            | | TBD Deep Learning                |
-|            |       |            | | D14	       	               |
+|            |       |            | | D14_	       	               |
 +------------+-------+------------+------------------------------------+
 | 11/20/2016 | 14    | No Lectures| | Thanksgiving break Starts        |
 +------------+-------+------------+------------------------------------+
@@ -224,6 +232,22 @@ All sessions refer to Sections, Discussions and Units published at the
 | 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
 
+.. _D1: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D2: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D3: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D4: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D5: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D6: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D7: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D8: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D9: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D10: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D11: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D12: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D13: https://piazza.com/class/irqfvh1ctrg2vt
+.. _D14: https://piazza.com/class/irqfvh1ctrg2vt
+
+
 Common Mistakes
 ---------------
 
@@ -231,44 +255,16 @@ Common Mistakes
 * Not using gitlab for homework submission
 * Not using the 2 column ACM report template
 * Not using jabref or endnote for References
-
-Email
-----------------------------------------------------------------------
-
-We have set up a ticketing system for this class with Google
-Collaborative Groups e-mails at
-
-* https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help
-
-This mailinglist is for general help and to contact instructors and
-TAs. This mailinglist is shared with all TAs, Dr. von Laszewski, and
-Dr. Abdul-Wahid
-
-You can expect a reply from someone on the course staff within 24
-hours; if you do not receive one, please re-send your email.
-
-We also have a general discussion mailing list at
-
-* https://groups.google.com/forum/#!forum/bigdata-iu-fall-2016
-
-If you are writing with questions about the assignments or course
-material, please ask on the Discussion Forums so that other students
-can benefit from the discussion. For sensitive personal matters, feel
-free to email the instructors directly (laszewski@gmail.com).
-
-Class announcements are send to:
-
-* https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-announce
-
-You will be responsible that you verify that you are subscribed to
-this list. We will not use canvas e-mail system to communicate with
-you and it may only be used initially.
-
+* Not understanding plagiarism
+* Being in a team where one team member does not perform
+* Violating university policy by doing another students work
+* Not using frequent checkins to gitlab and pushing the commits
+  
 
 Systems Usage
 ----------------------------------------------------------------------
 
-Projects can be executed on Your local computer, a cloud or other
+Projects may be executed on your local computer, a cloud or other
 resources you may have access to. This may include:
 
 * chameleoncloud.org
@@ -282,9 +278,8 @@ resources you may have access to. This may include:
 Term Paper or Project
 ----------------------------------------------------------------------
 
-You have a choice to write a term paper or do a software project using
-our cloud computing test bed. This will constitute to 40% of your
-class grade.
+You have a choice to write a term paper or do a software project. This
+will constitute to **50%** of your class grade.
 
 In case you chose a project your maximum grade could be an
 A+. However, an A+ project must be truly outstanding and include an
@@ -293,10 +288,12 @@ potential quality of being able to be published in a conference.
 
 In case you chose a Term Paper your maximum Grade will be an A-.
 
+Please note that a project includes also writing an project
+report/paper. However the length is a bit lower than for a term paper.
+
+
 Software Project
 ----------------
-
-
 
 In case of a software project, we encourage a group project with up to
 three members.  You can use the
@@ -309,21 +306,28 @@ Code:
     You must deliver the code in gitlab. The code must be compilable
     and a TA may try to replicate to run your code. You MUST avoid
     lengthy install descriptions and everything must be installable
-    from the command line
+    from the command line. We will check submission. All team members
+    must be responsible for one part of the project.
 
 Project Report:
     A report must be produced while using the format discussed in the
     Report Format section. The following length is required:
 
+    * 4 pages, one student in the project
     * 6 pages, one student in the project
-    * 9 pages, one student in the project
-    * 12 pages, one student in the project
+    * 8 pages, one student in the project
 
 Work Breakdown:
     This document is only needed for team projects. A one page PDF
     document describing who did what. It includes pointers to
     the git history that documents the statistics that demonstrate not
     only one student has worked on the project.
+
+    In addition the graders will go into gitlab, which provides a
+    history of checkins to verify each team member has used gitlab to
+    checkin their contributions frequently. E.g. if we find that one
+    of the students has not checked in code or documentation at all,
+    it will be questioned.
 
 License:
     All projects are developed under an open source license such as
@@ -336,12 +340,6 @@ License:
 
 Term Paper
 -----------
-
-Project Report:
-    A report must be produced while using the format discussed
-    in the Report Format section. The following length is required:
-
-    3-4 pages, one student+ in the project​
 
 Teams:
     Up to three people. You can use the
@@ -506,12 +504,12 @@ we will grade the last submission received before the deadline.
 
 Note that paper and project will take a considerable amount of time
 and doing proper time management is a must for this class. Avoid
-starting your project late. Procastenation does not pay off. Late
+starting your project late. Procrastination does not pay off. Late
 Projects or term papers will receive a 10% grade reduction.
 
 * 40% Homework
-* 40% Term Paper
-* 20% Participation/Discussion
+* 50% Term Paper or Project
+* 10% Participation/Discussion
 
 Details about the assignments can be found in the Section :ref:`assignments`.
 
@@ -547,7 +545,6 @@ documents in reference databases for the purpose of detecting
 plagiarism of such papers or codes.
 
 
-
 Instructors
 ------------
 
@@ -555,10 +552,10 @@ The course presents lectures in online form given by the instructors
 listed bellow. Many others have helped making this material available
 and may not be listed here.
 
-For the class the support is provided by
+For this class support is provided by
 
 * Gregor von Laszewski (PhD)
-* Badi Abdhul-Wahid (PhD)
+* Badi' Abdul-Wahid (PhD)
 * Jerome Mitchell (Teaching Assistant)
 * Prashanth Balasubramani (Teaching Assistant)
 * Hyungro Lee (Teaching Assistant)
@@ -596,9 +593,14 @@ the team won the 1st prize in programming design in Indiana. If you like
 to volunteer helping in this effort please contact him.
 
 He offers also the opportunity to work with him on interesting
-independent studies. Current topics include cloudmesh, big data
-benchmarking, scientific impact of supercomputer and data centers.
+independent studies. Current topics include but are not limited to
 
+* cloudmesh
+* big data benchmarking
+* scientific impact of supercomputer and data centers.
+* STEM and other educational activities while using robotics or big data
+   
+Please contact me if you are interested in this.
 
 Dr. Geoffrey Fox
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -719,3 +721,26 @@ This page is published at the following locations:
 * OpenEdX: http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
 * Readthedocs: http://bdaafall2016.readthedocs.io/en/latest/
 * Source: https://gitlab.com/cloudmesh/fall2016
+
+Updates
+-------
+
+This page is conveniently managed with git. The location for the
+changes can be found at 
+
+* https://gitlab.com/cloudmesh/fall2016/commits/master
+
+The repository is at
+
+* https://gitlab.com/cloudmesh/fall2016/tree/master
+
+Issues can be submitted at
+
+* https://gitlab.com/cloudmesh/fall2016/issues
+
+Or better use piazza so you notify us in our discussion lists. If you
+detect errors, you could also create a merge request at
+
+* https://gitlab.com/cloudmesh/fall2016/merge_requests
+
+

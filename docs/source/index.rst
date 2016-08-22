@@ -3,14 +3,9 @@ Big Data Applications and Analytics
 
 * Semester: Fall 2016
 * Link to Read the Docs: http://bdaafall2016.readthedocs.io/en/latest/
-* Link to `OpenEdX <https://soic.scholargrid.org/courses/course-v1:iudatascience+I523-I423-ENG599+FALL_2016/b06e9fb07d424c6f89da89c69f7962bd/>`_
+* Link to `OpenEdX <https://iudatascience.soic.scholargrid.org/courses/course-v1:iudatascience+I523-I423-ENG599+FALL_2016/b06e9fb07d424c6f89da89c69f7962bd/>`_
   
 
-.. toctree::
-   :caption: Todo
-   :maxdepth: 2
-
-   todo
    
 .. toctree::
    :caption: Course
@@ -57,5 +52,6 @@ Big Data Applications and Analytics
    :maxdepth: 2
 
    edu/contributing
+   todo
     
 

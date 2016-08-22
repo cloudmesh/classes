@@ -1,22 +1,31 @@
+Email
+----------------------------------------------------------------------
 
-	     Solve task following instructions in chapters
-	     one and four of
-	     http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
+We have set up a ticketing system for this class with Google
+Collaborative Groups e-mails at
 
-             http://bdaafall2015.readthedocs.org/en/latest/hw4.html
+* https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help
 
+This mailinglist is for general help and to contact instructors and
+TAs. This mailinglist is shared with all TAs, Dr. von Laszewski, and
+Dr. Abdul-Wahid
 
+You can expect a reply from someone on the course staff within 24
+hours; if you do not receive one, please re-send your email.
 
-.. todo:: This section has to be redone
+We also have a general discussion mailing list at
 
-	  Homework Programming:
-		  You can find sample software and paper projects in Chapters
-		  two and three (page 7):
-		  http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
-		  (Links to an external site.)
+* https://groups.google.com/forum/#!forum/bigdata-iu-fall-2016
 
-		  .. note: Prashanth: The content of this file will move to sphinx
+If you are writing with questions about the assignments or course
+material, please ask on the Discussion Forums so that other students
+can benefit from the discussion. For sensitive personal matters, feel
+free to email the instructors directly (laszewski@gmail.com).
 
-		  Java and Python are installed on our cloud as explained in
-		  Unit 11. Here you chose between Python on your laptop, Python
-		  in cloud or Java in cloud.	     
+Class announcements are send to:
+
+* https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-announce
+
+You will be responsible that you verify that you are subscribed to
+this list. We will not use canvas e-mail system to communicate with
+you and it may only be used initially.
