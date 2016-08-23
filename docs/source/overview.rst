@@ -173,7 +173,7 @@ All sessions refer to Sections, Discussions and Units
 | 08/22/2016 | 1     |         W1 | | :ref:`S1`                        |
 |            |       |            | | :ref:`S2`                        |
 |            |       |            | | d1_, :ref:`p1`                   |
-|            |       |            | | :ref:`SURVEY1`                   |
+|            |       |            | | SURVEY1_                         |
 +------------+-------+------------+------------------------------------+
 | 08/29/2016 | 2     |         W2 | | :ref:`S3`                        |
 |            |       |            | | d2_, d3_, :ref:`p2`     	       |
@@ -249,7 +249,7 @@ All sessions refer to Sections, Discussions and Units
 .. _d12: https://piazza.com/class/irqfvh1ctrg2vt?cid=24
 .. _d13: https://piazza.com/class/irqfvh1ctrg2vt?cid=25
 .. _d14: https://piazza.com/class/irqfvh1ctrg2vt?cid=26
-
+.. _SURVEY1: https://goo.gl/forms/25LQnC5kUOUmM4DV2
 
 Common Mistakes
 ---------------

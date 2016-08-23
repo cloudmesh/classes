@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- Clarify that Fridays are new assignments issued which are due the next
+  week Friday. [Gregor von Laszewski]
+
 - Update syllabus video. [Gregor von Laszewski]
 
 
