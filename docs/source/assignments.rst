@@ -116,12 +116,14 @@ Paper p1
       
       
       This assignment requires to write a paper that is 2 pages in
-      length. Please use the 2 column ACM proceedings Format. Write a
-      paper discussing the following topics:
+      length. Please use the 2 column ACM proceedings Format.
 
       - Conduct the Discussion homework first.
       - Review what plagiarism is and how to not do it
       - Install jabref and organize your citations with jabref
+
+      Write a paper discussing the following topics:
+
       - What is Big Data?
       - Why is Big Data interesting to me? (Summarize and/or contrast
         positions in the discussion list)
