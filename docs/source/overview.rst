@@ -162,8 +162,9 @@ All sessions refer to Sections, Discussions and Units
 * This document supersedes any assignment dates and comments regarding
   assignments made in videos or stated elsewhere
 * Official and additional announcements will be send via CANVAS  
-* All lectures are assigned Monday's
-* All discussions and homework are due Friday's
+* All lectures are assigned Friday's
+* All discussions and homework are the Friday after that if not
+  specified otherwise. Precise dates witll be published in CANVAS
 * Note calendar and content may change
   
 +------------+-------+------------+------------------------------------+
