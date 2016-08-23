@@ -138,7 +138,7 @@ Paper p1
       - Review what plagiarism is and how to not do it
       - Install jabref and organize your citations with jabref
 
-      Write a paper discussing the following topics:
+      Write a paper discussing all of the following topics:
 
       - What is Big Data?
       - Why is Big Data interesting to me? (Summarize and/or contrast
