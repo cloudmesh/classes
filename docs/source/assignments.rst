@@ -95,7 +95,8 @@ Resources r1
 Survey 1
 ^^^^^^^^^
 
-Please fill the `Survey <https://goo.gl/forms/25LQnC5kUOUmM4DV2>`_ to let us help you better with the course
+Please fill out the `Survey <https://goo.gl/forms/25LQnC5kUOUmM4DV2>`_
+to let us help you better with the course
 
 
       
