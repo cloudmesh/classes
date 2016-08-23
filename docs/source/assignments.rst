@@ -608,6 +608,10 @@ format. The MSWord template can be found here:
 
 * :download:`paper-report.docx <files/paper-report.docx>`
 
+* The URL is 
+https://gitlab.com/cloudmesh/fall2016/blob/master/docs/source/files/paper-report.docx
+
+
 A LaTeX version can be found at
 
 * https://www.acm.org/publications/proceedings-template
