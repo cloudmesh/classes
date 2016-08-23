@@ -76,7 +76,22 @@ Resources r1
 
 
 .. _SURVEY1:
-      
+
+.. _d1: https://piazza.com/class/irqfvh1ctrg2vt?cid=10
+.. _d2: https://piazza.com/class/irqfvh1ctrg2vt?cid=11
+.. _d3: https://piazza.com/class/irqfvh1ctrg2vt?cid=12
+.. _d4: https://piazza.com/class/irqfvh1ctrg2vt?cid=16
+.. _d5: https://piazza.com/class/irqfvh1ctrg2vt?cid=17
+.. _d6: https://piazza.com/class/irqfvh1ctrg2vt?cid=18
+.. _d7: https://piazza.com/class/irqfvh1ctrg2vt?cid=19
+.. _d8: https://piazza.com/class/irqfvh1ctrg2vt?cid=20
+.. _d9: https://piazza.com/class/irqfvh1ctrg2vt?cid=21
+.. _d10: https://piazza.com/class/irqfvh1ctrg2vt?cid=22
+.. _d11: https://piazza.com/class/irqfvh1ctrg2vt?cid=23
+.. _d12: https://piazza.com/class/irqfvh1ctrg2vt?cid=24
+.. _d13: https://piazza.com/class/irqfvh1ctrg2vt?cid=25
+.. _d14: https://piazza.com/class/irqfvh1ctrg2vt?cid=26
+
 Survey 1
 ^^^^^^^^^
 
@@ -98,7 +113,7 @@ Video V2
 Discussion d1
 ^^^^^^^^^^^^^^
 
-    Consider `Discussion d1 <https://piazza.com/iu/fall2016/infoi523/home>`_ after Section 1. Please create a new post on the topic "Why
+    Consider Discussion d1_ after Section 1. Please create a new post on the topic "Why
     is Big Data interesting to me" and also comment on at least 2
     other posts.
 
@@ -145,7 +160,7 @@ Video V3
 
 Discussion d3
 ^^^^^^^^^^^^^^
-           Consider `Discussion d3 <https://piazza.com/iu/fall2016/infoi523/home>`_  after Section 3. Please post
+           Consider Discussion d3_  after Section 3. Please post
 	   about the topic "Where are the Big Data Jobs now and in
 	   future? Discuss anything you can share -- areas that are
 	   hot, good online sites etc." and also comment on at least
@@ -188,8 +203,9 @@ Video V4
 
 Discussion d4
 ^^^^^^^^^^^^^^
-	   Consider `Discussion d4 <https://piazza.com/iu/fall2016/infoi523/home>`_ after Section 4 Please post on topic
-	   "Sports and Health Informatics":
+
+           Consider Discussion d4_ after Section 4 Please post on
+	   topic "Sports and Health Informatics":
 
 	   * Which are most interesting job areas;
 	   * Which are likely to make most progress
@@ -410,7 +426,7 @@ prg2
 
 Discussion d6
 ^^^^^^^^^^^^^^
-	   Post on `Discussion d6 <https://piazza.com/iu/fall2016/infoi523/home>`_ after Section 7, the “Physics” topic:
+	   Post on Discussion d6_ after Section 7, the “Physics” topic:
 
 	   * What you found interesting, remarkable or shocking about
 	     the search for Higgs Bosons.
@@ -428,7 +444,7 @@ Video S7
 
 Discussion d7
 ^^^^^^^^^^^^^^
-	   Post on `Discussion d7 <https://piazza.com/iu/fall2016/infoi523/home>`_ on the topic:
+	   Post on Discussion d7_ on the topic:
 
 	   * Which is the most interesting/important of the 51
 	     use cases in section 7.
@@ -456,7 +472,7 @@ Video S9
 
 Discussion d9
 ^^^^^^^^^^^^^^
-            Post on `Discussion d9 <https://piazza.com/iu/fall2016/infoi523/home>`_:
+            Post on Discussion d9_:
 
 	    * What are benefits for e-Commerce?
 	    * What are limitations for e-Commerce?
@@ -478,7 +494,7 @@ Video S10
 Discussion d10
 ^^^^^^^^^^^^^^^^^
 
-        Use `Discussion d10 <https://piazza.com/iu/fall2016/infoi523/home>`_ in case you have questions about prg3
+        Use Discussion d10_ in case you have questions about prg3
 
 Programming prg3
 ^^^^^^^^^^^^^^^^^
@@ -504,7 +520,7 @@ Week 10
 Discussion d11
 ^^^^^^^^^^^^^^^
           Discuss what you learnt from video you watched in
-	  S11: Parallel Computing and Clouds under `Discussion d11 <https://piazza.com/iu/fall2016/infoi523/home>`_
+	  S11: Parallel Computing and Clouds under Discussion d11_
 
 .. _p11:
 
