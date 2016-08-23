@@ -65,6 +65,8 @@ offered.
 
 Video: https://youtu.be/CRYz3iTJxRQ
 
+VIdeo with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
+
 .. Older Video fom previous course: http://youtu.be/GmE9dSQqVIM
 
 Lesson 2 - Overall Introduction
@@ -78,6 +80,8 @@ overview of the Syllabus
 
 
 Video: https://youtu.be/Gpivfx4v5eY
+
+Video with cc: https://www.youtube.com/watch?v=aqgDnu5fRMM
 
 .. Older Video: http://youtu.be/mbZyXrVX4G4
 
