@@ -18,7 +18,7 @@ Friday, other than the first week of the semester where the lectures
 are assigned on Monday (22nd of August) and the first homework is due
 Friday.  Therefore we have not posted explicit due dates, as they are
 obvious from the calendar. You are welcome to work ahead, but check
-back in case the homework has been updated. Adiitional due dates will
+back in case the homework has been updated. Additional due dates will
 be posted however in CANVAS. Please visit canvas for these due dates.
 
 As you will be doing some discussions, please PREFACE YOUR POSTS with
@@ -41,7 +41,7 @@ Study groups
 
 It is very common and encouraged to build study groups to discuss with
 each other the content of the class. However such groups should not be
-used to copy homework assignments that are intendet for individual
+used to copy homework assignments that are intended for individual
 submissions.
 
 When working in a team, we recommend that you use English as the
@@ -124,7 +124,7 @@ Discussion d1
 Paper p1
 ^^^^^^^^^
 
-      This assigment may be conducted as a group with at most two
+      This assignment may be conducted as a group with at most two
       students. It will be up to you to find another student, or you can 
       just do the paper yourself. There is no need to keep this team during the
       semester or the project assignment you can build new
@@ -192,7 +192,7 @@ References R1
 	  if needed.
 
 	  Details will be released once all students have signed up
-	  with to piazza and fille dout the survey.
+	  with to piazza and filled out the survey.
 
 
 ----------------------------------------------------------------------
@@ -278,18 +278,18 @@ Programming prg1: Python
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
     Hardware:
-        Identify a suitable hardware enviornment that works
-        for you to conduct the assignments. Firts you must have access
+        Identify a suitable hardware environment that works
+        for you to conduct the assignments. First you must have access
 	to a sufficiently powerful computer. This could be your Laptop
 	or Desktop, or you could get access to machines at IU's
 	computer labs or virtual machines.
 
     Setup Python:
-        Next you will need to setup Python on the machin or
+        Next you will need to setup Python on the machine or
         verify if python works. We recommend that you use python 2.7
         and *NOT* python 3. We recommend that you follow the
 	instructions from python.org and use virtualenv.  As editor
-	we recommend you use Pycharm or Emacs.
+	we recommend you use PyCharm or Emacs.
 
     Alternative:
         Optionally you can use canopy for some of the simpler
@@ -359,11 +359,11 @@ Futuresystems
 	  ASAP. No late assignments will be accepted. If you are late
 	  this assignment will receive 0 points.
 
-	  Which accountname should i use?:
+	  Which account name should i use?:
 	      The same name as you use at IU to register. If you have
 	      had a previous class and used a different name, please
 	      let us know, so we can make a note of it. Please do not
-	      apply for two accounts. If you accountname is already
+	      apply for two accounts. If you account name is already
 	      taken, please use a different one.
 
 
@@ -443,7 +443,7 @@ Week 6
 
 Video S7
 ^^^^^^^^^
-      Watch the videaos in section 7
+      Watch the videos in section 7
 
 Discussion d7
 ^^^^^^^^^^^^^^
@@ -502,12 +502,12 @@ Discussion d10
 Programming prg3
 ^^^^^^^^^^^^^^^^^
 
-         Develop a python program conducting k-means. Use a meanungful
+         Develop a python program conducting k-means. Use a meaningful
          dataset of your choice but not just random. Produce a
          histogram that shows the distance of all points to its
-         nearast cluster center.
+         nearest cluster center.
 
-	 For visualisation you can chose a python library, or you can
+	 For visualization you can chose a python library, or you can
 	 use D3.js and a histogram library based on it, if you are
 	 familiar with it.
 
@@ -530,7 +530,7 @@ Discussion d11
 Paper p11
 ^^^^^^^^^^
      Consider any 5 cloud or cloud like activities from list of 11 below.
-     Describe the ones you chose and expalin what ways they could be used
+     Describe the ones you chose and explain what ways they could be used
      to generate an X-Informatics for some X. Write a 2 page paper wit
      the Paper format from Section :ref:`paper_format`:
 
@@ -637,7 +637,7 @@ A LaTeX version can be found at
 
 however you have to remove the ACM copyright notice in the LaTeX version.
 
-There will be **NO EXEPTION** to this format. In case you are in a
+There will be **NO EXCEPTION** to this format. In case you are in a
 team, you can use either gitlab while collaboratively developing the
 LaTeX document or use MicrosoftOne Drive which allows collaborative
 editing features. All bibliographical entries must be put into a
@@ -671,7 +671,7 @@ Report Checklist:
 * [ ] Have you submitted an additional page that describes who did
   what in the project or report.
 * [ ] Have you spellchecked the paper.
-* [ ] Have you made sure you do not plageurize.
+* [ ] Have you made sure you do not plagiarize.
 
 ----------------------------------------------------------------------
 
@@ -707,10 +707,10 @@ Project Report:
     scientific report should describe a) What you did b) results
     obtained and c) Software documentation including how to install,
     and run it. If c) is longer than half a page and can not be
-    reproduced with shell scripts or easy to folow steps you will get
+    reproduced with shell scripts or easy to follow steps you will get
     points deducted.
 
-Work Breackdown:
+Work Breakdown:
     This document is only needed for team projects. A one page PDF
     document describing who did what. It includes pointers to
     the git history that documents the statistics that demonstrate not
@@ -782,7 +782,7 @@ Deliverables:
 
     * 6 pages, one student in the project
     * 9 pages, two student in the project
-    * 12 pages, three student in the projet
+    * 12 pages, three student in the project
 
     A gitlab repository will contain the paper your wrote in PDF and
     in docx or latex. All images will be in an image folder and be
@@ -833,7 +833,7 @@ Project and Term Paper Proposal Format
 
 Please submit a one page ACM style 2 column paper in which you include
 the following information dependent on if you do a term paper or
-Project. The title will be preceeded with the keyworkd "PROJECT" or "REPORT"
+Project. The title will be proceeded with the keyword "PROJECT" or "REPORT"
 
 A project proposal should contain in the proposal section:
 
@@ -874,8 +874,8 @@ Abstract:
        project
 
 Proposal:
-       Include a section called proposl in which you in detail
-       describe wht you will do.
+       Include a section called proposal in which you in detail
+       describe what you will do.
 
 
 Artifacts:

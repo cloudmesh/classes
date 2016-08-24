@@ -164,7 +164,7 @@ All sessions refer to Sections, Discussions and Units
 * Official and additional announcements will be send via CANVAS  
 * All lectures are assigned Friday's
 * All discussions and homework are the Friday after that if not
-  specified otherwise. Precise dates witll be published in CANVAS
+  specified otherwise. Precise dates will be published in CANVAS
 * Note calendar and content may change
   
 +------------+-------+------------+------------------------------------+
@@ -354,7 +354,7 @@ Term Report:
     Report Format section. The following length is required:
 
     In case you chose the term paper, you or your team will pick a topic
-    relevant for the class. You wil write a high quality scholarly paper
+    relevant for the class. You will write a high quality scholarly paper
     about this topic. The following artifacts are part of the deliverables
     for a term paper. A report must be produced while using the format discussed in the
     Report Format section. The following length is required:

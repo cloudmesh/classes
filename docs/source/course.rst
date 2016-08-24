@@ -67,7 +67,7 @@ Video: https://youtu.be/CRYz3iTJxRQ
 
 VIdeo with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
 
-.. Older Video fom previous course: http://youtu.be/GmE9dSQqVIM
+.. Older Video from previous course: http://youtu.be/GmE9dSQqVIM
 
 Lesson 2 - Overall Introduction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -75,7 +75,7 @@ Lesson 2 - Overall Introduction
 This course gives an overview of big data from a use case
 (application) point of view noting that big data in field X drives the
 concept of X-Informatics. It covers applications, algorithms and
-infrastructure/technology (cloud computing). We are provideing a shor
+infrastructure/technology (cloud computing). We are providing a short
 overview of the Syllabus
 
 
@@ -119,7 +119,7 @@ Video http://youtu.be/pxuyjeLQc54
 Lesson 5 - Course Topics III
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Discussesion of the remainder of the available units:
+Discussion of the remainder of the available units:
 
 * X-Informatics Use Case: Web Search and Text Mining and their technologies
 * Technology for X-Informatics: PageRank
@@ -216,7 +216,7 @@ Lesson 4 - Industrial Trends
 Trends include the growing importance of mobile devices and
 comparative decrease in desktop access, the export of internet
 content, the change in dominant client operating systems, use of
-social media, thriving chinese internet companies.
+social media, thriving Chinese internet companies.
 
 Video: http://youtu.be/EIRIPDYN5nM
 
@@ -956,7 +956,11 @@ Video: http://youtu.be/PjffvVgj1PE
 Lesson 10 - EU Report on Redesigning health in Europe for 2020
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This lesson summarizes an EU Report on Redesigning health in Europe for 2020. The power of data is seen as a lever for change in My Data, My decisions; Liberate the data; Connect up everything; Revolutionize health; and Include Everyone removing the current correlation between health and wealth.
+This lesson summarizes an EU Report on Redesigning health in Europe
+for 2020. The power of data is seen as a lever for change in My Data,
+My decisions; Liberate the data; Connect up everything; Revolutionize
+health; and Include Everyone removing the current correlation between
+health and wealth.
 
 Video: http://youtu.be/9mbt_ZSs0iw
 
@@ -1024,7 +1028,14 @@ Video: http://youtu.be/_F1Eo6bfN0w
 Lesson 15 - Genomics, Proteomics and Information Visualization III
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This lesson continues the discussion of the COG Protein Universe introduced in the last lesson. It is shown how Proteomics clusters are clearly seen in the Universe browser. This motivates a side remark on different clustering methods applied to metagenomics. Then we discuss the Generative Topographic Map GTM method that can be used in dimension reduction when original data is in a metric space and is in this case faster than MDS as GTM computational complexity scales like N not N squared as seen in MDS.
+This lesson continues the discussion of the COG Protein Universe
+introduced in the last lesson. It is shown how Proteomics clusters are
+clearly seen in the Universe browser. This motivates a side remark on
+different clustering methods applied to metagenomics. Then we discuss
+the Generative Topographic Map GTM method that can be used in
+dimension reduction when original data is in a metric space and is in
+this case faster than MDS as GTM computational complexity scales like
+N not N squared as seen in MDS.
 
 Examples are given of GTM including an application to topic models in
 Information Retrieval. Indiana University has developed a
@@ -1905,7 +1916,7 @@ Video: http://youtu.be/9QY5qkQj2Ag
 Lesson 3 - Binomial Distribution
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-We define binomial distribution and give LHC data as an eaxmple of
+We define binomial distribution and give LHC data as an example of
 where this distribution valid.
 
 Video: http://youtu.be/DPd-eVI_twQ
@@ -1915,7 +1926,7 @@ Lesson 4 - Accept-Reject
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We introduce an advanced method ~~ accept/reject ~~ for generating
-random variables with arbitrary distrubitions.
+random variables with arbitrary distributions.
 
 Video: http://youtu.be/GfshkKMKCj8
 
@@ -3726,7 +3737,7 @@ Resources
   Ian Foster, Geoffrey Fox, William Gropp, Ken Kennedy, Linda Torczon,
   and Andy White, Morgan Kaufmann, November 2002.
 * Geoffrey Fox Computational Sciences and Parallelism to appear in
-  Enclyclopedia on Parallel Computing edited by David Padua and
+  Encyclopedia on Parallel Computing edited by David Padua and
   published by
   Springer. http://grids.ucs.indiana.edu/ptliupages/publications/SpringerEncyclopedia_Fox.pdf
 
