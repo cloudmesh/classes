@@ -317,8 +317,8 @@ Project Report:
     Report Format section. The following length is required:
 
     * 4 pages, one student in the project
-    * 6 pages, one student in the project
-    * 8 pages, one student in the project
+    * 6 pages, two students in the project
+    * 8 pages, three students in the project
 
 Work Breakdown:
     This document is only needed for team projects. A one page PDF

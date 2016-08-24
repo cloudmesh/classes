@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Added sharelatex video. [Gregor von Laszewski]
+
 - Clarify that Fridays are new assignments issued which are due the next
   week Friday. [Gregor von Laszewski]
 
