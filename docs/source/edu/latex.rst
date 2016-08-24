@@ -1,6 +1,19 @@
 LaTeX
 =====
 
+.. _sharelatex:
+
+Sharelatex
+----------------------------------------------------------------------
+
+Those that like to use latex, but do not have it installed on their
+computers may want to look at the following video: 
+
+Video: https://youtu.be/PfhSOjuQk8Y
+
+Video with cc: TBD
+
+
 References
 ----------
 

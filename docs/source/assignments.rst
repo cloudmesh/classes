@@ -118,6 +118,7 @@ Discussion d1
     is Big Data interesting to me" and also comment on at least 2
     other posts.
 
+    
 .. _P1:
     
 Paper p1
@@ -186,11 +187,12 @@ References R1
           It is important that you know how to cite. Please see the page
 	  :doc:`n-resources` for guidelines
 
-	  Bonus points: Use `Discussion d3-r <https://piazza.com/iu/fall2016/infoi523/home>`_ to discuss the topic of
+	  Bonus points: Use d2_ to discuss the topic of
 	  crowd sourcing in relationship to big data. Conduct research
 	  if needed.
 
-
+	  Details will be released once all students have signed up
+	  with to piazza and fille dout the survey.
 
 
 ----------------------------------------------------------------------
