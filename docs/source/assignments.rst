@@ -143,14 +143,24 @@ Paper p1
 
       - What is Big Data?
       - Why is Big Data interesting to me? (Summarize and/or contrast
-        positions in the discussion list)
-      - Why is Big Data uninteresting to me? (Summarize and/or
-        contrast positions in the discussion list)
+        positions in the discussion list. This is not just your
+	position. See our note bellow.)
       - What limitations does Big Data Analytics have?
       - If you work in a team please also discuss different positions
 	if there are any. Make sure the work is shared and no academic honesty policy
 	has been violated. 
 
+      Please note that a discussion took place on the discussion list
+      that you need to analyze. It is important that you summarize the
+      position and identify a mechanism to evaluate the students
+      responses. THis could be augmented by classifications and
+      statistics. It is allowable to include them as figures in the
+      paper.
+
+      How to submit the paper will be explained after all or most
+      students are in the discussion list. We anticipate this to be
+      explained in the second week of the semester.
+      
 ----------------------------------------------------------------------
 
 Week 2
