@@ -169,11 +169,12 @@ Week 2
 Video V3
 ^^^^^^^^^
       Please watch Section 3 Unit 6. Total Length 2.5 hours
-
+      
 Discussion d2
 ^^^^^^^^^^^^^^
 
-           What are the limitations of Big Data?
+           What are the limitations of Big Data? Use Discussion d2_ in
+	   the discussion list.
 	   
 Discussion d3
 ^^^^^^^^^^^^^^
