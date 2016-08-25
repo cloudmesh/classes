@@ -15,6 +15,11 @@ New
 - Update syllabus video. [Gregor von Laszewski]
 
 
+Fix
+~~~
+
+- Fix page requirements in project. [Gregor von Laszewski]
+
 Other
 ~~~~~
 

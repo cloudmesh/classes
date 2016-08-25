@@ -291,7 +291,7 @@ potential quality of being able to be published in a conference.
 
 In case you chose a Term Paper your maximum Grade will be an A-.
 
-Please note that a project includes also writing an project
+Please note that a project includes also writing a project
 report/paper. However the length is a bit lower than for a term paper.
 
 
