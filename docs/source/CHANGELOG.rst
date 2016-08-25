@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- Simplified the Paper Homework 1 and clarified the analysis of the data
+  posted in the discussion 1. [Gregor von Laszewski]
+
 - Added sharelatex video. [Gregor von Laszewski]
 
 - Clarify that Fridays are new assignments issued which are due the next

@@ -170,6 +170,11 @@ Video V3
 ^^^^^^^^^
       Please watch Section 3 Unit 6. Total Length 2.5 hours
 
+Discussion d2
+^^^^^^^^^^^^^^
+
+           What are the limitations of Big Data?
+	   
 Discussion d3
 ^^^^^^^^^^^^^^
            Consider Discussion d3_  after Section 3. Please post
