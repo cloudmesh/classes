@@ -322,7 +322,8 @@ Programming prg1: Python
 	      - `Pandas <http://pandas.pydata.org/>`_
 
     Tasks:
-        * Learn Python, E.g. go through the :doc:`python` lesson.
+        * Learn Python, E.g. go through the :doc:`python_big_data`
+          (and :doc:`python_intro` if you need to) lesson.
 	* Use *virtualenv* and *pip* to customize your environment.
 	* Learn `Python pandas <http://pandas.pydata.org/>` and do a
           simple Python application demonstrating:
