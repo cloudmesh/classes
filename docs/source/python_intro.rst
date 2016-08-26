@@ -945,7 +945,7 @@ There is much more to python than what we have covered here:
 	  section of your choice addressing the above topics
 
   
-Exercisee
+Exercises
 ----------------------------------------------------------------------
 
 .. _lab-python-1:
