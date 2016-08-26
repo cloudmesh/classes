@@ -168,7 +168,7 @@ All sessions refer to Sections, Discussions and Units
 * Note calendar and content may change
   
 +------------+-------+------------+------------------------------------+
-| Date       | Week  | Week       | Descriptions                       |
+| Week of    | Week  | Week       | Descriptions                       |
 +------------+-------+------------+------------------------------------+
 | 08/22/2016 | 1     |         W1 | | :ref:`S1`                        |
 |            |       |            | | :ref:`S2`                        |

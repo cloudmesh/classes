@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Clarify duedate of p1. [Gregor von Laszewski]
+
 - Simplified the Paper Homework 1 and clarified the analysis of the data
   posted in the discussion 1. [Gregor von Laszewski]
 
