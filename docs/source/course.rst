@@ -5,7 +5,17 @@ Syllabus
 .. contents::
    :local:
 
+.. _errata:
+      
+Errata
+------
+
+.. note:: You may find that some videos may have a different lesson,
+	  section or unit number. Please ignore this. In case the
+	  content does not correspond to the title, please let us know. 
+
 .. _S1:
+
 
 Section 1 - Introduction
 ----------------------------------------------------------------------
@@ -754,6 +764,10 @@ Lesson 4 - Data Science Process
 We describe and critique one view of the work of a data scientists.
 Then we discuss and contrast 7 views of the process needed to speed
 data through the DIKW pipeline.
+
+.. note:: You may find that some videos may have a different lesson,
+	  section or unit number. Please ignore this. In case the
+	  content does not correspond to the title, please let us know.
 
 Video: http://youtu.be/lpQ-Q9ZidR4
 
