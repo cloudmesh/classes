@@ -562,16 +562,6 @@ Classes
 .. note:: you can earn extra credits if you contribute a section about
 	  classes
 
-Cloudmesh Shell API
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Cloudmesh client is an API that contains a very simple way of calling
-shell commands
-
-.. note:: you can get extra credit if you provide an example and
-	  explain it on how to use the cloudmesh.common.Shell API
-
-	  
 	  
 Writing and Saving Programs
 ----------------------------------------------------------------------
