@@ -193,7 +193,7 @@ At the end of this lesson you will be able to:
 Using Python on FutureSystems
 ----------------------------------------------------------------------
 
-.. note:: This is only important if you use Futuresystems resources.
+.. warning:: This is only important if you use Futuresystems resources.
 	  
 In order to use Python you must log into your FutureSystems account.
 Then at the shell prompt execute the following command::
