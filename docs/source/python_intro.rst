@@ -553,6 +553,9 @@ To do so, we use the keyword return.
     result = computePower(3)
     print(result)
 
+
+.. _doc_python_intro_sec_classes:
+
 Classes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
