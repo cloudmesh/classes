@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- Residential class meetings have been merged into one class on Friday.
+  [Gregor von Laszewski]
+
 - Clarify duedate of p1. [Gregor von Laszewski]
 
 - Simplified the Paper Homework 1 and clarified the analysis of the data

@@ -46,8 +46,10 @@ Please, select the course that is most suitable for your program:
        - 36363 Discussion Friday 9:30 - 10:45AM Informatics East (I2) 150
 
 
-.. warning:: Please note that all discussion sections have been merged
-	     to Friday 9:30 - 10:45AM Informatics East (I2) 150
+.. warning:: Please note that all discussion sections for residential
+	     students have been merged to:
+
+             * Friday 9:30 - 10:45AM Informatics East (I2) 150
 
 	     Please ignore positngs in CANVAS and the REGISTRAR about
 	     this.
