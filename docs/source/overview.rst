@@ -51,7 +51,7 @@ Please, select the course that is most suitable for your program:
 
              * Friday 9:30 - 10:45AM Informatics East (I2) 150
 
-	     Please ignore positngs in CANVAS and the REGISTRAR about
+	     Please ignore postings in CANVAS and the REGISTRAR about
 	     this.
 	     
 From Registrar (however with updated meeting times and location)::
