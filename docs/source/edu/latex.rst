@@ -1,6 +1,30 @@
 LaTeX
 =====
 
+.. _sharelatex:
+
+Sharelatex
+----------------------------------------------------------------------
+
+Those that like to use latex, but do not have it installed on their
+computers may want to look at the following video: 
+
+Video: https://youtu.be/PfhSOjuQk8Y
+
+Video with cc: https://www.youtube.com/watch?v=8IDCGTFXoBs
+
+jabref
+----------------------------------------------------------------------
+
+Jabref is a very simple to use bibliography manager for LaTeX and
+other systems. It cand create a multitude of bibliography file formats
+and allows upload in other online bibliography managers.
+
+Video: https://youtu.be/cMtYOHCHZ3k
+
+Video with cc: TBD
+
+
 References
 ----------
 

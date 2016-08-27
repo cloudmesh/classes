@@ -7,11 +7,33 @@ Changelog
 New
 ~~~
 
+- Fix the duplicated numbering for d2 to only apply as bonus. [Gregor
+  von Laszewski]
+
+- Residential class meetings have been merged into one class on Friday.
+  [Gregor von Laszewski]
+
+- Clarify duedate of p1. [Gregor von Laszewski]
+
+- Simplified the Paper Homework 1 and clarified the analysis of the data
+  posted in the discussion 1. [Gregor von Laszewski]
+
+- Added sharelatex video. [Gregor von Laszewski]
+
+- Clarify that Fridays are new assignments issued which are due the next
+  week Friday. [Gregor von Laszewski]
+
 - Update syllabus video. [Gregor von Laszewski]
 
 
+Fix
+~~~
+
+- Fix page requirements in project. [Gregor von Laszewski]
+
 Other
 ~~~~~
+
 
 
 

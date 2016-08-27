@@ -193,7 +193,7 @@ At the end of this lesson you will be able to:
 Using Python on FutureSystems
 ----------------------------------------------------------------------
 
-.. note:: This is only important if you use Futuresystems resources.
+.. warning:: This is only important if you use Futuresystems resources.
 	  
 In order to use Python you must log into your FutureSystems account.
 Then at the shell prompt execute the following command::
@@ -552,6 +552,9 @@ To do so, we use the keyword return.
 
     result = computePower(3)
     print(result)
+
+
+.. _doc_python_intro_sec_classes:
 
 Classes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -953,7 +956,7 @@ There is much more to python than what we have covered here:
 	  section of your choice addressing the above topics
 
   
-Exercisee
+Exercises
 ----------------------------------------------------------------------
 
 .. _lab-python-1:
@@ -1046,63 +1049,3 @@ be the package called fabric which you can install with::
    pip install fabric
  
 If all goes well the package will be installed.
-
-
-github
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Github is a code repository that allows the development of code in a
-distributed fashion. There are many good tutorials about github.
-
-Some of them can be found on the github Web page. An interactive
-tutorial is for example available at
-
-* https://try.github.io/
-
-A more extensive list of tutorials can be found at 
-
-*
-https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
-
-Important is that you always want to make sure that you want to use
-the git init command and add your Name and e-mail. Do it consistent in
-the machines you use, or your checkins in git (if you do them) do not
-show up in a consistant fashion as a single user. This is done with
-the following commands::
-
-  $ git config --global user.name "John Doe"
-  $ git config --global user.email johndoe@example.com
-
-You can set also the editor with::
-
-  $ git config --global core.editor emacs
-
-More information about a first time setup is documented at::
-
-  $ http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup
-
-To check your setup you can say::
-
-  $ git config --list
-
-gitlab
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Gitlab provides a Git repository management with code reviews, issue
-tracking, activity feeds and wikis. It comes with GitLab CI for
-continuous integration and delivery. It supports public and private
-repositories in the community addition and has fewer space
-restrictions. Thus we are using gitlab for this projet. 
-
-You can find a list of features at https://about.gitlab.com/features/
-
-A comparision to the enterprise level is given here: https://about.gitlab.com/features/#compare
-
-
-
-
-
-
-
-
-

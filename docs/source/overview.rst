@@ -32,9 +32,7 @@ University credit please go to:
 * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I423.shtml
 * http://registrar.indiana.edu/browser/soc4168/ENGR/ENGR-E599.shtml
 
-Please, select the course that is most suitable for your program.
-
-From Student Center:
+Please, select the course that is most suitable for your program:
 
     - INFO-I 423 - BIG DATA APPLS & ANALYTICS
        - 34954 online undergraduate students
@@ -45,9 +43,18 @@ From Student Center:
        - 32866 Data Science majors only
     - ENGR-E 599 - TOPICS IN INTELLIGENT SYSTEMS ENGINEERING
        - 36362 online graduate engineering students
-       - 36363 Discussion Friday 1:00 - 2:15PM Smith Research Center 151E
+       - 36363 Discussion Friday 9:30 - 10:45AM Informatics East (I2) 150
 
-From Registrar::
+
+.. warning:: Please note that all discussion sections for residential
+	     students have been merged to:
+
+             * Friday 9:30 - 10:45AM Informatics East (I2) 150
+
+	     Please ignore postings in CANVAS and the REGISTRAR about
+	     this.
+	     
+From Registrar (however with updated meeting times and location)::
 
     INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
          CLSD *****          ARR             ARR    ARR       Von Laszewski G          50    0    2
@@ -83,7 +90,7 @@ From Registrar::
                  Discussion (DIS)
            VT: BG DATA APPLICATNS & ANLYTCS ISE
               36363 RSTR     01:00P-02:15P   F      HD TBA    Von Laszewski G          25   25    0
-                 Above class meets Smith Research Center Room 151E
+                  Above class meets with INFO-I 523
 
 
 Meeting Times
@@ -91,12 +98,12 @@ Meeting Times
 
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place at the
-following times dependent on which class you are in:
+following time:
 
-* INFO-I 523: Fridays 09:30am - 10:45am EST, I2 150
-* ENGR-E 599: Fridays 01:00pm - 02:15pm EST, Research Center Room 151E
+* Fridays 09:30am - 10:45am EST, I2 150
 
-* For the 100% online students a time will be determined
+For the 100% online students a time will be determined, but we will
+start with the office hour times.
 
 
 Office Hours
@@ -162,37 +169,40 @@ All sessions refer to Sections, Discussions and Units
 * This document supersedes any assignment dates and comments regarding
   assignments made in videos or stated elsewhere
 * Official and additional announcements will be send via CANVAS  
-* All lectures are assigned Monday's
-* All discussions and homework are due Friday's
+* All lectures are assigned Friday's
+* All discussions and homework are the Friday after that if not
+  specified otherwise. Precise dates will be published in CANVAS
 * Note calendar and content may change
-  
+
+
 +------------+-------+------------+------------------------------------+
-| Date       | Week  | Week       | Descriptions                       |
+| Assigned   | Wk    |   Week     | Descriptions                       |
 +------------+-------+------------+------------------------------------+
-| 08/22/2016 | 1     |         W1 | | :ref:`S1`                        |
-|            |       |            | | :ref:`S2`                        |
-|            |       |            | | d1_, :ref:`p1`                   |
-|            |       |            | | :ref:`SURVEY1`                   |
+| 08/22/2016 | 1     |         W1 | | :ref:`S1` (due in W1)            |
+|            |       |            | | :ref:`S2` (due in W1)            |
+|            |       |            | | d1_       (due in W1)            |
+|            |       |            | | SURVEY1_  (due in W1)            |
+|            |       |            | | :ref:`p1` (due in W2)            |
 +------------+-------+------------+------------------------------------+
-| 08/29/2016 | 2     |         W2 | | :ref:`S3`                        |
-|            |       |            | | d2_, d3_, :ref:`p2`     	       |
+| 08/26/2016 | 2     |         W2 | | :ref:`S3`                        |
+|            |       |            | | d3_, :ref:`p2`     	       |
 +------------+-------+------------+------------------------------------+
-| 09/05/2016 | 3     | Holiday    | | Labor Day                        |
-+------------+-------+------------+------------------------------------+
-| 09/05/2016 | 3     |         W3 | | T1 Project and Paper Preparation |
+| 09/02/2016 | 3     |         W3 | | T1 Project and Paper Preparation |
 |            |       |            | | :ref:`S4`	       	               |
 |            |       |            | | d4_	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/12/2016 | 4     |         W4 | | :ref:`S5`                        |
+| 09/05/2016 | 3     | Holiday    | | Labor Day                        |
++------------+-------+------------+------------------------------------+
+| 09/09/2016 | 4     |         W4 | | :ref:`S5`                        |
 |            |       |            | | d5_	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/19/2016 | 5     |         W5 | | :ref:`S6` 	               |
+| 09/16/2016 | 5     |         W5 | | :ref:`S6` 	               |
 |            |       |            | | d6_	       	               |
 +------------+-------+------------+------------------------------------+
-| 09/26/2016 | 6     |         W6 | | :ref:`S7`          	       |
+| 09/23/2016 | 6     |         W6 | | :ref:`S7`          	       |
 |            |       |            | | d7_	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/03/2016 | 7     |         W7 | | TBD: :ref:`S8`        	       |
+| 09/30/2016 | 7     |         W7 | | TBD: :ref:`S8`        	       |
 |            |       |            | | d8_	       	               |
 +------------+-------+------------+------------------------------------+
 | 10/07/2016 | 7     | No Lectures| | No Lectures                      |
@@ -201,24 +211,24 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 10/09/2016 | 7     | No Lectures| | No Lectures                      |
 +------------+-------+------------+------------------------------------+
-| 10/10/2016 | 8     |         W8 | | :ref:`S9`                        |
+| 10/07/2016 | 8     |         W8 | | :ref:`S9`                        |
 |            |       |            | | d9_	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/17/2016 | 9     |         W9 | | :ref:`S10`	       	       |
+| 10/14/2016 | 9     |         W9 | | :ref:`S10`	       	       |
 |            |       |            | | d10_	       	               |
 |            |       |            | | PRG1	       	               |
 +------------+-------+------------+------------------------------------+
-| 10/24/2016 | 10    |         W10| | :ref:`S11`                       |
+| 10/21/2016 | 10    |         W10| | :ref:`S11`                       |
 |            |       |            | | d11_	       	               |
 |            |       |            | | :ref:`p11`       	               |
 +------------+-------+------------+------------------------------------+
-| 10/31/2016 | 11    |         W11| | :ref:`S12`                       |
+| 10/28/2016 | 11    |         W11| | :ref:`S12`                       |
 |            |       |            | | d12_	       	               |
 +------------+-------+------------+------------------------------------+
-| 11/07/2016 | 12    |         W12| | :ref:`S13`                       |
+| 11/04/2016 | 12    |         W12| | :ref:`S13`                       |
 |            |       |            | | d13_	       	               |
 +------------+-------+------------+------------------------------------+
-| 11/14/2016 | 13    |         W13| | :ref:`S14`                       |
+| 11/11/2016 | 13    |         W13| | :ref:`S14`                       |
 |            |       |            | | :ref:`S15`      	               |
 |            |       |            | | TBD Deep Learning                |
 |            |       |            | | d14_	       	               |
@@ -248,7 +258,7 @@ All sessions refer to Sections, Discussions and Units
 .. _d12: https://piazza.com/class/irqfvh1ctrg2vt?cid=24
 .. _d13: https://piazza.com/class/irqfvh1ctrg2vt?cid=25
 .. _d14: https://piazza.com/class/irqfvh1ctrg2vt?cid=26
-
+.. _SURVEY1: https://goo.gl/forms/25LQnC5kUOUmM4DV2
 
 Common Mistakes
 ---------------
@@ -290,7 +300,7 @@ potential quality of being able to be published in a conference.
 
 In case you chose a Term Paper your maximum Grade will be an A-.
 
-Please note that a project includes also writing an project
+Please note that a project includes also writing a project
 report/paper. However the length is a bit lower than for a term paper.
 
 
@@ -316,8 +326,8 @@ Project Report:
     Report Format section. The following length is required:
 
     * 4 pages, one student in the project
-    * 6 pages, one student in the project
-    * 8 pages, one student in the project
+    * 6 pages, two students in the project
+    * 8 pages, three students in the project
 
 Work Breakdown:
     This document is only needed for team projects. A one page PDF
@@ -353,7 +363,7 @@ Term Report:
     Report Format section. The following length is required:
 
     In case you chose the term paper, you or your team will pick a topic
-    relevant for the class. You wil write a high quality scholarly paper
+    relevant for the class. You will write a high quality scholarly paper
     about this topic. The following artifacts are part of the deliverables
     for a term paper. A report must be produced while using the format discussed in the
     Report Format section. The following length is required:

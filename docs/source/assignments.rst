@@ -18,7 +18,7 @@ Friday, other than the first week of the semester where the lectures
 are assigned on Monday (22nd of August) and the first homework is due
 Friday.  Therefore we have not posted explicit due dates, as they are
 obvious from the calendar. You are welcome to work ahead, but check
-back in case the homework has been updated. Adiitional due dates will
+back in case the homework has been updated. Additional due dates will
 be posted however in CANVAS. Please visit canvas for these due dates.
 
 As you will be doing some discussions, please PREFACE YOUR POSTS with
@@ -41,8 +41,12 @@ Study groups
 
 It is very common and encouraged to build study groups to discuss with
 each other the content of the class. However such groups should not be
-used to copy homework assignments that are intendet for individual
+used to copy homework assignments that are intended for individual
 submissions.
+
+When working in a team, we recommend that you use English as the
+communication language. This will help those that are not native
+English speakers.
 
 
 Week 1
@@ -72,11 +76,27 @@ Resources r1
 
 
 .. _SURVEY1:
-      
+
+.. _d1: https://piazza.com/class/irqfvh1ctrg2vt?cid=10
+.. _d2: https://piazza.com/class/irqfvh1ctrg2vt?cid=11
+.. _d3: https://piazza.com/class/irqfvh1ctrg2vt?cid=12
+.. _d4: https://piazza.com/class/irqfvh1ctrg2vt?cid=16
+.. _d5: https://piazza.com/class/irqfvh1ctrg2vt?cid=17
+.. _d6: https://piazza.com/class/irqfvh1ctrg2vt?cid=18
+.. _d7: https://piazza.com/class/irqfvh1ctrg2vt?cid=19
+.. _d8: https://piazza.com/class/irqfvh1ctrg2vt?cid=20
+.. _d9: https://piazza.com/class/irqfvh1ctrg2vt?cid=21
+.. _d10: https://piazza.com/class/irqfvh1ctrg2vt?cid=22
+.. _d11: https://piazza.com/class/irqfvh1ctrg2vt?cid=23
+.. _d12: https://piazza.com/class/irqfvh1ctrg2vt?cid=24
+.. _d13: https://piazza.com/class/irqfvh1ctrg2vt?cid=25
+.. _d14: https://piazza.com/class/irqfvh1ctrg2vt?cid=26
+
 Survey 1
 ^^^^^^^^^
 
-Please fill the `Survey <https://goo.gl/forms/25LQnC5kUOUmM4DV2>`_ to let us help you better with the course
+Please fill out the `Survey <https://goo.gl/forms/25LQnC5kUOUmM4DV2>`_
+to let us help you better with the course
 
 
       
@@ -94,27 +114,53 @@ Video V2
 Discussion d1
 ^^^^^^^^^^^^^^
 
-    Consider `Discussion d1 <https://piazza.com/iu/fall2016/infoi523/home>`_ after Section 1. Please create a new post on the topic "Why
+    Consider Discussion d1_ after Section 1. Please create a new post on the topic "Why
     is Big Data interesting to me" and also comment on at least 2
     other posts.
 
+    
 .. _P1:
     
 Paper p1
 ^^^^^^^^^
-      This requires to write a paper that is 2 pages in
-      length. Please use the 2 column ACM proceedings Format. Write a
-      paper discussing the following topics:
 
+      This assignment may be conducted as a group with at most two
+      students. It will be up to you to find another student, or you can 
+      just do the paper yourself. There is no need to keep this team during the
+      semester or the project assignment you can build new
+      teams throughout the semester for different homework. Make sure
+      your team contributes equally.
+      
+      
+      This assignment requires to write a paper that is 2 pages in
+      length. Please use the 2 column ACM proceedings Format.
+
+      - Conduct the Discussion homework first.
       - Review what plagiarism is and how to not do it
       - Install jabref and organize your citations with jabref
+
+      Write a paper discussing all of the following topics:
+
       - What is Big Data?
       - Why is Big Data interesting to me? (Summarize and/or contrast
-        positions in the discussion list)
-      - Why is Big Data uninteresting to me? (Summarize and/or
-        contrast positions in the discussion list)
+        positions in the discussion list. This is not just your
+	position. See our note bellow.)
       - What limitations does Big Data Analytics have?
+      - If you work in a team please also discuss different positions
+	if there are any. Make sure the work is shared and no academic honesty policy
+	has been violated. 
 
+      Please note that a discussion took place on the discussion list
+      that you need to analyze. It is important that you summarize the
+      position and identify a mechanism to evaluate the students
+      responses. THis could be augmented by classifications and
+      statistics. It is allowable to include them as figures in the
+      paper.
+
+      How to submit the paper will be explained after all or most
+      students are in the discussion list. We anticipate this to be
+      explained in the second week of the semester.
+      
 ----------------------------------------------------------------------
 
 Week 2
@@ -123,10 +169,10 @@ Week 2
 Video V3
 ^^^^^^^^^
       Please watch Section 3 Unit 6. Total Length 2.5 hours
-
+      	   
 Discussion d3
 ^^^^^^^^^^^^^^
-           Consider `Discussion d3 <https://piazza.com/iu/fall2016/infoi523/home>`_  after Section 3. Please post
+           Consider Discussion d3_  after Section 3. Please post
 	   about the topic "Where are the Big Data Jobs now and in
 	   future? Discuss anything you can share -- areas that are
 	   hot, good online sites etc." and also comment on at least
@@ -151,11 +197,12 @@ References R1
           It is important that you know how to cite. Please see the page
 	  :doc:`n-resources` for guidelines
 
-	  Bonus points: Use `Discussion d3-r <https://piazza.com/iu/fall2016/infoi523/home>`_ to discuss the topic of
+	  Bonus points: Use d2_ to discuss the topic of
 	  crowd sourcing in relationship to big data. Conduct research
 	  if needed.
 
-
+	  Details will be released once all students have signed up
+	  with to piazza and filled out the survey.
 
 
 ----------------------------------------------------------------------
@@ -169,8 +216,9 @@ Video V4
 
 Discussion d4
 ^^^^^^^^^^^^^^
-	   Consider `Discussion d4 <https://piazza.com/iu/fall2016/infoi523/home>`_ after Section 4 Please post on topic
-	   "Sports and Health Informatics":
+
+           Consider Discussion d4_ after Section 4 Please post on
+	   topic "Sports and Health Informatics":
 
 	   * Which are most interesting job areas;
 	   * Which are likely to make most progress
@@ -240,18 +288,18 @@ Programming prg1: Python
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
     Hardware:
-        Identify a suitable hardware enviornment that works
-        for you to conduct the assignments. Firts you must have access
+        Identify a suitable hardware environment that works
+        for you to conduct the assignments. First you must have access
 	to a sufficiently powerful computer. This could be your Laptop
 	or Desktop, or you could get access to machines at IU's
 	computer labs or virtual machines.
 
     Setup Python:
-        Next you will need to setup Python on the machin or
+        Next you will need to setup Python on the machine or
         verify if python works. We recommend that you use python 2.7
         and *NOT* python 3. We recommend that you follow the
 	instructions from python.org and use virtualenv.  As editor
-	we recommend you use Pycharm or Emacs.
+	we recommend you use PyCharm or Emacs.
 
     Alternative:
         Optionally you can use canopy for some of the simpler
@@ -268,7 +316,8 @@ Programming prg1: Python
 	      - `Pandas <http://pandas.pydata.org/>`_
 
     Tasks:
-        * Learn Python, E.g. go through the :doc:`python` lesson.
+        * Learn Python, E.g. go through the :doc:`python_big_data`
+          (and :doc:`python_intro` if you need to) lesson.
 	* Use *virtualenv* and *pip* to customize your environment.
 	* Learn `Python pandas <http://pandas.pydata.org/>` and do a
           simple Python application demonstrating:
@@ -321,11 +370,11 @@ Futuresystems
 	  ASAP. No late assignments will be accepted. If you are late
 	  this assignment will receive 0 points.
 
-	  Which accountname should i use?:
+	  Which account name should i use?:
 	      The same name as you use at IU to register. If you have
 	      had a previous class and used a different name, please
 	      let us know, so we can make a note of it. Please do not
-	      apply for two accounts. If you accountname is already
+	      apply for two accounts. If you account name is already
 	      taken, please use a different one.
 
 
@@ -391,7 +440,7 @@ prg2
 
 Discussion d6
 ^^^^^^^^^^^^^^
-	   Post on `Discussion d6 <https://piazza.com/iu/fall2016/infoi523/home>`_ after Section 7, the “Physics” topic:
+	   Post on Discussion d6_ after Section 7, the “Physics” topic:
 
 	   * What you found interesting, remarkable or shocking about
 	     the search for Higgs Bosons.
@@ -405,11 +454,11 @@ Week 6
 
 Video S7
 ^^^^^^^^^
-      Watch the videaos in section 7
+      Watch the videos in section 7
 
 Discussion d7
 ^^^^^^^^^^^^^^
-	   Post on `Discussion d7 <https://piazza.com/iu/fall2016/infoi523/home>`_ on the topic:
+	   Post on Discussion d7_ on the topic:
 
 	   * Which is the most interesting/important of the 51
 	     use cases in section 7.
@@ -437,7 +486,7 @@ Video S9
 
 Discussion d9
 ^^^^^^^^^^^^^^
-            Post on `Discussion d9 <https://piazza.com/iu/fall2016/infoi523/home>`_:
+            Post on Discussion d9_:
 
 	    * What are benefits for e-Commerce?
 	    * What are limitations for e-Commerce?
@@ -459,17 +508,17 @@ Video S10
 Discussion d10
 ^^^^^^^^^^^^^^^^^
 
-        Use `Discussion d10 <https://piazza.com/iu/fall2016/infoi523/home>`_ in case you have questions about prg3
+        Use Discussion d10_ in case you have questions about prg3
 
 Programming prg3
 ^^^^^^^^^^^^^^^^^
 
-         Develop a python program conducting k-means. Use a meanungful
+         Develop a python program conducting k-means. Use a meaningful
          dataset of your choice but not just random. Produce a
          histogram that shows the distance of all points to its
-         nearast cluster center.
+         nearest cluster center.
 
-	 For visualisation you can chose a python library, or you can
+	 For visualization you can chose a python library, or you can
 	 use D3.js and a histogram library based on it, if you are
 	 familiar with it.
 
@@ -485,14 +534,14 @@ Week 10
 Discussion d11
 ^^^^^^^^^^^^^^^
           Discuss what you learnt from video you watched in
-	  S11: Parallel Computing and Clouds under `Discussion d11 <https://piazza.com/iu/fall2016/infoi523/home>`_
+	  S11: Parallel Computing and Clouds under Discussion d11_
 
 .. _p11:
 
 Paper p11
 ^^^^^^^^^^
      Consider any 5 cloud or cloud like activities from list of 11 below.
-     Describe the ones you chose and expalin what ways they could be used
+     Describe the ones you chose and explain what ways they could be used
      to generate an X-Informatics for some X. Write a 2 page paper wit
      the Paper format from Section :ref:`paper_format`:
 
@@ -589,13 +638,17 @@ format. The MSWord template can be found here:
 
 * :download:`paper-report.docx <files/paper-report.docx>`
 
+* The URL is 
+https://gitlab.com/cloudmesh/fall2016/blob/master/docs/source/files/paper-report.docx
+
+
 A LaTeX version can be found at
 
 * https://www.acm.org/publications/proceedings-template
 
 however you have to remove the ACM copyright notice in the LaTeX version.
 
-There will be **NO EXEPTION** to this format. In case you are in a
+There will be **NO EXCEPTION** to this format. In case you are in a
 team, you can use either gitlab while collaboratively developing the
 LaTeX document or use MicrosoftOne Drive which allows collaborative
 editing features. All bibliographical entries must be put into a
@@ -629,7 +682,7 @@ Report Checklist:
 * [ ] Have you submitted an additional page that describes who did
   what in the project or report.
 * [ ] Have you spellchecked the paper.
-* [ ] Have you made sure you do not plageurize.
+* [ ] Have you made sure you do not plagiarize.
 
 ----------------------------------------------------------------------
 
@@ -665,10 +718,10 @@ Project Report:
     scientific report should describe a) What you did b) results
     obtained and c) Software documentation including how to install,
     and run it. If c) is longer than half a page and can not be
-    reproduced with shell scripts or easy to folow steps you will get
+    reproduced with shell scripts or easy to follow steps you will get
     points deducted.
 
-Work Breackdown:
+Work Breakdown:
     This document is only needed for team projects. A one page PDF
     document describing who did what. It includes pointers to
     the git history that documents the statistics that demonstrate not
@@ -740,7 +793,7 @@ Deliverables:
 
     * 6 pages, one student in the project
     * 9 pages, two student in the project
-    * 12 pages, three student in the projet
+    * 12 pages, three student in the project
 
     A gitlab repository will contain the paper your wrote in PDF and
     in docx or latex. All images will be in an image folder and be
@@ -791,7 +844,7 @@ Project and Term Paper Proposal Format
 
 Please submit a one page ACM style 2 column paper in which you include
 the following information dependent on if you do a term paper or
-Project. The title will be preceeded with the keyworkd "PROJECT" or "REPORT"
+Project. The title will be proceeded with the keyword "PROJECT" or "REPORT"
 
 A project proposal should contain in the proposal section:
 
@@ -832,8 +885,8 @@ Abstract:
        project
 
 Proposal:
-       Include a section called proposl in which you in detail
-       describe wht you will do.
+       Include a section called proposal in which you in detail
+       describe what you will do.
 
 
 Artifacts:
