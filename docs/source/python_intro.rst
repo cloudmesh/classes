@@ -555,20 +555,21 @@ To do so, we use the keyword return.
 
 Classes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A class is a way to take a grouping of functions and data and place them inside a container, so you can access them with the . (dot) operator.
 
-.. note:: you can earn extra credits if you contribute a section about
-	  classes
+.. code:: python
 
-Cloudmesh Shell API
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        class Fruit(object):
 
-Cloudmesh client is an API that contains a very simple way of calling
-shell commands
+        def __init__(self):
+            self.tangerine = "are organge-colored citrus fruit, which is closely related to a mandarin organge"
 
-.. note:: you can get extra credit if you provide an example and
-	  explain it on how to use the cloudmesh.common.Shell API
+        def apple(self):
+            print "Apples are rich in antioxidants, flavanoids, and dietary fiber!"
 
-	  
+    thing = Fruit()
+    thing.apple()
+    print thing.tangerine
 	  
 Writing and Saving Programs
 ----------------------------------------------------------------------
