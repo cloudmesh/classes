@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- Fix the duplicated numbering for d2 to only apply as bonus. [Gregor
+  von Laszewski]
+
 - Residential class meetings have been merged into one class on Friday.
   [Gregor von Laszewski]
 
