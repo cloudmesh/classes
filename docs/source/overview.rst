@@ -32,9 +32,7 @@ University credit please go to:
 * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I423.shtml
 * http://registrar.indiana.edu/browser/soc4168/ENGR/ENGR-E599.shtml
 
-Please, select the course that is most suitable for your program.
-
-From Student Center:
+Please, select the course that is most suitable for your program:
 
     - INFO-I 423 - BIG DATA APPLS & ANALYTICS
        - 34954 online undergraduate students
@@ -45,9 +43,16 @@ From Student Center:
        - 32866 Data Science majors only
     - ENGR-E 599 - TOPICS IN INTELLIGENT SYSTEMS ENGINEERING
        - 36362 online graduate engineering students
-       - 36363 Discussion Friday 1:00 - 2:15PM Smith Research Center 151E
+       - 36363 Discussion Friday 9:30 - 10:45AM Informatics East (I2) 150
 
-From Registrar::
+
+.. warning:: Please note that all discussion sections have been merged
+	     to Friday 9:30 - 10:45AM Informatics East (I2) 150
+
+	     Please ignore positngs in CANVAS and the REGISTRAR about
+	     this.
+	     
+From Registrar (however with updated meeting times and location)::
 
     INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
          CLSD *****          ARR             ARR    ARR       Von Laszewski G          50    0    2
@@ -83,7 +88,7 @@ From Registrar::
                  Discussion (DIS)
            VT: BG DATA APPLICATNS & ANLYTCS ISE
               36363 RSTR     01:00P-02:15P   F      HD TBA    Von Laszewski G          25   25    0
-                 Above class meets Smith Research Center Room 151E
+                  Above class meets with INFO-I 523
 
 
 Meeting Times
@@ -91,12 +96,12 @@ Meeting Times
 
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place at the
-following times dependent on which class you are in:
+following time:
 
-* INFO-I 523: Fridays 09:30am - 10:45am EST, I2 150
-* ENGR-E 599: Fridays 01:00pm - 02:15pm EST, Research Center Room 151E
+* Fridays 09:30am - 10:45am EST, I2 150
 
-* For the 100% online students a time will be determined
+For the 100% online students a time will be determined, but we will
+start with the office hour times.
 
 
 Office Hours
