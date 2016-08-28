@@ -144,14 +144,20 @@ provides a very good quasy WYSIWYG environment.
 LyX
 ~~~
 
-I have made very good experiences with Lyx, however it is not widespread
-and you must assure that the team you work with uses it consistently and
-that you all use the same version.
+I have made very good experiences with Lyx. You must assure that the
+team you work with uses it consistently and that you all use the same version.
 
-Using the ACM templates
+Using the ACM templates is documented here:
 
-http://jack-kelly.com/getting_latex_and_lyx_to_use_acm_sig_class_file
-\*\ https://wiki.lyx.org/Examples/AcmSiggraph
+* https://wiki.lyx.org/Examples/AcmSiggraph
+
+On OSX it is important that you have a new version of LaTeX and Lyx
+installed. As it takes up quite some space, you ma want to delete
+older versions. The new version of LyX comes with the acmsigplan
+template included. However on OSX and other platforms the .cls file is
+not included by default. However the above link clearly documents how
+to fix this.
+
 
 How to edit Bibliographies?
 ---------------------------
