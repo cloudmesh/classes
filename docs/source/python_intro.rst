@@ -558,10 +558,21 @@ To do so, we use the keyword return.
 
 Classes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A class is a way to take a grouping of functions and data and place them inside a container, so you can access them with the . (dot) operator.
 
-.. note:: you can earn extra credits if you contribute a section about
-	  classes
+.. code:: python
 
+        class Fruit(object):
+
+        def __init__(self):
+            self.tangerine = "are organge-colored citrus fruit, which is closely related to a mandarin organge"
+
+        def apple(self):
+            print "Apples are rich in antioxidants, flavanoids, and dietary fiber!"
+
+    thing = Fruit()
+    thing.apple()
+    print thing.tangerine
 	  
 Writing and Saving Programs
 ----------------------------------------------------------------------
