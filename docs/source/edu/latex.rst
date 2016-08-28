@@ -13,6 +13,18 @@ Video: https://youtu.be/PfhSOjuQk8Y
 
 Video with cc: https://www.youtube.com/watch?v=8IDCGTFXoBs
 
+Overleaf
+----------------------------------------------------------------------
+
+Overleaf.com is a collaborative latex editor. In its free version it
+has a very limited disk space. However it comes with a Rich text mode
+that allows you to edit the document in a preview mode. The free templates
+provided do not include ACM template, put you are allowed to use the
+OSA template.
+
+Features of overleaf are documented at: https://www.overleaf.com/benefits
+
+
 jabref
 ----------------------------------------------------------------------
 
