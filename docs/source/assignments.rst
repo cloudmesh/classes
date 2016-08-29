@@ -153,9 +153,10 @@ Paper p1
       Please note that a discussion took place on the discussion list
       that you need to analyze. It is important that you summarize the
       position and identify a mechanism to evaluate the students
-      responses. THis could be augmented by classifications and
-      statistics. It is allowable to include them as figures in the
-      paper.
+      responses. One option is that your discussion could be augmented
+      by classifications and statistics. It is allowable to include
+      them as figures in the paper. Others may just highlight selected
+      points raised by the course members.
 
       You will be submitting the paper in gitlab.com as discussed in:
 
