@@ -127,9 +127,10 @@ they are missing, please create them. You will see::
   paper3
   bib1
 
-To submit the homework you nedd to first clone the repository (read
+To submit the homework you need to first clone the repository (read
 the git manual about what cloning means)::
 
+   git clone https://gitlab.com/
 
 Your homework for submission should be organized according to folders in your clone repository. To submit a particular assignment, you must first add it using::
 
@@ -139,16 +140,11 @@ Afterwards, commit it using::
 
   git commit -m "message describing your submission"
 
-Then push it remote repository using::
+Then push it to your remote repository using::
 
   git push
  
-
 If you want to modify your submission, you only need to::
-
-  git add <the file you want to update>
-
-then::
 
   git commit -m "message relating to updated file"
 
