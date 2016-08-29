@@ -95,8 +95,8 @@ if __name__ == '__main__':
         sys.exit(1)
 
 
-    df = pd.read_csv(opts.csv, header=0).dropna()
-    repo_names = df['Class ID']
+    df = pd.read_csv(opts.csv, header=0)
+    repo_names = df['Class ID'].dropna()
     repos = [os.path.join(opts.url_prefix, name) for name in repo_names]
     pool = multiprocessing.Pool()
 
