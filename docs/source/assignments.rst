@@ -153,14 +153,26 @@ Paper p1
       Please note that a discussion took place on the discussion list
       that you need to analyze. It is important that you summarize the
       position and identify a mechanism to evaluate the students
-      responses. THis could be augmented by classifications and
-      statistics. It is allowable to include them as figures in the
-      paper.
+      responses. One option is that your discussion could be augmented
+      by classifications and statistics. It is allowable to include
+      them as figures in the paper. Others may just highlight selected
+      points raised by the course members.
 
-      How to submit the paper will be explained after all or most
-      students are in the discussion list. We anticipate this to be
-      explained in the second week of the semester.
-      
+      You will be submitting the paper in gitlab.com as discussed in:
+
+      http://bdaafall2016.readthedocs.io/en/latest/gitlab.html
+
+      YOu will be uploading the following files into the prg1
+      directory::
+
+	paper1.tex
+	sample.bib
+	paper1.pdf
+
+      After you upload the files, please go to Canvas and fill out the
+      form for the paper1 submission. YOu will have to upload the
+      appropriate links.
+	
 ----------------------------------------------------------------------
 
 Week 2
