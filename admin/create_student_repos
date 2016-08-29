@@ -3,6 +3,7 @@
 """
 Create repositories on GitLab.
 Requires: pandas, requests, GitLab API Access Token (under your profile settings)
+Input: csv file from of the IDS sheet from the GDrive gradebook
 """
 
 __EXAMPLE_USAGE__ = """
@@ -46,7 +47,7 @@ def getopts():
     p.add_argument('-t', '--token', help='GitLab API token for authentication')
     p.add_argument('-o', '--output_file', default='repoids.csv', help='File to write mapping from repo id to repo name')
     p.add_argument('students', metavar='CSV', nargs='+',
-                   help="CSV files exported from the 'Grades' on Canvas for each course")
+                   help="CSV file exported from the 'IDS' sheet of the 'gradebook' on Google Drive")
 
     return p.parse_args()
 
@@ -58,13 +59,13 @@ if __name__ == '__main__':
 
     # header is line the first line (line 0)
     # line 1 contains additional comments that should be skipped
-    frames = [pd.read_csv(path, header=0, skiprows=[1]) for path in opts.students]
+    frames = [pd.read_csv(path, header=0) for path in opts.students]
     students = pd.concat(frames)
-    students = students.drop_duplicates(subset='ID')
+    students = students.drop_duplicates(subset='Student')
 
     # for testing and debugging
-    students = students[:2]
-
+    # students = students[:2]
+    print students
 
     headers = {'PRIVATE-TOKEN': opts.token}
 
@@ -93,7 +94,7 @@ if __name__ == '__main__':
 
     print 'Creating projects'
     for _,student in students.iterrows():
-        repo = student['SIS Login ID']
+        repo = student['Class ID']
         print '...', repo
 
         p = copy.copy(params)
@@ -103,6 +104,7 @@ if __name__ == '__main__':
             'description': '{} repository for {}'.format(opts.classname, student['Student']),
         })
         j = json.dumps(p)
+
         r = requests.post(PROJECTS_URL, data=p, headers=headers)
         if r.status_code == 201:
             repoid = r.json()['id']
@@ -110,3 +112,4 @@ if __name__ == '__main__':
             repoids.write('{},{}\n'.format(repoid,repo))
         elif r.status_code == 400:
             print '...', 'Repository', repo, 'already exists, skipping'
+
