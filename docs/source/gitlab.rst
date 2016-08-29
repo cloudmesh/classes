@@ -133,29 +133,29 @@ the git manual about what cloning means)::
 
 Your homework for submission should be organized according to folders in your clone repository. To submit a particular assignment, you must first add it using::
 
-git add <name of the file you are adding>
+  git add <name of the file you are adding>
 
 Afterwards, commit it using::
 
-git commit -m "message describing your submission"
+  git commit -m "message describing your submission"
 
 Then push it remote repository using::
 
-git push
+  git push
  
 
 If you want to modify your submission, you only need to::
 
-git add <the file you want to update>
+  git add <the file you want to update>
 
 then::
 
-git commit -m "message relating to updated file"
+  git commit -m "message relating to updated file"
 
 afterwards::
 
-git push
+  git push
   
 *If you lose any documents locally, you can retrieve them from your remote reposirtory using::
 
-git pull
+  git pull
