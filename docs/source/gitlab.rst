@@ -37,6 +37,11 @@ In canvas a list is published that shows your Homework-ID (HID). The
 HID will be the name of the directory in gitlab that you will be using
 to submit your homework.
 
+Upload your public key
+----------------------
+
+Please upload your public key to the repository.
+
 
 How to configere Git and Gitlab	for your computer
 -------------------------------------------------
@@ -132,7 +137,9 @@ the git manual about what cloning means)::
 
    git clone https://gitlab.com/cloudmesh/fall2016/HID
 
-Your homework for submission should be organized according to folders in your clone repository. To submit a particular assignment, you must first add it using::
+Your homework for submission should be organized according to folders
+in your clone repository. To submit a particular assignment, you must
+first add it using::
 
   git add <name of the file you are adding>
 
