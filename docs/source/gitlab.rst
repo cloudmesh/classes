@@ -148,12 +148,14 @@ If you want to modify your submission, you only need to::
 
 git add <the file you want to update>
 
-then
+then::
 
 git commit -m "message relating to updated file"
 
-afterwards
+afterwards::
 
 git push
   
+*If you lose any documents locally, you can retrieve them from your remote reposirtory using::
 
+git pull
