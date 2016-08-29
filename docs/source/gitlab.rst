@@ -152,6 +152,6 @@ afterwards::
 
   git push
   
-*If you lose any documents locally, you can retrieve them from your remote reposirtory using::
+*If you lose any documents locally, you can retrieve them from your remote repository using::
 
   git pull
