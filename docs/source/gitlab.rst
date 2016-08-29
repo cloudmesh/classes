@@ -116,7 +116,7 @@ For our example this would result in::
 
 .. note: naturally if you try the F16-DG-9999 URL it will not work ;-)
 
-You will find in the director subdirectories for your homework. If
+You will find in the directory subdirectories for your homework. If
 they are missing, please create them. You will see::
 
   prg1
@@ -131,6 +131,29 @@ To submit the homework you nedd to first clone the repository (read
 the git manual about what cloning means)::
 
 
+Your homework for submission should be organized according to folders in your clone repository. To submit a particular assignment, you must first add it using::
 
+git add <name of the file you are adding>
 
+Afterwards, commit it using::
+
+git commit -m "message describing your submission"
+
+Then push it remote repository using::
+
+git push
  
+
+If you want to modify your submission, you only need to::
+
+git add <the file you want to update>
+
+then
+
+git commit -m "message relating to updated file"
+
+afterwards
+
+git push
+  
+
