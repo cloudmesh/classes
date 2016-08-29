@@ -130,7 +130,7 @@ they are missing, please create them. You will see::
 To submit the homework you need to first clone the repository (read
 the git manual about what cloning means)::
 
-   git clone 
+   git clone https://gitlab.com/cloudmesh/fall2016/HID
 
 Your homework for submission should be organized according to folders in your clone repository. To submit a particular assignment, you must first add it using::
 
