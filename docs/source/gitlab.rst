@@ -86,18 +86,6 @@ if they use PyCharm or ther tools that have build in git suport.
 
 
 
-Git Resources
-----------------------------------------------------------------------
-
-If you are unfamiliar with git you may find these resources useful:
-
-- `Pro Git book <https://git-scm.com/book/en/v2>`_
-- `Official tutorial <https://git-scm.com/docs/gittutorial>`_
-- `Official documentation <https://git-scm.com/doc>`_
-- `TutorialsPoint on git <http://www.tutorialspoint.com/git/>`_
-- `Try git online <https://try.github.io>`_
-- `GitHub resources for learning git <https://help.github.com/articles/good-resources-for-learning-git-and-github/>`_
-- `Atlassian tutorials for git <https://www.atlassian.com/git/tutorials/>`_
 
 Submission of homework
 ----------------------
@@ -159,6 +147,23 @@ afterwards::
 
   git push
   
-*If you lose any documents locally, you can retrieve them from your remote repository using::
+*If you lose any documents locally, you can retrieve them from your remote reposirtory using::
 
   git pull
+
+
+Git Resources
+----------------------------------------------------------------------
+
+If you are unfamiliar with git you may find these resources useful:
+
+- `Pro Git book <https://git-scm.com/book/en/v2>`_
+- `Official tutorial <https://git-scm.com/docs/gittutorial>`_
+- `Official documentation <https://git-scm.com/doc>`_
+- `TutorialsPoint on git <http://www.tutorialspoint.com/git/>`_
+- `Try git online <https://try.github.io>`_
+- `GitHub resources for learning git
+  <https://help.github.com/articles/good-resources-for-learning-git-and-github/>`_
+  Note: this is for github and not for gitlab. However as it is for gt
+  the only thing you have to do is replace hihub, for gitlab.
+- `Atlassian tutorials for git <https://www.atlassian.com/git/tutorials/>`_  
