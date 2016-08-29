@@ -157,10 +157,21 @@ Paper p1
       statistics. It is allowable to include them as figures in the
       paper.
 
-      How to submit the paper will be explained after all or most
-      students are in the discussion list. We anticipate this to be
-      explained in the second week of the semester.
-      
+      You will be submitting the paper in gitlab.com as discussed in:
+
+      http://bdaafall2016.readthedocs.io/en/latest/gitlab.html
+
+      YOu will be uploading the following files into the prg1
+      directory::
+
+	paper1.tex
+	sample.bib
+	paper1.pdf
+
+      After you upload the files, please go to Canvas and fill out the
+      form for the paper1 submission. YOu will have to upload the
+      appropriate links.
+	
 ----------------------------------------------------------------------
 
 Week 2
