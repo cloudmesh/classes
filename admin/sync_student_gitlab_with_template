@@ -76,7 +76,7 @@ class Worker(object):
 
 
     def pull_template(self):
-        subprocess.check_call(['git', 'pull', self.template_repo])
+        subprocess.check_output(['git', 'pull', self.template_repo])
 
 
     def push_origin(self):
