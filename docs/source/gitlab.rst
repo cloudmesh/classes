@@ -22,13 +22,13 @@ assignment 1, programming assignment 2 and your project.
    deducted.
 
 .. important:: Please use only lowercase characters in the directory
-	       names and no special charaters such as @ ; /
+	       names and no special characters such as @ ; /
 
 
 Getting an account
 ----------------------------------------------------------------------
 
-Please go to gitlab and create an account. Use a nice accountname that
+Please go to gitlab and create an account. Use a nice account name that
 only includes characters in [a-zA-Z0-9].
 
 * http://gitlab.com
@@ -40,13 +40,13 @@ to submit your homework.
 Upload your public key
 ----------------------
 
-Please upload your public key to the repository.
+Please upload your public key to the repository as documented in gitlab.
 
 
-How to configere Git and Gitlab	for your computer
+How to configure Git and Gitlab	for your computer
 -------------------------------------------------
 
-The proper way to use git is to install it on your computer. Once you have done
+The proper way to use git is to install a client on your computer. Once you have done
 so, make sure to configure git to use your name and email address
 label your commits.::
 
@@ -71,9 +71,9 @@ Using Web browsers to upload
 ----------------------------
 
 Although we do not recommend using this, it is possible to use the Web
-browser to modify existing and to upload new files via the Web
-browser. This means you could operate it without installing anything.
-This will work, but it is not very convenient.
+browser to modify existing and to upload new files via. This means you
+could operate it without installing anything.  This will work, but it
+is not very convenient.
 
 Using Git GUI tools
 -------------------
@@ -81,8 +81,8 @@ Using Git GUI tools
 There are many git GUI tools available that directly integrate into
 your operating system finders, windows, ..., or PyCharm.
 It is up to you to identify such tools and see if they are useful for
-you. Most of the people we work with us git from the commandline, even
-if they use PyCharm or ther tools that have build in git suport.
+you. Most of the people we work with us git from the command line, even
+if they use PyCharm or other tools that have build in git support.
 
 
 
@@ -90,16 +90,16 @@ if they use PyCharm or ther tools that have build in git suport.
 Submission of homework
 ----------------------
 
-You will have a HID givven to you. Let us assume the id is::
+You will have a HID given to you. Let us assume the id is::
 
    F16-DG-9999
 
 When you log into gitlab, you will find a directory with that
 name. Please substitute the HID that we gave above as an example with
-your own. We refer to thi ID as <HID> in these instructions.
+your own. We refer to this ID as <HID> in these instructions.
 
 Now you can go to your web browser and past the following URL into it,
-wher eyou replace the <HID> with your HID.::
+where you replace the <HID> with your HID that you can find in Canvas.::
 
   https://gitlab.com/cloudmesh_fall2016/<HID>
 
@@ -147,10 +147,13 @@ afterwards::
 
   git push
   
-*If you lose any documents locally, you can retrieve them from your remote reposirtory using::
+If you lose any documents locally, you can retrieve them from your
+ remote repository using::
 
   git pull
 
+If you have any issues, please post your question in the folder
+gitlab. Our TAs will answer them.
 
 Git Resources
 ----------------------------------------------------------------------
