@@ -162,7 +162,7 @@ Paper p1
 
       http://bdaafall2016.readthedocs.io/en/latest/gitlab.html
 
-      YOu will be uploading the following files into the prg1
+      You will be uploading the following files into the paper1
       directory::
 
 	paper1.tex
@@ -170,7 +170,7 @@ Paper p1
 	paper1.pdf
 
       After you upload the files, please go to Canvas and fill out the
-      form for the paper1 submission. YOu will have to upload the
+      form for the paper1 submission. You will have to upload the
       appropriate links.
 	
 ----------------------------------------------------------------------
@@ -203,6 +203,22 @@ Paper p2
 	    (precision) medicine, personal monitors like Fitbit,
 	    privacy issues.
 
+	  You will be submitting the paper in gitlab.com as discussed in:
+
+	  http://bdaafall2016.readthedocs.io/en/latest/gitlab.html
+
+	  You will be uploading the following files into the paper2
+	  directory::
+
+	    paper2.tex
+	    sample.bib
+	    paper2.pdf
+
+	  After you upload the files, please go to Canvas and fill out the
+	  form for the paper2 submission. You will have to upload the
+	  appropriate links.
+
+	    
 References R1
 ^^^^^^^^^^^^^
 
