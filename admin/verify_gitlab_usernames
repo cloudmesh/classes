@@ -40,7 +40,8 @@ if __name__ == '__main__':
 
     opts = getopts()
 
-    students_all = pd.read_csv(opts.students, header=0).dropna()
+    students_all = pd.read_csv(opts.students, header=0)
+    students_all = students_all.dropna()
     students = students_all.drop_duplicates(subset='Student')
     assert len(students) == len(students_all)
 
