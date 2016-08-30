@@ -218,6 +218,10 @@ Paper p2
 	  form for the paper2 submission. You will have to upload the
 	  appropriate links.
 
+	  A video of how to use the Webbrowser to upload the paper is
+	  available at:
+
+	  * https://youtu.be/b3OvgQhTFow
 	    
 References R1
 ^^^^^^^^^^^^^
