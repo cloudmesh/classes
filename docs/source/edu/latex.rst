@@ -34,7 +34,7 @@ and allows upload in other online bibliography managers.
 
 Video: https://youtu.be/cMtYOHCHZ3k
 
-Video with cc: TBD
+Video with cc: https://www.youtube.com/watch?v=QVbifcLgMic
 
 
 References

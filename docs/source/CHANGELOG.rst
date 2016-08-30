@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Dev include upload instructions. [Gregor von Laszewski]
+
 - Added a jabref video. [Gregor von Laszewski]
 
 - Fix the duplicated numbering for d2 to only apply as bonus. [Gregor
