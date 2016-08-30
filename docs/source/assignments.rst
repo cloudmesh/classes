@@ -222,6 +222,8 @@ Paper p2
 	  available at:
 
 	  * https://youtu.be/b3OvgQhTFow
+
+	  Video in cc: TBD
 	    
 References R1
 ^^^^^^^^^^^^^
