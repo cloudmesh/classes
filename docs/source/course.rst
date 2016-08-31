@@ -852,9 +852,12 @@ Unit 6 - X-Informatics Case Study: Health Informatics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-
 Unit Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Slides: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
 
 This section starts by discussing general aspects of Big Data and
 Health including data sizes, different areas including genomics, EBI,
