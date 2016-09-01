@@ -95,6 +95,12 @@ Requirements
 .. todo:: list requirements as differing from "Common Requirements"
 
 
+Example projects
+~~~~~~~~~~~~~~~~
+
+.. todo:: list some example projects
+
+
 Bencharking Projects
 --------------------
 
@@ -106,6 +112,12 @@ Requirements
 .. todo:: list requirements as differing from "Common Requirements"
 
 
+Example projects
+~~~~~~~~~~~~~~~~
+
+.. todo:: list some example projects
+
+
 Analytics Projects
 ------------------
 
@@ -113,6 +125,12 @@ Requirements
 ~~~~~~~~~~~~
 
 .. todo:: list requirements as differing from "Common Requirements"
+
+
+Example projects
+~~~~~~~~~~~~~~~~
+
+.. todo:: list some example projects
 
 
 
