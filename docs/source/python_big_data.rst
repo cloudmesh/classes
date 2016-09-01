@@ -113,7 +113,16 @@ as D3.js
   
 * URL: http://bokeh.pydata.org/
 * Gallery: http://bokeh.pydata.org/en/latest/docs/gallery.html
-  
+
+pygal
+~~~~~
+
+Pygal is a simple API to produce graphs that can be easily
+embedded into your Web pages. It contains annotations when you hover
+over data points. It also allows to present the data in a table.
+
+* URL: http://pygal.org/
+
   
 Network and Graphs
 ------------------
