@@ -34,6 +34,18 @@ extensions = [
     'sphinx.ext.mathjax',
 ]
 
+#
+# SPHINXPROMPT
+#
+# see https://pypi.python.org/pypi/sphinx-prompt/0.2.2
+# wget https://pypi.python.org/packages/dd/d1/02400fd67ab1fdd398f81a79f7cbf87ede8b2ae2b378e94b97b640b3d67e/sphinx-prompt-1.0.0.tar.gz
+# untar the file
+# cd into it
+# python setup.py install
+    
+# extensions += ['sphinx-prompt']
+
+    
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
