@@ -121,6 +121,20 @@ Example projects
 Analytics Projects
 ------------------
 
+Analytics projects focus on data exporation.  For this typoe of
+projects, you should focus on analysis of a dataset (see
+:doc:`datasets` for starting points).  The key here is to take a
+dataset and extract some meaningful information from in using tools
+such as ``scikit-learn``, ``mllib``, or others.  You should be able to
+provide graphs, descriptions for your graphs, and argue for
+conclusions drawn from your analysis.
+
+Your deployment should handle the process of downloading and
+installing the required datasets and pushing the analysis code to the
+remote node.  You should provide instructions on how to run and
+interpret your analysis code in your README.
+
+
 Requirements
 ~~~~~~~~~~~~
 
