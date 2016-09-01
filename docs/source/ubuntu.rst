@@ -38,7 +38,7 @@ Paste and copy
 Configuration
 -------------
 
-The documenation on how to configure the virtual machoine is posted
+The documenation on how to configure the virtual machine is posted
 here:
 
 * https://github.com/cloudmesh/ansible-cloudmesh-ubuntu-xenial
