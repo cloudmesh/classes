@@ -33,6 +33,7 @@ Big Data Applications and Analytics
    edu/refcards	     
    edu/linux
    edu/latex
+   edu/refmanager
    links
 
 .. toctree::

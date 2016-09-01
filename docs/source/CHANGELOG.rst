@@ -7,6 +7,10 @@ Changelog
 New
 ~~~
 
+- Dev add missing file. [Gregor von Laszewski]
+
+- Add homework upload video. [Gregor von Laszewski]
+
 - Dev include upload instructions. [Gregor von Laszewski]
 
 - Added a jabref video. [Gregor von Laszewski]
@@ -37,6 +41,7 @@ Fix
 
 Other
 ~~~~~
+
 
 
 
