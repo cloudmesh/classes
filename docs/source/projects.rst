@@ -1,6 +1,12 @@
 Software Projects
 =================
 
+.. sidebar:: Contents
+
+   .. contents::
+      :local:
+
+
 .. warning::
 
    This page is still under construction
