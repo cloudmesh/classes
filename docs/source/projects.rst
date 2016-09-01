@@ -18,7 +18,7 @@ running a subset of 1 or more of the software packages.
 | | **Category: Batch Data Analytics**                  |                                |                                                       |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
 | | NIST_Fingerprint_ (a subset of):                    | | NISTDatabase27A_ [4GB]       | | NISTBiometric_                                      |
-| | NFIQ                                                |                                | | Image Software (NBIS) `v5.0 Userguide_              |
+| | NFIQ                                                |                                | | Image Software (NBIS) v5.0 Userguide_              |
 | | PCASYS                                              |                                | |                                                     |
 | | MINDTCT                                             |                                | |                                                     |
 | | BOZORTH3                                            |                                | |                                                     |
