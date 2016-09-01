@@ -190,6 +190,7 @@ All sessions refer to Sections, Discussions and Units
 | 09/02/2016 | 3     |         W3 | | T1 Project and Paper Preparation |
 |            |       |            | | :ref:`S4`	       	               |
 |            |       |            | | d4_	       	               |
+|            |       |            | | Geolocation Quiz on Canvas       |
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
