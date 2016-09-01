@@ -37,6 +37,42 @@ Video: https://youtu.be/cMtYOHCHZ3k
 Video with cc: https://www.youtube.com/watch?v=QVbifcLgMic
 
 
+jabref and MSWord
+^^^^^^^^^^^^^^^^^
+
+Accordung to Colin Thornburg it is possible to integrate jabref
+references directly into MSWord. THi has been conducted on a Windows
+computer. All you need to do is following theses steps. 
+
+ 
+1. Create Jabref bibliography just like in presented in the jabref video
+2. After finishing adding your sources in Jabref, click `File -> export`
+3. Name your bibliography and choose MS Office 2007(*.xml) as the file
+   format. Remember the location of where you saved your file.
+4. Open up your word document.  If you are using the ACM template, go
+   ahead and remove the template references listed under
+   `Section 7. References`
+5. In the MS Word ribbon choose 'References'
+6. Choose 'Manage Sources'
+7. Click 'Browse' and locate/select your Jabref xml file
+8. You should now see your references appear in the left side window.
+   Select the references you want to add to your document and click
+   the 'copy' button to move them from the left side window to the
+   right window.
+9. Click the 'Close' button
+10. In the MS Word Ribbon, select 'Bibliography' under the References
+    tab
+11. Click 'Insert Bibliography' and your references should appear in
+    the document
+12. Ensure references are of Style: IEEE.  Styles are located in the
+    References tab under 'Manage Sources'
+ 
+As you can see there is some effort involve, so we do recommend you
+use LaTeX as you can focus there on content rather than dealing with
+comlex layout decissions. THi sis especially true, if your papers has
+figures or tables. 
+
+
 References
 ----------
 
