@@ -49,6 +49,7 @@ All software projects must:
    The README should have the following sections:
 
    - Authors: list the authors
+   - Project Type: one of "Deployment", "Benchmark", "Analytics"
    - Problem: describe the task and/or problem
    - Requirements: describe your assumptions and requirements for deployment/running.
      This should include any software requirements with a link to their webpage.
@@ -64,6 +65,30 @@ All software projects must:
 Deployment Projects
 -------------------
 
+Deployment projects focuses on automated software deployments on
+multiple nodes using automation tools such as Ansible, Chef, Puppet,
+Salt, or Juju. For example, you could work on deploying Hadoop to a
+cluster of several machines. Use of Ansible is recommended and
+supported. Other tools such as Chef, Puppet, etc, will not be
+supported.
+
+Note that it is not sufficient to merely deploy the software on the
+cluster. You must also demonstrate the use of the cluster by running
+some program on it and show the utilization of your entire cluster.
+You should also benchmark the deployment and running of your
+demonstration on several sizes of a cluster (eg 1, 3, 6, 10 nodes)
+(Note that these numbers are for example only).
+
+We expect to see figures showing times for each (deployment, running)
+pair on for each cluster size, with error bars.  This means that you
+need to run each benchmark multiple times (at least three times) in
+order to get the error bars. You should also demonstrate cluster
+utilization for each cluster size.
+
+The program used for demonstration can be simple and straightforward.
+This is not the focus of this type of project.
+
+
 Requirements
 ~~~~~~~~~~~~
 
@@ -72,6 +97,8 @@ Requirements
 
 Bencharking Projects
 --------------------
+
+
 
 Requirements
 ~~~~~~~~~~~~
