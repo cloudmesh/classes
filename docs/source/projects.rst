@@ -1,3 +1,94 @@
+Software Projects
+=================
+
+.. warning::
+
+   This page is still under construction
+
+There are three categories of software projects, which are detailed in
+lower sections:
+
+#. Deployment
+#. Bencharking
+#. Analytics
+
+You may propose a project in one of these categories, if you are doing
+a software projects.
+
+.. warning::
+
+   These are non-trivial and involve a lot of complexity.  Many
+   students vastly underestimate the difficulty and the amount of time
+   required.
+
+
+Common Requirements
+-------------------
+
+All software projects must:
+
+#. Be submitted via gitlab (a repository will be created for you)
+#. Be reproducibly deployed
+
+   Assume you are given a username and a set of IP addresses.  From
+   this starting point, you should be able to deploy everything in a
+   single commandline invocation.
+
+   .. warning::
+
+      Do not assume that the username or IP address will be the ones
+      you use during development and testing.
+
+#. Provide a report in the ``docs/report`` directory
+
+   LaTeX or Word may be used. Include the original sources as well as a PDF called ``report.pdf``
+   (See :ref:`overview-software-project` for additional details on the report format)
+
+#. Provide a properly formatted ``README.rst`` or ``README.md`` in the root directory
+
+   The README should have the following sections:
+
+   - Authors: list the authors
+   - Problem: describe the task and/or problem
+   - Requirements: describe your assumptions and requirements for deployment/running.
+     This should include any software requirements with a link to their webpage.
+     Also indicate which versions you have developed/tested with.
+
+   - Running: describe the steps needed to deploy and run
+   - Acknowledgements: provide proper attribution to any websites, or
+     code you may have used or adapted
+
+#. A ``LICENSE`` file (this should be the ``LICENSE`` for Apache License Version 2.0)
+
+
+Deployment Projects
+-------------------
+
+Requirements
+~~~~~~~~~~~~
+
+.. todo:: list requirements as differing from "Common Requirements"
+
+
+Bencharking Projects
+--------------------
+
+Requirements
+~~~~~~~~~~~~
+
+.. todo:: list requirements as differing from "Common Requirements"
+
+
+Analytics Projects
+------------------
+
+Requirements
+~~~~~~~~~~~~
+
+.. todo:: list requirements as differing from "Common Requirements"
+
+
+
 .. _sampleprojects:
 
 Sample Project suggestions
