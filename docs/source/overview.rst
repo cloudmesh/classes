@@ -305,6 +305,8 @@ Please note that a project includes also writing a project
 report/paper. However the length is a bit lower than for a term paper.
 
 
+.. _overview-software-project:
+
 Software Project
 ----------------
 
