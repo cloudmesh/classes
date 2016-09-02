@@ -1,3 +1,159 @@
+Software Projects
+=================
+
+.. sidebar:: Contents
+
+   .. contents::
+      :local:
+
+
+.. warning::
+
+   This page is still under construction
+
+There are three categories of software projects, which are detailed in
+lower sections:
+
+#. Deployment
+#. Bencharking
+#. Analytics
+
+You may propose a project in one of these categories, if you are doing
+a software projects.
+
+.. warning::
+
+   These are non-trivial and involve a lot of complexity.  Many
+   students vastly underestimate the difficulty and the amount of time
+   required.
+
+
+Common Requirements
+-------------------
+
+All software projects must:
+
+#. Be submitted via gitlab (a repository will be created for you)
+#. Be reproducibly deployed
+
+   Assume you are given a username and a set of IP addresses.  From
+   this starting point, you should be able to deploy everything in a
+   single commandline invocation.
+
+   .. warning::
+
+      Do not assume that the username or IP address will be the ones
+      you use during development and testing.
+
+#. Provide a report in the ``docs/report`` directory
+
+   LaTeX or Word may be used. Include the original sources as well as a PDF called ``report.pdf``
+   (See :ref:`overview-software-project` for additional details on the report format)
+
+#. Provide a properly formatted ``README.rst`` or ``README.md`` in the root directory
+
+   The README should have the following sections:
+
+   - Authors: list the authors
+   - Project Type: one of "Deployment", "Benchmark", "Analytics"
+   - Problem: describe the task and/or problem
+   - Requirements: describe your assumptions and requirements for deployment/running.
+     This should include any software requirements with a link to their webpage.
+     Also indicate which versions you have developed/tested with.
+
+   - Running: describe the steps needed to deploy and run
+   - Acknowledgements: provide proper attribution to any websites, or
+     code you may have used or adapted
+
+#. A ``LICENSE`` file (this should be the ``LICENSE`` for Apache License Version 2.0)
+
+
+Deployment Projects
+-------------------
+
+Deployment projects focuses on automated software deployments on
+multiple nodes using automation tools such as Ansible, Chef, Puppet,
+Salt, or Juju. For example, you could work on deploying Hadoop to a
+cluster of several machines. Use of Ansible is recommended and
+supported. Other tools such as Chef, Puppet, etc, will not be
+supported.
+
+Note that it is not sufficient to merely deploy the software on the
+cluster. You must also demonstrate the use of the cluster by running
+some program on it and show the utilization of your entire cluster.
+You should also benchmark the deployment and running of your
+demonstration on several sizes of a cluster (eg 1, 3, 6, 10 nodes)
+(Note that these numbers are for example only).
+
+We expect to see figures showing times for each (deployment, running)
+pair on for each cluster size, with error bars.  This means that you
+need to run each benchmark multiple times (at least three times) in
+order to get the error bars. You should also demonstrate cluster
+utilization for each cluster size.
+
+The program used for demonstration can be simple and straightforward.
+This is not the focus of this type of project.
+
+
+Requirements
+~~~~~~~~~~~~
+
+.. todo:: list requirements as differing from "Common Requirements"
+
+
+Example projects
+~~~~~~~~~~~~~~~~
+
+.. todo:: list some example projects
+
+
+Bencharking Projects
+--------------------
+
+
+
+Requirements
+~~~~~~~~~~~~
+
+.. todo:: list requirements as differing from "Common Requirements"
+
+
+Example projects
+~~~~~~~~~~~~~~~~
+
+.. todo:: list some example projects
+
+
+Analytics Projects
+------------------
+
+Analytics projects focus on data exporation.  For this typoe of
+projects, you should focus on analysis of a dataset (see
+:doc:`datasets` for starting points).  The key here is to take a
+dataset and extract some meaningful information from in using tools
+such as ``scikit-learn``, ``mllib``, or others.  You should be able to
+provide graphs, descriptions for your graphs, and argue for
+conclusions drawn from your analysis.
+
+Your deployment should handle the process of downloading and
+installing the required datasets and pushing the analysis code to the
+remote node.  You should provide instructions on how to run and
+interpret your analysis code in your README.
+
+
+Requirements
+~~~~~~~~~~~~
+
+.. todo:: list requirements as differing from "Common Requirements"
+
+
+Example projects
+~~~~~~~~~~~~~~~~
+
+.. todo:: list some example projects
+
+
+
 .. _sampleprojects:
 
 Sample Project suggestions
@@ -18,7 +174,7 @@ running a subset of 1 or more of the software packages.
 | | **Category: Batch Data Analytics**                  |                                |                                                       |
 +-------------------------------------------------------+--------------------------------+-------------------------------------------------------+
 | | NIST_Fingerprint_ (a subset of):                    | | NISTDatabase27A_ [4GB]       | | NISTBiometric_                                      |
-| | NFIQ                                                |                                | | Image Software (NBIS) `v5.0 Userguide_              |
+| | NFIQ                                                |                                | | Image Software (NBIS) v5.0 Userguide_              |
 | | PCASYS                                              |                                | |                                                     |
 | | MINDTCT                                             |                                | |                                                     |
 | | BOZORTH3                                            |                                | |                                                     |
