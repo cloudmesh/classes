@@ -22,10 +22,11 @@ How will you know which citation you need to do?:
     all the references that are in the list and do the once with your
     assignment number specified in a1 - a5 as defined in
 
-    https://piazza.com/class/irqfvh1ctrg2vt?cid=251
+    https://piazza.com/class/irqfvh1ctrg2vt?cid=259
 
     you will take the number and do a modulo 284 on the number and
-    than do that refernce with that number.
+    than do that refernce with that number. Use google to do the
+    modulo calculation.
     
 
 What if i get a reference to "--------"?
