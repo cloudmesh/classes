@@ -144,7 +144,14 @@ Requirements
 Example projects
 ~~~~~~~~~~~~~~~~
 
-.. todo:: list some example projects
+- analysis of US Census data
+- analysis of Uber ride sharing GPS data
+- analysis of Health Care data
+- analysis of images for Human Face detection
+- analysis of streaming Twitter data
+- analysis of airline prices, flights, etc
+- analysis of network graphs (social networks, disease networks, protein networks, etc)
+- analysis of music files for recomender engines
 
 
 
