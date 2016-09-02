@@ -19,9 +19,14 @@ correctly.
 
 How will you know which citation you need to do?:
     You will be assigned a number in class and you simply have to do
-    all the references that is indicated by a TBD formula::
+    all the references that are in the list and do the once with your
+    assignment number specified in a1 - a5 as defined in
 
-        number modulo *Total number of students* = 1
+    https://piazza.com/class/irqfvh1ctrg2vt?cid=251
+
+    you will take the number and do a modulo 284 on the number and
+    than do that refernce with that number.
+    
 
 What if i get a reference to "--------"?
      You are in luck, you get a free point.
