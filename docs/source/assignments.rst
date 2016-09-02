@@ -60,8 +60,8 @@ Communication
     * Register in https://about.gitlab.com/
     * Register in https://www.chameleoncloud.org
 
-Resources r1
-^^^^^^^^^^^^
+Resources res1
+^^^^^^^^^^^^^^
 
     * If you do not have a computer on which you can do your
       assignments please apply for an account with Chameleon Cloud.
@@ -224,7 +224,9 @@ Paper p2
 	  * https://youtu.be/b3OvgQhTFow
 
 	  Video in cc: TBD
-	    
+
+.. _R1:
+	  
 References R1
 ^^^^^^^^^^^^^
 
@@ -235,7 +237,6 @@ References R1
 	  crowd sourcing in relationship to big data. Conduct research
 	  if needed.
 
-
 ----------------------------------------------------------------------
 
 Week 3
@@ -244,7 +245,8 @@ Week 3
 Video V4
 ^^^^^^^^^
       Please watch Section 4 Unit 7-9. Total Length 3.5 hours
-
+	  
+      
 Discussion d4
 ^^^^^^^^^^^^^^
 
@@ -257,11 +259,15 @@ Discussion d4
 	     fields
 	   * Comment on at least 2 other posts.
 
+.. _P3:
+   
 Paper p3
 ^^^^^^^^^
          This requires to write a paper that is from one to two pages in
       	 length. Please use the 2 column ACM proceedings Format.
 
+	 Alternative A:
+	 
 	 Using what we call Big Data (such as video) and Little Data
 	 (such as Baseball numerical statistics) in Sports
 	 Analytics. Write a paper discussing the following topics:
@@ -269,16 +275,29 @@ Paper p3
 	 * Which offer most opportunity on what sports?
 	 * How is Big Data and Little Data applied to the Olympics2016?
 
-	 Alternative:
+	 Alternative B (This assignment gives bonus points if done right):
 
-	 Although not covered in class big data and IoT could be used
-	 in wildlife, pets, farming, and other related areas. Write a 2
-	 page report that covers the topic and addresses
+	 How can big data and lIttle data be used in wildlife
+	 conservation, pets, farming, and other related areas that
+	 involve animal. Write a 2 page report that covers the topic
+	 and addresses
 
 	 * Which opportunities are there related to animals?
 	 * Which opportunities are there for wildlife preservation?
 	 * What limitations are there?
 	 * How can big data be best used? give concrete examples.
+	 * This paper could be longer than two pages if you like
+	 * You are allowed to work in a team of six. The number of
+	   pages is determined by team members while the minimum page
+	   number is 2. The team must identify who did what. 
+	 * However the paper must be coherent and consistent.
+	 * Additional pages are allowed.
+	 * When building teams the entire team must approve the team
+	   members.
+	 * If a team does not want to have you join, you need to
+	   accept this. Look for another team or work alone.
+	 * Use gitlab to share your LaTeX document or use microsoft
+	   one drive to write it collaboratively.
 
 
 Term Paper and Term Project Report Assignment T1
