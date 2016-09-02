@@ -11,11 +11,10 @@ Software Projects
 
    This page is still under construction
 
-There are three categories of software projects, which are detailed in
+There are several categories of software projects, which are detailed in
 lower sections:
 
 #. Deployment
-#. Bencharking
 #. Analytics
 
 You may propose a project in one of these categories, if you are doing
@@ -55,7 +54,7 @@ All software projects must:
    The README should have the following sections:
 
    - Authors: list the authors
-   - Project Type: one of "Deployment", "Benchmark", "Analytics"
+   - Project Type: one of "Deployment", "Analytics"
    - Problem: describe the task and/or problem
    - Requirements: describe your assumptions and requirements for deployment/running.
      This should include any software requirements with a link to their webpage.
@@ -93,23 +92,6 @@ utilization for each cluster size.
 
 The program used for demonstration can be simple and straightforward.
 This is not the focus of this type of project.
-
-
-Requirements
-~~~~~~~~~~~~
-
-.. todo:: list requirements as differing from "Common Requirements"
-
-
-Example projects
-~~~~~~~~~~~~~~~~
-
-.. todo:: list some example projects
-
-
-Bencharking Projects
---------------------
-
 
 
 Requirements
