@@ -121,7 +121,7 @@ Example projects
 Analytics Projects
 ------------------
 
-Analytics projects focus on data exporation.  For this typoe of
+Analytics projects focus on data exporation.  For this type of
 projects, you should focus on analysis of a dataset (see
 :doc:`datasets` for starting points).  The key here is to take a
 dataset and extract some meaningful information from in using tools
