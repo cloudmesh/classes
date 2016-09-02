@@ -235,12 +235,6 @@ References R1
 	  crowd sourcing in relationship to big data. Conduct research
 	  if needed.
 
-	  Details will be released once all students have signed up
-	  with to piazza and filled out the survey.
-
-	  You find a list of numbers
-
-	  https://piazza.com/class/irqfvh1ctrg2vt?cid=251
 
 ----------------------------------------------------------------------
 

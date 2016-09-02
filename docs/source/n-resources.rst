@@ -9,31 +9,39 @@ references from the class and will ask you to provide **PROPER**
 academic references for them. All references will be managed with
 jabref.
 
-Due to the number of students in the class this will be amounting to
-about 5 references per student. Students should build teams of 2
+You will have to do about 10 references. Students should build teams of 2
 students to correct each others contribution if possible.
-You will only get point for the references that are absolute
+You will only get points for the references that are absolute
 correct. It does not matter if a colleague has helped you correcting
 your references. What is important is that you know how to cite
-correctly.
+correctly. 
+
+.. warning:: This homework is typically underestimated by students and
+	     often done in sloppy fashion. I have had classes where
+	     50% of the class got 0 points in this assignment. Thus it
+	     is not just sufficient to put in the refernce as MISC if
+	     it is a url, but you have to actually look up the URL, if
+	     its a paper, you may even have to locate which journal or
+	     conference, which location the conference took place what
+	     date the conference took place and so forth. Please note
+	     that many bibentries including some form IEEE and other
+	     sources could be wrong or are incomplete. For example are
+	     there other locations where you can find the PDF of a
+	     paper?
+	     
 
 How will you know which citation you need to do?:
     You will be assigned a number in class and you simply have to do
     all the references that are in the list and do the once with your
-    assignment number specified in a1 - a5 as defined in
+    assignment number specified in a1 - a5 and b1-b5 as defined in
 
     https://piazza.com/class/irqfvh1ctrg2vt?cid=260
-
-    you will take the number and do a modulo 284 on the number and
-    than do that refernce with that number. Use google to do the
-    modulo calculation.
-    
 
 What if i get a reference to "--------"?
      You are in luck, you get a free point.
 
 Can I use endnote for this?
-     No. However for your final paper you can use endnote.
+     No. 
 
 What is an article?
      An article is published in a journal.
@@ -56,8 +64,17 @@ What label should I give the reference?
      assignment. This way if you want to use it in your final paper
      you can also use other students references
 
-
+What if my link no longer works?
+     Can you find it in the internet archive? Is there a query you
+     could find from the url and identify an alternate location?
      
+Where do I upload it:
+     Go to gitlab and go into the bib folder, upload your references as class.bib
+
+How do I create labels:
+     use class000 where 000 is the number of the 0 padded number of
+     your reference in the list bellow. Example, assume you have to do
+     reference 11, than your label for that is class011
 
 ::
 
