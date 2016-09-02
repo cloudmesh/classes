@@ -65,7 +65,21 @@ All software projects must:
      code you may have used or adapted
 
 #. A ``LICENSE`` file (this should be the ``LICENSE`` for Apache License Version 2.0)
+#. All figures should include labels with the following format: ``label (units)``.
 
+   For example:
+
+   - ``distance (meters)``
+   - ``volume (liters)``
+   - ``cost (USD)``
+
+#. All figures should have a caption describing what the measurement
+   is, and a summary of the conclusions drawn.
+
+   For example:
+
+     This shows how A changes with regards to B, indicating that under
+     conditions X, Y, Z, Alpha is 42 times better than otherwise.
 
 Deployment Projects
 -------------------
