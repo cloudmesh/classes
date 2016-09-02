@@ -19,7 +19,7 @@ correctly.
 .. warning:: This homework is typically underestimated by students and
 	     often done in sloppy fashion. I have had classes where
 	     50% of the class got 0 points in this assignment. Thus it
-	     is not just sufficient to put in the refernce as MISC if
+	     is not just sufficient to put in the reference as MISC if
 	     it is a url, but you have to actually look up the URL, if
 	     its a paper, you may even have to locate which journal or
 	     conference, which location the conference took place what
