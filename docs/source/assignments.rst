@@ -934,3 +934,16 @@ Artifacts:
        * Screenshots
        * ...
 
+Homework upload
+---------------
+
+A video of how to use the Webbrowser to upload the paper is available at:
+
+Video: https://youtu.be/b3OvgQhTFow
+
+Video in cc: TBD
+
+Naturally if you know how to use the git commandline tool use that
+which will have to master once you start working on your project or
+term paper.
+
