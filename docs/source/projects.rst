@@ -103,7 +103,19 @@ Requirements
 Example projects
 ~~~~~~~~~~~~~~~~
 
-.. todo:: list some example projects
+- deploy Apache Spark on top of Hadoop
+- deploy Apache Pig on top of Hadoop
+- deploy Apache Storm
+- deploy Apache Flink
+- deploy a Tensorflow cluster
+- deploy a PostgreSQL cluster
+- deploy a MongoDB cluster
+- deploy a CouchDB cluster
+- deploy a Memcached cluster
+- deploy a MySQL cluster
+- deploy a Redis cluster
+- deploy a Mesos cluster
+- deploy a Hadoop cluster
 
 
 Analytics Projects
