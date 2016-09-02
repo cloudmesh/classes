@@ -28,6 +28,8 @@ correctly.
 	     sources could be wrong or are incomplete. For example are
 	     there other locations where you can find the PDF of a
 	     paper?
+
+	     This assignment counts as much as a paper.
 	     
 
 How will you know which citation you need to do?:
@@ -38,7 +40,7 @@ How will you know which citation you need to do?:
     https://piazza.com/class/irqfvh1ctrg2vt?cid=260
 
 What if i get a reference to "--------"?
-     You are in luck, you get a free point.
+     Just pick randomly another number that is not associated with a ------
 
 Can I use endnote for this?
      No. 
