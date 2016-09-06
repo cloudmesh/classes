@@ -30,6 +30,7 @@ Big Data Applications and Analytics
    :caption: Useful Tools and Tips
    :maxdepth: 2
 
+   datasets
    edu/refcards	     
    edu/linux
    edu/latex
