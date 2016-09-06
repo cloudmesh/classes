@@ -100,8 +100,8 @@ Alternative Installations
 -------------------------
 
 The best installation of python is provided by python.og. However
-others claim to have simpler and integrated environments that allow
-you to install python in an even easier fashion. This includes
+others claim to have alternative environments that allow you to
+install python. This includes
 
 * `Canopy <https://store.enthought.com/downloads/#default>`_
 * `Anaconda <https://www.continuum.io/downloads>`_
