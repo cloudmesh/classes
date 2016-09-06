@@ -1,4 +1,5 @@
 
+.. _python_intro:
 
 Introduction to Python
 ======================
@@ -44,20 +45,20 @@ Python is an interpreted, dynamic, high-level programming language
 suitable for a wide range of applications. The `The Zen of Python`_
 summarizes some of its philosophy including:
 
-- Explicit is better than implicit
-- Simple is better than complex
-- Complex is better than complicated
-- Readability counts
+* Explicit is better than implicit
+* Simple is better than complex
+* Complex is better than complicated
+* Readability counts
 
 The main features of Python are:
 
-- Use of indentation whitespace to indicate blocks
-- Object orient paradigm
-- Dynamic typing
-- Interpreted runtime
-- Garbage collected memory management
-- a large standard library
-- a large repository of third-party libraries
+* Use of indentation whitespace to indicate blocks
+* Object orient paradigm
+* Dynamic typing
+* Interpreted runtime
+* Garbage collected memory management
+* a large standard library
+* a large repository of third-party libraries
 
 Python is used by many companies (such as Google, Yahoo!, CERN, NASA)
 and is applied for web development, scientific computing, embedded
@@ -125,13 +126,24 @@ options include `Tutorials Point`_ or `Code Academy`_, and the Python wiki page
 contains a long list of `references for learning`_ as well.
 Additional resources include:
 
-- http://ivory.idyll.org/articles/advanced-swc/
-- http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
-- http://www.youtube.com/watch?v=0vJJlVBVTFg
-- http://www.korokithakis.net/tutorials/python/
-- http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
-- http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
+* http://ivory.idyll.org/articles/advanced-swc/
+* http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+* http://www.youtube.com/watch?v=0vJJlVBVTFg
+* http://www.korokithakis.net/tutorials/python/
+* http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
+* http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
 
+
+A very long list of useful information are also available from
+
+* https://github.com/vinta/awesome-python
+* https://github.com/rasbt/python_reference
+
+This list may be useful as it also contains links to data
+visualization and manipulation libraries, and AI tools and libraries.
+Please note that for this class you can reuse such libraries if not
+otherwise stated.
+  
 .. _Code Academy: http://www.codecademy.com/en/tracks/python
 .. _Python documentation site: https://docs.python.org/2.7/
 .. _list of introductory books: https://wiki.python.org/moin/IntroductoryBooks
@@ -165,13 +177,13 @@ In order to conduct this lesson you should
 Dependencies
 ----------------------------------------------------------------------
 
-  - `Python <https://www.python.org/>`_ 
-  - `Pip <https://pip.pypa.io/en/stable/>`_
-  - `Virtualenv <https://virtualenv.pypa.io/en/stable/>`_
-  - `NumPy <http://www.numpy.org/>`_
-  - `SciPy <https://scipy.org/>`_
-  - `Matplotlib <http://matplotlib.org/>`_
-  - `Pandas <http://pandas.pydata.org/>`_
+* `Python <https://www.python.org/>`_ 
+* `Pip <https://pip.pypa.io/en/stable/>`_
+* `Virtualenv <https://virtualenv.pypa.io/en/stable/>`_
+* `NumPy <http://www.numpy.org/>`_
+* `SciPy <https://scipy.org/>`_
+* `Matplotlib <http://matplotlib.org/>`_
+* `Pandas <http://pandas.pydata.org/>`_
 
 
 Learning Goals

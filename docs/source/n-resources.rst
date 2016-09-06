@@ -61,11 +61,6 @@ How do I cite urls?
      the author, when was it published, what is the proper url, and
      when was it accessed.
 
-What label should I give the reference?
-     For grading purposes use BD followed by the number in this
-     assignment. This way if you want to use it in your final paper
-     you can also use other students references
-
 What if my link no longer works?
      Can you find it in the internet archive? Is there a query you
      could find from the url and identify an alternate location?
@@ -76,7 +71,11 @@ Where do I upload it:
 How do I create labels:
      use class000 where 000 is the number of the 0 padded number of
      your reference in the list bellow. Example, assume you have to do
-     reference 11, than your label for that is class011
+     reference 11, than your label for that is class011.
+
+     Add the owner={FIRSTNAME LASTNAME} field in jabref
+
+     Where FIRSTNAME LASTNAME is your fisrname and lastname
 
 ::
 
