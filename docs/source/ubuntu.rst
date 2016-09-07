@@ -46,36 +46,48 @@ A video to showcase such an install is avalable at:
 Guest additions
 ----------------
 
-* TBD. shoot a video (probably gregor)
+The virtual guest additions allow you to easily do the follwoing
+tasks:
 
-* do bidirectional past and copy as well as drag
+* Resize the windows of the vm
+* Copy and paste content between the Guest operating system and the
+  host operating system windows.
 
+This way you can use many native programs on you host and copy
+contents easily into for example a terminal or an editor that you run
+in the Vm.
 
-* dont forget to reboot
+A video is located at
+  
+* https://youtu.be/wdCoiNdn2jA
 
-Paste and copy
+.. note:: Please reboot the machine after instalation and configuration.
+   
 
-* OSX -> Vbox
+On OSZ you can once you have enabled bidirectiona copying in the
+Device tab with 
 
+OSX -> Vbox:
   commad c -> shift CONTRL v
 
-* Vbox to OSX
-
+Vbox to OSX:
   shift CONTRL v -> shift CONTRL v -> 
   
+On Windows the key combination is naturally different. Please consult
+your windows manual.
 
 
-Configuration
--------------
+Development Configuration
+-------------------------
 
-The documenation on how to configure the virtual machine is posted
-here:
+The documenation on how to configure the virtual machine and
+installmany useful programs is posted at:
 
 * https://github.com/cloudmesh/ansible-cloudmesh-ubuntu-xenial
 
 
 You simply have to execute the following commands in the teraminal of
-the virtual machine. IN order to eliminate confusion with other
+the virtual machine. In order to eliminate confusion with other
 terminals, we use the prefix `vm> $` to indicate any command that is to
 be started on the virtual machine. Otherwise it is clear from the
 context::
@@ -85,3 +97,10 @@ context::
    vm>$ bash bootstrap.sh
 
    
+Homework Virtualbox
+-------------------
+
+1. Install ubuntu desktop on your computer with guest additions.
+2. Make sure you know how to paste and copy between your host and
+   geust operating system
+3. Install the programs defined by the development configuration
