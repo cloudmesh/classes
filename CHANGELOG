@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Added simple ssh explanation. [Gregor von Laszewski]
+
 - Updated overview calendar to give a bit more time. [Gregor von
   Laszewski]
 

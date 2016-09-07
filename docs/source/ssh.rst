@@ -8,13 +8,10 @@ Using SSH Keys
    .. contents::
       :local:
 
-   .. hint:: |info-image|
-
-      If you do not know what ssh is we recommend that you `read up on
-      it <http://openssh.com/manual.html>`__ .  However, the simple
-      material presented here will help you getting started quickly on
-      FutureSystem. Some screencasts about this topic are available in
-      section :ref:`s-screencast-accounts`.
+   .. hint:: If you do not know what ssh is we recommend that you
+             `read up on it <http://openssh.com/manual.html>`__ .
+	     However, the simple material presented here will help you
+	     getting started quickly.
 
 
 To access remote resources this is often achieved via SSH. You need to
@@ -28,14 +25,15 @@ prepare an add on to this document.
 Using SSH from Windows
 ----------------------------------------------------------------------
 
-.. hint:: |info-image| For Linux users, please skip to the section :ref:`s-ssh-generate`
-.. hint:: |info-image| For Mac users, please skip to the section :ref:`s-ssh-osx`
+.. hint:: For Linux users, please skip to the section :ref:`s-ssh-generate`
+.. hint:: For Mac users, please skip to the section :ref:`s-ssh-osx`
 
 .. warning:: For this class we recommend that you use a virtual
 	     machine via virtual box and use the Linux ssh
 	     instructions. The information here is just provided for
 	     completness and no support will be offered for native
 	     windows support.	  
+	  
 	  
 Windows users need to have some special software to be able to use the
 SSH commands. If you have one that you are comfortable with and know
