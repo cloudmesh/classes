@@ -309,29 +309,6 @@ Paper p3
 	   one drive to write it collaboratively.
 
 
-Term Paper and Term Project Report Assignment T1
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-     Please prepare for the selection process for a project or a term paper:
-
-     * Review the guidelines for the project and term paper.
-     * Identify if you are likely to do a project or a term paper
-     * Build teams, chose your team members wisely. For example if you
-       have 3 people in the team and only two do the work, you still get
-       graded based on a 3 person team.
-     * Decide for a topic that you want to do and the team. Commit to
-       it by end of Week 4.
-     * For that week the homework also includes to make a plan for
-       your term paper and write a one page summary which we will
-       approve and give comments on. Note teaming can change in actual
-       final project. If you are in a team, each student must submit
-       an (identical) plan with a notation as to teaming. Note teaming
-       can change in actual final project.
-     * You will completing this Form 
-       `Form <https://docs.google.com/forms/d/1AYEpZxVpsmWLBSa4xuPl7i2l2gGy0L9S2wikEEGW9-I>`_,
-       throughout the semester in which you will be uploading the title,
-       the team members, and the location of your proposal in gitlab
-       with direct URL, description of the artifacts and the final
-       project report.
 
 ----------------------------------------------------------------------
 
@@ -342,7 +319,30 @@ Video V5
 ^^^^^^^^^
       Please watch Section 5 Units 10, 11. Total Length 2.5 hours.
 
+Development Virtual Machine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+To easily develop code and not to effect your local machine, we will
+be using ubuntu desktop in a virtual machine running on your
+computer. Please make sure your hardware supports this. For example, a
+chrome book is insufficient.
+
+The detailed description including 3 videos are posted at:
+
+* http://bdaafall2016.readthedocs.io/en/latest/ubuntu.html
+
+Please conduct form that page Homework 1, 2 & 3
+
+Next you will be using python in that virtual machine.
+
+.. note:: You can use your native OS to do the programming
+	  assignment. However if you like to use any cloud environment
+	  you must also do the Development virtual machine as we want
+	  you to get a feeing for how to use ubuntu before you go on
+	  the cloud.
+
+.. _PRG1:
+   
 Programming prg1: Python
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -422,6 +422,47 @@ Programming prg1: Python
 
 	       Missing items will result in zero points being given
 
+
+Term Paper and Term Project Report Assignment T1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     Please prepare for the selection process for a project or a term paper:
+
+     * Review the guidelines for the project and term paper.
+     * Identify if you are likely to do a project or a term paper
+     * Build teams, chose your team members wisely. For example if you
+       have 3 people in the team and only two do the work, you still get
+       graded based on a 3 person team.
+     * Decide for a topic that you want to do and the team. Commit to
+       it by end of Week 5.
+     * For that week the homework also includes to make a plan for
+       your term paper and write a one page summary which we will
+       approve and give comments on. Note teaming can change in actual
+       final project. If you are in a team, each student must submit
+       an (identical) plan with a notation as to teaming. Note teaming
+       can change in actual final project.
+     * You will completing this Form 
+       `Form <https://docs.google.com/forms/d/1AYEpZxVpsmWLBSa4xuPl7i2l2gGy0L9S2wikEEGW9-I>`_,
+       throughout the semester in which you will be uploading the title,
+       the team members, and the location of your proposal in gitlab
+       with direct URL, description of the artifacts and the final
+       project report.
+       
+
+Discussion d5
+^^^^^^^^^^^^^^
+
+	   Create a NEW post to discuss your final project you want to do
+	   and look for team members (if you want to build a team).
+
+----------------------------------------------------------------------
+
+Week 5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Video S6
+^^^^^^^^^
+      Watch the video in Section 6.
+
 Futuresystems
 ^^^^^^^^^^^^^^
 	* Obtain an account on Futuresystems.org and join project
@@ -454,28 +495,13 @@ OpenStack
 	* Optionally, you can use cloudmesh_client for this (If you
           use cloudmesh client you will get bonus points).
 
-
-Discussion d5
-^^^^^^^^^^^^^^
-
-	   Create a NEW post to discuss your final project you want to do
-	   and look for team members (if you want to build a team).
-
-----------------------------------------------------------------------
-
-Week 5
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Video S6
-^^^^^^^^^
-      Watch the video in Section 6.
-
+      
+      
 prg2
 ^^^^^
-	 Consider the Python or Java code available on Section 6 Unit 13
- 	 “Files” tab (the third one) as HiggsClassIIUniform.py or
-	 HiggsClassIIUniform.java. This software is also available on
-	 FutureSystems virtual machines. When run it should produce
+	 Consider the Python code available on Section 6 Unit 13
+ 	 “Files” tab (the third one) as HiggsClassIIUniform.py.
+	 This software is also available When run it should produce
 	 results like the file TypicalResultsHW5.docx on the same tab.
 	 This code corresponds to 42000 background events and 300
 	 Higgs. Background is uniformly distributed and Higgs is a
@@ -492,8 +518,6 @@ prg2
 	 25 Video V6: Video Review/Study Section 7 Units 12-15; total
 	 3 hours 7 minutes. This is Physics Informatics Section.
 
-
-	 https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.Higgs
 
 	 https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs
 

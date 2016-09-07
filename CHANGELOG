@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Add the development vm video. [Gregor von Laszewski]
+
 - Add virtualbox guest additions video. [Gregor von Laszewski]
 
 - Add virtual box ubuntu desktop video. [Gregor von Laszewski]
