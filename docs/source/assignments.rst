@@ -266,6 +266,15 @@ Paper p3
          This requires to write a paper that is from one to two pages in
       	 length. Please use the 2 column ACM proceedings Format.
 
+	 This assignment may be conducted as a group with at most two
+	 students. It will be up to you to find another student, or
+	 you can just do the paper yourself. There is no need to keep
+	 this team during the semester or the project assignment you
+	 can build new teams throughout the semester for different
+	 homework. Make sure your team contributes equally.
+
+	 Chose one of the alternatives:
+	 
 	 Alternative A:
 	 
 	 Using what we call Big Data (such as video) and Little Data
