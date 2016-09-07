@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- Updated overview calendar to give a bit more time. [Gregor von
+  Laszewski]
+
 - Add the development vm video. [Gregor von Laszewski]
 
 - Add virtualbox guest additions video. [Gregor von Laszewski]

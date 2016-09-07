@@ -288,7 +288,7 @@ Paper p3
 
 	 How can big data and lIttle data be used in wildlife
 	 conservation, pets, farming, and other related areas that
-	 involve animal. Write a 2 page report that covers the topic
+	 involve animal. Write a 2 page paper that covers the topic
 	 and addresses
 
 	 * Which opportunities are there related to animals?
