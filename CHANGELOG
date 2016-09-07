@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Clarify group work for paper 3. [Gregor von Laszewski]
+
 - Dev add missing file. [Gregor von Laszewski]
 
 - Add homework upload video. [Gregor von Laszewski]
