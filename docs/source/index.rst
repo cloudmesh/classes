@@ -36,6 +36,7 @@ Big Data Applications and Analytics
    edu/latex
    edu/refmanager
    ubuntu
+   ssh
    links
 
 .. toctree::
