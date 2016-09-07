@@ -1,14 +1,14 @@
 Ubuntu Virtual Machine
 ======================================================================
 
-For development purposses we recommend tha you use for this class an
+For development purposes we recommend tha you use for this class an
 ubuntu virtual machine that you set up with the help of virtualbox.
 
-Only after you have successfully used ubuntu in a virtaul machine you
+Only after you have successfully used ubuntu in a virtual machine you
 will be allowed to use virtual machine son clouds.
 
 A "cloud drivers license test" will be conducted to let you gain
-access to the cloud infrastructure. We will annaounce this
+access to the cloud infrastructure. We will announce this
 test. Before you have not passed the test, you will not be able to use
 the clouds. Furthermore, you do not have to ask us for join requests
 before you have not passed the test. Please be patient. Only students
@@ -24,7 +24,7 @@ details can be found at
 * https://www.virtualbox.org/wiki/Downloads
 
 After you have installed virtualbox you also need to use an image. For
-this calss we will be using ubuntu Desktop 16.04 which you can find
+this class we will be using ubuntu Desktop 16.04 which you can find
 at:
 
 * http://www.ubuntu.com/download/desktop
@@ -36,7 +36,7 @@ machine:
 * 2 GB system memory
 * 25 GB of free hard drive space
 
-A video to showcase such an install is avalable at:
+A video to showcase such an install is available at:
 
 * https://youtu.be/NWibDntN2M4
 
@@ -44,7 +44,7 @@ A video to showcase such an install is avalable at:
 Guest additions
 ----------------
 
-The virtual guest additions allow you to easily do the follwoing
+The virtual guest additions allow you to easily do the following
 tasks:
 
 * Resize the windows of the vm
@@ -59,10 +59,10 @@ A video is located at
   
 * https://youtu.be/wdCoiNdn2jA
 
-.. note:: Please reboot the machine after instalation and configuration.
+.. note:: Please reboot the machine after installation and configuration.
    
 
-On OSZ you can once you have enabled bidirectiona copying in the
+On OSZ you can once you have enabled bidirectional copying in the
 Device tab with 
 
 OSX -> Vbox:
@@ -78,13 +78,13 @@ your windows manual.
 Development Configuration
 -------------------------
 
-The documenation on how to configure the virtual machine and
-installmany useful programs is posted at:
+The documentation on how to configure the virtual machine and
+install many useful programs is posted at:
 
 * https://github.com/cloudmesh/ansible-cloudmesh-ubuntu-xenial
 
 
-You simply have to execute the following commands in the teraminal of
+You simply have to execute the following commands in the terminal of
 the virtual machine. In order to eliminate confusion with other
 terminals, we use the prefix `vm> $` to indicate any command that is to
 be started on the virtual machine. Otherwise it is clear from the
@@ -100,5 +100,5 @@ Homework Virtualbox
 
 1. Install ubuntu desktop on your computer with guest additions.
 2. Make sure you know how to paste and copy between your host and
-   geust operating system
+   guest operating system
 3. Install the programs defined by the development configuration

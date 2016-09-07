@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Add virtualbox guest additions video. [Gregor von Laszewski]
+
 - Add virtual box ubuntu desktop video. [Gregor von Laszewski]
 
 - Clarify group work for paper 3. [Gregor von Laszewski]
