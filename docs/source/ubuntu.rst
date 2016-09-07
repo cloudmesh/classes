@@ -1,8 +1,6 @@
 Ubuntu Virtual Machine
 ======================================================================
 
-.. warning:: THIS SECTION IS UNDER DEVELOPMENT AND NOT YET COMPLETED.
-
 For development purposses we recommend tha you use for this class an
 ubuntu virtual machine that you set up with the help of virtualbox.
 
