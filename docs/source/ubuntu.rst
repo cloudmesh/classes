@@ -38,8 +38,16 @@ machine:
 
 A video to showcase such an install is available at:
 
-* https://youtu.be/NWibDntN2M4
+* Video: https://youtu.be/NWibDntN2M4
 
+.. warning:: If you specify your machien too small you will not be
+	     able to install the development environment. Gregor
+	     used on his machine 8gb of RAM and 20GB diskspace.
+
+	     Please let us know the smalest configuration that works
+	     for you and share this in Piaza. Only update if yours is
+	     smaller and works than a previous post. If not do not post.
+	    
 
 Guest additions
 ----------------
@@ -57,7 +65,7 @@ in the Vm.
 
 A video is located at
   
-* https://youtu.be/wdCoiNdn2jA
+* Video: https://youtu.be/wdCoiNdn2jA
 
 .. note:: Please reboot the machine after installation and configuration.
    
@@ -66,10 +74,10 @@ On OSZ you can once you have enabled bidirectional copying in the
 Device tab with 
 
 OSX -> Vbox:
-  commad c -> shift CONTRL v
+  `command` `c` -> `shift` `CONTRL` `v`
 
 Vbox to OSX:
-  shift CONTRL v -> shift CONTRL v -> 
+  `shift` `CONTRL` `v` -> `shift` `CONTRL` `v` 
   
 On Windows the key combination is naturally different. Please consult
 your windows manual.
@@ -93,6 +101,10 @@ context::
   
    vm>$ wget https://raw.githubusercontent.com/cloudmesh/ansible-cloudmesh-ubuntu-xenial/master/bootstrap.sh
    vm>$ bash bootstrap.sh
+
+A video showcasing this install is available:
+
+* Video: https://youtu.be/YqXIj_Wzfsc
 
    
 Homework Virtualbox
