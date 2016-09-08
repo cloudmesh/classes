@@ -195,10 +195,10 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
-| 09/09/2016 | 4     |            | | T1 Project and Paper Preparation |
-|            |       |            | | :ref:`S5`                        |
-|            |       |            | | d5_	       	               |
-|            |       |            | | PRG1_ assigned  	               |
+| 09/09/2016 | 4     |            | | d5_                              |
+|            |       |            | | T1 Project and Paper Preparation |
+|            |       |            | | :ref:`vmubuntu`                  |
+|            |       |            | | :ref:`PRG1` (due 10/14)          |
 +------------+-------+------------+------------------------------------+
 | 09/16/2016 | 5     |         W5 | | :ref:`S6` 	               |
 |            |       |            | | d6_	       	               |
@@ -220,7 +220,7 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 10/14/2016 | 9     |         W9 | | :ref:`S10`	       	       |
 |            |       |            | | d10_	       	               |
-|            |       |            | | PRG1_ due	       	               |
+|            |       |            | | :ref:`PRG1` due 	               |
 +------------+-------+------------+------------------------------------+
 | 10/21/2016 | 10    |         W10| | :ref:`S11`                       |
 |            |       |            | | d11_	       	               |
@@ -247,6 +247,9 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
+
+The following sections will be replaced:
+* TBD: :ref:`S5`
 
 .. _d1: https://piazza.com/class/irqfvh1ctrg2vt?cid=10
 .. _d2: https://piazza.com/class/irqfvh1ctrg2vt?cid=11
