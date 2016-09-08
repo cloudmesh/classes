@@ -8,10 +8,13 @@ Software Projects
    .. contents::
       :local:
 
+Please read the information in the overview page at
 
-.. warning::
+*
+http://bdaafall2016.readthedocs.io/en/latest/overview.html#software-project
 
-   This page is still under construction
+After doing so please return to this page. Identify a project suitable
+for this class, propose it and work on it.
 
 There are several categories of software projects, which are detailed in
 lower sections:
