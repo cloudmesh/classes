@@ -594,7 +594,7 @@ For this class support is provided by
 * Hyungro Lee (Teaching Assistant)
 
 
-Gregor von Laszewski
+Dr. Gregor von Laszewski
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: images/gregor2.png
