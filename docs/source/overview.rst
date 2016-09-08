@@ -102,8 +102,7 @@ following time:
 
 * Fridays 09:30am - 10:45am EST, I2 150
 
-For the 100% online students a time will be determined, but we will
-start with the office hour times.
+For the 100% online students see the office hours.
 
 
 Office Hours
