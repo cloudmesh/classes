@@ -109,7 +109,7 @@ Video V1
 Video V2
 ^^^^^^^^^
     Watch Videos in Section 2: Units 3, 4, and 5. Note these units
-    have overlap with Unit 2 of Section 1.
+    have overlap with Unit 2 of Section 1. (see :doc:`course`)
 
 Discussion d1
 ^^^^^^^^^^^^^^
@@ -180,7 +180,7 @@ Week 2
 
 Video V3
 ^^^^^^^^^
-      Please watch Section 3 Unit 6. Total Length 2.5 hours
+      Please watch Section 3 Unit 6. Total Length 2.5 hours, (see :doc:`course`)
       	   
 Discussion d3
 ^^^^^^^^^^^^^^
@@ -245,7 +245,7 @@ Week 3
 Video V4
 ^^^^^^^^^
 
-      Please watch Section 4 Unit 7-9. Total Length 3.5 hours
+      Please watch Section 4 Unit 7-9. Total Length 3.5 hours (see :doc:`course`).
 	  
       
 Discussion d4
@@ -467,7 +467,7 @@ Week 5
 
 Video S6
 ^^^^^^^^^
-      Watch the video in Section 6.
+      Watch the video in Section 6 (see :doc:`course`).
 
 Futuresystems
 ^^^^^^^^^^^^^^
@@ -543,7 +543,7 @@ Week 6
 
 Video S7
 ^^^^^^^^^
-      Watch the videos in section 7
+      Watch the videos in section 7 (see :doc:`course`).
 
 Discussion d7
 ^^^^^^^^^^^^^^
@@ -571,7 +571,7 @@ Week 8
 
 Video S9
 ^^^^^^^^^
-      Watch the videos related to Section 9
+      Watch the videos related to Section 9 (see :doc:`course`).
 
 Discussion d9
 ^^^^^^^^^^^^^^
@@ -592,7 +592,7 @@ Week 9
 
 Video S10
 ^^^^^^^^^
-      Watch the videos related to Section 10
+      Watch the videos related to Section 10 (see :doc:`course`).
 
 Discussion d10
 ^^^^^^^^^^^^^^^^^
