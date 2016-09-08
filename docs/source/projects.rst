@@ -22,9 +22,12 @@ a software projects.
 
 .. warning::
 
-   These are non-trivial and involve a lot of complexity.  Many
+   These are non-trivial project and involve substential work.  Many
    students vastly underestimate the difficulty and the amount of time
-   required.
+   required. This is the reason why the project assignment is early on
+   in the semester so you have ample time to propose and work on
+   it. If you start the project 2 weeks before December (Note the
+   early due data) We assume you may not finish.
 
 
 Common Requirements
@@ -47,7 +50,8 @@ All software projects must:
 #. Provide a report in the ``docs/report`` directory
 
    LaTeX or Word may be used. Include the original sources as well as a PDF called ``report.pdf``
-   (See :ref:`overview-software-project` for additional details on the report format)
+   (See :ref:`overview-software-project` for additional details on the
+   report format. You will be using 2 colum ACM format we have used before.)
 
 #. Provide a properly formatted ``README.rst`` or ``README.md`` in the root directory
 
@@ -64,6 +68,15 @@ All software projects must:
    - Acknowledgements: provide proper attribution to any websites, or
      code you may have used or adapted
 
+   .. warning:: in the past we got projects that had 10 pages
+		installation instructions. Certainly that is not good
+		and you will get point deductions. The installation
+		should be possible in a couple of lines. A nice
+		example is the installation of the development software
+		in the ubuntu vm. Naturally you can use other
+		technologies, other than ansible. Shell scrips,
+		makefiles, python scripts are all acceptable.
+     
 #. A ``LICENSE`` file (this should be the ``LICENSE`` for Apache License Version 2.0)
 #. All figures should include labels with the following format: ``label (units)``.
 
@@ -86,8 +99,9 @@ Deployment Projects
 
 Deployment projects focuses on automated software deployments on
 multiple nodes using automation tools such as Ansible, Chef, Puppet,
-Salt, or Juju. For example, you could work on deploying Hadoop to a
-cluster of several machines. Use of Ansible is recommended and
+Salt, or Juju. You are also allowed to use shell scripts, pdsh,
+vagrant, or fabric. For example, you could work on deploying Hadoop to
+a cluster of several machines. Use of Ansible is recommended and
 supported. Other tools such as Chef, Puppet, etc, will not be
 supported.
 
@@ -107,7 +121,23 @@ utilization for each cluster size.
 The program used for demonstration can be simple and straightforward.
 This is not the focus of this type of project.
 
+IaaS
+----
 
+It is allowable to use
+
+* virtualbox
+* chameleon cloud
+* futuresystems
+* AWS (your own cost)
+* Azure (your own cost)
+
+for your projects. Note that on powerful desktop machines even
+virtualbox can run multiple vms.  Use of docker is allowed, but you
+must make sure to use docker properly. In the past we had students
+that used docker but did not use it in the way it was designed
+for. Use of docker swarm is allowed.
+  
 Requirements
 ~~~~~~~~~~~~
 
@@ -130,12 +160,27 @@ Example projects
 - deploy a Redis cluster
 - deploy a Mesos cluster
 - deploy a Hadoop cluster
+- deploy a docker swarm cluster
+
+Deployment projects must have EASY installation setup just as we
+demonstrated in the ubuntu image.
+
+A command to manage the deployment must be written using python
+docopts that than starts your deployment and allows management of it.
+You can than from within this command call whatever other framework
+you use to manage it. The docopts manual page should be designed first
+and discussed in the team for completeness.
+
+Using argparse and other python commandline interface environments is
+not allowed.
+
+
 
 
 Analytics Projects
 ------------------
 
-Analytics projects focus on data exporation.  For this type of
+Analytics projects focus on data exploration.  For this type of
 projects, you should focus on analysis of a dataset (see
 :doc:`datasets` for starting points).  The key here is to take a
 dataset and extract some meaningful information from in using tools
@@ -165,7 +210,7 @@ Example projects
 - analysis of streaming Twitter data
 - analysis of airline prices, flights, etc
 - analysis of network graphs (social networks, disease networks, protein networks, etc)
-- analysis of music files for recomender engines
+- analysis of music files for recommender engines
 
 
 
