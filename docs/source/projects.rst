@@ -24,7 +24,7 @@ a software projects.
 
 .. warning::
 
-   These are non-trivial project and involve substential work.  Many
+   These are non-trivial project and involve substantial work.  Many
    students vastly underestimate the difficulty and the amount of time
    required. This is the reason why the project assignment is early on
    in the semester so you have ample time to propose and work on
@@ -42,7 +42,7 @@ All software projects must:
 
    Assume you are given a username and a set of IP addresses.  From
    this starting point, you should be able to deploy everything in a
-   single commandline invocation.
+   single command line invocation.
 
    .. warning::
 
@@ -53,7 +53,7 @@ All software projects must:
 
    LaTeX or Word may be used. Include the original sources as well as a PDF called ``report.pdf``
    (See :ref:`overview-software-project` for additional details on the
-   report format. You will be using 2 colum ACM format we have used before.)
+   report format. You will be using 2 column ACM format we have used before.)
 
 #. Provide a properly formatted ``README.rst`` or ``README.md`` in the root directory
 
@@ -181,7 +181,9 @@ and discussed in the team for completeness.
 Using argparse and other python commandline interface environments is
 not allowed.
 
-
+Deployment project will not only deply the farmewor, but either
+provide a sophisticated benchmark while doing a simple analysis using
+the deployed software.
 
 
 Analytics Projects
@@ -223,7 +225,9 @@ Example projects
 - analysis of NIST Live Twitter Analysis
 - analysis of NIST Big Data Analytics for Healthcare Data and Health Informatics
 - analysis of NIST Data Warehousing and Data mining
-
+- author disambiguity problem in academic papers
+- application of a k-means algorithm
+- application of a MDS 
 
 
 ..

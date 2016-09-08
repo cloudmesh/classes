@@ -109,13 +109,16 @@ start with the office hour times.
 Office Hours
 ------------
 
-Office hours will be held every week Tue, Thu 10-11am EST. Starting in
-the second week.
+Office hours will be held every week
+
+* Tue 10-11am EST
+* Thu 6-7pm EST
 
 These are live sessions that will allow you to interact in group or
 one-on-one with either an instructor or a TA. Office hours sessions
-may be recorded. During these times, we can be reached via zoom with
-the following information for the call:
+may be recorded. All importan FAQs will be either posted on the Web
+page or in Piazza ASAP. During these times, we can be reached via zoom
+with the following information for the call:
 
 Join from PC, Mac, Linux, iOS or Android:
 
