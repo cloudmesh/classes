@@ -244,6 +244,7 @@ Week 3
 
 Video V4
 ^^^^^^^^^
+
       Please watch Section 4 Unit 7-9. Total Length 3.5 hours
 	  
       
@@ -317,6 +318,11 @@ Week 4
 
 Video V5
 ^^^^^^^^^
+
+   see next section 
+ 
+.. comment::
+   
       Please watch Section 5 Units 10, 11. Total Length 2.5 hours.
 
 Development Virtual Machine
