@@ -196,7 +196,8 @@ All sessions refer to Sections, Discussions and Units
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
 | 09/09/2016 | 4     |         W4 | | d5_                              |
-|            |       |            | | TBD: Project & Paper Preparation |
+|            |       |            | | TBD: Preparation :ref:`report`   |
+|            |       |            | | Preparation: :ref:`projects`     |
 |            |       |            | | :ref:`vmubuntu`                  |
 |            |       |            | | :ref:`PRG1` (due 10/14)          |
 +------------+-------+------------+------------------------------------+
@@ -305,7 +306,8 @@ A+. However, an A+ project must be truly outstanding and include an
 exceptional project report. Such a project and report will have the
 potential quality of being able to be published in a conference.
 
-In case you chose a Term Paper your maximum Grade will be an A-.
+In case you chose a Term Paper your maximum Grade for the entire class
+will be an A-.
 
 Please note that a project includes also writing a project
 report/paper. However the length is a bit lower than for a term paper.
@@ -385,6 +387,16 @@ Term Report:
 Work Breakdown:
     This document is only needed for team projects. A one page PDF
     document describing who did what.
+
+Grading:
+    As stated above the maximum grade for the entire class will be A-
+    if you deliver a very good paper. However, axceptional term papers
+    are possible and could result in higher grades. They must contain
+    significant contributions and novel ideas so that the paper could
+    be published in a conference or journal. A comprehensive survey
+    would be an example. The page limitation will most likely be
+    exceeded by such work. Number of pages is not reflecting quallity.
+    Refernces must be outstanding.
 
 
 Report Format
