@@ -163,6 +163,11 @@ Example projects
 - deploy a Mesos cluster
 - deploy a Hadoop cluster
 - deploy a docker swarm cluster
+- deploy NIST Fingerprint Matching
+- deploy NIST Human Detection and Face Detection
+- deploy NIST Live Twitter Analysis
+- deploy NIST Big Data Analytics for Healthcare Data and Health Informatics
+- deploy NIST Data Warehousing and Data mining
 
 Deployment projects must have EASY installation setup just as we
 demonstrated in the ubuntu image.
@@ -213,6 +218,11 @@ Example projects
 - analysis of airline prices, flights, etc
 - analysis of network graphs (social networks, disease networks, protein networks, etc)
 - analysis of music files for recommender engines
+- analysis of NIST Fingerprint Matching
+- analysis of NIST Human Detection and Face Detection
+- analysis of NIST Live Twitter Analysis
+- analysis of NIST Big Data Analytics for Healthcare Data and Health Informatics
+- analysis of NIST Data Warehousing and Data mining
 
 
 
