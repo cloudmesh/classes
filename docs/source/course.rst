@@ -1411,9 +1411,35 @@ Canopy, NumPy, MatPlotLib, and Scipy.
 Video: http://youtu.be/mN_JpGO9Y6s
 
 
-Lesson 2 - Canopy
+Python in 45 minutes
+^^^^^^^^^^^^^^^^^^^^
+
+Here is an introductory video about the Python programming language
+that we found on the internet. Naturally there are many alternatives
+to this video, but the video is probably a good start. It also uses
+PyCharm which we recommend.
+
+https://www.youtube.com/watch?v=N4mEzFDjqtA
+
+How much you want to understand of python is actually a bit up to
+your, while its goot to know classes and inheritance, you may be able
+for this class to get away without using it. However, we do recommend
+that you learn it. 
+
+Lesson 2 - Canopy (we do not recommed using canopy)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. warning:: We do not recommend to use Canopy, insted we recommend
+	     you to use PyCharm.
+
+	     Alternatively if you look for a quick way to explor
+	     things we recommed the use of jupyter.
+	     
+	     Canopy may be useful for the casual user but PyCharm
+	     provides many more features and is mor suited for
+	     developments as we conduct in this course.
+
+	     
 
 Canopy - Its is an IDE for python developed by EnThoughts. The aim of
 this IDE is to bring the various python libraries under one single
