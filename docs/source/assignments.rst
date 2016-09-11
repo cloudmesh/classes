@@ -799,9 +799,9 @@ Project Report:
     A report must be produced while using the format discussed in the
     Report Format section. The following length is required:
 
-    * 3 pages, one student in the project
-    * 5 pages, one student in the project
-    * 7 pages, one student in the project
+    * 4 pages, one student in the project
+    * 6 pages, two students in the project
+    * 8 pages, three students in the project    
 
     Reports can be longer up to 10 pages if needed.  Your high quality
     scientific report should describe a) What you did b) results

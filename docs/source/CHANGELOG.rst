@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Add more prominent links for project titles. [Gregor von Laszewski]
+
 - Added simple ssh explanation. [Gregor von Laszewski]
 
 - Updated overview calendar to give a bit more time. [Gregor von
