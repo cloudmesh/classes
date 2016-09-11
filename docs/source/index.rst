@@ -24,7 +24,7 @@ Big Data Applications and Analytics
 
    python_intro
    python_big_data
-   
+   python_lesson1   
 
 .. toctree::
    :caption: Useful Tools and Tips

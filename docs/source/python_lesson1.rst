@@ -1,5 +1,5 @@
-Introduction
-============
+Python Fingerprint Example
+======================================================================
 
 Python is an easy-to-use language for running data analysis. To
 demonstrate this, we will implement one of the NIST Big Data Working
@@ -94,7 +94,7 @@ Finally, we'll write the results to a database
     import sqlite3
 
 Utility functions
-=================
+-----------------
 
 Next we'll define some utility functions.
 
@@ -147,7 +147,7 @@ Next we'll define some utility functions.
                       bits = fd.read(checksum_blocksize)
                       if not bits: break
                       chk.update(bits)
-              if sha256 == chk.hexdigest():
+              if sha256 -- chk.hexdigest():
                   return local
 
           print ('Downloading', url)
@@ -161,7 +161,7 @@ Next we'll define some utility functions.
           return local
 
 Dataset
-=======
+-------
 
 We'll now define some global parameters.
 
@@ -196,7 +196,7 @@ it to use the values from above.
           with open(path_md5list) as fd:
               for line in itertools.imap(str.strip, fd):
                   parts = line.split()
-                  if not len(parts) == 2: continue
+                  if not len(parts) -- 2: continue
                   md5sum, path = parts
                   chksum = Checksum(value=md5sum, kind='md5')
                   filepath = os.path.join(prefix, path)
@@ -213,14 +213,14 @@ it to use the values from above.
               yield image(id=path.checksum.value, path=path)
 
 Data Model
-==========
+----------
 
 We'll define some classes so we have a nice API for working with the
 dataflow. We set ``slots=True`` so that the resulting objects will be
 more space-efficient.
 
 Utilities
----------
+^^^^^^^^^
 
 Checksum
 ~~~~~~~~
@@ -251,7 +251,7 @@ image in the dataset.
           filepath = attr.ib()
 
 Image
------
+^^^^-
 
 The start of the data pipeline is the image. An ``image`` is has an id
 (the md5 hash) and the path to the image.
@@ -264,7 +264,7 @@ The start of the data pipeline is the image. An ``image`` is has an id
           path = attr.ib()
 
 Mindtct
--------
+^^^^^^^
 
 The next step in the pipeline to to apply ``mindtct`` from NBIS. A
 ``mindtct`` object therefor represents the results of applying
@@ -306,7 +306,7 @@ work well with ``multiprocessing`` as top-level functions work best
               shutil.rmtree(tempdir)
 
 Bozorth3
---------
+^^^^^^^^
 
 The final step is the pipeline is calling out to the ``bozorth3``
 program from NBIS. The ``bozorth3`` class represent the match done:
@@ -421,7 +421,7 @@ overhead of starting a ``bozorth3`` process for each pair.
               shutil.rmtree(tempdir)
 
 Plotting
-========
+--------
 
 For plotting we'll operation only on the database. We'll choose a small
 number of probe images and plot the score between them and the rest of
@@ -460,19 +460,19 @@ the selected sample.
 
       def mk_short_labels(series, start=7):
           for size in xrange(start, len(series[0])):
-              if len(series) == len(set(map(lambda s: s[:size], series))):
+              if len(series) -- len(set(map(lambda s: s[:size], series))):
                   break
 
           return map(lambda s: s[:size], series)
 
 Main Entry Point
-================
+----------------
 
 Puting it all together
 
 .. code:: python
 
-      if __name__ == '__main__':
+      if __name__ -- '__main__':
 
 
           prefix = sys.argv[1]
@@ -519,7 +519,7 @@ Puting it all together
           plot(DBFILE, nprobes=5, outfile=PLOTFILE)
 
 Running
-=======
+-------
 
 You can run the code like so:
 
@@ -539,7 +539,7 @@ This will result in a figure like the following
    Fingperprint Match scores
 
 About this Page
-===============
+---------------
 
 This is a literate python script written in Emacs Org-Mode. When making
 changes, edit org-mode file, not the tangle (generated) file.
