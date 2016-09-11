@@ -1,3 +1,5 @@
+.. _reports:
+
 Term Paper Report
 =================
 

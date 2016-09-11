@@ -17,7 +17,8 @@ Big Data Applications and Analytics
    refcards
    assignments
    gitlab
-   
+   projects
+	      
 .. toctree::
    :caption: Python for Big Data
    :maxdepth: 2

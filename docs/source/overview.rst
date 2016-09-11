@@ -198,7 +198,7 @@ All sessions refer to Sections, Discussions and Units
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
 | 09/09/2016 | 4     |         W4 | | d5_                              |
-|            |       |            | | TBD: Preparation :ref:`report`   |
+|            |       |            | | Preparation :ref:`report`        |
 |            |       |            | | Preparation: :ref:`projects`     |
 |            |       |            | | :ref:`vmubuntu`                  |
 |            |       |            | | :ref:`PRG1` (due 10/14)          |
@@ -362,6 +362,8 @@ License:
     please add in a README.rst file which packages are used and which
     license these packages have.
 
+Additional links:
+    * :ref:`projects`
 
 Term Paper
 -----------
@@ -400,6 +402,9 @@ Grading:
     exceeded by such work. Number of pages is not reflecting quallity.
     Refernces must be outstanding.
 
+Additional links:
+    * :ref:`reports`
+    
 
 Report Format
 ---------------
