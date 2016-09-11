@@ -538,14 +538,3 @@ This will result in a figure like the following
 
    Fingperprint Match scores
 
-About this Page
----------------
-
-This is a literate python script written in Emacs Org-Mode. When making
-changes, edit org-mode file, not the tangle (generated) file.
-
-To tangle, open org-mode file in Emacs, execute ``C-c C-v t``. If you
-are reading the tangled file you can jump back to the corresponding
-definition in the literate file by using
-``M-x org-babel-tangle-jump-to-org``. The RST form was generated from
-org-mode file by ``pandoc``.
