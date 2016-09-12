@@ -1370,22 +1370,22 @@ Section Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This section is meant to give an overview of the python tools needed
-for doing for this course. These are really powerful tools which every
-data scientist who wishes to use python must know. This section
-covers. Canopy - Its is an IDE for python developed by EnThoughts. The
-aim of this IDE is to bring the various python libraries under one
-single framework or ''Canopy'' - that is why the name. NumPy - It is
-popular library on top of which many other libraries (like pandas,
-scipy) are built. It provides a way a vectorizing data. This helps to
-organize in a more intuitive fashion and also helps us use the various
-matrix operations which are popularly used by the machine learning
-community. Matplotlib: This a data visualization package. It allows
-you to create graphs charts and other such diagrams. It supports
-Images in JPEG, GIF, TIFF format. SciPy: SciPy is a library built
-above numpy and has a number of off the shelf algorithms / operations
-implemented. These include algorithms from calculus(like integration),
-statistics, linear algebra, image-processing, signal processing,
-machine learning, etc.
+for doing for this course.
+
+These are really powerful tools which every
+data scientist who wishes to use python must know.
+
+NumPy - It is popular library on top of which many other libraries
+(like pandas, scipy) are built. It provides a way a vectorizing
+data. This helps to organize in a more intuitive fashion and also
+helps us use the various matrix operations which are popularly used by
+the machine learning community. Matplotlib: This a data visualization
+package. It allows you to create graphs charts and other such
+diagrams. It supports Images in JPEG, GIF, TIFF format. SciPy: SciPy
+is a library built above numpy and has a number of off the shelf
+algorithms / operations implemented. These include algorithms from
+calculus(like integration), statistics, linear algebra,
+image-processing, signal processing, machine learning, etc.
 
 
 
@@ -1406,9 +1406,7 @@ Lesson 1 - Introduction
 This section is meant to give an overview of the python tools needed
 for doing for this course. These are really powerful tools which every
 data scientist who wishes to use python must know. This section covers
-Canopy, NumPy, MatPlotLib, and Scipy.
-
-Video: http://youtu.be/mN_JpGO9Y6s
+NumPy, MatPlotLib, and Scipy.
 
 
 Python in 45 minutes
@@ -1425,28 +1423,6 @@ How much you want to understand of python is actually a bit up to
 your, while its goot to know classes and inheritance, you may be able
 for this class to get away without using it. However, we do recommend
 that you learn it. 
-
-Lesson 2 - Canopy (we do not recommed using canopy)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. warning:: We do not recommend to use Canopy, insted we recommend
-	     you to use PyCharm.
-
-	     Alternatively if you look for a quick way to explor
-	     things we recommed the use of jupyter.
-	     
-	     Canopy may be useful for the casual user but PyCharm
-	     provides many more features and is mor suited for
-	     developments as we conduct in this course.
-
-	     
-
-Canopy - Its is an IDE for python developed by EnThoughts. The aim of
-this IDE is to bring the various python libraries under one single
-framework or ''Canopy'' - that is why the name.
-
-Video: http://youtu.be/x7IQL5YvDwk
-
 
 
 Lesson 3 - Numpy 1
@@ -1806,7 +1782,6 @@ Video: http://youtu.be/bw3fd5cfQhk
 Resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* https://www.enthought.com/products/canopy/
 * Python for Data Analysis: Agile Tools for Real World Data By Wes
   McKinney, Publisher: O'Reilly Media, Released: October 2012,
   Pages: 472.
