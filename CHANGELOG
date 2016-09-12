@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- Fix the arror in report length on the assignments page. [Gregor von
+  Laszewski]
+
 - Add more prominent links for project titles. [Gregor von Laszewski]
 
 - Added simple ssh explanation. [Gregor von Laszewski]

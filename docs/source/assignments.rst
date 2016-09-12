@@ -366,12 +366,14 @@ Programming prg1: Python
 	instructions from python.org and use virtualenv.  As editor
 	we recommend you use PyCharm or Emacs.
 
-    Alternative:
-        Optionally you can use canopy for some of the simpler
-	projects, it is an integrated python environment that is good
-	for beginners. We do not recommend anaconda as some libraries
-	may not be ported to it yet. IN case you have difficulties
-	with canopy, please use python.org
+    Canopy and Anaconda:
+        We made bad experiences with Canopy as well as anaconda on
+	sume users machines. Therefore we recommend agains using thise
+	systems. It will be up to you to determine if these systems
+	work for you. We do recommend that you use python.org and
+	virtualenv. If you have already started using canopy or
+	anaconda you can do so (but we do not recommend it).
+
 
     Useful software:
         - `Python <https://www.python.org/>`_
