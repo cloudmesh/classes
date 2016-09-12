@@ -1409,6 +1409,16 @@ data scientist who wishes to use python must know. This section covers
 NumPy, MatPlotLib, and Scipy.
 
 
+Pycharm
+^^^^^^^
+
+is an Integrated Development Environment (IDE) used for programming in
+Python. It provides code analysis, a graphical debugger, an integrated
+unit tester, integration with git. 
+
+Video: https://youtu.be/X8ZpbZweJcw
+
+
 Python in 45 minutes
 ^^^^^^^^^^^^^^^^^^^^
 
