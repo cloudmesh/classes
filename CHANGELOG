@@ -7,6 +7,11 @@ Changelog
 New
 ~~~
 
+- Added pycharm video. [Gregor von Laszewski]
+
+- Recommend against using canopy and removing the canopy movie. [Gregor
+  von Laszewski]
+
 - Fix the arror in report length on the assignments page. [Gregor von
   Laszewski]
 

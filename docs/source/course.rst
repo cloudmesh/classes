@@ -1389,8 +1389,8 @@ image-processing, signal processing, machine learning, etc.
 
 
 
-Unit 10 - Python for Big Data and X-Informatics: NumPy, SciPy, MatPlotlib (will be updated)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unit 10 - Python for Big Data and X-Informatics: NumPy, SciPy, MatPlotlib 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unit Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
