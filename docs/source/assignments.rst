@@ -367,12 +367,13 @@ Programming prg1: Python
 	we recommend you use PyCharm or Emacs.
 
     Canopy and Anaconda:
-        We made bad experiences with Canopy as well as anaconda on
-	sume users machines. Therefore we recommend agains using thise
-	systems. It will be up to you to determine if these systems
-	work for you. We do recommend that you use python.org and
-	virtualenv. If you have already started using canopy or
-	anaconda you can do so (but we do not recommend it).
+        We made bad experiences with Canopy as well
+        as Anaconda on some machine of a Teaching Assitant. Therefore
+        we recommend agains using thise systems. It will be up to you
+        to determine if these systems work for you. We do recommend
+        that you use python.org and virtualenv. If you have already
+        started using canopy or anaconda you can do so (but we do not
+        recommend it).
 
 
     Useful software:
