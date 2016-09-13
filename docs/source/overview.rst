@@ -623,10 +623,8 @@ to develop a simple IaaS client available at as OpenSource project at
 http://cloudmesh.github.io/client/
 
 His Web page is located at http://gregor.cyberaide.org. To contact him
-please send mail to laszewski@gmail.com. For class related e-mail please use the
-google group
-https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help,
-which is shared between all instructors and AIs.
+please send mail to laszewski@gmail.com. For class related e-mail
+please use PIazza for this class.
 
 In his free time he teaches Lego Robotics to high school students. In 2015
 the team won the 1st prize in programming design in Indiana. If you like
