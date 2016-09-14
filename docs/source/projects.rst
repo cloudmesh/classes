@@ -233,6 +233,87 @@ Example projects
 - application of a MDS 
 
 
+
+Project Idea: World wide road kill
+-------------------------------------
+
+This project can also be executed as bonus project to gather
+information about the feasability of existing databases.
+ 
+It would be important to identify also how to potentially merge these
+databases into a single world map and derive statistics from
+them. This project can be done on your local machines. Not more than 6
+people can work on this.
+ 
+Identify someone that has experience with android and/or iphone
+programming Design an application that preferably works on iphone and
+android that allows a user while driving to
+ 
+* call a number to report roadkill via voice and submitting the gps coordinates
+*  have a button on the phone that allows the gps coordinates to be collected and allow upload either live, or when the user presses another butten.
+*  have provisions in the application that allow you to augment the data
+*  have an html page that displays the data 
+*  test it out within users of this class (remember we have world wide audience) 
+Make sure the app is ready early so others can test and use it and you can collect data.
+ 
+Before starting the project identify if such an application already exists.
+ 
+If more than 6 people sign up we may build a second group doing something similar, maybe potholes ..
+
+Gregor would like to get this project or at least the database search
+query staffed.
+
+
+Project Idea: Author disambiguty problem
+----------------------------------------------------------------------
+
+Given millions of publications how do we identify if an author of
+paper a with the name Will Smith is the sam as the author of paper 2
+with the name Will Smith, or William Smith, or W. Smith. AUthor
+databases are either provided in bibtex format, or a database that can
+not be shared outside of this class. YOu may have to add additional
+information from IEEE explorer, rsearch gate, ISI, or other online databases.
+
+Identify further issues and discuss solutions to them. Example, an
+author name changes, the author changes the institution. 
+
+Do a comprehensive literature review
+
+Some ideas:
+
+* Develop a graph view application in JS that showcases
+dependencies between coauthors, institutions 
+
+* Derive probabilities for the publications written by an auther given
+  they are the same
+
+* Utilize dependency graphs as given by online databases
+
+* Utilize the and or topic/abstarct/full text to identify similarity
+
+* Utilize keywords in the title
+
+* Utilize refernces of the paper
+
+* Prepare some vizualization of your result
+
+* Prepare som interactive vizualization
+
+A possible good start is a previous project published at
+
+* https://github.com/scienceimpact/bibliometric
+
+There are also some screenshots available:
+
+*
+https://github.com/scienceimpact/bibliometric/blob/master/Project%20Screenshots/Relationship_Authors_Publications.PNG
+
+*
+https://github.com/scienceimpact/bibliometric/blob/master/Project%20Screenshots/Relationship_Authors_Publications2_Clusters.PNG
+
+  
+
+
 ..
    .. _sampleprojects:
 

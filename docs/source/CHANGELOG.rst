@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- Urs: remove link to not used google grou, use Piazza instead. [Gregor
+  von Laszewski]
+
 - Added pycharm video. [Gregor von Laszewski]
 
 - Recommend against using canopy and removing the canopy movie. [Gregor

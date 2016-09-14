@@ -198,7 +198,7 @@ All sessions refer to Sections, Discussions and Units
 | 09/05/2016 | 3     | Holiday    | | Labor Day                        |
 +------------+-------+------------+------------------------------------+
 | 09/09/2016 | 4     |         W4 | | d5_                              |
-|            |       |            | | Preparation :ref:`report`        |
+|            |       |            | | Preparation :ref:`reports`       |
 |            |       |            | | Preparation: :ref:`projects`     |
 |            |       |            | | :ref:`vmubuntu`                  |
 |            |       |            | | :ref:`PRG1` (due 10/14)          |
