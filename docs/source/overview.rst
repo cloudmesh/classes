@@ -206,10 +206,12 @@ All sessions refer to Sections, Discussions and Units
 | 09/16/2016 | 5     |         W5 | | :ref:`S6` 	               |
 |            |       |            | | d6_	       	               |
 |            |       |            | | Work on Project	               |
+|            |       |            | | Leran enough Python(2)           |
 +------------+-------+------------+------------------------------------+
 | 09/23/2016 | 6     |         W6 | | :ref:`S7`          	       |
 |            |       |            | | d7_	       	               |
 |            |       |            | | Work on Project	               |
+|            |       |            | | Leran enough Python(2)           |
 +------------+-------+------------+------------------------------------+
 | 09/30/2016 | 7     |         W7 | | TBD: :ref:`S8`        	       |
 |            |       |            | | d8_	       	               |
@@ -261,7 +263,8 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
-(1) Use lecture free time wisely
+* ( 1 ) Use lecture free time wisely
+* ( 2 ) Improve your python knowledge while you do your project
 
 The following sections will be replaced:
 * TBD: :ref:`S5`

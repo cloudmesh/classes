@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- Add weeks that we recommend students work on project. [Gregor von
+  Laszewski]
+
 - Urs: remove link to not used google grou, use Piazza instead. [Gregor
   von Laszewski]
 
