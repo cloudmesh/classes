@@ -627,7 +627,7 @@ please send mail to laszewski@gmail.com. For class related e-mail
 please use PIazza for this class.
 
 In his free time he teaches Lego Robotics to high school students. In 2015
-the team won the 1st prize in programming design in Indiana. If you like
+the team won the 2nd prize in programming design in Indiana. If you like
 to volunteer helping in this effort please contact him.
 
 He offers also the opportunity to work with him on interesting
