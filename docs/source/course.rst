@@ -1500,7 +1500,7 @@ Continuation of Lesson 8 - Part 2
 
 Video: http://youtu.be/-XKBz7qCUqw
 
-Unit 11 - Using FutureSystems (will be updated)
+Unit 11 - Using FutureSystems (Please do not do yet)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unit Overview
@@ -1535,7 +1535,6 @@ first step in gaining access to FutureSystems.
 See Lesson 4 and 7 for SSH key generation on Linux, OSX or Windows.
 
 Video: http://youtu.be/X6zeVEALzTk
-
 
 Lesson 3 - Upload an OpenId
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1600,15 +1599,17 @@ http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/cm-mooc
 
 Video: http://youtu.be/nbZbJxheLwc
 
-Lesson 9 - How to run Java Class Programs on Virtual Machine
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. comment::
 
-This lesson explains about Running Java and Python on FutureSystems.
+    Lesson 9 - How to run Java Class Programs on Virtual Machine
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Instruction is here:
-http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/javafiles.html
+    This lesson explains about Running Java and Python on FutureSystems.
 
-Video: http://youtu.be/E1SVmLb_QK8
+    Instruction is here:
+    http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/javafiles.html
+
+    Video: http://youtu.be/E1SVmLb_QK8
 
 .. _S6:
 
