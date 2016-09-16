@@ -206,12 +206,12 @@ All sessions refer to Sections, Discussions and Units
 | 09/16/2016 | 5     |         W5 | | :ref:`S6` 	               |
 |            |       |            | | d6_	       	               |
 |            |       |            | | Work on Project	               |
-|            |       |            | | Leran enough Python(2)           |
+|            |       |            | | Learn enough Python(2)           |
 +------------+-------+------------+------------------------------------+
 | 09/23/2016 | 6     |         W6 | | :ref:`S7`          	       |
 |            |       |            | | d7_	       	               |
 |            |       |            | | Work on Project	               |
-|            |       |            | | Leran enough Python(2)           |
+|            |       |            | | Learn enough Python(2)           |
 +------------+-------+------------+------------------------------------+
 | 09/30/2016 | 7     |         W7 | | TBD: :ref:`S8`        	       |
 |            |       |            | | d8_	       	               |
