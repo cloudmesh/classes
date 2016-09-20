@@ -73,9 +73,9 @@ How do I create labels:
      your reference in the list bellow. Example, assume you have to do
      reference 11, than your label for that is class011.
 
-     Add the owner={FIRSTNAME LASTNAME} field in jabref
+     Add the owner={HID, Firstname Lastname} field in jabref
 
-     Where FIRSTNAME LASTNAME is your fisrname and lastname
+     Where Firstname Lastname is your fisrname and lastname
 
 ::
 
