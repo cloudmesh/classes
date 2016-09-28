@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Add rst refcard. [Gregor von Laszewski]
+
 - Add weeks that we recommend students work on project. [Gregor von
   Laszewski]
 

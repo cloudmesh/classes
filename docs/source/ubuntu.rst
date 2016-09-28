@@ -108,6 +108,10 @@ A video showcasing this install is available:
 
 * Video: https://youtu.be/YqXIj_Wzfsc
 
+A video showcasing the upload to gitlab from within the vm using
+commandline tools
+
+* Video: https://youtu.be/EnpneUY82I8
    
 Homework Virtualbox
 -------------------
