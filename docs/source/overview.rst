@@ -112,9 +112,9 @@ Office hours will be held every week
 
 * Tue 10-11am EST, typically Gregor
 * Thu 6-7pm EST, typically Gregor
-* Sun 4-6pm EST, either Jerome or Prahanth
-* Tue 7-8pm, either Jerome or Prahanth
-* Wed 7-8pm, either Jerome or Prahanth 
+* Sun 4-6pm EST, either Jerome or Prashanth
+* Tue 7-8pm, either Jerome or Prashanth
+* Wed 7-8pm, either Jerome or Prashanth 
   
   
 These are live sessions that will allow you to interact in group or

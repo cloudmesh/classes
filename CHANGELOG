@@ -7,6 +7,14 @@ Changelog
 New
 ~~~
 
+- Update office hours. [Gregor von Laszewski]
+
+  * Tue 10-11am EST, typically Gregor
+  * Thu 6-7pm EST, typically Gregor
+  * Sun 4-6pm EST, either Jerome or Prahanth
+  * Tue 7-8pm, either Jerome or Prahanth
+  * Wed 7-8pm, either Jerome or Prahanth
+
 - Add git push and pull video. [Gregor von Laszewski]
 
 - Add rst refcard. [Gregor von Laszewski]
