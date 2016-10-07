@@ -2224,9 +2224,21 @@ Video: http://youtu.be/u59559nqjiY
 Resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  DCGSA Standard Cloud: \ https://www.youtube.com/watch?v=l4Qii7T8zeg
+
 -  NIST Big Data Public Working Group (NBD-PWG) Process
-   http://bigdatawg.nist.gov/home.php
+   https://www.nist.gov/el/cyber-physical-systems/big-data-pwg
+- Big Data Definitions: http://dx.doi.org/10.6028/NIST.SP.1500-1 (link is external) 
+- Big Data Taxonomies: http://dx.doi.org/10.6028/NIST.SP.1500-2 (link is external) 
+- Big Data Use Cases and Requirements: http://dx.doi.org/10.6028/NIST.SP.1500-3 (link is external) 
+- Big Data Security and Privacy: http://dx.doi.org/10.6028/NIST.SP.1500-4 (link is external) 
+- Big Data Architecture White Paper Survey: http://dx.doi.org/10.6028/NIST.SP.1500-5 (link is external) 
+- Big Data Reference Architecture: http://dx.doi.org/10.6028/NIST.SP.1500-6 (link is external) 
+- Big Data Standards Roadmap: http://dx.doi.org/10.6028/NIST.SP.1500-7 (link is external)
+
+Some of the links bellow may be outdated. Please let us know the new
+links and notify us of the outdated links.
+  
+-  DCGSA Standard Cloud: \ https://www.youtube.com/watch?v=l4Qii7T8zeg
 -  On line 51 Use Cases http://bigdatawg.nist.gov/usecases.php
 -  Summary of Requirements Subgroup
    http://bigdatawg.nist.gov/_uploadfiles/M0245_v5_6066621242.docx
