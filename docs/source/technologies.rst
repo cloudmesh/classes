@@ -27,6 +27,10 @@ a mail to the course help group and we will get back to you as soon as we
 can:
    * https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help
 
+5. Refernces:
+
+   Cloudmesh: :cite:`las14cloudmeshmultiple`
+     
 Hadoop
 ========
 
@@ -43,3 +47,8 @@ Hadoop
   * NIST NBIS
   * Stock Analysis with MPI
   * Drug-Drug Interaction with Twitter
+
+Refernces
+=========
+
+.. bibliography:: ref.bib    

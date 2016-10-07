@@ -32,6 +32,7 @@
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
+    'sphinxcontrib.bibtex'
 ]
 
 #
