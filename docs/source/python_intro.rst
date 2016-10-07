@@ -131,13 +131,13 @@ implemented. You do have to write requirements.txt files that will
 install the necessary python libraries in a platform independent
 fashion. The homework assignment PRG1 has even a requirement to do so.
 
-In order to provide platform independence we have give in the class a
+In order to provide platform independence we have given in the class a
 "minimal" python version that we have tested with hundreds of
 students: python.org. If you use any other version, that is your
 decision. Additionally some students not only use python.org but have
 used iPython which is fine too. However this class is not only about
 python, but also about how to have your code run on any platform. The
-homework is designed so that yo can identify a setup that works for
+homework is designed so that you can identify a setup that works for
 you.
 
 However we have concerns if you for example wanted to use
@@ -148,7 +148,7 @@ should be supported by the frameworks. We have not tested cloudmesh on
 any other python version then python.org which is the open source community
 standard. None of the other versions are standard.
 
-In fact we had students over the simmer using canopy on their machines
+In fact we had students over the summer using canopy on their machines
 and they got confused as they now had multiple python versions and did
 not know how to switch between them and activate the correct
 version. Certainly if you know how to do that, than feel free to use
@@ -164,8 +164,8 @@ it. If we were to run two instals in the same system, this will not
 work as we do not know if one student will cause a side effect for
 another. Thus we as instructors do not just have to look at your code
 but code of hundreds of students with different setups. This is a non
-scalable solution as eveytime we test out code from a student we would
-have to wipe out the OS, install it ne, install an new version of
+scalable solution as every time we test out code from a student we would
+have to wipe out the OS, install it new, install an new version of
 whatever python you have elected, become familiar with that version
 and so on and on. This is the reason why the open source community is
 using python.org. We follow best practices. Using other versions is
