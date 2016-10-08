@@ -217,7 +217,7 @@ All sessions refer to Sections, Discussions and Units
 |            |       |            | | Work on Project	               |
 |            |       |            | | Learn enough Python(2)           |
 +------------+-------+------------+------------------------------------+
-| 09/30/2016 | 7     |         W7 | | TBD: :ref:`S8`        	       |
+| 09/30/2016 | 7     |         W7 | | Voluntary: :ref:`S8`             |
 |            |       |            | | d8_	       	               |
 |            |       |            | | Project or paper proposal due!   |
 +------------+-------+------------+------------------------------------+
