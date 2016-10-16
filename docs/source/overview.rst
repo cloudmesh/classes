@@ -176,7 +176,7 @@ All sessions refer to Sections, Discussions and Units
   assignments made in videos or stated elsewhere
 * Official and additional announcements will be send via CANVAS  
 * All lectures are assigned Friday's
-* All discussions and homework are the Friday after that if not
+* All discussions and homework are due 3 weeks after the assignment + the next weekend, e.g. Monday Morning if not 
   specified otherwise. Precise dates will be published in CANVAS
 * Note calendar and content may change
 
@@ -205,7 +205,8 @@ All sessions refer to Sections, Discussions and Units
 |            |       |            | | Preparation :ref:`reports`       |
 |            |       |            | | Preparation: :ref:`projects`     |
 |            |       |            | | :ref:`vmubuntu`                  |
-|            |       |            | | :ref:`PRG1` (due 10/14 or 12/02) |
+|            |       |            | | :ref:`PRG1` (recom. 10/14 (3)    |
+|            |       |            | | :ref:`PRG1` (due 12/02)          |
 +------------+-------+------------+------------------------------------+
 | 09/16/2016 | 5     |         W5 | | :ref:`S6` 	               |
 |            |       |            | | d6_	       	               |
@@ -252,7 +253,6 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 11/11/2016 | 13    |         W13| | :ref:`S14`                       |
 |            |       |            | | :ref:`S15`      	               |
-|            |       |            | | TBD Deep Learning                |
 |            |       |            | | d14_	       	               |
 |            |       |            | | Work on Project	               |
 +------------+-------+------------+------------------------------------+
@@ -272,6 +272,8 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 * ( 1 ) Use lecture free time wisely
 * ( 2 ) Improve your python knowledge while you do your project
+* ( 3 ) If you can not do PRG by Oct 10/14 or have difficulties with it,
+  we recommend that you do a paper
 
 The following sections will be replaced:
 * TBD: :ref:`S5`
