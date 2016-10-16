@@ -724,7 +724,7 @@ program that asks the user to enter a number, *n*, and prints out the
 We can now run this like so::
 
   $ python print_fibs.py 5
-  8
+  5
 
 Let break this down a bit.
 The first part::
