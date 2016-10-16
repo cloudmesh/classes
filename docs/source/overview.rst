@@ -263,8 +263,7 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 12/02/2016 | 15    | Due Date   | | Due Date for papers and projects |
 |            |       |            | | Work on Project	               |
-|            |       |            | | :ref:`PRG1` due for students     |
-|            |       |            | | with term paper                  |
+|            |       |            | | :ref:`PRG1` due                  |
 +------------+-------+------------+------------------------------------+
 | 12/12/2016 | 16    | Last Class | | Last Homework due                |
 |            |       |            | | Improve Project	               |

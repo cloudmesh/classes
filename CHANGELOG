@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Added driverslicense due date to calendar. [Gregor von Laszewski]
+
 - Mark plotviz section as voluntary. [Gregor von Laszewski]
 
 - Update office hours. [Gregor von Laszewski]
