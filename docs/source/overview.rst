@@ -242,6 +242,7 @@ All sessions refer to Sections, Discussions and Units
 |            |       |            | | d11_	       	               |
 |            |       |            | | :ref:`p11`       	               |
 |            |       |            | | Work on Project	               |
+|            |       |            | | :ref:`driverslicense` (due)      |
 +------------+-------+------------+------------------------------------+
 | 10/28/2016 | 11    |         W11| | :ref:`S12`                       |
 |            |       |            | | d12_	       	               |

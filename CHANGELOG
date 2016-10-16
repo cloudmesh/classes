@@ -7,6 +7,8 @@ Changelog
 New
 ~~~
 
+- Mark plotviz section as voluntary. [Gregor von Laszewski]
+
 - Update office hours. [Gregor von Laszewski]
 
   * Tue 10-11am EST, typically Gregor
