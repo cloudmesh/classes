@@ -240,7 +240,6 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 10/21/2016 | 10    |         W10| | :ref:`S11`                       |
 |            |       |            | | d11_	       	               |
-|            |       |            | | :ref:`p11`       	               |
 |            |       |            | | Work on Project	               |
 |            |       |            | | :ref:`driverslicense` (due)      |
 +------------+-------+------------+------------------------------------+
@@ -278,6 +277,7 @@ All sessions refer to Sections, Discussions and Units
 * ( 5 ) if you have homework late past Dec 2nd you may run the risk of
   obtaining an incomplete in the class as grading may need time and
   will be conducted in January.
+* ( 6 ) :ref:`p11` has been canceled so you can focus on your project
   
 The following sections will be replaced:
 
