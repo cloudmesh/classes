@@ -235,7 +235,7 @@ All sessions refer to Sections, Discussions and Units
 | 10/14/2016 | 9     |         W9 | | :ref:`S10`	       	       |
 |            |       |            | | d10_	       	               |
 |            |       |            | | :ref:`PRG1` due for students     |
-|            |       |            | | with projects 	               |
+|            |       |            | | with projects (recommended)      |
 |            |       |            | | Work on Project	               |
 +------------+-------+------------+------------------------------------+
 | 10/21/2016 | 10    |         W10| | :ref:`S11`                       |
@@ -265,8 +265,8 @@ All sessions refer to Sections, Discussions and Units
 |            |       |            | | Work on Project	               |
 |            |       |            | | :ref:`PRG1` due                  |
 +------------+-------+------------+------------------------------------+
-| 12/12/2016 | 16    | Last Class | | Last Homework due                |
-|            |       |            | | Improve Project	               |
+| 12/12/2016 | 16    | Last Class | | Last chance overdue homework due |
+|            |       |            | | Improve Project	          (5)  |
 +------------+-------+------------+------------------------------------+
 | 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
@@ -274,7 +274,11 @@ All sessions refer to Sections, Discussions and Units
 * ( 2 ) Improve your python knowledge while you do your project
 * ( 3 ) If you can not do PRG by Oct 10/14 or have difficulties with it,
   we recommend that you do a paper
-
+* ( 4 ) we will not do PRG2, and PRG3 in this class
+* ( 5 ) if you have homework late past Dec 2nd you may run the risk of
+  obtaining an incomplete in the class as grading may need time and
+  will be conducted in January.
+  
 The following sections will be replaced:
 
 * TBD: :ref:`S5`
