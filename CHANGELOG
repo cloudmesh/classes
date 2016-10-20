@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- PRG1 is due Dec 2nd, recommended to finish by Oct 14, if difficulties
+  we recommend you do a paper. [Gregor von Laszewski]
+
 - Added driverslicense due date to calendar. [Gregor von Laszewski]
 
 - Mark plotviz section as voluntary. [Gregor von Laszewski]
