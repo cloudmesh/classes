@@ -276,6 +276,7 @@ All sessions refer to Sections, Discussions and Units
   we recommend that you do a paper
 
 The following sections will be replaced:
+
 * TBD: :ref:`S5`
 
 .. _d1: https://piazza.com/class/irqfvh1ctrg2vt?cid=10
