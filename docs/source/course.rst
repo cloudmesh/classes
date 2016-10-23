@@ -6,13 +6,13 @@ Syllabus
    :local:
 
 .. _errata:
-      
+
 Errata
 ------
 
 .. note:: You may find that some videos may have a different lesson,
 	  section or unit number. Please ignore this. In case the
-	  content does not correspond to the title, please let us know. 
+	  content does not correspond to the title, please let us know.
 
 .. _S1:
 
@@ -416,7 +416,7 @@ Resources
 * https://www.youtube.com/watch?v=M3jcSCA9_hM
 
 .. _S2:
-  
+
 Section 2 - Overview of Data Science: What is Big Data, Data Analytics and X-Informatics?
 ---------------------------------------------------------------------------------------------
 
@@ -817,7 +817,7 @@ Resources
 * http://cra.org/ccc/docs/nitrdsymposium/pdfs/keyes.pdf
 
 .. _S3:
-  
+
 Section 3 - Health Informatics Case Study
 -----------------------------------------
 
@@ -855,7 +855,7 @@ Unit 6 - X-Informatics Case Study: Health Informatics
 Unit Overview
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Slides: 
+Slides:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
 
@@ -1124,7 +1124,7 @@ Slides
 * https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
 
 .. _S4:
-  
+
 Section 4 - Sports Case Study
 ----------------------------------------------------------------------
 
@@ -1359,7 +1359,7 @@ Resources
 * http://www.trakus.com/technology.asp#tNetText
 
 .. _S5:
-  
+
 Section 5 - Technology Training - Python & FutureSystems (will be updated)
 -------------------------------------------------------------------------------------
 
@@ -1389,7 +1389,7 @@ image-processing, signal processing, machine learning, etc.
 
 
 
-Unit 10 - Python for Big Data and X-Informatics: NumPy, SciPy, MatPlotlib 
+Unit 10 - Python for Big Data and X-Informatics: NumPy, SciPy, MatPlotlib
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unit Overview
@@ -1414,7 +1414,7 @@ Pycharm
 
 is an Integrated Development Environment (IDE) used for programming in
 Python. It provides code analysis, a graphical debugger, an integrated
-unit tester, integration with git. 
+unit tester, integration with git.
 
 Video: https://youtu.be/X8ZpbZweJcw
 
@@ -1432,7 +1432,7 @@ https://www.youtube.com/watch?v=N4mEzFDjqtA
 How much you want to understand of python is actually a bit up to
 your, while its goot to know classes and inheritance, you may be able
 for this class to get away without using it. However, we do recommend
-that you learn it. 
+that you learn it.
 
 
 Lesson 3 - Numpy 1
@@ -2227,17 +2227,17 @@ Resources
 
 -  NIST Big Data Public Working Group (NBD-PWG) Process
    https://www.nist.gov/el/cyber-physical-systems/big-data-pwg
-- Big Data Definitions: http://dx.doi.org/10.6028/NIST.SP.1500-1 (link is external) 
-- Big Data Taxonomies: http://dx.doi.org/10.6028/NIST.SP.1500-2 (link is external) 
-- Big Data Use Cases and Requirements: http://dx.doi.org/10.6028/NIST.SP.1500-3 (link is external) 
-- Big Data Security and Privacy: http://dx.doi.org/10.6028/NIST.SP.1500-4 (link is external) 
-- Big Data Architecture White Paper Survey: http://dx.doi.org/10.6028/NIST.SP.1500-5 (link is external) 
-- Big Data Reference Architecture: http://dx.doi.org/10.6028/NIST.SP.1500-6 (link is external) 
+- Big Data Definitions: http://dx.doi.org/10.6028/NIST.SP.1500-1 (link is external)
+- Big Data Taxonomies: http://dx.doi.org/10.6028/NIST.SP.1500-2 (link is external)
+- Big Data Use Cases and Requirements: http://dx.doi.org/10.6028/NIST.SP.1500-3 (link is external)
+- Big Data Security and Privacy: http://dx.doi.org/10.6028/NIST.SP.1500-4 (link is external)
+- Big Data Architecture White Paper Survey: http://dx.doi.org/10.6028/NIST.SP.1500-5 (link is external)
+- Big Data Reference Architecture: http://dx.doi.org/10.6028/NIST.SP.1500-6 (link is external)
 - Big Data Standards Roadmap: http://dx.doi.org/10.6028/NIST.SP.1500-7 (link is external)
 
 Some of the links bellow may be outdated. Please let us know the new
 links and notify us of the outdated links.
-  
+
 -  DCGSA Standard Cloud: \ https://www.youtube.com/watch?v=l4Qii7T8zeg
 -  On line 51 Use Cases http://bigdatawg.nist.gov/usecases.php
 -  Summary of Requirements Subgroup
@@ -2957,7 +2957,7 @@ Files
 
 * :download:`DatingRatings-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
 
-* :download:`ClusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
+* :download:`ClusterFinal-M30-C28.pviz <files/python/plotviz/clusterFinal-M30-C28.pviz>`
 
 * :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
 
@@ -3409,7 +3409,7 @@ there would be faster solution methods.
 https://youtu.be/2NqUsDGQDy8
 
 .. _S10:
-   
+
 Section 10 - Technology Training - kNN & Clustering
 ----------------------------------------------------------------------
 
@@ -3452,7 +3452,7 @@ https://iu.app.box.com/s/i9et3dxnhr3qt5gn14bg
 Files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * :download:`kNN.py <files/python/knn/kNN.py>`
-* :download:`kNNDriver.py <files/python/knn/kNN_driver.py>`
+* :download:`kNNDriver.py <files/python/knn/kNN_Driver.py>`
 * :download:`DatingTesting2.txt  <files/python/knn/dating_test_set2.txt>`
 * :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/knn/clusterFinal-M3-C3Dating-ReClustered.pviz>`
 * :download:`DatingRating-OriginalLabels.pviz <files/python/knn/dating_rating_original_labels.pviz>`
@@ -3534,7 +3534,7 @@ Files
 
 * :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
 * :download:`DatingRating-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
-* :download:`clusterFinal-M30-C28.pviz <files/python/plotviz/clusterfinal-m30-c28.pviz>`
+* :download:`clusterFinal-M30-C28.pviz <files/python/plotviz/clusterFinal-M30-C28.pviz>`
 * :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
 
 
@@ -4495,7 +4495,7 @@ Resources
 * Meeker/Wu May 29 2013 Internet Trends D11 Conference http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013
 
 .. _S13:
-  
+
 Section 13 - Technology for Big Data Applications and Analytics
 ----------------------------------------------------------------------
 
@@ -4937,7 +4937,7 @@ Resources
 * http://www.gesoftware.com/sites/default/files/GE-Software-Modernizing-Machine-to-Machine-Interactions.pdf
 
 .. _S15:
-  
+
 Section 15 - Radar Case Study
 ----------------------------------------------------------------------
 
