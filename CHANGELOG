@@ -90,6 +90,8 @@ Fix
 Other
 ~~~~~
 
+
+
 - Ne:usr: add python learning to the calendar, which already has been
   announced. [Gregor von Laszewski]
 
