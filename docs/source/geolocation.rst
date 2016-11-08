@@ -1,80 +1,28 @@
-PRG GEO: Geolocation Assignment
-===============================
+.. _geolocation:
 
-Write a python or Javascript program that uses the following information and plots the locations on the map. Locations with more than one entry should show a distinguishing element, such as a bar, a circle with bigger radius based on number of entries.
+PRG-GEO: Geolocation
+====================
 
-.. warning:: Please update your program with the data when all students have submitted their entries.
+For whom: only those doing a term paper, those doing a project must
+focus on their project 
+
+Task: Write a program which will be plotting geolocation data from data of
+the class students.
+
+Due date: Dec 9th
+
+Dataset: geolocation.csv:
+https://d1b10bmlvqabco.cloudfront.net/attach/irqfvh1ctrg2vt/is28edmcmde4ht/iv6f6l0esada/geolocation.csv
 
 
-Question: What do we learn from the responses?:
-  This will be discussed in Piazza and a discussion will be formulated later as well as an assignment date.
-	     
-Cities in which students of this class reside::
 
-    Pune
-    PHOENIX
-    Phoenix, Arizona
-    Columbus, Indiana
-    Beavercreek, OH
-    Aurora
-    Malaysia (GMT +8)
-    Salem, MA USA
-    Indianapolis, IN
-    Bloomington, IN
+Requirements:
+------------
 
-    Bloomington, Indiana
-    Bloomington
-    32.9689 -96.7991
-    Dallas
-    41Â° 53' 31.50'' N,87Â° 37' 42.00'' W
-    Springfield, IL
-    Chicago
-    Chicago, IL
-    Saint Louis, MO
-    Villa Allende, CÃ³rdoba, Argentina
-    Cardiff, Wales
-    Reno
-    Los Angeles
-    Nagpur
-    Nagpur, Maharshtra, India
-    Northbrook IL
-    Indianapolis, IN, USA
-    Surrey, BC, Canada
-    Pune
-    Raleigh, North Carolina, US
-    Mumbai
-    Nagpur
-    Phoenix, AZ
-    Santiago, Chile
-    Bloomington
-    Amsterdam
-    Richfield
-    Minneapolis
-    Chandler
-    Northbrook, IL
-    Milford DE
-    New York City
-    huntington, wv, usa
-    Seattle, WA
-    Columbus,IN
-    Indianapolis
-    Amman, Jordan
-    Bloomington
-    Springfield, MA
-    Jersey City, NJ, USA
-    Indianapolis, Indiana, USA
-    New York City
-    Columbus IN
-    Columbus
-    Mahwah,NJ
-    Bloomington
-    Mountain View,California
-    Columbus
-    Columbus,Indiana
-    Indianapolis, IN, USA
-    Baltimore
-    Baltimore, MD
-    LAUREL
-    Laurel, MD
-    Fort Wayne
-    Portland, Oregon
+* tablaeu and plotly will not be allowed
+* the geolocation data will be provided as the studens have typed it in, you will be responsible to clean it up via a program
+* you will be using python or javascript to display the data (you do not have to learn javascript if you do not know this, as there are many python libraries that can do this for you. There are even programs on the web published that do this in under 10 lines of code)
+* you are responsible for identifying how you display the data (it does not just have to be a map). Multiple views are possible. you will deal with issues such as multiple people being in the same town/location
+* HINT: plotting the location is mandatory, but what other visualizations are useful? Clustering? Partner search? Others ...?
+* program must be checked in in github and have documentation and a README.rst 
+ 

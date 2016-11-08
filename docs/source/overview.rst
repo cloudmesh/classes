@@ -234,8 +234,8 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 10/14/2016 | 9     |         W9 | | :ref:`S10`	       	       |
 |            |       |            | | d10_	       	               |
-|            |       |            | | :ref:`PRG1` due for students     |
-|            |       |            | | with projects (recommended)      |
+|            |       |            | | :ref:`PRG1` recommended due date |
+|            |       |            | | for students with projects       |
 |            |       |            | | Work on Project	               |
 +------------+-------+------------+------------------------------------+
 | 10/21/2016 | 10    |         W10| | :ref:`S11`                       |
@@ -251,6 +251,8 @@ All sessions refer to Sections, Discussions and Units
 |            |       |            | | d13_	       	               |
 |            |       |            | | Work on Project	               |
 +------------+-------+------------+------------------------------------+
+| 11/09/2016 | 13    |         W12| | :ref:`geolocation` for students  |
+|            |       |            | | with term paper (due Dec 9)      |
 | 11/11/2016 | 13    |         W13| | :ref:`S14`                       |
 |            |       |            | | :ref:`S15`      	               |
 |            |       |            | | d14_	       	               |
@@ -263,6 +265,9 @@ All sessions refer to Sections, Discussions and Units
 | 12/02/2016 | 15    | Due Date   | | Due Date for papers and projects |
 |            |       |            | | Work on Project	               |
 |            |       |            | | :ref:`PRG1` due                  |
++------------+-------+------------+------------------------------------+
+| 12/09/2016 | 15    | Due Date   | | :ref:`geolocation` students with |
+|            |       |            | | term paper	               |
 +------------+-------+------------+------------------------------------+
 | 12/12/2016 | 16    | Last Class | | Last chance overdue homework due |
 |            |       |            | | Improve Project	          (5)  |

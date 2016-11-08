@@ -506,7 +506,7 @@ OpenStack
 
       
       
-prg2
+prg2 (canceled)
 ^^^^^
 	 Consider the Python code available on Section 6 Unit 13
  	 “Files” tab (the third one) as HiggsClassIIUniform.py.
@@ -600,23 +600,27 @@ Video S10
 Discussion d10
 ^^^^^^^^^^^^^^^^^
 
-        Use Discussion d10_ in case you have questions about prg3
+        Use Discussion d10_ in case you have questions about PRG-GEO
 
-Programming prg3
+Programming prg-geo
 ^^^^^^^^^^^^^^^^^
 
-         Develop a python program conducting k-means. Use a meaningful
-         dataset of your choice but not just random. Produce a
-         histogram that shows the distance of all points to its
-         nearest cluster center.
+        PRG-GEO can be found here: :ref:`geolocation`
 
-	 For visualization you can chose a python library, or you can
-	 use D3.js and a histogram library based on it, if you are
-	 familiar with it.
+	.. comment::
+	   
+           Develop a python program conducting k-means. Use a
+           meaningful dataset of your choice but not just
+           random. Produce a histogram that shows the distance of all
+           points to its nearest cluster center.
 
-	 Submit your solution to gitlab in the directory *prg3*
+	   For visualization you can chose a python library, or you
+	   can use D3.js and a histogram library based on it, if you
+	   are familiar with it.
 
-	 Discuss in your solution the details of the dataset.
+	   Submit your solution to gitlab in the directory *prg3*
+
+	   Discuss in your solution the details of the dataset.
 
 ----------------------------------------------------------------------
 
