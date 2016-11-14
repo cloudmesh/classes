@@ -37,6 +37,8 @@ How will you know which citation you need to do?:
     all the references that are in the list and do the once with your
     assignment number specified in a1 - a5 and b1-b5 as defined in
 
+.. todo:: fix link
+
     https://piazza.com/class/irqfvh1ctrg2vt?cid=260
 
 What if i get a reference to "--------"?
