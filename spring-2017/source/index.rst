@@ -9,7 +9,8 @@ Big Data Applications and Analytics
    * Link to OpenEdX for this class
   
 
-   
+.. todo:: refcards is missing
+
 .. toctree::
    :caption: Course
    :maxdepth: 2
