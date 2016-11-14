@@ -22,13 +22,12 @@ The following directories contain the class materials:
 ==========================
 
 #. Go to `RTD Advanced Settings`_
-#. Change the path to the requirements file
-#. Change the path to the python configuration file
-#. Create a RTD for the new class
-#. Go to `RTD Subprojects`_
-#. Enter the RTD project name in the ``Subproject`` field
-#. Enter the name that should show up in the url (eg ``spring-2017``)
-   in the ``Alias`` field
+#. Change the path to the requirements file (eg ``spring-2017/requirements.txt``)
+#. Change the path to the python configuration file (eg ``spring-2017/source/conf.py``)
+#. Create a RTD for the new class, using the same ``requirements.txt`` and and ``conf.py`` paths.
+#. Go to the main `RTD Subprojects`_
+#. Enter the newly created RTD project name in the ``Subproject`` field
+#. Enter the name that should show up in the url (eg ``spring-2017``) in the ``Alias`` field
 
 ===========================
  Adding other repositories
