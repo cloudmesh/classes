@@ -14,10 +14,6 @@ The following directories contain the class materials:
 - `fall-2016`_: Big Data Applications and Analytics, Fall 2016
 - `spring-2016`_: Big Data Open Source Software Projects, Spring 2016
 
-.. _fall-2016: ./fall-2016
-.. _spring-2016: ./spring-2016
-
-
 ===========================
  Adding other repositories
 ===========================
@@ -52,3 +48,14 @@ need to be merged by rerunning the ``git subtree add`` command above.
 
 - `fall-2016`_: ``git@gitlab.com:cloudmesh/fall2016.git``
 - `spring-2016`_: ``git@github.com:cglmoocs/bdossspring2016.git``
+
+
+
+.. ................................................................  links
+
+
+
+
+
+.. _fall-2016: ./fall-2016
+.. _spring-2016: ./spring-2016
