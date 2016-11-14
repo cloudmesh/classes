@@ -11,6 +11,8 @@ Big Data Applications and Analytics
 
 .. todo:: refcards is missing
 
+.. todo:: fix gitlab.rst
+
 .. toctree::
    :caption: Course
    :maxdepth: 2
