@@ -10,6 +10,8 @@ Software Projects
 
 Please read the information in the overview page at
 
+.. todo:: fix link to RTD
+
 *
 http://bdaafall2016.readthedocs.io/en/latest/overview.html#software-project
 
