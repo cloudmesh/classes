@@ -11,6 +11,7 @@ This repository contains class material.
 
 The following directories contain the class materials:
 
+- `spring-2017`_: Big Data Open Source Software Projects, Spring 2017
 - `fall-2016`_: Big Data Applications and Analytics, Fall 2016
 - `spring-2016`_: Big Data Open Source Software Projects, Spring 2016
 
@@ -56,6 +57,6 @@ need to be merged by rerunning the ``git subtree add`` command above.
 
 
 
-
+.. _spring-2017: ./spring-2017
 .. _fall-2016: ./fall-2016
 .. _spring-2016: ./spring-2016
