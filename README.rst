@@ -18,7 +18,7 @@ The following directories contain the class materials:
 - `spring-2016`_: Big Data Open Source Software Projects, Spring 2016
 
 ==========================
- Switching to a new class
+ Adding a new class
 ==========================
 
 #. Go to `RTD Advanced Settings`_
@@ -28,6 +28,8 @@ The following directories contain the class materials:
 #. Go to the main `RTD Subprojects`_
 #. Enter the newly created RTD project name in the ``Subproject`` field
 #. Enter the name that should show up in the url (eg ``spring-2017``) in the ``Alias`` field
+
+Make sure that Gregor (RTD username ``laszewski``) is added as an `RTD Maintainer`_ for the RTD projects.
 
 ===========================
  Adding other repositories
@@ -82,3 +84,4 @@ need to be merged by rerunning the ``git subtree add`` command above.
 .. _RTD Admin Page: https://readthedocs.org/dashboard/cloudmesh-classes/edit/
 .. _RTD Advanced Settings: https://readthedocs.org/dashboard/cloudmesh-classes/advanced/
 .. _RTD Subprojects: https://readthedocs.org/dashboard/cloudmesh-classes/subprojects/
+.. _RTD Maintainer: https://readthedocs.org/dashboard/cloudmesh-classes/users/
