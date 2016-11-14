@@ -40,3 +40,15 @@ It may be added here like so:
 
 This has the effect of keeping the history of the added subtree
 repository intact, merging it with the current repositories history.
+
+
+============================
+ Known External Repositores
+============================
+
+Several of the courses have been developed in separate
+repositories. If a class is updated externally, the new history will
+need to be merged by rerunning the ``git subtree add`` command above.
+
+- `fall-2016`_: ``git@gitlab.com:cloudmesh/fall2016.git``
+- `spring-2016`_: ``git@github.com:cglmoocs/bdossspring2016.git``
