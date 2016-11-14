@@ -8,18 +8,18 @@ Overview
       :local:
 
 
-This page may be updated throughout Fall 2016, we recommend to review
+This page may be updated throughout the course, we recommend to review
 this page weekly for changes.
 
 
 About the Course
 -----------------
 
-The Big Data Applications and Analytics course is an overview course in
-Data Science and covers the applications and technologies (data
-analytics and clouds) needed to process the application data. It is
-organized around rallying cry: Use Clouds running Data Analytics
-Collaboratively processing Big Data to solve problems in X-Informatics.
+This course is an overview course in Data Science and covers the
+applications and technologies (data analytics and clouds) needed to
+process the application data. It is organized around rallying cry: Use
+Clouds running Data Analytics Collaboratively processing Big Data to
+solve problems in X-Informatics.
 
 Course Numbers
 --------------
@@ -28,11 +28,17 @@ This course is offered for Graduate and Undergraduate students at
 Indiana University and as an online course. To Register, for
 University credit please go to:
 
-* http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
-* http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I423.shtml
-* http://registrar.indiana.edu/browser/soc4168/ENGR/ENGR-E599.shtml
+.. todo:: Fix these links
+
+   * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
+   * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I423.shtml
+   * http://registrar.indiana.edu/browser/soc4168/ENGR/ENGR-E599.shtml
 
 Please, select the course that is most suitable for your program:
+
+.. todo:
+
+   Fix this:
 
     - INFO-I 423 - BIG DATA APPLS & ANALYTICS
        - 34954 online undergraduate students
@@ -53,8 +59,14 @@ Please, select the course that is most suitable for your program:
 
 	     Please ignore postings in CANVAS and the REGISTRAR about
 	     this.
+
+.. todo:: fix discussion time and location
 	     
-From Registrar (however with updated meeting times and location)::
+From Registrar (however with updated meeting times and location):
+
+.. todo:: fix the following
+
+::
 
     INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
          CLSD *****          ARR             ARR    ARR       Von Laszewski G          50    0    2
@@ -96,6 +108,8 @@ From Registrar (however with updated meeting times and location)::
 Meeting Times
 -------------
 
+.. todo:: Fix the meeting times
+
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place at the
 following time:
@@ -107,6 +121,8 @@ For the 100% online students see the office hours.
 
 Office Hours
 ------------
+
+.. todo:: Fix the office hours
 
 Office hours will be held every week
 
@@ -153,6 +169,8 @@ Discussions and communication
 Online discussions and communication will be conducted in piazza at
 the following URL:
 
+.. todo:: fix piazza link
+
 https://piazza.com/iu/fall2016/infoi523/home
 
 Discussions are conducted in clearly marked folders/topics. For
@@ -169,6 +187,8 @@ either in e-mail or in the discussion lists.
 
 Calendar
 ---------
+
+.. todo:: fix calendar
 
 All sessions refer to Sections, Discussions and Units 
 
@@ -288,6 +308,8 @@ The following sections will be replaced:
 
 * TBD: :ref:`S5`
 
+.. todo:: fix the discussion links
+
 .. _d1: https://piazza.com/class/irqfvh1ctrg2vt?cid=10
 .. _d2: https://piazza.com/class/irqfvh1ctrg2vt?cid=11
 .. _d3: https://piazza.com/class/irqfvh1ctrg2vt?cid=12
@@ -333,6 +355,8 @@ resources you may have access to. This may include:
 
 Term Paper or Project
 ----------------------------------------------------------------------
+
+.. todo:: verify this policy for this class
 
 You have a choice to write a term paper or do a software project. This
 will constitute to **50%** of your class grade.
@@ -401,6 +425,8 @@ Additional links:
 
 Term Paper
 -----------
+
+.. todo:: fix piazza link
 
 Teams:
     Up to three people. You can use the
@@ -622,6 +648,8 @@ plagiarism of such papers or codes.
 Instructors
 ------------
 
+.. todo:: fix instructors and their bio
+
 The course presents lectures in online form given by the instructors
 listed bellow. Many others have helped making this material available
 and may not be listed here.
@@ -788,6 +816,8 @@ Warehousing.
 Links
 ------
 
+.. todo:: fix links
+
 This page is published at the following locations:
 
 * OpenEdX: http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
@@ -796,6 +826,8 @@ This page is published at the following locations:
 
 Updates
 -------
+
+.. todo:: fix links
 
 This page is conveniently managed with git. The location for the
 changes can be found at 
