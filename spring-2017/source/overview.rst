@@ -21,6 +21,14 @@ process the application data. It is organized around rallying cry: Use
 Clouds running Data Analytics Collaboratively processing Big Data to
 solve problems in X-Informatics.
 
+Requirements
+------------
+
+This course assumes knowledge of programming in python, the Linux
+shell, and shell scripting. If you are unfamiliar with these topics,
+you may still take the course, but be aware that completion of the
+assignments and projects will require a significant time investment.
+
 Course Numbers
 --------------
 
