@@ -1,4 +1,4 @@
-Big Data Applications and Analytics 
+Big Data Open Source Software Projects
 =========================================================================
 
 * Semester: Spring 2017
