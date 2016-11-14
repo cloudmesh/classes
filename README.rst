@@ -21,7 +21,6 @@ The following directories contain the class materials:
  Switching to a new class
 ==========================
 
-#. Go to the `RTD Admin Page`_
 #. Go to `RTD Advanced Settings`_
 #. Change the path to the requirements file
 #. Change the path to the python configuration file
