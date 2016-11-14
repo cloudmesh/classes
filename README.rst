@@ -78,7 +78,7 @@ need to be merged by rerunning the ``git subtree add`` command above.
 .. _spring-2016: ./spring-2016
 
 .. _Spring 2017, RTD: http://cloudmesh-classes.readthedocs.io/projects/spring-2017/en/latest/
-.. _Fall 2017, RTD: http://cloudmesh-classes.readthedocs.io/projects/fall-2016/en/latest/
+.. _Fall 2016, RTD: http://cloudmesh-classes.readthedocs.io/projects/fall-2016/en/latest/
 
 .. _Read the Docs: http://cloudmesh-classes.readthedocs.io/en/latest/
 .. _RTD Admin Page: https://readthedocs.org/dashboard/cloudmesh-classes/edit/
