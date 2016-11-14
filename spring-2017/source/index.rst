@@ -56,6 +56,8 @@ Big Data Applications and Analytics
    n-resources
 
 	      
+.. todo:: check all in drafts
+
 .. toctree::
    :caption: Drafts(TODO)
    :maxdepth: 2
