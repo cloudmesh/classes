@@ -33,7 +33,7 @@ located at git as::
 
 It may be added here like so:
 
-.. code: sh
+.. code-block:: sh
 
    $ git subtree add -P spring-1971 git@github.com/somegroup/class-material.git master
 
