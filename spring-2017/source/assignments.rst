@@ -52,6 +52,9 @@ English speakers.
 Week 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. todo:: fix Communication pathway
+
+
 Communication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. _Piazza: https://piazza.com/class/irqfvh1ctrg2vt
@@ -75,7 +78,11 @@ Resources res1
     * Register in https://portal.futuresystems.org/
 
 
+.. todo:: fix link to survey
+
 .. _SURVEY1:
+
+.. todo:: fix link to piazza discussions
 
 .. _d1: https://piazza.com/class/irqfvh1ctrg2vt?cid=10
 .. _d2: https://piazza.com/class/irqfvh1ctrg2vt?cid=11
@@ -94,6 +101,8 @@ Resources res1
 
 Survey 1
 ^^^^^^^^^
+
+.. todo:: fix link to survey
 
 Please fill out the `Survey <https://goo.gl/forms/25LQnC5kUOUmM4DV2>`_
 to let us help you better with the course
@@ -204,6 +213,8 @@ Paper p2
 	    privacy issues.
 
 	  You will be submitting the paper in gitlab.com as discussed in:
+
+          .. todo:: fix link to RTD
 
 	  http://bdaafall2016.readthedocs.io/en/latest/gitlab.html
 
@@ -335,6 +346,8 @@ chrome book is insufficient.
 
 The detailed description including 3 videos are posted at:
 
+.. todo:: fix link to RTD
+
 * http://bdaafall2016.readthedocs.io/en/latest/ubuntu.html
 
 Please conduct form that page Homework 1, 2 & 3
@@ -434,6 +447,9 @@ Programming prg1: Python
 
 Term Paper and Term Project Report Assignment T1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo:: fix link to survey
+
      Please prepare for the selection process for a project or a term paper:
 
      * Review the guidelines for the project and term paper.
@@ -527,6 +543,7 @@ prg2 (canceled)
 	 25 Video V6: Video Review/Study Section 7 Units 12-15; total
 	 3 hours 7 minutes. This is Physics Informatics Section.
 
+.. todo:: link to the file in the current repo
 
 	 https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs
 
@@ -664,6 +681,9 @@ Project or Term Report
 
 Discussion 11, 12, 13, 14
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. todo:: fix piazza link
+
 	   Discuss what you learnt from videos you watched in last 2
 	   weeks of class Sections 12-15; chose one of the topics: Web
 	   Search and Text mining, Big Data Technology, Sensors, Radar
@@ -700,6 +720,8 @@ includes:
 * Azure (you will be responsible for charges)
 * virtualbox if you have a powerful computer and like to prototype
 * other clouds
+
+.. todo:: fix FutureSystems project number and link
 
 We intend to make some small number of virtual machines available for
 us in a project FG511 on FutureSystems:
@@ -788,6 +810,8 @@ Software Project
 Develop a software system with OpenStack available on FutureSystems or
 Chameleoncloud to support it. Only choose the software option if you
 are prepared to take on programming tasks.
+
+.. todo:: fix link to openedx
 
 In case of a software project, we encourage a group project with up to
 three members.  You can use the discussion list for the
