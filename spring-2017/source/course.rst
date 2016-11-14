@@ -1521,6 +1521,8 @@ Lesson 1 - FutureSystems Overview
 In this video we introduce FutureSystems in terms of its
 services and features.
 
+.. todo:: fix link to openedx
+
 FirstProgram.java:
 http://openedx.scholargrid.org:18010/c4x/SoIC/INFO-I-523/asset/FirstProgram.java
 
