@@ -208,10 +208,3 @@ You will see the following output once you have completed that step::
     Enter same passphrase again:
     Your identification has been saved with the new passphrase.  
 
-
-Upload the key to gitlab
-------------------------
-
-Follow the instructions provided here:
-
-* http://docs.gitlab.com/ce/ssh/README.html
