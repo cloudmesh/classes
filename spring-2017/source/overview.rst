@@ -27,7 +27,9 @@ Requirements
 This course assumes knowledge of programming in python, the Linux
 shell, and shell scripting. If you are unfamiliar with these topics,
 you may still take the course, but be aware that completion of the
-assignments and projects will require a significant time investment.
+assignments and projects will require additional time needed by you to
+become familiar with them. We have provided additional information as
+part of the course material that assists you in learning about them.
 
 Course Numbers
 --------------
@@ -202,7 +204,7 @@ All sessions refer to Sections, Discussions and Units
 
 * This document supersedes any assignment dates and comments regarding
   assignments made in videos or stated elsewhere
-* Official and additional announcements will be send via CANVAS  
+* Official and additional announcements will be send via CANVAS
 * All lectures are assigned Friday's
 * All discussions and homework are due 3 weeks after the assignment + the next weekend, e.g. Monday Morning if not 
   specified otherwise. Precise dates will be published in CANVAS
@@ -476,6 +478,9 @@ Additional links:
 
 Report Format
 ---------------
+
+.. todo:: THIS SECTION WILL CHNAGE, WE WILL ONLY ACCEPT SHARELATEX, WE
+	  MAY USE SIMPLER FORMAT SUCH AS SPRINGER BOOK 
 
 All reports will be using the ACM proceedings format. The MSWord template
 can be found here:
