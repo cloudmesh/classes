@@ -400,6 +400,58 @@ use LaTeX as you can focus there on content rather than dealing with
 comlex layout decissions. This is especially true, if your papers has
 figures or tables, or you need to add refernces.
 
+Other Reference Managers
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Please note that you should first decide which refernce manager you
+like to use. In case you for example install zotero and mendeley, that
+may not work with word or other programs.
+
+	  
+Endnote
+~~~~~~~~
+
+Endnote os a reference manager that works with Windows. Many people
+use endnote. However, in the past endnote has lead to complications
+when dealing with collaborative management of references. Its price is
+considerable. We have lost many hours of work because endnot being in
+some cases instable. As student you may be able to use endnote for
+free at Indiana University.
+
+* http://endnote.com/
+
+
+Mendeley
+~~~~~~~~~
+
+Mendeley is a free refernce manager compatible with Windows Word 2013,
+Mac Word 2011, LibreOffice, BibTeX. Videos on how to use it are
+available at:
+
+* https://community.mendeley.com/guides/videos
+
+Instalation instructions are available at
+
+https://www.mendeley.com/features/reference-manager/
+
+When dealing with large databases we found Mendeleys integration into
+word slow.
+
+Zotero
+~~~~~~
+
+Zotero is a free tool to help you collect, organize, cite, and share
+your research sources.  Documentation is available at
+
+* https://www.zotero.org/support/
+
+The download link is available from
+
+* https://www.zotero.org/
+
+We have limited experience with zotero
+
+
 Slides
 ----------------------
 
@@ -433,8 +485,8 @@ source file into the ppt.
 
 
 
-References
-----------
+Links
+-----
 
 -  The `LaTeX Reference
    Manual <http://texdoc.net/texmf-dist/doc/latex/latex2e-help-texinfo/latex2e.pdf>`__
@@ -479,3 +531,7 @@ http://tex.stackexchange.com/questions/30985/displaying-a-wide-figure-in-a-two-c
   instead use , and the word and
 
 * If you need to use _ it is \_ but if you use urls leave tham as is
+
+* We do recommend that you use sharelatex and jabref for writing
+  papers. This is the easiest solution and beats in many cases MSWord
+  as you can focus on writing and not on formating.
