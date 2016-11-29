@@ -9,11 +9,10 @@ Lessons
 .. toctree::
    :caption: Lessons
    :maxdepth: 1
-
-   lesson_ssh_link
-
-   .. include:: ../../lesson/index.rst
-
+	      
+   lesson/*/index
+   
+   
    
 
 Indices and tables
