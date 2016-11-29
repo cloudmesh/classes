@@ -9,8 +9,15 @@ Lessons
 .. toctree::
    :caption: Lessons
    :maxdepth: 1
-	      
-   lesson/*/index
+
+   lesson/org/index      	      
+   lesson/contrib/index      
+   lesson/linux/index   
+   lesson/doc/index
+   lesson/programming/index
+   lesson/cloud/index
+
+
    
    
    

@@ -1,5 +1,5 @@
-Writing Documents
-=================
+Contributing
+============
 
 .. toctree::
    :glob:
