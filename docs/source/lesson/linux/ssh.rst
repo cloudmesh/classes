@@ -3,22 +3,17 @@
 Using SSH Keys
 ======================================
 
-.. sidebar:: Page Contents
-
-   .. contents::
-      :local:
-
-   .. hint:: If you do not know what ssh is we recommend that you
-             `read up on it <http://openssh.com/manual.html>`__ .
-	     However, the simple material presented here will help you
-	     getting started quickly.
+If you do not know what ssh is we recommend that you
+`read up on it <http://openssh.com/manual.html>`__ .
+However, the simple material presented here will help you
+etting started quickly. It can however not replace the more
+comprehensive documentation.
 
 
 To access remote resources this is often achieved via SSH. You need to
 provide a public ssh key to FutureSystem. We explain how to generate a
 ssh key, upload it to the FutureSystem portal and log onto the
-resources. This manual covers UNIX, Mac OS X. For Windows we will
-prepare an add on to this document. 
+resources. This manual covers UNIX, Mac OS X. 
 
 .. _s-using-ssh-windows:
 
@@ -33,8 +28,7 @@ Using SSH from Windows
 	     instructions. The information here is just provided for
 	     completness and no support will be offered for native
 	     windows support.	  
-	  
-	  
+	
 Windows users need to have some special software to be able to use the
 SSH commands. If you have one that you are comfortable with and know
 how to setup key pairs and access the contents of your public key,
@@ -49,9 +43,17 @@ users include
   <http://cygwin.com/install.html>`__ and running Linux virtual
   machine on your Windows OS.
 * using chocolatey
+* using bash ubuntu under WIndows 10 (we need a contribution on this)  
   
 We will be discussing here how to use it in Powershell with the help
-of chopolatey.
+of chopolatey. Other options may be better suited for you and we leave
+it up to you to make this decission. In general we recommend that you
+use an ubuntu OS either on bare hardware or a virtual
+machine. Naturally your computer must support this. It will be up to
+you to find such a computer.
+
+However if you want a unix like environments with ssh you can use
+Chocolatey.
 
 Chocolatey is a software management tool that mimics the install
 experience that you have on Linux and OSX. It has a repository with
@@ -79,6 +81,9 @@ security requirements as well as your architecture. Lets assume you
 chose the Microsoft port, than you can install it with::
 
   choco install win32-openssh
+
+.. warning:: If you have a different version such as a 64 bit version
+	     please find teh appropriate commands  
 
 Other packages of interest include
 
@@ -208,3 +213,21 @@ You will see the following output once you have completed that step::
     Enter same passphrase again:
     Your identification has been saved with the new passphrase.  
 
+Exercise
+--------
+
+SSH.1:
+  create an SSH key pair
+
+SSH.2:
+  upload the key to github and/or gitlab. Create a fork in git and use
+  your ssh key to clone and commit to it
+
+SSH.3:
+  Get an account on futuresystems.org (if you are authorized to do
+  so). Upload your key to futuresystems.org. Login to
+  india.futuresystems.org
+  Note. that this could take some time as administrators need to
+  approve you. Be patient.
+
+  

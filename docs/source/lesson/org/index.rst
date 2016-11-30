@@ -19,6 +19,12 @@ class that has a text book. The teacher may elect to skip a chapter,
 or decide to assign just a subset of assignments. Assignments that are
 not listed in the overview are not graded. 
 
+.. note:: Please also note the the lessons presented here are not
+	  necessarily given in order. INstead they are topically
+	  grouped and within the topic sorted alphabetically. If you
+	  are looking for an order in which you elect to follow the
+	  lessons you need to refer to the class overview or syllabus.
+   
 Exercise
 --------
 

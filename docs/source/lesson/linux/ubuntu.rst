@@ -113,10 +113,15 @@ commandline tools
 
 * Video: https://youtu.be/EnpneUY82I8
    
-Homework Virtualbox
--------------------
+Exercise
+--------
 
-1. Install ubuntu desktop on your computer with guest additions.
-2. Make sure you know how to paste and copy between your host and
+Virtualbox.1:
+   Install ubuntu desktop on your computer with guest additions.
+
+Virtualbox.2:
+   Make sure you know how to paste and copy between your host and
    guest operating system
-3. Install the programs defined by the development configuration
+
+Virtualbox.3:
+   Install the programs defined by the development configuration

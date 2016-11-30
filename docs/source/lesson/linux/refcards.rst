@@ -1,6 +1,16 @@
 Refcards
 ========
 
+We present you with a list of useful short refrence cards. This cards
+can be extremly useful to remind yourself about some important
+commands and features. Having them could simplify your interaction
+with the systems, We not only collected here some refcards about
+Linux, but also about other useful tools and services.
+
+If you like to add new topics, let us know via your contribution (see
+the contribution section).
+
+
 +-------------+--------------------------------------------------------------------------+
 | Emacs       | https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf              |
 +-------------+--------------------------------------------------------------------------+

@@ -50,7 +50,10 @@ Documents that do not follow the ACM format and are not accompanied by
 references managed with jabref or endnote or are not spell checked
 will be returned without review.
 
-Report Checklist:
+Report Checklist
+----------------
+
+This incomplete list may serve as a way to check if you follow the rules
 
 :|box|:
    Have you written the report in word or LaTeX in the specified
@@ -96,4 +99,44 @@ Report Checklist:
 :|box|: Check in your current work of the report on a weekly basis to
 	show consistent progress. 	
 
+:|box|: Is in your report directory a README.rst file in it as shown
+	in the example project-000 that we introduced you to.	
+
+
+
+Exercise
+--------
+
+Report.1:
+  Install latex and jabref on your system
+
+Report.2:
+  Check out the project-000 example directory. Create a PDF and view
+  it. Modify and recompile.
+
+Report.4:
+  Learn about the different formats in bibtex
+
+Report.5:
+  What is an article in Report?
+
+Report.6:
+  What is an InProceedings and how does it differ from Conference?
+
+Report.7:  
+  What is a Misc?
+
+Report.8:
+  Why are spaces, underscores in directory names
+  problematic for Report and why should you avoid using them for your projects
+
+Report.9:
+  Write an objective report about the advantages and disadvantages of
+  programs to write reports.
+
+
+
 .. |box| unicode:: U+2610
+
+
+		   
