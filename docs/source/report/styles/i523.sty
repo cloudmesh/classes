@@ -1,0 +1,22 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{styles/i523}[2016/12/20 i523 - Gregor von Laszewski]
+
+% Set journal name for header
+\newcommand*{\journalname}{I523}
+
+% Set journal article types
+\newcommand*{\journalshorttype}{Letter}
+\newcommand*{\journallongtype}{Research Article}
+
+% Set color for header, authors, table lines
+% For long articles
+\definecolor{color2}{RGB}{33,72,131} % blue
+% For short articles
+\definecolor{color2b}{RGB}{33,72,131} % blue
+
+% Set bibliography style
+\bibliographystyle{osajnlnt}
+
+\setboolean{shortarticle}{false} 
+
+\endinput

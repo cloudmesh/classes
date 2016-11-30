@@ -2,12 +2,38 @@
 Overview
 ========
 
-.. sidebar:: Page Contents
+ http://datascience.scholargrid.org
+ 
+* slides and videos:
+  https://iu.app.box.com/s/pes3skivaj77lgdfb5g02g5vna1ehew5
 
-   .. contents::
-      :local:
+* example lessons on technologies:
 
+  file:///Users/big/github/cloudmesh-new/classes/spring-2016/docs/build/html/lesson/collaboration/git.html
+  
 
+where is teaching material on ansible:
+
+* http://bdossp-spring2016.readthedocs.io/en/latest/lesson/ansible.html
+* http://bdossp-spring2016.readthedocs.io/en/latest/lesson/ansible_playbook.html
+*
+http://bdossp-spring2016.readthedocs.io/en/latest/lesson/ansible_roles.html
+
+ANsible official:
+
+* best practice
+  https://docs.ansible.com/ansible/playbooks_best_practices.html
+* ansible:
+  http://docs.ansible.com/ansible/index.html
+  
+.. warning::
+
+   This site is still under construction
+
+* Semester: Spring 2017
+* Link to Read the Docs: http://cloudmesh_classes.readthedocs.io/en/latest/
+
+	 
 This page may be updated throughout the course, we recommend to review
 this page weekly for changes.
 
@@ -40,79 +66,34 @@ University credit please go to:
 
 .. todo:: Fix these links
 
-   * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I523.shtml
-   * http://registrar.indiana.edu/browser/soc4168/INFO/INFO-I423.shtml
-   * http://registrar.indiana.edu/browser/soc4168/ENGR/ENGR-E599.shtml
+  * http://registrar.indiana.edu/browser/soc4172/INFO/INFO-I524.shtml
+
 
 Please, select the course that is most suitable for your program:
 
-.. todo:
-
-   Fix this:
-
-    - INFO-I 423 - BIG DATA APPLS & ANALYTICS
-       - 34954 online undergraduate students
-       - 34955 Discussion Friday 9:30 - 10:45AM Informatics East (I2) 150
-    - INFO-I 523 - BIG DATA APPLS & ANALYTICS
-       - 32863 online graduate students
-       - 32864 Discussion Friday 9:30 - 10:45AM Informatics East (I2) 150
-       - 32866 Data Science majors only
-    - ENGR-E 599 - TOPICS IN INTELLIGENT SYSTEMS ENGINEERING
-       - 36362 online graduate engineering students
-       - 36363 Discussion Friday 9:30 - 10:45AM Informatics East (I2) 150
+             * Friday 9:30 - 10:45AM Informatics East (I2) 130
 
 
-.. warning:: Please note that all discussion sections for residential
-	     students have been merged to:
-
-             * Friday 9:30 - 10:45AM Informatics East (I2) 150
-
-	     Please ignore postings in CANVAS and the REGISTRAR about
-	     this.
-
-.. todo:: fix discussion time and location
-	     
 From Registrar (however with updated meeting times and location):
 
-.. todo:: fix the following
+
+
 
 ::
-
-    INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
-         CLSD *****          ARR             ARR    ARR       Von Laszewski G          50    0    2
-                 Above class open to graduates only
-                 Above class taught online
-                 Discussion (DIS)
-         CLSD 32864          09:30A-10:45A   F      I2 150    Von Laszewski G          50    0    2
-                 Above class meets with INFO-I 423
-
-    INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
-        I 523 : P - Data Science majors only
-              32866 RSTR     ARR             ARR    ARR       Von Laszewski G          90   72    0
-                 This is a 100% online class taught by IU Bloomington. No
-                 on-campus class meetings are required. A distance education
-                 fee may apply; check your campus bursar website for more
-                 information
-                 Above class for students not in residence on the Bloomington
-                 campus
-
-    INFO-I 423  BIG DATA APPLS & ANALYTICS (3 CR)
-         CLSD ***** RSTR     ARR             ARR    ARR       Von Laszewski G          10    0    6
-                 Above class open to undergraduates only
-                 Above class taught online
-                 Discussion (DIS)
-         CLSD 34955 RSTR     09:30A-10:45A   F      I2 150    Von Laszewski G          10    0    6
-                 Above class meets with INFO-I 523
-
-    ENGR-E 599  TOPICS IN INTELL SYS ENGINEER (3 CR)
-           VT: BG DATA APPLICATNS & ANLYTCS ISE
-              ***** RSTR     ARR             ARR    ARR       Von Laszewski G          25   25    0
-                 Above class open to graduate engineering students only
-                 Above class taught online
-                 Discussion (DIS)
-           VT: BG DATA APPLICATNS & ANLYTCS ISE
-              36363 RSTR     01:00P-02:15P   F      HD TBA    Von Laszewski G          25   25    0
-                  Above class meets with INFO-I 523
+   
+    INFO-I 524  BIG DATA SOFTWARE AND PROJECTS (3 CR)    Von Laszewski G          
+             Above class open to graduates only
+             Above class taught online
+             Discussion (DIS)
+          30672 RSTR     09:30A-10:45A   M      I2 130    Von Laszewski G          
+             Above class meets with ENGR-E 599
+    INFO-I 524  BIG DATA SOFTWARE AND PROJECTS (3 CR)
+          30673 RSTR     ARR             ARR    ARR       Von Laszewski G          
+             Above class open to graduates only
+             This is a 100% online class taught by IU Bloomington. No
+             on-campus class meetings are required. A distance education
+             fee may apply; check your campus bursar website for more
+             information
 
 
 Meeting Times

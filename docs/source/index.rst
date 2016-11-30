@@ -3,11 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Lessons
-=======
-
 .. toctree::
-   :caption: Lessons
+   :caption: Lessons 
    :maxdepth: 1
 
    lesson/org/index      	      
@@ -17,8 +14,11 @@ Lessons
    lesson/programming/index
    lesson/cloud/index
 
+.. toctree::
+   :caption: Spring 2017
+   :maxdepth: 1
 
-   
+   spring-2017/index	      
    
    
 
