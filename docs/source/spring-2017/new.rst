@@ -25,13 +25,17 @@ Students of this class will need to conduct their project deployments in python 
 
 .. note::
 
-   Previous I523 class participants: While I523 is a beginners class I524 is an
-   advanced class and we expect that you know python which you hopefully have learned
-   as part of I523. If not, make sure you learn it before, or consider additional
-   time needed for that class. You will be expected to have a computer on which you
-   have python installed. You will be using chameleon and our local cloud. Optionally
-   some projects may use docker. A significant amount of time is needed beyond the
-   lectures to familiarize yourself with the technologies more so than in I523.
+   Previous I523 class participants: While I523 is a beginners class
+   I524 is an advanced class and we expect that you know Python (we
+   will use python 2.7) which you hopefully have learned as part of
+   I523. If not, make sure you learn it before, or consider additional
+   time needed for that class. You will be expected to have a computer
+   on which you have Python 2.7 installed. You may be using chameleon
+   cloud, jetstream cloud (advanced features of using openstack and
+   not their GUI) and our local cloud. Optionally some projects may
+   use docker. A significant amount of time is needed beyond the
+   lectures to familiarize yourself with the technologies more so than
+   in I523. 
 
 .. note::
    
@@ -43,10 +47,9 @@ Students of this class will need to conduct their project deployments in python 
 
 .. note::
 
-   I524 starts where I523 left. HOwever, you can take I524 without taking I523, but
+   I524 starts where I523 left. However, you can take I524 without taking I523, but
    we recommend that you know python so you can catch up easily.
 
-   
 
 .. note::
 
@@ -58,23 +61,36 @@ Homework
 --------
 
 * Discussions (10%),
-* Technology paper about 3 of the 300 systems (30%, at least 6 pages without
-  references),
+* Technology paper ov about 4 of the 300 systems (30%, at least 8 pages without
+  references, e.g. 2 pages for each technology.)
 * Project (60%) (at least 6 pages without references)
-
+  
 Discussions must be done individually.
 
-Technology papers and Projects are allowed to be conducted in groups. Groups can have up to three members. More than three students are not allowed in a project or paper.
-The workload and expectation for the project increases with each student. A work break down must be provided for projects to identify what each student did.
+Technology papers and Projects are allowed to be conducted in
+groups. Groups can have up to three members. More than three students
+are not allowed in a project or paper.  The workload and expectation
+for the project increases with each student. A work break down must be
+provided for projects to identify what each student did.
 
-Each student will add 6 pages to the technology paper with 3 technologies each, resulting in 2 pages per technology.
+As obvious from our previous statement, each student will add 8 pages
+to the technology paper with 4 technologies each, resulting in 2 pages
+per technology. Thus if you have 3 students you will discuss 12
+technologies in depth and write 24 pages. If you work alone you have
+to deliver 8 pages for 4 technologies.  Technologies in the papers
+must be nonoverlapping in the entire class. Technologies will be
+assigned to you. 
 
-Thus if you have 3 students you will discuss 9 technologies in depth and write 18 pages. If you work alone you have to deliver 6 pages for 3 technologies.
-Technologies in the papers must be nonoverlapping in the entire class. If multiple students select the same technology, we will be drawing randomly which students does which technology.
+Each student will develop as part of the project an ansible deployment
+of a technology. Points may depend on completeness, simplicity,
+reproducability, and documentation of the deployment.
 
-Each student will develop as part of the project an ansible deployment of a technology. Points may depend on completeness, simplicity, reproducability, and documentation of the deployment.
-
-We expect you are familiar with Linux or the OS on which you will focus your deployment systems you must know python, pip, virtualenv (all easy to learn), editor to edit python (pycharm, emacs, vi, eclipse, other). These technologies you can learn with additional time as part of the class.
+We expect you are familiar with Linux or the OS on which you will
+focus your deployment systems you must know python, pip, virtualenv
+(all easy to learn), editor to edit python (pycharm, emacs, vi,
+eclipse, other). In case you are not familiar with them, these
+technologies you can learn with additional time you spend outside of
+the class.
 
  
 
