@@ -1,47 +1,56 @@
-Kaleidoscope of (Apache) Big Data Stack (ABDS) and HPC Technologies
+Technologies
 ======================================================================
+
+In this section we find some technologies related to big data
+
+
+* Apache projects: https://projects.apache.org/projects.html?category
+
+* Slurm :cite:`slurm`
+  
 
 Workflow-Orchestration
 ----------------------------------------------------------------------
 
 * ODE
-* ActiveBPEL, Airavata
-* Pegasus,
-* Kepler,
-* Swift,
-* Taverna,
-* Triana,
-* Trident,
-* BioKepler,
-* Galaxy,
-* IPython,
-* Dryad,
-* Naiad,
-* Oozie,
-* Tez,
-* Google FlumeJava,
-* Crunch,
-* Cascading,
-* Scalding,
-* e-Science Central,
-* Azure Data Factory,
-* Google Cloud Dataflow,
-* NiFi (NSA),
-* Jitterbit,
-* Talend,
-* Pentaho,
-* Apatar,
-* Docker Compose,
+* ActiveBPEL
+* Airavata
+* Pegasus
+* Kepler
+* Swift
+* Taverna
+* Triana
+* Trident
+* BioKepler
+* Galaxy
+* IPython
+* Dryad
+* Naiad
+* Oozie
+* Tez
+* Google FlumeJava
+* Crunch
+* Cascading
+* Scalding
+* e-Science Central
+* Azure Data Factory
+* Google Cloud Dataflow
+* NiFi (NSA)
+* Jitterbit
+* Talend
+* Pentaho
+* Apatar
+* Docker Compose
 * KeystoneML
 
 
 Application and Analytics
 ----------------------------------------------------------------------
 
-* Mahout ,
-* MLlib,
-* Mbase,
-* DataFu,
+* Mahout 
+* MLlib
+* Mbase
+* DataFu
 * R
 * pbdR
 * Bioconductor
@@ -49,7 +58,7 @@ Application and Analytics
 * OpenCV
 * Scalapack
 * PetSc
-*PLASMA MAGMA
+* PLASMA MAGMA
 * Azure Machine Learning
 * Google Prediction API & Translation API
 * mlpy
@@ -119,7 +128,7 @@ Application Hosting Frameworks
 High level Programming
 ----------------------------------------------------------------------
 
-Kite
+* Kite
 * Hive
 * HCatalog
 * Tajo
@@ -160,7 +169,8 @@ Streams
 * Azure Stream Analytics
 * Floe
 * Spark Streaming
-* Flink Streaming, DataTurbine
+* Flink Streaming
+* DataTurbine
 
 
 Basic Programming model and runtime, SPMD, MapReduce
@@ -344,7 +354,7 @@ Cluster Resource Management
 * SGE
 * OpenPBS
 * Moab
-* Slurm
+* Slurm :cite:`slurm`
 * Torque
 * Globus Tools
 * Pilot Jobs
@@ -444,10 +454,10 @@ IaaS Management from HPC to hypervisors
 * Amazon Route 53 
 
 Cross-Cutting Functions
-=======================
+----------------------------------------------------------------------
 
 Monitoring
-----------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Ambari
 * Ganglia
@@ -456,7 +466,7 @@ Monitoring
 
 
 Security & Privacy
-----------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * InCommon
 * Eduroam
@@ -468,7 +478,7 @@ Security & Privacy
 * SAML OAuth
  
 Distributed Coordination
-----------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Google Chubby
 * Zookeeper
@@ -476,8 +486,13 @@ Distributed Coordination
 * JGroups
 
 Message and Data Protocols
-----------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Avro
 * Thrift
 * Protobuf
+
+.. rubric:: References
+
+.. bibliography:: refs.bib
+   :cited:

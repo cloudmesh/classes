@@ -19,7 +19,7 @@
    :maxdepth: 1
 
    spring-2017/index	      
-   
+   technologies   
    
 
 Indices and tables
