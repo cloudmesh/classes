@@ -1,5 +1,5 @@
-github
-======================================================================
+Github
+======
 
 Github is a code repository that allows the development of code in a
 distributed fashion. There are many good tutorials about github.
@@ -11,8 +11,7 @@ tutorial is for example available at
 
 A more extensive list of tutorials can be found at 
 
-*
-https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
+* https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
 
 Important is that you always want to make sure that you want to use
 the git init command and add your Name and e-mail. Do it consistent in

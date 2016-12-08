@@ -11,7 +11,7 @@
    lesson/contrib/index      
    lesson/linux/index   
    lesson/doc/index
-   lesson/programming/index
+   lesson/prg/index
    lesson/cloud/index
 
 .. toctree::
