@@ -51,4 +51,6 @@ Hadoop
 Refernces
 =========
 
+.. rubric:: References
+   
 .. bibliography:: refs.bib    

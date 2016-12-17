@@ -21,13 +21,23 @@ import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-on_rtd = False
-bootstrap_theme = False
+if on_rtd:
+    bootstrap_theme = False
+    foundation_theme = False
+    rtd_them = True
+else:
+    bootstrap_theme = False
+    foundation_theme = True
+    rtd_theme = False
+
 if bootstrap_theme:
     import sphinx_bootstrap_theme
-
+elif foundation_theme:
+    import foundation_sphinx_theme
+    
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -38,6 +48,7 @@ if bootstrap_theme:
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinxcontrib.bibtex',
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
@@ -45,9 +56,12 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.githubpages',
+    'sphinx-prompt'
 ]
-extensions += ['sphinx-prompt']
-extensions += ['sphinxcontrib.bibtex']    
+
+if foundation_theme:
+    sys.path[0:0] = [os.path.abspath('_themes/foundation-sphinx-theme')]
+    extensions += ['foundation_sphinx_theme']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -66,8 +80,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Cloudmesh Classes'
-copyright = u'2016, Gregor von Laszewski'
+project = u'Big Data Classes'
+copyright = u'2016, Gregor von Laszewski, Badi Abduhl-Wahid'
 author = u'Gregor von Laszewski'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -138,24 +152,132 @@ todo_include_todos = True
 # a list of builtin themes.
 #
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
+if not on_rtd and rtd_theme:  # only import and set the theme if we're building docs locally
 
+    import sphinx_rtd_theme
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-else:
-    html_theme = 'alabaster'
 
-if bootstrap_theme:
+elif bootstrap_theme:
+
     html_theme = 'bootstrap'
     html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
+elif foundation_theme:
+
+    html_theme = 'foundation_sphinx_theme'
+    html_theme_path = foundation_sphinx_theme.HTML_THEME_PATH
+    
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
 # html_theme_options = {}
+
+if foundation_theme:
+    
+   html_theme_options = {
+        'motto': 'Long description which appears next to logo.',
+
+        # Your stylesheet relative to the _static dir.
+        # Default is 'foundation/css/basic.css'
+        #'stylesheet': '/path/to/your/stylesheet.css',
+        # Default is 'foundation/css/basic.css'        
+        'stylesheet': 'foundation/css/cards.css',
+
+        # Logo image in SVG format. If the browser doesn't support SVG
+        # It will try to load JPG with the same name.
+        'logo_screen': '',
+
+        # Logo for small screens. If ommited, logo_screen will be used.
+        'logo_mobile': '',
+
+        # Path to your favicon.ico file relative to the _static dir.
+        'favicon': '',
+
+        # Use this if the top-level items of the toctree don't fit in the top-bar navigation.
+        # If True, the whole toctree will be placed inside a single top-level item.
+        'top_bar_force_fit': True,
+
+        # The title of the aformentioned top-level item. Default is "Sections"
+        'top_bar_content_title': 'Sections',
+
+        # If set, Google Analytics code will be appended to body of each page.
+        #'google_analytics_id': 'your-google-analytics-id',
+
+        # The "og:title", "og:type", "og:url", "og:site_name" and "og:description" Open Graph tags
+        # will be generated automatically, but you should specify the
+        # path to the image that you want to be used
+        # in the required "og:image" property relative to the _static dir.
+        #'opengraph_image': 'path/to/your/opengraph-image.jpg',
+
+        # Any custom additional OG tags
+        #'opengraph_tags': {
+        #        'foo': 'bar', # will be rendered as <meta property="og:foo" content="bar" />
+        #},
+
+        # The "description" meta tag will be created automatically, but
+        # you can specify additional meta tags here.
+        'meta_tags': {
+                'foo': 'bar', # will be rendered as <meta name="foo" content="bar">
+        },
+
+        # The value for "description" and "og:description" metatags.
+        # If omitted, the value of "motto" will be used.
+        'seo_description': 'This is an example of the Foundation Sphinx Theme output.',
+
+        # Use this as the base for Open Graph URLs without trailing slash.
+        'base_url': 'http://cloudmesh.org/classes',
+
+        # If true a bar with Facebook, Google+ and Twitter social buttons will be displayed
+        # underneath the header.
+        #'social_buttons': True,
+
+        # ID of your Facebook app associated with the Facebook Like button.
+        #'facebook_app_id': '123456789',
+
+        # A Twitter ID used for the via mention of the Twitter button.
+        #'twitter_id': 'FoundationSphinx',
+
+        # Flattr button settings.
+        #'flattr_id': 'andypipkin', # Your Flattr ID
+        #'flattr_title': '', # If missing docstitle or title will be used.
+        #'flattr_description': '', # If missing seo_description or motto will be used.
+        #'flattr_tags': '', # Optional.
+
+
+        # If "author" and "copyright_year" are set they will override the "copyright" setting.
+
+        # Author's name.
+        'author': 'Gregor von Laszeski, Badi Abdhul-Wahid',
+
+        # Author's link.
+        'author_link': 'http://gregor.cyberaide.org',
+
+        # Year to be used in the copyright statement.
+        'copyright_year': '2017',
+
+        # Author's Google+ id. If set a G+ authorship link will be added.
+        #'google_plus_id': '117034840853387702598',
+
+
+        # Fork me on GitHub ribbon will be displayed if "github_user", "github_repo" and "github_ribbon_image" are set:
+        # https://github.com/blog/273-github-ribbons
+        # Ribbons are hidden on small screens!
+
+        # Your GitHub ID.
+        #'github_user': 'foundation-sphinx-theme',
+
+        # The repository slug.
+        #'github_repo': 'foundation-sphinx-theme',
+
+        # Path to the ribbon image relative to the "_static" directory.
+        #'github_ribbon_image': 'my-github-ribbon.png',
+
+        # Position of the ribbon "left" or "right".
+        #'github_ribbon_position': 'right',
+   }
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
@@ -264,6 +386,9 @@ html_static_path = ['_static']
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'CloudmeshClassesdoc'
+
+
+
 
 # -- Options for LaTeX output ---------------------------------------------
 
