@@ -1,0 +1,427 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Additional Programming Assignments | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="Additional Programming Assignments | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/fall-2016/programming.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../_static/foundation/css/cards.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown ">
+<li class="toctree-l1"><a class="reference internal" href="../i524.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		
+			<li><a href="../genindex.html"  title="General Index">index</a></li>
+		
+
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="additional-programming-assignments">
+<h1>Additional Programming Assignments<a class="headerlink" href="#additional-programming-assignments" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="programming-hadoop-cluster">
+<h2>Programming: Hadoop Cluster<a class="headerlink" href="#programming-hadoop-cluster" title="Permalink to this headline">¶</a></h2>
+<p>You will be provided with a Hadoop cluster running MapReduce. Your
+goal will be to use the Hadoop cluster to run a “Big Data”
+computation. One possible approach is the Terabyte Sort procedure. The
+components are:</p>
+<ul class="simple">
+<li>TeraGen: create the data</li>
+<li>TeraSort: analyze the data using MapReduce</li>
+<li>TeraValidate: validation of the output</li>
+</ul>
+<div class="section" id="access-to-the-cluster">
+<h3>Access to the cluster<a class="headerlink" href="#access-to-the-cluster" title="Permalink to this headline">¶</a></h3>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p class="last">HadoopClusterAccess.html</p>
+</div>
+</div>
+<div class="section" id="invocation">
+<h3>Invocation<a class="headerlink" href="#invocation" title="Permalink to this headline">¶</a></h3>
+<p>The teragen command accepts two parameters:</p>
+<ul class="simple">
+<li>number of 100-byte rows</li>
+<li>the output directory</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span>hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar
+teragen $COUNT /user/$USER/tera-gen
+hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar
+terasort /user/$USER/tera-gen /user/$USER/tera-sort
+hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar
+teravalidate /user/$USER/tera-sort /user/$USER/tera-validate
+</pre></div>
+</div>
+</div>
+<div class="section" id="exercise">
+<h3>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h3>
+<p>Run the Terabyte Sort procedure for various sizes of data:</p>
+<ul class="simple">
+<li>1 GB</li>
+<li>10 GB</li>
+<li>100 GB</li>
+</ul>
+<p>For each component (tera{gen,sort,validate}), report the execution
+time, data read and written (in GB) as well as the cumulative values.</p>
+</div>
+</div>
+<div class="section" id="programming-using-futuresystems-org">
+<h2>Programming: Using futuresystems.org<a class="headerlink" href="#programming-using-futuresystems-org" title="Permalink to this headline">¶</a></h2>
+<p>In this homework, you are expected to run Python or Java programs on
+FutureSystems or on your local machine. A few examples for beginners
+will help you to understand how to write and run Java or Python
+programs on your environment.</p>
+<p>We will print some elementary system information such as time, date,
+user name or hostname (machine name) which will be important when you
+report on your infrastructure in your program reports. You will likely
+need to add more information such as processor type, core number, and
+frequency.</p>
+<div class="section" id="java">
+<h3>Java<a class="headerlink" href="#java" title="Permalink to this headline">¶</a></h3>
+<p>Here is a simple program in Java.</p>
+<p>Download: FirstProgramWithSystemInfo.java:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">java.util.Date</span><span class="p">;</span>
+<span class="kn">import</span> <span class="nn">java.text.DateFormat</span><span class="p">;</span>
+<span class="kn">import</span> <span class="nn">java.text.SimpleDateFormat</span><span class="p">;</span>
+<span class="kn">import</span> <span class="nn">java.net.InetAddress</span><span class="p">;</span>
+<span class="kn">import</span> <span class="nn">java.net.UnknownHostException</span><span class="p">;</span>
+<span class="o">/**</span>
+<span class="o">*</span> <span class="o">*</span> <span class="n">Sample</span> <span class="n">Program</span> <span class="k">with</span> <span class="n">system</span> <span class="n">information</span>
+<span class="o">*</span> <span class="o">*</span>
+<span class="o">*</span> <span class="o">*</span> <span class="n">Compile</span> <span class="p">:</span> <span class="n">javac</span> <span class="n">FirstProgramWithSystemInfo</span><span class="o">.</span><span class="n">java</span>
+<span class="o">*</span> <span class="o">*</span> <span class="n">Run</span> <span class="p">:</span> <span class="n">java</span> <span class="n">FirstProgramWithSystemInfo</span>
+<span class="o">*</span> <span class="o">*/</span>
+<span class="n">public</span> <span class="k">class</span> <span class="nc">FirstProgramWithSystemInfo</span> <span class="p">{</span>
+    <span class="n">public</span> <span class="n">static</span> <span class="n">void</span> <span class="n">main</span><span class="p">(</span><span class="n">String</span><span class="p">[]</span> <span class="n">args</span><span class="p">){</span>
+    <span class="n">System</span><span class="o">.</span><span class="n">out</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s2">&quot;My first program with System Information!&quot;</span><span class="p">);</span>
+        <span class="o">//</span> <span class="n">Print</span> <span class="n">Date</span> <span class="k">with</span> <span class="n">Time</span>
+        <span class="n">DateFormat</span> <span class="n">dateFormat</span> <span class="o">=</span> <span class="n">new</span> <span class="n">SimpleDateFormat</span><span class="p">(</span><span class="s2">&quot;yyyy/MM/dd HH:mm:ss&quot;</span><span class="p">);</span>
+        <span class="n">Date</span> <span class="n">date</span> <span class="o">=</span> <span class="n">new</span> <span class="n">Date</span><span class="p">();</span>
+        <span class="n">System</span><span class="o">.</span><span class="n">out</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s2">&quot;Today is: &quot;</span> <span class="o">+</span> <span class="n">dateFormat</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">date</span><span class="p">));</span>
+        <span class="o">//</span> <span class="n">Print</span> <span class="n">Username</span>
+        <span class="n">System</span><span class="o">.</span><span class="n">out</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s2">&quot;Username is: &quot;</span> <span class="o">+</span> <span class="n">System</span><span class="o">.</span><span class="n">getProperty</span><span class="p">(</span><span class="s2">&quot;user.name&quot;</span><span class="p">));</span>
+        <span class="o">//</span> <span class="n">Print</span> <span class="n">hostname</span>
+        <span class="k">try</span> <span class="p">{</span>
+            <span class="n">java</span><span class="o">.</span><span class="n">net</span><span class="o">.</span><span class="n">InetAddress</span> <span class="n">localMachine</span> <span class="o">=</span> <span class="n">java</span><span class="o">.</span><span class="n">net</span><span class="o">.</span><span class="n">InetAddress</span><span class="o">.</span><span class="n">getLocalHost</span><span class="p">();</span>
+            <span class="n">System</span><span class="o">.</span><span class="n">out</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s2">&quot;Hostname is: &quot;</span> <span class="o">+</span> <span class="n">localMachine</span><span class="o">.</span><span class="n">getHostName</span><span class="p">());</span>
+        <span class="p">}</span> <span class="n">catch</span> <span class="p">(</span><span class="n">UnknownHostException</span> <span class="n">e</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">e</span><span class="o">.</span><span class="n">printStackTrace</span><span class="p">();</span>
+        <span class="n">System</span><span class="o">.</span><span class="n">out</span><span class="o">.</span><span class="n">println</span><span class="p">(</span><span class="s2">&quot;No host name: &quot;</span> <span class="o">+</span> <span class="n">e</span><span class="o">.</span><span class="n">getMessage</span><span class="p">());</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Compiling and Execution:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>javac FirstProgramWithSystemInfo.java
+java FirstProgramWithSystemInfo
+
+My first program with System Information!
+
+Today is: 2015/01/01 18:54:10
+Username is: albert
+Hostname is: bigdata-host
+</pre></div>
+</div>
+</div>
+<div class="section" id="python">
+<h3>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h3>
+<p>Let’s write a simple program in Python.</p>
+<p>Create the following program: FirstProgram.py:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>############################################
+# Run python FirstProgram.py
+############################################
+from datetime import datetime
+import getpass
+import socket
+############################################
+# Run python FirstProgramWithSystemInfo.py
+############################################
+print (’My first program with System Information!’)
+print (&quot;Today is: &quot; + str(datetime.now()))
+print (&quot;Username is: &quot; + getpass.getuser())
+print (&quot;Hostname is: &quot; + socket.gethostname())
+</pre></div>
+</div>
+<p>Execution:</p>
+<blockquote>
+<div><p>Compiling is not necessary in Python. You can run your code
+directly with python command.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">FirstProgram</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+</div></blockquote>
+<dl class="docutils">
+<dt>What does the output look like?:</dt>
+<dd><div class="first last highlight-default"><div class="highlight"><pre><span></span>python FirstProgramWithSystemInfo.py
+My first program with System Information!
+Today is: 2015-01-01 18:58:10.937227
+Username is: albert
+Hostname is: bigdata-host
+</pre></div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="challenge-tasks">
+<h3>Challenge tasks<a class="headerlink" href="#challenge-tasks" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Run any Java or Python on a FutureSystems OpenStack instance</li>
+<li>Run NumPyTutorial Python on IPython Notebook</li>
+</ul>
+</div>
+</div>
+<div class="section" id="code-examples">
+<h2>Code Examples<a class="headerlink" href="#code-examples" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+<div class="section" id="preview-course-examples">
+<h1>Preview Course Examples<a class="headerlink" href="#preview-course-examples" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li>The Elusive Mr.Higgs [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.Higgs">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs">Python</a>]</li>
+<li>Number Theory [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-10_Number-Theory">Python</a>]</li>
+<li>Calculated Dice Roll [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-11_A-Calculated-Dice-Roll">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-11_A-Calculated-Dice-Roll">Python</a>]</li>
+<li>KNN [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section_7_Unit_19/KNN">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section%205%20e-Commerce%20Unit%2015_%20K'th%20Nearest%20Neighbor/knn">Python</a>]</li>
+<li>PageRank [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Unit-27_PageRank">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Unit%2019_%20PageRank/Page-Rank">Python</a>]</li>
+<li>KMeans [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Unit-28_KMeans">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Unit%2016_%20Kmeans-%20Software/K-Means">Python</a>]</li>
+</ul>
+<div class="section" id="hadoop-cluster-access">
+<h2>Hadoop Cluster Access<a class="headerlink" href="#hadoop-cluster-access" title="Permalink to this headline">¶</a></h2>
+<p>This document describes getting access to the Hadoop cluster for the course.</p>
+<p>You will need</p>
+<ol class="arabic simple">
+<li>An a account with FutureSystems</li>
+<li>To be a member of a active project on FutureSystems (fg511)</li>
+<li>Have uploaded an ssh key to the portal</li>
+</ol>
+<p>The cluster frontend is located at &lt;IP_ADDRESS&gt; Login using ssh:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>ssh -i $PATH_TO_SSH_PUBLIC_KEY $PORTAL_USERNAME@$HADOOP_IP
+</pre></div>
+</div>
+<p>In the above:</p>
+<ul class="simple">
+<li>$PATH_TO_SSH_PUBLIC_KEY is the location of the public key that has
+been added to the futuresystems portal</li>
+<li>$PORTAL_USERNAME is the username on the futuresystems portal</li>
+<li>$HADOOP_IP is the IP address of the hadoop frontend node</li>
+</ul>
+<p>Hadoop is installed under /opt/hadoop, and you can refer to this
+location using $HADOOP_HOME. See:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">hadoop</span> <span class="n">fs</span>
+</pre></div>
+</div>
+<p>and:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples*.jar
+</pre></div>
+</div>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul>
+<li class="toctree-l1"><a class="reference internal" href="../i524.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="../genindex.html"  title="General Index">index</a></span>
+				</div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abduhl-Whahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../_static/foundation/js/foundation.min.js"></script>
+	<script src="../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>
