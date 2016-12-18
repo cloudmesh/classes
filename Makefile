@@ -12,16 +12,18 @@ BROWSER=/cygdrive/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
 endif
 
 doc:
-	cd docs; make html
+	cd webpage; make html
+	rm -rf docs/*
+	cp -r webpage/build/html/* docs
 
 watch:
 	watchmedo shell-command --patterns="*.rst" --recursive --command='make doc'
 
-publish:
-	ghp-import -n -p docs/build/html
+# publish:
+#	ghp-import -n -p docs/build/html
 
 view:
-	$(BROWSER) docs/build/html/index.html
+	$(BROWSER) docs/index.html
 
 log:
 	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" > ChangeLog
