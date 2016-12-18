@@ -143,7 +143,7 @@ html_theme = 'foundation_sphinx_theme'
 # html_theme_options = {}
 
 html_theme_options = {
-        'motto': 'Long description which appears next to logo.',
+        'motto': 'This page is under construction and will change.',
 
         # Your stylesheet relative to the _static dir.
         # Default is 'foundation/css/basic.css'
