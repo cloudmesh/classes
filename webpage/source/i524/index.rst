@@ -128,3 +128,5 @@ While teaching our classes we noticed the following mistakes students often make
   secret information such as passwords
 * Assume your colleagues does the work, so you get lazy
 * Underestimating the **time** it takes to do deployments
+
+
