@@ -1,7 +1,19 @@
 I524 Big Data & Open Source Software Projects
 =============================================
 
-This course studies software used in many commercial activities to related to  Big Data. The backdrop for course relates to more than 300 software subsystems illustrated at http://hpc-abds.org/kaleidoscope/. We will describe the software architecture represented by this collection and work towards identifying best practices to deploy, access and interface with them. Topics of this class will include:
+This course studies software used in many commercial activities to
+related to Big Data. The backdrop for course relates to more than 300
+software subsystems illustrated in Figure 1.
+
+.. figure:: bigdata.png
+    :width: 200px
+    :align: center
+    :alt: 300 Technologies
+    :figclass: align-center
+
+    **Figure 1:** Software Systems relevant for Big Data
+
+We will describe the software architecture represented by this collection and work towards identifying best practices to deploy, access and interface with them. Topics of this class will include:
  
 #. The cloud computing architecture underlying open source big data software and frameworks  and contrast of them to high performance computing
 
@@ -129,4 +141,7 @@ While teaching our classes we noticed the following mistakes students often make
 * Assume your colleagues does the work, so you get lazy
 * Underestimating the **time** it takes to do deployments
 
+Refernces
+=========
 
+http://hpc-abds.org/kaleidoscope/ 

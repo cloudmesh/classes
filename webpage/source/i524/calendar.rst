@@ -5,6 +5,12 @@ The official University calendar can be found here:
 
 http://registrar.indiana.edu/official-calendar/official-calendar-spring.shtml
 
+.. note:: Lectures have not yet been posted as part of this calendar,
+	  Once we post them it is up to the student when they view
+	  them.  We may introduce a system to verified that you viewed
+	  and understood them, but we like to avoid this so you can
+	  focus on the Papers and Project.
+
 +---------------------------------------------+--------------------+----+
 | **Description**                             | **Date**           | No |
 +---------------------------------------------+--------------------+----+
