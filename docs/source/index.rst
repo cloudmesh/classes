@@ -4,7 +4,7 @@ Classes
 .. toctree::
    :maxdepth: 1
 
-   info	      
+   i524
 
 
 
