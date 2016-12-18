@@ -143,7 +143,7 @@ html_theme = 'foundation_sphinx_theme'
 # html_theme_options = {}
 
 html_theme_options = {
-        'motto': 'This page is under construction and will change.',
+        'motto': 'This page is under construction and will change. Content will go live Jan. 9, 2017',
 
         # Your stylesheet relative to the _static dir.
         # Default is 'foundation/css/basic.css'
