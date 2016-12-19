@@ -1,0 +1,731 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Python Fingerprint Example | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="Python Fingerprint Example | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/prg/python_lesson1.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/cards.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown current">
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		<li><a href="programming.html"  title="Additional Programming Assignments">&laquo; previous</a></li>
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+		
+		
+
+	
+		<li><a href="../../notebooks/index.html"  title="Notebooks">next &raquo;</a></li>
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	
+		<ul class="breadcrumbs">
+			
+		  	<li><a href="../../index.html">Big Data Classes</a></li>
+
+		  	
+		  		<li><a href="../index.html">Lessons</a></li>
+		  		<li><a href="index.html">Programming</a></li>
+
+		  	
+			<li class="current"><a href="">Python Fingerprint Example</a></li>
+		</ul>
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="python-fingerprint-example">
+<h1>Python Fingerprint Example<a class="headerlink" href="#python-fingerprint-example" title="Permalink to this headline">¶</a></h1>
+<p>Python is an easy-to-use language for running data analysis. To
+demonstrate this, we will implement one of the NIST Big Data Working
+Group case studies: matching fingerprints between sets of probe and
+gallery images.</p>
+<p>In order for this to run, you&#8217;ll need to have installed the <a class="reference external" href="http://www.nist.gov/itl/iad/ig/nbis.cfm">NIST
+Biometric Image Software
+(NBIS)</a> and Sqlite3. You&#8217;ll
+also need the Python libraries <code class="docutils literal"><span class="pre">numpy</span></code>, <code class="docutils literal"><span class="pre">scipy</span></code>, <code class="docutils literal"><span class="pre">matplotlib</span></code>.</p>
+<p>The general application works like so:</p>
+<ol class="arabic simple">
+<li>Download the dataset and unpack it</li>
+<li>Define the sets of probe and gallery images</li>
+<li>Preprocess the images with the <code class="docutils literal"><span class="pre">mindtct</span></code> command from NBIS</li>
+<li>Use the NBIS command <code class="docutils literal"><span class="pre">bozorth3</span></code> to match the gallery images to each
+probe image, obtaining an matching score</li>
+<li>Write the results to an sqlite database</li>
+</ol>
+<p>To begin with, we&#8217;ll define our imports.</p>
+<p>First off, we use the print function to be compatible with Python 3</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span>
+</pre></div>
+</div>
+<p>Next, we&#8217;ll be downloading the datasets from NIST so we need these
+libraries to make this easier:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">urllib</span>
+<span class="kn">import</span> <span class="nn">zipfile</span>
+<span class="kn">import</span> <span class="nn">hashlib</span>
+</pre></div>
+</div>
+<p>We&#8217;ll be interacting with the operating systems and manipulating files
+and their pathnames.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os.path</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">shutil</span>
+<span class="kn">import</span> <span class="nn">tempfile</span>
+</pre></div>
+</div>
+<p>Some general usefull utilities</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">itertools</span>
+<span class="kn">import</span> <span class="nn">functools</span>
+<span class="kn">import</span> <span class="nn">types</span>
+</pre></div>
+</div>
+<p>Using the <code class="docutils literal"><span class="pre">attrs</span></code> library provides some nice shortcuts to define
+featurefull objects</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">attr</span>
+</pre></div>
+</div>
+<p>We&#8217;ll be randomly dividing the entire dataset, based on user input, into
+the probe and gallery sets</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+</pre></div>
+</div>
+<p>We&#8217;ll need these to call out to the NBIS software. We&#8217;ll also be using
+multiple processes to take advantage of all the cores on our machine.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">subprocess</span>
+<span class="kn">import</span> <span class="nn">multiprocessing</span>
+</pre></div>
+</div>
+<p>As for plotting, we&#8217;ll use <code class="docutils literal"><span class="pre">matplotlib</span></code>, though there are many other
+alternatives you may choose from.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+</div>
+<p>Finally, we&#8217;ll write the results to a database</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sqlite3</span>
+</pre></div>
+</div>
+<div class="section" id="utility-functions">
+<h2>Utility functions<a class="headerlink" href="#utility-functions" title="Permalink to this headline">¶</a></h2>
+<p>Next we&#8217;ll define some utility functions.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">take</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">iterable</span><span class="p">):</span>
+    <span class="s2">&quot;Returns a generator of the first **n** elements of an iterable&quot;</span>
+    <span class="k">return</span> <span class="n">itertools</span><span class="o">.</span><span class="n">islice</span><span class="p">(</span><span class="n">iterable</span><span class="p">,</span> <span class="n">n</span> <span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">zipWith</span><span class="p">(</span><span class="n">function</span><span class="p">,</span> <span class="o">*</span><span class="n">iterables</span><span class="p">):</span>
+    <span class="s2">&quot;Zip a set of **iterables** together and apply **function** to each tuple&quot;</span>
+    <span class="k">for</span> <span class="n">group</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">izip</span><span class="p">(</span><span class="o">*</span><span class="n">iterables</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="n">function</span><span class="p">(</span><span class="o">*</span><span class="n">group</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">uncurry</span><span class="p">(</span><span class="n">function</span><span class="p">):</span>
+    <span class="s2">&quot;Transforms an N-arry **function** so that it accepts a single parameter of an N-tuple&quot;</span>
+    <span class="nd">@functools</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">function</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">function</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">wrapper</span>
+
+
+<span class="k">def</span> <span class="nf">fetch_url</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">sha256</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">checksum_blocksize</span><span class="o">=</span><span class="mi">2</span><span class="o">**</span><span class="mi">20</span><span class="p">,</span> <span class="n">dryRun</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Download a url.</span>
+
+<span class="sd">    :param url: the url to the file on the web</span>
+<span class="sd">    :param sha256: the SHA-256 checksum. Used to determine if the file was previously downloaded.</span>
+<span class="sd">    :param prefix: directory to save the file</span>
+<span class="sd">    :param checksum_blocksize: blocksize to used when computing the checksum</span>
+<span class="sd">    :param dryRun: boolean indicating that calling this function should do nothing</span>
+<span class="sd">    :returns: the local path to the downloaded file</span>
+<span class="sd">    :rtype:</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">prefix</span><span class="p">):</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">prefix</span><span class="p">)</span>
+
+    <span class="n">local</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">url</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="n">dryRun</span><span class="p">:</span> <span class="k">return</span> <span class="n">local</span>
+
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">local</span><span class="p">):</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Verifying checksum&#39;</span><span class="p">)</span>
+        <span class="n">chk</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">()</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">local</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fd</span><span class="p">:</span>
+            <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+                <span class="n">bits</span> <span class="o">=</span> <span class="n">fd</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">checksum_blocksize</span><span class="p">)</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">bits</span><span class="p">:</span> <span class="k">break</span>
+                <span class="n">chk</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">bits</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">sha256</span> <span class="o">--</span> <span class="n">chk</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">():</span>
+            <span class="k">return</span> <span class="n">local</span>
+
+    <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Downloading&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">report</span><span class="p">(</span><span class="n">sofar</span><span class="p">,</span> <span class="n">blocksize</span><span class="p">,</span> <span class="n">totalsize</span><span class="p">):</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">%</span><span class="se">\r</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="mi">100</span> <span class="o">*</span> <span class="n">sofar</span> <span class="o">*</span> <span class="n">blocksize</span> <span class="o">/</span> <span class="n">totalsize</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+
+    <span class="n">urllib</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">local</span><span class="p">,</span> <span class="n">report</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">local</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="dataset">
+<h2>Dataset<a class="headerlink" href="#dataset" title="Permalink to this headline">¶</a></h2>
+<p>We&#8217;ll now define some global parameters.</p>
+<p>First, the fingerprint dataset.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="n">DATASET_URL</span> <span class="o">=</span> <span class="s1">&#39;https://s3.amazonaws.com/nist-srd/SD4/NISTSpecialDatabase4GrayScaleImagesofFIGS.zip&#39;</span>
+<span class="n">DATASET_SHA256</span> <span class="o">=</span> <span class="s1">&#39;4db6a8f3f9dc14c504180cbf67cdf35167a109280f121c901be37a80ac13c449&#39;</span>
+</pre></div>
+</div>
+<p>We&#8217;ll define how to download the dataset. This function is general
+enough that it could be used to retrieve most files, but we&#8217;ll default
+it to use the values from above.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">prepare_dataset</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">sha256</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">skip</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">url</span> <span class="ow">or</span> <span class="n">DATASET_URL</span>
+    <span class="n">sha256</span> <span class="o">=</span> <span class="n">sha256</span> <span class="ow">or</span> <span class="n">DATASET_SHA256</span>
+    <span class="n">local</span> <span class="o">=</span> <span class="n">fetch_url</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">sha256</span><span class="o">=</span><span class="n">sha256</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="n">prefix</span><span class="p">,</span> <span class="n">dryRun</span><span class="o">=</span><span class="n">skip</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">skip</span><span class="p">:</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Extracting&#39;</span><span class="p">,</span> <span class="n">local</span><span class="p">,</span> <span class="s1">&#39;to&#39;</span><span class="p">,</span> <span class="n">prefix</span><span class="p">)</span>
+        <span class="k">with</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">local</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">zip</span><span class="p">:</span>
+            <span class="nb">zip</span><span class="o">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">prefix</span><span class="p">)</span>
+
+    <span class="n">name</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">local</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">name</span>
+
+
+<span class="k">def</span> <span class="nf">locate_paths</span><span class="p">(</span><span class="n">path_md5list</span><span class="p">,</span> <span class="n">prefix</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path_md5list</span><span class="p">)</span> <span class="k">as</span> <span class="n">fd</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">imap</span><span class="p">(</span><span class="nb">str</span><span class="o">.</span><span class="n">strip</span><span class="p">,</span> <span class="n">fd</span><span class="p">):</span>
+            <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">parts</span><span class="p">)</span> <span class="o">--</span> <span class="mi">2</span><span class="p">:</span> <span class="k">continue</span>
+            <span class="n">md5sum</span><span class="p">,</span> <span class="n">path</span> <span class="o">=</span> <span class="n">parts</span>
+            <span class="n">chksum</span> <span class="o">=</span> <span class="n">Checksum</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="n">md5sum</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">&#39;md5&#39;</span><span class="p">)</span>
+            <span class="n">filepath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+            <span class="k">yield</span> <span class="n">Path</span><span class="p">(</span><span class="n">checksum</span><span class="o">=</span><span class="n">chksum</span><span class="p">,</span> <span class="n">filepath</span><span class="o">=</span><span class="n">filepath</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">locate_images</span><span class="p">(</span><span class="n">paths</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">predicate</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+        <span class="n">_</span><span class="p">,</span> <span class="n">ext</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">path</span><span class="o">.</span><span class="n">filepath</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">ext</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;.png&#39;</span><span class="p">]</span>
+
+    <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">ifilter</span><span class="p">(</span><span class="n">predicate</span><span class="p">,</span> <span class="n">paths</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="n">image</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="n">path</span><span class="o">.</span><span class="n">checksum</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="n">path</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="data-model">
+<h2>Data Model<a class="headerlink" href="#data-model" title="Permalink to this headline">¶</a></h2>
+<p>We&#8217;ll define some classes so we have a nice API for working with the
+dataflow. We set <code class="docutils literal"><span class="pre">slots=True</span></code> so that the resulting objects will be
+more space-efficient.</p>
+<div class="section" id="utilities">
+<h3>Utilities<a class="headerlink" href="#utilities" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="checksum">
+<h4>Checksum<a class="headerlink" href="#checksum" title="Permalink to this headline">¶</a></h4>
+<p>The checksum consists of the actual hash value (<code class="docutils literal"><span class="pre">value</span></code>) as well as a
+string representing the hashing algorithm. The validator enforces that
+the algorithm can only be one of the listed acceptable methods.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="nd">@attr</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">slots</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">Checksum</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+  <span class="n">value</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+  <span class="n">kind</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">(</span><span class="n">validator</span><span class="o">=</span><span class="k">lambda</span> <span class="n">o</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">v</span><span class="p">:</span> <span class="n">v</span> <span class="ow">in</span> <span class="s1">&#39;md5 sha1 sha224 sha256 sha384 sha512&#39;</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="path">
+<h4>Path<a class="headerlink" href="#path" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Path</span></code> s refer to an image&#8217;s filepath and associated <code class="docutils literal"><span class="pre">Checksum</span></code>. We
+get the checksum &#8220;for free&#8221; since the MD5 hash is provided for each
+image in the dataset.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="nd">@attr</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">slots</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">Path</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="n">checksum</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+    <span class="n">filepath</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Image
+^^^^-</p>
+<p>The start of the data pipeline is the image. An <code class="docutils literal"><span class="pre">image</span></code> is has an id
+(the md5 hash) and the path to the image.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="nd">@attr</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">slots</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">image</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="nb">id</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="mindtct">
+<h3>Mindtct<a class="headerlink" href="#mindtct" title="Permalink to this headline">¶</a></h3>
+<p>The next step in the pipeline to to apply <code class="docutils literal"><span class="pre">mindtct</span></code> from NBIS. A
+<code class="docutils literal"><span class="pre">mindtct</span></code> object therefor represents the results of applying
+<code class="docutils literal"><span class="pre">mindtct</span></code> on an <code class="docutils literal"><span class="pre">image</span></code>. The <code class="docutils literal"><span class="pre">xyt</span></code> output is needed for the next
+step, and the <code class="docutils literal"><span class="pre">image</span></code> attribute represent the image id.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="nd">@attr</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">slots</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">mindtct</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+    <span class="n">xyt</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>We need a way to construct a <code class="docutils literal"><span class="pre">mindtct</span></code> object from an <code class="docutils literal"><span class="pre">image</span></code>
+object. A straightforward way of doing this would be to have a
+<code class="docutils literal"><span class="pre">from_image</span></code> <code class="docutils literal"><span class="pre">&#64;staticmethod</span></code> or <code class="docutils literal"><span class="pre">&#64;classmethod</span></code>, but that doesn&#8217;t
+work well with <code class="docutils literal"><span class="pre">multiprocessing</span></code> as top-level functions work best
+(they need to be serialized).</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">mindtct_from_image</span><span class="p">(</span><span class="n">image</span><span class="p">):</span>
+    <span class="n">imgpath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">image</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">filepath</span><span class="p">)</span>
+    <span class="n">tempdir</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">mkdtemp</span><span class="p">()</span>
+    <span class="n">oroot</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tempdir</span><span class="p">,</span> <span class="s1">&#39;result&#39;</span><span class="p">)</span>
+
+    <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;mindtct&#39;</span><span class="p">,</span> <span class="n">imgpath</span><span class="p">,</span> <span class="n">oroot</span><span class="p">]</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">subprocess</span><span class="o">.</span><span class="n">check_call</span><span class="p">(</span><span class="n">cmd</span><span class="p">)</span>
+
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">oroot</span> <span class="o">+</span> <span class="s1">&#39;.xyt&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fd</span><span class="p">:</span>
+            <span class="n">xyt</span> <span class="o">=</span> <span class="n">fd</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+        <span class="n">result</span> <span class="o">=</span> <span class="n">mindtct</span><span class="p">(</span><span class="n">image</span><span class="o">=</span><span class="n">image</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">xyt</span><span class="o">=</span><span class="n">xyt</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">tempdir</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="bozorth3">
+<h3>Bozorth3<a class="headerlink" href="#bozorth3" title="Permalink to this headline">¶</a></h3>
+<p>The final step is the pipeline is calling out to the <code class="docutils literal"><span class="pre">bozorth3</span></code>
+program from NBIS. The <code class="docutils literal"><span class="pre">bozorth3</span></code> class represent the match done:
+tracking the ids of the probe and gallery images as well as the match
+score.</p>
+<p>Since we&#8217;ll be writing these instances out to a database, we provide
+some static methods for SQL statements. While there are many
+Object-Relational-Model (ORM) libraries available for Python, we wanted
+to keep this implementation simpler.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="nd">@attr</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">slots</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">bozorth3</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="n">probe</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+    <span class="n">gallery</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+    <span class="n">score</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">sql_stmt_create_table</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s1">&#39;CREATE TABLE IF NOT EXISTS bozorth3 (probe TEXT, gallery TEXT, score NUMERIC)&#39;</span>
+
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">sql_prepared_stmt_insert</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s1">&#39;INSERT INTO bozorth3 VALUES (?, ?, ?)&#39;</span>
+
+
+    <span class="k">def</span> <span class="nf">sql_insert_values</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">probe</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">gallery</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">score</span>
+</pre></div>
+</div>
+<p>In order to work well with <code class="docutils literal"><span class="pre">multiprocessing</span></code>, we define a class
+representing the input parameters to <code class="docutils literal"><span class="pre">bozorth3</span></code> and a helper function
+to run <code class="docutils literal"><span class="pre">bozorth3</span></code>. This way the pipeline definition can be kept simple
+to a <code class="docutils literal"><span class="pre">map</span></code> to create the input and then a <code class="docutils literal"><span class="pre">map</span></code> to run the program.</p>
+<p>As NBIS <code class="docutils literal"><span class="pre">bozorth3</span></code> can be called to compare one-to-one or one-to-many,
+we&#8217;ll also dynamically choose between these approaches depending on if
+the gallery is a list or a single object.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="nd">@attr</span><span class="o">.</span><span class="n">s</span><span class="p">(</span><span class="n">slots</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">bozorth3_input</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="n">probe</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+    <span class="n">gallery</span> <span class="o">=</span> <span class="n">attr</span><span class="o">.</span><span class="n">ib</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gallery</span><span class="p">,</span> <span class="n">mindtct</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">bozorth3_from_group</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">probe</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">gallery</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">gallery</span><span class="p">,</span> <span class="n">types</span><span class="o">.</span><span class="n">ListType</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">bozorth3_from_one_to_many</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">probe</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">gallery</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Unhandled type for gallery: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">gallery</span><span class="p">)))</span>
+
+
+<span class="k">def</span> <span class="nf">run_bozorth3</span><span class="p">(</span><span class="nb">input</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">input</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="section" id="one-to-one">
+<h4>One-to-one<a class="headerlink" href="#one-to-one" title="Permalink to this headline">¶</a></h4>
+<p>Here, we define how to run NBIS <code class="docutils literal"><span class="pre">bozorth3</span></code> on a one-to-one input:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">bozorth3_from_group</span><span class="p">(</span><span class="n">probe</span><span class="p">,</span> <span class="n">gallery</span><span class="p">):</span>
+    <span class="n">tempdir</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">mkdtemp</span><span class="p">()</span>
+    <span class="n">probeFile</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tempdir</span><span class="p">,</span> <span class="s1">&#39;probe.xyt&#39;</span><span class="p">)</span>
+    <span class="n">galleryFile</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tempdir</span><span class="p">,</span> <span class="s1">&#39;gallery.xyt&#39;</span><span class="p">)</span>
+
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">probeFile</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span>   <span class="k">as</span> <span class="n">fd</span><span class="p">:</span> <span class="n">fd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">probe</span><span class="o">.</span><span class="n">xyt</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">galleryFile</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fd</span><span class="p">:</span> <span class="n">fd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">gallery</span><span class="o">.</span><span class="n">xyt</span><span class="p">)</span>
+
+    <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;bozorth3&#39;</span><span class="p">,</span> <span class="n">probeFile</span><span class="p">,</span> <span class="n">galleryFile</span><span class="p">]</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">check_output</span><span class="p">(</span><span class="n">cmd</span><span class="p">)</span>
+        <span class="n">score</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+
+        <span class="k">return</span> <span class="n">bozorth3</span><span class="p">(</span><span class="n">probe</span><span class="o">=</span><span class="n">probe</span><span class="o">.</span><span class="n">image</span><span class="p">,</span> <span class="n">gallery</span><span class="o">=</span><span class="n">gallery</span><span class="o">.</span><span class="n">image</span><span class="p">,</span> <span class="n">score</span><span class="o">=</span><span class="n">score</span><span class="p">)</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">tempdir</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="one-to-many">
+<h4>One-to-many<a class="headerlink" href="#one-to-many" title="Permalink to this headline">¶</a></h4>
+<p>Calling NBIS one-to-many turns out to be more efficient than the
+overhead of starting a <code class="docutils literal"><span class="pre">bozorth3</span></code> process for each pair.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">bozorth3_from_one_to_many</span><span class="p">(</span><span class="n">probe</span><span class="p">,</span> <span class="n">galleryset</span><span class="p">):</span>
+    <span class="n">tempdir</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">mkdtemp</span><span class="p">()</span>
+    <span class="n">probeFile</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tempdir</span><span class="p">,</span> <span class="s1">&#39;probe.xyt&#39;</span><span class="p">)</span>
+    <span class="n">galleryFiles</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tempdir</span><span class="p">,</span> <span class="s1">&#39;gallery</span><span class="si">%d</span><span class="s1">.xyt&#39;</span> <span class="o">%</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">galleryset</span><span class="p">)]</span>
+
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">probeFile</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fd</span><span class="p">:</span> <span class="n">fd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">probe</span><span class="o">.</span><span class="n">xyt</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">galleryFile</span><span class="p">,</span> <span class="n">gallery</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">izip</span><span class="p">(</span><span class="n">galleryFiles</span><span class="p">,</span> <span class="n">galleryset</span><span class="p">):</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">galleryFile</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fd</span><span class="p">:</span> <span class="n">fd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">gallery</span><span class="o">.</span><span class="n">xyt</span><span class="p">)</span>
+
+    <span class="n">cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;bozorth3&#39;</span><span class="p">,</span> <span class="s1">&#39;-p&#39;</span><span class="p">,</span> <span class="n">probeFile</span><span class="p">]</span> <span class="o">+</span> <span class="n">galleryFiles</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">check_output</span><span class="p">(</span><span class="n">cmd</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">scores</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="n">result</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">))</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">bozorth3</span><span class="p">(</span><span class="n">probe</span><span class="o">=</span><span class="n">probe</span><span class="o">.</span><span class="n">image</span><span class="p">,</span> <span class="n">gallery</span><span class="o">=</span><span class="n">gallery</span><span class="o">.</span><span class="n">image</span><span class="p">,</span> <span class="n">score</span><span class="o">=</span><span class="n">score</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">score</span><span class="p">,</span> <span class="n">gallery</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">scores</span><span class="p">,</span> <span class="n">galleryset</span><span class="p">)]</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">tempdir</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="plotting">
+<h2>Plotting<a class="headerlink" href="#plotting" title="Permalink to this headline">¶</a></h2>
+<p>For plotting we&#8217;ll operation only on the database. We&#8217;ll choose a small
+number of probe images and plot the score between them and the rest of
+the gallery images.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">dbfile</span><span class="p">,</span> <span class="n">nprobes</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="s1">&#39;figure.png&#39;</span><span class="p">):</span>
+
+    <span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">dbfile</span><span class="p">)</span>
+
+    <span class="n">results</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql</span><span class="p">(</span><span class="s2">&quot;SELECT probe FROM bozorth3 ORDER BY score LIMIT &#39;</span><span class="si">%s</span><span class="s2">&#39;&quot;</span> <span class="o">%</span> <span class="n">nprobes</span><span class="p">,</span>
+                          <span class="n">con</span><span class="o">=</span><span class="n">conn</span><span class="p">)</span>
+
+    <span class="n">shortlabels</span> <span class="o">=</span> <span class="n">mk_short_labels</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">probe</span><span class="p">)</span>
+
+    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">probe</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">probe</span><span class="o">.</span><span class="n">iteritems</span><span class="p">():</span>
+        <span class="n">stmt</span> <span class="o">=</span> <span class="s1">&#39;SELECT gallery, score FROM bozorth3 WHERE probe = ? ORDER BY gallery DESC&#39;</span>
+        <span class="n">matches</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql</span><span class="p">(</span><span class="n">stmt</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">(</span><span class="n">probe</span><span class="p">,),</span> <span class="n">con</span><span class="o">=</span><span class="n">conn</span><span class="p">)</span>
+        <span class="n">xs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">matches</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">matches</span><span class="o">.</span><span class="n">score</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;probe </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">shortlabels</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Score&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Gallery&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">outfile</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The image ids are long hash strings. In order to minimize the amount of
+space on the figure the labels take, we provide a helper function to
+create a short label that still uniquely identifies each probe image in
+the selected sample.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">mk_short_labels</span><span class="p">(</span><span class="n">series</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">7</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">size</span> <span class="ow">in</span> <span class="n">xrange</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">series</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">series</span><span class="p">)</span> <span class="o">--</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">s</span><span class="p">[:</span><span class="n">size</span><span class="p">],</span> <span class="n">series</span><span class="p">))):</span>
+            <span class="k">break</span>
+
+    <span class="k">return</span> <span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">s</span><span class="p">[:</span><span class="n">size</span><span class="p">],</span> <span class="n">series</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="main-entry-point">
+<h2>Main Entry Point<a class="headerlink" href="#main-entry-point" title="Permalink to this headline">¶</a></h2>
+<p>Puting it all together</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">__name__</span> <span class="o">--</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+
+
+    <span class="n">prefix</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="n">DBFILE</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="s1">&#39;scores.db&#39;</span><span class="p">)</span>
+    <span class="n">PLOTFILE</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="s1">&#39;plot.png&#39;</span><span class="p">)</span>
+
+    <span class="n">md5listpath</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">perc_probe</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+    <span class="n">perc_gallery</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
+
+    <span class="n">pool</span> <span class="o">=</span> <span class="n">multiprocessing</span><span class="o">.</span><span class="n">Pool</span><span class="p">()</span>
+    <span class="n">conn</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">DBFILE</span><span class="p">)</span>
+    <span class="n">cursor</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+
+    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">bozorth3</span><span class="o">.</span><span class="n">sql_stmt_create_table</span><span class="p">())</span>
+
+
+    <span class="n">dataprefix</span> <span class="o">=</span> <span class="n">prepare_dataset</span><span class="p">(</span><span class="n">prefix</span><span class="o">=</span><span class="n">prefix</span><span class="p">,</span> <span class="n">skip</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Loading images&#39;</span><span class="p">)</span>
+    <span class="n">paths</span> <span class="o">=</span> <span class="n">locate_paths</span><span class="p">(</span><span class="n">md5listpath</span><span class="p">,</span> <span class="n">dataprefix</span><span class="p">)</span>
+    <span class="n">images</span> <span class="o">=</span> <span class="n">locate_images</span><span class="p">(</span><span class="n">paths</span><span class="p">)</span>
+    <span class="n">mindtcts</span> <span class="o">=</span> <span class="n">pool</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">mindtct_from_image</span><span class="p">,</span> <span class="n">images</span><span class="p">)</span>
+    <span class="n">mindtcts</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">mindtcts</span><span class="p">)</span>
+
+
+    <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Generating samples&#39;</span><span class="p">)</span>
+    <span class="n">probes</span>  <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">mindtcts</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="n">perc_probe</span>   <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">mindtcts</span><span class="p">)))</span>
+    <span class="n">gallery</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">mindtcts</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="n">perc_gallery</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">mindtcts</span><span class="p">)))</span>
+    <span class="nb">input</span>   <span class="o">=</span> <span class="p">[</span><span class="n">bozorth3_input</span><span class="p">(</span><span class="n">probe</span><span class="o">=</span><span class="n">probe</span><span class="p">,</span> <span class="n">gallery</span><span class="o">=</span><span class="n">gallery</span><span class="p">)</span> <span class="k">for</span> <span class="n">probe</span> <span class="ow">in</span> <span class="n">probes</span><span class="p">]</span>
+
+    <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Matching&#39;</span><span class="p">)</span>
+    <span class="n">bozorth3s</span> <span class="o">=</span> <span class="n">pool</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">run_bozorth3</span><span class="p">,</span> <span class="nb">input</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">group</span> <span class="ow">in</span> <span class="n">bozorth3s</span><span class="p">:</span>
+        <span class="n">vals</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">bozorth3</span><span class="o">.</span><span class="n">sql_insert_values</span><span class="p">,</span> <span class="n">group</span><span class="p">)</span>
+        <span class="n">cursor</span><span class="o">.</span><span class="n">executemany</span><span class="p">(</span><span class="n">bozorth3</span><span class="o">.</span><span class="n">sql_prepared_stmt_insert</span><span class="p">(),</span> <span class="n">vals</span><span class="p">)</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+        <span class="nb">map</span><span class="p">(</span><span class="nb">print</span><span class="p">,</span> <span class="n">group</span><span class="p">)</span>
+
+
+    <span class="n">conn</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+    <span class="n">plot</span><span class="p">(</span><span class="n">DBFILE</span><span class="p">,</span> <span class="n">nprobes</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="n">PLOTFILE</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="running">
+<h2>Running<a class="headerlink" href="#running" title="Permalink to this headline">¶</a></h2>
+<p>You can run the code like so:</p>
+<div class="code bash highlight-default"><div class="highlight"><pre><span></span><span class="n">time</span> <span class="n">python</span> <span class="n">python_lesson1</span><span class="o">.</span><span class="n">py</span> \
+     <span class="n">python_lesson1</span> \
+     <span class="n">NISTSpecialDatabase4GrayScaleImagesofFIGS</span><span class="o">/</span><span class="n">sd04</span><span class="o">/</span><span class="n">sd04_md5</span><span class="o">.</span><span class="n">lst</span> \
+     <span class="mf">0.001</span> \
+     <span class="mf">0.1</span>
+</pre></div>
+</div>
+<p>This will result in a figure like the following</p>
+<div class="figure" id="id1">
+<img alt="pyl1" src="lesson/prg/./python_lesson1/plot.png" />
+<p class="caption"><span class="caption-text">Fingperprint Match scores</span></p>
+</div>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="programming.html"  title="Additional Programming Assignments">&laquo; previous</a></span>
+			<span><a href="../../genindex.html"  title="General Index">index</a></span>
+				<span><a href="../../notebooks/index.html"  title="Notebooks">next &raquo;</a></span></div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abduhl-Whahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>
