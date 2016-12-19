@@ -18,7 +18,7 @@ to purchase a book. Examples for books include
 -  The LaTeX Companion, by Frank Mittelbach
 
 If you do not want to buy a book you can find a lot of useful
-information in the LaTeX refrence manual.
+information in the LaTeX reference manual.
 
 LaTeX vs. X
 -----------
@@ -31,7 +31,7 @@ in many cases versus other technologies. In general we find that LaTeX:
 * is platform independent
 * has lots of templates
 * has been around for many years so it works well
-* removes you form the burdon of figure placements
+* removes you form the pain of figure placements
 * focusses you on content rather tan the appearance of the paper
 * integrates well with code repositories such as git to write
   collaborative papers.
@@ -39,7 +39,7 @@ in many cases versus other technologies. In general we find that LaTeX:
 * has a rich set of tools that make using LaTeX easier
 * authors do not play with layouts much so papers in a format are uniform
 
-In case you need a graohical view to edit LaTeX or LateX exportalble
+In case you need a graphical view to edit LaTeX or LateX exportable
 files you also find AucTeX and Lyx.
 
 Word
@@ -49,25 +49,25 @@ Word is arguably available to many, but if you work on Linux you may
 be out of luck. Also Word often focusses not on structure of the text
 but on look. Many students abuse Word and the documents in Word become
 a pain to edit with multiple users. Recently Microsoft has offered
-online servoces to collaborate on writing documents in groups which
-work well. INtegration with bibliography managers such as endnote or
+online services to collaborate on writing documents in groups which
+work well. Integration with bibliography managers such as endnote or
 Mendeley is possible.
 
 However we ran into issues whenever we use word:
 
-* Word tensd sometimes to crash for unkown reasons and we lost a lot
+* Word tends sometimes to crash for unknown reasons and we lost a lot
   of work
 * Word has some issues with the bibliography managers and tends to
-  crash sometimes for unkown reasons.
+  crash sometimes for unknown reasons.
 * Word is slow with integration to large bibliographies.
 * Figure placement in Word in some formats is a disaster and you will
   spend many hours to correct things just to find out that if you make
-  small changes you have to spend additional many hours tou get used
+  small changes you have to spend additional many hours to get used
   to the new placement. We have not yet experienced a word version
   where we have not lost images. Maybe that has changed, so let us
   know
 
-However we higly recommend the collaborative editing features of Word
+However we highly recommend the collaborative editing features of Word
 that work on a paragraph and not letter level. Thus saving is
 essential so you do not block other people from editing the paragraph.
 
@@ -77,13 +77,13 @@ Google Docs
 Unfortunately many useful features got lost in the new google
 docs. However it is great to collaborate quickly online, share
 thoughts and even write your latex documents together if you like
-(just copy your work in a file ofline and use latex to compile it ;-)
+(just copy your work in a file offline and use latex to compile it ;-)
 )
 
 The biggest issue we have with Google Docs is that it does not allow
 the support of 2 column formats, that the bibliography integration is
-non existant and that paste and copy from web pages and images
-encourages inintended plagearizm when collecting information without
+non existent and that paste and copy from web pages and images
+encourages unintended plagiarism when collecting information without
 annotations (LaTeX and Word are prone to this too, but we found from
 experience that it tends to happen more with Google docs users.
 
@@ -97,14 +97,14 @@ Google docs:
    to develop documents collaboratively at the same time
 
 Word:
-   evailable to many, supports 2 column format, supports paragraph
+   available to many, supports 2 column format, supports paragraph
    based collaborative editing, Integrates with bibliography managers.
 
 LaTeX:
-   reduce failures, great ofline editing, superior bibligraphy
-   management, superior image placement, runs everwhere. Great
+   reduce failures, great offline editing, superior bibliography
+   management, superior image placement, runs everywhere. Great
    collaborative editing with sharelatex, allows easy generation of
-   proceedings written by hundrets of people with shared index.
+   proceedings written by hundreds of people with shared index.
 
 The best choice for your class:
    LaTeX
@@ -117,17 +117,17 @@ Emacs
 
 The text editor emacs provides a great basis for editing TeX and LaTeX
 documents. Both modes are supported. In addition there exists a color
-highlight module enableling the color display of LaTeX and TeX commands.
+highlight module enabling the color display of LaTeX and TeX commands.
 On OSX aquaemacs and carbon emacs have build in support for LaTeX. Spell
 checking is done with flyspell in emacs.
 
 Vi/Vim
 ^^^^^^
 
-Another popular editor is vi or vim. It is less featurerich but many
+Another popular editor is vi or vim. It is less feature rich but many
 programmers ar using it. As it can edit ASCII text you can edit LaTeX.
-With the LaTeX add ons to vim, vim becomes similar poweful while
-offering help and syntax highlighting for LaTeX as emasc does. (The
+With the LaTeX add ons to vim, vim becomes similar powreful while
+offering help and syntax highlighting for LaTeX as emacs does. (The
 authors still prefer emacs)
 
 
@@ -161,14 +161,14 @@ WYSIWYG localy
 
 We have found that editors such as Lyx and Auctex provide very good
 WYSIWYG alike features. However, we found an even easier way while
-using `skim`, a pdf previewr, in conjunction with `emacs` and
+using `skim`, a pdf previewer, in conjunction with `emacs` and
 `latexmk`. This can be achieved while using the following command
 assuming your latex file is called `report.tex`::
 
 
   latexmk -pvc -view=pdf report
 
-THis command will update your pdf previewer (make sure to use skim)
+This command will update your pdf previewer (make sure to use skim)
 whenever you edit the file report.tex and save it. It will maintain
 via skim the current position, thus you have a real great way of
 editing in one window, while seeing the results in the other.
@@ -182,7 +182,7 @@ Instalation
 Local Install
 ^^^^^^^^^^^^^
 
-Installing LaTeX is trivial, but requires suffiecent space and time as
+Installing LaTeX is trivial, but requires sufficient space and time as
 it is a large environment. In addition to LaTeX we recommend that you
 install `jabref` and use it for bibliography management.
 
@@ -269,7 +269,7 @@ A great example is provided at:
 * https://gitlab.com/cloudmesh/project-000/tree/master/report
 
 It not only showcases you an example file in ACM 2 column format, but
-also integrates with a bibliograpghy. Furthermore, it provides a
+also integrates with a bibliography. Furthermore, it provides a
 sample Makefile that you can use to generate view and recompile, or
 even autogenerate. A compilation would look like:
 
@@ -290,7 +290,7 @@ Generating Images
 
 To produce high quality images the programs PowerPoint and omnigraffle
 on OSX are recommended. When using powerpoint please keep the image
-ratio to 4x3 as they produce nice sze graphics whoch you also can use in
+ratio to 4x3 as they produce nice size graphics which you also can use in
 your presentations. When using other rations they may not fit in
 presentations and thus you may increase unnecessarily your work. We do
 not recommend vizio as it is not universally available and produces
@@ -298,9 +298,9 @@ images that in case you have to present them in a slide presentation
 does not easily reformat if you do not use 4x3 aspect ratio.
 
 Naturally graphics should be provided in SVG or PDF format so they can
-scale well when we look at the final PDF. Includeing PNG, gif, or jpeg
+scale well when we look at the final PDF. Including PNG, gif, or jpeg
 files often do not result in the necessary resolution or the files
-become real big. For this reason we for eaxmple can also not recommend
+become real big. For this reason we for example can also not recommend
 tools such as tablaeu as they do not provide proper exports to high
 quality publication formats. For interactive display such tool may be
 good, but for publications it produces inferior formatted images.
@@ -310,7 +310,7 @@ good, but for publications it produces inferior formatted images.
 Bibliographies
 --------------
 
-LaTeX integrates very well with bibtex. There are several preformated
+LaTeX integrates very well with bibtex. There are several preformatted
 styles available. It includes also styles for ACM and IEEE
 bibliographies. For the ACM style we recommend that you replace
 abbrv.bst with abbrvurl.bst, add hyperref to your usepackages so you
@@ -337,7 +337,7 @@ all cross-references correctly. In case you are not interested in
 updating the library every time in the writing progress just postpone it
 till the end. Missing citations are viewed as [?].
 
-Two programs stand out when manageing bibliographies: emacs and jabref:
+Two programs stand out when managing bibliographies: emacs and jabref:
 
 *  http://www.jabref.org/
 
@@ -367,13 +367,13 @@ however only on a Windows computer.
 
 .. note::
 
-   We have not tried this ourselfs, but give it as a potential
+   We have not tried this ourselves, but give it as a potential
    option. 
 
 Here are the steps the need to be done:
 
  
-1. Create the Jabref bibliography just like in presented in the jabref video
+1. Create the Jabref bibliography just like in presented in the Jabref video
 2. After finishing adding your sources in Jabref, click `File -> export`
 3. Name your bibliography and choose MS Office 2007(*.xml) as the file
    format. Remember the location of where you saved your file.
@@ -397,13 +397,13 @@ Here are the steps the need to be done:
  
 As you can see there is significant effort involve, so we do recommend you
 use LaTeX as you can focus there on content rather than dealing with
-comlex layout decissions. This is especially true, if your papers has
-figures or tables, or you need to add refernces.
+complex layout decisions. This is especially true, if your papers has
+figures or tables, or you need to add references.
 
 Other Reference Managers
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Please note that you should first decide which refernce manager you
+Please note that you should first decide which reference manager you
 like to use. In case you for example install zotero and mendeley, that
 may not work with word or other programs.
 
@@ -414,7 +414,7 @@ Endnote
 Endnote os a reference manager that works with Windows. Many people
 use endnote. However, in the past endnote has lead to complications
 when dealing with collaborative management of references. Its price is
-considerable. We have lost many hours of work because endnot being in
+considerable. We have lost many hours of work because endnote being in
 some cases instable. As student you may be able to use endnote for
 free at Indiana University.
 
@@ -424,13 +424,13 @@ free at Indiana University.
 Mendeley
 ~~~~~~~~~
 
-Mendeley is a free refernce manager compatible with Windows Word 2013,
+Mendeley is a free reference manager compatible with Windows Word 2013,
 Mac Word 2011, LibreOffice, BibTeX. Videos on how to use it are
 available at:
 
 * https://community.mendeley.com/guides/videos
 
-Instalation instructions are available at
+Installation instructions are available at
 
 https://www.mendeley.com/features/reference-manager/
 
@@ -490,10 +490,10 @@ Links
 
 -  The `LaTeX Reference
    Manual <http://texdoc.net/texmf-dist/doc/latex/latex2e-help-texinfo/latex2e.pdf>`__
-   provides a good intriduction to Latex.
+   provides a good introduction to Latex.
 
 LaTeX is available on all modern computer systems. A very good
-instalation for OSX is available at:
+installation for OSX is available at:
 
 -  https://tug.org/mactex/
 
@@ -530,8 +530,8 @@ http://tex.stackexchange.com/questions/30985/displaying-a-wide-figure-in-a-two-c
 * do not use | & and other latex characters in bibtex references,
   instead use , and the word and
 
-* If you need to use _ it is \_ but if you use urls leave tham as is
+* If you need to use _ it is \_ but if you use urls leave them as is
 
 * We do recommend that you use sharelatex and jabref for writing
   papers. This is the easiest solution and beats in many cases MSWord
-  as you can focus on writing and not on formating.
+  as you can focus on writing and not on formatting.

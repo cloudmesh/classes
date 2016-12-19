@@ -142,6 +142,6 @@ While teaching our classes we noticed the following mistakes students often make
 * Underestimating the **time** it takes to do deployments
 
 Refernces
-=========
+---------
 
 http://hpc-abds.org/kaleidoscope/ 

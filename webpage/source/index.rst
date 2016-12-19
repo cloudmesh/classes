@@ -1,12 +1,12 @@
-I524
+Classes
 ========
 
 .. toctree::
    :maxdepth: 1
-   
+	     
    i524/index
-   i524/calendar
-
+   lesson/index
+   notebooks/index
 
 Search:
 
