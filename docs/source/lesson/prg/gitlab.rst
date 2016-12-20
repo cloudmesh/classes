@@ -232,4 +232,4 @@ Exercise
 
 Gitlab.1: Create a gitlab account
 
-Gitlab.2: Create a README.rst in your gitlab account with your information
+Gitlab.2: Create a README.md in your gitlab account with your information
