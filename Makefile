@@ -21,7 +21,7 @@ publish:
 	ghp-import -n -p docs/build/html
 
 view:
-	$(BROWSER) docs/index.html
+	$(BROWSER) docs/build/html/index.html
 
 log:
 	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" > ChangeLog

@@ -5,7 +5,7 @@
 - [ ] paper1: paper1/paper.pdf, not stated, date of submission
 - [ ] paper2: paper2/paper.pdf, not stated, date of submission
 - [ ] paper3: paper2/paper.pdf, not stated, date of submission
-- [ ] proposal: report/proposal.pdf, not started, date of submission
-- [ ] midterm: report/midterm.pdf, not started, date of submission
-- [ ] report: report/report.pdf, not started, date of submission
+- [ ] proposal: url-report/proposal.pdf, not started, date of submission
+- [ ] midterm: url-report/midterm.pdf, not started, date of submission
+- [ ] report: url-report/report.pdf, not started, date of submission
    
