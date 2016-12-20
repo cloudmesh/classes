@@ -1,0 +1,461 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Using GitLab | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="Using GitLab | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/prg/gitlab.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/cards.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown current">
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		<li><a href="github.html"  title="Github">&laquo; previous</a></li>
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+		
+		
+
+	
+		<li><a href="programming.html"  title="Additional Programming Assignments">next &raquo;</a></li>
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	
+		<ul class="breadcrumbs">
+			
+		  	<li><a href="../../index.html">Big Data Classes</a></li>
+
+		  	
+		  		<li><a href="../index.html">Lessons</a></li>
+		  		<li><a href="index.html">Programming</a></li>
+
+		  	
+			<li class="current"><a href="">Using GitLab</a></li>
+		</ul>
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="using-gitlab">
+<h1>Using GitLab<a class="headerlink" href="#using-gitlab" title="Permalink to this headline">¶</a></h1>
+<p>In case your course the use of <a class="reference external" href="https://gitlab.com/">GitLab.com</a>
+for your homework submissions this information will help you to get stated.</p>
+<p>Once you have completed the entry survey you will be granted access to
+a gitlab repository in which to develop your homework submissions.</p>
+<p>The repository organization is determined by the class and specific
+instructions will be given to you. This may include:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">report</span>
+<span class="n">proposal</span>
+<span class="n">report</span>
+<span class="n">code</span>
+<span class="n">paper1</span>
+<span class="n">paper2</span>
+<span class="n">paper3</span>
+<span class="n">bib</span>
+</pre></div>
+</div>
+<p>Important is that the the use of
+<strong>lower case</strong> directories, for the main directories in the reporsitory</p>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Please use only <strong>lowercase</strong> characters in the directory
+names and no special characters such as &#64; ; / _ and
+spaces. In general we recommend that you avoid using
+directoru names with capital letters spaces and _ in
+them. This will simplify your documentation efforts and
+make the URLs from git more readable. Also while on
+some OS&#8217;s the directories &#8220;MyDirectory&#8221; is different
+from &#8220;mydirectory&#8221; gitlab considers it teh same.
+Furthermore our automated scripts that check your
+submission are case sensitive. We only will read the
+lower case directories. It is in your responsibility to
+assure proper spelling.</p>
+</div>
+<div class="section" id="getting-an-account">
+<h2>Getting an account<a class="headerlink" href="#getting-an-account" title="Permalink to this headline">¶</a></h2>
+<p>Please go to gitlab and create an account. Use a nice account name that
+only includes characters in [a-zA-Z0-9].</p>
+<ul class="simple">
+<li><a class="reference external" href="http://gitlab.com">http://gitlab.com</a></li>
+</ul>
+</div>
+<div class="section" id="getting-a-repository">
+<h2>Getting a repository<a class="headerlink" href="#getting-a-repository" title="Permalink to this headline">¶</a></h2>
+<p>Once you submitted the account to us you will recieve within a week an
+e-mail with your repository. It will be based on a Homework-ID (HID)
+that will be assigned to you by us. The HID will be the name of the
+directory in gitlab that you will be using to submit your homework.</p>
+</div>
+<div class="section" id="upload-your-public-key">
+<h2>Upload your public key<a class="headerlink" href="#upload-your-public-key" title="Permalink to this headline">¶</a></h2>
+<p>Please upload your public key to the repository as documented in gitlab.</p>
+</div>
+<div class="section" id="how-to-configure-git-and-gitlab-for-your-computer">
+<h2>How to configure Git and Gitlab for your computer<a class="headerlink" href="#how-to-configure-git-and-gitlab-for-your-computer" title="Permalink to this headline">¶</a></h2>
+<p>The proper way to use git is to install a client on your
+computer. Once you have done so, make sure to configure git to use
+your name and email address label your commits.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git config --global user.name &quot;Albert Einstein&quot;
+$ git config --global user.email albert@iu.edu
+</pre></div>
+</div>
+<p>Do this on any computer you want to make direct checkins into gitlab.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Make sure to substitute in your name and email address in the
+commands above.</p>
+</div>
+<p>You should also configure the push behavior to push only matching
+branches. See the <a class="reference external" href="https://git-scm.com/docs/git-config">git documentation</a> for more details on what this
+means.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git config --global push.default matching
+</pre></div>
+</div>
+</div>
+<div class="section" id="using-web-browsers-to-upload">
+<h2>Using Web browsers to upload<a class="headerlink" href="#using-web-browsers-to-upload" title="Permalink to this headline">¶</a></h2>
+<p>Although we do not recommend using the Web browser to add or modify
+files, it is possible. This means you could operate it without
+installing anything.  This will work, but it is not very
+convenient. To conduct your project efficiently you certainly wil want
+to use the git command line inteface.</p>
+</div>
+<div class="section" id="using-git-gui-tools">
+<h2>Using Git GUI tools<a class="headerlink" href="#using-git-gui-tools" title="Permalink to this headline">¶</a></h2>
+<p>There are many git GUI tools available that directly integrate into
+your operating system finders, windows, ..., or PyCharm.
+It is up to you to identify such tools and see if they are useful for
+you. Most of the people we work with us git from the command line, even
+if they use PyCharm or other tools that have build in git support.
+We find the commandline tools sufficient.</p>
+</div>
+<div class="section" id="submission-of-homework">
+<h2>Submission of homework<a class="headerlink" href="#submission-of-homework" title="Permalink to this headline">¶</a></h2>
+<p>You will have a HID given to you. Let us assume the id is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">S17</span><span class="o">-</span><span class="n">DG</span><span class="o">-</span><span class="mi">9999</span>
+</pre></div>
+</div>
+<p>When you log into gitlab, you will find a directory with that
+name. Please substitute the HID that we gave above as an example with
+your own. We refer to this ID as &lt;HID&gt; in these instructions.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>THis section will be updated</p>
+<p>Now you can go to your web browser and past the following
+URL into it, where you replace the &lt;HID&gt; with your HID that
+you can find in Canvas.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">gitlab</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh_spring2017</span><span class="o">/&lt;</span><span class="n">HID</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>For our example this would result in:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">gitlab</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh_spring2017</span><span class="o">/</span><span class="n">S16</span><span class="o">-</span><span class="n">DG</span><span class="o">-</span><span class="mi">9999</span>
+</pre></div>
+</div>
+</div>
+<p>You will be responsible to create the directory structure in git
+following the guidelines of your class.</p>
+<p>To submit the homework you need to first clone the repository (read
+the git manual about what cloning means):</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">gitlab</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">fall2016</span><span class="o">/</span><span class="n">HID</span>
+</pre></div>
+</div>
+<p>Your homework for submission should be organized according to folders
+in your clone repository. To submit a particular assignment, you must
+first add it using:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">add</span> <span class="o">&lt;</span><span class="n">name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">file</span> <span class="n">you</span> <span class="n">are</span> <span class="n">adding</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Afterwards, commit it using:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;message describing your submission&quot;</span>
+</pre></div>
+</div>
+<p>Then push it to your remote repository using:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span>
+</pre></div>
+</div>
+<p>If you want to modify your submission, you only need to:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;message relating to updated file&quot;</span>
+</pre></div>
+</div>
+<p>afterwards:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span>
+</pre></div>
+</div>
+<dl class="docutils">
+<dt>If you lose any documents locally, you can retrieve them from your</dt>
+<dd><p class="first">remote repository using:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">pull</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+<p>If you have any issues, please post your question in the folder
+gitlab. Our TAs will answer them.</p>
+</div>
+<div class="section" id="readme-md">
+<h2>README.md<a class="headerlink" href="#readme-md" title="Permalink to this headline">¶</a></h2>
+<p>You will have to create a README.md file in the top most directory of
+your repository It serves the purpose of identifying your submission
+for homework and information about yourself.</p>
+<p>It is important to follow the format precisely. Any derivation from
+this format will not allow us to see your homework as our automated
+scripts will use the README.rst to detect them. Please also mind that
+all filenames of all homework and the main directory must be
+<strong>lowercase</strong> as explained above.</p>
+<p>Naturally you <strong>MUST</strong> use the firstname and lastname that you used in
+CANVAS so we can identify you in CANVAS properly. If you use an alias
+that is not used in CANVAS we can naturally not identify you. Each
+homework will have a single line in the readme. Once you have
+completed a homework, please check it of with an [x]. There is no need
+to ask us if your submisison was received, we will delete such request
+and not answer them.  A program will inspect your submission and a
+list will be produced with all submissions included. THis list will be
+updated on regular baseis and published for the class. If we require
+additional fields we will announce this and you will need to add
+them. When we request to update the README.md is a must and can not be
+delayed.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="p">[</span> <span class="p">]</span> <span class="n">author</span><span class="p">:</span> <span class="n">Firtsname</span><span class="p">,</span> <span class="n">Lastname</span>
+<span class="o">-</span> <span class="p">[</span> <span class="p">]</span> <span class="n">hid</span><span class="p">:</span> <span class="n">TBD</span>
+<span class="o">-</span> <span class="p">[</span> <span class="p">]</span> <span class="n">github</span><span class="p">:</span> <span class="n">githubusername</span> <span class="p">(</span><span class="k">if</span> <span class="n">used</span> <span class="k">for</span> <span class="n">class</span><span class="p">)</span>
+<span class="o">-</span> <span class="p">[</span> <span class="p">]</span> <span class="n">gitlab</span><span class="p">:</span> <span class="n">gitlabusername</span> <span class="p">(</span><span class="k">if</span> <span class="n">used</span> <span class="k">for</span> <span class="n">class</span><span class="p">)</span>
+<span class="o">-</span> <span class="p">[</span> <span class="p">]</span> <span class="n">report</span><span class="p">:</span> <span class="n">report</span><span class="o">/</span><span class="n">report</span><span class="o">.</span><span class="n">pdf</span><span class="p">,</span> <span class="ow">not</span> <span class="n">started</span><span class="p">,</span> <span class="n">date</span> <span class="n">of</span> <span class="n">submission</span>
+<span class="o">-</span> <span class="p">[</span> <span class="p">]</span> <span class="n">paper1</span><span class="p">:</span> <span class="n">paper1</span><span class="o">/</span><span class="n">paper</span><span class="o">.</span><span class="n">pdf</span><span class="p">,</span> <span class="ow">not</span> <span class="n">stated</span><span class="p">,</span> <span class="n">date</span> <span class="n">of</span> <span class="n">submission</span>
+<span class="o">-</span> <span class="p">[</span> <span class="p">]</span> <span class="n">paper2</span><span class="p">:</span> <span class="n">paper2</span><span class="o">/</span><span class="n">paper</span><span class="o">.</span><span class="n">pdf</span><span class="p">,</span> <span class="ow">not</span> <span class="n">stated</span><span class="p">,</span> <span class="n">date</span> <span class="n">of</span> <span class="n">submission</span>
+<span class="o">-</span> <span class="p">[</span> <span class="p">]</span> <span class="n">paper3</span><span class="p">:</span> <span class="n">paper2</span><span class="o">/</span><span class="n">paper</span><span class="o">.</span><span class="n">pdf</span><span class="p">,</span> <span class="ow">not</span> <span class="n">stated</span><span class="p">,</span> <span class="n">date</span> <span class="n">of</span> <span class="n">submission</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="git-resources">
+<h2>Git Resources<a class="headerlink" href="#git-resources" title="Permalink to this headline">¶</a></h2>
+<p>If you are unfamiliar with git you may find these resources useful:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://git-scm.com/book/en/v2">Pro Git book</a></li>
+<li><a class="reference external" href="https://git-scm.com/docs/gittutorial">Official tutorial</a></li>
+<li><a class="reference external" href="https://git-scm.com/doc">Official documentation</a></li>
+<li><a class="reference external" href="http://www.tutorialspoint.com/git/">TutorialsPoint on git</a></li>
+<li><a class="reference external" href="https://try.github.io">Try git online</a></li>
+<li><a class="reference external" href="https://help.github.com/articles/good-resources-for-learning-git-and-github/">GitHub resources for learning git</a>
+Note: this is for github and not for gitlab. However as it is for gt
+the only thing you have to do is replace hihub, for gitlab.</li>
+<li><a class="reference external" href="https://www.atlassian.com/git/tutorials/">Atlassian tutorials for git</a></li>
+</ul>
+</div>
+<div class="section" id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<p>Gitlab.1: Create a gitlab account</p>
+<p>Gitlab.2: Create a README.md in your gitlab account with your information</p>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="github.html"  title="Github">&laquo; previous</a></span>
+			<span><a href="../../genindex.html"  title="General Index">index</a></span>
+				<span><a href="programming.html"  title="Additional Programming Assignments">next &raquo;</a></span></div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abduhl-Whahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>
