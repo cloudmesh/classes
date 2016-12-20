@@ -1,5 +1,0 @@
-Notebooks
-=========
-
-* facedetection.ipynb
-
