@@ -1,6 +1,6 @@
 
-GitLab
-======================================================================
+Gitlab
+======
 
 In case your course the use of `GitLab.com <https://gitlab.com/>`_
 for your homework submissions this information will help you to get stated.
