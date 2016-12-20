@@ -1,0 +1,819 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Python FAQ | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="Python FAQ | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/fall-2016/files/python/faq.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../../_static/foundation/css/cards.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown ">
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		
+			<li><a href="../../../genindex.html"  title="General Index">index</a></li>
+		
+
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="python-faq">
+<h1>Python FAQ<a class="headerlink" href="#python-faq" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="/join?source=header-repo">Sign up</a> <a class="reference external" href="/login?return_to=%2Fcglmoocs%2FPythonFiles%2Fblob%2Fmaster%2FSection%252010%2520Unit%252026%2520Kmeans%2520and%2520MapReduce%2FParallelKmeans.py">Sign
+in</a>
+<a class="reference external" href="/pricing">Pricing</a> <a class="reference external" href="/blog">Blog</a>
+<a class="reference external" href="https://help.github.com">Support</a> <a class="reference external" href="https://github.com/search">Search
+GitHub</a></p>
+<p><a class="reference external" href="http://schema.org/SoftwareSourceCode">http://schema.org/SoftwareSourceCode</a></p>
+<ul class="simple">
+<li>Watch <a class="reference external" href="/cglmoocs/PythonFiles/watchers">2</a></li>
+<li>Star <a class="reference external" href="/cglmoocs/PythonFiles/stargazers">0</a></li>
+<li>Fork <a class="reference external" href="/cglmoocs/PythonFiles/network">1</a></li>
+</ul>
+<p><a class="reference external" href="/cglmoocs/PythonFiles/blob/bfacffd164da72534d16c99c6d1eab76f2fefb2d/Section%2010%20Unit%2026%20Kmeans%20and%20MapReduce/ParallelKmeans.py">Permalink</a></p>
+<p><a class="reference external" href="/cglmoocs/PythonFiles">PythonFiles</a>/<a class="reference external" href="/cglmoocs/PythonFiles/tree/master/Section%2010%20Unit%2026%20Kmeans%20and%20MapReduce">Section 10 Unit 26 Kmeans and
+MapReduce</a>/<strong>ParallelKmeans.py</strong></p>
+<p><a href="#id1"><span class="problematic" id="id2">|image0|</span></a> Cannot retrieve contributors at this time</p>
+<p><a class="reference external" href="/cglmoocs/PythonFiles/raw/master/Section%2010%20Unit%2026%20Kmeans%20and%20MapReduce/ParallelKmeans.py">Raw</a>
+<a class="reference external" href="/cglmoocs/PythonFiles/blame/master/Section%2010%20Unit%2026%20Kmeans%20and%20MapReduce/ParallelKmeans.py">Blame</a>
+<a class="reference external" href="/cglmoocs/PythonFiles/commits/master/Section%2010%20Unit%2026%20Kmeans%20and%20MapReduce/ParallelKmeans.py">History</a></p>
+<p>&#8216;&#8217;&#8216;This file has code to perform kmeans in a parallel fashion. If the
+Parallelism parameters is set = 2 it k-means is parallelized If it is
+set to 1 it is not. Here Parallelism is set to 2&#8217;&#8216;&#8217;</p>
+<p>from scipy.cluster.vq import vq</p>
+<p>import numpy as np</p>
+<p>import matplotlib.pyplot as plt</p>
+<p>def kmeans_gcf(obs, NumClust,
+iter=20, thresh=1e-5, Parallelism =
+1, MaxMean = 1):</p>
+<p>if int(iter) &lt; 1:</p>
+<p>raise ValueError(&#8216;iter must be at
+least 1.&#8217;)</p>
+<p>#initialize best distance value to a
+large value</p>
+<p>best_dist = np.inf</p>
+<p>if NumClust &lt; 1:</p>
+<p>raise ValueError(&#8220;Asked for 0
+cluster ? &#8221;)</p>
+<p>for i in range(iter):</p>
+<p>#the intial code book is randomly
+selected from observations</p>
+<p>book, distortavg, distortmax =
+raw_kmeans_gcf(obs, NumClust,
+thresh, Parallelism)</p>
+<p>dist = distortavg</p>
+<p>if MaxMean == 2:</p>
+<p>dist = distortmax</p>
+<p>if dist &lt; best_dist:</p>
+<p>best_book = book</p>
+<p>best_dist = dist</p>
+<p>return best_book, best_dist</p>
+<p>def raw_kmeans_gcf(obs, NumClust,
+thresh=1e-5, Parallelism = 1):</p>
+<p>&#8220;&#8221;&#8221; &#8220;raw&#8221; version of k-means.</p>
+<blockquote>
+<div><p>Returns</p>
+<p>&#8212;</p>
+<p>code_book :</p>
+<p>the lowest distortion codebook</p>
+</div></blockquote>
+<p>found.</p>
+<blockquote>
+<div><p>avg_dist :</p>
+<p>the average distance a observation</p>
+</div></blockquote>
+<p>is from a code in the book.</p>
+<blockquote>
+<div>Lower means the code_book matches</div></blockquote>
+<p>the data better.</p>
+<blockquote>
+<div><p>See Also</p>
+<p>kmeans : wrapper around k-means</p>
+<p>XXX should have an axis variable</p>
+</div></blockquote>
+<p>here.</p>
+<blockquote>
+<div><p>Examples</p>
+<p>Note: not whitened in this example.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">numpy</span> <span class="k">import</span> <span class="n">array</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">scipy.cluster.vq</span> <span class="k">import</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>_kmeans</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">features</span> <span class="o">=</span> <span class="n">array</span><span class="p">([[</span> <span class="mf">1.9</span><span class="p">,</span><span class="mf">2.3</span><span class="p">],</span>
+</pre></div>
+</div>
+<p>... [ 1.5,2.5],</p>
+<p>... [ 0.8,0.6],</p>
+<p>... [ 0.4,1.8],</p>
+<p>... [ 1.0,1.0]])</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">book</span> <span class="o">=</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>array((features[0],features[2]))</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span>\<span class="n">_kmeans</span><span class="p">(</span><span class="n">features</span><span class="p">,</span><span class="n">book</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>(array([[ 1.7 , 2.4 ],</p>
+<p>[ 0.73333333, 1.13333333]]),</p>
+</div></blockquote>
+<p>0.40563916697728591)</p>
+<blockquote>
+<div>&#8220;&#8221;&#8220;</div></blockquote>
+<p># Initialize Code Book</p>
+<p>No = obs.shape[0]</p>
+<p>code_book = np.take(obs,
+np.random.randint(0, No, NumClust),
+0)</p>
+<p># obs is data; No is Number of
+Datapoints gotten from size of obs;
+NumClust is number of clusters
+desired</p>
+<p># randinit(I1, I2, Num) calculates
+Num random integers r I1 &lt;= r &lt; I2</p>
+<p># take returns an array selected
+from obs with 0&#8217;th index (lat
+argument specifies dimension) given
+in list of indices returned by
+randint</p>
+<p>#</p>
+<p>Iseven = np.empty([tot], dtype=bool)</p>
+<p>for i in np.arange(tot):</p>
+<p>Iseven[i] = (i%2 == 0);</p>
+<p>obs1 = np.compress(Iseven, obs, 0)</p>
+<p>obs2 =
+np.compress(np.logical_not(Iseven),
+obs, 0)</p>
+<p>avg_dist = []</p>
+<p>diff = thresh+1.</p>
+<p>while diff &gt; thresh:</p>
+<p>#</p>
+<p>if Parallelism == 1:</p>
+<p>code_book, NumPointsinClusters,
+distortsum, distortmax, NumPoints =
+Kmeans_map(obs, code_book)</p>
+<p>if Parallelism == 2:</p>
+<p># Can be Parallel Map Operations</p>
+<p>code_book1, NumPointsinClusters1,
+distortsum1, distortmax1, NumPoints1
+= Kmeans_map(obs1, code_book)</p>
+<p>code_book2, NumPointsinClusters2,
+distortsum2, distortmax2, NumPoints2
+= Kmeans_map(obs2, code_book)</p>
+<p>#</p>
+<p># Following are 4 Reduction
+Operations</p>
+<p># Note maps include local reductions</p>
+<p>code_book = np.add( code_book1,
+code_book2)</p>
+<p>NumPointsinClusters = np.add(
+NumPointsinClusters1,
+NumPointsinClusters2)</p>
+<p>distortsum = distortsum1 +
+distortsum2</p>
+<p>distortmax = np.maximum(distortmax1,
+distortmax2)</p>
+<p>NumPoints = NumPoints1 + NumPoints2</p>
+<p>#</p>
+<p>code_book =
+np.compress(np.greater(NumPointsinCl
+usters,
+0), code_book, 0)</p>
+<p># remove code_books that didn&#8217;t
+have any members</p>
+<p>#</p>
+<p>j = 0</p>
+<p>nc = code_book.shape[0]</p>
+<p>for i in np.arange(nc):</p>
+<p>if NumPointsinClusters[i] &gt; 0:</p>
+<p>code_book[j,:] = code_book[j,:] /
+NumPointsinClusters[i]</p>
+<p>j = j + 1</p>
+<p>#</p>
+<p># Calculate mean discrepancy</p>
+<p>distortavg = distortsum/NumPoints</p>
+<p>avg_dist.append(distortavg)</p>
+<p>if len(avg_dist) &gt; 1:</p>
+<p>diff = avg_dist[-2] - avg_dist[-1]</p>
+<p># Change in average discrepancy</p>
+<p># Can also test on average
+discrepancy itself</p>
+<p>#</p>
+<p>return code_book, distortavg,
+distortmax</p>
+<p># Return Centroid array and final
+average discrepancy</p>
+<p>#</p>
+<p># Execute Kmeans map functions in
+parallel</p>
+<p># No test on cluster count as this
+must be summed over maps</p>
+<p>def Kmeans_map(obs, code_book):</p>
+<p>No = obs.shape[0]</p>
+<p>nc = code_book.shape[0]</p>
+<p># nc is current number of clusters
+(may decrease if zero clusters last
+iteration)</p>
+<p>#</p>
+<p>#compute membership and distances
+between obs and code_book</p>
+<p>obs_code, distort = vq(obs,
+code_book)</p>
+<p>distortsum = np.sum(distort)</p>
+<p>distortmax = np.amax(distort)</p>
+<p>#</p>
+<p># vq returns an indexing array
+obs_code mapping rows of obs (the
+points) to code_book (the
+centroids)</p>
+<p># distort is an array of length No
+that has difference between
+observation and chosen centroid</p>
+<p># vq stands for vector quantization
+and is provided in SciPy</p>
+<p>#</p>
+<p>VectorDimension = obs.shape[1]</p>
+<p>NewCode_Book = np.zeros([nc,
+VectorDimension])</p>
+<p>NumPointsinClusters = np.zeros([nc])</p>
+<p>for i in np.arange(nc):</p>
+<p># Loop over clusters labelled with i</p>
+<p>cell_members =
+np.compress(np.equal(obs_code, i),
+obs, 0)</p>
+<p>NumPointsinClusters[i] =
+cell_members.shape[0]</p>
+<p># Extract Points in this Cluster;
+extract points whose quantization
+label is i</p>
+<p>#</p>
+<p>NewCode_Book[i] =
+np.sum(cell_members, 0)</p>
+<p># Calculate centroid of i&#8217;th cluster</p>
+<p>return NewCode_Book,
+NumPointsinClusters, distortsum,
+distortmax, No</p>
+<p>Radii = np.array([ 0.375, 0.55, 0.6,
+0.25 ])</p>
+<p># Set these values</p>
+<p># SciPy default Thresh = 1.0E-5
+Parallelism = 2 MaxMean = 1
+NumIterations = 20</p>
+<p>Thresh = 1.0E-5</p>
+<p>Parallelism = 2</p>
+<p>MaxMean = 1</p>
+<p>NumIterations = 1</p>
+<p>nClusters = 4</p>
+<p>nRepeat = 250</p>
+<p>tot = nClusters*nRepeat</p>
+<p>Centers1 = np.tile([0,0],
+(nRepeat,1))</p>
+<p>Centers2 = np.tile([3,3],
+(nRepeat,1))</p>
+<p>Centers3 = np.tile([0,3],
+(nRepeat,1))</p>
+<p>Centers4 = np.tile([3,0],
+(nRepeat,1))</p>
+<p>Centers = np.concatenate((Centers1,
+Centers2, Centers3, Centers4))</p>
+<p>xvalues1 = np.tile(Radii[0],
+nRepeat)</p>
+<p>xvalues2 = np.tile(Radii[1],
+nRepeat)</p>
+<p>xvalues3 = np.tile(Radii[2],
+nRepeat)</p>
+<p>xvalues4 = np.tile(Radii[3],
+nRepeat)</p>
+<p>Totradii = np.concatenate((xvalues1,
+xvalues2, xvalues3, xvalues4))</p>
+<p>xrandom = np.random.randn(tot)</p>
+<p>xrange = xrandom * Totradii</p>
+<p>yrandom = np.random.randn(tot)</p>
+<p>yrange = yrandom * Totradii</p>
+<p>Points = np.column_stack((xrange,
+yrange))</p>
+<p>data = Points + Centers</p>
+<p># computing K-Means with K = 2 (2
+clusters)</p>
+<p>centroids,error =
+kmeans_gcf(data,2, NumIterations,
+Thresh, Parallelism, MaxMean)</p>
+<p># assign each sample to a cluster</p>
+<p>idx,_ = vq(data,centroids)</p>
+<p># some plt.plotting using numpy&#8217;s
+logical indexing</p>
+<p>plt.figure(&#8220;Clustering K=2 Large
+Radius Kmeans parallel {0} MaxMean
+{1} Iter {2}&#8221;.format(Parallelism,
+MaxMean, NumIterations))</p>
+<p>plt.title(&#8220;K=2 Kmeans parallel {0}
+MaxMean {1} Iter {2} Distort
+{3:5.3f}&#8221;.format(Parallelism,
+MaxMean, NumIterations, error))</p>
+<p>plt.plot(data[idx==0,0],data[idx==0,
+1],&#8217;ob&#8217;,</p>
+<p>data[idx==1,0],data[idx==1,1],&#8217;or&#8217;)</p>
+<p>plt.plot(centroids[:,0],centroids[:,
+1],&#8217;sg&#8217;,markersize=8)</p>
+<p>plt.show()</p>
+<p># computing K-Means with K = 4 (4
+clusters)</p>
+<p>centroids4,error =
+kmeans_gcf(data,4, NumIterations,
+Thresh, Parallelism, MaxMean)</p>
+<p># assign each sample to a cluster</p>
+<p>idx4,_ = vq(data,centroids4)</p>
+<p># some plt.plotting using numpy&#8217;s
+logical indexing</p>
+<p>plt.figure(&#8220;Clustering K=4 Large
+Radius Kmeans parallel {0} MaxMean
+{1} Iter {2}&#8221;.format(Parallelism,
+MaxMean, NumIterations))</p>
+<p>plt.title(&#8220;K=4 Kmeans parallel {0}
+MaxMean {1} Iter {2} Distort
+{3:5.3f}&#8221;.format(Parallelism,
+MaxMean, NumIterations, error))</p>
+<p>plt.plot(data[idx4==0,0],data[idx4==
+0,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;blu
+e&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==1,0],data[idx4==
+1,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;red
+&#8216;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==2,0],data[idx4==
+2,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;ora
+nge&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==3,0],data[idx4==
+3,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;pur
+ple&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(centroids4[:,0],centroids4[
+:,1],&#8217;sg&#8217;,markersize=8)</p>
+<p>plt.show()</p>
+<p># computing K-Means with K = 6 (6
+clusters)</p>
+<p>centroids,error =
+kmeans_gcf(data,6, NumIterations,
+Thresh, Parallelism, MaxMean)</p>
+<p># assign each sample to a cluster</p>
+<p>idx,_ = vq(data,centroids)</p>
+<p># some plt.plotting using numpy&#8217;s
+logical indexing</p>
+<p>plt.figure(&#8220;Clustering K=6 Large
+Radius Kmeans parallel {0} MaxMean
+{1} Iter {2}&#8221;.format(Parallelism,
+MaxMean, NumIterations))</p>
+<p>plt.title(&#8220;K=6 Kmeans parallel {0}
+MaxMean {1} Iter {2} Distort
+{3:5.3f}&#8221;.format(Parallelism,
+MaxMean, NumIterations, error))</p>
+<p>plt.plot(data[idx==0,0],data[idx==0,
+1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;blue&#8217;
+,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx==1,0],data[idx==1,
+1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;red&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx==2,0],data[idx==2,
+1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;orang
+e&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx==3,0],data[idx==3,
+1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;purpl
+e&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx==4,0],data[idx==4,
+1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;green
+&#8216;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx==5,0],data[idx==5,
+1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;magen
+ta&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(centroids[:,0],centroids[:,
+1],&#8217;sk&#8217;,markersize=8)</p>
+<p>plt.show()</p>
+<p># computing K-Means with K = 8 (8
+clusters)</p>
+<p>centroids4,error =
+kmeans_gcf(data,8, NumIterations,
+Thresh, Parallelism, MaxMean)</p>
+<p># assign each sample to a cluster</p>
+<p>idx4,_ = vq(data,centroids4)</p>
+<p># some plt.plotting using numpy&#8217;s
+logical indexing</p>
+<p>plt.figure(&#8220;Clustering K=8 Large
+Radius Kmeans parallel {0} MaxMean
+{1} Iter {2}&#8221;.format(Parallelism,
+MaxMean, NumIterations))</p>
+<p>plt.title(&#8220;K=8 Kmeans parallel {0}
+MaxMean {1} Iter {2} Distort
+{3:5.3f}&#8221;.format(Parallelism,
+MaxMean, NumIterations, error))</p>
+<p>plt.plot(data[idx4==0,0],data[idx4==
+0,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;blu
+e&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==1,0],data[idx4==
+1,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;red
+&#8216;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==2,0],data[idx4==
+2,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;ora
+nge&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==3,0],data[idx4==
+3,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;pur
+ple&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==4,0],data[idx4==
+4,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;gre
+en&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==5,0],data[idx4==
+5,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;mag
+enta&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==6,0],data[idx4==
+6,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;yel
+low&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==7,0],data[idx4==
+7,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;cya
+n&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(centroids4[:,0],centroids4[
+:,1],&#8217;sg&#8217;,markersize=8)</p>
+<p>plt.show()</p>
+<p>Radii = 0.25*Radii</p>
+<p>xvalues1 = np.tile(Radii[0],
+nRepeat)</p>
+<p>xvalues2 = np.tile(Radii[1],
+nRepeat)</p>
+<p>xvalues3 = np.tile(Radii[2],
+nRepeat)</p>
+<p>xvalues4 = np.tile(Radii[3],
+nRepeat)</p>
+<p>Totradii = np.concatenate((xvalues1,
+xvalues2, xvalues3, xvalues4))</p>
+<p>xrandom = np.random.randn(tot)</p>
+<p>xrange = xrandom * Totradii</p>
+<p>yrandom = np.random.randn(tot)</p>
+<p>yrange = yrandom * Totradii</p>
+<p>Points = np.column_stack((xrange,
+yrange))</p>
+<p>data = Points + Centers</p>
+<p># computing K-Means with K = 2 (2
+clusters)</p>
+<p>centroids,error =
+kmeans_gcf(data,2, NumIterations,
+Thresh, Parallelism, MaxMean)</p>
+<p># assign each sample to a cluster</p>
+<p>idx,_ = vq(data,centroids)</p>
+<p># some plt.plotting using numpy&#8217;s
+logical indexing</p>
+<p>plt.figure(&#8220;Clustering K=2 Small
+Radius Kmeans parallel {0} MaxMean
+{1} Iter {2}&#8221;.format(Parallelism,
+MaxMean, NumIterations))</p>
+<p>plt.title(&#8220;K=2 Kmeans parallel {0}
+MaxMean {1} Iter {2} Distort
+{3:5.3f}&#8221;.format(Parallelism,
+MaxMean, NumIterations, error))</p>
+<p>plt.plot(data[idx==0,0],data[idx==0,
+1],&#8217;ob&#8217;,</p>
+<p>data[idx==1,0],data[idx==1,1],&#8217;or&#8217;)</p>
+<p>plt.plot(centroids[:,0],centroids[:,
+1],&#8217;sg&#8217;,markersize=8)</p>
+<p>plt.show()</p>
+<p># computing K-Means with K = 4 (4
+clusters)</p>
+<p>centroids4,error =
+kmeans_gcf(data,4, NumIterations,
+Thresh, Parallelism, MaxMean)</p>
+<p># assign each sample to a cluster</p>
+<p>idx4,_ = vq(data,centroids4)</p>
+<p># some plt.plotting using numpy&#8217;s
+logical indexing</p>
+<p>plt.figure(&#8220;Clustering K=4 Small
+Radius Kmeans parallel {0} MaxMean
+{1} Iter {2}&#8221;.format(Parallelism,
+MaxMean, NumIterations))</p>
+<p>plt.title(&#8220;K=4 Kmeans parallel {0}
+MaxMean {1} Iter {2} Distort
+{3:5.3f}&#8221;.format(Parallelism,
+MaxMean, NumIterations, error))</p>
+<p>plt.plot(data[idx4==0,0],data[idx4==
+0,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;blu
+e&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==1,0],data[idx4==
+1,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;red
+&#8216;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==2,0],data[idx4==
+2,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;ora
+nge&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==3,0],data[idx4==
+3,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;pur
+ple&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(centroids4[:,0],centroids4[
+:,1],&#8217;sg&#8217;,markersize=8)</p>
+<p>plt.show()</p>
+<p>Radii = 6*Radii</p>
+<p>xvalues1 = np.tile(Radii[0],
+nRepeat)</p>
+<p>xvalues2 = np.tile(Radii[1],
+nRepeat)</p>
+<p>xvalues3 = np.tile(Radii[2],
+nRepeat)</p>
+<p>xvalues4 = np.tile(Radii[3],
+nRepeat)</p>
+<p>Totradii = np.concatenate((xvalues1,
+xvalues2, xvalues3, xvalues4))</p>
+<p>xrandom = np.random.randn(tot)</p>
+<p>xrange = xrandom * Totradii</p>
+<p>yrandom = np.random.randn(tot)</p>
+<p>yrange = yrandom * Totradii</p>
+<p>Points = np.column_stack((xrange,
+yrange))</p>
+<p>data = Points + Centers</p>
+<p># computing K-Means with K = 2 (2
+Very Large clusters)</p>
+<p>centroids,error =
+kmeans_gcf(data,2, NumIterations,
+Thresh, Parallelism, MaxMean)</p>
+<p># assign each sample to a cluster</p>
+<p>idx,_ = vq(data,centroids)</p>
+<p>#</p>
+<p>plt.figure(&#8220;Clustering K=2 Very
+Large Radius Kmeans parallel {0}
+MaxMean {1} Iter
+{2}&#8221;.format(Parallelism, MaxMean,
+NumIterations))</p>
+<p>plt.title(&#8220;K=2 Kmeans parallel {0}
+MaxMean {1} Iter {2} Distort
+{3:5.3f}&#8221;.format(Parallelism,
+MaxMean, NumIterations, error))</p>
+<p>plt.plot(data[idx==0,0],data[idx==0,
+1],&#8217;ob&#8217;,</p>
+<p>data[idx==1,0],data[idx==1,1],&#8217;or&#8217;)</p>
+<p>plt.plot(centroids[:,0],centroids[:,
+1],&#8217;sg&#8217;,markersize=8)</p>
+<p>plt.show()</p>
+<p># computing K-Means with K = 4 (4
+Very Large clusters)</p>
+<p>centroids4,error =
+kmeans_gcf(data,4, NumIterations,
+Thresh, Parallelism, MaxMean)</p>
+<p># assign each sample to a cluster</p>
+<p>idx4,_ = vq(data,centroids4)</p>
+<p>#</p>
+<p>plt.figure(&#8220;Clustering K=4 Very
+Large Radius Kmeans parallel {0}
+MaxMean {1} Iter
+{2}&#8221;.format(Parallelism, MaxMean,
+NumIterations))</p>
+<p>plt.title(&#8220;K=4 Kmeans parallel {0}
+MaxMean {1} Iter {2} Distort
+{3:5.3f}&#8221;.format(Parallelism,
+MaxMean, NumIterations, error))</p>
+<p>plt.plot(data[idx4==0,0],data[idx4==
+0,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;blu
+e&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==1,0],data[idx4==
+1,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;red
+&#8216;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==2,0],data[idx4==
+2,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;ora
+nge&#8217;,
+ls =&#8217;none&#8217;)</p>
+<p>plt.plot(data[idx4==3,0],data[idx4==3,1],marker=&#8217;o&#8217;,markerfacecolor=&#8217;pur ple&#8217;, ls =&#8217;none&#8217;)</p>
+<p>plt.plot(centroids4[:,0],centroids4[ :,1],&#8217;sg&#8217;,markersize=8)</p>
+<p>plt.show()</p>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="../../../genindex.html"  title="General Index">index</a></span>
+				</div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abduhl-Whahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>

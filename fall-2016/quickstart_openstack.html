@@ -1,0 +1,671 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>QuickStart for OpenStack on FutureSystems | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="QuickStart for OpenStack on FutureSystems | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/fall-2016/quickstart_openstack.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../_static/foundation/css/cards.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown ">
+<li class="toctree-l1"><a class="reference internal" href="../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson/index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebooks/index.html">Notebooks</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		
+			<li><a href="../genindex.html"  title="General Index">index</a></li>
+		
+
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="quickstart-for-openstack-on-futuresystems">
+<span id="ref-quickstart-openstack"></span><h1>QuickStart for OpenStack on FutureSystems<a class="headerlink" href="#quickstart-for-openstack-on-futuresystems" title="Permalink to this headline">¶</a></h1>
+<p>This lesson provides a short guide to start using OpenStack on FutureSystems.</p>
+<div class="section" id="prerequisite">
+<h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Portal Account</li>
+<li>SSH Key Registration at portal.futuresystems.org</li>
+<li>FutureSystems Project Membership</li>
+</ul>
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>The following contents are discussed in this quickstart guide.</p>
+<ul>
+<li><p class="first">SSH Access to india.futuresystems.org</p>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">nova</span></code> command</p>
+</li>
+<li><p class="first">OpenStack Credential</p>
+</li>
+<li><dl class="first docutils">
+<dt>Required Options</dt>
+<dd><ul class="first last simple">
+<li>flavor</li>
+<li>image</li>
+<li>key</li>
+<li>network ID</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Launch/Terminate Instance</p>
+</li>
+</ul>
+</div>
+<div class="section" id="login-to-india-login-node">
+<h2>Login to India Login Node<a class="headerlink" href="#login-to-india-login-node" title="Permalink to this headline">¶</a></h2>
+<p>First step, you need to be in india.futuresystems.org. Use one of SSH Client
+tools, for example:</p>
+<ul class="simple">
+<li>Putty, Cygwin or OpenSSH on Windows</li>
+<li>Terminal on Mac OS or Linux</li>
+</ul>
+<p>SSH into india, for example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ssh</span> <span class="n">PORTALUSERNAME</span><span class="nd">@india</span><span class="o">.</span><span class="n">futuresystems</span><span class="o">.</span><span class="n">org</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Replace PORTALUSERNAME with your actual portal account ID</p>
+</div>
+<p>Connection is granted with the Welcome message like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Welcome</span> <span class="n">to</span> <span class="n">india</span><span class="o">.</span><span class="n">futuresystems</span><span class="o">.</span><span class="n">org</span>
+
+<span class="o">=======================================================================</span>
+
+<span class="n">ANNOUNCEMENT</span>
+<span class="o">------------</span>
+<span class="o">*</span> <span class="n">Do</span> <span class="ow">not</span> <span class="n">run</span> <span class="n">jobs</span> <span class="n">on</span> <span class="n">the</span> <span class="n">login</span> <span class="n">node</span><span class="o">.</span> <span class="n">Any</span> <span class="n">long</span><span class="o">-</span><span class="n">running</span> <span class="n">jobs</span> <span class="n">on</span> <span class="n">the</span>
+  <span class="n">login</span> <span class="n">node</span> <span class="n">will</span> <span class="n">be</span> <span class="n">terminated</span> <span class="n">without</span> <span class="n">warning</span><span class="o">.</span>
+
+<span class="n">SUPPORT</span>
+<span class="o">-------</span>
+<span class="n">If</span> <span class="n">you</span> <span class="n">have</span> <span class="n">a</span> <span class="n">problem</span><span class="p">,</span> <span class="n">please</span> <span class="n">submit</span> <span class="n">a</span> <span class="n">ticket</span><span class="o">.</span>
+ <span class="o">--&gt;</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">portal</span><span class="o">.</span><span class="n">futuresystems</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">help</span>
+
+
+<span class="o">=======================================================================</span>
+<span class="n">CALENDAR</span> <span class="o">--</span> <span class="n">NEXT</span> <span class="mi">15</span> <span class="n">DAYS</span>
+<span class="o">=======================================================================</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="nova-command-tool">
+<h2>Nova Command Tool<a class="headerlink" href="#nova-command-tool" title="Permalink to this headline">¶</a></h2>
+<p>OpenStack Compute <code class="docutils literal"><span class="pre">nova</span></code> command is enabled on India by <code class="docutils literal"><span class="pre">module</span></code> command
+like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="n">load</span> <span class="n">openstack</span>
+</pre></div>
+</div>
+<p>This command can be added to <code class="docutils literal"><span class="pre">.bash_profile</span></code> to enable OpenStack Client
+commands when you login. This way you don&#8217;t need to run the module command
+every time when you open a new SSH terminal for India. For example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">echo</span> <span class="s2">&quot;module load openstack&quot;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+</pre></div>
+</div>
+<p>See the <code class="docutils literal"><span class="pre">.bash_profile</span></code> file by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cat</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+</pre></div>
+</div>
+<p>If you successfully added the command, the file content looks like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># .bash_profile</span>
+
+<span class="c1"># Get the aliases and functions</span>
+<span class="k">if</span> <span class="p">[</span> <span class="o">-</span><span class="n">f</span> <span class="o">~/</span><span class="n">bashrc</span> <span class="p">];</span> <span class="n">then</span>
+      <span class="o">.</span> <span class="o">~/.</span><span class="n">bashrc</span>
+<span class="n">fi</span>
+
+<span class="n">module</span> <span class="n">load</span> <span class="n">openstack</span>
+</pre></div>
+</div>
+<p>See the last line of the file. <code class="docutils literal"><span class="pre">module</span></code> command is added. <code class="docutils literal"><span class="pre">.bash_profile</span></code> or
+<code class="docutils literal"><span class="pre">.bashrc</span></code> exists in your home directory to initialze a shell when you login.
+Any commands or environmental variables e.g. PATH in these files is going to be
+executed. Find more information online, if you are interested in. <a class="reference external" href="https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html">Bash Startup
+Files from GNU</a></p>
+<p>Now, we can use <code class="docutils literal"><span class="pre">nova</span></code> command, try and see help messages:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ nova
+usage: nova [--version] [--debug] [--os-cache] [--timings]
+            [--os-auth-token OS_AUTH_TOKEN]
+            [--os-tenant-name &lt;auth-tenant-name&gt;]
+            [--os-tenant-id &lt;auth-tenant-id&gt;] [--os-region-name &lt;region-name&gt;]
+            [--os-auth-system &lt;auth-system&gt;] [--service-type &lt;service-type&gt;]
+            [--service-name &lt;service-name&gt;]
+            [--volume-service-name &lt;volume-service-name&gt;]
+            [--os-endpoint-type &lt;endpoint-type&gt;]
+            [--os-compute-api-version &lt;compute-api-ver&gt;]
+            [--bypass-url &lt;bypass-url&gt;] [--insecure]
+            [--os-cacert &lt;ca-certificate&gt;] [--os-cert &lt;certificate&gt;]
+            [--os-key &lt;key&gt;] [--timeout &lt;seconds&gt;] [--os-auth-url OS_AUTH_URL]
+            [--os-domain-id OS_DOMAIN_ID] [--os-domain-name OS_DOMAIN_NAME]
+            [--os-project-id OS_PROJECT_ID]
+            [--os-project-name OS_PROJECT_NAME]
+            [--os-project-domain-id OS_PROJECT_DOMAIN_ID]
+            [--os-project-domain-name OS_PROJECT_DOMAIN_NAME]
+            [--os-trust-id OS_TRUST_ID] [--os-user-id OS_USER_ID]
+            [--os-user-name OS_USERNAME]
+            [--os-user-domain-id OS_USER_DOMAIN_ID]
+            [--os-user-domain-name OS_USER_DOMAIN_NAME]
+            [--os-password OS_PASSWORD]
+            &lt;subcommand&gt; ...
+
+            Command-line interface to the OpenStack Nova API.
+
+ ...
+</pre></div>
+</div>
+<p>OpenStack provides lots of CLI tools but we focus on Compute API <code class="docutils literal"><span class="pre">nova</span></code> to
+learn how VM instances can be started or stopped. Here are some useful
+resources.</p>
+<ul class="simple">
+<li><a class="reference external" href="http://docs.openstack.org/user-guide/cli.html">OpenStack command-line clients</a></li>
+<li><a class="reference external" href="http://docs.openstack.org/user-guide/cli_nova_launch_instance_from_image.html">Launch an instance from an image</a></li>
+</ul>
+</div>
+<div class="section" id="openstack-credential">
+<h2>OpenStack Credential<a class="headerlink" href="#openstack-credential" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal"><span class="pre">nova</span></code> command is ready but we still need a OpenStack credential because we
+use OpenStack under a project membership and OpenStack verifies our identity by
+looking at OpenStack credentials. It is simply done by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">source</span> <span class="o">~/.</span><span class="n">cloudmeh</span><span class="o">/</span><span class="n">clouds</span><span class="o">/</span><span class="n">india</span><span class="o">/</span><span class="n">kilo</span><span class="o">/</span><span class="n">openrc</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+<p>and select project by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">source</span> <span class="o">~/.</span><span class="n">cloudmeh</span><span class="o">/</span><span class="n">clouds</span><span class="o">/</span><span class="n">india</span><span class="o">/</span><span class="n">kilo</span><span class="o">/</span><span class="n">fg510</span>
+</pre></div>
+</div>
+<p>Choose a different file if you are in the other project. We chose &#8216;fg510&#8217; in
+this example.</p>
+<p>Let&#8217;s try one of <code class="docutils literal"><span class="pre">nova</span></code> sub command, for example, see a list of VM images by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">image</span><span class="o">-</span><span class="nb">list</span>
+</pre></div>
+</div>
+<p>You may see some images available on your project like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+--------------------------------------+------------------+--------+--------------------------------------+</span>
+<span class="o">|</span> <span class="n">ID</span>                                   <span class="o">|</span> <span class="n">Name</span>             <span class="o">|</span> <span class="n">Status</span> <span class="o">|</span> <span class="n">Server</span>                               <span class="o">|</span>
+<span class="o">+--------------------------------------+------------------+--------+--------------------------------------+</span>
+<span class="o">|</span> <span class="mi">0245</span><span class="n">beac</span><span class="o">-</span><span class="n">f731</span><span class="o">-</span><span class="mi">427</span><span class="n">c</span><span class="o">-</span><span class="mi">8</span><span class="n">eb0</span><span class="o">-</span><span class="mi">4</span><span class="n">e434af51cf6</span> <span class="o">|</span> <span class="n">CoreOS</span><span class="o">-</span><span class="n">Alpha</span>     <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">9</span><span class="n">eb8416d</span><span class="o">-</span><span class="mi">1313</span><span class="o">-</span><span class="mi">4748</span><span class="o">-</span><span class="n">a832</span><span class="o">-</span><span class="mi">5</span><span class="n">fe0ecbbdffc</span> <span class="o">|</span> <span class="n">Ubuntu</span><span class="o">-</span><span class="mf">14.04</span><span class="o">-</span><span class="mi">64</span>  <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">|</span> <span class="n">f51bd217</span><span class="o">-</span><span class="n">f809</span><span class="o">-</span><span class="mi">46</span><span class="n">a1</span><span class="o">-</span><span class="mi">9</span><span class="n">cdb</span><span class="o">-</span><span class="mi">604</span><span class="n">d977ad4e9</span> <span class="o">|</span> <span class="n">Ubuntu</span><span class="o">-</span><span class="mf">15.10</span><span class="o">-</span><span class="mi">64</span>  <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">1</span><span class="n">a80ac5b</span><span class="o">-</span><span class="mi">4</span><span class="n">e57</span><span class="o">-</span><span class="mi">479</span><span class="n">d</span><span class="o">-</span><span class="n">bed6</span><span class="o">-</span><span class="mi">42</span><span class="n">e1448e6785</span> <span class="o">|</span> <span class="n">cirros</span>           <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">41</span><span class="n">b2320f</span><span class="o">-</span><span class="mi">8</span><span class="n">c3b</span><span class="o">-</span><span class="mi">4</span><span class="n">bd9</span><span class="o">-</span><span class="mi">8701</span><span class="o">-</span><span class="n">a96bdf59100d</span> <span class="o">|</span> <span class="n">fedora23</span>         <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">+--------------------------------------+------------------+--------+--------------------------------------+</span>
+</pre></div>
+</div>
+<p>If the loading credential is failed, you see the errors likes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ERROR</span> <span class="p">(</span><span class="n">CommandError</span><span class="p">):</span> <span class="n">You</span> <span class="n">must</span> <span class="n">provide</span> <span class="n">a</span> <span class="n">username</span> <span class="ow">or</span> <span class="n">user</span> <span class="nb">id</span> <span class="n">via</span>
+<span class="o">--</span><span class="n">os</span><span class="o">-</span><span class="n">username</span><span class="p">,</span> <span class="o">--</span><span class="n">os</span><span class="o">-</span><span class="n">user</span><span class="o">-</span><span class="nb">id</span><span class="p">,</span> <span class="n">env</span><span class="p">[</span><span class="n">OS_USERNAME</span><span class="p">]</span> <span class="ow">or</span> <span class="n">env</span><span class="p">[</span><span class="n">OS_USER_ID</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>This is because either you do not have <code class="docutils literal"><span class="pre">openrc.sh</span></code> or a project file i.e.
+<code class="docutils literal"><span class="pre">fg510</span></code> or a credential file is broken. Check your file and report your issue
+to the course email or the ticket system on FutureSystems.</p>
+</div>
+<div class="section" id="required-options">
+<h2>Required Options<a class="headerlink" href="#required-options" title="Permalink to this headline">¶</a></h2>
+<p>There are a few options required to start a new VM instance on OpenStack. Let&#8217;s
+talk about SSH Key first.</p>
+<div class="section" id="ssh-key-on-openstack">
+<h3>SSH Key on OpenStack<a class="headerlink" href="#ssh-key-on-openstack" title="Permalink to this headline">¶</a></h3>
+<p>We will create a VM instance and use it like a normal server which means that
+we need to use SSH Key to get access to the instance. Typing password is not
+allowed. This is <strong>a different SSH Key</strong> which is not the key that you
+registered on either the portal.futuresystems.org or github.com.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">keypair</span><span class="o">-</span><span class="n">add</span> <span class="n">quickstart</span><span class="o">-</span><span class="n">key</span> <span class="o">&gt;</span> <span class="o">~/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span>
+</pre></div>
+</div>
+<p>This command does two things: one is registering a new public key to Openstack
+and the other one is saving a new private key to your .ssh directory.</p>
+<p>Let&#8217;s check your new keypair by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">keypair</span><span class="o">-</span><span class="nb">list</span>
+</pre></div>
+</div>
+<p>You expect to see <em>quickstart-key</em> in your list of keys:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+----------------+-------------------------------------------------+</span>
+<span class="o">|</span> <span class="n">Name</span>           <span class="o">|</span> <span class="n">Fingerprint</span>                                     <span class="o">|</span>
+<span class="o">+----------------+-------------------------------------------------+</span>
+<span class="o">|</span> <span class="n">quickstart</span><span class="o">-</span><span class="n">key</span> <span class="o">|</span> <span class="mi">68</span><span class="p">:</span><span class="mi">22</span><span class="p">:</span><span class="mi">1</span><span class="n">f</span><span class="p">:</span><span class="n">e7</span><span class="p">:</span><span class="n">d0</span><span class="p">:</span><span class="mi">92</span><span class="p">:</span><span class="mi">7</span><span class="n">a</span><span class="p">:</span><span class="mi">68</span><span class="p">:</span><span class="n">d8</span><span class="p">:</span><span class="n">f5</span><span class="p">:</span><span class="mi">3</span><span class="n">d</span><span class="p">:</span><span class="n">d2</span><span class="p">:</span><span class="n">ca</span><span class="p">:</span><span class="n">cd</span><span class="p">:</span><span class="n">cd</span><span class="p">:</span><span class="n">b9</span> <span class="o">|</span>
+<span class="o">+----------------+-------------------------------------------------+</span>
+</pre></div>
+</div>
+<p>And your private key is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ls</span> <span class="o">-</span><span class="n">al</span> <span class="o">~/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span>
+</pre></div>
+</div>
+<p>The file should exist:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">r</span><span class="o">--</span><span class="n">r</span><span class="o">--</span> <span class="mi">1</span> <span class="n">albert</span> <span class="n">users</span> <span class="mi">1751</span> <span class="n">Jan</span> <span class="mi">25</span> <span class="mi">00</span><span class="p">:</span><span class="mi">10</span> <span class="o">/</span><span class="n">N</span><span class="o">/</span><span class="n">u</span><span class="o">/</span><span class="n">albert</span><span class="o">/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span>
+</pre></div>
+</div>
+<p>The permission is too open, change the file permission with the owners only
+read-write permission by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">chmod</span> <span class="mi">600</span> <span class="o">~/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span>
+</pre></div>
+</div>
+<p>And run <code class="docutils literal"><span class="pre">ls</span></code> command again to confirm the file permission. <code class="docutils literal"><span class="pre">-rw-------</span></code> is
+expected.</p>
+<div class="section" id="passphrase-on-private-key">
+<h4>Passphrase on Private Key<a class="headerlink" href="#passphrase-on-private-key" title="Permalink to this headline">¶</a></h4>
+<p>It is important that we have passphrase-enabled SSH key. Let&#8217;s add a
+passphrase:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ssh</span><span class="o">-</span><span class="n">keygen</span> <span class="o">-</span><span class="n">p</span> <span class="o">-</span><span class="n">f</span> <span class="o">~/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span>
+</pre></div>
+</div>
+<p>Provide your passphrase, your private key will be updated:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Enter</span> <span class="n">new</span> <span class="n">passphrase</span> <span class="p">(</span><span class="n">empty</span> <span class="k">for</span> <span class="n">no</span> <span class="n">passphrase</span><span class="p">):</span>
+<span class="n">Enter</span> <span class="n">same</span> <span class="n">passphrase</span> <span class="n">again</span><span class="p">:</span>
+<span class="n">Your</span> <span class="n">identification</span> <span class="n">has</span> <span class="n">been</span> <span class="n">saved</span> <span class="k">with</span> <span class="n">the</span> <span class="n">new</span> <span class="n">passphrase</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="vm-images">
+<h3>VM Images<a class="headerlink" href="#vm-images" title="Permalink to this headline">¶</a></h3>
+<p>We will launch a new VM instance with a VM image, let&#8217;s see the list of images
+by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">image</span><span class="o">-</span><span class="nb">list</span>
+</pre></div>
+</div>
+<p>We use <code class="docutils literal"><span class="pre">Ubuntu-14.04-64</span></code> the latest Ubuntu distribution with 64 bit:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+--------------------------------------+------------------+--------+--------------------------------------+</span>
+<span class="o">|</span> <span class="n">ID</span>                                   <span class="o">|</span> <span class="n">Name</span>             <span class="o">|</span> <span class="n">Status</span> <span class="o">|</span> <span class="n">Server</span>                               <span class="o">|</span>
+<span class="o">+--------------------------------------+------------------+--------+--------------------------------------+</span>
+<span class="o">|</span> <span class="mi">0245</span><span class="n">beac</span><span class="o">-</span><span class="n">f731</span><span class="o">-</span><span class="mi">427</span><span class="n">c</span><span class="o">-</span><span class="mi">8</span><span class="n">eb0</span><span class="o">-</span><span class="mi">4</span><span class="n">e434af51cf6</span> <span class="o">|</span> <span class="n">CoreOS</span><span class="o">-</span><span class="n">Alpha</span>     <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">9</span><span class="n">eb8416d</span><span class="o">-</span><span class="mi">1313</span><span class="o">-</span><span class="mi">4748</span><span class="o">-</span><span class="n">a832</span><span class="o">-</span><span class="mi">5</span><span class="n">fe0ecbbdffc</span> <span class="o">|</span> <span class="n">Ubuntu</span><span class="o">-</span><span class="mf">14.04</span><span class="o">-</span><span class="mi">64</span>  <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">|</span> <span class="n">f51bd217</span><span class="o">-</span><span class="n">f809</span><span class="o">-</span><span class="mi">46</span><span class="n">a1</span><span class="o">-</span><span class="mi">9</span><span class="n">cdb</span><span class="o">-</span><span class="mi">604</span><span class="n">d977ad4e9</span> <span class="o">|</span> <span class="n">Ubuntu</span><span class="o">-</span><span class="mf">15.10</span><span class="o">-</span><span class="mi">64</span>  <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">1</span><span class="n">a80ac5b</span><span class="o">-</span><span class="mi">4</span><span class="n">e57</span><span class="o">-</span><span class="mi">479</span><span class="n">d</span><span class="o">-</span><span class="n">bed6</span><span class="o">-</span><span class="mi">42</span><span class="n">e1448e6785</span> <span class="o">|</span> <span class="n">cirros</span>           <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">41</span><span class="n">b2320f</span><span class="o">-</span><span class="mi">8</span><span class="n">c3b</span><span class="o">-</span><span class="mi">4</span><span class="n">bd9</span><span class="o">-</span><span class="mi">8701</span><span class="o">-</span><span class="n">a96bdf59100d</span> <span class="o">|</span> <span class="n">fedora23</span>         <span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span>                                      <span class="o">|</span>
+<span class="o">+--------------------------------------+------------------+--------+--------------------------------------+</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="server-sizes-flavors">
+<h3>Server Sizes (Flavors)<a class="headerlink" href="#server-sizes-flavors" title="Permalink to this headline">¶</a></h3>
+<p>We can choose a size of a new VM instance, the flavor.</p>
+<p>Try <code class="docutils literal"><span class="pre">nova</span></code> command like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">flavor</span><span class="o">-</span><span class="nb">list</span>
+</pre></div>
+</div>
+<p>We use <code class="docutils literal"><span class="pre">m1.small</span></code> but available flavors are:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+----+-----------+-----------+------+-----------+------+-------+-------------+-----------+</span>
+<span class="o">|</span> <span class="n">ID</span> <span class="o">|</span> <span class="n">Name</span>      <span class="o">|</span> <span class="n">Memory_MB</span> <span class="o">|</span> <span class="n">Disk</span> <span class="o">|</span> <span class="n">Ephemeral</span> <span class="o">|</span> <span class="n">Swap</span> <span class="o">|</span> <span class="n">VCPUs</span> <span class="o">|</span> <span class="n">RXTX_Factor</span> <span class="o">|</span> <span class="n">Is_Public</span> <span class="o">|</span>
+<span class="o">+----+-----------+-----------+------+-----------+------+-------+-------------+-----------+</span>
+<span class="o">|</span> <span class="mi">1</span>  <span class="o">|</span> <span class="n">m1</span><span class="o">.</span><span class="n">tiny</span>   <span class="o">|</span> <span class="mi">512</span>       <span class="o">|</span> <span class="mi">1</span>    <span class="o">|</span> <span class="mi">0</span>         <span class="o">|</span>      <span class="o">|</span> <span class="mi">1</span>     <span class="o">|</span> <span class="mf">1.0</span>         <span class="o">|</span> <span class="kc">True</span>      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">2</span>  <span class="o">|</span> <span class="n">m1</span><span class="o">.</span><span class="n">small</span>  <span class="o">|</span> <span class="mi">2048</span>      <span class="o">|</span> <span class="mi">20</span>   <span class="o">|</span> <span class="mi">0</span>         <span class="o">|</span>      <span class="o">|</span> <span class="mi">1</span>     <span class="o">|</span> <span class="mf">1.0</span>         <span class="o">|</span> <span class="kc">True</span>      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">3</span>  <span class="o">|</span> <span class="n">m1</span><span class="o">.</span><span class="n">medium</span> <span class="o">|</span> <span class="mi">4096</span>      <span class="o">|</span> <span class="mi">40</span>   <span class="o">|</span> <span class="mi">0</span>         <span class="o">|</span>      <span class="o">|</span> <span class="mi">2</span>     <span class="o">|</span> <span class="mf">1.0</span>         <span class="o">|</span> <span class="kc">True</span>      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">4</span>  <span class="o">|</span> <span class="n">m1</span><span class="o">.</span><span class="n">large</span>  <span class="o">|</span> <span class="mi">8192</span>      <span class="o">|</span> <span class="mi">80</span>   <span class="o">|</span> <span class="mi">0</span>         <span class="o">|</span>      <span class="o">|</span> <span class="mi">4</span>     <span class="o">|</span> <span class="mf">1.0</span>         <span class="o">|</span> <span class="kc">True</span>      <span class="o">|</span>
+<span class="o">|</span> <span class="mi">5</span>  <span class="o">|</span> <span class="n">m1</span><span class="o">.</span><span class="n">xlarge</span> <span class="o">|</span> <span class="mi">16384</span>     <span class="o">|</span> <span class="mi">160</span>  <span class="o">|</span> <span class="mi">0</span>         <span class="o">|</span>      <span class="o">|</span> <span class="mi">8</span>     <span class="o">|</span> <span class="mf">1.0</span>         <span class="o">|</span> <span class="kc">True</span>      <span class="o">|</span>
+<span class="o">+----+-----------+-----------+------+-----------+------+-------+-------------+-----------+</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="network-id">
+<h3>Network ID<a class="headerlink" href="#network-id" title="Permalink to this headline">¶</a></h3>
+<p>We use a private network assigned to our project in OpenStack Kilo.</p>
+<p>Try <code class="docutils literal"><span class="pre">nova</span></code> command like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">network</span><span class="o">-</span><span class="nb">list</span>
+</pre></div>
+</div>
+<p>We use <code class="docutils literal"><span class="pre">fg510-net</span></code> the private network for fg510 project from:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+--------------------------------------+-----------+------+</span>
+<span class="o">|</span> <span class="n">ID</span>                                   <span class="o">|</span> <span class="n">Label</span>     <span class="o">|</span> <span class="n">Cidr</span> <span class="o">|</span>
+<span class="o">+--------------------------------------+-----------+------+</span>
+<span class="o">|</span> <span class="n">a9815176</span><span class="o">-</span><span class="n">daa7</span><span class="o">-</span><span class="mi">45</span><span class="n">ef</span><span class="o">-</span><span class="mi">98</span><span class="n">ca</span><span class="o">-</span><span class="mi">60</span><span class="n">dff58e7baf</span> <span class="o">|</span> <span class="n">ext</span><span class="o">-</span><span class="n">net</span>   <span class="o">|</span> <span class="o">-</span>    <span class="o">|</span>
+<span class="o">|</span> <span class="n">e5228c15</span><span class="o">-</span><span class="mi">38</span><span class="n">af</span><span class="o">-</span><span class="mi">4</span><span class="n">f91</span><span class="o">-</span><span class="n">a6de</span><span class="o">-</span><span class="mi">1590</span><span class="n">d399427e</span> <span class="o">|</span> <span class="n">fg510</span><span class="o">-</span><span class="n">net</span> <span class="o">|</span> <span class="o">-</span>    <span class="o">|</span>
+<span class="o">+--------------------------------------+-----------+------+</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="launch-a-new-vm-instance">
+<h2>Launch a New VM Instance<a class="headerlink" href="#launch-a-new-vm-instance" title="Permalink to this headline">¶</a></h2>
+<p>We are now ready to start a new VM instance with the options that we chose earlier.</p>
+<ul class="simple">
+<li>Image: Ubuntu-14.04-64</li>
+<li>Flavor: m1.small</li>
+<li>Key: quickstart-key</li>
+<li>Network ID: e5228c15-38af-4f91-a6de-1590d399427e</li>
+<li>VM Name: $USER-quickstart</li>
+</ul>
+<p>Launch a VM instance by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>nova boot --image Ubuntu-14.04-64 --flavor m1.small --key-name quickstart-key
+--nic net-id=e5228c15-38af-4f91-a6de-1590d399427e $USER-quickstart
+</pre></div>
+</div>
+<p>Your new VM instance named <em>quickstart-$USER</em> will be created shortly. Your
+launching request is accepted with the messages like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+--------------------------------------+--------------------------------------------------------+</span>
+<span class="o">|</span> <span class="n">Property</span>                             <span class="o">|</span> <span class="n">Value</span>                                                  <span class="o">|</span>
+<span class="o">+--------------------------------------+--------------------------------------------------------+</span>
+<span class="o">|</span> <span class="n">OS</span><span class="o">-</span><span class="n">DCF</span><span class="p">:</span><span class="n">diskConfig</span>                    <span class="o">|</span> <span class="n">MANUAL</span>                                                 <span class="o">|</span>
+<span class="o">|</span> <span class="n">OS</span><span class="o">-</span><span class="n">EXT</span><span class="o">-</span><span class="n">AZ</span><span class="p">:</span><span class="n">availability_zone</span>          <span class="o">|</span> <span class="n">nova</span>                                                   <span class="o">|</span>
+<span class="o">|</span> <span class="n">OS</span><span class="o">-</span><span class="n">EXT</span><span class="o">-</span><span class="n">STS</span><span class="p">:</span><span class="n">power_state</span>               <span class="o">|</span> <span class="mi">0</span>                                                      <span class="o">|</span>
+<span class="o">|</span> <span class="n">OS</span><span class="o">-</span><span class="n">EXT</span><span class="o">-</span><span class="n">STS</span><span class="p">:</span><span class="n">task_state</span>                <span class="o">|</span> <span class="n">scheduling</span>                                             <span class="o">|</span>
+<span class="o">|</span> <span class="n">OS</span><span class="o">-</span><span class="n">EXT</span><span class="o">-</span><span class="n">STS</span><span class="p">:</span><span class="n">vm_state</span>                  <span class="o">|</span> <span class="n">building</span>                                               <span class="o">|</span>
+<span class="o">|</span> <span class="n">OS</span><span class="o">-</span><span class="n">SRV</span><span class="o">-</span><span class="n">USG</span><span class="p">:</span><span class="n">launched_at</span>               <span class="o">|</span> <span class="o">-</span>                                                      <span class="o">|</span>
+<span class="o">|</span> <span class="n">OS</span><span class="o">-</span><span class="n">SRV</span><span class="o">-</span><span class="n">USG</span><span class="p">:</span><span class="n">terminated_at</span>             <span class="o">|</span> <span class="o">-</span>                                                      <span class="o">|</span>
+<span class="o">|</span> <span class="n">accessIPv4</span>                           <span class="o">|</span>                                                        <span class="o">|</span>
+<span class="o">|</span> <span class="n">accessIPv6</span>                           <span class="o">|</span>                                                        <span class="o">|</span>
+<span class="o">|</span> <span class="n">adminPass</span>                            <span class="o">|</span> <span class="n">juXmTsv66</span>                                              <span class="o">|</span>
+<span class="o">|</span> <span class="n">config_drive</span>                         <span class="o">|</span>                                                        <span class="o">|</span>
+<span class="o">|</span> <span class="n">created</span>                              <span class="o">|</span> <span class="mi">2016</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">26</span><span class="n">T19</span><span class="p">:</span><span class="mi">42</span><span class="p">:</span><span class="mi">32</span><span class="n">Z</span>                                   <span class="o">|</span>
+<span class="o">|</span> <span class="n">flavor</span>                               <span class="o">|</span> <span class="n">m1</span><span class="o">.</span><span class="n">small</span> <span class="p">(</span><span class="mi">2</span><span class="p">)</span>                                           <span class="o">|</span>
+<span class="o">|</span> <span class="n">hostId</span>                               <span class="o">|</span>                                                        <span class="o">|</span>
+<span class="o">|</span> <span class="nb">id</span>                                   <span class="o">|</span> <span class="n">a700fad0</span><span class="o">-</span><span class="n">ad69</span><span class="o">-</span><span class="mi">4036</span><span class="o">-</span><span class="n">b184</span><span class="o">-</span><span class="n">cdca18d516a4</span>                   <span class="o">|</span>
+<span class="o">|</span> <span class="n">image</span>                                <span class="o">|</span> <span class="n">Ubuntu</span><span class="o">-</span><span class="mf">14.04</span><span class="o">-</span><span class="mi">64</span> <span class="p">(</span><span class="n">f51bd217</span><span class="o">-</span><span class="n">f809</span><span class="o">-</span><span class="mi">46</span><span class="n">a1</span><span class="o">-</span><span class="mi">9</span><span class="n">cdb</span><span class="o">-</span><span class="mi">604</span><span class="n">d977ad4e9</span><span class="p">)</span> <span class="o">|</span>
+<span class="o">|</span> <span class="n">key_name</span>                             <span class="o">|</span> <span class="n">quickstart</span><span class="o">-</span><span class="n">key</span>                                         <span class="o">|</span>
+<span class="o">|</span> <span class="n">metadata</span>                             <span class="o">|</span> <span class="p">{}</span>                                                     <span class="o">|</span>
+<span class="o">|</span> <span class="n">name</span>                                 <span class="o">|</span> <span class="n">albert</span><span class="o">-</span><span class="n">quickstart</span>                                      <span class="o">|</span>
+<span class="o">|</span> <span class="n">os</span><span class="o">-</span><span class="n">extended</span><span class="o">-</span><span class="n">volumes</span><span class="p">:</span><span class="n">volumes_attached</span> <span class="o">|</span> <span class="p">[]</span>                                                     <span class="o">|</span>
+<span class="o">|</span> <span class="n">progress</span>                             <span class="o">|</span> <span class="mi">0</span>                                                      <span class="o">|</span>
+<span class="o">|</span> <span class="n">security_groups</span>                      <span class="o">|</span> <span class="n">default</span>                                                <span class="o">|</span>
+<span class="o">|</span> <span class="n">status</span>                               <span class="o">|</span> <span class="n">BUILD</span>                                                  <span class="o">|</span>
+<span class="o">|</span> <span class="n">tenant_id</span>                            <span class="o">|</span> <span class="mi">0193</span><span class="n">f2237d3d342f106fbf04bdd2f</span>                          <span class="o">|</span>
+<span class="o">|</span> <span class="n">updated</span>                              <span class="o">|</span> <span class="mi">2016</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">26</span><span class="n">T19</span><span class="p">:</span><span class="mi">42</span><span class="p">:</span><span class="mi">33</span><span class="n">Z</span>                                   <span class="o">|</span>
+<span class="o">|</span> <span class="n">user_id</span>                              <span class="o">|</span> <span class="mi">4186710</span><span class="n">ab90a642455889d3a8b51a</span>                          <span class="o">|</span>
+<span class="o">+--------------------------------------+--------------------------------------------------------+</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="access-to-vm">
+<h2>Access to VM<a class="headerlink" href="#access-to-vm" title="Permalink to this headline">¶</a></h2>
+<p>Booting up a VM instance takes a few minutes. Let&#8217;s check its status by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="nb">list</span>
+</pre></div>
+</div>
+<p>If you see it is active and running like</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+--------------------------------------+------------------+--------+------------+-------------+--------------------+</span>
+<span class="o">|</span> <span class="n">ID</span>                                   <span class="o">|</span> <span class="n">Name</span>             <span class="o">|</span> <span class="n">Status</span> <span class="o">|</span> <span class="n">Task</span> <span class="n">State</span> <span class="o">|</span> <span class="n">Power</span> <span class="n">State</span> <span class="o">|</span> <span class="n">Networks</span>           <span class="o">|</span>
+<span class="o">+--------------------------------------+------------------+--------+------------+-------------+--------------------+</span>
+<span class="o">|</span> <span class="n">a700fad0</span><span class="o">-</span><span class="n">ad69</span><span class="o">-</span><span class="mi">4036</span><span class="o">-</span><span class="n">b184</span><span class="o">-</span><span class="n">cdca18d516a4</span> <span class="o">|</span> <span class="n">albert</span><span class="o">-</span><span class="n">quickstart</span><span class="o">|</span> <span class="n">ACTIVE</span> <span class="o">|</span> <span class="o">-</span>          <span class="o">|</span> <span class="n">Running</span>     <span class="o">|</span> <span class="n">fg510</span><span class="o">-</span><span class="n">net</span><span class="o">=</span><span class="mf">10.0</span><span class="o">.</span><span class="mf">6.4</span> <span class="o">|</span>
+<span class="o">+--------------------------------------+------------------+--------+------------+-------------+--------------------+</span>
+</pre></div>
+</div>
+<p>We may try SSH into the <em>$USER-quickstart</em> VM. Note that you see your portal ID
+in <em>albert</em>. SSH into the private IP addres and like you SSHed to India but with a
+different SSH key like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ssh</span> <span class="o">-</span><span class="n">i</span> <span class="o">~/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span> <span class="mf">10.0</span><span class="o">.</span><span class="mf">6.4</span> <span class="o">-</span><span class="n">l</span> <span class="n">ubuntu</span>
+</pre></div>
+</div>
+<p><code class="docutils literal"><span class="pre">-l</span> <span class="pre">ubuntu</span></code> parameter is added to specify a default user name of the base
+image <em>Ubuntu-14.04-64</em>.</p>
+<p>You provide your SSH passphrase to get access and you will see a welcome
+message on your new Ubuntu 15.10 virtual server:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>Welcome to Ubuntu 14.04 (GNU/Linux 3.13.0-62-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+   Get cloud support with Ubuntu Advantage Cloud Guest:
+       http://www.ubuntu.com/business/services/cloud
+
+ 0 packages can be updated.
+ 0 updates are security updates.
+
+
+ The programs included with the Ubuntu system are free software;
+ the exact distribution terms for each program are described in the
+ individual files in /usr/share/doc/*/copyright.
+
+ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+ applicable law.
+
+ To run a command as administrator (user &quot;root&quot;), use &quot;sudo &lt;command&gt;&quot;.
+ See &quot;man sudo_root&quot; for details.
+
+ ubuntu@albert-quickstart:~$
+</pre></div>
+</div>
+<p>You are the owner of your new VM instance. You can install any software and
+manage services as a root with sudo command, if you like.</p>
+</div>
+<div class="section" id="terminate-vm">
+<h2>Terminate VM<a class="headerlink" href="#terminate-vm" title="Permalink to this headline">¶</a></h2>
+<p>Now, we need to learn how to terminate a VM instance once our work on a vm is
+completed. Running idle VM instances is not allowed in the course because we
+share compute resources with other students.</p>
+<p>Use <code class="docutils literal"><span class="pre">nova</span></code> command to terminate:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">delete</span> <span class="n">a700fad0</span><span class="o">-</span><span class="n">ad69</span><span class="o">-</span><span class="mi">4036</span><span class="o">-</span><span class="n">b184</span><span class="o">-</span><span class="n">cdca18d516a4</span>
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>nova delete $USER-quickstart
+</pre></div>
+</div>
+<p>You will see the message like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Request</span> <span class="n">to</span> <span class="n">delete</span> <span class="n">server</span> <span class="n">a700fad0</span><span class="o">-</span><span class="n">ad69</span><span class="o">-</span><span class="mi">4036</span><span class="o">-</span><span class="n">b184</span><span class="o">-</span><span class="n">cdca18d516a4</span> <span class="n">has</span> <span class="n">been</span>
+<span class="n">accepted</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>ID is unique but Name of your VM is not. Try to use ID when you terminate VM
+instance.</p>
+</div>
+<div class="section" id="faq">
+<h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">¶</a></h2>
+<ol class="upperalpha" start="17">
+<li><p class="first"><code class="docutils literal"><span class="pre">nova</span></code> command doesn&#8217;t work with the error:</p>
+<p>ERROR (Unauthorized): The request you have made requires authentication.
+(HTTP 401) (Request-ID: req-82f94837-78e7-4abd-a413-ff7645c45a7f)</p>
+</li>
+</ol>
+<p>A. Your OpenStack credential (i.e. openrc.sh) is not valid. Check your file and
+project ID. If a problem is consistent, report to the course team.</p>
+</div>
+<div class="section" id="any-questions">
+<h2>Any Questions?<a class="headerlink" href="#any-questions" title="Permalink to this headline">¶</a></h2>
+<p>Please use Slack or the course email, if you have issues or questions regarding
+this tutorial.</p>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul>
+<li class="toctree-l1"><a class="reference internal" href="../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson/index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebooks/index.html">Notebooks</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="../genindex.html"  title="General Index">index</a></span>
+				</div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abduhl-Whahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../_static/foundation/js/foundation.min.js"></script>
+	<script src="../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>
