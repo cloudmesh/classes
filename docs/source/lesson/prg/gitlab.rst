@@ -1,5 +1,5 @@
 
-Using GitLab
+GitLab
 ======================================================================
 
 In case your course the use of `GitLab.com <https://gitlab.com/>`_
@@ -203,13 +203,13 @@ delayed.
    - [ ] hid: TBD
    - [ ] github: githubusername (if used for class)
    - [ ] gitlab: gitlabusername (if used for class)
-   - [ ] report: report/report.pdf, not started, date of submission
    - [ ] paper1: paper1/paper.pdf, not stated, date of submission
    - [ ] paper2: paper2/paper.pdf, not stated, date of submission
    - [ ] paper3: paper2/paper.pdf, not stated, date of submission
+   - [ ] proposal: report/proposal.pdf, not started, date of submission
+   - [ ] midterm: report/midterm.pdf, not started, date of submission
+   - [ ] report: report/report.pdf, not started, date of submission
    
-
-
 
 Git Resources
 ----------------------------------------------------------------------
