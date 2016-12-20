@@ -11,16 +11,14 @@ ifeq ($(UNAME), CYGWIN_NT-6.3)
 BROWSER=/cygdrive/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
 endif
 
-doc:
-	cd webpage; make html
-	rm -rf docs/*
-	cp -r webpage/build/html/* docs
+doc: 
+	cd docs; make html
 
 watch:
 	watchmedo shell-command --patterns="*.rst" --recursive --command='make doc'
 
-# publish:
-#	ghp-import -n -p docs/build/html
+publish:
+	ghp-import -n -p docs/build/html
 
 view:
 	$(BROWSER) docs/index.html

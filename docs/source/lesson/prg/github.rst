@@ -14,10 +14,12 @@ A more extensive list of tutorials can be found at
 * https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
 
 Important is that you always want to make sure that you want to use
-the git init command and add your Name and e-mail. Do it consistent in
-the machines you use, or your checkins in git (if you do them) do not
-show up in a consistant fashion as a single user. This is done with
-the following commands::
+the `git config` command to initialize git for the first time you use
+it. This will ensure that you use on all resources the same Name and
+e-mail so that git history and log will show consistently your
+checkins. If you do not do this, your your checkins in git do not show
+up in a consistant fashion as a single user. This is done with the
+following commands::
 
   $ git config --global user.name "John Doe"
   $ git config --global user.email johndoe@example.com
