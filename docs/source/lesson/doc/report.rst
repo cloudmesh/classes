@@ -15,11 +15,18 @@ The template for the report is available from:
 
 * https://github.com/cloudmesh/classes/tree/master/docs/source/format/report
 
+An example report in PDF format is available:
+
+* `report.pdf <https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/report.pdf>`_
+  
 It includes some very simple `makefile <https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/Makefile>`_
 and allows you to do editing with immediate preview as documented in
 the LaTeX lesson.  Due to LaTeX being a trivial ASCII based format and
 its superior bibliography management you wil save yourself many hours
-of work.
+of work. 
+
+
+
 
 In case you are in a team, you can use either gitlab while
 collaboratively developing the LaTeX document or use sharelatex or

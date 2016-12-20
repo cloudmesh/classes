@@ -4,11 +4,12 @@
 
 
 
+
 \title{\LaTeX\ Template for Preparing an Article for I524}
 
-\author[1,2,3]{Author One}
-\author[2,*]{Author Two}
-\author[1]{Author Three}
+\author[1,2,3]{John Smith}
+\author[2,*]{Alice Smith}
+\author[1]{Bruce Wayne}
 
 \affil[1]{Publications Department, The Optical Society (OSA), 2010 Massachusetts Avenue NW, Washington D.C., 20036}
 \affil[2]{School of Science, University of Technology, 2000 J St. NW, Washington DC, 20036}
@@ -20,8 +21,9 @@
 
 \ociscodes{Cloud, I524}
 
-%% To be edited by editor
-% \doi{\url{http://gitlab.com/...}}
+% replace this with your url in github/gitlab
+\doi{\url{https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/report.pdf}}
+
 
 \begin{abstract}
 This template can be used to prepare a research article for I524. Note
@@ -120,6 +122,12 @@ for i in range(0,100):
 \end{quote}
 \end{algorithm}
 
+\section{Reference Management}
+
+The best programs to manage your references is jabref or emacs. You can edit the references and verify them with them for format errors. To cite them use the citation key. You can add multiple bib files to the bibliography command separated by comma.
+
+\noindent Add citations with the cite command. See \cite{Zhang:14,OSA,FORSTER2007}.
+
 \section{Supplemental Material}
 
 You can include an appendix with important information and additional figures if needed. HOwever they must be referenced and follow the same guidelines as in the main text.
@@ -136,24 +144,19 @@ All materials must be associated with a figure, table, or equation or be referen
 
 2. C. Rivers, "Epipy: Python tools for epidemiology" (Figshare, 2014) [retrieved 13 May 2015], http://dx.doi.org/10.6084/m9.figshare.1005064.
 
-\section{Funding Information}
 
-Funding information should be listed in a separate block preceding any acknowledgments. List just the funding agencies and any associated grants or project numbers, as shown in the example below:
+\section*{Acknowledgements}
 
-National Science Foundation (NSF) (1263236, 0968895, 1102301); The 863 Program (2013AA014402).
+Funding information should be listed in this section. Please evaluate
+if you like to list your employer that may have funded your activities
+here.  If you receive grants or project numbers, as shown in the
+example.  This work was in part supported by National Science
+Foundation (NSF) (1234567, 891012345) (These numbers are invented)
 
-The acknowledgments may contain any information that is not related to funding:
+The acknowledgments may also contain any information that is not related to funding:
 
 The authors thank H. Haase, C. Wiede, and J. Gabler for technical support.
 
-Do not use Funding Information or Acknowledgment headings.
-
-\section{References}
-
-The best programs to manage your references is jabref or emacs. You can edit the references and verify them with them for format errors. To cite them use the citation key. You can add multiple bib files to the bibliography command separated by comma.
-
-\bigskip
-\noindent Add citations with the cite command. See \cite{Zhang:14,OSA,FORSTER2007}.
 
 % Bibliography
 \bibliography{references}
@@ -171,27 +174,58 @@ The best programs to manage your references is jabref or emacs. You can edit the
   %11070--11078 (2014).
 %\end{thebibliography}
 
-% Please include bios and photos of all authors for aop articles 
-\ifthenelse{\equal{\journalref}{aop}}{%
+
 \section*{Author Biographies}
 \begingroup
 \setlength\intextsep{0pt}
-\begin{minipage}[t][6.3cm][t]{1.0\textwidth} % Adjust height [6.3cm] as required for separation of bio photos.
-  \begin{wrapfigure}{L}{0.25\textwidth}
-    \includegraphics[width=0.25\textwidth]{images/john_smith.eps}
+\begin{minipage}[t][3.2cm][t]{1.0\columnwidth} % Adjust height [3.2cm] as required for separation of bio photos.
+  \begin{wrapfigure}{L}{0.25\columnwidth}
+    \includegraphics[width=0.25\columnwidth]{images/john_smith.eps}
   \end{wrapfigure}
   \noindent
-  {\bfseries John Smith} received his BSc (Mathematics) in 2000 from The University of Maryland. His research interests include lasers and optics.
+  {\bfseries John Smith} received his BSc (Mathematics) in 2000 from
+  The University of Maryland. His research interests include lasers
+  and optics. 
 \end{minipage}
-\begin{minipage}{1.0\textwidth}
-  \begin{wrapfigure}{L}{0.25\textwidth}
-    \includegraphics[width=0.25\textwidth]{images/alice_smith.eps}
+\begin{minipage}[t][3.2cm][t]{1.0\columnwidth} % Adjust height [3.2cm] as required for separation of bio photos.
+  \begin{wrapfigure}{L}{0.25\columnwidth}
+    \includegraphics[width=0.25\columnwidth]{images/alice_smith.eps}
   \end{wrapfigure}
   \noindent
-  {\bfseries Alice Smith} also received her BSc (Mathematics) in 2000 from The University of Maryland. Her research interests also include lasers and optics.
+  {\bfseries Alice Smith} received her BSc (Mathematics) in 2000 from
+  The University of Maryland. Her research interests also include
+  lasers and optics. 
+\end{minipage}
+\begin{minipage}[t][3.2cm][t]{1.0\columnwidth} % Adjust height [3.2cm] as required for separation of bio photos.
+  \begin{wrapfigure}{L}{0.25\columnwidth}
+    \includegraphics[width=0.25\columnwidth]{images/alice_smith.eps}
+  \end{wrapfigure}
+  \noindent
+  {\bfseries Bruce Wayne} received his BSc (Aeronautics) in 2000 from
+  Indiana University. His research interests include lasers and optics.
 \end{minipage}
 \endgroup
-}{}
 
+\newpage
+
+\appendix
+
+\section{Work Breakdown}
+
+The work on this project was distributed as follows between the
+authors:
+
+\begin{description}
+
+\item[John Smith.] Explored the deep mathematical knowledge needed for
+  this paper and taught it to the other authors.
+
+\item[Alice Smith.] She explored the world of Oz and was instrumental
+  to work on the deployment of hadoop.
+
+\item[Bruce Wayne.] He did not contribute at all to this paper and
+  flew around to safe the world.  
+
+\end{description}
 
 \end{document}
