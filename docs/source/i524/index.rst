@@ -152,22 +152,22 @@ Prerequisites
 
 We expect you are familiar with:
 
-* Linux or the Operating system on which you will focus your
-  deployment (easy)
+* (easy) Linux or the Operating system on which you will focus your
+  deployment.
   
-* Note that Windows as OS will not be sufficient as Ansible is not
+* (moderate) Note that Windows as OS will not be sufficient as Ansible is not
   supported on it. However you can use virtualbox or log onto one of
   the clouds to get access to an OS that supports ansible.
   
-* Python 2.7.x (we will not use python 3 for this class as it is not
+* (easy) Python 2.7.x (we will not use python 3 for this class as it is not
   yet portable with all systems) (we consider learning python as easy,
   however some students found it challenging)
   
-* pip (easy)
+* (easy) pip
 
-* virtualenv (easy)
+* (easy) virtualenv
 
-* an editor (emacs, vi, jedit, pyCharm, eclipse, or orther) (easy)
+* (easy) an editor (emacs, vi, jedit, pyCharm, eclipse, or other)
   
 If you are not familiar with the technologies, we expect that you get
 to know them during class. This may pose additional time commitment. 
@@ -199,6 +199,13 @@ While teaching our classes we noticed the following mistakes students often make
   secret information such as passwords
 * Assume your colleagues does the work, so you get lazy
 * Underestimating the **time** it takes to do deployments
+* Not reading our piazza posts and repeating the same question over
+  and over
+* Sending mail to instructors, which will be out of principal deleted
+  and not read. Instead you should use piazza
+* Not using Piazza to communicate and instead use CANVAS. We will
+  be deleting all canvas posts after we have established you can post
+  to piazza. Which will be the first week of class.
 
 Refernces
 ---------
