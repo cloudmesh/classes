@@ -10,3 +10,5 @@ Lessons
    linux/index
    org/index
    prg/index
+   data/index
+   projects/index

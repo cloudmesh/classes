@@ -152,6 +152,9 @@ Requirements
 Example projects
 ~~~~~~~~~~~~~~~~
 
+See also https://docs.google.com/document/d/1KylDsRBmVbCZSqGpRbzYwdzUGKFi92bkATwU03of5gw
+
+
 - deploy Apache Spark on top of Hadoop
 - deploy Apache Pig on top of Hadoop
 - deploy Apache Storm

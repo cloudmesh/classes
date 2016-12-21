@@ -37,7 +37,7 @@
 \RequirePackage[scaled]{helvet}
 \RequirePackage[T1]{fontenc}
 \RequirePackage{url}
-\RequirePackage[colorlinks=true, allcolors=blue]{hyperref}
+\RequirePackage[colorlinks=true, allcolors=blue,breaklinks,hidelinks]{hyperref}
 
 \newcommand{\headerfont}{\normalfont\sffamily\fontsize{7}{9} \selectfont}
 \newcommand{\titlefont}{\normalfont\sffamily\bfseries\fontsize{21}{23}\selectfont}
@@ -100,6 +100,8 @@
 \definecolor{color1}{RGB}{59,90,198} % author email, doi
 % color2 defined by the specific journal style file
 
+
+
 % Bibliography
 \RequirePackage[numbers,sort&compress]{natbib}
 \setlength{\bibsep}{0.0pt}
@@ -109,7 +111,7 @@
 \newlength{\biblabelwidth}
 \settowidth{\biblabelwidth}{\bibfont 00. }
 \makeatletter
-\renewcommand\@biblabel[1]{\makebox[\biblabelwidth][l]{#1.}} % Remove brackets from label
+%\renewcommand\@biblabel[1]{\makebox[\biblabelwidth][l]{#1.}} % Remove brackets from label
 \def\tagform@#1{\maketag@@@{\bfseries(\ignorespaces#1\unskip\@@italiccorr)}}
 \renewcommand{\eqref}[1]{\textup{{\normalfont Eq.~(\ref{#1}}\normalfont)}}
 \makeatother
@@ -275,7 +277,9 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
 % Creating a new bibliography
 \RequirePackage[resetlabels]{multibib}
 \newcites{fullrefs}{Full References}  %% Or whatever the heading might be
-\bibliographystylefullrefs{osajnl}    %% The full style
+% \bibliographystylefullrefs{osajnl}    %% The full style
+\bibliographystylefullrefs{IEEEtran}    %% The full style
+%\bibliographystyle{IEEEtran}    %% The full style
 
 % Patching \cite to automatically add cite
 % to fullrefs list

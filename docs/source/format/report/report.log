@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2016 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 DEC 2016 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,6 +528,7 @@ Now handling font encoding PD1 ...
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4322.
 Package hyperref Info: Hyper figures OFF on input line 4446.
 Package hyperref Info: Link nesting OFF on input line 4451.
 Package hyperref Info: Hyper index ON on input line 4454.
@@ -545,7 +546,7 @@ Package hyperref Info: Hyper figures OFF on input line 6298.
 Package hyperref Info: Link nesting OFF on input line 6303.
 Package hyperref Info: Hyper index ON on input line 6306.
 Package hyperref Info: backreferencing OFF on input line 6313.
-Package hyperref Info: Link coloring ON on input line 6316.
+Package hyperref Info: Link coloring OFF on input line 6318.
 Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
@@ -921,20 +922,20 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count137
 )
 \biblabelwidth=\skip60
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 110.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 112.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Font Info:    Try loading font information for T1+phv on input line 110.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 112.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 110.
+(Font)              scaled to size 8.54997pt on input line 112.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 110.
+(Font)              scaled to size 7.59998pt on input line 112.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip61
@@ -1115,17 +1116,17 @@ Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \cite with sig. 'O{} O{} m' on line 285.
+. Redefining command \cite with sig. 'O{} O{} m' on line 289.
 .................................................
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \citep with sig. 'O{} O{} m' on line 288.
+. Redefining command \citep with sig. 'O{} O{} m' on line 292.
 .................................................
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \citet with sig. 'O{} O{} m' on line 290.
+. Redefining command \citet with sig. 'O{} O{} m' on line 294.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/silence/silence.sty
@@ -1400,7 +1401,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 37.
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring OFF on input line 37.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1705,30 +1706,30 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 62--63
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 95.
+(Font)              scaled to size 6.64998pt on input line 101.
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./images/sample-eps-converted-to.pdf>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 101.
+put line 108.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 \T1/ppl/m/n/9 (+20) 1. M. Par-tridge, "Spec-tra evo-lu-tion dur-ing coat-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 \T1/ppl/m/n/9 (+20) ing," figshare (2014) [re-trieved 13 May 2015],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 \T1/ppl/m/n/9 (+20) 2. C. Rivers, "Epipy: Python tools for epi-demi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 \T1/ppl/m/n/9 (+20) ol-ogy" (Figshare, 2014) [re-trieved 13 May 2015],
  []
 
@@ -1741,33 +1742,15 @@ Package epstopdf Info: Source file: <images/john_smith.eps>
 (epstopdf)                    size: 39687 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/john_smith-eps-conv
 erted-to.pdf images/john_smith.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/john_smith-eps-converted-to.pdf, id=85, 72.27pt x 90.3375pt>
+<images/john_smith-eps-converted-to.pdf, id=86, 72.27pt x 90.3375pt>
 File: images/john_smith-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/john_smith-eps-converted-to.pdf>
 Package pdftex.def Info: images/john_smith-eps-converted-to.pdf used on input l
-ine 183.
-(pdftex.def)             Requested size: 62.53687pt x 78.17117pt.
-Package epstopdf Info: Source file: <images/alice_smith.eps>
-(epstopdf)                    date: 2016-12-20 04:32:47
-(epstopdf)                    size: 975818 bytes
-(epstopdf)             Output file: <images/alice_smith-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-20 10:57:18
-(epstopdf)                    size: 43083 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/alice_smith-eps-con
-verted-to.pdf images/alice_smith.eps>
-(epstopdf)             \includegraphics on input line 192.
-Package epstopdf Info: Output file is already uptodate.
-
-<images/alice_smith-eps-converted-to.pdf, id=86, 72.27pt x 90.3375pt>
-File: images/alice_smith-eps-converted-to.pdf Graphic file (type pdf)
-
-<use images/alice_smith-eps-converted-to.pdf>
-Package pdftex.def Info: images/alice_smith-eps-converted-to.pdf used on input 
-line 192.
+ine 192.
 (pdftex.def)             Requested size: 62.53687pt x 78.17117pt.
 Package epstopdf Info: Source file: <images/alice_smith.eps>
 (epstopdf)                    date: 2016-12-20 04:32:47
@@ -1779,15 +1762,33 @@ Package epstopdf Info: Source file: <images/alice_smith.eps>
 verted-to.pdf images/alice_smith.eps>
 (epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
+
+<images/alice_smith-eps-converted-to.pdf, id=87, 72.27pt x 90.3375pt>
 File: images/alice_smith-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/alice_smith-eps-converted-to.pdf>
 Package pdftex.def Info: images/alice_smith-eps-converted-to.pdf used on input 
 line 201.
 (pdftex.def)             Requested size: 62.53687pt x 78.17117pt.
+Package epstopdf Info: Source file: <images/alice_smith.eps>
+(epstopdf)                    date: 2016-12-20 04:32:47
+(epstopdf)                    size: 975818 bytes
+(epstopdf)             Output file: <images/alice_smith-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-20 10:57:18
+(epstopdf)                    size: 43083 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/alice_smith-eps-con
+verted-to.pdf images/alice_smith.eps>
+(epstopdf)             \includegraphics on input line 210.
+Package epstopdf Info: Output file is already uptodate.
+File: images/alice_smith-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/alice_smith-eps-converted-to.pdf>
+Package pdftex.def Info: images/alice_smith-eps-converted-to.pdf used on input 
+line 210.
+(pdftex.def)             Requested size: 62.53687pt x 78.17117pt.
  [2 <./images/john_smith-eps-converted-to.pdf> <./images/alice_smith-eps-conver
 ted-to.pdf>]
-Underfull \hbox (badness 3364) in paragraph at lines 220--222
+Underfull \hbox (badness 3364) in paragraph at lines 229--231
 []\T1/ppl/m/n/9 (+20) Explored the deep math-e-mat-i-cal knowl-edge
  []
 
@@ -1796,23 +1797,23 @@ AED: lastpage setting LastPage
 [3
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 4A0E9C02CC0D33C9F3A1B3A302A59FC0;694.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
- 21753 strings out of 493014
- 363423 string characters out of 6133351
- 568056 words of memory out of 5000000
- 24781 multiletter control sequences out of 15000+600000
- 96065 words of font info for 223 fonts, out of 8000000 for 9000
+ 21754 strings out of 493014
+ 363529 string characters out of 6133351
+ 568039 words of memory out of 5000000
+ 24782 multiletter control sequences out of 15000+600000
+ 96069 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,18n,45p,10400b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,18n,45p,10400b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
@@ -1827,10 +1828,10 @@ pe1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/upl
 ri8a.pfb>
-Output written on report.pdf (3 pages, 958754 bytes).
+Output written on report.pdf (3 pages, 957890 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  134 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 26 named destinations out of 1000 (max. 500000)
  60016 words of extra memory for PDF output out of 61914 (max. 10000000)
 

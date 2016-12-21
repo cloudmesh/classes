@@ -1,7 +1,12 @@
 .. _ref-quickstart_openstack:
 
-QuickStart for OpenStack on FutureSystems
+FutureSystems Cloud
 ===============================================================================
+
+.. warning:: This cloud is being updated so this guide will **not work
+	     completely**. However the commands to openstack provide a
+	     good introduction to any openstack cloud. Naturally
+	     account management will be different.
 
 This lesson provides a short guide to start using OpenStack on FutureSystems.
 
