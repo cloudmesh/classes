@@ -1,8 +1,18 @@
 I524 New
 ========
 
+.. csv-table:: Lectures CSV 
+   :header: "ID", "Descripion", "Slides", "Video"
+   :widths: 15, 10, 30, 10
+   file: lectures.csv
 
-.. list-table:: LecturesC
+
+
+hhh
+====
+
+
+.. list-table:: 
    :widths: 10 30 10 10
    :header-rows: 1
 
@@ -54,6 +64,18 @@ I524 New
      - Data Access Patterns and Introduction to using HPC-ABDS
      - `Slides <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_2.pptx>`_
      -
+
+
+
+
+
+
+
+
+hhhh
+=====
+
+
    * - Unit 5.A
      - Introduction to HPC-ABDS Software and Access Patterns
      - `Video <https://mix.office.com/watch/gjwl36xkjzc0>`_, `Resource 1 <http://grids.ucs.indiana.edu/ptliupages/publications/HPC-ABDSDescribedv2.pdf>`_   
@@ -81,8 +103,48 @@ I524 New
    * - Unit 5.G
      - Final Part Summary of Stack
      - `Video <https://mix.office.com/watch/1gm6sxg0hc2p>`_
-     - 0:20:20   
+     - 0:20:20
 
+
+
+
+
+   * - Unit 7
+     - Big Data Application Structure
+     - `Slides <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_3.pptx>`_
+     -
+   * - Unit 7.A
+     - NIST Big Data Sub Groups
+     - `Slides <https://mix.office.com/watch/dwap7g95jn9b>`_
+     - 0:23:25   
+   * - Unit 7.B
+     - Big Data Patterns - Sources of Parallelism
+     - `Slides <https://mix.office.com/watch/fkebewczmq6q>`_
+     - 0:23:51   
+   * - Unit 7.C
+     - First and Second Set of Features
+     - `Slides <https://mix.office.com/watch/jmpr3f4mnvqy>`_  0:18:26   
+   * - Part 7.D
+     - Machine Learning Aspect of Second Feature Set and the Third Set
+     - **MISSING**
+     - 0:18:38   
+   * - Unit 8
+     - Aspects of Big Data Applications
+     - `Slides <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_4.pptx>`_
+     - 
+   * - Unit 8.A
+     - Other sources of use cases and Classical Databases/SQL Solutions
+     - `Slides <https://mix.office.com/watch/1jq48eqbd6cyf>`_
+     - 0:16:50   
+   * - Unit 8.B
+     - NOSQL Solutions, Machine Learning Example, and MapReduce
+     - `Slides <https://mix.office.com/watch/17v340tp51i17>`_
+     - 0:18:49   
+   * - Unit 8.C
+     - Clouds vs HPC, Data Intensive vs. Simulation Problems
+     - `Slides <https://mix.office.com/watch/vwjde1pan2m0>`_
+     - 0:20:26   
+       
 
 
 QuickStart of OpenStack for First Time User  0:35:31          
@@ -147,15 +209,6 @@ AAA
  Unit 4: Hybrid Clouds and Other Efforts Gregor, Fugang, Badi  
  `Cloudmesh <https://mix.office.com/watch/1c7rd1l9i4c8o>`_   Gregor, Fugang  
  Comet   Gregor, Fugang  
- Unit 7 (Theory): Big Data Application Structure  `PPT <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_3.pptx>`_  
- `Part A: NIST Big Data Sub Groups <https://mix.office.com/watch/dwap7g95jn9b>`_  0:23:25   
- `Part B: Big Data Patterns - Sources of Parallelism <https://mix.office.com/watch/fkebewczmq6q>`_ 0:23:51   
- `Part C: First and Second Set of Features <https://mix.office.com/watch/jmpr3f4mnvqy>`_  0:18:26   
- Part D: Machine Learning Aspect of Second Feature Set and the Third Set   0:18:38   
- Unit 8 (Theory): Aspects of Big Data Applications  `PPT <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_4.pptx>`_  
- `Part A: Other sources of use cases and Classical Databases/SQL Solutions <https://mix.office.com/watch/1jq48eqbd6cyf>`_   0:16:50   
- `Part B: NOSQL Solutions, Machine Learning Example, and MapReduce <https://mix.office.com/watch/17v340tp51i17>`_   0:18:49   
- `Part C: Clouds vs HPC, Data Intensive vs. Simulation Problems <https://mix.office.com/watch/vwjde1pan2m0>`_   0:20:26   
  Unit 9 (Technology): IT Operations - Automation and Orchestration  `H4-1: Ansible <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/ansible.html#ref-class-lesson-devops-ansible-lab>`_ 
  `Ansible <https://www.youtube.com/watch?v=JTv1QWjTWS8&index=1&list=PLLO4AVszo1SOkNPAv4E824AFScdduO9NF>`_ 0:17:00  `web <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/ansible.html#ref-class-lesson-devops-ansible>`_  
  SaltStack `web <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/saltstack.html#ref-class-lesson-devops-saltstack>`_   `extra H: salt <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/saltstack.html#ref-class-lesson-devops-saltstack-exercises>`_   
