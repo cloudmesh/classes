@@ -4,7 +4,7 @@ I524 New
 .. csv-table:: Lectures CSV 
    :header: "ID", "Descripion", "Slides", "Video"
    :widths: 15, 10, 30, 10
-   file: lectures.csv
+   :url: https://raw.githubusercontent.com/cloudmesh/classes/master/docs/source/i524/lectures.csv
 
 
 
