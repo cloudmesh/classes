@@ -207,6 +207,15 @@ While teaching our classes we noticed the following mistakes students often make
   be deleting all canvas posts after we have established you can post
   to piazza. Which will be the first week of class.
 
+Class Material
+  
+.. toctree::
+   :maxdepth: 1
+
+   calendar
+   lectures
+   technologies
+  
 Refernces
 ---------
 

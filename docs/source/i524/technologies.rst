@@ -1,3 +1,4 @@
+
 Technologies
 ======================================================================
 
@@ -6,7 +7,6 @@ In this section we find some technologies related to big data
 
 * Apache projects: https://projects.apache.org/projects.html?category
 
-* Slurm :cite:`slurm`
   
 
 Workflow-Orchestration
@@ -354,7 +354,7 @@ Cluster Resource Management
 * SGE
 * OpenPBS
 * Moab
-* Slurm :cite:`slurm`
+* Slurm :cite:`www-slurm`
 * Torque
 * Globus Tools
 * Pilot Jobs
@@ -492,7 +492,5 @@ Message and Data Protocols
 * Thrift
 * Protobuf
 
-.. rubric:: References
-
-.. bibliography:: refs.bib
+.. bibliography:: ../refs.bib
    :cited:

@@ -5,3 +5,4 @@ requests
 pandas
 sphinxcontrib-bibtex
 foundation-sphinx-theme
+pybtex
