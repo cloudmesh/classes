@@ -14,9 +14,3 @@ Classes
 Search:
 
 * :ref:`search`
-
-Test
-====
-See :cite:`www-slurm` for an introduction to non-standard analysis.
-
-.. bibliography:: refs.bib
