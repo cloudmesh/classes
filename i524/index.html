@@ -97,9 +97,12 @@
 							<li class="has-dropdown">
 								<a href="">Sections</a>
 								<ul class="dropdown current">
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">I524 Big Data &amp; Open Source Software Projects</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lesson/index.html">Lessons</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../todo.html">Todos</a></li>
 </ul>
 
 							</li>
@@ -110,7 +113,7 @@
 	<li class="divider"></li>
 
 	
-		<li><a href="../index.html"  title="Classes">&laquo; previous</a></li>
+		<li><a href="../about/index.html"  title="About">&laquo; previous</a></li>
 	
 		
 			<li><a href="../genindex.html"  title="General Index">index</a></li>
@@ -119,7 +122,7 @@
 		
 
 	
-		<li><a href="../lesson/index.html"  title="Lessons">next &raquo;</a></li>
+		<li><a href="calendar.html"  title="I524 Calendar">next &raquo;</a></li>
 	
 					</ul>
 				</section>
@@ -180,76 +183,141 @@ software subsystems illustrated in Figure 1.</p>
 <a class="reference internal image-reference" href="../_images/bigdata.png"><img alt="300 Technologies" src="../_images/bigdata.png" style="width: 200px;" /></a>
 <p class="caption"><span class="caption-text"><strong>Figure 1:</strong> Software Systems relevant for Big Data</span></p>
 </div>
-<p>We will describe the software architecture represented by this collection and work towards identifying best practices to deploy, access and interface with them. Topics of this class will include:</p>
+<p>We will describe the software architecture represented by this
+collection and work towards identifying best practices to deploy,
+access and interface with them. Topics of this class will include:</p>
 <ol class="arabic simple">
-<li>The cloud computing architecture underlying open source big data software and frameworks  and contrast of them to high performance computing</li>
-<li>The software architecture with its different layers covering broad functionality and rationale for each layer.</li>
-<li>We will go through selected big data stack software from the list of more than 300</li>
-<li>We will be identifying how we can create replicate software environments based on software deployed and used on clouds while using Containers, OpenStack and ansible playbooks.</li>
-<li>Students will chose one other open source member of Kaleidoscope each and deploy as illustrated in class.</li>
-<li>The main activity of the course will be building a significant project using multiple subsystems combined with user code and data. Projects will be suggested or students can chose their own. A project report will summarize the work conducted.</li>
+<li>The cloud computing architecture underlying open source big data
+software and frameworks and contrast of them to high performance
+computing</li>
+<li>The software architecture with its different layers covering broad
+functionality and rationale for each layer.</li>
+<li>We will go through selected big data stack software from the list
+of more than 300</li>
+<li>We will be identifying how we can create replicate software
+environments based on software deployed and used on clouds while
+using Containers, OpenStack and ansible playbooks.</li>
+<li>Students will chose one other open source member of Kaleidoscope
+each and deploy as illustrated in class.</li>
+<li>The main activity of the course will be building a significant
+project using multiple subsystems combined with user code and
+data. Projects will be suggested or students can chose their own. A
+project report will summarize the work conducted.</li>
 </ol>
-<p>Students of this class will need to conduct their project deployments in python using ansible and enabling a software stack that is useful for a big data analysis. While it is not necessary to know either python or ansible to take the class it is important that you have knowledge of a programming language so you can enhance your knowledge on them throughout the class and succeed.</p>
+<p>Students of this class will need to conduct their project deployments
+in python using ansible and enabling a software stack that is useful
+for a big data analysis. While it is not necessary to know either
+python or ansible to take the class it is important that you have
+knowledge of a programming language so you can enhance your knowledge
+on them throughout the class and succeed.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">A note to current I523 class participants: While I523 is a beginners
-class I524 is an advanced class and we expect that you know python
-which you hopefully have learned as part of I523. If not, make sure you
-learn it before you take this class. If not consider significant
-additional time needed for that class. You
-will be expected to have a computer on which you have python installed.
-You will be using chameleon and possibly our local cloud. Optionally some
-projects may use docker. A significant amount of time will be spend to
-familiarize yourself with the technologies more so than
-in I523.</p>
+<p class="last">A note to current I523 class participants: While I523 is a
+beginners class I524 is an advanced class and we expect that
+you know python which you hopefully have learned as part of
+I523. If not, make sure you learn it before you take this
+class. If not consider significant additional time needed
+for that class. You will be expected to have a computer on
+which you have python installed.  You will be using
+chameleon and possibly our local cloud. Optionally some
+projects may use docker. A significant amount of time will
+be spend to familiarize yourself with the technologies more
+so than in I523.</p>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Residential students enroll early so we avoid the situation like last
-year where we had many signing up, but did not even show up to the
-first lecture. I have asked that students from I523 have preference,
-but I am not sure if we can enforce this. So enroll ASAP.</p>
+<p class="last">Residential students enroll early so we avoid the situation
+like last year where we had many signing up, but did not
+even show up to the first lecture. I have asked that
+students from I523 have preference, but I am not sure if we
+can enforce this. So enroll ASAP.</p>
 </div>
 <div class="section" id="who-can-take-the-class">
 <h2>Who can take the class?<a class="headerlink" href="#who-can-take-the-class" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>undergrads can take this class. Make sure you have enough time and fulfill the prerequisites
-such as knowing a programming language well and you have enough time to learn python.</li>
-<li>you could take I524 without taking I523, but you must be proficient in python
-and catch up with some of the material in I523 which makes the selection of a
-project easier.</li>
-<li>online students</li>
-<li>residential students</li>
+<li>Undergrads can take this class. Make sure you have enough time and
+fulfill the prerequisites such as knowing a programming language
+well and you have enough time to learn python.</li>
+<li>You could take I524 without taking I523, but you must be proficient
+in python and catch up with some of the material in I523 which makes
+the selection of a project easier.</li>
+<li>Online students</li>
+<li>Residential students</li>
 </ul>
 </div>
 <div class="section" id="homework">
 <h2>Homework<a class="headerlink" href="#homework" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p class="first">Grading:</p>
-<blockquote>
-<div><ul class="simple">
-<li>discussions (10%)</li>
-<li>technology paper about 3 per student of the 300 systems
-(30%, at least 6 pages without references),</li>
-<li>project (60%) (at least 6 pages without references)</li>
-</ul>
-</div></blockquote>
+<table border="1" class="docutils">
+<colgroup>
+<col width="12%" />
+<col width="88%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>10%</td>
+<td>Discussions and contribution to Web pages</td>
+</tr>
+<tr class="row-even"><td>30%</td>
+<td>Three unique technology papers per student of the 300
+systems. Each paper as at least 2 pages per technology
+without refences.</td>
+</tr>
+<tr class="row-odd"><td>60%</td>
+<td>Project code and report with at least 6 pages without
+references. Much shorter reports will be returned
+without review. Do not artifically inflate contents.</td>
+</tr>
+</tbody>
+</table>
 </li>
-<li><p class="first">Groups of up to three students can work on a project but workload
-increases with each student and a work break down must be provided.
-More than three students are not allowed in a project or paper. For
-group team you will be asked to deploy a larger system or
-demonstrate deployability on multiple clouds while benchmarking it.</p>
+<li><p class="first"><strong>Project groups:</strong> Groups of up to three students can work on a project
+but workload increases with each student and a work break down must
+be provided.  More than three students are not allowed. For a team
+you will be asked to deploy a larger system or demonstrate
+deployability on multiple clouds while benchmarking it.</p>
 </li>
-<li><p class="first">Groups of up to three students can work also on the technology
-papers. However the workload is not reduced, you will produce 3 *
-number of group members technology papers.</p>
+<li><p class="first"><strong>Technology papers:</strong> Technology papers must be non-overlapping in the
+entire class. If multiple students select the same technology, we
+will be drawing randomly which students does which technology. As we
+have over 300 such technologies we should have enough for the entire
+class. If you see technologies missing, let us know and we see how
+to add them.</p>
 </li>
-<li><p class="first">Technologies in the papers must be non-overlapping in the entire
-class. If multiple students select the same technology, we will be
-drawing randomly which students does which technology.  Each student
-will develop as part of the project a deployment of a
-technology. Points may depend on simplicity of deployment.</p>
+<li><p class="first"><strong>Technology paper groups:</strong> Groups of up to three students can
+work also on the technology papers. However the workload is not
+reduced, you will produce 3 times the number of group members
+technology papers of unique technologies. However, you could be
+having coauthors that are part of your group. Please do not ask us
+how many technology papers you need to write if you are in a
+group. The rule is clearly specified. Example: Your group has 3
+members, each of them has to procude 3 unique papers, thus you have
+to produce 9 unique technology papers for this group. If you have 2
+members you have to produce 6, if you work alone you have to
+produce 3.</p>
+</li>
+<li><p class="first"><strong>Technology deployment for your project:</strong>  Each student will
+develop as part of the project a deployment of a technology. Points
+may depend on effort and simplicity of the deployment.</p>
+</li>
+<li><p class="first"><strong>No bonus projects:</strong> This class will not have any bonus projects or regrading
+requests. Instead you need to focus your time on the papers and the
+project assignments.</p>
+</li>
+<li><p class="first"><strong>Voluntary work:</strong> You are welcome to conduct assignments and excerises
+you find on the class Web page on your own. However they are not
+graded or considered for extra credit.</p>
+</li>
+<li><p class="first"><strong>Chance for publishing a paper:</strong> If however you find that the work you
+do could lead to a publishable paper, you could work together with
+the course instructor as coauthors to conduct such an
+activity. However, this is goind to be a significant effort and you
+need to decide if you like to conduct this. In such cases if the
+work is sufficient for publication submission, an A+ for the class
+could be considered. It will be a lot of work. The length of such a
+paper is typically 10-12 high quality pages including figures and
+references. We may elect for the final submission to use a different
+LaTeX style</p>
 </li>
 </ul>
 </div>
@@ -257,17 +325,17 @@ technology. Points may depend on simplicity of deployment.</p>
 <h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
 <p>We expect you are familiar with:</p>
 <ul class="simple">
-<li>Linux or the Operating system on which you will focus your
-deployment (easy)</li>
-<li>Note that Windows as OS will not be sufficient as Ansible is not
+<li>(easy) Linux or the Operating system on which you will focus your
+deployment.</li>
+<li>(moderate) Note that Windows as OS will not be sufficient as Ansible is not
 supported on it. However you can use virtualbox or log onto one of
 the clouds to get access to an OS that supports ansible.</li>
-<li>Python 2.7.x (we will not use python 3 for this class as it is not
+<li>(easy) Python 2.7.x (we will not use python 3 for this class as it is not
 yet portable with all systems) (we consider learning python as easy,
 however some students found it challenging)</li>
-<li>pip (easy)</li>
-<li>virtualenv (easy)</li>
-<li>an editor (emacs, vi, jedit, pyCharm, eclipse, or orther) (easy)</li>
+<li>(easy) pip</li>
+<li>(easy) virtualenv</li>
+<li>(easy) an editor (emacs, vi, jedit, pyCharm, eclipse, or other)</li>
 </ul>
 <p>If you are not familiar with the technologies, we expect that you get
 to know them during class. This may pose additional time commitment.</p>
@@ -296,7 +364,22 @@ to know them during class. This may pose additional time commitment.</p>
 secret information such as passwords</li>
 <li>Assume your colleagues does the work, so you get lazy</li>
 <li>Underestimating the <strong>time</strong> it takes to do deployments</li>
+<li>Not reading our piazza posts and repeating the same question over
+and over</li>
+<li>Sending mail to instructors, which will be out of principal deleted
+and not read. Instead you should use piazza</li>
+<li>Not using Piazza to communicate and instead use CANVAS. We will
+be deleting all canvas posts after we have established you can post
+to piazza. Which will be the first week of class.</li>
 </ul>
+<p>Class Material</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="calendar.html">I524 Calendar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lectures.html">I524 Lectures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="technologies.html">Technologies</a></li>
+</ul>
+</div>
 </div>
 <div class="section" id="refernces">
 <h2>Refernces<a class="headerlink" href="#refernces" title="Permalink to this headline">¶</a></h2>
@@ -311,9 +394,12 @@ secret information such as passwords</li>
 			
 			<div id="navigation" class="large-3 pull-9 columns">
 				<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">I524 Big Data &amp; Open Source Software Projects</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lesson/index.html">Lessons</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../todo.html">Todos</a></li>
 </ul>
 
 			</div>
@@ -321,9 +407,9 @@ secret information such as passwords</li>
 		</div>
 		
 		<div id="root_footer"></div>
-	</div><div id="footer"><div id="bottom-nav"><span><a href="../index.html"  title="Classes">&laquo; previous</a></span>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="../about/index.html"  title="About">&laquo; previous</a></span>
 			<span><a href="../genindex.html"  title="General Index">index</a></span>
-				<span><a href="../lesson/index.html"  title="Lessons">next &raquo;</a></span></div><div id="footer-notice">
+				<span><a href="calendar.html"  title="I524 Calendar">next &raquo;</a></span></div><div id="footer-notice">
 			    	&copy; Copyright 2016, 2017,
 			    	Gregor von Laszewski, Badi Abduhl-Whahid.
 		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.

@@ -533,7 +533,7 @@ You can run the code like so:
 
 This will result in a figure like the following
 
-.. figure:: ./python_lesson1/plot.png
+.. figure:: ./images/plot.png
    :alt: pyl1
 
    Fingperprint Match scores

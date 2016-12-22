@@ -1,0 +1,22 @@
+I524 Lectures
+=============
+.. list-table:: Lectures
+   :widths: 10 30 10 10
+   :header-rows: 1
+
+   * - ID
+     - Description
+     - Slides
+     - Video
+   * - L1
+     - Overview
+     - PDF
+     - Video
+   * - L2
+     - Lecture 2
+     - PDF
+     - Video   
+   * - L3
+     - Lecture 3
+     - PDF
+     - Video

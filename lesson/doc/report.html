@@ -97,9 +97,12 @@
 							<li class="has-dropdown">
 								<a href="">Sections</a>
 								<ul class="dropdown current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
 </ul>
 
 							</li>
@@ -177,116 +180,91 @@
 <span id="reports"></span><h1>Report Format<a class="headerlink" href="#report-format" title="Permalink to this headline">¶</a></h1>
 <p>Over the years we got tired of student that asked us how many pages a
 report needs to be and than turn around and play with spacing, fonts
-and other space manipulations to circumvent these recommendations. Thus
-we have adopted a much simpler approach. All reports <strong>must</strong> be
-written in the same 2 column ACM style format.  The format is
-available as word or LaTeX template, however we recommend that you
-remove the copyright block on the first page. A modified template in
-LaTeX is available at the following location:</p>
+and other space manipulations to circumvent these
+recommendations. Thus we have adopted a much simpler approach. All
+reports <strong>must</strong> be written in the same format that we define on this
+page. Thus we require that the all reports and papers be written in
+LaTeX while using our <strong>trivial</strong> example templates.</p>
+<p>The template for the report is available from:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://gitlab.com/cloudmesh/project-000/tree/master/report">https://gitlab.com/cloudmesh/project-000/tree/master/report</a></li>
+<li><a class="reference external" href="https://github.com/cloudmesh/classes/tree/master/docs/source/format/report">https://github.com/cloudmesh/classes/tree/master/docs/source/format/report</a></li>
 </ul>
-<p>It also includes some very simple makefile and allows you to do
-editing with immediate preview as documented in the LaTeX lesson.
-LaTeX is the preferred format du to superior reference management.</p>
-<p>If you rely like to make your life more difficult you are also
-allowed in some cases to use Word.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">please check your class rules
-stated in the overview. Dependent on the class you may not be able to
-use word.</p>
+<p>An example report in PDF format is available:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/report.pdf">report.pdf</a></li>
+</ul>
+<p>It includes some very simple <a class="reference external" href="https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/Makefile">makefile</a>
+and allows you to do editing with immediate preview as documented in
+the LaTeX lesson.  Due to LaTeX being a trivial ASCII based format and
+its superior bibliography management you wil save yourself many hours
+of work.</p>
+<p>In case you are in a team, you can use either gitlab while
+collaboratively developing the LaTeX document or use sharelatex or
+overleaf.</p>
+<p>Your final submission will include the bibliography file as a separate
+document. All images must be placed in an images folder and submitted
+in your repository with the originals.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">There will be <strong>NO EXCEPTION</strong> to this format. Hence if
+you do not know latex we recommend you get familiar with
+it. Documents not written in LaTeX that do not follow the
+specified format and are not accompanied by references
+managed with jabref and are not spell checked will be
+returned without review.</p>
 </div>
-<p>The MSWord template
-can be found here:</p>
-<ul class="simple">
-<li><code class="xref download docutils literal"><span class="pre">paper-report.docx</span></code></li>
-</ul>
-<p>The original format can be found here. It includes also a document
-with many good tips:</p>
-<ul class="simple">
-<li><a class="reference external" href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a></li>
-</ul>
-<p>There will be <strong>NO EXCEPTION</strong> to this format. In case you are in a
-team, you can use either gitlab while collaboratively developing the
-LaTeX document or use MicrosoftOne Drive which allows collaborative
-editing features. All bibliographical entries must be put into jabref
-regardless if you use word or LaTeX.  This will
-guarantee that you follow proper citation styles. You can use either
-ACM or IEEE reference styles. Your final submission will include the
-bibliography file as a separate document.</p>
-<p>Documents that do not follow the ACM format and are not accompanied by
-references managed with jabref or endnote or are not spell checked
-will be returned without review.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">We found that students using MsWord or Google docs
+produce generally inferior reports. Hence we no longer
+accept reports using these tools and require that all
+documents be written in LaTeX.</p>
+</div>
 <div class="section" id="report-checklist">
 <h2>Report Checklist<a class="headerlink" href="#report-checklist" title="Permalink to this headline">¶</a></h2>
 <p>This incomplete list may serve as a way to check if you follow the rules</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Have you written the report in word or LaTeX in the specified
-format.</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">In case of LaTeX, have you removed the ACM copyright information
-(see project-000 for an example how to do this)</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Have you included the report in gitlab.</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">Have you specified the HID, names, and e-mails of all team members in
-your report. E.g. the username in Canvas.</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Have you included the project number in the report</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">Have you included all images in native and PDF format in gitlab
-in the images folder.</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Have you added the bibliography file that you managed with
-jabref</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">Have you submitted an additional page that describes who did
-what in the project or report.</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Have you spellchecked the paper.</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">Have you made sure you do not plagiarize.</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Have you not used phrases such as shown in the Figure below,
-but instead used as shown in Figure 3 when referring to the 3rd
-figure.</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">Any figure that is not referred to explicitly in the text must
-be removed.</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Are the Figure captions bellow the figures and not on top. (Do
-not include the titles of the figures but instead use the caption
-for that information</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">When using tables put the table caption on top</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Make the figures large enough so we can see it, regardless of
-page restrictions. If needed make the figure over two columns</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">Do not worry about the figure placement if they are at a different
+<ol class="arabic simple">
+<li>Have you written the report in LaTeX in the specified format?</li>
+<li>Have you included an Acknowledgement section?</li>
+<li>Have you included the report in gitlab?</li>
+<li>Have you specified the HID, names, and e-mails of all team members in
+your report. E.g. the Real Names that are registered in Canvas?</li>
+<li>Have you included the project number in the report?</li>
+<li>Have you included all images in native and PDF format in gitlab in
+the images folder?</li>
+<li>Have you added the bibliography file that you managed with jabref</li>
+<li>Have you added an appendix describing who did what in the project
+or report?</li>
+<li>Have you spellchecked the paper?</li>
+<li>Have you made sure you do not plagiarize?</li>
+<li>Have you not used phrases such as shown in the Figure below, but
+instead used as shown in Figure 3 when referring to the 3rd
+figure?</li>
+<li>Have you capitalizezed &#8220;Figure 3&#8221;, &#8220;Table 1&#8221;, ... ?</li>
+<li>Any figure that is not referred to explicitly in the text must be
+removed?</li>
+<li>Are the figure captions bellow the figures and not on top. (Do
+not include the titles of the figures but instead use the caption</li>
+</ol>
+<blockquote>
+<div>or that information?</div></blockquote>
+<ol class="arabic simple">
+<li>When using tables put the table caption on top?</li>
+<li>Make the figures large enough so we can see it, regardless of page
+restrictions. If needed make the figure over two columns?</li>
+<li>Do not worry about the figure placement if they are at a different
 location than you think. Figures are allowed to float. If you want
-you can place all figures at the end of the report</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Do not use the word &#8220;I&#8221;</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">Do not artificially inflate your report if you are bellow the
-page limit and have nothing to say anymore.</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">If your paper limit is 12 pages but you want to hand in 120
-pages, please check first with an instructor ;-)</td>
-</tr>
-<tr class="field-even field"><th class="field-name">☐:</th><td class="field-body">Check in your current work of the report on a weekly basis to
-show consistent progress.</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">☐:</th><td class="field-body">Is in your report directory a README.rst file in it as shown
-in the example project-000 that we introduced you to.</td>
-</tr>
-</tbody>
-</table>
+you can place all figures at the end of the report?</li>
+<li>Do not use the word &#8220;I&#8221;?</li>
+<li>Do not artificially inflate your report if you are bellow the page
+limit and have nothing to say anymore?</li>
+<li>If your paper limit is 12 pages but you want to hand in 120 pages,
+please check first with an instructor ;-)</li>
+<li>Check in your current work of the report on a weekly basis to show
+consistent progress?</li>
+<li>Is in your report directory a README.rst file in it as shown in the
+example project that we introduced you to?</li>
+</ol>
 </div>
 <div class="section" id="exercise">
 <h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
@@ -321,9 +299,12 @@ programs to write reports.</dd>
 			
 			<div id="navigation" class="large-3 pull-9 columns">
 				<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
 </ul>
 
 			</div>
