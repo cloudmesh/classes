@@ -13,18 +13,19 @@ Workflow-Orchestration
 ----------------------------------------------------------------------
 
 * ODE
-* ActiveBPEL
-* Airavata
-* Pegasus
-* Kepler
-* Swift
-* Taverna
-* Triana
-* Trident
-* BioKepler
-* Galaxy
+* ActiveBPEL 
+* Airavata   
+* Pegasus 
+* Kepler 
+* Swift  
+* Taverna  
+* Triana 
+* Trident 
+* BioKepler 
+* Galaxy 
 * IPython
-* Dryad
+* Jupyter
+* (Dryad)
 * Naiad
 * Oozie
 * Tez
@@ -47,7 +48,17 @@ Workflow-Orchestration
 Application and Analytics
 ----------------------------------------------------------------------
 
-* Mahout 
+Mahout :cite:`www-mahout`:
+
+  "Apache Mahout software provides three major features:
+  (1) A simple and extensible programming environment and framework
+  for building scalable algorithms
+  (2) A wide variety of premade algorithms for Scala + Apache Spark,
+  H2O, Apache Flink
+  (3) Samsara, a vector math experimentation environment with R-like
+  syntax which works at scale"
+    
+  
 * MLlib
 * Mbase
 * DataFu
@@ -248,7 +259,14 @@ Extraction Tools
 ----------------------------------------------------------------------
 
 * UIMA
-* Tika
+
+Tika :cite:`www-tika`:
+
+    "The Apache Tika toolkit detects and extracts metadata and text
+    from over a thousand different file types (such as PPT, XLS, and
+    PDF). All of these file types can be parsed through a single
+    interface, making Tika useful for search engine indexing, content
+    analysis, translation, and much more."
 
 
 SQL(NewSQL)

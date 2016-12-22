@@ -1,1 +1,0 @@
-.. include:: ../lesson/ssh.rst
