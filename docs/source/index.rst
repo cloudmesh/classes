@@ -9,8 +9,12 @@ Classes
    lesson/index
    notebooks/index
    faq
+   references
    todo
    
 Search:
 
 * :ref:`search`
+
+
+      
