@@ -2,7 +2,7 @@ I524 New
 ========
 
 
-.. csv-table:: Frozen Delights!
+.. csv-table:: Lectures
    :header: "Treat", "Quantity", "Description"
    :widths: 15, 10, 10, 10
    :file: a.csv
