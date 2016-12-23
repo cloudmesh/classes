@@ -6,3 +6,4 @@ pandas
 sphinxcontrib-bibtex
 foundation-sphinx-theme
 pybtex
+watchdog

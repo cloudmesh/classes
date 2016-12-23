@@ -17,7 +17,7 @@ Unit 5.G, Final Part Summary of Stack, `Video <https://mix.office.com/watch/1gm6
 Unit 7, Big Data Application Structure, `Slides <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_3.pptx>`_,
 Unit 7.A, NIST Big Data Sub Groups, `Slides <https://mix.office.com/watch/dwap7g95jn9b>`_,0:23:25   
 Unit 7.B, Big Data Patterns - Sources of Parallelism, `Slides <https://mix.office.com/watch/fkebewczmq6q>`_, 0:23:51   
-Unit 7.C, First and Second Set of Features, `Slides <https://mix.office.com/watch/jmpr3f4mnvqy>`_,   0:18:26  
+Unit 7.C, First and Second Set of Features, `Slides <https://mix.office.com/watch/jmpr3f4mnvqy>`_, 0:18:26  
 Part 7.D, Machine Learning Aspect of Second Feature Set and the Third Set, **MISSING**, 0:18:38   
 Unit 8, Aspects of Big Data Applications, `Slides <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_4.pptx>`_,
 Unit 8.A, Other sources of use cases and Classical Databases/SQL Solutions, `Slides <https://mix.office.com/watch/1jq48eqbd6cyf>`_, 0:16:50   
@@ -29,30 +29,46 @@ Unit 11.B, Image Based Applications II, `Video <https://mix.office.com/watch/wcq
 Unit 11.C, Internet of Things Based Applications, `Video <https://mix.office.com/watch/jucfnt7npb2t>`_, 0:25:25   
 Unit 11.D, Big Data Patterns - the Ogres & their Facets I, `Video <https://mix.office.com/watch/3cwnlq5dkrgl>`_, 0:22:44   
 Unit 11.E, Facets of the Big Data Ogres II, `Video <https://mix.office.com/watch/1w35pgk1rrj9o>`_, 0:15:09   
-Unit 12, More on Software Stack (only one part) -> WEEK 8+ `PPT <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_6.pptx>`_,  
-Unit 11.A, More of Software Stack, `Video <https://mix.office.com/watch/hupb6i6669bh>`_,  0:24:00   
+Unit 12, More on Software Stack (only one part) -> WEEK 8+ `PPT <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_6.pptx>`_, 
+Unit 11.A, More of Software Stack, `Video <https://mix.office.com/watch/hupb6i6669bh>`_, 0:24:00   
 Technology, , , 
 Unit 2, Collaboration Tools, ,
 Unit 2.A, Overview and Introduction, `Video <https://www.youtube.com/watch?v=ZWzYGwnbZK4&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=1>`_, 0:02:00   
 Unit 2.B, Google - Google+ - Hangout - Remote Desktop, `Video <https://www.youtube.com/watch?v=kOrWm830vxQ&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=2>`_, 0:04:00  
-Unit 2.C, Github,  `Video <https://www.youtube.com/watch?v=KrAjal1a30w&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=4>`_, 0:18:00
-Unit 2.C.H1, Github account, `Video <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/git.html#exercise>`_ ,    
-Unit 2.C.H2, VirtualBox with the course image, ,   
+Unit 2.C, Github, `Video <https://www.youtube.com/watch?v=KrAjal1a30w&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=4>`_, 0:18:00
+Unit 2.C.H1, Github account, `Video <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/git.html#exercise>`_ ,  
+Unit 2.C.H2, VirtualBox with the course image, , 
 Unit 3, System Access to FutureSystems, ,
-Unit 3.A, ssh-keygen, `Video <https://www.youtube.com/watch?v=pQb2VV1zNIc&feature=em-upload_owner>`_,  0:04:00   
-Unit 3.B, Shell Access, `Video <https://www.youtube.com/watch?v=aJDXfvOrzRE&index=3&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx>`_,   0:03:00   
-Unit 3.C, Account Creation, `Video <https://www.youtube.com/watch?v=X6zeVEALzTk>`_,   0:12:00   
+Unit 3.A, ssh-keygen, `Video <https://www.youtube.com/watch?v=pQb2VV1zNIc&feature=em-upload_owner>`_, 0:04:00   
+Unit 3.B, Shell Access, `Video <https://www.youtube.com/watch?v=aJDXfvOrzRE&index=3&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx>`_, 0:03:00   
+Unit 3.C, Account Creation, `Video <https://www.youtube.com/watch?v=X6zeVEALzTk>`_, 0:12:00   
 Unit 3.D, Remote Login, `Video <https://mix.office.com/watch/eddgjmovoty0>`_, 0:06:00   
 Unit 3.E, Resources (Where to find information) e.g. man pages -  google search -  openstack document, , 
 , , , 
 Unit 4, FutureSystems Openstack, , 
-Unit 4.A, Introduction and Overview `Video <https://mix.office.com/watch/u7uovy9i06jo>`_,   0:12:00   
-Unit 4.B, OpenStack for Beginners – Compute Engine (Nova)  `Video <https://mix.office.com/watch/1r7zifdtjoa6j>`_, 0:27:00   
-Unit 4.C, Storage (Swift)  `Video <https://mix.office.com/watch/1dt5hp0e2grov>`_, 0:03:00   
-Unit 4.D, Network (Neutron)  `Video <https://mix.office.com/watch/w3rko4itecgc>`_, 0:03:00   
-Unit 4.E, Web Dashboard (Horizon)  
-Unit 4.E, Amazon Web Services (AWS), `Video <https://mix.office.com/watch/1351hz8j187i7>`_, 0:16:00
-Unit 4.F, AWS tutorial, `Video <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/aws_tutorial.html>`_,  
-Unit 4.G, Microsoft Azure, `Video <https://mix.office.com/watch/kzh0nwvdw6tm>`_, 0:29:00
-Unit 4.H, web `Tutorial <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/azure_tutorial.html>`_, 
-Unit 4.I, Python `H1 <http://cloudmesh.github.io/introduction_to_cloud_computing/cloudmesh/api/exercises.html#exercise-1>`_,
+Unit 4.A, Introduction and Overview `Video <https://mix.office.com/watch/u7uovy9i06jo>`_, 0:12:00
+Unit.Linux, Linux Basics - Overview - Shell Scripting -  Editors (Emacs - vi - nano - pico - PyCharm), ,
+Unit.Linix.2, Python - Package Managers - Advanced SSH - Modules, ,
+Unit.VM.1, shared resources - install image -  start vm -  loginto vm using your local key from the VB using command line tools and not web client, ,
+Unit.Cloud.1, Introduction to Cloud Computing, , 
+Unit.Cloud.2, IaaS: OpenStack, ,
+Unit.Cloud.3, IaaS: Nova, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/iaas/index.html>`_, 
+Unit.Cloud.4, IaaS: Azure, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/azure_tutorial.html#exercise2>`_,  
+Unit.Cloud.5, Hybrid Clouds, `Cloudmesh <https://mix.office.com/watch/1c7rd1l9i4c8o>`_,
+Unit.DevOps.1.3, Ansible, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/ansible.html#ref-class-lesson-devops-ansible>`_,
+Unit.Devops.2.1, SaltStack, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/saltstack.html#ref-class-lesson-devops-saltstack>`_, 
+Unit.DevOps.2.2, SaltSalt, `Web Page page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/saltstack.html#ref-class-lesson-devops-saltstack-exercises>`_, 
+Unit.DevOps.2.1, Puppet, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/puppet.html#ref-class-lesson-devops-puppet>`_, 
+Unit.DevOps.2.2, Puppet, `Chef <https://mix.office.com/watch/1g90jbv8llv0j>`_, 0:35:00
+Unit.DevOps.2.3, Puppet, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/chef.html#ref-class-lesson-devops-chef>`_, 
+Unit.DevOps.4.1, OpenStack Heat, `Video <https://mix.office.com/watch/1ry7jrkuvkfwh>`_, 0:20:00
+Unit.DevOps.4.2, OpenSrack Heat, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/openstack_heat.html#ref-class-lesson-devops-openstack-heat>`_, 
+Unit.Devops.4.3, H4-2: Heat, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/openstack_heat.html#ref-class-lesson-devops-openstack-heat-exercises>`_, 
+Unit.DevOps.5.1, Ubuntu Juju, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/juju.html#ref -class -lesson -devops -juju>`_, 
+Unit.DevOps.5.2, Ubuntu Juju, `H: Juju  <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/juju.html#ref -class -lesson -devops -juju -exercises>`_, 
+Hadoop.1, Hadoop, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/vc_sp15/hadoop_cluster_manual.html#ref-class-lesson-deploying-hadoop-cluster-manual>`_, 
+Hadoop.2, Hadoop, `ext H: Hadoop <http://cloudmesh.github.io/introduction_to_cloud_computing/class/vc_sp15/hadoop_cluster_manual.html#ref-class-lesson-deploying-hadoop-cluster-manuale-exercise>`_  , 
+Hadoop.3, Hadoop Word Count, `Video <https://mix.office.com/watch/1on4q8t1vcjfh>`_,   0:33:00
+Hadoop.4, Hadoop Word Count, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/cluster/wordcount.html#ref-class-lesson-hadoop-word-count>`_  , 
+Mongo.1, Mongo, `Deploying MongoDB Sharded Cluster  <https://mix.office.com/watch/1rx90yz48fqpn>`_,  0:04:00
+Mongo.2, Mongo, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/vc_sp15/mongodb_cluster.html#ref-class-lesson-mongodb-sharded-cluster>`_, 
