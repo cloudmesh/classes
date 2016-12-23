@@ -1,6 +1,8 @@
-I524 New
-========
+I524 Lectures
+=============
 
+
+* Technology Trek
 
 .. csv-table:: Lectures
    :header: "Treat", "Quantity", "Description"
@@ -8,17 +10,10 @@ I524 New
    :file: a.csv
 
 
-hhh
-====
+I524 Slides
+===========
 
-QuickStart of OpenStack for First Time User  0:35:31          
-* `H2: Nova <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/openstack.html#exercises>`_     
-* `H2-2: Horizon <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/openstack_horizon.html#exercises>`_
-
-
-I524 Lectures
-=============
-
+Technology Track recommended time schedule:
 
 * Week 1 - Introduction Syllabus and Overview  -  current section
 * Week 2 - Core Technologies
