@@ -11,7 +11,17 @@ Classes
    faq
    references
    todo
-   
+
+Previous Classes
+================
+
+
+.. toctree::
+   :maxdepth: 1
+
+
+   i523/index
+
 Search:
 
 * :ref:`search`

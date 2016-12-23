@@ -215,7 +215,59 @@ Class Material
    calendar
    lectures
    technologies
-  
+
+
+
+Meeting Times
+-------------
+
+The classes are published online. Residential students at Indiana
+University will participate in a discussion taking place at the
+following time:
+
+* Fridays 09:30am - 10:45am EST, I2 130
+
+For the 100% online students see the office hours.
+   
+
+Course Numbers
+--------------
+
+This course is offered for Graduate (and Undergraduate students with
+permission) at Indiana University and as an online course. To
+Register, for University credit please go to:
+
+* http://registrar.indiana.edu/browser/soc4172/INFO/INFO-I524.shtml
+* http://registrar.indiana.edu/browser/soc4172/ENGR/ENGR-E599.shtml
+
+
+Please, select the course that is most suitable for your program:
+
+::
+   
+    INFO-I 524  BIG DATA SOFTWARE AND PROJECTS (3 CR)    Von Laszewski G          
+             Above class open to graduates only
+             Above class taught online
+             Discussion (DIS)
+          30672 RSTR     09:30A-10:45A   M      I2 130    Von Laszewski G          
+             Above class meets with ENGR-E 599
+    INFO-I 524  BIG DATA SOFTWARE AND PROJECTS (3 CR)
+          30673 RSTR     ARR             ARR    ARR       Von Laszewski G          
+             Above class open to graduates only
+             This is a 100% online class taught by IU Bloomington. No
+             on-campus class meetings are required. A distance education
+             fee may apply; check your campus bursar website for more
+             information
+
+
+     ENGR-E 599  TOPICS IN INTELL SYS ENGINEER (3 CR)
+           VT: BIG DATA SOFTWARE AND PROJECTS
+              ***** RSTR     ARR             ARR    ARR       Von Laszewski G          
+                 Discussion (DIS)
+           VT: BIG DATA SOFTWARE AND PROJECTS
+              33924 RSTR     09:30A-10:45A   M      I2 130    Von Laszewski G 
+                 Above class meets with INFO-I 524
+   
 Refernces
 ---------
 

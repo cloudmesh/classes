@@ -1,98 +1,3 @@
-New
-===
-
- 
-Big Data & Open Source Software Projects
- 
-This course studies software used in many commercial activities to related to  Big Data. The backdrop for course relates to more than 300 software subsystems illustrated at http://hpc-abds.org/kaleidoscope/ (Link to an external site.). We will describe the software architecture represented by this collection and work towards identifying best practices to deploy, access and interface with them. Topics of this class will include:
- 
-* The cloud computing architecture underlying open source big data software and
-  frameworks and contrast of them to high performance computing
-* The software architecture with its different layers covering broad functionality
-  and rationale for each layer.
-* We will go through selected big data stack software from the list of more than 300
-* We will be identifying how we can create replicate software environments based on
-  software deployed and used on clouds while using Containers, OpenStack and Ansible
-  playbooks.
-* Students will chose one other open source member of Kaleidoscope each and deploy as
-  illustrated in class.
-* The main activity of the course will be building a significant project using
-  multiple subsystems combined with user code and data. Projects will be suggested or
-  students can chose their own. A project report will summarize the work conducted. 
- 
-Students of this class will need to conduct their project deployments in python using ansible and enabling a software stack that is useful for a big data analysis. While it is not necessary to know either python or ansible to take the class it is important that you have knowledge of a programming language so you can learn them as part of the class more easily. 
-
-
-.. note::
-
-   Previous I523 class participants: While I523 is a beginners class
-   I524 is an advanced class and we expect that you know Python (we
-   will use python 2.7) which you hopefully have learned as part of
-   I523. If not, make sure you learn it before, or consider additional
-   time needed for that class. You will be expected to have a computer
-   on which you have Python 2.7 installed. You may be using chameleon
-   cloud, jetstream cloud (advanced features of using openstack and
-   not their GUI) and our local cloud. Optionally some projects may
-   use docker. A significant amount of time is needed beyond the
-   lectures to familiarize yourself with the technologies more so than
-   in I523. 
-
-.. note::
-   
-   Residential students enroll early so we avoid the situation like last year where
-   we had many signing up, but did not even show up to the first lecture. I have
-   asked that students from I523 have preference, but I am not sure if we can enforce
-   this. So enroll ASAP.
-
-
-.. note::
-
-   I524 starts where I523 left. However, you can take I524 without taking I523, but
-   we recommend that you know python so you can catch up easily.
-
-
-.. note::
-
-   If you are an undergraduate, contact me I am not sure if they can enroll yet. I
-   think they can with y permission.
-
-
-Homework
---------
-
-* Discussions (10%),
-* Technology paper ov about 4 of the 300 systems (30%, at least 8 pages without
-  references, e.g. 2 pages for each technology.)
-* Project (60%) (at least 6 pages without references)
-  
-Discussions must be done individually.
-
-Technology papers and Projects are allowed to be conducted in
-groups. Groups can have up to three members. More than three students
-are not allowed in a project or paper.  The workload and expectation
-for the project increases with each student. A work break down must be
-provided for projects to identify what each student did.
-
-As obvious from our previous statement, each student will add 8 pages
-to the technology paper with 4 technologies each, resulting in 2 pages
-per technology. Thus if you have 3 students you will discuss 12
-technologies in depth and write 24 pages. If you work alone you have
-to deliver 8 pages for 4 technologies.  Technologies in the papers
-must be nonoverlapping in the entire class. Technologies will be
-assigned to you. 
-
-Each student will develop as part of the project an ansible deployment
-of a technology. Points may depend on completeness, simplicity,
-reproducability, and documentation of the deployment.
-
-We expect you are familiar with Linux or the OS on which you will
-focus your deployment systems you must know python, pip, virtualenv
-(all easy to learn), editor to edit python (pycharm, emacs, vi,
-eclipse, other). In case you are not familiar with them, these
-technologies you can learn with additional time you spend outside of
-the class.
-
- 
 
 Old
 ===
@@ -151,7 +56,6 @@ Assignments Summary
 
 
 * Fri Mar 13, 2015 `Video V1 Posting P1 due March 13 <https://iu.instructure.com/courses/1453783/assignments/5524530>`__
-
 
 * Fri Mar 27, 2015 `Video and Lab Sessions V2 <https://iu.instructure.com/courses/1453783/assignments/5527883>`__
 
@@ -343,11 +247,7 @@ Time
 #. `Part C: Course Content: Section
    2 <https://mix.office.com/watch/uuhscqlw7p97>`__\ 25:23
 
-.. raw:: html
 
-   <div align="center">
-
---------------
 
 FutureSystems Access
 ------------------------
@@ -373,10 +273,6 @@ Getting started with hands-on access:
    the Putty SSH client, and its SSH authentication agent Pageant. Putty
    and its associated programs are available
    `here <http://the.earth.li/~sgtatham/putty/0.63/x86/>`__
-
-.. raw:: html
-
-   <div align="center">
 
 
 Course Syllabus
@@ -466,15 +362,8 @@ Website <https://www.google.com/url?q=http://bigdataopensourceprojects.soic.indi
 
 6. `Syllabus <https://iu.box.com/s/diusiaqpsegmrtk7jxq1510ydy9zini9>`__
 
-\_Grading
-^^^^^^^^^
-
-40% Assignments
-
-60% Projects
-
-If you have any question, please use piazza.
-
+OTHER
+=====
 
 
 `Week 1 -
@@ -530,19 +419,11 @@ II <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/cours
 
 Week 1 Introduction
 
-` <>`__
-
 `other Part A <>`__
-
-` <>`__
 
 `other Part B <>`__
 
-` <>`__
-
 `other Part C <>`__
-
-` <>`__
 
 `other Part D <>`__
 
@@ -554,16 +435,16 @@ Week 2 Core Technologies
 `Unit 2 - Collaboration
 Tools <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/490e39bce7234b07a7a097c354a08c2c/faa69aa4d11c4cbea303c375c571a351/>`__
 
-` <>`__
+
 
 `other Overview and Introduction Technology Section IFrame Tool
 Text <>`__
 
-` <>`__
+
 
 `video Google+, Hangout, Remote Desktop Raw HTML Text <>`__
 
-` <>`__
+
 
 `video GitHub Raw HTML Text <>`__
 
@@ -573,19 +454,19 @@ Text <>`__
 `Unit 3 - System Access to
 FutureSystems <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/490e39bce7234b07a7a097c354a08c2c/01e6e4f178504173967c5533fde1a843/>`__
 
-` <>`__
+
 
 `video ssh-keygen Raw HTML Text <>`__
 
-` <>`__
+
 
 `video Account Creation Raw HTML Text <>`__
 
-` <>`__
+
 
 `other Remote Login IFrame Tool Text <>`__
 
-` <>`__
+
 
 `video Putty for Windows Raw HTML Text <>`__
 
@@ -595,31 +476,31 @@ FutureSystems <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING
 `Unit 4 - Linux
 Basics <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/490e39bce7234b07a7a097c354a08c2c/4061d7b709f0455580b8a5381fcd86b6/>`__  x
 
-` <>`__
+
 
 `video Overview and Introduction Raw HTML Text <>`__
 
-` <>`__
+
 
 `video Shell Scripting Raw HTML Text <>`__
 
-` <>`__
+
 
 `video Emacs, vi, and nano Raw HTML Text <>`__
 
-` <>`__
+
 
 `video Python Raw HTML Text <>`__
 
-` <>`__
+
 
 `video Package Managers Raw HTML Text <>`__
 
-` <>`__
+
 
 `video Advanced SSH Raw HTML Text <>`__
 
-` <>`__
+
 
 `video Modules Raw HTML Text <>`__
 
@@ -631,36 +512,36 @@ HPC-ABDS <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016
 `Unit 5 - Data Access Patterns and Introduction to using
 HPC-ABDS <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/9bd87781dbbf4875a343e8cdc2eaa7d1/900fd902118e488887119d0b79db6454/>`__
 
-` <>`__
+
 
 `other Part A: Introduction to HPC-ABDS Software and Access Patterns
 Text <>`__
 
-` <>`__
+
 
 `other Part B: Science Examples (Data Access Patterns) <>`__
 
-` <>`__
+
 
 `other Part C: Remaining General Access Patterns <>`__
 
-` <>`__
+
 
 `other Part D: Summary of HPC-ABDS Layers 1 - 6 <>`__
 
-` <>`__
+
 
 `other Part E: Summary of HPC-ABDS Layers 7 - 13 <>`__
 
-` <>`__
+
 
 `other Part F: Summary of HPC-ABDS Layers 14 - 17 <>`__
 
-` <>`__
+
 
 `other Part G: Final Part Summary of Stack <>`__
 
-` <>`__
+
 
 `other Quickstart Guide for OpenStack on FutureSystems Raw HTML <>`__
 
@@ -672,27 +553,27 @@ Computing <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_201
 `Unit 6 - Infrastructure as a Service
 (IaaS) <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/51c9734090e94044afae4edcd047f925/4d55f07b6e2d42d99f682657bf42917d/>`__
 
-` <>`__
+
 
 `other Introduction and Overview Raw HTML Video Link <>`__
 
-` <>`__
+
 
 `other OpenStack Storage Swift Raw HTML Video Link <>`__
 
-` <>`__
+
 
 `other OpenStack Network - Neutron Raw HTML Video Link <>`__
 
-` <>`__
+
 
 `other Amazon Web Services (AWS) Raw HTML Video Link <>`__
 
-` <>`__
+
 
 `other Microsoft Azure Virtual Machines Raw HTML Video Link <>`__
 
-` <>`__
+
 
 `other Cloudmesh <>`__
 
@@ -704,20 +585,20 @@ Applications <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_
 `Unit 7 (Theory): Big Data Application
 Structure <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/c726b463b927452f93d2fb7feabf0fba/7d8c8dc80114428aa0269fd947b40011/>`__
 
-` <>`__
+
 
 `other NIST Big Data Sub Groups PPT & Videos <>`__
 
-` <>`__
+
 
 `other Part B: Big Data Patterns - Sources of Parallelism MS Office
 Mix <>`__
 
-` <>`__
+
 
 `other Part C: First and Second Set of Features MS Office Mix <>`__
 
-` <>`__
+
 
 `other Part D: Machine Learning Aspect of Second Feature Set and the
 Third Set MS Office Mix <>`__
@@ -727,17 +608,17 @@ Third Set MS Office Mix <>`__
 `Unit 8 (Theory): Aspects of Big Data Applications , current
 section <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/c726b463b927452f93d2fb7feabf0fba/9dac35a3279741a094ee4cf7bda69527/>`__
 
-` <>`__
+
 
 `other Part A: Other sources of use cases and Classical Databases/SQL
 Solutions Text <>`__
 
-` <>`__
+
 
 `other Part B: NOSQL Solutions, Machine Learning Example, and MapReduce
 Text <>`__
 
-` <>`__
+
 
 `other Part C: Clouds vs HPC, Data Intensive vs. Simulation Problems MS
 Office Mix <>`__
@@ -745,52 +626,52 @@ Office Mix <>`__
 `Week 6 - DevOps
 Tools <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/c726b463b927452f93d2fb7feabf0fba/9dac35a3279741a094ee4cf7bda69527/>`__
 
-` <>`__
+
 
 `video Ansible Raw HTML Direct Links <>`__
 
-` <>`__
+
 
 `other Salt SaltStack Direct Link <>`__
 
-` <>`__
+
 
 `other Puppet Direct Link <>`__
 
-` <>`__
+
 
 `other Chef Chef Lesson Direct Link <>`__
 
-` <>`__
+
 
 `other OpenStack Heat OpenStack Heat Direct Link <>`__
 
-` <>`__
+
 
 `other Ubuntu Juju Direct Link <>`__
 
 `Week 7 - NIST
 Software <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/24b7201e0e724ba59719462fa281409e/b0d4307296454cf3b8db050aa81b594c/>`__
 
-` <>`__
+
 
 `other Part A: NIST UseCases and Image Based Applications Examples I
 Direct Link <>`__
 
-` <>`__
+
 
 `other Part B: Image Based Applications II Direct Link <>`__
 
-` <>`__
+
 
 `other Part C: Internet of Things Based Applications Direct Link <>`__
 
-` <>`__
+
 
 `other Part D: Big Data Patterns - the Ogres & their Facets I Direct
 Link <>`__
 
-` <>`__
+
 
 `other Part E: Facets of the Big Data Ogres II Direct Link <>`__
 
@@ -803,24 +684,24 @@ I <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/course
 current
 section <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/3d41b77f879d416cb1373654bc23b1b6/e011bcc0e5004201ae518a946b39a84f/>`__
 
-` <>`__
+
 
 `other Introduction and Overview Direct Link <>`__
 
-` <>`__
+
 
 `other Dynamic Deployment of Arbitrary X Software on Virtual Cluster
 Direct Link <>`__
 
-` <>`__
+
 
 `other Hadoop Cluster <>`__
 
-` <>`__
+
 
 `other Hadoop Example: Word Count Raw HTML Direct Link <>`__
 
-` <>`__
+
 
 `other Deploying MongoDB Sharded Cluster Web Lesson Direct Link <>`__
 
@@ -832,11 +713,11 @@ II <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/cours
 `Hadoop & Zookeeper , current
 section <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/89298e598228490284064971ecb569ed/614958bd7687456dbb08cd8b39223ec9/>`__
 
-` <>`__
+
 
 `other Hadoop YARN YARN Direct Link <>`__
 
-` <>`__
+
 
 `other Apache Zookeeper Web Lesson Direct Link <>`__
 
@@ -845,11 +726,11 @@ section <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/
 `ABDS, HPC
 Technologies <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/89298e598228490284064971ecb569ed/d2fb6ddf1670428d9b2da81c51831426/>`__
 
-` <>`__
+
 
 `other Layer 9: Cluster Resource Management Direct Link <>`__
 
-` <>`__
+
 
 `other Layer 13: Inter Process Communication Collectives, Point to
 Point, Publish-Subscribe, MPI Part 2 Direct Link <>`__
@@ -859,7 +740,7 @@ Point, Publish-Subscribe, MPI Part 2 Direct Link <>`__
 `Ansible Roles , current
 section <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/89298e598228490284064971ecb569ed/e3e2b0f1c7104a41bf5a886efe96a9c3/>`__
 
-` <>`__
+
 
 `other Writing Ansible Roles Raw HTML Direct Link <>`__
 
@@ -871,30 +752,30 @@ Database <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016
 `File, SQL and
 noSQL <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/43b0552630f841e1828a1ce31d52b65c/c7434e2a6043413c9dbce0244c0cf015/>`__
 
-` <>`__
+
 
 `other Layer 11A: File Management Direct Link <>`__
 
-` <>`__
+
 
 `other Layer 11B: NoSQL Part 1 Direct Link <>`__
 
-` <>`__
+
 
 `other Layer 11B: NoSQL Part 2 Direct Link <>`__
 
-` <>`__
+
 
 `other Layer 11C: SQL Direct Link <>`__
 
 `Week 11 - DevOps &
 Containers <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/43b0552630f841e1828a1ce31d52b65c/c7434e2a6043413c9dbce0244c0cf015/>`__
 
-` <>`__
+
 
 `other Layer 6 Part 1 Direct Link <>`__
 
-` <>`__
+
 
 `other Layer 6 Part 2 Direct Link <>`__
 
@@ -906,11 +787,11 @@ Software <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016
 `High Level
 Programming <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/630f67ba650646eca49e59cd3e786f22/09904303c0ef4c5d982e78076fe03b35/>`__
 
-` <>`__
+
 
 `other Layer 15A - Hive, Pig, and others Direct Link <>`__
 
-` <>`__
+
 
 `other Layer 14B - Storm Direct Link <>`__
 
@@ -922,11 +803,11 @@ II <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/cours
 `Application and
 Analytics <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/5ec8d57359454ea19834f3358188d226/9f2e2e3e6681426ebec3f4d890400e50/>`__
 
-` <>`__
+
 
 `other Apache Mahout, MLlib, R, OpenCV Direct Link <>`__
 
-` <>`__
+
 
 `other Caffe, Theano, IBM Watson Direct Link <>`__
 
@@ -935,27 +816,16 @@ Analytics <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_201
 `Workflow - Orchestration , current
 section <http://datascience.scholargrid.org/courses/SoIC/INFO_I_590/SPRING_2016/courseware/5ec8d57359454ea19834f3358188d226/7e0056eed1a84f2abe1022e229da537f/>`__
 
-` <>`__
+
 
 `other Apache Oozie, Apache ODE, ActiveBPEL, Apache Airavata, Pegasus,
 Kepler, Galaxy, Taverna Direct Link <>`__
 
-` <>`__
+
 
 `other Microsoft Dryad, Naiad, Apache Tez, Google FlumeJava, Apache
 Crunch Direct Link <>`__
 
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
 
 .. |regor Von Laszewski| image:: 590a.fld/image001.png
    :target: https://iu.instructure.com/profile
