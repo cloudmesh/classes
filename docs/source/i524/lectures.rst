@@ -1,17 +1,50 @@
 I524 Lectures
 =============
 
+.. warning:: This page is under construction, but most lectures are
+	     already available. The technology track will change
+	     considerably. If you want to work ahead, start with the
+	     theory track.
 
-* Technology Trek
+Based on our experience with residential and online classes we will
+for the first time not require that you have to do the class videos at
+a prticular time. This however has the danger that you are not
+watching them at all and you cheat yourself as you do not allow
+yourself the educational lessons that this class offers to you. It
+also requires you to assemble your own schedule for watching the
+videos that will have to managed through github notifications as part
+of a README.md file in your git repository. YOu will need to do the
+technology trek, as well as the theory trek.
+	     
+Technology Trek:
+   These are lectures with strong technology content and introduce you
+   to using a selected number of technologies as part of the class. It
+   is expected that you will use them as part of the project. Instead
+   of slowing you down with graded homework we expect that you learn
+   these technologies and reuse them as part of the project. It would
+   be a big mistake to start the project 2 weeks befor the semester
+   starts, you will not succeed. You must start your project in the
+   first month of the course. Progress is reported on monthly basis
+   while the report is updated and snapshot every month. We will
+   monitor your progress and include them into the discussion grade.
 
+Theory Trek:
+   A number of lectures have been designed to introduce you to a
+   number of technologies. In contrast to the technology trek the
+   lectures are of more theoretical nature and do not require much
+   hands on activities to get familair with the technologies.
+
+Lectures
+--------
+   
 .. csv-table:: Lectures
    :header: "Treat", "Quantity", "Description"
    :widths: 15, 10, 10, 10
-   :file: a.csv
+   :file: lectures-table.csv
 
 
-I524 Slides
-===========
+Slides
+------
 
 Technology Track recommended time schedule:
 
