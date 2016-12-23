@@ -15,7 +15,6 @@ Classes
 Previous Classes
 ================
 
-
 .. toctree::
    :maxdepth: 1
 
@@ -25,6 +24,11 @@ Previous Classes
 Search:
 
 * :ref:`search`
+* :ref:`genindex`
+
+.. coment::
+   
+  * :ref:`modindex`
 
 
       

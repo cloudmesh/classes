@@ -15,7 +15,7 @@ doc:
 	cd docs; make html
 
 watch:
-	watchmedo shell-command --patterns="*.rst;*.csv" --recursive --command='make doc'
+	watchmedo shell-command --patterns="*.rst;*.csv;*.py" --recursive --command='make doc'
 
 publish:
 	ghp-import -n -p docs/build/html

@@ -148,7 +148,8 @@ html_theme_options = {
 
         # Your stylesheet relative to the _static dir.
         # Default is 'foundation/css/basic.css'
-        'stylesheet': 'foundation/css/cards.css',
+        #'stylesheet': 'foundation/css/cards.css',
+        'stylesheet': 'foundation/css/basic.css',        
 
         # Logo image in SVG format. If the browser doesn't support SVG
         # It will try to load JPG with the same name.

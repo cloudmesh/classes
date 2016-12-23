@@ -1,3 +1,5 @@
+.. index:: i524
+	   
 I524 Big Data & Open Source Software Projects
 =============================================
 
@@ -83,62 +85,65 @@ Who can take the class?
 Homework
 --------
 
-* Grading:
+Grading pilicies are listed in Table 1.
 
-  .. tabularcolumns:: |p{2cm}|l|
-		      
-  +--------+----------------------------------------------------------+
-  | 10%    | Discussions and contribution to Web pages                |
-  +--------+----------------------------------------------------------+    
-  | 30%    | Three unique technology papers per student of the 300    |
-  |        | systems. Each paper as at least 2 pages per technology   |
-  |        | without refences.                                        |
-  +--------+----------------------------------------------------------+
-  | 60%    | Project code and report with at least 6 pages without    |
-  |        | references. Much shorter reports will be returned        |
-  |        | without review. Do not artifically inflate contents.     |
-  +--------+----------------------------------------------------------+
+.. list-table:: Table 1: Grading
+   :widths: 10 80
+   :header-rows: 1
+
+   * - Percent
+     - Description                                               
+   * - 10%
+     - Discussions and contribution to Web pages                 
+   * - 30%
+     - Three unique technology papers per student of the 300
+       systems. Each paper as at least 2 pages per technology without
+       refences.
+   * - 60%
+     - Project code and report with at least 6 pages without
+       references. Much shorter reports will be returned without
+       review. Do not artifically inflate contents. 
+
   
-* **Project groups:** Groups of up to three students can work on a project
-  but workload increases with each student and a work break down must
-  be provided.  More than three students are not allowed. For a team
-  you will be asked to deploy a larger system or demonstrate
-  deployability on multiple clouds while benchmarking it.
+* **Project groups:** Groups of up to three students can work on a
+  project but workload increases with each student and a work break
+  down must be provided.  More than three students are not
+  allowed. For a team you will be asked to deploy a larger system or
+  demonstrate deployability on multiple clouds while benchmarking it.
 
-* **Technology papers:** Technology papers must be non-overlapping in the
-  entire class. If multiple students select the same technology, we
-  will be drawing randomly which students does which technology. As we
-  have over 300 such technologies we should have enough for the entire
-  class. If you see technologies missing, let us know and we see how
-  to add them.
+* **Technology papers:** Technology papers must be non-overlapping in
+  the entire class. If multiple students select the same technology,
+  we will be drawing randomly which students does which technology. As
+  we have over 300 such technologies we should have enough for the
+  entire class. If you see technologies missing, let us know and we
+  see how to add them.
   
-* **Technology paper groups:** Groups of up to three students can
-  work also on the technology papers. However the workload is not
-  reduced, you will produce 3 times the number of group members
-  technology papers of unique technologies. However, you could be
-  having coauthors that are part of your group. Please do not ask us
-  how many technology papers you need to write if you are in a
-  group. The rule is clearly specified. Example: Your group has 3
-  members, each of them has to procude 3 unique papers, thus you have
-  to produce 9 unique technology papers for this group. If you have 2
-  members you have to produce 6, if you work alone you have to
-  produce 3.
+* **Technology paper groups:** Groups of up to three students can work
+  also on the technology papers. However the workload is not reduced,
+  you will produce 3 times the number of group members technology
+  papers of unique technologies. However, you could be having
+  coauthors that are part of your group. Please do not ask us how many
+  technology papers you need to write if you are in a group. The rule
+  is clearly specified. Example: Your group has 3 members, each of
+  them has to procude 3 unique papers, thus you have to produce 9
+  unique technology papers for this group. If you have 2 members you
+  have to produce 6, if you work alone you have to produce 3.
 
-* **Technology deployment for your project:**  Each student will
+* **Technology deployment for your project:** Each student will
   develop as part of the project a deployment of a technology. Points
   may depend on effort and simplicity of the deployment.
 
-* **No bonus projects:** This class will not have any bonus projects or regrading
-  requests. Instead you need to focus your time on the papers and the
-  project assignments.
+* **No bonus projects:** This class will not have any bonus projects
+  or regrading requests. Instead you need to focus your time on the
+  papers and the project assignments.
 
-* **Voluntary work:** You are welcome to conduct assignments and excerises
-  you find on the class Web page on your own. However they are not
-  graded or considered for extra credit.
+* **Voluntary work:** You are welcome to conduct assignments and
+  excerises you find on the class Web page on your own. However they
+  are not graded or considered for extra credit.
 
-* **Chance for publishing a paper:** If however you find that the work you
-  do could lead to a publishable paper, you could work together with
-  the course instructor as coauthors to conduct such an
+* **Chance for publishing a paper:** If however you find that the work
+  you do could lead to a publishable paper, you could work together
+  with the course instructor as coauthors to conduct such an
   activity. However, this is goind to be a significant effort and you
   need to decide if you like to conduct this. In such cases if the
   work is sufficient for publication submission, an A+ for the class
@@ -155,13 +160,13 @@ We expect you are familiar with:
 * (easy) Linux or the Operating system on which you will focus your
   deployment.
   
-* (moderate) Note that Windows as OS will not be sufficient as Ansible is not
-  supported on it. However you can use virtualbox or log onto one of
-  the clouds to get access to an OS that supports ansible.
+* (moderate) Note that Windows as OS will not be sufficient as Ansible
+  is not supported on it. However you can use virtualbox or log onto
+  one of the clouds to get access to an OS that supports ansible.
   
-* (easy) Python 2.7.x (we will not use python 3 for this class as it is not
-  yet portable with all systems) (we consider learning python as easy,
-  however some students found it challenging)
+* (easy) Python 2.7.x (we will not use python 3 for this class as it
+  is not yet portable with all systems) (we consider learning python
+  as easy, however some students found it challenging)
   
 * (easy) pip
 
@@ -175,19 +180,32 @@ to know them during class. This may pose additional time commitment.
 Open Source Publication of Homework
 -----------------------------------
 
-As this class is about open source technologies, we will be using the same to gather and distribute the homework submissions. 
+As this class is about open source technologies, we will be using the
+same to gather and distribute the homework submissions.
  
-The results of all technology papers will be available as a single big report. Due to the organization as a single report bound into a book format of the technologies, all reports must be written in LaTeX and jabref must be used to manage references. This class will therefore not accept word, openoffice, and endnote. Alternatively lyx.org can be used, if you prefer to edit latex in *what you see is almost what you get* format. The use of sharelatex or overleave is allowed. 
- 
+The results of all technology papers will be available as a single big
+report. Due to the organization as a single report bound into a book
+format of the technologies, all reports must be written in LaTeX and
+jabref must be used to manage references. This class will therefore
+not accept word, openoffice, and endnote. Alternatively lyx.org can be
+used, if you prefer to edit latex in *what you see is almost what you
+get* format. The use of sharelatex or overleave is allowed.
+
+
+.. index:: I524 mistakes
+
 Mistakes
 --------
 
-While teaching our classes we noticed the following mistakes students often make:
+While teaching our classes we noticed the following mistakes students
+often make:
 
 * Overestimating the technical abilities
 * Underestimating the time it takes to do the project
-* Unnecessarily struggling with LaTeX as you do not use an example we provide
-* Trying to do things on Windows Which is typically more difficult than using Linux
+* Unnecessarily struggling with LaTeX as you do not use an example we
+  provide
+* Trying to do things on Windows Which is typically more difficult
+  than using Linux
 * Having a computer that is underpowered or outdated
 * **Procrastinating**
 * **Take other classes more serious**
@@ -195,8 +213,8 @@ While teaching our classes we noticed the following mistakes students often make
 * not listening to the lectures
 * Ignoring security via ssh
 * Posting passwords into git
-* Being not aware that git does **not** allow to easily completely delete files that contain
-  secret information such as passwords
+* Being not aware that git does **not** allow to easily completely
+  delete files that contain secret information such as passwords
 * Assume your colleagues does the work, so you get lazy
 * Underestimating the **time** it takes to do deployments
 * Not reading our piazza posts and repeating the same question over
@@ -243,7 +261,7 @@ Register, for University credit please go to:
 
 Please, select the course that is most suitable for your program:
 
-::
+.. code-block:: none
    
     INFO-I 524  BIG DATA SOFTWARE AND PROJECTS (3 CR)    Von Laszewski G          
              Above class open to graduates only
@@ -258,7 +276,6 @@ Please, select the course that is most suitable for your program:
              on-campus class meetings are required. A distance education
              fee may apply; check your campus bursar website for more
              information
-
 
      ENGR-E 599  TOPICS IN INTELL SYS ENGINEER (3 CR)
            VT: BIG DATA SOFTWARE AND PROJECTS

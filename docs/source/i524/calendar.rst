@@ -1,3 +1,5 @@
+.. index:: I524 calendar
+	   
 I524 Calendar
 =============
 
@@ -64,10 +66,11 @@ Comments:
 * Hard due dates can not receive any points for late submissions as they are
   essential to the communication and operation of the class. If you can naturally
   not communicate with us you cannot do your work. 
-* Experience shows that those using additional time of the spring break to
+* Experience shows that those using additional time during the spring break do
   typically better. We recommend that you use this time wisely.
 * You can start earlier if you like to prepare for this class, to for example
-  learn Python and ansible
-* It would be a mistke not to start working on your project by February 1st. You
-  will run out of time. In order to accomodate for this we have reduced other
-  homework requirements. 
+  learn Python and ansible. However, lectures may change.
+* It would be a mistke not to start working on your project by
+  February 1st. You will run out of time. In order to accomodate for
+  this we have segnificantly reduced other homework requirements in
+  contrast to previous classes we taught.

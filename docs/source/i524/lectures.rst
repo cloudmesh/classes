@@ -13,7 +13,7 @@ watching them at all and you cheat yourself as you do not allow
 yourself the educational lessons that this class offers to you. It
 also requires you to assemble your own schedule for watching the
 videos that will have to managed through github notifications as part
-of a README.md file in your git repository. YOu will need to do the
+of a README.md file in your git repository. You will need to do the
 technology trek, as well as the theory trek.
 	     
 Technology Trek:
@@ -34,14 +34,22 @@ Theory Trek:
    lectures are of more theoretical nature and do not require much
    hands on activities to get familair with the technologies.
 
-Lectures
---------
+Lectures - Theory Track
+------------------------
    
-.. csv-table:: Lectures
+.. csv-table:: Theory Track
+   :header: "ID", "Description", "Resources", "Length"
+   :widths: 15, 10, 10, 10
+   :file: lectures-theory.csv
+
+Lectures - Technology Track
+---------------------------
+
+.. csv-table:: Tecnology Track
    :header: "Treat", "Quantity", "Description"
    :widths: 15, 10, 10, 10
-   :file: lectures-table.csv
-
+   :file: lectures-tech.csv
+	  
 
 Slides
 ------
