@@ -449,6 +449,80 @@ following time:</p>
 </ul>
 <p>For the 100% online students see the office hours.</p>
 </div>
+<div class="section" id="software-project">
+<h2>Software Project<a class="headerlink" href="#software-project" title="Permalink to this headline">¶</a></h2>
+<p>In case of a software project, we encourage a group project with up to
+three members.  You can use the
+<a class="reference external" href="https://piazza.com/class/irqfvh1ctrg2vt">discussion forum in the folder project</a>
+to form project teams or just communicate privately with other class
+members to formulate a team. The following artifacts are part of the
+deliverables for a project</p>
+<dl class="docutils">
+<dt>Code:</dt>
+<dd>You must deliver the code in gitlab. The code must be compilable
+and a TA may try to replicate to run your code. You MUST avoid
+lengthy install descriptions and everything must be installable
+from the command line. We will check submission. All team members
+must be responsible for one part of the project.</dd>
+<dt>Project Report:</dt>
+<dd><p class="first">A report must be produced while using the format discussed in the
+Report Format section. The following length is required:</p>
+<ul class="last simple">
+<li>4 pages, one student in the project</li>
+<li>6 pages, two students in the project</li>
+<li>8 pages, three students in the project</li>
+</ul>
+</dd>
+<dt>Work Breakdown:</dt>
+<dd><p class="first">This document is only needed for team projects. A one page PDF
+document describing who did what. It includes pointers to
+the git history that documents the statistics that demonstrate not
+only one student has worked on the project.</p>
+<p class="last">In addition the graders will go into gitlab, which provides a
+history of checkins to verify each team member has used gitlab to
+checkin their contributions frequently. E.g. if we find that one
+of the students has not checked in code or documentation at all,
+it will be questioned.</p>
+</dd>
+<dt>License:</dt>
+<dd>All projects are developed under an open source license such as
+Apache 2.0 License, or similar. You will be required to add a
+LICENCE.txt file and if you use other software identify how it can be
+reused in your project. If your project uses different licenses,
+please add in a README.rst file which packages are used and which
+license these packages have.</dd>
+<dt>Additional links:</dt>
+<dd><ul class="first last simple">
+<li><a class="reference internal" href="../lesson/projects/index.html#projects"><span class="std std-ref">Software Projects</span></a></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="report-format">
+<h2>Report Format<a class="headerlink" href="#report-format" title="Permalink to this headline">¶</a></h2>
+<p>All reports will be using the format specified in Section <a href="#id3"><span class="problematic" id="id4">reports_</span></a>.</p>
+<p>There will be <strong>NO EXCEPTION</strong> to this format. Documents not following
+this format and are not professionally looking, will be returned
+without review.</p>
+</div>
+<div class="section" id="code-repositories-deliverables">
+<h2>Code Repositories Deliverables<a class="headerlink" href="#code-repositories-deliverables" title="Permalink to this headline">¶</a></h2>
+<p>Code repositories are for code, if you have additional libraries that
+are needed you need to develop a script or use a DevOps framework to
+install such software. Thus zip files and .class, .o files are not
+permissible in the project. Each project must be reproducible with a
+simple script. An example is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="o">....</span>
+<span class="n">make</span> <span class="n">install</span>
+<span class="n">make</span> <span class="n">run</span>
+<span class="n">make</span> <span class="n">view</span>
+</pre></div>
+</div>
+<p>Which would use a simple make file to install, run, and view the
+results. Naturally you can use ansible or shell scripts. It is not
+permissible to use GUI based DevOps preinstalled
+frameworks. Everything must be installable form the command line.</p>
+</div>
 <div class="section" id="online-meetings">
 <h2>Online Meetings<a class="headerlink" href="#online-meetings" title="Permalink to this headline">¶</a></h2>
 <blockquote>
