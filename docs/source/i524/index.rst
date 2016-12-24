@@ -359,46 +359,13 @@ Additional links:
 Report Format
 ---------------
 
-All reports will be using the ACM proceedings format. The MSWord template
-can be found here:
+All reports will be using the format specified in Section reports_.
 
-* :download:`paper-report.docx <files/paper-report.docx>`
+There will be **NO EXCEPTION** to this format. Documents not following
+this format and are not professionally looking, will be returned
+without review.
 
-A LaTeX version can be found at
 
-* https://www.acm.org/publications/proceedings-template
-
-however you have to remove the ACM copyright notice in the LaTeX version.
-
-There will be **NO EXCEPTION** to this format. In case you are in a
-team, you can use either gitlab while collaboratively developing the
-LaTeX document or use MicrosoftOne Drive which allows collaborative
-editing features. All bibliographical entries must be put into a
-bibliography manager such as jabref, endnote, or Mendeley. This will
-guarantee that you follow proper citation styles. You can use either
-ACM or IEEE reference styles. Your final submission will include the
-bibliography file as a separate document.
-
-Documents that do not follow the ACM format and are not accompanied by
-references managed with jabref or endnote or are not spell checked
-will be returned without review.
-
-Report Checklist:
-
-* [ ] Have you written the report in word or LaTeX in the specified
-  format.
-* [ ] In case of LaTeX, have you removed the ACM copyright information
-* [ ] Have you included the report in gitlab.
-* [ ] Have you specified the names and e-mails of all team members in
-  your report. E.g. the username in Canvas.
-* [ ] Have you included all images in native and PDF format in gitlab
-  in the images folder.
-* [ ] Have you added the bibliography file (such as endnote or bibtex
-  file e.g. jabref) in a directory bib.
-* [ ] Have you submitted an additional page that describes who did
-  what in the project or report.
-* [ ] Have you spellchecked the paper.
-* [ ] Have you made sure you do not plagiarize.
 
 
 Code Repositories Deliverables
