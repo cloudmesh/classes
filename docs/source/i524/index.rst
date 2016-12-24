@@ -307,7 +307,119 @@ following time:
 
 For the 100% online students see the office hours.
    
+Software Project
+----------------
 
+In case of a software project, we encourage a group project with up to
+three members.  You can use the
+`discussion forum in the folder project <https://piazza.com/class/irqfvh1ctrg2vt>`_
+to form project teams or just communicate privately with other class
+members to formulate a team. The following artifacts are part of the
+deliverables for a project
+
+Code:
+    You must deliver the code in gitlab. The code must be compilable
+    and a TA may try to replicate to run your code. You MUST avoid
+    lengthy install descriptions and everything must be installable
+    from the command line. We will check submission. All team members
+    must be responsible for one part of the project.
+
+Project Report:
+    A report must be produced while using the format discussed in the
+    Report Format section. The following length is required:
+
+    * 4 pages, one student in the project
+    * 6 pages, two students in the project
+    * 8 pages, three students in the project
+
+Work Breakdown:
+    This document is only needed for team projects. A one page PDF
+    document describing who did what. It includes pointers to
+    the git history that documents the statistics that demonstrate not
+    only one student has worked on the project.
+
+    In addition the graders will go into gitlab, which provides a
+    history of checkins to verify each team member has used gitlab to
+    checkin their contributions frequently. E.g. if we find that one
+    of the students has not checked in code or documentation at all,
+    it will be questioned.
+
+License:
+    All projects are developed under an open source license such as
+    Apache 2.0 License, or similar. You will be required to add a
+    LICENCE.txt file and if you use other software identify how it can be
+    reused in your project. If your project uses different licenses,
+    please add in a README.rst file which packages are used and which
+    license these packages have.
+
+Additional links:
+    * :ref:`projects`
+
+
+Report Format
+---------------
+
+All reports will be using the ACM proceedings format. The MSWord template
+can be found here:
+
+* :download:`paper-report.docx <files/paper-report.docx>`
+
+A LaTeX version can be found at
+
+* https://www.acm.org/publications/proceedings-template
+
+however you have to remove the ACM copyright notice in the LaTeX version.
+
+There will be **NO EXCEPTION** to this format. In case you are in a
+team, you can use either gitlab while collaboratively developing the
+LaTeX document or use MicrosoftOne Drive which allows collaborative
+editing features. All bibliographical entries must be put into a
+bibliography manager such as jabref, endnote, or Mendeley. This will
+guarantee that you follow proper citation styles. You can use either
+ACM or IEEE reference styles. Your final submission will include the
+bibliography file as a separate document.
+
+Documents that do not follow the ACM format and are not accompanied by
+references managed with jabref or endnote or are not spell checked
+will be returned without review.
+
+Report Checklist:
+
+* [ ] Have you written the report in word or LaTeX in the specified
+  format.
+* [ ] In case of LaTeX, have you removed the ACM copyright information
+* [ ] Have you included the report in gitlab.
+* [ ] Have you specified the names and e-mails of all team members in
+  your report. E.g. the username in Canvas.
+* [ ] Have you included all images in native and PDF format in gitlab
+  in the images folder.
+* [ ] Have you added the bibliography file (such as endnote or bibtex
+  file e.g. jabref) in a directory bib.
+* [ ] Have you submitted an additional page that describes who did
+  what in the project or report.
+* [ ] Have you spellchecked the paper.
+* [ ] Have you made sure you do not plagiarize.
+
+
+Code Repositories Deliverables
+------------------------------
+
+Code repositories are for code, if you have additional libraries that
+are needed you need to develop a script or use a DevOps framework to
+install such software. Thus zip files and .class, .o files are not
+permissible in the project. Each project must be reproducible with a
+simple script. An example is::
+
+    git clone ....
+    make install
+    make run
+    make view
+
+Which would use a simple make file to install, run, and view the
+results. Naturally you can use ansible or shell scripts. It is not
+permissible to use GUI based DevOps preinstalled
+frameworks. Everything must be installable form the command line.
+      
 
 
 Online Meetings
