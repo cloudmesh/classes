@@ -33,8 +33,8 @@ access and interface with them. Topics of this class will include:
    environments based on software deployed and used on clouds while
    using Containers, OpenStack and ansible playbooks.
 
-#. Students will chose one other open source member of Kaleidoscope
-   each and deploy as illustrated in class.
+#. Students will chose a number of open source members of the list
+   each and create repeatable deployments as illustrated in class. 
 
 #. The main activity of the course will be building a significant
    project using multiple subsystems combined with user code and
@@ -49,23 +49,26 @@ knowledge of a programming language so you can enhance your knowledge
 on them throughout the class and succeed.
  
  
-.. note:: A note to current I523 class participants: While I523 is a
+.. note:: For current I523 class participants: While I523 is a
           beginners class I524 is an advanced class and we expect that
           you know python which you hopefully have learned as part of
           I523. If not, make sure you learn it before you take this
-          class. If not consider significant additional time needed
-          for that class. You will be expected to have a computer on
-          which you have python installed.  You will be using
-          chameleon and possibly our local cloud. Optionally some
-          projects may use docker. A significant amount of time will
-          be spend to familiarize yourself with the technologies more
-          so than in I523.
+          class. If not consider significant additional time needed to
+          learn it for the class. You will be expected to have a
+          computer on which you have python 2.7.x installed.  You will
+          be using chameleon and possibly our local cloud. Optionally
+          some projects may use docker. A significant amount of time
+          will be spend to familiarize yourself with the technologies
+          more so than in I523. You do not have to take I523 in order
+          to take I524.
  
-.. note:: Residential students enroll early so we avoid the situation
-	  like last year where we had many signing up, but did not
-	  even show up to the first lecture. I have asked that
+.. note:: Residential students need to enroll early so we avoid the
+	  situation like last year where we had many signing up, but
+	  did not even show up to the first lecture. I have asked that
 	  students from I523 have preference, but I am not sure if we
-	  can enforce this. So enroll ASAP.
+	  can enforce this. So enroll ASAP. Those that are on the
+	  waiting list are recommended to show up in the first
+	  class. It is likely that you can join as others drop.
 
 Who can take the class?
 -----------------------
@@ -85,7 +88,7 @@ Who can take the class?
 Homework
 --------
 
-Grading pilicies are listed in Table 1.
+Grading policies are listed in Table 1.
 
 .. list-table:: Table 1: Grading
    :widths: 10 80
@@ -98,33 +101,12 @@ Grading pilicies are listed in Table 1.
    * - 30%
      - Three unique technology papers per student of the 300
        systems. Each paper as at least 2 pages per technology without
-       refences.
+       references.
    * - 60%
      - Project code and report with at least 6 pages without
        references. Much shorter reports will be returned without
-       review. Do not artifically inflate contents. 
+       review. Do not artificially inflate contents. 
 
-   Any lat ehomework will be receiving a 10% grade reduction. 
-   As this is a large class and the assignments are not standard
-   multiple choice questions, grading will take a considerable time.
-
-   Some homework can not be delivered late as they are related to
-   establish communication with you. Such **deadline specific**
-   homework will receive 0 pts in case they are late. See course
-   calendar.
-
-   It is the student’s responsibility to upload submissions well ahead
-   of the deadline to avoid last minute problems with network
-   connectivity, browser crashes, cloud issues, etc. It is **important**
-   to make frequen and often commits to the github repository as the
-   activities will be monitored and will be integrated into the
-   project grade.
-
-   Note that paper and project will take a considerable amount of time
-   and doing proper time management is a must for this class. Avoid
-   starting your project late. Procrastination does not pay off. 
-       
-  
 * **Project groups:** Groups of up to three students can work on a
   project but workload increases with each student and a work break
   down must be provided.  More than three students are not
@@ -153,6 +135,23 @@ Grading pilicies are listed in Table 1.
   develop as part of the project a deployment of a technology. Points
   may depend on effort and simplicity of the deployment.
 
+* **Late homework**: Any late homework will be receiving a 10% grade
+  reduction.  As this is a large class and the assignments are not
+  standard multiple choice questions, grading will take a considerable
+  time. Some homework can not be delivered late as they are related to
+  establish communication with you. Such **deadline specific**
+  homework will receive 0 points in case they are late. See course
+  calendar. It is the student’s responsibility to upload submissions
+  well ahead of the deadline to avoid last minute problems with
+  network connectivity, browser crashes, cloud issues, etc.
+
+* **Frequent checkins**: It is **important** to make frequent and
+  often commits to the github repository as the activities will be
+  monitored and will be integrated into the project grade.  Note that
+  paper and project will take a considerable amount of time and doing
+  proper time management is a must for this class. Avoid starting your
+  project late. Procrastination does not pay off.
+       
 * **No bonus projects:** This class will not have any bonus projects
   or regrading requests. Instead you need to focus your time on the
   papers and the project assignments.
@@ -164,7 +163,7 @@ Grading pilicies are listed in Table 1.
 * **Chance for publishing a paper:** If however you find that the work
   you do could lead to a publishable paper, you could work together
   with the course instructor as coauthors to conduct such an
-  activity. However, this is goind to be a significant effort and you
+  activity. However, this is going to be a significant effort and you
   need to decide if you like to conduct this. In such cases if the
   work is sufficient for publication submission, an A+ for the class
   could be considered. It will be a lot of work. The length of such a
@@ -172,6 +171,7 @@ Grading pilicies are listed in Table 1.
   references. We may elect for the final submission to use a different
   LaTeX style
 
+  
 Prerequisites
 ------------
 
@@ -260,19 +260,19 @@ Piazza
 ------
 
 All communication will be done via Piazza. We will not read any e-mail
-send to our university or private e-mails. All instructurs are
-following this rule. Any mail that is not send via PIazza will be
+send to our university or private e-mails. All instructors are
+following this rule. Any mail that is not send via Piazza will be
 **not read** and **deleted**. This is also true for any mail send to
 the inbox system in CANVAS. We found CANVAS a not scalable solution
 for our class and will not use CANVAS for reaching out to you.   If you
-need a different mechnism to communicate with us, please ask on PIazza
+need a different mechanism to communicate with us, please ask on Piazza
 how to do that.
 
 To sign up in piazza please follow this link:
 
 * https://piazza.com/iu/spring2017/i524
 
-* https://piazza.com/class/ix39m27czn5uw
+* https://piazza.com/iu/i524
 
 Piazza Folders
 ^^^^^^^^^^^^^^
@@ -285,7 +285,7 @@ projects or teams.
 help:
     Our help folder is just like a ticket system that is monitored by
     the TA's. Once you file a question here, a TA will attend to it,
-    and work with you. ONce the issue you had is resolved, the TA is
+    and work with you. Once the issue you had is resolved, the TA is
     marking it as resolved. If you need to reopen a help message,
     please mark it again as unresolved or post a follow up.
 
@@ -331,11 +331,12 @@ Software Project
 ----------------
 
 In case of a software project, we encourage a group project with up to
-three members.  You can use the
-`discussion forum in the folder project <https://piazza.com/class/irqfvh1ctrg2vt>`_
-to form project teams or just communicate privately with other class
-members to formulate a team. The following artifacts are part of the
-deliverables for a project
+three members.  You can use the **search teammate** folder to find
+and form groups:
+
+* https://piazza.com/class/ix39m27czn5uw?cid=5
+
+The following artifacts are part of the deliverables for a project
 
 Code:
     You must deliver the code in gitlab. The code must be compilable
@@ -353,24 +354,24 @@ Project Report:
     * 8 pages, three students in the project
 
 Work Breakdown:
-    This document is only needed for team projects. A one page PDF
-    document describing who did what. It includes pointers to
-    the git history that documents the statistics that demonstrate not
-    only one student has worked on the project.
+    This document is only needed for team projects. Include in the
+    appendix a short but sufficiently detailed work breakdown
+    documenting what the team has done. Back it up with commit
+    information from github. 
 
-    In addition the graders will go into gitlab, which provides a
-    history of checkins to verify each team member has used gitlab to
+    In addition the graders will go into github/lab, which provides a
+    history of checkins to verify each team member has used github/lab to
     checkin their contributions frequently. E.g. if we find that one
     of the students has not checked in code or documentation at all,
-    it will be questioned.
+    it will be questioned. An oral exam my be scheduled to verify that
+    the student has contributed to the project.
 
-License:
-    All projects are developed under an open source license such as
-    Apache 2.0 License, or similar. You will be required to add a
-    LICENCE.txt file and if you use other software identify how it can be
-    reused in your project. If your project uses different licenses,
-    please add in a README.rst file which packages are used and which
-    license these packages have.
+License: All projects are developed under an open source license such
+    as Apache 2.0 License. You will be required to add a LICENCE.txt
+    file and if you use other software identify how it can be reused
+    in your project. If your project uses different licenses, please
+    add in a README.md file which packages are used and which license
+    these packages have while adding a licenses file.
 
 Additional links:
     * :ref:`projects`
