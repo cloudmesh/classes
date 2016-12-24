@@ -104,6 +104,26 @@ Grading pilicies are listed in Table 1.
        references. Much shorter reports will be returned without
        review. Do not artifically inflate contents. 
 
+   Any lat ehomework will be receiving a 10% grade reduction. 
+   As this is a large class and the assignments are not standard
+   multiple choice questions, grading will take a considerable time.
+
+   Some homework can not be delivered late as they are related to
+   establish communication with you. Such **deadline specific**
+   homework will receive 0 pts in case they are late. See course
+   calendar.
+
+   It is the student’s responsibility to upload submissions well ahead
+   of the deadline to avoid last minute problems with network
+   connectivity, browser crashes, cloud issues, etc. It is **important**
+   to make frequen and often commits to the github repository as the
+   activities will be monitored and will be integrated into the
+   project grade.
+
+   Note that paper and project will take a considerable amount of time
+   and doing proper time management is a must for this class. Avoid
+   starting your project late. Procrastination does not pay off. 
+       
   
 * **Project groups:** Groups of up to three students can work on a
   project but workload increases with each student and a work break
@@ -407,6 +427,205 @@ Online Meetings
     * **SIP:** 534178131@zoomcrc.com
         * Password: 520093
 
+
+
+Learning Outcomes
+-----------------
+
+Students will gain broad understanding of Big Data applications and
+open source technologies supporting them. Students will have intense
+programming experience in Pythin and ansible. Students will be able to
+communicate their reserach in professional scientific reports.
+
+
+
+
+
+Academic Integrity Policy
+----------------------------------------------------------------------
+
+We take academic integrity very seriously. You are required to abide
+by the Indiana University policy on academic integrity, as described
+in the Code of Student Rights, Responsibilities, and Conduct, as well
+as the Computer Science Statement on Academic Integrity
+(http://www.soic.indiana.edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf). It
+is your responsibility to understand these policies. Briefly
+summarized, the work you submit for course assignments, projects,
+quizzes, and exams must be your own or that of your group, if
+group work is permitted. You may use the ideas of others but you must
+give proper credit. You may discuss assignments with other students
+but you must acknowledge them in the reference section according to
+scholarly citation rules. Please also make sure that you know how to
+not plagiarize text from other sources while reviewing citation rules.
+
+We will respond to acts of plagiarism and academic misconduct
+according to university policy. Sanctions typically involve a grade of
+0 for the assignment in question and/or a grade of F in the course. In
+addition, University policy requires us to report the incident to the
+Dean of Students, who may apply additional sanctions, including
+expulsion from the university.
+
+Students agree that by taking this course, papers and source code
+submitted to us may be subject to textual similarity review, for
+example by Turnitin.com. These submissions may be included as source
+documents in reference databases for the purpose of detecting
+plagiarism of such papers or codes.
+
+It is not acceptable to use for pay services to conduct your project. 
+Please be aware that we monitor such services and have TAs speaking
+various languages and know about these services even in different
+countries. Also do not just translate a report written by someone in a
+different language and claim it to be your project.
+
+Instructors
+------------
+
+The course presents lectures in online form given by the instructors
+listed bellow. Many others have helped making this material available
+and may not be listed here. For this class support is provided by
+
+* Gregor von Laszewski (PhD)
+* Badi' Abdul-Wahid (PhD)
+* Jerome Mitchell (Teaching Assistant)
+* Nikolov, Dimitar (Teaching Assistant)
+
+
+Dr. Gregor von Laszewski
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: images/gregor2.png
+
+Gregor von Laszewski is an Assistant Director of Cloud Computing in the
+DSC. He held a position at Argonne National Laboratory from Nov. 1996 – Aug.
+2009 where he was last a scientist and a fellow of the Computation
+Institute at University of Chicago. During the last two years of that
+appointment he was on sabbatical and held a position as Associate
+Professor and the Director of a Lab at Rochester Institute of Technology
+focussing on Cyberinfrastructure. He received a Masters Degree in 1990
+from the University of Bonn, Germany, and a Ph.D. in 1996 from Syracuse
+University in computer science. He was involved in Grid computing since
+the term was coined. He was the lead of the Java Commodity Grid Kit
+(http://www.cogkit.org) which provides till today a basis for many Grid
+related projects including the Globus toolkit. Current research
+interests are in the areas of Cloud computing. He is leading the effort
+to develop a simple IaaS client available at as OpenSource project at
+http://cloudmesh.github.io/client/
+
+His Web page is located at http://gregor.cyberaide.org. To contact him
+please send mail to laszewski@gmail.com. For class related e-mail
+please use Piazza for this class.
+
+In his free time he teaches Lego Robotics to high school students. In 2015
+the team won the 2nd prize in programming design in Indiana. If you like
+to volunteer helping in this effort please contact him.
+
+He offers also the opportunity to work with him on interesting
+independent studies. Current topics include but are not limited to
+
+* cloudmesh
+( big data for NIST
+* big data benchmarking.
+* scientific impact of supercomputer and data centers.
+* STEM and other educational activities while using robotics or big data
+   
+Please contact me if you are interested in this.
+
+Dr. Geoffrey Fox
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: images/gcf.jpg
+
+Fox received a Ph.D. in Theoretical Physics from Cambridge University
+and is now distinguished professor of Informatics and Computing, and
+Physics at Indiana University where he is director of the Digital
+Science Center, Chair of Department of Intelligent Systems Engineering
+and Director of the Data Science program at the School of Informatics
+and Computing.  He previously held positions at Caltech, Syracuse
+University and Florida State University after being a postdoc at the
+Institute of Advanced Study at Princeton, Lawrence Berkeley Laboratory
+and Peterhouse College Cambridge. He has supervised the PhD of 68
+students and published around 1200 papers in physics and computer
+science with an index of 70 and over 26000 citations.  He currently
+works in applying computer science from infrastructure to analytics in
+Biology, Pathology, Sensor Clouds, Earthquake and Ice-sheet Science,
+Image processing, Deep Learning, Manufacturing, Network Science and
+Particle Physics. The infrastructure work is built around Software
+Defined Systems on Clouds and Clusters. The analytics focuses on
+scalable parallelism.
+
+He is involved in several projects to enhance the capabilities of
+Minority Serving Institutions. He has experience in online education
+and its use in MOOCs for areas like Data and Computational Science. He
+is a Fellow of APS (Physics) and ACM (Computing).
+
+
+Dr. Badi' Abdul-Wahid
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: images/badi.png
+
+Badi' received a Ph.D. in Computer Science at the University of Notre
+Dame under Professor Jesus Izaguirre. The primary focus of his
+graduate work was the development of scalable, fault-tolerant, elastic
+distributed applications for running Molecular Dynamics simulations.
+
+At Indiana University, Badi' works with the FutureSystems project
+on a NIST-funded study whose goal is to understand patterns in the
+development and usage of Big Data Analysis pipelines.
+
+
+Teaching Assistants
+-------------------
+
+Jerome Mitchell
+~~~~~~~~~~~~~~~
+
+.. image:: images/jerome.jpg
+
+Jerome Mitchell is a Ph.D candidate in computer science at Indiana
+University and is interested in coupling the fields of computer and
+polar science. He has participated in the United State Antarctic
+Program, (USAP), where he collaborated with a multidisciplinary team
+of engineers and scientists to design a mobile robot for harsh polar
+environments to autonomously collect ice sheet data, decrease the
+human footprint of polar expeditions, and enhance measurement
+precision. His current work include: using machine learning techniques
+to help polar scientists identify bedrock and internal layers in radar
+imagery. He has also been involved in facilitating workshops to
+educate faculty and students on the importance of parallel and
+distributed computing at minority-serving institutions.
+
+Nikolov, Dimitar
+----------------
+
+IMAGE: TBD
+
+Bio TBD
+
+
+
+Links
+-------
+
+This page is conveniently managed with git. The location for the
+changes can be found at
+
+* https://cloudmesh.github.io/classes/
+
+The repository is at
+
+* https://github.com/cloudmesh/classes
+
+Issues can be submitted at
+
+* https://github.com/cloudmesh/classes/issues
+
+Or better use piazza so you notify us in our discussion lists. If you
+detect errors, you could also create a merge request at
+
+* https://piazza.com/iu/i524
+
+	  
 	  
 Course Numbers
 --------------
