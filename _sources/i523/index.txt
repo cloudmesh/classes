@@ -1,5 +1,5 @@
-Big Data Applications and Analytics 
-=========================================================================
+I523 Big Data Applications and Analytics
+========================================
 
 * Semester: Fall 2016
 * Link to Read the Docs: http://bdaafall2016.readthedocs.io/en/latest/
