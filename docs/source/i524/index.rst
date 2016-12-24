@@ -235,7 +235,67 @@ Class Material
    technologies
 
 
+   
+Piazza
+------
 
+All communication will be done via Piazza. We will not read any e-mail
+send to our university or private e-mails. All instructurs are
+following this rule. Any mail that is not send via PIazza will be
+**not read** and **deleted**. This is also true for any mail send to
+the inbox system in CANVAS. We found CANVAS a not scalable solution
+for our class and will not use CANVAS for reaching out to you.   If you
+need a different mechnism to communicate with us, please ask on PIazza
+how to do that.
+
+To sign up in piazza please follow this link:
+
+* https://piazza.com/iu/spring2017/i524
+
+* https://piazza.com/class/ix39m27czn5uw
+
+Piazza Folders
+^^^^^^^^^^^^^^
+
+Piazza folders allow us to organize some posts into topics. If we need
+to introduce a new folder, please discuss and Gregor will approve and
+create it if needed. We will not create folders for individual
+projects or teams.
+
+help:
+    Our help folder is just like a ticket system that is monitored by
+    the TA's. Once you file a question here, a TA will attend to it,
+    and work with you. ONce the issue you had is resolved, the TA is
+    marking it as resolved. If you need to reopen a help message,
+    please mark it again as unresolved or post a follow up.
+
+project:
+    Questions related to projects are posted here.
+
+logistics:
+    Question regarding the logistics of the class are posted
+    here. This includes questions about communication, meeting times,
+    and other administrative activities.
+    
+other:
+    In case no folder matches for your question use other.
+
+papers:
+    Questions regarding the paper are posted here.    
+
+grading:
+    Questions regarding grades are posted here.
+    
+clouds:
+    Questions regarding cloud resources are posted here.
+    
+faq:
+    Some questions will be transformed to FAQ's that we post here.
+    Note also that we have an FAQ on the class Web page that you may
+    want to visit. We try to move important FAQ's from Piazza into the
+    Web page, so it is important that you check both.
+
+  
 Meeting Times
 -------------
 
@@ -248,6 +308,27 @@ following time:
 For the 100% online students see the office hours.
    
 
+
+
+Online Meetings
+---------------
+
+    * **PC, Mac, Linux, iOS or Android:**
+        * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
+        * Password: To be posted in CANVAS
+    * **Telephone**:
+        * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
+        * Meeting ID: 534 178 131 
+        * International numbers available:
+	  * https://IU.zoom.us/zoomconference?m=xAjpb6jx8gjnut6Q2SW5yPuC09ekuO7H 
+    * **H.323/SIP room system**:
+        * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East) 
+        * Meeting ID: 534 178 131
+        * Password: 520093
+    * **SIP:** 534178131@zoomcrc.com
+        * Password: 520093
+
+	  
 Course Numbers
 --------------
 
@@ -284,7 +365,10 @@ Please, select the course that is most suitable for your program:
            VT: BIG DATA SOFTWARE AND PROJECTS
               33924 RSTR     09:30A-10:45A   M      I2 130    Von Laszewski G 
                  Above class meets with INFO-I 524
-   
+
+
+
+		 
 Refernces
 ---------
 

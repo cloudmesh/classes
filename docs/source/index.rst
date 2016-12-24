@@ -6,20 +6,13 @@ Classes
 
    about/index	      
    i524/index
+   i523/index
    lesson/index
    notebooks/index
    faq
    references
    todo
 
-Previous Classes
-================
-
-.. toctree::
-   :maxdepth: 1
-
-
-   i523/index
 
 Search:
 
