@@ -3,6 +3,37 @@
 I524 Big Data & Open Source Software Projects
 =============================================
 
+Class Material
+--------------  
+.. toctree::
+   :maxdepth: 1
+
+   calendar
+   lectures
+   technologies
+
+
+.. graphviz::
+
+   digraph class {
+      rankdir="LR";
+      node [shape=box,
+            style=filled,
+            fillcolor=lightgrey];
+      
+      "start" -> "Technology";
+      "start" -> "Theory" -> "end";
+      "start" -> "Paper 1" -> "Paper 2" -> "Paper 3" -> "midterm" -> "end";
+      "Theory" -> "Technology" -> "Project";
+      "Theory" -> "Paper 1";
+      "Theory" -> "Paper 2";
+      "Theory" -> "Paper 3";   
+      "Project" -> "end";            
+   }
+   
+Overview
+--------
+
 This course studies software used in many commercial activities to
 related to Big Data. The backdrop for course relates to more than 300
 software subsystems illustrated in Figure 1.
@@ -70,6 +101,37 @@ on them throughout the class and succeed.
 	  waiting list are recommended to show up in the first
 	  class. It is likely that you can join as others drop.
 
+Special Example Projects
+------------------------
+
+Besides your own projects we have a number of example project
+descriptions that you may want to take a look at:
+
+* :ref:`robotswarm`
+* :ref:`dockerswarm`
+* :ref:`kubernetes`
+* :ref:`slurmcluster`
+* :ref:`authordisambuigity`
+* :ref:`authordisambiguity_b`
+  
+NIST Big Data Working group examples:
+  Any use case from
+  http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf
+
+Selected examples from Fall I523:
+   Some students may have created an example as part of I523. Not all
+   examples created as part of this class qualify for a I524
+   project. Please contact Gregor von Laszewski via Piazza to discuss
+   suitability of your previous I523 project. If such a project is
+   selected, approved and used it is expected it is significantly
+   enhanced.
+
+Cloudmesh Enhancements:
+   A number of projects could center around the enhancements of
+   cloudmesh for the improvement of big data projects using virtual
+   machines and containers.
+
+   
 Who can take the class?
 -----------------------
 
@@ -245,14 +307,6 @@ often make:
   be deleting all canvas posts after we have established you can post
   to piazza. Which will be the first week of class.
 
-Class Material
-  
-.. toctree::
-   :maxdepth: 1
-
-   calendar
-   lectures
-   technologies
 
 
    
@@ -272,7 +326,6 @@ To sign up in piazza please follow this link:
 
 * https://piazza.com/iu/spring2017/i524
 
-* https://piazza.com/iu/i524
 
 Piazza Folders
 ^^^^^^^^^^^^^^
@@ -380,7 +433,7 @@ Additional links:
 Report Format
 ---------------
 
-All reports will be using the format specified in Section reports_.
+All reports will be using the format specified in Section :ref:`reports`.
 
 There will be **NO EXCEPTION** to this format. Documents not following
 this format and are not professionally looking, will be returned
@@ -452,12 +505,12 @@ as the Computer Science Statement on Academic Integrity
 (http://www.soic.indiana.edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf). It
 is your responsibility to understand these policies. Briefly
 summarized, the work you submit for course assignments, projects,
-quizzes, and exams must be your own or that of your group, if
-group work is permitted. You may use the ideas of others but you must
-give proper credit. You may discuss assignments with other students
-but you must acknowledge them in the reference section according to
-scholarly citation rules. Please also make sure that you know how to
-not plagiarize text from other sources while reviewing citation rules.
+quizzes, and exams must be your own or that of your group, if group
+work is permitted. You may use the ideas of others but you must give
+proper credit. You may discuss assignments with other students but you
+must acknowledge them in the reference section according to scholarly
+citation rules. Please also make sure that you know how to not
+plagiarize text from other sources while reviewing citation rules.
 
 We will respond to acts of plagiarism and academic misconduct
 according to university policy. Sanctions typically involve a grade of
@@ -492,24 +545,27 @@ and may not be listed here. For this class support is provided by
 
 
 Dr. Gregor von Laszewski
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
-.. image:: images/gregor2.png
+.. image:: /images/gregor2.png
 
-Gregor von Laszewski is an Assistant Director of Cloud Computing in the
-DSC. He held a position at Argonne National Laboratory from Nov. 1996 – Aug.
-2009 where he was last a scientist and a fellow of the Computation
+Gregor von Laszewski is an Assistant Director of Cloud Computing in
+the DSC. His is also an Adj. Assoc. Professor of the Intelligent
+Systems Engineering Department at Indiana University. He held a
+position at Argonne National Laboratory from Nov. 1996 – Aug.  2009
+where he was last a scientist and a fellow of the Computation
 Institute at University of Chicago. During the last two years of that
 appointment he was on sabbatical and held a position as Associate
-Professor and the Director of a Lab at Rochester Institute of Technology
-focussing on Cyberinfrastructure. He received a Masters Degree in 1990
-from the University of Bonn, Germany, and a Ph.D. in 1996 from Syracuse
-University in computer science. He was involved in Grid computing since
-the term was coined. He was the lead of the Java Commodity Grid Kit
-(http://www.cogkit.org) which provides till today a basis for many Grid
-related projects including the Globus toolkit. Current research
-interests are in the areas of Cloud computing. He is leading the effort
-to develop a simple IaaS client available at as OpenSource project at
+Professor and the Director of a Lab at Rochester Institute of
+Technology focussing on Cyberinfrastructure. He received a Masters
+Degree in 1990 from the University of Bonn, Germany, and a Ph.D. in
+1996 from Syracuse University in computer science. He was involved in
+Grid computing since the term was coined. He was the lead of the Java
+Commodity Grid Kit (http://www.cogkit.org) which provides till today a
+basis for many Grid related projects including the Globus
+toolkit. Current research interests are in the areas of Cloud
+computing. He is leading the effort to develop a simple IaaS client
+available at as OpenSource project at
 http://cloudmesh.github.io/client/
 
 His Web page is located at http://gregor.cyberaide.org. To contact him
@@ -524,19 +580,19 @@ He offers also the opportunity to work with him on interesting
 independent studies. Current topics include but are not limited to
 
 * cloudmesh
-( big data for NIST
+* big data for NIST
 * big data benchmarking.
 * scientific impact of supercomputer and data centers.
 * STEM and other educational activities while using robotics or big data
    
 Please contact me if you are interested in this.
 
-Dr. Geoffrey Fox
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Dr. Geoffrey C. Fox
+-------------------
 
-.. image:: images/gcf.jpg
+.. image:: /images/gcf.jpg
 
-Fox received a Ph.D. in Theoretical Physics from Cambridge University
+Greoffrey C. Fox received a Ph.D. in Theoretical Physics from Cambridge University
 and is now distinguished professor of Informatics and Computing, and
 Physics at Indiana University where he is director of the Digital
 Science Center, Chair of Department of Intelligent Systems Engineering
@@ -563,7 +619,7 @@ is a Fellow of APS (Physics) and ACM (Computing).
 Dr. Badi' Abdul-Wahid
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/badi.png
+.. image:: /images/badi.png
 
 Badi' received a Ph.D. in Computer Science at the University of Notre
 Dame under Professor Jesus Izaguirre. The primary focus of his
@@ -578,12 +634,9 @@ development and usage of Big Data Analysis pipelines.
 Teaching Assistants
 -------------------
 
-Jerome Mitchell
-~~~~~~~~~~~~~~~
+.. image:: /images/jerome.jpg
 
-.. image:: images/jerome.jpg
-
-Jerome Mitchell is a Ph.D candidate in computer science at Indiana
+**Jerome Mitchell** is a Ph.D candidate in computer science at Indiana
 University and is interested in coupling the fields of computer and
 polar science. He has participated in the United State Antarctic
 Program, (USAP), where he collaborated with a multidisciplinary team
@@ -596,12 +649,14 @@ imagery. He has also been involved in facilitating workshops to
 educate faculty and students on the importance of parallel and
 distributed computing at minority-serving institutions.
 
-Nikolov, Dimitar
-----------------
 
-IMAGE: TBD
+.. image:: /images/dimitar.jpg
 
-Bio TBD
+**Dimitar Nikolov** is a PhD student in the Computer Science program at
+Indiana University since August 2008. His research interests include
+online social networks, tagging systems and web mining. As part of his
+PhD he conducts research with the NaN group, led by Professor Fil
+Menczer. His thesis topic is TBD.
 
 
 
