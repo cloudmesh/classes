@@ -3,35 +3,29 @@
 I524 Calendar
 =============
 
-The official University calendar can be found here:
+.. warning:: This calendar may be updated based on experience from the class.
+	     Please check back here.
 
-http://registrar.indiana.edu/official-calendar/official-calendar-spring.shtml
-
-.. note:: Lectures have not yet been posted as part of this calendar,
-	  Once we post them it is up to the student when they view
-	  them.  We may introduce a system to verified that you viewed
-	  and understood them, but we like to avoid this so you can
-	  focus on the Papers and Project.
 
 +---------------------------------------------+--------------------+----+
-| **Description**                             | **Date**           | No |
+| **Description**                             | **Date/Due Dates** | No |
 +---------------------------------------------+--------------------+----+
 | Class Begins                                | Mon, Jan 9         |    |
 +---------------------------------------------+--------------------+----+
 | Assignment of HID                           | Fri, Jan 13        |    |
 +---------------------------------------------+--------------------+----+
-| Piazza access verified  (hard duedate)      | Mon, Jan 16, 9am   | C1 |
+| Piazza access verified  (HD)                | Mon, Jan 16, 9am   | C1 |
 +---------------------------------------------+--------------------+----+
-| github access verified  (hard duedate)      | Mon, Jan 16, 9am   | C2 |
+| Github access verified  (HD)                | Mon, Jan 16, 9am   | C2 |
 +---------------------------------------------+--------------------+----+
 | MLK Jr. Day.	                              | Mon, Jan 16        |    |
 | Good time for additional class work         |                    |    |
 +---------------------------------------------+--------------------+----+
 | Technology Paper 1 due                      | Mon, Jan 30, 9am   | T1 |
 +---------------------------------------------+--------------------+----+
-| Acces and use of cloud verified             | Mon, Jan 30, 9am   | C3 |
+| Acces and use of cloud verified        (HD) | Mon, Jan 30, 9am   | C3 |
 +---------------------------------------------+--------------------+----+
-| Acces to python 2.7.x verified              | Mon, Jan 30, 9am   | C4 |
+| Acces to python 2.7.x verified         (HD) | Mon, Jan 30, 9am   | C4 |
 +---------------------------------------------+--------------------+----+
 | Technology Paper 2 due                      | Mon, Feb 27, 9am   | T2 |
 +---------------------------------------------+--------------------+----+
@@ -39,12 +33,12 @@ http://registrar.indiana.edu/official-calendar/official-calendar-spring.shtml
 +---------------------------------------------+--------------------+----+
 | Auto Witdraw	                              | Sun, Mar 12        |    |
 +---------------------------------------------+--------------------+----+
-| Project Execution plan and draft due        | Mon, Mar 13, 9am   | P1 |
+| Project Execution plan and draft due   (HD) | Mon, Mar 13, 9am   | P1 |
 +---------------------------------------------+--------------------+----+
 | Spring Break.	                              | Mar 12 - Mar 19    |    |
 | Good time for additional class work         |                    |    |
 +---------------------------------------------+--------------------+----+
-| Project Updates due                         | Mon, Mar 27, 9am   | P2 |
+| Project Updates due                    (HD) | Mon, Mar 27, 9am   | P2 |
 +---------------------------------------------+--------------------+----+
 | Project due                                 | Mon, Apr 24, 9am   | P3 |
 +---------------------------------------------+--------------------+----+
@@ -53,19 +47,21 @@ http://registrar.indiana.edu/official-calendar/official-calendar-spring.shtml
 | Ends	                                      | Fri, May 5         |    |
 +---------------------------------------------+--------------------+----+
 
-Proposed Grade Forumla (may be changed and adapted):
+* (HD) hard deadlines must be done in order to obtain full
+  points. These deadlines are important to assure you have access to
+  the resources for the class.
 
 
-
-
-Comments:
+Comments
+--------
 
 * Any late homework will have an automatic 10% grade deduction.
 * Any late homework may result in substential delay in grading (one month or
   more).
-* Hard due dates can not receive any points for late submissions as they are
+* Hard deadlines can not receive any points for late submissions as they are
   essential to the communication and operation of the class. If you can naturally
-  not communicate with us you cannot do your work. 
+  not communicate with we can not review your work or you can not even
+  execute your work. 
 * Experience shows that those using additional time during the spring break do
   typically better. We recommend that you use this time wisely.
 * You can start earlier if you like to prepare for this class, to for example
@@ -74,3 +70,9 @@ Comments:
   February 1st. You will run out of time. In order to accomodate for
   this we have segnificantly reduced other homework requirements in
   contrast to previous classes we taught.
+
+Official University calendar
+----------------------------
+
+* http://registrar.indiana.edu/official-calendar/official-calendar-spring.shtml
+  

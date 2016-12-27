@@ -177,6 +177,33 @@
 				
   <div class="section" id="i524-big-data-open-source-software-projects">
 <span id="index-0"></span><h1>I524 Big Data &amp; Open Source Software Projects<a class="headerlink" href="#i524-big-data-open-source-software-projects" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="class-material">
+<h2>Class Material<a class="headerlink" href="#class-material" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="calendar.html">I524 Calendar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lectures.html">I524 Lectures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="technologies.html">Technologies</a></li>
+</ul>
+</div>
+<img src="../_images/graphviz-02ca098cba585d87b925ccb0dc162bb4fa2af280.png" alt="digraph class {
+   rankdir=&quot;LR&quot;;
+   node [shape=box,
+         style=filled,
+         fillcolor=lightgrey];
+
+   &quot;start&quot; -&gt; &quot;Technology&quot;;
+   &quot;start&quot; -&gt; &quot;Theory&quot; -&gt; &quot;end&quot;;
+   &quot;start&quot; -&gt; &quot;Paper 1&quot; -&gt; &quot;Paper 2&quot; -&gt; &quot;Paper 3&quot; -&gt; &quot;midterm&quot; -&gt; &quot;end&quot;;
+   &quot;Theory&quot; -&gt; &quot;Technology&quot; -&gt; &quot;Project&quot;;
+   &quot;Theory&quot; -&gt; &quot;Paper 1&quot;;
+   &quot;Theory&quot; -&gt; &quot;Paper 2&quot;;
+   &quot;Theory&quot; -&gt; &quot;Paper 3&quot;;
+   &quot;Project&quot; -&gt; &quot;end&quot;;
+}" />
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <p>This course studies software used in many commercial activities to
 related to Big Data. The backdrop for course relates to more than 300
 software subsystems illustrated in Figure 1.</p>
@@ -198,8 +225,8 @@ of more than 300</li>
 <li>We will be identifying how we can create replicate software
 environments based on software deployed and used on clouds while
 using Containers, OpenStack and ansible playbooks.</li>
-<li>Students will chose one other open source member of Kaleidoscope
-each and deploy as illustrated in class.</li>
+<li>Students will chose a number of open source members of the list
+each and create repeatable deployments as illustrated in class.</li>
 <li>The main activity of the course will be building a significant
 project using multiple subsystems combined with user code and
 data. Projects will be suggested or students can chose their own. A
@@ -213,25 +240,58 @@ knowledge of a programming language so you can enhance your knowledge
 on them throughout the class and succeed.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">A note to current I523 class participants: While I523 is a
+<p class="last">For current I523 class participants: While I523 is a
 beginners class I524 is an advanced class and we expect that
 you know python which you hopefully have learned as part of
 I523. If not, make sure you learn it before you take this
-class. If not consider significant additional time needed
-for that class. You will be expected to have a computer on
-which you have python installed.  You will be using
-chameleon and possibly our local cloud. Optionally some
-projects may use docker. A significant amount of time will
-be spend to familiarize yourself with the technologies more
-so than in I523.</p>
+class. If not consider significant additional time needed to
+learn it for the class. You will be expected to have a
+computer on which you have python 2.7.x installed.  You will
+be using chameleon and possibly our local cloud. Optionally
+some projects may use docker. A significant amount of time
+will be spend to familiarize yourself with the technologies
+more so than in I523. You do not have to take I523 in order
+to take I524.</p>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Residential students enroll early so we avoid the situation
-like last year where we had many signing up, but did not
-even show up to the first lecture. I have asked that
+<p class="last">Residential students need to enroll early so we avoid the
+situation like last year where we had many signing up, but
+did not even show up to the first lecture. I have asked that
 students from I523 have preference, but I am not sure if we
-can enforce this. So enroll ASAP.</p>
+can enforce this. So enroll ASAP. Those that are on the
+waiting list are recommended to show up in the first
+class. It is likely that you can join as others drop.</p>
+</div>
+</div>
+<div class="section" id="special-example-projects">
+<h2>Special Example Projects<a class="headerlink" href="#special-example-projects" title="Permalink to this headline">¶</a></h2>
+<p>Besides your own projects we have a number of example project
+descriptions that you may want to take a look at:</p>
+<ul class="simple">
+<li><a class="reference internal" href="../projects/robots.html#robotswarm"><span class="std std-ref">Virtual Robot Swarm</span></a></li>
+<li><a class="reference internal" href="../projects/dockerswarm.html#dockerswarm"><span class="std std-ref">Virtual Cluster with Docker Swarm</span></a></li>
+<li><a class="reference internal" href="../projects/kubernetes.html#kubernetes"><span class="std std-ref">Virtual Cluster with Kubernetes</span></a></li>
+<li><a class="reference internal" href="../projects/slurm.html#slurmcluster"><span class="std std-ref">Virtual SLURM Cluster</span></a></li>
+<li><a class="reference internal" href="../projects/authordisambiguity.html#authordisambuigity"><span class="std std-ref">Bibliographic author disambiguity</span></a></li>
+<li><a class="reference internal" href="../projects/author.html#authordisambiguity-b"><span class="std std-ref">Author Disambiguty Problem</span></a></li>
+</ul>
+<dl class="docutils">
+<dt>NIST Big Data Working group examples:</dt>
+<dd>Any use case from
+<a class="reference external" href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf">http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf</a></dd>
+<dt>Selected examples from Fall I523:</dt>
+<dd>Some students may have created an example as part of I523. Not all
+examples created as part of this class qualify for a I524
+project. Please contact Gregor von Laszewski via Piazza to discuss
+suitability of your previous I523 project. If such a project is
+selected, approved and used it is expected it is significantly
+enhanced.</dd>
+<dt>Cloudmesh Enhancements:</dt>
+<dd>A number of projects could center around the enhancements of
+cloudmesh for the improvement of big data projects using virtual
+machines and containers.</dd>
+</dl>
 </div>
 <div class="section" id="who-can-take-the-class">
 <h2>Who can take the class?<a class="headerlink" href="#who-can-take-the-class" title="Permalink to this headline">¶</a></h2>
@@ -248,7 +308,34 @@ the selection of a project easier.</li>
 </div>
 <div class="section" id="homework">
 <h2>Homework<a class="headerlink" href="#homework" title="Permalink to this headline">¶</a></h2>
-<p>Grading pilicies are listed in Table 1.</p>
+<p>Grading policies are listed in Table 1.</p>
+<table border="1" class="docutils" id="id2">
+<caption><span class="caption-text">Table 1: Grading</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Percent</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>10%</td>
+<td>Discussions and contribution to Web pages</td>
+</tr>
+<tr class="row-odd"><td>30%</td>
+<td>Three unique technology papers per student of the 300
+systems. Each paper as at least 2 pages per technology without
+references.</td>
+</tr>
+<tr class="row-even"><td>60%</td>
+<td>Project code and report with at least 6 pages without
+references. Much shorter reports will be returned without
+review. Do not artificially inflate contents.</td>
+</tr>
+</tbody>
+</table>
 <ul class="simple">
 <li><strong>Project groups:</strong> Groups of up to three students can work on a
 project but workload increases with each student and a work break
@@ -274,6 +361,21 @@ have to produce 6, if you work alone you have to produce 3.</li>
 <li><strong>Technology deployment for your project:</strong> Each student will
 develop as part of the project a deployment of a technology. Points
 may depend on effort and simplicity of the deployment.</li>
+<li><strong>Late homework</strong>: Any late homework will be receiving a 10% grade
+reduction.  As this is a large class and the assignments are not
+standard multiple choice questions, grading will take a considerable
+time. Some homework can not be delivered late as they are related to
+establish communication with you. Such <strong>deadline specific</strong>
+homework will receive 0 points in case they are late. See course
+calendar. It is the student’s responsibility to upload submissions
+well ahead of the deadline to avoid last minute problems with
+network connectivity, browser crashes, cloud issues, etc.</li>
+<li><strong>Frequent checkins</strong>: It is <strong>important</strong> to make frequent and
+often commits to the github repository as the activities will be
+monitored and will be integrated into the project grade.  Note that
+paper and project will take a considerable amount of time and doing
+proper time management is a must for this class. Avoid starting your
+project late. Procrastination does not pay off.</li>
 <li><strong>No bonus projects:</strong> This class will not have any bonus projects
 or regrading requests. Instead you need to focus your time on the
 papers and the project assignments.</li>
@@ -283,7 +385,7 @@ are not graded or considered for extra credit.</li>
 <li><strong>Chance for publishing a paper:</strong> If however you find that the work
 you do could lead to a publishable paper, you could work together
 with the course instructor as coauthors to conduct such an
-activity. However, this is goind to be a significant effort and you
+activity. However, this is going to be a significant effort and you
 need to decide if you like to conduct this. In such cases if the
 work is sufficient for publication submission, an A+ for the class
 could be considered. It will be a lot of work. The length of such a
@@ -353,29 +455,20 @@ and not read. Instead you should use piazza</li>
 be deleting all canvas posts after we have established you can post
 to piazza. Which will be the first week of class.</li>
 </ul>
-<p>Class Material</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="calendar.html">I524 Calendar</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lectures.html">I524 Lectures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="technologies.html">Technologies</a></li>
-</ul>
-</div>
 </div>
 <div class="section" id="piazza">
 <h2>Piazza<a class="headerlink" href="#piazza" title="Permalink to this headline">¶</a></h2>
 <p>All communication will be done via Piazza. We will not read any e-mail
-send to our university or private e-mails. All instructurs are
-following this rule. Any mail that is not send via PIazza will be
+send to our university or private e-mails. All instructors are
+following this rule. Any mail that is not send via Piazza will be
 <strong>not read</strong> and <strong>deleted</strong>. This is also true for any mail send to
 the inbox system in CANVAS. We found CANVAS a not scalable solution
 for our class and will not use CANVAS for reaching out to you.   If you
-need a different mechnism to communicate with us, please ask on PIazza
+need a different mechanism to communicate with us, please ask on Piazza
 how to do that.</p>
 <p>To sign up in piazza please follow this link:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://piazza.com/iu/spring2017/i524">https://piazza.com/iu/spring2017/i524</a></li>
-<li><a class="reference external" href="https://piazza.com/class/ix39m27czn5uw">https://piazza.com/class/ix39m27czn5uw</a></li>
 </ul>
 <div class="section" id="piazza-folders">
 <h3>Piazza Folders<a class="headerlink" href="#piazza-folders" title="Permalink to this headline">¶</a></h3>
@@ -387,7 +480,7 @@ projects or teams.</p>
 <dt>help:</dt>
 <dd>Our help folder is just like a ticket system that is monitored by
 the TA&#8217;s. Once you file a question here, a TA will attend to it,
-and work with you. ONce the issue you had is resolved, the TA is
+and work with you. Once the issue you had is resolved, the TA is
 marking it as resolved. If you need to reopen a help message,
 please mark it again as unresolved or post a follow up.</dd>
 <dt>project:</dt>
@@ -425,11 +518,12 @@ following time:</p>
 <div class="section" id="software-project">
 <h2>Software Project<a class="headerlink" href="#software-project" title="Permalink to this headline">¶</a></h2>
 <p>In case of a software project, we encourage a group project with up to
-three members.  You can use the
-<a class="reference external" href="https://piazza.com/class/irqfvh1ctrg2vt">discussion forum in the folder project</a>
-to form project teams or just communicate privately with other class
-members to formulate a team. The following artifacts are part of the
-deliverables for a project</p>
+three members.  You can use the <strong>search teammate</strong> folder to find
+and form groups:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://piazza.com/class/ix39m27czn5uw?cid=5">https://piazza.com/class/ix39m27czn5uw?cid=5</a></li>
+</ul>
+<p>The following artifacts are part of the deliverables for a project</p>
 <dl class="docutils">
 <dt>Code:</dt>
 <dd>You must deliver the code in gitlab. The code must be compilable
@@ -447,23 +541,23 @@ Report Format section. The following length is required:</p>
 </ul>
 </dd>
 <dt>Work Breakdown:</dt>
-<dd><p class="first">This document is only needed for team projects. A one page PDF
-document describing who did what. It includes pointers to
-the git history that documents the statistics that demonstrate not
-only one student has worked on the project.</p>
-<p class="last">In addition the graders will go into gitlab, which provides a
-history of checkins to verify each team member has used gitlab to
+<dd><p class="first">This document is only needed for team projects. Include in the
+appendix a short but sufficiently detailed work breakdown
+documenting what the team has done. Back it up with commit
+information from github.</p>
+<p class="last">In addition the graders will go into github/lab, which provides a
+history of checkins to verify each team member has used github/lab to
 checkin their contributions frequently. E.g. if we find that one
 of the students has not checked in code or documentation at all,
-it will be questioned.</p>
+it will be questioned. An oral exam my be scheduled to verify that
+the student has contributed to the project.</p>
 </dd>
-<dt>License:</dt>
-<dd>All projects are developed under an open source license such as
-Apache 2.0 License, or similar. You will be required to add a
-LICENCE.txt file and if you use other software identify how it can be
-reused in your project. If your project uses different licenses,
-please add in a README.rst file which packages are used and which
-license these packages have.</dd>
+<dt>License: All projects are developed under an open source license such</dt>
+<dd>as Apache 2.0 License. You will be required to add a LICENCE.txt
+file and if you use other software identify how it can be reused
+in your project. If your project uses different licenses, please
+add in a README.md file which packages are used and which license
+these packages have while adding a licenses file.</dd>
 <dt>Additional links:</dt>
 <dd><ul class="first last simple">
 <li><a class="reference internal" href="../lesson/projects/index.html#projects"><span class="std std-ref">Software Projects</span></a></li>
@@ -473,7 +567,7 @@ license these packages have.</dd>
 </div>
 <div class="section" id="report-format">
 <h2>Report Format<a class="headerlink" href="#report-format" title="Permalink to this headline">¶</a></h2>
-<p>All reports will be using the format specified in Section <a href="#id2"><span class="problematic" id="id3">reports_</span></a>.</p>
+<p>All reports will be using the format specified in Section <a class="reference internal" href="../lesson/doc/report.html#reports"><span class="std std-ref">Report Format</span></a>.</p>
 <p>There will be <strong>NO EXCEPTION</strong> to this format. Documents not following
 this format and are not professionally looking, will be returned
 without review.</p>
@@ -557,12 +651,12 @@ as the Computer Science Statement on Academic Integrity
 (<a class="reference external" href="http://www.soic.indiana.edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf">http://www.soic.indiana.edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf</a>). It
 is your responsibility to understand these policies. Briefly
 summarized, the work you submit for course assignments, projects,
-quizzes, and exams must be your own or that of your group, if
-group work is permitted. You may use the ideas of others but you must
-give proper credit. You may discuss assignments with other students
-but you must acknowledge them in the reference section according to
-scholarly citation rules. Please also make sure that you know how to
-not plagiarize text from other sources while reviewing citation rules.</p>
+quizzes, and exams must be your own or that of your group, if group
+work is permitted. You may use the ideas of others but you must give
+proper credit. You may discuss assignments with other students but you
+must acknowledge them in the reference section according to scholarly
+citation rules. Please also make sure that you know how to not
+plagiarize text from other sources while reviewing citation rules.</p>
 <p>We will respond to acts of plagiarism and academic misconduct
 according to university policy. Sanctions typically involve a grade of
 0 for the assignment in question and/or a grade of F in the course. In
@@ -591,21 +685,26 @@ and may not be listed here. For this class support is provided by</p>
 <li>Jerome Mitchell (Teaching Assistant)</li>
 <li>Nikolov, Dimitar (Teaching Assistant)</li>
 </ul>
-<img alt="i524/images/gregor2.png" src="i524/images/gregor2.png" />
-<p>Gregor von Laszewski is an Assistant Director of Cloud Computing in the
-DSC. He held a position at Argonne National Laboratory from Nov. 1996 – Aug.
-2009 where he was last a scientist and a fellow of the Computation
+<div class="section" id="dr-gregor-von-laszewski">
+<h3>Dr. Gregor von Laszewski<a class="headerlink" href="#dr-gregor-von-laszewski" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/gregor2.png" src="../_images/gregor2.png" />
+<p>Gregor von Laszewski is an Assistant Director of Cloud Computing in
+the DSC. His is also an Adj. Assoc. Professor of the Intelligent
+Systems Engineering Department at Indiana University. He held a
+position at Argonne National Laboratory from Nov. 1996 – Aug.  2009
+where he was last a scientist and a fellow of the Computation
 Institute at University of Chicago. During the last two years of that
 appointment he was on sabbatical and held a position as Associate
-Professor and the Director of a Lab at Rochester Institute of Technology
-focussing on Cyberinfrastructure. He received a Masters Degree in 1990
-from the University of Bonn, Germany, and a Ph.D. in 1996 from Syracuse
-University in computer science. He was involved in Grid computing since
-the term was coined. He was the lead of the Java Commodity Grid Kit
-(<a class="reference external" href="http://www.cogkit.org">http://www.cogkit.org</a>) which provides till today a basis for many Grid
-related projects including the Globus toolkit. Current research
-interests are in the areas of Cloud computing. He is leading the effort
-to develop a simple IaaS client available at as OpenSource project at
+Professor and the Director of a Lab at Rochester Institute of
+Technology focussing on Cyberinfrastructure. He received a Masters
+Degree in 1990 from the University of Bonn, Germany, and a Ph.D. in
+1996 from Syracuse University in computer science. He was involved in
+Grid computing since the term was coined. He was the lead of the Java
+Commodity Grid Kit (<a class="reference external" href="http://www.cogkit.org">http://www.cogkit.org</a>) which provides till today a
+basis for many Grid related projects including the Globus
+toolkit. Current research interests are in the areas of Cloud
+computing. He is leading the effort to develop a simple IaaS client
+available at as OpenSource project at
 <a class="reference external" href="http://cloudmesh.github.io/client/">http://cloudmesh.github.io/client/</a></p>
 <p>His Web page is located at <a class="reference external" href="http://gregor.cyberaide.org">http://gregor.cyberaide.org</a>. To contact him
 please send mail to <a class="reference external" href="mailto:laszewski&#37;&#52;&#48;gmail&#46;com">laszewski<span>&#64;</span>gmail<span>&#46;</span>com</a>. For class related e-mail
@@ -617,14 +716,17 @@ to volunteer helping in this effort please contact him.</p>
 independent studies. Current topics include but are not limited to</p>
 <ul class="simple">
 <li>cloudmesh</li>
+<li>big data for NIST</li>
+<li>big data benchmarking.</li>
+<li>scientific impact of supercomputer and data centers.</li>
+<li>STEM and other educational activities while using robotics or big data</li>
 </ul>
-<p>( big data for NIST
-* big data benchmarking.
-* scientific impact of supercomputer and data centers.
-* STEM and other educational activities while using robotics or big data</p>
 <p>Please contact me if you are interested in this.</p>
-<img alt="i524/images/gcf.jpg" src="i524/images/gcf.jpg" />
-<p>Fox received a Ph.D. in Theoretical Physics from Cambridge University
+</div>
+<div class="section" id="dr-geoffrey-c-fox">
+<h3>Dr. Geoffrey C. Fox<a class="headerlink" href="#dr-geoffrey-c-fox" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/gcf.jpg" src="../_images/gcf.jpg" />
+<p>Greoffrey C. Fox received a Ph.D. in Theoretical Physics from Cambridge University
 and is now distinguished professor of Informatics and Computing, and
 Physics at Indiana University where he is director of the Digital
 Science Center, Chair of Department of Intelligent Systems Engineering
@@ -645,7 +747,10 @@ scalable parallelism.</p>
 Minority Serving Institutions. He has experience in online education
 and its use in MOOCs for areas like Data and Computational Science. He
 is a Fellow of APS (Physics) and ACM (Computing).</p>
-<img alt="i524/images/badi.png" src="i524/images/badi.png" />
+</div>
+<div class="section" id="dr-badi-abdul-wahid">
+<h3>Dr. Badi&#8217; Abdul-Wahid<a class="headerlink" href="#dr-badi-abdul-wahid" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/badi.png" src="../_images/badi.png" />
 <p>Badi&#8217; received a Ph.D. in Computer Science at the University of Notre
 Dame under Professor Jesus Izaguirre. The primary focus of his
 graduate work was the development of scalable, fault-tolerant, elastic
@@ -654,10 +759,13 @@ distributed applications for running Molecular Dynamics simulations.</p>
 on a NIST-funded study whose goal is to understand patterns in the
 development and usage of Big Data Analysis pipelines.</p>
 </div>
+</div>
 <div class="section" id="teaching-assistants">
 <h2>Teaching Assistants<a class="headerlink" href="#teaching-assistants" title="Permalink to this headline">¶</a></h2>
-<img alt="i524/images/jerome.jpg" src="i524/images/jerome.jpg" />
-<p>Jerome Mitchell is a Ph.D candidate in computer science at Indiana
+<div class="section" id="jerome-mitchell">
+<h3>Jerome Mitchell<a class="headerlink" href="#jerome-mitchell" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/jerome.png" src="../_images/jerome.png" />
+<p><strong>Jerome Mitchell</strong> is a Ph.D candidate in computer science at Indiana
 University and is interested in coupling the fields of computer and
 polar science. He has participated in the United State Antarctic
 Program, (USAP), where he collaborated with a multidisciplinary team
@@ -670,10 +778,15 @@ imagery. He has also been involved in facilitating workshops to
 educate faculty and students on the importance of parallel and
 distributed computing at minority-serving institutions.</p>
 </div>
-<div class="section" id="nikolov-dimitar">
-<h2>Nikolov, Dimitar<a class="headerlink" href="#nikolov-dimitar" title="Permalink to this headline">¶</a></h2>
-<p>IMAGE: TBD</p>
-<p>Bio TBD</p>
+<div class="section" id="dimitar-nikolov">
+<h3>Dimitar Nikolov<a class="headerlink" href="#dimitar-nikolov" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/dimitar.png" src="../_images/dimitar.png" />
+<p><strong>Dimitar Nikolov</strong> is a PhD student in the Computer Science program at
+Indiana University since August 2008. His research interests include
+online social networks, tagging systems and web mining. As part of his
+PhD he conducts research with the NaN group, led by Professor Fil
+Menczer. His thesis topic is TBD.</p>
+</div>
 </div>
 <div class="section" id="links">
 <h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>

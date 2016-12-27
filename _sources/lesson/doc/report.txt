@@ -8,9 +8,9 @@ report needs to be and than turn around and play with spacing, fonts
 and other space manipulations to circumvent these
 recommendations. Thus we have adopted a much simpler approach. All
 reports **must** be written in the same format that we define on this
-page. Thus we require that the all reports and papers be written in
-LaTeX while using our **trivial** example templates. 
-
+page. Thus we require that all the reports and papers be written in
+LaTeX while using our **trivial** example template(s). 
+ 
 The template for the report is available from:
 
 * https://github.com/cloudmesh/classes/tree/master/docs/source/format/report
@@ -26,15 +26,16 @@ its superior bibliography management you wil save yourself many hours
 of work. 
 
 
-
-
-In case you are in a team, you can use either gitlab while
-collaboratively developing the LaTeX document or use sharelatex or
+In case you are in a team, you can use either github/gitlab while
+collaboratively developing the LaTeX document, use sharelatex, or
 overleaf.
 
 Your final submission will include the bibliography file as a separate
 document. All images must be placed in an images folder and submitted
-in your repository with the originals.
+in your repository with the originals. When using sharelatex or
+overleaf you must replicate the directory layout carefully. YOu must
+also make sure that all files and directories in sharelatex you use be
+copied back to github.
 
 .. warning:: There will be **NO EXCEPTION** to this format. Hence if
 	     you do not know latex we recommend you get familiar with
@@ -44,9 +45,11 @@ in your repository with the originals.
 	     returned without review.
 
 .. warning:: We found that students using MsWord or Google docs
-	     produce generally inferior reports. Hence we no longer
-	     accept reports using these tools and require that all
-	     documents be written in LaTeX.
+	     produce generally inferior reports with the danger of
+	     having a lower grade. Hence, in order to help you achieve
+	     the best grade possible, we no longer accept reports
+	     using these tools and require that all documents be
+	     written in LaTeX.
 	     
 Report Checklist
 ----------------
@@ -74,7 +77,7 @@ This incomplete list may serve as a way to check if you follow the rules
    removed?
 #. Are the figure captions bellow the figures and not on top. (Do
    not include the titles of the figures but instead use the caption
-  or that information?
+   or that information?
 #. When using tables put the table caption on top?
 #. Make the figures large enough so we can see it, regardless of page
    restrictions. If needed make the figure over two columns?
@@ -104,10 +107,10 @@ Report.2:
   it. Modify and recompile.
 
 Report.4:
-  Learn about the different formats in bibtex
+  Learn about the different bibliographic entry formats in bibtex
 
 Report.5:
-  What is an article in Report?
+  What is an article in a magazine? Is it realy an Article or a Misc?
 
 Report.6:
   What is an InProceedings and how does it differ from Conference?
@@ -117,13 +120,16 @@ Report.7:
 
 Report.8:
   Why are spaces, underscores in directory names
-  problematic for Report and why should you avoid using them for your projects
+  problematic and why should you avoid using them for your projects
 
 Report.9:
   Write an objective report about the advantages and disadvantages of
   programs to write reports.
 
-
+Report.10:
+  Why is it advantageous that directories are lowercas have no
+  underscore or space in the name?
+  
 
 .. |box| unicode:: U+2610
 
