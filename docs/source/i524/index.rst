@@ -545,7 +545,7 @@ and may not be listed here. For this class support is provided by
 
 
 Dr. Gregor von Laszewski
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: /images/gregor2.png
 
@@ -588,7 +588,7 @@ independent studies. Current topics include but are not limited to
 Please contact me if you are interested in this.
 
 Dr. Geoffrey C. Fox
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 .. image:: /images/gcf.jpg
 
@@ -617,7 +617,7 @@ is a Fellow of APS (Physics) and ACM (Computing).
 
 
 Dr. Badi' Abdul-Wahid
-~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: /images/badi.png
 
@@ -634,7 +634,10 @@ development and usage of Big Data Analysis pipelines.
 Teaching Assistants
 -------------------
 
-.. image:: /images/jerome.jpg
+Jerome Mitchell
+^^^^^^^^^^^^^^^
+
+.. image:: /images/jerome.png
 
 **Jerome Mitchell** is a Ph.D candidate in computer science at Indiana
 University and is interested in coupling the fields of computer and
@@ -650,8 +653,12 @@ educate faculty and students on the importance of parallel and
 distributed computing at minority-serving institutions.
 
 
-.. image:: /images/dimitar.jpg
 
+
+Dimitar Nikolov
+^^^^^^^^^^^^^^^
+.. image:: /images/dimitar.png
+	   
 **Dimitar Nikolov** is a PhD student in the Computer Science program at
 Indiana University since August 2008. His research interests include
 online social networks, tagging systems and web mining. As part of his
