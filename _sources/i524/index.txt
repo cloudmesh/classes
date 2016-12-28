@@ -20,11 +20,14 @@ Class Material
       node [shape=box,
             style=filled,
             fillcolor=lightgrey];
+      "start" [shape=circle];
+      "end" [shape=circle];      
       
       "start" -> "Technology";
       "start" -> "Theory" -> "end";
-      "start" -> "Paper 1" -> "Paper 2" -> "Paper 3" -> "midterm" -> "end";
+      "start" -> "Web" -> "Paper 1" -> "Paper 2" -> "Paper 3" -> "midterm" -> "end";
       "Theory" -> "Technology" -> "Project";
+      "Theory" -> "Web";
       "Theory" -> "Paper 1";
       "Theory" -> "Paper 2";
       "Theory" -> "Paper 3";   

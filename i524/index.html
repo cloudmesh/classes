@@ -186,16 +186,19 @@
 <li class="toctree-l1"><a class="reference internal" href="technologies.html">Technologies</a></li>
 </ul>
 </div>
-<img src="../_images/graphviz-02ca098cba585d87b925ccb0dc162bb4fa2af280.png" alt="digraph class {
+<img src="../_images/graphviz-325ea4593469c5718d198b2c84c9ab99adb38301.png" alt="digraph class {
    rankdir=&quot;LR&quot;;
    node [shape=box,
          style=filled,
          fillcolor=lightgrey];
+   &quot;start&quot; [shape=circle];
+   &quot;end&quot; [shape=circle];
 
    &quot;start&quot; -&gt; &quot;Technology&quot;;
    &quot;start&quot; -&gt; &quot;Theory&quot; -&gt; &quot;end&quot;;
-   &quot;start&quot; -&gt; &quot;Paper 1&quot; -&gt; &quot;Paper 2&quot; -&gt; &quot;Paper 3&quot; -&gt; &quot;midterm&quot; -&gt; &quot;end&quot;;
+   &quot;start&quot; -&gt; &quot;Web&quot; -&gt; &quot;Paper 1&quot; -&gt; &quot;Paper 2&quot; -&gt; &quot;Paper 3&quot; -&gt; &quot;midterm&quot; -&gt; &quot;end&quot;;
    &quot;Theory&quot; -&gt; &quot;Technology&quot; -&gt; &quot;Project&quot;;
+   &quot;Theory&quot; -&gt; &quot;Web&quot;;
    &quot;Theory&quot; -&gt; &quot;Paper 1&quot;;
    &quot;Theory&quot; -&gt; &quot;Paper 2&quot;;
    &quot;Theory&quot; -&gt; &quot;Paper 3&quot;;
