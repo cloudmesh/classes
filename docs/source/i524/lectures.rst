@@ -48,6 +48,14 @@ Lectures - Theory Track
    :widths: 15, 10, 10, 10
    :file: lectures-theory.csv
 
+Lectures - Collaboration Track
+------------------------------
+
+.. csv-table:: Collaboration Track
+   :header: "Treat", "Quantity", "Description"
+   :widths: 15, 10, 10, 10
+   :file: lectures-collab.csv
+
 Lectures - Technology Track
 ---------------------------
 
