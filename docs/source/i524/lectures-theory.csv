@@ -1,34 +1,34 @@
-Unit 0, Course Overview, `PPT <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_0.pptx>`_, TBD
-* Unit 0.A,Class Inspiration, `Video <https://mix.office.com/watch/m8ws5o61rndc>`_   , 0:04:51
-* Unit 0.B,Class Overview and Course Content: Section 1, `Video <https://mix.office.com/watch/zu80e794e3fg>`_ , 0:18:02
-* Unit 0.C,Course Content: Section 2, `Video <https://mix.office.com/watch/uuhscqlw7p97>`_  , 0:25:23
-Unit 1,Introduction, `Slides <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_1_Introduction.pptx>`_, 
-* Unit 1.A,Introduction, `Video <https://mix.office.com/watch/uokn8l6zg2gs>`_, 0:13:59
-* Unit 1.B,Real World Big Data, `Video <https://mix.office.com/watch/wubmesnjclm2>`_, 0:15:28
-* Unit 1.C,Basic Trends and Jobs, `Video <https://mix.office.com/watch/gy4zlt9a4yzc>`_, 0:12:24
-Unit 5,Data Access Patterns and Introduction to using HPC-ABDS, `Slides <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_2.pptx>`_,
-* Unit 5.A, Introduction to HPC-ABDS Software and Access Patterns,`Video <https://mix.office.com/watch/gjwl36xkjzc0>`_ -  `Resource 1 <http://grids.ucs.indiana.edu/ptliupages/publications/HPC-ABDSDescribedv2.pdf>`_, 0:27:45 
-* Unit 5.B, Science Examples (Data Access Patterns), `Video <https://mix.office.com/watch/17pxkz2eme9jc>`_ -  `Resource 2 <http://hpc-abds.org/kaleidoscope/>`_ , 0:18:38  
-* Unit 5.C, Remaining General Access Patterns, `Video <https://mix.office.com/watch/87p4j2mbjzvj>`_, 0:11:26   
-* Unit 5.D, Summary of HPC-ABDS Layers 1 - 6, `Video <https://mix.office.com/watch/1rtdoa2g7h4af>`_, 0:14:32   
-* Unit 5.E, Summary of HPC-ABDS Layers 7 - 13, `Video <https://mix.office.com/watch/gcey5uvs3lcr>`_, 0:30:52   
-* Unit 5.F, Summary of HPC-ABDS Layers 14 - 17, `Video <https://mix.office.com/watch/178e1nz5u44en>`_, 0:28:02   
-* Unit 5.G, Final Part Summary of Stack, `Video <https://mix.office.com/watch/1gm6sxg0hc2p>`_, 0:20:20
-Unit 7, Big Data Application Structure, `Slides <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_3.pptx>`_,
-Unit 7.A, NIST Big Data Sub Groups, `Slides <https://mix.office.com/watch/dwap7g95jn9b>`_,0:23:25   
-Unit 7.B, Big Data Patterns - Sources of Parallelism, `Slides <https://mix.office.com/watch/fkebewczmq6q>`_, 0:23:51   
-Unit 7.C, First and Second Set of Features, `Slides <https://mix.office.com/watch/jmpr3f4mnvqy>`_, 0:18:26  
-Part 7.D, Machine Learning Aspect of Second Feature Set and the Third Set, **MISSING**, 0:18:38   
-Unit 8, Aspects of Big Data Applications, `Slides <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_4.pptx>`_,
-Unit 8.A, Other sources of use cases and Classical Databases/SQL Solutions, `Slides <https://mix.office.com/watch/1jq48eqbd6cyf>`_, 0:16:50   
-Unit 8.B, NOSQL Solutions -  Machine Learning Example -  and MapReduce, `Slides <https://mix.office.com/watch/17v340tp51i17>`_, 0:18:49   
-Unit 8.C, Clouds vs HPC -  Data Intensive vs. Simulation Problems, `Slides <https://mix.office.com/watch/vwjde1pan2m0>`_, 0:20:26   
-Unit 11, Big Data Applications and Generalizing their Structure, `PPT <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_5.pptx>`_,
-Unit 11.A, NIST UseCases and Image Based Applications Examples I, `Video <https://mix.office.com/watch/gtc9eembrfzl>`_, 0:25:20   
-Unit 11.B, Image Based Applications II, `Video <https://mix.office.com/watch/wcqmx9jj4amu>`_, 0:15:23   
-Unit 11.C, Internet of Things Based Applications, `Video <https://mix.office.com/watch/jucfnt7npb2t>`_, 0:25:25   
-Unit 11.D, Big Data Patterns - the Ogres & their Facets I, `Video <https://mix.office.com/watch/3cwnlq5dkrgl>`_, 0:22:44   
-Unit 11.E, Facets of the Big Data Ogres II, `Video <https://mix.office.com/watch/1w35pgk1rrj9o>`_, 0:15:09   
-Unit 12, More on Software Stack (only one part) -> WEEK 8+ `PPT <http://bigdataopensourceprojects.soic.indiana.edu/downloads/Unit_6.pptx>`_, 
-Unit 11.A, More of Software Stack, `Video <https://mix.office.com/watch/hupb6i6669bh>`_, 0:24:00   
+Unit 0,Course Overview,`PPT <https://iu.box.com/s/mlh68f9l768wmmrme074rz111z8j9e7w>`_,
+* Unit 0.A,Class Inspiration,`Video <https://mix.office.com/watch/m8ws5o61rndc>`_,0:04:51
+* Unit 0.B,Class Overview and Course Content: Section 1,`Video <https://mix.office.com/watch/zu80e794e3fg>`_,0:18:02
+* Unit 0.C,Course Content: Section 2,`Video <https://mix.office.com/watch/uuhscqlw7p97>`_,0:25:23
+Unit 1,Introduction,`Slides <https://iu.box.com/s/6mo2eq8ciem921ik5yh710agdyv0auo6>`_,
+* Unit 1.A,Introduction,`Video <https://mix.office.com/watch/uokn8l6zg2gs>`_,0:13:59
+* Unit 1.B,Real World Big Data,`Video <https://mix.office.com/watch/wubmesnjclm2>`_,0:15:28
+* Unit 1.C,Basic Trends and Jobs,`Video <https://mix.office.com/watch/gy4zlt9a4yzc>`_,0:12:24
+Unit 5,Data Access Patterns and Introduction to using HPC-ABDS,`Slides <https://iu.box.com/s/uozssvsy0p9fhh0uv8gldwoves2bl0vv>`_,
+* Unit 5.A,Introduction to HPC-ABDS Software and Access Patterns,`Video <https://mix.office.com/watch/gjwl36xkjzc0>`_ -  `Resource 1 <http://grids.ucs.indiana.edu/ptliupages/publications/HPC-ABDSDescribedv2.pdf>`_,0:27:45
+* Unit 5.B,Science Examples (Data Access Patterns),`Video <https://mix.office.com/watch/17pxkz2eme9jc>`_ -  `Resource 2 <http://hpc-abds.org/kaleidoscope/>`_,0:18:38
+* Unit 5.C,Remaining General Access Patterns,`Video <https://mix.office.com/watch/87p4j2mbjzvj>`_,0:11:26
+* Unit 5.D,Summary of HPC-ABDS Layers 1 - 6,`Video <https://mix.office.com/watch/1rtdoa2g7h4af>`_,0:14:32
+* Unit 5.E,Summary of HPC-ABDS Layers 7 - 13,`Video <https://mix.office.com/watch/gcey5uvs3lcr>`_,0:30:52
+* Unit 5.F,Summary of HPC-ABDS Layers 14 - 17,`Video <https://mix.office.com/watch/178e1nz5u44en>`_,0:28:02
+* Unit 5.G,Final Part Summary of Stack,`Video <https://mix.office.com/watch/1gm6sxg0hc2p>`_,0:20:20
+Unit 7,Big Data Application Structure,`Slides <https://iu.box.com/s/7bg3kbyei2awr09c7xlqdvzhe431ykqj>`_,
+Unit 7.A,NIST Big Data Sub Groups,`Slides <https://mix.office.com/watch/dwap7g95jn9b>`_,0:23:25
+Unit 7.B,Big Data Patterns - Sources of Parallelism,`Slides <https://mix.office.com/watch/fkebewczmq6q>`_,0:23:51
+Unit 7.C,First and Second Set of Features,`Slides <https://mix.office.com/watch/jmpr3f4mnvqy>`_,0:18:26
+Part 7.D,Machine Learning Aspect of Second Feature Set and the Third Set,`Slides <https://iu.box.com/s/rin0vyk82899bnixbgj4b6eooh4e01ym>`_,0:18:38
+Unit 8,Aspects of Big Data Applications,`Slides <https://iu.box.com/s/62k5jgp5kk3trai06s3elhhns34zvnpk>`_,
+Unit 8.A,Other sources of use cases and Classical Databases/SQL Solutions,`Slides <https://mix.office.com/watch/1jq48eqbd6cyf>`_,0:16:50
+Unit 8.B,NOSQL Solutions -  Machine Learning Example -  and MapReduce,`Slides <https://mix.office.com/watch/17v340tp51i17>`_,0:18:49
+Unit 8.C,Clouds vs HPC -  Data Intensive vs. Simulation Problems,`Slides <https://mix.office.com/watch/vwjde1pan2m0>`_,0:20:26
+Unit 11,Big Data Applications and Generalizing their Structure,`PPT <https://iu.box.com/s/5c9j10jf6winwp7gkg0q8qfr7wn37tvd>`_,
+Unit 11.A,NIST UseCases and Image Based Applications Examples I,`Video <https://mix.office.com/watch/gtc9eembrfzl>`_,0:25:20
+Unit 11.B,Image Based Applications II,`Video <https://mix.office.com/watch/wcqmx9jj4amu>`_,0:15:23
+Unit 11.C,Internet of Things Based Applications,`Video <https://mix.office.com/watch/jucfnt7npb2t>`_,0:25:25
+Unit 11.D,Big Data Patterns - the Ogres & their Facets I,`Video <https://mix.office.com/watch/3cwnlq5dkrgl>`_,0:22:44
+Unit 11.E,Facets of the Big Data Ogres II,`Video <https://mix.office.com/watch/1w35pgk1rrj9o>`_,0:15:09
+Unit 12,More on Software Stack (only one part) -> WEEK 8+,`PPT <https://iu.box.com/s/vl0vo3oqkoo8jq7ccwew59lslcmbb9ot>`_,
+Unit 11.A,More of Software Stack,`Video <https://mix.office.com/watch/hupb6i6669bh>`_,0:24:00
 
