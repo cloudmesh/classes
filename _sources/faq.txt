@@ -1,6 +1,56 @@
 FAQ
 ====
 
+The university says there are no prerequisites for the class, what are the prerequisites?
+---------------------------------------------------------------------------------------
+
+We have communicated the prerequisites clearly to the
+university. Apparently, they forgot to add them to the class.
+The perquisites can be found in the appropriate class
+overview. 
+
+For I524 you find them at:
+
+* https://cloudmesh.github.io/classes/i524/index.html#prerequisites
+
+Why is this class not hosted on EdX?
+------------------------------------
+
+I523 and I524 were the first classes hosted on EdX. We wanted to
+continue offering them on EdX. However, the
+university system administrators mentioned to us that their systems are
+not ready at this time to support this class in EdX. This is out of
+our control and we hope that the university will soon update to an EdX
+system that can host our classes.
+
+Why are you not using CANVAS for communicating with students?
+-------------------------------------------------------------
+
+It has been proven that CANVAS communication is an inferior
+communication system and can not compete with piazza's group
+communication features. As we adopt state of the art technologies, we
+like to expose you to state of the art communication tools such as
+piazza instead of using technologies that have shown not to support
+our communication pathways that we use in class.
+
+Why are you using github for submitting projects and papers?
+------------------------------------------------------------
+
+This class is about open source technology and we like that you benefit
+from material others in the class are developing or have developed. All
+assignments are openly submitted to the class github for everyone to
+see. As part of the goal of this class is to develop reusable
+deployments. Such reuse is only possible if the code is publicly
+available and others can benefit from it.
+
+The technology papers are made accessible so you can read other
+technology papers and can get an introduction in technologies that you
+may not yet know about. It also allows others to contribute to your
+technology papers and improve them.
+
+
+
+
 I am full time student at IUPUI. Can I take the online version?
 ---------------------------------------------------------------
 
@@ -32,13 +82,13 @@ The class is full what do I do?
 #. If you are a residential student show up on the first class in the
    specified lecture room. More likely than not some students wil
    enroll in more classes than they can do and places will free up. We
-   will create a list and discuss with the registar what to do.
+   will create a list and discuss with the registrar what to do.
    
 Do I need to buy a textbook?
 ----------------------------
 
 No, the resources will be provided for every unit. However, we
-recommend that you identify useful books for the clas sthat can help
+recommend that you identify useful books for the class that can help
 you. Examples include
 
 #. “Taming The Big Data Tidal Wave: Finding Opportunities in Huge Data
@@ -68,7 +118,7 @@ snappy.
 For this reason I myself use a Mac, but you probably can get much
 cheaper machines with similar specs elsewhere.
 
-Other students bought themselfs a cheap computer and installed Linux
+Other students bought themselves a cheap computer and installed Linux
 on it so they do not interfere with their work machines or with
 Windows. Given how inexpensive computers these days are this may be a
 reasonable idea. However, do not go too cheap have enough memory and
@@ -114,8 +164,8 @@ Can I use endnote or other bibliography managers?
 
 Yes. if you want to make your life much more complicated. Jabref is
 best for us and we do require that you hand in all bibliographies
-while cleaning and transfering then to jabref. We will not accept any
-other bibliographiy tool such as:
+while cleaning and transferring then to jabref. We will not accept any
+other bibliography tool such as:
    
 #. `http://endnote.com/ <http://endnote.com/>`_
 #. `http://libguides.utoledo.edu/c.php?g=284330&p=1895338 <http://libguides.utoledo.edu/c.php?g=284330&p=1895338>`_
@@ -136,7 +186,7 @@ How many hours will this course take to work on every week?
 
 This question can not rely be answered precisely. Typically we have
 2-3 hours video per week. However starting from that its difficult to
-put a real number down as things amy also depend on your background.
+put a real number down as things may also depend on your background.
 
 * The programming load is modest, but requires knowledge in python
   which you may have to learn outside of this class.
@@ -147,9 +197,9 @@ put a real number down as things amy also depend on your background.
   they spend a lot more hours.
 
 * We will certainly not stopping you form spending time in the class.
-  It will be up to you to figure out how much time you willl spend.
+  It will be up to you to figure out how much time you will spend.
 
-* Please remem ber that procrastenation will not pay of in this class.
+* Please remember that procrastination will not pay of in this class.
   
 * The project or term paper will take a significant amount of time.
 

@@ -162,7 +162,7 @@ Grading policies are listed in Table 1.
    * - Percent
      - Description                                               
    * - 10%
-     - Discussions and contribution to Web pages                 
+     - Class participation and contribution to Web pages
    * - 30%
      - Three unique technology papers per student of the 300
        systems. Each paper as at least 2 pages per technology without
