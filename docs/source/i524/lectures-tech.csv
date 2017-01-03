@@ -6,7 +6,7 @@ Unit 3, System Access to FutureSystems, ,
 * Unit 3.E, Resources (Where to find information) e.g. man pages -  google search -  openstack document, , 
 , , , 
 Unit 4, FutureSystems Openstack, , 
-* Unit 4.A, Introduction and Overview `Video <https://mix.office.com/watch/u7uovy9i06jo>`_, 0:12:00
+* Unit 4.A, Introduction and Overview, `Video <https://mix.office.com/watch/u7uovy9i06jo>`_, 0:12:00
 Unit.Linux, Linux Basics - Overview - Shell Scripting -  Editors (Emacs - vi - nano - pico - PyCharm), ,
 Unit.Linix.2, Python - Package Managers - Advanced SSH - Modules, ,
 Unit.VM.1, shared resources - install image -  start vm -  loginto vm using your local key from the VB using command line tools and not web client, ,
