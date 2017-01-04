@@ -186,41 +186,60 @@
 <li class="toctree-l1"><a class="reference internal" href="technologies.html">Technologies</a></li>
 </ul>
 </div>
-<img src="../_images/graphviz-c605037254c73732ff8fbf5483d77b964cd9f2fa.png" alt="digraph class {
+<img src="../_images/graphviz-6cc49bbda503072f935a33434c8a47fb8ca8b8f2.png" alt="digraph class {
    rankdir=&quot;LR&quot;;
    node [shape=box,
          style=filled,
          fillcolor=lightgrey];
-   &quot;start&quot; [shape=circle];
-   &quot;end&quot; [shape=circle];
+
+   subgraph cluster_0 {
+             style=filled;
+             color=lightgrey;
+             node [style=filled,color=white];
+             &quot;Project Proposal&quot; -&gt; &quot;Project Approval&quot; -&gt; &quot;Project Update&quot; -&gt; &quot;Final Project&quot;;
+             label = &quot;Project&quot;;
+     }
+
+   subgraph cluster_1 {
+             style=filled;
+             color=lightgrey;
+             node [style=filled,color=white];
+             &quot;Paper 1&quot; -&gt; &quot;Paper 2&quot; -&gt; &quot;Paper 3&quot;;
+             label = &quot;Technology Papers&quot;;
+     }
+
+
+   &quot;start&quot; [shape=circle,fillcolor=green];
+   &quot;end&quot; [shape=circle,fillcolor=yellow];
+   &quot;midterm&quot; [shape=circle,fillcolor=red];
 
    &quot;start&quot; -&gt; &quot;Technology&quot;;
    &quot;start&quot; -&gt; &quot;Collaboration&quot;;
    &quot;start&quot; -&gt; &quot;Systems&quot;;
-   &quot;start&quot; -&gt; &quot;Theory&quot; -&gt; &quot;end&quot;;
-   &quot;start&quot; -&gt; &quot;Web&quot; -&gt; &quot;Paper 1&quot; -&gt; &quot;Paper 2&quot; -&gt; &quot;Paper 3&quot; -&gt; &quot;midterm&quot; -&gt; &quot;end&quot;;
-   &quot;Theory&quot; -&gt; &quot;Technology&quot; -&gt; &quot;Project&quot;;
-   &quot;Collaboration&quot; -&gt; &quot;Project&quot;;
+   &quot;start&quot; -&gt; &quot;Theory&quot;;
+   &quot;start&quot; -&gt; &quot;Web&quot; -&gt; &quot;Paper 1&quot;
+   &quot;Paper 3&quot; -&gt; &quot;midterm&quot;
+   &quot;midterm&quot; -&gt; &quot;end&quot;;
+   &quot;Theory&quot; -&gt; &quot;Technology&quot; -&gt; &quot;Project Proposal&quot;;
+   &quot;Collaboration&quot; -&gt; &quot;Project Proposal&quot;;
    &quot;Collaboration&quot; -&gt; &quot;Paper 1&quot;;
-   &quot;Collaboration&quot; -&gt; &quot;Paper 2&quot;;
-   &quot;Collaboration&quot; -&gt; &quot;Paper 3&quot;;
    &quot;Collaboration&quot; -&gt; &quot;Web&quot;;
-   &quot;Systems&quot; -&gt; &quot;Project&quot;;
+   &quot;Systems&quot; -&gt; &quot;Project Proposal&quot;;
    &quot;Theory&quot; -&gt; &quot;Web&quot;;
    &quot;Theory&quot; -&gt; &quot;Paper 1&quot;;
-   &quot;Theory&quot; -&gt; &quot;Paper 2&quot;;
-   &quot;Theory&quot; -&gt; &quot;Paper 3&quot;;
-   &quot;Project&quot; -&gt; &quot;end&quot;;
+   &quot;Project Update&quot; -&gt; &quot;midterm&quot;;
+   &quot;Final Project&quot; -&gt; &quot;end&quot; [ltail=cluster_0];
 }" />
+<p><strong>Figure 1:</strong> Components of the Class</p>
 </div>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
-<p>This course studies software used in many commercial activities to
-related to Big Data. The backdrop for course relates to more than 300
-software subsystems illustrated in Figure 1.</p>
+<p>This course studies software used in many commercial activities
+related to Big Data. The backdrop for course containes more than 370
+software subsystems illustrated in Figure 2.</p>
 <div class="align-center figure" id="id1">
 <a class="reference internal image-reference" href="../_images/bigdata.png"><img alt="300 Technologies" src="../_images/bigdata.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text"><strong>Figure 1:</strong> Software Systems relevant for Big Data</span></p>
+<p class="caption"><span class="caption-text"><strong>Figure 2:</strong> Software Systems relevant for Big Data</span></p>
 </div>
 <p>We will describe the software architecture represented by this
 collection and work towards identifying best practices to deploy,
@@ -232,7 +251,7 @@ computing</li>
 <li>The software architecture with its different layers covering broad
 functionality and rationale for each layer.</li>
 <li>We will go through selected big data stack software from the list
-of more than 300</li>
+of more than 370</li>
 <li>We will be identifying how we can create replicate software
 environments based on software deployed and used on clouds while
 using Containers, OpenStack and ansible playbooks.</li>
@@ -274,6 +293,12 @@ can enforce this. So enroll ASAP. Those that are on the
 waiting list are recommended to show up in the first
 class. It is likely that you can join as others drop.</p>
 </div>
+<p>Figure 1 illustrates that you can follow the components of the class
+in a variety of ways. Furthermore, you do not have to wait to start
+the project of the Web homework till you have listened to all
+lectures. Naturally if you do not know how to collaborate via github
+you will not be able to submit the homework, so you need to figure
+this out first.</p>
 </div>
 <div class="section" id="special-example-projects">
 <h2>Special Example Projects<a class="headerlink" href="#special-example-projects" title="Permalink to this headline">¶</a></h2>
@@ -289,7 +314,7 @@ descriptions that you may want to take a look at:</p>
 </ul>
 <dl class="docutils">
 <dt>NIST Big Data Working group examples:</dt>
-<dd>Any use case from
+<dd>Selected and approved use case from
 <a class="reference external" href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf">http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf</a></dd>
 <dt>Selected examples from Fall I523:</dt>
 <dd>Some students may have created an example as part of I523. Not all
@@ -299,9 +324,19 @@ suitability of your previous I523 project. If such a project is
 selected, approved and used it is expected it is significantly
 enhanced.</dd>
 <dt>Cloudmesh Enhancements:</dt>
-<dd>A number of projects could center around the enhancements of
+<dd><p class="first">A number of projects could center around the enhancements of
 cloudmesh for the improvement of big data projects using virtual
-machines and containers.</dd>
+machines and containers. This includes:</p>
+<ul class="last simple">
+<li>Development of REST services for cloudmesh while using cloudmesh
+client</li>
+<li>Development of benchmarking examples while using cloudmesh client</li>
+<li>Development of a better Azure interface to additinal services</li>
+<li>Development of a better AWS interfac to additinal services</li>
+<li>Development of a Web interface while using django</li>
+<li>SLURM integration to create virtual clusters on comet</li>
+</ul>
+</dd>
 </dl>
 </div>
 <div class="section" id="who-can-take-the-class">
