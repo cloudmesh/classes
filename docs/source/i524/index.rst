@@ -24,9 +24,17 @@ Class Material
       "end" [shape=circle];      
       
       "start" -> "Technology";
+      "start" -> "Collaboration";
+      "start" -> "Systems";
       "start" -> "Theory" -> "end";
       "start" -> "Web" -> "Paper 1" -> "Paper 2" -> "Paper 3" -> "midterm" -> "end";
       "Theory" -> "Technology" -> "Project";
+      "Collaboration" -> "Project";
+      "Collaboration" -> "Paper 1";
+      "Collaboration" -> "Paper 2";
+      "Collaboration" -> "Paper 3";
+      "Collaboration" -> "Web";
+      "Systems" -> "Project";
       "Theory" -> "Web";
       "Theory" -> "Paper 1";
       "Theory" -> "Paper 2";

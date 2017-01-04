@@ -81,7 +81,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Big Data Classes'
-copyright = u'2016, Gregor von Laszewski, Badi Abduhl-Wahid'
+copyright = u'2016, Gregor von Laszewski, Badi Abdul-Wahid'
 author = u'Gregor von Laszewski'
 
 # The version info for the project you're documenting, acts as replacement for

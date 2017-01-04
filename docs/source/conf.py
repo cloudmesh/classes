@@ -28,7 +28,7 @@ sys.path[0:0] = [os.path.abspath('_themes/foundation-sphinx-theme')]
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-# needs_sphinx = '1.0'
+# Needs_Sphinx = '1.0'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -216,7 +216,7 @@ html_theme_options = {
         # If "author" and "copyright_year" are set they will override the "copyright" setting.
 
         # Author's name.
-        'author': 'Gregor von Laszewski, Badi Abduhl-Whahid',
+        'author': 'Gregor von Laszewski, Badi Abdul-Wahid',
 
         # Author's link.
         # 'author_link': 'http://peterhudec.com',
