@@ -6,6 +6,7 @@ I524 Calendar
 .. warning:: This calendar may be updated based on experience from the class.
 	     Please check back here.
 
+Residential classes meet Mondays 09:30A-10:45A, I2 130
 
 +---------------------------------------------+--------------------+----+
 | **Description**                             | **Date/Due Dates** | No |
