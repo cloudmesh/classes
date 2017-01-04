@@ -20,6 +20,14 @@ Class Material
       node [shape=box,
             style=filled,
             fillcolor=lightgrey];
+
+      subgraph cluster_0 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white];
+		"Project Proposal" -> "Project Approval" -> "Project Update" -> "Final Project";
+		label = "Project";
+	}
       "start" [shape=circle];
       "end" [shape=circle];      
       
@@ -38,8 +46,9 @@ Class Material
       "Theory" -> "Web";
       "Theory" -> "Paper 1";
       "Theory" -> "Paper 2";
-      "Theory" -> "Paper 3";   
-      "Project" -> "end";            
+      "Theory" -> "Paper 3";
+      "start" -> "Project Proposal";
+      "Final Project" -> "end";
    }
    
 Overview
