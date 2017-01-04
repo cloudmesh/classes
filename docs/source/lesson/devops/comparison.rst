@@ -1,0 +1,1 @@
+http://en.wikipedia.org/wiki/Comparison_of_open-source_configuration_management_software

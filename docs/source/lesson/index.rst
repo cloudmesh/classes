@@ -13,3 +13,4 @@ Lessons
    data/index
    projects/index
    iaas/index
+   devops/index
