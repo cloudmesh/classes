@@ -8,7 +8,7 @@ Unit.Cloud.2, IaaS: OpenStack, ,,NO
 Unit.Cloud.2.1, IaaS: Nova, :doc:`Web Page <../lesson/iaas/openstack>`,,NO
 X.Unit.Cloud.2.2, IaaS: Nova, `H2 <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/openstack.html#exercises>`_ ,,NO
 X.Unit.Cloud.2.3, IaaS: Nova, `H2-2: Horizon <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/openstack_horizon.html#exercises>`_,,NO
-Unit.Cloud.3, IaaS: Azure, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/azure_tutorial.html#exercise2>`_,  ,NO
+Unit.Cloud.3, IaaS: Azure, :doc:`Web page <../lesson/iaas/azure>`,  ,NO
 Unit.Cloud.4, Hybrid Clouds, `Cloudmesh <https://mix.office.com/watch/1c7rd1l9i4c8o>`_,,NO
 Unit.DevOps.1.3, Ansible, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/ansible.html#ref-class-lesson-devops-ansible>`_,,NO
 Unit.Devops.2.1, SaltStack, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/saltstack.html#ref-class-lesson-devops-saltstack>`_, ,NO
