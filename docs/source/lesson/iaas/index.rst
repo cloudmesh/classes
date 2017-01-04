@@ -5,7 +5,7 @@ IaaS
 ======================================================================
 
 
-OpenStack Clouds
+IaaS Clouds
 ----------------------------------------------------------------------
 
 `OpenStack <http://www.openstack.org/>`__ is an open-sourced, IaaS
@@ -24,6 +24,6 @@ commercial services.
 
    openstack-kilo-quickstart
    openstack
-
+   azure
    
 
