@@ -53,32 +53,32 @@ Lectures - Theory Track
 ------------------------
    
 .. csv-table:: Theory Track
-   :header: "ID", "Description", "Resources", "Length"
-   :widths: 15, 10, 10, 10
+   :header: "ID", "Description", "Resources", "Length", "Released"
+   :widths: 15, 10, 10, 10, 10
    :file: lectures-theory.csv
 
 Lectures - Collaboration Track
 ------------------------------
 
 .. csv-table:: Collaboration Track
-   :header: "Treat", "Quantity", "Description"
-   :widths: 15, 10, 10, 10
+   :header: "Treat", "Quantity", "Description", "Length", "Released"
+   :widths: 15, 10, 10, 10, 10
    :file: lectures-collab.csv
 
 Lectures - Systems
 ------------------
 
 .. csv-table:: Systems Track
-   :header: "Treat", "Quantity", "Description"
-   :widths: 15, 10, 10, 10
+   :header: "Treat", "Quantity", "Description", "Length", "Released"
+   :widths: 15, 10, 10, 10, 10
    :file: lectures-systems.csv
 
 Lectures - Technology Track
 ---------------------------
 
 .. csv-table:: Tecnology Track
-   :header: "Treat", "Quantity", "Description"
-   :widths: 15, 10, 10, 10
+   :header: "Treat", "Quantity", "Description", "Length", "Released"
+   :widths: 15, 10, 10, 10, 10
    :file: lectures-tech.csv
 	  
 
