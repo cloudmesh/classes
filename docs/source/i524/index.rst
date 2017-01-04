@@ -72,7 +72,7 @@ software subsystems illustrated in Figure 2.
 .. figure:: bigdata.png
     :width: 200px
     :align: center
-    :alt: 300 Technologies
+    :alt: 370 Technologies
     :figclass: align-center
 
     **Figure 2:** Software Systems relevant for Big Data
@@ -149,7 +149,6 @@ descriptions that you may want to take a look at:
 * :ref:`dockerswarm`
 * :ref:`kubernetes`
 * :ref:`slurmcluster`
-* :ref:`authordisambuigity`
 * :ref:`authordisambiguity_b`
   
 NIST Big Data Working group examples:
@@ -207,7 +206,7 @@ Grading policies are listed in Table 1.
    * - 10%
      - Class participation and contribution to Web pages
    * - 30%
-     - Three unique technology papers per student of the 300
+     - Three unique technology papers per student of the 370
        systems. Each paper as at least 2 pages per technology without
        references.
    * - 60%
@@ -224,7 +223,7 @@ Grading policies are listed in Table 1.
 * **Technology papers:** Technology papers must be non-overlapping in
   the entire class. If multiple students select the same technology,
   we will be drawing randomly which students does which technology. As
-  we have over 300 such technologies we should have enough for the
+  we have over 370 such technologies we should have enough for the
   entire class. If you see technologies missing, let us know and we
   see how to add them.
   
@@ -425,7 +424,7 @@ The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place at the
 following time:
 
-* Fridays 09:30am - 10:45am EST, I2 130
+* Monday 09:30am - 10:45am EST, I2 130
 
 For the 100% online students see the office hours.
    
