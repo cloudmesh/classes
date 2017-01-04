@@ -45,8 +45,8 @@ Class Material
 Overview
 --------
 
-This course studies software used in many commercial activities to
-related to Big Data. The backdrop for course relates to more than 300
+This course studies software used in many commercial activities
+related to Big Data. The backdrop for course containes more than 370
 software subsystems illustrated in Figure 1.
 
 .. figure:: bigdata.png
@@ -69,7 +69,7 @@ access and interface with them. Topics of this class will include:
    functionality and rationale for each layer.
 
 #. We will go through selected big data stack software from the list
-   of more than 300
+   of more than 370
 
 #. We will be identifying how we can create replicate software
    environments based on software deployed and used on clouds while
@@ -126,9 +126,9 @@ descriptions that you may want to take a look at:
 * :ref:`authordisambiguity_b`
   
 NIST Big Data Working group examples:
-  Any use case from
+  Selected and approved use case from
   http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf
-
+  
 Selected examples from Fall I523:
    Some students may have created an example as part of I523. Not all
    examples created as part of this class qualify for a I524
@@ -140,7 +140,15 @@ Selected examples from Fall I523:
 Cloudmesh Enhancements:
    A number of projects could center around the enhancements of
    cloudmesh for the improvement of big data projects using virtual
-   machines and containers.
+   machines and containers. This includes:
+
+   * Development of REST services for cloudmesh while using cloudmesh
+     client
+   * Development of benchmarking examples while using cloudmesh client
+   * Development of a better Azure interface to additinal services
+   * Development of a better AWS interfac to additinal services
+   * Development of a Web interface while using django
+   * SLURM integration to create virtual clusters on comet
 
    
 Who can take the class?
