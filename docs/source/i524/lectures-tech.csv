@@ -5,7 +5,7 @@ Unit.Linix.2, Python - Package Managers - Advanced SSH - Modules, ,,NO
 Unit.VM.1, shared resources - install image -  start vm -  loginto vm using your local key from the VB using command line tools and not web client, ,,NO
 Unit.Cloud.1, Introduction to Cloud Computing, , ,NO
 Unit.Cloud.2, IaaS: OpenStack, ,,NO
-Unit.Cloud.2.1, IaaS: Nova, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/iaas/index.html>`_,,NO
+Unit.Cloud.2.1, IaaS: Nova, :ref:`Web Page <ref-lesson-iaas>`,,NO
 Unit.Cloud.2.2, IaaS: Nova, `H2 <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/openstack.html#exercises>`_ ,,NO
 Unit.Cloud.2.3, IaaS: Nova, `H2-2: Horizon <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/openstack_horizon.html#exercises>`_,,NO
 Unit.Cloud.3, IaaS: Azure, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/iaas/azure_tutorial.html#exercise2>`_,  ,NO
