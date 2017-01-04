@@ -28,35 +28,46 @@ Class Material
 		"Project Proposal" -> "Project Approval" -> "Project Update" -> "Final Project";
 		label = "Project";
 	}
-      "start" [shape=circle];
-      "end" [shape=circle];      
+
+      subgraph cluster_1 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white];
+		"Paper 1" -> "Paper 2" -> "Paper 3";
+		label = "Technology Papers";
+	}
+
+	
+      "start" [shape=circle,fillcolor=green];
+      "end" [shape=circle,fillcolor=yellow];
+      "midterm" [shape=circle,fillcolor=red];      
       
       "start" -> "Technology";
       "start" -> "Collaboration";
       "start" -> "Systems";
-      "start" -> "Theory" -> "end";
-      "start" -> "Web" -> "Paper 1" -> "Paper 2" -> "Paper 3" -> "midterm" -> "end";
-      "Theory" -> "Technology" -> "Project";
-      "Collaboration" -> "Project";
+      "start" -> "Theory";
+      "start" -> "Web" -> "Paper 1"
+      "Paper 3" -> "midterm"
+      "midterm" -> "end";
+      "Theory" -> "Technology" -> "Project Proposal";
+      "Collaboration" -> "Project Proposal";
       "Collaboration" -> "Paper 1";
-      "Collaboration" -> "Paper 2";
-      "Collaboration" -> "Paper 3";
       "Collaboration" -> "Web";
-      "Systems" -> "Project";
+      "Systems" -> "Project Proposal";
       "Theory" -> "Web";
       "Theory" -> "Paper 1";
-      "Theory" -> "Paper 2";
-      "Theory" -> "Paper 3";
-      "start" -> "Project Proposal";
-      "Final Project" -> "end";
+      "Project Update" -> "midterm";
+      "Final Project" -> "end" [ltail=cluster_0];
    }
+
+**Figure 1:** Components of the Class  
    
 Overview
 --------
 
 This course studies software used in many commercial activities
 related to Big Data. The backdrop for course containes more than 370
-software subsystems illustrated in Figure 1.
+software subsystems illustrated in Figure 2.
 
 .. figure:: bigdata.png
     :width: 200px
@@ -64,7 +75,7 @@ software subsystems illustrated in Figure 1.
     :alt: 300 Technologies
     :figclass: align-center
 
-    **Figure 1:** Software Systems relevant for Big Data
+    **Figure 2:** Software Systems relevant for Big Data
 
 We will describe the software architecture represented by this
 collection and work towards identifying best practices to deploy,
@@ -121,6 +132,13 @@ on them throughout the class and succeed.
 	  waiting list are recommended to show up in the first
 	  class. It is likely that you can join as others drop.
 
+Figure 1 illustrates that you can follow the components of the class
+in a variety of ways. Furthermore, you do not have to wait to start
+the project of the Web homework till you have listened to all
+lectures. Naturally if you do not know how to collaborate via github
+you will not be able to submit the homework, so you need to figure
+this out first.
+	  
 Special Example Projects
 ------------------------
 
