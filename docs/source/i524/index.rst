@@ -328,16 +328,19 @@ Mistakes
 While teaching our classes we noticed the following mistakes students
 often make:
 
-* Overestimating the technical abilities
-* Underestimating the time it takes to do the project
-* Unnecessarily struggling with LaTeX as you do not use an example we
-  provide
-* Trying to do things on Windows Which is typically more difficult
-  than using Linux
-* Having a computer that is underpowered or outdated
 * **Procrastinating**
 * **Take other classes more serious**
 * **Starting the project not in the first 4 weeks of the class**
+* **Not asking for help**
+* **Not understanding that this is not a class based on a text book**
+* **Not understanding that TAs can schedule custom help office hours on appointment during reasonable times**
+* Overestimating the technical abilities
+* Underestimating the time it takes to do the project
+* Unnecessarily struggling with LaTeX as you do not use an example we
+  provide and you want to do too much
+* Trying to do things on Windows Which is typically more difficult
+  than using Linux
+* Having a computer that is underpowered or outdated
 * not listening to the lectures
 * Ignoring security via ssh
 * Posting passwords into git
@@ -485,7 +488,12 @@ There will be **NO EXCEPTION** to this format. Documents not following
 this format and are not professionally looking, will be returned
 without review.
 
+Github repositories
+--------------------
 
+Class content repository: https://github.com/cloudmesh/classes
+
+Class homework repository: https://github.com/cloudmesh/sp17-i524
 
 
 Code Repositories Deliverables
