@@ -1,17 +1,16 @@
 FAQ
 ====
 
-The university says there are no prerequisites for the class, what are the prerequisites?
+What are the prerequisites for this class?
 ---------------------------------------------------------------------------------------
 
-We have communicated the prerequisites clearly to the
-university. Apparently, they forgot to add them to the class.
-The perquisites can be found in the appropriate class
-overview. Please review them carefully.
+We have communicated the prerequisites to the university, but they may
+have forgotten to add them to the class.  The perquisites can be found
+in the appropriate class overview. Please review them carefully.
 
-For I524 you find them at:
+See:
 
-* https://cloudmesh.github.io/classes/i524/index.html#prerequisites
+* I524 :ref:`ref-i524-prerequisits`
 
 Why is this class not hosted on EdX?
 ------------------------------------
@@ -26,12 +25,7 @@ can host our classes.
 Why are you not using CANVAS for communicating with students?
 -------------------------------------------------------------
 
-It has been proven that CANVAS communication is an inferior
-communication system and can not compete with piazza's group
-communication features. As we adopt state of the art technologies, we
-like to expose you to state of the art communication tools such as
-piazza, instead of using technologies that have shown not to support
-our communication pathways that we use in class.
+We have found that Piazza supports our needs for communication better than Canvas.
 
 Why are you using github for submitting projects and papers?
 ------------------------------------------------------------
@@ -78,7 +72,7 @@ The class is full what do I do?
 
 #. Make sure to put yourself on the waiting list.
 #. If you are a residential student show up on the first class in the
-   specified lecture room. More likely than not some students wil
+   specified lecture room. More likely than not some students will
    enroll in more classes than they can do and places will free up. We
    will create a list and discuss with the registrar what to do.
    
@@ -95,12 +89,19 @@ you. Examples include
 #. “Doing Data Science: Straight Talk from the Frontline”, Cathy O'Neil,
    Rachel Schutt, O'Reilly Media, ISBN 978-1449358655
 
-If you find good books, wil like to add them here.
+If you find good books, we like to add them here.
    
+Why is there no textbook?
+-------------------------
+
+We cover a wide range of topics and their subject-matter is constantly
+undergoing changes. A textbook would be out of date by the time of
+publishing.
+
 Do I need a computer to participate in this class?
 --------------------------------------------------
 
-Obviously if you are an online student you do need a computer. If you
+If you are an online student you need access to a computer. If you
 are a residential student the facilities provided by SOIC will be
 sufficient. However, as you study involves computers, its probably
 important to evaluate if a computer will make your work easier. 
@@ -124,7 +125,7 @@ use an SSD if you can.
 
    
 Representative Bibliography
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 #. `Big data: The next frontier for innovation, competition, and
    productivity <http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation>`__
@@ -132,7 +133,7 @@ Representative Bibliography
    Class <https://bigdatacoursespring2015.appspot.com>`__
 
 Where is the official IU calendar for the Fall?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------
 
 Please follow this
 `link <http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml>`__
@@ -160,18 +161,16 @@ We require you use jabref:
 Can I use endnote or other bibliography managers?
 -------------------------------------------------
 
-No. However, if you want to make your life much more
-complicated. Jabref is best for us and we do require that you hand in
-all bibliographies while cleaning and transferring them to jabref. We
-will not accept any other bibliography tool such as:
+No. Jabref is best for us and we do require that you hand in all
+bibliographies while cleaning and transferring them to jabref. We will
+not accept any other bibliography tool such as:
    
 #. `http://endnote.com/ <http://endnote.com/>`_
 #. `http://libguides.utoledo.edu/c.php?g=284330&p=1895338 <http://libguides.utoledo.edu/c.php?g=284330&p=1895338>`_
 #. `https://www.mendeley.com/ <https://www.mendeley.com/>`_
 #. `https://community.mendeley.com/guides/using-citation-editor/05-creating-bibliography <https://community.mendeley.com/guides/using-citation-editor/05-creating-bibliography>`_
-#. https://www.zotero.org/
+#. `https://www.zotero.org <https://www.zotero.org>`_
 
-You will safe yourself many hours of work if you use jabref.
    
 Plagiarism test and resources related to that
 ---------------------------------------------
@@ -187,8 +186,8 @@ This question can not rely be answered precisely. Typically we have
 2-3 hours video per week. However starting from that its difficult to
 put a real number down as things may also depend on your background.
 
-* The programming load is modest, but requires knowledge in python
-  which you may have to learn outside of this class.
+* The programming load is modest, but requires knowledge in python and
+  linux systems which you may have to learn outside of this class.
 
 * Some students have more experience than others, thus it may be
   possible to put in 6 hours per week overall, but other may have to
@@ -209,30 +208,17 @@ No. Class material can change. Please remember that in a normal class
 you will be given several hours of lectures a week. They will be
 released on a weekly basis. What we do here is to release the material
 as much as possible upfront and **correct** them when we find it
-necessary to provide improvements or additions. In addition we learn
-actually from you based on your feedback and we integrate this
-feedback into the classes. Naturally if you find errors to this class
-Web page or have additions that you want to integrate, we would like
+necessary to provide improvements or additions. Additionally, we
+integrate your feedback into the classes. If you find errors on the
+class Web page or have additions that you want to add, we would like
 to hear from you. Pull requests can be issued by you so your
 contributions get acknowledged and rewarded as part of the grade.
 
-I want everything perfect and no changes on the Web pages
----------------------------------------------------------
+What are the changes to the web page?
+-------------------------------------
 
-This class is not for you. The world is build around improvements.
-Not integrating suggestions from other students or learning from their
-experience will hinder your progress and you will not be able to
-achieve your best. Furthermore you would stagnate.
-
-The changes we make are typically not substantial and are typically
-errata or clarification of content.
-
-I prefer a textbook
--------------------
-
-This class is not for you. We have on purpose not identified a text
-book as a textbook about the topics we teach would be too quickly
-outdated and do not allow the flexibility to integrate new content.
+The changes we make are typically fixing errata or clarification of
+content. We do attempt to indicate when major change is made.
 
 What lectures should I learn when?
 ----------------------------------
@@ -261,7 +247,7 @@ to be able to analyze and evaluate technologies that may or may not be
 useful for you. Our goal within this class is for the first time to
 gather a significant portion of the technologies that you hear about
 in class and that you get exposed to as part of the technology list
-into a "proceedings" organized by all students in class. The papers
+into a "proceedings" developed by all students in class. The papers
 serve also the dual purpose of you learning how to write a paper and
 use bibliographies.
 
@@ -269,16 +255,12 @@ I524: Why are there no homework to test me on skills such as ansible or python?
 -------------------------------------------------------------------------------
 
 We used to do smaller homework in previous classes to evaluate you on
-your skills. However we found that they were rather ineffective. There
-are two reasons for this:
+your skills. However we found that they did not reflect real-world use
+cases. By focusing on the project instead, you will be forced to
+develop these skills.
 
-1. the assignments given are typically toy assignments and are not
-   reflecting real world scenarios.
-2. the assignments take effectively away time for your project that
-   you could spend directly on your project
-
-However, we can provide you with ungraded homework that you can
-conduct to test your skills if you like. Please let us know if you
+However, we can provide you with additional ungraded homework that you
+can conduct to test your skills if you like. Please let us know if you
 like to do that and we can assign such homework to you.
 
 I524: Why not use chef or another DevOps framework?
@@ -299,26 +281,19 @@ be done in python and ansible.
 I am lost?
 -----------
 
-Why not talk to the instructors ...
+Please contact the instructors for your class.
 
-I do not like ...?
+I do not like Technology/Topic/Project/etc?
 -------------------
 
-Why not talk to the instructors ...
-
-I can not do ...?
-------------------
-
-Why not talk to the instructors ...
+Please contact the instructors for your class.
 
 I am not able to attend the online hours
 ----------------------------------------
 
 Typically we provide many different times for meetings via Zoom. We
 even schedule within reason special sessions. All of them are however
-in EST. If you are an international online student and expect us to be
-awake at 3am in the morning to talk to you, this class is not for
-you. Please adjust your schedule.
+during reasonable hours in United States Easter Standard Time.
 
 Do I need to attend the online sessions?
 ----------------------------------------
@@ -331,39 +306,20 @@ if possible.
 What are the leaning outcomes?
 ------------------------------
 
-Are hey not clearly stated as part of the course? If not help us
-improving them at the beginning of the semester while asking questions
-on Piazza? If you complain at the end of the class about it shows
-you have not taken advantage of the class and not interacted with us
-enough.
+If you feel that they are not clearly stated as part of the course
+please contact us so that we can clarify the material.
 
 
 There are so many messages on Piazza I can not keep up.
 -------------------------------------------------------
 
-This is not true. Residential students typically also participate in
-live lectures in which we discuss with each other important
-aspects. As an online class may not have such a lecture, the piazza
-posts are just a replacement of them. It is required that you read all
-posts and decide which of them are relevant for you. In a lecture room
-you will find also that one student asks a question, while the
-professor answers the question to the entire class. In such a lecture
-the professor is not walking up to the student and whispers the answer
-in just the ear of the student that asks the question. In the same way
-we will answer questions in general to all students.
-
-There are so many announcements on Piazza I can not keep up.
-------------------------------------------------------------
-
-This is not true. Residential students typically also participate in
-live lectures in which we announce important
-aspects. As an online class may not have such a lecture, the piazza
-posts are just a replacement of them. It is required that you read all
-posts and decide which of them are relevant for you. In a lecture room
-you will find also that we do not walk from student to student and
-whisper the announcement into the ear of every student separately. We
-would not have enough time to do so. Instead we just announce it to
-all students.
+Residential students typically participate in live lectures in which
+we discuss with each other important aspects of a topic. As an online
+class may not have such a lecture, the piazza posts are just a
+replacement of them. It is required that you read the posts and decide
+which of them are relevant for you. In a lecture room you will find
+also that one student asks a question, while the professor answers the
+question to the entire class.
 
 I find the hosting Web confusing
 ------------------------------------

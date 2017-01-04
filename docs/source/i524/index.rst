@@ -279,6 +279,9 @@ Grading policies are listed in Table 1.
   LaTeX style
 
   
+
+.. _ref-i524-prerequisits:
+
 Prerequisites
 ------------
 
