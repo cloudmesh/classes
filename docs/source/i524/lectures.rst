@@ -16,6 +16,21 @@ videos that will have to managed through github notifications as part
 of a README.md file in your git repository. You will need to do the
 technology track, as well as the theory track.
 	     
+
+Theory Track:
+   A number of lectures have been designed to introduce you to a
+   number of technologies. In contrast to the technology track the
+   lectures are of more theoretical nature and do not require much
+   hands on activities to get familair with the technologies.
+
+Collaboration Track:
+   These lectures provide the tools for you to collaborate with your
+   peers and with instructors.
+
+Systems Track:
+   These lectures cover topics that are fundamental to executing your
+   project.
+
 Technology Track:
    These are lectures with strong technology content and
    introduce you to using a selected number of technologies as part of
@@ -33,12 +48,6 @@ Technology Track:
    be: "I changed my company and could not work on the project due to
    moving". This will give you some points if submitted in
    time. However, if you submit nothing, we will not issue any points.
-
-Theory Track:
-   A number of lectures have been designed to introduce you to a
-   number of technologies. In contrast to the technology track the
-   lectures are of more theoretical nature and do not require much
-   hands on activities to get familair with the technologies.
 
 Lectures - Theory Track
 ------------------------
