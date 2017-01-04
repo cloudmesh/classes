@@ -12,3 +12,4 @@ Lessons
    prg/index
    data/index
    projects/index
+   iaas/index
