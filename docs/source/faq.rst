@@ -18,7 +18,7 @@ Why is this class not hosted on EdX?
 
 I523 and I524 were the first classes hosted on EdX. We wanted to
 continue offering them on EdX. However, the university system
-administrators mentioned to us that their systems are not ready at to
+administrators mentioned to us that their systems are not ready to
 support this class in EdX. Unfortunately, this is out of our control
 and we hope that the university will soon update to an EdX system that
 can host our classes.
@@ -293,8 +293,8 @@ groups complained later on that they had too much work and could not
 benefit from other students. Hence we make is simple. All DevOps must
 be provided in ansible. All programming must be provided in python if
 not an explicit reason exist to use another language or technology
-such as R or neo4j. However al deployment must be done in python and
-ansible.
+such as R or technologies such as neo4j. However all deployment must
+be done in python and ansible.
 
 I am lost?
 -----------
@@ -365,7 +365,7 @@ whisper the announcement into the ear of every student separately. We
 would not have enough time to do so. Instead we just announce it to
 all students.
 
-I find the hosting on RST confusing
+I find the hosting Web confusing
 ------------------------------------
 
 Once in a while we find that a student finds the hosting of the class
@@ -386,5 +386,10 @@ overcome by doing the following:
    server that works for us. Our choice would be to use EdX.
 
    
+I524: I do not know python. What do I do?
+-----------------------------------------
 
+This class requires python. Please learn it. We will be using ansible
+for the project. This you can acquire as part of the class through
+self study.
 

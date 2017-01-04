@@ -497,12 +497,30 @@ Online Meetings
 Learning Outcomes
 -----------------
 
-Students will gain broad understanding of Big Data applications and
-open source technologies supporting them. Students will have intense
-programming experience in Pythin and ansible. Students will be able to
-communicate their reserach in professional scientific reports.
+Students will
 
+1. gain broad understanding of Big Data applications and open source
+   technologies supporting them.
 
+2. have intense programming experience in Python and ansible.
+
+3. be able to communicate their reserach in professional scientific
+   reports.
+
+4. be able to use group communication and collaboration tools.
+
+Outcome 1 is supported by a series of lectures around open source
+technologies for big data.
+
+Outcome 2 is supported by a significant software project that will
+take up a considerable amount of time to plan and execute.
+
+Outcome 3 is supported by writing 3 technology papers and a project
+report that is shared with all students. Students can gain additional
+insight from reading and reviewing other students contributions.
+
+Outcome 4 is supported by using piazza and github as well as
+contributiong to the class Web page with git pull requests.
 
 
 
