@@ -369,20 +369,22 @@ I find the hosting on RST confusing
 ------------------------------------
 
 Once in a while we find that a student finds the hosting of the class
-material on the class Web page confusing. This happens in the
-following cases:
+material on the class Web page confusing. This confusion can be
+overcome by doing the following:
 
-1. The student is not aware that it is not the instructors fault that
-   the university is not able to provide us with an EdX server that
-   works for us
-2. The student has not take the time to explore the Web page and
-   identify what needs to be done for the class or not
-3. The student does not appreciate the effort we put in to provide
-   additional material that assist in learning about python, ansible,
-   LaTex, or the many other topics that may be relevant
-4. The student can not accept the fact that other student contribute
-   significantly to the Web pages to add new content to make the life
-   of other students easier.
+1. You may have to take time to explore the Web page and identify what
+   needs to be done for the class. However each class has a clear
+   overview page.
+2. You may have to learn to get used to a class that allows you to work
+   ahead. 
+3. You may have to learn to appreciate the additional material that
+   assist in learning about python, ansible, LaTex, or the many other
+   topics
+4. Please do not blame the instructors for things that are out of
+   their control: You may not be aware that it is not the instructors
+   fault that the university is not able to provide us with an EdX
+   server that works for us. Our choice would be to use EdX.
+
    
 
 
