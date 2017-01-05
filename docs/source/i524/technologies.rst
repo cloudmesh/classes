@@ -51,7 +51,7 @@ Workflow-Orchestration
 Application and Analytics
 ----------------------------------------------------------------------
 
-379. Mahout :cite:`www-mahout`: 
+32. Mahout :cite:`www-mahout`:
 
   "Apache Mahout software provides three major features:
   (1) A simple and extensible programming environment and framework
@@ -62,209 +62,209 @@ Application and Analytics
   syntax which works at scale"
     
 
-32. MLlib
-33. Mbase
-34. DataFu
-35. R
-36. pbdR
-37. Bioconductor
-38. ImageJ
-39. OpenCV
-40. Scalapack
-41. PetSc
-42. PLASMA MAGMA
-43. Azure Machine Learning
-44. Google Prediction API & Translation API
-45. mlpy
-46. scikit-learn
-47. PyBrain
-48. CompLearn
-49. DAAL(Intel)
-50. Caffe
-51. Torch
-52. Theano
-53. DL4j
-54. H2O
-55. IBM Watson
-56. Oracle PGX
-57. GraphLab
-58. GraphX
-59. IBM System G
-60. GraphBuilder(Intel)
-61. TinkerPop
-62. Parasol
-63. Dream:Lab
-64. Google Fusion Tables
-65. CINET
-66. NWB
-67. Elasticsearch
-68. Kibana
-69. Logstash
-70. Graylog
-71. Splunk
-72. Tableau
-73. D3.js
-74. three.js
-75. Potree
-76. DC.js
-77. TensorFlow
-78. CNTK
+33. MLlib
+34. Mbase
+35. DataFu
+36. R
+37. pbdR
+38. Bioconductor
+39. ImageJ
+40. OpenCV
+41. Scalapack
+42. PetSc
+43. PLASMA MAGMA
+44. Azure Machine Learning
+45. Google Prediction API & Translation API
+46. mlpy
+47. scikit-learn
+48. PyBrain
+49. CompLearn
+50. DAAL(Intel)
+51. Caffe
+52. Torch
+53. Theano
+54. DL4j
+55. H2O
+56. IBM Watson
+57. Oracle PGX
+58. GraphLab
+59. GraphX
+60. IBM System G
+61. GraphBuilder(Intel)
+62. TinkerPop
+63. Parasol
+64. Dream:Lab
+65. Google Fusion Tables
+66. CINET
+67. NWB
+68. Elasticsearch
+69. Kibana
+70. Logstash
+71. Graylog
+72. Splunk
+73. Tableau
+74. D3.js
+75. three.js
+76. Potree
+77. DC.js
+78. TensorFlow
+79. CNTK
 
    
 Application Hosting Frameworks
 ----------------------------------------------------------------------
 
-79. Google App Engine
-80. AppScale
-81. Red Hat OpenShift
-82. Heroku
-83. Aerobatic
-84. AWS Elastic Beanstalk
-85. Azure
-86. Cloud Foundry
-87. Pivotal
-88. IBM BlueMix
-89. Ninefold
-90. Jelastic
-91. Stackato
-92. appfog
-93. CloudBees
-94. Engine Yard
-95. CloudControl
-96. dotCloud
-97. Dokku
-98. OSGi
-99. HUBzero
-100. OODT
-101. Agave
-102. Atmosphere
+80. Google App Engine
+81. AppScale
+82. Red Hat OpenShift
+83. Heroku
+84. Aerobatic
+85. AWS Elastic Beanstalk
+86. Azure
+87. Cloud Foundry
+88. Pivotal
+89. IBM BlueMix
+90. Ninefold
+91. Jelastic
+92. Stackato
+93. appfog
+94. CloudBees
+95. Engine Yard
+96. CloudControl
+97. dotCloud
+98. Dokku
+99. OSGi
+100. HUBzero
+101. OODT
+102. Agave
+103. Atmosphere
 
 
 High level Programming
 ----------------------------------------------------------------------
 
-103. Kite
-104. Hive
-105. HCatalog
-106. Tajo
-107. Shark
-108. Phoenix
-109. Impala
-110. MRQL
-111. SAP HANA
-112. HadoopDB
-113. PolyBase
-114. Pivotal HD/Hawq
-115. Presto
-116. Google Dremel
-117. Google BigQuery
-118. Amazon Redshift
-119. Drill
-120. Kyoto Cabinet
-121. Pig
-122. Sawzall
-123. Google Cloud DataFlow
-124. Summingbird
-125. Lumberyard
+104. Kite
+105. Hive
+106. HCatalog
+107. Tajo
+108. Shark
+109. Phoenix
+110. Impala
+111. MRQL
+112. SAP HANA
+113. HadoopDB
+114. PolyBase
+115. Pivotal HD/Hawq
+116. Presto
+117. Google Dremel
+118. Google BigQuery
+119. Amazon Redshift
+120. Drill
+121. Kyoto Cabinet
+122. Pig
+123. Sawzall
+124. Google Cloud DataFlow
+125. Summingbird
+126. Lumberyard
 
 Streams
 ----------------------------------------------------------------------
 
-126. Storm
-127. S4
-128. Samza
-129. Granules
-130. Neptune
-131. Google MillWheel
-132. Amazon Kinesis
-133. LinkedIn
-134. Twitter Heron
-135. Databus
-136. Facebook Puma/Ptail/Scribe/ODS
-137. Azure Stream Analytics
-138. Floe
-139. Spark Streaming
-140. Flink Streaming
-141. DataTurbine
+127. Storm
+128. S4
+129. Samza
+130. Granules
+131. Neptune
+132. Google MillWheel
+133. Amazon Kinesis
+134. LinkedIn
+135. Twitter Heron
+136. Databus
+137. Facebook Puma/Ptail/Scribe/ODS
+138. Azure Stream Analytics
+139. Floe
+140. Spark Streaming
+141. Flink Streaming
+142. DataTurbine
 
 
 Basic Programming model and runtime, SPMD, MapReduce
 ----------------------------------------------------------------------
 
-142. Hadoop
-143. Spark
-144. Twister
-145. MR-MPI
-146. Stratosphere (Apache Flink)
-147. Reef
-148. Disco
-149. Hama
-150. Giraph
-151. Pregel
-152. Pegasus
-153. Ligra
-154. GraphChi
-155. Galois
-156. Medusa-GPU
-157. MapGraph
-158. Totem
+143. Hadoop
+144. Spark
+145. Twister
+146. MR-MPI
+147. Stratosphere (Apache Flink)
+148. Reef
+149. Disco
+150. Hama
+151. Giraph
+152. Pregel
+153. Pegasus
+154. Ligra
+155. GraphChi
+156. Galois
+157. Medusa-GPU
+158. MapGraph
+159. Totem
 
 
 Inter process communication Collectives
 ----------------------------------------------------------------------
 
-159. point-to-point
-160. publish-subscribe: MPI
-161. HPX-5
-162. Argo BEAST HPX-5 BEAST PULSAR
-163. Harp
-164. Netty
-165. ZeroMQ
-166. ActiveMQ
-167. RabbitMQ
-168. NaradaBrokering
-169. QPid
-170. Kafka
-171. Kestrel
-172. JMS
-173. AMQP
-174. Stomp
-175. MQTT
-176. Marionette Collective
-177. Public Cloud: Amazon SNS
-178. Lambda
-179. Google Pub Sub
-180. Azure Queues
-181. Event Hubs 
+160. point-to-point
+161. publish-subscribe: MPI
+162. HPX-5
+163. Argo BEAST HPX-5 BEAST PULSAR
+164. Harp
+165. Netty
+166. ZeroMQ
+167. ActiveMQ
+168. RabbitMQ
+169. NaradaBrokering
+170. QPid
+171. Kafka
+172. Kestrel
+173. JMS
+174. AMQP
+175. Stomp
+176. MQTT
+177. Marionette Collective
+178. Public Cloud: Amazon SNS
+179. Lambda
+180. Google Pub Sub
+181. Azure Queues
+182. Event Hubs 
 
 In-memory databases/caches
 ----------------------------------------------------------------------
 
 
-182. Gora (general object from NoSQL)
-183. Memcached
-184. Redis
-185. LMDB (key value)
-186. Hazelcast
-187. Ehcache
-188. Infinispan
-189. VoltDB
-190. H-Store
+183. Gora (general object from NoSQL)
+184. Memcached
+185. Redis
+186. LMDB (key value)
+187. Hazelcast
+188. Ehcache
+189. Infinispan
+190. VoltDB
+191. H-Store
 
 Object-relational mapping
 ----------------------------------------------------------------------
 
-191. Hibernate
-192. OpenJPA
-193. EclipseLink
-194. DataNucleus
-195. ODBC/JDBC
+192. Hibernate
+193. OpenJPA
+194. EclipseLink
+195. DataNucleus
+196. ODBC/JDBC
 
 
 Extraction Tools
 ----------------------------------------------------------------------
 
-196. UIMA
+197. UIMA
 
 Tika :cite:`www-tika`:
 
@@ -278,202 +278,202 @@ Tika :cite:`www-tika`:
 SQL(NewSQL)
 ----------------------------------------------------------------------
 
-197. Oracle
-198. DB2
-199. SQL Server
-200. SQLite
-201. MySQL
-202. PostgreSQL
-203. CUBRID
-204. Galera Cluster
-205. SciDB
-206. Rasdaman
-207. Apache Derby
-208. Pivotal Greenplum
-209. Google Cloud SQL
-210. Azure SQL
-211. Amazon RDS
-212. Google F1
-213. IBM dashDB
-214. N1QL
-215. BlinkDB
-216. Spark SQL
+198. Oracle
+199. DB2
+200. SQL Server
+201. SQLite
+202. MySQL
+203. PostgreSQL
+204. CUBRID
+205. Galera Cluster
+206. SciDB
+207. Rasdaman
+208. Apache Derby
+209. Pivotal Greenplum
+210. Google Cloud SQL
+211. Azure SQL
+212. Amazon RDS
+213. Google F1
+214. IBM dashDB
+215. N1QL
+216. BlinkDB
+217. Spark SQL
 
 NoSQL
 ----------------------------------------------------------------------
 
-217. Lucene
-218. Solr
-219. Solandra
-220. Voldemort
-221. Riak
-222. ZHT
-223. Berkeley DB
-224. Kyoto/Tokyo Cabinet
-225. Tycoon
-226. Tyrant
-227. MongoDB
-228. Espresso
-229. CouchDB
-230. Couchbase
-231. IBM Cloudant
-232. Pivotal Gemfire
-233. HBase
-234. Google Bigtable
-235. LevelDB
-236. Megastore and Spanner
-237. Accumulo
-238. Cassandra
-239. RYA
-240. Sqrrl
-241. Neo4J
-242. graphdb
-243. Yarcdata
-244. AllegroGraph
-245. Blazegraph
-246. Facebook Tao
-247. Titan:db
-248. Jena
-249. Sesame
-250. Public Cloud: Azure Table
-251. Amazon Dynamo
-252. Google DataStore
+218. Lucene
+219. Solr
+220. Solandra
+221. Voldemort
+222. Riak
+223. ZHT
+224. Berkeley DB
+225. Kyoto/Tokyo Cabinet
+226. Tycoon
+227. Tyrant
+228. MongoDB
+229. Espresso
+230. CouchDB
+231. Couchbase
+232. IBM Cloudant
+233. Pivotal Gemfire
+234. HBase
+235. Google Bigtable
+236. LevelDB
+237. Megastore and Spanner
+238. Accumulo
+239. Cassandra
+240. RYA
+241. Sqrrl
+242. Neo4J
+243. graphdb
+244. Yarcdata
+245. AllegroGraph
+246. Blazegraph
+247. Facebook Tao
+248. Titan:db
+249. Jena
+250. Sesame
+251. Public Cloud: Azure Table
+252. Amazon Dynamo
+253. Google DataStore
 
 File management
 ----------------------------------------------------------------------
 
-253. iRODS
-254. NetCDF
-255. CDF
-256. HDF
-257. OPeNDAP
-258. FITS
-259. RCFile
-260. ORC
-261. Parquet
+254. iRODS
+255. NetCDF
+256. CDF
+257. HDF
+258. OPeNDAP
+259. FITS
+260. RCFile
+261. ORC
+262. Parquet
 
 Data Transport
 ----------------------------------------------------------------------
 
-262. BitTorrent
-263. HTTP
-264. FTP
-265. SSH
-266. Globus Online (GridFTP)
-267. Flume
-268. Sqoop
-269. Pivotal GPLOAD/GPFDIST
+263. BitTorrent
+264. HTTP
+265. FTP
+266. SSH
+267. Globus Online (GridFTP)
+268. Flume
+269. Sqoop
+270. Pivotal GPLOAD/GPFDIST
 
 Cluster Resource Management
 ----------------------------------------------------------------------
 
-270. Mesos
-271. Yarn
-272. Helix
-273. Llama
-274. Google Omega
-275. Facebook Corona
-276. Celery
-277. HTCondor
-278. SGE
-279. OpenPBS
-280. Moab
-281. Slurm :cite:`www-slurm`
-282. Torque
-283. Globus Tools
-284. Pilot Jobs
+271. Mesos
+272. Yarn
+273. Helix
+274. Llama
+275. Google Omega
+276. Facebook Corona
+277. Celery
+278. HTCondor
+279. SGE
+280. OpenPBS
+281. Moab
+282. Slurm :cite:`www-slurm`
+283. Torque
+284. Globus Tools
+285. Pilot Jobs
 
 File systems
 ----------------------------------------------------------------------
 
-285. HDFS
-286. Swift
-287. Haystack
-288. f4
-289. Cinder
-290. Ceph
-291. FUSE
-292. Gluster
-293. Lustre
-294. GPFS
-295. GFFS
-296. Public Cloud: Amazon S3
-297. Azure Blob
-298. Google Cloud Storage
+286. HDFS
+287. Swift
+288. Haystack
+289. f4
+290. Cinder
+291. Ceph
+292. FUSE
+293. Gluster
+294. Lustre
+295. GPFS
+296. GFFS
+297. Public Cloud: Amazon S3
+298. Azure Blob
+299. Google Cloud Storage
 
 
 Interoperability
 ----------------------------------------------------------------------
 
-299. Libvirt
-300. Libcloud
-301. JClouds
-302. TOSCA
-303. OCCI
-304. CDMI
-305. Whirr
-306. Saga
-307. Genesis
+300. Libvirt
+301. Libcloud
+302. JClouds
+303. TOSCA
+304. OCCI
+305. CDMI
+306. Whirr
+307. Saga
+308. Genesis
 
 DevOps
 ----------------------------------------------------------------------
 
-308. Docker (Machine, Swarm)
-309. Puppet
-310. Chef
-311. Ansible
-312. SaltStack
-313. Boto
-314. Cobbler
-315. Xcat
-316. Razor
-317. CloudMesh
-318. Juju
-319. Foreman
-320. OpenStack Heat
-321. Sahara
-322. Rocks
-323. Cisco Intelligent Automation for Cloud
-324. Ubuntu MaaS
-325. Facebook Tupperware
-326. AWS OpsWorks
-327. OpenStack Ironic
-328. Google Kubernetes
-329. Buildstep
-330. Gitreceive
-331. OpenTOSCA
-332. Winery
-333. CloudML
-334. Blueprints
-335. Terraform
-336. DevOpSlang
-337. Any2Api
+309. Docker (Machine, Swarm)
+310. Puppet
+311. Chef
+312. Ansible
+313. SaltStack
+314. Boto
+315. Cobbler
+316. Xcat
+317. Razor
+318. CloudMesh
+319. Juju
+320. Foreman
+321. OpenStack Heat
+322. Sahara
+323. Rocks
+324. Cisco Intelligent Automation for Cloud
+325. Ubuntu MaaS
+326. Facebook Tupperware
+327. AWS OpsWorks
+328. OpenStack Ironic
+329. Google Kubernetes
+330. Buildstep
+331. Gitreceive
+332. OpenTOSCA
+333. Winery
+334. CloudML
+335. Blueprints
+336. Terraform
+337. DevOpSlang
+338. Any2Api
 
 IaaS Management from HPC to hypervisors
 ----------------------------------------------------------------------
 
-338. Xen
-339. KVM
-340. QEMU
-341. Hyper-V
-342. VirtualBox
-343. OpenVZ
-344. LXC
-345. Linux-Vserver
-346. OpenStack
-347. OpenNebula
-348. Eucalyptus
-349. Nimbus
-350. CloudStack
-351. CoreOS
-352. rkt
-353. VMware ESXi
-354. vSphere and vCloud
-355. Amazon
-356. Azure
-357. Google and other public Clouds 
-358. Networking: Google Cloud DNS
-359. Amazon Route 53
+339. Xen
+340. KVM
+341. QEMU
+342. Hyper-V
+343. VirtualBox
+344. OpenVZ
+345. LXC
+346. Linux-Vserver
+347. OpenStack
+348. OpenNebula
+349. Eucalyptus
+350. Nimbus
+351. CloudStack
+352. CoreOS
+353. rkt
+354. VMware ESXi
+355. vSphere and vCloud
+356. Amazon
+357. Azure
+358. Google and other public Clouds 
+359. Networking: Google Cloud DNS
+360. Amazon Route 53
 
 
 Cross-Cutting Functions
@@ -482,42 +482,42 @@ Cross-Cutting Functions
 Monitoring
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-360. Ambari
-361. Ganglia
-362. Nagios
-363. Inca
+361. Ambari
+362. Ganglia
+363. Nagios
+364. Inca
 
 
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-364. InCommon
-365. Eduroam
-366. OpenStack Keystone
-367. LDAP
-368. Sentry
-369. Sqrrl
-370. OpenID
-371. SAML OAuth
- 
+365. InCommon
+366. Eduroam
+367. OpenStack Keystone
+368. LDAP
+369. Sentry
+370. Sqrrl
+371. OpenID
+372. SAML OAuth
+
 Distributed Coordination
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-372. Google Chubby
-373. Zookeeper
-374. Giraffe
-375. JGroups
+373. Google Chubby
+374. Zookeeper
+375. Giraffe
+376. JGroups
 
 Message and Data Protocols
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-376. Avro
-377. Thrift
-378. Protobuf
+377. Avro
+378. Thrift
+379. Protobuf
 
 New Technologies to be integrated
 ---------------------------------
 
-380. TBD
+381. TBD
      
 
 Excersise
