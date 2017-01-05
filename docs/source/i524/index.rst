@@ -17,47 +17,42 @@ Class Material
 
    digraph class {
       rankdir="LR";
+      compound=true;
       node [shape=box,
             style=filled,
-            fillcolor=lightgrey];
+            fillcolor=ivory];
 
-      subgraph cluster_0 {
-		style=filled;
-		color=lightgrey;
-		node [style=filled,color=white];
+      subgraph cluster_prj {
 		"Project Proposal" -> "Project Approval" -> "Project Update" -> "Final Project";
 		label = "Project";
 	}
 
-      subgraph cluster_1 {
-		style=filled;
-		color=lightgrey;
-		node [style=filled,color=white];
+      subgraph cluster_ppr {
 		"Paper 1" -> "Paper 2" -> "Paper 3";
 		label = "Technology Papers";
 	}
 
 	
-      "start" [shape=circle,fillcolor=green];
-      "end" [shape=circle,fillcolor=yellow];
-      "midterm" [shape=circle,fillcolor=red];      
+      "start" [shape=circle,fillcolor=palegreen];
+      "end" [shape=circle,fillcolor=khaki];
+      "midterm" [shape=circle,fillcolor=salmon];
       
       "start" -> "Technology";
       "start" -> "Collaboration";
       "start" -> "Systems";
       "start" -> "Theory";
-      "start" -> "Web" -> "Paper 1"
-      "Paper 3" -> "midterm"
+      "start" -> "Web" -> "Paper 1" [lhead=cluster_ppr];
+      "Paper 3" -> "midterm" [ltail=cluster_ppr];
       "midterm" -> "end";
-      "Theory" -> "Technology" -> "Project Proposal";
-      "Collaboration" -> "Project Proposal";
-      "Collaboration" -> "Paper 1";
+      "Theory" -> "Technology" -> "Project Proposal" [lhead=cluster_prj];
+      "Collaboration" -> "Project Proposal" [lhead=cluster_prj];
+      "Collaboration" -> "Paper 1" [lhead=cluster_ppr];
       "Collaboration" -> "Web";
-      "Systems" -> "Project Proposal";
+      "Systems" -> "Project Proposal" [lhead=cluster_prj];
       "Theory" -> "Web";
-      "Theory" -> "Paper 1";
-      "Project Update" -> "midterm";
-      "Final Project" -> "end" [ltail=cluster_0];
+      "Theory" -> "Paper 1" [lhead=cluster_ppr];
+      "Project Update" -> "midterm" [ltail=cluster_prj];
+      "Final Project" -> "end" [ltail=cluster_prj];
    }
 
 **Figure 1:** Components of the Class  
