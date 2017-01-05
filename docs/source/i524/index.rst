@@ -438,6 +438,33 @@ following time:
 
 For the 100% online students see the office hours.
    
+Submissions
+-----------
+
+Your papers and projects will be developed on GitHub and submitted
+using :doc:`Pull Requests <../lesson/prg/pull_requests>`.  The process
+is as follows:
+
+#. fork the `sp17-i524 <https://github.com/cloudmesh/sp17-i524>`_ repository.
+#. clone your fork and commit and push your changes.
+#. submit a pull request to the master branch of the origin repository.
+
+See the repository for details on the individual assignments. As it
+will periodically be updated, make sure you are familiar with the
+process of `Syncing a fork
+<https://help.github.com/articles/syncing-a-fork/>`_.
+
+Some things to keep in mind:
+
+* space on github is limited, so do not add datasets to the
+  repository. Any datasets you use should be publicly hosted and
+  deployed as part of your project ansible deployment scripts.
+* never add ssh private keys to the repository. This results in a
+  security risk, possible point deductions, and lots of time and
+  effort to fix.
+* all work will be licensed under the Apache 2 open source license.
+* all submissions and discussion will be visible to the world.
+
 Software Project
 ----------------
 
