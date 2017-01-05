@@ -21,10 +21,10 @@ Unit.DevOps.4.2, OpenSrack Heat, :doc:`Web page <../lesson/devops/openstack_heat
 X.Unit.Devops.4.3, H4-2: Heat, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/openstack_heat.html#ref-class-lesson-devops-openstack-heat-exercises>`_, ,NO
 Unit.DevOps.5.1, Ubuntu Juju, :doc:`Web page <..//lesson/devops/juju>`, ,NO
 X.Unit.DevOps.5.2, Ubuntu Juju, `H: Juju  <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/devops/juju.html#ref -class -lesson -devops -juju -exercises>`_, ,NO
-Hadoop.1, Hadoop, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/vc_sp15/hadoop_cluster_manual.html#ref-class-lesson-deploying-hadoop-cluster-manual>`_, ,NO
-Hadoop.2, Hadoop, `ext H: Hadoop <http://cloudmesh.github.io/introduction_to_cloud_computing/class/vc_sp15/hadoop_cluster_manual.html#ref-class-lesson-deploying-hadoop-cluster-manuale-exercise>`_  , ,NO
+R.Hadoop.1, Hadoop, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/vc_sp15/hadoop_cluster_manual.html#ref-class-lesson-deploying-hadoop-cluster-manual>`_, ,NO
+X.Hadoop.2, Hadoop, `ext H: Hadoop <http://cloudmesh.github.io/introduction_to_cloud_computing/class/vc_sp15/hadoop_cluster_manual.html#ref-class-lesson-deploying-hadoop-cluster-manuale-exercise>`_  , ,NO
 Hadoop.3, Hadoop Word Count, `Video <https://mix.office.com/watch/1on4q8t1vcjfh>`_,   0:33:00,NO
-Hadoop.4, Hadoop Word Count, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/cluster/wordcount.html#ref-class-lesson-hadoop-word-count>`_  , ,NO
+F.Hadoop.4, Hadoop Word Count, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/cluster/wordcount.html#ref-class-lesson-hadoop-word-count>`_  , ,NO
 Mongo.1, Mongo, `Deploying MongoDB Sharded Cluster  <https://mix.office.com/watch/1rx90yz48fqpn>`_,  0:04:00,NO
 Mongo.2, Mongo, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/vc_sp15/mongodb_cluster.html#ref-class-lesson-mongodb-sharded-cluster>`_, ,NO
 VirtualClusters.1, Introduction and Overview, `Video <https://mix.office.com/watch/eap9zdqfifgp>`_,   0:04:00   ,NO
