@@ -419,6 +419,14 @@ faq:
     want to visit. We try to move important FAQ's from Piazza into the
     Web page, so it is important that you check both.
 
+meetings:
+    Here we will post times for meetings with TA's and instructors
+    that are not yet posted on the Web page as part of the regular
+    meeting times. Class participants are allowed to attend any Zoom
+    miiting that we annonce in this folder. For online students we
+    will also determine a time for meetings. The TAs are required to
+    hold 10 hours of meeting times upon request with you. Please make
+    use of this.  
   
 Meeting Times
 -------------
