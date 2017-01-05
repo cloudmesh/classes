@@ -30,7 +30,7 @@ Mongo.2, Mongo, :doc:`Web page <../lesson/database/mongodb_cluster>`, ,NO
 VirtualClusters.1, Introduction and Overview, `Video <https://mix.office.com/watch/eap9zdqfifgp>`_,   0:04:00   ,NO
 VirtualClusters.2, Dynamic Deployment of Arbitrary X Software on Virtual Cluster,  `Video <https://mix.office.com/watch/zukoz9wswe7z>`_,   0:04:00,NO
 VirtualCluster.3.1, Apache Hadoop YARN, `Video <https://mix.office.com/watch/1eopy3tfq6kim>`_,   0:34:00,NO
-VirtualCluster.3.2, Apache Hadoop YARN, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/cluster/yarn.html#ref-class-lesson-hadoop-yarn>`_,   ,NO
+VirtualCluster.3.2, Apache Hadoop YARN, :doc:`Web page <../lesson/tech/yarn>`,   ,NO
 VirtualCluster.3.3, Apache Zookeeper, `Apache ZooKeeper <https://mix.office.com/watch/1ptxm2uj2s7y3>`_,   0:40:00,NO
 VirtualCluster.3.4, Apache Zookeeper, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/cluster/zookeeper.html#ref-class-lesson-zookeeper>`_, ,NO
 VirtualCluster.4, Open MPI Virtual Cluster,  `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/openmpi.html#ref-class-lesson-openmpi-with-cloudmesh>`_,,NO
