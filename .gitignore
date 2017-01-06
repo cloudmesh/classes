@@ -7,3 +7,5 @@ auto
 build
 *.fdb_latexmk
 *.fls
+*.blg
+*.log
