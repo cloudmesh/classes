@@ -86,7 +86,7 @@ access and interface with them. Topics of this class will include:
 #. We will go through selected big data stack software from the list
    of more than 370
 
-#. We will be identifying how we can create replicate software
+#. We will be identifying how we can create and replicate software
    environments based on software deployed and used on clouds while
    using Containers, OpenStack and ansible playbooks.
 
@@ -103,21 +103,22 @@ in python using ansible and enabling a software stack that is useful
 for a big data analysis. While it is not necessary to know either
 python or ansible to take the class it is important that you have
 knowledge of a programming language so you can enhance your knowledge
-on them throughout the class and succeed.
+on them throughout the class and succeed. You will be expected to have
+a computer on which you have python 2.7.x installed.  You will be
+using chameleon and possibly our local cloud. Optionally some projects
+may use docker. 
  
- 
-.. note:: For current I523 class participants: While I523 is a
+
+.. note:: You do not have to take I523 in order to take I524.
+
+	  
+.. note:: For previous I523 class participants: While I523 is a
           beginners class I524 is an advanced class and we expect that
           you know python which you hopefully have learned as part of
-          I523. If not, make sure you learn it before you take this
-          class. If not consider significant additional time needed to
-          learn it for the class. You will be expected to have a
-          computer on which you have python 2.7.x installed.  You will
-          be using chameleon and possibly our local cloud. Optionally
-          some projects may use docker. A significant amount of time
-          will be spend to familiarize yourself with the technologies
-          more so than in I523. You do not have to take I523 in order
-          to take I524.
+          I523 while doing a software project. If not, make sure you
+          learn it before you take this class or consider
+          **significant** additional time needed to learn it for the
+          class. 
  
 .. note:: Residential students need to enroll early so we avoid the
 	  situation like last year where we had many signing up, but
@@ -319,20 +320,20 @@ get* format. The use of sharelatex or overleave is allowed.
 
 .. index:: I524 mistakes
 
-Mistakes
---------
+How to achieve your best
+------------------------
 
-While teaching our classes we noticed the following mistakes students
-often make:
+While teaching our classes we noticed the following tips to achieve
+your best:
 
-* **Procrastinating**
-* **Take other classes more serious**
-* **Starting the project not in the first 4 weeks of the class**
-* **Not asking for help**
-* **Not understanding that this is not a class based on a text book**
-* **Not understanding that TAs can schedule custom help office hours on appointment during reasonable times**
-* Overestimating the technical abilities
-* Underestimating the time it takes to do the project
+* Do not **Procrastinating**.
+* Do not just **take other classes more serious**.
+* **Starting the project in the first 4 weeks of the class**
+* **Ask for help**
+* Be aware understanding that this class is not based on a text book
+* The TAs can schedule custom help office hours on appointment during reasonable times
+* Do not overestimating the technical abilities
+* Do nnot Underestimating the time it takes to do the project
 * Unnecessarily struggling with LaTeX as you do not use an example we
   provide and you want to do too much
 * Trying to do things on Windows Which is typically more difficult
@@ -366,7 +367,8 @@ following this rule. Any mail that is not send via Piazza will be
 the inbox system in CANVAS. We found CANVAS a not scalable solution
 for our class and will not use CANVAS for reaching out to you.   If you
 need a different mechanism to communicate with us, please ask on Piazza
-how to do that.
+how to do that. Please note that private posts in piazza are shared
+among all instructors and TAs.
 
 To sign up in piazza please follow this link:
 
@@ -551,6 +553,9 @@ frameworks. Everything must be installable form the command line.
 Online Meetings
 ---------------
 
+Meeting times for the online class will be determined through piazza
+and or a survey.
+
     * **PC, Mac, Linux, iOS or Android:**
         * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
         * Password: To be posted in CANVAS
@@ -578,22 +583,24 @@ Students will
 
 2. have intense programming experience in Python and ansible.
 
-3. be able to communicate their reserach in professional scientific
-   reports.
+3. use open source technologies to manage code in large groups
+   individual.
 
-4. be able to use group communication and collaboration tools.
+4. be able to communicate reserach in professional scientific reports.
+
+5. be able to use group communication and collaboration tools.
 
 Outcome 1 is supported by a series of lectures around open source
 technologies for big data.
 
-Outcome 2 is supported by a significant software project that will
+Outcome 3 is supported by a significant software project that will
 take up a considerable amount of time to plan and execute.
 
-Outcome 3 is supported by writing 3 technology papers and a project
+Outcome 4 is supported by writing 3 technology papers and a project
 report that is shared with all students. Students can gain additional
 insight from reading and reviewing other students contributions.
 
-Outcome 4 is supported by using piazza and github as well as
+Outcome  2 and 5 is supported by using piazza and github as well as
 contributiong to the class Web page with git pull requests.
 
 
