@@ -179,14 +179,44 @@
 				
   <div class="section" id="pull-requests">
 <h1>Pull Requests<a class="headerlink" href="#pull-requests" title="Permalink to this headline">¶</a></h1>
+<p>A Pull Request is a way to propagate changes to an upstream repository.</p>
+<img src="../../_images/graphviz-792b90b36adccfbea4718c06af8d9811645a2640.png" alt="digraph PR {
+
+  rankdir=LR;
+  center=true;
+  edge[spines=curved];
+
+  &quot;origin&quot; -&gt; &quot;copy&quot; [label=&quot;fork&quot;];
+  &quot;copy&quot; -&gt; &quot;copy&quot; [label=&quot;commit changes&quot;];
+  &quot;copy&quot; -&gt; &quot;origin&quot; [label=&quot;pull request&quot;];
+
+}" />
+<p>Given an orign repository, and changes commited to the copy.
+After some time, one may wish to propagate those change back to the origin.
+By creating a Pull Request, the owner of the origin repository can view the changes, and can comment and ask for additional changes if necessary.</p>
+<div class="section" id="procedure">
+<h2>Procedure<a class="headerlink" href="#procedure" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Go to the GitHub page of the origin repository</li>
+<li>Fork it to your account</li>
+<li>Clone your fork</li>
+<li>Commit your changes</li>
+<li>Synchronize any changes to the origin</li>
+<li>Push to your fork</li>
+<li>Create a pull request</li>
+</ol>
+</div>
+<div class="section" id="resources">
+<h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
 <p>See GitHub&#8217;s documentation for submitting pull requests <a class="reference external" href="https://help.github.com/categories/collaborating-with-issues-and-pull-requests/">here</a>.</p>
 <p>In particular, pay attention to the following sections:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://help.github.com/articles/about-forks">About forks</a></li>
 <li><a class="reference external" href="https://help.github.com/articles/syncing-a-fork">Syncing a fork</a></li>
 <li><a class="reference external" href="https://help.github.com/articles/about-pull-requests/">About Pull Requests</a></li>
-<li>reating a pull request from a fork &lt;<a class="reference external" href="https://help.github.com/articles/creating-a-pull-request-from-a-fork/">https://help.github.com/articles/creating-a-pull-request-from-a-fork/</a>&gt;`_</li>
+<li><a class="reference external" href="https://help.github.com/articles/creating-a-pull-request-from-a-fork/">Creating a pull request from a fork</a></li>
 </ul>
+</div>
 </div>
 
 
