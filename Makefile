@@ -4,6 +4,9 @@ BROWSER=firefox
 ifeq ($(UNAME), Darwin)
 BROWSER=open
 endif
+ifeq ($(UNAME), Linux)
+BROWSER=xdg-open
+endif
 ifeq ($(UNAME), Windows)
 BROWSER=/cygdrive/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
 endif
