@@ -1,0 +1,696 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>OpenStack on FutureSystems | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="OpenStack on FutureSystems | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/iaas/openstack.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		<li><a href="openstack-kilo-quickstart.html"  title="FutureSystems OpenStack Kilo - Quickstart Guide">&laquo; previous</a></li>
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+		
+		
+
+	
+		<li><a href="azure.html"  title="Microsoft Azure Virtual Machine">next &raquo;</a></li>
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	
+		<ul class="breadcrumbs">
+			
+		  	<li><a href="../../index.html">Big Data Classes</a></li>
+
+		  	
+		  		<li><a href="../index.html">Lessons</a></li>
+		  		<li><a href="index.html">IaaS</a></li>
+
+		  	
+			<li class="current"><a href="">OpenStack on FutureSystems</a></li>
+		</ul>
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="openstack-on-futuresystems">
+<span id="s-openstack"></span><h1>OpenStack on FutureSystems<a class="headerlink" href="#openstack-on-futuresystems" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Many of us use cloudmesh directly to access the various
+clouds. The interface cloudmesh provides is in regards to
+starting multiple virtual machines more convenient. Please
+try out the nova commands so you can appreciate what
+cloudmesh offers. For more information about cloudmesh see
+the Section <span class="xref std std-ref">s_cloudmesh</span>.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<dl class="docutils">
+<dt>FutureSystems Portalname and Project ID</dt>
+<dd><p class="first">For this example we assume you have set the shell variable
+:pink:PORTALNAME to your FutureSystems portal username. This can
+be done as follwows. Let us assume your portal name is
+<cite>albert</cite>. Than you can set it with:</p>
+<div class="last highlight-bash"><div class="highlight"><pre><span></span>$ <span class="nb">export</span> <span class="nv">PORTALNAME</span><span class="o">=</span>albert
+</pre></div>
+</div>
+</dd>
+</dl>
+<p>If you execute the steps in this manual on india your india
+login name is the portalname, thus you can do:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ <span class="nb">export</span> <span class="nv">PORTALNAME</span><span class="o">=</span><span class="nv">$USER</span>
+</pre></div>
+</div>
+<p>We also assume that you have a project id that you set to:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ <span class="nb">export</span> <span class="nv">PROJECTID</span><span class="o">=</span>fg101
+</pre></div>
+</div>
+<p class="last">if it is the number 101.</p>
+</div>
+<div class="section" id="login">
+<h2>Login<a class="headerlink" href="#login" title="Permalink to this headline">¶</a></h2>
+<p>Currently FutureSystems has OpenStack Kilo installed on India. To use
+it you need to first log into india and prepare your Openstack
+credentials:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ ssh <span class="nv">$PORTALNAME</span>@india.futuresystems.org
+</pre></div>
+</div>
+</div>
+<div class="section" id="setup-openstack-environment">
+<h2>Setup OpenStack Environment<a class="headerlink" href="#setup-openstack-environment" title="Permalink to this headline">¶</a></h2>
+<p>In case you like to use the shell command line tools you can load them
+with</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ module load openstack
+</pre></div>
+</div>
+</div>
+<div class="section" id="creating-the-openrc-sh-file">
+<h2>Creating the openrc.sh file<a class="headerlink" href="#creating-the-openrc-sh-file" title="Permalink to this headline">¶</a></h2>
+<p>An initial openrc file is currently created for you automatically and
+can be activated wih</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ <span class="nb">source</span> ~/.cloudmesh/clouds/india/kilo/openrc.sh
+</pre></div>
+</div>
+<p>In future this file will be created with the help of cloudmesh
+simplifying access to multiple heterogeneous clouds on FutureSystems.</p>
+</div>
+<div class="section" id="list-flavors">
+<h2>List flavors<a class="headerlink" href="#list-flavors" title="Permalink to this headline">¶</a></h2>
+<p>To list the flavors, please execute the following command</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova flavor-list
+</pre></div>
+</div>
+<p>Everything is fine, if you see an output similar to</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>+----+-----------+-----------+------+-----------+------+-------+-------------+-----------+-------------+
+<span class="p">|</span> ID <span class="p">|</span> Name      <span class="p">|</span> Memory_MB <span class="p">|</span> Disk <span class="p">|</span> Ephemeral <span class="p">|</span> Swap <span class="p">|</span> VCPUs <span class="p">|</span> RXTX_Factor <span class="p">|</span> Is_Public <span class="p">|</span> extra_specs <span class="p">|</span>
++----+-----------+-----------+------+-----------+------+-------+-------------+-----------+-------------+
+<span class="p">|</span> <span class="m">1</span>  <span class="p">|</span> m1.tiny   <span class="p">|</span> <span class="m">512</span>       <span class="p">|</span> <span class="m">0</span>    <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">1</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
+<span class="p">|</span> <span class="m">2</span>  <span class="p">|</span> m1.small  <span class="p">|</span> <span class="m">2048</span>      <span class="p">|</span> <span class="m">20</span>   <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">1</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
+<span class="p">|</span> <span class="m">3</span>  <span class="p">|</span> m1.medium <span class="p">|</span> <span class="m">4096</span>      <span class="p">|</span> <span class="m">40</span>   <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">2</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
+<span class="p">|</span> <span class="m">4</span>  <span class="p">|</span> m1.large  <span class="p">|</span> <span class="m">8192</span>      <span class="p">|</span> <span class="m">80</span>   <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">4</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
+<span class="p">|</span> <span class="m">5</span>  <span class="p">|</span> m1.xlarge <span class="p">|</span> <span class="m">16384</span>     <span class="p">|</span> <span class="m">160</span>  <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">8</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
++----+-----------+-----------+------+-----------+------+-------+-------------+-----------+-------------+
+</pre></div>
+</div>
+<p>If not your environment may not be set up correctly. Make sure that
+you follow the steps in this section and the account management
+section carefully.</p>
+</div>
+<div class="section" id="list-images">
+<h2>List images<a class="headerlink" href="#list-images" title="Permalink to this headline">¶</a></h2>
+<p>After you got the flavor list, you can list the current set of
+uploaded images with the nova image-list command:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova image-list
+</pre></div>
+</div>
+<p>You will see an output similar to:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>+--------------------------------------+----------------------------+--------+--------+
+<span class="p">|</span> ID                                   <span class="p">|</span> Name                       <span class="p">|</span> Status <span class="p">|</span> Server <span class="p">|</span>
++--------------------------------------+----------------------------+--------+--------+
+<span class="p">|</span> 05a7e78f-d105-4c32-84c8-75562f61cfff <span class="p">|</span> futuresystems/centos-7     <span class="p">|</span> ACTIVE <span class="p">|</span>        <span class="p">|</span>
+<span class="p">|</span> b1bab925-6eaa-4928-bced-47d7607103c8 <span class="p">|</span> futuresystems/fedora-21    <span class="p">|</span> ACTIVE <span class="p">|</span>        <span class="p">|</span>
+<span class="p">|</span> c2a9788a-89f5-463d-96e5-61e144e05ba6 <span class="p">|</span> futuresystems/ubuntu-12.04 <span class="p">|</span> ACTIVE <span class="p">|</span>        <span class="p">|</span>
+<span class="p">|</span> 04a6d3aa-026b-4679-bd6b-7fef8a98e4be <span class="p">|</span> futuresystems/ubuntu-14.04 <span class="p">|</span> ACTIVE <span class="p">|</span>        <span class="p">|</span>
++--------------------------------------+----------------------------+--------+--------+
+</pre></div>
+</div>
+</div>
+<div class="section" id="key-management">
+<h2>Key management<a class="headerlink" href="#key-management" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Make sure to check if you have not already created a key with
+the name  at:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>~/.ssh/<span class="nv">$PORTALNAME</span>-key
+</pre></div>
+</div>
+<p>if so, please use another name. However, if you want to
+reuse the key, you certainly can do that. Also make sure the
+key is not already uploaded.  This can be easily done in the
+following way:</p>
+<div class="last highlight-bash"><div class="highlight"><pre><span></span>$ nova keypait-list
+</pre></div>
+</div>
+</div>
+<p>To start a virtual machine you must first upload a key to the
+cloud:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova keypair-add <span class="nv">$PORTALNAME</span>-key &gt; ~/.ssh/<span class="nv">$PORTALNAME</span>-key
+$ chmod <span class="m">600</span> ~/.ssh/<span class="nv">$PORTALNAME</span>-key
+$ nova keypair-list
++-----------------+-------------------------------------------------+
+<span class="p">|</span> Name            <span class="p">|</span> Fingerprint                                     <span class="p">|</span>
++-----------------+-------------------------------------------------+
+<span class="p">|</span> <span class="nv">$PORTALNAME</span>-key <span class="p">|</span> ab:a6:63:82:dd:08:d3:bc:c0:21:56:4c:e2:bb:22:ac <span class="p">|</span>
++-----------------+-------------------------------------------------+
+</pre></div>
+</div>
+<p>Make sure you are not already having the key with that name in order
+to avoid overwriting it in the cloud. Thus be extra careful to execute
+this step twice. Often it is the case that you already have a key in
+your <cite>~/.ssh</cite> directory that you may want to use. For example if you use
+rsa, your key will be located at <cite>~/.ssh/id_rsa.pub</cite>.</p>
+</div>
+<div class="section" id="managing-security-groups">
+<h2>Managing security groups<a class="headerlink" href="#managing-security-groups" title="Permalink to this headline">¶</a></h2>
+<p>In the next step we need to make sure that the security groups allow
+us to log into the VMs. To do so we create the following policies as
+part of our default security policies. Not that when you are in a
+group project this may already have been done for you by another group
+member. We will add ICMP and port 22 on default group:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova secgroup-add-rule default icmp -1 -1 0.0.0.0/0
+$ nova secgroup-add-rule default tcp <span class="m">22</span> <span class="m">22</span> 0.0.0.0/0
+$ nova secgroup-list-rules default
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Most likely you will get some errors at this time as the
+definitions may already uploaded by default. simply ignore
+the errors and move on.</p>
+</div>
+<p>You will see the following output if everything went correctly:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>+-------------+-----------+---------+-----------+--------------+
+<span class="p">|</span> IP Protocol <span class="p">|</span> From Port <span class="p">|</span> To Port <span class="p">|</span> IP Range  <span class="p">|</span> Source Group <span class="p">|</span>
++-------------+-----------+---------+-----------+--------------+
+<span class="p">|</span> icmp        <span class="p">|</span> -1        <span class="p">|</span> -1      <span class="p">|</span> 0.0.0.0/0 <span class="p">|</span>              <span class="p">|</span>
+<span class="p">|</span> tcp         <span class="p">|</span> <span class="m">22</span>        <span class="p">|</span> <span class="m">22</span>      <span class="p">|</span> 0.0.0.0/0 <span class="p">|</span>              <span class="p">|</span>
++-------------+-----------+---------+-----------+--------------+
+</pre></div>
+</div>
+</div>
+<div class="section" id="booting-an-image">
+<h2>Booting an image<a class="headerlink" href="#booting-an-image" title="Permalink to this headline">¶</a></h2>
+<p>To boot an instance you will need first to identify the <cite>$NET_ID</cite>:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ <span class="nv">NET_ID</span><span class="o">=</span><span class="k">$(</span>nova net-list<span class="p">|</span> awk <span class="s1">&#39;/ $OS_TENANT_NAME-net / {print $2}&#39;</span><span class="k">)</span>
+</pre></div>
+</div>
+<p>Now you can use the command:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova boot --flavor m1.small <span class="se">\</span>
+          --image <span class="s2">&quot;ubuntu-14.04-64&quot;</span> <span class="se">\</span>
+          --nic net-id<span class="o">=</span><span class="nv">$NET_ID</span> <span class="se">\</span>
+          --key_name <span class="nv">$PORTALNAME</span>-key <span class="nv">$PORTALNAME</span>-001
+</pre></div>
+</div>
+<p>Please note that the last parameter is a &#8220;label&#8221; for the VM and we
+recommend thst you use a unique label. If everything went correctly,
+you will see an output similar to:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>+-----------------------------+--------------------------------------+
+<span class="p">|</span> Property                    <span class="p">|</span> Value                                <span class="p">|</span>
++-----------------------------+--------------------------------------+
+<span class="p">|</span> status                      <span class="p">|</span> BUILD                                <span class="p">|</span>
+<span class="p">|</span> updated                     <span class="p">|</span> 2013-05-15T20:32:03Z                 <span class="p">|</span>
+<span class="p">|</span> OS-EXT-STS:task_state       <span class="p">|</span> scheduling                           <span class="p">|</span>
+<span class="p">|</span> key_name                    <span class="p">|</span> <span class="nv">$PORTALNAME</span>-key                      <span class="p">|</span>
+<span class="p">|</span> image                       <span class="p">|</span> ubuntu-14.04-64                      <span class="p">|</span>
+<span class="p">|</span> hostId                      <span class="p">|</span>                                      <span class="p">|</span>
+<span class="p">|</span> OS-EXT-STS:vm_state         <span class="p">|</span> building                             <span class="p">|</span>
+<span class="p">|</span> flavor                      <span class="p">|</span> m1.small                             <span class="p">|</span>
+<span class="p">|</span> id                          <span class="p">|</span> e15ad5b6-c3f0-4c07-996c-3bbe709a63b7 <span class="p">|</span>
+<span class="p">|</span> security_groups             <span class="p">|</span> <span class="o">[{</span>u<span class="s1">&#39;name&#39;</span>: u<span class="s1">&#39;default&#39;</span><span class="o">}]</span>              <span class="p">|</span>
+<span class="p">|</span> user_id                     <span class="p">|</span> 3bd2d773911c4502982e5c2cd81437f7     <span class="p">|</span>
+<span class="p">|</span> name                        <span class="p">|</span> vm001                                <span class="p">|</span>
+<span class="p">|</span> adminPass                   <span class="p">|</span> KgiKjek99dgk                         <span class="p">|</span>
+<span class="p">|</span> tenant_id                   <span class="p">|</span> b7ea98db7b3449b184b58d28e80c7541     <span class="p">|</span>
+<span class="p">|</span> created                     <span class="p">|</span> 2013-05-15T20:32:03Z                 <span class="p">|</span>
+<span class="p">|</span> OS-DCF:diskConfig           <span class="p">|</span> MANUAL                               <span class="p">|</span>
+<span class="p">|</span> metadata                    <span class="p">|</span> <span class="o">{}</span>                                   <span class="p">|</span>
+<span class="p">|</span> accessIPv4                  <span class="p">|</span>                                      <span class="p">|</span>
+<span class="p">|</span> accessIPv6                  <span class="p">|</span>                                      <span class="p">|</span>
+<span class="p">|</span> progress                    <span class="p">|</span> <span class="m">0</span>                                    <span class="p">|</span>
+<span class="p">|</span> OS-EXT-STS:power_state      <span class="p">|</span> <span class="m">0</span>                                    <span class="p">|</span>
+<span class="p">|</span> OS-EXT-AZ:availability_zone <span class="p">|</span> None                                 <span class="p">|</span>
+<span class="p">|</span> config_drive                <span class="p">|</span>                                      <span class="p">|</span>
++-----------------------------+--------------------------------------+
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-running-images">
+<h2>List running images<a class="headerlink" href="#list-running-images" title="Permalink to this headline">¶</a></h2>
+<p>To check if your instance is active you can repeatedly issue the list
+command and monitor the Status field in the table:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova list
+
++-------------+-----------------+--------+------------+-------------+--------------------+
+<span class="p">|</span> ID          <span class="p">|</span> Name            <span class="p">|</span> Status <span class="p">|</span> Task State <span class="p">|</span> Power State <span class="p">|</span> Networks           <span class="p">|</span>
++-------------+-----------------+--------+------------+-------------+--------------------+
+<span class="p">|</span> c66 ... c73 <span class="p">|</span> <span class="nv">$PORTALNAME</span>-001 <span class="p">|</span> ACTIVE <span class="p">|</span> -          <span class="p">|</span> Running     <span class="p">|</span> int-net<span class="o">=</span>10.23.0.87 <span class="p">|</span>
++-------------+-----------------+--------+------------+-------------+--------------------+
+</pre></div>
+</div>
+<p>Once it has changed from for example BUILD to ACTIVE, you can log
+in. Pleas use the IP address provided under networks. Note that the
+first address is private and may only be reached from india</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ ssh -l ubuntu -i ~/.ssh/<span class="nv">$PORTALNAME</span>-key 10.23.0.87
+</pre></div>
+</div>
+<p>If you see a warning similar to:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>Add correct host key in ~/.ssh/known_hosts to get rid of this message.
+Offending key in ~/.ssh/known_hosts:3
+</pre></div>
+</div>
+<p>you need to delete the offending host key from ~/.ssh/known_hosts.</p>
+</div>
+<div class="section" id="add-floating-ip-address">
+<h2>Add floating IP address<a class="headerlink" href="#add-floating-ip-address" title="Permalink to this headline">¶</a></h2>
+<p>The internal IP address is not reachable from external nework. If you
+want to make your instance reachable from outside, you can use a
+floating IP address.</p>
+<p>First, create a floating IP address:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova floating-ip-create ext-net
++-----------------+-----------+----------+---------+
+<span class="p">|</span> Ip              <span class="p">|</span> Server Id <span class="p">|</span> Fixed Ip <span class="p">|</span> Pool    <span class="p">|</span>
++-----------------+-----------+----------+---------+
+<span class="p">|</span> 149.165.158.149 <span class="p">|</span> -         <span class="p">|</span> -        <span class="p">|</span> ext-net <span class="p">|</span>
++-----------------+-----------+----------+---------+
+</pre></div>
+</div>
+<p>Check your floating ip list:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova floating-ip-list
++-----------------+-----------+----------+---------+
+<span class="p">|</span> Ip              <span class="p">|</span> Server Id <span class="p">|</span> Fixed Ip <span class="p">|</span> Pool    <span class="p">|</span>
++-----------------+-----------+----------+---------+
+<span class="p">|</span> 149.165.158.149 <span class="p">|</span> -         <span class="p">|</span> -        <span class="p">|</span> ext-net <span class="p">|</span>
++-----------------+-----------+----------+---------+
+</pre></div>
+</div>
+<p>And then, add the IP address to your instance:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova floating-ip-associate <span class="nv">$PORTALNAME</span>-001 149.165.158.149
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">nova add-floating-ip is deprecated.</p>
+</div>
+<p>Check your floating ip list again to see if the ip address is added to your
+instance:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="c1"># nova floating-ip-list</span>
++-----------------+--------------------------------------+-------------+---------+
+<span class="p">|</span> Ip              <span class="p">|</span> Server Id                            <span class="p">|</span> Fixed Ip    <span class="p">|</span> Pool    <span class="p">|</span>
++-----------------+--------------------------------------+-------------+---------+
+<span class="p">|</span> 149.165.158.149 <span class="p">|</span> xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx <span class="p">|</span> 10.23.0.87  <span class="p">|</span> ext-net <span class="p">|</span>
++-----------------+--------------------------------------+-------------+---------+
+</pre></div>
+</div>
+<p>Now, you should be able to login to your instance via ssh command like this:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ ssh -l ubuntu -i ~/.ssh/<span class="nv">$PORTALNAME</span>-key 149.165.158.149
+</pre></div>
+</div>
+<p>If you see a warning similar to:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>Add correct host key in ~/.ssh/known_hosts to get rid of this message.
+Offending key in ~/.ssh/known_hosts:3
+</pre></div>
+</div>
+<p>you need to delete the offending host key from ~/.ssh/known_hosts.</p>
+<p>Please do not forget to also delete your 001 vm if you no longer need
+it.</p>
+</div>
+<div class="section" id="releasing-floating-ip-address">
+<h2>Releasing Floating IP Address<a class="headerlink" href="#releasing-floating-ip-address" title="Permalink to this headline">¶</a></h2>
+<p>If you are removing the association with a floating IP address and a VM instance:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>nova  floating-ip-disassociate &lt;server&gt; &lt;address&gt;
+</pre></div>
+</div>
+<p>It looks like so:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova floating-ip-disassociate <span class="nv">$PORTALNAME</span>-001 149.165.158.149
+</pre></div>
+</div>
+<p>There is one more step to fully return the lease of IP address. <em>THIS IS
+IMPORTANT SINCE IP ADDRESSES ARE NOT SUFFICIENT</em>.</p>
+<p>Check your floating ip list:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova floating-ip-list
++-----------------+-----------+----------+---------+
+<span class="p">|</span> Ip              <span class="p">|</span> Server Id <span class="p">|</span> Fixed Ip <span class="p">|</span> Pool    <span class="p">|</span>
++-----------------+-----------+----------+---------+
+<span class="p">|</span> 149.165.158.149 <span class="p">|</span> -         <span class="p">|</span> -        <span class="p">|</span> ext-net <span class="p">|</span>
++-----------------+-----------+----------+---------+
+</pre></div>
+</div>
+<p>The floating IP address is not associated with your VM instance but it is still
+in your pool which means it is reserved for you and others can&#8217;t use the IP
+address.</p>
+<p>We must release the IP address so that others can use it.:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>nova floating-ip-delete &lt;address&gt;
+</pre></div>
+</div>
+<p>It looks like this:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova floating-ip-delete 149.165.158.149
+</pre></div>
+</div>
+</div>
+<div class="section" id="delete-your-instance">
+<h2>Delete your instance<a class="headerlink" href="#delete-your-instance" title="Permalink to this headline">¶</a></h2>
+<p>You can delete your instance with:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova delete <span class="nv">$PORTALNAME</span>-001
+</pre></div>
+</div>
+<p>If your instance is deleted, your floating ip address will become available,
+and <cite>nova floating-ip-list</cite> should show the output like this:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova floating-ip-list
++-----------------+-----------+----------+---------+
+<span class="p">|</span> Ip              <span class="p">|</span> Server Id <span class="p">|</span> Fixed Ip <span class="p">|</span> Pool    <span class="p">|</span>
++-----------------+-----------+----------+---------+
+<span class="p">|</span> 149.165.158.149 <span class="p">|</span> -         <span class="p">|</span> -        <span class="p">|</span> ext-net <span class="p">|</span>
++-----------------+-----------+----------+---------+
+</pre></div>
+</div>
+</div>
+<div class="section" id="make-a-snapshot-of-an-instance">
+<h2>Make a snapshot of an instance<a class="headerlink" href="#make-a-snapshot-of-an-instance" title="Permalink to this headline">¶</a></h2>
+<p>To allow snapshots, you must use the following convention:</p>
+<ul class="simple">
+<li>use your project number fg### in the prefix of your snapshot name followed
+by a /</li>
+<li>If needed you can also add your username as a prefix in addition to
+the project number. Replace the $PORTALNAME with the username of your
+FutureSystems account.</li>
+</ul>
+<p>Let us assume your project is fg101 and you want to save the image
+with by reminding you it was a my-ubuntu-01 image you want to
+key. Than you can issue on india the following command:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova image-create <span class="nv">$PORTALNAME</span>-001 fg101/<span class="nv">$PORTALNAME</span>/my-ubuntu-01
+$ nova image-list
++--------------+--------------------------------+--------+--------------+
+<span class="p">|</span> ID           <span class="p">|</span> Name                           <span class="p">|</span> Status <span class="p">|</span> Server       <span class="p">|</span>
++--------------+--------------------------------+--------+--------------+
+<span class="p">|</span> 18c43 ... <span class="m">33</span> <span class="p">|</span> futuresystems/fedora-20        <span class="p">|</span> ACTIVE <span class="p">|</span>              <span class="p">|</span>
+<span class="p">|</span> 1a5fd ... e9 <span class="p">|</span> futuresystems/ubuntu-14.04     <span class="p">|</span> ACTIVE <span class="p">|</span>              <span class="p">|</span>
+<span class="p">|</span> f4337 ... <span class="m">44</span> <span class="p">|</span> fg101/<span class="nv">$PORTALNAME</span>/my-ubuntu-01 <span class="p">|</span> ACTIVE <span class="p">|</span> c0bd ... bcc <span class="p">|</span>
++--------------+--------------------------------+--------+--------------+
+</pre></div>
+</div>
+<p>If you want to download your customized image, you can do it with this:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ glance image-download --file <span class="s2">&quot;my-ubuntu-01.img&quot;</span> <span class="s2">&quot;fg101/</span><span class="nv">$PORTALNAME</span><span class="s2">/custom-ubuntu-01&quot;</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Please note that images not following this convention may
+be deleted without warning. Also ifyou do no longer need an image,
+please remove it.</p>
+</div>
+</div>
+<div class="section" id="what-to-do-if-you-forgot-your-password">
+<h2>What to do if you forgot your password<a class="headerlink" href="#what-to-do-if-you-forgot-your-password" title="Permalink to this headline">¶</a></h2>
+<p>In order to reset your password or you need to recreate your openrc.sh
+without knowing your current password you need to send e-mail with the
+following information to <a class="reference external" href="mailto:help&#37;&#52;&#48;futuresystems&#46;org">help<span>&#64;</span>futuresystems<span>&#46;</span>org</a> and copy it to the
+e-mail that you used in the portal. Below is a template for you to use
+where you replace &lt;username&gt; with your portal name:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>Subject: lost openstack password &lt;username&gt;
+
+Name: Firstname, Lastname
+username: &lt;username&gt;
+e-mail registered in the portal: &lt;portale-mail you used&gt;
+
+Please reset my openrc file <span class="k">for</span> the Kilo cloud. By mistake I have modified it and can not remember the password.
+
+Thanks
+
+yourname here
+your email here
+</pre></div>
+</div>
+<div class="section" id="change-of-rc-file">
+<h3>Change of rc file<a class="headerlink" href="#change-of-rc-file" title="Permalink to this headline">¶</a></h3>
+<p>If you want to make a change in your rc file (openrc.sh), follow the
+instructions below.</p>
+<ul>
+<li><p class="first">Open a <code class="docutils literal"><span class="pre">~/.cloudmesh/clouds/india/kilo/openrc.sh</span></code> file</p>
+</li>
+<li><p class="first">Replace your old password to a new password in a <code class="docutils literal"><span class="pre">OS_PASSWORD</span></code> key.</p>
+</li>
+<li><p class="first">Load your rc file <code class="docutils literal"><span class="pre">source</span> <span class="pre">~/.cloudmesh/clouds/india/kilo/openrc.sh</span></code></p>
+</li>
+<li><p class="first">Try nova command line e.g. <code class="docutils literal"><span class="pre">nova</span> <span class="pre">list</span></code></p>
+</li>
+<li><p class="first">If you see a message like the below, your change is made incorrectly:</p>
+<p>ERROR (Unauthorized): The request you have made requires authentication. (HTTP 401)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="horizon-gui">
+<span id="s-openstack-horizon"></span><h2>Horizon GUI<a class="headerlink" href="#horizon-gui" title="Permalink to this headline">¶</a></h2>
+<p>Horizon is a graphical user interface/dashbooard for OpenStack. For
+starting up VMs and stoping them by hand horizon may be a good
+mechanism to manage your Virtual machines. The Kilo Horizon url is: <a class="reference external" href="https://openstack.futuresystems.org/horizon">https://openstack.futuresystems.org/horizon</a></p>
+<p>The passphrase for horizion is on purpose not the same as the portal
+password to introduce an additional layer of security.</p>
+<p>You can locate the passphrase while looking at the openrc file for the
+appropriate machine on india. Thus first log into india, and than load
+the openstack module with:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ module load openstack
+</pre></div>
+</div>
+<p>Look at</p>
+<blockquote>
+<div>$ cat ~/.cloudmesh/clouds/india/kilo/openrc.sh</div></blockquote>
+<p>and use the password included here. If you reset your password in Horizon you may
+have to update it in this file after you changed it.</p>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="openstack-kilo-quickstart.html"  title="FutureSystems OpenStack Kilo - Quickstart Guide">&laquo; previous</a></span>
+			<span><a href="../../genindex.html"  title="General Index">index</a></span>
+				<span><a href="azure.html"  title="Microsoft Azure Virtual Machine">next &raquo;</a></span></div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abdul-Wahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>

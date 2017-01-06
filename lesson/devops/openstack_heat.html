@@ -1,0 +1,604 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>OpenStack Heat | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="OpenStack Heat | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/devops/openstack_heat.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		<li><a href="openmpi_cluster.html"  title="OpenMPI Virtual Cluster (Under Preparation)">&laquo; previous</a></li>
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+		
+		
+
+	
+		<li><a href="other.html"  title="Other (Under Preparation)">next &raquo;</a></li>
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	
+		<ul class="breadcrumbs">
+			
+		  	<li><a href="../../index.html">Big Data Classes</a></li>
+
+		  	
+		  		<li><a href="../index.html">Lessons</a></li>
+		  		<li><a href="index.html">&lt;no title&gt;</a></li>
+
+		  	
+			<li class="current"><a href="">OpenStack Heat</a></li>
+		</ul>
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="openstack-heat">
+<span id="ref-class-lesson-devops-openstack-heat"></span><h1>OpenStack Heat<a class="headerlink" href="#openstack-heat" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>This lesson will introduce you to a very important topic of OpenStack Heat, a
+software provisioning tool on a OpenStack platform.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Duration: 1 hour</p>
+</div>
+</div>
+<div class="section" id="prerequisite">
+<h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
+<p>In order to conduct this lesson you should have knowledge of</p>
+<ul class="simple">
+<li><a class="reference external" href="../iaas/openstack.html">OpenStack for Beginners</a></li>
+</ul>
+</div>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>OpenStack Heat is an open source software to deploy services within OpenStack
+clouds. Heat launches VM instances, installs cloud software and manages
+required resources such as security groups or floating ip addresses within a
+resource group, a stack. You just need to describe your cloud services and
+resources in a Heat Template file, and OpenStack deploys your cloud services by
+provisioning cloud infrastructure and installing/configuring software. Through
+this lesson, you will learn how to write a Heat Template file and how to deploy
+your cloud applications with a command line tool or a web interface. OpenStack
+Heat Orchestration Template (HOT) is compatible with AWS CloudFormation
+template format, there are some extensions of Heat Templates though. If you
+have AWS templates, you can use them on OpenStack as well to start your cloud
+services.</p>
+<p>This lesson covers:</p>
+<ul class="simple">
+<li>Basics of OpenStack Heat</li>
+<li>Use of Heat Client Tool</li>
+<li>How to write Heat Template</li>
+<li>Example of deploying Hadoop Cluster with Heat</li>
+</ul>
+<p>Let&#8217;s start with the basics of OpenStack Heat.</p>
+<div class="section" id="resource-types">
+<h3>Resource Types<a class="headerlink" href="#resource-types" title="Permalink to this headline">¶</a></h3>
+<p>Heat creates a stack with a combination of resources. The following resource
+types are the most common items to start or connect each other, we may see
+often how they are deployed and interact.</p>
+<ul class="simple">
+<li>Nova Server (VM instance)</li>
+<li>Floating IP addresses</li>
+<li>Volumes (Storage)</li>
+<li>Security Groups</li>
+<li>Key Pair</li>
+</ul>
+<p>There are 70 resource types in total. See more at:
+<a class="reference external" href="http://docs.openstack.org/hot-reference/content/openstack-resource-types.html">http://docs.openstack.org/hot-reference/content/openstack-resource-types.html</a></p>
+<p>These are OpenStack Heat Resource types which are identified with the <code class="docutils literal"><span class="pre">OS::</span></code> prefix.
+For example, if you&#8217;d like to start a VM instance, use the <code class="docutils literal"><span class="pre">OS::Nova::Server</span></code> resource type.</p>
+<p>There are also Amazon CloudFormation compatible resource types.</p>
+</div>
+<div class="section" id="resource-types-amazon-compatible">
+<h3>Resource Types (Amazon compatible)<a class="headerlink" href="#resource-types-amazon-compatible" title="Permalink to this headline">¶</a></h3>
+<p>These resource types are exchangeable between Amazon (AWS) and OpenStack. Let&#8217;s
+review a few types.</p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">AWS::EC2::Instance</span></code>: EC2 Instance &lt;-&gt; Nova Server</li>
+<li><code class="docutils literal"><span class="pre">AWS::EC2::SecurityGroup</span></code>: EC2 Security Group &lt;-&gt; OpenStack Security Group</li>
+<li><code class="docutils literal"><span class="pre">AWS::EC2::Volume</span></code>: AWS Elastic Block Store volume &lt;-&gt;  OpenStack Cinder
+Volume</li>
+</ul>
+<p>Currently, 25 resource types are compatible with AWS, AWS supports 88 resource
+types on Amazon Cloud though.</p>
+<p>For more information,</p>
+<ul class="simple">
+<li>find supported AWS resource types on OpenStack:
+<a class="reference external" href="http://docs.openstack.org/hot-reference/content/cloudformation-compatible-resource-types.html">http://docs.openstack.org/hot-reference/content/cloudformation-compatible-resource-types.html</a></li>
+<li>see a full list of  AWS resource types:
+<a class="reference external" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html">http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html</a></li>
+</ul>
+</div>
+<div class="section" id="template-in-yaml">
+<h3>Template in YAML<a class="headerlink" href="#template-in-yaml" title="Permalink to this headline">¶</a></h3>
+<p>OpenStack Heat templates are written in a YAML file format which is easy to
+read and write.  The following template is an example of a launching a VM
+server with Ubuntu 14.04 image and 1 vCPU and 2GB memories (m1.small flavor).</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">heat_template_version</span><span class="p">:</span> <span class="mi">2013</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">23</span>
+
+<span class="n">description</span><span class="p">:</span> <span class="n">Simple</span> <span class="n">template</span> <span class="n">to</span> <span class="n">deploy</span> <span class="n">a</span> <span class="n">single</span> <span class="n">compute</span> <span class="n">instance</span> <span class="n">on</span> <span class="n">FutureSystems</span>
+
+<span class="n">resources</span><span class="p">:</span>
+  <span class="n">my_instance</span><span class="p">:</span>
+    <span class="nb">type</span><span class="p">:</span> <span class="n">OS</span><span class="p">::</span><span class="n">Nova</span><span class="p">::</span><span class="n">Server</span>
+    <span class="n">properties</span><span class="p">:</span>
+      <span class="n">key_name</span><span class="p">:</span> <span class="n">albert</span><span class="o">-</span><span class="n">india</span><span class="o">-</span><span class="n">key</span>
+      <span class="n">image</span><span class="p">:</span> <span class="n">futuresystems</span><span class="o">/</span><span class="n">ubuntu</span><span class="o">-</span><span class="mf">14.04</span>
+      <span class="n">flavor</span><span class="p">:</span> <span class="n">m1</span><span class="o">.</span><span class="n">small</span>
+</pre></div>
+</div>
+<p>Heat template starts with a <code class="docutils literal"><span class="pre">heat_template_version</span></code> key to indicate supported
+features and resource types. The following values are supported:</p>
+<ul class="simple">
+<li>2013-05-23: supports features until the Icehouse release.</li>
+<li>2014-10-16: supports features until the Juno release.</li>
+<li>2015-04-30: supports features until the Kilo release.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="use-of-openstack-heat-on-futuresystems">
+<h2>Use of OpenStack Heat on FutureSystems<a class="headerlink" href="#use-of-openstack-heat-on-futuresystems" title="Permalink to this headline">¶</a></h2>
+<p>We start learning OpenStack Heat on india.futuresystems.org. You can use Heat
+on FutureSystems via a web interface Horizon or a command line tool (Heat CLI).
+On a Horizon dashboard, graphical resource topology is displayed and relations
+of connected resources are also presented in a canvas. If you use command line
+tools, various command options (which might not be visible on a web) and
+debugging messages are available.</p>
+<div class="section" id="horizon-on-futuresystems">
+<h3>Horizon on FutureSystems<a class="headerlink" href="#horizon-on-futuresystems" title="Permalink to this headline">¶</a></h3>
+<p>The Horizon on FutureSystems is at:
+<a class="reference external" href="https://openstack-j.india.futuresystems.org/horizon/project/">https://openstack-j.india.futuresystems.org/horizon/project/</a></p>
+<p>For more details of Horizon:
+<a class="reference external" href="../iaas/openstack_horizon.html">OpenStack Web Dashboard (Horizon)</a></p>
+</div>
+<div class="section" id="heat-client-tool">
+<h3>Heat Client Tool<a class="headerlink" href="#heat-client-tool" title="Permalink to this headline">¶</a></h3>
+<p>If you&#8217;d like to use Heat Client Tool (heat CLI), you
+simply run the following commands on india.futuresystems.org:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>module load openstack
+source $HOME/.cloudmesh/clouds/india/juno/openrc.sh
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>If you run OpenStack Havana, try the following commands:</p>
+<p class="last">module load openstack-havana;
+module load heatclient;
+source $HOME/.cloudmesh/clouds/india/havana/novarc;</p>
+</div>
+<p><code class="docutils literal"><span class="pre">module</span> <span class="pre">load</span> <span class="pre">openstack</span></code> enables Heat CLI on your shell.</p>
+</div>
+<div class="section" id="stack-list">
+<h3>Stack List<a class="headerlink" href="#stack-list" title="Permalink to this headline">¶</a></h3>
+<p>You can see running stacks with the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ heat stack-list
++----+------------+--------------+---------------+
+| id | stack_name | stack_status | creation_time |
++----+------------+--------------+---------------+
++----+------------+--------------+---------------+
+</pre></div>
+</div>
+<p>A <code class="docutils literal"><span class="pre">stack</span></code> is cloud resources that you use with your selected Heat Template. If
+you deployed 5 VM instances with 2 floating IP addresses and 1 security group,
+all of these resources fall into a single stack on OpenStack.</p>
+</div>
+<div class="section" id="stack-creation">
+<h3>Stack Creation<a class="headerlink" href="#stack-creation" title="Permalink to this headline">¶</a></h3>
+<p>You need a template first. Save a sample template above in a YAML file, e.g.
+<code class="docutils literal"><span class="pre">openstack_heat_ex1.yaml</span></code> It will create a new VM instance with a <code class="docutils literal"><span class="pre">Ubuntu</span>
+<span class="pre">14.04</span></code> image, <code class="docutils literal"><span class="pre">albert-india-key</span></code> SSH keypair and a <code class="docutils literal"><span class="pre">m1.small</span></code> flavor.  You
+have to <strong>REPLACE</strong> <code class="docutils literal"><span class="pre">albert-india-key</span></code> with your registered keyname.</p>
+<p>If you are ready to create a new stack, run a following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>heat stack-create --template-file openstack_heat_ex1.yaml heat-tutorial-$OS_USERNAME
+</pre></div>
+</div>
+<ul class="simple">
+<li>You started a stack with a parameter for a template file <code class="docutils literal"><span class="pre">--template-file</span></code>.</li>
+<li><code class="docutils literal"><span class="pre">heat-tutorial-$OS_USERNAME</span></code> is a your stack name, you can use other names.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you have a template file on the web, you can use a URL with
+<code class="docutils literal"><span class="pre">--template-url</span></code> parameter.</p>
+</div>
+<p>The sample output is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+--------------------------------------+------------+--------------------+----------------------+</span>
+<span class="o">|</span> <span class="nb">id</span>                                   <span class="o">|</span> <span class="n">stack_name</span> <span class="o">|</span> <span class="n">stack_status</span>       <span class="o">|</span> <span class="n">creation_time</span>        <span class="o">|</span>
+<span class="o">+--------------------------------------+------------+--------------------+----------------------+</span>
+<span class="o">|</span> <span class="n">a6c98d15</span><span class="o">-</span><span class="n">f569</span><span class="o">-</span><span class="mi">426</span><span class="n">b</span><span class="o">-</span><span class="n">a364</span><span class="o">-</span><span class="mi">46</span><span class="n">bcca831049</span> <span class="o">|</span> <span class="n">heat</span><span class="o">-</span><span class="n">tut</span><span class="o">...|</span> <span class="n">CREATE_IN_PROGRESS</span> <span class="o">|</span> <span class="mi">2015</span><span class="o">-</span><span class="mi">04</span><span class="o">-</span><span class="mi">02</span><span class="n">T06</span><span class="p">:</span><span class="mi">15</span><span class="p">:</span><span class="mi">56</span><span class="n">Z</span> <span class="o">|</span>
+<span class="o">+--------------------------------------+------------+--------------------+----------------------+</span>
+</pre></div>
+</div>
+<p>As you can see your stack is being processed. You can see more details with the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>heat stack-show heat-tutorial-$OS_USERNAME
+</pre></div>
+</div>
+<p>The output looks like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+----------------------+----------------------------------------------------------------------------+</span>
+<span class="o">|</span> <span class="n">Property</span>             <span class="o">|</span> <span class="n">Value</span>                                                                      <span class="o">|</span>
+<span class="o">+----------------------+----------------------------------------------------------------------------+</span>
+<span class="o">|</span> <span class="n">capabilities</span>         <span class="o">|</span> <span class="p">[]</span>                                                                         <span class="o">|</span>
+<span class="o">|</span> <span class="n">creation_time</span>        <span class="o">|</span> <span class="mi">2015</span><span class="o">-</span><span class="mi">04</span><span class="o">-</span><span class="mi">02</span><span class="n">T06</span><span class="p">:</span><span class="mi">15</span><span class="p">:</span><span class="mi">56</span><span class="n">Z</span>                                                       <span class="o">|</span>
+<span class="o">|</span> <span class="n">description</span>          <span class="o">|</span> <span class="n">Simple</span> <span class="n">template</span> <span class="n">to</span> <span class="n">deploy</span> <span class="n">a</span> <span class="n">single</span> <span class="n">compute</span> <span class="n">instance</span> <span class="n">on</span> <span class="n">FutureSystems</span>       <span class="o">|</span>
+<span class="o">|</span> <span class="n">disable_rollback</span>     <span class="o">|</span> <span class="kc">True</span>                                                                       <span class="o">|</span>
+<span class="o">|</span> <span class="nb">id</span>                   <span class="o">|</span> <span class="n">a6c98d15</span><span class="o">-</span><span class="n">f569</span><span class="o">-</span><span class="mi">426</span><span class="n">b</span><span class="o">-</span><span class="n">a364</span><span class="o">-</span><span class="mi">46</span><span class="n">bcca83104</span>                                        <span class="o">|</span>
+<span class="o">|</span> <span class="n">links</span>                <span class="o">|</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">xxx</span><span class="o">.</span><span class="n">futuregrid</span><span class="o">.</span><span class="n">org</span><span class="p">:</span><span class="n">xxx</span><span class="o">/</span><span class="n">v1</span><span class="o">/.../</span><span class="n">stacks</span><span class="o">/../..</span> <span class="p">(</span><span class="bp">self</span><span class="p">)</span>                   <span class="o">|</span>
+<span class="o">|</span> <span class="n">notification_topics</span>  <span class="o">|</span> <span class="p">[]</span>                                                                         <span class="o">|</span>
+<span class="o">|</span> <span class="n">parameters</span>           <span class="o">|</span> <span class="p">{</span>                                                                          <span class="o">|</span>
+<span class="o">|</span>                      <span class="o">|</span>   <span class="s2">&quot;OS::stack_id&quot;</span><span class="p">:</span> <span class="s2">&quot;a6c98d15-f569-426b-a364-46bcca83104&quot;</span><span class="p">,</span>                   <span class="o">|</span>
+<span class="o">|</span>                      <span class="o">|</span>   <span class="s2">&quot;OS::stack_name&quot;</span><span class="p">:</span> <span class="s2">&quot;heat-tutorial-albert&quot;</span><span class="p">,</span>                                <span class="o">|</span>
+<span class="o">|</span>                      <span class="o">|</span>   <span class="s2">&quot;instance_type&quot;</span><span class="p">:</span> <span class="s2">&quot;m1.small&quot;</span><span class="p">,</span>                                             <span class="o">|</span>
+<span class="o">|</span>                      <span class="o">|</span>   <span class="s2">&quot;image_id&quot;</span><span class="p">:</span> <span class="s2">&quot;futuresystems/ubuntu-14.04&quot;</span><span class="p">,</span>                                <span class="o">|</span>
+<span class="o">|</span>                      <span class="o">|</span>   <span class="s2">&quot;key_name&quot;</span><span class="p">:</span> <span class="s2">&quot;albert-india-key&quot;</span>                                           <span class="o">|</span>
+<span class="o">|</span>                      <span class="o">|</span> <span class="p">}</span>                                                                          <span class="o">|</span>
+<span class="o">|</span> <span class="n">parent</span>               <span class="o">|</span> <span class="kc">None</span>                                                                       <span class="o">|</span>
+<span class="o">|</span> <span class="n">stack_name</span>           <span class="o">|</span> <span class="n">heat</span><span class="o">-</span><span class="n">tutorial</span><span class="o">-</span><span class="n">albert</span>                                                       <span class="o">|</span>
+<span class="o">|</span> <span class="n">stack_owner</span>          <span class="o">|</span> <span class="n">albert</span>                                                                     <span class="o">|</span>
+<span class="o">|</span> <span class="n">stack_status</span>         <span class="o">|</span> <span class="n">CREATE_COMPLETE</span>                                                            <span class="o">|</span>
+<span class="o">|</span> <span class="n">stack_status_reason</span>  <span class="o">|</span> <span class="n">Stack</span> <span class="n">CREATE</span> <span class="n">completed</span> <span class="n">successfully</span>                                        <span class="o">|</span>
+<span class="o">|</span> <span class="n">template_description</span> <span class="o">|</span> <span class="n">Simple</span> <span class="n">template</span> <span class="n">to</span> <span class="n">deploy</span> <span class="n">a</span> <span class="n">single</span> <span class="n">compute</span> <span class="n">instance</span> <span class="n">on</span> <span class="n">FutureSystems</span>       <span class="o">|</span>
+<span class="o">|</span> <span class="n">updated_time</span>         <span class="o">|</span> <span class="kc">None</span>                                                                       <span class="o">|</span>
+<span class="o">+----------------------+----------------------------------------------------------------------------+</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id1">
+<h3>Stack List<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">heat</span> <span class="n">stack</span><span class="o">-</span><span class="nb">list</span> <span class="p">[</span><span class="n">STACK_NAME</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>If you have VM instances in your stack, you can see running instances.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="nb">list</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="stack-deletion">
+<h3>Stack Deletion<a class="headerlink" href="#stack-deletion" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">heat</span> <span class="n">stack</span><span class="o">-</span><span class="n">delete</span> <span class="p">[</span><span class="n">STACK_NAME</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="samples-of-heat-templates">
+<h3>Samples of Heat Templates<a class="headerlink" href="#samples-of-heat-templates" title="Permalink to this headline">¶</a></h3>
+<p>You can find examples of the Heat templates.</p>
+<p><a class="reference external" href="https://github.com/openstack/heat-templates/blob/master/hot/">https://github.com/openstack/heat-templates/blob/master/hot/</a></p>
+</div>
+</div>
+<div class="section" id="exercises">
+<span id="ref-class-lesson-devops-openstack-heat-exercises"></span><h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="exercise-i">
+<h3>Exercise I<a class="headerlink" href="#exercise-i" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Try to create a two VM instances with the following conditions:</p>
+<ul class="simple">
+<li>futuresystems/ubuntu14.04</li>
+<li>m1.small</li>
+<li>Port 22, 80, and 443 are open</li>
+<li>Save your OpenStack Heat template in <code class="docutils literal"><span class="pre">$USERNAME_heat_ex1.yaml</span></code></li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>The following documents will be useful:</p>
+<ul class="last simple">
+<li><a class="reference external" href="http://docs.openstack.org/developer/heat/template_guide/hot_spec.html#hot-spec">Heat Orchestration Template (HOT) Specification</a></li>
+<li><a class="reference external" href="http://docs.openstack.org/developer/heat/template_guide/hot_guide.html">Heat Orchestration (HOT) Guide</a></li>
+<li><a class="reference external" href="http://docs.openstack.org/hot-reference/content/openstack-resource-types.html">OpenStack Researce Types</a><ul>
+<li><a class="reference external" href="http://docs.openstack.org/hot-reference/content/OS__Neutron__SecurityGroup.html">OS::Neutron::SecurityGroup</a></li>
+<li><a class="reference external" href="http://docs.openstack.org/hot-reference/content/OS__Neutron__Port.html">OS::Neutron::Port</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="https://github.com/futuresystems/class-bigdata-technology-spring-2015/blob/master/heat-template.yaml">Sample Heat template</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="exercise-ii">
+<h3>Exercise II<a class="headerlink" href="#exercise-ii" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Start a WordPress web service using Heat template on the web. The required
+conditions are:</p>
+<ul class="simple">
+<li>Use <a class="reference external" href="https://raw.githubusercontent.com/cloudmesh/cloudmesh/dev2.0/heat-templates/fedora-21/wordpress.yaml">Template for WordPress on Fedora21</a></li>
+<li>Make sure to specify your key using the <code class="docutils literal"><span class="pre">key_name</span></code> parameter</li>
+<li>Once you successfully created a WordPress stack, checkout the index page.
+<code class="docutils literal"><span class="pre">curl</span> <span class="pre">-L</span> <span class="pre">http://[IP</span> <span class="pre">ADDRESS]/wordpress</span></code> produces the index page in a text mode.</li>
+<li>If your web browser opens the page properly, your WordPress is created successfully.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>Examine the documentation for the <code class="docutils literal"><span class="pre">heat</span></code> subcommands
+<code class="docutils literal"><span class="pre">stack-create</span></code> and <code class="docutils literal"><span class="pre">stack-show</span></code> like so:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ heat help &lt;subcommand&gt;
+</pre></div>
+</div>
+<p class="last">replacing <code class="docutils literal"><span class="pre">&lt;subcommand&gt;</span></code> as appropriate.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The IP address of your instance is listed as an output
+value. Make sure to examine your stack to get the location of the
+instance.</p>
+</div>
+</li>
+<li><p class="first">Submission</p>
+<p>You will need to turn in a typescript of your terminal session.
+Do so by executing:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ script heat_ex2_$OS_USERNAME.typescript
+</pre></div>
+</div>
+<p>and then proceed with this exercise. Upon completion, make sure to
+type <code class="docutils literal"><span class="pre">exit</span></code> to end the typescripting. The contents of the session
+will be found in the <code class="docutils literal"><span class="pre">heat_ex2_$OS_USERNAME.typescript</span></code> file.</p>
+</li>
+<li><p class="first">If you&#8217;d like to use Horizon web dashboard, you need to find &#8220;Orchestration &gt;
+Stacks&#8221; menu.</p>
+<ul class="simple">
+<li>Make a screenshot of the page at <code class="docutils literal"><span class="pre">Stacks</span> <span class="pre">&gt;</span> <span class="pre">Topology</span></code></li>
+<li>Make a screenshot of the page at <code class="docutils literal"><span class="pre">Stacks</span> <span class="pre">&gt;</span> <span class="pre">Overview</span></code></li>
+<li>Make a screenshot of the page at <code class="docutils literal"><span class="pre">Stacks</span> <span class="pre">&gt;</span> <span class="pre">Resources</span></code></li>
+<li>Make a screenshot of the page at <code class="docutils literal"><span class="pre">Stacks</span> <span class="pre">&gt;</span> <span class="pre">Events</span></code></li>
+<li>Submit your screen shots.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<p>If you&#8217;d like to learn more about OpenStack Heat? Please follow the links
+below:</p>
+<ul class="simple">
+<li>Heat Documentation: <a class="reference external" href="http://docs.openstack.org/developer/heat/">http://docs.openstack.org/developer/heat/</a></li>
+<li>Heat Template Guide:
+<a class="reference external" href="http://docs.openstack.org/developer/heat/template_guide/index.html">http://docs.openstack.org/developer/heat/template_guide/index.html</a></li>
+</ul>
+</div>
+<div class="section" id="glossary">
+<h2>Glossary<a class="headerlink" href="#glossary" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Stack: A collection of instantiated resources that are defined in a single
+template.</li>
+<li>Template: An orchestration document that details everything needed to carry
+out an orchestration.</li>
+<li>Orchestration:
+Arrange or direct the elements of a situation to produce a desired effect.</li>
+<li>Resource:
+An element of OpenStack infrastructure instantiated from a particular
+resource provider.</li>
+</ul>
+<p>More glossary are:
+<a class="reference external" href="http://docs.openstack.org/developer/heat/glossary.html">http://docs.openstack.org/developer/heat/glossary.html</a></p>
+</div>
+<div class="section" id="next-step">
+<h2>Next Step<a class="headerlink" href="#next-step" title="Permalink to this headline">¶</a></h2>
+<p>In the next page, Ubuntu Juju will be discussed.</p>
+<p><a class="reference internal" href="juju.html#ref-class-lesson-devops-juju"><span class="std std-ref">Ubuntu Juju</span></a></p>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="openmpi_cluster.html"  title="OpenMPI Virtual Cluster (Under Preparation)">&laquo; previous</a></span>
+			<span><a href="../../genindex.html"  title="General Index">index</a></span>
+				<span><a href="other.html"  title="Other (Under Preparation)">next &raquo;</a></span></div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abdul-Wahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>

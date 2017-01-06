@@ -1,0 +1,403 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Docker Basics on FutureSystems | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="Docker Basics on FutureSystems | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/tech/docker.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown ">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="docker-basics-on-futuresystems">
+<span id="ref-class-lesson-docker"></span><h1>Docker Basics on FutureSystems<a class="headerlink" href="#docker-basics-on-futuresystems" title="Permalink to this headline">¶</a></h1>
+<p>Docker is an image-based resource isolation software by using operating system
+level virtualization.  Docker host runs software containers which deploy
+applications with its environments. You can easily share your application using
+Docker container across different platforms or operating systems.  This
+section, we introduce basic commands of <code class="docutils literal"><span class="pre">docker</span></code> to explore Docker software
+on FutureSystems.  In the next section, we will explore advanced use of
+<code class="docutils literal"><span class="pre">docker</span></code> with Cloudmesh on FutureSystems.</p>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">approximate time 1 hour</p>
+</div>
+<p>In this tutorial, we are going to learn basic commands of Docker.
+Keep in mind that <code class="docutils literal"><span class="pre">docker</span></code> is a main program and <code class="docutils literal"><span class="pre">container</span></code> is an image
+that you would like to use. You may have several containers in your docker.</p>
+<p>The commands will be covered:</p>
+<ul class="simple">
+<li>Start a container (run)</li>
+<li>List containers (ps)</li>
+<li>Logs (logs)</li>
+<li>Search containers (search)</li>
+<li>Stop and delete a container (stop, rm)</li>
+</ul>
+<div class="section" id="docker-installation">
+<h3>Docker Installation<a class="headerlink" href="#docker-installation" title="Permalink to this headline">¶</a></h3>
+<p>We use Ubuntu package tool <cite>apt-get</cite> to download and install Docker.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">docker</span><span class="o">.</span><span class="n">io</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">To get the latest version, try this:
+curl -sSL <a class="reference external" href="https://get.docker.com/ubuntu/">https://get.docker.com/ubuntu/</a> | sudo sh</p>
+</div>
+</div>
+<div class="section" id="example-i-hello-world">
+<h3>Example I: &#8220;Hello, World&#8221;<a class="headerlink" href="#example-i-hello-world" title="Permalink to this headline">¶</a></h3>
+<p>Run a simple command &#8220;Hello, World&#8221;.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">it</span> <span class="n">ubuntu</span> <span class="n">echo</span> <span class="s2">&quot;Hello, World&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="shell-prompt-in-docker-container">
+<h3>Shell Prompt in Docker Container<a class="headerlink" href="#shell-prompt-in-docker-container" title="Permalink to this headline">¶</a></h3>
+<p>Docker command has a sub-command <code class="docutils literal"><span class="pre">run</span></code> to execute containers with a few
+parameters.  In this example, we use Ubuntu 14.04 image to get bash shell
+prompt.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">i</span> <span class="o">-</span><span class="n">t</span> <span class="n">ubuntu</span><span class="p">:</span><span class="mf">14.04</span> <span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">bash</span>
+</pre></div>
+</div>
+<p>You expect to see results like so:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">root</span><span class="nd">@8110bb395822</span><span class="p">:</span><span class="o">/</span><span class="c1">#</span>
+</pre></div>
+</div>
+<p>Type <code class="docutils literal"><span class="pre">exit</span></code> to quit the shell and return to Docker host.</p>
+</div>
+<div class="section" id="example-ii-apache-tomcat-server-on-docker">
+<h3>Example II: Apache Tomcat Server on Docker<a class="headerlink" href="#example-ii-apache-tomcat-server-on-docker" title="Permalink to this headline">¶</a></h3>
+<p>It&#8217;s easy to deploy Apache Tomcat using Docker. Please run the following
+command: (sudo is suppressed)</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">d</span> <span class="o">-</span><span class="n">p</span> <span class="mi">80</span><span class="p">:</span><span class="mi">8080</span> <span class="n">tomcat</span><span class="p">:</span><span class="mf">8.0</span>
+</pre></div>
+</div>
+<p>It downloads tomcat image from Docker Hub and connects 80 port to 8080 port.
+So, if you open a web browser <code class="docutils literal"><span class="pre">http://localhost</span></code> or <code class="docutils literal"><span class="pre">http://ip</span> <span class="pre">address</span> <span class="pre">of</span>
+<span class="pre">host</span></code> your connection forwards to the container 8080 port. <code class="docutils literal"><span class="pre">-d</span></code> option
+daemonizes the container.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Did you see <code class="docutils literal"><span class="pre">Unable</span> <span class="pre">to</span> <span class="pre">find</span> <span class="pre">image</span> <span class="pre">'tomcat:8.0'</span> <span class="pre">locally</span></code>?
+Your Docker will find <code class="docutils literal"><span class="pre">tomcat</span></code> from Docker Hub and download it to
+your local.</p>
+</div>
+</div>
+<div class="section" id="listing-containers">
+<h3>Listing Containers<a class="headerlink" href="#listing-containers" title="Permalink to this headline">¶</a></h3>
+<p>We use <code class="docutils literal"><span class="pre">ps</span></code> sub command to list available containers.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">ps</span>
+</pre></div>
+</div>
+<p>You expect to see results like so:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CONTAINER</span> <span class="n">ID</span>        <span class="n">IMAGE</span>                        <span class="n">COMMAND</span>             <span class="n">CREATED</span>             <span class="n">STATUS</span>              <span class="n">PORTS</span>                    <span class="n">NAMES</span>
+<span class="mi">4690</span><span class="n">a7973fef</span>        <span class="n">tomcat</span><span class="p">:</span><span class="mf">8.0</span>                   <span class="s2">&quot;catalina.sh run&quot;</span>   <span class="mi">8</span> <span class="n">seconds</span> <span class="n">ago</span>       <span class="n">Up</span> <span class="mi">5</span> <span class="n">seconds</span>        <span class="mf">0.0</span><span class="o">.</span><span class="mf">0.0</span><span class="p">:</span><span class="mi">8888</span><span class="o">-&gt;</span><span class="mi">8080</span><span class="o">/</span><span class="n">tcp</span>   <span class="n">adoring_lalande</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="logs-of-container">
+<h3>Logs of Container<a class="headerlink" href="#logs-of-container" title="Permalink to this headline">¶</a></h3>
+<p>You can find out details of your container by looking at log messages. Use
+<code class="docutils literal"><span class="pre">NAMES</span></code> from previous command.  This example we use <code class="docutils literal"><span class="pre">adoring_lalande</span></code> for
+your tomcat:8.0 container.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">logs</span> <span class="o">-</span><span class="n">f</span> <span class="n">adoring_lalande</span>
+</pre></div>
+</div>
+<p>Logs look like so:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.524</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">Server</span> <span class="n">version</span><span class="p">:</span>        <span class="n">Apache</span> <span class="n">Tomcat</span><span class="o">/</span><span class="mf">8.0</span><span class="o">.</span><span class="mi">18</span>
+<span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.526</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">Server</span> <span class="n">built</span><span class="p">:</span>          <span class="n">Jan</span> <span class="mi">23</span> <span class="mi">2015</span> <span class="mi">11</span><span class="p">:</span><span class="mi">56</span><span class="p">:</span><span class="mi">07</span> <span class="n">UTC</span>
+<span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.526</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">Server</span> <span class="n">number</span><span class="p">:</span>         <span class="mf">8.0</span><span class="o">.</span><span class="mf">18.0</span>
+<span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.526</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">OS</span> <span class="n">Name</span><span class="p">:</span>               <span class="n">Linux</span>
+<span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.526</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">OS</span> <span class="n">Version</span><span class="p">:</span>            <span class="mf">3.13</span><span class="o">.</span><span class="mi">0</span><span class="o">-</span><span class="mi">44</span><span class="o">-</span><span class="n">generic</span>
+<span class="o">...</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="search-containers">
+<h3>Search Containers<a class="headerlink" href="#search-containers" title="Permalink to this headline">¶</a></h3>
+<p>If you are looking for other containers, <code class="docutils literal"><span class="pre">search</span></code> command is useful to find.</p>
+<p>For example, try to find <code class="docutils literal"><span class="pre">ipython</span></code> containers.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">search</span> <span class="n">ipython</span>
+</pre></div>
+</div>
+<p>You expect to see results like so:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">NAME</span>                                <span class="n">DESCRIPTION</span>                                     <span class="n">STARS</span>     <span class="n">OFFICIAL</span>   <span class="n">AUTOMATED</span>
+<span class="n">ipython</span><span class="o">/</span><span class="n">scipyserver</span>                 <span class="n">IPython</span> <span class="n">notebook</span> <span class="n">server</span> <span class="k">with</span> <span class="n">the</span> <span class="n">full</span> <span class="n">SciP</span><span class="o">...</span>   <span class="mi">36</span>                   <span class="p">[</span><span class="n">OK</span><span class="p">]</span>
+<span class="n">ipython</span><span class="o">/</span><span class="n">notebook</span>                    <span class="n">The</span> <span class="n">most</span> <span class="n">recent</span> <span class="n">version</span> <span class="n">of</span> <span class="n">IPython</span><span class="p">,</span> <span class="n">config</span><span class="o">...</span>   <span class="mi">35</span>                   <span class="p">[</span><span class="n">OK</span><span class="p">]</span>
+<span class="n">ipython</span><span class="o">/</span><span class="n">scipystack</span>                                                                  <span class="mi">10</span>                   <span class="p">[</span><span class="n">OK</span><span class="p">]</span>
+<span class="o">...</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last"><code class="docutils literal"><span class="pre">STARS</span></code> indicates popular containers.</p>
+</div>
+</div>
+<div class="section" id="stop-and-delete-container">
+<h3>Stop and Delete Container<a class="headerlink" href="#stop-and-delete-container" title="Permalink to this headline">¶</a></h3>
+<p>Like stopping and terminating a virtual instance, docker stops and deletes its
+container with two commands: <code class="docutils literal"><span class="pre">stop</span></code> and <code class="docutils literal"><span class="pre">rm</span></code> We use <code class="docutils literal"><span class="pre">NAMES</span></code> from <code class="docutils literal"><span class="pre">docker</span>
+<span class="pre">ps</span></code> command. This example we use <code class="docutils literal"><span class="pre">adoring_lalande</span></code> for your tomcat:8.0
+container.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">stop</span> <span class="n">adoring_lalande</span>
+</pre></div>
+</div>
+<p>After stopping the container, you can delete it.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">rm</span> <span class="n">adoring_lalande</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="review-docker-commands">
+<h2>Review Docker Commands<a class="headerlink" href="#review-docker-commands" title="Permalink to this headline">¶</a></h2>
+<p>We have learned some Docker commands. These are basic commands for Docker
+software.</p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">run</span></code>: runs a container. <code class="docutils literal"><span class="pre">-it</span></code> option allows you an interactive
+mode. <code class="docutils literal"><span class="pre">-d</span></code> option daemonizes your container.</li>
+<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">logs</span></code>: displays log messages.</li>
+<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">ps</span></code>: shows available containers.</li>
+<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">search</span></code>: searches containers from Docker Hub.</li>
+<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">stop</span></code>: stops your container.</li>
+<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">rm</span></code>: deletes your container image.</li>
+</ul>
+</div>
+<div class="section" id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<p>The main tutorial from Docker is here:
+<a class="reference external" href="https://docs.docker.com/installation/ubuntulinux/">https://docs.docker.com/installation/ubuntulinux/</a></p>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="../../genindex.html"  title="General Index">index</a></span>
+				</div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abdul-Wahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>

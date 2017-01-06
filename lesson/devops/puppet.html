@@ -1,0 +1,554 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Puppet | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="Puppet | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/devops/puppet.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		<li><a href="overview_vc.html"  title="Overview Virtual Cluster (under preparation)">&laquo; previous</a></li>
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+		
+		
+
+	
+		<li><a href="saltstack-ex1-output.html"  title="Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution">next &raquo;</a></li>
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	
+		<ul class="breadcrumbs">
+			
+		  	<li><a href="../../index.html">Big Data Classes</a></li>
+
+		  	
+		  		<li><a href="../index.html">Lessons</a></li>
+		  		<li><a href="index.html">&lt;no title&gt;</a></li>
+
+		  	
+			<li class="current"><a href="">Puppet</a></li>
+		</ul>
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="puppet">
+<span id="ref-class-lesson-devops-puppet"></span><h1>Puppet<a class="headerlink" href="#puppet" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>This lesson will introduce you to a very important topic to Puppet, an open
+source configuration management tool.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Duration: 1 hour</p>
+</div>
+</div>
+<div class="section" id="prerequisite">
+<h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
+<p>In order to conduct this lesson you should have knowledge of</p>
+<ul class="simple">
+<li><a class="reference external" href="../iaas/openstack.html">OpenStack for Beginners</a></li>
+</ul>
+</div>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>Puppet is an open source configuration management software to configure systems
+declaratively. If you describe system resources and configurations using
+Puppet&#8217;s declarative language (combination of JSON and Ruby) or Ruby DSL
+(Domain Specific Language), Puppet discovers servers (nodes) and applies the
+instructions that you described to the target machines. Puppet manages
+configurations and installations with a client-server model like Chef.  You
+need to use command line tools or web interfaces to communicate with a Puppet
+server. There are many similar features and functionalities between Chef and
+Puppet. Try to compare these two tools when you use their commands tools or
+write the scripts. Chef calls the script as a <code class="docutils literal"><span class="pre">Recipe</span></code>, and Puppet calls it
+as a <code class="docutils literal"><span class="pre">manifest</span></code>.</p>
+<div class="section" id="open-source-puppet">
+<h3>Open Source Puppet<a class="headerlink" href="#open-source-puppet" title="Permalink to this headline">¶</a></h3>
+<p>Puppet Labs supports Puppet software in two different versions. This lesson
+uses an open source Puppet instead of Puppet Enterprise which is a commercial
+version of Puppet. A few features are only available in the Enterprise version
+but the core parts of Puppet are identical in both.</p>
+</div>
+</div>
+<div class="section" id="installation-puppet">
+<h2>Installation Puppet<a class="headerlink" href="#installation-puppet" title="Permalink to this headline">¶</a></h2>
+<p>This lesson is based on FutureSystems which means you create a VM instance on
+India OpenStack and install Puppet on top of it. If you prefer to use other
+virtual environments, we recommend to use Vagrant and VirtualBox.</p>
+<p>We assume you use a OpenStack instance on FutureSystems.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If don&#8217;t know how to launch a new instance? <a class="reference external" href="../iaas/openstack.html#launching-a-new-instance">See here</a></p>
+</div>
+<div class="section" id="guideline-on-india-futuresystems">
+<h3>Guideline on India FutureSystems<a class="headerlink" href="#guideline-on-india-futuresystems" title="Permalink to this headline">¶</a></h3>
+<p>You <em>DON&#8217;T</em> install Puppet on India. If you see the cursor like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[albert@i136 ~]$
+</pre></div>
+</div>
+<p>You <em>should NOT</em> install any program.</p>
+<p>You have to log into <em>your VM instance</em> to install Puppet. <code class="docutils literal"><span class="pre">i136</span></code> is a India
+login node which is like a gateway.  You are supposed not to perform any tasks
+on India, especially if you require <code class="docutils literal"><span class="pre">root</span></code> privileges. Please create a VM
+instance on India OpenStack and SSH into your VM to run and install your
+software. You will have a full access of your virtual machine instance.</p>
+<div class="section" id="quick-instructions">
+<h4>Quick instructions<a class="headerlink" href="#quick-instructions" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><p class="first">Launch a VM instance is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>nova boot --flavor m1.small --image futuresystems/ubuntu-14.04 --key_name $USER-key $USER-puppet
+</pre></div>
+</div>
+</li>
+<li><p class="first">Once your VM instance is ready, try to login using SSH:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ssh</span> <span class="n">ubuntu</span><span class="o">@</span><span class="p">[</span><span class="n">IP</span> <span class="n">ADDRESS</span><span class="p">]</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="puppet-on-ubuntu-14-04-standalone-mode">
+<h3>Puppet on Ubuntu 14.04 (Standalone Mode)<a class="headerlink" href="#puppet-on-ubuntu-14-04-standalone-mode" title="Permalink to this headline">¶</a></h3>
+<p>Use a VM instance with a Ubuntu 14.04 image. The installation commands are:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">apt</span><span class="o">.</span><span class="n">puppetlabs</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">puppetlabs</span><span class="o">-</span><span class="n">release</span><span class="o">-</span><span class="n">trusty</span><span class="o">.</span><span class="n">deb</span>
+<span class="n">sudo</span> <span class="n">dpkg</span> <span class="o">-</span><span class="n">i</span> <span class="n">puppetlabs</span><span class="o">-</span><span class="n">release</span><span class="o">-</span><span class="n">trusty</span><span class="o">.</span><span class="n">deb</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">puppet</span>
+</pre></div>
+</div>
+<p>Check your installation:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">puppet</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>You expect to see 3.7.5 or higher version, otherwise your installation is incomplete.</p>
+</div>
+<div class="section" id="root-access">
+<h3><code class="docutils literal"><span class="pre">root</span></code> Access<a class="headerlink" href="#root-access" title="Permalink to this headline">¶</a></h3>
+<p>We will install Puppet and other software using <code class="docutils literal"><span class="pre">root</span></code> account. Using <code class="docutils literal"><span class="pre">root</span></code>
+account means that you have a permission to use entire system resources without
+any restriction. Since this lesson includes a couple of examples using Puppet, we
+strongly recommend to use OpenStack VM instance on FutureSystems. DON&#8217;T try to
+install Puppet on your local machine or on the <code class="docutils literal"><span class="pre">india.futuresystems.org</span></code> host.
+Use a benefit of VM instance which you can easily delete and re-create a new
+one.</p>
+<p>On a VM instance, simply run a switch user command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>ubuntu@puppet:~$ sudo su -
+</pre></div>
+</div>
+<p>If you see <code class="docutils literal"><span class="pre">root</span></code> label, you are in <code class="docutils literal"><span class="pre">root</span></code> account on your machine:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">root</span><span class="nd">@puppet</span><span class="p">:</span><span class="o">~</span><span class="c1">#</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="update-hostname">
+<h3>Update Hostname<a class="headerlink" href="#update-hostname" title="Permalink to this headline">¶</a></h3>
+<p>If you see <code class="docutils literal"><span class="pre">sudo:</span> <span class="pre">unable</span> <span class="pre">to</span> <span class="pre">resolve</span> <span class="pre">host</span></code>, try to add hostname with the
+following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">echo</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">127.0.1.1 $HOSTNAME&quot;</span> <span class="o">&gt;&gt;</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">hosts</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="a-puppet-template-manifest-pp">
+<h2>A Puppet Template - manifest (.pp)<a class="headerlink" href="#a-puppet-template-manifest-pp" title="Permalink to this headline">¶</a></h2>
+<p>You define system resources that you use in a puppet template, a manifest. It
+uses Puppet Domain Specific Language (DSL) which is a combination of JSON and
+Ruby. you describes resources such as file, package, or service to apply your
+instructions to target systems (nodes).</p>
+<div class="section" id="puppet-directory">
+<h3>Puppet Directory<a class="headerlink" href="#puppet-directory" title="Permalink to this headline">¶</a></h3>
+<p>You Puppet is ready to use on you VM instance. Let&#8217;s create a Puppet
+configuration file.  The installation process have created a Puppet directory
+under <code class="docutils literal"><span class="pre">/etc/</span></code>. (If it hasn&#8217;t, create it with <code class="docutils literal"><span class="pre">mkdir</span> <span class="pre">/etc/puppet</span></code>).</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">puppet</span><span class="o">/</span><span class="p">;</span>
+<span class="n">ls</span>
+</pre></div>
+</div>
+<p>You see files and directories like so:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">environments</span>  <span class="n">manifests</span>  <span class="n">modules</span>  <span class="n">puppet</span><span class="o">.</span><span class="n">conf</span>  <span class="n">templates</span>
+</pre></div>
+</div>
+<p>We&#8217;re going to use <code class="docutils literal"><span class="pre">manifests</span></code> directory to create a Puppet configuration file.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you don&#8217;t have one, run: <code class="docutils literal"><span class="pre">mkdir</span> <span class="pre">/etc/puppet/manifests</span></code></p>
+</div>
+</div>
+<div class="section" id="warning-setting-templatedir-is-deprecated">
+<h3>Warning: Setting templatedir is deprecated.<a class="headerlink" href="#warning-setting-templatedir-is-deprecated" title="Permalink to this headline">¶</a></h3>
+<p>If you encounter this warning message, you need to update your Puppet
+configuration file. Please update the following file using your editor, vi or
+nano:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">puppet</span><span class="o">/</span><span class="n">puppet</span><span class="o">.</span><span class="n">conf</span>
+</pre></div>
+</div>
+<p>The file contains:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[main]
+logdir=/var/log/puppet
+vardir=/var/lib/puppet
+ssldir=/var/lib/puppet/ssl
+rundir=/var/run/puppet
+factpath=$vardir/lib/facter
+templatedir=$confdir/templates
+
+..
+</pre></div>
+</div>
+<p>You need to <strong>REMOVE</strong> the <code class="docutils literal"><span class="pre">templatedir=</span></code> line, then you won&#8217;t see the
+warning message again.</p>
+<p>References of this issue are here:
+<a class="reference external" href="https://tickets.puppetlabs.com/browse/PUP-2566">https://tickets.puppetlabs.com/browse/PUP-2566</a>,
+<a class="reference external" href="https://docs.puppetlabs.com/puppet/3.7/reference/deprecated_settings.html#templatedir">https://docs.puppetlabs.com/puppet/3.7/reference/deprecated_settings.html#templatedir</a></p>
+</div>
+<div class="section" id="first-manifest-creating-a-file">
+<h3>First <code class="docutils literal"><span class="pre">manifest</span></code> - &#8220;Creating a file&#8221;<a class="headerlink" href="#first-manifest-creating-a-file" title="Permalink to this headline">¶</a></h3>
+<p>We are going to write a first Puppet manifest to create a single text file.</p>
+<p>Move to <code class="docutils literal"><span class="pre">manifests</span></code> directory. We will create a new file in the directory.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">puppet</span><span class="o">/</span><span class="n">manifests</span><span class="o">/</span>
+</pre></div>
+</div>
+<p>Open a new file <code class="docutils literal"><span class="pre">first-manifest.pp</span></code> with your editori, vi or nano.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>file { &quot;HelloWorld&quot;:
+    path =&gt; &quot;/tmp/HelloWorld.txt&quot;,
+    ensure =&gt; &quot;file&quot;,
+    owner  =&gt; &quot;root&quot;,
+    group  =&gt; &quot;root&quot;,
+    mode   =&gt; &quot;700&quot;,
+    content =&gt; &quot;Hello World!
+    The new file has been created by Puppet!&quot;,}
+</pre></div>
+</div>
+<p>Check you have created the first Puppet <code class="docutils literal"><span class="pre">manifest</span></code> file.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cat</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">puppet</span><span class="o">/</span><span class="n">manifests</span><span class="o">/</span><span class="n">first</span><span class="o">-</span><span class="n">manifest</span><span class="o">.</span><span class="n">pp</span>
+</pre></div>
+</div>
+<p>If you see same contents that you wrote, you are ready to apply your code to
+Puppet. We provided an instruction to create a particular file named
+&#8220;/tmp/HelloWorld.txt&#8221;. <code class="docutils literal"><span class="pre">ensure</span> <span class="pre">=&gt;</span> <span class="pre">&quot;file&quot;</span></code> means that Puppet need to confirm
+that there is a file with the path, owner, group and mode.</p>
+<p>This Puppet manifest does not only create a file but also check the options
+that we specified.  If there is changes in the file, Puppet inspects and get it
+right. For example, if the file name is changed, Puppet rename it to the
+original one <code class="docutils literal"><span class="pre">HelloWorld.txt</span></code>. If it does not exist, Puppet will create the
+file.  Puppet will correct the changes based on the instructions in the manifest
+file. You can run Puppet again and again to ensure that your instructions in the
+manifest file is valid.  Puppet will check and compare the state.</p>
+</div>
+<div class="section" id="puppet-apply-command">
+<h3><code class="docutils literal"><span class="pre">puppet</span> <span class="pre">apply</span></code> Command<a class="headerlink" href="#puppet-apply-command" title="Permalink to this headline">¶</a></h3>
+<p>This command simply executes your instructions in a <code class="docutils literal"><span class="pre">manifest</span> <span class="pre">(.pp)</span></code> file.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">puppet</span> <span class="n">apply</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">puppet</span><span class="o">/</span><span class="n">manifests</span><span class="o">/</span><span class="n">first</span><span class="o">-</span><span class="n">manifest</span><span class="o">.</span><span class="n">pp</span>
+</pre></div>
+</div>
+<p>You may see:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Notice</span><span class="p">:</span> <span class="n">Compiled</span> <span class="n">catalog</span> <span class="k">for</span> <span class="n">puppet</span><span class="o">.</span><span class="n">openstacklocal</span> <span class="ow">in</span> <span class="n">environment</span> <span class="n">production</span> <span class="ow">in</span> <span class="mf">0.06</span> <span class="n">seconds</span>
+<span class="n">Notice</span><span class="p">:</span> <span class="o">/</span><span class="n">Stage</span><span class="p">[</span><span class="n">main</span><span class="p">]</span><span class="o">/</span><span class="n">Main</span><span class="o">/</span><span class="n">File</span><span class="p">[</span><span class="n">first</span><span class="o">-</span><span class="n">manifest</span><span class="p">]</span><span class="o">/</span><span class="n">ensure</span><span class="p">:</span> <span class="n">defined</span> <span class="n">content</span> <span class="k">as</span> <span class="s1">&#39;</span><span class="si">{md5}</span><span class="s1">1a81759353d36dbd31059fc261af0aa2&#39;</span>
+<span class="n">Notice</span><span class="p">:</span> <span class="n">Finished</span> <span class="n">catalog</span> <span class="n">run</span> <span class="ow">in</span> <span class="mf">0.06</span> <span class="n">seconds</span>
+</pre></div>
+</div>
+<p>It&#8217;s quite simple, isn&#8217;t it? Let&#8217;s check out whether the file is created.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ls</span> <span class="o">-</span><span class="n">al</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">HelloWorld</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<p>You see similar like so:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">-</span><span class="n">rwx</span><span class="o">------</span> <span class="mi">1</span> <span class="n">root</span> <span class="n">root</span> <span class="mi">16</span> <span class="n">Apr</span>  <span class="mi">5</span> <span class="mi">04</span><span class="p">:</span><span class="mi">19</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">HelloWorld</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<p><code class="docutils literal"><span class="pre">-rwx------</span></code> satisfies <code class="docutils literal"><span class="pre">mode</span> <span class="pre">=&gt;</span> <span class="pre">&quot;700&quot;</span></code> and <code class="docutils literal"><span class="pre">root</span> <span class="pre">root</span></code> is identical with
+<code class="docutils literal"><span class="pre">owner</span> <span class="pre">=&gt;</span> <span class="pre">&quot;root&quot;</span></code> and <code class="docutils literal"><span class="pre">group</span> <span class="pre">=&gt;</span> <span class="pre">&quot;root&quot;</span></code>.</p>
+<p>Let&#8217;s check the content:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cat</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">HelloWorld</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<p>You see:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>Hello World!
+The new file has been created by Puppet!
+</pre></div>
+</div>
+<p>Congraturations!
+You have installed and tested Puppet with your first
+<code class="docutils literal"><span class="pre">manifest</span></code> to create and manage a file.  In this tutorial, we used <code class="docutils literal"><span class="pre">file</span></code>
+Puppet type, there are many types are available including <code class="docutils literal"><span class="pre">package</span></code> and
+<code class="docutils literal"><span class="pre">service</span></code> Please find more information here:
+<a class="reference external" href="https://docs.puppetlabs.com/references/latest/type.html">https://docs.puppetlabs.com/references/latest/type.html</a></p>
+</div>
+</div>
+<div class="section" id="exercises">
+<span id="ref-class-lesson-devops-puppet-exercises"></span><h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="exercise-i">
+<h3>Exercise I<a class="headerlink" href="#exercise-i" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Start to record outputs in your shell by <code class="docutils literal"><span class="pre">script</span> <span class="pre">&lt;USER&gt;-puppet-ex1.txt</span></code>
+command.  Replace <code class="docutils literal"><span class="pre">&lt;USER&gt;</span></code> with your real username e.g. <code class="docutils literal"><span class="pre">albert</span></code>.</li>
+<li>Run the following commands::
+cat /etc/puppet/manifests/first-manifest.pp
+puppet apply /etc/puppet/manifests/first-manifest.pp
+ls -al /tmp/HelloWorld.txt
+cat /tmp/HelloWorld.txt</li>
+<li>Exit the recording with <code class="docutils literal"><span class="pre">exit</span></code> command or <code class="docutils literal"><span class="pre">^D</span></code>.
+(^D is Control-D)</li>
+<li>Submit your <code class="docutils literal"><span class="pre">&lt;USER&gt;-puppet-ex1.txt</span></code> file.</li>
+</ul>
+</div>
+<div class="section" id="exercise-ii">
+<h3>Exercise II<a class="headerlink" href="#exercise-ii" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">Explain the following manifest:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>package { &#39;apache&#39;:
+  ensure =&gt; present,
+  name   =&gt; $::operatingsystem ? {
+    /(?i:Ubuntu|Debian|Mint)/ =&gt; &#39;apache2&#39;,
+    default                   =&gt; &#39;httpd&#39;,
+  }
+}
+service { &#39;apache2&#39;:
+  ensure =&gt; running,
+  enable =&gt; true,
+}
+</pre></div>
+</div>
+</li>
+<li><p class="first">Q1. If we run this on Ubuntu 14.04, we will see <code class="docutils literal"><span class="pre">apache2</span></code> process. If you
+run this on CentOS, what name of the process do you expect?</p>
+</li>
+<li><p class="first">Q2. There are two Puppet types used in this manifest. Describe what
+<code class="docutils literal"><span class="pre">package</span></code> and <code class="docutils literal"><span class="pre">service</span></code> do.</p>
+</li>
+<li><p class="first">Submit your answer with <code class="docutils literal"><span class="pre">&lt;USER&gt;-puppet-ex2.txt</span></code> file.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="next-step">
+<h2>Next Step<a class="headerlink" href="#next-step" title="Permalink to this headline">¶</a></h2>
+<p>In the next page, Chef will be introduced.</p>
+<p><a class="reference internal" href="chef.html#ref-class-lesson-devops-chef"><span class="std std-ref">Chef</span></a></p>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="overview_vc.html"  title="Overview Virtual Cluster (under preparation)">&laquo; previous</a></span>
+			<span><a href="../../genindex.html"  title="General Index">index</a></span>
+				<span><a href="saltstack-ex1-output.html"  title="Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution">next &raquo;</a></span></div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abdul-Wahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>

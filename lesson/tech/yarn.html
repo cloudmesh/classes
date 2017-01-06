@@ -1,0 +1,451 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Apache Hadoop YARN | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="Apache Hadoop YARN | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/tech/yarn.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown ">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="apache-hadoop-yarn">
+<span id="ref-class-lesson-hadoop-yarn"></span><h1>Apache Hadoop YARN<a class="headerlink" href="#apache-hadoop-yarn" title="Permalink to this headline">¶</a></h1>
+<p>YARN is a framework for job scheduling and cluster resource management to
+support Hadoop 2 with generic applications. Upgraded Hadoop is not just simply
+tied with a MapReduce application for data processing. It can support MPI
+(mpich2-yarn), graph processing(Apache Giraph, Google Pregel) in a Hadoop YARN
+cluster.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Duration 1 hour</p>
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>Apache Software Foundation (ASF) defines YARN as a next generation of MapReduce
+or MapReduce 2.0 (MRv2). The main change of MRv2 is the resource management
+from the programming model of MapReduce. The MRv2 consists of a single master
+ResourceManager (RM), one slave NodeManager (NM) per cluster-node, and
+ApplicationMaster (AM) per application. Under YARN, MapReduce is independent as
+it behaves like a one type of available application running in a YARN
+container. YARN is an abbreviation for Yet Another Resource Negotiator which
+was addressed in January, 2008 from
+<a class="reference external" href="https://issues.apache.org/jira/browse/MAPREDUCE-279">https://issues.apache.org/jira/browse/MAPREDUCE-279</a></p>
+<div class="figure" id="id1">
+<img alt="../../_images/yarn.png" src="../../_images/yarn.png" />
+<p class="caption"><span class="caption-text">Figure 1. Changes of Hadoop v1 to v2 (image source: <a class="reference external" href="http://media.bestofmicro.com/X/8/430172/original/yarn.png">http://media.bestofmicro.com/X/8/430172/original/yarn.png</a>)</span></p>
+</div>
+</div>
+<div class="section" id="hadoop-v1">
+<h2>Hadoop v1<a class="headerlink" href="#hadoop-v1" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id2">
+<img alt="../../_images/mapreduce1_architecture.png" src="../../_images/mapreduce1_architecture.png" />
+<p class="caption"><span class="caption-text">Figure 2. Hadoop v1 Architecture (image source: <a class="reference external" href="http://hortonworks.com/blog/apache-hadoop-yarn-background-and-an-overview/">http://hortonworks.com/blog/apache-hadoop-yarn-background-and-an-overview/</a>)</span></p>
+</div>
+<ul class="simple">
+<li>JobTracker from MR1 splits up two parts: RM, AM(job scheduling/monitoring).</li>
+<li>ResourceManager (RM) consists of Scheduler, ApplicationsManager (ASM).</li>
+<li>ASM is to manage each MapReduce job and terminated when the job completes.</li>
+<li>JobHistoryServer records completed jobs.</li>
+</ul>
+</div>
+<div class="section" id="hadoop-v2">
+<h2>Hadoop v2<a class="headerlink" href="#hadoop-v2" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id3">
+<img alt="../../_images/mapreduce2_architecture.png" src="../../_images/mapreduce2_architecture.png" />
+<p class="caption"><span class="caption-text">Figure 3. Hadoop v2 Architecture (image source: <a class="reference external" href="http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html">http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html</a>)</span></p>
+</div>
+</div>
+<div class="section" id="configuration">
+<h2>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>YARN configuration options, which go in yarn-site.xml</li>
+<li>MapReduce configuration options, which go in mapred-site.xml.</li>
+</ul>
+</div>
+<div class="section" id="benefits-of-changing-mr1-to-mr2">
+<h2>Benefits of changing MR1 to MR2<a class="headerlink" href="#benefits-of-changing-mr1-to-mr2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>by breaking up the JobTracker into a few different services, it avoids many
+of the scaling issues facing MR1.</li>
+<li>Most important, it makes it possible to run frameworks other than MapReduce
+on a Hadoop cluster. For example, Impala can also run on YARN and share
+resources on a cluster with MapReduce.</li>
+</ul>
+</div>
+<div class="section" id="resourcemanager-rm">
+<h2>ResourceManager (RM)<a class="headerlink" href="#resourcemanager-rm" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id4">
+<img alt="../../_images/mapreduce_resourcemanager.gif" src="../../_images/mapreduce_resourcemanager.gif" />
+<p class="caption"><span class="caption-text">Figure3. ResourceManager Components
+(image source: <a class="reference external" href="http://hortonworks.com/blog/apache-hadoop-yarn-resourcemanager/">http://hortonworks.com/blog/apache-hadoop-yarn-resourcemanager/</a>)</span></p>
+</div>
+<div class="section" id="scheduler">
+<h3>Scheduler<a class="headerlink" href="#scheduler" title="Permalink to this headline">¶</a></h3>
+<p>The Scheduler is responsible for allocating resources to the various running
+applications subject to familiar constraints of capacities, queues etc.  The
+scheduler is responsible for deciding which tasks get to run where and when to
+run them.  Capacity - Allocates resources to pools, with FIFO scheduling within
+each pool. The CapacityScheduler supports hierarchical queues to allow for more
+predictable sharing of cluster resources Fair - Allocates resources to weighted
+pools, with fair sharing within each pool.  llocates resources based on arrival
+time.</p>
+</div>
+<div class="section" id="applicationsmanager-asm">
+<h3>ApplicationsManager (ASM)<a class="headerlink" href="#applicationsmanager-asm" title="Permalink to this headline">¶</a></h3>
+<p>The second part of the Resource Manager, called the Application Manager,
+receives job submissions and manages launching the Application Master. The
+Application Manager handles failures of the Application Master, while the
+Application Master handles failures of job containers. The Application Master
+then is really an application-specific container charged with management of
+containers running the actual tasks of the job.</p>
+<p>Resource Container  memory, cpu, disk, network etc.</p>
+<div class="section" id="map-reduce-schedulers">
+<h4>Map-Reduce schedulers<a class="headerlink" href="#map-reduce-schedulers" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>CapacityScheduler</li>
+<li>FairScheduler</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="nodemanager-nm">
+<h2>NodeManager (NM)<a class="headerlink" href="#nodemanager-nm" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id5">
+<img alt="../../_images/mapreduce_nodemanager.png" src="../../_images/mapreduce_nodemanager.png" />
+<p class="caption"><span class="caption-text">Figure4. NodeManager Components
+(image source: <a class="reference external" href="http://hortonworks.com/blog/apache-hadoop-yarn-nodemanager/">http://hortonworks.com/blog/apache-hadoop-yarn-nodemanager/</a>)</span></p>
+</div>
+<p>NodeManager (NM) is a YARN service that manages resources and deployment on a
+cluster node. NM is separated from TaskTracker from MR1 and now NM is
+responsible for launching containers, each of which can house a map or reduce
+task.  NM is YARN’s per-node agent, and takes care of the individual compute
+nodes in a Hadoop cluster. This includes keeping up-to date with the
+ResourceManager (RM), overseeing containers’ life-cycle management; monitoring
+resource usage (memory, CPU) of individual containers, tracking node-health,
+log’s management and auxiliary services which may be exploited by different
+YARN applications.</p>
+<ul class="simple">
+<li>Main task: Job life-cycle management</li>
+</ul>
+</div>
+<div class="section" id="applicationmaster-am">
+<h2>ApplicationMaster (AM)<a class="headerlink" href="#applicationmaster-am" title="Permalink to this headline">¶</a></h2>
+<p>ApplicationMaster (AM) is for executing shell commands on a set of launched
+containers using the YARN framework. AM is started on a container by the
+ResourceManager&#8217;s launcher. The first thing that AM needs to do is to connect
+and register itself with the ResourceManager (RM). The registration sets up
+information within RM regarding what host:port AM is listening on to provide
+any form of functionality to a client as well as a tracking url that a client
+can use to keep track of status/job history if needed.  AM needs to send a
+heartbeat to RM at regular intervals to inform RM that it is up and alive.</p>
+<p><a class="reference external" href="https://hadoop.apache.org/docs/current/api/org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster.html">https://hadoop.apache.org/docs/current/api/org/apache/hadoop/yarn/applications/distributedshell/ApplicationMaster.html</a></p>
+<ul class="simple">
+<li>Main task: job scheduling, monitoring on a container</li>
+</ul>
+</div>
+<div class="section" id="check-status">
+<h2>Check Status<a class="headerlink" href="#check-status" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">HDFS:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">hdfs</span> <span class="n">dfsadmin</span> <span class="o">-</span><span class="n">report</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">YARN:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">yarn</span> <span class="n">node</span> <span class="o">-</span><span class="nb">list</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="web-interface">
+<h2>Web Interface<a class="headerlink" href="#web-interface" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">YARN ResourceManager: <code class="docutils literal"><span class="pre">8088</span></code></p>
+<p>Try to open a web browser with a master node address (IP or hostname):</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="p">[</span><span class="n">node</span> <span class="n">address</span><span class="p">]:</span><span class="mi">8088</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<div class="figure" id="id6">
+<img alt="../../_images/yarn-resourcemanager-gui.png" src="../../_images/yarn-resourcemanager-gui.png" />
+<p class="caption"><span class="caption-text">Figure 4. Overview of YARN GUI</span></p>
+</div>
+<ul>
+<li><p class="first">YARN NodeManager: <code class="docutils literal"><span class="pre">50060</span></code></p>
+<p>This is for all slaves.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="citation">
+<h2>Citation<a class="headerlink" href="#citation" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.sics.se/~amir/files/download/dic/2013%20-%20Apache%20Hadoop%20YARN:%20Yet%20Another%20Resource%20Negotiator%20(SoCC).pdf">Vavilapalli, Vinod Kumar, et al. &#8220;Apache hadoop yarn: Yet another resource
+negotiator.&#8221; Proceedings of the 4th annual Symposium on Cloud Computing. ACM,
+2013.</a></p>
+</div>
+<div class="section" id="qnas">
+<h2>QnAs<a class="headerlink" href="#qnas" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><ol class="first upperalpha" start="17">
+<li>What if a cluster node goes down for any reason? How resources are relocated?</li>
+</ol>
+</li>
+<li>A. When a node goes down, the corresponding containers including
+ApplicationMaster (AM) also get terminated. ResourceManager automatically
+restarts AM based on application policies and notifies the corresponding AMs to
+containers so that they can take further actions e.g. retry, kill application.</li>
+<li>Q. Is there a monitoring toolkit for resource allocation, cluster node, or
+entire cluster?</li>
+<li>A. There are several ways to monitor resource allocation using the client
+side RPC calls. Similar APIs exist for per node usage, cluster usage. See
+getApplicationReport(), getClusterNodes() and getClusterMetrics() APIs at
+<a class="reference external" href="http://hadoop.apache.org/docs/stable/api/org/apache/hadoop/yarn/api/ApplicationClientProtocol.html">http://hadoop.apache.org/docs/stable/api/org/apache/hadoop/yarn/api/ApplicationClientProtocol.html</a>.</li>
+</ul>
+</div>
+<div class="section" id="useful-links">
+<h2>Useful Links<a class="headerlink" href="#useful-links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Hadoop Cluster Setup: <a class="reference external" href="http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/ClusterSetup.html">http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/ClusterSetup.html</a></li>
+<li>WordCount v1.0: <a class="reference external" href="http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0">http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0</a></li>
+<li>Hadoop 2.x installation: <a class="reference external" href="http://www.highlyscalablesystems.com/3597/hadoop-installation-tutorial-hadoop-2-x/">http://www.highlyscalablesystems.com/3597/hadoop-installation-tutorial-hadoop-2-x/</a></li>
+<li>pi Estimator: <a class="reference external" href="http://azure.microsoft.com/en-us/documentation/articles/hdinsight-sample-pi-estimator/">http://azure.microsoft.com/en-us/documentation/articles/hdinsight-sample-pi-estimator/</a></li>
+<li>Examples on Hadoop YARN: <a class="reference external" href="http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.1.3/bk_using-apache-hadoop/content/running_mapreduce_examples_on_yarn.html">http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.1.3/bk_using-apache-hadoop/content/running_mapreduce_examples_on_yarn.html</a></li>
+</ul>
+</div>
+<div class="section" id="yarn-vendors">
+<h2>YARN Vendors<a class="headerlink" href="#yarn-vendors" title="Permalink to this headline">¶</a></h2>
+<p><em>Cloudera</em> and <em>Hortonworks</em> are major vendors of Hadoop. They provide
+helpful documentation about Hadoop developments.</p>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="../../genindex.html"  title="General Index">index</a></span>
+				</div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abdul-Wahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>

@@ -17,47 +17,42 @@ Class Material
 
    digraph class {
       rankdir="LR";
+      compound=true;
       node [shape=box,
             style=filled,
-            fillcolor=lightgrey];
+            fillcolor=ivory];
 
-      subgraph cluster_0 {
-		style=filled;
-		color=lightgrey;
-		node [style=filled,color=white];
+      subgraph cluster_prj {
 		"Project Proposal" -> "Project Approval" -> "Project Update" -> "Final Project";
 		label = "Project";
 	}
 
-      subgraph cluster_1 {
-		style=filled;
-		color=lightgrey;
-		node [style=filled,color=white];
+      subgraph cluster_ppr {
 		"Paper 1" -> "Paper 2" -> "Paper 3";
 		label = "Technology Papers";
 	}
 
 	
-      "start" [shape=circle,fillcolor=green];
-      "end" [shape=circle,fillcolor=yellow];
-      "midterm" [shape=circle,fillcolor=red];      
+      "start" [shape=circle,fillcolor=palegreen];
+      "end" [shape=circle,fillcolor=khaki];
+      "midterm" [shape=circle,fillcolor=salmon];
       
       "start" -> "Technology";
       "start" -> "Collaboration";
       "start" -> "Systems";
       "start" -> "Theory";
-      "start" -> "Web" -> "Paper 1"
-      "Paper 3" -> "midterm"
+      "start" -> "Web" -> "Paper 1" [lhead=cluster_ppr];
+      "Paper 3" -> "midterm" [ltail=cluster_ppr];
       "midterm" -> "end";
-      "Theory" -> "Technology" -> "Project Proposal";
-      "Collaboration" -> "Project Proposal";
-      "Collaboration" -> "Paper 1";
+      "Theory" -> "Technology" -> "Project Proposal" [lhead=cluster_prj];
+      "Collaboration" -> "Project Proposal" [lhead=cluster_prj];
+      "Collaboration" -> "Paper 1" [lhead=cluster_ppr];
       "Collaboration" -> "Web";
-      "Systems" -> "Project Proposal";
+      "Systems" -> "Project Proposal" [lhead=cluster_prj];
       "Theory" -> "Web";
-      "Theory" -> "Paper 1";
-      "Project Update" -> "midterm";
-      "Final Project" -> "end" [ltail=cluster_0];
+      "Theory" -> "Paper 1" [lhead=cluster_ppr];
+      "Project Update" -> "midterm" [ltail=cluster_prj];
+      "Final Project" -> "end" [ltail=cluster_prj];
    }
 
 **Figure 1:** Components of the Class  
@@ -279,6 +274,9 @@ Grading policies are listed in Table 1.
   LaTeX style
 
   
+
+.. _ref-i524-prerequisits:
+
 Prerequisites
 ------------
 
@@ -416,6 +414,13 @@ faq:
     want to visit. We try to move important FAQ's from Piazza into the
     Web page, so it is important that you check both.
 
+meetings: Here we will post times for meetings with TA's and
+    instructors that are not yet posted on the Web page as part of the
+    regular meeting times. Class participants are allowed to attend
+    any Zoom meeting that we annonce in this folder. For online
+    students we will also determine a time for regulare meetings. The
+    TAs are required to hold 10 hours of meeting times upon request
+    with you. Please make use of this.
   
 Meeting Times
 -------------
@@ -428,6 +433,33 @@ following time:
 
 For the 100% online students see the office hours.
    
+Submissions
+-----------
+
+Your papers and projects will be developed on GitHub and submitted
+using :doc:`Pull Requests <../lesson/prg/pull_requests>`.  The process
+is as follows:
+
+#. fork the `sp17-i524 <https://github.com/cloudmesh/sp17-i524>`_ repository.
+#. clone your fork and commit and push your changes.
+#. submit a pull request to the master branch of the origin repository.
+
+See the repository for details on the individual assignments. As it
+will periodically be updated, make sure you are familiar with the
+process of `Syncing a fork
+<https://help.github.com/articles/syncing-a-fork/>`_.
+
+Some things to keep in mind:
+
+* space on github is limited, so do not add datasets to the
+  repository. Any datasets you use should be publicly hosted and
+  deployed as part of your project ansible deployment scripts.
+* never add ssh private keys to the repository. This results in a
+  security risk, possible point deductions, and lots of time and
+  effort to fix.
+* all work will be licensed under the Apache 2 open source license.
+* all submissions and discussion will be visible to the world.
+
 Software Project
 ----------------
 

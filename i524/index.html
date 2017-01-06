@@ -186,49 +186,44 @@
 <li class="toctree-l1"><a class="reference internal" href="technologies.html">Technologies</a></li>
 </ul>
 </div>
-<img src="../_images/graphviz-6cc49bbda503072f935a33434c8a47fb8ca8b8f2.png" alt="digraph class {
+<img src="../_images/graphviz-dce92f653d0d8acc41ce0f2c71719725638a21e2.png" alt="digraph class {
    rankdir=&quot;LR&quot;;
+   compound=true;
    node [shape=box,
          style=filled,
-         fillcolor=lightgrey];
+         fillcolor=ivory];
 
-   subgraph cluster_0 {
-             style=filled;
-             color=lightgrey;
-             node [style=filled,color=white];
+   subgraph cluster_prj {
              &quot;Project Proposal&quot; -&gt; &quot;Project Approval&quot; -&gt; &quot;Project Update&quot; -&gt; &quot;Final Project&quot;;
              label = &quot;Project&quot;;
      }
 
-   subgraph cluster_1 {
-             style=filled;
-             color=lightgrey;
-             node [style=filled,color=white];
+   subgraph cluster_ppr {
              &quot;Paper 1&quot; -&gt; &quot;Paper 2&quot; -&gt; &quot;Paper 3&quot;;
              label = &quot;Technology Papers&quot;;
      }
 
 
-   &quot;start&quot; [shape=circle,fillcolor=green];
-   &quot;end&quot; [shape=circle,fillcolor=yellow];
-   &quot;midterm&quot; [shape=circle,fillcolor=red];
+   &quot;start&quot; [shape=circle,fillcolor=palegreen];
+   &quot;end&quot; [shape=circle,fillcolor=khaki];
+   &quot;midterm&quot; [shape=circle,fillcolor=salmon];
 
    &quot;start&quot; -&gt; &quot;Technology&quot;;
    &quot;start&quot; -&gt; &quot;Collaboration&quot;;
    &quot;start&quot; -&gt; &quot;Systems&quot;;
    &quot;start&quot; -&gt; &quot;Theory&quot;;
-   &quot;start&quot; -&gt; &quot;Web&quot; -&gt; &quot;Paper 1&quot;
-   &quot;Paper 3&quot; -&gt; &quot;midterm&quot;
+   &quot;start&quot; -&gt; &quot;Web&quot; -&gt; &quot;Paper 1&quot; [lhead=cluster_ppr];
+   &quot;Paper 3&quot; -&gt; &quot;midterm&quot; [ltail=cluster_ppr];
    &quot;midterm&quot; -&gt; &quot;end&quot;;
-   &quot;Theory&quot; -&gt; &quot;Technology&quot; -&gt; &quot;Project Proposal&quot;;
-   &quot;Collaboration&quot; -&gt; &quot;Project Proposal&quot;;
-   &quot;Collaboration&quot; -&gt; &quot;Paper 1&quot;;
+   &quot;Theory&quot; -&gt; &quot;Technology&quot; -&gt; &quot;Project Proposal&quot; [lhead=cluster_prj];
+   &quot;Collaboration&quot; -&gt; &quot;Project Proposal&quot; [lhead=cluster_prj];
+   &quot;Collaboration&quot; -&gt; &quot;Paper 1&quot; [lhead=cluster_ppr];
    &quot;Collaboration&quot; -&gt; &quot;Web&quot;;
-   &quot;Systems&quot; -&gt; &quot;Project Proposal&quot;;
+   &quot;Systems&quot; -&gt; &quot;Project Proposal&quot; [lhead=cluster_prj];
    &quot;Theory&quot; -&gt; &quot;Web&quot;;
-   &quot;Theory&quot; -&gt; &quot;Paper 1&quot;;
-   &quot;Project Update&quot; -&gt; &quot;midterm&quot;;
-   &quot;Final Project&quot; -&gt; &quot;end&quot; [ltail=cluster_0];
+   &quot;Theory&quot; -&gt; &quot;Paper 1&quot; [lhead=cluster_ppr];
+   &quot;Project Update&quot; -&gt; &quot;midterm&quot; [ltail=cluster_prj];
+   &quot;Final Project&quot; -&gt; &quot;end&quot; [ltail=cluster_prj];
 }" />
 <p><strong>Figure 1:</strong> Components of the Class</p>
 </div>
@@ -440,7 +435,7 @@ LaTeX style</li>
 </ul>
 </div>
 <div class="section" id="prerequisites">
-<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<span id="ref-i524-prerequisits"></span><h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
 <p>We expect you are familiar with:</p>
 <ul class="simple">
 <li>(easy) Linux or the Operating system on which you will focus your
@@ -550,6 +545,13 @@ and other administrative activities.</dd>
 Note also that we have an FAQ on the class Web page that you may
 want to visit. We try to move important FAQ&#8217;s from Piazza into the
 Web page, so it is important that you check both.</dd>
+<dt>meetings: Here we will post times for meetings with TA&#8217;s and</dt>
+<dd>instructors that are not yet posted on the Web page as part of the
+regular meeting times. Class participants are allowed to attend
+any Zoom meeting that we annonce in this folder. For online
+students we will also determine a time for regulare meetings. The
+TAs are required to hold 10 hours of meeting times upon request
+with you. Please make use of this.</dd>
 </dl>
 </div>
 </div>
@@ -562,6 +564,31 @@ following time:</p>
 <li>Monday 09:30am - 10:45am EST, I2 130</li>
 </ul>
 <p>For the 100% online students see the office hours.</p>
+</div>
+<div class="section" id="submissions">
+<h2>Submissions<a class="headerlink" href="#submissions" title="Permalink to this headline">¶</a></h2>
+<p>Your papers and projects will be developed on GitHub and submitted
+using <a class="reference internal" href="../lesson/prg/pull_requests.html"><span class="doc">Pull Requests</span></a>.  The process
+is as follows:</p>
+<ol class="arabic simple">
+<li>fork the <a class="reference external" href="https://github.com/cloudmesh/sp17-i524">sp17-i524</a> repository.</li>
+<li>clone your fork and commit and push your changes.</li>
+<li>submit a pull request to the master branch of the origin repository.</li>
+</ol>
+<p>See the repository for details on the individual assignments. As it
+will periodically be updated, make sure you are familiar with the
+process of <a class="reference external" href="https://help.github.com/articles/syncing-a-fork/">Syncing a fork</a>.</p>
+<p>Some things to keep in mind:</p>
+<ul class="simple">
+<li>space on github is limited, so do not add datasets to the
+repository. Any datasets you use should be publicly hosted and
+deployed as part of your project ansible deployment scripts.</li>
+<li>never add ssh private keys to the repository. This results in a
+security risk, possible point deductions, and lots of time and
+effort to fix.</li>
+<li>all work will be licensed under the Apache 2 open source license.</li>
+<li>all submissions and discussion will be visible to the world.</li>
+</ul>
 </div>
 <div class="section" id="software-project">
 <h2>Software Project<a class="headerlink" href="#software-project" title="Permalink to this headline">¶</a></h2>

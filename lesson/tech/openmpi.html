@@ -1,0 +1,475 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Deploying Open MPI Cluster with Cloudmesh launcher | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="Deploying Open MPI Cluster with Cloudmesh launcher | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/tech/openmpi.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown ">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="deploying-open-mpi-cluster-with-cloudmesh-launcher">
+<span id="ref-class-lesson-openmpi-with-cloudmesh"></span><h1>Deploying Open MPI Cluster with Cloudmesh <code class="docutils literal"><span class="pre">launcher</span></code><a class="headerlink" href="#deploying-open-mpi-cluster-with-cloudmesh-launcher" title="Permalink to this headline">¶</a></h1>
+<p>To support Message Passing Interface (MPI) programs with a cluster, Cloudmesh
+provides a new command <code class="docutils literal"><span class="pre">launcher</span></code> to start, configure, manage or update
+compute nodes (VMs) with Open MPI. <code class="docutils literal"><span class="pre">launcher</span></code> command applies default settings
+to configure clusters with applications so users can avoid hassles of building
+clusters.</p>
+<p>Table of Contents</p>
+<ul class="simple">
+<li><a class="reference external" href="#start-cluster">Start Cluster with launcher</a></li>
+<li><a class="reference external" href="#check-status-of-cluster">Check Status</a></li>
+<li><a class="reference external" href="#id1">Login to Cluster</a></li>
+<li><a class="reference external" href="#id2">Terminate Cluster</a></li>
+</ul>
+<div class="section" id="tutorial-deploying-open-mpi-cluster-with-cm-launcher">
+<h2>Tutorial: Deploying Open MPI Cluster with <code class="docutils literal"><span class="pre">cm</span> <span class="pre">launcher</span></code><a class="headerlink" href="#tutorial-deploying-open-mpi-cluster-with-cm-launcher" title="Permalink to this headline">¶</a></h2>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">approximate time 10-15 minutes</p>
+</div>
+<p>In this tutorial, we are going to deploy a Open MPI cluster using Cloudmesh
+<code class="docutils literal"><span class="pre">launcher</span></code> command.</p>
+<div class="section" id="start-cluster">
+<h3>Start Cluster<a class="headerlink" href="#start-cluster" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">launcher</span> <span class="pre">start</span></code> command deploys a cluster with a selected application.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">launcher</span> <span class="n">start</span> <span class="n">openmpi</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="check-status-of-cluster">
+<h3>Check Status of Cluster<a class="headerlink" href="#check-status-of-cluster" title="Permalink to this headline">¶</a></h3>
+<p>Initializing a cluster requires some time for installing packages, configuring
+networks, etc.  While it is initiated, you can check the status of your cluster
+deployment.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">launcher</span> <span class="nb">list</span>
+</pre></div>
+</div>
+<p>You expect the result similar to:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+--------------------------------------+--------------------------------+-------------------------------------+--------------------+----------------------+----------+</span>
+<span class="o">|</span> <span class="n">launcher_id</span>                          <span class="o">|</span> <span class="n">stack_name</span>                     <span class="o">|</span> <span class="n">description</span>                         <span class="o">|</span> <span class="n">stack_status</span>       <span class="o">|</span> <span class="n">creation_time</span>        <span class="o">|</span> <span class="n">cm_cloud</span> <span class="o">|</span>
+<span class="o">+--------------------------------------+--------------------------------+-------------------------------------+--------------------+----------------------+----------+</span>
+<span class="o">|</span> <span class="mi">14</span><span class="n">ec7ceb</span><span class="o">-</span><span class="n">ce12</span><span class="o">-</span><span class="mi">4</span><span class="n">b18</span><span class="o">-</span><span class="mi">9</span><span class="n">c31</span><span class="o">-</span><span class="n">d398c6e76b78</span> <span class="o">|</span> <span class="n">launcher</span><span class="o">-</span><span class="n">albert</span><span class="o">-</span><span class="n">openmpi</span><span class="o">-</span><span class="n">DB8JDK</span> <span class="o">|</span> <span class="n">Open</span> <span class="n">MPI</span> <span class="n">cluster</span> <span class="k">with</span> <span class="n">OpenStackHeat</span> <span class="o">|</span> <span class="n">CREATE_IN_PROGRESS</span> <span class="o">|</span> <span class="mi">2015</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">22</span><span class="n">T16</span><span class="p">:</span><span class="mi">25</span><span class="p">:</span><span class="mi">23</span><span class="n">Z</span> <span class="o">|</span> <span class="n">india</span>    <span class="o">|</span>
+<span class="o">+--------------------------------------+--------------------------------+-------------------------------------+--------------------+----------------------+----------+</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>CREATE_IN_PROGRESS: cluster is not available because creating the cluster is
+in progress.</li>
+<li>CREATE_COMPLETE: cluster has been created and it is ready to use.</li>
+</ul>
+</div>
+<div class="section" id="id1">
+<h3>Login to Cluster<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>We use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">vm</span> <span class="pre">login</span></code> command to ssh to one of the nodes in the cluster.
+Issue <code class="docutils literal"><span class="pre">vm</span> <span class="pre">list</span></code> first to see the list of virtual instances.</p>
+<ul class="simple">
+<li>Checking a node name to login</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">vm</span> <span class="nb">list</span>
+</pre></div>
+</div>
+<p>You expect the result similar to:</p>
+<pre class="literal-block">
++----------------------------+----------+----------------------------+----------+----------------------------+
+| name                      | status   | addresses                  | flavor   | image                      |
++============================+==========+============================+==========+============================+
+| <strong>openmpi1</strong>                   | ACTIVE   | 10.39.1.48, 149.165.159.02 | m1.small | futuresystems/ubuntu-14.04 |
++----------------------------+----------+----------------------------+----------+----------------------------+
+| openmpi2                   | ACTIVE   | 10.39.1.52                 | m1.small | futuresystems/ubuntu-14.04 |
++----------------------------+----------+----------------------------+----------+----------------------------+
+| openmpi3                   | ACTIVE   | 10.39.1.51                 | m1.small | futuresystems/ubuntu-14.04 |
++----------------------------+----------+----------------------------+----------+----------------------------+
+| openmpi4                   | ACTIVE   | 10.39.1.53                 | m1.small | futuresystems/ubuntu-14.04 |
++----------------------------+----------+----------------------------+----------+----------------------------+
+| openmpi5                   | ACTIVE   | 10.39.1.54                 | m1.small | futuresystems/ubuntu-14.04 |
++----------------------------+----------+----------------------------+----------+----------------------------+
+</pre>
+<p>We found that openmpi1 is a node to log in.</p>
+<ul class="simple">
+<li>SSH to a node</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">vm</span> <span class="n">login</span> <span class="p">[</span><span class="n">node</span> <span class="n">name</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>In this example, we try to ssh to <code class="docutils literal"><span class="pre">openmpi1</span></code> with <code class="docutils literal"><span class="pre">ec2-user</span></code> user name.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">vm</span> <span class="n">login</span> <span class="n">openmpi1</span> <span class="o">--</span><span class="n">ln</span><span class="o">=</span><span class="n">ec2</span><span class="o">-</span><span class="n">user</span>
+</pre></div>
+</div>
+<p>You expect the result similar to:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span> Welcome to Ubuntu 14.04.1 LTS (GNU/Linux 3.13.0-40-generic x86_64)
+
+  * Documentation:  https://help.ubuntu.com/
+
+    System information as of Thu Jan 22 19:28:05 UTC 2015
+
+    System load:  0.01              Processes:           72
+    Usage of /:   6.9% of 19.65GB   Users logged in:     0
+    Memory usage: 23%               IP address for eth0: 10.39.1.48
+    Swap usage:   0%
+
+    Graph this data and manage this system at:
+      https://landscape.canonical.com/
+
+    Get cloud support with Ubuntu Advantage Cloud Guest:
+      http://www.ubuntu.com/business/services/cloud
+
+
+$
+</pre></div>
+</div>
+<ul>
+<li><p class="first">Switch to <code class="docutils literal"><span class="pre">root</span></code> user</p>
+<p>You are expected to run openmpi commands as a root superuser.</p>
+</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">su</span> <span class="o">-</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="run-a-hello-world-mpi-program">
+<h3>Run a &#8220;Hello World&#8221; MPI program<a class="headerlink" href="#run-a-hello-world-mpi-program" title="Permalink to this headline">¶</a></h3>
+<p>Let&#8217;s try a simple example to try a MPI program. Here is hello.c:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1">#include &lt;stdio.h&gt;</span>
+<span class="c1">#include &lt;mpi.h&gt;</span>
+
+<span class="nb">int</span> <span class="n">main</span><span class="p">(</span><span class="nb">int</span> <span class="n">argc</span><span class="p">,</span> <span class="n">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+  <span class="nb">int</span> <span class="n">numprocs</span><span class="p">,</span> <span class="n">rank</span><span class="p">,</span> <span class="n">namelen</span><span class="p">;</span>
+  <span class="n">char</span> <span class="n">processor_name</span><span class="p">[</span><span class="n">MPI_MAX_PROCESSOR_NAME</span><span class="p">];</span>
+
+  <span class="n">MPI_Init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">argc</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">argv</span><span class="p">);</span>
+  <span class="n">MPI_Comm_size</span><span class="p">(</span><span class="n">MPI_COMM_WORLD</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">numprocs</span><span class="p">);</span>
+  <span class="n">MPI_Comm_rank</span><span class="p">(</span><span class="n">MPI_COMM_WORLD</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">rank</span><span class="p">);</span>
+  <span class="n">MPI_Get_processor_name</span><span class="p">(</span><span class="n">processor_name</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">namelen</span><span class="p">);</span>
+
+  <span class="n">printf</span><span class="p">(</span><span class="s2">&quot;Process </span><span class="si">%d</span><span class="s2"> on </span><span class="si">%s</span><span class="s2"> out of </span><span class="si">%d</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">rank</span><span class="p">,</span> <span class="n">processor_name</span><span class="p">,</span> <span class="n">numprocs</span><span class="p">);</span>
+
+  <span class="n">MPI_Finalize</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="section" id="compile-hello-c">
+<h4>Compile hello.c<a class="headerlink" href="#compile-hello-c" title="Permalink to this headline">¶</a></h4>
+<p>Since we are running Ubuntu 14.04 in this example, we complie with <code class="docutils literal"><span class="pre">mpicc</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mpicc</span> <span class="n">hello</span><span class="o">.</span><span class="n">c</span> <span class="o">-</span><span class="n">o</span> <span class="n">hello</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mpi-hostfile">
+<h4>MPI hostfile<a class="headerlink" href="#mpi-hostfile" title="Permalink to this headline">¶</a></h4>
+<p>We create a hostfile for MPI process which contains the hostnames (nodes) of
+the cluster.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">echo</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;mpi1</span><span class="se">\n</span><span class="s2">mpi2</span><span class="se">\n</span><span class="s2">mpi3</span><span class="se">\n</span><span class="s2">mpi4</span><span class="se">\n</span><span class="s2">mpi5&quot;</span> <span class="o">&gt;</span> <span class="n">my_mpi_hosts</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">expected</span> <span class="n">output</span><span class="p">]</span>
+
+<span class="n">cat</span> <span class="n">my_mpi_hosts</span>
+<span class="n">mpi1</span>
+<span class="n">mpi2</span>
+<span class="n">mpi3</span>
+<span class="n">mpi4</span>
+<span class="n">mpi5</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">If you have more than a single CPU per node, use slots=N where N is a
+number of processors.
+e.g. mpi1 slots=2</p>
+</div>
+</div>
+<div class="section" id="copy-hello-program-to-each-node">
+<h4>Copy <code class="docutils literal"><span class="pre">hello</span></code> program to each node<a class="headerlink" href="#copy-hello-program-to-each-node" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">hello</span></code> program should to be found on each node. We propagate the binary using <code class="docutils literal"><span class="pre">scp</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">scp</span> <span class="n">hello</span> <span class="n">mpi1</span><span class="p">:</span>
+<span class="n">scp</span> <span class="n">hello</span> <span class="n">mpi2</span><span class="p">:</span>
+<span class="n">scp</span> <span class="n">hello</span> <span class="n">mpi3</span><span class="p">:</span>
+<span class="n">scp</span> <span class="n">hello</span> <span class="n">mpi4</span><span class="p">:</span>
+<span class="n">scp</span> <span class="n">hello</span> <span class="n">mpi5</span><span class="p">:</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="run-mpi-program">
+<h4>Run MPI program<a class="headerlink" href="#run-mpi-program" title="Permalink to this headline">¶</a></h4>
+<p>We now run <code class="docutils literal"><span class="pre">hello</span></code> program on the given nodes with <code class="docutils literal"><span class="pre">mpirun</span></code> program:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mpirun</span> <span class="o">-</span><span class="n">np</span> <span class="mi">5</span> <span class="o">--</span><span class="n">hostfile</span> <span class="n">my_mpi_hosts</span> <span class="n">hello</span>
+</pre></div>
+</div>
+<p><em>-np option is used to tell how many copies of the program will be run. We have
+five nodes in this example.</em></p>
+<p>Expected result looks like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Process</span> <span class="mi">0</span> <span class="n">on</span> <span class="n">mpi1</span> <span class="n">out</span> <span class="n">of</span> <span class="mi">5</span>
+<span class="n">Process</span> <span class="mi">1</span> <span class="n">on</span> <span class="n">mpi2</span> <span class="n">out</span> <span class="n">of</span> <span class="mi">5</span>
+<span class="n">Process</span> <span class="mi">3</span> <span class="n">on</span> <span class="n">mpi3</span> <span class="n">out</span> <span class="n">of</span> <span class="mi">5</span>
+<span class="n">Process</span> <span class="mi">2</span> <span class="n">on</span> <span class="n">mpi4</span> <span class="n">out</span> <span class="n">of</span> <span class="mi">5</span>
+<span class="n">Process</span> <span class="mi">4</span> <span class="n">on</span> <span class="n">mpi5</span> <span class="n">out</span> <span class="n">of</span> <span class="mi">5</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id2">
+<h3>Terminate Cluster<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>Once you completed your task on the cluster, you can terminate the cluster with
+<code class="docutils literal"><span class="pre">cm</span> <span class="pre">launcher</span> <span class="pre">stop</span> <span class="pre">[name]</span></code> command.</p>
+<ul class="simple">
+<li>Check a cluster name to stop</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">launcher</span> <span class="nb">list</span>
+</pre></div>
+</div>
+<p>You expect the result similar to:</p>
+<pre class="literal-block">
++--------------------------------------+--------------------------------+-------------------------------------+-----------------+----------------------+----------+
+| launcher_id                          | stack_name                     | description                         | stack_status    | creation_time        | cm_cloud |
++--------------------------------------+--------------------------------+-------------------------------------+-----------------+----------------------+----------+
+| 14ec7ceb-ce12-4b18-9c31-d398c6e76b78 | <strong>launcher-albert-openmpi-DB8JDK</strong> | Open MPI cluster with OpenStackHeat | CREATE_COMPLETE | 2015-01-22T16:25:23Z | india    |
++--------------------------------------+--------------------------------+-------------------------------------+-----------------+----------------------+----------+
+</pre>
+<ul class="simple">
+<li>Terminate a cluster</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">launcher</span> <span class="n">stop</span> <span class="p">[</span><span class="n">name</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>In this tutorial, we terminate <code class="docutils literal"><span class="pre">launcher-albert-openmpi-DB8JDK</span></code> like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">launcher</span> <span class="n">stop</span> <span class="n">launcher</span><span class="o">-</span><span class="n">albert</span><span class="o">-</span><span class="n">openmpi</span><span class="o">-</span><span class="n">DB8JDK</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>DELETE_IN_PROGRESS: shutting down instances is in progress.</li>
+<li>DELETE_COMPLETE: the lease of resources is ended, all resources are returned.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="../../genindex.html"  title="General Index">index</a></span>
+				</div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abdul-Wahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>

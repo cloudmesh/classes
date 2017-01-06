@@ -1,0 +1,397 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>FutureSystems OpenStack Kilo - Quickstart Guide | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="FutureSystems OpenStack Kilo - Quickstart Guide | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/iaas/openstack-kilo-quickstart.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		<li><a href="index.html"  title="IaaS">&laquo; previous</a></li>
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+		
+		
+
+	
+		<li><a href="openstack.html"  title="OpenStack on FutureSystems">next &raquo;</a></li>
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	
+		<ul class="breadcrumbs">
+			
+		  	<li><a href="../../index.html">Big Data Classes</a></li>
+
+		  	
+		  		<li><a href="../index.html">Lessons</a></li>
+		  		<li><a href="index.html">IaaS</a></li>
+
+		  	
+			<li class="current"><a href="">FutureSystems OpenStack Kilo - Quickstart Guide</a></li>
+		</ul>
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="futuresystems-openstack-kilo-quickstart-guide">
+<span id="openstack-kilo"></span><h1>FutureSystems OpenStack Kilo - Quickstart Guide<a class="headerlink" href="#futuresystems-openstack-kilo-quickstart-guide" title="Permalink to this headline">¶</a></h1>
+<p>OpenStack Kilo is the current cloud offerring from FutureSystems. Here are the quickstart guide on using the kilo cloud.</p>
+<div class="section" id="nova-client-on-india">
+<h2>Nova Client on India<a class="headerlink" href="#nova-client-on-india" title="Permalink to this headline">¶</a></h2>
+<p>Load the nova client by:</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="n">load</span> <span class="n">openstack</span>
+</pre></div>
+</div>
+<p>Then load your account information for Kilo. The Kilo account information is enabled by:</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="n">source</span> <span class="o">~/.</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">clouds</span><span class="o">/</span><span class="n">india</span><span class="o">/</span><span class="n">kilo</span><span class="o">/</span><span class="n">openrc</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+<p>You will see instances or images on Kilo now by nova client tools, e.g. nova list.</p>
+</div>
+<div class="section" id="start-a-new-instance">
+<h2>Start a New Instance<a class="headerlink" href="#start-a-new-instance" title="Permalink to this headline">¶</a></h2>
+<p>Starting a new instance is not difficult but requres a few steps like keypair registration and floating ip association. The simple instructions will be provided in this page.</p>
+<div class="section" id="ssh-key-pair-registraion">
+<h3>SSH Key Pair Registraion<a class="headerlink" href="#ssh-key-pair-registraion" title="Permalink to this headline">¶</a></h3>
+<p>If this is a first time to run a instance, the keypair registration is required. We assume you have a key registered on India Juno which is a previous release of OpenStack. Let&#8217;s register your key on OpenStack Kilo. Juno and Kilo are separated clouds so we need to register your key on both side.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you don&#8217;t have one, don&#8217;t worry. It is easy to create a new one. Please follow the instructions here.</p>
+</div>
+<div class="code highlight-default"><div class="highlight"><pre><span></span>nova keypair-add --pub-key $HOME/ssh/id_rsa.pub $USER-india-key
+</pre></div>
+</div>
+<p>Once you register your key, you can confirm the registration by:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">keypair</span><span class="o">-</span><span class="nb">list</span>
+</pre></div>
+</div>
+<p>Let&#8217;s continue to start a VM in the next section.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>The following commands will create a new SSH key pair. Provide passphrase when prompts appear.</p>
+<p class="last">ssh-keygen -t rsa -C $USER-india-key</p>
+</div>
+</div>
+<div class="section" id="start-a-vm-instance">
+<h3>Start a VM Instance<a class="headerlink" href="#start-a-vm-instance" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal"><span class="pre">nova</span> <span class="pre">boot</span></code> simple command will start a VM instance. Note that <code class="docutils literal"><span class="pre">NETID</span></code> is required on OpenStack Kilo which is different from OpenStack Juno.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span>NETID=`nova network-list | grep $OS_TENANT_NAME-net | awk {&#39;print $2&#39;}`
+nova boot --image Ubuntu-14.04-64 --key-name $USER-india-key --flavor m1.small $USER-first-instance --nic net-id=$NETID
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">replace $USER-india-key if you have a different name for your registered key. Replace other options e.g. image or flavor as you wish.</p>
+</div>
+</div>
+<div class="section" id="floating-ip-address">
+<h3>Floating IP Address<a class="headerlink" href="#floating-ip-address" title="Permalink to this headline">¶</a></h3>
+<p>Now your VM instance is up and running but can&#8217;t be accessible because it only has an internal IP address. We will associate a floating IP address here to get SSH access to a VM instance.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">floating</span><span class="o">-</span><span class="n">ip</span><span class="o">-</span><span class="n">create</span> <span class="n">ext</span><span class="o">-</span><span class="n">net</span>
+<span class="o">+--------------------------------------+-----------------+-----------+----------+---------+</span>
+<span class="o">|</span> <span class="n">Id</span>                                   <span class="o">|</span> <span class="n">IP</span>              <span class="o">|</span> <span class="n">Server</span> <span class="n">Id</span> <span class="o">|</span> <span class="n">Fixed</span> <span class="n">IP</span> <span class="o">|</span> <span class="n">Pool</span>    <span class="o">|</span>
+<span class="o">+--------------------------------------+-----------------+-----------+----------+---------+</span>
+<span class="o">|</span> <span class="mi">030</span><span class="n">bf69d</span><span class="o">-</span><span class="mi">88</span><span class="n">a4</span><span class="o">-</span><span class="mi">41</span><span class="n">b6</span><span class="o">-</span><span class="mi">90</span><span class="n">c5</span><span class="o">-</span><span class="mi">9</span><span class="n">c6e7d5be442</span> <span class="o">|</span> <span class="mf">149.165</span><span class="o">.</span><span class="mf">159.112</span> <span class="o">|</span> <span class="o">-</span>         <span class="o">|</span> <span class="o">-</span>        <span class="o">|</span> <span class="n">ext</span><span class="o">-</span><span class="n">net</span> <span class="o">|</span>
+<span class="o">+--------------------------------------+-----------------+-----------+----------+---------+</span>
+</pre></div>
+</div>
+<p>Now we have a IP address to assign to a VM instance. In this example, we will associate <code class="docutils literal"><span class="pre">149.165.159.112</span></code> to our <code class="docutils literal"><span class="pre">$USER-first-instance</span></code> VM instance by.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span>nova floating-ip-associate $USER-first-instance 149.165.159.112
+</pre></div>
+</div>
+<p>Once you completed this step, you are now able to SSH into your VM instance.</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="n">ssh</span> <span class="n">ubuntu</span><span class="nd">@149</span><span class="o">.</span><span class="mf">165.159</span><span class="o">.</span><span class="mi">112</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><code class="docutils literal"><span class="pre">ubuntu</span></code> is login name your your VM if you start a VM with Ubuntu image. Try other names if you used other distributions like CentOS or CoreOS. For example, <code class="docutils literal"><span class="pre">centos</span></code> is for <code class="docutils literal"><span class="pre">CentOS</span></code> and <code class="docutils literal"><span class="pre">core</span></code> is for <code class="docutils literal"><span class="pre">CoreOS</span></code> image.</p>
+</div>
+</div>
+</div>
+<div class="section" id="horizon-web-interface">
+<h2>Horizon Web Interface<a class="headerlink" href="#horizon-web-interface" title="Permalink to this headline">¶</a></h2>
+<p>Openstack provides a web interface to manage cloud resources easily. Usage reports, current quota or Heat stacks are visible on the web.</p>
+<ul class="simple">
+<li>Use your OS_USERNAME and OS_PASSWORD to login.  <code class="docutils literal"><span class="pre">~/.cloudmesh/clouds/india/kilo/openrc.sh</span></code> contains your <code class="docutils literal"><span class="pre">OS_</span></code> variables.</li>
+<li><a class="reference external" href="https://openstack.futuresystems.org/horizon/">https://openstack.futuresystems.org/horizon/</a></li>
+</ul>
+</div>
+<div class="section" id="termination-of-vm-instance">
+<h2>Termination of VM Instance<a class="headerlink" href="#termination-of-vm-instance" title="Permalink to this headline">¶</a></h2>
+<p>If you completed your work on your VM instance, you may terminate your VM and release a floating IP address associated with. For example, we terminate our first instance and the IP address by:</p>
+<div class="code highlight-default"><div class="highlight"><pre><span></span>nova delete $USER-first-intance
+nova floating-ip-delete 149.165.159.112
+</pre></div>
+</div>
+</div>
+<div class="section" id="faq">
+<h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">¶</a></h2>
+<ol class="upperalpha simple" start="17">
+<li>My ssh connection was denied with the message like below. What should I do?</li>
+</ol>
+<div class="code highlight-default"><div class="highlight"><pre><span></span>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+</pre></div>
+</div>
+<ol class="upperalpha simple">
+<li>SSH checks ssh server&#8217;s fingerprint to verify the identity of the machine that you connect to. You will see the message above if the fingerprint doesn&#8217;t match with one saved on your local machine (~/.ssh/known_hosts) when you ssh into the machine first time. In the cloud computing, however, you may encounter this message very often wihtout a real vulnerability. It is because that you use a same ip address with a newly deployed virtual machine which has a new fingerprint. We can ignore the host key checking or remove the fingerprint saved on a local machine by:</li>
+</ol>
+<ul class="simple">
+<li>Add the following options to <code class="docutils literal"><span class="pre">ssh</span></code> command</li>
+</ul>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="o">-</span><span class="n">o</span> <span class="n">UserKnownHostsFile</span><span class="o">=/</span><span class="n">dev</span><span class="o">/</span><span class="n">null</span> <span class="o">-</span><span class="n">o</span> <span class="n">StrictHostKeyChecking</span><span class="o">=</span><span class="n">no</span>
+</pre></div>
+</div>
+<p>OR</p>
+<ul class="simple">
+<li>Remove the fingerprint in your <code class="docutils literal"><span class="pre">~/.ssh/known_hosts</span></code> file</li>
+</ul>
+<div class="code highlight-default"><div class="highlight"><pre><span></span>ssh-keygen -f $HOME/.ssh/known_hosts -R HOSTNAME_OR_IPADDRESS
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Replace HOSTNAME_OR_IPADDRESS with your destination</p>
+</div>
+<ol class="upperalpha simple" start="17">
+<li>I am seeing the following error when I run <code class="docutils literal"><span class="pre">nova</span></code> command:</li>
+</ol>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="n">You</span> <span class="n">must</span> <span class="n">provide</span> <span class="n">a</span> <span class="n">username</span> <span class="ow">or</span> <span class="n">user</span> <span class="nb">id</span> <span class="n">via</span> <span class="o">--</span><span class="n">os</span><span class="o">-</span><span class="n">username</span><span class="p">,</span> <span class="o">--</span><span class="n">os</span><span class="o">-</span><span class="n">user</span><span class="o">-</span><span class="nb">id</span><span class="p">,</span> <span class="n">env</span><span class="p">[</span><span class="n">OS_USERNAME</span><span class="p">]</span> <span class="ow">or</span> <span class="n">env</span><span class="p">[</span><span class="n">OS_USER_ID</span><span class="p">]</span>
+</pre></div>
+</div>
+<ol class="upperalpha">
+<li><p class="first">You see the error because the nova client does not recognize you. Import your credential on india by:</p>
+<blockquote>
+<div><p>source ~/.cloudmesh/clouds/india/kilo/openrc.sh</p>
+</div></blockquote>
+</li>
+</ol>
+<p>This file contains your os-username, etc. regarding your account and the <code class="docutils literal"><span class="pre">source</span></code> command imports and keeps these information while your ssh session alive.</p>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="index.html"  title="IaaS">&laquo; previous</a></span>
+			<span><a href="../../genindex.html"  title="General Index">index</a></span>
+				<span><a href="openstack.html"  title="OpenStack on FutureSystems">next &raquo;</a></span></div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abdul-Wahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>

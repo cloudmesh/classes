@@ -1,0 +1,500 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>MongoDB Sharded Cluster | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="MongoDB Sharded Cluster | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/database/mongodb_cluster.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../../_static/foundation/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown ">
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		
+			<li><a href="../../genindex.html"  title="General Index">index</a></li>
+		
+
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="mongodb-sharded-cluster">
+<span id="ref-class-lesson-mongodb-sharded-cluster"></span><h1><a class="toc-backref" href="#id1">MongoDB Sharded Cluster</a><a class="headerlink" href="#mongodb-sharded-cluster" title="Permalink to this headline">¶</a></h1>
+<p>This tutorial shows deploying a sharded mongodb cluster on india.futuresystems.org.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Approximate time: 30 minutes</p>
+</div>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#mongodb-sharded-cluster" id="id1">MongoDB Sharded Cluster</a><ul>
+<li><a class="reference internal" href="#mongodb-sharding-overview" id="id2">MongoDB Sharding Overview</a></li>
+<li><a class="reference internal" href="#start-virtual-cluster-for-database" id="id3">Start Virtual Cluster for Database</a></li>
+<li><a class="reference internal" href="#install-mongodb-server" id="id4">Install Mongodb Server</a></li>
+<li><a class="reference internal" href="#configure-instances" id="id5">Configure Instances</a></li>
+<li><a class="reference internal" href="#start-mongos-instances" id="id6">Start mongos Instances</a></li>
+<li><a class="reference internal" href="#add-shards-to-the-cluster" id="id7">Add Shards to the Cluster</a></li>
+<li><a class="reference internal" href="#enable-sharding-for-a-database" id="id8">Enable Sharding for a Database</a></li>
+<li><a class="reference internal" href="#enable-sharding-for-a-collection" id="id9">Enable Sharding for a Collection</a></li>
+<li><a class="reference internal" href="#next-step" id="id10">Next Step</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="mongodb-sharding-overview">
+<h2><a class="toc-backref" href="#id2">MongoDB Sharding Overview</a><a class="headerlink" href="#mongodb-sharding-overview" title="Permalink to this headline">¶</a></h2>
+<img alt="lesson/database/images/mongodb-overview.png" src="lesson/database/images/mongodb-overview.png" />
+<p>Figure 1. Sharding Mongodb
+<em>Image reference: http://docs.mongodb.org/master/MongoDB-sharding-guide.pdf</em></p>
+<ul class="simple">
+<li>Shards store the data. To provide high availability and data consistency, in
+a production sharded cluster, each shard is a replica set 1</li>
+<li>Query Routers, or mongos instances, interface with client applications and
+direct operations to the appropriate shard or shards. The query router
+processes and targets operations to shards and then returns results to the
+clients. A sharded cluster can contain more than one query router to divide
+the client request load. A client sends requests to one query router. Most
+sharded clusters have many query routers.</li>
+<li>Config servers store the cluster’s metadata. This data contains a mapping of
+the cluster’s data set to the shards. The query router uses this metadata to
+target operations to specific shards. Production sharded clusters have
+exactly 3 config servers</li>
+</ul>
+</div>
+<div class="section" id="start-virtual-cluster-for-database">
+<h2><a class="toc-backref" href="#id3">Start Virtual Cluster for Database</a><a class="headerlink" href="#start-virtual-cluster-for-database" title="Permalink to this headline">¶</a></h2>
+<p>In this test environment, three instances are required to connect mongodb
+databases on the cloud. Try <em>cm cluster</em> command to create virtual machines in
+the OpenStack India. See the page:</p>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="install-mongodb-server">
+<h2><a class="toc-backref" href="#id4">Install Mongodb Server</a><a class="headerlink" href="#install-mongodb-server" title="Permalink to this headline">¶</a></h2>
+<p>Install mongodb server on each of the three virtual instances. If you have
+other operating systems, please use its package management program e.g. yum or
+brew.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">Ubuntu</span><span class="p">)</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">mongodb</span><span class="o">-</span><span class="n">server</span>
+
+<span class="p">(</span><span class="n">CentOS</span><span class="p">)</span>
+<span class="n">sudo</span> <span class="n">yum</span> <span class="n">install</span> <span class="n">mongodb</span><span class="o">-</span><span class="n">server</span>
+
+<span class="p">(</span><span class="n">Mac</span> <span class="n">OS</span><span class="p">)</span>
+<span class="n">sudo</span> <span class="n">brew</span> <span class="n">install</span> <span class="n">mongodb</span><span class="o">-</span><span class="n">server</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="configure-instances">
+<h2><a class="toc-backref" href="#id5">Configure Instances</a><a class="headerlink" href="#configure-instances" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Create data directories for each of the three config server instances. By
+default, a config server stores its data files in the /data/configdb
+directory.  You can choose a different location. To create a data directory,
+issue a command similar to the following:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">configdb</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Start the three config server instances. Start each by issuing a command
+using the following syntax:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mongod</span> <span class="o">--</span><span class="n">configsvr</span> <span class="o">--</span><span class="n">dbpath</span> <span class="o">&lt;</span><span class="n">path</span><span class="o">&gt;</span> <span class="o">--</span><span class="n">port</span> <span class="o">&lt;</span><span class="n">port</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>The default port for config servers is 27019. You can specify a different
+port. The following example starts a config server using the default port and
+default data directory:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">mongod</span> <span class="o">--</span><span class="n">configsvr</span> <span class="o">--</span><span class="n">dbpath</span> <span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">configdb</span> <span class="o">--</span><span class="n">port</span> <span class="mi">27019</span> <span class="o">&amp;</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<p>For additional command options, see mongod or Configuration File Options.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">All config servers must be running and available when you first initiate a sharded cluster.</p>
+</div>
+</div>
+<div class="section" id="start-mongos-instances">
+<h2><a class="toc-backref" href="#id6">Start mongos Instances</a><a class="headerlink" href="#start-mongos-instances" title="Permalink to this headline">¶</a></h2>
+<p>The mongos instances are lightweight and do not require data directories. You
+can run a mongos instance on a system that runs other cluster components, such
+as on an application server or a server running a mongod process. By default, a
+mongos instance runs on port 27017.</p>
+<p>When you start the mongos instance, specify the hostnames of the three config
+servers, either in the configuration file or as command line parameters.</p>
+<p>To start a mongos instance, issue a command using the following syntax:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mongos</span> <span class="o">--</span><span class="n">configdb</span> <span class="o">&lt;</span><span class="n">config</span> <span class="n">server</span> <span class="n">hostnames</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>For example, to start a mongos that connects to config server instance running
+on the following hosts and on the default ports:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">albert_1</span><span class="o">-</span><span class="n">i</span>
+<span class="n">albert_2</span><span class="o">-</span><span class="n">i</span>
+<span class="n">albert_3</span><span class="o">-</span><span class="n">i</span>
+</pre></div>
+</div>
+<p>You would issue the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mongos</span> <span class="o">--</span><span class="n">configdb</span> <span class="n">albert_1</span><span class="o">-</span><span class="n">i</span><span class="p">:</span><span class="mi">27019</span><span class="p">,</span><span class="n">albert_2</span><span class="o">-</span><span class="n">i</span><span class="p">:</span><span class="mi">27019</span><span class="p">,</span><span class="n">albert_3</span><span class="o">-</span><span class="n">i</span><span class="p">:</span><span class="mi">27019</span>
+</pre></div>
+</div>
+<p><em>albert_1-i, albert_2-i, and albert_3-i are hostnames for internal IPs</em></p>
+<p>Each mongos in a sharded cluster must use the same configDB string, with
+identical host names listed in identical order.</p>
+<p>If you start a mongos instance with a string that does not exactly match the
+string used by the other mongos instances in the cluster, the mongos return a
+Config Database String Error error and refuse to start.</p>
+</div>
+<div class="section" id="add-shards-to-the-cluster">
+<h2><a class="toc-backref" href="#id7">Add Shards to the Cluster</a><a class="headerlink" href="#add-shards-to-the-cluster" title="Permalink to this headline">¶</a></h2>
+<p>A shard can be a standalone mongod or a replica set. In a production
+environment, each shard should be a replica set. Use the procedure in Deploy a
+Replica Set to deploy replica sets for each shard.</p>
+<ul>
+<li><p class="first">From a mongo shell, connect to the mongos instance. Issue a command using the following syntax:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mongo</span> <span class="o">--</span><span class="n">host</span> <span class="o">&lt;</span><span class="n">hostname</span> <span class="n">of</span> <span class="n">machine</span> <span class="n">running</span> <span class="n">mongos</span><span class="o">&gt;</span> <span class="o">--</span><span class="n">port</span> <span class="o">&lt;</span><span class="n">port</span> <span class="n">mongos</span> <span class="n">listens</span> <span class="n">on</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>For example, if a mongos is accessible at mongos0.example.net on port 27017, issue the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mongo</span> <span class="o">--</span><span class="n">host</span> <span class="n">albert_1</span><span class="o">-</span><span class="n">i</span> <span class="o">--</span><span class="n">port</span> <span class="mi">27017</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Add each shard to the cluster using the sh.addShard() method, as shown in the
+examples below. Issue sh.addShard() separately for each shard. If the shard
+is a replica set, specify the name of the replica set and specify a member of
+the set. In production deployments, all shards should be replica sets.</p>
+</li>
+</ul>
+<p>The following are examples of adding a shard with sh.addShard():</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span> <span class="o">*</span> <span class="n">To</span> <span class="n">add</span> <span class="n">a</span> <span class="n">shard</span> <span class="k">for</span> <span class="n">a</span> <span class="n">replica</span> <span class="nb">set</span> <span class="n">named</span> <span class="n">rs1</span> <span class="k">with</span> <span class="n">a</span> <span class="n">member</span> <span class="n">running</span> <span class="n">on</span> <span class="n">port</span>
+   <span class="mi">27017</span> <span class="n">on</span> <span class="n">mongodb0</span><span class="o">.</span><span class="n">example</span><span class="o">.</span><span class="n">net</span><span class="p">,</span> <span class="n">issue</span> <span class="n">the</span> <span class="n">following</span> <span class="n">command</span><span class="p">::</span>
+
+         <span class="n">sh</span><span class="o">.</span><span class="n">addShard</span><span class="p">(</span> <span class="s2">&quot;rs1/albert_1-i:27017&quot;</span> <span class="p">)</span>
+
+   <span class="n">For</span> <span class="n">MongoDB</span> <span class="n">versions</span> <span class="n">prior</span> <span class="n">to</span> <span class="mf">2.0</span><span class="o">.</span><span class="mi">3</span><span class="p">,</span> <span class="n">you</span> <span class="n">must</span> <span class="n">specify</span> <span class="nb">all</span> <span class="n">members</span> <span class="n">of</span> <span class="n">the</span>
+   <span class="n">replica</span> <span class="nb">set</span><span class="o">.</span> <span class="n">For</span> <span class="n">example</span><span class="p">::</span>
+
+
+         <span class="n">sh</span><span class="o">.</span><span class="n">addShard</span><span class="p">(</span>
+         <span class="s2">&quot;rs1/albert_1-i:27017,albert_2-i:27017,albert_3-i:27017&quot;</span>
+         <span class="p">)</span>
+
+<span class="o">*</span> <span class="n">To</span> <span class="n">add</span> <span class="n">a</span> <span class="n">shard</span> <span class="k">for</span> <span class="n">a</span> <span class="n">standalone</span> <span class="n">mongod</span> <span class="n">on</span> <span class="n">port</span> <span class="mi">27017</span> <span class="n">of</span>
+  <span class="n">mongodb0</span><span class="o">.</span><span class="n">example</span><span class="o">.</span><span class="n">net</span><span class="p">,</span> <span class="n">issue</span> <span class="n">the</span> <span class="n">following</span> <span class="n">command</span><span class="p">::</span>
+
+       <span class="n">sh</span><span class="o">.</span><span class="n">addShard</span><span class="p">(</span> <span class="s2">&quot;albert_1-i:27017&quot;</span> <span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">It might take some time for chunks to migrate to the new shard.</p>
+</div>
+</div>
+<div class="section" id="enable-sharding-for-a-database">
+<h2><a class="toc-backref" href="#id8">Enable Sharding for a Database</a><a class="headerlink" href="#enable-sharding-for-a-database" title="Permalink to this headline">¶</a></h2>
+<p>Before you can shard a collection, you must enable sharding for the
+collection’s database. Enabling sharding for a database does not redistribute
+data but make it possible to shard the collections in that database.</p>
+<p>Once you enable sharding for a database, MongoDB assigns a primary shard for
+that database where MongoDB stores all data before sharding begins.</p>
+<ul>
+<li><p class="first">From a mongo shell, connect to the mongos instance. Issue a command using the
+following syntax:</p>
+<p>mongo &#8211;host &lt;hostname of machine running mongos&gt; &#8211;port &lt;port mongos listens on&gt;</p>
+</li>
+<li><p class="first">Issue the sh.enableSharding() method, specifying the name of the database for
+which to enable sharding. Use the following syntax:</p>
+<p>sh.enableSharding(&#8220;&lt;database&gt;&#8221;)</p>
+</li>
+</ul>
+<p>Optionally, you can enable sharding for a database using the enableSharding
+command, which uses the following syntax:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">db</span><span class="o">.</span><span class="n">runCommand</span><span class="p">(</span> <span class="p">{</span> <span class="n">enableSharding</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">database</span><span class="o">&gt;</span> <span class="p">}</span> <span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="enable-sharding-for-a-collection">
+<h2><a class="toc-backref" href="#id9">Enable Sharding for a Collection</a><a class="headerlink" href="#enable-sharding-for-a-collection" title="Permalink to this headline">¶</a></h2>
+<p>You enable sharding on a per-collection basis.</p>
+<ul>
+<li><p class="first">Determine what you will use for the shard key. Your selection of the shard
+key affects the efficiency of sharding. See the selection considerations
+listed in the Considerations for Selecting Shard Key.</p>
+</li>
+<li><p class="first">If the collection already contains data you must create an index on the shard
+key using ensureIndex(). If the collection is empty then MongoDB will create
+the index as part of the sh.shardCollection() step.</p>
+</li>
+<li><p class="first">Enable sharding for a collection by issuing the sh.shardCollection() method
+in the mongo shell. The method uses the following syntax:</p>
+<p>sh.shardCollection(&#8220;&lt;database&gt;.&lt;collection&gt;&#8221;, shard-key-pattern)</p>
+<p>Replace the &lt;database&gt;.&lt;collection&gt; string with the full namespace of your
+database, which consists of the name of your database, a dot (e.g. .), and
+the full name of the collection. The shard-key-pattern represents your shard
+key, which you specify in the same form as you would an index key pattern.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">EXAMPLE</span>
+<span class="n">The</span> <span class="n">following</span> <span class="n">sequence</span> <span class="n">of</span> <span class="n">commands</span> <span class="n">shards</span> <span class="n">four</span> <span class="n">collections</span><span class="p">:</span>
+
+<span class="n">sh</span><span class="o">.</span><span class="n">shardCollection</span><span class="p">(</span><span class="s2">&quot;records.people&quot;</span><span class="p">,</span> <span class="p">{</span> <span class="s2">&quot;zipcode&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="mi">1</span> <span class="p">}</span> <span class="p">)</span>
+<span class="n">sh</span><span class="o">.</span><span class="n">shardCollection</span><span class="p">(</span><span class="s2">&quot;people.addresses&quot;</span><span class="p">,</span> <span class="p">{</span> <span class="s2">&quot;state&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;_id&quot;</span><span class="p">:</span> <span class="mi">1</span> <span class="p">}</span> <span class="p">)</span>
+<span class="n">sh</span><span class="o">.</span><span class="n">shardCollection</span><span class="p">(</span><span class="s2">&quot;assets.chairs&quot;</span><span class="p">,</span> <span class="p">{</span> <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;_id&quot;</span><span class="p">:</span> <span class="mi">1</span> <span class="p">}</span> <span class="p">)</span>
+<span class="n">sh</span><span class="o">.</span><span class="n">shardCollection</span><span class="p">(</span><span class="s2">&quot;events.alerts&quot;</span><span class="p">,</span> <span class="p">{</span> <span class="s2">&quot;_id&quot;</span><span class="p">:</span> <span class="s2">&quot;hashed&quot;</span> <span class="p">}</span> <span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<p>In order, these operations shard:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">*</span> <span class="n">The</span> <span class="n">people</span> <span class="n">collection</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">records</span> <span class="n">database</span> <span class="n">using</span> <span class="n">the</span> <span class="n">shard</span> <span class="n">key</span> <span class="p">{</span>
+</pre></div>
+</div>
+<blockquote>
+<div>&#8220;zipcode&#8221;: 1, &#8220;name&#8221;: 1 }.  This shard key distributes documents by the value
+of the zipcode field. If a number of documents have the same value for this
+field, then that chunk will be splittable by the values of the name field.</div></blockquote>
+<ul class="simple">
+<li>The addresses collection in the people database using the shard key {
+&#8220;state&#8221;: 1, &#8220;_id&#8221;: 1 }.  This shard key distributes documents by the value of
+the state field. If a number of documents have the same value for this field,
+then that chunk will be splittable by the values of the _id field.</li>
+<li>The chairs collection in the assets database using the shard key { &#8220;type&#8221;: 1,
+&#8220;_id&#8221;: 1 }.  This shard key distributes documents by the value of the type
+field. If a number of documents have the same value for this field, then that
+chunk will be splittable by the values of the _id field.</li>
+<li>The alerts collection in the events database using the shard key { &#8220;_id&#8221;:
+&#8220;hashed&#8221; }.</li>
+</ul>
+<p><em>New in version 2.4.</em></p>
+<p>This shard key distributes documents by a hash of the value of the _id field.
+MongoDB computes the hash of the _id field for the hashed index, which should
+provide an even distribution of documents across a cluster.</p>
+</div>
+<div class="section" id="next-step">
+<h2><a class="toc-backref" href="#id10">Next Step</a><a class="headerlink" href="#next-step" title="Permalink to this headline">¶</a></h2>
+<p>We have additional tutorial for using cloud resources on FutureSystems.
+In the next page, we explore several examples such as IPython, Chef, etc.</p>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="../../genindex.html"  title="General Index">index</a></span>
+				</div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abdul-Wahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.4.8.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../../_static/foundation/js/foundation.min.js"></script>
+	<script src="../../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>
