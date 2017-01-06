@@ -5,3 +5,5 @@ venv
 #*
 auto
 build
+*.fdb_latexmk
+*.fls

@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 DEC 2016 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 JAN 2017 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report
+**report.tex
 (./report.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
@@ -1793,7 +1793,7 @@ Here is how much of TeX's memory you used:
  24786 multiletter control sequences out of 15000+600000
  97182 words of font info for 237 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,18n,45p,10400b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,18n,45p,10404b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
@@ -1809,7 +1809,7 @@ s/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/p
 alatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on report.pdf (3 pages, 967799 bytes).
+Output written on report.pdf (3 pages, 967648 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  137 compressed objects within 2 object streams
