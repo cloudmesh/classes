@@ -8,3 +8,4 @@ foundation-sphinx-theme
 pybtex
 watchdog
 Pygments
+cloudmesh_client
