@@ -10,4 +10,4 @@ In particular, pay attention to the following sections:
 * `About forks <https://help.github.com/articles/about-forks>`_
 * `Syncing a fork <https://help.github.com/articles/syncing-a-fork>`_
 * `About Pull Requests <https://help.github.com/articles/about-pull-requests/>`_
-* reating a pull request from a fork <https://help.github.com/articles/creating-a-pull-request-from-a-fork/>`_
+* `Creating a pull request from a fork <https://help.github.com/articles/creating-a-pull-request-from-a-fork/>`_
