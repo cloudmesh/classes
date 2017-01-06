@@ -786,12 +786,15 @@ Issues can be submitted at
 
 * https://github.com/cloudmesh/classes/issues
 
-Or better use piazza so you notify us in our discussion lists. If you
-detect errors, you could also create a merge request at
+Or better use piazza so you notify us in our discussion lists.
 
 * https://piazza.com/iu/i524
 
-	  
+If you detect errors, you could also create a merge request at
+
+* https://github.com/cloudmesh/classes
+
+
 	  
 Course Numbers
 --------------
