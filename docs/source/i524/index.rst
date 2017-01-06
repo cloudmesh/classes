@@ -326,33 +326,30 @@ How to achieve your best
 While teaching our classes we noticed the following tips to achieve
 your best:
 
-* Do not **Procrastinating**.
-* Do not just **take other classes more serious**.
-* **Starting the project in the first 4 weeks of the class**
 * **Ask for help**
-* Be aware understanding that this class is not based on a text book
-* The TAs can schedule custom help office hours on appointment during reasonable times
-* Do not overestimating the technical abilities
-* Do nnot Underestimating the time it takes to do the project
+* Do not **Procrastinate**.
+* Do not just **take the other classes more serious**.
+* **Start the project in the first 4 weeks of the class**
+* Be aware that this class is not based on a text book and what this implies.
+* The TAs can schedule custom help office hours on appointment during reasonable times.
+* Do not overestimating the technical abilities.
+* Do not Underestimating the time it takes to do the project.
 * Unnecessarily struggling with LaTeX as you do not use an example we
   provide and you want to do too much
-* Trying to do things on Windows Which is typically more difficult
+* Trying to do things on Windows which is typically more difficult
   than using Linux
-* Having a computer that is underpowered or outdated
-* not listening to the lectures
+* Not Having a computer that is up to date
+* Listening to the lectures
 * Ignoring security via ssh
-* Posting passwords into git
+* Not posting passwords into git
 * Being not aware that git does **not** allow to easily completely
   delete files that contain secret information such as passwords
-* Assume your colleagues does the work, so you get lazy
+* Having your coleagues do the work for you
 * Underestimating the **time** it takes to do deployments
 * Not reading our piazza posts and repeating the same question over
   and over
-* Sending mail to instructors, which will be out of principal deleted
-  and not read. Instead you should use piazza
-* Not using Piazza to communicate and instead use CANVAS. We will
-  be deleting all canvas posts after we have established you can post
-  to piazza. Which will be the first week of class.
+* Not using Piazza to communicate as post in CANVAS will easily be
+  overlooked and are typically not shared with the class.
 
 
 
@@ -378,10 +375,7 @@ To sign up in piazza please follow this link:
 Piazza Folders
 ^^^^^^^^^^^^^^
 
-Piazza folders allow us to organize some posts into topics. If we need
-to introduce a new folder, please discuss and Gregor will approve and
-create it if needed. We will not create folders for individual
-projects or teams.
+Piazza folders allow us to organize some posts into topics. 
 
 help:
     Our help folder is just like a ticket system that is monitored by
