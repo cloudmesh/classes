@@ -24,6 +24,8 @@ them. Topics of this class will include:
 
 .. sidebar:: Figure 1: Software Systems relevant for Big Data
 
+   .. index:: I524 technology image
+	   
    .. figure:: bigdata.png
       :width: 200px
       :align: center
@@ -136,9 +138,46 @@ subsystems.
 	  class. It is likely that you can join as others drop.
 
 
+.. index:: I524 meeting times
+    
+Meeting Times
+-------------
+
+The classes are published online. Residential students at Indiana
+University will participate in a discussion taking place at the
+following time:
+
+* Monday 09:30am - 10:45am EST, I2 130
+
+For the 100% online students see the office hours.
+
+Online Meetings
+---------------
+
+Meeting times for the online class will be determined through piazza
+and or a survey.
+
+    * **PC, Mac, Linux, iOS or Android:**
+        * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
+        * Password: To be posted in CANVAS
+    * **Telephone**:
+        * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
+        * Meeting ID: 534 178 131 
+        * International numbers available:
+	  * https://IU.zoom.us/zoomconference?m=xAjpb6jx8gjnut6Q2SW5yPuC09ekuO7H 
+    * **H.323/SIP room system**:
+        * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East) 
+        * Meeting ID: 534 178 131
+        * Password: 520093
+    * **SIP:** 534178131@zoomcrc.com
+        * Password: 520093
+
+
+.. index:: I524 project ideas
+	   
 Selected Project Ideas
 ------------------------------
-
+	   
 Students can select from a number of project ideas. We will improve
 and add additional ideas throughout the semester. Students can also
 conduct their own projects. We recommend that you identify a project
@@ -196,6 +235,8 @@ Who can take the class?
 
 Homework
 --------
+
+.. index:: I524 homework
 
 Grading policies are listed in Table 1.
 
@@ -295,85 +336,63 @@ Grading policies are listed in Table 1.
 .. _ref-i524-prerequisits:
 
 Prerequisites
-------------
+-------------
+
+.. index:: I524 prerequisites
+
 
 We expect you are familiar with:
 
-* (easy) Linux or the Operating system on which you will focus your
+* Linux and the Operating system on which you will focus your
   deployment.
   
-* (moderate) Note that Windows as OS will not be sufficient as Ansible
+* Note that Windows as OS will not be sufficient as Ansible
   is not supported on it. However you can use virtualbox or log onto
-  one of the clouds to get access to an OS that supports ansible.
+  one of the clouds to get access to an OS that supports ansible. So
+  you can use your Windows computer if it is powerful enough.
   
-* (easy) Python 2.7.x (we will not use python 3 for this class as it
-  is not yet portable with all systems) (we consider learning python
-  as easy, however some students found it challenging)
+* Python 2.7.x (we will not use python 3 for this class as it
+  is not yet portable with all systems) Although python is considered
+  to be a straight forward language to learn, students that have not
+  done any programming my find it challanging. 
   
-* (easy) pip
+* Familaiarity with th Python eco system. The best way to install
+  python on a computer is to use virtualenv, and pip (which we will
+  teach you as part of the class).
 
-* (easy) virtualenv
-
-* (easy) an editor (emacs, vi, jedit, pyCharm, eclipse, or other)
+* Familiarity with an editor such as emacs, vi, jedit, pyCharm,
+  eclipse, or other that you can use to program in and write your
+  reports.
   
-If you are not familiar with the technologies, we expect that you get
-to know them during class. This may pose additional time commitment. 
+If you are not familiar with these technologies, we expect that you
+get to know them before or during class. This may pose additional time
+commitment.
 
 Open Source Publication of Homework
 -----------------------------------
 
-As this class is about open source technologies, we will be using the
-same to gather and distribute the homework submissions.
- 
-The results of all technology papers will be available as a single big
-report. Due to the organization as a single report bound into a book
-format of the technologies, all reports must be written in LaTeX and
-jabref must be used to manage references. This class will therefore
-not accept word, openoffice, and endnote. Alternatively lyx.org can be
-used, if you prefer to edit latex in *what you see is almost what you
-get* format. The use of sharelatex or overleave is allowed.
+.. index:: I524 report format
+
+As this class is about open source technologies, we will be using such
+technologies to gather the homework submissions. We will not be using
+CANVAS so we teach you these technologies that are often mandated in
+industry. CANVAS is not.
+
+As a consequence all technology papers from all students will be
+available as a single big technical report. To achieve this all
+reports must be written in the same format. This wil be LaTeX and all
+refernces have to be provided a bibtex file while you use jabref.
+Alternatively lyx.org can be used, if you prefer to edit
+latex in *what you see is almost what you get* format. The use of
+sharelatex or overleave or lyx.org is allowed.
 
 
-.. index:: I524 mistakes
-
-How to achieve your best
-------------------------
-
-While teaching our classes we noticed the following tips to achieve
-your best:
-
-* **Ask for help**
-* Do not **Procrastinate**.
-* Do not just **take the other classes more serious**.
-* **Start the project in the first 4 weeks of the class**
-* Be aware that this class is not based on a text book and what this implies.
-* The TAs can schedule custom help office hours on appointment during reasonable times.
-* Do not overestimating the technical abilities.
-* Do not Underestimating the time it takes to do the project.
-* Unnecessarily struggling with LaTeX as you do not use an example we
-  provide and you want to do too much
-* Trying to do things on Windows which is typically more difficult
-  than using Linux
-* Not Having a computer that is up to date
-* Listening to the lectures
-* Ignoring security via ssh
-* Not posting passwords into git
-* Being not aware that git does **not** allow to easily completely
-  delete files that contain secret information such as passwords
-* Having your coleagues do the work for you
-* Underestimating the **time** it takes to do deployments
-* Not reading our piazza posts and repeating the same question over
-  and over
-* Not using Piazza to communicate as post in CANVAS will easily be
-  overlooked and are typically not shared with the class.
-
-
-
-   
+.. index:: I524 piazza
+	   
 Piazza
 ------
 
-All communication will be done via Piazza. We will not read any e-mail
+All communication will be done via Piazza. We will not read e-mail
 send to our university or private e-mails. All instructors are
 following this rule. Any mail that is not send via Piazza will be
 **not read** and **deleted**. This is also true for any mail send to
@@ -387,11 +406,8 @@ To sign up in piazza please follow this link:
 
 * https://piazza.com/iu/spring2017/i524
 
-
-Piazza Folders
-^^^^^^^^^^^^^^
-
-Piazza folders allow us to organize some posts into topics. 
+We have created a number of piazza folder to organize the posts int
+topics.  Thes folders are:
 
 help:
     Our help folder is just like a ticket system that is monitored by
@@ -407,9 +423,6 @@ logistics:
     Question regarding the logistics of the class are posted
     here. This includes questions about communication, meeting times,
     and other administrative activities.
-    
-other:
-    In case no folder matches for your question use other.
 
 papers:
     Questions regarding the paper are posted here.    
@@ -433,17 +446,56 @@ meetings: Here we will post times for meetings with TA's and
     students we will also determine a time for regulare meetings. The
     TAs are required to hold 10 hours of meeting times upon request
     with you. Please make use of this.
-  
-Meeting Times
--------------
 
-The classes are published online. Residential students at Indiana
-University will participate in a discussion taking place at the
-following time:
+    
+other:
+    In case no folder matches for your question use other.
 
-* Monday 09:30am - 10:45am EST, I2 130
+    
+.. index:: I524 tips
 
-For the 100% online students see the office hours.
+Tips on how to achieve your best
+--------------------------------
+
+While teaching our classes we noticed the following tips to achieve
+your best:
+
+* Listening to the lectures
+* **Set aside enough undisturbed time for the class**. Switch off
+  facebook, twitter, or other distracting social media systems when
+  focussing on the class.
+* **Ask for help**. The TAs can schedule custom help office hours on
+  appointment during reasonable times.
+* Do not **Procrastinate**.
+* Do not **take your other classes more serious**.
+* **Start the project in the first 4 weeks of the class**
+* Be aware that this class is not based on a text book and what this
+  implies. 
+* Do not overestimating the technical abilities.
+* Do not underestimating the time it takes to do the project.
+* Do not forget to include benchmarks in your project.
+* Unnecessarily struggling with LaTeX as you do not use an example we
+  provide.
+* Trying to do things just on Windows which is typically more difficult
+  than using Linux.
+* Not having a computer that is up to date. Update your memory and
+  have a SSD
+* Ignoring obvious security rules and not integrating ssh form the
+  start into your projects.
+* Not posting passwords into git. For example git does
+  **not** allow to **easily** completely delete files that contain secret
+  information such as passwords. It takes significant effort to do
+  that. Make sure you do add in git on individual files and never
+  just a bulk add.
+* Having your coleagues do the work for you
+* Underestimating the **time** it takes to do deployments
+* Not reading our piazza posts and repeating the same question over
+  and over
+* Use Piazza to communicate and not CANVAS or e-mail.
+* When you receive an e-mail from piazza, reply to it while clicking
+  on the link instead of replying via e-mail directly. This is more
+  reliable.
+
    
 Submissions
 -----------
@@ -542,11 +594,14 @@ Class homework repository: https://github.com/cloudmesh/sp17-i524
 Code Repositories Deliverables
 ------------------------------
 
-Code repositories are for code, if you have additional libraries that
-are needed you need to develop a script or use a DevOps framework to
-install such software. Thus zip files and .class, .o files are not
-permissible in the project. Each project must be reproducible with a
-simple script. An example is::
+Code repositories are for code, if you have additional libraries or
+data that are needed you need to develop a script or use a DevOps
+framework to install such software. They **must** not be checked into
+github. Thus zip files and .class, .o, precompiled python, .exe, core
+dumps, and other such files files are not permissible in the
+project. If we find such files you will get a 20% deduction in your
+grade. Each project must be reproducible with a simple script. An
+example is::
 
     git clone ....
     make install
@@ -555,32 +610,10 @@ simple script. An example is::
 
 Which would use a simple make file to install, run, and view the
 results. Naturally you can use ansible or shell scripts. It is not
-permissible to use GUI based DevOps preinstalled
-frameworks. Everything must be installable form the command line.
+permissible to use GUI based DevOps preinstalled frameworks (such as
+the one you may have installed in your company or as part of another
+project). Everything must be installable form the command line.
       
-
-
-Online Meetings
----------------
-
-Meeting times for the online class will be determined through piazza
-and or a survey.
-
-    * **PC, Mac, Linux, iOS or Android:**
-        * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
-        * Password: To be posted in CANVAS
-    * **Telephone**:
-        * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
-        * Meeting ID: 534 178 131 
-        * International numbers available:
-	  * https://IU.zoom.us/zoomconference?m=xAjpb6jx8gjnut6Q2SW5yPuC09ekuO7H 
-    * **H.323/SIP room system**:
-        * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East) 
-        * Meeting ID: 534 178 131
-        * Password: 520093
-    * **SIP:** 534178131@zoomcrc.com
-        * Password: 520093
-
 
 
 Learning Outcomes
@@ -591,26 +624,25 @@ Students will
 1. gain broad understanding of Big Data applications and open source
    technologies supporting them.
 
-2. have intense programming experience in Python and ansible.
+2. have intense programming experience in Python and ansible and DevOps.
 
-3. use open source technologies to manage code in large groups
-   individual.
+3. use open source technologies to manage code in large groups of
+   individuals.
 
 4. be able to communicate reserach in professional scientific reports.
 
-5. be able to use group communication and collaboration tools.
 
 Outcome 1 is supported by a series of lectures around open source
 technologies for big data.
 
-Outcome 3 is supported by a significant software project that will
+Outcome 2 is supported by a significant software project that will
 take up a considerable amount of time to plan and execute.
 
-Outcome 4 is supported by writing 3 technology papers and a project
+Outcome 1 and 4 is supported by writing 3 technology papers and a project
 report that is shared with all students. Students can gain additional
 insight from reading and reviewing other students contributions.
 
-Outcome  2 and 5 is supported by using piazza and github as well as
+Outcome 3 is supported by using piazza and github as well as
 contributiong to the class Web page with git pull requests.
 
 
