@@ -1,0 +1,407 @@
+{% set ishome = master_doc == pagename %}
+
+{% set script_files = script_files + ['_static/foundation/js/vendor/custom.modernizr.js'] %}
+
+{% macro seo_title() -%}
+	{% if ishome -%}
+		{{ docstitle|striptags|e }}
+	{%- else -%}
+		{{ title|striptags|e }} | {{ docstitle|striptags|e }}
+	{%- endif %}
+{%- endmacro %}
+
+{%- macro script() %}
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '{{ url_root }}',
+        VERSION:     '{{ release|e }}',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '{{ '' if no_search_suffix else file_suffix }}',
+        HAS_SOURCE:  {{ has_source|lower }}
+      };
+    </script>
+    {%- for scriptfile in script_files %}
+    	<script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
+    {%- endfor %}
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+    
+{%- endmacro %}
+
+{%- macro css() %}
+	
+    <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+    <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
+    
+    {%- for cssfile in css_files %}
+    	<link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
+    {%- endfor %}
+    
+    <link rel="stylesheet" href="{{ pathto('_static/' + theme_stylesheet, 1) }}" type="text/css" />
+{%- endmacro %}
+
+{%- macro description() -%}
+    {{ (seo_description or theme_seo_description or theme_motto)|striptags|e }}
+{%- endmacro -%}
+
+{%- macro seo_tags() %}
+	{# Required Open Graph tags #}
+	<meta property="og:title" content="{{ seo_title() }}" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{{ pathto(theme_base_url + '/' + pagename, 1) }}.html" />
+	<meta property="og:image" content="{{ pathto(theme_base_url + '/_static/' + theme_opengraph_image, 1) }}" />
+	
+	{# Optional Open Graph tags #}
+	<meta property="og:description" content="{{ description() }}" />
+	<meta property="og:site_name" content="{{ docstitle|striptags|e }}" />
+	
+	{% if theme_opengraph_tags is mapping %}
+		{%- for k, v in theme_opengraph_tags.items() %}
+	    	<meta property="og:{{ k }}" content="{{ v }}" />
+	    {%- endfor %}
+	{% endif %}
+    
+    
+	<meta name="description" content="{{ description() }}">
+    {% if theme_meta_tags is mapping %}
+	    {%- for k, v in theme_meta_tags.items() %}
+	    	<meta name="{{ k }}" content="{{ v }}" />
+	    {%- endfor %}
+	{% endif %}
+{%- endmacro %}
+
+{%- macro breadcrumbs() %}
+	{% if next and prev %}
+		<ul class="breadcrumbs">
+			{# Home #}
+		  	<li><a href="{{ pathto(master_doc) }}">{{ docstitle }}</a></li>
+
+		  	{# Parents #}
+		  	{%- for parent in parents %}
+		  		<li><a href="{{ parent.link|e }}">{{ parent.title }}</a></li>
+		  	{%- endfor %}
+
+		  	{# Current #}
+			<li class="current"><a href="">{{ title }}</a></li>
+		</ul>
+	{% endif %}
+{%- endmacro %}
+
+{%- macro nav_appendix() %}
+	<li class="divider"></li>
+
+	{% if prev %}
+		<li><a href="{{ prev.link|e }}"  title="{{ prev.title }}">&laquo; previous</a></li>
+	{% endif %}
+
+	{%- for rellink in rellinks %}
+		{% if rellink[3] not in ('next', 'previous') %}
+			<li><a href="{{ pathto(rellink[0]) }}"  title="{{ rellink[1]|striptags|e }}">{{ rellink[3] }}</a></li>
+		{% endif %}
+	{%- endfor %}
+
+	{% if next %}
+		<li><a href="{{ next.link|e }}"  title="{{ next.title }}">next &raquo;</a></li>
+	{% endif %}
+
+{%- endmacro %}
+
+{%- macro logo() %}
+	<div>
+		<a href="{{ pathto(master_doc) }}">
+		{% if theme_logo_screen %}
+	    	{% if theme_logo_mobile %}
+	    		<img id="logo" class="hide-for-small" src="{{ pathto('_static/' + theme_logo_screen, 1) }}" />
+	    		<img id="logo-mobile" class="show-for-small" src="{{ pathto('_static/' + theme_logo_mobile, 1) }}" />
+	    	{% else %}
+	    		<img id="logo" src="{{ pathto('_static/' + theme_logo_screen, 1) }}" />
+	    	{% endif %}
+		{% else %}
+	    	<h1 id="logo">{{ docstitle }}</h1>
+		{% endif %}
+		</a>
+	</div>
+{% endmacro -%}
+
+{% block doctype %}
+<!DOCTYPE html>
+{% endblock %}
+
+{% block html_open %}
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+{% endblock %}
+
+{% block html_head %}
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>{{ seo_title() }}</title>
+	
+	{%- if theme_favicon %}
+    	<link rel="icon" type="image/x-icon" href="{{ pathto('_static/' + theme_favicon, 1) }}" />
+    {%- endif %}
+	
+	{{ seo_tags() }}
+	
+	{{ css() }}
+
+    {%- if not embedded %}
+    	{{ script() }}
+    {%- endif %}
+
+</head>
+{% endblock %}
+
+{% block html_body %}
+<body>
+	{% if theme_social_buttons -%}
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId={{ theme_facebook_app_id }}";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	{%- endif %}
+	
+	{%- block root -%}
+	<div id="root">
+	       {%- block nav_bar -%}
+		<div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="{{ pathto(master_doc) }}">{{ docstitle }}</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					{% if theme_top_bar_force_fit %}
+						<ul>
+							<li class="has-dropdown">
+								<a href="">{{ theme_top_bar_content_title }}</a>
+								{{ tt2nav(toctree(collapse=False), klass='dropdown') }}
+							</li>
+						</ul>
+					{% else %}
+						{{ tt2nav(toctree(collapse=False)) }}
+					{% endif %}
+					<ul class="left">
+						{{ nav_appendix() }}
+					</ul>
+				</section>
+			</nav>
+		</div>
+		{%- endblock -%}
+		{%- block header -%}
+		<div id="header">
+			<div class="row">
+				{% if theme_motto %}
+		        <div id="logo-container" class="large-6 columns">
+		        	{{ logo() }}
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						{{ theme_motto }}
+					</p>
+		        </div>
+		        {% else %}
+		        	{{ logo() }}
+		        {% endif %}
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	{% if theme_social_buttons -%}
+	    	<ul>
+	    		<li>
+	    			<div class="fb-like" data-href="{{ pathto(theme_base_url + '/' + pagename, 1) }}.html" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
+	    		</li>
+	    		<li>
+	    			<div class="g-plusone" data-size="medium" data-href="{{ pathto(theme_base_url + '/' + pagename, 1) }}.html"></div>
+	    		</li>
+	    		<li>
+	    			<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ theme_twitter_id }}">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	    		</li>
+	    		{% if theme_github_user and theme_github_repo %}
+	    		<li>
+	    			<iframe src="http://ghbtns.com/github-btn.html?user={{ theme_github_user }}&repo={{ theme_github_repo }}&type=watch&count=true"
+  							allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+	    		</li>
+	    		{% endif %}
+	    		<li>
+	    			<script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+					<script type="IN/Share" data-counter="right"></script>
+	    		</li>
+	    		{% if theme_flattr_id %}
+	    		<li>
+	    			<a	class="FlattrButton"
+	    				href="http://peterhudec.github.io/foundation-sphinx-theme/cards/html"
+	    				data-flattr-uid="{{ theme_flattr_id }}"
+	    				data-flattr-category="software"
+	    				data-flattr-button="compact"
+	    				data-flattr-tags="{{ theme_flattr_tags }}"
+	    				data-flattr-description="{{ theme_flattr_description or theme_seo_description or theme_motto }}"
+	    				title="{{ theme_flattr_title or seo_title() }}"></a>
+	    		</li>
+	    		{% endif %}
+	    		<li class="reddit">
+	    			<script type="text/javascript" src="http://www.reddit.com/static/button/button1.js">
+	    				reddit_newwindow='1';
+	    			</script>
+	    		</li>
+	    	</ul>
+	    	{% endif %}
+	    </div>
+		{% endblock %}
+		
+		{% block breadcrumbs %}
+		<div class="row">{{ breadcrumbs() }}</div>
+		{% endblock %}
+		
+		<div class="row">
+			{% block content %}
+			<div id="content" class="large-9 push-3 columns">
+				{% block body %}{% endblock %}
+			</div>
+			{% endblock %}
+			
+			{% block navigation %}
+			<div id="navigation" class="large-3 pull-9 columns">
+			  
+			  {{ toctree(collapse=True) }}
+
+			</div>
+			{% endblock %}
+		</div>
+		
+		<div id="root_footer"></div>
+	</div>
+	{%- endblock -%}
+	
+	{%- block footer -%}
+	<div id="footer">
+		{%- block bottom_nav -%}
+		<div id="bottom-nav">
+			{%- if prev -%}
+				<span><a href="{{ prev.link|e }}"  title="{{ prev.title }}">&laquo; previous</a></span>
+			{% endif -%}
+			{%- for rellink in rellinks -%}
+				{%- if rellink[3] not in ('next', 'previous') -%}
+					<span><a href="{{ pathto(rellink[0]) }}"  title="{{ rellink[1]|striptags|e }}">{{ rellink[3] }}</a></span>
+				{% endif -%}
+			{%- endfor %}
+			{%- if next -%}
+				<span><a href="{{ next.link|e }}"  title="{{ next.title }}">next &raquo;</a></span>
+			{%- endif -%}
+		</div>
+		{%- endblock -%}
+		
+		{%- block footer_notice -%}
+		<div id="footer-notice">
+		    {%- if show_copyright %}
+			    {%- if hasdoc('copyright') %}
+			        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+			    {%- elif theme_copyright_year and theme_author %}
+			    	&copy; Copyright {{ theme_copyright_year }},
+			    	{% if theme_author_link %}
+			    		<a href="{{ theme_author_link }}">{{ theme_author }}</a>
+			    	{%- else -%}
+			    		{{ theme_author }}
+			    	{%- endif -%}
+			    	{% if theme_google_plus_id %}
+			    		<a class="google-plus-badge" href="//plus.google.com/{{ theme_google_plus_id }}?rel=author" rel="author" style="text-decoration:none;">
+						<img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+"/></a>
+			    	{%- endif -%}
+			    	.
+			    {%- else %}
+			        {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
+			    {%- endif %}
+		    {%- endif %}
+		    {%- if last_updated %}
+		        {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+		    {%- endif %}
+		    {%- if show_sphinx %}
+		        {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+		    {%- endif %}
+	    </div>
+	    {%- endblock -%}
+	</div>
+	{%- endblock -%}
+	<script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '{{ pathto('_static/foundation', 1) }}/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="{{ pathto('_static/foundation/js/foundation.min.js', 1) }}"></script>
+	<script src="{{ pathto('_static/foundation/js/foundation/foundation.topbar.js', 1) }}"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		{% if theme_social_buttons %}
+		(function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+		{% endif %}
+		
+		{% if theme_google_analytics_id %}
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', '{{ theme_google_analytics_id }}']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		{% endif %}
+	</script>
+	{% if theme_github_ribbon_image and theme_github_user and theme_github_repo %}
+		<a	id="github-ribbon"
+			style="{{ theme_github_ribbon_position }}: 0; border: 0;"
+			href="https://github.com/{{ theme_github_user }}/{{ theme_github_repo }}">
+			<img
+				 src="{{ pathto('_static/' + theme_github_ribbon_image, 1) }}"
+				 alt="Fork me on GitHub">
+		</a>
+	{% endif %}
+</body>
+{% endblock %}
+</html>
