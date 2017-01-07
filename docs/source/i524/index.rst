@@ -11,7 +11,67 @@ Class Material
    calendar
    lectures
    technologies
+   
+Overview
+--------
 
+This course studies software used in many commercial activities
+related to Big Data. The backdrop for course containes more than 370
+software subsystems illustrated in Figure 1.  We will describe the
+software architecture represented by this collection and work towards
+identifying best practices to deploy, access and interface with
+them. Topics of this class will include:
+
+.. sidebar:: Figure 1: Software Systems relevant for Big Data
+
+   .. figure:: bigdata.png
+      :width: 200px
+      :align: center
+      :alt: 370 Technologies
+      :figclass: align-center
+
+ 
+#. The cloud computing architecture underlying open source big data
+   software and frameworks and contrast of them to high performance
+   computing
+
+#. The software architecture with its different layers covering broad
+   functionality and rationale for each layer.
+
+#. We will go through selected big data stack software from the list
+   of more than 370
+
+#. We will be identifying how we can create and replicate software
+   environments based on software deployed and used on clouds while
+   using Containers, OpenStack and ansible playbooks.
+
+#. Students will chose a number of open source members of the list
+   each and create repeatable deployments as illustrated in class. 
+
+#. The main activity of the course will be building a significant
+   project using multiple subsystems combined with user code and
+   data. Projects will be suggested or students can chose their own. A
+   project report will summarize the work conducted.
+
+#. Topics taught in this class will be very relevant for industry as
+   you are not only exposed to big data, but you will also be
+   practivally exposed to DevOps and collaborative code development
+   tools as part of your homework and project assignment.
+   
+Students of this class will need to conduct their project deployments
+in python using ansible and enabling a software stack that is useful
+for a big data analysis. While it is not necessary to know either
+python or ansible to take the class it is important that you have
+knowledge of a programming language so you can enhance your knowledge
+on them throughout the class and succeed. You will be expected to have
+a computer on which you have python 2.7.x installed.  You will be
+using chameleon and possibly our local cloud. Optionally some projects
+may use docker. 
+ 
+Figure 2 illustrates that you can follow the components of the class
+in a variety of ways and in parallel. For example, you do not have to
+wait to start the project or to find out more about any of the
+subsystems.
 
 .. graphviz::
 
@@ -55,72 +115,19 @@ Class Material
       "Final Project" -> "end" [ltail=cluster_prj];
    }
 
-**Figure 1:** Components of the Class  
-   
-Overview
---------
-
-This course studies software used in many commercial activities
-related to Big Data. The backdrop for course containes more than 370
-software subsystems illustrated in Figure 2.
-
-.. figure:: bigdata.png
-    :width: 200px
-    :align: center
-    :alt: 370 Technologies
-    :figclass: align-center
-
-    **Figure 2:** Software Systems relevant for Big Data
-
-We will describe the software architecture represented by this
-collection and work towards identifying best practices to deploy,
-access and interface with them. Topics of this class will include:
- 
-#. The cloud computing architecture underlying open source big data
-   software and frameworks and contrast of them to high performance
-   computing
-
-#. The software architecture with its different layers covering broad
-   functionality and rationale for each layer.
-
-#. We will go through selected big data stack software from the list
-   of more than 370
-
-#. We will be identifying how we can create and replicate software
-   environments based on software deployed and used on clouds while
-   using Containers, OpenStack and ansible playbooks.
-
-#. Students will chose a number of open source members of the list
-   each and create repeatable deployments as illustrated in class. 
-
-#. The main activity of the course will be building a significant
-   project using multiple subsystems combined with user code and
-   data. Projects will be suggested or students can chose their own. A
-   project report will summarize the work conducted.
- 
-Students of this class will need to conduct their project deployments
-in python using ansible and enabling a software stack that is useful
-for a big data analysis. While it is not necessary to know either
-python or ansible to take the class it is important that you have
-knowledge of a programming language so you can enhance your knowledge
-on them throughout the class and succeed. You will be expected to have
-a computer on which you have python 2.7.x installed.  You will be
-using chameleon and possibly our local cloud. Optionally some projects
-may use docker. 
- 
+**Figure 2:** Components of the Class  
 
 .. note:: You do not have to take I523 in order to take I524.
-
 	  
-.. note:: For previous I523 class participants: While I523 is a
-          beginners class I524 is an advanced class and we expect that
+          **For previous I523 class participants:** While I523 is a
+          beginners class I524 is a more advanced class and we expect that
           you know python which you hopefully have learned as part of
           I523 while doing a software project. If not, make sure you
           learn it before you take this class or consider
           **significant** additional time needed to learn it for the
           class. 
  
-.. note:: Residential students need to enroll early so we avoid the
+          **Residential students need to enroll early** so we avoid the
 	  situation like last year where we had many signing up, but
 	  did not even show up to the first lecture. I have asked that
 	  students from I523 have preference, but I am not sure if we
@@ -128,61 +135,60 @@ may use docker.
 	  waiting list are recommended to show up in the first
 	  class. It is likely that you can join as others drop.
 
-Figure 1 illustrates that you can follow the components of the class
-in a variety of ways. Furthermore, you do not have to wait to start
-the project of the Web homework till you have listened to all
-lectures. Naturally if you do not know how to collaborate via github
-you will not be able to submit the homework, so you need to figure
-this out first.
-	  
-Special Example Projects
-------------------------
 
-Besides your own projects we have a number of example project
-descriptions that you may want to take a look at:
+Selected Project Ideas
+------------------------------
+
+Students can select from a number of project ideas. We will improve
+and add additional ideas throughout the semester. Students can also
+conduct their own projects. We recommend that you identify a project
+idea by the end of the first month of the class. Example project
+descriptions that you may want to take a look at include:
 
 * :ref:`robotswarm`
 * :ref:`dockerswarm`
 * :ref:`kubernetes`
 * :ref:`slurmcluster`
 * :ref:`authordisambiguity_b`
-  
-NIST Big Data Working group examples:
-  Selected and approved use case from
+* NIST Big Data Working group examples: Selected and approved use case from
   http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf
-  
-Selected examples from Fall I523:
-   Some students may have created an example as part of I523. Not all
-   examples created as part of this class qualify for a I524
-   project. Please contact Gregor von Laszewski via Piazza to discuss
-   suitability of your previous I523 project. If such a project is
-   selected, approved and used it is expected it is significantly
-   enhanced.
+* Selected examples from Fall I523:
+  Some students may have created an example as part of I523. Not all
+  examples created as part of this class qualify for a I524
+  project. Please contact Gregor von Laszewski via Piazza to discuss
+  suitability of your previous I523 project. If such a project is
+  selected, approved and used it is expected it is significantly
+  enhanced.
+* Cloudmesh Enhancements:
+  A number of projects could center around the enhancements of
+  cloudmesh for the improvement of big data projects using virtual
+  machines and containers. This includes:
 
-Cloudmesh Enhancements:
-   A number of projects could center around the enhancements of
-   cloudmesh for the improvement of big data projects using virtual
-   machines and containers. This includes:
+  * Development of REST services for cloudmesh while using cloudmesh
+    client
+  * Development of benchmarking examples while using cloudmesh client
+  * Development of a better Azure interface to additinal services
+  * Development of a better AWS interfac to additinal services
+  * Development of a Web interface while using django
+  * SLURM integration to create virtual clusters on comet
+  * Port cloudmesh client to Windows 10
+  * Integrate docker into cloudmesh and demonstrate its use
+  * Integrate kubernetes into cloudmesh and demonstrate its use
+  * Expand the HPC capabilities of cloudmesh
 
-   * Development of REST services for cloudmesh while using cloudmesh
-     client
-   * Development of benchmarking examples while using cloudmesh client
-   * Development of a better Azure interface to additinal services
-   * Development of a better AWS interfac to additinal services
-   * Development of a Web interface while using django
-   * SLURM integration to create virtual clusters on comet
-
-   
+    
 Who can take the class?
 -----------------------
 
-* Undergrads can take this class. Make sure you have enough time and
-  fulfill the prerequisites such as knowing a programming language
-  well and you have enough time to learn python.
+* Although Undergrads can take this class it will be thaught as
+  graduate class. Make sure you have enough time and fulfill the
+  prerequisites such as knowing a programming language well. You need
+  to have enough time to learn python if you do not know it.
 
-* You could take I524 without taking I523, but you must be proficient
-  in python and catch up with some of the material in I523 which makes
-  the selection of a project easier.
+* You can take I524 without taking I523, but you must be proficient
+  in python. Overlap between I523 and I524 only relates to some
+  introduction lectures and naturally lectures from the systems track
+  such as github, report writing, introduction to python.
 
 * Online students
 
@@ -200,7 +206,7 @@ Grading policies are listed in Table 1.
    * - Percent
      - Description                                               
    * - 10%
-     - Class participation and contribution to Web pages
+     - Class participation and contribution to Web pages.
    * - 30%
      - Three unique technology papers per student of the 370
        systems. Each paper as at least 2 pages per technology without
@@ -210,43 +216,43 @@ Grading policies are listed in Table 1.
        references. Much shorter reports will be returned without
        review. Do not artificially inflate contents. 
 
-* **Project groups:** Groups of up to three students can work on a
-  project but workload increases with each student and a work break
-  down must be provided.  More than three students are not
-  allowed. For a team you will be asked to deploy a larger system or
-  demonstrate deployability on multiple clouds while benchmarking it.
-
 * **Technology papers:** Technology papers must be non-overlapping in
-  the entire class. If multiple students select the same technology,
-  we will be drawing randomly which students does which technology. As
-  we have over 370 such technologies we should have enough for the
-  entire class. If you see technologies missing, let us know and we
-  see how to add them.
+  the entire class. As we have over 370 such technologies we should
+  have enough for the entire class. If you see technologies missing,
+  let us know and we see how to add them. Technology papers could be a
+  survey of multiple technologies or an indepth analysis of a
+  particular technology.
   
 * **Technology paper groups:** Groups of up to three students can work
   also on the technology papers. However the workload is not reduced,
   you will produce 3 times the number of group members technology
-  papers of unique technologies. However, you could be having
-  coauthors that are part of your group. Please do not ask us how many
-  technology papers you need to write if you are in a group. The rule
-  is clearly specified. Example: Your group has 3 members, each of
-  them has to procude 3 unique papers, thus you have to produce 9
-  unique technology papers for this group. If you have 2 members you
-  have to produce 6, if you work alone you have to produce 3.
+  papers of unique technologies. However, you can have multiple
+  coauthors for each paper (up to thre) that are part of your
+  group. Please do not ask us how many technology papers you need to
+  write if you are in a group. The rule is clearly specified. Example:
+  Your group has 3 members, each of them has to procude 3 unique
+  papers, thus you have to produce 9 unique technology papers for this
+  group. If you have 2 members you have to produce 6, if you work
+  alone you have to produce 3.
 
-* **Technology deployment for your project:** Each student will
-  develop as part of the project a deployment of a technology. Points
-  may depend on effort and simplicity of the deployment.
-
-* **Late homework**: Any late homework will be receiving a 10% grade
-  reduction.  As this is a large class and the assignments are not
-  standard multiple choice questions, grading will take a considerable
-  time. Some homework can not be delivered late as they are related to
-  establish communication with you. Such **deadline specific**
-  homework will receive 0 points in case they are late. See course
-  calendar. It is the student’s responsibility to upload submissions
-  well ahead of the deadline to avoid last minute problems with
-  network connectivity, browser crashes, cloud issues, etc.
+* **Technology deployment Homework:** Each student will
+  develop as a preparation for the project a deployment of a
+  technology. Points may depend on completeness, effort of the
+  deployment. Technology deployments should as much as possible be non
+  overlapping. In many cases you chose wisely such deployments may
+  line up with your technology papers as you can add a section
+  reporting on your achievement and experience with such
+  deployments.
+  
+* **Project groups:** Groups of up to three students can work on a
+  project but workload increases with each student and a work break
+  down must be provided.  More than three students are not allowed. If
+  you work in a group you will be asked to deploy a larger system or
+  demonstrate deployability on multiple clouds or container frameworks
+  while benchmarking and comparing them. A group project containing 2
+  or 3 team members shoudl not look like a project done by an
+  individual. Please plan careful and make sure all team members
+  contribute.
 
 * **Frequent checkins**: It is **important** to make frequent and
   often commits to the github repository as the activities will be
@@ -257,12 +263,22 @@ Grading policies are listed in Table 1.
        
 * **No bonus projects:** This class will not have any bonus projects
   or regrading requests. Instead you need to focus your time on the
-  papers and the project assignments.
+  papers and the project assignments and homework.
 
 * **Voluntary work:** You are welcome to conduct assignments and
   excerises you find on the class Web page on your own. However they
   are not graded or considered for extra credit.
 
+* **Late homework**: Any late homework will be receiving a 10% grade
+  reduction.  As this is a large class and the assignments are not
+  standard multiple choice questions, grading will take a considerable
+  time. Some homework can not be delivered late as they are related to
+  establish communication with you. Such **deadline specific**
+  homework will receive 0 points in case they are late. See course
+  calendar. It is the student’s responsibility to upload submissions
+  well ahead of the deadline to avoid last minute problems with
+  network connectivity, browser crashes, cloud issues, etc.
+  
 * **Chance for publishing a paper:** If however you find that the work
   you do could lead to a publishable paper, you could work together
   with the course instructor as coauthors to conduct such an
