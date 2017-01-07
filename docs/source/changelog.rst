@@ -4,6 +4,14 @@ Changelog
 %%version%% (unreleased)
 ------------------------
 
+New
+~~~
+
+- Release introduction lecture slides. [Gregor von Laszewski]
+
+Other
+~~~~~
+
 - Fix;dev: remove setup py when creating a new version. [Gregor von
   Laszewski]
 
