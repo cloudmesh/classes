@@ -9,3 +9,4 @@ pybtex
 watchdog
 Pygments
 cloudmesh_client
+sphinxcontrib-fulltoc

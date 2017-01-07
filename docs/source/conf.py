@@ -44,9 +44,11 @@ extensions = [
     'sphinx.ext.graphviz'
 ]
 
+    
 extensions += ['foundation_sphinx_theme']
 extensions += ['sphinxcontrib.bibtex']
-    
+extensions += ['sphinxcontrib.fulltoc']
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -295,12 +297,11 @@ html_static_path = ['_static']
 # Custom sidebar templates, maps document names to template names.
 #
 # html_sidebars = {}
-#html_sidebars = { '**': ['custom_sidebar.html',
-#                         'globaltoc.html',
-#                         'localtoc.html',
-#                         'relations.html',
-#                         'sourcelink.html',
-#                         'searchbox.html'], }
+html_sidebars = { '**': ['globaltoc.html',
+                         'localtoc.html',
+                         'relations.html',
+                         'sourcelink.html',
+                         'searchbox.html'], }
 
 
 
