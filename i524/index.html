@@ -145,6 +145,19 @@
 <li class="toctree-l4"><a class="reference internal" href="technologies.html#refernces">Refernces</a></li>
 </ul>
 </li>
+<li class="has-dropdown toctree-l3"><a class="reference internal" href="../changelog.html">Changelog</a><ul class="dropdown ">
+<li class="toctree-l4"><a class="reference internal" href="../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../changelog.html#id1">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../changelog.html#id2">3.0.1 (2017-01-06)</a></li>
+<li class="has-dropdown toctree-l4"><a class="reference internal" href="../changelog.html#id3">3.0 (2017-01-06)</a><ul class="dropdown ">
+<li class="toctree-l5"><a class="reference internal" href="../changelog.html#new">New</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../changelog.html#changes">Changes</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../changelog.html#fix">Fix</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../changelog.html#other">Other</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
@@ -1456,6 +1469,7 @@
 <li class="toctree-l1"><a class="reference internal" href="calendar.html">I524 Calendar</a></li>
 <li class="toctree-l1"><a class="reference internal" href="lectures.html">I524 Lectures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="technologies.html">Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
 </ul>
 </div>
 </div>
@@ -1938,16 +1952,16 @@ effort to fix.</li>
 </div>
 <div class="section" id="software-project">
 <h2>Software Project<a class="headerlink" href="#software-project" title="Permalink to this headline">¶</a></h2>
-<p>In case of a software project, we encourage a group project with up to
-three members.  You can use the <strong>search teammate</strong> folder to find
-and form groups:</p>
+<p>For a software project you have the choice of working indifidualy or
+working in a team of up to three students. You can use the <strong>search
+teammate</strong> folder to find and form groups:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://piazza.com/class/ix39m27czn5uw?cid=5">https://piazza.com/class/ix39m27czn5uw?cid=5</a></li>
 </ul>
 <p>The following artifacts are part of the deliverables for a project</p>
 <dl class="docutils">
 <dt>Code:</dt>
-<dd>You must deliver the code in gitlab. The code must be compilable
+<dd>You must deliver the code in github. The code must be compilable
 and a TA may try to replicate to run your code. You MUST avoid
 lengthy install descriptions and everything must be installable
 from the command line. We will check submission. All team members
@@ -1961,17 +1975,20 @@ Report Format section. The following length is required:</p>
 <li>8 pages, three students in the project</li>
 </ul>
 </dd>
-<dt>Work Breakdown:</dt>
-<dd><p class="first">This document is only needed for team projects. Include in the
-appendix a short but sufficiently detailed work breakdown
-documenting what the team has done. Back it up with commit
-information from github.</p>
-<p class="last">In addition the graders will go into github/lab, which provides a
-history of checkins to verify each team member has used github/lab to
-checkin their contributions frequently. E.g. if we find that one
-of the students has not checked in code or documentation at all,
-it will be questioned. An oral exam my be scheduled to verify that
-the student has contributed to the project.</p>
+<dt>Work Breakdown: The report contains in an appendix a section that is</dt>
+<dd><p class="first">only needed for team projects. Include in the section a short but
+sufficiently detailed work breakdown documenting what the team has
+done. Back it up with commit information from github. Such as how
+many commits and lines of code a team member has contributed. The
+section does not count towards the overall length of the paper.</p>
+<p class="last">In addition the graders will check the history of checkins to
+verify each team member has used github to checkin their
+contributions frequently. E.g. if we find that one of the students
+has not checked in code or documentation in the same way at other
+teammates, it will be questioned. An oral exam may be scheduled to
+verify that the student has contributed to the project. In an oral
+exam the student must be familiar with <strong>all</strong> aspects of the
+project not just the part you contributed.</p>
 </dd>
 <dt>License: All projects are developed under an open source license such</dt>
 <dd>as Apache 2.0 License. You will be required to add a LICENCE.txt
@@ -1984,6 +2001,14 @@ these packages have while adding a licenses file.</dd>
 <li><a class="reference internal" href="../lesson/projects/index.html#projects"><span class="std std-ref">Software Projects</span></a></li>
 </ul>
 </dd>
+<dt>Reproducability: The reproducability of your code will be tested</dt>
+<dd>twice. It is tetes by another student or team, it is also tested
+by a TA. A report of the testing team is provided. Your team will
+also be responsible for executing as many tests as you have team
+members on other projects. A reproducability statement should be
+written with details about functionality, readbility, and report
+quality. This statement does not have to be written in latex but
+uses RST.</dd>
 </dl>
 </div>
 <div class="section" id="report-format">
@@ -2082,7 +2107,10 @@ and may not be listed here. For this class support is provided by</p>
 <li>Gregor von Laszewski (PhD)</li>
 <li>Badi&#8217; Abdul-Wahid (PhD)</li>
 <li>Jerome Mitchell (Teaching Assistant)</li>
-<li>Nikolov, Dimitar (Teaching Assistant)</li>
+<li>Miao Zhang (Teaching Assistant)</li>
+<li>Zhaozhi Zhang (Teaching Assistant)</li>
+<li>Vibhatha Abeykoon (Teaching Assistant)</li>
+<li>Dimitar Nikolov (Teaching Assistant)</li>
 </ul>
 <div class="section" id="dr-gregor-von-laszewski">
 <h3>Dr. Gregor von Laszewski<a class="headerlink" href="#dr-gregor-von-laszewski" title="Permalink to this headline">¶</a></h3>
@@ -2265,6 +2293,7 @@ INFO-I 524  BIG DATA SOFTWARE AND PROJECTS (3 CR)
 <li class="toctree-l3"><a class="reference internal" href="calendar.html">I524 Calendar</a></li>
 <li class="toctree-l3"><a class="reference internal" href="lectures.html">I524 Lectures</a></li>
 <li class="toctree-l3"><a class="reference internal" href="technologies.html">Technologies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../changelog.html">Changelog</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>

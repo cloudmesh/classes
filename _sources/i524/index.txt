@@ -11,6 +11,7 @@ Class Material
    calendar
    lectures
    technologies
+   ../changelog
    
 Overview
 --------
@@ -527,16 +528,16 @@ Some things to keep in mind:
 Software Project
 ----------------
 
-In case of a software project, we encourage a group project with up to
-three members.  You can use the **search teammate** folder to find
-and form groups:
+For a software project you have the choice of working indifidualy or
+working in a team of up to three students. You can use the **search
+teammate** folder to find and form groups:
 
 * https://piazza.com/class/ix39m27czn5uw?cid=5
 
 The following artifacts are part of the deliverables for a project
 
 Code:
-    You must deliver the code in gitlab. The code must be compilable
+    You must deliver the code in github. The code must be compilable
     and a TA may try to replicate to run your code. You MUST avoid
     lengthy install descriptions and everything must be installable
     from the command line. We will check submission. All team members
@@ -550,18 +551,21 @@ Project Report:
     * 6 pages, two students in the project
     * 8 pages, three students in the project
 
-Work Breakdown:
-    This document is only needed for team projects. Include in the
-    appendix a short but sufficiently detailed work breakdown
-    documenting what the team has done. Back it up with commit
-    information from github. 
+Work Breakdown: The report contains in an appendix a section that is
+    only needed for team projects. Include in the section a short but
+    sufficiently detailed work breakdown documenting what the team has
+    done. Back it up with commit information from github. Such as how
+    many commits and lines of code a team member has contributed. The
+    section does not count towards the overall length of the paper.
 
-    In addition the graders will go into github/lab, which provides a
-    history of checkins to verify each team member has used github/lab to
-    checkin their contributions frequently. E.g. if we find that one
-    of the students has not checked in code or documentation at all,
-    it will be questioned. An oral exam my be scheduled to verify that
-    the student has contributed to the project.
+    In addition the graders will check the history of checkins to
+    verify each team member has used github to checkin their
+    contributions frequently. E.g. if we find that one of the students
+    has not checked in code or documentation in the same way at other
+    teammates, it will be questioned. An oral exam may be scheduled to
+    verify that the student has contributed to the project. In an oral
+    exam the student must be familiar with **all** aspects of the
+    project not just the part you contributed.
 
 License: All projects are developed under an open source license such
     as Apache 2.0 License. You will be required to add a LICENCE.txt
@@ -573,6 +577,15 @@ License: All projects are developed under an open source license such
 Additional links:
     * :ref:`projects`
 
+Reproducability: The reproducability of your code will be tested
+    twice. It is tetes by another student or team, it is also tested
+    by a TA. A report of the testing team is provided. Your team will
+    also be responsible for executing as many tests as you have team
+    members on other projects. A reproducability statement should be
+    written with details about functionality, readbility, and report
+    quality. This statement does not have to be written in latex but
+    uses RST.
+      
 
 Report Format
 ---------------
@@ -693,7 +706,10 @@ and may not be listed here. For this class support is provided by
 * Gregor von Laszewski (PhD)
 * Badi' Abdul-Wahid (PhD)
 * Jerome Mitchell (Teaching Assistant)
-* Nikolov, Dimitar (Teaching Assistant)
+* Miao Zhang (Teaching Assistant)
+* Zhaozhi Zhang (Teaching Assistant)
+* Vibhatha Abeykoon (Teaching Assistant)
+* Dimitar Nikolov (Teaching Assistant)  
 
 
 Dr. Gregor von Laszewski

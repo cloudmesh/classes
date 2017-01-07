@@ -2,26 +2,33 @@ I524 Lectures
 =============
 
 .. warning:: This page is under construction, but most lectures are
-	     already available. The technology track will change
+	     already available. All tracks will change
 	     considerably. If you want to work ahead, start with the
 	     theory track.
 
+.. warning:: Lectures listed on this page will be ready for review
+	     when they are marked as released. If they are not
+	     released they will be updated as part of the
+	     class. However instead of waiting for the release, we
+	     have opted to show you our current draft lectures.
+	     
 Based on our experience with residential and online classes we will
 for the first time not require that you have to do the class videos at
-a prticular time. This however has the danger that you are not
-watching them at all and you cheat yourself as you do not allow
-yourself the educational lessons that this class offers to you. It
-also requires you to assemble your own schedule for watching the
-videos that will have to managed through github notifications as part
-of a README.md file in your git repository. You will need to do the
-technology track, as well as the theory track.
+a prticular time once they are released. This however has the danger
+that you are not watching them at all and you cheat yourself as you do
+not allow yourself the educational lessons that this class offers to
+you. It also requires you to assemble your own schedule for watching
+the videos that will have to be managed through github as part of a
+README.md file in your git repository. You will need to do the
+technology track, the communications track, as well as the theory
+track.
 	     
 
 Theory Track:
-   A number of lectures have been designed to introduce you to a
-   number of technologies. In contrast to the technology track the
-   lectures are of more theoretical nature and do not require much
-   hands on activities to get familair with the technologies.
+   Some lectures have been designed to introduce you to a
+   number of technologies. These lectures are of more theoretical
+   nature and do not require much hands on activities. THus you can
+   start them any time.
 
 Collaboration Track:
    These lectures provide the tools for you to collaborate with your
