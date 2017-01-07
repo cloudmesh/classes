@@ -769,6 +769,16 @@ PhD he conducts research with the NaN group, led by Professor Fil
 Menczer. His thesis topic is TBD.
 
 
+Vibhatha Abeykoon
+^^^^^^^^^^^^^^^^^
+.. image:: /images/vibhatha.png
+     
+**Vibhatha Abeykoon** is a PhD student in the Intelligent Systems Engineering program at
+Indiana University since August 2016. His research interests include
+machine learning, singal processing, source seperation, big data and distributed systems. As part of his
+PhD he conducts research with Professor Geoffrey C. Fox and Assistant Professor Minje Kim. His thesis topic is TBD.
+
+
 
 Links
 -------
