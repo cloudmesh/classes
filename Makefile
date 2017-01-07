@@ -27,8 +27,8 @@ view:
 	$(BROWSER) docs/build/html/index.html
 
 log:
-	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" > ChangeLog
-	git commit -m "chg: dev: Update ChangeLog" ChangeLog
+	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" > docs/source/changelog.rst
+	git commit -m "chg: dev: Update changelog" docs/source/changelog.rst
 	git push
 
 ######################################################################
