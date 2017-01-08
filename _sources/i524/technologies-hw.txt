@@ -45,10 +45,33 @@ Tips
 
 2. How do I know if I did it right?
 
-   take a look at https://github.com/cloudmesh/classes/pulls
+   Take a look at https://github.com/cloudmesh/classes/pulls
    If your changes are already integrated you are fine, if they are
    not, you shoudl see your pull request in the given link
 
+Learning outcomes
+-----------------
+
+1. CANVAS is not a tool used in opensource development and
+   industry. It has limitations in scalability and in structuring
+   effective communication with large numbers of
+   students/collaborators.
+
+   Instead we use industry accepted github for homework submission. To
+   showcase one way of collaborating with more than 70 collaborators
+   we will use the class Web page to demonstrate how this can be
+   achieved with forks and pull requests. The TAs are responsible fo
+   communication tou you how to do this and are also organizing the
+   merge of your pull riquests into the Matsre Web page.
+
+2. As you look over the list you get familiar with technologies of
+   interest.
+
+3. You will learn how not to plaguarize
+
+4. You will learn how to create proper refernces for Web-pages while
+   using academic bibliography management tools.
+   
    
 .. todo:: Vibatha, fix the above so studnets have no issue
 	   

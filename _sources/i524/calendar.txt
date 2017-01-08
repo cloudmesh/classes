@@ -22,6 +22,8 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 | MLK Jr. Day.	                              | Mon, Jan 16        |    |
 | Good time for additional class work         |                    |    |
 +---------------------------------------------+--------------------+----+
+| TechList.1 and TechList.2 due               | Mon, Jan 30, 9am   | T0 |
++---------------------------------------------+--------------------+----+
 | Technology Paper 1 due                      | Mon, Jan 30, 9am   | T1 |
 +---------------------------------------------+--------------------+----+
 | Acces and use of cloud verified        (HD) | Mon, Jan 30, 9am   | C3 |
