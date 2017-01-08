@@ -536,6 +536,8 @@ TechList.1: In class you will be given an HID and a maximum number of
   important once while limiting it to three if you can. Avoid
   plagearism and use proper quotations or better rewrite the text.
   Do also Techlist.1.b,b,c,d.
+
+  You must look at :ref:`techlist-tips` to sucessfully complete the homework
   
 TechList.1.a:
   Learn about Plagearism and how to avoid it.
@@ -566,7 +568,8 @@ TechList 1.c:
 TechList 1.d:
   Identify technologies from the Apache project and add the name
   Apache to the particular technology.
-  
+
+
 TechList.2:
   As some students may not complete this assignment because
   they for example dropped the class, identify a number of not
@@ -580,6 +583,7 @@ TechList.3:
   Make sure duplicated entries will be merged. Before you start do a
   pull to avoid adding technologies that have already been done by
   others.
+
 
   
 
