@@ -537,7 +537,7 @@ TechList.1: In class you will be given an HID and a maximum number of
   plagearism and use proper quotations or better rewrite the text.
   Do also Techlist.1.b,b,c,d.
 
-  You must look at :ref:`techlist-tips`_ to sucessfully complete the homework
+  You must look at :ref:`techlist-tips` to sucessfully complete the homework
   
 TechList.1.a:
   Learn about Plagearism and how to avoid it.
