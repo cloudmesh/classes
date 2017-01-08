@@ -1,4 +1,4 @@
- README
+README
 ========
 
 This repository contains class material. The class is published and updated oon regular basis at:
@@ -15,9 +15,7 @@ Previous content is in directories
 
 These classes will be revisited over time and the content will be merged into the lessons directory.
 
-
-============================
- Known External Repositores
+Known External Repositores
 ============================
 
 Several of the courses have been developed in separate
