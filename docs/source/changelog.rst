@@ -7,10 +7,16 @@ Changelog
 New
 ~~~
 
+- Add first online meeting time Thu 7-8pm EST. [Gregor von Laszewski]
+
 - Release introduction lecture slides. [Gregor von Laszewski]
 
 Other
 ~~~~~
+
+- Update README.rst. [Gregor von Laszewski]
+
+- Update README.rst. [Gregor von Laszewski]
 
 - Fix;dev: remove setup py when creating a new version. [Gregor von
   Laszewski]
