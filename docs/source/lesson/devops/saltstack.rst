@@ -6,8 +6,8 @@ SaltStack
 Overview
 ----------------------------------------------------------------------
 
-This lesson will introduce you to a very important topic to Salt (or
-SaltStack), a configuration management system.
+This lesson will introduce you to SaltStack, a configuration
+management system.
 
 .. tip:: Duration: 1 hour and 30 minutes
 
@@ -532,17 +532,11 @@ Exercises
 Exercise I
 ^^^^^^^^^^^^^^^^^^
 
-* Turn on the type script by ``script salt_ex1_$USERNAME.txt``
-  (Replace $USERNAME with your id)
-* Install Python ``virtualenv`` using salt. 
-* Run ``virtualenv --version``.
-* Type ``exit`` to save the script.
-* Submit ``salt_ex1_$USERNAME.txt`` file.
+SaltStack.1:
+  1. Turn on the type script by ``script salt_ex1_$USERNAME.txt` (Replace $USERNAME with your id) 
+  2. Install Python ``virtualenv`` using salt. 
+  3. Run ``virtualenv --version``.
+  4. Type ``exit`` to save the script.
+  5. Submit ``salt_ex1_$USERNAME.txt`` file.
 
-Next Step
------------
-
-In the next page, Puppet will be introduced.
-
-:ref:`Puppet <ref-class-lesson-devops-puppet>`
 

@@ -7,8 +7,8 @@ Puppet
 Overview
 ----------------------------------------------------------------------
 
-This lesson will introduce you to a very important topic to Puppet, an open
-source configuration management tool.
+This lesson will introduce you to Puppet, an open source configuration
+management tool.
 
 .. tip:: Duration: 1 hour
 
@@ -326,10 +326,4 @@ Exercise II
 
 * Submit your answer with ``<USER>-puppet-ex2.txt`` file.
 
-Next Step
------------
-
-In the next page, Chef will be introduced.
-
-:ref:`Chef <ref-class-lesson-devops-chef>`
 
