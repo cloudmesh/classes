@@ -771,7 +771,7 @@ Menczer. His thesis topic is TBD.
 
 Vibhatha Abeykoon
 ^^^^^^^^^^^^^^^^^
-.. image:: /images/vibhatha.png
+.. image:: /images/vb.png
      
 **Vibhatha Abeykoon** is a PhD student in the Intelligent Systems Engineering program at
 Indiana University since August 2016. His research interests include
