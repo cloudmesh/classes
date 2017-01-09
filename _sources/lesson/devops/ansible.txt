@@ -3,15 +3,6 @@
 Ansible
 ======================================================================
 
-.. sidebar:: Page Contents
-
-   .. contents::
-      :local:
-
-
-Overview
-----------------------------------------------------------------------
-
 This lesson will introduce you to using the Ansible 
 
 .. tip:: Duration: 1 hour 30  minutes
@@ -56,7 +47,7 @@ instances.
 On each instance:
 
 - install the ``apache2`` package
-- start the apache
+- start apache
 
 .. important::
 

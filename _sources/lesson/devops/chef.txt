@@ -6,8 +6,8 @@ Chef
 Overview
 ----------------------------------------------------------------------
 
-This lesson will introduce you to a very important topic to Chef, a
-configuration management tool written in Ruby and Erlang. 
+This lesson will introduce you to Chef, a configuration management
+tool written in Ruby and Erlang.
 
 .. tip:: Duration: 1 hour
 
