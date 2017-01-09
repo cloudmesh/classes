@@ -174,48 +174,6 @@ and or a survey.
         * Password: 520093
 
 
-.. index:: I524 project ideas
-	   
-Selected Project Ideas
-------------------------------
-	   
-Students can select from a number of project ideas. We will improve
-and add additional ideas throughout the semester. Students can also
-conduct their own projects. We recommend that you identify a project
-idea by the end of the first month of the class. Example project
-descriptions that you may want to take a look at include:
-
-* :ref:`robotswarm`
-* :ref:`dockerswarm`
-* :ref:`kubernetes`
-* :ref:`slurmcluster`
-* :ref:`authordisambiguity_b`
-* NIST Big Data Working group examples: Selected and approved use case from
-  http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf
-* Selected examples from Fall I523:
-  Some students may have created an example as part of I523. Not all
-  examples created as part of this class qualify for a I524
-  project. Please contact Gregor von Laszewski via Piazza to discuss
-  suitability of your previous I523 project. If such a project is
-  selected, approved and used it is expected it is significantly
-  enhanced.
-* Cloudmesh Enhancements:
-  A number of projects could center around the enhancements of
-  cloudmesh for the improvement of big data projects using virtual
-  machines and containers. This includes:
-
-  * Development of REST services for cloudmesh while using cloudmesh
-    client
-  * Development of benchmarking examples while using cloudmesh client
-  * Development of a better Azure interface to additinal services
-  * Development of a better AWS interfac to additinal services
-  * Development of a Web interface while using django
-  * SLURM integration to create virtual clusters on comet
-  * Port cloudmesh client to Windows 10
-  * Integrate docker into cloudmesh and demonstrate its use
-  * Integrate kubernetes into cloudmesh and demonstrate its use
-  * Expand the HPC capabilities of cloudmesh
-
     
 Who can take the class?
 -----------------------
@@ -525,6 +483,50 @@ Some things to keep in mind:
 * all work will be licensed under the Apache 2 open source license.
 * all submissions and discussion will be visible to the world.
 
+.. index:: I524 project ideas
+	   
+Selected Project Ideas
+------------------------------
+	   
+Students can select from a number of project ideas. We will improve
+and add additional ideas throughout the semester. Students can also
+conduct their own projects. We recommend that you identify a project
+idea by the end of the first month of the class. Example project
+descriptions that you may want to take a look at include:
+
+* :ref:`robotswarm`
+* :ref:`dockerswarm`
+* :ref:`kubernetes`
+* :ref:`slurmcluster`
+* :ref:`authordisambiguity_b`
+* NIST Big Data Working group examples: Selected and approved use case from
+  http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf
+* Selected examples from Fall I523:
+  Some students may have created an example as part of I523. Not all
+  examples created as part of this class qualify for a I524
+  project. Please contact Gregor von Laszewski via Piazza to discuss
+  suitability of your previous I523 project. If such a project is
+  selected, approved and used it is expected it is significantly
+  enhanced.
+* Cloudmesh Enhancements:
+  A number of projects could center around the enhancements of
+  cloudmesh for the improvement of big data projects using virtual
+  machines and containers. This includes:
+
+  * Development of REST services for cloudmesh while using cloudmesh
+    client
+  * Development of benchmarking examples while using cloudmesh client
+  * Development of a better Azure interface to additinal services
+  * Development of a better AWS interfac to additinal services
+  * Development of a Web interface while using django
+  * SLURM integration to create virtual clusters on comet
+  * Port cloudmesh client to Windows 10
+  * Integrate docker into cloudmesh and demonstrate its use
+  * Integrate kubernetes into cloudmesh and demonstrate its use
+  * Expand the HPC capabilities of cloudmesh
+
+  
+  
 Software Project
 ----------------
 
