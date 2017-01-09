@@ -58,7 +58,7 @@ them. Topics of this class will include:
 
 #. Topics taught in this class will be very relevant for industry as
    you are not only exposed to big data, but you will also be
-   practivally exposed to DevOps and collaborative code development
+   practically exposed to DevOps and collaborative code development
    tools as part of your homework and project assignment.
    
 Students of this class will need to conduct their project deployments
@@ -840,6 +840,16 @@ Indiana University since August 2008. His research interests include
 online social networks, tagging systems and web mining. As part of his
 PhD he conducts research with the NaN group, led by Professor Fil
 Menczer. His thesis topic is TBD.
+
+
+Vibhatha Abeykoon
+^^^^^^^^^^^^^^^^^
+.. image:: /images/vibhatha.png
+     
+**Vibhatha Abeykoon** is a PhD student in the Intelligent Systems Engineering program at
+Indiana University since August 2016. His research interests include
+machine learning, singal processing, source seperation, big data and distributed systems. As part of his
+PhD he conducts research with Professor Geoffrey C. Fox and Assistant Professor Minje Kim. His thesis topic is TBD.
 
 
 
