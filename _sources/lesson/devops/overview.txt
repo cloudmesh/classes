@@ -4,7 +4,7 @@ DevOps (under preparation)
 Overview
 ----------------------------------------------------------------------
 
-This lesson will introduce you to a very important topic to DevOps tools,
+This lesson will introduce you to selected DevOps tools and 
 software development technologies.
 
 .. tip:: Duration: 1 hour
@@ -36,8 +36,6 @@ management tools:
 * Guarantee identical configurations
 
 
-(To be continued)
-  
 Next Step
 -----------
 

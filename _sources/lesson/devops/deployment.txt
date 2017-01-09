@@ -1,10 +1,8 @@
 Dynamic deployment of arbitrary X software on VC (under preparation)
 ======================================================================
 
-Overview
-----------------------------------------------------------------------
 
-This lesson will introduce you to a very important topic to ...
+This lesson will introduce you to ...
 
 .. tip:: Duration: 1 hour
 

@@ -1,7 +1,7 @@
 .. _reports:
 
 Report Format
-=================
+=============
 
 Over the years we got tired of student that asked us how many pages a
 report needs to be and than turn around and play with spacing, fonts
@@ -131,7 +131,7 @@ Report.10:
   underscore or space in the name?
   
 
-.. |box| unicode:: U+2610
+
 
 
 		   
