@@ -58,7 +58,7 @@ them. Topics of this class will include:
 
 #. Topics taught in this class will be very relevant for industry as
    you are not only exposed to big data, but you will also be
-   practivally exposed to DevOps and collaborative code development
+   practically exposed to DevOps and collaborative code development
    tools as part of your homework and project assignment.
    
 Students of this class will need to conduct their project deployments
