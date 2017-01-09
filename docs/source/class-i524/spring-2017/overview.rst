@@ -546,7 +546,7 @@ Projects or term papers will receive a 10% grade reduction.
 * 40% Homework
 * 50% Term Paper or Project
 * 10% Participation/Discussion
-√
+
 Details about the assignments can be found in the Section :ref:`assignments`.
 
 

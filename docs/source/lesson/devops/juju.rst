@@ -3,10 +3,7 @@
 Ubuntu Juju
 ======================================================================
 
-Overview
-----------------------------------------------------------------------
-
-This lesson will introduce you to a very important topic to Ubuntu Juju,
+This lesson will introduce you to Ubuntu Juju,
 an open-source service management tool. 
 
 .. tip:: Duration: 1 hour

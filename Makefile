@@ -17,6 +17,10 @@ endif
 doc: 
 	cd docs; make html
 
+pdf: 
+	cd docs; make latex
+	cd docs/build/latex; pdflatex Classes
+
 watch:
 	watchmedo shell-command --patterns="*.rst;*.csv;*.py" --recursive --command='make doc'
 

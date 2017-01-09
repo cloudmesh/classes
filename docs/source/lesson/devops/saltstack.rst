@@ -503,7 +503,7 @@ The output looks like so::
 For more information, see details here:
 http://docs.saltstack.com/en/latest/topics/targeting/grains.html
 
-Acknoledgement
+References
 -------------------------------------------------------------------------------
 
 This lesson is based on the Salt Documentation. Some reference web pages are:
