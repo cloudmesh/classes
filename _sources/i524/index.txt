@@ -158,6 +158,12 @@ Online Meetings
 Meeting times for the online class will be determined through piazza
 and or a survey.
 
+We will announce the online course meetings and office hours in the
+first week of class.
+
+Our first tentative meeting is planed on Thursday 7-8pm EST via zoom.
+
+
     * **PC, Mac, Linux, iOS or Android:**
         * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
         * Password: To be posted in CANVAS
