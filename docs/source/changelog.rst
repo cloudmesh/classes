@@ -4,6 +4,13 @@ Changelog
 %%version%% (unreleased)
 ------------------------
 
+- 3.0.3. [Gregor von Laszewski]
+
+- Version 3.0.3. [Gregor von Laszewski]
+
+3.0.3 (2017-01-09)
+------------------
+
 New
 ~~~
 
