@@ -10,11 +10,28 @@ We are in the process of reorgannizing this directory and all cals material will
 Please only fork and work in the master branch.
 
 Pull requests can be submitted against the master branch.
-Please `synchronize against master <https://help.github.com/articles/syncing-a-fork/>`_ before submitting a request::
+Please `synchronize against master <https://help.github.com/articles/syncing-a-fork/>`_ before submitting a request.
+
+Make sure you have this repository added as `upstream`::
+
+  $ git remote -v
+  origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+  origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+  upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+  upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+
+To add the upstream repo::
+
+  $ git remote add upstream https://github.com/cloudmesh/classes
+  
+To synchronize your changes::
 
   $ git fetch upstream
   $ git rebase upstream/master
 
+Push your changes and submit a pull request::
+
+  $ git push origin master
 
 Please, do not work on gh-pages or try to create a merge from gh-pages into master. gh-pages is managed by us and is **always** overwritten and all changes will be lost from it. 
 
