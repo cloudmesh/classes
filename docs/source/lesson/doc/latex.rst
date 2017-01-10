@@ -193,13 +193,13 @@ Thus you will have the most of them on your system.
 -  jabref: less fancy GUI to bibtex files
 
 Make sure you check that these programs are there, for example with
-the linux commands:
+the linux commands::
 
    which pdflatex
    which bibtex
    which jabref (on OSX you may have an icon for it)
 
-If these commands are missing, pleas instal them.
+If these commands are missing, please instal them.
 
 Online Services
 ^^^^^^^^^^^^^^^
@@ -318,7 +318,7 @@ can also display urls in your citations:
 
 ::
 
-    \bibliographystyle{abbrvurl}
+    \bibliographystyle{IEEEtran}
     \bibliography{references.bib}
 
 Than you have to run latex and bibtex in the following order:
