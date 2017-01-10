@@ -844,11 +844,11 @@ Menczer. His thesis topic is TBD.
 
 Vibhatha Abeykoon
 ^^^^^^^^^^^^^^^^^
-.. image:: /images/vibhatha.png
+.. image:: /images/vb.png
      
 **Vibhatha Abeykoon** is a PhD student in the Intelligent Systems Engineering program at
 Indiana University since August 2016. His research interests include
-machine learning, singal processing, source seperation, big data and distributed systems. As part of his
+machine learning, singal processing, source seperation, deep learning, big data and distributed systems. As part of his
 PhD he conducts research with Professor Geoffrey C. Fox and Assistant Professor Minje Kim. His thesis topic is TBD.
 
 
