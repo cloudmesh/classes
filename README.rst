@@ -7,7 +7,15 @@ This repository contains class material. The class is published and updated oon 
 
 We are in the process of reorgannizing this directory and all cals material will be in docs/sources.
 
-Please only fork and work in the master branch. 
+Please only fork and work in the master branch.
+
+Pull requests can be submitted against the master branch.
+Please rebase against master before submitting a request:
+
+```
+$ git fetch origin master
+$ git rebase origin/master
+```
 
 Please, do not work on gh-pages or try to create a merge from gh-pages into master. gh-pages is managed by us and is **always** overwritten and all changes will be lost from it. 
 
