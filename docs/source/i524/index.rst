@@ -852,6 +852,13 @@ machine learning, singal processing, source seperation, deep learning, big data 
 PhD he conducts research with Professor Geoffrey C. Fox and Assistant Professor Minje Kim. His thesis topic is TBD.
 
 
+Miao Zhang
+^^^^^^^^^^
+.. image:: /images/miao100px.jpg
+     
+**Miao Zhang** PhD student working primarily on computer network related stuff.
+Currently focuses on network performance monitoring and forecasting.
+
 
 Links
 -------
