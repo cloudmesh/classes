@@ -715,7 +715,7 @@ and may not be listed here. For this class support is provided by
 * Badi' Abdul-Wahid (PhD)
 * Jerome Mitchell (Teaching Assistant)
 * Miao Zhang (Teaching Assistant)
-* Zhaozhi Zhang (Teaching Assistant)
+* Tony Liu (Teaching Assistant)
 * Vibhatha Abeykoon (Teaching Assistant)
 * Dimitar Nikolov (Teaching Assistant)  
 
