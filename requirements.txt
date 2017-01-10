@@ -5,8 +5,9 @@ requests
 pandas
 sphinxcontrib-bibtex
 foundation-sphinx-theme
+sphinx_bootstrap_theme
+sphinxcontrib-fulltoc
 pybtex
 watchdog
 Pygments
 cloudmesh_client
-sphinxcontrib-fulltoc
