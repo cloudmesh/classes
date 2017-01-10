@@ -7,6 +7,32 @@ This repository contains class material. The class is published and updated oon 
 
 We are in the process of reorgannizing this directory and all cals material will be in docs/sources.
 
+Developing
+==========
+
+Requirements:
+- python
+- pip
+- virtualenv
+
+Preliminary steps:
+
+#. clone the repository
+#. create/activate a virtualenv
+#. install the requirements::
+  $ pip install -r requirements.txt
+
+Making changes:
+
+Files are under `docs/sources`
+
+Use `make` to build html.
+
+Use `make view` to open the index.html in a browser window.
+
+Submitting changes
+==================
+
 Please only fork and work in the master branch.
 
 Pull requests can be submitted against the master branch.
