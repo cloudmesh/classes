@@ -10,7 +10,7 @@ We are in the process of reorgannizing this directory and all cals material will
 Please only fork and work in the master branch.
 
 Pull requests can be submitted against the master branch.
-Please rebase against master before submitting a request::
+Please `synchronize against master <https://help.github.com/articles/syncing-a-fork/>`_ before submitting a request::
 
   $ git fetch upstream
   $ git rebase upstream/master
