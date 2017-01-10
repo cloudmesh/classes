@@ -31,7 +31,7 @@ main() {
     debug "Usage: $(basename $0) VIDEO [EXTRA_OPTIONS_FOR_FFMPEG]"
     exit 1
   fi
-  CHUNK_DURATION=$((60*20))
+  CHUNK_DURATION=$((60*15))
   VIDEO=$1
   shift 1
 
