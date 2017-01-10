@@ -938,7 +938,7 @@ classes that additional homework may need to be added in case the
 class participants need to grasp a concept better or simplify their
 work.
 
-We have two ways of providing contentto the class:
+We have two ways of providing content to the class:
 
 a) we release content only on weekly basis
 
