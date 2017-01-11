@@ -4,6 +4,68 @@ Changelog
 %%version%% (unreleased)
 ------------------------
 
+New
+~~~
+
+- Readme: add instructions to build and preview changes. [Badi' Abdul-
+  Wahid]
+
+Other
+~~~~~
+
+- Few misspelled words as locally and installation. [sabyasachi087]
+
+- Update README.rst. [Gregor von Laszewski]
+
+- 3.0.5. [Gregor von Laszewski]
+
+- Version 3.0.5. [Gregor von Laszewski]
+
+3.0.5 (2017-01-11)
+------------------
+
+New
+~~~
+
+- Added the first three videos to introduce the class content. [Gregor
+  von Laszewski]
+
+Changes
+~~~~~~~
+
+- Readme: show how to add upstream repository. [Badi' Abdul-Wahid]
+
+- Readme: provide link for info on syncing fork. [Badi' Abdul-Wahid]
+
+- Clarify how to submit a pull request. [Badi' Abdul-Wahid]
+
+Fix
+~~~
+
+- Correct rebasing from upstream commands. [Badi' Abdul-Wahid]
+
+- Fix syntax in readme. [Badi' Abdul-Wahid]
+
+Other
+~~~~~
+
+- Added Miao intro. [Miao Zhang]
+
+- Update README.rst. [Gregor von Laszewski]
+
+- Change duration of videos to 15 mins. [Dimitar Nikolov]
+
+- Add script to split a video in 20-minute chunks. [Dimitar Nikolov]
+
+- Practically misspelled to Practivally. [sabyasachi087]
+
+- 3.0.4. [Gregor von Laszewski]
+
+- Version 3.0.4. [Gregor von Laszewski]
+
+3.0.4 (2017-01-09)
+------------------
+
 - 3.0.3. [Gregor von Laszewski]
 
 - Version 3.0.3. [Gregor von Laszewski]
