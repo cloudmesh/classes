@@ -19,6 +19,8 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 +---------------------------------------------+--------------------+----+
 | Github access verified  (HD)                | Mon, Jan 16, 9am   | C2 |
 +---------------------------------------------+--------------------+----+
+| Surveys_ (HD)                               | Mon, Jan 16, 9am   |    |
++---------------------------------------------+--------------------+----+
 | MLK Jr. Day.	                              | Mon, Jan 16        |    |
 | Good time for additional class work         |                    |    |
 +---------------------------------------------+--------------------+----+
@@ -79,3 +81,4 @@ Official University calendar
 
 * http://registrar.indiana.edu/official-calendar/official-calendar-spring.shtml
   
+.. _Surveys: https://iu.instructure.com/courses/1603897/quizzes 
