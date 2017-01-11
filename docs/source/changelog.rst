@@ -7,6 +7,25 @@ Changelog
 New
 ~~~
 
+- Add the surveys to the calendar. Deadline Jan 16, 9am. [Gregor von
+  Laszewski]
+
+Other
+~~~~~
+
+- 3.0.6. [Gregor von Laszewski]
+
+- Version 3.0.6. [Gregor von Laszewski]
+
+3.0.6 (2017-01-11)
+------------------
+
+New
+~~~
+
+- Added a 2 part video about the Web page structure. [Gregor von
+  Laszewski]
+
 - Readme: add instructions to build and preview changes. [Badi' Abdul-
   Wahid]
 
