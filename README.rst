@@ -7,6 +7,41 @@ This repository contains class material. The class is published and updated oon 
 
 We are in the process of reorgannizing this directory and all cals material will be in docs/sources.
 
+Working with Git
+================
+
+When working with git, do not forget to set it up properly. Often users seem to forget 
+the following important commands to initialize it::
+
+  $ git config --global user.name "John Doe"
+  $ git config --global user.email johndoe@example.com
+
+Developing
+==========
+
+Requirements:
+- python
+- pip
+- virtualenv
+
+Preliminary steps:
+
+#. clone the repository
+#. create/activate a virtualenv
+#. install the requirements::
+  $ pip install -r requirements.txt
+
+Making changes:
+
+Files are under `docs/sources`
+
+Use `make` to build html.
+
+Use `make view` to open the index.html in a browser window.
+
+Submitting changes
+==================
+
 Please only fork and work in the master branch.
 
 Pull requests can be submitted against the master branch.

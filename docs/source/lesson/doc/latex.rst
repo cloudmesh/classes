@@ -156,7 +156,7 @@ template included. However on OSX and other platforms the .cls file is
 not included by default. However the above link clearly documents how
 to fix this.
 
-WYSIWYG localy
+WYSIWYG locally
 --------------
 
 We have found that editors such as Lyx and Auctex provide very good
@@ -176,7 +176,7 @@ editing in one window, while seeing the results in the other.
 .. note::
    Skim can be found at: http://skim-app.sourceforge.net/
 
-Instalation
+Installation
 -----------
 
 Local Install
