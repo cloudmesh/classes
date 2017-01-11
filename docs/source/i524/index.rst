@@ -1,7 +1,7 @@
 .. index:: i524
 	   
-I524 Big Data & Open Source Software Projects
-=============================================
+I524 Big Data and Open Source Software Projects
+===============================================
 
 Class Material
 --------------  
