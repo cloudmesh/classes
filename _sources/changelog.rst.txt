@@ -7,6 +7,9 @@ Changelog
 New
 ~~~
 
+- Postponed github versification till TechList HW are due. New deadline
+  Jan 30, 9am. [Gregor von Laszewski]
+
 - Add the surveys to the calendar. Deadline Jan 16, 9am. [Gregor von
   Laszewski]
 
