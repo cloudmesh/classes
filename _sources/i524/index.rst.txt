@@ -156,12 +156,11 @@ Online Meetings
 ---------------
 
 Meeting times for the online class will be determined through piazza
-and or a survey.
+and or a survey. We will announce the online course meetings and
+office hours in the first week of class. Our first meeting times are
+posted at:
 
-We will announce the online course meetings and office hours in the
-first week of class.
-
-Our first tentative meeting is planed on Thursday 7-8pm EST via zoom.
+* https://piazza.com/class/ix39m27czn5uw?cid=11
 
 
     * **PC, Mac, Linux, iOS or Android:**
