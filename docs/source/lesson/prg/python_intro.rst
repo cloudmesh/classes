@@ -22,10 +22,10 @@ Tutorial`_ copyright `Python Software Foundation`_.
 Description
 -----------------------------------------------------------------
 
-Python is an easy to learn programming language. It has
-efficient high-level data structures and a simple but effective
-approach to object-oriented programming. Python’s simple syntax and
-dynamic typing, together with its interpreted nature, make it an ideal
+Python is an easy to learn programming language. It has efficient
+high-level data structures and a simple but effective approach to
+object-oriented programming. Python’s simple syntax and dynamic
+typing, together with its interpreted nature, make it an ideal
 language for scripting and rapid application development in many areas
 on most platforms.
 
@@ -140,12 +140,12 @@ python, but also about how to have your code run on any platform. The
 homework is designed so that you can identify a setup that works for
 you.
 
-However we have concerns if you for example wanted to use
-chameleon cloud which we require you to access with
-cloudmesh. cloudmesh is not available as conda, canopy, or other
-framework package. Cloudmesh client is available form pypi which is standard and
-should be supported by the frameworks. We have not tested cloudmesh on
-any other python version then python.org which is the open source community
+However we have concerns if you for example wanted to use chameleon
+cloud which we require you to access with cloudmesh. cloudmesh is not
+available as conda, canopy, or other framework package. Cloudmesh
+client is available form pypi which is standard and should be
+supported by the frameworks. We have not tested cloudmesh on any other
+python version then python.org which is the open source community
 standard. None of the other versions are standard.
 
 In fact we had students over the summer using canopy on their machines
@@ -164,9 +164,9 @@ it. If we were to run two instals in the same system, this will not
 work as we do not know if one student will cause a side effect for
 another. Thus we as instructors do not just have to look at your code
 but code of hundreds of students with different setups. This is a non
-scalable solution as every time we test out code from a student we would
-have to wipe out the OS, install it new, install an new version of
-whatever python you have elected, become familiar with that version
+scalable solution as every time we test out code from a student we
+would have to wipe out the OS, install it new, install an new version
+of whatever python you have elected, become familiar with that version
 and so on and on. This is the reason why the open source community is
 using python.org. We follow best practices. Using other versions is
 not a community best practice, but may work for an individual.
@@ -1129,3 +1129,12 @@ be the package called fabric which you can install with::
    pip install fabric
  
 If all goes well the package will be installed.
+
+
+Ecosystem
+---------
+
+* https://virtualenvwrapper.readthedocs.io
+* https://github.com/yyuu/pyenv
+* https://amaral.northwestern.edu/resources/guides/pyenv-tutorial
+* https://godjango.com/96-django-and-python-3-how-to-setup-pyenv-for-multiple-pythons/
