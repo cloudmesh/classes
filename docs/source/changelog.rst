@@ -16,6 +16,8 @@ New
 Other
 ~~~~~
 
+- Extra double quotes type error. [sabyasachi087]
+
 - 3.0.6. [Gregor von Laszewski]
 
 - Version 3.0.6. [Gregor von Laszewski]
