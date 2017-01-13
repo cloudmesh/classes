@@ -163,6 +163,11 @@ first week of class.
 
 Our first tentative meeting is planed on Thursday 7-8pm EST via zoom.
 
+In order to select hours for the online class please follow the following doodle link and mark your preferences before 16th of January.
+	*https://doodle.com/poll/syd4cimyf2qb8mh9
+
+
+
 
     * **PC, Mac, Linux, iOS or Android:**
         * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D

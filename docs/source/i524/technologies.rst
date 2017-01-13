@@ -116,7 +116,13 @@ Application and Analytics
 Application Hosting Frameworks
 ----------------------------------------------------------------------
 
-80. Google App Engine
+80. Google App Engine  :cite:`www-gae`:
+
+  "Google App Engine" provides platform as a service.
+  There are major advantages from this framework.
+	(1) Scalable Applications
+	(2) Easier to maintain
+	(3) Publishing services easily	 
 81. AppScale
 82. Red Hat OpenShift
 83. Heroku
