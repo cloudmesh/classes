@@ -599,6 +599,9 @@ TechList.1: In class you will be given an HID and a maximum number of
   .. note:: While the Nagios entry is a good example (make sure
 	    grammer is ok) the Google app engine is an example for a
 	    bad entry.
+
+  .. note: Do Techlist 1.a 1.b 1.c first. We  will assign Techlist 1.d and 
+           TechList 2 in February.
 	    
 TechList.1.a:
   Learn about Plagearism and how to avoid it.
