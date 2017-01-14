@@ -541,22 +541,32 @@ TechList.1: In class you will be given an HID and a maximum number of
   may have additional refernces than the Web page. Please add the most
   important once while limiting it to three if you can. Avoid
   plagearism and use proper quotations or better rewrite the text.
-  Do also Techlist.1.b,b,c,d.
+  If assigned to Techlist.1.b,b,c,d.
 
   You must look at :ref:`techlist-tips` to sucessfully complete the homework
+
+  A video about this hoemwork is posted at
+  https://www.youtube.com/watch?v=dGaXfZ-oa00 (this is a draft and not
+  yet released, but shows what needs to be done. it shows you how to
+  do references in emacs and jabref, it shows you how to configure
+  git, it shows you how to do the forkrequest while asking you to add
+  "new:usr ...." to the commit messages)
+
+  ..note::  this homework can be done in steps. First you can collect all
+               the content in an editor. Second you can create a fork. Third you
+               can add the new content to the fork. Fourth you can commit. Fitsh
+               you can push. SIx if the TAs have commend improve.
   
 TechList.1.a:
   Learn about Plagearism and how to avoid it.
 
-TechList.1.b:
-  Identify how
-  to cite. We are using "scientific" citation formats such as
-  IEEEtran, and ACM. We are **not** using citation formats such as
-  Chicago, MLA, or ALP. The later are all for non scientific
-  publications and thus of no use to us. Also when writing about a
-  technology do not use the names of the person, simply say something
-  like. In [1] the definition of a turing machine is given as follows
-  ..., and do not use elaborate sentences such as: In his
+TechList.1.b: Identify how to cite. We are using "scientific" citation
+  formats such as IEEEtran, and ACM. We are **not** using citation
+  formats such as Chicago, MLA, or ALP. The later are all for non
+  scientific publications and thus of no use to us. Also when writing
+  about a technology do not use the names of the person, simply say
+  something like. In [1] the definition of a turing machine is given
+  as follows, ...  and do not use elaborate sentences such as: In his
   groundbraking work conducted in England, Allan Turing, introduced
   the turing machine in the years 1936-37 [2]. Its definition is base
   on ... The difference is clear, while the first focusses on results
@@ -574,7 +584,7 @@ TechList 1.c:
 TechList 1.d:
   Identify technologies from the Apache project and add the name
   Apache to the particular technology.
-
+  
 
 TechList.2:
   As some students may not complete this assignment because
