@@ -493,6 +493,29 @@ Monitoring
 361. Ambari
 362. Ganglia
 363. Nagios
+
+        Nagios is a platform, which provides a set of software for
+        network infrastructure monitoring. It also offers
+        administrative tools to diagnose when failure events happen,
+        and to notify operators when hardware issues are
+        detected. Specifically, :cite:`www-nagios` illustrates that
+        Nagios is consist of modules including: a core anqd its
+        dedicated tool for core configuration, extensible plugins and
+        its frontend. Nagios core is designed with scalability being
+        well considered. David Josephsen in :cite:`nagios-book`
+        depicted Nagios "as a specification language and foundation
+        for building well designed monitoring systems that can scale
+        to serve any organization." Nagios allows extensions to be
+        plugged in and to collaborate with its core through
+        APIs. Plugins can be developed via static languages like C or
+        script languages. This mechanism empowers Nagios to monitor a
+        large set of various scenarios yet being very
+        flexible. :cite:`nagios-paper-2012` emphasises Nagios'
+        "flexible modular architecture, Nagios allows users to develop
+        custom modules to enhance the system functionality in many
+        different ways." Besides its open source components, Nagios
+        also has commercial products to serve needing clients.
+     
 364. Inca
 
 
