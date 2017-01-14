@@ -546,7 +546,7 @@ TechList.1: In class you will be given an HID and a maximum number of
   You must look at :ref:`techlist-tips` to sucessfully complete the homework
 
   A video about this hoemwork is posted at
-  https://www.youtube.com/watch?v=dGaXfZ-oa00 (this is a draft and not
+  https://www.youtube.com/watch?v=KRVKcz6JIEE (this is a draft and not
   yet released, but shows what needs to be done. it shows you how to
   do references in emacs and jabref, it shows you how to configure
   git, it shows you how to do the forkrequest while asking you to add
