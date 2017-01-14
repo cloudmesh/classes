@@ -131,6 +131,22 @@ Network and Graphs
 * networkx: https://networkx.github.io/
 
 
+REST
+----
+
+* django REST FRamework http://www.django-rest-framework.org/
+* flask https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+* requests
+  https://realpython.com/blog/python/api-integration-in-python/
+* urllib2 http://rest.elkstein.org/2008/02/using-rest-in-python.html
+  (not recommended)
+* web
+  http://www.dreamsyssoft.com/python-scripting-tutorial/create-simple-rest-web-service-with-python.php
+  (not recommended)
+* bottle http://bottlepy.org/docs/dev/index.html
+* falcon https://falconframework.org/
+* eve http://python-eve.org/
+* https://code.tutsplus.com/tutorials/building-rest-apis-using-eve--cms-22961
 
 Examples
 ----------------------------------------------------------------------

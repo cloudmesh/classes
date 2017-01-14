@@ -7,14 +7,30 @@ Changelog
 New
 ~~~
 
+- Add description about Nagios. [Gregor von Laszewski]
+
+- Add description about Nagios. [Gregor von Laszewski]
+
+- Add draft video for TechList homework. [Gregor von Laszewski]
+
 - Postponed github versification till TechList HW are due. New deadline
   Jan 30, 9am. [Gregor von Laszewski]
 
 - Add the surveys to the calendar. Deadline Jan 16, 9am. [Gregor von
   Laszewski]
 
+Fix
+~~~
+
+- Fix the youtube video ling for the techlist homework draft video.
+  [Gregor von Laszewski]
+
 Other
 ~~~~~
+
+- Add Tony's bio under I524's index page. [Tony Liu]
+
+- Add Tony's bio under I524's index page. [Tony Liu]
 
 - Extra double quotes type error. [sabyasachi087]
 

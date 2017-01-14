@@ -162,6 +162,11 @@ posted at:
 
 * https://piazza.com/class/ix39m27czn5uw?cid=11
 
+In order to select hours for the online class please follow the following doodle link and mark your preferences before 16th of January.
+	*https://doodle.com/poll/syd4cimyf2qb8mh9
+
+
+
 
     * **PC, Mac, Linux, iOS or Android:**
         * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
@@ -858,6 +863,11 @@ Miao Zhang
 **Miao Zhang** PhD student working primarily on computer network related stuff.
 Currently focuses on network performance monitoring and forecasting.
 
+Tony Liu
+^^^^^^^^
+.. image:: /images/tony.png
+
+**Tony Liu** is a PhD student in the Intelligent Systems Engineering program at Indiana University since August 2016. He received his Master degree in Computer Science program in May 2016 at IU. His research interests are high performance computing, computer systems and computer architecture. He used to work under Professor Thomas Sterling and Professor Andrew Lumsdaine from Center for Research in Extreme Scale Technology (CREST) on HPX-5 runtime system project. His currently works on benchmarking Intel Xeon Phi Knights Landing processor with Caffe under Professor Judy Qiu and Professor Lei Jiang.
 
 Links
 -------
