@@ -118,11 +118,24 @@ Application Hosting Frameworks
 
 80. Google App Engine  :cite:`www-gae`:
 
+ On purpose we put in here a "good" example of a bad entry that woudl
+ receive 10 out of 100 points, e.g. an F::
+  
   "Google App Engine" provides platform as a service.
   There are major advantages from this framework.
-	(1) Scalable Applications
-	(2) Easier to maintain
-	(3) Publishing services easily	 
+
+  1. Scalable Applications
+  2. Easier to maintain
+  3. Publishing services easily
+
+  Reasons: "major advantages is advertisement" if you add word major,
+  grammar needs to be improved. The three points do not realy say
+  anything about Google App Engine. The reader will after reading this
+  have not much information about what it is. A refernce is not
+  included. Enumeration should be in this page avoided. We like to see
+  a number of paragraphs with text. 
+  
+  
 81. AppScale
 82. Red Hat OpenShift
 83. Heroku
