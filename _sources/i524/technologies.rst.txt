@@ -128,11 +128,11 @@ Application Hosting Frameworks
   2. Easier to maintain
   3. Publishing services easily
 
-  Reasons: "major advantages is advertisement" if you add word major,
-  grammar needs to be improved. The three points do not realy say
-  anything about Google App Engine. The reader will after reading this
-  have not much information about what it is. A refernce is not
-  included. Enumeration should be in this page avoided. We like to see
+  Reasons: (a) "major advantages is advertisement" if you add word
+  major (b)  grammar needs to be improved (c) the three points do not realy say
+  anything about Google App Engine (d) the reader will after reading this
+  have not much information about what it is (e) a refernce is not
+  included. (f) enumeration should be in this page avoided. We like to see
   a number of paragraphs with text. 
   
   
@@ -595,7 +595,11 @@ TechList.1: In class you will be given an HID and a maximum number of
                can add the new content to the fork. Fourth you can commit. Fitsh
                you can push. SIx if the TAs have commend improve. The
 	       commit message must have new:usr: at the beginning.
-  
+
+  .. note:: While the Nagios entry is a good example (make sure
+	    grammer is ok) the Google app engine is an example for a
+	    bad entry.
+	    
 TechList.1.a:
   Learn about Plagearism and how to avoid it.
 
