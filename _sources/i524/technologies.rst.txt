@@ -119,7 +119,7 @@ Application Hosting Frameworks
 80. Google App Engine  :cite:`www-gae`:
 
  On purpose we put in here a "good" example of a bad entry that woudl
- receive 10 out of 100 points, e.g. an F::
+ receive 10 out of 100 points, e.g. an F:
   
   "Google App Engine" provides platform as a service.
   There are major advantages from this framework.
