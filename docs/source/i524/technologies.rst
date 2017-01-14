@@ -569,16 +569,19 @@ TechList.1: In class you will be given an HID and a maximum number of
   You must look at :ref:`techlist-tips` to sucessfully complete the homework
 
   A video about this hoemwork is posted at
-  https://www.youtube.com/watch?v=KRVKcz6JIEE (this is a draft and not
+  https://www.youtube.com/watch?v=roi7vezNmfo (this is a draft and not
   yet released, but shows what needs to be done. it shows you how to
   do references in emacs and jabref, it shows you how to configure
   git, it shows you how to do the forkrequest while asking you to add
-  "new:usr ...." to the commit messages)
+  "new:usr ...." to the commit messages). As this is a homework
+  realated video we put a lot of information in it that is not only
+  useful for beginners. We recommend you watch it.
 
   ..note::  this homework can be done in steps. First you can collect all
                the content in an editor. Second you can create a fork. Third you
                can add the new content to the fork. Fourth you can commit. Fitsh
-               you can push. SIx if the TAs have commend improve.
+               you can push. SIx if the TAs have commend improve. The
+	       commit message must have new:usr: at the beginning.
   
 TechList.1.a:
   Learn about Plagearism and how to avoid it.
