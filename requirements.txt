@@ -1,6 +1,5 @@
 sphinx
 sphinx_rtd_theme
-sphinxcontrib-bibtex
 requests
 pandas
 sphinxcontrib-bibtex

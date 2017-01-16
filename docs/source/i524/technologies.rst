@@ -567,42 +567,48 @@ New Technologies to be integrated
 Excersise
 ---------
 
-TechList.1: In class you will be given an HID and a maximum number of
-  students from the class. Identify all technologies modulo the
-  maximum number of students. If it is equal to your HID, complete for
-  this page a one paragraph description with refernce. For the
-  repository and create a single pull request with your response for
-  all technologies you are responsible to invesitgate. Add your
-  refernce to refs.bib. See Mahout as an example. Many technologies
-  may have additional refernces than the Web page. Please add the most
-  important once while limiting it to three if you can. Avoid
-  plagearism and use proper quotations or better rewrite the text.
-  If assigned to Techlist.1.b,b,c,d.
-
+TechList.1:
+  In class you will be given an HID and you will be assigned a number
+  of technologies that you need to research and create a summary as
+  well as one or more relevant refernces to be added to the Web
+  page. An example is given for Nagios.  Please create a pull request
+  with your responses. You are responsible for making sure the request
+  shows up and each commit is using gitchangelog "new:usr: added
+  paragraph about <PUTTECHHERE>" For the repository and create a
+  single pull request with your response for all technologies you are
+  responsible to invesitgate.  Make sure to add your refernce to
+  refs.bib.  Many technologies may have additional refernces than the
+  Web page. Please add the most important once while limiting it to
+  three if you can. Avoid plagearism and use proper quotations or
+  better rewrite the text.
+  
   You must look at :ref:`techlist-tips` to sucessfully complete the homework
 
   A video about this hoemwork is posted at
-  https://www.youtube.com/watch?v=roi7vezNmfo (this is a draft and not
-  yet released, but shows what needs to be done. it shows you how to
+  https://www.youtube.com/watch?v=roi7vezNmfo showing how to
   do references in emacs and jabref, it shows you how to configure
   git, it shows you how to do the forkrequest while asking you to add
   "new:usr ...." to the commit messages). As this is a homework
   realated video we put a lot of information in it that is not only
   useful for beginners. We recommend you watch it.
 
-  ..note::  this homework can be done in steps. First you can collect all
-               the content in an editor. Second you can create a fork. Third you
-               can add the new content to the fork. Fourth you can commit. Fitsh
-               you can push. SIx if the TAs have commend improve. The
-	       commit message must have new:usr: at the beginning.
 
-  .. note:: While the Nagios entry is a good example (make sure
-	    grammer is ok) the Google app engine is an example for a
-	    bad entry.
+  This homework can be done in steps. First you can collect all the
+  content in an editor. Second you can create a fork. Third you can
+  add the new content to the fork. Fourth you can commit. Fith you
+  can push. SIx if the TAs have commend improve. The commit message
+  must have new:usr: at the beginning.
+
+  While the Nagios entry is a good example (make sure grammer is ok
+  the Google app engine is an example for a bad entry.
+
+  Do Techlist 1.a 1.b 1.c first. We  will assign Techlist 1.d and 
+  TechList 2 in February.
 	    
 TechList.1.a:
-  Learn about Plagearism and how to avoid it.
-
+  Complete the pull request with the technologies assigned to you.
+  Details for the assignment are posted in Piazza. Search for TechList.
+  
 TechList.1.b: Identify how to cite. We are using "scientific" citation
   formats such as IEEEtran, and ACM. We are **not** using citation
   formats such as Chicago, MLA, or ALP. The later are all for non
@@ -618,6 +624,7 @@ TechList.1.b: Identify how to cite. We are using "scientific" citation
   history paper.
 
 TechList 1.c:
+  Learn about Plagearism and how to avoid it.
   Many Web pages will conduct self advertisement while adding
   suspicious and subjective adjectives or phrases such as cheaper,
   superior, best, most important, with no equal, and others that you
@@ -625,16 +632,15 @@ TechList 1.c:
   not on what the author of the Web page claims. 
 
 TechList 1.d:
-  Identify technologies from the Apache project and add the name
-  Apache to the particular technology.
+  Identify technologies from the Apache project that ar enot yet
+  listed here and add the name and descriptions as well as references.
   
-
 TechList.2:
   As some students may not complete this assignment because
   they for example dropped the class, identify a number of not
   submitted descriptions and complete them. Coordinate with your class
   mates to identify a non overlapping assignment. The TA's will
-  coordinate this.
+  assign you additional technologies.
 
 TechList.3:
   Identify technologies that are not listed here and add
