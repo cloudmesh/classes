@@ -603,7 +603,7 @@ TechList.1:
   the Google app engine is an example for a bad entry.
 
   Do Techlist 1.a 1.b 1.c first. We  will assign Techlist 1.d and 
-           TechList 2 in February.
+  TechList 2 in February.
 	    
 TechList.1.a:
   Complete the pull request with the technologies assigned to you.
