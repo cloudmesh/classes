@@ -22,6 +22,9 @@ New
 Fix
 ~~~
 
+- Change documentation on how techlist is assigned to HIDs. [Gregor von
+  Laszewski]
+
 - Fix the youtube video ling for the techlist homework draft video.
   [Gregor von Laszewski]
 
