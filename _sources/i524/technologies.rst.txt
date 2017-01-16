@@ -568,7 +568,6 @@ Excersise
 ---------
 
 TechList.1:
-
   In class you will be given an HID and you will be assigned a number
   of technologies that you need to research and create a summary as
   well as one or more relevant refernces to be added to the Web
@@ -593,17 +592,17 @@ TechList.1:
   realated video we put a lot of information in it that is not only
   useful for beginners. We recommend you watch it.
 
-  ..note::  this homework can be done in steps. First you can collect all
-               the content in an editor. Second you can create a fork. Third you
-               can add the new content to the fork. Fourth you can commit. Fitsh
-               you can push. SIx if the TAs have commend improve. The
-	       commit message must have new:usr: at the beginning.
 
-  .. note:: While the Nagios entry is a good example (make sure
-	    grammer is ok) the Google app engine is an example for a
-	    bad entry.
+  This homework can be done in steps. First you can collect all the
+  content in an editor. Second you can create a fork. Third you can
+  add the new content to the fork. Fourth you can commit. Fith you
+  can push. SIx if the TAs have commend improve. The commit message
+  must have new:usr: at the beginning.
 
-  .. note: Do Techlist 1.a 1.b 1.c first. We  will assign Techlist 1.d and 
+  While the Nagios entry is a good example (make sure grammer is ok
+  the Google app engine is an example for a bad entry.
+
+  Do Techlist 1.a 1.b 1.c first. We  will assign Techlist 1.d and 
            TechList 2 in February.
 	    
 TechList.1.a:
