@@ -81,7 +81,7 @@ modules.
 
 
 .. _The Zen of Python: https://www.python.org/dev/peps/pep-0020/
-	 
+
 
 Installation
 ----------------------------------------------------------------------
@@ -96,7 +96,7 @@ isolate your development python from the system installed python.
 
 .. note:: If you are not familiar with virtualenv, please read up on
 	  it.
-	  
+
 Alternative Installations
 -------------------------
 
@@ -107,7 +107,7 @@ install python. This includes
 * `Canopy <https://store.enthought.com/downloads/#default>`_
 * `Anaconda <https://www.continuum.io/downloads>`_
 * `IronPython <http://ironpython.net/>`_
-  
+
 Typically they include not only the python compiler but also several
 useful packages. It is fine to use such environments for the class,
 but it should be noted that in both cases not every python library may
@@ -181,7 +181,7 @@ bonus projects such as
 * deploy run and document cloudmesh on canopy, develop script to
   generate a conda packge form github
 * deploy run and document cloudmesh on ironpython
-* other documentation that would be useful  
+* other documentation that would be useful
 
 
 
@@ -211,7 +211,7 @@ This list may be useful as it also contains links to data
 visualization and manipulation libraries, and AI tools and libraries.
 Please note that for this class you can reuse such libraries if not
 otherwise stated.
-  
+
 .. _Code Academy: http://www.codecademy.com/en/tracks/python
 .. _Python documentation site: https://docs.python.org/2.7/
 .. _list of introductory books: https://wiki.python.org/moin/IntroductoryBooks
@@ -227,7 +227,7 @@ otherwise stated.
 
 
 
-	  
+
 Prerequisite
 ----------------------------------------------------------------------
 
@@ -245,7 +245,7 @@ In order to conduct this lesson you should
 Dependencies
 ----------------------------------------------------------------------
 
-* `Python <https://www.python.org/>`_ 
+* `Python <https://www.python.org/>`_
 * `Pip <https://pip.pypa.io/en/stable/>`_
 * `Virtualenv <https://virtualenv.pypa.io/en/stable/>`_
 * `NumPy <http://www.numpy.org/>`_
@@ -259,7 +259,7 @@ Learning Goals
 
 At the end of this lesson you will be able to:
 
-- use Python 
+- use Python
 - use the interactive Python interface
 - understand the basic syntax of Python
 - write and run Python programs stored in a file
@@ -274,7 +274,7 @@ Using Python on FutureSystems
 ----------------------------------------------------------------------
 
 .. warning:: This is only important if you use Futuresystems resources.
-	  
+
 In order to use Python you must log into your FutureSystems account.
 Then at the shell prompt execute the following command::
 
@@ -412,7 +412,7 @@ You can combine booleans with **boolean operators**:
    True
    >>> print False or False
    False
-   
+
 Numbers and Math
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -530,7 +530,7 @@ Conditions are always combined with variables. A program can make a
 choice using the if keyword. For example:
 
 .. code:: python
-    
+
     x = int(input("Tell X"))
     if x == 4:
         print('You guessed correctly!')
@@ -572,7 +572,7 @@ to 10. Python itself starts counting from 0, so this code will also
 work:
 
 .. code:: python
-    
+
     for i in range(0,10):
         print(i)
 
@@ -584,7 +584,7 @@ condition is: i < 10. Every iteration (round), the variable i is
 updated.Nested loops Loops can be combined:
 
 .. code:: python
-    
+
     for i in range(0,10):
         for j in range(0,10):
             print(i,' ',j)
@@ -601,7 +601,7 @@ unique distinct name in the program. Once you call a function it will
 execute one or more lines of codes, which we will call a code block.
 
 .. code:: python
-	  
+
     import math
 
     def computePower(a):
@@ -653,7 +653,7 @@ A class is a way to take a grouping of functions and data and place them inside 
     thing = Fruit()
     thing.apple()
     print thing.tangerine
-	  
+
 Writing and Saving Programs
 ----------------------------------------------------------------------
 
@@ -720,7 +720,7 @@ program that asks the user to enter a number, *n*, and prints out the
 	n = int(sys.argv[1])
 	print fib(n)
 
-	  
+
 We can now run this like so::
 
   $ python print_fibs.py 5
@@ -932,7 +932,7 @@ Let's see what we have::
 It seems that there are several programs installed.  Let's see where
 our current ``python`` is and what happens after activating this
 environment::
-$ which python
+  $ which python
   /N/soft/python/2.7/bin/python
   $ source ENV/bin/activate
   (ENV) $ which python
@@ -947,6 +947,56 @@ $ which python
 
    Notice how the shell prompt changed upon activation.
 
+Autoenv: Directory-based Environments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If a directory contains a ``.env`` file, it will automatically be executed
+when you ``cd`` into it. It's easy to use and install.
+
+This is great for...
+
+   - auto-activating virtualenvs
+   - project-specific environment variables
+
+
+Here is how to use it. Add the ENV you created with virtualenv into ``.env`` file within your project directory::
+
+   $ echo "source ~/ENV/bin/activate" > project.env
+   $ echo "echo 'whoa'" > project/.env
+   $ cd project
+   whoa
+
+Here is how to install.
+Mac OS X Using Homebrew::
+
+   $ brew install autoenv
+   $ echo "source $(brew --prefix autoenv)/activate.sh" >> ~/.bash_profile
+
+
+Using pip::
+
+   $ pip install autoenv
+   $ echo "source `which activate.sh`" >> ~/.bashrc
+
+
+Using git::
+
+   $ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
+   $ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
+
+
+Before sourcing activate.sh, you can set the following variables:
+
+   - ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
+   - ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
+   - ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
+
+
+Autoenv overrides ``cd``. If you already do this, invoke ``autoenv_init`` within your custom ``cd`` after sourcing ``activate.sh``.
+
+Autoenv can be disabled via ``unset cd`` if you experience I/O issues with
+   certain file systems, particularly those that are FUSE-based (such as
+   ``smbnetfs``).
 
 Fixing Bad Code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1035,7 +1085,7 @@ There is much more to python than what we have covered here:
 .. note:: you can receive extra credit if you contribute such a
 	  section of your choice addressing the above topics
 
-  
+
 Exercises
 ----------------------------------------------------------------------
 
@@ -1127,7 +1177,7 @@ where pagage_name is the string name of the package. an example would
 be the package called fabric which you can install with::
 
    pip install fabric
- 
+
 If all goes well the package will be installed.
 
 
