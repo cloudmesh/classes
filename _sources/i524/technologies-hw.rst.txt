@@ -3,34 +3,31 @@
 Details for the TechList Homework
 =================================
 
-.. todo:: Vibatha, complete this page and create a video how you do
-	  it. 
+1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
-1. Create a fork into your local repo
-
-2. Checkout the fork with:
-
-   TBD
+2. Create a fork into your local repo
    
-2. Change to the class branch::
+3. Make sure you start your commit summary with your "new:usr: ...." only this
+   way you get credit for he assignment. Make sure your refernces have
+   an owner filed. make sure you do not mut urls in howpublished for a MISC
 
-     git checkout i524
+4. Make sure to remove advertisement adjectives and sentences
 
-3. When you want to commit something in your branch, be sure to be in your branch. You can see all branches created by using::
+5. Make sure you spellcheck
 
-     git branch
+6. Make sure you rebase or pull before you commit
 
-   Make sure you are in the **i524** branch.
-   Make sure you start your commit summary with your "HID:" only this
-   way you get credit for he assignment.
+7. Change the description in technology.rst
 
-4. do your changes and commit
+8. Add the reference in refs.bib  
 
-4.1. Change the description in technology.rst
+9. compile
 
-4.2. Add the reference in refs.bib  
-   
-5. create a pull request
+10. review compile
+
+11. commit if correct
+    
+12.  create a pull request (check if no new content conflict with yours)
 
 Tips
 ----
@@ -62,7 +59,7 @@ Learning outcomes
    we will use the class Web page to demonstrate how this can be
    achieved with forks and pull requests. The TAs are responsible fo
    communication tou you how to do this and are also organizing the
-   merge of your pull riquests into the Matsre Web page.
+   merge of your pull riquests into the Master Web page.
 
 2. As you look over the list you get familiar with technologies of
    interest.
@@ -72,10 +69,6 @@ Learning outcomes
 4. You will learn how to create proper refernces for Web-pages while
    using academic bibliography management tools.
    
-   
-.. todo:: Vibatha, fix the above so studnets have no issue
-	   
-.. todo:: Vibatha, create video for one example in which you add things.
 
 	  
 

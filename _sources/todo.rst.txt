@@ -13,8 +13,6 @@ General
 * fix chameleon cloud
 * identify if we can use jetstream
 
-
-
 .. todolist::
 
 
