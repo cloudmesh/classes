@@ -1,0 +1,657 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Microsoft Azure Virtual Machine | Big Data Classes</title>
+	
+	
+	
+	<meta property="og:title" content="Microsoft Azure Virtual Machine | Big Data Classes" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/lesson/azure.html" />
+	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
+	
+	
+	<meta property="og:description" content="This is an example of the Foundation Sphinx Theme output." />
+	<meta property="og:site_name" content="Big Data Classes" />
+	
+	
+	    	<meta property="og:foo" content="bar" />
+	
+    
+    
+	<meta name="description" content="This is an example of the Foundation Sphinx Theme output.">
+    
+	    	<meta name="foo" content="bar" />
+	
+	
+	
+	
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="../_static/foundation/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="../_static/jquery.js"></script>
+    	<script type="text/javascript" src="../_static/underscore.js"></script>
+    	<script type="text/javascript" src="../_static/doctools.js"></script>
+    	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    	<script type="text/javascript" src="../_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="../index.html">Big Data Classes</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul>
+							<li class="has-dropdown">
+								<a href="">Sections</a>
+								<ul class="dropdown ">
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../todo.html">Todos</a></li>
+</ul>
+
+							</li>
+						</ul>
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		
+			<li><a href="../genindex.html"  title="General Index">index</a></li>
+		
+
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="../index.html">
+		
+	    	<h1 id="logo">Big Data Classes</h1>
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						This page is under construction and will change. Content will go live Jan. 9, 2017
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="microsoft-azure-virtual-machine">
+<h1>Microsoft Azure Virtual Machine<a class="headerlink" href="#microsoft-azure-virtual-machine" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>This lesson will introduce you to a very important topic to Microsoft Azure
+cloud services . Azure Virtual Machine offers IaaS with linux operating
+systems. The use of key pairs or creating virtual instances is slightly
+different compared to other clouds e.g. Amazon EC2 or OpenStack Nova.  In this
+lesson, we focus on a simple tutorial of running a Python Flask Web Framework
+on Azure Virtual Machine. We expect that readers gain basic knowledge of using
+Azure cloud services and have some experience of building services on the
+cloud.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Duration: 50 minutes</p>
+</div>
+</div>
+<div class="section" id="prerequisite">
+<h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
+<p>In order to conduct this lesson you should have:</p>
+<ul class="simple">
+<li>Azure Account</li>
+<li>Subscription for billing and payment</li>
+<li>SSH Client tool (e.g. putty, cygwin or terminal)</li>
+<li>openssl is not required (we replaced it with one-time password login and ssh
+key pair access)</li>
+</ul>
+</div>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>We will create a VM instance on Azure cloud, and start a Flask Web Framework on
+the Ubuntu 14.04 machine image. Our conditions are:</p>
+<ul class="simple">
+<li>Ubuntu 14.04 LTS Server 64 bit (VM Image)</li>
+<li>A1 Size (1 vcpu + 1.75 gb memory)</li>
+<li>HTTP, HTTPS (80, 443) port opening using security groups</li>
+<li>Password authentication for the first login</li>
+<li>SSH key pair authentication after password authentication is disabled</li>
+<li>Use of package manager (i.e. apt-get) with switching to admin privileges</li>
+<li>Use of Python packages</li>
+<li>Editors e.g. vi, nano, emacs</li>
+<li><dl class="first docutils">
+<dt>Use Azure Management Portal (Web interface)</dt>
+<dd><ul class="first last">
+<li>We might have other lessons for using an azure command line tool.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>Microsoft Azure provides web management tool, Azure Management Portal to
+control Azure cloud services. We will use this web interface to create, list or
+delete a VM instance.</p>
+<div class="section" id="azure-management-portal">
+<h3>Azure Management Portal<a class="headerlink" href="#azure-management-portal" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Sign in Azure Management Portal
+<a class="reference external" href="http://manage.windowsazure.com">http://manage.windowsazure.com</a></li>
+<li>Sign up, if you don&#8217;t have an account</li>
+<li><dl class="first docutils">
+<dt>Register a new subscription</dt>
+<dd><ul class="first last">
+<li>1-month Free trial is available</li>
+<li>Pay-as-you-go is available</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>go to Azure Management Portal</dt>
+<dd><ul class="first last">
+<li>Find the Virtual Machines page. We create a VM instance in the page.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="preparing-vm-instance">
+<h3>Preparing VM Instance<a class="headerlink" href="#preparing-vm-instance" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Select a VM base image from Gallery</dt>
+<dd><ul class="first last">
+<li>Gallery is a repositofy for VM images</li>
+<li>Choose <code class="docutils literal"><span class="pre">Ubuntu</span></code> tab.</li>
+<li>There are a few VMs available. Select Ubuntu 14.04 LTS.</li>
+<li>Community VMs are also available.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Provide a name for your VM instance</dt>
+<dd><ul class="first last">
+<li>Your VM instance need a name. This name is also used for dns name.
+For example, if you created a VM instance with <code class="docutils literal"><span class="pre">tutorial-azure</span></code>,
+you may have dns name, <code class="docutils literal"><span class="pre">tutorial-azure.cloudapp.net</span></code>.</li>
+<li>Azure provides a unique dns address using the name in this format <code class="docutils literal"><span class="pre">[unique</span>
+<span class="pre">vm</span> <span class="pre">name].cloudapp.net</span></code>.  Unque name means that there is no duplication
+across entire Azure cloud services.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Choose a size of your VM instance</dt>
+<dd><ul class="first last">
+<li>select A1 (1core, 1.75 memory) or other preferred size of VM instance</li>
+<li>OpenStack Flavor and Amazon Instance types have similar format for the size
+of VM instances.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Choose a region</dt>
+<dd><ul class="first last">
+<li>It is a physical location of your VM instance.</li>
+<li>Geological different data centers provide better network access if you&#8217;re
+close to them. Choose a location based on the location for your service.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Add a rule</dt>
+<dd><ul class="first last">
+<li>SSH (22) port is default</li>
+<li>HTTP (80) and HTTPs (443)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Choose <code class="docutils literal"><span class="pre">provide</span> <span class="pre">password</span></code> and disable <code class="docutils literal"><span class="pre">ssh</span> <span class="pre">key</span> <span class="pre">pair</span> <span class="pre">authentication</span></code></dt>
+<dd><ul class="first last">
+<li>We use <code class="docutils literal"><span class="pre">azureuser</span></code> as a user name.</li>
+<li>We provide a password instead of key authentication file e.g. pem.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Click &#8216;Complete&#8217;</dt>
+<dd><ul class="first last">
+<li>Confirm your VM image, size and rules.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="launch-a-instance-and-ip-address">
+<h3>Launch a Instance and IP Address<a class="headerlink" href="#launch-a-instance-and-ip-address" title="Permalink to this headline">¶</a></h3>
+<p>Once you successfully launched your instance, it will be available in a few
+moments.</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Find a IP Adddress or hostname</dt>
+<dd><ul class="first last">
+<li>We need destination address to ssh into the server. You can find IP address
+or hostname in the Instances page.</li>
+<li>Typically you have a dns name like <code class="docutils literal"><span class="pre">[your</span> <span class="pre">vm</span> <span class="pre">name].cloudapps.net</span></code>.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="ssh-into-vm-instance">
+<h3>SSH into VM Instance<a class="headerlink" href="#ssh-into-vm-instance" title="Permalink to this headline">¶</a></h3>
+<p>Use your ssh client tool to login to the virtual server.</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt><code class="docutils literal"><span class="pre">azureuser</span></code> as a user name</dt>
+<dd><ul class="first last">
+<li>We specified this name as login name when we deploy a VM instance.
+Once we logged into the VM instance, we can switch to other users e.g.
+<code class="docutils literal"><span class="pre">root</span></code> or create a new user.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Password Authentication</dt>
+<dd><ul class="first last">
+<li>We login to the VM instance using the passowrd that we provided in the
+process of vm creation.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="switch-password-authentication-to-ssh-key-authentication">
+<h3>Switch Password Authentication to SSH Key Authentication<a class="headerlink" href="#switch-password-authentication-to-ssh-key-authentication" title="Permalink to this headline">¶</a></h3>
+<p>Since we used password authentication, we need to switch it to SSH key pair
+authentication.  This requires a few steps with <code class="docutils literal"><span class="pre">root</span></code>.</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Create a new SSH key pair</dt>
+<dd><ul class="first last">
+<li>If you use Windows OS, try <code class="docutils literal"><span class="pre">puttygen.exe</span></code></li>
+<li>Store your private key in a safe place.</li>
+<li>Copy your public key string. We need to provide this to SSH on the VM instance.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Move to $HOME/.ssh directory</dt>
+<dd><ul class="first last">
+<li>There is a <code class="docutils literal"><span class="pre">authorized_keys</span></code> file which holds a list of public key strings.
+If you register your public key in this file, you will be able to login to
+this machine using a pair, your private key.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Run <code class="docutils literal"><span class="pre">echo</span> <span class="pre">[your</span> <span class="pre">public</span> <span class="pre">key</span> <span class="pre">string]</span> <span class="pre">&gt;&gt;</span> <span class="pre">$HOME/.ssh/authorized_keys</span></code></dt>
+<dd><ul class="first last">
+<li>This way, you register your public key to your virtual server.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Open <code class="docutils literal"><span class="pre">/etc/ssh/sshd_config</span></code> with your editor e.g. nano, emacs, or vi.</dt>
+<dd><ul class="first last">
+<li>e.g. <code class="docutils literal"><span class="pre">sudo</span> <span class="pre">vi</span> <span class="pre">/etc/ssh/sshd_config</span></code></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>Change <code class="docutils literal"><span class="pre">PasswordAuthentication</span> <span class="pre">yes</span></code> to <code class="docutils literal"><span class="pre">PasswordAuthentication</span> <span class="pre">no</span></code>
+and save the file.</li>
+<li><dl class="first docutils">
+<dt>Run <code class="docutils literal"><span class="pre">sudo</span> <span class="pre">service</span> <span class="pre">ssh</span> <span class="pre">restart</span></code></dt>
+<dd><ul class="first last">
+<li>This command restarts a SSH server on your virtual server.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Your password login is disabled.</dt>
+<dd><ul class="first last">
+<li>After the command above, you won&#8217;t allow to use password to login.</li>
+<li>SSH key login is only allowed.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="install-and-run-flask-python-web-framework">
+<h3>Install and Run Flask Python Web Framework<a class="headerlink" href="#install-and-run-flask-python-web-framework" title="Permalink to this headline">¶</a></h3>
+<p>It&#8217;s time to install and run Flask Web Framework. It is a minimal software to
+run a web server using Python. We will try to use a sample code <code class="docutils literal"><span class="pre">hello.py</span></code>
+from the Flask official site.</p>
+<p>We assume that you know how to use some basic Linux commands, editors and
+Python. We will use the following commands 1) sudo, 2) su, 3) apt-get, and 4)
+service, 5) python to install and run Flask.</p>
+<ul>
+<li><dl class="first docutils">
+<dt><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">update</span></code></dt>
+<dd><ul class="first last simple">
+<li>This command updates a list of Linux package repositories.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">python-pip</span></code></dt>
+<dd><ul class="first last simple">
+<li>We install Python package manager <code class="docutils literal"><span class="pre">pip</span></code>.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">virtualenv</span></code></dt>
+<dd><ul class="first last simple">
+<li>We install Python virtualenv software <code class="docutils literal"><span class="pre">virtualenv</span></code>.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Create a new virtualenv</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">virtualenv</span> <span class="pre">$HOME/FLASK</span></code></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Enable <code class="docutils literal"><span class="pre">FLASK</span></code> environment for Python</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">source</span> <span class="pre">$HOME/FLASK/bin/activate</span></code></li>
+<li>If you see <strong>(FLASK)</strong> label in front of your prompt, you are now in the
+<code class="docutils literal"><span class="pre">FLASK</span></code> environment.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Write a python script in <code class="docutils literal"><span class="pre">hello.py</span></code></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="k">import</span> <span class="n">Flask</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s2">&quot;Hello World!&quot;</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+</div>
+</li>
+<li><dl class="first docutils">
+<dt>Test your python program</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">python</span> <span class="pre">hello.py</span></code></li>
+<li>If you see  <code class="docutils literal"><span class="pre">*</span> <span class="pre">Running</span> <span class="pre">on</span> <span class="pre">http://localhost:5000/</span></code>,
+you successfully run your Flask on the localhost with 5000 port number.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="make-a-public-web-service">
+<h3>Make a Public Web Service<a class="headerlink" href="#make-a-public-web-service" title="Permalink to this headline">¶</a></h3>
+<p>We will make a small change to provide Flask in public.
+This way, anyone on the internet can see your <code class="docutils literal"><span class="pre">Hello</span> <span class="pre">World!</span></code> message.</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Switch to <code class="docutils literal"><span class="pre">root</span></code> account to use system port 80.</dt>
+<dd><ul class="first simple">
+<li><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">su</span> <span class="pre">-</span></code></li>
+<li><em>80 or 443 port is reserved port range to system administrator i.e. ``root``</em></li>
+<li>Now you are in <code class="docutils literal"><span class="pre">root</span></code> account. Try <code class="docutils literal"><span class="pre">pwd</span></code> command to confirm that you</li>
+</ul>
+<blockquote class="last">
+<div><p>are in <code class="docutils literal"><span class="pre">/root</span></code></p>
+</div></blockquote>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Move to <code class="docutils literal"><span class="pre">azureuser</span></code> home directory and enable virtualenv</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">cd</span> <span class="pre">/home/azureuser</span></code></li>
+<li><code class="docutils literal"><span class="pre">source</span> <span class="pre">/home/azureuser/FLASK/bin/activate</span></code></li>
+<li>If you see <strong>(FLASK)</strong> label in front of your prompt, you are now in the
+<code class="docutils literal"><span class="pre">FLASK</span></code> environment.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Change <code class="docutils literal"><span class="pre">app.run()</span></code> function to <code class="docutils literal"><span class="pre">app.run(host='0.0.0.0',</span> <span class="pre">port=80)</span></code></dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">0.0.0.0</span></code> is a way to specify <em>any IPv4-host at all</em>. You Flask will
+provide web service through your internal/external network of your virtual
+server.</li>
+<li><code class="docutils literal"><span class="pre">port=80</span></code> is a way to tell Flask that you are using HTTP default port.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="check-hello-world-page-on-the-web">
+<h3>Check <code class="docutils literal"><span class="pre">Hello</span> <span class="pre">World!</span></code> Page on the Web<a class="headerlink" href="#check-hello-world-page-on-the-web" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Open a web browser and type the IP address or hostname of your VM instance.</dt>
+<dd><ul class="first last">
+<li>If you see <code class="docutils literal"><span class="pre">Hello</span> <span class="pre">World!</span></code> page, you have now working Flask Web Framework
+on Azure.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="terminate-your-cloud-resources-important">
+<h3>Terminate your Cloud Resources <em>IMPORTANT</em><a class="headerlink" href="#terminate-your-cloud-resources-important" title="Permalink to this headline">¶</a></h3>
+<p>If you completed your jobs on Azure cloud, you need to shutdown all of your
+cloud resources and return the lease.  There is <code class="docutils literal"><span class="pre">delete</span> <span class="pre">Cloud</span> <span class="pre">Service</span></code>
+command or menu. If you do not terminate your resources, you will receive a
+charge of using cloud services e.g. Virtual Machine, Cloud Service, or Storage.</p>
+</div>
+</div>
+<div class="section" id="exercise1">
+<h2>Exercise1<a class="headerlink" href="#exercise1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Try to start a virtual server with Windows Server 2008 R2 SP1. Use Remote
+Desktop to log in.</li>
+</ul>
+</div>
+<div class="section" id="exercise2">
+<h2>Exercise2<a class="headerlink" href="#exercise2" title="Permalink to this headline">¶</a></h2>
+<p><strong>Additional (Optional) Study Material</strong></p>
+<ul class="simple">
+<li>Start a one of community VM images. It needs some preparation before starting
+a virtual machine. Get some experience with using VM Depot which is a open
+repository for Azure VM images.</li>
+</ul>
+</div>
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../i524/index.html">I524 Big Data &amp; Open Source Software Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../i523/index.html">I523 Big Data Applications and Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../todo.html">Todos</a></li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="../genindex.html"  title="General Index">index</a></span>
+				</div><div id="footer-notice">
+			    	&copy; Copyright 2016, 2017,
+			    	Gregor von Laszewski, Badi Abdul-Wahid.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.5.1.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '../_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="../_static/foundation/js/foundation.min.js"></script>
+	<script src="../_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'your-google-analytics-id']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		
+	</script>
+	
+		<a	id="github-ribbon"
+			style="right: 0; border: 0;"
+			href="https://github.com/cloudmesh/classes">
+			<img
+				 src="../_static/forkme_right_gray_6d6d6d.png"
+				 alt="Fork me on GitHub">
+		</a>
+	
+</body>
+
+</html>
