@@ -562,7 +562,8 @@ New Technologies to be integrated
 ---------------------------------
 
 381. TBD
-     
+
+.. _techs-exercise:
 
 Excersise
 ---------
