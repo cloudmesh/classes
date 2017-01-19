@@ -77,8 +77,7 @@ Zoom URL: https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
 +-----------------+------------------------------------+
 | Wednesday       | 6-7pm Office Hours                 |
 +-----------------+------------------------------------+
-| Thursday        | | 6-7pm Office Hours               |
-|                 | | 7-8pm Office Hours (Gregor)      |
+| Thursday        | 6-7pm Office Hours (Gregor)        |
 +-----------------+------------------------------------+
 | Friday	  | 4-5pm Office Hours                 |
 +-----------------+------------------------------------+
