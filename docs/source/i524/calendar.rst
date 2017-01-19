@@ -58,6 +58,35 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
   points. These deadlines are important to assure you have access to
   the resources for the class.
 
+Weekly Meetings
+------------
+
+All times are in Easter Standart Time.
+
+Zoom URL: https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
+
++-----------------+------------------------------------+
+| **Day of Week** | **Meetings**                       |
++-----------------+------------------------------------+
+| Monday          | | 8-9am Office Hours               |
+|                 | | 9:30-10:45am Residential Lecture |
+|                 | | 6-7pm Office Hours               |
++-----------------+------------------------------------+
+| Tuesday         | | 1-2pm Office Hours               |
+|                 | | 4-5pm Office Hours               |
++-----------------+------------------------------------+
+| Wednesday       | 6-7pm Office Hours                 |
++-----------------+------------------------------------+
+| Thursday        | | 6-7pm Office Hours               |
+|                 | | 7-8pm Office Hours (Gregor)      |
++-----------------+------------------------------------+
+| Friday	  | 4-5pm Office Hours                 |
++-----------------+------------------------------------+
+| Saturday        | 8-9pm Off Hours                    |
++-----------------+------------------------------------+
+| Sunday	  | | 9-10am Office Hours              |
+|                 | | 8-9pm Office Hours               |
++-----------------+------------------------------------+
 
 Comments
 --------
