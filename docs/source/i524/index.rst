@@ -155,18 +155,32 @@ For the 100% online students see the office hours.
 Online Meetings
 ---------------
 
-Meeting times for the online class will be determined through piazza
-and or a survey. We will announce the online course meetings and
-office hours in the first week of class. Our first meeting times are
-posted at:
+All times are in Easter Standart Time.
 
-* https://piazza.com/class/ix39m27czn5uw?cid=11
++-----------------+------------------------------------+
+| **Day of Week** | **Meetings**                       |
++-----------------+------------------------------------+
+| Monday          | | 8-9am Office Hours               |
+|                 | | 9:30-10:45am Residential Lecture |
+|                 | | 6-7pm Office Hours               |
++-----------------+------------------------------------+
+| Tuesday         | | 1-2pm Office Hours               |
+|                 | | 4-5pm Office Hours               |
++-----------------+------------------------------------+
+| Wednesday       | 6-7pm Office Hours                 |
++-----------------+------------------------------------+
+| Thursday        | 6-7pm Office Hours (Gregor)        |
++-----------------+------------------------------------+
+| Friday	  | 4-5pm Office Hours                 |
++-----------------+------------------------------------+
+| Saturday        | 8-9pm Off Hours                    |
++-----------------+------------------------------------+
+| Sunday	  | | 9-10am Office Hours              |
+|                 | | 8-9pm Office Hours               |
++-----------------+------------------------------------+
 
-In order to select hours for the online class please follow the following doodle link and mark your preferences before 16th of January.
-	*https://doodle.com/poll/syd4cimyf2qb8mh9
-
-
-
+A doodle was used and all students that answered the doodle have times
+that they specified. We covered students possible times 100%. 
 
     * **PC, Mac, Linux, iOS or Android:**
         * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
