@@ -1486,35 +1486,100 @@
 				
   <div class="section" id="paper-1-homework">
 <span id="paper1-hw"></span><h1>Paper 1 Homework<a class="headerlink" href="#paper-1-homework" title="Permalink to this headline">¶</a></h1>
-<p>In this homework you will write a short paper on one of the technologies that was assigned to you in the <a class="reference internal" href="technologies.html#techs-exercise"><span class="std std-ref">TechList homework</span></a>. In the process, you will learn how to write a basic <a class="reference external" href="https://www.latex-project.org/">LaTeX</a> document. LaTeX is a document typestting environment used for writing scientific papers in many fields, and it is what we will use to write all papers in the class. Even if you are not planning to work in academia, LaTeX is a very powerful tool and can be useful for typesetting other types of documents, such as magazine articles, CVs, resumes, books and so on.</p>
+<p>In this homework you will write a short paper on one of the
+technologies that was assigned to you in the <a class="reference internal" href="technologies.html#techs-exercise"><span class="std std-ref">TechList homework</span></a>. In the process, you will learn how to write a basic
+<a class="reference external" href="https://www.latex-project.org/">LaTeX</a> document. LaTeX is a
+document typestting environment used for writing scientific papers in
+many fields, and it is what we will use to write all papers in the
+class. Even if you are not planning to work in academia, LaTeX is a
+very powerful tool and can be useful for typesetting other types of
+documents, such as magazine articles, CVs, resumes, books and so on.</p>
 <p>To complete the homework you will need to do the following.</p>
 <ol class="arabic simple">
-<li>Pick a technology you&#8217;re interested in from the ones assigned to you. You can check your assignments in <a class="reference external" href="https://piazza.com/class/ix39m27czn5uw?cid=31">this Piazza thread</a> (and if you don&#8217;t remember it, <a class="reference external" href="https://piazza.com/class/ix39m27czn5uw?cid=33">find your HID in this thread</a>).</li>
-<li>Decide on a LaTeX implementation you will use. Depending on the environment you want to work in (Windows, OSX, Linux, online) you will use a different LaTeX implementation. You can find more information about existing implementations here: <a class="reference external" href="https://www.latex-project.org/get/">https://www.latex-project.org/get/</a>. There is more information about using a LaTeX implementation below.</li>
-<li>Fork the homework repostiory at <a class="reference external" href="https://github.com/cloudmesh/sp17-i524">https://github.com/cloudmesh/sp17-i524</a>. The forking process is exactly the same as the one described in the video for the Techlist homework and in the class website <a class="reference external" href="https://github.com/cloudmesh/classes/blob/master/README.rst">README</a>: You will need to clone your fork, add the upstream remote, and make sure you keep your fork synchronized with the upstream.</li>
-<li>Follow the instructions in the homework repository&#8217;s README file: <a class="reference external" href="https://github.com/cloudmesh/sp17-i524/blob/master/README.md">https://github.com/cloudmesh/sp17-i524/blob/master/README.md</a>: You will need to create a folder named after your HID in the <cite>paper1</cite> folder of the repository and copy the provided paper template there.</li>
+<li>Pick a technology you&#8217;re interested in from the ones assigned to
+you. You can check your assignments in <a class="reference external" href="https://piazza.com/class/ix39m27czn5uw?cid=31">this Piazza thread</a> (and if you don&#8217;t
+remember it, <a class="reference external" href="https://piazza.com/class/ix39m27czn5uw?cid=33">find your HID in this thread</a>).</li>
+<li>Decide on a LaTeX implementation you will use. Depending on the
+environment you want to work in (Windows, OSX, Linux, online) you
+will use a different LaTeX implementation. You can find more
+information about existing implementations here:
+<a class="reference external" href="https://www.latex-project.org/get/">https://www.latex-project.org/get/</a>. We discuss the choice of LaTeX
+environment a little more below.</li>
+<li>Fork the homework repostiory, which can be found at
+<a class="reference external" href="https://github.com/cloudmesh/sp17-i524">https://github.com/cloudmesh/sp17-i524</a>. The forking process is the
+same as the one described in the video for the TechList homework
+and in the <a class="reference external" href="https://github.com/cloudmesh/classes">README in the class repo</a>: You will need to clone
+your fork, add the upstream remote, and make sure you keep your
+fork synchronized with the upstream.</li>
+<li>Follow the <a class="reference external" href="https://github.com/cloudmesh/sp17-i524/tree/master/paper_template">instructions on using the paper template</a>:
+You will need to create a folder named after your HID in the
+<em>paper1</em> folder of the repository and copy the provided paper
+template there.</li>
 <li>Write your paper committing changes as you write.</li>
 <li>Push the final version of your paper to your fork.</li>
-<li>Generate a pull request to merge your submission in the upstream like you did in the first assignment.</li>
+<li>Generate a pull request to merge your submission in the upstream
+like you did in the first assignment.</li>
 </ol>
-<div class="section" id="choosing-a-latex-implementation">
-<h2>Choosing a LaTeX Implementation<a class="headerlink" href="#choosing-a-latex-implementation" title="Permalink to this headline">¶</a></h2>
-<p>You will either want to choose a LaTeX implementation for your OS, or one available online. The advantage of installing a LaTeX environment on your system is that you will be able to use the <cite>Makefile</cite> provided with the paper template to easily compileyour LaTeX document. In an online LaTeX environment, you will need to copy the files from the template to it, and use whatever mechanism the environment provides for compiling.</p>
-<p>A locally installed LaTeX environment also gives you more control to install packages. This is a more advanced usecase, but it is something to keep in mind, if you plan to use LaTeX beyond this class.</p>
-<p>We can recommend and support TeXLive for Linux, MacTeX for OSX, MikTeX for Windows and ShareLaTeX online.</p>
+<div class="section" id="choosing-a-latex-environment">
+<h2>Choosing a LaTeX Environment<a class="headerlink" href="#choosing-a-latex-environment" title="Permalink to this headline">¶</a></h2>
+<p>You will either want to choose a LaTeX implementation for your OS, or
+one available online. The advantage of installing a LaTeX environment
+on your system is that you will be able to use the <em>Makefile</em> provided
+with the paper template to easily compile your LaTeX document. In an
+online LaTeX environment, you will need to copy the files from the
+template to it, and use whatever mechanism the environment provides
+for compiling.</p>
+<p>A locally installed LaTeX environment also gives you more control to
+install packages. This is a more advanced use case, but it is
+something to keep in mind, if you plan to use LaTeX beyond this class.</p>
+<p>We can recommend and support <a class="reference external" href="http://www.tug.org/texlive">TeXLive</a>
+for Linux, <a class="reference external" href="http://www.tug.org/mactex/">MacTeX</a> for OSX, <a class="reference external" href="http://www.tug.org/texlive">TexLive</a> for Windows and <a class="reference external" href="https://www.sharelatex.com/">ShareLaTeX</a> online.</p>
 </div>
-<div class="section" id="paper-content">
-<h2>Paper Content<a class="headerlink" href="#paper-content" title="Permalink to this headline">¶</a></h2>
-<p>For the actual content of the paper, you need to write a two page overview of one of the technologies assigned to you in the TechList assignment. Your intended audience should be someone who might not have specific technical background in the area of the technology, but whose problem domain might benefit from it. Thus, the paper should provide context about the technology such as:</p>
+<div class="section" id="writing-the-paper">
+<h2>Writing the Paper<a class="headerlink" href="#writing-the-paper" title="Permalink to this headline">¶</a></h2>
+<p>For the actual content of the paper, you need to write a two page
+overview of one of the technologies assigned to you in the TechList
+assignment. Your intended audience should be someone who might not
+have specific technical background in the area of the technology, but
+who is a rigorous thinker and whose problem domain might benefit from
+it. Thus, the paper should provide context about the technology such
+as:</p>
 <ul class="simple">
 <li>What kind of problems has it been applied to successfully?</li>
 <li>What kind of infrastructure it needs?</li>
-<li>What are alternatives and how does the technology compare to them in terms of features, support, etc.</li>
+<li>What are alternatives and how does the technology compare to them in
+terms of features, support, performance, etc.</li>
 </ul>
+<div class="section" id="document-structure">
+<h3>Document Structure<a class="headerlink" href="#document-structure" title="Permalink to this headline">¶</a></h3>
+<p>Your paper should have an introduction and a conclusion, and use
+sections in the middle portion as needed to be easy to understand.</p>
+</div>
+<div class="section" id="writing-style">
+<h3>Writing Style<a class="headerlink" href="#writing-style" title="Permalink to this headline">¶</a></h3>
+<p>Treat this as a scientific paper, so you should aim to inform and give
+a well-rounded overview of the subject matter. Do not use superlatives
+or adjectives that are more appropriate for an advertisment, such as
+<em>very</em>, <em>best</em>, <em>cutting-edge</em>, etc.</p>
+<p>In addition, non-trivial statements of fact or quantitative statements
+should be supported by other parts of your paper or by citations. For
+example, if you are asserting that tech A has more features than tech
+B, you can support this by including a table of features that you
+create or citing a paper that compared these technologies.</p>
+<p>For your citations, use the original source of a finding whenever
+possible. That is, if paper A states something and cites paper B as a
+source, and paper B cites paper C for the same claim, you need to look
+at paper C to make sure the claim is accurate and cite that paper.</p>
+</div>
 </div>
 <div class="section" id="submission">
 <h2>Submission<a class="headerlink" href="#submission" title="Permalink to this headline">¶</a></h2>
-<p>Submission of this assignment will be in Github as outline above. Please, start early and raise any questions about the above process on Piazza and in the oinline office hours. Depending on how students are doing and what issues they are encountering, we will provide further resources to help you be successful in this assignment.</p>
+<p>Submission of this assignment will be in Github as outlined
+above. Please, start early and raise any questions about the above
+process on Piazza and in the oinline office hours. Depending on how
+students are doing and what issues they are encountering, we will
+provide further resources to help you be successful in this
+assignment.</p>
 </div>
 </div>
 
