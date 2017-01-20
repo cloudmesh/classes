@@ -18,7 +18,7 @@ the `git config` command to initialize git for the first time you use
 it. This will ensure that you use on all resources the same Name and
 e-mail so that git history and log will show consistently your
 checkins. If you do not do this, your your checkins in git do not show
-up in a consistant fashion as a single user. This is done with the
+up in a consistent fashion as a single user. This is done with the
 following commands::
 
   $ git config --global user.name "John Doe"
