@@ -7,6 +7,10 @@ Changelog
 New
 ~~~
 
+- Add paper 1 instructions. [Dimitar Nikolov]
+
+- Releasing the videos for unit 1. [Gregor von Laszewski]
+
 - Add description about Nagios. [Gregor von Laszewski]
 
 - Add description about Nagios. [Gregor von Laszewski]
@@ -19,6 +23,13 @@ New
 - Add the surveys to the calendar. Deadline Jan 16, 9am. [Gregor von
   Laszewski]
 
+Changes
+~~~~~~~
+
+- Add office hours to calendar. [Dimitar Nikolov]
+
+- Improve description of paper-1. [Dimitar Nikolov]
+
 Fix
 ~~~
 
@@ -30,6 +41,9 @@ Fix
 
 Other
 ~~~~~
+
+- Add autoenv after introducing virtualenv within the python_intro
+  lesson, adapted from autoenv Github. [xl41]
 
 - Add Tony's bio under I524's index page. [Tony Liu]
 
