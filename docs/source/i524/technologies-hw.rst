@@ -19,6 +19,7 @@ Requirements for the TechList Homework
 	a)	owner field (for example: owner     = {TA-sp17-0001})
 	b)	howpublished field for @misc cannot have URLs 
 	(for example: howpublished = {Web Page})
+	
 
 	Before you commit your changes	remove advertisement adjectives and 
 	sentences from your description, and spellcheck. 
