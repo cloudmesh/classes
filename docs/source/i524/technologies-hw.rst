@@ -4,6 +4,9 @@ Requirements for the TechList Homework
 =================================
 
 1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
+
+FIXME ---
+
 2. Go to https://cloudmesh.github.io/classes/ and click on “Fork me on GitHub” 
    to create a fork into your local repo
    
@@ -32,6 +35,43 @@ Requirements for the TechList Homework
 6.	Compile and commit if correct.  
   
 7.	Finally, create a pull request (check if no new content conflict with yours)
+=======
+
+2. Create a fork into your local repo
+
+    Go to https://cloudmesh.github.io/classes/ and click on “Fork me on GitHub” 
+    to create a fork into your local repo
+   
+3. Make sure you start your commit summary with your "new:usr: ...." only this
+   way you get credit for he assignment. Make sure your references have
+   an owner filed. make sure you do not put urls in howpublished for a MISC
+
+   ... is a meaningful summary of what you did
+
+   Every reference is required to have an owner field (for example: owner     = {TA-sp17-0001})
+
+   In case your entry is MISC the howpublished field refers to the
+   method on how it is published. A url is not allowed ( for example
+   howpublished = {Web Page})
+   
+4. Make sure to remove advertisement adjectives and sentences
+
+5. Make sure you spellcheck
+
+6. Make sure you rebase or pull before you commit
+
+7. Change the description in technology.rst
+
+8. Add the reference in refs.bib  
+
+9. compile
+
+10. review compile
+
+11. commit if correct
+    
+12.  create a pull request (check if no new content conflict with yours)
+ENDFIXME ---
 
 Tips
 ----
@@ -39,6 +79,7 @@ Tips
 1. Why do I not see that my changes are published on the Web page?
 
    Changes will take time to be reviewed and integrated into the Web
+
    page. Changes will be done in two steps. First, they will be merged
    into the branch I524. Later, your changes will be merged into the
    master branch. You will see your changes in the master branch.
@@ -49,6 +90,7 @@ Tips
    pull request.
    When your changes were approved and merged with the master branch, 
    your pull request will disappear.
+
 
 Learning outcomes
 -----------------
