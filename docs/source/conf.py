@@ -261,8 +261,13 @@ elif theme_bootstrap:
              "https://piazza.com/class/ix39m27czn5uw",
              True),
         ("i524",
-             "https://cloudmesh.github.io/classes/i524/index.html",
-             True)
+             "/classes/i524/index.html",
+             True),
+        ("Fork",
+             "https://github.com/cloudmesh/classes",
+             True),        
+
+
     ],
 
     # Render the next and previous page links in navbar. (Default: true)
@@ -289,8 +294,8 @@ elif theme_bootstrap:
 
     # HTML navbar class (Default: "navbar") to attach to <div> element.
     # For black navbar, do "navbar navbar-inverse"
-    # 'navbar_class': "navbar navbar-inverse",
-    'navbar_class': "navbar",    
+    'navbar_class': "navbar navbar-inverse",
+    # 'navbar_class': "navbar",    
 
     # Fix navigation bar to top of page?
     # Values: "true" (default) or "false"
@@ -304,7 +309,8 @@ elif theme_bootstrap:
     #
     # Options are nothing (default) or the name of a valid theme
     # such as "amelia" or "cosmo".
-    'bootswatch_theme': "cosmo",
+    # 'bootswatch_theme': "cosmo",
+    'bootswatch_theme': "cerulean",
 
     # Choose Bootstrap version.
     # Values: "3" (default) or "2" (in quotes)
