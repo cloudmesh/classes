@@ -6,9 +6,12 @@ Details for the TechList Homework
 1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
 2. Create a fork into your local repo
+
+    Go to https://cloudmesh.github.io/classes/ and click on “Fork me on GitHub” 
+    to create a fork into your local repo
    
 3. Make sure you start your commit summary with your "new:usr: ...." only this
-   way you get credit for he assignment. Make sure your refernces have
+   way you get credit for he assignment. Make sure your references have
    an owner filed. make sure you do not put urls in howpublished for a MISC
 
    ... is a meaningful summary of what you did
@@ -43,7 +46,7 @@ Tips
 1. Why do I not see that my changes are published on the Web page?
 
    Changes will take time to be reviewed and integrated into the Web
-   page. Changes will be done in two steps. Firts they will be merged
+   page. Changes will be done in two steps. First they will be merged
    into the branch I524, after some time they will be merged into the
    master branch. Only after they are in the master branch they will
    be visible. 
@@ -52,7 +55,7 @@ Tips
 
    Take a look at https://github.com/cloudmesh/classes/pulls
    If your changes are already integrated you are fine, if they are
-   not, you shoudl see your pull request in the given link
+   not, you should see your pull request in the given link
 
 Learning outcomes
 -----------------
@@ -67,14 +70,14 @@ Learning outcomes
    we will use the class Web page to demonstrate how this can be
    achieved with forks and pull requests. The TAs are responsible fo
    communication tou you how to do this and are also organizing the
-   merge of your pull riquests into the Master Web page.
+   merge of your pull requests into the Master Web page.
 
 2. As you look over the list you get familiar with technologies of
    interest.
 
-3. You will learn how not to plaguarize
+3. You will learn how not to plagiarize
 
-4. You will learn how to create proper refernces for Web-pages while
+4. You will learn how to create proper references for Web-pages while
    using academic bibliography management tools.
    
 
