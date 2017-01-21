@@ -16,8 +16,9 @@ Requirements for the TechList Homework
 	- To add your references, go to  /docs/source/refs.bib
 	
 	IMPORTANT: Every reference is required to have:
-	a)	Owner field (for example: owner     = {TA-sp17-0001})
-	b)	do not mut urls in howpublished for a MISC (???)
+	a)	owner field (for example: owner     = {TA-sp17-0001})
+	b)	howpublished field for @misc cannot have URLs 
+	(for example: howpublished = {Web Page})
 
 	Before you commit your changes	remove advertisement adjectives and 
 	sentences from your description, and spellcheck. 
