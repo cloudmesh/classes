@@ -9,8 +9,16 @@ Details for the TechList Homework
    
 3. Make sure you start your commit summary with your "new:usr: ...." only this
    way you get credit for he assignment. Make sure your refernces have
-   an owner filed. make sure you do not mut urls in howpublished for a MISC
+   an owner filed. make sure you do not put urls in howpublished for a MISC
 
+   ... is a meaningful summary of what you did
+
+   Every reference is required to have an owner field (for example: owner     = {TA-sp17-0001})
+
+   In case your entry is MISC the howpublished field refers to the
+   method on how it is published. A url is not allowed ( for example
+   howpublished = {Web Page})
+   
 4. Make sure to remove advertisement adjectives and sentences
 
 5. Make sure you spellcheck
