@@ -16,11 +16,11 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 
-	<title>Details for the TechList Homework | Big Data Classes</title>
+	<title>Requirements for the TechList Homework | Big Data Classes</title>
 	
 	
 	
-	<meta property="og:title" content="Details for the TechList Homework | Big Data Classes" />
+	<meta property="og:title" content="Requirements for the TechList Homework | Big Data Classes" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="/i524/technologies-hw.html" />
 	<meta property="og:image" content="/_static/path/to/your/opengraph-image.jpg" />
@@ -1485,74 +1485,99 @@
 			
 			<div id="content" class="large-9 push-3 columns">
 				
-  <div class="section" id="details-for-the-techlist-homework">
-<span id="techlist-tips"></span><h1>Details for the TechList Homework<a class="headerlink" href="#details-for-the-techlist-homework" title="Permalink to this headline">¶</a></h1>
-<ol class="arabic">
-<li><p class="first">Watch the video at <a class="reference external" href="https://www.youtube.com/watch?v=roi7vezNmfo">https://www.youtube.com/watch?v=roi7vezNmfo</a></p>
+  <div class="section" id="requirements-for-the-techlist-homework">
+<span id="techlist-tips"></span><h1>Requirements for the TechList Homework<a class="headerlink" href="#requirements-for-the-techlist-homework" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li>Watch the video at <a class="reference external" href="https://www.youtube.com/watch?v=roi7vezNmfo">https://www.youtube.com/watch?v=roi7vezNmfo</a></li>
+</ol>
+<p>FIXME &#8212;</p>
+<ol class="arabic" start="2">
+<li><p class="first">Create a fork into your local repo: e.g. Go to
+<a class="reference external" href="https://cloudmesh.github.io/classes/">https://cloudmesh.github.io/classes/</a> and click on “Fork me on
+GitHub” to create a fork into your local repo</p>
 </li>
-<li><p class="first">Create a fork into your local repo</p>
+<li><p class="first">Go to your GitHub account and open the forked repository.</p>
 <blockquote>
-<div><p>Go to <a class="reference external" href="https://cloudmesh.github.io/classes/">https://cloudmesh.github.io/classes/</a> and click on “Fork me on GitHub”
-to create a fork into your local repo</p>
+<div><p>Click on “Clone or download” and “Open in Desktop” to download the file
+directory on your local machine. Alternatively, you can find the files
+in the browser, click on the pencil sign to “Edit this File”.
+You will update two files:</p>
+<ol class="arabic simple">
+<li>add the paragraph about the technologies, go to classes/docs/source/i524/technologies.rst</li>
+<li>your references, go to  /docs/source/refs.bib</li>
+</ol>
+<p>For the descriptions remove advertisement adjectives and
+sentences from your description, and spellcheck.</p>
+<p>For refrences it is important that every reference is required
+to have owner field. For example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">owner</span> <span class="o">=</span> <span class="p">{</span><span class="n">TA</span><span class="o">-</span><span class="n">sp17</span><span class="o">-</span><span class="mi">0001</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>In case your entry is MISC the howpublished field refers to the
+method on how it is published. A urls are posted in its own
+field. For example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">howpublished</span> <span class="o">=</span> <span class="p">{</span><span class="n">Web</span> <span class="n">Page</span><span class="p">}</span>
+<span class="n">url</span> <span class="o">=</span> <span class="p">{</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">google</span><span class="o">.</span><span class="n">com</span><span class="p">}</span>
+</pre></div>
+</div>
 </div></blockquote>
 </li>
-<li><p class="first">Make sure you start your commit summary with your &#8220;new:usr: ....&#8221; only this
-way you get credit for he assignment. Make sure your references have
-an owner filed. make sure you do not put urls in howpublished for a MISC</p>
-<p>... is a meaningful summary of what you did</p>
-<p>Every reference is required to have an owner field (for example: owner     = {TA-sp17-0001})</p>
-<p>In case your entry is MISC the howpublished field refers to the
-method on how it is published. A url is not allowed ( for example
-howpublished = {Web Page})</p>
+<li><p class="first">Do rebase or pull.</p>
 </li>
-<li><p class="first">Make sure to remove advertisement adjectives and sentences</p>
+<li><p class="first">IMPORTANT: Write your commit summary with your:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>  <span class="n">new</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Meaningful</span> <span class="n">summary</span> <span class="n">of</span> <span class="n">what</span> <span class="n">you</span> <span class="n">did</span>
+
+<span class="n">to</span> <span class="n">get</span> <span class="n">credit</span> <span class="k">for</span> <span class="n">the</span> <span class="n">assignment</span><span class="o">.</span>  <span class="n">For</span> <span class="n">example</span><span class="p">::</span>
+
+         <span class="n">new</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Added</span> <span class="n">entry</span> <span class="k">for</span> <span class="n">Nagios</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">technology</span> <span class="nb">list</span>
+
+<span class="ow">or</span><span class="p">::</span>
+
+         <span class="n">chg</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Changed</span> <span class="n">entry</span> <span class="k">for</span> <span class="n">Nagios</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">technology</span> <span class="nb">list</span>
+
+<span class="k">if</span> <span class="n">you</span> <span class="n">chaged</span> <span class="n">it</span><span class="o">.</span>
+</pre></div>
+</div>
 </li>
-<li><p class="first">Make sure you spellcheck</p>
+<li><p class="first">Compile and commit if correct.</p>
 </li>
-<li><p class="first">Make sure you rebase or pull before you commit</p>
+<li><p class="first">Review the changed files to make sure you only cahnge the two
+files. If you have other changes create separate pull requests for
+them.</p>
 </li>
-<li><p class="first">Change the description in technology.rst</p>
-</li>
-<li><p class="first">Add the reference in refs.bib</p>
-</li>
-<li><p class="first">compile</p>
-</li>
-<li><p class="first">review compile</p>
-</li>
-<li><p class="first">commit if correct</p>
-</li>
-<li><p class="first">create a pull request (check if no new content conflict with yours)</p>
-</li>
+</ol>
+<ol class="arabic simple" start="7">
+<li>Finally, create a pull request (check if no new content conflict with yours)</li>
 </ol>
 <div class="section" id="tips">
 <h2>Tips<a class="headerlink" href="#tips" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Why do I not see that my changes are published on the Web page?</p>
-<p>Changes will take time to be reviewed and integrated into the Web
-page. Changes will be done in two steps. First they will be merged
-into the branch I524, after some time they will be merged into the
-master branch. Only after they are in the master branch they will
-be visible.</p>
+<p>Changes will take time to be reviewed and integrated into the Web</p>
+<p>page. Changes will be done in two steps. First, they will be merged
+into the branch I524. Later, your changes will be merged into the
+master branch. You will see your changes in the master branch.</p>
 </li>
 <li><p class="first">How do I know if I did it right?</p>
-<p>Take a look at <a class="reference external" href="https://github.com/cloudmesh/classes/pulls">https://github.com/cloudmesh/classes/pulls</a>
-If your changes are already integrated you are fine, if they are
-not, you should see your pull request in the given link</p>
+<p>Check the <a class="reference external" href="https://github.com/cloudmesh/classes/pulls">https://github.com/cloudmesh/classes/pulls</a> to see your
+pull request.
+When your changes were approved and merged with the master branch,
+your pull request will disappear.</p>
 </li>
 </ol>
 </div>
 <div class="section" id="learning-outcomes">
 <h2>Learning outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">CANVAS is not a tool used in opensource development and
+<li><p class="first">CANVAS is not a tool used in open source development and
 industry. It has limitations in scalability and in structuring
 effective communication with large numbers of
 students/collaborators.</p>
 <p>Instead we use industry accepted github for homework submission. To
 showcase one way of collaborating with more than 70 collaborators
 we will use the class Web page to demonstrate how this can be
-achieved with forks and pull requests. The TAs are responsible fo
-communication tou you how to do this and are also organizing the
+achieved with forks and pull requests. The TAs are responsible for
+communication to you how to do this and are also organizing the
 merge of your pull requests into the Master Web page.</p>
 </li>
 <li><p class="first">As you look over the list you get familiar with technologies of
