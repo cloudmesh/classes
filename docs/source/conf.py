@@ -6,7 +6,7 @@
 import os
 import sys
 
-theme_foundation = True
+theme_foundation = False
 theme_bootstrap  = not theme_foundation
 
 if theme_foundation:
@@ -72,8 +72,8 @@ master_doc = 'index'
 project = u'Classes'
 copyright = u'2016, Gregor von Laszewski'
 author = u'Gregor von Laszewski'
-version = u'0.1'
-release = u'0.1'
+version = u''
+release = u''
 language = None
 todo_include_todos = True
 
@@ -241,7 +241,7 @@ elif theme_bootstrap:
     html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
     html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "BD Classes",
+    'navbar_title': "Classes",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Site",
@@ -254,11 +254,19 @@ elif theme_bootstrap:
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("Piazza", "https://piazza.com/class/ix39m27czn5uw", True),
+        ("Home",
+             "https://cloudmesh.github.io/classes/",
+             True),        
+        ("Piazza",
+             "https://piazza.com/class/ix39m27czn5uw",
+             True),
+        ("i524",
+             "https://cloudmesh.github.io/classes/i524/index.html",
+             True)
     ],
 
     # Render the next and previous page links in navbar. (Default: true)
-    'navbar_sidebarrel': True,
+    'navbar_sidebarrel': False,
 
     # Render the current pages TOC in the navbar. (Default: true)
     'navbar_pagenav': True,
@@ -281,7 +289,8 @@ elif theme_bootstrap:
 
     # HTML navbar class (Default: "navbar") to attach to <div> element.
     # For black navbar, do "navbar navbar-inverse"
-    'navbar_class': "navbar navbar-inverse",
+    # 'navbar_class': "navbar navbar-inverse",
+    'navbar_class': "navbar",    
 
     # Fix navigation bar to top of page?
     # Values: "true" (default) or "false"
@@ -363,11 +372,11 @@ html_sidebars = { '**': ['globaltoc.html',
 
 # If true, links to the reST sources are added to the pages.
 #
-# html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #
-# html_show_sphinx = True
+html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #
