@@ -9,3 +9,5 @@ build
 *.fls
 *.blg
 *.log
+*.aux
+*.out
