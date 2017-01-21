@@ -341,7 +341,7 @@ NoSQL
 	expansion with no data rebalancing. When Voldemort  performance was 
 	benchmarked with the other key-value databases such as Cassandra, 
 	Redis and HBase as well as MySQL relational database 
-	(:cite:`rabl_sadoghi_jacobsen_2012`),the Voldemart's throughput 
+	(:cite:`rabl_sadoghi_jacobsen_2012`), the Voldemart's throughput 
 	was twice lower than MySQL and Cassandra and six times higher than 
 	HBase. Voldemort was slightly underperforming in comparison with Redis. 
 	At the same time, it demonstrated consistent linear performance in 
