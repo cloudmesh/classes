@@ -7,7 +7,7 @@ In this homework you will write a short paper on one of the
 technologies that was assigned to you in the :ref:`TechList homework
 <techs-exercise>`. In the process, you will learn how to write a basic
 `LaTeX <https://www.latex-project.org/>`_ document. LaTeX is a
-document typestting environment used for writing scientific papers in
+document type setting environment used for writing scientific papers in
 many fields, and it is what we will use to write all papers in the
 class. Even if you are not planning to work in academia, LaTeX is a
 very powerful tool and can be useful for typesetting other types of
@@ -28,7 +28,7 @@ To complete the homework you will need to do the following.
    https://www.latex-project.org/get/. We discuss the choice of LaTeX
    environment a little more below.
 
-3. Fork the homework repostiory, which can be found at
+3. Fork the homework repository, which can be found at
    https://github.com/cloudmesh/sp17-i524. The forking process is the
    same as the one described in the video for the TechList homework
    and in the `README in the class repo
@@ -79,11 +79,21 @@ who is a rigorous thinker and whose problem domain might benefit from
 it. Thus, the paper should provide context about the technology such
 as:
 
+* Summarize the technology briefly
 * What kind of problems has it been applied to successfully?
-* What kind of infrastructure it needs?
+* What kind of infrastructure does it need?
+* How does this technology relate to big data?
+* What major big data projects have used this technology?
+* If I were to be new to the technology, what resources exist to learn
+  about it?
+* What is the status and popularity of the tool?  Provide evidence, do
+  not copy *advertisement* terms from the project..
+* What other things are important that you came across? 
 * What are alternatives and how does the technology compare to them in
   terms of features, support, performance, etc.
-
+* Make sure you have sufficient references (You need at least one, but
+  as you may point to projects using the technology and learning
+  material you probably have more, determine the most important once).
 
 Document Structure
 ^^^^^^^^^^^^^^^^^^
@@ -94,7 +104,7 @@ Writing Style
 ^^^^^^^^^^^^
 Treat this as a scientific paper, so you should aim to inform and give
 a well-rounded overview of the subject matter. Do not use superlatives
-or adjectives that are more appropriate for an advertisment, such as
+or adjectives that are more appropriate for an advertisement, such as
 *very*, *best*, *cutting-edge*, etc.
 
 In addition, non-trivial statements of fact or quantitative statements
@@ -113,7 +123,7 @@ Submission
 ----------
 Submission of this assignment will be in Github as outlined
 above. Please, start early and raise any questions about the above
-process on Piazza and in the oinline office hours. Depending on how
+process on Piazza and in the online office hours. Depending on how
 students are doing and what issues they are encountering, we will
 provide further resources to help you be successful in this
 assignment.
