@@ -184,7 +184,7 @@ that they specified. We covered students possible times 100%.
 
     * **PC, Mac, Linux, iOS or Android:**
         * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
-        * Password: To be posted in CANVAS
+        * Password: 523
     * **Telephone**:
         * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
         * Meeting ID: 534 178 131 
