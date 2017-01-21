@@ -340,12 +340,13 @@ NoSQL
 	memory caching allows for faster operations. It allows cluster 
 	expansion with no data rebalancing. When Voldemort  performance was 
 	benchmarked with the other key-value databases such as Cassandra, 
-	Redis and HBase as well as MySQL relational database (:cite:`rabl_sadoghi_jacobsen_2012`),
-	the Voldemart's throughput was twice lower than MySQL and Cassandra 
-	and six times higher than HBase. Voldemort was slightly underperforming 
-	in comparison with Redis. At the same time, it demonstrated consistent 
-	linear performance in maximum throughput that supports high 
-	scalability. The read latency for Voldemort was fairly consistent 
+	Redis and HBase as well as MySQL relational database 
+	(:cite:`rabl_sadoghi_jacobsen_2012`),the Voldemart's throughput 
+	was twice lower than MySQL and Cassandra and six times higher than 
+	HBase. Voldemort was slightly underperforming in comparison with Redis. 
+	At the same time, it demonstrated consistent linear performance in 
+	maximum throughput that supports high scalability.
+	The read latency for Voldemort was fairly consistent 
 	and only slightly underperformed Redis. Similar tendency was observed 
 	with the read latency that puts Voldermort in the cluster of databases
 	that require good read-write speed for workload operations. However, 
