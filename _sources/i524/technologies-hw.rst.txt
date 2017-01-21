@@ -5,8 +5,6 @@ Requirements for the TechList Homework
 
 1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
-FIXME ---
-
 2. Create a fork into your local repo: e.g. Go to
    https://cloudmesh.github.io/classes/ and click on “Fork me on
    GitHub” to create a fork into your local repo
@@ -37,30 +35,31 @@ FIXME ---
 	  url = {http://www.google.com}
 	  
 	
-4.	Do rebase or pull. 
+4. Do rebase or pull. 
 
-5.  IMPORTANT: Write your commit summary with your::
+5. To get credit for the assignment write your commit summary with your::
 
        new:usr: Meaningful summary of what you did
 
-     to get credit for the assignment.  For example::
+   For example for new contributions::
 
-              new:usr: Added entry for Nagios in the technology list
+          new:usr: Added entry for Nagios in the technology list
 
-     or::  	      
+   For example for changes contributions::
 
-              chg:usr: Changed entry for Nagios in the technology list
+           chg:usr: Changed the entire paraagraph for Nagios in the technology list
 
-     if you chaged it.
+   For example for fixed contributions::
+
+           fix:usr: Changed spelling for Nagios in the technology list
 	
-	
-6.	Compile and commit if correct.
+6. Compile and commit if correct.
 
-7.  Review the changed files to make sure you only cahnge the two
+7. Review the changed files to make sure you only change the two
     files. If you have other changes create separate pull requests for
     them.
   
-7.	Finally, create a pull request (check if no new content conflict with yours)
+8. Finally, create a pull request (check if no new content conflict with yours)
 
 
 Tips
