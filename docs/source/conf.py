@@ -261,7 +261,10 @@ elif theme_bootstrap:
              "https://piazza.com/class/ix39m27czn5uw",
              True),
         ("i524",
-             "/classes/i524/index.html",
+             "i524/index.html",
+             True),
+        ("Lessons",
+             "lesson/index.html",
              True),
         ("Fork",
              "https://github.com/cloudmesh/classes",
@@ -353,8 +356,6 @@ html_static_path = ['_static']
 # html_sidebars = {}
 html_sidebars = { '**': ['globaltoc.html',
                          'localtoc.html',
-                         'relations.html',
-                         'sourcelink.html',
                          'searchbox.html'], }
 
 
