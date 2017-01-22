@@ -23,7 +23,21 @@ Workflow-Orchestration
 4. Pegasus 
 5. Kepler 
 6. Swift  
-7. Taverna  
+7. Taverna
+    Taverna is workflow management system. According to :cite:`www-taverna`,
+    Taverna is transitioning to Apache Incubator as of Jan 2017.
+    Taverna suite includes 2 products -
+
+    1. Taverna Workbench is desktop client where user can define the workflow.
+    2. Taverna Server is responsible for executing the remote workflows.
+
+    Taverna workflows can also be executed on command-line.
+    Taverna supports wide range of services including WSDL-style and RESTful
+    Web Services, BioMart, SoapLab, R, and Excel. Taverna also support
+    mechanism to monitor the running workflows using its web browser interface.
+    In his :cite:`taverna-paper` paper, Daniele Turi presented the formal
+    syntax and operational semantics of Taverna.
+
 8. Triana 
 9. Trident 
 10. BioKepler 
@@ -302,6 +316,24 @@ SQL(NewSQL)
 198. Oracle
 199. DB2
 200. SQL Server
+
+    SQL Server :cite:`www-sqlserver-wiki` is a relational database management system
+    from Microsoft. As of Jan 2017, SQL Server is available in below editions
+
+    1. Standard - consists of core database engine
+    2. Web - low cost edition for web hosting
+    3. Business Intelligence - includes standard edition and business
+        intelligence tools like PowerPivot, PowerBI, Master Data Services
+    4. Enterprise - consists of core database engine and enterprise services
+        like cluster manager
+    5. SQL Server Azure - :cite:`www-azuresql` core database engine
+        integrated with Microsoft Azure cloud platform and available in
+        platform-as-a-service mode.
+
+    Ross Mistry and Stacia Misner in :cite:`book-sqlserver` explain the
+    technical architecture of SQL Server in OLTP(online transaction processing),
+    hybrid cloud and business intelligence modes.
+
 201. SQLite
 202. MySQL
 203. PostgreSQL
@@ -333,6 +365,19 @@ NoSQL
 225. Kyoto/Tokyo Cabinet
 226. Tycoon
 227. Tyrant
+
+    Tyrant provides network interfaces to the database management system called
+    Tokyo Cabinet. Tyrant is also called as Tokyo Tyrant. Tyrant is implemented in
+    C and it provides APIs for Perl, Ruby and C. Tyrant provides high performance
+    and  concurrent access to Tokyo Cabinet. In his blog :cite:`www-tyrant-blog`
+    Matt Yonkovit has explained the results of performance experiments he
+    conducted to compare Tyrant against Memcached and MySQL.
+
+    Tyrant was written and maintained by FAL Labs :cite:`www-tyrant-fal-labs`.
+    However, according to FAL Labs, their latest product :cite:`www-kyoto-tycoon`
+    Kyoto Tycoon is more powerful and convenient server than Tokyo Tyrant.
+
+
 228. MongoDB
 229. Espresso
 230. CouchDB
@@ -369,6 +414,22 @@ File management
 257. HDF
 258. OPeNDAP
 259. FITS
+
+    FITS stand for 'Flexible Image Trasnport System'. It is a standard data
+    format used in astronomy. FITS data format is endorsed by NASA and
+    International Astronomical Union. According to :cite:`www-fits-nasa`, FITS
+    can be used for transport, analysis and archival storage of scientific
+    datasets and support multi-dimensional arrays, tables and headers sections.
+    FITS is actively used and developed - according to
+    :cite:`www-news-fits-2016` newer version of FITS standard document was
+    released in July 2016. FITS can be used for digitization of contents like
+    books and magzines. :cite:`www-fits-vatican-library` used FITS for long
+    term preservation of their book, manuscripts and other collection. Matlab,
+    a language used for technical computing supports fits
+    :cite:`www-fits-matlab`. In his 2011 paper, Keith Wiley
+    :cite:`paper-fits-2011` explained how they performed processing of
+    astronomical images on Hadoop. They used FITS format for data storage.
+
 260. RCFile
 261. ORC
 262. Parquet
@@ -442,6 +503,17 @@ DevOps
 309. Docker (Machine, Swarm)
 310. Puppet
 311. Chef
+    Chef is a configuration management tool. It is implemented in Ruby and
+    Erlang. Chef can be used to configure and maintain servers on-premise as
+    well as cloud platforms like Amazon EC2, Google Cloud Platform and Open
+    Stack. In his book :cite:`chef-book` Matthias Marschall explains how user
+    can implement recipes in Chef to manage server applications and utilities
+    such as database servers like MySQL, or HTTP servers like Apache HTPP
+    and systems like Apache Hadoop.
+
+    Chef is available in open source version and it also has commercial
+    products for the companies which need it :cite:`www-chef-commercial`
+
 312. Ansible
 313. SaltStack
 314. Boto
@@ -485,6 +557,26 @@ IaaS Management from HPC to hypervisors
 348. OpenNebula
 349. Eucalyptus
 350. Nimbus
+
+    Nimbus Infrastructure :cite:`www-nimbus-wiki` is an open source IaaS
+    implementation. It allows deployment of self-configured virtual clusters
+    and it supports configuration of scheduling, networking leases, and usage
+    metering.
+
+    Nimbus Platform :cite:`www-nimbus` provides an integrated set of tools
+    which enable users to launch large virtual clusters as well as launch and
+    monitor the cloud apps. It also includes service that provides auto-scaling
+    and high availability of resources deployed over multiple IaaS cloud.
+    The Nimubs Platform tools are cloudinit.d, Phantom and Context Broker.
+    In the 2013 paper :cite:`nimbus-paper` Dmitry Duplykin and others from
+    University of Colorado, used Nimbus Phantom to deploy auto-scaling
+    solution across multiple NSF FutureGrid clouds. In this implementation
+    Phantom was responsible for deploying instances across multiple clouds and
+    monitoring those instance.
+    Nimbus platform supports Nimbus, Open Stack, Amazon and several other
+    clouds.
+
+
 351. CloudStack
 352. CoreOS
 353. rkt
