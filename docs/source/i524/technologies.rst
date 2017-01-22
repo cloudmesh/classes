@@ -67,6 +67,23 @@ Application and Analytics
 33. MLlib
 34. Mbase
 35. DataFu
+
+     Apache DataFu project was created out of the need for stable ,
+     well-tested libraries for large scale data processing in Hadoop.
+     As detailed in :cite:`www-DataFu` Apache DatFu consists of 
+     two libraries Apache DataFu Pig and Apache DataFu Hourglass.
+     Apache DataFu Pig is a collection of useful user-defined functions
+     for data analysis in Apache Pig.The functions are in areas of 
+     Statistics,Bag Operations,Set Operations,Sessions,Sampling,
+     Estimation,Hashing and Link Analysis.
+     Apache DataFu Hourglass is a library for incrementally processing
+     data using Hadoop MapReduce.It is designed to make computations over
+     sliding windows more efficient. For these types of computations, the
+     input data is partitioned in some way, usually according to time,
+     and the range of input data to process is adjusted as new data arrives.
+     Hourglass works with input data that is partitioned by day, as this is
+     a common scheme for partitioning temporal data.
+
 36. R
 37. pbdR
 38. Bioconductor
@@ -182,6 +199,22 @@ High level Programming
 119. Amazon Redshift
 120. Drill
 121. Kyoto Cabinet
+
+      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet`  is
+      a library of routines for managing a database which is a 
+      simple data file containing records.Each record in the database
+      is a pair of a key and a value.Every key and value is serial bytes
+      with variable length. Both binary data   and character string can 
+      be used as a key and a value. Each key must be unique within a database.
+      There is neither concept of data tables nor data types. Records are
+      organized in hash table or B+ tree.Kyoto Cabinet runs very fast. The 
+      elapsed time to store one million records is 0.9 seconds for 
+      hash database, and 1.1 seconds for B+ tree database. Moreover, 
+      the size of database is very small. The, overhead for 
+      a record is 16 bytes for hash database, and 4 bytes for B+ tree 
+      database. Furthermore, scalability of Kyoto Cabinet is great. 
+      The database size can be up to 8EB (9.22e18 bytes).
+
 122. Pig
 123. Sawzall
 124. Google Cloud DataFlow
@@ -271,6 +304,26 @@ In-memory databases/caches
 189. Infinispan
 190. VoltDB
 191. H-Store
+ 
+      H-Store is an in memory and parallel database management system
+      for on-line transaction processing (OLTP). Specifically ,
+      :cite:`www-Hstore` illustrates that H-Store is a highly distributed,
+      row-store-based relational database that runs on a cluster on 
+      shared-nothing, main memory executor nodes.As Noted in
+      :cite:`kallman2008` "the architectural and application shifts have
+      resulted in modern OLTP databases increasingly falling short of
+      optimal performance.In particular, the availability of multiple-cores,
+      the abundance of main memory, the lack of user stalls, and the dominant
+      use of stored procedures are factors that portend a clean-slate redesign
+      of RDBMSs".The H-store which is a complete redesign has the potential 
+      to outperform legacy OLTP databases by a significant factor.
+      As detailed in :cite:`www-Hstorewiki` H-Store is 
+      the first implementation of a new class of parallel DBMS, called NewSQL,
+      that provides the high-throughput and high-availability of NoSQL systems,
+      but without giving up the transactional guarantees of a traditional DBMS.
+      The H-Store system is able to scale out horizontally across multiple 
+      machines to improve throughput, as opposed to moving to a more powerful
+      , more expensive machine for a single-node system.
 
 Object-relational mapping
 ----------------------------------------------------------------------
@@ -409,6 +462,21 @@ Data Transport
 265. FTP
 266. SSH
 267. Globus Online (GridFTP)
+
+      GridFTP is a enhancement on the File Tranfer Protocol(FTP) which provides
+      high-performance , secure and reliable data transfer for high-bandwidth
+      wide-area networks. As noted in :cite:`www-GlobusOnline` the most widely
+      used implementation of GridFTP is Globus Online.GridFTP achieves efficient
+      use of bandwidth by using multiple simultaneous TCP streams. 
+      Files can be downloaded in pieces simultaneously from multiple sources; 
+      or even in separate parallel streams from the same source.GridFTP allows 
+      transfers to be restarted automatically and handles network unavailability
+      with a fault tolerant implementation of FTP.The underlying TCP connection
+      in FTP has numerous settings such as window size and buffer size. GridFTP 
+      allows automatic (or manual) negotiation of these settings to provide 
+      optimal transfer speeds and reliability .
+
+  
 268. Flume
 269. Sqoop
 270. Pivotal GPLOAD/GPFDIST
@@ -481,6 +549,17 @@ DevOps
 320. Foreman
 321. OpenStack Heat
 322. Sahara
+
+      The Sahara product provides users with the capability to
+      provision data processing frameworks (such as Hadoop, Spark and Storm)
+      on OpenStack :cite:`www-openStack` by specifying several parameters 
+      such as the version,cluster topology and hardware node details.As 
+      specified in :cite:`www-Sahara` the solution allows for fast
+      provisioning of data processing clusters on OpenStack for development
+      and quality assurance and utilisation of unused computer power from a
+      general purpose OpenStack Iaas Cloud.Sahara is managed via a REST API
+      with a User Interface available as part of OpenStack Dashboard.
+
 323. Rocks
 324. Cisco Intelligent Automation for Cloud
 325. Ubuntu MaaS
