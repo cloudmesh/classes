@@ -37,4 +37,9 @@ G.~von Laszewski, F.~Wang, H.~Lee, H.~Chen, and G.~C. Fox, ``{Accessing
   \url{https://cloudmesh.github.io/classes/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{www-underscore}
+\BIBentryALTinterwordspacing
+Web Page. [Online]. Available: \url{http://www.google.com/some_underscore}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
