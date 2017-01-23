@@ -31,7 +31,7 @@ Workflow-Orchestration
     1. Taverna Workbench is desktop client where user can define the workflow.
     2. Taverna Server is responsible for executing the remote workflows.
 
-    Taverna workflows can also be executed _on command-line.
+    Taverna workflows can also be executed on command-line.
     Taverna supports wide range of services including WSDL-style and RESTful
     Web Services, BioMart, SoapLab, R, and Excel. Taverna also support
     mechanism to monitor the running workflows using its web browser interface.
@@ -153,7 +153,7 @@ Application Hosting Frameworks
  receive 10 out of 100 points, e.g. an F:
   
   "Google App Engine" provides platform as a service.
-  There are major advantages from thiscp ramework.
+  There are major advantages from this framework.
 
   1. Scalable Applications
   2. Easier to maintain
