@@ -155,7 +155,13 @@ For the 100% online students see the office hours.
 Online Meetings
 ---------------
 
-All times are in Easter Standart Time.
+For the zoom information please go to
+
+https://iu.instructure.com/courses/1603897/assignments/syllabus
+
+A doodle was used and all students that answered the doodle have times
+that they specified. We covered 100% the time for the students through
+the following schedule:
 
 +-----------------+------------------------------------+
 | **Day of Week** | **Meetings**                       |
@@ -179,25 +185,9 @@ All times are in Easter Standart Time.
 |                 | | 8-9pm Office Hours               |
 +-----------------+------------------------------------+
 
-A doodle was used and all students that answered the doodle have times
-that they specified. We covered students possible times 100%. 
-
-    * **PC, Mac, Linux, iOS or Android:**
-        * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
-        * Password: 
-    * **Telephone**:
-        * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
-        * Meeting ID: 534 178 131 
-        * International numbers available:
-	  * https://IU.zoom.us/zoomconference?m=xAjpb6jx8gjnut6Q2SW5yPuC09ekuO7H 
-    * **H.323/SIP room system**:
-        * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East) 
-        * Meeting ID: 534 178 131
-        * Password: 520093
-    * **SIP:** 534178131@zoomcrc.com
-        * Password: 520093
 
 
+	  
     
 Who can take the class?
 -----------------------

@@ -4,6 +4,87 @@ Changelog
 %%version%% (unreleased)
 ------------------------
 
+- 3.0.8. [Gregor von Laszewski]
+
+- Version 3.0.8. [Gregor von Laszewski]
+
+3.0.8 (2017-01-22)
+------------------
+
+New
+~~~
+
+- Add videos to the github lesson. [Gregor von Laszewski]
+
+- Resolved merge conflicts, Added description about Chef, FITS, Nimbus,
+  SQL Server, Taverna and Tyrant. [Avadhoot Agasti]
+
+- Add description about Chef, FITS, Nimbus, SQL Server, Taverna and
+  Tyrant. [Avadhoot Agasti]
+
+- Add description about Chef, FITS, Nimbus, SQL Server, Taverna and
+  Tyrant. [Avadhoot Agasti]
+
+- Add description about Chef, FITS, Nimbus, SQL Server, Taverna and
+  Tyrant. [Avadhoot Agasti]
+
+- Add description about Chef, FITS, Nimbus, SQL Server, Taverna and
+  Tyrant. [Avadhoot Agasti]
+
+- Usr add description H-store,Kyoto Cabinet,DataFu,Sahara,GridFtp.
+  [karthick]
+
+- Add description H-store,Kyoto Cabinet,DataFu,Sahara,GridFtp.
+  [karthick]
+
+- Add sample sections for techlist 1 homework. [Gregor von Laszewski]
+
+- Integrate search. [Gregor von Laszewski]
+
+- Update zoom meeting. [Gregor von Laszewski]
+
+- Improve the tips page based on student feedback. [Gregor von
+  Laszewski]
+
+Changes
+~~~~~~~
+
+- Added some tips on how to achieve a good paper. [Gregor von Laszewski]
+
+Other
+~~~~~
+
+- Revert "new:usr: add description H-store,Kyoto
+  Cabinet,DataFu,Sahara,GridFtp" [karthick]
+
+  This reverts commit f3d5f4438311e7ef6d18e566c279d16e64bf3763.
+
+- Password was removed. [alyez]
+
+- Improved description of Requirements for the TechList Homework.
+  [alyez]
+
+- S17-IO-3025 Voldemort submission. [alyez]
+
+  re-submitting Voldemort
+
+- Corrected howpublished. [alyez]
+
+- Clarified requirements for the hw, added howpublished to misc. [alyez]
+
+- Updated password for zoom meetings. [alyez]
+
+- Voldemort TechList. [alyez]
+
+- Spelling error in rst file. [alyez]
+
+- 3.0.7. [Gregor von Laszewski]
+
+- Version 3.0.7. [Gregor von Laszewski]
+
+3.0.7 (2017-01-20)
+------------------
+
 New
 ~~~
 

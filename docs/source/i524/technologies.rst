@@ -23,7 +23,21 @@ Workflow-Orchestration
 4. Pegasus 
 5. Kepler 
 6. Swift  
-7. Taverna  
+7. Taverna
+    Taverna is workflow management system. According to :cite:`www-taverna`,
+    Taverna is transitioning to Apache Incubator as of Jan 2017.
+    Taverna suite includes 2 products -
+
+    1. Taverna Workbench is desktop client where user can define the workflow.
+    2. Taverna Server is responsible for executing the remote workflows.
+
+    Taverna workflows can also be executed on command-line.
+    Taverna supports wide range of services including WSDL-style and RESTful
+    Web Services, BioMart, SoapLab, R, and Excel. Taverna also support
+    mechanism to monitor the running workflows using its web browser interface.
+    In his :cite:`taverna-paper` paper, Daniele Turi presented the formal
+    syntax and operational semantics of Taverna.
+
 8. Triana 
 9. Trident 
 10. BioKepler 
@@ -67,6 +81,23 @@ Application and Analytics
 33. MLlib
 34. Mbase
 35. DataFu
+
+     Apache DataFu project was created out of the need for stable ,
+     well-tested libraries for large scale data processing in Hadoop.
+     As detailed in :cite:`www-DataFu` Apache DatFu consists of 
+     two libraries Apache DataFu Pig and Apache DataFu Hourglass.
+     Apache DataFu Pig is a collection of useful user-defined functions
+     for data analysis in Apache Pig.The functions are in areas of 
+     Statistics,Bag Operations,Set Operations,Sessions,Sampling,
+     Estimation,Hashing and Link Analysis.
+     Apache DataFu Hourglass is a library for incrementally processing
+     data using Hadoop MapReduce.It is designed to make computations over
+     sliding windows more efficient. For these types of computations, the
+     input data is partitioned in some way, usually according to time,
+     and the range of input data to process is adjusted as new data arrives.
+     Hourglass works with input data that is partitioned by day, as this is
+     a common scheme for partitioning temporal data.
+
 36. R
 37. pbdR
 38. Bioconductor
@@ -142,6 +173,29 @@ Application Hosting Frameworks
 84. Aerobatic
 85. AWS Elastic Beanstalk
 86. Azure
+
+    Microsoft Corporation markets its cloud products under the \emph{Azure} brand
+    name. At its most basic, Azure acts as an "infrastructure-as-a-service" (IaaS)
+    provider.  IaaS virtualizes hardware components, a key differentiation from
+    other "...-as-a-service" products.  The Wikipedia entry on IaaS notes that IaaS
+    "...abstract[s] the user from the details of infrasctructure like physical
+    computing resources, location, data partitioning, scaling, security, backup,
+    etc." \cite{www-wikipedia-cloud}
+
+    However, Azure offers a host of c+losely-related tool and products to enhance
+    and improve the core product, such as "...raw block storage,...load balancers,
+    [and] IP addresses." \cite{www-azure-msft}  For instance, Azure users can access
+    predictive analytics, Bots and Blockchain-as-a-Service \cite{www-azure-msft} as
+    well as more-basic "computing, networking, storage, database and management"
+    components \cite{www-sec-edgar-msft}.  The Azure website shows twelve major
+    categories under "Products" and twenty "Solution" categories, e.g., e-commerce
+    or Business SaaS apps.
+
+    Azure competes mainly against Amazon's \emph{Amazon Web Service}, even though a
+    IBM (\emph{SoftLayer and Bluemix}) and Google (\emph{Google Cloud Platform})
+    offer IaaS to the market.  As of January 2017, Azure's datacenters span 32
+    Microsoft-defined "regions", or 38 "declared regions", throughout the world.
+
 87. Cloud Foundry
 88. Pivotal
 89. IBM BlueMix
@@ -182,6 +236,22 @@ High level Programming
 119. Amazon Redshift
 120. Drill
 121. Kyoto Cabinet
+
+      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet`  is
+      a library of routines for managing a database which is a 
+      simple data file containing records.Each record in the database
+      is a pair of a key and a value.Every key and value is serial bytes
+      with variable length. Both binary data   and character string can 
+      be used as a key and a value. Each key must be unique within a database.
+      There is neither concept of data tables nor data types. Records are
+      organized in hash table or B+ tree.Kyoto Cabinet runs very fast. The 
+      elapsed time to store one million records is 0.9 seconds for 
+      hash database, and 1.1 seconds for B+ tree database. Moreover, 
+      the size of database is very small. The, overhead for 
+      a record is 16 bytes for hash database, and 4 bytes for B+ tree 
+      database. Furthermore, scalability of Kyoto Cabinet is great. 
+      The database size can be up to 8EB (9.22e18 bytes).
+
 122. Pig
 123. Sawzall
 124. Google Cloud DataFlow
@@ -271,6 +341,26 @@ In-memory databases/caches
 189. Infinispan
 190. VoltDB
 191. H-Store
+ 
+      H-Store is an in memory and parallel database management system
+      for on-line transaction processing (OLTP). Specifically ,
+      :cite:`www-Hstore` illustrates that H-Store is a highly distributed,
+      row-store-based relational database that runs on a cluster on 
+      shared-nothing, main memory executor nodes.As Noted in
+      :cite:`kallman2008` "the architectural and application shifts have
+      resulted in modern OLTP databases increasingly falling short of
+      optimal performance.In particular, the availability of multiple-cores,
+      the abundance of main memory, the lack of user stalls, and the dominant
+      use of stored procedures are factors that portend a clean-slate redesign
+      of RDBMSs".The H-store which is a complete redesign has the potential 
+      to outperform legacy OLTP databases by a significant factor.
+      As detailed in :cite:`www-Hstorewiki` H-Store is 
+      the first implementation of a new class of parallel DBMS, called NewSQL,
+      that provides the high-throughput and high-availability of NoSQL systems,
+      but without giving up the transactional guarantees of a traditional DBMS.
+      The H-Store system is able to scale out horizontally across multiple 
+      machines to improve throughput, as opposed to moving to a more powerful
+      , more expensive machine for a single-node system.
 
 Object-relational mapping
 ----------------------------------------------------------------------
@@ -302,6 +392,24 @@ SQL(NewSQL)
 198. Oracle
 199. DB2
 200. SQL Server
+
+    SQL Server :cite:`www-sqlserver-wiki` is a relational database management system
+    from Microsoft. As of Jan 2017, SQL Server is available in below editions
+
+    1. Standard - consists of core database engine
+    2. Web - low cost edition for web hosting
+    3. Business Intelligence - includes standard edition and business
+        intelligence tools like PowerPivot, PowerBI, Master Data Services
+    4. Enterprise - consists of core database engine and enterprise services
+        like cluster manager
+    5. SQL Server Azure - :cite:`www-azuresql` core database engine
+        integrated with Microsoft Azure cloud platform and available in
+        platform-as-a-service mode.
+
+    Ross Mistry and Stacia Misner in :cite:`book-sqlserver` explain the
+    technical architecture of SQL Server in OLTP(online transaction processing),
+    hybrid cloud and business intelligence modes.
+
 201. SQLite
 202. MySQL
 203. PostgreSQL
@@ -341,7 +449,7 @@ NoSQL
 	expansion with no data rebalancing. When Voldemort  performance was 
 	benchmarked with the other key-value databases such as Cassandra, 
 	Redis and HBase as well as MySQL relational database 
-	(:cite:`rabl_sadoghi_jacobsen_2012`),the Voldemart's throughput 
+	(:cite:`rabl_sadoghi_jacobsen_2012`), the Voldemart's throughput 
 	was twice lower than MySQL and Cassandra and six times higher than 
 	HBase. Voldemort was slightly underperforming in comparison with Redis. 
 	At the same time, it demonstrated consistent linear performance in 
@@ -361,6 +469,19 @@ NoSQL
 225. Kyoto/Tokyo Cabinet
 226. Tycoon
 227. Tyrant
+
+    Tyrant provides network interfaces to the database management system called
+    Tokyo Cabinet. Tyrant is also called as Tokyo Tyrant. Tyrant is implemented in
+    C and it provides APIs for Perl, Ruby and C. Tyrant provides high performance
+    and  concurrent access to Tokyo Cabinet. In his blog :cite:`www-tyrant-blog`
+    Matt Yonkovit has explained the results of performance experiments he
+    conducted to compare Tyrant against Memcached and MySQL.
+
+    Tyrant was written and maintained by FAL Labs :cite:`www-tyrant-fal-labs`.
+    However, according to FAL Labs, their latest product :cite:`www-kyoto-tycoon`
+    Kyoto Tycoon is more powerful and convenient server than Tokyo Tyrant.
+
+
 228. MongoDB
 229. Espresso
 230. CouchDB
@@ -397,6 +518,22 @@ File management
 257. HDF
 258. OPeNDAP
 259. FITS
+
+    FITS stand for 'Flexible Image Trasnport System'. It is a standard data
+    format used in astronomy. FITS data format is endorsed by NASA and
+    International Astronomical Union. According to :cite:`www-fits-nasa`, FITS
+    can be used for transport, analysis and archival storage of scientific
+    datasets and support multi-dimensional arrays, tables and headers sections.
+    FITS is actively used and developed - according to
+    :cite:`www-news-fits-2016` newer version of FITS standard document was
+    released in July 2016. FITS can be used for digitization of contents like
+    books and magzines. :cite:`www-fits-vatican-library` used FITS for long
+    term preservation of their book, manuscripts and other collection. Matlab,
+    a language used for technical computing supports fits
+    :cite:`www-fits-matlab`. In his 2011 paper, Keith Wiley
+    :cite:`paper-fits-2011` explained how they performed processing of
+    astronomical images on Hadoop. They used FITS format for data storage.
+
 260. RCFile
 261. ORC
 262. Parquet
@@ -409,6 +546,21 @@ Data Transport
 265. FTP
 266. SSH
 267. Globus Online (GridFTP)
+
+      GridFTP is a enhancement on the File Tranfer Protocol(FTP) which provides
+      high-performance , secure and reliable data transfer for high-bandwidth
+      wide-area networks. As noted in :cite:`www-GlobusOnline` the most widely
+      used implementation of GridFTP is Globus Online.GridFTP achieves efficient
+      use of bandwidth by using multiple simultaneous TCP streams. 
+      Files can be downloaded in pieces simultaneously from multiple sources; 
+      or even in separate parallel streams from the same source.GridFTP allows 
+      transfers to be restarted automatically and handles network unavailability
+      with a fault tolerant implementation of FTP.The underlying TCP connection
+      in FTP has numerous settings such as window size and buffer size. GridFTP 
+      allows automatic (or manual) negotiation of these settings to provide 
+      optimal transfer speeds and reliability .
+
+  
 268. Flume
 269. Sqoop
 270. Pivotal GPLOAD/GPFDIST
@@ -470,6 +622,17 @@ DevOps
 309. Docker (Machine, Swarm)
 310. Puppet
 311. Chef
+    Chef is a configuration management tool. It is implemented in Ruby and
+    Erlang. Chef can be used to configure and maintain servers on-premise as
+    well as cloud platforms like Amazon EC2, Google Cloud Platform and Open
+    Stack. In his book :cite:`chef-book` Matthias Marschall explains how user
+    can implement recipes in Chef to manage server applications and utilities
+    such as database servers like MySQL, or HTTP servers like Apache HTPP
+    and systems like Apache Hadoop.
+
+    Chef is available in open source version and it also has commercial
+    products for the companies which need it :cite:`www-chef-commercial`
+
 312. Ansible
 313. SaltStack
 314. Boto
@@ -481,6 +644,17 @@ DevOps
 320. Foreman
 321. OpenStack Heat
 322. Sahara
+
+      The Sahara product provides users with the capability to
+      provision data processing frameworks (such as Hadoop, Spark and Storm)
+      on OpenStack :cite:`www-openStack` by specifying several parameters 
+      such as the version,cluster topology and hardware node details.As 
+      specified in :cite:`www-Sahara` the solution allows for fast
+      provisioning of data processing clusters on OpenStack for development
+      and quality assurance and utilisation of unused computer power from a
+      general purpose OpenStack Iaas Cloud.Sahara is managed via a REST API
+      with a User Interface available as part of OpenStack Dashboard.
+
 323. Rocks
 324. Cisco Intelligent Automation for Cloud
 325. Ubuntu MaaS
@@ -513,6 +687,26 @@ IaaS Management from HPC to hypervisors
 348. OpenNebula
 349. Eucalyptus
 350. Nimbus
+
+    Nimbus Infrastructure :cite:`www-nimbus-wiki` is an open source IaaS
+    implementation. It allows deployment of self-configured virtual clusters
+    and it supports configuration of scheduling, networking leases, and usage
+    metering.
+
+    Nimbus Platform :cite:`www-nimbus` provides an integrated set of tools
+    which enable users to launch large virtual clusters as well as launch and
+    monitor the cloud apps. It also includes service that provides auto-scaling
+    and high availability of resources deployed over multiple IaaS cloud.
+    The Nimubs Platform tools are cloudinit.d, Phantom and Context Broker.
+    In the 2013 paper :cite:`nimbus-paper` Dmitry Duplykin and others from
+    University of Colorado, used Nimbus Phantom to deploy auto-scaling
+    solution across multiple NSF FutureGrid clouds. In this implementation
+    Phantom was responsible for deploying instances across multiple clouds and
+    monitoring those instance.
+    Nimbus platform supports Nimbus, Open Stack, Amazon and several other
+    clouds.
+
+
 351. CloudStack
 352. CoreOS
 353. rkt

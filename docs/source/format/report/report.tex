@@ -2,10 +2,7 @@
 \usepackage{fancyvrb}
 \journal{i524} 
 
-
-
-
-\title{\LaTeX\ Template for Preparing an Article for I524}
+\title{\LaTeX\ Template for Preparing a Paper or Report for I524}
 
 \author[1,2,3]{John Smith}
 \author[2]{Alice Smith}
@@ -168,6 +165,8 @@ files to the bibliography command separated by comma.
 \cite{las14cloudmeshmultiple} for an example on how to use multiple
 clouds. In \cite{www-i524} we list the class content.
 
+Here a test of a citation with an underscore in the url \cite{www-underscore}.
+
 \section{Supplemental Material}
 
 You can include an appendix with important information and additional
@@ -283,5 +282,91 @@ authors:
 \item Have you put a work breakdown in the document if you worked in a
   group?
 \end{itemize}
+
+\section{Possible technology paper outline}
+
+The next sections are just some suggestions, your may want to add
+sections and subsections as you see fit. Images and references do not
+count towards the 2 page length. Please use the \verb|\section|,
+\verb|\subsection|, and \verb|\subsubsection| commands in your
+paper. do not introduce hardcoded numbers. Use the \verb|\ref| and
+\verb|\label| commands to refer
+ to the sections.
+
+
+\paragraph{Abstract}
+
+Put in the abstract a summary what this paper is about
+
+\paragraph{1. Introduction}
+
+Introduce the technology and provide general useful information.
+
+\paragraph{2. Architecture} 
+
+If applicable include a description about architectural details. This
+may include a figure. Make sure that if you copy a figure you put the
+\cite{?} in the caption also. Otherwise it is plagiarism.
+
+\paragraph{2.1. API}
+
+comment on the API which could include language bindings
+
+\paragraph{2.2. Shell Access}
+
+If applicable comment on how the tool can be used from the command line
+
+\paragraph{2.3.Graphical Interface}
+
+If applicable comment on if the technology has a GUI
+
+\paragraph{3. Licensing}
+
+Often tools may have different versions, some fre, some for
+pay. Comment on this. For example while a tool may offer a comercial
+version this version may be too costly for others. Identify especially
+the difference between features for free vs commercial tools.
+
+Sometimes you may need to introduce this also in the introduction as
+there may be a big difference and without the knowledge you do not
+provide the user an adequate introduction.
+
+\paragraph{4. Ecosystem}
+
+Some technologies have a large ecosystem developed around them with
+extensions plugins and other useful tools. Identify if they exists and
+comment on what they can achieve
+
+provide potentially a mindmap or a figure illustrating how the
+technology fits in with other technologies if applicable.
+
+\paragraph{4. Use Cases}
+
+\paragraph{4.1. Use Cases  for Big Data}
+
+Locate and describe major usecases that demonstrate the technology
+while focussing on big data related use cases. Make sure you do proper
+references with the \cite{?} command. Do not put URLs in the text.
+
+\paragraph {4.2. Other Use Cases}
+
+Some technologies may not just be used for big data, find other makor
+use cases from other areas if applicable.  Make sure you do proper
+references with the \cite{?} command. Do not put URLs in the text.
+
+\paragraph{5. Educational material}
+
+Put information here how someone would find out more about the
+technology. Use important material and do not list hundrets of web
+pages, be selective.
+
+\paragraph{6. Conclusion}
+
+Put in some conclusion based on what you have researched
+
+\paragraph{Acknowledgement}
+
+Put in the information for this class and who may sponsor
+you. Examples will be given later
 
 \end{document}
