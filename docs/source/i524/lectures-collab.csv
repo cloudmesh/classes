@@ -1,16 +1,12 @@
-Collab, Collaboration Tools, ,,NO
-Github, Overview and Introduction, `Web page <lesson/prg/github.html#video-lectures-on-github>`_, ,yes
-      , Install Instructions, `Web page <https://www.atlassian.com/git/tutorials/install-git>`_,    ,yes
-      , config, `Video <https://www.youtube.com/watch?v=ZChtKFLiaNw>`_, 2:47, yes
-      , fork, `Video <https://www.youtube.com/watch?v=5oJHRbqEofs>`_, 1:41, yes
-      , checkout, `Video <https://www.youtube.com/watch?v=HwrPhOp6-aM>`_, 3:11, yes
-      , pull, `Video <https://www.youtube.com/watch?v=d5wpJ5VimSU>`_, 4:26, yes
-      , branch, `Video <https://www.youtube.com/watch?v=H5GJfcp3p4Q>`_, 2:25, yes
-      , merge, `Video <https://www.youtube.com/watch?v=yyLiplDQtf0>`_, 4:50, yes
-      , rebase, `Video <https://www.youtube.com/watch?v=SxzjZtJwOgo>`_, 4:20, yes
-      , GUI, `Video <https://www.youtube.com/watch?v=BMYOs5jflGE>`_, 3:47, yes
-      , Windows, `Video <https://www.youtube.com/watch?v=YBbkvCrfDSo>`_, , yes - unsupported
-Unit 2.A, Overview and Introduction, `Video <https://www.youtube.com/watch?v=ZWzYGwnbZK4&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=1>`_, 0:02:00   ,NO
-Unit 2.B, Google - Google+ - Hangout - Remote Desktop, `Video <https://www.youtube.com/watch?v=kOrWm830vxQ&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=2>`_, 0:04:00  ,NO
-Unit 2.C, Github, `Video <https://www.youtube.com/watch?v=KrAjal1a30w&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=4>`_, 0:18:00,NO - Outdated
-Unit 2.C.H1, Github account, `Video <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/git.html#exercise>`_ ,  ,NO - Outdated
+Github, Overview and Introduction, `Web page <lesson/prg/github.html#video-lectures-on-github>`_, 
+      , Install Instructions, `Web page <https://www.atlassian.com/git/tutorials/install-git>`_,    
+      , config, `Video <https://www.youtube.com/watch?v=ZChtKFLiaNw>`_, 2:47
+      , fork, `Video <https://www.youtube.com/watch?v=5oJHRbqEofs>`_, 1:41
+      , checkout, `Video <https://www.youtube.com/watch?v=HwrPhOp6-aM>`_, 3:11
+      , pull, `Video <https://www.youtube.com/watch?v=d5wpJ5VimSU>`_, 4:26
+      , branch, `Video <https://www.youtube.com/watch?v=H5GJfcp3p4Q>`_, 2:25
+      , merge, `Video <https://www.youtube.com/watch?v=yyLiplDQtf0>`_, 4:50
+      , rebase, `Video <https://www.youtube.com/watch?v=SxzjZtJwOgo>`_, 4:20
+      , GUI, `Video <https://www.youtube.com/watch?v=BMYOs5jflGE>`_, 3:47
+      , Windows - unsupported, `Video <https://www.youtube.com/watch?v=YBbkvCrfDSo>`_, 1:25 
+
