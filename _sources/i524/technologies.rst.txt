@@ -26,10 +26,10 @@ Workflow-Orchestration
 7. Taverna
     Taverna is workflow management system. According to :cite:`www-taverna`,
     Taverna is transitioning to Apache Incubator as of Jan 2017.
-    Taverna suite includes 2 products -
+    Taverna suite includes 2 products:
 
-    1. Taverna Workbench is desktop client where user can define the workflow.
-    2. Taverna Server is responsible for executing the remote workflows.
+       1. Taverna Workbench is desktop client where user can define the workflow.
+       2. Taverna Server is responsible for executing the remote workflows.
 
     Taverna workflows can also be executed on command-line.
     Taverna supports wide range of services including WSDL-style and RESTful
@@ -68,7 +68,6 @@ Application and Analytics
 ----------------------------------------------------------------------
 
 32. Mahout :cite:`www-mahout`:
-
   "Apache Mahout software provides three major features:
   (1) A simple and extensible programming environment and framework
   for building scalable algorithms
@@ -148,23 +147,22 @@ Application Hosting Frameworks
 ----------------------------------------------------------------------
 
 80. Google App Engine  :cite:`www-gae`:
+   On purpose we put in here a "good" example of a bad entry that woudl
+   receive 10 out of 100 points, e.g. an F:
 
- On purpose we put in here a "good" example of a bad entry that woudl
- receive 10 out of 100 points, e.g. an F:
-  
-  "Google App Engine" provides platform as a service.
-  There are major advantages from this framework.
+   "Google App Engine" provides platform as a service.
+   There are major advantages from this framework:
 
-  1. Scalable Applications
-  2. Easier to maintain
-  3. Publishing services easily
+       1. Scalable Applications
+       2. Easier to maintain
+       3. Publishing services easily
 
-  Reasons: (a) "major advantages is advertisement" if you add word
-  major (b)  grammar needs to be improved (c) the three points do not realy say
-  anything about Google App Engine (d) the reader will after reading this
-  have not much information about what it is (e) a refernce is not
-  included. (f) enumeration should be in this page avoided. We like to see
-  a number of paragraphs with text. 
+   Reasons: (a) "major advantages is advertisement" if you add word
+   major (b)  grammar needs to be improved (c) the three points do not realy say
+   anything about Google App Engine (d) the reader will after reading this
+   have not much information about what it is (e) a refernce is not
+   included. (f) enumeration should be in this page avoided. We like to see
+   a number of paragraphs with text. 
   
   
 81. AppScale
@@ -173,29 +171,32 @@ Application Hosting Frameworks
 84. Aerobatic
 85. AWS Elastic Beanstalk
 86. Azure
-
-    Microsoft Corporation markets its cloud products under the \emph{Azure} brand
-    name. At its most basic, Azure acts as an "infrastructure-as-a-service" (IaaS)
+    Microsoft Corporation markets its cloud products under the *Azure* brand
+    name. At its most basic, Azure acts as an *infrastructure-as-a-service* (IaaS)
     provider.  IaaS virtualizes hardware components, a key differentiation from
-    other "...-as-a-service" products.  The Wikipedia entry on IaaS notes that IaaS
-    "...abstract[s] the user from the details of infrasctructure like physical
+    other *-as-a-service* products.  The Wikipedia entry on IaaS notes that IaaS
+    "abstract[s] the user from the details of infrasctructure like physical
     computing resources, location, data partitioning, scaling, security, backup,
-    etc." \cite{www-wikipedia-cloud}
+    etc." :cite:www-wikipedia-cloud
 
     However, Azure offers a host of c+losely-related tool and products to enhance
-    and improve the core product, such as "...raw block storage,...load balancers,
-    [and] IP addresses." \cite{www-azure-msft}  For instance, Azure users can access
-    predictive analytics, Bots and Blockchain-as-a-Service \cite{www-azure-msft} as
-    well as more-basic "computing, networking, storage, database and management"
-    components \cite{www-sec-edgar-msft}.  The Azure website shows twelve major
-    categories under "Products" and twenty "Solution" categories, e.g., e-commerce
+    and improve the core product, such as raw block storage, load balancers,
+    and IP addresses :cite:`www-azure-msft`.  For instance, Azure users can access
+    predictive analytics, Bots and Blockchain-as-a-Service :cite:www-azure-msft} as
+    well as more-basic computing, networking, storage, database and management
+    components :cite:`www-sec-edgar-msft`.  The Azure website shows twelve major
+    categories under *Products* and twenty *Solution* categories, e.g., e-commerce
     or Business SaaS apps.
 
-    Azure competes mainly against Amazon's \emph{Amazon Web Service}, even though a
-    IBM (\emph{SoftLayer and Bluemix}) and Google (\emph{Google Cloud Platform})
+    Azure competes against Amazon's *Amazon Web Service*, even though a
+    IBM (*SoftLayer and Bluemix*) and Google (*Google Cloud Platform*)
     offer IaaS to the market.  As of January 2017, Azure's datacenters span 32
-    Microsoft-defined "regions", or 38 "declared regions", throughout the world.
+    Microsoft-defined *regions*, or 38 *declared regions*, throughout the world.
 
+    **IMPROVE: References missing, aws, softlayer, bluemix, google cp**
+
+    **IMPROVE: does the term c+losely-related realy exist?**
+    
 87. Cloud Foundry
 88. Pivotal
 89. IBM BlueMix
@@ -236,15 +237,14 @@ High level Programming
 119. Amazon Redshift
 120. Drill
 121. Kyoto Cabinet
-
       Kyoto Cabinet as specified in :cite:`www-KyotoCabinet`  is
       a library of routines for managing a database which is a 
-      simple data file containing records.Each record in the database
+      simple data file containing records. Each record in the database
       is a pair of a key and a value.Every key and value is serial bytes
       with variable length. Both binary data   and character string can 
       be used as a key and a value. Each key must be unique within a database.
       There is neither concept of data tables nor data types. Records are
-      organized in hash table or B+ tree.Kyoto Cabinet runs very fast. The 
+      organized in hash table or B+ tree. Kyoto Cabinet runs very fast. The 
       elapsed time to store one million records is 0.9 seconds for 
       hash database, and 1.1 seconds for B+ tree database. Moreover, 
       the size of database is very small. The, overhead for 
@@ -341,7 +341,6 @@ In-memory databases/caches
 189. Infinispan
 190. VoltDB
 191. H-Store
- 
       H-Store is an in memory and parallel database management system
       for on-line transaction processing (OLTP). Specifically ,
       :cite:`www-Hstore` illustrates that H-Store is a highly distributed,
@@ -378,7 +377,6 @@ Extraction Tools
 197. UIMA
 
 Tika :cite:`www-tika`:
-
     "The Apache Tika toolkit detects and extracts metadata and text
     from over a thousand different file types (such as PPT, XLS, and
     PDF). All of these file types can be parsed through a single
@@ -392,23 +390,24 @@ SQL(NewSQL)
 198. Oracle
 199. DB2
 200. SQL Server
-
     SQL Server :cite:`www-sqlserver-wiki` is a relational database management system
-    from Microsoft. As of Jan 2017, SQL Server is available in below editions
+    from Microsoft. As of Jan 2017, SQL Server is available in below editions:
 
-    1. Standard - consists of core database engine
-    2. Web - low cost edition for web hosting
-    3. Business Intelligence - includes standard edition and business
-        intelligence tools like PowerPivot, PowerBI, Master Data Services
-    4. Enterprise - consists of core database engine and enterprise services
-        like cluster manager
-    5. SQL Server Azure - :cite:`www-azuresql` core database engine
-        integrated with Microsoft Azure cloud platform and available in
-        platform-as-a-service mode.
+      1. Standard - consists of core database engine
+      2. Web - low cost edition for web hosting
+      3. Business Intelligence - includes standard edition and business
+          intelligence tools like PowerPivot, PowerBI, Master Data Services
+      4. Enterprise - consists of core database engine and enterprise services
+          like cluster manager
+      5. SQL Server Azure - :cite:`www-azuresql` core database engine
+          integrated with Microsoft Azure cloud platform and available in
+          platform-as-a-service mode.
 
     Ross Mistry and Stacia Misner in :cite:`book-sqlserver` explain the
     technical architecture of SQL Server in OLTP(online transaction processing),
     hybrid cloud and business intelligence modes.
+
+    **IMPROVE: It is inappropriate to mention authors**
 
 201. SQLite
 202. MySQL
@@ -435,7 +434,6 @@ NoSQL
 219. Solr
 220. Solandra
 221. Voldemort
-
 	According to  :cite:`www-voldemort`, project Voldemort, developed 
 	by LinkedIN, is a non-relational database of key-value type that 
 	supports eventual consistency. The distributed nature of the system 
@@ -469,7 +467,6 @@ NoSQL
 225. Kyoto/Tokyo Cabinet
 226. Tycoon
 227. Tyrant
-
     Tyrant provides network interfaces to the database management system called
     Tokyo Cabinet. Tyrant is also called as Tokyo Tyrant. Tyrant is implemented in
     C and it provides APIs for Perl, Ruby and C. Tyrant provides high performance
@@ -518,7 +515,6 @@ File management
 257. HDF
 258. OPeNDAP
 259. FITS
-
     FITS stand for 'Flexible Image Trasnport System'. It is a standard data
     format used in astronomy. FITS data format is endorsed by NASA and
     International Astronomical Union. According to :cite:`www-fits-nasa`, FITS
@@ -546,14 +542,13 @@ Data Transport
 265. FTP
 266. SSH
 267. Globus Online (GridFTP)
-
-      GridFTP is a enhancement on the File Tranfer Protocol(FTP) which provides
+      GridFTP is a enhancement on the File Tranfer Protocol (FTP) which provides
       high-performance , secure and reliable data transfer for high-bandwidth
       wide-area networks. As noted in :cite:`www-GlobusOnline` the most widely
-      used implementation of GridFTP is Globus Online.GridFTP achieves efficient
+      used implementation of GridFTP is Globus Online. GridFTP achieves efficient
       use of bandwidth by using multiple simultaneous TCP streams. 
       Files can be downloaded in pieces simultaneously from multiple sources; 
-      or even in separate parallel streams from the same source.GridFTP allows 
+      or even in separate parallel streams from the same source. GridFTP allows 
       transfers to be restarted automatically and handles network unavailability
       with a fault tolerant implementation of FTP.The underlying TCP connection
       in FTP has numerous settings such as window size and buffer size. GridFTP 
@@ -633,6 +628,8 @@ DevOps
     Chef is available in open source version and it also has commercial
     products for the companies which need it :cite:`www-chef-commercial`
 
+    **IMPROVE: Mention names is inappropriate**
+    
 312. Ansible
 313. SaltStack
 314. Boto
@@ -706,6 +703,7 @@ IaaS Management from HPC to hypervisors
     Nimbus platform supports Nimbus, Open Stack, Amazon and several other
     clouds.
 
+    **IMPROVE: Mention names is inappropriate**
 
 351. CloudStack
 352. CoreOS
@@ -737,20 +735,19 @@ Monitoring
         Nagios is consist of modules including: a core anqd its
         dedicated tool for core configuration, extensible plugins and
         its frontend. Nagios core is designed with scalability being
-        well considered. David Josephsen in :cite:`nagios-book`
-        depicted Nagios "as a specification language and foundation
-        for building well designed monitoring systems that can scale
-        to serve any organization." Nagios allows extensions to be
-        plugged in and to collaborate with its core through
-        APIs. Plugins can be developed via static languages like C or
-        script languages. This mechanism empowers Nagios to monitor a
-        large set of various scenarios yet being very
-        flexible. :cite:`nagios-paper-2012` emphasises Nagios'
-        "flexible modular architecture, Nagios allows users to develop
-        custom modules to enhance the system functionality in many
-        different ways." Besides its open source components, Nagios
-        also has commercial products to serve needing clients.
-     
+        well considered.  Nagios contains "a specification language and
+        foundation for building well designed monitoring systems that
+        can scale to serve any organization. :cite:`nagios-book`"
+        Nagios allows extensions to be plugged in and to collaborate
+        with its core through APIs. Plugins can be developed via
+        static languages like C or script languages. This mechanism
+        empowers Nagios to monitor a large set of various scenarios
+        yet being very flexible. :cite:`nagios-paper-2012` emphasises
+        Nagios' "flexible modular architecture, Nagios allows users to
+        develop custom modules to enhance the system functionality in
+        many different ways." Besides its open source components,
+        Nagios also has commercial products to serve needing clients.
+
 364. Inca
 
 
