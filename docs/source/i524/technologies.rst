@@ -237,6 +237,9 @@ High level Programming
 114. PolyBase
 115. Pivotal HD/Hawq
 116. Presto
+
+     .. include:: techs/presto.rst
+
 117. Google Dremel
 118. Google BigQuery
 119. Amazon Redshift
