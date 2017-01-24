@@ -753,7 +753,7 @@ Monitoring
 
 361. Ambari
 362. Ganglia
-363. Nagios
+363. Nagios :cite:`www-nagios`
 
      Nagios is a platform, which provides a set of software for
      network infrastructure monitoring. It also offers administrative
@@ -768,7 +768,7 @@ Monitoring
      integrate with the Nagios core services. Plugins can be developed
      via static languages like C or script languages. This mechanism
      empowers Nagios to monitor a large set of various scenarios yet
-     being very flexible.  Besides its open source components, Nagios
+     being very flexible. :cite:`nagios-paper-2012` Besides its open source components, Nagios
      also has commercial products to serve needing clients.
 
 
