@@ -254,14 +254,11 @@ elif theme_bootstrap:
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("Home",
-             "https://cloudmesh.github.io/classes/",
-             True),        
-        ("Piazza",
-             "https://piazza.com/class/ix39m27czn5uw",
-             True),
         ("i524",
              "i524/index.html",
+             True),
+        ("Piazza",
+             "https://piazza.com/class/ix39m27czn5uw",
              True),
         ("Lessons",
              "lesson/index.html",
