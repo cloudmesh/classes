@@ -11,7 +11,7 @@ Lectures - Unreleased Theory Track
 .. csv-table:: Unreleased Theory Track
    :header: "ID", "Description", "Resources", "Length"
    :widths: 10, 70, 10, 10
-   :file: lectures-theory-unreleased.csv
+   :file: lectures-theory-unreleasd.csv
 
 Unreleased Lectures - Collaboration Track
 ------------------------------

@@ -63,7 +63,7 @@ Lectures - Theory Track
 ----------------------------------------
    
 .. csv-table:: Theory Track
-   :header: "ID", "Description", "Resources", "Length"
+   :header: "Topic", "Description", "Resources", "Length"
    :widths: 10, 70, 10, 10
    :file: lectures-theory.csv
 
@@ -71,7 +71,7 @@ Lectures - Collaboration Track
 ------------------------------
 
 .. csv-table:: Collaboration Track
-   :header: "Treat", "Quantity", "Description", "Length"
+   :header: "Topic", "Description", "Resources", "Length"
    :widths: 10, 70, 10, 10
    :file: lectures-collab.csv
 
