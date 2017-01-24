@@ -24,9 +24,9 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 +---------------------------------------------+--------------------+-----+
 | Github access (needed for TechList)         | Mon, Jan 30, 9am   | C3  |
 +---------------------------------------------+--------------------+-----+
-| TechList.1a - 1.c                           | Mon, Jan 30, 9am   | T0a |
+| :ref:`TechList.1a - 1.c <techs-exercise>`   | Mon, Jan 30, 9am   | T0a |
 +---------------------------------------------+--------------------+-----+
-| Technology Paper 1 due                      | Mon, Jan 30, 9am   | T1  |
+| :doc:`Technology Paper 1 <paper1-hw>`       | Mon, Jan 30, 9am   | T1  |
 +---------------------------------------------+--------------------+-----+
 | Acces and use of cloud verified        (HD) | Mon, Jan 30, 9am   | C4  |
 +---------------------------------------------+--------------------+-----+
@@ -57,6 +57,7 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 * (HD) hard deadlines must be done in order to obtain full
   points. These deadlines are important to assure you have access to
   the resources for the class.
+
 
 
 Comments

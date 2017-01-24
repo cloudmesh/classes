@@ -1174,17 +1174,19 @@ search function in pypi and say on the commandline::
     pip install <package_name>
 
 where pagage_name is the string name of the package. an example would
-be the package called fabric which you can install with::
+be the package called cloudmesh_client which you can install with::
 
-   pip install fabric
+   pip install cloudmesh_client
 
 If all goes well the package will be installed.
 
+Links
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ecosystem
----------
+Useful ecosystem Links:
 
 * https://virtualenvwrapper.readthedocs.io
 * https://github.com/yyuu/pyenv
 * https://amaral.northwestern.edu/resources/guides/pyenv-tutorial
 * https://godjango.com/96-django-and-python-3-how-to-setup-pyenv-for-multiple-pythons/
+* https://www.accelebrate.com/blog/the-many-faces-of-python-and-how-to-manage-them/

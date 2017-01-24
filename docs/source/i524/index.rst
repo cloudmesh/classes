@@ -155,35 +155,39 @@ For the 100% online students see the office hours.
 Online Meetings
 ---------------
 
-Meeting times for the online class will be determined through piazza
-and or a survey. We will announce the online course meetings and
-office hours in the first week of class. Our first meeting times are
-posted at:
+For the zoom information please go to
 
-* https://piazza.com/class/ix39m27czn5uw?cid=11
+https://iu.instructure.com/courses/1603897/assignments/syllabus
 
-In order to select hours for the online class please follow the following doodle link and mark your preferences before 16th of January.
-	*https://doodle.com/poll/syd4cimyf2qb8mh9
+A doodle was used and all students that answered the doodle have times
+that they specified. We covered 100% the time for the students through
+the following schedule:
+
++-----------------+------------------------------------+
+| **Day of Week** | **Meetings**                       |
++-----------------+------------------------------------+
+| Monday          | | 8-9am Office Hours               |
+|                 | | 9:30-10:45am Residential Lecture |
+|                 | | 6-7pm Office Hours               |
++-----------------+------------------------------------+
+| Tuesday         | | 1-2pm Office Hours               |
+|                 | | 4-5pm Office Hours               |
++-----------------+------------------------------------+
+| Wednesday       | 6-7pm Office Hours                 |
++-----------------+------------------------------------+
+| Thursday        | 6-7pm Office Hours (Gregor)        |
++-----------------+------------------------------------+
+| Friday	  | 4-5pm Office Hours                 |
++-----------------+------------------------------------+
+| Saturday        | 8-9pm Off Hours                    |
++-----------------+------------------------------------+
+| Sunday	  | | 9-10am Office Hours              |
+|                 | | 8-9pm Office Hours               |
++-----------------+------------------------------------+
 
 
 
-
-    * **PC, Mac, Linux, iOS or Android:**
-        * https://IU.zoom.us/j/534178131?pwd=nebOhW76Q54%3D
-        * Password: To be posted in CANVAS
-    * **Telephone**:
-        * Dial: +1 646 558 8656 (US Toll) or +1 408 638 0968 (US Toll)
-        * Meeting ID: 534 178 131 
-        * International numbers available:
-	  * https://IU.zoom.us/zoomconference?m=xAjpb6jx8gjnut6Q2SW5yPuC09ekuO7H 
-    * **H.323/SIP room system**:
-        * H.323: 162.255.37.11 (US West) or 162.255.36.11 (US East) 
-        * Meeting ID: 534 178 131
-        * Password: 520093
-    * **SIP:** 534178131@zoomcrc.com
-        * Password: 520093
-
-
+	  
     
 Who can take the class?
 -----------------------
