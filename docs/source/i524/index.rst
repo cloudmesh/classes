@@ -46,7 +46,7 @@ them. Topics of this class will include:
 
 #. We will be identifying how we can create and replicate software
    environments based on software deployed and used on clouds while
-   using Containers, OpenStack and ansible playbooks.
+   using Containers, OpenStack and Ansible playbooks.
 
 #. Students will chose a number of open source members of the list
    each and create repeatable deployments as illustrated in class. 
