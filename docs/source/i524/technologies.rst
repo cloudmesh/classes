@@ -680,7 +680,7 @@ DevOps
       in any language. Juju also supports Bundles :cite:`www-juju`
       which are pre-configured collection of Charms that helps in quick
       deployment of whole infrastructure.
-     
+
 320. Foreman
 321. OpenStack Heat
 322. Sahara
