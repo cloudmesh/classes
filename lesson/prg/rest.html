@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Programming &#8212; Big Data Classes</title>
+    <title>REST &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -32,8 +32,8 @@
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Github" href="github.html" />
-    <link rel="prev" title="Oragnization" href="../org/index.html" />
+    <link rel="next" title="Data" href="../data/index.html" />
+    <link rel="prev" title="Python Fingerprint Example" href="python_lesson1.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -117,7 +117,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Programming</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
@@ -191,7 +191,7 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Programming</a></li>
+<li><a class="reference internal" href="#">REST</a></li>
 </ul>
 </ul>
 </li>
@@ -273,7 +273,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Programming</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
@@ -337,7 +337,7 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Programming</a></li>
+<li><a class="reference internal" href="#">REST</a></li>
 </ul>
 
 <form action="../../search.html" method="get">
@@ -351,22 +351,55 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="programming">
-<h1>Programming<a class="headerlink" href="#programming" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="github.html">Github</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gitlab.html">Gitlab</a></li>
-<li class="toctree-l1"><a class="reference internal" href="programming.html">Additional Programming Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="programming.html#preview-course-examples">Preview Course Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pull_requests.html">Pull Requests</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pyenv.html">pyenv</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_big_data.html">Python for Big Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduction to Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="rest.html">REST</a></li>
+  <div class="section" id="rest">
+<h1>REST<a class="headerlink" href="#rest" title="Permalink to this headline">¶</a></h1>
+<p>REST stands for REpresentational State Transfer. REST is an architecture style for designing networked applications. It is based on stateless, client-server, cacheable communications protocol. Although not based on http, in most cases, the HTTP protocol is used.  In contrast to what some others write or say, REST is not a <em>standard</em>.</p>
+<p>RESTful applications use HTTP requests to:</p>
+<ul class="simple">
+<li>post data: while creating and/or updating it,</li>
+<li>read data: while making queries, and</li>
+<li>delete data.</li>
 </ul>
-</div>
+<p>Hence REST uses HTTP for the four CRUD operations:</p>
+<ul class="simple">
+<li>Create</li>
+<li>Read</li>
+<li>Update</li>
+<li>Delete</li>
+</ul>
+<table border="1" class="colwidths-given docutils" id="id1">
+<caption><span class="caption-text">HTTP Methods</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">URL</th>
+<th class="head">GET</th>
+<th class="head">PUT</th>
+<th class="head">POST</th>
+<th class="head">DELETE</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference external" href="http://.../resources/">http://.../resources/</a></td>
+<td>List the URIs and perhaps other details of the collection&#8217;s members.</td>
+<td>Replace the entire collection with another collection.</td>
+<td>Create a new entry in the collection. The new entry&#8217;s URI is assigned automatically and is usually returned by the operation.</td>
+<td>Delete the entire collection.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference external" href="http://.../resources/item17">http://.../resources/item17</a></td>
+<td>Retrieve a representation of the addressed member of the collection, expressed in an appropriate Internet media type.</td>
+<td>Replace the addressed member of the collection, or if it does not exist, create it.</td>
+<td>Not generally used. Treat the addressed member as a collection in its own right and create a new entry within it.</td>
+<td>Delete the addressed member of the collection.</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <a class="reference external" href="https://en.wikipedia.org/wiki/Representational_state_transfer">https://en.wikipedia.org/wiki/Representational_state_transfer</a></p>
 </div>
 
 

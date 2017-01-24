@@ -22,7 +22,7 @@ Requirements for the TechList Homework
         For the descriptions remove advertisement adjectives and 
 	sentences from your description, and spellcheck. 
 
-	For refrences it is important that every reference is required
+	For references it is important that every reference is required
 	to have owner field. For example::
 
 	  owner = {TA-sp17-0001}
