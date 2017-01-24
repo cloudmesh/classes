@@ -25,19 +25,17 @@ Workflow-Orchestration
 6. Swift  
 7. Taverna
    
-   Taverna is workflow management system. According to :cite:`www-taverna`,
-   Taverna is transitioning to Apache Incubator as of Jan 2017.
-   Taverna suite includes 2 products:
-
-   1. Taverna Workbench is desktop client where user can define the workflow.
-   2. Taverna Server is responsible for executing the remote workflows.
-
-   Taverna workflows can also be executed on command-line.
-   Taverna supports wide range of services including WSDL-style and RESTful
+   Taverna is workflow management system. According to
+   :cite:`www-taverna`, Taverna is transitioning to Apache Incubator
+   as of Jan 2017.  Taverna suite includes 2 products. Taverna
+   Workbench is a desktop client where user can define the workflow.
+   Taverna Server is responsible for executing the remote workflows.
+   Taverna workflows can also be executed on command-line.  Taverna
+   supports wide range of services including WSDL-style and RESTful
    Web Services, BioMart, SoapLab, R, and Excel. Taverna also support
-   mechanism to monitor the running workflows using its web browser interface.
-   In his :cite:`taverna-paper` paper, Daniele Turi presented the formal
-   syntax and operational semantics of Taverna.
+   mechanism to monitor the running workflows using its web browser
+   interface.  In his :cite:`taverna-paper` paper, Daniele Turi
+   presented the formal syntax and operational semantics of Taverna.
 
 8. Triana 
 9. Trident 
@@ -70,7 +68,7 @@ Application and Analytics
 
 32. Mahout :cite:`www-mahout`
     
-    "Apache Mahout software provides three major features:
+    Apache Mahout software provides three major features.
     (1) A simple and extensible programming environment and framework
     for building scalable algorithms
     (2) A wide variety of premade algorithms for Scala + Apache Spark,
@@ -83,21 +81,21 @@ Application and Analytics
 34. Mbase
 35. DataFu
     
-    The Apache DataFu project was created out of the need for stable ,
+    The Apache DataFu project was created for need of stable and
     well-tested libraries for large scale data processing in Hadoop.
     As detailed in :cite:`www-DataFu` Apache DatFu consists of two
-    libraries Apache DataFu Pig and Apache DataFu Hourglass.  Apache
+    libraries, Apache DataFu Pig and Apache DataFu Hourglass.  Apache
     DataFu Pig is a collection of useful user-defined functions for
     data analysis in Apache Pig. The functions are in areas of
     Statistics, Bag Operations, Set Operations, Sessions, Sampling,
     Estimation, Hashing and Link Analysis.  Apache DataFu Hourglass is
     a library for incrementally processing data using Hadoop
-    MapReduce. It is designed to make computations over sliding windows
-    more efficient. For these types of computations, the input data is
-    partitioned in some way, usually according to time, and the range
-    of input data to process is adjusted as new data arrives.
-    Hourglass works with input data that is partitioned by day, as
-    this is a common scheme for partitioning temporal data.
+    MapReduce. It is designed to make computations over sliding
+    windows more efficiently. For these types of computations, the input
+    data is partitioned in some ways, usually according to time, and
+    the range of input data to process is adjusted as new data
+    arrives.  Hourglass works with input data that is partitioned by
+    day, as this is a common scheme for partitioning temporal data.
 
 36. R
 37. pbdR
@@ -176,32 +174,33 @@ Application Hosting Frameworks
 85. AWS Elastic Beanstalk
 86. Azure
     
-    Microsoft Corporation markets its cloud products under the *Azure* brand
-    name. At its most basic, Azure acts as an *infrastructure-as-a-service* (IaaS)
-    provider.  IaaS virtualizes hardware components, a key differentiation from
-    other *-as-a-service* products.  The Wikipedia entry on IaaS notes that IaaS
-    "abstract[s] the user from the details of infrasctructure like physical
-    computing resources, location, data partitioning, scaling, security, backup,
-    etc." :cite:www-wikipedia-cloud
+    Microsoft Corporation markets its cloud products under the *Azure*
+    brand name. At its most basic, Azure acts as an
+    *infrastructure-as-a-service* (IaaS) provider.  IaaS virtualizes
+    hardware components, a key differentiation from other
+    *-as-a-service* products.  The Wikipedia entry on IaaS notes that
+    IaaS "abstract[s] the user from the details of infrasctructure
+    like physical computing resources, location, data partitioning,
+    scaling, security, backup, etc." :cite:`www-wikipedia-cloud`
 
-    However, Azure offers a host of c+losely-related tool and products to enhance
-    and improve the core product, such as raw block storage, load balancers,
-    and IP addresses :cite:`www-azure-msft`.  For instance, Azure users can access
-    predictive analytics, Bots and Blockchain-as-a-Service :cite:www-azure-msft} as
-    well as more-basic computing, networking, storage, database and management
-    components :cite:`www-sec-edgar-msft`.  The Azure website shows twelve major
-    categories under *Products* and twenty *Solution* categories, e.g., e-commerce
-    or Business SaaS apps.
+    However, Azure offers a tool and products to enhance and improve
+    the core product, such as raw block storage, load balancers, and
+    IP addresses :cite:`www-azure-msft`.  For instance, Azure users
+    can access predictive analytics, Bots and Blockchain-as-a-Service
+    :cite:www-azure-msft} as well as more-basic computing, networking,
+    storage, database and management components
+    :cite:`www-sec-edgar-msft`.  The Azure website shows twelve major
+    categories under *Products* and twenty *Solution* categories,
+    e.g., e-commerce or Business SaaS apps.
 
-    Azure competes against Amazon's *Amazon Web Service*, even though a
-    IBM (*SoftLayer and Bluemix*) and Google (*Google Cloud Platform*)
-    offer IaaS to the market.  As of January 2017, Azure's datacenters span 32
-    Microsoft-defined *regions*, or 38 *declared regions*, throughout the world.
-
-    **IMPROVE: References missing, aws, softlayer, bluemix, google cp**
-
-    **IMPROVE: does the term c+losely-related realy exist?**
-    
+    Azure competes against Amazon's *Amazon Web Service*
+    :cite:`www-amazon-ws`, even though a IBM (:cite:`www-softlayer`
+    *SoftLayer and Bluemix* :cite:`www-bluemix` ) and Google
+    :cite:`www-google-cp` (*Google Cloud Platform*) offer IaaS to the
+    market.  As of January 2017, Azure's datacenters span 32
+    Microsoft-defined *regions*, or 38 *declared regions*, throughout
+    the world.
+        
 87. Cloud Foundry
 88. Pivotal
 89. IBM BlueMix
@@ -246,17 +245,17 @@ High level Programming
      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
      library of routines for managing a database which is a simple
      data file containing records. Each record in the database is a
-     pair of a key and a value.Every key and value is serial bytes
+     pair of a key and a value. Every key and value are serial bytes
      with variable length. Both binary data and character string can
      be used as a key and a value. Each key must be unique within a
      database.  There is neither concept of data tables nor data
-     types. Records are organized in hash table or B+ tree. Kyoto
+     types. Records are organized in hash tables or B+ trees. Kyoto
      Cabinet runs very fast. The elapsed time to store one million
      records is 0.9 seconds for hash database, and 1.1 seconds for B+
-     tree database. Moreover, the size of database is very small. The,
+     tree database. Moreover, the size of database is very small. The
      overhead for a record is 16 bytes for hash database, and 4 bytes
      for B+ tree database. Furthermore, scalability of Kyoto Cabinet
-     is great.  The database size can be up to 8EB (9.22e18 bytes).
+     is better.  The database size can be up to 8EB (9.22e18 bytes).
 
 122. Pig
 123. Sawzall
@@ -401,25 +400,23 @@ SQL(NewSQL)
 199. DB2
 200. SQL Server
 
-     SQL Server :cite:`www-sqlserver-wiki` is a relational database management system
-     from Microsoft. As of Jan 2017, SQL Server is available in below editions
+     SQL Server :cite:`www-sqlserver-wiki` is a relational database
+     management system from Microsoft. As of Jan 2017, SQL Server is
+     available in below editions
 
-     1. Standard - consists of core database engine
-     2. Web - low cost edition for web hosting
-     3. Business Intelligence - includes standard edition and business
-        intelligence tools like PowerPivot, PowerBI, Master Data Services
-     4. Enterprise - consists of core database engine and enterprise services
-        like cluster manager
-     5. SQL Server Azure - :cite:`www-azuresql` core database engine
-        integrated with Microsoft Azure cloud platform and available in
-        platform-as-a-service mode.
+    (1). Standard - consists of core database engine 2). Web - low
+    (cost edition for web hosting 3). Business Intelligence - includes
+    (standard edition and business intelligence tools like PowerPivot,
+    (PowerBI, Master Data Services 4). Enterprise - consists of core
+    (database engine and enterprise services like cluster manager
+    (5). SQL Server Azure - :cite:`www-azuresql` core database engine
+    (integrated with Microsoft Azure cloud platform and available in
+    (platform-as-a-service mode.
 
-     Ross Mistry and Stacia Misner in :cite:`book-sqlserver` explain
-     the technical architecture of SQL Server in OLTP(online
-     transaction processing), hybrid cloud and business intelligence
-     modes.
-
-     **IMPROVE: It is inappropriate to mention authors**
+     As explained in the book, Introducing Microsoft SQL Server 2014
+     Technical Overview :cite:`book-sqlserver` explain the technical
+     architecture of SQL Server in OLTP(online transaction
+     processing), hybrid cloud and business intelligence modes. 
 
 201. SQLite
 202. MySQL
@@ -447,14 +444,15 @@ NoSQL
 220. Solandra
 221. Voldemort
 
-     According to :cite:`www-voldemort`, project Voldemort, developed
-     by LinkedIN, is a non-relational database of key-value type that
-     supports eventual consistency. The distributed nature of the
-     system allows pluggable data placement and provides horizontal
-     scalability and high consistency. Replication and partitioning of
-     data is automatic and performed on multiple servers. Independent
-     nodes that comprise the server support transparent handling of
-     server failure and ensure absence of a central point of
+     According to project Voldemort :cite:`www-voldemort`, developed
+     by LinkedIN :cite:`www-linkedin`, is a non-relational database of
+     key-value type that supports eventual consistency. The
+     distributed nature of the system allows pluggable data placement
+     and provides horizontal scalability and high
+     consistency. Replication and partitioning of data is automatic
+     and performed on multiple servers. Independent nodes that
+     comprise the server support transparent handling of server
+     failure and ensure absence of a central point of
      failure. Essentially, Voldemort is a hashtable. It uses APIs for
      data replication. In memory caching allows for faster
      operations. It allows cluster expansion with no data
@@ -487,9 +485,9 @@ NoSQL
      system called Tokyo Cabinet. Tyrant is also called as Tokyo
      Tyrant. Tyrant is implemented in C and it provides APIs for Perl,
      Ruby and C. Tyrant provides high performance and concurrent
-     access to Tokyo Cabinet. In his blog :cite:`www-tyrant-blog` Matt
-     Yonkovit has explained the results of performance experiments he
-     conducted to compare Tyrant against Memcached and MySQL.
+     access to Tokyo Cabinet. In his blog :cite:`www-tyrant-blog`, it
+     is explained the results of performance experiments conducted to
+     compare Tyrant against Memcached and MySQL.
 
      Tyrant was written and maintained by FAL Labs
      :cite:`www-tyrant-fal-labs`.  However, according to FAL Labs,
@@ -547,10 +545,10 @@ File management
      magzines. :cite:`www-fits-vatican-library` used FITS for long
      term preservation of their book, manuscripts and other
      collection. Matlab, a language used for technical computing
-     supports fits :cite:`www-fits-matlab`. In his 2011 paper, Keith
-     Wiley :cite:`paper-fits-2011` explained how they performed
-     processing of astronomical images on Hadoop. They used FITS
-     format for data storage.
+     supports fits :cite:`www-fits-matlab`. In the paper
+     :cite:`paper-fits-2011`, it is explained how processing is
+     performed for astronomical images on Hadoop. FITS format has been
+     used for data storage.
 
 260. RCFile
 261. ORC
@@ -565,9 +563,9 @@ Data Transport
 266. SSH
 267. Globus Online (GridFTP)
      
-     GridFTP is a enhancement on the File Tranfer Protocol (FTP) which
-     provides high-performance , secure and reliable data transfer for
-     high-bandwidth wide-area networks. As noted in
+     GridFTP is an enhancement on the File Tranfer Protocol (FTP)
+     which provides high-performance, secure and reliable data
+     transfer for high-bandwidth wide-area networks. As noted in
      :cite:`www-GlobusOnline` the most widely used implementation of
      GridFTP is Globus Online. GridFTP achieves efficient use of
      bandwidth by using multiple simultaneous TCP streams.  Files can
@@ -578,7 +576,7 @@ Data Transport
      FTP.The underlying TCP connection in FTP has numerous settings
      such as window size and buffer size. GridFTP allows automatic (or
      manual) negotiation of these settings to provide optimal transfer
-     speeds and reliability .
+     speeds and reliability.
 
   
 268. Flume
@@ -646,17 +644,14 @@ DevOps
      Chef is a configuration management tool. It is implemented in
      Ruby and Erlang. Chef can be used to configure and maintain
      servers on-premise as well as cloud platforms like Amazon EC2,
-     Google Cloud Platform and Open Stack. In his book
-     :cite:`chef-book` Matthias Marschall explains how user can
-     implement recipes in Chef to manage server applications and
-     utilities such as database servers like MySQL, or HTTP servers
-     like Apache HTPP and systems like Apache Hadoop.
-
-     Chef is available in open source version and it also has commercial
-     products for the companies which need it :cite:`www-chef-commercial`
-
-     **IMPROVE: Mention names is inappropriate**
-    
+     Google Cloud Platform and Open Stack. In the book
+     :cite:`chef-book`,it is explained how user can implement recipes
+     in Chef to manage server applications and utilities such as
+     database servers like MySQL, or HTTP servers like Apache HTPP and
+     systems like Apache Hadoop. Chef is available in open source
+     version and it also has commercial products for the companies
+     which need it :cite:`www-chef-commercial`
+         
 312. Ansible
 313. SaltStack
 314. Boto
@@ -673,9 +668,9 @@ DevOps
      provision data processing frameworks (such as Hadoop, Spark and
      Storm) on OpenStack :cite:`www-openStack` by specifying several
      parameters such as the version,cluster topology and hardware node
-     details.As specified in :cite:`www-Sahara` the solution allows
-     for fast provisioning of data processing clusters on OpenStack
-     for development and quality assurance and utilisation of unused
+     details.As specified in :cite:`www-Sahara`, the solution allows
+     fast provisioning of data processing clusters on OpenStack for
+     development and quality assurance and utilisation of unused
      computer power from a general purpose OpenStack Iaas Cloud.Sahara
      is managed via a REST API with a User Interface available as part
      of OpenStack Dashboard.
@@ -716,23 +711,21 @@ IaaS Management from HPC to hypervisors
      Nimbus Infrastructure :cite:`www-nimbus-wiki` is an open source
      IaaS implementation. It allows deployment of self-configured
      virtual clusters and it supports configuration of scheduling,
-     networking leases, and usage metering.
-
-     Nimbus Platform :cite:`www-nimbus` provides an integrated set of
-     tools which enable users to launch large virtual clusters as well
-     as launch and monitor the cloud apps. It also includes service
-     that provides auto-scaling and high availability of resources
-     deployed over multiple IaaS cloud.  The Nimubs Platform tools are
-     cloudinit.d, Phantom and Context Broker.  In the 2013 paper
-     :cite:`nimbus-paper` Dmitry Duplykin and others from University
-     of Colorado, used Nimbus Phantom to deploy auto-scaling solution
-     across multiple NSF FutureGrid clouds. In this implementation
-     Phantom was responsible for deploying instances across multiple
-     clouds and monitoring those instance.  Nimbus platform supports
-     Nimbus, Open Stack, Amazon and several other clouds.
-
-     **IMPROVE: Mention names is inappropriate**
-
+     networking leases, and usage metering.Nimbus Platform
+     :cite:`www-nimbus` provides an integrated set of tools which
+     enable users to launch large virtual clusters as well as launch
+     and monitor the cloud apps. It also includes service that
+     provides auto-scaling and high availability of resources deployed
+     over multiple IaaS cloud.  The Nimubs Platform tools are
+     cloudinit.d, Phantom and Context Broker.  In the paper
+     :cite:`nimbus-paper`,Nimbus Phantom has been used to deploy
+     auto-scaling solution across multiple NSF FutureGrid clouds. In
+     this implementation Phantom was responsible for deploying
+     instances across multiple clouds and monitoring those instance.
+     Nimbus platform supports Nimbus, Open Stack
+     :cite:`www-openStack`, Amazon :cite:`www-amazon` and several
+     other clouds.
+     
 351. CloudStack
 352. CoreOS
 353. rkt
@@ -768,8 +761,9 @@ Monitoring
      integrate with the Nagios core services. Plugins can be developed
      via static languages like C or script languages. This mechanism
      empowers Nagios to monitor a large set of various scenarios yet
-     being very flexible. :cite:`nagios-paper-2012` Besides its open source components, Nagios
-     also has commercial products to serve needing clients.
+     being very flexible. :cite:`nagios-paper-2012` Besides its open
+     source components, Nagios also has commercial products to serve
+     needing clients.
 
 
 364. Inca
