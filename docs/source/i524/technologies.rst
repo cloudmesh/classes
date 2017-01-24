@@ -329,7 +329,10 @@ Streams
         which can used to understand the amount of data being processed by Kinesis.
         User can use this metrics to do some analytics and visualize the metrics data.
         Kinesis is one of the tools part of AWS infrastructure and provides its users
-        a complete software-as-a-service.
+        a complete software-as-a-service. Kinesis :cite:`big-data-analytics-book` in
+        the area of real-time processing provides following key benefits:
+        ease of use, parellel processing, scalable, cost effective, fault tolerant
+        and highly available.
 
 134. LinkedIn
 135. Twitter Heron
@@ -407,11 +410,11 @@ Inter process communication Collectives
         message queue. The consumers consume the message and post the response message
         to the callback queue.
 
-        RabbitMQ is based on AMPQ(Advanced Message Queuing Protocol) messaging model.
-        AMPQ is described as follows “messages are published to exchanges, which are
-        often compared to post offices or mailboxes. Exchanges then distribute message
-        copies to queues using rules called bindings. Then AMQP brokers either deliver
-        messages to consumers subscribed to queues, or consumers fetch/pull messages
+        RabbitMQ is based on AMPQ :cite:`ampq-article` (Advanced Message Queuing Protocol)
+        messaging model. AMPQ is described as follows “messages are published to exchanges,
+        which are often compared to post offices or mailboxes. Exchanges then distribute
+        message copies to queues using rules called bindings. Then AMQP brokers either
+        deliver messages to consumers subscribed to queues, or consumers fetch/pull messages
         from queues on demand”
 
 169. NaradaBrokering
@@ -765,6 +768,10 @@ Interoperability
 301. Libcloud
 302. JClouds
 
+        :cite:`cloud-portability-book` Primary goals of cross-platform cloud APIs is
+        that application built using these APIs can be seamlessly ported to different
+        cloud providers. The APIs also bring interoperability such that cloud platforms
+        can communicate and exchange information using these common or shared interfaces.
         Jclouds or apache jclouds :cite:`www-jclouds` is a java based library to
         provide seamless access to cloud platforms. Jclouds library provides
         interfaces for most of cloud providers like docker, openstack, amazon web
