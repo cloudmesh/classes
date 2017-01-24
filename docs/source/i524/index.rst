@@ -17,7 +17,7 @@ Overview
 --------
 
 This course studies software used in many commercial activities
-related to Big Data. The backdrop for course containes more than 370
+related to Big Data. The backdrop for course contains more than 370
 software subsystems illustrated in Figure 1.  We will describe the
 software architecture represented by this collection and work towards
 identifying best practices to deploy, access and interface with
