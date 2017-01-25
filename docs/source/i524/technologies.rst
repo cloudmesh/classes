@@ -420,6 +420,50 @@ Inter process communication Collectives
 169. NaradaBrokering
 170. QPid
 171. Kafka
+
+     Apache Kafka is a streaming platform, which works based on
+     publish-subscribe messaging system and supports distributed
+     environment. Lets understand what does this mean and also see
+     what are Kafka’s features.
+    
+     Kafka lets you publish and subscribe to the messages.
+    
+     In a publish-subscribe messaging system, publishers are sender of
+     messages. They publish the messages without the knowledge of who
+     is going to ‘subscribe’ to them for processing. Subscribers are
+     users of these messages. They subscribe to only those messages
+     which they are interested in, without knowing who the publishers
+     are. Kafka maintains message feeds based on ‘topic’. A topic is a
+     category or feed name to which records are
+     published. Applications can use Kafka’s Connector APIs to publish
+     the messages to one or more Kafka topics. Similarly, applications
+     can use Consumer API to subscribe to one or more topics.
+    
+     Kafka lets you process the stream of data at real time
+    
+     Kafka’s stream processor takes continual stream of data from
+     input topics, processes the data in real time and produces
+     streams of data to output topics. Kafka’s Streams API are used
+     for data transformation.
+    
+     Kafka lets you store the stream of data in distributed clusters.
+    
+     Kafka acts as a storage system for incoming data stream. Data is
+     categorised into ‘topics’. As Kafka is a distributed system, data
+     streams are partitioned and replicated across nodes. Thus, a
+     combination of messaging, storage and processing data stream
+     makes Kafka a ‘streaming platform’.
+    
+     Where is Kafka commonly used?
+    
+     Kafka can be used for building data pipelines where data is
+     transferred between systems or applications. :cite:`www-kafka`
+     Kafka can also be used by applications that transform real time
+     incoming data.
+
+     **IMPROVE: This is written like an advertisement about Kafka. Are
+     quotes needed **
+     
 172. Kestrel
 173. JMS
 174. AMQP
