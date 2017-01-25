@@ -1,0 +1,2 @@
+.. add info about IPython
+

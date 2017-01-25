@@ -17,778 +17,1504 @@ projects is at
 Workflow-Orchestration
 ----------------------------------------------------------------------
 
-1. ODE
+1. ODE 
+
+   .. include:: techs/ode.rst
+
 2. ActiveBPEL 
-3. Airavata   
+
+   .. include:: techs/activebpel.rst
+
+3. Airavata 
+
+   .. include:: techs/airavata.rst
+
 4. Pegasus 
+
+   .. include:: techs/pegasus.rst
+
 5. Kepler 
-6. Swift  
-7. Taverna
-   
-   Taverna is workflow management system. According to :cite:`www-taverna`,
-   Taverna is transitioning to Apache Incubator as of Jan 2017.
-   Taverna suite includes 2 products:
 
-   1. Taverna Workbench is desktop client where user can define the workflow.
-   2. Taverna Server is responsible for executing the remote workflows.
+   .. include:: techs/kepler.rst
 
-   Taverna workflows can also be executed on command-line.
-   Taverna supports wide range of services including WSDL-style and RESTful
-   Web Services, BioMart, SoapLab, R, and Excel. Taverna also support
-   mechanism to monitor the running workflows using its web browser interface.
-   In his :cite:`taverna-paper` paper, Daniele Turi presented the formal
-   syntax and operational semantics of Taverna.
+6. Swift 
+
+   .. include:: techs/swift.rst
+
+7. Taverna 
+
+   .. include:: techs/taverna.rst
 
 8. Triana 
-9. Trident 
-10. BioKepler 
-11. Galaxy 
-12. IPython
-13. Jupyter
-14. (Dryad)
-15. Naiad
-16. Oozie
-17. Tez
-18. Google FlumeJava
-19. Crunch
-20. Cascading
-21. Scalding
-22. e-Science Central
-23. Azure Data Factory
-24. Google Cloud Dataflow
-25. NiFi (NSA)
-26. Jitterbit
-27. Talend
-28. Pentaho
-29. Apatar
-30. Docker Compose
-31. KeystoneML
 
+   .. include:: techs/triana.rst
+
+9. Trident 
+
+   .. include:: techs/trident.rst
+
+10. BioKepler 
+
+    .. include:: techs/biokepler.rst
+
+11. Galaxy 
+
+    .. include:: techs/galaxy.rst
+
+12. IPython 
+
+    .. include:: techs/ipython.rst
+
+13. Jupyter 
+
+    .. include:: techs/jupyter.rst
+
+14. (Dryad) 
+
+    .. include:: techs/dryad.rst
+
+15. Naiad 
+
+    .. include:: techs/naiad.rst
+
+16. Oozie 
+
+    .. include:: techs/oozie.rst
+
+17. Tez 
+
+    .. include:: techs/tez.rst
+
+18. Google FlumeJava 
+
+    .. include:: techs/google-flumejava.rst
+
+19. Crunch 
+
+    .. include:: techs/crunch.rst
+
+20. Cascading 
+
+    .. include:: techs/cascading.rst
+
+21. Scalding 
+
+    .. include:: techs/scalding.rst
+
+22. e-Science Central 
+
+    .. include:: techs/e-science-central.rst
+
+23. Azure Data Factory 
+
+    .. include:: techs/azure-data-factory.rst
+
+24. Google Cloud Dataflow 
+
+    .. include:: techs/google-cloud-dataflow.rst
+
+25. NiFi (NSA) 
+
+    .. include:: techs/nifi--nsa.rst
+
+26. Jitterbit 
+
+    .. include:: techs/jitterbit.rst
+
+27. Talend 
+
+    .. include:: techs/talend.rst
+
+28. Pentaho 
+
+    .. include:: techs/pentaho.rst
+
+29. Apatar 
+
+    .. include:: techs/apatar.rst
+
+30. Docker Compose 
+
+    .. include:: techs/docker-compose.rst
+
+31. KeystoneML 
+
+    .. include:: techs/keystoneml.rst
 
 Application and Analytics
 ----------------------------------------------------------------------
 
 32. Mahout :cite:`www-mahout`
-    
-    "Apache Mahout software provides three major features:
-    (1) A simple and extensible programming environment and framework
-    for building scalable algorithms
-    (2) A wide variety of premade algorithms for Scala + Apache Spark,
-    H2O, Apache Flink
-    (3) Samsara, a vector math experimentation environment with R-like
-    syntax which works at scale"
-    
 
-33. MLlib
-34. Mbase
-35. DataFu
-    
-    The Apache DataFu project was created out of the need for stable ,
-    well-tested libraries for large scale data processing in Hadoop.
-    As detailed in :cite:`www-DataFu` Apache DatFu consists of two
-    libraries Apache DataFu Pig and Apache DataFu Hourglass.  Apache
-    DataFu Pig is a collection of useful user-defined functions for
-    data analysis in Apache Pig. The functions are in areas of
-    Statistics, Bag Operations, Set Operations, Sessions, Sampling,
-    Estimation, Hashing and Link Analysis.  Apache DataFu Hourglass is
-    a library for incrementally processing data using Hadoop
-    MapReduce. It is designed to make computations over sliding windows
-    more efficient. For these types of computations, the input data is
-    partitioned in some way, usually according to time, and the range
-    of input data to process is adjusted as new data arrives.
-    Hourglass works with input data that is partitioned by day, as
-    this is a common scheme for partitioning temporal data.
+    .. include:: techs/mahout.rst
 
-36. R
-37. pbdR
-38. Bioconductor
-39. ImageJ
-40. OpenCV
-41. Scalapack
-42. PetSc
-43. PLASMA MAGMA
-44. Azure Machine Learning
-45. Google Prediction API & Translation API
-46. mlpy
-47. scikit-learn
-48. PyBrain
-49. CompLearn
-50. DAAL(Intel)
-51. Caffe
-52. Torch
-53. Theano
-54. DL4j
-55. H2O
-56. IBM Watson
-57. Oracle PGX
-58. GraphLab
-59. GraphX
-60. IBM System G
-61. GraphBuilder(Intel)
-62. TinkerPop
-63. Parasol
-64. Dream:Lab
-65. Google Fusion Tables
-66. CINET
-67. NWB
-68. Elasticsearch
-69. Kibana
-70. Logstash
-71. Graylog
-72. Splunk
-73. Tableau
-74. D3.js
-75. three.js
-76. Potree
-77. DC.js
-78. TensorFlow
-79. CNTK
+33. MLlib 
 
-   
+    .. include:: techs/mllib.rst
+
+34. Mbase 
+
+    .. include:: techs/mbase.rst
+
+35. DataFu 
+
+    .. include:: techs/datafu.rst
+
+36. R 
+
+    .. include:: techs/r.rst
+
+37. pbdR 
+
+    .. include:: techs/pbdr.rst
+
+38. Bioconductor 
+
+    .. include:: techs/bioconductor.rst
+
+39. ImageJ 
+
+    .. include:: techs/imagej.rst
+
+40. OpenCV 
+
+    .. include:: techs/opencv.rst
+
+41. Scalapack 
+
+    .. include:: techs/scalapack.rst
+
+42. PetSc 
+
+    .. include:: techs/petsc.rst
+
+43. PLASMA MAGMA 
+
+    .. include:: techs/plasma-magma.rst
+
+44. Azure Machine Learning 
+
+    .. include:: techs/azure-machine-learning.rst
+
+45. Google Prediction API & Translation API 
+
+    .. include:: techs/google-prediction-api---translation-api.rst
+
+46. mlpy 
+
+    .. include:: techs/mlpy.rst
+
+47. scikit-learn 
+
+    .. include:: techs/scikit-learn.rst
+
+48. PyBrain 
+
+    .. include:: techs/pybrain.rst
+
+49. CompLearn 
+
+    .. include:: techs/complearn.rst
+
+50. DAAL(Intel) 
+
+    .. include:: techs/daal-intel.rst
+
+51. Caffe 
+
+    .. include:: techs/caffe.rst
+
+52. Torch 
+
+    .. include:: techs/torch.rst
+
+53. Theano 
+
+    .. include:: techs/theano.rst
+
+54. DL4j 
+
+    .. include:: techs/dl4j.rst
+
+55. H2O 
+
+    .. include:: techs/h2o.rst
+
+56. IBM Watson 
+
+    .. include:: techs/ibm-watson.rst
+
+57. Oracle PGX 
+
+    .. include:: techs/oracle-pgx.rst
+
+58. GraphLab 
+
+    .. include:: techs/graphlab.rst
+
+59. GraphX 
+
+    .. include:: techs/graphx.rst
+
+60. IBM System G 
+
+    .. include:: techs/ibm-system-g.rst
+
+61. GraphBuilder(Intel) 
+
+    .. include:: techs/graphbuilder-intel.rst
+
+62. TinkerPop 
+
+    .. include:: techs/tinkerpop.rst
+
+63. Parasol 
+
+    .. include:: techs/parasol.rst
+
+64. Dream:Lab 
+
+    .. include:: techs/dream-lab.rst
+
+65. Google Fusion Tables 
+
+    .. include:: techs/google-fusion-tables.rst
+
+66. CINET 
+
+    .. include:: techs/cinet.rst
+
+67. NWB 
+
+    .. include:: techs/nwb.rst
+
+68. Elasticsearch 
+
+    .. include:: techs/elasticsearch.rst
+
+69. Kibana 
+
+    .. include:: techs/kibana.rst
+
+70. Logstash 
+
+    .. include:: techs/logstash.rst
+
+71. Graylog 
+
+    .. include:: techs/graylog.rst
+
+72. Splunk 
+
+    .. include:: techs/splunk.rst
+
+73. Tableau 
+
+    .. include:: techs/tableau.rst
+
+74. D3.js 
+
+    .. include:: techs/d3-js.rst
+
+75. three.js 
+
+    .. include:: techs/three-js.rst
+
+76. Potree 
+
+    .. include:: techs/potree.rst
+
+77. DC.js 
+
+    .. include:: techs/dc-js.rst
+
+78. TensorFlow 
+
+    .. include:: techs/tensorflow.rst
+
+79. CNTK 
+
+    .. include:: techs/cntk.rst
+
 Application Hosting Frameworks
 ----------------------------------------------------------------------
 
-80. Google App Engine  :cite:`www-gae`
-    
-    On purpose we put in here a "good" example of a bad entry that woudl
-    receive 10 out of 100 points, e.g. an F:
+80. Google App Engine :cite:`www-gae`
 
-    "Google App Engine" provides platform as a service.
-    There are major advantages from this framework:
+    .. include:: techs/google-app-engine.rst
 
-    1. Scalable Applications
-    2. Easier to maintain
-    3. Publishing services easily
+81. AppScale 
 
-    Reasons: (a) "major advantages is advertisement" if you add word
-    major (b) grammar needs to be improved (c) the three points do not
-    realy say anything about Google App Engine (d) the reader will
-    after reading this have not much information about what it is (e)
-    a refernce is not included. (f) enumeration should be in this page
-    avoided. We like to see a number of paragraphs with text.
+    .. include:: techs/appscale.rst
 
-    **Note: This is an example for a bad entry**
-  
-81. AppScale
-82. Red Hat OpenShift
-83. Heroku
-84. Aerobatic
-85. AWS Elastic Beanstalk
-86. Azure
-    
-    Microsoft Corporation markets its cloud products under the *Azure* brand
-    name. At its most basic, Azure acts as an *infrastructure-as-a-service* (IaaS)
-    provider.  IaaS virtualizes hardware components, a key differentiation from
-    other *-as-a-service* products.  The Wikipedia entry on IaaS notes that IaaS
-    "abstract[s] the user from the details of infrasctructure like physical
-    computing resources, location, data partitioning, scaling, security, backup,
-    etc." :cite:www-wikipedia-cloud
+82. Red Hat OpenShift 
 
-    However, Azure offers a host of closely-related tool and products to enhance
-    and improve the core product, such as raw block storage, load balancers,
-    and IP addresses :cite:`www-azure-msft`.  For instance, Azure users can access
-    predictive analytics, Bots and Blockchain-as-a-Service :cite:www-azure-msft as
-    well as more-basic computing, networking, storage, database and management
-    components :cite:`www-sec-edgar-msft`.  The Azure website shows twelve major
-    categories under *Products* and twenty *Solution* categories, e.g., e-commerce
-    or Business SaaS apps.
+    .. include:: techs/red-hat-openshift.rst
 
-    Azure competes against Amazon's *Amazon Web Service*, :cite:www-aws-amzn
-    even though IBM (*SoftLayer* :cite:www-softlayer-ibm and *Bluemix* :cite
-    :www-bluemix-ibm) and Google (*Google Cloud Platform*) :cite:www-cloud-
-    google offer IaaS to the market.  As of January 2017, Azure's datacenters
-    span 32 Microsoft-defined *regions*, or 38 *declared regions*, throughout
-    the world. :cite:www-azure-msft
+83. Heroku 
 
-87. Cloud Foundry
-88. Pivotal
-89. IBM BlueMix
-90. Ninefold
-91. Jelastic
-92. Stackato
-93. appfog
-94. CloudBees
-95. Engine Yard
-96. CloudControl
-97. dotCloud
-98. Dokku
-99. OSGi
-100. HUBzero
-101. OODT
-102. Agave
-103. Atmosphere
+    .. include:: techs/heroku.rst
 
+84. Aerobatic 
+
+    .. include:: techs/aerobatic.rst
+
+85. AWS Elastic Beanstalk 
+
+    .. include:: techs/aws-elastic-beanstalk.rst
+
+86. Azure 
+
+    .. include:: techs/azure.rst
+
+87. Cloud Foundry 
+
+    .. include:: techs/cloud-foundry.rst
+
+88. Pivotal 
+
+    .. include:: techs/pivotal.rst
+
+89. IBM BlueMix 
+
+    .. include:: techs/ibm-bluemix.rst
+
+90. Ninefold 
+
+    .. include:: techs/ninefold.rst
+
+91. Jelastic 
+
+    .. include:: techs/jelastic.rst
+
+92. Stackato 
+
+    .. include:: techs/stackato.rst
+
+93. appfog 
+
+    .. include:: techs/appfog.rst
+
+94. CloudBees 
+
+    .. include:: techs/cloudbees.rst
+
+95. Engine Yard 
+
+    .. include:: techs/engine-yard.rst
+
+96. CloudControl 
+
+    .. include:: techs/cloudcontrol.rst
+
+97. dotCloud 
+
+    .. include:: techs/dotcloud.rst
+
+98. Dokku 
+
+    .. include:: techs/dokku.rst
+
+99. OSGi 
+
+    .. include:: techs/osgi.rst
+
+100. HUBzero 
+
+     .. include:: techs/hubzero.rst
+
+101. OODT 
+
+     .. include:: techs/oodt.rst
+
+102. Agave 
+
+     .. include:: techs/agave.rst
+
+103. Atmosphere 
+
+     .. include:: techs/atmosphere.rst
 
 High level Programming
 ----------------------------------------------------------------------
 
-104. Kite
-105. Hive
-106. HCatalog
-107. Tajo
-108. Shark
-109. Phoenix
+104. Kite 
 
-In the first quarter of 2013, Salesforce.com released its proprietary SQL-like
-interface and query engine for HBase, *Phoenix*, to the open source community.
-The company appears to have been motivated to develop Phoenix as a way to 1)
-increase accessiblity to HBase by using the industry-standard query language
-(SQL); 2) save users time by abstracting away the complexities of coding native
-HBase queries; and, 3) implementing query best practices by implementing them
-automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
-initially *open-sourced* it via Github, by May of 2014 it had become a top-level
-Apache project. :cite:www-phoenix-wikipedia
+     .. include:: techs/kite.rst
 
-Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
-and orchestrates the running of those scans to produce regular JDBC result
-sets." :cite:www-apachephoenix-org  In addition, the program directs compute
-intense portions of the calls to the server.  For instance, if a user queried
-for the top ten records across numerous regions from an HBase database
-consisting of a billion records, the program would first select the top ten
-records for each region using server-side compute resources.  After that, the
-client would be tasked with selecting the overall top ten. :cite:www-phoenix-
-salesforcedev
+105. Hive 
 
-Despite adding an abstraction layer, Phoenix can actually speed up queries
-because it optimizes the query during the translation process. :cite:www-
-phoenix-cloudera  For example, "Phoenix beats Hive for a simple query spanning
-10M-100M rows." :cite:www-phoenix-infoq
+     .. include:: techs/hive.rst
 
-Finally, another program can enhance HBase's accessibility for those inclined
-towards graphical interfaces.  SQuirell only requires the user to set up the
-JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
-bighadoop
+106. HCatalog 
 
-110. Impala
-111. MRQL
-112. SAP HANA
-113. HadoopDB
-114. PolyBase
-115. Pivotal HD/Hawq
-116. Presto
+     .. include:: techs/hcatalog.rst
+
+107. Tajo 
+
+     .. include:: techs/tajo.rst
+
+108. Shark 
+
+     .. include:: techs/shark.rst
+
+109. Phoenix 
+
+     .. include:: techs/phoenix.rst
+
+110. Impala 
+
+     .. include:: techs/impala.rst
+
+111. MRQL 
+
+     .. include:: techs/mrql.rst
+
+112. SAP HANA 
+
+     .. include:: techs/sap-hana.rst
+
+113. HadoopDB 
+
+     .. include:: techs/hadoopdb.rst
+
+114. PolyBase 
+
+     .. include:: techs/polybase.rst
+
+115. Pivotal HD/Hawq 
+
+     .. include:: techs/pivotal-hd-hawq.rst
+
+116. Presto 
 
      .. include:: techs/presto.rst
 
-117. Google Dremel
-118. Google BigQuery
-119. Amazon Redshift
-120. Drill
-121. Kyoto Cabinet
-     
-     Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
-     library of routines for managing a database which is a simple
-     data file containing records. Each record in the database is a
-     pair of a key and a value.Every key and value is serial bytes
-     with variable length. Both binary data and character string can
-     be used as a key and a value. Each key must be unique within a
-     database.  There is neither concept of data tables nor data
-     types. Records are organized in hash table or B+ tree. Kyoto
-     Cabinet runs very fast. The elapsed time to store one million
-     records is 0.9 seconds for hash database, and 1.1 seconds for B+
-     tree database. Moreover, the size of database is very small. The,
-     overhead for a record is 16 bytes for hash database, and 4 bytes
-     for B+ tree database. Furthermore, scalability of Kyoto Cabinet
-     is great.  The database size can be up to 8EB (9.22e18 bytes).
+117. Google Dremel 
 
-122. Pig
-123. Sawzall
-124. Google Cloud DataFlow
-125. Summingbird
-126. Lumberyard
+     .. include:: techs/google-dremel.rst
+
+118. Google BigQuery 
+
+     .. include:: techs/google-bigquery.rst
+
+119. Amazon Redshift 
+
+     .. include:: techs/amazon-redshift.rst
+
+120. Drill 
+
+     .. include:: techs/drill.rst
+
+121. Kyoto Cabinet 
+
+     .. include:: techs/kyoto-cabinet.rst
+
+122. Pig 
+
+     .. include:: techs/pig.rst
+
+123. Sawzall 
+
+     .. include:: techs/sawzall.rst
+
+124. Google Cloud DataFlow 
+
+     .. include:: techs/google-cloud-dataflow.rst
+
+125. Summingbird 
+
+     .. include:: techs/summingbird.rst
+
+126. Lumberyard 
+
+     .. include:: techs/lumberyard.rst
 
 Streams
 ----------------------------------------------------------------------
 
-127. Storm
-128. S4
-129. Samza
-130. Granules
-131. Neptune
-132. Google MillWheel
-133. Amazon Kinesis
-134. LinkedIn
-135. Twitter Heron
-136. Databus
-137. Facebook Puma/Ptail/Scribe/ODS
-138. Azure Stream Analytics
-139. Floe
-140. Spark Streaming
-141. Flink Streaming
-142. DataTurbine
+127. Storm 
 
+     .. include:: techs/storm.rst
+
+128. S4 
+
+     .. include:: techs/s4.rst
+
+129. Samza 
+
+     .. include:: techs/samza.rst
+
+130. Granules 
+
+     .. include:: techs/granules.rst
+
+131. Neptune 
+
+     .. include:: techs/neptune.rst
+
+132. Google MillWheel 
+
+     .. include:: techs/google-millwheel.rst
+
+133. Amazon Kinesis 
+
+     .. include:: techs/amazon-kinesis.rst
+
+134. LinkedIn 
+
+     .. include:: techs/linkedin.rst
+
+135. Twitter Heron 
+
+     .. include:: techs/twitter-heron.rst
+
+136. Databus 
+
+     .. include:: techs/databus.rst
+
+137. Facebook Puma/Ptail/Scribe/ODS 
+
+     .. include:: techs/facebook-puma-ptail-scribe-ods.rst
+
+138. Azure Stream Analytics 
+
+     .. include:: techs/azure-stream-analytics.rst
+
+139. Floe 
+
+     .. include:: techs/floe.rst
+
+140. Spark Streaming 
+
+     .. include:: techs/spark-streaming.rst
+
+141. Flink Streaming 
+
+     .. include:: techs/flink-streaming.rst
+
+142. DataTurbine 
+
+     .. include:: techs/dataturbine.rst
 
 Basic Programming model and runtime, SPMD, MapReduce
 ----------------------------------------------------------------------
 
-143. Hadoop
-144. Spark
-145. Twister
-146. MR-MPI
-147. Stratosphere (Apache Flink)
-148. Reef
-149. Disco
-150. Hama
-151. Giraph
-152. Pregel
-153. Pegasus
-154. Ligra
-155. GraphChi
-156. Galois
-157. Medusa-GPU
-158. MapGraph
-159. Totem
+143. Hadoop 
 
+     .. include:: techs/hadoop.rst
+
+144. Spark 
+
+     .. include:: techs/spark.rst
+
+145. Twister 
+
+     .. include:: techs/twister.rst
+
+146. MR-MPI 
+
+     .. include:: techs/mr-mpi.rst
+
+147. Stratosphere (Apache Flink) 
+
+     .. include:: techs/stratosphere--apache-flink.rst
+
+148. Reef 
+
+     .. include:: techs/reef.rst
+
+149. Disco 
+
+     .. include:: techs/disco.rst
+
+150. Hama 
+
+     .. include:: techs/hama.rst
+
+151. Giraph 
+
+     .. include:: techs/giraph.rst
+
+152. Pregel 
+
+     .. include:: techs/pregel.rst
+
+153. Pegasus 
+
+     .. include:: techs/pegasus.rst
+
+154. Ligra 
+
+     .. include:: techs/ligra.rst
+
+155. GraphChi 
+
+     .. include:: techs/graphchi.rst
+
+156. Galois 
+
+     .. include:: techs/galois.rst
+
+157. Medusa-GPU 
+
+     .. include:: techs/medusa-gpu.rst
+
+158. MapGraph 
+
+     .. include:: techs/mapgraph.rst
+
+159. Totem 
+
+     .. include:: techs/totem.rst
 
 Inter process communication Collectives
 ----------------------------------------------------------------------
 
-160. point-to-point
-161. publish-subscribe: MPI
-162. HPX-5
-163. Argo BEAST HPX-5 BEAST PULSAR
-164. Harp
-165. Netty
-166. ZeroMQ
-167. ActiveMQ
-168. RabbitMQ
-169. NaradaBrokering
-170. QPid
-171. Kafka
-172. Kestrel
-173. JMS
-174. AMQP
-175. Stomp
-176. MQTT
-177. Marionette Collective
-178. Public Cloud: Amazon SNS
-179. Lambda
-180. Google Pub Sub
-181. Azure Queues
+160. point-to-point 
+
+     .. include:: techs/point-to-point.rst
+
+161. publish-subscribe: MPI 
+
+     .. include:: techs/publish-subscribe--mpi.rst
+
+162. HPX-5 
+
+     .. include:: techs/hpx-5.rst
+
+163. Argo BEAST HPX-5 BEAST PULSAR 
+
+     .. include:: techs/argo-beast-hpx-5-beast-pulsar.rst
+
+164. Harp 
+
+     .. include:: techs/harp.rst
+
+165. Netty 
+
+     .. include:: techs/netty.rst
+
+166. ZeroMQ 
+
+     .. include:: techs/zeromq.rst
+
+167. ActiveMQ 
+
+     .. include:: techs/activemq.rst
+
+168. RabbitMQ 
+
+     .. include:: techs/rabbitmq.rst
+
+169. NaradaBrokering 
+
+     .. include:: techs/naradabrokering.rst
+
+170. QPid 
+
+     .. include:: techs/qpid.rst
+
+171. Kafka 
+
+     .. include:: techs/kafka.rst
+
+172. Kestrel 
+
+     .. include:: techs/kestrel.rst
+
+173. JMS 
+
+     .. include:: techs/jms.rst
+
+174. AMQP 
+
+     .. include:: techs/amqp.rst
+
+175. Stomp 
+
+     .. include:: techs/stomp.rst
+
+176. MQTT 
+
+     .. include:: techs/mqtt.rst
+
+177. Marionette Collective 
+
+     .. include:: techs/marionette-collective.rst
+
+178. Public Cloud: Amazon SNS 
+
+     .. include:: techs/public-cloud--amazon-sns.rst
+
+179. Lambda 
+
+     .. include:: techs/lambda.rst
+
+180. Google Pub Sub 
+
+     .. include:: techs/google-pub-sub.rst
+
+181. Azure Queues 
+
+     .. include:: techs/azure-queues.rst
+
 182. Event Hubs 
+
+     .. include:: techs/event-hubs.rst
 
 In-memory databases/caches
 ----------------------------------------------------------------------
 
 
-183. Gora (general object from NoSQL)
-184. Memcached
-185. Redis
-186. LMDB (key value)
-187. Hazelcast
-188. Ehcache
-189. Infinispan
-190. VoltDB
-191. H-Store
+183. Gora (general object from NoSQL) 
 
-     H-Store is an in memory and parallel database management system
-     for on-line transaction processing (OLTP). Specifically ,
-     :cite:`www-Hstore` illustrates that H-Store is a highly
-     distributed, row-store-based relational database that runs on a
-     cluster on shared-nothing, main memory executor nodes.As Noted in
-     :cite:`kallman2008` "the architectural and application shifts
-     have resulted in modern OLTP databases increasingly falling short
-     of optimal performance.In particular, the availability of
-     multiple-cores, the abundance of main memory, the lack of user
-     stalls, and the dominant use of stored procedures are factors
-     that portend a clean-slate redesign of RDBMSs".The H-store which
-     is a complete redesign has the potential to outperform legacy
-     OLTP databases by a significant factor.  As detailed in
-     :cite:`www-Hstorewiki` H-Store is the first implementation of a
-     new class of parallel DBMS, called NewSQL, that provides the
-     high-throughput and high-availability of NoSQL systems, but
-     without giving up the transactional guarantees of a traditional
-     DBMS.  The H-Store system is able to scale out horizontally
-     across multiple machines to improve throughput, as opposed to
-     moving to a more powerful , more expensive machine for a
-     single-node system.
+     .. include:: techs/gora--general-object-from-nosql.rst
+
+184. Memcached 
+
+     .. include:: techs/memcached.rst
+
+185. Redis 
+
+     .. include:: techs/redis.rst
+
+186. LMDB (key value) 
+
+     .. include:: techs/lmdb--key-value.rst
+
+187. Hazelcast 
+
+     .. include:: techs/hazelcast.rst
+
+188. Ehcache 
+
+     .. include:: techs/ehcache.rst
+
+189. Infinispan 
+
+     .. include:: techs/infinispan.rst
+
+190. VoltDB 
+
+     .. include:: techs/voltdb.rst
+
+191. H-Store 
+
+     .. include:: techs/h-store.rst
 
 Object-relational mapping
 ----------------------------------------------------------------------
 
-192. Hibernate
-193. OpenJPA
-194. EclipseLink
-195. DataNucleus
-196. ODBC/JDBC
+192. Hibernate 
 
+     .. include:: techs/hibernate.rst
+
+193. OpenJPA 
+
+     .. include:: techs/openjpa.rst
+
+194. EclipseLink 
+
+     .. include:: techs/eclipselink.rst
+
+195. DataNucleus 
+
+     .. include:: techs/datanucleus.rst
+
+196. ODBC/JDBC 
+
+     .. include:: techs/odbc-jdbc.rst
 
 Extraction Tools
 ----------------------------------------------------------------------
 
-197. UIMA
-     
-381. Tika 
+197. UIMA 
 
-     "The Apache Tika toolkit detects and extracts metadata and text
-     from over a thousand different file types (such as PPT, XLS, and
-     PDF). All of these file types can be parsed through a single
-     interface, making Tika useful for search engine indexing, content
-     analysis, translation, and much more. :cite:`www-tika`"
+     .. include:: techs/uima.rst
 
+198. Tika 
+
+     .. include:: techs/tika.rst
 
 SQL(NewSQL)
 ----------------------------------------------------------------------
 
-198. Oracle
-199. DB2
-200. SQL Server
+199. Oracle 
 
-     SQL Server :cite:`www-sqlserver-wiki` is a relational database management system
-     from Microsoft. As of Jan 2017, SQL Server is available in below editions
+     .. include:: techs/oracle.rst
 
-     1. Standard - consists of core database engine
-     2. Web - low cost edition for web hosting
-     3. Business Intelligence - includes standard edition and business
-        intelligence tools like PowerPivot, PowerBI, Master Data Services
-     4. Enterprise - consists of core database engine and enterprise services
-        like cluster manager
-     5. SQL Server Azure - :cite:`www-azuresql` core database engine
-        integrated with Microsoft Azure cloud platform and available in
-        platform-as-a-service mode.
+200. DB2 
 
-     Ross Mistry and Stacia Misner in :cite:`book-sqlserver` explain
-     the technical architecture of SQL Server in OLTP(online
-     transaction processing), hybrid cloud and business intelligence
-     modes.
+     .. include:: techs/db2.rst
 
-     **IMPROVE: It is inappropriate to mention authors**
+201. SQL Server 
 
-201. SQLite
-202. MySQL
-203. PostgreSQL
-204. CUBRID
-205. Galera Cluster
-206. SciDB
-207. Rasdaman
-208. Apache Derby
-209. Pivotal Greenplum
-210. Google Cloud SQL
-211. Azure SQL
-212. Amazon RDS
-213. Google F1
-214. IBM dashDB
-215. N1QL
-216. BlinkDB
-217. Spark SQL
+     .. include:: techs/sql-server.rst
+
+202. SQLite 
+
+     .. include:: techs/sqlite.rst
+
+203. MySQL 
+
+     .. include:: techs/mysql.rst
+
+204. PostgreSQL 
+
+     .. include:: techs/postgresql.rst
+
+205. CUBRID 
+
+     .. include:: techs/cubrid.rst
+
+206. Galera Cluster 
+
+     .. include:: techs/galera-cluster.rst
+
+207. SciDB 
+
+     .. include:: techs/scidb.rst
+
+208. Rasdaman 
+
+     .. include:: techs/rasdaman.rst
+
+209. Apache Derby 
+
+     .. include:: techs/apache-derby.rst
+
+210. Pivotal Greenplum 
+
+     .. include:: techs/pivotal-greenplum.rst
+
+211. Google Cloud SQL 
+
+     .. include:: techs/google-cloud-sql.rst
+
+212. Azure SQL 
+
+     .. include:: techs/azure-sql.rst
+
+213. Amazon RDS 
+
+     .. include:: techs/amazon-rds.rst
+
+214. Google F1 
+
+     .. include:: techs/google-f1.rst
+
+215. IBM dashDB 
+
+     .. include:: techs/ibm-dashdb.rst
+
+216. N1QL 
+
+     .. include:: techs/n1ql.rst
+
+217. BlinkDB 
+
+     .. include:: techs/blinkdb.rst
+
+218. Spark SQL 
+
+     .. include:: techs/spark-sql.rst
 
 NoSQL
 ----------------------------------------------------------------------
 
-218. Lucene
-219. Solr
-220. Solandra
-221. Voldemort
+219. Lucene 
 
-     According to :cite:`www-voldemort`, project Voldemort, developed
-     by LinkedIN, is a non-relational database of key-value type that
-     supports eventual consistency. The distributed nature of the
-     system allows pluggable data placement and provides horizontal
-     scalability and high consistency. Replication and partitioning of
-     data is automatic and performed on multiple servers. Independent
-     nodes that comprise the server support transparent handling of
-     server failure and ensure absence of a central point of
-     failure. Essentially, Voldemort is a hashtable. It uses APIs for
-     data replication. In memory caching allows for faster
-     operations. It allows cluster expansion with no data
-     rebalancing. When Voldemort performance was benchmarked with the
-     other key-value databases such as Cassandra, Redis and HBase as
-     well as MySQL relational database
-     (:cite:`rabl_sadoghi_jacobsen_2012`), the Voldemart's throughput
-     was twice lower than MySQL and Cassandra and six times higher
-     than HBase. Voldemort was slightly underperforming in comparison
-     with Redis.  At the same time, it demonstrated consistent linear
-     performance in maximum throughput that supports high scalability.
-     The read latency for Voldemort was fairly consistent and only
-     slightly underperformed Redis. Similar tendency was observed with
-     the read latency that puts Voldermort in the cluster of databases
-     that require good read-write speed for workload
-     operations. However, the same authors noted that Voldemort
-     required creation of the node specific configuration and
-     optimization in order to successfully run a high throughput
-     tests. The default options were not sufficient and were quickly
-     saturated that stall the database.
+     .. include:: techs/lucene.rst
 
-222. Riak
-223. ZHT
-224. Berkeley DB
-225. Kyoto/Tokyo Cabinet
-226. Tycoon
-227. Tyrant
-     
-     Tyrant provides network interfaces to the database management
-     system called Tokyo Cabinet. Tyrant is also called as Tokyo
-     Tyrant. Tyrant is implemented in C and it provides APIs for Perl,
-     Ruby and C. Tyrant provides high performance and concurrent
-     access to Tokyo Cabinet. In his blog :cite:`www-tyrant-blog` Matt
-     Yonkovit has explained the results of performance experiments he
-     conducted to compare Tyrant against Memcached and MySQL.
+220. Solr 
 
-     Tyrant was written and maintained by FAL Labs
-     :cite:`www-tyrant-fal-labs`.  However, according to FAL Labs,
-     their latest product :cite:`www-kyoto-tycoon` Kyoto Tycoon is
-     more powerful and convenient server than Tokyo Tyrant.
+     .. include:: techs/solr.rst
 
+221. Solandra 
 
-228. MongoDB
-229. Espresso
-230. CouchDB
-231. Couchbase
-232. IBM Cloudant
-233. Pivotal Gemfire
-234. HBase
-235. Google Bigtable
-236. LevelDB
-237. Megastore and Spanner
-238. Accumulo
-239. Cassandra
-240. RYA
-241. Sqrrl
-242. Neo4J
-243. graphdb
-244. Yarcdata
-245. AllegroGraph
-246. Blazegraph
-247. Facebook Tao
-248. Titan:db
-249. Jena
-250. Sesame
-251. Public Cloud: Azure Table
-252. Amazon Dynamo
-253. Google DataStore
+     .. include:: techs/solandra.rst
+
+222. Voldemort 
+
+     .. include:: techs/voldemort.rst
+
+223. Riak 
+
+     .. include:: techs/riak.rst
+
+224. ZHT 
+
+     .. include:: techs/zht.rst
+
+225. Berkeley DB 
+
+     .. include:: techs/berkeley-db.rst
+
+226. Kyoto/Tokyo Cabinet 
+
+     .. include:: techs/kyoto-tokyo-cabinet.rst
+
+227. Tycoon 
+
+     .. include:: techs/tycoon.rst
+
+228. Tyrant 
+
+     .. include:: techs/tyrant.rst
+
+229. MongoDB 
+
+     .. include:: techs/mongodb.rst
+
+230. Espresso 
+
+     .. include:: techs/espresso.rst
+
+231. CouchDB 
+
+     .. include:: techs/couchdb.rst
+
+232. Couchbase 
+
+     .. include:: techs/couchbase.rst
+
+233. IBM Cloudant 
+
+     .. include:: techs/ibm-cloudant.rst
+
+234. Pivotal Gemfire 
+
+     .. include:: techs/pivotal-gemfire.rst
+
+235. HBase 
+
+     .. include:: techs/hbase.rst
+
+236. Google Bigtable 
+
+     .. include:: techs/google-bigtable.rst
+
+237. LevelDB 
+
+     .. include:: techs/leveldb.rst
+
+238. Megastore and Spanner 
+
+     .. include:: techs/megastore-and-spanner.rst
+
+239. Accumulo 
+
+     .. include:: techs/accumulo.rst
+
+240. Cassandra 
+
+     .. include:: techs/cassandra.rst
+
+241. RYA 
+
+     .. include:: techs/rya.rst
+
+242. Sqrrl 
+
+     .. include:: techs/sqrrl.rst
+
+243. Neo4J 
+
+     .. include:: techs/neo4j.rst
+
+244. graphdb 
+
+     .. include:: techs/graphdb.rst
+
+245. Yarcdata 
+
+     .. include:: techs/yarcdata.rst
+
+246. AllegroGraph 
+
+     .. include:: techs/allegrograph.rst
+
+247. Blazegraph 
+
+     .. include:: techs/blazegraph.rst
+
+248. Facebook Tao 
+
+     .. include:: techs/facebook-tao.rst
+
+249. Titan:db 
+
+     .. include:: techs/titan-db.rst
+
+250. Jena 
+
+     .. include:: techs/jena.rst
+
+251. Sesame 
+
+     .. include:: techs/sesame.rst
+
+252. Public Cloud: Azure Table 
+
+     .. include:: techs/public-cloud--azure-table.rst
+
+253. Amazon Dynamo 
+
+     .. include:: techs/amazon-dynamo.rst
+
+254. Google DataStore 
+
+     .. include:: techs/google-datastore.rst
 
 File management
 ----------------------------------------------------------------------
 
-254. iRODS
-255. NetCDF
-256. CDF
-257. HDF
-258. OPeNDAP
-259. FITS
-     
-     FITS stand for 'Flexible Image Trasnport System'. It is a
-     standard data format used in astronomy. FITS data format is
-     endorsed by NASA and International Astronomical Union. According
-     to :cite:`www-fits-nasa`, FITS can be used for transport,
-     analysis and archival storage of scientific datasets and support
-     multi-dimensional arrays, tables and headers sections.  FITS is
-     actively used and developed - according to
-     :cite:`www-news-fits-2016` newer version of FITS standard
-     document was released in July 2016. FITS can be used for
-     digitization of contents like books and
-     magzines. :cite:`www-fits-vatican-library` used FITS for long
-     term preservation of their book, manuscripts and other
-     collection. Matlab, a language used for technical computing
-     supports fits :cite:`www-fits-matlab`. In his 2011 paper, Keith
-     Wiley :cite:`paper-fits-2011` explained how they performed
-     processing of astronomical images on Hadoop. They used FITS
-     format for data storage.
+255. iRODS 
 
-260. RCFile
-261. ORC
-262. Parquet
+     .. include:: techs/irods.rst
+
+256. NetCDF 
+
+     .. include:: techs/netcdf.rst
+
+257. CDF 
+
+     .. include:: techs/cdf.rst
+
+258. HDF 
+
+     .. include:: techs/hdf.rst
+
+259. OPeNDAP 
+
+     .. include:: techs/opendap.rst
+
+260. FITS 
+
+     .. include:: techs/fits.rst
+
+261. RCFile 
+
+     .. include:: techs/rcfile.rst
+
+262. ORC 
+
+     .. include:: techs/orc.rst
+
+263. Parquet 
+
+     .. include:: techs/parquet.rst
 
 Data Transport
 ----------------------------------------------------------------------
 
-263. BitTorrent
-264. HTTP
-265. FTP
-266. SSH
-267. Globus Online (GridFTP)
-     
-     GridFTP is a enhancement on the File Tranfer Protocol (FTP) which
-     provides high-performance , secure and reliable data transfer for
-     high-bandwidth wide-area networks. As noted in
-     :cite:`www-GlobusOnline` the most widely used implementation of
-     GridFTP is Globus Online. GridFTP achieves efficient use of
-     bandwidth by using multiple simultaneous TCP streams.  Files can
-     be downloaded in pieces simultaneously from multiple sources; or
-     even in separate parallel streams from the same source. GridFTP
-     allows transfers to be restarted automatically and handles
-     network unavailability with a fault tolerant implementation of
-     FTP.The underlying TCP connection in FTP has numerous settings
-     such as window size and buffer size. GridFTP allows automatic (or
-     manual) negotiation of these settings to provide optimal transfer
-     speeds and reliability .
+264. BitTorrent 
 
-  
-268. Flume
-269. Sqoop
-270. Pivotal GPLOAD/GPFDIST
+     .. include:: techs/bittorrent.rst
+
+265. HTTP 
+
+     .. include:: techs/http.rst
+
+266. FTP 
+
+     .. include:: techs/ftp.rst
+
+267. SSH 
+
+     .. include:: techs/ssh.rst
+
+268. Globus Online (GridFTP) 
+
+     .. include:: techs/globus-online--gridftp.rst
+
+269. Flume 
+
+     .. include:: techs/flume.rst
+
+270. Sqoop 
+
+     .. include:: techs/sqoop.rst
+
+271. Pivotal GPLOAD/GPFDIST 
+
+     .. include:: techs/pivotal-gpload-gpfdist.rst
 
 Cluster Resource Management
 ----------------------------------------------------------------------
 
-271. Mesos
-272. Yarn
-273. Helix
-274. Llama
-275. Google Omega
-276. Facebook Corona
-277. Celery
-278. HTCondor
-279. SGE
-280. OpenPBS
-281. Moab
-282. Slurm :cite:`www-slurm`
-283. Torque
-284. Globus Tools
-285. Pilot Jobs
+272. Mesos 
+
+     .. include:: techs/mesos.rst
+
+273. Yarn 
+
+     .. include:: techs/yarn.rst
+
+274. Helix 
+
+     .. include:: techs/helix.rst
+
+275. Llama 
+
+     .. include:: techs/llama.rst
+
+276. Google Omega 
+
+     .. include:: techs/google-omega.rst
+
+277. Facebook Corona 
+
+     .. include:: techs/facebook-corona.rst
+
+278. Celery 
+
+     .. include:: techs/celery.rst
+
+279. HTCondor 
+
+     .. include:: techs/htcondor.rst
+
+280. SGE 
+
+     .. include:: techs/sge.rst
+
+281. OpenPBS 
+
+     .. include:: techs/openpbs.rst
+
+282. Moab 
+
+     .. include:: techs/moab.rst
+
+283. Slurm :cite:`www-slurm`
+
+     .. include:: techs/slurm.rst
+
+284. Torque 
+
+     .. include:: techs/torque.rst
+
+285. Globus Tools 
+
+     .. include:: techs/globus-tools.rst
+
+286. Pilot Jobs 
+
+     .. include:: techs/pilot-jobs.rst
 
 File systems
 ----------------------------------------------------------------------
 
-286. HDFS
-287. Swift
-288. Haystack
-289. f4
-290. Cinder
-291. Ceph
-292. FUSE
-293. Gluster
-294. Lustre
-295. GPFS
-296. GFFS
-297. Public Cloud: Amazon S3
-298. Azure Blob
-299. Google Cloud Storage
+287. HDFS 
 
+     .. include:: techs/hdfs.rst
+
+288. Swift 
+
+     .. include:: techs/swift.rst
+
+289. Haystack 
+
+     .. include:: techs/haystack.rst
+
+290. f4 
+
+     .. include:: techs/f4.rst
+
+291. Cinder 
+
+     .. include:: techs/cinder.rst
+
+292. Ceph 
+
+     .. include:: techs/ceph.rst
+
+293. FUSE 
+
+     .. include:: techs/fuse.rst
+
+294. Gluster 
+
+     .. include:: techs/gluster.rst
+
+295. Lustre 
+
+     .. include:: techs/lustre.rst
+
+296. GPFS 
+
+     .. include:: techs/gpfs.rst
+
+297. GFFS 
+
+     .. include:: techs/gffs.rst
+
+298. Public Cloud: Amazon S3 
+
+     .. include:: techs/public-cloud--amazon-s3.rst
+
+299. Azure Blob 
+
+     .. include:: techs/azure-blob.rst
+
+300. Google Cloud Storage 
+
+     .. include:: techs/google-cloud-storage.rst
 
 Interoperability
 ----------------------------------------------------------------------
 
-300. Libvirt
-301. Libcloud
-302. JClouds
-303. TOSCA
-304. OCCI
-305. CDMI
-306. Whirr
-307. Saga
-308. Genesis
+301. Libvirt 
+
+     .. include:: techs/libvirt.rst
+
+302. Libcloud 
+
+     .. include:: techs/libcloud.rst
+
+303. JClouds 
+
+     .. include:: techs/jclouds.rst
+
+304. TOSCA 
+
+     .. include:: techs/tosca.rst
+
+305. OCCI 
+
+     .. include:: techs/occi.rst
+
+306. CDMI 
+
+     .. include:: techs/cdmi.rst
+
+307. Whirr 
+
+     .. include:: techs/whirr.rst
+
+308. Saga 
+
+     .. include:: techs/saga.rst
+
+309. Genesis 
+
+     .. include:: techs/genesis.rst
 
 DevOps
 ----------------------------------------------------------------------
 
-309. Docker (Machine, Swarm)
-310. Puppet
-311. Chef
-     
-     Chef is a configuration management tool. It is implemented in
-     Ruby and Erlang. Chef can be used to configure and maintain
-     servers on-premise as well as cloud platforms like Amazon EC2,
-     Google Cloud Platform and Open Stack. In his book
-     :cite:`chef-book` Matthias Marschall explains how user can
-     implement recipes in Chef to manage server applications and
-     utilities such as database servers like MySQL, or HTTP servers
-     like Apache HTPP and systems like Apache Hadoop.
+310. Docker (Machine, Swarm) 
 
-     Chef is available in open source version and it also has commercial
-     products for the companies which need it :cite:`www-chef-commercial`
+     .. include:: techs/docker--machine--swarm.rst
 
-     **IMPROVE: Mention names is inappropriate**
-    
-312. Ansible
-313. SaltStack
-314. Boto
-315. Cobbler
-316. Xcat
-317. Razor
-318. CloudMesh
-319. Juju
+311. Puppet 
 
-      Juju (formerly Ensemble) :cite:`juju-paper` is software from
-      Canonical that provides open source service orchestration. It is
-      used to easily and quickly deploy and manage services on cloud
-      and physical servers. Juju charms can be deployed on cloud
-      services such as Amazon Web Services (AWS), Microsoft Azure and
-      OpenStack. It can also be used on bare metal using MAAS.
-      Specifically :cite:`www-juju` lists around 300 charms available
-      for services available in the Juju store. Charms can be written
-      in any language. It also supports Bundles which are
-      pre-configured collection of Charms that helps in quick
-      deployment of whole infrastructure.
+     .. include:: techs/puppet.rst
 
-320. Foreman
-321. OpenStack Heat
-322. Sahara
+312. Chef 
 
-     The Sahara product provides users with the capability to
-     provision data processing frameworks (such as Hadoop, Spark and
-     Storm) on OpenStack :cite:`www-openStack` by specifying several
-     parameters such as the version,cluster topology and hardware node
-     details.As specified in :cite:`www-Sahara` the solution allows
-     for fast provisioning of data processing clusters on OpenStack
-     for development and quality assurance and utilisation of unused
-     computer power from a general purpose OpenStack Iaas Cloud.Sahara
-     is managed via a REST API with a User Interface available as part
-     of OpenStack Dashboard.
+     .. include:: techs/chef.rst
 
-323. Rocks
-324. Cisco Intelligent Automation for Cloud
-325. Ubuntu MaaS
-326. Facebook Tupperware
-327. AWS OpsWorks
-328. OpenStack Ironic
-329. Google Kubernetes
-330. Buildstep
-331. Gitreceive
-332. OpenTOSCA
-333. Winery
-334. CloudML
-335. Blueprints
-336. Terraform
-337. DevOpSlang
-338. Any2Api
+313. Ansible 
+
+     .. include:: techs/ansible.rst
+
+314. SaltStack 
+
+     .. include:: techs/saltstack.rst
+
+315. Boto 
+
+     .. include:: techs/boto.rst
+
+316. Cobbler 
+
+     .. include:: techs/cobbler.rst
+
+317. Xcat 
+
+     .. include:: techs/xcat.rst
+
+318. Razor 
+
+     .. include:: techs/razor.rst
+
+319. CloudMesh 
+
+     .. include:: techs/cloudmesh.rst
+
+320. Juju 
+
+     .. include:: techs/juju.rst
+
+321. Foreman 
+
+     .. include:: techs/foreman.rst
+
+322. OpenStack Heat 
+
+     .. include:: techs/openstack-heat.rst
+
+323. Sahara 
+
+     .. include:: techs/sahara.rst
+
+324. Rocks 
+
+     .. include:: techs/rocks.rst
+
+325. Cisco Intelligent Automation for Cloud 
+
+     .. include:: techs/cisco-intelligent-automation-for-cloud.rst
+
+326. Ubuntu MaaS 
+
+     .. include:: techs/ubuntu-maas.rst
+
+327. Facebook Tupperware 
+
+     .. include:: techs/facebook-tupperware.rst
+
+328. AWS OpsWorks 
+
+     .. include:: techs/aws-opsworks.rst
+
+329. OpenStack Ironic 
+
+     .. include:: techs/openstack-ironic.rst
+
+330. Google Kubernetes 
+
+     .. include:: techs/google-kubernetes.rst
+
+331. Buildstep 
+
+     .. include:: techs/buildstep.rst
+
+332. Gitreceive 
+
+     .. include:: techs/gitreceive.rst
+
+333. OpenTOSCA 
+
+     .. include:: techs/opentosca.rst
+
+334. Winery 
+
+     .. include:: techs/winery.rst
+
+335. CloudML 
+
+     .. include:: techs/cloudml.rst
+
+336. Blueprints 
+
+     .. include:: techs/blueprints.rst
+
+337. Terraform 
+
+     .. include:: techs/terraform.rst
+
+338. DevOpSlang 
+
+     .. include:: techs/devopslang.rst
+
+339. Any2Api 
+
+     .. include:: techs/any2api.rst
 
 IaaS Management from HPC to hypervisors
 ----------------------------------------------------------------------
 
-339. Xen
-340. KVM
-341. QEMU
-342. Hyper-V
-343. VirtualBox
-344. OpenVZ
-345. LXC
-346. Linux-Vserver
-347. OpenStack
-348. OpenNebula
-349. Eucalyptus
-350. Nimbus
+340. Xen 
 
-     Nimbus Infrastructure :cite:`www-nimbus-wiki` is an open source
-     IaaS implementation. It allows deployment of self-configured
-     virtual clusters and it supports configuration of scheduling,
-     networking leases, and usage metering.
+     .. include:: techs/xen.rst
 
-     Nimbus Platform :cite:`www-nimbus` provides an integrated set of
-     tools which enable users to launch large virtual clusters as well
-     as launch and monitor the cloud apps. It also includes service
-     that provides auto-scaling and high availability of resources
-     deployed over multiple IaaS cloud.  The Nimubs Platform tools are
-     cloudinit.d, Phantom and Context Broker.  In the 2013 paper
-     :cite:`nimbus-paper` Dmitry Duplykin and others from University
-     of Colorado, used Nimbus Phantom to deploy auto-scaling solution
-     across multiple NSF FutureGrid clouds. In this implementation
-     Phantom was responsible for deploying instances across multiple
-     clouds and monitoring those instance.  Nimbus platform supports
-     Nimbus, Open Stack, Amazon and several other clouds.
+341. KVM 
 
-     **IMPROVE: Mention names is inappropriate**
+     .. include:: techs/kvm.rst
 
-351. CloudStack
-352. CoreOS
-353. rkt
-354. VMware ESXi
-355. vSphere and vCloud
-356. Amazon
-357. Azure
-358. Google and other public Clouds 
-359. Networking: Google Cloud DNS
-360. Amazon Route 53
+342. QEMU 
 
+     .. include:: techs/qemu.rst
+
+343. Hyper-V 
+
+     .. include:: techs/hyper-v.rst
+
+344. VirtualBox 
+
+     .. include:: techs/virtualbox.rst
+
+345. OpenVZ 
+
+     .. include:: techs/openvz.rst
+
+346. LXC 
+
+     .. include:: techs/lxc.rst
+
+347. Linux-Vserver 
+
+     .. include:: techs/linux-vserver.rst
+
+348. OpenStack 
+
+     .. include:: techs/openstack.rst
+
+349. OpenNebula 
+
+     .. include:: techs/opennebula.rst
+
+350. Eucalyptus 
+
+     .. include:: techs/eucalyptus.rst
+
+351. Nimbus 
+
+     .. include:: techs/nimbus.rst
+
+352. CloudStack 
+
+     .. include:: techs/cloudstack.rst
+
+353. CoreOS 
+
+     .. include:: techs/coreos.rst
+
+354. rkt 
+
+     .. include:: techs/rkt.rst
+
+355. VMware ESXi 
+
+     .. include:: techs/vmware-esxi.rst
+
+356. vSphere and vCloud 
+
+     .. include:: techs/vsphere-and-vcloud.rst
+
+357. Amazon 
+
+     .. include:: techs/amazon.rst
+
+358. Azure 
+
+     .. include:: techs/azure.rst
+
+359. Google and other public Clouds 
+
+     .. include:: techs/google-and-other-public-clouds.rst
+
+360. Networking: Google Cloud DNS 
+
+     .. include:: techs/networking--google-cloud-dns.rst
+
+361. Amazon Route 53 
+
+     .. include:: techs/amazon-route-53.rst
 
 Cross-Cutting Functions
 ----------------------------------------------------------------------
@@ -796,62 +1522,96 @@ Cross-Cutting Functions
 Monitoring
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-361. Ambari
-362. Ganglia
-363. Nagios :cite:`www-nagios`
+362. Ambari 
 
-     Nagios is a platform, which provides a set of software for
-     network infrastructure monitoring. It also offers administrative
-     tools to diagnose when failure events happen, and to notify
-     operators when hardware issues are detected. Specifically,
-     illustrates that Nagios is consist of modules including
-     :cite:`nagios-book`: a core and its dedicated tool for core
-     configuration, extensible plugins and its frontend. Nagios core
-     is designed with scalability in mind.  Nagios contains a
-     specification language allowing for building an extensible
-     monitoring systems.  Through the Nagios API components can
-     integrate with the Nagios core services. Plugins can be developed
-     via static languages like C or script languages. This mechanism
-     empowers Nagios to monitor a large set of various scenarios yet
-     being very flexible. :cite:`nagios-paper-2012` Besides its open source components, Nagios
-     also has commercial products to serve needing clients.
+     .. include:: techs/ambari.rst
 
+363. Ganglia 
 
-364. Inca
+     .. include:: techs/ganglia.rst
 
+364. Nagios :cite:`www-nagios`
+
+     .. include:: techs/nagios.rst
+
+365. Inca 
+
+     .. include:: techs/inca.rst
 
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-365. InCommon
-366. Eduroam
-367. OpenStack Keystone
-368. LDAP
-369. Sentry
-370. Sqrrl
-371. OpenID
-372. SAML OAuth
+366. InCommon 
+
+     .. include:: techs/incommon.rst
+
+367. Eduroam 
+
+     .. include:: techs/eduroam.rst
+
+368. OpenStack Keystone 
+
+     .. include:: techs/openstack-keystone.rst
+
+369. LDAP 
+
+     .. include:: techs/ldap.rst
+
+370. Sentry 
+
+     .. include:: techs/sentry.rst
+
+371. Sqrrl 
+
+     .. include:: techs/sqrrl.rst
+
+372. OpenID 
+
+     .. include:: techs/openid.rst
+
+373. SAML OAuth 
+
+     .. include:: techs/saml-oauth.rst
 
 Distributed Coordination
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-373. Google Chubby
-374. Zookeeper
-375. Giraffe
-376. JGroups
+374. Google Chubby 
+
+     .. include:: techs/google-chubby.rst
+
+375. Zookeeper 
+
+     .. include:: techs/zookeeper.rst
+
+376. Giraffe 
+
+     .. include:: techs/giraffe.rst
+
+377. JGroups 
+
+     .. include:: techs/jgroups.rst
 
 Message and Data Protocols
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-377. Avro
-378. Thrift
-379. Protobuf
+378. Avro 
+
+     .. include:: techs/avro.rst
+
+379. Thrift 
+
+     .. include:: techs/thrift.rst
+
+380. Protobuf 
+
+     .. include:: techs/protobuf.rst
 
 New Technologies to be integrated
 ---------------------------------
 
-382. TBD
+381. TBD 
 
-.. _techs-exercise:
+     .. include:: techs/tbd.rst
 
 Excersise
 ---------
