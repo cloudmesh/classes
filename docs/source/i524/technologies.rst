@@ -209,7 +209,10 @@ Application Hosting Frameworks
 93. appfog
 94. CloudBees
 95. Engine Yard
-96. CloudControl
+96. (CloudControl)
+
+    No Longer active as of Feb. 2016
+    
 97. dotCloud
 98. Dokku
 99. OSGi
