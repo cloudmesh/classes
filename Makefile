@@ -15,7 +15,7 @@ BROWSER=/cygdrive/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
 endif
 
 doc: 
-	cd docs; make html
+	make refs; cd docs; make html
 
 pdf: 
 	cd docs; make latex
@@ -38,6 +38,9 @@ log:
 	git commit -m "chg: dev: Update changelog" docs/source/changelog.rst
 	git push
 
+refs:
+	cd docs/source; find refs/ -name '*.bib' -not -empty -exec cat {} \; > refs.bib
+
 ######################################################################
 # CLEANING
 ######################################################################
@@ -53,6 +56,7 @@ clean:
 	find . -name '*.pyc' -delete
 	rm -rf .tox
 	rm -f *.whl
+	rm -f docs/source/refs.bib
 
 ######################################################################
 # TAGGING
