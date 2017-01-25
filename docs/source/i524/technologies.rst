@@ -677,8 +677,8 @@ DevOps
       OpenStack. It can also be used on bare metal using MAAS.
       Specifically :cite:`www-juju` lists around 300 charms available
       for services available in the Juju store. Charms can be written
-      in any language. Juju also supports Bundles :cite:`www-juju`
-      which are pre-configured collection of Charms that helps in quick
+      in any language. It also supports Bundles which are
+      pre-configured collection of Charms that helps in quick
       deployment of whole infrastructure.
 
 320. Foreman
