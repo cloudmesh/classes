@@ -86,8 +86,8 @@ subsystems.
             fillcolor=ivory];
 
       subgraph cluster_prj {
-		"Project Proposal" -> "Feb 27" -> "Project Approval" ->
-		"Project Update" -> "Mar 27" -> "Final Project";
+		"Project Proposal" -> "Project Approval" ->
+		"Project Update" -> "Final Project";
 		label = "Project";
 	}
 
