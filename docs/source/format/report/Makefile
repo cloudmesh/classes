@@ -1,5 +1,14 @@
 FILE=report
 
+UNAME := $(shell uname)
+
+ifeq ($(UNAME), Darwin)
+OPENCMD=open
+endif
+ifeq ($(UNAME), Linux)
+OPENCMD=xdg-open
+endif
+
 all:
 	pdflatex ${FILE}
 	bibtex ${FILE}
@@ -13,7 +22,7 @@ clean:
 	rm -rf *~ *.aux *.bbl *.dvi *.log *.out *.blg *.toc *.fdb_latexmk *.fls *.tdo *.bcf
 
 view:
-	open ${FILE}.pdf
+	$(OPENCMD) ${FILE}.pdf
 
 # all dependce tracking taking care of by Latexmk
 fast:
