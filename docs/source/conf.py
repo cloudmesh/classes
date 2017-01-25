@@ -254,14 +254,14 @@ elif theme_bootstrap:
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("Home",
-             "https://cloudmesh.github.io/classes/",
-             True),        
+        ("i524",
+             "i524/index.html",
+             True),
         ("Piazza",
              "https://piazza.com/class/ix39m27czn5uw",
              True),
-        ("i524",
-             "/classes/i524/index.html",
+        ("Lessons",
+             "lesson/index.html",
              True),
         ("Fork",
              "https://github.com/cloudmesh/classes",
@@ -353,8 +353,6 @@ html_static_path = ['_static']
 # html_sidebars = {}
 html_sidebars = { '**': ['globaltoc.html',
                          'localtoc.html',
-                         'relations.html',
-                         'sourcelink.html',
                          'searchbox.html'], }
 
 

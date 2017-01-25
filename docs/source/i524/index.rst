@@ -17,7 +17,7 @@ Overview
 --------
 
 This course studies software used in many commercial activities
-related to Big Data. The backdrop for course containes more than 370
+related to Big Data. The backdrop for course contains more than 370
 software subsystems illustrated in Figure 1.  We will describe the
 software architecture represented by this collection and work towards
 identifying best practices to deploy, access and interface with
@@ -46,7 +46,7 @@ them. Topics of this class will include:
 
 #. We will be identifying how we can create and replicate software
    environments based on software deployed and used on clouds while
-   using Containers, OpenStack and ansible playbooks.
+   using Containers, OpenStack and Ansible playbooks.
 
 #. Students will chose a number of open source members of the list
    each and create repeatable deployments as illustrated in class. 
@@ -86,7 +86,8 @@ subsystems.
             fillcolor=ivory];
 
       subgraph cluster_prj {
-		"Project Proposal" -> "Project Approval" -> "Project Update" -> "Final Project";
+		"Project Proposal" -> "Project Approval" ->
+		"Project Update" -> "Final Project";
 		label = "Project";
 	}
 
@@ -163,6 +164,8 @@ A doodle was used and all students that answered the doodle have times
 that they specified. We covered 100% the time for the students through
 the following schedule:
 
+All times are in Eastern Standard Time.
+
 +-----------------+------------------------------------+
 | **Day of Week** | **Meetings**                       |
 +-----------------+------------------------------------+
@@ -179,15 +182,11 @@ the following schedule:
 +-----------------+------------------------------------+
 | Friday	  | 4-5pm Office Hours                 |
 +-----------------+------------------------------------+
-| Saturday        | 8-9pm Off Hours                    |
+| Saturday        | 8-9pm Office Hours                 |
 +-----------------+------------------------------------+
 | Sunday	  | | 9-10am Office Hours              |
 |                 | | 8-9pm Office Hours               |
 +-----------------+------------------------------------+
-
-
-
-	  
     
 Who can take the class?
 -----------------------

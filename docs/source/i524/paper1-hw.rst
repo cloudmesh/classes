@@ -37,10 +37,9 @@ To complete the homework you will need to do the following.
    fork synchronized with the upstream.
 
 4. Follow the `instructions on using the paper template
-   <https://github.com/cloudmesh/sp17-i524/tree/master/paper_template>`_:
-   You will need to create a folder named after your HID in the
-   *paper1* folder of the repository and copy the provided paper
-   template there.
+   <https://github.com/cloudmesh/sp17-i524>`_:
+   You will need to run the *setup* script, which will create the
+   necessary template for the paper.
 
 5. Write your paper committing changes as you write.
 
