@@ -668,6 +668,19 @@ DevOps
 317. Razor
 318. CloudMesh
 319. Juju
+
+      Juju (formerly Ensemble) :cite:`juju-paper` is software from
+      Canonical that provides open source service orchestration. It is
+      used to easily and quickly deploy and manage services on cloud
+      and physical servers. Juju charms can be deployed on cloud
+      services such as Amazon Web Services (AWS), Microsoft Azure and
+      OpenStack. It can also be used on bare metal using MAAS.
+      Specifically :cite:`www-juju` lists around 300 charms available
+      for services available in the Juju store. Charms can be written
+      in any language. Juju also supports Bundles :cite:`www-juju`
+      which are pre-configured collection of Charms that helps in quick
+      deployment of whole infrastructure.
+
 320. Foreman
 321. OpenStack Heat
 322. Sahara
