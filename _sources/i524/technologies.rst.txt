@@ -184,24 +184,22 @@ Application Hosting Frameworks
     computing resources, location, data partitioning, scaling, security, backup,
     etc." :cite:www-wikipedia-cloud
 
-    However, Azure offers a host of c+losely-related tool and products to enhance
+    However, Azure offers a host of closely-related tool and products to enhance
     and improve the core product, such as raw block storage, load balancers,
     and IP addresses :cite:`www-azure-msft`.  For instance, Azure users can access
-    predictive analytics, Bots and Blockchain-as-a-Service :cite:www-azure-msft} as
+    predictive analytics, Bots and Blockchain-as-a-Service :cite:www-azure-msft as
     well as more-basic computing, networking, storage, database and management
     components :cite:`www-sec-edgar-msft`.  The Azure website shows twelve major
     categories under *Products* and twenty *Solution* categories, e.g., e-commerce
     or Business SaaS apps.
 
-    Azure competes against Amazon's *Amazon Web Service*, even though a
-    IBM (*SoftLayer and Bluemix*) and Google (*Google Cloud Platform*)
-    offer IaaS to the market.  As of January 2017, Azure's datacenters span 32
-    Microsoft-defined *regions*, or 38 *declared regions*, throughout the world.
+    Azure competes against Amazon's *Amazon Web Service*, :cite:www-aws-amzn
+    even though IBM (*SoftLayer* :cite:www-softlayer-ibm and *Bluemix* :cite
+    :www-bluemix-ibm) and Google (*Google Cloud Platform*) :cite:www-cloud-
+    google offer IaaS to the market.  As of January 2017, Azure's datacenters
+    span 32 Microsoft-defined *regions*, or 38 *declared regions*, throughout
+    the world. :cite:www-azure-msft
 
-    **IMPROVE: References missing, aws, softlayer, bluemix, google cp**
-
-    **IMPROVE: does the term c+losely-related realy exist?**
-    
 87. Cloud Foundry
 88. Pivotal
 89. IBM BlueMix
@@ -230,6 +228,37 @@ High level Programming
 107. Tajo
 108. Shark
 109. Phoenix
+
+In the first quarter of 2013, Salesforce.com released its proprietary SQL-like
+interface and query engine for HBase, *Phoenix*, to the open source community.
+The company appears to have been motivated to develop Phoenix as a way to 1)
+increase accessiblity to HBase by using the industry-standard query language
+(SQL); 2) save users time by abstracting away the complexities of coding native
+HBase queries; and, 3) implementing query best practices by implementing them
+automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
+initially *open-sourced* it via Github, by May of 2014 it had become a top-level
+Apache project. :cite:www-phoenix-wikipedia
+
+Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
+and orchestrates the running of those scans to produce regular JDBC result
+sets." :cite:www-apachephoenix-org  In addition, the program directs compute
+intense portions of the calls to the server.  For instance, if a user queried
+for the top ten records across numerous regions from an HBase database
+consisting of a billion records, the program would first select the top ten
+records for each region using server-side compute resources.  After that, the
+client would be tasked with selecting the overall top ten. :cite:www-phoenix-
+salesforcedev
+
+Despite adding an abstraction layer, Phoenix can actually speed up queries
+because it optimizes the query during the translation process. :cite:www-
+phoenix-cloudera  For example, "Phoenix beats Hive for a simple query spanning
+10M-100M rows." :cite:www-phoenix-infoq
+
+Finally, another program can enhance HBase's accessibility for those inclined
+towards graphical interfaces.  SQuirell only requires the user to set up the
+JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
+bighadoop
+
 110. Impala
 111. MRQL
 112. SAP HANA

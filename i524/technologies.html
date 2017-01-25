@@ -721,20 +721,20 @@ other <em>-as-a-service</em> products.  The Wikipedia entry on IaaS notes that I
 &#8220;abstract[s] the user from the details of infrasctructure like physical
 computing resources, location, data partitioning, scaling, security, backup,
 etc.&#8221; :cite:www-wikipedia-cloud</p>
-<p>However, Azure offers a host of c+losely-related tool and products to enhance
+<p>However, Azure offers a host of closely-related tool and products to enhance
 and improve the core product, such as raw block storage, load balancers,
 and IP addresses <a class="reference internal" href="#www-azure-msft" id="id6">[MicrosoftCorp]</a>.  For instance, Azure users can access
-predictive analytics, Bots and Blockchain-as-a-Service :cite:www-azure-msft} as
+predictive analytics, Bots and Blockchain-as-a-Service :cite:www-azure-msft as
 well as more-basic computing, networking, storage, database and management
 components <a class="reference internal" href="#www-sec-edgar-msft" id="id7">[MicrosoftCorp16]</a>.  The Azure website shows twelve major
 categories under <em>Products</em> and twenty <em>Solution</em> categories, e.g., e-commerce
 or Business SaaS apps.</p>
-<p>Azure competes against Amazon&#8217;s <em>Amazon Web Service</em>, even though a
-IBM (<em>SoftLayer and Bluemix</em>) and Google (<em>Google Cloud Platform</em>)
-offer IaaS to the market.  As of January 2017, Azure&#8217;s datacenters span 32
-Microsoft-defined <em>regions</em>, or 38 <em>declared regions</em>, throughout the world.</p>
-<p><strong>IMPROVE: References missing, aws, softlayer, bluemix, google cp</strong></p>
-<p><strong>IMPROVE: does the term c+losely-related realy exist?</strong></p>
+<p>Azure competes against Amazon&#8217;s <em>Amazon Web Service</em>, :cite:www-aws-amzn
+even though IBM (<em>SoftLayer</em> :cite:www-softlayer-ibm and <em>Bluemix</em> :cite
+:www-bluemix-ibm) and Google (<em>Google Cloud Platform</em>) :cite:www-cloud-
+google offer IaaS to the market.  As of January 2017, Azure&#8217;s datacenters
+span 32 Microsoft-defined <em>regions</em>, or 38 <em>declared regions</em>, throughout
+the world. :cite:www-azure-msft</p>
 </li>
 <li><p class="first">Cloud Foundry</p>
 </li>
@@ -774,19 +774,41 @@ Microsoft-defined <em>regions</em>, or 38 <em>declared regions</em>, throughout 
 </div>
 <div class="section" id="high-level-programming">
 <h2>High level Programming<a class="headerlink" href="#high-level-programming" title="Permalink to this headline">¶</a></h2>
-<ol class="arabic" start="104">
-<li><p class="first">Kite</p>
-</li>
-<li><p class="first">Hive</p>
-</li>
-<li><p class="first">HCatalog</p>
-</li>
-<li><p class="first">Tajo</p>
-</li>
-<li><p class="first">Shark</p>
-</li>
-<li><p class="first">Phoenix</p>
-</li>
+<ol class="arabic simple" start="104">
+<li>Kite</li>
+<li>Hive</li>
+<li>HCatalog</li>
+<li>Tajo</li>
+<li>Shark</li>
+<li>Phoenix</li>
+</ol>
+<p>In the first quarter of 2013, Salesforce.com released its proprietary SQL-like
+interface and query engine for HBase, <em>Phoenix</em>, to the open source community.
+The company appears to have been motivated to develop Phoenix as a way to 1)
+increase accessiblity to HBase by using the industry-standard query language
+(SQL); 2) save users time by abstracting away the complexities of coding native
+HBase queries; and, 3) implementing query best practices by implementing them
+automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
+initially <em>open-sourced</em> it via Github, by May of 2014 it had become a top-level
+Apache project. :cite:www-phoenix-wikipedia</p>
+<p>Phoenix, written in Java, &#8220;compiles [SQL queries] into a series of HBase scans,
+and orchestrates the running of those scans to produce regular JDBC result
+sets.&#8221; :cite:www-apachephoenix-org  In addition, the program directs compute
+intense portions of the calls to the server.  For instance, if a user queried
+for the top ten records across numerous regions from an HBase database
+consisting of a billion records, the program would first select the top ten
+records for each region using server-side compute resources.  After that, the
+client would be tasked with selecting the overall top ten. :cite:www-phoenix-
+salesforcedev</p>
+<p>Despite adding an abstraction layer, Phoenix can actually speed up queries
+because it optimizes the query during the translation process. :cite:www-
+phoenix-cloudera  For example, &#8220;Phoenix beats Hive for a simple query spanning
+10M-100M rows.&#8221; :cite:www-phoenix-infoq</p>
+<p>Finally, another program can enhance HBase&#8217;s accessibility for those inclined
+towards graphical interfaces.  SQuirell only requires the user to set up the
+JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
+bighadoop</p>
+<ol class="arabic" start="110">
 <li><p class="first">Impala</p>
 </li>
 <li><p class="first">MRQL</p>
