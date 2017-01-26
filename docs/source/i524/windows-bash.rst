@@ -6,7 +6,6 @@ Installing Bash on Windows
 In this section, the installation of Bash on Windows is described.
 It is recommended that the Windows 10 OS has to be used to get
 successful results in this tutorial.
-<<<<<<< 793eb97b8860198f4421a76e586010404f05ca62
 
 Step 1
 -------
@@ -31,5 +30,3 @@ Step 1
 	bash terminal. 
 
 Now you have successfully installed, bash on Windows. 
-=======
->>>>>>> new:dev: windows bash tutorial
