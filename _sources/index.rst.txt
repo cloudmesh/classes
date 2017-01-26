@@ -16,14 +16,14 @@ Classes
 
    about/index	      
    i524/index
-   i523/index
    lesson/index
    notebooks/index
    faq
    references
    todo
-
-
+   changelog
+   
+   
 Search:
 
 * :ref:`search`
@@ -33,5 +33,6 @@ Search:
    
   * :ref:`modindex`
 
+  i523/index
 
       

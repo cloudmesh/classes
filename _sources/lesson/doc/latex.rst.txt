@@ -271,13 +271,13 @@ A great example is provided at:
 It not only showcases you an example file in ACM 2 column format, but
 also integrates with a bibliography. Furthermore, it provides a
 sample Makefile that you can use to generate view and recompile, or
-even autogenerate. A compilation would look like:
+even autogenerate. A compilation would look like::
 
   make
   make view
 
 If however you want to do things on change in the tex file you can do
-this automatically simply with
+this automatically simply with::
 
   make watch
 
@@ -505,8 +505,7 @@ Tips
 
 Including figures over two columns:
 
-*
-http://tex.stackexchange.com/questions/30985/displaying-a-wide-figure-in-a-two-column-document
+* http://tex.stackexchange.com/questions/30985/displaying-a-wide-figure-in-a-two-column-document
 
 * positioning figures with \textwidth and \columnwidth
   https://www.sharelatex.com/learn/Positioning_images_and_tables

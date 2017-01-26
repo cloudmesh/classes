@@ -209,7 +209,10 @@ Application Hosting Frameworks
 93. appfog
 94. CloudBees
 95. Engine Yard
-96. CloudControl
+96. (CloudControl)
+
+    No Longer active as of Feb. 2016
+    
 97. dotCloud
 98. Dokku
 99. OSGi
@@ -306,6 +309,31 @@ Streams
 131. Neptune
 132. Google MillWheel
 133. Amazon Kinesis
+
+        Kinesis is Amazon’s :cite:`www-kinesis` real time data processing engine. It
+        is designed to provide scalable, durable and reliable data processing
+        platform with low latency. The data to Kinesis can be ingested from multiple
+        sources in different format. This data is further made available by Kinesis to
+        multiple applications or consumers interested in the data. Kinesis provides
+        robust and fault tolerant system to handle this high volume of data. Data
+        sharding mechanism is Kinesis makes it horizontally scalable. Each of these
+        shards in Kinesis process a group of records which are partitioned by the
+        shard key. Each record processed by Kinesis is identified by sequence number,
+        partition key and data blob. Sequence number to records is assigned by the
+        stream. Partition key are used by partitioner(a hash function) to map the
+        records to the shards i.e. which records should go to which shard. Producers
+        like web servers, client applications, logs push the data to Kinesis whereas
+        Kinesis applications act as consumers of the data from Kinesis engine. It also
+        provides data retention for certain time for example 24 hours default. This
+        data retention window is a sliding window. Kinesis collects lot of metrics
+        which can used to understand the amount of data being processed by Kinesis.
+        User can use this metrics to do some analytics and visualize the metrics data.
+        Kinesis is one of the tools part of AWS infrastructure and provides its users
+        a complete software-as-a-service. Kinesis :cite:`big-data-analytics-book` in
+        the area of real-time processing provides following key benefits:
+        ease of use, parellel processing, scalable, cost effective, fault tolerant
+        and highly available.
+
 134. LinkedIn
 135. Twitter Heron
 136. Databus
@@ -351,9 +379,91 @@ Inter process communication Collectives
 166. ZeroMQ
 167. ActiveMQ
 168. RabbitMQ
+
+        RabbitMQ is a message broker :cite:`www-rabbitmq` which allows services to
+        exchange messages in a fault tolerant manner. It provides variety of features
+        which “enables software applications to connect and scale”. Features are:
+        reliability, flexible routing, clustering, federation, highly available
+        queues, multi-protocol, many clients, management UI, tracing, plugin system,
+        commercial support, large community and user base. RabbitMQ can work in
+        multiple scenarios:
+
+        1. Simple messaging: producers write messages to the queue and consumers read
+        messages from the the queue. This is synonymous to a simple message queue.
+
+        2. Producer-consumer: Producers produce messages and consumers receive messages
+        from the queue. The messages are delivered to multiple consumers in round
+        robin manner.
+
+        3. Publish-subscribe: Producers publish messages to exchanges and consumers
+        subscribe to these exchanges. Consumers receive those messages when the
+        messages are available in those exchanges.
+
+        4. Routing: In this mode consumers can subscribe to a subset of messages instead
+        of receiving all messages from the queue.
+
+        5. Topics: Producers can produce messages to a topic multiple consumers
+        registered to receive messages from those topics get those messages. These
+        topics can be handled by a single exchange or multiple exchanges.
+
+        6. RPC:In this mode the client sends messages as well as registers a callback
+        message queue. The consumers consume the message and post the response message
+        to the callback queue.
+
+        RabbitMQ is based on AMPQ :cite:`ampq-article` (Advanced Message Queuing Protocol)
+        messaging model. AMPQ is described as follows “messages are published to exchanges,
+        which are often compared to post offices or mailboxes. Exchanges then distribute
+        message copies to queues using rules called bindings. Then AMQP brokers either
+        deliver messages to consumers subscribed to queues, or consumers fetch/pull messages
+        from queues on demand”
+
 169. NaradaBrokering
 170. QPid
 171. Kafka
+
+     Apache Kafka is a streaming platform, which works based on
+     publish-subscribe messaging system and supports distributed
+     environment. Lets understand what does this mean and also see
+     what are Kafka’s features.
+    
+     Kafka lets you publish and subscribe to the messages.
+    
+     In a publish-subscribe messaging system, publishers are sender of
+     messages. They publish the messages without the knowledge of who
+     is going to ‘subscribe’ to them for processing. Subscribers are
+     users of these messages. They subscribe to only those messages
+     which they are interested in, without knowing who the publishers
+     are. Kafka maintains message feeds based on ‘topic’. A topic is a
+     category or feed name to which records are
+     published. Applications can use Kafka’s Connector APIs to publish
+     the messages to one or more Kafka topics. Similarly, applications
+     can use Consumer API to subscribe to one or more topics.
+    
+     Kafka lets you process the stream of data at real time
+    
+     Kafka’s stream processor takes continual stream of data from
+     input topics, processes the data in real time and produces
+     streams of data to output topics. Kafka’s Streams API are used
+     for data transformation.
+    
+     Kafka lets you store the stream of data in distributed clusters.
+    
+     Kafka acts as a storage system for incoming data stream. Data is
+     categorised into ‘topics’. As Kafka is a distributed system, data
+     streams are partitioned and replicated across nodes. Thus, a
+     combination of messaging, storage and processing data stream
+     makes Kafka a ‘streaming platform’.
+    
+     Where is Kafka commonly used?
+    
+     Kafka can be used for building data pipelines where data is
+     transferred between systems or applications. :cite:`www-kafka`
+     Kafka can also be used by applications that transform real time
+     incoming data.
+
+     **IMPROVE: This is written like an advertisement about Kafka. Are
+     quotes needed **
+     
 172. Kestrel
 173. JMS
 174. AMQP
@@ -371,6 +481,46 @@ In-memory databases/caches
 
 
 183. Gora (general object from NoSQL)
+
+        Gora is a in-memory data model :cite:`www-gora` which also provides
+        persistence to the big data. Gora provides persistence to different types
+        of data stores. Primary goals of Gora are:
+
+        1. data persistence
+
+        2. indexing
+
+        3. data access
+
+        4. analysis
+
+        5. map reduce support
+
+        Unlike ORM models which mostly work with relational databases for example
+        hibernate gora works for most type of data stores like documents, columnar,
+        key value as well as relational. Gora uses beans to maintain the data
+        in-memory and persist it on disk. Beans are defined using apache
+        avro schema. Gora provides modules for each type of data store it supports.
+        The mapping between bean definition and datastore is done in a mapping file
+        which is specific to a data store.
+        Type Gora workflow will be:
+
+        1. define  the bean used as model for persistence
+
+        2. use gora compiler to compile the bean
+
+        3. create a mapping file to map bean definition to datastore
+
+        4. update gora.properties to specify the datastore to use
+
+        5. get an instance of corresponding data store using datastore factory.
+
+        Gora has a query interface to query the underlying data store. Its
+        configuration is stored in gora.properties which is should be present in
+        classpath. In the file you can specify default data store used by Gora
+        engine. Gora also has a CI/CD library call GoraCI which is used to write
+        integration tests.
+
 184. Memcached
 185. Redis
 186. LMDB (key value)
@@ -661,6 +811,42 @@ Interoperability
 300. Libvirt
 301. Libcloud
 302. JClouds
+
+        :cite:`cloud-portability-book` Primary goals of cross-platform cloud APIs is
+        that application built using these APIs can be seamlessly ported to different
+        cloud providers. The APIs also bring interoperability such that cloud platforms
+        can communicate and exchange information using these common or shared interfaces.
+        Jclouds or apache jclouds :cite:`www-jclouds` is a java based library to
+        provide seamless access to cloud platforms. Jclouds library provides
+        interfaces for most of cloud providers like docker, openstack, amazon web
+        services, microsoft azure, google cloud engine etc. It will allow users build
+        applications which can be portable across different cloud environments.
+        Key components of jcloud are:
+
+        1. Views: abstracts functionality from a specific vendor and allow user to write
+        more generic code. For example odbc abstracts the underlying relational data
+        source. However, odbc driver converts to native format. In this case user can
+        switch databases without rewriting the application. Jcloud provide following
+        views: blob store, compute service, loadBalancer service
+
+        2. API: APIs are requests to execute a particular functionality. Jcloud provide a
+        single set of APIs for all cloud vendors which is also location aware. If a
+        cloud vendor doesn’t support customers from a particular region the API will
+        not work from that region.
+
+        3. Provider: a particular cloud vendor is a provider. Jcloud uses provider
+        information to initialize its context.
+
+        4 Context: it can be termed as a handle to a particular provider. Its like a
+        ODBC connection object. Once connection is initialized for a particular
+        database, it can used to make any api call.
+
+        Jclouds provides test library to mock context, APIs etc to different providers so
+        that user can write unit test for his implementation rather than waiting to
+        test with the cloud provider. Jcloud library certifies support after testing
+        the interfaces with live cloud provider. These features make jclouds robust
+        and adoptable, hiding most of the complexity of cloud providers.
+
 303. TOSCA
 304. OCCI
 305. CDMI
@@ -819,6 +1005,32 @@ Monitoring
 
 364. Inca
 
+        Inca is a grid monitoring :cite:`inca-book` software suite. It provides
+        grid monitoring features. These monitoring features provide operators
+        failure trends, debugging support, email notifications, environmental
+        issues etc. :cite:`www-inca` It enables users to automate the tests
+        which can be executed on a periodic basis. Tests can added and configured
+        as and when needed. Its helps users with different portfolios like
+        system administrators, grid operators, end users etc Inca provides
+        user-level grid monitoring. For each user it stores results as well as
+        allows users to deploy new tests as well as share the results with other
+        users. The incat web ui allows users to view the status of test, manage test
+        and results. The architectural blocks of inca include report repository,
+        agent, data consumers and depot. Reporter is an executable program which
+        is used to collect the data from grid source. Reporters can be written in
+        perl and python. Inca repository is a collection of pre build reporters.
+        These can be accessed using a web url. Inca repository has 150+ reporters
+        available. Reporters are versioned and allow automatic updates. Inca agent
+        does the configuration management. Agent can be managed using the incat web ui.
+        Inca depot provides storage and archival of reports. Depot uses relational
+        database for this purpose. The database is accessed using hibernate backend.
+        Inca web UI or incat provides real time as well as historical view of inca data.
+        All communication between inca components is secured using SSL certificates.
+        It requires user credentials for any access to the system. Credentials are
+        created at the time of the setup and installation. Inca's performance has been
+        phenomenal in production deployments. Some of the deployments are running for
+        more than a decade and has been very stable. Overall Inca provides a solid
+        monitoring system which not only monitors but also detects problems very early on.
 
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

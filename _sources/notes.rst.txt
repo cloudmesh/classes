@@ -1,0 +1,21 @@
+I524 - Notes
+============
+
+.. toctree::
+   :maxdepth: 1
+
+   i524/index
+   lesson/index
+   notebooks/index
+   faq
+   references
+
+
+Index
+-----
+
+:ref:`genindex`
+
+
+
+      
