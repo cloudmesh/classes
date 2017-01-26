@@ -101,6 +101,14 @@ Application and Analytics
 
 36. R
 37. pbdR
+
+    Programming with Big Data in R (pbdR) :cite:`www-pbdR` is an environment having series of R packages 
+    for statistical computing with Big Data using high-performance statistical computation. It uses R , a popular language 
+    between statisticians and data miners. "pbdR" focuses on distributed memory system, where data is distributed accross 
+    several machines and processed in batch mode. It uses MPI for inter process communications. R focuses on single machines 
+    for data analysis using a interactive GUI. Currenly there are two implementation of pbdR , one Rmpi and another being pdbMpi.
+    Rmpi uses SPMD parallelism while pbdRMpi uses manager/worker parallelism.
+
 38. Bioconductor
 39. ImageJ
 40. OpenCV
@@ -608,6 +616,16 @@ SQL(NewSQL)
 203. PostgreSQL
 204. CUBRID
 205. Galera Cluster
+
+     Galera cluster :cite:`www-galera-cluster` is a type of database clustering which has all 
+     multiple masters and works on synchronous replication. At a deeper level, it was created 
+     by extending MySql replication API to provide all support for true multi master synchronous replication.
+     This extended api is called as Write-Set Replication API and is the core of the clustering logic.
+     Each transaction of wsrep API not only contains the record but also other meta-info to requires to commit
+     each node separately or asynchronously. So though it seems synchronous logically but works independently on each node.
+     The approach is also called virtually synchronous replication. This helps in directly read-write on a 
+     specific node and can lose a node without handling any complex failover scenarios (zero downtime).
+
 206. SciDB
 207. Rasdaman
 208. Apache Derby
@@ -625,6 +643,14 @@ NoSQL
 ----------------------------------------------------------------------
 
 218. Lucene
+
+     Apache Lucene :cite:`www-lucene` is a high-performance, full-featured text search engine library. 
+     It is originally written in pure Java but also has been ported to few other languages chiefly python. 
+     It is suitable for applications that requires full-text search. 
+     One of the key implementation of Lucene is Internet search engines and local, single-site searching. 
+     Another important implementation usage is its recomendation system. The core idea of Lucene is to extract text 
+     from any document that contains text (not image) field, making it format idependent.
+
 219. Solr
 220. Solandra
 221. Voldemort
@@ -691,6 +717,15 @@ NoSQL
 237. Megastore and Spanner
 238. Accumulo
 239. Cassandra
+
+     Apache Cassandra :cite:`www-cassandra` is an open-source distributed database managemment for handling large 
+     volume of data accross comodity servers. It works on asynchronous masterless replication 
+     technique leading to low latency and high availability. It is a hybrid between a key-value 
+     and column oriented database. A table in cassandra can be viewed as a multi dimensional 
+     map indexed by a key. It has its own "Cassandra Query language (CQL)" query language for 
+     data extraction and mining. One of the demerits of such structure is it does not support 
+     joins or subqueries. It is a java based system which can be administered by any JMX compliant tools.
+
 240. RYA
 241. Sqrrl
 242. Neo4J
@@ -1057,6 +1092,15 @@ Message and Data Protocols
 377. Avro
 378. Thrift
 379. Protobuf
+
+     Protocol Buffer :cite:`www-protobuf` is a way to serialize structured data into binary form (stream of bytes) 
+     in order to transfer it over wires or for storage. It is used for inter apllication communication or for 
+     remote procedure call (RPC). It involves a interface description  that describes the structure of some data and a
+     program that can generate source code or parse it back to the binary form. It emphasizes on simplicity 
+     and performance over xml. Though xml is more readable but requires more resources in parsing and storing.
+     This is developed by Google and available under open source licensing. The parser program is available 
+     in many languages including java and python.
+
 
 New Technologies to be integrated
 ---------------------------------
