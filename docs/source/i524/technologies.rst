@@ -624,14 +624,20 @@ SQL(NewSQL)
 
 205. Galera Cluster
 
-     Galera cluster :cite:`www-galera-cluster` is a type of database clustering which has all 
-     multiple masters and works on synchronous replication. At a deeper level, it was created 
-     by extending MySql replication API to provide all support for true multi master synchronous replication.
-     This extended api is called as Write-Set Replication API and is the core of the clustering logic.
-     Each transaction of wsrep API not only contains the record but also other meta-info to requires to commit
-     each node separately or asynchronously. So though it seems synchronous logically but works independently on each node.
-     The approach is also called virtually synchronous replication. This helps in directly read-write on a 
-     specific node and can lose a node without handling any complex failover scenarios (zero downtime).
+     Galera cluster :cite:`www-galera-cluster` is a type of database
+     clustering which has all multiple masters and works on
+     synchronous replication. At a deeper level, it was created by
+     extending MySql replication API to provide all support for true
+     multi master synchronous replication.  This extended api is
+     called as Write-Set Replication API and is the core of the
+     clustering logic.  Each transaction of wsrep API not only
+     contains the record but also other meta-info to requires to
+     commit each node separately or asynchronously. So though it seems
+     synchronous logically but works independently on each node.  The
+     approach is also called virtually synchronous replication. This
+     helps in directly read-write on a specific node and can lose a
+     node without handling any complex failover scenarios (zero
+     downtime).
 
 206. SciDB
 207. Rasdaman
@@ -651,12 +657,16 @@ NoSQL
 
 218. Lucene
 
-     Apache Lucene :cite:`www-lucene` is a high-performance, full-featured text search engine library. 
-     It is originally written in pure Java but also has been ported to few other languages chiefly python. 
-     It is suitable for applications that requires full-text search. 
-     One of the key implementation of Lucene is Internet search engines and local, single-site searching. 
-     Another important implementation usage is its recomendation system. The core idea of Lucene is to extract text 
-     from any document that contains text (not image) field, making it format idependent.
+     Apache Lucene :cite:`www-lucene` is a high-performance,
+     full-featured text search engine library.  It is originally
+     written in pure Java but also has been ported to few other
+     languages chiefly python.  It is suitable for applications that
+     requires full-text search.  One of the key implementation of
+     Lucene is Internet search engines and local, single-site
+     searching.  Another important implementation usage is its
+     recomendation system. The core idea of Lucene is to extract text
+     from any document that contains text (not image) field, making it
+     format idependent.
 
 219. Solr
 220. Solandra
@@ -725,13 +735,17 @@ NoSQL
 238. Accumulo
 239. Cassandra
 
-     Apache Cassandra :cite:`www-cassandra` is an open-source distributed database managemment for handling large 
-     volume of data accross comodity servers. It works on asynchronous masterless replication 
-     technique leading to low latency and high availability. It is a hybrid between a key-value 
-     and column oriented database. A table in cassandra can be viewed as a multi dimensional 
-     map indexed by a key. It has its own "Cassandra Query language (CQL)" query language for 
-     data extraction and mining. One of the demerits of such structure is it does not support 
-     joins or subqueries. It is a java based system which can be administered by any JMX compliant tools.
+     Apache Cassandra :cite:`www-cassandra` is an open-source
+     distributed database managemment for handling large volume of
+     data accross comodity servers. It works on asynchronous
+     masterless replication technique leading to low latency and high
+     availability. It is a hybrid between a key-value and column
+     oriented database. A table in cassandra can be viewed as a multi
+     dimensional map indexed by a key. It has its own "Cassandra Query
+     language (CQL)" query language for data extraction and
+     mining. One of the demerits of such structure is it does not
+     support joins or subqueries. It is a java based system which can
+     be administered by any JMX compliant tools.
 
 240. RYA
 241. Sqrrl
@@ -854,32 +868,34 @@ Interoperability
 301. Libcloud
 302. JClouds
 
-        :cite:`cloud-portability-book` Primary goals of cross-platform cloud APIs is
-        that application built using these APIs can be seamlessly ported to different
-        cloud providers. The APIs also bring interoperability such that cloud platforms
-        can communicate and exchange information using these common or shared interfaces.
-        Jclouds or apache jclouds :cite:`www-jclouds` is a java based library to
-        provide seamless access to cloud platforms. Jclouds library provides
-        interfaces for most of cloud providers like docker, openstack, amazon web
-        services, microsoft azure, google cloud engine etc. It will allow users build
-        applications which can be portable across different cloud environments.
-        Key components of jcloud are:
+     :cite:`cloud-portability-book` Primary goals of cross-platform
+     cloud APIs is that application built using these APIs can be
+     seamlessly ported to different cloud providers. The APIs also
+     bring interoperability such that cloud platforms can communicate
+     and exchange information using these common or shared interfaces.
+     Jclouds or apache jclouds :cite:`www-jclouds` is a java based
+     library to provide seamless access to cloud platforms. Jclouds
+     library provides interfaces for most of cloud providers like
+     docker, openstack, amazon web services, microsoft azure, google
+     cloud engine etc. It will allow users build applications which
+     can be portable across different cloud environments.  Key
+     components of jcloud are:
 
-        1. Views: abstracts functionality from a specific vendor and allow user to write
+     1. Views: abstracts functionality from a specific vendor and allow user to write
         more generic code. For example odbc abstracts the underlying relational data
         source. However, odbc driver converts to native format. In this case user can
         switch databases without rewriting the application. Jcloud provide following
         views: blob store, compute service, loadBalancer service
 
-        2. API: APIs are requests to execute a particular functionality. Jcloud provide a
+     2. API: APIs are requests to execute a particular functionality. Jcloud provide a
         single set of APIs for all cloud vendors which is also location aware. If a
         cloud vendor doesn’t support customers from a particular region the API will
         not work from that region.
 
-        3. Provider: a particular cloud vendor is a provider. Jcloud uses provider
+     3. Provider: a particular cloud vendor is a provider. Jcloud uses provider
         information to initialize its context.
 
-        4 Context: it can be termed as a handle to a particular provider. Its like a
+     4. Context: it can be termed as a handle to a particular provider. Its like a
         ODBC connection object. Once connection is initialized for a particular
         database, it can used to make any api call.
 
@@ -906,17 +922,16 @@ DevOps
      Chef is a configuration management tool. It is implemented in
      Ruby and Erlang. Chef can be used to configure and maintain
      servers on-premise as well as cloud platforms like Amazon EC2,
-     Google Cloud Platform and Open Stack. In his book
-     :cite:`chef-book` Matthias Marschall explains how user can
-     implement recipes in Chef to manage server applications and
-     utilities such as database servers like MySQL, or HTTP servers
-     like Apache HTPP and systems like Apache Hadoop.
+     Google Cloud Platform and Open Stack. In this book
+     :cite:`chef-book`, it is mentioned how implementation recipes in
+     Chef to manage server applications and utilities such as database
+     servers like MySQL, or HTTP servers like Apache HTPP and systems
+     like Apache Hadoop.
 
-     Chef is available in open source version and it also has commercial
-     products for the companies which need it :cite:`www-chef-commercial`
-
-     **IMPROVE: Mention names is inappropriate**
-    
+     Chef is available in open source version and it also has
+     commercial products for the companies which need it
+     :cite:`www-chef-commercial`
+        
 312. Ansible
 313. SaltStack
 314. Boto
@@ -996,16 +1011,14 @@ IaaS Management from HPC to hypervisors
      as launch and monitor the cloud apps. It also includes service
      that provides auto-scaling and high availability of resources
      deployed over multiple IaaS cloud.  The Nimubs Platform tools are
-     cloudinit.d, Phantom and Context Broker.  In the 2013 paper
-     :cite:`nimbus-paper` Dmitry Duplykin and others from University
-     of Colorado, used Nimbus Phantom to deploy auto-scaling solution
-     across multiple NSF FutureGrid clouds. In this implementation
-     Phantom was responsible for deploying instances across multiple
-     clouds and monitoring those instance.  Nimbus platform supports
-     Nimbus, Open Stack, Amazon and several other clouds.
-
-     **IMPROVE: Mention names is inappropriate**
-
+     cloudinit.d, Phantom and Context Broker.  In this paper
+     :cite:`nimbus-paper` it is mentioned how to used Nimbus Phantom
+     to deploy auto-scaling solution across multiple NSF FutureGrid
+     clouds. In this implementation Phantom was responsible for
+     deploying instances across multiple clouds and monitoring those
+     instance.  Nimbus platform supports Nimbus, Open Stack, Amazon
+     and several other clouds.
+     
 351. CloudStack
 352. CoreOS
 353. rkt
@@ -1041,38 +1054,45 @@ Monitoring
      integrate with the Nagios core services. Plugins can be developed
      via static languages like C or script languages. This mechanism
      empowers Nagios to monitor a large set of various scenarios yet
-     being very flexible. :cite:`nagios-paper-2012` Besides its open source components, Nagios
-     also has commercial products to serve needing clients.
+     being very flexible. :cite:`nagios-paper-2012` Besides its open
+     source components, Nagios also has commercial products to serve
+     needing clients.
 
 
 364. Inca
 
-        Inca is a grid monitoring :cite:`inca-book` software suite. It provides
-        grid monitoring features. These monitoring features provide operators
-        failure trends, debugging support, email notifications, environmental
-        issues etc. :cite:`www-inca` It enables users to automate the tests
-        which can be executed on a periodic basis. Tests can added and configured
-        as and when needed. Its helps users with different portfolios like
-        system administrators, grid operators, end users etc Inca provides
-        user-level grid monitoring. For each user it stores results as well as
-        allows users to deploy new tests as well as share the results with other
-        users. The incat web ui allows users to view the status of test, manage test
-        and results. The architectural blocks of inca include report repository,
-        agent, data consumers and depot. Reporter is an executable program which
-        is used to collect the data from grid source. Reporters can be written in
-        perl and python. Inca repository is a collection of pre build reporters.
-        These can be accessed using a web url. Inca repository has 150+ reporters
-        available. Reporters are versioned and allow automatic updates. Inca agent
-        does the configuration management. Agent can be managed using the incat web ui.
-        Inca depot provides storage and archival of reports. Depot uses relational
-        database for this purpose. The database is accessed using hibernate backend.
-        Inca web UI or incat provides real time as well as historical view of inca data.
-        All communication between inca components is secured using SSL certificates.
-        It requires user credentials for any access to the system. Credentials are
-        created at the time of the setup and installation. Inca's performance has been
-        phenomenal in production deployments. Some of the deployments are running for
-        more than a decade and has been very stable. Overall Inca provides a solid
-        monitoring system which not only monitors but also detects problems very early on.
+     Inca is a grid monitoring :cite:`inca-book` software suite. It
+     provides grid monitoring features. These monitoring features
+     provide operators failure trends, debugging support, email
+     notifications, environmental issues etc. :cite:`www-inca`. It
+     enables users to automate the tests which can be executed on a
+     periodic basis. Tests can be added and configured as and when
+     needed. It helps users with different portfolios like system
+     administrators, grid operators, end users etc Inca provides
+     user-level grid monitoring. For each user it stores results as
+     well as allows users to deploy new tests as well as share the
+     results with other users. The incat web ui allows users to view
+     the status of test, manage test and results. The architectural
+     blocks of inca include report repository, agent, data consumers
+     and depot. Reporter is an executable program which is used to
+     collect the data from grid source. Reporters can be written in
+     perl and python. Inca repository is a collection of pre build
+     reporters.  These can be accessed using a web url. Inca
+     repository has 150+ reporters available. Reporters are versioned
+     and allow automatic updates. Inca agent does the configuration
+     management. Agent can be managed using the incat web ui. Inca
+     depot provides storage and archival of reports. Depot uses
+     relational database for this purpose. The database is accessed
+     using hibernate backend.  Inca web UI or incat provides real time
+     as well as historical view of inca data.  All communication
+     between inca components is secured using SSL certificates. It
+     requires user credentials for any access to the
+     system. Credentials are created at the time of the setup and
+     installation. Inca's performance has been phenomenal in
+     production deployments. Some of the deployments are running for
+     more than a decade and has been very stable. Overall Inca
+     provides a solid monitoring system which not only monitors but
+     also detects problems very early on.
 
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1100,13 +1120,17 @@ Message and Data Protocols
 378. Thrift
 379. Protobuf
 
-     Protocol Buffer :cite:`www-protobuf` is a way to serialize structured data into binary form (stream of bytes) 
-     in order to transfer it over wires or for storage. It is used for inter apllication communication or for 
-     remote procedure call (RPC). It involves a interface description  that describes the structure of some data and a
-     program that can generate source code or parse it back to the binary form. It emphasizes on simplicity 
-     and performance over xml. Though xml is more readable but requires more resources in parsing and storing.
-     This is developed by Google and available under open source licensing. The parser program is available 
-     in many languages including java and python.
+     Protocol Buffer :cite:`www-protobuf` is a way to serialize
+     structured data into binary form (stream of bytes) in order to
+     transfer it over wires or for storage. It is used for inter
+     apllication communication or for remote procedure call (RPC). It
+     involves a interface description that describes the structure of
+     some data and a program that can generate source code or parse it
+     back to the binary form. It emphasizes on simplicity and
+     performance over xml. Though xml is more readable but requires
+     more resources in parsing and storing.  This is developed by
+     Google and available under open source licensing. The parser
+     program is available in many languages including java and python.
 
 
 New Technologies to be integrated
