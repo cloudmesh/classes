@@ -27,10 +27,10 @@ Workflow-Orchestration
    
    Taverna is workflow management system. According to :cite:`www-taverna`,
    Taverna is transitioning to Apache Incubator as of Jan 2017.
-   Taverna suite includes 2 products:
+   Taverna suite includes 2 products: 
 
-   1. Taverna Workbench is desktop client where user can define the workflow.
-   2. Taverna Server is responsible for executing the remote workflows.
+   (1). Taverna Workbench is desktop client where user can define the workflow.
+   (2). Taverna Server is responsible for executing the remote workflows.
 
    Taverna workflows can also be executed on command-line.
    Taverna supports wide range of services including WSDL-style and RESTful
@@ -83,7 +83,7 @@ Application and Analytics
 34. Mbase
 35. DataFu
     
-    The Apache DataFu project was created out of the need for stable ,
+    The Apache DataFu project was created out of the need for stable,
     well-tested libraries for large scale data processing in Hadoop.
     As detailed in :cite:`www-DataFu` Apache DatFu consists of two
     libraries Apache DataFu Pig and Apache DataFu Hourglass.  Apache
@@ -101,6 +101,19 @@ Application and Analytics
 
 36. R
 37. pbdR
+
+    Programming with Big Data in R (pbdR) :cite:`www-pbdR` is an
+    environment having series of R packages for statistical computing
+    with Big Data using high-performance statistical computation. It
+    uses R , a popular language between statisticians and data
+    miners. "pbdR" focuses on distributed memory system, where data is
+    distributed accross several machines and processed in batch
+    mode. It uses MPI for inter process communications. R focuses on
+    single machines for data analysis using a interactive
+    GUI. Currenly there are two implementation of pbdR , one Rmpi and
+    another being pdbMpi.  Rmpi uses SPMD parallelism while pbdRMpi
+    uses manager/worker parallelism.
+
 38. Bioconductor
 39. ImageJ
 40. OpenCV
@@ -195,10 +208,10 @@ Application Hosting Frameworks
 
     Azure competes against Amazon's *Amazon Web Service*, :cite:www-aws-amzn
     even though IBM (*SoftLayer* :cite:www-softlayer-ibm and *Bluemix* :cite
-    :www-bluemix-ibm) and Google (*Google Cloud Platform*) :cite:www-cloud-
-    google offer IaaS to the market.  As of January 2017, Azure's datacenters
+    :`www-bluemix-ibm`) and Google (*Google Cloud Platform*) :cite:`www-cloud-
+    google` offer IaaS to the market.  As of January 2017, Azure's datacenters
     span 32 Microsoft-defined *regions*, or 38 *declared regions*, throughout
-    the world. :cite:www-azure-msft
+    the world. :cite:`www-azure-msft`
 
 87. Cloud Foundry
 88. Pivotal
@@ -232,35 +245,35 @@ High level Programming
 108. Shark
 109. Phoenix
 
-In the first quarter of 2013, Salesforce.com released its proprietary SQL-like
-interface and query engine for HBase, *Phoenix*, to the open source community.
-The company appears to have been motivated to develop Phoenix as a way to 1)
-increase accessiblity to HBase by using the industry-standard query language
-(SQL); 2) save users time by abstracting away the complexities of coding native
-HBase queries; and, 3) implementing query best practices by implementing them
-automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
-initially *open-sourced* it via Github, by May of 2014 it had become a top-level
-Apache project. :cite:www-phoenix-wikipedia
+     In the first quarter of 2013, Salesforce.com released its proprietary SQL-like
+     interface and query engine for HBase, *Phoenix*, to the open source community.
+     The company appears to have been motivated to develop Phoenix as a way to 1)
+     increase accessiblity to HBase by using the industry-standard query language
+     (SQL); 2) save users time by abstracting away the complexities of coding native
+     HBase queries; and, 3) implementing query best practices by implementing them
+     automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
+     initially *open-sourced* it via Github, by May of 2014 it had become a top-level
+     Apache project. :cite:www-phoenix-wikipedia
 
-Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
-and orchestrates the running of those scans to produce regular JDBC result
-sets." :cite:www-apachephoenix-org  In addition, the program directs compute
-intense portions of the calls to the server.  For instance, if a user queried
-for the top ten records across numerous regions from an HBase database
-consisting of a billion records, the program would first select the top ten
-records for each region using server-side compute resources.  After that, the
-client would be tasked with selecting the overall top ten. :cite:www-phoenix-
-salesforcedev
+     Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
+     and orchestrates the running of those scans to produce regular JDBC result
+     sets." :cite:www-apachephoenix-org  In addition, the program directs compute
+     intense portions of the calls to the server.  For instance, if a user queried
+     for the top ten records across numerous regions from an HBase database
+     consisting of a billion records, the program would first select the top ten
+     records for each region using server-side compute resources.  After that, the
+     client would be tasked with selecting the overall top ten. :cite:www-phoenix-
+     salesforcedev
 
-Despite adding an abstraction layer, Phoenix can actually speed up queries
-because it optimizes the query during the translation process. :cite:www-
-phoenix-cloudera  For example, "Phoenix beats Hive for a simple query spanning
-10M-100M rows." :cite:www-phoenix-infoq
+     Despite adding an abstraction layer, Phoenix can actually speed up queries
+     because it optimizes the query during the translation process. :cite:www-
+     phoenix-cloudera  For example, "Phoenix beats Hive for a simple query spanning
+     10M-100M rows." :cite:www-phoenix-infoq
 
-Finally, another program can enhance HBase's accessibility for those inclined
-towards graphical interfaces.  SQuirell only requires the user to set up the
-JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
-bighadoop
+     Finally, another program can enhance HBase's accessibility for those inclined
+     towards graphical interfaces.  SQuirell only requires the user to set up the
+     JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
+     bighadoop
 
 110. Impala
 111. MRQL
@@ -606,8 +619,28 @@ SQL(NewSQL)
 201. SQLite
 202. MySQL
 203. PostgreSQL
+
 204. CUBRID
+
+	 CUBRID name is deduced from the combination of word CUBE(security within box) and BRIDGE(data bridge).
+	 It is an open source Relational DataBase Management System designed in C programming language with high
+	 performance, scalability and availability features. During its development by NCL, korean IT service provider
+	 the goal was to optimize database performance for web-applications. :cite:`www-cubrid`
+	 Importantly most of the SQL syntax from MYSQL and ORACLE can work on cubrid.CUBRID also provides manager tool
+	 for database administration and migration tool for migrating the data from DBMS to CUBRID bridging the dbs.
+	 CUBRID enterprise version and all the tools are free and suitable database candidate for web-application development.	
+
 205. Galera Cluster
+
+     Galera cluster :cite:`www-galera-cluster` is a type of database clustering which has all 
+     multiple masters and works on synchronous replication. At a deeper level, it was created 
+     by extending MySql replication API to provide all support for true multi master synchronous replication.
+     This extended api is called as Write-Set Replication API and is the core of the clustering logic.
+     Each transaction of wsrep API not only contains the record but also other meta-info to requires to commit
+     each node separately or asynchronously. So though it seems synchronous logically but works independently on each node.
+     The approach is also called virtually synchronous replication. This helps in directly read-write on a 
+     specific node and can lose a node without handling any complex failover scenarios (zero downtime).
+
 206. SciDB
 207. Rasdaman
 208. Apache Derby
@@ -625,6 +658,14 @@ NoSQL
 ----------------------------------------------------------------------
 
 218. Lucene
+
+     Apache Lucene :cite:`www-lucene` is a high-performance, full-featured text search engine library. 
+     It is originally written in pure Java but also has been ported to few other languages chiefly python. 
+     It is suitable for applications that requires full-text search. 
+     One of the key implementation of Lucene is Internet search engines and local, single-site searching. 
+     Another important implementation usage is its recomendation system. The core idea of Lucene is to extract text 
+     from any document that contains text (not image) field, making it format idependent.
+
 219. Solr
 220. Solandra
 221. Voldemort
@@ -691,6 +732,15 @@ NoSQL
 237. Megastore and Spanner
 238. Accumulo
 239. Cassandra
+
+     Apache Cassandra :cite:`www-cassandra` is an open-source distributed database managemment for handling large 
+     volume of data accross comodity servers. It works on asynchronous masterless replication 
+     technique leading to low latency and high availability. It is a hybrid between a key-value 
+     and column oriented database. A table in cassandra can be viewed as a multi dimensional 
+     map indexed by a key. It has its own "Cassandra Query language (CQL)" query language for 
+     data extraction and mining. One of the demerits of such structure is it does not support 
+     joins or subqueries. It is a java based system which can be administered by any JMX compliant tools.
+
 240. RYA
 241. Sqrrl
 242. Neo4J
@@ -1057,6 +1107,15 @@ Message and Data Protocols
 377. Avro
 378. Thrift
 379. Protobuf
+
+     Protocol Buffer :cite:`www-protobuf` is a way to serialize structured data into binary form (stream of bytes) 
+     in order to transfer it over wires or for storage. It is used for inter apllication communication or for 
+     remote procedure call (RPC). It involves a interface description  that describes the structure of some data and a
+     program that can generate source code or parse it back to the binary form. It emphasizes on simplicity 
+     and performance over xml. Though xml is more readable but requires more resources in parsing and storing.
+     This is developed by Google and available under open source licensing. The parser program is available 
+     in many languages including java and python.
+
 
 New Technologies to be integrated
 ---------------------------------

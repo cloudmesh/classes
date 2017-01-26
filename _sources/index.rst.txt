@@ -4,18 +4,25 @@ I524
 .. toctree::
    :maxdepth: 1
 
+   i524/preface/index
    i524/index
- 
+   i524/calendar
+   i524/lectures
 
-
-Classes
-========
+Technologies
+------------
 
 .. toctree::
    :maxdepth: 1
+	   
+   i524/technologies
 
-   about/index	      
-   i524/index
+Lessons
+-------
+
+.. toctree::
+   :maxdepth: 1
+	   
    lesson/index
    notebooks/index
    faq
@@ -24,9 +31,9 @@ Classes
    changelog
    
    
-Search:
+Index
+=====
 
-* :ref:`search`
 * :ref:`genindex`
 
 .. coment::

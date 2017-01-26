@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Preface &#8212; Big Data Classes</title>
+    
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootswatch-3.3.6/cerulean/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="About" href="about.html" />
+    <link rel="prev" title="I524" href="../../index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          Classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../index.html">i524</a></li>
+                <li><a href="../../changelog.html">Changes</a></li>
+                <li><a href="https://piazza.com/class/ix39m27czn5uw">Piazza</a></li>
+                <li><a href="../../lesson/index.html">Lessons</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="about.html">About</a></li>
+<li class="toctree-l2"><a class="reference internal" href="disclaimer.html">Disclaimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="instructors.html">Instructors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="instructors.html#teaching-assistants">Teaching Assistants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">I524 Big Data and Open Source Software Projects</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#meeting-times">Meeting Times</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#online-meetings">Online Meetings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#who-can-take-the-class">Who can take the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#homework">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#open-source-publication-of-homework">Open Source Publication of Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#piazza">Piazza</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#tips-on-how-to-achieve-your-best">Tips on how to achieve your best</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#submissions">Submissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#selected-project-ideas">Selected Project Ideas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#software-project">Software Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#report-format">Report Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#github-repositories">Github repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#code-repositories-deliverables">Code Repositories Deliverables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#learning-outcomes">Learning Outcomes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#academic-integrity-policy">Academic Integrity Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#course-numbers">Course Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#refernces">Refernces</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../calendar.html">I524 Calendar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../calendar.html#comments">Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../calendar.html#official-university-calendar">Official University calendar</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lectures.html">I524 Lectures</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures.html#lectures">Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures.html#lectures-theory-track">Lectures - Theory Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures.html#lectures-collaboration-track">Lectures - Collaboration Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures.html#unreleased-lectures">Unreleased Lectures</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../technologies.html">Technologies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#application-and-analytics">Application and Analytics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#application-hosting-frameworks">Application Hosting Frameworks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#high-level-programming">High level Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#streams">Streams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#basic-programming-model-and-runtime-spmd-mapreduce">Basic Programming model and runtime, SPMD, MapReduce</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#inter-process-communication-collectives">Inter process communication Collectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#in-memory-databases-caches">In-memory databases/caches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#object-relational-mapping">Object-relational mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#extraction-tools">Extraction Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#sql-newsql">SQL(NewSQL)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#nosql">NoSQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#file-management">File management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#data-transport">Data Transport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#cluster-resource-management">Cluster Resource Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#file-systems">File systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#interoperability">Interoperability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#devops">DevOps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#new-technologies-to-be-integrated">New Technologies to be integrated</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#excersise">Excersise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#refernces">Refernces</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/hadoop.html">Hadoop Virtual CLuster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id9">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id15">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id18">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Preface</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="about.html">About</a></li>
+<li class="toctree-l2"><a class="reference internal" href="disclaimer.html">Disclaimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="instructors.html">Instructors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="instructors.html#teaching-assistants">Teaching Assistants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">I524 Big Data and Open Source Software Projects</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#meeting-times">Meeting Times</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#online-meetings">Online Meetings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#who-can-take-the-class">Who can take the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#homework">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#open-source-publication-of-homework">Open Source Publication of Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#piazza">Piazza</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#tips-on-how-to-achieve-your-best">Tips on how to achieve your best</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#submissions">Submissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#selected-project-ideas">Selected Project Ideas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#software-project">Software Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#report-format">Report Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#github-repositories">Github repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#code-repositories-deliverables">Code Repositories Deliverables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#learning-outcomes">Learning Outcomes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#academic-integrity-policy">Academic Integrity Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#course-numbers">Course Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#refernces">Refernces</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../calendar.html">I524 Calendar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../calendar.html#comments">Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../calendar.html#official-university-calendar">Official University calendar</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lectures.html">I524 Lectures</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures.html#lectures">Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures.html#lectures-theory-track">Lectures - Theory Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures.html#lectures-collaboration-track">Lectures - Collaboration Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures.html#unreleased-lectures">Unreleased Lectures</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../technologies.html">Technologies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#application-and-analytics">Application and Analytics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#application-hosting-frameworks">Application Hosting Frameworks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#high-level-programming">High level Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#streams">Streams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#basic-programming-model-and-runtime-spmd-mapreduce">Basic Programming model and runtime, SPMD, MapReduce</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#inter-process-communication-collectives">Inter process communication Collectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#in-memory-databases-caches">In-memory databases/caches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#object-relational-mapping">Object-relational mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#extraction-tools">Extraction Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#sql-newsql">SQL(NewSQL)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#nosql">NoSQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#file-management">File management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#data-transport">Data Transport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#cluster-resource-management">Cluster Resource Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#file-systems">File systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#interoperability">Interoperability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#devops">DevOps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#new-technologies-to-be-integrated">New Technologies to be integrated</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#excersise">Excersise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technologies.html#refernces">Refernces</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/hadoop.html">Hadoop Virtual CLuster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id9">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id15">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id18">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">Preface</a></li>
+</ul>
+
+<form action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="preface">
+<h1>Preface<a class="headerlink" href="#preface" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="disclaimer.html">Disclaimer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="instructors.html">Instructors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="instructors.html#teaching-assistants">Teaching Assistants</a></li>
+</ul>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
