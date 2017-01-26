@@ -1001,16 +1001,14 @@ IaaS Management from HPC to hypervisors
      as launch and monitor the cloud apps. It also includes service
      that provides auto-scaling and high availability of resources
      deployed over multiple IaaS cloud.  The Nimubs Platform tools are
-     cloudinit.d, Phantom and Context Broker.  In the 2013 paper
-     :cite:`nimbus-paper` Dmitry Duplykin and others from University
-     of Colorado, used Nimbus Phantom to deploy auto-scaling solution
-     across multiple NSF FutureGrid clouds. In this implementation
-     Phantom was responsible for deploying instances across multiple
-     clouds and monitoring those instance.  Nimbus platform supports
-     Nimbus, Open Stack, Amazon and several other clouds.
-
-     **IMPROVE: Mention names is inappropriate**
-
+     cloudinit.d, Phantom and Context Broker.  In this paper
+     :cite:`nimbus-paper` it is mentioned how to used Nimbus Phantom
+     to deploy auto-scaling solution across multiple NSF FutureGrid
+     clouds. In this implementation Phantom was responsible for
+     deploying instances across multiple clouds and monitoring those
+     instance.  Nimbus platform supports Nimbus, Open Stack, Amazon
+     and several other clouds.
+     
 351. CloudStack
 352. CoreOS
 353. rkt
