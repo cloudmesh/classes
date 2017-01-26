@@ -216,7 +216,10 @@ Application Hosting Frameworks
 87. Cloud Foundry
 88. Pivotal
 89. IBM BlueMix
-90. Ninefold
+90. (Ninefold)
+
+    no longer active
+    
 91. Jelastic
 92. Stackato
 93. appfog
