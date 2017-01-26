@@ -105,12 +105,12 @@ Application and Analytics
     Programming with Big Data in R (pbdR) :cite:`www-pbdR` is an
     environment having series of R packages for statistical computing
     with Big Data using high-performance statistical computation. It
-    uses R , a popular language between statisticians and data
+    uses R, a popular language between statisticians and data
     miners. "pbdR" focuses on distributed memory system, where data is
     distributed accross several machines and processed in batch
     mode. It uses MPI for inter process communications. R focuses on
     single machines for data analysis using a interactive
-    GUI. Currenly there are two implementation of pbdR , one Rmpi and
+    GUI. Currenly there are two implementation of pbdR, one Rmpi and
     another being pdbMpi.  Rmpi uses SPMD parallelism while pbdRMpi
     uses manager/worker parallelism.
 
@@ -251,29 +251,29 @@ High level Programming
      increase accessiblity to HBase by using the industry-standard query language
      (SQL); 2) save users time by abstracting away the complexities of coding native
      HBase queries; and, 3) implementing query best practices by implementing them
-     automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
+     automatically via Phoenix. :cite:`www-phoenix-cloudera`  Although Salesforce.com
      initially *open-sourced* it via Github, by May of 2014 it had become a top-level
-     Apache project. :cite:www-phoenix-wikipedia
+     Apache project. :cite:`www-phoenix-wikipedia`
 
      Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
      and orchestrates the running of those scans to produce regular JDBC result
-     sets." :cite:www-apachephoenix-org  In addition, the program directs compute
+     sets." :cite:`www-apachephoenix-org`  In addition, the program directs compute
      intense portions of the calls to the server.  For instance, if a user queried
      for the top ten records across numerous regions from an HBase database
      consisting of a billion records, the program would first select the top ten
      records for each region using server-side compute resources.  After that, the
-     client would be tasked with selecting the overall top ten. :cite:www-phoenix-
-     salesforcedev
+     client would be tasked with selecting the overall top ten. :cite:`www-phoenix-
+     salesforcedev`
 
      Despite adding an abstraction layer, Phoenix can actually speed up queries
-     because it optimizes the query during the translation process. :cite:www-
-     phoenix-cloudera  For example, "Phoenix beats Hive for a simple query spanning
-     10M-100M rows." :cite:www-phoenix-infoq
+     because it optimizes the query during the translation process. :cite:`www-
+     phoenix-cloudera`  For example, "Phoenix beats Hive for a simple query spanning
+     10M-100M rows." :cite:`www-phoenix-infoq`
 
      Finally, another program can enhance HBase's accessibility for those inclined
      towards graphical interfaces.  SQuirell only requires the user to set up the
-     JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
-     bighadoop
+     JDBC driver and specify the appropriate connection string. :cite:`www-phoenix-
+     bighadoop`
 
 110. Impala
 111. MRQL
@@ -294,7 +294,7 @@ High level Programming
      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
      library of routines for managing a database which is a simple
      data file containing records. Each record in the database is a
-     pair of a key and a value.Every key and value is serial bytes
+     pair of a key and a value. Every key and value is serial bytes
      with variable length. Both binary data and character string can
      be used as a key and a value. Each key must be unique within a
      database.  There is neither concept of data tables nor data
@@ -304,7 +304,7 @@ High level Programming
      tree database. Moreover, the size of database is very small. The,
      overhead for a record is 16 bytes for hash database, and 4 bytes
      for B+ tree database. Furthermore, scalability of Kyoto Cabinet
-     is great.  The database size can be up to 8EB (9.22e18 bytes).
+     is great. The database size can be up to 8EB (9.22e18 bytes).
 
 122. Pig
 123. Sawzall
@@ -323,29 +323,34 @@ Streams
 132. Google MillWheel
 133. Amazon Kinesis
 
-        Kinesis is Amazon’s :cite:`www-kinesis` real time data processing engine. It
-        is designed to provide scalable, durable and reliable data processing
-        platform with low latency. The data to Kinesis can be ingested from multiple
-        sources in different format. This data is further made available by Kinesis to
-        multiple applications or consumers interested in the data. Kinesis provides
-        robust and fault tolerant system to handle this high volume of data. Data
-        sharding mechanism is Kinesis makes it horizontally scalable. Each of these
-        shards in Kinesis process a group of records which are partitioned by the
-        shard key. Each record processed by Kinesis is identified by sequence number,
-        partition key and data blob. Sequence number to records is assigned by the
-        stream. Partition key are used by partitioner(a hash function) to map the
-        records to the shards i.e. which records should go to which shard. Producers
-        like web servers, client applications, logs push the data to Kinesis whereas
-        Kinesis applications act as consumers of the data from Kinesis engine. It also
-        provides data retention for certain time for example 24 hours default. This
-        data retention window is a sliding window. Kinesis collects lot of metrics
-        which can used to understand the amount of data being processed by Kinesis.
-        User can use this metrics to do some analytics and visualize the metrics data.
-        Kinesis is one of the tools part of AWS infrastructure and provides its users
-        a complete software-as-a-service. Kinesis :cite:`big-data-analytics-book` in
-        the area of real-time processing provides following key benefits:
-        ease of use, parellel processing, scalable, cost effective, fault tolerant
-        and highly available.
+     Kinesis is Amazon’s :cite:`www-kinesis` real time data processing
+     engine. It is designed to provide scalable, durable and reliable
+     data processing platform with low latency. The data to Kinesis
+     can be ingested from multiple sources in different format. This
+     data is further made available by Kinesis to multiple
+     applications or consumers interested in the data. Kinesis
+     provides robust and fault tolerant system to handle this high
+     volume of data. Data sharding mechanism is Kinesis makes it
+     horizontally scalable. Each of these shards in Kinesis process a
+     group of records which are partitioned by the shard key. Each
+     record processed by Kinesis is identified by sequence number,
+     partition key and data blob. Sequence number to records is
+     assigned by the stream. Partition keys are used by partitioner(a
+     hash function) to map the records to the shards i.e. which
+     records should go to which shard. Producers like web servers,
+     client applications, logs push the data to Kinesis whereas
+     Kinesis applications act as consumers of the data from Kinesis
+     engine. It also provides data retention for certain time for
+     example 24 hours default. This data retention window is a sliding
+     window. Kinesis collects lot of metrics which can used to
+     understand the amount of data being processed by Kinesis.  User
+     can use this metrics to do some analytics and visualize the
+     metrics data.  Kinesis is one of the tools part of AWS
+     infrastructure and provides its users a complete
+     software-as-a-service. Kinesis :cite:`big-data-analytics-book` in
+     the area of real-time processing provides following key benefits:
+     ease of use, parellel processing, scalable, cost effective, fault
+     tolerant and highly available.
 
 134. LinkedIn
 135. Twitter Heron
@@ -393,42 +398,48 @@ Inter process communication Collectives
 167. ActiveMQ
 168. RabbitMQ
 
-        RabbitMQ is a message broker :cite:`www-rabbitmq` which allows services to
-        exchange messages in a fault tolerant manner. It provides variety of features
-        which “enables software applications to connect and scale”. Features are:
-        reliability, flexible routing, clustering, federation, highly available
-        queues, multi-protocol, many clients, management UI, tracing, plugin system,
-        commercial support, large community and user base. RabbitMQ can work in
-        multiple scenarios:
+     RabbitMQ is a message broker :cite:`www-rabbitmq` which allows
+     services to exchange messages in a fault tolerant manner. It
+     provides variety of features which “enables software applications
+     to connect and scale”. Features are: reliability, flexible
+     routing, clustering, federation, highly available queues,
+     multi-protocol, many clients, management UI, tracing, plugin
+     system, commercial support, large community and user
+     base. RabbitMQ can work in multiple scenarios:
 
-        1. Simple messaging: producers write messages to the queue and consumers read
-        messages from the the queue. This is synonymous to a simple message queue.
+     1. Simple messaging: producers write messages to the queue and
+        consumers read messages from the the queue. This is synonymous
+        to a simple message queue.
 
-        2. Producer-consumer: Producers produce messages and consumers receive messages
-        from the queue. The messages are delivered to multiple consumers in round
-        robin manner.
+     2. Producer-consumer: Producers produce messages and consumers
+        receive messages from the queue. The messages are delivered to
+        multiple consumers in round robin manner.
 
-        3. Publish-subscribe: Producers publish messages to exchanges and consumers
-        subscribe to these exchanges. Consumers receive those messages when the
-        messages are available in those exchanges.
+     3. Publish-subscribe: Producers publish messages to exchanges
+        and consumers subscribe to these exchanges. Consumers receive
+        those messages when the messages are available in those
+        exchanges.
 
-        4. Routing: In this mode consumers can subscribe to a subset of messages instead
-        of receiving all messages from the queue.
+     4. Routing: In this mode consumers can subscribe to a subset
+        of messages instead of receiving all messages from the queue.
 
-        5. Topics: Producers can produce messages to a topic multiple consumers
-        registered to receive messages from those topics get those messages. These
-        topics can be handled by a single exchange or multiple exchanges.
+     5. Topics: Producers can produce messages to a topic multiple
+        consumers registered to receive messages from those topics get
+        those messages. These topics can be handled by a single
+        exchange or multiple exchanges.
 
-        6. RPC:In this mode the client sends messages as well as registers a callback
-        message queue. The consumers consume the message and post the response message
-        to the callback queue.
+     6. RPC:In this mode the client sends messages as well as
+        registers a callback message queue. The consumers consume the
+        message and post the response message to the callback queue.
 
-        RabbitMQ is based on AMPQ :cite:`ampq-article` (Advanced Message Queuing Protocol)
-        messaging model. AMPQ is described as follows “messages are published to exchanges,
-        which are often compared to post offices or mailboxes. Exchanges then distribute
-        message copies to queues using rules called bindings. Then AMQP brokers either
-        deliver messages to consumers subscribed to queues, or consumers fetch/pull messages
-        from queues on demand”
+        RabbitMQ is based on AMPQ :cite:`ampq-article` (Advanced
+        Message Queuing Protocol) messaging model. AMPQ is described
+        as follows “messages are published to exchanges, which are
+        often compared to post offices or mailboxes. Exchanges then
+        distribute message copies to queues using rules called
+        bindings. Then AMQP brokers either deliver messages to
+        consumers subscribed to queues, or consumers fetch/pull
+        messages from queues on demand”
 
 169. NaradaBrokering
 170. QPid
@@ -436,10 +447,7 @@ Inter process communication Collectives
 
      Apache Kafka is a streaming platform, which works based on
      publish-subscribe messaging system and supports distributed
-     environment. Lets understand what does this mean and also see
-     what are Kafka’s features.
-    
-     Kafka lets you publish and subscribe to the messages.
+     environment. Kafka lets publish and subscribe to the messages.
     
      In a publish-subscribe messaging system, publishers are sender of
      messages. They publish the messages without the knowledge of who
@@ -450,33 +458,26 @@ Inter process communication Collectives
      category or feed name to which records are
      published. Applications can use Kafka’s Connector APIs to publish
      the messages to one or more Kafka topics. Similarly, applications
-     can use Consumer API to subscribe to one or more topics.
-    
-     Kafka lets you process the stream of data at real time
+     can use Consumer API to subscribe to one or more topics.  
+     Kafka has the capability to process the stream of data at real time.
     
      Kafka’s stream processor takes continual stream of data from
      input topics, processes the data in real time and produces
      streams of data to output topics. Kafka’s Streams API are used
-     for data transformation.
-    
-     Kafka lets you store the stream of data in distributed clusters.
+     for data transformation. Kafka allows to store the stream of data
+     in distributed clusters.
     
      Kafka acts as a storage system for incoming data stream. Data is
      categorised into ‘topics’. As Kafka is a distributed system, data
      streams are partitioned and replicated across nodes. Thus, a
      combination of messaging, storage and processing data stream
-     makes Kafka a ‘streaming platform’.
-    
-     Where is Kafka commonly used?
-    
-     Kafka can be used for building data pipelines where data is
+     makes Kafka a ‘streaming platform’.    
+        
+     Kafka is a commonly used for building data pipelines where data is
      transferred between systems or applications. :cite:`www-kafka`
      Kafka can also be used by applications that transform real time
      incoming data.
-
-     **IMPROVE: This is written like an advertisement about Kafka. Are
-     quotes needed **
-     
+          
 172. Kestrel
 173. JMS
 174. AMQP
@@ -495,44 +496,36 @@ In-memory databases/caches
 
 183. Gora (general object from NoSQL)
 
-        Gora is a in-memory data model :cite:`www-gora` which also provides
-        persistence to the big data. Gora provides persistence to different types
-        of data stores. Primary goals of Gora are:
+     Gora is a in-memory data model :cite:`www-gora` which also
+     provides persistence to the big data. Gora provides persistence
+     to different types of data stores. Primary goals of Gora are:
 
-        1. data persistence
+     1. data persistence
+     2. indexing
+     3. data access
+     4. analysis
+     5. map reduce support
 
-        2. indexing
+     Unlike ORM models which mostly work with relational databases for
+     example hibernate gora works for most type of data stores like
+     documents, columnar, key value as well as relational. Gora uses
+     beans to maintain the data in-memory and persist it on
+     disk. Beans are defined using apache avro schema. Gora provides
+     modules for each type of data store it supports.  The mapping
+     between bean definition and datastore is done in a mapping file
+     which is specific to a data store.  Type Gora workflow will be:
 
-        3. data access
+     1. define  the bean used as model for persistence
+     2. use gora compiler to compile the bean
+     3. create a mapping file to map bean definition to datastore
+     4. update gora.properties to specify the datastore to use
+     5. get an instance of corresponding data store using datastore factory.
 
-        4. analysis
-
-        5. map reduce support
-
-        Unlike ORM models which mostly work with relational databases for example
-        hibernate gora works for most type of data stores like documents, columnar,
-        key value as well as relational. Gora uses beans to maintain the data
-        in-memory and persist it on disk. Beans are defined using apache
-        avro schema. Gora provides modules for each type of data store it supports.
-        The mapping between bean definition and datastore is done in a mapping file
-        which is specific to a data store.
-        Type Gora workflow will be:
-
-        1. define  the bean used as model for persistence
-
-        2. use gora compiler to compile the bean
-
-        3. create a mapping file to map bean definition to datastore
-
-        4. update gora.properties to specify the datastore to use
-
-        5. get an instance of corresponding data store using datastore factory.
-
-        Gora has a query interface to query the underlying data store. Its
-        configuration is stored in gora.properties which is should be present in
-        classpath. In the file you can specify default data store used by Gora
-        engine. Gora also has a CI/CD library call GoraCI which is used to write
-        integration tests.
+     Gora has a query interface to query the underlying data store. Its
+     configuration is stored in gora.properties which should be present in
+     classpath. In the file you can specify default data store used by Gora
+     engine. Gora also has a CI/CD library call GoraCI which is used to write
+     integration tests.
 
 184. Memcached
 185. Redis
@@ -609,12 +602,11 @@ SQL(NewSQL)
         integrated with Microsoft Azure cloud platform and available in
         platform-as-a-service mode.
 
-     Ross Mistry and Stacia Misner in :cite:`book-sqlserver` explain
-     the technical architecture of SQL Server in OLTP(online
-     transaction processing), hybrid cloud and business intelligence
-     modes.
+     It is explained that technical architecture of SQL Server in
+     OLTP(online transaction processing), hybrid cloud and business
+     intelligence modes :cite:`book-sqlserver`.
 
-     **IMPROVE: It is inappropriate to mention authors**
+    
 
 201. SQLite
 202. MySQL
