@@ -602,12 +602,11 @@ SQL(NewSQL)
         integrated with Microsoft Azure cloud platform and available in
         platform-as-a-service mode.
 
-     Ross Mistry and Stacia Misner in :cite:`book-sqlserver` explain
-     the technical architecture of SQL Server in OLTP(online
-     transaction processing), hybrid cloud and business intelligence
-     modes.
+     It is explained that technical architecture of SQL Server in
+     OLTP(online transaction processing), hybrid cloud and business
+     intelligence modes :cite:`book-sqlserver`.
 
-     **IMPROVE: It is inappropriate to mention authors**
+    
 
 201. SQLite
 202. MySQL
