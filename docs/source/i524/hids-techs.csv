@@ -1,376 +1,83 @@
-S17-ER-1000,Mbase
-S17-ER-1000,Hyper-V
-S17-ER-1000,Kibana
-S17-ER-1000,Yarcdata
-S17-ER-1000,CDMI
-S17-ER-1000,Kepler
-S17-ER-1001,Azure Queues
-S17-ER-1001,Sentry
-S17-ER-1001,Tableau
-S17-ER-1001,Berkeley DB
-S17-ER-1001,ODE
-S17-ER-1001,OpenStack Keystone
-S17-ER-1002,Crunch
-S17-ER-1002,point-to-point
-S17-ER-1002,LinkedIn
-S17-ER-1002,Pig
-S17-ER-1002,Hive
-S17-ER-1002,IPython
-S17-IO-3000,SQL Server
-S17-IO-3000,Nimbus
-S17-IO-3000,Taverna
-S17-IO-3000,Chef
-S17-IO-3000,Tyrant
-S17-IO-3000,FITS
-S17-IO-3001,Medusa-GPU
-S17-IO-3001,Jupyter
-S17-IO-3001,OpenJPA
-S17-IO-3001,Google and other public Clouds
-S17-IO-3001,Airavata
-S17-IO-3002,TensorFlow
-S17-IO-3002,Azure Stream Analytics
-S17-IO-3002,Ambari
-S17-IO-3002,Galaxy
-S17-IO-3002,Bioconductor
-S17-IO-3003,QPid
-S17-IO-3003,Stomp
-S17-IO-3003,Apatar
-S17-IO-3003,Google FlumeJava
-S17-IO-3003,Sqrrl
-S17-IO-3004,appfog
-S17-IO-3004,Dream:Lab
-S17-IO-3004,MySQL
-S17-IO-3004,ZHT
-S17-IO-3004,RYA
-S17-IO-3005,Amazon Kinesis
-S17-IO-3005,Inca
-S17-IO-3005,Gora (general object from NoSQL)
-S17-IO-3005,RabbitMQ
-S17-IO-3005,JClouds
-S17-IO-3006,Tez
-S17-IO-3006,Ubuntu MaaS
-S17-IO-3006,Llama
-S17-IO-3006,GraphChi
-S17-IO-3006,Lumberyard
-S17-IO-3007,Google Cloud SQL
-S17-IO-3007,Ganglia
-S17-IO-3007,NaradaBrokering
-S17-IO-3007,Event Hubs
-S17-IO-3007,Kite
-S17-IO-3008,CINET
-S17-IO-3008,Linux-Vserver
-S17-IO-3008,Networking: Google Cloud DNS
-S17-IO-3008,Talend
-S17-IO-3008,Haystack
-S17-IO-3009,Flink Streaming
-S17-IO-3009,Solr
-S17-IO-3009,JGroups
-S17-IO-3009,Azure SQL
-S17-IO-3009,HDF
-S17-IO-3010,Azure
-S17-IO-3010,Couchbase
-S17-IO-3010,Public Cloud: Azure Table
-S17-IO-3010,Sawzall
-S17-IO-3010,Phoenix
-S17-IO-3011,ZeroMQ
-S17-IO-3011,Blueprints
-S17-IO-3011,Trident
-S17-IO-3011,e-Science Central
-S17-IO-3011,Winery
-S17-IO-3012,MRQL
-S17-IO-3012,AWS OpsWorks
-S17-IO-3012,GPFS
-S17-IO-3012,Hazelcast
-S17-IO-3012,Google Bigtable
-S17-IO-3013,Google Prediction API & Translation API
-S17-IO-3013,LMDB (key value)
-S17-IO-3013,QEMU
-S17-IO-3013,BioKepler
-S17-IO-3013,Google Cloud Dataflow
-S17-IO-3014,Riak
-S17-IO-3014,Ehcache
-S17-IO-3014,Xen
-S17-IO-3014,Zookeeper
-S17-IO-3014,SSH
-S17-IO-3015,Lucene
-S17-IO-3015,pbdR
-S17-IO-3015,Protobuf
-S17-IO-3015,Galera Cluster
-S17-IO-3015,Cassandra
-S17-IO-3016,DC.js
-S17-IO-3016,Aerobatic
-S17-IO-3016,CoreOS
-S17-IO-3016,AMQP
-S17-IO-3016,Argo BEAST HPX-5 BEAST PULSAR
-S17-IO-3017,Facebook Tao
-S17-IO-3017,MongoDB
-S17-IO-3017,Amazon
-S17-IO-3017,Kafka
-S17-IO-3017,Amazon Dynamo
-S17-IO-3018,PostgreSQL
-S17-IO-3018,Impala
-S17-IO-3018,Hadoop
-S17-IO-3018,Floe
-S17-IO-3018,VirtualBox
-S17-IO-3019,Stackato
-S17-IO-3019,Parasol
-S17-IO-3019,vSphere and vCloud
-S17-IO-3019,Totem
-S17-IO-3019,Libvirt
-S17-IO-3020,AppScale
-S17-IO-3020,CloudControl
-S17-IO-3020,Google Fusion Tables
-S17-IO-3020,Yarn
-S17-IO-3020,TinkerPop
-S17-IO-3021,CUBRID
-S17-IO-3021,MR-MPI
-S17-IO-3021,NWB
-S17-IO-3021,Cascading
-S17-IO-3021,BitTorrent
-S17-IO-3022,Juju
-S17-IO-3022,Netty
-S17-IO-3022,FUSE
-S17-IO-3022,Google Chubby
-S17-IO-3022,Mesos
-S17-IO-3023,H-Store
-S17-IO-3023,Kyoto Cabinet
-S17-IO-3023,Globus Online (GridFTP)
-S17-IO-3023,Sahara
-S17-IO-3023,DataFu
-S17-IO-3024,NiFi (NSA)
-S17-IO-3024,LXC
-S17-IO-3024,Helix
-S17-IO-3024,IBM dashDB
-S17-IO-3024,Puppet
-S17-IO-3025,Voldemort
-S17-IO-3025,Buildstep
-S17-IO-3025,OCCI
-S17-IO-3025,SAP HANA
-S17-IO-3025,HPX-5
-S17-IR-2000,OPeNDAP
-S17-IR-2000,CloudMesh
-S17-IR-2000,Rocks
-S17-IR-2000,Swift
-S17-IR-2000,Infinispan
-S17-IR-2001,Celery
-S17-IR-2001,GraphBuilder(Intel)
-S17-IR-2001,HTCondor
-S17-IR-2001,HUBzero
-S17-IR-2001,Gitreceive
-S17-IR-2002,Stratosphere (Apache Flink)
-S17-IR-2002,ActiveBPEL
-S17-IR-2002,Google Dremel
-S17-IR-2002,ImageJ
-S17-IR-2002,IBM Cloudant
-S17-IR-2003,DAAL(Intel)
-S17-IR-2003,Hibernate
-S17-IR-2003,PyBrain
-S17-IR-2003,CouchDB
-S17-IR-2003,OpenStack
-S17-IR-2004,PLASMA MAGMA
-S17-IR-2004,Samza
-S17-IR-2004,Azure Blob
-S17-IR-2004,OpenVZ
-S17-IR-2004,Jelastic
-S17-IR-2005,N1QL
-S17-IR-2005,Google App Engine
-S17-IR-2005,SciDB
-S17-IR-2005,Triana
-S17-IR-2005,OpenStack Ironic
-S17-IR-2006,Cinder
-S17-IR-2006,Spark
-S17-IR-2006,R
-S17-IR-2006,dotCloud
-S17-IR-2006,Pivotal Gemfire
-S17-IR-2007,DevOpSlang
-S17-IR-2007,Google BigQuery
-S17-IR-2007,OSGi
-S17-IR-2007,OpenPBS
-S17-IR-2007,Lambda
-S17-IR-2008,Kestrel
-S17-IR-2008,Scalapack
-S17-IR-2008,HadoopDB
-S17-IR-2008,OODT
-S17-IR-2008,Thrift
-S17-IR-2009,Megastore and Spanner
-S17-IR-2009,Pivotal GPLOAD/GPFDIST
-S17-IR-2009,Facebook Corona
-S17-IR-2009,Apache Derby
-S17-IR-2009,SQLite
-S17-IR-2010,MapGraph
-S17-IR-2010,three.js
-S17-IR-2010,Amazon Redshift
-S17-IR-2010,(Dryad)
-S17-IR-2010,Disco
-S17-IR-2011,DL4j
-S17-IR-2011,Solandra
-S17-IR-2011,CloudStack
-S17-IR-2011,Logstash
-S17-IR-2011,Ansible
-S17-IR-2012,GraphLab
-S17-IR-2012,GFFS
-S17-IR-2012,Lustre
-S17-IR-2012,Reef
-S17-IR-2012,Harp
-S17-IR-2013,Flume
-S17-IR-2013,OpenCV
-S17-IR-2013,ORC
-S17-IR-2013,VMware ESXi
-S17-IR-2013,Hama
-S17-IR-2014,Sqoop
-S17-IR-2014,Pivotal
-S17-IR-2014,Google MillWheel
-S17-IR-2014,iRODS
-S17-IR-2014,VoltDB
-S17-IR-2015,Facebook Tupperware
-S17-IR-2015,Neo4J
-S17-IR-2015,Databus
-S17-IR-2015,KeystoneML
-S17-IR-2015,Rasdaman
-S17-IR-2016,ActiveMQ
-S17-IR-2016,OpenTOSCA
-S17-IR-2016,Avro
-S17-IR-2016,SaltStack
-S17-IR-2016,Whirr
-S17-IR-2017,Eduroam
-S17-IR-2017,Potree
-S17-IR-2017,Pivotal HD/Hawq
-S17-IR-2017,Docker Compose
-S17-IR-2017,OpenNebula
-S17-IR-2018,CompLearn
-S17-IR-2018,OpenID
-S17-IR-2018,Cisco Intelligent Automation for Cloud
-S17-IR-2018,Pentaho
-S17-IR-2018,scikit-learn
-S17-IR-2019,Oracle
-S17-IR-2019,CNTK
-S17-IR-2019,Twister
-S17-IR-2019,NetCDF
-S17-IR-2019,Oozie
-S17-IR-2020,Summingbird
-S17-IR-2020,Google F1
-S17-IR-2020,Torque
-S17-IR-2020,DataTurbine
-S17-IR-2020,Scalding
-S17-IR-2021,"Docker (Machine, Swarm)"
-S17-IR-2021,Shark
-S17-IR-2021,Ligra
-S17-IR-2021,Redis
-S17-IR-2021,Facebook Puma/Ptail/Scribe/ODS
-S17-IR-2022,Sesame
-S17-IR-2022,Pilot Jobs
-S17-IR-2022,Red Hat OpenShift
-S17-IR-2022,Google Pub Sub
-S17-IR-2022,Boto
-S17-IR-2023,SGE
-S17-IR-2023,Marionette Collective
-S17-IR-2023,Neptune
-S17-IR-2023,Amazon Route 53
-S17-IR-2023,Splunk
-S17-IR-2024,Cobbler
-S17-IR-2024,GraphX
-S17-IR-2024,Memcached
-S17-IR-2024,graphdb
-S17-IR-2024,LDAP
-S17-IR-2025,Graylog
-S17-IR-2025,InCommon
-S17-IR-2025,BlinkDB
-S17-IR-2025,Moab
-S17-IR-2025,Globus Tools
-S17-IR-2026,Ceph
-S17-IR-2026,CDF
-S17-IR-2026,Jitterbit
-S17-IR-2026,Naiad
-S17-IR-2026,publish-subscribe: MPI
-S17-IR-2027,DataNucleus
-S17-IR-2027,Razor
-S17-IR-2027,Twitter Heron
-S17-IR-2027,Amazon RDS
-S17-IR-2027,SAML OAuth
-S17-IR-2028,Spark Streaming
-S17-IR-2028,Libcloud
-S17-IR-2028,Google Kubernetes
-S17-IR-2028,mlpy
-S17-IR-2028,Dokku
-S17-IR-2029,Galois
-S17-IR-2029,Slurm [Slu]
-S17-IR-2029,Giraffe
-S17-IR-2029,Azure Machine Learning
-S17-IR-2029,Ninefold
-S17-IR-2030,UIMA
-S17-IR-2030,Jena
-S17-IR-2030,Tycoon
-S17-IR-2030,Azure Data Factory
-S17-IR-2030,Google Cloud DataFlow
-S17-IR-2031,Google Cloud Storage
-S17-IR-2031,EclipseLink
-S17-IR-2031,Torch
-S17-IR-2031,Caffe
-S17-IR-2031,Parquet
-S17-IR-2032,AWS Elastic Beanstalk
-S17-IR-2032,PolyBase
-S17-IR-2032,Pivotal Greenplum
-S17-IR-2032,Blazegraph
-S17-IR-2032,S4
-S17-IR-2033,Spark SQL
-S17-IR-2033,LevelDB
-S17-IR-2033,Google DataStore
-S17-IR-2033,IBM System G
-S17-IR-2033,CloudML
-S17-IR-2034,rkt
-S17-IR-2034,Heroku
-S17-IR-2034,Pegasus
-S17-IR-2034,Drill
-S17-IR-2034,Titan:db
-S17-IR-2035,ODBC/JDBC
-S17-IR-2035,f4
-S17-IR-2035,Oracle PGX
-S17-IR-2035,Eucalyptus
-S17-IR-2035,D3.js
-S17-IR-2036,OpenStack Heat
-S17-IR-2036,Saga
-S17-IR-2036,Agave
-S17-IR-2036,Storm
-S17-IR-2036,JMS
-S17-IR-2037,Public Cloud: Amazon SNS
-S17-IR-2037,FTP
-S17-IR-2037,HBase
-S17-IR-2037,MQTT
-S17-IR-2037,RCFile
-S17-IR-2038,Terraform
-S17-IR-2038,H2O
-S17-IR-2038,KVM
-S17-IR-2038,Cloud Foundry
-S17-IR-2038,CloudBees
-S17-IR-2039,TOSCA
-S17-IR-2039,HTTP
-S17-IR-2039,IBM BlueMix
-S17-IR-2039,Google Omega
-S17-IR-2039,Gluster
-S17-IR-2040,Xcat
-S17-IR-2040,DB2
-S17-IR-2040,Engine Yard
-S17-IR-2040,MLlib
-S17-IR-2040,Accumulo
-S17-IR-2041,IBM Watson
-S17-IR-2041,Public Cloud: Amazon S3
-S17-IR-2041,Kyoto/Tokyo Cabinet
-S17-IR-2041,Elasticsearch
-S17-IR-2041,Tajo
-S17-IR-2042,PetSc
-S17-IR-2042,Any2Api
-S17-IR-2042,Espresso
-S17-IR-2042,Giraph
-S17-IR-2042,Pregel
-S17-IR-2044,AllegroGraph
-S17-IR-2044,Theano
-S17-IR-2044,Atmosphere
-S17-IR-2044,Granules
-S17-IR-2044,HDFS
-S17-TS-0001,Mahout
-S17-TS-0001,Tika
-S17-TS-0003,HCatalog
-S17-TS-0004,Foreman
-S17-TS-0005,Genesis
-S17-TS-0006,Presto
-S17-TS-0007,Nagios
+S17-ER-1000,Mbase (1); Hyper-V (1) -- Kibana (1) -- Yarcdata (1) -- CDMI (1) -- Kepler (1)
+S17-ER-1001,Azure Queues (1) -- Sentry (1) -- Tableau (1) -- Berkeley DB (1) -- ODE (1) -- OpenStack Keystone (1)
+S17-ER-1002,Crunch (1) -- point-to-point (1) -- LinkedIn (1) -- Pig (1) -- Hive (1) -- IPython (1)
+- , -
+S17-IO-3000,SQL Server (1) -- Nimbus (1) -- Taverna (1) -- Chef (1) -- Tyrant (1) -- FITS (1)
+S17-IO-3001,Medusa-GPU (1) -- Jupyter (1) -- OpenJPA (1) -- Google and other public Clouds (1) -- Airavata (1)
+S17-IO-3002,TensorFlow (1) -- Azure Stream Analytics (1) -- Ambari (1) -- Galaxy (1) -- Bioconductor (1)
+S17-IO-3003,QPid (1) -- Stomp (1) -- Apatar (1) -- Google FlumeJava (1) -- Sqrrl (1)
+S17-IO-3004,appfog (1) -- Dream:Lab (1) -- MySQL (1) -- ZHT (1) -- RYA (1)
+S17-IO-3005,Amazon Kinesis (1) -- Inca (1) -- Gora (general object from NoSQL) (1) -- RabbitMQ (1) -- JClouds (1)
+S17-IO-3006,Tez (1) -- Ubuntu MaaS (1) -- Llama (1) -- GraphChi (1) -- Lumberyard (1)
+S17-IO-3007,Google Cloud SQL (1) -- Ganglia (1) -- NaradaBrokering (1) -- Event Hubs (1) -- Kite (1)
+S17-IO-3008,CINET (1) -- Linux-Vserver (1) -- Networking: Google Cloud DNS (1) -- Talend (1) -- Haystack (1)
+S17-IO-3009,Flink Streaming (1) -- Solr (1) -- JGroups (1) -- Azure SQL (1) -- HDF (1)
+S17-IO-3010,Azure (1) -- Couchbase (1) -- Public Cloud: Azure Table (1) -- Sawzall (1) -- Phoenix (1)
+S17-IO-3011,ZeroMQ (1) -- Blueprints (1) -- Trident (1) -- e-Science Central (1) -- Winery (1)
+S17-IO-3012,MRQL (1) -- AWS OpsWorks (1) -- GPFS (1) -- Hazelcast (1) -- Google Bigtable (1)
+S17-IO-3013,Google Prediction API and Translation API (1) -- LMDB (key value) (1) -- QEMU (1) -- BioKepler (1) -- Google Cloud Dataflow (1)
+S17-IO-3014,Riak (1) -- Ehcache (1) -- Xen (1) -- Zookeeper (1) -- SSH (1)
+S17-IO-3015,Lucene (1) -- pbdR (1) -- Protobuf (1) -- Galera Cluster (1) -- Cassandra (1)
+S17-IO-3016,DC.js (1) -- Aerobatic (1) -- CoreOS (1) -- AMQP (1) -- Argo BEAST HPX-5 BEAST PULSAR (1)
+S17-IO-3017,Facebook Tao (1) -- MongoDB (1) -- Amazon (1) -- Kafka (1) -- Amazon Dynamo (1)
+S17-IO-3018,PostgreSQL (1) -- Impala (1) -- Hadoop (1) -- Floe (1) -- VirtualBox (1)
+S17-IO-3019,Stackato (1) -- Parasol (1) -- vSphere and vCloud (1) -- Totem (1) -- Libvirt (1)
+S17-IO-3020,AppScale (1) -- CloudControl (1) -- Google Fusion Tables (1) -- Yarn (1) -- TinkerPop (1)
+S17-IO-3021,CUBRID (1) -- MR-MPI (1) -- NWB (1) -- Cascading (1) -- BitTorrent (1)
+S17-IO-3022,Juju (1) -- Netty (1) -- FUSE (1) -- Google Chubby (1) -- Mesos (1)
+S17-IO-3023,H-Store (1) -- Kyoto Cabinet (1) -- Globus Online (GridFTP) (1) -- Sahara (1) -- DataFu (1)
+S17-IO-3024,NiFi (NSA) (1) -- LXC (1) -- Helix (1) -- IBM dashDB (1) -- Puppet (1)
+S17-IO-3025,Voldemort (1) -- Buildstep (1) -- OCCI (1) -- SAP HANA (1) -- HPX-5 (1)
+- , -
+S17-IR-2000,OPeNDAP (1) -- CloudMesh (1) -- Rocks (1) -- Swift (1) -- Infinispan (1)
+S17-IR-2001,Celery (1) -- GraphBuilder(Intel) (1) -- HTCondor (1) -- HUBzero (1) -- Gitreceive (1)
+S17-IR-2002,Stratosphere (Apache Flink) (1) -- ActiveBPEL (1) -- Google Dremel (1) -- ImageJ (1) -- IBM Cloudant (1)
+S17-IR-2003,DAAL(Intel) (1) -- Hibernate (1) -- PyBrain (1) -- CouchDB (1) -- OpenStack (1)
+S17-IR-2004,PLASMA MAGMA (1) -- Samza (1) -- Azure Blob (1) -- OpenVZ (1) -- Jelastic (1)
+S17-IR-2005,N1QL (1) -- Google App Engine (1) -- SciDB (1) -- Triana (1) -- OpenStack Ironic (1)
+S17-IR-2006,Cinder (1) -- Spark (1) -- R (1) -- dotCloud (1) -- Pivotal Gemfire (1)
+S17-IR-2007,DevOpSlang (1) -- Google BigQuery (1) -- OSGi (1) -- OpenPBS (1) -- Lambda (1)
+S17-IR-2008,Kestrel (1) -- Scalapack (1) -- HadoopDB (1) -- OODT (1) -- Thrift (1)
+S17-IR-2009,Megastore and Spanner (1) -- Pivotal GPLOAD/GPFDIST (1) -- Facebook Corona (1) -- Apache Derby (1) -- SQLite (1)
+S17-IR-2010,MapGraph (1) -- three.js (1) -- Amazon Redshift (1) -- (Dryad) (1) -- Disco (1)
+S17-IR-2011,DL4j (1) -- Solandra (1) -- CloudStack (1) -- Logstash (1) -- Ansible (1)
+S17-IR-2012,GraphLab (1) -- GFFS (1) -- Lustre (1) -- Reef (1) -- Harp (1)
+S17-IR-2013,Flume (1) -- OpenCV (1) -- ORC (1) -- VMware ESXi (1) -- Hama (1)
+S17-IR-2014,Sqoop (1) -- Pivotal (1) -- Google MillWheel (1) -- iRODS (1) -- VoltDB (1)
+S17-IR-2015,Facebook Tupperware (1) -- Neo4J (1) -- Databus (1) -- KeystoneML (1) -- Rasdaman (1)
+S17-IR-2016,ActiveMQ (1) -- OpenTOSCA (1) -- Avro (1) -- SaltStack (1) -- Whirr (1)
+S17-IR-2017,Eduroam (1) -- Potree (1) -- Pivotal HD/Hawq (1) -- Docker Compose (1) -- OpenNebula (1)
+S17-IR-2018,CompLearn (1) -- OpenID (1) -- Cisco Intelligent Automation for Cloud (1) -- Pentaho (1) -- scikit-learn (1)
+S17-IR-2019,Oracle (1) -- CNTK (1) -- Twister (1) -- NetCDF (1) -- Oozie (1)
+S17-IR-2020,Summingbird (1) -- Google F1 (1) -- Torque (1) -- DataTurbine (1) -- Scalding (1)
+S17-IR-2021,Docker Machine and Swarm (1) -- Shark (1) -- Ligra (1) -- Redis (1) -- Facebook Puma/Ptail/Scribe/ODS (1)
+S17-IR-2022,Sesame (1) -- Pilot Jobs (1) -- Red Hat OpenShift (1) -- Google Pub Sub (1) -- Boto (1)
+S17-IR-2023,SGE (1) -- Marionette Collective (1) -- Neptune (1) -- Amazon Route 53 (1) -- Splunk (1)
+S17-IR-2024,Cobbler (1) -- GraphX (1) -- Memcached (1) -- graphdb (1) -- LDAP (1)
+S17-IR-2025,Graylog (1) -- InCommon (1) -- BlinkDB (1) -- Moab (1) -- Globus Tools (1)
+S17-IR-2026,Ceph (1) -- CDF (1) -- Jitterbit (1) -- Naiad (1) -- publish-subscribe: MPI (1)
+S17-IR-2027,DataNucleus (1) -- Razor (1) -- Twitter Heron (1) -- Amazon RDS (1) -- SAML OAuth (1)
+S17-IR-2028,Spark Streaming (1) -- Libcloud (1) -- Google Kubernetes (1) -- mlpy (1) -- Dokku (1)
+S17-IR-2029,Galois (1) -- Slurm [Slu] (1) -- Giraffe (1) -- Azure Machine Learning (1) -- Ninefold (1)
+S17-IR-2030,UIMA (1) -- Jena (1) -- Tycoon (1) -- Azure Data Factory (1) -- Google Cloud DataFlow (1)
+S17-IR-2031,Google Cloud Storage (1) -- EclipseLink (1) -- Torch (1) -- Caffe (1) -- Parquet (1)
+S17-IR-2032,AWS Elastic Beanstalk (1) -- PolyBase (1) -- Pivotal Greenplum (1) -- Blazegraph (1) -- S4 (1)
+S17-IR-2033,Spark SQL (1) -- LevelDB (1) -- Google DataStore (1) -- IBM System G (1) -- CloudML (1)
+S17-IR-2034,rkt (1) -- Heroku (1) -- Pegasus (1) -- Drill (1) -- Titan:db (1)
+S17-IR-2035,ODBC/JDBC (1) -- f4 (1) -- Oracle PGX (1) -- Eucalyptus (1) -- D3.js (1)
+S17-IR-2036,OpenStack Heat (1) -- Saga (1) -- Agave (1) -- Storm (1) -- JMS (1)
+S17-IR-2037,Public Cloud: Amazon SNS (1) -- FTP (1) -- HBase (1) -- MQTT (1) -- RCFile (1)
+S17-IR-2038,Terraform (1) -- H2O (1) -- KVM (1) -- Cloud Foundry (1) -- CloudBees (1)
+S17-IR-2039,TOSCA (1) -- HTTP (1) -- IBM BlueMix (1) -- Google Omega (1) -- Gluster (1)
+S17-IR-2040,Xcat (1) -- DB2 (1) -- Engine Yard (1) -- MLlib (1) -- Accumulo (1)
+S17-IR-2041,IBM Watson (1) -- Public Cloud: Amazon S3 (1) -- Kyoto/Tokyo Cabinet (1) -- Elasticsearch (1) -- Tajo (1)
+S17-IR-2042,PetSc (1) -- Any2Api (1) -- Espresso (1) -- Giraph (1) -- Pregel (1)
+S17-IR-2044,AllegroGraph (1) -- Theano (1) -- Atmosphere (1) -- Granules (1) -- HDFS (1)
+- , -
+S17-TS-0001,Mahout (1)
+S17-TS-0001,Tika (1)
+S17-TS-0003,HCatalog (1)
+S17-TS-0004,Foreman (1)
+S17-TS-0005,Genesis (1)
+S17-TS-0006,Presto (1)
+S17-TS-0007,Nagios (1)

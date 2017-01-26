@@ -73,7 +73,7 @@ project = u'Classes'
 copyright = u'2016, Gregor von Laszewski'
 author = u'Gregor von Laszewski'
 version = u''
-release = u''
+release = u'Draft'
 language = None
 todo_include_todos = True
 
@@ -438,8 +438,11 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('notes', 'Classes.tex', u'I524 Lecture Notes',
-     u'Gregor von Laszewski', 'manual'),
+    ('notes',
+     'i524-notes.tex',
+     u'I524 Lecture Notes',
+     u'Gregor von Laszewski',
+     'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

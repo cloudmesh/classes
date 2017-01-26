@@ -13,17 +13,29 @@ software architecture represented by this collection and work towards
 identifying best practices to deploy, access and interface with
 them. Topics of this class will include:
 
-.. sidebar:: Figure 1: Software Systems relevant for Big Data
 
-   .. index:: I524 technology image
-	   
+.. index:: I524 technology image
+		 
+.. only:: html
+   
+   .. sidebar:: Figure 1: Software Systems relevant for Big Data
+
+      .. figure:: bigdata.png
+         :width: 200px
+         :align: center
+         :alt: 370 Technologies
+         :figclass: align-center
+
+.. only:: latex
+		    
    .. figure:: bigdata.png
-      :width: 200px
       :align: center
       :alt: 370 Technologies
       :figclass: align-center
 
- 
+      Big data relevant technology layers
+
+	  
 #. The cloud computing architecture underlying open source big data
    software and frameworks and contrast of them to high performance
    computing
@@ -773,28 +785,4 @@ Refernces
 
 http://hpc-abds.org/kaleidoscope/ 
 
-
-Disclaimer
-----------
-
-It is normal that questions posed by the students in the
-online and residential classes lead to improvements and clarifications
-of the content published on the class Web pages. Hence you need to
-revisit the page updates. Just as in other years we provide a
-changelog. Changes will not lead to any requirements change to the class
-but only improving the content. However, we have learned from previous
-classes that additional homework may need to be added in case the
-class participants need to grasp a concept better or simplify their
-work.
-
-We have two ways of providing content to the class:
-
-a) we release content only on weekly basis
-
-b) we release content even in draft form
-
-We decided to do the later so you may have the ability to see what is
-comming up. Please do not mistake this as a changing requirement. This
-is an opportunity for you. You are not required to look at lectures or
-assignments that are not yet released for this class.
 
