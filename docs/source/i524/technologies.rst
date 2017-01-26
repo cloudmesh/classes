@@ -294,7 +294,7 @@ High level Programming
      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
      library of routines for managing a database which is a simple
      data file containing records. Each record in the database is a
-     pair of a key and a value.Every key and value is serial bytes
+     pair of a key and a value. Every key and value is serial bytes
      with variable length. Both binary data and character string can
      be used as a key and a value. Each key must be unique within a
      database.  There is neither concept of data tables nor data
@@ -304,7 +304,7 @@ High level Programming
      tree database. Moreover, the size of database is very small. The,
      overhead for a record is 16 bytes for hash database, and 4 bytes
      for B+ tree database. Furthermore, scalability of Kyoto Cabinet
-     is great.  The database size can be up to 8EB (9.22e18 bytes).
+     is great. The database size can be up to 8EB (9.22e18 bytes).
 
 122. Pig
 123. Sawzall
