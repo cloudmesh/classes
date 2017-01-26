@@ -335,7 +335,7 @@ Streams
      group of records which are partitioned by the shard key. Each
      record processed by Kinesis is identified by sequence number,
      partition key and data blob. Sequence number to records is
-     assigned by the stream. Partition key are used by partitioner(a
+     assigned by the stream. Partition keys are used by partitioner(a
      hash function) to map the records to the shards i.e. which
      records should go to which shard. Producers like web servers,
      client applications, logs push the data to Kinesis whereas
