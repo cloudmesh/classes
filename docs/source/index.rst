@@ -8,7 +8,7 @@ Preface
 .. toctree::
    :maxdepth: 1
 
-   about/index
+   i524/preface/about
    i524/preface/instructors
 
 
