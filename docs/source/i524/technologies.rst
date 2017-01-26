@@ -27,7 +27,7 @@ Workflow-Orchestration
    
    Taverna is workflow management system. According to :cite:`www-taverna`,
    Taverna is transitioning to Apache Incubator as of Jan 2017.
-   Taverna suite includes 2 products:
+   Taverna suite includes 2 products: 
 
    (1). Taverna Workbench is desktop client where user can define the workflow.
    (2). Taverna Server is responsible for executing the remote workflows.
