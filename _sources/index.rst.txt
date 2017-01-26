@@ -14,7 +14,8 @@ Technologies
 
 .. toctree::
    :maxdepth: 1
-	   
+	      
+   i524/hids-techs	   
    i524/technologies
 
 Lessons

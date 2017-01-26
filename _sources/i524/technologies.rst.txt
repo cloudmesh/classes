@@ -105,12 +105,12 @@ Application and Analytics
     Programming with Big Data in R (pbdR) :cite:`www-pbdR` is an
     environment having series of R packages for statistical computing
     with Big Data using high-performance statistical computation. It
-    uses R , a popular language between statisticians and data
+    uses R, a popular language between statisticians and data
     miners. "pbdR" focuses on distributed memory system, where data is
     distributed accross several machines and processed in batch
     mode. It uses MPI for inter process communications. R focuses on
     single machines for data analysis using a interactive
-    GUI. Currenly there are two implementation of pbdR , one Rmpi and
+    GUI. Currenly there are two implementation of pbdR, one Rmpi and
     another being pdbMpi.  Rmpi uses SPMD parallelism while pbdRMpi
     uses manager/worker parallelism.
 
@@ -251,29 +251,29 @@ High level Programming
      increase accessiblity to HBase by using the industry-standard query language
      (SQL); 2) save users time by abstracting away the complexities of coding native
      HBase queries; and, 3) implementing query best practices by implementing them
-     automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
+     automatically via Phoenix. :cite:`www-phoenix-cloudera`  Although Salesforce.com
      initially *open-sourced* it via Github, by May of 2014 it had become a top-level
-     Apache project. :cite:www-phoenix-wikipedia
+     Apache project. :cite:`www-phoenix-wikipedia`
 
      Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
      and orchestrates the running of those scans to produce regular JDBC result
-     sets." :cite:www-apachephoenix-org  In addition, the program directs compute
+     sets." :cite:`www-apachephoenix-org`  In addition, the program directs compute
      intense portions of the calls to the server.  For instance, if a user queried
      for the top ten records across numerous regions from an HBase database
      consisting of a billion records, the program would first select the top ten
      records for each region using server-side compute resources.  After that, the
-     client would be tasked with selecting the overall top ten. :cite:www-phoenix-
-     salesforcedev
+     client would be tasked with selecting the overall top ten. :cite:`www-phoenix-
+     salesforcedev`
 
      Despite adding an abstraction layer, Phoenix can actually speed up queries
-     because it optimizes the query during the translation process. :cite:www-
-     phoenix-cloudera  For example, "Phoenix beats Hive for a simple query spanning
-     10M-100M rows." :cite:www-phoenix-infoq
+     because it optimizes the query during the translation process. :cite:`www-
+     phoenix-cloudera`  For example, "Phoenix beats Hive for a simple query spanning
+     10M-100M rows." :cite:`www-phoenix-infoq`
 
      Finally, another program can enhance HBase's accessibility for those inclined
      towards graphical interfaces.  SQuirell only requires the user to set up the
-     JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
-     bighadoop
+     JDBC driver and specify the appropriate connection string. :cite:`www-phoenix-
+     bighadoop`
 
 110. Impala
 111. MRQL
@@ -294,7 +294,7 @@ High level Programming
      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
      library of routines for managing a database which is a simple
      data file containing records. Each record in the database is a
-     pair of a key and a value.Every key and value is serial bytes
+     pair of a key and a value. Every key and value is serial bytes
      with variable length. Both binary data and character string can
      be used as a key and a value. Each key must be unique within a
      database.  There is neither concept of data tables nor data
@@ -304,7 +304,7 @@ High level Programming
      tree database. Moreover, the size of database is very small. The,
      overhead for a record is 16 bytes for hash database, and 4 bytes
      for B+ tree database. Furthermore, scalability of Kyoto Cabinet
-     is great.  The database size can be up to 8EB (9.22e18 bytes).
+     is great. The database size can be up to 8EB (9.22e18 bytes).
 
 122. Pig
 123. Sawzall
@@ -323,29 +323,34 @@ Streams
 132. Google MillWheel
 133. Amazon Kinesis
 
-        Kinesis is Amazon’s :cite:`www-kinesis` real time data processing engine. It
-        is designed to provide scalable, durable and reliable data processing
-        platform with low latency. The data to Kinesis can be ingested from multiple
-        sources in different format. This data is further made available by Kinesis to
-        multiple applications or consumers interested in the data. Kinesis provides
-        robust and fault tolerant system to handle this high volume of data. Data
-        sharding mechanism is Kinesis makes it horizontally scalable. Each of these
-        shards in Kinesis process a group of records which are partitioned by the
-        shard key. Each record processed by Kinesis is identified by sequence number,
-        partition key and data blob. Sequence number to records is assigned by the
-        stream. Partition key are used by partitioner(a hash function) to map the
-        records to the shards i.e. which records should go to which shard. Producers
-        like web servers, client applications, logs push the data to Kinesis whereas
-        Kinesis applications act as consumers of the data from Kinesis engine. It also
-        provides data retention for certain time for example 24 hours default. This
-        data retention window is a sliding window. Kinesis collects lot of metrics
-        which can used to understand the amount of data being processed by Kinesis.
-        User can use this metrics to do some analytics and visualize the metrics data.
-        Kinesis is one of the tools part of AWS infrastructure and provides its users
-        a complete software-as-a-service. Kinesis :cite:`big-data-analytics-book` in
-        the area of real-time processing provides following key benefits:
-        ease of use, parellel processing, scalable, cost effective, fault tolerant
-        and highly available.
+     Kinesis is Amazon’s :cite:`www-kinesis` real time data processing
+     engine. It is designed to provide scalable, durable and reliable
+     data processing platform with low latency. The data to Kinesis
+     can be ingested from multiple sources in different format. This
+     data is further made available by Kinesis to multiple
+     applications or consumers interested in the data. Kinesis
+     provides robust and fault tolerant system to handle this high
+     volume of data. Data sharding mechanism is Kinesis makes it
+     horizontally scalable. Each of these shards in Kinesis process a
+     group of records which are partitioned by the shard key. Each
+     record processed by Kinesis is identified by sequence number,
+     partition key and data blob. Sequence number to records is
+     assigned by the stream. Partition keys are used by partitioner(a
+     hash function) to map the records to the shards i.e. which
+     records should go to which shard. Producers like web servers,
+     client applications, logs push the data to Kinesis whereas
+     Kinesis applications act as consumers of the data from Kinesis
+     engine. It also provides data retention for certain time for
+     example 24 hours default. This data retention window is a sliding
+     window. Kinesis collects lot of metrics which can used to
+     understand the amount of data being processed by Kinesis.  User
+     can use this metrics to do some analytics and visualize the
+     metrics data.  Kinesis is one of the tools part of AWS
+     infrastructure and provides its users a complete
+     software-as-a-service. Kinesis :cite:`big-data-analytics-book` in
+     the area of real-time processing provides following key benefits:
+     ease of use, parellel processing, scalable, cost effective, fault
+     tolerant and highly available.
 
 134. LinkedIn
 135. Twitter Heron
@@ -393,42 +398,48 @@ Inter process communication Collectives
 167. ActiveMQ
 168. RabbitMQ
 
-        RabbitMQ is a message broker :cite:`www-rabbitmq` which allows services to
-        exchange messages in a fault tolerant manner. It provides variety of features
-        which “enables software applications to connect and scale”. Features are:
-        reliability, flexible routing, clustering, federation, highly available
-        queues, multi-protocol, many clients, management UI, tracing, plugin system,
-        commercial support, large community and user base. RabbitMQ can work in
-        multiple scenarios:
+     RabbitMQ is a message broker :cite:`www-rabbitmq` which allows
+     services to exchange messages in a fault tolerant manner. It
+     provides variety of features which “enables software applications
+     to connect and scale”. Features are: reliability, flexible
+     routing, clustering, federation, highly available queues,
+     multi-protocol, many clients, management UI, tracing, plugin
+     system, commercial support, large community and user
+     base. RabbitMQ can work in multiple scenarios:
 
-        1. Simple messaging: producers write messages to the queue and consumers read
-        messages from the the queue. This is synonymous to a simple message queue.
+     1. Simple messaging: producers write messages to the queue and
+        consumers read messages from the the queue. This is synonymous
+        to a simple message queue.
 
-        2. Producer-consumer: Producers produce messages and consumers receive messages
-        from the queue. The messages are delivered to multiple consumers in round
-        robin manner.
+     2. Producer-consumer: Producers produce messages and consumers
+        receive messages from the queue. The messages are delivered to
+        multiple consumers in round robin manner.
 
-        3. Publish-subscribe: Producers publish messages to exchanges and consumers
-        subscribe to these exchanges. Consumers receive those messages when the
-        messages are available in those exchanges.
+     3. Publish-subscribe: Producers publish messages to exchanges
+        and consumers subscribe to these exchanges. Consumers receive
+        those messages when the messages are available in those
+        exchanges.
 
-        4. Routing: In this mode consumers can subscribe to a subset of messages instead
-        of receiving all messages from the queue.
+     4. Routing: In this mode consumers can subscribe to a subset
+        of messages instead of receiving all messages from the queue.
 
-        5. Topics: Producers can produce messages to a topic multiple consumers
-        registered to receive messages from those topics get those messages. These
-        topics can be handled by a single exchange or multiple exchanges.
+     5. Topics: Producers can produce messages to a topic multiple
+        consumers registered to receive messages from those topics get
+        those messages. These topics can be handled by a single
+        exchange or multiple exchanges.
 
-        6. RPC:In this mode the client sends messages as well as registers a callback
-        message queue. The consumers consume the message and post the response message
-        to the callback queue.
+     6. RPC:In this mode the client sends messages as well as
+        registers a callback message queue. The consumers consume the
+        message and post the response message to the callback queue.
 
-        RabbitMQ is based on AMPQ :cite:`ampq-article` (Advanced Message Queuing Protocol)
-        messaging model. AMPQ is described as follows “messages are published to exchanges,
-        which are often compared to post offices or mailboxes. Exchanges then distribute
-        message copies to queues using rules called bindings. Then AMQP brokers either
-        deliver messages to consumers subscribed to queues, or consumers fetch/pull messages
-        from queues on demand”
+        RabbitMQ is based on AMPQ :cite:`ampq-article` (Advanced
+        Message Queuing Protocol) messaging model. AMPQ is described
+        as follows “messages are published to exchanges, which are
+        often compared to post offices or mailboxes. Exchanges then
+        distribute message copies to queues using rules called
+        bindings. Then AMQP brokers either deliver messages to
+        consumers subscribed to queues, or consumers fetch/pull
+        messages from queues on demand”
 
 169. NaradaBrokering
 170. QPid
@@ -436,10 +447,7 @@ Inter process communication Collectives
 
      Apache Kafka is a streaming platform, which works based on
      publish-subscribe messaging system and supports distributed
-     environment. Lets understand what does this mean and also see
-     what are Kafka’s features.
-    
-     Kafka lets you publish and subscribe to the messages.
+     environment. Kafka lets publish and subscribe to the messages.
     
      In a publish-subscribe messaging system, publishers are sender of
      messages. They publish the messages without the knowledge of who
@@ -450,33 +458,26 @@ Inter process communication Collectives
      category or feed name to which records are
      published. Applications can use Kafka’s Connector APIs to publish
      the messages to one or more Kafka topics. Similarly, applications
-     can use Consumer API to subscribe to one or more topics.
-    
-     Kafka lets you process the stream of data at real time
+     can use Consumer API to subscribe to one or more topics.  
+     Kafka has the capability to process the stream of data at real time.
     
      Kafka’s stream processor takes continual stream of data from
      input topics, processes the data in real time and produces
      streams of data to output topics. Kafka’s Streams API are used
-     for data transformation.
-    
-     Kafka lets you store the stream of data in distributed clusters.
+     for data transformation. Kafka allows to store the stream of data
+     in distributed clusters.
     
      Kafka acts as a storage system for incoming data stream. Data is
      categorised into ‘topics’. As Kafka is a distributed system, data
      streams are partitioned and replicated across nodes. Thus, a
      combination of messaging, storage and processing data stream
-     makes Kafka a ‘streaming platform’.
-    
-     Where is Kafka commonly used?
-    
-     Kafka can be used for building data pipelines where data is
+     makes Kafka a ‘streaming platform’.    
+        
+     Kafka is a commonly used for building data pipelines where data is
      transferred between systems or applications. :cite:`www-kafka`
      Kafka can also be used by applications that transform real time
      incoming data.
-
-     **IMPROVE: This is written like an advertisement about Kafka. Are
-     quotes needed **
-     
+          
 172. Kestrel
 173. JMS
 174. AMQP
@@ -495,44 +496,36 @@ In-memory databases/caches
 
 183. Gora (general object from NoSQL)
 
-        Gora is a in-memory data model :cite:`www-gora` which also provides
-        persistence to the big data. Gora provides persistence to different types
-        of data stores. Primary goals of Gora are:
+     Gora is a in-memory data model :cite:`www-gora` which also
+     provides persistence to the big data. Gora provides persistence
+     to different types of data stores. Primary goals of Gora are:
 
-        1. data persistence
+     1. data persistence
+     2. indexing
+     3. data access
+     4. analysis
+     5. map reduce support
 
-        2. indexing
+     Unlike ORM models which mostly work with relational databases for
+     example hibernate gora works for most type of data stores like
+     documents, columnar, key value as well as relational. Gora uses
+     beans to maintain the data in-memory and persist it on
+     disk. Beans are defined using apache avro schema. Gora provides
+     modules for each type of data store it supports.  The mapping
+     between bean definition and datastore is done in a mapping file
+     which is specific to a data store.  Type Gora workflow will be:
 
-        3. data access
+     1. define  the bean used as model for persistence
+     2. use gora compiler to compile the bean
+     3. create a mapping file to map bean definition to datastore
+     4. update gora.properties to specify the datastore to use
+     5. get an instance of corresponding data store using datastore factory.
 
-        4. analysis
-
-        5. map reduce support
-
-        Unlike ORM models which mostly work with relational databases for example
-        hibernate gora works for most type of data stores like documents, columnar,
-        key value as well as relational. Gora uses beans to maintain the data
-        in-memory and persist it on disk. Beans are defined using apache
-        avro schema. Gora provides modules for each type of data store it supports.
-        The mapping between bean definition and datastore is done in a mapping file
-        which is specific to a data store.
-        Type Gora workflow will be:
-
-        1. define  the bean used as model for persistence
-
-        2. use gora compiler to compile the bean
-
-        3. create a mapping file to map bean definition to datastore
-
-        4. update gora.properties to specify the datastore to use
-
-        5. get an instance of corresponding data store using datastore factory.
-
-        Gora has a query interface to query the underlying data store. Its
-        configuration is stored in gora.properties which is should be present in
-        classpath. In the file you can specify default data store used by Gora
-        engine. Gora also has a CI/CD library call GoraCI which is used to write
-        integration tests.
+     Gora has a query interface to query the underlying data store. Its
+     configuration is stored in gora.properties which should be present in
+     classpath. In the file you can specify default data store used by Gora
+     engine. Gora also has a CI/CD library call GoraCI which is used to write
+     integration tests.
 
 184. Memcached
 185. Redis
@@ -609,12 +602,11 @@ SQL(NewSQL)
         integrated with Microsoft Azure cloud platform and available in
         platform-as-a-service mode.
 
-     Ross Mistry and Stacia Misner in :cite:`book-sqlserver` explain
-     the technical architecture of SQL Server in OLTP(online
-     transaction processing), hybrid cloud and business intelligence
-     modes.
+     It is explained that technical architecture of SQL Server in
+     OLTP(online transaction processing), hybrid cloud and business
+     intelligence modes :cite:`book-sqlserver`.
 
-     **IMPROVE: It is inappropriate to mention authors**
+    
 
 201. SQLite
 202. MySQL
@@ -632,14 +624,20 @@ SQL(NewSQL)
 
 205. Galera Cluster
 
-     Galera cluster :cite:`www-galera-cluster` is a type of database clustering which has all 
-     multiple masters and works on synchronous replication. At a deeper level, it was created 
-     by extending MySql replication API to provide all support for true multi master synchronous replication.
-     This extended api is called as Write-Set Replication API and is the core of the clustering logic.
-     Each transaction of wsrep API not only contains the record but also other meta-info to requires to commit
-     each node separately or asynchronously. So though it seems synchronous logically but works independently on each node.
-     The approach is also called virtually synchronous replication. This helps in directly read-write on a 
-     specific node and can lose a node without handling any complex failover scenarios (zero downtime).
+     Galera cluster :cite:`www-galera-cluster` is a type of database
+     clustering which has all multiple masters and works on
+     synchronous replication. At a deeper level, it was created by
+     extending MySql replication API to provide all support for true
+     multi master synchronous replication.  This extended api is
+     called as Write-Set Replication API and is the core of the
+     clustering logic.  Each transaction of wsrep API not only
+     contains the record but also other meta-info to requires to
+     commit each node separately or asynchronously. So though it seems
+     synchronous logically but works independently on each node.  The
+     approach is also called virtually synchronous replication. This
+     helps in directly read-write on a specific node and can lose a
+     node without handling any complex failover scenarios (zero
+     downtime).
 
 206. SciDB
 207. Rasdaman
@@ -659,12 +657,16 @@ NoSQL
 
 218. Lucene
 
-     Apache Lucene :cite:`www-lucene` is a high-performance, full-featured text search engine library. 
-     It is originally written in pure Java but also has been ported to few other languages chiefly python. 
-     It is suitable for applications that requires full-text search. 
-     One of the key implementation of Lucene is Internet search engines and local, single-site searching. 
-     Another important implementation usage is its recomendation system. The core idea of Lucene is to extract text 
-     from any document that contains text (not image) field, making it format idependent.
+     Apache Lucene :cite:`www-lucene` is a high-performance,
+     full-featured text search engine library.  It is originally
+     written in pure Java but also has been ported to few other
+     languages chiefly python.  It is suitable for applications that
+     requires full-text search.  One of the key implementation of
+     Lucene is Internet search engines and local, single-site
+     searching.  Another important implementation usage is its
+     recomendation system. The core idea of Lucene is to extract text
+     from any document that contains text (not image) field, making it
+     format idependent.
 
 219. Solr
 220. Solandra
@@ -733,13 +735,17 @@ NoSQL
 238. Accumulo
 239. Cassandra
 
-     Apache Cassandra :cite:`www-cassandra` is an open-source distributed database managemment for handling large 
-     volume of data accross comodity servers. It works on asynchronous masterless replication 
-     technique leading to low latency and high availability. It is a hybrid between a key-value 
-     and column oriented database. A table in cassandra can be viewed as a multi dimensional 
-     map indexed by a key. It has its own "Cassandra Query language (CQL)" query language for 
-     data extraction and mining. One of the demerits of such structure is it does not support 
-     joins or subqueries. It is a java based system which can be administered by any JMX compliant tools.
+     Apache Cassandra :cite:`www-cassandra` is an open-source
+     distributed database managemment for handling large volume of
+     data accross comodity servers. It works on asynchronous
+     masterless replication technique leading to low latency and high
+     availability. It is a hybrid between a key-value and column
+     oriented database. A table in cassandra can be viewed as a multi
+     dimensional map indexed by a key. It has its own "Cassandra Query
+     language (CQL)" query language for data extraction and
+     mining. One of the demerits of such structure is it does not
+     support joins or subqueries. It is a java based system which can
+     be administered by any JMX compliant tools.
 
 240. RYA
 241. Sqrrl
@@ -862,32 +868,34 @@ Interoperability
 301. Libcloud
 302. JClouds
 
-        :cite:`cloud-portability-book` Primary goals of cross-platform cloud APIs is
-        that application built using these APIs can be seamlessly ported to different
-        cloud providers. The APIs also bring interoperability such that cloud platforms
-        can communicate and exchange information using these common or shared interfaces.
-        Jclouds or apache jclouds :cite:`www-jclouds` is a java based library to
-        provide seamless access to cloud platforms. Jclouds library provides
-        interfaces for most of cloud providers like docker, openstack, amazon web
-        services, microsoft azure, google cloud engine etc. It will allow users build
-        applications which can be portable across different cloud environments.
-        Key components of jcloud are:
+     :cite:`cloud-portability-book` Primary goals of cross-platform
+     cloud APIs is that application built using these APIs can be
+     seamlessly ported to different cloud providers. The APIs also
+     bring interoperability such that cloud platforms can communicate
+     and exchange information using these common or shared interfaces.
+     Jclouds or apache jclouds :cite:`www-jclouds` is a java based
+     library to provide seamless access to cloud platforms. Jclouds
+     library provides interfaces for most of cloud providers like
+     docker, openstack, amazon web services, microsoft azure, google
+     cloud engine etc. It will allow users build applications which
+     can be portable across different cloud environments.  Key
+     components of jcloud are:
 
-        1. Views: abstracts functionality from a specific vendor and allow user to write
+     1. Views: abstracts functionality from a specific vendor and allow user to write
         more generic code. For example odbc abstracts the underlying relational data
         source. However, odbc driver converts to native format. In this case user can
         switch databases without rewriting the application. Jcloud provide following
         views: blob store, compute service, loadBalancer service
 
-        2. API: APIs are requests to execute a particular functionality. Jcloud provide a
+     2. API: APIs are requests to execute a particular functionality. Jcloud provide a
         single set of APIs for all cloud vendors which is also location aware. If a
         cloud vendor doesn’t support customers from a particular region the API will
         not work from that region.
 
-        3. Provider: a particular cloud vendor is a provider. Jcloud uses provider
+     3. Provider: a particular cloud vendor is a provider. Jcloud uses provider
         information to initialize its context.
 
-        4 Context: it can be termed as a handle to a particular provider. Its like a
+     4. Context: it can be termed as a handle to a particular provider. Its like a
         ODBC connection object. Once connection is initialized for a particular
         database, it can used to make any api call.
 
@@ -914,17 +922,16 @@ DevOps
      Chef is a configuration management tool. It is implemented in
      Ruby and Erlang. Chef can be used to configure and maintain
      servers on-premise as well as cloud platforms like Amazon EC2,
-     Google Cloud Platform and Open Stack. In his book
-     :cite:`chef-book` Matthias Marschall explains how user can
-     implement recipes in Chef to manage server applications and
-     utilities such as database servers like MySQL, or HTTP servers
-     like Apache HTPP and systems like Apache Hadoop.
+     Google Cloud Platform and Open Stack. In this book
+     :cite:`chef-book`, it is mentioned how implementation recipes in
+     Chef to manage server applications and utilities such as database
+     servers like MySQL, or HTTP servers like Apache HTPP and systems
+     like Apache Hadoop.
 
-     Chef is available in open source version and it also has commercial
-     products for the companies which need it :cite:`www-chef-commercial`
-
-     **IMPROVE: Mention names is inappropriate**
-    
+     Chef is available in open source version and it also has
+     commercial products for the companies which need it
+     :cite:`www-chef-commercial`
+        
 312. Ansible
 313. SaltStack
 314. Boto
@@ -1004,16 +1011,14 @@ IaaS Management from HPC to hypervisors
      as launch and monitor the cloud apps. It also includes service
      that provides auto-scaling and high availability of resources
      deployed over multiple IaaS cloud.  The Nimubs Platform tools are
-     cloudinit.d, Phantom and Context Broker.  In the 2013 paper
-     :cite:`nimbus-paper` Dmitry Duplykin and others from University
-     of Colorado, used Nimbus Phantom to deploy auto-scaling solution
-     across multiple NSF FutureGrid clouds. In this implementation
-     Phantom was responsible for deploying instances across multiple
-     clouds and monitoring those instance.  Nimbus platform supports
-     Nimbus, Open Stack, Amazon and several other clouds.
-
-     **IMPROVE: Mention names is inappropriate**
-
+     cloudinit.d, Phantom and Context Broker.  In this paper
+     :cite:`nimbus-paper` it is mentioned how to used Nimbus Phantom
+     to deploy auto-scaling solution across multiple NSF FutureGrid
+     clouds. In this implementation Phantom was responsible for
+     deploying instances across multiple clouds and monitoring those
+     instance.  Nimbus platform supports Nimbus, Open Stack, Amazon
+     and several other clouds.
+     
 351. CloudStack
 352. CoreOS
 353. rkt
@@ -1049,38 +1054,45 @@ Monitoring
      integrate with the Nagios core services. Plugins can be developed
      via static languages like C or script languages. This mechanism
      empowers Nagios to monitor a large set of various scenarios yet
-     being very flexible. :cite:`nagios-paper-2012` Besides its open source components, Nagios
-     also has commercial products to serve needing clients.
+     being very flexible. :cite:`nagios-paper-2012` Besides its open
+     source components, Nagios also has commercial products to serve
+     needing clients.
 
 
 364. Inca
 
-        Inca is a grid monitoring :cite:`inca-book` software suite. It provides
-        grid monitoring features. These monitoring features provide operators
-        failure trends, debugging support, email notifications, environmental
-        issues etc. :cite:`www-inca` It enables users to automate the tests
-        which can be executed on a periodic basis. Tests can added and configured
-        as and when needed. Its helps users with different portfolios like
-        system administrators, grid operators, end users etc Inca provides
-        user-level grid monitoring. For each user it stores results as well as
-        allows users to deploy new tests as well as share the results with other
-        users. The incat web ui allows users to view the status of test, manage test
-        and results. The architectural blocks of inca include report repository,
-        agent, data consumers and depot. Reporter is an executable program which
-        is used to collect the data from grid source. Reporters can be written in
-        perl and python. Inca repository is a collection of pre build reporters.
-        These can be accessed using a web url. Inca repository has 150+ reporters
-        available. Reporters are versioned and allow automatic updates. Inca agent
-        does the configuration management. Agent can be managed using the incat web ui.
-        Inca depot provides storage and archival of reports. Depot uses relational
-        database for this purpose. The database is accessed using hibernate backend.
-        Inca web UI or incat provides real time as well as historical view of inca data.
-        All communication between inca components is secured using SSL certificates.
-        It requires user credentials for any access to the system. Credentials are
-        created at the time of the setup and installation. Inca's performance has been
-        phenomenal in production deployments. Some of the deployments are running for
-        more than a decade and has been very stable. Overall Inca provides a solid
-        monitoring system which not only monitors but also detects problems very early on.
+     Inca is a grid monitoring :cite:`inca-book` software suite. It
+     provides grid monitoring features. These monitoring features
+     provide operators failure trends, debugging support, email
+     notifications, environmental issues etc. :cite:`www-inca`. It
+     enables users to automate the tests which can be executed on a
+     periodic basis. Tests can be added and configured as and when
+     needed. It helps users with different portfolios like system
+     administrators, grid operators, end users etc Inca provides
+     user-level grid monitoring. For each user it stores results as
+     well as allows users to deploy new tests as well as share the
+     results with other users. The incat web ui allows users to view
+     the status of test, manage test and results. The architectural
+     blocks of inca include report repository, agent, data consumers
+     and depot. Reporter is an executable program which is used to
+     collect the data from grid source. Reporters can be written in
+     perl and python. Inca repository is a collection of pre build
+     reporters.  These can be accessed using a web url. Inca
+     repository has 150+ reporters available. Reporters are versioned
+     and allow automatic updates. Inca agent does the configuration
+     management. Agent can be managed using the incat web ui. Inca
+     depot provides storage and archival of reports. Depot uses
+     relational database for this purpose. The database is accessed
+     using hibernate backend.  Inca web UI or incat provides real time
+     as well as historical view of inca data.  All communication
+     between inca components is secured using SSL certificates. It
+     requires user credentials for any access to the
+     system. Credentials are created at the time of the setup and
+     installation. Inca's performance has been phenomenal in
+     production deployments. Some of the deployments are running for
+     more than a decade and has been very stable. Overall Inca
+     provides a solid monitoring system which not only monitors but
+     also detects problems very early on.
 
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1108,13 +1120,17 @@ Message and Data Protocols
 378. Thrift
 379. Protobuf
 
-     Protocol Buffer :cite:`www-protobuf` is a way to serialize structured data into binary form (stream of bytes) 
-     in order to transfer it over wires or for storage. It is used for inter apllication communication or for 
-     remote procedure call (RPC). It involves a interface description  that describes the structure of some data and a
-     program that can generate source code or parse it back to the binary form. It emphasizes on simplicity 
-     and performance over xml. Though xml is more readable but requires more resources in parsing and storing.
-     This is developed by Google and available under open source licensing. The parser program is available 
-     in many languages including java and python.
+     Protocol Buffer :cite:`www-protobuf` is a way to serialize
+     structured data into binary form (stream of bytes) in order to
+     transfer it over wires or for storage. It is used for inter
+     apllication communication or for remote procedure call (RPC). It
+     involves a interface description that describes the structure of
+     some data and a program that can generate source code or parse it
+     back to the binary form. It emphasizes on simplicity and
+     performance over xml. Though xml is more readable but requires
+     more resources in parsing and storing.  This is developed by
+     Google and available under open source licensing. The parser
+     program is available in many languages including java and python.
 
 
 New Technologies to be integrated

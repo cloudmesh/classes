@@ -13,17 +13,29 @@ software architecture represented by this collection and work towards
 identifying best practices to deploy, access and interface with
 them. Topics of this class will include:
 
-.. sidebar:: Figure 1: Software Systems relevant for Big Data
 
-   .. index:: I524 technology image
-	   
+.. index:: I524 technology image
+		 
+.. only:: html
+   
+   .. sidebar:: Figure 1: Software Systems relevant for Big Data
+
+      .. figure:: bigdata.png
+         :width: 200px
+         :align: center
+         :alt: 370 Technologies
+         :figclass: align-center
+
+.. only:: latex
+		    
    .. figure:: bigdata.png
-      :width: 200px
       :align: center
       :alt: 370 Technologies
       :figclass: align-center
 
- 
+      Big data relevant technology layers
+
+	  
 #. The cloud computing architecture underlying open source big data
    software and frameworks and contrast of them to high performance
    computing
