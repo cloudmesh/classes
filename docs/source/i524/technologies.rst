@@ -1044,8 +1044,9 @@ Monitoring
      integrate with the Nagios core services. Plugins can be developed
      via static languages like C or script languages. This mechanism
      empowers Nagios to monitor a large set of various scenarios yet
-     being very flexible. :cite:`nagios-paper-2012` Besides its open source components, Nagios
-     also has commercial products to serve needing clients.
+     being very flexible. :cite:`nagios-paper-2012` Besides its open
+     source components, Nagios also has commercial products to serve
+     needing clients.
 
 
 364. Inca
@@ -1109,13 +1110,17 @@ Message and Data Protocols
 378. Thrift
 379. Protobuf
 
-     Protocol Buffer :cite:`www-protobuf` is a way to serialize structured data into binary form (stream of bytes) 
-     in order to transfer it over wires or for storage. It is used for inter apllication communication or for 
-     remote procedure call (RPC). It involves a interface description  that describes the structure of some data and a
-     program that can generate source code or parse it back to the binary form. It emphasizes on simplicity 
-     and performance over xml. Though xml is more readable but requires more resources in parsing and storing.
-     This is developed by Google and available under open source licensing. The parser program is available 
-     in many languages including java and python.
+     Protocol Buffer :cite:`www-protobuf` is a way to serialize
+     structured data into binary form (stream of bytes) in order to
+     transfer it over wires or for storage. It is used for inter
+     apllication communication or for remote procedure call (RPC). It
+     involves a interface description that describes the structure of
+     some data and a program that can generate source code or parse it
+     back to the binary form. It emphasizes on simplicity and
+     performance over xml. Though xml is more readable but requires
+     more resources in parsing and storing.  This is developed by
+     Google and available under open source licensing. The parser
+     program is available in many languages including java and python.
 
 
 New Technologies to be integrated
