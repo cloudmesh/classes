@@ -614,14 +614,20 @@ SQL(NewSQL)
 204. CUBRID
 205. Galera Cluster
 
-     Galera cluster :cite:`www-galera-cluster` is a type of database clustering which has all 
-     multiple masters and works on synchronous replication. At a deeper level, it was created 
-     by extending MySql replication API to provide all support for true multi master synchronous replication.
-     This extended api is called as Write-Set Replication API and is the core of the clustering logic.
-     Each transaction of wsrep API not only contains the record but also other meta-info to requires to commit
-     each node separately or asynchronously. So though it seems synchronous logically but works independently on each node.
-     The approach is also called virtually synchronous replication. This helps in directly read-write on a 
-     specific node and can lose a node without handling any complex failover scenarios (zero downtime).
+     Galera cluster :cite:`www-galera-cluster` is a type of database
+     clustering which has all multiple masters and works on
+     synchronous replication. At a deeper level, it was created by
+     extending MySql replication API to provide all support for true
+     multi master synchronous replication.  This extended api is
+     called as Write-Set Replication API and is the core of the
+     clustering logic.  Each transaction of wsrep API not only
+     contains the record but also other meta-info to requires to
+     commit each node separately or asynchronously. So though it seems
+     synchronous logically but works independently on each node.  The
+     approach is also called virtually synchronous replication. This
+     helps in directly read-write on a specific node and can lose a
+     node without handling any complex failover scenarios (zero
+     downtime).
 
 206. SciDB
 207. Rasdaman
@@ -641,12 +647,16 @@ NoSQL
 
 218. Lucene
 
-     Apache Lucene :cite:`www-lucene` is a high-performance, full-featured text search engine library. 
-     It is originally written in pure Java but also has been ported to few other languages chiefly python. 
-     It is suitable for applications that requires full-text search. 
-     One of the key implementation of Lucene is Internet search engines and local, single-site searching. 
-     Another important implementation usage is its recomendation system. The core idea of Lucene is to extract text 
-     from any document that contains text (not image) field, making it format idependent.
+     Apache Lucene :cite:`www-lucene` is a high-performance,
+     full-featured text search engine library.  It is originally
+     written in pure Java but also has been ported to few other
+     languages chiefly python.  It is suitable for applications that
+     requires full-text search.  One of the key implementation of
+     Lucene is Internet search engines and local, single-site
+     searching.  Another important implementation usage is its
+     recomendation system. The core idea of Lucene is to extract text
+     from any document that contains text (not image) field, making it
+     format idependent.
 
 219. Solr
 220. Solandra
@@ -715,13 +725,17 @@ NoSQL
 238. Accumulo
 239. Cassandra
 
-     Apache Cassandra :cite:`www-cassandra` is an open-source distributed database managemment for handling large 
-     volume of data accross comodity servers. It works on asynchronous masterless replication 
-     technique leading to low latency and high availability. It is a hybrid between a key-value 
-     and column oriented database. A table in cassandra can be viewed as a multi dimensional 
-     map indexed by a key. It has its own "Cassandra Query language (CQL)" query language for 
-     data extraction and mining. One of the demerits of such structure is it does not support 
-     joins or subqueries. It is a java based system which can be administered by any JMX compliant tools.
+     Apache Cassandra :cite:`www-cassandra` is an open-source
+     distributed database managemment for handling large volume of
+     data accross comodity servers. It works on asynchronous
+     masterless replication technique leading to low latency and high
+     availability. It is a hybrid between a key-value and column
+     oriented database. A table in cassandra can be viewed as a multi
+     dimensional map indexed by a key. It has its own "Cassandra Query
+     language (CQL)" query language for data extraction and
+     mining. One of the demerits of such structure is it does not
+     support joins or subqueries. It is a java based system which can
+     be administered by any JMX compliant tools.
 
 240. RYA
 241. Sqrrl
@@ -844,32 +858,34 @@ Interoperability
 301. Libcloud
 302. JClouds
 
-        :cite:`cloud-portability-book` Primary goals of cross-platform cloud APIs is
-        that application built using these APIs can be seamlessly ported to different
-        cloud providers. The APIs also bring interoperability such that cloud platforms
-        can communicate and exchange information using these common or shared interfaces.
-        Jclouds or apache jclouds :cite:`www-jclouds` is a java based library to
-        provide seamless access to cloud platforms. Jclouds library provides
-        interfaces for most of cloud providers like docker, openstack, amazon web
-        services, microsoft azure, google cloud engine etc. It will allow users build
-        applications which can be portable across different cloud environments.
-        Key components of jcloud are:
+     :cite:`cloud-portability-book` Primary goals of cross-platform
+     cloud APIs is that application built using these APIs can be
+     seamlessly ported to different cloud providers. The APIs also
+     bring interoperability such that cloud platforms can communicate
+     and exchange information using these common or shared interfaces.
+     Jclouds or apache jclouds :cite:`www-jclouds` is a java based
+     library to provide seamless access to cloud platforms. Jclouds
+     library provides interfaces for most of cloud providers like
+     docker, openstack, amazon web services, microsoft azure, google
+     cloud engine etc. It will allow users build applications which
+     can be portable across different cloud environments.  Key
+     components of jcloud are:
 
-        1. Views: abstracts functionality from a specific vendor and allow user to write
+     1. Views: abstracts functionality from a specific vendor and allow user to write
         more generic code. For example odbc abstracts the underlying relational data
         source. However, odbc driver converts to native format. In this case user can
         switch databases without rewriting the application. Jcloud provide following
         views: blob store, compute service, loadBalancer service
 
-        2. API: APIs are requests to execute a particular functionality. Jcloud provide a
+     2. API: APIs are requests to execute a particular functionality. Jcloud provide a
         single set of APIs for all cloud vendors which is also location aware. If a
         cloud vendor doesn’t support customers from a particular region the API will
         not work from that region.
 
-        3. Provider: a particular cloud vendor is a provider. Jcloud uses provider
+     3. Provider: a particular cloud vendor is a provider. Jcloud uses provider
         information to initialize its context.
 
-        4 Context: it can be termed as a handle to a particular provider. Its like a
+     4. Context: it can be termed as a handle to a particular provider. Its like a
         ODBC connection object. Once connection is initialized for a particular
         database, it can used to make any api call.
 
@@ -896,17 +912,16 @@ DevOps
      Chef is a configuration management tool. It is implemented in
      Ruby and Erlang. Chef can be used to configure and maintain
      servers on-premise as well as cloud platforms like Amazon EC2,
-     Google Cloud Platform and Open Stack. In his book
-     :cite:`chef-book` Matthias Marschall explains how user can
-     implement recipes in Chef to manage server applications and
-     utilities such as database servers like MySQL, or HTTP servers
-     like Apache HTPP and systems like Apache Hadoop.
+     Google Cloud Platform and Open Stack. In this book
+     :cite:`chef-book`, it is mentioned how implementation recipes in
+     Chef to manage server applications and utilities such as database
+     servers like MySQL, or HTTP servers like Apache HTPP and systems
+     like Apache Hadoop.
 
-     Chef is available in open source version and it also has commercial
-     products for the companies which need it :cite:`www-chef-commercial`
-
-     **IMPROVE: Mention names is inappropriate**
-    
+     Chef is available in open source version and it also has
+     commercial products for the companies which need it
+     :cite:`www-chef-commercial`
+        
 312. Ansible
 313. SaltStack
 314. Boto
