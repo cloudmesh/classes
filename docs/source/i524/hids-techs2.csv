@@ -55,10 +55,10 @@ S17-IR-2039,TOSCA (1) -- HTTP (1) -- IBM BlueMix (1) -- Google Omega (1) -- Glus
 S17-IR-2041,IBM Watson (1) -- Public Cloud: Amazon S3 (1) -- Kyoto/Tokyo Cabinet (1) -- Elasticsearch (1) -- Tajo (1) -- Google BigQuery (2) -- S4 (2)
 S17-IR-2044,AllegroGraph (1) -- Theano (1) -- Atmosphere (1) -- Granules (1) -- HDFS (1) -- Hibernate (2) -- Hive (2)
 -,-
-S17-TS-0001,Mahout (1) -- 
-S17-TS-0001,Tika (1) -- 
-S17-TS-0003,HCatalog (1) -- 
-S17-TS-0004,Foreman (1) -- 
-S17-TS-0005,Genesis (1) -- 
-S17-TS-0006,Presto (1) -- 
-S17-TS-0007,Nagios (1) -- 
+S17-TS-0001,Mahout (1)
+S17-TS-0001,Tika (1)
+S17-TS-0003,HCatalog (1)
+S17-TS-0004,Foreman (1)
+S17-TS-0005,Genesis (1)
+S17-TS-0006,Presto (1)
+S17-TS-0007,Nagios (1)
