@@ -27,7 +27,7 @@ Workflow-Orchestration
    
    Taverna is workflow management system. According to :cite:`www-taverna`,
    Taverna is transitioning to Apache Incubator as of Jan 2017.
-   Taverna suite includes 2 products:
+   Taverna suite includes 2 products: 
 
    (1). Taverna Workbench is desktop client where user can define the workflow.
    (2). Taverna Server is responsible for executing the remote workflows.
@@ -102,12 +102,17 @@ Application and Analytics
 36. R
 37. pbdR
 
-    Programming with Big Data in R (pbdR) :cite:`www-pbdR` is an environment having series of R packages 
-    for statistical computing with Big Data using high-performance statistical computation. It uses R , a popular language 
-    between statisticians and data miners. "pbdR" focuses on distributed memory system, where data is distributed accross 
-    several machines and processed in batch mode. It uses MPI for inter process communications. R focuses on single machines 
-    for data analysis using a interactive GUI. Currenly there are two implementation of pbdR , one Rmpi and another being pdbMpi.
-    Rmpi uses SPMD parallelism while pbdRMpi uses manager/worker parallelism.
+    Programming with Big Data in R (pbdR) :cite:`www-pbdR` is an
+    environment having series of R packages for statistical computing
+    with Big Data using high-performance statistical computation. It
+    uses R , a popular language between statisticians and data
+    miners. "pbdR" focuses on distributed memory system, where data is
+    distributed accross several machines and processed in batch
+    mode. It uses MPI for inter process communications. R focuses on
+    single machines for data analysis using a interactive
+    GUI. Currenly there are two implementation of pbdR , one Rmpi and
+    another being pdbMpi.  Rmpi uses SPMD parallelism while pbdRMpi
+    uses manager/worker parallelism.
 
 38. Bioconductor
 39. ImageJ
@@ -240,35 +245,35 @@ High level Programming
 108. Shark
 109. Phoenix
 
-In the first quarter of 2013, Salesforce.com released its proprietary SQL-like
-interface and query engine for HBase, *Phoenix*, to the open source community.
-The company appears to have been motivated to develop Phoenix as a way to 1)
-increase accessiblity to HBase by using the industry-standard query language
-(SQL); 2) save users time by abstracting away the complexities of coding native
-HBase queries; and, 3) implementing query best practices by implementing them
-automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
-initially *open-sourced* it via Github, by May of 2014 it had become a top-level
-Apache project. :cite:www-phoenix-wikipedia
+     In the first quarter of 2013, Salesforce.com released its proprietary SQL-like
+     interface and query engine for HBase, *Phoenix*, to the open source community.
+     The company appears to have been motivated to develop Phoenix as a way to 1)
+     increase accessiblity to HBase by using the industry-standard query language
+     (SQL); 2) save users time by abstracting away the complexities of coding native
+     HBase queries; and, 3) implementing query best practices by implementing them
+     automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
+     initially *open-sourced* it via Github, by May of 2014 it had become a top-level
+     Apache project. :cite:www-phoenix-wikipedia
 
-Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
-and orchestrates the running of those scans to produce regular JDBC result
-sets." :cite:www-apachephoenix-org  In addition, the program directs compute
-intense portions of the calls to the server.  For instance, if a user queried
-for the top ten records across numerous regions from an HBase database
-consisting of a billion records, the program would first select the top ten
-records for each region using server-side compute resources.  After that, the
-client would be tasked with selecting the overall top ten. :cite:www-phoenix-
-salesforcedev
+     Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
+     and orchestrates the running of those scans to produce regular JDBC result
+     sets." :cite:www-apachephoenix-org  In addition, the program directs compute
+     intense portions of the calls to the server.  For instance, if a user queried
+     for the top ten records across numerous regions from an HBase database
+     consisting of a billion records, the program would first select the top ten
+     records for each region using server-side compute resources.  After that, the
+     client would be tasked with selecting the overall top ten. :cite:www-phoenix-
+     salesforcedev
 
-Despite adding an abstraction layer, Phoenix can actually speed up queries
-because it optimizes the query during the translation process. :cite:www-
-phoenix-cloudera  For example, "Phoenix beats Hive for a simple query spanning
-10M-100M rows." :cite:www-phoenix-infoq
+     Despite adding an abstraction layer, Phoenix can actually speed up queries
+     because it optimizes the query during the translation process. :cite:www-
+     phoenix-cloudera  For example, "Phoenix beats Hive for a simple query spanning
+     10M-100M rows." :cite:www-phoenix-infoq
 
-Finally, another program can enhance HBase's accessibility for those inclined
-towards graphical interfaces.  SQuirell only requires the user to set up the
-JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
-bighadoop
+     Finally, another program can enhance HBase's accessibility for those inclined
+     towards graphical interfaces.  SQuirell only requires the user to set up the
+     JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
+     bighadoop
 
 110. Impala
 111. MRQL
