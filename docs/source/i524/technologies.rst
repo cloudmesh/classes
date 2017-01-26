@@ -203,10 +203,10 @@ Application Hosting Frameworks
 
     Azure competes against Amazon's *Amazon Web Service*, :cite:www-aws-amzn
     even though IBM (*SoftLayer* :cite:www-softlayer-ibm and *Bluemix* :cite
-    :www-bluemix-ibm) and Google (*Google Cloud Platform*) :cite:www-cloud-
-    google offer IaaS to the market.  As of January 2017, Azure's datacenters
+    :`www-bluemix-ibm`) and Google (*Google Cloud Platform*) :cite:`www-cloud-
+    google` offer IaaS to the market.  As of January 2017, Azure's datacenters
     span 32 Microsoft-defined *regions*, or 38 *declared regions*, throughout
-    the world. :cite:www-azure-msft
+    the world. :cite:`www-azure-msft`
 
 87. Cloud Foundry
 88. Pivotal
