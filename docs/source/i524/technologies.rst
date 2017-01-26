@@ -29,8 +29,8 @@ Workflow-Orchestration
    Taverna is transitioning to Apache Incubator as of Jan 2017.
    Taverna suite includes 2 products:
 
-   1. Taverna Workbench is desktop client where user can define the workflow.
-   2. Taverna Server is responsible for executing the remote workflows.
+   (1). Taverna Workbench is desktop client where user can define the workflow.
+   (2). Taverna Server is responsible for executing the remote workflows.
 
    Taverna workflows can also be executed on command-line.
    Taverna supports wide range of services including WSDL-style and RESTful
@@ -83,7 +83,7 @@ Application and Analytics
 34. Mbase
 35. DataFu
     
-    The Apache DataFu project was created out of the need for stable ,
+    The Apache DataFu project was created out of the need for stable,
     well-tested libraries for large scale data processing in Hadoop.
     As detailed in :cite:`www-DataFu` Apache DatFu consists of two
     libraries Apache DataFu Pig and Apache DataFu Hourglass.  Apache
