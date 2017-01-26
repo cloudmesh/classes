@@ -1,29 +1,49 @@
 I524
 ========
 
-.. toctree::
-   :maxdepth: 1
 
-   i524/index
- 
-
-
-Classes
-========
+Preface
+-------
 
 .. toctree::
    :maxdepth: 1
 
-   about/index	      
+   about/index
+   i524/preface/instructors
+
+
+Class Overview
+---------------
+
+.. toctree::
+   :maxdepth: 1
+	   
    i524/index
-   i523/index
+   i524/calendar
+   i524/lectures
+
+Technologies
+------------
+
+.. toctree::
+   :maxdepth: 1
+	   
+   i524/technologies
+
+Lessons
+-------
+
+.. toctree::
+   :maxdepth: 1
+	   
    lesson/index
    notebooks/index
    faq
    references
    todo
-
-
+   changelog
+   
+   
 Search:
 
 * :ref:`search`
@@ -33,5 +53,6 @@ Search:
    
   * :ref:`modindex`
 
+  i523/index
 
       

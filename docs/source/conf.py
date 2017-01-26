@@ -438,7 +438,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Classes.tex', u'I524 Lecture Notes',
+    ('notes', 'Classes.tex', u'I524 Lecture Notes',
      u'Gregor von Laszewski', 'manual'),
 ]
 

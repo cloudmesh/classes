@@ -18,8 +18,11 @@ doc:
 	cd docs; make html
 
 pdf: 
-	cd docs; make latex
-	cd docs/build/latex; pdflatex Classes
+	cd docs;  make latex 
+	cd docs/build/latex; echo "R" | pdflatex Classes || true
+	# cd docs/build/latex; bibtex Classes
+	cd docs/build/latex; echo "R" | pdflatex Classes || true
+	cd docs/build/latex; echo "R" | pdflatex Classes || true
 
 pdfview:
 	cd docs/build/latex; $(BROWSER) Classes.pdf
@@ -37,6 +40,15 @@ log:
 	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" > docs/source/changelog.rst
 	git commit -m "chg: dev: Update changelog" docs/source/changelog.rst
 	git push
+
+notes:
+	make clean
+	rm -rf /tmp/notes-i524
+	mkdir -p /tmp/notes-i524
+	cp -r . /tmp/notes-i524
+	cp /tmp/notes-i524/docs/source/notes.rst /tmp/notes-i524/docs/source/index.rst
+	cd /tmp/notes-i524; echo "R" | make pdf || true
+	cp /tmp/notes-i524/docs/build/latex/Classes.pdf .
 
 ######################################################################
 # CLEANING
