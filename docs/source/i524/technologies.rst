@@ -105,12 +105,12 @@ Application and Analytics
     Programming with Big Data in R (pbdR) :cite:`www-pbdR` is an
     environment having series of R packages for statistical computing
     with Big Data using high-performance statistical computation. It
-    uses R , a popular language between statisticians and data
+    uses R, a popular language between statisticians and data
     miners. "pbdR" focuses on distributed memory system, where data is
     distributed accross several machines and processed in batch
     mode. It uses MPI for inter process communications. R focuses on
     single machines for data analysis using a interactive
-    GUI. Currenly there are two implementation of pbdR , one Rmpi and
+    GUI. Currenly there are two implementation of pbdR, one Rmpi and
     another being pdbMpi.  Rmpi uses SPMD parallelism while pbdRMpi
     uses manager/worker parallelism.
 
