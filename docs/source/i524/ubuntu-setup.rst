@@ -15,7 +15,7 @@ This assumes:
 
    Check by running the following command:
 
-   .. prompt:: bash $ auto
+   ::
 
       $ lsb_release -a
       No LSB modules are available.
@@ -28,7 +28,7 @@ This assumes:
 
    Check by running the following command:
 
-   .. prompt:: bash $ auto
+   ::
 
       $ sudo whoami
       root
@@ -43,7 +43,7 @@ Once the requirements are satisfied, you must ensure the package
 manager has an up-to-date cache of the available packageds.
 Do so by running the ``apt-get`` command:
 
-  .. prompt:: bash $ auto
+  ::
 
      $ sudo apt-get update
      Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
@@ -63,27 +63,27 @@ Editors
 
 You should ensure that an editor such as emacs, vim, or nano is installed:
 
-.. prompt:: bash
+::
 
-   sudo apt-get install -y emacs vim nano
+   $ sudo apt-get install -y emacs vim nano
 
 Version Control (Git)
 ~~~~~~~~~~~~~~~~~~~~~
 
 Install Git using:
 
-.. prompt:: bash
+::
 
-   sudo apt-get install -y git
+   $ sudo apt-get install -y git
 
 Development Tools
 ~~~~~~~~~~~~~~~~~
 
 Install Python and other necessary programs and tools:
 
-.. prompt:: bash
+::
 
-   sudo apt-get install -y python-dev python-virtualenv python-pip graphviz make
+   $ sudo apt-get install -y python-dev python-virtualenv python-pip graphviz make
 
 
 LaTeX
@@ -93,7 +93,7 @@ LaTeX
 You should also install the full TexLive package. This will result in
 several gigabytes of download and install, so make take a while:
 
-.. prompt:: bash
+::
 
-   sudo apt-get install -y texlive-full
+   $ sudo apt-get install -y texlive-full
 
