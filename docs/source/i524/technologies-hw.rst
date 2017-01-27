@@ -232,19 +232,19 @@ Procedure
 
 #. To get credit for the assignment write your commit summary with your::
 
-       new:usr: Meaningful summary of what you did
+     new:usr: Meaningful summary of what you did
 
    For example for new contributions::
 
-          new:usr: Added entry for Nagios in the technology list
+     new:usr: Added entry for Nagios in the technology list
 
    For example for changes contributions::
 
-           chg:usr: Changed the entire paraagraph for Nagios in the technology list
+     chg:usr: Changed the entire paraagraph for Nagios in the technology list
 
    For example for fixed contributions::
 
-           fix:usr: Changed spelling for Nagios in the technology list
+     fix:usr: Changed spelling for Nagios in the technology list
 
 #. Review the changed files to make sure you only change the two
     files. If you have other changes create separate pull requests for
