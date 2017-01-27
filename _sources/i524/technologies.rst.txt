@@ -1180,27 +1180,33 @@ New Technologies to be integrated
 Excersise
 ---------
 
-TechList.1:
-  In class you will be given an HID and you will be assigned a number
-  of technologies that you need to research and create a summary as
-  well as one or more relevant refernces to be added to the Web
-  page. An example is given for Nagios.  Please create a pull request
-  with your responses. You are responsible for making sure the request
-  shows up and each commit is using gitchangelog "new:usr: added
-  paragraph about <PUTTECHHERE>" For the repository and create a
-  single pull request with your response for all technologies you are
-  responsible to invesitgate.  Make sure to add your refernce to
-  refs.bib.  Many technologies may have additional refernces than the
-  Web page. Please add the most important once while limiting it to
-  three if you can. Avoid plagearism and use proper quotations or
-  better rewrite the text.
+TechList.1: In class you will be given an HID and you will be assigned
+  a number of technologies that you need to research and create a
+  summary as well as one or more relevant refernces to be added to the
+  Web page. All technologies for TechList.1 are marked with a (1)
+  behind the technology.  An example text is given for Nagios in this
+  page.  Please create a pull request with your responses. You are
+  responsible for making sure the request shows up and each commit is
+  using gitchangelog in the commit message::
+
+    new:usr: added paragraph about <PUTTECHHERE>
+    
+  You can create one or more pull requests for the technology and the
+  refernces. We have created in the referens file a placeholder using
+  your HID to simplify the management of the refernces while avoiding
+  conflicts.  For the technologies you are responsible to invesitgate
+  them and write an academic summary of the technology. Make sure to
+  add your refernce to refs.bib.  Many technologies may have
+  additional refernces than the Web page. Please add the most
+  important once while limiting it to three if you can. Avoid
+  plagearism and use proper quotations or better rewrite the text.
   
   You must look at :ref:`techlist-tips` to sucessfully complete the homework
 
   A video about this hoemwork is posted at
   https://www.youtube.com/watch?v=roi7vezNmfo showing how to
   do references in emacs and jabref, it shows you how to configure
-  git, it shows you how to do the forkrequest while asking you to add
+  git, it shows you how to do the fork request while asking you to add
   "new:usr ...." to the commit messages). As this is a homework
   realated video we put a lot of information in it that is not only
   useful for beginners. We recommend you watch it.
@@ -1209,7 +1215,7 @@ TechList.1:
   This homework can be done in steps. First you can collect all the
   content in an editor. Second you can create a fork. Third you can
   add the new content to the fork. Fourth you can commit. Fith you
-  can push. SIx if the TAs have commend improve. The commit message
+  can push. Six if the TAs have commend improve. The commit message
   must have new:usr: at the beginning.
 
   While the Nagios entry is a good example (make sure grammer is ok
@@ -1245,21 +1251,21 @@ TechList 1.c:
   not on what the author of the Web page claims. 
 
 TechList 1.d:
-  Identify technologies from the Apache project that ar enot yet
-  listed here and add the name and descriptions as well as references.
+  Identify technologies from the Apache project or other
+  Big Data related Web pages and projects that are not yet listed here
+  and add the name and descriptions as well as references and that you
+  find important. 
   
 TechList.2:
-  As some students may not complete this assignment because
-  they for example dropped the class, identify a number of not
-  submitted descriptions and complete them. Coordinate with your class
-  mates to identify a non overlapping assignment. The TA's will
-  assign you additional technologies.
+  In this hopweork we provide you with additional technologies
+  that you need to compleate They are marked with (2) in the HID
+  assignment.
 
 TechList.3:
   Identify technologies that are not listed here and add
   them. Provide a description and a refrence just as you did before.
-  Make sure duplicated entries will be merged. Before you start do a
-  pull to avoid adding technologies that have already been done by
+  Make sure duplicated entries will be merged. Before you start doing a
+  technology to avoid adding technologies that have already been done by
   others.
 
 
