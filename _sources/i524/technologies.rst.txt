@@ -1201,7 +1201,7 @@ TechList.1: In class you will be given an HID and you will be assigned
   important once while limiting it to three if you can. Avoid
   plagearism and use proper quotations or better rewrite the text.
   
-  You must look at :ref:`techlist-tips` to sucessfully complete the homework
+  You must look at :doc:`technologies-hw` to sucessfully complete the homework
 
   A video about this hoemwork is posted at
   https://www.youtube.com/watch?v=roi7vezNmfo showing how to

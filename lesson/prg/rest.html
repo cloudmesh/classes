@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>REST &#8212; Big Data Classes</title>
+    <title>REST with Eve &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -118,7 +118,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/hids-techs.html">Assignments of HIDs to Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/hids-techs.html">HID Assignment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../i524/technologies.html">Technologies</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#application-and-analytics">Application and Analytics</a></li>
@@ -241,7 +241,15 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">REST</a></li>
+<li><a class="reference internal" href="#">REST with Eve</a><ul>
+<li><a class="reference internal" href="#overview-of-rest">Overview of REST</a></li>
+<li><a class="reference internal" href="#rest-and-eve">REST and eve</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#starting-the-service">Starting the service</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -324,7 +332,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/hids-techs.html">Assignments of HIDs to Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/hids-techs.html">HID Assignment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../i524/technologies.html">Technologies</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#application-and-analytics">Application and Analytics</a></li>
@@ -437,7 +445,15 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">REST</a></li>
+<li><a class="reference internal" href="#">REST with Eve</a><ul>
+<li><a class="reference internal" href="#overview-of-rest">Overview of REST</a></li>
+<li><a class="reference internal" href="#rest-and-eve">REST and eve</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#starting-the-service">Starting the service</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <p></p>
 <hr>
@@ -476,9 +492,16 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="rest">
-<h1>REST<a class="headerlink" href="#rest" title="Permalink to this headline">¶</a></h1>
-<p>REST stands for REpresentational State Transfer. REST is an architecture style for designing networked applications. It is based on stateless, client-server, cacheable communications protocol. Although not based on http, in most cases, the HTTP protocol is used.  In contrast to what some others write or say, REST is not a <em>standard</em>.</p>
+  <div class="section" id="rest-with-eve">
+<h1>REST with Eve<a class="headerlink" href="#rest-with-eve" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview-of-rest">
+<h2>Overview of REST<a class="headerlink" href="#overview-of-rest" title="Permalink to this headline">¶</a></h2>
+<p>REST stands for REpresentational State Transfer. REST is an
+architecture style for designing networked applications. It is based
+on stateless, client-server, cacheable communications
+protocol. Although not based on http, in most cases, the HTTP protocol
+is used.  In contrast to what some others write or say, REST is not a
+<em>standard</em>.</p>
 <p>RESTful applications use HTTP requests to:</p>
 <ul class="simple">
 <li>post data: while creating and/or updating it,</li>
@@ -492,8 +515,13 @@
 <li>Update</li>
 <li>Delete</li>
 </ul>
+<p>As part of the HTTP protocol we have methods such as GET, PUT, POST,
+and DELETE. These methods can than be used to implement a REST
+service. As REST introduces collections and items we need to implement
+the CRUD functions for them. The semantics is explained in the Table
+illustrationg how to implement them with HTTP methods.</p>
 <table border="1" class="colwidths-given docutils" id="id1">
-<caption><span class="caption-text">HTTP Methods</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text">IMplementing REST with HTTP methods</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col width="20%" />
 <col width="20%" />
@@ -511,20 +539,81 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td><a class="reference external" href="http://.../resources/">http://.../resources/</a></td>
-<td>List the URIs and perhaps other details of the collection&#8217;s members.</td>
+<td>List the URIs and perhaps other details of the collection&#8217;s
+members.</td>
 <td>Replace the entire collection with another collection.</td>
-<td>Create a new entry in the collection. The new entry&#8217;s URI is assigned automatically and is usually returned by the operation.</td>
+<td>Create a new entry in the collection. The new entry&#8217;s URI is
+assigned automatically and is usually returned by the
+operation.</td>
 <td>Delete the entire collection.</td>
 </tr>
 <tr class="row-odd"><td><a class="reference external" href="http://.../resources/item17">http://.../resources/item17</a></td>
-<td>Retrieve a representation of the addressed member of the collection, expressed in an appropriate Internet media type.</td>
-<td>Replace the addressed member of the collection, or if it does not exist, create it.</td>
-<td>Not generally used. Treat the addressed member as a collection in its own right and create a new entry within it.</td>
+<td>Retrieve a representation of the addressed member of the
+collection, expressed in an appropriate Internet media type.</td>
+<td>Replace the addressed member of the collection, or if it does
+not exist, create it.</td>
+<td>Not generally used. Treat the addressed member as a collection
+in its own right and create a new entry within it.</td>
 <td>Delete the addressed member of the collection.</td>
 </tr>
 </tbody>
 </table>
 <p>Source: <a class="reference external" href="https://en.wikipedia.org/wiki/Representational_state_transfer">https://en.wikipedia.org/wiki/Representational_state_transfer</a></p>
+</div>
+<div class="section" id="rest-and-eve">
+<h2>REST and eve<a class="headerlink" href="#rest-and-eve" title="Permalink to this headline">¶</a></h2>
+<p>Now that we have outlined the basic functionality that we need, we lke
+to introduce you to Eve that makes this process rather trivial. IN
+fact we will provide you with an implementation example that showcases
+that we can create REST services without writing a single line of
+code. The code for this is located at <a class="reference external" href="https://github.com/cloudmesh/eve">https://github.com/cloudmesh/eve</a></p>
+<div class="section" id="installation">
+<h3>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h3>
+<p>First we havt to install mongodb. The instalation will depend on your
+operating system. Note that for this example we do not need to
+integrate mongodb into the system upon reboot. IN fact for us it is
+better if we can start and stop the services by hand.</p>
+<p>On ubuntu, you need to do the following steps:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">TO</span> <span class="n">BE</span> <span class="n">CONTRIBUTED</span> <span class="n">BY</span> <span class="n">THE</span> <span class="n">STUDENTS</span> <span class="n">OF</span> <span class="n">THE</span> <span class="n">CLASS</span> <span class="k">as</span> <span class="n">homework</span>
+</pre></div>
+</div>
+<p>On windows 10, you need to do the following steps:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">TO</span> <span class="n">BE</span> <span class="n">CONTRIBUTED</span> <span class="n">BY</span> <span class="n">THE</span> <span class="n">STUDENTS</span> <span class="n">OF</span> <span class="n">THE</span> <span class="n">CLASS</span> <span class="k">as</span> <span class="n">homework</span><span class="p">,</span> <span class="k">if</span> <span class="n">you</span>
+<span class="n">elect</span> <span class="n">Windows</span> <span class="mi">10</span>
+</pre></div>
+</div>
+<p>On OSX you can use homebrew and install it with</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">update</span>
+<span class="n">brew</span> <span class="n">install</span> <span class="n">mongodb</span>
+<span class="c1"># brew install mongodb --with-openssl</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="starting-the-service">
+<h3>Starting the service<a class="headerlink" href="#starting-the-service" title="Permalink to this headline">¶</a></h3>
+<p>We have provided a convenient Makefile that currently only works for
+OSX. But you can replicate the steps while looking at the targets we
+defined in the makefile in a shell program.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">TODO</span> <span class="n">Provide</span> <span class="n">a</span> <span class="n">shell</span> <span class="n">progra</span><span class="p">,</span> <span class="n">that</span> <span class="n">runs</span> <span class="n">on</span> <span class="nb">all</span> <span class="n">three</span> <span class="n">operating</span>
+<span class="n">systems</span><span class="o">.</span> <span class="n">To</span> <span class="n">be</span> <span class="n">completed</span> <span class="n">by</span> <span class="n">students</span> <span class="n">of</span> <span class="n">the</span> <span class="k">class</span>
+</pre></div>
+</div>
+<p>When using the makefile you can start the services with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">deploy</span>
+</pre></div>
+</div>
+<p>To test the services you can say:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">test</span>
+</pre></div>
+</div>
+<p>The program relies on evegenie that we will be added to the repository
+by executing</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">SOME</span> <span class="n">MAKEFILE</span> <span class="n">TARGET</span><span class="o">.</span> <span class="n">TO</span> <span class="n">BE</span> <span class="n">COMPLETED</span> <span class="n">BY</span> <span class="n">STUDENT</span><span class="o">.</span> <span class="n">ITS</span> <span class="n">ALREADY</span> <span class="n">IN</span> <span class="n">MAKEFILE</span>
+</pre></div>
+</div>
+<p>TODO by student add logging</p>
+</div>
+</div>
 </div>
 
 
@@ -539,7 +628,7 @@
       
     </p>
     <p>
-        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+        &copy; Copyright 2017, Gregor von Laszewski.<br/>
     </p>
   </div>
 </footer>

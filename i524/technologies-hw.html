@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Requirements for the TechList Homework &#8212; Big Data Classes</title>
+    <title>Completing Techlist Assignments &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -116,7 +116,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="hids-techs.html">Assignments of HIDs to Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hids-techs.html">HID Assignment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="technologies.html">Technologies</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="technologies.html#application-and-analytics">Application and Analytics</a></li>
@@ -239,8 +239,10 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Requirements for the TechList Homework</a><ul>
-<li><a class="reference internal" href="#tips">Tips</a></li>
+<li><a class="reference internal" href="#">Completing Techlist Assignments</a><ul>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#setup-your-clone">Setup Your Clone</a></li>
+<li><a class="reference internal" href="#adding-your-technology">Adding your Technology</a></li>
 <li><a class="reference internal" href="#learning-outcomes">Learning outcomes</a></li>
 </ul>
 </li>
@@ -326,7 +328,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="hids-techs.html">Assignments of HIDs to Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hids-techs.html">HID Assignment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="technologies.html">Technologies</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="technologies.html#application-and-analytics">Application and Analytics</a></li>
@@ -439,8 +441,10 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Requirements for the TechList Homework</a><ul>
-<li><a class="reference internal" href="#tips">Tips</a></li>
+<li><a class="reference internal" href="#">Completing Techlist Assignments</a><ul>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#setup-your-clone">Setup Your Clone</a></li>
+<li><a class="reference internal" href="#adding-your-technology">Adding your Technology</a></li>
 <li><a class="reference internal" href="#learning-outcomes">Learning outcomes</a></li>
 </ul>
 </li>
@@ -482,28 +486,172 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="requirements-for-the-techlist-homework">
-<span id="techlist-tips"></span><h1>Requirements for the TechList Homework<a class="headerlink" href="#requirements-for-the-techlist-homework" title="Permalink to this headline">¶</a></h1>
-<ol class="arabic simple">
-<li>Watch the video at <a class="reference external" href="https://www.youtube.com/watch?v=roi7vezNmfo">https://www.youtube.com/watch?v=roi7vezNmfo</a></li>
-</ol>
-<p>1.a From the video you learn how to fork and create pull requests. We
+  <div class="section" id="completing-techlist-assignments">
+<span id="techlist-tips"></span><h1>Completing Techlist Assignments<a class="headerlink" href="#completing-techlist-assignments" title="Permalink to this headline">¶</a></h1>
+<p>Watch the video at <a class="reference external" href="https://www.youtube.com/watch?v=roi7vezNmfo">https://www.youtube.com/watch?v=roi7vezNmfo</a></p>
+<p>From the video you learn how to fork and create pull requests. We
 encourage you to watch the video. It is on purpose long. We assume
 thet you are running teh commands in virtualenv</p>
-<ol class="arabic" start="2">
-<li><p class="first">Create a fork into your local repo: e.g. Go to
-<a class="reference external" href="https://cloudmesh.github.io/classes/">https://cloudmesh.github.io/classes/</a> and click on “Fork me on
-GitHub” to create a fork into your local repo</p>
+<div class="section" id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">You have Ubuntu installed in Virtualbox. See lesson <a class="reference internal" href="../lesson/linux/ubuntu.html"><span class="doc">Ubuntu Virtual Machine</span></a>.</p>
 </li>
-<li><p class="first">Go to your GitHub account and open the forked repository.</p>
-<blockquote>
-<div><p>Click on “Clone or download” and “Open in Desktop” to download the file
-directory on your local machine. Alternatively, you can find the files
-in the browser, click on the pencil sign to “Edit this File”.
-You will update two files:</p>
+<li><p class="first">You have prepared the Ubuntu VM as in lesson <a class="reference internal" href="ubuntu-setup.html"><span class="doc">Setting Up Ubuntu 16.04 for i524</span></a>.</p>
+</li>
+<li><p class="first">You have installed and configured git and github</p>
 <ol class="arabic simple">
-<li>add the paragraph about the technologies, go to classes/docs/source/i524/technologies.rst</li>
-<li>your references, go to  /docs/source/refs.bib</li>
+<li>see lesson <a class="reference internal" href="../lesson/prg/git.html"><span class="doc">Git</span></a></li>
+<li>see lesson <a class="reference internal" href="../lesson/prg/github.html"><span class="doc">Github</span></a></li>
+</ol>
+</li>
+<li><p class="first">You have a GitHub account. See lesson <a class="reference internal" href="../lesson/prg/github.html"><span class="doc">Github</span></a>.</p>
+</li>
+<li><p class="first">You have configured git to identify as you as well as to use your
+preferred text editor. See lesson <a class="reference internal" href="../lesson/prg/git.html"><span class="doc">Git</span></a>.</p>
+<p>Specifically, you should <strong>adapt</strong> the following commands:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git config --global user.name &quot;Albert Zweistein&quot;
+$ git config --global user.email &quot;albert.zweistein@gmail.com&quot;
+$ git config --global core.editor emacs
+</pre></div>
+</div>
+</li>
+<li><p class="first">Ensure you have created an ssh key on ubuntu and uploaded it to
+your profile on github. See lesson <span class="xref std std-ref">ssh-generate</span>.</p>
+<p>You should do something like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ssh-keygen
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in test.
+Your public key has been saved in test.pub.
+The key fingerprint is:
+SHA256:koA9ZYkSlBBpkR/W0bfIxLmViwQWY1qKqjTzGdK+7vQ ubuntu@ubuntu-xenial
+The key&#39;s randomart image is:
++---[RSA 2048]----+
+|o*=o.XO.. .      |
+|.o+=B+o* +       |
+|..++= + * o      |
+|. .. o * o       |
+|.= o  o S        |
+|o * o  .         |
+|.  =             |
+|  . o            |
+|  o+ E           |
++----[SHA256]-----+
+</pre></div>
+</div>
+</li>
+<li><p class="first">Ensure you have uploaded the <strong>public</strong> key to your github
+profile. See lesson <a class="reference internal" href="../lesson/prg/github.html"><span class="doc">Github</span></a>.</p>
+<p>Specifically, copy the contents of your <code class="docutils literal"><span class="pre">.ssh/id_rsa.pub</span></code> file
+and add them to <a class="reference external" href="https://github.com/settings/keys">you github keys</a>.</p>
+<p>To get the contents of the public key, use the <code class="docutils literal"><span class="pre">cat</span></code> command.
+Something like the following:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cat .ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+kwxuJ46kIq20odlqQ/sLl0YPkG3yVcXS+IwyWxDiaxOyB3ZqVJPsCF7OKqA9WpIHsdWxXNtU0hD/ulO2DsIJI73tTF+ITDfeMs7A7pzFPmHwTRKIAGzsiiZkj7W2hQK6DFUt/x4fjwJImG3YrNjcJ2//2aOW88Dsoq/+8Hxz3Wm5uDpmkcX5aFFmkFV6oyZoVznUZqpIlRQbgM9b+kXr7pvnYYDrGVVY86frLMrGNKKXE+DXUPLRqUGYmLQ+62xw4I6xXaF4+AyR4j4uTY91Fq1ybSALkxgKkqrZavZudkAzc50nSTTbmgCSwEaAWw0Bz6eX28r4IJclAI98Apcl ubuntu@ubuntu-xenial
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Do not use the above public key. It will not work for you.</p>
+</div>
+</li>
+<li><p class="first">Create a Python Virtual Environment and activate it. See lesson <span class="xref doc">../lesson/python/using_libraries</span>.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ virtualenv ~/ENV
+Running virtualenv with interpreter /usr/bin/python2
+New python executable in /home/ubuntu/ENV/bin/python2
+Also creating executable in /home/ubuntu/ENV/bin/python
+Installing setuptools, pkg_resources, pip, wheel...done.
+$ source ~/ENV/bin/activate
+</pre></div>
+</div>
+<p>At this point, you should see the <code class="docutils literal"><span class="pre">(ENV)</span></code> on your shell prompt.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="setup-your-clone">
+<h2>Setup Your Clone<a class="headerlink" href="#setup-your-clone" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Create a fork into your local repo: e.g. Go to
+<a class="reference external" href="https://github.com/cloudmesh/classes/">https://github.com/cloudmesh/classes/</a> and click on the &#8220;Fork&#8221;
+button on the top right corner.</p>
+<p>This will redirect you to your page. Ensure that the url has is
+something like the following:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">YOUR_GITHUB_USERNAME</span><span class="o">/</span><span class="n">classes</span>
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Verify that the url contains your github username in place of <code class="docutils literal"><span class="pre">YOUR_GITHUB_USERNAME</span></code>.</p>
+</div>
+</li>
+<li><p class="first">Ensure that you are on your forked repository on GitHub.</p>
+<p>Click on “Clone or download” (a green button on the top right) and copy the curl.
+It should look something like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">YOUR_GITHUB_USERNAME</span><span class="o">/</span><span class="n">classes</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">On Ubuntu, use the <code class="docutils literal"><span class="pre">git</span></code> command to clone the repository using the above link:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+Cloning into &#39;classes&#39;...
+remote: Counting objects: 13012, done.
+remote: Compressing objects: 100% (918/918), done.
+remote: Total 13012 (delta 727), reused 0 (delta 0), pack-reused 12029
+Receiving objects: 100% (13012/13012), 32.73 MiB | 13.42 MiB/s, done.
+Resolving deltas: 100% (9109/9109), done.
+Checking connectivity... done.
+</pre></div>
+</div>
+</li>
+<li><p class="first">Change directories into your clone:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ cd classes
+</pre></div>
+</div>
+</li>
+<li><p class="first">Add the upstream repository as <code class="docutils literal"><span class="pre">upstream</span></code>:</p>
+<p>Verify that the <code class="docutils literal"><span class="pre">origin</span></code> points to your clone</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git remote -v
+origin    git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
+origin    git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
+</pre></div>
+</div>
+<p>Next, add the upstream:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git remote add upstream git://github.com/cloudmesh/classes
+</pre></div>
+</div>
+<p>Verify that the changes are as expected</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git remote -v
+origin    git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
+origin    git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
+upstream  git://github.com/cloudmesh/classes (fetch)
+upstream  git://github.com/cloudmesh/classes (push)
+</pre></div>
+</div>
+</li>
+<li><p class="first">Install the dependencies for building the website:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ pip install -r requirements.txt
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="adding-your-technology">
+<h2>Adding your Technology<a class="headerlink" href="#adding-your-technology" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Edit the following two files from within the <code class="docutils literal"><span class="pre">classes</span></code> directory:</p>
+<ol class="arabic">
+<li><p class="first">add the paragraph about the technologies in <code class="docutils literal"><span class="pre">docs/source/i524/technologies.rst</span></code></p>
+</li>
+<li><p class="first">your references, go to  <code class="docutils literal"><span class="pre">docs/source/refs.bib</span></code></p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Make sure to find your <strong>HID</strong> in <code class="docutils literal"><span class="pre">refs.bib</span></code> and make your
+changes under that line.  This will help prevent conflicts
+when merging later.</p>
+</div>
+</li>
 </ol>
 <p>For the descriptions remove advertisement adjectives and
 sentences from your description, and spellcheck.</p>
@@ -519,9 +667,50 @@ field. For example:</p>
 <span class="n">url</span> <span class="o">=</span> <span class="p">{</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">google</span><span class="o">.</span><span class="n">com</span><span class="p">}</span>
 </pre></div>
 </div>
-</div></blockquote>
 </li>
-<li><p class="first">Do rebase or pull.</p>
+<li><p class="first">After making your changing, you should compile the webpage using
+<code class="docutils literal"><span class="pre">make</span></code>. You can then open the locally generated copy of the class
+website using <code class="docutils literal"><span class="pre">make</span> <span class="pre">view</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ make
+(ENV) $ make view
+</pre></div>
+</div>
+</li>
+<li><p class="first">Once you have verified that your changes have been integrated
+correctly, you should commit your changes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git commit \
+  -m &quot;new:usr: Added YOUR_TECHNOLOGY to techlist&quot; \
+  docs/source/i524/technologies.rst \
+  docs/source/refs.bib
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Make sure to replace <code class="docutils literal"><span class="pre">YOUR_TECHNOLOGY</span></code> with the technology you
+just provided the description for.</p>
+</div>
+</li>
+<li><p class="first">Rebase your changes on top of any changes to upstream</p>
+<p>Since you are working on your own independant copy of the
+<code class="docutils literal"><span class="pre">classes</span></code> repository, it will soon be out of date.  In order to
+stay up to date, you need to <code class="docutils literal"><span class="pre">rebase</span></code> your changes on top of the
+upstream master branch.</p>
+<ol class="arabic">
+<li><p class="first">Fetch any changes that have been commited to <code class="docutils literal"><span class="pre">upstream</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git fetch upstream master
+</pre></div>
+</div>
+</li>
+<li><p class="first">Replay your commits on top of the upstream changes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git rebase upstream/master
+</pre></div>
+</div>
+</li>
+</ol>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">You should run the <code class="docutils literal"><span class="pre">fetch</span></code> and <code class="docutils literal"><span class="pre">rebase</span></code> very frequently.</p>
+</div>
 </li>
 <li><p class="first">To get credit for the assignment write your commit summary with your:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">new</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Meaningful</span> <span class="n">summary</span> <span class="n">of</span> <span class="n">what</span> <span class="n">you</span> <span class="n">did</span>
@@ -540,8 +729,6 @@ field. For example:</p>
 </pre></div>
 </div>
 </li>
-<li><p class="first">Compile and commit if correct.</p>
-</li>
 <li><dl class="first docutils">
 <dt>Review the changed files to make sure you only change the two</dt>
 <dd><p class="first last">files. If you have other changes create separate pull requests for
@@ -550,55 +737,6 @@ them.</p>
 </dl>
 </li>
 <li><p class="first">Finally, create a pull request (check if no new content conflict with yours)</p>
-</li>
-</ol>
-<div class="section" id="tips">
-<h2>Tips<a class="headerlink" href="#tips" title="Permalink to this headline">¶</a></h2>
-<ol class="arabic">
-<li><p class="first">Why do I not see that my changes are published on the Web page?</p>
-<p>Changes will take time to be reviewed and integrated into the Web</p>
-<p>page. Changes will be done in two steps. First, they will be merged
-into the branch I524. Later, your changes will be merged into the
-master branch. You will see your changes in the master branch.</p>
-</li>
-<li><p class="first">How do I know if I did it right?</p>
-<p>Check the <a class="reference external" href="https://github.com/cloudmesh/classes/pulls">https://github.com/cloudmesh/classes/pulls</a> to see your
-pull request.
-When your changes were approved and merged with the master branch,
-your pull request will disappear.</p>
-</li>
-<li><p class="first">Create an upstrem synchronization</p>
-<p>First, make sure that git on your computer is configured properly. For example:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ git config --global user.name &quot;Albert Zweistein&quot;
-$ git config --global user.email albert.zweistein@gmail.com
-</pre></div>
-</div>
-<p>Fork this repository by clicking the &#8220;Fork&#8221; button on the top right
-of this page. You will be redirected to a new page. Verify that
-your github username is in the url. Eg:</p>
-<p><a class="reference external" href="https://github.com/YOUR_GITHUB_USERNAME/classes">https://github.com/YOUR_GITHUB_USERNAME/classes</a>
-Clone your forked repository:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
-</pre></div>
-</div>
-<p>Add the upstream repository
-<a class="reference external" href="https://help.github.com/articles/configuring-a-remote-for-a-fork/">https://help.github.com/articles/configuring-a-remote-for-a-fork/</a></p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ git remote add upstream https://github.com/cloudmesh/classes
-</pre></div>
-</div>
-<dl class="docutils">
-<dt>..note:: You should frequently keep your fork up to date</dt>
-<dd><p class="first last"><a class="reference external" href="https://help.github.com/articles/syncing-a-fork/">https://help.github.com/articles/syncing-a-fork/</a></p>
-</dd>
-</dl>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ git fetch upstream
-$ git merge upstream/master
-</pre></div>
-</div>
-<p>You should also periodically push your changes to your fork:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ git push origin master
-</pre></div>
-</div>
 </li>
 </ol>
 </div>
@@ -640,7 +778,7 @@ using academic bibliography management tools.</p>
       
     </p>
     <p>
-        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+        &copy; Copyright 2017, Gregor von Laszewski.<br/>
     </p>
   </div>
 </footer>

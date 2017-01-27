@@ -1,127 +1,335 @@
 .. _techlist-tips:
 
-Requirements for the TechList Homework
-=================================
+========================================
+Completing Techlist Assignments
+========================================
 
-1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
+Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
-1.a From the video you learn how to fork and create pull requests. We
+From the video you learn how to fork and create pull requests. We
 encourage you to watch the video. It is on purpose long. We assume
 thet you are running teh commands in virtualenv
 
 
-   
-2. Create a fork into your local repo: e.g. Go to
-   https://cloudmesh.github.io/classes/ and click on “Fork me on
-   GitHub” to create a fork into your local repo
-   
-3. Go to your GitHub account and open the forked repository. 
+Prerequisites
+=============
 
-        Click on “Clone or download” and “Open in Desktop” to download the file 
-	directory on your local machine. Alternatively, you can find the files 
-	in the browser, click on the pencil sign to “Edit this File”.
-	You will update two files:
-	
-	#. add the paragraph about the technologies, go to classes/docs/source/i524/technologies.rst 
-	#. your references, go to  /docs/source/refs.bib
+#. You have Ubuntu installed in Virtualbox. See lesson :doc:`../lesson/linux/ubuntu`.
+#. You have prepared the Ubuntu VM as in lesson :doc:`./ubuntu-setup`.
+#. You have installed and configured git and github
 
-        For the descriptions remove advertisement adjectives and 
-	sentences from your description, and spellcheck. 
+   #. see lesson :doc:`../lesson/prg/git`
+   #. see lesson :doc:`../lesson/prg/github`
 
-	For references it is important that every reference is required
-	to have owner field. For example::
+#. You have a GitHub account. See lesson :doc:`../lesson/prg/github`.
+#. You have configured git to identify as you as well as to use your
+   preferred text editor. See lesson :doc:`../lesson/prg/git`.
 
-	  owner = {TA-sp17-0001}
-
-        In case your entry is MISC the howpublished field refers to the
-        method on how it is published. A urls are posted in its own
-	field. For example::
-
-	  howpublished = {Web Page}
-	  url = {http://www.google.com}
-	  
-	
-4. Do rebase or pull. 
-
-5. To get credit for the assignment write your commit summary with your::
-
-       new:usr: Meaningful summary of what you did
-
-   For example for new contributions::
-
-          new:usr: Added entry for Nagios in the technology list
-
-   For example for changes contributions::
-
-           chg:usr: Changed the entire paraagraph for Nagios in the technology list
-
-   For example for fixed contributions::
-
-           fix:usr: Changed spelling for Nagios in the technology list
-	
-6. Compile and commit if correct.
-
-7. Review the changed files to make sure you only change the two
-    files. If you have other changes create separate pull requests for
-    them.
-  
-8. Finally, create a pull request (check if no new content conflict with yours)
-
-
-Tips
-----
-
-1. Why do I not see that my changes are published on the Web page?
-
-   Changes will take time to be reviewed and integrated into the Web
-
-   page. Changes will be done in two steps. First, they will be merged
-   into the branch I524. Later, your changes will be merged into the
-   master branch. You will see your changes in the master branch.
-
-2. How do I know if I did it right?
-
-   Check the https://github.com/cloudmesh/classes/pulls to see your 
-   pull request.
-   When your changes were approved and merged with the master branch, 
-   your pull request will disappear.
-
-3. Create an upstrem synchronization
-
-   First, make sure that git on your computer is configured properly. For example::
-
-     $ git config --global user.name "Albert Zweistein"
-     $ git config --global user.email albert.zweistein@gmail.com
-
-   Fork this repository by clicking the "Fork" button on the top right
-   of this page. You will be redirected to a new page. Verify that
-   your github username is in the url. Eg:
-
-   https://github.com/YOUR_GITHUB_USERNAME/classes
-   Clone your forked repository::
-
-     $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
-
-   Add the upstream repository
-   https://help.github.com/articles/configuring-a-remote-for-a-fork/ ::
-
-     $ git remote add upstream https://github.com/cloudmesh/classes
-
-   ..note:: You should frequently keep your fork up to date
-	    https://help.github.com/articles/syncing-a-fork/
+   Specifically, you should **adapt** the following commands:
 
    ::
 
-      $ git fetch upstream
-      $ git merge upstream/master
+      $ git config --global user.name "Albert Zweistein"
+      $ git config --global user.email "albert.zweistein@gmail.com"
+      $ git config --global core.editor emacs
 
-   You should also periodically push your changes to your fork::
+#. Ensure you have created an ssh key on ubuntu and uploaded it to
+   your profile on github. See lesson :ref:`ssh-generate`.
 
-      $ git push origin master
+   You should do something like this:
+
+   ::
+
+      $ ssh-keygen
+      Generating public/private rsa key pair.
+      Enter passphrase (empty for no passphrase): 
+      Enter same passphrase again: 
+      Your identification has been saved in test.
+      Your public key has been saved in test.pub.
+      The key fingerprint is:
+      SHA256:koA9ZYkSlBBpkR/W0bfIxLmViwQWY1qKqjTzGdK+7vQ ubuntu@ubuntu-xenial
+      The key's randomart image is:
+      +---[RSA 2048]----+
+      |o*=o.XO.. .      |
+      |.o+=B+o* +       |
+      |..++= + * o      |
+      |. .. o * o       |
+      |.= o  o S        |
+      |o * o  .         |
+      |.  =             |
+      |  . o            |
+      |  o+ E           |
+      +----[SHA256]-----+
+
+#. Ensure you have uploaded the **public** key to your github
+   profile. See lesson :doc:`../lesson/prg/github`.
+
+   Specifically, copy the contents of your ``.ssh/id_rsa.pub`` file
+   and add them to `you github keys
+   <https://github.com/settings/keys>`_.
+
+   To get the contents of the public key, use the ``cat`` command.
+   Something like the following:
+
+   ::
+
+      $ cat .ssh/id_rsa.pub
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+kwxuJ46kIq20odlqQ/sLl0YPkG3yVcXS+IwyWxDiaxOyB3ZqVJPsCF7OKqA9WpIHsdWxXNtU0hD/ulO2DsIJI73tTF+ITDfeMs7A7pzFPmHwTRKIAGzsiiZkj7W2hQK6DFUt/x4fjwJImG3YrNjcJ2//2aOW88Dsoq/+8Hxz3Wm5uDpmkcX5aFFmkFV6oyZoVznUZqpIlRQbgM9b+kXr7pvnYYDrGVVY86frLMrGNKKXE+DXUPLRqUGYmLQ+62xw4I6xXaF4+AyR4j4uTY91Fq1ybSALkxgKkqrZavZudkAzc50nSTTbmgCSwEaAWw0Bz6eX28r4IJclAI98Apcl ubuntu@ubuntu-xenial
+
+   .. warning::
+
+      Do not use the above public key. It will not work for you.
+
+#. Create a Python Virtual Environment and activate it. See lesson :doc:`../lesson/python/using_libraries`.
+
+   ::
+
+      $ virtualenv ~/ENV
+      Running virtualenv with interpreter /usr/bin/python2
+      New python executable in /home/ubuntu/ENV/bin/python2
+      Also creating executable in /home/ubuntu/ENV/bin/python
+      Installing setuptools, pkg_resources, pip, wheel...done.
+      $ source ~/ENV/bin/activate
+
+   At this point, you should see the ``(ENV)`` on your shell prompt.
+
+
+
+
+Setup Your Clone
+================
+   
+#. Create a fork into your local repo: e.g. Go to
+   https://github.com/cloudmesh/classes/ and click on the "Fork"
+   button on the top right corner.
+
+   This will redirect you to your page. Ensure that the url has is
+   something like the following::
+
+     https://github.com/YOUR_GITHUB_USERNAME/classes
+
+   .. important::
+
+      Verify that the url contains your github username in place of ``YOUR_GITHUB_USERNAME``.
+   
+#. Ensure that you are on your forked repository on GitHub.
+
+   Click on “Clone or download” (a green button on the top right) and copy the curl.
+   It should look something like::
+
+     git@github.com:YOUR_GITHUB_USERNAME/classes.git
+
+
+#. On Ubuntu, use the ``git`` command to clone the repository using the above link:
+
+   ::
+
+      (ENV) $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+      Cloning into 'classes'...
+      remote: Counting objects: 13012, done.
+      remote: Compressing objects: 100% (918/918), done.
+      remote: Total 13012 (delta 727), reused 0 (delta 0), pack-reused 12029
+      Receiving objects: 100% (13012/13012), 32.73 MiB | 13.42 MiB/s, done.
+      Resolving deltas: 100% (9109/9109), done.
+      Checking connectivity... done.
+
+#. Change directories into your clone:
+
+   ::
+
+      (ENV) $ cd classes
+
+#. Add the upstream repository as ``upstream``:
+
+   Verify that the ``origin`` points to your clone
+
+   ::
+
+      (ENV) $ git remote -v
+      origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
+      origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
+
+   Next, add the upstream:
+
+   ::
+
+      (ENV) $ git remote add upstream git://github.com/cloudmesh/classes
+
+   Verify that the changes are as expected
+
+   ::
+
+      (ENV) $ git remote -v
+      origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
+      origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
+      upstream	git://github.com/cloudmesh/classes (fetch)
+      upstream	git://github.com/cloudmesh/classes (push)
+
+
+#. Install the dependencies for building the website:
+
+   ::
+
+      (ENV) $ pip install -r requirements.txt
+
+
+Adding your Technology
+======================
+
+#. Edit the following two files from within the ``classes`` directory:
+	
+   #. add the paragraph about the technologies in ``docs/source/i524/technologies.rst``
+   #. your references, go to  ``docs/source/refs.bib``
+
+      .. warning::
+
+         Make sure to find your **HID** in ``refs.bib`` and make your
+         changes under that line.  This will help prevent conflicts
+         when merging later.
+
+   For the descriptions remove advertisement adjectives and
+   sentences from your description, and spellcheck.
+
+   For references it is important that every reference is required
+   to have owner field. For example::
+
+     owner = {TA-sp17-0001}
+
+   In case your entry is MISC the howpublished field refers to the
+   method on how it is published. A urls are posted in its own
+   field. For example::
+
+     howpublished = {Web Page}
+     url = {http://www.google.com}
+	  
+	
+#. After making your changing, you should compile the webpage using
+   ``make``. You can then open the locally generated copy of the class
+   website using ``make view``:
+
+   ::
+
+      (ENV) $ make
+      (ENV) $ make view
+   
+
+#. Once you have verified that your changes have been integrated
+   correctly, you should commit your changes:
+
+   ::
+
+      (ENV) $ git commit \
+        -m "new:usr: Added YOUR_TECHNOLOGY to techlist" \
+        docs/source/i524/technologies.rst \
+        docs/source/refs.bib
+
+   .. important::
+
+      Make sure to replace ``YOUR_TECHNOLOGY`` with the technology you
+      just provided the description for.
+
+#. Rebase your changes on top of any changes to upstream
+
+   Since you are working on your own independant copy of the
+   ``classes`` repository, it will soon be out of date.  In order to
+   stay up to date, you need to ``rebase`` your changes on top of the
+   upstream master branch.
+
+   #. Fetch any changes that have been commited to ``upstream``:
+
+      ::
+
+         (ENV) $ git fetch upstream master
+
+   #. Replay your commits on top of the upstream changes:
+
+      ::
+
+         (ENV) $ git rebase upstream/master
+
+
+   .. important::
+
+      You should run the ``fetch`` and ``rebase`` very frequently.
+
+#. To get credit for the assignment write your commit summary with your::
+
+     new:usr: Meaningful summary of what you did
+
+   For example for new contributions::
+
+     new:usr: Added entry for Nagios in the technology list
+
+   For example for changes contributions::
+
+     chg:usr: Changed the entire paraagraph for Nagios in the technology list
+
+   For example for fixed contributions::
+
+     fix:usr: Changed spelling for Nagios in the technology list
+
+#. Review the changed files to make sure you only change the two
+    files. If you have other changes create separate pull requests for
+    them.
+  
+#. Finally, create a pull request (check if no new content conflict with yours)
+
+
+..
+   Tips
+   ----
+
+   1. Why do I not see that my changes are published on the Web page?
+
+      Changes will take time to be reviewed and integrated into the Web
+
+      page. Changes will be done in two steps. First, they will be merged
+      into the branch I524. Later, your changes will be merged into the
+      master branch. You will see your changes in the master branch.
+
+   2. How do I know if I did it right?
+
+      Check the https://github.com/cloudmesh/classes/pulls to see your 
+      pull request.
+      When your changes were approved and merged with the master branch, 
+      your pull request will disappear.
+
+   3. Create an upstrem synchronization
+
+      First, make sure that git on your computer is configured properly. For example::
+
+        $ git config --global user.name "Albert Zweistein"
+        $ git config --global user.email albert.zweistein@gmail.com
+
+      Fork this repository by clicking the "Fork" button on the top right
+      of this page. You will be redirected to a new page. Verify that
+      your github username is in the url. Eg:
+
+      https://github.com/YOUR_GITHUB_USERNAME/classes
+      Clone your forked repository::
+
+        $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+
+      Add the upstream repository
+      https://help.github.com/articles/configuring-a-remote-for-a-fork/ ::
+
+        $ git remote add upstream https://github.com/cloudmesh/classes
+
+      ..note:: You should frequently keep your fork up to date
+               https://help.github.com/articles/syncing-a-fork/
+
+      ::
+
+         $ git fetch upstream
+         $ git merge upstream/master
+
+      You should also periodically push your changes to your fork::
+
+         $ git push origin master
 
    
 Learning outcomes
------------------
+=================
 
 1. CANVAS is not a tool used in open source development and
    industry. It has limitations in scalability and in structuring
