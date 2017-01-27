@@ -1,7 +1,19 @@
 .. _techlist-tips:
 
-Requirements for the TechList Homework
-======================================
+========================================
+ Steps to Complete Techlist assignments
+========================================
+
+Prerequisites
+=============
+
+#. You have Ubuntu installed in Virtualbox. See lesson :doc:`../lesson/linux/ubuntu`.
+#. You have prepared the Ubuntu VM as in lesson :doc:`./ubuntu-setup`.
+#. You have installed and configured git and github
+
+   #. see lesson :doc:`../lesson/prg/git`
+   #. see lesson :doc:`../lesson/prg/github`
+
 
 1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
