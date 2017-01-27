@@ -223,10 +223,28 @@ Adding your Technology
         docs/source/i524/technologies.rst \
         docs/source/refs.bib
 
-   .. important::
+   .. tip::
 
       Make sure to replace ``YOUR_TECHNOLOGY`` with the technology you
       just provided the description for.
+
+
+      To get credit for the assignment write your commit summary with your::
+
+        new:usr: Meaningful summary of what you did
+
+      For example for new contributions::
+
+        new:usr: Added entry for Nagios in the technology list
+
+      For example for changes contributions::
+
+        chg:usr: Changed the entire paraagraph for Nagios in the technology list
+
+      For example for fixed contributions::
+
+        fix:usr: Changed spelling for Nagios in the technology list
+
 
 #. Rebase your changes on top of any changes to upstream
 
@@ -235,38 +253,61 @@ Adding your Technology
    stay up to date, you need to ``rebase`` your changes on top of the
    upstream master branch.
 
-   #. Fetch any changes that have been commited to ``upstream``:
+   .. tip::
+
+      You should run the ``fetch`` and ``rebase`` very frequently.
+      This will help reduce the frequency of conflicts.
+
+
+   a. Fetch any changes that have been commited to ``upstream``:
 
       ::
 
          (ENV) $ git fetch upstream master
 
-   #. Replay your commits on top of the upstream changes:
+   b. Replay your commits on top of the upstream changes:
 
       ::
 
          (ENV) $ git rebase upstream/master
 
 
-   .. important::
+   c. If you should run into a merge conflict, you should abort the rebase:
 
-      You should run the ``fetch`` and ``rebase`` very frequently.
+      ::
 
-#. To get credit for the assignment write your commit summary with your::
+         (ENV) $ git rebase --abort
 
-     new:usr: Meaningful summary of what you did
+      Next, make a copy of your changes:
 
-   For example for new contributions::
+      ::
 
-     new:usr: Added entry for Nagios in the technology list
+         (ENV) $ cp docs/source/i524/technologies.rst my-technologies.rst
+         (ENV) $ cp docs/source/refs.bib my-refs.bib
 
-   For example for changes contributions::
+      You should then rerun the rebase, taking the upstream changes
 
-     chg:usr: Changed the entire paraagraph for Nagios in the technology list
+      ::
 
-   For example for fixed contributions::
+         (ENV) $ git rebase -Xours upstream/master
 
-     fix:usr: Changed spelling for Nagios in the technology list
+      .. tip::
+
+         Even though you pass the ``-Xours`` to git, it will
+         automatically resolve the conflicts by using the upstream
+         version. The ``-Xours`` is due to running the rebase from the
+         perspective of the ``upstream`` version, rather than your
+         modified version.
+
+      At this point you should incorportate your changes that you
+      saved in ``my-technologies.rst`` and ``my-refs.bib``. Go back to
+      the previous step where you commit.
+
+      .. warning::
+
+         Do not commit your backup files. Remove them after rebasing
+         successfully.
+
 
 #. Review the changed files to make sure you only change the two
     files. If you have other changes create separate pull requests for

@@ -684,35 +684,11 @@ correctly, you should commit your changes:</p>
   docs/source/refs.bib
 </pre></div>
 </div>
-<div class="admonition important">
-<p class="first admonition-title">Important</p>
-<p class="last">Make sure to replace <code class="docutils literal"><span class="pre">YOUR_TECHNOLOGY</span></code> with the technology you
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>Make sure to replace <code class="docutils literal"><span class="pre">YOUR_TECHNOLOGY</span></code> with the technology you
 just provided the description for.</p>
-</div>
-</li>
-<li><p class="first">Rebase your changes on top of any changes to upstream</p>
-<p>Since you are working on your own independant copy of the
-<code class="docutils literal"><span class="pre">classes</span></code> repository, it will soon be out of date.  In order to
-stay up to date, you need to <code class="docutils literal"><span class="pre">rebase</span></code> your changes on top of the
-upstream master branch.</p>
-<ol class="arabic">
-<li><p class="first">Fetch any changes that have been commited to <code class="docutils literal"><span class="pre">upstream</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git fetch upstream master
-</pre></div>
-</div>
-</li>
-<li><p class="first">Replay your commits on top of the upstream changes:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git rebase upstream/master
-</pre></div>
-</div>
-</li>
-</ol>
-<div class="admonition important">
-<p class="first admonition-title">Important</p>
-<p class="last">You should run the <code class="docutils literal"><span class="pre">fetch</span></code> and <code class="docutils literal"><span class="pre">rebase</span></code> very frequently.</p>
-</div>
-</li>
-<li><p class="first">To get credit for the assignment write your commit summary with your:</p>
+<p>To get credit for the assignment write your commit summary with your:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">new</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Meaningful</span> <span class="n">summary</span> <span class="n">of</span> <span class="n">what</span> <span class="n">you</span> <span class="n">did</span>
 </pre></div>
 </div>
@@ -725,9 +701,63 @@ upstream master branch.</p>
 </pre></div>
 </div>
 <p>For example for fixed contributions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">fix</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Changed</span> <span class="n">spelling</span> <span class="k">for</span> <span class="n">Nagios</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">technology</span> <span class="nb">list</span>
+<div class="last highlight-default"><div class="highlight"><pre><span></span><span class="n">fix</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Changed</span> <span class="n">spelling</span> <span class="k">for</span> <span class="n">Nagios</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">technology</span> <span class="nb">list</span>
 </pre></div>
 </div>
+</div>
+</li>
+<li><p class="first">Rebase your changes on top of any changes to upstream</p>
+<p>Since you are working on your own independant copy of the
+<code class="docutils literal"><span class="pre">classes</span></code> repository, it will soon be out of date.  In order to
+stay up to date, you need to <code class="docutils literal"><span class="pre">rebase</span></code> your changes on top of the
+upstream master branch.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">You should run the <code class="docutils literal"><span class="pre">fetch</span></code> and <code class="docutils literal"><span class="pre">rebase</span></code> very frequently.
+This will help reduce the frequency of conflicts.</p>
+</div>
+<ol class="loweralpha">
+<li><p class="first">Fetch any changes that have been commited to <code class="docutils literal"><span class="pre">upstream</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git fetch upstream master
+</pre></div>
+</div>
+</li>
+<li><p class="first">Replay your commits on top of the upstream changes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git rebase upstream/master
+</pre></div>
+</div>
+</li>
+<li><p class="first">If you should run into a merge conflict, you should abort the rebase:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git rebase --abort
+</pre></div>
+</div>
+<p>Next, make a copy of your changes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ cp docs/source/i524/technologies.rst my-technologies.rst
+(ENV) $ cp docs/source/refs.bib my-refs.bib
+</pre></div>
+</div>
+<p>You should then rerun the rebase, taking the upstream changes</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git rebase -Xours upstream/master
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Even though you pass the <code class="docutils literal"><span class="pre">-Xours</span></code> to git, it will
+automatically resolve the conflicts by using the upstream
+version. The <code class="docutils literal"><span class="pre">-Xours</span></code> is due to running the rebase from the
+perspective of the <code class="docutils literal"><span class="pre">upstream</span></code> version, rather than your
+modified version.</p>
+</div>
+<p>At this point you should incorportate your changes that you
+saved in <code class="docutils literal"><span class="pre">my-technologies.rst</span></code> and <code class="docutils literal"><span class="pre">my-refs.bib</span></code>. Go back to
+the previous step where you commit.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Do not commit your backup files. Remove them after rebasing
+successfully.</p>
+</div>
+</li>
+</ol>
 </li>
 <li><dl class="first docutils">
 <dt>Review the changed files to make sure you only change the two</dt>
