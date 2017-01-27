@@ -283,6 +283,11 @@ Adding your Technology
       saved in ``my-technologies.rst`` and ``my-refs.bib``. Go back to
       the previous step where you commit.
 
+      .. warning::
+
+         Do not commit your backup files. Remove them after rebasing
+         successfully.
+
 
 #. To get credit for the assignment write your commit summary with your::
 
