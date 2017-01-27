@@ -8,7 +8,7 @@ Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
 From the video you learn how to fork and create pull requests. We
 encourage you to watch the video. It is on purpose long. We assume
-thet you are running teh commands in virtualenv
+thet you are running the commands in virtualenv
 
 
 Prerequisites
