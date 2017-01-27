@@ -252,6 +252,40 @@ Adding your Technology
 
       You should run the ``fetch`` and ``rebase`` very frequently.
 
+   c. If you should run into a merge conflict, you should abort the rebase:
+
+      ::
+
+         (ENV) $ git rebase --abort
+
+      Next, make a copy of your changes:
+
+      ::
+
+         (ENV) $ cp docs/source/i524/technologies.rst my-technologies.rst
+         (ENV) $ cp docs/source/refs.bib my-refs.bib
+
+      You should then rerun the rebase, taking the upstream changes
+
+      ::
+
+         (ENV) $ git rebase -Xours upstream/master
+
+      .. tip::
+
+         Even though you pass the ``-Xours`` to git, it will
+         automatically resolve the conflicts by using the upstream
+         version. The ``-Xours`` is due to running the rebase from the
+         perspective of the ``upstream`` version, rather than your
+         modified version.
+
+      At this point you should incorportate your changes that you
+      saved in ``my-technologies.rst`` and ``my-refs.bib``. Go back to
+      the previous step where you commit.
+
+
+   In case you run into problems, 
+
 #. To get credit for the assignment write your commit summary with your::
 
      new:usr: Meaningful summary of what you did
