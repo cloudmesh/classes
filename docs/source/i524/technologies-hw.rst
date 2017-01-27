@@ -196,10 +196,11 @@ Setup Your Repository
       (ENV) $ pip install -r requirements.txt
 
 
-Adding your Technology
-======================
+Add Your Technology
+===================
 
-#. Edit the following two files from within the ``classes`` directory:
+#. Edit the following two files within the ``classes`` directory, see `video
+   <https://youtu.be/roi7vezNmfo?t=19m34s>`_:
 
    #. add the paragraph about the technologies in ``docs/source/i524/technologies.rst``
    #. your references, go to  ``docs/source/refs.bib``
@@ -210,13 +211,21 @@ Adding your Technology
          changes under that line.  This will help prevent conflicts
          when merging later.
 
-   For the descriptions remove advertisement adjectives and
+#. For the descriptions, remove advertisement adjectives and
    sentences from your description, and spellcheck.
+   See `Nagios example
+   <https://youtu.be/roi7vezNmfo?t=0s>`_ to see how to search references,
+   write your technology and references.
 
-   For references it is important that every reference is required
-   to have owner field. For example::
+
+#. For bibliographies references it is important that every reference is
+   required to have owner field. For example::
 
      owner = {TA-sp17-0001}
+
+   See `Video
+   <https://youtu.be/roi7vezNmfo?t=5m2s>`_ to check how to write the right
+   references.
 
    In case your entry is MISC the howpublished field refers to the
    method on how it is published. A urls are posted in its own
@@ -225,9 +234,15 @@ Adding your Technology
      howpublished = {Web Page}
      url = {http://www.google.com}
 
+   You also have multiple optional tools to manage your references.
+   See lesson :ref:`bibligraphies_`. Jabref is also introduced within
+   `video
+   <https://youtu.be/roi7vezNmfo?t=8m6s>`_.
 
-#. After making your changing, you should compile the webpage using
-   ``make``. You can then open the locally generated copy of the class
+#. After making your change, you should compile the webpage using
+   command ``make``. See `video
+   <https://youtu.be/roi7vezNmfo?t=20m14s>`_.
+   You can then open the locally generated copy of the class
    website using ``make view``:
 
    ::
@@ -237,7 +252,9 @@ Adding your Technology
 
 
 #. Once you have verified that your changes have been integrated
-   correctly, you should commit your changes:
+   correctly, you should commit your changes, see `video
+   <https://youtu.be/roi7vezNmfo?t=31m29s>`_ to check how to do it
+   properly:
 
    ::
 
@@ -246,7 +263,7 @@ Adding your Technology
         docs/source/i524/technologies.rst \
         docs/source/refs.bib
 
-   .. tip::
+   .. important::
 
       Make sure to replace ``YOUR_TECHNOLOGY`` with the technology you
       just provided the description for.
@@ -355,7 +372,10 @@ Adding your Technology
 
       (ENV) $ git push origin master
 
-#. Finally, create a pull request by going to your fork on github.
+#. Finally, create a pull request by going to your forked repository on Github.
+   See `video
+   <https://youtu.be/roi7vezNmfo?t=36m7s>`_ to check how to create a
+   pull request and how the pull request works.
    Underneath the green "Clone or download" button you should see a
    line that says ``Pull request``. Click ``Pull request`` and review
    your changes in the web browser. If you are satisfied, click the
@@ -429,17 +449,18 @@ Learning outcomes
    effective communication with large numbers of
    students/collaborators.
 
-   Instead we use industry accepted github for homework submission. To
+   Instead we use industry accepted Github for homework submission. To
    showcase one way of collaborating with more than 70 collaborators
-   we will use the class Web page to demonstrate how this can be
+   we will use the class website to demonstrate how this can be
    achieved with forks and pull requests. The TAs are responsible for
-   communication to you how to do this and are also organizing the
-   merge of your pull requests into the Master Web page.
+   communicating with you how to do this. They will also organize the
+   merge of your pull requests into the web page and give comments/feedback
+   to you if you fail to meet the requirements.
 
 2. As you look over the list you get familiar with technologies of
    interest.
 
-3. You will learn how not to plagiarize
+3. You will learn how not to plagiarize.
 
-4. You will learn how to create proper references for Web-pages while
+4. You will learn how to create proper references while
    using academic bibliography management tools.
