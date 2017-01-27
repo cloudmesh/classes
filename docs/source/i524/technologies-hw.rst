@@ -139,7 +139,11 @@ Procedure
 
       (ENV) $ cd classes
 
+#. Install the dependencies for building the website:
 
+   .. prompt:: bash
+
+      $ pip install -r requirements.txt
 
 
 #. Edit the following two files from within the ``classes`` directory:
