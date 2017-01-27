@@ -1,7 +1,7 @@
 .. _techlist-tips:
 
 ========================================
- Steps to Complete Techlist assignments
+Completing Techlist Assignments
 ========================================
 
 Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
