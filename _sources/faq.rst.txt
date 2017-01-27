@@ -377,5 +377,6 @@ I524: I do not know python. What do I do?
 
 This class requires python. Please learn it. We will be using ansible
 for the project. This you can acquire as part of the class through
-self study.
+self study. There is a section under lessosn that has some elementary
+python included.
 
