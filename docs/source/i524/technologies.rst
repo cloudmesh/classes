@@ -290,18 +290,19 @@ High level Programming
 111. MRQL
 112. SAP HANA
 
-As noted in :cite:`www-sap-hana`, SAP HANA is in-memory massively 
-distributed platform that consists of three components: analytics, 
-relational ACID compliant database and application. Predictive 
-analytics and machine learning capabilities are dynamically 
-allocated for searching and processing of spatial, graphical, and 
-text data. SAP HANA accommodates flexible development and 
-deployment of data on premises, cloud and hybrid configurations. 
-In a nutshell, SAP HANA acts as a warehouse that integrates live 
-transactional data from various data sources on a single platform 
-[:cite:` olofson_2014`]. It provides extensive administrative, 
-security features and data access that ensures high data 
-availability, data protection and data quality.
+     As noted in :cite:`www-sap-hana`, SAP HANA is in-memory massively
+     distributed platform that consists of three components:
+     analytics, relational ACID compliant database and
+     application. Predictive analytics and machine learning
+     capabilities are dynamically allocated for searching and
+     processing of spatial, graphical, and text data. SAP HANA
+     accommodates flexible development and deployment of data on
+     premises, cloud and hybrid configurations.  In a nutshell, SAP
+     HANA acts as a warehouse that integrates live transactional data
+     from various data sources on a single platform [:cite:`
+     olofson_2014`]. It provides extensive administrative, security
+     features and data access that ensures high data availability,
+     data protection and data quality.
 
 113. HadoopDB
 114. PolyBase
@@ -431,7 +432,7 @@ latency, overhead, waiting, energy and reliability”. Finally, it supports
 OpenCL to provide distributed GPU and coprocessors. HPX-5 could be 
 compiled on various OS platforms , however it was only tested on several 
 Linux and Darwin (10.11) platforms. Required configurations and 
-evnvironements could be accessed via :cite:`www-hpx-5-guide`.
+evnvironements could be accessed via :cite:`www-hpx-5-user-guide`.
 
 163. Argo BEAST HPX-5 BEAST PULSAR
 164. Harp
@@ -962,58 +963,58 @@ Interoperability
 303. TOSCA
 304. OCCI
 
-The Open Cloud Computing Interface (OCCI) is a RESTful 
-Protocol and API that provides specifications  and remote 
-management for the development of “interoperable tools” 
-[:cite:`www-occi`].  It supports IaaS, PaaS and SaaS and 
-focuses on integration, portability, interoperability, 
-innovation and extensibility. It provides a set of documents 
-that describe an OCCI Core model, contain best practices 
-of interaction with the model, combined into OCCI Protocols, 
-explain methods of communication between components via
-HTTP protocol introduced in the OCCI Renderings, and 
-define infrastructure for IaaS presented in the OCCI 
-Extensions.	
-	
- The current version 1.2 OCCI consists of seven documents that 
- identify require and optional components. Of the Core Model. 
- In particular, the following components are required to 
- implement: a)Core Model, b)HTTP protocol, c)Text rendering
- and d)JSON rendering. Meanwhile, Infrastructure, Platform 
- and SLA models are optional. 
- The OCCI Core model defines instance types and 
-provides a layer of abstraction that allows the OCCI client 
-to interact with the model without knowing of its potential 
-structural changes. The model supports extensibility via 
-inheritance and using mixin types that represent ability to 
-add new components and capabilities at run-time. 
-[:cite:` www-occi-core `].
+     The Open Cloud Computing Interface (OCCI) is a RESTful 
+     Protocol and API that provides specifications  and remote 
+     management for the development of “interoperable tools” 
+     :cite:`www-occi`.  It supports IaaS, PaaS and SaaS and 
+     focuses on integration, portability, interoperability, 
+     innovation and extensibility. It provides a set of documents 
+     that describe an OCCI Core model, contain best practices 
+     of interaction with the model, combined into OCCI Protocols, 
+     explain methods of communication between components via
+     HTTP protocol introduced in the OCCI Renderings, and 
+     define infrastructure for IaaS presented in the OCCI 
+     Extensions.	
+     	
+     The current version 1.2 OCCI consists of seven documents that
+     identify require and optional components. Of the Core Model.  In
+     particular, the following components are required to implement:
+     a)Core Model, b)HTTP protocol, c)Text rendering and d)JSON
+     rendering. Meanwhile, Infrastructure, Platform and SLA models are
+     optional.  The OCCI Core model defines instance types and
 
-The OCCI Protocol defines the common set of names provided 
-for the IaaS cloud services user that specify requested 
-system requirements. It is often denoted as “resource 
-templates” or “flavours”  [:cite:` www-occi-temp `].
-
-OCCI RESTful HTTP Protocol describes communications between 
-server and client on OCCI platform via HTTP protocol 
-[:cite:`www-occi-HTTP`]. It defines a minimum set of HTTP 
-headers and status codes to ensure compliance with the 
-OCCI Protocol. Separate requirements for Server and Client 
-for versioning need to be implemented using HTTP 'Server' 
-header and 'User-Agent' header respectively.
-
-JSON rendering [:cite:` www-occi-json`] protocol provides 
-JSON specifications to allow "render OCCI instances 
-independently of the protocol being used." In addition, it 
-provides details of the JSON object declaration, OCCI Action 
-Invocation, object members required for OCCI Link Instance 
-Rendering, "location maps to OCCI Core's source and target 
-model attributes and kind maps to OCCI Core's target" to 
-satisfy OCCI Link Instance Source/Target Rendering requirements.
-Finally, it specifies various attributes and collection 
-rendering requirements. 
-The text rendering process is depricated and will be 
-removed from the next major version.[:cite:`www-occi-text`] 
+     provides a layer of abstraction that allows the OCCI client 
+     to interact with the model without knowing of its potential 
+     structural changes. The model supports extensibility via 
+     inheritance and using mixin types that represent ability to 
+     add new components and capabilities at run-time. 
+     :cite:`www-occi-core`
+     
+     The OCCI Protocol defines the common set of names provided 
+     for the IaaS cloud services user that specify requested 
+     system requirements. It is often denoted as “resource 
+     templates” or “flavours”  :cite:`www-occi-temp`.
+     
+     OCCI RESTful HTTP Protocol describes communications between 
+     server and client on OCCI platform via HTTP protocol 
+     [:cite:`www-occi-HTTP`]. It defines a minimum set of HTTP 
+     headers and status codes to ensure compliance with the 
+     OCCI Protocol. Separate requirements for Server and Client 
+     for versioning need to be implemented using HTTP 'Server' 
+     header and 'User-Agent' header respectively.
+     
+     JSON rendering :cite:`www-occi-json` protocol provides 
+     JSON specifications to allow "render OCCI instances 
+     independently of the protocol being used." In addition, it 
+     provides details of the JSON object declaration, OCCI Action 
+     Invocation, object members required for OCCI Link Instance 
+     Rendering, "location maps to OCCI Core's source and target 
+     model attributes and kind maps to OCCI Core's target" to 
+     satisfy OCCI Link Instance Source/Target Rendering requirements.
+     Finally, it specifies various attributes and collection 
+     rendering requirements. 
+     The text rendering process is depricated and will be 
+     removed from the next major version :cite:`www-occi-text`.
 
 305. CDMI
 306. Whirr
