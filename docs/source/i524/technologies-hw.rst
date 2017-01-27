@@ -235,13 +235,13 @@ Adding your Technology
    stay up to date, you need to ``rebase`` your changes on top of the
    upstream master branch.
 
-   #. Fetch any changes that have been commited to ``upstream``:
+   a. Fetch any changes that have been commited to ``upstream``:
 
       ::
 
          (ENV) $ git fetch upstream master
 
-   #. Replay your commits on top of the upstream changes:
+   b. Replay your commits on top of the upstream changes:
 
       ::
 
