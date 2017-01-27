@@ -145,7 +145,7 @@ Setup Your Clone
 
    ::
 
-      $ git remote -v
+      (ENV) $ git remote -v
       origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
       origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
 
@@ -153,13 +153,13 @@ Setup Your Clone
 
    ::
 
-      $ git remote add upstream git://github.com/cloudmesh/classes
+      (ENV) $ git remote add upstream git://github.com/cloudmesh/classes
 
    Verify that the changes are as expected
 
    ::
 
-      $ git remote -v
+      (ENV) $ git remote -v
       origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
       origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
       upstream	git://github.com/cloudmesh/classes (fetch)
@@ -170,7 +170,7 @@ Setup Your Clone
 
    ::
 
-      $ pip install -r requirements.txt
+      (ENV) $ pip install -r requirements.txt
 
 
 Adding your Technology
@@ -218,7 +218,7 @@ Adding your Technology
 
    ::
 
-      $ git commit \
+      (ENV) $ git commit \
         -m "new:usr: Added YOUR_TECHNOLOGY to techlist" \
         docs/source/i524/technologies.rst \
         docs/source/refs.bib
@@ -239,13 +239,13 @@ Adding your Technology
 
       ::
 
-         $ git fetch upstream master
+         (ENV) $ git fetch upstream master
 
    #. Replay your commits on top of the upstream changes:
 
       ::
 
-         $ git rebase upstream/master
+         (ENV) $ git rebase upstream/master
 
 
    .. important::
