@@ -284,8 +284,6 @@ Adding your Technology
       the previous step where you commit.
 
 
-   In case you run into problems, 
-
 #. To get credit for the assignment write your commit summary with your::
 
      new:usr: Meaningful summary of what you did
