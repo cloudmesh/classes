@@ -183,6 +183,21 @@ Procedure
       (ENV) $ make view
    
 
+#. Once you have verified that your changes have been integrated
+   correctly, you should commit your changes:
+
+   .. prompt:: bash
+
+      git commit \
+        -m "new:usr: Added YOUR_TECHNOLOGY to techlist" \
+        docs/source/i524/technologies.rst \
+        docs/source/refs.bib
+
+   .. important::
+
+      Make sure to replace ``YOUR_TECHNOLOGY`` with the technology you
+      just provided the description for.
+
 #. Do rebase or pull. 
 
 #. To get credit for the assignment write your commit summary with your::
