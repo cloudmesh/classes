@@ -96,8 +96,8 @@ Prerequisites
 
 
 
-Procedure
-=========
+Setup Your Clone
+================
    
 #. Create a fork into your local repo: e.g. Go to
    https://github.com/cloudmesh/classes/ and click on the "Fork"
@@ -139,12 +139,30 @@ Procedure
 
       (ENV) $ cd classes
 
+#. Add the upstream repository as ``upstream``:
+
+   .. prompt:: bash $
+
+      $ git remote -v
+      origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
+      origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
+      $ git remote add upstream git://github.com/cloudmesh/classes
+      $ git remote -v
+      origin	git@github.com:cloudmesh/classes.git (fetch)
+      origin	git@github.com:cloudmesh/classes.git (push)
+      upstream	git://github.com/cloudmesh/classes (fetch)
+      upstream	git://github.com/cloudmesh/classes (push)
+
+
 #. Install the dependencies for building the website:
 
    .. prompt:: bash
 
       $ pip install -r requirements.txt
 
+
+Procedure
+=========
 
 #. Edit the following two files from within the ``classes`` directory:
 	
