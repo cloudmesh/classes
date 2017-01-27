@@ -759,14 +759,36 @@ successfully.</p>
 </li>
 </ol>
 </li>
-<li><dl class="first docutils">
-<dt>Review the changed files to make sure you only change the two</dt>
-<dd><p class="first last">files. If you have other changes create separate pull requests for
+<li><p class="first">Review the changed files to make sure you only change the two
+files. If you have other changes create separate pull requests for
 them.</p>
-</dd>
-</dl>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>You can verify that your commits only include changes to the two
+files using the <cite>diff</cite> subcommand. You&#8217;ll get something like the
+following:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git diff --stat origin/master
+docs/source/i524/technologies.rst | 10 ++++++++++
+docs/source/refs.bib              |  3 +++
+</pre></div>
+</div>
+</div>
 </li>
-<li><p class="first">Finally, create a pull request (check if no new content conflict with yours)</p>
+<li><p class="first">You should now push your changes to your fork:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git push origin master
+</pre></div>
+</div>
+</li>
+<li><p class="first">Finally, create a pull request by going to your fork on github.
+Underneath the green &#8220;Clone or download&#8221; button you should see a
+line that says <code class="docutils literal"><span class="pre">Pull</span> <span class="pre">request</span></code>. Click <code class="docutils literal"><span class="pre">Pull</span> <span class="pre">request</span></code> and review
+your changes in the web browser. If you are satisfied, click the
+green &#8220;Create Pull Request&#8221;.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Fill out the subject line in the same format you make your
+commits, e.g:  <code class="docutils literal"><span class="pre">new:usr:</span> <span class="pre">Added</span> <span class="pre">technology</span> <span class="pre">YOUR_TECHNOLOGY</span> <span class="pre">to</span> <span class="pre">techlist</span></code>.</p>
+</div>
 </li>
 </ol>
 </div>

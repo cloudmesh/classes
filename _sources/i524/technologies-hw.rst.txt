@@ -310,10 +310,37 @@ Adding your Technology
 
 
 #. Review the changed files to make sure you only change the two
-    files. If you have other changes create separate pull requests for
-    them.
+   files. If you have other changes create separate pull requests for
+   them.
+
+   .. tip::
+
+      You can verify that your commits only include changes to the two
+      files using the `diff` subcommand. You'll get something like the
+      following:
+
+      ::
+
+         (ENV) $ git diff --stat origin/master
+         docs/source/i524/technologies.rst | 10 ++++++++++
+         docs/source/refs.bib              |  3 +++
+
+#. You should now push your changes to your fork:
+
+   ::
+
+      (ENV) $ git push origin master
   
-#. Finally, create a pull request (check if no new content conflict with yours)
+#. Finally, create a pull request by going to your fork on github.
+   Underneath the green "Clone or download" button you should see a
+   line that says ``Pull request``. Click ``Pull request`` and review
+   your changes in the web browser. If you are satisfied, click the
+   green "Create Pull Request".
+
+   .. tip::
+
+      Fill out the subject line in the same format you make your
+      commits, e.g:  ``new:usr: Added technology YOUR_TECHNOLOGY to techlist``.
 
 
 ..
