@@ -95,40 +95,78 @@ Prerequisites
    At this point, you should see the ``(ENV)`` on your shell prompt.
 
 
-   
-2. Create a fork into your local repo: e.g. Go to
-   https://cloudmesh.github.io/classes/ and click on “Fork me on
-   GitHub” to create a fork into your local repo
-   
-3. Go to your GitHub account and open the forked repository. 
 
-        Click on “Clone or download” and “Open in Desktop” to download the file 
-	directory on your local machine. Alternatively, you can find the files 
-	in the browser, click on the pencil sign to “Edit this File”.
-	You will update two files:
+
+Procedure
+=========
+   
+#. Create a fork into your local repo: e.g. Go to
+   https://github.com/cloudmesh/classes/ and click on the "Fork"
+   button on the top right corner.
+
+   This will redirect you to your page. Ensure that the url has is
+   something like the following::
+
+     https://github.com/YOUR_GITHUB_USERNAME/classes
+
+   .. important::
+
+      Verify that the url contains your github username in place of ``YOUR_GITHUB_USERNAME``.
+   
+#. Ensure that you are on your forked repository on GitHub.
+
+   Click on “Clone or download” (a green button on the top right) and copy the curl.
+   It should look something like::
+
+     git@github.com:YOUR_GITHUB_USERNAME/classes.git
+
+
+#. On Ubuntu, use the ``git`` command to clone the repository using the above link:
+
+   .. prompt:: bash $ auto
+
+      $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+      Cloning into 'classes'...
+      remote: Counting objects: 13012, done.
+      remote: Compressing objects: 100% (918/918), done.
+      remote: Total 13012 (delta 727), reused 0 (delta 0), pack-reused 12029
+      Receiving objects: 100% (13012/13012), 32.73 MiB | 13.42 MiB/s, done.
+      Resolving deltas: 100% (9109/9109), done.
+      Checking connectivity... done.
+
+#. Change directories into your clone:
+
+   .. prompt:: bash $
+
+      $ cd classes
+
+
+
+
+#. Edit the following two files:
 	
-	#. add the paragraph about the technologies, go to classes/docs/source/i524/technologies.rst 
-	#. your references, go to  /docs/source/refs.bib
+   #. add the paragraph about the technologies in ``/docs/source/i524/technologies.rst 
+   #. your references, go to  /docs/source/refs.bib
 
-        For the descriptions remove advertisement adjectives and 
-	sentences from your description, and spellcheck. 
+   For the descriptions remove advertisement adjectives and
+   sentences from your description, and spellcheck.
 
-	For references it is important that every reference is required
-	to have owner field. For example::
+   For references it is important that every reference is required
+   to have owner field. For example::
 
-	  owner = {TA-sp17-0001}
+     owner = {TA-sp17-0001}
 
-        In case your entry is MISC the howpublished field refers to the
-        method on how it is published. A urls are posted in its own
-	field. For example::
+   In case your entry is MISC the howpublished field refers to the
+   method on how it is published. A urls are posted in its own
+   field. For example::
 
-	  howpublished = {Web Page}
-	  url = {http://www.google.com}
+     howpublished = {Web Page}
+     url = {http://www.google.com}
 	  
 	
-4. Do rebase or pull. 
+#. Do rebase or pull. 
 
-5. To get credit for the assignment write your commit summary with your::
+#. To get credit for the assignment write your commit summary with your::
 
        new:usr: Meaningful summary of what you did
 
