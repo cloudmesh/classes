@@ -12,7 +12,8 @@ I524 - Notes
    i524/technologies
    faq
    references
-   lesson/doc/index  
+   lesson/doc/index
+   lesson/linux/index
   
 Index
 -----
