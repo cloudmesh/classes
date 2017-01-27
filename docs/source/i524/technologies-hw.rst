@@ -97,6 +97,7 @@ Prerequisites
    ::
 
       $ source ~/ENV/bin/activate
+      (ENV) $
 
    .. tip::
 
@@ -107,45 +108,19 @@ Prerequisites
       As virtualenv stated, you **must** activate the virtual environment
       before it can be used.
 
-   It's troublesome and forgettable to activate the virtual environment every time
-   before it can be used. `Autoenv
-   <https://github.com/kennethreitz/autoenv>`_ is the tool that can help
-   you. See lesson :ref:`AutoENV_` to learn how to install and use Autoenv.
 
-   To install Autoenv,
+Setup Your Repository
+=====================
 
-   ::
+#. Fork the class repository to your local. See lesson :ref:`fork_repo_` or `video
+   <https://youtu.be/roi7vezNmfo?t=22m2s>`_.
+   Go to class repository https://github.com/cloudmesh/classes/ and click on the "Fork"
+   button on the top right corner. This will redirect you to your Github page.
+   Notice that the url has changed from::
 
-      $ pip install autoenv
-      $ echo "source `which activate.sh`" >> ~/.bashrc
+     https://github.com/cloudmesh/classes/
 
-   To use Autoenv, add the virtual environment ``ENV`` you created with virtualenv
-   into ``.env`` file within your project directory:
-
-   ::
-
-      $ echo "source ~/ENV/bin/activate" > yourproject/.env
-      $ echo "echo 'whoa'" > yourproject/.env
-      $ cd project
-      whoa
-      (ENV) $
-
-   Your virtual environment should be automatically activated.
-
-   .. tip::
-
-      Notice how the shell prompt ``(ENV)`` changed upon activation.
-
-
-Setup Your Clone
-================
-
-#. Create a fork into your local repo: e.g. Go to
-   https://github.com/cloudmesh/classes/ and click on the "Fork"
-   button on the top right corner.
-
-   This will redirect you to your page. Ensure that the url has is
-   something like the following::
+   to::
 
      https://github.com/YOUR_GITHUB_USERNAME/classes
 
@@ -155,13 +130,15 @@ Setup Your Clone
 
 #. Ensure that you are on your forked repository on GitHub.
 
-   Click on “Clone or download” (a green button on the top right) and copy the curl.
+   Click on “Clone or download” (a green button on the top right) and copy the url.
    It should look something like::
 
      git@github.com:YOUR_GITHUB_USERNAME/classes.git
 
 
-#. On Ubuntu, use the ``git`` command to clone the repository using the above link:
+#. On Ubuntu, use the ``git clone`` command to clone the repository
+   with the above link. See `video
+   <https://youtu.be/roi7vezNmfo?t=25m34s>`_.
 
    ::
 
@@ -174,13 +151,18 @@ Setup Your Clone
       Resolving deltas: 100% (9109/9109), done.
       Checking connectivity... done.
 
-#. Change directories into your clone:
+   .. important::
+
+      This will fail if you haven't upload your public key as in the `video
+      <https://youtu.be/roi7vezNmfo?t=22m42s>`_.
+
+#. Enter the ``classes`` directories:
 
    ::
 
       (ENV) $ cd classes
 
-#. Add the upstream repository as ``upstream``:
+#. Add the upstream repository as ``upstream``, see lesson :ref:`remote_`.
 
    Verify that the ``origin`` points to your clone
 

@@ -98,6 +98,7 @@ and add them to `you github keys
 
 *    https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
+.. _fork_repo_:
 
 Fork
 ~~~~
@@ -108,7 +109,19 @@ your own account. Next, creating a branch, making some changes, and
 offering a pull request to the original repository, rounds out your
 contribution to the open source project.
 
-* https://www.youtube.com/watch?v=5oJHRbqEofs
+*    https://www.youtube.com/watch?v=5oJHRbqEofs
+
+.. _remote_:
+
+Remote
+~~~~~~
+Collaborating with others involves managing these remote repositories
+and pushing and pulling data to and from them when you need to share
+work. Managing remote repositories includes knowing how to add remote
+repositories, remove remotes that are no longer valid, manage various
+remote branches and define them as being tracked or not, and more.
+
+*    https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 
 Pull Request
 ~~~~~~~~~~
