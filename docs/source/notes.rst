@@ -14,7 +14,13 @@ I524 - Notes
    references
    lesson/doc/index
    lesson/linux/index
-  
+   lesson/prg/rest
+   lesson/prg/python_intro
+   lesson/prg/python_big_data
+   lesson/prg/python_lesson1
+   lesson/prg/pyenv   
+
+   
 Index
 -----
 
