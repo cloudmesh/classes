@@ -228,7 +228,29 @@ Procedure
       Make sure to replace ``YOUR_TECHNOLOGY`` with the technology you
       just provided the description for.
 
-#. Do rebase or pull. 
+#. Rebase your changes on top of any changes to upstream
+
+   Since you are working on your own independant copy of the
+   ``classes`` repository, it will soon be out of date.  In order to
+   stay up to date, you need to ``rebase`` your changes on top of the
+   upstream master branch.
+
+   #. Fetch any changes that have been commited to ``upstream``:
+
+      ::
+
+         $ git fetch upstream master
+
+   #. Replay your commits on top of the upstream changes:
+
+      ::
+
+         $ git rebase upstream/master
+
+
+   .. important::
+
+      You should run the ``fetch`` and ``rebase`` very frequently.
 
 #. To get credit for the assignment write your commit summary with your::
 
