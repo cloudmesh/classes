@@ -253,6 +253,12 @@ Adding your Technology
    stay up to date, you need to ``rebase`` your changes on top of the
    upstream master branch.
 
+   .. tip::
+
+      You should run the ``fetch`` and ``rebase`` very frequently.
+      This will help reduce the frequency of conflicts.
+
+
    a. Fetch any changes that have been commited to ``upstream``:
 
       ::
@@ -265,10 +271,6 @@ Adding your Technology
 
          (ENV) $ git rebase upstream/master
 
-
-   .. important::
-
-      You should run the ``fetch`` and ``rebase`` very frequently.
 
    c. If you should run into a merge conflict, you should abort the rebase:
 
