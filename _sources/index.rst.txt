@@ -11,8 +11,8 @@ I524
    i524/calendar
    i524/lectures
 
-Technologies
-------------
+i524 Technologies
+-----------------
 
 .. toctree::
    :maxdepth: 1
@@ -20,8 +20,8 @@ Technologies
    i524/hids-techs	   
    i524/technologies
 
-Lessons
--------
+Topic Lessons
+-------------
 
 .. toctree::
    :maxdepth: 1

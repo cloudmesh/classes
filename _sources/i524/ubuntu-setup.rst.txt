@@ -55,6 +55,8 @@ Do so by running the ``apt-get`` command:
      Reading package lists... Done
 
 
+.. _r-i524-ubuntu-setup-devtools:
+
 Installing Development Tools
 ----------------------------
 
