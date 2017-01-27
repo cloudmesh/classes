@@ -329,7 +329,7 @@ Adding your Technology
 
    
 Learning outcomes
------------------
+=================
 
 1. CANVAS is not a tool used in open source development and
    industry. It has limitations in scalability and in structuring
