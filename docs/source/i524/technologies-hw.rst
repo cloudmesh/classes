@@ -310,8 +310,20 @@ Adding your Technology
 
 
 #. Review the changed files to make sure you only change the two
-    files. If you have other changes create separate pull requests for
-    them.
+   files. If you have other changes create separate pull requests for
+   them.
+
+   .. tip::
+
+      You can verify that your commits only include changes to the two
+      files using the `diff` subcommand. You'll get something like the
+      following:
+
+      ::
+
+         (ENV) $ git diff --stat origin/master
+         docs/source/i524/technologies.rst | 10 ++++++++++
+         docs/source/refs.bib              |  3 +++
   
 #. Finally, create a pull request (check if no new content conflict with yours)
 
