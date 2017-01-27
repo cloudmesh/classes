@@ -1,13 +1,13 @@
 .. _techlist-tips:
 
 Requirements for the TechList Homework
-=================================
+======================================
 
 1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
-1.a From the video you learn how to fork and create pull requests. We
-encourage you to watch the video. It is on purpose long. We assume
-thet you are running teh commands in virtualenv
+   a. From the video you learn how to fork and create pull
+      requests. We encourage you to watch the video. It is on purpose
+      long. We assume thet you are running teh commands in virtualenv
 
 
    
