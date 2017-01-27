@@ -223,10 +223,28 @@ Adding your Technology
         docs/source/i524/technologies.rst \
         docs/source/refs.bib
 
-   .. important::
+   .. tip::
 
       Make sure to replace ``YOUR_TECHNOLOGY`` with the technology you
       just provided the description for.
+
+
+      To get credit for the assignment write your commit summary with your::
+
+        new:usr: Meaningful summary of what you did
+
+      For example for new contributions::
+
+        new:usr: Added entry for Nagios in the technology list
+
+      For example for changes contributions::
+
+        chg:usr: Changed the entire paraagraph for Nagios in the technology list
+
+      For example for fixed contributions::
+
+        fix:usr: Changed spelling for Nagios in the technology list
+
 
 #. Rebase your changes on top of any changes to upstream
 
@@ -288,22 +306,6 @@ Adding your Technology
          Do not commit your backup files. Remove them after rebasing
          successfully.
 
-
-#. To get credit for the assignment write your commit summary with your::
-
-     new:usr: Meaningful summary of what you did
-
-   For example for new contributions::
-
-     new:usr: Added entry for Nagios in the technology list
-
-   For example for changes contributions::
-
-     chg:usr: Changed the entire paraagraph for Nagios in the technology list
-
-   For example for fixed contributions::
-
-     fix:usr: Changed spelling for Nagios in the technology list
 
 #. Review the changed files to make sure you only change the two
     files. If you have other changes create separate pull requests for
