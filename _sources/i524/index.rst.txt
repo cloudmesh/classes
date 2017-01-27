@@ -1,10 +1,8 @@
 .. index:: i524
 	   
-I524 Big Data and Open Source Software Projects
-===============================================
 
-Overview
---------
+i524 Overview
+==============
 
 This course studies software used in many commercial activities
 related to Big Data. The backdrop for course contains more than 370
