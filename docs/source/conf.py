@@ -40,8 +40,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.graphviz',
-    'sphinxcontrib.bibtex',
-    'sphinx-prompt'
+    'sphinxcontrib.bibtex'
 ]
 
 if theme_foundation:    
