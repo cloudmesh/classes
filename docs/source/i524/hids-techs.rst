@@ -1,5 +1,5 @@
-Assignments of HIDs to Technologies
-===================================
+HID Assignment
+==============
 
 As part of the class you will be assigne a Homework ID (HID). Some
 assignments in the class will use this HID to identify which homework
@@ -12,4 +12,4 @@ https://piazza.com/class/ix39m27czn5uw?cid=33
 .. csv-table:: Mappings of HIDs to Techs
    :header: "Name", "HID", "Technologies"
    :widths: 30, 20, 50
-   :file: hids-techs2.csv
+   :file: hids-techs.csv
