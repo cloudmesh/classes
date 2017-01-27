@@ -849,6 +849,7 @@ This will allow us to illustrate the use if virtual environments using
 the ``virtualenv`` command, and installing and uninstalling PyPi
 packages using ``pip``.
 
+.. _Virtual_Environments:
 
 Virtual Environments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -947,56 +948,7 @@ environment::
 
    Notice how the shell prompt changed upon activation.
 
-Autoenv: Directory-based Environments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a directory contains a ``.env`` file, it will automatically be executed
-when you ``cd`` into it. It's easy to use and install.
-
-This is great for...
-
-   - auto-activating virtualenvs
-   - project-specific environment variables
-
-
-Here is how to use it. Add the ENV you created with virtualenv into ``.env`` file within your project directory::
-
-   $ echo "source ~/ENV/bin/activate" > project.env
-   $ echo "echo 'whoa'" > project/.env
-   $ cd project
-   whoa
-
-Here is how to install.
-Mac OS X Using Homebrew::
-
-   $ brew install autoenv
-   $ echo "source $(brew --prefix autoenv)/activate.sh" >> ~/.bash_profile
-
-
-Using pip::
-
-   $ pip install autoenv
-   $ echo "source `which activate.sh`" >> ~/.bashrc
-
-
-Using git::
-
-   $ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
-   $ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
-
-
-Before sourcing activate.sh, you can set the following variables:
-
-   - ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
-   - ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
-   - ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
-
-
-Autoenv overrides ``cd``. If you already do this, invoke ``autoenv_init`` within your custom ``cd`` after sourcing ``activate.sh``.
-
-Autoenv can be disabled via ``unset cd`` if you experience I/O issues with
-   certain file systems, particularly those that are FUSE-based (such as
-   ``smbnetfs``).
 
 Fixing Bad Code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1125,6 +1077,8 @@ Lab - Python - Setup for FutureSystems
 Ecosystem
 ----------------------------------------------------------------------
 
+.. _virtualenv_:
+
 virtualenv
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1158,7 +1112,58 @@ To activate it you can use the command::
 you can put this command n your bashrc or bash_profile command so you
 do not forget to activate it.
 
+.. _autoenv_:
 
+Autoenv: Directory-based Environments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If a directory contains a ``.env`` file, it will automatically be executed
+when you ``cd`` into it. It's easy to use and install.
+
+This is great for...
+
+   - auto-activating virtualenvs
+   - project-specific environment variables
+
+
+Here is how to use it. Add the ENV you created with virtualenv into ``.env`` file within your project directory::
+
+   $ echo "source ~/ENV/bin/activate" > yourproject/.env
+   $ echo "echo 'whoa'" > yourproject/.env
+   $ cd project
+   whoa
+
+Here is how to install.
+Mac OS X Using Homebrew::
+
+   $ brew install autoenv
+   $ echo "source $(brew --prefix autoenv)/activate.sh" >> ~/.bash_profile
+
+
+Using pip::
+
+   $ pip install autoenv
+   $ echo "source `which activate.sh`" >> ~/.bashrc
+
+
+Using git::
+
+   $ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
+   $ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
+
+
+Before sourcing activate.sh, you can set the following variables:
+
+   - ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
+   - ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
+   - ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
+
+
+Autoenv overrides ``cd``. If you already do this, invoke ``autoenv_init`` within your custom ``cd`` after sourcing ``activate.sh``.
+
+Autoenv can be disabled via ``unset cd`` if you experience I/O issues with
+   certain file systems, particularly those that are FUSE-based (such as
+   ``smbnetfs``).
 
 pypi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

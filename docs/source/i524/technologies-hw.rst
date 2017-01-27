@@ -15,15 +15,11 @@ Prerequisites
 =============
 
 #. You have Ubuntu installed in Virtualbox. See lesson :doc:`../lesson/linux/ubuntu`.
-#. You have prepared the Ubuntu VM as in lesson :doc:`./ubuntu-setup`.
-#. You have installed and configured git and github
-
-   #. see lesson :doc:`../lesson/prg/git`
-   #. see lesson :doc:`../lesson/prg/github`
-
-#. You have a GitHub account. See lesson :doc:`../lesson/prg/github`.
+#. You have prepared the Ubuntu VM as in lesson :doc:`./ubuntu-setup`
+   and :ref:`r-i524-ubuntu-setup-devtools`.
+#. You have a GitHub account.
 #. You have configured git to identify as you as well as to use your
-   preferred text editor. See lesson :doc:`../lesson/prg/git`.
+   preferred text editor. See lesson :doc:`../lesson/prg/github`.
 
    Specifically, you should **adapt** the following commands:
 
@@ -33,17 +29,18 @@ Prerequisites
       $ git config --global user.email "albert.zweistein@gmail.com"
       $ git config --global core.editor emacs
 
-#. Ensure you have created an ssh key on ubuntu and uploaded it to
-   your profile on github. See lesson :ref:`ssh-generate`.
+#. You have created an ssh key on Ubuntu. See lesson :ref:`s-ssh-generate`
+   or `video
+   <https://youtu.be/roi7vezNmfo?t=23m37s>`_.
 
-   You should do something like this:
+   You should do something like this to generate an ssh key:
 
    ::
 
       $ ssh-keygen
       Generating public/private rsa key pair.
-      Enter passphrase (empty for no passphrase): 
-      Enter same passphrase again: 
+      Enter passphrase (empty for no passphrase):
+      Enter same passphrase again:
       Your identification has been saved in test.
       Your public key has been saved in test.pub.
       The key fingerprint is:
@@ -61,8 +58,9 @@ Prerequisites
       |  o+ E           |
       +----[SHA256]-----+
 
-#. Ensure you have uploaded the **public** key to your github
-   profile. See lesson :doc:`../lesson/prg/github`.
+#. You have uploaded the **public** key to your github
+   profile. See lesson :ref:`upload_key_` or `video
+   <https://youtu.be/roi7vezNmfo?t=24m26s>`_.
 
    Specifically, copy the contents of your ``.ssh/id_rsa.pub`` file
    and add them to `you github keys
@@ -80,7 +78,11 @@ Prerequisites
 
       Do not use the above public key. It will not work for you.
 
-#. Create a Python Virtual Environment and activate it. See lesson :doc:`../lesson/python/using_libraries`.
+#. You have created a Python Virtual Environment and activated it. See lesson :ref:`Virtual_Environments`
+   to learn what is Virtual Environment. And lesson :ref:`virtualenv_`
+   to learn how to properly install and activate Virtualenv.
+
+   To create a virtual env, use the ``virtualenv`` command.
 
    ::
 
@@ -89,38 +91,54 @@ Prerequisites
       New python executable in /home/ubuntu/ENV/bin/python2
       Also creating executable in /home/ubuntu/ENV/bin/python
       Installing setuptools, pkg_resources, pip, wheel...done.
+
+   To activate the virtual environment you created, use the the following command.
+
+   ::
+
       $ source ~/ENV/bin/activate
+      (ENV) $
 
-   At this point, you should see the ``(ENV)`` on your shell prompt.
+   .. tip::
+
+      Notice how the shell prompt ``(ENV)`` changed upon activation.
+
+   .. important::
+
+      As virtualenv stated, you **must** activate the virtual environment
+      before it can be used.
 
 
+Setup Your Repository
+=====================
 
+#. Fork the class repository to your local. See lesson :ref:`fork_repo_` or `video
+   <https://youtu.be/roi7vezNmfo?t=22m2s>`_.
+   Go to class repository https://github.com/cloudmesh/classes/ and click on the "Fork"
+   button on the top right corner. This will redirect you to your Github page.
+   Notice that the url has changed from::
 
-Setup Your Clone
-================
-   
-#. Create a fork into your local repo: e.g. Go to
-   https://github.com/cloudmesh/classes/ and click on the "Fork"
-   button on the top right corner.
+     https://github.com/cloudmesh/classes/
 
-   This will redirect you to your page. Ensure that the url has is
-   something like the following::
+   to::
 
      https://github.com/YOUR_GITHUB_USERNAME/classes
 
    .. important::
 
       Verify that the url contains your github username in place of ``YOUR_GITHUB_USERNAME``.
-   
+
 #. Ensure that you are on your forked repository on GitHub.
 
-   Click on “Clone or download” (a green button on the top right) and copy the curl.
+   Click on “Clone or download” (a green button on the top right) and copy the url.
    It should look something like::
 
      git@github.com:YOUR_GITHUB_USERNAME/classes.git
 
 
-#. On Ubuntu, use the ``git`` command to clone the repository using the above link:
+#. On Ubuntu, use the ``git clone`` command to clone the repository
+   with the above link. See `video
+   <https://youtu.be/roi7vezNmfo?t=25m34s>`_.
 
    ::
 
@@ -133,13 +151,18 @@ Setup Your Clone
       Resolving deltas: 100% (9109/9109), done.
       Checking connectivity... done.
 
-#. Change directories into your clone:
+   .. important::
+
+      This will fail if you haven't upload your public key as in the `video
+      <https://youtu.be/roi7vezNmfo?t=22m42s>`_.
+
+#. Enter the ``classes`` directories:
 
    ::
 
       (ENV) $ cd classes
 
-#. Add the upstream repository as ``upstream``:
+#. Add the upstream repository as ``upstream``, see lesson :ref:`remote_`.
 
    Verify that the ``origin`` points to your clone
 
@@ -177,7 +200,7 @@ Adding your Technology
 ======================
 
 #. Edit the following two files from within the ``classes`` directory:
-	
+
    #. add the paragraph about the technologies in ``docs/source/i524/technologies.rst``
    #. your references, go to  ``docs/source/refs.bib``
 
@@ -201,8 +224,8 @@ Adding your Technology
 
      howpublished = {Web Page}
      url = {http://www.google.com}
-	  
-	
+
+
 #. After making your changing, you should compile the webpage using
    ``make``. You can then open the locally generated copy of the class
    website using ``make view``:
@@ -211,7 +234,7 @@ Adding your Technology
 
       (ENV) $ make
       (ENV) $ make view
-   
+
 
 #. Once you have verified that your changes have been integrated
    correctly, you should commit your changes:
@@ -260,6 +283,7 @@ Adding your Technology
 
 
    a. Fetch any changes that have been commited to ``upstream``:
+
 
       ::
 
@@ -330,7 +354,7 @@ Adding your Technology
    ::
 
       (ENV) $ git push origin master
-  
+
 #. Finally, create a pull request by going to your fork on github.
    Underneath the green "Clone or download" button you should see a
    line that says ``Pull request``. Click ``Pull request`` and review
@@ -358,9 +382,9 @@ Adding your Technology
 
    2. How do I know if I did it right?
 
-      Check the https://github.com/cloudmesh/classes/pulls to see your 
+      Check the https://github.com/cloudmesh/classes/pulls to see your
       pull request.
-      When your changes were approved and merged with the master branch, 
+      When your changes were approved and merged with the master branch,
       your pull request will disappear.
 
    3. Create an upstrem synchronization
@@ -396,7 +420,7 @@ Adding your Technology
 
          $ git push origin master
 
-   
+
 Learning outcomes
 =================
 
@@ -419,5 +443,3 @@ Learning outcomes
 
 4. You will learn how to create proper references for Web-pages while
    using academic bibliography management tools.
-
-
