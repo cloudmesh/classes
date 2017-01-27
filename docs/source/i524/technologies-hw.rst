@@ -27,18 +27,18 @@ Prerequisites
 
    Specifically, you should **adapt** the following commands:
 
-   .. prompt:: bash $
+   ::
 
-      git config --global user.name "Albert Zweistein"
-      git config --global user.email "albert.zweistein@gmail.com"
-      git config --global core.editor emacs
+      $ git config --global user.name "Albert Zweistein"
+      $ git config --global user.email "albert.zweistein@gmail.com"
+      $ git config --global core.editor emacs
 
 #. Ensure you have created an ssh key on ubuntu and uploaded it to
    your profile on github. See lesson :ref:`ssh-generate`.
 
    You should do something like this:
 
-   .. prompt:: bash $ auto
+   ::
 
       $ ssh-keygen
       Generating public/private rsa key pair.
@@ -71,7 +71,7 @@ Prerequisites
    To get the contents of the public key, use the ``cat`` command.
    Something like the following:
 
-   .. prompt:: bash $ auto
+   ::
 
       $ cat .ssh/id_rsa.pub
       ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+kwxuJ46kIq20odlqQ/sLl0YPkG3yVcXS+IwyWxDiaxOyB3ZqVJPsCF7OKqA9WpIHsdWxXNtU0hD/ulO2DsIJI73tTF+ITDfeMs7A7pzFPmHwTRKIAGzsiiZkj7W2hQK6DFUt/x4fjwJImG3YrNjcJ2//2aOW88Dsoq/+8Hxz3Wm5uDpmkcX5aFFmkFV6oyZoVznUZqpIlRQbgM9b+kXr7pvnYYDrGVVY86frLMrGNKKXE+DXUPLRqUGYmLQ+62xw4I6xXaF4+AyR4j4uTY91Fq1ybSALkxgKkqrZavZudkAzc50nSTTbmgCSwEaAWw0Bz6eX28r4IJclAI98Apcl ubuntu@ubuntu-xenial
@@ -82,7 +82,7 @@ Prerequisites
 
 #. Create a Python Virtual Environment and activate it. See lesson :doc:`../lesson/python/using_libraries`.
 
-   .. prompt:: bash $ auto
+   ::
 
       $ virtualenv ~/ENV
       Running virtualenv with interpreter /usr/bin/python2
@@ -122,7 +122,7 @@ Setup Your Clone
 
 #. On Ubuntu, use the ``git`` command to clone the repository using the above link:
 
-   .. prompt:: bash "(ENV) $"
+   ::
 
       (ENV) $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
       Cloning into 'classes'...
@@ -135,28 +135,40 @@ Setup Your Clone
 
 #. Change directories into your clone:
 
-   .. prompt:: bash "(ENV) $"
+   ::
 
       (ENV) $ cd classes
 
 #. Add the upstream repository as ``upstream``:
 
-   .. prompt:: bash $
+   Verify that the ``origin`` points to your clone
+
+   ::
 
       $ git remote -v
       origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
       origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
+
+   Next, add the upstream:
+
+   ::
+
       $ git remote add upstream git://github.com/cloudmesh/classes
+
+   Verify that the changes are as expected
+
+   ::
+
       $ git remote -v
-      origin	git@github.com:cloudmesh/classes.git (fetch)
-      origin	git@github.com:cloudmesh/classes.git (push)
+      origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
+      origin	git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
       upstream	git://github.com/cloudmesh/classes (fetch)
       upstream	git://github.com/cloudmesh/classes (push)
 
 
 #. Install the dependencies for building the website:
 
-   .. prompt:: bash
+   ::
 
       $ pip install -r requirements.txt
 
@@ -195,7 +207,7 @@ Procedure
    ``make``. You can then open the locally generated copy of the class
    website using ``make view``:
 
-   .. prompt:: bash "(ENV) $"
+   ::
 
       (ENV) $ make
       (ENV) $ make view
@@ -204,9 +216,9 @@ Procedure
 #. Once you have verified that your changes have been integrated
    correctly, you should commit your changes:
 
-   .. prompt:: bash
+   ::
 
-      git commit \
+      $ git commit \
         -m "new:usr: Added YOUR_TECHNOLOGY to techlist" \
         docs/source/i524/technologies.rst \
         docs/source/refs.bib
