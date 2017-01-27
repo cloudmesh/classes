@@ -340,7 +340,8 @@ Adding your Technology
    .. tip::
 
       Fill out the subject line in the same format you make your
-      commits, e.g:  ``new:usr: Added technology YOUR_TECHNOLOGY to techlist``.
+      commits, e.g: ``new:usr: Added technology YOUR_TECHNOLOGY to
+      techlist``.
 
 
 ..

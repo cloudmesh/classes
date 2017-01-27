@@ -513,9 +513,21 @@ installed natively or through VirtualBox. See the
 <a class="reference internal" href="../lesson/linux/ubuntu.html"><span class="doc">Ubuntu Virtual Machine</span></a> lesson for details on how to
 accomplish this.</p>
 <p>Check by running the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 16.04.1 LTS
+Release:        16.04
+Codename:       xenial
+</pre></div>
+</div>
 </li>
 <li><p class="first">You have administrative privileges on this machine.</p>
 <p>Check by running the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo whoami
+root
+</pre></div>
+</div>
 </li>
 </ol>
 </div>
@@ -527,26 +539,48 @@ accomplish this.</p>
 manager has an up-to-date cache of the available packageds.
 Do so by running the <code class="docutils literal"><span class="pre">apt-get</span></code> command:</p>
 <blockquote>
-<div></div></blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get update
+Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease
+Get:3 http://security.ubuntu.com/ubuntu xenial-security/main Sources [55.8 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+# ....etc
+Fetched 11.1 MB in 23s (474 kB/s)
+Reading package lists... Done
+</pre></div>
+</div>
+</div></blockquote>
 </div>
 <div class="section" id="installing-development-tools">
 <h3>Installing Development Tools<a class="headerlink" href="#installing-development-tools" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="editors">
 <h4>Editors<a class="headerlink" href="#editors" title="Permalink to this headline">¶</a></h4>
 <p>You should ensure that an editor such as emacs, vim, or nano is installed:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get install -y emacs vim nano
+</pre></div>
+</div>
 </div>
 <div class="section" id="version-control-git">
 <h4>Version Control (Git)<a class="headerlink" href="#version-control-git" title="Permalink to this headline">¶</a></h4>
 <p>Install Git using:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get install -y git
+</pre></div>
+</div>
 </div>
 <div class="section" id="development-tools">
 <h4>Development Tools<a class="headerlink" href="#development-tools" title="Permalink to this headline">¶</a></h4>
 <p>Install Python and other necessary programs and tools:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get install -y python-dev python-virtualenv python-pip graphviz make
+</pre></div>
+</div>
 </div>
 <div class="section" id="latex">
 <h4>LaTeX<a class="headerlink" href="#latex" title="Permalink to this headline">¶</a></h4>
 <p>You should also install the full TexLive package. This will result in
 several gigabytes of download and install, so make take a while:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get install -y texlive-full
+</pre></div>
+</div>
 </div>
 </div>
 </div>
