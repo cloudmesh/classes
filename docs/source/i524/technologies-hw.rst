@@ -215,14 +215,12 @@ Procedure
    For example for fixed contributions::
 
            fix:usr: Changed spelling for Nagios in the technology list
-	
-6. Compile and commit if correct.
 
-7. Review the changed files to make sure you only change the two
+#. Review the changed files to make sure you only change the two
     files. If you have other changes create separate pull requests for
     them.
   
-8. Finally, create a pull request (check if no new content conflict with yours)
+#. Finally, create a pull request (check if no new content conflict with yours)
 
 
 Tips
