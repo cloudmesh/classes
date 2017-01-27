@@ -80,7 +80,19 @@ Prerequisites
 
       Do not use the above public key. It will not work for you.
 
+#. Create a Python Virtual Environment and activate it. See lesson :doc:`../lesson/python/using_libraries`.
 
+   .. prompt:: bash $ auto
+
+      $ virtualenv ~/ENV
+      Running virtualenv with interpreter /usr/bin/python2
+      New python executable in /home/ubuntu/ENV/bin/python2
+      Also creating executable in /home/ubuntu/ENV/bin/python
+      Installing setuptools, pkg_resources, pip, wheel...done.
+      $ source ~/ENV/bin/activate
+      (ENV) $
+
+   At this point, you should see the ``(ENV)`` on your shell prompt.
 
 
    
