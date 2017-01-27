@@ -54,6 +54,26 @@ Prerequisites
       |  o+ E           |
       +----[SHA256]-----+
 
+#. Ensure you have uploaded the **public** key to your github
+   profile. See lesson :doc:`../lesson/prg/github`.
+
+   Specifically, copy the contents of your ``.ssh/id_rsa.pub`` file
+   and add them to `you github keys
+   <https://github.com/settings/keys>`_.
+
+   To get the contents of the public key, use the ``cat`` command.
+   Something like the following:
+
+   .. prompt:: bash $ auto
+
+      $ cat .ssh/id_rsa.pub
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+kwxuJ46kIq20odlqQ/sLl0YPkG3yVcXS+IwyWxDiaxOyB3ZqVJPsCF7OKqA9WpIHsdWxXNtU0hD/ulO2DsIJI73tTF+ITDfeMs7A7pzFPmHwTRKIAGzsiiZkj7W2hQK6DFUt/x4fjwJImG3YrNjcJ2//2aOW88Dsoq/+8Hxz3Wm5uDpmkcX5aFFmkFV6oyZoVznUZqpIlRQbgM9b+kXr7pvnYYDrGVVY86frLMrGNKKXE+DXUPLRqUGYmLQ+62xw4I6xXaF4+AyR4j4uTY91Fq1ybSALkxgKkqrZavZudkAzc50nSTTbmgCSwEaAWw0Bz6eX28r4IJclAI98Apcl ubuntu@ubuntu-xenial
+
+   .. warning::
+
+      Do not use the above public key. It will not work for you.
+
+
 
 1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
