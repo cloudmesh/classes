@@ -143,10 +143,10 @@ Procedure
 
 
 
-#. Edit the following two files:
+#. Edit the following two files from within the ``classes`` directory:
 	
-   #. add the paragraph about the technologies in ``/docs/source/i524/technologies.rst 
-   #. your references, go to  /docs/source/refs.bib
+   #. add the paragraph about the technologies in ``docs/source/i524/technologies.rst``
+   #. your references, go to  ``docs/source/refs.bib``
 
    For the descriptions remove advertisement adjectives and
    sentences from your description, and spellcheck.
