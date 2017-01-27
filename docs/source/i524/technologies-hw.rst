@@ -90,7 +90,6 @@ Prerequisites
       Also creating executable in /home/ubuntu/ENV/bin/python
       Installing setuptools, pkg_resources, pip, wheel...done.
       $ source ~/ENV/bin/activate
-      (ENV) $
 
    At this point, you should see the ``(ENV)`` on your shell prompt.
 
@@ -123,9 +122,9 @@ Procedure
 
 #. On Ubuntu, use the ``git`` command to clone the repository using the above link:
 
-   .. prompt:: bash $ auto
+   .. prompt:: bash "(ENV) $"
 
-      $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+      (ENV) $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
       Cloning into 'classes'...
       remote: Counting objects: 13012, done.
       remote: Compressing objects: 100% (918/918), done.
@@ -136,9 +135,9 @@ Procedure
 
 #. Change directories into your clone:
 
-   .. prompt:: bash $
+   .. prompt:: bash "(ENV) $"
 
-      $ cd classes
+      (ENV) $ cd classes
 
 
 
@@ -147,6 +146,12 @@ Procedure
 	
    #. add the paragraph about the technologies in ``docs/source/i524/technologies.rst``
    #. your references, go to  ``docs/source/refs.bib``
+
+      .. warning::
+
+         Make sure to find your **HID** in ``refs.bib`` and make your
+         changes under that line.  This will help prevent conflicts
+         when merging later.
 
    For the descriptions remove advertisement adjectives and
    sentences from your description, and spellcheck.
@@ -164,6 +169,16 @@ Procedure
      url = {http://www.google.com}
 	  
 	
+#. After making your changing, you should compile the webpage using
+   ``make``. You can then open the locally generated copy of the class
+   website using ``make view``:
+
+   .. prompt:: bash "(ENV) $"
+
+      (ENV) $ make
+      (ENV) $ make view
+   
+
 #. Do rebase or pull. 
 
 #. To get credit for the assignment write your commit summary with your::
