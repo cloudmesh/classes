@@ -9,7 +9,7 @@ tutorial is for example available at
 
 * https://try.github.io/
 
-A more extensive list of tutorials can be found at 
+A more extensive list of tutorials can be found at
 
 * https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
 
@@ -36,7 +36,7 @@ To check your setup you can say::
 
   $ git config --list
 
-  
+
 Git Tutorials
 ----------
 
@@ -74,7 +74,7 @@ Information on how to install git can be found at
 
 * https://www.atlassian.com/git/tutorials/install-git
 
-  
+
 Config
 ~~~~~~
 
@@ -85,6 +85,19 @@ email address, line endings, and color, along with the settings'
 associated configuration scopes.
 
 *   https://www.youtube.com/watch?v=ZChtKFLiaNw
+
+.. _upload_key_:
+
+Upload Key
+~~~~~~~~~~
+Before you fork a repository, you need to upload a public key
+in order to access your repository. See lesson :ref:`s-ssh-generate`
+before you upload. Copy the contents of your ``.ssh/id_rsa.pub`` file
+and add them to `you github keys
+<https://github.com/settings/keys>`_.
+
+*    https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
 
 Fork
 ~~~~
@@ -151,7 +164,7 @@ you to branch early and often without the fear of messy merges or
 missing out on new development.
 
 * https://www.youtube.com/watch?v=SxzjZtJwOgo
-  
+
 GUI
 ~~~
 
@@ -182,7 +195,7 @@ Exercise
 
 Github.1:
   How do you set your favorite editor as a default with github config
- 
+
 Github.2:
   What is the difference between merge and rebase?
 
