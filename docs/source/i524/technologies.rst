@@ -977,6 +977,20 @@ DevOps
 325. Ubuntu MaaS
 326. Facebook Tupperware
 327. AWS OpsWorks
+
+     AWS Opsworks is a configuration service provided by Amazon Web
+     Services that uses Chef, a Ruby and Erlang based configuration
+     management tool :cite:`www-wikichef`, to automate the
+     configuration, deployment, and management of servers and 
+     applications. There are two versions of AWS Opsworks.
+     The first, a fee based offering called AWS OpsWorks for Chef
+     Automate, provides a Chef Server and suite of tools to enable
+     full stack automation. The second, AWS OpsWorks Stacks, is a
+     free offering in which applications are modeled as stacks
+     containing various layers. Amazon Elastic Cloud Compute (EC2)
+     instances or other resources can be deployed and configured
+     in each layer. :cite:`www-awsopsworks`
+                                        
 328. OpenStack Ironic
 329. Google Kubernetes
 330. Buildstep
