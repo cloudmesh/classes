@@ -26,19 +26,19 @@ Workflow-Orchestration
 6. Swift  
 7. Taverna
    
-   Taverna is workflow management system. According to :cite:`www-taverna`,
-   Taverna is transitioning to Apache Incubator as of Jan 2017.
-   Taverna suite includes 2 products: 
+   Taverna is workflow management system. According to
+   :cite:`www-taverna`, Taverna is transitioning to Apache Incubator
+   as of Jan 2017.  Taverna suite includes 2 products:
 
    (1). Taverna Workbench is desktop client where user can define the workflow.
    (2). Taverna Server is responsible for executing the remote workflows.
 
-   Taverna workflows can also be executed on command-line.
-   Taverna supports wide range of services including WSDL-style and RESTful
+   Taverna workflows can also be executed on command-line.  Taverna
+   supports wide range of services including WSDL-style and RESTful
    Web Services, BioMart, SoapLab, R, and Excel. Taverna also support
-   mechanism to monitor the running workflows using its web browser interface.
-   In his :cite:`taverna-paper` paper, Daniele Turi presented the formal
-   syntax and operational semantics of Taverna.
+   mechanism to monitor the running workflows using its web browser
+   interface.  In his :cite:`taverna-paper` paper, Daniele Turi
+   presented the formal syntax and operational semantics of Taverna.
 
 8. Triana 
 9. Trident 
@@ -190,29 +190,32 @@ Application Hosting Frameworks
 85. AWS Elastic Beanstalk
 86. Azure
     
-    Microsoft Corporation markets its cloud products under the *Azure* brand
-    name. At its most basic, Azure acts as an *infrastructure-as-a-service* (IaaS)
-    provider.  IaaS virtualizes hardware components, a key differentiation from
-    other *-as-a-service* products.  The Wikipedia entry on IaaS notes that IaaS
-    "abstract[s] the user from the details of infrasctructure like physical
-    computing resources, location, data partitioning, scaling, security, backup,
-    etc." :cite:www-wikipedia-cloud
+    Microsoft Corporation markets its cloud products under the *Azure*
+    brand name. At its most basic, Azure acts as an
+    *infrastructure-as-a-service* (IaaS) provider.  IaaS virtualizes
+    hardware components, a key differentiation from other
+    *-as-a-service* products.  The Wikipedia entry on IaaS notes that
+    IaaS "abstract[s] the user from the details of infrasctructure
+    like physical computing resources, location, data partitioning,
+    scaling, security, backup, etc." :cite:www-wikipedia-cloud
 
-    However, Azure offers a host of closely-related tool and products to enhance
-    and improve the core product, such as raw block storage, load balancers,
-    and IP addresses :cite:`www-azure-msft`.  For instance, Azure users can access
-    predictive analytics, Bots and Blockchain-as-a-Service :cite:www-azure-msft as
-    well as more-basic computing, networking, storage, database and management
-    components :cite:`www-sec-edgar-msft`.  The Azure website shows twelve major
-    categories under *Products* and twenty *Solution* categories, e.g., e-commerce
-    or Business SaaS apps.
+    However, Azure offers a host of closely-related tool and products
+    to enhance and improve the core product, such as raw block
+    storage, load balancers, and IP addresses :cite:`www-azure-msft`.
+    For instance, Azure users can access predictive analytics, Bots
+    and Blockchain-as-a-Service :cite:www-azure-msft as well as
+    more-basic computing, networking, storage, database and management
+    components :cite:`www-sec-edgar-msft`.  The Azure website shows
+    twelve major categories under *Products* and twenty *Solution*
+    categories, e.g., e-commerce or Business SaaS apps.
 
-    Azure competes against Amazon's *Amazon Web Service*, :cite:www-aws-amzn
-    even though IBM (*SoftLayer* :cite:www-softlayer-ibm and *Bluemix* :cite
-    :`www-bluemix-ibm`) and Google (*Google Cloud Platform*) :cite:`www-cloud-
-    google` offer IaaS to the market.  As of January 2017, Azure's datacenters
-    span 32 Microsoft-defined *regions*, or 38 *declared regions*, throughout
-    the world. :cite:`www-azure-msft`
+    Azure competes against Amazon's *Amazon Web Service*,
+    :cite:www-aws-amzn even though IBM (*SoftLayer*
+    :cite:www-softlayer-ibm and *Bluemix* :cite :`www-bluemix-ibm`)
+    and Google (*Google Cloud Platform*) :cite:`www-cloud- google`
+    offer IaaS to the market.  As of January 2017, Azure's datacenters
+    span 32 Microsoft-defined *regions*, or 38 *declared regions*,
+    throughout the world. :cite:`www-azure-msft`
 
 87. Cloud Foundry
 88. Pivotal
@@ -249,35 +252,39 @@ High level Programming
 108. Shark
 109. Phoenix
 
-     In the first quarter of 2013, Salesforce.com released its proprietary SQL-like
-     interface and query engine for HBase, *Phoenix*, to the open source community.
-     The company appears to have been motivated to develop Phoenix as a way to 1)
-     increase accessiblity to HBase by using the industry-standard query language
-     (SQL); 2) save users time by abstracting away the complexities of coding native
-     HBase queries; and, 3) implementing query best practices by implementing them
-     automatically via Phoenix. :cite:`www-phoenix-cloudera`  Although Salesforce.com
-     initially *open-sourced* it via Github, by May of 2014 it had become a top-level
-     Apache project. :cite:`www-phoenix-wikipedia`
+     In the first quarter of 2013, Salesforce.com released its
+     proprietary SQL-like interface and query engine for HBase,
+     *Phoenix*, to the open source community.  The company appears to
+     have been motivated to develop Phoenix as a way to 1) increase
+     accessiblity to HBase by using the industry-standard query
+     language (SQL); 2) save users time by abstracting away the
+     complexities of coding native HBase queries; and, 3) implementing
+     query best practices by implementing them automatically via
+     Phoenix. :cite:`www-phoenix-cloudera` Although Salesforce.com
+     initially *open-sourced* it via Github, by May of 2014 it had
+     become a top-level Apache project. :cite:`www-phoenix-wikipedia`
 
-     Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
-     and orchestrates the running of those scans to produce regular JDBC result
-     sets." :cite:`www-apachephoenix-org`  In addition, the program directs compute
-     intense portions of the calls to the server.  For instance, if a user queried
-     for the top ten records across numerous regions from an HBase database
-     consisting of a billion records, the program would first select the top ten
-     records for each region using server-side compute resources.  After that, the
-     client would be tasked with selecting the overall top ten. :cite:`www-phoenix-
-     salesforcedev`
+     Phoenix, written in Java, "compiles [SQL queries] into a series
+     of HBase scans, and orchestrates the running of those scans to
+     produce regular JDBC result sets." :cite:`www-apachephoenix-org`
+     In addition, the program directs compute intense portions of the
+     calls to the server.  For instance, if a user queried for the top
+     ten records across numerous regions from an HBase database
+     consisting of a billion records, the program would first select
+     the top ten records for each region using server-side compute
+     resources.  After that, the client would be tasked with selecting
+     the overall top ten. :cite:`www-phoenix- salesforcedev`
 
-     Despite adding an abstraction layer, Phoenix can actually speed up queries
-     because it optimizes the query during the translation process. :cite:`www-
-     phoenix-cloudera`  For example, "Phoenix beats Hive for a simple query spanning
-     10M-100M rows." :cite:`www-phoenix-infoq`
+     Despite adding an abstraction layer, Phoenix can actually speed
+     up queries because it optimizes the query during the translation
+     process. :cite:`www- phoenix-cloudera` For example, "Phoenix
+     beats Hive for a simple query spanning 10M-100M rows."
+     :cite:`www-phoenix-infoq`
 
-     Finally, another program can enhance HBase's accessibility for those inclined
-     towards graphical interfaces.  SQuirell only requires the user to set up the
-     JDBC driver and specify the appropriate connection string. :cite:`www-phoenix-
-     bighadoop`
+     Finally, another program can enhance HBase's accessibility for
+     those inclined towards graphical interfaces.  SQuirell only
+     requires the user to set up the JDBC driver and specify the
+     appropriate connection string. :cite:`www-phoenix- bighadoop`
 
 110. Impala
 111. MRQL
@@ -525,11 +532,11 @@ In-memory databases/caches
      4. update gora.properties to specify the datastore to use
      5. get an instance of corresponding data store using datastore factory.
 
-     Gora has a query interface to query the underlying data store. Its
-     configuration is stored in gora.properties which should be present in
-     classpath. In the file you can specify default data store used by Gora
-     engine. Gora also has a CI/CD library call GoraCI which is used to write
-     integration tests.
+     Gora has a query interface to query the underlying data
+     store. Its configuration is stored in gora.properties which
+     should be present in classpath. In the file you can specify
+     default data store used by Gora engine. Gora also has a CI/CD
+     library call GoraCI which is used to write integration tests.
 
 184. Memcached
 185. Redis
@@ -593,8 +600,9 @@ SQL(NewSQL)
 199. DB2
 200. SQL Server
 
-     SQL Server :cite:`www-sqlserver-wiki` is a relational database management system
-     from Microsoft. As of Jan 2017, SQL Server is available in below editions
+     SQL Server :cite:`www-sqlserver-wiki` is a relational database
+     management system from Microsoft. As of Jan 2017, SQL Server is
+     available in below editions
 
      1. Standard - consists of core database engine
      2. Web - low cost edition for web hosting
@@ -618,13 +626,18 @@ SQL(NewSQL)
 
 204. CUBRID
 
-	 CUBRID name is deduced from the combination of word CUBE(security within box) and BRIDGE(data bridge).
-	 It is an open source Relational DataBase Management System designed in C programming language with high
-	 performance, scalability and availability features. During its development by NCL, korean IT service provider
-	 the goal was to optimize database performance for web-applications. :cite:`www-cubrid`
-	 Importantly most of the SQL syntax from MYSQL and ORACLE can work on cubrid.CUBRID also provides manager tool
-	 for database administration and migration tool for migrating the data from DBMS to CUBRID bridging the dbs.
-	 CUBRID enterprise version and all the tools are free and suitable database candidate for web-application development.	
+     CUBRID name is deduced from the combination of word CUBE(security
+     within box) and BRIDGE(data bridge).  It is an open source
+     Relational DataBase Management System designed in C programming
+     language with high performance, scalability and availability
+     features. During its development by NCL, korean IT service
+     provider the goal was to optimize database performance for
+     web-applications. :cite:`www-cubrid` Importantly most of the SQL
+     syntax from MYSQL and ORACLE can work on cubrid.CUBRID also
+     provides manager tool for database administration and migration
+     tool for migrating the data from DBMS to CUBRID bridging the dbs.
+     CUBRID enterprise version and all the tools are free and suitable
+     database candidate for web-application development.
 
 205. Galera Cluster
 
@@ -885,29 +898,35 @@ Interoperability
      can be portable across different cloud environments.  Key
      components of jcloud are:
 
-     1. Views: abstracts functionality from a specific vendor and allow user to write
-        more generic code. For example odbc abstracts the underlying relational data
-        source. However, odbc driver converts to native format. In this case user can
-        switch databases without rewriting the application. Jcloud provide following
-        views: blob store, compute service, loadBalancer service
+     1. Views: abstracts functionality from a specific vendor and
+        allow user to write more generic code. For example odbc
+        abstracts the underlying relational data source. However, odbc
+        driver converts to native format. In this case user can switch
+        databases without rewriting the application. Jcloud provide
+        following views: blob store, compute service, loadBalancer
+        service
 
-     2. API: APIs are requests to execute a particular functionality. Jcloud provide a
-        single set of APIs for all cloud vendors which is also location aware. If a
-        cloud vendor doesn’t support customers from a particular region the API will
-        not work from that region.
+     2. API: APIs are requests to execute a particular
+        functionality. Jcloud provide a single set of APIs for all
+        cloud vendors which is also location aware. If a cloud vendor
+        doesn’t support customers from a particular region the API
+        will not work from that region.
 
-     3. Provider: a particular cloud vendor is a provider. Jcloud uses provider
-        information to initialize its context.
+     3. Provider: a particular cloud vendor is a provider. Jcloud uses
+        provider information to initialize its context.
 
-     4. Context: it can be termed as a handle to a particular provider. Its like a
-        ODBC connection object. Once connection is initialized for a particular
-        database, it can used to make any api call.
+     4. Context: it can be termed as a handle to a particular
+        provider. Its like a ODBC connection object. Once connection
+        is initialized for a particular database, it can used to make
+        any api call.
 
-        Jclouds provides test library to mock context, APIs etc to different providers so
-        that user can write unit test for his implementation rather than waiting to
-        test with the cloud provider. Jcloud library certifies support after testing
-        the interfaces with live cloud provider. These features make jclouds robust
-        and adoptable, hiding most of the complexity of cloud providers.
+        Jclouds provides test library to mock context, APIs etc to
+        different providers so that user can write unit test for his
+        implementation rather than waiting to test with the cloud
+        provider. Jcloud library certifies support after testing the
+        interfaces with live cloud provider. These features make
+        jclouds robust and adoptable, hiding most of the complexity of
+        cloud providers.
 
 303. TOSCA
 304. OCCI
