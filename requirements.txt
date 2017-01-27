@@ -9,3 +9,4 @@ sphinxcontrib-fulltoc
 pybtex
 watchdog
 Pygments
+sphinx-prompt
