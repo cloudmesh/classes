@@ -173,8 +173,8 @@ Setup Your Clone
       $ pip install -r requirements.txt
 
 
-Procedure
-=========
+Adding your Technology
+======================
 
 #. Edit the following two files from within the ``classes`` directory:
 	
