@@ -4,6 +4,13 @@
  Steps to Complete Techlist assignments
 ========================================
 
+Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
+
+From the video you learn how to fork and create pull requests. We
+encourage you to watch the video. It is on purpose long. We assume
+thet you are running teh commands in virtualenv
+
+
 Prerequisites
 =============
 
@@ -74,12 +81,6 @@ Prerequisites
       Do not use the above public key. It will not work for you.
 
 
-
-1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
-
-   a. From the video you learn how to fork and create pull
-      requests. We encourage you to watch the video. It is on purpose
-      long. We assume thet you are running teh commands in virtualenv
 
 
    
