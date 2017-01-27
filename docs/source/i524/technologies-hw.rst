@@ -14,6 +14,18 @@ Prerequisites
    #. see lesson :doc:`../lesson/prg/git`
    #. see lesson :doc:`../lesson/prg/github`
 
+#. You have a GitHub account. See lesson :doc:`../lesson/prg/github`.
+#. You have configured git to identify as you as well as to use your
+   preferred text editor. See lesson :doc:`../lesson/prg/git`.
+
+   Specifically, you should **adapt** the following commands:
+
+   .. prompt:: bash $
+
+      git config --global user.name "Albert Zweistein"
+      git config --global user.email "alber.zweistein@gmail.com"
+      git config --global core.editor emacs
+
 
 1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
