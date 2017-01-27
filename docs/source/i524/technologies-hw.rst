@@ -23,8 +23,36 @@ Prerequisites
    .. prompt:: bash $
 
       git config --global user.name "Albert Zweistein"
-      git config --global user.email "alber.zweistein@gmail.com"
+      git config --global user.email "albert.zweistein@gmail.com"
       git config --global core.editor emacs
+
+#. Ensure you have created an ssh key on ubuntu and uploaded it to
+   your profile on github. See lesson :ref:`ssh-generate`.
+
+   You should do something like this:
+
+   .. prompt:: bash $ auto
+
+      $ ssh-keygen
+      Generating public/private rsa key pair.
+      Enter passphrase (empty for no passphrase): 
+      Enter same passphrase again: 
+      Your identification has been saved in test.
+      Your public key has been saved in test.pub.
+      The key fingerprint is:
+      SHA256:koA9ZYkSlBBpkR/W0bfIxLmViwQWY1qKqjTzGdK+7vQ ubuntu@ubuntu-xenial
+      The key's randomart image is:
+      +---[RSA 2048]----+
+      |o*=o.XO.. .      |
+      |.o+=B+o* +       |
+      |..++= + * o      |
+      |. .. o * o       |
+      |.= o  o S        |
+      |o * o  .         |
+      |.  =             |
+      |  . o            |
+      |  o+ E           |
+      +----[SHA256]-----+
 
 
 1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
