@@ -69,7 +69,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Classes'
+project = u'i524'
 copyright = u'2016, Gregor von Laszewski'
 author = u'Gregor von Laszewski'
 version = u''
@@ -241,7 +241,7 @@ elif theme_bootstrap:
     html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
     html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Classes",
+    'navbar_title': "i524",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Site",
@@ -254,7 +254,7 @@ elif theme_bootstrap:
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("i524",
+        ("Overview",
              "i524/index.html",
              True),
         ("Changes",
@@ -356,6 +356,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 html_sidebars = { '**': ['globaltoc.html',
                          'localtoc.html',
+                         'i524-links.html',
                          'searchbox.html'], }
 
 

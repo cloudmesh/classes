@@ -1,5 +1,7 @@
-I524
-========
+I524 
+================================================
+
+**Big Data and Open Source Software Projects**
 
 .. toctree::
    :maxdepth: 1
