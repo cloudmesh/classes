@@ -459,9 +459,13 @@
       
   <div class="section" id="requirements-for-the-techlist-homework">
 <span id="techlist-tips"></span><h1>Requirements for the TechList Homework<a class="headerlink" href="#requirements-for-the-techlist-homework" title="Permalink to this headline">¶</a></h1>
-<ol class="arabic">
-<li><p class="first">Watch the video at <a class="reference external" href="https://www.youtube.com/watch?v=roi7vezNmfo">https://www.youtube.com/watch?v=roi7vezNmfo</a></p>
-</li>
+<ol class="arabic simple">
+<li>Watch the video at <a class="reference external" href="https://www.youtube.com/watch?v=roi7vezNmfo">https://www.youtube.com/watch?v=roi7vezNmfo</a></li>
+</ol>
+<p>1.a From the video you learn how to fork and create pull requests. We
+encourage you to watch the video. It is on purpose long. We assume
+thet you are running teh commands in virtualenv</p>
+<ol class="arabic" start="2">
 <li><p class="first">Create a fork into your local repo: e.g. Go to
 <a class="reference external" href="https://cloudmesh.github.io/classes/">https://cloudmesh.github.io/classes/</a> and click on “Fork me on
 GitHub” to create a fork into your local repo</p>
@@ -537,6 +541,39 @@ master branch. You will see your changes in the master branch.</p>
 pull request.
 When your changes were approved and merged with the master branch,
 your pull request will disappear.</p>
+</li>
+<li><p class="first">Create an upstrem synchronization</p>
+<p>First, make sure that git on your computer is configured properly. For example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git config --global user.name &quot;Albert Zweistein&quot;
+$ git config --global user.email albert.zweistein@gmail.com
+</pre></div>
+</div>
+<p>Fork this repository by clicking the &#8220;Fork&#8221; button on the top right
+of this page. You will be redirected to a new page. Verify that
+your github username is in the url. Eg:</p>
+<p><a class="reference external" href="https://github.com/YOUR_GITHUB_USERNAME/classes">https://github.com/YOUR_GITHUB_USERNAME/classes</a>
+Clone your forked repository:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+</pre></div>
+</div>
+<p>Add the upstream repository
+<a class="reference external" href="https://help.github.com/articles/configuring-a-remote-for-a-fork/">https://help.github.com/articles/configuring-a-remote-for-a-fork/</a></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git remote add upstream https://github.com/cloudmesh/classes
+</pre></div>
+</div>
+<dl class="docutils">
+<dt>..note:: You should frequently keep your fork up to date</dt>
+<dd><p class="first last"><a class="reference external" href="https://help.github.com/articles/syncing-a-fork/">https://help.github.com/articles/syncing-a-fork/</a></p>
+</dd>
+</dl>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git fetch upstream
+$ git merge upstream/master
+</pre></div>
+</div>
+<p>You should also periodically push your changes to your fork:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git push origin master
+</pre></div>
+</div>
 </li>
 </ol>
 </div>

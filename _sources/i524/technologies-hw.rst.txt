@@ -5,6 +5,12 @@ Requirements for the TechList Homework
 
 1. Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
+1.a From the video you learn how to fork and create pull requests. We
+encourage you to watch the video. It is on purpose long. We assume
+thet you are running teh commands in virtualenv
+
+
+   
 2. Create a fork into your local repo: e.g. Go to
    https://cloudmesh.github.io/classes/ and click on “Fork me on
    GitHub” to create a fork into your local repo
@@ -80,7 +86,40 @@ Tips
    When your changes were approved and merged with the master branch, 
    your pull request will disappear.
 
+3. Create an upstrem synchronization
 
+   First, make sure that git on your computer is configured properly. For example::
+
+     $ git config --global user.name "Albert Zweistein"
+     $ git config --global user.email albert.zweistein@gmail.com
+
+   Fork this repository by clicking the "Fork" button on the top right
+   of this page. You will be redirected to a new page. Verify that
+   your github username is in the url. Eg:
+
+   https://github.com/YOUR_GITHUB_USERNAME/classes
+   Clone your forked repository::
+
+     $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+
+   Add the upstream repository
+   https://help.github.com/articles/configuring-a-remote-for-a-fork/ ::
+
+     $ git remote add upstream https://github.com/cloudmesh/classes
+
+   ..note:: You should frequently keep your fork up to date
+	    https://help.github.com/articles/syncing-a-fork/
+
+   ::
+
+      $ git fetch upstream
+      $ git merge upstream/master
+
+   You should also periodically push your changes to your fork::
+
+      $ git push origin master
+
+   
 Learning outcomes
 -----------------
 
