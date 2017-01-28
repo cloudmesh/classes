@@ -29,8 +29,8 @@ checkins. If you do not do this, your checkins in git do not show
 up in a consistent fashion as a single user. This is done with the
 following commands::
 
-  $ git config --global user.name "John Doe"
-  $ git config --global user.email johndoe@example.com
+  $ git config --global user.name "Albert Zweistein"
+  $ git config --global user.email albert.zweistein@gmail.com
 
 You can set also the editor with::
 
@@ -61,7 +61,7 @@ How to use Git in this class
 Let us use the first homework 'TechList 1' as an example to illstrate
 why and how we choose Git as a essential tool in this class.
 
-In the 'Technologies' section on the class website, we will collaboratly
+In the 'Technologies' section on the class website, we will collaboratively
 edit the web page contents. Each student shall add their paragraphs about
 certain tech topics. This leads to a question: multiple authors are working
 on a same document, whose version should be used as the final version? After
@@ -79,7 +79,7 @@ button on the top right corner of the page. Once done, you have your own copy of
 the class repo.
 
 3) You create this repo in your Github account. This means you still store
-everything online remotely. Although, this version is totally under your acount.
+everything online remotely.
 
 4) To conveniently edit the files, you need a copy on your laptop. This is to
 'clone' your personal repo to your local disk. Look at your Github repo and find
