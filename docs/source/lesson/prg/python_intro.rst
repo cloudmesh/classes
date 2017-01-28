@@ -4,11 +4,6 @@
 Introduction to Python
 ======================
 
-.. sidebar:: Page Contents
-
-   .. contents::
-      :local:
-
 
 Acknowledgments
 ----------------------------------------------------------------------
@@ -508,6 +503,27 @@ You can also ask for help about something using ``help()``:
    spacebar to go down a page ``w`` to go up a page, the arrow keys to
    go up/down line-by-line, or ``q`` to exit.
 
+Dict
+----
+
+One of the very important datastructures in python is a dictionary
+also refered to as *dict*. It represents a key value store::
+
+  person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
+
+  print ("person['Name']: ", person['Name'])
+  print ("person['Age']: ", person['Age'])
+
+You can delete elements with the following commands::
+
+  del person['Name']; # remove entry with key 'Name'
+  person.clear();     # remove all entries in dict
+  person dict ;        # delete entire dictionary
+
+You can iterate ofer a dict::
+
+  for item in person:
+    print (item, person[item])
 
 
 
