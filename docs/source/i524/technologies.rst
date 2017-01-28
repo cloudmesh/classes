@@ -418,21 +418,24 @@ Inter process communication Collectives
 161. publish-subscribe: MPI
 
 162. HPX-5
-Based on  :cite:` www-hpx-5 `, High Performance ParallelX (HPX-5) is
-an open source, distributed model that provides opportunity for
-operations to run unmodified on one-to-many nodes. The dynamic nature
-of the model accommodates effective “computing resource management
-and task scheduling”. It is portable and performance-oriented. HPX-5
-was developed by IU Center for Research in Extreme Scale
-Technologies (CREST). Concurrency is provided by lightweight
-control object (LCO) synchronization and asynchronous remote procedure
-calls. ParallelX component allows for termination detection and supplies
-per-process collectives. It “addresses the challenges of starvation,
-latency, overhead, waiting, energy and reliability”. Finally, it supports
-OpenCL to use distributed GPU and coprocessors. HPX-5 could be
-compiled on various OS platforms , however it was only tested on several
-Linux and Darwin (10.11) platforms. Required configurations and
-environments could be accessed via :cite:`www-hpx-5-user-guide`.
+
+     Based on :cite:` www-hpx-5 `, High Performance ParallelX (HPX-5)
+     is an open source, distributed model that provides opportunity
+     for operations to run unmodified on one-to-many nodes. The
+     dynamic nature of the model accommodates effective “computing
+     resource management and task scheduling”. It is portable and
+     performance-oriented. HPX-5 was developed by IU Center for
+     Research in Extreme Scale Technologies (CREST). Concurrency is
+     provided by lightweight control object (LCO) synchronization and
+     asynchronous remote procedure calls. ParallelX component allows
+     for termination detection and supplies per-process
+     collectives. It “addresses the challenges of starvation, latency,
+     overhead, waiting, energy and reliability”. Finally, it supports
+     OpenCL to use distributed GPU and coprocessors. HPX-5 could be
+     compiled on various OS platforms , however it was only tested on
+     several Linux and Darwin (10.11) platforms. Required
+     configurations and environments could be accessed via
+     :cite:`www-hpx-5-user-guide`.
 
 163. Argo BEAST HPX-5 BEAST PULSAR
 164. Harp
@@ -1050,17 +1053,17 @@ DevOps
 318. CloudMesh
 319. Juju
 
-      Juju (formerly Ensemble) :cite:`juju-paper` is software from
-      Canonical that provides open source service orchestration. It is
-      used to easily and quickly deploy and manage services on cloud
-      and physical servers. Juju charms can be deployed on cloud
-      services such as Amazon Web Services (AWS), Microsoft Azure and
-      OpenStack. It can also be used on bare metal using MAAS.
-      Specifically :cite:`www-juju` lists around 300 charms available
-      for services available in the Juju store. Charms can be written
-      in any language. It also supports Bundles which are
-      pre-configured collection of Charms that helps in quick
-      deployment of whole infrastructure.
+     Juju (formerly Ensemble) :cite:`juju-paper` is software from
+     Canonical that provides open source service orchestration. It is
+     used to easily and quickly deploy and manage services on cloud
+     and physical servers. Juju charms can be deployed on cloud
+     services such as Amazon Web Services (AWS), Microsoft Azure and
+     OpenStack. It can also be used on bare metal using MAAS.
+     Specifically :cite:`www-juju` lists around 300 charms available
+     for services available in the Juju store. Charms can be written
+     in any language. It also supports Bundles which are
+     pre-configured collection of Charms that helps in quick
+     deployment of whole infrastructure.
 
 320. Foreman
 321. OpenStack Heat
