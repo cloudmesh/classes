@@ -41,6 +41,7 @@ suitable for your projects.
 
 Tutorial: http://pandas.pydata.org/pandas-docs/stable/10min.html
 
+Pandas Cheat Sheet: https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
 
 Numpy
 -----

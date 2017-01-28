@@ -525,6 +525,10 @@ You can iterate ofer a dict::
   for item in person:
     print (item, person[item])
 
+Lists
+-----
+
+see: https://www.tutorialspoint.com/python/python_lists.htm
 
 
 Control Statements
@@ -669,6 +673,13 @@ A class is a way to take a grouping of functions and data and place them inside 
     thing = Fruit()
     thing.apple()
     print thing.tangerine
+
+Data base access
+----------------
+
+see: https://www.tutorialspoint.com/python/python_database_access.htm
+
+
 
 Writing and Saving Programs
 ----------------------------------------------------------------------
@@ -1053,6 +1064,10 @@ There is much more to python than what we have covered here:
 .. note:: you can receive extra credit if you contribute such a
 	  section of your choice addressing the above topics
 
+Writing python 3 compatible code
+--------------------------------
+
+see: http://python-future.org/compatible_idioms.html
 
 Exercises
 ----------------------------------------------------------------------
@@ -1133,6 +1148,10 @@ do not forget to activate it.
 Autoenv: Directory-based Environments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. warning:: We do not recommend that you use autoenv. INstead we
+	     recommend that you use pyenv. For this class neither is
+	     important.
+	     
 If a directory contains a ``.env`` file, it will automatically be executed
 when you ``cd`` into it. It's easy to use and install.
 
