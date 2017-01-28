@@ -1,6 +1,6 @@
 
 .. index:: I524 technologies
-	      
+
 Technologies
 ======================================================================
 
@@ -8,24 +8,24 @@ Technologies
 In this section we find a number of technologies that are related to
 big data. Certainly a number of these projects are hosted as an Apache
 project. One important resource for a general list of all apache
-projects is at 
+projects is at
 
 
 * Apache projects: https://projects.apache.org/projects.html?category
-  
+
 
 Workflow-Orchestration
 ----------------------------------------------------------------------
 
 1. ODE
-2. ActiveBPEL 
+2. ActiveBPEL
    S17-IR-2002
-3. Airavata   
-4. Pegasus 
-5. Kepler 
-6. Swift  
+3. Airavata
+4. Pegasus
+5. Kepler
+6. Swift
 7. Taverna
-   
+
    Taverna is workflow management system. According to
    :cite:`www-taverna`, Taverna is transitioning to Apache Incubator
    as of Jan 2017.  Taverna suite includes 2 products:
@@ -40,10 +40,10 @@ Workflow-Orchestration
    interface.  In his :cite:`taverna-paper` paper, Daniele Turi
    presented the formal syntax and operational semantics of Taverna.
 
-8. Triana 
-9. Trident 
-10. BioKepler 
-11. Galaxy 
+8. Triana
+9. Trident
+10. BioKepler
+11. Galaxy
 12. IPython
 13. Jupyter
 14. (Dryad)
@@ -70,7 +70,7 @@ Application and Analytics
 ----------------------------------------------------------------------
 
 32. Mahout :cite:`www-mahout`
-    
+
     "Apache Mahout software provides three major features:
     (1) A simple and extensible programming environment and framework
     for building scalable algorithms
@@ -78,12 +78,12 @@ Application and Analytics
     H2O, Apache Flink
     (3) Samsara, a vector math experimentation environment with R-like
     syntax which works at scale"
-    
+
 
 33. MLlib
 34. Mbase
 35. DataFu
-    
+
     The Apache DataFu project was created out of the need for stable,
     well-tested libraries for large scale data processing in Hadoop.
     As detailed in :cite:`www-DataFu` Apache DatFu consists of two
@@ -158,12 +158,12 @@ Application and Analytics
 78. TensorFlow
 79. CNTK
 
-   
+
 Application Hosting Frameworks
 ----------------------------------------------------------------------
 
 80. Google App Engine  :cite:`www-gae`
-    
+
     On purpose we put in here a "good" example of a bad entry that woudl
     receive 10 out of 100 points, e.g. an F:
 
@@ -182,14 +182,14 @@ Application Hosting Frameworks
     avoided. We like to see a number of paragraphs with text.
 
     **Note: This is an example for a bad entry**
-  
+
 81. AppScale
 82. Red Hat OpenShift
 83. Heroku
 84. Aerobatic
 85. AWS Elastic Beanstalk
 86. Azure
-    
+
     Microsoft Corporation markets its cloud products under the *Azure*
     brand name. At its most basic, Azure acts as an
     *infrastructure-as-a-service* (IaaS) provider.  IaaS virtualizes
@@ -223,7 +223,7 @@ Application Hosting Frameworks
 90. (Ninefold)
 
     no longer active
-    
+
 91. Jelastic
 92. Stackato
 93. appfog
@@ -232,7 +232,7 @@ Application Hosting Frameworks
 96. (CloudControl)
 
     No Longer active as of Feb. 2016
-    
+
 97. dotCloud
 98. Dokku
 99. OSGi
@@ -316,7 +316,7 @@ High level Programming
 119. Amazon Redshift
 120. Drill
 121. Kyoto Cabinet
-     
+
      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
      library of routines for managing a database which is a simple
      data file containing records. Each record in the database is a
@@ -418,21 +418,21 @@ Inter process communication Collectives
 161. publish-subscribe: MPI
 
 162. HPX-5
-Based on  :cite:` www-hpx-5 `, High Performance ParallelX (HPX-5) is 
-an open source, distributed model that provides opportunity for 
-operations to run unmodified on one-to-many nodes. The dynamic nature 
-of the model accommodates effective “computing resource management 
-and task scheduling”. It is portable and performance-oriented. HPS-5 
-was developed by IU Center for Research in Extreme Scale 
-Technologies (CREST) project. Concurrency is provided by lightweight 
-control object (LCO) synchronization and asynchronous remote procedure 
-calls. ParallelX component allows for termination detection and supplies 
-per-process collectives. It “addresses the challenges of starvation, 
-latency, overhead, waiting, energy and reliability”. Finally, it supports 
-OpenCL to provide distributed GPU and coprocessors. HPX-5 could be 
-compiled on various OS platforms , however it was only tested on several 
-Linux and Darwin (10.11) platforms. Required configurations and 
-evnvironements could be accessed via :cite:`www-hpx-5-user-guide`.
+Based on  :cite:` www-hpx-5 `, High Performance ParallelX (HPX-5) is
+an open source, distributed model that provides opportunity for
+operations to run unmodified on one-to-many nodes. The dynamic nature
+of the model accommodates effective “computing resource management
+and task scheduling”. It is portable and performance-oriented. HPX-5
+was developed by IU Center for Research in Extreme Scale
+Technologies (CREST). Concurrency is provided by lightweight
+control object (LCO) synchronization and asynchronous remote procedure
+calls. ParallelX component allows for termination detection and supplies
+per-process collectives. It “addresses the challenges of starvation,
+latency, overhead, waiting, energy and reliability”. Finally, it supports
+OpenCL to use distributed GPU and coprocessors. HPX-5 could be
+compiled on various OS platforms , however it was only tested on several
+Linux and Darwin (10.11) platforms. Required configurations and
+environments could be accessed via :cite:`www-hpx-5-user-guide`.
 
 163. Argo BEAST HPX-5 BEAST PULSAR
 164. Harp
@@ -491,7 +491,7 @@ evnvironements could be accessed via :cite:`www-hpx-5-user-guide`.
      Apache Kafka is a streaming platform, which works based on
      publish-subscribe messaging system and supports distributed
      environment. Kafka lets publish and subscribe to the messages.
-    
+
      In a publish-subscribe messaging system, publishers are sender of
      messages. They publish the messages without the knowledge of who
      is going to ‘subscribe’ to them for processing. Subscribers are
@@ -501,26 +501,26 @@ evnvironements could be accessed via :cite:`www-hpx-5-user-guide`.
      category or feed name to which records are
      published. Applications can use Kafka’s Connector APIs to publish
      the messages to one or more Kafka topics. Similarly, applications
-     can use Consumer API to subscribe to one or more topics.  
+     can use Consumer API to subscribe to one or more topics.
      Kafka has the capability to process the stream of data at real time.
-    
+
      Kafka’s stream processor takes continual stream of data from
      input topics, processes the data in real time and produces
      streams of data to output topics. Kafka’s Streams API are used
      for data transformation. Kafka allows to store the stream of data
      in distributed clusters.
-    
+
      Kafka acts as a storage system for incoming data stream. Data is
      categorised into ‘topics’. As Kafka is a distributed system, data
      streams are partitioned and replicated across nodes. Thus, a
      combination of messaging, storage and processing data stream
-     makes Kafka a ‘streaming platform’.    
-        
+     makes Kafka a ‘streaming platform’.
+
      Kafka is a commonly used for building data pipelines where data is
      transferred between systems or applications. :cite:`www-kafka`
      Kafka can also be used by applications that transform real time
      incoming data.
-          
+
 172. Kestrel
 173. JMS
 174. AMQP
@@ -531,7 +531,7 @@ evnvironements could be accessed via :cite:`www-hpx-5-user-guide`.
 179. Lambda
 180. Google Pub Sub
 181. Azure Queues
-182. Event Hubs 
+182. Event Hubs
 
 In-memory databases/caches
 ----------------------------------------------------------------------
@@ -615,8 +615,8 @@ Extraction Tools
 ----------------------------------------------------------------------
 
 197. UIMA
-     
-381. Tika 
+
+381. Tika
 
      "The Apache Tika toolkit detects and extracts metadata and text
      from over a thousand different file types (such as PPT, XLS, and
@@ -650,7 +650,7 @@ SQL(NewSQL)
      OLTP(online transaction processing), hybrid cloud and business
      intelligence modes :cite:`book-sqlserver`.
 
-    
+
 
 201. SQLite
 202. MySQL
@@ -722,7 +722,7 @@ NoSQL
 221. Voldemort
 
      According to :cite:`www-voldemort`, project Voldemort, developed
-     by LinkedIN, is a non-relational database of key-value type that
+     by LinkedIn, is a non-relational database of key-value type that
      supports eventual consistency. The distributed nature of the
      system allows pluggable data placement and provides horizontal
      scalability and high consistency. Replication and partitioning of
@@ -756,7 +756,7 @@ NoSQL
 225. Kyoto/Tokyo Cabinet
 226. Tycoon
 227. Tyrant
-     
+
      Tyrant provides network interfaces to the database management
      system called Tokyo Cabinet. Tyrant is also called as Tokyo
      Tyrant. Tyrant is implemented in C and it provides APIs for Perl,
@@ -820,7 +820,7 @@ File management
 257. HDF
 258. OPeNDAP
 259. FITS
-     
+
      FITS stand for 'Flexible Image Trasnport System'. It is a
      standard data format used in astronomy. FITS data format is
      endorsed by NASA and International Astronomical Union. According
@@ -851,7 +851,7 @@ Data Transport
 265. FTP
 266. SSH
 267. Globus Online (GridFTP)
-     
+
      GridFTP is a enhancement on the File Tranfer Protocol (FTP) which
      provides high-performance , secure and reliable data transfer for
      high-bandwidth wide-area networks. As noted in
@@ -867,7 +867,7 @@ Data Transport
      manual) negotiation of these settings to provide optimal transfer
      speeds and reliability .
 
-  
+
 268. Flume
 269. Sqoop
 270. Pivotal GPLOAD/GPFDIST
@@ -963,19 +963,19 @@ Interoperability
 303. TOSCA
 304. OCCI
 
-     The Open Cloud Computing Interface (OCCI) is a RESTful 
-     Protocol and API that provides specifications  and remote 
-     management for the development of “interoperable tools” 
-     :cite:`www-occi`.  It supports IaaS, PaaS and SaaS and 
-     focuses on integration, portability, interoperability, 
-     innovation and extensibility. It provides a set of documents 
-     that describe an OCCI Core model, contain best practices 
-     of interaction with the model, combined into OCCI Protocols, 
+     The Open Cloud Computing Interface (OCCI) is a RESTful
+     Protocol and API that provides specifications  and remote
+     management for the development of “interoperable tools”
+     :cite:`www-occi`.  It supports IaaS, PaaS and SaaS and
+     focuses on integration, portability, interoperability,
+     innovation and extensibility. It provides a set of documents
+     that describe an OCCI Core model, contain best practices
+     of interaction with the model, combined into OCCI Protocols,
      explain methods of communication between components via
-     HTTP protocol introduced in the OCCI Renderings, and 
-     define infrastructure for IaaS presented in the OCCI 
-     Extensions.	
-     	
+     HTTP protocol introduced in the OCCI Renderings, and
+     define infrastructure for IaaS presented in the OCCI
+     Extensions.
+
      The current version 1.2 OCCI consists of seven documents that
      identify require and optional components. Of the Core Model.  In
      particular, the following components are required to implement:
@@ -983,37 +983,37 @@ Interoperability
      rendering. Meanwhile, Infrastructure, Platform and SLA models are
      optional.  The OCCI Core model defines instance types and
 
-     provides a layer of abstraction that allows the OCCI client 
-     to interact with the model without knowing of its potential 
-     structural changes. The model supports extensibility via 
-     inheritance and using mixin types that represent ability to 
-     add new components and capabilities at run-time. 
+     provides a layer of abstraction that allows the OCCI client
+     to interact with the model without knowing of its potential
+     structural changes. The model supports extensibility via
+     inheritance and using mixin types that represent ability to
+     add new components and capabilities at run-time.
      :cite:`www-occi-core`
-     
-     The OCCI Protocol defines the common set of names provided 
-     for the IaaS cloud services user that specify requested 
-     system requirements. It is often denoted as “resource 
+
+     The OCCI Protocol defines the common set of names provided
+     for the IaaS cloud services user that specify requested
+     system requirements. It is often denoted as “resource
      templates” or “flavours”  :cite:`www-occi-temp`.
-     
-     OCCI RESTful HTTP Protocol describes communications between 
-     server and client on OCCI platform via HTTP protocol 
-     [:cite:`www-occi-HTTP`]. It defines a minimum set of HTTP 
-     headers and status codes to ensure compliance with the 
-     OCCI Protocol. Separate requirements for Server and Client 
-     for versioning need to be implemented using HTTP 'Server' 
+
+     OCCI RESTful HTTP Protocol describes communications between
+     server and client on OCCI platform via HTTP protocol
+     [:cite:`www-occi-HTTP`]. It defines a minimum set of HTTP
+     headers and status codes to ensure compliance with the
+     OCCI Protocol. Separate requirements for Server and Client
+     for versioning need to be implemented using HTTP 'Server'
      header and 'User-Agent' header respectively.
-     
-     JSON rendering :cite:`www-occi-json` protocol provides 
-     JSON specifications to allow "render OCCI instances 
-     independently of the protocol being used." In addition, it 
-     provides details of the JSON object declaration, OCCI Action 
-     Invocation, object members required for OCCI Link Instance 
-     Rendering, "location maps to OCCI Core's source and target 
-     model attributes and kind maps to OCCI Core's target" to 
+
+     JSON rendering :cite:`www-occi-json` protocol provides
+     JSON specifications to allow "render OCCI instances
+     independently of the protocol being used." In addition, it
+     provides details of the JSON object declaration, OCCI Action
+     Invocation, object members required for OCCI Link Instance
+     Rendering, "location maps to OCCI Core's source and target
+     model attributes and kind maps to OCCI Core's target" to
      satisfy OCCI Link Instance Source/Target Rendering requirements.
-     Finally, it specifies various attributes and collection 
-     rendering requirements. 
-     The text rendering process is depricated and will be 
+     Finally, it specifies various attributes and collection
+     rendering requirements.
+     The text rendering process is depricated and will be
      removed from the next major version :cite:`www-occi-text`.
 
 305. CDMI
@@ -1027,7 +1027,7 @@ DevOps
 309. Docker (Machine, Swarm)
 310. Puppet
 311. Chef
-     
+
      Chef is a configuration management tool. It is implemented in
      Ruby and Erlang. Chef can be used to configure and maintain
      servers on-premise as well as cloud platforms like Amazon EC2,
@@ -1040,7 +1040,7 @@ DevOps
      Chef is available in open source version and it also has
      commercial products for the companies which need it
      :cite:`www-chef-commercial`
-        
+
 312. Ansible
 313. SaltStack
 314. Boto
@@ -1086,7 +1086,7 @@ DevOps
      AWS Opsworks is a configuration service provided by Amazon Web
      Services that uses Chef, a Ruby and Erlang based configuration
      management tool :cite:`www-wikichef`, to automate the
-     configuration, deployment, and management of servers and 
+     configuration, deployment, and management of servers and
      applications. There are two versions of AWS Opsworks.
      The first, a fee based offering called AWS OpsWorks for Chef
      Automate, provides a Chef Server and suite of tools to enable
@@ -1095,7 +1095,7 @@ DevOps
      containing various layers. Amazon Elastic Cloud Compute (EC2)
      instances or other resources can be deployed and configured
      in each layer. :cite:`www-awsopsworks`
-                                        
+
 328. OpenStack Ironic
 329. Google Kubernetes
 330. Buildstep
@@ -1141,7 +1141,7 @@ IaaS Management from HPC to hypervisors
      deploying instances across multiple clouds and monitoring those
      instance.  Nimbus platform supports Nimbus, Open Stack, Amazon
      and several other clouds.
-     
+
 351. CloudStack
 352. CoreOS
 353. rkt
@@ -1149,7 +1149,7 @@ IaaS Management from HPC to hypervisors
 355. vSphere and vCloud
 356. Amazon
 357. Azure
-358. Google and other public Clouds 
+358. Google and other public Clouds
 359. Networking: Google Cloud DNS
 360. Amazon Route 53
 
@@ -1276,7 +1276,7 @@ TechList.1: In class you will be given an HID and you will be assigned
   using gitchangelog in the commit message::
 
     new:usr: added paragraph about <PUTTECHHERE>
-    
+
   You can create one or more pull requests for the technology and the
   refernces. We have created in the referens file a placeholder using
   your HID to simplify the management of the refernces while avoiding
@@ -1286,7 +1286,7 @@ TechList.1: In class you will be given an HID and you will be assigned
   additional refernces than the Web page. Please add the most
   important once while limiting it to three if you can. Avoid
   plagearism and use proper quotations or better rewrite the text.
-  
+
   You must look at :doc:`technologies-hw` to sucessfully complete the homework
 
   A video about this hoemwork is posted at
@@ -1307,13 +1307,13 @@ TechList.1: In class you will be given an HID and you will be assigned
   While the Nagios entry is a good example (make sure grammer is ok
   the Google app engine is an example for a bad entry.
 
-  Do Techlist 1.a 1.b 1.c first. We  will assign Techlist 1.d and 
+  Do Techlist 1.a 1.b 1.c first. We  will assign Techlist 1.d and
   TechList 2 in February.
-	    
+
 TechList.1.a:
   Complete the pull request with the technologies assigned to you.
   Details for the assignment are posted in Piazza. Search for TechList.
-  
+
 TechList.1.b: Identify how to cite. We are using "scientific" citation
   formats such as IEEEtran, and ACM. We are **not** using citation
   formats such as Chicago, MLA, or ALP. The later are all for non
@@ -1334,14 +1334,14 @@ TechList 1.c:
   suspicious and subjective adjectives or phrases such as cheaper,
   superior, best, most important, with no equal, and others that you
   may not want to copy into your descriptions. Please focus on facts
-  not on what the author of the Web page claims. 
+  not on what the author of the Web page claims.
 
 TechList 1.d:
   Identify technologies from the Apache project or other
   Big Data related Web pages and projects that are not yet listed here
   and add the name and descriptions as well as references and that you
-  find important. 
-  
+  find important.
+
 TechList.2:
   In this hopweork we provide you with additional technologies
   that you need to compleate They are marked with (2) in the HID
@@ -1355,13 +1355,10 @@ TechList.3:
   others.
 
 
-  
+
 
 Refernces
 ---------
 
 .. bibliography:: ../refs.bib
    :cited:
-
-
-      
