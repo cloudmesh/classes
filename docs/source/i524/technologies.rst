@@ -52,7 +52,18 @@ Workflow-Orchestration
 17. Tez
 18. Google FlumeJava
 19. Crunch
+
 20. Cascading
+	Cascading software authored by Chris Wensel is development platform for building the application in Hadoop. 
+	It basically act as an abstraction for Apache Hadoop used for creating complex data processing workflow using
+	the scalability of hadoop however hiding the complexity of mapReduce jobs. 
+	User can write their program in java without having knowledge of mapReduce. Applications written on cascading are portable.  
+	:cite:`www-cascading`
+	Cascading Benefits
+		1. With Cascading application can be scaled as per the data sets.
+		2. Easily Portable
+		3. Single jar file for application deployment.
+
 21. Scalding
 22. e-Science Central
 23. Azure Data Factory
@@ -395,7 +406,15 @@ Basic Programming model and runtime, SPMD, MapReduce
 143. Hadoop
 144. Spark
 145. Twister
+
 146. MR-MPI
+	:cite:`www-mapreducempi`MR-MPI stands for Map Reduce-Message Passing Interface is open source
+	library build on top of standard MPI. It basically implements mapReduce operation providing a 
+	interface for user to simplify writing mapReduce program.
+	It is written in C++ and needs to be linked to MPI library	in order to make the basic map reduce
+	functionality to be executed in parallel on distributed memory architecture.
+	It provides interface for c, c++ and python. Using C interface the library can also be called from Fortrain.
+
 147. Stratosphere (Apache Flink)
 148. Reef
 149. Disco
@@ -850,6 +869,18 @@ Data Transport
 ----------------------------------------------------------------------
 
 263. BitTorrent
+	Bittorrent is P2P communication protocol commonly used for sending and receiving the large digital files like 
+	movies and audioclips.In order to upload and download file, user have to download bittorrent client which implement
+	the bittorrent protocol. Bittorrent uses the principle of swarning and tracking. :cite:`www-bittorrent` It divides the files
+	in large number of chunck and as soon as file is received it can be server to the other users for downloading. 
+	So rather than downloading one entire large file from one source, user can download small chunk from the different sources
+	of linked users in swarn. Bittorrent trackers keeps list of files available for transfer and helps the swarn user find each other. 
+
+	Using the protocol, machine with less configuration can serve as server for distributing the files. It result in increase in the
+	downloading speed and reduction in origin server configuration.
+
+	Few popular bittorrent client in μTorrent, qBittorrent.
+
 264. HTTP
 265. FTP
 266. SSH
