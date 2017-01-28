@@ -419,7 +419,7 @@ Inter process communication Collectives
 
 162. HPX-5
 
-     Based on :cite:` www-hpx-5 `, High Performance ParallelX (HPX-5)
+     Based on :cite:`www-hpx-5`, High Performance ParallelX (HPX-5)
      is an open source, distributed model that provides opportunity
      for operations to run unmodified on one-to-many nodes. The
      dynamic nature of the model accommodates effective “computing
@@ -1000,7 +1000,7 @@ Interoperability
 
      OCCI RESTful HTTP Protocol describes communications between
      server and client on OCCI platform via HTTP protocol
-     [:cite:`www-occi-HTTP`]. It defines a minimum set of HTTP
+     :cite:`www-occi-HTTP`. It defines a minimum set of HTTP
      headers and status codes to ensure compliance with the
      OCCI Protocol. Separate requirements for Server and Client
      for versioning need to be implemented using HTTP 'Server'
