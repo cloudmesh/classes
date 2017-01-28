@@ -296,13 +296,13 @@ High level Programming
      application. Predictive analytics and machine learning
      capabilities are dynamically allocated for searching and
      processing of spatial, graphical, and text data. 
-	 SAP HANA accommodates flexible development and deployment of 
-	 data on premises, cloud and hybrid configurations.  In a 
-	 nutshell, SAP HANA acts as a warehouse that integrates live 
-	 transactional data from various data sources on a single 
-	 platform :cite:`olofson_2014`. It provides extensive 
-	 administrative, security features and data access that ensures 
-	 high data availability, data protection and data quality.
+     SAP HANA accommodates flexible development and deployment of 
+     data on premises, cloud and hybrid configurations.  In a 
+     nutshell, SAP HANA acts as a warehouse that integrates live 
+     transactional data from various data sources on a single 
+     platform :cite:`olofson_2014`. It provides extensive 
+     administrative, security features and data access that ensures 
+     high data availability, data protection and data quality.
 
 113. HadoopDB
 114. PolyBase
@@ -737,8 +737,8 @@ NoSQL
      operations. It allows cluster expansion with no data
      rebalancing. When Voldemort performance was benchmarked with the
      other key-value databases such as Cassandra, Redis and HBase as
-     well as MySQL relational database
-     (:cite:`rabl_sadoghi_jacobsen_2012`), the Voldemart's throughput
+     well as MySQL relational database :cite:`rabl_sadoghi_jacobsen_2012`,
+     the Voldemart's throughput
      was twice lower than MySQL and Cassandra and six times higher
      than HBase. Voldemort was slightly underperforming in comparison
      with Redis.  At the same time, it demonstrated consistent linear
