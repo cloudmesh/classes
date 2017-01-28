@@ -300,7 +300,7 @@ High level Programming
 	 data on premises, cloud and hybrid configurations.  In a 
 	 nutshell, SAP HANA acts as a warehouse that integrates live 
 	 transactional data from various data sources on a single 
-	 platform [:cite:`olofson_2014`]. It provides extensive 
+	 platform :cite:`olofson_2014`. It provides extensive 
 	 administrative, security features and data access that ensures 
 	 high data availability, data protection and data quality.
 
