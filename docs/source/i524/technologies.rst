@@ -155,6 +155,20 @@ Application and Analytics
 75. three.js
 76. Potree
 77. DC.js
+
+    According to :cite:`www-dcjs`: “DC.js is a javascript charting
+    library with native crossfilter support, allowing exploration on
+    large multi-dimensional datasets. It uses d3 to render charts in
+    CSS-friendly SVG format. Charts rendered using dc.js are data
+    driven and reactive and therefore provide instant feedback to user
+    interaction.”. DC.js library can be used to perform data anlysis
+    on both mobile devices and different browsers. Under the dc
+    namespace the following chart classes are included: barChart,
+    boxplot, bubbleChart, bubbleOverlay, compositeChart, dataCount,
+    dataGrid, dataTable, geoChoroplethChart, heatMap,
+    legend,lineChart, numberDisplay, pieChart, rowChart, scatterPlot,
+    selectMenu and seriesChart.
+      
 78. TensorFlow
 79. CNTK
 
