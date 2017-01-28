@@ -54,11 +54,11 @@ Workflow-Orchestration
 19. Crunch
 
 20. Cascading
-	Cascading software authored by Chris Wensel is development platform for building the application in Hadoop. 
+	:cite:`www-cascading` Cascading software authored by Chris Wensel is development platform for building the application in Hadoop. 
 	It basically act as an abstraction for Apache Hadoop used for creating complex data processing workflow using
 	the scalability of hadoop however hiding the complexity of mapReduce jobs. 
-	User can write their program in java without having knowledge of mapReduce. Applications written on cascading are portable.  
-	:cite:`www-cascading`
+	User can write their program in java without having knowledge of mapReduce. Applications written on cascading are portable.   
+ 
 	Cascading Benefits
 		1. With Cascading application can be scaled as per the data sets.
 		2. Easily Portable
@@ -408,7 +408,7 @@ Basic Programming model and runtime, SPMD, MapReduce
 145. Twister
 
 146. MR-MPI
-	:cite:`www-mapreducempi`MR-MPI stands for Map Reduce-Message Passing Interface is open source
+	:cite:`www-mapreducempi` MR-MPI stands for Map Reduce-Message Passing Interface is open source
 	library build on top of standard MPI. It basically implements mapReduce operation providing a 
 	interface for user to simplify writing mapReduce program.
 	It is written in C++ and needs to be linked to MPI library	in order to make the basic map reduce
