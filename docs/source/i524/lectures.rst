@@ -75,6 +75,14 @@ Lectures - Collaboration Track
    :widths: 10, 70, 10, 10
    :file: lectures-collab.csv
 
+Lectures - Systems
+------------------
+
+.. csv-table:: Systems Track
+   :header: "Treat", "Quantity", "Description", "Length"
+   :widths: 10, 70, 10, 10
+   :file: lectures-systems.csv	  
+
 Unreleased Lectures
 -------------------
 
