@@ -28,7 +28,7 @@ Lectures - Systems
 .. csv-table:: Systems Track
    :header: "Treat", "Quantity", "Description", "Length", "Released"
    :widths: 15, 10, 10, 10, 10
-   :file: lectures-systems.csv
+   :file: lectures-systems-unreleased.csv
 
 Lectures - Technology Track
 ---------------------------
