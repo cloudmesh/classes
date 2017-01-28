@@ -11,13 +11,13 @@ Lectures - Unreleased Theory Track
 .. csv-table:: Unreleased Theory Track
    :header: "ID", "Description", "Resources", "Length"
    :widths: 10, 70, 10, 10
-   :file: lectures-theory-unreleasd.csv
+   :file: lectures-theory-unreleased.csv
 
 Unreleased Lectures - Collaboration Track
 ------------------------------
 
 .. csv-table:: Unreleased Collaboration Track
-   :header: "Treat", "Quantity", "Description", "Length"
+   :header: "ID", "Quantity", "Description", "Length"
    :widths: 10, 70, 10, 10
    :file: lectures-collab-unreleased.csv
 	  
@@ -26,7 +26,7 @@ Lectures - Systems
 ------------------
 
 .. csv-table:: Systems Track
-   :header: "Treat", "Quantity", "Description", "Length", "Released"
+   :header: "ID", "Quantity", "Description", "Length", "Released"
    :widths: 15, 10, 10, 10, 10
    :file: lectures-systems-unreleased.csv
 
@@ -34,7 +34,7 @@ Lectures - Technology Track
 ---------------------------
 
 .. csv-table:: Tecnology Track
-   :header: "Treat", "Quantity", "Description", "Length", "Released"
+   :header: "ID", "Quantity", "Description", "Length", "Released"
    :widths: 15, 10, 10, 10, 10
    :file: lectures-tech.csv
 	  
