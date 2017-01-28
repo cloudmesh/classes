@@ -1236,6 +1236,11 @@ Distributed Coordination
 
 373. Google Chubby
 374. Zookeeper
+
+     Some description about Zookeeper :cite:`www-zookeeper` here.
+
+     **DO NOT MERGE**
+
 375. Giraffe
 376. JGroups
 
