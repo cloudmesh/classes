@@ -13,8 +13,8 @@ Working with Git
 When working with git, do not forget to set it up properly. Often users seem to forget 
 the following important commands to initialize it::
 
-  $ git config --global user.name "John Doe"
-  $ git config --global user.email johndoe@example.com
+  $ git config --global user.name "Albert Zweistein"
+  $ git config --global user.email albert.zweistein@gmail.com
 
 Developing
 ==========
