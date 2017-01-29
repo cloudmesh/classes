@@ -511,21 +511,35 @@ Dict
 One of the very important datastructures in python is a dictionary
 also refered to as *dict*. It represents a key value store::
 
-  person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
-
-  print ("person['Name']: ", person['Name'])
-  print ("person['Age']: ", person['Age'])
+  >>> person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
+  >>> print("person['Name']: ", person['Name'])
+  person['Name']:  Albert
+  >>> print("person['Age']: ", person['Age'])
+  person['Age']:  100
 
 You can delete elements with the following commands::
 
-  del person['Name']; # remove entry with key 'Name'
-  person.clear();     # remove all entries in dict
-  del person;        # delete entire dictionary
+  >>> del person['Name'] # remove entry with key 'Name'
+  >>> person
+  {'Age': 100, 'Class': 'Scientist'}
+  >>> person.clear()     # remove all entries in dict
+  >>> person
+  {}
+  >>> del person         # delete entire dictionary
+  >>> person
+  Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    NameError: name 'person' is not defined
 
 You can iterate ofer a dict::
 
-  for item in person:
-    print (item, person[item])
+  >>> person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
+  >>> for item in person:
+  ...   print(item, person[item])
+  ...   <ENTER>
+  Age 100
+  Name Albert
+  Class Scientist
 
 Lists
 -----
