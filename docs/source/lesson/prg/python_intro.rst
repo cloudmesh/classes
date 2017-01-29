@@ -778,18 +778,20 @@ You can save your programs to files which the interpreter can then
 execute.  This has the benefit of allowing you to track changes made
 to your programs and sharing them with other people.
 
-Start by opening a new file ``hello.py``::
-
-  $ nano hello.py
+Start by opening a new file ``hello.py`` in the Python editor of your
+choice. If you don't have a preferred editor, we recommend `PyCharm
+<https://www.jetbrains.com/pycharm/>`_.
 
 Now enter write a simple program and save::
 
-  print "Hello world!"
+  from __future__ import print_statement, division
+  print("Hello world!")
 
-As a check, make sure the file contains the expected contents::
+As a check, make sure the file contains the expected contents on the
+command line::
 
   $ cat hello.py
-  print "Hello world!"
+  print("Hello world!")
 
 To execute your program pass the file as a parameter to the ``python``
 command::
@@ -798,155 +800,55 @@ command::
   Hello world!
 
 
-Congratulations, you have written a Python **module**.
-Files in which Python directives are stored are called **module**\s
+Congratulations, you have written a Python **module**.  Files in which
+Python code is stored are called **module**\s. You can execute a
+Python module form the command line like you just did, or you can
+import it in other Python code using the ``import`` statement.
 
-You can make this programs more interesting as well.  Let's write a
-program that asks the user to enter a number, *n*, and prints out the
-*n*\-th number in the `Fibonacci sequence`_::
+Let's write a more involved Python program that will receive as input
+the lengths of the three sides of a triangle, and will output whether
+they define a valid triangle. A triangle is valid if the length of
+each side is less than the sum of the lengths of the other two sides
+and greater than the difference of the lengths of the other two sides.::
 
-   $ emacs print_fibs.py
-
-::
-
-    import sys
-
-    def fib(n):
-	"""
-	Return the nth fibonacci number
-
-	The nth fibonacci number is defined as follows:
-	Fn = Fn-1 + Fn-2
-	F2 = 1
-	F1 = 1
-	F0 = 0
-	"""
-
-	if n == 0:
-	    return 0
-	elif n == 1:
-	    return 1
-	else:
-	    return fib(n-1) + fib(n-2)
+  from __future__ import print_function, division
+  import argparse
 
 
-    if __name__ == '__main__':
-	n = int(sys.argv[1])
-	print fib(n)
+  def check_triangle(a, b, c):
+	return \
+		a < b + c and a > abs(b - c) and \
+		b < a + c and b > abs(a - c) and \
+		c < a + b and c > abs(a - b)
 
 
-We can now run this like so::
+  if __name__ == '__main__':
+	parser = argparse.ArgumentParser(description='Check if a triangle is valid.')
+	parser.add_argument('length', type=int, help='The length of the triangle.')
+	parser.add_argument('width', type=int, help='The width of the triangle.')
+	parser.add_argument('height', type=int, help='The height of the triangle.')
+	args = parser.parse_args()
 
-  $ python print_fibs.py 5
-  5
+	print('Triangle with sides %d, %d and %d is valid: %r' % (
+		args.length, args.width, args.height,
+		check_triangle(args.length, args.width, args.height)
+	))
+
+Assuming we save the program in a file called ``check_triangle.py``,
+we can run it like so::
+
+  $ python check_triangle.py 4 5 6
+  Triangle with sides 4, 5 and 6 is valid: True
 
 Let break this down a bit.
-The first part::
 
-  python print_fibs.py 5
-
-can be translated to say:
-
-  The Python interpreter ``python`` should run the ``print_fibs.py``
-  program and pass it the parameter ``5``.
-
-The interpreter then looks at the ``print_fibs.py`` file and begins to
-execute it.
-The first line it encounters is:
-
-.. code:: python
-
-   import sys
-
-This line consists of the ``import`` keyword.  Here ``import``
-attempts to load the ``sys`` module, which has several useful items.
-
-Next the interpreter sees the ``def`` keyword.  The begins the
-definition of a function, called ``fib`` here.  Our ``fib`` function
-takes a single argument, named ``n`` within the function definition.
-
-Next we begin a multi-line string between the triple double-quotes.
-Python can take this string and create documentation from it.
-
-The ``fib`` function returns the *n*\-th number in the `Fibonacci
-sequence`_.  This sequence is mathematically defined as (where *n* is
-subscripted):
-
-.. math::
-
-   F_0 &= 0 \\
-   F_1 &= 1 \\
-   F_n &= F_{n-1} + F_{n-2}
-
-This translates to Python as:
-
-.. code:: python
-
-   if n == 0:
-     return 0
-   elif n == 1:
-  return 1
-   else:
-     return fib(n-1) + fib(n-2)
-
-
-Next we have the block:
-
-.. code:: python
-
-   if __name__ == '__main__':
-
-
-If the interpreter is running this module then there will be a
-variable ``__name__`` whose value is ``__main__``.  This **if
-statement** checks for this condition and executes this block if the
-check passed.
-
-.. tip::
-
-   Try removing the ``if __name__ == '__main__'`` block and run the
-   program.
-   How does it behave differently?
-   What about if you replace with something like:
-
-   .. code:: python
-
-      print fib(5)
-      print fib(10)
-
-
-The next line:
-
-.. code:: python
-
-   n = int(sys.argv[1])
-
-does three different things.
-First it gets the value in the ``sys.argv`` array at index 1.
-This was the parameter `5` we originally passed to our program::
-
-  $ python print_fibs.py 5
-Substituting the parameter in, the line can be rewritten as:
-
-.. code:: python
-
-   n = int("5")
-
-We see that the ``5`` is represented as a string.
-However, we need to use integers for the ``fib`` function.
-We can use ``int`` to convert ``"5"`` to ``5``
-
-We now have:
-
-.. code:: python
-
-   n = 5
-
-which assigns the value ``5`` to the variable ``n``.
-We can now call ``fib(n)`` and ``print`` the result.
-
-.. _Fibonacci sequence: http://en.wikipedia.org/wiki/Fibonacci_number
-
+#. We are importing the ``print_function`` and ``division`` modules from Python 3 like we did earlier in this tutorial. It's a good idea to always include these in your programs.
+#. We've defined the ``check_triangle`` function which has three parameters. It returns ``True`` if all six expressions defined inside are true, and ``False`` otherwise.
+#. We've used the backslash symbol ``\`` to format are code nicely. The backslash simply indicates that the current line is being continued on the next line.
+#. When we run the program, we do the check ``if __name__ == '__main__'``. ``__name__`` is an internal Python variable that allows us to tell whether the current file is being run from the command line (value ``__name__``), or is being imported by a module (the value will be the name of the module). Thus, with this statement we're just making sure the program is being run by the command line.
+#. We are using the ``argparse`` module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces the correct number and type of command line arguments automatically.
+#. In the ``print`` function, we are using `Python's string formatting capabilities <https://docs.python.org/2/library/string.html#format-string-syntax>`_ to insert values into the string we are displaying.
+   
 Installing Libraries
 =================================================================
 
