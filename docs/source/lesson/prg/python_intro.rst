@@ -505,11 +505,24 @@ You can also ask for help about something using ``help()``:
    spacebar to go down a page ``w`` to go up a page, the arrow keys to
    go up/down line-by-line, or ``q`` to exit.
 
+Lists
+-----
+
+see: https://www.tutorialspoint.com/python/python_lists.htm
+
+Sets
+----
+
 Dict
 ----
 
 One of the very important datastructures in python is a dictionary
-also refered to as *dict*. It represents a key value store::
+also refered to as *dict*.
+
+Basics
+^^^^^^^
+
+A dictionary represents a key value store::
 
   >>> person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
   >>> print("person['Name']: ", person['Name'])
@@ -541,11 +554,59 @@ You can iterate ofer a dict::
   Name Albert
   Class Scientist
 
-Lists
------
+Keys and Values
+^^^^^^^^^^^^^^^
 
-see: https://www.tutorialspoint.com/python/python_lists.htm
+You can retrieve both the keys and values of a dictionary using the
+``keys()`` and ``values()`` methods of the dictionary, respectively::
 
+  >>> person.keys()
+  ['Age', 'Name', 'Class']
+  >>> person.values()
+  [100, 'Albert', 'Scientist']
+
+Both methods return lists. Notice, however, that the order in which
+the elements appear in the returned lists (``Age``, ``Name``,
+``Class``) is different from the order in which we listed the elements
+when we declared the dictionary initially (``Name``, ``Age``,
+``Class``). It is important to keep this in mind: **you can't make any
+assumptions about the order in which the elements of a dictionary will
+be returned by the ``keys()`` and ``values()`` methods**.
+
+However, you can assume that if you call ``keys()`` and ``values()``
+in sequence, the order of elements will at least correspond in both
+methods. In the above example ``Age`` corresponds to ``100``, ``Name``
+to ``'Albert``, and ``Class`` to ``Scientist``, and you will observe
+the same correspondence in general as long as **``keys()`` and
+``values()`` are called one right after the other**.
+
+Couting with Dictionaries
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+One application of lists that frequently comes up is counting the
+elements in a sequence. For example, say we have a sequence of die
+rolls::
+
+  >>> import random
+  >>> die_rolls = [random.choice(['heads', 'tails']) for _ in range(10)]
+  >>> die_rolls
+  ['heads', 'tails', 'heads', 'tails', 'heads', 'heads', 'tails', 'heads', 'heads', 'heads']
+
+The actual list ``die_rolls`` will likely be different for you since
+the outcomes of the die rolls are random.
+
+To compute the probabilities of heads and tails, we could count how
+many heads and tails we have in the list::
+
+  >>> counts = {'heads': 0, 'tails': 0}
+  >>> for outcome in die_rolls:
+  ...   assert outcome in counts
+  ...   counts[outcome] += 1
+  ...   <ENTER>
+  >>> print('Probability of heads: %.2f' % (counts['heads'] / len(die_rolls)))
+  Probability of heads: 0.70
+  >>> print('Probability of tails: %.2f' % (counts['tails'] / sum(counts.values())))
+  Probability of tails: 0.30
 
 Control Statements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
