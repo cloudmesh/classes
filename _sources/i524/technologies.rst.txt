@@ -133,6 +133,25 @@ Application and Analytics
 42. PetSc
 43. PLASMA MAGMA
 44. Azure Machine Learning
+    
+    Azure Machine Learning is a cloud based service that can be used
+    to do predictive analytics, machine learning or data mining. It
+    has features like in-built algorithm library, machine learning
+    studio and a webservice :cite:`www-azureMLSite`. In built
+    algorithm library has implementation of various popular machine
+    learning algorithms like decision tree, SVM, linear regression,
+    neural networks etc. Machine learning studio facilitates creation
+    of predictive models using graphical user interface by dragging,
+    dropping and connecting of different modules that can be used by
+    people with minimal knowledge in the machine learning
+    field. Machine learning studio is a free service for basic version
+    and comes with a monthly charge for advanced versions. Apart from
+    building models, studio also has options to do preprocessing like
+    clean, transform and normalize the data. Webservice provides
+    option to deploy the machine learning algorithm as ready to
+    consume APIs that can be reused in future with minimal effort and
+    can also be published.
+    
 45. Google Prediction API & Translation API
 46. mlpy
 47. scikit-learn
@@ -261,7 +280,8 @@ Application Hosting Frameworks
 89. IBM BlueMix
 90. (Ninefold)
 
-    no longer active
+    The Australian based cloud computing platform has shut down their
+    services since January 30, 2016. Refer :cite:`www-ninefoldSite`
 
 91. Jelastic
 92. Stackato
@@ -453,6 +473,25 @@ Basic Programming model and runtime, SPMD, MapReduce
 154. Ligra
 155. GraphChi
 156. Galois
+     
+     Galois system was built by intelligent software systems team at
+     University of Texas, Austin. As explained in
+     :cite:`www-galoisSite`, “Galois is a system that automatically
+     executes 'Galoized' serial C++ or Java code in parallel on
+     shared-memory machines. It works by exploiting amorphous
+     data-parallelism, which is present even in irregular codes that
+     are organized around pointer-based data structures such as graphs
+     and trees”. By using Galois provided data structures programmers
+     can write serial programs that gives the performance of parallel
+     execution. Galois employs annotations at loop levels to
+     understand correct context during concurrent execution and
+     executes the code that could be run in parallel. The key idea
+     behind Galois is Tao-analysis, in which parallelism is exploited
+     at compile time rather than at run time by creating operators
+     equivalent of the code by employing data driven local computation
+     algorithm :cite:`taoParallelismPaper`. Galois currently supports
+     C++ and Java.
+	   
 157. Medusa-GPU
 158. MapGraph
 159. Totem
@@ -949,6 +988,29 @@ Cluster Resource Management
 280. OpenPBS
 281. Moab
 282. Slurm :cite:`www-slurm`
+
+     Simple Linux Utility for Resource Management (SLURM) workload
+     manager is an open source, scalable cluster resource management
+     tool used for job scheduling in small to large Linux cluster
+     using multi-core architecture. As per,
+     :cite:`www-slurmSchedmdSite` SLURM has three key
+     functions. First, it allocates resources to users for some
+     duration with exclusive and/or non-exclusive access. Second, it
+     enables users to start, execute and monitor jobs on the resources
+     allocated to them. Finally, it intermediates to resolve conflicts
+     on resources for pending work by maintaining them in a queue. The
+     slurm architecture has following components: a centralized
+     manager to monitor resources and work, may have a backup manager,
+     daemon on each server to provide fault-tolerant communications,
+     an optional daemon for clusters with multiple mangers and tools
+     to initiate, terminate and report about jobs in a graphical view
+     with network topology. It also provides around twenty additional
+     plugins that could be used for functionalities like accounting,
+     advanced reservation, gang scheduling, back fill scheduling and
+     multifactor job prioritization. Though originally developed for
+     Linux, SLURM also provides full support on platforms like AIX,
+     FreeBSD, NetBSD and Solaris :cite:`www-slurmPlatformsSite`.
+     
 283. Torque
 284. Globus Tools
 285. Pilot Jobs
@@ -1296,6 +1358,24 @@ Distributed Coordination
 373. Google Chubby
 374. Zookeeper
 375. Giraffe
+
+     Giraffe is a scalable distributed coordination
+     service. Distributed coordination is a media access technique
+     used in distributed systems to perform functions like providing
+     group membership, gaining lock over resources, publishing,
+     subscribing, granting ownership and synchronization together
+     among multiple servers without issues. Giraffe was proposed as
+     alternative to coordinating services like Zookeeper and Chubby
+     which were efficient only in read-intensive scenario and small
+     ensembles. To overcome this three important aspects were included
+     in the design of Giraffe :cite:`giraffePaper`. First feature is
+     Giraffe uses interior-node joint trees to organize coordination
+     servers for better scalability. Second, Giraffe uses Paxos
+     protocol for better consistency and to provide more
+     fault-tolerance. Finally, Giraffe also facilitates hierarchical
+     data organization and in-memory storage for high throughput and
+     low latency.
+     
 376. JGroups
 
 Message and Data Protocols
