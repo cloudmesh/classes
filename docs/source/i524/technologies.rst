@@ -166,6 +166,20 @@ Application and Analytics
 75. three.js
 76. Potree
 77. DC.js
+
+    According to :cite:`www-dcjs`: “DC.js is a javascript charting
+    library with native crossfilter support, allowing exploration on
+    large multi-dimensional datasets. It uses d3 to render charts in
+    CSS-friendly SVG format. Charts rendered using dc.js are data
+    driven and reactive and therefore provide instant feedback to user
+    interaction.”. DC.js library can be used to perform data anlysis
+    on both mobile devices and different browsers. Under the dc
+    namespace the following chart classes are included: barChart,
+    boxplot, bubbleChart, bubbleOverlay, compositeChart, dataCount,
+    dataGrid, dataTable, geoChoroplethChart, heatMap,
+    legend,lineChart, numberDisplay, pieChart, rowChart, scatterPlot,
+    selectMenu and seriesChart.
+      
 78. TensorFlow
 79. CNTK
 
@@ -198,6 +212,20 @@ Application Hosting Frameworks
 82. Red Hat OpenShift
 83. Heroku
 84. Aerobatic
+
+    According to :cite:`www-aero`: Aerobatic is a platform that allows
+    hosting static websites. It used to be an ad-on for Bitbucket but
+    now Aerobatic is transitioning to standalone CLI(command Line
+    Tool) and web dashboard . Aerobatic allows automatic builds to
+    different branches. New changes to websites can be deployed using
+    aero deploy command which can be executed from local desktop or
+    any of CD tools and services like Jenkins, Codeship,Travis and so
+    on.  It also allows users to configure custom error pages and
+    offers authentication which can also be customized. Aerobatic is
+    backed by AWS cloud. Aerobatic has free plan and pro plan options
+    for customers.
+    
+
 85. AWS Elastic Beanstalk
 86. Azure
 
