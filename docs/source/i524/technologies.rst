@@ -355,13 +355,13 @@ High level Programming
      application. Predictive analytics and machine learning
      capabilities are dynamically allocated for searching and
      processing of spatial, graphical, and text data. 
-	 SAP HANA accommodates flexible development and deployment of 
-	 data on premises, cloud and hybrid configurations.  In a 
-	 nutshell, SAP HANA acts as a warehouse that integrates live 
-	 transactional data from various data sources on a single 
-	 platform :cite:`olofson_2014`. It provides extensive 
-	 administrative, security features and data access that ensures 
-	 high data availability, data protection and data quality.
+     SAP HANA accommodates flexible development and deployment of 
+     data on premises, cloud and hybrid configurations.  In a 
+     nutshell, SAP HANA acts as a warehouse that integrates live 
+     transactional data from various data sources on a single 
+     platform :cite:`olofson_2014`. It provides extensive 
+     administrative, security features and data access that ensures 
+     high data availability, data protection and data quality.
 
 113. HadoopDB
 114. PolyBase
@@ -504,6 +504,7 @@ Inter process communication Collectives
 161. publish-subscribe: MPI
 
 162. HPX-5
+
 
      Based on :cite:`hpx-5`, High Performance ParallelX (HPX-5)
      is an open source, distributed model that provides opportunity
