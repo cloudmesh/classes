@@ -1,6 +1,36 @@
 FAQ
 ====
 
+How do I ask a question?
+------------------------
+
+We are using piazza for asking question. Our intend is to first gather
+the answer on piazza and than move the answer in some form to the web
+page if appropriate.
+
+However asking a quaestion may require some effort on your part.
+
+We suggest the following
+
+* Before asking the quetion look at the Class Web site and in
+  piazza. Both have search functions that you can use.
+* Do not burry your question in an unrelated post. INstead use the
+  **New Post** button
+* Provide enough information in the questions. THis may include:
+
+  * yur name
+  * your HID
+  * the exact URL where the issue aooruce (if related to the Web page
+    or piaza)
+  * detailed description of what the error is about
+  * Make use of the online sessions so you can demonstrate the issue
+    if it complicated to describe
+
+A student als pointed to the following post:
+ 
+http://www.techsupportalert.com/content/how-ask-question-when-you-want-technical-help.htm
+
+
 What are the prerequisites for this class?
 ---------------------------------------------------------------------------------------
 
@@ -347,5 +377,6 @@ I524: I do not know python. What do I do?
 
 This class requires python. Please learn it. We will be using ansible
 for the project. This you can acquire as part of the class through
-self study.
+self study. There is a section under lessosn that has some elementary
+python included.
 

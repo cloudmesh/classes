@@ -1,6 +1,9 @@
-Unit 3, System Access to FutureSystems, ,,NO
-* Unit 3.A, ssh-keygen, `Video <https://www.youtube.com/watch?v=pQb2VV1zNIc&feature=em-upload_owner>`_, 0:04:00   ,NO
-* Unit 3.B, Shell Access, `Video <https://www.youtube.com/watch?v=aJDXfvOrzRE&index=3&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx>`_, 0:03:00   ,NO
-* Unit 3.C, Account Creation, `Video <https://www.youtube.com/watch?v=X6zeVEALzTk>`_, 0:12:00   ,NO
-* Unit 3.D, Remote Login, `Video <https://mix.office.com/watch/eddgjmovoty0>`_, 0:06:00   ,NO
-* Unit 3.E, Resources (Where to find information) e.g. man pages -  google search -  openstack document, , ,NO
+Ubuntu, Development OS for the class, `Web page <../lesson/linux/ubuntu.html>`_,
+Virtualbox, Virtualbox for class, `Web page <..lesson/linux/virtualbox.html>`_,
+  , Instalation of ubuntu in virtualbox, `Video <https://youtu.be/NWibDntN2M4>`_,   
+  , Instalation of guest additions in virtualbox, `Video <https://youtu.be/wdCoiNdn2jA>`_,   
+Shell, Linux Shell, `Web Page <../lesson/linux/linux.html>`_,
+Python, (Draft) Introduction to Python, `Web page <../lesson/prg/python_intro.html>`_,
+      , (Draft) Python for Big Data, `Web Page <../lesson/prg/python_big_data.html>`_,
+      , (Draft - Advanced) Python Fingerprint example, `Web page <../lesson/prg/python_lesson1.html>`_,
+      , PyCharm, `Video <https://www.youtube.com/watch?v=X8ZpbZweJcw>`_,      
