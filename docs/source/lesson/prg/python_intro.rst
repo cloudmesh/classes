@@ -571,16 +571,16 @@ the same correspondence in general as long as **``keys()`` and
 Counting with Dictionaries
 -----------------------------------------------------------------
 
-One application of lists that frequently comes up is counting the
-elements in a sequence. For example, say we have a sequence of die
-rolls::
+One application of dictionaries that frequently comes up is counting
+the elements in a sequence. For example, say we have a sequence of
+coin flips::
 
   >>> import random
-  >>> die_rolls = [random.choice(['heads', 'tails']) for _ in range(10)]
-  >>> die_rolls
+  >>> coin_flips = [random.choice(['heads', 'tails']) for _ in range(10)]
+  >>> coin_flips
   ['heads', 'tails', 'heads', 'tails', 'heads', 'heads', 'tails', 'heads', 'heads', 'heads']
 
-The actual list ``die_rolls`` will likely be different when you
+The actual list ``coin_flips`` will likely be different when you
 execute this on your computer since the outcomes of the die rolls are
 random.
 
@@ -588,14 +588,20 @@ To compute the probabilities of heads and tails, we could count how
 many heads and tails we have in the list::
 
   >>> counts = {'heads': 0, 'tails': 0}
-  >>> for outcome in die_rolls:
+  >>> for outcome in coin_flips:
   ...   assert outcome in counts
   ...   counts[outcome] += 1
   ...   <ENTER>
-  >>> print('Probability of heads: %.2f' % (counts['heads'] / len(die_rolls)))
+  >>> print('Probability of heads: %.2f' % (counts['heads'] / len(coin_flips)))
   Probability of heads: 0.70
   >>> print('Probability of tails: %.2f' % (counts['tails'] / sum(counts.values())))
   Probability of tails: 0.30
+
+In addition to how we use the dictionary ``counts`` to count the elements of ``coin_flips``, notice a couple things about this example:
+
+#. We used the ``assert outcome in counts`` statement. The ``assert`` statement in Python allows you to easily insert debugging statements in your code to help you discover errors more quickly. ``assert`` statements are executed whenever the internal Python ``__debug__`` variable is set to ``True``, which is always the case unless you start Python with the ``-O`` option which allows you to run *optimized* Python.
+
+#. When we computed the probability of tails, we used the built-in ``sum`` function, which allowed us to quickly find the total number of coin flips. ``sum`` is one of many built-in function you can `read about here <https://docs.python.org/2/library/functions.html>`_.
 
 Control Statements
 =================================================================
