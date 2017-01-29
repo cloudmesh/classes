@@ -505,7 +505,7 @@ Inter process communication Collectives
 
 162. HPX-5
 
-     Based on :cite:`www-hpx-5`, High Performance ParallelX (HPX-5)
+     Based on :cite:`hpx-5`, High Performance ParallelX (HPX-5)
      is an open source, distributed model that provides opportunity
      for operations to run unmodified on one-to-many nodes. The
      dynamic nature of the model accommodates effective “computing
@@ -521,7 +521,7 @@ Inter process communication Collectives
      compiled on various OS platforms , however it was only tested on
      several Linux and Darwin (10.11) platforms. Required
      configurations and environments could be accessed via
-     :cite:`www-hpx-5-user-guide`.
+     :cite:`hpx-5-user-guide`.
 
 163. Argo BEAST HPX-5 BEAST PULSAR
 164. Harp
@@ -1106,28 +1106,27 @@ Interoperability
      a)Core Model, b)HTTP protocol, c)Text rendering and d)JSON
      rendering. Meanwhile, Infrastructure, Platform and SLA models are
      optional.  The OCCI Core model defines instance types and
-
      provides a layer of abstraction that allows the OCCI client
      to interact with the model without knowing of its potential
      structural changes. The model supports extensibility via
      inheritance and using mixin types that represent ability to
      add new components and capabilities at run-time.
-     :cite:`www-occi-core`
+     :cite:`nyren-edmonds-papaspyrou-2016`
 
      The OCCI Protocol defines the common set of names provided
      for the IaaS cloud services user that specify requested
-     system requirements. It is often denoted as “resource
-     templates” or “flavours”  :cite:`ogf-222`.
+     system requirements. It is often denoted as "resource
+     templates" or "flavours"  :cite:`drescher-parak-wallom-2015`.
 
      OCCI RESTful HTTP Protocol describes communications between
      server and client on OCCI platform via HTTP protocol
-     :cite:`www-occi-HTTP`. It defines a minimum set of HTTP
+     :cite:`nyren-edmonds-metsch-2016`. It defines a minimum set of HTTP
      headers and status codes to ensure compliance with the
      OCCI Protocol. Separate requirements for Server and Client
      for versioning need to be implemented using HTTP 'Server'
      header and 'User-Agent' header respectively.
 
-     JSON rendering :cite:`www-occi-json` protocol provides
+     JSON rendering :cite:`nyren-feldhaus-parak-2016` protocol provides
      JSON specifications to allow "render OCCI instances
      independently of the protocol being used." In addition, it
      provides details of the JSON object declaration, OCCI Action
@@ -1138,7 +1137,7 @@ Interoperability
      Finally, it specifies various attributes and collection
      rendering requirements.
      The text rendering process is depricated and will be
-     removed from the next major version :cite:`www-occi-text`.
+     removed from the next major version :cite:`edmonds-metsch-2016`.
 
 305. CDMI
 306. Whirr
@@ -1229,15 +1228,15 @@ DevOps
 	automates deployment of applications on the cloud. The 
 	program is pushed to the PaaS using git push, and then 
 	PaaS detects the programming language, builds, and runs 
-	application on a cloud platform :cite:`www-heroku`.
+	application on a cloud platform :cite:`plassnig_2015`.
 	Buildstep takes two parameters: a tar file that contains 
 	the application and a new application container name to 
 	create a new container for this application. Build script 
 	is dependent on buildpacks that are pre-requisites for 
 	buildstep to run. The builder script runs inside the new 
 	container.  The resulting build app can be run with Docker 
-	using docker build -t your_app_name command.
-	:cite:`www-buildstep`. 
+	using docker build -t your_app_name command
+	:cite:`gonzalez_2015`. 
 
 331. Gitreceive
 332. OpenTOSCA
