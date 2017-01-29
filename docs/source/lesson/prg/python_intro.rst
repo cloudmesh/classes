@@ -576,11 +576,11 @@ the elements in a sequence. For example, say we have a sequence of
 coin flips::
 
   >>> import random
-  >>> coin_flips = [random.choice(['heads', 'tails']) for _ in range(10)]
-  >>> coin_flips
+  >>> die_rolls = [random.choice(['heads', 'tails']) for _ in range(10)]
+  >>> die_rolls
   ['heads', 'tails', 'heads', 'tails', 'heads', 'heads', 'tails', 'heads', 'heads', 'heads']
 
-The actual list ``coin_flips`` will likely be different when you
+The actual list ``die_rolls`` will likely be different when you
 execute this on your computer since the outcomes of the die rolls are
 random.
 
