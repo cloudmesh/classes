@@ -1,12 +1,13 @@
 
 .. _python_intro:
 
+======================
 Introduction to Python
 ======================
 
 
 Acknowledgments
-----------------------------------------------------------------------
+=================================================================
 
 Portions of this lesson have been adapted from the `official Python
 Tutorial`_ copyright `Python Software Foundation`_.
@@ -17,7 +18,7 @@ Tutorial`_ copyright `Python Software Foundation`_.
 .. contents::
    
 Description
------------------------------------------------------------------
+=================================================================
 
 Python is an easy to learn programming language. It has efficient
 high-level data structures and a simple but effective approach to
@@ -75,13 +76,10 @@ you will be able to read and write Python modules and programs, and
 you will be ready to learn more about the various Python library
 modules.
 
-
-
 .. _The Zen of Python: https://www.python.org/dev/peps/pep-0020/
 
-
 Installation
-----------------------------------------------------------------------
+=================================================================
 
 Python is easy to install and very good instructions for most
 platforms can be found on the python.org Web page. We will be
@@ -95,7 +93,7 @@ isolate your development python from the system installed python.
 	  it.
 
 Alternative Installations
--------------------------
+=================================================================
 
 The best installation of python is provided by python.og. However
 others claim to have alternative environments that allow you to
@@ -171,7 +169,6 @@ not a community best practice, but may work for an individual.
 We have however in regards to using other python version additional
 bonus projects such as
 
-
 * deploy run and document cloudmesh on ironpython
 * deploy run and document cloudmesh on anaconde, develop script to
   generate a conda packge form github
@@ -180,10 +177,9 @@ bonus projects such as
 * deploy run and document cloudmesh on ironpython
 * other documentation that would be useful
 
-
-
 Resources
-----------------------------------------------------------------------
+=================================================================
+
 If you are unfamiliar with programming in Python, we also refer you
 to some of the numerous online resources. You may wish to start with
 `Learn Python`_ or the book `Learn Python the Hard Way`_. Other
@@ -221,12 +217,8 @@ otherwise stated.
 .. _references for learning: https://wiki.python.org/moin/BeginnersGuide/Programmers
 .. _Learn Python: https://www.learnpython.org
 
-
-
-
-
 Prerequisite
-----------------------------------------------------------------------
+=================================================================
 
 In order to conduct this lesson you should
 
@@ -240,7 +232,7 @@ In order to conduct this lesson you should
   consult the manual and tutorials available for it on the internet.
 
 Dependencies
-----------------------------------------------------------------------
+=================================================================
 
 * `Python <https://www.python.org/>`_
 * `Pip <https://pip.pypa.io/en/stable/>`_
@@ -252,7 +244,7 @@ Dependencies
 
 
 Learning Goals
-----------------------------------------------------------------------
+=================================================================
 
 At the end of this lesson you will be able to:
 
@@ -266,9 +258,8 @@ At the end of this lesson you will be able to:
 
 .. _python-resources:
 
-
 Using Python on FutureSystems
-----------------------------------------------------------------------
+=================================================================
 
 .. warning:: This is only important if you use Futuresystems resources.
 
@@ -287,7 +278,7 @@ you.
    in the future lesson :doc:`modules`.
 
 Interactive Python
-----------------------------------------------------------------------
+=================================================================
 
 Python can be used interactively.  Start by entering the interactive
 loop by executing the command::
@@ -322,11 +313,8 @@ This interactive prompt does the following:
 This is why you may see the interactive loop referred to as a
 **REPL**: **R**\ead-**E**\valuate-**P**\rint-**L**\oop.
 
-Syntax
-----------------------------------------------------------------------
-
 Statements and Strings
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Let us explore the syntax of Python.
 Type into the interactive loop and press Enter::
@@ -362,7 +350,7 @@ the ``print`` statement and the ``"Hello world from Python!"`` string, and
 then executed the line, showing you the output.
 
 Variables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 You can store data into a **variable** to access it later.
 For instance, instead of:
@@ -381,7 +369,7 @@ store the string in a variable for convenient access:
    Hello world from Python!
 
 Booleans
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 A **boolean** is a value that indicates the "truthness" of something.
 You can think of it as a toggle: either "on" or "off", "one" or "zero", "true" or "false".
@@ -411,7 +399,7 @@ You can combine booleans with **boolean operators**:
    False
 
 Numbers and Math
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 The interactive interpreter can also be used as a calculator.
 For instance, say we wanted to compute a multiple of 21:
@@ -464,7 +452,7 @@ expected:
    -0.6
 
 Types and Using the REPL
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 We have so far seen a few examples of types: **string**\s, **bool**\s,
 **int**\s, and **float**\s.  A **type** indicates that values of that
@@ -506,21 +494,21 @@ You can also ask for help about something using ``help()``:
    go up/down line-by-line, or ``q`` to exit.
 
 Lists
------
+=================================================================
 
 see: https://www.tutorialspoint.com/python/python_lists.htm
 
 Sets
-----
+=================================================================
 
-Dict
-----
+Dictionaries
+=================================================================
 
 One of the very important datastructures in python is a dictionary
 also refered to as *dict*.
 
 Basics
-^^^^^^^
+-----------------------------------------------------------------
 
 A dictionary represents a key value store::
 
@@ -555,7 +543,7 @@ You can iterate ofer a dict::
   Class Scientist
 
 Keys and Values
-^^^^^^^^^^^^^^^
+-----------------------------------------------------------------
 
 You can retrieve both the keys and values of a dictionary using the
 ``keys()`` and ``values()`` methods of the dictionary, respectively::
@@ -580,8 +568,8 @@ to ``'Albert``, and ``Class`` to ``Scientist``, and you will observe
 the same correspondence in general as long as **``keys()`` and
 ``values()`` are called one right after the other**.
 
-Couting with Dictionaries
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Counting with Dictionaries
+-----------------------------------------------------------------
 
 One application of lists that frequently comes up is counting the
 elements in a sequence. For example, say we have a sequence of die
@@ -592,8 +580,9 @@ rolls::
   >>> die_rolls
   ['heads', 'tails', 'heads', 'tails', 'heads', 'heads', 'tails', 'heads', 'heads', 'heads']
 
-The actual list ``die_rolls`` will likely be different for you since
-the outcomes of the die rolls are random.
+The actual list ``die_rolls`` will likely be different when you
+execute this on your computer since the outcomes of the die rolls are
+random.
 
 To compute the probabilities of heads and tails, we could count how
 many heads and tails we have in the list::
@@ -609,7 +598,7 @@ many heads and tails we have in the list::
   Probability of tails: 0.30
 
 Control Statements
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Computer programs do not only execute instructions. Occasionally, a
 choice needs to be made. Such as a choice is based on a
@@ -654,7 +643,7 @@ that.
 
 
 Iterations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 To repeat code, the for keyword can be used. To execute a line of code
 10 times we can do:
@@ -691,7 +680,7 @@ the entire coordinate range (0,0) to (9,9)
 
 
 Functions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 To repeat lines of code, you can use a function. A function has a
 unique distinct name in the program. Once you call a function it will
@@ -734,7 +723,8 @@ To do so, we use the keyword return.
 .. _doc_python_intro_sec_classes:
 
 Classes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
+
 A class is a way to take a grouping of functions and data and place them inside a container, so you can access them with the . (dot) operator.
 
 .. code:: python
@@ -751,15 +741,13 @@ A class is a way to take a grouping of functions and data and place them inside 
     thing.apple()
     print thing.tangerine
 
-Data base access
-----------------
+Database access
+=================================================================
 
 see: https://www.tutorialspoint.com/python/python_database_access.htm
 
-
-
 Writing and Saving Programs
-----------------------------------------------------------------------
+=================================================================
 
 Make sure you are no longer in the interactive interpreter.
 If you are you can type ``quit()`` and press Enter to exit.
@@ -935,7 +923,7 @@ We can now call ``fib(n)`` and ``print`` the result.
 .. _Fibonacci sequence: http://en.wikipedia.org/wiki/Fibonacci_number
 
 Installing Libraries
-----------------------------------------------------------------------
+=================================================================
 
 Often you may need functionality that is not present in Python's
 standard library.  In this case you have two option:
@@ -956,7 +944,7 @@ packages using ``pip``.
 .. _Virtual_Environments:
 
 Virtual Environments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Often when you use shared computing resources, such as
 ``india.futuresystems.org`` you will not have permission to install
@@ -1052,10 +1040,8 @@ environment::
 
    Notice how the shell prompt changed upon activation.
 
-
-
 Fixing Bad Code
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Let's now look at another important tool for Python development: the
 Python Package Index, or PyPI for short.  PyPI provides a large set of
@@ -1081,7 +1067,7 @@ this is a common problem so there exist a couple packages to help in
 this situation.
 
 Using pip to install packages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 In order to install package from PyPI, use the ``pip`` command.
 We can search for PyPI for packages::
@@ -1099,7 +1085,7 @@ install the requested packages.
         patch on urllib3 on Python 2.7.9.
 
 Using autopep8
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 We can now run the bad code through autopep8 to fix formatting
 problems::
@@ -1124,7 +1110,8 @@ flag::
 .. _Python Package Index: https://pypi.python.org/pypi
 
 Further Learning
-----------------------------------------------------------------------
+=================================================================
+
 There is much more to python than what we have covered here:
 
 - conditional expression (``if``, ``if...then``,``if..elif..then``)
@@ -1142,7 +1129,7 @@ There is much more to python than what we have covered here:
 	  section of your choice addressing the above topics
 
 Writing python 3 compatible code
---------------------------------
+=================================================================
 
 see: http://python-future.org/compatible_idioms.html
 
@@ -1152,7 +1139,7 @@ Exercises
 .. _lab-python-1:
 
 Lab - Python - FizzBuzz
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Write a python program called fizzbuzz.py that accepts an integer n
 from the command line.  Pass this integer to a function called
@@ -1166,7 +1153,7 @@ number is a multiple of three, print "fizz", if a multiple of 5 print
 .. _lab-python-2:
 
 Lab - Python - Setup for FutureSystems
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 #. Create a virtualenv ``~/ENV``
 #. Modify your ``~/.bashrc`` shell file to activate your environment
@@ -1176,19 +1163,13 @@ Lab - Python - Setup for FutureSystems
    program. Hint: modify the FizzBuzz program.
 #. Demonstrate the program works and submit the code and output.
 
-
-
-
-
-
-
 Ecosystem
-----------------------------------------------------------------------
+=================================================================
 
 .. _virtualenv_:
 
 virtualenv
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Often you have your own computer and you do not like to change its
 environment to keep it in prestine condition. Python comes with mnay
@@ -1223,7 +1204,7 @@ do not forget to activate it.
 .. _autoenv_:
 
 Autoenv: Directory-based Environments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 .. warning:: We do not recommend that you use autoenv. INstead we
 	     recommend that you use pyenv. For this class neither is
@@ -1278,7 +1259,7 @@ Autoenv can be disabled via ``unset cd`` if you experience I/O issues with
    ``smbnetfs``).
 
 pypi
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 The Python Package Index is a large repository of software for the
 Python programming language containing a large number of packages
@@ -1298,7 +1279,7 @@ be the package called cloudmesh_client which you can install with::
 If all goes well the package will be installed.
 
 Links
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Useful ecosystem Links:
 
