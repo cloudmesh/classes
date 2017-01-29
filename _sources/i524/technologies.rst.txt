@@ -52,7 +52,18 @@ Workflow-Orchestration
 17. Tez
 18. Google FlumeJava
 19. Crunch
+
 20. Cascading
+	:cite:`www-cascading` Cascading software authored by Chris Wensel is development platform for building the application in Hadoop. 
+	It basically act as an abstraction for Apache Hadoop used for creating complex data processing workflow using
+	the scalability of hadoop however hiding the complexity of mapReduce jobs. 
+	User can write their program in java without having knowledge of mapReduce. Applications written on cascading are portable.   
+ 
+	Cascading Benefits
+		1. With Cascading application can be scaled as per the data sets.
+		2. Easily Portable
+		3. Single jar file for application deployment.
+
 21. Scalding
 22. e-Science Central
 23. Azure Data Factory
@@ -155,6 +166,20 @@ Application and Analytics
 75. three.js
 76. Potree
 77. DC.js
+
+    According to :cite:`www-dcjs`: “DC.js is a javascript charting
+    library with native crossfilter support, allowing exploration on
+    large multi-dimensional datasets. It uses d3 to render charts in
+    CSS-friendly SVG format. Charts rendered using dc.js are data
+    driven and reactive and therefore provide instant feedback to user
+    interaction.”. DC.js library can be used to perform data anlysis
+    on both mobile devices and different browsers. Under the dc
+    namespace the following chart classes are included: barChart,
+    boxplot, bubbleChart, bubbleOverlay, compositeChart, dataCount,
+    dataGrid, dataTable, geoChoroplethChart, heatMap,
+    legend,lineChart, numberDisplay, pieChart, rowChart, scatterPlot,
+    selectMenu and seriesChart.
+      
 78. TensorFlow
 79. CNTK
 
@@ -187,32 +212,46 @@ Application Hosting Frameworks
 82. Red Hat OpenShift
 83. Heroku
 84. Aerobatic
+
+    According to :cite:`www-aero`: Aerobatic is a platform that allows
+    hosting static websites. It used to be an ad-on for Bitbucket but
+    now Aerobatic is transitioning to standalone CLI(command Line
+    Tool) and web dashboard . Aerobatic allows automatic builds to
+    different branches. New changes to websites can be deployed using
+    aero deploy command which can be executed from local desktop or
+    any of CD tools and services like Jenkins, Codeship,Travis and so
+    on.  It also allows users to configure custom error pages and
+    offers authentication which can also be customized. Aerobatic is
+    backed by AWS cloud. Aerobatic has free plan and pro plan options
+    for customers.
+    
+
 85. AWS Elastic Beanstalk
 86. Azure
 
-    Microsoft Corporation markets its cloud products under the *Azure*
-    brand name. At its most basic, Azure acts as an
+    Microsoft Corporation (MSFT) markets its cloud products under the
+    *Azure* brand name. At its most basic, Azure acts as an
     *infrastructure-as-a-service* (IaaS) provider.  IaaS virtualizes
     hardware components, a key differentiation from other
-    *-as-a-service* products.  The Wikipedia entry on IaaS notes that
+    *-as-a-service* products.
     IaaS "abstract[s] the user from the details of infrasctructure
     like physical computing resources, location, data partitioning,
-    scaling, security, backup, etc." :cite:www-wikipedia-cloud
+    scaling, security, backup, etc." :cite:`www-wikipedia-cloud`
 
     However, Azure offers a host of closely-related tool and products
     to enhance and improve the core product, such as raw block
     storage, load balancers, and IP addresses :cite:`www-azure-msft`.
     For instance, Azure users can access predictive analytics, Bots
-    and Blockchain-as-a-Service :cite:www-azure-msft as well as
+    and Blockchain-as-a-Service :cite:`www-azure-msft` as well as
     more-basic computing, networking, storage, database and management
     components :cite:`www-sec-edgar-msft`.  The Azure website shows
     twelve major categories under *Products* and twenty *Solution*
     categories, e.g., e-commerce or Business SaaS apps.
 
     Azure competes against Amazon's *Amazon Web Service*,
-    :cite:www-aws-amzn even though IBM (*SoftLayer*
-    :cite:www-softlayer-ibm and *Bluemix* :cite :`www-bluemix-ibm`)
-    and Google (*Google Cloud Platform*) :cite:`www-cloud- google`
+    :cite:`www-aws-amzn` even though IBM (*SoftLayer*
+    :cite:`www-softlayer-ibm` and *Bluemix* :cite :`www-bluemix-ibm`)
+    and Google (*Google Cloud Platform*) :cite:`www-cloud-google`
     offer IaaS to the market.  As of January 2017, Azure's datacenters
     span 32 Microsoft-defined *regions*, or 38 *declared regions*,
     throughout the world. :cite:`www-azure-msft`
@@ -395,7 +434,15 @@ Basic Programming model and runtime, SPMD, MapReduce
 143. Hadoop
 144. Spark
 145. Twister
+
 146. MR-MPI
+	:cite:`www-mapreducempi` MR-MPI stands for Map Reduce-Message Passing Interface is open source
+	library build on top of standard MPI. It basically implements mapReduce operation providing a 
+	interface for user to simplify writing mapReduce program.
+	It is written in C++ and needs to be linked to MPI library	in order to make the basic map reduce
+	functionality to be executed in parallel on distributed memory architecture.
+	It provides interface for c, c++ and python. Using C interface the library can also be called from Fortrain.
+
 147. Stratosphere (Apache Flink)
 148. Reef
 149. Disco
@@ -850,6 +897,18 @@ Data Transport
 ----------------------------------------------------------------------
 
 263. BitTorrent
+	Bittorrent is P2P communication protocol commonly used for sending and receiving the large digital files like 
+	movies and audioclips.In order to upload and download file, user have to download bittorrent client which implement
+	the bittorrent protocol. Bittorrent uses the principle of swarning and tracking. :cite:`www-bittorrent` It divides the files
+	in large number of chunck and as soon as file is received it can be server to the other users for downloading. 
+	So rather than downloading one entire large file from one source, user can download small chunk from the different sources
+	of linked users in swarn. Bittorrent trackers keeps list of files available for transfer and helps the swarn user find each other. 
+
+	Using the protocol, machine with less configuration can serve as server for distributing the files. It result in increase in the
+	downloading speed and reduction in origin server configuration.
+
+	Few popular bittorrent client in μTorrent, qBittorrent.
+
 264. HTTP
 265. FTP
 266. SSH
