@@ -201,8 +201,8 @@ Application Hosting Frameworks
 85. AWS Elastic Beanstalk
 86. Azure
 
-    Microsoft Corporation markets its cloud products under the *Azure*
-    brand name. At its most basic, Azure acts as an
+    Microsoft Corporation (MSFT) markets its cloud products under the
+    *Azure* brand name. At its most basic, Azure acts as an
     *infrastructure-as-a-service* (IaaS) provider.  IaaS virtualizes
     hardware components, a key differentiation from other
     *-as-a-service* products.
