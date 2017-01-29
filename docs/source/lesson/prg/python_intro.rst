@@ -14,6 +14,8 @@ Tutorial`_ copyright `Python Software Foundation`_.
 .. _official Python Tutorial: https://docs.python.org/2/tutorial/
 .. _Python Software Foundation: http://www.python.org/
 
+.. contents::
+   
 Description
 -----------------------------------------------------------------
 
@@ -518,7 +520,7 @@ You can delete elements with the following commands::
 
   del person['Name']; # remove entry with key 'Name'
   person.clear();     # remove all entries in dict
-  person dict ;        # delete entire dictionary
+  del person;        # delete entire dictionary
 
 You can iterate ofer a dict::
 
