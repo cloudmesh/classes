@@ -372,8 +372,9 @@ Booleans
 =================================================================
 
 A **boolean** is a value that indicates the "truthness" of something.
-You can think of it as a toggle: either "on" or "off", "one" or "zero", "true" or "false".
-In fact, the only possible values of the **boolean** (or ``bool``) type in Python are:
+You can think of it as a toggle: either "on" or "off", "one" or
+"zero", "true" or "false".  In fact, the only possible values of the
+**boolean** (or ``bool``) type in Python are:
 
 - ``True``
 - ``False``
@@ -410,9 +411,9 @@ For instance, say we wanted to compute a multiple of 21:
    42
 
 We saw here the ``print`` statement again. We passed in the result of
-the operation ``21 * 2``.  An **integer** (or **int**) in Python is a numeric value
-without a fractional component (those are called **floating point**
-numbers, or **float** for short).
+the operation ``21 * 2``.  An **integer** (or **int**) in Python is a
+numeric value without a fractional component (those are called
+**floating point** numbers, or **float** for short).
 
 The mathematical operators compute the related mathematical operation
 to the provided numbers.  Some operators are:
@@ -467,7 +468,9 @@ error:
      File "<stdin>", line 1, in <module>
    TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
 
-There are many different types beyond what we have seen so far, such as **dictionaries**\s, **list**\s, **set**\s. One handy way of using the interactive python is to get the type of a value using ``type()``:
+There are many different types beyond what we have seen so far, such
+as **dictionaries**\s, **list**\s, **set**\s. One handy way of using
+the interactive python is to get the type of a value using ``type()``:
 
 .. code:: python
 
@@ -597,11 +600,22 @@ many heads and tails we have in the list::
   >>> print('Probability of tails: %.2f' % (counts['tails'] / sum(counts.values())))
   Probability of tails: 0.30
 
-In addition to how we use the dictionary ``counts`` to count the elements of ``coin_flips``, notice a couple things about this example:
+In addition to how we use the dictionary ``counts`` to count the
+elements of ``coin_flips``, notice a couple things about this example:
 
-#. We used the ``assert outcome in counts`` statement. The ``assert`` statement in Python allows you to easily insert debugging statements in your code to help you discover errors more quickly. ``assert`` statements are executed whenever the internal Python ``__debug__`` variable is set to ``True``, which is always the case unless you start Python with the ``-O`` option which allows you to run *optimized* Python.
+#. We used the ``assert outcome in counts`` statement. The ``assert``
+   statement in Python allows you to easily insert debugging
+   statements in your code to help you discover errors more
+   quickly. ``assert`` statements are executed whenever the internal
+   Python ``__debug__`` variable is set to ``True``, which is always
+   the case unless you start Python with the ``-O`` option which
+   allows you to run *optimized* Python.
 
-#. When we computed the probability of tails, we used the built-in ``sum`` function, which allowed us to quickly find the total number of coin flips. ``sum`` is one of many built-in function you can `read about here <https://docs.python.org/2/library/functions.html>`_.
+#. When we computed the probability of tails, we used the built-in
+   ``sum`` function, which allowed us to quickly find the total number
+   of coin flips. ``sum`` is one of many built-in function you can
+   `read about here
+   <https://docs.python.org/2/library/functions.html>`_.
 
 Control Statements
 =================================================================
@@ -731,7 +745,9 @@ To do so, we use the keyword return.
 Classes
 =================================================================
 
-A class is a way to take a grouping of functions and data and place them inside a container, so you can access them with the . (dot) operator.
+A class is a way to take a grouping of functions and data and place
+them inside a container, so you can access them with the . (dot)
+operator.
 
 .. code:: python
 
@@ -842,8 +858,8 @@ The first line it encounters is:
 
    import sys
 
-This line consists of the ``import`` keyword.
-Here ``import`` attempts to load the ``sys`` module, which has several useful items.
+This line consists of the ``import`` keyword.  Here ``import``
+attempts to load the ``sys`` module, which has several useful items.
 
 Next the interpreter sees the ``def`` keyword.  The begins the
 definition of a function, called ``fib`` here.  Our ``fib`` function
@@ -852,8 +868,9 @@ takes a single argument, named ``n`` within the function definition.
 Next we begin a multi-line string between the triple double-quotes.
 Python can take this string and create documentation from it.
 
-The ``fib`` function returns the *n*\-th number in the `Fibonacci sequence`_.
-This sequence is mathematically defined as (where *n* is subscripted):
+The ``fib`` function returns the *n*\-th number in the `Fibonacci
+sequence`_.  This sequence is mathematically defined as (where *n* is
+subscripted):
 
 .. math::
 
@@ -880,8 +897,10 @@ Next we have the block:
    if __name__ == '__main__':
 
 
-If the interpreter is running this module then there will be a variable ``__name__`` whose value is ``__main__``.
-This **if statement** checks for this condition and executes this block if the check passed.
+If the interpreter is running this module then there will be a
+variable ``__name__`` whose value is ``__main__``.  This **if
+statement** checks for this condition and executes this block if the
+check passed.
 
 .. tip::
 
@@ -942,10 +961,10 @@ Since this is a common situation, there is a service supporting it:
 the `Python Package Index`_ (or PyPi for short).
 
 
-Our task here is to install the `autopep8`_ tool from PyPi.
-This will allow us to illustrate the use if virtual environments using
-the ``virtualenv`` command, and installing and uninstalling PyPi
-packages using ``pip``.
+Our task here is to install the `autopep8`_ tool from PyPi.  This will
+allow us to illustrate the use if virtual environments using the
+``virtualenv`` command, and installing and uninstalling PyPi packages
+using ``pip``.
 
 .. _Virtual_Environments:
 
@@ -969,8 +988,9 @@ It seems that there are many programs installed in ``/bin`` such as
   alsaunmute  dbus-daemon           ex              igawk            mkdir          raw
   ...
 
-If we wished to add a new program it seems like putting it in ``/bin`` is the place to start.
-Let's create an empty file ``/bin/hello-$PORTALNAME``::
+If we wished to add a new program it seems like putting it in ``/bin``
+is the place to start.  Let's create an empty file
+``/bin/hello-$PORTALNAME``::
 
   $ touch /bin/hello-$(whoami)
   touch: cannot touch `/bin/hello-albert': Permission denied
@@ -1225,7 +1245,8 @@ This is great for...
    - project-specific environment variables
 
 
-Here is how to use it. Add the ENV you created with virtualenv into ``.env`` file within your project directory::
+Here is how to use it. Add the ENV you created with virtualenv into
+``.env`` file within your project directory::
 
    $ echo "source ~/ENV/bin/activate" > yourproject/.env
    $ echo "echo 'whoa'" > yourproject/.env
@@ -1258,11 +1279,13 @@ Before sourcing activate.sh, you can set the following variables:
    - ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
 
 
-Autoenv overrides ``cd``. If you already do this, invoke ``autoenv_init`` within your custom ``cd`` after sourcing ``activate.sh``.
+Autoenv overrides ``cd``. If you already do this, invoke
+``autoenv_init`` within your custom ``cd`` after sourcing
+``activate.sh``.
 
-Autoenv can be disabled via ``unset cd`` if you experience I/O issues with
-   certain file systems, particularly those that are FUSE-based (such as
-   ``smbnetfs``).
+Autoenv can be disabled via ``unset cd`` if you experience I/O issues
+   with certain file systems, particularly those that are FUSE-based
+   (such as ``smbnetfs``).
 
 pypi
 =================================================================
