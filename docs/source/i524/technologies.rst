@@ -824,7 +824,7 @@ NoSQL
      rebalancing. When Voldemort performance was benchmarked with the
      other key-value databases such as Cassandra, Redis and HBase as
      well as MySQL relational database
-     (:cite:`rabl_sadoghi_jacobsen_2012`), the Voldemart's throughput
+     :cite:`rabl-sadoghi-jacobsen-2012`, the Voldemart's throughput
      was twice lower than MySQL and Cassandra and six times higher
      than HBase. Voldemort was slightly underperforming in comparison
      with Redis.  At the same time, it demonstrated consistent linear
@@ -1117,7 +1117,7 @@ Interoperability
      The OCCI Protocol defines the common set of names provided
      for the IaaS cloud services user that specify requested
      system requirements. It is often denoted as “resource
-     templates” or “flavours”  :cite:`www-occi-temp`.
+     templates” or “flavours”  :cite:`ogf-222`.
 
      OCCI RESTful HTTP Protocol describes communications between
      server and client on OCCI platform via HTTP protocol
