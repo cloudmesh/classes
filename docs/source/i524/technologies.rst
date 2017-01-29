@@ -212,6 +212,20 @@ Application Hosting Frameworks
 82. Red Hat OpenShift
 83. Heroku
 84. Aerobatic
+
+    According to :cite:`www-aero`: Aerobatic is a platform that allows
+    hosting static websites. It used to be an ad-on for Bitbucket but
+    now Aerobatic is transitioning to standalone CLI(command Line
+    Tool) and web dashboard . Aerobatic allows automatic builds to
+    different branches. New changes to websites can be deployed using
+    aero deploy command which can be executed from local desktop or
+    any of CD tools and services like Jenkins, Codeship,Travis and so
+    on.  It also allows users to configure custom error pages and
+    offers authentication which can also be customized. Aerobatic is
+    backed by AWS cloud. Aerobatic has free plan and pro plan options
+    for customers.
+    
+
 85. AWS Elastic Beanstalk
 86. Azure
 
