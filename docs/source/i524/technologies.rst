@@ -229,29 +229,29 @@ Application Hosting Frameworks
 85. AWS Elastic Beanstalk
 86. Azure
 
-    Microsoft Corporation markets its cloud products under the *Azure*
-    brand name. At its most basic, Azure acts as an
+    Microsoft Corporation (MSFT) markets its cloud products under the
+    *Azure* brand name. At its most basic, Azure acts as an
     *infrastructure-as-a-service* (IaaS) provider.  IaaS virtualizes
     hardware components, a key differentiation from other
-    *-as-a-service* products.  The Wikipedia entry on IaaS notes that
+    *-as-a-service* products.
     IaaS "abstract[s] the user from the details of infrasctructure
     like physical computing resources, location, data partitioning,
-    scaling, security, backup, etc." :cite:www-wikipedia-cloud
+    scaling, security, backup, etc." :cite:`www-wikipedia-cloud`
 
     However, Azure offers a host of closely-related tool and products
     to enhance and improve the core product, such as raw block
     storage, load balancers, and IP addresses :cite:`www-azure-msft`.
     For instance, Azure users can access predictive analytics, Bots
-    and Blockchain-as-a-Service :cite:www-azure-msft as well as
+    and Blockchain-as-a-Service :cite:`www-azure-msft` as well as
     more-basic computing, networking, storage, database and management
     components :cite:`www-sec-edgar-msft`.  The Azure website shows
     twelve major categories under *Products* and twenty *Solution*
     categories, e.g., e-commerce or Business SaaS apps.
 
     Azure competes against Amazon's *Amazon Web Service*,
-    :cite:www-aws-amzn even though IBM (*SoftLayer*
-    :cite:www-softlayer-ibm and *Bluemix* :cite :`www-bluemix-ibm`)
-    and Google (*Google Cloud Platform*) :cite:`www-cloud- google`
+    :cite:`www-aws-amzn` even though IBM (*SoftLayer*
+    :cite:`www-softlayer-ibm` and *Bluemix* :cite :`www-bluemix-ibm`)
+    and Google (*Google Cloud Platform*) :cite:`www-cloud-google`
     offer IaaS to the market.  As of January 2017, Azure's datacenters
     span 32 Microsoft-defined *regions*, or 38 *declared regions*,
     throughout the world. :cite:`www-azure-msft`
