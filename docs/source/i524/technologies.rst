@@ -370,14 +370,14 @@ High level Programming
      analytics, relational ACID compliant database and
      application. Predictive analytics and machine learning
      capabilities are dynamically allocated for searching and
-     processing of spatial, graphical, and text data. 
-	 SAP HANA accommodates flexible development and deployment of 
-	 data on premises, cloud and hybrid configurations.  In a 
-	 nutshell, SAP HANA acts as a warehouse that integrates live 
-	 transactional data from various data sources on a single 
-	 platform :cite:`olofson-2014`. It provides extensive 
-	 administrative, security features and data access that ensures 
-	 high data availability, data protection and data quality.
+     processing of spatial, graphical, and text data.  SAP HANA
+     accommodates flexible development and deployment of data on
+     premises, cloud and hybrid configurations.  In a nutshell, SAP
+     HANA acts as a warehouse that integrates live transactional data
+     from various data sources on a single platform
+     :cite:`olofson-2014`. It provides extensive administrative,
+     security features and data access that ensures high data
+     availability, data protection and data quality.
 
 113. HadoopDB
 114. PolyBase
@@ -472,12 +472,16 @@ Basic Programming model and runtime, SPMD, MapReduce
 145. Twister
 
 146. MR-MPI
-	:cite:`www-mapreducempi` MR-MPI stands for Map Reduce-Message Passing Interface is open source
-	library build on top of standard MPI. It basically implements mapReduce operation providing a 
-	interface for user to simplify writing mapReduce program.
-	It is written in C++ and needs to be linked to MPI library	in order to make the basic map reduce
-	functionality to be executed in parallel on distributed memory architecture.
-	It provides interface for c, c++ and python. Using C interface the library can also be called from Fortrain.
+
+     :cite:`www-mapreducempi` MR-MPI stands for Map Reduce-Message
+     Passing Interface is open source library build on top of standard
+     MPI. It basically implements mapReduce operation providing a
+     interface for user to simplify writing mapReduce program.  It is
+     written in C++ and needs to be linked to MPI library in order to
+     make the basic map reduce functionality to be executed in
+     parallel on distributed memory architecture.  It provides
+     interface for c, c++ and python. Using C interface the library
+     can also be called from Fortrain.
 
 147. Stratosphere (Apache Flink)
 148. Reef
@@ -827,34 +831,33 @@ NoSQL
 220. Solandra
 221. Voldemort
 
-     According to :cite:`www-voldemort`, project Voldemort, 
-	 developed by LinkedIn, is a non-relational database of 
-	 key-value type that supports eventual consistency. The 
-	 distributed nature of the system allows pluggable data 
-	 placement and provides horizontal scalability and high 
-	 consistency. Replication and partitioning of data is 
-	 automatic and performed on multiple servers. Independent 
-	 nodes that comprise the server support transparent handling 
-	 of server failure and ensure absence of a central point of 
-	 failure. Essentially, Voldemort is a hashtable. It uses APIs 
-	 for data replication. In memory caching allows for faster 
-	 operations. It allows cluster expansion with no data rebalancing. 
-	 When Voldemort performance was benchmarked with the other 
-	 key-value databases such as Cassandra, Redis and HBase as well 
-	 as MySQL relational database :cite:`rabl-sadoghi-jacobsen-2012`, 
-	 the Voldemart's throughput was twice lower than MySQL and 
-	 Cassandra and six times higher than HBase. Voldemort was 
-	 slightly underperforming in comparison with Redis. At the same 
-	 time, it demonstrated consistent linear performance in maximum 
-	 throughput that supports high scalability. The read latency for 
-	 Voldemort was fairly consistent and only slightly underperformed
-	 Redis. Similar tendency was observed with the read latency that 
-	 puts Voldermort in the cluster of databases that require good 
-	 read-write speed for workload operations. However, the same authors 
-	 noted that Voldemort required creation of the node specific 
-	 configuration and optimization in order to successfully run a high 
-	 throughput tests. The default options were not sufficient and were 
-	 quickly saturated that stall the database.
+     According to :cite:`www-voldemort`, project Voldemort, developed
+     by LinkedIn, is a non-relational database of key-value type that
+     supports eventual consistency. The distributed nature of the
+     system allows pluggable data placement and provides horizontal
+     scalability and high consistency. Replication and partitioning of
+     data is automatic and performed on multiple servers. Independent
+     nodes that comprise the server support transparent handling of
+     server failure and ensure absence of a central point of
+     failure. Essentially, Voldemort is a hashtable. It uses APIs for
+     data replication. In memory caching allows for faster
+     operations. It allows cluster expansion with no data rebalancing.
+     When Voldemort performance was benchmarked with the other
+     key-value databases such as Cassandra, Redis and HBase as well as
+     MySQL relational database :cite:`rabl-sadoghi-jacobsen-2012`, the
+     Voldemart's throughput was twice lower than MySQL and Cassandra
+     and six times higher than HBase. Voldemort was slightly
+     underperforming in comparison with Redis. At the same time, it
+     demonstrated consistent linear performance in maximum throughput
+     that supports high scalability. The read latency for Voldemort
+     was fairly consistent and only slightly underperformed
+     Redis. Similar tendency was observed with the read latency that
+     puts Voldermort in the cluster of databases that require good
+     read-write speed for workload operations. However, the same
+     authors noted that Voldemort required creation of the node
+     specific configuration and optimization in order to successfully
+     run a high throughput tests. The default options were not
+     sufficient and were quickly saturated that stall the database.
 
 222. Riak
 223. ZHT
@@ -953,17 +956,25 @@ Data Transport
 ----------------------------------------------------------------------
 
 263. BitTorrent
-	Bittorrent is P2P communication protocol commonly used for sending and receiving the large digital files like 
-	movies and audioclips.In order to upload and download file, user have to download bittorrent client which implement
-	the bittorrent protocol. Bittorrent uses the principle of swarning and tracking. :cite:`www-bittorrent` It divides the files
-	in large number of chunck and as soon as file is received it can be server to the other users for downloading. 
-	So rather than downloading one entire large file from one source, user can download small chunk from the different sources
-	of linked users in swarn. Bittorrent trackers keeps list of files available for transfer and helps the swarn user find each other. 
 
-	Using the protocol, machine with less configuration can serve as server for distributing the files. It result in increase in the
-	downloading speed and reduction in origin server configuration.
+     Bittorrent is P2P communication protocol commonly used for
+     sending and receiving the large digital files like movies and
+     audioclips.In order to upload and download file, user have to
+     download bittorrent client which implement the bittorrent
+     protocol. Bittorrent uses the principle of swarning and
+     tracking. :cite:`www-bittorrent` It divides the files in large
+     number of chunck and as soon as file is received it can be server
+     to the other users for downloading.  So rather than downloading
+     one entire large file from one source, user can download small
+     chunk from the different sources of linked users in
+     swarn. Bittorrent trackers keeps list of files available for
+     transfer and helps the swarn user find each other.
 
-	Few popular bittorrent client in μTorrent, qBittorrent.
+     Using the protocol, machine with less configuration can serve as
+     server for distributing the files. It result in increase in the
+     downloading speed and reduction in origin server configuration.
+
+     Few popular bittorrent client in μTorrent, qBittorrent.
 
 264. HTTP
 265. FTP
@@ -1108,7 +1119,7 @@ Interoperability
      The Open Cloud Computing Interface (OCCI) is a RESTful
      Protocol and API that provides specifications  and remote
      management for the development of “interoperable tools”
-      :cite:`www-occi`. It supports IaaS, PaaS and SaaS and
+     :cite:`www-occi`. It supports IaaS, PaaS and SaaS and
      focuses on integration, portability, interoperability,
      innovation and extensibility. It provides a set of documents
      that describe an OCCI Core model, contain best practices
@@ -1124,39 +1135,38 @@ Interoperability
      a)Core Model, b)HTTP protocol, c)Text rendering and d)JSON
      rendering. Meanwhile, Infrastructure, Platform and SLA models are
      optional.  The OCCI Core model defines instance types and
-
-     provides a layer of abstraction that allows the OCCI client
-     to interact with the model without knowing of its potential
+     provides a layer of abstraction that allows the OCCI client to
+     interact with the model without knowing of its potential
      structural changes. The model supports extensibility via
-     inheritance and using mixin types that represent ability to
-     add new components and capabilities at run-time.
-      :cite:`nyren-edmonds-papaspyrou-2016`
+     inheritance and using mixin types that represent ability to add
+     new components and capabilities at run-time.
+     :cite:`nyren-edmonds-papaspyrou-2016`
 
-     The OCCI Protocol defines the common set of names provided
-     for the IaaS cloud services user that specify requested
-     system requirements. It is often denoted as “resource
-     templates” or “flavours”   :cite:`drescher-parak-wallom-2015`.
+     The OCCI Protocol defines the common set of names provided for
+     the IaaS cloud services user that specify requested system
+     requirements. It is often denoted as “resource templates” or
+     “flavours” :cite:`drescher-parak-wallom-2015`.
 
      OCCI RESTful HTTP Protocol describes communications between
      server and client on OCCI platform via HTTP protocol
-     :cite:`nyren-edmonds-metsch-2016`. It defines a minimum set of HTTP
-     headers and status codes to ensure compliance with the
-     OCCI Protocol. Separate requirements for Server and Client
-     for versioning need to be implemented using HTTP 'Server'
-     header and 'User-Agent' header respectively.
+     :cite:`nyren-edmonds-metsch-2016`. It defines a minimum set of
+     HTTP headers and status codes to ensure compliance with the OCCI
+     Protocol. Separate requirements for Server and Client for
+     versioning need to be implemented using HTTP 'Server' header and
+     'User-Agent' header respectively.
 
-     JSON rendering  :cite:`nyren-feldhaus-parak-2016` protocol provides
-     JSON specifications to allow "render OCCI instances
+     JSON rendering :cite:`nyren-feldhaus-parak-2016` protocol
+     provides JSON specifications to allow "render OCCI instances
      independently of the protocol being used." In addition, it
      provides details of the JSON object declaration, OCCI Action
      Invocation, object members required for OCCI Link Instance
-     Rendering, "location maps to OCCI Core's source and target
-     model attributes and kind maps to OCCI Core's target" to
-     satisfy OCCI Link Instance Source/Target Rendering requirements.
-     Finally, it specifies various attributes and collection
-     rendering requirements.
-     The text rendering process is depricated and will be
-     removed from the next major version  :cite:`edmonds-metsch-2016`.
+     Rendering, "location maps to OCCI Core's source and target model
+     attributes and kind maps to OCCI Core's target" to satisfy OCCI
+     Link Instance Source/Target Rendering requirements.  Finally, it
+     specifies various attributes and collection rendering
+     requirements.  The text rendering process is depricated and will
+     be removed from the next major version
+     :cite:`edmonds-metsch-2016`.
 	 
 305. CDMI
 306. Whirr
