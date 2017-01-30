@@ -811,8 +811,20 @@ they define a valid triangle. A triangle is valid if the length of
 each side is less than the sum of the lengths of the other two sides
 and greater than the difference of the lengths of the other two sides.::
 
+  """Usage: check_triangle.py [-h] LENGTH WIDTH HEIGHT
+
+  Check if a triangle is valid.
+
+  Arguments:
+    LENGTH     The length of the triangle.
+    WIDTH      The width of the traingle.
+    HEIGHT     The height of the triangle.
+
+  Options:
+  -h --help
+  """
   from __future__ import print_function, division
-  import argparse
+  from docopt import docopt
 
 
   def check_triangle(a, b, c):
@@ -823,15 +835,11 @@ and greater than the difference of the lengths of the other two sides.::
 
 
   if __name__ == '__main__':
-	parser = argparse.ArgumentParser(description='Check if a triangle is valid.')
-	parser.add_argument('length', type=int, help='The length of the triangle.')
-	parser.add_argument('width', type=int, help='The width of the triangle.')
-	parser.add_argument('height', type=int, help='The height of the triangle.')
-	args = parser.parse_args()
-
+	args = docopt(__doc__)
+	length, width, height = int(args['LENGTH']), int(args['WIDTH']), int(args['HEIGHT'])
 	print('Triangle with sides %d, %d and %d is valid: %r' % (
-		args.length, args.width, args.height,
-		check_triangle(args.length, args.width, args.height)
+		length, width, height,
+		check_triangle(length, width, height)
 	))
 
 Assuming we save the program in a file called ``check_triangle.py``,
@@ -846,7 +854,7 @@ Let break this down a bit.
 #. We've defined the ``check_triangle`` function which has three parameters. It returns ``True`` if all six expressions defined inside are true, and ``False`` otherwise.
 #. We've used the backslash symbol ``\`` to format are code nicely. The backslash simply indicates that the current line is being continued on the next line.
 #. When we run the program, we do the check ``if __name__ == '__main__'``. ``__name__`` is an internal Python variable that allows us to tell whether the current file is being run from the command line (value ``__name__``), or is being imported by a module (the value will be the name of the module). Thus, with this statement we're just making sure the program is being run by the command line.
-#. We are using the ``argparse`` module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces the correct number and type of command line arguments automatically.
+#. We are using the ``docopt`` module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces command line arguments automatically. All of this is done by parsing the docstring at the top of the file.
 #. In the ``print`` function, we are using `Python's string formatting capabilities <https://docs.python.org/2/library/string.html#format-string-syntax>`_ to insert values into the string we are displaying.
    
 Installing Libraries
