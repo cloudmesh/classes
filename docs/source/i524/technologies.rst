@@ -888,6 +888,18 @@ NoSQL
 233. Pivotal Gemfire
 234. HBase
 235. Google Bigtable
+
+     Google Bigtable is a NoSQL database service, built upon several Google 
+     technologies, including Google File System, Chubby Lock Service, and 
+     SSTable.  Designed for Big Data, Bigtable provides high performance 
+     and low latency and scales to hundreds of petabytes. 
+     :cite:`www-cloudbigtable` Bigtable powers many core Google products, 
+     such as Search, Analytics, Maps, Earth, Gmail, and YouTube. 
+     :cite:`www-wikibigtable` Since May 6, 2015, a version of Bigtable has 
+     been available to the public.  Bigtable also drives Google Cloud 
+     Datastore :cite:`www-wikibigtable` and Spanner, a distributed NewSQL 
+     also developed by Google. :cite:`www-wikispanner`
+
 236. LevelDB
 237. Megastore and Spanner
 238. Accumulo
