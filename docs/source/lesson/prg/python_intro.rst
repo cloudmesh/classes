@@ -207,7 +207,6 @@ This is why you may see the interactive loop referred to as a
 
 Python 3 Features
 --------------------
-<<<<<<< 3d6f882ed32019d7034730137dff6ad5d4efdc01
 
 As mentioned earlier, we assume you will use Python 2.7.X because
 there are still some libraries that haven't been ported to
@@ -220,24 +219,10 @@ these features available to any subsequent code we write::
 Statements and Strings
 =================================================================
 
-=======
-
-As mentioned earlier, we assume you will use Python 2.7.X because
-there are still some libraries that haven't been ported to
-Python 3. However, there are some features of Python 3 we can and want
-to use in Python 2.7. Before we do anything else, we need to make
-these features available to any subsequent code we write::
-
-  >>> from __future__ import print_function, division
-
-Statements and Strings
-=================================================================
-
->>>>>>> chg: dev: organize sections; improve or make examples more consistent;
 Let us explore the syntax of Python.  Type into the interactive loop
 and press Enter::
 
-  >>> print "Hello world from Python!"
+  >>> print("Hello world from Python!")
   Hello world from Python!
 
 What happened: the ``print`` function was given a **string** to
@@ -956,7 +941,6 @@ so it can be reused.
 Classes
 =================================================================
 
-<<<<<<< 3d6f882ed32019d7034730137dff6ad5d4efdc01
 A class is an encapsulation of data and the processes that work on
 them. The data is represented in member variables, and the processes
 are defined in the methods of the class (methods are functions inside
@@ -991,26 +975,10 @@ the class). For example, let's see how to define a ``Triangle`` class:
 
    triangle = Triangle(4, 5, 6, 35, 65, 80)
 
-Python has full object-oriented programming (OOP) capabilities, however we can not cover all of them in a quick tutorial, so please refer to the `Python docs on classes and OOP <https://docs.python.org/2.7/tutorial/classes.html>`_.
-=======
-A class is a way to take a grouping of functions and data and place
-them inside a container, so you can access them with the . (dot)
-operator.
-
-.. code:: python
-
-        class Fruit(object):
-
-        def __init__(self):
-            self.tangerine = "are organge-colored citrus fruit, which is closely related to a mandarin organge"
-
-        def apple(self):
-            print "Apples are rich in antioxidants, flavanoids, and dietary fiber!"
-
-    thing = Fruit()
-    thing.apple()
-    print thing.tangerine
->>>>>>> chg: dev: organize sections; improve or make examples more consistent;
+Python has full object-oriented programming (OOP) capabilities,
+however we can not cover all of them in a quick tutorial, so please
+refer to the `Python docs on classes and OOP
+<https://docs.python.org/2.7/tutorial/classes.html>`_.
 
 Database Access
 =================================================================
