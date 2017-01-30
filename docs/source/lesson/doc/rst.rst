@@ -2,7 +2,12 @@
 reStructuredText
 =====================================================
 
-reStructuredText (RST) pur[pose is to provide an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. With its help you can develop documentation not only for stand aone documentation, simple web pages, an in-line program documentation (such as Python). RST is extensible and new features can be added. It is used in sphinx as one of its supported formats.
+reStructuredText (RST) pur[pose is to provide an easy-to-read,
+what-you-see-is-what-you-get plaintext markup syntax and parser
+system. With its help you can develop documentation not only for stand
+aone documentation, simple web pages, an in-line program documentation
+(such as Python). RST is extensible and new features can be added. It
+is used in sphinx as one of its supported formats.
 
 Links
 -----
@@ -16,6 +21,14 @@ Cheatcheat:
    * http://docutils.sourceforge.net/docs/ref/rst/directives.html
 
 
+Source
+------
+
+The source for this page is located at
+
+* https://raw.githubusercontent.com/cloudmesh/classes/master/docs/source/lesson/doc/rst.rst
+
+This way you can look at the source on how we create this page.
 
 Sections
 ----------------------------------------------------------------------   
@@ -247,7 +260,8 @@ unique. for example if you place::
 
   .. _s_vpn:
 
-in the text it will create a target to which the above link points when you click on it
+in the text it will create a target to which the above link points
+when you click on it
 
 
 Todo
