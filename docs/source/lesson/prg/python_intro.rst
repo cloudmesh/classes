@@ -70,11 +70,7 @@ applications, artificial intelligence, software development, and
 information security, to name a few.
 
 About the Tutorial
-<<<<<<< 9c0550bfd0c18153ade3cc4570557e4b8779c163
 =================================================================
-=======
--------------------
->>>>>>> chg: dev: organize sections; improve or make examples more consistent;
 
 This tutorial introduces the reader informally to the basic concepts
 and features of the Python language and system. It helps to have a
@@ -211,7 +207,6 @@ This is why you may see the interactive loop referred to as a
 
 Python 3 Features
 --------------------
-<<<<<<< 9c0550bfd0c18153ade3cc4570557e4b8779c163
 
 As mentioned earlier, we assume you will use Python 2.7.X because
 there are still some libraries that haven't been ported to
@@ -223,8 +218,6 @@ these features available to any subsequent code we write::
 
 Statements and Strings
 =================================================================
-
-=======
 
 As mentioned earlier, we assume you will use Python 2.7.X because
 there are still some libraries that haven't been ported to
