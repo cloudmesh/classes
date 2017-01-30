@@ -4,6 +4,312 @@ Changelog
 %%version%% (unreleased)
 ------------------------
 
+- 3.0.9. [Badi' Abdul-Wahid]
+
+- Version 3.0.9. [Badi' Abdul-Wahid]
+
+3.0.9 (2017-01-30)
+------------------
+
+New
+~~~
+
+- Added reference cards as was found useful by students. [Gregor von
+  Laszewski]
+
+- Adding a section about RST. [Gregor von Laszewski]
+
+- Added description for Bigtable. [Mark McCombe]
+
+- Added description for Bigtable. [Mark McCombe]
+
+- Add couchbase and azure table. [Matthew Lawson]
+
+- Added description for MRQL. [Mark McCombe]
+
+- Added description for MRQL. [Mark McCombe]
+
+- Added description about Galois, Giraffe, Azure Machine Learning, Slurm
+  and Ninefold. [Naveen]
+
+- Added description about Galois, Giraffe, Azure Machine Learning, Slurm
+  and Ninefold. [Naveen]
+
+- Add poll to calendar. [Gregor von Laszewski]
+
+- Added description about DC.js. [Ribka Rufael]
+
+- Added description about DC.js. [Ribka Rufael]
+
+- Added description about Aerobatic. [Ribka Rufael]
+
+- Added description about Aerobatic. [Ribka Rufael]
+
+- Added description about DC.js. [Ribka Rufael]
+
+- Added description about DC.js. [Ribka Rufael]
+
+- Changes done to the links. [Abhijit Thakre]
+
+- Added information about MR-MPI,CASCADING,BITTORRENT. [Abhijit Thakre]
+
+- Add dicts to introduction to python. [Gregor von Laszewski]
+
+- Add the first python draft versions. [Gregor von Laszewski]
+
+- Integrating more material from lessons into lectures. [Gregor von
+  Laszewski]
+
+- Fixing some errors in refs.bib (but not all) [Gregor von Laszewski]
+
+- Added technologies enrty for HPX4, SAP HANA, and OCCI. [alyez]
+
+  new:usr: Added technologies enrty for HPX4, SAP HANA, and OCCI
+
+- Added infor about HPX5, SAP HANA, and OCCI. [alyez]
+
+  new:usr: Added infor about HPX5, SAP HANA, and OCCI
+
+- Add tip for verifing whic files are to be pushed !techlist. [Badi'
+  Abdul-Wahid]
+
+- Add i524-specific instruction on setting up ubuntu. [Badi' Abdul-
+  Wahid]
+
+- Add git lesson. [Badi' Abdul-Wahid]
+
+- Add hid to name assignment in the class web page. [Gregor von
+  Laszewski]
+
+- Add experimental pdf lecture notes link. [Gregor von Laszewski]
+
+- Corrected link to git video lectures page. [Mark McCombe]
+
+- Block formating technologies so they can be read easier in the github
+  GUI. [Gregor von Laszewski]
+
+- Add description of AWS OpsWorks. [Mark McCombe]
+
+- Add description of AWS OpsWorks. [Mark McCombe]
+
+- Adding custom sidebar links for easier navigation by students. [Gregor
+  von Laszewski]
+
+- Add tips for creating an upstream. [Gregor von Laszewski]
+
+- Add ActiveBPEL Description. [Jimmy Ardiansyah]
+
+- Add a lecture about how to write a paper. [Gregor von Laszewski]
+
+- Added paragraph about CUBRID. [Abhijit Thakre]
+
+- Added paragraph about Lucene, Cassandra, Galera Cluster, pbdR and
+  Protobuf. [Sabyasachi Roy Choudhury]
+
+- Add description about Kafka. [Nandita Sathe]
+
+- Add description about Kafka. [Nandita Sathe]
+
+- Added entry for Gora, RabbitMQ, Ina, Jclouds, Kenesis  in the
+  technology list. [Abhishek Gupta]
+
+- Showcasing a no longer active technology. [Gregor von Laszewski]
+
+- Try to pull #36 and fix and push and request -- prepare to fix comming
+  conflicts. [Miao Zhang]
+
+- Added description about Juju. [Sunanda Unni]
+
+- Cleanup of the lecture page. [Gregor von Laszewski]
+
+- Fixing of reference mistakes by SP17-IO-3010. [Gregor von Laszewski]
+
+- Made correction in technologies-hw.rst. [sriramsitharaman]
+
+- Add Azure info to tech list file. [Matthew Lawson]
+
+- Add Azure info references. [Matthew Lawson]
+
+- Add Azure info to tech list file. [Matthew Lawson]
+
+- Added github videos. [Gregor von Laszewski]
+
+Changes
+~~~~~~~
+
+- Changed many indentation issues in the techlist, rebase is required.
+  [Gregor von Laszewski]
+
+- Some more editing. [Miao Zhang]
+
+- Complete add your technology. [xl41]
+
+- Remove autoenv, add more lessons to setup your repo. [xl41]
+
+- Complete the prerequisites for how to complete techlist assignments.
+  [xl41]
+
+- Elaborate on how to submit pull requests !techlist. [Badi' Abdul-
+  Wahid]
+
+- Merge tip for creating commit messages !techlist. [Badi' Abdul-Wahid]
+
+- Add warning not to commit rebase backup files !techlist. [Badi' Abdul-
+  Wahid]
+
+- Update title for clarity !techlist. [Badi' Abdul-Wahid]
+
+- Adjust title for clarity !techlist. [Badi' Abdul-Wahid]
+
+- Add instructions on how to rebase !techlist. [Badi' Abdul-Wahid]
+
+- Show how to create a python virtualenv !techlist. [Badi' Abdul-Wahid]
+
+- Reorganize !techlist. [Badi' Abdul-Wahid]
+
+- !techlist show how to get put the ssh public key onto github. [Badi'
+  Abdul-Wahid]
+
+- Techlist.1: steps for configuring git. [Badi' Abdul-Wahid]
+
+- Fix link to requirements for techlist hw. [Badi' Abdul-Wahid]
+
+- Add new mapping of hids to techs for hw2. [Dimitar Nikolov]
+
+- Add new mapping of hids to techs for hw2. [Dimitar Nikolov]
+
+- Update paper 1 desc to refer to new, more detailed README. [Dimitar
+  Nikolov]
+
+- Added some more details Kinesis and Jclouds. Added citations. fix:usr:
+  Corrected few spelling errors. [Abhishek Gupta]
+
+- Added info for Phoenix. [Matthew Lawson]
+
+- Add Presto description. [Dimitar Nikolov]
+
+- Fix: fix typos. [Dimitar Nikolov]
+
+- Fix: fix typos. [Dimitar Nikolov]
+
+- Fix: fix typos. [Dimitar Nikolov]
+
+- Organize refs by HID. [Dimitar Nikolov]
+
+- Fix: fix typos. [Dimitar Nikolov]
+
+- Added keys to Voldemort references. [alyez]
+
+Fix
+~~~
+
+- Github reference card url has changed, so we updated it. [Gregor von
+  Laszewski]
+
+- Corrected references for Bigtable. [Mark McCombe]
+
+- Edited description for MRQL. [Mark McCombe]
+
+- Indentation fix. [Miao Zhang]
+
+- Fix indentation in pr #104. [Miao Zhang]
+
+- Fixed technologies. [alyez]
+
+- Fixed refs. [alyez]
+
+- Fix the indentation of MRQL. [Gregor von Laszewski]
+
+- Fixed Refs. [alyez]
+
+- Updated technologies for Voldemort through buidsteps. [alyez]
+
+- Added key for the voldemort, removed comas. [alyez]
+
+- Corrected references for hpx-5voldemort, HPX, OCCI, buidsteps. [alyez]
+
+- Fixed voldemort and one occi refernce. [Gregor von Laszewski]
+
+- Update Matt Azure paragraph. [Miao Zhang]
+
+- Remove the empty lines within ref. [tonythomascn]
+
+- Fix the cite error in Hana. [tonythomascn]
+
+- Delete the journal field in olofson_2014. [tonythomascn]
+
+- Fix the bibliography and some minor errors. [xl41]
+
+- Convert prompt to verbatim for i524 ubuntu 16.04 setup. [Badi' Abdul-
+  Wahid]
+
+- Adjust heading level for Learning outcomes !techlist. [Badi' Abdul-
+  Wahid]
+
+- Separate clone setup from HW procedure !techlist. [Badi' Abdul-Wahid]
+
+- Show how to commit the changes !techlist. [Badi' Abdul-Wahid]
+
+- Show how to install the requirements for building the class site.
+  [Badi' Abdul-Wahid]
+
+- Techlist: expand on how to create ssh key. [Badi' Abdul-Wahid]
+
+- Fix paper1 instruction to reflect the new template setup. [Dimitar
+  Nikolov]
+
+- Fix paper1 instruction to reflect the new template setup. [Dimitar
+  Nikolov]
+
+- Adding the deleted refernces in nagios. [Gregor von Laszewski]
+
+- Improve formatting of many of the submitted entries. [Gregor von
+  Laszewski]
+
+- Removed line 420 from ref.bib. [alyez]
+
+  fix:usr: Removed line 420 from refs.bib
+
+- Fixed comas on Voldemort refs. [alyez]
+
+  fix:usr: Fixed comas on Voldemort refs
+
+- Use the distributed bst style to avoid issues on ubuntu. [Gregor von
+  Laszewski]
+
+Other
+~~~~~
+
+- :fix:usr: re-added removed keys for several refs ref. Provided input
+  for buildsteps. [alyez]
+
+  buildsteps. [alyez]
+
+- :fix:usr: re-added removed keys for several refs ref. Provided input
+  for buildsteps. [alyez]
+
+  buildsteps. [alyez]
+
+- Added git related instructions to section lessons. [Miao Zhang]
+
+- Added git related instructions to section lessons. [Miao Zhang]
+
+- :fix:usr: Update message for added technologies: HPX5, SAP HANA, OCCI.
+  [alyez]
+
+
+  This reverts commit 84d23aa7d8637c8db2e50edfc907b32c2bf87731.
+
+- Add changes to menu. [Gregor von Laszewski]
+
+
+- Changed text as directed by instructor(s) [Matthew Lawson]
+
+- Remove trailing whitespaces. [Miao Zhang]
+
+- Modify a indentatioin, minor changes to test git-extras pr. [Miao
+  Zhang]
+
 - 3.0.8. [Gregor von Laszewski]
 
 - Version 3.0.8. [Gregor von Laszewski]
