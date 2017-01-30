@@ -260,8 +260,8 @@
 <li><a class="reference internal" href="#numbers-and-math">Numbers and Math</a></li>
 <li><a class="reference internal" href="#types-and-using-the-repl">Types and Using the REPL</a></li>
 <li><a class="reference internal" href="#lists">Lists</a></li>
-<li><a class="reference internal" href="#sets">Sets</a></li>
-<li><a class="reference internal" href="#dictionaries">Dictionaries</a><ul>
+<li><a class="reference internal" href="#sets">Sets</a><ul>
+<li><a class="reference internal" href="#testing-for-membership-and-removal">Testing for Membership and Removal</a></li>
 <li><a class="reference internal" href="#basics">Basics</a></li>
 <li><a class="reference internal" href="#keys-and-values">Keys and Values</a></li>
 <li><a class="reference internal" href="#counting-with-dictionaries">Counting with Dictionaries</a></li>
@@ -505,8 +505,8 @@
 <li><a class="reference internal" href="#numbers-and-math">Numbers and Math</a></li>
 <li><a class="reference internal" href="#types-and-using-the-repl">Types and Using the REPL</a></li>
 <li><a class="reference internal" href="#lists">Lists</a></li>
-<li><a class="reference internal" href="#sets">Sets</a></li>
-<li><a class="reference internal" href="#dictionaries">Dictionaries</a><ul>
+<li><a class="reference internal" href="#sets">Sets</a><ul>
+<li><a class="reference internal" href="#testing-for-membership-and-removal">Testing for Membership and Removal</a></li>
 <li><a class="reference internal" href="#basics">Basics</a></li>
 <li><a class="reference internal" href="#keys-and-values">Keys and Values</a></li>
 <li><a class="reference internal" href="#counting-with-dictionaries">Counting with Dictionaries</a></li>
@@ -601,8 +601,8 @@ Tutorial</a> copyright <a class="reference external" href="http://www.python.org
 <li><a class="reference internal" href="#numbers-and-math" id="id18">Numbers and Math</a></li>
 <li><a class="reference internal" href="#types-and-using-the-repl" id="id19">Types and Using the REPL</a></li>
 <li><a class="reference internal" href="#lists" id="id20">Lists</a></li>
-<li><a class="reference internal" href="#sets" id="id21">Sets</a></li>
-<li><a class="reference internal" href="#dictionaries" id="id22">Dictionaries</a><ul>
+<li><a class="reference internal" href="#sets" id="id21">Sets</a><ul>
+<li><a class="reference internal" href="#testing-for-membership-and-removal" id="id22">Testing for Membership and Removal</a></li>
 <li><a class="reference internal" href="#basics" id="id23">Basics</a></li>
 <li><a class="reference internal" href="#keys-and-values" id="id24">Keys and Values</a></li>
 <li><a class="reference internal" href="#counting-with-dictionaries" id="id25">Counting with Dictionaries</a></li>
@@ -772,15 +772,28 @@ using python.org. We follow best practices. Using other versions is
 not a community best practice, but may work for an individual.</p>
 <p>We have however in regards to using other python version additional
 bonus projects such as</p>
-<ul class="simple">
-<li>deploy run and document cloudmesh on ironpython</li>
-<li>deploy run and document cloudmesh on anaconde, develop script to
-generate a conda packge form github</li>
-<li>deploy run and document cloudmesh on canopy, develop script to
-generate a conda packge form github</li>
-<li>deploy run and document cloudmesh on ironpython</li>
-<li>other documentation that would be useful</li>
+<ul>
+<li><p class="first">deploy run and document cloudmesh on ironpython</p>
+</li>
+<li><p class="first">deploy run and document cloudmesh on anaconde, develop script to
+generate a conda packge form github</p>
+</li>
+<li><p class="first">deploy run and document cloudmesh on canopy, develop script to
+generate a conda packge form github</p>
+</li>
+<li><p class="first">deploy run and document cloudmesh on ironpython</p>
+</li>
+<li><p class="first">other documentation that would be useful</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">For this class, we do not recommend using any of these</p>
+</div>
+</li>
 </ul>
+<p>alternative installations. If you decide to use them, you are taking
+the risk of modifying your system configuration in a way that may
+affect other software. We will not be able to provide help for issues
+related to this.</p>
 </div>
 <div class="section" id="resources">
 <h2><a class="toc-backref" href="#id9">Resources</a><a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
@@ -1059,14 +1072,160 @@ go up/down line-by-line, or <code class="docutils literal"><span class="pre">q</
 <div class="section" id="lists">
 <h2><a class="toc-backref" href="#id20">Lists</a><a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h2>
 <p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_lists.htm">https://www.tutorialspoint.com/python/python_lists.htm</a></p>
+<p>Lists in Python are ordered sequences of elements, where each element
+can be accessed using a 0-based index.</p>
+<p>To define a list, you simply list its elements between square brackest
+<code class="docutils literal"><span class="pre">[]</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Jane&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Abby&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># access the first element of the list</span>
+<span class="go">&#39;Albert&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="c1"># access the third element of the list</span>
+<span class="go">&#39;Liz&#39;</span>
+</pre></div>
+</div>
+<p>You can also use a negative index if you want to start counting
+elements from the end of the list. Thus, the last element has index
+<em>-1</em>, the second before last element has index <em>-2</em> and so on:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># access the last element of the list</span>
+<span class="go">&#39;Abby&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span> <span class="c1"># access the second last element of the list</span>
+<span class="go">&#39;John&#39;</span>
+</pre></div>
+</div>
+<p>Python also allows you to take whole slices of the list by specifing a
+beginning and end of the slice separated by a colon <code class="docutils literal"><span class="pre">:</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># the middle elements, excluding first and last</span>
+<span class="go">[&#39;Jane&#39;, &#39;Liz&#39;, &#39;John&#39;]</span>
+</pre></div>
+</div>
+<p>As you can see from the example above, the starting index in the slice
+is inclusive and the ending one, exclusive.</p>
+<p>Python provides a variety of methods for manipulating the members of a
+list.</p>
+<p>You can add elements with <code class="docutils literal"><span class="pre">append</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Liz&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
+<span class="go">[&#39;Albert&#39;, &#39;Jane&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Abby&#39;, &#39;Liz&#39;]</span>
+</pre></div>
+</div>
+<p>As you can see, the elements in a list need not be unique.</p>
+<p>Merge two lists with <code class="docutils literal"><span class="pre">extend</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s1">&#39;Lindsay&#39;</span><span class="p">,</span> <span class="s1">&#39;Connor&#39;</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
+<span class="go">[&#39;Albert&#39;, &#39;Jane&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Abby&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;, &#39;Connor&#39;]</span>
+</pre></div>
+</div>
+<p>Find the index of the first occurrence of an element with <code class="docutils literal"><span class="pre">index</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;Liz&#39;</span><span class="p">)</span>
+<span class="go">2</span>
+</pre></div>
+</div>
+<p>Remove elements by value with <code class="docutils literal"><span class="pre">remove</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;Abby&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
+<span class="go">[&#39;Albert&#39;, &#39;Jane&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;, &#39;Connor&#39;]</span>
+</pre></div>
+</div>
+<p>Remove elements by index with <code class="docutils literal"><span class="pre">pop</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">&#39;Jane&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
+<span class="go">[&#39;Albert&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;, &#39;Connor&#39;]</span>
+</pre></div>
+</div>
+<p>Notice that <code class="docutils literal"><span class="pre">pop</span></code> returns the element being removed, while
+<code class="docutils literal"><span class="pre">remove</span></code> does not.</p>
+<p>If you are familiar with stacks from other programming languages, you
+can use <code class="docutils literal"><span class="pre">insert</span></code> and <code class="docutils literal"><span class="pre">pop</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;Lincoln&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
+<span class="go">[&#39;Lincoln&#39;, &#39;Albert&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;, &#39;Connor&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+<span class="go">&#39;Connor&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
+<span class="go">[&#39;Lincoln&#39;, &#39;Albert&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;]</span>
+</pre></div>
+</div>
+<p>The Python documentation contains a <a href="#id47"><span class="problematic" id="id48">`full list of list operations &lt;&gt;`_</span></a>.</p>
+<p>To go back to the <code class="docutils literal"><span class="pre">range</span></code> function you used earlier, it simply
+creates a list of numbers:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="go">[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">[2, 4, 6, 8]</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="sets">
 <h2><a class="toc-backref" href="#id21">Sets</a><a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h2>
+<p>Python lists can contain duplicates as you saw above:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Jane&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Abby&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">]</span>
+</pre></div>
 </div>
-<div class="section" id="dictionaries">
-<h2><a class="toc-backref" href="#id22">Dictionaries</a><a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h2>
+<p>When we don&#8217;t want this to be the case, we can use a <a class="reference external" href="https://docs.python.org/2/library/stdtypes.html#set">set</a>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span>
+<span class="go">set([&#39;Lincoln&#39;, &#39;John&#39;, &#39;Albert&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;])</span>
+</pre></div>
+</div>
+<p>Keep in mind that the <em>set</em> is an unordered collection of objects,
+thus we can not access them by index:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">&quot;&lt;stdin&gt;&quot;</span>, line <span class="m">1</span>, in <span class="n">&lt;module&gt;</span>
+<span class="gr">  TypeError</span>: <span class="n">&#39;set&#39; object does not support indexing</span>
+</pre></div>
+</div>
+<p>However, we can convert a set to a list easily:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">unique_names</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span>
+<span class="go">[&#39;Lincoln&#39;, &#39;John&#39;, &#39;Albert&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="go">&#39;Lincoln&#39;</span>
+</pre></div>
+</div>
+<p>Notice that in this case, the order of elements in the new list
+matches the order in which the elements were displayed when we create
+the set (we had <code class="docutils literal"><span class="pre">set(['Lincoln',</span> <span class="pre">'John',</span> <span class="pre">'Albert',</span> <span class="pre">'Liz',</span>
+<span class="pre">'Lindsay'])</span></code> and now we have <code class="docutils literal"><span class="pre">['Lincoln',</span> <span class="pre">'John',</span> <span class="pre">'Albert',</span> <span class="pre">'Liz',</span>
+<span class="pre">'Lindsay']</span></code>). You should not assume this is the case in general. That
+is, don&#8217;t make any assumptions about the order of elements in a set
+when it is converted to any type of sequential data structure.</p>
+<div class="section" id="testing-for-membership-and-removal">
+<h3><a class="toc-backref" href="#id22">Testing for Membership and Removal</a><a class="headerlink" href="#testing-for-membership-and-removal" title="Permalink to this headline">¶</a></h3>
+<p>One important advantage of a <em>set</em> over a <em>list</em> is that <strong>access to
+elements is fast</strong>. If you are familiar with different data structures
+from a Computer Science class, the Python list is implemented by an
+array, while the set is implemented by a hash table.</p>
+<p>We will demonstrate this with an example. Let&#8217;s say we have a list and
+a set of the same number of elements (approximately 100 thousand):</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">random</span><span class="o">,</span> <span class="nn">timeit</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nums_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">sys</span><span class="o">.</span><span class="n">maxint</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">)])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nums_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">nums_set</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">nums_set</span><span class="p">)</span>
+<span class="go">100000</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">nums_list</span><span class="p">)</span>
+<span class="go">100000</span>
+</pre></div>
+</div>
+<p>We will use the <a href="#id49"><span class="problematic" id="id50">`timeit &lt;&gt;`_</span></a> Python module to time 100 operations that
+test for the existence of a member in either the list or set:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">timeit</span><span class="o">.</span><span class="n">timeit</span><span class="p">(</span><span class="s1">&#39;random.randint(0, sys.maxint) in nums&#39;</span><span class="p">,</span> <span class="n">setup</span><span class="o">=</span><span class="s1">&#39;import random; nums=</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="nb">str</span><span class="p">(</span><span class="n">nums_set</span><span class="p">),</span> <span class="n">number</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+<span class="go">0.0004038810729980469</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">timeit</span><span class="o">.</span><span class="n">timeit</span><span class="p">(</span><span class="s1">&#39;random.randint(0, sys.maxint) in nums&#39;</span><span class="p">,</span> <span class="n">setup</span><span class="o">=</span><span class="s1">&#39;import random; nums=</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="nb">str</span><span class="p">(</span><span class="n">nums_list</span><span class="p">),</span> <span class="n">number</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+<span class="go">0.3980541229248047</span>
+</pre></div>
+</div>
+<p>The exact duration of the operations on your system will be different,
+but the take away will be the same: searching for an element in a set
+is orders of magnitude faster than in a list. This is important to
+keep in mind when you work with large amounts of data.</p>
+<blockquote>
+<div>Dictionaries</div></blockquote>
+<hr class="docutils" />
 <p>One of the very important datastructures in python is a dictionary
 also refered to as <em>dict</em>.</p>
+</div>
 <div class="section" id="basics">
 <h3><a class="toc-backref" href="#id23">Basics</a><a class="headerlink" href="#basics" title="Permalink to this headline">¶</a></h3>
 <p>A dictionary represents a key value store:</p>
@@ -1091,7 +1250,7 @@ also refered to as <em>dict</em>.</p>
 <span class="gr">  NameError</span>: <span class="n">name &#39;person&#39; is not defined</span>
 </pre></div>
 </div>
-<p>You can iterate ofer a dict:</p>
+<p>You can iterate over a dict:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Name&#39;</span><span class="p">:</span> <span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="s1">&#39;Class&#39;</span><span class="p">:</span> <span class="s1">&#39;Scientist&#39;</span><span class="p">}</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">person</span><span class="p">:</span>
 <span class="gp">... </span>  <span class="nb">print</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="n">person</span><span class="p">[</span><span class="n">item</span><span class="p">])</span>
@@ -1323,8 +1482,20 @@ the lengths of the three sides of a triangle, and will output whether
 they define a valid triangle. A triangle is valid if the length of
 each side is less than the sum of the lengths of the other two sides
 and greater than the difference of the lengths of the other two sides.:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
-<span class="kn">import</span> <span class="nn">argparse</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;Usage: check_triangle.py [-h] LENGTH WIDTH HEIGHT</span>
+
+<span class="sd">Check if a triangle is valid.</span>
+
+<span class="sd">Arguments:</span>
+<span class="sd">  LENGTH     The length of the triangle.</span>
+<span class="sd">  WIDTH      The width of the traingle.</span>
+<span class="sd">  HEIGHT     The height of the triangle.</span>
+
+<span class="sd">Options:</span>
+<span class="sd">-h --help</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
+<span class="kn">from</span> <span class="nn">docopt</span> <span class="k">import</span> <span class="n">docopt</span>
 
 
 <span class="k">def</span> <span class="nf">check_triangle</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
@@ -1335,15 +1506,11 @@ and greater than the difference of the lengths of the other two sides.:</p>
 
 
 <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-      <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Check if a triangle is valid.&#39;</span><span class="p">)</span>
-      <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;length&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;The length of the triangle.&#39;</span><span class="p">)</span>
-      <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;width&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;The width of the triangle.&#39;</span><span class="p">)</span>
-      <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;height&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;The height of the triangle.&#39;</span><span class="p">)</span>
-      <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
-
+      <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="n">__doc__</span><span class="p">)</span>
+      <span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;LENGTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;WIDTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;HEIGHT&#39;</span><span class="p">])</span>
       <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Triangle with sides </span><span class="si">%d</span><span class="s1">, </span><span class="si">%d</span><span class="s1"> and </span><span class="si">%d</span><span class="s1"> is valid: </span><span class="si">%r</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span>
-              <span class="n">args</span><span class="o">.</span><span class="n">length</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">height</span><span class="p">,</span>
-              <span class="n">check_triangle</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">length</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">height</span><span class="p">)</span>
+              <span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span>
+              <span class="n">check_triangle</span><span class="p">(</span><span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">)</span>
       <span class="p">))</span>
 </pre></div>
 </div>
@@ -1359,7 +1526,7 @@ Triangle with sides 4, 5 and 6 is valid: True
 <li>We&#8217;ve defined the <code class="docutils literal"><span class="pre">check_triangle</span></code> function which has three parameters. It returns <code class="docutils literal"><span class="pre">True</span></code> if all six expressions defined inside are true, and <code class="docutils literal"><span class="pre">False</span></code> otherwise.</li>
 <li>We&#8217;ve used the backslash symbol <code class="docutils literal"><span class="pre">\</span></code> to format are code nicely. The backslash simply indicates that the current line is being continued on the next line.</li>
 <li>When we run the program, we do the check <code class="docutils literal"><span class="pre">if</span> <span class="pre">__name__</span> <span class="pre">==</span> <span class="pre">'__main__'</span></code>. <code class="docutils literal"><span class="pre">__name__</span></code> is an internal Python variable that allows us to tell whether the current file is being run from the command line (value <code class="docutils literal"><span class="pre">__name__</span></code>), or is being imported by a module (the value will be the name of the module). Thus, with this statement we&#8217;re just making sure the program is being run by the command line.</li>
-<li>We are using the <code class="docutils literal"><span class="pre">argparse</span></code> module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces the correct number and type of command line arguments automatically.</li>
+<li>We are using the <code class="docutils literal"><span class="pre">docopt</span></code> module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces command line arguments automatically. All of this is done by parsing the docstring at the top of the file.</li>
 <li>In the <code class="docutils literal"><span class="pre">print</span></code> function, we are using <a class="reference external" href="https://docs.python.org/2/library/string.html#format-string-syntax">Python&#8217;s string formatting capabilities</a> to insert values into the string we are displaying.</li>
 </ol>
 </div>
@@ -1374,7 +1541,7 @@ standard library.  In this case you have two option:</p>
 <p>Often you can find a previous implementation of what you need.
 Since this is a common situation, there is a service supporting it:
 the <a class="reference external" href="https://pypi.python.org/pypi">Python Package Index</a> (or PyPi for short).</p>
-<p>Our task here is to install the <a href="#id47"><span class="problematic" id="id48">`autopep8`_</span></a> tool from PyPi.  This will
+<p>Our task here is to install the <a href="#id51"><span class="problematic" id="id52">`autopep8`_</span></a> tool from PyPi.  This will
 allow us to illustrate the use if virtual environments using the
 <code class="docutils literal"><span class="pre">virtualenv</span></code> command, and installing and uninstalling PyPi packages
 using <code class="docutils literal"><span class="pre">pip</span></code>.</p>
