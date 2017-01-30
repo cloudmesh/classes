@@ -975,14 +975,7 @@ the class). For example, let's see how to define a ``Triangle`` class:
 
    triangle = Triangle(4, 5, 6, 35, 65, 80)
 
-<<<<<<< 82f2124976ad26439f756b5496a2e120537b3339
 Python has full object-oriented programming (OOP) capabilities, however we can not cover all of them in a quick tutorial, so please refer to the `Python docs on classes and OOP <https://docs.python.org/2.7/tutorial/classes.html>`_.
-=======
-Python has full object-oriented programming (OOP) capabilities,
-however we can not cover all of them in a quick tutorial, so please
-refer to the `Python docs on classes and OOP
-<https://docs.python.org/2.7/tutorial/classes.html>`_.
->>>>>>> chg: dev: rework class example
 
 Database Access
 =================================================================
