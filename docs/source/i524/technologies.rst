@@ -348,16 +348,20 @@ High level Programming
 110. Impala
 111. MRQL
 
-MapReduce Query Language (MRQL, pronounced miracle) "is a query  processing 
-and optimization system for large-scale, distributed data analysis". :cite:`www-apachemrql` MRQL 
-also provides a SQL like language for use on Apache Hadoop, Hama, Spark, 
-and Flink.  MRQL allows user to perform complex data analysis using only 
-SQL like queries, which are translate by MRQL to efficient Java code. :cite:`www-apachemrql`
+     MapReduce Query Language (MRQL, pronounced miracle) "is a query
+     processing and optimization system for large-scale, distributed
+     data analysis". :cite:`www-apachemrql` MRQL also provides a SQL
+     like language for use on Apache Hadoop, Hama, Spark, and Flink.
+     MRQL allows user to perform complex data analysis using only SQL
+     like queries, which are translate by MRQL to efficient Java
+     code. :cite:`www-apachemrql`
 
-MRQL was created in 2011 by Leaonids Fegaras. :cite:`www-mrqlhadoop` MRQL 
-is currently in the Apache Incubator.  All project accepted by the Apache 
-Software Foundation (ASF) undergo an incubation period until a review 
-indicates that the project meets standardas of other ASF projects. :cite:`www-apacheincubator`
+     MRQL was created in 2011 by Leaonids
+     Fegaras. :cite:`www-mrqlhadoop` MRQL is currently in the Apache
+     Incubator.  All project accepted by the Apache Software
+     Foundation (ASF) undergo an incubation period until a review
+     indicates that the project meets standardas of other ASF
+     projects. :cite:`www-apacheincubator`
 
 112. SAP HANA
 
