@@ -108,6 +108,13 @@ short cuts.
 | Ctrl + d   | Log out of current session, similar to exit              |
 +------------+----------------------------------------------------------+
 
+.. _bashrc:
+   
+.bashrc and .bash_profile
+-----------------------------
+
+.. warning:: Not yet implemented.
+
 Exercise
 --------
 
