@@ -975,6 +975,7 @@ the class). For example, let's see how to define a ``Triangle`` class:
 
    triangle = Triangle(4, 5, 6, 35, 65, 80)
 
+<<<<<<< HEAD
 Python has full object-oriented programming (OOP) capabilities,
 however we can not cover all of them in a quick tutorial, so please
 refer to the `Python docs on classes and OOP
