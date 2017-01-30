@@ -248,32 +248,28 @@ Application Hosting Frameworks
 85. AWS Elastic Beanstalk
 86. Azure
 
-    Microsoft Corporation (MSFT) markets its cloud products under the
-    *Azure* brand name. At its most basic, Azure acts as an
-    *infrastructure-as-a-service* (IaaS) provider.  IaaS virtualizes
-    hardware components, a key differentiation from other
-    *-as-a-service* products.
-    IaaS "abstract[s] the user from the details of infrasctructure
-    like physical computing resources, location, data partitioning,
-    scaling, security, backup, etc." :cite:`www-wikipedia-cloud`
+    Microsoft Corporation (MSFT) markets its cloud products under the *Azure*
+    brand name. At its most basic, Azure acts as an *infrastructure-
+    as-a-service* (IaaS) provider.  IaaS virtualizes hardware components, a key
+    differentiation from other *-as-a-service* products. IaaS "abstract[s] the
+    user from the details of infrasctructure like physical computing resources,
+    location, data partitioning, scaling, security, backup, etc." 
+    :cite:`www-wikipedia-cloud`
 
-    However, Azure offers a host of closely-related tool and products
-    to enhance and improve the core product, such as raw block
-    storage, load balancers, and IP addresses :cite:`www-azure-msft`.
-    For instance, Azure users can access predictive analytics, Bots
-    and Blockchain-as-a-Service :cite:`www-azure-msft` as well as
-    more-basic computing, networking, storage, database and management
-    components :cite:`www-sec-edgar-msft`.  The Azure website shows
-    twelve major categories under *Products* and twenty *Solution*
-    categories, e.g., e-commerce or Business SaaS apps.
+    However, Azure offers a host of closely-related tool and products to enhance
+    and improve the core product, such as raw block storage, load balancers, and
+    IP addresses :cite:`www-azure-msft`. For instance, Azure users can access
+    predictive analytics, Bots and Blockchain-as-a-Service 
+    :cite:`www-azure-msft` as well as more-basic computing, networking, storage,
+    database and management components :cite:`www-sec-edgar-msft`.  The Azure 
+    website shows twelve major categories under *Products* and twenty 
+    *Solution* categories, e.g., e-commerce or Business SaaS apps.
 
-    Azure competes against Amazon's *Amazon Web Service*,
-    :cite:`www-aws-amzn` even though IBM (*SoftLayer*
-    :cite:`www-softlayer-ibm` and *Bluemix* :cite :`www-bluemix-ibm`)
-    and Google (*Google Cloud Platform*) :cite:`www-cloud-google`
-    offer IaaS to the market.  As of January 2017, Azure's datacenters
-    span 32 Microsoft-defined *regions*, or 38 *declared regions*,
-    throughout the world. :cite:`www-azure-msft`
+    Azure competes against Amazon's *Amazon Web Service*, :cite:`www-aws-amzn`
+    even though IBM (*SoftLayer*  :cite:`www-softlayer-ibm` and *Bluemix* 
+    :cite:`www-bluemix-ibm`) and Google (*Google Cloud Platform*) 
+    :cite:`www-cloud-google` offer IaaS to the market.  As of January 2017,
+    Azure's datacenters span 32 Microsoft-defined *regions*, or 38 *declared regions*, throughout the world. :cite:`www-azure-msft`
 
 87. Cloud Foundry
 88. Pivotal
@@ -332,18 +328,18 @@ High level Programming
      consisting of a billion records, the program would first select
      the top ten records for each region using server-side compute
      resources.  After that, the client would be tasked with selecting
-     the overall top ten. :cite:`www-phoenix- salesforcedev`
+     the overall top ten. :cite:`www-phoenix-salesforcedev`
 
      Despite adding an abstraction layer, Phoenix can actually speed
      up queries because it optimizes the query during the translation
-     process. :cite:`www- phoenix-cloudera` For example, "Phoenix
+     process. :cite:`www-phoenix-cloudera` For example, "Phoenix
      beats Hive for a simple query spanning 10M-100M rows."
      :cite:`www-phoenix-infoq`
 
      Finally, another program can enhance HBase's accessibility for
      those inclined towards graphical interfaces.  SQuirell only
      requires the user to set up the JDBC driver and specify the
-     appropriate connection string. :cite:`www-phoenix- bighadoop`
+     appropriate connection string. :cite:`www-phoenix-bighadoop`
 
 110. Impala
 111. MRQL
@@ -885,6 +881,48 @@ NoSQL
 229. Espresso
 230. CouchDB
 231. Couchbase
+
+     Couchbase, Inc. offers Couchbase Server (CBS) to the marketplace as a
+     NoSQL, document-oriented database alternative to traditional relationship-
+     oriented database managgement systems as well as other NoSQL competitors.
+     The basic storage unit, a *document*, is a "data structure defined as a
+     collection of named fields".  The document utilizes JSON, thereby allowing
+     each document to have its own individual schema. :cite:`www-infoworld-cbs`
+
+     CBS combines the in-memory capabilities of Membase with CouchDB's inherent
+     data store reliability and data persistency.  Membase functions in RAM
+     only, providing the highest-possible speed capabilities to end users.
+     However, Membase's in-ram existence limits the amount of data it can use.
+     More importantly, it provides no mechanism for data recovery if the server
+     crashes.  Combining Membase with CouchDB provides a persistent data source,
+     mitigating the disadvantages of either product.  In addition, CouchDB +
+     membase allows the data size "to grow beyond the size of RAM".
+     :cite:`www-safaribooks-cbs`
+
+     CBS is written in Erlang/OTP, but generally shortened to just Erlang.  In
+     actuality, t is written in "Erlang using components of OTP...alongside some
+     C/C++":cite:`www-erlangcentral-cbs`, It runs on an Erlang virtual machine
+     known as BEAM. :cite:`www-wikipedia-erlang-cbs`
+
+     Out-of-the-box benefits of Erlang/OTP include dynamic type setting, pattern
+     matching and, most importantly, actor-model concurrency.  As a result,
+     Erlang code virtually eliminates the possibility of inadvertent deadlock
+     scenarios.  In addition, Erlang/OTP processes are lightweight, spawning new
+     processes does not consume many resources and message passing between
+     processes is fast since they run in the same memory space.  Finally, OTP's
+     process supervision tree makes Erlang/OTP extremely fault-tolerant.  Error
+     handling is indistinguishable from a process startup, easing testing and
+     bug detection.  :cite:`www-couchbase-blog-cbs`
+
+     CouchDB's design adds another layer of reliability to CBS.  CouchDB
+     operates in *append-only* mode, so it adds user changes to the tail of
+     database.   This setup resists data corruption while taking a snapshot,
+     even if the server continues to run during the procedure.
+     :cite:`www-hightower-cbs`
+
+     Finally, CB uses the Apache 2.0 License, one of several open-source license
+     alternatives. :cite:`www-quora-cbs`
+
 232. IBM Cloudant
 233. Pivotal Gemfire
 234. HBase
@@ -918,6 +956,30 @@ NoSQL
 249. Jena
 250. Sesame
 251. Public Cloud: Azure Table
+
+     Microsoft offers its NoSQL Azure Table product to the market as a low-cost,
+     fast and scalable data storage option. :cite:`www-what-to-use`  Table
+     stores data as collections of key-value  combinations, which it terms
+     *properties*.  Table refers to a collection of properties as an *entity*.
+     Each entity can contain a mix of properties.  The mix of properties can
+     vary between each entity, although each entity may consist of no more than
+     255 properties. :cite:`www-blobqueuetable`
+
+     Although data in Azure Table will be structured via key-value pairs, Table
+     provides just one mechanism for the user to define relationships between
+     entities: the entity's *primary key*.  The primary key, which Microsoft
+     sometimes calls a *clustered index*, consists of a PartitionKey and a
+     RowKey.  The PartitionKey indicates the group, a.k.a partition, to which
+     the user assigned the entity.  The RowKey indicates the entity's relative
+     position in the group.  Table sorts in ascending order by the PartitionKey
+     first, then by the RowKey using lexical comparisons.  As a result, numeric
+     sorting requires fixed-length, zero-padded strings.  For instance, Table
+     sorts *111* before *2*, but will sort *111* after
+     *002*. :cite:`www-scalable-partitioning`
+
+     Azure Table is considered best-suited for infrequently accessed data
+     storage.
+
 252. Amazon Dynamo
 253. Google DataStore
 
