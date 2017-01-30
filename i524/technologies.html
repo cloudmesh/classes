@@ -963,6 +963,19 @@ appropriate connection string. [www-phoenix- bighadoop]</p>
 <li><p class="first">Impala</p>
 </li>
 <li><p class="first">MRQL</p>
+<p>MapReduce Query Language (MRQL, pronounced miracle) &#8220;is a query
+processing and optimization system for large-scale, distributed
+data analysis&#8221;. <a class="reference internal" href="#www-apachemrql" id="id27">[Apa16]</a> MRQL also provides a SQL
+like language for use on Apache Hadoop, Hama, Spark, and Flink.
+MRQL allows user to perform complex data analysis using only SQL
+like queries, which are translate by MRQL to efficient Java
+code. <a class="reference internal" href="#www-apachemrql" id="id28">[Apa16]</a></p>
+<p>MRQL was created in 2011 by Leaonids
+Fegaras. <a class="reference internal" href="#www-mrqlhadoop" id="id29">[Yoo17]</a> MRQL is currently in the Apache
+Incubator.  All project accepted by the Apache Software
+Foundation (ASF) undergo an incubation period until a review
+indicates that the project meets standardas of other ASF
+projects. <a class="reference internal" href="#www-apacheincubator" id="id30">[Apa17]</a></p>
 </li>
 <li><p class="first">SAP HANA</p>
 <p>As noted in [www-sap-hana], SAP HANA is in-memory massively
@@ -976,7 +989,7 @@ processing of spatial, graphical, and text data.</p>
 data on premises, cloud and hybrid configurations.  In a
 nutshell, SAP HANA acts as a warehouse that integrates live
 transactional data from various data sources on a single
-platform <a class="reference internal" href="#olofson-2014" id="id28">[Olo14]</a>. It provides extensive
+platform <a class="reference internal" href="#olofson-2014" id="id32">[Olo14]</a>. It provides extensive
 administrative, security features and data access that ensures
 high data availability, data protection and data quality.</p>
 </div></blockquote>
@@ -988,13 +1001,13 @@ high data availability, data protection and data quality.</p>
 <li><p class="first">Pivotal HD/Hawq</p>
 </li>
 <li><p class="first">Presto</p>
-<p>Presto <a class="reference internal" href="#www-presto" id="id29">[wwwf]</a> is an open-source distributed SQL query
+<p>Presto <a class="reference internal" href="#www-presto" id="id33">[wwwf]</a> is an open-source distributed SQL query
 engine that supports interactive analytics on large datasets. It
 allows interfacing with a variety of data sources such as Hive,
 Cassandra, RDBMSs and proprietary data source. Presto is used at a
 number of big-data companies such as Facebook, Airbnb and
 Dropbox. Presto&#8217;s performance compares favorably to similar systems
-such as Hive and Stinger <a class="reference internal" href="#presto-paper-2014" id="id30">[CQB+14]</a>.</p>
+such as Hive and Stinger <a class="reference internal" href="#presto-paper-2014" id="id34">[CQB+14]</a>.</p>
 </li>
 <li><p class="first">Google Dremel</p>
 </li>
@@ -1005,7 +1018,7 @@ such as Hive and Stinger <a class="reference internal" href="#presto-paper-2014"
 <li><p class="first">Drill</p>
 </li>
 <li><p class="first">Kyoto Cabinet</p>
-<p>Kyoto Cabinet as specified in <a class="reference internal" href="#www-kyotocabinet" id="id31">[Kyo]</a> is a
+<p>Kyoto Cabinet as specified in <a class="reference internal" href="#www-kyotocabinet" id="id35">[Kyo]</a> is a
 library of routines for managing a database which is a simple
 data file containing records. Each record in the database is a
 pair of a key and a value. Every key and value is serial bytes
@@ -1048,7 +1061,7 @@ is great. The database size can be up to 8EB (9.22e18 bytes).</p>
 <li><p class="first">Google MillWheel</p>
 </li>
 <li><p class="first">Amazon Kinesis</p>
-<p>Kinesis is Amazon’s <a class="reference internal" href="#www-kinesis" id="id32">[wwwm]</a> real time data processing
+<p>Kinesis is Amazon’s <a class="reference internal" href="#www-kinesis" id="id36">[wwwm]</a> real time data processing
 engine. It is designed to provide scalable, durable and reliable
 data processing platform with low latency. The data to Kinesis
 can be ingested from multiple sources in different format. This
@@ -1072,7 +1085,7 @@ understand the amount of data being processed by Kinesis.  User
 can use this metrics to do some analytics and visualize the
 metrics data.  Kinesis is one of the tools part of AWS
 infrastructure and provides its users a complete
-software-as-a-service. Kinesis <a class="reference internal" href="#big-data-analytics-book" id="id33">[SS16]</a> in
+software-as-a-service. Kinesis <a class="reference internal" href="#big-data-analytics-book" id="id37">[SS16]</a> in
 the area of real-time processing provides following key benefits:
 ease of use, parellel processing, scalable, cost effective, fault
 tolerant and highly available.</p>
@@ -1108,7 +1121,7 @@ tolerant and highly available.</p>
 </li>
 <li><dl class="first docutils">
 <dt>MR-MPI</dt>
-<dd><p class="first last"><a class="reference internal" href="#www-mapreducempi" id="id34">[www17f]</a> MR-MPI stands for Map Reduce-Message Passing Interface is open source
+<dd><p class="first last"><a class="reference internal" href="#www-mapreducempi" id="id38">[www17f]</a> MR-MPI stands for Map Reduce-Message Passing Interface is open source
 library build on top of standard MPI. It basically implements mapReduce operation providing a
 interface for user to simplify writing mapReduce program.
 It is written in C++ and needs to be linked to MPI library      in order to make the basic map reduce
@@ -1138,7 +1151,7 @@ It provides interface for c, c++ and python. Using C interface the library can a
 <li><p class="first">Galois</p>
 <p>Galois system was built by intelligent software systems team at
 University of Texas, Austin. As explained in
-<a class="reference internal" href="#www-galoissite" id="id35">[wwwd]</a>, “Galois is a system that automatically
+<a class="reference internal" href="#www-galoissite" id="id39">[wwwd]</a>, “Galois is a system that automatically
 executes &#8216;Galoized&#8217; serial C++ or Java code&nbsp;in parallel&nbsp;on
 shared-memory machines. It works by exploiting amorphous
 data-parallelism, which is present even in irregular codes that
@@ -1151,7 +1164,7 @@ executes the code that could be run in parallel. The key idea
 behind Galois is Tao-analysis, in which parallelism is exploited
 at compile time rather than at run time by creating operators
 equivalent of the code by employing data driven local computation
-algorithm <a class="reference internal" href="#taoparallelismpaper" id="id36">[PNK+11]</a>. Galois currently supports
+algorithm <a class="reference internal" href="#taoparallelismpaper" id="id40">[PNK+11]</a>. Galois currently supports
 C++ and Java.</p>
 </li>
 <li><p class="first">Medusa-GPU</p>
@@ -1199,7 +1212,7 @@ configurations and environments could be accessed via
 <li><p class="first">ActiveMQ</p>
 </li>
 <li><p class="first">RabbitMQ</p>
-<p>RabbitMQ is a message broker <a class="reference internal" href="#www-rabbitmq" id="id37">[wwwo]</a> which allows
+<p>RabbitMQ is a message broker <a class="reference internal" href="#www-rabbitmq" id="id41">[wwwo]</a> which allows
 services to exchange messages in a fault tolerant manner. It
 provides variety of features which “enables software applications
 to connect and scale”. Features are: reliability, flexible
@@ -1232,7 +1245,7 @@ exchange or multiple exchanges.</p>
 <li><p class="first">RPC:In this mode the client sends messages as well as
 registers a callback message queue. The consumers consume the
 message and post the response message to the callback queue.</p>
-<p>RabbitMQ is based on AMPQ <a class="reference internal" href="#ampq-article" id="id38">[OHara07]</a> (Advanced
+<p>RabbitMQ is based on AMPQ <a class="reference internal" href="#ampq-article" id="id42">[OHara07]</a> (Advanced
 Message Queuing Protocol) messaging model. AMPQ is described
 as follows “messages are published to exchanges, which are
 often compared to post offices or mailboxes. Exchanges then
@@ -1273,7 +1286,7 @@ streams are partitioned and replicated across nodes. Thus, a
 combination of messaging, storage and processing data stream
 makes Kafka a ‘streaming platform’.</p>
 <p>Kafka is a commonly used for building data pipelines where data is
-transferred between systems or applications. <a class="reference internal" href="#www-kafka" id="id39">[Fou]</a>
+transferred between systems or applications. <a class="reference internal" href="#www-kafka" id="id43">[Fou]</a>
 Kafka can also be used by applications that transform real time
 incoming data.</p>
 </li>
@@ -1305,7 +1318,7 @@ incoming data.</p>
 <h2>In-memory databases/caches<a class="headerlink" href="#in-memory-databases-caches" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic" start="183">
 <li><p class="first">Gora (general object from NoSQL)</p>
-<p>Gora is a in-memory data model <a class="reference internal" href="#www-gora" id="id40">[wwwj]</a> which also
+<p>Gora is a in-memory data model <a class="reference internal" href="#www-gora" id="id44">[wwwj]</a> which also
 provides persistence to the big data. Gora provides persistence
 to different types of data stores. Primary goals of Gora are:</p>
 <ol class="arabic simple">
@@ -1353,10 +1366,10 @@ library call GoraCI which is used to write integration tests.</p>
 <li><p class="first">H-Store</p>
 <p>H-Store is an in memory and parallel database management system
 for on-line transaction processing (OLTP). Specifically ,
-<a class="reference internal" href="#www-hstore" id="id41">[HSta]</a> illustrates that H-Store is a highly
+<a class="reference internal" href="#www-hstore" id="id45">[HSta]</a> illustrates that H-Store is a highly
 distributed, row-store-based relational database that runs on a
 cluster on shared-nothing, main memory executor nodes.As Noted in
-<a class="reference internal" href="#kallman2008" id="id42">[KKN+08]</a> &#8220;the architectural and application shifts
+<a class="reference internal" href="#kallman2008" id="id46">[KKN+08]</a> &#8220;the architectural and application shifts
 have resulted in modern OLTP databases increasingly falling short
 of optimal performance.In particular, the availability of
 multiple-cores, the abundance of main memory, the lack of user
@@ -1364,7 +1377,7 @@ stalls, and the dominant use of stored procedures are factors
 that portend a clean-slate redesign of RDBMSs&#8221;.The H-store which
 is a complete redesign has the potential to outperform legacy
 OLTP databases by a significant factor.  As detailed in
-<a class="reference internal" href="#www-hstorewiki" id="id43">[HStb]</a> H-Store is the first implementation of a
+<a class="reference internal" href="#www-hstorewiki" id="id47">[HStb]</a> H-Store is the first implementation of a
 new class of parallel DBMS, called NewSQL, that provides the
 high-throughput and high-availability of NoSQL systems, but
 without giving up the transactional guarantees of a traditional
@@ -1396,7 +1409,7 @@ single-node system.</p>
 from over a thousand different file types (such as PPT, XLS, and
 PDF). All of these file types can be parsed through a single
 interface, making Tika useful for search engine indexing, content
-analysis, translation, and much more. <a class="reference internal" href="#www-tika" id="id44">[Tik]</a>&#8220;</p>
+analysis, translation, and much more. <a class="reference internal" href="#www-tika" id="id48">[Tik]</a>&#8220;</p>
 </li>
 </ol>
 </div>
@@ -1408,7 +1421,7 @@ analysis, translation, and much more. <a class="reference internal" href="#www-t
 <li><p class="first">DB2</p>
 </li>
 <li><p class="first">SQL Server</p>
-<p>SQL Server <a class="reference internal" href="#www-sqlserver-wiki" id="id45">[sql]</a> is a relational database
+<p>SQL Server <a class="reference internal" href="#www-sqlserver-wiki" id="id49">[sql]</a> is a relational database
 management system from Microsoft. As of Jan 2017, SQL Server is
 available in below editions</p>
 <ol class="arabic simple">
@@ -1418,13 +1431,13 @@ available in below editions</p>
 intelligence tools like PowerPivot, PowerBI, Master Data Services</li>
 <li>Enterprise - consists of core database engine and enterprise services
 like cluster manager</li>
-<li>SQL Server Azure - <a class="reference internal" href="#www-azuresql" id="id46">[azu]</a> core database engine
+<li>SQL Server Azure - <a class="reference internal" href="#www-azuresql" id="id50">[azu]</a> core database engine
 integrated with Microsoft Azure cloud platform and available in
 platform-as-a-service mode.</li>
 </ol>
 <p>It is explained that technical architecture of SQL Server in
 OLTP(online transaction processing), hybrid cloud and business
-intelligence modes <a class="reference internal" href="#book-sqlserver" id="id47">[RM14]</a>.</p>
+intelligence modes <a class="reference internal" href="#book-sqlserver" id="id51">[RM14]</a>.</p>
 </li>
 <li><p class="first">SQLite</p>
 </li>
@@ -1439,7 +1452,7 @@ Relational DataBase Management System designed in C programming
 language with high performance, scalability and availability
 features. During its development by NCL, korean IT service
 provider the goal was to optimize database performance for
-web-applications. <a class="reference internal" href="#www-cubrid" id="id48">[www17d]</a> Importantly most of the SQL
+web-applications. <a class="reference internal" href="#www-cubrid" id="id52">[www17d]</a> Importantly most of the SQL
 syntax from MYSQL and ORACLE can work on cubrid.CUBRID also
 provides manager tool for database administration and migration
 tool for migrating the data from DBMS to CUBRID bridging the dbs.
@@ -1447,7 +1460,7 @@ CUBRID enterprise version and all the tools are free and suitable
 database candidate for web-application development.</p>
 </li>
 <li><p class="first">Galera Cluster</p>
-<p>Galera cluster <a class="reference internal" href="#www-galera-cluster" id="id49">[www17e]</a> is a type of database
+<p>Galera cluster <a class="reference internal" href="#www-galera-cluster" id="id53">[www17e]</a> is a type of database
 clustering which has all multiple masters and works on
 synchronous replication. At a deeper level, it was created by
 extending MySql replication API to provide all support for true
@@ -1492,7 +1505,7 @@ downtime).</p>
 <h2>NoSQL<a class="headerlink" href="#nosql" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic" start="218">
 <li><p class="first">Lucene</p>
-<p>Apache Lucene <a class="reference internal" href="#www-lucene" id="id50">[www17a]</a> is a high-performance,
+<p>Apache Lucene <a class="reference internal" href="#www-lucene" id="id54">[www17a]</a> is a high-performance,
 full-featured text search engine library.  It is originally
 written in pure Java but also has been ported to few other
 languages chiefly python.  It is suitable for applications that
@@ -1508,7 +1521,7 @@ format idependent.</p>
 <li><p class="first">Solandra</p>
 </li>
 <li><p class="first">Voldemort</p>
-<p>According to <a class="reference internal" href="#www-voldemort" id="id51">[Lin]</a>, project Voldemort, developed
+<p>According to <a class="reference internal" href="#www-voldemort" id="id55">[Lin]</a>, project Voldemort, developed
 by LinkedIn, is a non-relational database of key-value type that
 supports eventual consistency. The distributed nature of the
 system allows pluggable data placement and provides horizontal
@@ -1522,7 +1535,7 @@ operations. It allows cluster expansion with no data
 rebalancing. When Voldemort performance was benchmarked with the
 other key-value databases such as Cassandra, Redis and HBase as
 well as MySQL relational database
-<a class="reference internal" href="#rabl-sadoghi-jacobsen-2012" id="id52">[RGomezVS+12]</a>, the Voldemart&#8217;s throughput
+<a class="reference internal" href="#rabl-sadoghi-jacobsen-2012" id="id56">[RGomezVS+12]</a>, the Voldemart&#8217;s throughput
 was twice lower than MySQL and Cassandra and six times higher
 than HBase. Voldemort was slightly underperforming in comparison
 with Redis.  At the same time, it demonstrated consistent linear
@@ -1552,12 +1565,12 @@ saturated that stall the database.</p>
 system called Tokyo Cabinet. Tyrant is also called as Tokyo
 Tyrant. Tyrant is implemented in C and it provides APIs for Perl,
 Ruby and C. Tyrant provides high performance and concurrent
-access to Tokyo Cabinet. In his blog <a class="reference internal" href="#www-tyrant-blog" id="id53">[Tyra]</a> Matt
+access to Tokyo Cabinet. In his blog <a class="reference internal" href="#www-tyrant-blog" id="id57">[Tyra]</a> Matt
 Yonkovit has explained the results of performance experiments he
 conducted to compare Tyrant against Memcached and MySQL.</p>
 <p>Tyrant was written and maintained by FAL Labs
-<a class="reference internal" href="#www-tyrant-fal-labs" id="id54">[Tyrb]</a>.  However, according to FAL Labs,
-their latest product <a class="reference internal" href="#www-kyoto-tycoon" id="id55">[Tyc]</a> Kyoto Tycoon is
+<a class="reference internal" href="#www-tyrant-fal-labs" id="id58">[Tyrb]</a>.  However, according to FAL Labs,
+their latest product <a class="reference internal" href="#www-kyoto-tycoon" id="id59">[Tyc]</a> Kyoto Tycoon is
 more powerful and convenient server than Tokyo Tyrant.</p>
 </li>
 <li><p class="first">MongoDB</p>
@@ -1583,7 +1596,7 @@ more powerful and convenient server than Tokyo Tyrant.</p>
 <li><p class="first">Accumulo</p>
 </li>
 <li><p class="first">Cassandra</p>
-<p>Apache Cassandra <a class="reference internal" href="#www-cassandra" id="id56">[www16a]</a> is an open-source
+<p>Apache Cassandra <a class="reference internal" href="#www-cassandra" id="id60">[www16a]</a> is an open-source
 distributed database managemment for handling large volume of
 data accross comodity servers. It works on asynchronous
 masterless replication technique leading to low latency and high
@@ -1642,18 +1655,18 @@ be administered by any JMX compliant tools.</p>
 <p>FITS stand for &#8216;Flexible Image Trasnport System&#8217;. It is a
 standard data format used in astronomy. FITS data format is
 endorsed by NASA and International Astronomical Union. According
-to <a class="reference internal" href="#www-fits-nasa" id="id57">[FITa]</a>, FITS can be used for transport,
+to <a class="reference internal" href="#www-fits-nasa" id="id61">[FITa]</a>, FITS can be used for transport,
 analysis and archival storage of scientific datasets and support
 multi-dimensional arrays, tables and headers sections.  FITS is
 actively used and developed - according to
-<a class="reference internal" href="#www-news-fits-2016" id="id58">[FITb]</a> newer version of FITS standard
+<a class="reference internal" href="#www-news-fits-2016" id="id62">[FITb]</a> newer version of FITS standard
 document was released in July 2016. FITS can be used for
 digitization of contents like books and
-magzines. <a class="reference internal" href="#www-fits-vatican-library" id="id59">[FITc]</a> used FITS for long
+magzines. <a class="reference internal" href="#www-fits-vatican-library" id="id63">[FITc]</a> used FITS for long
 term preservation of their book, manuscripts and other
 collection. Matlab, a language used for technical computing
-supports fits <a class="reference internal" href="#www-fits-matlab" id="id60">[FITd]</a>. In his 2011 paper, Keith
-Wiley <a class="reference internal" href="#paper-fits-2011" id="id61">[pap11]</a> explained how they performed
+supports fits <a class="reference internal" href="#www-fits-matlab" id="id64">[FITd]</a>. In his 2011 paper, Keith
+Wiley <a class="reference internal" href="#paper-fits-2011" id="id65">[pap11]</a> explained how they performed
 processing of astronomical images on Hadoop. They used FITS
 format for data storage.</p>
 </li>
@@ -1672,7 +1685,7 @@ format for data storage.</p>
 <dt>BitTorrent</dt>
 <dd><p class="first">Bittorrent is P2P communication protocol commonly used for sending and receiving the large digital files like
 movies and audioclips.In order to upload and download file, user have to download bittorrent client which implement
-the bittorrent protocol. Bittorrent uses the principle of swarning and tracking. <a class="reference internal" href="#www-bittorrent" id="id62">[www17b]</a> It divides the files
+the bittorrent protocol. Bittorrent uses the principle of swarning and tracking. <a class="reference internal" href="#www-bittorrent" id="id66">[www17b]</a> It divides the files
 in large number of chunck and as soon as file is received it can be server to the other users for downloading.
 So rather than downloading one entire large file from one source, user can download small chunk from the different sources
 of linked users in swarn. Bittorrent trackers keeps list of files available for transfer and helps the swarn user find each other.</p>
@@ -1692,7 +1705,7 @@ downloading speed and reduction in origin server configuration.</p>
 <p>GridFTP is a enhancement on the File Tranfer Protocol (FTP) which
 provides high-performance , secure and reliable data transfer for
 high-bandwidth wide-area networks. As noted in
-<a class="reference internal" href="#www-globusonline" id="id63">[Gri]</a> the most widely used implementation of
+<a class="reference internal" href="#www-globusonline" id="id67">[Gri]</a> the most widely used implementation of
 GridFTP is Globus Online. GridFTP achieves efficient use of
 bandwidth by using multiple simultaneous TCP streams.  Files can
 be downloaded in pieces simultaneously from multiple sources; or
@@ -1737,12 +1750,12 @@ speeds and reliability .</p>
 </li>
 <li><p class="first">Moab</p>
 </li>
-<li><p class="first">Slurm <a class="reference internal" href="#www-slurm" id="id64">[Slu]</a></p>
+<li><p class="first">Slurm <a class="reference internal" href="#www-slurm" id="id68">[Slu]</a></p>
 <p>Simple Linux Utility for Resource Management (SLURM) workload
 manager is an open source, scalable cluster resource management
 tool used for job scheduling in small to large Linux cluster
 using multi-core architecture. As per,
-<a class="reference internal" href="#www-slurmschedmdsite" id="id65">[wwwh]</a> SLURM has three key
+<a class="reference internal" href="#www-slurmschedmdsite" id="id69">[wwwh]</a> SLURM has three key
 functions. First, it allocates resources to users for some
 duration with exclusive and/or non-exclusive access. Second, it
 enables users to start, execute and monitor jobs on the resources
@@ -1758,7 +1771,7 @@ plugins that could be used for functionalities like accounting,
 advanced reservation, gang scheduling, back fill scheduling and
 multifactor job prioritization. Though originally developed for
 Linux, SLURM also provides full support on platforms like AIX,
-FreeBSD, NetBSD and Solaris <a class="reference internal" href="#www-slurmplatformssite" id="id66">[wwwg]</a>.</p>
+FreeBSD, NetBSD and Solaris <a class="reference internal" href="#www-slurmplatformssite" id="id70">[wwwg]</a>.</p>
 </li>
 <li><p class="first">Torque</p>
 </li>
@@ -1795,12 +1808,12 @@ FreeBSD, NetBSD and Solaris <a class="reference internal" href="#www-slurmplatfo
 <li><p class="first">Libcloud</p>
 </li>
 <li><p class="first">JClouds</p>
-<p><a class="reference internal" href="#cloud-portability-book" id="id67">[BDM15]</a> Primary goals of cross-platform
+<p><a class="reference internal" href="#cloud-portability-book" id="id71">[BDM15]</a> Primary goals of cross-platform
 cloud APIs is that application built using these APIs can be
 seamlessly ported to different cloud providers. The APIs also
 bring interoperability such that cloud platforms can communicate
 and exchange information using these common or shared interfaces.
-Jclouds or apache jclouds <a class="reference internal" href="#www-jclouds" id="id68">[wwwl]</a> is a java based
+Jclouds or apache jclouds <a class="reference internal" href="#www-jclouds" id="id72">[wwwl]</a> is a java based
 library to provide seamless access to cloud platforms. Jclouds
 library provides interfaces for most of cloud providers like
 docker, openstack, amazon web services, microsoft azure, google
@@ -1845,7 +1858,7 @@ cloud providers.</p>
 <p>The Open Cloud Computing Interface (OCCI) is a RESTful
 Protocol and API that provides specifications  and remote
 management for the development of “interoperable tools”
-<a class="reference internal" href="#www-occi" id="id69">[For]</a>.  It supports IaaS, PaaS and SaaS and
+<a class="reference internal" href="#www-occi" id="id73">[For]</a>.  It supports IaaS, PaaS and SaaS and
 focuses on integration, portability, interoperability,
 innovation and extensibility. It provides a set of documents
 that describe an OCCI Core model, contain best practices
@@ -1869,7 +1882,7 @@ add new components and capabilities at run-time.
 <p>The OCCI Protocol defines the common set of names provided
 for the IaaS cloud services user that specify requested
 system requirements. It is often denoted as “resource
-templates” or “flavours”  <a class="reference internal" href="#ogf-222" id="id71">[NEP+16]</a>.</p>
+templates” or “flavours”  <a class="reference internal" href="#ogf-222" id="id75">[NEP+16]</a>.</p>
 <p>OCCI RESTful HTTP Protocol describes communications between
 server and client on OCCI platform via HTTP protocol
 [[www-occi-HTTP]]. It defines a minimum set of HTTP
@@ -1912,13 +1925,13 @@ removed from the next major version [www-occi-text].</p>
 Ruby and Erlang. Chef can be used to configure and maintain
 servers on-premise as well as cloud platforms like Amazon EC2,
 Google Cloud Platform and Open Stack. In this book
-<a class="reference internal" href="#chef-book" id="id75">[Mar13]</a>, it is mentioned how implementation recipes in
+<a class="reference internal" href="#chef-book" id="id79">[Mar13]</a>, it is mentioned how implementation recipes in
 Chef to manage server applications and utilities such as database
 servers like MySQL, or HTTP servers like Apache HTPP and systems
 like Apache Hadoop.</p>
 <p>Chef is available in open source version and it also has
 commercial products for the companies which need it
-<a class="reference internal" href="#www-chef-commercial" id="id76">[Che]</a></p>
+<a class="reference internal" href="#www-chef-commercial" id="id80">[Che]</a></p>
 </li>
 <li><p class="first">Ansible</p>
 </li>
@@ -1935,13 +1948,13 @@ commercial products for the companies which need it
 <li><p class="first">CloudMesh</p>
 </li>
 <li><p class="first">Juju</p>
-<p>Juju (formerly Ensemble) <a class="reference internal" href="#juju-paper" id="id77">[BlRW14]</a> is software from
+<p>Juju (formerly Ensemble) <a class="reference internal" href="#juju-paper" id="id81">[BlRW14]</a> is software from
 Canonical that provides open source service orchestration. It is
 used to easily and quickly deploy and manage services on cloud
 and physical servers. Juju charms can be deployed on cloud
 services such as Amazon Web Services (AWS), Microsoft Azure and
 OpenStack. It can also be used on bare metal using MAAS.
-Specifically <a class="reference internal" href="#www-juju" id="id78">[Canonical]</a> lists around 300 charms available
+Specifically <a class="reference internal" href="#www-juju" id="id82">[Canonical]</a> lists around 300 charms available
 for services available in the Juju store. Charms can be written
 in any language. It also supports Bundles which are
 pre-configured collection of Charms that helps in quick
@@ -1954,9 +1967,9 @@ deployment of whole infrastructure.</p>
 <li><p class="first">Sahara</p>
 <p>The Sahara product provides users with the capability to
 provision data processing frameworks (such as Hadoop, Spark and
-Storm) on OpenStack <a class="reference internal" href="#www-openstack" id="id79">[Ope]</a> by specifying several
+Storm) on OpenStack <a class="reference internal" href="#www-openstack" id="id83">[Ope]</a> by specifying several
 parameters such as the version,cluster topology and hardware node
-details.As specified in <a class="reference internal" href="#www-sahara" id="id80">[Sah]</a> the solution allows
+details.As specified in <a class="reference internal" href="#www-sahara" id="id84">[Sah]</a> the solution allows
 for fast provisioning of data processing clusters on OpenStack
 for development and quality assurance and utilisation of unused
 computer power from a general purpose OpenStack Iaas Cloud.Sahara
@@ -1974,7 +1987,7 @@ of OpenStack Dashboard.</p>
 <li><p class="first">AWS OpsWorks</p>
 <p>AWS Opsworks is a configuration service provided by Amazon Web
 Services that uses Chef, a Ruby and Erlang based configuration
-management tool <a class="reference internal" href="#www-wikichef" id="id81">[Wik17]</a>, to automate the
+management tool <a class="reference internal" href="#www-wikichef" id="id85">[Wik17]</a>, to automate the
 configuration, deployment, and management of servers and
 applications. There are two versions of AWS Opsworks.
 The first, a fee based offering called AWS OpsWorks for Chef
@@ -1983,7 +1996,7 @@ full stack automation. The second, AWS OpsWorks Stacks, is a
 free offering in which applications are modeled as stacks
 containing various layers. Amazon Elastic Cloud Compute (EC2)
 instances or other resources can be deployed and configured
-in each layer. <a class="reference internal" href="#www-awsopsworks" id="id82">[Ama17]</a></p>
+in each layer. <a class="reference internal" href="#www-awsopsworks" id="id86">[Ama17]</a></p>
 </li>
 <li><p class="first">OpenStack Ironic</p>
 </li>
@@ -2035,17 +2048,17 @@ in each layer. <a class="reference internal" href="#www-awsopsworks" id="id82">[
 <li><p class="first">Eucalyptus</p>
 </li>
 <li><p class="first">Nimbus</p>
-<p>Nimbus Infrastructure <a class="reference internal" href="#www-nimbus-wiki" id="id83">[Nimb]</a> is an open source
+<p>Nimbus Infrastructure <a class="reference internal" href="#www-nimbus-wiki" id="id87">[Nimb]</a> is an open source
 IaaS implementation. It allows deployment of self-configured
 virtual clusters and it supports configuration of scheduling,
 networking leases, and usage metering.</p>
-<p>Nimbus Platform <a class="reference internal" href="#www-nimbus" id="id84">[Nima]</a> provides an integrated set of
+<p>Nimbus Platform <a class="reference internal" href="#www-nimbus" id="id88">[Nima]</a> provides an integrated set of
 tools which enable users to launch large virtual clusters as well
 as launch and monitor the cloud apps. It also includes service
 that provides auto-scaling and high availability of resources
 deployed over multiple IaaS cloud.  The Nimubs Platform tools are
 cloudinit.d, Phantom and Context Broker.  In this paper
-<a class="reference internal" href="#nimbus-paper" id="id85">[nim13]</a> it is mentioned how to used Nimbus Phantom
+<a class="reference internal" href="#nimbus-paper" id="id89">[nim13]</a> it is mentioned how to used Nimbus Phantom
 to deploy auto-scaling solution across multiple NSF FutureGrid
 clouds. In this implementation Phantom was responsible for
 deploying instances across multiple clouds and monitoring those
@@ -2083,13 +2096,13 @@ and several other clouds.</p>
 </li>
 <li><p class="first">Ganglia</p>
 </li>
-<li><p class="first">Nagios <a class="reference internal" href="#www-nagios" id="id86">[wwwn]</a></p>
+<li><p class="first">Nagios <a class="reference internal" href="#www-nagios" id="id90">[wwwn]</a></p>
 <p>Nagios is a platform, which provides a set of software for
 network infrastructure monitoring. It also offers administrative
 tools to diagnose when failure events happen, and to notify
 operators when hardware issues are detected. Specifically,
 illustrates that Nagios is consist of modules including
-<a class="reference internal" href="#nagios-book" id="id87">[Jos13]</a>: a core and its dedicated tool for core
+<a class="reference internal" href="#nagios-book" id="id91">[Jos13]</a>: a core and its dedicated tool for core
 configuration, extensible plugins and its frontend. Nagios core
 is designed with scalability in mind.  Nagios contains a
 specification language allowing for building an extensible
@@ -2097,15 +2110,15 @@ monitoring systems.  Through the Nagios API components can
 integrate with the Nagios core services. Plugins can be developed
 via static languages like C or script languages. This mechanism
 empowers Nagios to monitor a large set of various scenarios yet
-being very flexible. <a class="reference internal" href="#nagios-paper-2012" id="id88">[IPMM12]</a> Besides its open
+being very flexible. <a class="reference internal" href="#nagios-paper-2012" id="id92">[IPMM12]</a> Besides its open
 source components, Nagios also has commercial products to serve
 needing clients.</p>
 </li>
 <li><p class="first">Inca</p>
-<p>Inca is a grid monitoring <a class="reference internal" href="#inca-book" id="id89">[LW09]</a> software suite. It
+<p>Inca is a grid monitoring <a class="reference internal" href="#inca-book" id="id93">[LW09]</a> software suite. It
 provides grid monitoring features. These monitoring features
 provide operators failure trends, debugging support, email
-notifications, environmental issues etc. <a class="reference internal" href="#www-inca" id="id90">[wwwk]</a>. It
+notifications, environmental issues etc. <a class="reference internal" href="#www-inca" id="id94">[wwwk]</a>. It
 enables users to automate the tests which can be executed on a
 periodic basis. Tests can be added and configured as and when
 needed. It helps users with different portfolios like system
@@ -2167,7 +2180,7 @@ among multiple servers without issues. Giraffe was proposed as
 alternative to coordinating services like Zookeeper and Chubby
 which were efficient only in read-intensive scenario and small
 ensembles. To overcome this three important aspects were included
-in the design of Giraffe <a class="reference internal" href="#giraffepaper" id="id91">[SLJ+14]</a>. First feature is
+in the design of Giraffe <a class="reference internal" href="#giraffepaper" id="id95">[SLJ+14]</a>. First feature is
 Giraffe uses interior-node joint trees to organize coordination
 servers for better scalability. Second, Giraffe uses Paxos
 protocol for better consistency and to provide more
@@ -2187,7 +2200,7 @@ low latency.</p>
 <li><p class="first">Thrift</p>
 </li>
 <li><p class="first">Protobuf</p>
-<p>Protocol Buffer <a class="reference internal" href="#www-protobuf" id="id92">[www16b]</a> is a way to serialize
+<p>Protocol Buffer <a class="reference internal" href="#www-protobuf" id="id96">[www16b]</a> is a way to serialize
 structured data into binary form (stream of bytes) in order to
 transfer it over wires or for storage. It is used for inter
 apllication communication or for remote procedure call (RPC). It
@@ -2312,7 +2325,7 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-tika" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id44">[Tik]</a></td><td>Apache tika. Web Page. URL: <a class="reference external" href="https://tika.apache.org/">https://tika.apache.org/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id48">[Tik]</a></td><td>Apache tika. Web Page. URL: <a class="reference external" href="https://tika.apache.org/">https://tika.apache.org/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-azuremlsite" rules="none">
@@ -2324,7 +2337,7 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-chef-commercial" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id76">[Che]</a></td><td>Chef commercial support. Web Page. URL: <a class="reference external" href="https://www.chef.io/support/">https://www.chef.io/support/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id80">[Che]</a></td><td>Chef commercial support. Web Page. URL: <a class="reference external" href="https://www.chef.io/support/">https://www.chef.io/support/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-datafu" rules="none">
@@ -2336,37 +2349,37 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-fits-nasa" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id57">[FITa]</a></td><td>Fits nasa. web. URL: <a class="reference external" href="https://fits.gsfc.nasa.gov/">https://fits.gsfc.nasa.gov/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id61">[FITa]</a></td><td>Fits nasa. web. URL: <a class="reference external" href="https://fits.gsfc.nasa.gov/">https://fits.gsfc.nasa.gov/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-news-fits-2016" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id58">[FITb]</a></td><td>Fits news. Web Page. URL: <a class="reference external" href="https://fits.gsfc.nasa.gov/fits_standard.html">https://fits.gsfc.nasa.gov/fits_standard.html</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id62">[FITb]</a></td><td>Fits news. Web Page. URL: <a class="reference external" href="https://fits.gsfc.nasa.gov/fits_standard.html">https://fits.gsfc.nasa.gov/fits_standard.html</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-fits-vatican-library" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id59">[FITc]</a></td><td>Fits vatican library. Web Page. URL: <a class="reference external" href="https://www.vatlib.it/home.php?pag=digitalizzazione&amp;ling=eng">https://www.vatlib.it/home.php?pag=digitalizzazione&amp;ling=eng</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id63">[FITc]</a></td><td>Fits vatican library. Web Page. URL: <a class="reference external" href="https://www.vatlib.it/home.php?pag=digitalizzazione&amp;ling=eng">https://www.vatlib.it/home.php?pag=digitalizzazione&amp;ling=eng</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-fits-matlab" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id60">[FITd]</a></td><td>Fits matlab. Web Page. URL: <a class="reference external" href="https://www.mathworks.com/help/matlab/import_export/importing-flexible-image-transport-system-fits-files.html?requestedDomain=www.mathworks.com">https://www.mathworks.com/help/matlab/import_export/importing-flexible-image-transport-system-fits-files.html?requestedDomain=www.mathworks.com</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id64">[FITd]</a></td><td>Fits matlab. Web Page. URL: <a class="reference external" href="https://www.mathworks.com/help/matlab/import_export/importing-flexible-image-transport-system-fits-files.html?requestedDomain=www.mathworks.com">https://www.mathworks.com/help/matlab/import_export/importing-flexible-image-transport-system-fits-files.html?requestedDomain=www.mathworks.com</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-galoissite" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id35">[wwwd]</a></td><td>Galois website. Web Page. Accessed: 2017-1-28. URL: <a class="reference external" href="www-galoisSite: http://iss.ices.utexas.edu/?p=projects/galois">www-galoisSite: http://iss.ices.utexas.edu/?p=projects/galois</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id39">[wwwd]</a></td><td>Galois website. Web Page. Accessed: 2017-1-28. URL: <a class="reference external" href="www-galoisSite: http://iss.ices.utexas.edu/?p=projects/galois">www-galoisSite: http://iss.ices.utexas.edu/?p=projects/galois</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-globusonline" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id63">[Gri]</a></td><td>Globus online (gridftp). Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/GridFTP">https://en.wikipedia.org/wiki/GridFTP</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id67">[Gri]</a></td><td>Globus online (gridftp). Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/GridFTP">https://en.wikipedia.org/wiki/GridFTP</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-gae" rules="none">
@@ -2378,37 +2391,37 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-hstore" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id41">[HSta]</a></td><td>H-store. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="http://hstore.cs.brown.edu/">http://hstore.cs.brown.edu/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id45">[HSta]</a></td><td>H-store. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="http://hstore.cs.brown.edu/">http://hstore.cs.brown.edu/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-hstorewiki" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id43">[HStb]</a></td><td>H-storewiki. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/H-Store">https://en.wikipedia.org/wiki/H-Store</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id47">[HStb]</a></td><td>H-storewiki. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/H-Store">https://en.wikipedia.org/wiki/H-Store</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-kyotocabinet" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id31">[Kyo]</a></td><td>Kyoto cabinet. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="http://fallabs.com/kyotocabinet/">http://fallabs.com/kyotocabinet/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id35">[Kyo]</a></td><td>Kyoto cabinet. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="http://fallabs.com/kyotocabinet/">http://fallabs.com/kyotocabinet/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-kyoto-tycoon" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id55">[Tyc]</a></td><td>Kyoto tycoon. Web Page. URL: <a class="reference external" href="http://fallabs.com/kyototycoon/">http://fallabs.com/kyototycoon/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id59">[Tyc]</a></td><td>Kyoto tycoon. Web Page. URL: <a class="reference external" href="http://fallabs.com/kyototycoon/">http://fallabs.com/kyototycoon/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-nimbus" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id84">[Nima]</a></td><td>Nimbus. Web Page. URL: <a class="reference external" href="http://www.nimbusproject.org/doc/nimbus/platform/">http://www.nimbusproject.org/doc/nimbus/platform/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id88">[Nima]</a></td><td>Nimbus. Web Page. URL: <a class="reference external" href="http://www.nimbusproject.org/doc/nimbus/platform/">http://www.nimbusproject.org/doc/nimbus/platform/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-nimbus-wiki" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id83">[Nimb]</a></td><td>Nimbus wiki. Web Page. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/Nimbus_(cloud_computing)">https://en.wikipedia.org/wiki/Nimbus_(cloud_computing)</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id87">[Nimb]</a></td><td>Nimbus wiki. Web Page. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/Nimbus_(cloud_computing)">https://en.wikipedia.org/wiki/Nimbus_(cloud_computing)</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-ninefoldsite" rules="none">
@@ -2420,49 +2433,49 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-openstack" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id79">[Ope]</a></td><td>Openstack. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="https://www.openstack.org/">https://www.openstack.org/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id83">[Ope]</a></td><td>Openstack. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="https://www.openstack.org/">https://www.openstack.org/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-presto" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id29">[wwwf]</a></td><td>Presto. Web Page. Accessed: 2017-1-24. URL: <a class="reference external" href="https://prestodb.io/">https://prestodb.io/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id33">[wwwf]</a></td><td>Presto. Web Page. Accessed: 2017-1-24. URL: <a class="reference external" href="https://prestodb.io/">https://prestodb.io/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-slurm" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id64">[Slu]</a></td><td>Slurm. Web Page. URL: <a class="reference external" href="https://slurm.schedmd.com/">https://slurm.schedmd.com/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id68">[Slu]</a></td><td>Slurm. Web Page. URL: <a class="reference external" href="https://slurm.schedmd.com/">https://slurm.schedmd.com/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-azuresql" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id46">[azu]</a></td><td>Sql server azure. Web Page. URL: <a class="reference external" href="https://azure.microsoft.com/en-us/services/sql-database/?b=16.50">https://azure.microsoft.com/en-us/services/sql-database/?b=16.50</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id50">[azu]</a></td><td>Sql server azure. Web Page. URL: <a class="reference external" href="https://azure.microsoft.com/en-us/services/sql-database/?b=16.50">https://azure.microsoft.com/en-us/services/sql-database/?b=16.50</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-sqlserver-wiki" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id45">[sql]</a></td><td>Sql server wiki. Web Page. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server">https://en.wikipedia.org/wiki/Microsoft_SQL_Server</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id49">[sql]</a></td><td>Sql server wiki. Web Page. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server">https://en.wikipedia.org/wiki/Microsoft_SQL_Server</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-sahara" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id80">[Sah]</a></td><td>Sahara. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="http://docs.openstack.org/developer/sahara/">http://docs.openstack.org/developer/sahara/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id84">[Sah]</a></td><td>Sahara. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="http://docs.openstack.org/developer/sahara/">http://docs.openstack.org/developer/sahara/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-slurmplatformssite" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id66">[wwwg]</a></td><td>Slurm supported platforms. Web Page. Accessed: 2017-1-28. URL: <a class="reference external" href="https://slurm.schedmd.com/platforms.html">https://slurm.schedmd.com/platforms.html</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id70">[wwwg]</a></td><td>Slurm supported platforms. Web Page. Accessed: 2017-1-28. URL: <a class="reference external" href="https://slurm.schedmd.com/platforms.html">https://slurm.schedmd.com/platforms.html</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-slurmschedmdsite" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id65">[wwwh]</a></td><td>Slurm website. Web Page. Accessed: 2017-1-28. URL: <a class="reference external" href="https://slurm.schedmd.com/overview.html">https://slurm.schedmd.com/overview.html</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id69">[wwwh]</a></td><td>Slurm website. Web Page. Accessed: 2017-1-28. URL: <a class="reference external" href="https://slurm.schedmd.com/overview.html">https://slurm.schedmd.com/overview.html</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-taverna" rules="none">
@@ -2474,13 +2487,13 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-tyrant-blog" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id53">[Tyra]</a></td><td>Tyrant blog. Web Page. URL: <a class="reference external" href="https://www.percona.com/blog/2009/10/19/mysql_memcached_tyrant_part3/">https://www.percona.com/blog/2009/10/19/mysql_memcached_tyrant_part3/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id57">[Tyra]</a></td><td>Tyrant blog. Web Page. URL: <a class="reference external" href="https://www.percona.com/blog/2009/10/19/mysql_memcached_tyrant_part3/">https://www.percona.com/blog/2009/10/19/mysql_memcached_tyrant_part3/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-tyrant-fal-labs" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id54">[Tyrb]</a></td><td>Tyrant fallabs. Web Page. URL: <a class="reference external" href="http://fallabs.com/tokyotyrant/">http://fallabs.com/tokyotyrant/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id58">[Tyrb]</a></td><td>Tyrant fallabs. Web Page. URL: <a class="reference external" href="http://fallabs.com/tokyotyrant/">http://fallabs.com/tokyotyrant/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-dcjs" rules="none">
@@ -2492,67 +2505,67 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-gora" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id40">[wwwj]</a></td><td>Gora, components. Web Page. Accessed: 2017-01-18. URL: <a class="reference external" href="http://gora.apache.org/">http://gora.apache.org/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id44">[wwwj]</a></td><td>Gora, components. Web Page. Accessed: 2017-01-18. URL: <a class="reference external" href="http://gora.apache.org/">http://gora.apache.org/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-inca" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id90">[wwwk]</a></td><td>Inca, components. Web Page. Accessed: 2017-01-16. URL: <a class="reference external" href="http://inca.sdsc.edu/">http://inca.sdsc.edu/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id94">[wwwk]</a></td><td>Inca, components. Web Page. Accessed: 2017-01-16. URL: <a class="reference external" href="http://inca.sdsc.edu/">http://inca.sdsc.edu/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-jclouds" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id68">[wwwl]</a></td><td>JClouds, components. Web Page. Accessed: 2017-01-20. URL: <a class="reference external" href="https://jclouds.apache.org/">https://jclouds.apache.org/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id72">[wwwl]</a></td><td>JClouds, components. Web Page. Accessed: 2017-01-20. URL: <a class="reference external" href="https://jclouds.apache.org/">https://jclouds.apache.org/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-kinesis" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id32">[wwwm]</a></td><td>Kinesis, components. Web Page. Accessed: 2017-01-17. URL: <a class="reference external" href="http://docs.aws.amazon.com/streams/latest/dev/key-concepts.html/">http://docs.aws.amazon.com/streams/latest/dev/key-concepts.html/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id36">[wwwm]</a></td><td>Kinesis, components. Web Page. Accessed: 2017-01-17. URL: <a class="reference external" href="http://docs.aws.amazon.com/streams/latest/dev/key-concepts.html/">http://docs.aws.amazon.com/streams/latest/dev/key-concepts.html/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-nagios" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id86">[wwwn]</a></td><td>Nagios components. Web Page. Accessed: 2017-1-11. URL: <a class="reference external" href="https://www.nagios.org/projects/">https://www.nagios.org/projects/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id90">[wwwn]</a></td><td>Nagios components. Web Page. Accessed: 2017-1-11. URL: <a class="reference external" href="https://www.nagios.org/projects/">https://www.nagios.org/projects/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-rabbitmq" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id37">[wwwo]</a></td><td>RabbitMQ, components. Web Page. Accessed: 2017-01-19. URL: <a class="reference external" href="https://www.rabbitmq.com/">https://www.rabbitmq.com/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id41">[wwwo]</a></td><td>RabbitMQ, components. Web Page. Accessed: 2017-01-19. URL: <a class="reference external" href="https://www.rabbitmq.com/">https://www.rabbitmq.com/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="nimbus-paper" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id85">[nim13]</a></td><td><em>Rebalancing in a multi-cloud environment in Science Cloud &#8216;13</em>, ACM, 2013. URL: <a class="reference external" href="http://dl.acm.org/citation.cfm?id=2465854">http://dl.acm.org/citation.cfm?id=2465854</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id89">[nim13]</a></td><td><em>Rebalancing in a multi-cloud environment in Science Cloud &#8216;13</em>, ACM, 2013. URL: <a class="reference external" href="http://dl.acm.org/citation.cfm?id=2465854">http://dl.acm.org/citation.cfm?id=2465854</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-cassandra" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id56">[www16a]</a></td><td>Apache cassandra. Web page, 2016. URL: <a class="reference external" href="http://cassandra.apache.org/">http://cassandra.apache.org/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id60">[www16a]</a></td><td>Apache cassandra. Web page, 2016. URL: <a class="reference external" href="http://cassandra.apache.org/">http://cassandra.apache.org/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-protobuf" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id92">[www16b]</a></td><td>Protocol buffer. Web page, September 2016. URL: <a class="reference external" href="https://developers.google.com/protocol-buffers/">https://developers.google.com/protocol-buffers/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id96">[www16b]</a></td><td>Protocol buffer. Web page, September 2016. URL: <a class="reference external" href="https://developers.google.com/protocol-buffers/">https://developers.google.com/protocol-buffers/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-lucene" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id50">[www17a]</a></td><td>Apache lucene. Web page, January 2017. URL: <a class="reference external" href="http://lucene.apache.org/">http://lucene.apache.org/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id54">[www17a]</a></td><td>Apache lucene. Web page, January 2017. URL: <a class="reference external" href="http://lucene.apache.org/">http://lucene.apache.org/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-bittorrent" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id62">[www17b]</a></td><td>Bittorrent. Web Page, 2017. URL: <a class="reference external" href="https://www.lifewire.com/how-torrent-downloading-works-2483513">https://www.lifewire.com/how-torrent-downloading-works-2483513</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id66">[www17b]</a></td><td>Bittorrent. Web Page, 2017. URL: <a class="reference external" href="https://www.lifewire.com/how-torrent-downloading-works-2483513">https://www.lifewire.com/how-torrent-downloading-works-2483513</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-cascading" rules="none">
@@ -2564,25 +2577,25 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-cubrid" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id48">[www17d]</a></td><td>Cubrid. Web Page, 2017. URL: <a class="reference external" href="http://www.cubrid.org/">http://www.cubrid.org/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id52">[www17d]</a></td><td>Cubrid. Web Page, 2017. URL: <a class="reference external" href="http://www.cubrid.org/">http://www.cubrid.org/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-galera-cluster" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id49">[www17e]</a></td><td>Galera cluster. Web page, 2017. URL: <a class="reference external" href="http://galeracluster.com/">http://galeracluster.com/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id53">[www17e]</a></td><td>Galera cluster. Web page, 2017. URL: <a class="reference external" href="http://galeracluster.com/">http://galeracluster.com/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-mapreducempi" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id34">[www17f]</a></td><td>Mr-mpi. Web Page, 2017. URL: <a class="reference external" href="http://mapreduce.sandia.gov/doc">http://mapreduce.sandia.gov/doc</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id38">[www17f]</a></td><td>Mr-mpi. Web Page, 2017. URL: <a class="reference external" href="http://mapreduce.sandia.gov/doc">http://mapreduce.sandia.gov/doc</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-awsopsworks" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id82">[Ama17]</a></td><td>Amazon. Aws opsworks. web page, January 2017. accessed 2017-01-25. URL: <a class="reference external" href="https://aws.amazon.com/opsworks/">https://aws.amazon.com/opsworks/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id86">[Ama17]</a></td><td>Amazon. Aws opsworks. web page, January 2017. accessed 2017-01-25. URL: <a class="reference external" href="https://aws.amazon.com/opsworks/">https://aws.amazon.com/opsworks/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-apachephoenix-org" rules="none">
@@ -2597,6 +2610,18 @@ others.</dd>
 <tr><td class="label"><a class="fn-backref" href="#id21">[Anonb]</a></td><td>Anon. Apache Phoenix. web page. accessed 2017-01-25. URL: <a class="reference external" href="https://en.m.wikipedia.org/wiki/Apache_Phoenix">https://en.m.wikipedia.org/wiki/Apache_Phoenix</a>.</td></tr>
 </tbody>
 </table>
+<table class="docutils citation" frame="void" id="www-apachemrql" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[Apa16]</td><td><em>(<a class="fn-backref" href="#id27">1</a>, <a class="fn-backref" href="#id28">2</a>)</em> Apache. Apache mrql. web page, April 2016. accessed 2017-01-29.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="www-apacheincubator" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id30">[Apa17]</a></td><td>Apache. Apache incubator. web page, January 2017. accessed 2017-01-29.</td></tr>
+</tbody>
+</table>
 <table class="docutils citation" frame="void" id="www-phoenix-infoq" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
@@ -2606,55 +2631,55 @@ others.</dd>
 <table class="docutils citation" frame="void" id="juju-paper" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id77">[BlRW14]</a></td><td>Kent Baxley, JD&nbsp;la&nbsp;Rosa, and Mark Wenning. Deploying workloads with juju and maas in ubuntu 14.04 lts. In <em>Deploying workloads with Juju and MAAS in Ubuntu 14.04 LTS</em>. Dell Inc, Technical White Paper, may 2014.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id81">[BlRW14]</a></td><td>Kent Baxley, JD&nbsp;la&nbsp;Rosa, and Mark Wenning. Deploying workloads with juju and maas in ubuntu 14.04 lts. In <em>Deploying workloads with Juju and MAAS in Ubuntu 14.04 LTS</em>. Dell Inc, Technical White Paper, may 2014.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="cloud-portability-book" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id67">[BDM15]</a></td><td>Antonio&nbsp;Esposito Beniamino Di&nbsp;Martino, Giuseppina&nbsp;Cretella. <em>Cloud Portability and Interoperability</em>. Springer International Publishing, New York City, USA, illustrated edition, 2015. ISBN 331913700X, 9783319137001.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id71">[BDM15]</a></td><td>Antonio&nbsp;Esposito Beniamino Di&nbsp;Martino, Giuseppina&nbsp;Cretella. <em>Cloud Portability and Interoperability</em>. Springer International Publishing, New York City, USA, illustrated edition, 2015. ISBN 331913700X, 9783319137001.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="presto-paper-2014" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id30">[CQB+14]</a></td><td>Yueguo Chen, Xiongpai Qin, Haoqiong Bian, Jun Chen, Zhaoan Dong, Xiaoyong Du, Yanjie Gao, Dehai Liu, Jiaheng Lu, and Huijie Zhang. <em>A Study of SQL-on-Hadoop Systems</em>., pages 154–166. Springer International Publishing, 2014.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id34">[CQB+14]</a></td><td>Yueguo Chen, Xiongpai Qin, Haoqiong Bian, Jun Chen, Zhaoan Dong, Xiaoyong Du, Yanjie Gao, Dehai Liu, Jiaheng Lu, and Huijie Zhang. <em>A Study of SQL-on-Hadoop Systems</em>., pages 154–166. Springer International Publishing, 2014.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-occi" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id69">[For]</a></td><td>Open&nbsp;Grid Forum. Open cloud computing interface. Web Page. Accessed: 2017-1-17. URL: <a class="reference external" href="http://occi-wg.org/">http://occi-wg.org/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id73">[For]</a></td><td>Open&nbsp;Grid Forum. Open cloud computing interface. Web Page. Accessed: 2017-1-17. URL: <a class="reference external" href="http://occi-wg.org/">http://occi-wg.org/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-kafka" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id39">[Fou]</a></td><td>Apache&nbsp;Software Foundation. Kafka-a distributed streaming platform. Web Page. URL: <a class="reference external" href="https://kafka.apache.org/">https://kafka.apache.org/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id43">[Fou]</a></td><td>Apache&nbsp;Software Foundation. Kafka-a distributed streaming platform. Web Page. URL: <a class="reference external" href="https://kafka.apache.org/">https://kafka.apache.org/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="nagios-paper-2012" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id88">[IPMM12]</a></td><td>C.&nbsp;Issariyapat, P.&nbsp;Pongpaibool, S.&nbsp;Mongkolluksame, and K.&nbsp;Meesublak. Using nagios as a groundwork for developing a better network monitoring system. In <em>2012 Proceedings of PICMET &#8216;12: Technology Management for Emerging Technologies</em>, 2771–2777. July 2012.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id92">[IPMM12]</a></td><td>C.&nbsp;Issariyapat, P.&nbsp;Pongpaibool, S.&nbsp;Mongkolluksame, and K.&nbsp;Meesublak. Using nagios as a groundwork for developing a better network monitoring system. In <em>2012 Proceedings of PICMET &#8216;12: Technology Management for Emerging Technologies</em>, 2771–2777. July 2012.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="nagios-book" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id87">[Jos13]</a></td><td>David Josephsen. <em>Nagios: Building Enterprise-Grade Monitoring Infrastructures for Systems and Networks</em>. Prentice Hall Press, Upper Saddle River, NJ, USA, 2nd edition, 2013. ISBN 013313573X, 9780133135732.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id91">[Jos13]</a></td><td>David Josephsen. <em>Nagios: Building Enterprise-Grade Monitoring Infrastructures for Systems and Networks</em>. Prentice Hall Press, Upper Saddle River, NJ, USA, 2nd edition, 2013. ISBN 013313573X, 9780133135732.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="paper-fits-2011" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id61">[pap11]</a></td><td><em>Astronomical Image Processing with Hadoop</em>, volume 442, Astronomical Data Analysis Software and Systems XX. ASP Conference Proceedings, July 2011. URL: <a class="reference external" href="http://adsabs.harvard.edu/abs/2011ASPC..442...93W">http://adsabs.harvard.edu/abs/2011ASPC..442...93W</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id65">[pap11]</a></td><td><em>Astronomical Image Processing with Hadoop</em>, volume 442, Astronomical Data Analysis Software and Systems XX. ASP Conference Proceedings, July 2011. URL: <a class="reference external" href="http://adsabs.harvard.edu/abs/2011ASPC..442...93W">http://adsabs.harvard.edu/abs/2011ASPC..442...93W</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="kallman2008" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id42">[KKN+08]</a></td><td>Robert Kallman, Hideaki Kimura, Jonathan Natkins, Andrew Pavlo, Alexander Rasin, Stanley Zdonik, Evan P.&nbsp;C. Jones, Samuel Madden, Michael Stonebraker, Yang Zhang, John Hugg, and Daniel&nbsp;J. Abadi. H-Store: a high-performance, distributed main memory transaction processing system. <em>Proc. VLDB Endow.</em>, 1(2):1496–1499, 2008. URL: <a class="reference external" href="http://hstore.cs.brown.edu/papers/hstore-demo.pdf">http://hstore.cs.brown.edu/papers/hstore-demo.pdf</a>, <a class="reference external" href="http://dx.doi.org/http://doi.acm.org/10.1145/1454159.1454211">doi:http://doi.acm.org/10.1145/1454159.1454211</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id46">[KKN+08]</a></td><td>Robert Kallman, Hideaki Kimura, Jonathan Natkins, Andrew Pavlo, Alexander Rasin, Stanley Zdonik, Evan P.&nbsp;C. Jones, Samuel Madden, Michael Stonebraker, Yang Zhang, John Hugg, and Daniel&nbsp;J. Abadi. H-Store: a high-performance, distributed main memory transaction processing system. <em>Proc. VLDB Endow.</em>, 1(2):1496–1499, 2008. URL: <a class="reference external" href="http://hstore.cs.brown.edu/papers/hstore-demo.pdf">http://hstore.cs.brown.edu/papers/hstore-demo.pdf</a>, <a class="reference external" href="http://dx.doi.org/http://doi.acm.org/10.1145/1454159.1454211">doi:http://doi.acm.org/10.1145/1454159.1454211</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-phoenix-cloudera" rules="none">
@@ -2666,37 +2691,37 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-voldemort" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id51">[Lin]</a></td><td>LinkedIn. Project voldemort. Web Page. Accessed: 2017-1-17. URL: <a class="reference external" href="http://www.project-voldemort.com/voldemort/">http://www.project-voldemort.com/voldemort/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id55">[Lin]</a></td><td>LinkedIn. Project voldemort. Web Page. Accessed: 2017-1-17. URL: <a class="reference external" href="http://www.project-voldemort.com/voldemort/">http://www.project-voldemort.com/voldemort/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="inca-book" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id89">[LW09]</a></td><td>Jinjun&nbsp;Chen Lizhe&nbsp;Wang, Wei&nbsp;Jie. <em>Grid Computing: Infrastructure, Service, and Applications</em>. Taylor &amp; Francis, 6000 Broken Sound Parkway NW, Suite 300 Boca Raton, FL 33487, 2009. ISBN 1420067664.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id93">[LW09]</a></td><td>Jinjun&nbsp;Chen Lizhe&nbsp;Wang, Wei&nbsp;Jie. <em>Grid Computing: Infrastructure, Service, and Applications</em>. Taylor &amp; Francis, 6000 Broken Sound Parkway NW, Suite 300 Boca Raton, FL 33487, 2009. ISBN 1420067664.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="chef-book" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id75">[Mar13]</a></td><td>Matthias Marschall. <em>Chef Infrastructure Automation Cookbook</em>. Packt Publishing, 2013.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id79">[Mar13]</a></td><td>Matthias Marschall. <em>Chef Infrastructure Automation Cookbook</em>. Packt Publishing, 2013.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="ogf-222" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id71">[NEP+16]</a></td><td>Ralf Nyren, Andy Edmonds, Alesander Papaspyrou, Thijs Metsch, and Boris Parak. Open cloud computing interface core. OGF Published Document GWD-R-P.222, Global Grid Forum, Open Grid Forum, P.O. Box 1738, Muncie IN 47308, USA, September 2016. URL: <a class="reference external" href="https://www.ogf.org/documents/GFD.221.pdf">https://www.ogf.org/documents/GFD.221.pdf</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id75">[NEP+16]</a></td><td>Ralf Nyren, Andy Edmonds, Alesander Papaspyrou, Thijs Metsch, and Boris Parak. Open cloud computing interface core. OGF Published Document GWD-R-P.222, Global Grid Forum, Open Grid Forum, P.O. Box 1738, Muncie IN 47308, USA, September 2016. URL: <a class="reference external" href="https://www.ogf.org/documents/GFD.221.pdf">https://www.ogf.org/documents/GFD.221.pdf</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="ampq-article" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id38">[OHara07]</a></td><td>John O&#8217;Hara. Toward a commodity enterprise middleware. <em>Queue</em>, 5(4):48–55, 2007.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id42">[OHara07]</a></td><td>John O&#8217;Hara. Toward a commodity enterprise middleware. <em>Queue</em>, 5(4):48–55, 2007.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="olofson-2014" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id28">[Olo14]</a></td><td>Carl&nbsp;W Olofson. The analytic-transactional data platform: enabling the real-time enterprise (idc). Technical Report, International Data Corporation (IDC), Dec 2014. Accessed: 2017-1-17. URL: <a class="reference external" href="http://www.sap.com/documents/2016/08/3c4e546e-817c-0010-82c7-eda71af511fa.html">http://www.sap.com/documents/2016/08/3c4e546e-817c-0010-82c7-eda71af511fa.html</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id32">[Olo14]</a></td><td>Carl&nbsp;W Olofson. The analytic-transactional data platform: enabling the real-time enterprise (idc). Technical Report, International Data Corporation (IDC), Dec 2014. Accessed: 2017-1-17. URL: <a class="reference external" href="http://www.sap.com/documents/2016/08/3c4e546e-817c-0010-82c7-eda71af511fa.html">http://www.sap.com/documents/2016/08/3c4e546e-817c-0010-82c7-eda71af511fa.html</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-pbdr" rules="none">
@@ -2708,31 +2733,31 @@ others.</dd>
 <table class="docutils citation" frame="void" id="taoparallelismpaper" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id36">[PNK+11]</a></td><td>Keshav Pingali, Donald Nguyen, Milind Kulkarni, Martin Burtscher, M.&nbsp;Amber Hassaan, Rashid Kaleem, Tsung-Hsien Lee, Andrew Lenharth, Roman Manevich, Mario Mendez-Lojo, Dimitrios Prountzos, and Xin Sui. The tao of parallelism in algorithms. In <em>The Tao of Parallelism in Algorithms</em>, 1–14. June 2011. URL: <a class="reference external" href="http://iss.ices.utexas.edu/Publications/Papers/pingali11.pdf">http://iss.ices.utexas.edu/Publications/Papers/pingali11.pdf</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id40">[PNK+11]</a></td><td>Keshav Pingali, Donald Nguyen, Milind Kulkarni, Martin Burtscher, M.&nbsp;Amber Hassaan, Rashid Kaleem, Tsung-Hsien Lee, Andrew Lenharth, Roman Manevich, Mario Mendez-Lojo, Dimitrios Prountzos, and Xin Sui. The tao of parallelism in algorithms. In <em>The Tao of Parallelism in Algorithms</em>, 1–14. June 2011. URL: <a class="reference external" href="http://iss.ices.utexas.edu/Publications/Papers/pingali11.pdf">http://iss.ices.utexas.edu/Publications/Papers/pingali11.pdf</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="rabl-sadoghi-jacobsen-2012" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id52">[RGomezVS+12]</a></td><td>Tilmann Rabl, Sergio Gómez-Villamor, Mohammad Sadoghi, Victor Muntés-Mulero, Hans-Arno Jacobsen, and Serge Mankovskii. Solving big data challenges for enterprise application performance management. <em>Proc. VLDB Endow.</em>, 5(12):1724–1735, August 2012. URL: <a class="reference external" href="https://arxiv.org/pdf/1208.4167.pdf">https://arxiv.org/pdf/1208.4167.pdf</a>, <a class="reference external" href="http://dx.doi.org/10.14778/2367502.2367512">doi:10.14778/2367502.2367512</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id56">[RGomezVS+12]</a></td><td>Tilmann Rabl, Sergio Gómez-Villamor, Mohammad Sadoghi, Victor Muntés-Mulero, Hans-Arno Jacobsen, and Serge Mankovskii. Solving big data challenges for enterprise application performance management. <em>Proc. VLDB Endow.</em>, 5(12):1724–1735, August 2012. URL: <a class="reference external" href="https://arxiv.org/pdf/1208.4167.pdf">https://arxiv.org/pdf/1208.4167.pdf</a>, <a class="reference external" href="http://dx.doi.org/10.14778/2367502.2367512">doi:10.14778/2367502.2367512</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="book-sqlserver" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id47">[RM14]</a></td><td>Stacia&nbsp;Misner Ross&nbsp;Mistry. <em>Introducing Microsoft SQL Server 2014 Technical Overview</em>. number&nbsp;ISBN: 978-0-7356-8475-1. Microsoft Press, 2014.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id51">[RM14]</a></td><td>Stacia&nbsp;Misner Ross&nbsp;Mistry. <em>Introducing Microsoft SQL Server 2014 Technical Overview</em>. number&nbsp;ISBN: 978-0-7356-8475-1. Microsoft Press, 2014.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="giraffepaper" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id91">[SLJ+14]</a></td><td>Xuanhua Shi, Haohong Lin, Hai Jin, Bing&nbsp;Bing Zhou, Zuoning Yin, Sheng Di, and Song Wu. Giraffe: a scalable distributed coordination service for large-scale systems. In <em>GIRAFFE: A Scalable Distributed Coordination Service for Large-scale Systems</em>, 1–10. 2014. URL: <a class="reference external" href="http://www.mcs.anl.gov/papers/P5157-0714.pdf">http://www.mcs.anl.gov/papers/P5157-0714.pdf</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id95">[SLJ+14]</a></td><td>Xuanhua Shi, Haohong Lin, Hai Jin, Bing&nbsp;Bing Zhou, Zuoning Yin, Sheng Di, and Song Wu. Giraffe: a scalable distributed coordination service for large-scale systems. In <em>GIRAFFE: A Scalable Distributed Coordination Service for Large-scale Systems</em>, 1–10. 2014. URL: <a class="reference external" href="http://www.mcs.anl.gov/papers/P5157-0714.pdf">http://www.mcs.anl.gov/papers/P5157-0714.pdf</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="big-data-analytics-book" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id33">[SS16]</a></td><td>Sumit&nbsp;Gupta Shilpi&nbsp;Saxena. <em>Real-Time Big Data Analytics</em>. Packt Publishing, 35 Livery Street, Birmingham B3 2PB, UK, 1st edition, 2016. ISBN 9781784391409.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id37">[SS16]</a></td><td>Sumit&nbsp;Gupta Shilpi&nbsp;Saxena. <em>Real-Time Big Data Analytics</em>. Packt Publishing, 35 Livery Street, Birmingham B3 2PB, UK, 1st edition, 2016. ISBN 9781784391409.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="taverna-paper" rules="none">
@@ -2744,13 +2769,19 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-wikichef" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id81">[Wik17]</a></td><td>Wikipedia. Chef (software). web page, January 2017. accessed 2017-01-26. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/Chef_(software)">https://en.wikipedia.org/wiki/Chef_(software)</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id85">[Wik17]</a></td><td>Wikipedia. Chef (software). web page, January 2017. accessed 2017-01-26. URL: <a class="reference external" href="https://en.wikipedia.org/wiki/Chef_(software)">https://en.wikipedia.org/wiki/Chef_(software)</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="www-mrqlhadoop" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id29">[Yoo17]</a></td><td>Edward&nbsp;J. Yoon. Mrql - a sql on hadoop miracle. web page, January 2017. accessed 2017-01-29. URL: <a class="reference external" href="http://www.hadoopsphere.com/2013/04/mrql-sql-on-hadoop-miracle.html">http://www.hadoopsphere.com/2013/04/mrql-sql-on-hadoop-miracle.html</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-juju" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id78">[Canonical]</a></td><td>Canonical. Juju site. Web Page. URL: <a class="reference external" href="https://www.ubuntu.com/cloud/juju">https://www.ubuntu.com/cloud/juju</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id82">[Canonical]</a></td><td>Canonical. Juju site. Web Page. URL: <a class="reference external" href="https://www.ubuntu.com/cloud/juju">https://www.ubuntu.com/cloud/juju</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-azure-msft" rules="none">
