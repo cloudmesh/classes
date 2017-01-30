@@ -2,13 +2,20 @@
 reStructuredText
 =====================================================
 
-:Cheatcheat:
+reStructuredText (RST) pur[pose is to provide an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. With its help you can develop documentation not only for stand aone documentation, simple web pages, an in-line program documentation (such as Python). RST is extensible and new features can be added. It is used in sphinx as one of its supported formats.
+
+Links
+-----
+
+* RST Sphinx documentation: http://www.sphinx-doc.org/en/stable/rest.html
+* RST Syntax: http://docutils.sourceforge.net/rst.html
+* Important extensions: http://sphinx-doc.org/ext/todo.html
+
+Cheatcheat:
    * http://github.com/ralsina/rst-cheatsheet/raw/master/rst-cheatsheet.pdf
    * http://docutils.sourceforge.net/docs/ref/rst/directives.html
 
-Important extensions:
 
-* http://sphinx-doc.org/ext/todo.html
 
 Sections
 ----------------------------------------------------------------------   
@@ -162,9 +169,26 @@ It is possible to create sidebar using the following code::
     the body of the sidebar, and are
     interpreted as body elements.
 
+Programm examples
+----------------------------------------------------------------------
+
+You can include code examples and bash commands with two colons.
+
+This isa na example for python::
+
+  print ("Hallo World")
+
+
+This is an example for a shell command::
+
+  $ ls -lisa
+
+
 Autorun
 ----------------------------------------------------------------------
 
+.. warning:: This feature may not be enabled on the Web Page.
+	     
 Autorun is an extension for Sphinx_ that can execute the code from a
 runblock directive and attach the output of the execution to the document. 
 
