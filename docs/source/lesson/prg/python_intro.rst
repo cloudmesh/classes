@@ -960,7 +960,6 @@ so it can be reused.
 Classes
 =================================================================
 
-<<<<<<< 9c0550bfd0c18153ade3cc4570557e4b8779c163
 A class is an encapsulation of data and the processes that work on
 them. The data is represented in member variables, and the processes
 are defined in the methods of the class (methods are functions inside
