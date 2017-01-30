@@ -70,7 +70,7 @@ applications, artificial intelligence, software development, and
 information security, to name a few.
 
 About the Tutorial
--------------------
+=================================================================
 
 This tutorial introduces the reader informally to the basic concepts
 and features of the Python language and system. It helps to have a
@@ -941,6 +941,7 @@ so it can be reused.
 Classes
 =================================================================
 
+<<<<<<< 6a6c759e44aa6c55a61227b3e55dc64d51fbb4b1
 A class is an encapsulation of data and the processes that work on
 them. The data is represented in member variables, and the processes
 are defined in the methods of the class (methods are functions inside
@@ -976,6 +977,25 @@ the class). For example, let's see how to define a ``Triangle`` class:
    triangle = Triangle(4, 5, 6, 35, 65, 80)
 
 Python has full object-oriented programming (OOP) capabilities, however we can not cover all of them in a quick tutorial, so please refer to the `Python docs on classes and OOP <https://docs.python.org/2.7/tutorial/classes.html>`_.
+=======
+A class is a way to take a grouping of functions and data and place
+them inside a container, so you can access them with the . (dot)
+operator.
+
+.. code:: python
+
+        class Fruit(object):
+
+        def __init__(self):
+            self.tangerine = "are organge-colored citrus fruit, which is closely related to a mandarin organge"
+
+        def apple(self):
+            print "Apples are rich in antioxidants, flavanoids, and dietary fiber!"
+
+    thing = Fruit()
+    thing.apple()
+    print thing.tangerine
+>>>>>>> chg: dev: organize sections; improve or make examples more consistent;
 
 Database Access
 =================================================================
