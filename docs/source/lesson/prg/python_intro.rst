@@ -177,6 +177,12 @@ bonus projects such as
 * deploy run and document cloudmesh on ironpython
 * other documentation that would be useful
 
+  .. warning:: For this class, we do not recommend using any of these
+alternative installations. If you decide to use them, you are taking
+the risk of modifying your system configuration in a way that may
+affect other software. We will not be able to provide help for issues
+related to this.
+
 Resources
 =================================================================
 
@@ -501,10 +507,167 @@ Lists
 
 see: https://www.tutorialspoint.com/python/python_lists.htm
 
+Lists in Python are ordered sequences of elements, where each element
+can be accessed using a 0-based index.
+
+To define a list, you simply list its elements between square brackest
+``[]``::
+
+  >>> >>> names = ['Albert', 'Jane', 'Liz', 'John', 'Abby']
+  >>> names[0] # access the first element of the list
+  'Albert'
+  >>> names[2] # access the third element of the list
+  'Liz'
+
+You can also use a negative index if you want to start counting
+elements from the end of the list. Thus, the last element has index
+*-1*, the second before last element has index *-2* and so on::
+
+  >>> names[-1] # access the last element of the list
+  'Abby'
+  >>> names[-2] # access the second last element of the list
+  'John'
+
+Python also allows you to take whole slices of the list by specifing a
+beginning and end of the slice separated by a colon ``:``::
+
+  >>> names[1:-1] # the middle elements, excluding first and last
+  ['Jane', 'Liz', 'John']
+
+As you can see from the example above, the starting index in the slice
+is inclusive and the ending one, exclusive.
+
+Python provides a variety of methods for manipulating the members of a
+list.
+
+You can add elements with ``append``::
+
+  >>> names.append('Liz')
+  >>> names
+  ['Albert', 'Jane', 'Liz', 'John', 'Abby', 'Liz']
+
+As you can see, the elements in a list need not be unique.
+
+Merge two lists with ``extend``::
+
+  >>> names.extend(['Lindsay', 'Connor'])
+  >>> names
+  ['Albert', 'Jane', 'Liz', 'John', 'Abby', 'Liz', 'Lindsay', 'Connor']
+
+Find the index of the first occurrence of an element with ``index``::
+
+  >>> names.index('Liz')
+  2
+
+Remove elements by value with ``remove``::
+
+  >>> names.remove('Abby')
+  >>> names
+  ['Albert', 'Jane', 'Liz', 'John', 'Liz', 'Lindsay', 'Connor']
+
+Remove elements by index with ``pop``::
+
+  >>> names.pop(1)
+  'Jane'
+  >>> names
+  ['Albert', 'Liz', 'John', 'Liz', 'Lindsay', 'Connor']
+
+Notice that ``pop`` returns the element being removed, while
+``remove`` does not.
+
+If you are familiar with stacks from other programming languages, you
+can use ``insert`` and ``pop``::
+
+  >>> names.insert(0, 'Lincoln')
+  >>> names
+  ['Lincoln', 'Albert', 'Liz', 'John', 'Liz', 'Lindsay', 'Connor']
+  >>> names.pop()
+  'Connor'
+  >>> names
+  ['Lincoln', 'Albert', 'Liz', 'John', 'Liz', 'Lindsay']
+
+The Python documentation contains a `full list of list operations <>`_.
+
+To go back to the ``range`` function you used earlier, it simply
+creates a list of numbers::
+
+  >>> range(10)
+  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  >>> range(2, 10, 2)
+  [2, 4, 6, 8]
+  
+  
 Sets
 =================================================================
 
-Dictionaries
+Python lists can contain duplicates as you saw above::
+
+  >>> names = ['Albert', 'Jane', 'Liz', 'John', 'Abby', 'Liz']
+
+When we don't want this to be the case, we can use a `set
+<https://docs.python.org/2/library/stdtypes.html#set>`_::
+
+  >>> unique_names = set(names)
+  >>> unique_names
+  set(['Lincoln', 'John', 'Albert', 'Liz', 'Lindsay'])
+
+Keep in mind that the *set* is an unordered collection of objects,
+thus we can not access them by index::
+
+  >>> unique_names[0]
+  Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    TypeError: 'set' object does not support indexing
+
+However, we can convert a set to a list easily:
+
+>>> unique_names = list(unique_names)
+>>> unique_names
+['Lincoln', 'John', 'Albert', 'Liz', 'Lindsay']
+>>> unique_names[0]
+'Lincoln'
+
+Notice that in this case, the order of elements in the new list
+matches the order in which the elements were displayed when we create
+the set (we had ``set(['Lincoln', 'John', 'Albert', 'Liz',
+'Lindsay'])`` and now we have ``['Lincoln', 'John', 'Albert', 'Liz',
+'Lindsay']``). You should not assume this is the case in general. That
+is, don't make any assumptions about the order of elements in a set
+when it is converted to any type of sequential data structure.
+
+Testing for Membership and Removal
+----------------------------------
+
+One important advantage of a *set* over a *list* is that **access to
+elements is fast**. If you are familiar with different data structures
+from a Computer Science class, the Python list is implemented by an
+array, while the set is implemented by a hash table.
+
+We will demonstrate this with an example. Let's say we have a list and
+a set of the same number of elements (approximately 100 thousand)::
+
+  >>> import sys, random, timeit
+  >>> nums_set = set([random.randint(0, sys.maxint) for _ in range(10**5)])
+  >>> nums_list = list(nums_set)
+  >>> len(nums_set)
+  100000
+  >>> len(nums_list)
+  100000
+
+We will use the `timeit <>`_ Python module to time 100 operations that
+test for the existence of a member in either the list or set::
+
+  >>> timeit.timeit('random.randint(0, sys.maxint) in nums', setup='import random; nums=%s' % str(nums_set), number=100)
+  0.0004038810729980469
+  >>> timeit.timeit('random.randint(0, sys.maxint) in nums', setup='import random; nums=%s' % str(nums_list), number=100)
+  0.3980541229248047
+
+The exact duration of the operations on your system will be different,
+but the take away will be the same: searching for an element in a set
+is orders of magnitude faster than in a list. This is important to
+keep in mind when you work with large amounts of data.
+
+  Dictionaries
 =================================================================
 
 One of the very important datastructures in python is a dictionary
@@ -535,7 +698,7 @@ You can delete elements with the following commands::
     File "<stdin>", line 1, in <module>
     NameError: name 'person' is not defined
 
-You can iterate ofer a dict::
+You can iterate over a dict::
 
   >>> person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
   >>> for item in person:
@@ -811,8 +974,20 @@ they define a valid triangle. A triangle is valid if the length of
 each side is less than the sum of the lengths of the other two sides
 and greater than the difference of the lengths of the other two sides.::
 
+  """Usage: check_triangle.py [-h] LENGTH WIDTH HEIGHT
+
+  Check if a triangle is valid.
+
+  Arguments:
+    LENGTH     The length of the triangle.
+    WIDTH      The width of the traingle.
+    HEIGHT     The height of the triangle.
+
+  Options:
+  -h --help
+  """
   from __future__ import print_function, division
-  import argparse
+  from docopt import docopt
 
 
   def check_triangle(a, b, c):
@@ -823,15 +998,11 @@ and greater than the difference of the lengths of the other two sides.::
 
 
   if __name__ == '__main__':
-	parser = argparse.ArgumentParser(description='Check if a triangle is valid.')
-	parser.add_argument('length', type=int, help='The length of the triangle.')
-	parser.add_argument('width', type=int, help='The width of the triangle.')
-	parser.add_argument('height', type=int, help='The height of the triangle.')
-	args = parser.parse_args()
-
+	args = docopt(__doc__)
+	length, width, height = int(args['LENGTH']), int(args['WIDTH']), int(args['HEIGHT'])
 	print('Triangle with sides %d, %d and %d is valid: %r' % (
-		args.length, args.width, args.height,
-		check_triangle(args.length, args.width, args.height)
+		length, width, height,
+		check_triangle(length, width, height)
 	))
 
 Assuming we save the program in a file called ``check_triangle.py``,
@@ -846,7 +1017,7 @@ Let break this down a bit.
 #. We've defined the ``check_triangle`` function which has three parameters. It returns ``True`` if all six expressions defined inside are true, and ``False`` otherwise.
 #. We've used the backslash symbol ``\`` to format are code nicely. The backslash simply indicates that the current line is being continued on the next line.
 #. When we run the program, we do the check ``if __name__ == '__main__'``. ``__name__`` is an internal Python variable that allows us to tell whether the current file is being run from the command line (value ``__name__``), or is being imported by a module (the value will be the name of the module). Thus, with this statement we're just making sure the program is being run by the command line.
-#. We are using the ``argparse`` module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces the correct number and type of command line arguments automatically.
+#. We are using the ``docopt`` module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces command line arguments automatically. All of this is done by parsing the docstring at the top of the file.
 #. In the ``print`` function, we are using `Python's string formatting capabilities <https://docs.python.org/2/library/string.html#format-string-syntax>`_ to insert values into the string we are displaying.
    
 Installing Libraries
