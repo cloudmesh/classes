@@ -13,3 +13,5 @@ build
 *.out
 *.bbl
 *.blg
+.vagrant
+.env

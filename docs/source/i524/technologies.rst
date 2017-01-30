@@ -1,6 +1,6 @@
 
 .. index:: I524 technologies
-	      
+
 Technologies
 ======================================================================
 
@@ -8,41 +8,42 @@ Technologies
 In this section we find a number of technologies that are related to
 big data. Certainly a number of these projects are hosted as an Apache
 project. One important resource for a general list of all apache
-projects is at 
+projects is at
 
 
 * Apache projects: https://projects.apache.org/projects.html?category
-  
+
 
 Workflow-Orchestration
 ----------------------------------------------------------------------
 
 1. ODE
-2. ActiveBPEL 
-3. Airavata   
-4. Pegasus 
-5. Kepler 
-6. Swift  
+2. ActiveBPEL
+   S17-IR-2002
+3. Airavata
+4. Pegasus
+5. Kepler
+6. Swift
 7. Taverna
-   
-   Taverna is workflow management system. According to :cite:`www-taverna`,
-   Taverna is transitioning to Apache Incubator as of Jan 2017.
-   Taverna suite includes 2 products:
 
-   1. Taverna Workbench is desktop client where user can define the workflow.
-   2. Taverna Server is responsible for executing the remote workflows.
+   Taverna is workflow management system. According to
+   :cite:`www-taverna`, Taverna is transitioning to Apache Incubator
+   as of Jan 2017.  Taverna suite includes 2 products:
 
-   Taverna workflows can also be executed on command-line.
-   Taverna supports wide range of services including WSDL-style and RESTful
+   (1). Taverna Workbench is desktop client where user can define the workflow.
+   (2). Taverna Server is responsible for executing the remote workflows.
+
+   Taverna workflows can also be executed on command-line.  Taverna
+   supports wide range of services including WSDL-style and RESTful
    Web Services, BioMart, SoapLab, R, and Excel. Taverna also support
-   mechanism to monitor the running workflows using its web browser interface.
-   In his :cite:`taverna-paper` paper, Daniele Turi presented the formal
-   syntax and operational semantics of Taverna.
+   mechanism to monitor the running workflows using its web browser
+   interface.  In his :cite:`taverna-paper` paper, Daniele Turi
+   presented the formal syntax and operational semantics of Taverna.
 
-8. Triana 
-9. Trident 
-10. BioKepler 
-11. Galaxy 
+8. Triana
+9. Trident
+10. BioKepler
+11. Galaxy
 12. IPython
 13. Jupyter
 14. (Dryad)
@@ -51,7 +52,18 @@ Workflow-Orchestration
 17. Tez
 18. Google FlumeJava
 19. Crunch
+
 20. Cascading
+	:cite:`www-cascading` Cascading software authored by Chris Wensel is development platform for building the application in Hadoop. 
+	It basically act as an abstraction for Apache Hadoop used for creating complex data processing workflow using
+	the scalability of hadoop however hiding the complexity of mapReduce jobs. 
+	User can write their program in java without having knowledge of mapReduce. Applications written on cascading are portable.   
+ 
+	Cascading Benefits
+		1. With Cascading application can be scaled as per the data sets.
+		2. Easily Portable
+		3. Single jar file for application deployment.
+
 21. Scalding
 22. e-Science Central
 23. Azure Data Factory
@@ -69,7 +81,7 @@ Application and Analytics
 ----------------------------------------------------------------------
 
 32. Mahout :cite:`www-mahout`
-    
+
     "Apache Mahout software provides three major features:
     (1) A simple and extensible programming environment and framework
     for building scalable algorithms
@@ -77,13 +89,13 @@ Application and Analytics
     H2O, Apache Flink
     (3) Samsara, a vector math experimentation environment with R-like
     syntax which works at scale"
-    
+
 
 33. MLlib
 34. Mbase
 35. DataFu
-    
-    The Apache DataFu project was created out of the need for stable ,
+
+    The Apache DataFu project was created out of the need for stable,
     well-tested libraries for large scale data processing in Hadoop.
     As detailed in :cite:`www-DataFu` Apache DatFu consists of two
     libraries Apache DataFu Pig and Apache DataFu Hourglass.  Apache
@@ -101,6 +113,19 @@ Application and Analytics
 
 36. R
 37. pbdR
+
+    Programming with Big Data in R (pbdR) :cite:`www-pbdR` is an
+    environment having series of R packages for statistical computing
+    with Big Data using high-performance statistical computation. It
+    uses R, a popular language between statisticians and data
+    miners. "pbdR" focuses on distributed memory system, where data is
+    distributed accross several machines and processed in batch
+    mode. It uses MPI for inter process communications. R focuses on
+    single machines for data analysis using a interactive
+    GUI. Currenly there are two implementation of pbdR, one Rmpi and
+    another being pdbMpi.  Rmpi uses SPMD parallelism while pbdRMpi
+    uses manager/worker parallelism.
+
 38. Bioconductor
 39. ImageJ
 40. OpenCV
@@ -108,6 +133,25 @@ Application and Analytics
 42. PetSc
 43. PLASMA MAGMA
 44. Azure Machine Learning
+    
+    Azure Machine Learning is a cloud based service that can be used
+    to do predictive analytics, machine learning or data mining. It
+    has features like in-built algorithm library, machine learning
+    studio and a webservice :cite:`www-azureMLSite`. In built
+    algorithm library has implementation of various popular machine
+    learning algorithms like decision tree, SVM, linear regression,
+    neural networks etc. Machine learning studio facilitates creation
+    of predictive models using graphical user interface by dragging,
+    dropping and connecting of different modules that can be used by
+    people with minimal knowledge in the machine learning
+    field. Machine learning studio is a free service for basic version
+    and comes with a monthly charge for advanced versions. Apart from
+    building models, studio also has options to do preprocessing like
+    clean, transform and normalize the data. Webservice provides
+    option to deploy the machine learning algorithm as ready to
+    consume APIs that can be reused in future with minimal effort and
+    can also be published.
+    
 45. Google Prediction API & Translation API
 46. mlpy
 47. scikit-learn
@@ -141,15 +185,29 @@ Application and Analytics
 75. three.js
 76. Potree
 77. DC.js
+
+    According to :cite:`www-dcjs`: “DC.js is a javascript charting
+    library with native crossfilter support, allowing exploration on
+    large multi-dimensional datasets. It uses d3 to render charts in
+    CSS-friendly SVG format. Charts rendered using dc.js are data
+    driven and reactive and therefore provide instant feedback to user
+    interaction.”. DC.js library can be used to perform data anlysis
+    on both mobile devices and different browsers. Under the dc
+    namespace the following chart classes are included: barChart,
+    boxplot, bubbleChart, bubbleOverlay, compositeChart, dataCount,
+    dataGrid, dataTable, geoChoroplethChart, heatMap,
+    legend,lineChart, numberDisplay, pieChart, rowChart, scatterPlot,
+    selectMenu and seriesChart.
+      
 78. TensorFlow
 79. CNTK
 
-   
+
 Application Hosting Frameworks
 ----------------------------------------------------------------------
 
 80. Google App Engine  :cite:`www-gae`
-    
+
     On purpose we put in here a "good" example of a bad entry that woudl
     receive 10 out of 100 points, e.g. an F:
 
@@ -168,42 +226,63 @@ Application Hosting Frameworks
     avoided. We like to see a number of paragraphs with text.
 
     **Note: This is an example for a bad entry**
-  
+
 81. AppScale
 82. Red Hat OpenShift
 83. Heroku
 84. Aerobatic
+
+    According to :cite:`www-aero`: Aerobatic is a platform that allows
+    hosting static websites. It used to be an ad-on for Bitbucket but
+    now Aerobatic is transitioning to standalone CLI(command Line
+    Tool) and web dashboard . Aerobatic allows automatic builds to
+    different branches. New changes to websites can be deployed using
+    aero deploy command which can be executed from local desktop or
+    any of CD tools and services like Jenkins, Codeship,Travis and so
+    on.  It also allows users to configure custom error pages and
+    offers authentication which can also be customized. Aerobatic is
+    backed by AWS cloud. Aerobatic has free plan and pro plan options
+    for customers.
+    
+
 85. AWS Elastic Beanstalk
 86. Azure
-    
-    Microsoft Corporation markets its cloud products under the *Azure* brand
-    name. At its most basic, Azure acts as an *infrastructure-as-a-service* (IaaS)
-    provider.  IaaS virtualizes hardware components, a key differentiation from
-    other *-as-a-service* products.  The Wikipedia entry on IaaS notes that IaaS
-    "abstract[s] the user from the details of infrasctructure like physical
-    computing resources, location, data partitioning, scaling, security, backup,
-    etc." :cite:www-wikipedia-cloud
 
-    However, Azure offers a host of closely-related tool and products to enhance
-    and improve the core product, such as raw block storage, load balancers,
-    and IP addresses :cite:`www-azure-msft`.  For instance, Azure users can access
-    predictive analytics, Bots and Blockchain-as-a-Service :cite:www-azure-msft as
-    well as more-basic computing, networking, storage, database and management
-    components :cite:`www-sec-edgar-msft`.  The Azure website shows twelve major
-    categories under *Products* and twenty *Solution* categories, e.g., e-commerce
-    or Business SaaS apps.
+    Microsoft Corporation (MSFT) markets its cloud products under the
+    *Azure* brand name. At its most basic, Azure acts as an
+    *infrastructure-as-a-service* (IaaS) provider.  IaaS virtualizes
+    hardware components, a key differentiation from other
+    *-as-a-service* products.
+    IaaS "abstract[s] the user from the details of infrasctructure
+    like physical computing resources, location, data partitioning,
+    scaling, security, backup, etc." :cite:`www-wikipedia-cloud`
 
-    Azure competes against Amazon's *Amazon Web Service*, :cite:www-aws-amzn
-    even though IBM (*SoftLayer* :cite:www-softlayer-ibm and *Bluemix* :cite
-    :www-bluemix-ibm) and Google (*Google Cloud Platform*) :cite:www-cloud-
-    google offer IaaS to the market.  As of January 2017, Azure's datacenters
-    span 32 Microsoft-defined *regions*, or 38 *declared regions*, throughout
-    the world. :cite:www-azure-msft
+    However, Azure offers a host of closely-related tool and products
+    to enhance and improve the core product, such as raw block
+    storage, load balancers, and IP addresses :cite:`www-azure-msft`.
+    For instance, Azure users can access predictive analytics, Bots
+    and Blockchain-as-a-Service :cite:`www-azure-msft` as well as
+    more-basic computing, networking, storage, database and management
+    components :cite:`www-sec-edgar-msft`.  The Azure website shows
+    twelve major categories under *Products* and twenty *Solution*
+    categories, e.g., e-commerce or Business SaaS apps.
+
+    Azure competes against Amazon's *Amazon Web Service*,
+    :cite:`www-aws-amzn` even though IBM (*SoftLayer*
+    :cite:`www-softlayer-ibm` and *Bluemix* :cite :`www-bluemix-ibm`)
+    and Google (*Google Cloud Platform*) :cite:`www-cloud-google`
+    offer IaaS to the market.  As of January 2017, Azure's datacenters
+    span 32 Microsoft-defined *regions*, or 38 *declared regions*,
+    throughout the world. :cite:`www-azure-msft`
 
 87. Cloud Foundry
 88. Pivotal
 89. IBM BlueMix
-90. Ninefold
+90. (Ninefold)
+
+    The Australian based cloud computing platform has shut down their
+    services since January 30, 2016. Refer :cite:`www-ninefoldSite`
+
 91. Jelastic
 92. Stackato
 93. appfog
@@ -212,7 +291,7 @@ Application Hosting Frameworks
 96. (CloudControl)
 
     No Longer active as of Feb. 2016
-    
+
 97. dotCloud
 98. Dokku
 99. OSGi
@@ -232,35 +311,39 @@ High level Programming
 108. Shark
 109. Phoenix
 
-In the first quarter of 2013, Salesforce.com released its proprietary SQL-like
-interface and query engine for HBase, *Phoenix*, to the open source community.
-The company appears to have been motivated to develop Phoenix as a way to 1)
-increase accessiblity to HBase by using the industry-standard query language
-(SQL); 2) save users time by abstracting away the complexities of coding native
-HBase queries; and, 3) implementing query best practices by implementing them
-automatically via Phoenix. :cite:www-phoenix-cloudera  Although Salesforce.com
-initially *open-sourced* it via Github, by May of 2014 it had become a top-level
-Apache project. :cite:www-phoenix-wikipedia
+     In the first quarter of 2013, Salesforce.com released its
+     proprietary SQL-like interface and query engine for HBase,
+     *Phoenix*, to the open source community.  The company appears to
+     have been motivated to develop Phoenix as a way to 1) increase
+     accessiblity to HBase by using the industry-standard query
+     language (SQL); 2) save users time by abstracting away the
+     complexities of coding native HBase queries; and, 3) implementing
+     query best practices by implementing them automatically via
+     Phoenix. :cite:`www-phoenix-cloudera` Although Salesforce.com
+     initially *open-sourced* it via Github, by May of 2014 it had
+     become a top-level Apache project. :cite:`www-phoenix-wikipedia`
 
-Phoenix, written in Java, "compiles [SQL queries] into a series of HBase scans,
-and orchestrates the running of those scans to produce regular JDBC result
-sets." :cite:www-apachephoenix-org  In addition, the program directs compute
-intense portions of the calls to the server.  For instance, if a user queried
-for the top ten records across numerous regions from an HBase database
-consisting of a billion records, the program would first select the top ten
-records for each region using server-side compute resources.  After that, the
-client would be tasked with selecting the overall top ten. :cite:www-phoenix-
-salesforcedev
+     Phoenix, written in Java, "compiles [SQL queries] into a series
+     of HBase scans, and orchestrates the running of those scans to
+     produce regular JDBC result sets." :cite:`www-apachephoenix-org`
+     In addition, the program directs compute intense portions of the
+     calls to the server.  For instance, if a user queried for the top
+     ten records across numerous regions from an HBase database
+     consisting of a billion records, the program would first select
+     the top ten records for each region using server-side compute
+     resources.  After that, the client would be tasked with selecting
+     the overall top ten. :cite:`www-phoenix- salesforcedev`
 
-Despite adding an abstraction layer, Phoenix can actually speed up queries
-because it optimizes the query during the translation process. :cite:www-
-phoenix-cloudera  For example, "Phoenix beats Hive for a simple query spanning
-10M-100M rows." :cite:www-phoenix-infoq
+     Despite adding an abstraction layer, Phoenix can actually speed
+     up queries because it optimizes the query during the translation
+     process. :cite:`www- phoenix-cloudera` For example, "Phoenix
+     beats Hive for a simple query spanning 10M-100M rows."
+     :cite:`www-phoenix-infoq`
 
-Finally, another program can enhance HBase's accessibility for those inclined
-towards graphical interfaces.  SQuirell only requires the user to set up the
-JDBC driver and specify the appropriate connection string. :cite:www-phoenix-
-bighadoop
+     Finally, another program can enhance HBase's accessibility for
+     those inclined towards graphical interfaces.  SQuirell only
+     requires the user to set up the JDBC driver and specify the
+     appropriate connection string. :cite:`www-phoenix- bighadoop`
 
 110. Impala
 111. MRQL
@@ -277,6 +360,21 @@ Software Foundation (ASF) undergo an incubation period until a review
 indicates that the project meets standardas of other ASF projects. :cite:`www-apacheincubator`
 
 112. SAP HANA
+
+     As noted in :cite:`www-sap-hana`, SAP HANA is in-memory massively
+     distributed platform that consists of three components:
+     analytics, relational ACID compliant database and
+     application. Predictive analytics and machine learning
+     capabilities are dynamically allocated for searching and
+     processing of spatial, graphical, and text data. 
+	 SAP HANA accommodates flexible development and deployment of 
+	 data on premises, cloud and hybrid configurations.  In a 
+	 nutshell, SAP HANA acts as a warehouse that integrates live 
+	 transactional data from various data sources on a single 
+	 platform :cite:`olofson_2014`. It provides extensive 
+	 administrative, security features and data access that ensures 
+	 high data availability, data protection and data quality.
+
 113. HadoopDB
 114. PolyBase
 115. Pivotal HD/Hawq
@@ -289,11 +387,11 @@ indicates that the project meets standardas of other ASF projects. :cite:`www-ap
 119. Amazon Redshift
 120. Drill
 121. Kyoto Cabinet
-     
+
      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
      library of routines for managing a database which is a simple
      data file containing records. Each record in the database is a
-     pair of a key and a value.Every key and value is serial bytes
+     pair of a key and a value. Every key and value is serial bytes
      with variable length. Both binary data and character string can
      be used as a key and a value. Each key must be unique within a
      database.  There is neither concept of data tables nor data
@@ -303,7 +401,7 @@ indicates that the project meets standardas of other ASF projects. :cite:`www-ap
      tree database. Moreover, the size of database is very small. The,
      overhead for a record is 16 bytes for hash database, and 4 bytes
      for B+ tree database. Furthermore, scalability of Kyoto Cabinet
-     is great.  The database size can be up to 8EB (9.22e18 bytes).
+     is great. The database size can be up to 8EB (9.22e18 bytes).
 
 122. Pig
 123. Sawzall
@@ -322,29 +420,34 @@ Streams
 132. Google MillWheel
 133. Amazon Kinesis
 
-        Kinesis is Amazon’s :cite:`www-kinesis` real time data processing engine. It
-        is designed to provide scalable, durable and reliable data processing
-        platform with low latency. The data to Kinesis can be ingested from multiple
-        sources in different format. This data is further made available by Kinesis to
-        multiple applications or consumers interested in the data. Kinesis provides
-        robust and fault tolerant system to handle this high volume of data. Data
-        sharding mechanism is Kinesis makes it horizontally scalable. Each of these
-        shards in Kinesis process a group of records which are partitioned by the
-        shard key. Each record processed by Kinesis is identified by sequence number,
-        partition key and data blob. Sequence number to records is assigned by the
-        stream. Partition key are used by partitioner(a hash function) to map the
-        records to the shards i.e. which records should go to which shard. Producers
-        like web servers, client applications, logs push the data to Kinesis whereas
-        Kinesis applications act as consumers of the data from Kinesis engine. It also
-        provides data retention for certain time for example 24 hours default. This
-        data retention window is a sliding window. Kinesis collects lot of metrics
-        which can used to understand the amount of data being processed by Kinesis.
-        User can use this metrics to do some analytics and visualize the metrics data.
-        Kinesis is one of the tools part of AWS infrastructure and provides its users
-        a complete software-as-a-service. Kinesis :cite:`big-data-analytics-book` in
-        the area of real-time processing provides following key benefits:
-        ease of use, parellel processing, scalable, cost effective, fault tolerant
-        and highly available.
+     Kinesis is Amazon’s :cite:`www-kinesis` real time data processing
+     engine. It is designed to provide scalable, durable and reliable
+     data processing platform with low latency. The data to Kinesis
+     can be ingested from multiple sources in different format. This
+     data is further made available by Kinesis to multiple
+     applications or consumers interested in the data. Kinesis
+     provides robust and fault tolerant system to handle this high
+     volume of data. Data sharding mechanism is Kinesis makes it
+     horizontally scalable. Each of these shards in Kinesis process a
+     group of records which are partitioned by the shard key. Each
+     record processed by Kinesis is identified by sequence number,
+     partition key and data blob. Sequence number to records is
+     assigned by the stream. Partition keys are used by partitioner(a
+     hash function) to map the records to the shards i.e. which
+     records should go to which shard. Producers like web servers,
+     client applications, logs push the data to Kinesis whereas
+     Kinesis applications act as consumers of the data from Kinesis
+     engine. It also provides data retention for certain time for
+     example 24 hours default. This data retention window is a sliding
+     window. Kinesis collects lot of metrics which can used to
+     understand the amount of data being processed by Kinesis.  User
+     can use this metrics to do some analytics and visualize the
+     metrics data.  Kinesis is one of the tools part of AWS
+     infrastructure and provides its users a complete
+     software-as-a-service. Kinesis :cite:`big-data-analytics-book` in
+     the area of real-time processing provides following key benefits:
+     ease of use, parellel processing, scalable, cost effective, fault
+     tolerant and highly available.
 
 134. LinkedIn
 135. Twitter Heron
@@ -363,7 +466,15 @@ Basic Programming model and runtime, SPMD, MapReduce
 143. Hadoop
 144. Spark
 145. Twister
+
 146. MR-MPI
+	:cite:`www-mapreducempi` MR-MPI stands for Map Reduce-Message Passing Interface is open source
+	library build on top of standard MPI. It basically implements mapReduce operation providing a 
+	interface for user to simplify writing mapReduce program.
+	It is written in C++ and needs to be linked to MPI library	in order to make the basic map reduce
+	functionality to be executed in parallel on distributed memory architecture.
+	It provides interface for c, c++ and python. Using C interface the library can also be called from Fortrain.
+
 147. Stratosphere (Apache Flink)
 148. Reef
 149. Disco
@@ -374,6 +485,25 @@ Basic Programming model and runtime, SPMD, MapReduce
 154. Ligra
 155. GraphChi
 156. Galois
+     
+     Galois system was built by intelligent software systems team at
+     University of Texas, Austin. As explained in
+     :cite:`www-galoisSite`, “Galois is a system that automatically
+     executes 'Galoized' serial C++ or Java code in parallel on
+     shared-memory machines. It works by exploiting amorphous
+     data-parallelism, which is present even in irregular codes that
+     are organized around pointer-based data structures such as graphs
+     and trees”. By using Galois provided data structures programmers
+     can write serial programs that gives the performance of parallel
+     execution. Galois employs annotations at loop levels to
+     understand correct context during concurrent execution and
+     executes the code that could be run in parallel. The key idea
+     behind Galois is Tao-analysis, in which parallelism is exploited
+     at compile time rather than at run time by creating operators
+     equivalent of the code by employing data driven local computation
+     algorithm :cite:`taoParallelismPaper`. Galois currently supports
+     C++ and Java.
+	   
 157. Medusa-GPU
 158. MapGraph
 159. Totem
@@ -384,7 +514,27 @@ Inter process communication Collectives
 
 160. point-to-point
 161. publish-subscribe: MPI
+
 162. HPX-5
+
+     Based on :cite:` www-hpx-5 `, High Performance ParallelX (HPX-5)
+     is an open source, distributed model that provides opportunity
+     for operations to run unmodified on one-to-many nodes. The
+     dynamic nature of the model accommodates effective “computing
+     resource management and task scheduling”. It is portable and
+     performance-oriented. HPX-5 was developed by IU Center for
+     Research in Extreme Scale Technologies (CREST). Concurrency is
+     provided by lightweight control object (LCO) synchronization and
+     asynchronous remote procedure calls. ParallelX component allows
+     for termination detection and supplies per-process
+     collectives. It “addresses the challenges of starvation, latency,
+     overhead, waiting, energy and reliability”. Finally, it supports
+     OpenCL to use distributed GPU and coprocessors. HPX-5 could be
+     compiled on various OS platforms , however it was only tested on
+     several Linux and Darwin (10.11) platforms. Required
+     configurations and environments could be accessed via
+     :cite:`www-hpx-5-user-guide`.
+
 163. Argo BEAST HPX-5 BEAST PULSAR
 164. Harp
 165. Netty
@@ -392,42 +542,48 @@ Inter process communication Collectives
 167. ActiveMQ
 168. RabbitMQ
 
-        RabbitMQ is a message broker :cite:`www-rabbitmq` which allows services to
-        exchange messages in a fault tolerant manner. It provides variety of features
-        which “enables software applications to connect and scale”. Features are:
-        reliability, flexible routing, clustering, federation, highly available
-        queues, multi-protocol, many clients, management UI, tracing, plugin system,
-        commercial support, large community and user base. RabbitMQ can work in
-        multiple scenarios:
+     RabbitMQ is a message broker :cite:`www-rabbitmq` which allows
+     services to exchange messages in a fault tolerant manner. It
+     provides variety of features which “enables software applications
+     to connect and scale”. Features are: reliability, flexible
+     routing, clustering, federation, highly available queues,
+     multi-protocol, many clients, management UI, tracing, plugin
+     system, commercial support, large community and user
+     base. RabbitMQ can work in multiple scenarios:
 
-        1. Simple messaging: producers write messages to the queue and consumers read
-        messages from the the queue. This is synonymous to a simple message queue.
+     1. Simple messaging: producers write messages to the queue and
+        consumers read messages from the the queue. This is synonymous
+        to a simple message queue.
 
-        2. Producer-consumer: Producers produce messages and consumers receive messages
-        from the queue. The messages are delivered to multiple consumers in round
-        robin manner.
+     2. Producer-consumer: Producers produce messages and consumers
+        receive messages from the queue. The messages are delivered to
+        multiple consumers in round robin manner.
 
-        3. Publish-subscribe: Producers publish messages to exchanges and consumers
-        subscribe to these exchanges. Consumers receive those messages when the
-        messages are available in those exchanges.
+     3. Publish-subscribe: Producers publish messages to exchanges
+        and consumers subscribe to these exchanges. Consumers receive
+        those messages when the messages are available in those
+        exchanges.
 
-        4. Routing: In this mode consumers can subscribe to a subset of messages instead
-        of receiving all messages from the queue.
+     4. Routing: In this mode consumers can subscribe to a subset
+        of messages instead of receiving all messages from the queue.
 
-        5. Topics: Producers can produce messages to a topic multiple consumers
-        registered to receive messages from those topics get those messages. These
-        topics can be handled by a single exchange or multiple exchanges.
+     5. Topics: Producers can produce messages to a topic multiple
+        consumers registered to receive messages from those topics get
+        those messages. These topics can be handled by a single
+        exchange or multiple exchanges.
 
-        6. RPC:In this mode the client sends messages as well as registers a callback
-        message queue. The consumers consume the message and post the response message
-        to the callback queue.
+     6. RPC:In this mode the client sends messages as well as
+        registers a callback message queue. The consumers consume the
+        message and post the response message to the callback queue.
 
-        RabbitMQ is based on AMPQ :cite:`ampq-article` (Advanced Message Queuing Protocol)
-        messaging model. AMPQ is described as follows “messages are published to exchanges,
-        which are often compared to post offices or mailboxes. Exchanges then distribute
-        message copies to queues using rules called bindings. Then AMQP brokers either
-        deliver messages to consumers subscribed to queues, or consumers fetch/pull messages
-        from queues on demand”
+        RabbitMQ is based on AMPQ :cite:`ampq-article` (Advanced
+        Message Queuing Protocol) messaging model. AMPQ is described
+        as follows “messages are published to exchanges, which are
+        often compared to post offices or mailboxes. Exchanges then
+        distribute message copies to queues using rules called
+        bindings. Then AMQP brokers either deliver messages to
+        consumers subscribed to queues, or consumers fetch/pull
+        messages from queues on demand”
 
 169. NaradaBrokering
 170. QPid
@@ -435,11 +591,8 @@ Inter process communication Collectives
 
      Apache Kafka is a streaming platform, which works based on
      publish-subscribe messaging system and supports distributed
-     environment. Lets understand what does this mean and also see
-     what are Kafka’s features.
-    
-     Kafka lets you publish and subscribe to the messages.
-    
+     environment. Kafka lets publish and subscribe to the messages.
+
      In a publish-subscribe messaging system, publishers are sender of
      messages. They publish the messages without the knowledge of who
      is going to ‘subscribe’ to them for processing. Subscribers are
@@ -450,32 +603,25 @@ Inter process communication Collectives
      published. Applications can use Kafka’s Connector APIs to publish
      the messages to one or more Kafka topics. Similarly, applications
      can use Consumer API to subscribe to one or more topics.
-    
-     Kafka lets you process the stream of data at real time
-    
+     Kafka has the capability to process the stream of data at real time.
+
      Kafka’s stream processor takes continual stream of data from
      input topics, processes the data in real time and produces
      streams of data to output topics. Kafka’s Streams API are used
-     for data transformation.
-    
-     Kafka lets you store the stream of data in distributed clusters.
-    
+     for data transformation. Kafka allows to store the stream of data
+     in distributed clusters.
+
      Kafka acts as a storage system for incoming data stream. Data is
      categorised into ‘topics’. As Kafka is a distributed system, data
      streams are partitioned and replicated across nodes. Thus, a
      combination of messaging, storage and processing data stream
      makes Kafka a ‘streaming platform’.
-    
-     Where is Kafka commonly used?
-    
-     Kafka can be used for building data pipelines where data is
+
+     Kafka is a commonly used for building data pipelines where data is
      transferred between systems or applications. :cite:`www-kafka`
      Kafka can also be used by applications that transform real time
      incoming data.
 
-     **IMPROVE: This is written like an advertisement about Kafka. Are
-     quotes needed **
-     
 172. Kestrel
 173. JMS
 174. AMQP
@@ -486,7 +632,7 @@ Inter process communication Collectives
 179. Lambda
 180. Google Pub Sub
 181. Azure Queues
-182. Event Hubs 
+182. Event Hubs
 
 In-memory databases/caches
 ----------------------------------------------------------------------
@@ -494,44 +640,36 @@ In-memory databases/caches
 
 183. Gora (general object from NoSQL)
 
-        Gora is a in-memory data model :cite:`www-gora` which also provides
-        persistence to the big data. Gora provides persistence to different types
-        of data stores. Primary goals of Gora are:
+     Gora is a in-memory data model :cite:`www-gora` which also
+     provides persistence to the big data. Gora provides persistence
+     to different types of data stores. Primary goals of Gora are:
 
-        1. data persistence
+     1. data persistence
+     2. indexing
+     3. data access
+     4. analysis
+     5. map reduce support
 
-        2. indexing
+     Unlike ORM models which mostly work with relational databases for
+     example hibernate gora works for most type of data stores like
+     documents, columnar, key value as well as relational. Gora uses
+     beans to maintain the data in-memory and persist it on
+     disk. Beans are defined using apache avro schema. Gora provides
+     modules for each type of data store it supports.  The mapping
+     between bean definition and datastore is done in a mapping file
+     which is specific to a data store.  Type Gora workflow will be:
 
-        3. data access
+     1. define  the bean used as model for persistence
+     2. use gora compiler to compile the bean
+     3. create a mapping file to map bean definition to datastore
+     4. update gora.properties to specify the datastore to use
+     5. get an instance of corresponding data store using datastore factory.
 
-        4. analysis
-
-        5. map reduce support
-
-        Unlike ORM models which mostly work with relational databases for example
-        hibernate gora works for most type of data stores like documents, columnar,
-        key value as well as relational. Gora uses beans to maintain the data
-        in-memory and persist it on disk. Beans are defined using apache
-        avro schema. Gora provides modules for each type of data store it supports.
-        The mapping between bean definition and datastore is done in a mapping file
-        which is specific to a data store.
-        Type Gora workflow will be:
-
-        1. define  the bean used as model for persistence
-
-        2. use gora compiler to compile the bean
-
-        3. create a mapping file to map bean definition to datastore
-
-        4. update gora.properties to specify the datastore to use
-
-        5. get an instance of corresponding data store using datastore factory.
-
-        Gora has a query interface to query the underlying data store. Its
-        configuration is stored in gora.properties which is should be present in
-        classpath. In the file you can specify default data store used by Gora
-        engine. Gora also has a CI/CD library call GoraCI which is used to write
-        integration tests.
+     Gora has a query interface to query the underlying data
+     store. Its configuration is stored in gora.properties which
+     should be present in classpath. In the file you can specify
+     default data store used by Gora engine. Gora also has a CI/CD
+     library call GoraCI which is used to write integration tests.
 
 184. Memcached
 185. Redis
@@ -578,8 +716,8 @@ Extraction Tools
 ----------------------------------------------------------------------
 
 197. UIMA
-     
-381. Tika 
+
+381. Tika
 
      "The Apache Tika toolkit detects and extracts metadata and text
      from over a thousand different file types (such as PPT, XLS, and
@@ -595,8 +733,9 @@ SQL(NewSQL)
 199. DB2
 200. SQL Server
 
-     SQL Server :cite:`www-sqlserver-wiki` is a relational database management system
-     from Microsoft. As of Jan 2017, SQL Server is available in below editions
+     SQL Server :cite:`www-sqlserver-wiki` is a relational database
+     management system from Microsoft. As of Jan 2017, SQL Server is
+     available in below editions
 
      1. Standard - consists of core database engine
      2. Web - low cost edition for web hosting
@@ -608,18 +747,48 @@ SQL(NewSQL)
         integrated with Microsoft Azure cloud platform and available in
         platform-as-a-service mode.
 
-     Ross Mistry and Stacia Misner in :cite:`book-sqlserver` explain
-     the technical architecture of SQL Server in OLTP(online
-     transaction processing), hybrid cloud and business intelligence
-     modes.
+     It is explained that technical architecture of SQL Server in
+     OLTP(online transaction processing), hybrid cloud and business
+     intelligence modes :cite:`book-sqlserver`.
 
-     **IMPROVE: It is inappropriate to mention authors**
+
 
 201. SQLite
 202. MySQL
 203. PostgreSQL
+
 204. CUBRID
+
+     CUBRID name is deduced from the combination of word CUBE(security
+     within box) and BRIDGE(data bridge).  It is an open source
+     Relational DataBase Management System designed in C programming
+     language with high performance, scalability and availability
+     features. During its development by NCL, korean IT service
+     provider the goal was to optimize database performance for
+     web-applications. :cite:`www-cubrid` Importantly most of the SQL
+     syntax from MYSQL and ORACLE can work on cubrid.CUBRID also
+     provides manager tool for database administration and migration
+     tool for migrating the data from DBMS to CUBRID bridging the dbs.
+     CUBRID enterprise version and all the tools are free and suitable
+     database candidate for web-application development.
+
 205. Galera Cluster
+
+     Galera cluster :cite:`www-galera-cluster` is a type of database
+     clustering which has all multiple masters and works on
+     synchronous replication. At a deeper level, it was created by
+     extending MySql replication API to provide all support for true
+     multi master synchronous replication.  This extended api is
+     called as Write-Set Replication API and is the core of the
+     clustering logic.  Each transaction of wsrep API not only
+     contains the record but also other meta-info to requires to
+     commit each node separately or asynchronously. So though it seems
+     synchronous logically but works independently on each node.  The
+     approach is also called virtually synchronous replication. This
+     helps in directly read-write on a specific node and can lose a
+     node without handling any complex failover scenarios (zero
+     downtime).
+
 206. SciDB
 207. Rasdaman
 208. Apache Derby
@@ -637,12 +806,24 @@ NoSQL
 ----------------------------------------------------------------------
 
 218. Lucene
+
+     Apache Lucene :cite:`www-lucene` is a high-performance,
+     full-featured text search engine library.  It is originally
+     written in pure Java but also has been ported to few other
+     languages chiefly python.  It is suitable for applications that
+     requires full-text search.  One of the key implementation of
+     Lucene is Internet search engines and local, single-site
+     searching.  Another important implementation usage is its
+     recomendation system. The core idea of Lucene is to extract text
+     from any document that contains text (not image) field, making it
+     format idependent.
+
 219. Solr
 220. Solandra
 221. Voldemort
 
      According to :cite:`www-voldemort`, project Voldemort, developed
-     by LinkedIN, is a non-relational database of key-value type that
+     by LinkedIn, is a non-relational database of key-value type that
      supports eventual consistency. The distributed nature of the
      system allows pluggable data placement and provides horizontal
      scalability and high consistency. Replication and partitioning of
@@ -655,7 +836,7 @@ NoSQL
      rebalancing. When Voldemort performance was benchmarked with the
      other key-value databases such as Cassandra, Redis and HBase as
      well as MySQL relational database
-     (:cite:`rabl_sadoghi_jacobsen_2012`), the Voldemart's throughput
+     :cite:`rabl-sadoghi-jacobsen-2012`, the Voldemart's throughput
      was twice lower than MySQL and Cassandra and six times higher
      than HBase. Voldemort was slightly underperforming in comparison
      with Redis.  At the same time, it demonstrated consistent linear
@@ -676,7 +857,7 @@ NoSQL
 225. Kyoto/Tokyo Cabinet
 226. Tycoon
 227. Tyrant
-     
+
      Tyrant provides network interfaces to the database management
      system called Tokyo Cabinet. Tyrant is also called as Tokyo
      Tyrant. Tyrant is implemented in C and it provides APIs for Perl,
@@ -703,6 +884,19 @@ NoSQL
 237. Megastore and Spanner
 238. Accumulo
 239. Cassandra
+
+     Apache Cassandra :cite:`www-cassandra` is an open-source
+     distributed database managemment for handling large volume of
+     data accross comodity servers. It works on asynchronous
+     masterless replication technique leading to low latency and high
+     availability. It is a hybrid between a key-value and column
+     oriented database. A table in cassandra can be viewed as a multi
+     dimensional map indexed by a key. It has its own "Cassandra Query
+     language (CQL)" query language for data extraction and
+     mining. One of the demerits of such structure is it does not
+     support joins or subqueries. It is a java based system which can
+     be administered by any JMX compliant tools.
+
 240. RYA
 241. Sqrrl
 242. Neo4J
@@ -727,7 +921,7 @@ File management
 257. HDF
 258. OPeNDAP
 259. FITS
-     
+
      FITS stand for 'Flexible Image Trasnport System'. It is a
      standard data format used in astronomy. FITS data format is
      endorsed by NASA and International Astronomical Union. According
@@ -754,11 +948,23 @@ Data Transport
 ----------------------------------------------------------------------
 
 263. BitTorrent
+	Bittorrent is P2P communication protocol commonly used for sending and receiving the large digital files like 
+	movies and audioclips.In order to upload and download file, user have to download bittorrent client which implement
+	the bittorrent protocol. Bittorrent uses the principle of swarning and tracking. :cite:`www-bittorrent` It divides the files
+	in large number of chunck and as soon as file is received it can be server to the other users for downloading. 
+	So rather than downloading one entire large file from one source, user can download small chunk from the different sources
+	of linked users in swarn. Bittorrent trackers keeps list of files available for transfer and helps the swarn user find each other. 
+
+	Using the protocol, machine with less configuration can serve as server for distributing the files. It result in increase in the
+	downloading speed and reduction in origin server configuration.
+
+	Few popular bittorrent client in μTorrent, qBittorrent.
+
 264. HTTP
 265. FTP
 266. SSH
 267. Globus Online (GridFTP)
-     
+
      GridFTP is a enhancement on the File Tranfer Protocol (FTP) which
      provides high-performance , secure and reliable data transfer for
      high-bandwidth wide-area networks. As noted in
@@ -774,7 +980,7 @@ Data Transport
      manual) negotiation of these settings to provide optimal transfer
      speeds and reliability .
 
-  
+
 268. Flume
 269. Sqoop
 270. Pivotal GPLOAD/GPFDIST
@@ -794,6 +1000,29 @@ Cluster Resource Management
 280. OpenPBS
 281. Moab
 282. Slurm :cite:`www-slurm`
+
+     Simple Linux Utility for Resource Management (SLURM) workload
+     manager is an open source, scalable cluster resource management
+     tool used for job scheduling in small to large Linux cluster
+     using multi-core architecture. As per,
+     :cite:`www-slurmSchedmdSite` SLURM has three key
+     functions. First, it allocates resources to users for some
+     duration with exclusive and/or non-exclusive access. Second, it
+     enables users to start, execute and monitor jobs on the resources
+     allocated to them. Finally, it intermediates to resolve conflicts
+     on resources for pending work by maintaining them in a queue. The
+     slurm architecture has following components: a centralized
+     manager to monitor resources and work, may have a backup manager,
+     daemon on each server to provide fault-tolerant communications,
+     an optional daemon for clusters with multiple mangers and tools
+     to initiate, terminate and report about jobs in a graphical view
+     with network topology. It also provides around twenty additional
+     plugins that could be used for functionalities like accounting,
+     advanced reservation, gang scheduling, back fill scheduling and
+     multifactor job prioritization. Though originally developed for
+     Linux, SLURM also provides full support on platforms like AIX,
+     FreeBSD, NetBSD and Solaris :cite:`www-slurmPlatformsSite`.
+     
 283. Torque
 284. Globus Tools
 285. Pilot Jobs
@@ -824,43 +1053,105 @@ Interoperability
 301. Libcloud
 302. JClouds
 
-        :cite:`cloud-portability-book` Primary goals of cross-platform cloud APIs is
-        that application built using these APIs can be seamlessly ported to different
-        cloud providers. The APIs also bring interoperability such that cloud platforms
-        can communicate and exchange information using these common or shared interfaces.
-        Jclouds or apache jclouds :cite:`www-jclouds` is a java based library to
-        provide seamless access to cloud platforms. Jclouds library provides
-        interfaces for most of cloud providers like docker, openstack, amazon web
-        services, microsoft azure, google cloud engine etc. It will allow users build
-        applications which can be portable across different cloud environments.
-        Key components of jcloud are:
+     :cite:`cloud-portability-book` Primary goals of cross-platform
+     cloud APIs is that application built using these APIs can be
+     seamlessly ported to different cloud providers. The APIs also
+     bring interoperability such that cloud platforms can communicate
+     and exchange information using these common or shared interfaces.
+     Jclouds or apache jclouds :cite:`www-jclouds` is a java based
+     library to provide seamless access to cloud platforms. Jclouds
+     library provides interfaces for most of cloud providers like
+     docker, openstack, amazon web services, microsoft azure, google
+     cloud engine etc. It will allow users build applications which
+     can be portable across different cloud environments.  Key
+     components of jcloud are:
 
-        1. Views: abstracts functionality from a specific vendor and allow user to write
-        more generic code. For example odbc abstracts the underlying relational data
-        source. However, odbc driver converts to native format. In this case user can
-        switch databases without rewriting the application. Jcloud provide following
-        views: blob store, compute service, loadBalancer service
+     1. Views: abstracts functionality from a specific vendor and
+        allow user to write more generic code. For example odbc
+        abstracts the underlying relational data source. However, odbc
+        driver converts to native format. In this case user can switch
+        databases without rewriting the application. Jcloud provide
+        following views: blob store, compute service, loadBalancer
+        service
 
-        2. API: APIs are requests to execute a particular functionality. Jcloud provide a
-        single set of APIs for all cloud vendors which is also location aware. If a
-        cloud vendor doesn’t support customers from a particular region the API will
-        not work from that region.
+     2. API: APIs are requests to execute a particular
+        functionality. Jcloud provide a single set of APIs for all
+        cloud vendors which is also location aware. If a cloud vendor
+        doesn’t support customers from a particular region the API
+        will not work from that region.
 
-        3. Provider: a particular cloud vendor is a provider. Jcloud uses provider
-        information to initialize its context.
+     3. Provider: a particular cloud vendor is a provider. Jcloud uses
+        provider information to initialize its context.
 
-        4 Context: it can be termed as a handle to a particular provider. Its like a
-        ODBC connection object. Once connection is initialized for a particular
-        database, it can used to make any api call.
+     4. Context: it can be termed as a handle to a particular
+        provider. Its like a ODBC connection object. Once connection
+        is initialized for a particular database, it can used to make
+        any api call.
 
-        Jclouds provides test library to mock context, APIs etc to different providers so
-        that user can write unit test for his implementation rather than waiting to
-        test with the cloud provider. Jcloud library certifies support after testing
-        the interfaces with live cloud provider. These features make jclouds robust
-        and adoptable, hiding most of the complexity of cloud providers.
+        Jclouds provides test library to mock context, APIs etc to
+        different providers so that user can write unit test for his
+        implementation rather than waiting to test with the cloud
+        provider. Jcloud library certifies support after testing the
+        interfaces with live cloud provider. These features make
+        jclouds robust and adoptable, hiding most of the complexity of
+        cloud providers.
 
 303. TOSCA
 304. OCCI
+
+     The Open Cloud Computing Interface (OCCI) is a RESTful
+     Protocol and API that provides specifications  and remote
+     management for the development of “interoperable tools”
+     :cite:`www-occi`.  It supports IaaS, PaaS and SaaS and
+     focuses on integration, portability, interoperability,
+     innovation and extensibility. It provides a set of documents
+     that describe an OCCI Core model, contain best practices
+     of interaction with the model, combined into OCCI Protocols,
+     explain methods of communication between components via
+     HTTP protocol introduced in the OCCI Renderings, and
+     define infrastructure for IaaS presented in the OCCI
+     Extensions.
+
+     The current version 1.2 OCCI consists of seven documents that
+     identify require and optional components. Of the Core Model.  In
+     particular, the following components are required to implement:
+     a)Core Model, b)HTTP protocol, c)Text rendering and d)JSON
+     rendering. Meanwhile, Infrastructure, Platform and SLA models are
+     optional.  The OCCI Core model defines instance types and
+
+     provides a layer of abstraction that allows the OCCI client
+     to interact with the model without knowing of its potential
+     structural changes. The model supports extensibility via
+     inheritance and using mixin types that represent ability to
+     add new components and capabilities at run-time.
+     :cite:`www-occi-core`
+
+     The OCCI Protocol defines the common set of names provided
+     for the IaaS cloud services user that specify requested
+     system requirements. It is often denoted as “resource
+     templates” or “flavours”  :cite:`ogf-222`.
+
+     OCCI RESTful HTTP Protocol describes communications between
+     server and client on OCCI platform via HTTP protocol
+     [:cite:`www-occi-HTTP`]. It defines a minimum set of HTTP
+     headers and status codes to ensure compliance with the
+     OCCI Protocol. Separate requirements for Server and Client
+     for versioning need to be implemented using HTTP 'Server'
+     header and 'User-Agent' header respectively.
+
+     JSON rendering :cite:`www-occi-json` protocol provides
+     JSON specifications to allow "render OCCI instances
+     independently of the protocol being used." In addition, it
+     provides details of the JSON object declaration, OCCI Action
+     Invocation, object members required for OCCI Link Instance
+     Rendering, "location maps to OCCI Core's source and target
+     model attributes and kind maps to OCCI Core's target" to
+     satisfy OCCI Link Instance Source/Target Rendering requirements.
+     Finally, it specifies various attributes and collection
+     rendering requirements.
+     The text rendering process is depricated and will be
+     removed from the next major version :cite:`www-occi-text`.
+
 305. CDMI
 306. Whirr
 307. Saga
@@ -872,21 +1163,20 @@ DevOps
 309. Docker (Machine, Swarm)
 310. Puppet
 311. Chef
-     
+
      Chef is a configuration management tool. It is implemented in
      Ruby and Erlang. Chef can be used to configure and maintain
      servers on-premise as well as cloud platforms like Amazon EC2,
-     Google Cloud Platform and Open Stack. In his book
-     :cite:`chef-book` Matthias Marschall explains how user can
-     implement recipes in Chef to manage server applications and
-     utilities such as database servers like MySQL, or HTTP servers
-     like Apache HTPP and systems like Apache Hadoop.
+     Google Cloud Platform and Open Stack. In this book
+     :cite:`chef-book`, it is mentioned how implementation recipes in
+     Chef to manage server applications and utilities such as database
+     servers like MySQL, or HTTP servers like Apache HTPP and systems
+     like Apache Hadoop.
 
-     Chef is available in open source version and it also has commercial
-     products for the companies which need it :cite:`www-chef-commercial`
+     Chef is available in open source version and it also has
+     commercial products for the companies which need it
+     :cite:`www-chef-commercial`
 
-     **IMPROVE: Mention names is inappropriate**
-    
 312. Ansible
 313. SaltStack
 314. Boto
@@ -896,17 +1186,17 @@ DevOps
 318. CloudMesh
 319. Juju
 
-      Juju (formerly Ensemble) :cite:`juju-paper` is software from
-      Canonical that provides open source service orchestration. It is
-      used to easily and quickly deploy and manage services on cloud
-      and physical servers. Juju charms can be deployed on cloud
-      services such as Amazon Web Services (AWS), Microsoft Azure and
-      OpenStack. It can also be used on bare metal using MAAS.
-      Specifically :cite:`www-juju` lists around 300 charms available
-      for services available in the Juju store. Charms can be written
-      in any language. It also supports Bundles which are
-      pre-configured collection of Charms that helps in quick
-      deployment of whole infrastructure.
+     Juju (formerly Ensemble) :cite:`juju-paper` is software from
+     Canonical that provides open source service orchestration. It is
+     used to easily and quickly deploy and manage services on cloud
+     and physical servers. Juju charms can be deployed on cloud
+     services such as Amazon Web Services (AWS), Microsoft Azure and
+     OpenStack. It can also be used on bare metal using MAAS.
+     Specifically :cite:`www-juju` lists around 300 charms available
+     for services available in the Juju store. Charms can be written
+     in any language. It also supports Bundles which are
+     pre-configured collection of Charms that helps in quick
+     deployment of whole infrastructure.
 
 320. Foreman
 321. OpenStack Heat
@@ -932,7 +1222,7 @@ DevOps
      AWS Opsworks is a configuration service provided by Amazon Web
      Services that uses Chef, a Ruby and Erlang based configuration
      management tool :cite:`www-wikichef`, to automate the
-     configuration, deployment, and management of servers and 
+     configuration, deployment, and management of servers and
      applications. There are two versions of AWS Opsworks.
      The first, a fee based offering called AWS OpsWorks for Chef
      Automate, provides a Chef Server and suite of tools to enable
@@ -941,7 +1231,7 @@ DevOps
      containing various layers. Amazon Elastic Cloud Compute (EC2)
      instances or other resources can be deployed and configured
      in each layer. :cite:`www-awsopsworks`
-                                        
+
 328. OpenStack Ironic
 329. Google Kubernetes
 330. Buildstep
@@ -980,15 +1270,13 @@ IaaS Management from HPC to hypervisors
      as launch and monitor the cloud apps. It also includes service
      that provides auto-scaling and high availability of resources
      deployed over multiple IaaS cloud.  The Nimubs Platform tools are
-     cloudinit.d, Phantom and Context Broker.  In the 2013 paper
-     :cite:`nimbus-paper` Dmitry Duplykin and others from University
-     of Colorado, used Nimbus Phantom to deploy auto-scaling solution
-     across multiple NSF FutureGrid clouds. In this implementation
-     Phantom was responsible for deploying instances across multiple
-     clouds and monitoring those instance.  Nimbus platform supports
-     Nimbus, Open Stack, Amazon and several other clouds.
-
-     **IMPROVE: Mention names is inappropriate**
+     cloudinit.d, Phantom and Context Broker.  In this paper
+     :cite:`nimbus-paper` it is mentioned how to used Nimbus Phantom
+     to deploy auto-scaling solution across multiple NSF FutureGrid
+     clouds. In this implementation Phantom was responsible for
+     deploying instances across multiple clouds and monitoring those
+     instance.  Nimbus platform supports Nimbus, Open Stack, Amazon
+     and several other clouds.
 
 351. CloudStack
 352. CoreOS
@@ -997,7 +1285,7 @@ IaaS Management from HPC to hypervisors
 355. vSphere and vCloud
 356. Amazon
 357. Azure
-358. Google and other public Clouds 
+358. Google and other public Clouds
 359. Networking: Google Cloud DNS
 360. Amazon Route 53
 
@@ -1025,38 +1313,45 @@ Monitoring
      integrate with the Nagios core services. Plugins can be developed
      via static languages like C or script languages. This mechanism
      empowers Nagios to monitor a large set of various scenarios yet
-     being very flexible. :cite:`nagios-paper-2012` Besides its open source components, Nagios
-     also has commercial products to serve needing clients.
+     being very flexible. :cite:`nagios-paper-2012` Besides its open
+     source components, Nagios also has commercial products to serve
+     needing clients.
 
 
 364. Inca
 
-        Inca is a grid monitoring :cite:`inca-book` software suite. It provides
-        grid monitoring features. These monitoring features provide operators
-        failure trends, debugging support, email notifications, environmental
-        issues etc. :cite:`www-inca` It enables users to automate the tests
-        which can be executed on a periodic basis. Tests can added and configured
-        as and when needed. Its helps users with different portfolios like
-        system administrators, grid operators, end users etc Inca provides
-        user-level grid monitoring. For each user it stores results as well as
-        allows users to deploy new tests as well as share the results with other
-        users. The incat web ui allows users to view the status of test, manage test
-        and results. The architectural blocks of inca include report repository,
-        agent, data consumers and depot. Reporter is an executable program which
-        is used to collect the data from grid source. Reporters can be written in
-        perl and python. Inca repository is a collection of pre build reporters.
-        These can be accessed using a web url. Inca repository has 150+ reporters
-        available. Reporters are versioned and allow automatic updates. Inca agent
-        does the configuration management. Agent can be managed using the incat web ui.
-        Inca depot provides storage and archival of reports. Depot uses relational
-        database for this purpose. The database is accessed using hibernate backend.
-        Inca web UI or incat provides real time as well as historical view of inca data.
-        All communication between inca components is secured using SSL certificates.
-        It requires user credentials for any access to the system. Credentials are
-        created at the time of the setup and installation. Inca's performance has been
-        phenomenal in production deployments. Some of the deployments are running for
-        more than a decade and has been very stable. Overall Inca provides a solid
-        monitoring system which not only monitors but also detects problems very early on.
+     Inca is a grid monitoring :cite:`inca-book` software suite. It
+     provides grid monitoring features. These monitoring features
+     provide operators failure trends, debugging support, email
+     notifications, environmental issues etc. :cite:`www-inca`. It
+     enables users to automate the tests which can be executed on a
+     periodic basis. Tests can be added and configured as and when
+     needed. It helps users with different portfolios like system
+     administrators, grid operators, end users etc Inca provides
+     user-level grid monitoring. For each user it stores results as
+     well as allows users to deploy new tests as well as share the
+     results with other users. The incat web ui allows users to view
+     the status of test, manage test and results. The architectural
+     blocks of inca include report repository, agent, data consumers
+     and depot. Reporter is an executable program which is used to
+     collect the data from grid source. Reporters can be written in
+     perl and python. Inca repository is a collection of pre build
+     reporters.  These can be accessed using a web url. Inca
+     repository has 150+ reporters available. Reporters are versioned
+     and allow automatic updates. Inca agent does the configuration
+     management. Agent can be managed using the incat web ui. Inca
+     depot provides storage and archival of reports. Depot uses
+     relational database for this purpose. The database is accessed
+     using hibernate backend.  Inca web UI or incat provides real time
+     as well as historical view of inca data.  All communication
+     between inca components is secured using SSL certificates. It
+     requires user credentials for any access to the
+     system. Credentials are created at the time of the setup and
+     installation. Inca's performance has been phenomenal in
+     production deployments. Some of the deployments are running for
+     more than a decade and has been very stable. Overall Inca
+     provides a solid monitoring system which not only monitors but
+     also detects problems very early on.
 
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1075,6 +1370,24 @@ Distributed Coordination
 373. Google Chubby
 374. Zookeeper
 375. Giraffe
+
+     Giraffe is a scalable distributed coordination
+     service. Distributed coordination is a media access technique
+     used in distributed systems to perform functions like providing
+     group membership, gaining lock over resources, publishing,
+     subscribing, granting ownership and synchronization together
+     among multiple servers without issues. Giraffe was proposed as
+     alternative to coordinating services like Zookeeper and Chubby
+     which were efficient only in read-intensive scenario and small
+     ensembles. To overcome this three important aspects were included
+     in the design of Giraffe :cite:`giraffePaper`. First feature is
+     Giraffe uses interior-node joint trees to organize coordination
+     servers for better scalability. Second, Giraffe uses Paxos
+     protocol for better consistency and to provide more
+     fault-tolerance. Finally, Giraffe also facilitates hierarchical
+     data organization and in-memory storage for high throughput and
+     low latency.
+     
 376. JGroups
 
 Message and Data Protocols
@@ -1083,6 +1396,19 @@ Message and Data Protocols
 377. Avro
 378. Thrift
 379. Protobuf
+
+     Protocol Buffer :cite:`www-protobuf` is a way to serialize
+     structured data into binary form (stream of bytes) in order to
+     transfer it over wires or for storage. It is used for inter
+     apllication communication or for remote procedure call (RPC). It
+     involves a interface description that describes the structure of
+     some data and a program that can generate source code or parse it
+     back to the binary form. It emphasizes on simplicity and
+     performance over xml. Though xml is more readable but requires
+     more resources in parsing and storing.  This is developed by
+     Google and available under open source licensing. The parser
+     program is available in many languages including java and python.
+
 
 New Technologies to be integrated
 ---------------------------------
@@ -1094,27 +1420,33 @@ New Technologies to be integrated
 Excersise
 ---------
 
-TechList.1:
-  In class you will be given an HID and you will be assigned a number
-  of technologies that you need to research and create a summary as
-  well as one or more relevant refernces to be added to the Web
-  page. An example is given for Nagios.  Please create a pull request
-  with your responses. You are responsible for making sure the request
-  shows up and each commit is using gitchangelog "new:usr: added
-  paragraph about <PUTTECHHERE>" For the repository and create a
-  single pull request with your response for all technologies you are
-  responsible to invesitgate.  Make sure to add your refernce to
-  refs.bib.  Many technologies may have additional refernces than the
-  Web page. Please add the most important once while limiting it to
-  three if you can. Avoid plagearism and use proper quotations or
-  better rewrite the text.
-  
-  You must look at :ref:`techlist-tips` to sucessfully complete the homework
+TechList.1: In class you will be given an HID and you will be assigned
+  a number of technologies that you need to research and create a
+  summary as well as one or more relevant refernces to be added to the
+  Web page. All technologies for TechList.1 are marked with a (1)
+  behind the technology.  An example text is given for Nagios in this
+  page.  Please create a pull request with your responses. You are
+  responsible for making sure the request shows up and each commit is
+  using gitchangelog in the commit message::
+
+    new:usr: added paragraph about <PUTTECHHERE>
+
+  You can create one or more pull requests for the technology and the
+  refernces. We have created in the referens file a placeholder using
+  your HID to simplify the management of the refernces while avoiding
+  conflicts.  For the technologies you are responsible to invesitgate
+  them and write an academic summary of the technology. Make sure to
+  add your refernce to refs.bib.  Many technologies may have
+  additional refernces than the Web page. Please add the most
+  important once while limiting it to three if you can. Avoid
+  plagearism and use proper quotations or better rewrite the text.
+
+  You must look at :doc:`technologies-hw` to sucessfully complete the homework
 
   A video about this hoemwork is posted at
   https://www.youtube.com/watch?v=roi7vezNmfo showing how to
   do references in emacs and jabref, it shows you how to configure
-  git, it shows you how to do the forkrequest while asking you to add
+  git, it shows you how to do the fork request while asking you to add
   "new:usr ...." to the commit messages). As this is a homework
   realated video we put a lot of information in it that is not only
   useful for beginners. We recommend you watch it.
@@ -1123,19 +1455,19 @@ TechList.1:
   This homework can be done in steps. First you can collect all the
   content in an editor. Second you can create a fork. Third you can
   add the new content to the fork. Fourth you can commit. Fith you
-  can push. SIx if the TAs have commend improve. The commit message
+  can push. Six if the TAs have commend improve. The commit message
   must have new:usr: at the beginning.
 
   While the Nagios entry is a good example (make sure grammer is ok
   the Google app engine is an example for a bad entry.
 
-  Do Techlist 1.a 1.b 1.c first. We  will assign Techlist 1.d and 
+  Do Techlist 1.a 1.b 1.c first. We  will assign Techlist 1.d and
   TechList 2 in February.
-	    
+
 TechList.1.a:
   Complete the pull request with the technologies assigned to you.
   Details for the assignment are posted in Piazza. Search for TechList.
-  
+
 TechList.1.b: Identify how to cite. We are using "scientific" citation
   formats such as IEEEtran, and ACM. We are **not** using citation
   formats such as Chicago, MLA, or ALP. The later are all for non
@@ -1156,34 +1488,31 @@ TechList 1.c:
   suspicious and subjective adjectives or phrases such as cheaper,
   superior, best, most important, with no equal, and others that you
   may not want to copy into your descriptions. Please focus on facts
-  not on what the author of the Web page claims. 
+  not on what the author of the Web page claims.
 
 TechList 1.d:
-  Identify technologies from the Apache project that ar enot yet
-  listed here and add the name and descriptions as well as references.
-  
+  Identify technologies from the Apache project or other
+  Big Data related Web pages and projects that are not yet listed here
+  and add the name and descriptions as well as references and that you
+  find important.
+
 TechList.2:
-  As some students may not complete this assignment because
-  they for example dropped the class, identify a number of not
-  submitted descriptions and complete them. Coordinate with your class
-  mates to identify a non overlapping assignment. The TA's will
-  assign you additional technologies.
+  In this hopweork we provide you with additional technologies
+  that you need to compleate They are marked with (2) in the HID
+  assignment.
 
 TechList.3:
   Identify technologies that are not listed here and add
   them. Provide a description and a refrence just as you did before.
-  Make sure duplicated entries will be merged. Before you start do a
-  pull to avoid adding technologies that have already been done by
+  Make sure duplicated entries will be merged. Before you start doing a
+  technology to avoid adding technologies that have already been done by
   others.
 
 
-  
+
 
 Refernces
 ---------
 
 .. bibliography:: ../refs.bib
    :cited:
-
-
-      

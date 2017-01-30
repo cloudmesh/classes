@@ -1,17 +1,13 @@
 
 .. _python_intro:
 
+======================
 Introduction to Python
 ======================
 
-.. sidebar:: Page Contents
-
-   .. contents::
-      :local:
-
 
 Acknowledgments
-----------------------------------------------------------------------
+=================================================================
 
 Portions of this lesson have been adapted from the `official Python
 Tutorial`_ copyright `Python Software Foundation`_.
@@ -19,8 +15,10 @@ Tutorial`_ copyright `Python Software Foundation`_.
 .. _official Python Tutorial: https://docs.python.org/2/tutorial/
 .. _Python Software Foundation: http://www.python.org/
 
+.. contents::
+   
 Description
------------------------------------------------------------------
+=================================================================
 
 Python is an easy to learn programming language. It has efficient
 high-level data structures and a simple but effective approach to
@@ -78,13 +76,10 @@ you will be able to read and write Python modules and programs, and
 you will be ready to learn more about the various Python library
 modules.
 
-
-
 .. _The Zen of Python: https://www.python.org/dev/peps/pep-0020/
 
-
 Installation
-----------------------------------------------------------------------
+=================================================================
 
 Python is easy to install and very good instructions for most
 platforms can be found on the python.org Web page. We will be
@@ -98,7 +93,7 @@ isolate your development python from the system installed python.
 	  it.
 
 Alternative Installations
--------------------------
+=================================================================
 
 The best installation of python is provided by python.og. However
 others claim to have alternative environments that allow you to
@@ -174,7 +169,6 @@ not a community best practice, but may work for an individual.
 We have however in regards to using other python version additional
 bonus projects such as
 
-
 * deploy run and document cloudmesh on ironpython
 * deploy run and document cloudmesh on anaconde, develop script to
   generate a conda packge form github
@@ -183,10 +177,9 @@ bonus projects such as
 * deploy run and document cloudmesh on ironpython
 * other documentation that would be useful
 
-
-
 Resources
-----------------------------------------------------------------------
+=================================================================
+
 If you are unfamiliar with programming in Python, we also refer you
 to some of the numerous online resources. You may wish to start with
 `Learn Python`_ or the book `Learn Python the Hard Way`_. Other
@@ -224,12 +217,8 @@ otherwise stated.
 .. _references for learning: https://wiki.python.org/moin/BeginnersGuide/Programmers
 .. _Learn Python: https://www.learnpython.org
 
-
-
-
-
 Prerequisite
-----------------------------------------------------------------------
+=================================================================
 
 In order to conduct this lesson you should
 
@@ -243,7 +232,7 @@ In order to conduct this lesson you should
   consult the manual and tutorials available for it on the internet.
 
 Dependencies
-----------------------------------------------------------------------
+=================================================================
 
 * `Python <https://www.python.org/>`_
 * `Pip <https://pip.pypa.io/en/stable/>`_
@@ -255,7 +244,7 @@ Dependencies
 
 
 Learning Goals
-----------------------------------------------------------------------
+=================================================================
 
 At the end of this lesson you will be able to:
 
@@ -269,9 +258,8 @@ At the end of this lesson you will be able to:
 
 .. _python-resources:
 
-
 Using Python on FutureSystems
-----------------------------------------------------------------------
+=================================================================
 
 .. warning:: This is only important if you use Futuresystems resources.
 
@@ -290,7 +278,7 @@ you.
    in the future lesson :doc:`modules`.
 
 Interactive Python
-----------------------------------------------------------------------
+=================================================================
 
 Python can be used interactively.  Start by entering the interactive
 loop by executing the command::
@@ -325,11 +313,8 @@ This interactive prompt does the following:
 This is why you may see the interactive loop referred to as a
 **REPL**: **R**\ead-**E**\valuate-**P**\rint-**L**\oop.
 
-Syntax
-----------------------------------------------------------------------
-
 Statements and Strings
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Let us explore the syntax of Python.
 Type into the interactive loop and press Enter::
@@ -365,7 +350,7 @@ the ``print`` statement and the ``"Hello world from Python!"`` string, and
 then executed the line, showing you the output.
 
 Variables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 You can store data into a **variable** to access it later.
 For instance, instead of:
@@ -384,11 +369,12 @@ store the string in a variable for convenient access:
    Hello world from Python!
 
 Booleans
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 A **boolean** is a value that indicates the "truthness" of something.
-You can think of it as a toggle: either "on" or "off", "one" or "zero", "true" or "false".
-In fact, the only possible values of the **boolean** (or ``bool``) type in Python are:
+You can think of it as a toggle: either "on" or "off", "one" or
+"zero", "true" or "false".  In fact, the only possible values of the
+**boolean** (or ``bool``) type in Python are:
 
 - ``True``
 - ``False``
@@ -414,7 +400,7 @@ You can combine booleans with **boolean operators**:
    False
 
 Numbers and Math
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 The interactive interpreter can also be used as a calculator.
 For instance, say we wanted to compute a multiple of 21:
@@ -425,9 +411,9 @@ For instance, say we wanted to compute a multiple of 21:
    42
 
 We saw here the ``print`` statement again. We passed in the result of
-the operation ``21 * 2``.  An **integer** (or **int**) in Python is a numeric value
-without a fractional component (those are called **floating point**
-numbers, or **float** for short).
+the operation ``21 * 2``.  An **integer** (or **int**) in Python is a
+numeric value without a fractional component (those are called
+**floating point** numbers, or **float** for short).
 
 The mathematical operators compute the related mathematical operation
 to the provided numbers.  Some operators are:
@@ -467,7 +453,7 @@ expected:
    -0.6
 
 Types and Using the REPL
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 We have so far seen a few examples of types: **string**\s, **bool**\s,
 **int**\s, and **float**\s.  A **type** indicates that values of that
@@ -482,7 +468,9 @@ error:
      File "<stdin>", line 1, in <module>
    TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
 
-There are many different types beyond what we have seen so far, such as **dictionaries**\s, **list**\s, **set**\s. One handy way of using the interactive python is to get the type of a value using ``type()``:
+There are many different types beyond what we have seen so far, such
+as **dictionaries**\s, **list**\s, **set**\s. One handy way of using
+the interactive python is to get the type of a value using ``type()``:
 
 .. code:: python
 
@@ -508,11 +496,129 @@ You can also ask for help about something using ``help()``:
    spacebar to go down a page ``w`` to go up a page, the arrow keys to
    go up/down line-by-line, or ``q`` to exit.
 
+Lists
+=================================================================
 
+see: https://www.tutorialspoint.com/python/python_lists.htm
 
+Sets
+=================================================================
+
+Dictionaries
+=================================================================
+
+One of the very important datastructures in python is a dictionary
+also refered to as *dict*.
+
+Basics
+-----------------------------------------------------------------
+
+A dictionary represents a key value store::
+
+  >>> person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
+  >>> print("person['Name']: ", person['Name'])
+  person['Name']:  Albert
+  >>> print("person['Age']: ", person['Age'])
+  person['Age']:  100
+
+You can delete elements with the following commands::
+
+  >>> del person['Name'] # remove entry with key 'Name'
+  >>> person
+  {'Age': 100, 'Class': 'Scientist'}
+  >>> person.clear()     # remove all entries in dict
+  >>> person
+  {}
+  >>> del person         # delete entire dictionary
+  >>> person
+  Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    NameError: name 'person' is not defined
+
+You can iterate ofer a dict::
+
+  >>> person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
+  >>> for item in person:
+  ...   print(item, person[item])
+  ...   <ENTER>
+  Age 100
+  Name Albert
+  Class Scientist
+
+Keys and Values
+-----------------------------------------------------------------
+
+You can retrieve both the keys and values of a dictionary using the
+``keys()`` and ``values()`` methods of the dictionary, respectively::
+
+  >>> person.keys()
+  ['Age', 'Name', 'Class']
+  >>> person.values()
+  [100, 'Albert', 'Scientist']
+
+Both methods return lists. Notice, however, that the order in which
+the elements appear in the returned lists (``Age``, ``Name``,
+``Class``) is different from the order in which we listed the elements
+when we declared the dictionary initially (``Name``, ``Age``,
+``Class``). It is important to keep this in mind: **you can't make any
+assumptions about the order in which the elements of a dictionary will
+be returned by the ``keys()`` and ``values()`` methods**.
+
+However, you can assume that if you call ``keys()`` and ``values()``
+in sequence, the order of elements will at least correspond in both
+methods. In the above example ``Age`` corresponds to ``100``, ``Name``
+to ``'Albert``, and ``Class`` to ``Scientist``, and you will observe
+the same correspondence in general as long as **``keys()`` and
+``values()`` are called one right after the other**.
+
+Counting with Dictionaries
+-----------------------------------------------------------------
+
+One application of dictionaries that frequently comes up is counting
+the elements in a sequence. For example, say we have a sequence of
+coin flips::
+
+  >>> import random
+  >>> die_rolls = [random.choice(['heads', 'tails']) for _ in range(10)]
+  >>> die_rolls
+  ['heads', 'tails', 'heads', 'tails', 'heads', 'heads', 'tails', 'heads', 'heads', 'heads']
+
+The actual list ``die_rolls`` will likely be different when you
+execute this on your computer since the outcomes of the die rolls are
+random.
+
+To compute the probabilities of heads and tails, we could count how
+many heads and tails we have in the list::
+
+  >>> counts = {'heads': 0, 'tails': 0}
+  >>> for outcome in coin_flips:
+  ...   assert outcome in counts
+  ...   counts[outcome] += 1
+  ...   <ENTER>
+  >>> print('Probability of heads: %.2f' % (counts['heads'] / len(coin_flips)))
+  Probability of heads: 0.70
+  >>> print('Probability of tails: %.2f' % (counts['tails'] / sum(counts.values())))
+  Probability of tails: 0.30
+
+In addition to how we use the dictionary ``counts`` to count the
+elements of ``coin_flips``, notice a couple things about this example:
+
+#. We used the ``assert outcome in counts`` statement. The ``assert``
+   statement in Python allows you to easily insert debugging
+   statements in your code to help you discover errors more
+   quickly. ``assert`` statements are executed whenever the internal
+   Python ``__debug__`` variable is set to ``True``, which is always
+   the case unless you start Python with the ``-O`` option which
+   allows you to run *optimized* Python.
+
+#. When we computed the probability of tails, we used the built-in
+   ``sum`` function, which allowed us to quickly find the total number
+   of coin flips. ``sum`` is one of many built-in function you can
+   `read about here
+   <https://docs.python.org/2/library/functions.html>`_.
 
 Control Statements
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Computer programs do not only execute instructions. Occasionally, a
 choice needs to be made. Such as a choice is based on a
@@ -557,7 +663,7 @@ that.
 
 
 Iterations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 To repeat code, the for keyword can be used. To execute a line of code
 10 times we can do:
@@ -594,7 +700,7 @@ the entire coordinate range (0,0) to (9,9)
 
 
 Functions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 To repeat lines of code, you can use a function. A function has a
 unique distinct name in the program. Once you call a function it will
@@ -637,8 +743,11 @@ To do so, we use the keyword return.
 .. _doc_python_intro_sec_classes:
 
 Classes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-A class is a way to take a grouping of functions and data and place them inside a container, so you can access them with the . (dot) operator.
+=================================================================
+
+A class is a way to take a grouping of functions and data and place
+them inside a container, so you can access them with the . (dot)
+operator.
 
 .. code:: python
 
@@ -654,8 +763,13 @@ A class is a way to take a grouping of functions and data and place them inside 
     thing.apple()
     print thing.tangerine
 
+Database access
+=================================================================
+
+see: https://www.tutorialspoint.com/python/python_database_access.htm
+
 Writing and Saving Programs
-----------------------------------------------------------------------
+=================================================================
 
 Make sure you are no longer in the interactive interpreter.
 If you are you can type ``quit()`` and press Enter to exit.
@@ -664,18 +778,20 @@ You can save your programs to files which the interpreter can then
 execute.  This has the benefit of allowing you to track changes made
 to your programs and sharing them with other people.
 
-Start by opening a new file ``hello.py``::
-
-  $ nano hello.py
+Start by opening a new file ``hello.py`` in the Python editor of your
+choice. If you don't have a preferred editor, we recommend `PyCharm
+<https://www.jetbrains.com/pycharm/>`_.
 
 Now enter write a simple program and save::
 
-  print "Hello world!"
+  from __future__ import print_statement, division
+  print("Hello world!")
 
-As a check, make sure the file contains the expected contents::
+As a check, make sure the file contains the expected contents on the
+command line::
 
   $ cat hello.py
-  print "Hello world!"
+  print("Hello world!")
 
 To execute your program pass the file as a parameter to the ``python``
 command::
@@ -684,154 +800,57 @@ command::
   Hello world!
 
 
-Congratulations, you have written a Python **module**.
-Files in which Python directives are stored are called **module**\s
+Congratulations, you have written a Python **module**.  Files in which
+Python code is stored are called **module**\s. You can execute a
+Python module form the command line like you just did, or you can
+import it in other Python code using the ``import`` statement.
 
-You can make this programs more interesting as well.  Let's write a
-program that asks the user to enter a number, *n*, and prints out the
-*n*\-th number in the `Fibonacci sequence`_::
+Let's write a more involved Python program that will receive as input
+the lengths of the three sides of a triangle, and will output whether
+they define a valid triangle. A triangle is valid if the length of
+each side is less than the sum of the lengths of the other two sides
+and greater than the difference of the lengths of the other two sides.::
 
-   $ emacs print_fibs.py
-
-::
-
-    import sys
-
-    def fib(n):
-	"""
-	Return the nth fibonacci number
-
-	The nth fibonacci number is defined as follows:
-	Fn = Fn-1 + Fn-2
-	F2 = 1
-	F1 = 1
-	F0 = 0
-	"""
-
-	if n == 0:
-	    return 0
-	elif n == 1:
-	    return 1
-	else:
-	    return fib(n-1) + fib(n-2)
+  from __future__ import print_function, division
+  import argparse
 
 
-    if __name__ == '__main__':
-	n = int(sys.argv[1])
-	print fib(n)
+  def check_triangle(a, b, c):
+	return \
+		a < b + c and a > abs(b - c) and \
+		b < a + c and b > abs(a - c) and \
+		c < a + b and c > abs(a - b)
 
 
-We can now run this like so::
+  if __name__ == '__main__':
+	parser = argparse.ArgumentParser(description='Check if a triangle is valid.')
+	parser.add_argument('length', type=int, help='The length of the triangle.')
+	parser.add_argument('width', type=int, help='The width of the triangle.')
+	parser.add_argument('height', type=int, help='The height of the triangle.')
+	args = parser.parse_args()
 
-  $ python print_fibs.py 5
-  5
+	print('Triangle with sides %d, %d and %d is valid: %r' % (
+		args.length, args.width, args.height,
+		check_triangle(args.length, args.width, args.height)
+	))
+
+Assuming we save the program in a file called ``check_triangle.py``,
+we can run it like so::
+
+  $ python check_triangle.py 4 5 6
+  Triangle with sides 4, 5 and 6 is valid: True
 
 Let break this down a bit.
-The first part::
 
-  python print_fibs.py 5
-
-can be translated to say:
-
-  The Python interpreter ``python`` should run the ``print_fibs.py``
-  program and pass it the parameter ``5``.
-
-The interpreter then looks at the ``print_fibs.py`` file and begins to
-execute it.
-The first line it encounters is:
-
-.. code:: python
-
-   import sys
-
-This line consists of the ``import`` keyword.
-Here ``import`` attempts to load the ``sys`` module, which has several useful items.
-
-Next the interpreter sees the ``def`` keyword.  The begins the
-definition of a function, called ``fib`` here.  Our ``fib`` function
-takes a single argument, named ``n`` within the function definition.
-
-Next we begin a multi-line string between the triple double-quotes.
-Python can take this string and create documentation from it.
-
-The ``fib`` function returns the *n*\-th number in the `Fibonacci sequence`_.
-This sequence is mathematically defined as (where *n* is subscripted):
-
-.. math::
-
-   F_0 &= 0 \\
-   F_1 &= 1 \\
-   F_n &= F_{n-1} + F_{n-2}
-
-This translates to Python as:
-
-.. code:: python
-
-   if n == 0:
-     return 0
-   elif n == 1:
-  return 1
-   else:
-     return fib(n-1) + fib(n-2)
-
-
-Next we have the block:
-
-.. code:: python
-
-   if __name__ == '__main__':
-
-
-If the interpreter is running this module then there will be a variable ``__name__`` whose value is ``__main__``.
-This **if statement** checks for this condition and executes this block if the check passed.
-
-.. tip::
-
-   Try removing the ``if __name__ == '__main__'`` block and run the
-   program.
-   How does it behave differently?
-   What about if you replace with something like:
-
-   .. code:: python
-
-      print fib(5)
-      print fib(10)
-
-
-The next line:
-
-.. code:: python
-
-   n = int(sys.argv[1])
-
-does three different things.
-First it gets the value in the ``sys.argv`` array at index 1.
-This was the parameter `5` we originally passed to our program::
-
-  $ python print_fibs.py 5
-Substituting the parameter in, the line can be rewritten as:
-
-.. code:: python
-
-   n = int("5")
-
-We see that the ``5`` is represented as a string.
-However, we need to use integers for the ``fib`` function.
-We can use ``int`` to convert ``"5"`` to ``5``
-
-We now have:
-
-.. code:: python
-
-   n = 5
-
-which assigns the value ``5`` to the variable ``n``.
-We can now call ``fib(n)`` and ``print`` the result.
-
-.. _Fibonacci sequence: http://en.wikipedia.org/wiki/Fibonacci_number
-
+#. We are importing the ``print_function`` and ``division`` modules from Python 3 like we did earlier in this tutorial. It's a good idea to always include these in your programs.
+#. We've defined the ``check_triangle`` function which has three parameters. It returns ``True`` if all six expressions defined inside are true, and ``False`` otherwise.
+#. We've used the backslash symbol ``\`` to format are code nicely. The backslash simply indicates that the current line is being continued on the next line.
+#. When we run the program, we do the check ``if __name__ == '__main__'``. ``__name__`` is an internal Python variable that allows us to tell whether the current file is being run from the command line (value ``__name__``), or is being imported by a module (the value will be the name of the module). Thus, with this statement we're just making sure the program is being run by the command line.
+#. We are using the ``argparse`` module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces the correct number and type of command line arguments automatically.
+#. In the ``print`` function, we are using `Python's string formatting capabilities <https://docs.python.org/2/library/string.html#format-string-syntax>`_ to insert values into the string we are displaying.
+   
 Installing Libraries
-----------------------------------------------------------------------
+=================================================================
 
 Often you may need functionality that is not present in Python's
 standard library.  In this case you have two option:
@@ -844,14 +863,15 @@ Since this is a common situation, there is a service supporting it:
 the `Python Package Index`_ (or PyPi for short).
 
 
-Our task here is to install the `autopep8`_ tool from PyPi.
-This will allow us to illustrate the use if virtual environments using
-the ``virtualenv`` command, and installing and uninstalling PyPi
-packages using ``pip``.
+Our task here is to install the `autopep8`_ tool from PyPi.  This will
+allow us to illustrate the use if virtual environments using the
+``virtualenv`` command, and installing and uninstalling PyPi packages
+using ``pip``.
 
+.. _Virtual_Environments:
 
 Virtual Environments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Often when you use shared computing resources, such as
 ``india.futuresystems.org`` you will not have permission to install
@@ -870,8 +890,9 @@ It seems that there are many programs installed in ``/bin`` such as
   alsaunmute  dbus-daemon           ex              igawk            mkdir          raw
   ...
 
-If we wished to add a new program it seems like putting it in ``/bin`` is the place to start.
-Let's create an empty file ``/bin/hello-$PORTALNAME``::
+If we wished to add a new program it seems like putting it in ``/bin``
+is the place to start.  Let's create an empty file
+``/bin/hello-$PORTALNAME``::
 
   $ touch /bin/hello-$(whoami)
   touch: cannot touch `/bin/hello-albert': Permission denied
@@ -947,59 +968,8 @@ environment::
 
    Notice how the shell prompt changed upon activation.
 
-Autoenv: Directory-based Environments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If a directory contains a ``.env`` file, it will automatically be executed
-when you ``cd`` into it. It's easy to use and install.
-
-This is great for...
-
-   - auto-activating virtualenvs
-   - project-specific environment variables
-
-
-Here is how to use it. Add the ENV you created with virtualenv into ``.env`` file within your project directory::
-
-   $ echo "source ~/ENV/bin/activate" > project.env
-   $ echo "echo 'whoa'" > project/.env
-   $ cd project
-   whoa
-
-Here is how to install.
-Mac OS X Using Homebrew::
-
-   $ brew install autoenv
-   $ echo "source $(brew --prefix autoenv)/activate.sh" >> ~/.bash_profile
-
-
-Using pip::
-
-   $ pip install autoenv
-   $ echo "source `which activate.sh`" >> ~/.bashrc
-
-
-Using git::
-
-   $ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
-   $ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
-
-
-Before sourcing activate.sh, you can set the following variables:
-
-   - ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
-   - ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
-   - ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
-
-
-Autoenv overrides ``cd``. If you already do this, invoke ``autoenv_init`` within your custom ``cd`` after sourcing ``activate.sh``.
-
-Autoenv can be disabled via ``unset cd`` if you experience I/O issues with
-   certain file systems, particularly those that are FUSE-based (such as
-   ``smbnetfs``).
-
 Fixing Bad Code
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Let's now look at another important tool for Python development: the
 Python Package Index, or PyPI for short.  PyPI provides a large set of
@@ -1025,7 +995,7 @@ this is a common problem so there exist a couple packages to help in
 this situation.
 
 Using pip to install packages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 In order to install package from PyPI, use the ``pip`` command.
 We can search for PyPI for packages::
@@ -1043,7 +1013,7 @@ install the requested packages.
         patch on urllib3 on Python 2.7.9.
 
 Using autopep8
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 We can now run the bad code through autopep8 to fix formatting
 problems::
@@ -1068,7 +1038,8 @@ flag::
 .. _Python Package Index: https://pypi.python.org/pypi
 
 Further Learning
-----------------------------------------------------------------------
+=================================================================
+
 There is much more to python than what we have covered here:
 
 - conditional expression (``if``, ``if...then``,``if..elif..then``)
@@ -1085,6 +1056,10 @@ There is much more to python than what we have covered here:
 .. note:: you can receive extra credit if you contribute such a
 	  section of your choice addressing the above topics
 
+Writing python 3 compatible code
+=================================================================
+
+see: http://python-future.org/compatible_idioms.html
 
 Exercises
 ----------------------------------------------------------------------
@@ -1092,7 +1067,7 @@ Exercises
 .. _lab-python-1:
 
 Lab - Python - FizzBuzz
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Write a python program called fizzbuzz.py that accepts an integer n
 from the command line.  Pass this integer to a function called
@@ -1106,7 +1081,7 @@ number is a multiple of three, print "fizz", if a multiple of 5 print
 .. _lab-python-2:
 
 Lab - Python - Setup for FutureSystems
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 #. Create a virtualenv ``~/ENV``
 #. Modify your ``~/.bashrc`` shell file to activate your environment
@@ -1116,17 +1091,13 @@ Lab - Python - Setup for FutureSystems
    program. Hint: modify the FizzBuzz program.
 #. Demonstrate the program works and submit the code and output.
 
-
-
-
-
-
-
 Ecosystem
-----------------------------------------------------------------------
+=================================================================
+
+.. _virtualenv_:
 
 virtualenv
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Often you have your own computer and you do not like to change its
 environment to keep it in prestine condition. Python comes with mnay
@@ -1158,10 +1129,68 @@ To activate it you can use the command::
 you can put this command n your bashrc or bash_profile command so you
 do not forget to activate it.
 
+.. _autoenv_:
 
+Autoenv: Directory-based Environments
+=================================================================
+
+.. warning:: We do not recommend that you use autoenv. INstead we
+	     recommend that you use pyenv. For this class neither is
+	     important.
+	     
+If a directory contains a ``.env`` file, it will automatically be executed
+when you ``cd`` into it. It's easy to use and install.
+
+This is great for...
+
+   - auto-activating virtualenvs
+   - project-specific environment variables
+
+
+Here is how to use it. Add the ENV you created with virtualenv into
+``.env`` file within your project directory::
+
+   $ echo "source ~/ENV/bin/activate" > yourproject/.env
+   $ echo "echo 'whoa'" > yourproject/.env
+   $ cd project
+   whoa
+
+Here is how to install.
+Mac OS X Using Homebrew::
+
+   $ brew install autoenv
+   $ echo "source $(brew --prefix autoenv)/activate.sh" >> ~/.bash_profile
+
+
+Using pip::
+
+   $ pip install autoenv
+   $ echo "source `which activate.sh`" >> ~/.bashrc
+
+
+Using git::
+
+   $ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
+   $ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
+
+
+Before sourcing activate.sh, you can set the following variables:
+
+   - ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
+   - ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
+   - ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
+
+
+Autoenv overrides ``cd``. If you already do this, invoke
+``autoenv_init`` within your custom ``cd`` after sourcing
+``activate.sh``.
+
+Autoenv can be disabled via ``unset cd`` if you experience I/O issues
+   with certain file systems, particularly those that are FUSE-based
+   (such as ``smbnetfs``).
 
 pypi
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 The Python Package Index is a large repository of software for the
 Python programming language containing a large number of packages
@@ -1181,7 +1210,7 @@ be the package called cloudmesh_client which you can install with::
 If all goes well the package will be installed.
 
 Links
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=================================================================
 
 Useful ecosystem Links:
 
