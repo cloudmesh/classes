@@ -177,6 +177,12 @@ bonus projects such as
 * deploy run and document cloudmesh on ironpython
 * other documentation that would be useful
 
+  .. warning:: For this class, we do not recommend using any of these
+alternative installations. If you decide to use them, you are taking
+the risk of modifying your system configuration in a way that may
+affect other software. We will not be able to provide help for issues
+related to this.
+
 Resources
 =================================================================
 
