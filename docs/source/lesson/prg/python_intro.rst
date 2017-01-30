@@ -70,7 +70,11 @@ applications, artificial intelligence, software development, and
 information security, to name a few.
 
 About the Tutorial
+<<<<<<< 9c0550bfd0c18153ade3cc4570557e4b8779c163
 =================================================================
+=======
+-------------------
+>>>>>>> chg: dev: organize sections; improve or make examples more consistent;
 
 This tutorial introduces the reader informally to the basic concepts
 and features of the Python language and system. It helps to have a
@@ -207,6 +211,7 @@ This is why you may see the interactive loop referred to as a
 
 Python 3 Features
 --------------------
+<<<<<<< 9c0550bfd0c18153ade3cc4570557e4b8779c163
 
 As mentioned earlier, we assume you will use Python 2.7.X because
 there are still some libraries that haven't been ported to
@@ -219,6 +224,20 @@ these features available to any subsequent code we write::
 Statements and Strings
 =================================================================
 
+=======
+
+As mentioned earlier, we assume you will use Python 2.7.X because
+there are still some libraries that haven't been ported to
+Python 3. However, there are some features of Python 3 we can and want
+to use in Python 2.7. Before we do anything else, we need to make
+these features available to any subsequent code we write::
+
+  >>> from __future__ import print_function, division
+
+Statements and Strings
+=================================================================
+
+>>>>>>> chg: dev: organize sections; improve or make examples more consistent;
 Let us explore the syntax of Python.  Type into the interactive loop
 and press Enter::
 
@@ -941,6 +960,7 @@ so it can be reused.
 Classes
 =================================================================
 
+<<<<<<< 9c0550bfd0c18153ade3cc4570557e4b8779c163
 A class is an encapsulation of data and the processes that work on
 them. The data is represented in member variables, and the processes
 are defined in the methods of the class (methods are functions inside
