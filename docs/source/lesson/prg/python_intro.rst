@@ -219,22 +219,10 @@ these features available to any subsequent code we write::
 Statements and Strings
 =================================================================
 
-As mentioned earlier, we assume you will use Python 2.7.X because
-there are still some libraries that haven't been ported to
-Python 3. However, there are some features of Python 3 we can and want
-to use in Python 2.7. Before we do anything else, we need to make
-these features available to any subsequent code we write::
-
-  >>> from __future__ import print_function, division
-
-Statements and Strings
-=================================================================
-
->>>>>>> chg: dev: organize sections; improve or make examples more consistent;
 Let us explore the syntax of Python.  Type into the interactive loop
 and press Enter::
 
-  >>> print "Hello world from Python!"
+  >>> print("Hello world from Python!")
   Hello world from Python!
 
 What happened: the ``print`` function was given a **string** to
@@ -987,7 +975,14 @@ the class). For example, let's see how to define a ``Triangle`` class:
 
    triangle = Triangle(4, 5, 6, 35, 65, 80)
 
+<<<<<<< 82f2124976ad26439f756b5496a2e120537b3339
 Python has full object-oriented programming (OOP) capabilities, however we can not cover all of them in a quick tutorial, so please refer to the `Python docs on classes and OOP <https://docs.python.org/2.7/tutorial/classes.html>`_.
+=======
+Python has full object-oriented programming (OOP) capabilities,
+however we can not cover all of them in a quick tutorial, so please
+refer to the `Python docs on classes and OOP
+<https://docs.python.org/2.7/tutorial/classes.html>`_.
+>>>>>>> chg: dev: rework class example
 
 Database Access
 =================================================================
