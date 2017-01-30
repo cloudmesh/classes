@@ -375,7 +375,7 @@ High level Programming
 	 data on premises, cloud and hybrid configurations.  In a 
 	 nutshell, SAP HANA acts as a warehouse that integrates live 
 	 transactional data from various data sources on a single 
-	 platform :cite:`olofson_2014`. It provides extensive 
+	 platform :cite:`olofson-2014`. It provides extensive 
 	 administrative, security features and data access that ensures 
 	 high data availability, data protection and data quality.
 
@@ -521,7 +521,7 @@ Inter process communication Collectives
 
 162. HPX-5
 
-     Based on :cite:` www-hpx-5 `, High Performance ParallelX (HPX-5)
+     Based on :cite:`www-hpx-5`, High Performance ParallelX (HPX-5)
      is an open source, distributed model that provides opportunity
      for operations to run unmodified on one-to-many nodes. The
      dynamic nature of the model accommodates effective “computing
@@ -538,7 +538,8 @@ Inter process communication Collectives
      several Linux and Darwin (10.11) platforms. Required
      configurations and environments could be accessed via
      :cite:`www-hpx-5-user-guide`.
-
+	 
+	 
 163. Argo BEAST HPX-5 BEAST PULSAR
 164. Harp
 165. Netty
@@ -826,34 +827,34 @@ NoSQL
 220. Solandra
 221. Voldemort
 
-     According to :cite:`www-voldemort`, project Voldemort, developed
-     by LinkedIn, is a non-relational database of key-value type that
-     supports eventual consistency. The distributed nature of the
-     system allows pluggable data placement and provides horizontal
-     scalability and high consistency. Replication and partitioning of
-     data is automatic and performed on multiple servers. Independent
-     nodes that comprise the server support transparent handling of
-     server failure and ensure absence of a central point of
-     failure. Essentially, Voldemort is a hashtable. It uses APIs for
-     data replication. In memory caching allows for faster
-     operations. It allows cluster expansion with no data
-     rebalancing. When Voldemort performance was benchmarked with the
-     other key-value databases such as Cassandra, Redis and HBase as
-     well as MySQL relational database
-     :cite:`rabl-sadoghi-jacobsen-2012`, the Voldemart's throughput
-     was twice lower than MySQL and Cassandra and six times higher
-     than HBase. Voldemort was slightly underperforming in comparison
-     with Redis.  At the same time, it demonstrated consistent linear
-     performance in maximum throughput that supports high scalability.
-     The read latency for Voldemort was fairly consistent and only
-     slightly underperformed Redis. Similar tendency was observed with
-     the read latency that puts Voldermort in the cluster of databases
-     that require good read-write speed for workload
-     operations. However, the same authors noted that Voldemort
-     required creation of the node specific configuration and
-     optimization in order to successfully run a high throughput
-     tests. The default options were not sufficient and were quickly
-     saturated that stall the database.
+     According to :cite:`www-voldemort`, project Voldemort, 
+	 developed by LinkedIn, is a non-relational database of 
+	 key-value type that supports eventual consistency. The 
+	 distributed nature of the system allows pluggable data 
+	 placement and provides horizontal scalability and high 
+	 consistency. Replication and partitioning of data is 
+	 automatic and performed on multiple servers. Independent 
+	 nodes that comprise the server support transparent handling 
+	 of server failure and ensure absence of a central point of 
+	 failure. Essentially, Voldemort is a hashtable. It uses APIs 
+	 for data replication. In memory caching allows for faster 
+	 operations. It allows cluster expansion with no data rebalancing. 
+	 When Voldemort performance was benchmarked with the other 
+	 key-value databases such as Cassandra, Redis and HBase as well 
+	 as MySQL relational database :cite:`rabl-sadoghi-jacobsen-2012`, 
+	 the Voldemart's throughput was twice lower than MySQL and 
+	 Cassandra and six times higher than HBase. Voldemort was 
+	 slightly underperforming in comparison with Redis. At the same 
+	 time, it demonstrated consistent linear performance in maximum 
+	 throughput that supports high scalability. The read latency for 
+	 Voldemort was fairly consistent and only slightly underperformed
+	 Redis. Similar tendency was observed with the read latency that 
+	 puts Voldermort in the cluster of databases that require good 
+	 read-write speed for workload operations. However, the same authors 
+	 noted that Voldemort required creation of the node specific 
+	 configuration and optimization in order to successfully run a high 
+	 throughput tests. The default options were not sufficient and were 
+	 quickly saturated that stall the database.
 
 222. Riak
 223. ZHT
@@ -1101,12 +1102,13 @@ Interoperability
         cloud providers.
 
 303. TOSCA
+
 304. OCCI
 
      The Open Cloud Computing Interface (OCCI) is a RESTful
      Protocol and API that provides specifications  and remote
      management for the development of “interoperable tools”
-     :cite:`www-occi`.  It supports IaaS, PaaS and SaaS and
+      :cite:`www-occi`. It supports IaaS, PaaS and SaaS and
      focuses on integration, portability, interoperability,
      innovation and extensibility. It provides a set of documents
      that describe an OCCI Core model, contain best practices
@@ -1128,22 +1130,22 @@ Interoperability
      structural changes. The model supports extensibility via
      inheritance and using mixin types that represent ability to
      add new components and capabilities at run-time.
-     :cite:`www-occi-core`
+      :cite:`nyren-edmonds-papaspyrou-2016`
 
      The OCCI Protocol defines the common set of names provided
      for the IaaS cloud services user that specify requested
      system requirements. It is often denoted as “resource
-     templates” or “flavours”  :cite:`ogf-222`.
+     templates” or “flavours”   :cite:`drescher-parak-wallom-2015`.
 
      OCCI RESTful HTTP Protocol describes communications between
      server and client on OCCI platform via HTTP protocol
-     [:cite:`www-occi-HTTP`]. It defines a minimum set of HTTP
+     :cite:`nyren-edmonds-metsch-2016`. It defines a minimum set of HTTP
      headers and status codes to ensure compliance with the
      OCCI Protocol. Separate requirements for Server and Client
      for versioning need to be implemented using HTTP 'Server'
      header and 'User-Agent' header respectively.
 
-     JSON rendering :cite:`www-occi-json` protocol provides
+     JSON rendering  :cite:`nyren-feldhaus-parak-2016` protocol provides
      JSON specifications to allow "render OCCI instances
      independently of the protocol being used." In addition, it
      provides details of the JSON object declaration, OCCI Action
@@ -1154,8 +1156,8 @@ Interoperability
      Finally, it specifies various attributes and collection
      rendering requirements.
      The text rendering process is depricated and will be
-     removed from the next major version :cite:`www-occi-text`.
-
+     removed from the next major version  :cite:`edmonds-metsch-2016`.
+	 
 305. CDMI
 306. Whirr
 307. Saga
@@ -1239,6 +1241,22 @@ DevOps
 328. OpenStack Ironic
 329. Google Kubernetes
 330. Buildstep
+	Buildsteps is an open software developed under MIT license. 
+	It is a base for Dockerfile and it activates Heroku-style 
+	application. Heroku is a platform-as-service (PaaS) that 
+	automates deployment of applications on the cloud. The 
+	program is pushed to the PaaS using git push, and then 
+	PaaS detects the programming language, builds, and runs 
+	application on a cloud platform :cite:`plassnig_2015`.
+	Buildstep takes two parameters: a tar file that contains 
+	the application and a new application container name to 
+	create a new container for this application. Build script 
+	is dependent on buildpacks that are pre-requisites for 
+	buildstep to run. The builder script runs inside the new 
+	container.  The resulting build app can be run with Docker 
+	using docker build -t your_app_name command.
+	:cite:`gonzalez_2015`. 
+
 331. Gitreceive
 332. OpenTOSCA
 333. Winery
