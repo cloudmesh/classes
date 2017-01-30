@@ -501,6 +501,96 @@ Lists
 
 see: https://www.tutorialspoint.com/python/python_lists.htm
 
+Lists in Python are ordered sequences of elements, where each element
+can be accessed using a 0-based index.
+
+To define a list, you simply list its elements between square brackest
+``[]``::
+
+  >>> >>> names = ['Albert', 'Jane', 'Liz', 'John', 'Abby']
+  >>> names[0] # access the first element of the list
+  'Albert'
+  >>> names[2] # access the third element of the list
+  'Liz'
+
+You can also use a negative index if you want to start counting
+elements from the end of the list. Thus, the last element has index
+*-1*, the second before last element has index *-2* and so on::
+
+  >>> names[-1] # access the last element of the list
+  'Abby'
+  >>> names[-2] # access the second last element of the list
+  'John'
+
+Python also allows you to take whole slices of the list by specifing a
+beginning and end of the slice separated by a colon ``:``::
+
+  >>> names[1:-1] # the middle elements, excluding first and last
+  ['Jane', 'Liz', 'John']
+
+As you can see from the example above, the starting index in the slice
+is inclusive and the ending one, exclusive.
+
+Python provides a variety of methods for manipulating the members of a
+list.
+
+You can add elements with ``append``::
+
+  >>> names.append('Liz')
+  >>> names
+  ['Albert', 'Jane', 'Liz', 'John', 'Abby', 'Liz']
+
+As you can see, the elements in a list need not be unique.
+
+Merge two lists with ``extend``::
+
+  >>> names.extend(['Lindsay', 'Connor'])
+  >>> names
+  ['Albert', 'Jane', 'Liz', 'John', 'Abby', 'Liz', 'Lindsay', 'Connor']
+
+Find the index of the first occurrence of an element with ``index``::
+
+  >>> names.index('Liz')
+  2
+
+Remove elements by value with ``remove``::
+
+  >>> names.remove('Abby')
+  >>> names
+  ['Albert', 'Jane', 'Liz', 'John', 'Liz', 'Lindsay', 'Connor']
+
+Remove elements by index with ``pop``::
+
+  >>> names.pop(1)
+  'Jane'
+  >>> names
+  ['Albert', 'Liz', 'John', 'Liz', 'Lindsay', 'Connor']
+
+Notice that ``pop`` returns the element being removed, while
+``remove`` does not.
+
+If you are familiar with stacks from other programming languages, you
+can use ``insert`` and ``pop``::
+
+  >>> names.insert(0, 'Lincoln')
+  >>> names
+  ['Lincoln', 'Albert', 'Liz', 'John', 'Liz', 'Lindsay', 'Connor']
+  >>> names.pop()
+  'Connor'
+  >>> names
+  ['Lincoln', 'Albert', 'Liz', 'John', 'Liz', 'Lindsay']
+
+The Python documentation contains a `full list of list operations <>`_.
+
+To go back to the ``range`` function you used earlier, it simply
+creates a list of numbers::
+
+  >>> range(10)
+  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  >>> range(2, 10, 2)
+  [2, 4, 6, 8]
+  
+  
 Sets
 =================================================================
 
@@ -535,7 +625,7 @@ You can delete elements with the following commands::
     File "<stdin>", line 1, in <module>
     NameError: name 'person' is not defined
 
-You can iterate ofer a dict::
+You can iterate over a dict::
 
   >>> person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
   >>> for item in person:
