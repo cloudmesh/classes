@@ -941,23 +941,41 @@ so it can be reused.
 Classes
 =================================================================
 
-A class is a way to take a grouping of functions and data and place
-them inside a container, so you can access them with the . (dot)
-operator.
+A class is an encapsulation of data and the processes that work on
+them. The data is represented in member variables, and the processes
+are defined in the methods of the class (methods are functions inside
+the class). For example, let's see how to define a ``Triangle`` class:
 
 .. code:: python
 
-        class Fruit(object):
+   class Triangle(object):
 
-        def __init__(self):
-            self.tangerine = "are organge-colored citrus fruit, which is closely related to a mandarin organge"
+	def __init__(self, length, width, height, angle1, angle2, angle3):
+		if not self._sides_ok(length, width, height):
+			print('The sides of the triangle are invalid.')
+		elif not self._angles_ok(angle1, angle2, angle3):
+			print('The angles of the triangle are invalid.')
 
-        def apple(self):
-            print "Apples are rich in antioxidants, flavanoids, and dietary fiber!"
+		self._length = length
+		self._width = width
+		self._height = height
 
-    thing = Fruit()
-    thing.apple()
-    print thing.tangerine
+		self._angle1 = angle1
+		self._angle2 = angle2
+		self._angle3 = angle3
+		
+	def _sides_ok(self, a, b, c):
+		return \
+			a < b + c and a > abs(b - c) and \
+			b < a + c and b > abs(a - c) and \
+			c < a + b and c > abs(a - b)
+
+	def _angles_ok(self, a, b, c):
+		return a + b + c == 180
+
+   triangle = Triangle(4, 5, 6, 35, 65, 80)
+
+Python has full object-oriented programming (OOP) capabilities, however we can not cover all of them in a quick tutorial, so please refer to the `Python docs on classes and OOP <https://docs.python.org/2.7/tutorial/classes.html>`_.
 
 Database Access
 =================================================================
