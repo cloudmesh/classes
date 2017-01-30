@@ -885,7 +885,11 @@ Cluster Resource Management
 ----------------------------------------------------------------------
 
 271. Mesos
-272. Yarn
+
+272.Yarn
+	Yarn (Yet Another Resource Negotiator) is Apache Hadoop’s cluster management project :cite:`www-cloudera` . It’s a resource management technology which make a pace between, the way applications use Hadoop system resources & node manager agents. Yarn, “split up the functionalities of resource management and job scheduling/monitoring” :cite:`www-HadoopApache`. The NodeManager watch the resource (cpu, memory, disk,network) usage the container and report the same to ResourceManager. Resource manager will take a decision on allocation of resources to the applications. ApplicationMaster is a library specific to application, which requests/negotiate resources from ResourceManager and launch and monitoring the task with NodeManager(s) :cite:`www-architecture`.
+	ResourceManager have two majors: Scheduler and ApplicationManager. Scheduler have a task to schedule the resources required by the application. ApplicationManger holds the record of application who require resource. It validates (whether to allocate the resource or not) the application’s resource requirement and ensure that no other application already have register for the same resource requirement. Also it keeps the track of release of resource. :cite:`www-HadoopApache`
+
 273. Helix
 274. Llama
 275. Google Omega
