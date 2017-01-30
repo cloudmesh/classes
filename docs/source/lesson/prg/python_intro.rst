@@ -594,7 +594,74 @@ creates a list of numbers::
 Sets
 =================================================================
 
-Dictionaries
+Python lists can contain duplicates as you saw above::
+
+  >>> names = ['Albert', 'Jane', 'Liz', 'John', 'Abby', 'Liz']
+
+When we don't want this to be the case, we can use a `set
+<https://docs.python.org/2/library/stdtypes.html#set>`_::
+
+  >>> unique_names = set(names)
+  >>> unique_names
+  set(['Lincoln', 'John', 'Albert', 'Liz', 'Lindsay'])
+
+Keep in mind that the *set* is an unordered collection of objects,
+thus we can not access them by index::
+
+  >>> unique_names[0]
+  Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    TypeError: 'set' object does not support indexing
+
+However, we can convert a set to a list easily:
+
+>>> unique_names = list(unique_names)
+>>> unique_names
+['Lincoln', 'John', 'Albert', 'Liz', 'Lindsay']
+>>> unique_names[0]
+'Lincoln'
+
+Notice that in this case, the order of elements in the new list
+matches the order in which the elements were displayed when we create
+the set (we had ``set(['Lincoln', 'John', 'Albert', 'Liz',
+'Lindsay'])`` and now we have ``['Lincoln', 'John', 'Albert', 'Liz',
+'Lindsay']``). You should not assume this is the case in general. That
+is, don't make any assumptions about the order of elements in a set
+when it is converted to any type of sequential data structure.
+
+Testing for Membership and Removal
+----------------------------------
+
+One important advantage of a *set* over a *list* is that **access to
+elements is fast**. If you are familiar with different data structures
+from a Computer Science class, the Python list is implemented by an
+array, while the set is implemented by a hash table.
+
+We will demonstrate this with an example. Let's say we have a list and
+a set of the same number of elements (approximately 100 thousand)::
+
+  >>> import sys, random, timeit
+  >>> nums_set = set([random.randint(0, sys.maxint) for _ in range(10**5)])
+  >>> nums_list = list(nums_set)
+  >>> len(nums_set)
+  100000
+  >>> len(nums_list)
+  100000
+
+We will use the `timeit <>`_ Python module to time 100 operations that
+test for the existence of a member in either the list or set::
+
+  >>> timeit.timeit('random.randint(0, sys.maxint) in nums', setup='import random; nums=%s' % str(nums_set), number=100)
+  0.0004038810729980469
+  >>> timeit.timeit('random.randint(0, sys.maxint) in nums', setup='import random; nums=%s' % str(nums_list), number=100)
+  0.3980541229248047
+
+The exact duration of the operations on your system will be different,
+but the take away will be the same: searching for an element in a set
+is orders of magnitude faster than in a list. This is important to
+keep in mind when you work with large amounts of data.
+
+  Dictionaries
 =================================================================
 
 One of the very important datastructures in python is a dictionary
