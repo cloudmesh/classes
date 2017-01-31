@@ -23,8 +23,8 @@ RUN apk add --update \
 
 RUN pip install -U pip && pip install -r requirements.txt
 
-ADD docker-entry.sh entry.sh
-ADD docker-main.sh main.sh
+ADD docker/entry.sh entry.sh
+ADD docker/main.sh main.sh
 VOLUME /data
 WORKDIR /data
 ENTRYPOINT ["/entry.sh"]
