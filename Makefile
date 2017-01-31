@@ -57,6 +57,13 @@ notes:
 	cd /tmp/notes-i524; echo "R" | make pdf || true
 	cp /tmp/notes-i524/docs/build/latex/Classes.pdf .
 
+
+dockerimage: Dockerfile $(wildcard docker/*)
+	docker build -t badi/cloudmesh_classes .   # FIXME: should be cloudmesh/classes
+
+dockerpublish: dockerimage
+	docker push badi/cloudmesh_classes  # FIXME this should be cloudmesh/classes
+
 ######################################################################
 # CLEANING
 ######################################################################
