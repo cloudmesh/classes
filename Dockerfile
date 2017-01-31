@@ -12,10 +12,12 @@ RUN apt-get update -qq && \
     python-virtualenv \
     python-numpy \
     python-pandas \
-    texlive-full \
+    texlive-base \
+    graphviz \
     gosu
 
-RUN pip install -r requirements.txt
+RUN pip install -U pip && \
+    pip install -r requirements.txt
 
 ADD docker/entry.sh entry.sh
 ADD docker/main.sh main.sh
