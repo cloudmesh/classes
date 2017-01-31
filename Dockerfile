@@ -1,27 +1,21 @@
+# -*- aggressive-indent-mode: nil -*-
 
-FROM alpine:latest
+FROM ubuntu:xenial
 
 ADD requirements.txt requirements.txt
 
-RUN apk add --update \
+RUN apt-get update -qq && \
+    apt-get install -y \
     python \
     python-dev \
-    py-pip \
-    openssl-dev \
-    libffi-dev \
-    musl-dev \
-    gcc \
-    g++ \
-    py-numpy \
-    py-numpy-dev \
-    ca-certificates \
-    linux-headers \
-    make \
-    su-exec \
-    shadow \
-    bash
+    python-pip \
+    python-virtualenv \
+    python-numpy \
+    python-pandas \
+    texlive-full \
+    gosu
 
-RUN pip install -U pip && pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
 ADD docker/entry.sh entry.sh
 ADD docker/main.sh main.sh

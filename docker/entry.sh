@@ -15,4 +15,4 @@ useradd \
     -g $CONTAINER_GID \
     -o \
     $PROXY_USERNAME
-su-exec $CONTAINER_UID:$CONTAINER_GID /main.sh $@
+gosu $CONTAINER_UID:$CONTAINER_GID /main.sh $@
