@@ -59,10 +59,10 @@ notes:
 
 
 dockerimage: Dockerfile $(wildcard docker/*)
-	docker build -t badi/cloudmesh_classes .   # FIXME: should be cloudmesh/classes
+	time docker build -t badi/cloudmesh_classes .   # FIXME: should be cloudmesh/classes
 
 dockerpublish: dockerimage
-	docker push badi/cloudmesh_classes  # FIXME this should be cloudmesh/classes
+	time docker push badi/cloudmesh_classes  # FIXME this should be cloudmesh/classes
 
 ######################################################################
 # CLEANING
