@@ -280,13 +280,12 @@ Application Hosting Frameworks
     provide rapid, API development platform that can run on any cloud
     infrastructure. The platform separates the app logic and its
     service part to have control over application deployment, data
-    storage, resource use, backup and migration.
-    :cite:`www-WhyAppScale` AppScale is based on Google’s App Engine
-    APIs and has support for Python, Go, PHP and Java applications. It
-    supports single and multimode deployment, which will help with
-    large, dataset or CPU. AppScale allows to deploy app in thee main
-    mode i.e. dev/test, production and customize deployment.
-    :cite:`www-deployment`
+    storage, resource use, backup and migration.  AppScale is based on
+    Google’s App Engine APIs and has support for Python, Go, PHP and
+    Java applications. It supports single and multimode deployment,
+    which will help with large, dataset or CPU. AppScale allows to
+    deploy app in thee main mode i.e. dev/test, production and
+    customize deployment.  :cite:`www-apscale-deployment`
 
 82. Red Hat OpenShift
 83. Heroku
@@ -1288,7 +1287,7 @@ File systems
 
      IBM General Parallel File System (GPFS) was rebranded to IBM 
      Spectrum Scale on February 17, 2015.  :cite:`www-wikigpfs`
-     See ???.
+     See 380.
 
 380. IBM Spectrum Scale
 
