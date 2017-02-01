@@ -37,14 +37,14 @@ Prerequisites
 
    ::
 
-      $ ssh-keygen
+      $ ssh-keygen -C albert.zweistein@gmail.com
       Generating public/private rsa key pair.
       Enter passphrase (empty for no passphrase):
       Enter same passphrase again:
       Your identification has been saved in test.
       Your public key has been saved in test.pub.
       The key fingerprint is:
-      SHA256:koA9ZYkSlBBpkR/W0bfIxLmViwQWY1qKqjTzGdK+7vQ ubuntu@ubuntu-xenial
+      SHA256:koA9ZYkSlBBpkR/W0bfIxLmViwQWY1qKqjTzGdK+7vQ albert.zweistein@gmail.com
       The key's randomart image is:
       +---[RSA 2048]----+
       |o*=o.XO.. .      |
@@ -72,7 +72,7 @@ Prerequisites
    ::
 
       $ cat .ssh/id_rsa.pub
-      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+kwxuJ46kIq20odlqQ/sLl0YPkG3yVcXS+IwyWxDiaxOyB3ZqVJPsCF7OKqA9WpIHsdWxXNtU0hD/ulO2DsIJI73tTF+ITDfeMs7A7pzFPmHwTRKIAGzsiiZkj7W2hQK6DFUt/x4fjwJImG3YrNjcJ2//2aOW88Dsoq/+8Hxz3Wm5uDpmkcX5aFFmkFV6oyZoVznUZqpIlRQbgM9b+kXr7pvnYYDrGVVY86frLMrGNKKXE+DXUPLRqUGYmLQ+62xw4I6xXaF4+AyR4j4uTY91Fq1ybSALkxgKkqrZavZudkAzc50nSTTbmgCSwEaAWw0Bz6eX28r4IJclAI98Apcl ubuntu@ubuntu-xenial
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+kwxuJ46kIq20odlqQ/sLl0YPkG3yVcXS+IwyWxDiaxOyB3ZqVJPsCF7OKqA9WpIHsdWxXNtU0hD/ulO2DsIJI73tTF+ITDfeMs7A7pzFPmHwTRKIAGzsiiZkj7W2hQK6DFUt/x4fjwJImG3YrNjcJ2//2aOW88Dsoq/+8Hxz3Wm5uDpmkcX5aFFmkFV6oyZoVznUZqpIlRQbgM9b+kXr7pvnYYDrGVVY86frLMrGNKKXE+DXUPLRqUGYmLQ+62xw4I6xXaF4+AyR4j4uTY91Fq1ybSALkxgKkqrZavZudkAzc50nSTTbmgCSwEaAWw0Bz6eX28r4IJclAI98Apcl albert.zweistein@gmail.com
 
    .. warning::
 
