@@ -684,6 +684,19 @@ In-memory databases/caches
 185. Redis
 186. LMDB (key value)
 187. Hazelcast
+
+     Hazelcast is a java based, in memory data grid. :cite:`www-wikihazel` 
+     It is open source software, released under the Apache 2.0 License. 
+     :cite:`www-githubhazel`  
+
+     Hazelcast uses a grid to distribute data evenly across a cluster.  
+     Clusters allow processing and storage to scale horizontally.  
+     Hazelcast enables predictable scaling for applications by providing 
+     in memory access to data. :cite:`www-wikihazel`
+
+     Hazelcast can run locally, in the cloud, in virtual machines, or 
+     in Docker containers. :cite:`www-wikihazel`
+
 188. Ehcache
 189. Infinispan
 190. VoltDB
@@ -1068,6 +1081,28 @@ File systems
 293. Gluster
 294. Lustre
 295. GPFS
+
+     IBM General Parallel File System (GPFS) was rebranded to IBM 
+     Spectrum Scale on February 17, 2015.  :cite:`www-wikigpfs`
+     See ???.
+
+380. IBM Spectrum Scale
+
+     General Parallel File System (GPFS) was rebranded as IBM Spectrum 
+     Scale on February 17, 2015. :cite:`www-wikigpfs`
+
+     Spectrum Scale is a clustered file system, developed by IBM, providing 
+     high performance.  It "provides concurrent high-speed file access to 
+     applications executing on multiple nodes of clusters" and can be 
+     deployed in either shared-nothing or shared disk modes. Spectrum Scale 
+     is available on AIX, Linux, Windows Server, and IBM System Cluster 
+     1350. :cite:`www-wikigpfs`
+
+     Due to its focus on performance and scalability, Spectrum Scale has 
+     been utilized in compute clusters, big data and analytics (including 
+     support for Hadoop Distributed File System (HDFS), backups and 
+     restores, and private clouds. :cite:`www-spectrumscale`
+
 296. GFFS
 297. Public Cloud: Amazon S3
 298. Azure Blob
