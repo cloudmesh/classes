@@ -52,7 +52,18 @@ Workflow-Orchestration
 17. Tez
 18. Google FlumeJava
 19. Crunch
+
 20. Cascading
+	:cite:`www-cascading` Cascading software authored by Chris Wensel is development platform for building the application in Hadoop. 
+	It basically act as an abstraction for Apache Hadoop used for creating complex data processing workflow using
+	the scalability of hadoop however hiding the complexity of mapReduce jobs. 
+	User can write their program in java without having knowledge of mapReduce. Applications written on cascading are portable.   
+ 
+	Cascading Benefits
+		1. With Cascading application can be scaled as per the data sets.
+		2. Easily Portable
+		3. Single jar file for application deployment.
+
 21. Scalding
 22. e-Science Central
 23. Azure Data Factory
@@ -122,6 +133,25 @@ Application and Analytics
 42. PetSc
 43. PLASMA MAGMA
 44. Azure Machine Learning
+    
+    Azure Machine Learning is a cloud based service that can be used
+    to do predictive analytics, machine learning or data mining. It
+    has features like in-built algorithm library, machine learning
+    studio and a webservice :cite:`www-azureMLSite`. In built
+    algorithm library has implementation of various popular machine
+    learning algorithms like decision tree, SVM, linear regression,
+    neural networks etc. Machine learning studio facilitates creation
+    of predictive models using graphical user interface by dragging,
+    dropping and connecting of different modules that can be used by
+    people with minimal knowledge in the machine learning
+    field. Machine learning studio is a free service for basic version
+    and comes with a monthly charge for advanced versions. Apart from
+    building models, studio also has options to do preprocessing like
+    clean, transform and normalize the data. Webservice provides
+    option to deploy the machine learning algorithm as ready to
+    consume APIs that can be reused in future with minimal effort and
+    can also be published.
+    
 45. Google Prediction API & Translation API
 46. mlpy
 47. scikit-learn
@@ -159,6 +189,20 @@ Application and Analytics
 75. three.js
 76. Potree
 77. DC.js
+
+    According to :cite:`www-dcjs`: “DC.js is a javascript charting
+    library with native crossfilter support, allowing exploration on
+    large multi-dimensional datasets. It uses d3 to render charts in
+    CSS-friendly SVG format. Charts rendered using dc.js are data
+    driven and reactive and therefore provide instant feedback to user
+    interaction.”. DC.js library can be used to perform data anlysis
+    on both mobile devices and different browsers. Under the dc
+    namespace the following chart classes are included: barChart,
+    boxplot, bubbleChart, bubbleOverlay, compositeChart, dataCount,
+    dataGrid, dataTable, geoChoroplethChart, heatMap,
+    legend,lineChart, numberDisplay, pieChart, rowChart, scatterPlot,
+    selectMenu and seriesChart.
+      
 78. TensorFlow
 79. CNTK
 
@@ -194,42 +238,53 @@ Application Hosting Frameworks
 82. Red Hat OpenShift
 83. Heroku
 84. Aerobatic
+
+    According to :cite:`www-aero`: Aerobatic is a platform that allows
+    hosting static websites. It used to be an ad-on for Bitbucket but
+    now Aerobatic is transitioning to standalone CLI(command Line
+    Tool) and web dashboard . Aerobatic allows automatic builds to
+    different branches. New changes to websites can be deployed using
+    aero deploy command which can be executed from local desktop or
+    any of CD tools and services like Jenkins, Codeship,Travis and so
+    on.  It also allows users to configure custom error pages and
+    offers authentication which can also be customized. Aerobatic is
+    backed by AWS cloud. Aerobatic has free plan and pro plan options
+    for customers.
+    
+
 85. AWS Elastic Beanstalk
 86. Azure
 
-    Microsoft Corporation markets its cloud products under the *Azure*
-    brand name. At its most basic, Azure acts as an
-    *infrastructure-as-a-service* (IaaS) provider.  IaaS virtualizes
-    hardware components, a key differentiation from other
-    *-as-a-service* products.  The Wikipedia entry on IaaS notes that
-    IaaS "abstract[s] the user from the details of infrasctructure
-    like physical computing resources, location, data partitioning,
-    scaling, security, backup, etc." :cite:www-wikipedia-cloud
+    Microsoft Corporation (MSFT) markets its cloud products under the *Azure*
+    brand name. At its most basic, Azure acts as an *infrastructure-
+    as-a-service* (IaaS) provider.  IaaS virtualizes hardware components, a key
+    differentiation from other *-as-a-service* products. IaaS "abstract[s] the
+    user from the details of infrasctructure like physical computing resources,
+    location, data partitioning, scaling, security, backup, etc." 
+    :cite:`www-wikipedia-cloud`
 
-    However, Azure offers a host of closely-related tool and products
-    to enhance and improve the core product, such as raw block
-    storage, load balancers, and IP addresses :cite:`www-azure-msft`.
-    For instance, Azure users can access predictive analytics, Bots
-    and Blockchain-as-a-Service :cite:www-azure-msft as well as
-    more-basic computing, networking, storage, database and management
-    components :cite:`www-sec-edgar-msft`.  The Azure website shows
-    twelve major categories under *Products* and twenty *Solution*
-    categories, e.g., e-commerce or Business SaaS apps.
+    However, Azure offers a host of closely-related tool and products to enhance
+    and improve the core product, such as raw block storage, load balancers, and
+    IP addresses :cite:`www-azure-msft`. For instance, Azure users can access
+    predictive analytics, Bots and Blockchain-as-a-Service 
+    :cite:`www-azure-msft` as well as more-basic computing, networking, storage,
+    database and management components :cite:`www-sec-edgar-msft`.  The Azure 
+    website shows twelve major categories under *Products* and twenty 
+    *Solution* categories, e.g., e-commerce or Business SaaS apps.
 
-    Azure competes against Amazon's *Amazon Web Service*,
-    :cite:www-aws-amzn even though IBM (*SoftLayer*
-    :cite:www-softlayer-ibm and *Bluemix* :cite :`www-bluemix-ibm`)
-    and Google (*Google Cloud Platform*) :cite:`www-cloud- google`
-    offer IaaS to the market.  As of January 2017, Azure's datacenters
-    span 32 Microsoft-defined *regions*, or 38 *declared regions*,
-    throughout the world. :cite:`www-azure-msft`
+    Azure competes against Amazon's *Amazon Web Service*, :cite:`www-aws-amzn`
+    even though IBM (*SoftLayer*  :cite:`www-softlayer-ibm` and *Bluemix* 
+    :cite:`www-bluemix-ibm`) and Google (*Google Cloud Platform*) 
+    :cite:`www-cloud-google` offer IaaS to the market.  As of January 2017,
+    Azure's datacenters span 32 Microsoft-defined *regions*, or 38 *declared regions*, throughout the world. :cite:`www-azure-msft`
 
 87. Cloud Foundry
 88. Pivotal
 89. IBM BlueMix
 90. (Ninefold)
 
-    no longer active
+    The Australian based cloud computing platform has shut down their
+    services since January 30, 2016. Refer :cite:`www-ninefoldSite`
 
 91. Jelastic
 92. Stackato
@@ -280,21 +335,37 @@ High level Programming
      consisting of a billion records, the program would first select
      the top ten records for each region using server-side compute
      resources.  After that, the client would be tasked with selecting
-     the overall top ten. :cite:`www-phoenix- salesforcedev`
+     the overall top ten. :cite:`www-phoenix-salesforcedev`
 
      Despite adding an abstraction layer, Phoenix can actually speed
      up queries because it optimizes the query during the translation
-     process. :cite:`www- phoenix-cloudera` For example, "Phoenix
+     process. :cite:`www-phoenix-cloudera` For example, "Phoenix
      beats Hive for a simple query spanning 10M-100M rows."
      :cite:`www-phoenix-infoq`
 
      Finally, another program can enhance HBase's accessibility for
      those inclined towards graphical interfaces.  SQuirell only
      requires the user to set up the JDBC driver and specify the
-     appropriate connection string. :cite:`www-phoenix- bighadoop`
+     appropriate connection string. :cite:`www-phoenix-bighadoop`
 
 110. Impala
 111. MRQL
+
+     MapReduce Query Language (MRQL, pronounced miracle) "is a query
+     processing and optimization system for large-scale, distributed
+     data analysis". :cite:`www-apachemrql` MRQL provides a SQL
+     like language for use on Apache Hadoop, Hama, Spark, and Flink.
+     MRQL allows users to perform complex data analysis using only SQL
+     like queries, which are translated by MRQL to efficient Java
+     code. :cite:`www-apachemrql`
+
+     MRQL was created in 2011 by Leaonids
+     Fegaras :cite:`www-mrqlhadoop` and is currently in the Apache
+     Incubator.  All projects accepted by the Apache Software
+     Foundation (ASF) undergo an incubation period until a review
+     indicates that the project meets the standards of other ASF
+     projects. :cite:`www-apacheincubator`
+
 112. SAP HANA
 
      As noted in :cite:`www-sap-hana`, SAP HANA is in-memory massively
@@ -303,13 +374,14 @@ High level Programming
      application. Predictive analytics and machine learning
      capabilities are dynamically allocated for searching and
      processing of spatial, graphical, and text data. 
-	 SAP HANA accommodates flexible development and deployment of 
-	 data on premises, cloud and hybrid configurations.  In a 
-	 nutshell, SAP HANA acts as a warehouse that integrates live 
-	 transactional data from various data sources on a single 
-	 platform :cite:`olofson_2014`. It provides extensive 
-	 administrative, security features and data access that ensures 
-	 high data availability, data protection and data quality.
+     SAP HANA accommodates flexible development and deployment of 
+     data on premises, cloud and hybrid configurations.  In a 
+     nutshell, SAP HANA acts as a warehouse that integrates live 
+     transactional data from various data sources on a single 
+     platform :cite:`olofson-2014`. It provides extensive 
+     administrative, security features and data access that ensures 
+     high data availability, data protection and data quality.
+	 
 
 113. HadoopDB
 114. PolyBase
@@ -341,6 +413,46 @@ High level Programming
 
 122. Pig
 123. Sawzall
+
+     Google engineers created the domain-specific programming language (DSL)
+     *Sawzall* as a productivity enhancement tool for Google employees.  They
+     targeted the analysis of large data sets with flat, but regular, structures
+     spread across numerous servers.  The authors designed it to handle "simple,
+     easily distributed computations: filtering, aggregation, extraction of
+     statistics," etc. from the aforementioned data sets. 
+     :cite:`unpublished-google-sawzall`
+
+     In general terms, a Sawzall job works as follows: multiple computers each 
+     create a Sawzall instance, perform some operation on a single record out of
+     (potentially) petabytes of data, return the result to an aggregator
+     function on a different computer and then shut down the Sawzall instance.
+
+     The engineer's focus on simplicity and parallelization led to
+     unconventional design choices.  For instance, in contrast to most
+     programming languages Sawzall operates on one data record at a time; it
+     does not even preserve state between records.    
+     :cite:`www-bytemining-sawzall`  Addtionally, the language provides just 
+     a single primitive result function, the *emit* statement.  The emitter
+     returns a value from the Sawzall program to a designated virtual
+     receptacle, generally some type of aggregator.  In another example of
+     pursuing language simplicity and parallelization, the aggregators remain
+     separate from the formal Sawzall language (they are written in C++) because
+     "some of the aggregation algorithms are sophisticated and best implemented
+     in a native language [and] [m]ore important[ly] drawing an explicit line
+     between filtering and aggregation enables a high degree of parallelism,
+     even though it hides the parallelism from the language itself".  
+     :cite:`unpublished-google-sawzall`
+
+     Important components of the Sawzall language include: *szl*, the binary
+     containing the code compiler and byte-code interpreter that executes the
+     program; the *libszl* library, which compiles and executes Sawzall programs
+     "[w]hen szl is used as part of another program, e.g. in a [map-reduce]
+     program"; the Sawzall language plugin, designated *protoc_gen_szl*, which
+     generates Sawzall code when run in conjunction with Google's own *protoc*
+     protocol compiler; and libraries for intrinsic functions as well as
+     Sawzall's associated aggregation functionality. 
+     :cite:`www-google-code-wiki-sawzall`
+
 124. Google Cloud DataFlow
 125. Summingbird
 126. Lumberyard
@@ -402,7 +514,19 @@ Basic Programming model and runtime, SPMD, MapReduce
 143. Hadoop
 144. Spark
 145. Twister
+
 146. MR-MPI
+
+     :cite:`www-mapreducempi` MR-MPI stands for Map Reduce-Message
+     Passing Interface is open source library build on top of standard
+     MPI. It basically implements mapReduce operation providing a
+     interface for user to simplify writing mapReduce program.  It is
+     written in C++ and needs to be linked to MPI library in order to
+     make the basic map reduce functionality to be executed in
+     parallel on distributed memory architecture.  It provides
+     interface for c, c++ and python. Using C interface the library
+     can also be called from Fortrain.
+
 147. Stratosphere (Apache Flink)
 148. Reef
 149. Disco
@@ -413,6 +537,25 @@ Basic Programming model and runtime, SPMD, MapReduce
 154. Ligra
 155. GraphChi
 156. Galois
+     
+     Galois system was built by intelligent software systems team at
+     University of Texas, Austin. As explained in
+     :cite:`www-galoisSite`, “Galois is a system that automatically
+     executes 'Galoized' serial C++ or Java code in parallel on
+     shared-memory machines. It works by exploiting amorphous
+     data-parallelism, which is present even in irregular codes that
+     are organized around pointer-based data structures such as graphs
+     and trees”. By using Galois provided data structures programmers
+     can write serial programs that gives the performance of parallel
+     execution. Galois employs annotations at loop levels to
+     understand correct context during concurrent execution and
+     executes the code that could be run in parallel. The key idea
+     behind Galois is Tao-analysis, in which parallelism is exploited
+     at compile time rather than at run time by creating operators
+     equivalent of the code by employing data driven local computation
+     algorithm :cite:`taoParallelismPaper`. Galois currently supports
+     C++ and Java.
+	   
 157. Medusa-GPU
 158. MapGraph
 159. Totem
@@ -426,7 +569,7 @@ Inter process communication Collectives
 
 162. HPX-5
 
-     Based on :cite:` www-hpx-5 `, High Performance ParallelX (HPX-5)
+     Based on :cite:`www-hpx-5`, High Performance ParallelX (HPX-5)
      is an open source, distributed model that provides opportunity
      for operations to run unmodified on one-to-many nodes. The
      dynamic nature of the model accommodates effective “computing
@@ -443,7 +586,8 @@ Inter process communication Collectives
      several Linux and Darwin (10.11) platforms. Required
      configurations and environments could be accessed via
      :cite:`www-hpx-5-user-guide`.
-
+	 
+	 
 163. Argo BEAST HPX-5 BEAST PULSAR
 164. Harp
 165. Netty
@@ -584,6 +728,19 @@ In-memory databases/caches
 185. Redis
 186. LMDB (key value)
 187. Hazelcast
+
+     Hazelcast is a java based, in memory data grid. :cite:`www-wikihazel` 
+     It is open source software, released under the Apache 2.0 License. 
+     :cite:`www-githubhazel`  
+
+     Hazelcast uses a grid to distribute data evenly across a cluster.  
+     Clusters allow processing and storage to scale horizontally.  
+     Hazelcast enables predictable scaling for applications by providing 
+     in memory access to data. :cite:`www-wikihazel`
+
+     Hazelcast can run locally, in the cloud, in virtual machines, or 
+     in Docker containers. :cite:`www-wikihazel`
+
 188. Ehcache
 189. Infinispan
 190. VoltDB
@@ -731,35 +888,34 @@ NoSQL
 220. Solandra
 221. Voldemort
 
-     According to :cite:`www-voldemort`, project Voldemort, developed
-     by LinkedIn, is a non-relational database of key-value type that
-     supports eventual consistency. The distributed nature of the
-     system allows pluggable data placement and provides horizontal
-     scalability and high consistency. Replication and partitioning of
-     data is automatic and performed on multiple servers. Independent
-     nodes that comprise the server support transparent handling of
-     server failure and ensure absence of a central point of
-     failure. Essentially, Voldemort is a hashtable. It uses APIs for
-     data replication. In memory caching allows for faster
-     operations. It allows cluster expansion with no data
-     rebalancing. When Voldemort performance was benchmarked with the
-     other key-value databases such as Cassandra, Redis and HBase as
-     well as MySQL relational database
-     (:cite:`rabl_sadoghi_jacobsen_2012`), the Voldemart's throughput
-     was twice lower than MySQL and Cassandra and six times higher
-     than HBase. Voldemort was slightly underperforming in comparison
-     with Redis.  At the same time, it demonstrated consistent linear
-     performance in maximum throughput that supports high scalability.
-     The read latency for Voldemort was fairly consistent and only
-     slightly underperformed Redis. Similar tendency was observed with
-     the read latency that puts Voldermort in the cluster of databases
-     that require good read-write speed for workload
-     operations. However, the same authors noted that Voldemort
-     required creation of the node specific configuration and
-     optimization in order to successfully run a high throughput
-     tests. The default options were not sufficient and were quickly
-     saturated that stall the database.
-
+     According to :cite:`www-voldemort`, project Voldemort, 
+     developed by LinkedIn, is a non-relational database of 
+     key-value type that supports eventual consistency. The 
+     distributed nature of the system allows pluggable data 
+     placement and provides horizontal scalability and high 
+     consistency. Replication and partitioning of data is 
+     automatic and performed on multiple servers. Independent 
+     nodes that comprise the server support transparent handling 
+     of server failure and ensure absence of a central point of 
+     failure. Essentially, Voldemort is a hashtable. It uses APIs 
+     for data replication. In memory caching allows for faster 
+     operations. It allows cluster expansion with no data rebalancing. 
+     When Voldemort performance was benchmarked with the other 
+     key-value databases such as Cassandra, Redis and HBase as well 
+     as MySQL relational database :cite:`rabl-sadoghi-jacobsen-2012`, 
+     the Voldemart's throughput was twice lower than MySQL and 
+     Cassandra and six times higher than HBase. Voldemort was 
+     slightly underperforming in comparison with Redis. At the same 
+     time, it demonstrated consistent linear performance in maximum 
+     throughput that supports high scalability. The read latency for 
+     Voldemort was fairly consistent and only slightly underperformed
+     Redis. Similar tendency was observed with the read latency that 
+     puts Voldermort in the cluster of databases that require good 
+     read-write speed for workload operations. However, the same authors 
+     noted that Voldemort required creation of the node specific 
+     configuration and optimization in order to successfully run a high 
+     throughput tests. The default options were not sufficient and were 
+     quickly saturated that stall the database.
 222. Riak
 223. ZHT
 224. Berkeley DB
@@ -785,10 +941,64 @@ NoSQL
 229. Espresso
 230. CouchDB
 231. Couchbase
+
+     Couchbase, Inc. offers Couchbase Server (CBS) to the marketplace as a
+     NoSQL, document-oriented database alternative to traditional relationship-
+     oriented database managgement systems as well as other NoSQL competitors.
+     The basic storage unit, a *document*, is a "data structure defined as a
+     collection of named fields".  The document utilizes JSON, thereby allowing
+     each document to have its own individual schema. :cite:`www-infoworld-cbs`
+
+     CBS combines the in-memory capabilities of Membase with CouchDB's inherent
+     data store reliability and data persistency.  Membase functions in RAM
+     only, providing the highest-possible speed capabilities to end users.
+     However, Membase's in-ram existence limits the amount of data it can use.
+     More importantly, it provides no mechanism for data recovery if the server
+     crashes.  Combining Membase with CouchDB provides a persistent data source,
+     mitigating the disadvantages of either product.  In addition, CouchDB +
+     membase allows the data size "to grow beyond the size of RAM".
+     :cite:`www-safaribooks-cbs`
+
+     CBS is written in Erlang/OTP, but generally shortened to just Erlang.  In
+     actuality, t is written in "Erlang using components of OTP...alongside some
+     C/C++":cite:`www-erlangcentral-cbs`, It runs on an Erlang virtual machine
+     known as BEAM. :cite:`www-wikipedia-erlang-cbs`
+
+     Out-of-the-box benefits of Erlang/OTP include dynamic type setting, pattern
+     matching and, most importantly, actor-model concurrency.  As a result,
+     Erlang code virtually eliminates the possibility of inadvertent deadlock
+     scenarios.  In addition, Erlang/OTP processes are lightweight, spawning new
+     processes does not consume many resources and message passing between
+     processes is fast since they run in the same memory space.  Finally, OTP's
+     process supervision tree makes Erlang/OTP extremely fault-tolerant.  Error
+     handling is indistinguishable from a process startup, easing testing and
+     bug detection.  :cite:`www-couchbase-blog-cbs`
+
+     CouchDB's design adds another layer of reliability to CBS.  CouchDB
+     operates in *append-only* mode, so it adds user changes to the tail of
+     database.   This setup resists data corruption while taking a snapshot,
+     even if the server continues to run during the procedure.
+     :cite:`www-hightower-cbs`
+
+     Finally, CB uses the Apache 2.0 License, one of several open-source license
+     alternatives. :cite:`www-quora-cbs`
+
 232. IBM Cloudant
 233. Pivotal Gemfire
 234. HBase
 235. Google Bigtable
+
+     Google Bigtable is a NoSQL database service, built upon several Google 
+     technologies, including Google File System, Chubby Lock Service, and 
+     SSTable.  Designed for Big Data, Bigtable provides high performance 
+     and low latency and scales to hundreds of petabytes. 
+     :cite:`www-cloudbigtable` Bigtable powers many core Google products, 
+     such as Search, Analytics, Maps, Earth, Gmail, and YouTube. 
+     :cite:`www-wikibigtable` Since May 6, 2015, a version of Bigtable has 
+     been available to the public.  Bigtable also drives Google Cloud 
+     Datastore :cite:`www-wikibigtable` and Spanner, a distributed NewSQL 
+     also developed by Google. :cite:`www-wikispanner`
+
 236. LevelDB
 237. Megastore and Spanner
 238. Accumulo
@@ -818,6 +1028,30 @@ NoSQL
 249. Jena
 250. Sesame
 251. Public Cloud: Azure Table
+
+     Microsoft offers its NoSQL Azure Table product to the market as a low-cost,
+     fast and scalable data storage option. :cite:`www-what-to-use`  Table
+     stores data as collections of key-value  combinations, which it terms
+     *properties*.  Table refers to a collection of properties as an *entity*.
+     Each entity can contain a mix of properties.  The mix of properties can
+     vary between each entity, although each entity may consist of no more than
+     255 properties. :cite:`www-blobqueuetable`
+
+     Although data in Azure Table will be structured via key-value pairs, Table
+     provides just one mechanism for the user to define relationships between
+     entities: the entity's *primary key*.  The primary key, which Microsoft
+     sometimes calls a *clustered index*, consists of a PartitionKey and a
+     RowKey.  The PartitionKey indicates the group, a.k.a partition, to which
+     the user assigned the entity.  The RowKey indicates the entity's relative
+     position in the group.  Table sorts in ascending order by the PartitionKey
+     first, then by the RowKey using lexical comparisons.  As a result, numeric
+     sorting requires fixed-length, zero-padded strings.  For instance, Table
+     sorts *111* before *2*, but will sort *111* after
+     *002*. :cite:`www-scalable-partitioning`
+
+     Azure Table is considered best-suited for infrequently accessed data
+     storage.
+
 252. Amazon Dynamo
 253. Google DataStore
 
@@ -857,6 +1091,26 @@ Data Transport
 ----------------------------------------------------------------------
 
 263. BitTorrent
+
+     Bittorrent is P2P communication protocol commonly used for
+     sending and receiving the large digital files like movies and
+     audioclips.In order to upload and download file, user have to
+     download bittorrent client which implement the bittorrent
+     protocol. Bittorrent uses the principle of swarning and
+     tracking. :cite:`www-bittorrent` It divides the files in large
+     number of chunck and as soon as file is received it can be server
+     to the other users for downloading.  So rather than downloading
+     one entire large file from one source, user can download small
+     chunk from the different sources of linked users in
+     swarn. Bittorrent trackers keeps list of files available for
+     transfer and helps the swarn user find each other.
+
+     Using the protocol, machine with less configuration can serve as
+     server for distributing the files. It result in increase in the
+     downloading speed and reduction in origin server configuration.
+
+     Few popular bittorrent client in μTorrent, qBittorrent.
+
 264. HTTP
 265. FTP
 266. SSH
@@ -901,6 +1155,29 @@ Cluster Resource Management
 280. OpenPBS
 281. Moab
 282. Slurm :cite:`www-slurm`
+
+     Simple Linux Utility for Resource Management (SLURM) workload
+     manager is an open source, scalable cluster resource management
+     tool used for job scheduling in small to large Linux cluster
+     using multi-core architecture. As per,
+     :cite:`www-slurmSchedmdSite` SLURM has three key
+     functions. First, it allocates resources to users for some
+     duration with exclusive and/or non-exclusive access. Second, it
+     enables users to start, execute and monitor jobs on the resources
+     allocated to them. Finally, it intermediates to resolve conflicts
+     on resources for pending work by maintaining them in a queue. The
+     slurm architecture has following components: a centralized
+     manager to monitor resources and work, may have a backup manager,
+     daemon on each server to provide fault-tolerant communications,
+     an optional daemon for clusters with multiple mangers and tools
+     to initiate, terminate and report about jobs in a graphical view
+     with network topology. It also provides around twenty additional
+     plugins that could be used for functionalities like accounting,
+     advanced reservation, gang scheduling, back fill scheduling and
+     multifactor job prioritization. Though originally developed for
+     Linux, SLURM also provides full support on platforms like AIX,
+     FreeBSD, NetBSD and Solaris :cite:`www-slurmPlatformsSite`.
+     
 283. Torque
 284. Globus Tools
 285. Pilot Jobs
@@ -918,6 +1195,28 @@ File systems
 293. Gluster
 294. Lustre
 295. GPFS
+
+     IBM General Parallel File System (GPFS) was rebranded to IBM 
+     Spectrum Scale on February 17, 2015.  :cite:`www-wikigpfs`
+     See ???.
+
+380. IBM Spectrum Scale
+
+     General Parallel File System (GPFS) was rebranded as IBM Spectrum 
+     Scale on February 17, 2015. :cite:`www-wikigpfs`
+
+     Spectrum Scale is a clustered file system, developed by IBM, providing 
+     high performance.  It "provides concurrent high-speed file access to 
+     applications executing on multiple nodes of clusters" and can be 
+     deployed in either shared-nothing or shared disk modes. Spectrum Scale 
+     is available on AIX, Linux, Windows Server, and IBM System Cluster 
+     1350. :cite:`www-wikigpfs`
+
+     Due to its focus on performance and scalability, Spectrum Scale has 
+     been utilized in compute clusters, big data and analytics (including 
+     support for Hadoop Distributed File System (HDFS), backups and 
+     restores, and private clouds. :cite:`www-spectrumscale`
+
 296. GFFS
 297. Public Cloud: Amazon S3
 298. Azure Blob
@@ -975,12 +1274,14 @@ Interoperability
         cloud providers.
 
 303. TOSCA
+
+
 304. OCCI
 
      The Open Cloud Computing Interface (OCCI) is a RESTful
      Protocol and API that provides specifications  and remote
      management for the development of “interoperable tools”
-     :cite:`www-occi`.  It supports IaaS, PaaS and SaaS and
+     :cite:`www-occi`. It supports IaaS, PaaS and SaaS and
      focuses on integration, portability, interoperability,
      innovation and extensibility. It provides a set of documents
      that describe an OCCI Core model, contain best practices
@@ -1002,22 +1303,22 @@ Interoperability
      structural changes. The model supports extensibility via
      inheritance and using mixin types that represent ability to
      add new components and capabilities at run-time.
-     :cite:`www-occi-core`
+     :cite:`nyren-edmonds-papaspyrou-2016`
 
      The OCCI Protocol defines the common set of names provided
      for the IaaS cloud services user that specify requested
      system requirements. It is often denoted as “resource
-     templates” or “flavours”  :cite:`www-occi-temp`.
+     templates” or “flavours”   :cite:`drescher-parak-wallom-2015`.
 
      OCCI RESTful HTTP Protocol describes communications between
      server and client on OCCI platform via HTTP protocol
-     [:cite:`www-occi-HTTP`]. It defines a minimum set of HTTP
+     :cite:`nyren-edmonds-metsch-2016`. It defines a minimum set of HTTP
      headers and status codes to ensure compliance with the
      OCCI Protocol. Separate requirements for Server and Client
      for versioning need to be implemented using HTTP 'Server'
      header and 'User-Agent' header respectively.
 
-     JSON rendering :cite:`www-occi-json` protocol provides
+     JSON rendering  :cite:`nyren-feldhaus-parak-2016` protocol provides
      JSON specifications to allow "render OCCI instances
      independently of the protocol being used." In addition, it
      provides details of the JSON object declaration, OCCI Action
@@ -1028,8 +1329,8 @@ Interoperability
      Finally, it specifies various attributes and collection
      rendering requirements.
      The text rendering process is depricated and will be
-     removed from the next major version :cite:`www-occi-text`.
-
+     removed from the next major version  :cite:`edmonds-metsch-2016`.
+	 
 305. CDMI
 306. Whirr
 307. Saga
@@ -1113,6 +1414,23 @@ DevOps
 328. OpenStack Ironic
 329. Google Kubernetes
 330. Buildstep
+     
+     Buildsteps is an open software developed under MIT license. 
+     It is a base for Dockerfile and it activates Heroku-style 
+     application. Heroku is a platform-as-service (PaaS) that 
+     automates deployment of applications on the cloud. The 
+     program is pushed to the PaaS using git push, and then 
+     PaaS detects the programming language, builds, and runs 
+     application on a cloud platform :cite:`plassnig_2015`.
+     Buildstep takes two parameters: a tar file that contains 
+     the application and a new application container name to 
+     create a new container for this application. Build script 
+     is dependent on buildpacks that are pre-requisites for 
+     buildstep to run. The builder script runs inside the new 
+     container.  The resulting build app can be run with Docker 
+     using docker build -t your_app_name command.
+     :cite:`gonzalez_2015`. 
+
 331. Gitreceive
 332. OpenTOSCA
 333. Winery
@@ -1248,6 +1566,24 @@ Distributed Coordination
 373. Google Chubby
 374. Zookeeper
 375. Giraffe
+
+     Giraffe is a scalable distributed coordination
+     service. Distributed coordination is a media access technique
+     used in distributed systems to perform functions like providing
+     group membership, gaining lock over resources, publishing,
+     subscribing, granting ownership and synchronization together
+     among multiple servers without issues. Giraffe was proposed as
+     alternative to coordinating services like Zookeeper and Chubby
+     which were efficient only in read-intensive scenario and small
+     ensembles. To overcome this three important aspects were included
+     in the design of Giraffe :cite:`giraffePaper`. First feature is
+     Giraffe uses interior-node joint trees to organize coordination
+     servers for better scalability. Second, Giraffe uses Paxos
+     protocol for better consistency and to provide more
+     fault-tolerance. Finally, Giraffe also facilitates hierarchical
+     data organization and in-memory storage for high throughput and
+     low latency.
+     
 376. JGroups
 
 Message and Data Protocols
