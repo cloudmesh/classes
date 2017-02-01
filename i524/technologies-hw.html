@@ -539,14 +539,14 @@ $ git config --global core.editor emacs
 <li><p class="first">You have created an ssh key on Ubuntu. See lesson <a class="reference internal" href="../lesson/linux/ssh.html#s-ssh-generate"><span class="std std-ref">Generate a SSH key</span></a>
 or <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=23m37s">video</a>.</p>
 <p>You should do something like this to generate an ssh key:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ ssh-keygen
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ssh-keygen -C albert.zweistein@gmail.com
 Generating public/private rsa key pair.
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
 Your identification has been saved in test.
 Your public key has been saved in test.pub.
 The key fingerprint is:
-SHA256:koA9ZYkSlBBpkR/W0bfIxLmViwQWY1qKqjTzGdK+7vQ ubuntu@ubuntu-xenial
+SHA256:koA9ZYkSlBBpkR/W0bfIxLmViwQWY1qKqjTzGdK+7vQ albert.zweistein@gmail.com
 The key&#39;s randomart image is:
 +---[RSA 2048]----+
 |o*=o.XO.. .      |
@@ -569,7 +569,7 @@ and add them to <a class="reference external" href="https://github.com/settings/
 <p>To get the contents of the public key, use the <code class="docutils literal"><span class="pre">cat</span></code> command.
 Something like the following:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cat .ssh/id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+kwxuJ46kIq20odlqQ/sLl0YPkG3yVcXS+IwyWxDiaxOyB3ZqVJPsCF7OKqA9WpIHsdWxXNtU0hD/ulO2DsIJI73tTF+ITDfeMs7A7pzFPmHwTRKIAGzsiiZkj7W2hQK6DFUt/x4fjwJImG3YrNjcJ2//2aOW88Dsoq/+8Hxz3Wm5uDpmkcX5aFFmkFV6oyZoVznUZqpIlRQbgM9b+kXr7pvnYYDrGVVY86frLMrGNKKXE+DXUPLRqUGYmLQ+62xw4I6xXaF4+AyR4j4uTY91Fq1ybSALkxgKkqrZavZudkAzc50nSTTbmgCSwEaAWw0Bz6eX28r4IJclAI98Apcl ubuntu@ubuntu-xenial
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+kwxuJ46kIq20odlqQ/sLl0YPkG3yVcXS+IwyWxDiaxOyB3ZqVJPsCF7OKqA9WpIHsdWxXNtU0hD/ulO2DsIJI73tTF+ITDfeMs7A7pzFPmHwTRKIAGzsiiZkj7W2hQK6DFUt/x4fjwJImG3YrNjcJ2//2aOW88Dsoq/+8Hxz3Wm5uDpmkcX5aFFmkFV6oyZoVznUZqpIlRQbgM9b+kXr7pvnYYDrGVVY86frLMrGNKKXE+DXUPLRqUGYmLQ+62xw4I6xXaF4+AyR4j4uTY91Fq1ybSALkxgKkqrZavZudkAzc50nSTTbmgCSwEaAWw0Bz6eX28r4IJclAI98Apcl albert.zweistein@gmail.com
 </pre></div>
 </div>
 <div class="admonition warning">
