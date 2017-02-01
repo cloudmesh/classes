@@ -140,7 +140,7 @@ Application and Analytics
 60. IBM System G
 61. GraphBuilder(Intel)
 62. TinkerPop
-	ThinkerPop is a graph computing framework from Apache software foundation. :cite:`www-ApacheTinkerPop` Before coming under the Apache project, ThinkerPop was a stack of technologies like Blueprint, Pipes, Frames, Rexters, Furnace and Gremlin where each part was supporting graph-based application development. Now all parts are come under single TinkerPop project repo. :cite:`www-Infoq`  It uses Gremlin, a graph traversal machine and language. It allows user to write complex queries (traversal), that can use for real-time transactional (OLTP) queries, graph analytic system (OLAP) or combination of both as in hybrid. Gremlin is written in java. :cite:`www-ApacheTinkerPopHome` TinkerPop has an ability to create a graph in any size or complexity. Gremlin engine allows user to write graph traversal in Gremlin language, Python, JavaScript, Scala, Go, SQL and SPARQL. It is capable to adhere with small graph which requires a single machine or massive graphs that can only be possible with large cluster of machines, without changing the code. :cite:`www-Infoq`
+	ThinkerPop is a graph computing framework from Apache software foundation. :cite:`www-ApacheTinkerPop` Before coming under the Apache project, ThinkerPop was a stack of technologies like Blueprint, Pipes, Frames, Rexters, Furnace and Gremlin where each part was supporting graph-based application development. Now all parts are come under single TinkerPop project repo. :cite:`www-news`  It uses Gremlin, a graph traversal machine and language. It allows user to write complex queries (traversal), that can use for real-time transactional (OLTP) queries, graph analytic system (OLAP) or combination of both as in hybrid. Gremlin is written in java. :cite:`www-ApacheTinkerPopHome` TinkerPop has an ability to create a graph in any size or complexity. Gremlin engine allows user to write graph traversal in Gremlin language, Python, JavaScript, Scala, Go, SQL and SPARQL. It is capable to adhere with small graph which requires a single machine or massive graphs that can only be possible with large cluster of machines, without changing the code.
 
 63. Parasol
 64. Dream:Lab
@@ -239,7 +239,7 @@ Application Hosting Frameworks
 95. Engine Yard
 96. (CloudControl)
 
-    No Longer active as of Feb. 2016
+    No Longer active as of Feb. 2016 :cite:`www-wiki`
 
 97. dotCloud
 98. Dokku
@@ -889,7 +889,7 @@ Cluster Resource Management
 271. Mesos
 
 272.Yarn
-	Yarn (Yet Another Resource Negotiator) is Apache Hadoop’s cluster management project :cite:`www-cloudera` . It’s a resource management technology which make a pace between, the way applications use Hadoop system resources & node manager agents. Yarn, “split up the functionalities of resource management and job scheduling/monitoring” :cite:`www-HadoopApache`. The NodeManager watch the resource (cpu, memory, disk,network) usage the container and report the same to ResourceManager. Resource manager will take a decision on allocation of resources to the applications. ApplicationMaster is a library specific to application, which requests/negotiate resources from ResourceManager and launch and monitoring the task with NodeManager(s) :cite:`www-architecture`.
+	Yarn (Yet Another Resource Negotiator) is Apache Hadoop’s cluster management project :cite:`www-cloudera` . It’s a resource management technology which make a pace between, the way applications use Hadoop system resources & node manager agents. Yarn, “split up the functionalities of resource management and job scheduling/monitoring”. The NodeManager watch the resource (cpu, memory, disk,network) usage the container and report the same to ResourceManager. Resource manager will take a decision on allocation of resources to the applications. ApplicationMaster is a library specific to application, which requests/negotiate resources from ResourceManager and launch and monitoring the task with NodeManager(s) :cite:`www-architecture`.
 	ResourceManager have two majors: Scheduler and ApplicationManager. Scheduler have a task to schedule the resources required by the application. ApplicationManger holds the record of application who require resource. It validates (whether to allocate the resource or not) the application’s resource requirement and ensure that no other application already have register for the same resource requirement. Also it keeps the track of release of resource. :cite:`www-HadoopApache`
 
 273. Helix
