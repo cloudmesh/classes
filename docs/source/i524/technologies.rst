@@ -54,15 +54,19 @@ Workflow-Orchestration
 19. Crunch
 
 20. Cascading
-	:cite:`www-cascading` Cascading software authored by Chris Wensel is development platform for building the application in Hadoop. 
-	It basically act as an abstraction for Apache Hadoop used for creating complex data processing workflow using
-	the scalability of hadoop however hiding the complexity of mapReduce jobs. 
-	User can write their program in java without having knowledge of mapReduce. Applications written on cascading are portable.   
+
+    :cite:`www-cascading` Cascading software authored by Chris Wensel
+    is development platform for building the application in Hadoop.
+    It basically act as an abstraction for Apache Hadoop used for
+    creating complex data processing workflow using the scalability of
+    hadoop however hiding the complexity of mapReduce jobs.  User can
+    write their program in java without having knowledge of
+    mapReduce. Applications written on cascading are portable.
  
-	Cascading Benefits
-		1. With Cascading application can be scaled as per the data sets.
-		2. Easily Portable
-		3. Single jar file for application deployment.
+    Cascading Benefits
+    1. With Cascading application can be scaled as per the data sets.
+    2. Easily Portable
+    3. Single jar file for application deployment.
 
 21. Scalding
 22. e-Science Central
@@ -170,12 +174,48 @@ Application and Analytics
 60. IBM System G
 61. GraphBuilder(Intel)
 62. TinkerPop
-	ThinkerPop is a graph computing framework from Apache software foundation. :cite:`www-ApacheTinkerPop` Before coming under the Apache project, ThinkerPop was a stack of technologies like Blueprint, Pipes, Frames, Rexters, Furnace and Gremlin where each part was supporting graph-based application development. Now all parts are come under single TinkerPop project repo. :cite:`www-news`  It uses Gremlin, a graph traversal machine and language. It allows user to write complex queries (traversal), that can use for real-time transactional (OLTP) queries, graph analytic system (OLAP) or combination of both as in hybrid. Gremlin is written in java. :cite:`www-ApacheTinkerPopHome` TinkerPop has an ability to create a graph in any size or complexity. Gremlin engine allows user to write graph traversal in Gremlin language, Python, JavaScript, Scala, Go, SQL and SPARQL. It is capable to adhere with small graph which requires a single machine or massive graphs that can only be possible with large cluster of machines, without changing the code.
+    
+    ThinkerPop is a graph computing framework from Apache software
+    foundation. :cite :`www-ApacheTinkerPop` Before coming under the
+    Apache project, ThinkerPop was a stack of technologies like
+    Blueprint, Pipes, Frames, Rexters, Furnace and Gremlin where each
+    part was supporting graph-based application development. Now all
+    parts are come under single TinkerPop project
+    repo. :cite:`www-news` It uses Gremlin, a graph traversal machine
+    and language. It allows user to write complex queries (traversal),
+    that can use for real-time transactional (OLTP) queries, graph
+    analytic system (OLAP) or combination of both as in
+    hybrid. Gremlin is written in
+    java. :cite:`www-ApacheTinkerPopHome` TinkerPop has an ability to
+    create a graph in any size or complexity. Gremlin engine allows
+    user to write graph traversal in Gremlin language, Python,
+    JavaScript, Scala, Go, SQL and SPARQL. It is capable to adhere
+    with small graph which requires a single machine or massive graphs
+    that can only be possible with large cluster of machines, without
+    changing the code.
 
 63. Parasol
 64. Dream:Lab
 65. Google Fusion Tables
-	Fusion Tables is a cloud based services, provided by Google for data management and integration. Fusion Tables allow users to upload the data in tabular format using data files like spreadsheet, CSV, KML, .tsv up to 250MB. :cite:`www-FusionTableSupport` It used for data management, visualizing data (e.g. pie-charts, bar-charts, lineplot, scatterplot, timelines)  :cite:`wiki-FusionTable` , sharing of tables, filter and aggregation the data. It allows user to take the data privately, within controlled collaborative group or in public. It allows to integrate the data from different tables from different users or tables.Fusion Table uses two-layer storage, Bigtable and Magastore. The information rows are stored in bigdata table called “Rows”, user can merge the multiple table in to one, from multiple users. “Megastore is a library on top of bigtable”. :cite:`GoogleFusionTable2012` Data visualization is one the feature, where user can see the visual representation of their data as soon as they upload it. User can store the data along with geospatial information as well.  
+    
+    Fusion Tables is a cloud based services, provided by Google for
+    data management and integration. Fusion Tables allow users to
+    upload the data in tabular format using data files like
+    spreadsheet, CSV, KML, .tsv up to
+    250MB. :cite:`www-FusionTableSupport` It used for data management,
+    visualizing data (e.g. pie-charts, bar-charts, lineplot,
+    scatterplot, timelines) :cite:`wiki-FusionTable` , sharing of
+    tables, filter and aggregation the data. It allows user to take
+    the data privately, within controlled collaborative group or in
+    public. It allows to integrate the data from different tables from
+    different users or tables.Fusion Table uses two-layer storage,
+    Bigtable and Magastore. The information rows are stored in bigdata
+    table called “Rows”, user can merge the multiple table in to one,
+    from multiple users. “Megastore is a library on top of
+    bigtable”. :cite:`GoogleFusionTable2012` Data visualization is one
+    the feature, where user can see the visual representation of their
+    data as soon as they upload it. User can store the data along with
+    geospatial information as well.
 
 66. CINET
 67. NWB
@@ -232,8 +272,21 @@ Application Hosting Frameworks
     **Note: This is an example for a bad entry**
 
 81. AppScale
-	AppScale is an application hosting platform. This platform helps to deploy and scale the unmodified Google App Engine application, which run the application on any cloud infrastructure in public, private and on premise cluster. :cite:`www-AppScale` 
-	AppScale provide rapid, API development platform that can run on any cloud infrastructure. The platform separates the app logic and its service part to have control over application deployment, data storage, resource use, backup and migration.  :cite:`www-WhyAppScale` AppScale is based on Google’s App Engine APIs and has support for Python, Go, PHP and Java applications. It supports single and multimode deployment, which will help with large, dataset or CPU. AppScale allows to deploy app in thee main mode i.e. dev/test, production and customize deployment.  :cite:`www-deployment`
+
+    AppScale is an application hosting platform. This platform helps
+    to deploy and scale the unmodified Google App Engine application,
+    which run the application on any cloud infrastructure in public,
+    private and on premise cluster. :cite:`www-AppScale` AppScale
+    provide rapid, API development platform that can run on any cloud
+    infrastructure. The platform separates the app logic and its
+    service part to have control over application deployment, data
+    storage, resource use, backup and migration.
+    :cite:`www-WhyAppScale` AppScale is based on Google’s App Engine
+    APIs and has support for Python, Go, PHP and Java applications. It
+    supports single and multimode deployment, which will help with
+    large, dataset or CPU. AppScale allows to deploy app in thee main
+    mode i.e. dev/test, production and customize deployment.
+    :cite:`www-deployment`
 
 82. Red Hat OpenShift
 83. Heroku
@@ -255,28 +308,33 @@ Application Hosting Frameworks
 85. AWS Elastic Beanstalk
 86. Azure
 
-    Microsoft Corporation (MSFT) markets its cloud products under the *Azure*
-    brand name. At its most basic, Azure acts as an *infrastructure-
-    as-a-service* (IaaS) provider.  IaaS virtualizes hardware components, a key
-    differentiation from other *-as-a-service* products. IaaS "abstract[s] the
-    user from the details of infrasctructure like physical computing resources,
-    location, data partitioning, scaling, security, backup, etc." 
+    Microsoft Corporation (MSFT) markets its cloud products under the
+    *Azure* brand name. At its most basic, Azure acts as an
+    *infrastructure- as-a-service* (IaaS) provider.  IaaS virtualizes
+    hardware components, a key differentiation from other
+    *-as-a-service* products. IaaS "abstract[s] the user from the
+    details of infrasctructure like physical computing resources,
+    location, data partitioning, scaling, security, backup, etc."
     :cite:`www-wikipedia-cloud`
 
-    However, Azure offers a host of closely-related tool and products to enhance
-    and improve the core product, such as raw block storage, load balancers, and
-    IP addresses :cite:`www-azure-msft`. For instance, Azure users can access
-    predictive analytics, Bots and Blockchain-as-a-Service 
-    :cite:`www-azure-msft` as well as more-basic computing, networking, storage,
-    database and management components :cite:`www-sec-edgar-msft`.  The Azure 
-    website shows twelve major categories under *Products* and twenty 
-    *Solution* categories, e.g., e-commerce or Business SaaS apps.
+    However, Azure offers a host of closely-related tool and products
+    to enhance and improve the core product, such as raw block
+    storage, load balancers, and IP addresses
+    :cite:`www-azure-msft`. For instance, Azure users can access
+    predictive analytics, Bots and Blockchain-as-a-Service
+    :cite:`www-azure-msft` as well as more-basic computing,
+    networking, storage, database and management components
+    :cite:`www-sec-edgar-msft`.  The Azure website shows twelve major
+    categories under *Products* and twenty *Solution* categories,
+    e.g., e-commerce or Business SaaS apps.
 
-    Azure competes against Amazon's *Amazon Web Service*, :cite:`www-aws-amzn`
-    even though IBM (*SoftLayer*  :cite:`www-softlayer-ibm` and *Bluemix* 
-    :cite:`www-bluemix-ibm`) and Google (*Google Cloud Platform*) 
-    :cite:`www-cloud-google` offer IaaS to the market.  As of January 2017,
-    Azure's datacenters span 32 Microsoft-defined *regions*, or 38 *declared regions*, throughout the world. :cite:`www-azure-msft`
+    Azure competes against Amazon's *Amazon Web Service*,
+    :cite:`www-aws-amzn` even though IBM (*SoftLayer*
+    :cite:`www-softlayer-ibm` and *Bluemix* :cite:`www-bluemix-ibm`)
+    and Google (*Google Cloud Platform*) :cite:`www-cloud-google`
+    offer IaaS to the market.  As of January 2017, Azure's datacenters
+    span 32 Microsoft-defined *regions*, or 38 *declared regions*,
+    throughout the world. :cite:`www-azure-msft`
 
 87. Cloud Foundry
 88. Pivotal
@@ -414,43 +472,47 @@ High level Programming
 122. Pig
 123. Sawzall
 
-     Google engineers created the domain-specific programming language (DSL)
-     *Sawzall* as a productivity enhancement tool for Google employees.  They
-     targeted the analysis of large data sets with flat, but regular, structures
-     spread across numerous servers.  The authors designed it to handle "simple,
-     easily distributed computations: filtering, aggregation, extraction of
-     statistics," etc. from the aforementioned data sets. 
+     Google engineers created the domain-specific programming language
+     (DSL) *Sawzall* as a productivity enhancement tool for Google
+     employees.  They targeted the analysis of large data sets with
+     flat, but regular, structures spread across numerous servers.
+     The authors designed it to handle "simple, easily distributed
+     computations: filtering, aggregation, extraction of statistics,"
+     etc. from the aforementioned data sets.
      :cite:`unpublished-google-sawzall`
 
-     In general terms, a Sawzall job works as follows: multiple computers each 
-     create a Sawzall instance, perform some operation on a single record out of
-     (potentially) petabytes of data, return the result to an aggregator
-     function on a different computer and then shut down the Sawzall instance.
+     In general terms, a Sawzall job works as follows: multiple
+     computers each create a Sawzall instance, perform some operation
+     on a single record out of (potentially) petabytes of data, return
+     the result to an aggregator function on a different computer and
+     then shut down the Sawzall instance.
 
      The engineer's focus on simplicity and parallelization led to
      unconventional design choices.  For instance, in contrast to most
-     programming languages Sawzall operates on one data record at a time; it
-     does not even preserve state between records.    
-     :cite:`www-bytemining-sawzall`  Addtionally, the language provides just 
-     a single primitive result function, the *emit* statement.  The emitter
-     returns a value from the Sawzall program to a designated virtual
-     receptacle, generally some type of aggregator.  In another example of
-     pursuing language simplicity and parallelization, the aggregators remain
-     separate from the formal Sawzall language (they are written in C++) because
-     "some of the aggregation algorithms are sophisticated and best implemented
-     in a native language [and] [m]ore important[ly] drawing an explicit line
-     between filtering and aggregation enables a high degree of parallelism,
-     even though it hides the parallelism from the language itself".  
-     :cite:`unpublished-google-sawzall`
+     programming languages Sawzall operates on one data record at a
+     time; it does not even preserve state between records.
+     :cite:`www-bytemining-sawzall` Addtionally, the language provides
+     just a single primitive result function, the *emit* statement.
+     The emitter returns a value from the Sawzall program to a
+     designated virtual receptacle, generally some type of aggregator.
+     In another example of pursuing language simplicity and
+     parallelization, the aggregators remain separate from the formal
+     Sawzall language (they are written in C++) because "some of the
+     aggregation algorithms are sophisticated and best implemented in
+     a native language [and] [m]ore important[ly] drawing an explicit
+     line between filtering and aggregation enables a high degree of
+     parallelism, even though it hides the parallelism from the
+     language itself".  :cite:`unpublished-google-sawzall`
 
-     Important components of the Sawzall language include: *szl*, the binary
-     containing the code compiler and byte-code interpreter that executes the
-     program; the *libszl* library, which compiles and executes Sawzall programs
-     "[w]hen szl is used as part of another program, e.g. in a [map-reduce]
-     program"; the Sawzall language plugin, designated *protoc_gen_szl*, which
-     generates Sawzall code when run in conjunction with Google's own *protoc*
-     protocol compiler; and libraries for intrinsic functions as well as
-     Sawzall's associated aggregation functionality. 
+     Important components of the Sawzall language include: *szl*, the
+     binary containing the code compiler and byte-code interpreter
+     that executes the program; the *libszl* library, which compiles
+     and executes Sawzall programs "[w]hen szl is used as part of
+     another program, e.g. in a [map-reduce] program"; the Sawzall
+     language plugin, designated *protoc_gen_szl*, which generates
+     Sawzall code when run in conjunction with Google's own *protoc*
+     protocol compiler; and libraries for intrinsic functions as well
+     as Sawzall's associated aggregation functionality.
      :cite:`www-google-code-wiki-sawzall`
 
 124. Google Cloud DataFlow
@@ -888,34 +950,34 @@ NoSQL
 220. Solandra
 221. Voldemort
 
-     According to :cite:`www-voldemort`, project Voldemort, 
-     developed by LinkedIn, is a non-relational database of 
-     key-value type that supports eventual consistency. The 
-     distributed nature of the system allows pluggable data 
-     placement and provides horizontal scalability and high 
-     consistency. Replication and partitioning of data is 
-     automatic and performed on multiple servers. Independent 
-     nodes that comprise the server support transparent handling 
-     of server failure and ensure absence of a central point of 
-     failure. Essentially, Voldemort is a hashtable. It uses APIs 
-     for data replication. In memory caching allows for faster 
-     operations. It allows cluster expansion with no data rebalancing. 
-     When Voldemort performance was benchmarked with the other 
-     key-value databases such as Cassandra, Redis and HBase as well 
-     as MySQL relational database :cite:`rabl-sadoghi-jacobsen-2012`, 
-     the Voldemart's throughput was twice lower than MySQL and 
-     Cassandra and six times higher than HBase. Voldemort was 
-     slightly underperforming in comparison with Redis. At the same 
-     time, it demonstrated consistent linear performance in maximum 
-     throughput that supports high scalability. The read latency for 
-     Voldemort was fairly consistent and only slightly underperformed
-     Redis. Similar tendency was observed with the read latency that 
-     puts Voldermort in the cluster of databases that require good 
-     read-write speed for workload operations. However, the same authors 
-     noted that Voldemort required creation of the node specific 
-     configuration and optimization in order to successfully run a high 
-     throughput tests. The default options were not sufficient and were 
-     quickly saturated that stall the database.
+     According to :cite:`www-voldemort`, project Voldemort, developed
+     by LinkedIn, is a non-relational database of key-value type that
+     supports eventual consistency. The distributed nature of the
+     system allows pluggable data placement and provides horizontal
+     scalability and high consistency. Replication and partitioning of
+     data is automatic and performed on multiple servers. Independent
+     nodes that comprise the server support transparent handling of
+     server failure and ensure absence of a central point of
+     failure. Essentially, Voldemort is a hashtable. It uses APIs for
+     data replication. In memory caching allows for faster
+     operations. It allows cluster expansion with no data rebalancing.
+     When Voldemort performance was benchmarked with the other
+     key-value databases such as Cassandra, Redis and HBase as well as
+     MySQL relational database :cite:`rabl-sadoghi-jacobsen-2012`, the
+     Voldemart's throughput was twice lower than MySQL and Cassandra
+     and six times higher than HBase. Voldemort was slightly
+     underperforming in comparison with Redis. At the same time, it
+     demonstrated consistent linear performance in maximum throughput
+     that supports high scalability. The read latency for Voldemort
+     was fairly consistent and only slightly underperformed
+     Redis. Similar tendency was observed with the read latency that
+     puts Voldermort in the cluster of databases that require good
+     read-write speed for workload operations. However, the same
+     authors noted that Voldemort required creation of the node
+     specific configuration and optimization in order to successfully
+     run a high throughput tests. The default options were not
+     sufficient and were quickly saturated that stall the database.
+     
 222. Riak
 223. ZHT
 224. Berkeley DB
@@ -942,62 +1004,68 @@ NoSQL
 230. CouchDB
 231. Couchbase
 
-     Couchbase, Inc. offers Couchbase Server (CBS) to the marketplace as a
-     NoSQL, document-oriented database alternative to traditional relationship-
-     oriented database managgement systems as well as other NoSQL competitors.
-     The basic storage unit, a *document*, is a "data structure defined as a
-     collection of named fields".  The document utilizes JSON, thereby allowing
-     each document to have its own individual schema. :cite:`www-infoworld-cbs`
+     Couchbase, Inc. offers Couchbase Server (CBS) to the marketplace
+     as a NoSQL, document-oriented database alternative to traditional
+     relationship- oriented database managgement systems as well as
+     other NoSQL competitors.  The basic storage unit, a *document*,
+     is a "data structure defined as a collection of named fields".
+     The document utilizes JSON, thereby allowing each document to
+     have its own individual schema. :cite:`www-infoworld-cbs`
 
-     CBS combines the in-memory capabilities of Membase with CouchDB's inherent
-     data store reliability and data persistency.  Membase functions in RAM
-     only, providing the highest-possible speed capabilities to end users.
-     However, Membase's in-ram existence limits the amount of data it can use.
-     More importantly, it provides no mechanism for data recovery if the server
-     crashes.  Combining Membase with CouchDB provides a persistent data source,
-     mitigating the disadvantages of either product.  In addition, CouchDB +
-     membase allows the data size "to grow beyond the size of RAM".
-     :cite:`www-safaribooks-cbs`
+     CBS combines the in-memory capabilities of Membase with CouchDB's
+     inherent data store reliability and data persistency.  Membase
+     functions in RAM only, providing the highest-possible speed
+     capabilities to end users.  However, Membase's in-ram existence
+     limits the amount of data it can use.  More importantly, it
+     provides no mechanism for data recovery if the server crashes.
+     Combining Membase with CouchDB provides a persistent data source,
+     mitigating the disadvantages of either product.  In addition,
+     CouchDB + membase allows the data size "to grow beyond the size
+     of RAM".  :cite:`www-safaribooks-cbs`
 
-     CBS is written in Erlang/OTP, but generally shortened to just Erlang.  In
-     actuality, t is written in "Erlang using components of OTP...alongside some
-     C/C++":cite:`www-erlangcentral-cbs`, It runs on an Erlang virtual machine
-     known as BEAM. :cite:`www-wikipedia-erlang-cbs`
+     CBS is written in Erlang/OTP, but generally shortened to just
+     Erlang.  In actuality, t is written in "Erlang using components
+     of OTP...alongside some C/C++":cite:`www-erlangcentral-cbs`, It
+     runs on an Erlang virtual machine known as
+     BEAM. :cite:`www-wikipedia-erlang-cbs`
 
-     Out-of-the-box benefits of Erlang/OTP include dynamic type setting, pattern
-     matching and, most importantly, actor-model concurrency.  As a result,
-     Erlang code virtually eliminates the possibility of inadvertent deadlock
-     scenarios.  In addition, Erlang/OTP processes are lightweight, spawning new
-     processes does not consume many resources and message passing between
-     processes is fast since they run in the same memory space.  Finally, OTP's
-     process supervision tree makes Erlang/OTP extremely fault-tolerant.  Error
-     handling is indistinguishable from a process startup, easing testing and
-     bug detection.  :cite:`www-couchbase-blog-cbs`
+     Out-of-the-box benefits of Erlang/OTP include dynamic type
+     setting, pattern matching and, most importantly, actor-model
+     concurrency.  As a result, Erlang code virtually eliminates the
+     possibility of inadvertent deadlock scenarios.  In addition,
+     Erlang/OTP processes are lightweight, spawning new processes does
+     not consume many resources and message passing between processes
+     is fast since they run in the same memory space.  Finally, OTP's
+     process supervision tree makes Erlang/OTP extremely
+     fault-tolerant.  Error handling is indistinguishable from a
+     process startup, easing testing and bug detection.
+     :cite:`www-couchbase-blog-cbs`
 
-     CouchDB's design adds another layer of reliability to CBS.  CouchDB
-     operates in *append-only* mode, so it adds user changes to the tail of
-     database.   This setup resists data corruption while taking a snapshot,
-     even if the server continues to run during the procedure.
-     :cite:`www-hightower-cbs`
+     CouchDB's design adds another layer of reliability to CBS.
+     CouchDB operates in *append-only* mode, so it adds user changes
+     to the tail of database.  This setup resists data corruption
+     while taking a snapshot, even if the server continues to run
+     during the procedure.  :cite:`www-hightower-cbs`
 
-     Finally, CB uses the Apache 2.0 License, one of several open-source license
-     alternatives. :cite:`www-quora-cbs`
+     Finally, CB uses the Apache 2.0 License, one of several
+     open-source license alternatives. :cite:`www-quora-cbs`
 
 232. IBM Cloudant
 233. Pivotal Gemfire
 234. HBase
 235. Google Bigtable
 
-     Google Bigtable is a NoSQL database service, built upon several Google 
-     technologies, including Google File System, Chubby Lock Service, and 
-     SSTable.  Designed for Big Data, Bigtable provides high performance 
-     and low latency and scales to hundreds of petabytes. 
-     :cite:`www-cloudbigtable` Bigtable powers many core Google products, 
-     such as Search, Analytics, Maps, Earth, Gmail, and YouTube. 
-     :cite:`www-wikibigtable` Since May 6, 2015, a version of Bigtable has 
-     been available to the public.  Bigtable also drives Google Cloud 
-     Datastore :cite:`www-wikibigtable` and Spanner, a distributed NewSQL 
-     also developed by Google. :cite:`www-wikispanner`
+     Google Bigtable is a NoSQL database service, built upon several
+     Google technologies, including Google File System, Chubby Lock
+     Service, and SSTable.  Designed for Big Data, Bigtable provides
+     high performance and low latency and scales to hundreds of
+     petabytes.  :cite:`www-cloudbigtable` Bigtable powers many core
+     Google products, such as Search, Analytics, Maps, Earth, Gmail,
+     and YouTube.  :cite:`www-wikibigtable` Since May 6, 2015, a
+     version of Bigtable has been available to the public.  Bigtable
+     also drives Google Cloud Datastore :cite:`www-wikibigtable` and
+     Spanner, a distributed NewSQL also developed by
+     Google. :cite:`www-wikispanner`
 
 236. LevelDB
 237. Megastore and Spanner
@@ -1029,28 +1097,30 @@ NoSQL
 250. Sesame
 251. Public Cloud: Azure Table
 
-     Microsoft offers its NoSQL Azure Table product to the market as a low-cost,
-     fast and scalable data storage option. :cite:`www-what-to-use`  Table
-     stores data as collections of key-value  combinations, which it terms
-     *properties*.  Table refers to a collection of properties as an *entity*.
-     Each entity can contain a mix of properties.  The mix of properties can
-     vary between each entity, although each entity may consist of no more than
-     255 properties. :cite:`www-blobqueuetable`
+     Microsoft offers its NoSQL Azure Table product to the market as a
+     low-cost, fast and scalable data storage
+     option. :cite:`www-what-to-use` Table stores data as collections
+     of key-value combinations, which it terms *properties*.  Table
+     refers to a collection of properties as an *entity*.  Each entity
+     can contain a mix of properties.  The mix of properties can vary
+     between each entity, although each entity may consist of no more
+     than 255 properties. :cite:`www-blobqueuetable`
 
-     Although data in Azure Table will be structured via key-value pairs, Table
-     provides just one mechanism for the user to define relationships between
-     entities: the entity's *primary key*.  The primary key, which Microsoft
-     sometimes calls a *clustered index*, consists of a PartitionKey and a
-     RowKey.  The PartitionKey indicates the group, a.k.a partition, to which
-     the user assigned the entity.  The RowKey indicates the entity's relative
-     position in the group.  Table sorts in ascending order by the PartitionKey
-     first, then by the RowKey using lexical comparisons.  As a result, numeric
-     sorting requires fixed-length, zero-padded strings.  For instance, Table
-     sorts *111* before *2*, but will sort *111* after
-     *002*. :cite:`www-scalable-partitioning`
+     Although data in Azure Table will be structured via key-value
+     pairs, Table provides just one mechanism for the user to define
+     relationships between entities: the entity's *primary key*.  The
+     primary key, which Microsoft sometimes calls a *clustered index*,
+     consists of a PartitionKey and a RowKey.  The PartitionKey
+     indicates the group, a.k.a partition, to which the user assigned
+     the entity.  The RowKey indicates the entity's relative position
+     in the group.  Table sorts in ascending order by the PartitionKey
+     first, then by the RowKey using lexical comparisons.  As a
+     result, numeric sorting requires fixed-length, zero-padded
+     strings.  For instance, Table sorts *111* before *2*, but will
+     sort *111* after *002*. :cite:`www-scalable-partitioning`
 
-     Azure Table is considered best-suited for infrequently accessed data
-     storage.
+     Azure Table is considered best-suited for infrequently accessed
+     data storage.
 
 252. Amazon Dynamo
 253. Google DataStore
@@ -1141,9 +1211,29 @@ Cluster Resource Management
 
 271. Mesos
 
-272.Yarn
-	Yarn (Yet Another Resource Negotiator) is Apache Hadoop’s cluster management project :cite:`www-cloudera` . It’s a resource management technology which make a pace between, the way applications use Hadoop system resources & node manager agents. Yarn, “split up the functionalities of resource management and job scheduling/monitoring”. The NodeManager watch the resource (cpu, memory, disk,network) usage the container and report the same to ResourceManager. Resource manager will take a decision on allocation of resources to the applications. ApplicationMaster is a library specific to application, which requests/negotiate resources from ResourceManager and launch and monitoring the task with NodeManager(s) :cite:`www-architecture`.
-	ResourceManager have two majors: Scheduler and ApplicationManager. Scheduler have a task to schedule the resources required by the application. ApplicationManger holds the record of application who require resource. It validates (whether to allocate the resource or not) the application’s resource requirement and ensure that no other application already have register for the same resource requirement. Also it keeps the track of release of resource. :cite:`www-HadoopApache`
+272. Yarn
+
+     Yarn (Yet Another Resource Negotiator) is Apache Hadoop’s cluster
+     management project :cite:`www-cloudera` . It’s a resource
+     management technology which make a pace between, the way
+     applications use Hadoop system resources & node manager
+     agents. Yarn, “split up the functionalities of resource
+     management and job scheduling/monitoring”. The NodeManager watch
+     the resource (cpu, memory, disk,network) usage the container and
+     report the same to ResourceManager. Resource manager will take a
+     decision on allocation of resources to the
+     applications. ApplicationMaster is a library specific to
+     application, which requests/negotiate resources from
+     ResourceManager and launch and monitoring the task with
+     NodeManager(s) :cite:`www-architecture`.  ResourceManager have
+     two majors: Scheduler and ApplicationManager. Scheduler have a
+     task to schedule the resources required by the
+     application. ApplicationManger holds the record of application
+     who require resource. It validates (whether to allocate the
+     resource or not) the application’s resource requirement and
+     ensure that no other application already have register for the
+     same resource requirement. Also it keeps the track of release of
+     resource. :cite:`www-HadoopApache`
 
 273. Helix
 274. Llama
@@ -1637,7 +1727,8 @@ TechList.1: In class you will be given an HID and you will be assigned
   important once while limiting it to three if you can. Avoid
   plagearism and use proper quotations or better rewrite the text.
 
-  You must look at :doc:`technologies-hw` to sucessfully complete the homework
+  You must look at :doc:`technologies-hw` to sucessfully complete the
+  homework
 
   A video about this hoemwork is posted at
   https://www.youtube.com/watch?v=roi7vezNmfo showing how to
