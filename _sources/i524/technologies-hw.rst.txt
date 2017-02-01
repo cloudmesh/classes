@@ -12,7 +12,7 @@ thet you are running the commands in virtualenv
 
 
 Prerequisites
-=============
+-------------
 
 #. You have Ubuntu installed in Virtualbox. See lesson :doc:`../lesson/linux/ubuntu`.
 #. You have prepared the Ubuntu VM as in lesson :doc:`./ubuntu-setup`
@@ -110,7 +110,7 @@ Prerequisites
 
 
 Setup Your Repository
-=====================
+---------------------
 
 #. Fork the class repository to your local. See lesson :ref:`fork_repo_` or `video
    <https://youtu.be/roi7vezNmfo?t=22m2s>`_.
@@ -197,7 +197,7 @@ Setup Your Repository
 
 
 Add Your Technology
-===================
+--------------------
 
 #. Edit the following two files within the ``classes`` directory, see `video
    <https://youtu.be/roi7vezNmfo?t=19m34s>`_:
@@ -388,61 +388,68 @@ Add Your Technology
       techlist``.
 
 
-..
-   Tips
-   ----
 
-   1. Why do I not see that my changes are published on the Web page?
+Tips
+----
 
-      Changes will take time to be reviewed and integrated into the Web
+Why do I not see that my changes are published on the Web page?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-      page. Changes will be done in two steps. First, they will be merged
-      into the branch I524. Later, your changes will be merged into the
-      master branch. You will see your changes in the master branch.
+Changes will take time to be reviewed and integrated into the Web
+page. Changes will be done in two steps. First, they will be merged
+into the branch I524. Later, your changes will be merged into the
+master branch. You will see your changes in the master branch.
 
-   2. How do I know if I did it right?
+How do I know if I did it right?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-      Check the https://github.com/cloudmesh/classes/pulls to see your
-      pull request.
-      When your changes were approved and merged with the master branch,
-      your pull request will disappear.
+Check the https://github.com/cloudmesh/classes/pulls to see your pull
+request.  When your changes were approved and merged with the master
+branch, your pull request will disappear.
 
-   3. Create an upstrem synchronization
+What happens when I cite a refernce more than once?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-      First, make sure that git on your computer is configured properly. For example::
+The developers of the module that allows us to use bibtex in sphinx
+ommit the label when a refernce is cited more than once. Back
+refrences are included in the refernce section. We ignore this andhope
+the developers of the module will change this in future. You can
+certainly work with them to fix this and improve their module, but
+this is out of scope for this class. We simply ignore this issue.
 
-        $ git config --global user.name "Albert Zweistein"
-        $ git config --global user.email albert.zweistein@gmail.com
+What is the difference between label and key?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-      Fork this repository by clicking the "Fork" button on the top right
-      of this page. You will be redirected to a new page. Verify that
-      your github username is in the url. Eg:
+A key is only used to give bibtex a hint on haow the bibtex entry is
+**sorted** in the bibliography. It is not used as label, or the
+specification of some category.
 
-      https://github.com/YOUR_GITHUB_USERNAME/classes
-      Clone your forked repository::
+A label is the actuall identifyer that you would use in the text to
+refer to the entry and is in the line with the @ character.
 
-        $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+How do I do an organization as author?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-      Add the upstream repository
-      https://help.github.com/articles/configuring-a-remote-for-a-fork/ ::
+::
 
-        $ git remote add upstream https://github.com/cloudmesh/classes
+   author = {{This Is My Organization}},
 
-      ..note:: You should frequently keep your fork up to date
-               https://help.github.com/articles/syncing-a-fork/
+How do I do an entry that does not have an author?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-      ::
+Leave the author field of, however now there is no sorting
+criteria. To enable proper sorting you add a usefull key that uses the
+place ment in the reference section based on the key you put in.
 
-         $ git fetch upstream
-         $ git merge upstream/master
+::
 
-      You should also periodically push your changes to your fork::
+   key = {put me in the sort order at *put*}
 
-         $ git push origin master
+
 
 
 Learning outcomes
-=================
+------------------
 
 1. CANVAS is not a tool used in open source development and
    industry. It has limitations in scalability and in structuring
@@ -464,3 +471,39 @@ Learning outcomes
 
 4. You will learn how to create proper references while
    using academic bibliography management tools.
+
+
+
+
+.. comment:
+   
+   3. Create an upstrem synchronization
+
+      First, make sure that git on your computer is configured properly. For example::
+
+        $ git config --global user.name "Albert Zweistein"
+        $ git config --global user.email albert.zweistein@gmail.com
+
+      Fork this repository by clicking the "Fork" button on the top right
+      of this page. You will be redirected to a new page. Verify that
+      your github username is in the url. Eg:
+
+      https://github.com/YOUR_GITHUB_USERNAME/classes
+      Clone your forked repository::
+
+        $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+
+      Add the upstream repository
+        $ git remote add upstream https://github.com/cloudmesh/classes
+
+      ..note:: You should frequently keep your fork up to date
+               https://help.github.com/articles/syncing-a-fork/
+
+      ::
+
+         $ git fetch upstream
+         $ git merge upstream/master
+
+      You should also periodically push your changes to your fork::
+
+         $ git push origin master

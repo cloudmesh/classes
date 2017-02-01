@@ -140,7 +140,7 @@ prefer editors such as emacs/
 
 
 LyX
-~~~
+----------------------------
 
 We have made very good experiences with Lyx. You must assure that the
 team you work with uses it consistently and that you all use the same version.
@@ -157,7 +157,7 @@ not included by default. However the above link clearly documents how
 to fix this.
 
 WYSIWYG locally
---------------
+----------------------------
 
 We have found that editors such as Lyx and Auctex provide very good
 WYSIWYG alike features. However, we found an even easier way while

@@ -39,6 +39,9 @@ types implemented in C or C++ (or other languages callable from
 C). Python is also suitable as an extension language for customizable
 applications.
 
+Philosophy
+------------------
+
 Python is an interpreted, dynamic, high-level programming language
 suitable for a wide range of applications. The `The Zen of Python`_
 summarizes some of its philosophy including:
@@ -47,6 +50,9 @@ summarizes some of its philosophy including:
 * Simple is better than complex
 * Complex is better than complicated
 * Readability counts
+
+Features
+----------
 
 The main features of Python are:
 
@@ -63,6 +69,9 @@ and is applied for web development, scientific computing, embedded
 applications, artificial intelligence, software development, and
 information security, to name a few.
 
+About the Tutorial
+=================================================================
+
 This tutorial introduces the reader informally to the basic concepts
 and features of the Python language and system. It helps to have a
 Python interpreter handy for hands-on experience, but all examples are
@@ -78,167 +87,19 @@ modules.
 
 .. _The Zen of Python: https://www.python.org/dev/peps/pep-0020/
 
-Installation
-=================================================================
-
-Python is easy to install and very good instructions for most
-platforms can be found on the python.org Web page. We will be
-using Python 2.7.12 but not Python 3.
-
-We assume that you have a computer with python installed.
-However, we recommend that you use pythons virtualenv to
-isolate your development python from the system installed python.
-
-.. note:: If you are not familiar with virtualenv, please read up on
-	  it.
-
-Alternative Installations
-=================================================================
-
-The best installation of python is provided by python.og. However
-others claim to have alternative environments that allow you to
-install python. This includes
-
-* `Canopy <https://store.enthought.com/downloads/#default>`_
-* `Anaconda <https://www.continuum.io/downloads>`_
-* `IronPython <http://ironpython.net/>`_
-
-Typically they include not only the python compiler but also several
-useful packages. It is fine to use such environments for the class,
-but it should be noted that in both cases not every python library may
-be available for install in the given environment. For example if you
-need to use cloudmesh client, it may not be available as conda or
-Canopy package. This is also the case for many other cloud related and
-useful python libraries. Hence, we do recommend that if you are new to
-python to use the distribution form python.org, and use pip and
-virtualenv.
-
-Additionally some python version have platform specific libraries or
-dependencies. For example coca libraries, .NET or other frameworks are
-examples. For the assignments and the projects such platform dependent
-libraries are not to be used.
-
-If however you can write a platform independent code that works on
-Linux, OSX and Windows while using the python.org version but develop
-it with any of the other tools that is just fine. However it is up to
-you to guarantee that this independence is maintained and
-implemented. You do have to write requirements.txt files that will
-install the necessary python libraries in a platform independent
-fashion. The homework assignment PRG1 has even a requirement to do so.
-
-In order to provide platform independence we have given in the class a
-"minimal" python version that we have tested with hundreds of
-students: python.org. If you use any other version, that is your
-decision. Additionally some students not only use python.org but have
-used iPython which is fine too. However this class is not only about
-python, but also about how to have your code run on any platform. The
-homework is designed so that you can identify a setup that works for
-you.
-
-However we have concerns if you for example wanted to use chameleon
-cloud which we require you to access with cloudmesh. cloudmesh is not
-available as conda, canopy, or other framework package. Cloudmesh
-client is available form pypi which is standard and should be
-supported by the frameworks. We have not tested cloudmesh on any other
-python version then python.org which is the open source community
-standard. None of the other versions are standard.
-
-In fact we had students over the summer using canopy on their machines
-and they got confused as they now had multiple python versions and did
-not know how to switch between them and activate the correct
-version. Certainly if you know how to do that, than feel free to use
-canopy, and if you want to use canopy all this is up to you. However
-the homework and project requires you to make your program portable to
-python.org. If you know how to do that even if you use canopy,
-anaconda, or any other python version that is fine. Graders will test
-your programs on a python.org installation and not canpoy, anaconda,
-ironpython while using virtualenv. It is obvious why. If you do not
-know that answer you may want to think about that every time they test
-a program they need to do a new virtualenv and run vanilla python in
-it. If we were to run two instals in the same system, this will not
-work as we do not know if one student will cause a side effect for
-another. Thus we as instructors do not just have to look at your code
-but code of hundreds of students with different setups. This is a non
-scalable solution as every time we test out code from a student we
-would have to wipe out the OS, install it new, install an new version
-of whatever python you have elected, become familiar with that version
-and so on and on. This is the reason why the open source community is
-using python.org. We follow best practices. Using other versions is
-not a community best practice, but may work for an individual.
-
-We have however in regards to using other python version additional
-bonus projects such as
-
-* deploy run and document cloudmesh on ironpython
-* deploy run and document cloudmesh on anaconde, develop script to
-  generate a conda packge form github
-* deploy run and document cloudmesh on canopy, develop script to
-  generate a conda packge form github
-* deploy run and document cloudmesh on ironpython
-* other documentation that would be useful
-
-  .. warning:: For this class, we do not recommend using any of these
-alternative installations. If you decide to use them, you are taking
-the risk of modifying your system configuration in a way that may
-affect other software. We will not be able to provide help for issues
-related to this.
-
-Resources
-=================================================================
-
-If you are unfamiliar with programming in Python, we also refer you
-to some of the numerous online resources. You may wish to start with
-`Learn Python`_ or the book `Learn Python the Hard Way`_. Other
-options include `Tutorials Point`_ or `Code Academy`_, and the Python wiki page
-contains a long list of `references for learning`_ as well.
-Additional resources include:
-
-* http://ivory.idyll.org/articles/advanced-swc/
-* http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
-* http://www.youtube.com/watch?v=0vJJlVBVTFg
-* http://www.korokithakis.net/tutorials/python/
-* http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
-* http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
-
-
-A very long list of useful information are also available from
-
-* https://github.com/vinta/awesome-python
-* https://github.com/rasbt/python_reference
-
-This list may be useful as it also contains links to data
-visualization and manipulation libraries, and AI tools and libraries.
-Please note that for this class you can reuse such libraries if not
-otherwise stated.
-
-.. _Code Academy: http://www.codecademy.com/en/tracks/python
-.. _Python documentation site: https://docs.python.org/2.7/
-.. _list of introductory books: https://wiki.python.org/moin/IntroductoryBooks
-.. _Python Module index: https://docs.python.org/2/py-modindex.html
-.. _StackOverflow python tags: http://stackoverflow.com/questions/tagged/python
-.. _searching Google: https://www.google.com/?gws_rd=ssl#q=python+how+to
-.. _PyCharm IDE: https://www.jetbrains.com/pycharm/
-.. _Learn Python the Hard Way: http://learnpythonthehardway.org/book/
-.. _Tutorials Point: http://www.tutorialspoint.com/python/
-.. _references for learning: https://wiki.python.org/moin/BeginnersGuide/Programmers
-.. _Learn Python: https://www.learnpython.org
-
 Prerequisite
-=================================================================
+-------------------
 
 In order to conduct this lesson you should
 
-* A computer with python 2.7.x
-* Familiarity with commandline usage
-* A text editor such as PyCharm, emacs, vi or others. You should
-  identity which works best for you and set it up.
-* We do not recommend anaconda, or canopy as we ran into issues once
-  you do some more advanced python. Instead we recommend you use pip
-  and virtualenv. If you are unfamiliar with these tools, please
-  consult the manual and tutorials available for it on the internet.
+* A computer with Python 2.7.x (and preferably, virtualenv)
+* Familiarity with command line usage
+* A text editor such as `PyCharm
+  <https://www.jetbrains.com/pycharm/>`_, emacs, vi or others. You
+  should identity which works best for you and set it up.
 
 Dependencies
-=================================================================
+-------------------
 
 * `Python <https://www.python.org/>`_
 * `Pip <https://pip.pypa.io/en/stable/>`_
@@ -248,9 +109,8 @@ Dependencies
 * `Matplotlib <http://matplotlib.org/>`_
 * `Pandas <http://pandas.pydata.org/>`_
 
-
 Learning Goals
-=================================================================
+-------------------
 
 At the end of this lesson you will be able to:
 
@@ -261,27 +121,57 @@ At the end of this lesson you will be able to:
 - have an overview of the standard library
 - install Python libraries using ``virtualenv``
 
-
-.. _python-resources:
-
-Using Python on FutureSystems
+Python Installation
 =================================================================
 
-.. warning:: This is only important if you use Futuresystems resources.
+Python is easy to install and very good instructions for most
+platforms can be found on the python.org Web page. We will be using
+Python 2.7.13 and not Python 3.
 
-In order to use Python you must log into your FutureSystems account.
-Then at the shell prompt execute the following command::
+In addition to Python, it is useful to have `pip
+<https://pypi.python.org/pypi/pip>`_ package installation tool on your
+system.
 
-  $ module load python
+In the tutorial, we assume that you have a computer with python
+installed.  However, we also recommend that for the class you use
+Python's virtualenv (see below) to isolate your development Python
+from the system installed Python.
 
-This will make the ``python`` and ``virtualenv`` commands available to
-you.
+.. _virtualenv_:
 
+virtualenv
+------------------------------------------------------
 
-.. tip::
+Often you have your own computer and you do not like to change its
+environment to keep it in pristine condition. Python comes with mnay
+libraries that could for example conflict with libraries that you have
+installed. To avoid this it is bets to work in an isolated python
+environment while using virtualenv,. Documentation about it can be
+found at::
 
-   The details of what the ``module load`` command does are described
-   in the future lesson :doc:`modules`.
+* https://virtualenv.pypa.io
+
+The installation is simple once you have pip installed. If it is not
+installed you can say::
+
+  $ easy_install pip
+
+After that you can install the virtual env with::
+
+  $ pip install virtualenv
+
+To setup an isolated environment for example in the directory ~/ENV
+please use::
+
+  $ virtualenv ~/ENV
+
+To activate it you can use the command::
+
+  $ source ~/ENV/bin/activate
+
+you can put this command in your bashrc or bash_profile command so you
+do not forget to activate it. :ref:``Instructions for this can be
+found in our lesson on Linux <bashrc>`.
 
 Interactive Python
 =================================================================
@@ -293,21 +183,19 @@ loop by executing the command::
 
 You should see something like the following::
 
-  Python 2.7 (r27:82500, Aug 10 2010, 11:35:15)
-  [GCC 4.1.2 20080704 (Red Hat 4.1.2-48)] on linux2
+  Python 2.7.13 (default, Nov 19 2016, 06:48:10)
+  [GCC 5.4.0 20160609] on linux2
   Type "help", "copyright", "credits" or "license" for more information.
   >>>
-
-The ``>>>`` is the prompt for the interpreter.
-This is similar to the shell interpreter you have been using.
-
+  
+The ``>>>`` is the prompt for the interpreter. This is similar to the
+shell interpreter you have been using.
 
 .. tip::
 
    Often we show the prompt when illustrating an example. This is to
    provide some context for what we are doing. If you are following
    along you will not need to type in the prompt.
-
 
 This interactive prompt does the following:
 
@@ -319,43 +207,62 @@ This interactive prompt does the following:
 This is why you may see the interactive loop referred to as a
 **REPL**: **R**\ead-**E**\valuate-**P**\rint-**L**\oop.
 
+Python 3 Features
+--------------------
+
+As mentioned earlier, we assume you will use Python 2.7.X because
+there are still some libraries that haven't been ported to
+Python 3. However, there are some features of Python 3 we can and want
+to use in Python 2.7. Before we do anything else, we need to make
+these features available to any subsequent code we write::
+
+  >>> from __future__ import print_function, division
+
+.. note::
+
+The first of these imports allows us to use the ``print`` function to
+output text to the screen, instead of the ``print`` statement, which
+Python 2 uses. This is simply a `design decision
+<https://www.python.org/dev/peps/pep-3105/>`_ that better reflects
+Python's underlying philosophy.
+
+.. note::
+
+The second of these imports makes sure that the `division operator
+<https://www.python.org/dev/peps/pep-0238/>`_ behaves in a way a
+newcomer to the language might find more intruitive. In Python 2,
+division ``/`` is *floor division* when the arguments are integers,
+meaning that ``5 / 2 == 2``, for example. In Python 3, division ``/``
+is *true division*, thus ``5 / 2 == 2.5``.
+
 Statements and Strings
 =================================================================
 
-Let us explore the syntax of Python.
-Type into the interactive loop and press Enter::
+Let us explore the syntax of Python.  Type into the interactive loop
+and press Enter::
 
-  print "Hello world from Python!"
-
-The output will look like this::
-
-  >>> print "Hello world from Python!"
+  >>> print("Hello world from Python!")
   Hello world from Python!
 
-What happened: the ``print`` **statement** was given a **string** to
-process.  A **statement** in Python, like ``print`` tells the
-interpreter to do some primitive operation. In this case, ``print``
-mean: write the following message to the standard output.
+What happened: the ``print`` function was given a **string** to
+process. A string is a sequence of characters.  A **character** can be
+a alphabetic (A through Z, lower and upper case), numeric (any of the
+digits), white space (spaces, tabs, newlines, etc), syntactic
+directives (comma, colon, quotation, exclamation, etc), and so forth.
+A string is just a sequence of the character and typically indicated
+by surrounding the characters in double quotes.
 
 .. tip::
 
    Standard output is discussed in the
-   :doc:`/class/lesson/linux/shell` lesson.
-
-The "thing" we are ``print``ing in the case the the **string**
-``Hello world from Python!``.  A **string** is a sequence of characters.  A
-**character** can be a alphabetic (A through Z, lower and upper case),
-numeric (any of the digits), white space (spaces, tabs, newlines,
-etc), syntactic directives (comma, colon, quotation, exclamation,
-etc), and so forth.  A string is just a sequence of the character and
-typically indicated by surrounding the characters in double quotes.
+   :doc:`../../lesson/linux/shell` lesson.
 
 So, what happened when you pressed Enter?  The interactive Python
 program read the line ``print "Hello world from Python!"``, split it into
 the ``print`` statement and the ``"Hello world from Python!"`` string, and
 then executed the line, showing you the output.
 
-Variables
+Variables and Simple Data Types
 =================================================================
 
 You can store data into a **variable** to access it later.
@@ -363,19 +270,19 @@ For instance, instead of:
 
 .. code:: python
 
-   >>> print "Hello world from Python!"
+   >>> print('Hello world from Python!')
 
 which is a lot to type if you need to do it multiple times, you can
 store the string in a variable for convenient access:
 
 .. code:: python
 
-   >>> hello = "Hello world from Python!"
-   >>> print hello
+   >>> hello = 'Hello world from Python!'
+   >>> print(hello)
    Hello world from Python!
 
 Booleans
-=================================================================
+----------------------------------------------------
 
 A **boolean** is a value that indicates the "truthness" of something.
 You can think of it as a toggle: either "on" or "off", "one" or
@@ -392,28 +299,28 @@ You can combine booleans with **boolean operators**:
 
 .. code:: python
 
-   >>> print True and True
+   >>> print(True and True)
    True
-   >>> print True and False
+   >>> print(True and False)
    False
-   >>> print False and False
+   >>> print(False and False)
    False
-   >>> print True or True
+   >>> print(True or True)
    True
-   >>> print True or False
+   >>> print(True or False)
    True
-   >>> print False or False
+   >>> print(False or False)
    False
 
 Numbers and Math
-=================================================================
+----------------------------------------------------
 
 The interactive interpreter can also be used as a calculator.
 For instance, say we wanted to compute a multiple of 21:
 
 .. code:: python
 
-   >>> print 21 * 2
+   >>> print(21 * 2)
    42
 
 We saw here the ``print`` statement again. We passed in the result of
@@ -440,9 +347,9 @@ You can combine **float**\s and **int**\s:
 
 .. code:: python
 
-   >>> print 3.14 * 42 / 11 + 4 - 2
+   >>> print(3.14 * 42 / 11 + 4 - 2)
    13.9890909091
-   >>> print 2**3
+   >>> print(2**3)
    8
 
 Note that **operator precedence** is important.  Using parenthesis to
@@ -451,15 +358,15 @@ expected:
 
 .. code:: python
 
-   >>> print 3.14 * (42 / 11) + 4 - 2
+   >>> print(3.14 * (42 / 11) + 4 - 2)
    11.42
-   >>> print 1 + 2 * 3 - 4 / 5.0
+   >>> print(1 + 2 * 3 - 4 / 5.0)
    6.2
-   >>> print (1 + 2) * (3 - 4) / 5.0
+   >>> print( (1 + 2) * (3 - 4) / 5.0 )
    -0.6
 
 Types and Using the REPL
-=================================================================
+----------------------------------------------------
 
 We have so far seen a few examples of types: **string**\s, **bool**\s,
 **int**\s, and **float**\s.  A **type** indicates that values of that
@@ -483,8 +390,7 @@ the interactive python is to get the type of a value using ``type()``:
    >>> type(42)
    <type 'int'>
    >>> type(hello)
-
- <type 'str'>
+   <type 'str'>
    >>> type(3.14)
    <type 'float'>
 
@@ -502,6 +408,85 @@ You can also ask for help about something using ``help()``:
    spacebar to go down a page ``w`` to go up a page, the arrow keys to
    go up/down line-by-line, or ``q`` to exit.
 
+Control Statements
+=================================================================
+
+Computer programs do not only execute instructions. Occasionally, a
+choice needs to be made. Such as a choice is based on a
+condition. Python has several conditional operators:
+
+
+.. code:: python
+
+    >   greater than
+    <   smaller than
+    ==  equals
+    !=  is not
+
+Conditions are always combined with variables. A program can make a
+choice using the if keyword. For example:
+
+.. code:: python
+
+    >>> x = int(input("Guess x:"))
+    >>> if x == 4:
+    ...    print('You guessed correctly!')
+    ...    <ENTER>
+
+In this example, *You guessed correctly!* will only be printed if the
+variable ``x`` equals to four (see table above). Python can also
+execute multiple conditions using the ``elif`` and ``else`` keywords.
+
+.. code:: python
+
+    >>> x = int(input("Guess x:"))
+    >>> if x == 4:
+    ...     print('You guessed correctly!')
+    ... elif abs(4 - x) == 1:
+    ...     print('Wrong guess, but you are close!')
+    ... else:
+    ...     print('Wrong guess')
+    ... <ENTER>
+
+Iteration
+=================================================================
+
+To repeat code, the ``for`` keyword can be used. For example, to
+display the numbers from 1 to 10, we could write something like this:
+
+.. code:: python
+
+    >>> for i in range(1, 11):
+    ...    print('Hello!')
+
+The second argument to ``range``, *11*, is not inclusive, meaning that
+the loop will only get to *10* before it finishes.  Python itself
+starts counting from 0, so this code will also work:
+
+.. code:: python
+
+    >>> for i in range(0, 10):
+    ...    print(i + 1)
+
+In fact, the ``range`` function defaults to starting value of *0*, so the above is equivalent to:
+
+.. code:: python
+
+    >>> for i in range(10):
+    ...	   print(i + 1)
+	   
+We can also nest loops inside each other:
+
+.. code:: python
+
+   >>> for i in range(0,10):
+   ...     for j in range(0,10):
+   ...         print(i,' ',j)
+   ... <ENTER>
+
+In this case we have two nested loops. The code will iterate over
+the entire coordinate range (0,0) to (9,9)
+
 Lists
 =================================================================
 
@@ -511,7 +496,9 @@ Lists in Python are ordered sequences of elements, where each element
 can be accessed using a 0-based index.
 
 To define a list, you simply list its elements between square brackest
-``[]``::
+``[]``:
+
+.. code:: python
 
   >>> >>> names = ['Albert', 'Jane', 'Liz', 'John', 'Abby']
   >>> names[0] # access the first element of the list
@@ -521,7 +508,9 @@ To define a list, you simply list its elements between square brackest
 
 You can also use a negative index if you want to start counting
 elements from the end of the list. Thus, the last element has index
-*-1*, the second before last element has index *-2* and so on::
+*-1*, the second before last element has index *-2* and so on:
+
+.. code:: python
 
   >>> names[-1] # access the last element of the list
   'Abby'
@@ -529,7 +518,9 @@ elements from the end of the list. Thus, the last element has index
   'John'
 
 Python also allows you to take whole slices of the list by specifing a
-beginning and end of the slice separated by a colon ``:``::
+beginning and end of the slice separated by a colon ``:``:
+
+.. code:: python
 
   >>> names[1:-1] # the middle elements, excluding first and last
   ['Jane', 'Liz', 'John']
@@ -540,7 +531,9 @@ is inclusive and the ending one, exclusive.
 Python provides a variety of methods for manipulating the members of a
 list.
 
-You can add elements with ``append``::
+You can add elements with ``append``:
+
+.. code:: python
 
   >>> names.append('Liz')
   >>> names
@@ -548,24 +541,32 @@ You can add elements with ``append``::
 
 As you can see, the elements in a list need not be unique.
 
-Merge two lists with ``extend``::
+Merge two lists with ``extend``:
+
+.. code:: python
 
   >>> names.extend(['Lindsay', 'Connor'])
   >>> names
   ['Albert', 'Jane', 'Liz', 'John', 'Abby', 'Liz', 'Lindsay', 'Connor']
 
-Find the index of the first occurrence of an element with ``index``::
+Find the index of the first occurrence of an element with ``index``:
+
+.. code:: python
 
   >>> names.index('Liz')
   2
 
-Remove elements by value with ``remove``::
+Remove elements by value with ``remove``:
+
+.. code:: python
 
   >>> names.remove('Abby')
   >>> names
   ['Albert', 'Jane', 'Liz', 'John', 'Liz', 'Lindsay', 'Connor']
 
-Remove elements by index with ``pop``::
+Remove elements by index with ``pop``:
+
+.. code:: python
 
   >>> names.pop(1)
   'Jane'
@@ -576,7 +577,9 @@ Notice that ``pop`` returns the element being removed, while
 ``remove`` does not.
 
 If you are familiar with stacks from other programming languages, you
-can use ``insert`` and ``pop``::
+can use ``insert`` and ``pop``:
+
+.. code:: python
 
   >>> names.insert(0, 'Lincoln')
   >>> names
@@ -589,30 +592,37 @@ can use ``insert`` and ``pop``::
 The Python documentation contains a `full list of list operations <>`_.
 
 To go back to the ``range`` function you used earlier, it simply
-creates a list of numbers::
+creates a list of numbers:
+
+.. code:: python
 
   >>> range(10)
   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   >>> range(2, 10, 2)
   [2, 4, 6, 8]
-  
-  
+    
 Sets
 =================================================================
 
-Python lists can contain duplicates as you saw above::
+Python lists can contain duplicates as you saw above:
+
+.. code:: python
 
   >>> names = ['Albert', 'Jane', 'Liz', 'John', 'Abby', 'Liz']
 
 When we don't want this to be the case, we can use a `set
-<https://docs.python.org/2/library/stdtypes.html#set>`_::
+<https://docs.python.org/2/library/stdtypes.html#set>`_:
+
+.. code:: python
 
   >>> unique_names = set(names)
   >>> unique_names
   set(['Lincoln', 'John', 'Albert', 'Liz', 'Lindsay'])
 
 Keep in mind that the *set* is an unordered collection of objects,
-thus we can not access them by index::
+thus we can not access them by index:
+
+.. code:: python
 
   >>> unique_names[0]
   Traceback (most recent call last):
@@ -635,7 +645,16 @@ the set (we had ``set(['Lincoln', 'John', 'Albert', 'Liz',
 is, don't make any assumptions about the order of elements in a set
 when it is converted to any type of sequential data structure.
 
-Testing for Membership and Removal
+You can change a set's contents using the ``add``, ``remove`` and
+``update`` methods which correspond to the ``append``, ``remove`` and
+``extend`` methods in a list. In addition to these, *set* objects
+support the operations you may be familiar with from mathematical
+sets: *union*, *intersection*, *difference*, as well as operations to
+check containment. You can read about this in the `Python
+documentation for sets
+<https://docs.python.org/2/library/stdtypes.html#set>`_.
+
+Removal and Testing for Membership
 ----------------------------------
 
 One important advantage of a *set* over a *list* is that **access to
@@ -644,18 +663,22 @@ from a Computer Science class, the Python list is implemented by an
 array, while the set is implemented by a hash table.
 
 We will demonstrate this with an example. Let's say we have a list and
-a set of the same number of elements (approximately 100 thousand)::
+a set of the same number of elements (approximately 100 thousand):
+
+.. code:: python
 
   >>> import sys, random, timeit
   >>> nums_set = set([random.randint(0, sys.maxint) for _ in range(10**5)])
   >>> nums_list = list(nums_set)
   >>> len(nums_set)
   100000
-  >>> len(nums_list)
-  100000
 
-We will use the `timeit <>`_ Python module to time 100 operations that
-test for the existence of a member in either the list or set::
+We will use the `timeit
+<https://docs.python.org/2/library/timeit.html>`_ Python module to
+time 100 operations that test for the existence of a member in either
+the list or set:
+
+.. code:: python
 
   >>> timeit.timeit('random.randint(0, sys.maxint) in nums', setup='import random; nums=%s' % str(nums_set), number=100)
   0.0004038810729980469
@@ -667,24 +690,25 @@ but the take away will be the same: searching for an element in a set
 is orders of magnitude faster than in a list. This is important to
 keep in mind when you work with large amounts of data.
 
-  Dictionaries
+Dictionaries
 =================================================================
 
 One of the very important datastructures in python is a dictionary
 also refered to as *dict*.
 
-Basics
------------------------------------------------------------------
+A dictionary represents a key value store:
 
-A dictionary represents a key value store::
-
+.. code:: python
+	  
   >>> person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
   >>> print("person['Name']: ", person['Name'])
   person['Name']:  Albert
   >>> print("person['Age']: ", person['Age'])
   person['Age']:  100
 
-You can delete elements with the following commands::
+You can delete elements with the following commands:
+
+.. code:: python
 
   >>> del person['Name'] # remove entry with key 'Name'
   >>> person
@@ -698,7 +722,9 @@ You can delete elements with the following commands::
     File "<stdin>", line 1, in <module>
     NameError: name 'person' is not defined
 
-You can iterate over a dict::
+You can iterate over a dict:
+
+.. code:: python
 
   >>> person = {'Name': 'Albert', 'Age': 100, 'Class': 'Scientist'}
   >>> for item in person:
@@ -712,8 +738,10 @@ Keys and Values
 -----------------------------------------------------------------
 
 You can retrieve both the keys and values of a dictionary using the
-``keys()`` and ``values()`` methods of the dictionary, respectively::
+``keys()`` and ``values()`` methods of the dictionary, respectively:
 
+.. code:: python
+     
   >>> person.keys()
   ['Age', 'Name', 'Class']
   >>> person.values()
@@ -739,8 +767,10 @@ Counting with Dictionaries
 
 One application of dictionaries that frequently comes up is counting
 the elements in a sequence. For example, say we have a sequence of
-coin flips::
+coin flips:
 
+.. code:: python
+	  
   >>> import random
   >>> die_rolls = [random.choice(['heads', 'tails']) for _ in range(10)]
   >>> die_rolls
@@ -751,8 +781,10 @@ execute this on your computer since the outcomes of the die rolls are
 random.
 
 To compute the probabilities of heads and tails, we could count how
-many heads and tails we have in the list::
+many heads and tails we have in the list:
 
+.. code:: python
+	  
   >>> counts = {'heads': 0, 'tails': 0}
   >>> for outcome in coin_flips:
   ...   assert outcome in counts
@@ -780,158 +812,7 @@ elements of ``coin_flips``, notice a couple things about this example:
    `read about here
    <https://docs.python.org/2/library/functions.html>`_.
 
-Control Statements
-=================================================================
-
-Computer programs do not only execute instructions. Occasionally, a
-choice needs to be made. Such as a choice is based on a
-condition. Python has several conditional operators:
-
-
-.. code:: python
-
-    >   greater than
-    <   smaller than
-    ==  equals
-    !=  is not
-
-Conditions are always combined with variables. A program can make a
-choice using the if keyword. For example:
-
-.. code:: python
-
-    x = int(input("Tell X"))
-    if x == 4:
-        print('You guessed correctly!')
-    print('End of program.')
-
-
-When you execute this program it will always print ‘End of program’,
-but the text ‘You guessed correctly!’ will only be printed if the
-variable x equals to four (see table above). Python can also execute a
-block of code if x does not equal to 4. The else keyword is used for
-that.
-
-
-.. code:: python
-
-    x = int(input("What is the value of  X"))
-
-    if x == 4:
-        print('You guessed correctly!')
-    else:
-        print('Wrong guess')
-
-    print('End of program.')
-
-
-Iterations
-=================================================================
-
-To repeat code, the for keyword can be used. To execute a line of code
-10 times we can do:
-
-.. code:: python
-
-    for i in range(1,11):
-        print(i)
-
-The last number (11) is not included. This will output the numbers 1
-to 10. Python itself starts counting from 0, so this code will also
-work:
-
-.. code:: python
-
-    for i in range(0,10):
-        print(i)
-
-but will output 0 to 9.
-
-
-The code is repeated while the condition is True. In this case the
-condition is: i < 10. Every iteration (round), the variable i is
-updated.Nested loops Loops can be combined:
-
-.. code:: python
-
-    for i in range(0,10):
-        for j in range(0,10):
-            print(i,' ',j)
-
-In this case we have a multidimensional loops. It will iterate over
-the entire coordinate range (0,0) to (9,9)
-
-
-Functions
-=================================================================
-
-To repeat lines of code, you can use a function. A function has a
-unique distinct name in the program. Once you call a function it will
-execute one or more lines of codes, which we will call a code block.
-
-.. code:: python
-
-    import math
-
-    def computePower(a):
-        value = math.pow(a,2)
-        print(value)
-
-    computePower(3)
-
-
-We call the function with parameter a = 3 .  A function can be called
-several times with varying parameters. There is no limit to the number
-of function calls.
-
-The def keyword tells Python we define a function.  Always use four
-spaces to indent the code block, using another number of spaces will
-throw a syntax error.
-
-It is also possible to store the output of a function in a variable.
-To do so, we use the keyword return.
-
-.. code:: python
-
-    import math
-
-    def computePower(a):
-        value = math.pow(a,2)
-        return value
-
-    result = computePower(3)
-    print(result)
-
-
-.. _doc_python_intro_sec_classes:
-
-Classes
-=================================================================
-
-A class is a way to take a grouping of functions and data and place
-them inside a container, so you can access them with the . (dot)
-operator.
-
-.. code:: python
-
-        class Fruit(object):
-
-        def __init__(self):
-            self.tangerine = "are organge-colored citrus fruit, which is closely related to a mandarin organge"
-
-        def apple(self):
-            print "Apples are rich in antioxidants, flavanoids, and dietary fiber!"
-
-    thing = Fruit()
-    thing.apple()
-    print thing.tangerine
-
-Database access
-=================================================================
-
-see: https://www.tutorialspoint.com/python/python_database_access.htm
-
-Writing and Saving Programs
+Modules
 =================================================================
 
 Make sure you are no longer in the interactive interpreter.
@@ -945,7 +826,9 @@ Start by opening a new file ``hello.py`` in the Python editor of your
 choice. If you don't have a preferred editor, we recommend `PyCharm
 <https://www.jetbrains.com/pycharm/>`_.
 
-Now enter write a simple program and save::
+Now write this simple program and save it:
+
+.. code:: python
 
   from __future__ import print_statement, division
   print("Hello world!")
@@ -954,6 +837,7 @@ As a check, make sure the file contains the expected contents on the
 command line::
 
   $ cat hello.py
+  from __future__ import print_statement, division
   print("Hello world!")
 
 To execute your program pass the file as a parameter to the ``python``
@@ -962,11 +846,9 @@ command::
   $ python hello.py
   Hello world!
 
-
-Congratulations, you have written a Python **module**.  Files in which
-Python code is stored are called **module**\s. You can execute a
-Python module form the command line like you just did, or you can
-import it in other Python code using the ``import`` statement.
+Files in which Python code is stored are called **module**\s. You can
+execute a Python module form the command line like you just did, or
+you can import it in other Python code using the ``import`` statement.
 
 Let's write a more involved Python program that will receive as input
 the lengths of the three sides of a triangle, and will output whether
@@ -989,20 +871,15 @@ and greater than the difference of the lengths of the other two sides.::
   from __future__ import print_function, division
   from docopt import docopt
 
-
-  def check_triangle(a, b, c):
-	return \
+  if __name__ == '__main__':
+	args = docopt(__doc__)
+	a, b, c = int(args['LENGTH']), int(args['WIDTH']), int(args['HEIGHT'])
+	valid_triangle = \
 		a < b + c and a > abs(b - c) and \
 		b < a + c and b > abs(a - c) and \
 		c < a + b and c > abs(a - b)
-
-
-  if __name__ == '__main__':
-	args = docopt(__doc__)
-	length, width, height = int(args['LENGTH']), int(args['WIDTH']), int(args['HEIGHT'])
 	print('Triangle with sides %d, %d and %d is valid: %r' % (
-		length, width, height,
-		check_triangle(length, width, height)
+		a, b, c, valid_triangle
 	))
 
 Assuming we save the program in a file called ``check_triangle.py``,
@@ -1013,12 +890,124 @@ we can run it like so::
 
 Let break this down a bit.
 
-#. We are importing the ``print_function`` and ``division`` modules from Python 3 like we did earlier in this tutorial. It's a good idea to always include these in your programs.
-#. We've defined the ``check_triangle`` function which has three parameters. It returns ``True`` if all six expressions defined inside are true, and ``False`` otherwise.
-#. We've used the backslash symbol ``\`` to format are code nicely. The backslash simply indicates that the current line is being continued on the next line.
-#. When we run the program, we do the check ``if __name__ == '__main__'``. ``__name__`` is an internal Python variable that allows us to tell whether the current file is being run from the command line (value ``__name__``), or is being imported by a module (the value will be the name of the module). Thus, with this statement we're just making sure the program is being run by the command line.
-#. We are using the ``docopt`` module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces command line arguments automatically. All of this is done by parsing the docstring at the top of the file.
-#. In the ``print`` function, we are using `Python's string formatting capabilities <https://docs.python.org/2/library/string.html#format-string-syntax>`_ to insert values into the string we are displaying.
+#. We are importing the ``print_function`` and ``division`` modules
+   from Python 3 like we did earlier in this tutorial. It's a good
+   idea to always include these in your programs.
+#. We've defined a boolean expression that tells us if the sides that
+   were input define a valid triangle. The result of the expression is
+   stored in the ``valid_triangle`` variable.  inside are true, and
+   ``False`` otherwise.
+#. We've used the backslash symbol ``\`` to format are code
+   nicely. The backslash simply indicates that the current line is
+   being continued on the next line.
+#. When we run the program, we do the check ``if __name__ ==
+   '__main__'``. ``__name__`` is an internal Python variable that
+   allows us to tell whether the current file is being run from the
+   command line (value ``__name__``), or is being imported by a module
+   (the value will be the name of the module). Thus, with this
+   statement we're just making sure the program is being run by the
+   command line.
+#. We are using the ``docopt`` module to handle command line
+   arguments. The advantage of using this module is that it generates
+   a usage help statement for the program and enforces command line
+   arguments automatically. All of this is done by parsing the
+   docstring at the top of the file.
+#. In the ``print`` function, we are using `Python's string formatting
+   capabilities
+   <https://docs.python.org/2/library/string.html#format-string-syntax>`_
+   to insert values into the string we are displaying.
+
+Functions
+=================================================================
+
+You can reuse code by putting it inside a function that you can call
+in other parts of your programs. Functions are also a good way of
+grouping code that logically belongs together in one coherent whole. A
+function has a unique name in the program. Once you call a function, it
+will execute its body which consists of one or more lines of code:
+
+.. code:: python
+
+    def check_triangle(a, b, c):
+	return \
+		a < b + c and a > abs(b - c) and \
+		b < a + c and b > abs(a - c) and \
+		c < a + b and c > abs(a - b)
+
+    print(check_triangle(4, 5, 6))
+
+The ``def`` keyword tells Python we are defining a function. As part
+of the definition, we have the function name, ``check_triangle``, and
+the parameters of the function -- variables that will be populated
+when the function is called.
+
+We call the function with arguments ``4``, ``5`` and ``6``, which are
+passed in order into the parameters ``a``, ``b`` and ``c``.  A
+function can be called several times with varying parameters. There is
+no limit to the number of function calls.
+
+It is also possible to store the output of a function in a variable,
+so it can be reused.
+
+.. code:: python
+
+   def check_triangle(a, b, c):
+	return \
+		a < b + c and a > abs(b - c) and \
+		b < a + c and b > abs(a - c) and \
+		c < a + b and c > abs(a - b)
+
+   result = check_triangle(4, 5, 6)
+   print(result)
+
+.. _doc_python_intro_sec_classes:
+
+Classes
+=================================================================
+
+A class is an encapsulation of data and the processes that work on
+them. The data is represented in member variables, and the processes
+are defined in the methods of the class (methods are functions inside
+the class). For example, let's see how to define a ``Triangle`` class:
+
+.. code:: python
+
+   class Triangle(object):
+
+	def __init__(self, length, width, height, angle1, angle2, angle3):
+		if not self._sides_ok(length, width, height):
+			print('The sides of the triangle are invalid.')
+		elif not self._angles_ok(angle1, angle2, angle3):
+			print('The angles of the triangle are invalid.')
+
+		self._length = length
+		self._width = width
+		self._height = height
+
+		self._angle1 = angle1
+		self._angle2 = angle2
+		self._angle3 = angle3
+		
+	def _sides_ok(self, a, b, c):
+		return \
+			a < b + c and a > abs(b - c) and \
+			b < a + c and b > abs(a - c) and \
+			c < a + b and c > abs(a - b)
+
+	def _angles_ok(self, a, b, c):
+		return a + b + c == 180
+
+   triangle = Triangle(4, 5, 6, 35, 65, 80)
+
+Python has full Aobject-oriented programming (OOP) capabilities,
+however we can not cover all of them in a quick tutorial, so please
+refer to the `Python docs on classes and OOP
+<https://docs.python.org/2.7/tutorial/classes.html>`_.
+
+Database Access
+=================================================================
+
+see: https://www.tutorialspoint.com/python/python_database_access.htm
    
 Installing Libraries
 =================================================================
@@ -1154,7 +1143,7 @@ code.
 
 First, get the bad code like so::
 
-   $ wget --no-check-certificate http://git.io/pXqb -O bad_code_example.py
+  $ wget --no-check-certificate http://git.io/pXqb -O bad_code_example.py
 
 Let's examine the code::
 
@@ -1165,12 +1154,13 @@ by hand would be a time-consuming and error-prone process.  Luckily,
 this is a common problem so there exist a couple packages to help in
 this situation.
 
-Using pip to install packages
+Using pip to Install Packages
 =================================================================
 
 In order to install package from PyPI, use the ``pip`` command.
 We can search for PyPI for packages::
- $ pip search --trusted-host pypi.python.org autopep8 pylint
+  
+  $ pip search --trusted-host pypi.python.org autopep8 pylint
 
 It appears that the top two results are what we want so install them::
 
@@ -1203,9 +1193,6 @@ flag::
   $ autopep8 file.py    # check output to see of passes
   $ autopep8 -i file.py # update in place
 
-
-
-
 .. _Python Package Index: https://pypi.python.org/pypi
 
 Further Learning
@@ -1227,18 +1214,37 @@ There is much more to python than what we have covered here:
 .. note:: you can receive extra credit if you contribute such a
 	  section of your choice addressing the above topics
 
-Writing python 3 compatible code
+Writing Python 3 Compatible Code
 =================================================================
 
 see: http://python-future.org/compatible_idioms.html
 
+Using Python on FutureSystems
+=================================================================
+
+.. warning:: This is only important if you use Futuresystems resources.
+
+In order to use Python you must log into your FutureSystems account.
+Then at the shell prompt execute the following command::
+
+  $ module load python
+
+This will make the ``python`` and ``virtualenv`` commands available to
+you.
+
+
+.. tip::
+
+   The details of what the ``module load`` command does are described
+   in the future lesson :doc:`modules`.
+   
 Exercises
-----------------------------------------------------------------------
+=================================================================
 
 .. _lab-python-1:
 
 Lab - Python - FizzBuzz
-=================================================================
+-----------------------------------------------
 
 Write a python program called fizzbuzz.py that accepts an integer n
 from the command line.  Pass this integer to a function called
@@ -1252,7 +1258,7 @@ number is a multiple of three, print "fizz", if a multiple of 5 print
 .. _lab-python-2:
 
 Lab - Python - Setup for FutureSystems
-=================================================================
+-----------------------------------------------
 
 #. Create a virtualenv ``~/ENV``
 #. Modify your ``~/.bashrc`` shell file to activate your environment
@@ -1265,45 +1271,10 @@ Lab - Python - Setup for FutureSystems
 Ecosystem
 =================================================================
 
-.. _virtualenv_:
-
-virtualenv
-=================================================================
-
-Often you have your own computer and you do not like to change its
-environment to keep it in prestine condition. Python comes with mnay
-libraries that could for example conflict with libraries that you have
-installed. To avoid this it is bets to work in an isolated python
-environment while using virtualenv,. Documentation about it can be
-found at::
-
-* http://virtualenv.readthedocs.org/
-
-The installation is simple once you have pip installed. If it is not
-installed you can say::
-
-  $ easy_install pip
-
-After that you can install the virtual env with::
-
-  $ pip install virtualenv
-
-To setup an isolated environment for example in the directory ~/ENV
-please use::
-
-  $ virtualenv ~/ENV
-
-To activate it you can use the command::
-
-  $ source ~/ENV/bin/activate
-
-you can put this command n your bashrc or bash_profile command so you
-do not forget to activate it.
-
 .. _autoenv_:
 
-Autoenv: Directory-based Environments
-=================================================================
+`Autoenv <https://pypi.python.org/pypi/autoenv/0.2.0>`_: Directory-based Environments
+-----------------------------------------------
 
 .. warning:: We do not recommend that you use autoenv. INstead we
 	     recommend that you use pyenv. For this class neither is
@@ -1360,8 +1331,8 @@ Autoenv can be disabled via ``unset cd`` if you experience I/O issues
    with certain file systems, particularly those that are FUSE-based
    (such as ``smbnetfs``).
 
-pypi
-=================================================================
+`pypi <https://pypi.python.org/pypi>`_
+-----------------------------------------------
 
 The Python Package Index is a large repository of software for the
 Python programming language containing a large number of packages
@@ -1380,13 +1351,138 @@ be the package called cloudmesh_client which you can install with::
 
 If all goes well the package will be installed.
 
-Links
-=================================================================
+Alternative Installations
+-----------------------------------------------
 
-Useful ecosystem Links:
+The basic installation of python is provided by python.org. However
+others claim to have alternative environments that allow you to
+install python. This includes
+
+* `Canopy <https://store.enthought.com/downloads/#default>`_
+* `Anaconda <https://www.continuum.io/downloads>`_
+* `IronPython <http://ironpython.net/>`_
+
+Typically they include not only the python compiler but also several
+useful packages. It is fine to use such environments for the class,
+but it should be noted that in both cases not every python library may
+be available for install in the given environment. For example if you
+need to use cloudmesh client, it may not be available as conda or
+Canopy package. This is also the case for many other cloud related and
+useful python libraries. Hence, we do recommend that if you are new to
+python to use the distribution form python.org, and use pip and
+virtualenv.
+
+Additionally some python version have platform specific libraries or
+dependencies. For example coca libraries, .NET or other frameworks are
+examples. For the assignments and the projects such platform dependent
+libraries are not to be used.
+
+If however you can write a platform independent code that works on
+Linux, OSX and Windows while using the python.org version but develop
+it with any of the other tools that is just fine. However it is up to
+you to guarantee that this independence is maintained and
+implemented. You do have to write requirements.txt files that will
+install the necessary python libraries in a platform independent
+fashion. The homework assignment PRG1 has even a requirement to do so.
+
+In order to provide platform independence we have given in the class a
+"minimal" python version that we have tested with hundreds of
+students: python.org. If you use any other version, that is your
+decision. Additionally some students not only use python.org but have
+used iPython which is fine too. However this class is not only about
+python, but also about how to have your code run on any platform. The
+homework is designed so that you can identify a setup that works for
+you.
+
+However we have concerns if you for example wanted to use chameleon
+cloud which we require you to access with cloudmesh. cloudmesh is not
+available as conda, canopy, or other framework package. Cloudmesh
+client is available form pypi which is standard and should be
+supported by the frameworks. We have not tested cloudmesh on any other
+python version then python.org which is the open source community
+standard. None of the other versions are standard.
+
+In fact we had students over the summer using canopy on their machines
+and they got confused as they now had multiple python versions and did
+not know how to switch between them and activate the correct
+version. Certainly if you know how to do that, than feel free to use
+canopy, and if you want to use canopy all this is up to you. However
+the homework and project requires you to make your program portable to
+python.org. If you know how to do that even if you use canopy,
+anaconda, or any other python version that is fine. Graders will test
+your programs on a python.org installation and not canpoy, anaconda,
+ironpython while using virtualenv. It is obvious why. If you do not
+know that answer you may want to think about that every time they test
+a program they need to do a new virtualenv and run vanilla python in
+it. If we were to run two instals in the same system, this will not
+work as we do not know if one student will cause a side effect for
+another. Thus we as instructors do not just have to look at your code
+but code of hundreds of students with different setups. This is a non
+scalable solution as every time we test out code from a student we
+would have to wipe out the OS, install it new, install an new version
+of whatever python you have elected, become familiar with that version
+and so on and on. This is the reason why the open source community is
+using python.org. We follow best practices. Using other versions is
+not a community best practice, but may work for an individual.
+
+We have however in regards to using other python version additional
+bonus projects such as
+
+* deploy run and document cloudmesh on ironpython
+* deploy run and document cloudmesh on anaconde, develop script to
+  generate a conda packge form github
+* deploy run and document cloudmesh on canopy, develop script to
+  generate a conda packge form github
+* deploy run and document cloudmesh on ironpython
+* other documentation that would be useful
+
+Useful Ecosystem Links
+-----------------------------------------------
 
 * https://virtualenvwrapper.readthedocs.io
 * https://github.com/yyuu/pyenv
 * https://amaral.northwestern.edu/resources/guides/pyenv-tutorial
 * https://godjango.com/96-django-and-python-3-how-to-setup-pyenv-for-multiple-pythons/
 * https://www.accelebrate.com/blog/the-many-faces-of-python-and-how-to-manage-them/
+
+.. _python-resources:
+
+Resources
+=================================================================
+
+If you are unfamiliar with programming in Python, we also refer you
+to some of the numerous online resources. You may wish to start with
+`Learn Python`_ or the book `Learn Python the Hard Way`_. Other
+options include `Tutorials Point`_ or `Code Academy`_, and the Python wiki page
+contains a long list of `references for learning`_ as well.
+Additional resources include:
+
+* http://ivory.idyll.org/articles/advanced-swc/
+* http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+* http://www.youtube.com/watch?v=0vJJlVBVTFg
+* http://www.korokithakis.net/tutorials/python/
+* http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
+* http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
+
+
+A very long list of useful information are also available from
+
+* https://github.com/vinta/awesome-python
+* https://github.com/rasbt/python_reference
+
+This list may be useful as it also contains links to data
+visualization and manipulation libraries, and AI tools and libraries.
+Please note that for this class you can reuse such libraries if not
+otherwise stated.
+
+.. _Code Academy: http://www.codecademy.com/en/tracks/python
+.. _Python documentation site: https://docs.python.org/2.7/
+.. _list of introductory books: https://wiki.python.org/moin/IntroductoryBooks
+.. _Python Module index: https://docs.python.org/2/py-modindex.html
+.. _StackOverflow python tags: http://stackoverflow.com/questions/tagged/python
+.. _searching Google: https://www.google.com/?gws_rd=ssl#q=python+how+to
+.. _PyCharm IDE: https://www.jetbrains.com/pycharm/
+.. _Learn Python the Hard Way: http://learnpythonthehardway.org/book/
+.. _Tutorials Point: http://www.tutorialspoint.com/python/
+.. _references for learning: https://wiki.python.org/moin/BeginnersGuide/Programmers
+.. _Learn Python: https://www.learnpython.org

@@ -79,6 +79,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../i524/preface/index.html">Preface</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/preface/about.html">About</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/preface/disclaimer.html">Disclaimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/convention.html">Conventions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/preface/instructors.html">Instructors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/preface/instructors.html#teaching-assistants">Teaching Assistants</a></li>
 </ul>
@@ -219,15 +220,16 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.8 (2017-01-22)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.7 (2017-01-20)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.6 (2017-01-11)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id9">3.0.5 (2017-01-11)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.4 (2017-01-09)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id15">3.0.3 (2017-01-09)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id18">3.0.2 (2017-01-07)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.1 (2017-01-06)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id25">3.0 (2017-01-06)</a></li>
 </ul>
 </li>
 </ul>
@@ -245,51 +247,69 @@
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">Introduction to Python</a><ul>
 <li><a class="reference internal" href="#acknowledgments">Acknowledgments</a></li>
-<li><a class="reference internal" href="#description">Description</a></li>
-<li><a class="reference internal" href="#installation">Installation</a></li>
-<li><a class="reference internal" href="#alternative-installations">Alternative Installations</a></li>
-<li><a class="reference internal" href="#resources">Resources</a></li>
+<li><a class="reference internal" href="#description">Description</a><ul>
+<li><a class="reference internal" href="#philosophy">Philosophy</a></li>
+<li><a class="reference internal" href="#features">Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#about-the-tutorial">About the Tutorial</a><ul>
 <li><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
 <li><a class="reference internal" href="#dependencies">Dependencies</a></li>
 <li><a class="reference internal" href="#learning-goals">Learning Goals</a></li>
-<li><a class="reference internal" href="#using-python-on-futuresystems">Using Python on FutureSystems</a></li>
-<li><a class="reference internal" href="#interactive-python">Interactive Python</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#python-installation">Python Installation</a><ul>
+<li><a class="reference internal" href="#id2">virtualenv</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#interactive-python">Interactive Python</a><ul>
+<li><a class="reference internal" href="#python-3-features">Python 3 Features</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#statements-and-strings">Statements and Strings</a></li>
-<li><a class="reference internal" href="#variables">Variables</a></li>
+<li><a class="reference internal" href="#variables-and-simple-data-types">Variables and Simple Data Types</a><ul>
 <li><a class="reference internal" href="#booleans">Booleans</a></li>
 <li><a class="reference internal" href="#numbers-and-math">Numbers and Math</a></li>
 <li><a class="reference internal" href="#types-and-using-the-repl">Types and Using the REPL</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#control-statements">Control Statements</a></li>
+<li><a class="reference internal" href="#iteration">Iteration</a></li>
 <li><a class="reference internal" href="#lists">Lists</a></li>
 <li><a class="reference internal" href="#sets">Sets</a><ul>
-<li><a class="reference internal" href="#testing-for-membership-and-removal">Testing for Membership and Removal</a></li>
-<li><a class="reference internal" href="#basics">Basics</a></li>
+<li><a class="reference internal" href="#removal-and-testing-for-membership">Removal and Testing for Membership</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dictionaries">Dictionaries</a><ul>
 <li><a class="reference internal" href="#keys-and-values">Keys and Values</a></li>
 <li><a class="reference internal" href="#counting-with-dictionaries">Counting with Dictionaries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#control-statements">Control Statements</a></li>
-<li><a class="reference internal" href="#iterations">Iterations</a></li>
+<li><a class="reference internal" href="#modules">Modules</a></li>
 <li><a class="reference internal" href="#functions">Functions</a></li>
 <li><a class="reference internal" href="#classes">Classes</a></li>
-<li><a class="reference internal" href="#database-access">Database access</a></li>
-<li><a class="reference internal" href="#writing-and-saving-programs">Writing and Saving Programs</a></li>
+<li><a class="reference internal" href="#database-access">Database Access</a></li>
 <li><a class="reference internal" href="#installing-libraries">Installing Libraries</a></li>
 <li><a class="reference internal" href="#virtual-environments">Virtual Environments</a></li>
 <li><a class="reference internal" href="#fixing-bad-code">Fixing Bad Code</a></li>
-<li><a class="reference internal" href="#using-pip-to-install-packages">Using pip to install packages</a></li>
+<li><a class="reference internal" href="#using-pip-to-install-packages">Using pip to Install Packages</a></li>
 <li><a class="reference internal" href="#using-autopep8">Using autopep8</a></li>
 <li><a class="reference internal" href="#further-learning">Further Learning</a></li>
-<li><a class="reference internal" href="#writing-python-3-compatible-code">Writing python 3 compatible code</a><ul>
-<li><a class="reference internal" href="#exercises">Exercises</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#writing-python-3-compatible-code">Writing Python 3 Compatible Code</a></li>
+<li><a class="reference internal" href="#using-python-on-futuresystems">Using Python on FutureSystems</a></li>
+<li><a class="reference internal" href="#exercises">Exercises</a><ul>
 <li><a class="reference internal" href="#lab-python-fizzbuzz">Lab - Python - FizzBuzz</a></li>
 <li><a class="reference internal" href="#lab-python-setup-for-futuresystems">Lab - Python - Setup for FutureSystems</a></li>
-<li><a class="reference internal" href="#ecosystem">Ecosystem</a></li>
-<li><a class="reference internal" href="#id2">virtualenv</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ecosystem">Ecosystem</a><ul>
 <li><a class="reference internal" href="#autoenv-directory-based-environments">Autoenv: Directory-based Environments</a></li>
-<li><a class="reference internal" href="#pypi">pypi</a></li>
-<li><a class="reference internal" href="#links">Links</a></li>
+<li><a class="reference internal" href="#id9">pypi</a></li>
+<li><a class="reference internal" href="#alternative-installations">Alternative Installations</a></li>
+<li><a class="reference internal" href="#useful-ecosystem-links">Useful Ecosystem Links</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources">Resources</a></li>
 </ul>
 </li>
 </ul>
@@ -334,6 +354,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../i524/preface/index.html">Preface</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/preface/about.html">About</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/preface/disclaimer.html">Disclaimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/convention.html">Conventions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/preface/instructors.html">Instructors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/preface/instructors.html#teaching-assistants">Teaching Assistants</a></li>
 </ul>
@@ -474,15 +495,16 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.8 (2017-01-22)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.7 (2017-01-20)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.6 (2017-01-11)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id9">3.0.5 (2017-01-11)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.4 (2017-01-09)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id15">3.0.3 (2017-01-09)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id18">3.0.2 (2017-01-07)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.1 (2017-01-06)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id25">3.0 (2017-01-06)</a></li>
 </ul>
 </li>
 </ul>
@@ -490,51 +512,69 @@
 </li><ul>
 <li><a class="reference internal" href="#">Introduction to Python</a><ul>
 <li><a class="reference internal" href="#acknowledgments">Acknowledgments</a></li>
-<li><a class="reference internal" href="#description">Description</a></li>
-<li><a class="reference internal" href="#installation">Installation</a></li>
-<li><a class="reference internal" href="#alternative-installations">Alternative Installations</a></li>
-<li><a class="reference internal" href="#resources">Resources</a></li>
+<li><a class="reference internal" href="#description">Description</a><ul>
+<li><a class="reference internal" href="#philosophy">Philosophy</a></li>
+<li><a class="reference internal" href="#features">Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#about-the-tutorial">About the Tutorial</a><ul>
 <li><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
 <li><a class="reference internal" href="#dependencies">Dependencies</a></li>
 <li><a class="reference internal" href="#learning-goals">Learning Goals</a></li>
-<li><a class="reference internal" href="#using-python-on-futuresystems">Using Python on FutureSystems</a></li>
-<li><a class="reference internal" href="#interactive-python">Interactive Python</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#python-installation">Python Installation</a><ul>
+<li><a class="reference internal" href="#id2">virtualenv</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#interactive-python">Interactive Python</a><ul>
+<li><a class="reference internal" href="#python-3-features">Python 3 Features</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#statements-and-strings">Statements and Strings</a></li>
-<li><a class="reference internal" href="#variables">Variables</a></li>
+<li><a class="reference internal" href="#variables-and-simple-data-types">Variables and Simple Data Types</a><ul>
 <li><a class="reference internal" href="#booleans">Booleans</a></li>
 <li><a class="reference internal" href="#numbers-and-math">Numbers and Math</a></li>
 <li><a class="reference internal" href="#types-and-using-the-repl">Types and Using the REPL</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#control-statements">Control Statements</a></li>
+<li><a class="reference internal" href="#iteration">Iteration</a></li>
 <li><a class="reference internal" href="#lists">Lists</a></li>
 <li><a class="reference internal" href="#sets">Sets</a><ul>
-<li><a class="reference internal" href="#testing-for-membership-and-removal">Testing for Membership and Removal</a></li>
-<li><a class="reference internal" href="#basics">Basics</a></li>
+<li><a class="reference internal" href="#removal-and-testing-for-membership">Removal and Testing for Membership</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dictionaries">Dictionaries</a><ul>
 <li><a class="reference internal" href="#keys-and-values">Keys and Values</a></li>
 <li><a class="reference internal" href="#counting-with-dictionaries">Counting with Dictionaries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#control-statements">Control Statements</a></li>
-<li><a class="reference internal" href="#iterations">Iterations</a></li>
+<li><a class="reference internal" href="#modules">Modules</a></li>
 <li><a class="reference internal" href="#functions">Functions</a></li>
 <li><a class="reference internal" href="#classes">Classes</a></li>
-<li><a class="reference internal" href="#database-access">Database access</a></li>
-<li><a class="reference internal" href="#writing-and-saving-programs">Writing and Saving Programs</a></li>
+<li><a class="reference internal" href="#database-access">Database Access</a></li>
 <li><a class="reference internal" href="#installing-libraries">Installing Libraries</a></li>
 <li><a class="reference internal" href="#virtual-environments">Virtual Environments</a></li>
 <li><a class="reference internal" href="#fixing-bad-code">Fixing Bad Code</a></li>
-<li><a class="reference internal" href="#using-pip-to-install-packages">Using pip to install packages</a></li>
+<li><a class="reference internal" href="#using-pip-to-install-packages">Using pip to Install Packages</a></li>
 <li><a class="reference internal" href="#using-autopep8">Using autopep8</a></li>
 <li><a class="reference internal" href="#further-learning">Further Learning</a></li>
-<li><a class="reference internal" href="#writing-python-3-compatible-code">Writing python 3 compatible code</a><ul>
-<li><a class="reference internal" href="#exercises">Exercises</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#writing-python-3-compatible-code">Writing Python 3 Compatible Code</a></li>
+<li><a class="reference internal" href="#using-python-on-futuresystems">Using Python on FutureSystems</a></li>
+<li><a class="reference internal" href="#exercises">Exercises</a><ul>
 <li><a class="reference internal" href="#lab-python-fizzbuzz">Lab - Python - FizzBuzz</a></li>
 <li><a class="reference internal" href="#lab-python-setup-for-futuresystems">Lab - Python - Setup for FutureSystems</a></li>
-<li><a class="reference internal" href="#ecosystem">Ecosystem</a></li>
-<li><a class="reference internal" href="#id2">virtualenv</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ecosystem">Ecosystem</a><ul>
 <li><a class="reference internal" href="#autoenv-directory-based-environments">Autoenv: Directory-based Environments</a></li>
-<li><a class="reference internal" href="#pypi">pypi</a></li>
-<li><a class="reference internal" href="#links">Links</a></li>
+<li><a class="reference internal" href="#id9">pypi</a></li>
+<li><a class="reference internal" href="#alternative-installations">Alternative Installations</a></li>
+<li><a class="reference internal" href="#useful-ecosystem-links">Useful Ecosystem Links</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources">Resources</a></li>
 </ul>
 </li>
 </ul>
@@ -576,68 +616,86 @@
     <div class="col-md-9 content">
       
   <div class="section" id="introduction-to-python">
-<span id="python-intro"></span><h1><a class="toc-backref" href="#id4">Introduction to Python</a><a class="headerlink" href="#introduction-to-python" title="Permalink to this headline">¶</a></h1>
+<span id="python-intro"></span><h1><a class="toc-backref" href="#id10">Introduction to Python</a><a class="headerlink" href="#introduction-to-python" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="acknowledgments">
-<h2><a class="toc-backref" href="#id5">Acknowledgments</a><a class="headerlink" href="#acknowledgments" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">Acknowledgments</a><a class="headerlink" href="#acknowledgments" title="Permalink to this headline">¶</a></h2>
 <p>Portions of this lesson have been adapted from the <a class="reference external" href="https://docs.python.org/2/tutorial/">official Python
 Tutorial</a> copyright <a class="reference external" href="http://www.python.org/">Python Software Foundation</a>.</p>
 <div class="contents topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#introduction-to-python" id="id4">Introduction to Python</a><ul>
-<li><a class="reference internal" href="#acknowledgments" id="id5">Acknowledgments</a></li>
-<li><a class="reference internal" href="#description" id="id6">Description</a></li>
-<li><a class="reference internal" href="#installation" id="id7">Installation</a></li>
-<li><a class="reference internal" href="#alternative-installations" id="id8">Alternative Installations</a></li>
-<li><a class="reference internal" href="#resources" id="id9">Resources</a></li>
-<li><a class="reference internal" href="#prerequisite" id="id10">Prerequisite</a></li>
-<li><a class="reference internal" href="#dependencies" id="id11">Dependencies</a></li>
-<li><a class="reference internal" href="#learning-goals" id="id12">Learning Goals</a></li>
-<li><a class="reference internal" href="#using-python-on-futuresystems" id="id13">Using Python on FutureSystems</a></li>
-<li><a class="reference internal" href="#interactive-python" id="id14">Interactive Python</a></li>
-<li><a class="reference internal" href="#statements-and-strings" id="id15">Statements and Strings</a></li>
-<li><a class="reference internal" href="#variables" id="id16">Variables</a></li>
-<li><a class="reference internal" href="#booleans" id="id17">Booleans</a></li>
-<li><a class="reference internal" href="#numbers-and-math" id="id18">Numbers and Math</a></li>
-<li><a class="reference internal" href="#types-and-using-the-repl" id="id19">Types and Using the REPL</a></li>
-<li><a class="reference internal" href="#lists" id="id20">Lists</a></li>
-<li><a class="reference internal" href="#sets" id="id21">Sets</a><ul>
-<li><a class="reference internal" href="#testing-for-membership-and-removal" id="id22">Testing for Membership and Removal</a></li>
-<li><a class="reference internal" href="#basics" id="id23">Basics</a></li>
-<li><a class="reference internal" href="#keys-and-values" id="id24">Keys and Values</a></li>
-<li><a class="reference internal" href="#counting-with-dictionaries" id="id25">Counting with Dictionaries</a></li>
+<li><a class="reference internal" href="#introduction-to-python" id="id10">Introduction to Python</a><ul>
+<li><a class="reference internal" href="#acknowledgments" id="id11">Acknowledgments</a></li>
+<li><a class="reference internal" href="#description" id="id12">Description</a><ul>
+<li><a class="reference internal" href="#philosophy" id="id13">Philosophy</a></li>
+<li><a class="reference internal" href="#features" id="id14">Features</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#control-statements" id="id26">Control Statements</a></li>
-<li><a class="reference internal" href="#iterations" id="id27">Iterations</a></li>
-<li><a class="reference internal" href="#functions" id="id28">Functions</a></li>
-<li><a class="reference internal" href="#classes" id="id29">Classes</a></li>
-<li><a class="reference internal" href="#database-access" id="id30">Database access</a></li>
-<li><a class="reference internal" href="#writing-and-saving-programs" id="id31">Writing and Saving Programs</a></li>
-<li><a class="reference internal" href="#installing-libraries" id="id32">Installing Libraries</a></li>
-<li><a class="reference internal" href="#virtual-environments" id="id33">Virtual Environments</a></li>
-<li><a class="reference internal" href="#fixing-bad-code" id="id34">Fixing Bad Code</a></li>
-<li><a class="reference internal" href="#using-pip-to-install-packages" id="id35">Using pip to install packages</a></li>
-<li><a class="reference internal" href="#using-autopep8" id="id36">Using autopep8</a></li>
-<li><a class="reference internal" href="#further-learning" id="id37">Further Learning</a></li>
-<li><a class="reference internal" href="#writing-python-3-compatible-code" id="id38">Writing python 3 compatible code</a><ul>
-<li><a class="reference internal" href="#exercises" id="id39">Exercises</a></li>
+<li><a class="reference internal" href="#about-the-tutorial" id="id15">About the Tutorial</a><ul>
+<li><a class="reference internal" href="#prerequisite" id="id16">Prerequisite</a></li>
+<li><a class="reference internal" href="#dependencies" id="id17">Dependencies</a></li>
+<li><a class="reference internal" href="#learning-goals" id="id18">Learning Goals</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#lab-python-fizzbuzz" id="id40">Lab - Python - FizzBuzz</a></li>
-<li><a class="reference internal" href="#lab-python-setup-for-futuresystems" id="id41">Lab - Python - Setup for FutureSystems</a></li>
-<li><a class="reference internal" href="#ecosystem" id="id42">Ecosystem</a></li>
-<li><a class="reference internal" href="#id2" id="id43">virtualenv</a></li>
-<li><a class="reference internal" href="#autoenv-directory-based-environments" id="id44">Autoenv: Directory-based Environments</a></li>
-<li><a class="reference internal" href="#pypi" id="id45">pypi</a></li>
-<li><a class="reference internal" href="#links" id="id46">Links</a></li>
+<li><a class="reference internal" href="#python-installation" id="id19">Python Installation</a><ul>
+<li><a class="reference internal" href="#id2" id="id20">virtualenv</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#interactive-python" id="id21">Interactive Python</a><ul>
+<li><a class="reference internal" href="#python-3-features" id="id22">Python 3 Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#statements-and-strings" id="id23">Statements and Strings</a></li>
+<li><a class="reference internal" href="#variables-and-simple-data-types" id="id24">Variables and Simple Data Types</a><ul>
+<li><a class="reference internal" href="#booleans" id="id25">Booleans</a></li>
+<li><a class="reference internal" href="#numbers-and-math" id="id26">Numbers and Math</a></li>
+<li><a class="reference internal" href="#types-and-using-the-repl" id="id27">Types and Using the REPL</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#control-statements" id="id28">Control Statements</a></li>
+<li><a class="reference internal" href="#iteration" id="id29">Iteration</a></li>
+<li><a class="reference internal" href="#lists" id="id30">Lists</a></li>
+<li><a class="reference internal" href="#sets" id="id31">Sets</a><ul>
+<li><a class="reference internal" href="#removal-and-testing-for-membership" id="id32">Removal and Testing for Membership</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dictionaries" id="id33">Dictionaries</a><ul>
+<li><a class="reference internal" href="#keys-and-values" id="id34">Keys and Values</a></li>
+<li><a class="reference internal" href="#counting-with-dictionaries" id="id35">Counting with Dictionaries</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#modules" id="id36">Modules</a></li>
+<li><a class="reference internal" href="#functions" id="id37">Functions</a></li>
+<li><a class="reference internal" href="#classes" id="id38">Classes</a></li>
+<li><a class="reference internal" href="#database-access" id="id39">Database Access</a></li>
+<li><a class="reference internal" href="#installing-libraries" id="id40">Installing Libraries</a></li>
+<li><a class="reference internal" href="#virtual-environments" id="id41">Virtual Environments</a></li>
+<li><a class="reference internal" href="#fixing-bad-code" id="id42">Fixing Bad Code</a></li>
+<li><a class="reference internal" href="#using-pip-to-install-packages" id="id43">Using pip to Install Packages</a></li>
+<li><a class="reference internal" href="#using-autopep8" id="id44">Using autopep8</a></li>
+<li><a class="reference internal" href="#further-learning" id="id45">Further Learning</a></li>
+<li><a class="reference internal" href="#writing-python-3-compatible-code" id="id46">Writing Python 3 Compatible Code</a></li>
+<li><a class="reference internal" href="#using-python-on-futuresystems" id="id47">Using Python on FutureSystems</a></li>
+<li><a class="reference internal" href="#exercises" id="id48">Exercises</a><ul>
+<li><a class="reference internal" href="#lab-python-fizzbuzz" id="id49">Lab - Python - FizzBuzz</a></li>
+<li><a class="reference internal" href="#lab-python-setup-for-futuresystems" id="id50">Lab - Python - Setup for FutureSystems</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ecosystem" id="id51">Ecosystem</a><ul>
+<li><a class="reference internal" href="#autoenv-directory-based-environments" id="id52">Autoenv: Directory-based Environments</a></li>
+<li><a class="reference internal" href="#id9" id="id53">pypi</a></li>
+<li><a class="reference internal" href="#alternative-installations" id="id54">Alternative Installations</a></li>
+<li><a class="reference internal" href="#useful-ecosystem-links" id="id55">Useful Ecosystem Links</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources" id="id56">Resources</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 <div class="section" id="description">
-<h2><a class="toc-backref" href="#id6">Description</a><a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id12">Description</a><a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>Python is an easy to learn programming language. It has efficient
 high-level data structures and a simple but effective approach to
 object-oriented programming. Python’s simple syntax and dynamic
@@ -654,6 +712,8 @@ additional documentation.</p>
 types implemented in C or C++ (or other languages callable from
 C). Python is also suitable as an extension language for customizable
 applications.</p>
+<div class="section" id="philosophy">
+<h3><a class="toc-backref" href="#id13">Philosophy</a><a class="headerlink" href="#philosophy" title="Permalink to this headline">¶</a></h3>
 <p>Python is an interpreted, dynamic, high-level programming language
 suitable for a wide range of applications. The <a class="reference external" href="https://www.python.org/dev/peps/pep-0020/">The Zen of Python</a>
 summarizes some of its philosophy including:</p>
@@ -663,6 +723,9 @@ summarizes some of its philosophy including:</p>
 <li>Complex is better than complicated</li>
 <li>Readability counts</li>
 </ul>
+</div>
+<div class="section" id="features">
+<h3><a class="toc-backref" href="#id14">Features</a><a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h3>
 <p>The main features of Python are:</p>
 <ul class="simple">
 <li>Use of indentation whitespace to indicate blocks</li>
@@ -677,6 +740,10 @@ summarizes some of its philosophy including:</p>
 and is applied for web development, scientific computing, embedded
 applications, artificial intelligence, software development, and
 information security, to name a few.</p>
+</div>
+</div>
+<div class="section" id="about-the-tutorial">
+<h2><a class="toc-backref" href="#id15">About the Tutorial</a><a class="headerlink" href="#about-the-tutorial" title="Permalink to this headline">¶</a></h2>
 <p>This tutorial introduces the reader informally to the basic concepts
 and features of the Python language and system. It helps to have a
 Python interpreter handy for hands-on experience, but all examples are
@@ -688,155 +755,18 @@ you a good idea of the language&#8217;s flavor and style. After reading it,
 you will be able to read and write Python modules and programs, and
 you will be ready to learn more about the various Python library
 modules.</p>
-</div>
-<div class="section" id="installation">
-<h2><a class="toc-backref" href="#id7">Installation</a><a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
-<p>Python is easy to install and very good instructions for most
-platforms can be found on the python.org Web page. We will be
-using Python 2.7.12 but not Python 3.</p>
-<p>We assume that you have a computer with python installed.
-However, we recommend that you use pythons virtualenv to
-isolate your development python from the system installed python.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">If you are not familiar with virtualenv, please read up on
-it.</p>
-</div>
-</div>
-<div class="section" id="alternative-installations">
-<h2><a class="toc-backref" href="#id8">Alternative Installations</a><a class="headerlink" href="#alternative-installations" title="Permalink to this headline">¶</a></h2>
-<p>The best installation of python is provided by python.og. However
-others claim to have alternative environments that allow you to
-install python. This includes</p>
-<ul class="simple">
-<li><a class="reference external" href="https://store.enthought.com/downloads/#default">Canopy</a></li>
-<li><a class="reference external" href="https://www.continuum.io/downloads">Anaconda</a></li>
-<li><a class="reference external" href="http://ironpython.net/">IronPython</a></li>
-</ul>
-<p>Typically they include not only the python compiler but also several
-useful packages. It is fine to use such environments for the class,
-but it should be noted that in both cases not every python library may
-be available for install in the given environment. For example if you
-need to use cloudmesh client, it may not be available as conda or
-Canopy package. This is also the case for many other cloud related and
-useful python libraries. Hence, we do recommend that if you are new to
-python to use the distribution form python.org, and use pip and
-virtualenv.</p>
-<p>Additionally some python version have platform specific libraries or
-dependencies. For example coca libraries, .NET or other frameworks are
-examples. For the assignments and the projects such platform dependent
-libraries are not to be used.</p>
-<p>If however you can write a platform independent code that works on
-Linux, OSX and Windows while using the python.org version but develop
-it with any of the other tools that is just fine. However it is up to
-you to guarantee that this independence is maintained and
-implemented. You do have to write requirements.txt files that will
-install the necessary python libraries in a platform independent
-fashion. The homework assignment PRG1 has even a requirement to do so.</p>
-<p>In order to provide platform independence we have given in the class a
-&#8220;minimal&#8221; python version that we have tested with hundreds of
-students: python.org. If you use any other version, that is your
-decision. Additionally some students not only use python.org but have
-used iPython which is fine too. However this class is not only about
-python, but also about how to have your code run on any platform. The
-homework is designed so that you can identify a setup that works for
-you.</p>
-<p>However we have concerns if you for example wanted to use chameleon
-cloud which we require you to access with cloudmesh. cloudmesh is not
-available as conda, canopy, or other framework package. Cloudmesh
-client is available form pypi which is standard and should be
-supported by the frameworks. We have not tested cloudmesh on any other
-python version then python.org which is the open source community
-standard. None of the other versions are standard.</p>
-<p>In fact we had students over the summer using canopy on their machines
-and they got confused as they now had multiple python versions and did
-not know how to switch between them and activate the correct
-version. Certainly if you know how to do that, than feel free to use
-canopy, and if you want to use canopy all this is up to you. However
-the homework and project requires you to make your program portable to
-python.org. If you know how to do that even if you use canopy,
-anaconda, or any other python version that is fine. Graders will test
-your programs on a python.org installation and not canpoy, anaconda,
-ironpython while using virtualenv. It is obvious why. If you do not
-know that answer you may want to think about that every time they test
-a program they need to do a new virtualenv and run vanilla python in
-it. If we were to run two instals in the same system, this will not
-work as we do not know if one student will cause a side effect for
-another. Thus we as instructors do not just have to look at your code
-but code of hundreds of students with different setups. This is a non
-scalable solution as every time we test out code from a student we
-would have to wipe out the OS, install it new, install an new version
-of whatever python you have elected, become familiar with that version
-and so on and on. This is the reason why the open source community is
-using python.org. We follow best practices. Using other versions is
-not a community best practice, but may work for an individual.</p>
-<p>We have however in regards to using other python version additional
-bonus projects such as</p>
-<ul>
-<li><p class="first">deploy run and document cloudmesh on ironpython</p>
-</li>
-<li><p class="first">deploy run and document cloudmesh on anaconde, develop script to
-generate a conda packge form github</p>
-</li>
-<li><p class="first">deploy run and document cloudmesh on canopy, develop script to
-generate a conda packge form github</p>
-</li>
-<li><p class="first">deploy run and document cloudmesh on ironpython</p>
-</li>
-<li><p class="first">other documentation that would be useful</p>
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">For this class, we do not recommend using any of these</p>
-</div>
-</li>
-</ul>
-<p>alternative installations. If you decide to use them, you are taking
-the risk of modifying your system configuration in a way that may
-affect other software. We will not be able to provide help for issues
-related to this.</p>
-</div>
-<div class="section" id="resources">
-<h2><a class="toc-backref" href="#id9">Resources</a><a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
-<p>If you are unfamiliar with programming in Python, we also refer you
-to some of the numerous online resources. You may wish to start with
-<a class="reference external" href="https://www.learnpython.org">Learn Python</a> or the book <a class="reference external" href="http://learnpythonthehardway.org/book/">Learn Python the Hard Way</a>. Other
-options include <a class="reference external" href="http://www.tutorialspoint.com/python/">Tutorials Point</a> or <a class="reference external" href="http://www.codecademy.com/en/tracks/python">Code Academy</a>, and the Python wiki page
-contains a long list of <a class="reference external" href="https://wiki.python.org/moin/BeginnersGuide/Programmers">references for learning</a> as well.
-Additional resources include:</p>
-<ul class="simple">
-<li><a class="reference external" href="http://ivory.idyll.org/articles/advanced-swc/">http://ivory.idyll.org/articles/advanced-swc/</a></li>
-<li><a class="reference external" href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html">http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html</a></li>
-<li><a class="reference external" href="http://www.youtube.com/watch?v=0vJJlVBVTFg">http://www.youtube.com/watch?v=0vJJlVBVTFg</a></li>
-<li><a class="reference external" href="http://www.korokithakis.net/tutorials/python/">http://www.korokithakis.net/tutorials/python/</a></li>
-<li><a class="reference external" href="http://www.afterhoursprogramming.com/tutorial/Python/Introduction/">http://www.afterhoursprogramming.com/tutorial/Python/Introduction/</a></li>
-<li><a class="reference external" href="http://www.greenteapress.com/thinkpython/thinkCSpy.pdf">http://www.greenteapress.com/thinkpython/thinkCSpy.pdf</a></li>
-</ul>
-<p>A very long list of useful information are also available from</p>
-<ul class="simple">
-<li><a class="reference external" href="https://github.com/vinta/awesome-python">https://github.com/vinta/awesome-python</a></li>
-<li><a class="reference external" href="https://github.com/rasbt/python_reference">https://github.com/rasbt/python_reference</a></li>
-</ul>
-<p>This list may be useful as it also contains links to data
-visualization and manipulation libraries, and AI tools and libraries.
-Please note that for this class you can reuse such libraries if not
-otherwise stated.</p>
-</div>
 <div class="section" id="prerequisite">
-<h2><a class="toc-backref" href="#id10">Prerequisite</a><a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
+<h3><a class="toc-backref" href="#id16">Prerequisite</a><a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h3>
 <p>In order to conduct this lesson you should</p>
 <ul class="simple">
-<li>A computer with python 2.7.x</li>
-<li>Familiarity with commandline usage</li>
-<li>A text editor such as PyCharm, emacs, vi or others. You should
-identity which works best for you and set it up.</li>
-<li>We do not recommend anaconda, or canopy as we ran into issues once
-you do some more advanced python. Instead we recommend you use pip
-and virtualenv. If you are unfamiliar with these tools, please
-consult the manual and tutorials available for it on the internet.</li>
+<li>A computer with Python 2.7.x (and preferably, virtualenv)</li>
+<li>Familiarity with command line usage</li>
+<li>A text editor such as <a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a>, emacs, vi or others. You
+should identity which works best for you and set it up.</li>
 </ul>
 </div>
 <div class="section" id="dependencies">
-<h2><a class="toc-backref" href="#id11">Dependencies</a><a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<h3><a class="toc-backref" href="#id17">Dependencies</a><a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><a class="reference external" href="https://www.python.org/">Python</a></li>
 <li><a class="reference external" href="https://pip.pypa.io/en/stable/">Pip</a></li>
@@ -848,7 +778,7 @@ consult the manual and tutorials available for it on the internet.</li>
 </ul>
 </div>
 <div class="section" id="learning-goals">
-<h2><a class="toc-backref" href="#id12">Learning Goals</a><a class="headerlink" href="#learning-goals" title="Permalink to this headline">¶</a></h2>
+<h3><a class="toc-backref" href="#id18">Learning Goals</a><a class="headerlink" href="#learning-goals" title="Permalink to this headline">¶</a></h3>
 <p>At the end of this lesson you will be able to:</p>
 <ul class="simple">
 <li>use Python</li>
@@ -859,41 +789,68 @@ consult the manual and tutorials available for it on the internet.</li>
 <li>install Python libraries using <code class="docutils literal"><span class="pre">virtualenv</span></code></li>
 </ul>
 </div>
-<div class="section" id="using-python-on-futuresystems">
-<span id="python-resources"></span><h2><a class="toc-backref" href="#id13">Using Python on FutureSystems</a><a class="headerlink" href="#using-python-on-futuresystems" title="Permalink to this headline">¶</a></h2>
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">This is only important if you use Futuresystems resources.</p>
 </div>
-<p>In order to use Python you must log into your FutureSystems account.
-Then at the shell prompt execute the following command:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ module load python
+<div class="section" id="python-installation">
+<h2><a class="toc-backref" href="#id19">Python Installation</a><a class="headerlink" href="#python-installation" title="Permalink to this headline">¶</a></h2>
+<p>Python is easy to install and very good instructions for most
+platforms can be found on the python.org Web page. We will be using
+Python 2.7.13 and not Python 3.</p>
+<p>In addition to Python, it is useful to have <a class="reference external" href="https://pypi.python.org/pypi/pip">pip</a> package installation tool on your
+system.</p>
+<p>In the tutorial, we assume that you have a computer with python
+installed.  However, we also recommend that for the class you use
+Python&#8217;s virtualenv (see below) to isolate your development Python
+from the system installed Python.</p>
+<div class="section" id="id2">
+<span id="id3"></span><h3><a class="toc-backref" href="#id20">virtualenv</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>Often you have your own computer and you do not like to change its
+environment to keep it in pristine condition. Python comes with mnay
+libraries that could for example conflict with libraries that you have
+installed. To avoid this it is bets to work in an isolated python
+environment while using virtualenv,. Documentation about it can be
+found at:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">*</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">virtualenv</span><span class="o">.</span><span class="n">pypa</span><span class="o">.</span><span class="n">io</span>
 </pre></div>
 </div>
-<p>This will make the <code class="docutils literal"><span class="pre">python</span></code> and <code class="docutils literal"><span class="pre">virtualenv</span></code> commands available to
-you.</p>
-<div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<p class="last">The details of what the <code class="docutils literal"><span class="pre">module</span> <span class="pre">load</span></code> command does are described
-in the future lesson <span class="xref doc">modules</span>.</p>
+<p>The installation is simple once you have pip installed. If it is not
+installed you can say:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ easy_install pip
+</pre></div>
+</div>
+<p>After that you can install the virtual env with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip install virtualenv
+</pre></div>
+</div>
+<p>To setup an isolated environment for example in the directory ~/ENV
+please use:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ virtualenv ~/ENV
+</pre></div>
+</div>
+<p>To activate it you can use the command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ source ~/ENV/bin/activate
+</pre></div>
+</div>
+<p>you can put this command in your bashrc or bash_profile command so you
+do not forget to activate it. :ref:<a href="#id4"><span class="problematic" id="id5">``</span></a>Instructions for this can be
+found in our lesson on Linux &lt;bashrc&gt;`.</p>
 </div>
 </div>
 <div class="section" id="interactive-python">
-<h2><a class="toc-backref" href="#id14">Interactive Python</a><a class="headerlink" href="#interactive-python" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id21">Interactive Python</a><a class="headerlink" href="#interactive-python" title="Permalink to this headline">¶</a></h2>
 <p>Python can be used interactively.  Start by entering the interactive
 loop by executing the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ python
 </pre></div>
 </div>
 <p>You should see something like the following:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Python</span> <span class="mf">2.7</span> <span class="p">(</span><span class="n">r27</span><span class="p">:</span><span class="mi">82500</span><span class="p">,</span> <span class="n">Aug</span> <span class="mi">10</span> <span class="mi">2010</span><span class="p">,</span> <span class="mi">11</span><span class="p">:</span><span class="mi">35</span><span class="p">:</span><span class="mi">15</span><span class="p">)</span>
-<span class="p">[</span><span class="n">GCC</span> <span class="mf">4.1</span><span class="o">.</span><span class="mi">2</span> <span class="mi">20080704</span> <span class="p">(</span><span class="n">Red</span> <span class="n">Hat</span> <span class="mf">4.1</span><span class="o">.</span><span class="mi">2</span><span class="o">-</span><span class="mi">48</span><span class="p">)]</span> <span class="n">on</span> <span class="n">linux2</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Python</span> <span class="mf">2.7</span><span class="o">.</span><span class="mi">13</span> <span class="p">(</span><span class="n">default</span><span class="p">,</span> <span class="n">Nov</span> <span class="mi">19</span> <span class="mi">2016</span><span class="p">,</span> <span class="mi">06</span><span class="p">:</span><span class="mi">48</span><span class="p">:</span><span class="mi">10</span><span class="p">)</span>
+<span class="p">[</span><span class="n">GCC</span> <span class="mf">5.4</span><span class="o">.</span><span class="mi">0</span> <span class="mi">20160609</span><span class="p">]</span> <span class="n">on</span> <span class="n">linux2</span>
 <span class="n">Type</span> <span class="s2">&quot;help&quot;</span><span class="p">,</span> <span class="s2">&quot;copyright&quot;</span><span class="p">,</span> <span class="s2">&quot;credits&quot;</span> <span class="ow">or</span> <span class="s2">&quot;license&quot;</span> <span class="k">for</span> <span class="n">more</span> <span class="n">information</span><span class="o">.</span>
 <span class="o">&gt;&gt;&gt;</span>
 </pre></div>
 </div>
-<p>The <code class="docutils literal"><span class="pre">&gt;&gt;&gt;</span></code> is the prompt for the interpreter.
-This is similar to the shell interpreter you have been using.</p>
+<p>The <code class="docutils literal"><span class="pre">&gt;&gt;&gt;</span></code> is the prompt for the interpreter. This is similar to the
+shell interpreter you have been using.</p>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
 <p class="last">Often we show the prompt when illustrating an example. This is to
@@ -909,57 +866,68 @@ along you will not need to type in the prompt.</p>
 </ul>
 <p>This is why you may see the interactive loop referred to as a
 <strong>REPL</strong>: <strong>R</strong>ead-<strong>E</strong>valuate-<strong>P</strong>rint-<strong>L</strong>oop.</p>
-</div>
-<div class="section" id="statements-and-strings">
-<h2><a class="toc-backref" href="#id15">Statements and Strings</a><a class="headerlink" href="#statements-and-strings" title="Permalink to this headline">¶</a></h2>
-<p>Let us explore the syntax of Python.
-Type into the interactive loop and press Enter:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">print</span> <span class="s2">&quot;Hello world from Python!&quot;</span>
+<div class="section" id="python-3-features">
+<h3><a class="toc-backref" href="#id22">Python 3 Features</a><a class="headerlink" href="#python-3-features" title="Permalink to this headline">¶</a></h3>
+<p>As mentioned earlier, we assume you will use Python 2.7.X because
+there are still some libraries that haven&#8217;t been ported to
+Python 3. However, there are some features of Python 3 we can and want
+to use in Python 2.7. Before we do anything else, we need to make
+these features available to any subsequent code we write:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
 </pre></div>
 </div>
-<p>The output will look like this:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="s2">&quot;Hello world from Python!&quot;</span>
+<p>The first of these imports allows us to use the <code class="docutils literal"><span class="pre">print</span></code> function to
+output text to the screen, instead of the <code class="docutils literal"><span class="pre">print</span></code> statement, which
+Python 2 uses. This is simply a <a class="reference external" href="https://www.python.org/dev/peps/pep-3105/">design decision</a> that better reflects
+Python&#8217;s underlying philosophy.</p>
+<p>The second of these imports makes sure that the <a class="reference external" href="https://www.python.org/dev/peps/pep-0238/">division operator</a> behaves in a way a
+newcomer to the language might find more intruitive. In Python 2,
+division <code class="docutils literal"><span class="pre">/</span></code> is <em>floor division</em> when the arguments are integers,
+meaning that <code class="docutils literal"><span class="pre">5</span> <span class="pre">/</span> <span class="pre">2</span> <span class="pre">==</span> <span class="pre">2</span></code>, for example. In Python 3, division <code class="docutils literal"><span class="pre">/</span></code>
+is <em>true division</em>, thus <code class="docutils literal"><span class="pre">5</span> <span class="pre">/</span> <span class="pre">2</span> <span class="pre">==</span> <span class="pre">2.5</span></code>.</p>
+</div>
+</div>
+<div class="section" id="statements-and-strings">
+<h2><a class="toc-backref" href="#id23">Statements and Strings</a><a class="headerlink" href="#statements-and-strings" title="Permalink to this headline">¶</a></h2>
+<p>Let us explore the syntax of Python.  Type into the interactive loop
+and press Enter:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello world from Python!&quot;</span><span class="p">)</span>
 <span class="go">Hello world from Python!</span>
 </pre></div>
 </div>
-<p>What happened: the <code class="docutils literal"><span class="pre">print</span></code> <strong>statement</strong> was given a <strong>string</strong> to
-process.  A <strong>statement</strong> in Python, like <code class="docutils literal"><span class="pre">print</span></code> tells the
-interpreter to do some primitive operation. In this case, <code class="docutils literal"><span class="pre">print</span></code>
-mean: write the following message to the standard output.</p>
+<p>What happened: the <code class="docutils literal"><span class="pre">print</span></code> function was given a <strong>string</strong> to
+process. A string is a sequence of characters.  A <strong>character</strong> can be
+a alphabetic (A through Z, lower and upper case), numeric (any of the
+digits), white space (spaces, tabs, newlines, etc), syntactic
+directives (comma, colon, quotation, exclamation, etc), and so forth.
+A string is just a sequence of the character and typically indicated
+by surrounding the characters in double quotes.</p>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
 <p class="last">Standard output is discussed in the
-<span class="xref doc">/class/lesson/linux/shell</span> lesson.</p>
+<span class="xref doc">../../lesson/linux/shell</span> lesson.</p>
 </div>
-<p>The &#8220;thing&#8221; we are <code class="docutils literal"><span class="pre">print``ing</span> <span class="pre">in</span> <span class="pre">the</span> <span class="pre">case</span> <span class="pre">the</span> <span class="pre">the</span> <span class="pre">**string**</span>
-<span class="pre">``Hello</span> <span class="pre">world</span> <span class="pre">from</span> <span class="pre">Python!</span></code>.  A <strong>string</strong> is a sequence of characters.  A
-<strong>character</strong> can be a alphabetic (A through Z, lower and upper case),
-numeric (any of the digits), white space (spaces, tabs, newlines,
-etc), syntactic directives (comma, colon, quotation, exclamation,
-etc), and so forth.  A string is just a sequence of the character and
-typically indicated by surrounding the characters in double quotes.</p>
 <p>So, what happened when you pressed Enter?  The interactive Python
 program read the line <code class="docutils literal"><span class="pre">print</span> <span class="pre">&quot;Hello</span> <span class="pre">world</span> <span class="pre">from</span> <span class="pre">Python!&quot;</span></code>, split it into
 the <code class="docutils literal"><span class="pre">print</span></code> statement and the <code class="docutils literal"><span class="pre">&quot;Hello</span> <span class="pre">world</span> <span class="pre">from</span> <span class="pre">Python!&quot;</span></code> string, and
 then executed the line, showing you the output.</p>
 </div>
-<div class="section" id="variables">
-<h2><a class="toc-backref" href="#id16">Variables</a><a class="headerlink" href="#variables" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="variables-and-simple-data-types">
+<h2><a class="toc-backref" href="#id24">Variables and Simple Data Types</a><a class="headerlink" href="#variables-and-simple-data-types" title="Permalink to this headline">¶</a></h2>
 <p>You can store data into a <strong>variable</strong> to access it later.
 For instance, instead of:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="s2">&quot;Hello world from Python!&quot;</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello world from Python!&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>which is a lot to type if you need to do it multiple times, you can
 store the string in a variable for convenient access:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">hello</span> <span class="o">=</span> <span class="s2">&quot;Hello world from Python!&quot;</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="n">hello</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">hello</span> <span class="o">=</span> <span class="s1">&#39;Hello world from Python!&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
 <span class="go">Hello world from Python!</span>
 </pre></div>
 </div>
-</div>
 <div class="section" id="booleans">
-<h2><a class="toc-backref" href="#id17">Booleans</a><a class="headerlink" href="#booleans" title="Permalink to this headline">¶</a></h2>
+<h3><a class="toc-backref" href="#id25">Booleans</a><a class="headerlink" href="#booleans" title="Permalink to this headline">¶</a></h3>
 <p>A <strong>boolean</strong> is a value that indicates the &#8220;truthness&#8221; of something.
 You can think of it as a toggle: either &#8220;on&#8221; or &#8220;off&#8221;, &#8220;one&#8221; or
 &#8220;zero&#8221;, &#8220;true&#8221; or &#8220;false&#8221;.  In fact, the only possible values of the
@@ -973,26 +941,26 @@ You can think of it as a toggle: either &#8220;on&#8221; or &#8220;off&#8221;, &
 <li><code class="docutils literal"><span class="pre">and</span></code></li>
 <li><code class="docutils literal"><span class="pre">or</span></code></li>
 </ul>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="kc">True</span> <span class="ow">and</span> <span class="kc">True</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="kc">True</span> <span class="ow">and</span> <span class="kc">True</span><span class="p">)</span>
 <span class="go">True</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="kc">True</span> <span class="ow">and</span> <span class="kc">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="kc">True</span> <span class="ow">and</span> <span class="kc">False</span><span class="p">)</span>
 <span class="go">False</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="kc">False</span> <span class="ow">and</span> <span class="kc">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="kc">False</span> <span class="ow">and</span> <span class="kc">False</span><span class="p">)</span>
 <span class="go">False</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="kc">True</span> <span class="ow">or</span> <span class="kc">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="kc">True</span> <span class="ow">or</span> <span class="kc">True</span><span class="p">)</span>
 <span class="go">True</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="kc">True</span> <span class="ow">or</span> <span class="kc">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="kc">True</span> <span class="ow">or</span> <span class="kc">False</span><span class="p">)</span>
 <span class="go">True</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="kc">False</span> <span class="ow">or</span> <span class="kc">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="kc">False</span> <span class="ow">or</span> <span class="kc">False</span><span class="p">)</span>
 <span class="go">False</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="numbers-and-math">
-<h2><a class="toc-backref" href="#id18">Numbers and Math</a><a class="headerlink" href="#numbers-and-math" title="Permalink to this headline">¶</a></h2>
+<h3><a class="toc-backref" href="#id26">Numbers and Math</a><a class="headerlink" href="#numbers-and-math" title="Permalink to this headline">¶</a></h3>
 <p>The interactive interpreter can also be used as a calculator.
 For instance, say we wanted to compute a multiple of 21:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="mi">21</span> <span class="o">*</span> <span class="mi">2</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">21</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
 <span class="go">42</span>
 </pre></div>
 </div>
@@ -1013,26 +981,26 @@ to the provided numbers.  Some operators are:</p>
 <div class="math">
 \[x^y\]</div>
 <p>You can combine <strong>float</strong>s and <strong>int</strong>s:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="mf">3.14</span> <span class="o">*</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">11</span> <span class="o">+</span> <span class="mi">4</span> <span class="o">-</span> <span class="mi">2</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mf">3.14</span> <span class="o">*</span> <span class="mi">42</span> <span class="o">/</span> <span class="mi">11</span> <span class="o">+</span> <span class="mi">4</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
 <span class="go">13.9890909091</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="mi">2</span><span class="o">**</span><span class="mi">3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span>
 <span class="go">8</span>
 </pre></div>
 </div>
 <p>Note that <strong>operator precedence</strong> is important.  Using parenthesis to
 indicate affect the order of operations gives a difference results, as
 expected:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="mf">3.14</span> <span class="o">*</span> <span class="p">(</span><span class="mi">42</span> <span class="o">/</span> <span class="mi">11</span><span class="p">)</span> <span class="o">+</span> <span class="mi">4</span> <span class="o">-</span> <span class="mi">2</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mf">3.14</span> <span class="o">*</span> <span class="p">(</span><span class="mi">42</span> <span class="o">/</span> <span class="mi">11</span><span class="p">)</span> <span class="o">+</span> <span class="mi">4</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
 <span class="go">11.42</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="mi">3</span> <span class="o">-</span> <span class="mi">4</span> <span class="o">/</span> <span class="mf">5.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="mi">3</span> <span class="o">-</span> <span class="mi">4</span> <span class="o">/</span> <span class="mf">5.0</span><span class="p">)</span>
 <span class="go">6.2</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">4</span><span class="p">)</span> <span class="o">/</span> <span class="mf">5.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">4</span><span class="p">)</span> <span class="o">/</span> <span class="mf">5.0</span> <span class="p">)</span>
 <span class="go">-0.6</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="types-and-using-the-repl">
-<h2><a class="toc-backref" href="#id19">Types and Using the REPL</a><a class="headerlink" href="#types-and-using-the-repl" title="Permalink to this headline">¶</a></h2>
+<h3><a class="toc-backref" href="#id27">Types and Using the REPL</a><a class="headerlink" href="#types-and-using-the-repl" title="Permalink to this headline">¶</a></h3>
 <p>We have so far seen a few examples of types: <strong>string</strong>s, <strong>bool</strong>s,
 <strong>int</strong>s, and <strong>float</strong>s.  A <strong>type</strong> indicates that values of that
 type support a certain set of operations. For instance, how would you
@@ -1047,13 +1015,12 @@ error:</p>
 <p>There are many different types beyond what we have seen so far, such
 as <strong>dictionaries</strong>s, <strong>list</strong>s, <strong>set</strong>s. One handy way of using
 the interactive python is to get the type of a value using <code class="docutils literal"><span class="pre">type()</span></code>:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span>  <span class="o">&gt;&gt;&gt;</span> <span class="nb">type</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
-  <span class="o">&lt;</span><span class="nb">type</span> <span class="s1">&#39;int&#39;</span><span class="o">&gt;</span>
-  <span class="o">&gt;&gt;&gt;</span> <span class="nb">type</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
-
-<span class="o">&lt;</span><span class="nb">type</span> <span class="s1">&#39;str&#39;</span><span class="o">&gt;</span>
-  <span class="o">&gt;&gt;&gt;</span> <span class="nb">type</span><span class="p">(</span><span class="mf">3.14</span><span class="p">)</span>
-  <span class="o">&lt;</span><span class="nb">type</span> <span class="s1">&#39;float&#39;</span><span class="o">&gt;</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="go">&lt;type &#39;int&#39;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
+<span class="go">&lt;type &#39;str&#39;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="mf">3.14</span><span class="p">)</span>
+<span class="go">&lt;type &#39;float&#39;&gt;</span>
 </pre></div>
 </div>
 <p>You can also ask for help about something using <code class="docutils literal"><span class="pre">help()</span></code>:</p>
@@ -1069,14 +1036,78 @@ spacebar to go down a page <code class="docutils literal"><span class="pre">w</s
 go up/down line-by-line, or <code class="docutils literal"><span class="pre">q</span></code> to exit.</p>
 </div>
 </div>
+</div>
+<div class="section" id="control-statements">
+<h2><a class="toc-backref" href="#id28">Control Statements</a><a class="headerlink" href="#control-statements" title="Permalink to this headline">¶</a></h2>
+<p>Computer programs do not only execute instructions. Occasionally, a
+choice needs to be made. Such as a choice is based on a
+condition. Python has several conditional operators:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="o">&gt;</span>   <span class="n">greater</span> <span class="n">than</span>
+<span class="o">&lt;</span>   <span class="n">smaller</span> <span class="n">than</span>
+<span class="o">==</span>  <span class="n">equals</span>
+<span class="o">!=</span>  <span class="ow">is</span> <span class="ow">not</span>
+</pre></div>
+</div>
+<p>Conditions are always combined with variables. A program can make a
+choice using the if keyword. For example:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Guess x:&quot;</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+<span class="gp">... </span>   <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You guessed correctly!&#39;</span><span class="p">)</span>
+<span class="gp">... </span>   <span class="o">&lt;</span><span class="n">ENTER</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>In this example, <em>You guessed correctly!</em> will only be printed if the
+variable <code class="docutils literal"><span class="pre">x</span></code> equals to four (see table above). Python can also
+execute multiple conditions using the <code class="docutils literal"><span class="pre">elif</span></code> and <code class="docutils literal"><span class="pre">else</span></code> keywords.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Guess x:&quot;</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You guessed correctly!&#39;</span><span class="p">)</span>
+<span class="gp">... </span><span class="k">elif</span> <span class="nb">abs</span><span class="p">(</span><span class="mi">4</span> <span class="o">-</span> <span class="n">x</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Wrong guess, but you are close!&#39;</span><span class="p">)</span>
+<span class="gp">... </span><span class="k">else</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Wrong guess&#39;</span><span class="p">)</span>
+<span class="gp">... </span><span class="o">&lt;</span><span class="n">ENTER</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="iteration">
+<h2><a class="toc-backref" href="#id29">Iteration</a><a class="headerlink" href="#iteration" title="Permalink to this headline">¶</a></h2>
+<p>To repeat code, the <code class="docutils literal"><span class="pre">for</span></code> keyword can be used. For example, to
+display the numbers from 1 to 10, we could write something like this:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
+<span class="gp">... </span>   <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello!&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The second argument to <code class="docutils literal"><span class="pre">range</span></code>, <em>11</em>, is not inclusive, meaning that
+the loop will only get to <em>10</em> before it finishes.  Python itself
+starts counting from 0, so this code will also work:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
+<span class="gp">... </span>   <span class="nb">print</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>In fact, the <code class="docutils literal"><span class="pre">range</span></code> function defaults to starting value of <em>0</em>, so the above is equivalent to:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+<span class="gp">... </span>   <span class="nb">print</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>We can also nest loops inside each other:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
+<span class="gp">... </span>        <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="s1">&#39; &#39;</span><span class="p">,</span><span class="n">j</span><span class="p">)</span>
+<span class="gp">... </span><span class="o">&lt;</span><span class="n">ENTER</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>In this case we have two nested loops. The code will iterate over
+the entire coordinate range (0,0) to (9,9)</p>
+</div>
 <div class="section" id="lists">
-<h2><a class="toc-backref" href="#id20">Lists</a><a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id30">Lists</a><a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h2>
 <p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_lists.htm">https://www.tutorialspoint.com/python/python_lists.htm</a></p>
 <p>Lists in Python are ordered sequences of elements, where each element
 can be accessed using a 0-based index.</p>
 <p>To define a list, you simply list its elements between square brackest
 <code class="docutils literal"><span class="pre">[]</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Jane&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Abby&#39;</span><span class="p">]</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Jane&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Abby&#39;</span><span class="p">]</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1"># access the first element of the list</span>
 <span class="go">&#39;Albert&#39;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="c1"># access the third element of the list</span>
@@ -1086,7 +1117,7 @@ can be accessed using a 0-based index.</p>
 <p>You can also use a negative index if you want to start counting
 elements from the end of the list. Thus, the last element has index
 <em>-1</em>, the second before last element has index <em>-2</em> and so on:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># access the last element of the list</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># access the last element of the list</span>
 <span class="go">&#39;Abby&#39;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span> <span class="c1"># access the second last element of the list</span>
 <span class="go">&#39;John&#39;</span>
@@ -1094,7 +1125,7 @@ elements from the end of the list. Thus, the last element has index
 </div>
 <p>Python also allows you to take whole slices of the list by specifing a
 beginning and end of the slice separated by a colon <code class="docutils literal"><span class="pre">:</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># the middle elements, excluding first and last</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># the middle elements, excluding first and last</span>
 <span class="go">[&#39;Jane&#39;, &#39;Liz&#39;, &#39;John&#39;]</span>
 </pre></div>
 </div>
@@ -1103,31 +1134,31 @@ is inclusive and the ending one, exclusive.</p>
 <p>Python provides a variety of methods for manipulating the members of a
 list.</p>
 <p>You can add elements with <code class="docutils literal"><span class="pre">append</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Liz&#39;</span><span class="p">)</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Liz&#39;</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
 <span class="go">[&#39;Albert&#39;, &#39;Jane&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Abby&#39;, &#39;Liz&#39;]</span>
 </pre></div>
 </div>
 <p>As you can see, the elements in a list need not be unique.</p>
 <p>Merge two lists with <code class="docutils literal"><span class="pre">extend</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s1">&#39;Lindsay&#39;</span><span class="p">,</span> <span class="s1">&#39;Connor&#39;</span><span class="p">])</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s1">&#39;Lindsay&#39;</span><span class="p">,</span> <span class="s1">&#39;Connor&#39;</span><span class="p">])</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
 <span class="go">[&#39;Albert&#39;, &#39;Jane&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Abby&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;, &#39;Connor&#39;]</span>
 </pre></div>
 </div>
 <p>Find the index of the first occurrence of an element with <code class="docutils literal"><span class="pre">index</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;Liz&#39;</span><span class="p">)</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;Liz&#39;</span><span class="p">)</span>
 <span class="go">2</span>
 </pre></div>
 </div>
 <p>Remove elements by value with <code class="docutils literal"><span class="pre">remove</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;Abby&#39;</span><span class="p">)</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;Abby&#39;</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
 <span class="go">[&#39;Albert&#39;, &#39;Jane&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;, &#39;Connor&#39;]</span>
 </pre></div>
 </div>
 <p>Remove elements by index with <code class="docutils literal"><span class="pre">pop</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 <span class="go">&#39;Jane&#39;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
 <span class="go">[&#39;Albert&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;, &#39;Connor&#39;]</span>
@@ -1137,7 +1168,7 @@ list.</p>
 <code class="docutils literal"><span class="pre">remove</span></code> does not.</p>
 <p>If you are familiar with stacks from other programming languages, you
 can use <code class="docutils literal"><span class="pre">insert</span></code> and <code class="docutils literal"><span class="pre">pop</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;Lincoln&#39;</span><span class="p">)</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;Lincoln&#39;</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
 <span class="go">[&#39;Lincoln&#39;, &#39;Albert&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;, &#39;Connor&#39;]</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">names</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
@@ -1146,10 +1177,10 @@ can use <code class="docutils literal"><span class="pre">insert</span></code> an
 <span class="go">[&#39;Lincoln&#39;, &#39;Albert&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;]</span>
 </pre></div>
 </div>
-<p>The Python documentation contains a <a href="#id47"><span class="problematic" id="id48">`full list of list operations &lt;&gt;`_</span></a>.</p>
+<p>The Python documentation contains a <a href="#id57"><span class="problematic" id="id58">`full list of list operations &lt;&gt;`_</span></a>.</p>
 <p>To go back to the <code class="docutils literal"><span class="pre">range</span></code> function you used earlier, it simply
 creates a list of numbers:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 <span class="go">[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
 <span class="go">[2, 4, 6, 8]</span>
@@ -1157,20 +1188,20 @@ creates a list of numbers:</p>
 </div>
 </div>
 <div class="section" id="sets">
-<h2><a class="toc-backref" href="#id21">Sets</a><a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id31">Sets</a><a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h2>
 <p>Python lists can contain duplicates as you saw above:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Jane&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Abby&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">]</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Jane&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Abby&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">]</span>
 </pre></div>
 </div>
 <p>When we don&#8217;t want this to be the case, we can use a <a class="reference external" href="https://docs.python.org/2/library/stdtypes.html#set">set</a>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span>
 <span class="go">set([&#39;Lincoln&#39;, &#39;John&#39;, &#39;Albert&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;])</span>
 </pre></div>
 </div>
 <p>Keep in mind that the <em>set</em> is an unordered collection of objects,
 thus we can not access them by index:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">unique_names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="gt">Traceback (most recent call last):</span>
   File <span class="nb">&quot;&lt;stdin&gt;&quot;</span>, line <span class="m">1</span>, in <span class="n">&lt;module&gt;</span>
 <span class="gr">  TypeError</span>: <span class="n">&#39;set&#39; object does not support indexing</span>
@@ -1191,26 +1222,32 @@ the set (we had <code class="docutils literal"><span class="pre">set(['Lincoln',
 <span class="pre">'Lindsay']</span></code>). You should not assume this is the case in general. That
 is, don&#8217;t make any assumptions about the order of elements in a set
 when it is converted to any type of sequential data structure.</p>
-<div class="section" id="testing-for-membership-and-removal">
-<h3><a class="toc-backref" href="#id22">Testing for Membership and Removal</a><a class="headerlink" href="#testing-for-membership-and-removal" title="Permalink to this headline">¶</a></h3>
+<p>You can change a set&#8217;s contents using the <code class="docutils literal"><span class="pre">add</span></code>, <code class="docutils literal"><span class="pre">remove</span></code> and
+<code class="docutils literal"><span class="pre">update</span></code> methods which correspond to the <code class="docutils literal"><span class="pre">append</span></code>, <code class="docutils literal"><span class="pre">remove</span></code> and
+<code class="docutils literal"><span class="pre">extend</span></code> methods in a list. In addition to these, <em>set</em> objects
+support the operations you may be familiar with from mathematical
+sets: <em>union</em>, <em>intersection</em>, <em>difference</em>, as well as operations to
+check containment. You can read about this in the <a class="reference external" href="https://docs.python.org/2/library/stdtypes.html#set">Python
+documentation for sets</a>.</p>
+<div class="section" id="removal-and-testing-for-membership">
+<h3><a class="toc-backref" href="#id32">Removal and Testing for Membership</a><a class="headerlink" href="#removal-and-testing-for-membership" title="Permalink to this headline">¶</a></h3>
 <p>One important advantage of a <em>set</em> over a <em>list</em> is that <strong>access to
 elements is fast</strong>. If you are familiar with different data structures
 from a Computer Science class, the Python list is implemented by an
 array, while the set is implemented by a hash table.</p>
 <p>We will demonstrate this with an example. Let&#8217;s say we have a list and
 a set of the same number of elements (approximately 100 thousand):</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">random</span><span class="o">,</span> <span class="nn">timeit</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">random</span><span class="o">,</span> <span class="nn">timeit</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">nums_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">sys</span><span class="o">.</span><span class="n">maxint</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">5</span><span class="p">)])</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">nums_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">nums_set</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">nums_set</span><span class="p">)</span>
 <span class="go">100000</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">nums_list</span><span class="p">)</span>
-<span class="go">100000</span>
 </pre></div>
 </div>
-<p>We will use the <a href="#id49"><span class="problematic" id="id50">`timeit &lt;&gt;`_</span></a> Python module to time 100 operations that
-test for the existence of a member in either the list or set:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">timeit</span><span class="o">.</span><span class="n">timeit</span><span class="p">(</span><span class="s1">&#39;random.randint(0, sys.maxint) in nums&#39;</span><span class="p">,</span> <span class="n">setup</span><span class="o">=</span><span class="s1">&#39;import random; nums=</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="nb">str</span><span class="p">(</span><span class="n">nums_set</span><span class="p">),</span> <span class="n">number</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+<p>We will use the <a class="reference external" href="https://docs.python.org/2/library/timeit.html">timeit</a> Python module to
+time 100 operations that test for the existence of a member in either
+the list or set:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">timeit</span><span class="o">.</span><span class="n">timeit</span><span class="p">(</span><span class="s1">&#39;random.randint(0, sys.maxint) in nums&#39;</span><span class="p">,</span> <span class="n">setup</span><span class="o">=</span><span class="s1">&#39;import random; nums=</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="nb">str</span><span class="p">(</span><span class="n">nums_set</span><span class="p">),</span> <span class="n">number</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
 <span class="go">0.0004038810729980469</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">timeit</span><span class="o">.</span><span class="n">timeit</span><span class="p">(</span><span class="s1">&#39;random.randint(0, sys.maxint) in nums&#39;</span><span class="p">,</span> <span class="n">setup</span><span class="o">=</span><span class="s1">&#39;import random; nums=</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="nb">str</span><span class="p">(</span><span class="n">nums_list</span><span class="p">),</span> <span class="n">number</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
 <span class="go">0.3980541229248047</span>
@@ -1220,16 +1257,14 @@ test for the existence of a member in either the list or set:</p>
 but the take away will be the same: searching for an element in a set
 is orders of magnitude faster than in a list. This is important to
 keep in mind when you work with large amounts of data.</p>
-<blockquote>
-<div>Dictionaries</div></blockquote>
-<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="dictionaries">
+<h2><a class="toc-backref" href="#id33">Dictionaries</a><a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h2>
 <p>One of the very important datastructures in python is a dictionary
 also refered to as <em>dict</em>.</p>
-</div>
-<div class="section" id="basics">
-<h3><a class="toc-backref" href="#id23">Basics</a><a class="headerlink" href="#basics" title="Permalink to this headline">¶</a></h3>
 <p>A dictionary represents a key value store:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Name&#39;</span><span class="p">:</span> <span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="s1">&#39;Class&#39;</span><span class="p">:</span> <span class="s1">&#39;Scientist&#39;</span><span class="p">}</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Name&#39;</span><span class="p">:</span> <span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="s1">&#39;Class&#39;</span><span class="p">:</span> <span class="s1">&#39;Scientist&#39;</span><span class="p">}</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;person[&#39;Name&#39;]: &quot;</span><span class="p">,</span> <span class="n">person</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">])</span>
 <span class="go">person[&#39;Name&#39;]:  Albert</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;person[&#39;Age&#39;]: &quot;</span><span class="p">,</span> <span class="n">person</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">])</span>
@@ -1237,7 +1272,7 @@ also refered to as <em>dict</em>.</p>
 </pre></div>
 </div>
 <p>You can delete elements with the following commands:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">del</span> <span class="n">person</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span> <span class="c1"># remove entry with key &#39;Name&#39;</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">del</span> <span class="n">person</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span> <span class="c1"># remove entry with key &#39;Name&#39;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">person</span>
 <span class="go">{&#39;Age&#39;: 100, &#39;Class&#39;: &#39;Scientist&#39;}</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">person</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>     <span class="c1"># remove all entries in dict</span>
@@ -1251,7 +1286,7 @@ also refered to as <em>dict</em>.</p>
 </pre></div>
 </div>
 <p>You can iterate over a dict:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Name&#39;</span><span class="p">:</span> <span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="s1">&#39;Class&#39;</span><span class="p">:</span> <span class="s1">&#39;Scientist&#39;</span><span class="p">}</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Name&#39;</span><span class="p">:</span> <span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="s1">&#39;Class&#39;</span><span class="p">:</span> <span class="s1">&#39;Scientist&#39;</span><span class="p">}</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">person</span><span class="p">:</span>
 <span class="gp">... </span>  <span class="nb">print</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="n">person</span><span class="p">[</span><span class="n">item</span><span class="p">])</span>
 <span class="gp">... </span>  <span class="o">&lt;</span><span class="n">ENTER</span><span class="o">&gt;</span>
@@ -1260,12 +1295,11 @@ also refered to as <em>dict</em>.</p>
 <span class="go">Class Scientist</span>
 </pre></div>
 </div>
-</div>
 <div class="section" id="keys-and-values">
-<h3><a class="toc-backref" href="#id24">Keys and Values</a><a class="headerlink" href="#keys-and-values" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id34">Keys and Values</a><a class="headerlink" href="#keys-and-values" title="Permalink to this headline">¶</a></h3>
 <p>You can retrieve both the keys and values of a dictionary using the
 <code class="docutils literal"><span class="pre">keys()</span></code> and <code class="docutils literal"><span class="pre">values()</span></code> methods of the dictionary, respectively:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
 <span class="go">[&#39;Age&#39;, &#39;Name&#39;, &#39;Class&#39;]</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">person</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
 <span class="go">[100, &#39;Albert&#39;, &#39;Scientist&#39;]</span>
@@ -1286,11 +1320,11 @@ the same correspondence in general as long as <strong>``keys()`` and
 ``values()`` are called one right after the other</strong>.</p>
 </div>
 <div class="section" id="counting-with-dictionaries">
-<h3><a class="toc-backref" href="#id25">Counting with Dictionaries</a><a class="headerlink" href="#counting-with-dictionaries" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id35">Counting with Dictionaries</a><a class="headerlink" href="#counting-with-dictionaries" title="Permalink to this headline">¶</a></h3>
 <p>One application of dictionaries that frequently comes up is counting
 the elements in a sequence. For example, say we have a sequence of
 coin flips:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">random</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">random</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">die_rolls</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="s1">&#39;heads&#39;</span><span class="p">,</span> <span class="s1">&#39;tails&#39;</span><span class="p">])</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">die_rolls</span>
 <span class="go">[&#39;heads&#39;, &#39;tails&#39;, &#39;heads&#39;, &#39;tails&#39;, &#39;heads&#39;, &#39;heads&#39;, &#39;tails&#39;, &#39;heads&#39;, &#39;heads&#39;, &#39;heads&#39;]</span>
@@ -1301,7 +1335,7 @@ execute this on your computer since the outcomes of the die rolls are
 random.</p>
 <p>To compute the probabilities of heads and tails, we could count how
 many heads and tails we have in the list:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">counts</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;heads&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;tails&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">counts</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;heads&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;tails&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">outcome</span> <span class="ow">in</span> <span class="n">coin_flips</span><span class="p">:</span>
 <span class="gp">... </span>  <span class="k">assert</span> <span class="n">outcome</span> <span class="ow">in</span> <span class="n">counts</span>
 <span class="gp">... </span>  <span class="n">counts</span><span class="p">[</span><span class="n">outcome</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
@@ -1329,126 +1363,8 @@ of coin flips. <code class="docutils literal"><span class="pre">sum</span></code
 </ol>
 </div>
 </div>
-<div class="section" id="control-statements">
-<h2><a class="toc-backref" href="#id26">Control Statements</a><a class="headerlink" href="#control-statements" title="Permalink to this headline">¶</a></h2>
-<p>Computer programs do not only execute instructions. Occasionally, a
-choice needs to be made. Such as a choice is based on a
-condition. Python has several conditional operators:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="o">&gt;</span>   <span class="n">greater</span> <span class="n">than</span>
-<span class="o">&lt;</span>   <span class="n">smaller</span> <span class="n">than</span>
-<span class="o">==</span>  <span class="n">equals</span>
-<span class="o">!=</span>  <span class="ow">is</span> <span class="ow">not</span>
-</pre></div>
-</div>
-<p>Conditions are always combined with variables. A program can make a
-choice using the if keyword. For example:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Tell X&quot;</span><span class="p">))</span>
-<span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You guessed correctly!&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;End of program.&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>When you execute this program it will always print ‘End of program’,
-but the text ‘You guessed correctly!’ will only be printed if the
-variable x equals to four (see table above). Python can also execute a
-block of code if x does not equal to 4. The else keyword is used for
-that.</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What is the value of  X&quot;</span><span class="p">))</span>
-
-<span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You guessed correctly!&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Wrong guess&#39;</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;End of program.&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="iterations">
-<h2><a class="toc-backref" href="#id27">Iterations</a><a class="headerlink" href="#iterations" title="Permalink to this headline">¶</a></h2>
-<p>To repeat code, the for keyword can be used. To execute a line of code
-10 times we can do:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>The last number (11) is not included. This will output the numbers 1
-to 10. Python itself starts counting from 0, so this code will also
-work:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>but will output 0 to 9.</p>
-<p>The code is repeated while the condition is True. In this case the
-condition is: i &lt; 10. Every iteration (round), the variable i is
-updated.Nested loops Loops can be combined:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="s1">&#39; &#39;</span><span class="p">,</span><span class="n">j</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>In this case we have a multidimensional loops. It will iterate over
-the entire coordinate range (0,0) to (9,9)</p>
-</div>
-<div class="section" id="functions">
-<h2><a class="toc-backref" href="#id28">Functions</a><a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
-<p>To repeat lines of code, you can use a function. A function has a
-unique distinct name in the program. Once you call a function it will
-execute one or more lines of codes, which we will call a code block.</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
-
-<span class="k">def</span> <span class="nf">computePower</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
-    <span class="n">value</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
-
-<span class="n">computePower</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>We call the function with parameter a = 3 .  A function can be called
-several times with varying parameters. There is no limit to the number
-of function calls.</p>
-<p>The def keyword tells Python we define a function.  Always use four
-spaces to indent the code block, using another number of spaces will
-throw a syntax error.</p>
-<p>It is also possible to store the output of a function in a variable.
-To do so, we use the keyword return.</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
-
-<span class="k">def</span> <span class="nf">computePower</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
-    <span class="n">value</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">value</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="n">computePower</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="classes">
-<span id="doc-python-intro-sec-classes"></span><h2><a class="toc-backref" href="#id29">Classes</a><a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
-<p>A class is a way to take a grouping of functions and data and place
-them inside a container, so you can access them with the . (dot)
-operator.</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span>    <span class="k">class</span> <span class="nc">Fruit</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">tangerine</span> <span class="o">=</span> <span class="s2">&quot;are organge-colored citrus fruit, which is closely related to a mandarin organge&quot;</span>
-
-    <span class="k">def</span> <span class="nf">apple</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span> <span class="s2">&quot;Apples are rich in antioxidants, flavanoids, and dietary fiber!&quot;</span>
-
-<span class="n">thing</span> <span class="o">=</span> <span class="n">Fruit</span><span class="p">()</span>
-<span class="n">thing</span><span class="o">.</span><span class="n">apple</span><span class="p">()</span>
-<span class="nb">print</span> <span class="n">thing</span><span class="o">.</span><span class="n">tangerine</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="database-access">
-<h2><a class="toc-backref" href="#id30">Database access</a><a class="headerlink" href="#database-access" title="Permalink to this headline">¶</a></h2>
-<p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_database_access.htm">https://www.tutorialspoint.com/python/python_database_access.htm</a></p>
-</div>
-<div class="section" id="writing-and-saving-programs">
-<h2><a class="toc-backref" href="#id31">Writing and Saving Programs</a><a class="headerlink" href="#writing-and-saving-programs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="modules">
+<h2><a class="toc-backref" href="#id36">Modules</a><a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h2>
 <p>Make sure you are no longer in the interactive interpreter.
 If you are you can type <code class="docutils literal"><span class="pre">quit()</span></code> and press Enter to exit.</p>
 <p>You can save your programs to files which the interpreter can then
@@ -1456,14 +1372,15 @@ execute.  This has the benefit of allowing you to track changes made
 to your programs and sharing them with other people.</p>
 <p>Start by opening a new file <code class="docutils literal"><span class="pre">hello.py</span></code> in the Python editor of your
 choice. If you don&#8217;t have a preferred editor, we recommend <a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a>.</p>
-<p>Now enter write a simple program and save:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_statement</span><span class="p">,</span> <span class="n">division</span>
+<p>Now write this simple program and save it:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_statement</span><span class="p">,</span> <span class="n">division</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello world!&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>As a check, make sure the file contains the expected contents on the
 command line:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cat hello.py
+from __future__ import print_statement, division
 print(&quot;Hello world!&quot;)
 </pre></div>
 </div>
@@ -1473,10 +1390,9 @@ command:</p>
 Hello world!
 </pre></div>
 </div>
-<p>Congratulations, you have written a Python <strong>module</strong>.  Files in which
-Python code is stored are called <strong>module</strong>s. You can execute a
-Python module form the command line like you just did, or you can
-import it in other Python code using the <code class="docutils literal"><span class="pre">import</span></code> statement.</p>
+<p>Files in which Python code is stored are called <strong>module</strong>s. You can
+execute a Python module form the command line like you just did, or
+you can import it in other Python code using the <code class="docutils literal"><span class="pre">import</span></code> statement.</p>
 <p>Let&#8217;s write a more involved Python program that will receive as input
 the lengths of the three sides of a triangle, and will output whether
 they define a valid triangle. A triangle is valid if the length of
@@ -1497,20 +1413,15 @@ and greater than the difference of the lengths of the other two sides.:</p>
 <span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
 <span class="kn">from</span> <span class="nn">docopt</span> <span class="k">import</span> <span class="n">docopt</span>
 
-
-<span class="k">def</span> <span class="nf">check_triangle</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
-      <span class="k">return</span> \
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+      <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="vm">__doc__</span><span class="p">)</span>
+      <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;LENGTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;WIDTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;HEIGHT&#39;</span><span class="p">])</span>
+      <span class="n">valid_triangle</span> <span class="o">=</span> \
               <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
               <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
               <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
-
-
-<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-      <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="n">__doc__</span><span class="p">)</span>
-      <span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;LENGTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;WIDTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;HEIGHT&#39;</span><span class="p">])</span>
       <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Triangle with sides </span><span class="si">%d</span><span class="s1">, </span><span class="si">%d</span><span class="s1"> and </span><span class="si">%d</span><span class="s1"> is valid: </span><span class="si">%r</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span>
-              <span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span>
-              <span class="n">check_triangle</span><span class="p">(</span><span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">)</span>
+              <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">valid_triangle</span>
       <span class="p">))</span>
 </pre></div>
 </div>
@@ -1522,16 +1433,114 @@ Triangle with sides 4, 5 and 6 is valid: True
 </div>
 <p>Let break this down a bit.</p>
 <ol class="arabic simple">
-<li>We are importing the <code class="docutils literal"><span class="pre">print_function</span></code> and <code class="docutils literal"><span class="pre">division</span></code> modules from Python 3 like we did earlier in this tutorial. It&#8217;s a good idea to always include these in your programs.</li>
-<li>We&#8217;ve defined the <code class="docutils literal"><span class="pre">check_triangle</span></code> function which has three parameters. It returns <code class="docutils literal"><span class="pre">True</span></code> if all six expressions defined inside are true, and <code class="docutils literal"><span class="pre">False</span></code> otherwise.</li>
-<li>We&#8217;ve used the backslash symbol <code class="docutils literal"><span class="pre">\</span></code> to format are code nicely. The backslash simply indicates that the current line is being continued on the next line.</li>
-<li>When we run the program, we do the check <code class="docutils literal"><span class="pre">if</span> <span class="pre">__name__</span> <span class="pre">==</span> <span class="pre">'__main__'</span></code>. <code class="docutils literal"><span class="pre">__name__</span></code> is an internal Python variable that allows us to tell whether the current file is being run from the command line (value <code class="docutils literal"><span class="pre">__name__</span></code>), or is being imported by a module (the value will be the name of the module). Thus, with this statement we&#8217;re just making sure the program is being run by the command line.</li>
-<li>We are using the <code class="docutils literal"><span class="pre">docopt</span></code> module to handle command line arguments. The advantage of using this module is that it generates a usage help statement for the program and enforces command line arguments automatically. All of this is done by parsing the docstring at the top of the file.</li>
-<li>In the <code class="docutils literal"><span class="pre">print</span></code> function, we are using <a class="reference external" href="https://docs.python.org/2/library/string.html#format-string-syntax">Python&#8217;s string formatting capabilities</a> to insert values into the string we are displaying.</li>
+<li>We are importing the <code class="docutils literal"><span class="pre">print_function</span></code> and <code class="docutils literal"><span class="pre">division</span></code> modules
+from Python 3 like we did earlier in this tutorial. It&#8217;s a good
+idea to always include these in your programs.</li>
+<li>We&#8217;ve defined a boolean expression that tells us if the sides that
+were input define a valid triangle. The result of the expression is
+stored in the <code class="docutils literal"><span class="pre">valid_triangle</span></code> variable.  inside are true, and
+<code class="docutils literal"><span class="pre">False</span></code> otherwise.</li>
+<li>We&#8217;ve used the backslash symbol <code class="docutils literal"><span class="pre">\</span></code> to format are code
+nicely. The backslash simply indicates that the current line is
+being continued on the next line.</li>
+<li>When we run the program, we do the check <code class="docutils literal"><span class="pre">if</span> <span class="pre">__name__</span> <span class="pre">==</span>
+<span class="pre">'__main__'</span></code>. <code class="docutils literal"><span class="pre">__name__</span></code> is an internal Python variable that
+allows us to tell whether the current file is being run from the
+command line (value <code class="docutils literal"><span class="pre">__name__</span></code>), or is being imported by a module
+(the value will be the name of the module). Thus, with this
+statement we&#8217;re just making sure the program is being run by the
+command line.</li>
+<li>We are using the <code class="docutils literal"><span class="pre">docopt</span></code> module to handle command line
+arguments. The advantage of using this module is that it generates
+a usage help statement for the program and enforces command line
+arguments automatically. All of this is done by parsing the
+docstring at the top of the file.</li>
+<li>In the <code class="docutils literal"><span class="pre">print</span></code> function, we are using <a class="reference external" href="https://docs.python.org/2/library/string.html#format-string-syntax">Python&#8217;s string formatting
+capabilities</a>
+to insert values into the string we are displaying.</li>
 </ol>
 </div>
+<div class="section" id="functions">
+<h2><a class="toc-backref" href="#id37">Functions</a><a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<p>You can reuse code by putting it inside a function that you can call
+in other parts of your programs. Functions are also a good way of
+grouping code that logically belongs together in one coherent whole. A
+function has a unique name in the program. Once you call a function, it
+will execute its body which consists of one or more lines of code:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">check_triangle</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+    <span class="k">return</span> \
+            <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+            <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+            <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">check_triangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal"><span class="pre">def</span></code> keyword tells Python we are defining a function. As part
+of the definition, we have the function name, <code class="docutils literal"><span class="pre">check_triangle</span></code>, and
+the parameters of the function &#8211; variables that will be populated
+when the function is called.</p>
+<p>We call the function with arguments <code class="docutils literal"><span class="pre">4</span></code>, <code class="docutils literal"><span class="pre">5</span></code> and <code class="docutils literal"><span class="pre">6</span></code>, which are
+passed in order into the parameters <code class="docutils literal"><span class="pre">a</span></code>, <code class="docutils literal"><span class="pre">b</span></code> and <code class="docutils literal"><span class="pre">c</span></code>.  A
+function can be called several times with varying parameters. There is
+no limit to the number of function calls.</p>
+<p>It is also possible to store the output of a function in a variable,
+so it can be reused.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">check_triangle</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+     <span class="k">return</span> \
+             <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+             <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+             <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="n">check_triangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="classes">
+<span id="doc-python-intro-sec-classes"></span><h2><a class="toc-backref" href="#id38">Classes</a><a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<p>A class is an encapsulation of data and the processes that work on
+them. The data is represented in member variables, and the processes
+are defined in the methods of the class (methods are functions inside
+the class). For example, let&#8217;s see how to define a <code class="docutils literal"><span class="pre">Triangle</span></code> class:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Triangle</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+
+     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">angle1</span><span class="p">,</span> <span class="n">angle2</span><span class="p">,</span> <span class="n">angle3</span><span class="p">):</span>
+             <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sides_ok</span><span class="p">(</span><span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">):</span>
+                     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The sides of the triangle are invalid.&#39;</span><span class="p">)</span>
+             <span class="k">elif</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_angles_ok</span><span class="p">(</span><span class="n">angle1</span><span class="p">,</span> <span class="n">angle2</span><span class="p">,</span> <span class="n">angle3</span><span class="p">):</span>
+                     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The angles of the triangle are invalid.&#39;</span><span class="p">)</span>
+
+             <span class="bp">self</span><span class="o">.</span><span class="n">_length</span> <span class="o">=</span> <span class="n">length</span>
+             <span class="bp">self</span><span class="o">.</span><span class="n">_width</span> <span class="o">=</span> <span class="n">width</span>
+             <span class="bp">self</span><span class="o">.</span><span class="n">_height</span> <span class="o">=</span> <span class="n">height</span>
+
+             <span class="bp">self</span><span class="o">.</span><span class="n">_angle1</span> <span class="o">=</span> <span class="n">angle1</span>
+             <span class="bp">self</span><span class="o">.</span><span class="n">_angle2</span> <span class="o">=</span> <span class="n">angle2</span>
+             <span class="bp">self</span><span class="o">.</span><span class="n">_angle3</span> <span class="o">=</span> <span class="n">angle3</span>
+
+     <span class="k">def</span> <span class="nf">_sides_ok</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+             <span class="k">return</span> \
+                     <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+                     <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+                     <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+
+     <span class="k">def</span> <span class="nf">_angles_ok</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+             <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">180</span>
+
+<span class="n">triangle</span> <span class="o">=</span> <span class="n">Triangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">80</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Python has full Aobject-oriented programming (OOP) capabilities,
+however we can not cover all of them in a quick tutorial, so please
+refer to the <a class="reference external" href="https://docs.python.org/2.7/tutorial/classes.html">Python docs on classes and OOP</a>.</p>
+</div>
+<div class="section" id="database-access">
+<h2><a class="toc-backref" href="#id39">Database Access</a><a class="headerlink" href="#database-access" title="Permalink to this headline">¶</a></h2>
+<p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_database_access.htm">https://www.tutorialspoint.com/python/python_database_access.htm</a></p>
+</div>
 <div class="section" id="installing-libraries">
-<h2><a class="toc-backref" href="#id32">Installing Libraries</a><a class="headerlink" href="#installing-libraries" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id40">Installing Libraries</a><a class="headerlink" href="#installing-libraries" title="Permalink to this headline">¶</a></h2>
 <p>Often you may need functionality that is not present in Python&#8217;s
 standard library.  In this case you have two option:</p>
 <ul class="simple">
@@ -1541,13 +1550,13 @@ standard library.  In this case you have two option:</p>
 <p>Often you can find a previous implementation of what you need.
 Since this is a common situation, there is a service supporting it:
 the <a class="reference external" href="https://pypi.python.org/pypi">Python Package Index</a> (or PyPi for short).</p>
-<p>Our task here is to install the <a href="#id51"><span class="problematic" id="id52">`autopep8`_</span></a> tool from PyPi.  This will
+<p>Our task here is to install the <a href="#id59"><span class="problematic" id="id60">`autopep8`_</span></a> tool from PyPi.  This will
 allow us to illustrate the use if virtual environments using the
 <code class="docutils literal"><span class="pre">virtualenv</span></code> command, and installing and uninstalling PyPi packages
 using <code class="docutils literal"><span class="pre">pip</span></code>.</p>
 </div>
 <div class="section" id="virtual-environments">
-<span id="id1"></span><h2><a class="toc-backref" href="#id33">Virtual Environments</a><a class="headerlink" href="#virtual-environments" title="Permalink to this headline">¶</a></h2>
+<span id="id7"></span><h2><a class="toc-backref" href="#id41">Virtual Environments</a><a class="headerlink" href="#virtual-environments" title="Permalink to this headline">¶</a></h2>
 <p>Often when you use shared computing resources, such as
 <code class="docutils literal"><span class="pre">india.futuresystems.org</span></code> you will not have permission to install
 applications in the default global location.</p>
@@ -1638,7 +1647,7 @@ before it can be used.</p>
 </div>
 </div>
 <div class="section" id="fixing-bad-code">
-<h2><a class="toc-backref" href="#id34">Fixing Bad Code</a><a class="headerlink" href="#fixing-bad-code" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id42">Fixing Bad Code</a><a class="headerlink" href="#fixing-bad-code" title="Permalink to this headline">¶</a></h2>
 <p>Let&#8217;s now look at another important tool for Python development: the
 Python Package Index, or PyPI for short.  PyPI provides a large set of
 third-party python packages.  If you want to do something in python,
@@ -1661,7 +1670,7 @@ this is a common problem so there exist a couple packages to help in
 this situation.</p>
 </div>
 <div class="section" id="using-pip-to-install-packages">
-<h2><a class="toc-backref" href="#id35">Using pip to install packages</a><a class="headerlink" href="#using-pip-to-install-packages" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id43">Using pip to Install Packages</a><a class="headerlink" href="#using-pip-to-install-packages" title="Permalink to this headline">¶</a></h2>
 <p>In order to install package from PyPI, use the <code class="docutils literal"><span class="pre">pip</span></code> command.
 We can search for PyPI for packages:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pip search --trusted-host pypi.python.org autopep8 pylint
@@ -1681,7 +1690,7 @@ patch on urllib3 on Python 2.7.9.</p>
 </div>
 </div>
 <div class="section" id="using-autopep8">
-<h2><a class="toc-backref" href="#id36">Using autopep8</a><a class="headerlink" href="#using-autopep8" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id44">Using autopep8</a><a class="headerlink" href="#using-autopep8" title="Permalink to this headline">¶</a></h2>
 <p>We can now run the bad code through autopep8 to fix formatting
 problems:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ autopep8 bad_code_example.py &gt;code_example_autopep8.py
@@ -1700,7 +1709,7 @@ $ autopep8 -i file.py # update in place
 </div>
 </div>
 <div class="section" id="further-learning">
-<h2><a class="toc-backref" href="#id37">Further Learning</a><a class="headerlink" href="#further-learning" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id45">Further Learning</a><a class="headerlink" href="#further-learning" title="Permalink to this headline">¶</a></h2>
 <p>There is much more to python than what we have covered here:</p>
 <ul class="simple">
 <li>conditional expression (<code class="docutils literal"><span class="pre">if</span></code>, <code class="docutils literal"><span class="pre">if...then</span></code>,``if..elif..then``)</li>
@@ -1721,14 +1730,32 @@ section of your choice addressing the above topics</p>
 </div>
 </div>
 <div class="section" id="writing-python-3-compatible-code">
-<h2><a class="toc-backref" href="#id38">Writing python 3 compatible code</a><a class="headerlink" href="#writing-python-3-compatible-code" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id46">Writing Python 3 Compatible Code</a><a class="headerlink" href="#writing-python-3-compatible-code" title="Permalink to this headline">¶</a></h2>
 <p>see: <a class="reference external" href="http://python-future.org/compatible_idioms.html">http://python-future.org/compatible_idioms.html</a></p>
+</div>
+<div class="section" id="using-python-on-futuresystems">
+<h2><a class="toc-backref" href="#id47">Using Python on FutureSystems</a><a class="headerlink" href="#using-python-on-futuresystems" title="Permalink to this headline">¶</a></h2>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This is only important if you use Futuresystems resources.</p>
+</div>
+<p>In order to use Python you must log into your FutureSystems account.
+Then at the shell prompt execute the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ module load python
+</pre></div>
+</div>
+<p>This will make the <code class="docutils literal"><span class="pre">python</span></code> and <code class="docutils literal"><span class="pre">virtualenv</span></code> commands available to
+you.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The details of what the <code class="docutils literal"><span class="pre">module</span> <span class="pre">load</span></code> command does are described
+in the future lesson <span class="xref doc">modules</span>.</p>
+</div>
+</div>
 <div class="section" id="exercises">
-<h3><a class="toc-backref" href="#id39">Exercises</a><a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
+<h2><a class="toc-backref" href="#id48">Exercises</a><a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="lab-python-fizzbuzz">
-<span id="lab-python-1"></span><h2><a class="toc-backref" href="#id40">Lab - Python - FizzBuzz</a><a class="headerlink" href="#lab-python-fizzbuzz" title="Permalink to this headline">¶</a></h2>
+<span id="lab-python-1"></span><h3><a class="toc-backref" href="#id49">Lab - Python - FizzBuzz</a><a class="headerlink" href="#lab-python-fizzbuzz" title="Permalink to this headline">¶</a></h3>
 <p>Write a python program called fizzbuzz.py that accepts an integer n
 from the command line.  Pass this integer to a function called
 fizzbuzz.</p>
@@ -1737,7 +1764,7 @@ number is a multiple of three, print &#8220;fizz&#8221;, if a multiple of 5 prin
 &#8220;buzz&#8221;, if a multiple of both print &#8220;fizzbuzz&#8221;, else print the value.</p>
 </div>
 <div class="section" id="lab-python-setup-for-futuresystems">
-<span id="lab-python-2"></span><h2><a class="toc-backref" href="#id41">Lab - Python - Setup for FutureSystems</a><a class="headerlink" href="#lab-python-setup-for-futuresystems" title="Permalink to this headline">¶</a></h2>
+<span id="lab-python-2"></span><h3><a class="toc-backref" href="#id50">Lab - Python - Setup for FutureSystems</a><a class="headerlink" href="#lab-python-setup-for-futuresystems" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Create a virtualenv <code class="docutils literal"><span class="pre">~/ENV</span></code></li>
 <li>Modify your <code class="docutils literal"><span class="pre">~/.bashrc</span></code> shell file to activate your environment
@@ -1748,43 +1775,11 @@ program. Hint: modify the FizzBuzz program.</li>
 <li>Demonstrate the program works and submit the code and output.</li>
 </ol>
 </div>
+</div>
 <div class="section" id="ecosystem">
-<h2><a class="toc-backref" href="#id42">Ecosystem</a><a class="headerlink" href="#ecosystem" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="id2">
-<span id="id3"></span><h2><a class="toc-backref" href="#id43">virtualenv</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>Often you have your own computer and you do not like to change its
-environment to keep it in prestine condition. Python comes with mnay
-libraries that could for example conflict with libraries that you have
-installed. To avoid this it is bets to work in an isolated python
-environment while using virtualenv,. Documentation about it can be
-found at:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">*</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">virtualenv</span><span class="o">.</span><span class="n">readthedocs</span><span class="o">.</span><span class="n">org</span><span class="o">/</span>
-</pre></div>
-</div>
-<p>The installation is simple once you have pip installed. If it is not
-installed you can say:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ easy_install pip
-</pre></div>
-</div>
-<p>After that you can install the virtual env with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip install virtualenv
-</pre></div>
-</div>
-<p>To setup an isolated environment for example in the directory ~/ENV
-please use:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ virtualenv ~/ENV
-</pre></div>
-</div>
-<p>To activate it you can use the command:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ source ~/ENV/bin/activate
-</pre></div>
-</div>
-<p>you can put this command n your bashrc or bash_profile command so you
-do not forget to activate it.</p>
-</div>
+<h2><a class="toc-backref" href="#id51">Ecosystem</a><a class="headerlink" href="#ecosystem" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="autoenv-directory-based-environments">
-<span id="autoenv"></span><h2><a class="toc-backref" href="#id44">Autoenv: Directory-based Environments</a><a class="headerlink" href="#autoenv-directory-based-environments" title="Permalink to this headline">¶</a></h2>
+<span id="autoenv"></span><h3><a class="reference external" href="https://pypi.python.org/pypi/autoenv/0.2.0">Autoenv</a>: Directory-based Environments<a class="headerlink" href="#autoenv-directory-based-environments" title="Permalink to this headline">¶</a></h3>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">We do not recommend that you use autoenv. INstead we
@@ -1841,8 +1836,8 @@ $ echo &#39;source ~/.autoenv/activate.sh&#39; &gt;&gt; ~/.bashrc
 (such as <code class="docutils literal"><span class="pre">smbnetfs</span></code>).</dd>
 </dl>
 </div>
-<div class="section" id="pypi">
-<h2><a class="toc-backref" href="#id45">pypi</a><a class="headerlink" href="#pypi" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id9">
+<h3><a class="reference external" href="https://pypi.python.org/pypi">pypi</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <p>The Python Package Index is a large repository of software for the
 Python programming language containing a large number of packages
 [link]. The nice think about pipy is that many packages can be
@@ -1859,9 +1854,87 @@ be the package called cloudmesh_client which you can install with:</p>
 </div>
 <p>If all goes well the package will be installed.</p>
 </div>
-<div class="section" id="links">
-<h2><a class="toc-backref" href="#id46">Links</a><a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
-<p>Useful ecosystem Links:</p>
+<div class="section" id="alternative-installations">
+<h3><a class="toc-backref" href="#id54">Alternative Installations</a><a class="headerlink" href="#alternative-installations" title="Permalink to this headline">¶</a></h3>
+<p>The basic installation of python is provided by python.org. However
+others claim to have alternative environments that allow you to
+install python. This includes</p>
+<ul class="simple">
+<li><a class="reference external" href="https://store.enthought.com/downloads/#default">Canopy</a></li>
+<li><a class="reference external" href="https://www.continuum.io/downloads">Anaconda</a></li>
+<li><a class="reference external" href="http://ironpython.net/">IronPython</a></li>
+</ul>
+<p>Typically they include not only the python compiler but also several
+useful packages. It is fine to use such environments for the class,
+but it should be noted that in both cases not every python library may
+be available for install in the given environment. For example if you
+need to use cloudmesh client, it may not be available as conda or
+Canopy package. This is also the case for many other cloud related and
+useful python libraries. Hence, we do recommend that if you are new to
+python to use the distribution form python.org, and use pip and
+virtualenv.</p>
+<p>Additionally some python version have platform specific libraries or
+dependencies. For example coca libraries, .NET or other frameworks are
+examples. For the assignments and the projects such platform dependent
+libraries are not to be used.</p>
+<p>If however you can write a platform independent code that works on
+Linux, OSX and Windows while using the python.org version but develop
+it with any of the other tools that is just fine. However it is up to
+you to guarantee that this independence is maintained and
+implemented. You do have to write requirements.txt files that will
+install the necessary python libraries in a platform independent
+fashion. The homework assignment PRG1 has even a requirement to do so.</p>
+<p>In order to provide platform independence we have given in the class a
+&#8220;minimal&#8221; python version that we have tested with hundreds of
+students: python.org. If you use any other version, that is your
+decision. Additionally some students not only use python.org but have
+used iPython which is fine too. However this class is not only about
+python, but also about how to have your code run on any platform. The
+homework is designed so that you can identify a setup that works for
+you.</p>
+<p>However we have concerns if you for example wanted to use chameleon
+cloud which we require you to access with cloudmesh. cloudmesh is not
+available as conda, canopy, or other framework package. Cloudmesh
+client is available form pypi which is standard and should be
+supported by the frameworks. We have not tested cloudmesh on any other
+python version then python.org which is the open source community
+standard. None of the other versions are standard.</p>
+<p>In fact we had students over the summer using canopy on their machines
+and they got confused as they now had multiple python versions and did
+not know how to switch between them and activate the correct
+version. Certainly if you know how to do that, than feel free to use
+canopy, and if you want to use canopy all this is up to you. However
+the homework and project requires you to make your program portable to
+python.org. If you know how to do that even if you use canopy,
+anaconda, or any other python version that is fine. Graders will test
+your programs on a python.org installation and not canpoy, anaconda,
+ironpython while using virtualenv. It is obvious why. If you do not
+know that answer you may want to think about that every time they test
+a program they need to do a new virtualenv and run vanilla python in
+it. If we were to run two instals in the same system, this will not
+work as we do not know if one student will cause a side effect for
+another. Thus we as instructors do not just have to look at your code
+but code of hundreds of students with different setups. This is a non
+scalable solution as every time we test out code from a student we
+would have to wipe out the OS, install it new, install an new version
+of whatever python you have elected, become familiar with that version
+and so on and on. This is the reason why the open source community is
+using python.org. We follow best practices. Using other versions is
+not a community best practice, but may work for an individual.</p>
+<p>We have however in regards to using other python version additional
+bonus projects such as</p>
+<ul class="simple">
+<li>deploy run and document cloudmesh on ironpython</li>
+<li>deploy run and document cloudmesh on anaconde, develop script to
+generate a conda packge form github</li>
+<li>deploy run and document cloudmesh on canopy, develop script to
+generate a conda packge form github</li>
+<li>deploy run and document cloudmesh on ironpython</li>
+<li>other documentation that would be useful</li>
+</ul>
+</div>
+<div class="section" id="useful-ecosystem-links">
+<h3><a class="toc-backref" href="#id55">Useful Ecosystem Links</a><a class="headerlink" href="#useful-ecosystem-links" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><a class="reference external" href="https://virtualenvwrapper.readthedocs.io">https://virtualenvwrapper.readthedocs.io</a></li>
 <li><a class="reference external" href="https://github.com/yyuu/pyenv">https://github.com/yyuu/pyenv</a></li>
@@ -1869,6 +1942,33 @@ be the package called cloudmesh_client which you can install with:</p>
 <li><a class="reference external" href="https://godjango.com/96-django-and-python-3-how-to-setup-pyenv-for-multiple-pythons/">https://godjango.com/96-django-and-python-3-how-to-setup-pyenv-for-multiple-pythons/</a></li>
 <li><a class="reference external" href="https://www.accelebrate.com/blog/the-many-faces-of-python-and-how-to-manage-them/">https://www.accelebrate.com/blog/the-many-faces-of-python-and-how-to-manage-them/</a></li>
 </ul>
+</div>
+</div>
+<div class="section" id="resources">
+<span id="python-resources"></span><h2><a class="toc-backref" href="#id56">Resources</a><a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<p>If you are unfamiliar with programming in Python, we also refer you
+to some of the numerous online resources. You may wish to start with
+<a class="reference external" href="https://www.learnpython.org">Learn Python</a> or the book <a class="reference external" href="http://learnpythonthehardway.org/book/">Learn Python the Hard Way</a>. Other
+options include <a class="reference external" href="http://www.tutorialspoint.com/python/">Tutorials Point</a> or <a class="reference external" href="http://www.codecademy.com/en/tracks/python">Code Academy</a>, and the Python wiki page
+contains a long list of <a class="reference external" href="https://wiki.python.org/moin/BeginnersGuide/Programmers">references for learning</a> as well.
+Additional resources include:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://ivory.idyll.org/articles/advanced-swc/">http://ivory.idyll.org/articles/advanced-swc/</a></li>
+<li><a class="reference external" href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html">http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html</a></li>
+<li><a class="reference external" href="http://www.youtube.com/watch?v=0vJJlVBVTFg">http://www.youtube.com/watch?v=0vJJlVBVTFg</a></li>
+<li><a class="reference external" href="http://www.korokithakis.net/tutorials/python/">http://www.korokithakis.net/tutorials/python/</a></li>
+<li><a class="reference external" href="http://www.afterhoursprogramming.com/tutorial/Python/Introduction/">http://www.afterhoursprogramming.com/tutorial/Python/Introduction/</a></li>
+<li><a class="reference external" href="http://www.greenteapress.com/thinkpython/thinkCSpy.pdf">http://www.greenteapress.com/thinkpython/thinkCSpy.pdf</a></li>
+</ul>
+<p>A very long list of useful information are also available from</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/vinta/awesome-python">https://github.com/vinta/awesome-python</a></li>
+<li><a class="reference external" href="https://github.com/rasbt/python_reference">https://github.com/rasbt/python_reference</a></li>
+</ul>
+<p>This list may be useful as it also contains links to data
+visualization and manipulation libraries, and AI tools and libraries.
+Please note that for this class you can reuse such libraries if not
+otherwise stated.</p>
 </div>
 </div>
 
