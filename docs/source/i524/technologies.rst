@@ -145,8 +145,7 @@ Application and Analytics
 63. Parasol
 64. Dream:Lab
 65. Google Fusion Tables
-	Fusion Tables is a cloud based services, provided by Google for data management and integration. Fusion Tables allow users to upload the data in tabular format using data files like spreadsheet, CSV, KML, .tsv up to 250MB. :cite:`www-FusionTableSupport` It used for data management, visualizing data (e.g. pie-charts, bar-charts, lineplot, scatterplot, timelines)  :cite:`wiki-FusionTable` , sharing of tables, filter and aggregation the data. It allows user to take the data privately, within controlled collaborative group or in public. It allows to integrate the data from different tables from different users or tables.Fusion Table uses two-layer storage, Bigtable and Magastore. The information rows are stored in bigdata table called “Rows”, user can merge the multiple table in to one, from multiple users. “Megastore is a library on top of bigtable”. :cite:`GoogleFusionTable2012`
-	Data visualization is one the feature, where user can see the visual representation of their data as soon as they upload it. User can store the data along with geospatial information as well.  
+	Fusion Tables is a cloud based services, provided by Google for data management and integration. Fusion Tables allow users to upload the data in tabular format using data files like spreadsheet, CSV, KML, .tsv up to 250MB. :cite:`www-FusionTableSupport` It used for data management, visualizing data (e.g. pie-charts, bar-charts, lineplot, scatterplot, timelines)  :cite:`wiki-FusionTable` , sharing of tables, filter and aggregation the data. It allows user to take the data privately, within controlled collaborative group or in public. It allows to integrate the data from different tables from different users or tables.Fusion Table uses two-layer storage, Bigtable and Magastore. The information rows are stored in bigdata table called “Rows”, user can merge the multiple table in to one, from multiple users. “Megastore is a library on top of bigtable”. :cite:`GoogleFusionTable2012` Data visualization is one the feature, where user can see the visual representation of their data as soon as they upload it. User can store the data along with geospatial information as well.  
 
 66. CINET
 67. NWB
@@ -189,8 +188,8 @@ Application Hosting Frameworks
     **Note: This is an example for a bad entry**
 
 81. AppScale
-	AppScale is an application hosting platform. This platform helps to deploy and scale the unmodified Google App Engine application, which run the application on any cloud infrastructure in public, private and on premise cluster. 
-	:cite:`www-AppScale` AppScale provide rapid, API development platform that can run on any cloud infrastructure. The platform separates the app logic and its service part to have control over application deployment, data storage, resource use, backup and migration.  :cite:`www-WhyAppScale` AppScale is based on Google’s App Engine APIs and has support for Python, Go, PHP and Java applications. It supports single and multimode deployment, which will help with large, dataset or CPU. AppScale allows to deploy app in thee main mode i.e. dev/test, production and customize deployment.  :cite:`www-deployment`
+	AppScale is an application hosting platform. This platform helps to deploy and scale the unmodified Google App Engine application, which run the application on any cloud infrastructure in public, private and on premise cluster. :cite:`www-AppScale` 
+	AppScale provide rapid, API development platform that can run on any cloud infrastructure. The platform separates the app logic and its service part to have control over application deployment, data storage, resource use, backup and migration.  :cite:`www-WhyAppScale` AppScale is based on Google’s App Engine APIs and has support for Python, Go, PHP and Java applications. It supports single and multimode deployment, which will help with large, dataset or CPU. AppScale allows to deploy app in thee main mode i.e. dev/test, production and customize deployment.  :cite:`www-deployment`
 
 82. Red Hat OpenShift
 83. Heroku
