@@ -126,7 +126,7 @@ Python Installation
 
 Python is easy to install and very good instructions for most
 platforms can be found on the python.org Web page. We will be using
-Python 2.7.13 but not Python 3.
+Python 2.7.13 and not Python 3.
 
 In addition to Python, it is useful to have `pip
 <https://pypi.python.org/pypi/pip>`_ package installation tool on your
@@ -143,7 +143,7 @@ virtualenv
 ------------------------------------------------------
 
 Often you have your own computer and you do not like to change its
-environment to keep it in prestine condition. Python comes with mnay
+environment to keep it in pristine condition. Python comes with mnay
 libraries that could for example conflict with libraries that you have
 installed. To avoid this it is bets to work in an isolated python
 environment while using virtualenv,. Documentation about it can be
@@ -183,7 +183,7 @@ loop by executing the command::
 
 You should see something like the following::
 
-  Python 2.7.12 (default, Nov 19 2016, 06:48:10)
+  Python 2.7.13 (default, Nov 19 2016, 06:48:10)
   [GCC 5.4.0 20160609] on linux2
   Type "help", "copyright", "credits" or "license" for more information.
   >>>
@@ -433,15 +433,13 @@ choice using the if keyword. For example:
     ...    print('You guessed correctly!')
     ...    <ENTER>
 
-In this example, ‘You guessed correctly!’ will only be printed if the
+In this example, *You guessed correctly!* will only be printed if the
 variable ``x`` equals to four (see table above). Python can also
 execute multiple conditions using the ``elif`` and ``else`` keywords.
-that.
-
 
 .. code:: python
 
-    >>> x = int(input("What is the value of  X"))
+    >>> x = int(input("Guess x:"))
     >>> if x == 4:
     ...     print('You guessed correctly!')
     ... elif abs(4 - x) == 1:
@@ -461,20 +459,23 @@ display the numbers from 1 to 10, we could write something like this:
     >>> for i in range(1, 11):
     ...    print('Hello!')
 
-The last number (11) is not included. This will output the numbers 1
-to 10. Python itself starts counting from 0, so this code will also
-work:
+The second argument to ``range``, *11*, is not inclusive, meaning that
+the loop will only get to *10* before it finishes.  Python itself
+starts counting from 0, so this code will also work:
+
+.. code:: python
+
+    >>> for i in range(0, 10):
+    ...    print(i + 1)
+
+In fact, the ``range`` function defaults to starting value of *0*, so the above is equivalent to:
 
 .. code:: python
 
     >>> for i in range(10):
-    ...    print(i)
-
-but will output 0 to 9.
-
-The code is repeated while the condition is True. In this case the
-condition is: i < 10. Every iteration (round), the variable i is
-updated.Nested loops Loops can be combined:
+    ...	   print(i + 1)
+	   
+We can also nest loops inside each other:
 
 .. code:: python
 
@@ -671,11 +672,11 @@ a set of the same number of elements (approximately 100 thousand):
   >>> nums_list = list(nums_set)
   >>> len(nums_set)
   100000
-  >>> len(nums_list)
-  100000
 
-We will use the `timeit <>`_ Python module to time 100 operations that
-test for the existence of a member in either the list or set:
+We will use the `timeit
+<https://docs.python.org/2/library/timeit.html>`_ Python module to
+time 100 operations that test for the existence of a member in either
+the list or set:
 
 .. code:: python
 
@@ -825,7 +826,9 @@ Start by opening a new file ``hello.py`` in the Python editor of your
 choice. If you don't have a preferred editor, we recommend `PyCharm
 <https://www.jetbrains.com/pycharm/>`_.
 
-Now enter write a simple program and save::
+Now write this simple program and save it:
+
+.. code:: python
 
   from __future__ import print_statement, division
   print("Hello world!")
@@ -834,6 +837,7 @@ As a check, make sure the file contains the expected contents on the
 command line::
 
   $ cat hello.py
+  from __future__ import print_statement, division
   print("Hello world!")
 
 To execute your program pass the file as a parameter to the ``python``
@@ -842,10 +846,9 @@ command::
   $ python hello.py
   Hello world!
 
-Congratulations, you have written a Python **module**.  Files in which
-Python code is stored are called **module**\s. You can execute a
-Python module form the command line like you just did, or you can
-import it in other Python code using the ``import`` statement.
+Files in which Python code is stored are called **module**\s. You can
+execute a Python module form the command line like you just did, or
+you can import it in other Python code using the ``import`` statement.
 
 Let's write a more involved Python program that will receive as input
 the lengths of the three sides of a triangle, and will output whether
@@ -917,9 +920,11 @@ Let break this down a bit.
 Functions
 =================================================================
 
-To repeat lines of code, you can use a function. A function has a
-unique name in the program. Once you call a function it will execute
-its body which consists of one or more lines of code:
+You can reuse code by putting it inside a function that you can call
+in other parts of your programs. Functions are also a good way of
+grouping code that logically belongs together in one coherent whole. A
+function has a unique name in the program. Once you call a function, it
+will execute its body which consists of one or more lines of code:
 
 .. code:: python
 
@@ -931,10 +936,10 @@ its body which consists of one or more lines of code:
 
     print(check_triangle(4, 5, 6))
 
-The ``def`` keyword tells Python we define a function. As part of the
-definition, we have the function name, ``check_triangle``, and the
-parameters of the function -- variables that will be populated when
-the function is called.
+The ``def`` keyword tells Python we are defining a function. As part
+of the definition, we have the function name, ``check_triangle``, and
+the parameters of the function -- variables that will be populated
+when the function is called.
 
 We call the function with arguments ``4``, ``5`` and ``6``, which are
 passed in order into the parameters ``a``, ``b`` and ``c``.  A
@@ -954,7 +959,7 @@ so it can be reused.
 
    result = check_triangle(4, 5, 6)
    print(result)
-    
+
 .. _doc_python_intro_sec_classes:
 
 Classes
@@ -994,7 +999,10 @@ the class). For example, let's see how to define a ``Triangle`` class:
 
    triangle = Triangle(4, 5, 6, 35, 65, 80)
 
-Python has full object-oriented programming (OOP) capabilities, however we can not cover all of them in a quick tutorial, so please refer to the `Python docs on classes and OOP <https://docs.python.org/2.7/tutorial/classes.html>`_.
+Python has full Aobject-oriented programming (OOP) capabilities,
+however we can not cover all of them in a quick tutorial, so please
+refer to the `Python docs on classes and OOP
+<https://docs.python.org/2.7/tutorial/classes.html>`_.
 
 Database Access
 =================================================================
