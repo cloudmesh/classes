@@ -12,7 +12,7 @@ RUN apt-get update -qq && \
     python-virtualenv \
     python-numpy \
     python-pandas \
-    texlive-base \
+    texlive texlive-latex-extra \
     graphviz \
     gosu
 
