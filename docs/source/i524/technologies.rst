@@ -170,9 +170,13 @@ Application and Analytics
 60. IBM System G
 61. GraphBuilder(Intel)
 62. TinkerPop
+	ThinkerPop is a graph computing framework from Apache software foundation. :cite:`www-ApacheTinkerPop` Before coming under the Apache project, ThinkerPop was a stack of technologies like Blueprint, Pipes, Frames, Rexters, Furnace and Gremlin where each part was supporting graph-based application development. Now all parts are come under single TinkerPop project repo. :cite:`www-news`  It uses Gremlin, a graph traversal machine and language. It allows user to write complex queries (traversal), that can use for real-time transactional (OLTP) queries, graph analytic system (OLAP) or combination of both as in hybrid. Gremlin is written in java. :cite:`www-ApacheTinkerPopHome` TinkerPop has an ability to create a graph in any size or complexity. Gremlin engine allows user to write graph traversal in Gremlin language, Python, JavaScript, Scala, Go, SQL and SPARQL. It is capable to adhere with small graph which requires a single machine or massive graphs that can only be possible with large cluster of machines, without changing the code.
+
 63. Parasol
 64. Dream:Lab
 65. Google Fusion Tables
+	Fusion Tables is a cloud based services, provided by Google for data management and integration. Fusion Tables allow users to upload the data in tabular format using data files like spreadsheet, CSV, KML, .tsv up to 250MB. :cite:`www-FusionTableSupport` It used for data management, visualizing data (e.g. pie-charts, bar-charts, lineplot, scatterplot, timelines)  :cite:`wiki-FusionTable` , sharing of tables, filter and aggregation the data. It allows user to take the data privately, within controlled collaborative group or in public. It allows to integrate the data from different tables from different users or tables.Fusion Table uses two-layer storage, Bigtable and Magastore. The information rows are stored in bigdata table called “Rows”, user can merge the multiple table in to one, from multiple users. “Megastore is a library on top of bigtable”. :cite:`GoogleFusionTable2012` Data visualization is one the feature, where user can see the visual representation of their data as soon as they upload it. User can store the data along with geospatial information as well.  
+
 66. CINET
 67. NWB
 68. Elasticsearch
@@ -228,6 +232,9 @@ Application Hosting Frameworks
     **Note: This is an example for a bad entry**
 
 81. AppScale
+	AppScale is an application hosting platform. This platform helps to deploy and scale the unmodified Google App Engine application, which run the application on any cloud infrastructure in public, private and on premise cluster. :cite:`www-AppScale` 
+	AppScale provide rapid, API development platform that can run on any cloud infrastructure. The platform separates the app logic and its service part to have control over application deployment, data storage, resource use, backup and migration.  :cite:`www-WhyAppScale` AppScale is based on Google’s App Engine APIs and has support for Python, Go, PHP and Java applications. It supports single and multimode deployment, which will help with large, dataset or CPU. AppScale allows to deploy app in thee main mode i.e. dev/test, production and customize deployment.  :cite:`www-deployment`
+
 82. Red Hat OpenShift
 83. Heroku
 84. Aerobatic
@@ -286,7 +293,7 @@ Application Hosting Frameworks
 95. Engine Yard
 96. (CloudControl)
 
-    No Longer active as of Feb. 2016
+    No Longer active as of Feb. 2016 :cite:`www-wiki`
 
 97. dotCloud
 98. Dokku
@@ -1133,7 +1140,11 @@ Cluster Resource Management
 ----------------------------------------------------------------------
 
 271. Mesos
-272. Yarn
+
+272.Yarn
+	Yarn (Yet Another Resource Negotiator) is Apache Hadoop’s cluster management project :cite:`www-cloudera` . It’s a resource management technology which make a pace between, the way applications use Hadoop system resources & node manager agents. Yarn, “split up the functionalities of resource management and job scheduling/monitoring”. The NodeManager watch the resource (cpu, memory, disk,network) usage the container and report the same to ResourceManager. Resource manager will take a decision on allocation of resources to the applications. ApplicationMaster is a library specific to application, which requests/negotiate resources from ResourceManager and launch and monitoring the task with NodeManager(s) :cite:`www-architecture`.
+	ResourceManager have two majors: Scheduler and ApplicationManager. Scheduler have a task to schedule the resources required by the application. ApplicationManger holds the record of application who require resource. It validates (whether to allocate the resource or not) the application’s resource requirement and ensure that no other application already have register for the same resource requirement. Also it keeps the track of release of resource. :cite:`www-HadoopApache`
+
 273. Helix
 274. Llama
 275. Google Omega
