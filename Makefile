@@ -1,4 +1,5 @@
 UNAME := $(shell uname)
+GIT_RECENT_TAG := $(shell git describe --abbrev=0 --tags)
 
 BROWSER=firefox
 ifeq ($(UNAME), Darwin)
@@ -56,6 +57,29 @@ notes:
 	cp /tmp/notes-i524/docs/source/notes.rst /tmp/notes-i524/docs/source/index.rst
 	cd /tmp/notes-i524; echo "R" | make pdf || true
 	cp /tmp/notes-i524/docs/build/latex/Classes.pdf .
+
+
+# FIXME: should be cloudmesh/classes
+dockerimage: Dockerfile $(wildcard docker/*)
+	for tag in latest $(GIT_RECENT_TAG); do \
+  	  time docker build -t badi/cloudmesh_classes:$(GIT_RECENT_TAG) . ;\
+	done
+
+# FIXME this should be cloudmesh/classes
+dockerpublish: dockerimage
+	for tag in latest $(GIT_RECENT_TAG); do \
+	  time docker push badi/cloudmesh_classes:$(GIT_RECENT_TAG) ; \
+	done
+
+dockerrun: dockerimage
+	time docker run \
+	  -e HOST_UID=$(shell id -u) \
+	  -e HOST_GID=$(shell id -g) \
+	  -v $(shell pwd):/data \
+	  -it \
+	  --rm \
+	  badi/cloudmesh_classes:latest \
+	  make all
 
 ######################################################################
 # CLEANING

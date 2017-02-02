@@ -6,5 +6,6 @@ Preface
 
    about
    disclaimer
+   convention
    instructors
    

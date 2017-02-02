@@ -1,5 +1,7 @@
-language: python
-python:
-  - "2.7"
-install: "pip install -r requirements.txt"
-script: make doc
+sudo: required
+services:
+  - docker
+before_install:
+  - docker pull badi/cloudmesh_classes
+script:
+  - docker run -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -v $PWD:/data -it --rm badi/cloudmesh_classes make all
