@@ -1074,6 +1074,7 @@ Data Transport
 
 268. Flume
 269. Sqoop
+     Sqoop test paragraph :cite:`test`
 270. Pivotal GPLOAD/GPFDIST
 
 Cluster Resource Management
