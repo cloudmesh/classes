@@ -739,6 +739,20 @@ Inter process communication Collectives
 172. Kestrel
 173. JMS
 174. AMQP
+
+     :cite:`www-amqp` AMQP stands for Advanced Message Queueing
+     Protocol. AMQP is open interenet protocol that allows secure and
+     reliable communication between applications in different
+     orginization and different applications which are on diffferent
+     platforms.AMQP allows businesses to implement middleware
+     applications interoperability by allowing secure message transfer
+     bewteen the applications on timly manner. AMQP is mainly used by
+     financial and banking business. Other sectors that aslo use AMQP
+     are Defence, Telecommunication, cloud Computing and so on.
+     Apache Qpid, StormMQ, RabbitMQ, MQlight, Microsoft's Windows
+     Azure Service Bus, IIT Software's SwiftMQ and JORAM are some of
+     the products that implement AMQP protocol.
+
 175. Stomp
 176. MQTT
 177. Marionette Collective
@@ -1565,6 +1579,19 @@ IaaS Management from HPC to hypervisors
 
 351. CloudStack
 352. CoreOS
+     
+     :cite:`www-core` states that “CoreOS is a linux operating system
+     used for clustered deployments”. CoreOS allows applications to
+     run on containers. CoreOS can be run on clouds, virtual or
+     physical servers. CoreOS allows the ability for automatic software
+     updates inorder to make sure containers in cluster are secure and
+     reliable. It also makes managing large cluster environements
+     easier. CoreOS provides open source tools like CoreOS Linux,
+     etcd,rkt and flannel. CoreOS also has commercial products
+     Kubernetes and CoreOS stack.Core OS. In CoreOS linux service
+     discovery is achieved by etcd, applications are run on Docker and
+     process management is achieved by fleet.
+
 353. rkt
 354. VMware ESXi
 355. vSphere and vCloud
