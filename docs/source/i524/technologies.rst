@@ -235,7 +235,7 @@ Application and Analytics
     large multi-dimensional datasets. It uses d3 to render charts in
     CSS-friendly SVG format. Charts rendered using dc.js are data
     driven and reactive and therefore provide instant feedback to user
-    interaction.”. DC.js library can be used to perform data anlysis
+    interaction.” DC.js library can be used to perform data anlysis
     on both mobile devices and different browsers. Under the dc
     namespace the following chart classes are included: barChart,
     boxplot, bubbleChart, bubbleOverlay, compositeChart, dataCount,
@@ -650,6 +650,15 @@ Inter process communication Collectives
 	 
 	 
 163. Argo BEAST HPX-5 BEAST PULSAR
+
+     I have done a lot of searching for Argo BEAST HPX-5 BEAST PULSAR
+     on the internet but the only resource I am getting is for HPX-5
+     and not for Argo BEAST HPX-5 BEAST PULSAR. I have contacted
+     Professor Thomas Sterling through email, who is the director of
+     Center for Research in Extreme Scale Technologies (CREST),
+     regarding clarification on Argo BEAST HPX-5 BEAST PULSAR but I
+     did not get any response.
+     
 164. Harp
 165. Netty
 166. ZeroMQ
@@ -744,7 +753,7 @@ Inter process communication Collectives
      Protocol. AMQP is open interenet protocol that allows secure and
      reliable communication between applications in different
      orginization and different applications which are on diffferent
-     platforms.AMQP allows businesses to implement middleware
+     platforms. AMQP allows businesses to implement middleware
      applications interoperability by allowing secure message transfer
      bewteen the applications on timly manner. AMQP is mainly used by
      financial and banking business. Other sectors that aslo use AMQP
@@ -1594,14 +1603,14 @@ IaaS Management from HPC to hypervisors
 352. CoreOS
      
      :cite:`www-core` states that “CoreOS is a linux operating system
-     used for clustered deployments”. CoreOS allows applications to
+     used for clustered deployments.” CoreOS allows applications to
      run on containers. CoreOS can be run on clouds, virtual or
      physical servers. CoreOS allows the ability for automatic software
      updates inorder to make sure containers in cluster are secure and
      reliable. It also makes managing large cluster environements
      easier. CoreOS provides open source tools like CoreOS Linux,
      etcd,rkt and flannel. CoreOS also has commercial products
-     Kubernetes and CoreOS stack.Core OS. In CoreOS linux service
+     Kubernetes and CoreOS stack. Core OS. In CoreOS linux service
      discovery is achieved by etcd, applications are run on Docker and
      process management is achieved by fleet.
 
