@@ -1690,7 +1690,29 @@ Monitoring
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 365. InCommon
-366. Eduroam
+366. Eduroam :cite:`www-eduroam`
+
+     Eduroam is an initiative started in the year 2003 when the number
+     of personal computers with in the academia are growing
+     rapidly. The goal is to solve the problem of secure access to
+     WI-FI due to increasing number of students and reasearch teams
+     becoming mobile which was increasing the administrative problems
+     for provide access to WI-FI. Eduroam provides any user from an
+     eduroam participating site to get network access at any
+     instituion connected through eduroam. According to the
+     orgnizatioin it uses a combination of radius-based infrastructuor
+     with 802.1X standard techonology to provide roaming acess across
+     reasearch and educational networks. The role of the RADIUS
+     hierarchy is to forward user crednetials to the users home
+     instituion where they can be verified. This proved to be a
+     successful solution when compared to other traditonal ways like
+     using MAC-adress, SSID, WEP, 802.1x(EAP-TLS, EAP-TTLS), VPN
+     Clients, Mobile-IP etc which have their own short comings when
+     used for this purpose :cite:`eduroam-paper-2005`. Today by
+     enabling eduroam users get access to internet across 70 countries
+     and tens of thousands of access points worldwide.
+
+
 367. OpenStack Keystone
 368. LDAP
 369. Sentry
