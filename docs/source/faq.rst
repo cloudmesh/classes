@@ -740,3 +740,28 @@ https://www.youtube.com/watch?v=XvCUpZuHgvo
 it is a bit wordy as the presenter complains bout the difficulties to record videos on windows 10, and talks about his course, so just ignore these portions.Naturally use whatever is the newest version.Here is one for Windows 8 which also contains ubuntu install (use the one above on how to install vb on windows 10 and ignore that part form the window bellow) 
 
 https://www.youtube.com/watch?v=13GS1cLyk-E
+
+Do I generate the SSH key on Ubuntu VM ?
+-----------------------------------------
+I have installed Ubuntu(on virtual box) on my windows 10 system. I wanted to confirm if the SSH key should be created on the Ubuntu VM?
+
+Yes we need to generate ssh on Ubuntu VM, because even it is a VM or a real machine we have to set up ssh in order to work with ssh based communication, in order to maintain security when you are using an application like Github.
+
+You need to generate SSH, no matter what operating system you are using or on which operating system you are running VM.
+
+First let us revisit what an ssh key is for. A key pair has a public and a private key pair. If a remote machine has the public key from another machine you will be able to login to that machine form the machine where you have created the public and private key pair from. Some services do require key authentication. Such services include: 
+
+a) login to any virtual machine
+
+b) using github
+
+c) login to the login nodes of futuresystems 
+
+Thus if you like ta access any of them any computer on which you want to access them from need a key pair. (or key as we sometimes abbreviate).
+
+So if you like to access from your ubuntu vm future systems which you want you need one, if you want to access githu, you need one, if you want to login to vas on chameleon cloud you need one, if you want to login to vas on jetstreem you need one, if you want .... you need one.
+
+ 
+
+So the answer is yes. Under no circumstances copy the private key to another computer as that is a security violation. You can only copy the public key. That is the reason its called public. On each machine where you like to access these services you need to create a different key and add the public key to the remote services/machines you want to access.
+
