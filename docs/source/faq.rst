@@ -786,3 +786,9 @@ How can I download lecture sildes ?
 
 Please refer to the following link.
 https://cloudmesh.github.io/classes/i524/lectures.html
+
+
+Don't use Anaconda
+-----------------
+
+We use python 2.7.13 for this class. It is better to use Virtualenv and pip. And for the IDE, you can use PyCharm. This is the open source way of doing python, while we use 2.7 because not everything is yet available in 3.5. We do not recommend  Anaconda or Canopy. In fact we found issues with both. Especially with Canopy. It was incompatible with libraries the open source community uses and it negatively effected a students system wide python install. We had to reinstall python completely after we uninstalled canopy. Unfortunately it did cost us a lot of time to fix this. TAs will not provide any help in case you use anaconda or canopy.
