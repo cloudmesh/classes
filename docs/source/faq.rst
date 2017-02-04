@@ -729,3 +729,14 @@ Paper 1 = 2 pages in the format we specified, images and refs not included. See 
  
 
 PS: If your paper is longer or if it a paragraph short that does not matter to us, important is the content
+
+
+Tips to Install Virtualbox
+--------------------------
+A video on how to install virtual box on windows 10 can be seen as part of an unrelated course on youtube at
+
+https://www.youtube.com/watch?v=XvCUpZuHgvo 
+
+it is a bit wordy as the presenter complains bout the difficulties to record videos on windows 10, and talks about his course, so just ignore these portions.Naturally use whatever is the newest version.Here is one for Windows 8 which also contains ubuntu install (use the one above on how to install vb on windows 10 and ignore that part form the window bellow) 
+
+https://www.youtube.com/watch?v=13GS1cLyk-E
