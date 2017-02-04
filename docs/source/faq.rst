@@ -465,3 +465,47 @@ $ git push
 The changes in the file to resolve merge conflict automatically goes to the original pull request and the pull request can be merged automatically
 
 
+Building cloudmesh/classes in local machine
+-------------------------------------------
+
+If you experience following errors, please follow the guideline explained below. Make sure to do the following steps first:
+
+
+sudo apt-get install libssl-dev
+
+
+Follow this link for more info : http://cloudmesh.github.io/client/system.html#ubuntu-14-04-15-04
+
+
+Pip will give the following error if you have not installed the library:
+
+
+Pip installation error when installing requirements. 
+
+
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+    
+    ----------------------------------------
+  Rolling back uninstall of cryptography
+Command "/usr/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-1vi4of/cryptography/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-gNcw68-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-1vi4of/cryptography/
+
+
+Trying to build the source with this error. 
+
+
+$ make
+cd docs; make html
+make[1]: Entering directory '/home/sabyasachi/Documents/Indiana University/Spring_2017/Big_Data/GITS/cloudmesh/classes/docs'
+sphinx-build -b html -d build/doctrees source build/html
+Running Sphinx v1.5.2
+Extension error:
+Could not import extension sphinxcontrib.fulltoc (exception: No module named fulltoc)
+Makefile:54: recipe for target 'html' failed
+make[1]: *** [html] Error 1
+make[1]: Leaving directory '/home/sabyasachi/Documents/Indiana University/Spring_2017/Big_Data/GITS/cloudmesh/classes/docs'
+Makefile:18: recipe for target 'doc' failed
+make: *** [doc] Error 2
+
+
+
+
