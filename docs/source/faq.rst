@@ -508,4 +508,89 @@ make: *** [doc] Error 2
 
 
 
+A way to solve a conflict in Github - Merge Conflict in a Pull Request
+----------------------------------------------------------------------
 
+Steps followed to solve merge conflict in PR.
+
+ 
+
+Make sure you have upstream repo defined
+
+$ git remote add upstream https://github.com/cloudmesh/classes
+
+ 
+
+Backup all your changed files - just in case you need them while merging the changes back
+
+ 
+
+Get latest from upstream
+
+$ git rebase upstream/master
+
+ 
+
+In this step, the conflicting file shows up (in my case it was refs.bib)
+
+ 
+
+$ git status
+
+should show the name of the conflicting file
+
+ 
+
+$ git diff <file name>
+
+should show the actual differences
+
+ 
+
+May be in some cases, It is easy to simply take latest version from upstream and reapply your changes.
+
+So you can decide to checkout one version earlier of the specific file
+
+ 
+
+- to find the version number
+
+$ git log --oneline
+
+- checkout specific version
+
+$ git checkout <version number - e.g. ed13c06> <file name>
+
+ 
+
+At this stage, the re-base should be complete. So, you need to commit and push the changes to your fork
+
+$ git commit
+$ git rebase origin/master
+$ git push
+
+ 
+
+Then reapply your changes to refs.bib - simply use the backedup version and use the editor to redo the changes.
+
+At this stage, only refs.bib is changed
+
+$ git status
+
+should show the changes only in refs.bib
+
+ 
+
+Commit this change using 
+
+$ git commit -a -m "new:usr: <message>"
+
+ 
+
+And finally push the last commited change 
+
+$ git push
+
+ 
+
+The changes in the file to resolve merge conflict automatically goes to the original pull request and the pull request can be merged automatically
