@@ -594,3 +594,36 @@ $ git push
  
 
 The changes in the file to resolve merge conflict automatically goes to the original pull request and the pull request can be merged automatically
+
+
+
+Cheat sheet for Linux commands
+------------------------------
+
+Usage of a particular command and all the attributes associated with it, use 'man' command.
+
+ 
+
+ Avoid using 'rm -r' command to delete files recursively.
+
+ 
+
+ex:
+
+ 
+
+alias e=open_emacs
+
+alias rm='rm -i'
+
+alias mv='mv -i' 
+
+alias h='history'
+
+ 
+
+More Information
+
+ 
+
+https://cloudmesh.github.io/classes/lesson/linux/refcards.html 
