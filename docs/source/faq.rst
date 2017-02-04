@@ -780,3 +780,9 @@ b) the other way of installing bash on windows is as subsystem as documented by 
 http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10
 
 If you want to use one method, do a)
+
+
+How can I download lecture sildes ?
+
+Please refer to the following link.
+https://cloudmesh.github.io/classes/i524/lectures.html
