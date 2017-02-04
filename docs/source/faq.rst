@@ -627,3 +627,91 @@ More Information
  
 
 https://cloudmesh.github.io/classes/lesson/linux/refcards.html 
+
+
+
+Tips: TechList.1 homework
+-------------------------
+ 
+
+  a). Do not mention the authors of a citation that you use. 
+
+     Example do not say:
+
+ 
+
+     As Gregor von Laszewski pointed out with flowery words in an article published recently .... [1]
+
+ 
+
+     Instead use:
+
+ 
+
+     In [1] ...    
+
+ 
+
+b) use a space after periods, and commas in a centence
+
+c) use a spellchecker
+
+d) do the indentation properly as demonstrated in the examples. (use fixed width font to edit RST to see it more easily)
+
+e) when dounig your pull request, make sure you do not have any conflists, rebase if needed
+
+ 
+
+f) Rubric
+
+ 
+
+     We already commented on what a good entry looks like so its rather simple, avoid plagiarism, subsections in the text, keep bullet lists minimal, be short but provide enough detail, dont just copy from the web page, relate technology to big data if you can 
+
+ 
+
+     1) a write a good introdcution to the technology that summarizes what it is (and if possible how it relates to big data)
+
+     2) include the most important refernces and prepare them in correct bibtex format
+
+     3) check in your contribution (obviously if you can not do that ask for help form the TAs so you get educated on git)
+
+ 
+
+     you get 50% of your points from the writeup and 50% of the points from the bibliography
+
+ 
+
+     you are allowed to work in teams to improve your own submissions. 
+
+     
+
+g) checking in in the last minute ....
+
+ 
+
+    You will safe yourself a lot of hazle if you check in your assignment early.  ON the last day typically a lot of checkins happen and may require you to do a rebase. The sooner you do it the easier for you. 
+
+ 
+
+ 
+
+Example :
+
+ 
+
+Query on Techlist 1.a - 1.c
+
+One of the technology assigned to me is 'Ninefold'. It seems ninefold has shutdown their cloud service on January 30, 2016. Should I write a tech summary for ninefold or do we have remove this from the techlist as it is no longer in operation?
+
+ 
+
+Kindly refer: 
+
+http://ninefold.com/
+
+http://ninefold.com/news/
+
+ 
+
+Note: Outdated and unnecessary technologies will be removed by the TAs. 
