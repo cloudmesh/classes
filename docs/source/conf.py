@@ -69,11 +69,11 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Classes'
+project = u'i524'
 copyright = u'2016, Gregor von Laszewski'
 author = u'Gregor von Laszewski'
 version = u''
-release = u''
+release = u'Draft'
 language = None
 todo_include_todos = True
 
@@ -241,7 +241,7 @@ elif theme_bootstrap:
     html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
     html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Classes",
+    'navbar_title': "i524",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Site",
@@ -254,18 +254,24 @@ elif theme_bootstrap:
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("Home",
-             "https://cloudmesh.github.io/classes/",
-             True),        
-        ("Piazza",
-             "https://piazza.com/class/ix39m27czn5uw",
+        ("Overview",
+             "i524/index.html",
              True),
-        ("i524",
-             "/classes/i524/index.html",
+        ("Lectures",
+             "i524/lectures.html",
+             True),
+        ("Lessons",
+             "lesson/index.html",
+             True),
+        ("Changes",
+             "changelog.html",
              True),
         ("Fork",
              "https://github.com/cloudmesh/classes",
              True),        
+        ("Piazza",
+             "https://piazza.com/class/ix39m27czn5uw",
+             True),
 
 
     ],
@@ -353,8 +359,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 html_sidebars = { '**': ['globaltoc.html',
                          'localtoc.html',
-                         'relations.html',
-                         'sourcelink.html',
+                         'i524-links.html',
                          'searchbox.html'], }
 
 
@@ -437,8 +442,11 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Classes.tex', u'Big Data',
-     u'Gregor von Laszewski', 'manual'),
+    ('notes',
+     'i524-notes.tex',
+     u'I524 Lecture Notes',
+     u'Gregor von Laszewski',
+     'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

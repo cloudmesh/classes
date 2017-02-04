@@ -32,7 +32,7 @@ the contribution section).
 +-------------+--------------------------------------------------------------------------+
 | LaTeX       | https://wch.github.io/latexsheet/latexsheet.pdf                          |
 +-------------+--------------------------------------------------------------------------+
-| Git         | https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf     |
+| Git         | https://education.github.com/git-cheat-sheet-education.pdf               |
 +-------------+--------------------------------------------------------------------------+
 | Openstack   | http://docs.openstack.org/user-guide/cli_cheat_sheet.html                |
 +-------------+--------------------------------------------------------------------------+

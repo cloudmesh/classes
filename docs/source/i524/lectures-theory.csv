@@ -1,37 +1,21 @@
-Unit 0,Course Overview,`Slides <https://drive.google.com/file/d/0Bx_sUfI4VkKSaHlDWkZkeGh4LVE/view?usp=sharing>`_,,yes
-      ,Class Introduction - Part 1,`Video <https://www.youtube.com/watch?v=Z2M5NsTsj2Y>`_,11:29,yes
-      ,Class Introduction - Part 2,`Video <https://www.youtube.com/watch?v=5VXhF_Z7Vdk>`_,04:10,yes
-      ,Class Introduction - Part 3,`Video <https://www.youtube.com/watch?v=DDXqLZcavas>`_,12:41,yes
-      ,Class Web Page - Part 1,`Video <https://www.youtube.com/watch?v=uE45GE1Ceok>`_,11:25,yes
-      ,Class Web Page - Part 2,`Video <https://www.youtube.com/watch?v=Tkhu96TreMk>`_,17:31,yes
-Techlist.1, TechList.1 Web Page, `Web Page <https://cloudmesh.github.io/classes/i524/technologies.html>`_, , yes
-      , TechList.1 Homework, `Video <https://www.youtube.com/watch?v=roi7vezNmfo>`_, 40:08, yes
-Unit 1,Introduction,`Slides <https://drive.google.com/file/d/0Bx_sUfI4VkKSMHBUblVUMWg4Y00/view?usp=sharing>`_,,yes
-* Unit 1.A,Introduction,`Video <https://www.youtube.com/watch?v=VWK7QdThOPQ>`_,0:13:59,yes
-* Unit 1.B,Real World Big Data,`Video <https://www.youtube.com/watch?v=hjrFaXMU1dg&list=PLLO4AVszo1SNIGlqjEBaQjLvc3lgpeI3M&index=2>`_,0:15:28,yes
-* Unit 1.C,Basic Trends and Jobs,`Video <https://www.youtube.com/watch?v=u5Y0aKbzync&index=3&list=PLLO4AVszo1SNIGlqjEBaQjLvc3lgpeI3M>`_,0:10:57,yes
-Unit 5,Data Access Patterns and Introduction to using HPC-ABDS,`Slides <https://iu.box.com/s/uozssvsy0p9fhh0uv8gldwoves2bl0vv>`_,,NO
-* Unit 5.A,Introduction to HPC-ABDS Software and Access Patterns,`Video <https://mix.office.com/watch/gjwl36xkjzc0>`_ -  `Resource 1 <http://grids.ucs.indiana.edu/ptliupages/publications/HPC-ABDSDescribedv2.pdf>`_,0:27:45,NO
-* Unit 5.B,Science Examples (Data Access Patterns),`Video <https://mix.office.com/watch/17pxkz2eme9jc>`_ -  `Resource 2 <http://hpc-abds.org/kaleidoscope/>`_,0:18:38,NO
-* Unit 5.C,Remaining General Access Patterns,`Video <https://mix.office.com/watch/87p4j2mbjzvj>`_,0:11:26,NO
-* Unit 5.D,Summary of HPC-ABDS Layers 1 - 6,`Video <https://mix.office.com/watch/1rtdoa2g7h4af>`_,0:14:32,NO
-* Unit 5.E,Summary of HPC-ABDS Layers 7 - 13,`Video <https://mix.office.com/watch/gcey5uvs3lcr>`_,0:30:52,NO
-* Unit 5.F,Summary of HPC-ABDS Layers 14 - 17,`Video <https://mix.office.com/watch/178e1nz5u44en>`_,0:28:02,NO
-* Unit 5.G,Final Part Summary of Stack,`Video <https://mix.office.com/watch/1gm6sxg0hc2p>`_,0:20:20,NO
-Unit 7,Big Data Application Structure,`Slides <https://iu.box.com/s/7bg3kbyei2awr09c7xlqdvzhe431ykqj>`_,,NO
-Unit 7.A,NIST Big Data Sub Groups,`Slides <https://mix.office.com/watch/dwap7g95jn9b>`_,0:23:25,NO
-Unit 7.B,Big Data Patterns - Sources of Parallelism,`Slides <https://mix.office.com/watch/fkebewczmq6q>`_,0:23:51,NO
-Unit 7.C,First and Second Set of Features,`Slides <https://mix.office.com/watch/jmpr3f4mnvqy>`_,0:18:26,NO
-Part 7.D,Machine Learning Aspect of Second Feature Set and the Third Set,`Slides <https://iu.box.com/s/rin0vyk82899bnixbgj4b6eooh4e01ym>`_,0:18:38,NO
-Unit 8,Aspects of Big Data Applications,`Slides <https://iu.box.com/s/62k5jgp5kk3trai06s3elhhns34zvnpk>`_,,NO
-Unit 8.A,Other sources of use cases and Classical Databases/SQL Solutions,`Slides <https://mix.office.com/watch/1jq48eqbd6cyf>`_,0:16:50,NO
-Unit 8.B,NOSQL Solutions -  Machine Learning Example -  and MapReduce,`Slides <https://mix.office.com/watch/17v340tp51i17>`_,0:18:49,NO
-Unit 8.C,Clouds vs HPC -  Data Intensive vs. Simulation Problems,`Slides <https://mix.office.com/watch/vwjde1pan2m0>`_,0:20:26,NO
-Unit 11,Big Data Applications and Generalizing their Structure,`Slides <https://iu.box.com/s/5c9j10jf6winwp7gkg0q8qfr7wn37tvd>`_,,NO
-Unit 11.A,NIST UseCases and Image Based Applications Examples I,`Video <https://mix.office.com/watch/gtc9eembrfzl>`_,0:25:20,NO
-Unit 11.B,Image Based Applications II,`Video <https://mix.office.com/watch/wcqmx9jj4amu>`_,0:15:23,NO
-Unit 11.C,Internet of Things Based Applications,`Video <https://mix.office.com/watch/jucfnt7npb2t>`_,0:25:25,NO
-Unit 11.D,Big Data Patterns - the Ogres & their Facets I,`Video <https://mix.office.com/watch/3cwnlq5dkrgl>`_,0:22:44,NO
-Unit 11.E,Facets of the Big Data Ogres II,`Video <https://mix.office.com/watch/1w35pgk1rrj9o>`_,0:15:09,NO
-Unit 12,More on Software Stack,`Slides <https://iu.box.com/s/vl0vo3oqkoo8jq7ccwew59lslcmbb9ot>`_,,NO
-Unit 11.A,More of Software Stack,`Video <https://mix.office.com/watch/hupb6i6669bh>`_,0:24:00,NO
+Overview,Course Overview,`Slides <https://drive.google.com/file/d/0Bx_sUfI4VkKSaHlDWkZkeGh4LVE/view?usp=sharing>`_,
+      ,Class Overview - Part 1,`Video <https://www.youtube.com/watch?v=Z2M5NsTsj2Y>`_,11:29
+      ,Class Overview - Part 2,`Video <https://www.youtube.com/watch?v=5VXhF_Z7Vdk>`_,04:10
+      ,Class Overview - Part 3,`Video <https://www.youtube.com/watch?v=DDXqLZcavas>`_,12:41
+Web Page,Course Web Page, Videos_,
+      ,Class Web Page - Part 1,`Video <https://www.youtube.com/watch?v=uE45GE1Ceok>`_,11:25
+      ,Class Web Page - Part 2,`Video <https://www.youtube.com/watch?v=Tkhu96TreMk>`_,17:31
+Techlist.1, TechList.1 Web Page, `Web Page <https://cloudmesh.github.io/classes/i524/technologies.html>`_, 
+      , TechList.1 Homework, `Video <https://www.youtube.com/watch?v=roi7vezNmfo>`_, 40:08
+Introduction ,Course Introduction,`Slides <https://drive.google.com/file/d/0Bx_sUfI4VkKSMHBUblVUMWg4Y00/view?usp=sharing>`_,
+      ,Introduction,`Video <https://www.youtube.com/watch?v=VWK7QdThOPQ>`_,0:13:59
+      ,Introduction - Real World Big Data,`Video <https://www.youtube.com/watch?v=hjrFaXMU1dg&list=PLLO4AVszo1SNIGlqjEBaQjLvc3lgpeI3M&index=2>`_,0:15:28
+      ,Introduction - Basic Trends and Jobs,`Video <https://www.youtube.com/watch?v=u5Y0aKbzync&index=3&list=PLLO4AVszo1SNIGlqjEBaQjLvc3lgpeI3M>`_,0:10:57
+Acess Patterns, Data Access Patterns and Introduction to using HPC-ABDS,`Slides <https://iu.box.com/s/o5rqlsop0jv98lqdon3h9qszk3soq31g>`_,
+    , A. Introduction to HPC-ABDS Software and Access Patterns,`Video <https://www.youtube.com/watch?v=y2HzXjmRf4Y>`_ -  `Resource 1 <http://grids.ucs.indiana.edu/ptliupages/publications/HPC-ABDSDescribedv2.pdf>`_,0:27:45
+    , B. Science Examples (Data Access Patterns),`Video <https://www.youtube.com/watch?v=hYJ4_1A4kEU>`_ -  `Resource 2 <http://hpc-abds.org/kaleidoscope/>`_,0:18:38
+    , C. Remaining General Access Patterns,`Video <https://www.youtube.com/watch?v=hsEDKM7Zur4>`_,0:11:26
+    , D. Summary of HPC-ABDS Layers 1 - 6,`Video <https://www.youtube.com/watch?v=zVPKiGV0fk0>`_,0:14:32
+    , E. Summary of HPC-ABDS Layers 7 - 13,`Video <https://youtu.be/6Kj9E38lUzU>`_,0:30:52
+    , F. Summary of HPC-ABDS Layers 14 - 17,`Video <https://www.youtube.com/watch?v=13EQZ-6z91k>`_,0:28:02
+    , Final Part Summary of Stack,`Video <https://www.youtube.com/watch?v=0kj-NEl8VF4>`_,0:20:20

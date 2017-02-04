@@ -1,6 +1,19 @@
-Unit 2, Collaboration Tools, ,,NO
-* Unit 2.A, Overview and Introduction, `Video <https://www.youtube.com/watch?v=ZWzYGwnbZK4&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=1>`_, 0:02:00   ,NO
-* Unit 2.B, Google - Google+ - Hangout - Remote Desktop, `Video <https://www.youtube.com/watch?v=kOrWm830vxQ&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=2>`_, 0:04:00  ,NO
-* Unit 2.C, Github, `Video <https://www.youtube.com/watch?v=KrAjal1a30w&list=PLLO4AVszo1SPYLypeUK0uPc4X6GXwWhcx&index=4>`_, 0:18:00,NO
-* Unit 2.C.H1, Github account, `Video <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/git.html#exercise>`_ ,  ,NO
-* Unit 2.C.H2, VirtualBox with the course image, , ,NO
+Organization, Lessons vs Lectures, `Web Page <../lesson/org/index.html>`_,
+Web Page, Contributiing to the Web Page, `Web Page <../lesson/contrib/contributing.html>`_,
+Github, Overview and Introduction, `Web page <../lesson/prg/github.html#video-lectures-on-github>`_, 
+      , Install Instructions, `Web page <https://www.atlassian.com/git/tutorials/install-git>`_,    
+      , config, `Video <https://www.youtube.com/watch?v=ZChtKFLiaNw>`_, 2:47
+      , fork, `Video <https://www.youtube.com/watch?v=5oJHRbqEofs>`_, 1:41
+      , checkout, `Video <https://www.youtube.com/watch?v=HwrPhOp6-aM>`_, 3:11
+      , pull, `Video <https://www.youtube.com/watch?v=d5wpJ5VimSU>`_, 4:26
+      , branch, `Video <https://www.youtube.com/watch?v=H5GJfcp3p4Q>`_, 2:25
+      , merge, `Video <https://www.youtube.com/watch?v=yyLiplDQtf0>`_, 4:50
+      , rebase, `Video <https://www.youtube.com/watch?v=SxzjZtJwOgo>`_, 4:20
+      , GUI, `Video <https://www.youtube.com/watch?v=BMYOs5jflGE>`_, 3:47
+      , Windows - unsupported, `Video <https://www.youtube.com/watch?v=YBbkvCrfDSo>`_, 1:25
+Paper,How to write a paper by Simon Peyton Jones, `Video <https://www.youtube.com/watch?v=g3dkRsTqdDA>`_, 34:24
+     ,LaTeX - Overview of LaTeX Resources, `Web Page <../lesson/doc/latex.html>`_,
+     ,(optional) ShareLaTeX, `Video <https://youtu.be/PfhSOjuQk8Y>`_, 8:49
+     ,jabref, `Video <https://youtu.be/cMtYOHCHZ3k>`_,14:41
+     ,Report Format, `Web Page <../lesson/doc/report.html>`_ - `Git <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_ - `PDF <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_,
+RST, (Draft) Restructured Text, `Web PAge <../lesson/doc/rst.html>`_,

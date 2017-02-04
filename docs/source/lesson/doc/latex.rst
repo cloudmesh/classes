@@ -140,7 +140,7 @@ prefer editors such as emacs/
 
 
 LyX
-~~~
+----------------------------
 
 We have made very good experiences with Lyx. You must assure that the
 team you work with uses it consistently and that you all use the same version.
@@ -157,7 +157,7 @@ not included by default. However the above link clearly documents how
 to fix this.
 
 WYSIWYG locally
---------------
+----------------------------
 
 We have found that editors such as Lyx and Auctex provide very good
 WYSIWYG alike features. However, we found an even easier way while
@@ -208,7 +208,7 @@ Sharelatex
 ~~~~~~~~~~
 
 Those that like to use latex, but do not have it installed on their
-computers may want to look at the following video: 
+computers may want to look at the following video:
 
 Video: https://youtu.be/PfhSOjuQk8Y
 
@@ -230,7 +230,7 @@ OSA template.
 Features of overleaf are documented at: https://www.overleaf.com/benefits
 
 
-   
+
 The LaTeX Cycle
 ---------------
 
@@ -241,7 +241,7 @@ First, Create/edit ASCII source file with ``file.tex`` file:
 
 ::
 
-    emacs file.tex 
+    emacs file.tex
 
 Create/edit bibliography file:
 
@@ -254,7 +254,7 @@ Create the PDF:
 ::
 
     pdflatex file
-    bibtex file 
+    bibtex file
     pdflatex file
     pdflatex file
 
@@ -271,13 +271,13 @@ A great example is provided at:
 It not only showcases you an example file in ACM 2 column format, but
 also integrates with a bibliography. Furthermore, it provides a
 sample Makefile that you can use to generate view and recompile, or
-even autogenerate. A compilation would look like:
+even autogenerate. A compilation would look like::
 
   make
   make view
 
 If however you want to do things on change in the tex file you can do
-this automatically simply with
+this automatically simply with::
 
   make watch
 
@@ -305,7 +305,7 @@ tools such as tablaeu as they do not provide proper exports to high
 quality publication formats. For interactive display such tool may be
 good, but for publications it produces inferior formatted images.
 
-
+.. _bibligraphies_:
 
 Bibliographies
 --------------
@@ -331,7 +331,7 @@ Than you have to run latex and bibtex in the following order:
     latex  file
 
 or simply call `make` from our `makefile`.
-    
+
 The reason for the multiple execution of the latex program is to update
 all cross-references correctly. In case you are not interested in
 updating the library every time in the writing progress just postpone it
@@ -345,7 +345,7 @@ Other programs such as mendeley, Zotero, and even endnote integrate
 with bibtex. However their support is limited, so we recommend that
 you just use jabref. Furthermore its free and runs on all platforms.
 
-   
+
 jabref
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -368,11 +368,11 @@ however only on a Windows computer.
 .. note::
 
    We have not tried this ourselves, but give it as a potential
-   option. 
+   option.
 
 Here are the steps the need to be done:
 
- 
+
 1. Create the Jabref bibliography just like in presented in the Jabref video
 2. After finishing adding your sources in Jabref, click `File -> export`
 3. Name your bibliography and choose MS Office 2007(*.xml) as the file
@@ -394,7 +394,7 @@ Here are the steps the need to be done:
     the document
 12. Ensure references are of Style: IEEE.  Styles are located in the
     References tab under 'Manage Sources'
- 
+
 As you can see there is significant effort involve, so we do recommend you
 use LaTeX as you can focus there on content rather than dealing with
 complex layout decisions. This is especially true, if your papers has
@@ -407,7 +407,7 @@ Please note that you should first decide which reference manager you
 like to use. In case you for example install zotero and mendeley, that
 may not work with word or other programs.
 
-	  
+
 Endnote
 ~~~~~~~~
 
@@ -479,7 +479,7 @@ However, in case you need to have a slide presentation we recommend
 you use ppt. Just paste and copy content from your PDF or your LaTeX
 source file into the ppt.
 
-    
+
 .. _sharelatex:
 
 
@@ -505,18 +505,17 @@ Tips
 
 Including figures over two columns:
 
-*
-http://tex.stackexchange.com/questions/30985/displaying-a-wide-figure-in-a-two-column-document
+* http://tex.stackexchange.com/questions/30985/displaying-a-wide-figure-in-a-two-column-document
 
 * positioning figures with \textwidth and \columnwidth
   https://www.sharelatex.com/learn/Positioning_images_and_tables
 
 * An organization as author. Assume the author is National Institute
   of Health and want  to have the author show up, please do::
- 
+
     key= {National Institute of Health},
     author= {{National Institute of Health}},
- 
+
   Please note the {{ }}
 
 * words containing 'fi' or 'ffi' showing blank places like below after recompiling it:
