@@ -765,3 +765,18 @@ So if you like to access from your ubuntu vm future systems which you want you n
 
 So the answer is yes. Under no circumstances copy the private key to another computer as that is a security violation. You can only copy the public key. That is the reason its called public. On each machine where you like to access these services you need to create a different key and add the public key to the remote services/machines you want to access.
 
+
+Ways to run Ubuntu on Windows 10
+--------------------------------
+
+There are multiple ways to get ubuntu onto Windows.
+
+a) The recommended way to do it is via virtual box which seems to work for most, but requires sometimes that the bios settings need to be adjusted. Naturally we do not know what your bios settings are so you need to figure this out from the internet.  However in 99% of the cases virtual box works nicely.A student tip describes what needs to be done: 
+ 
+You need the virtual box software (https://www.virtualbox.org/wiki/Downloads) that corresponds to the operating system running on the physical machine in front of you.  Then download the Ubuntu 16.04 .iso file (https://www.ubuntu.com/download/desktop) to your computer.  Start virtual box.  I think a wizard starts  to guide you through setting up a new virtual machine when you choose "new". Then brows to where you downloaded the iso file and click on it. you will have to start this and ubuntu will start installing. (improve this description if something is not clear)
+
+b) the other way of installing bash on windows is as subsystem as documented by your fellow students. This may not fulfill the requirements of running ansible, but it will help you to get started quickly while running bash on your host directly. It is often referred to as "ubuntu on windows". 
+
+http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10
+
+If you want to use one method, do a)
