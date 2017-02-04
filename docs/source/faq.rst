@@ -715,3 +715,17 @@ http://ninefold.com/news/
  
 
 Note: Outdated and unnecessary technologies will be removed by the TAs. 
+
+
+Techlist 1 and Paper 1 : Pagecount
+----------------------------------
+
+TechLIst = a couple of paragraphs (so real short, see the NAGIOS example
+
+ 
+
+Paper 1 = 2 pages in the format we specified, images and refs not included. See at the end of the paper format for a suitable layout
+
+ 
+
+PS: If your paper is longer or if it a paragraph short that does not matter to us, important is the content
