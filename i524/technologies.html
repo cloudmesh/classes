@@ -2431,15 +2431,42 @@ also detects problems very early on.</p>
 </div>
 <div class="section" id="security-privacy">
 <h3>Security &amp; Privacy<a class="headerlink" href="#security-privacy" title="Permalink to this headline">¶</a></h3>
-<ol class="arabic simple" start="365">
-<li>InCommon</li>
-<li>Eduroam</li>
-<li>OpenStack Keystone</li>
-<li>LDAP</li>
-<li>Sentry</li>
-<li>Sqrrl</li>
-<li>OpenID</li>
-<li>SAML OAuth</li>
+<ol class="arabic" start="365">
+<li><p class="first">InCommon</p>
+</li>
+<li><p class="first">Eduroam <a class="reference internal" href="#www-eduroam" id="id141">[Edu]</a></p>
+<p>Eduroam is an initiative started in the year 2003 when the number
+of personal computers with in the academia are growing
+rapidly. The goal is to solve the problem of secure access to
+WI-FI due to increasing number of students and reasearch teams
+becoming mobile which was increasing the administrative problems
+for provide access to WI-FI. Eduroam provides any user from an
+eduroam participating site to get network access at any
+instituion connected through eduroam. According to the
+orgnizatioin it uses a combination of radius-based infrastructuor
+with 802.1X standard techonology to provide roaming acess across
+reasearch and educational networks. The role of the RADIUS
+hierarchy is to forward user crednetials to the users home
+instituion where they can be verified. This proved to be a
+successful solution when compared to other traditonal ways like
+using MAC-adress, SSID, WEP, 802.1x(EAP-TLS, EAP-TTLS), VPN
+Clients, Mobile-IP etc which have their own short comings when
+used for this purpose <a class="reference internal" href="#eduroam-paper-2005" id="id142">[FW05]</a>. Today by
+enabling eduroam users get access to internet across 70 countries
+and tens of thousands of access points worldwide.</p>
+</li>
+<li><p class="first">OpenStack Keystone</p>
+</li>
+<li><p class="first">LDAP</p>
+</li>
+<li><p class="first">Sentry</p>
+</li>
+<li><p class="first">Sqrrl</p>
+</li>
+<li><p class="first">OpenID</p>
+</li>
+<li><p class="first">SAML OAuth</p>
+</li>
 </ol>
 </div>
 <div class="section" id="distributed-coordination">
@@ -2459,7 +2486,7 @@ among multiple servers without issues. Giraffe was proposed as
 alternative to coordinating services like Zookeeper and Chubby
 which were efficient only in read-intensive scenario and small
 ensembles. To overcome this three important aspects were included
-in the design of Giraffe <a class="reference internal" href="#giraffepaper" id="id141">[SLJ+14]</a>. First feature is
+in the design of Giraffe <a class="reference internal" href="#giraffepaper" id="id143">[SLJ+14]</a>. First feature is
 Giraffe uses interior-node joint trees to organize coordination
 servers for better scalability. Second, Giraffe uses Paxos
 protocol for better consistency and to provide more
@@ -2479,7 +2506,7 @@ low latency.</p>
 <li><p class="first">Thrift</p>
 </li>
 <li><p class="first">Protobuf</p>
-<p>Protocol Buffer <a class="reference internal" href="#www-protobuf" id="id142">[www16b]</a> is a way to serialize
+<p>Protocol Buffer <a class="reference internal" href="#www-protobuf" id="id144">[www16b]</a> is a way to serialize
 structured data into binary form (stream of bytes) in order to
 transfer it over wires or for storage. It is used for inter
 apllication communication or for remote procedure call (RPC). It
@@ -2630,6 +2657,12 @@ others.</dd>
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id5">[Dat]</a></td><td>Datafu. Web Page. Accessed:1/16/2017. URL: <a class="reference external" href="https://datafu.incubator.apache.org/">https://datafu.incubator.apache.org/</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="www-eduroam" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id141">[Edu]</a></td><td>Eduroam. Web Page. URL: <a class="reference external" href="https://www.eduroam.org/about/">https://www.eduroam.org/about/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-fits-nasa" rules="none">
@@ -2875,7 +2908,7 @@ others.</dd>
 <table class="docutils citation" frame="void" id="www-protobuf" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id142">[www16b]</a></td><td>Protocol buffer. Web Page, September 2016. URL: <a class="reference external" href="https://developers.google.com/protocol-buffers/">https://developers.google.com/protocol-buffers/</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id144">[www16b]</a></td><td>Protocol buffer. Web Page, September 2016. URL: <a class="reference external" href="https://developers.google.com/protocol-buffers/">https://developers.google.com/protocol-buffers/</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-lucene" rules="none">
@@ -2996,6 +3029,12 @@ others.</dd>
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id121">[EM16]</a></td><td>Andy Edmonds and Thijs Metsch. Open cloud computing interface - text rendering. OGF Published Document GWD-R-P.229, Global Grid Forum, Open Grid Forum, P.O. Box 1738, Muncie IN 47308, USA, September 2016. Accessed: 2017-1-17. URL: <a class="reference external" href="https://www.ogf.org/documents/GFD.229.pdf">https://www.ogf.org/documents/GFD.229.pdf</a>.</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="eduroam-paper-2005" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id142">[FW05]</a></td><td>Licia Florio and Klaas Wierenga. Eduroam, providing mobility for roaming users. <em>TERENA</em>, 2005. URL: <a class="reference external" href="https://www.terena.org/activities/tf-mobility/docs/ppt/eunis-eduroamfinal-LF.pdf">https://www.terena.org/activities/tf-mobility/docs/ppt/eunis-eduroamfinal-LF.pdf</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="www-occi" rules="none">
@@ -3163,7 +3202,7 @@ others.</dd>
 <table class="docutils citation" frame="void" id="giraffepaper" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id141">[SLJ+14]</a></td><td>Xuanhua Shi, Haohong Lin, Hai Jin, Bing&nbsp;Bing Zhou, Zuoning Yin, Sheng Di, and Song Wu. Giraffe: a scalable distributed coordination service for large-scale systems. In <em>GIRAFFE: A Scalable Distributed Coordination Service for Large-scale Systems</em>, 1–10. 2014. URL: <a class="reference external" href="http://www.mcs.anl.gov/papers/P5157-0714.pdf">http://www.mcs.anl.gov/papers/P5157-0714.pdf</a>.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id143">[SLJ+14]</a></td><td>Xuanhua Shi, Haohong Lin, Hai Jin, Bing&nbsp;Bing Zhou, Zuoning Yin, Sheng Di, and Song Wu. Giraffe: a scalable distributed coordination service for large-scale systems. In <em>GIRAFFE: A Scalable Distributed Coordination Service for Large-scale Systems</em>, 1–10. 2014. URL: <a class="reference external" href="http://www.mcs.anl.gov/papers/P5157-0714.pdf">http://www.mcs.anl.gov/papers/P5157-0714.pdf</a>.</td></tr>
 </tbody>
 </table>
 <table class="docutils citation" frame="void" id="big-data-analytics-book" rules="none">

@@ -380,3 +380,427 @@ for the project. This you can acquire as part of the class through
 self study. There is a section under lessosn that has some elementary
 python included.
 
+
+Steps followed to solve merge conflict in PR.
+---------------------------------------------
+
+Make sure you have upstream repo defined
+
+$ git remote add upstream https://github.com/cloudmesh/classes
+
+ 
+
+Backup all your changed files - just in case you need them while merging the changes back
+
+ 
+
+Get latest from upstream
+
+$ git rebase upstream/master
+
+ 
+
+In this step, the conflicting file shows up (in my case it was refs.bib)
+
+ 
+
+$ git status
+
+should show the name of the conflicting file
+
+ 
+
+$ git diff <file name>
+
+should show the actual differences
+
+ 
+
+May be in some cases, It is easy to simply take latest version from upstream and reapply your changes.
+
+So you can decide to checkout one version earlier of the specific file
+
+ 
+
+- to find the version number
+
+$ git log --oneline
+
+- checkout specific version
+
+$ git checkout <version number - e.g. ed13c06> <file name>
+
+ 
+
+At this stage, the re-base should be complete. So, you need to commit and push the changes to your fork
+
+$ git commit
+$ git rebase origin/master
+$ git push
+
+ 
+
+Then reapply your changes to refs.bib - simply use the backedup version and use the editor to redo the changes.
+
+At this stage, only refs.bib is changed
+
+$ git status
+
+should show the changes only in refs.bib
+
+ 
+
+Commit this change using 
+
+$ git commit -a -m "new:usr: <message>"
+
+ 
+
+And finally push the last commited change 
+
+$ git push
+
+ 
+
+The changes in the file to resolve merge conflict automatically goes to the original pull request and the pull request can be merged automatically
+
+
+Building cloudmesh/classes in local machine
+-------------------------------------------
+
+If you experience following errors, please follow the guideline explained below. Make sure to do the following steps first:
+
+
+sudo apt-get install libssl-dev
+
+
+Follow this link for more info : http://cloudmesh.github.io/client/system.html#ubuntu-14-04-15-04
+
+
+Pip will give the following error if you have not installed the library:
+
+
+Pip installation error when installing requirements. 
+
+
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+    
+    ----------------------------------------
+  Rolling back uninstall of cryptography
+Command "/usr/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-1vi4of/cryptography/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-gNcw68-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-1vi4of/cryptography/
+
+
+Trying to build the source with this error. 
+
+
+$ make
+cd docs; make html
+make[1]: Entering directory '/home/sabyasachi/Documents/Indiana University/Spring_2017/Big_Data/GITS/cloudmesh/classes/docs'
+sphinx-build -b html -d build/doctrees source build/html
+Running Sphinx v1.5.2
+Extension error:
+Could not import extension sphinxcontrib.fulltoc (exception: No module named fulltoc)
+Makefile:54: recipe for target 'html' failed
+make[1]: *** [html] Error 1
+make[1]: Leaving directory '/home/sabyasachi/Documents/Indiana University/Spring_2017/Big_Data/GITS/cloudmesh/classes/docs'
+Makefile:18: recipe for target 'doc' failed
+make: *** [doc] Error 2
+
+
+
+A way to solve a conflict in Github - Merge Conflict in a Pull Request
+----------------------------------------------------------------------
+
+Steps followed to solve merge conflict in PR.
+
+ 
+
+Make sure you have upstream repo defined
+
+$ git remote add upstream https://github.com/cloudmesh/classes
+
+ 
+
+Backup all your changed files - just in case you need them while merging the changes back
+
+ 
+
+Get latest from upstream
+
+$ git rebase upstream/master
+
+ 
+
+In this step, the conflicting file shows up (in my case it was refs.bib)
+
+ 
+
+$ git status
+
+should show the name of the conflicting file
+
+ 
+
+$ git diff <file name>
+
+should show the actual differences
+
+ 
+
+May be in some cases, It is easy to simply take latest version from upstream and reapply your changes.
+
+So you can decide to checkout one version earlier of the specific file
+
+ 
+
+- to find the version number
+
+$ git log --oneline
+
+- checkout specific version
+
+$ git checkout <version number - e.g. ed13c06> <file name>
+
+ 
+
+At this stage, the re-base should be complete. So, you need to commit and push the changes to your fork
+
+$ git commit
+$ git rebase origin/master
+$ git push
+
+ 
+
+Then reapply your changes to refs.bib - simply use the backedup version and use the editor to redo the changes.
+
+At this stage, only refs.bib is changed
+
+$ git status
+
+should show the changes only in refs.bib
+
+ 
+
+Commit this change using 
+
+$ git commit -a -m "new:usr: <message>"
+
+ 
+
+And finally push the last commited change 
+
+$ git push
+
+ 
+
+The changes in the file to resolve merge conflict automatically goes to the original pull request and the pull request can be merged automatically
+
+
+
+Cheat sheet for Linux commands
+------------------------------
+
+Usage of a particular command and all the attributes associated with it, use 'man' command.
+
+ 
+
+ Avoid using 'rm -r' command to delete files recursively.
+
+ 
+
+ex:
+
+ 
+
+alias e=open_emacs
+
+alias rm='rm -i'
+
+alias mv='mv -i' 
+
+alias h='history'
+
+ 
+
+More Information
+
+ 
+
+https://cloudmesh.github.io/classes/lesson/linux/refcards.html 
+
+
+
+Tips: TechList.1 homework
+-------------------------
+ 
+
+  a). Do not mention the authors of a citation that you use. 
+
+     Example do not say:
+
+ 
+
+     As Gregor von Laszewski pointed out with flowery words in an article published recently .... [1]
+
+ 
+
+     Instead use:
+
+ 
+
+     In [1] ...    
+
+ 
+
+b) use a space after periods, and commas in a centence
+
+c) use a spellchecker
+
+d) do the indentation properly as demonstrated in the examples. (use fixed width font to edit RST to see it more easily)
+
+e) when dounig your pull request, make sure you do not have any conflists, rebase if needed
+
+ 
+
+f) Rubric
+
+ 
+
+     We already commented on what a good entry looks like so its rather simple, avoid plagiarism, subsections in the text, keep bullet lists minimal, be short but provide enough detail, dont just copy from the web page, relate technology to big data if you can 
+
+ 
+
+     1) a write a good introdcution to the technology that summarizes what it is (and if possible how it relates to big data)
+
+     2) include the most important refernces and prepare them in correct bibtex format
+
+     3) check in your contribution (obviously if you can not do that ask for help form the TAs so you get educated on git)
+
+ 
+
+     you get 50% of your points from the writeup and 50% of the points from the bibliography
+
+ 
+
+     you are allowed to work in teams to improve your own submissions. 
+
+     
+
+g) checking in in the last minute ....
+
+ 
+
+    You will safe yourself a lot of hazle if you check in your assignment early.  ON the last day typically a lot of checkins happen and may require you to do a rebase. The sooner you do it the easier for you. 
+
+ 
+
+ 
+
+Example :
+
+ 
+
+Query on Techlist 1.a - 1.c
+
+One of the technology assigned to me is 'Ninefold'. It seems ninefold has shutdown their cloud service on January 30, 2016. Should I write a tech summary for ninefold or do we have remove this from the techlist as it is no longer in operation?
+
+ 
+
+Kindly refer: 
+
+http://ninefold.com/
+
+http://ninefold.com/news/
+
+ 
+
+Note: Outdated and unnecessary technologies will be removed by the TAs. 
+
+
+Techlist 1 and Paper 1 : Pagecount
+----------------------------------
+
+TechLIst = a couple of paragraphs (so real short, see the NAGIOS example
+
+ 
+
+Paper 1 = 2 pages in the format we specified, images and refs not included. See at the end of the paper format for a suitable layout
+
+ 
+
+PS: If your paper is longer or if it a paragraph short that does not matter to us, important is the content
+
+
+Tips to Install Virtualbox
+--------------------------
+A video on how to install virtual box on windows 10 can be seen as part of an unrelated course on youtube at
+
+https://www.youtube.com/watch?v=XvCUpZuHgvo 
+
+it is a bit wordy as the presenter complains bout the difficulties to record videos on windows 10, and talks about his course, so just ignore these portions.Naturally use whatever is the newest version.Here is one for Windows 8 which also contains ubuntu install (use the one above on how to install vb on windows 10 and ignore that part form the window bellow) 
+
+https://www.youtube.com/watch?v=13GS1cLyk-E
+
+Do I generate the SSH key on Ubuntu VM ?
+-----------------------------------------
+I have installed Ubuntu(on virtual box) on my windows 10 system. I wanted to confirm if the SSH key should be created on the Ubuntu VM?
+
+Yes we need to generate ssh on Ubuntu VM, because even it is a VM or a real machine we have to set up ssh in order to work with ssh based communication, in order to maintain security when you are using an application like Github.
+
+You need to generate SSH, no matter what operating system you are using or on which operating system you are running VM.
+
+First let us revisit what an ssh key is for. A key pair has a public and a private key pair. If a remote machine has the public key from another machine you will be able to login to that machine form the machine where you have created the public and private key pair from. Some services do require key authentication. Such services include: 
+
+a) login to any virtual machine
+
+b) using github
+
+c) login to the login nodes of futuresystems 
+
+Thus if you like ta access any of them any computer on which you want to access them from need a key pair. (or key as we sometimes abbreviate).
+
+So if you like to access from your ubuntu vm future systems which you want you need one, if you want to access githu, you need one, if you want to login to vas on chameleon cloud you need one, if you want to login to vas on jetstreem you need one, if you want .... you need one.
+
+ 
+
+So the answer is yes. Under no circumstances copy the private key to another computer as that is a security violation. You can only copy the public key. That is the reason its called public. On each machine where you like to access these services you need to create a different key and add the public key to the remote services/machines you want to access.
+
+
+Ways to run Ubuntu on Windows 10
+--------------------------------
+
+There are multiple ways to get ubuntu onto Windows.
+
+a) The recommended way to do it is via virtual box which seems to work for most, but requires sometimes that the bios settings need to be adjusted. Naturally we do not know what your bios settings are so you need to figure this out from the internet.  However in 99% of the cases virtual box works nicely.A student tip describes what needs to be done: 
+ 
+You need the virtual box software (https://www.virtualbox.org/wiki/Downloads) that corresponds to the operating system running on the physical machine in front of you.  Then download the Ubuntu 16.04 .iso file (https://www.ubuntu.com/download/desktop) to your computer.  Start virtual box.  I think a wizard starts  to guide you through setting up a new virtual machine when you choose "new". Then brows to where you downloaded the iso file and click on it. you will have to start this and ubuntu will start installing. (improve this description if something is not clear)
+
+b) the other way of installing bash on windows is as subsystem as documented by your fellow students. This may not fulfill the requirements of running ansible, but it will help you to get started quickly while running bash on your host directly. It is often referred to as "ubuntu on windows". 
+
+http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10
+
+If you want to use one method, do a)
+
+
+How can I download lecture sildes ?
+
+Please refer to the following link.
+https://cloudmesh.github.io/classes/i524/lectures.html
+
+
+Don't use Anaconda
+-----------------
+
+We use python 2.7.13 for this class. It is better to use Virtualenv and pip. And for the IDE, you can use PyCharm. This is the open source way of doing python, while we use 2.7 because not everything is yet available in 3.5. We do not recommend  Anaconda or Canopy. In fact we found issues with both. Especially with Canopy. It was incompatible with libraries the open source community uses and it negatively effected a students system wide python install. We had to reinstall python completely after we uninstalled canopy. Unfortunately it did cost us a lot of time to fix this. TAs will not provide any help in case you use anaconda or canopy.
+
+
+Using SSH Key for Git Push
+--------------------------
+
+When you cloned your repository did you use SSH rather than HTTPS? Your clone command should look like this: 
+
+$ git clone git@github.com:YOUR_USERNAME/classes.git
+
+You can use git remote set-url as described here to change from HTTPS to SSH: https://help.github.com/articles/changing-a-remote-s-url/
+
+Changing the origin remote (as opposed to both origin and upstream) will be sufficient, since this is the only one you push into.
