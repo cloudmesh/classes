@@ -381,12 +381,12 @@ self study. There is a section under lessosn that has some elementary
 python included.
 
 
-Steps followed to solve merge conflict in PR.
----------------------------------------------
+How to solve merge conflict in Pull Request?
+--------------------------------------------------------
 
-Make sure you have upstream repo defined
+Make sure you have upstream repo defined::
 
-$ git remote add upstream https://github.com/cloudmesh/classes
+  $ git remote add upstream https://github.com/cloudmesh/classes
 
  
 
@@ -394,233 +394,194 @@ Backup all your changed files - just in case you need them while merging the cha
 
  
 
-Get latest from upstream
+Get latest from upstream::
 
-$ git rebase upstream/master
-
- 
-
-In this step, the conflicting file shows up (in my case it was refs.bib)
+  $ git rebase upstream/master
 
  
 
-$ git status
+In this step, the conflicting file shows up (in my case it was refs.bib)::
 
-should show the name of the conflicting file
+  $ git status
 
- 
+should show the name of the conflicting file::
 
-$ git diff <file name>
+  $ git diff <file name>
 
-should show the actual differences
+should show the actual differences. In some cases, it is easy to
+simply take latest version from upstream and reapply your changes. So
+you can decide to checkout one version earlier of the specific file.
 
- 
 
-May be in some cases, It is easy to simply take latest version from upstream and reapply your changes.
+.. note::
+   
+   You can find the version number with::
 
-So you can decide to checkout one version earlier of the specific file
+     $ git log --oneline
 
- 
+   You can checkout a specific version with::
 
-- to find the version number
+     $ git checkout <version number - e.g. ed13c06> <file name>
 
-$ git log --oneline
 
-- checkout specific version
+At this stage, the re-base should be complete. So, you need to commit
+and push the changes to your fork::
 
-$ git checkout <version number - e.g. ed13c06> <file name>
+  $ git commit
+  $ git rebase origin/master
+  $ git push
 
- 
 
-At this stage, the re-base should be complete. So, you need to commit and push the changes to your fork
+Then reapply your changes to refs.bib - simply use the backedup
+version and use the editor to redo the changes.
 
-$ git commit
-$ git rebase origin/master
-$ git push
+At this stage, only refs.bib is changed::
 
- 
+  $ git status
 
-Then reapply your changes to refs.bib - simply use the backedup version and use the editor to redo the changes.
+should show the changes only in refs.bib.
 
-At this stage, only refs.bib is changed
+Commit this change using:: 
 
-$ git status
-
-should show the changes only in refs.bib
-
- 
-
-Commit this change using 
-
-$ git commit -a -m "new:usr: <message>"
+  $ git commit -a -m "new:usr: <message>"
 
  
 
-And finally push the last commited change 
+And finally push the last commited change::
 
-$ git push
+  $ git push
 
  
 
-The changes in the file to resolve merge conflict automatically goes to the original pull request and the pull request can be merged automatically
+The changes in the file to resolve merge conflict automatically goes
+to the original pull request and the pull request can be merged
+automatically
 
 
 Building cloudmesh/classes in local machine
 -------------------------------------------
 
-If you experience following errors, please follow the guideline explained below. Make sure to do the following steps first:
+If you experience following errors, please follow the guideline
+explained below. Make sure to do the following steps first::
+
+  sudo apt-get install libssl-dev
 
 
-sudo apt-get install libssl-dev
+Follow this link for more info
 
-
-Follow this link for more info : http://cloudmesh.github.io/client/system.html#ubuntu-14-04-15-04
+* http://cloudmesh.github.io/client/system.html#ubuntu-14-04-15-04
 
 
 Pip will give the following error if you have not installed the library:
 
 
-Pip installation error when installing requirements. 
+Pip installation error when installing requirements.::
 
 
-error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+  error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
     
     ----------------------------------------
-  Rolling back uninstall of cryptography
-Command "/usr/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-1vi4of/cryptography/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-gNcw68-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-1vi4of/cryptography/
+    Rolling back uninstall of cryptography
+    Command "/usr/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-1vi4of/cryptography/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-gNcw68-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-1vi4of/cryptography/
 
 
-Trying to build the source with this error. 
+Trying to build the source with this error::
 
 
-$ make
-cd docs; make html
-make[1]: Entering directory '/home/sabyasachi/Documents/Indiana University/Spring_2017/Big_Data/GITS/cloudmesh/classes/docs'
-sphinx-build -b html -d build/doctrees source build/html
-Running Sphinx v1.5.2
-Extension error:
-Could not import extension sphinxcontrib.fulltoc (exception: No module named fulltoc)
-Makefile:54: recipe for target 'html' failed
-make[1]: *** [html] Error 1
-make[1]: Leaving directory '/home/sabyasachi/Documents/Indiana University/Spring_2017/Big_Data/GITS/cloudmesh/classes/docs'
-Makefile:18: recipe for target 'doc' failed
-make: *** [doc] Error 2
+  $ make
+  cd docs; make html
+  make[1]: Entering directory '/home/albefrt/Documents/github/cloudmesh/classes/docs'
+  sphinx-build -b html -d build/doctrees source build/html
+  Running Sphinx v1.5.2
+  Extension error:
+  Could not import extension sphinxcontrib.fulltoc (exception: No module named fulltoc)
+  Makefile:54: recipe for target 'html' failed
+  make[1]: *** [html] Error 1
+  make[1]: Leaving directory '/home/sabyasachi/Documents/github/cloudmesh/classes/docs'
+  Makefile:18: recipe for target 'doc' failed
+  make: *** [doc] Error 2
 
 
 
-A way to solve a conflict in Github - Merge Conflict in a Pull Request
+How to sole Merge Conflict in a Pull Request?
 ----------------------------------------------------------------------
 
-Steps followed to solve merge conflict in PR.
+.. warning:: THis FAQ seems duplicated. Also you are allowed to point
+	     to content where thsi is already explained with a
+	     link. so you do not have to duplicate.
+	     
+Steps followed to solve merge conflict in pull request.
 
- 
+Make sure you have upstream repo defined::
+  
+  $ git remote add upstream https://github.com/cloudmesh/classes
 
-Make sure you have upstream repo defined
-
-$ git remote add upstream https://github.com/cloudmesh/classes
-
- 
 
 Backup all your changed files - just in case you need them while merging the changes back
 
- 
+Get latest from upstream::
 
-Get latest from upstream
+  $ git rebase upstream/master
 
-$ git rebase upstream/master
+In this step, the conflicting file shows up (in my case it was refs.bib)::
 
- 
+  $ git status
 
-In this step, the conflicting file shows up (in my case it was refs.bib)
+should show the name of the conflicting file::
 
- 
+  $ git diff <file name>
 
-$ git status
+should show the actual differences. May be in some cases, It is easy
+to simply take latest version from upstream and reapply your changes.
 
-should show the name of the conflicting file
+So you can decide to checkout one version earlier of the specific
+file. At this stage, the re-base should be complete. So, you need to
+commit and push the changes to your fork::
 
- 
-
-$ git diff <file name>
-
-should show the actual differences
-
- 
-
-May be in some cases, It is easy to simply take latest version from upstream and reapply your changes.
-
-So you can decide to checkout one version earlier of the specific file
+  $ git commit
+  $ git rebase origin/master
+  $ git push
 
  
 
-- to find the version number
+Then reapply your changes to refs.bib - simply use the backedup
+version and use the editor to redo the changes.
 
-$ git log --oneline
+At this stage, only refs.bib is changed::
 
-- checkout specific version
+  $ git status
 
-$ git checkout <version number - e.g. ed13c06> <file name>
+should show the changes only in refs.bib.
+Commit this change using:: 
 
- 
-
-At this stage, the re-base should be complete. So, you need to commit and push the changes to your fork
-
-$ git commit
-$ git rebase origin/master
-$ git push
+  $ git commit -a -m "new:usr: <message>"
 
  
 
-Then reapply your changes to refs.bib - simply use the backedup version and use the editor to redo the changes.
+And finally push the last commited change::
 
-At this stage, only refs.bib is changed
-
-$ git status
-
-should show the changes only in refs.bib
+  $ git push
 
  
 
-Commit this change using 
-
-$ git commit -a -m "new:usr: <message>"
-
- 
-
-And finally push the last commited change 
-
-$ git push
-
- 
-
-The changes in the file to resolve merge conflict automatically goes to the original pull request and the pull request can be merged automatically
+The changes in the file to resolve merge conflict automatically goes
+to the original pull request and the pull request can be merged
+automatically
 
 
 
 Cheat sheet for Linux commands
 ------------------------------
 
-Usage of a particular command and all the attributes associated with it, use 'man' command.
+Usage of a particular command and all the attributes associated with
+it, use 'man' command. Avoid using 'rm -r' command to delete files
+recursively. A good way to avoid accidental deletion is to include the
+following in your .bash_profile file::
 
- 
-
- Avoid using 'rm -r' command to delete files recursively.
-
- 
-
-ex:
-
- 
-
-alias e=open_emacs
-
-alias rm='rm -i'
-
-alias mv='mv -i' 
-
-alias h='history'
-
- 
+  alias e=open_emacs
+  alias rm='rm -i'
+  alias mv='mv -i' 
+  alias h='history'
 
 More Information
 
@@ -633,76 +594,74 @@ https://cloudmesh.github.io/classes/lesson/linux/refcards.html
 Tips: TechList.1 homework
 -------------------------
  
+.. warning:: why is this not placed in techlist-hw.rst?
 
-  a). Do not mention the authors of a citation that you use. 
+Citations
+~~~~~~~~~
 
-     Example do not say:
+Do not mention the authors of a citation that you use. 
+
+Example do not say:
+
+As Gregor von Laszewski pointed out with flowery words in an article published recently .... [1]
+
+Instead use: In [1] ...    
+
+Naturally you shoudl use the \cite command.
+ 
+Spelling
+~~~~~~~~
+
+* use a space after periods, and commas in a centence
+* use a spellchecker
+* do the indentation properly as demonstrated in the examples. (use
+  fixed width font to edit RST to see it more easily)
+
+Github
+~~~~~~
+
+* when dounig your pull request, make sure you do not have any conflists, rebase if needed
+
+Rubric
+~~~~~~
+ 
+We already commented on what a good entry looks like so its rather
+simple, avoid plagiarism, subsections in the text, keep bullet lists
+minimal, be short but provide enough detail, dont just copy from the
+web page, relate technology to big data if you can
 
  
 
-     As Gregor von Laszewski pointed out with flowery words in an article published recently .... [1]
+* a write a good introdcution to the technology that summarizes what it is (and if possible how it relates to big data)
+
+* include the most important refernces and prepare them in correct bibtex format
+
+* check in your contribution (obviously if you can not do that ask for help form the TAs so you get educated on git)
+
+* you get 50% of your points from the writeup and 50% of the points from the bibliography
 
  
-
-     Instead use:
-
- 
-
-     In [1] ...    
-
- 
-
-b) use a space after periods, and commas in a centence
-
-c) use a spellchecker
-
-d) do the indentation properly as demonstrated in the examples. (use fixed width font to edit RST to see it more easily)
-
-e) when dounig your pull request, make sure you do not have any conflists, rebase if needed
-
- 
-
-f) Rubric
-
- 
-
-     We already commented on what a good entry looks like so its rather simple, avoid plagiarism, subsections in the text, keep bullet lists minimal, be short but provide enough detail, dont just copy from the web page, relate technology to big data if you can 
-
- 
-
-     1) a write a good introdcution to the technology that summarizes what it is (and if possible how it relates to big data)
-
-     2) include the most important refernces and prepare them in correct bibtex format
-
-     3) check in your contribution (obviously if you can not do that ask for help form the TAs so you get educated on git)
-
- 
-
-     you get 50% of your points from the writeup and 50% of the points from the bibliography
-
- 
-
-     you are allowed to work in teams to improve your own submissions. 
+You are allowed to work in teams to improve your own submissions. 
 
      
+Timeliness
+~~~~~~~~~~
 
-g) checking in in the last minute ....
-
- 
-
-    You will safe yourself a lot of hazle if you check in your assignment early.  ON the last day typically a lot of checkins happen and may require you to do a rebase. The sooner you do it the easier for you. 
-
- 
+You will safe yourself a lot of hazle if you check in your assignment
+early.  ON the last day typically a lot of checkins happen and may
+require you to do a rebase. The sooner you do it the easier for you.
 
  
 
-Example :
-
  
 
-Query on Techlist 1.a - 1.c
+Outdated Tech ology
+~~~~~~~~~~~~~~~~~~~~
 
-One of the technology assigned to me is 'Ninefold'. It seems ninefold has shutdown their cloud service on January 30, 2016. Should I write a tech summary for ninefold or do we have remove this from the techlist as it is no longer in operation?
+One of the technology assigned to me is 'Ninefold'. It seems ninefold
+has shutdown their cloud service on January 30, 2016. Should I write a
+tech summary for ninefold or do we have remove this from the techlist
+as it is no longer in operation?
 
  
 
@@ -743,13 +702,23 @@ https://www.youtube.com/watch?v=13GS1cLyk-E
 
 Do I generate the SSH key on Ubuntu VM ?
 -----------------------------------------
-I have installed Ubuntu(on virtual box) on my windows 10 system. I wanted to confirm if the SSH key should be created on the Ubuntu VM?
 
-Yes we need to generate ssh on Ubuntu VM, because even it is a VM or a real machine we have to set up ssh in order to work with ssh based communication, in order to maintain security when you are using an application like Github.
+I have installed Ubuntu(on virtual box) on my windows 10 system. I
+wanted to confirm if the SSH key should be created on the Ubuntu VM?
 
-You need to generate SSH, no matter what operating system you are using or on which operating system you are running VM.
+Yes we need to generate ssh on Ubuntu VM, because even it is a VM or a
+real machine we have to set up ssh in order to work with ssh based
+communication, in order to maintain security when you are using an
+application like Github.
 
-First let us revisit what an ssh key is for. A key pair has a public and a private key pair. If a remote machine has the public key from another machine you will be able to login to that machine form the machine where you have created the public and private key pair from. Some services do require key authentication. Such services include: 
+You need to generate SSH, no matter what operating system you are
+using or on which operating system you are running VM.
+
+First let us revisit what an ssh key is for. A key pair has a public
+and a private key pair. If a remote machine has the public key from
+another machine you will be able to login to that machine form the
+machine where you have created the public and private key pair from.
+Some services do require key authentication. Such services include:
 
 a) login to any virtual machine
 
@@ -757,13 +726,23 @@ b) using github
 
 c) login to the login nodes of futuresystems 
 
-Thus if you like ta access any of them any computer on which you want to access them from need a key pair. (or key as we sometimes abbreviate).
+Thus if you like ta access any of them any computer on which you want
+to access them from need a key pair. (or key as we sometimes
+abbreviate).
 
-So if you like to access from your ubuntu vm future systems which you want you need one, if you want to access githu, you need one, if you want to login to vas on chameleon cloud you need one, if you want to login to vas on jetstreem you need one, if you want .... you need one.
+So if you like to access from your ubuntu vm future systems which you
+want you need one, if you want to access githu, you need one, if you
+want to login to vas on chameleon cloud you need one, if you want to
+login to vas on jetstreem you need one, if you want .... you need one.
 
  
 
-So the answer is yes. Under no circumstances copy the private key to another computer as that is a security violation. You can only copy the public key. That is the reason its called public. On each machine where you like to access these services you need to create a different key and add the public key to the remote services/machines you want to access.
+So the answer is yes. Under no circumstances copy the private key to
+another computer as that is a security violation. You can only copy
+the public key. That is the reason its called public. On each machine
+where you like to access these services you need to create a different
+key and add the public key to the remote services/machines you want to
+access.
 
 
 Ways to run Ubuntu on Windows 10
@@ -771,11 +750,29 @@ Ways to run Ubuntu on Windows 10
 
 There are multiple ways to get ubuntu onto Windows.
 
-a) The recommended way to do it is via virtual box which seems to work for most, but requires sometimes that the bios settings need to be adjusted. Naturally we do not know what your bios settings are so you need to figure this out from the internet.  However in 99% of the cases virtual box works nicely.A student tip describes what needs to be done: 
+a) The recommended way to do it is via virtual box which seems to work
+for most, but requires sometimes that the bios settings need to be
+adjusted. Naturally we do not know what your bios settings are so you
+need to figure this out from the internet. However in 99% of the cases
+virtual box works nicely.A student tip describes what needs to be
+done:
  
-You need the virtual box software (https://www.virtualbox.org/wiki/Downloads) that corresponds to the operating system running on the physical machine in front of you.  Then download the Ubuntu 16.04 .iso file (https://www.ubuntu.com/download/desktop) to your computer.  Start virtual box.  I think a wizard starts  to guide you through setting up a new virtual machine when you choose "new". Then brows to where you downloaded the iso file and click on it. you will have to start this and ubuntu will start installing. (improve this description if something is not clear)
+You need the virtual box software
+(https://www.virtualbox.org/wiki/Downloads) that corresponds to the
+operating system running on the physical machine in front of you. Then
+download the Ubuntu 16.04 .iso file
+(https://www.ubuntu.com/download/desktop) to your computer. Start
+virtual box. I think a wizard starts to guide you through setting up a
+new virtual machine when you choose "new". Then brows to where you
+downloaded the iso file and click on it. you will have to start this
+and ubuntu will start installing. (improve this description if
+something is not clear)
 
-b) the other way of installing bash on windows is as subsystem as documented by your fellow students. This may not fulfill the requirements of running ansible, but it will help you to get started quickly while running bash on your host directly. It is often referred to as "ubuntu on windows". 
+b) the other way of installing bash on windows is as subsystem as
+documented by your fellow students. This may not fulfill the
+requirements of running ansible, but it will help you to get started
+quickly while running bash on your host directly. It is often referred
+to as "ubuntu on windows".
 
 http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10
 
@@ -791,37 +788,51 @@ https://cloudmesh.github.io/classes/i524/lectures.html
 Don't use Anaconda
 -----------------
 
-We use python 2.7.13 for this class. It is better to use Virtualenv and pip. And for the IDE, you can use PyCharm. This is the open source way of doing python, while we use 2.7 because not everything is yet available in 3.5. We do not recommend  Anaconda or Canopy. In fact we found issues with both. Especially with Canopy. It was incompatible with libraries the open source community uses and it negatively effected a students system wide python install. We had to reinstall python completely after we uninstalled canopy. Unfortunately it did cost us a lot of time to fix this. TAs will not provide any help in case you use anaconda or canopy.
+We use python 2.7.13 for this class. It is better to use Virtualenv
+and pip. And for the IDE, you can use PyCharm. This is the open source
+way of doing python, while we use 2.7 because not everything is yet
+available in 3.5. We do not recommend Anaconda or Canopy. In fact we
+found issues with both. Especially with Canopy. It was incompatible
+with libraries the open source community uses and it negatively
+effected a students system wide python install. We had to reinstall
+python completely after we uninstalled canopy. Unfortunately it did
+cost us a lot of time to fix this. TAs will not provide any help in
+case you use anaconda or canopy.
 
 
 Using SSH Key for Git Push
 --------------------------
 
-When you cloned your repository did you use SSH rather than HTTPS? Your clone command should look like this: 
+When you cloned your repository did you use SSH rather than HTTPS?
+Your clone command should look like this:
 
 $ git clone git@github.com:YOUR_USERNAME/classes.git
 
-You can use git remote set-url as described here to change from HTTPS to SSH: https://help.github.com/articles/changing-a-remote-s-url/
+You can use git remote set-url as described here to change from HTTPS
+to SSH: https://help.github.com/articles/changing-a-remote-s-url/
 
-Changing the origin remote (as opposed to both origin and upstream) will be sufficient, since this is the only one you push into.
+Changing the origin remote (as opposed to both origin and upstream)
+will be sufficient, since this is the only one you push into.
 
 
 
 How to properly research a bibtex entry
 --------------------------------------------
 
-Often you may find via  google a bibtex entry that may need some more reserach. Lets assume your first google quesry returns a publication and you cite it such as this:
+Often you may find via google a bibtex entry that may need some more
+reserach. Lets assume your first google quesry returns a publication
+and you cite it such as this::
 
 
-@Unpublished{unpublished-google-sawzall,
- Title = {{Interpreting the Data: Parallel Analysis with Sawzall}},
- Author = {{Rob Pike, Sean Dorward, Robert Griesemer, Sean Quinlan}},
- Note = {accessed 2017-01-28},
- Month = {October},
- Year = {2005},
- Owner = {for the purpose of this discussion removed},
- Timestamp = {2017.01.31}
-}
+  @Unpublished{unpublished-google-sawzall,
+      Title = {{Interpreting the Data: Parallel Analysis with Sawzall}},
+      Author = {{Rob Pike, Sean Dorward, Robert Griesemer, Sean Quinlan}},
+      Note = {accessed 2017-01-28},
+      Month = {October},
+      Year = {2005},
+      Owner = {for the purpose of this discussion removed},
+      Timestamp = {2017.01.31}
+  }
 
 Could we improve this entry to achieve your best?
 
@@ -843,73 +854,92 @@ C) http://dl.acm.org/citation.cfm?id=1239658
  
 Let us look at A)
 
-    As you can see from the url this is actualy some redirection to a google web page which probably is replaced by B as its from google research. So let us look at B)
+As you can see from the url this is actualy some redirection to a
+google web page which probably is replaced by B as its from google
+research. So let us look at B)
 
-Now when you look at the link we find the url https://research.google.com/archive/sawzall-sciprog.pdf which redirects you to the PDF paper.
+Now when you look at the link we find the url
+https://research.google.com/archive/sawzall-sciprog.pdf which
+redirects you to the PDF paper.
  
-When we go to B) we find surprisingly a bibtex entry as follows
+When we go to B) we find surprisingly a bibtex entry as follows::
 
-@article{61,
-  title = {Interpreting the Data: Parallel Analysis with Sawzall},
-  author = {Rob Pike and Sean Dorward and Robert Griesemer and Sean Quinlan},
-  year = 2005,
-  URL = {https://research.google.com/archive/sawzall.html},
-  journal = {Scientific Programming Journal},
-  pages = {277--298},
-  volume = {13}
-}
+  @article{61,
+    title = {Interpreting the Data: Parallel Analysis with Sawzall},
+    author = {Rob Pike and Sean Dorward and Robert Griesemer and Sean Quinlan},
+    year = 2005,
+    URL = {https://research.google.com/archive/sawzall.html},
+    journal = {Scientific Programming Journal},
+    pages = {277--298},
+    volume = {13}
+  }
 
- 
 
-Now we could say lets be satisfied, but C) seems to be even more interesting as its from a major publisher. So lats just make sure we look at C)
-
- 
-
-If you go to C, you find under the colored box entitled Tools and Resources a link called **bibtex**. Thus it seems a good idea to click on it. This will give you 
+Now we could say lets be satisfied, but C) seems to be even more
+interesting as its from a major publisher. So lats just make sure we
+look at C)
 
  
 
-@article{Pike:2005:IDP:1239655.1239658,
- author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
- title = {Interpreting the Data: Parallel Analysis with Sawzall},
- journal = {Sci. Program.},
- issue_date = {October 2005},
- volume = {13},
- number = {4},
- month = oct,
- year = {2005},
- issn = {1058-9244},
- pages = {277--298},
- numpages = {22},
- url = {http://dx.doi.org/10.1155/2005/962135},
- doi = {10.1155/2005/962135},
- acmid = {1239658},
- publisher = {IOS Press},
- address = {Amsterdam, The Netherlands, The Netherlands},
-}
- 
-Now we seem to be at a position to combine our entries and get a nice bibtex reference. As the doi number properly specifies a paper (look up what a doi is) we can replace the url with one that we find online, such as the one we found in A) Next we see that all field sin B are already coverd in C, so we take C) and add the url. Now as the label is graet and uniform for ACM, but for us a bit less convenient as its difficult to remember, we just change it while for example using authors, title, and year information. lets also make sure to do mostly lowercase in the label just as a convention. Thus our entry looks like:
+If you go to C, you find under the colored box entitled Tools and
+Resources a link called **bibtex**. Thus it seems a good idea to click
+on it. This will give you::
 
-@article{pike05swazall,
- author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
- title = {Interpreting the Data: Parallel Analysis with Sawzall},
- journal = {Sci. Program.},
- issue_date = {October 2005},
- volume = {13},
- number = {4},
- month = oct,
- year = {2005},
- issn = {1058-9244},
- pages = {277--298},
- numpages = {22},
- url = {https://research.google.com/archive/sawzall-sciprog.pdf},
- doi = {10.1155/2005/962135},
- acmid = {1239658},
- publisher = {IOS Press},
- address = {Amsterdam, The Netherlands, The Netherlands},
-}
  
-As you can see finding a refernce takes multiple google quesries and merging of the results you find from various returms. 
-As you still have time to correct things I advise that you check your refernces and correct them. If the original refernce would have been graded it would have been graded with a "fail" instead of a "pass". 
+
+  @article{Pike:2005:IDP:1239655.1239658,
+      author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
+      title = {Interpreting the Data: Parallel Analysis with Sawzall},
+      journal = {Sci. Program.},
+      issue_date = {October 2005},
+      volume = {13},
+      number = {4},
+      month = oct,
+      year = {2005},
+      issn = {1058-9244},
+      pages = {277--298},
+      numpages = {22},
+      url = {http://dx.doi.org/10.1155/2005/962135},
+      doi = {10.1155/2005/962135},
+      acmid = {1239658},
+      publisher = {IOS Press},
+      address = {Amsterdam, The Netherlands, The Netherlands},
+  }
+ 
+Now we seem to be at a position to combine our entries and get a nice
+bibtex reference. As the doi number properly specifies a paper (look
+up what a doi is) we can replace the url with one that we find online,
+such as the one we found in A) Next we see that all field sin B are
+already coverd in C, so we take C) and add the url. Now as the label
+is graet and uniform for ACM, but for us a bit less convenient as its
+difficult to remember, we just change it while for example using
+authors, title, and year information. lets also make sure to do mostly
+lowercase in the label just as a convention. Thus our entry looks
+like::
+
+  @article{pike05swazall,
+      author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
+      title = {Interpreting the Data: Parallel Analysis with Sawzall},
+      journal = {Sci. Program.},
+      issue_date = {October 2005},
+      volume = {13},
+      number = {4},
+      month = oct,
+      year = {2005},
+      issn = {1058-9244},
+      pages = {277--298},
+      numpages = {22},
+      url = {https://research.google.com/archive/sawzall-sciprog.pdf},
+      doi = {10.1155/2005/962135},
+      acmid = {1239658},
+      publisher = {IOS Press},
+      address = {Amsterdam, The Netherlands, The Netherlands},
+  }
+ 
+As you can see finding a refernce takes multiple google quesries and
+merging of the results you find from various returms. As you still
+have time to correct things I advise that you check your refernces and
+correct them. If the original refernce would have been graded it would
+have been graded with a "fail" instead of a "pass".
 
  
