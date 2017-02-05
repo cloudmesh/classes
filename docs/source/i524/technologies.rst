@@ -1091,6 +1091,35 @@ NoSQL
 
 236. LevelDB
 237. Megastore and Spanner
+
+    Spanner :cite:`corbett-spanner` is Google's distributed
+    database which is used for managing all google services like play, gmail,
+    photos, picasa, app engine etc Spanner is distributed database which spans
+    across multiple clusters, datacenters and geo locations.  Spanner is structured
+    in such a way so as to provide non blocking reads, lock free transactions and
+    atomic schema modification. This is unlike other noSql databases which follow
+    the CAP theory i.e. you can choose any two of the three: Consistency,
+    Availability and Partition-tolerance. However, spanner gives an edge by
+    satisfying all three of these. It gives you atomicity and consistency along with
+    availability, partition tolerance and synchronized replication.  Megastore
+    bridges the gaps found in google's bigtable. As google realized that it is
+    difficult to use bigtable where the application requires constantly changing
+    schema. Megastore offers a solution in terms of semi-relational data model.
+    Megastore :cite:`www-magastore-spanner` also provides a transactional database
+    which can scale unlike relational data stores and synchronous replication.
+    Replication in megastore is supported using Paxos. Megastore also provides
+    versioning. However, megastore has a poor write performance and lack of a SQL
+    like query language. Spanners basically adds what was missing in Bigtable and
+    megastore. As a global distributed database spanner provides replication and
+    globally consistent reads and writes. Spanner deployment is called universe
+    which is a collections of zones. These zones are managed by singleton universe
+    master and placement driver. Replication in spanner is supported by Paxos state
+    machine. Spanner was put into evaluation in early 2011 as F1 backend(F1 is
+    Google's advertisement system) which was replacement to mysql. Overall spanner
+    fulfils the needs of relational database along with scaling of noSQL database.
+    All these features make google run all their apps seamlessly on spanner
+    infrastructure.
+
 238. Accumulo
 239. Cassandra
 
@@ -1564,6 +1593,35 @@ DevOps
 336. Terraform
 337. DevOpSlang
 338. Any2Api
+
+    This framework :cite:`wettinger-any2api` allows user to wrap an executable
+    program or scripts, for example scripts, chef cookbooks, ansible playbooks, juju
+    charms, other compiled programs etc. to generate APIs from your existing code.
+    These APIs are also containerized so that they can be hosted on a docker
+    container, vagrant box etc Any2Api helps to deal with problems like scale of
+    application, technical expertise, large codebase and different API formats. The
+    generated API hide the tool specific details simplifying the integration and
+    orchestration different kinds of artifacts. The APIfication framework contains
+    various modules:
+
+    1. Invokers
+    Invoker is a module capable of running a given type
+    of executable for example cookbook invoker can be used to run Chef cookbooks
+
+    2. Scanners
+    Scanner module is capable of scanning modules of certain type for
+    example cookbook scanner scans Chef cookbooks.
+
+    3. API impl generators
+    generator module does the actual work to generate the API implementation.
+
+    The final API implementation :cite:`www-any2api` is is packages with executable
+    in container.  The module is packaged as npm module. Currently any2api-cli
+    provides a command line interface and web based interface is planned for future
+    development. Any2Api is very useful for by devops to orchestrate open source
+    ecosystem without dealing with low level details of chef cookbook or ansible
+    playbook or puppet. It can also be very useful in writing microservices where
+    services talk to each other using well defined APIs.
 
 IaaS Management from HPC to hypervisors
 ----------------------------------------------------------------------
