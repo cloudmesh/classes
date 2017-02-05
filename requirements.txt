@@ -9,3 +9,5 @@ sphinxcontrib-fulltoc
 pybtex
 watchdog
 Pygments
+jupyter
+nbconvert
