@@ -826,6 +826,17 @@ In-memory databases/caches
      in Docker containers. :cite:`www-wikihazel`
 
 188. Ehcache
+
+     EHCACHE is an open-source Java-based cache. It supports distributed
+     caching and could scale to hundred of caches. It comes with REST APIs
+     and could be integrated with popular frameworks like Hibernate
+     :cite:`www-ehcache-features`. It offers storage tires such that less
+     frequently data could be moved to slower tires
+     :cite:`www-ehcache-documentation`. It's XA compliant and supports two-
+     phase commit and recovery for transactions. It's developed and
+     maintained by Terracotta and is available under Apache 2.0 license.
+     It conforms to Java caching standard JSR 107. 
+
 189. Infinispan
 190. VoltDB
 191. H-Store
@@ -1001,6 +1012,19 @@ NoSQL
      sufficient and were quickly saturated that stall the database.
      
 222. Riak
+
+     Riak is a set of scalable distributed NoSQL databases developed by
+     Basho Technologies. Riak KV is a key-value :cite:`www-riak-kv` database
+     with time-to-live feature so that older data is deleted automatically.
+     It can be queried through secondary indexes, search via Apache Solr,
+     and MapReduce. Riak TS is designed for time-series data. It co-
+     locates related data on the same physical cluster for faster access
+     :cite:`www-riak-ts`. Riak S2 is designed to store large objects like media
+     files and software binaries :cite:`www-riak-s2`. The databases are available
+     in both open source and commercial versions with multicluster
+     replication provided only in later. REST APIs are available for these
+     databases.
+
 223. ZHT
 224. Berkeley DB
 225. Kyoto/Tokyo Cabinet
@@ -1206,6 +1230,22 @@ Data Transport
 264. HTTP
 265. FTP
 266. SSH
+
+     SSH is a cryptographic network protocol :cite:`www-ssh-wiki` to
+     provide a secure channel between two clients over an unsecured
+     network. It uses public-key cryptography for authenticating the
+     remote machine and the user. The public-private key pairs could
+     be generated automatically to encrypt the network connection.
+     ssh-keygen utility could be used to generate the keys manually.
+     The public key then could be placed on the all the computers to
+     which the access is required by the owner of the private key.
+     SSH runs on the client-server model where a server listens for
+     incoming ssh connection requests. It's generally used for remote
+     login and command execution. It's other important uses include
+     tunneling(required in cloud computing) and file transfer(SFTP).
+     OpenSSH is an open source implementation of network utilities
+     based on SSH :cite:`www-openssh-wiki`.
+
 267. Globus Online (GridFTP)
 
      GridFTP is a enhancement on the File Tranfer Protocol (FTP) which
@@ -1569,6 +1609,26 @@ IaaS Management from HPC to hypervisors
 ----------------------------------------------------------------------
 
 339. Xen
+
+     Xen is the only open-source bare-metal hypervisor based on
+     microkernel design :cite:`www-xen-wikipedia`. The hypervisor
+     runs at the highest privilege among all the processes on the
+     host. It's responsibility is to manage CPU and memory and
+     handle interrupts :cite:`www-xen-overview`. Virtual
+     machines are deployed in the guest domain called DomU which
+     has no access privilege to hardware. A special virtual machine
+     is deployed in the control domain called Domain 0. It contains
+     hardware drivers and the toolstack to control the VMs and is
+     the first VM to be deployed. Xen supports both Paravirtualization
+     and hardware assisted virtualization. The hypervisor itself has
+     a very small footprint. It's being actively maintained by Linux
+     Foundation under the trademark "XEN Project". Some of the
+     features included in the latest releases include "Reboot-free
+     Live Patching" (to enable application of security patches without
+     rebooting the system) and KCONFIG support (compilation support to
+     create a lighter version for requirements such as embedded
+     systems) :cite:`www-xen-fl`.
+          
 340. KVM
 341. QEMU
 342. Hyper-V
@@ -1725,6 +1785,22 @@ Distributed Coordination
 
 373. Google Chubby
 374. Zookeeper
+ 
+     Zookeeper provides coordination services to distributed applications.
+     It includes synchronization, configuration management and naming
+     services among others. The interfaces are available in Java and C
+     :cite:`www-zoo-overiew`. The services themselves can be distributed
+     across multiple Zookeeper servers to avoid single point of failure.
+     If the leader fails to answer, the clients can fall-back to other
+     nodes. The state of the cluster is maintained in an in-memory image
+     along with a persistent storage file called znode by each server. The
+     cluster namespace is maintained in a hierarchical order. The changes to the
+     data are totally ordered :cite:`www-zoo-wiki` by stamping each update
+     with a number. Clients can also set a watch on a znode to be notified
+     of any change :cite:`www-zoo-ibm`. The performance of the ZooKeeper
+     is optimum for "read-dominant" workloads. It's maintained by Apache
+     and is open-source.
+
 375. Giraffe
 
      Giraffe is a scalable distributed coordination
