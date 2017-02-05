@@ -928,3 +928,9 @@ You can use, VM to install Ubuntu and use it for class work.
 What is the nature of team collaboration on papers
 --------------------------------------------------
 You can build teams of three. You need to yourself build the team. The web page tells you that there will be no reduction in numbers of papers you write = number of team members * 3, papers can not be combined.
+
+
+What are the due dates for assignments
+-------------------------
+
+Due dates are posed on the Web page calendar.
