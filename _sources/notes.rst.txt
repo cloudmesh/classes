@@ -2,13 +2,20 @@
 I524 - Notes
 *************
 
+I524 Preface 
+=================
+
+.. toctree::
+   :maxdepth: 10
+
+   i524/preface/index	      
+
 I524 Introduction
 =================
 
 .. toctree::
    :maxdepth: 10
 
-   i524/about/index
    i524/index
    i524/calendar
    i524/lectures

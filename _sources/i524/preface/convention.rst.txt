@@ -2,7 +2,7 @@ Conventions
 ----------------------------------------------------------------------
 
 `$`
-    When showing examples of commands, the :pink:`$` symbol precedes the
+    When showing examples of commands, the `$` symbol precedes the
     actual command. So, the other lines are the output obtained after
     executing the command. An example invoking the ls command
     follows::

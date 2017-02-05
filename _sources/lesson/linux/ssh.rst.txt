@@ -115,7 +115,7 @@ then open the ``Terminal`` application.
 Generate a SSH key
 -----------------------
 
-.. sidebar:: |info-image| Hint
+.. note:
 
    In case you do not want to type in your password everytime,
    please learn about ssh-agent and ssh-add.
