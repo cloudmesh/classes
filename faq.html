@@ -223,6 +223,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#don-t-use-anaconda">Don&#8217;t use Anaconda</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="todo.html">Todos</a><ul>
@@ -300,6 +301,7 @@
 <li><a class="reference internal" href="#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
 <li><a class="reference internal" href="#don-t-use-anaconda">Don&#8217;t use Anaconda</a></li>
 <li><a class="reference internal" href="#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li><a class="reference internal" href="#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry</a></li>
 </ul>
 </li>
 </ul>
@@ -488,6 +490,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#don-t-use-anaconda">Don&#8217;t use Anaconda</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="todo.html">Todos</a><ul>
@@ -555,6 +558,7 @@
 <li><a class="reference internal" href="#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
 <li><a class="reference internal" href="#don-t-use-anaconda">Don&#8217;t use Anaconda</a></li>
 <li><a class="reference internal" href="#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li><a class="reference internal" href="#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry</a></li>
 </ul>
 </li>
 </ul>
@@ -1149,6 +1153,94 @@ $ git push</p>
 <p>$ git clone <a class="reference external" href="mailto:git&#37;&#52;&#48;github&#46;com">git<span>&#64;</span>github<span>&#46;</span>com</a>:YOUR_USERNAME/classes.git</p>
 <p>You can use git remote set-url as described here to change from HTTPS to SSH: <a class="reference external" href="https://help.github.com/articles/changing-a-remote-s-url/">https://help.github.com/articles/changing-a-remote-s-url/</a></p>
 <p>Changing the origin remote (as opposed to both origin and upstream) will be sufficient, since this is the only one you push into.</p>
+</div>
+<div class="section" id="how-to-properly-research-a-bibtex-entry">
+<h2>How to properly research a bibtex entry<a class="headerlink" href="#how-to-properly-research-a-bibtex-entry" title="Permalink to this headline">¶</a></h2>
+<p>Often you may find via  google a bibtex entry that may need some more reserach. Lets assume your first google quesry returns a publication and you cite it such as this:</p>
+<dl class="docutils">
+<dt>&#64;Unpublished{unpublished-google-sawzall,</dt>
+<dd>Title = {{Interpreting the Data: Parallel Analysis with Sawzall}},
+Author = {{Rob Pike, Sean Dorward, Robert Griesemer, Sean Quinlan}},
+Note = {accessed 2017-01-28},
+Month = {October},
+Year = {2005},
+Owner = {for the purpose of this discussion removed},
+Timestamp = {2017.01.31}</dd>
+</dl>
+<p>}</p>
+<p>Could we improve this entry to achieve your best?</p>
+<ol class="arabic simple">
+<li>firts of all the author field has a wrong entry as the , is to be replaced by an and.</li>
+<li>The author feild  has authors and thus must not have a {{ }}</li>
+<li>The url is missing, as the simple google search actually finds a PDF document.</li>
+</ol>
+<p>So let us investigate a bit more. Let us search for the title. So we find</p>
+<ol class="upperalpha simple">
+<li><a class="reference external" href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0ahUKEwj_ytSA-PDRAhUH8IMKHaomC-oQFggaMAA&amp;url=https%3A%2F%2Fresearch.google.com%2Farchive%2Fsawzall-sciprog.pdf&amp;usg=AFQjCNHSSfKBwbxVAVPQ0td4rTjitKucpA&amp;sig2=vbiVzi36B3gGFjIzlUKBDA&amp;bvm=bv.146073913,d.amc">https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0ahUKEwj_ytSA-PDRAhUH8IMKHaomC-oQFggaMAA&amp;url=https%3A%2F%2Fresearch.google.com%2Farchive%2Fsawzall-sciprog.pdf&amp;usg=AFQjCNHSSfKBwbxVAVPQ0td4rTjitKucpA&amp;sig2=vbiVzi36B3gGFjIzlUKBDA&amp;bvm=bv.146073913,d.amc</a></li>
+<li><a class="reference external" href="https://research.google.com/pubs/pub61.html">https://research.google.com/pubs/pub61.html</a></li>
+<li><a class="reference external" href="http://dl.acm.org/citation.cfm?id=1239658">http://dl.acm.org/citation.cfm?id=1239658</a></li>
+</ol>
+<p>Let us look at A)</p>
+<blockquote>
+<div>As you can see from the url this is actualy some redirection to a google web page which probably is replaced by B as its from google research. So let us look at B)</div></blockquote>
+<p>Now when you look at the link we find the url <a class="reference external" href="https://research.google.com/archive/sawzall-sciprog.pdf">https://research.google.com/archive/sawzall-sciprog.pdf</a> which redirects you to the PDF paper.</p>
+<p>When we go to B) we find surprisingly a bibtex entry as follows</p>
+<dl class="docutils">
+<dt>&#64;article{61,</dt>
+<dd>title = {Interpreting the Data: Parallel Analysis with Sawzall},
+author = {Rob Pike and Sean Dorward and Robert Griesemer and Sean Quinlan},
+year = 2005,
+URL = {<a class="reference external" href="https://research.google.com/archive/sawzall.html">https://research.google.com/archive/sawzall.html</a>},
+journal = {Scientific Programming Journal},
+pages = {277&#8211;298},
+volume = {13}</dd>
+</dl>
+<p>}</p>
+<p>Now we could say lets be satisfied, but C) seems to be even more interesting as its from a major publisher. So lats just make sure we look at C)</p>
+<p>If you go to C, you find under the colored box entitled Tools and Resources a link called <strong>bibtex</strong>. Thus it seems a good idea to click on it. This will give you</p>
+<dl class="docutils">
+<dt>&#64;article{Pike:2005:IDP:1239655.1239658,</dt>
+<dd>author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
+title = {Interpreting the Data: Parallel Analysis with Sawzall},
+journal = {Sci. Program.},
+issue_date = {October 2005},
+volume = {13},
+number = {4},
+month = oct,
+year = {2005},
+issn = {1058-9244},
+pages = {277&#8211;298},
+numpages = {22},
+url = {<a class="reference external" href="http://dx.doi.org/10.1155/2005/962135">http://dx.doi.org/10.1155/2005/962135</a>},
+doi = {10.1155/2005/962135},
+acmid = {1239658},
+publisher = {IOS Press},
+address = {Amsterdam, The Netherlands, The Netherlands},</dd>
+</dl>
+<p>}</p>
+<p>Now we seem to be at a position to combine our entries and get a nice bibtex reference. As the doi number properly specifies a paper (look up what a doi is) we can replace the url with one that we find online, such as the one we found in A) Next we see that all field sin B are already coverd in C, so we take C) and add the url. Now as the label is graet and uniform for ACM, but for us a bit less convenient as its difficult to remember, we just change it while for example using authors, title, and year information. lets also make sure to do mostly lowercase in the label just as a convention. Thus our entry looks like:</p>
+<dl class="docutils">
+<dt>&#64;article{pike05swazall,</dt>
+<dd>author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
+title = {Interpreting the Data: Parallel Analysis with Sawzall},
+journal = {Sci. Program.},
+issue_date = {October 2005},
+volume = {13},
+number = {4},
+month = oct,
+year = {2005},
+issn = {1058-9244},
+pages = {277&#8211;298},
+numpages = {22},
+url = {<a class="reference external" href="https://research.google.com/archive/sawzall-sciprog.pdf">https://research.google.com/archive/sawzall-sciprog.pdf</a>},
+doi = {10.1155/2005/962135},
+acmid = {1239658},
+publisher = {IOS Press},
+address = {Amsterdam, The Netherlands, The Netherlands},</dd>
+</dl>
+<p>}</p>
+<p>As you can see finding a refernce takes multiple google quesries and merging of the results you find from various returms.
+As you still have time to correct things I advise that you check your refernces and correct them. If the original refernce would have been graded it would have been graded with a &#8220;fail&#8221; instead of a &#8220;pass&#8221;.</p>
 </div>
 </div>
 
