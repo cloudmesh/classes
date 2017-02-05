@@ -22,12 +22,12 @@ cleanup of data emacs (applied to smaller datasets) is a gem.
 
 Notation
   
-========  ======================
+========  =====================
 Key       Description
-========  ======================
+========  =====================
 C         Control
 M         Esc  (meta character)
-========  ======================
+========  =====================
 
 In the event of an emergency…
 
@@ -40,7 +40,7 @@ C-g also cancels a long-running operation if it appears that Emacs has frozen.
 
 Moving around in buffers can be done with cursor keys, or with the following key combinations:
 
-======  ======================
+======  =====================
 Key     Description
 ======  =====================
 C-f	Forward one character
