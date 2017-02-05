@@ -6,11 +6,8 @@ I524 Lectures
 	     considerably. If you want to work ahead, start with the
 	     theory track.
 
-.. warning:: Lectures listed on this page will be ready for review
-	     when they are marked as released. If they are not
-	     released they will be updated as part of the
-	     class. However instead of waiting for the release, we
-	     have opted to show you our current draft lectures.
+.. warning:: At the end of the page you find a link to unreleased
+	     lectures.
 	     
 Based on our experience with residential and online classes we will
 for the first time not require that you have to do the class videos at
@@ -27,7 +24,7 @@ track.
 Theory Track:
    Some lectures have been designed to introduce you to a
    number of technologies. These lectures are of more theoretical
-   nature and do not require much hands on activities. THus you can
+   nature and do not require much hands on activities. Thus you can
    start them any time.
 
 Collaboration Track:
