@@ -804,3 +804,112 @@ $ git clone git@github.com:YOUR_USERNAME/classes.git
 You can use git remote set-url as described here to change from HTTPS to SSH: https://help.github.com/articles/changing-a-remote-s-url/
 
 Changing the origin remote (as opposed to both origin and upstream) will be sufficient, since this is the only one you push into.
+
+
+
+How to properly research a bibtex entry
+--------------------------------------------
+
+Often you may find via  google a bibtex entry that may need some more reserach. Lets assume your first google quesry returns a publication and you cite it such as this:
+
+
+@Unpublished{unpublished-google-sawzall,
+ Title = {{Interpreting the Data: Parallel Analysis with Sawzall}},
+ Author = {{Rob Pike, Sean Dorward, Robert Griesemer, Sean Quinlan}},
+ Note = {accessed 2017-01-28},
+ Month = {October},
+ Year = {2005},
+ Owner = {for the purpose of this discussion removed},
+ Timestamp = {2017.01.31}
+}
+
+Could we improve this entry to achieve your best?
+
+1) firts of all the author field has a wrong entry as the , is to be replaced by an and.
+
+2) The author feild  has authors and thus must not have a {{ }}
+
+3) The url is missing, as the simple google search actually finds a PDF document. 
+
+So let us investigate a bit more. Let us search for the title. So we find
+
+ 
+A) https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwj_ytSA-PDRAhUH8IMKHaomC-oQFggaMAA&url=https%3A%2F%2Fresearch.google.com%2Farchive%2Fsawzall-sciprog.pdf&usg=AFQjCNHSSfKBwbxVAVPQ0td4rTjitKucpA&sig2=vbiVzi36B3gGFjIzlUKBDA&bvm=bv.146073913,d.amc
+
+B) https://research.google.com/pubs/pub61.html
+ 
+C) http://dl.acm.org/citation.cfm?id=1239658
+
+ 
+Let us look at A)
+
+    As you can see from the url this is actualy some redirection to a google web page which probably is replaced by B as its from google research. So let us look at B)
+
+Now when you look at the link we find the url https://research.google.com/archive/sawzall-sciprog.pdf which redirects you to the PDF paper.
+ 
+When we go to B) we find surprisingly a bibtex entry as follows
+
+@article{61,
+  title = {Interpreting the Data: Parallel Analysis with Sawzall},
+  author = {Rob Pike and Sean Dorward and Robert Griesemer and Sean Quinlan},
+  year = 2005,
+  URL = {https://research.google.com/archive/sawzall.html},
+  journal = {Scientific Programming Journal},
+  pages = {277--298},
+  volume = {13}
+}
+
+ 
+
+Now we could say lets be satisfied, but C) seems to be even more interesting as its from a major publisher. So lats just make sure we look at C)
+
+ 
+
+If you go to C, you find under the colored box entitled Tools and Resources a link called **bibtex**. Thus it seems a good idea to click on it. This will give you 
+
+ 
+
+@article{Pike:2005:IDP:1239655.1239658,
+ author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
+ title = {Interpreting the Data: Parallel Analysis with Sawzall},
+ journal = {Sci. Program.},
+ issue_date = {October 2005},
+ volume = {13},
+ number = {4},
+ month = oct,
+ year = {2005},
+ issn = {1058-9244},
+ pages = {277--298},
+ numpages = {22},
+ url = {http://dx.doi.org/10.1155/2005/962135},
+ doi = {10.1155/2005/962135},
+ acmid = {1239658},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+}
+ 
+Now we seem to be at a position to combine our entries and get a nice bibtex reference. As the doi number properly specifies a paper (look up what a doi is) we can replace the url with one that we find online, such as the one we found in A) Next we see that all field sin B are already coverd in C, so we take C) and add the url. Now as the label is graet and uniform for ACM, but for us a bit less convenient as its difficult to remember, we just change it while for example using authors, title, and year information. lets also make sure to do mostly lowercase in the label just as a convention. Thus our entry looks like:
+
+@article{pike05swazall,
+ author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
+ title = {Interpreting the Data: Parallel Analysis with Sawzall},
+ journal = {Sci. Program.},
+ issue_date = {October 2005},
+ volume = {13},
+ number = {4},
+ month = oct,
+ year = {2005},
+ issn = {1058-9244},
+ pages = {277--298},
+ numpages = {22},
+ url = {https://research.google.com/archive/sawzall-sciprog.pdf},
+ doi = {10.1155/2005/962135},
+ acmid = {1239658},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+}
+ 
+As you can see finding a refernce takes multiple google quesries and merging of the results you find from various returms. 
+As you still have time to correct things I advise that you check your refernces and correct them. If the original refernce would have been graded it would have been graded with a "fail" instead of a "pass". 
+
+ 
