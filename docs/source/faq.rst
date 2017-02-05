@@ -913,3 +913,9 @@ As you can see finding a refernce takes multiple google quesries and merging of 
 As you still have time to correct things I advise that you check your refernces and correct them. If the original refernce would have been graded it would have been graded with a "fail" instead of a "pass". 
 
  
+What are the differnt entry types and fields
+--------------------------------------------
+
+We were asked what are the different entry types and fields, so we did a google query and found the following useful information. please remember that we also have fields such as doi, owner, we will add status ={pass/fail} at time of grading to indicate if the refernce passes or fails. We may assign this to you so you get familiar with the identification if a referncei is ok or not.
+
+Please see https://en.wikipedia.org/wiki/BibTeX 
