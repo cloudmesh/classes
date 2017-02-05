@@ -923,4 +923,8 @@ Please see https://en.wikipedia.org/wiki/BibTeX
 Can I write the papers on OSX?
 
 Yes of course you can write papers on OSX. But we support for Ubuntu 16.04, because we consider it as the main OS that we use in this class.
-You can use, VM to install Ubuntu and use it for class work. 
+You can use, VM to install Ubuntu and use it for class work.
+
+What is the nature of team collaboration on papers
+--------------------------------------------------
+You can build teams of three. You need to yourself build the team. The web page tells you that there will be no reduction in numbers of papers you write = number of team members * 3, papers can not be combined.
