@@ -542,7 +542,7 @@ High level Programming
      The authors designed it to handle "simple, easily distributed
      computations: filtering, aggregation, extraction of statistics,"
      etc. from the aforementioned data sets.
-     :cite:`unpublished-google-sawzall`
+     :cite:`google-sawzall`
 
      In general terms, a Sawzall job works as follows: multiple
      computers each create a Sawzall instance, perform some operation
@@ -565,7 +565,7 @@ High level Programming
      a native language [and] [m]ore important[ly] drawing an explicit
      line between filtering and aggregation enables a high degree of
      parallelism, even though it hides the parallelism from the
-     language itself".  :cite:`unpublished-google-sawzall`
+     language itself".  :cite:`google-sawzall`
 
      Important components of the Sawzall language include: *szl*, the
      binary containing the code compiler and byte-code interpreter
