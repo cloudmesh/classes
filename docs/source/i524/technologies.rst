@@ -191,7 +191,7 @@ Application and Analytics
 57. Oracle PGX
 58. GraphLab
 
-    :cite: ‘www- GraphLab’ is a graph-based, distributed computation,
+    :cite:`www- GraphLab` is a graph-based, distributed computation,
     high performance framework for machine learning written in C++. It
     is an open source project started by Prof. Carlos Guestrin of
     Carnegie Mellon University in 2009, designed considering the
