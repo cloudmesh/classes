@@ -12,7 +12,7 @@ Introduction ,Course Introduction,`Slides <https://drive.google.com/file/d/0Bx_s
       ,Introduction - Real World Big Data,`Video <https://www.youtube.com/watch?v=hjrFaXMU1dg&list=PLLO4AVszo1SNIGlqjEBaQjLvc3lgpeI3M&index=2>`_,0:15:28
       ,Introduction - Basic Trends and Jobs,`Video <https://www.youtube.com/watch?v=u5Y0aKbzync&index=3&list=PLLO4AVszo1SNIGlqjEBaQjLvc3lgpeI3M>`_,0:10:57
 Acess Patterns, Data Access Patterns and Introduction to using HPC-ABDS,`Slides <https://iu.box.com/s/o5rqlsop0jv98lqdon3h9qszk3soq31g>`_,
-    , A. Introduction to HPC-ABDS Software and Access Patterns,`Video <https://www.youtube.com/watch?v=y2HzXjmRf4Y>`_ -  `Resource 1 <http://grids.ucs.indiana.edu/ptliupages/publications/HPC-ABDSDescribedv2.pdf>`_,0:27:45
+    , A. Introduction to HPC-ABDS Software and Access Patterns,`Video <https://www.youtube.com/watch?v=6Kj9E38lUzU>`_ -  `Resource 1 <http://grids.ucs.indiana.edu/ptliupages/publications/HPC-ABDSDescribedv2.pdf>`_,0:27:45
     , B. Science Examples (Data Access Patterns),`Video <https://www.youtube.com/watch?v=hYJ4_1A4kEU>`_ -  `Resource 2 <http://hpc-abds.org/kaleidoscope/>`_,0:18:38
     , C. Remaining General Access Patterns,`Video <https://www.youtube.com/watch?v=hsEDKM7Zur4>`_,0:11:26
     , D. Summary of HPC-ABDS Layers 1 - 6,`Video <https://www.youtube.com/watch?v=zVPKiGV0fk0>`_,0:14:32
@@ -26,8 +26,8 @@ Application Structure,Big Data Application Structure,`Slides <https://iu.box.com
     ,Machine Learning Aspect of Second Feature Set and the Third Set,`Video <https://www.youtube.com/watch?v=mNmmW5ZBjgs>`_,0:18:38
 Application Aspects,Aspects of Big Data Applications,`Slides <https://iu.box.com/s/atgkxucop1lzftkunf8al2fe74x65na6>`_,
    ,Other sources of use cases and Classical Databases/SQL Solutions,`Video <https://youtu.be/dZRtHaf2MyA>`_,0:16:50
-   ,SQL Solutions -  Machine Learning Example -  and MapReduce,`Video <https://www.youtube.com/watch?v=wVv-5ijGpb4>`_,0:18:49
-   ,Clouds vs HPC -  Data Intensive vs. Simulation Problems,`Video <https://www.youtube.com/watch?v=gkmQXJEscvk>`_,0:20:26
+   ,SQL Solutions -  Machine Learning Example -  and MapReduce,`Video <https://www.youtube.com/watch?v=PZDiJNS234A>`_,0:18:49
+   ,Clouds vs HPC -  Data Intensive vs. Simulation Problems,`Video <https://www.youtube.com/watch?v=gazESBGLlY8>`_,0:20:26
 Applications,Big Data Applications and Generalizing their Structure,`Slides <https://iu.box.com/s/01dndtucmynekgehur00vktfgcppgc1r>`_,
    ,NIST UseCases and Image Based Applications Examples I,`Video <https://www.youtube.com/watch?v=tRoAx444A6U>`_,0:25:20
    ,Image Based Applications II,`Video <https://www.youtube.com/watch?v=FDtnWGwotjA>`_,0:15:23
