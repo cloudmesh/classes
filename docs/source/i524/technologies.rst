@@ -42,6 +42,26 @@ Workflow-Orchestration
 
 8. Triana
 9. Trident
+
+   In :cite:`www-trident-tutorial`, it is explained that Apache Trident 
+   is a "high-level abstraction for doing realtime computing on top of 
+   [Apache] Storm." Similarly to Apache Storm, Apache Trident was 
+   developed by Twitter. Furthermore, :cite:`www-trident-tutorial` 
+   introduces Trident as a tool that "allows you to seamlessly intermix 
+   high throughput (millions of messages per second), stateful stream 
+   processing with low latency distributed querying." In 
+   :cite:`www-trident-overview`, the five kinds of operations in 
+   Trident are described as "Operations that apply locally to each 
+   partition and cause no network transfer", "repartitioning operations 
+   that repartition a stream but otherwise don't change the contents 
+   (involves network transfer)", "aggregation operations that do 
+   network transfer as part of the operation", "operations on grouped 
+   streams" and "merges and joins." In :cite:`www-trident-tutorial`, 
+   these five kinds of operations (i.e. joins, aggregations, grouping, 
+   functions, and filters) and the general concepts of Apache Trident 
+   are described as similar to "high level batch processing tools like 
+   Pig or Cascading."
+
 10. BioKepler
 11. Galaxy
 12. IPython
@@ -170,6 +190,22 @@ Application and Analytics
 56. IBM Watson
 57. Oracle PGX
 58. GraphLab
+
+    :cite:`www- GraphLab` is a graph-based, distributed computation,
+    high performance framework for machine learning written in C++. It
+    is an open source project started by Prof. Carlos Guestrin of
+    Carnegie Mellon University in 2009, designed considering the
+    scale, variety and complexity of real world data. It integrates
+    various high level algorithms such as Stochastic Gradient Descent,
+    Gradient Descent & Locking and provides high performance
+    experience. It includes scalable machine learning toolkits which
+    has implementation for deep learning, factor machines, topic
+    modeling, clustering, nearest neighbors and almost everything
+    required to enhance machine learning models. This framework is
+    targeted for sparse iterative graph algorithms. It helps data
+    scientists and developers easily create and install applications
+    at large scale.
+    
 59. GraphX
 60. IBM System G
 61. GraphBuilder(Intel)
@@ -196,6 +232,21 @@ Application and Analytics
 
 63. Parasol
 64. Dream:Lab
+
+    DREAM:Lab stands for “Distributed Research on Emerging
+    Applications and Machines Lab.” :cite:`dream` DREAM:Lab is centered
+    around distributed systems research to enable expeditious
+    utilization of distributed data and computing systems. :cite:`dream`
+    DREAM:Lab utilizes the “capabilities of hundereds of personal
+    computers” to allow access to supercomputing resources to average
+    individuals. :cite:`rao` The DREAM:Lab pursues this goal by utilizing
+    distributed computing. :cite:`rao` Distributed computing consists of
+    independent computing resources that communicate with each other
+    over a network. :cite:`denero` A large, complex computing problem is
+    broken down into smaller, more manageable tasks and then these
+    tasks are distributed to the various components of the distributed
+    computing system. :cite:`denero`
+    
 65. Google Fusion Tables
     
     Fusion Tables is a cloud based services, provided by Google for
@@ -346,6 +397,19 @@ Application Hosting Frameworks
 91. Jelastic
 92. Stackato
 93. appfog
+
+    According to :cite:`wee`, “AppFog is a platform as a service (PaaS)
+    provider.” Platform as a service provides a platform for the
+    development of web applications without the necessity of
+    purchasing the software and infrastructure that supports
+    it. :cite:`kepes` PaaS provides an environment for the creation of
+    software. :cite:`kepes` The underlying support infrastructure that AppFog
+    provides includes things such as runtime, middleware, o/s,
+    virtualization, servers, storage, and networking. :cite:`appfog` AppFog
+    is based on VMWare’s CloudFoundry project. :cite:`wee` It gets things
+    such as MySQL, Mongo, Reddis, memCache, etc. running and then
+    manages them. :cite:`tweney`
+    
 94. CloudBees
 95. Engine Yard
 96. (CloudControl)
@@ -478,7 +542,7 @@ High level Programming
      The authors designed it to handle "simple, easily distributed
      computations: filtering, aggregation, extraction of statistics,"
      etc. from the aforementioned data sets.
-     :cite:`unpublished-google-sawzall`
+     :cite:`google-sawzall`
 
      In general terms, a Sawzall job works as follows: multiple
      computers each create a Sawzall instance, perform some operation
@@ -501,7 +565,7 @@ High level Programming
      a native language [and] [m]ore important[ly] drawing an explicit
      line between filtering and aggregation enables a high degree of
      parallelism, even though it hides the parallelism from the
-     language itself".  :cite:`unpublished-google-sawzall`
+     language itself".  :cite:`google-sawzall`
 
      Important components of the Sawzall language include: *szl*, the
      binary containing the code compiler and byte-code interpreter
@@ -651,17 +715,26 @@ Inter process communication Collectives
 	 
 163. Argo BEAST HPX-5 BEAST PULSAR
 
-     I have done a lot of searching for Argo BEAST HPX-5 BEAST PULSAR
-     on the internet but the only resource I am getting is for HPX-5
-     and not for Argo BEAST HPX-5 BEAST PULSAR. I have contacted
-     Professor Thomas Sterling through email, who is the director of
-     Center for Research in Extreme Scale Technologies (CREST),
-     regarding clarification on Argo BEAST HPX-5 BEAST PULSAR but I
-     did not get any response.
+     Search on the internet was not successsful.
      
 164. Harp
 165. Netty
 166. ZeroMQ
+
+     In :cite:`www-zeromq`, ZeroMQ is introduced as a software product 
+     that can "connect your code in any language, on any platform" by 
+     leveraging "smart patterns like pub-sub, push-pull, and 
+     router-dealer" to carry "messages across inproc, IPC, TCP, TIPC, 
+     [and] multicast." In :cite:`www-zeromq2`, it is explained that 
+     ZeroMQ's "asynchronous I/O model" causes this "tiny library" to 
+     be "fast enough to be the fabric for clustered products." In 
+     :cite:`www-zeromq`, it is made clear that ZeroMQ is "backed by a 
+     large and open source community" with "full commercial support." 
+     In contrast to Message Passing Interface (i.e. MPI), which is 
+     popular among parallel scientific applications, ZeroMQ is 
+     designed as a fault tolerant method to communicate across highly 
+     distributed systems. 
+
 167. ActiveMQ
 168. RabbitMQ
 
@@ -764,6 +837,23 @@ Inter process communication Collectives
 
 175. Stomp
 176. MQTT
+     
+     According to :cite:`www-mqtt`, Message Queueing Telemetry
+     Transport (MQTT) protocol is an Interprocess communication
+     protocol that could serve as better alternative to HTTP in
+     certain cases. It is based on a publish-subscribe messaging
+     pattern. Any sensor or remote machine can publish it's data and
+     any registered client can subscribe the data. A broker takes care
+     of the message being published by the remote machine and updates
+     the subscriber in case of new message from the remote
+     machine. The data is sent in binary format which makes it use
+     less bandwidth. It is designed mainly to cater to the needs to
+     devices that has access to minimal network bandwidth and device
+     resources without affecting reliability and quality assurance of
+     delivery. MQTT protocol has been in use since 1999. One of the
+     notable work is project Floodnet :cite:`www-floodnet`, which
+     monitors river and floodplains through a set of sensors.
+
 177. Marionette Collective
 178. Public Cloud: Amazon SNS
 179. Lambda
@@ -826,6 +916,17 @@ In-memory databases/caches
      in Docker containers. :cite:`www-wikihazel`
 
 188. Ehcache
+
+     EHCACHE is an open-source Java-based cache. It supports distributed
+     caching and could scale to hundred of caches. It comes with REST APIs
+     and could be integrated with popular frameworks like Hibernate
+     :cite:`www-ehcache-features`. It offers storage tires such that less
+     frequently data could be moved to slower tires
+     :cite:`www-ehcache-documentation`. It's XA compliant and supports two-
+     phase commit and recovery for transactions. It's developed and
+     maintained by Terracotta and is available under Apache 2.0 license.
+     It conforms to Java caching standard JSR 107. 
+
 189. Infinispan
 190. VoltDB
 191. H-Store
@@ -905,6 +1006,18 @@ SQL(NewSQL)
 
 201. SQLite
 202. MySQL
+
+     MySQL is a relational database management system. :cite:`devmysql` SQL
+     is an acronym for Structured Query Language and is a standardized
+     language used to interact with the databases. :cite:`devmysql`
+     Databases provide structure to a collection of data
+     while. :cite:`devmysql` A database management system allows for the
+     addition, accessing, and processing of the data stored in a
+     database. :cite:`devmysql` Relational databases utilize tables that are
+     broken down into columns, representing the various fields of the
+     table, and rows, which correspond to individual entries in the
+     table. :cite:`howmysql`
+     
 203. PostgreSQL
 
 204. CUBRID
@@ -1001,7 +1114,38 @@ NoSQL
      sufficient and were quickly saturated that stall the database.
      
 222. Riak
+
+     Riak is a set of scalable distributed NoSQL databases developed by
+     Basho Technologies. Riak KV is a key-value :cite:`www-riak-kv` database
+     with time-to-live feature so that older data is deleted automatically.
+     It can be queried through secondary indexes, search via Apache Solr,
+     and MapReduce. Riak TS is designed for time-series data. It co-
+     locates related data on the same physical cluster for faster access
+     :cite:`www-riak-ts`. Riak S2 is designed to store large objects like media
+     files and software binaries :cite:`www-riak-s2`. The databases are available
+     in both open source and commercial versions with multicluster
+     replication provided only in later. REST APIs are available for these
+     databases.
+
 223. ZHT
+
+     According to :cite:`datasys`, “ZHT is a zero-hop distributed hash
+     table.” Distributed hash tables effectively break a hash table up
+     and assign different nodes responsibility for managing different
+     pieces of the larger hash table. :cite:`wiley` To retrieve a value in a
+     distributed hash table, one needs to find the node that is
+     responsible for the managing the key value pair of
+     interest. :cite:`wiley` In general, every node that is a part of the
+     distributed hash table has a reference to the closest two nodes
+     in the node list. :cite:`wiley` In a ZHT, however, every node contains
+     information concerning the location of every other node. :cite:`Li`
+     Through this approach, ZHT aims to provide “high availability,
+     good fault tolerance, high throughput, and low latencies, at
+     extreme scales of millions of nodes.” :cite:`Li` Some of the defining
+     characteristics of ZHT are that it is light-weight, allows nodes
+     to join and leave dynamically, and utilizes replication to obtain
+     fault tolerance among others. :cite:`Li`
+     
 224. Berkeley DB
 225. Kyoto/Tokyo Cabinet
 226. Tycoon
@@ -1047,7 +1191,7 @@ NoSQL
 
      CBS is written in Erlang/OTP, but generally shortened to just
      Erlang.  In actuality, t is written in "Erlang using components
-     of OTP...alongside some C/C++":cite:`www-erlangcentral-cbs`, It
+     of OTP alongside some C/C++":cite:`www-erlangcentral-cbs`, It
      runs on an Erlang virtual machine known as
      BEAM. :cite:`www-wikipedia-erlang-cbs`
 
@@ -1091,6 +1235,41 @@ NoSQL
 
 236. LevelDB
 237. Megastore and Spanner
+
+     Spanner :cite:`corbett-spanner` is Google's distributed database
+     which is used for managing all google services like play, gmail,
+     photos, picasa, app engine etc Spanner is distributed database
+     which spans across multiple clusters, datacenters and geo
+     locations.  Spanner is structured in such a way so as to provide
+     non blocking reads, lock free transactions and atomic schema
+     modification. This is unlike other noSql databases which follow
+     the CAP theory i.e. you can choose any two of the three:
+     Consistency, Availability and Partition-tolerance. However,
+     spanner gives an edge by satisfying all three of these. It gives
+     you atomicity and consistency along with availability, partition
+     tolerance and synchronized replication.  Megastore bridges the
+     gaps found in google's bigtable. As google realized that it is
+     difficult to use bigtable where the application requires
+     constantly changing schema. Megastore offers a solution in terms
+     of semi-relational data model.  Megastore
+     :cite:`www-magastore-spanner` also provides a transactional
+     database which can scale unlike relational data stores and
+     synchronous replication.  Replication in megastore is supported
+     using Paxos. Megastore also provides versioning. However,
+     megastore has a poor write performance and lack of a SQL like
+     query language. Spanners basically adds what was missing in
+     Bigtable and megastore. As a global distributed database spanner
+     provides replication and globally consistent reads and
+     writes. Spanner deployment is called universe which is a
+     collections of zones. These zones are managed by singleton
+     universe master and placement driver. Replication in spanner is
+     supported by Paxos state machine. Spanner was put into evaluation
+     in early 2011 as F1 backend(F1 is Google's advertisement system)
+     which was replacement to mysql. Overall spanner fulfils the needs
+     of relational database along with scaling of noSQL database.  All
+     these features make google run all their apps seamlessly on
+     spanner infrastructure.
+
 238. Accumulo
 239. Cassandra
 
@@ -1107,6 +1286,17 @@ NoSQL
      be administered by any JMX compliant tools.
 
 240. RYA
+
+     Rya is a “scalable system for storing and retrieving RDF data in
+     a cluster of nodes.” :cite:`Punnoose` RDF stands for Resource
+     Description Framework. :cite:`Punnoose` RDF is a model that facilitates
+     the exchange of data on a network. :cite:`w3` RDF utilizes a form
+     commonly referred to as a triple, an object that consists of a
+     subject, predicate, and object. :cite:`Punnoose` These triples are used
+     to describe resources on the Internet. :cite:`Punnoose` Through new
+     storage and querying techniques, Rya aims to make accessing RDF
+     data fast and easy. :cite:`apacherya`
+     
 241. Sqrrl
 242. Neo4J
 243. graphdb
@@ -1206,6 +1396,22 @@ Data Transport
 264. HTTP
 265. FTP
 266. SSH
+
+     SSH is a cryptographic network protocol :cite:`www-ssh-wiki` to
+     provide a secure channel between two clients over an unsecured
+     network. It uses public-key cryptography for authenticating the
+     remote machine and the user. The public-private key pairs could
+     be generated automatically to encrypt the network connection.
+     ssh-keygen utility could be used to generate the keys manually.
+     The public key then could be placed on the all the computers to
+     which the access is required by the owner of the private key.
+     SSH runs on the client-server model where a server listens for
+     incoming ssh connection requests. It's generally used for remote
+     login and command execution. It's other important uses include
+     tunneling(required in cloud computing) and file transfer(SFTP).
+     OpenSSH is an open source implementation of network utilities
+     based on SSH :cite:`www-openssh-wiki`.
+
 267. Globus Online (GridFTP)
 
      GridFTP is a enhancement on the File Tranfer Protocol (FTP) which
@@ -1225,6 +1431,19 @@ Data Transport
 
 
 268. Flume
+
+     Flume is distributed, reliable and available service for
+     efficiently collecting, aggregating and moving large amounts of
+     log data :cite:`apche-flume. Flume was created to allow you to
+     flow data from a source into your Hadoop® environment.  In Flume,
+     the entities you work with are called sources, decorators, and
+     sinks. A source can be any data source, and Flume has many
+     predefined source adapters. A sink is the target of a specific
+     operation. A decorator is an operation on the stream that can
+     transform the stream in some manner, which could be to compress
+     or uncompress data, modify data by adding or removing pieces of
+     information, and more :cite: `ibm-flume`.
+
 269. Sqoop
      
      Apache Sqoop is a tool to transfer large amounts of data between Apache Hadoop
@@ -1561,14 +1780,81 @@ DevOps
 333. Winery
 334. CloudML
 335. Blueprints
+
+     In :cite:`www-blueprints`, it is explained that "IBM Blueprint 
+     has been replaced by IBM Blueworks Live." In 
+     :cite:`www-blueworks-live2`, IBM Blueworks Live is described "as 
+     a cloud-based business process modeller, belonging under the set 
+     of IBM SmartCloud applications" that as 
+     :cite:`www-blueworks-live` states "drive[s] out inefficiencies 
+     and improve[s] business operations." Similarly to Google Docs, 
+     IBM Blueworks Live is "designed to help organizations discover 
+     and document their business processes, business decisions and 
+     policies in a collaborative manner." While Google Docs and IBM 
+     Blueworks Live are both simple to use in a collaborative manner, 
+     :cite:`www-blueworks-live2` explains that IBM Blueworks Live 
+     has the "capabilities to implement more complex models." 
+
 336. Terraform
 337. DevOpSlang
 338. Any2Api
+
+     This framework :cite:`wettinger-any2api` allows user to wrap an
+     executable program or scripts, for example scripts, chef
+     cookbooks, ansible playbooks, juju charms, other compiled
+     programs etc. to generate APIs from your existing code.  These
+     APIs are also containerized so that they can be hosted on a
+     docker container, vagrant box etc Any2Api helps to deal with
+     problems like scale of application, technical expertise, large
+     codebase and different API formats. The generated API hide the
+     tool specific details simplifying the integration and
+     orchestration different kinds of artifacts. The APIfication
+     framework contains various modules:
+
+     1. Invokers, which are capable of running a given type of
+        executable for example cookbook invoker can be used to run Chef
+        cookbooks
+
+     2. Scanners, which are capable of scanning modules of certain type for
+        example cookbook scanner scans Chef cookbooks.
+
+     3. API impl generators, which are doingthe actual work to
+        generate the API implementation.
+
+     The final API implementation :cite:`www-any2api` is is packages
+     with executable in container.  The module is packaged as npm
+     module. Currently any2api-cli provides a command line interface
+     and web based interface is planned for future
+     development. Any2Api is very useful for by devops to orchestrate
+     open source ecosystem without dealing with low level details of
+     chef cookbook or ansible playbook or puppet. It can also be very
+     useful in writing microservices where services talk to each other
+     using well defined APIs.
 
 IaaS Management from HPC to hypervisors
 ----------------------------------------------------------------------
 
 339. Xen
+
+     Xen is the only open-source bare-metal hypervisor based on
+     microkernel design :cite:`www-xen-wikipedia`. The hypervisor
+     runs at the highest privilege among all the processes on the
+     host. It's responsibility is to manage CPU and memory and
+     handle interrupts :cite:`www-xen-overview`. Virtual
+     machines are deployed in the guest domain called DomU which
+     has no access privilege to hardware. A special virtual machine
+     is deployed in the control domain called Domain 0. It contains
+     hardware drivers and the toolstack to control the VMs and is
+     the first VM to be deployed. Xen supports both Paravirtualization
+     and hardware assisted virtualization. The hypervisor itself has
+     a very small footprint. It's being actively maintained by Linux
+     Foundation under the trademark "XEN Project". Some of the
+     features included in the latest releases include "Reboot-free
+     Live Patching" (to enable application of security patches without
+     rebooting the system) and KCONFIG support (compilation support to
+     create a lighter version for requirements such as embedded
+     systems) :cite:`www-xen-fl`.
+          
 340. KVM
 341. QEMU
 342. Hyper-V
@@ -1725,6 +2011,22 @@ Distributed Coordination
 
 373. Google Chubby
 374. Zookeeper
+ 
+     Zookeeper provides coordination services to distributed applications.
+     It includes synchronization, configuration management and naming
+     services among others. The interfaces are available in Java and C
+     :cite:`www-zoo-overiew`. The services themselves can be distributed
+     across multiple Zookeeper servers to avoid single point of failure.
+     If the leader fails to answer, the clients can fall-back to other
+     nodes. The state of the cluster is maintained in an in-memory image
+     along with a persistent storage file called znode by each server. The
+     cluster namespace is maintained in a hierarchical order. The changes to the
+     data are totally ordered :cite:`www-zoo-wiki` by stamping each update
+     with a number. Clients can also set a watch on a znode to be notified
+     of any change :cite:`www-zoo-ibm`. The performance of the ZooKeeper
+     is optimum for "read-dominant" workloads. It's maintained by Apache
+     and is open-source.
+
 375. Giraffe
 
      Giraffe is a scalable distributed coordination

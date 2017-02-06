@@ -21,6 +21,9 @@ doc:
 all: doc pdf
 	echo done
 
+notebooks:
+	cd  docs/source/notebooks/; jupyter nbconvert --to rst facedetection.ipynb
+
 pdf: 
 	cd docs;  make latex 
 	cd docs/build/latex; pdflatex -interaction  nonstopmode  i524-notes 
@@ -62,7 +65,7 @@ notes:
 # FIXME: should be cloudmesh/classes
 dockerimage: Dockerfile $(wildcard docker/*)
 	for tag in latest $(GIT_RECENT_TAG); do \
-  	  time docker build -t badi/cloudmesh_classes:$(GIT_RECENT_TAG) . ;\
+	  time docker build -t badi/cloudmesh_classes:$(GIT_RECENT_TAG) . ;\
 	done
 
 # FIXME this should be cloudmesh/classes

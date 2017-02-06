@@ -115,7 +115,7 @@ then open the ``Terminal`` application.
 Generate a SSH key
 -----------------------
 
-.. sidebar:: |info-image| Hint
+.. note:
 
    In case you do not want to type in your password everytime,
    please learn about ssh-agent and ssh-add.
@@ -175,7 +175,12 @@ If executed correctly, you will see some output similar to::
     Your public key has been saved in /home/localname/.ssh/id_rsa.pub.
     The key fingerprint is:
     34:87:67:ea:c2:49:ee:c2:81:d2:10:84:b1:3e:05:59 localname@indiana.edu
-    The key's random art image is::
+    The key's random art image  File "/Users/grey/.pyenv/versions/2.7.13/envs/ENV2/lib/python2.7/site-packages/traitlets/config/application.py", line 445, in initialize_subcommand
+    subapp = import_item(subapp)
+  File "/Users/grey/.pyenv/versions/2.7.13/envs/ENV2/lib/python2.7/site-packages/ipython_genutils/importstring.py", line 31, in import_item
+    module = __import__(package, fromlist=[obj])
+ImportError: No module named nbconvert.nbconvertapp
+ is::
 
     +--[ RSA 2048]----+
     |.+...Eo= .       |
