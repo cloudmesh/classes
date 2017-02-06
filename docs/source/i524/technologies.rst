@@ -694,7 +694,7 @@ Inter process communication Collectives
      In :cite:`www-zeromq`, ZeroMQ is introduced as a software product 
      that can "connect your code in any language, on any platform" by 
      leveraging "smart patterns like pub-sub, push-pull, and 
-     router-dealer" to carry "messages accross inproc, IPC, TCP, TIPC, 
+     router-dealer" to carry "messages across inproc, IPC, TCP, TIPC, 
      [and] multicast." In :cite:`www-zeromq2`, it is explained that 
      ZeroMQ's "asynchronous I/O model" causes this "tiny library" to 
      be "fast enough to be the fabric for clustered products." In 
