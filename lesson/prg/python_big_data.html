@@ -258,23 +258,33 @@
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">Python for Big Data</a><ul>
-<li><a class="reference internal" href="#managing-data">Managing Data</a><ul>
-<li><a class="reference internal" href="#scipy">Scipy</a></li>
-<li><a class="reference internal" href="#pandas">Pandas</a></li>
+<li><a class="reference internal" href="#an-example-with-pandas-numpy-and-matplotlib">An Example with Pandas, NumPy and Matplotlib</a><ul>
+<li><a class="reference internal" href="#set-up-directories-and-get-test-data">Set Up Directories and Get Test Data</a></li>
+<li><a class="reference internal" href="#load-data-in-pandas">Load Data in Pandas</a></li>
+<li><a class="reference internal" href="#working-with-dataframes">Working with DataFrames</a></li>
+<li><a class="reference internal" href="#plotting-with-matplotlib-and-numpy">Plotting with Matplotlib and NumPy</a></li>
+<li><a class="reference internal" href="#more-dataframe-manipulation-and-plotting">More <em>DataFrame</em> Manipulation and Plotting</a></li>
+<li><a class="reference internal" href="#saving-plots-to-pdf">Saving Plots to PDF</a></li>
+<li><a class="reference internal" href="#next-steps-and-exercises">Next Steps and Exercises</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#numpy">Numpy</a></li>
-<li><a class="reference internal" href="#graphics-libraries">Graphics Libraries</a><ul>
-<li><a class="reference internal" href="#matplotlib">MatplotLib</a></li>
+<li><a class="reference internal" href="#summary-of-useful-libraries">Summary of Useful Libraries</a><ul>
+<li><a class="reference internal" href="#id3">Numpy</a></li>
+<li><a class="reference internal" href="#id4">MatplotLib</a></li>
+<li><a class="reference internal" href="#id5">Pandas</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#other-useful-libraries">Other Useful Libraries</a><ul>
+<li><a class="reference internal" href="#scipy">Scipy</a></li>
 <li><a class="reference internal" href="#ggplot">ggplot</a></li>
 <li><a class="reference internal" href="#seaborn">seaborn</a></li>
 <li><a class="reference internal" href="#bokeh">Bokeh</a></li>
 <li><a class="reference internal" href="#pygal">pygal</a></li>
-</ul>
-</li>
 <li><a class="reference internal" href="#network-and-graphs">Network and Graphs</a></li>
 <li><a class="reference internal" href="#rest">REST</a></li>
-<li><a class="reference internal" href="#examples">Examples</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#other-examples">Other Examples</a></li>
 </ul>
 </li>
 </ul>
@@ -488,23 +498,33 @@
 </ul>
 </li><ul>
 <li><a class="reference internal" href="#">Python for Big Data</a><ul>
-<li><a class="reference internal" href="#managing-data">Managing Data</a><ul>
-<li><a class="reference internal" href="#scipy">Scipy</a></li>
-<li><a class="reference internal" href="#pandas">Pandas</a></li>
+<li><a class="reference internal" href="#an-example-with-pandas-numpy-and-matplotlib">An Example with Pandas, NumPy and Matplotlib</a><ul>
+<li><a class="reference internal" href="#set-up-directories-and-get-test-data">Set Up Directories and Get Test Data</a></li>
+<li><a class="reference internal" href="#load-data-in-pandas">Load Data in Pandas</a></li>
+<li><a class="reference internal" href="#working-with-dataframes">Working with DataFrames</a></li>
+<li><a class="reference internal" href="#plotting-with-matplotlib-and-numpy">Plotting with Matplotlib and NumPy</a></li>
+<li><a class="reference internal" href="#more-dataframe-manipulation-and-plotting">More <em>DataFrame</em> Manipulation and Plotting</a></li>
+<li><a class="reference internal" href="#saving-plots-to-pdf">Saving Plots to PDF</a></li>
+<li><a class="reference internal" href="#next-steps-and-exercises">Next Steps and Exercises</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#numpy">Numpy</a></li>
-<li><a class="reference internal" href="#graphics-libraries">Graphics Libraries</a><ul>
-<li><a class="reference internal" href="#matplotlib">MatplotLib</a></li>
+<li><a class="reference internal" href="#summary-of-useful-libraries">Summary of Useful Libraries</a><ul>
+<li><a class="reference internal" href="#id3">Numpy</a></li>
+<li><a class="reference internal" href="#id4">MatplotLib</a></li>
+<li><a class="reference internal" href="#id5">Pandas</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#other-useful-libraries">Other Useful Libraries</a><ul>
+<li><a class="reference internal" href="#scipy">Scipy</a></li>
 <li><a class="reference internal" href="#ggplot">ggplot</a></li>
 <li><a class="reference internal" href="#seaborn">seaborn</a></li>
 <li><a class="reference internal" href="#bokeh">Bokeh</a></li>
 <li><a class="reference internal" href="#pygal">pygal</a></li>
-</ul>
-</li>
 <li><a class="reference internal" href="#network-and-graphs">Network and Graphs</a></li>
 <li><a class="reference internal" href="#rest">REST</a></li>
-<li><a class="reference internal" href="#examples">Examples</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#other-examples">Other Examples</a></li>
 </ul>
 </li>
 </ul>
@@ -547,44 +567,217 @@
       
   <div class="section" id="python-for-big-data">
 <h1>Python for Big Data<a class="headerlink" href="#python-for-big-data" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="managing-data">
-<h2>Managing Data<a class="headerlink" href="#managing-data" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="scipy">
-<h3>Scipy<a class="headerlink" href="#scipy" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="https://www.scipy.org/">https://www.scipy.org/</a></li>
-</ul>
-<p>According to the SciPy Web page, &#8220;SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of
-open-source software for mathematics, science, and engineering. In
-particular, these are some of the core packages:</p>
-<ul class="simple">
-<li>NumPy</li>
-<li>IPython</li>
-<li>Pandas</li>
-<li>Matplotlib</li>
-<li>Sympy</li>
-<li>SciPy library</li>
-</ul>
-<p>It is thus an agglomeration of useful pacakes and will prbably sufice
-for your projects in case you use Python.</p>
+<div class="section" id="an-example-with-pandas-numpy-and-matplotlib">
+<h2>An Example with Pandas, NumPy and Matplotlib<a class="headerlink" href="#an-example-with-pandas-numpy-and-matplotlib" title="Permalink to this headline">¶</a></h2>
+<p>In this example, we will download some traffic citation data for the
+city of Bloomington, IN, load it into Python and generate a
+histogram. In doing so, you will be exposed to important Python
+libraries for working with big data such as <a class="reference external" href="www.numpy.org">numpy</a>,
+<a class="reference external" href="pandas.pydata.org">pandas</a> and <a class="reference external" href="matplotlib.org">matplotlib</a>.</p>
+<div class="section" id="set-up-directories-and-get-test-data">
+<h3>Set Up Directories and Get Test Data<a class="headerlink" href="#set-up-directories-and-get-test-data" title="Permalink to this headline">¶</a></h3>
+<p>Data.gov is a government portal for open data and the <a class="reference external" href="https://catalog.data.gov/dataset?organization_type=City+Government&amp;organization=city-of-bloomington&amp;_organization_limit=0">city of
+Bloomington, Indiana makes available a number of datasets there</a>.</p>
+<p>We will use traffic citations data for 2016.</p>
+<p>To start, let&#8217;s create a separate directory for this project and
+download the CSV data:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cd ~/projects/i524
+$ mkdir btown-citations
+$ cd btown-citations
+$ wget https://data.bloomington.in.gov/dataset/c543f0c1-1e37-46ce-a0ba-e0a949bd248a/resource/24841976-fd35-4483-a2b4-573bd1e77cfb/download/2016-first-quarter-citations.csv
+</pre></div>
 </div>
-<div class="section" id="pandas">
-<h3>Pandas<a class="headerlink" href="#pandas" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="http://pandas.pydata.org/">http://pandas.pydata.org/</a></li>
-</ul>
-<p>According to the Pandas Web page, &#8220;Pandas is a library library providing
-high-performance, easy-to-use data structures and data analysis tools
-for the Python programming language.&#8221;</p>
-<p>In addition to access to charts via matplotlib it has elementary
-functionality for conduction data analysis. Pandas may be very
-suitable for your projects.</p>
-<p>Tutorial: <a class="reference external" href="http://pandas.pydata.org/pandas-docs/stable/10min.html">http://pandas.pydata.org/pandas-docs/stable/10min.html</a></p>
-<p>Pandas Cheat Sheet: <a class="reference external" href="https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf">https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf</a></p>
+<p>Depending on your directory organization, the above might be slightly
+different for you.</p>
+<p>If you go to the link to data.gov for Bloomington above, you will see
+that the citations data is organized per quarter, so there are a total
+of four files. Above, we downloaded the data for the first quarter. Go
+ahead and download the remaining three files with <code class="docutils literal"><span class="pre">wget</span></code>.</p>
+<p>In this example, we will use three modules, <code class="docutils literal"><span class="pre">numpy</span></code>, <code class="docutils literal"><span class="pre">pandas</span></code> and
+<code class="docutils literal"><span class="pre">matplotlib</span></code>. If you set up <code class="docutils literal"><span class="pre">virtualenv</span></code> as described in the
+<a class="reference internal" href="python_intro.html"><span class="doc">Python tutorial</span></a>, the first two of these are
+already installed for you. To install <code class="docutils literal"><span class="pre">matplotlib</span></code>, make sure you&#8217;ve
+activated your <code class="docutils literal"><span class="pre">virtualenv</span></code> and use <code class="docutils literal"><span class="pre">pip</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ source ~/ENV/bin/activate
+$ pip install matplotlib
+</pre></div>
+</div>
+<p>If you are using a different distribution of Python, you will need to
+make sure that all three of these modules are installed.</p>
+</div>
+<div class="section" id="load-data-in-pandas">
+<h3>Load Data in Pandas<a class="headerlink" href="#load-data-in-pandas" title="Permalink to this headline">¶</a></h3>
+<p>From the same directory where you saved the citations data, let&#8217;s
+start the Python interpreter and load the citations data for Q1 2016</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span>$ python
+&gt;&gt;&gt; from __future__ import division, print_function
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; import pandas as pd
+&gt;&gt;&gt; import matplotlib.pyplot as plt
+&gt;&gt;&gt; data = pd.read_csv(&#39;2016-first-quarter-citations.csv&#39;)
+</pre></div>
+</div>
+<p>If the first <code class="docutils literal"><span class="pre">import</span></code> statement seems confusing, take a look at the
+<a class="reference internal" href="python_intro.html"><span class="doc">Python tutorial</span></a>. The next three <code class="docutils literal"><span class="pre">import</span></code>
+statements load each of the modules we will use in this example. The
+final line uses Panda&#8217;s <code class="docutils literal"><span class="pre">read_csv</span></code> function to load the data into a
+Pandas <code class="docutils literal"><span class="pre">DataFrame</span></code> data structure.</p>
+</div>
+<div class="section" id="working-with-dataframes">
+<h3>Working with DataFrames<a class="headerlink" href="#working-with-dataframes" title="Permalink to this headline">¶</a></h3>
+<p>You can verify that you are working with a <code class="docutils literal"><span class="pre">DataFrame</span></code> and use some
+of its methods to take a look at structure of the data as follows:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="go">&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">index</span>
+<span class="go">Int64Index([  0,   1,   2,   3,   4,   5,   6,   7,   8,   9,</span>
+<span class="gp">...</span>
+<span class="go">197, 198, 199, 200, 201, 202, 203, 204, 205, 206],</span>
+<span class="go">dtype=&#39;int64&#39;, length=200)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">columns</span>
+<span class="go">Index([u&#39;Citation Number&#39;, u&#39;Date Issued&#39;, u&#39;Time Issued&#39;, u&#39;Location &#39;,</span>
+<span class="go">u&#39;District&#39;, u&#39;Cited Person Age&#39;, u&#39;Cited Person Sex&#39;,</span>
+<span class="go">u&#39;Cited Person Race&#39;, u&#39;Offense Code&#39;, u&#39;Offense Description&#39;,</span>
+<span class="go">u&#39;Officer Age&#39;, u&#39;Officer Sex&#39;, u&#39;Officer Race&#39;, u&#39;DateTime Issued&#39;,</span>
+<span class="go">u&#39;Day of Week Issued&#39;],</span>
+<span class="go">dtype=&#39;object&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">dtypes</span>
+<span class="go">Citation Number                object</span>
+<span class="go">Date Issued                    object</span>
+<span class="go">Time Issued                    object</span>
+<span class="go">Location                       object</span>
+<span class="go">District                       object</span>
+<span class="go">Cited Person Age              float64</span>
+<span class="go">Cited Person Sex               object</span>
+<span class="go">Cited Person Race              object</span>
+<span class="go">Offense Code                   object</span>
+<span class="go">Offense Description            object</span>
+<span class="go">Officer Age                   float64</span>
+<span class="go">Officer Sex                    object</span>
+<span class="go">Officer Race                   object</span>
+<span class="go">DateTime Issued        datetime64[ns]</span>
+<span class="go">Day of Week Issued             object</span>
+<span class="go">dtype: object</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+<span class="go">(200, 15)</span>
+</pre></div>
+</div>
+<p>You can also look at the data itself with the <code class="docutils literal"><span class="pre">DataFrame</span></code>&#8216;s
+<code class="docutils literal"><span class="pre">head()</span></code> and <code class="docutils literal"><span class="pre">tail()</span></code> methods:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="go">&lt;Output omitted for brevity&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+<span class="go">&lt;Output omitted for brevity&gt;</span>
+</pre></div>
+</div>
+<p><a href="#id1"><span class="problematic" id="id2">``</span></a>DataFrame``s let you deal with missing values easily:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">how</span><span class="o">=</span><span class="s1">&#39;any&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+</div>
+<p>Adding columns to the data is also easy. Here, we add two
+columns. First, a <a class="reference external" href="https://docs.python.org/2/library/datetime.html">datetime</a> column that is a
+combination of the <code class="docutils literal"><span class="pre">Date</span> <span class="pre">Issued</span></code> and <code class="docutils literal"><span class="pre">Time</span> <span class="pre">Issued</span></code> columns
+originally in the data. Seconds, a column identifying what day of the
+week each citation was given. To understand this example better, take
+a look at the Python docs for the <code class="docutils literal"><span class="pre">strptime</span></code> and <code class="docutils literal"><span class="pre">strftime</span></code>
+functions in the <code class="docutils literal"><span class="pre">datetime</span></code> module.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;DateTime Issued&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span>
+<span class="gp">... </span> <span class="k">lambda</span> <span class="n">row</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Date Issued&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;:&#39;</span> <span class="o">+</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;Time Issued&#39;</span><span class="p">],</span> <span class="s1">&#39;%m/</span><span class="si">%d</span><span class="s1">/%y:%I:%M %p&#39;</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span>
+<span class="gp">... </span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">columns</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Day of Week Issued&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span>
+<span class="gp">... </span> <span class="k">lambda</span> <span class="n">row</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;DateTime Issued&#39;</span><span class="p">],</span> <span class="s1">&#39;%A&#39;</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span>
+<span class="gp">... </span><span class="p">)</span>
+</pre></div>
 </div>
 </div>
-<div class="section" id="numpy">
-<h2>Numpy<a class="headerlink" href="#numpy" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="plotting-with-matplotlib-and-numpy">
+<h3>Plotting with Matplotlib and NumPy<a class="headerlink" href="#plotting-with-matplotlib-and-numpy" title="Permalink to this headline">¶</a></h3>
+<p>Let&#8217;s say we want to see how many citations were given each day of the
+week. We gather the data first:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">days</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Monday&#39;</span><span class="p">,</span> <span class="s1">&#39;Tuesday&#39;</span><span class="p">,</span> <span class="s1">&#39;Wednesday&#39;</span><span class="p">,</span> <span class="s1">&#39;Thursday&#39;</span><span class="p">,</span> <span class="s1">&#39;Friday&#39;</span><span class="p">,</span> <span class="s1">&#39;Saturday&#39;</span><span class="p">,</span> <span class="s1">&#39;Sunday&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dow_data</span> <span class="o">=</span> <span class="p">[</span><span class="n">days</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">dow</span><span class="p">)</span> <span class="k">for</span> <span class="n">dow</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Day of Week Issued&#39;</span><span class="p">]]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dow_data</span>
+<span class="go">&lt;Output omitted for brevity&gt;</span>
+</pre></div>
+</div>
+<p>Then we use <code class="docutils literal"><span class="pre">matplotlib</span></code> to plot it:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">dow_data</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">days</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">days</span><span class="p">)),</span> <span class="n">days</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>You should see something like this on your screen:</p>
+<a class="reference internal image-reference" href="../../_images/dow.png"><img alt="../../_images/dow.png" src="../../_images/dow.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="more-dataframe-manipulation-and-plotting">
+<h3>More <em>DataFrame</em> Manipulation and Plotting<a class="headerlink" href="#more-dataframe-manipulation-and-plotting" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">DataFrame``s</span> <span class="pre">and</span> <span class="pre">``numpy</span></code> give us other ways to manipulate
+data. For example, we can plot a histogram of the ages of violators
+like this:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ages</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Cited Person Age&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">ages</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">ages</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">ages</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../../_images/ages.png"><img alt="../../_images/ages.png" src="../../_images/ages.png" style="width: 400px;" /></a>
+<p>Surprisingly, we see some 116 year-old violators! This is probably an
+error in the data, so we can remove these data points easily and plot
+the histogram again:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ages</span> <span class="o">=</span> <span class="n">ages</span><span class="p">[</span><span class="n">ages</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">ages</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">ages</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">ages</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../../_images/ages-filtered.png"><img alt="../../_images/ages-filtered.png" src="../../_images/ages-filtered.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="saving-plots-to-pdf">
+<h3>Saving Plots to PDF<a class="headerlink" href="#saving-plots-to-pdf" title="Permalink to this headline">¶</a></h3>
+<p>Oftentimes, you will want to save your <code class="docutils literal"><span class="pre">matplotlib</span></code> graph as a PDF
+instead of just viewing it on your screen. We can do this easily using
+the <code class="docutils literal"><span class="pre">PdfPages</span></code> module:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib.patches</span> <span class="k">as</span> <span class="nn">mpatches</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">matplotlib.backends.backend_pdf</span> <span class="k">import</span> <span class="n">PdfPages</span>
+</pre></div>
+</div>
+<p>The code that generates the histogram is the same as before:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">ages</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">ages</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">ages</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>However, instead of calling <code class="docutils literal"><span class="pre">plt.show()</span></code> we use <code class="docutils literal"><span class="pre">PdfPages</span></code> to save
+the plot in a file:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">pp</span> <span class="o">=</span> <span class="n">PdfPages</span><span class="p">(</span><span class="s1">&#39;hist.pdf&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">pp</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;pdf&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pp</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="next-steps-and-exercises">
+<h3>Next Steps and Exercises<a class="headerlink" href="#next-steps-and-exercises" title="Permalink to this headline">¶</a></h3>
+<p>There is a lot more to working with <code class="docutils literal"><span class="pre">pandas</span></code>, <code class="docutils literal"><span class="pre">numpy</span></code> and
+<code class="docutils literal"><span class="pre">matplotlib</span></code> than we can show you here, but hopefully this example
+has piqued your curiosity. Don&#8217;t worry if you don&#8217;t understand
+everything. For a more detailed explanation on these modules and the
+examples we did, please take a look at the tutorials below. The
+<code class="docutils literal"><span class="pre">numpy</span></code> and <code class="docutils literal"><span class="pre">pandas</span></code> tutorials are mandatory if you want to be
+able to use these modules, and the <code class="docutils literal"><span class="pre">matplotlib</span></code> gallery has many
+useful code examples.</p>
+</div>
+</div>
+<div class="section" id="summary-of-useful-libraries">
+<h2>Summary of Useful Libraries<a class="headerlink" href="#summary-of-useful-libraries" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h3>Numpy<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><a class="reference external" href="http://www.numpy.org/">http://www.numpy.org/</a></li>
 </ul>
@@ -595,10 +788,8 @@ C/C++ and Fortran code, useful linear algebra, Fourier transform, and
 random number capabilities</p>
 <p>Tutorial: <a class="reference external" href="https://docs.scipy.org/doc/numpy-dev/user/quickstart.html">https://docs.scipy.org/doc/numpy-dev/user/quickstart.html</a></p>
 </div>
-<div class="section" id="graphics-libraries">
-<h2>Graphics Libraries<a class="headerlink" href="#graphics-libraries" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="matplotlib">
-<h3>MatplotLib<a class="headerlink" href="#matplotlib" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id4">
+<h3>MatplotLib<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><a class="reference external" href="http://matplotlib.org/">http://matplotlib.org/</a></li>
 </ul>
@@ -608,6 +799,45 @@ variety of hardcopy formats and interactive environments across
 platforms. matplotlib can be used in python scripts, the python and
 ipython shell (ala MATLAB®* or Mathematica®†), web application
 servers, and six graphical user interface toolkits.&#8221;</p>
+<p>Matplotlib Gallery: <a class="reference external" href="http://matplotlib.org/gallery.html">http://matplotlib.org/gallery.html</a></p>
+</div>
+<div class="section" id="id5">
+<h3>Pandas<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://pandas.pydata.org/">http://pandas.pydata.org/</a></li>
+</ul>
+<p>According to the Pandas Web page, &#8220;Pandas is a library library
+providing high-performance, easy-to-use data structures and data
+analysis tools for the Python programming language.&#8221;</p>
+<p>In addition to access to charts via matplotlib it has elementary
+functionality for conduction data analysis. Pandas may be very
+suitable for your projects.</p>
+<p>Tutorial: <a class="reference external" href="http://pandas.pydata.org/pandas-docs/stable/10min.html">http://pandas.pydata.org/pandas-docs/stable/10min.html</a></p>
+<p>Pandas Cheat Sheet:
+<a class="reference external" href="https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf">https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf</a></p>
+</div>
+</div>
+<div class="section" id="other-useful-libraries">
+<h2>Other Useful Libraries<a class="headerlink" href="#other-useful-libraries" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="scipy">
+<h3>Scipy<a class="headerlink" href="#scipy" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://www.scipy.org/">https://www.scipy.org/</a></li>
+</ul>
+<p>According to the SciPy Web page, &#8220;SciPy (pronounced “Sigh Pie”) is a
+Python-based ecosystem of open-source software for mathematics,
+science, and engineering. In particular, these are some of the core
+packages:</p>
+<ul class="simple">
+<li>NumPy</li>
+<li>IPython</li>
+<li>Pandas</li>
+<li>Matplotlib</li>
+<li>Sympy</li>
+<li>SciPy library</li>
+</ul>
+<p>It is thus an agglomeration of useful pacakes and will prbably sufice
+for your projects in case you use Python.</p>
 </div>
 <div class="section" id="ggplot">
 <h3>ggplot<a class="headerlink" href="#ggplot" title="Permalink to this headline">¶</a></h3>
@@ -650,16 +880,15 @@ over data points. It also allows to present the data in a table.</p>
 <li>URL: <a class="reference external" href="http://pygal.org/">http://pygal.org/</a></li>
 </ul>
 </div>
-</div>
 <div class="section" id="network-and-graphs">
-<h2>Network and Graphs<a class="headerlink" href="#network-and-graphs" title="Permalink to this headline">¶</a></h2>
+<h3>Network and Graphs<a class="headerlink" href="#network-and-graphs" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>igraph: <a class="reference external" href="http://www.pythonforsocialscientists.org/t_igraph.html">http://www.pythonforsocialscientists.org/t_igraph.html</a></li>
 <li>networkx: <a class="reference external" href="https://networkx.github.io/">https://networkx.github.io/</a></li>
 </ul>
 </div>
 <div class="section" id="rest">
-<h2>REST<a class="headerlink" href="#rest" title="Permalink to this headline">¶</a></h2>
+<h3>REST<a class="headerlink" href="#rest" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>django REST FRamework <a class="reference external" href="http://www.django-rest-framework.org/">http://www.django-rest-framework.org/</a></li>
 <li>flask <a class="reference external" href="https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask">https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask</a></li>
@@ -676,8 +905,9 @@ over data points. It also allows to present the data in a table.</p>
 <li><a class="reference external" href="https://code.tutsplus.com/tutorials/building-rest-apis-using-eve--cms-22961">https://code.tutsplus.com/tutorials/building-rest-apis-using-eve&#8211;cms-22961</a></li>
 </ul>
 </div>
-<div class="section" id="examples">
-<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="other-examples">
+<h2>Other Examples<a class="headerlink" href="#other-examples" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference internal" href="python_lesson1.html"><span class="doc">Fingerprint Analysis</span></a></li>
 </ul>
