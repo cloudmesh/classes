@@ -196,6 +196,21 @@ Application and Analytics
 
 63. Parasol
 64. Dream:Lab
+
+    DREAM:Lab stands for “Distributed Research on Emerging
+    Applications and Machines Lab.” :cite:`dream` DREAM:Lab is centered
+    around distributed systems research to enable expeditious
+    utilization of distributed data and computing systems. :cite:`dream`
+    DREAM:Lab utilizes the “capabilities of hundereds of personal
+    computers” to allow access to supercomputing resources to average
+    individuals. :cite:`rao` The DREAM:Lab pursues this goal by utilizing
+    distributed computing. :cite:`rao` Distributed computing consists of
+    independent computing resources that communicate with each other
+    over a network. :cite:`denero` A large, complex computing problem is
+    broken down into smaller, more manageable tasks and then these
+    tasks are distributed to the various components of the distributed
+    computing system. :cite:`denero`
+    
 65. Google Fusion Tables
     
     Fusion Tables is a cloud based services, provided by Google for
@@ -346,6 +361,19 @@ Application Hosting Frameworks
 91. Jelastic
 92. Stackato
 93. appfog
+
+    According to :cite:`wee`, “AppFog is a platform as a service (PaaS)
+    provider.” Platform as a service provides a platform for the
+    development of web applications without the necessity of
+    purchasing the software and infrastructure that supports
+    it. :cite:`kepes` PaaS provides an environment for the creation of
+    software. :cite:`kepes` The underlying support infrastructure that AppFog
+    provides includes things such as runtime, middleware, o/s,
+    virtualization, servers, storage, and networking. :cite:`appfog` AppFog
+    is based on VMWare’s CloudFoundry project. :cite:`wee` It gets things
+    such as MySQL, Mongo, Reddis, memCache, etc. running and then
+    manages them. :cite:`tweney`
+    
 94. CloudBees
 95. Engine Yard
 96. (CloudControl)
@@ -916,6 +944,18 @@ SQL(NewSQL)
 
 201. SQLite
 202. MySQL
+
+     MySQL is a relational database management system. :cite:`devmysql` SQL
+     is an acronym for Structured Query Language and is a standardized
+     language used to interact with the databases. :cite:`devmysql`
+     Databases provide structure to a collection of data
+     while. :cite:`devmysql` A database management system allows for the
+     addition, accessing, and processing of the data stored in a
+     database. :cite:`devmysql` Relational databases utilize tables that are
+     broken down into columns, representing the various fields of the
+     table, and rows, which correspond to individual entries in the
+     table. :cite:`howmysql`
+     
 203. PostgreSQL
 
 204. CUBRID
@@ -1026,6 +1066,24 @@ NoSQL
      databases.
 
 223. ZHT
+
+     According to :cite:`datasys`, “ZHT is a zero-hop distributed hash
+     table.” Distributed hash tables effectively break a hash table up
+     and assign different nodes responsibility for managing different
+     pieces of the larger hash table. :cite:`wiley` To retrieve a value in a
+     distributed hash table, one needs to find the node that is
+     responsible for the managing the key value pair of
+     interest. :cite:`wiley` In general, every node that is a part of the
+     distributed hash table has a reference to the closest two nodes
+     in the node list. :cite:`wiley` In a ZHT, however, every node contains
+     information concerning the location of every other node. :cite:`Li`
+     Through this approach, ZHT aims to provide “high availability,
+     good fault tolerance, high throughput, and low latencies, at
+     extreme scales of millions of nodes.” :cite:`Li` Some of the defining
+     characteristics of ZHT are that it is light-weight, allows nodes
+     to join and leave dynamically, and utilizes replication to obtain
+     fault tolerance among others. :cite:`Li`
+     
 224. Berkeley DB
 225. Kyoto/Tokyo Cabinet
 226. Tycoon
@@ -1131,6 +1189,17 @@ NoSQL
      be administered by any JMX compliant tools.
 
 240. RYA
+
+     Rya is a “scalable system for storing and retrieving RDF data in
+     a cluster of nodes.” :cite:`Punnoose` RDF stands for Resource
+     Description Framework. :cite:`Punnoose` RDF is a model that facilitates
+     the exchange of data on a network. :cite:`w3` RDF utilizes a form
+     commonly referred to as a triple, an object that consists of a
+     subject, predicate, and object. :cite:`Punnoose` These triples are used
+     to describe resources on the Internet. :cite:`Punnoose` Through new
+     storage and querying techniques, Rya aims to make accessing RDF
+     data fast and easy. :cite:`apacherya`
+     
 241. Sqrrl
 242. Neo4J
 243. graphdb
