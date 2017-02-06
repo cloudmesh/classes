@@ -1690,14 +1690,15 @@ DevOps
      has been replaced by IBM Blueworks Live." In 
      :cite:`www-blueworks-live2`, IBM Blueworks Live is described "as 
      a cloud-based business process modeller, belonging under the set 
-     of IBM SmartCloud applications" that "drive[s] out 
-     inefficiencies and improve[s] business operations." Similarly to 
-     Google Docs, IBM Blueworks Live is "designed to help organizations 
-     discover and document their business processes, business decisions 
-     and policies in a collaborative manner." While Google Docs and 
-     IBM Blueworks Live are both simple to use in a collaborative 
-     manner, :cite:`www-blueworks-live2` explains that IBM Blueworks 
-     Live has the "capabilities to implement more complex models." 
+     of IBM SmartCloud applications" that as 
+     :cite:`www-blueworks-live` states "drive[s] out inefficiencies 
+     and improve[s] business operations." Similarly to Google Docs, 
+     IBM Blueworks Live is "designed to help organizations discover 
+     and document their business processes, business decisions and 
+     policies in a collaborative manner." While Google Docs and IBM 
+     Blueworks Live are both simple to use in a collaborative manner, 
+     :cite:`www-blueworks-live2` explains that IBM Blueworks Live 
+     has the "capabilities to implement more complex models." 
 
 336. Terraform
 337. DevOpSlang
