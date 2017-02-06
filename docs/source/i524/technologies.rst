@@ -42,6 +42,26 @@ Workflow-Orchestration
 
 8. Triana
 9. Trident
+
+   In :cite:`www-trident-tutorial`, it is explained that Apache Trident 
+   is a "high-level abstraction for doing realtime computing on top of 
+   [Apache] Storm." Similarly to Apache Storm, Apache Trident was 
+   developed by Twitter. Furthermore, :cite:`www-trident-tutorial` 
+   introduces Trident as a tool that "allows you to seamlessly intermix 
+   high throughput (millions of messages per second), stateful stream 
+   processing with low latency distributed querying." In 
+   :cite:`www-trident-overview`, the five kinds of operations in 
+   Trident are described as "Operations that apply locally to each 
+   partition and cause no network transfer", "repartitioning operations 
+   that repartition a stream but otherwise don't change the contents 
+   (involves network transfer)", "aggregation operations that do 
+   network transfer as part of the operation", "operations on grouped 
+   streams" and "merges and joins." In :cite:`www-trident-tutorial`, 
+   these five kinds of operations (i.e. joins, aggregations, grouping, 
+   functions, and filters) and the general concepts of Apache Trident 
+   are described as similar to "high level batch processing tools like 
+   Pig or Cascading."
+
 10. BioKepler
 11. Galaxy
 12. IPython
