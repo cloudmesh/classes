@@ -690,6 +690,21 @@ Inter process communication Collectives
 164. Harp
 165. Netty
 166. ZeroMQ
+
+     In :cite:`www-zeromq`, ZeroMQ is introduced as a software product 
+     that can "connect your code in any language, on any platform" by 
+     leveraging "smart patterns like pub-sub, push-pull, and 
+     router-dealer" to carry "messages accross inproc, IPC, TCP, TIPC, 
+     [and] multicast." In :cite:`www-zeromq2`, it is explained that 
+     ZeroMQ's "asynchronous I/O model" causes this "tiny library" to 
+     be "fast enough to be the fabric for clustered products." In 
+     :cite:`www-zeromq`, it is made clear that ZeroMQ is "backed by a 
+     large and open source community" with "full commercial support." 
+     In contrast to Message Passing Interface (i.e. MPI), which is 
+     popular among parallel scientific applications, ZeroMQ is 
+     designed as a fault tolerant method to communicate across highly 
+     distributed systems. 
+
 167. ActiveMQ
 168. RabbitMQ
 
