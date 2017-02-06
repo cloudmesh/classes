@@ -690,6 +690,21 @@ Inter process communication Collectives
 164. Harp
 165. Netty
 166. ZeroMQ
+
+     In :cite:`www-zeromq`, ZeroMQ is introduced as a software product 
+     that can "connect your code in any language, on any platform" by 
+     leveraging "smart patterns like pub-sub, push-pull, and 
+     router-dealer" to carry "messages across inproc, IPC, TCP, TIPC, 
+     [and] multicast." In :cite:`www-zeromq2`, it is explained that 
+     ZeroMQ's "asynchronous I/O model" causes this "tiny library" to 
+     be "fast enough to be the fabric for clustered products." In 
+     :cite:`www-zeromq`, it is made clear that ZeroMQ is "backed by a 
+     large and open source community" with "full commercial support." 
+     In contrast to Message Passing Interface (i.e. MPI), which is 
+     popular among parallel scientific applications, ZeroMQ is 
+     designed as a fault tolerant method to communicate across highly 
+     distributed systems. 
+
 167. ActiveMQ
 168. RabbitMQ
 
@@ -1699,6 +1714,21 @@ DevOps
 333. Winery
 334. CloudML
 335. Blueprints
+
+     In :cite:`www-blueprints`, it is explained that "IBM Blueprint 
+     has been replaced by IBM Blueworks Live." In 
+     :cite:`www-blueworks-live2`, IBM Blueworks Live is described "as 
+     a cloud-based business process modeller, belonging under the set 
+     of IBM SmartCloud applications" that as 
+     :cite:`www-blueworks-live` states "drive[s] out inefficiencies 
+     and improve[s] business operations." Similarly to Google Docs, 
+     IBM Blueworks Live is "designed to help organizations discover 
+     and document their business processes, business decisions and 
+     policies in a collaborative manner." While Google Docs and IBM 
+     Blueworks Live are both simple to use in a collaborative manner, 
+     :cite:`www-blueworks-live2` explains that IBM Blueworks Live 
+     has the "capabilities to implement more complex models." 
+
 336. Terraform
 337. DevOpSlang
 338. Any2Api
