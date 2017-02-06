@@ -2,6 +2,8 @@
 Python for Big Data
 ===================
 
+.. contents::
+
 An Example with Pandas, NumPy and Matplotlib
 ============================================
 
@@ -66,14 +68,14 @@ start the Python interpreter and load the citations data for Q1 2016
 If the first ``import`` statement seems confusing, take a look at the
 :doc:`Python tutorial <python_intro>`. The next three ``import``
 statements load each of the modules we will use in this example. The
-final line uses Panda's ``read_csv`` function to load the data into a
+final line uses Pandas' ``read_csv`` function to load the data into a
 Pandas ``DataFrame`` data structure.  
 
 Working with DataFrames
 ---------------------------
 
 You can verify that you are working with a ``DataFrame`` and use some
-of its methods to take a look at structure of the data as follows:
+of its methods to take a look at the structure of the data as follows:
 
 .. code:: python
 
@@ -105,11 +107,20 @@ of its methods to take a look at structure of the data as follows:
    Officer Age                   float64
    Officer Sex                    object
    Officer Race                   object
-   DateTime Issued        datetime64[ns]
-   Day of Week Issued             object
    dtype: object
    >>> data.shape
    (200, 15)
+
+As you can see from the ``columns`` field, when the CSV file was read,
+the header line was used to populate the name of the columns in the
+``DataFrame``. In addition, you will notice that ``read_csv``
+correctly inferred the data type of some columns like *Age*, but not
+of others like *Date Issued* and *Time Issued*. ``read_csv`` is a very
+customizable function and in general, you can correct issues like this
+using the ``dtype`` and ``converters`` parameters. In this specific
+case, it makes more sense to combine the *Date Issued* and *Time
+Issued* columns into a new column containing a time stamp. We will see
+how to do this shortly.
 
 You can also look at the data itself with the ``DataFrame``'s
 ``head()`` and ``tail()`` methods:
@@ -121,7 +132,8 @@ You can also look at the data itself with the ``DataFrame``'s
    >>> data.tail()
    <Output omitted for brevity>
    
-``DataFrame``s let you deal with missing values easily:
+In addition to letting you examine your data easily, ``DataFrame``s
+have methods that help you deal with missing values:
 
 .. code:: python
 	  
@@ -132,10 +144,10 @@ Adding columns to the data is also easy. Here, we add two
 columns. First, a `datetime
 <https://docs.python.org/2/library/datetime.html>`_ column that is a
 combination of the ``Date Issued`` and ``Time Issued`` columns
-originally in the data. Seconds, a column identifying what day of the
+originally in the data. Second, a column identifying what day of the
 week each citation was given. To understand this example better, take
 a look at the Python docs for the ``strptime`` and ``strftime``
-functions in the ``datetime`` module.
+functions in the ``datetime`` module linked above.
 
 .. code:: python
 	  
@@ -213,15 +225,7 @@ Saving Plots to PDF
 -------------------
 
 Oftentimes, you will want to save your ``matplotlib`` graph as a PDF
-instead of just viewing it on your screen. We can do this easily using
-the ``PdfPages`` module:
-
-.. code:: python
-	  
-   >>> import matplotlib.patches as mpatches
-   >>> from matplotlib.backends.backend_pdf import PdfPages
-
-The code that generates the histogram is the same as before:
+or an SVG file instead of just viewing it on your screen. For both, we need to create a ``figure`` and plot the histogram as before:
 
 .. code:: python
 	  
@@ -229,11 +233,21 @@ The code that generates the histogram is the same as before:
    >>> ax = fig.add_subplot(1, 1, 1)
    >>> plt.hist(ages, bins=np.max(ages) - np.min(ages))
 
-However, instead of calling ``plt.show()`` we use ``PdfPages`` to save
-the plot in a file:
+Then, instead of calling ``plt.show()`` we can invoke
+``plt.savefig()`` to save as SVG:
+
+.. code:: python
+
+   >>> plt.savefig('hist.svg')
+
+
+If we want to save the figure as PDF instead, we need to use the
+``PdfPages`` module together with ``savefig()``:
 
 .. code:: python
 	  
+   >>> import matplotlib.patches as mpatches
+   >>> from matplotlib.backends.backend_pdf import PdfPages	  
    >>> pp = PdfPages('hist.pdf')
    >>> fig.savefig(pp, format='pdf')
    >>> pp.close()
@@ -243,12 +257,14 @@ Next Steps and Exercises
 
 There is a lot more to working with ``pandas``, ``numpy`` and
 ``matplotlib`` than we can show you here, but hopefully this example
-has piqued your curiosity. Don't worry if you don't understand
-everything. For a more detailed explanation on these modules and the
-examples we did, please take a look at the tutorials below. The
-``numpy`` and ``pandas`` tutorials are mandatory if you want to be
-able to use these modules, and the ``matplotlib`` gallery has many
-useful code examples.
+has piqued your curiosity.
+
+Don't worry if you don't understand
+everything in this example. For a more detailed explanation on these
+modules and the examples we did, please take a look at the tutorials
+below. The ``numpy`` and ``pandas`` tutorials are mandatory if you
+want to be able to use these modules, and the ``matplotlib`` gallery
+has many useful code examples.
 
 Summary of Useful Libraries
 ================
