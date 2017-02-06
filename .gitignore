@@ -15,3 +15,4 @@ build
 *.blg
 .vagrant
 .env
+.ipynb_checkpoints
