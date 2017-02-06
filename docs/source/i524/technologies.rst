@@ -679,13 +679,7 @@ Inter process communication Collectives
 	 
 163. Argo BEAST HPX-5 BEAST PULSAR
 
-     I have done a lot of searching for Argo BEAST HPX-5 BEAST PULSAR
-     on the internet but the only resource I am getting is for HPX-5
-     and not for Argo BEAST HPX-5 BEAST PULSAR. I have contacted
-     Professor Thomas Sterling through email, who is the director of
-     Center for Research in Extreme Scale Technologies (CREST),
-     regarding clarification on Argo BEAST HPX-5 BEAST PULSAR but I
-     did not get any response.
+     Search on the internet was not successsful.
      
 164. Harp
 165. Netty
@@ -1144,7 +1138,7 @@ NoSQL
 
      CBS is written in Erlang/OTP, but generally shortened to just
      Erlang.  In actuality, t is written in "Erlang using components
-     of OTP...alongside some C/C++":cite:`www-erlangcentral-cbs`, It
+     of OTP alongside some C/C++":cite:`www-erlangcentral-cbs`, It
      runs on an Erlang virtual machine known as
      BEAM. :cite:`www-wikipedia-erlang-cbs`
 
