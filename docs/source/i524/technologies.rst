@@ -46,7 +46,7 @@ Workflow-Orchestration
    In :cite:`www-trident-tutorial`, it is explained that Apache Trident 
    is a "high-level abstraction for doing realtime computing on top of 
    [Apache] Storm." Similarly to Apache Storm, Apache Trident was 
-   developed by Twitter. Futhermore, :cite:`www-trident-tutorial` 
+   developed by Twitter. Furthermore, :cite:`www-trident-tutorial` 
    introduces Trident as a tool that "allows you to seamlessly intermix 
    high throughput (millions of messages per second), stateful stream 
    processing with low latency distributed querying." In 
