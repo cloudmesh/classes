@@ -37,8 +37,8 @@ Workflow-Orchestration
    supports wide range of services including WSDL-style and RESTful
    Web Services, BioMart, SoapLab, R, and Excel. Taverna also support
    mechanism to monitor the running workflows using its web browser
-   interface.  In his :cite:`taverna-paper` paper, Daniele Turi
-   presented the formal syntax and operational semantics of Taverna.
+   interface.  In the :cite:`taverna-paper` paper, the formal syntax and 
+   operational semantics of Taverna is explained.
 
 8. Triana
 9. Trident
@@ -998,9 +998,9 @@ SQL(NewSQL)
         integrated with Microsoft Azure cloud platform and available in
         platform-as-a-service mode.
 
-     It is explained that technical architecture of SQL Server in
+     In the book :cite:`book-sqlserver`, the technical architecture of SQL Server in
      OLTP(online transaction processing), hybrid cloud and business
-     intelligence modes :cite:`book-sqlserver`.
+     intelligence modes is explained in detail.
 
 
 
@@ -1155,9 +1155,9 @@ NoSQL
      system called Tokyo Cabinet. Tyrant is also called as Tokyo
      Tyrant. Tyrant is implemented in C and it provides APIs for Perl,
      Ruby and C. Tyrant provides high performance and concurrent
-     access to Tokyo Cabinet. In his blog :cite:`www-tyrant-blog` Matt
-     Yonkovit has explained the results of performance experiments he
-     conducted to compare Tyrant against Memcached and MySQL.
+     access to Tokyo Cabinet. The blog :cite:`www-tyrant-blog` 
+     explains the results of performance experiments between Tyrant and 
+     Memcached + MySQL.
 
      Tyrant was written and maintained by FAL Labs
      :cite:`www-tyrant-fal-labs`.  However, according to FAL Labs,
@@ -1357,13 +1357,12 @@ File management
      :cite:`www-news-fits-2016` newer version of FITS standard
      document was released in July 2016. FITS can be used for
      digitization of contents like books and
-     magzines. :cite:`www-fits-vatican-library` used FITS for long
-     term preservation of their book, manuscripts and other
+     magzines. Vatican Library :cite:`www-fits-vatican-library` used FITS 
+     for long term preservation of their book, manuscripts and other
      collection. Matlab, a language used for technical computing
-     supports fits :cite:`www-fits-matlab`. In his 2011 paper, Keith
-     Wiley :cite:`paper-fits-2011` explained how they performed
-     processing of astronomical images on Hadoop. They used FITS
-     format for data storage.
+     supports fits :cite:`www-fits-matlab`. The 2011 paper
+     :cite:`paper-fits-2011` explains how to perform
+     processing of astronomical images on Hadoop using FITS. 
 
 260. RCFile
 261. ORC
@@ -1690,8 +1689,8 @@ DevOps
      Chef is a configuration management tool. It is implemented in
      Ruby and Erlang. Chef can be used to configure and maintain
      servers on-premise as well as cloud platforms like Amazon EC2,
-     Google Cloud Platform and Open Stack. In this book
-     :cite:`chef-book`, it is mentioned how implementation recipes in
+     Google Cloud Platform and Open Stack. The book
+     :cite:`chef-book` explains the use of concept called 'recipes' in
      Chef to manage server applications and utilities such as database
      servers like MySQL, or HTTP servers like Apache HTPP and systems
      like Apache Hadoop.
@@ -1878,10 +1877,10 @@ IaaS Management from HPC to hypervisors
      that provides auto-scaling and high availability of resources
      deployed over multiple IaaS cloud.  The Nimubs Platform tools are
      cloudinit.d, Phantom and Context Broker.  In this paper
-     :cite:`nimbus-paper` it is mentioned how to used Nimbus Phantom
+     :cite:`nimbus-paper`, the use of Nimbus Phantom
      to deploy auto-scaling solution across multiple NSF FutureGrid
-     clouds. In this implementation Phantom was responsible for
-     deploying instances across multiple clouds and monitoring those
+     clouds is explained. In this implementation Phantom was responsible 
+     for deploying instances across multiple clouds and monitoring those
      instance.  Nimbus platform supports Nimbus, Open Stack, Amazon
      and several other clouds.
 
