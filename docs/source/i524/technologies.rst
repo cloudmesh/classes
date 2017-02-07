@@ -1807,6 +1807,24 @@ DevOps
 331. Gitreceive
 332. OpenTOSCA
 333. Winery
+
+     Eclipse Winery :cite:`www-winery` is a "web-based environment to 
+     graphically model [Topology and Orchestration Specification for 
+     Cloud Applications] TOSCA topologies and plans managing these 
+     topologies." Winery :cite:`winery-paper-2013` is a "tool 
+     offering an HTML5-based environment for graph-based modeling of 
+     application topologies and defining reusable component and 
+     relationship types." This web-based :cite:`winery-paper-2013` 
+     interface enables users to drag and drop icons to create 
+     automated "provisioning, management, and termination of 
+     applications in a portable and interoperable way." 
+     Essentially, this web-based interface :cite:`winery-paper-2013` 
+     allows users to create an application topology, which 
+     "describes software and hardware components involved and 
+     relationships between them" as well a management plan, which 
+     "captures knowledge [regarding how] to deploy and manage an 
+     application."
+
 334. CloudML
 335. Blueprints
 
