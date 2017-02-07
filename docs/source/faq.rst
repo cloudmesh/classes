@@ -943,3 +943,173 @@ correct them. If the original refernce would have been graded it would
 have been graded with a "fail" instead of a "pass".
 
  
+A second example
+~~~~~~~~~~~~~~~~
+
+Lets look at a second obvious example that needs improvement::
+
+  
+  @InProceedings{wettinger-any2api,
+    Title                    = {Any2API - Automated APIfication},
+    Author                   = {Wettinger, Johannes and
+                                Uwe Breitenb{\"u}cher
+                                and Frank Leymann},
+    Booktitle                = {Proceedings of the 5th International
+                                Conference on Cloud Computing and
+				Services Science},
+    Year                     = {2015},
+    Pages                    = {475­486},
+    Publisher                = {SciTePress},
+
+    ISSN                     = {2326-7550},
+    Owner                    = {S17-IO-3005},
+    Url                      = {https://pdfs.semanticscholar.org/1cd4/4b87be8cf68ea5c4c642d38678a7b40a86de.pdf}
+  }
+
+As you can see this entry seems to define all required fields, so we
+could be tempted to stop here. But its good to double check. Lets do
+some queries against ACM, . and google scholar, so we jst type in
+the title, and if this is in a proceedings they should return hopeflly
+a predefined bibtex record for us.
+
+Lets query::
+
+  google: googlescholar Any2API Automated APIfication
+
+We get:
+
+*
+https://scholar.google.de/citations?view_op=view_citation&hl=en&user=j6lIXt0AAAAJ&citation_for_view=j6lIXt0AAAAJ:8k81kl-MbHgC
+
+On that page we see `Cite
+<https://scholar.google.com/scholar_lookup?title=Automated+drug+dispensing+system+reduces+medication+errors+in+an+intensive+care+setting&author=Chapuis&publication_year=2010#>`_
+
+So we find a PDF at
+https://pdfs.semanticscholar.org/1cd4/4b87be8cf68ea5c4c642d38678a7b40a86de.pdf
+
+Lets click on this and the document incldes a bibtex entry such as::
+
+  @inproceedings{Wettinger2015,	
+    author= {Johannes Wettinger and Uwe Breitenb{\"u}cher and Frank
+	     Leymann},
+    title = {Any2API - Automated APIfication},
+    booktitle = {Proceedings of the 5th International Conference on Cloud
+		 Computing and Service Science (CLOSER)},
+    year = {2015},
+    pages = {475--486},
+    publisher = {SciTePress}
+  }	
+
+Now lets add the URL and owner::
+
+  @inproceedings{Wettinger2015,	
+    author= {Johannes Wettinger and Uwe Breitenb{\"u}cher and Frank
+	     Leymann},
+    title = {Any2API - Automated APIfication},
+    booktitle = {Proceedings of the 5th International Conference on Cloud
+		 Computing and Service Science (CLOSER)},
+    year = {2015},
+    pages = {475--486},
+    publisher = {SciTePress},
+    url ={https://pdfs.semanticscholar.org/1cd4/4b87be8cf68ea5c4c642d38678a7b40a86de.pdf},
+    owner = {S17-IO-3005},
+  }	
+
+Should we be satisfied? No, even our
+original information we gathere provided more information. So lets
+continue. Lets googlesearch different queries with ACM or IEEE and the title. When doing
+the IEEE in the example we find an entry called
+
+`dlp: Frank Leyman <http%3A%2F%2Fdblp.uni-trier.de%2Fpers%2Fl%2FLeymann%3AFrank&usg=AFQjCNHCu-66qxWH0zRlPLr4DA8jIo5V-g&sig2=1vYdnGOEiMcLBEMpbeBA7g>`_ 
+
+Lets look at it and we find two entries::
+
+  @inproceedings{DBLP:conf/closer/WettingerBL15,
+    author    = {Johannes Wettinger and
+		 Uwe Breitenb{\"{u}}cher and
+		 Frank Leymann},
+    title     = {{ANY2API} - Automated APIfication - Generating APIs for Executables
+		 to Ease their Integration and Orchestration for Cloud Application
+		 Deployment Automation},
+    booktitle = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
+		 Cloud Computing and Services Science, Lisbon, Portugal, 20-22 May,
+		 2015.},
+    pages     = {475--486},
+    year      = {2015},
+    crossref  = {DBLP:conf/closer/2015},
+    url       = {http://dx.doi.org/10.5220/0005472704750486},
+    doi       = {10.5220/0005472704750486},
+    timestamp = {Tue, 04 Aug 2015 09:28:21 +0200},
+    biburl    = {http://dblp.uni-trier.de/rec/bib/conf/closer/WettingerBL15},
+    bibsource = {dblp computer science bibliography, http://dblp.org}
+  }
+
+  @proceedings{DBLP:conf/closer/2015,
+    editor    = {Markus Helfert and
+		 Donald Ferguson and
+		 V{\'{\i}}ctor M{\'{e}}ndez Mu{\~{n}}oz},
+    title     = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
+		 Cloud Computing and Services Science, Lisbon, Portugal, 20-22 May,
+		 2015},
+    publisher = {SciTePress},
+    year      = {2015},
+    isbn      = {978-989-758-104-5},
+    timestamp = {Tue, 04 Aug 2015 09:17:34 +0200},
+    biburl    = {http://dblp.uni-trier.de/rec/bib/conf/closer/2015},
+    bibsource = {dblp computer science bibliography, http://dblp.org}
+  }
+
+So lets look at the entry and see how to get a better one for our
+purpose to combine them. When using jabref, you see optional and
+required fields, we want to add as many as possible, regardless if
+optional or required, so Lets do that (I I write here in ASCII as
+easier to document::
+  
+
+
+    @InProceedings{,
+      author = 	 {},
+      title = 	 {},
+      OPTcrossref =  {},
+      OPTkey = 	 {},
+      OPTbooktitle = {},
+      OPTyear = 	 {},
+      OPTeditor = 	 {},
+      OPTvolume = 	 {},
+      OPTnumber = 	 {},
+      OPTseries = 	 {},
+      OPTpages = 	 {},
+      OPTmonth = 	 {},
+      OPTaddress = 	 {},
+      OPTorganization = {},
+      OPTpublisher = {},
+      OPTnote = 	 {},
+      OPTannote = 	 {}
+    }
+
+So lets copy and fill out the **form** from our various searches::
+
+    @InProceedings{Wettinger2015any2api,	
+      author    = {Johannes Wettinger and
+  		 Uwe Breitenb{\"{u}}cher and
+  		 Frank Leymann},
+      title     = {{ANY2API} - Automated APIfication - Generating APIs for Executables
+		 to Ease their Integration and Orchestration for Cloud Application
+		 Deployment Automation},
+      booktitle = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
+  		   Cloud Computing and Services Science},
+      year = 	 {2015},
+      editor    = {Markus Helfert and
+ 		   Donald Ferguson and
+		   V{\'{\i}}ctor M{\'{e}}ndez Mu{\~{n}}oz},
+      publisher = {SciTePress},
+      isbn      = {978-989-758-104-5},
+      pages = {475--486},
+      month = {20-22 May},
+      address = 	 {Lisbon, Portugal},
+      doi       = {10.5220/0005472704750486},
+      url ={https://pdfs.semanticscholar.org/1cd4/4b87be8cf68ea5c4c642d38678a7b40a86de.pdf},
+      owner = {S17-IO-3005},
+    }
+
+
