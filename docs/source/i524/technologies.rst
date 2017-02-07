@@ -90,6 +90,36 @@ Workflow-Orchestration
 
 21. Scalding
 22. e-Science Central
+
+    In :cite:`e-science-central-paper-2010`, it is explained 
+    that e-Science Central is designed to address some of the 
+    pitfalls within current Infrastructure as a Service (e.g. 
+    Amazon EC2) and Platform as a Service (e.g. force.com) 
+    services. For instance, in 
+    :cite:`e-science-central-paper-2010`, the "majority of 
+    potential scientific users, access to raw hardware is of 
+    little use as they lack the skills and resources needed to 
+    design, develop and maintain the robust, scalable 
+    applications they require" and furthermore "current 
+    platforms focus on services required for business 
+    applications, rather than those needed for scientific 
+    data storage and analysis." In 
+    :cite:`www-e-science-central`, it is explained that 
+    e-Science Central is a "cloud based platform for 
+    data analysis" which is "portable and can be run on 
+    Amazon AWS, Windows Azure or your own hardware." In 
+    :cite:`e-science-central-paper-2010`, e-Science Central 
+    is further described  as a platform, which "provides 
+    both Software and Platform as a Service for scientific 
+    data management, analysis and collaboration." This 
+    collaborative platform is designed to be scalable while 
+    also maintaining ease of use for scientists. In 
+    :cite:`e-science-central-paper-2010`, "a project 
+    consisting of chemical modeling by cancer researchers" 
+    demonstrates how e-Science Central "allows scientists to 
+    upload data, edit and run workflows, and share results in 
+    the cloud." 
+
 23. Azure Data Factory
 24. Google Cloud Dataflow
 25. NiFi (NSA)
