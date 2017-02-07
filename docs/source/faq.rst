@@ -1113,3 +1113,18 @@ So lets copy and fill out the **form** from our various searches::
     }
 
 
+What are good places to find refernce entries?
+----------------------------------------------
+
+* https://scholar.google.com/
+* http://dl.acm.org/
+* http://ieeexplore.ieee.org/
+* http://dblp.uni-trier.de/
+* http://academic.research.microsoft.com/
+
+  
+
+  
+  
+  
+
