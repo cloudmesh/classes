@@ -32,7 +32,7 @@ http://www.techsupportalert.com/content/how-ask-question-when-you-want-technical
 
 
 What are the prerequisites for this class?
----------------------------------------------------------------------------------------
+------------------------------------------
 
 We have communicated the prerequisites to the university, but they may
 have forgotten to add them to the class.  The perquisites can be found
@@ -85,7 +85,7 @@ do not allow to take online classes. It will be up to you to verify
 the requirements with the appropriate administrators.
 
 I am a residential student at IU. Can I take the online version only?
---------------------------------------------------------------
+---------------------------------------------------------------------
 
 We recommend you take the residential class.
 
@@ -169,7 +169,7 @@ Please follow this
 `link <http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml>`__
 
 How to write a research article on computer science?
----------------------------------------------------
+----------------------------------------------------
 
 #. A good lecture about this is presented by Simon Peyton Jones,
    Microsoft Research https://www.youtube.com/watch?v=g3dkRsTqdDA
@@ -181,7 +181,7 @@ Other resources may inspire you also:
 #. `https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal <https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal>`_
 
 Which bibliography manager is required for the class?
------------------------------------------------------------------
+-----------------------------------------------------
 
 We require you use jabref:
 
@@ -270,7 +270,7 @@ weeks. You will need to work on it all semester long on weekly basis,
 starting with learning how to use ansible and cloud resources.
 
 I524: Why are you doing the papers?
---------------------------------------------
+-----------------------------------
 
 Part of doing research is to communicate your thoughts on topics and
 to be able to analyze and evaluate technologies that may or may not be
@@ -314,7 +314,7 @@ I am lost?
 Please contact the instructors for your class.
 
 I do not like Technology/Topic/Project/etc?
--------------------
+-------------------------------------------
 
 Please contact the instructors for your class.
 
@@ -352,7 +352,7 @@ also that one student asks a question, while the professor answers the
 question to the entire class.
 
 I find the hosting Web confusing
-------------------------------------
+--------------------------------
 
 Once in a while we find that a student finds the hosting of the class
 material on the class Web page confusing. This confusion can be
@@ -382,7 +382,7 @@ python included.
 
 
 How to solve merge conflict in Pull Request?
---------------------------------------------------------
+--------------------------------------------
 
 Make sure you have upstream repo defined::
 
@@ -504,7 +504,7 @@ Trying to build the source with this error::
 
 
 How to sole Merge Conflict in a Pull Request?
-----------------------------------------------------------------------
+---------------------------------------------
 
 .. warning:: THis FAQ seems duplicated. Also you are allowed to point
 	     to content where thsi is already explained with a
@@ -656,7 +656,7 @@ require you to do a rebase. The sooner you do it the easier for you.
  
 
 Outdated Tech ology
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 One of the technology assigned to me is 'Ninefold'. It seems ninefold
 has shutdown their cloud service on January 30, 2016. Should I write a
@@ -701,7 +701,7 @@ it is a bit wordy as the presenter complains bout the difficulties to record vid
 https://www.youtube.com/watch?v=13GS1cLyk-E
 
 Do I generate the SSH key on Ubuntu VM ?
------------------------------------------
+----------------------------------------
 
 I have installed Ubuntu(on virtual box) on my windows 10 system. I
 wanted to confirm if the SSH key should be created on the Ubuntu VM?
@@ -786,7 +786,7 @@ https://cloudmesh.github.io/classes/i524/lectures.html
 
 
 Don't use Anaconda
------------------
+------------------
 
 We use python 2.7.13 for this class. It is better to use Virtualenv
 and pip. And for the IDE, you can use PyCharm. This is the open source
@@ -817,7 +817,7 @@ will be sufficient, since this is the only one you push into.
 
 
 How to properly research a bibtex entry
---------------------------------------------
+---------------------------------------
 
 Often you may find via google a bibtex entry that may need some more
 reserach. Lets assume your first google quesry returns a publication
@@ -1115,18 +1115,28 @@ So lets copy and fill out the **form** from our various searches::
 What are the differnt entry types and fields
 --------------------------------------------
 
-We were asked what are the different entry types and fields, so we did a google query and found the following useful information. please remember that we also have fields such as doi, owner, we will add status ={pass/fail} at time of grading to indicate if the refernce passes or fails. We may assign this to you so you get familiar with the identification if a referncei is ok or not.
+We were asked what are the different entry types and fields, so we did
+a google query and found the following useful information. please
+remember that we also have fields such as doi, owner, we will add
+status ={pass/fail} at time of grading to indicate if the refernce
+passes or fails. We may assign this to you so you get familiar with
+the identification if a referncei is ok or not.
 
 Please see https://en.wikipedia.org/wiki/BibTeX 
 
 Can I write the papers on OSX?
 
-Yes of course you can write papers on OSX. But we support for Ubuntu 16.04, because we consider it as the main OS that we use in this class.
-You can use, VM to install Ubuntu and use it for class work.
+Yes of course you can write papers on OSX. But we support for Ubuntu
+16.04, because we consider it as the main OS that we use in this
+class.  You can use, VM to install Ubuntu and use it for class work.
 
 What is the nature of team collaboration on papers
 --------------------------------------------------
-You can build teams of three. You need to yourself build the team. The web page tells you that there will be no reduction in numbers of papers you write = number of team members * 3, papers can not be combined.
+
+You can build teams of three. You need to yourself build the team. The
+web page tells you that there will be no reduction in numbers of
+papers you write = number of team members * 3, papers can not be
+combined.
 
 
 What are the due dates for assignments
