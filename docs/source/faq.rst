@@ -696,7 +696,12 @@ A video on how to install virtual box on windows 10 can be seen as part of an un
 
 https://www.youtube.com/watch?v=XvCUpZuHgvo 
 
-it is a bit wordy as the presenter complains bout the difficulties to record videos on windows 10, and talks about his course, so just ignore these portions.Naturally use whatever is the newest version.Here is one for Windows 8 which also contains ubuntu install (use the one above on how to install vb on windows 10 and ignore that part form the window bellow) 
+It is a bit wordy as the presenter complains about the difficulties to
+record videos on windows 10, and talks about his course, so just
+ignore these portions. Naturally use whatever is the newest
+version. Here is one for Windows 8 which also contains ubuntu install
+(use the one above on how to install vb on windows 10 and ignore that
+part form the window bellow)
 
 https://www.youtube.com/watch?v=13GS1cLyk-E
 
@@ -705,7 +710,6 @@ Do I generate the SSH key on Ubuntu VM ?
 
 I have installed Ubuntu(on virtual box) on my windows 10 system. I
 wanted to confirm if the SSH key should be created on the Ubuntu VM?
-
 Yes we need to generate ssh on Ubuntu VM, because even it is a VM or a
 real machine we have to set up ssh in order to work with ssh based
 communication, in order to maintain security when you are using an
