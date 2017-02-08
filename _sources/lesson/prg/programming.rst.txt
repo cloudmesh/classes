@@ -163,10 +163,10 @@ Challenge tasks
 
 
 Code Examples
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 Preview Course Examples
--------------------------------------------------------------------------------
+-----------------------
 
 * The Elusive Mr.Higgs [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.Higgs>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs>`_]
 * Number Theory [`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-10_Number-Theory>`_]
@@ -180,7 +180,7 @@ Preview Course Examples
 
   
 Hadoop Cluster Access
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 This document describes getting access to the Hadoop cluster for the course.
 

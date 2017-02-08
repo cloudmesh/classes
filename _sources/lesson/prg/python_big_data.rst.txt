@@ -1,11 +1,10 @@
-===================
 Python for Big Data
 ===================
 
 .. contents::
 
 An Example with Pandas, NumPy and Matplotlib
-============================================
+--------------------------------------------
 
 In this example, we will download some traffic citation data for the
 city of Bloomington, IN, load it into Python and generate a
@@ -267,10 +266,10 @@ want to be able to use these modules, and the ``matplotlib`` gallery
 has many useful code examples.
 
 Summary of Useful Libraries
-================
+---------------------------
 
 Numpy
--------------------
+~~~~~
 
 * http://www.numpy.org/
 
@@ -283,7 +282,7 @@ random number capabilities
 Tutorial: https://docs.scipy.org/doc/numpy-dev/user/quickstart.html
 
 MatplotLib
--------------------
+~~~~~~~~~~
 
 * http://matplotlib.org/
 
@@ -297,7 +296,7 @@ servers, and six graphical user interface toolkits."
 Matplotlib Gallery: http://matplotlib.org/gallery.html
 
 Pandas
--------------------
+~~~~~~
 
 * http://pandas.pydata.org/
 
@@ -315,10 +314,10 @@ Pandas Cheat Sheet:
 https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
 
 Other Useful Libraries
-======================
+----------------------
 
 Scipy
--------------------
+~~~~~
 
 * https://www.scipy.org/
 
@@ -339,7 +338,7 @@ for your projects in case you use Python.
 
 
 ggplot
--------------------
+~~~~~~
 
 * http://ggplot.yhathq.com/
   
@@ -350,7 +349,7 @@ matplotlib directly.
 
 
 seaborn
--------------------
+~~~~~~~
 
 http://www.data-analysis-in-python.org/t_seaborn.html
 
@@ -363,7 +362,7 @@ statistical plots.
 * Additional Tutorial: https://stanford.edu/~mwaskom/software/seaborn/tutorial/distributions.html
 
 Bokeh
--------------------
+~~~~~
 
 Bokeh is an interactive visualization library with focus on 
 web browsers for display. Its goal is to provide a similar experience
@@ -373,7 +372,7 @@ as D3.js
 * Gallery: http://bokeh.pydata.org/en/latest/docs/gallery.html
 
 pygal
--------------------
+~~~~~
 
 Pygal is a simple API to produce graphs that can be easily
 embedded into your Web pages. It contains annotations when you hover
@@ -383,14 +382,14 @@ over data points. It also allows to present the data in a table.
 
   
 Network and Graphs
--------------------
+~~~~~~~~~~~~~~~~~~
 
 * igraph: http://www.pythonforsocialscientists.org/t_igraph.html
 * networkx: https://networkx.github.io/
 
 
 REST
--------------------
+~~~~
 
 * django REST FRamework http://www.django-rest-framework.org/
 * flask https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
@@ -407,6 +406,6 @@ REST
 * https://code.tutsplus.com/tutorials/building-rest-apis-using-eve--cms-22961
 
 Other Examples
-===============
+--------------
 
 - :doc:`Fingerprint Analysis <python_lesson1>`

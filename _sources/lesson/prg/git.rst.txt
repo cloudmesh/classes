@@ -1,9 +1,8 @@
-=====
- Git
-=====
+Git
+===
 
 Install
-~~~~~
+~~~~~~~
 
 Information on how to install git can be found at
 

@@ -10,7 +10,6 @@ Classes
    lesson/index
    notebooks/index
    faq
-   references
    todo
 
 
@@ -19,9 +18,6 @@ Search:
 * :ref:`search`
 * :ref:`genindex`
 
-.. coment::
-   
-  * :ref:`modindex`
 
 
       

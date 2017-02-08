@@ -39,7 +39,7 @@ Install different python versions
    pyenv virtualenv 3.6.0 ENV3
 
 Set upi the Shell
--------------
+-----------------
 
 Include the follwowing in your .bashrc files::
 
