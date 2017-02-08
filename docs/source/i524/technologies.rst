@@ -2221,4 +2221,5 @@ Refernces
 ---------
 
 .. bibliography:: ../refs.bib
+   :style: unsrt
    :cited:
