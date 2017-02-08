@@ -1,13 +1,12 @@
 
 .. _python_intro:
 
-======================
 Introduction to Python
 ======================
 
 
 Acknowledgments
-=================================================================
+---------------
 
 Portions of this lesson have been adapted from the `official Python
 Tutorial`_ copyright `Python Software Foundation`_.
@@ -18,7 +17,7 @@ Tutorial`_ copyright `Python Software Foundation`_.
 .. contents::
    
 Description
-=================================================================
+-----------
 
 Python is an easy to learn programming language. It has efficient
 high-level data structures and a simple but effective approach to
@@ -40,7 +39,7 @@ C). Python is also suitable as an extension language for customizable
 applications.
 
 Philosophy
-------------------
+----------
 
 Python is an interpreted, dynamic, high-level programming language
 suitable for a wide range of applications. The `The Zen of Python`_
@@ -52,7 +51,7 @@ summarizes some of its philosophy including:
 * Readability counts
 
 Features
-----------
+--------
 
 The main features of Python are:
 
@@ -70,7 +69,7 @@ applications, artificial intelligence, software development, and
 information security, to name a few.
 
 About the Tutorial
-=================================================================
+------------------
 
 This tutorial introduces the reader informally to the basic concepts
 and features of the Python language and system. It helps to have a
@@ -88,7 +87,7 @@ modules.
 .. _The Zen of Python: https://www.python.org/dev/peps/pep-0020/
 
 Prerequisite
--------------------
+------------
 
 In order to conduct this lesson you should
 
@@ -99,7 +98,7 @@ In order to conduct this lesson you should
   should identity which works best for you and set it up.
 
 Dependencies
--------------------
+------------
 
 * `Python <https://www.python.org/>`_
 * `Pip <https://pip.pypa.io/en/stable/>`_
@@ -110,7 +109,7 @@ Dependencies
 * `Pandas <http://pandas.pydata.org/>`_
 
 Learning Goals
--------------------
+--------------
 
 At the end of this lesson you will be able to:
 
@@ -122,7 +121,7 @@ At the end of this lesson you will be able to:
 - install Python libraries using ``virtualenv``
 
 Python Installation
-=================================================================
+-------------------
 
 Python is easy to install and very good instructions for most
 platforms can be found on the python.org Web page. We will be using
@@ -140,7 +139,7 @@ from the system installed Python.
 .. _virtualenv_:
 
 virtualenv
-------------------------------------------------------
+----------
 
 Often you have your own computer and you do not like to change its
 environment to keep it in pristine condition. Python comes with mnay
@@ -174,7 +173,7 @@ do not forget to activate it. :ref:``Instructions for this can be
 found in our lesson on Linux <bashrc>`.
 
 Interactive Python
-=================================================================
+------------------
 
 Python can be used interactively.  Start by entering the interactive
 loop by executing the command::
@@ -236,7 +235,7 @@ meaning that ``5 / 2 == 2``, for example. In Python 3, division ``/``
 is *true division*, thus ``5 / 2 == 2.5``.
 
 Statements and Strings
-=================================================================
+----------------------
 
 Let us explore the syntax of Python.  Type into the interactive loop
 and press Enter::
@@ -263,7 +262,7 @@ the ``print`` statement and the ``"Hello world from Python!"`` string, and
 then executed the line, showing you the output.
 
 Variables and Simple Data Types
-=================================================================
+-------------------------------
 
 You can store data into a **variable** to access it later.
 For instance, instead of:
@@ -282,7 +281,7 @@ store the string in a variable for convenient access:
    Hello world from Python!
 
 Booleans
-----------------------------------------------------
+--------
 
 A **boolean** is a value that indicates the "truthness" of something.
 You can think of it as a toggle: either "on" or "off", "one" or
@@ -313,7 +312,7 @@ You can combine booleans with **boolean operators**:
    False
 
 Numbers and Math
-----------------------------------------------------
+----------------
 
 The interactive interpreter can also be used as a calculator.
 For instance, say we wanted to compute a multiple of 21:
@@ -366,7 +365,7 @@ expected:
    -0.6
 
 Types and Using the REPL
-----------------------------------------------------
+------------------------
 
 We have so far seen a few examples of types: **string**\s, **bool**\s,
 **int**\s, and **float**\s.  A **type** indicates that values of that
@@ -409,7 +408,7 @@ You can also ask for help about something using ``help()``:
    go up/down line-by-line, or ``q`` to exit.
 
 Control Statements
-=================================================================
+------------------
 
 Computer programs do not only execute instructions. Occasionally, a
 choice needs to be made. Such as a choice is based on a
@@ -449,7 +448,7 @@ execute multiple conditions using the ``elif`` and ``else`` keywords.
     ... <ENTER>
 
 Iteration
-=================================================================
+---------
 
 To repeat code, the ``for`` keyword can be used. For example, to
 display the numbers from 1 to 10, we could write something like this:
@@ -488,7 +487,7 @@ In this case we have two nested loops. The code will iterate over
 the entire coordinate range (0,0) to (9,9)
 
 Lists
-=================================================================
+-----
 
 see: https://www.tutorialspoint.com/python/python_lists.htm
 
@@ -602,7 +601,7 @@ creates a list of numbers:
   [2, 4, 6, 8]
     
 Sets
-=================================================================
+----
 
 Python lists can contain duplicates as you saw above:
 
@@ -691,7 +690,7 @@ is orders of magnitude faster than in a list. This is important to
 keep in mind when you work with large amounts of data.
 
 Dictionaries
-=================================================================
+------------
 
 One of the very important datastructures in python is a dictionary
 also refered to as *dict*.
@@ -813,7 +812,7 @@ elements of ``coin_flips``, notice a couple things about this example:
    <https://docs.python.org/2/library/functions.html>`_.
 
 Modules
-=================================================================
+-------
 
 Make sure you are no longer in the interactive interpreter.
 If you are you can type ``quit()`` and press Enter to exit.
@@ -918,7 +917,7 @@ Let break this down a bit.
    to insert values into the string we are displaying.
 
 Functions
-=================================================================
+---------
 
 You can reuse code by putting it inside a function that you can call
 in other parts of your programs. Functions are also a good way of
@@ -963,7 +962,7 @@ so it can be reused.
 .. _doc_python_intro_sec_classes:
 
 Classes
-=================================================================
+-------
 
 A class is an encapsulation of data and the processes that work on
 them. The data is represented in member variables, and the processes
@@ -1005,12 +1004,12 @@ refer to the `Python docs on classes and OOP
 <https://docs.python.org/2.7/tutorial/classes.html>`_.
 
 Database Access
-=================================================================
+---------------
 
 see: https://www.tutorialspoint.com/python/python_database_access.htm
    
 Installing Libraries
-=================================================================
+--------------------
 
 Often you may need functionality that is not present in Python's
 standard library.  In this case you have two option:
@@ -1031,7 +1030,7 @@ using ``pip``.
 .. _Virtual_Environments:
 
 Virtual Environments
-=================================================================
+--------------------
 
 Often when you use shared computing resources, such as
 ``india.futuresystems.org`` you will not have permission to install
@@ -1129,7 +1128,7 @@ environment::
    Notice how the shell prompt changed upon activation.
 
 Fixing Bad Code
-=================================================================
+---------------
 
 Let's now look at another important tool for Python development: the
 Python Package Index, or PyPI for short.  PyPI provides a large set of
@@ -1155,7 +1154,7 @@ this is a common problem so there exist a couple packages to help in
 this situation.
 
 Using pip to Install Packages
-=================================================================
+-----------------------------
 
 In order to install package from PyPI, use the ``pip`` command.
 We can search for PyPI for packages::
@@ -1174,7 +1173,7 @@ install the requested packages.
         patch on urllib3 on Python 2.7.9.
 
 Using autopep8
-=================================================================
+--------------
 
 We can now run the bad code through autopep8 to fix formatting
 problems::
@@ -1196,7 +1195,7 @@ flag::
 .. _Python Package Index: https://pypi.python.org/pypi
 
 Further Learning
-=================================================================
+----------------
 
 There is much more to python than what we have covered here:
 
@@ -1215,12 +1214,12 @@ There is much more to python than what we have covered here:
 	  section of your choice addressing the above topics
 
 Writing Python 3 Compatible Code
-=================================================================
+--------------------------------
 
 see: http://python-future.org/compatible_idioms.html
 
 Using Python on FutureSystems
-=================================================================
+-----------------------------
 
 .. warning:: This is only important if you use Futuresystems resources.
 
