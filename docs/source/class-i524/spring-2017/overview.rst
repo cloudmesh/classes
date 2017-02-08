@@ -16,15 +16,12 @@ where is teaching material on ansible:
 
 * http://bdossp-spring2016.readthedocs.io/en/latest/lesson/ansible.html
 * http://bdossp-spring2016.readthedocs.io/en/latest/lesson/ansible_playbook.html
-*
-http://bdossp-spring2016.readthedocs.io/en/latest/lesson/ansible_roles.html
+* http://bdossp-spring2016.readthedocs.io/en/latest/lesson/ansible_roles.html
 
 ANsible official:
 
-* best practice
-  https://docs.ansible.com/ansible/playbooks_best_practices.html
-* ansible:
-  http://docs.ansible.com/ansible/index.html
+* best practice: https://docs.ansible.com/ansible/playbooks_best_practices.html
+* ansible: http://docs.ansible.com/ansible/index.html
   
 .. warning::
 
@@ -227,6 +224,7 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
+
 * ( 1 ) Use lecture free time wisely
 * ( 2 ) Improve your python knowledge while you do your project
 * ( 3 ) If you can not do PRG by Oct 10/14 or have difficulties with it,

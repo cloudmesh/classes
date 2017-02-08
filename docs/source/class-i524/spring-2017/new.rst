@@ -337,12 +337,9 @@ Sun May 31, 2015 `Final Project Report <https://iu.instructure.com/courses/14537
 
 `Video watching V5 due April 14 <https://iu.instructure.com/courses/1453783/assignments/5539762>`__
 
-Course Updates News
--------------------
-
 
 Important Links
-^^^^^^^^^^^^^^^
+---------------
 
 1. `OpenEdx
 Website <https://www.google.com/url?q=http://datascience.scholargrid.org/&sa=D&usg=AFQjCNEs9jixW0pAqsVCRbJGJ5YAjLGKsA>`__\ \_

@@ -446,7 +446,7 @@ Course Updates News
 
 
 Important Links
-^^^^^^^^^^^^^^^
+---------------
 
 1. `OpenEdx
 Website <https://www.google.com/url?q=http://datascience.scholargrid.org/&sa=D&usg=AFQjCNEs9jixW0pAqsVCRbJGJ5YAjLGKsA>`__\ \_
@@ -467,7 +467,7 @@ Website <https://www.google.com/url?q=http://bigdataopensourceprojects.soic.indi
 6. `Syllabus <https://iu.box.com/s/diusiaqpsegmrtk7jxq1510ydy9zini9>`__
 
 Grading
-^^^^^^^
+-------
 
 40% Assignments
 
