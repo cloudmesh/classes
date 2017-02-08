@@ -1140,7 +1140,7 @@ combined.
 
 
 What are the due dates for assignments
--------------------------
+--------------------------------------
 
 Due dates are posed on the Web page calendar.
 
