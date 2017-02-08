@@ -1,6 +1,5 @@
-===============
- Pull Requests
-===============
+Pull Requests
+=============
 
 A Pull Request is a way to propagate changes to an upstream repository.
 
@@ -25,7 +24,7 @@ By creating a Pull Request, the owner of the origin repository can view the chan
 
 
 Procedure
-=========
+---------
 
 #. Go to the GitHub page of the origin repository
 #. Fork it to your account
@@ -36,7 +35,7 @@ Procedure
 #. Create a pull request
 
 Resources
-=========
+---------
 
 
 See GitHub's documentation for submitting pull requests `here
