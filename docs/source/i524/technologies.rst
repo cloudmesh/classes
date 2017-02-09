@@ -713,6 +713,21 @@ Basic Programming model and runtime, SPMD, MapReduce
 
 147. Stratosphere (Apache Flink)
 148. Reef
+
+     REEF (Retainable Evaluator Execution Framework) :cite:`www-reef`
+     is a scale-out computing fabric that eases the development of Big
+     Data applications on top of resource managers such as Apache YARN
+     and Mesos. It is a Big Data system that makes it easy to
+     implement scalable, fault-tolerant runtime environments for a
+     range of data processing models on top of resource managers. REEF
+     provides capabilities to run multiple heterogeneous frameworks
+     and workflows of those efficiently. REEF contains two libraries,
+     Wake and Tang where Wake is an event-based-programming framework
+     inspired by Rx and SEDA and Tang is a dependency injection
+     framework inspired by Google Guice, but designed specifically for
+     configuring distributed systems.
+
+     
 149. Disco
 150. Hama
 151. Giraph
@@ -777,6 +792,19 @@ Inter process communication Collectives
      Search on the internet was not successsful.
      
 164. Harp
+
+     Harp :cite:`www-harp` is a simple, easy to maintain, low risk and
+     easy to scale static web server that also serves Jade, Markdown,
+     EJS, Less, Stylus, Sass, and CoffeeScript as HTML, CSS, and
+     JavaScript without any configuration and requires low cognitive
+     overhead. It supports the beloved layout/partial paradigm and it
+     has flexible metadata and global objects for traversing the file
+     system and injecting custom data into templates. It acts like a
+     lightweight web server that was powerful enough for me to abandon
+     web frameworks for dead simple front-end publishing. Harp can
+     also compile your project down to static assets for hosting
+     behind any valid HTTP server.
+     
 165. Netty
 166. ZeroMQ
 
@@ -1637,6 +1665,23 @@ File systems
 292. FUSE
 293. Gluster
 294. Lustre
+
+     The Lustre file system :cite:`www-lustre` is an open-source,
+     parallel file system that supports many requirements of
+     leadership class HPC simulation environments and Enterprise
+     environments worldwide. Because Lustre file systems have high
+     performance capabilities and open licensing, it is often used in
+     supercomputers.Lustre file systems are scalable and can be part
+     of multiple computer clusters with tens of thousands of client
+     nodes, tens of petabytes of storage on hundreds of servers, and
+     more than a terabyte per second of aggregate I/O
+     throughput. Lustre file systems a popular choice for businesses
+     with large data centers, including those in industries such as
+     meteorology, simulation, oil and gas, life science, rich media,
+     and finance. Lustre provides a POSIX compliant interface and many
+     of the largest and most powerful supercomputers on Earth today
+     are powered by the Lustre file system.
+     
 295. GPFS
 
      IBM General Parallel File System (GPFS) was rebranded to IBM 
