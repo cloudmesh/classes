@@ -165,6 +165,24 @@ Application and Analytics
     this is a common scheme for partitioning temporal data.
 
 36. R
+
+    :cite:`www-R` R, a GNU project, is a successor to S - a
+    statistical programming language. It offers a range of
+    capabilities – “programming language, high level graphics,
+    interfaces to other languages and debugging”. "R is an integrated
+    suite of software facilities for data manipulation, calculation
+    and graphical display". The statistical and graphical techniques
+    provided by R make it popular in the statistical community. The
+    statistical techniques provided include linear and nonlinear
+    modelling, classical statistical tests, time-series analysis,
+    classification and clustering to name a few. :cite:`book-R` The
+    number of packages available in R has made it popular for use in
+    machine learning, visualization, and data operations tasks like
+    data extraction, cleaning, loading, transformation, analysis,
+    modeling and visualization. It's strength lies in analyzing data
+    using its rich library but falls short when working with very
+    large datasets.
+    
 37. pbdR
 
     Programming with Big Data in R (pbdR) :cite:`www-pbdR` is an
@@ -527,6 +545,10 @@ Application Hosting Frameworks
     No Longer active as of Feb. 2016 :cite:`www-wiki`
 
 97. dotCloud
+
+    dotCloud services were shutdown on February 29,2016
+    :cite:`www-dotCloud`
+
 98. Dokku
 99. OSGi
 100. HUBzero
@@ -747,7 +769,26 @@ Basic Programming model and runtime, SPMD, MapReduce
 ----------------------------------------------------------------------
 
 143. Hadoop
-144. Spark
+144. Spark :cite:`www-spark`
+
+     Apache Spark which is an open source cluster computing framework
+     has emerged as the next generation big data processing engine
+     surpassing Hadoop MapReduce. "Spark engine is developed for
+     in-memory processing as well a disk based processing. This system
+     also provides large number of impressive high level tools such as
+     machine learning tool M Lib, structured data processing, Spark
+     SQL, graph processing took Graph X, stream processing engine
+     called Spark Streaming, and Shark for fast interactive question
+     device." The ability of spark to join datasets across various
+     heterogeneous data sources is one of its prized
+     attributes. Apache Spark is not the most suitable data analysis
+     engine when it comes to processing (1) data streams where latency
+     is the most crucial aspect and (2) when the available memory for
+     processing is restricted. "When available memory is very limited,
+     Apache Hadoop Map Reduce may help better, considering huge
+     performance gap." In cases where latency is the most crucial
+     aspect we can get better results using Apache Storm.
+     
 145. Twister
 
 146. MR-MPI
@@ -1384,6 +1425,27 @@ NoSQL
 
 232. IBM Cloudant
 233. Pivotal Gemfire
+     
+     According to :cite:`www-gemfire`, a real-time, consistent access
+     to data-intensive applications is provided by a open source, data
+     management platform named Pivotal Gemfire. "GemFire pools memory,
+     CPU, network resources, and optionally local disk across multiple
+     processes to manage application objects and behavior". The main
+     features of Gemfire are high scalability, continuous
+     availability, shared nothing disk persistence, heterogeneous data
+     sharing and parallelized application behavior on data stores to
+     name a few.  In Gemfire, clients can subscribe to receive
+     notifications to execute their task based on a specific change in
+     data. This is achieved through the continuous querying feature
+     which enables event-driven architecture. The shared nothing
+     architecture of Gemfire suggests that each node is
+     self-sufficient and independent, which means that if the disk or
+     caches in one node fail the remaining nodes remaining
+     untouched. Additionally, the support for multi-site
+     configurations enable the user to scale horizontally between
+     different distributed systems spread over a wide geographical
+     network.
+     
 234. HBase
 235. Google Bigtable
 
@@ -1712,6 +1774,25 @@ File systems
 288. Haystack
 289. f4
 290. Cinder
+      
+     "Cinder is a block storage service for Openstack"
+     :cite:`wiki-Cinder`. According to :cite:`book-Cinder` Openstack
+     Compute uses ephemeral disks meaning that they exist only for the
+     life of the Openstack instance i.e. when the instance is
+     terminated the disks disappear. Block storage system is a type of
+     persistent storage that can be used to persist data beyond the
+     life of the instance. Cinder provides users with access to
+     persistent block-level storage devices. It is designed such that
+     users can create block storage devices on demand and attach them
+     to any running instances of OpenStack
+     Compute. :cite:`wiki-Cinder` This is achieved through the use of
+     either a reference implementation(LVM) or plugin drivers for
+     other storage. Cinder virtualizes the management of block storage
+     devices and provides end users with a self-service API to request
+     and consume those resources without requiring any knowledge of
+     where their storage is actually deployed or on what type of
+     device.
+     
 291. Ceph
 292. FUSE
 293. Gluster
