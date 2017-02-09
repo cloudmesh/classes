@@ -1,4 +1,5 @@
-
+:orphan:
+   
 Overview
 ========
 
@@ -686,7 +687,7 @@ Teaching Assistants
 Hyungro Lee
 ~~~~~~~~~~~
 
-.. image:: ../../images/Hyungro.png
+.. image:: ../../images/Hyungro.jpg
 
 
 Hyungro Lee is a PhD candidate in Computer Science at Indiana University
@@ -708,7 +709,7 @@ and cloud computing
 Jerome Mitchell
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/jerome.jpg
+.. image:: ../../images/jerome.png
 
 Jerome Mitchell is a Ph.D candidate in computer science at Indiana
 University and is interested in coupling the fields of computer and

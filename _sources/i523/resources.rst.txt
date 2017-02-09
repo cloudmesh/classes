@@ -1,3 +1,5 @@
+:orphan:
+   
 * ----------------------------
 * http://www.gartner.com/technology/home.jsp and many web links
 * Meeker/Wu May 29 2013 Internet Trends D11 Conference http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013

@@ -33,7 +33,7 @@ Homework Submission is done as follows:
 #. All assignments will be posted through Canvas
 #. You will be provided with a GitLab folder once you register at https://about.gitlab.com/
 #. You will complete your assignments and check in your solutions to
-   your gitlab.com repository (see :doc:`gitlab`)
+   your gitlab.com repository (see :doc:`../../lesson/prg/gitlab`)
 #. You will submit to canvas a link to your solution in gitlab
 
 Study groups
@@ -97,19 +97,19 @@ Survey 1
 
 Please fill out the `Survey <https://goo.gl/forms/25LQnC5kUOUmM4DV2>`_
 to let us help you better with the course
-
+s
 
       
 Video V1
 ^^^^^^^^
 
-    Watch Videos in Section 1: Units 1 and 2 at the Course Page :doc:`course`
+    Watch Videos in Section 1: Units 1 and 2 at the Course Page :doc:`../course`
 
 
 Video V2
 ^^^^^^^^
     Watch Videos in Section 2: Units 3, 4, and 5. Note these units
-    have overlap with Unit 2 of Section 1. (see :doc:`course`)
+    have overlap with Unit 2 of Section 1. (see :doc:`../course`)
 
 Discussion d1
 ^^^^^^^^^^^^^
@@ -180,7 +180,7 @@ Week 2
 
 Video V3
 ~~~~~~~~
-      Please watch Section 3 Unit 6. Total Length 2.5 hours, (see :doc:`course`)
+      Please watch Section 3 Unit 6. Total Length 2.5 hours, (see :doc:`../course`)
       	   
 Discussion d3
 ^^^^^^^^^^^^^
@@ -244,7 +244,7 @@ Week 3
 Video V4
 ^^^^^^^^
 
-      Please watch Section 4 Unit 7-9. Total Length 3.5 hours (see :doc:`course`).
+      Please watch Section 4 Unit 7-9. Total Length 3.5 hours (see :doc:`../course`).
 	  
       
 Discussion d4
@@ -470,7 +470,7 @@ Week 5
 
 Video S6
 ^^^^^^^^
-      Watch the video in Section 6 (see :doc:`course`).
+      Watch the video in Section 6 (see :doc:`../course`).
 
 Futuresystems
 ^^^^^^^^^^^^^
@@ -508,8 +508,9 @@ OpenStack
       
 prg2 (canceled)
 ^^^^^^^^^^^^^^^
-	 Consider the Python code available on Section 6 Unit 13
- 	 “Files” tab (the third one) as HiggsClassIIUniform.py.
+
+         Consider the Python code available on Section 6 Unit 13
+ 	 *Files* tab (the third one) as HiggsClassIIUniform.py.
 	 This software is also available When run it should produce
 	 results like the file TypicalResultsHW5.docx on the same tab.
 	 This code corresponds to 42000 background events and 300
@@ -519,7 +520,7 @@ prg2 (canceled)
 	 experiments with a factor of 10 more or a factor of 10 less
 	 data. (Both Higgs and Background increase or decrease by same
 	 factor). Return the two new figures and your code as
-	 Homework in github under the folder *prg2".
+	 Homework in github under the folder *prg2*.
 
 	 What do you conclude from figures about ability to see Higgs
 	 particle with different amount of data (corresponding to
@@ -530,6 +531,7 @@ prg2 (canceled)
 
 	 https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs
 
+	 
 Discussion d6
 ^^^^^^^^^^^^^
 	   Post on Discussion d6_ after Section 7, the “Physics” topic:
@@ -545,7 +547,7 @@ Week 6
 
 Video S7
 ^^^^^^^^
-      Watch the videos in section 7 (see :doc:`course`).
+      Watch the videos in section 7 (see :doc:`../course`).
 
 Discussion d7
 ^^^^^^^^^^^^^
@@ -571,7 +573,7 @@ Week 8
 
 Video S9
 ^^^^^^^^
-      Watch the videos related to Section 9 (see :doc:`course`).
+      Watch the videos related to Section 9 (see :doc:`../course`).
 
 Discussion d9
 ^^^^^^^^^^^^^
@@ -591,7 +593,7 @@ Week 9
 
 Video S10
 ^^^^^^^^^
-      Watch the videos related to Section 10 (see :doc:`course`).
+      Watch the videos related to Section 10 (see :doc:`../course`).
 
 Discussion d10
 ^^^^^^^^^^^^^^
@@ -730,8 +732,7 @@ format. The MSWord template can be found here:
 
 * :download:`paper-report.docx <files/paper-report.docx>`
 
-* The URL is 
-https://gitlab.com/cloudmesh/fall2016/blob/master/docs/source/files/paper-report.docx
+* The URL is https://gitlab.com/cloudmesh/fall2016/blob/master/docs/source/files/paper-report.docx
 
 
 A LaTeX version can be found at

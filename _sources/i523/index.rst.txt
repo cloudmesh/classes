@@ -1,3 +1,5 @@
+:orphan:
+
 I523 Big Data Applications and Analytics
 ========================================
 
@@ -14,9 +16,9 @@ I523 Big Data Applications and Analytics
    overview
    course
    faq
-   refcards
-   assignments
-   gitlab
+   ../lessons/linux/refcards
+   assignments/assignments
+   ../lesson/prg/gitlab
    projects
 	      
 .. toctree::

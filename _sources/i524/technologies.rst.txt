@@ -19,7 +19,6 @@ Workflow-Orchestration
 
 1. ODE
 2. ActiveBPEL
-   S17-IR-2002
 3. Airavata
 4. Pegasus
 5. Kepler
