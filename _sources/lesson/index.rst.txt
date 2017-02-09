@@ -12,5 +12,6 @@ Lessons
    prg/index
    data/index
    projects/index
+   projects/draft
    iaas/index
    devops/index

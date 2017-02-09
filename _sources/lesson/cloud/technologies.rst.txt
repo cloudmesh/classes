@@ -53,4 +53,6 @@ Refernces
 
 .. rubric:: References
    
-.. bibliography:: refs.bib    
+.. bibliography:: ../../refs.bib    
+   :style: unsrt
+   :cited:
