@@ -1,3 +1,5 @@
+:orphan:
+
 .. _hw_references:
    
 Homework References

@@ -19,7 +19,6 @@ Workflow-Orchestration
 
 1. ODE
 2. ActiveBPEL
-   S17-IR-2002
 3. Airavata
 4. Pegasus
 5. Kepler
@@ -247,10 +246,33 @@ Application and Analytics
 54. DL4j
 55. H2O
 56. IBM Watson
+
+    IBM Watson :cite:`www-ibmwatson-wiki` is a super computer built on
+    cognitive technology that processes information like the way human
+    brain does by understanding the data in a natural language as well
+    as analyzing structured and unstructured data. It was initially
+    developed as a question and answer tool more specifically to
+    answer questions on the quiz show "Jeopardy" but now it has been
+    seen as helping doctors and nurses in the treatment of cancer. It
+    was developed by IBM's DeepQA research team led by David
+    Ferrucci. :cite:`www-ibmwatson` illustrates that with Watson you
+    can create bots that can engage in conversation with you. You can
+    even provide personalized recommendations to Watson by
+    understanding a user's personality, tone and emotion. Watson uses
+    the Apache Hadoop framework in order to process the large volume
+    of data needed to generate an answer by creating in-memory
+    datasets used at run-time. Watson's DeepQA UIMA (Unstructured
+    Information Management Architecture) annotators were deployed as
+    mappers in the Hadoop Map-Reduce framework. Watson is written in
+    multiple programming languages like Java, C++, Prolog and it runs
+    on the SUSE Linux Enterprise Server. :cite:`www-ibmwatson`
+    mentions that today Watson is available as a set of open source
+    APIs and Software As a Service product as well.
+    
 57. Oracle PGX
 58. GraphLab
 
-    :cite:`www- GraphLab` is a graph-based, distributed computation,
+    GraphLab :cite:`www-graphlab` is a graph-based, distributed computation,
     high performance framework for machine learning written in C++. It
     is an open source project started by Prof. Carlos Guestrin of
     Carnegie Mellon University in 2009, designed considering the
@@ -330,6 +352,35 @@ Application and Analytics
 66. CINET
 67. NWB
 68. Elasticsearch
+
+    Elasticsearch :cite:`www-elasticsearch` is a real time
+    distributed, RESTful search and analytics engine which is capable
+    of performing full text search operations for you. It is not just
+    limited to full text search operations but it also allows you to
+    analyze your data, perform CRUD operations on data, do basic text
+    analysis including tokenization and
+    filtering. :cite:`www-elasticsearch-intro` For example while
+    developing an E-commerce website, Elasticsearch can be used to
+    store the entire product catalog and inventory and can be used to
+    provide search and autocomplete suggestions for the
+    products. Elasticsearch is developed in Java and is an open source
+    search engine which uses standard RESTful APIs and JSON on
+    top of Apache's Lucene - which is a full text search engine
+    library. Clinton Gormley & Zachary Tong :cite:`elasticsearch-book`
+    describes elastic search as "A distributed real time document
+    store where every field is indexed and searchable". They also
+    mention that "Elastic search is capable of scaling to hundreds of
+    servers and petabytes of structured and unstructured
+    data". :cite:`www-elasticsearch-hadoop` mentions that Elastic
+    search can be used on big data by using the Elasticsearch-Hadoop
+    (ES-Hadoop) connector. ES-Hadoop connector lets you index the
+    Hadoop data into the Elastic Stack to take full advantage of the
+    Elasticsearch engine and returns output through Kibana
+    visualizations. :cite:`www-wikipedia-elasticsearch` A log parsing
+    engine "Logstash" and analytics and visualization platform
+    "Kibana" are also developed alongside Elasticsearch forming a
+    single package.
+    
 69. Kibana
 70. Logstash
 71. Graylog
@@ -713,6 +764,21 @@ Basic Programming model and runtime, SPMD, MapReduce
 
 147. Stratosphere (Apache Flink)
 148. Reef
+
+     REEF (Retainable Evaluator Execution Framework) :cite:`www-reef`
+     is a scale-out computing fabric that eases the development of Big
+     Data applications on top of resource managers such as Apache YARN
+     and Mesos. It is a Big Data system that makes it easy to
+     implement scalable, fault-tolerant runtime environments for a
+     range of data processing models on top of resource managers. REEF
+     provides capabilities to run multiple heterogeneous frameworks
+     and workflows of those efficiently. REEF contains two libraries,
+     Wake and Tang where Wake is an event-based-programming framework
+     inspired by Rx and SEDA and Tang is a dependency injection
+     framework inspired by Google Guice, but designed specifically for
+     configuring distributed systems.
+
+     
 149. Disco
 150. Hama
 151. Giraph
@@ -777,6 +843,19 @@ Inter process communication Collectives
      Search on the internet was not successsful.
      
 164. Harp
+
+     Harp :cite:`www-harp` is a simple, easy to maintain, low risk and
+     easy to scale static web server that also serves Jade, Markdown,
+     EJS, Less, Stylus, Sass, and CoffeeScript as HTML, CSS, and
+     JavaScript without any configuration and requires low cognitive
+     overhead. It supports the beloved layout/partial paradigm and it
+     has flexible metadata and global objects for traversing the file
+     system and injecting custom data into templates. It acts like a
+     lightweight web server that was powerful enough for me to abandon
+     web frameworks for dead simple front-end publishing. Harp can
+     also compile your project down to static assets for hosting
+     behind any valid HTTP server.
+     
 165. Netty
 166. ZeroMQ
 
@@ -1637,6 +1716,23 @@ File systems
 292. FUSE
 293. Gluster
 294. Lustre
+
+     The Lustre file system :cite:`www-lustre` is an open-source,
+     parallel file system that supports many requirements of
+     leadership class HPC simulation environments and Enterprise
+     environments worldwide. Because Lustre file systems have high
+     performance capabilities and open licensing, it is often used in
+     supercomputers.Lustre file systems are scalable and can be part
+     of multiple computer clusters with tens of thousands of client
+     nodes, tens of petabytes of storage on hundreds of servers, and
+     more than a terabyte per second of aggregate I/O
+     throughput. Lustre file systems a popular choice for businesses
+     with large data centers, including those in industries such as
+     meteorology, simulation, oil and gas, life science, rich media,
+     and finance. Lustre provides a POSIX compliant interface and many
+     of the largest and most powerful supercomputers on Earth today
+     are powered by the Lustre file system.
+     
 295. GPFS
 
      IBM General Parallel File System (GPFS) was rebranded to IBM 
@@ -1661,6 +1757,23 @@ File systems
      restores, and private clouds. :cite:`www-spectrumscale`
 
 296. GFFS
+
+     The Global Federated File System (GFFS) :cite:`www-gffs` is a
+     computing technology that allows linking of data from Windows,
+     Mac OS X, Linux, AFS, and Lustre file systems into a global
+     namespace, making them available to multiple systems. It is a
+     federated, secure, standardized, scalable, and transparent
+     mechanism to access and share resources across organizational
+     boundaries It is useful when, for data resources, boundaries do
+     not require application modification and do not disrupt existing
+     data access patterns. It uses FUSE to handle access control and
+     allows research collaborators on remote systems to access a
+     shared file system. Existing applications can access resources
+     anywhere in the GFFS without modification. It helps in rapid
+     development of code, which can then be exported via GFFS and
+     implemented in-place on a given computational resource or Science
+     Gateway.
+     
 297. Public Cloud: Amazon S3
 298. Azure Blob
 299. Google Cloud Storage
