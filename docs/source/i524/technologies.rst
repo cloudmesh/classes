@@ -247,6 +247,29 @@ Application and Analytics
 54. DL4j
 55. H2O
 56. IBM Watson
+
+    IBM Watson :cite:`www-ibmwatson-wiki` is a super computer built on
+    cognitive technology that processes information like the way human
+    brain does by understanding the data in a natural language as well
+    as analyzing structured and unstructured data. It was initially
+    developed as a question and answer tool more specifically to
+    answer questions on the quiz show "Jeopardy" but now it has been
+    seen as helping doctors and nurses in the treatment of cancer. It
+    was developed by IBM's DeepQA research team led by David
+    Ferrucci. :cite:`www-ibmwatson` illustrates that with Watson you
+    can create bots that can engage in conversation with you. You can
+    even provide personalized recommendations to Watson by
+    understanding a user's personality, tone and emotion. Watson uses
+    the Apache Hadoop framework in order to process the large volume
+    of data needed to generate an answer by creating in-memory
+    datasets used at run-time. Watson's DeepQA UIMA (Unstructured
+    Information Management Architecture) annotators were deployed as
+    mappers in the Hadoop Map-Reduce framework. Watson is written in
+    multiple programming languages like Java, C++, Prolog and it runs
+    on the SUSE Linux Enterprise Server. :cite:`www-ibmwatson`
+    mentions that today Watson is available as a set of open source
+    APIs and Software As a Service product as well.
+    
 57. Oracle PGX
 58. GraphLab
 
@@ -330,6 +353,35 @@ Application and Analytics
 66. CINET
 67. NWB
 68. Elasticsearch
+
+    Elasticsearch :cite:`www-elasticsearch` is a real time
+    distributed, RESTful search and analytics engine which is capable
+    of performing full text search operations for you. It is not just
+    limited to full text search operations but it also allows you to
+    analyze your data, perform CRUD operations on data, do basic text
+    analysis including tokenization and
+    filtering. :cite:`www-elasticsearch-intro` For example while
+    developing an E-commerce website, Elasticsearch can be used to
+    store the entire product catalog and inventory and can be used to
+    provide search and autocomplete suggestions for the
+    products. Elasticsearch is developed in Java and is an open source
+    search engine which uses standard RESTful APIs and JSON on
+    top of Apache's Lucene - which is a full text search engine
+    library. Clinton Gormley & Zachary Tong :cite:`elasticsearch-book`
+    describes elastic search as "A distributed real time document
+    store where every field is indexed and searchable". They also
+    mention that "Elastic search is capable of scaling to hundreds of
+    servers and petabytes of structured and unstructured
+    data". :cite:`www-elasticsearch-hadoop` mentions that Elastic
+    search can be used on big data by using the Elasticsearch-Hadoop
+    (ES-Hadoop) connector. ES-Hadoop connector lets you index the
+    Hadoop data into the Elastic Stack to take full advantage of the
+    Elasticsearch engine and returns output through Kibana
+    visualizations. :cite:`www-wikipedia-elasticsearch` A log parsing
+    engine "Logstash" and analytics and visualization platform
+    "Kibana" are also developed alongside Elasticsearch forming a
+    single package.
+    
 69. Kibana
 70. Logstash
 71. Graylog
