@@ -1928,6 +1928,7 @@ DevOps
      Chef is available in open source version and it also has
      commercial products for the companies which need it
      :cite:`www-chef-commercial`
+
 312. Ansible
 
      Ansible is an IT automation tool that automates cloud
