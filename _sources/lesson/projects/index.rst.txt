@@ -10,9 +10,9 @@ Software Projects
 
 Please read the information in the overview page at
 
-*
-http://bdaafall2016.readthedocs.io/en/latest/overview.html#software-project
+* http://bdaafall2016.readthedocs.io/en/latest/overview.html#software-project
 
+  
 After doing so please return to this page. Identify a project suitable
 for this class, propose it and work on it.
 
@@ -22,6 +22,7 @@ lower sections:
 #. Deployment
 #. Analytics
 
+   
 You may propose a project in one of these categories, if you are doing
 a software projects.
 
@@ -99,6 +100,7 @@ All software projects must:
      This shows how A changes with regards to B, indicating that under
      conditions X, Y, Z, Alpha is 42 times better than otherwise.
 
+     
 Deployment Projects
 -------------------
 
@@ -137,6 +139,7 @@ It is allowable to use
 * AWS (your own cost)
 * Azure (your own cost)
 
+  
 for your projects. Note that on powerful desktop machines even
 virtualbox can run multiple vms.  Use of docker is allowed, but you
 must make sure to use docker properly. In the past we had students
@@ -175,6 +178,7 @@ See also https://docs.google.com/document/d/1KylDsRBmVbCZSqGpRbzYwdzUGKFi92bkATw
 - deploy NIST Big Data Analytics for Healthcare Data and Health Informatics
 - deploy NIST Data Warehousing and Data mining
 
+  
 Deployment projects must have EASY installation setup just as we
 demonstrated in the ubuntu image.
 
@@ -252,11 +256,18 @@ Identify someone that has experience with android and/or iphone
 programming Design an application that preferably works on iphone and
 android that allows a user while driving to
  
-* call a number to report roadkill via voice and submitting the gps coordinates
-*  have a button on the phone that allows the gps coordinates to be collected and allow upload either live, or when the user presses another butten.
-*  have provisions in the application that allow you to augment the data
-*  have an html page that displays the data 
-*  test it out within users of this class (remember we have world wide audience) 
+* call a number to report roadkill via voice and submitting the gps
+  coordinates
+* have a button on the phone that allows the gps coordinates to be
+  collected and allow upload either live, or when the user presses
+  another butten.
+* have provisions in the application that allow you to augment the
+  data
+* have an html page that displays the data 
+* test it out within users of this class (remember we have world wide
+  audience)
+
+
 Make sure the app is ready early so others can test and use it and you can collect data.
  
 Before starting the project identify if such an application already exists.
@@ -285,7 +296,7 @@ Do a comprehensive literature review
 Some ideas:
 
 * Develop a graph view application in JS that showcases
-dependencies between coauthors, institutions 
+  dependencies between coauthors, institutions 
 
 * Derive probabilities for the publications written by an auther given
   they are the same
@@ -302,17 +313,16 @@ dependencies between coauthors, institutions
 
 * Prepare som interactive vizualization
 
+  
 A possible good start is a previous project published at
 
 * https://github.com/scienceimpact/bibliometric
 
 There are also some screenshots available:
 
-*
-https://github.com/scienceimpact/bibliometric/blob/master/Project%20Screenshots/Relationship_Authors_Publications.PNG
+* https://github.com/scienceimpact/bibliometric/blob/master/Project%20Screenshots/Relationship_Authors_Publications.PNG
 
-*
-https://github.com/scienceimpact/bibliometric/blob/master/Project%20Screenshots/Relationship_Authors_Publications2_Clusters.PNG
+* https://github.com/scienceimpact/bibliometric/blob/master/Project%20Screenshots/Relationship_Authors_Publications2_Clusters.PNG
 
   
 

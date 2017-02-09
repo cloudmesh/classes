@@ -60,7 +60,8 @@ Index
 :ref:`genindex`
 
 
-.. comment::
+..
+   COMMENT
 
    lesson/index
    notebooks/index

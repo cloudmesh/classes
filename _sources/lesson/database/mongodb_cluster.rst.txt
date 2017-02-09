@@ -141,7 +141,7 @@ Replica Set to deploy replica sets for each shard.
   is a replica set, specify the name of the replica set and specify a member of
   the set. In production deployments, all shards should be replica sets.
 
-.. optional:: You can instead use the addShard database command, which lets you
+.. note:: You can instead use the addShard database command, which lets you
    specify a name and maximum size for the shard. If you do not specify these,
    MongoDB automatically assigns a name and maximum size. To use the database
    command, see addShard.

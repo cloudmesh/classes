@@ -140,7 +140,7 @@ prefer editors such as emacs/
 
 
 LyX
-----------------------------
+---
 
 We have made very good experiences with Lyx. You must assure that the
 team you work with uses it consistently and that you all use the same version.
@@ -157,7 +157,7 @@ not included by default. However the above link clearly documents how
 to fix this.
 
 WYSIWYG locally
-----------------------------
+---------------
 
 We have found that editors such as Lyx and Auctex provide very good
 WYSIWYG alike features. However, we found an even easier way while
@@ -177,7 +177,7 @@ editing in one window, while seeing the results in the other.
    Skim can be found at: http://skim-app.sourceforge.net/
 
 Installation
------------
+------------
 
 Local Install
 ^^^^^^^^^^^^^
@@ -347,7 +347,7 @@ you just use jabref. Furthermore its free and runs on all platforms.
 
 
 jabref
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 Jabref is a very simple to use bibliography manager for LaTeX and
 other systems. It cand create a multitude of bibliography file formats
@@ -409,7 +409,7 @@ may not work with word or other programs.
 
 
 Endnote
-~~~~~~~~
+~~~~~~~
 
 Endnote os a reference manager that works with Windows. Many people
 use endnote. However, in the past endnote has lead to complications
@@ -422,7 +422,7 @@ free at Indiana University.
 
 
 Mendeley
-~~~~~~~~~
+~~~~~~~~
 
 Mendeley is a free reference manager compatible with Windows Word 2013,
 Mac Word 2011, LibreOffice, BibTeX. Videos on how to use it are
@@ -453,7 +453,7 @@ We have limited experience with zotero
 
 
 Slides
-----------------------
+------
 
 Slides are best produced with the seminar package:
 

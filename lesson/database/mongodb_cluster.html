@@ -684,6 +684,13 @@ is a replica set, specify the name of the replica set and specify a member of
 the set. In production deployments, all shards should be replica sets.</p>
 </li>
 </ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can instead use the addShard database command, which lets you
+specify a name and maximum size for the shard. If you do not specify these,
+MongoDB automatically assigns a name and maximum size. To use the database
+command, see addShard.</p>
+</div>
 <p>The following are examples of adding a shard with sh.addShard():</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span> <span class="o">*</span> <span class="n">To</span> <span class="n">add</span> <span class="n">a</span> <span class="n">shard</span> <span class="k">for</span> <span class="n">a</span> <span class="n">replica</span> <span class="nb">set</span> <span class="n">named</span> <span class="n">rs1</span> <span class="k">with</span> <span class="n">a</span> <span class="n">member</span> <span class="n">running</span> <span class="n">on</span> <span class="n">port</span>
    <span class="mi">27017</span> <span class="n">on</span> <span class="n">mongodb0</span><span class="o">.</span><span class="n">example</span><span class="o">.</span><span class="n">net</span><span class="p">,</span> <span class="n">issue</span> <span class="n">the</span> <span class="n">following</span> <span class="n">command</span><span class="p">::</span>

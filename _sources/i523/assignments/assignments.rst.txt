@@ -319,10 +319,12 @@ Video V5
 
    see next section 
  
-.. comment::
+..
+   COMMENT
    
-      Please watch Section 5 Units 10, 11. Total Length 2.5 hours.
+   Please watch Section 5 Units 10, 11. Total Length 2.5 hours.
 
+   
 Development Virtual Machine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -601,7 +603,8 @@ Programming prg-geo
 
         PRG-GEO can be found here: :ref:`geolocation`
 
-	.. comment::
+	..
+	   COMMENT
 	   
            Develop a python program conducting k-means. Use a
            meaningful dataset of your choice but not just

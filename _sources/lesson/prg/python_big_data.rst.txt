@@ -13,7 +13,7 @@ libraries for working with big data such as `numpy <www.numpy.org>`_,
 `pandas <pandas.pydata.org>`_ and `matplotlib <matplotlib.org>`_.
 
 Set Up Directories and Get Test Data
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Data.gov is a government portal for open data and the `city of
 Bloomington, Indiana makes available a number of datasets there
@@ -50,7 +50,7 @@ If you are using a different distribution of Python, you will need to
 make sure that all three of these modules are installed.
 
 Load Data in Pandas
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 From the same directory where you saved the citations data, let's
 start the Python interpreter and load the citations data for Q1 2016
@@ -71,7 +71,7 @@ final line uses Pandas' ``read_csv`` function to load the data into a
 Pandas ``DataFrame`` data structure.  
 
 Working with DataFrames
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 You can verify that you are working with a ``DataFrame`` and use some
 of its methods to take a look at the structure of the data as follows:
@@ -160,7 +160,7 @@ functions in the ``datetime`` module linked above.
    ... )
 
 Plotting with Matplotlib and NumPy
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let's say we want to see how many citations were given each day of the
 week. We gather the data first:
@@ -188,7 +188,7 @@ You should see something like this on your screen:
 	   :width: 400
 
 More *DataFrame* Manipulation and Plotting
-------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ``DataFrame``s and ``numpy`` give us other ways to manipulate
 data. For example, we can plot a histogram of the ages of violators
@@ -221,7 +221,7 @@ the histogram again:
 	   :width: 400
 		   
 Saving Plots to PDF
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 Oftentimes, you will want to save your ``matplotlib`` graph as a PDF
 or an SVG file instead of just viewing it on your screen. For both, we need to create a ``figure`` and plot the histogram as before:
@@ -252,7 +252,7 @@ If we want to save the figure as PDF instead, we need to use the
    >>> pp.close()
 
 Next Steps and Exercises
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 There is a lot more to working with ``pandas``, ``numpy`` and
 ``matplotlib`` than we can show you here, but hopefully this example

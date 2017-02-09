@@ -23,9 +23,9 @@ I523 Big Data Applications and Analytics
    :caption: Python for Big Data
    :maxdepth: 2
 
-   python_intro
-   python_big_data
-   python_lesson1   
+   ../lesson/prg/python_intro
+   ../lesson/prg/python_big_data
+   ../lesson/prg/python_lesson1   
 
 .. toctree::
    :caption: Useful Tools and Tips
@@ -33,13 +33,13 @@ I523 Big Data Applications and Analytics
 
    driverslicense	      
    datasets
-   edu/refcards	     
-   edu/linux
-   edu/latex
-   edu/refmanager
-   ubuntu
-   ssh
-   links
+   ../lesson/linux/refcards	     
+   ../lesson/linux/linux
+   ../lesson/doc/latex
+   ../lesson/doc/refmanager
+   ../lesson/linux/ubuntu
+   ../lesson/linux/ssh
+   ../lesson/linux/links
 
 .. toctree::
    :caption: APPENDIX
@@ -58,7 +58,7 @@ I523 Big Data Applications and Analytics
    :caption: Contributing
    :maxdepth: 2
 
-   edu/contributing
+   ../lesson/contrib/contributing
    todo
    CHANGELOG    
 

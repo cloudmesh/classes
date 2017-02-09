@@ -29,7 +29,6 @@ Topic Lessons
    lesson/index
    notebooks/index
    faq
-   references
    todo
    changelog
    
@@ -39,7 +38,8 @@ Index
 
 * :ref:`genindex`
 
-.. coment::
+..
+  coment
    
   * :ref:`modindex`
 

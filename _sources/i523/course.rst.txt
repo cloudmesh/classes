@@ -147,8 +147,6 @@ Unit 1.2 - Course Motivation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We motivate the study of X-informatics by describing data
 science and clouds. He starts with striking examples of the data
@@ -421,8 +419,6 @@ Section 2 - Overview of Data Science: What is Big Data, Data Analytics and X-Inf
 -----------------------------------------------------------------------------------------
 
 
-Section Overview
-^^^^^^^^^^^^^^^^
 
 The course introduction starts with X-Informatics and its rallying
 cry. The growing number of jobs in data science is highlighted. The
@@ -459,9 +455,6 @@ to give a good composite picture of this emerging field.
 
 Unit 3 - Part I: Data Science generics and Commercial Data Deluge
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Unit Overview
-^^^^^^^^^^^^^
 
 We start with X-Informatics and its rallying cry. The growing
 number of jobs in data science is highlighted. This unit offers a look
@@ -825,8 +818,6 @@ Section 3 - Health Informatics Case Study
 
 
 
-Section Overview
-^^^^^^^^^^^^^^^^
 
 
 This section starts by discussing general aspects of Big Data and
@@ -1126,13 +1117,11 @@ Slides
 .. _S4:
 
 Section 4 - Sports Case Study
-----------------------------------------------------------------------
+-----------------------------
 
 
 
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 Sports sees significant growth in analytics with pervasive statistics
 shifting to more sophisticated measures. We start with baseball as
@@ -1146,7 +1135,7 @@ NFL Football, Basketball, Tennis and Horse Racing.
 
 
 Unit 7 - Sports Informatics I : Sabermetrics (Basic)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------
 
 
 Unit Overview
@@ -1227,7 +1216,7 @@ Resources
 * https://courses.edx.org/courses/BUx/SABR101x/2T2014/courseware/10e616fc7649469ab4457ae18df92b20/
 
 Unit 8 - Sports Informatics II : Sabermetrics (Advanced)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -1293,7 +1282,7 @@ Resources
 * https://www.youtube.com/watch?v=YkjtnuNmK74
 
 Unit 9 - Sports Informatics III : Other Sports
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -1361,13 +1350,11 @@ Resources
 .. _S5:
 
 Section 5 - Technology Training - Python & FutureSystems (will be updated)
--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 
 
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 This section is meant to give an overview of the python tools needed
 for doing for this course.
@@ -1390,7 +1377,7 @@ image-processing, signal processing, machine learning, etc.
 
 
 Unit 10 - Python for Big Data and X-Informatics: NumPy, SciPy, MatPlotlib
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -1501,7 +1488,7 @@ Continuation of Lesson 8 - Part 2
 Video: http://youtu.be/-XKBz7qCUqw
 
 Unit 11 - Using FutureSystems (Please do not do yet)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -1599,7 +1586,8 @@ http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/cm-mooc
 
 Video: http://youtu.be/nbZbJxheLwc
 
-.. comment::
+..
+    COMMENT
 
     Lesson 9 - How to run Java Class Programs on Virtual Machine
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1611,6 +1599,7 @@ Video: http://youtu.be/nbZbJxheLwc
 
     Video: http://youtu.be/E1SVmLb_QK8
 
+    
 .. _S6:
 
 Section 6 - Physics Case Study
@@ -1619,8 +1608,6 @@ Section 6 - Physics Case Study
 
 
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 This section starts by describing the LHC accelerator at CERN and
 evidence found by the experiments suggesting existence of a Higgs
@@ -1640,7 +1627,7 @@ Central Limit Theorem concludes discussion.
 
 
 Unit 12 - I: Looking for Higgs Particles, Bumps in Histograms, Experiments and Accelerators
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -1719,7 +1706,7 @@ Resources
 * http://www.nature.com/news/specials/lhc/interactive.html
 
 Unit 13 - II: Looking for Higgs Particles: Python Event Counting for Signal and Background
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -1801,7 +1788,7 @@ Resources
 
 
 Unit 14 - III: Looking for Higgs Particles: Random Variables, Physics and Normal Distributions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------------------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -1898,7 +1885,7 @@ Resources
 * http://cms.web.cern.ch/
 
 Unit 15 - IV: Looking for Higgs Particles: Random Numbers, Distributions and Central Limit Theorem
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------------------------------------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -1954,7 +1941,7 @@ Video: http://youtu.be/DPd-eVI_twQ
 Lesson 4 - Accept-Reject
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-We introduce an advanced method ~~ accept/reject ~~ for generating
+We introduce an advanced method **accept/reject** for generating
 random variables with arbitrary distributions.
 
 Video: http://youtu.be/GfshkKMKCj8
@@ -2027,8 +2014,6 @@ Section 7 - Big Data Use Cases Survey
 
 
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 This section covers 51 values of X and an overall study of Big data
 that emerged from a NIST (National Institute for Standards and
@@ -2043,7 +2028,7 @@ describe the key features of this classification.
 
 
 Unit 16 - Overview of NIST Big Data Public Working Group (NBD-PWG) Process and Results
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------------------------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -2369,7 +2354,7 @@ links and notify us of the outdated links.
 
 
 Unit 17 - 51 Big Data Use Cases
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Unit Overview
 ^^^^^^^^^^^^^
@@ -2734,10 +2719,7 @@ Resources
 
 
 Unit 18 - Features of 51 Big Data Use Cases
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Unit Overview
-^^^^^^^^^^^^^
+-------------------------------------------
 
 This unit discusses the categories used to classify the 51 use-cases. These categories include concepts used for parallelism and low and high level computational structure. The first lesson is an introduction to all categories and the further lessons give details of particular categories.
 
@@ -2909,8 +2891,6 @@ Section 8 - Technology Training - Plotviz
 
 
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 We introduce Plotviz, a data visualization tool developed at
 Indiana University to display 2 and 3 dimensional data. The motivation
@@ -2926,10 +2906,7 @@ Plotviz.
 
 
 Unit 19 - Using Plotviz Software for Displaying Point Distributions in 3D
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Unit Overview
-^^^^^^^^^^^^^
+-------------------------------------------------------------------------
 
 We introduce Plotviz, a data visualization tool developed at
 Indiana University to display 2 and 3 dimensional data. The motivation
@@ -2986,8 +2963,8 @@ Video: http://youtu.be/4aQlCmQ1jfY
 Lesson 2 - Example of Use I: Cube and Structured Dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Initially we start with a simple plot of 8 points ~~ the corners of a
-cube in 3 dimensions ~~ showing basic operations such as
+Initially we start with a simple plot of 8 points -- the corners of a
+cube in 3 dimensions -- showing basic operations such as
 size/color/labels and Legend of points. The second example shows a
 dataset (coming from GTM dimension reduction) with significant
 structure. This has .pviz and a .txt versions that are compared.
@@ -3023,7 +3000,7 @@ Lesson 5 - Example of Use IV: Tools and Examples
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This lesson starts by describing the Plotviz tools and then sets up
-two examples ~~ Oil Flow and Trading ~~ described in PowerPoint. It
+two examples -- Oil Flow and Trading -- described in PowerPoint. It
 finishes with the Plotviz viewing of Oil Flow data.
 
 Video: http://youtu.be/zp_709imR40
@@ -3052,8 +3029,6 @@ Download files from http://salsahpc.indiana.edu/pviz3/
 Section 9 - e-Commerce and LifeStyle Case Study
 ----------------------------------------------------------------------
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 Recommender systems operate under the hood of such widely recognized
 sites as Amazon, eBay, Monster and Netflix where everything is a
@@ -3096,10 +3071,7 @@ annealing to avoid this and value of heuristic algorithms.
 
 
 Unit 20 - Recommender Systems: Introduction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Unit Overview
-^^^^^^^^^^^^^
+-------------------------------------------
 
 We introduce Recommender systems as an optimization technology
 used in a variety of applications and contexts online. They operate in
@@ -3231,10 +3203,7 @@ Resources
 * http://www.infoq.com/presentations/Netflix-Architecture
 
 Unit 21 - Recommender Systems: Examples and Algorithms
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Unit Overview
-^^^^^^^^^^^^^
+------------------------------------------------------
 
 We continue the discussion of recommender systems and their use in
 e-commerce. More examples are given from Google News, Retail stores
@@ -3353,10 +3322,7 @@ Resources
 * http://pages.cs.wisc.edu/~beechung/icml11-tutorial/
 
 Unit 22 - Item-based Collaborative Filtering and its Technologies
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Unit Overview
-^^^^^^^^^^^^^
+-----------------------------------------------------------------
 
 We move on to item-based collaborative filtering where items
 are viewed as points in a space of users. The Cosine Similarity is
@@ -3413,12 +3379,6 @@ https://youtu.be/2NqUsDGQDy8
 Section 10 - Technology Training - kNN & Clustering
 ----------------------------------------------------------------------
 
-
-
-
-Section Overview
-~~~~~~~~~~~~~~~~
-
 This section is meant to provide a discussion on the kth Nearest
 Neighbor (kNN) algorithm and clustering using K-means. Python version
 for kNN is discussed in the video and instructions for both Java and
@@ -3426,13 +3386,8 @@ Python are mentioned in the slides. Plotviz is used for generating 3D
 visualizations.
 
 
-
-
 Unit 23 - Recommender Systems - K-Nearest Neighbors (Python & Java Track)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Unit Overview
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We discuss simple Python k Nearest Neighbor code and its
 application to an artificial data set in 3 dimensions. Results are
@@ -3507,10 +3462,7 @@ algorithm is analyzed in detail.
 https://youtu.be/zLaPGMIQ9So
 
 Unit 24 - Clustering and heuristic methods
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Unit Overview
-^^^^^^^^^^^^^
+------------------------------------------
 
 We use example of recommender system to discuss clustering. The
 details of methods are not discussed but k-means based clustering
@@ -3627,8 +3579,6 @@ Section 11 - Cloud Computing Technology for Big Data Applications & Analytics (w
 
 
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 We describe the central role of Parallel computing in Clouds and Big
 Data which is decomposed into lots of ''Little data'' running in
@@ -3667,10 +3617,8 @@ architectures.
 
 
 Unit 25 - Parallel Computing: Overview of Basic Principles with familiar Examples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------------------
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We describe the central role of Parallel computing in Clouds and Big
 Data which is decomposed into lots of ''Little data'' running in
@@ -3696,8 +3644,8 @@ problem. The general ideas behind data decomposition are given
 followed by a few often whimsical examples dreamed up 30 years ago in
 the early heady days of parallel computing. These include scientific
 simulations, defense outside missile attack and computer chess. The
-basic problem of parallel computing ~~ efficient coordination of
-separate tasks processing different data parts ~~ is described with
+basic problem of parallel computing -- efficient coordination of
+separate tasks processing different data parts -- is described with
 MPI and MapReduce as two approaches. The challenges of data
 decomposition in irregular problems is noted.
 
@@ -3754,7 +3702,7 @@ Lesson 6 - Parallel Processing for Hadrian's Wall
 
 This lesson returns to Hadrian's wall and uses it to illustrate
 advanced issues in parallel computing. First We describe the
-basic SPMD ~~ Single Program Multiple Data ~~ model. Then irregular
+basic SPMD -- Single Program Multiple Data -- model. Then irregular
 but homogeneous and heterogeneous problems are discussed. Static and
 dynamic load balancing is needed. Inner parallelism (as in vector
 instruction or the multiple fingers of masons) and outer parallelism
@@ -3783,10 +3731,8 @@ Resources
   Springer. http://grids.ucs.indiana.edu/ptliupages/publications/SpringerEncyclopedia_Fox.pdf
 
 Unit 26 - Cloud Computing Technology Part I: Introduction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We discuss Cyberinfrastructure for e-moreorlessanything or
 moreorlessanything-Informatics and the basics of cloud computing. This
@@ -3824,10 +3770,10 @@ Lesson 2 - What is Cloud Computing: Introduction
 
 Cloud Computing is introduced with an operational definition involving
 virtualization and efficient large data centers that can rent
-computers in an elastic fashion. The role of services is essential ~~
+computers in an elastic fashion. The role of services is essential --
 it underlies capabilities being offered in the cloud. The four basic
-aaS's ~~ Software (SaaS), Platform (Paas), Infrastructure (IaaS) and
-Network (NaaS) ~~ are introduced with Research aaS and other
+aaS's -- Software (SaaS), Platform (Paas), Infrastructure (IaaS) and
+Network (NaaS) -- are introduced with Research aaS and other
 capabilities (for example Sensors aaS are discussed later) being built
 on top of these.
 
@@ -3906,10 +3852,8 @@ Resources
 * http://static.googleusercontent.com/media/www.google.com/en//green/pdfs/google-green-computing.pdf
 
 Unit 27 - Cloud Computing Technology Part II: Software and Systems
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------------
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We cover different views as to nature of architecture and
 application for Cloud Computing. Then we discuss cloud software for
@@ -3975,10 +3919,8 @@ Resources
 * http://cloudonomic.blogspot.com/2009/02/cloud-taxonomy-and-ontology.html
 
 Unit 28 - Cloud Computing Technology Part III: Architectures, Applications and Systems
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------------------------------------------------
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We start with a discussion of Cloud (Data Center)
 Architectures with physical setup, Green Computing issues and software
@@ -4127,11 +4069,9 @@ Resources
 * http://www.kpcb.com/internet-trends
 
 Unit 29 - Cloud Computing Technology Part IV: Data Systems
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------
 
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We describe the way users and data interact with a cloud system. The
 unit concludes with the treatment of data in the cloud from an
@@ -4216,8 +4156,6 @@ Section 12 - Web Search and Text Mining and their technologies
 
 
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 This section starts with an overview of data mining and puts our study
 of classification, clustering and exploration methods in context. We
@@ -4248,10 +4186,8 @@ follow. The use of clustering and topic models completes section
 
 
 Unit 30 - Web Search and Text Mining I
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
-Unit Overview
-^^^^^^^^^^^^^
 
 The unit starts with the web with its size, shape (coming from the
 mutual linkage of pages by URL's) and universal power laws for number
@@ -4260,7 +4196,7 @@ page. Information retrieval is introduced and compared to web
 search. A comparison is given between semantic searches as in
 databases and the full text search that is base of Web search. The
 origin of web search in libraries, catalogs and concordances is
-summarized. DIKW ~~ Data Information Knowledge Wisdom ~~ model for web
+summarized. DIKW -- Data Information Knowledge Wisdom -- model for web
 search is discussed. Then features of documents, collections and the
 important Bag of Words representation. Queries are presented in
 context of an Information Retrieval architecture. The method of
@@ -4318,7 +4254,7 @@ https://youtu.be/J7D61uH5gVM
 Lesson 4 - Key Fundamental Principles behind Web Search
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This lesson describes the DIKW ~~ Data Information Knowledge Wisdom ~~
+This lesson describes the DIKW -- Data Information Knowledge Wisdom --
 model for web search. Then it discusses documents, collections and the
 important Bag of Words representation.
 
@@ -4402,11 +4338,9 @@ Resources
 * http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
 
 Unit 31 - Web Search and Text Mining II
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We start with an overview of the different steps (data analytics) in
 web search. This is followed by Link Structure Analysis including
@@ -4502,8 +4436,6 @@ Section 13 - Technology for Big Data Applications and Analytics
 
 
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 
 We use the K-means Python code in SciPy package to show real
@@ -4529,10 +4461,8 @@ general web pages by extracting the secret from Google.
 
 
 Unit 32 - Technology for X-Informatics: K-means (Python & Java Track)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We use the K-means Python code in SciPy package to show real
 code for clustering. After a simple example we generate 4 clusters of
@@ -4564,7 +4494,7 @@ Lesson 1 - K-means in Python
 
 We use the K-means Python code in SciPy package to show real
 code for clustering and applies it a set of 85 two dimensional vectors
-~~ officially sets of weights and heights to be clustered to find
+-- officially sets of weights and heights to be clustered to find
 T-shirt sizes. We run through Python code with Matplotlib displays to
 divide into 2-5 clusters. Then we discuss Python to generate 4
 clusters of varying sizes and centered at corners of a square in two
@@ -4583,7 +4513,7 @@ This is Part 1.
 We present clustering results on the artificial set of 1000 2D points
 described in previous lesson for 3 choices of cluster sizes ''small''
 ''large'' and ''very large''. We emphasize the SciPy always does 20
-independent K means and takes the best result ~~ an approach to
+independent K means and takes the best result -- an approach to
 avoiding local minima. We allow this number of independent runs to be
 changed and in particular set to 1 to generate more interesting
 erratic results. We define changes in our new K means code that also
@@ -4617,11 +4547,9 @@ https://youtu.be/N6QKyrhNVAc
 
 
 Unit 33 - Technology for X-Informatics: MapReduce
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------
 
 
-Unit Overview
-^^^^^^^^^^^^^
 
 
 We describe the basic architecture of MapReduce and a homely
@@ -4674,8 +4602,6 @@ https://youtu.be/wnanWncQBow
 Unit 34 - Technology: Kmeans and MapReduce Parallelism
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We modify the SciPy K-means code to support a MapReduce
 execution style and runs it in this short unit. This illustrates the
@@ -4723,10 +4649,8 @@ https://youtu.be/LLrTWWdE3T0
 
 
 Unit 35 - Technology: PageRank (Python & Java Track)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------
 
-Unit Overview
-^^^^^^^^^^^^^
 
 We use Python to Calculate PageRank from Web Linkage Matrix
 showing several different formulations of the basic matrix equations
@@ -4787,8 +4711,6 @@ Section 14 - Sensors Case Study
 
 
 
-Section Overview
-~~~~~~~~~~~~~~~~
 
 We start with the Internet of Things IoT giving examples like
 monitors of machine operation, QR codes, surveillance cameras,
@@ -4804,13 +4726,7 @@ the smart electric grid.
 
 
 Unit 36 - Case Study: Sensors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Unit Overview
-^^^^^^^^^^^^^
-
-See Section Overview
-
+-----------------------------
 
 
 Slides
@@ -4939,14 +4855,12 @@ Resources
 .. _S15:
 
 Section 15 - Radar Case Study
-----------------------------------------------------------------------
+-----------------------------
 
 
 Unit 37 - Case Study: Radar
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Unit Overview
-^^^^^^^^^^^^^
 
 The changing global climate is suspected to have long-term effects on
 much of the world's inhabitants. Among the various effects, the rising
