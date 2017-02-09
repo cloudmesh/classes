@@ -4,6 +4,7 @@
    :maxdepth: 1
 
    ansible
+   ansible-start-point
    chef
    comparison
    composite_cluster
