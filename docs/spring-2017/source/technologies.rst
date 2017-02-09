@@ -51,4 +51,7 @@ Hadoop
 Refernces
 =========
 
-.. bibliography:: ../../references.bib    
+.. bibliography:: ../../references.bib
+   :style: unsrt
+   :cited:
+		  
