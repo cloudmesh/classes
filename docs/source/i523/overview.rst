@@ -275,10 +275,11 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
+
 * ( 1 ) Use lecture free time wisely
 * ( 2 ) Improve your python knowledge while you do your project
-* ( 3 ) If you can not do PRG by Oct 10/14 or have difficulties with it,
-  we recommend that you do a paper
+* ( 3 ) If you can not do PRG by Oct 10/14 or have difficulties with
+  it, we recommend that you do a paper
 * ( 4 ) we will not do PRG2, and PRG3 in this class
 * ( 5 ) if you have homework late past Dec 2nd you may run the risk of
   obtaining an incomplete in the class as grading may need time and
@@ -747,7 +748,7 @@ and cloud computing
 Jerome Mitchell
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/jerome.jpg
+.. image:: ../images/jerome.png
 
 Jerome Mitchell is a Ph.D candidate in computer science at Indiana
 University and is interested in coupling the fields of computer and
