@@ -824,8 +824,3 @@ Kepler, Galaxy, Taverna Direct Link <>`__
 Crunch Direct Link <>`__
 
 
-.. |regor Von Laszewski| image:: 590a.fld/image001.png
-   :target: https://iu.instructure.com/profile
-.. |http://bigdataopensourceprojects.soic.indiana.edu/images/lynda.png| image:: 590a.fld/image002.png
-   :target: https://ittraining.iu.edu/lynda/
-.. |http://datascience.scholargrid.org/c4x/SoIC/INFO\_I\_590/asset/links.png| image:: 590a.fld/image003.png

@@ -600,7 +600,7 @@ For this class support is provided by
 Dr. Gregor von Laszewski
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/gregor2.png
+.. image:: ../../images/gregor2.png
 
 Gregor von Laszewski is an Assistant Director of Cloud Computing in the
 DSC. He held a position at Argonne National Laboratory from Nov. 1996 – Aug.
@@ -639,7 +639,7 @@ Please contact me if you are interested in this.
 Dr. Geoffrey Fox
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/gcf.jpg
+.. image:: ../../images/gcf.jpg
 
 Fox received a Ph.D. in Theoretical Physics from Cambridge University
 and is now distinguished professor of Informatics and Computing, and
@@ -668,7 +668,7 @@ is a Fellow of APS (Physics) and ACM (Computing).
 Dr. Badi' Abdul-Wahid
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/badi.png
+.. image:: ../../images/badi.png
 
 Badi' received a Ph.D. in Computer Science at the University of Notre
 Dame under Professor Jesus Izaguirre. The primary focus of his
@@ -686,7 +686,7 @@ Teaching Assistants
 Hyungro Lee
 ~~~~~~~~~~~
 
-.. image:: images/Hyungro.jpg
+.. image:: ../../images/Hyungro.png
 
 
 Hyungro Lee is a PhD candidate in Computer Science at Indiana University
@@ -708,7 +708,7 @@ and cloud computing
 Jerome Mitchell
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/jerome.jpg
+.. image:: ../../images/jerome.jpg
 
 Jerome Mitchell is a Ph.D candidate in computer science at Indiana
 University and is interested in coupling the fields of computer and
@@ -729,7 +729,7 @@ distributed computing at minority-serving institutions.
 Prashanth Balasubramani
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/Prashanth.jpg
+.. image:: ../../images/Prashanth.jpg
 
 Prashanth Balasubramani is an MS student in Computer Science at
 Indiana University working with Gregor von Laszewski, Assistant

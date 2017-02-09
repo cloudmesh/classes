@@ -715,9 +715,9 @@ how you can use OpenStack on FutureSystems. This includes the following:
 
 .. |video-image| image:: /images/glyphicons_402_youtube.png 
 
-.. |video-openstack| replace:: |video-image| :youtube:`xRVJfOaR23w`
-.. |video-horizon| replace:: |video-image| :youtube:`JkNlWAUlxF0`
-.. |video-eucalyptus| replace:: |video-image| :youtube:`D1v_twqWIxg`
+.. |video-openstack| replace:: https://www.youtube.com/watch?v=xRVJfOaR23w
+.. |video-horizon| replace:: https://www.youtube.com/watch?v=JkNlWAUlxF0
+.. |video-eucalyptus| replace:: https://www.youtube.com/watch?v=D1v_twqWIxg
 
 Exercises
 ----------------------------------------------------------------------
