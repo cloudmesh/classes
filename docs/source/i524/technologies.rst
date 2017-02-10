@@ -295,6 +295,24 @@ Application and Analytics
     
 53. Theano
 54. DL4j
+
+    DL4j stands for Deeplearning4j. :cite:`www-dl4j` It is a deep
+    learning programming library written for Java and the Java virtual
+    machine (JVM) and a computing framework with wide support for deep
+    learning algorithms. Deeplearning4j includes implementations of
+    the restricted Boltzmann machine, deep belief net, deep
+    autoencoder, stacked denoising autoencoder and recursive neural
+    tensor network, word2vec, doc2vec, and GloVe. These algorithms all
+    include distributed parallel versions that integrate with Apache
+    Hadoop and Spark. It is a open-source software released under
+    Apache License 2.0.
+
+    Training with Deeplearning4j occurs in a cluster. Neural nets are
+    trained in parallel via iterative reduce, which works on
+    Hadoop-YARN and on Spark. Deeplearning4j also integrates with CUDA
+    kernels to conduct pure GPU operations, and works with distributed
+    GPUs.
+	
 55. H2O
 56. IBM Watson
 
@@ -339,6 +357,33 @@ Application and Analytics
     at large scale.
     
 59. GraphX
+
+    GraphX is Apache Spark's API for graph and graph-parallel computation.
+    :cite:`www-graphX`
+	  
+    GraphX provides:
+    
+    Flexibility: It seamlessly works with both graphs and collections. GraphX
+    unifies ETL, exploratory analysis, and iterative graph computation within a
+    single system. You can view the same data as both graphs and collections,
+    transform and join graphs with RDDs efficiently, and write custom iterative
+    graph algorithms using the Pregel API.
+    
+    Speed: Its performance is comparable to the fastest specialized graph
+    processing systems while retaining Apache Spark's flexibility, fault
+    tolerance, and ease of use.
+    
+    Algorithms: GraphX comes with a variety of algorithms such as PageRank,
+    Connected Components, Label propagations, SVD++, Strongly connected
+    components and Triangle Count.
+
+    It combines the advantages of both data-parallel and graph-parallel systems
+    by efficiently expressing graph computataion within the Spark data-parallel
+    framework. :cite:`www-graphX1`
+
+    It gets developed as a part of Apache Spark project. It thus gets tested and
+    updated with each Spark release.
+    
 60. IBM System G
 61. GraphBuilder(Intel)
 62. TinkerPop
@@ -434,6 +479,21 @@ Application and Analytics
     
 69. Kibana
 70. Logstash
+
+    Logstash is an open source data collection engine with real-time
+    pipelining capabilities. Logstash can dynamically unify data from
+    disparate sources and normalize the data into destinations of your
+    choice. :cite:`www-logstash` Cleanse and democratize all your data
+    for diverse advanced downstream analytics and visualization use
+    cases.
+
+    While Logstash originally drove innovation in log collection, its
+    capabilities extend well beyond that use case. Any type of event
+    can be enriched and transformed with a broad array of input,
+    filter, and output plugins, with many native codecs further
+    simplifying the ingestion process. Logstash accelerates your
+    insights by harnessing a greater volume and variety of data.
+	
 71. Graylog
 72. Splunk
 73. Tableau
@@ -597,6 +657,34 @@ High level Programming
 105. Hive
 106. HCatalog
 107. Tajo
+
+     Apache Tajo :cite:`www-apache-tajo` is a big data relational and
+     distributed data warehouse system for Apache's Hadoop
+     framework. It uses the Hadoop Distributed File System (HDFS) as a
+     storage layer and has its own query execution engine instead of
+     the MapReduce framework. Tajo is designed to provide low-latency
+     and scalable ad-hoc queries, online aggregation, and ETL
+     (extraction-transformation-loading process) on large-data sets
+     which are stored on HDFS (Hadoop Distributed File System) and on
+     other data sources. :cite:`www-tutorialspoint-tajo` Apart from HDFS,
+     it also supports other storage formats as Amazon S3, Apache
+     HBase, Elasticsearch etc. It provides distributed SQL query
+     processing engine and even has query optimization techniques and
+     provides interactive anaysis on large-data sets. Tajo is
+     compatible with ANSI/ISO SQL standard, JDBC standard. Tajo can
+     also store data from various file formats such as CSV,
+     JSON,RCFile, SequenceFile, ORC and Parquet. It provides a SQL
+     shell which allows users to submit the SQL queries. It also
+     offers user defined functions to work with it which can be
+     created in python. A Tajo cluster has one master node and a
+     number of worker nodes. :cite:`www-tutorialspoint-tajo` The master
+     node is responsible for performing the query planning and
+     maintaining a coordination among the worker nodes. It does this
+     by dividing a query in small task which are assigned to the
+     workers who have a local query engine for executing the queries
+     assigned to them.
+     
+
 108. Shark
 109. Phoenix
 
@@ -931,6 +1019,18 @@ Inter process communication Collectives
      behind any valid HTTP server.
      
 165. Netty
+
+     Netty :cite:`www-netty` "is an asynchronous event-driven network
+     application framework for rapid development of maintainable high
+     performance protocol servers & clients". Netty :cite:`netty-book`
+     "is more than a collection of interfaces and classes; it also
+     defines an architectural model and a rich set of design
+     patterns". It is protocol agnostic, supports both connection
+     oriented protocols using TCP and connection less protocols built
+     using UDP. Netty offers performance superior to standard Java NIO
+     API thanks to optimized resource management, pooling and reuse
+     and low memory copying.
+     
 166. ZeroMQ
 
      In :cite:`www-zeromq`, ZeroMQ is introduced as a software product 
@@ -1346,6 +1446,20 @@ NoSQL
 
 219. Solr
 220. Solandra
+     
+     Solandra is a highly scalable real-time search engine built on
+     Apache Solr and Apache Cassandra. Solandra simplifies maintaining
+     a large scale search engine, something that more and more
+     applications need. At its core, Solandra is a tight integration
+     of Solr and Cassandra, meaning within a single JVM both Solr and
+     Cassandra are running, and documents are stored and disributed
+     using Cassandra's data model. :cite:`www-solandra`
+
+     Solandra supports most out-of-the-box Solr functionality (search,
+     faceting, highlights), multi-master (read/write to any node). It
+     features replication, sharding, caching, and compaction managed
+     by Cassandra. :cite:`www-solandra2`
+	  
 221. Voldemort
 
      According to :cite:`www-voldemort`, project Voldemort, developed
@@ -1411,6 +1525,33 @@ NoSQL
      
 224. Berkeley DB
 225. Kyoto/Tokyo Cabinet
+
+     Tokyo Cabinet :cite:`www-tokyo-cabinet` and Kyoto Cabinet
+     :cite:`www-kyoto-cabinet` are libraries of routines for managing a
+     database. The database normally is a simple data file containing
+     records having a key value pair structure. Every key and value is
+     serial bytes with variable length. Both binary data and character
+     string can be used as a key and a value. There is no concept of
+     data tables nor data types like RDBMS or DBMS. Records are
+     organized in hash table, B+ tree, or fixed-length array.Tokyo and
+     Kyoto cabinets both are developed as a successor of GDBM and QDBM
+     which are library routines for managing database as well. Tokyo
+     Cabinet is written in the C language, and is provided as API of
+     C, Perl, Ruby, Java, and Lua. Tokyo Cabinet is available on
+     platforms which have API conforming to C99 and POSIX. Whereas
+     Kyoto Cabinet is written in the C++ language, and is provided as
+     API of C++, C, Java, Python, Ruby, Perl, and Lua. Kyoto Cabinet
+     is available on platforms which have API conforming to C++03 with
+     the TR1 library extensions. Both are free software licenced under
+     GNU (General Public Licence). :cite:`www-tokyo-cabinet` actually mentions
+     that Kyoto Cabinet is more powerful and has convenient library
+     structure than Tokyo and recommends people to use Kyoto. Since
+     they use key-value pair concept, you can store a record with a
+     key and a value, delete a record using the key and even retrive a
+     record using the key. Both have smaller size of database file,
+     faster processing speed and provide effective backup procedures.
+
+     
 226. Tycoon
 227. Tyrant
 
@@ -1584,6 +1725,26 @@ NoSQL
 241. Sqrrl
 242. Neo4J
 243. graphdb
+
+     A Graph Database is a database that uses graph structures for semantic
+     queries with nodes, edges and properties to represent and store data.
+     :cite:`www-graphdb`
+     The Graph is a concept which directly relates the data items in the store.
+     The data which is present in the store is linked together directly with the
+     help of relationships. It can be retrieved with a single operation.
+     Graph database allow simple and rapid retrieval of complex hierarchical
+     structures that are difficult to model in relational systems.
+
+     There are different underlying storage mechanisms used by graph databases.
+     Some graphdb depend on a relational engine and store the graph data in a
+     table, while others use a key-value store or document-oriented database for
+     storage. Thus, they are inherently caled as NoSQL structures.
+     Data retrieval in a graph database requires a different query language
+     other than SQL. Some of the query languages used to retrieve data from a
+     graph database are Gremlin, SPARQL, and Cypher.
+     Graph databases are based on graph theory. They employ the concepts of
+     nodes, edges and properties.
+     
 244. Yarcdata
 245. AllegroGraph
 246. Blazegraph
@@ -1912,6 +2073,31 @@ File systems
      Gateway.
      
 297. Public Cloud: Amazon S3
+
+     Amazon Simple Storage Service (Amazon S3) :cite:`www-amazon-s3` is
+     storage object which provides a simple web service interface to
+     store and retrieve any amount of data from anywhere on the
+     web. With Amazon S3, users can store as much data as they want
+     and can scale it up and down based on the requirements.For
+     developers Amazon S3 provides full REST API's and SDK's which can
+     be integrated with third-party technologies. Amazon S3 is also
+     deeply integrated with other AWS services to make it easier to
+     build solutions that use a range of AWS services which include
+     Amazon CloudFront, Amazon CloudWatch, Amazon Kinesis, Amazon RDS,
+     Amazon Glacier etc. Amazon S3 provides auotmatic encryption of
+     data once the data is uploaded in the cloud. Amazon S3 uses the
+     concept of Buckets and Objects for storing data wherein Buckets
+     are used to store objects. Amazon S3 services can be used using
+     the Amazon Console Management. :cite:`www-amazon-s3-docs` The steps
+     for using the Amazon S3 are as follows:
+     1) Sign up for Amazon S3
+     2) After sign up, create a Bucket in your account.
+     3) Create an object which might be an file or folder.
+     4) Perform operations on the object which is stored in the cloud.
+	
+	
+
+	
 298. Azure Blob
 299. Google Cloud Storage
 
@@ -2090,6 +2276,23 @@ DevOps
 313. SaltStack
 314. Boto
 315. Cobbler
+
+     Cobbler is a Linux provisioning system that facilitates and
+     automates the network based system installation of multiple computer
+     operating systems from a central point using services such as DHCP,
+     TFTP and DNS :cite:`www-cobbler`.It is a nifty piece of code that
+     assemble s all the usual
+     setup bits required for a large network installation like TFTP, DNS,
+     PXE installation trees. and automates the process[1].It can be
+     configured for PXE, reinstallations and virtualized guests using Xen,
+     KVM or VMware.  Cobbler interacts with the koan program for
+     re-installation and virtualization support.  Cobbler builds the
+     Kickstart mechanism and offers installation profiles that can be
+     applied to one or many machines.  Cobbler has features to dynamically
+     change the information contained in a kickstart template (definition),
+     either by passing variables called ksmeta or by using so-called
+     snippets.
+
 316. Xcat
 317. Razor
 318. CloudMesh
@@ -2290,6 +2493,22 @@ IaaS Management from HPC to hypervisors
      and several other clouds.
 
 351. CloudStack
+
+     Apache CloudStack is open source software designed to deploy and
+     manage large networks of virtual machines, as a highly available,
+     highly scalable Infrastructure as a Service (IaaS) cloud
+     computing platform. It uses existing hypervisors such as KVM,
+     VMware vSphere, and XenServer/XCP for virtualization. In addition
+     to its own API, CloudStack also supports the Amazon Web Services
+     (AWS) API and the Open Cloud Computing Interface from the Open
+     Grid Forum. :cite:`www-clodstack`
+
+     ColudStack features like built-in high-availability for hosts
+     and VMs, AJAX web GUI for management, AWS API compatibility,
+     Hypervisor agnostic, snapshot management, usage metering, network
+     management (VLAN's, security groups), virtual routers, firewalls,
+     load balancers and multi-role support. :cite:`www-cloudstack2`
+	  
 352. CoreOS
      
      :cite:`www-core` states that “CoreOS is a linux operating system
@@ -2405,6 +2624,31 @@ Security & Privacy
 
 367. OpenStack Keystone
 368. LDAP
+
+     LDAP stands for Lightweight Directory Access Protocol. It is a software
+     protocol for enabling anyone to locate organizations, individuals, and
+     other resources such as files and devices in a network, whether on the
+     Internet or on corporate internet.
+     :cite:`www-ldap`
+
+     LDAP is a "lightweight" (smaller amount of code) version of
+     Directory Access Protocol (DAP), which is part of X.500, a
+     standard for directory services in a network.  In a network, a
+     directory tells you where in the network something is located. On
+     TCP/IP networks (including the Internet), the domain name system
+     (DNS) is the directory system used to relate the domain name to a
+     specific network address (a unique location on the
+     network). However, you may not know the domain name. LDAP allows
+     you to search for an individual without knowing where they're
+     located (although additional information will help with the
+     search).An LDAP directory can be distributed among many
+     servers. Each server can have a replicated version of the total
+     directory that is synchronized periodically.  An LDAP server is
+     called a Directory System Agent (DSA). An LDAP server that
+     receives a request from a user takes responsibility for the
+     request, passing it to other DSAs as necessary, but ensuring a
+     single coordinated response for the user.
+
 369. Sentry
 370. Sqrrl
 371. OpenID
