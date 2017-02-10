@@ -1227,6 +1227,29 @@ In-memory databases/caches
      
 185. Redis
 186. LMDB (key value)
+
+     LMDB (Lighting memory-mapped Database) is a high performance embedded
+     transactional database in form of a key-value store
+     :cite:`www-keyvalue`. LMDB is designed around
+     virtual memory facilities found in modern operating
+     systems, multi-version concurrency control (MVCC)
+     and single-level store (SLS) concepts. LMDB stores
+     arbitrary key/data pairs as byte arrays, provides a
+     range-based search capability, supports multiple
+     data items for a single key and has a special mode
+     for appending records at the end of the database
+     (MDB_APPEND) which significantly increases its write
+     performance compared to other similar databases.
+
+     LMDB is not a relational database :cite:`www-relationaldb` and
+     strictly uses key-value store. Key-value databases
+     allows one write at a time, the difference that LMDB
+     highlights is that write transactions do not block
+     readers nor do readers block writes. Also, it does
+     allow multiple applications on the same system to
+     open and use the store simultaneously which helps in
+     scaling up performance :cite:`WWW-LMDB`.
+
 187. Hazelcast
 
      Hazelcast is a java based, in memory data grid. :cite:`www-wikihazel` 
