@@ -624,6 +624,34 @@ High level Programming
 105. Hive
 106. HCatalog
 107. Tajo
+
+     Apache Tajo :cite:`www-apache-tajo` is a big data relational and
+     distributed data warehouse system for Apache's Hadoop
+     framework. It uses the Hadoop Distributed File System (HDFS) as a
+     storage layer and has its own query execution engine instead of
+     the MapReduce framework. Tajo is designed to provide low-latency
+     and scalable ad-hoc queries, online aggregation, and ETL
+     (extraction-transformation-loading process) on large-data sets
+     which are stored on HDFS (Hadoop Distributed File System) and on
+     other data sources. :cite:`www-tutorialspoint-tajo` Apart from HDFS,
+     it also supports other storage formats as Amazon S3, Apache
+     HBase, Elasticsearch etc. It provides distributed SQL query
+     processing engine and even has query optimization techniques and
+     provides interactive anaysis on large-data sets. Tajo is
+     compatible with ANSI/ISO SQL standard, JDBC standard. Tajo can
+     also store data from various file formats such as CSV,
+     JSON,RCFile, SequenceFile, ORC and Parquet. It provides a SQL
+     shell which allows users to submit the SQL queries. It also
+     offers user defined functions to work with it which can be
+     created in python. A Tajo cluster has one master node and a
+     number of worker nodes. :cite:`www-tutorialspoint-tajo` The master
+     node is responsible for performing the query planning and
+     maintaining a coordination among the worker nodes. It does this
+     by dividing a query in small task which are assigned to the
+     workers who have a local query engine for executing the queries
+     assigned to them.
+     
+
 108. Shark
 109. Phoenix
 
@@ -1415,6 +1443,33 @@ NoSQL
      
 224. Berkeley DB
 225. Kyoto/Tokyo Cabinet
+
+     Tokyo Cabinet :cite:`www-tokyo-cabinet` and Kyoto Cabinet
+     :cite:`www-kyoto-cabinet` are libraries of routines for managing a
+     database. The database normally is a simple data file containing
+     records having a key value pair structure. Every key and value is
+     serial bytes with variable length. Both binary data and character
+     string can be used as a key and a value. There is no concept of
+     data tables nor data types like RDBMS or DBMS. Records are
+     organized in hash table, B+ tree, or fixed-length array.Tokyo and
+     Kyoto cabinets both are developed as a successor of GDBM and QDBM
+     which are library routines for managing database as well. Tokyo
+     Cabinet is written in the C language, and is provided as API of
+     C, Perl, Ruby, Java, and Lua. Tokyo Cabinet is available on
+     platforms which have API conforming to C99 and POSIX. Whereas
+     Kyoto Cabinet is written in the C++ language, and is provided as
+     API of C++, C, Java, Python, Ruby, Perl, and Lua. Kyoto Cabinet
+     is available on platforms which have API conforming to C++03 with
+     the TR1 library extensions. Both are free software licenced under
+     GNU (General Public Licence). :cite:`www-tokyo-cabinet` actually mentions
+     that Kyoto Cabinet is more powerful and has convenient library
+     structure than Tokyo and recommends people to use Kyoto. Since
+     they use key-value pair concept, you can store a record with a
+     key and a value, delete a record using the key and even retrive a
+     record using the key. Both have smaller size of database file,
+     faster processing speed and provide effective backup procedures.
+
+     
 226. Tycoon
 227. Tyrant
 
@@ -1916,6 +1971,31 @@ File systems
      Gateway.
      
 297. Public Cloud: Amazon S3
+
+     Amazon Simple Storage Service (Amazon S3) :cite:`www-amazon-s3` is
+     storage object which provides a simple web service interface to
+     store and retrieve any amount of data from anywhere on the
+     web. With Amazon S3, users can store as much data as they want
+     and can scale it up and down based on the requirements.For
+     developers Amazon S3 provides full REST API's and SDK's which can
+     be integrated with third-party technologies. Amazon S3 is also
+     deeply integrated with other AWS services to make it easier to
+     build solutions that use a range of AWS services which include
+     Amazon CloudFront, Amazon CloudWatch, Amazon Kinesis, Amazon RDS,
+     Amazon Glacier etc. Amazon S3 provides auotmatic encryption of
+     data once the data is uploaded in the cloud. Amazon S3 uses the
+     concept of Buckets and Objects for storing data wherein Buckets
+     are used to store objects. Amazon S3 services can be used using
+     the Amazon Console Management. :cite:`www-amazon-s3-docs` The steps
+     for using the Amazon S3 are as follows:
+     1) Sign up for Amazon S3
+     2) After sign up, create a Bucket in your account.
+     3) Create an object which might be an file or folder.
+     4) Perform operations on the object which is stored in the cloud.
+	
+	
+
+	
 298. Azure Blob
 299. Google Cloud Storage
 
