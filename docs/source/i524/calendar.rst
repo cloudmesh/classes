@@ -36,9 +36,9 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 +----------------------------------------------------+--------------------+-----+
 | :ref:`TechList.1d and Techlist 2 <techs-exercise>` | Mon, Feb 27, 9am   | T0b |
 +----------------------------------------------------+--------------------+-----+
-| Technology Paper 2 due                             | Mon, Feb 27, 9am   | T2  |
+| Technology Paper 2 due                             | Mon, Mar 27, 9am   | T3  |
 +----------------------------------------------------+--------------------+-----+
-| Technology Paper 3 due                             | Mon, Mar 27, 9am   | T3  |
+| Ansible Deployment of Technology (New)             | Mon, Mar 27, 9am   | A1  |
 +----------------------------------------------------+--------------------+-----+
 | Auto Witdraw	                                     | Sun, Mar 12        |     |
 +----------------------------------------------------+--------------------+-----+
@@ -59,7 +59,7 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 * (HD) hard deadlines must be done in order to obtain full
   points. These deadlines are important to assure you have access to
   the resources for the class.
-
+* Programming of A! can be substituted by a Paper 3
 
 
 Comments
