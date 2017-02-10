@@ -295,6 +295,24 @@ Application and Analytics
     
 53. Theano
 54. DL4j
+
+    DL4j stands for Deeplearning4j. :cite:`www-dl4j` It is a deep
+    learning programming library written for Java and the Java virtual
+    machine (JVM) and a computing framework with wide support for deep
+    learning algorithms. Deeplearning4j includes implementations of
+    the restricted Boltzmann machine, deep belief net, deep
+    autoencoder, stacked denoising autoencoder and recursive neural
+    tensor network, word2vec, doc2vec, and GloVe. These algorithms all
+    include distributed parallel versions that integrate with Apache
+    Hadoop and Spark. It is a open-source software released under
+    Apache License 2.0.
+
+    Training with Deeplearning4j occurs in a cluster. Neural nets are
+    trained in parallel via iterative reduce, which works on
+    Hadoop-YARN and on Spark. Deeplearning4j also integrates with CUDA
+    kernels to conduct pure GPU operations, and works with distributed
+    GPUs.
+	
 55. H2O
 56. IBM Watson
 
@@ -461,6 +479,21 @@ Application and Analytics
     
 69. Kibana
 70. Logstash
+
+    Logstash is an open source data collection engine with real-time
+    pipelining capabilities. Logstash can dynamically unify data from
+    disparate sources and normalize the data into destinations of your
+    choice. :cite:`www-logstash` Cleanse and democratize all your data
+    for diverse advanced downstream analytics and visualization use
+    cases.
+
+    While Logstash originally drove innovation in log collection, its
+    capabilities extend well beyond that use case. Any type of event
+    can be enriched and transformed with a broad array of input,
+    filter, and output plugins, with many native codecs further
+    simplifying the ingestion process. Logstash accelerates your
+    insights by harnessing a greater volume and variety of data.
+	
 71. Graylog
 72. Splunk
 73. Tableau
