@@ -633,6 +633,7 @@ Additional links form another class:
     docker swarm. I524 will not focus on analytics. However you still
     are able to do that, but it still must contain a deployment
     portion.
+    
     * :ref:`projects`
 
     
