@@ -566,7 +566,8 @@ Project Report:
     * 6 pages, two students in the project
     * 8 pages, three students in the project
 
-Work Breakdown: The report contains in an appendix a section that is
+Work Breakdown:
+    The report contains in an appendix a section that is
     only needed for team projects. Include in the section a short but
     sufficiently detailed work breakdown documenting what the team has
     done. Back it up with commit information from github. Such as how
@@ -582,17 +583,17 @@ Work Breakdown: The report contains in an appendix a section that is
     exam the student must be familiar with **all** aspects of the
     project not just the part you contributed.
 
-License: All projects are developed under an open source license such
+License:
+    All projects are developed under an open source license such
     as Apache 2.0 License. You will be required to add a LICENCE.txt
     file and if you use other software identify how it can be reused
     in your project. If your project uses different licenses, please
     add in a README.md file which packages are used and which license
     these packages have while adding a licenses file.
 
-Additional links:
-    * :ref:`projects`
 
-Reproducability: The reproducability of your code will be tested
+Reproducability:
+    The reproducability of your code will be tested
     twice. It is tetes by another student or team, it is also tested
     by a TA. A report of the testing team is provided. Your team will
     also be responsible for executing as many tests as you have team
@@ -600,7 +601,38 @@ Reproducability: The reproducability of your code will be tested
     written with details about functionality, readbility, and report
     quality. This statement does not have to be written in latex but
     uses RST.
+
+Requirements:
+    * Use of cloud resources mandatory, can be substituted by
+      kubeernetes or docker swarm
+    * Deployment must be done with ansible
+    * A Makefile or a cmd file as discussed in class is needed to
+      deploy the software, start the program, conduct a
+      parameter study/benchmark
+    * Report
+    * If project is conducted in a team at least two clouds are to be
+      benchmarked and contrasted 2 team membesr = 2 clouds, 3 team
+      members = 3 clouds. cloud could also be kubernetes or docker
+      swarm
+    * Cloudmesh client is to be sed to start the virtual cluster in
+      order to avoid reinventing the wheel
+    * Cloudmesh contains deployments for hadoop and spark. If these
+      technologies are used, it has to be shown that if the student(s)
+      elect to write a new ansible script for it that it is better
+      than the once provided by cloudmesh. Proof is to be provided by
+      reproducable benchmarks. If this can not be achieved the
+      student(s) have to write an additiona ansible script for a
+      technologie listed in class or approved by the professor.
       
+Additional links form another class:
+    * :ref:`projects`
+    This class contains a section Deployment projects. You can look at
+    suggestions and conduct them, the rules listed ubder requirements
+    applies. I524 will not focus on analytics. HOwever you still are
+    able to do that, but it still must contain a deployment portion.
+    All deployments will use ansible.
+
+    
 
 Report Format
 ---------------
