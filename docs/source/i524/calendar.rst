@@ -59,7 +59,7 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 * (HD) hard deadlines must be done in order to obtain full
   points. These deadlines are important to assure you have access to
   the resources for the class.
-
+* Programming of A! can be substituted by a Paper 3
 
 
 Comments
