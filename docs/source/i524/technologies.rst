@@ -1655,6 +1655,26 @@ NoSQL
 241. Sqrrl
 242. Neo4J
 243. graphdb
+
+     A Graph Database is a database that uses graph structures for semantic
+     queries with nodes, edges and properties to represent and store data.
+     :cite:`www-graphdb`
+     The Graph is a concept which directly relates the data items in the store.
+     The data which is present in the store is linked together directly with the
+     help of relationships. It can be retrieved with a single operation.
+     Graph database allow simple and rapid retrieval of complex hierarchical
+     structures that are difficult to model in relational systems.
+
+     There are different underlying storage mechanisms used by graph databases.
+     Some graphdb depend on a relational engine and store the graph data in a
+     table, while others use a key-value store or document-oriented database for
+     storage. Thus, they are inherently caled as NoSQL structures.
+     Data retrieval in a graph database requires a different query language
+     other than SQL. Some of the query languages used to retrieve data from a
+     graph database are Gremlin, SPARQL, and Cypher.
+     Graph databases are based on graph theory. They employ the concepts of
+     nodes, edges and properties.
+     
 244. Yarcdata
 245. AllegroGraph
 246. Blazegraph
@@ -2186,6 +2206,23 @@ DevOps
 313. SaltStack
 314. Boto
 315. Cobbler
+
+     Cobbler is a Linux provisioning system that facilitates and
+     automates the network based system installation of multiple computer
+     operating systems from a central point using services such as DHCP,
+     TFTP and DNS :cite:`www-cobbler`.It is a nifty piece of code that
+     assemble s all the usual
+     setup bits required for a large network installation like TFTP, DNS,
+     PXE installation trees. and automates the process[1].It can be
+     configured for PXE, reinstallations and virtualized guests using Xen,
+     KVM or VMware.  Cobbler interacts with the koan program for
+     re-installation and virtualization support.  Cobbler builds the
+     Kickstart mechanism and offers installation profiles that can be
+     applied to one or many machines.  Cobbler has features to dynamically
+     change the information contained in a kickstart template (definition),
+     either by passing variables called ksmeta or by using so-called
+     snippets.
+
 316. Xcat
 317. Razor
 318. CloudMesh
@@ -2501,6 +2538,40 @@ Security & Privacy
 
 367. OpenStack Keystone
 368. LDAP
+
+     LDAP stands for Lightweight Directory Access Protocol. It is a software
+     protocol for enabling anyone to locate organizations, individuals, and
+     other resources such as files and devices in a network, whether on the
+     Internet or on corporate internet.
+     :cite:`www-ldap`
+
+     LDAP is a "lightweight" (smaller amount of code) version of Directory
+     Access Protocol (DAP), which is part of X.500, a standard for directory
+     services in a network.
+     In a network, a directory tells you where in the network something is
+     located. On TCP/IP networks (including the Internet), the domain name
+     system (DNS) is the directory system used to relate the domain name to a
+     specific network address (a unique location on the network). However, you
+     may not know the domain name. LDAP allows you to search for an individual
+     without knowing where they're located (although additional information will
+     help with the search).
+
+     An LDAP directory is organized in a simple "tree" hierarchy consisting of
+     the following levels:
+     The root directory (the starting place or the source of the tree), which
+     branches out to Countries, each of which branches out to Organizations,
+     which branch out to Organizational units (divisions, departments, and so
+     forth), which branches out to (includes an entry for) Individuals (which
+     includes people, files, and shared resources such as printers).
+
+     An LDAP directory can be distributed among many servers. Each
+     server can have a replicated version of the total directory that
+     is synchronized periodically.  An LDAP server is called a
+     Directory System Agent (DSA). An LDAP server that receives a
+     request from a user takes responsibility for the request, passing
+     it to other DSAs as necessary, but ensuring a single coordinated
+     response for the user.
+
 369. Sentry
 370. Sqrrl
 371. OpenID
