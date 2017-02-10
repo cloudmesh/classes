@@ -159,8 +159,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../lesson/prg/index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/data/index.html">Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson/projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/iaas/index.html">IaaS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/devops/ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson/devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
@@ -405,8 +407,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../lesson/prg/index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/data/index.html">Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson/projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/iaas/index.html">IaaS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/devops/ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson/devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
@@ -1066,8 +1070,9 @@ Report Format section. The following length is required:</p>
 <li>8 pages, three students in the project</li>
 </ul>
 </dd>
-<dt>Work Breakdown: The report contains in an appendix a section that is</dt>
-<dd><p class="first">only needed for team projects. Include in the section a short but
+<dt>Work Breakdown:</dt>
+<dd><p class="first">The report contains in an appendix a section that is
+only needed for team projects. Include in the section a short but
 sufficiently detailed work breakdown documenting what the team has
 done. Back it up with commit information from github. Such as how
 many commits and lines of code a team member has contributed. The
@@ -1081,25 +1086,56 @@ verify that the student has contributed to the project. In an oral
 exam the student must be familiar with <strong>all</strong> aspects of the
 project not just the part you contributed.</p>
 </dd>
-<dt>License: All projects are developed under an open source license such</dt>
-<dd>as Apache 2.0 License. You will be required to add a LICENCE.txt
+<dt>License:</dt>
+<dd>All projects are developed under an open source license such
+as Apache 2.0 License. You will be required to add a LICENCE.txt
 file and if you use other software identify how it can be reused
 in your project. If your project uses different licenses, please
 add in a README.md file which packages are used and which license
 these packages have while adding a licenses file.</dd>
-<dt>Additional links:</dt>
-<dd><ul class="first last simple">
-<li><a class="reference internal" href="../lesson/projects/index.html#projects"><span class="std std-ref">Software Projects</span></a></li>
-</ul>
-</dd>
-<dt>Reproducability: The reproducability of your code will be tested</dt>
-<dd>twice. It is tetes by another student or team, it is also tested
+<dt>Reproducability:</dt>
+<dd>The reproducability of your code will be tested
+twice. It is tetes by another student or team, it is also tested
 by a TA. A report of the testing team is provided. Your team will
 also be responsible for executing as many tests as you have team
 members on other projects. A reproducability statement should be
 written with details about functionality, readbility, and report
 quality. This statement does not have to be written in latex but
 uses RST.</dd>
+<dt>Requirements:</dt>
+<dd><ul class="first last simple">
+<li>Use of cloud resources mandatory, can be substituted by
+kubeernetes or docker swarm</li>
+<li>Deployment must be done with ansible</li>
+<li>A Makefile or a cmd file as discussed in class is needed to
+deploy the software, start the program, conduct a
+parameter study/benchmark</li>
+<li>Report</li>
+<li>If project is conducted in a team at least two clouds are to be
+benchmarked and contrasted 2 team membesr = 2 clouds, 3 team
+members = 3 clouds. cloud could also be kubernetes or docker
+swarm</li>
+<li>Cloudmesh client is to be sed to start the virtual cluster in
+order to avoid reinventing the wheel</li>
+<li>Cloudmesh contains deployments for hadoop and spark. If these
+technologies are used, it has to be shown that if the student(s)
+elect to write a new ansible script for it that it is better
+than the once provided by cloudmesh. Proof is to be provided by
+reproducable benchmarks. If this can not be achieved the
+student(s) have to write an additiona ansible script for a
+technologie listed in class or approved by the professor.</li>
+</ul>
+</dd>
+<dt>Additional links form another class:</dt>
+<dd><ul class="first simple">
+<li><a class="reference internal" href="../lesson/projects/index.html#projects"><span class="std std-ref">Software Projects</span></a></li>
+</ul>
+<p class="last">This class contains a section Deployment projects. You can look at
+suggestions and conduct them, the rules listed ubder requirements
+applies. I524 will not focus on analytics. HOwever you still are
+able to do that, but it still must contain a deployment portion.
+All deployments will use ansible.</p>
+</dd>
 </dl>
 </div>
 <div class="section" id="report-format">
