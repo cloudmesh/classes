@@ -1423,6 +1423,20 @@ NoSQL
 
 219. Solr
 220. Solandra
+     
+     Solandra is a highly scalable real-time search engine built on
+     Apache Solr and Apache Cassandra. Solandra simplifies maintaining
+     a large scale search engine, something that more and more
+     applications need. At its core, Solandra is a tight integration
+     of Solr and Cassandra, meaning within a single JVM both Solr and
+     Cassandra are running, and documents are stored and disributed
+     using Cassandra's data model. :cite:`www-solandra`
+
+     Solandra supports most out-of-the-box Solr functionality (search,
+     faceting, highlights), multi-master (read/write to any node). It
+     features replication, sharding, caching, and compaction managed
+     by Cassandra. :cite:`www-solandra2`
+	  
 221. Voldemort
 
      According to :cite:`www-voldemort`, project Voldemort, developed
@@ -2456,6 +2470,22 @@ IaaS Management from HPC to hypervisors
      and several other clouds.
 
 351. CloudStack
+
+     Apache CloudStack is open source software designed to deploy and
+     manage large networks of virtual machines, as a highly available,
+     highly scalable Infrastructure as a Service (IaaS) cloud
+     computing platform. It uses existing hypervisors such as KVM,
+     VMware vSphere, and XenServer/XCP for virtualization. In addition
+     to its own API, CloudStack also supports the Amazon Web Services
+     (AWS) API and the Open Cloud Computing Interface from the Open
+     Grid Forum. :cite:`www-clodstack`
+
+     ColudStack features like built-in high-availability for hosts
+     and VMs, AJAX web GUI for management, AWS API compatibility,
+     Hypervisor agnostic, snapshot management, usage metering, network
+     management (VLAN's, security groups), virtual routers, firewalls,
+     load balancers and multi-role support. :cite:`www-cloudstack2`
+	  
 352. CoreOS
      
      :cite:`www-core` states that “CoreOS is a linux operating system
