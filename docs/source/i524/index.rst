@@ -614,7 +614,7 @@ Requirements:
       benchmarked and contrasted 2 team membesr = 2 clouds, 3 team
       members = 3 clouds. cloud could also be kubernetes or docker
       swarm
-    * Cloudmesh client is to be sed to start the virtual cluster in
+    * Cloudmesh client is to be used to start the virtual cluster in
       order to avoid reinventing the wheel
     * Cloudmesh contains deployments for hadoop and spark. If these
       technologies are used, it has to be shown that if the student(s)
