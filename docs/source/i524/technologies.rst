@@ -1832,6 +1832,30 @@ Cluster Resource Management
 
 271. Mesos
 
+     Apache Mesos :cite:`www-mesos` abstracts CPU, memory,
+     storage, and other compute resources away from machines (physical
+     or virtual), enabling fault-tolerant and elastic distributed
+     systems to easily be built and run effectively. The Mesos kernel
+     runs on every machine and provides applications (e.g., Hadoop,
+     Spark, Kafka, Elasticsearch) with API’s for resource management
+     and scheduling across entire datacenter and cloud environments.
+
+     The resource scheduler of Mesos supports a generalization of
+     max-min fairness :cite:`paper-mesos-Abu-Dbai-2016`, termed Dominant
+     Resource Fairness (DRF) :cite:`paper-mesos-ghodsi2011dominant`
+     scheduling discipline, which allows to harmonize execution of
+     heterogeneous workloads (in terms of resource demand) by
+     maximizing the share of any resource allocated to a specific
+     framework.
+     
+     Mesos uses containers for resource isolation between
+     processes. In the context of Mesos, the two most important
+     resource-isolation methods to know about are the control groups
+     (cgroups) built into the Linux kernel,and Docker. The difference
+     between using hyper-V, Docker containers, cgroup is described in
+     detail in the book "Mesos in action" :cite:`book-mesos-Ignazio-2016`
+
+
 272. Yarn
 
      Yarn (Yet Another Resource Negotiator) is Apache Hadoop’s cluster
@@ -1922,6 +1946,30 @@ File systems
      
 291. Ceph
 292. FUSE
+
+     FUSE (Filesystem in Userspace) :cite:`www-fuse` "is an interface
+     for userspace programs to export a filesystem to the Linux
+     kernel". The FUSE project consists of two components: the fuse
+     kernel module and the libfuse userspace library. libfuse provides
+     the reference implementation for communicating with the FUSE
+     kernel module.The code for FUSE itself is in the kernel, but the
+     filesystem is in userspace.  As per the 2006 paper
+     :cite:`fuse-paper-hptfs` on HPTFS which has been built on top of
+     FUSE. It mounts a tape as normal file system based data storage
+     and provides file system interfaces directly to the application.
+     Another implementation of FUSE FS is CloudBB
+     :cite:`fuse-paper-CloudBB`. Unlike conventional filesystems
+     CloudBB creates an on-demand two-level hierarchical storage
+     system and caches popular files to accelerate I/O performance. On
+     evaluating performance of real data-intensive HPC applications in
+     Amazon EC2/S3, results show CloudBB improves performance by up to
+     28.7 times while reducing cost by up to 94.7% compared to the
+     ones without CloudBB.
+
+     Some more implementation examples of FUSE are - mp3fs (A VFS to
+     convert FLAC files to MP3 files instantly), Copy-FUSE(To access
+     cloud storage on Copy.com), mtpfs(To mount MTP devices) etc.
+
 293. Gluster
 294. Lustre
 
@@ -2510,6 +2558,20 @@ Distributed Coordination
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 373. Google Chubby
+
+     Chubby Distributed lock service :cite:`www-chubby`
+     is intended for use within a loosely-coupled distributed system
+     consisting of moderately large numbers of small machines
+     connected by a high-speed network. Asynchronous consensus is
+     solved by the Paxos protocol. The implementation in Chubby is
+     based on coarse grained lock server and a library that the client
+     applications link against.  As per the 2016 paper
+     :cite:`chubby-paper-2016`, an open-source implementation of the
+     Google Chubby lock service was provided by the Apache ZooKeeper
+     project. ZooKeeper used a Paxos-variant protocol Zab for solving
+     the distributed consensus problem.  Google stack and Facebook
+     stack both use versions of zookeeper.
+     
 374. Zookeeper
  
      Zookeeper provides coordination services to distributed applications.
