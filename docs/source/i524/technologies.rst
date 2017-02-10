@@ -633,7 +633,7 @@ High level Programming
      and scalable ad-hoc queries, online aggregation, and ETL
      (extraction-transformation-loading process) on large-data sets
      which are stored on HDFS (Hadoop Distributed File System) and on
-     other data sources. :cite:`www-tutorialspoint` Apart from HDFS,
+     other data sources. :cite:`www-tutorialspoint-tajo` Apart from HDFS,
      it also supports other storage formats as Amazon S3, Apache
      HBase, Elasticsearch etc. It provides distributed SQL query
      processing engine and even has query optimization techniques and
@@ -644,7 +644,7 @@ High level Programming
      shell which allows users to submit the SQL queries. It also
      offers user defined functions to work with it which can be
      created in python. A Tajo cluster has one master node and a
-     number of worker nodes. :cite:`www-tutorialspoint` The master
+     number of worker nodes. :cite:`www-tutorialspoint-tajo` The master
      node is responsible for performing the query planning and
      maintaining a coordination among the worker nodes. It does this
      by dividing a query in small task which are assigned to the
@@ -1444,8 +1444,8 @@ NoSQL
 224. Berkeley DB
 225. Kyoto/Tokyo Cabinet
 
-     Tokyo Cabinet :cite:`www-tokyo` and Kyoto Cabinet
-     :cite:`www-kyoto` are libraries of routines for managing a
+     Tokyo Cabinet :cite:`www-tokyo-cabinet` and Kyoto Cabinet
+     :cite:`www-kyoto-cabinet` are libraries of routines for managing a
      database. The database normally is a simple data file containing
      records having a key value pair structure. Every key and value is
      serial bytes with variable length. Both binary data and character
@@ -1461,7 +1461,7 @@ NoSQL
      API of C++, C, Java, Python, Ruby, Perl, and Lua. Kyoto Cabinet
      is available on platforms which have API conforming to C++03 with
      the TR1 library extensions. Both are free software licenced under
-     GNU (General Public Licence). :cite:`www-tokyo` actually mentions
+     GNU (General Public Licence). :cite:`www-tokyo-cabinet` actually mentions
      that Kyoto Cabinet is more powerful and has convenient library
      structure than Tokyo and recommends people to use Kyoto. Since
      they use key-value pair concept, you can store a record with a
@@ -1972,7 +1972,7 @@ File systems
      
 297. Public Cloud: Amazon S3
 
-     Amazon Simple Storage Service (Amazon S3) :cite:`www-amazon` is
+     Amazon Simple Storage Service (Amazon S3) :cite:`www-amazon-s3` is
      storage object which provides a simple web service interface to
      store and retrieve any amount of data from anywhere on the
      web. With Amazon S3, users can store as much data as they want
@@ -1986,7 +1986,7 @@ File systems
      data once the data is uploaded in the cloud. Amazon S3 uses the
      concept of Buckets and Objects for storing data wherein Buckets
      are used to store objects. Amazon S3 services can be used using
-     the Amazon Console Management. :cite:`www-amazondocs` The steps
+     the Amazon Console Management. :cite:`www-amazon-s3-docs` The steps
      for using the Amazon S3 are as follows:
      1) Sign up for Amazon S3
      2) After sign up, create a Bucket in your account.
