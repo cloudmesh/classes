@@ -1,7 +1,7 @@
 References
 ==========
 
-.. bibliography:: refs.bib
+.. bibliography:: references.bib
    :style: unsrt
    :cited:
 
