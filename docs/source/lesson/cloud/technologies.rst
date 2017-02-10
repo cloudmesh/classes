@@ -48,11 +48,13 @@ Hadoop
   * Stock Analysis with MPI
   * Drug-Drug Interaction with Twitter
 
+
+
 Refernces
 =========
 
 .. rubric:: References
    
-.. bibliography:: ../../refs.bib    
+.. bibliography:: ../../references.bib    
    :style: unsrt
    :cited:
