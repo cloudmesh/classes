@@ -2545,32 +2545,23 @@ Security & Privacy
      Internet or on corporate internet.
      :cite:`www-ldap`
 
-     LDAP is a "lightweight" (smaller amount of code) version of Directory
-     Access Protocol (DAP), which is part of X.500, a standard for directory
-     services in a network.
-     In a network, a directory tells you where in the network something is
-     located. On TCP/IP networks (including the Internet), the domain name
-     system (DNS) is the directory system used to relate the domain name to a
-     specific network address (a unique location on the network). However, you
-     may not know the domain name. LDAP allows you to search for an individual
-     without knowing where they're located (although additional information will
-     help with the search).
-
-     An LDAP directory is organized in a simple "tree" hierarchy consisting of
-     the following levels:
-     The root directory (the starting place or the source of the tree), which
-     branches out to Countries, each of which branches out to Organizations,
-     which branch out to Organizational units (divisions, departments, and so
-     forth), which branches out to (includes an entry for) Individuals (which
-     includes people, files, and shared resources such as printers).
-
-     An LDAP directory can be distributed among many servers. Each
-     server can have a replicated version of the total directory that
-     is synchronized periodically.  An LDAP server is called a
-     Directory System Agent (DSA). An LDAP server that receives a
-     request from a user takes responsibility for the request, passing
-     it to other DSAs as necessary, but ensuring a single coordinated
-     response for the user.
+     LDAP is a "lightweight" (smaller amount of code) version of
+     Directory Access Protocol (DAP), which is part of X.500, a
+     standard for directory services in a network.  In a network, a
+     directory tells you where in the network something is located. On
+     TCP/IP networks (including the Internet), the domain name system
+     (DNS) is the directory system used to relate the domain name to a
+     specific network address (a unique location on the
+     network). However, you may not know the domain name. LDAP allows
+     you to search for an individual without knowing where they're
+     located (although additional information will help with the
+     search).An LDAP directory can be distributed among many
+     servers. Each server can have a replicated version of the total
+     directory that is synchronized periodically.  An LDAP server is
+     called a Directory System Agent (DSA). An LDAP server that
+     receives a request from a user takes responsibility for the
+     request, passing it to other DSAs as necessary, but ensuring a
+     single coordinated response for the user.
 
 369. Sentry
 370. Sqrrl
