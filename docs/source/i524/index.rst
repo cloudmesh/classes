@@ -611,7 +611,7 @@ Requirements:
       parameter study/benchmark
     * Report
     * If project is conducted in a team at least two clouds are to be
-      benchmarked and contrasted 2 team membesr = 2 clouds, 3 team
+      benchmarked and contrasted 2 team members = 2 clouds, 3 team
       members = 3 clouds. cloud could also be kubernetes or docker
       swarm
     * Cloudmesh client is to be used to start the virtual cluster in
@@ -620,17 +620,20 @@ Requirements:
       technologies are used, it has to be shown that if the student(s)
       elect to write a new ansible script for it that it is better
       than the once provided by cloudmesh. Proof is to be provided by
-      reproducable benchmarks. If this can not be achieved the
-      student(s) have to write an additiona ansible script for a
+      reproducible benchmarks. If this can not be achieved the
+      student(s) have to write an additional ansible script for a
       technologie listed in class or approved by the professor.
       
 Additional links form another class:
+    This other class contains a section deployment
+    projects that may inspire you. You can look at suggestions and
+    conduct them, the rules
+    listed under requirements above applies: e.g. deployment must be
+    done in ansible and it must be done on a cloud, kubernetes, or
+    docker swarm. I524 will not focus on analytics. However you still
+    are able to do that, but it still must contain a deployment
+    portion.
     * :ref:`projects`
-    This class contains a section Deployment projects. You can look at
-    suggestions and conduct them, the rules listed ubder requirements
-    applies. I524 will not focus on analytics. HOwever you still are
-    able to do that, but it still must contain a deployment portion.
-    All deployments will use ansible.
 
     
 
