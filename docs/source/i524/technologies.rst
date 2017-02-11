@@ -1831,6 +1831,26 @@ NoSQL
 248. Titan:db
 249. Jena
 250. Sesame
+
+     Sesame is framework which can be used for the analysis of RDF
+     (Resource Description Framework) data.  Resource Description
+     Framework (RDF) :cite:`www-RDF` is a model that facilitates the
+     interchange of data on the Web.  Using RFD enables us to merge
+     data even if the underlying schemas differ.  :cite:`www-sesame`
+     Sesame has now officially been integrated into RDF4J Eclipse
+     project.  Sesame takes in the natively written code as the input
+     and then performs a series of transformations, generating kernels
+     for various platforms.  :cite:`sesame-paper-2013` In order to
+     achieve this, it makes use of the feature identifier, impact
+     predictor, source-to-source translator and the auto-tuner.  The
+     feature identifier is concerned with the extraction and detection
+     of the architectural features that are important for application
+     performance.  The impact predictor determines the performance
+     impact of the core features extracted above.  A source-to-source
+     translator transforms the input code into a parametrized one;
+     while the auto-tuner helps find the optimal solution for the
+     processor.
+     
 251. Public Cloud: Azure Table
 
      Microsoft offers its NoSQL Azure Table product to the market as a
