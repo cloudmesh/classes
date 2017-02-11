@@ -2008,6 +2008,27 @@ Data Transport
 
 264. HTTP
 265. FTP
+
+     According to cite:{wiki-ftp} FTP is an acronym for File
+     Transfer Protocol. It is network protocol standard used for
+     transferring files between two computer systems or between a
+     client and a server. It is part of the Application layer of the
+     Internet Protocol Suite and works along with HTTP/SSH. It follows
+     a client-server model architecture. Secure systems asks the
+     client to authenticate themselves using a Username and Password
+     registered with the server to access the files via FTP. The
+     specification for FTP was first written by Abhay Bhushan
+     :cite:`www-rfc114` in 1971 and is termed as RFC114. The current
+     specification, RFC959 in use was written in 1985. Several other
+     versions of the specification are available which provides
+     firewall friendly FTP access, additional security extensions,
+     support for IPV6 and passive mode file access respectively. FTP
+     can be used in command line in most of the operating systems to
+     transfer files. There are FTP clients such as WinSCP, FileZilla
+     etc. which provides a graphical user interface to the clients to
+     authenticate themselves (sign on) and access the files from the
+     server.
+     
 266. SSH
 
      SSH is a cryptographic network protocol :cite:`www-ssh-wiki` to
@@ -2523,23 +2544,6 @@ DevOps
 
 313. SaltStack
 314. Boto
-
-     :cite:`www-boto` The latest version of Boto is Boto3. 
-     :cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS) Software 
-     Development Kit (SDK) for Python. It enables the Python developers to 
-     make use of services like Amazon S3 and Amazon EC2. 
-     :cite:`www-boto3-documentation` It provides object oriented APIs along 
-     with low-level direct service access. It provides simple in-built 
-     functions and interfaces to work with Amazon S3 and EC2. 
-
-     :cite:`www-boto-amazon-python-sdk` Boto3 has two distinct levels of APIs 
-     - client and resource. One-to-one mappings to underlying HTTP API is 
-     provided by the client APIs. Resource APIs provide resource objects and 
-     collections to perform various actions by accessing the attributes. 
-     Boto3 also comes with 'waiters'. Waiters are used for polling status 
-     changes in AWS, automatically. Boto3 has these waiters for both the APIs 
-     - client as well as resource. 
-     
 315. Cobbler
 
      Cobbler is a Linux provisioning system that facilitates and
