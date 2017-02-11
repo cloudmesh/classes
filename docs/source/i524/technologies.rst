@@ -91,6 +91,7 @@ Workflow-Orchestration
 21. Scalding
 22. e-Science Central
 23. Azure Data Factory
+    
     Azure data factory is a cloud based data integration service that
     can ingest data from various sources, transform/ process data and
     publish the result data to the data stores. A data management
@@ -110,6 +111,7 @@ Workflow-Orchestration
     analyze web data, sensor data and geo-spatial data.
     
 24. Google Cloud Dataflow
+    
     Google Cloud DataFlow :cite:`data_flow1` is a unified programming
     model that manages the deployment, maintenance and optimization of
     data processes such as batch processing, ETL etc. It creates a
@@ -1194,6 +1196,7 @@ NoSQL
 224. Berkeley DB
 225. Kyoto/Tokyo Cabinet
 226. Tycoon
+     
      Tycoon/ Kyoto Tycoon :cite:`Tycoon_fl` is a lightweight database
      server developed by FLL labs and is a distributed Key-value store
      :cite:`Tycoon_cf`. It is very useful in handling cache data
@@ -1361,6 +1364,7 @@ NoSQL
 247. Facebook Tao
 248. Titan:db
 249. Jena
+     
      Jena is an open source Java Framework provided by Apache for
      semantic web applications. (:cite:`jena_wiki`) It provides a
      programmatic environment for RDF, RDFS and OWL, SPARQL, GRDDL,
@@ -1378,6 +1382,7 @@ NoSQL
      extends the graph layer and provides objects of type ‘resource’
      instead of ‘node’ to work with.  The ontology layer enables one
      to work with triples.
+     
 250. Sesame
 251. Public Cloud: Azure Table
 
