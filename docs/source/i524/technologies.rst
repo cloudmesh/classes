@@ -91,7 +91,44 @@ Workflow-Orchestration
 21. Scalding
 22. e-Science Central
 23. Azure Data Factory
+    Azure data factory is a cloud based data integration service that
+    can ingest data from various sources, transform/ process data and
+    publish the result data to the data stores. A data management
+    gateway enables access to data on SQL Databases
+    :cite:`Azure_df`. The data processing is done by It works by
+    creating pipelines to transform the raw data into a format that
+    can be readily used by BI Tools or applications. The services
+    comes with rich visualization aids that aid data analysis. Data
+    Factory supports two types of activities: data movement activities
+    and data transformation activities. Data Movement :cite:`Azure_ms`
+    is a Copy Activity in Data Factory that copies data from a data
+    source to a Data sink. Data Factory supports the following data
+    stores. Data from any source can be written to any sink.  Data
+    Transformation: Azure Data Factory supports the following
+    transformation activities such as Map reduce, Hive transformations
+    and Machine learning activities.  Data factory is a great tool to
+    analyze web data, sensor data and geo-spatial data.
+    
 24. Google Cloud Dataflow
+    Google Cloud DataFlow :cite:`data_flow1` is a unified programming
+    model that manages the deployment, maintenance and optimization of
+    data processes such as batch processing, ETL etc. It creates a
+    pipeline of tasks and dynamically allocates resources thereby
+    maintaining high efficiency and low latency. According to
+    :cite:`data_flow1`, these capabilities make it suitable for
+    solving challenging big data problems. Also, google DataFlow
+    overcomes the performance issues faced by Hadoops Mapreduce while
+    building pipelines. As stated in :cite:`dataconomy` the
+    performance of MapReduce started deteriorating while facing
+    multiplepetabytes of data whereas Google Cloud Dataflow is
+    apparently better at handling enormous datasets. Additionally
+    Google Dataflow can be integrated with Cloud Storage, Cloud
+    Pub/Sub, Cloud Datastore, Cloud Bigtable, and BigQuery. The
+    unified programming ability is another noteworthy feature which
+    uses Apache Beam SDKs to support powerful operations like
+    windowing and allows correctness control to be applied to batch
+    and stream data processes.
+    
 25. NiFi (NSA)
 26. Jitterbit
 27. Talend
@@ -951,6 +988,30 @@ Extraction Tools
 ----------------------------------------------------------------------
 
 197. UIMA
+     
+     Unstructured Information Management applications (UIMA) provides
+     a framework for content analytics. It searches unstructured data
+     to retrieve specific targets for the user. For example, when a
+     text document is given as input to the system, it identifies
+     targets such as persons, places, objects and even
+     associations. According to , :cite:`uima_wiki` theUIMA
+     architecture can be thought of as four dimensions.
+     1.  Specifies component interfaces in analytics pipeline.
+     2.  Describes a set of Design patterns.
+     3.  Suggests two data representations: an in-memory
+     representation of annotations for high-performance analytics and
+     an XML representation of annotations for integration with remote
+     web services.
+     4. Suggests development roles allowing tools to be used by users
+     with diverse skills.  UIMA uses different, possibly mixed,
+     approaches which include Natural Language Processing, Machine
+     Learning, IR. UIMA supports multimodal analytics :cite:`uima_ss`
+     which enables the system to process the resource fro various
+     points of view. UIMA is used in several software projects such as
+     the IBM Research's Watson uses UIMA for analyzing unstructured
+     data and Clinical Text Analysis and Knowledge Extraction System
+     (Apache cTAKES) which is a UIMA-based system for information
+     extraction from medical records.
 
 381. Tika
 
@@ -1133,6 +1194,16 @@ NoSQL
 224. Berkeley DB
 225. Kyoto/Tokyo Cabinet
 226. Tycoon
+     Tycoon/ Kyoto Tycoon :cite:`Tycoon_fl` is a lightweight database
+     server developed by FLL labs and is a distributed Key-value store
+     :cite:`Tycoon_cf`. It is very useful in handling cache data
+     persistent data of various applications. Kyoto Tycoon is also a
+     package of network interface to the DBM called Kyoto Cabinet
+     :cite:`Tycoon_fl2` which contains a library of routines for
+     managing a database. Tycoon is composed of a sever process that
+     manger multiple databases. This renders high concurrency enabling
+     it to handle more than 10 thousand connections at the same time.
+     
 227. Tyrant
 
      Tyrant provides network interfaces to the database management
@@ -1290,6 +1361,23 @@ NoSQL
 247. Facebook Tao
 248. Titan:db
 249. Jena
+     Jena is an open source Java Framework provided by Apache for
+     semantic web applications. (:cite:`jena_wiki`) It provides a
+     programmatic environment for RDF, RDFS and OWL, SPARQL, GRDDL,
+     and includes a rule-based inference engine. Semantic web data
+     differs from conventional web applications in that it supports a
+     web of data instead of the classic web of documents format. The
+     presence of a rule based inference engine enable Jena to perform
+     a reasoning based on OWL and RDFS ontologies.  :cite:`jena_blog`
+     The architecture of Jena contains three layers : Graph layer,
+     model layer and Ontology layer. The graph layer forms the base
+     for the architecture. It does not have an extensive RDF
+     implementation and serves more as a Service provider
+     Interface. According to :cite:`jena_blog` It provides
+     classes/methods that could be further extended. The model layer
+     extends the graph layer and provides objects of type ‘resource’
+     instead of ‘node’ to work with.  The ontology layer enables one
+     to work with triples.
 250. Sesame
 251. Public Cloud: Azure Table
 
