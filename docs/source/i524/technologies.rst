@@ -2486,6 +2486,23 @@ DevOps
 
 313. SaltStack
 314. Boto
+
+     :cite:`www-boto` The latest version of Boto is Boto3. 
+     :cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS) Software 
+     Development Kit (SDK) for Python. It enables the Python developers to 
+     make use of services like Amazon S3 and Amazon EC2. 
+     :cite:`www-boto3-documentation` It provides object oriented APIs along 
+     with low-level direct service access. It provides simple in-built 
+     functions and interfaces to work with Amazon S3 and EC2. 
+
+     :cite:`www-boto-amazon-python-sdk` Boto3 has two distinct levels of APIs 
+     - client and resource. One-to-one mappings to underlying HTTP API is 
+     provided by the client APIs. Resource APIs provide resource objects and 
+     collections to perform various actions by accessing the attributes. 
+     Boto3 also comes with 'waiters'. Waiters are used for polling status 
+     changes in AWS, automatically. Boto3 has these waiters for both the APIs 
+     - client as well as resource. 
+     
 315. Cobbler
 
      Cobbler is a Linux provisioning system that facilitates and
