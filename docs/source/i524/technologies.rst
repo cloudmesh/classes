@@ -2728,7 +2728,7 @@ Excersise
 
 TechList.1: In class you will be given an HID and you will be assigned
   a number of technologies that you need to research and create a
-  summary as well as one or more relevant refernces to be added to the
+  summary as well as one or more relevant references to be added to the
   Web page. All technologies for TechList.1 are marked with a (1)
   behind the technology.  An example text is given for Nagios in this
   page.  Please create a pull request with your responses. You are
@@ -2738,12 +2738,12 @@ TechList.1: In class you will be given an HID and you will be assigned
     new:usr: added paragraph about <PUTTECHHERE>
 
   You can create one or more pull requests for the technology and the
-  refernces. We have created in the referens file a placeholder using
-  your HID to simplify the management of the refernces while avoiding
+  references. We have created in the referens file a placeholder using
+  your HID to simplify the management of the references while avoiding
   conflicts.  For the technologies you are responsible to invesitgate
   them and write an academic summary of the technology. Make sure to
-  add your refernce to refs.bib.  Many technologies may have
-  additional refernces than the Web page. Please add the most
+  add your reference to refs.bib.  Many technologies may have
+  additional references than the Web page. Please add the most
   important once while limiting it to three if you can. Avoid
   plagearism and use proper quotations or better rewrite the text.
 
@@ -2818,7 +2818,7 @@ TechList.3:
 
 
 
-Refernces
+References
 ---------
 
 .. bibliography:: ../refs.bib
