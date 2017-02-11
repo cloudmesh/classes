@@ -1002,7 +1002,6 @@ Basic Programming model and runtime, SPMD, MapReduce
      framework inspired by Google Guice, but designed specifically for
      configuring distributed systems.
 
-     
 149. Disco
 150. Hama
 151. Giraph
