@@ -62,6 +62,17 @@ Workflow-Orchestration
    Pig or Cascading."
 
 10. BioKepler
+    
+    BioKepler is a Kepler module of scientific workflow components to
+    execute a set of bioinformatics tools using distributed execution
+    patterns :cite:`WWW-bioKepler`. It contains a specialized set of
+    actors called “bioActors” for running bioinformatic tools,
+    directors providing distributed data-parallel(DPP) execution on
+    Big Data platforms such as Hadoop and Spark they are also
+    configurable and reusable :cite:`WWW-bioKepler-Demos`. BioKepler
+    contains over 40 example workflows that demonstrate the actors and
+    directors :cite:`bioActors`.
+    
 11. Galaxy
 12. IPython
 13. Jupyter
@@ -121,6 +132,23 @@ Workflow-Orchestration
 
 23. Azure Data Factory
 24. Google Cloud Dataflow
+    
+    Google Cloud Dataflow is a unified programming model and a managed
+    service for developing and executing a wide variety of data processing
+    patterns (pipelines). Dataflow includes SDKs for defining data
+    processing workflows and a Cloud platform managed services to run
+    those workflows on a Google cloud platform resources such as Compute
+    Engine, BigQuery amongst others :cite:`WWW-Dataflow`. Dataflow
+    pipelines can operate in both batch and streaming mode. The platform
+    resources are provided on demand, allowing users to scale to meet
+    their requirements, it’s also optimized to help balance lagging work
+    dynamically.
+
+    Being a cloud offering, Dataflow is designed to allow users to focus
+    on devising proper analysis without worrying about the installation
+    and maintaining :cite:`WWW-GoogleLiveStream` the underlying data
+    piping and process infrastructure.
+    
 25. NiFi (NSA)
 
     :cite:`www-nifi` Defines NiFi as "An Easy to use, powerful and
@@ -462,6 +490,17 @@ Application and Analytics
 
 66. CINET
 67. NWB
+
+	:cite:`www-nwb.edu` NWB stands for Network workbench is analysis, modelling and visualization toolkit for the network scientists.
+	It provides an environment which help scientist researchers and practitioner to get online access to the shared resource 
+	environment and network datasets for analysis, modelling and visualization of large scale networking application.
+	User can access this network datasets and algorithms previously obtained by doing lot of research and can also add their own 
+	datasets helps in speeding up the process and saving the time for redoing the same analysis. 
+
+	NWB provides advanced tools for users to understand and interact with different types of networks. 
+	NWB members are largely the computer scientist, biologist, engineers, social and behavioural scientist. The platform
+	helps the specialist researchers to transfer the knowledge within the broader scientific and research communities.
+	
 68. Elasticsearch
 
     Elasticsearch :cite:`www-elasticsearch` is a real time
@@ -2540,6 +2579,31 @@ IaaS Management from HPC to hypervisors
           
 340. KVM
 341. QEMU
+     
+     QEMU (Quick Emulator) is a generic open source hosted hypervisor
+     :cite:`WWW-Hypervisor` that performs hardware virtualization
+     (virtualization of computers as complete hardware platform,
+     certain logical abstraction of their componentry or only the
+     certain functionality required to run various operating systems)
+     :cite:`WWW-QEMU` and also emulates CPUs through dynamic binary
+     translations and provides a set of device models, enabling it to
+     run a variety of unmodified guest operating systems.
+     
+     When used as an emulator, QEMU can run Operating Systems and programs
+     made for one machine (ARM board) on a different machine (e.g. a
+     personal computer) and achieve good performance by using dynamic
+     translations.  When used as a virtualizer, QEMU achieves near native
+     performance by executing the guest code directly on the host CPU. QEMU
+     supports virtualization when executing under the Xen hypervisor or
+     using KVM kernel module in Linux :cite:`WWW-QEMUWiki`.
+
+     Compared to other virtualization programs like VMWare and VirtualBox,
+     QEMU does not provide a GUI interface to manage virtual machines nor
+     does it provide a way to create persistent virtual machine with saved
+     settings. All parameters to run virtual machine have to be specified
+     on a command line at every launch. It’s worth noting that there are
+     several GUI front-ends for QEMU like virt-manager and gnome-box.
+
 342. Hyper-V
 343. VirtualBox
 344. OpenVZ
@@ -2821,7 +2885,7 @@ Excersise
 
 TechList.1: In class you will be given an HID and you will be assigned
   a number of technologies that you need to research and create a
-  summary as well as one or more relevant refernces to be added to the
+  summary as well as one or more relevant references to be added to the
   Web page. All technologies for TechList.1 are marked with a (1)
   behind the technology.  An example text is given for Nagios in this
   page.  Please create a pull request with your responses. You are
@@ -2831,12 +2895,12 @@ TechList.1: In class you will be given an HID and you will be assigned
     new:usr: added paragraph about <PUTTECHHERE>
 
   You can create one or more pull requests for the technology and the
-  refernces. We have created in the referens file a placeholder using
-  your HID to simplify the management of the refernces while avoiding
+  references. We have created in the referens file a placeholder using
+  your HID to simplify the management of the references while avoiding
   conflicts.  For the technologies you are responsible to invesitgate
   them and write an academic summary of the technology. Make sure to
-  add your refernce to refs.bib.  Many technologies may have
-  additional refernces than the Web page. Please add the most
+  add your reference to refs.bib.  Many technologies may have
+  additional references than the Web page. Please add the most
   important once while limiting it to three if you can. Avoid
   plagearism and use proper quotations or better rewrite the text.
 
@@ -2911,7 +2975,7 @@ TechList.3:
 
 
 
-Refernces
+References
 ---------
 
 .. bibliography:: ../refs.bib
