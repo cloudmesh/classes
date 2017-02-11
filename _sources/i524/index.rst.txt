@@ -353,7 +353,7 @@ industry. CANVAS is not.
 As a consequence all technology papers from all students will be
 available as a single big technical report. To achieve this all
 reports must be written in the same format. This wil be LaTeX and all
-refernces have to be provided a bibtex file while you use jabref.
+references have to be provided a bibtex file while you use jabref.
 Alternatively lyx.org can be used, if you prefer to edit
 latex in *what you see is almost what you get* format. The use of
 sharelatex or overleave or lyx.org is allowed.
@@ -814,7 +814,7 @@ Please, select the course that is most suitable for your program:
 
 
 		 
-Refernces
+References
 ---------
 
 http://hpc-abds.org/kaleidoscope/ 
