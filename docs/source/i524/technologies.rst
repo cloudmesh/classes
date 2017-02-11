@@ -150,6 +150,21 @@ Workflow-Orchestration
     piping and process infrastructure.
     
 25. NiFi (NSA)
+
+    :cite:`www-nifi` Defines NiFi as "An Easy to use, powerful and
+    realiable system to process and distribute data".
+    This tool aims
+    at automated data flow from sources with different sizes ,
+    formats and following diffent protocals to the centralized
+    location or destination. :cite:`www-hortanworks`.
+    
+    This comes equipped with an easy use UI where the data flow
+    can be conrolled with a drag and a drop.
+    NiFi was initiatially developed by NSA ( called Niagarafiles )
+    using the concepts of flowbased
+    programming and latter submitted to Apachi Software
+    foundation. :cite:`www-forbes`
+    
 26. Jitterbit
 27. Talend
 28. Pentaho
@@ -1463,6 +1478,23 @@ SQL(NewSQL)
 212. Amazon RDS
 213. Google F1
 214. IBM dashDB
+
+     IBM dashDB is a data warehousing service hosted in cloud ,
+     This aims at integrating the data from various sources into a
+     cloud data base. Since the data base is hosted in cloud it
+     would have the benifits of a cloud like scalability and less
+     maintainance. This data base can be configured as 'transaction
+     based' or 'Analytics based' depending on the work load
+     :cite:`www-ibm-dash-db.com` .This is available through ibm blue mix
+     cloud platform.
+
+     dash DB has build in analytics based on IBM Netezza Analytics
+     in the PureData System for Analytics. Because of the build in
+     analytics and support of
+     in memory optimization promises better performance efficieny.
+     This can be run alone as a standalone or can be connected to
+     variousBI or analytic tools. :cite:`www-ibm-analytics.com`
+       
 215. N1QL
 216. BlinkDB
 217. Spark SQL
@@ -1986,6 +2018,23 @@ Cluster Resource Management
      resource. :cite:`www-HadoopApache`
 
 273. Helix
+
+     Helix is a data management system getting developed by IBM which
+     helps the users to do explitory analysis of the data received
+     from various sources following different formats. This system
+     would help orgnaize the data by providing links between data
+     collected across various sources dispite of the knowledge of the
+     data sources schemas.It also aims at providing  the data really
+     required for the user by extracting the important information
+     from the data. This would plan to target the issue by
+     mainataining the "knowledge base of schemas" and
+     "context-dependent dynamic linkage", The system can get the
+     schema details either from the  knowledge base being maintained
+     or can even get the schema from the data being received. As the
+     number of users for helix increases the linkages gets stronger
+     and would provide better data
+     quality. :cite:`www-ibm-helix-paper`
+      
 274. Llama
 275. Google Omega
 276. Facebook Corona
@@ -2276,6 +2325,33 @@ DevOps
 
 309. Docker (Machine, Swarm)
 310. Puppet
+
+     Puppet is an open source software configuration management
+     tool :cite:`www-puppet-wiki-puppet`.This aims at automatic
+     configuration of the software
+     applications and infrastructure. This configuration is done
+     using the easy to use languge.
+     Puppet works on major linux distributions and also on
+     microsoft windows ,
+     it is also cross-platform application making it easy to manage
+     and portable. :cite:`www-puppet-puppet-site`
+
+     Puppet works with a client server model. All the clients (
+     nodes)  which needs to be managed will have 'Puppet Agent'
+     installed and 'Puppet Master' contains the configuration for
+     different hosts this demon process rund on master server. The
+     connection between 'Puppet Master' and 'Puppet agent' will be
+     established using thesecured SSL connection. The configiration
+     at client will be validated as per the set up in Puppet master
+     at a predefined interval. If configration at client is not
+     matching with the master puppet agent fetches the equired
+     changes from master. :cite:`www-puppet-slashroot`
+
+     Puppet is developed by Puppet Labs
+     using ruby language and released as GNU General Public License
+     (GPL) until version 2.7.0 and the Apache License 2.0 after
+     that. :cite:`www-puppet-wiki-puppet`
+	
 311. Chef
 
      Chef is a configuration management tool. It is implemented in
@@ -2532,6 +2608,23 @@ IaaS Management from HPC to hypervisors
 343. VirtualBox
 344. OpenVZ
 345. LXC
+     
+     LXC (Linux Containers) is an operating-system-level
+     virtualization method for running multiple isolated
+     Linux systems (containers) on a control host using a single
+     Linux kernel :cite:`www-wiki-lxc`. LXC are similar to the treditional virtual
+     machines but instead of having seperate kernel process for the
+     guest operating system being run, containers would share the
+     kernal process with the host operating system. This is made
+     possible with the implementation of namespaces and cgroups. :cite:`www-jpablo`
+
+     Containers are light weighed ( As guest operating system
+     loading and booting is eleminated ) and more customizable
+     compared to VM technologies.The basis for docker developement
+     is also LXC. :cite:`www-infoworld`. Linux containers would
+     work on the major distributions of linux this would not work
+     on Microsoft Windows.
+	
 346. Linux-Vserver
 347. OpenStack
 348. OpenNebula
