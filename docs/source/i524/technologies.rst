@@ -62,6 +62,17 @@ Workflow-Orchestration
    Pig or Cascading."
 
 10. BioKepler
+    
+    BioKepler is a Kepler module of scientific workflow components to
+    execute a set of bioinformatics tools using distributed execution
+    patterns :cite:`WWW-bioKepler`. It contains a specialized set of
+    actors called “bioActors” for running bioinformatic tools,
+    directors providing distributed data-parallel(DPP) execution on
+    Big Data platforms such as Hadoop and Spark they are also
+    configurable and reusable :cite:`WWW-bioKepler-Demos`. BioKepler
+    contains over 40 example workflows that demonstrate the actors and
+    directors :cite:`bioActors`.
+    
 11. Galaxy
 12. IPython
 13. Jupyter
@@ -121,7 +132,39 @@ Workflow-Orchestration
 
 23. Azure Data Factory
 24. Google Cloud Dataflow
+    
+    Google Cloud Dataflow is a unified programming model and a managed
+    service for developing and executing a wide variety of data processing
+    patterns (pipelines). Dataflow includes SDKs for defining data
+    processing workflows and a Cloud platform managed services to run
+    those workflows on a Google cloud platform resources such as Compute
+    Engine, BigQuery amongst others :cite:`WWW-Dataflow`. Dataflow
+    pipelines can operate in both batch and streaming mode. The platform
+    resources are provided on demand, allowing users to scale to meet
+    their requirements, it’s also optimized to help balance lagging work
+    dynamically.
+
+    Being a cloud offering, Dataflow is designed to allow users to focus
+    on devising proper analysis without worrying about the installation
+    and maintaining :cite:`WWW-GoogleLiveStream` the underlying data
+    piping and process infrastructure.
+    
 25. NiFi (NSA)
+
+    :cite:`www-nifi` Defines NiFi as "An Easy to use, powerful and
+    realiable system to process and distribute data".
+    This tool aims
+    at automated data flow from sources with different sizes ,
+    formats and following diffent protocals to the centralized
+    location or destination. :cite:`www-hortanworks`.
+    
+    This comes equipped with an easy use UI where the data flow
+    can be conrolled with a drag and a drop.
+    NiFi was initiatially developed by NSA ( called Niagarafiles )
+    using the concepts of flowbased
+    programming and latter submitted to Apachi Software
+    foundation. :cite:`www-forbes`
+    
 26. Jitterbit
 27. Talend
 28. Pentaho
@@ -295,6 +338,24 @@ Application and Analytics
     
 53. Theano
 54. DL4j
+
+    DL4j stands for Deeplearning4j. :cite:`www-dl4j` It is a deep
+    learning programming library written for Java and the Java virtual
+    machine (JVM) and a computing framework with wide support for deep
+    learning algorithms. Deeplearning4j includes implementations of
+    the restricted Boltzmann machine, deep belief net, deep
+    autoencoder, stacked denoising autoencoder and recursive neural
+    tensor network, word2vec, doc2vec, and GloVe. These algorithms all
+    include distributed parallel versions that integrate with Apache
+    Hadoop and Spark. It is a open-source software released under
+    Apache License 2.0.
+
+    Training with Deeplearning4j occurs in a cluster. Neural nets are
+    trained in parallel via iterative reduce, which works on
+    Hadoop-YARN and on Spark. Deeplearning4j also integrates with CUDA
+    kernels to conduct pure GPU operations, and works with distributed
+    GPUs.
+	
 55. H2O
 56. IBM Watson
 
@@ -429,6 +490,17 @@ Application and Analytics
 
 66. CINET
 67. NWB
+
+	:cite:`www-nwb.edu` NWB stands for Network workbench is analysis, modelling and visualization toolkit for the network scientists.
+	It provides an environment which help scientist researchers and practitioner to get online access to the shared resource 
+	environment and network datasets for analysis, modelling and visualization of large scale networking application.
+	User can access this network datasets and algorithms previously obtained by doing lot of research and can also add their own 
+	datasets helps in speeding up the process and saving the time for redoing the same analysis. 
+
+	NWB provides advanced tools for users to understand and interact with different types of networks. 
+	NWB members are largely the computer scientist, biologist, engineers, social and behavioural scientist. The platform
+	helps the specialist researchers to transfer the knowledge within the broader scientific and research communities.
+	
 68. Elasticsearch
 
     Elasticsearch :cite:`www-elasticsearch` is a real time
@@ -461,6 +533,21 @@ Application and Analytics
     
 69. Kibana
 70. Logstash
+
+    Logstash is an open source data collection engine with real-time
+    pipelining capabilities. Logstash can dynamically unify data from
+    disparate sources and normalize the data into destinations of your
+    choice. :cite:`www-logstash` Cleanse and democratize all your data
+    for diverse advanced downstream analytics and visualization use
+    cases.
+
+    While Logstash originally drove innovation in log collection, its
+    capabilities extend well beyond that use case. Any type of event
+    can be enriched and transformed with a broad array of input,
+    filter, and output plugins, with many native codecs further
+    simplifying the ingestion process. Logstash accelerates your
+    insights by harnessing a greater volume and variety of data.
+	
 71. Graylog
 72. Splunk
 73. Tableau
@@ -1194,6 +1281,29 @@ In-memory databases/caches
      
 185. Redis
 186. LMDB (key value)
+
+     LMDB (Lighting memory-mapped Database) is a high performance embedded
+     transactional database in form of a key-value store
+     :cite:`www-keyvalue`. LMDB is designed around
+     virtual memory facilities found in modern operating
+     systems, multi-version concurrency control (MVCC)
+     and single-level store (SLS) concepts. LMDB stores
+     arbitrary key/data pairs as byte arrays, provides a
+     range-based search capability, supports multiple
+     data items for a single key and has a special mode
+     for appending records at the end of the database
+     (MDB_APPEND) which significantly increases its write
+     performance compared to other similar databases.
+
+     LMDB is not a relational database :cite:`www-relationaldb` and
+     strictly uses key-value store. Key-value databases
+     allows one write at a time, the difference that LMDB
+     highlights is that write transactions do not block
+     readers nor do readers block writes. Also, it does
+     allow multiple applications on the same system to
+     open and use the store simultaneously which helps in
+     scaling up performance :cite:`WWW-LMDB`.
+
 187. Hazelcast
 
      Hazelcast is a java based, in memory data grid. :cite:`www-wikihazel` 
@@ -1368,6 +1478,23 @@ SQL(NewSQL)
 212. Amazon RDS
 213. Google F1
 214. IBM dashDB
+
+     IBM dashDB is a data warehousing service hosted in cloud ,
+     This aims at integrating the data from various sources into a
+     cloud data base. Since the data base is hosted in cloud it
+     would have the benifits of a cloud like scalability and less
+     maintainance. This data base can be configured as 'transaction
+     based' or 'Analytics based' depending on the work load
+     :cite:`www-ibm-dash-db.com` .This is available through ibm blue mix
+     cloud platform.
+
+     dash DB has build in analytics based on IBM Netezza Analytics
+     in the PureData System for Analytics. Because of the build in
+     analytics and support of
+     in memory optimization promises better performance efficieny.
+     This can be run alone as a standalone or can be connected to
+     variousBI or analytic tools. :cite:`www-ibm-analytics.com`
+       
 215. N1QL
 216. BlinkDB
 217. Spark SQL
@@ -1390,6 +1517,20 @@ NoSQL
 
 219. Solr
 220. Solandra
+     
+     Solandra is a highly scalable real-time search engine built on
+     Apache Solr and Apache Cassandra. Solandra simplifies maintaining
+     a large scale search engine, something that more and more
+     applications need. At its core, Solandra is a tight integration
+     of Solr and Cassandra, meaning within a single JVM both Solr and
+     Cassandra are running, and documents are stored and disributed
+     using Cassandra's data model. :cite:`www-solandra`
+
+     Solandra supports most out-of-the-box Solr functionality (search,
+     faceting, highlights), multi-master (read/write to any node). It
+     features replication, sharding, caching, and compaction managed
+     by Cassandra. :cite:`www-solandra2`
+	  
 221. Voldemort
 
      According to :cite:`www-voldemort`, project Voldemort, developed
@@ -1655,6 +1796,26 @@ NoSQL
 241. Sqrrl
 242. Neo4J
 243. graphdb
+
+     A Graph Database is a database that uses graph structures for semantic
+     queries with nodes, edges and properties to represent and store data.
+     :cite:`www-graphdb`
+     The Graph is a concept which directly relates the data items in the store.
+     The data which is present in the store is linked together directly with the
+     help of relationships. It can be retrieved with a single operation.
+     Graph database allow simple and rapid retrieval of complex hierarchical
+     structures that are difficult to model in relational systems.
+
+     There are different underlying storage mechanisms used by graph databases.
+     Some graphdb depend on a relational engine and store the graph data in a
+     table, while others use a key-value store or document-oriented database for
+     storage. Thus, they are inherently caled as NoSQL structures.
+     Data retrieval in a graph database requires a different query language
+     other than SQL. Some of the query languages used to retrieve data from a
+     graph database are Gremlin, SPARQL, and Cypher.
+     Graph databases are based on graph theory. They employ the concepts of
+     nodes, edges and properties.
+     
 244. Yarcdata
 245. AllegroGraph
 246. Blazegraph
@@ -1881,6 +2042,23 @@ Cluster Resource Management
      resource. :cite:`www-HadoopApache`
 
 273. Helix
+
+     Helix is a data management system getting developed by IBM which
+     helps the users to do explitory analysis of the data received
+     from various sources following different formats. This system
+     would help orgnaize the data by providing links between data
+     collected across various sources dispite of the knowledge of the
+     data sources schemas.It also aims at providing  the data really
+     required for the user by extracting the important information
+     from the data. This would plan to target the issue by
+     mainataining the "knowledge base of schemas" and
+     "context-dependent dynamic linkage", The system can get the
+     schema details either from the  knowledge base being maintained
+     or can even get the schema from the data being received. As the
+     number of users for helix increases the linkages gets stronger
+     and would provide better data
+     quality. :cite:`www-ibm-helix-paper`
+      
 274. Llama
 275. Google Omega
 276. Facebook Corona
@@ -2195,6 +2373,33 @@ DevOps
 
 309. Docker (Machine, Swarm)
 310. Puppet
+
+     Puppet is an open source software configuration management
+     tool :cite:`www-puppet-wiki-puppet`.This aims at automatic
+     configuration of the software
+     applications and infrastructure. This configuration is done
+     using the easy to use languge.
+     Puppet works on major linux distributions and also on
+     microsoft windows ,
+     it is also cross-platform application making it easy to manage
+     and portable. :cite:`www-puppet-puppet-site`
+
+     Puppet works with a client server model. All the clients (
+     nodes)  which needs to be managed will have 'Puppet Agent'
+     installed and 'Puppet Master' contains the configuration for
+     different hosts this demon process rund on master server. The
+     connection between 'Puppet Master' and 'Puppet agent' will be
+     established using thesecured SSL connection. The configiration
+     at client will be validated as per the set up in Puppet master
+     at a predefined interval. If configration at client is not
+     matching with the master puppet agent fetches the equired
+     changes from master. :cite:`www-puppet-slashroot`
+
+     Puppet is developed by Puppet Labs
+     using ruby language and released as GNU General Public License
+     (GPL) until version 2.7.0 and the Apache License 2.0 after
+     that. :cite:`www-puppet-wiki-puppet`
+	
 311. Chef
 
      Chef is a configuration management tool. It is implemented in
@@ -2234,6 +2439,23 @@ DevOps
 313. SaltStack
 314. Boto
 315. Cobbler
+
+     Cobbler is a Linux provisioning system that facilitates and
+     automates the network based system installation of multiple computer
+     operating systems from a central point using services such as DHCP,
+     TFTP and DNS :cite:`www-cobbler`.It is a nifty piece of code that
+     assemble s all the usual
+     setup bits required for a large network installation like TFTP, DNS,
+     PXE installation trees. and automates the process[1].It can be
+     configured for PXE, reinstallations and virtualized guests using Xen,
+     KVM or VMware.  Cobbler interacts with the koan program for
+     re-installation and virtualization support.  Cobbler builds the
+     Kickstart mechanism and offers installation profiles that can be
+     applied to one or many machines.  Cobbler has features to dynamically
+     change the information contained in a kickstart template (definition),
+     either by passing variables called ksmeta or by using so-called
+     snippets.
+
 316. Xcat
 317. Razor
 318. CloudMesh
@@ -2405,10 +2627,52 @@ IaaS Management from HPC to hypervisors
           
 340. KVM
 341. QEMU
+     
+     QEMU (Quick Emulator) is a generic open source hosted hypervisor
+     :cite:`WWW-Hypervisor` that performs hardware virtualization
+     (virtualization of computers as complete hardware platform,
+     certain logical abstraction of their componentry or only the
+     certain functionality required to run various operating systems)
+     :cite:`WWW-QEMU` and also emulates CPUs through dynamic binary
+     translations and provides a set of device models, enabling it to
+     run a variety of unmodified guest operating systems.
+     
+     When used as an emulator, QEMU can run Operating Systems and programs
+     made for one machine (ARM board) on a different machine (e.g. a
+     personal computer) and achieve good performance by using dynamic
+     translations.  When used as a virtualizer, QEMU achieves near native
+     performance by executing the guest code directly on the host CPU. QEMU
+     supports virtualization when executing under the Xen hypervisor or
+     using KVM kernel module in Linux :cite:`WWW-QEMUWiki`.
+
+     Compared to other virtualization programs like VMWare and VirtualBox,
+     QEMU does not provide a GUI interface to manage virtual machines nor
+     does it provide a way to create persistent virtual machine with saved
+     settings. All parameters to run virtual machine have to be specified
+     on a command line at every launch. It’s worth noting that there are
+     several GUI front-ends for QEMU like virt-manager and gnome-box.
+
 342. Hyper-V
 343. VirtualBox
 344. OpenVZ
 345. LXC
+     
+     LXC (Linux Containers) is an operating-system-level
+     virtualization method for running multiple isolated
+     Linux systems (containers) on a control host using a single
+     Linux kernel :cite:`www-wiki-lxc`. LXC are similar to the treditional virtual
+     machines but instead of having seperate kernel process for the
+     guest operating system being run, containers would share the
+     kernal process with the host operating system. This is made
+     possible with the implementation of namespaces and cgroups. :cite:`www-jpablo`
+
+     Containers are light weighed ( As guest operating system
+     loading and booting is eleminated ) and more customizable
+     compared to VM technologies.The basis for docker developement
+     is also LXC. :cite:`www-infoworld`. Linux containers would
+     work on the major distributions of linux this would not work
+     on Microsoft Windows.
+	
 346. Linux-Vserver
 347. OpenStack
 348. OpenNebula
@@ -2434,6 +2698,22 @@ IaaS Management from HPC to hypervisors
      and several other clouds.
 
 351. CloudStack
+
+     Apache CloudStack is open source software designed to deploy and
+     manage large networks of virtual machines, as a highly available,
+     highly scalable Infrastructure as a Service (IaaS) cloud
+     computing platform. It uses existing hypervisors such as KVM,
+     VMware vSphere, and XenServer/XCP for virtualization. In addition
+     to its own API, CloudStack also supports the Amazon Web Services
+     (AWS) API and the Open Cloud Computing Interface from the Open
+     Grid Forum. :cite:`www-clodstack`
+
+     ColudStack features like built-in high-availability for hosts
+     and VMs, AJAX web GUI for management, AWS API compatibility,
+     Hypervisor agnostic, snapshot management, usage metering, network
+     management (VLAN's, security groups), virtual routers, firewalls,
+     load balancers and multi-role support. :cite:`www-cloudstack2`
+	  
 352. CoreOS
      
      :cite:`www-core` states that “CoreOS is a linux operating system
@@ -2549,6 +2829,31 @@ Security & Privacy
 
 367. OpenStack Keystone
 368. LDAP
+
+     LDAP stands for Lightweight Directory Access Protocol. It is a software
+     protocol for enabling anyone to locate organizations, individuals, and
+     other resources such as files and devices in a network, whether on the
+     Internet or on corporate internet.
+     :cite:`www-ldap`
+
+     LDAP is a "lightweight" (smaller amount of code) version of
+     Directory Access Protocol (DAP), which is part of X.500, a
+     standard for directory services in a network.  In a network, a
+     directory tells you where in the network something is located. On
+     TCP/IP networks (including the Internet), the domain name system
+     (DNS) is the directory system used to relate the domain name to a
+     specific network address (a unique location on the
+     network). However, you may not know the domain name. LDAP allows
+     you to search for an individual without knowing where they're
+     located (although additional information will help with the
+     search).An LDAP directory can be distributed among many
+     servers. Each server can have a replicated version of the total
+     directory that is synchronized periodically.  An LDAP server is
+     called a Directory System Agent (DSA). An LDAP server that
+     receives a request from a user takes responsibility for the
+     request, passing it to other DSAs as necessary, but ensuring a
+     single coordinated response for the user.
+
 369. Sentry
 370. Sqrrl
 371. OpenID
@@ -2642,7 +2947,7 @@ Excersise
 
 TechList.1: In class you will be given an HID and you will be assigned
   a number of technologies that you need to research and create a
-  summary as well as one or more relevant refernces to be added to the
+  summary as well as one or more relevant references to be added to the
   Web page. All technologies for TechList.1 are marked with a (1)
   behind the technology.  An example text is given for Nagios in this
   page.  Please create a pull request with your responses. You are
@@ -2652,12 +2957,12 @@ TechList.1: In class you will be given an HID and you will be assigned
     new:usr: added paragraph about <PUTTECHHERE>
 
   You can create one or more pull requests for the technology and the
-  refernces. We have created in the referens file a placeholder using
-  your HID to simplify the management of the refernces while avoiding
+  references. We have created in the referens file a placeholder using
+  your HID to simplify the management of the references while avoiding
   conflicts.  For the technologies you are responsible to invesitgate
   them and write an academic summary of the technology. Make sure to
-  add your refernce to refs.bib.  Many technologies may have
-  additional refernces than the Web page. Please add the most
+  add your reference to refs.bib.  Many technologies may have
+  additional references than the Web page. Please add the most
   important once while limiting it to three if you can. Avoid
   plagearism and use proper quotations or better rewrite the text.
 
@@ -2732,7 +3037,7 @@ TechList.3:
 
 
 
-Refernces
+References
 ---------
 
 .. bibliography:: ../refs.bib
