@@ -295,6 +295,24 @@ Application and Analytics
     
 53. Theano
 54. DL4j
+
+    DL4j stands for Deeplearning4j. :cite:`www-dl4j` It is a deep
+    learning programming library written for Java and the Java virtual
+    machine (JVM) and a computing framework with wide support for deep
+    learning algorithms. Deeplearning4j includes implementations of
+    the restricted Boltzmann machine, deep belief net, deep
+    autoencoder, stacked denoising autoencoder and recursive neural
+    tensor network, word2vec, doc2vec, and GloVe. These algorithms all
+    include distributed parallel versions that integrate with Apache
+    Hadoop and Spark. It is a open-source software released under
+    Apache License 2.0.
+
+    Training with Deeplearning4j occurs in a cluster. Neural nets are
+    trained in parallel via iterative reduce, which works on
+    Hadoop-YARN and on Spark. Deeplearning4j also integrates with CUDA
+    kernels to conduct pure GPU operations, and works with distributed
+    GPUs.
+	
 55. H2O
 56. IBM Watson
 
@@ -461,6 +479,21 @@ Application and Analytics
     
 69. Kibana
 70. Logstash
+
+    Logstash is an open source data collection engine with real-time
+    pipelining capabilities. Logstash can dynamically unify data from
+    disparate sources and normalize the data into destinations of your
+    choice. :cite:`www-logstash` Cleanse and democratize all your data
+    for diverse advanced downstream analytics and visualization use
+    cases.
+
+    While Logstash originally drove innovation in log collection, its
+    capabilities extend well beyond that use case. Any type of event
+    can be enriched and transformed with a broad array of input,
+    filter, and output plugins, with many native codecs further
+    simplifying the ingestion process. Logstash accelerates your
+    insights by harnessing a greater volume and variety of data.
+	
 71. Graylog
 72. Splunk
 73. Tableau
@@ -1194,6 +1227,29 @@ In-memory databases/caches
      
 185. Redis
 186. LMDB (key value)
+
+     LMDB (Lighting memory-mapped Database) is a high performance embedded
+     transactional database in form of a key-value store
+     :cite:`www-keyvalue`. LMDB is designed around
+     virtual memory facilities found in modern operating
+     systems, multi-version concurrency control (MVCC)
+     and single-level store (SLS) concepts. LMDB stores
+     arbitrary key/data pairs as byte arrays, provides a
+     range-based search capability, supports multiple
+     data items for a single key and has a special mode
+     for appending records at the end of the database
+     (MDB_APPEND) which significantly increases its write
+     performance compared to other similar databases.
+
+     LMDB is not a relational database :cite:`www-relationaldb` and
+     strictly uses key-value store. Key-value databases
+     allows one write at a time, the difference that LMDB
+     highlights is that write transactions do not block
+     readers nor do readers block writes. Also, it does
+     allow multiple applications on the same system to
+     open and use the store simultaneously which helps in
+     scaling up performance :cite:`WWW-LMDB`.
+
 187. Hazelcast
 
      Hazelcast is a java based, in memory data grid. :cite:`www-wikihazel` 
@@ -1390,6 +1446,20 @@ NoSQL
 
 219. Solr
 220. Solandra
+     
+     Solandra is a highly scalable real-time search engine built on
+     Apache Solr and Apache Cassandra. Solandra simplifies maintaining
+     a large scale search engine, something that more and more
+     applications need. At its core, Solandra is a tight integration
+     of Solr and Cassandra, meaning within a single JVM both Solr and
+     Cassandra are running, and documents are stored and disributed
+     using Cassandra's data model. :cite:`www-solandra`
+
+     Solandra supports most out-of-the-box Solr functionality (search,
+     faceting, highlights), multi-master (read/write to any node). It
+     features replication, sharding, caching, and compaction managed
+     by Cassandra. :cite:`www-solandra2`
+	  
 221. Voldemort
 
      According to :cite:`www-voldemort`, project Voldemort, developed
@@ -1655,6 +1725,26 @@ NoSQL
 241. Sqrrl
 242. Neo4J
 243. graphdb
+
+     A Graph Database is a database that uses graph structures for semantic
+     queries with nodes, edges and properties to represent and store data.
+     :cite:`www-graphdb`
+     The Graph is a concept which directly relates the data items in the store.
+     The data which is present in the store is linked together directly with the
+     help of relationships. It can be retrieved with a single operation.
+     Graph database allow simple and rapid retrieval of complex hierarchical
+     structures that are difficult to model in relational systems.
+
+     There are different underlying storage mechanisms used by graph databases.
+     Some graphdb depend on a relational engine and store the graph data in a
+     table, while others use a key-value store or document-oriented database for
+     storage. Thus, they are inherently caled as NoSQL structures.
+     Data retrieval in a graph database requires a different query language
+     other than SQL. Some of the query languages used to retrieve data from a
+     graph database are Gremlin, SPARQL, and Cypher.
+     Graph databases are based on graph theory. They employ the concepts of
+     nodes, edges and properties.
+     
 244. Yarcdata
 245. AllegroGraph
 246. Blazegraph
@@ -2186,6 +2276,23 @@ DevOps
 313. SaltStack
 314. Boto
 315. Cobbler
+
+     Cobbler is a Linux provisioning system that facilitates and
+     automates the network based system installation of multiple computer
+     operating systems from a central point using services such as DHCP,
+     TFTP and DNS :cite:`www-cobbler`.It is a nifty piece of code that
+     assemble s all the usual
+     setup bits required for a large network installation like TFTP, DNS,
+     PXE installation trees. and automates the process[1].It can be
+     configured for PXE, reinstallations and virtualized guests using Xen,
+     KVM or VMware.  Cobbler interacts with the koan program for
+     re-installation and virtualization support.  Cobbler builds the
+     Kickstart mechanism and offers installation profiles that can be
+     applied to one or many machines.  Cobbler has features to dynamically
+     change the information contained in a kickstart template (definition),
+     either by passing variables called ksmeta or by using so-called
+     snippets.
+
 316. Xcat
 317. Razor
 318. CloudMesh
@@ -2357,6 +2464,31 @@ IaaS Management from HPC to hypervisors
           
 340. KVM
 341. QEMU
+     
+     QEMU (Quick Emulator) is a generic open source hosted hypervisor
+     :cite:`WWW-Hypervisor` that performs hardware virtualization
+     (virtualization of computers as complete hardware platform,
+     certain logical abstraction of their componentry or only the
+     certain functionality required to run various operating systems)
+     :cite:`WWW-QEMU` and also emulates CPUs through dynamic binary
+     translations and provides a set of device models, enabling it to
+     run a variety of unmodified guest operating systems.
+     
+     When used as an emulator, QEMU can run Operating Systems and programs
+     made for one machine (ARM board) on a different machine (e.g. a
+     personal computer) and achieve good performance by using dynamic
+     translations.  When used as a virtualizer, QEMU achieves near native
+     performance by executing the guest code directly on the host CPU. QEMU
+     supports virtualization when executing under the Xen hypervisor or
+     using KVM kernel module in Linux :cite:`WWW-QEMUWiki`.
+
+     Compared to other virtualization programs like VMWare and VirtualBox,
+     QEMU does not provide a GUI interface to manage virtual machines nor
+     does it provide a way to create persistent virtual machine with saved
+     settings. All parameters to run virtual machine have to be specified
+     on a command line at every launch. It’s worth noting that there are
+     several GUI front-ends for QEMU like virt-manager and gnome-box.
+
 342. Hyper-V
 343. VirtualBox
 344. OpenVZ
@@ -2386,6 +2518,22 @@ IaaS Management from HPC to hypervisors
      and several other clouds.
 
 351. CloudStack
+
+     Apache CloudStack is open source software designed to deploy and
+     manage large networks of virtual machines, as a highly available,
+     highly scalable Infrastructure as a Service (IaaS) cloud
+     computing platform. It uses existing hypervisors such as KVM,
+     VMware vSphere, and XenServer/XCP for virtualization. In addition
+     to its own API, CloudStack also supports the Amazon Web Services
+     (AWS) API and the Open Cloud Computing Interface from the Open
+     Grid Forum. :cite:`www-clodstack`
+
+     ColudStack features like built-in high-availability for hosts
+     and VMs, AJAX web GUI for management, AWS API compatibility,
+     Hypervisor agnostic, snapshot management, usage metering, network
+     management (VLAN's, security groups), virtual routers, firewalls,
+     load balancers and multi-role support. :cite:`www-cloudstack2`
+	  
 352. CoreOS
      
      :cite:`www-core` states that “CoreOS is a linux operating system
@@ -2501,6 +2649,31 @@ Security & Privacy
 
 367. OpenStack Keystone
 368. LDAP
+
+     LDAP stands for Lightweight Directory Access Protocol. It is a software
+     protocol for enabling anyone to locate organizations, individuals, and
+     other resources such as files and devices in a network, whether on the
+     Internet or on corporate internet.
+     :cite:`www-ldap`
+
+     LDAP is a "lightweight" (smaller amount of code) version of
+     Directory Access Protocol (DAP), which is part of X.500, a
+     standard for directory services in a network.  In a network, a
+     directory tells you where in the network something is located. On
+     TCP/IP networks (including the Internet), the domain name system
+     (DNS) is the directory system used to relate the domain name to a
+     specific network address (a unique location on the
+     network). However, you may not know the domain name. LDAP allows
+     you to search for an individual without knowing where they're
+     located (although additional information will help with the
+     search).An LDAP directory can be distributed among many
+     servers. Each server can have a replicated version of the total
+     directory that is synchronized periodically.  An LDAP server is
+     called a Directory System Agent (DSA). An LDAP server that
+     receives a request from a user takes responsibility for the
+     request, passing it to other DSAs as necessary, but ensuring a
+     single coordinated response for the user.
+
 369. Sentry
 370. Sqrrl
 371. OpenID
