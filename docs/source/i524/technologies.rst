@@ -739,6 +739,9 @@ IaaS Management from HPC to hypervisors
 351. CloudStack
 352. CoreOS
 353. rkt
+
+     Here I am going to write about the rkt technology(Yatin Sharma)
+
 354. VMware ESXi
 355. vSphere and vCloud
 356. Amazon
