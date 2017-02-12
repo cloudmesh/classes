@@ -2332,6 +2332,21 @@ Cluster Resource Management
 284. Globus Tools
 285. Pilot Jobs
 
+     In pilot job, an application acquires a resource so that it can
+     be delegated some work directly by the application; instead of
+     requiring some job scheduler. The issue of using a job scheduler
+     is that a waiting queue is required. Few examples of Pilot Jobs
+     are the :cite:`pilot-job-falkon-paper-2007` Falkon lightweight
+     framework and :cite:`pilot-job-htcaas-paper-2007` HTCaaS. Pilot
+     jobs are typically associated with both Parallel computing as
+     well as Distributed computing. Their main aim is to reduce the
+     dependency on queues and the associated multiple wait times.
+
+     :cite:`www-pilot-job-paper-2016` Using pilot jobs enables us to have a 
+     multilevel technique for the execution of various workloads. This is so 
+     because the jobs are typically acquired by a placeholder job and they 
+     relayed to the workloads.      
+
 File systems
 ----------------------------------------------------------------------
 
