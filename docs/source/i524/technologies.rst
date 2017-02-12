@@ -259,6 +259,24 @@ High level Programming
 118. Google BigQuery
 119. Amazon Redshift
 120. Drill
+
+     Apache Drill :cite:`www-ApacheDrill` is an open source framework
+     that provides schema free SQL query engine for distributed 
+     large-scale datasets. Drill has an extensible architecture at 
+     its different layers. It does not require any centralized 
+     metadata and does not have any requirement for schema 
+     specification. Drill is highly useful for short and interactive
+     ad-hoc queries on very large scale data sets. It is scalable to
+     several thousands of nodes. Drill is also capable to query 
+     nested data in various formats like JSON and Parquet. It can 
+     query large amount of data at very high speed. It is also  
+     capable of performing discovery of dynamic schema. 
+     A service called ‘Drillbit’  is at the core of Apache Drill 
+     responsible for accepting requests from the client, processing
+     the required queries, and returning all the results to the client.
+     Drill is primarily focused on non-relational datastores, 
+     including Hadoop and NoSQL
+
 121. Kyoto Cabinet
      
      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
@@ -317,6 +335,24 @@ Basic Programming model and runtime, SPMD, MapReduce
 151. Giraph
 152. Pregel
 153. Pegasus
+
+     The Pegasus :cite:`www-Pegasus` is workflow management system 
+     that alows to compose and execute a workflow in an application
+     in different environment without the need  for any 
+     modifications. It allows users to make high level workflow 
+     without thinking about the low level details. It locates
+     the required input data and computational resources automatically. 
+     Pegasus also maintains information about tasks done and data 
+     produced. In case of errors Pegasus tries to recover by retrying 
+     the whole workflow and providing check pointing at workflow-level. 
+     It cleans up the storage as the workflow gets executed so that 
+     data-intensive workflows can have enough required space to execute 
+     on storage-constrained resources. Some of the other advantages of 
+     Pegasus are:scalability, reliability and high performance. Pegasus 
+     has been used in many scientific domains like astronomy, 
+     bioinformatics, earthquake science , ocean science, gravitational 
+     wave physics and others.
+
 154. Ligra
 155. GraphChi
 156. Galois
@@ -536,6 +572,20 @@ NoSQL
 246. Blazegraph
 247. Facebook Tao
 248. Titan:db
+
+     Titan:db :cite:`www-Titan` is a distributed graph database that 
+     can support of thousands of concurrent users interacting with a
+     single massive graph database that is distributed over the 
+     clusters. It is open source with liberal Apache 2 license. 
+     Its main components are storage backend, search backend, and 
+     TinkerPop graph stack. Titan provides support for various 
+     storage backends and also linear scalability for a growing data 
+     and user base. It inherits features such as ‘Gremlin’ query 
+     language  and ‘Rexter’ graph server from TinkerPop :cite:`www-TinkerPop`. 
+     For huge graphs, Titan uses a component called Titan-hadoop which 
+     compiles Gremlin queries to Hadoop MapReduce jobs and runs them 
+     on the clusters. Titan is basically optimal for smaller graphs.
+
 249. Jena
 250. Sesame
 251. Public Cloud: Azure Table
@@ -761,10 +811,10 @@ IaaS Management from HPC to hypervisors
      security and composibity requirement. It is the first 
      implementation of the open container standard called 
      "App Container" or "appc" specification but not the only one. 
-     It is a standalone tool that live outside of the core operating 
+     It is a standalone tool that lives outside of the core operating 
      system and can be used on variety of platforms such as Ubuntu,
      RHEL, CentOS, etc. rkt implements the facilities specified by 
-     the App Container as a command line tool.It allows execution 
+     the App Container as a command line tool. It allows execution 
      of App Containers with pluggable isolation and also varying 
      degrees of protection. Unlike Docker, rkt runs containers as 
      un-priviliged users making it impossible for attackers to break 
