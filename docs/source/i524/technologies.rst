@@ -2887,7 +2887,7 @@ IaaS Management from HPC to hypervisors
      VMware vSphere, and XenServer/XCP for virtualization. In addition
      to its own API, CloudStack also supports the Amazon Web Services
      (AWS) API and the Open Cloud Computing Interface from the Open
-     Grid Forum. :cite:`www-clodstack`
+     Grid Forum. :cite:`www-cloudstack`
 
      ColudStack features like built-in high-availability for hosts
      and VMs, AJAX web GUI for management, AWS API compatibility,
