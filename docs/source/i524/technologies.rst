@@ -365,6 +365,23 @@ Application and Analytics
     
     
 53. Theano
+    Theano is a Python library. It was written at the LISA lab. 
+    Initially it was created with the purpose to support efficient
+    development of machine learning(ML) algorithms. 
+    Theano uses recent GPUs for higher speed.
+    It is used to evaluate mathematical expressions and especially
+    those mathematical expressions that include multi-dimensional arrays.
+    Theano’s working is dependent on combining aspects of a computer algebra
+    system and an optimizing compiler.
+    This combination of computer algebra system with optimized compilation
+    is highly beneficial for the tasks which involves complicated 
+    mathematical expressions and that need to be evaluated repeatedly as
+    evaluation speed is highly critical in such cases. 
+    It can also be used to generate customized C code for number of
+    mathematical operations. 
+    For cases where many different expressions are there and each of them 
+    is evaluated just once, Theano can minimize the amount of compilation
+    and analyses overhead :cite:`www-theano`.
 54. DL4j
 
     DL4j stands for Deeplearning4j. :cite:`www-dl4j` It is a deep
@@ -759,6 +776,22 @@ Application Hosting Frameworks
 102. Agave
 103. Atmosphere
 
+     Atmosphere is developed by CyVerse (previously named as iPlant
+     Collaborative).
+     It is a cloud-computing platform. It allows one to launch his own
+     “isolated virtual machine (VM) image :cite:`www-at1`.
+     It does not require any machine specification. It can be run on any device
+     (tablet/desktop/laptop) and any machine(Linux/Windows/Max/Unix).
+     User should have a CyVerse account and be granted permission to access to 
+     Atmosphere before he can begin using Atmosphere. No subscription is needed.
+     Atmosphere is designed to execute data-intense bioinformatics tasks that 
+     may include a)Infrastructure as a Service (IaaS) with advanced APIs;
+     b)Platform as a Service (PaaS), and c)Software as a Service (SaaS).
+     On Atmosphere one has several images of virtual machine and user can launch
+     any image or instance according to his requirements.
+     The images launched by users can be shared among different members as and
+     when required :cite:`www-at2`.
+
 
 High level Programming
 ----------------------------------------------------------------------
@@ -952,7 +985,21 @@ Streams
 128. S4
 129. Samza
 130. Granules
+
+     Granules in used for execution or processing of data streams in 
+     distributed environment.
+     When applications are running concurrently on multiple computational 
+     resources, granules manage their parallel execution.
+     The MapReduce implementation in Granules is responsible for providing
+     better performance.It has the capability of expressing computations like 
+     graphs.
+     Computations can be scheduled based on periodicity or other activity.
+     Computations can be developed in C, C++, Java, Python, C#, R
+     It also provides support for extending basic Map reduce framework.
+     Its application domains include hand writing recognition, bio informatics
+     and computer brain interface :cite:`www-granules`.
 131. Neptune
+
 132. Google MillWheel
 133. Amazon Kinesis
 
@@ -1892,6 +1939,28 @@ NoSQL
      
 244. Yarcdata
 245. AllegroGraph
+     
+     “AllegroGraph is a database technology that enables businesses to 
+     extract sophisticated decision insights and predictive analytics from 
+     their highly complex, distributed data that can’t be answered with 
+     conventional databases, i.e., it turns complex data into actionable 
+     business insights.” :cite:`www-Allegro`
+     It can be viewed as a closed source database that is used for storage
+     and retrieval of data in the form of triples (triple is a data entity 
+     composed of subject-predicate-object like “Professor teaches students”).
+     Information in a triplestore is retrieved using a query language. Query 
+     languages can be classified into database query languages or information
+     retrieval query languages. The difference is that a database query language
+     gives exact answers to exact questions, while an information retrieval 
+     query language finds documents containing requested information. 
+     Triple format represents information in a machine-readable format. 
+     Every part of the triple is individually addressable via unique URLs — 
+     for example, the statement “Professor teaches students” might be 
+     represented in RDF(Resource Description Framework ) as 
+     http://example.name#Professor12 http://xmlns.com/foaf/0.1/teacheshttp:
+     //example.name#students. Using this representation, semantic data can 
+     be queried.  :cite:`www-Allegrow`
+
 246. Blazegraph
 247. Facebook Tao
 248. Titan:db
@@ -2212,6 +2281,21 @@ File systems
 ----------------------------------------------------------------------
 
 286. HDFS
+     
+    Hadoop provides distributed file system framework that uses Map reduce
+    (Distributed computation framework) for transformation and analyses of 
+    large dataset.
+    Its main work is to partition the data and other computational tasks to
+    be performed on that data across several clusters.
+    HDFS is the component for distributed file system in Hadoop.An HDFS 
+    cluster primarily consists of a Name Node and Data Nodes. Name Node 
+    manages the file system metadata such as access permission, modification
+    time, location of data and Data Nodes store the actual data. 
+    When user applications or Hadoop frameworks request access to a file in
+    HDFS, Name Node service responds with the Data Node locations for the 
+    respective individual data blocks that constitute the whole of the 
+    requested file:cite:`www-hdfs`.
+
 287. Swift
 288. Haystack
 289. f4
