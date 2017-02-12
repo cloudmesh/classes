@@ -172,6 +172,21 @@ Application Hosting Frameworks
 81. AppScale
 82. Red Hat OpenShift
 83. Heroku
+
+    Heroku :cite:`www-Heroku` is a platform as a service that is used 
+    for building, delivering monitoring and scaling applications. It 
+    lets you  develop and deploy application quickly without thinking
+    about irrelevant problems such as infrastructure. Heroku also 
+    provides a secure and scalable database as a service with number of 
+    developers’ tools like database followers, forking, data clips and
+    automated health checks. It works by deploying to cedar stack 
+    :cite:`www-cedar`, an online runtime environment that supports apps 
+    buit in Java, Node.js, Scala, Clojure, Python and PHP. It uses Git 
+    for version controlling. It is also tightly intergrated with 
+    Salesforce, providing seamless and smooth Heroku and Salesforce 
+    data synchronization enabling companies to develop and design creative 
+    apps that uses both platforms.
+
 84. Aerobatic
 85. AWS Elastic Beanstalk
 86. Azure
