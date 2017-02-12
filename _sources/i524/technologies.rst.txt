@@ -622,6 +622,26 @@ Application Hosting Frameworks
     customize deployment.  :cite:`www-apscale-deployment`
 
 82. Red Hat OpenShift
+
+    :cite:`www-paas` OpenShift was launched as a PaaS (Platform as a
+    Service) by Red Hat in the Red Hat Summit, 2011.
+    :cite:`www-developers-openshift` It is a cloud application
+    development and hosting platform that envisages shifting of the
+    developer's focus to development by automating the management and
+    scaling of applications.  Thus, :cite:`www-openshift` OpenShift
+    enables us to write our applications in any one web development
+    language (using any framework) and it itself takes up the task of
+    running the application on the web.  This has its advantages and
+    disadvantages - advantage being the developer doesn't have to
+    worry about how the stuff works internally (as it is abstracted
+    away) and the disadvantage being that he cannot control how it
+    works, again because it is abstracted.
+
+    :cite:`openshift-blog` OpenShift is powered by Origin, which is in
+    turn built using Docker container packaging and Kubernetes container
+    cluster.  Due to this, OpenShift offers a lot of options, including
+    online, on-premise and open source project options.
+    
 83. Heroku
 84. Aerobatic
 
@@ -1723,6 +1743,24 @@ NoSQL
      network.
      
 234. HBase
+
+     Apache Hbase is a distributed column-oriented database
+     which is built on top of HDFS (Hadoop Distributed File
+     System).According to :cite:`www-hbase`, It is a open source,
+     versioned, distributed, non-relational database modelled after
+     Google’s Bigtable. Similar to Bigtable providing harnessing
+     distributed file storage system offered by Google file system,
+     Apache Hbase provides similar capabilities on top of Hadoop and
+     HDFS. Moreover, Hbase supports random, real-time CRUD
+     (Create/Read/Update/Delete) operations.
+
+     Hbase is a type of NoSQL database and is classified as a key value
+     store.In HBase, value is identied with a key where both of them are
+     stored as byte arrays. Values are stored in the order of keys. HBase
+     is a database system where the tables have no schema. Some of the
+     companies that use HBase as their core program are Facebook, Twitter,
+     Adobe, Netflix etc.
+
 235. Google Bigtable
 
      Google Bigtable is a NoSQL database service, built upon several
@@ -1909,6 +1947,25 @@ File management
      processing of astronomical images on Hadoop using FITS. 
 
 260. RCFile
+
+     RCFile (Record Columnar File) :cite:`www-rcfile` is a big
+     data placement data structure that supports fast data loading and
+     query processing coupled with efficient storage space utilization
+     and adaptive to dynamic workload environments. It is designed for
+     data warehousing systems that uses map-reduce. The data is stored
+     as a flat file comprising of binary key/value pairs. The rows are
+     partitioned first and then the columns are partitioned in each
+     row and the respective meta-data for each row is stored in the
+     key part for that row and the values comprises of the data part
+     of the row. Storing the data in this format enables RCFile to
+     accomplish fast loading and query processing.A shell utility is
+     available for reading RCFile data and metadata
+     :cite:`www-rcfile`. According to :cite:`he2011rcfile`, RCFile has
+     been chosen in Facebook data warehouse system as the default
+     option. It has also been adopted by Hive and Pig, the two most
+     widely used data analysis systems developed in Facebook and
+     Yahoo!
+
 261. ORC
 262. Parquet
 
@@ -2466,6 +2523,23 @@ DevOps
 
 313. SaltStack
 314. Boto
+
+     :cite:`www-boto` The latest version of Boto is Boto3. 
+     :cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS) Software 
+     Development Kit (SDK) for Python. It enables the Python developers to 
+     make use of services like Amazon S3 and Amazon EC2. 
+     :cite:`www-boto3-documentation` It provides object oriented APIs along 
+     with low-level direct service access. It provides simple in-built 
+     functions and interfaces to work with Amazon S3 and EC2. 
+
+     :cite:`www-boto-amazon-python-sdk` Boto3 has two distinct levels of APIs 
+     - client and resource. One-to-one mappings to underlying HTTP API is 
+     provided by the client APIs. Resource APIs provide resource objects and 
+     collections to perform various actions by accessing the attributes. 
+     Boto3 also comes with 'waiters'. Waiters are used for polling status 
+     changes in AWS, automatically. Boto3 has these waiters for both the APIs 
+     - client as well as resource. 
+     
 315. Cobbler
 
      Cobbler is a Linux provisioning system that facilitates and
