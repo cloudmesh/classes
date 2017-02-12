@@ -3580,3 +3580,46 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
   owner        = {S17-IR-2022},
   url          = {https://aws.amazon.com/sdk-for-python/},
 }
+
+@Book{docker-book,
+  title     = {Docker Up and Running, SHIPPING RELIABLE CONTAINERS IN PRODUCTION},
+  publisher = {O'REILLY},
+  year      = {2015},
+  author    = {Karl Matthias and Sean P. Kane},
+  address   = {1005 Gravenstein Highway North, Sebastopol, CA 95472.},
+  isbn      = {978-1-491-91757-2},
+  abstract  = {Docker is an open-source container based technology.A container allows a 
+developer to package up an application and all its part includig the 
+stack it runs on, dependencies it is associated with and everything the 
+application requirs to run within an isolated enviorment . Docker 
+seperates Application from the underlying Operating System in a similar 
+way as Virtual Machines seperates the Operating System from the 
+underlying Hardware.Dockerizing an application is very lightweight in 
+comparison with running the application on the Virtual Machine as all 
+the containers share the same underlying kernel, the Host OS should be 
+same as the container OS (eliminating guest OS) and an average machine 
+cannot have more than few VMs running o them. 
+
+:cite:'docker-book' Docker Machine is a tool that lets you install 
+Docker Engine on virtual hosts, and manage the hosts with docker-machine 
+commands. You can use Machine to create Docker hosts on your local Mac 
+or Windows box, on your company network, in your data center, or on 
+cloud providers like AWS or Digital Ocean. For Docker 1.12 or higher 
+swarm mode is integerated with the Docker Engine, but on the older 
+versions with Machine's swarm option, we can configure a swarm cluster 
+Docker Swarm provides native clustering capabilities to turn a group of 
+Docker engines into a single, virtual Docker Engine. With these pooled 
+resources ,:cite:'www-docker'"you can scale out your application as if 
+it were running on a single, huge computer" as swarm can be scaled upto 
+1000 Nodes or upto 50,000 containers},
+  editior   = {Brian Anderson},
+  owner     = {S17-IR-2021},
+}
+
+@Misc{www-docker,
+  title        = {{doxker},swarm},
+  howpublished = {WebPage},
+  note         = {Accessed: 2017-8-02},
+  owner        = {S17-IR-2021},
+  url          = {https://www.docker.com/products/docker-swarm},
+}
