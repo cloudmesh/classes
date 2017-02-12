@@ -446,7 +446,14 @@ place ment in the reference section based on the key you put in.
    key = {put me in the sort order at *put*}
 
 
+How do I organize multiple authors?
+-----------------------------------
 
+Multiple authors need to be separated by the word **and**. If the
+lastname contains spaces, the lastname needs to be listed first
+followed by a comma and than the Firtsname::
+
+  author = {von Laszewski, Gregor and Albert Zweistain and Adele Dreistein},
 
 Learning outcomes
 ------------------
