@@ -131,6 +131,25 @@ Workflow-Orchestration
     the cloud." 
 
 23. Azure Data Factory
+    
+    Azure data factory is a cloud based data integration service that
+    can ingest data from various sources, transform/ process data and
+    publish the result data to the data stores. A data management
+    gateway enables access to data on SQL Databases
+    :cite:`Azure_df`. The data processing is done by It works by
+    creating pipelines to transform the raw data into a format that
+    can be readily used by BI Tools or applications. The services
+    comes with rich visualization aids that aid data analysis. Data
+    Factory supports two types of activities: data movement activities
+    and data transformation activities. Data Movement :cite:`Azure_ms`
+    is a Copy Activity in Data Factory that copies data from a data
+    source to a Data sink. Data Factory supports the following data
+    stores. Data from any source can be written to any sink.  Data
+    Transformation: Azure Data Factory supports the following
+    transformation activities such as Map reduce, Hive transformations
+    and Machine learning activities.  Data factory is a great tool to
+    analyze web data, sensor data and geo-spatial data.
+
 24. Google Cloud Dataflow
     
     Google Cloud Dataflow is a unified programming model and a managed
@@ -1325,6 +1344,36 @@ Inter process communication Collectives
 
 177. Marionette Collective
 178. Public Cloud: Amazon SNS
+
+     Amazon SNS is an Inter process communication service which gives
+     the user simple, end-to-end push messaging service allowing them
+     to send messages, alerts, or notifications. According to
+     :cite:`www-sns`, it can be used to send a directed message
+     intended for an entity or to broadcast messages to list of
+     selected entities. It is an easy to use and cost effective
+     mechanism to send push messages. Amazon SNS is compatible to send
+     push notifications to iOS, Windows, Fire OS and Android OS
+     devices.
+
+     According to :cite:`sns-blog`,Topics are named groups of events or
+     access points, each identifying a specific subject, content, or event
+     type. Each topic has a unique identifier (URI) that identifies the SNS
+     endpoint for publishing and subscribing.Owners create topics and
+     control all access to the topic. The owner can define the permissions
+     for all of the topics that they own.Subscribers are clients
+     (applications, end-users, servers, or other devices) that want to
+     receive notifications on specific topics of interest to
+     them.Publishers send messages to topics. SNS matches the topic with
+     the list of subscribers interested in the topic, and delivers the
+     message to each and every one of them.
+
+     According to :citi:`sns-faq`, Amazon SNS follows pay as per usage. In
+     general it is $0.50 per 1 million Amazon SNS Requests.Amazon SNS
+     supports notifications over multiple transport protocols such as
+     HTTP/HTTPS, Email/Email-JSON, SQS(Message queue) and SMS.Amazon SNS
+     can be used with other AWS services such as Amazon SQS, Amazon EC2 and
+     Amazon S3.
+
 179. Lambda
 180. Google Pub Sub
 181. Azure Queues
@@ -1487,6 +1536,30 @@ Extraction Tools
 ----------------------------------------------------------------------
 
 197. UIMA
+     
+     Unstructured Information Management applications (UIMA) provides
+     a framework for content analytics. It searches unstructured data
+     to retrieve specific targets for the user. For example, when a
+     text document is given as input to the system, it identifies
+     targets such as persons, places, objects and even
+     associations. According to , :cite:`uima_wiki` theUIMA
+     architecture can be thought of as four dimensions: 1. Specifies
+     component interfaces in analytics pipeline.  2. Describes a set
+     of Design patterns. 3. Suggests two data representations: an
+     in-memory representation of annotations for high-performance
+     analytics and an XML representation of annotations for
+     integration with remote web services. 4. Suggests development
+     roles allowing tools to be used by users with diverse skills.
+
+     UIMA uses different, possibly mixed, approaches which include
+     Natural Language Processing, Machine Learning, IR. UIMA supports
+     multimodal analytics :cite:`uima_ss` which enables the system to
+     process the resource fro various points of view. UIMA is used in
+     several software projects such as the IBM Research's Watson uses
+     UIMA for analyzing unstructured data and Clinical Text Analysis
+     and Knowledge Extraction System (Apache cTAKES) which is a
+     UIMA-based system for information extraction from medical
+     records.
 
 381. Tika
 
@@ -1727,6 +1800,17 @@ NoSQL
 
      
 226. Tycoon
+
+     Tycoon/ Kyoto Tycoon :cite:`Tycoon_fl` is a lightweight database
+     server developed by FLL labs and is a distributed Key-value store
+     :cite:`Tycoon_cf`. It is very useful in handling cache data
+     persistent data of various applications. Kyoto Tycoon is also a
+     package of network interface to the DBM called Kyoto Cabinet
+     :cite:`Tycoon_fl2` which contains a library of routines for
+     managing a database. Tycoon is composed of a sever process that
+     manger multiple databases. This renders high concurrency enabling
+     it to handle more than 10 thousand connections at the same time.
+     
 227. Tyrant
 
      Tyrant provides network interfaces to the database management
@@ -1965,6 +2049,25 @@ NoSQL
 247. Facebook Tao
 248. Titan:db
 249. Jena
+
+     Jena is an open source Java Framework provided by Apache for
+     semantic web applications. (:cite:`jena_wiki`) It provides a
+     programmatic environment for RDF, RDFS and OWL, SPARQL, GRDDL,
+     and includes a rule-based inference engine. Semantic web data
+     differs from conventional web applications in that it supports a
+     web of data instead of the classic web of documents format. The
+     presence of a rule based inference engine enable Jena to perform
+     a reasoning based on OWL and RDFS ontologies.  :cite:`jena_blog`
+     The architecture of Jena contains three layers : Graph layer,
+     model layer and Ontology layer. The graph layer forms the base
+     for the architecture. It does not have an extensive RDF
+     implementation and serves more as a Service provider
+     Interface. According to :cite:`jena_blog` It provides
+     classes/methods that could be further extended. The model layer
+     extends the graph layer and provides objects of type ‘resource’
+     instead of ‘node’ to work with.  The ontology layer enables one
+     to work with triples.
+
 250. Sesame
 
      Sesame is framework which can be used for the analysis of RDF
@@ -2105,6 +2208,27 @@ Data Transport
 
 264. HTTP
 265. FTP
+
+     According to :cite:`wiki-ftp` FTP is an acronym for File Transfer
+     Protocol. It is network protocol standard used for transferring
+     files between two computer systems or between a client and a
+     server. It is part of the Application layer of the Internet
+     Protocol Suite and works along with HTTP/SSH. It follows a
+     client-server model architecture. Secure systems asks the client
+     to authenticate themselves using a Username and Password
+     registered with the server to access the files via FTP. The
+     specification for FTP was first written by Abhay Bhushan
+     :cite:`www-rfc114` in 1971 and is termed as RFC114. The current
+     specification, RFC959 in use was written in 1985. Several other
+     versions of the specification are available which provides
+     firewall friendly FTP access, additional security extensions,
+     support for IPV6 and passive mode file access respectively. FTP
+     can be used in command line in most of the operating systems to
+     transfer files. There are FTP clients such as WinSCP, FileZilla
+     etc. which provides a graphical user interface to the clients to
+     authenticate themselves (sign on) and access the files from the
+     server.
+     
 266. SSH
 
      SSH is a cryptographic network protocol :cite:`www-ssh-wiki` to
@@ -2920,7 +3044,7 @@ IaaS Management from HPC to hypervisors
      VMware vSphere, and XenServer/XCP for virtualization. In addition
      to its own API, CloudStack also supports the Amazon Web Services
      (AWS) API and the Open Cloud Computing Interface from the Open
-     Grid Forum. :cite:`www-clodstack`
+     Grid Forum. :cite:`www-cloudstack`
 
      ColudStack features like built-in high-availability for hosts
      and VMs, AJAX web GUI for management, AWS API compatibility,
