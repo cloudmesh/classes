@@ -1366,6 +1366,37 @@ In-memory databases/caches
      have less memory than you need.
      
 185. Redis
+
+    Redis (Remote Dictionary Server) is an open sourcein-memory,
+    key-value database which is commonly referred as a
+    data structure server.  :cite:'redis-book-2011' "It is called a
+    data structure server and not simply a key-value store because
+    Redis implements datastructure which allows keys to contain binary
+    safe strings ,hashes,sets and sortedsets, as well as lists"
+    .Redis’s exceptional performance, simplicity to use and implement,
+    and atomic manipulation of data structures lends itself to solving
+    problems that are difficult or perform poorly when implemented
+    with traditional relational databases.  :cite:'redis-book-2016'
+    "Salivator Sanfilippo(Creator of open-sorce database Redis) makes
+    a strong case that Redis does not need to replace the existing
+    database but is an excellent addition to an enterprise for new
+    functionalities or to solve sometimes intyractable problems."
+
+    :cite:'redis-book-2016' A very popular use pattern for Redis is an
+    in-memory cache for web-applications. The second popular use
+    pattern for REDIS is for metric storage of such quantitative data
+    such as web page usage and user behaviour on gamer leaderboards
+    where using a bit operations on strings, Redis very efficently
+    stores binary information on a particular characteristics.The
+    third popular Redis use pattern is a communication layer between
+    different systems through a publish/subscribe(pub/sub for short),
+    where one can post message to one or more channels that can be
+    acted upon by other systems that are subscribed to or listening to
+    that channel for incoming message. The Comapnies using REDIS
+    includes Twitter to store the timelines of all the user ,
+    Pinterest stores the user follower graph, Github, popular web
+    frameworks like Node.js ,Django,Ruby-on-Rails etc
+
 186. LMDB (key value)
 
      LMDB (Lighting memory-mapped Database) is a high performance embedded
