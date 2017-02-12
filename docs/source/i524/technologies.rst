@@ -1006,6 +1006,29 @@ Streams
 
 134. LinkedIn
 135. Twitter Heron
+
+     Heron is a real-time analytics platform that was developed at
+     Twitter for distributed streaming processing. Heron was
+     introduced at SIGMOD 2015 to overcome the shortcomings of Twitter
+     Storm as the scale and diversity of Twitter data increased. As
+     mentioned in :cite:`TwitterHeronOpen` The primary advantages of
+     Heron were: API compatible with Storm: Back compatibility with
+     Twitter Storm reduced migration time. Task-Isolation: Every task
+     runs in process-level isolation, making it easy to debug/
+     profile. Use of main stream languages: C++, Java, Python for
+     efficiency, maintainability, and easier community
+     adoption. Support for backpressure: dynamically adjusts the rate
+     of data flow in a topology during run-time, to ensure data
+     accuracy. Batching of tuples: Amortizing the cost of transferring
+     tuples. Efficiency: Reduce resource consumption by 2-5x and Heron
+     latency is 5-15x lower than Storm’s latency. The architecture of
+     Heron (as shown in :cite:`TwitterHeron`)uses the Storm API to
+     submit topologies to a scheduler. The scheduler runs each
+     topology as a job consisting of several containers. The
+     containers run the topology master, stream manager, metrics
+     manager and Heron instances. These containers are managed by the
+     scheduler depending on resource availability.
+     
 136. Databus
 137. Facebook Puma/Ptail/Scribe/ODS
 138. Azure Stream Analytics
@@ -1482,6 +1505,28 @@ Object-relational mapping
      relational database.
      
 195. DataNucleus
+
+     DataNucleus (available under Apache 2 open source license) is a
+     data management framework in Java. Formerly known as ‘Java
+     Persistent Objects’ (JPOX) this was relaunched in 2008 as
+     ‘DataNucleus’. According to :cite:`DataNucleusWiki` DataNucleus
+     Access Platform is a fully compliant implementation of the Java
+     Persistent API (JPA) and Java Data Objects (JDO)
+     specifications. It provides persistence and retrieval of data to
+     a number of datastores using a number of APIs, with a number of
+     query languages. In addition to object-relational mapping (ORM)
+     it can also map and manage data from sources other than RDBMS
+     (PostgreSQL, MySQL, Oracle, SQLServer, DB2, H2 etc.) such as
+     Map-based (Cassandra, HBase), Graph-based (Neo4j), Documents
+     (XLS, OOXML, XML, ODF), Web-based (Amazon S3, Google Storage,
+     JSON), Doc-based (MongoDB) and Others (NeoDatis, LDAP). It
+     supports the JPA (Uses JPQL Query language), JDO (Uses JDOQL
+     Query language) and REST APIs :cite:`DataNucleus`.DataNucleus
+     products are built from a sequence of plugins where each of it is
+     an OSGi bundle and can be used in an OSGi environment. Google App
+     Engine uses DataNucleus as the Java persistence layer
+     :cite:`DataNucleusPerformance`.
+	   
 196. ODBC/JDBC
 
 
@@ -1605,6 +1650,28 @@ SQL(NewSQL)
 210. Google Cloud SQL
 211. Azure SQL
 212. Amazon RDS
+
+     According to Amazon Web Services, Amazon Relation Database
+     Service (Amazon RDS) is a web service which makes it easy to
+     setup, operate and scale relational databases in the cloud. As
+     mentioned in :cite:`AmazonRDS` It allows to create and use
+     MySQL, Oracle, SQL Server, and PostgreSQL databases in the
+     cloud. Thus, codes, applications and tools used with existing
+     databases can be used with Amazon RDS. The basic components of
+     Amazon(As listed in :cite:`AmazonRDSComponents`) RDS include: DB
+     Instances: DB instance is an isolated database environment in the
+     cloud. Regions and availability zones: Region is a data center
+     location which contains Availability Zones. Availability Zone is
+     isolated from failures in other Availability Zones. Security
+     groups: controls access to DB instance by allowing access to IP
+     address ranges or Amazon EC2 instances that is specified. DB
+     parameter groups: manage configuration of DB engine by specifying
+     engine configuration values that are applied to one or more DB
+     instances of the same instance type. DB option groups: Simplifies
+     data management through Oracle Application Express (APEX), SQL
+     Server Transparent Data Encryption, and MySQL memcached support.
+
+     
 213. Google F1
 214. IBM dashDB
 
@@ -2727,6 +2794,25 @@ DevOps
 
 316. Xcat
 317. Razor
+
+     Razor is a hardware provisioning application, developed by Puppet
+     Labs and EMC. Razor was introduced as open, pluggable, and
+     programmable since most of the provisioning tools that existed
+     were vendor-specific, monolithic, and closed. According to
+     :cite:`RazorWiki` it can deploy both bare-metal and virtual
+     systems. During boot the Razor client automatically discovers the
+     inventory of the server hardware – CPUs, disk, memory, etc.,
+     feeds this to the Razor server in real-time and the latest state
+     of every server is updated. It maintains a set of rules to
+     dynamically match the appropriate operating system images with
+     server capabilities as expressed in metadata. User-created policy
+     rules are referred to choose the preconfigured model to be
+     applied to a new node. The node follows the model's directions,
+     giving feedback to Razor as it completes various steps as
+     specified in :cite:`RazorPuppet`. Models can include steps for
+     handoff to a DevOps system or to any other system capable of
+     controlling the node.
+     
 318. CloudMesh
 319. Juju
 
@@ -3127,6 +3213,28 @@ Security & Privacy
 370. Sqrrl
 371. OpenID
 372. SAML OAuth
+
+     As explained in :cite:`SAML`, Security Assertion Markup Language
+     (SAML) is a secured XML based communication mechanism for
+     communicating identities between organizations. The primary use
+     case of SAML is Internet SSO. It eliminates the need to maintain
+     multiple authentication credentials in multiple locations. This
+     enhances security by elimination opportunities for identity
+     theft/Phishing. It increases application access by eliminating
+     barriers to usage. It reduces administration time and cost by
+     excluding the effort to maintain duplicate credentials and
+     helpdesk calls to reset forgotten passwords. Three entities of
+     SAML are the users, Identity Provider (IdP-Organization that
+     maintains a directory of users and an authentication mechanism)
+     and Service Provider(SP-Hosts the application /service). User
+     tries to access the application by clicking on a link or through
+     an URL on the internet. The Federated identity software running
+     in the IdP validates the user’s identity and the user is then
+     authenticated. A specifically formatted message is then
+     communicated to the federated identity software running at SP. SP
+     creates a session for the user in the target application and
+     allows the user to get direct access once it receives the
+     authorization message from a known identity provider.
 
 Distributed Coordination
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
