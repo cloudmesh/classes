@@ -964,7 +964,7 @@ Streams
      Twitter for distributed streaming processing. Heron was
      introduced at SIGMOD 2015 to overcome the shortcomings of Twitter
      Storm as the scale and diversity of Twitter data increased. As
-     mentioned in :cite:‘TwitterHeronOpen` The primary advantages of
+     mentioned in :cite:`TwitterHeronOpen` The primary advantages of
      Heron were: API compatible with Storm: Back compatibility with
      Twitter Storm reduced migration time. Task-Isolation: Every task
      runs in process-level isolation, making it easy to debug/
@@ -1553,7 +1553,7 @@ SQL(NewSQL)
      According to Amazon Web Services, Amazon Relation Database
      Service (Amazon RDS) is a web service which makes it easy to
      setup, operate and scale relational databases in the cloud. As
-     mentioned in :cite: ` AmazonRDS` It allows to create and use
+     mentioned in :cite:`AmazonRDS` It allows to create and use
      MySQL, Oracle, SQL Server, and PostgreSQL databases in the
      cloud. Thus, codes, applications and tools used with existing
      databases can be used with Amazon RDS. The basic components of
@@ -2630,7 +2630,8 @@ DevOps
      Razor is a hardware provisioning application, developed by Puppet
      Labs and EMC. Razor was introduced as open, pluggable, and
      programmable since most of the provisioning tools that existed
-     were vendor-specific, monolithic, and closed. According to :cite:`RazorWiki` it can deploy both bare-metal and virtual
+     were vendor-specific, monolithic, and closed. According to
+     :cite:`RazorWiki` it can deploy both bare-metal and virtual
      systems. During boot the Razor client automatically discovers the
      inventory of the server hardware – CPUs, disk, memory, etc.,
      feeds this to the Razor server in real-time and the latest state
