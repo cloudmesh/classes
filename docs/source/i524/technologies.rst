@@ -1343,7 +1343,7 @@ Inter process communication Collectives
      the list of subscribers interested in the topic, and delivers the
      message to each and every one of them.
 
-     According to :citi:`sns-faq`, Amazon SNS follows pay as per usage. In
+     According to :cite:`sns-faq`, Amazon SNS follows pay as per usage. In
      general it is $0.50 per 1 million Amazon SNS Requests.Amazon SNS
      supports notifications over multiple transport protocols such as
      HTTP/HTTPS, Email/Email-JSON, SQS(Message queue) and SMS.Amazon SNS
@@ -2207,7 +2207,7 @@ Data Transport
 264. HTTP
 265. FTP
 
-     According to :cite:`wiki-ftp` FTP is an acronym for File Transfer
+     According to :cite:`ftp-wiki` FTP is an acronym for File Transfer
      Protocol. It is network protocol standard used for transferring
      files between two computer systems or between a client and a
      server. It is part of the Application layer of the Internet
