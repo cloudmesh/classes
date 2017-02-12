@@ -1278,6 +1278,36 @@ Inter process communication Collectives
 
 177. Marionette Collective
 178. Public Cloud: Amazon SNS
+
+     Amazon SNS is an Inter process communication service which gives
+     the user simple, end-to-end push messaging service allowing them
+     to send messages, alerts, or notifications. According to
+     :cite:`www-sns`, it can be used to send a directed message
+     intended for an entity or to broadcast messages to list of
+     selected entities. It is an easy to use and cost effective
+     mechanism to send push messages. Amazon SNS is compatible to send
+     push notifications to iOS, Windows, Fire OS and Android OS
+     devices.
+
+     According to :cite:`sns-blog`,Topics are named groups of events or
+     access points, each identifying a specific subject, content, or event
+     type. Each topic has a unique identifier (URI) that identifies the SNS
+     endpoint for publishing and subscribing.Owners create topics and
+     control all access to the topic. The owner can define the permissions
+     for all of the topics that they own.Subscribers are clients
+     (applications, end-users, servers, or other devices) that want to
+     receive notifications on specific topics of interest to
+     them.Publishers send messages to topics. SNS matches the topic with
+     the list of subscribers interested in the topic, and delivers the
+     message to each and every one of them.
+
+     According to :citi:`sns-faq`, Amazon SNS follows pay as per usage. In
+     general it is $0.50 per 1 million Amazon SNS Requests.Amazon SNS
+     supports notifications over multiple transport protocols such as
+     HTTP/HTTPS, Email/Email-JSON, SQS(Message queue) and SMS.Amazon SNS
+     can be used with other AWS services such as Amazon SQS, Amazon EC2 and
+     Amazon S3.
+
 179. Lambda
 180. Google Pub Sub
 181. Azure Queues
@@ -2036,6 +2066,27 @@ Data Transport
 
 264. HTTP
 265. FTP
+
+     According to :cite:`wiki-ftp` FTP is an acronym for File Transfer
+     Protocol. It is network protocol standard used for transferring
+     files between two computer systems or between a client and a
+     server. It is part of the Application layer of the Internet
+     Protocol Suite and works along with HTTP/SSH. It follows a
+     client-server model architecture. Secure systems asks the client
+     to authenticate themselves using a Username and Password
+     registered with the server to access the files via FTP. The
+     specification for FTP was first written by Abhay Bhushan
+     :cite:`www-rfc114` in 1971 and is termed as RFC114. The current
+     specification, RFC959 in use was written in 1985. Several other
+     versions of the specification are available which provides
+     firewall friendly FTP access, additional security extensions,
+     support for IPV6 and passive mode file access respectively. FTP
+     can be used in command line in most of the operating systems to
+     transfer files. There are FTP clients such as WinSCP, FileZilla
+     etc. which provides a graphical user interface to the clients to
+     authenticate themselves (sign on) and access the files from the
+     server.
+     
 266. SSH
 
      SSH is a cryptographic network protocol :cite:`www-ssh-wiki` to
