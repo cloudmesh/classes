@@ -393,7 +393,7 @@ Tips
 ----
 
 Why do I not see that my changes are published on the Web page?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Changes will take time to be reviewed and integrated into the Web
 page. Changes will be done in two steps. First, they will be merged
@@ -401,14 +401,14 @@ into the branch I524. Later, your changes will be merged into the
 master branch. You will see your changes in the master branch.
 
 How do I know if I did it right?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Check the https://github.com/cloudmesh/classes/pulls to see your pull
 request.  When your changes were approved and merged with the master
 branch, your pull request will disappear.
 
 What happens when I cite a refernce more than once?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The developers of the module that allows us to use bibtex in sphinx
 ommit the label when a refernce is cited more than once. Back
@@ -418,7 +418,7 @@ certainly work with them to fix this and improve their module, but
 this is out of scope for this class. We simply ignore this issue.
 
 What is the difference between label and key?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A key is only used to give bibtex a hint on haow the bibtex entry is
 **sorted** in the bibliography. It is not used as label, or the
@@ -428,14 +428,14 @@ A label is the actuall identifyer that you would use in the text to
 refer to the entry and is in the line with the @ character.
 
 How do I do an organization as author?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ::
 
    author = {{This Is My Organization}},
 
 How do I do an entry that does not have an author?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Leave the author field of, however now there is no sorting
 criteria. To enable proper sorting you add a usefull key that uses the
@@ -447,7 +447,7 @@ place ment in the reference section based on the key you put in.
 
 
 How do I organize multiple authors?
------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Multiple authors need to be separated by the word **and**. If the
 lastname contains spaces, the lastname needs to be listed first
@@ -456,7 +456,7 @@ followed by a comma and than the Firtsname::
   author = {von Laszewski, Gregor and Albert Zweistain and Adele Dreistein},
 
 How do I add bullets to the description?
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you already did some, ignore, but make sure to have the formatting
 done right. In general you should avoid bullet points as this is a
