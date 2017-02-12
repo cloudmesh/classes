@@ -455,6 +455,26 @@ followed by a comma and than the Firtsname::
 
   author = {von Laszewski, Gregor and Albert Zweistain and Adele Dreistein},
 
+How do I add bullets to the description?
+----------------------------------------
+
+If you already did some, ignore, but make sure to have the formatting
+done right. In general you should avoid bullet points as this is a
+description and not a power point presentation.
+In case you need to list items you can do it this way::
+ 
+  The technology xyz addresses (a) interoperability, (b)
+  extensibility, and (c) an example for avoiding bullet points while
+  replaceing them in a single sentence
+
+It will result in:
+
+The technology xyz addresses (a) interoperability, (b)
+extensibility, and (c) an example for avoiding bullet points while
+replaceing them in a single sentence
+
+
+  
 Learning outcomes
 ------------------
 
