@@ -2033,15 +2033,12 @@ In-memory databases/caches
 
      Hazelcast is a java based, in memory data grid. :cite:`www-wikihazel` 
      It is open source software, released under the Apache 2.0 License. 
-     :cite:`www-githubhazel`  
-
-     Hazelcast uses a grid to distribute data evenly across a cluster.  
-     Clusters allow processing and storage to scale horizontally.  
-     Hazelcast enables predictable scaling for applications by providing 
-     in memory access to data. :cite:`www-wikihazel`
-
-     Hazelcast can run locally, in the cloud, in virtual machines, or 
-     in Docker containers. :cite:`www-wikihazel`
+     :cite:`www-githubhazel` Hazelcast enables predictable scaling for 
+     applications by providing in memory access to data. 
+     :cite:`www-wikihazel` Hazelcast uses a grid to distribute data evenly 
+     across a cluster. Clusters allow processing and storage to scale 
+     horizontally. Hazelcast can run locally, in the cloud, in virtual 
+     machines, or in Docker containers. :cite:`www-wikihazel`
 
 188. Ehcache
 
@@ -2557,16 +2554,16 @@ NoSQL
 
 235. Google Bigtable
 
-     Google Bigtable is a NoSQL database service, built upon several
-     Google technologies, including Google File System, Chubby Lock
-     Service, and SSTable.  Designed for Big Data, Bigtable provides
-     high performance and low latency and scales to hundreds of
-     petabytes.  :cite:`www-cloudbigtable` Bigtable powers many core
+     Google Bigtable is a NoSQL database service, built upon several Google
+     technologies, including Google File System, Chubby Lock Service, and
+     SSTable. :cite:`www-cloudbigtable`  Designed for Big Data, Bigtable 
+     provides high performance and low latency and scales to hundreds of
+     petabytes. :cite:`www-cloudbigtable` Bigtable powers many core
      Google products, such as Search, Analytics, Maps, Earth, Gmail,
-     and YouTube.  :cite:`www-wikibigtable` Since May 6, 2015, a
+     and YouTube. :cite:`www-wikibigtable` Since May 6, 2015, a
      version of Bigtable has been available to the public.  Bigtable
      also drives Google Cloud Datastore :cite:`www-wikibigtable` and
-     Spanner, a distributed NewSQL also developed by
+     Spanner, a distributed NewSQL database also developed by
      Google. :cite:`www-wikispanner`
 
 236. LevelDB
@@ -3181,13 +3178,12 @@ File systems
      General Parallel File System (GPFS) was rebranded as IBM Spectrum 
      Scale on February 17, 2015. :cite:`www-wikigpfs`
 
-     Spectrum Scale is a clustered file system, developed by IBM, providing 
-     high performance.  It "provides concurrent high-speed file access to 
-     applications executing on multiple nodes of clusters" and can be 
-     deployed in either shared-nothing or shared disk modes. Spectrum Scale 
-     is available on AIX, Linux, Windows Server, and IBM System Cluster 
-     1350. :cite:`www-wikigpfs`
-
+     Spectrum Scale is a clustered file system, developed by IBM, designed 
+     for high performance. It "provides concurrent high-speed file access 
+     to applications executing on multiple nodes of clusters" 
+     :cite:`www-wikigpfs` and can be deployed in either shared-nothing 
+     or shared disk modes. Spectrum Scale is available on AIX, Linux, 
+     Windows Server, and IBM System Cluster 1350. :cite:`www-wikigpfs` 
      Due to its focus on performance and scalability, Spectrum Scale has 
      been utilized in compute clusters, big data and analytics (including 
      support for Hadoop Distributed File System (HDFS), backups and 
@@ -3668,7 +3664,7 @@ DevOps
      free offering in which applications are modeled as stacks
      containing various layers. Amazon Elastic Cloud Compute (EC2)
      instances or other resources can be deployed and configured
-     in each layer. :cite:`www-awsopsworks`
+     in each layer of AWS OpsWorks Stacks. :cite:`www-awsopsworks`
 
 328. OpenStack Ironic
 329. Google Kubernetes
