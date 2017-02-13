@@ -1308,7 +1308,7 @@ Inter process communication Collectives
      push notifications to iOS, Windows, Fire OS and Android OS
      devices.
 
-     According to :cite:`sns-blog`SNS system architecture consists 
+     According to :cite:`sns-blog` SNS system architecture consists 
      of four elements: (1) Topics, (2) Owners, (3) Publishers, and
      (4) Subscribers. Topics are events or access points that identifies
      the subject of the event and can be accessed by an unique
