@@ -2783,9 +2783,67 @@
   HowPublished = {web page},
   Owner =	 {S17-IR-2013},
   Timestamp =	 {2017.02.06},
-  Url =
-                  {https://www-01.ibm.com/software/data/infosphere/hadoop/flume/}
+  Url =         {https://www-01.ibm.com/software/data/infosphere/hadoop/flume/}
 }
+
+@Misc{www-opencv,
+  HowPublished             = {web page},
+  Owner                    = {S17-IR-2013},
+  Timestamp                = {2017.02.13},
+  Url                      = {http://opencv.org/}
+}
+
+@Misc{opencv-version,
+  HowPublished             = {web page},
+  Owner                    = {S17-IR-2013},
+  Timestamp                = {2017.02.13},
+  Url                      = {http://opencv.org/opencv-3-2.html}
+}
+
+@Misc{www-orc-docs,
+  Title                    = {Background},
+  HowPublished             = {web-page},
+  Owner                    = {S17-IR-2013},
+  Timestamp                = {2017.02.13},
+  Url                      = {https://orc.apache.org/docs/}
+}
+
+@Misc{wiki-vmwareESXi,
+  Author                   = {Wikipedia},
+  Owner 	           = {S17-IR-2013},
+  HowPublished             = {web-page},
+  Timestamp                = {2017.02.13},
+  Url                      = {https://en.wikipedia.org/wiki/VMware_ESXi}
+}
+
+@Misc{vmware-esxi,
+  Author                   = {VMware},
+  Owner 	           = {S17-IR-2013},
+  HowPublished             = {web-page},
+  Timestamp                = {2017.02.13},
+  Url                      = {http://www.vmware.com/products/esxi-and-esx.html}
+}
+
+@Misc{apache-hama,
+  Author                   = {Apache},
+  Owner 	           = {S17-IR-2013},
+  HowPublished             = {web-page},
+  Owner                    = {S17-IR-2013},
+  Timestamp                = {2017.02.13},
+  Url                      = {https://hama.apache.org/}
+}
+
+@Book{book-hama,
+  Title                    = {Advanced Multimedia and Ubiquitous Engineering},
+  Author                   = {James J. (Jong Hyuk) Park and Hai Jin and Young-Sik Jeong and Muhammad Khurram Khan},
+  Editor                   = {James J. (Jong Hyuk) Park and Hai Jin and Young-Sik Jeong and Muhammad Khurram Khan},
+  Publisher                = {Springer},
+  Year                     = {2016},
+  Owner                    = {S17-IR-2013},
+  Timestamp                = {2017.02.13}
+}
+
+
 
 % S17-IR-2014
 
@@ -2909,6 +2967,114 @@ which makes i fairly real time.},
   owner        = {S17-IR-2021},
   url          = {http://highscalability.com/blog/2011/3/22/facebooks-new-realtime-analytics-system-hbase-to-process-20.html},
 }
+
+
+@Book{redis-book-2011,
+  title     = {Reddis Cookbook:Practical Technique for fast Data Manipulation},
+  publisher = {O'Reilly Media},
+  year      = {2011},
+  author    = {Tiago Macedo , Fred Oliveira},
+  address   = {Sonoma County, California, United States},
+  isbn      = {978-1-4493-0503-1},
+  abstract  = {Redis (Remote Dictionary Server) is an open source ,in-memory, key-value 
+database which is commonly referred as a data structure server. 
+:cite:'redis-book-2011' "It is called a data structure server and not 
+simply a key-value store because Redis implements datastructure which 
+allows keys to contain binary safe strings ,hashes,sets and sortedsets, 
+as well as lists" .Redis’s exceptional performance, simplicity to use 
+and implement, and atomic manipulation of data structures lends itself 
+to solving problems that are difficult or perform poorly when implemented
+ with traditional relational databases.
+ :cite:'redis-book-2016' "Salivator Sanfilippo(Creator of open-sorce 
+database Redis) makes a strong case that Redis does not need to replace 
+the existing database but is an excellent addition to an enterprise for 
+new functionalities or to solve sometimes intyractable problems." 
+
+:cite:'redis-book-2016' A very popular use pattern for Redis is an 
+in-memory cache for web-applications. The second popular use pattern for 
+REDIS is for metric storage of such quantitative data such as web page 
+usage and user behaviour on gamer leaderboards where using a bit 
+operations on strings, Redis very efficently stores binary information 
+on a particular characteristics.The third popular Redis use pattern is a 
+communication layer between different systems through a 
+publish/subscribe(pub/sub for short), where one can post message to one 
+or more channels that can be acted upon by other systems that are 
+subscribed to or listening to that channel for incoming message. The 
+Comapnies using REDIS includes Twitter to store the timelines of all the 
+user , Pinterest stores the user follower graph, Github, popular web 
+frameworks like Node.js ,Django,Ruby-on-Rails etc.},
+  owner     = {S17-IR-2021},
+}
+
+@Book{redis-book-2016,
+  title     = {Mastering Redis},
+  publisher = {Packt Publishing},
+  year      = {2016},
+  author    = {Jeremy Nelson},
+  isbn      = {978-1783988181},
+  owner     = {S17-IR-2021},
+}
+
+@Misc{www-redis,
+  title        = {Introduction to REDIX},
+  howpublished = {Web Page},
+  note         = {2017-2-8},
+  owner        = {S17-IR-2021},
+  url          = {https://redis.io/topics/introduction},
+}
+
+
+InProceedings{author = {Engle and Cliff and Lupher and Antonio and Xin and Reynold and Zaharia and Matei and Franklin and Michael J. and Shenker and Scott and Stoica and Ion},
+title = {Shark: Fast Data Analysis Using Coarse-grained Distributed Memory},
+booktitle = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},
+series = {SIGMOD '12},
+year = {2012},
+isbn = {978-1-4503-1247-9},
+location = {Scottsdale, Arizona, USA},
+pages = {689--692},
+numpages = {4},
+url = {http://doi.acm.org/10.1145/2213836.2213934},
+doi = {10.1145/2213836.2213934},
+acmid = {2213934},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {data warehouse, databases, machine learning, resilient distributed dataset, shark, spark},
+}
+  abstract  = {Data Scientists when working on huge data sets try to extract meaning 
+and interpret the data to enhance insight about the various patterns, 
+oppurtunities and possiblities that the dataset has to offer. :cite: 
+'shark-paper-2012' At a traditional EDW(Enterprrise Data Warehouse) a 
+simple data manipulation can be perfpormed using SQL queries but we have 
+to rely on other systems to apply the machine learning on thoese 
+data.Apache Shark is a distributed query engine developed by the open 
+source community whoese goal is to provide a a unified system for easy 
+data manipulation using SQL and pushing sophisticated analysis towards 
+the data. 
+
+:cite:'shark-paper-2012' Shark is a data Warehouse system built on top 
+of Apache Spark which does the parallel data execution and is capable of 
+deep data analysis using the Resilient Distributed Datasets(RDD) memory 
+abstraction which unifies the SQL query processing engine with 
+analytical algorithms based on this common abstraction allowing the two 
+to run in the same set of workers and share intermediate data. Since 
+RDDs are designed to scale horizontally, it is easy to add or remove 
+nodes to accommodate more data or faster query processing thus it can be 
+scaled to thoushands o nodes in a fault-toleranat manner 
+
+:cite:'shark-paper-2012' "Shark is built on Hive Codebase and it has the 
+ability to execute HIVE QL queries up to 100 times faster than Hive 
+without making any change in the existing queries". Shark can run both 
+on the StandAlone Mode and Cluster Mode.:cite:'shark-paper-2012' Shark 
+can answer the queries 40X faster than Apache Hive and can machine 
+learning programs 25X faster than MapReduce programmes. in Apache hadoop 
+on large data sets.Thus, this new data analysis system performs query 
+processing and complex analytics(iterative Machine learning) at scale 
+and efficiently recovers form the failures midway.},
+  owner     = {S17-IR-2021},
+}
+
+
+
 
 % S17-IR-2022
 
@@ -3369,7 +3535,7 @@ APIs, end-to-end acknowledgement, replicated storage, etc.},
 @Misc{jena_wiki,
   Title                    = {jena_wiki},
 
-  Author                   = {Wikipedia},
+  Author                   = {w3},
   HowPublished             = {Web Page},
   Note                     = {Accessed: 02/03/2016},
 
@@ -3455,6 +3621,32 @@ APIs, end-to-end acknowledgement, replicated storage, etc.},
   Url                      = {https://docs.microsoft.com/en-us/azure/data-factory/data-factory-introduction}
 }
 
+% Google data flow
+
+@Misc{data_flow1,
+  Title                    = {data_flow1},
+
+  Author                   = {Google},
+  HowPublished             = {Web Page},
+  Note                     = {Accessed: 02/03/2016},
+
+  Owner                    = {S17-IR-2030},
+  Timestamp                = {2017.02.06},
+  Url                      = {https://cloud.google.com/dataflow/}
+}
+
+
+@Misc{dataconomy,
+  Title                    = {dataconomy},
+
+  Author                   = {Eileen McNulty},
+  HowPublished             = {Blog},
+  Note                     = {Accessed: 02/03/2016},
+
+  Owner                    = {S17-IR-2030},
+  Timestamp                = {2017.02.06},
+  Url                      = {http://dataconomy.com/2014/08/google-cloud-dataflow/}
+}
 
 % S17-IR-2031
 
@@ -3504,6 +3696,80 @@ APIs, end-to-end acknowledgement, replicated storage, etc.},
 % S17-IR-2033
 
 % S17-IR-2034
+
+@Misc{www-CoreOS,
+  key = 	 {CoreOS},
+  title        = {CoreOS},
+  howpublished = {Web Page},
+  note         = {Accessed:1/27/2017},
+  owner        = {S17-IR-2034},
+  url          = {https://www.coreos.com/},
+}
+
+@Misc{www-github/rkt,
+  key = 	 {Github/rkt},
+  title        = {coreos/rkt},
+  howpublished = {Web Page},
+  note         = {Accessed:1/27/2017},
+  owner        = {S17-IR-2034},
+  url          = {https://github.com/coreos/rkt/},
+}
+
+@Misc{www-Heroku,
+  key = 	 {Heroku},
+  title        = {Heroku},
+  howpublished = {Web Page},
+  note         = {Accessed:1/27/2017},
+  owner        = {S17-IR-2034},
+  url          = {https://devcenter.heroku.com/},
+}
+
+@Misc{www-cedar,
+  key = 	 {Cedar},
+  title        = {Cedar stack},
+  howpublished = {Web Page},
+  note         = {Accessed:1/27/2017},
+  owner        = {S17-IR-2034},
+  url          = {https://devcenter.heroku.com/articles/stack#cedar},
+}
+
+@Misc{www-Pegasus,
+  key = 	 {Pegasus},
+  title        = {Pegasus},
+  howpublished = {Web Page},
+  note         = {Accessed:2/3/2017},
+  owner        = {S17-IR-2034},
+  url          = {https://pegasus.isi.edu/},
+}
+
+
+@Misc{www-ApacheDrill,
+  key = 	 {Drill},
+  title        = {Apache Drill},
+  howpublished = {Web Page},
+  note         = {Accessed:2/4/2017},
+  owner        = {S17-IR-2034},
+  url          = {https://drill.apache.org/},
+}
+
+@Misc{www-Titan,
+  key = 	 {Titan},
+  title        = {Titan DB},
+  howpublished = {Web Page},
+  note         = {Accessed:2/4/2017},
+  owner        = {S17-IR-2034},
+  url          = {http://titan.thinkaurelius},
+}
+
+@Misc{www-TinkerPop,
+  key = 	 {TinkerPop},
+  title        = {TinkerPop},
+  howpublished = {Web Page},
+  note         = {Accessed:2/6/2017},
+  owner        = {S17-IR-2034},
+  url          = {http://tinkerpop.apache.org/},
+}
+
 
 % S17-IR-2035
 
@@ -4427,4 +4693,75 @@ it were running on a single, huge computer" as swarm can be scaled upto
   note         = {Accessed: 2017-8-02},
   owner        = {S17-IR-2021},
   url          = {https://www.docker.com/products/docker-swarm},
+}
+
+@Misc{comp1,
+  author       = {Rudi Cilibrasi and Anna Lissa Cruz and Steven de Rooij and Maarten Keijzer},
+  title        = {What is CompLearn},
+  howpublished = {webpage},
+  url          = {http://complearn.org/},
+  abstract     = {Compression based learning for discovering and learning patterns},
+  owner        = {S17-IR-2018},
+} 
+
+@Misc{ope1,
+  title        = {OpenID},
+  howpublished = {website},
+  url          = {http://openid.net/},
+  owner        = {S17-IR-2018},
+}
+
+@Misc{ope2,
+  title        = {OpenID},
+  howpublished = {webpage},
+  url          = {https://en.wikipedia.org/wiki/OpenID},
+  owner        = {S17-IR-2018},
+}
+
+@Misc{cis1,
+  title        = {Cloud and systems management},
+  howpublished = {webpage},
+  url          = {http://www.cisco.com/c/en/us/products/cloud-systems-management},
+  owner        = {S17-IR-2018},
+}
+
+@Misc{cis2,
+  author       = {Stuart Miniman},
+  title        = {Cisco Moves Up the Cloud Stack with Intelligent Automation},
+  year         = {2011},
+  howpublished = {webpage},
+  url          = {http://wikibon.org/wiki/v/Cisco_Moves_Up_the_Cloud_Stack_with_Intelligent_Automation},
+  owner        = {S17-IR-2018},
+}
+
+@Misc{pent1,
+  title        = {Pentaho},
+  howpublished = {webpage},
+  url          = {https://en.wikipedia.org/wiki/Pentaho},
+  owner        = {S17-IR-2018},
+}
+
+@Misc{pent2,
+  title        = {Any Analytics, Any Data, Simplified},
+  howpublished = {webpage},
+  url          = {http://www.pentaho.com/product/product-overview},
+  owner        = {S17-IR-2018},
+}
+
+@Misc{scik1,
+  author       = {Jason Brownlee},
+  title        = {A Gentle Introduction to Scikit-Learn: A Python Machine Learning Library},
+  year         = {2014},
+  date         = {2014-04-16},
+  howpublished = {webpage},
+  url          = {http://machinelearningmastery.com/a-gentle-introduction-to-scikit-learn-a-python-machine-learning-library/},
+  owner        = {S17-IR-2018},
+}
+
+@Misc{scik2,
+  title        = {scikit-Learn},
+  howpublished = {webpage},
+  url          = {https://en.wikipedia.org/wiki/Scikit-learn},
+  abstract     = {A machine learning library for python programming language},
+  owner        = {S17-IR-2018},
 }
