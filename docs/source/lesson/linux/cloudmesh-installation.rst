@@ -52,8 +52,9 @@ First the profile section must be updated as follows.
 
 
 example configuration
+::
 
-profile:
+   profile:
         firstname: Vibhatha	
         lastname: Abeykoon
         email: vibhatha@gmail.com
