@@ -93,6 +93,22 @@ Workflow-Orchestration
     directors :cite:`bioActors`.
     
 11. Galaxy
+
+    Ansible Galaxy is a website platform and command line tool that
+    enables users to discover, create, and share community developed
+    roles. Users' GitHub accounts are used for authentication,
+    allowing users to import roles to share with the ansible
+    community. :cite:`www-galaxy-ansible` describes how Ansible roles
+    are encapsulated and reusable tools for organizing automation
+    content. Thus a role contains all tasks, variables, and handlers
+    that are necessary to complete that
+    role. :cite:`Ansible-book-2016` depicts roles as the most powerful
+    part of Ansible as they keep playbooks simple and readable. "They
+    provide reusable definitions that you can include whenever you
+    need and customize with any variables that the role exposes."
+    :cite:`www-github-galaxy` provides the project documents for
+    Ansible Galaxy on github.
+    
 12. IPython
 13. Jupyter
 14. (Dryad)
@@ -323,6 +339,27 @@ Application and Analytics
     uses manager/worker parallelism.
 
 38. Bioconductor
+
+    Bioconductor is an open source and open development platform used
+    for analysis and understanding of high throughput genomic
+    data. Bioconductor is used to analyze DNA microarray, flow,
+    sequencing, SNP, and other biological data. All contributions to
+    Bioconductor are under an open source
+    license. :cite:`bioconductor-article-2004` describes the goals of
+    Bioconductor "include fostering collaborative development and
+    widespread use of innovative software, reducing barriers to entry
+    into interdisciplinary scientific research, and promoting the
+    achievement of remote reproducibility of research results"
+    :cite:`www-bioconductor-about` described that Bioconductor is
+    primarily based on R, as most components of Bioconductor are
+    released in R packages. Extensive documentation is provided for
+    each Bioconductor package as vignettes, which include
+    task-oriented descriptions for the functionalities of each
+    package. Bioconductor has annotation functionality to associate
+    "genemoic data in real time with biological metadata from web
+    databases such as GenBank, Entrez genes and PubMed."  Bioconductor
+    also has tools to process genomic annotation data.
+    
 39. ImageJ
 40. OpenCV
 
@@ -740,6 +777,25 @@ Application and Analytics
     selectMenu and seriesChart.
       
 78. TensorFlow
+
+    TensorFlow is a platform that provides a software library for
+    expressing and executing machine learning
+    algorithms. :cite:`tensorflow-paper-2016` states TensorFlow has a
+    flexible architecture allowing it to be executed with minimal
+    change to many hetegeneous systems such as CPUs and GPUs of mobile
+    devices, desktop machines, and servers. TensorFlow can "express a
+    wide variety of algorithms, including training and inference
+    algorithms for deep neural netowrk models, and it has been used
+    for conducting research and for deploying machine learning systems
+    into production across more than a dozen
+    areas". :cite:`www-tensorflow` describes that TensorFlow utilizes
+    data flow graphs in which the "nodes in the graph represent
+    mathematical operations, while the graph edges represent the
+    multidimensional data arrays (tensors) communicated between them."
+    TensorFlow was developed by the Google Brain Team and has a
+    reference implementation that was released on 2015-11-09 under the
+    Apache 2.0 open source license.
+    
 79. CNTK
 
 
@@ -1310,6 +1366,23 @@ Streams
      makes i fairly real time
      
 138. Azure Stream Analytics
+
+     Azure Stream Analytics is a platform that manages data streaming
+     from devices, web sites, infrastructure systems, social media,
+     internet of things analytics, and other sources usings real-time
+     event processing engine. :cite:`www-azurestreamanalytics` Jobs
+     are authored by "specifying the input source of the streaming
+     data, the output sink for the results of your job, and a data
+     tranformation expressed in a SQL-like language."  Some key
+     capabilities and benefits include ease of use, scalability,
+     reliability, repeatability, quick recovery, low cost, reference
+     data use, user defined functions capability, and
+     connectivity. :cite:`www-docs-microsoft` Available documentation
+     to get started with Azure Stream
+     Analytics. :cite:`www-github-azure` Azure Stream Analytics has a
+     development project available on github.
+
+     
 139. Floe
 140. Spark Streaming
 141. Flink Streaming
@@ -3611,6 +3684,24 @@ Monitoring
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 361. Ambari
+
+     Apache Amabari is an open source platform that enables easy
+     management and maintenance of Hadoop clusters, regardless of
+     cluster size. Ambari has a simplified Web UI and robust REST API
+     for automating and controlling cluster operations.
+     :cite:`www-hortonworks-ambari` illustrates Ambari to provide key
+     benefits including easy installation, configuration, and
+     management with features such as Smart Configs and cluster
+     recommendations and Ambari Blueprints, to provide repeatable and
+     automated cluster creation. Ambari provides a centralized
+     security setup that automates security capabilities of
+     clusters. Ambari provides a holistic view for cluster monitoring
+     and provides visualizations for operation
+     metrics. :cite:`www-ambari` provides documentation about Ambari,
+     including a quick start guide for installing a cluster with
+     Ambari. :cite:`www-github-ambari` provides the project documents
+     for ambari on github.
+     
 362. Ganglia
 363. Nagios :cite:`www-nagios`
 
