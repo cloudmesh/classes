@@ -1611,28 +1611,28 @@ Basic Programming model and runtime, SPMD, MapReduce
 153. Pegasus
 154. Ligra
 
-    Ligra is a Light Weight Graph Processing Framework for the graph
-    manipulation and analysis in shared memory system. It is
-    particularly suited for implementing on parallel graph traversal
-    algorithms where only a subset of the vertices are processed in an
-    iteration The interface is lightweight in that it supplies only a
-    few functions. The Ligra framework has two very simple routines,
-    one for mapping over edges and one for mapping over vertices.
+     Ligra is a Light Weight Graph Processing Framework for the graph
+     manipulation and analysis in shared memory system. It is
+     particularly suited for implementing on parallel graph traversal
+     algorithms where only a subset of the vertices are processed in an
+     iteration The interface is lightweight in that it supplies only a
+     few functions. The Ligra framework has two very simple routines,
+     one for mapping over edges and one for mapping over vertices.
 
-    :cite:'ligra-paper-2013 'The implementations of several graph
-    algorithms like BFS, breadth-first search, betweenness centrality,
-    graph radii estimation, graph-connectivity, PageRank and
-    Bellman-Ford single-source shortest paths efficient and scalable,
-    and often achieve better running times than ones reported by other
-    graph libraries/systems
+     :cite:'ligra-paper-2013 'The implementations of several graph
+     algorithms like BFS, breadth-first search, betweenness centrality,
+     graph radii estimation, graph-connectivity, PageRank and
+     Bellman-Ford single-source shortest paths efficient and scalable,
+     and often achieve better running times than ones reported by other
+     graph libraries/systems
 
-    :cite:'ligra-paper-2' Although the shared memory machines cannot
-    be scaled to the same size as distributed memory clusters but the
-    current commodity single unit servers can easily fit graphs with
-    well over a hundred billion edges in the shared memory systems
-    that is large enough for any of the graphs reported in the papers
-    mentioned above.
-     
+     :cite:'ligra-paper-2' Although the shared memory machines cannot
+     be scaled to the same size as distributed memory clusters but the
+     current commodity single unit servers can easily fit graphs with
+     well over a hundred billion edges in the shared memory systems
+     that is large enough for any of the graphs reported in the papers
+     mentioned above.
+
 155. GraphChi
 156. Galois
      
@@ -3289,13 +3289,10 @@ File systems
      concept of Buckets and Objects for storing data wherein Buckets
      are used to store objects. Amazon S3 services can be used using
      the Amazon Console Management. :cite:`www-amazon-s3-docs` The steps
-     for using the Amazon S3 are as follows:
-     1) Sign up for Amazon S3
-     2) After sign up, create a Bucket in your account.
-     3) Create an object which might be an file or folder.
-     4) Perform operations on the object which is stored in the cloud.
-	
-	
+     for using the Amazon S3 are as follows: (1) Sign up for Amazon S3
+     (2) After sign up, create a Bucket in your account, (3) Create
+     and object which might be an file or folder, and (4) Perform
+     operations on the object which is stored in the cloud.
 
 	
 298. Azure Blob
@@ -4086,27 +4083,22 @@ IaaS Management from HPC to hypervisors
      and other hardware configuration based on your application needs. 
      You can also select operating system and other software required 
      to run your application. AWS lets you select from the countless services. 
-     Some of them are mentioned below.
+     Some of them are mentioned below:
 
-          -  Amazon Elastic Computer Cloud (EC2)
-
-          -  Amazon Simple Storage Service (Amazon S3)
-
-          -  Amazon CloudFront
-
-          -  Amazon Relational Database Service (Amazon RDS)
-
-          -  Amazon SimpleDB
-
-          -  Amazon Simple Notification Service (Amazon SNS)
-
-          -  Amazon Simple Queue Service (Amazon SQS)
-
-          -  Amazon Virtual Private Cloud (Amazon VPC)
+     -  Amazon Elastic Computer Cloud (EC2)
+     -  Amazon Simple Storage Service (Amazon S3)
+     -  Amazon CloudFront
+     -  Amazon Relational Database Service (Amazon RDS)
+     -  Amazon SimpleDB
+     -  Amazon Simple Notification Service (Amazon SNS)
+     -  Amazon Simple Queue Service (Amazon SQS)
+     -  Amazon Virtual Private Cloud (Amazon VPC)
 
      Amazon EC2 and Amazon S3 are the two core IaaS services, which are 
      used by cloud application solution developers worldwide. :cite:'www-aws'
 
+     **Improve: all of them need bibentries**
+     
 357. Azure
 358. Google and other public Clouds
 359. Networking: Google Cloud DNS
