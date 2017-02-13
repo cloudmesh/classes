@@ -476,6 +476,27 @@ Application and Analytics
     which is tailored for short, real-time
     conversations :cite:`WWW-Translation`.
 46. mlpy
+    
+    mlpy is an open source python library made for providing
+    machine learning functionality.It is built on top of popular
+    existing python libraries of NumPy, SciPy and GNU scientific
+    libraries (GSL).It also makes extensive use of Cython
+    language. These form the prerequisites for mlpy. :cite:`DBLP:journals/corr/abs-1202-6548`
+    explains the significanceq of its components: NumPy, SciPy provide
+    sophisticated N-dimensional arrays, linear algebra functionality
+    and a variety of learning methods, GSL, which is written in C,
+    provides complex numerical calculation functionality.
+
+    mlpy provides a wide range of machine learning methods for both
+    supervised and unsupervised learning problems. mlpy is multiplatform
+    and works both on Python 2 and 3 and is distributed under GPL3. Mlpy
+    provides both classic and new learning algorithms for classification,
+    regression and dimensionality reduction. :cite:`www-mlpy`
+    provides a detailed list of functionality offered by mlpy. Though
+    developed for general machine learning applications, mlpy has special
+    applications in computational biology, particularly in functional
+    genomics modeling.
+    
 47. scikit-learn
 
     Scikit-learn is an open source library that provides simple and
@@ -3278,6 +3299,25 @@ Interoperability
 
 300. Libvirt
 301. Libcloud
+
+     :cite::`www-libcloudwiki` Libcloud is a python library that
+     allows to interact with several popular cloud service
+     providers. It is primarily designed to ease development of
+     software products that work with one or more cloud services
+     supported by Libcloud. It provides a unified API to interact with
+     these different cloud services. Current API includes methods for
+     list, reboot, create, destroy, list images and list
+     sizes. :cite::`www-libclouddoc` lists Libcloud key component APIs
+     Compute, Storage, Load Balancers, DNS, Container and
+     Backup. Compute API allows users to manage cloud servers. Storage
+     API allows users to manage cloud object storage and also provides
+     CDN management functionality. Load balancer, DNS and Backup API’s
+     allows users to manage their respective functionalities, as
+     services, and related products of different cloud service
+     providers. Container API allows users to deploy containers on to
+     container virtualization platforms. Libcloud supports Python 2,
+     Python 3 and PyPy.
+     
 302. JClouds
 
      :cite:`cloud-portability-book` Primary goals of cross-platform
@@ -3632,6 +3672,27 @@ DevOps
 
 328. OpenStack Ironic
 329. Google Kubernetes
+
+     Google Kubernetes is a cluster management platform developed by
+     Google. According to :cite:`www-kubernetesdoc` is an open source
+     system for "automating deployment, scaling and management of
+     containerized applications". It primarily manages clusters
+     through containers as they decouple applications from the
+     host operating system dependencies and allowing their quick and
+     seamless deployment, maintenance and scaling.
+
+     Kubernetes components are designed to extensible primarily
+     through Kubernetes API. Kubernetes follows a master-slave
+     architecture, according to :cite:`www-kuberneteswiki` Kubernetes
+     Master controls and manages the clusters workload and
+     communications of the system. Its main components are etcd, API
+     server, scheduler and controller manager. The individual
+     Kubernetes nodes are the workers where containers are
+     deployed. The components of a node are Kubelet, Kube-proxy and
+     cAdvisor. Kunernetes makes it easier to run application on public
+     and private clouds. It is also said to be self-healing due to
+     features like auto-restart and auto-scaling.
+     
 330. Buildstep
      
      Buildsteps is an open software developed under MIT license. 
