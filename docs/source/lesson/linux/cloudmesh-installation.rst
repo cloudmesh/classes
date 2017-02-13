@@ -42,12 +42,13 @@ examples :
    gedit ~/.cloudmesh/cloudmesh.yaml
 
 First the profile section must be updated as follows. 
-
-profile:
-        firstname: TBD
-        lastname: TBD
-        email: TBD
-        user: TBD
+::
+   
+   profile:
+          firstname: TBD
+          lastname: TBD
+          email: TBD
+          user: TBD
 
 
 example configuration
