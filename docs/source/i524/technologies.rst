@@ -18,6 +18,20 @@ Workflow-Orchestration
 ----------------------------------------------------------------------
 
 1. ODE
+
+   Apache ODE (Orchestration Director Engine) is an open source 
+   implementation of the WS-BPEL 2.0 standard. WS- BPEL which stands for 
+   Web Services Business Process Execution Language, is an executable 
+   language for writing business processes with web services :cite:`www-bpel-wiki`. 
+   It includes control structures like conditions or loops as well as 
+   elements to invoke web services and receive messages from services. 
+   ODE uses WSDL (Web Services Description Language) for interfacing 
+   with web services :cite:`www-ode-wiki`. Naming a few of its features, 
+   It supports two communication layers for interacting with the outside 
+   world, one based on Axis2 (Web Services http transport) and another 
+   one based on the JBI standard. It also supports both long and short 
+   living process executions for orchestrating services for applications :cite:`www-ode-web`.
+
 2. ActiveBPEL
 3. Airavata
 4. Pegasus
@@ -376,6 +390,37 @@ Application and Analytics
 41. Scalapack
 42. PetSc
 43. PLASMA MAGMA
+
+    PLASMA is built to address the performance shortcomings of the LAPACK and
+    ScaLAPACK libraries on multicore processors and multi-socket systems of
+    multicore processors and their inability to efficiently utilize accelerators
+    such as Graphics Processing Units (GPUs). Real arithmetic and complex
+    arithmetic are supported in both single precision and double precision.
+    PLASMA has been designed by restructuring the software to achieve much
+    greater efficiency, where possible, on modern computers based on multicore
+    processors. PLASMA does not support band matrices and does not solve
+    eigenvalue and singular value problems. Also, PLASMA does not replace
+    ScaLAPACK as software for distributed memory computers, since it only
+    supports shared-memory machines. :cite:`paper-plasma-magma-1` :cite:`www-plasma-1`
+    Recent activities of major chip manufacturers, such as Intel, AMD, IBM and
+    NVIDIA, make it more evident than ever that future designs of
+    microprocessors and large HPC systems will be hybrid/heterogeneous in
+    nature, relying on the integration (in varying proportions) of two major
+    types of components: :cite:`paper-plasma-magma-2` :cite:`paper-plasma-magma-3`
+    1. Many-cores CPU technology, where the number of cores will continue to
+    escalate because of the desire to pack more and more components on a chip
+    while avoiding the power wall, instruction level parallelism wall, and the
+    memory wall;
+    2. Special purpose hardware and accelerators, especially Graphics Processing
+    Units (GPUs), which are in commodity production, have outpaced standard CPUs
+    in floating point performance in recent years, and have become as easy, if
+    not easier to program than multicore CPUs.
+    While the relative balance between these component types in future designs
+    is not clear, and will likely to vary over time, there seems to be no doubt
+    that future generations of computer systems, ranging from laptops to
+    supercomputers, will consist of a composition of heterogeneous components.
+    :cite:`paper-plasma-magma-4`:cite:`paper-plasma-magma-5`:cite:`paper-plasma-magma-6`
+
 44. Azure Machine Learning
     
     Azure Machine Learning is a cloud based service that can be used
@@ -431,6 +476,27 @@ Application and Analytics
     which is tailored for short, real-time
     conversations :cite:`WWW-Translation`.
 46. mlpy
+    
+    mlpy is an open source python library made for providing
+    machine learning functionality.It is built on top of popular
+    existing python libraries of NumPy, SciPy and GNU scientific
+    libraries (GSL).It also makes extensive use of Cython
+    language. These form the prerequisites for mlpy. :cite:`DBLP:journals/corr/abs-1202-6548`
+    explains the significanceq of its components: NumPy, SciPy provide
+    sophisticated N-dimensional arrays, linear algebra functionality
+    and a variety of learning methods, GSL, which is written in C,
+    provides complex numerical calculation functionality.
+
+    mlpy provides a wide range of machine learning methods for both
+    supervised and unsupervised learning problems. mlpy is multiplatform
+    and works both on Python 2 and 3 and is distributed under GPL3. Mlpy
+    provides both classic and new learning algorithms for classification,
+    regression and dimensionality reduction. :cite:`www-mlpy`
+    provides a detailed list of functionality offered by mlpy. Though
+    developed for general machine learning applications, mlpy has special
+    applications in computational biology, particularly in functional
+    genomics modeling.
+    
 47. scikit-learn
 
     Scikit-learn is an open source library that provides simple and
@@ -931,6 +997,21 @@ Application Hosting Frameworks
     services since January 30, 2016. Refer :cite:`www-ninefoldSite`
 
 91. Jelastic
+
+    Jelastic (acronym for Java Elastic) is an unlimited PaaS and Container based
+    IaaS within a single platform that provides high availability of
+    applications, automatic vertical and horizontal scaling via containerization
+    to software development clients, enterprise businesses, DevOps, System
+    Admins, Developers, OEMs and web hosting providers. :cite:`www-jelastic-2` 
+    Jelastic is a Platform-as-Infrastructure provider of Java and PHP hosting. 
+    It has international hosting partners and data centers. The company can add 
+    memory, CPU and disk space to meet customer needs. The main competitors of 
+    Jelastic are Google App Engine, Amazon Elastic Beanstalk, Heroku, and Cloud 
+    Foundry.Jelastic is unique in that it does not have limitations or code 
+    change requirements, and it offers automated vertical scaling, application
+    lifecycle management, and availability from multiple hosting providers
+    around the world. :cite:`www-jelastic-1`
+
 92. Stackato
 93. appfog
 
@@ -962,6 +1043,28 @@ Application Hosting Frameworks
 100. HUBzero
 101. OODT
 102. Agave
+
+     Agave is an open source, application hosting framework and
+     provides a platform-as-a-service solution for hybrid
+     computing. :cite:`agave-paper` It provides everything ranging
+     from authentication and authorization to computational, data and
+     collaborative services. Agave manages end to end lifecycle of an
+     application’s execution.  Agave provides an execution platform,
+     data management platform, or an application platform through
+     which users can execute applications, perform operations on their
+     data or simple build their web and mobile
+     applications. :cite:`www-agaveapi-features`
+
+     Agave’s API’s provide a catalog with existing technologies and
+     hence no additional appliances, servers or other software needs
+     to be installed. To deploy an application from the catalog, the
+     user needs to host it on a storage system registered with Agave,
+     and submit to agave, a JSON file that shall contain the path to
+     the executable file, the input parameters, and specify the
+     desired output location. :cite:`agave-paper` Agave shall read the
+     JSON file, formalize the parameters, execute the user program and
+     dump the output to the requested destination.
+
 103. Atmosphere
 
      Atmosphere is developed by CyVerse (previously named as iPlant
@@ -1243,8 +1346,52 @@ Streams
 ----------------------------------------------------------------------
 
 127. Storm
+
+     Apache Storm is an open source distributed computing framework for
+     analyzing big data in real time. :cite:`storm-paper-IJCTT` refers
+     storm as the Hadoop of real time data. Storm operates by reading real
+     time input data from one end and passes it through a sequence of
+     processing units delivering output at the other end. The basic element
+     of Storm is called topology. A topology consists of many other
+     elements interconnected in a sequential fashion. Storm allows us to
+     define and submit topologies written in any programming language.
+
+     Once under execution, a storm topology runs indefinitely unless killed
+     explicitly. The key elements in a topology are the spout and the
+     bolt. A spout is a source of input which can read data from various
+     datasources and passes it to a bolt. A bolt is the actual processing
+     unit that processes data and produces a new output stream. An output
+     stream from a bolt can be given as an input to another
+     bolt. :cite:`www-storm-home-concepts`
+     
 128. S4
 129. Samza
+
+     Apache Samza is an open-source near-realtime, asynchronous computational 
+     framework for stream processing developed by the Apache Software 
+     Foundation in Scala and Java. :cite:`www-samza-3`
+     Apache Samza is a distributed stream processing framework. It uses Apache
+     Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance,
+     processor isolation, security, and resource management. Samza processes
+     streams. A stream is composed of immutable messages of a similar type or
+     category. Messages can be appended to a stream or read from a stream.
+     Samza supports pluggable systems that implement the stream abstraction:
+     in Kafka a stream is a topic, in a database we might read a stream by
+     consuming updates from a table, in Hadoop we might tail a directory of
+     files in HDFS. Samza is a stream processing framework. Samza provides a
+     very simple callback-based “process message” API comparable to MapReduce.
+     Samza manages snapshotting and restoration of a stream processor’s state.
+     Samza is built to handle large amounts of state (many gigabytes per
+     partition). :cite:`www-samza-1` Whenever a machine in the cluster fails, 
+     Samza works with YARN to transparently migrate your tasks to another      
+     machine. Samza uses Kafka to guarantee that messages are processed in the  
+     order they were written to a partition, and that no messages are ever lost. 
+     Samza is partitioned and distributed at every level. Kafka provides  
+     ordered, partitioned, replayable, fault-tolerant streams. YARN provides a 
+     distributed environment for Samza containers to run in. Samza works with   
+     Apache YARN, which supports Hadoop’s security model, and resource isolation 
+     through Linux CGroups :cite:`www-samza-4` :cite:`www-samza-3`.
+
 130. Granules
 
      Granules in used for execution or processing of data streams in 
@@ -1757,6 +1904,21 @@ Inter process communication Collectives
      APIs, end-to-end acknowledgement, replicated storage, etc. 
      
 181. Azure Queues
+
+     Azure Queues storage is a Microsoft Azure service, providing inter
+     -process communication by message passing :cite:`silberschatz1998operating`. 
+     A sender sends the message and a client receives and processes them. 
+     The messages are stored in a queue which can contain millions of 
+     messages, up to the total capacity limit of a storage account :cite:`www-azurequeue-web`.
+     Each message can be up to 64 KB in size. These messages can then be 
+     accessed from anywhere in the world via authenticated calls using HTTP or 
+     HTTPS. Similar to the other message queue services, Azure Queues enables 
+     decoupling of the components :cite:`www-tutorialspoint`. It runs in an 
+     asynchronous environment where messages can be sent among the different 
+     components of an application. Thus, it provides an efficient solution for 
+     managing workflows and tasks. The messages can remain in the queue up to 7 
+     days, and afterwards, they will be deleted automatically.
+
 182. Event Hubs
 
 In-memory databases/caches
@@ -1871,15 +2033,12 @@ In-memory databases/caches
 
      Hazelcast is a java based, in memory data grid. :cite:`www-wikihazel` 
      It is open source software, released under the Apache 2.0 License. 
-     :cite:`www-githubhazel`  
-
-     Hazelcast uses a grid to distribute data evenly across a cluster.  
-     Clusters allow processing and storage to scale horizontally.  
-     Hazelcast enables predictable scaling for applications by providing 
-     in memory access to data. :cite:`www-wikihazel`
-
-     Hazelcast can run locally, in the cloud, in virtual machines, or 
-     in Docker containers. :cite:`www-wikihazel`
+     :cite:`www-githubhazel` Hazelcast enables predictable scaling for 
+     applications by providing in memory access to data. 
+     :cite:`www-wikihazel` Hazelcast uses a grid to distribute data evenly 
+     across a cluster. Clusters allow processing and storage to scale 
+     horizontally. Hazelcast can run locally, in the cloud, in virtual 
+     machines, or in Docker containers. :cite:`www-wikihazel`
 
 188. Ehcache
 
@@ -2226,6 +2385,24 @@ NoSQL
      fault tolerance among others. :cite:`Li`
      
 224. Berkeley DB
+
+     Berkeley DB is a family of open source, NoSQL key-value database libraries. 
+     :cite:`www-bdb-wiki` It provides a simple function-call API for data access 
+     and management over a number of programming languages, including C, C++, 
+     Java, Perl, Tcl, Python, and PHP. Berkeley DB is embedded because it links 
+     directly into the application and runs in the same address space as the 
+     application. :cite:`www-bdb-stanford` As a result, no inter-process 
+     communication, either over the network or between processes on the same 
+     machine, is required for database operations. It is also extremely portable 
+     and scalable, it can manage databases up to 256 terabytes in size.
+     
+     :cite:`www-bdb` For data management, Berkeley DB offers advanced services, 
+     such as concurrency for many users, ACID transactions, and recovery. 
+     
+     Berkeley DB is used in a wide variety of products and a large number of 
+     projects, including gateways from Cisco, Web applications at Amazon.com 
+     and open-source projects such as Apache and Linux.
+
 225. Kyoto/Tokyo Cabinet
 
      Tokyo Cabinet :cite:`www-tokyo-cabinet` and Kyoto Cabinet
@@ -2377,16 +2554,16 @@ NoSQL
 
 235. Google Bigtable
 
-     Google Bigtable is a NoSQL database service, built upon several
-     Google technologies, including Google File System, Chubby Lock
-     Service, and SSTable.  Designed for Big Data, Bigtable provides
-     high performance and low latency and scales to hundreds of
-     petabytes.  :cite:`www-cloudbigtable` Bigtable powers many core
+     Google Bigtable is a NoSQL database service, built upon several Google
+     technologies, including Google File System, Chubby Lock Service, and
+     SSTable. :cite:`www-cloudbigtable`  Designed for Big Data, Bigtable 
+     provides high performance and low latency and scales to hundreds of
+     petabytes. :cite:`www-cloudbigtable` Bigtable powers many core
      Google products, such as Search, Analytics, Maps, Earth, Gmail,
-     and YouTube.  :cite:`www-wikibigtable` Since May 6, 2015, a
+     and YouTube. :cite:`www-wikibigtable` Since May 6, 2015, a
      version of Bigtable has been available to the public.  Bigtable
      also drives Google Cloud Datastore :cite:`www-wikibigtable` and
-     Spanner, a distributed NewSQL also developed by
+     Spanner, a distributed NewSQL database also developed by
      Google. :cite:`www-wikispanner`
 
 236. LevelDB
@@ -3001,13 +3178,12 @@ File systems
      General Parallel File System (GPFS) was rebranded as IBM Spectrum 
      Scale on February 17, 2015. :cite:`www-wikigpfs`
 
-     Spectrum Scale is a clustered file system, developed by IBM, providing 
-     high performance.  It "provides concurrent high-speed file access to 
-     applications executing on multiple nodes of clusters" and can be 
-     deployed in either shared-nothing or shared disk modes. Spectrum Scale 
-     is available on AIX, Linux, Windows Server, and IBM System Cluster 
-     1350. :cite:`www-wikigpfs`
-
+     Spectrum Scale is a clustered file system, developed by IBM, designed 
+     for high performance. It "provides concurrent high-speed file access 
+     to applications executing on multiple nodes of clusters" 
+     :cite:`www-wikigpfs` and can be deployed in either shared-nothing 
+     or shared disk modes. Spectrum Scale is available on AIX, Linux, 
+     Windows Server, and IBM System Cluster 1350. :cite:`www-wikigpfs` 
      Due to its focus on performance and scalability, Spectrum Scale has 
      been utilized in compute clusters, big data and analytics (including 
      support for Hadoop Distributed File System (HDFS), backups and 
@@ -3058,6 +3234,42 @@ File systems
 
 	
 298. Azure Blob
+
+     Azure Blob storage is a service that stores unstructured data in the cloud
+     as objects/blobs. Blob storage can store any type of text or binary data,
+     such as a document, media file, or application installer :cite:`www-azure-3`
+     Blob storage is also referred to as object storage. The word ‘Blob’ expands 
+     to Binary Large OBject. There are three types of blobs in the service offe-
+     red by Windows Azure namely block, append and page blobs. :cite:`www-azure-2`
+     1. Block blobs are collection of individual blocks with unique block ID.
+     The block blobs allow the users to upload large amount of data.
+     2. Append blobs are optimized blocks that helps in making the operations
+     efficient.
+     3. Page blobs are compilation of pages. They allow random read and write
+     operations. While creating a blob, if the type is not specified they are
+     set to block type by default. All the blobs must be inside a container in
+     your storage.
+     Azure Blob storage is a service for storing large amounts of unstructured
+     object data, such as text or binary data, that can be accessed from
+     anywhere in the world via HTTP or HTTPS. You can use Blob storage to expose
+     data publicly to the world, or to store application data privately. Common
+     uses of Blob storage include serving images or documents directly to a
+     browser, storing files for distributed access, streaming video and audio,
+     storing data for backup and restore, disaster recovery, and archiving and
+     storing data for analysis by an on-premises or Azure-hosted service.
+     Azure Storage is massively scalable and elastic with an auto-partitioning
+     system that automatically load-balances your data. Blob storage is a
+     specialized storage account for storing your unstructured data as blobs
+     (objects) in Azure Storage. Blob storage is similar to existing
+     general-purpose storage accounts and shares all the great durability,
+     availability, scalability, and performance features. Blob storage has two
+     types of access tiers that can be specified, hot access tier, which will be
+     accessed more frequently, and a cool access tier, which will be less
+     frequently accessed. There are many reasons why you should consider using
+     BLOB storage. Perhaps you want to share files with clients, or off-load
+     some of the static content from your web servers to reduce the load on
+     them. :cite:`www-azure-3`
+
 299. Google Cloud Storage
 
      Google Cloud Storage is the cloud enabled storage offered by
@@ -3083,6 +3295,25 @@ Interoperability
 
 300. Libvirt
 301. Libcloud
+
+     :cite::`www-libcloudwiki` Libcloud is a python library that
+     allows to interact with several popular cloud service
+     providers. It is primarily designed to ease development of
+     software products that work with one or more cloud services
+     supported by Libcloud. It provides a unified API to interact with
+     these different cloud services. Current API includes methods for
+     list, reboot, create, destroy, list images and list
+     sizes. :cite::`www-libclouddoc` lists Libcloud key component APIs
+     Compute, Storage, Load Balancers, DNS, Container and
+     Backup. Compute API allows users to manage cloud servers. Storage
+     API allows users to manage cloud object storage and also provides
+     CDN management functionality. Load balancer, DNS and Backup API’s
+     allows users to manage their respective functionalities, as
+     services, and related products of different cloud service
+     providers. Container API allows users to deploy containers on to
+     container virtualization platforms. Libcloud supports Python 2,
+     Python 3 and PyPy.
+     
 302. JClouds
 
      :cite:`cloud-portability-book` Primary goals of cross-platform
@@ -3189,6 +3420,35 @@ Interoperability
 305. CDMI
 306. Whirr
 307. Saga
+
+     SAGA(Simple API for Grid Applications) provides an abstraction layer
+     to make it easier for applications to utilize and exploit infra
+     effectively. With infrastructure being changed continuously its
+     becoming difficult for most applications to utilize the advances in
+     hardware. SAGA API provides a high level abstraction of the most
+     common Grid functions so as to be independent of the diverse and
+     dynamic Grid environments. :cite:`saga-paper` This shall address the
+     problem of applications developers developing an application tailored
+     to a specific set of infrastructure.  SAGA allows computer scientists
+     to write their applications at high level just once and not to worry
+     about low level hardware changes. SAGA provides this high level
+     interface which has the underlying mechanisms and adapters to make the
+     appropriate calls in an intelligent fashion so that it can work on any
+     underlying grid system. “SAGA was built to provide a standardized,
+     common interface across various grid middleware systems and their
+     versions.”  :cite:`www-saga-ogf-document`
+
+     As SAGA is to be implemented on different types
+     of middleware it does not specify a single security model but provides
+     hooks to interfaces of various security models. The SAGA API provides
+     a set of packages to implement its objectivity : SAGA supports data
+     management, resource discovery, asynchronous notification, event
+     generation, event delivery etc. It does so by providing set of
+     functional packages namely SAGA file package, replica package, stream
+     package, RPC package, etc. SAGA provides interoperability by allowing
+     the same application code to run on multiple grids and also
+     communicate with applications running on others. :cite:`saga-paper`
+
 308. Genesis
 
 DevOps
@@ -3404,10 +3664,31 @@ DevOps
      free offering in which applications are modeled as stacks
      containing various layers. Amazon Elastic Cloud Compute (EC2)
      instances or other resources can be deployed and configured
-     in each layer. :cite:`www-awsopsworks`
+     in each layer of AWS OpsWorks Stacks. :cite:`www-awsopsworks`
 
 328. OpenStack Ironic
 329. Google Kubernetes
+
+     Google Kubernetes is a cluster management platform developed by
+     Google. According to :cite:`www-kubernetesdoc` is an open source
+     system for "automating deployment, scaling and management of
+     containerized applications". It primarily manages clusters
+     through containers as they decouple applications from the
+     host operating system dependencies and allowing their quick and
+     seamless deployment, maintenance and scaling.
+
+     Kubernetes components are designed to extensible primarily
+     through Kubernetes API. Kubernetes follows a master-slave
+     architecture, according to :cite:`www-kuberneteswiki` Kubernetes
+     Master controls and manages the clusters workload and
+     communications of the system. Its main components are etcd, API
+     server, scheduler and controller manager. The individual
+     Kubernetes nodes are the workers where containers are
+     deployed. The components of a node are Kubelet, Kube-proxy and
+     cAdvisor. Kunernetes makes it easier to run application on public
+     and private clouds. It is also said to be self-healing due to
+     features like auto-restart and auto-scaling.
+     
 330. Buildstep
      
      Buildsteps is an open software developed under MIT license. 
@@ -3554,6 +3835,45 @@ IaaS Management from HPC to hypervisors
 342. Hyper-V
 343. VirtualBox
 344. OpenVZ
+
+     OpenVZ (Open Virtuozzo) is an operating system-level virtualization
+     technology for Linux. It allows a physical server to run multiple isolated
+     operating system instances, called containers, virtual private servers, or
+     virtual environments (VEs). OpenVZ is similar to Solaris Containers and
+     LXC. :cite:`www-openvz-3` While virtualization technologies like VMware and 
+     Xen provide full virtualization and can run multiple operating systems and 
+     different kernel versions, OpenVZ uses a single patched Linux kernel and 
+     therefore can run only Linux. All OpenVZ containers share the same archite-
+     cture and kernel version. This can be a disadvantage in situations where 
+     guests require different kernel versions than that of the host. However, as
+     it does not have the overhead of a true hypervisor, it is very fast and 
+     efficient. Memory allocation with OpenVZ is soft in that memory not used in 
+     one virtual environment can be used by others or for disk caching. :cite:`www-openvz-2`
+     While old versions of OpenVZ used a common file system (where each virtual 
+     environment is just a directory of files that is isolated using chroot), 
+     current versions of OpenVZ allow each container to have its own file system. 
+     OpenVZ has four main features, :cite:`www-openvz-1`
+     1. OS virtualization: A container (CT) looks and behaves like a regular
+     Linux system. It has standard startup scripts; software from vendors can
+     run inside a container without OpenVZ-specific modifications or adjustment;
+     A user can change any configuration file and install additional software;
+     Containers are completely isolated from each other and are not bound to
+     only one CPU and can use all available CPU power.
+     2. Network virtualization: Each CT has its own IP address and CTs are
+     isolated from the other CTs meaning containers are protected from each
+     other in the way that makes traffic snooping impossible; Firewalling may
+     be used inside a CT
+     3. Resource management: All the CTs are use the same kernel. OpenVZ
+     resource management consists of four main components: two-level disk quota,
+     fair CPU scheduler, disk I/O scheduler, and user beancounters.
+     4. Checkpointing and live migration: Checkpointing allows to migrate a
+     container from one physical server to another without a need to
+     shutdown/restart a container. This feature makes possible scenarios such as
+     upgrading your server without any need to reboot it: if your database needs
+     more memory or CPU resources, you just buy a newer better server and live
+     migrate your container to it, then increase its limits.
+
+
 345. LXC
      
      LXC (Linux Containers) is an operating-system-level
@@ -3785,6 +4105,22 @@ Security & Privacy
 
 
 367. OpenStack Keystone
+
+     :cite:`www-keystone-wiki` Keystone is the identity service used by 
+     OpenStack for authentication (authN) and high-level authorization (authZ). 
+     There are two authentication mechanisms in Keystone, UUID token, and PKI. 
+     Universally unique identifier (UUID) is a 128-bit number used to identify 
+     information (user). Each application after each request of the client 
+     checks token validity online. PKI was introduced later and improved the 
+     security of Keystone :cite:`cui2015security`. In PKI, each token has its 
+     own digital signature that can be checked by any service and OpenStack 
+     application with no necessity to ask for Keystone database :cite:`www-cloudberrylab-kstn`.
+ 
+     Thus, Keystone enables ensuring user’s identity with no need to transmit 
+     its password to applications. It has recently been rearchitected to allow 
+     for expansion to support proxying external services and AuthN/AuthZ 
+     mechanisms such as oAuth, SAML and openID in future versions :cite:`www-keystone`.
+
 368. LDAP
 
      LDAP stands for Lightweight Directory Access Protocol. It is a software
@@ -3812,6 +4148,18 @@ Security & Privacy
      single coordinated response for the user.
 
 369. Sentry
+
+     :cite:`www-sentry` "Apache Sentry is a granular, role-based authorization 
+     module for Hadoop. Sentry provides the ability to control and enforce 
+     precise levels of privileges on data for authenticated users and 
+     applications on a Hadoop cluster. Sentry currently works out of the box 
+     with Apache Hive, Hive Metastore/HCatalog, Apache Solr, Impala and HDFS 
+     (limited to Hive table data). Sentry is designed to be a pluggable 
+     authorization engine for Hadoop components. It allows the client to define 
+     authorization rules to validate a user or application’s access requests 
+     for Hadoop resources. Sentry is highly modular and can support authorization 
+     for a wide variety of data models in Hadoop."
+
 370. Sqrrl
 371. OpenID 
 
