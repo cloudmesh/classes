@@ -6,6 +6,8 @@ install the latest updates.
 
 Step 1 : Installation Cloudmesh Client
 --------------------------------------
+Use pip to install cloudmesh client ::
+  
 pip install -U cloudmesh_client
 
 In order to make sure cloudmesh is running properly, enter cm in your command line.
@@ -27,11 +29,11 @@ http://cloudmesh.github.io/client/configuration.html
 
 After setting up cloudmesh client locally, the yaml file 
 can be opened by running the following command. You can use
-vim or vi instead of emacs to run this. 
+vim or vi instead of emacs to run this ::
 
 emacs ~/.cloudmesh/cloudmesh.yaml
 
-examples : 
+examples : ::
 
 vim ~/.cloudmesh/cloudmesh.yaml
 vi ~/.cloudmesh/cloudmesh.yaml
@@ -109,25 +111,25 @@ Step 4 : Setting Up Virtual Machine
 
 Run the following commands one by one.
 
-First set up chameleon as the default cloud.
+First set up chameleon as the default cloud ::
 
 $ cm default cloud=chameleon
 
-Information about the configurations can be retrieved by the following command. 
+Information about the configurations can be retrieved by the following command. ::
 
 $cm info
 
 Then add the ssh key to the cloudmesh database by running the following command.
 And make sure, you have already generated a ssh key and the same ssh key will be
-added to the database.
+added to the database. ::
 
 $ cm key add --ssh
 
-Upload the key to the chameleon cloud.
+Upload the key to the chameleon cloud. ::
 
 $ cm key upload
 
-Upload the security group to the chameleon cloud.
+Upload the security group to the chameleon cloud. ::
 
 $ cm secgroup upload
 
@@ -135,14 +137,14 @@ $ cm secgroup upload
 Step 5 : Boot Virtual Machine
 -----------------------------
 
-Run the following command to boot the virtual machine. 
+Run the following command to boot the virtual machine. ::
 
 $ cm vm boot
 
 
 Additional Info:
 You can run the following commands to view the security groups
-and virtual machines running. 
+and virtual machines running. ::
 
 $ cm secgroup list
 $ cm vm list
@@ -152,26 +154,26 @@ Step 6 : Run Virtual Machine
 ----------------------------
 
 Execute the following command to run the virtual machine.
-First assign a floating ip.
+First assign a floating ip. ::
 
 $ cm vm ip assign
 
-Run the virtual machine.
+Run the virtual machine. ::
 
 $ cm vm ssh
 
-After a successful launch it will show a similar console as shown below.
+After a successful launch it will show a similar console as shown below. ::
 
 cc@hostname$-
 
 
 Step 7 : Remove Virtual Machine
 
-To delete a virtual machine, run the following command.
+To delete a virtual machine, run the following command. ::
 
 $ cm vm delete <name_of_vm>
 
-Example :
+Example : ::
 
 $ cm vm delete vibhatha-001
 
