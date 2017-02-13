@@ -1434,7 +1434,7 @@ In-memory databases/caches
      times (1ms) and hundreds of thousands of transactions per
      second. VoltDB allows users to ingest data, analyze data, and act
      on data in milliseconds, allowing users to create per-person,
-     real-time experiences.:cite:`voltdb-wiki`
+     real-time experiences :cite:`voltdb-wiki`. 
 
 191. H-Store
 
