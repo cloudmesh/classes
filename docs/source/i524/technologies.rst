@@ -291,6 +291,23 @@ Application and Analytics
 39. ImageJ
 40. OpenCV
 41. Scalapack
+
+	ScaLAPACK is a library of high-performance linear algebra routines for 
+	parallel distributed memory machines. It solves dense and banded linear
+	systems, least squares problems, eigenvalue problems, and singular 
+	value problems. It is designed for heterogeneous computing and is 
+	portable on any computer that supports Message Passing Interface or 
+	Parallel Virtual Machine. :cite:`git-Scalapack`
+
+	ScaLAPACK is a open source software package and is available from netlib 
+	via anonymous ftp and the World Wide Web at 
+	http://www.netlib.org/scalapack. It contains driver routines  for 
+	solving standard types of problems, computational routines  to perform a 
+	distinct computational task, and auxiliary routines  to perform a certain
+	subtask or common low-level computation. ScaLAPACK routines are based on 
+	block-partitioned algorithms in order to minimize the frequency of data 
+	movement between different levels of the memory hierarchy.
+
 42. PetSc
 43. PLASMA MAGMA
 44. Azure Machine Learning
@@ -792,6 +809,17 @@ Application Hosting Frameworks
 99. OSGi
 100. HUBzero
 101. OODT
+
+	The Apache Object Oriented Data Technology (OODT) is an open source data 
+	management system framework. OODT was originally developed at NASA Jet 
+	Propulsion Laboratory to support capturing, processing and sharing of data
+	for NASA's scientific archives. OODT focuses on two canonical use cases: 
+	Big Data processing and on Information integration. It facilitates the 
+	integration of highly distributed and heterogeneous data intensive systems
+	enabling the integration of different, distributed software systems, 
+	metadata and data. OODT is written in the Java, and through its REST API 
+	used in other languages including Python. :cite:`git-OOTD`
+
 102. Agave
 103. Atmosphere
 
@@ -920,6 +948,22 @@ High level Programming
 	 
 
 113. HadoopDB
+
+	HadoopDB is a hybrid of parallel database and MapReduce technologies. It 
+	approaches parallel databases in performance and efficiency, yet still 
+	yields the scalability, fault tolerance, and flexibility of MapReduce 
+	systems. It is a free and open source parallel DBMS. The basic idea behind
+	it is to give Hadoop access to multiple single-node DBMS servers 
+	(eg. PostgreSQL or MySQL) deployed across the cluster. It pushes as much 
+	as possible data processing into the database engine by issuing SQL queries
+	which results in resembling a shared-nothing cluster of 
+	machines. :cite:`git-HadoopDB`
+
+	HadoopDB is more scalable than currently available parallel database 
+	systems and DBMS/MapReduce hybrid systems. It has been demonstrated on 
+	clusters with 100 nodes and should scale as long as Hadoop scales, while 
+	achieving superior performance on structured data analysis workloads.
+
 114. PolyBase
 115. Pivotal HD/Hawq
 116. Presto
@@ -3467,6 +3511,20 @@ Message and Data Protocols
 
 377. Avro
 378. Thrift
+
+	The Apache Thrift software framework, for scalable cross-language services 
+	development, combines a software stack with a code generation engine to 
+	build services that work efficiently and seamlessly between C++, Java, 
+	Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, 
+	Smalltalk, OCaml and Delphi and other languages. It includes a complete 
+	stack for creating clients and servers. It includes a server infrastructure
+	to tie the protocols and transports together. There are blocking, 
+	non-blocking, single and multithreaded servers available.
+
+	Thrift was originally developed at Facebook, it was open sourced in April 
+	2007 and entered the Apache Incubator in May, 2008. It became an Apache TLP
+	in October, 2010. :cite:`git-Thrift`
+
 379. Protobuf
 
      Protocol Buffer :cite:`www-protobuf` is a way to serialize
