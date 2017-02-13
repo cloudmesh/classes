@@ -1308,17 +1308,18 @@ Inter process communication Collectives
      push notifications to iOS, Windows, Fire OS and Android OS
      devices.
 
-     According to :cite:`sns-blog`,Topics are named groups of events or
-     access points, each identifying a specific subject, content, or event
-     type. Each topic has a unique identifier (URI) that identifies the SNS
-     endpoint for publishing and subscribing.Owners create topics and
-     control all access to the topic. The owner can define the permissions
-     for all of the topics that they own.Subscribers are clients
-     (applications, end-users, servers, or other devices) that want to
-     receive notifications on specific topics of interest to
-     them.Publishers send messages to topics. SNS matches the topic with
-     the list of subscribers interested in the topic, and delivers the
-     message to each and every one of them.
+     According to :cite:`sns-blog`,SNS system architecture
+     consists of four elements: Topics, Owners, Publishers and
+     Subscribers. Topics are events or access points that identifies
+     the subject of the event and can be accessed by an unique
+     identifier (URI).Owners create topics and control all access to
+     the topic and define the corressponding permission for each
+     Topic.  Subscribers are clients (applications, end-users,
+     servers, or other devices) that want to receive messages or
+     notifications on specific topics of interest to them.Publishers
+     send messages to topics. SNS matches the topic with the list of
+     subscribers interested in the topic, and delivers the message to
+     each and every one of them.
 
      According to :cite:`sns-faq`, Amazon SNS follows pay as per usage. In
      general it is $0.50 per 1 million Amazon SNS Requests.Amazon SNS
