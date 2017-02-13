@@ -88,6 +88,9 @@ The following parameters has to be replaced with correspoding values.
    OS_PROJECT_NAME: TBD
    OS_USERNAME: TBD
 
+Make sure you are following the above url.
+And after replacing all the TBD values, the confiuguration should look like
+as follows.
 
 example configuration
 ::
@@ -102,14 +105,10 @@ Make sure the TENANT_NAME: CH-818664.
 You must be a member of the project in the Chameleon cloud, in order to 
 gain access to the virtual machines. 
 
-Note : Replace all TBD values with correct values (only in profile section and chameleon cloud section).
+.. Note:: Replace all TBD values with correct values (only in profile section and chameleon cloud section).
 
 
 http://cloudmesh.github.io/client/configuration.html#chameleon-cloud
-
-Make sure you are following the above url.
-And after replacing all the TBD values, the confiuguration should look like
-as follows.
 
 
 Step 4 : Setting Up Virtual Machine
@@ -194,12 +193,10 @@ Example :
    
    $ cm vm delete vibhatha-001
 
-Note :
-
-No inside directories, just create everythin in the home directory.
-Or a work directory in the home directory. Make sure work in the same
-directory when executing commands. And make sure you are in the right directory 
-when you are executing commands. We do this in order to minimize complications 
-and add the correct cloudmesh.yaml file for the task.You should edit the right way.
-(never use cd when doing this)
+.. Note:: No inside directories, just create everythin in the home directory.
+   Or a work directory in the home directory. Make sure work in the same
+   directory when executing commands. And make sure you are in the right directory 
+   when you are executing commands. We do this in order to minimize complications 
+   and add the correct cloudmesh.yaml file for the task.You should edit the right way.
+   (never use cd when doing this)
 
