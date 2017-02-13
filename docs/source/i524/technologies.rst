@@ -5648,7 +5648,7 @@ Interoperability
 306. Whirr
 
      Apache Whirr is a set of libraries for running cloud services as in
-     :cite:`www-apache-whirr`, which provides a cloud-neutral way to run
+     :cite:`www-ApacheWhirr`, which provides a cloud-neutral way to run
      services. This is achieved by using cloud-neutral provisioning and storage
      libraries such as jclouds, libcloud. Whirr's API should be built on top
      these libraries and is not exposed to the users. It is also a common service
@@ -5657,7 +5657,7 @@ Interoperability
      system can run quickly, while still being able to override settings as needed.
      Whirr can also be used as a command line tool for deploying clusters. It uses
      low level API libraries to work with providers which was mentioned in the
-     :cite:`www-slideshare-apache-whirr`
+     :cite:`www-slideshare-ApacheWhirr`
 
      
 307. Saga
