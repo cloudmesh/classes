@@ -955,8 +955,8 @@ High level Programming
 	 systems. It is a free and open source parallel DBMS. The basic idea behind
 	 it is to give Hadoop access to multiple single-node DBMS servers 
 	 (eg. PostgreSQL or MySQL) deployed across the cluster. It pushes as much 
-	 as possible data processing into the database engine by issuing SQL queries
-	 which results in resembling a shared-nothing cluster of 
+	 as possible data processing into the database engine by issuing SQL 
+	 queries which results in resembling a shared-nothing cluster of 
 	 machines. :cite:`git-HadoopDB`
      
 	 HadoopDB is more scalable than currently available parallel database 
@@ -1433,12 +1433,12 @@ Inter process communication Collectives
 	 files it finds there, to restore state to the way it was when it last 
 	 shutdown (or was killed or died).
 
-	 Kestrel uses a pull-based data aggregator system that convey data without 
+	 Kestrel uses a pull-based data aggregator system that convey data without
 	 prior definition on its destination. So the destination can be defined 
-	 later on either storage system, like HDFS or NoSQL, or processing system, 
+	 later on either storage system, like HDFS or NoSQL, or processing system,
 	 like storm and sppark streaming. Each server handles a set of reliable, 
-	 ordered message queues. When you put a cluster of these servers together, 
-	 with no cross communication, and pick a server at random whenever you do 
+	 ordered message queues. When you put a cluster of these servers together,
+	 with no cross communication, and pick a server at random whenever you do
 	 a set or get, you end up with a reliable, loosely ordered message 
 	 queue :cite:`git-kestrel`.
 
