@@ -2907,10 +2907,8 @@ File management
      been designed to address limitations of netCDF version 3 while preserving 
      useful forms of compatibility with existing application software and data 
      archives :cite:`paper-netCDF`. 
-     NetCDF consists of:
-        • A conceptual data model 
-	• A set of binary data formats 
-	• A set of APIs for C/Fortran/Java 
+     NetCDF consists of: a) A conceptual data model b) A set of binary data 
+     formats c) A set of APIs for C/Fortran/Java 
 
 256. CDF
 257. HDF
