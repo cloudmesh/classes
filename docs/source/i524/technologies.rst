@@ -1308,13 +1308,13 @@ Inter process communication Collectives
      push notifications to iOS, Windows, Fire OS and Android OS
      devices.
 
-     According to :cite:`sns-blog`,SNS system architecture
-     consists of four elements: Topics, Owners, Publishers and
-     Subscribers. Topics are events or access points that identifies
+     According to :cite:`sns-blog`SNS system architecture consists 
+     of four elements: (1) Topics, (2) Owners, (3) Publishers, and
+     (4) Subscribers. Topics are events or access points that identifies
      the subject of the event and can be accessed by an unique
-     identifier (URI).Owners create topics and control all access to
+     identifier(URI). Owners create topics and control all access to
      the topic and define the corressponding permission for each
-     Topic.  Subscribers are clients (applications, end-users,
+     topic. Subscribers are clients (applications, end-users,
      servers, or other devices) that want to receive messages or
      notifications on specific topics of interest to them.Publishers
      send messages to topics. SNS matches the topic with the list of
