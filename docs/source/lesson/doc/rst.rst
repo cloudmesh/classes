@@ -33,6 +33,14 @@ This way you can look at the source on how we create this page.
 Sections
 ----------------------------------------------------------------------   
 
+
+# with overline, for parts
+* with overline, for chapters
+=, for sections
+-, for subsections
+^, for subsubsections
+", for paragraphs
+
 RST allows to specify a number of sections. You can do this with the
 various underlines::
 
