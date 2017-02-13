@@ -43,8 +43,7 @@ examples :
 
 First the profile section must be updated as follows. 
 ::
-   fix:dev: added code format to cloudmesh installation
-   profile:
+    profile:
           firstname: TBD
           lastname: TBD
           email: TBD
