@@ -14,7 +14,7 @@ In order to make sure cloudmesh is running properly, enter cm in your command li
 It will show a terminal in the following way. 
 
 ::
-cm> 
+   cm> 
 
 Step 2 : Setting Up Profile
 ---------------------------
