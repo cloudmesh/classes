@@ -451,6 +451,7 @@ Application and Analytics
     developed for general machine learning applications, mlpy has special
     applications in computational biology, particularly in functional
     genomics modeling.
+    
 47. scikit-learn
 
     Scikit-learn is an open source library that provides simple and
@@ -3120,7 +3121,8 @@ Interoperability
      services, and related products of different cloud service
      providers. Container API allows users to deploy containers on to
      container virtualization platforms. Libcloud supports Python 2,
-     Python 3 and PyPy. `
+     Python 3 and PyPy.
+     
 302. JClouds
 
      :cite:`cloud-portability-book` Primary goals of cross-platform
@@ -3466,6 +3468,7 @@ DevOps
      cAdvisor. Kunernetes makes it easier to run application on public
      and private clouds. It is also said to be self-healing due to
      features like auto-restart and auto-scaling.
+     
 330. Buildstep
      
      Buildsteps is an open software developed under MIT license. 
