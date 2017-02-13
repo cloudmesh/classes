@@ -390,6 +390,37 @@ Application and Analytics
 41. Scalapack
 42. PetSc
 43. PLASMA MAGMA
+
+    PLASMA is built to address the performance shortcomings of the LAPACK and
+    ScaLAPACK libraries on multicore processors and multi-socket systems of
+    multicore processors and their inability to efficiently utilize accelerators
+    such as Graphics Processing Units (GPUs). Real arithmetic and complex
+    arithmetic are supported in both single precision and double precision.
+    PLASMA has been designed by restructuring the software to achieve much
+    greater efficiency, where possible, on modern computers based on multicore
+    processors. PLASMA does not support band matrices and does not solve
+    eigenvalue and singular value problems. Also, PLASMA does not replace
+    ScaLAPACK as software for distributed memory computers, since it only
+    supports shared-memory machines. :cite:`paper-plasma-magma-1` :cite:`www-plasma-1`
+    Recent activities of major chip manufacturers, such as Intel, AMD, IBM and
+    NVIDIA, make it more evident than ever that future designs of
+    microprocessors and large HPC systems will be hybrid/heterogeneous in
+    nature, relying on the integration (in varying proportions) of two major
+    types of components: :cite:`paper-plasma-magma-2` :cite:`paper-plasma-magma-3`
+    1. Many-cores CPU technology, where the number of cores will continue to
+    escalate because of the desire to pack more and more components on a chip
+    while avoiding the power wall, instruction level parallelism wall, and the
+    memory wall;
+    2. Special purpose hardware and accelerators, especially Graphics Processing
+    Units (GPUs), which are in commodity production, have outpaced standard CPUs
+    in floating point performance in recent years, and have become as easy, if
+    not easier to program than multicore CPUs.
+    While the relative balance between these component types in future designs
+    is not clear, and will likely to vary over time, there seems to be no doubt
+    that future generations of computer systems, ranging from laptops to
+    supercomputers, will consist of a composition of heterogeneous components.
+    :cite:`paper-plasma-magma-4`:cite:`paper-plasma-magma-5`:cite:`paper-plasma-magma-6`
+
 44. Azure Machine Learning
     
     Azure Machine Learning is a cloud based service that can be used
@@ -945,6 +976,21 @@ Application Hosting Frameworks
     services since January 30, 2016. Refer :cite:`www-ninefoldSite`
 
 91. Jelastic
+
+    Jelastic (acronym for Java Elastic) is an unlimited PaaS and Container based
+    IaaS within a single platform that provides high availability of
+    applications, automatic vertical and horizontal scaling via containerization
+    to software development clients, enterprise businesses, DevOps, System
+    Admins, Developers, OEMs and web hosting providers. :cite:`www-jelastic-2` 
+    Jelastic is a Platform-as-Infrastructure provider of Java and PHP hosting. 
+    It has international hosting partners and data centers. The company can add 
+    memory, CPU and disk space to meet customer needs. The main competitors of 
+    Jelastic are Google App Engine, Amazon Elastic Beanstalk, Heroku, and Cloud 
+    Foundry.Jelastic is unique in that it does not have limitations or code 
+    change requirements, and it offers automated vertical scaling, application
+    lifecycle management, and availability from multiple hosting providers
+    around the world. :cite:`www-jelastic-1`
+
 92. Stackato
 93. appfog
 
@@ -1299,6 +1345,32 @@ Streams
      
 128. S4
 129. Samza
+
+     Apache Samza is an open-source near-realtime, asynchronous computational 
+     framework for stream processing developed by the Apache Software 
+     Foundation in Scala and Java. :cite:`www-samza-3`
+     Apache Samza is a distributed stream processing framework. It uses Apache
+     Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance,
+     processor isolation, security, and resource management. Samza processes
+     streams. A stream is composed of immutable messages of a similar type or
+     category. Messages can be appended to a stream or read from a stream.
+     Samza supports pluggable systems that implement the stream abstraction:
+     in Kafka a stream is a topic, in a database we might read a stream by
+     consuming updates from a table, in Hadoop we might tail a directory of
+     files in HDFS. Samza is a stream processing framework. Samza provides a
+     very simple callback-based “process message” API comparable to MapReduce.
+     Samza manages snapshotting and restoration of a stream processor’s state.
+     Samza is built to handle large amounts of state (many gigabytes per
+     partition). :cite:`www-samza-1` Whenever a machine in the cluster fails, 
+     Samza works with YARN to transparently migrate your tasks to another      
+     machine. Samza uses Kafka to guarantee that messages are processed in the  
+     order they were written to a partition, and that no messages are ever lost. 
+     Samza is partitioned and distributed at every level. Kafka provides  
+     ordered, partitioned, replayable, fault-tolerant streams. YARN provides a 
+     distributed environment for Samza containers to run in. Samza works with   
+     Apache YARN, which supports Hadoop’s security model, and resource isolation 
+     through Linux CGroups :cite:`www-samza-4` :cite:`www-samza-3`.
+
 130. Granules
 
      Granules in used for execution or processing of data streams in 
@@ -3145,6 +3217,42 @@ File systems
 
 	
 298. Azure Blob
+
+     Azure Blob storage is a service that stores unstructured data in the cloud
+     as objects/blobs. Blob storage can store any type of text or binary data,
+     such as a document, media file, or application installer :cite:`www-azure-3`
+     Blob storage is also referred to as object storage. The word ‘Blob’ expands 
+     to Binary Large OBject. There are three types of blobs in the service offe-
+     red by Windows Azure namely block, append and page blobs. :cite:`www-azure-2`
+     1. Block blobs are collection of individual blocks with unique block ID.
+     The block blobs allow the users to upload large amount of data.
+     2. Append blobs are optimized blocks that helps in making the operations
+     efficient.
+     3. Page blobs are compilation of pages. They allow random read and write
+     operations. While creating a blob, if the type is not specified they are
+     set to block type by default. All the blobs must be inside a container in
+     your storage.
+     Azure Blob storage is a service for storing large amounts of unstructured
+     object data, such as text or binary data, that can be accessed from
+     anywhere in the world via HTTP or HTTPS. You can use Blob storage to expose
+     data publicly to the world, or to store application data privately. Common
+     uses of Blob storage include serving images or documents directly to a
+     browser, storing files for distributed access, streaming video and audio,
+     storing data for backup and restore, disaster recovery, and archiving and
+     storing data for analysis by an on-premises or Azure-hosted service.
+     Azure Storage is massively scalable and elastic with an auto-partitioning
+     system that automatically load-balances your data. Blob storage is a
+     specialized storage account for storing your unstructured data as blobs
+     (objects) in Azure Storage. Blob storage is similar to existing
+     general-purpose storage accounts and shares all the great durability,
+     availability, scalability, and performance features. Blob storage has two
+     types of access tiers that can be specified, hot access tier, which will be
+     accessed more frequently, and a cool access tier, which will be less
+     frequently accessed. There are many reasons why you should consider using
+     BLOB storage. Perhaps you want to share files with clients, or off-load
+     some of the static content from your web servers to reduce the load on
+     them. :cite:`www-azure-3`
+
 299. Google Cloud Storage
 
      Google Cloud Storage is the cloud enabled storage offered by
@@ -3670,6 +3778,45 @@ IaaS Management from HPC to hypervisors
 342. Hyper-V
 343. VirtualBox
 344. OpenVZ
+
+     OpenVZ (Open Virtuozzo) is an operating system-level virtualization
+     technology for Linux. It allows a physical server to run multiple isolated
+     operating system instances, called containers, virtual private servers, or
+     virtual environments (VEs). OpenVZ is similar to Solaris Containers and
+     LXC. :cite:`www-openvz-3` While virtualization technologies like VMware and 
+     Xen provide full virtualization and can run multiple operating systems and 
+     different kernel versions, OpenVZ uses a single patched Linux kernel and 
+     therefore can run only Linux. All OpenVZ containers share the same archite-
+     cture and kernel version. This can be a disadvantage in situations where 
+     guests require different kernel versions than that of the host. However, as
+     it does not have the overhead of a true hypervisor, it is very fast and 
+     efficient. Memory allocation with OpenVZ is soft in that memory not used in 
+     one virtual environment can be used by others or for disk caching. :cite:`www-openvz-2`
+     While old versions of OpenVZ used a common file system (where each virtual 
+     environment is just a directory of files that is isolated using chroot), 
+     current versions of OpenVZ allow each container to have its own file system. 
+     OpenVZ has four main features, :cite:`www-openvz-1`
+     1. OS virtualization: A container (CT) looks and behaves like a regular
+     Linux system. It has standard startup scripts; software from vendors can
+     run inside a container without OpenVZ-specific modifications or adjustment;
+     A user can change any configuration file and install additional software;
+     Containers are completely isolated from each other and are not bound to
+     only one CPU and can use all available CPU power.
+     2. Network virtualization: Each CT has its own IP address and CTs are
+     isolated from the other CTs meaning containers are protected from each
+     other in the way that makes traffic snooping impossible; Firewalling may
+     be used inside a CT
+     3. Resource management: All the CTs are use the same kernel. OpenVZ
+     resource management consists of four main components: two-level disk quota,
+     fair CPU scheduler, disk I/O scheduler, and user beancounters.
+     4. Checkpointing and live migration: Checkpointing allows to migrate a
+     container from one physical server to another without a need to
+     shutdown/restart a container. This feature makes possible scenarios such as
+     upgrading your server without any need to reboot it: if your database needs
+     more memory or CPU resources, you just buy a newer better server and live
+     migrate your container to it, then increase its limits.
+
+
 345. LXC
      
      LXC (Linux Containers) is an operating-system-level
