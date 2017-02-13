@@ -69,9 +69,10 @@ Step 3 :Setting Up Chamellion Cloud
 
 In the cloudmesh.yaml file, set chameleon cloud as the active cloud
 as shown below. Locate the attribute value in the 
-
-active:
-  - chameleon
+::
+   
+   active:
+    - chameleon
 
 Go to the following link and you can find the information regarding,
 the chameleon cloud setup. 
@@ -79,21 +80,22 @@ the chameleon cloud setup.
 http://cloudmesh.github.io/client/configuration.html#chameleon-cloud
 
 The following parameters has to be replaced with correspoding values.
- 
-OS_PASSWORD: TBD
-OS_TENANT_NAME: TBD
-OS_TENANT_ID: TBD
-OS_PROJECT_NAME: TBD
-OS_USERNAME: TBD
+::
+   
+   OS_PASSWORD: TBD
+   OS_TENANT_NAME: TBD
+   OS_TENANT_ID: TBD
+   OS_PROJECT_NAME: TBD
+   OS_USERNAME: TBD
 
 
 example configuration
-
-OS_PASSWORD: NOTMYPASSWORD
-OS_TENANT_NAME: CH-818664
-OS_TENANT_ID: CH-818664
-OS_PROJECT_NAME: CH-818664
-OS_USERNAME: vibhatha
+::
+   OS_PASSWORD: NOTMYPASSWORD
+   OS_TENANT_NAME: CH-818664
+   OS_TENANT_ID: CH-818664
+   OS_PROJECT_NAME: CH-818664
+   OS_USERNAME: vibhatha
 
 
 Make sure the TENANT_NAME: CH-818664.
