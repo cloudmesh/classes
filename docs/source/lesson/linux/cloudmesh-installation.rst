@@ -32,7 +32,7 @@ After setting up cloudmesh client locally, the yaml file
 can be opened by running the following command. You can use
 vim or vi instead of emacs to run this. ::
 
-emacs ~/.cloudmesh/cloudmesh.yaml
+  emacs ~/.cloudmesh/cloudmesh.yaml
 
 examples : 
 ::
