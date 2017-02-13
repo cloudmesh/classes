@@ -660,6 +660,24 @@ Application and Analytics
 71. Graylog
 72. Splunk
 73. Tableau
+
+    :cite:`www-tableau-tutorial` Tableau is a family of interactive data visualization products 
+    focused on business intelligence. The different products which 
+    tableau has built are: Tableau Desktop, for individual use; 
+    Tableau Server for collaboration in an organization; Tableau 
+    Online, for Business Intelligence in the Cloud; Tableau Reader, 
+    for reading files saved in Tableau Desktop; Tableau Public, for 
+    journalists or anyone to publish interactive data online.
+    :cite:`www-tableau-web` Tableau uses VizQL as a  visual query language for translating 
+    drag-and-drop actions into data queries and later expressing the 
+    data visually. Tableau also benefits from an Advanced In-Memory 
+    Technology for handling large amounts of data. 
+    The strengths of Tableau are mainly the ease of use and speed. 
+    However, it has a number of limitations, which the most prominent 
+    are unfitness for broad business and technical user, being 
+    closed-source, no predictive analytical capabilities and no support 
+    for expanded analytics.
+
 74. D3.js
 75. three.js
 76. Potree
@@ -1449,6 +1467,28 @@ Inter process communication Collectives
 
 172. Kestrel
 173. JMS
+
+     JMS (Java Messaging Service) is a java oriented messaging standard
+     that defines a set of interfaces and semantics which allows
+     applications to send, receive, create, and read messages.  It allows
+     the communication between different components of a distributed
+     application to be loosely coupled, reliable, and
+     asynchronous. :cite:`www-jms-wiki` JMS overcomes the drawbacks of RMI
+     (Remote Method Invocation) where the sender needs to know the method
+     signature of the remote object to invoke it and RPC(Remote Procedure
+     Call), which is tightly coupled i.e it cannot function unless the
+     sender has important information about the receiver.
+
+     JMS establishes a standard that provides loosely coupled communication
+     i.e the sender and receiver need not be present at the same time or
+     know anything about each other before initiating the communication.
+     JMS provides two communication domains.A point-to-point messaging
+     domain where there is one producer and one consumer. On generating
+     message, a producer simple pushes the message to a message queue which
+     is known to the consumer. The other communication domain is
+     publish/subscribe model, where one message can have multiple
+     receivers. :cite:`www-jms-oracle-docs`
+
 174. AMQP
 
      :cite:`www-amqp` AMQP stands for Advanced Message Queueing
@@ -3050,6 +3090,29 @@ DevOps
 
 320. Foreman
 321. OpenStack Heat
+
+Openstack Heat, a template deployment service was the project launched
+by Openstack, a cloud operating system similar to AWS Cloud
+Formation. :cite:`www-heat-blog-introduction` states - Heat is an
+orchestration service which allows us to define resources over the
+cloud and connections amongst them using a simple text file called
+referred as a ‘template’. "A Heat template describes the
+infrastructure for a cloud application in a text file that is readable
+and writable by humans, and can be checked into version control"
+:cite:`www-heat-wiki`
+
+Once the execution enviroment has been
+setup and a user wants to modify the architecture of resources in the
+future, a user needs to simply change the template and check it
+in. Heat shall make the necessary changes. Heat provides 2 types of
+template - HOT(Heat Orchestration Template) and CFN (AWS Cloud
+Formation Template). The HOT can be defined as YAML and is not
+compatible with AWS. The CFN is expressed as JSON and follows the
+syntax of AWS Cloud Formation and thus is AWS compatible. Further,
+heat provides an additional @parameters section in its template which
+can be used to parameterize resources to make the template generic.
+
+     
 322. Sahara
 
      The Sahara product provides users with the capability to
