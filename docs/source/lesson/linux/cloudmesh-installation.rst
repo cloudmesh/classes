@@ -6,8 +6,9 @@ install the latest updates.
 
 Step 1 : Installation Cloudmesh Client
 --------------------------------------
-::
-pip install -U cloudmesh_client
+Install cloudmesh client using pip ::
+   
+  pip install -U cloudmesh_client
 
 In order to make sure cloudmesh is running properly, enter cm in your command line.
 It will show a terminal in the following way. 
