@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Paper 1 Homework &#8212; Big Data Classes</title>
+    <title>Python Homework &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -261,13 +261,19 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Paper 1 Homework</a><ul>
-<li><a class="reference internal" href="#writing-the-paper">Writing the Paper</a><ul>
-<li><a class="reference internal" href="#document-structure">Document Structure</a></li>
-<li><a class="reference internal" href="#writing-style">Writing Style</a></li>
+<li><a class="reference internal" href="#">Python Homework</a><ul>
+<li><a class="reference internal" href="#cmd-module"><cite>cmd</cite> Module</a><ul>
+<li><a class="reference internal" href="#hello-world-with-cmd"><em>Hello, World</em> with <cite>cmd</cite></a></li>
+<li><a class="reference internal" href="#a-more-involved-example">A More Involved Example</a></li>
+<li><a class="reference internal" href="#help-messages">Help Messages</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#submission">Submission</a></li>
+<li><a class="reference internal" href="#exercises">Exercises</a><ul>
+<li><a class="reference internal" href="#exercise-1">Exercise 1</a></li>
+<li><a class="reference internal" href="#exercise-2">Exercise 2</a></li>
+<li><a class="reference internal" href="#exercise-3">Exercise 3</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -486,13 +492,19 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Paper 1 Homework</a><ul>
-<li><a class="reference internal" href="#writing-the-paper">Writing the Paper</a><ul>
-<li><a class="reference internal" href="#document-structure">Document Structure</a></li>
-<li><a class="reference internal" href="#writing-style">Writing Style</a></li>
+<li><a class="reference internal" href="#">Python Homework</a><ul>
+<li><a class="reference internal" href="#cmd-module"><cite>cmd</cite> Module</a><ul>
+<li><a class="reference internal" href="#hello-world-with-cmd"><em>Hello, World</em> with <cite>cmd</cite></a></li>
+<li><a class="reference internal" href="#a-more-involved-example">A More Involved Example</a></li>
+<li><a class="reference internal" href="#help-messages">Help Messages</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#submission">Submission</a></li>
+<li><a class="reference internal" href="#exercises">Exercises</a><ul>
+<li><a class="reference internal" href="#exercise-1">Exercise 1</a></li>
+<li><a class="reference internal" href="#exercise-2">Exercise 2</a></li>
+<li><a class="reference internal" href="#exercise-3">Exercise 3</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -533,81 +545,283 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="paper-1-homework">
-<span id="paper1-hw"></span><h1>Paper 1 Homework<a class="headerlink" href="#paper-1-homework" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">A video showing you how to get started on the paper is
-available on the <a class="reference external" href="https://www.youtube.com/watch?v=_q2TNpeGajQ">class YouTube account</a>.</p>
-</div>
-<p>In this homework you will write a short paper on one of the
-technologies that was assigned to you in the <a class="reference internal" href="technologies.html#techs-exercise"><span class="std std-ref">TechList homework</span></a>. In the process, you will learn how to write a basic
-<a class="reference external" href="https://www.latex-project.org/">LaTeX</a> document. LaTeX is a
-document type setting environment used for writing scientific papers in
-many fields, and it is what we will use to write all papers in the
-class. Even if you are not planning to work in academia, LaTeX is a
-very powerful tool and can be useful for typesetting other types of
-documents, such as magazine articles, CVs, resumes, books and so on.</p>
-<p><strong>Detailed instructions on the steps for obtaining the template and
-compiling it can be found in the homework submission repository at:</strong>
-<a class="reference external" href="https://github.com/cloudmesh/sp17-i524">https://github.com/cloudmesh/sp17-i524</a></p>
-<div class="section" id="writing-the-paper">
-<h2>Writing the Paper<a class="headerlink" href="#writing-the-paper" title="Permalink to this headline">¶</a></h2>
-<p>For the actual content of the paper, you need to write a two page
-overview of one of the technologies assigned to you in the TechList
-assignment. <em>The two pages refer to the amount of text you should
-write; references, figures and other similar items are not included.</em>
-Your intended audience should be someone who might not have specific
-technical background in the area of the technology, but who is a
-rigorous thinker and whose problem domain might benefit from it. Thus,
-the paper should provide context about the technology such as:</p>
+  <div class="section" id="python-homework">
+<h1><a class="toc-backref" href="#id1">Python Homework</a><a class="headerlink" href="#python-homework" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
 <ul class="simple">
-<li>Summarize the technology briefly</li>
-<li>What kind of problems has it been applied to successfully?</li>
-<li>What kind of infrastructure does it need?</li>
-<li>How does this technology relate to big data?</li>
-<li>What major big data projects have used this technology?</li>
-<li>If I were to be new to the technology, what resources exist to learn
-about it?</li>
-<li>What is the status and popularity of the tool?  Provide evidence, do
-not copy <em>advertisement</em> terms from the project..</li>
-<li>What other things are important that you came across?</li>
-<li>What are alternatives and how does the technology compare to them in
-terms of features, support, performance, etc.</li>
-<li>Make sure you have sufficient references (You need at least one, but
-as you may point to projects using the technology and learning
-material you probably have more, determine the most important once).</li>
+<li><a class="reference internal" href="#python-homework" id="id1">Python Homework</a><ul>
+<li><a class="reference internal" href="#cmd-module" id="id2"><cite>cmd</cite> Module</a><ul>
+<li><a class="reference internal" href="#hello-world-with-cmd" id="id3"><em>Hello, World</em> with <cite>cmd</cite></a></li>
+<li><a class="reference internal" href="#a-more-involved-example" id="id4">A More Involved Example</a></li>
+<li><a class="reference internal" href="#help-messages" id="id5">Help Messages</a></li>
 </ul>
-<div class="section" id="document-structure">
-<h3>Document Structure<a class="headerlink" href="#document-structure" title="Permalink to this headline">¶</a></h3>
-<p>Your paper should have an introduction and a conclusion, and use
-sections in the middle portion as needed to be easy to understand.</p>
+</li>
+<li><a class="reference internal" href="#exercises" id="id6">Exercises</a><ul>
+<li><a class="reference internal" href="#exercise-1" id="id7">Exercise 1</a></li>
+<li><a class="reference internal" href="#exercise-2" id="id8">Exercise 2</a></li>
+<li><a class="reference internal" href="#exercise-3" id="id9">Exercise 3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 </div>
-<div class="section" id="writing-style">
-<h3>Writing Style<a class="headerlink" href="#writing-style" title="Permalink to this headline">¶</a></h3>
-<p>Treat this as a scientific paper, so you should aim to inform and give
-a well-rounded overview of the subject matter. Do not use superlatives
-or adjectives that are more appropriate for an advertisement, such as
-<em>very</em>, <em>best</em>, <em>cutting-edge</em>, etc.</p>
-<p>In addition, non-trivial statements of fact or quantitative statements
-should be supported by other parts of your paper or by citations. For
-example, if you are asserting that tech A has more features than tech
-B, you can support this by including a table of features that you
-create or citing a paper that compared these technologies.</p>
-<p>For your citations, use the original source of a finding whenever
-possible. That is, if paper A states something and cites paper B as a
-source, and paper B cites paper C for the same claim, you need to look
-at paper C to make sure the claim is accurate and cite that paper.</p>
+<p>In this homework you need to complete a few simple Python
+exercises. Before you begin, please refer to the Python lessons on the
+course website:</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="../lesson/prg/python_intro.html"><span class="doc">Python Introduction</span></a></li>
+<li><a class="reference internal" href="../lesson/prg/python_big_data.html"><span class="doc">Python for Big Data</span></a></li>
+</ol>
+<div class="section" id="cmd-module">
+<h2><a class="toc-backref" href="#id2"><cite>cmd</cite> Module</a><a class="headerlink" href="#cmd-module" title="Permalink to this headline">¶</a></h2>
+<p>The Python <cite>cmd</cite> module contains a public class, <cite>Cmd</cite>, designed to be
+used as a base class for command processors such as interactive shells
+and other command interpreters.</p>
+<div class="section" id="hello-world-with-cmd">
+<h3><a class="toc-backref" href="#id3"><em>Hello, World</em> with <cite>cmd</cite></a><a class="headerlink" href="#hello-world-with-cmd" title="Permalink to this headline">¶</a></h3>
+<p>This example shows a very simple command interpreter that simply
+responds to the <cite>greet</cite> command.</p>
+<p>In order to demonstrate commands provided by <cite>cmd</cite>, let&#8217;s save the
+following program in a file called <cite>helloworld.py</cite>.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
+<span class="kn">import</span> <span class="nn">cmd</span>
+
+
+<span class="k">class</span> <span class="nc">HelloWorld</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Cmd</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;Simple command processor example.&#39;&#39;&#39;</span>
+
+    <span class="k">def</span> <span class="nf">do_greet</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">line</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello, </span><span class="si">%s</span><span class="s1">!&#39;</span> <span class="o">%</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello!&#39;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">do_EOF</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;bye, bye&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">True</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">HelloWorld</span><span class="p">()</span><span class="o">.</span><span class="n">cmdloop</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>A session with this program might look like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ python helloworld.py
+
+(Cmd) help
+
+Documented commands (type help &lt;topic&gt;):
+========================================
+help
+
+Undocumented commands:
+======================
+EOF  greet
+
+(Cmd) greet
+Hello!
+(Cmd) greet albert
+Hello, Albert!
+&lt;CTRL-D pressed&gt;
+(Cmd) bye, bye
+</pre></div>
+</div>
+<p>The <cite>Cmd</cite> class can be used to customize a subclass that becomes a
+user-defined command prompt. After you have executed your program,
+commands defined in your class can be used. Take note of the
+following in this example:</p>
+<ul class="simple">
+<li>The methods of the class of the form <cite>do_xxx</cite> implement the shell
+commands, with <cite>xxx</cite> being the name of the command. For example, in
+the <cite>HelloWorld</cite> class, the function <cite>do_greet</cite> maps to the <cite>greet</cite>
+on the command line.</li>
+<li>The <cite>EOF</cite> command is a special command that is executed when you
+press CTRL-D on your keyboard.</li>
+<li>As soon as any command method returns <cite>True</cite> the shell application
+exits. Thus, in this example the shell is exited by pressing CTRL-D,
+since the <cite>do_EOF</cite> method is the only one that returns <cite>True</cite>.</li>
+<li>The shell application is started by calling the <cite>cmdloop</cite> method of
+the class.</li>
+</ul>
+</div>
+<div class="section" id="a-more-involved-example">
+<h3><a class="toc-backref" href="#id4">A More Involved Example</a><a class="headerlink" href="#a-more-involved-example" title="Permalink to this headline">¶</a></h3>
+<p>Let&#8217;s look at a little more involved example. Save the following code
+in a file called <cite>calculator.py</cite>.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
+<span class="kn">import</span> <span class="nn">cmd</span>
+
+
+<span class="k">class</span> <span class="nc">Calculator</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Cmd</span><span class="p">):</span>
+     <span class="n">prompt</span> <span class="o">=</span> <span class="s1">&#39;calc &gt;&gt;&gt; &#39;</span>
+     <span class="n">intro</span> <span class="o">=</span> <span class="s1">&#39;Simple calculator that can do addition, subtraction, multiplication and division.&#39;</span>
+
+     <span class="k">def</span> <span class="nf">do_add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+             <span class="n">args</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+             <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+             <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">:</span>
+                     <span class="n">total</span> <span class="o">+=</span> <span class="nb">float</span><span class="p">(</span><span class="n">arg</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+             <span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+
+     <span class="k">def</span> <span class="nf">do_subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+             <span class="n">args</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+             <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+             <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                     <span class="n">total</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+             <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+                     <span class="n">total</span> <span class="o">-=</span> <span class="nb">float</span><span class="p">(</span><span class="n">arg</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+             <span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+
+     <span class="k">def</span> <span class="nf">do_EOF</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;bye, bye&#39;</span><span class="p">)</span>
+             <span class="k">return</span> <span class="kc">True</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+     <span class="n">Calculator</span><span class="p">()</span><span class="o">.</span><span class="n">cmdloop</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>A session with this program might look like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ python calculator.py
+Simple calculator that can do addition, subtraction, multiplication and division.
+calc &gt;&gt;&gt; help
+
+Documented commands (type help &lt;topic&gt;):
+========================================
+help
+
+Undocumented commands:
+======================
+EOF  add  subtract
+
+calc &gt;&gt;&gt; add
+0
+calc &gt;&gt;&gt; add 4 5 6
+15.0
+calc &gt;&gt;&gt; subtract
+0
+calc &gt;&gt;&gt; subtract 10 2
+8.0
+calc &gt;&gt;&gt; subtract 10 2 20
+-12.0
+calc &gt;&gt;&gt; bye, bye
+</pre></div>
+</div>
+<ul class="simple">
+<li>In this case we are using the <cite>prompt</cite> and <cite>intro</cite> class variables
+to define what the default prompt looks like and a welcome message
+when the command interpreter is invoked.</li>
+<li>In the <cite>add</cite> and <cite>subtract</cite> commands we are using the <cite>strip</cite> and
+<cite>split</cite> methods to parse all arguments. If you want to get fancy,
+you can use Python modules like <cite>getopts</cite> or <cite>argparse</cite> for this,
+but this is not necessary in this simple example.</li>
+</ul>
+</div>
+<div class="section" id="help-messages">
+<h3><a class="toc-backref" href="#id5">Help Messages</a><a class="headerlink" href="#help-messages" title="Permalink to this headline">¶</a></h3>
+<p>Notice that all commands presently show up as undocumented. To remedy
+this, we can define <cite>help_</cite> methods for each command:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
+<span class="kn">import</span> <span class="nn">cmd</span>
+
+
+<span class="k">class</span> <span class="nc">Calculator</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Cmd</span><span class="p">):</span>
+      <span class="n">prompt</span> <span class="o">=</span> <span class="s1">&#39;calc &gt;&gt;&gt; &#39;</span>
+      <span class="n">intro</span> <span class="o">=</span> <span class="s1">&#39;Simple calculator that can do addition, subtraction, multiplication and division.&#39;</span>
+
+      <span class="k">def</span> <span class="nf">do_add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+              <span class="n">args</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+              <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+              <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">:</span>
+                      <span class="n">total</span> <span class="o">+=</span> <span class="nb">float</span><span class="p">(</span><span class="n">arg</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+              <span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+
+      <span class="k">def</span> <span class="nf">help_add</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+              <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span>
+                      <span class="s1">&#39;add [number,]&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;Add the arguments together and display the total.&#39;</span>
+              <span class="p">]))</span>
+
+      <span class="k">def</span> <span class="nf">do_subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+              <span class="n">args</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+              <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+              <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                      <span class="n">total</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+              <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+                      <span class="n">total</span> <span class="o">-=</span> <span class="nb">float</span><span class="p">(</span><span class="n">arg</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+              <span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+
+      <span class="k">def</span> <span class="nf">help_subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+              <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span>
+                      <span class="s1">&#39;subtract [number,]&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;Subtract all following arguments from the first argument.&#39;</span>
+              <span class="p">]))</span>
+
+      <span class="k">def</span> <span class="nf">do_EOF</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+              <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;bye, bye&#39;</span><span class="p">)</span>
+              <span class="k">return</span> <span class="kc">True</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+      <span class="n">Calculator</span><span class="p">()</span><span class="o">.</span><span class="n">cmdloop</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Now, we can obtain help for the <cite>add</cite> and <cite>subtract</cite> commands:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ python calculator.py
+Simple calculator that can do addition, subtraction, multiplication and division.
+calc &gt;&gt;&gt; help
+
+Documented commands (type help &lt;topic&gt;):
+========================================
+add  help  subtract
+
+Undocumented commands:
+======================
+EOF
+
+calc &gt;&gt;&gt; help add
+add [number,]
+Add the arguments together and display the total.
+calc &gt;&gt;&gt; help subtract
+subtract [number,]
+Subtract all following arguments from the first argument.
+calc &gt;&gt;&gt; bye, bye
+</pre></div>
 </div>
 </div>
-<div class="section" id="submission">
-<h2>Submission<a class="headerlink" href="#submission" title="Permalink to this headline">¶</a></h2>
-<p>Submission of this assignment will be in Github as outlined
-above. Please, start early and raise any questions about the above
-process on Piazza and in the online office hours. Depending on how
-students are doing and what issues they are encountering, we will
-provide further resources to help you be successful in this
-assignment.</p>
+</div>
+<div class="section" id="exercises">
+<h2><a class="toc-backref" href="#id6">Exercises</a><a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
+<p>For more information on the use of <cite>cmd</cite>, please refer to
+<a class="reference external" href="https://pymotw.com/2/cmd/">https://pymotw.com/2/cmd/</a>.</p>
+<p>Now that you know a little about the <cite>cmd</cite> module, complete the
+following exercises:</p>
+<div class="section" id="exercise-1">
+<h3><a class="toc-backref" href="#id7">Exercise 1</a><a class="headerlink" href="#exercise-1" title="Permalink to this headline">¶</a></h3>
+<p>Finish implementing the <cite>Calculator</cite> class by adding <cite>multiply</cite> and
+<cite>divide</cite> methods.</p>
+</div>
+<div class="section" id="exercise-2">
+<h3><a class="toc-backref" href="#id8">Exercise 2</a><a class="headerlink" href="#exercise-2" title="Permalink to this headline">¶</a></h3>
+<p>Create a command-line interpreter, <cite>mycmd</cite>, that has the following
+commands:</p>
+<ol class="arabic simple">
+<li>deploy</li>
+<li>kill</li>
+<li>benchmark</li>
+<li>report</li>
+</ol>
+<p>Each command should simply print out its name to the screen.</p>
+</div>
+<div class="section" id="exercise-3">
+<h3><a class="toc-backref" href="#id9">Exercise 3</a><a class="headerlink" href="#exercise-3" title="Permalink to this headline">¶</a></h3>
+<p>In the <a class="reference internal" href="../lesson/prg/python_big_data.html"><span class="doc">tutorial on Python for big data</span></a>, you saw how to plot a histogram of
+the ages of people who received traffic citations in Q1 2016. Generate
+the same histogram with the <a class="reference external" href="http://pygal.org/en/stable/">pygal</a>
+Python module.</p>
+</div>
 </div>
 </div>
 
