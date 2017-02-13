@@ -14,6 +14,7 @@ In order to make sure cloudmesh is running properly, enter cm in your command li
 It will show a terminal in the following way. 
 
 ::
+   
    cm> 
 
 Step 2 : Setting Up Profile
@@ -36,9 +37,9 @@ vim or vi instead of emacs to run this. ::
 
 examples : 
 ::
-vim ~/.cloudmesh/cloudmesh.yaml
-vi ~/.cloudmesh/cloudmesh.yaml
-gedit ~/.cloudmesh/cloudmesh.yaml
+   vim ~/.cloudmesh/cloudmesh.yaml
+   vi ~/.cloudmesh/cloudmesh.yaml
+   gedit ~/.cloudmesh/cloudmesh.yaml
 
 First the profile section must be updated as follows. 
 
