@@ -300,8 +300,7 @@ Application and Analytics
 	 Parallel Virtual Machine. :cite:`git-Scalapack`
      
 	 ScaLAPACK is a open source software package and is available from netlib 
-	 via anonymous ftp and the World Wide Web at 
-	 http://www.netlib.org/scalapack. It contains driver routines  for 
+	 via anonymous ftp and the World Wide Web. It contains driver routines  for 
 	 solving standard types of problems, computational routines  to perform a 
 	 distinct computational task, and auxiliary routines  to perform a certain
 	 subtask or common low-level computation. ScaLAPACK routines are based on 
