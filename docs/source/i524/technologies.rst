@@ -206,6 +206,22 @@ Workflow-Orchestration
 26. Jitterbit
 27. Talend
 28. Pentaho
+
+    Pentaho is a business intelligence corporation that provides data
+    mining, reporting, dashboarding and data integration
+    capabilities. Generally, organizations tend to obtain meaningful
+    relationships and useful information from the data present with
+    them. Pentaho addresses the obstacles that obstruct them from
+    doing so :cite:`pent1`. The platform includes a wide range of
+    tools that analyze, explore, visualize and predict data easily
+    which simplifies blending any data. The sole objective of pentaho
+    is to translate data into value. Being an open and extensible
+    source, pentaho provides big data tools to extract, prepare and
+    blend any data :cite:`pent2`. Along with this, the visualizations
+    and analytics will help in changing the path that the
+    organizations follow to run their business. From spark and hadoop
+    to noSQL, pentaho transforms big data into big insights.
+
 29. Apatar
 30. Docker Compose
 
@@ -379,8 +395,42 @@ Application and Analytics
     conversations :cite:`WWW-Translation`.
 46. mlpy
 47. scikit-learn
+
+    Scikit-learn is an open source library that provides simple and
+    efficient tools for data analysis and data mining. It is
+    accessible to everybody and reusable in various contexts. It is
+    built on numpy, Scipy and matplotlib and is commercially usable as
+    it is distributed under many linux distributions
+    :cite:`scik1`. Through a consistent interface, scikit-learn
+    provides a wide range of learning algorithms. Scikits are the
+    names given to the modules for SciPy, a fundamental library for
+    scientific computing and as these modules provide different
+    learning algorithms, the library is named as sciki-learn
+    :cite:`scik2`. It provides an in-depth focus on code quality,
+    performance, collaboration and documentation. Most popular models
+    provided by scikit-learn include clustering, cross-validation,
+    dimensionality reduction, parameter tuning, feature selection and
+    extraction.
+
 48. PyBrain
 49. CompLearn
+
+    Complearn is a system that makes use of data compression
+    methodologies for mining patterns in a large amount of data. So,
+    it is basically a compression-based machine learning system. For
+    identifying and learning different patterns, it provides a set of
+    utilities which can be used in applying standard compression
+    mechanisms. The most important characteristic of complearn is its
+    power in mining patterns even in domains that are unrelated. It
+    has the ability to identify and classify the language of different
+    bodies of text :cite:`comp1`. This helps in reducing the work of
+    providing background knowledge regarding a particular
+    classification. It provides such generalization through a library
+    that is written in ANSI C which is portable and works in many
+    environments :cite:`comp1`. Complearn provides immediate to access
+    every core functionality in all the major languages as it is
+    designed to be extensible.
+
 50. DAAL(Intel)
 51. Caffe
 
@@ -3227,6 +3277,23 @@ can be used to parameterize resources to make the template generic.
 
 323. Rocks
 324. Cisco Intelligent Automation for Cloud
+
+     Cisco Intelligent automation for cloud desires to help different
+     service providers and software professionals in delivering highly
+     secure infrastructure as a service on demand. It provides a
+     foundation for organizational transformation by expanding the
+     uses of cloud technology beyond its infrastructure
+     :cite:`cis1`. From a single self-service portal, it automates
+     standard business processes and sophisticated data center which
+     is beyond the provision of virtual machines. Cisco Intelligent
+     automation for cloud is a unified cloud platform that can deliver
+     any type of service across mixed environments :cite:`cis2`. This
+     leads to an increase in cloud penetration across different
+     business and IT holdings. Its services range from underlying
+     infrastructure to anything-as-a-service by allowing its users to
+     evaluate, transform and deploy the IT and business services in a
+     way they desire.
+
 325. Ubuntu MaaS
 326. Facebook Tupperware
 327. AWS OpsWorks
@@ -3633,7 +3700,24 @@ Security & Privacy
 
 369. Sentry
 370. Sqrrl
-371. OpenID
+371. OpenID 
+
+     OpenID is an authentication protocol that allows users to log in
+     to different websites, which are not related, using the same
+     login credentials for each, i.e. without having to create
+     separate id and password for all the websites. The login
+     credentials used are of the existing account. The password is
+     known only to the identity provider and nobody else which
+     relieves the users’ concern about identity being known to an
+     insecure website. :cite:`ope1` It provides a mechanism that makes
+     the users control the information that can be shared among
+     multiple websites. OpenID is being adopted all over the web. Most
+     of the leading organizations including Microsoft, Facebook,
+     Google, etc. are accepting the OpenIDs :cite:`ope2`. It is an
+     open source and not owned by anyone. Anyone can use OpenID or be
+     an OpenID provider and there is no need for an individual to be
+     approved.
+
 372. SAML OAuth
 
      As explained in :cite:`SAML`, Security Assertion Markup Language
