@@ -1012,7 +1012,7 @@ High level Programming
      Cloud Bigtable, and BigQuery. The unified programming ability is
      another noteworthy feature which uses Apache Beam SDKs to support
      powerful operations like windowing and allows correctness control
-     to be applied to batch and stream data processes.
+     to be applied to batch and stream  data processes.
      
 125. Summingbird
 126. Lumberyard
