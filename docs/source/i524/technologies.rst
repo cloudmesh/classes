@@ -848,6 +848,39 @@ High level Programming
      
 
 108. Shark
+
+     Data Scientists when working on huge data sets try to extract meaning 
+and interpret the data to enhance insight about the various patterns, 
+oppurtunities and possiblities that the dataset has to offer. :cite: 
+'shark-paper-2012' At a traditional EDW(Enterprrise Data Warehouse) a 
+simple data manipulation can be perfpormed using SQL queries but we have 
+to rely on other systems to apply the machine learning on thoese 
+data.Apache Shark is a distributed query engine developed by the open 
+source community whoese goal is to provide a a unified system for easy 
+data manipulation using SQL and pushing sophisticated analysis towards 
+the data. 
+
+    :cite:'shark-paper-2012' Shark is a data Warehouse system built on
+    top of Apache Spark which does the parallel data execution and is
+    capable of deep data analysis using the Resilient Distributed
+    Datasets(RDD) memory abstraction which unifies the SQL query
+    processing engine with analytical algorithms based on this common
+    abstraction allowing the two to run in the same set of workers and
+    share intermediate data. Since RDDs are designed to scale
+    horizontally, it is easy to add or remove nodes to accommodate
+    more data or faster query processing thus it can be scaled to
+    thoushands o nodes in a fault-toleranat manner
+
+    :cite:'shark-paper-2012' "Shark is built on Hive Codebase and it
+    has the ability to execute HIVE QL queries up to 100 times faster
+    than Hive without making any change in the existing
+    queries". Shark can run both on the StandAlone Mode and Cluster
+    Mode.:cite:'shark-paper-2012' Shark can answer the queries 40X
+    faster than Apache Hive and can machine learning programs 25X
+    faster than MapReduce programmes. in Apache hadoop on large data
+    sets.Thus, this new data analysis system performs query processing
+    and complex analytics(iterative Machine learning) at scale and
+    efficiently recovers form the failures midway
 109. Phoenix
 
      In the first quarter of 2013, Salesforce.com released its
@@ -1518,6 +1551,37 @@ In-memory databases/caches
      have less memory than you need.
      
 185. Redis
+
+    Redis (Remote Dictionary Server) is an open source ,in-memory,
+    key-value database which is commonly referred as a data structure
+    server.  :cite:'redis-book-2011' "It is called a data structure
+    server and not simply a key-value store because Redis implements
+    datastructure which allows keys to contain binary safe strings
+    ,hashes,sets and sortedsets, as well as lists" .Redis’s
+    exceptional performance, simplicity to use and implement, and
+    atomic manipulation of data structures lends itself to solving
+    problems that are difficult or perform poorly when implemented
+    with traditional relational databases.  :cite:'redis-book-2016'
+    "Salivator Sanfilippo(Creator of open-sorce database Redis) makes
+    a strong case that Redis does not need to replace the existing
+    database but is an excellent addition to an enterprise for new
+    functionalities or to solve sometimes intyractable problems."
+
+    :cite:'redis-book-2016' A very popular use pattern for Redis is an
+    in-memory cache for web-applications. The second popular use
+    pattern for REDIS is for metric storage of such quantitative data
+    such as web page usage and user behaviour on gamer leaderboards
+    where using a bit operations on strings, Redis very efficently
+    stores binary information on a particular characteristics.The
+    third popular Redis use pattern is a communication layer between
+    different systems through a publish/subscribe(pub/sub for short),
+    where one can post message to one or more channels that can be
+    acted upon by other systems that are subscribed to or listening to
+    that channel for incoming message. The Comapnies using REDIS
+    includes Twitter to store the timelines of all the user ,
+    Pinterest stores the user follower graph, Github, popular web
+    frameworks like Node.js ,Django,Ruby-on-Rails etc.
+
 186. LMDB (key value)
 
      LMDB (Lighting memory-mapped Database) is a high performance embedded
