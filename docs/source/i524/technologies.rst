@@ -3524,6 +3524,7 @@ Message and Data Protocols
 	Thrift was originally developed at Facebook, it was open sourced in April 
 	2007 and entered the Apache Incubator in May, 2008. It became an Apache TLP
 	in October, 2010. :cite:`git-Thrift`
+	
 
 379. Protobuf
 
