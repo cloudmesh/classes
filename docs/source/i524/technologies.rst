@@ -1006,13 +1006,13 @@ High level Programming
      building pipelines. As stated in :cite:`dataconomy` the
      performance of MapReduce started deteriorating while facing
      multiplepetabytes of data whereas Google Cloud Dataflow is
-     apparently better at handling enormous datasets. Additionally
-     Google Dataflow can be integrated with Cloud Storage, Cloud
-     Pub/Sub, Cloud Datastore, Cloud Bigtable, and BigQuery. The
-     unified programming ability is another noteworthy feature which
-     uses Apache Beam SDKs to support powerful operations like
-     windowing and allows correctness control to be applied to batch
-     and stream data processes.
+     apparently better at handling enormous
+     datasets. :cite:`data_flow1` Additionally Google Dataflow can be
+     integrated with Cloud Storage, Cloud Pub/Sub, Cloud Datastore,
+     Cloud Bigtable, and BigQuery. The unified programming ability is
+     another noteworthy feature which uses Apache Beam SDKs to support
+     powerful operations like windowing and allows correctness control
+     to be applied to batch and stream data processes.
      
 125. Summingbird
 126. Lumberyard
