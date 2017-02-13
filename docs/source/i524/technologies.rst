@@ -290,6 +290,17 @@ Application and Analytics
 38. Bioconductor
 39. ImageJ
 40. OpenCV
+
+    OpenCV stands for Open source Computer Vision. It was designed for
+    computational efficiency and with a strong focus on real-time
+    applications. It has C++, C, Python and Java interfaces and
+    supports Windows, Linux, Mac OS, iOS and Android. It can take
+    advantage of the hardware acceleration of the underlying
+    heterogeneous compute platform as it is enabled with OpenCL(Open
+    Computing Language) :cite:`www-opencv`. OpenCV 3.2 is the latest
+    version of the software that is currently available
+    :cite:`opencv-version`.
+
 41. Scalapack
 42. PetSc
 43. PLASMA MAGMA
@@ -1205,6 +1216,19 @@ Basic Programming model and runtime, SPMD, MapReduce
      
 149. Disco
 150. Hama
+
+     Apache Hama is a framework for Big Data analytics which uses the
+     Bulk Synchronous Parallel (BSP) computing model, which was
+     established in 2012 as a Top-Level Project of The Apache Software
+     Foundation.It provides not only pure BSP programming model but
+     also vertex and neuron centric programming models, inspired by
+     Google's Pregel and DistBelief :cite:`apache-hama`. It avoids the
+     processing overhead of MapReduce approach such as sorting,
+     shuffling, reducing the vertices etc. Hama provides a message
+     passing interface and each superstep in BSP is faster than a full
+     job execution in MApReduce framework, such as Hadoop
+     :cite:`book-hama`.
+     
 151. Giraph
 152. Pregel
 153. Pegasus
@@ -2337,6 +2361,24 @@ File management
      Yahoo!
 
 261. ORC
+
+     ORC files were created as part of the initiative to massively
+     speed up Apache Hive and improve the storage efficiency of data
+     stored in Apache Hadoop. ORC is a self-describing type-aware
+     columnar file format designed for Hadoop workloads. It is
+     optimized for large streaming reads, but with integrated support
+     for finding required rows quickly. Storing data in a columnar
+     format lets the reader read, decompress, and process only the
+     values that are required for the current query. Because ORC files
+     are type-aware, the writer chooses the most appropriate encoding
+     for the type and builds an internal index as the file is
+     written.ORC files are divided in to stripes that are roughly 64MB
+     by default. The stripes in a file are independent of each other
+     and form the natural unit of distributed work. Within each
+     stripe, the columns are separated from each other so the reader
+     can read just the columns that are required :cite:`www-orc-docs`.
+
+     
 262. Parquet
 
      Apache parquet is the column Oriented data store for Apache
@@ -2438,7 +2480,7 @@ Data Transport
 
      Flume is distributed, reliable and available service for
      efficiently collecting, aggregating and moving large amounts of
-     log data :cite:`apche-flume. Flume was created to allow you to
+     log data :cite:`apche-flume`. Flume was created to allow you to
      flow data from a source into your Hadoop® environment.  In Flume,
      the entities you work with are called sources, decorators, and
      sinks. A source can be any data source, and Flume has many
@@ -2446,7 +2488,7 @@ Data Transport
      operation. A decorator is an operation on the stream that can
      transform the stream in some manner, which could be to compress
      or uncompress data, modify data by adding or removing pieces of
-     information, and more :cite: `ibm-flume`.
+     information, and more :cite:`ibm-flume`.
 
 269. Sqoop
      
@@ -3295,6 +3337,25 @@ IaaS Management from HPC to hypervisors
 
 353. rkt
 354. VMware ESXi
+
+     VMware ESXi (formerly ESX) is an enterprise-class, type-1
+     hypervisor developed by VMware for deploying and serving virtual
+     computers :cite:`wiki-vmwareESXi`. The name ESX originated as an
+     abbreviation of Elastic Sky X. ESXi installs directly onto your
+     physical server enabling it to be partitioned into multiple
+     logical servers referred to as virtual machines.  Management of
+     VMware ESXi is done via APIs. This allows for an “agent-less”
+     approach to hardware monitoring and system management. VMware
+     also provides remote command lines, such as the vSphere Command
+     Line Interface (vCLI) and PowerCLI, to provide command and
+     scripting capabilities in a more controlled manner. These remote
+     command line sets include a variety of commands for
+     configuration, diagnostics and troubleshooting. For low-level
+     diagnostics and the initial configuration, menu-driven and
+     command line interfaces are available on the local console of the
+     server :cite:`vmware-esxi`.
+     
+     
 355. vSphere and vCloud
 356. Amazon
 357. Azure
