@@ -3,6 +3,10 @@
 Paper 1 Homework
 =================================
 
+.. note:: A video showing you how to get started on the paper is
+          available on the `class YouTube account
+          <https://www.youtube.com/watch?v=_q2TNpeGajQ>`_.
+
 In this homework you will write a short paper on one of the
 technologies that was assigned to you in the :ref:`TechList homework
 <techs-exercise>`. In the process, you will learn how to write a basic
