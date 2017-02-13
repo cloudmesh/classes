@@ -994,6 +994,26 @@ High level Programming
      :cite:`www-google-code-wiki-sawzall`
 
 124. Google Cloud DataFlow
+     
+     Google Cloud DataFlow :cite:`data_flow1` is a unified programming
+     model that manages the deployment, maintenance and optimization
+     of data processes such as batch processing, ETL etc. It creates a
+     pipeline of tasks and dynamically allocates resources thereby
+     maintaining high efficiency and low latency. According to
+     :cite:`data_flow1`, these capabilities make it suitable for
+     solving challenging big data problems. Also, google DataFlow
+     overcomes the performance issues faced by Hadoops Mapreduce while
+     building pipelines. As stated in :cite:`dataconomy` the
+     performance of MapReduce started deteriorating while facing
+     multiplepetabytes of data whereas Google Cloud Dataflow is
+     apparently better at handling enormous datasets. Additionally
+     Google Dataflow can be integrated with Cloud Storage, Cloud
+     Pub/Sub, Cloud Datastore, Cloud Bigtable, and BigQuery. The
+     unified programming ability is another noteworthy feature which
+     uses Apache Beam SDKs to support powerful operations like
+     windowing and allows correctness control to be applied to batch
+     and stream data processes.
+     
 125. Summingbird
 126. Lumberyard
 
