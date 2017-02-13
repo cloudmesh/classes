@@ -21,6 +21,25 @@ Workflow-Orchestration
 2. ActiveBPEL
 3. Airavata
 4. Pegasus
+
+   The Pegasus :cite:`www-Pegasus` is workflow management system 
+   that alows to compose and execute a workflow in an application
+   in different environment without the need  for any 
+   modifications. It allows users to make high level workflow 
+   without thinking about the low level details. It locates
+   the required input data and computational resources automatically. 
+   Pegasus also maintains information about tasks done and data 
+   produced. In case of errors Pegasus tries to recover by retrying 
+   the whole workflow and providing check pointing at workflow-level. 
+   It cleans up the storage as the workflow gets executed so that 
+   data-intensive workflows can have enough required space to execute 
+   on storage-constrained resources. Some of the other advantages of 
+   Pegasus are:scalability, reliability and high performance. Pegasus 
+   has been used in many scientific domains like astronomy, 
+   bioinformatics, earthquake science , ocean science, gravitational 
+   wave physics and others.
+
+
 5. Kepler
 6. Swift
 7. Taverna
@@ -707,6 +726,21 @@ Application Hosting Frameworks
     online, on-premise and open source project options.
     
 83. Heroku
+
+    Heroku :cite:`www-Heroku` is a platform as a service that is used 
+    for building, delivering monitoring and scaling applications. It 
+    lets you  develop and deploy application quickly without thinking
+    about irrelevant problems such as infrastructure. Heroku also 
+    provides a secure and scalable database as a service with number of 
+    developers’ tools like database followers, forking, data clips and
+    automated health checks. It works by deploying to cedar stack 
+    :cite:`www-cedar`, an online runtime environment that supports apps 
+    buit in Java, Node.js, Scala, Clojure, Python and PHP. It uses Git 
+    for version controlling. It is also tightly intergrated with 
+    Salesforce, providing seamless and smooth Heroku and Salesforce 
+    data synchronization enabling companies to develop and design creative 
+    apps that uses both platforms.
+
 84. Aerobatic
 
     According to :cite:`www-aero`: Aerobatic is a platform that allows
@@ -930,6 +964,24 @@ High level Programming
 118. Google BigQuery
 119. Amazon Redshift
 120. Drill
+
+     Apache Drill :cite:`www-ApacheDrill` is an open source framework
+     that provides schema free SQL query engine for distributed 
+     large-scale datasets. Drill has an extensible architecture at 
+     its different layers. It does not require any centralized 
+     metadata and does not have any requirement for schema 
+     specification. Drill is highly useful for short and interactive
+     ad-hoc queries on very large scale data sets. It is scalable to
+     several thousands of nodes. Drill is also capable to query 
+     nested data in various formats like JSON and Parquet. It can 
+     query large amount of data at very high speed. It is also  
+     capable of performing discovery of dynamic schema. 
+     A service called ‘Drillbit’  is at the core of Apache Drill 
+     responsible for accepting requests from the client, processing
+     the required queries, and returning all the results to the client.
+     Drill is primarily focused on non-relational datastores, 
+     including Hadoop and NoSQL
+
 121. Kyoto Cabinet
 
      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
@@ -2178,6 +2230,20 @@ NoSQL
 246. Blazegraph
 247. Facebook Tao
 248. Titan:db
+
+     Titan:db :cite:`www-Titan` is a distributed graph database that 
+     can support of thousands of concurrent users interacting with a
+     single massive graph database that is distributed over the 
+     clusters. It is open source with liberal Apache 2 license. 
+     Its main components are storage backend, search backend, and 
+     TinkerPop graph stack. Titan provides support for various 
+     storage backends and also linear scalability for a growing data 
+     and user base. It inherits features such as ‘Gremlin’ query 
+     language  and ‘Rexter’ graph server from TinkerPop :cite:`www-TinkerPop`. 
+     For huge graphs, Titan uses a component called Titan-hadoop which 
+     compiles Gremlin queries to Hadoop MapReduce jobs and runs them 
+     on the clusters. Titan is basically optimal for smaller graphs.
+
 249. Jena
 
      Jena is an open source Java Framework provided by Apache for
@@ -3231,6 +3297,27 @@ IaaS Management from HPC to hypervisors
      process management is achieved by fleet.
 
 353. rkt
+
+     rkt is an container manager developed by CoreOS :cite:`www-CoreOS`
+     designed for Linux clusters. It is an alternative for Docker 
+     runtime and is designed for server environments with high 
+     security and composibity requirement. It is the first 
+     implementation of the open container standard called 
+     "App Container" or "appc" specification but not the only one. 
+     It is a standalone tool that lives outside of the core operating 
+     system and can be used on variety of platforms such as Ubuntu,
+     RHEL, CentOS, etc. rkt implements the facilities specified by 
+     the App Container as a command line tool. It allows execution 
+     of App Containers with pluggable isolation and also varying 
+     degrees of protection. Unlike Docker, rkt runs containers as 
+     un-priviliged users making it impossible for attackers to break 
+     out of the containers and take control of the entire physical 
+     server. rkt's primary interface comprises a single executable 
+     allowing it easily integrate with existing init systems and 
+     also advanced cluster environments. rkt is open source and is 
+     written in the Go programming language :cite:`www-github/rkt`.
+
+     
 354. VMware ESXi
 355. vSphere and vCloud
 356. Amazon
