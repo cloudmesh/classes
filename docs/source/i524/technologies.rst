@@ -18,6 +18,20 @@ Workflow-Orchestration
 ----------------------------------------------------------------------
 
 1. ODE
+
+   Apache ODE (Orchestration Director Engine) is an open source 
+   implementation of the WS-BPEL 2.0 standard. WS- BPEL which stands for 
+   Web Services Business Process Execution Language, is an executable 
+   language for writing business processes with web services :cite:`www-bpel-wiki`. 
+   It includes control structures like conditions or loops as well as 
+   elements to invoke web services and receive messages from services. 
+   ODE uses WSDL (Web Services Description Language) for interfacing 
+   with web services :cite:`www-ode-wiki`. Naming a few of its features, 
+   It supports two communication layers for interacting with the outside 
+   world, one based on Axis2 (Web Services http transport) and another 
+   one based on the JBI standard. It also supports both long and short 
+   living process executions for orchestrating services for applications :cite:`www-ode-web`.
+
 2. ActiveBPEL
 3. Airavata
 4. Pegasus
@@ -1797,6 +1811,21 @@ Inter process communication Collectives
      APIs, end-to-end acknowledgement, replicated storage, etc. 
      
 181. Azure Queues
+
+     Azure Queues storage is a Microsoft Azure service, providing inter
+     -process communication by message passing :cite:`silberschatz1998operating`. 
+     A sender sends the message and a client receives and processes them. 
+     The messages are stored in a queue which can contain millions of 
+     messages, up to the total capacity limit of a storage account :cite:`www-azurequeue-web`.
+     Each message can be up to 64 KB in size. These messages can then be 
+     accessed from anywhere in the world via authenticated calls using HTTP or 
+     HTTPS. Similar to the other message queue services, Azure Queues enables 
+     decoupling of the components :cite:`www-tutorialspoint`. It runs in an 
+     asynchronous environment where messages can be sent among the different 
+     components of an application. Thus, it provides an efficient solution for 
+     managing workflows and tasks. The messages can remain in the queue up to 7 
+     days, and afterwards, they will be deleted automatically.
+
 182. Event Hubs
 
 In-memory databases/caches
@@ -2266,6 +2295,24 @@ NoSQL
      fault tolerance among others. :cite:`Li`
      
 224. Berkeley DB
+
+     Berkeley DB is a family of open source, NoSQL key-value database libraries. 
+     :cite:`www-bdb-wiki` It provides a simple function-call API for data access 
+     and management over a number of programming languages, including C, C++, 
+     Java, Perl, Tcl, Python, and PHP. Berkeley DB is embedded because it links 
+     directly into the application and runs in the same address space as the 
+     application. :cite:`www-bdb-stanford` As a result, no inter-process 
+     communication, either over the network or between processes on the same 
+     machine, is required for database operations. It is also extremely portable 
+     and scalable, it can manage databases up to 256 terabytes in size.
+     
+     :cite:`www-bdb` For data management, Berkeley DB offers advanced services, 
+     such as concurrency for many users, ACID transactions, and recovery. 
+     
+     Berkeley DB is used in a wide variety of products and a large number of 
+     projects, including gateways from Cisco, Web applications at Amazon.com 
+     and open-source projects such as Apache and Linux.
+
 225. Kyoto/Tokyo Cabinet
 
      Tokyo Cabinet :cite:`www-tokyo-cabinet` and Kyoto Cabinet
@@ -3854,6 +3901,22 @@ Security & Privacy
 
 
 367. OpenStack Keystone
+
+     :cite:`www-keystone-wiki` Keystone is the identity service used by 
+     OpenStack for authentication (authN) and high-level authorization (authZ). 
+     There are two authentication mechanisms in Keystone, UUID token, and PKI. 
+     Universally unique identifier (UUID) is a 128-bit number used to identify 
+     information (user). Each application after each request of the client 
+     checks token validity online. PKI was introduced later and improved the 
+     security of Keystone :cite:`cui2015security`. In PKI, each token has its 
+     own digital signature that can be checked by any service and OpenStack 
+     application with no necessity to ask for Keystone database :cite:`www-cloudberrylab-kstn`.
+ 
+     Thus, Keystone enables ensuring user’s identity with no need to transmit 
+     its password to applications. It has recently been rearchitected to allow 
+     for expansion to support proxying external services and AuthN/AuthZ 
+     mechanisms such as oAuth, SAML and openID in future versions :cite:`www-keystone`.
+
 368. LDAP
 
      LDAP stands for Lightweight Directory Access Protocol. It is a software
@@ -3881,6 +3944,18 @@ Security & Privacy
      single coordinated response for the user.
 
 369. Sentry
+
+     :cite:`www-sentry` "Apache Sentry is a granular, role-based authorization 
+     module for Hadoop. Sentry provides the ability to control and enforce 
+     precise levels of privileges on data for authenticated users and 
+     applications on a Hadoop cluster. Sentry currently works out of the box 
+     with Apache Hive, Hive Metastore/HCatalog, Apache Solr, Impala and HDFS 
+     (limited to Hive table data). Sentry is designed to be a pluggable 
+     authorization engine for Hadoop components. It allows the client to define 
+     authorization rules to validate a user or application’s access requests 
+     for Hadoop resources. Sentry is highly modular and can support authorization 
+     for a wide variety of data models in Hadoop."
+
 370. Sqrrl
 371. OpenID 
 
