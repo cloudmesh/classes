@@ -131,13 +131,92 @@ Workflow-Orchestration
     the cloud." 
 
 23. Azure Data Factory
+    
+    Azure data factory is a cloud based data integration service that
+    can ingest data from various sources, transform/ process data and
+    publish the result data to the data stores. A data management
+    gateway enables access to data on SQL Databases
+    :cite:`Azure_df`. The data processing is done by It works by
+    creating pipelines to transform the raw data into a format that
+    can be readily used by BI Tools or applications. The services
+    comes with rich visualization aids that aid data analysis. Data
+    Factory supports two types of activities: data movement activities
+    and data transformation activities. Data Movement :cite:`Azure_ms`
+    is a Copy Activity in Data Factory that copies data from a data
+    source to a Data sink. Data Factory supports the following data
+    stores. Data from any source can be written to any sink.  Data
+    Transformation: Azure Data Factory supports the following
+    transformation activities such as Map reduce, Hive transformations
+    and Machine learning activities.  Data factory is a great tool to
+    analyze web data, sensor data and geo-spatial data.
+
 24. Google Cloud Dataflow
+    
+    Google Cloud Dataflow is a unified programming model and a managed
+    service for developing and executing a wide variety of data processing
+    patterns (pipelines). Dataflow includes SDKs for defining data
+    processing workflows and a Cloud platform managed services to run
+    those workflows on a Google cloud platform resources such as Compute
+    Engine, BigQuery amongst others :cite:`WWW-Dataflow`. Dataflow
+    pipelines can operate in both batch and streaming mode. The platform
+    resources are provided on demand, allowing users to scale to meet
+    their requirements, it’s also optimized to help balance lagging work
+    dynamically.
+
+    Being a cloud offering, Dataflow is designed to allow users to focus
+    on devising proper analysis without worrying about the installation
+    and maintaining :cite:`WWW-GoogleLiveStream` the underlying data
+    piping and process infrastructure.
+    
 25. NiFi (NSA)
+
+    :cite:`www-nifi` Defines NiFi as "An Easy to use, powerful and
+    realiable system to process and distribute data".
+    This tool aims
+    at automated data flow from sources with different sizes ,
+    formats and following diffent protocals to the centralized
+    location or destination. :cite:`www-hortanworks`.
+    
+    This comes equipped with an easy use UI where the data flow
+    can be conrolled with a drag and a drop.
+    NiFi was initiatially developed by NSA ( called Niagarafiles )
+    using the concepts of flowbased
+    programming and latter submitted to Apachi Software
+    foundation. :cite:`www-forbes`
+    
 26. Jitterbit
 27. Talend
 28. Pentaho
 29. Apatar
 30. Docker Compose
+
+    Docker is an open-source container based technology.A container
+    allows a developer to package up an application and all its part
+    includig the stack it runs on, dependencies it is associated with
+    and everything the application requirs to run within an isolated
+    enviorment . Docker seperates Application from the underlying
+    Operating System in a similar way as Virtual Machines seperates
+    the Operating System from the underlying Hardware.Dockerizing an
+    application is very lightweight in comparison with running the
+    application on the Virtual Machine as all the containers share the
+    same underlying kernel, the Host OS should be same as the
+    container OS (eliminating guest OS) and an average machine cannot
+    have more than few VMs running o them.
+
+    :cite:'docker-book' Docker Machine is a tool that lets you install
+    Docker Engine on virtual hosts, and manage the hosts with
+    docker-machine commands. You can use Machine to create Docker
+    hosts on your local Mac or Windows box, on your company network,
+    in your data center, or on cloud providers like AWS or Digital
+    Ocean. For Docker 1.12 or higher swarm mode is integerated with
+    the Docker Engine, but on the older versions with Machine's swarm
+    option, we can configure a swarm cluster Docker Swarm provides
+    native clustering capabilities to turn a group of Docker engines
+    into a single, virtual Docker Engine. With these pooled resources
+    ,:cite:'www-docker'"you can scale out your application as if it
+    were running on a single, huge computer" as swarm can be scaled
+    upto 1000 Nodes or upto 50,000 containers
+    
 31. KeystoneML
 
 
@@ -305,6 +384,23 @@ Application and Analytics
     
     
 53. Theano
+    Theano is a Python library. It was written at the LISA lab. 
+    Initially it was created with the purpose to support efficient
+    development of machine learning(ML) algorithms. 
+    Theano uses recent GPUs for higher speed.
+    It is used to evaluate mathematical expressions and especially
+    those mathematical expressions that include multi-dimensional arrays.
+    Theano’s working is dependent on combining aspects of a computer algebra
+    system and an optimizing compiler.
+    This combination of computer algebra system with optimized compilation
+    is highly beneficial for the tasks which involves complicated 
+    mathematical expressions and that need to be evaluated repeatedly as
+    evaluation speed is highly critical in such cases. 
+    It can also be used to generate customized C code for number of
+    mathematical operations. 
+    For cases where many different expressions are there and each of them 
+    is evaluated just once, Theano can minimize the amount of compilation
+    and analyses overhead :cite:`www-theano`.
 54. DL4j
 
     DL4j stands for Deeplearning4j. :cite:`www-dl4j` It is a deep
@@ -459,15 +555,23 @@ Application and Analytics
 66. CINET
 67. NWB
 
-	:cite:`www-nwb.edu` NWB stands for Network workbench is analysis, modelling and visualization toolkit for the network scientists.
-	It provides an environment which help scientist researchers and practitioner to get online access to the shared resource 
-	environment and network datasets for analysis, modelling and visualization of large scale networking application.
-	User can access this network datasets and algorithms previously obtained by doing lot of research and can also add their own 
-	datasets helps in speeding up the process and saving the time for redoing the same analysis. 
+    :cite:`www-nwb.edu` NWB stands for Network workbench is analysis,
+    modelling and visualization toolkit for the network scientists.
+    It provides an environment which help scientist researchers and
+    practitioner to get online access to the shared resource
+    environment and network datasets for analysis, modelling and
+    visualization of large scale networking application.  User can
+    access this network datasets and algorithms previously obtained by
+    doing lot of research and can also add their own datasets helps in
+    speeding up the process and saving the time for redoing the same
+    analysis.
 
-	NWB provides advanced tools for users to understand and interact with different types of networks. 
-	NWB members are largely the computer scientist, biologist, engineers, social and behavioural scientist. The platform
-	helps the specialist researchers to transfer the knowledge within the broader scientific and research communities.
+    NWB provides advanced tools for users to understand and interact
+    with different types of networks.  NWB members are largely the
+    computer scientist, biologist, engineers, social and behavioural
+    scientist. The platform helps the specialist researchers to
+    transfer the knowledge within the broader scientific and research
+    communities.
 	
 68. Elasticsearch
 
@@ -582,6 +686,26 @@ Application Hosting Frameworks
     customize deployment.  :cite:`www-apscale-deployment`
 
 82. Red Hat OpenShift
+
+    :cite:`www-paas` OpenShift was launched as a PaaS (Platform as a
+    Service) by Red Hat in the Red Hat Summit, 2011.
+    :cite:`www-developers-openshift` It is a cloud application
+    development and hosting platform that envisages shifting of the
+    developer's focus to development by automating the management and
+    scaling of applications.  Thus, :cite:`www-openshift` OpenShift
+    enables us to write our applications in any one web development
+    language (using any framework) and it itself takes up the task of
+    running the application on the web.  This has its advantages and
+    disadvantages - advantage being the developer doesn't have to
+    worry about how the stuff works internally (as it is abstracted
+    away) and the disadvantage being that he cannot control how it
+    works, again because it is abstracted.
+
+    :cite:`openshift-blog` OpenShift is powered by Origin, which is in
+    turn built using Docker container packaging and Kubernetes container
+    cluster.  Due to this, OpenShift offers a lot of options, including
+    online, on-premise and open source project options.
+    
 83. Heroku
 84. Aerobatic
 
@@ -670,6 +794,22 @@ Application Hosting Frameworks
 101. OODT
 102. Agave
 103. Atmosphere
+
+     Atmosphere is developed by CyVerse (previously named as iPlant
+     Collaborative).
+     It is a cloud-computing platform. It allows one to launch his own
+     “isolated virtual machine (VM) image :cite:`www-at1`.
+     It does not require any machine specification. It can be run on any device
+     (tablet/desktop/laptop) and any machine(Linux/Windows/Max/Unix).
+     User should have a CyVerse account and be granted permission to access to 
+     Atmosphere before he can begin using Atmosphere. No subscription is needed.
+     Atmosphere is designed to execute data-intense bioinformatics tasks that 
+     may include a)Infrastructure as a Service (IaaS) with advanced APIs;
+     b)Platform as a Service (PaaS), and c)Software as a Service (SaaS).
+     On Atmosphere one has several images of virtual machine and user can launch
+     any image or instance according to his requirements.
+     The images launched by users can be shared among different members as and
+     when required :cite:`www-at2`.
 
 
 High level Programming
@@ -864,7 +1004,21 @@ Streams
 128. S4
 129. Samza
 130. Granules
+
+     Granules in used for execution or processing of data streams in 
+     distributed environment.
+     When applications are running concurrently on multiple computational 
+     resources, granules manage their parallel execution.
+     The MapReduce implementation in Granules is responsible for providing
+     better performance.It has the capability of expressing computations like 
+     graphs.
+     Computations can be scheduled based on periodicity or other activity.
+     Computations can be developed in C, C++, Java, Python, C#, R
+     It also provides support for extending basic Map reduce framework.
+     Its application domains include hand writing recognition, bio informatics
+     and computer brain interface :cite:`www-granules`.
 131. Neptune
+
 132. Google MillWheel
 133. Amazon Kinesis
 
@@ -899,8 +1053,75 @@ Streams
 
 134. LinkedIn
 135. Twitter Heron
+
+     Heron is a real-time analytics platform that was developed at
+     Twitter for distributed streaming processing. Heron was
+     introduced at SIGMOD 2015 to overcome the shortcomings of Twitter
+     Storm as the scale and diversity of Twitter data increased. As
+     mentioned in :cite:`TwitterHeronOpen` The primary advantages of
+     Heron were: API compatible with Storm: Back compatibility with
+     Twitter Storm reduced migration time. Task-Isolation: Every task
+     runs in process-level isolation, making it easy to debug/
+     profile. Use of main stream languages: C++, Java, Python for
+     efficiency, maintainability, and easier community
+     adoption. Support for backpressure: dynamically adjusts the rate
+     of data flow in a topology during run-time, to ensure data
+     accuracy. Batching of tuples: Amortizing the cost of transferring
+     tuples. Efficiency: Reduce resource consumption by 2-5x and Heron
+     latency is 5-15x lower than Storm’s latency. The architecture of
+     Heron (as shown in :cite:`TwitterHeron`)uses the Storm API to
+     submit topologies to a scheduler. The scheduler runs each
+     topology as a job consisting of several containers. The
+     containers run the topology master, stream manager, metrics
+     manager and Heron instances. These containers are managed by the
+     scheduler depending on resource availability.
+     
 136. Databus
 137. Facebook Puma/Ptail/Scribe/ODS
+     
+    The real time data Processing at Fcabook is carried out using the
+    technologies like Scibe,PTail, Puma and ODS. While designing the
+    system, facebook primarily focused on the five key decissions that
+    the system should incorporate and that included Ease of Use,
+    Performance , Fault-tolerance , Scalability and Correctness.:cite:
+    'www-facebook' "The real time data analytics ecosystem at facebook
+    is designed to handle hundreds of Gigabytes of data per second via
+    hundreds of data pipelines and this system handles over 200,000
+    events per second with a maximum latency of 30
+    seconds". :cite:'www-facebook'Fcabook focused on the Seconds of
+    latency while designing the system and not milliseconds as seconds
+    are fast enough to for all the use case that needs to be
+    supported, and it allowed facebook to use persistent message bus
+    for data transport and this made the system more fault toleranat
+    and scalable. :cite:'facebook-paper-2017' The large infrastructure
+    of facebook comprises of hundreds of systems distributed across
+    multiple data centers that needs a continious monitoring to track
+    their health and performance.Which is done by Operational Data
+    Store(ODS).ODS comprises of a time series database (TSDB),which is
+    a query service, and a detection and alerting system. ODS’s TSDB
+    is built atop the HBase storage system.Time series data from
+    services running on Facebook hosts is collected by the ODS write
+    service and written to HBase.
+
+    When the data is generated by the user from their devices, an AJAX
+    request is fired to facebook,and these requests are then written
+    to a log file using Scribe(distributed data transport system),
+    this messaging system collect, aggregate and delivers high volume
+    of log data with few seconds of latency and high throughput.Scribe
+    stores the data in the HDFS(Hadoop Distributed File System) in a
+    tailing fashion, where the new events are stored in log files and
+    the files are tailed below the current events.The events are then
+    written into the storage HBase on distributed machines. This makes
+    the data avalible for both batch and real-time processing. Ptail
+    is an internal tool built to aggregate data from multiple Scribe
+    stores and It then tails the log files and pulls data out for
+    processing. Puma is a stream processing system which is the
+    real-time aggregation/storage of data. Puma provides filtering and
+    processing of Scribe streams (with a few seconds delay), usually
+    Puma batches the storage per 1.5 seconds on average and when the
+    last flush completes, then only a new batch starts to avoid the
+    contention issues, which makes i fairly real time
+     
 138. Azure Stream Analytics
 139. Floe
 140. Spark Streaming
@@ -1190,8 +1411,56 @@ Inter process communication Collectives
 
 177. Marionette Collective
 178. Public Cloud: Amazon SNS
+
+     Amazon SNS is an Inter process communication service which gives
+     the user simple, end-to-end push messaging service allowing them
+     to send messages, alerts, or notifications. According to
+     :cite:`www-sns`, it can be used to send a directed message
+     intended for an entity or to broadcast messages to list of
+     selected entities. It is an easy to use and cost effective
+     mechanism to send push messages. Amazon SNS is compatible to send
+     push notifications to iOS, Windows, Fire OS and Android OS
+     devices.
+
+     According to :cite:`sns-blog`,Topics are named groups of events or
+     access points, each identifying a specific subject, content, or event
+     type. Each topic has a unique identifier (URI) that identifies the SNS
+     endpoint for publishing and subscribing.Owners create topics and
+     control all access to the topic. The owner can define the permissions
+     for all of the topics that they own.Subscribers are clients
+     (applications, end-users, servers, or other devices) that want to
+     receive notifications on specific topics of interest to
+     them.Publishers send messages to topics. SNS matches the topic with
+     the list of subscribers interested in the topic, and delivers the
+     message to each and every one of them.
+
+     According to :cite:`sns-faq`, Amazon SNS follows pay as per usage. In
+     general it is $0.50 per 1 million Amazon SNS Requests.Amazon SNS
+     supports notifications over multiple transport protocols such as
+     HTTP/HTTPS, Email/Email-JSON, SQS(Message queue) and SMS.Amazon SNS
+     can be used with other AWS services such as Amazon SQS, Amazon EC2 and
+     Amazon S3.
+
 179. Lambda
 180. Google Pub Sub
+
+     :cite:`www-google-pub-sub` Google Pub/Sub provides an asynchronous 
+     messaging facility which assists the communication between independent 
+     applications. It works in real time and helps keep the two interacting 
+     systems independent. It is the same technology used by many of the 
+     Google apps like GMail, Ads, etc. and so integration with them becomes 
+     very easy. :cite:`www-google-pub-sub-features` Some of the typical 
+     features it provides are: (1) Push and Pull - Google Pub/Sub integrates 
+     quickly and easily with the systems hosted on the Google Cloud Platform 
+     thereby supporting one-to-many, one-to-one and many-to-many 
+     communication, using the push and pull requests. (2) Scalability - It 
+     provides high scalability and availability even under heavy load without 
+     any degradation of latency. This is done by using a global and highly 
+     scalable design. (3) Encryption - It provides security by encryption of 
+     the stored data as well as that in transit. Other than these important 
+     features, it provides some others as well, like the usage of RESTful 
+     APIs, end-to-end acknowledgement, replicated storage, etc. 
+     
 181. Azure Queues
 182. Event Hubs
 
@@ -1345,6 +1614,28 @@ Object-relational mapping
      relational database.
      
 195. DataNucleus
+
+     DataNucleus (available under Apache 2 open source license) is a
+     data management framework in Java. Formerly known as ‘Java
+     Persistent Objects’ (JPOX) this was relaunched in 2008 as
+     ‘DataNucleus’. According to :cite:`DataNucleusWiki` DataNucleus
+     Access Platform is a fully compliant implementation of the Java
+     Persistent API (JPA) and Java Data Objects (JDO)
+     specifications. It provides persistence and retrieval of data to
+     a number of datastores using a number of APIs, with a number of
+     query languages. In addition to object-relational mapping (ORM)
+     it can also map and manage data from sources other than RDBMS
+     (PostgreSQL, MySQL, Oracle, SQLServer, DB2, H2 etc.) such as
+     Map-based (Cassandra, HBase), Graph-based (Neo4j), Documents
+     (XLS, OOXML, XML, ODF), Web-based (Amazon S3, Google Storage,
+     JSON), Doc-based (MongoDB) and Others (NeoDatis, LDAP). It
+     supports the JPA (Uses JPQL Query language), JDO (Uses JDOQL
+     Query language) and REST APIs :cite:`DataNucleus`.DataNucleus
+     products are built from a sequence of plugins where each of it is
+     an OSGi bundle and can be used in an OSGi environment. Google App
+     Engine uses DataNucleus as the Java persistence layer
+     :cite:`DataNucleusPerformance`.
+	   
 196. ODBC/JDBC
 
 
@@ -1352,6 +1643,30 @@ Extraction Tools
 ----------------------------------------------------------------------
 
 197. UIMA
+     
+     Unstructured Information Management applications (UIMA) provides
+     a framework for content analytics. It searches unstructured data
+     to retrieve specific targets for the user. For example, when a
+     text document is given as input to the system, it identifies
+     targets such as persons, places, objects and even
+     associations. According to , :cite:`uima_wiki` theUIMA
+     architecture can be thought of as four dimensions: 1. Specifies
+     component interfaces in analytics pipeline.  2. Describes a set
+     of Design patterns. 3. Suggests two data representations: an
+     in-memory representation of annotations for high-performance
+     analytics and an XML representation of annotations for
+     integration with remote web services. 4. Suggests development
+     roles allowing tools to be used by users with diverse skills.
+
+     UIMA uses different, possibly mixed, approaches which include
+     Natural Language Processing, Machine Learning, IR. UIMA supports
+     multimodal analytics :cite:`uima_ss` which enables the system to
+     process the resource fro various points of view. UIMA is used in
+     several software projects such as the IBM Research's Watson uses
+     UIMA for analyzing unstructured data and Clinical Text Analysis
+     and Knowledge Extraction System (Apache cTAKES) which is a
+     UIMA-based system for information extraction from medical
+     records.
 
 381. Tika
 
@@ -1444,8 +1759,47 @@ SQL(NewSQL)
 210. Google Cloud SQL
 211. Azure SQL
 212. Amazon RDS
+
+     According to Amazon Web Services, Amazon Relation Database
+     Service (Amazon RDS) is a web service which makes it easy to
+     setup, operate and scale relational databases in the cloud. As
+     mentioned in :cite:`AmazonRDS` It allows to create and use
+     MySQL, Oracle, SQL Server, and PostgreSQL databases in the
+     cloud. Thus, codes, applications and tools used with existing
+     databases can be used with Amazon RDS. The basic components of
+     Amazon(As listed in :cite:`AmazonRDSComponents`) RDS include: DB
+     Instances: DB instance is an isolated database environment in the
+     cloud. Regions and availability zones: Region is a data center
+     location which contains Availability Zones. Availability Zone is
+     isolated from failures in other Availability Zones. Security
+     groups: controls access to DB instance by allowing access to IP
+     address ranges or Amazon EC2 instances that is specified. DB
+     parameter groups: manage configuration of DB engine by specifying
+     engine configuration values that are applied to one or more DB
+     instances of the same instance type. DB option groups: Simplifies
+     data management through Oracle Application Express (APEX), SQL
+     Server Transparent Data Encryption, and MySQL memcached support.
+
+     
 213. Google F1
 214. IBM dashDB
+
+     IBM dashDB is a data warehousing service hosted in cloud ,
+     This aims at integrating the data from various sources into a
+     cloud data base. Since the data base is hosted in cloud it
+     would have the benifits of a cloud like scalability and less
+     maintainance. This data base can be configured as 'transaction
+     based' or 'Analytics based' depending on the work load
+     :cite:`www-ibm-dash-db.com` .This is available through ibm blue mix
+     cloud platform.
+
+     dash DB has build in analytics based on IBM Netezza Analytics
+     in the PureData System for Analytics. Because of the build in
+     analytics and support of
+     in memory optimization promises better performance efficieny.
+     This can be run alone as a standalone or can be connected to
+     variousBI or analytic tools. :cite:`www-ibm-analytics.com`
+       
 215. N1QL
 216. BlinkDB
 217. Spark SQL
@@ -1575,6 +1929,17 @@ NoSQL
 
      
 226. Tycoon
+
+     Tycoon/ Kyoto Tycoon :cite:`Tycoon_fl` is a lightweight database
+     server developed by FLL labs and is a distributed Key-value store
+     :cite:`Tycoon_cf`. It is very useful in handling cache data
+     persistent data of various applications. Kyoto Tycoon is also a
+     package of network interface to the DBM called Kyoto Cabinet
+     :cite:`Tycoon_fl2` which contains a library of routines for
+     managing a database. Tycoon is composed of a sever process that
+     manger multiple databases. This renders high concurrency enabling
+     it to handle more than 10 thousand connections at the same time.
+     
 227. Tyrant
 
      Tyrant provides network interfaces to the database management
@@ -1666,6 +2031,24 @@ NoSQL
      network.
      
 234. HBase
+
+     Apache Hbase is a distributed column-oriented database
+     which is built on top of HDFS (Hadoop Distributed File
+     System).According to :cite:`www-hbase`, It is a open source,
+     versioned, distributed, non-relational database modelled after
+     Google’s Bigtable. Similar to Bigtable providing harnessing
+     distributed file storage system offered by Google file system,
+     Apache Hbase provides similar capabilities on top of Hadoop and
+     HDFS. Moreover, Hbase supports random, real-time CRUD
+     (Create/Read/Update/Delete) operations.
+
+     Hbase is a type of NoSQL database and is classified as a key value
+     store.In HBase, value is identied with a key where both of them are
+     stored as byte arrays. Values are stored in the order of keys. HBase
+     is a database system where the tables have no schema. Some of the
+     companies that use HBase as their core program are Facebook, Twitter,
+     Adobe, Netflix etc.
+
 235. Google Bigtable
 
      Google Bigtable is a NoSQL database service, built upon several
@@ -1769,11 +2152,72 @@ NoSQL
      
 244. Yarcdata
 245. AllegroGraph
+     
+     “AllegroGraph is a database technology that enables businesses to 
+     extract sophisticated decision insights and predictive analytics from 
+     their highly complex, distributed data that can’t be answered with 
+     conventional databases, i.e., it turns complex data into actionable 
+     business insights.” :cite:`www-Allegro`
+     It can be viewed as a closed source database that is used for storage
+     and retrieval of data in the form of triples (triple is a data entity 
+     composed of subject-predicate-object like “Professor teaches students”).
+     Information in a triplestore is retrieved using a query language. Query 
+     languages can be classified into database query languages or information
+     retrieval query languages. The difference is that a database query language
+     gives exact answers to exact questions, while an information retrieval 
+     query language finds documents containing requested information. 
+     Triple format represents information in a machine-readable format. 
+     Every part of the triple is individually addressable via unique URLs — 
+     for example, the statement “Professor teaches students” might be 
+     represented in RDF(Resource Description Framework ) as 
+     http://example.name#Professor12 http://xmlns.com/foaf/0.1/teacheshttp:
+     //example.name#students. Using this representation, semantic data can 
+     be queried.  :cite:`www-Allegrow`
+
 246. Blazegraph
 247. Facebook Tao
 248. Titan:db
 249. Jena
+
+     Jena is an open source Java Framework provided by Apache for
+     semantic web applications. (:cite:`jena_wiki`) It provides a
+     programmatic environment for RDF, RDFS and OWL, SPARQL, GRDDL,
+     and includes a rule-based inference engine. Semantic web data
+     differs from conventional web applications in that it supports a
+     web of data instead of the classic web of documents format. The
+     presence of a rule based inference engine enable Jena to perform
+     a reasoning based on OWL and RDFS ontologies.  :cite:`jena_blog`
+     The architecture of Jena contains three layers : Graph layer,
+     model layer and Ontology layer. The graph layer forms the base
+     for the architecture. It does not have an extensive RDF
+     implementation and serves more as a Service provider
+     Interface. According to :cite:`jena_blog` It provides
+     classes/methods that could be further extended. The model layer
+     extends the graph layer and provides objects of type ‘resource’
+     instead of ‘node’ to work with.  The ontology layer enables one
+     to work with triples.
+
 250. Sesame
+
+     Sesame is framework which can be used for the analysis of RDF
+     (Resource Description Framework) data.  Resource Description
+     Framework (RDF) :cite:`www-RDF` is a model that facilitates the
+     interchange of data on the Web.  Using RFD enables us to merge
+     data even if the underlying schemas differ.  :cite:`www-sesame`
+     Sesame has now officially been integrated into RDF4J Eclipse
+     project.  Sesame takes in the natively written code as the input
+     and then performs a series of transformations, generating kernels
+     for various platforms.  :cite:`sesame-paper-2013` In order to
+     achieve this, it makes use of the feature identifier, impact
+     predictor, source-to-source translator and the auto-tuner.  The
+     feature identifier is concerned with the extraction and detection
+     of the architectural features that are important for application
+     performance.  The impact predictor determines the performance
+     impact of the core features extracted above.  A source-to-source
+     translator transforms the input code into a parametrized one;
+     while the auto-tuner helps find the optimal solution for the
+     processor.
+     
 251. Public Cloud: Azure Table
 
      Microsoft offers its NoSQL Azure Table product to the market as a
@@ -1832,6 +2276,25 @@ File management
      processing of astronomical images on Hadoop using FITS. 
 
 260. RCFile
+
+     RCFile (Record Columnar File) :cite:`www-rcfile` is a big
+     data placement data structure that supports fast data loading and
+     query processing coupled with efficient storage space utilization
+     and adaptive to dynamic workload environments. It is designed for
+     data warehousing systems that uses map-reduce. The data is stored
+     as a flat file comprising of binary key/value pairs. The rows are
+     partitioned first and then the columns are partitioned in each
+     row and the respective meta-data for each row is stored in the
+     key part for that row and the values comprises of the data part
+     of the row. Storing the data in this format enables RCFile to
+     accomplish fast loading and query processing.A shell utility is
+     available for reading RCFile data and metadata
+     :cite:`www-rcfile`. According to :cite:`he2011rcfile`, RCFile has
+     been chosen in Facebook data warehouse system as the default
+     option. It has also been adopted by Hive and Pig, the two most
+     widely used data analysis systems developed in Facebook and
+     Yahoo!
+
 261. ORC
 262. Parquet
 
@@ -1874,6 +2337,27 @@ Data Transport
 
 264. HTTP
 265. FTP
+
+     According to :cite:`ftp-wiki` FTP is an acronym for File Transfer
+     Protocol. It is network protocol standard used for transferring
+     files between two computer systems or between a client and a
+     server. It is part of the Application layer of the Internet
+     Protocol Suite and works along with HTTP/SSH. It follows a
+     client-server model architecture. Secure systems asks the client
+     to authenticate themselves using a Username and Password
+     registered with the server to access the files via FTP. The
+     specification for FTP was first written by Abhay Bhushan
+     :cite:`www-rfc114` in 1971 and is termed as RFC114. The current
+     specification, RFC959 in use was written in 1985. Several other
+     versions of the specification are available which provides
+     firewall friendly FTP access, additional security extensions,
+     support for IPV6 and passive mode file access respectively. FTP
+     can be used in command line in most of the operating systems to
+     transfer files. There are FTP clients such as WinSCP, FileZilla
+     etc. which provides a graphical user interface to the clients to
+     authenticate themselves (sign on) and access the files from the
+     server.
+     
 266. SSH
 
      SSH is a cryptographic network protocol :cite:`www-ssh-wiki` to
@@ -1944,6 +2428,30 @@ Cluster Resource Management
 
 271. Mesos
 
+     Apache Mesos :cite:`www-mesos` abstracts CPU, memory,
+     storage, and other compute resources away from machines (physical
+     or virtual), enabling fault-tolerant and elastic distributed
+     systems to easily be built and run effectively. The Mesos kernel
+     runs on every machine and provides applications (e.g., Hadoop,
+     Spark, Kafka, Elasticsearch) with API’s for resource management
+     and scheduling across entire datacenter and cloud environments.
+
+     The resource scheduler of Mesos supports a generalization of
+     max-min fairness :cite:`paper-mesos-Abu-Dbai-2016`, termed Dominant
+     Resource Fairness (DRF) :cite:`paper-mesos-ghodsi2011dominant`
+     scheduling discipline, which allows to harmonize execution of
+     heterogeneous workloads (in terms of resource demand) by
+     maximizing the share of any resource allocated to a specific
+     framework.
+     
+     Mesos uses containers for resource isolation between
+     processes. In the context of Mesos, the two most important
+     resource-isolation methods to know about are the control groups
+     (cgroups) built into the Linux kernel,and Docker. The difference
+     between using hyper-V, Docker containers, cgroup is described in
+     detail in the book "Mesos in action" :cite:`book-mesos-Ignazio-2016`
+
+
 272. Yarn
 
      Yarn (Yet Another Resource Negotiator) is Apache Hadoop’s cluster
@@ -1969,6 +2477,23 @@ Cluster Resource Management
      resource. :cite:`www-HadoopApache`
 
 273. Helix
+
+     Helix is a data management system getting developed by IBM which
+     helps the users to do explitory analysis of the data received
+     from various sources following different formats. This system
+     would help orgnaize the data by providing links between data
+     collected across various sources dispite of the knowledge of the
+     data sources schemas.It also aims at providing  the data really
+     required for the user by extracting the important information
+     from the data. This would plan to target the issue by
+     mainataining the "knowledge base of schemas" and
+     "context-dependent dynamic linkage", The system can get the
+     schema details either from the  knowledge base being maintained
+     or can even get the schema from the data being received. As the
+     number of users for helix increases the linkages gets stronger
+     and would provide better data
+     quality. :cite:`www-ibm-helix-paper`
+      
 274. Llama
 275. Google Omega
 276. Facebook Corona
@@ -2005,10 +2530,40 @@ Cluster Resource Management
 284. Globus Tools
 285. Pilot Jobs
 
+     In pilot job, an application acquires a resource so that it can
+     be delegated some work directly by the application; instead of
+     requiring some job scheduler. The issue of using a job scheduler
+     is that a waiting queue is required. Few examples of Pilot Jobs
+     are the :cite:`pilot-job-falkon-paper-2007` Falkon lightweight
+     framework and :cite:`pilot-job-htcaas-paper-2007` HTCaaS. Pilot
+     jobs are typically associated with both Parallel computing as
+     well as Distributed computing. Their main aim is to reduce the
+     dependency on queues and the associated multiple wait times.
+
+     :cite:`www-pilot-job-paper-2016` Using pilot jobs enables us to have a 
+     multilevel technique for the execution of various workloads. This is so 
+     because the jobs are typically acquired by a placeholder job and they 
+     relayed to the workloads.      
+
 File systems
 ----------------------------------------------------------------------
 
 286. HDFS
+     
+    Hadoop provides distributed file system framework that uses Map reduce
+    (Distributed computation framework) for transformation and analyses of 
+    large dataset.
+    Its main work is to partition the data and other computational tasks to
+    be performed on that data across several clusters.
+    HDFS is the component for distributed file system in Hadoop.An HDFS 
+    cluster primarily consists of a Name Node and Data Nodes. Name Node 
+    manages the file system metadata such as access permission, modification
+    time, location of data and Data Nodes store the actual data. 
+    When user applications or Hadoop frameworks request access to a file in
+    HDFS, Name Node service responds with the Data Node locations for the 
+    respective individual data blocks that constitute the whole of the 
+    requested file:cite:`www-hdfs`.
+
 287. Swift
 288. Haystack
 289. f4
@@ -2034,6 +2589,30 @@ File systems
      
 291. Ceph
 292. FUSE
+
+     FUSE (Filesystem in Userspace) :cite:`www-fuse` "is an interface
+     for userspace programs to export a filesystem to the Linux
+     kernel". The FUSE project consists of two components: the fuse
+     kernel module and the libfuse userspace library. libfuse provides
+     the reference implementation for communicating with the FUSE
+     kernel module.The code for FUSE itself is in the kernel, but the
+     filesystem is in userspace.  As per the 2006 paper
+     :cite:`fuse-paper-hptfs` on HPTFS which has been built on top of
+     FUSE. It mounts a tape as normal file system based data storage
+     and provides file system interfaces directly to the application.
+     Another implementation of FUSE FS is CloudBB
+     :cite:`fuse-paper-CloudBB`. Unlike conventional filesystems
+     CloudBB creates an on-demand two-level hierarchical storage
+     system and caches popular files to accelerate I/O performance. On
+     evaluating performance of real data-intensive HPC applications in
+     Amazon EC2/S3, results show CloudBB improves performance by up to
+     28.7 times while reducing cost by up to 94.7% compared to the
+     ones without CloudBB.
+
+     Some more implementation examples of FUSE are - mp3fs (A VFS to
+     convert FLAC files to MP3 files instantly), Copy-FUSE(To access
+     cloud storage on Copy.com), mtpfs(To mount MTP devices) etc.
+
 293. Gluster
 294. Lustre
 
@@ -2259,6 +2838,33 @@ DevOps
 
 309. Docker (Machine, Swarm)
 310. Puppet
+
+     Puppet is an open source software configuration management
+     tool :cite:`www-puppet-wiki-puppet`.This aims at automatic
+     configuration of the software
+     applications and infrastructure. This configuration is done
+     using the easy to use languge.
+     Puppet works on major linux distributions and also on
+     microsoft windows ,
+     it is also cross-platform application making it easy to manage
+     and portable. :cite:`www-puppet-puppet-site`
+
+     Puppet works with a client server model. All the clients (
+     nodes)  which needs to be managed will have 'Puppet Agent'
+     installed and 'Puppet Master' contains the configuration for
+     different hosts this demon process rund on master server. The
+     connection between 'Puppet Master' and 'Puppet agent' will be
+     established using thesecured SSL connection. The configiration
+     at client will be validated as per the set up in Puppet master
+     at a predefined interval. If configration at client is not
+     matching with the master puppet agent fetches the equired
+     changes from master. :cite:`www-puppet-slashroot`
+
+     Puppet is developed by Puppet Labs
+     using ruby language and released as GNU General Public License
+     (GPL) until version 2.7.0 and the Apache License 2.0 after
+     that. :cite:`www-puppet-wiki-puppet`
+	
 311. Chef
 
      Chef is a configuration management tool. It is implemented in
@@ -2297,6 +2903,23 @@ DevOps
 
 313. SaltStack
 314. Boto
+
+     :cite:`www-boto` The latest version of Boto is Boto3. 
+     :cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS) Software 
+     Development Kit (SDK) for Python. It enables the Python developers to 
+     make use of services like Amazon S3 and Amazon EC2. 
+     :cite:`www-boto3-documentation` It provides object oriented APIs along 
+     with low-level direct service access. It provides simple in-built 
+     functions and interfaces to work with Amazon S3 and EC2. 
+
+     :cite:`www-boto-amazon-python-sdk` Boto3 has two distinct levels of APIs 
+     - client and resource. One-to-one mappings to underlying HTTP API is 
+     provided by the client APIs. Resource APIs provide resource objects and 
+     collections to perform various actions by accessing the attributes. 
+     Boto3 also comes with 'waiters'. Waiters are used for polling status 
+     changes in AWS, automatically. Boto3 has these waiters for both the APIs 
+     - client as well as resource. 
+     
 315. Cobbler
 
      Cobbler is a Linux provisioning system that facilitates and
@@ -2317,6 +2940,25 @@ DevOps
 
 316. Xcat
 317. Razor
+
+     Razor is a hardware provisioning application, developed by Puppet
+     Labs and EMC. Razor was introduced as open, pluggable, and
+     programmable since most of the provisioning tools that existed
+     were vendor-specific, monolithic, and closed. According to
+     :cite:`RazorWiki` it can deploy both bare-metal and virtual
+     systems. During boot the Razor client automatically discovers the
+     inventory of the server hardware – CPUs, disk, memory, etc.,
+     feeds this to the Razor server in real-time and the latest state
+     of every server is updated. It maintains a set of rules to
+     dynamically match the appropriate operating system images with
+     server capabilities as expressed in metadata. User-created policy
+     rules are referred to choose the preconfigured model to be
+     applied to a new node. The node follows the model's directions,
+     giving feedback to Razor as it completes various steps as
+     specified in :cite:`RazorPuppet`. Models can include steps for
+     handoff to a DevOps system or to any other system capable of
+     controlling the node.
+     
 318. CloudMesh
 319. Juju
 
@@ -2515,6 +3157,23 @@ IaaS Management from HPC to hypervisors
 343. VirtualBox
 344. OpenVZ
 345. LXC
+     
+     LXC (Linux Containers) is an operating-system-level
+     virtualization method for running multiple isolated
+     Linux systems (containers) on a control host using a single
+     Linux kernel :cite:`www-wiki-lxc`. LXC are similar to the treditional virtual
+     machines but instead of having seperate kernel process for the
+     guest operating system being run, containers would share the
+     kernal process with the host operating system. This is made
+     possible with the implementation of namespaces and cgroups. :cite:`www-jpablo`
+
+     Containers are light weighed ( As guest operating system
+     loading and booting is eleminated ) and more customizable
+     compared to VM technologies.The basis for docker developement
+     is also LXC. :cite:`www-infoworld`. Linux containers would
+     work on the major distributions of linux this would not work
+     on Microsoft Windows.
+	
 346. Linux-Vserver
 347. OpenStack
 348. OpenNebula
@@ -2548,7 +3207,7 @@ IaaS Management from HPC to hypervisors
      VMware vSphere, and XenServer/XCP for virtualization. In addition
      to its own API, CloudStack also supports the Amazon Web Services
      (AWS) API and the Open Cloud Computing Interface from the Open
-     Grid Forum. :cite:`www-clodstack`
+     Grid Forum. :cite:`www-cloudstack`
 
      ColudStack features like built-in high-availability for hosts
      and VMs, AJAX web GUI for management, AWS API compatibility,
@@ -2701,10 +3360,46 @@ Security & Privacy
 371. OpenID
 372. SAML OAuth
 
+     As explained in :cite:`SAML`, Security Assertion Markup Language
+     (SAML) is a secured XML based communication mechanism for
+     communicating identities between organizations. The primary use
+     case of SAML is Internet SSO. It eliminates the need to maintain
+     multiple authentication credentials in multiple locations. This
+     enhances security by elimination opportunities for identity
+     theft/Phishing. It increases application access by eliminating
+     barriers to usage. It reduces administration time and cost by
+     excluding the effort to maintain duplicate credentials and
+     helpdesk calls to reset forgotten passwords. Three entities of
+     SAML are the users, Identity Provider (IdP-Organization that
+     maintains a directory of users and an authentication mechanism)
+     and Service Provider(SP-Hosts the application /service). User
+     tries to access the application by clicking on a link or through
+     an URL on the internet. The Federated identity software running
+     in the IdP validates the user’s identity and the user is then
+     authenticated. A specifically formatted message is then
+     communicated to the federated identity software running at SP. SP
+     creates a session for the user in the target application and
+     allows the user to get direct access once it receives the
+     authorization message from a known identity provider.
+
 Distributed Coordination
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 373. Google Chubby
+
+     Chubby Distributed lock service :cite:`www-chubby`
+     is intended for use within a loosely-coupled distributed system
+     consisting of moderately large numbers of small machines
+     connected by a high-speed network. Asynchronous consensus is
+     solved by the Paxos protocol. The implementation in Chubby is
+     based on coarse grained lock server and a library that the client
+     applications link against.  As per the 2016 paper
+     :cite:`chubby-paper-2016`, an open-source implementation of the
+     Google Chubby lock service was provided by the Apache ZooKeeper
+     project. ZooKeeper used a Paxos-variant protocol Zab for solving
+     the distributed consensus problem.  Google stack and Facebook
+     stack both use versions of zookeeper.
+     
 374. Zookeeper
  
      Zookeeper provides coordination services to distributed applications.
