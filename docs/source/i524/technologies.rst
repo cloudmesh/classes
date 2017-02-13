@@ -1760,38 +1760,28 @@ Inter process communication Collectives
 170. QPid
 171. Kafka
 
-     Apache Kafka is a streaming platform, which works based on
-     publish-subscribe messaging system and supports distributed
-     environment. Kafka lets publish and subscribe to the messages.
+     Apache Kafka is a streaming platform, which works based on 
+     publish-subscribe messaging system and supports distributed environment.
+      
+     *Kafka lets you publish and subscribe to the messages.* Kafka maintains 
+     message feeds based on ‘topic’. A topic is a category or feed name to 
+     which records are published. Kafka’s Connector APIs are used to publish 
+     the messages to one or more topics, whereas, Consumer APIs are used to 
+     subscribe to the topics.
 
-     In a publish-subscribe messaging system, publishers are sender of
-     messages. They publish the messages without the knowledge of who
-     is going to ‘subscribe’ to them for processing. Subscribers are
-     users of these messages. They subscribe to only those messages
-     which they are interested in, without knowing who the publishers
-     are. Kafka maintains message feeds based on ‘topic’. A topic is a
-     category or feed name to which records are
-     published. Applications can use Kafka’s Connector APIs to publish
-     the messages to one or more Kafka topics. Similarly, applications
-     can use Consumer API to subscribe to one or more topics.
-     Kafka has the capability to process the stream of data at real time.
+     *Kafka lets you process the stream of data at real time.* Kafka’s stream 
+     processor takes continual stream of data from input topics, processes the 
+     data in real time and produces streams of data to output topics. Kafka’s 
+     Streams API are used for data transformation.
 
-     Kafka’s stream processor takes continual stream of data from
-     input topics, processes the data in real time and produces
-     streams of data to output topics. Kafka’s Streams API are used
-     for data transformation. Kafka allows to store the stream of data
-     in distributed clusters.
+     *Kafka lets you store the stream of data in distributed clusters.* Kafka 
+     acts as a storage system for incoming data stream. As Kafka is a distributed 
+     system, data streams are partitioned and replicated across nodes.
 
-     Kafka acts as a storage system for incoming data stream. Data is
-     categorised into ‘topics’. As Kafka is a distributed system, data
-     streams are partitioned and replicated across nodes. Thus, a
-     combination of messaging, storage and processing data stream
-     makes Kafka a ‘streaming platform’.
-
-     Kafka is a commonly used for building data pipelines where data is
-     transferred between systems or applications. :cite:`www-kafka`
-     Kafka can also be used by applications that transform real time
-     incoming data.
+     Thus, a combination of messaging, storage and processing data stream makes 
+     Kafka a ‘streaming platform’. It can be used for building data pipelines 
+     where data is transferred between systems or applications. Kafka can also be 
+     used by applications that transform real time incoming data. :cite:'www-kafka'
 
 172. Kestrel
 173. JMS
@@ -2460,6 +2450,29 @@ NoSQL
 
 
 228. MongoDB
+
+     MongoDB is a NoSQL database which uses collections and documents 
+     to store data as opposed to the relational database where data is 
+     stored in tables and rows. In MongoDB a collection is a container 
+     for documents, whereas a document contains key-value pairs for storing 
+     data. As MongoDB is a NoSQL database, it supports dynamic schema design 
+     allowing documents to have different fields. The database uses a document 
+     storage and data interchange format called BSON, which provides a binary 
+     representation of JSON-like documents.
+
+     MongoDB provides high data availability by way of replication and 
+     sharding. High cost involved in data replication can be reduced by 
+     horizontal data 
+     scaling by way of shards where data is scattered across multiple 
+     servers. It reduces query cost as the query load is distributed 
+     across servers. This means that both read and write performance 
+     can be increased by adding more shards to a cluster. Which document 
+     resides on which shard is determined by the shard key of each collection.
+
+     As far as data backup and restore is concerned the default MongoDB 
+     storage engines natively support backup of complete data. For incremental 
+     backups one can use MongoRocks that is a third party tool developed by Facebook.
+
 229. Espresso
 230. CouchDB
 231. Couchbase
@@ -2679,6 +2692,21 @@ NoSQL
 
 246. Blazegraph
 247. Facebook Tao
+
+     In the paper published in USENIX annual technical conference, 
+     Facebook Inc describes TAO (The Association and Objects) as 
+     :cite ‘book-tao’ a geographically distributed data store that 
+     provides timely access to the social graph for Facebook’s demanding 
+     workload using a fixed set of queries. It is deployed at Facebook for 
+     many data types that fit its model. The system runs on thousands of 
+     machines, is widely distributed, and provides access to many petabytes 
+     of data. TAO represents social data items as Objects (user) and 
+     relationship between them as Associations (liked by, friend of). 
+     TAO cleanly separates the caching tiers from the persistent data 
+     store allowing each of them to be scaled independently. To any user 
+     of the system it presents a single unified API that makes the entire 
+     system appear like 1 giant graph database. :cite:'www-tao'.
+
 248. Titan:db
 
      Titan:db :cite:`www-Titan` is a distributed graph database that 
@@ -2763,6 +2791,20 @@ NoSQL
      data storage.
 
 252. Amazon Dynamo
+
+     Amazon explains DynamoDB as :cite:'www.dyndb' a fast and flexible 
+     NoSQL database service for all applications that need consistent, 
+     single-digit millisecond latency at any scale. It is a fully managed 
+     cloud database and supports both document and key-value store models. 
+     Its flexible data model and reliable performance make it a great fit 
+     for mobile, web, gaming, ad tech, IoT, and many other applications. 
+     DynamoDB can be easily integrated with big-data processing tools like 
+     Hadoop. It can also be integrated with AWS Lambda, an event driven platform, 
+     which enables creating applications that can automatically react to data 
+     changes. At present there are certain limits to DynamoDB. Amazon has listed 
+     all the limits in a web page titled ‘`Limits in DynamoDB <http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html>`_
+’
+
 253. Google DataStore
 
 File management
@@ -3991,6 +4033,37 @@ IaaS Management from HPC to hypervisors
      
 355. vSphere and vCloud
 356. Amazon
+
+     Amazon’s AWS (Amazon Web Services) is a provider of Infrastructure 
+     as a Service (IaaS) on cloud. It provides a broad set of infrastructure 
+     services, such as computing, data storage, networking and databases. 
+     One can leverage AWS services by creating an account with AWS and then 
+     creating a virtual server, called as an instance, on the AWS cloud. 
+     In this instance you can select the hard disk volume, number of CPUs 
+     and other hardware configuration based on your application needs. 
+     You can also select operating system and other software required 
+     to run your application. AWS lets you select from the countless services. 
+     Some of them are mentioned below.
+
+          -  Amazon Elastic Computer Cloud (EC2)
+
+          -  Amazon Simple Storage Service (Amazon S3)
+
+          -  Amazon CloudFront
+
+          -  Amazon Relational Database Service (Amazon RDS)
+
+          -  Amazon SimpleDB
+
+          -  Amazon Simple Notification Service (Amazon SNS)
+
+          -  Amazon Simple Queue Service (Amazon SQS)
+
+          -  Amazon Virtual Private Cloud (Amazon VPC)
+
+     Amazon EC2 and Amazon S3 are the two core IaaS services, which are 
+     used by cloud application solution developers worldwide. :cite:'www-aws'
+
 357. Azure
 358. Google and other public Clouds
 359. Networking: Google Cloud DNS
