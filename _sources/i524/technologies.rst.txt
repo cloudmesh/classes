@@ -131,6 +131,25 @@ Workflow-Orchestration
     the cloud." 
 
 23. Azure Data Factory
+    
+    Azure data factory is a cloud based data integration service that
+    can ingest data from various sources, transform/ process data and
+    publish the result data to the data stores. A data management
+    gateway enables access to data on SQL Databases
+    :cite:`Azure_df`. The data processing is done by It works by
+    creating pipelines to transform the raw data into a format that
+    can be readily used by BI Tools or applications. The services
+    comes with rich visualization aids that aid data analysis. Data
+    Factory supports two types of activities: data movement activities
+    and data transformation activities. Data Movement :cite:`Azure_ms`
+    is a Copy Activity in Data Factory that copies data from a data
+    source to a Data sink. Data Factory supports the following data
+    stores. Data from any source can be written to any sink.  Data
+    Transformation: Azure Data Factory supports the following
+    transformation activities such as Map reduce, Hive transformations
+    and Machine learning activities.  Data factory is a great tool to
+    analyze web data, sensor data and geo-spatial data.
+
 24. Google Cloud Dataflow
     
     Google Cloud Dataflow is a unified programming model and a managed
@@ -365,6 +384,23 @@ Application and Analytics
     
     
 53. Theano
+    Theano is a Python library. It was written at the LISA lab. 
+    Initially it was created with the purpose to support efficient
+    development of machine learning(ML) algorithms. 
+    Theano uses recent GPUs for higher speed.
+    It is used to evaluate mathematical expressions and especially
+    those mathematical expressions that include multi-dimensional arrays.
+    Theano’s working is dependent on combining aspects of a computer algebra
+    system and an optimizing compiler.
+    This combination of computer algebra system with optimized compilation
+    is highly beneficial for the tasks which involves complicated 
+    mathematical expressions and that need to be evaluated repeatedly as
+    evaluation speed is highly critical in such cases. 
+    It can also be used to generate customized C code for number of
+    mathematical operations. 
+    For cases where many different expressions are there and each of them 
+    is evaluated just once, Theano can minimize the amount of compilation
+    and analyses overhead :cite:`www-theano`.
 54. DL4j
 
     DL4j stands for Deeplearning4j. :cite:`www-dl4j` It is a deep
@@ -759,6 +795,22 @@ Application Hosting Frameworks
 102. Agave
 103. Atmosphere
 
+     Atmosphere is developed by CyVerse (previously named as iPlant
+     Collaborative).
+     It is a cloud-computing platform. It allows one to launch his own
+     “isolated virtual machine (VM) image :cite:`www-at1`.
+     It does not require any machine specification. It can be run on any device
+     (tablet/desktop/laptop) and any machine(Linux/Windows/Max/Unix).
+     User should have a CyVerse account and be granted permission to access to 
+     Atmosphere before he can begin using Atmosphere. No subscription is needed.
+     Atmosphere is designed to execute data-intense bioinformatics tasks that 
+     may include a)Infrastructure as a Service (IaaS) with advanced APIs;
+     b)Platform as a Service (PaaS), and c)Software as a Service (SaaS).
+     On Atmosphere one has several images of virtual machine and user can launch
+     any image or instance according to his requirements.
+     The images launched by users can be shared among different members as and
+     when required :cite:`www-at2`.
+
 
 High level Programming
 ----------------------------------------------------------------------
@@ -952,7 +1004,21 @@ Streams
 128. S4
 129. Samza
 130. Granules
+
+     Granules in used for execution or processing of data streams in 
+     distributed environment.
+     When applications are running concurrently on multiple computational 
+     resources, granules manage their parallel execution.
+     The MapReduce implementation in Granules is responsible for providing
+     better performance.It has the capability of expressing computations like 
+     graphs.
+     Computations can be scheduled based on periodicity or other activity.
+     Computations can be developed in C, C++, Java, Python, C#, R
+     It also provides support for extending basic Map reduce framework.
+     Its application domains include hand writing recognition, bio informatics
+     and computer brain interface :cite:`www-granules`.
 131. Neptune
+
 132. Google MillWheel
 133. Amazon Kinesis
 
@@ -987,8 +1053,76 @@ Streams
 
 134. LinkedIn
 135. Twitter Heron
+
+     Heron is a real-time analytics platform that was developed at
+     Twitter for distributed streaming processing. Heron was
+     introduced at SIGMOD 2015 to overcome the shortcomings of Twitter
+     Storm as the scale and diversity of Twitter data increased. As
+     mentioned in :cite:`TwitterHeronOpen` The primary advantages of
+     Heron were: API compatible with Storm: Back compatibility with
+     Twitter Storm reduced migration time. Task-Isolation: Every task
+     runs in process-level isolation, making it easy to debug/
+     profile. Use of main stream languages: C++, Java, Python for
+     efficiency, maintainability, and easier community
+     adoption. Support for backpressure: dynamically adjusts the rate
+     of data flow in a topology during run-time, to ensure data
+     accuracy. Batching of tuples: Amortizing the cost of transferring
+     tuples. Efficiency: Reduce resource consumption by 2-5x and Heron
+     latency is 5-15x lower than Storm’s latency. The architecture of
+     Heron (as shown in :cite:`TwitterHeron`)uses the Storm API to
+     submit topologies to a scheduler. The scheduler runs each
+     topology as a job consisting of several containers. The
+     containers run the topology master, stream manager, metrics
+     manager and Heron instances. These containers are managed by the
+     scheduler depending on resource availability.
+     
 136. Databus
 137. Facebook Puma/Ptail/Scribe/ODS
+     
+     The real time data Processing at Fcabook is carried out using the
+     technologies like Scibe,PTail, Puma and ODS. While designing the
+     system, facebook primarily focused on the five key decissions
+     that the system should incorporate and that included Ease of Use,
+     Performance , Fault-tolerance , Scalability and
+     Correctness.:cite: 'www-facebook' "The real time data analytics
+     ecosystem at facebook is designed to handle hundreds of Gigabytes
+     of data per second via hundreds of data pipelines and this system
+     handles over 200,000 events per second with a maximum latency of
+     30 seconds". :cite:'www-facebook'Fcabook focused on the Seconds
+     of latency while designing the system and not milliseconds as
+     seconds are fast enough to for all the use case that needs to be
+     supported, and it allowed facebook to use persistent message bus
+     for data transport and this made the system more fault toleranat
+     and scalable. :cite:'facebook-paper-2017' The large
+     infrastructure of facebook comprises of hundreds of systems
+     distributed across multiple data centers that needs a continious
+     monitoring to track their health and performance.Which is done by
+     Operational Data Store(ODS).ODS comprises of a time series
+     database (TSDB),which is a query service, and a detection and
+     alerting system. ODS’s TSDB is built atop the HBase storage
+     system.Time series data from services running on Facebook hosts
+     is collected by the ODS write service and written to HBase.
+
+     When the data is generated by the user from their devices, an
+     AJAX request is fired to facebook,and these requests are then
+     written to a log file using Scribe(distributed data transport
+     system), this messaging system collect, aggregate and delivers
+     high volume of log data with few seconds of latency and high
+     throughput.Scribe stores the data in the HDFS(Hadoop Distributed
+     File System) in a tailing fashion, where the new events are
+     stored in log files and the files are tailed below the current
+     events.The events are then written into the storage HBase on
+     distributed machines. This makes the data avalible for both batch
+     and real-time processing. Ptail is an internal tool built to
+     aggregate data from multiple Scribe stores and It then tails the
+     log files and pulls data out for processing. Puma is a stream
+     processing system which is the real-time aggregation/storage of
+     data. Puma provides filtering and processing of Scribe streams
+     (with a few seconds delay), usually Puma batches the storage per
+     1.5 seconds on average and when the last flush completes, then
+     only a new batch starts to avoid the contention issues, which
+     makes i fairly real time
+     
 138. Azure Stream Analytics
 139. Floe
 140. Spark Streaming
@@ -1301,7 +1435,7 @@ Inter process communication Collectives
      the list of subscribers interested in the topic, and delivers the
      message to each and every one of them.
 
-     According to :citi:`sns-faq`, Amazon SNS follows pay as per usage. In
+     According to :cite:`sns-faq`, Amazon SNS follows pay as per usage. In
      general it is $0.50 per 1 million Amazon SNS Requests.Amazon SNS
      supports notifications over multiple transport protocols such as
      HTTP/HTTPS, Email/Email-JSON, SQS(Message queue) and SMS.Amazon SNS
@@ -1310,6 +1444,24 @@ Inter process communication Collectives
 
 179. Lambda
 180. Google Pub Sub
+
+     :cite:`www-google-pub-sub` Google Pub/Sub provides an asynchronous 
+     messaging facility which assists the communication between independent 
+     applications. It works in real time and helps keep the two interacting 
+     systems independent. It is the same technology used by many of the 
+     Google apps like GMail, Ads, etc. and so integration with them becomes 
+     very easy. :cite:`www-google-pub-sub-features` Some of the typical 
+     features it provides are: (1) Push and Pull - Google Pub/Sub integrates 
+     quickly and easily with the systems hosted on the Google Cloud Platform 
+     thereby supporting one-to-many, one-to-one and many-to-many 
+     communication, using the push and pull requests. (2) Scalability - It 
+     provides high scalability and availability even under heavy load without 
+     any degradation of latency. This is done by using a global and highly 
+     scalable design. (3) Encryption - It provides security by encryption of 
+     the stored data as well as that in transit. Other than these important 
+     features, it provides some others as well, like the usage of RESTful 
+     APIs, end-to-end acknowledgement, replicated storage, etc. 
+     
 181. Azure Queues
 182. Event Hubs
 
@@ -1463,6 +1615,28 @@ Object-relational mapping
      relational database.
      
 195. DataNucleus
+
+     DataNucleus (available under Apache 2 open source license) is a
+     data management framework in Java. Formerly known as ‘Java
+     Persistent Objects’ (JPOX) this was relaunched in 2008 as
+     ‘DataNucleus’. According to :cite:`DataNucleusWiki` DataNucleus
+     Access Platform is a fully compliant implementation of the Java
+     Persistent API (JPA) and Java Data Objects (JDO)
+     specifications. It provides persistence and retrieval of data to
+     a number of datastores using a number of APIs, with a number of
+     query languages. In addition to object-relational mapping (ORM)
+     it can also map and manage data from sources other than RDBMS
+     (PostgreSQL, MySQL, Oracle, SQLServer, DB2, H2 etc.) such as
+     Map-based (Cassandra, HBase), Graph-based (Neo4j), Documents
+     (XLS, OOXML, XML, ODF), Web-based (Amazon S3, Google Storage,
+     JSON), Doc-based (MongoDB) and Others (NeoDatis, LDAP). It
+     supports the JPA (Uses JPQL Query language), JDO (Uses JDOQL
+     Query language) and REST APIs :cite:`DataNucleus`.DataNucleus
+     products are built from a sequence of plugins where each of it is
+     an OSGi bundle and can be used in an OSGi environment. Google App
+     Engine uses DataNucleus as the Java persistence layer
+     :cite:`DataNucleusPerformance`.
+	   
 196. ODBC/JDBC
 
 
@@ -1470,6 +1644,30 @@ Extraction Tools
 ----------------------------------------------------------------------
 
 197. UIMA
+     
+     Unstructured Information Management applications (UIMA) provides
+     a framework for content analytics. It searches unstructured data
+     to retrieve specific targets for the user. For example, when a
+     text document is given as input to the system, it identifies
+     targets such as persons, places, objects and even
+     associations. According to , :cite:`uima_wiki` theUIMA
+     architecture can be thought of as four dimensions: 1. Specifies
+     component interfaces in analytics pipeline.  2. Describes a set
+     of Design patterns. 3. Suggests two data representations: an
+     in-memory representation of annotations for high-performance
+     analytics and an XML representation of annotations for
+     integration with remote web services. 4. Suggests development
+     roles allowing tools to be used by users with diverse skills.
+
+     UIMA uses different, possibly mixed, approaches which include
+     Natural Language Processing, Machine Learning, IR. UIMA supports
+     multimodal analytics :cite:`uima_ss` which enables the system to
+     process the resource fro various points of view. UIMA is used in
+     several software projects such as the IBM Research's Watson uses
+     UIMA for analyzing unstructured data and Clinical Text Analysis
+     and Knowledge Extraction System (Apache cTAKES) which is a
+     UIMA-based system for information extraction from medical
+     records.
 
 381. Tika
 
@@ -1562,6 +1760,28 @@ SQL(NewSQL)
 210. Google Cloud SQL
 211. Azure SQL
 212. Amazon RDS
+
+     According to Amazon Web Services, Amazon Relation Database
+     Service (Amazon RDS) is a web service which makes it easy to
+     setup, operate and scale relational databases in the cloud. As
+     mentioned in :cite:`AmazonRDS` It allows to create and use
+     MySQL, Oracle, SQL Server, and PostgreSQL databases in the
+     cloud. Thus, codes, applications and tools used with existing
+     databases can be used with Amazon RDS. The basic components of
+     Amazon(As listed in :cite:`AmazonRDSComponents`) RDS include: DB
+     Instances: DB instance is an isolated database environment in the
+     cloud. Regions and availability zones: Region is a data center
+     location which contains Availability Zones. Availability Zone is
+     isolated from failures in other Availability Zones. Security
+     groups: controls access to DB instance by allowing access to IP
+     address ranges or Amazon EC2 instances that is specified. DB
+     parameter groups: manage configuration of DB engine by specifying
+     engine configuration values that are applied to one or more DB
+     instances of the same instance type. DB option groups: Simplifies
+     data management through Oracle Application Express (APEX), SQL
+     Server Transparent Data Encryption, and MySQL memcached support.
+
+     
 213. Google F1
 214. IBM dashDB
 
@@ -1710,6 +1930,17 @@ NoSQL
 
      
 226. Tycoon
+
+     Tycoon/ Kyoto Tycoon :cite:`Tycoon_fl` is a lightweight database
+     server developed by FLL labs and is a distributed Key-value store
+     :cite:`Tycoon_cf`. It is very useful in handling cache data
+     persistent data of various applications. Kyoto Tycoon is also a
+     package of network interface to the DBM called Kyoto Cabinet
+     :cite:`Tycoon_fl2` which contains a library of routines for
+     managing a database. Tycoon is composed of a sever process that
+     manger multiple databases. This renders high concurrency enabling
+     it to handle more than 10 thousand connections at the same time.
+     
 227. Tyrant
 
      Tyrant provides network interfaces to the database management
@@ -1922,10 +2153,51 @@ NoSQL
      
 244. Yarcdata
 245. AllegroGraph
+     
+     “AllegroGraph is a database technology that enables businesses to 
+     extract sophisticated decision insights and predictive analytics from 
+     their highly complex, distributed data that can’t be answered with 
+     conventional databases, i.e., it turns complex data into actionable 
+     business insights.” :cite:`www-Allegro`
+     It can be viewed as a closed source database that is used for storage
+     and retrieval of data in the form of triples (triple is a data entity 
+     composed of subject-predicate-object like “Professor teaches students”).
+     Information in a triplestore is retrieved using a query language. Query 
+     languages can be classified into database query languages or information
+     retrieval query languages. The difference is that a database query language
+     gives exact answers to exact questions, while an information retrieval 
+     query language finds documents containing requested information. 
+     Triple format represents information in a machine-readable format. 
+     Every part of the triple is individually addressable via unique URLs — 
+     for example, the statement “Professor teaches students” might be 
+     represented in RDF(Resource Description Framework ) as 
+     http://example.name#Professor12 http://xmlns.com/foaf/0.1/teacheshttp:
+     //example.name#students. Using this representation, semantic data can 
+     be queried.  :cite:`www-Allegrow`
+
 246. Blazegraph
 247. Facebook Tao
 248. Titan:db
 249. Jena
+
+     Jena is an open source Java Framework provided by Apache for
+     semantic web applications. (:cite:`jena_wiki`) It provides a
+     programmatic environment for RDF, RDFS and OWL, SPARQL, GRDDL,
+     and includes a rule-based inference engine. Semantic web data
+     differs from conventional web applications in that it supports a
+     web of data instead of the classic web of documents format. The
+     presence of a rule based inference engine enable Jena to perform
+     a reasoning based on OWL and RDFS ontologies.  :cite:`jena_blog`
+     The architecture of Jena contains three layers : Graph layer,
+     model layer and Ontology layer. The graph layer forms the base
+     for the architecture. It does not have an extensive RDF
+     implementation and serves more as a Service provider
+     Interface. According to :cite:`jena_blog` It provides
+     classes/methods that could be further extended. The model layer
+     extends the graph layer and provides objects of type ‘resource’
+     instead of ‘node’ to work with.  The ontology layer enables one
+     to work with triples.
+
 250. Sesame
 
      Sesame is framework which can be used for the analysis of RDF
@@ -2067,7 +2339,7 @@ Data Transport
 264. HTTP
 265. FTP
 
-     According to :cite:`wiki-ftp` FTP is an acronym for File Transfer
+     According to :cite:`ftp-wiki` FTP is an acronym for File Transfer
      Protocol. It is network protocol standard used for transferring
      files between two computer systems or between a client and a
      server. It is part of the Application layer of the Internet
@@ -2259,10 +2531,40 @@ Cluster Resource Management
 284. Globus Tools
 285. Pilot Jobs
 
+     In pilot job, an application acquires a resource so that it can
+     be delegated some work directly by the application; instead of
+     requiring some job scheduler. The issue of using a job scheduler
+     is that a waiting queue is required. Few examples of Pilot Jobs
+     are the :cite:`pilot-job-falkon-paper-2007` Falkon lightweight
+     framework and :cite:`pilot-job-htcaas-paper-2007` HTCaaS. Pilot
+     jobs are typically associated with both Parallel computing as
+     well as Distributed computing. Their main aim is to reduce the
+     dependency on queues and the associated multiple wait times.
+
+     :cite:`www-pilot-job-paper-2016` Using pilot jobs enables us to have a 
+     multilevel technique for the execution of various workloads. This is so 
+     because the jobs are typically acquired by a placeholder job and they 
+     relayed to the workloads.      
+
 File systems
 ----------------------------------------------------------------------
 
 286. HDFS
+     
+     Hadoop provides distributed file system framework that uses Map
+     reduce (Distributed computation framework) for transformation and
+     analyses of large dataset.  Its main work is to partition the
+     data and other computational tasks to be performed on that data
+     across several clusters.  HDFS is the component for distributed
+     file system in Hadoop.An HDFS cluster primarily consists of a
+     Name Node and Data Nodes. Name Node manages the file system
+     metadata such as access permission, modification time, location
+     of data and Data Nodes store the actual data.   When user
+     applications or Hadoop frameworks request access to a file in
+     HDFS, Name Node service responds with the Data Node locations for
+     the respective individual data blocks that constitute the whole
+     of the requested file:cite:`www-hdfs`.
+
 287. Swift
 288. Haystack
 289. f4
@@ -2639,6 +2941,25 @@ DevOps
 
 316. Xcat
 317. Razor
+
+     Razor is a hardware provisioning application, developed by Puppet
+     Labs and EMC. Razor was introduced as open, pluggable, and
+     programmable since most of the provisioning tools that existed
+     were vendor-specific, monolithic, and closed. According to
+     :cite:`RazorWiki` it can deploy both bare-metal and virtual
+     systems. During boot the Razor client automatically discovers the
+     inventory of the server hardware – CPUs, disk, memory, etc.,
+     feeds this to the Razor server in real-time and the latest state
+     of every server is updated. It maintains a set of rules to
+     dynamically match the appropriate operating system images with
+     server capabilities as expressed in metadata. User-created policy
+     rules are referred to choose the preconfigured model to be
+     applied to a new node. The node follows the model's directions,
+     giving feedback to Razor as it completes various steps as
+     specified in :cite:`RazorPuppet`. Models can include steps for
+     handoff to a DevOps system or to any other system capable of
+     controlling the node.
+     
 318. CloudMesh
 319. Juju
 
@@ -3039,6 +3360,28 @@ Security & Privacy
 370. Sqrrl
 371. OpenID
 372. SAML OAuth
+
+     As explained in :cite:`SAML`, Security Assertion Markup Language
+     (SAML) is a secured XML based communication mechanism for
+     communicating identities between organizations. The primary use
+     case of SAML is Internet SSO. It eliminates the need to maintain
+     multiple authentication credentials in multiple locations. This
+     enhances security by elimination opportunities for identity
+     theft/Phishing. It increases application access by eliminating
+     barriers to usage. It reduces administration time and cost by
+     excluding the effort to maintain duplicate credentials and
+     helpdesk calls to reset forgotten passwords. Three entities of
+     SAML are the users, Identity Provider (IdP-Organization that
+     maintains a directory of users and an authentication mechanism)
+     and Service Provider(SP-Hosts the application /service). User
+     tries to access the application by clicking on a link or through
+     an URL on the internet. The Federated identity software running
+     in the IdP validates the user’s identity and the user is then
+     authenticated. A specifically formatted message is then
+     communicated to the federated identity software running at SP. SP
+     creates a session for the user in the target application and
+     allows the user to get direct access once it receives the
+     authorization message from a known identity provider.
 
 Distributed Coordination
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
