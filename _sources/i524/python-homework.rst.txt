@@ -277,3 +277,18 @@ In the :doc:`tutorial on Python for big data
 the ages of people who received traffic citations in Q1 2016. Generate
 the same histogram with the `pygal <http://pygal.org/en/stable/>`_
 Python module.
+
+Submission
+----------
+
+* For **residential students**, please have this ready on your GitHub
+  accounts by class time on Monday, February 20th. We will pick
+  students at random to demonstrate their solutions.
+
+* For **online students**, you don't need to submit anything to
+  us. However, we still strongly encourage you to do these
+  exercises. They will help you get up to speed in Python if you're
+  not familiar with it; or if you are, they might introduce you to
+  some modules that you haven't used before. Of course, if you have
+  any questions about the exercises, please discuss them with the AIs
+  during office hours or on Piazza.
