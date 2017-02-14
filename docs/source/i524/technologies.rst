@@ -828,17 +828,18 @@ Application and Analytics
 75. three.js
 76. Potree
 
-    Potree is a opensource tool powered by WebGL based viewer to
-    visualize data from large point clouds. It started at the TU Wien,
-    institute of Computer Graphics and Algorithms and currently begin
-    continued under the Harvest4D project. Potree relies on
-    reorganizing the point cloud data into an multi-resolution octree
-    data structure which is time consuming. It efficiency can be
-    improved by using techiques such as divide and conquer as
-    disscused in a conference paper Taming the beast: Free and Open
-    Source massive cloud point cloud web visualization . It has also
-    been widely used in works involving spatio-temporal data where the
-    changes in geographical features are across time.
+    Potree :cite:`www-potree` is a opensource tool powered by WebGL
+    based viewer to visualize data from large point clouds. It started
+    at the TU Wien, institute of Computer Graphics and Algorithms and
+    currently begin continued under the Harvest4D project. Potree
+    relies on reorganizing the point cloud data into an
+    multi-resolution octree data structure which is time consuming. It
+    efficiency can be improved by using techiques such as divide and
+    conquer as disscused in a conference paper Taming the beast: Free
+    and Open Source massive cloud point cloud web
+    visualization :cite:`potree-paper-1`. It has also been widely used
+    in works involving spatio-temporal data where the changes in
+    geographical features are across time.
     
 77. DC.js
 
