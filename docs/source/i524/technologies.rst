@@ -1551,7 +1551,7 @@ Streams
      aggregations. MillWheel was designed from the outset with fault
      tolerance and scalability in mind. In practice, we find that
      MillWheel’s unique combination of scalability, fault tolerance,
-     and a versatile programming model :cite:`41378`.
+     and a versatile programming model :cite:`millwheel-paper`.
 133. Amazon Kinesis
 
      Kinesis is Amazon’s :cite:`www-kinesis` real time data processing
