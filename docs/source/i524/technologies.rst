@@ -516,12 +516,16 @@ Application and Analytics
 
 63. Parasol
 
-	The parasol laboratory is a multidisciplinary research program founded at Texas A&M University with a focus on next 
-	generation computing languages.  The core focus is centered around algorithm and application development to find solutions 
-	to data concentrated problems. : cite: ‘parasol-tamu-edu’ The developed applications are being applied in the following 
-	areas: computational biology, geophysics, neuroscience, physics, robotics, virtual reality and computer aided drug 
-	design(CAD).  The program has organized a number of workshops and conferences in the areas such as software, intelligent 
-	systems, and parallel architecture.
+    The parasol laboratory is a multidisciplinary research program 
+    founded at Texas A&M University with a focus on next generation 
+    computing languages.  The core focus is centered around algorithm 
+    and application development to find solutions to data concentrated 
+    problems. : cite: ‘parasol-tamu-edu’ The developed applications 
+    are being applied in the following areas: computational biology, 
+    geophysics, neuroscience, physics, robotics, virtual reality and 
+    computer aided drug design(CAD).  The program has organized a number 
+    of workshops and conferences in the areas such as software,
+    intelligent systems, and parallel architecture.
 	
 64. Dream:Lab
 
@@ -772,14 +776,19 @@ Application Hosting Frameworks
 91. Jelastic
 92. Stackato
 
-	Hewlett Packard Enterprise or HPE Helion Stackato is a platform as a service (PaaS) cloud computing solution.  The platform 
-	facilitates deployment of the user’s application in the cloud and will function on top of an Infrastructure as a service 
-	(IaaS). :cite:`www-hpe` Multiple cloud development is supported across AWS, vSphere, and Helion Openstack.  The platform 
-	supports the following programming languages: native .NET support, java, Node.js, python, and ruby.  This flexibility is 
-	advantageous compared to early PaaS solutions which would force the customer into utilizing a single stack.  Additionally, 
-	this solution has the capacity to support private, public and hybrid clouds. :cite: ‘www-virtualizationpractice’ This 
-	capability user has to not have to make choices of flexibility over security of sensitive data when choosing a cloud 
-	computing platform.
+    Hewlett Packard Enterprise or HPE Helion Stackato is a platform as a 
+    service (PaaS) cloud computing solution.  The platform facilitates 
+    deployment of the user’s application in the cloud and will function 
+    on top of an Infrastructure as a service (IaaS). :cite:`www-hpe` 
+    Multiple cloud development is supported across AWS, vSphere, and 
+    Helion Openstack.  The platform supports the following programming 
+    languages: native .NET support, java, Node.js, python, and ruby.  
+    This flexibility is advantageous compared to early PaaS solutions 
+    which would force the customer into utilizing a single stack.  
+    Additionally, this solution has the capacity to support private, 
+    public and hybrid clouds. :cite: ‘www-virtualizationpractice’ This 
+    capability user has to not have to make choices of flexibility over 
+    security of sensitive data when choosing a cloud computing platform.
 	
 93. appfog
 
@@ -1233,10 +1242,14 @@ Basic Programming model and runtime, SPMD, MapReduce
 158. MapGraph
 159. Totem
 
-	Totem is a project to overcome the current challenges in graph algorithms.  The project is research the Networked Systems 
-	Laboratory (NetSysLab) The issue resides in the scale of real world graphs and the inability to process them on platforms 
-	other than a supercomputer.  Totem is based on a bulk synchronous parallel(BSP) model that can enable hybrid CPU/GPU systems 
-	to process graph based applications in a cost effective manner. :cite: ‘netsyslab’ 
+     Totem is a project to overcome the current challenges in graph 
+     algorithms.  The project is research the Networked Systems 
+     Laboratory (NetSysLab) The issue resides in the scale of real 
+     world graphs and the inability to process them on platforms 
+     other than a supercomputer.  Totem is based on a bulk synchronous 
+     parallel(BSP) model that can enable hybrid CPU/GPU systems 
+     to process graph based applications in a cost effective manner. 
+     :cite: ‘netsyslab’ 
 
 Inter process communication Collectives
 ----------------------------------------------------------------------
@@ -2747,11 +2760,16 @@ Interoperability
 
 300. Libvirt
 
-	Libvirt is an open source API to manage hardware virtualization developed by Red Hat.  It is a standard C library but has 
-	accessibility from other languages such as Python, Perl, Java and others. :cite: ‘libvirt-org’  Multiple virtual machine 
-	monitors(VMM) or hypervisors are supported such as KVM,QEMU, Xen, Virtuozzo, VMWare ESX, LXC, and BHyve.  It can be divided 
-	into five categories such as hypervisor connection, domain, network, storage volume and pool.   :cite: ‘ibm’  It is 
-	accessible by many operating systems such as Linux, FreeBSD, Mac OS, and Windows OS.
+     Libvirt is an open source API to manage hardware virtualization 
+     developed by Red Hat.  It is a standard C library but has 
+     accessibility from other languages such as Python, Perl, Java 
+     and others. :cite: ‘libvirt-org’  Multiple virtual machine 
+     monitors(VMM) or hypervisors are supported such as KVM, QEMU, 
+     Xen, Virtuozzo, VMWare ESX, LXC, and BHyve.  It can be divided 
+     into five categories such as hypervisor connection, domain, 
+     network, storage volume and pool. :cite: ‘ibm’  It is accessible 
+     by many operating systems such as Linux, FreeBSD, Mac OS, and 
+     Windows OS.
 
 301. Libcloud
 302. JClouds
@@ -3262,15 +3280,22 @@ IaaS Management from HPC to hypervisors
 354. VMware ESXi
 355. vSphere and vCloud
 
-	vSphere was developed by VMware and is a cloud computing virtualization platform. :cite: ‘www-mustbegeek’  vSphere is not 
-	one piece of software but a suite of tools that contains software such as vCenter, ESXi, vSphere client and a number of 
-	other technologies.  ESXi server is a type 1 hypervisor on a physical machine of which all virtual machines are installed.  
-	The vSphere client then allows administrators to connect to the ESXi and manage the virtual machines.  The vCenter server is 
-	a virtual machine that is also installed on the ESXi server which is used in environments when multiple ESXi servers are 
-	exist.  Similarly, vCloud is also a suite of applications but for establishing an infrastructure for a private cloud. :cite: 
-	‘www-vmware’ The suite includes the vsphere suite, but also contains site recovery management for disaster recovery,  site 
-	networking and security.  Additionally, a management suite that can give a visual of the infrastructure to determine where 
-	potential issues might arise.
+     vSphere was developed by VMware and is a cloud computing 
+     virtualization platform. :cite: ‘www-mustbegeek’  vSphere is not 
+     one piece of software but a suite of tools that contains 
+     software such as vCenter, ESXi, vSphere client and a number of 
+     other technologies.  ESXi server is a type 1 hypervisor on a 
+     physical machine of which all virtual machines are installed.  
+     The vSphere client then allows administrators to connect to 
+     the ESXi and manage the virtual machines.  The vCenter server is 
+     a virtual machine that is also installed on the ESXi server 
+     which is used in environments when multiple ESXi servers are 
+     exist.  Similarly, vCloud is also a suite of applications but for 
+     establishing an infrastructure for a private cloud. :cite:‘www-vmware’ 
+     The suite includes the vsphere suite, but also contains site recovery 
+     management for disaster recovery,  site networking and security.  
+     Additionally, a management suite that can give a visual of the 
+     infrastructure to determine where potential issues might arise.
 	
 356. Amazon
 357. Azure
