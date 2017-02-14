@@ -885,6 +885,20 @@ Application and Analytics
 74. D3.js
 75. three.js
 76. Potree
+
+    Potree :cite:`www-potree` is a opensource tool powered by WebGL
+    based viewer to visualize data from large point clouds. It started
+    at the TU Wien, institute of Computer Graphics and Algorithms and
+    currently begin continued under the Harvest4D project. Potree
+    relies on reorganizing the point cloud data into an
+    multi-resolution octree data structure which is time consuming. It
+    efficiency can be improved by using techiques such as divide and
+    conquer as disscused in a conference paper Taming the beast: Free
+    and Open Source massive cloud point cloud web
+    visualization :cite:`potree-paper-1`. It has also been widely used
+    in works involving spatio-temporal data where the changes in
+    geographical features are across time :cite:`potree-paper-2`.
+    
 77. DC.js
 
     According to :cite:`www-dcjs`: “DC.js is a javascript charting
@@ -1289,6 +1303,20 @@ High level Programming
 113. HadoopDB
 114. PolyBase
 115. Pivotal HD/Hawq
+
+     Pivotal HDB is the Apache Hadoop native SQL database powered by
+     Apache HAWQ :cite:`www-apache-hqwq` for data science and machine
+     learning workloads. It can be used to gain deeper and actionable
+     insights into data with out the need from moving data to another
+     platform to perfrom advanced analytics. Few important problems
+     that Pivot HDB address are as follows Quickly unlock business
+     insights with exceptional performance, Integrate SQL BI tools
+     with confidence and Iterate advanced analytics and machine
+     learning in database support. Pivotal HDB comes with an elastic
+     SQL query engine which combines MPP-based analytical performance,
+     roboust ANSI SQL compliance and integrated Apache MADlib for
+     machine learning :cite:`www-pivotalhdb`.
+     
 116. Presto
 
      .. include:: techs/presto.rst
