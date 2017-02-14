@@ -1200,7 +1200,9 @@ High level Programming
      like language for use on Apache Hadoop, Hama, Spark, and Flink.
      MRQL allows users to perform complex data analysis using only SQL
      like queries, which are translated by MRQL to efficient Java
-     code. :cite:`www-apachemrql`
+     code. MRQL can evaluate queries in Map-Reduce (using Hadoop), Bulk
+     Synchronous Parallel (using Hama), Spark, and Flink modes.
+     :cite:`www-apachemrql`
 
      MRQL was created in 2011 by Leaonids
      Fegaras :cite:`www-mrqlhadoop` and is currently in the Apache
@@ -2048,10 +2050,14 @@ In-memory databases/caches
      It is open source software, released under the Apache 2.0 License. 
      :cite:`www-githubhazel` Hazelcast enables predictable scaling for 
      applications by providing in memory access to data. 
-     :cite:`www-wikihazel` Hazelcast uses a grid to distribute data evenly 
-     across a cluster. Clusters allow processing and storage to scale 
+     Hazelcast uses a grid to distribute data evenly across
+     a cluster. Clusters allow processing and storage to scale 
      horizontally. Hazelcast can run locally, in the cloud, in virtual 
-     machines, or in Docker containers. :cite:`www-wikihazel`
+     machines, or in Docker containers. Hazelcast can be utilized for 
+     a wide variety of applications. It has APIs for many programing 
+     languages including Python, Java, Scala, C++, .NET and Node.js and
+     supports any binary languages through an Open Binary Client Protocol.
+     :cite:`www-wikihazel`
 
 188. Ehcache
 
@@ -2596,11 +2602,11 @@ NoSQL
      provides high performance and low latency and scales to hundreds of
      petabytes. :cite:`www-cloudbigtable` Bigtable powers many core
      Google products, such as Search, Analytics, Maps, Earth, Gmail,
-     and YouTube. :cite:`www-wikibigtable` Since May 6, 2015, a
-     version of Bigtable has been available to the public.  Bigtable
-     also drives Google Cloud Datastore :cite:`www-wikibigtable` and
+     and YouTube. Bigtable also drives Google Cloud Datastore and
      Spanner, a distributed NewSQL database also developed by
-     Google. :cite:`www-wikispanner`
+     Google. :cite:`www-wikispanner` :cite:`www-wikibigtable` 
+     Since May 6, 2015, a version of Bigtable has been available to the 
+     public. :cite:`www-wikibigtable`
 
 236. LevelDB
 237. Megastore and Spanner
