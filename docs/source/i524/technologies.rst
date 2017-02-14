@@ -33,6 +33,17 @@ Workflow-Orchestration
    living process executions for orchestrating services for applications :cite:`www-ode-web`.
 
 2. ActiveBPEL
+
+   Business Process Execution Language for Web Services (BPEL4WS or just BPEL) is
+   an XML-based grammar for describing the logic to coordinate and control
+   web services that seamlessly integrate people, processes and systems, increasing
+   the efficiency and visibility of the business. ActiveBPEL is a robust Java/J2EE  
+   runtime environment that is capable of executing process definitions created to 
+   the Business Process Execution Language for Web Services. The ActiveBPEL also 
+   provides an administration interface that is accessible via web service 
+   invocations;and it can also be use to administer, to control and to integrate
+   web services into a larger application. :cite:`www-bpel`
+
 3. Airavata
 4. Pegasus
 
@@ -433,6 +444,16 @@ Application and Analytics
     also has tools to process genomic annotation data.
     
 39. ImageJ
+
+    ImageJ is a  Java-based image processing program developed at the National 
+    Institutes of Health (NIH). ImageJ was designed with an open architecture 
+    that provides extensibility via Java plugins and recordable macros.
+    Using ImageJ's built-in editor and a Java compiler, it has enabled to solve 
+    many image processing and analysis problems in scientifif research from 
+    three-dimensional live-cell imaging to radiological image processing. 
+    ImageJ's plugin architecture and built-in development environment has made
+    it a popular platform for teaching image processing. :cite:`www-imagej`
+
 40. OpenCV
 
     OpenCV stands for Open source Computer Vision. It was designed for
@@ -1348,6 +1369,18 @@ High level Programming
      .. include:: techs/presto.rst
 
 117. Google Dremel
+ 
+     Dremel is a scalable, interactive ad-hoc query system for analysis of 
+     read-only nested data. By combining multi-level execution trees and 
+     columnar data layout, Google Dremel is capable of running aggregation
+     queries over trillion-row tables in seconds.:cite:`www-dremel` 
+     With Dremel, you can write a declarative SQL-like query against data stored
+     in a read-only columnar format efficiently for analysis or data exploration.
+     It's also possible to write queries that analyze billions of rows, terabytes of 
+     data, and trillions of records in seconds. Dremel can be use for a variety 
+     of jobs including analyzing web-crawled documents, detecting e-mail spam, 
+     working through application crash reports.
+
 118. Google BigQuery
 119. Amazon Redshift
 120. Drill
@@ -1689,6 +1722,15 @@ Basic Programming model and runtime, SPMD, MapReduce
      can also be called from Fortrain.
 
 147. Stratosphere (Apache Flink)
+     
+      Apache Flink is an open-source stream processing framework for distributed,
+      high-performing,always-available, and accurate data streaming applications. 
+      Apache Flink is used in big data applications, primarily involving analysis 
+      of data stored in Hadoop clusters. it also Supports a combination of in-memory
+      and disk-based processing as well as handles both batch and stream processing 
+      jobs, with data streaming the default implementation and batch jobs running as 
+      special-case versions of streaming applications.:cite:`www-flink`
+
 148. Reef
 
      REEF (Retainable Evaluator Execution Framework) :cite:`www-reef`
@@ -2712,6 +2754,15 @@ NoSQL
      open-source license alternatives. :cite:`www-quora-cbs`
 
 232. IBM Cloudant
+
+     Cloudant is based on the Apache-backed CouchDB project and the 
+     open source BigCouch project. IBM Cloudant is an open source non-
+     relational, distributed database service as service (DBaaS) that
+     provides integrated data management, search, and analytics engine
+     designed for web applications. Cloudant's distributed service is 
+     used the same way as standalone CouchDB, with the added advantage 
+     of data being redundantly distributed over multiple machines.:cite:`www-cloudant`     
+
 233. Pivotal Gemfire
      
      According to :cite:`www-gemfire`, a real-time, consistent access
