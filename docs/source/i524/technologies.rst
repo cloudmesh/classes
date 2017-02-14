@@ -4182,6 +4182,21 @@ IaaS Management from HPC to hypervisors
 346. Linux-Vserver
 347. OpenStack
 348. OpenNebula
+
+     According to OpenNebula webpage :cite:`www-opennebula-org` it
+     provides simple but feature-rich and flexible solutions for the
+     comprehensive management of virtualized data centers to enable
+     private, public and hybrid laaS clouds. It is a cloud computing
+     platform for managing heterogenous distributed data centers
+     infrastructures. The OpenNebula toolkit includes features for
+     management, scalability, security and accounting. It used in
+     various sectors like hosting providers, telecom providers,
+     telecom operators, IT service providers, supercomputing centers,
+     research labs, and international research projects
+     :cite:`www-opennebula-wiki`. More about OpenNebula can be found
+     in the following paper that is published at ieee computer society
+     :cite:`paper-opennebula`
+     
 349. Eucalyptus
 350. Nimbus
 
