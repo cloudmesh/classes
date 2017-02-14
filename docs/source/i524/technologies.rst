@@ -520,7 +520,7 @@ Application and Analytics
     founded at Texas A&M University with a focus on next generation 
     computing languages.  The core focus is centered around algorithm 
     and application development to find solutions to data concentrated 
-    problems. : cite: ‘parasol-tamu-edu’ The developed applications 
+    problems. :cite: ‘parasol-tamu-edu’ The developed applications 
     are being applied in the following areas: computational biology, 
     geophysics, neuroscience, physics, robotics, virtual reality and 
     computer aided drug design(CAD).  The program has organized a number 
@@ -1249,7 +1249,7 @@ Basic Programming model and runtime, SPMD, MapReduce
      other than a supercomputer.  Totem is based on a bulk synchronous 
      parallel(BSP) model that can enable hybrid CPU/GPU systems 
      to process graph based applications in a cost effective manner. 
-     :cite: ‘netsyslab’ 
+     :cite:‘netsyslab’ 
 
 Inter process communication Collectives
 ----------------------------------------------------------------------
@@ -3291,7 +3291,7 @@ IaaS Management from HPC to hypervisors
      a virtual machine that is also installed on the ESXi server 
      which is used in environments when multiple ESXi servers are 
      exist.  Similarly, vCloud is also a suite of applications but for 
-     establishing an infrastructure for a private cloud. :cite:‘www-vmware’ 
+     establishing an infrastructure for a private cloud. :cite: ‘www-vmware’ 
      The suite includes the vsphere suite, but also contains site recovery 
      management for disaster recovery,  site networking and security.  
      Additionally, a management suite that can give a visual of the 
