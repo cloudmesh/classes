@@ -127,6 +127,36 @@ Workflow-Orchestration
 13. Jupyter
 14. (Dryad)
 15. Naiad
+
+    Naiad :cite:`paper-naiad` is a distributed system based on
+    computational model called "Timely Dataflow" developed for
+    execution of data-parallel, cyclic dataflow programs. It provides
+    an in-memory distributed dataflow framework which exposes control
+    over data partitioning and enables features like the high
+    throughput of batch processors, the low latency of stream
+    processors, and the ability to perform iterative and incremental
+    computations. The Naiad architecture consists of two main
+    components: (1) incremental processing of incoming updates and (2)
+    low-latency real-time querying of the application state.
+    
+    Compared to other systems supporting loops or streaming
+    computation, Naiad provides support for the combination of the
+    two, nesting loops inside streaming contexts and indeed other
+    loops, while maintaining a clean separation between the many
+    reasons new records may flow through the computation
+    :cite:`www-naiad`.
+    
+    This model enriches dataflow computation with timestamps that
+    represent logical points in the computation and provide the basis
+    for an efficient, lightweight coordination mechanism.  All the
+    above capabilities in one package allows development of High-level
+    programming models on Naiad which can perform tasks as streaming
+    data analysis, iterative machine learning, and interactive graph
+    mining. On the contrary, it's public reusable low-level
+    programming abstractions leads Naiad to outperforms many other
+    data parallel systems that enforce a single high-level programming
+    model.
+    
 16. Oozie
 17. Tez
 18. Google FlumeJava
@@ -234,6 +264,34 @@ Workflow-Orchestration
     foundation. :cite:`www-forbes`
     
 26. Jitterbit
+
+    Jitterbit :cite:`datasheet` is an integration tool that delivers a
+    quick, flexible and simpler approach to design, configure, test,
+    and deploy integration solutions. It delivers powerful, flexible,
+    and easy to use integration solutions that connect modern on
+    premise, cloud, social, and mobile infrastructures. Jitterbit
+    employs high performance parallel processing algorithms to handle
+    large data sets commonly found in ETL initiatives
+    :cite:`www-jitetl`. This allows easy synchronization of disparate
+    computing platforms quickly. The Data Cleansing and Smart
+    Reconstruction tools provides complete reliability in data
+    extraction, transformation and loading.
+
+    Jitterbit employs a no-code GUI (graphical user interface) and
+    work with diverse applications such as : ETL
+    (extract-transform-load), SaaS (Software as a Service),SOA
+    (service-oriented architecture).
+
+    Thus it provides centralized platform with power to control all
+    data. It supports many document types and protocols: XML, web
+    services, database, LDAP, text, FTP, HTTP(S), Flat and Hierarchic
+    file structures and file shares :cite:`tech-manual`. It is
+    available for Linux and Windows, and is also offered through
+    Amazon EC2 (Amazon Elastic Compute Cloud). Jitterbit Data Loader
+    for Salesforce is a free data migration tool that enables
+    Salesforce administrators automated import and export of data
+    between flat files, databases and Salesforce.
+
 27. Talend
 28. Pentaho
 
@@ -1693,7 +1751,34 @@ Inter process communication Collectives
 ----------------------------------------------------------------------
 
 160. point-to-point
-161. publish-subscribe: MPI
+161. publish-subscribe: Big Data
+
+     Publish/Subscribe (Pub/Sub) :cite:`thesis-pub-sub` is a
+     communication paradigm in which subscribers register their
+     interest as a pattern of events or topics and then asynchronously
+     receive events matching their interest. On the other hand,
+     publishers generate events that are delivered to subscribers with
+     matching interests.  In Pub/sub systems, publishers and
+     subscribers need not know each other. Pub/sub technology is
+     widely used for a loosely coupled interaction between disparate
+     publishing data-sources and numerous subscribing data-sinks. The
+     two most widely used pub/sub schemes are - Topic-Based
+     Publish/Subscribe (TBPS) and Content-Based Publish/Subscribe
+     (CBPS) :cite:`paper-pub-sub`.
+      
+     Big Data analytics architecture are being built on top of a
+     publish/subscribe service stratum, serving as the communication
+     facility used to exchange data among the involved components
+     :cite:`paper-pub-sub-bigdata`. Such a publish/subscribe service
+     stratum brilliantly solves several interoperability issues due to
+     the heterogeneity of the data to be handled in typical Big Data
+     scenarios.
+
+     Pub/Sub systems are being widely deployed in Centralized
+     datacenters, P2P environments, RSS feed notifications, financial
+     data dissemination, business process management, Social
+     interaction message notifications- Facebook, Twitter, Spotify,
+     etc.
 
 162. HPX-5
 
@@ -2870,6 +2955,36 @@ File management
 254. iRODS
 255. NetCDF
 256. CDF
+
+     Common Data Format :cite:`www-cdf` is a conceptual data
+     abstraction for storing, manipulating, and accessing
+     multidimensional data sets. CDF differs from traditional physical
+     file formats by defining form and function as opposed to a
+     specification of the bits and bytes in an actual physical format.
+ 
+     CDF's integrated dataset is composed by following two categories
+     :(a)Data Objects - scalars, vectors, and n-dimensional
+     arrays.(b)Metadata - set of attributes describing the CDF in
+     global terms or specifically for a single variable
+     :cite:`user-guide-cdf`.
+
+     The self-describing property (metadata) allows CDF to be a
+     generic, data-independent format that can store data from a wide
+     variety of disciplines. Hence, the application developer remains
+     insulated from the actual physical file format for reasons of
+     conceptual simplicity, device independence, and future
+     expandability.CDF data sets are portable on any of the
+     CDF-supported platforms and accessible with CDF applications or
+     layered tools. To ensure the data integrity in a CDF file,
+     checksum method using MD5 algorithm is employed
+     :cite:`www-digitalpreserve`.
+
+     Compared to HDF format :cite:`www-wiki-hdf`, CDF permitted
+     cross-linking data from different instruments and spacecraft in
+     ISTP with one development effort. CDF is widely supported by
+     commercial and open source data analysis/visualization software
+     such as IDL, MATLAB, and IBM’s Data Explorer (XP).
+
 257. HDF
 258. OPeNDAP
 259. FITS
@@ -3222,6 +3337,35 @@ File systems
      device.
      
 291. Ceph
+
+     Ceph is open-source storage platform providing highly scalable
+     object, block as well as file-based storage. Ceph is a unified,
+     distributed storage system designed for excellent performance,
+     reliability and scalability :cite:`www-ceph`. Ceph Storage
+     clusters are designed to run using an algorithm called CRUSH
+     (Controlled Replication Under Scalable Hashing) which replicates
+     and re-balance data within the cluster dynamically to ensure even
+     data distribution across cluster and quick data retrieval without
+     any centralized bottlenecks.
+ 
+     Ceph’s foundation is the Reliable Autonomic Distributed Object
+     Store (RADOS) :cite:`www-cepharch`, which provides applications
+     with object, block, and file system storage in a single unified
+     storage cluster—making Ceph flexible, highly reliable and easy to
+     manage. Ceph decouples data and metadata operations by
+     eliminating file allocation tables and replacing them with
+     generating functions which allows RADOS to leverage intelligent
+     OSDs to manage data replication, failure detection and recovery,
+     low-level disk allocation, scheduling, and data migration without
+     encumbering any central server(s) :cite:`paper-Ceph`.
+ 
+     The Ceph Filesystem :cite:`www-cephfs` is a POSIX-compliant
+     filesystem that uses a Ceph Storage Cluster to store its
+     data. Ceph’s dynamic subtree partitioning is a uniquely scalable
+     approach, offering both efficiency and the ability to adapt to
+     varying workloads. Ceph Object Storage supports two compatible
+     interfaces: Amazon S3 and Openstack Swift.
+
 292. FUSE
 
      FUSE (Filesystem in Userspace) :cite:`www-fuse` "is an interface
