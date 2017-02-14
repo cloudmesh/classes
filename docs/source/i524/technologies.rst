@@ -1245,6 +1245,20 @@ High level Programming
 113. HadoopDB
 114. PolyBase
 115. Pivotal HD/Hawq
+
+     Pivotal HDB is the Apache Hadoop native SQL database powered by
+     Apache HAWQ :cite:`www-apache-hqwq` for data science and machine
+     learning workloads. It can be used to gain deeper and actionable
+     insights into data with out the need from moving data to another
+     platform to perfrom advanced analytics. Few important problems
+     that Pivot HDB address are as follows Quickly unlock business
+     insights with exceptional performance, Integrate SQL BI tools
+     with confidence and Iterate advanced analytics and machine
+     learning in database support. Pivotal HDB comes with an elastic
+     SQL query engine which combines MPP-based analytical performance,
+     roboust ANSI SQL compliance and integrated Apache MADlib for
+     machine learning :cite:`www-pivotalhdb`.
+     
 116. Presto
 
      .. include:: techs/presto.rst
