@@ -839,7 +839,7 @@ Application and Analytics
     and Open Source massive cloud point cloud web
     visualization :cite:`potree-paper-1`. It has also been widely used
     in works involving spatio-temporal data where the changes in
-    geographical features are across time.
+    geographical features are across time :cite:`potree-paper-2`.
     
 77. DC.js
 
