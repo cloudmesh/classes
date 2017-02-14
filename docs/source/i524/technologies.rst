@@ -1723,7 +1723,11 @@ Inter process communication Collectives
 ----------------------------------------------------------------------
 
 160. point-to-point
-161. publish-subscribe: Big Data
+161. (a) publish-subscribe: MPI
+
+     see http://www.slideshare.net/Foxsden/high-performance-processing-of-streaming-data
+     
+161. (b) publish-subscribe: Big Data
 
      Publish/Subscribe (Pub/Sub) :cite:`thesis-pub-sub` is a
      communication paradigm in which subscribers register their
