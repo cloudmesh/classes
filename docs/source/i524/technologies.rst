@@ -687,6 +687,18 @@ Application and Analytics
     APIs and Software As a Service product as well.
     
 57. Oracle PGX
+
+    Numerous information is revealed from graphs. Information like
+    direct and indirect relations or patterns in the elements of the
+    data, can be easily seen through graphs. The analysis of graphs
+    can unveil significant insights. Oracle PGX (Parallel Graph
+    AnalytiX) is a toolkit for graph analysis.  “It is a fast,
+    parallel, in-memory graph analytic framework that allows users to
+    load up their graph data, run analytic algorithms on them, and to
+    browse or store the result” :cite:`www-pgx`. Graphs can be loaded
+    from various sources like SQL and NoSQL databases, Apache Spark
+    and Hadoop :cite:`www-ora`.
+    
 58. GraphLab
 
     GraphLab :cite:`www-graphlab` is a graph-based, distributed computation,
@@ -883,6 +895,20 @@ Application and Analytics
     for expanded analytics.
 
 74. D3.js
+
+    D3.js is a JavaScript library responsible for manipulating
+    documents based on data. D3 helps in making data more interactive
+    using HTML, SVG, and CSS. D3’s emphasis on web standards makes it
+    framework independent utilizing the full capabilities of modern
+    browsers, combining powerful visualization components and a
+    data-driven approach to DOM manipulation :cite:`www-d3`.
+
+    It assists in binding random data to a Document Object Model
+    (DOM), followed by applying data-driven transformations to the
+    document. It is very fast, supports large datasets and dynamic
+    behaviours involving interaction and animation.
+
+    
 75. three.js
 76. Potree
 
@@ -2259,7 +2285,23 @@ Object-relational mapping
 	   
 196. ODBC/JDBC
 
+     Open Database Connectivity (ODBC) is an open standard application
+     programming interface (API) for accessing database management
+     systems (DBMS) :cite:`www-odbc`. ODBC was developed by the SQL
+     Access Group and released in September, 1992. Microsoft Windows
+     was the first to provide an ODBC product. Later the versions for
+     UNIX, OS/2, and Macintosh platforms were developed. ODBC is
+     independent of the programming language, database system and
+     platform.
 
+     Java Database Connectivity (JDBC) is a API developed specific to
+     the Java programming language. JDBC was released as part of Java
+     Development Kit (JDK) 1.1 on February 19, 1997 by Sun
+     Microsystems :cite:`www-jdbc`. The ‘java.sql’ and ‘javax.sql’
+     packages contain the JDBC classes. JDBC is more suitable for
+     object oriented databases. JDBC can be used for ODBC compliant
+     databases by using a JDBC-to-ODBC bridge.
+     
 Extraction Tools
 ----------------------------------------------------------------------
 
@@ -3320,6 +3362,23 @@ File systems
 287. Swift
 288. Haystack
 289. f4
+     
+     As the amount of data Facebook stores continues to increase, the
+     need for quick access and efficient storage of data continues to
+     rise.  Facebook stores a class of data in Binary Large OBjects
+     (BLOBs), which can be created once, read many times, never
+     modified, and sometimes deleted. Haystack, Facebook’s traditional
+     BLOB storage system is becoming increasingly inefficient. The
+     storage efficiency is measured in the
+     effective-replication-factor of BLOBs.
+
+     f4 BLOB storage system provides an effective-replication-factor
+     lower than that of Haystack. f4 is simple, modular, scalable, and
+     fault tolerant. f4 currently stores over 65PBs of logical BLOBs,
+     with a reduced effective-replication-factor from 3.6 to either
+     2.8 or 2.1 :cite:`paper-f4`.
+
+     
 290. Cinder
       
      "Cinder is a block storage service for Openstack"
@@ -4202,6 +4261,22 @@ IaaS Management from HPC to hypervisors
      :cite:`paper-opennebula`
      
 349. Eucalyptus
+
+     Eucalyptus is a Linux-based open source software framework for
+     cloud computing that implements Infrastructure as a Service
+     (IaaS). IaaS are systems that give users the ability to run and
+     control entire virtual machine instances deployed across a
+     variety physical resources :cite:`paper-eucalyptus`. Eucalyptus
+     is an acronym for “Elastic Utility Computing Architecture for
+     Linking Your Programs to Useful Systems.”
+
+     A Eucalyptus private cloud is deployed on an enterprise’s data
+     center infrastructure and is accessed by users over the
+     enterprise’s intranet. Sensitive data remains entirely secure
+     from external interference behind the enterprise firewall
+     :cite:`www-eucalyptus`.
+
+     
 350. Nimbus
 
      Nimbus Infrastructure :cite:`www-nimbus-wiki` is an open source
