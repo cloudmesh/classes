@@ -3256,7 +3256,7 @@ File systems
      or shared disk modes. Spectrum Scale is available on AIX, Linux, 
      Windows Server, and IBM System Cluster 1350. :cite:`www-wikigpfs` 
      Due to its focus on performance and scalability, Spectrum Scale has 
-     been utilized in compute clusters, big data and analytics (including 
+     been utilized in compute clusters, big data and analytics - including 
      support for Hadoop Distributed File System (HDFS), backups and 
      restores, and private clouds. :cite:`www-spectrumscale`
 
