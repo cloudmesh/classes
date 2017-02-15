@@ -4768,7 +4768,39 @@ Message and Data Protocols
 New Technologies to be integrated
 ---------------------------------
 
-382. TBD
+382. Snort
+
+     :cite:`www-snort` Snort is a free and open source Network Intrusion Prevention System (NIPS) and
+     Network Intrusion Detection System (NIDS). Snort's open source network-based
+     intrusion detection system (NIDS) has the ability to perform real-time traffic
+     analysis and packet logging on Internet Protocol (IP) networks. Snort performs
+     protocol analysis, content searching and matching. These basic services have
+     many purposes including application-aware triggered quality of service,
+     to de-prioritize bulk traffic when latency-sensitive applications are in use.
+     The program can also be used to detect probes or attacks, including, but not
+     limited to, operating system fingerprinting attempts, common gateway interface,
+     buffer overflows, server message block probes, and stealth port scans.
+     Snort can be configured in three main modes: sniffer, packet logger, and
+     network intrusion detection.[11] In sniffer mode, the program will read
+     network packets and display them on the console. In packet logger mode,
+     the program will log packets to the disk. In intrusion detection mode,
+     the program will monitor network traffic and analyze it against a rule set
+     defined by the user. The program will then perform a specific action based on
+     what has been identified.
+
+383. Fiddler
+
+     Fiddler is an HTTP debugging proxy server application. Fiddler captures HTTP   
+     and HTTPS traffic and logs it for the user to review by implementing
+     man-in-the-middle interception using self-signed certificates. Fiddler can also
+     be used to modify ("fiddle with") HTTP traffic for troubleshooting purposes as
+     it is being sent or received.[5] By default, traffic from Microsoft's WinINET
+     HTTP(S) stack is automatically directed to the proxy at runtime, but any browser
+     or Web application (and most mobile devices) can be configured to route its traffic
+     through Fiddler :cite:`www-fiddler`.
+
+384. TBA
+
 
 .. _techs-exercise:
 
