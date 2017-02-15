@@ -66,6 +66,19 @@ Workflow-Orchestration
 
 
 5. Kepler
+ 
+   Kepler, scientific workflow application, is designed to help scientist,
+   analyst, and computer programmer create, execute and share models and 
+   analyses across a broad range of scientific and engineering disciplines.
+   Kepler can operate on data stored in a variety of formats, locally and 
+   over the internet, and is an effective environment for integrating
+   disparate software components such as merging "R" scripts with compiled "C"
+   code, or facilitating remote, distributed execution of models. Using Kepler's
+   GUI, users can simply select and then connect pertinent analytical components
+   and data sources to create a "scientific workflow". Overall, the Kepler helps
+   users share and reuse data, workflow, and components developed by the scientific
+   community to address common needs :cite:`www-kepler`.
+
 6. Swift
 7. Taverna
 
@@ -1383,6 +1396,17 @@ High level Programming
 
 118. Google BigQuery
 119. Amazon Redshift
+     
+     Amazon Redshift is a fully managed, petabyte-scale data werehouse service
+     in the cloud. Redshift service manages all of the workof setting up, operating
+     and scalling a data werehouse. AWS Redshift can perform these tasks including
+     provisioning capacity, monitoring and backing up the cluster, and applying 
+     patches as well as upgrades to the Redshift's engine :cite:`www-redshift`.
+     Redshift is built on thet top of technology from the Massive Paraller Processing
+     (MPP) data-werehouse company ParAccel which based on PostgresSQL 8.0.2
+     to PostgresSQL 9.x with capabilty to handle analytics workloads on large-
+     scale dataset stored by a column-oriented DBMS principle  :cite:`www-wiki-red`.
+
 120. Drill
 
      Apache Drill :cite:`www-ApacheDrill` is an open source framework
