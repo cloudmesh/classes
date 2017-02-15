@@ -1373,7 +1373,7 @@ High level Programming
      Dremel is a scalable, interactive ad-hoc query system for analysis of 
      read-only nested data. By combining multi-level execution trees and 
      columnar data layout, Google Dremel is capable of running aggregation
-     queries over trillion-row tables in seconds.:cite:`www-dremel` 
+     queries over trillion-row tables in seconds. :cite:`paper-dremel` 
      With Dremel, you can write a declarative SQL-like query against data stored
      in a read-only columnar format efficiently for analysis or data exploration.
      It's also possible to write queries that analyze billions of rows, terabytes of 
@@ -1711,7 +1711,7 @@ Basic Programming model and runtime, SPMD, MapReduce
 
 146. MR-MPI
 
-     :cite:`www-mapreducempi` MR-MPI stands for Map Reduce-Message
+     :cite:`www-mapreducempi`MR-MPI stands for Map Reduce-Message
      Passing Interface is open source library build on top of standard
      MPI. It basically implements mapReduce operation providing a
      interface for user to simplify writing mapReduce program.  It is
@@ -1726,10 +1726,10 @@ Basic Programming model and runtime, SPMD, MapReduce
       Apache Flink is an open-source stream processing framework for distributed,
       high-performing,always-available, and accurate data streaming applications. 
       Apache Flink is used in big data applications, primarily involving analysis 
-      of data stored in Hadoop clusters. it also Supports a combination of in-memory
+      of data stored in Hadoop clusters.it also Supports a combination of in-memory
       and disk-based processing as well as handles both batch and stream processing 
       jobs, with data streaming the default implementation and batch jobs running as 
-      special-case versions of streaming applications.:cite:`www-flink`
+      special-case versions of streaming applications:cite:`www-flink`.
 
 148. Reef
 
@@ -2761,7 +2761,7 @@ NoSQL
      provides integrated data management, search, and analytics engine
      designed for web applications. Cloudant's distributed service is 
      used the same way as standalone CouchDB, with the added advantage 
-     of data being redundantly distributed over multiple machines.:cite:`www-cloudant`     
+     of data being redundantly distributed over multiple machines.:cite:`www-ibmcloudant`     
 
 233. Pivotal Gemfire
      
