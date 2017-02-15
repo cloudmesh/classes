@@ -1711,7 +1711,7 @@ Basic Programming model and runtime, SPMD, MapReduce
 
 146. MR-MPI
 
-     :cite:`www-mapreducempi`MR-MPI stands for Map Reduce-Message
+     :cite:`www-mapreducempi` MR-MPI stands for Map Reduce-Message
      Passing Interface is open source library build on top of standard
      MPI. It basically implements mapReduce operation providing a
      interface for user to simplify writing mapReduce program.  It is
@@ -1723,13 +1723,15 @@ Basic Programming model and runtime, SPMD, MapReduce
 
 147. Stratosphere (Apache Flink)
      
-      Apache Flink is an open-source stream processing framework for distributed,
-      high-performing,always-available, and accurate data streaming applications. 
-      Apache Flink is used in big data applications, primarily involving analysis 
-      of data stored in Hadoop clusters.it also Supports a combination of in-memory
-      and disk-based processing as well as handles both batch and stream processing 
-      jobs, with data streaming the default implementation and batch jobs running as 
-      special-case versions of streaming applications:cite:`www-flink`.
+     Apache Flink is an open-source stream processing framework for
+     distributed, high-performing, always-available, and accurate data
+     streaming applications. Apache Flink is used in big data application
+     primarily involving analysis of data stored in Hadoop clusters. 
+     It also supports a combination of in-memory and disk-based processing
+     as well as handles both batch and stream processing jobs, with data
+     streaming the default implementation and batch jobs running as 
+     special-case versions of streaming application :cite:`www-flink`
+
 
 148. Reef
 
@@ -2754,14 +2756,16 @@ NoSQL
      open-source license alternatives. :cite:`www-quora-cbs`
 
 232. IBM Cloudant
-
-     Cloudant is based on the Apache-backed CouchDB project and the 
-     open source BigCouch project. IBM Cloudant is an open source non-
-     relational, distributed database service as service (DBaaS) that
-     provides integrated data management, search, and analytics engine
-     designed for web applications. Cloudant's distributed service is 
-     used the same way as standalone CouchDB, with the added advantage 
-     of data being redundantly distributed over multiple machines.:cite:`www-ibmcloudant`     
+     
+     Cloudant is based on both Apache-backed CouchDB project and the
+     open source BigCouch project. IBM Cloudant is an open source
+     non-relational, distributed database service as service (DBaaS)
+     that provides integrated data management, search and analytics 
+     engine designed for web applications. Cloudant's distributed
+     service is used the same way as standalone CouchDB, with the
+     added advantage of data being redundantly distributed over
+     multiple machines :cite:`www-ibm-cloudant`.
+   
 
 233. Pivotal Gemfire
      
