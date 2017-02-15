@@ -1,3 +1,5 @@
+.. _cm_install_:
+
 Installing Cloudmesh Client on Ubuntu 16.04
 ===========================================
 
