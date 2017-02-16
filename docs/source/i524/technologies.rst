@@ -4770,7 +4770,7 @@ New Technologies to be integrated
 
 382. Snort
 
-     :cite:`www-snort` Snort is a free and open source Network Intrusion Prevention System (NIPS) and
+     :cite:`www-snort` Snort is a Network Intrusion Prevention System (NIPS) and
      Network Intrusion Detection System (NIDS). Snort's open source network-based
      intrusion detection system (NIDS) has the ability to perform real-time traffic
      analysis and packet logging on Internet Protocol (IP) networks. Snort performs
