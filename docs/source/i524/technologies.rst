@@ -520,7 +520,7 @@ Application and Analytics
     founded at Texas A&M University with a focus on next generation 
     computing languages.  The core focus is centered around algorithm 
     and application development to find solutions to data concentrated 
-    problems. :cite:‘www-parasol’ The developed applications are being 
+    problems. :cite:`www-parasol` The developed applications are being 
     applied in the following areas: computational biology, geophysics, 
     neuroscience, physics, robotics, virtual reality and computer aided 
     drug design(CAD).  The program has organized a number of workshops 
@@ -786,7 +786,7 @@ Application Hosting Frameworks
     advantageous compared to early PaaS solutions which would force the 
     customer into utilizing a single stack.  Additionally, this solution 
     has the capacity to support private, public and hybrid clouds. 
-    :cite:‘www-virt’ This capability user has to not have to make choices 
+    :cite:`www-virt` This capability user has to not have to make choices 
     of flexibility over security of sensitive data when choosing a 
     cloud computing platform.
  
@@ -1251,7 +1251,7 @@ Basic Programming model and runtime, SPMD, MapReduce
      other than a supercomputer.  Totem is based on a bulk synchronous 
      parallel(BSP) model that can enable hybrid CPU/GPU systems to process 
      graph based applications in a cost effective manner. 
-     :cite: ‘netsyslab’
+     :cite:`www-netsyslab`
      
 
 Inter process communication Collectives
@@ -2766,11 +2766,11 @@ Interoperability
      Libvirt is an open source API to manage hardware virtualization 
      developed by Red Hat.  It is a standard C library but has
      accessibility from other languages such as Python, Perl, Java 
-     and others. :cite: ‘libvirt-org’  Multiple virtual machine
+     and others. :cite:`www-libvirt` Multiple virtual machine
      monitors(VMM) or hypervisors are supported such as KVM,QEMU, 
      Xen, Virtuozzo, VMWare ESX, LXC, and BHyve.  It can be divided
      into five categories such as hypervisor connection, domain, 
-     network, storage volume and pool.   :cite: ‘ibm’  It is accessible 
+     network, storage volume and pool.   :cite:`www-ibm`  It is accessible 
      by many operating systems such as Linux, FreeBSD, Mac OS, and 
      Windows OS.
      
@@ -3284,7 +3284,7 @@ IaaS Management from HPC to hypervisors
 355. vSphere and vCloud
 
      vSphere was developed by VMware and is a cloud computing 
-     virtualization platform. :cite:‘www-mustbegeek’  vSphere is not
+     virtualization platform. :cite:`www-vmware`  vSphere is not
      one piece of software but a suite of tools that contains software 
      such as vCenter, ESXi, vSphere client and a number of other 
      technologies.  ESXi server is a type 1 hypervisor on a physical 
@@ -3295,7 +3295,7 @@ IaaS Management from HPC to hypervisors
      ESXi server which is used in environments when multiple ESXi 
      servers areexist.  Similarly, vCloud is also a suite of 
      applications but for establishing an infrastructure for a 
-     private cloud. :cite:‘www-vmware’ The suite includes the 
+     private cloud. :cite:`www-mustbegeek`  The suite includes the 
      vsphere suite, but also contains site recovery management for 
      disaster recovery,  site networking and security.  Additionally, 
      a management suite that can give a visual of the infrastructure 
