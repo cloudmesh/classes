@@ -32,8 +32,8 @@
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Linux Shell" href="linux.html" />
-    <link rel="prev" title="Linux" href="index.html" />
+    <link rel="next" title="FutureSystems Cloud" href="futuresystems.html" />
+    <link rel="prev" title="Chameleon Cloud" href="chameleon.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -151,10 +151,10 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
@@ -167,7 +167,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual CLuster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
@@ -266,10 +266,11 @@
 <li><a class="reference internal" href="#">Installing Cloudmesh Client on Ubuntu 16.04</a><ul>
 <li><a class="reference internal" href="#step-1-installation-cloudmesh-client">Step 1 : Installation Cloudmesh Client</a></li>
 <li><a class="reference internal" href="#step-2-setting-up-profile">Step 2 : Setting Up Profile</a></li>
-<li><a class="reference internal" href="#step-3-setting-up-chamellion-cloud">Step 3 :Setting Up Chamellion Cloud</a></li>
+<li><a class="reference internal" href="#step-3-setting-up-chameleon-cloud">Step 3 :Setting Up Chameleon Cloud</a></li>
 <li><a class="reference internal" href="#step-4-setting-up-virtual-machine">Step 4 : Setting Up Virtual Machine</a></li>
 <li><a class="reference internal" href="#step-5-boot-virtual-machine">Step 5 : Boot Virtual Machine</a></li>
 <li><a class="reference internal" href="#step-6-run-virtual-machine">Step 6 : Run Virtual Machine</a></li>
+<li><a class="reference internal" href="#step-7-remove-virtual-machine">Step 7 : Remove Virtual Machine</a></li>
 </ul>
 </li>
 </ul>
@@ -386,10 +387,10 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
@@ -402,7 +403,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual CLuster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
@@ -491,10 +492,11 @@
 <li><a class="reference internal" href="#">Installing Cloudmesh Client on Ubuntu 16.04</a><ul>
 <li><a class="reference internal" href="#step-1-installation-cloudmesh-client">Step 1 : Installation Cloudmesh Client</a></li>
 <li><a class="reference internal" href="#step-2-setting-up-profile">Step 2 : Setting Up Profile</a></li>
-<li><a class="reference internal" href="#step-3-setting-up-chamellion-cloud">Step 3 :Setting Up Chamellion Cloud</a></li>
+<li><a class="reference internal" href="#step-3-setting-up-chameleon-cloud">Step 3 :Setting Up Chameleon Cloud</a></li>
 <li><a class="reference internal" href="#step-4-setting-up-virtual-machine">Step 4 : Setting Up Virtual Machine</a></li>
 <li><a class="reference internal" href="#step-5-boot-virtual-machine">Step 5 : Boot Virtual Machine</a></li>
 <li><a class="reference internal" href="#step-6-run-virtual-machine">Step 6 : Run Virtual Machine</a></li>
+<li><a class="reference internal" href="#step-7-remove-virtual-machine">Step 7 : Remove Virtual Machine</a></li>
 </ul>
 </li>
 </ul>
@@ -538,7 +540,7 @@
     <div class="col-md-9 content">
       
   <div class="section" id="installing-cloudmesh-client-on-ubuntu-16-04">
-<h1>Installing Cloudmesh Client on Ubuntu 16.04<a class="headerlink" href="#installing-cloudmesh-client-on-ubuntu-16-04" title="Permalink to this headline">¶</a></h1>
+<span id="cm-install"></span><h1>Installing Cloudmesh Client on Ubuntu 16.04<a class="headerlink" href="#installing-cloudmesh-client-on-ubuntu-16-04" title="Permalink to this headline">¶</a></h1>
 <p>First install cloudmesh client using pip and make sure you
 install the latest updates.</p>
 <div class="section" id="step-1-installation-cloudmesh-client">
@@ -592,8 +594,8 @@ $ gedit ~/.cloudmesh/cloudmesh.yaml
 <p>This must be filled when working on Cloudmesh set up.
 And this can be found in the configuration file in cm- yaml file.</p>
 </div>
-<div class="section" id="step-3-setting-up-chamellion-cloud">
-<h2>Step 3 :Setting Up Chamellion Cloud<a class="headerlink" href="#step-3-setting-up-chamellion-cloud" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="step-3-setting-up-chameleon-cloud">
+<h2>Step 3 :Setting Up Chameleon Cloud<a class="headerlink" href="#step-3-setting-up-chameleon-cloud" title="Permalink to this headline">¶</a></h2>
 <p>In the cloudmesh.yaml file, set chameleon cloud as the active cloud
 as shown below. Locate the attribute value in the</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">active</span><span class="p">:</span>
@@ -603,7 +605,7 @@ as shown below. Locate the attribute value in the</p>
 <p>Go to the following link and you can find the information regarding,
 the chameleon cloud setup.</p>
 <p><a class="reference external" href="http://cloudmesh.github.io/client/configuration.html#chameleon-cloud">http://cloudmesh.github.io/client/configuration.html#chameleon-cloud</a></p>
-<p>The following parameters has to be replaced with correspoding values.</p>
+<p>The following parameters has to be replaced with corresponding values.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">OS_PASSWORD</span><span class="p">:</span> <span class="n">TBD</span>
 <span class="n">OS_TENANT_NAME</span><span class="p">:</span> <span class="n">TBD</span>
 <span class="n">OS_TENANT_ID</span><span class="p">:</span> <span class="n">TBD</span>
@@ -612,16 +614,25 @@ the chameleon cloud setup.</p>
 </pre></div>
 </div>
 <p>Make sure you are following the above url.
-And after replacing all the TBD values, the confiuguration should look like
+And after replacing all the TBD values, the configuration should look like
 as follows.</p>
-<p>example configuration</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">OS_PASSWORD</span><span class="p">:</span> <span class="n">NOTMYPASSWORD</span>
+<dl class="docutils">
+<dt>example configuration</dt>
+<dd><div class="first highlight-default"><div class="highlight"><pre><span></span><span class="n">OS_PASSWORD</span><span class="p">:</span> <span class="n">NOTMYPASSWORD</span>
 <span class="n">OS_TENANT_NAME</span><span class="p">:</span> <span class="n">CH</span><span class="o">-</span><span class="mi">818664</span>
 <span class="n">OS_TENANT_ID</span><span class="p">:</span> <span class="n">CH</span><span class="o">-</span><span class="mi">818664</span>
 <span class="n">OS_PROJECT_NAME</span><span class="p">:</span> <span class="n">CH</span><span class="o">-</span><span class="mi">818664</span>
 <span class="n">OS_USERNAME</span><span class="p">:</span> <span class="n">vibhatha</span>
 </pre></div>
 </div>
+<div class="last admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">If you don&#8217;t want to put your cloud password in the yaml file, you can
+put <code class="docutils literal"><span class="pre">read</span></code> instead of the password in <code class="docutils literal"><span class="pre">OS_PASSWORD</span></code> field. In this
+way, every time you need to access the cloud, you will type in password.</p>
+</div>
+</dd>
+</dl>
 <p>Make sure the TENANT_NAME: CH-818664.
 You must be a member of the project in the Chameleon cloud, in order to
 gain access to the virtual machines.</p>
@@ -685,7 +696,9 @@ First assign a floating ip.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>cc@hostname$-
 </pre></div>
 </div>
-<p>Step 7 : Remove Virtual Machine</p>
+</div>
+<div class="section" id="step-7-remove-virtual-machine">
+<h2>Step 7 : Remove Virtual Machine<a class="headerlink" href="#step-7-remove-virtual-machine" title="Permalink to this headline">¶</a></h2>
 <p>To delete a virtual machine, run the following command.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm delete &lt;name_of_vm&gt;
 </pre></div>
@@ -696,7 +709,7 @@ First assign a floating ip.</p>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">No inside directories, just create everythin in the home directory.
+<p class="last">No inside directories, just create everything in the home directory.
 Or a work directory in the home directory. Make sure work in the same
 directory when executing commands. And make sure you are in the right directory
 when you are executing commands. We do this in order to minimize complications

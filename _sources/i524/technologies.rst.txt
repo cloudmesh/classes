@@ -33,6 +33,17 @@ Workflow-Orchestration
    living process executions for orchestrating services for applications :cite:`www-ode-web`.
 
 2. ActiveBPEL
+
+   Business Process Execution Language for Web Services (BPEL4WS or just BPEL) is
+   an XML-based grammar for describing the logic to coordinate and control
+   web services that seamlessly integrate people, processes and systems, increasing
+   the efficiency and visibility of the business. ActiveBPEL is a robust Java/J2EE  
+   runtime environment that is capable of executing process definitions created to 
+   the Business Process Execution Language for Web Services. The ActiveBPEL also 
+   provides an administration interface that is accessible via web service 
+   invocations;and it can also be use to administer, to control and to integrate
+   web services into a larger application. :cite:`www-bpel`
+
 3. Airavata
 4. Pegasus
 
@@ -55,6 +66,19 @@ Workflow-Orchestration
 
 
 5. Kepler
+ 
+   Kepler, scientific workflow application, is designed to help scientist,
+   analyst, and computer programmer create, execute and share models and 
+   analyses across a broad range of scientific and engineering disciplines.
+   Kepler can operate on data stored in a variety of formats, locally and 
+   over the internet, and is an effective environment for integrating
+   disparate software components such as merging "R" scripts with compiled "C"
+   code, or facilitating remote, distributed execution of models. Using Kepler's
+   GUI, users can simply select and then connect pertinent analytical components
+   and data sources to create a "scientific workflow". Overall, the Kepler helps
+   users share and reuse data, workflow, and components developed by the scientific
+   community to address common needs :cite:`www-kepler`.
+
 6. Swift
 7. Taverna
 
@@ -433,6 +457,16 @@ Application and Analytics
     also has tools to process genomic annotation data.
     
 39. ImageJ
+
+    ImageJ is a  Java-based image processing program developed at the National 
+    Institutes of Health (NIH). ImageJ was designed with an open architecture 
+    that provides extensibility via Java plugins and recordable macros.
+    Using ImageJ's built-in editor and a Java compiler, it has enabled to solve 
+    many image processing and analysis problems in scientifif research from 
+    three-dimensional live-cell imaging to radiological image processing. 
+    ImageJ's plugin architecture and built-in development environment has made
+    it a popular platform for teaching image processing. :cite:`www-imagej`
+
 40. OpenCV
 
     OpenCV stands for Open source Computer Vision. It was designed for
@@ -687,6 +721,18 @@ Application and Analytics
     APIs and Software As a Service product as well.
     
 57. Oracle PGX
+
+    Numerous information is revealed from graphs. Information like
+    direct and indirect relations or patterns in the elements of the
+    data, can be easily seen through graphs. The analysis of graphs
+    can unveil significant insights. Oracle PGX (Parallel Graph
+    AnalytiX) is a toolkit for graph analysis.  “It is a fast,
+    parallel, in-memory graph analytic framework that allows users to
+    load up their graph data, run analytic algorithms on them, and to
+    browse or store the result” :cite:`www-pgx`. Graphs can be loaded
+    from various sources like SQL and NoSQL databases, Apache Spark
+    and Hadoop :cite:`www-ora`.
+    
 58. GraphLab
 
     GraphLab :cite:`www-graphlab` is a graph-based, distributed computation,
@@ -883,6 +929,20 @@ Application and Analytics
     for expanded analytics.
 
 74. D3.js
+
+    D3.js is a JavaScript library responsible for manipulating
+    documents based on data. D3 helps in making data more interactive
+    using HTML, SVG, and CSS. D3’s emphasis on web standards makes it
+    framework independent utilizing the full capabilities of modern
+    browsers, combining powerful visualization components and a
+    data-driven approach to DOM manipulation :cite:`www-d3`.
+
+    It assists in binding random data to a Document Object Model
+    (DOM), followed by applying data-driven transformations to the
+    document. It is very fast, supports large datasets and dynamic
+    behaviours involving interaction and animation.
+
+    
 75. three.js
 76. Potree
 
@@ -1322,8 +1382,31 @@ High level Programming
      .. include:: techs/presto.rst
 
 117. Google Dremel
+ 
+     Dremel is a scalable, interactive ad-hoc query system for analysis of 
+     read-only nested data. By combining multi-level execution trees and 
+     columnar data layout, Google Dremel is capable of running aggregation
+     queries over trillion-row tables in seconds. :cite:`paper-dremel` 
+     With Dremel, you can write a declarative SQL-like query against data stored
+     in a read-only columnar format efficiently for analysis or data exploration.
+     It's also possible to write queries that analyze billions of rows, terabytes of 
+     data, and trillions of records in seconds. Dremel can be use for a variety 
+     of jobs including analyzing web-crawled documents, detecting e-mail spam, 
+     working through application crash reports.
+
 118. Google BigQuery
 119. Amazon Redshift
+     
+     Amazon Redshift is a fully managed, petabyte-scale data werehouse service
+     in the cloud. Redshift service manages all of the workof setting up, operating
+     and scalling a data werehouse. AWS Redshift can perform these tasks including
+     provisioning capacity, monitoring and backing up the cluster, and applying 
+     patches as well as upgrades to the Redshift's engine :cite:`www-redshift`.
+     Redshift is built on thet top of technology from the Massive Paraller Processing
+     (MPP) data-werehouse company ParAccel which based on PostgresSQL 8.0.2
+     to PostgresSQL 9.x with capabilty to handle analytics workloads on large-
+     scale dataset stored by a column-oriented DBMS principle  :cite:`www-wiki-red`.
+
 120. Drill
 
      Apache Drill :cite:`www-ApacheDrill` is an open source framework
@@ -1663,6 +1746,17 @@ Basic Programming model and runtime, SPMD, MapReduce
      can also be called from Fortrain.
 
 147. Stratosphere (Apache Flink)
+     
+     Apache Flink is an open-source stream processing framework for
+     distributed, high-performing, always-available, and accurate data
+     streaming applications. Apache Flink is used in big data application
+     primarily involving analysis of data stored in Hadoop clusters. 
+     It also supports a combination of in-memory and disk-based processing
+     as well as handles both batch and stream processing jobs, with data
+     streaming the default implementation and batch jobs running as 
+     special-case versions of streaming application :cite:`www-flink`
+
+
 148. Reef
 
      REEF (Retainable Evaluator Execution Framework) :cite:`www-reef`
@@ -2259,7 +2353,23 @@ Object-relational mapping
 	   
 196. ODBC/JDBC
 
+     Open Database Connectivity (ODBC) is an open standard application
+     programming interface (API) for accessing database management
+     systems (DBMS) :cite:`www-odbc`. ODBC was developed by the SQL
+     Access Group and released in September, 1992. Microsoft Windows
+     was the first to provide an ODBC product. Later the versions for
+     UNIX, OS/2, and Macintosh platforms were developed. ODBC is
+     independent of the programming language, database system and
+     platform.
 
+     Java Database Connectivity (JDBC) is a API developed specific to
+     the Java programming language. JDBC was released as part of Java
+     Development Kit (JDK) 1.1 on February 19, 1997 by Sun
+     Microsystems :cite:`www-jdbc`. The ‘java.sql’ and ‘javax.sql’
+     packages contain the JDBC classes. JDBC is more suitable for
+     object oriented databases. JDBC can be used for ODBC compliant
+     databases by using a JDBC-to-ODBC bridge.
+     
 Extraction Tools
 ----------------------------------------------------------------------
 
@@ -2670,6 +2780,17 @@ NoSQL
      open-source license alternatives. :cite:`www-quora-cbs`
 
 232. IBM Cloudant
+     
+     Cloudant is based on both Apache-backed CouchDB project and the
+     open source BigCouch project. IBM Cloudant is an open source
+     non-relational, distributed database service as service (DBaaS)
+     that provides integrated data management, search and analytics 
+     engine designed for web applications. Cloudant's distributed
+     service is used the same way as standalone CouchDB, with the
+     added advantage of data being redundantly distributed over
+     multiple machines :cite:`www-ibm-cloudant`.
+   
+
 233. Pivotal Gemfire
      
      According to :cite:`www-gemfire`, a real-time, consistent access
@@ -3320,6 +3441,23 @@ File systems
 287. Swift
 288. Haystack
 289. f4
+     
+     As the amount of data Facebook stores continues to increase, the
+     need for quick access and efficient storage of data continues to
+     rise.  Facebook stores a class of data in Binary Large OBjects
+     (BLOBs), which can be created once, read many times, never
+     modified, and sometimes deleted. Haystack, Facebook’s traditional
+     BLOB storage system is becoming increasingly inefficient. The
+     storage efficiency is measured in the
+     effective-replication-factor of BLOBs.
+
+     f4 BLOB storage system provides an effective-replication-factor
+     lower than that of Haystack. f4 is simple, modular, scalable, and
+     fault tolerant. f4 currently stores over 65PBs of logical BLOBs,
+     with a reduced effective-replication-factor from 3.6 to either
+     2.8 or 2.1 :cite:`paper-f4`.
+
+     
 290. Cinder
       
      "Cinder is a block storage service for Openstack"
@@ -3968,7 +4106,7 @@ DevOps
      automates deployment of applications on the cloud. The 
      program is pushed to the PaaS using git push, and then 
      PaaS detects the programming language, builds, and runs 
-     application on a cloud platform :cite:`plassnig_2015`.
+     application on a cloud platform :cite:`plassnig15`.
      Buildstep takes two parameters: a tar file that contains 
      the application and a new application container name to 
      create a new container for this application. Build script 
@@ -3976,7 +4114,7 @@ DevOps
      buildstep to run. The builder script runs inside the new 
      container.  The resulting build app can be run with Docker 
      using docker build -t your_app_name command.
-     :cite:`gonzalez_2015`. 
+     :cite:`github-buildstep`. 
 
 331. Gitreceive
 332. OpenTOSCA
@@ -4202,6 +4340,22 @@ IaaS Management from HPC to hypervisors
      :cite:`paper-opennebula`
      
 349. Eucalyptus
+
+     Eucalyptus is a Linux-based open source software framework for
+     cloud computing that implements Infrastructure as a Service
+     (IaaS). IaaS are systems that give users the ability to run and
+     control entire virtual machine instances deployed across a
+     variety physical resources :cite:`paper-eucalyptus`. Eucalyptus
+     is an acronym for “Elastic Utility Computing Architecture for
+     Linking Your Programs to Useful Systems.”
+
+     A Eucalyptus private cloud is deployed on an enterprise’s data
+     center infrastructure and is accessed by users over the
+     enterprise’s intranet. Sensitive data remains entirely secure
+     from external interference behind the enterprise firewall
+     :cite:`www-eucalyptus`.
+
+     
 350. Nimbus
 
      Nimbus Infrastructure :cite:`www-nimbus-wiki` is an open source
@@ -4614,7 +4768,39 @@ Message and Data Protocols
 New Technologies to be integrated
 ---------------------------------
 
-382. TBD
+382. Snort
+
+     :cite:`www-snort` Snort is a Network Intrusion Prevention System (NIPS) and
+     Network Intrusion Detection System (NIDS). Snort's open source network-based
+     intrusion detection system (NIDS) has the ability to perform real-time traffic
+     analysis and packet logging on Internet Protocol (IP) networks. Snort performs
+     protocol analysis, content searching and matching. These basic services have
+     many purposes including application-aware triggered quality of service,
+     to de-prioritize bulk traffic when latency-sensitive applications are in use.
+     The program can also be used to detect probes or attacks, including, but not
+     limited to, operating system fingerprinting attempts, common gateway interface,
+     buffer overflows, server message block probes, and stealth port scans.
+     Snort can be configured in three main modes: sniffer, packet logger, and
+     network intrusion detection.[11] In sniffer mode, the program will read
+     network packets and display them on the console. In packet logger mode,
+     the program will log packets to the disk. In intrusion detection mode,
+     the program will monitor network traffic and analyze it against a rule set
+     defined by the user. The program will then perform a specific action based on
+     what has been identified.
+
+383. Fiddler
+
+     Fiddler is an HTTP debugging proxy server application. Fiddler captures HTTP   
+     and HTTPS traffic and logs it for the user to review by implementing
+     man-in-the-middle interception using self-signed certificates. Fiddler can also
+     be used to modify ("fiddle with") HTTP traffic for troubleshooting purposes as
+     it is being sent or received.[5] By default, traffic from Microsoft's WinINET
+     HTTP(S) stack is automatically directed to the proxy at runtime, but any browser
+     or Web application (and most mobile devices) can be configured to route its traffic
+     through Fiddler :cite:`www-fiddler`.
+
+384. TBA
+
 
 .. _techs-exercise:
 
