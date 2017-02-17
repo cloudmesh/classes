@@ -94,12 +94,18 @@ And after replacing all the TBD values, the configuration should look like
 as follows.
 
 example configuration
-::
-   OS_PASSWORD: NOTMYPASSWORD
-   OS_TENANT_NAME: CH-818664
-   OS_TENANT_ID: CH-818664
-   OS_PROJECT_NAME: CH-818664
-   OS_USERNAME: vibhatha
+  ::
+  
+    OS_PASSWORD: NOTMYPASSWORD
+    OS_TENANT_NAME: CH-818664
+    OS_TENANT_ID: CH-818664
+    OS_PROJECT_NAME: CH-818664
+    OS_USERNAME: vibhatha
+
+  .. tip::
+     If you don't want to put your cloud password in the yaml file, you can
+     put ``read`` instead of the password in ``OS_PASSWORD`` field. In this
+     way, every time you need to access the cloud, you will type in password.
 
 
 Make sure the TENANT_NAME: CH-818664.
