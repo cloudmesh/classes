@@ -28,13 +28,12 @@ We will address a number of important entry types which includes:
 Source code References
 ---------------------
 
-In this section we will learn how to cite a source code from a
-publicly hosted repository. Such repositories are frequently used
-and include, for example github, bitbucket, sourcefore, or your
-Universities code repository as long as it is publicly reachable.
-As changes can occur on these repositories, it is important that the
-date ov access is listed in the entry or even the release version of
-the source code.
+We will learn how to cite a source code from a publicly hosted
+repository. Such repositories are frequently used and include, for
+example github, bitbucket, sourcefore, or your Universities code
+repository as long as it is publicly reachable.  As changes can occur
+on these repositories, it is important that the date ov access is
+listed in the entry or even the release version of the source code.
 
 Let us without bias chose a random source dode entry that has been
 contributed by a student as follows::
@@ -83,13 +82,12 @@ by the last name with multiple authors separated with "and".
 Key
 ^^^
 
-Field can be removed as the entry has an author field entry. If there
-was no author field, we could use key to specify the ordering based on
-a defined attribute. Note that a key is not the label. IN fact in our
-original entry the key field was wrongly used and the student did not
-understand that the key is used for sorting, but not for referencing
-to this entry. To reference this entry one must be using the label that
-is defined in the line with the @Misc
+In this case the key field can be removed as the entry has an author
+field entry. If there was no author field, we could use key to specify
+the alphabetical ordering based on the specified key. Note that a key
+is not the label. In fact in our original entry the key field was
+wrongly used and the student did not understand that the key is used
+for sorting. 
 
  
 Howpublished
@@ -116,7 +114,7 @@ multiple students contributed, add them with space separation.
 Accessed
 ^^^^^^^^
 
-as we do not yet typically an accessed field, we simply include it in
+As we do not yet typically an accessed field, we simply include it in
 the note field. This is absolutely essential as code can change and
 when we read the code we looked at a particular snapshot in time. In
 addition it is often necessary to record the actual version of the
