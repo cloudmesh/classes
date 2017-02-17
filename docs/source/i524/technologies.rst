@@ -33,6 +33,17 @@ Workflow-Orchestration
    living process executions for orchestrating services for applications :cite:`www-ode-web`.
 
 2. ActiveBPEL
+
+   Business Process Execution Language for Web Services (BPEL4WS or just BPEL) is
+   an XML-based grammar for describing the logic to coordinate and control
+   web services that seamlessly integrate people, processes and systems, increasing
+   the efficiency and visibility of the business. ActiveBPEL is a robust Java/J2EE  
+   runtime environment that is capable of executing process definitions created to 
+   the Business Process Execution Language for Web Services. The ActiveBPEL also 
+   provides an administration interface that is accessible via web service 
+   invocations;and it can also be use to administer, to control and to integrate
+   web services into a larger application. :cite:`www-bpel`
+
 3. Airavata
 4. Pegasus
 
@@ -55,6 +66,19 @@ Workflow-Orchestration
 
 
 5. Kepler
+ 
+   Kepler, scientific workflow application, is designed to help scientist,
+   analyst, and computer programmer create, execute and share models and 
+   analyses across a broad range of scientific and engineering disciplines.
+   Kepler can operate on data stored in a variety of formats, locally and 
+   over the internet, and is an effective environment for integrating
+   disparate software components such as merging "R" scripts with compiled "C"
+   code, or facilitating remote, distributed execution of models. Using Kepler's
+   GUI, users can simply select and then connect pertinent analytical components
+   and data sources to create a "scientific workflow". Overall, the Kepler helps
+   users share and reuse data, workflow, and components developed by the scientific
+   community to address common needs :cite:`www-kepler`.
+
 6. Swift
 7. Taverna
 
@@ -433,6 +457,16 @@ Application and Analytics
     also has tools to process genomic annotation data.
     
 39. ImageJ
+
+    ImageJ is a  Java-based image processing program developed at the National 
+    Institutes of Health (NIH). ImageJ was designed with an open architecture 
+    that provides extensibility via Java plugins and recordable macros.
+    Using ImageJ's built-in editor and a Java compiler, it has enabled to solve 
+    many image processing and analysis problems in scientifif research from 
+    three-dimensional live-cell imaging to radiological image processing. 
+    ImageJ's plugin architecture and built-in development environment has made
+    it a popular platform for teaching image processing. :cite:`www-imagej`
+
 40. OpenCV
 
     OpenCV stands for Open source Computer Vision. It was designed for
@@ -1348,8 +1382,31 @@ High level Programming
      .. include:: techs/presto.rst
 
 117. Google Dremel
+ 
+     Dremel is a scalable, interactive ad-hoc query system for analysis of 
+     read-only nested data. By combining multi-level execution trees and 
+     columnar data layout, Google Dremel is capable of running aggregation
+     queries over trillion-row tables in seconds. :cite:`paper-dremel` 
+     With Dremel, you can write a declarative SQL-like query against data stored
+     in a read-only columnar format efficiently for analysis or data exploration.
+     It's also possible to write queries that analyze billions of rows, terabytes of 
+     data, and trillions of records in seconds. Dremel can be use for a variety 
+     of jobs including analyzing web-crawled documents, detecting e-mail spam, 
+     working through application crash reports.
+
 118. Google BigQuery
 119. Amazon Redshift
+     
+     Amazon Redshift is a fully managed, petabyte-scale data werehouse service
+     in the cloud. Redshift service manages all of the workof setting up, operating
+     and scalling a data werehouse. AWS Redshift can perform these tasks including
+     provisioning capacity, monitoring and backing up the cluster, and applying 
+     patches as well as upgrades to the Redshift's engine :cite:`www-redshift`.
+     Redshift is built on thet top of technology from the Massive Paraller Processing
+     (MPP) data-werehouse company ParAccel which based on PostgresSQL 8.0.2
+     to PostgresSQL 9.x with capabilty to handle analytics workloads on large-
+     scale dataset stored by a column-oriented DBMS principle  :cite:`www-wiki-red`.
+
 120. Drill
 
      Apache Drill :cite:`www-ApacheDrill` is an open source framework
@@ -1689,6 +1746,17 @@ Basic Programming model and runtime, SPMD, MapReduce
      can also be called from Fortrain.
 
 147. Stratosphere (Apache Flink)
+     
+     Apache Flink is an open-source stream processing framework for
+     distributed, high-performing, always-available, and accurate data
+     streaming applications. Apache Flink is used in big data application
+     primarily involving analysis of data stored in Hadoop clusters. 
+     It also supports a combination of in-memory and disk-based processing
+     as well as handles both batch and stream processing jobs, with data
+     streaming the default implementation and batch jobs running as 
+     special-case versions of streaming application :cite:`www-flink`
+
+
 148. Reef
 
      REEF (Retainable Evaluator Execution Framework) :cite:`www-reef`
@@ -2712,6 +2780,17 @@ NoSQL
      open-source license alternatives. :cite:`www-quora-cbs`
 
 232. IBM Cloudant
+     
+     Cloudant is based on both Apache-backed CouchDB project and the
+     open source BigCouch project. IBM Cloudant is an open source
+     non-relational, distributed database service as service (DBaaS)
+     that provides integrated data management, search and analytics 
+     engine designed for web applications. Cloudant's distributed
+     service is used the same way as standalone CouchDB, with the
+     added advantage of data being redundantly distributed over
+     multiple machines :cite:`www-ibm-cloudant`.
+   
+
 233. Pivotal Gemfire
      
      According to :cite:`www-gemfire`, a real-time, consistent access
@@ -4689,7 +4768,39 @@ Message and Data Protocols
 New Technologies to be integrated
 ---------------------------------
 
-382. TBD
+382. Snort
+
+     :cite:`www-snort` Snort is a Network Intrusion Prevention System (NIPS) and
+     Network Intrusion Detection System (NIDS). Snort's open source network-based
+     intrusion detection system (NIDS) has the ability to perform real-time traffic
+     analysis and packet logging on Internet Protocol (IP) networks. Snort performs
+     protocol analysis, content searching and matching. These basic services have
+     many purposes including application-aware triggered quality of service,
+     to de-prioritize bulk traffic when latency-sensitive applications are in use.
+     The program can also be used to detect probes or attacks, including, but not
+     limited to, operating system fingerprinting attempts, common gateway interface,
+     buffer overflows, server message block probes, and stealth port scans.
+     Snort can be configured in three main modes: sniffer, packet logger, and
+     network intrusion detection.[11] In sniffer mode, the program will read
+     network packets and display them on the console. In packet logger mode,
+     the program will log packets to the disk. In intrusion detection mode,
+     the program will monitor network traffic and analyze it against a rule set
+     defined by the user. The program will then perform a specific action based on
+     what has been identified.
+
+383. Fiddler
+
+     Fiddler is an HTTP debugging proxy server application. Fiddler captures HTTP   
+     and HTTPS traffic and logs it for the user to review by implementing
+     man-in-the-middle interception using self-signed certificates. Fiddler can also
+     be used to modify ("fiddle with") HTTP traffic for troubleshooting purposes as
+     it is being sent or received.[5] By default, traffic from Microsoft's WinINET
+     HTTP(S) stack is automatically directed to the proxy at runtime, but any browser
+     or Web application (and most mobile devices) can be configured to route its traffic
+     through Fiddler :cite:`www-fiddler`.
+
+384. TBA
+
 
 .. _techs-exercise:
 
