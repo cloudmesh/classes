@@ -11,3 +11,4 @@ watchdog
 Pygments
 jupyter
 nbconvert
+ghp-import
