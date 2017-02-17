@@ -1,6 +1,10 @@
 Bibliography Management
 ======================
 
+.. warning:: THis page is under active development and students are
+	     encouraged to contribute
+	     
+
 In this section we will explain how to find and properly generate
 bibliographic entries. We are using bibtex for this as it is easy to
 use and generates reasonable entries that can be included in
@@ -19,6 +23,8 @@ We will address a number of important entry types which includes:
 * articles in magazines (non scientific)
 * blogs
 
+  
+  
 Source code References
 ---------------------
 
@@ -145,3 +151,35 @@ also to include the version in the note field such as::
 
 .. note:: All those that helped should add your HID to this entry with
 	  a space separated from each other 
+
+Wikipedia Entry
+---------------
+
+Please fill out
+
+Web Page
+--------
+
+Please fill out
+
+InProceedings
+-------------
+
+Please fill out
+
+TechReport
+----------
+
+Please fill out
+
+Article
+-------
+
+Please fill out
+
+Proceedings
+-----------
+
+Please fill out
+
+
