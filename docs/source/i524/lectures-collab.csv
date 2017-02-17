@@ -15,5 +15,6 @@ Paper,How to write a paper by Simon Peyton Jones, `Video <https://www.youtube.co
      ,LaTeX - Overview of LaTeX Resources, `Web Page <../lesson/doc/latex.html>`_,
      ,(optional) ShareLaTeX, `Video <https://youtu.be/PfhSOjuQk8Y>`_, 8:49
      ,jabref, `Video <https://youtu.be/cMtYOHCHZ3k>`_,14:41
+     ,bibtex, `Web Page <../lesson/doc/bibtex.html>`_,
      ,Report Format, `Web Page <../lesson/doc/report.html>`_ - `Git <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_ - `PDF <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_,
 RST, (Draft) Restructured Text, `Web PAge <../lesson/doc/rst.html>`_,

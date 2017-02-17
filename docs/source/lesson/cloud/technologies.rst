@@ -10,6 +10,7 @@ Installing Cloudmesh Client
 
 2. How to install Cloudmesh Client?
     Please follow the steps provided in the below link,
+    :ref:`cm_install_` or
     * http://cloudmesh.github.io/client/setup.html
 3. How to launch a VM through Cloudmesh Client?
     Once you got the above setup done successfully, you can launch your own
@@ -27,10 +28,10 @@ a mail to the course help group and we will get back to you as soon as we
 can:
    * https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help
 
-5. Refernces:
+5. References:
 
    Cloudmesh: :cite:`las14cloudmeshmultiple`
-     
+
 Hadoop
 ========
 
@@ -54,7 +55,7 @@ Refernces
 =========
 
 .. rubric:: References
-   
-.. bibliography:: ../../references.bib    
+
+.. bibliography:: ../../references.bib
    :style: unsrt
    :cited:
