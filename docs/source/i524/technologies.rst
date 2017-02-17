@@ -4106,7 +4106,7 @@ DevOps
      automates deployment of applications on the cloud. The 
      program is pushed to the PaaS using git push, and then 
      PaaS detects the programming language, builds, and runs 
-     application on a cloud platform :cite:`plassnig_2015`.
+     application on a cloud platform :cite:`plassnig15`.
      Buildstep takes two parameters: a tar file that contains 
      the application and a new application container name to 
      create a new container for this application. Build script 
@@ -4114,7 +4114,7 @@ DevOps
      buildstep to run. The builder script runs inside the new 
      container.  The resulting build app can be run with Docker 
      using docker build -t your_app_name command.
-     :cite:`gonzalez_2015`. 
+     :cite:`github-buildstep`. 
 
 331. Gitreceive
 332. OpenTOSCA
