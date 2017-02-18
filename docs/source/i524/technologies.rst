@@ -42,7 +42,7 @@ Workflow-Orchestration
    the Business Process Execution Language for Web Services. The ActiveBPEL also 
    provides an administration interface that is accessible via web service 
    invocations;and it can also be use to administer, to control and to integrate
-   web services into a larger application. :cite:`www-bpel`
+   web services into a larger application :cite:`www-bpel`.
 
 3. Airavata
 4. Pegasus
@@ -1436,7 +1436,7 @@ High level Programming
      Redshift is built on thet top of technology from the Massive Paraller Processing
      (MPP) data-werehouse company ParAccel which based on PostgresSQL 8.0.2
      to PostgresSQL 9.x with capabilty to handle analytics workloads on large-
-     scale dataset stored by a column-oriented DBMS principle  :cite:`www-wiki-red`.
+     scale dataset stored by a column-oriented DBMS principle :cite:`www-wiki-red`.
 
 120. Drill
 
@@ -1785,7 +1785,7 @@ Basic Programming model and runtime, SPMD, MapReduce
      It also supports a combination of in-memory and disk-based processing
      as well as handles both batch and stream processing jobs, with data
      streaming the default implementation and batch jobs running as 
-     special-case versions of streaming application :cite:`www-flink`
+     special-case versions of streaming application :cite:`www-flink`.
 
 
 148. Reef
@@ -4863,7 +4863,7 @@ New Technologies to be integrated
      limited to, operating system fingerprinting attempts, common gateway interface,
      buffer overflows, server message block probes, and stealth port scans.
      Snort can be configured in three main modes: sniffer, packet logger, and
-     network intrusion detection.[11] In sniffer mode, the program will read
+     network intrusion detection. In sniffer mode, the program will read
      network packets and display them on the console. In packet logger mode,
      the program will log packets to the disk. In intrusion detection mode,
      the program will monitor network traffic and analyze it against a rule set
