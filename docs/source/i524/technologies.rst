@@ -1947,6 +1947,22 @@ Inter process communication Collectives
      distributed systems. 
 
 167. ActiveMQ
+
+     
+     Apache ActiveMQ is a powerful open source messaging and Integration
+     Patterns server according to the website :cite:`www-activeMQ` .
+     It is a message oriented middleware(MOM) for the Apache Software
+     Foundation that provides high availability, reliability, performance,
+     scalability and security for enterprise messaging as stated in
+     :cite:`ActiveMQ-book`. The goal of ActiveMQ is to provide
+     standard-based, message-oriented application integration across as
+     many languages and platforms as possible. ActiveMQ implements the JMS
+     spec and offers dozens of additional features and value on top of this
+     spec.ActiveMQ is used in many scenarios such as heterogeneous application
+     integration, as a replacement for RPC and to loosen the coupling between
+     applications.
+    
+     
 168. RabbitMQ
 
      RabbitMQ is a message broker :cite:`www-rabbitmq` which allows
@@ -3801,6 +3817,20 @@ Interoperability
 	 
 305. CDMI
 306. Whirr
+
+     Apache Whirr is a set of libraries for running cloud services as in
+     :cite:`www-ApacheWhirr`, which provides a cloud-neutral way to run
+     services. This is achieved by using cloud-neutral provisioning and storage
+     libraries such as jclouds, libcloud. Whirr's API should be built on top
+     these libraries and is not exposed to the users. It is also a common service
+     API, in which the details of its working are, particular to the service.
+     Whirr provides smart defaults for services by which any properly configured
+     system can run quickly, while still being able to override settings as needed.
+     Whirr can also be used as a command line tool for deploying clusters. It uses
+     low level API libraries to work with providers which was mentioned in the
+     :cite:`www-slideshare-ApacheWhirr`
+
+     
 307. Saga
 
      SAGA(Simple API for Grid Applications) provides an abstraction layer
@@ -3929,6 +3959,22 @@ DevOps
      systems.
 
 313. SaltStack
+     
+     SaltStack (also Salt) platform is a Python-based open-source
+     configuration management software and remote execution engine, which
+     makes systems and configuration management software for the orchestration
+     and automation of CloudOps, ITOps and DevOps at scale. :cite:`www-saltstack` 
+     SaltStack is used to manage all the data center things including any cloud,
+     infrastructure, virtualization, application stack, software or code.
+     Salt is built on two major concepts, which are clearly mentioned in
+     :cite:`SaltStack-book` as remote execution and configuration management. In
+     the remote execution system, Salt leverages Python to accomplish complex
+     tasks with single-function calls. The configuration management system in
+     Salt, called States, builds upon the remote execution foundation to create
+     repeatable, enforceable configuration for the minions (connects to the
+     master and treats the master as the source)
+
+     
 314. Boto
 
      :cite:`www-boto` The latest version of Boto is Boto3. 
@@ -4118,6 +4164,18 @@ DevOps
 
 331. Gitreceive
 332. OpenTOSCA
+
+     The Topology and Orchestration Specification for Cloud
+     Applications,TOSCA is a new standard facilitating platform
+     independent description of Cloud applications. OpenTOSCA is a
+     runtime for TOSCA-based Cloud applications. The runtime enables
+     fully automated plan-based deployment and management of applications
+     defined in the OASIS TOSCA packaging format CSAR, Cloud Service ARchive.
+     The key tasks of OpenTOSCA, are to operate management operations, run
+     plans, and manage state of the TOSCA.
+     :cite:`OpenTOSCA-paper`
+     
+     
 333. Winery
 
      Eclipse Winery :cite:`www-winery` is a "web-based environment to 
@@ -4749,6 +4807,18 @@ Message and Data Protocols
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 377. Avro
+
+     Apache Avro :cite:`www-Avro` is a data serialization system, which provides rich
+     data structures, remote procedure call(RPC), a container file to
+     store persistent data and simple integration with dynamic languages.
+     Avro depends on schemas, which are defined with JSON. This facilitates
+     implementation in other languages that have the JSON libraries.
+     The key advantages of Avro are schema evolution - Avro will handle the
+     missing/extra/modified fields, dynamic typing - serialization and
+     deserialization without code generation, untagged data - data encoding
+     and faster data processing by allowing data to be written without overhead. 
+
+     
 378. Thrift
 379. Protobuf
 
