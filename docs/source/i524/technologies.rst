@@ -33,6 +33,17 @@ Workflow-Orchestration
    living process executions for orchestrating services for applications :cite:`www-ode-web`.
 
 2. ActiveBPEL
+
+   Business Process Execution Language for Web Services (BPEL4WS or just BPEL) is
+   an XML-based grammar for describing the logic to coordinate and control
+   web services that seamlessly integrate people, processes and systems, increasing
+   the efficiency and visibility of the business. ActiveBPEL is a robust Java/J2EE  
+   runtime environment that is capable of executing process definitions created to 
+   the Business Process Execution Language for Web Services. The ActiveBPEL also 
+   provides an administration interface that is accessible via web service 
+   invocations;and it can also be use to administer, to control and to integrate
+   web services into a larger application :cite:`www-bpel`.
+
 3. Airavata
 4. Pegasus
 
@@ -55,6 +66,19 @@ Workflow-Orchestration
 
 
 5. Kepler
+ 
+   Kepler, scientific workflow application, is designed to help scientist,
+   analyst, and computer programmer create, execute and share models and 
+   analyses across a broad range of scientific and engineering disciplines.
+   Kepler can operate on data stored in a variety of formats, locally and 
+   over the internet, and is an effective environment for integrating
+   disparate software components such as merging "R" scripts with compiled "C"
+   code, or facilitating remote, distributed execution of models. Using Kepler's
+   GUI, users can simply select and then connect pertinent analytical components
+   and data sources to create a "scientific workflow". Overall, the Kepler helps
+   users share and reuse data, workflow, and components developed by the scientific
+   community to address common needs :cite:`www-kepler`.
+
 6. Swift
 7. Taverna
 
@@ -293,6 +317,19 @@ Workflow-Orchestration
     between flat files, databases and Salesforce.
 
 27. Talend
+
+    Talend is Apache Software Foundation sponsor Big data integration tool design to 
+    ease the development and integration and management of big data, Talend provides 
+    well optimised auto generated code to load transform, enrich and cleanse data inside 
+    Hadoop, where one don’t need to learn write and maintain Hadoop and spark code. 
+    The product has 900+ inbuild components feature data integration
+     
+    Talend features multiple products that simplify the digital transformation tools 
+    such as Big data integration, Data integration, Data Quality, Data Preparation, 
+    Cloud Integration, Application Integration, Master Data management, Metadata Manager. 
+    Talend Integration cloud is secure and managed integration Platform-as-a-service (iPaas), 
+    for connecting, cleansing and sharing cloud on premise data.
+
 28. Pentaho
 
     Pentaho is a business intelligence corporation that provides data
@@ -433,6 +470,16 @@ Application and Analytics
     also has tools to process genomic annotation data.
     
 39. ImageJ
+
+    ImageJ is a  Java-based image processing program developed at the National 
+    Institutes of Health (NIH). ImageJ was designed with an open architecture 
+    that provides extensibility via Java plugins and recordable macros.
+    Using ImageJ's built-in editor and a Java compiler, it has enabled to solve 
+    many image processing and analysis problems in scientifif research from 
+    three-dimensional live-cell imaging to radiological image processing. 
+    ImageJ's plugin architecture and built-in development environment has made
+    it a popular platform for teaching image processing. :cite:`www-imagej`
+
 40. OpenCV
 
     OpenCV stands for Open source Computer Vision. It was designed for
@@ -806,6 +853,24 @@ Application and Analytics
     geospatial information as well.
 
 66. CINET
+
+    A representation of connected entities such as “physical, biological and social 
+    phenomena”:cite:`www-bi.vt.edu` predictive model. Network science has grown its 
+    importance understanding these phenomena Cyberinfrastructure is middleware tool 
+    helps study Network science, :cite:`www-portal.futuresystems.org/projects/233` 
+    “by providing unparalleled computational and analytic environment for researcher”.
+ 
+    Network science involves study of graph a large volume which requires high power 
+    computing which usually cant be achieve by desktop. Cyberinfrastructure provides 
+    cloud based infrastructure (e.g. FutureGrid) as well as use of HPC (e.g. Shadowfax, 
+    Pecos). With use of advance intelligent Job mangers, it select the infrastructure 
+    smartly suitable for submitted job.
+     
+    It provides structural and dynamic network analysis, has number of algorithms for 
+    “network analysis such as shortest path, sub path, motif counting, centrality and 
+    graph traversal”. CiNet has number of range of network visualization modules. 
+    CiNet is actively being used by several universities, researchers and analysist.
+
 67. NWB
 
     :cite:`www-nwb.edu` NWB stands for Network workbench is analysis,
@@ -1362,8 +1427,31 @@ High level Programming
      .. include:: techs/presto.rst
 
 117. Google Dremel
+ 
+     Dremel is a scalable, interactive ad-hoc query system for analysis of 
+     read-only nested data. By combining multi-level execution trees and 
+     columnar data layout, Google Dremel is capable of running aggregation
+     queries over trillion-row tables in seconds. :cite:`paper-dremel` 
+     With Dremel, you can write a declarative SQL-like query against data stored
+     in a read-only columnar format efficiently for analysis or data exploration.
+     It's also possible to write queries that analyze billions of rows, terabytes of 
+     data, and trillions of records in seconds. Dremel can be use for a variety 
+     of jobs including analyzing web-crawled documents, detecting e-mail spam, 
+     working through application crash reports.
+
 118. Google BigQuery
 119. Amazon Redshift
+     
+     Amazon Redshift is a fully managed, petabyte-scale data werehouse service
+     in the cloud. Redshift service manages all of the workof setting up, operating
+     and scalling a data werehouse. AWS Redshift can perform these tasks including
+     provisioning capacity, monitoring and backing up the cluster, and applying 
+     patches as well as upgrades to the Redshift's engine :cite:`www-redshift`.
+     Redshift is built on thet top of technology from the Massive Paraller Processing
+     (MPP) data-werehouse company ParAccel which based on PostgresSQL 8.0.2
+     to PostgresSQL 9.x with capabilty to handle analytics workloads on large-
+     scale dataset stored by a column-oriented DBMS principle :cite:`www-wiki-red`.
+
 120. Drill
 
      Apache Drill :cite:`www-ApacheDrill` is an open source framework
@@ -1718,6 +1806,17 @@ Basic Programming model and runtime, SPMD, MapReduce
      can also be called from Fortrain.
 
 147. Stratosphere (Apache Flink)
+     
+     Apache Flink is an open-source stream processing framework for
+     distributed, high-performing, always-available, and accurate data
+     streaming applications. Apache Flink is used in big data application
+     primarily involving analysis of data stored in Hadoop clusters. 
+     It also supports a combination of in-memory and disk-based processing
+     as well as handles both batch and stream processing jobs, with data
+     streaming the default implementation and batch jobs running as 
+     special-case versions of streaming application :cite:`www-flink`.
+
+
 148. Reef
 
      REEF (Retainable Evaluator Execution Framework) :cite:`www-reef`
@@ -2760,6 +2859,17 @@ NoSQL
      open-source license alternatives. :cite:`www-quora-cbs`
 
 232. IBM Cloudant
+     
+     Cloudant is based on both Apache-backed CouchDB project and the
+     open source BigCouch project. IBM Cloudant is an open source
+     non-relational, distributed database service as service (DBaaS)
+     that provides integrated data management, search and analytics 
+     engine designed for web applications. Cloudant's distributed
+     service is used the same way as standalone CouchDB, with the
+     added advantage of data being redundantly distributed over
+     multiple machines :cite:`www-ibm-cloudant`.
+   
+
 233. Pivotal Gemfire
      
      According to :cite:`www-gemfire`, a real-time, consistent access
@@ -3432,6 +3542,24 @@ File systems
 
 287. Swift
 288. Haystack
+
+     Haystack is an open source project working with data from internet of Things, aim to 
+     standardise the semantic data model generated from smart devices, homes, factories etc. 
+     It include automation, control, energy, HVAC, lighting and other environmental systems. 
+     :cite:`www-project-haystack.org`
+     
+     Building block of Project haystack is on TagModel tagging of metadata stored in key/value 
+     pair applied to entity such id, dis, sites, geoAddr, tz. Structure the primary structure 
+     of haystack is based on three entities, Site location of single unit, equip physical or 
+     logical piece of equipment within site, point sensor, actuator or setpoint value for equip, 
+     it also includes weather outside weather condition. TimeZone time series data is most 
+     important factor it is foundation for sensor and operational data. Captured data not  always 
+     associated with measurable unit, however it provides facility to associate the data points. 
+     Commonly Supported units like Misc, Area, Currency, Energy, Power, Temperature, Temperature 
+     differential, Time, Volumetric Flow. The data often represented in 2D tabular form for tagged 
+     entities. It supports the query language for filtering over the data, data exposed through 
+     REST API in JSON format.
+
 289. f4
      
      As the amount of data Facebook stores continues to increase, the
@@ -4098,7 +4226,7 @@ DevOps
      automates deployment of applications on the cloud. The 
      program is pushed to the PaaS using git push, and then 
      PaaS detects the programming language, builds, and runs 
-     application on a cloud platform :cite:`plassnig_2015`.
+     application on a cloud platform :cite:`plassnig15`.
      Buildstep takes two parameters: a tar file that contains 
      the application and a new application container name to 
      create a new container for this application. Build script 
@@ -4106,7 +4234,7 @@ DevOps
      buildstep to run. The builder script runs inside the new 
      container.  The resulting build app can be run with Docker 
      using docker build -t your_app_name command.
-     :cite:`gonzalez_2015`. 
+     :cite:`github-buildstep`. 
 
 331. Gitreceive
 332. OpenTOSCA
@@ -4314,6 +4442,26 @@ IaaS Management from HPC to hypervisors
      on Microsoft Windows.
 	
 346. Linux-Vserver
+
+     Linux-VServers are used on web hosting services, pooling resources and containing 
+     any security breach. :cite:`www.linux-vserver.org/Paper` “Linux servers consist 
+     of three building blocks Hardware, Kernel and Applications” the purpose of kernel 
+     is to provide abstraction layer between hardware and application. Linux-Vserver 
+     provides VPS securely partitioning the resources on computer system in such a way 
+     that process cannot mount denial of service out of the partition.
+     
+     It utilises the power of Linux kernel and top of it with additional modification 
+     provides secure layer to each process (VPS)  feel like it is running separate system. 
+     By providing context separation, context capabilities, each partition called as 
+     security context, chroot barrier created on provate directory of each VPS to prevent 
+     unauthorized modification. Booting VPS in new secure context is just matter of booting 
+     server, context is so robust to boot many server simultaneously. 
+     
+     The virtual servers shares same system calls, shares common file system, process 
+     within VS are queued to same scheduler that of host allowing guest process to run 
+     concurrently on SMP systems. No additional overhead of network virtualization. 
+     These few advantages of Linux-VServer.
+
 347. OpenStack
 348. OpenNebula
 
@@ -4472,6 +4620,19 @@ IaaS Management from HPC to hypervisors
 357. Azure
 358. Google and other public Clouds
 359. Networking: Google Cloud DNS
+
+     Under the umbrella of google cloud platform, helps user to publish their domain using 
+     Google’s infrastructure. It is highly scalable, low latency, high availability DNS 
+     service residing on infrastructure same as google.  
+   
+     It is build around projects a resource container, domain for access control, and billing 
+     configuration. Managed zones holds records for same DNS name. The resource record sets 
+     collection holds current state of the DNS that make up managed zones it is unmodifiable 
+     or cannot be modified easily and changes to record sets. It supports “A” address records, 
+     “AAAA” IPv6, “CAA” Certificate authority, “CNAME” canonical name, “MX” mail exchange, 
+     “NAPTR” naming authority pointer, “NS” Name server record, “SOA” start of authority, 
+     “SPF” Sender policy framework, “SRV” service locator, “TXT” text record.
+
 360. Amazon Route 53
 
 
@@ -4760,7 +4921,39 @@ Message and Data Protocols
 New Technologies to be integrated
 ---------------------------------
 
-382. TBD
+382. Snort
+
+     :cite:`www-snort` Snort is a Network Intrusion Prevention System (NIPS) and
+     Network Intrusion Detection System (NIDS). Snort's open source network-based
+     intrusion detection system (NIDS) has the ability to perform real-time traffic
+     analysis and packet logging on Internet Protocol (IP) networks. Snort performs
+     protocol analysis, content searching and matching. These basic services have
+     many purposes including application-aware triggered quality of service,
+     to de-prioritize bulk traffic when latency-sensitive applications are in use.
+     The program can also be used to detect probes or attacks, including, but not
+     limited to, operating system fingerprinting attempts, common gateway interface,
+     buffer overflows, server message block probes, and stealth port scans.
+     Snort can be configured in three main modes: sniffer, packet logger, and
+     network intrusion detection. In sniffer mode, the program will read
+     network packets and display them on the console. In packet logger mode,
+     the program will log packets to the disk. In intrusion detection mode,
+     the program will monitor network traffic and analyze it against a rule set
+     defined by the user. The program will then perform a specific action based on
+     what has been identified.
+
+383. Fiddler
+
+     Fiddler is an HTTP debugging proxy server application. Fiddler captures HTTP   
+     and HTTPS traffic and logs it for the user to review by implementing
+     man-in-the-middle interception using self-signed certificates. Fiddler can also
+     be used to modify ("fiddle with") HTTP traffic for troubleshooting purposes as
+     it is being sent or received.[5] By default, traffic from Microsoft's WinINET
+     HTTP(S) stack is automatically directed to the proxy at runtime, but any browser
+     or Web application (and most mobile devices) can be configured to route its traffic
+     through Fiddler :cite:`www-fiddler`.
+
+384. TBA
+
 
 .. _techs-exercise:
 
