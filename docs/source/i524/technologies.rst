@@ -33,6 +33,17 @@ Workflow-Orchestration
    living process executions for orchestrating services for applications :cite:`www-ode-web`.
 
 2. ActiveBPEL
+
+   Business Process Execution Language for Web Services (BPEL4WS or just BPEL) is
+   an XML-based grammar for describing the logic to coordinate and control
+   web services that seamlessly integrate people, processes and systems, increasing
+   the efficiency and visibility of the business. ActiveBPEL is a robust Java/J2EE  
+   runtime environment that is capable of executing process definitions created to 
+   the Business Process Execution Language for Web Services. The ActiveBPEL also 
+   provides an administration interface that is accessible via web service 
+   invocations;and it can also be use to administer, to control and to integrate
+   web services into a larger application :cite:`www-bpel`.
+
 3. Airavata
 4. Pegasus
 
@@ -55,6 +66,19 @@ Workflow-Orchestration
 
 
 5. Kepler
+ 
+   Kepler, scientific workflow application, is designed to help scientist,
+   analyst, and computer programmer create, execute and share models and 
+   analyses across a broad range of scientific and engineering disciplines.
+   Kepler can operate on data stored in a variety of formats, locally and 
+   over the internet, and is an effective environment for integrating
+   disparate software components such as merging "R" scripts with compiled "C"
+   code, or facilitating remote, distributed execution of models. Using Kepler's
+   GUI, users can simply select and then connect pertinent analytical components
+   and data sources to create a "scientific workflow". Overall, the Kepler helps
+   users share and reuse data, workflow, and components developed by the scientific
+   community to address common needs :cite:`www-kepler`.
+
 6. Swift
 7. Taverna
 
@@ -127,6 +151,36 @@ Workflow-Orchestration
 13. Jupyter
 14. (Dryad)
 15. Naiad
+
+    Naiad :cite:`paper-naiad` is a distributed system based on
+    computational model called "Timely Dataflow" developed for
+    execution of data-parallel, cyclic dataflow programs. It provides
+    an in-memory distributed dataflow framework which exposes control
+    over data partitioning and enables features like the high
+    throughput of batch processors, the low latency of stream
+    processors, and the ability to perform iterative and incremental
+    computations. The Naiad architecture consists of two main
+    components: (1) incremental processing of incoming updates and (2)
+    low-latency real-time querying of the application state.
+    
+    Compared to other systems supporting loops or streaming
+    computation, Naiad provides support for the combination of the
+    two, nesting loops inside streaming contexts and indeed other
+    loops, while maintaining a clean separation between the many
+    reasons new records may flow through the computation
+    :cite:`www-naiad`.
+    
+    This model enriches dataflow computation with timestamps that
+    represent logical points in the computation and provide the basis
+    for an efficient, lightweight coordination mechanism.  All the
+    above capabilities in one package allows development of High-level
+    programming models on Naiad which can perform tasks as streaming
+    data analysis, iterative machine learning, and interactive graph
+    mining. On the contrary, it's public reusable low-level
+    programming abstractions leads Naiad to outperforms many other
+    data parallel systems that enforce a single high-level programming
+    model.
+    
 16. Oozie
 
     Oozie is a workflow manager and scheduler. Oozie is designed to scale in a 
@@ -251,7 +305,48 @@ Workflow-Orchestration
     foundation. :cite:`www-forbes`
     
 26. Jitterbit
+
+    Jitterbit :cite:`datasheet` is an integration tool that delivers a
+    quick, flexible and simpler approach to design, configure, test,
+    and deploy integration solutions. It delivers powerful, flexible,
+    and easy to use integration solutions that connect modern on
+    premise, cloud, social, and mobile infrastructures. Jitterbit
+    employs high performance parallel processing algorithms to handle
+    large data sets commonly found in ETL initiatives
+    :cite:`www-jitetl`. This allows easy synchronization of disparate
+    computing platforms quickly. The Data Cleansing and Smart
+    Reconstruction tools provides complete reliability in data
+    extraction, transformation and loading.
+
+    Jitterbit employs a no-code GUI (graphical user interface) and
+    work with diverse applications such as : ETL
+    (extract-transform-load), SaaS (Software as a Service),SOA
+    (service-oriented architecture).
+
+    Thus it provides centralized platform with power to control all
+    data. It supports many document types and protocols: XML, web
+    services, database, LDAP, text, FTP, HTTP(S), Flat and Hierarchic
+    file structures and file shares :cite:`tech-manual`. It is
+    available for Linux and Windows, and is also offered through
+    Amazon EC2 (Amazon Elastic Compute Cloud). Jitterbit Data Loader
+    for Salesforce is a free data migration tool that enables
+    Salesforce administrators automated import and export of data
+    between flat files, databases and Salesforce.
+
 27. Talend
+
+    Talend is Apache Software Foundation sponsor Big data integration tool design to 
+    ease the development and integration and management of big data, Talend provides 
+    well optimised auto generated code to load transform, enrich and cleanse data inside 
+    Hadoop, where one don’t need to learn write and maintain Hadoop and spark code. 
+    The product has 900+ inbuild components feature data integration
+     
+    Talend features multiple products that simplify the digital transformation tools 
+    such as Big data integration, Data integration, Data Quality, Data Preparation, 
+    Cloud Integration, Application Integration, Master Data management, Metadata Manager. 
+    Talend Integration cloud is secure and managed integration Platform-as-a-service (iPaas), 
+    for connecting, cleansing and sharing cloud on premise data.
+
 28. Pentaho
 
     Pentaho is a business intelligence corporation that provides data
@@ -392,6 +487,16 @@ Application and Analytics
     also has tools to process genomic annotation data.
     
 39. ImageJ
+
+    ImageJ is a  Java-based image processing program developed at the National 
+    Institutes of Health (NIH). ImageJ was designed with an open architecture 
+    that provides extensibility via Java plugins and recordable macros.
+    Using ImageJ's built-in editor and a Java compiler, it has enabled to solve 
+    many image processing and analysis problems in scientifif research from 
+    three-dimensional live-cell imaging to radiological image processing. 
+    ImageJ's plugin architecture and built-in development environment has made
+    it a popular platform for teaching image processing. :cite:`www-imagej`
+
 40. OpenCV
 
     OpenCV stands for Open source Computer Vision. It was designed for
@@ -646,6 +751,18 @@ Application and Analytics
     APIs and Software As a Service product as well.
     
 57. Oracle PGX
+
+    Numerous information is revealed from graphs. Information like
+    direct and indirect relations or patterns in the elements of the
+    data, can be easily seen through graphs. The analysis of graphs
+    can unveil significant insights. Oracle PGX (Parallel Graph
+    AnalytiX) is a toolkit for graph analysis.  “It is a fast,
+    parallel, in-memory graph analytic framework that allows users to
+    load up their graph data, run analytic algorithms on them, and to
+    browse or store the result” :cite:`www-pgx`. Graphs can be loaded
+    from various sources like SQL and NoSQL databases, Apache Spark
+    and Hadoop :cite:`www-ora`.
+    
 58. GraphLab
 
     GraphLab :cite:`www-graphlab` is a graph-based, distributed computation,
@@ -753,6 +870,24 @@ Application and Analytics
     geospatial information as well.
 
 66. CINET
+
+    A representation of connected entities such as “physical, biological and social 
+    phenomena”:cite:`www-bi.vt.edu` predictive model. Network science has grown its 
+    importance understanding these phenomena Cyberinfrastructure is middleware tool 
+    helps study Network science, :cite:`www-portal.futuresystems.org/projects/233` 
+    “by providing unparalleled computational and analytic environment for researcher”.
+ 
+    Network science involves study of graph a large volume which requires high power 
+    computing which usually cant be achieve by desktop. Cyberinfrastructure provides 
+    cloud based infrastructure (e.g. FutureGrid) as well as use of HPC (e.g. Shadowfax, 
+    Pecos). With use of advance intelligent Job mangers, it select the infrastructure 
+    smartly suitable for submitted job.
+     
+    It provides structural and dynamic network analysis, has number of algorithms for 
+    “network analysis such as shortest path, sub path, motif counting, centrality and 
+    graph traversal”. CiNet has number of range of network visualization modules. 
+    CiNet is actively being used by several universities, researchers and analysist.
+
 67. NWB
 
     :cite:`www-nwb.edu` NWB stands for Network workbench is analysis,
@@ -842,8 +977,36 @@ Application and Analytics
     for expanded analytics.
 
 74. D3.js
+
+    D3.js is a JavaScript library responsible for manipulating
+    documents based on data. D3 helps in making data more interactive
+    using HTML, SVG, and CSS. D3’s emphasis on web standards makes it
+    framework independent utilizing the full capabilities of modern
+    browsers, combining powerful visualization components and a
+    data-driven approach to DOM manipulation :cite:`www-d3`.
+
+    It assists in binding random data to a Document Object Model
+    (DOM), followed by applying data-driven transformations to the
+    document. It is very fast, supports large datasets and dynamic
+    behaviours involving interaction and animation.
+
+    
 75. three.js
 76. Potree
+
+    Potree :cite:`www-potree` is a opensource tool powered by WebGL
+    based viewer to visualize data from large point clouds. It started
+    at the TU Wien, institute of Computer Graphics and Algorithms and
+    currently begin continued under the Harvest4D project. Potree
+    relies on reorganizing the point cloud data into an
+    multi-resolution octree data structure which is time consuming. It
+    efficiency can be improved by using techiques such as divide and
+    conquer as disscused in a conference paper Taming the beast: Free
+    and Open Source massive cloud point cloud web
+    visualization :cite:`potree-paper-1`. It has also been widely used
+    in works involving spatio-temporal data where the changes in
+    geographical features are across time :cite:`potree-paper-2`.
+    
 77. DC.js
 
     According to :cite:`www-dcjs`: “DC.js is a javascript charting
@@ -1231,7 +1394,9 @@ High level Programming
      like language for use on Apache Hadoop, Hama, Spark, and Flink.
      MRQL allows users to perform complex data analysis using only SQL
      like queries, which are translated by MRQL to efficient Java
-     code. :cite:`www-apachemrql`
+     code. MRQL can evaluate queries in Map-Reduce (using Hadoop), Bulk
+     Synchronous Parallel (using Hama), Spark, and Flink modes.
+     :cite:`www-apachemrql`
 
      MRQL was created in 2011 by Leaonids
      Fegaras :cite:`www-mrqlhadoop` and is currently in the Apache
@@ -1260,13 +1425,50 @@ High level Programming
 113. HadoopDB
 114. PolyBase
 115. Pivotal HD/Hawq
+
+     Pivotal HDB is the Apache Hadoop native SQL database powered by
+     Apache HAWQ :cite:`www-apache-hqwq` for data science and machine
+     learning workloads. It can be used to gain deeper and actionable
+     insights into data with out the need from moving data to another
+     platform to perfrom advanced analytics. Few important problems
+     that Pivot HDB address are as follows Quickly unlock business
+     insights with exceptional performance, Integrate SQL BI tools
+     with confidence and Iterate advanced analytics and machine
+     learning in database support. Pivotal HDB comes with an elastic
+     SQL query engine which combines MPP-based analytical performance,
+     roboust ANSI SQL compliance and integrated Apache MADlib for
+     machine learning :cite:`www-pivotalhdb`.
+     
 116. Presto
 
      .. include:: techs/presto.rst
 
 117. Google Dremel
+ 
+     Dremel is a scalable, interactive ad-hoc query system for analysis of 
+     read-only nested data. By combining multi-level execution trees and 
+     columnar data layout, Google Dremel is capable of running aggregation
+     queries over trillion-row tables in seconds. :cite:`paper-dremel` 
+     With Dremel, you can write a declarative SQL-like query against data stored
+     in a read-only columnar format efficiently for analysis or data exploration.
+     It's also possible to write queries that analyze billions of rows, terabytes of 
+     data, and trillions of records in seconds. Dremel can be use for a variety 
+     of jobs including analyzing web-crawled documents, detecting e-mail spam, 
+     working through application crash reports.
+
 118. Google BigQuery
 119. Amazon Redshift
+     
+     Amazon Redshift is a fully managed, petabyte-scale data werehouse service
+     in the cloud. Redshift service manages all of the workof setting up, operating
+     and scalling a data werehouse. AWS Redshift can perform these tasks including
+     provisioning capacity, monitoring and backing up the cluster, and applying 
+     patches as well as upgrades to the Redshift's engine :cite:`www-redshift`.
+     Redshift is built on thet top of technology from the Massive Paraller Processing
+     (MPP) data-werehouse company ParAccel which based on PostgresSQL 8.0.2
+     to PostgresSQL 9.x with capabilty to handle analytics workloads on large-
+     scale dataset stored by a column-oriented DBMS principle :cite:`www-wiki-red`.
+
 120. Drill
 
      Apache Drill :cite:`www-ApacheDrill` is an open source framework
@@ -1621,6 +1823,17 @@ Basic Programming model and runtime, SPMD, MapReduce
      can also be called from Fortrain.
 
 147. Stratosphere (Apache Flink)
+     
+     Apache Flink is an open-source stream processing framework for
+     distributed, high-performing, always-available, and accurate data
+     streaming applications. Apache Flink is used in big data application
+     primarily involving analysis of data stored in Hadoop clusters. 
+     It also supports a combination of in-memory and disk-based processing
+     as well as handles both batch and stream processing jobs, with data
+     streaming the default implementation and batch jobs running as 
+     special-case versions of streaming application :cite:`www-flink`.
+
+
 148. Reef
 
      REEF (Retainable Evaluator Execution Framework) :cite:`www-reef`
@@ -1657,28 +1870,28 @@ Basic Programming model and runtime, SPMD, MapReduce
 153. Pegasus
 154. Ligra
 
-    Ligra is a Light Weight Graph Processing Framework for the graph
-    manipulation and analysis in shared memory system. It is
-    particularly suited for implementing on parallel graph traversal
-    algorithms where only a subset of the vertices are processed in an
-    iteration The interface is lightweight in that it supplies only a
-    few functions. The Ligra framework has two very simple routines,
-    one for mapping over edges and one for mapping over vertices.
+     Ligra is a Light Weight Graph Processing Framework for the graph
+     manipulation and analysis in shared memory system. It is
+     particularly suited for implementing on parallel graph traversal
+     algorithms where only a subset of the vertices are processed in an
+     iteration The interface is lightweight in that it supplies only a
+     few functions. The Ligra framework has two very simple routines,
+     one for mapping over edges and one for mapping over vertices.
 
-    :cite:'ligra-paper-2013 'The implementations of several graph
-    algorithms like BFS, breadth-first search, betweenness centrality,
-    graph radii estimation, graph-connectivity, PageRank and
-    Bellman-Ford single-source shortest paths efficient and scalable,
-    and often achieve better running times than ones reported by other
-    graph libraries/systems
+     :cite:'ligra-paper-2013 'The implementations of several graph
+     algorithms like BFS, breadth-first search, betweenness centrality,
+     graph radii estimation, graph-connectivity, PageRank and
+     Bellman-Ford single-source shortest paths efficient and scalable,
+     and often achieve better running times than ones reported by other
+     graph libraries/systems
 
-    :cite:'ligra-paper-2' Although the shared memory machines cannot
-    be scaled to the same size as distributed memory clusters but the
-    current commodity single unit servers can easily fit graphs with
-    well over a hundred billion edges in the shared memory systems
-    that is large enough for any of the graphs reported in the papers
-    mentioned above.
-     
+     :cite:'ligra-paper-2' Although the shared memory machines cannot
+     be scaled to the same size as distributed memory clusters but the
+     current commodity single unit servers can easily fit graphs with
+     well over a hundred billion edges in the shared memory systems
+     that is large enough for any of the graphs reported in the papers
+     mentioned above.
+
 155. GraphChi
 156. Galois
      
@@ -1709,7 +1922,38 @@ Inter process communication Collectives
 ----------------------------------------------------------------------
 
 160. point-to-point
-161. publish-subscribe: MPI
+161. (a) publish-subscribe: MPI
+
+     see http://www.slideshare.net/Foxsden/high-performance-processing-of-streaming-data
+     
+161. (b) publish-subscribe: Big Data
+
+     Publish/Subscribe (Pub/Sub) :cite:`thesis-pub-sub` is a
+     communication paradigm in which subscribers register their
+     interest as a pattern of events or topics and then asynchronously
+     receive events matching their interest. On the other hand,
+     publishers generate events that are delivered to subscribers with
+     matching interests.  In Pub/sub systems, publishers and
+     subscribers need not know each other. Pub/sub technology is
+     widely used for a loosely coupled interaction between disparate
+     publishing data-sources and numerous subscribing data-sinks. The
+     two most widely used pub/sub schemes are - Topic-Based
+     Publish/Subscribe (TBPS) and Content-Based Publish/Subscribe
+     (CBPS) :cite:`paper-pub-sub`.
+      
+     Big Data analytics architecture are being built on top of a
+     publish/subscribe service stratum, serving as the communication
+     facility used to exchange data among the involved components
+     :cite:`paper-pub-sub-bigdata`. Such a publish/subscribe service
+     stratum brilliantly solves several interoperability issues due to
+     the heterogeneity of the data to be handled in typical Big Data
+     scenarios.
+
+     Pub/Sub systems are being widely deployed in Centralized
+     datacenters, P2P environments, RSS feed notifications, financial
+     data dissemination, business process management, Social
+     interaction message notifications- Facebook, Twitter, Spotify,
+     etc.
 
 162. HPX-5
 
@@ -2094,10 +2338,14 @@ In-memory databases/caches
      It is open source software, released under the Apache 2.0 License. 
      :cite:`www-githubhazel` Hazelcast enables predictable scaling for 
      applications by providing in memory access to data. 
-     :cite:`www-wikihazel` Hazelcast uses a grid to distribute data evenly 
-     across a cluster. Clusters allow processing and storage to scale 
+     Hazelcast uses a grid to distribute data evenly across
+     a cluster. Clusters allow processing and storage to scale 
      horizontally. Hazelcast can run locally, in the cloud, in virtual 
-     machines, or in Docker containers. :cite:`www-wikihazel`
+     machines, or in Docker containers. Hazelcast can be utilized for 
+     a wide variety of applications. It has APIs for many programing 
+     languages including Python, Java, Scala, C++, .NET and Node.js and
+     supports any binary languages through an Open Binary Client Protocol.
+     :cite:`www-wikihazel`
 
 188. Ehcache
 
@@ -2182,7 +2430,23 @@ Object-relational mapping
 	   
 196. ODBC/JDBC
 
+     Open Database Connectivity (ODBC) is an open standard application
+     programming interface (API) for accessing database management
+     systems (DBMS) :cite:`www-odbc`. ODBC was developed by the SQL
+     Access Group and released in September, 1992. Microsoft Windows
+     was the first to provide an ODBC product. Later the versions for
+     UNIX, OS/2, and Macintosh platforms were developed. ODBC is
+     independent of the programming language, database system and
+     platform.
 
+     Java Database Connectivity (JDBC) is a API developed specific to
+     the Java programming language. JDBC was released as part of Java
+     Development Kit (JDK) 1.1 on February 19, 1997 by Sun
+     Microsystems :cite:`www-jdbc`. The ‘java.sql’ and ‘javax.sql’
+     packages contain the JDBC classes. JDBC is more suitable for
+     object oriented databases. JDBC can be used for ODBC compliant
+     databases by using a JDBC-to-ODBC bridge.
+     
 Extraction Tools
 ----------------------------------------------------------------------
 
@@ -2605,6 +2869,17 @@ NoSQL
      open-source license alternatives. :cite:`www-quora-cbs`
 
 232. IBM Cloudant
+     
+     Cloudant is based on both Apache-backed CouchDB project and the
+     open source BigCouch project. IBM Cloudant is an open source
+     non-relational, distributed database service as service (DBaaS)
+     that provides integrated data management, search and analytics 
+     engine designed for web applications. Cloudant's distributed
+     service is used the same way as standalone CouchDB, with the
+     added advantage of data being redundantly distributed over
+     multiple machines :cite:`www-ibm-cloudant`.
+   
+
 233. Pivotal Gemfire
      
      According to :cite:`www-gemfire`, a real-time, consistent access
@@ -2654,11 +2929,11 @@ NoSQL
      provides high performance and low latency and scales to hundreds of
      petabytes. :cite:`www-cloudbigtable` Bigtable powers many core
      Google products, such as Search, Analytics, Maps, Earth, Gmail,
-     and YouTube. :cite:`www-wikibigtable` Since May 6, 2015, a
-     version of Bigtable has been available to the public.  Bigtable
-     also drives Google Cloud Datastore :cite:`www-wikibigtable` and
+     and YouTube. Bigtable also drives Google Cloud Datastore and
      Spanner, a distributed NewSQL database also developed by
-     Google. :cite:`www-wikispanner`
+     Google. :cite:`www-wikispanner` :cite:`www-wikibigtable` 
+     Since May 6, 2015, a version of Bigtable has been available to the 
+     public. :cite:`www-wikibigtable`
 
 236. LevelDB
 237. Megastore and Spanner
@@ -2911,6 +3186,36 @@ File management
      formats c) A set of APIs for C/Fortran/Java 
 
 256. CDF
+
+     Common Data Format :cite:`www-cdf` is a conceptual data
+     abstraction for storing, manipulating, and accessing
+     multidimensional data sets. CDF differs from traditional physical
+     file formats by defining form and function as opposed to a
+     specification of the bits and bytes in an actual physical format.
+ 
+     CDF's integrated dataset is composed by following two categories
+     :(a)Data Objects - scalars, vectors, and n-dimensional
+     arrays.(b)Metadata - set of attributes describing the CDF in
+     global terms or specifically for a single variable
+     :cite:`user-guide-cdf`.
+
+     The self-describing property (metadata) allows CDF to be a
+     generic, data-independent format that can store data from a wide
+     variety of disciplines. Hence, the application developer remains
+     insulated from the actual physical file format for reasons of
+     conceptual simplicity, device independence, and future
+     expandability.CDF data sets are portable on any of the
+     CDF-supported platforms and accessible with CDF applications or
+     layered tools. To ensure the data integrity in a CDF file,
+     checksum method using MD5 algorithm is employed
+     :cite:`www-digitalpreserve`.
+
+     Compared to HDF format :cite:`www-wiki-hdf`, CDF permitted
+     cross-linking data from different instruments and spacecraft in
+     ISTP with one development effort. CDF is widely supported by
+     commercial and open source data analysis/visualization software
+     such as IDL, MATLAB, and IBM’s Data Explorer (XP).
+
 257. HDF
 258. OPeNDAP
 259. FITS
@@ -3241,7 +3546,42 @@ File systems
 
 287. Swift
 288. Haystack
+
+     Haystack is an open source project working with data from internet of Things, aim to 
+     standardise the semantic data model generated from smart devices, homes, factories etc. 
+     It include automation, control, energy, HVAC, lighting and other environmental systems. 
+     :cite:`www-project-haystack.org`
+     
+     Building block of Project haystack is on TagModel tagging of metadata stored in key/value 
+     pair applied to entity such id, dis, sites, geoAddr, tz. Structure the primary structure 
+     of haystack is based on three entities, Site location of single unit, equip physical or 
+     logical piece of equipment within site, point sensor, actuator or setpoint value for equip, 
+     it also includes weather outside weather condition. TimeZone time series data is most 
+     important factor it is foundation for sensor and operational data. Captured data not  always 
+     associated with measurable unit, however it provides facility to associate the data points. 
+     Commonly Supported units like Misc, Area, Currency, Energy, Power, Temperature, Temperature 
+     differential, Time, Volumetric Flow. The data often represented in 2D tabular form for tagged 
+     entities. It supports the query language for filtering over the data, data exposed through 
+     REST API in JSON format.
+
 289. f4
+     
+     As the amount of data Facebook stores continues to increase, the
+     need for quick access and efficient storage of data continues to
+     rise.  Facebook stores a class of data in Binary Large OBjects
+     (BLOBs), which can be created once, read many times, never
+     modified, and sometimes deleted. Haystack, Facebook’s traditional
+     BLOB storage system is becoming increasingly inefficient. The
+     storage efficiency is measured in the
+     effective-replication-factor of BLOBs.
+
+     f4 BLOB storage system provides an effective-replication-factor
+     lower than that of Haystack. f4 is simple, modular, scalable, and
+     fault tolerant. f4 currently stores over 65PBs of logical BLOBs,
+     with a reduced effective-replication-factor from 3.6 to either
+     2.8 or 2.1 :cite:`paper-f4`.
+
+     
 290. Cinder
       
      "Cinder is a block storage service for Openstack"
@@ -3263,6 +3603,35 @@ File systems
      device.
      
 291. Ceph
+
+     Ceph is open-source storage platform providing highly scalable
+     object, block as well as file-based storage. Ceph is a unified,
+     distributed storage system designed for excellent performance,
+     reliability and scalability :cite:`www-ceph`. Ceph Storage
+     clusters are designed to run using an algorithm called CRUSH
+     (Controlled Replication Under Scalable Hashing) which replicates
+     and re-balance data within the cluster dynamically to ensure even
+     data distribution across cluster and quick data retrieval without
+     any centralized bottlenecks.
+ 
+     Ceph’s foundation is the Reliable Autonomic Distributed Object
+     Store (RADOS) :cite:`www-cepharch`, which provides applications
+     with object, block, and file system storage in a single unified
+     storage cluster—making Ceph flexible, highly reliable and easy to
+     manage. Ceph decouples data and metadata operations by
+     eliminating file allocation tables and replacing them with
+     generating functions which allows RADOS to leverage intelligent
+     OSDs to manage data replication, failure detection and recovery,
+     low-level disk allocation, scheduling, and data migration without
+     encumbering any central server(s) :cite:`paper-Ceph`.
+ 
+     The Ceph Filesystem :cite:`www-cephfs` is a POSIX-compliant
+     filesystem that uses a Ceph Storage Cluster to store its
+     data. Ceph’s dynamic subtree partitioning is a uniquely scalable
+     approach, offering both efficiency and the ability to adapt to
+     varying workloads. Ceph Object Storage supports two compatible
+     interfaces: Amazon S3 and Openstack Swift.
+
 292. FUSE
 
      FUSE (Filesystem in Userspace) :cite:`www-fuse` "is an interface
@@ -3325,7 +3694,7 @@ File systems
      or shared disk modes. Spectrum Scale is available on AIX, Linux, 
      Windows Server, and IBM System Cluster 1350. :cite:`www-wikigpfs` 
      Due to its focus on performance and scalability, Spectrum Scale has 
-     been utilized in compute clusters, big data and analytics (including 
+     been utilized in compute clusters, big data and analytics - including 
      support for Hadoop Distributed File System (HDFS), backups and 
      restores, and private clouds. :cite:`www-spectrumscale`
 
@@ -3364,13 +3733,10 @@ File systems
      concept of Buckets and Objects for storing data wherein Buckets
      are used to store objects. Amazon S3 services can be used using
      the Amazon Console Management. :cite:`www-amazon-s3-docs` The steps
-     for using the Amazon S3 are as follows:
-     1) Sign up for Amazon S3
-     2) After sign up, create a Bucket in your account.
-     3) Create an object which might be an file or folder.
-     4) Perform operations on the object which is stored in the cloud.
-	
-	
+     for using the Amazon S3 are as follows: (1) Sign up for Amazon S3
+     (2) After sign up, create a Bucket in your account, (3) Create
+     and object which might be an file or folder, and (4) Perform
+     operations on the object which is stored in the cloud.
 
 	
 298. Azure Blob
@@ -3595,6 +3961,33 @@ DevOps
 ----------------------------------------------------------------------
 
 309. Docker (Machine, Swarm)
+
+     Docker is an open-source container based technology.A container
+     allows a developer to package up an application and all its part
+     includig the stack it runs on, dependencies it is associated with
+     and everything the application requirs to run within an isolated
+     enviorment . Docker seperates Application from the underlying
+     Operating System in a similar way as Virtual Machines seperates
+     the Operating System from the underlying Hardware.Dockerizing an
+     application is very lightweight in comparison with running the
+     application on the Virtual Machine as all the containers share
+     the same underlying kernel, the Host OS should be same as the
+     container OS (eliminating guest OS) and an average machine cannot
+     have more than few VMs running o them.
+
+     :cite:'docker-book' Docker Machine is a tool that lets you
+     install Docker Engine on virtual hosts, and manage the hosts with
+     docker-machine commands. You can use Machine to create Docker
+     hosts on your local Mac or Windows box, on your company network,
+     in your data center, or on cloud providers like AWS or Digital
+     Ocean. For Docker 1.12 or higher swarm mode is integerated with
+     the Docker Engine, but on the older versions with Machine's swarm
+     option, we can configure a swarm cluster Docker Swarm provides
+     native clustering capabilities to turn a group of Docker engines
+     into a single, virtual Docker Engine. With these pooled resources
+     ,:cite:'www-docker'"you can scale out your application as if it
+     were running on a single, huge computer" as swarm can be scaled
+     upto 1000 Nodes or upto 50,000 containers
 310. Puppet
 
      Puppet is an open source software configuration management
@@ -3837,7 +4230,7 @@ DevOps
      automates deployment of applications on the cloud. The 
      program is pushed to the PaaS using git push, and then 
      PaaS detects the programming language, builds, and runs 
-     application on a cloud platform :cite:`plassnig_2015`.
+     application on a cloud platform :cite:`plassnig15`.
      Buildstep takes two parameters: a tar file that contains 
      the application and a new application container name to 
      create a new container for this application. Build script 
@@ -3845,7 +4238,7 @@ DevOps
      buildstep to run. The builder script runs inside the new 
      container.  The resulting build app can be run with Docker 
      using docker build -t your_app_name command.
-     :cite:`gonzalez_2015`. 
+     :cite:`github-buildstep`. 
 
 331. Gitreceive
 332. OpenTOSCA
@@ -4053,9 +4446,60 @@ IaaS Management from HPC to hypervisors
      on Microsoft Windows.
 	
 346. Linux-Vserver
+
+     Linux-VServers are used on web hosting services, pooling resources and containing 
+     any security breach. :cite:`www.linux-vserver.org/Paper` “Linux servers consist 
+     of three building blocks Hardware, Kernel and Applications” the purpose of kernel 
+     is to provide abstraction layer between hardware and application. Linux-Vserver 
+     provides VPS securely partitioning the resources on computer system in such a way 
+     that process cannot mount denial of service out of the partition.
+     
+     It utilises the power of Linux kernel and top of it with additional modification 
+     provides secure layer to each process (VPS)  feel like it is running separate system. 
+     By providing context separation, context capabilities, each partition called as 
+     security context, chroot barrier created on provate directory of each VPS to prevent 
+     unauthorized modification. Booting VPS in new secure context is just matter of booting 
+     server, context is so robust to boot many server simultaneously. 
+     
+     The virtual servers shares same system calls, shares common file system, process 
+     within VS are queued to same scheduler that of host allowing guest process to run 
+     concurrently on SMP systems. No additional overhead of network virtualization. 
+     These few advantages of Linux-VServer.
+
 347. OpenStack
 348. OpenNebula
+
+     According to OpenNebula webpage :cite:`www-opennebula-org` it
+     provides simple but feature-rich and flexible solutions for the
+     comprehensive management of virtualized data centers to enable
+     private, public and hybrid laaS clouds. It is a cloud computing
+     platform for managing heterogenous distributed data centers
+     infrastructures. The OpenNebula toolkit includes features for
+     management, scalability, security and accounting. It used in
+     various sectors like hosting providers, telecom providers,
+     telecom operators, IT service providers, supercomputing centers,
+     research labs, and international research projects
+     :cite:`www-opennebula-wiki`. More about OpenNebula can be found
+     in the following paper that is published at ieee computer society
+     :cite:`paper-opennebula`
+     
 349. Eucalyptus
+
+     Eucalyptus is a Linux-based open source software framework for
+     cloud computing that implements Infrastructure as a Service
+     (IaaS). IaaS are systems that give users the ability to run and
+     control entire virtual machine instances deployed across a
+     variety physical resources :cite:`paper-eucalyptus`. Eucalyptus
+     is an acronym for “Elastic Utility Computing Architecture for
+     Linking Your Programs to Useful Systems.”
+
+     A Eucalyptus private cloud is deployed on an enterprise’s data
+     center infrastructure and is accessed by users over the
+     enterprise’s intranet. Sensitive data remains entirely secure
+     from external interference behind the enterprise firewall
+     :cite:`www-eucalyptus`.
+
+     
 350. Nimbus
 
      Nimbus Infrastructure :cite:`www-nimbus-wiki` is an open source
@@ -4161,30 +4605,38 @@ IaaS Management from HPC to hypervisors
      and other hardware configuration based on your application needs. 
      You can also select operating system and other software required 
      to run your application. AWS lets you select from the countless services. 
-     Some of them are mentioned below.
+     Some of them are mentioned below:
 
-          -  Amazon Elastic Computer Cloud (EC2)
-
-          -  Amazon Simple Storage Service (Amazon S3)
-
-          -  Amazon CloudFront
-
-          -  Amazon Relational Database Service (Amazon RDS)
-
-          -  Amazon SimpleDB
-
-          -  Amazon Simple Notification Service (Amazon SNS)
-
-          -  Amazon Simple Queue Service (Amazon SQS)
-
-          -  Amazon Virtual Private Cloud (Amazon VPC)
+     -  Amazon Elastic Computer Cloud (EC2)
+     -  Amazon Simple Storage Service (Amazon S3)
+     -  Amazon CloudFront
+     -  Amazon Relational Database Service (Amazon RDS)
+     -  Amazon SimpleDB
+     -  Amazon Simple Notification Service (Amazon SNS)
+     -  Amazon Simple Queue Service (Amazon SQS)
+     -  Amazon Virtual Private Cloud (Amazon VPC)
 
      Amazon EC2 and Amazon S3 are the two core IaaS services, which are 
      used by cloud application solution developers worldwide. :cite:'www-aws'
 
+     **Improve: all of them need bibentries**
+     
 357. Azure
 358. Google and other public Clouds
 359. Networking: Google Cloud DNS
+
+     Under the umbrella of google cloud platform, helps user to publish their domain using 
+     Google’s infrastructure. It is highly scalable, low latency, high availability DNS 
+     service residing on infrastructure same as google.  
+   
+     It is build around projects a resource container, domain for access control, and billing 
+     configuration. Managed zones holds records for same DNS name. The resource record sets 
+     collection holds current state of the DNS that make up managed zones it is unmodifiable 
+     or cannot be modified easily and changes to record sets. It supports “A” address records, 
+     “AAAA” IPv6, “CAA” Certificate authority, “CNAME” canonical name, “MX” mail exchange, 
+     “NAPTR” naming authority pointer, “NS” Name server record, “SOA” start of authority, 
+     “SPF” Sender policy framework, “SRV” service locator, “TXT” text record.
+
 360. Amazon Route 53
 
 
@@ -4473,7 +4925,39 @@ Message and Data Protocols
 New Technologies to be integrated
 ---------------------------------
 
-382. TBD
+382. Snort
+
+     :cite:`www-snort` Snort is a Network Intrusion Prevention System (NIPS) and
+     Network Intrusion Detection System (NIDS). Snort's open source network-based
+     intrusion detection system (NIDS) has the ability to perform real-time traffic
+     analysis and packet logging on Internet Protocol (IP) networks. Snort performs
+     protocol analysis, content searching and matching. These basic services have
+     many purposes including application-aware triggered quality of service,
+     to de-prioritize bulk traffic when latency-sensitive applications are in use.
+     The program can also be used to detect probes or attacks, including, but not
+     limited to, operating system fingerprinting attempts, common gateway interface,
+     buffer overflows, server message block probes, and stealth port scans.
+     Snort can be configured in three main modes: sniffer, packet logger, and
+     network intrusion detection. In sniffer mode, the program will read
+     network packets and display them on the console. In packet logger mode,
+     the program will log packets to the disk. In intrusion detection mode,
+     the program will monitor network traffic and analyze it against a rule set
+     defined by the user. The program will then perform a specific action based on
+     what has been identified.
+
+383. Fiddler
+
+     Fiddler is an HTTP debugging proxy server application. Fiddler captures HTTP   
+     and HTTPS traffic and logs it for the user to review by implementing
+     man-in-the-middle interception using self-signed certificates. Fiddler can also
+     be used to modify ("fiddle with") HTTP traffic for troubleshooting purposes as
+     it is being sent or received.[5] By default, traffic from Microsoft's WinINET
+     HTTP(S) stack is automatically directed to the proxy at runtime, but any browser
+     or Web application (and most mobile devices) can be configured to route its traffic
+     through Fiddler :cite:`www-fiddler`.
+
+384. TBA
+
 
 .. _techs-exercise:
 
