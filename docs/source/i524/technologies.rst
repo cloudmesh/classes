@@ -317,6 +317,19 @@ Workflow-Orchestration
     between flat files, databases and Salesforce.
 
 27. Talend
+
+    Talend is Apache Software Foundation sponsor Big data integration tool design to 
+    ease the development and integration and management of big data, Talend provides 
+    well optimised auto generated code to load transform, enrich and cleanse data inside 
+    Hadoop, where one don’t need to learn write and maintain Hadoop and spark code. 
+    The product has 900+ inbuild components feature data integration
+     
+    Talend features multiple products that simplify the digital transformation tools 
+    such as Big data integration, Data integration, Data Quality, Data Preparation, 
+    Cloud Integration, Application Integration, Master Data management, Metadata Manager. 
+    Talend Integration cloud is secure and managed integration Platform-as-a-service (iPaas), 
+    for connecting, cleansing and sharing cloud on premise data.
+
 28. Pentaho
 
     Pentaho is a business intelligence corporation that provides data
@@ -840,6 +853,24 @@ Application and Analytics
     geospatial information as well.
 
 66. CINET
+
+    A representation of connected entities such as “physical, biological and social 
+    phenomena”:cite:`www-bi.vt.edu` predictive model. Network science has grown its 
+    importance understanding these phenomena Cyberinfrastructure is middleware tool 
+    helps study Network science, :cite:`www-portal.futuresystems.org/projects/233` 
+    “by providing unparalleled computational and analytic environment for researcher”.
+ 
+    Network science involves study of graph a large volume which requires high power 
+    computing which usually cant be achieve by desktop. Cyberinfrastructure provides 
+    cloud based infrastructure (e.g. FutureGrid) as well as use of HPC (e.g. Shadowfax, 
+    Pecos). With use of advance intelligent Job mangers, it select the infrastructure 
+    smartly suitable for submitted job.
+     
+    It provides structural and dynamic network analysis, has number of algorithms for 
+    “network analysis such as shortest path, sub path, motif counting, centrality and 
+    graph traversal”. CiNet has number of range of network visualization modules. 
+    CiNet is actively being used by several universities, researchers and analysist.
+
 67. NWB
 
     :cite:`www-nwb.edu` NWB stands for Network workbench is analysis,
@@ -3440,6 +3471,24 @@ File systems
 
 287. Swift
 288. Haystack
+
+     Haystack is an open source project working with data from internet of Things, aim to 
+     standardise the semantic data model generated from smart devices, homes, factories etc. 
+     It include automation, control, energy, HVAC, lighting and other environmental systems. 
+     :cite:`www-project-haystack.org`
+     
+     Building block of Project haystack is on TagModel tagging of metadata stored in key/value 
+     pair applied to entity such id, dis, sites, geoAddr, tz. Structure the primary structure 
+     of haystack is based on three entities, Site location of single unit, equip physical or 
+     logical piece of equipment within site, point sensor, actuator or setpoint value for equip, 
+     it also includes weather outside weather condition. TimeZone time series data is most 
+     important factor it is foundation for sensor and operational data. Captured data not  always 
+     associated with measurable unit, however it provides facility to associate the data points. 
+     Commonly Supported units like Misc, Area, Currency, Energy, Power, Temperature, Temperature 
+     differential, Time, Volumetric Flow. The data often represented in 2D tabular form for tagged 
+     entities. It supports the query language for filtering over the data, data exposed through 
+     REST API in JSON format.
+
 289. f4
      
      As the amount of data Facebook stores continues to increase, the
@@ -4322,6 +4371,26 @@ IaaS Management from HPC to hypervisors
      on Microsoft Windows.
 	
 346. Linux-Vserver
+
+     Linux-VServers are used on web hosting services, pooling resources and containing 
+     any security breach. :cite:`www.linux-vserver.org/Paper` “Linux servers consist 
+     of three building blocks Hardware, Kernel and Applications” the purpose of kernel 
+     is to provide abstraction layer between hardware and application. Linux-Vserver 
+     provides VPS securely partitioning the resources on computer system in such a way 
+     that process cannot mount denial of service out of the partition.
+     
+     It utilises the power of Linux kernel and top of it with additional modification 
+     provides secure layer to each process (VPS)  feel like it is running separate system. 
+     By providing context separation, context capabilities, each partition called as 
+     security context, chroot barrier created on provate directory of each VPS to prevent 
+     unauthorized modification. Booting VPS in new secure context is just matter of booting 
+     server, context is so robust to boot many server simultaneously. 
+     
+     The virtual servers shares same system calls, shares common file system, process 
+     within VS are queued to same scheduler that of host allowing guest process to run 
+     concurrently on SMP systems. No additional overhead of network virtualization. 
+     These few advantages of Linux-VServer.
+
 347. OpenStack
 348. OpenNebula
 
@@ -4480,6 +4549,19 @@ IaaS Management from HPC to hypervisors
 357. Azure
 358. Google and other public Clouds
 359. Networking: Google Cloud DNS
+
+     Under the umbrella of google cloud platform, helps user to publish their domain using 
+     Google’s infrastructure. It is highly scalable, low latency, high availability DNS 
+     service residing on infrastructure same as google.  
+   
+     It is build around projects a resource container, domain for access control, and billing 
+     configuration. Managed zones holds records for same DNS name. The resource record sets 
+     collection holds current state of the DNS that make up managed zones it is unmodifiable 
+     or cannot be modified easily and changes to record sets. It supports “A” address records, 
+     “AAAA” IPv6, “CAA” Certificate authority, “CNAME” canonical name, “MX” mail exchange, 
+     “NAPTR” naming authority pointer, “NS” Name server record, “SOA” start of authority, 
+     “SPF” Sender policy framework, “SRV” service locator, “TXT” text record.
+
 360. Amazon Route 53
 
 
