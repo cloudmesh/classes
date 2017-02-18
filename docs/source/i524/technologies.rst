@@ -182,6 +182,23 @@ Workflow-Orchestration
     model.
     
 16. Oozie
+
+    Oozie is a workflow manager and scheduler. Oozie is designed to scale in a 
+    Hadoop cluster. Each job will be launched from a different datanode
+    :cite:`paper-Oozie` :cite:`www-Oozie1` . 
+    Oozie :cite:`www-Oozie2` is architected from the ground up for large-scale 
+    Hadoop workflow. Scales to meet the demand, provides a multi-tenant service, 
+    is secure to protect data and processing, and can be operated cost effective
+    ly. As demand for workflow and the sophistication of applications increase, 
+    it must continue to mature in these areas :cite:`paper-Oozie`.Is well integr
+    ated with Hadoop security. Is the only workflow manager with built-in Hadoo
+    p actions, making workflow development, maintenance and troubleshooting easi
+    er. It’s UI makes it easier to drill down to specific errors in the data
+    nodes. Proven to scale in some of the world’s largest clusters 
+    :cite:`paper-Oozie`. Gets callbacks from MapReduce jobs so it knows when 
+    they finish and whether they hang without expensive polling. Oozie Coordinat
+    or allows triggering actions when files arrive at HDFS. Also supported by
+    Hadoop vendors :cite:`paper-Oozie`.
 17. Tez
 18. Google FlumeJava
 19. Crunch
@@ -1027,6 +1044,20 @@ Application and Analytics
     
 79. CNTK
 
+    The Microsoft Cognitive Toolkit - CNTK - is a unified deep-learning toolkit 
+    by Microsoft Research. It is in essence an implementation of Computational 
+    Network(CN) which supports both CPU and GPU. CNTK supports arbitrary valid 
+    computational networks and makes building DNNs, CNNs, RNNs, LSTMS, and other 
+    complicated networks as simple as describing the operations of the networks. 
+    The toolkit is implemented with efficiency in mind. It removes duplicate 
+    computations in both forward and backward passes, uses minimal memory needed 
+    and reduces memory reallocation by reusing them. It also speeds up the model 
+    training and evaluation by doing batch computation whenever possible 
+    :cite:`book-cntk` . It can be included as a library in your Python or C++ pro
+    grams, or used as a standalone machine learning tool through its own model  
+    description language (BrainScript). :cite:`www-cntk`
+    Latest Version:2017-02-10. V 2.0 Beta 11 Release
+
 
 Application Hosting Frameworks
 ----------------------------------------------------------------------
@@ -1764,6 +1795,21 @@ Basic Programming model and runtime, SPMD, MapReduce
      
 145. Twister
 
+     Twister is a new software tool released by Indiana University, which is an 
+     extension to MapReduce architectures currently used in the academia and 
+     industry :cite:`www-twister1`. It supports faster execution of many data mining applications 
+     implemented as MapReduce programs. Applications that currently use Twister
+     include: K-means clustering, Google's page rank, Breadth first graph search
+     , Matrix multiplication, and Multidimensional scaling. Twister also builds 
+     on the SALSA team's work related to commercial MapReduce runtimes, 
+     including Microsoft Dryad software and open source Hadoop software. SALSA 
+     project work is funded in part by an award from Microsoft, Inc. The archite
+     cture is based on pub/sub messaging that enables it to perform faster data
+     transfers, minimizing the overhead of the runtime. Also, the support for 
+     long running processes improves the efficiency of the runtime for many     
+     iterative MapReduce computations. :cite:`www-twister2` :cite:`www-twister3` 
+     :cite:`paper-twister`.
+
 146. MR-MPI
 
      :cite:`www-mapreducempi` MR-MPI stands for Map Reduce-Message
@@ -2443,6 +2489,18 @@ SQL(NewSQL)
 ----------------------------------------------------------------------
 
 198. Oracle
+
+     Oracle database is an object-relational database management system by 
+     Oracle. Following are some of the key features of Oracle :cite:`www-oracle`
+     1. ANSI SQL Compliance
+     2. Multi-version read consistency
+     3. Procedural extensions: PL/SQL and Java.
+     Apart from above they are performance related features, including but not 
+     limited to: indexes, in-memory, partitioning, optimization. 
+     As of today the latest release of Oracle is :cite:`www-oracle`
+     Oracle Database 12c Release 1: 12.1 (Patch set as of June 2013 )
+
+
 199. DB2
 200. SQL Server
 
@@ -3110,6 +3168,23 @@ File management
 
 254. iRODS
 255. NetCDF
+
+     NetCDF is a set of software libraries and self-describing, machine-indepen
+     dent data formats that support the creation, access, and sharing of array
+     oriented scientific data. NetCDF was developed and is maintained at Unidata
+     , part of the University Corporation for Atmospheric Research (UCAR) Commun
+     ity Programs (UCP). Unidata is funded primarily by the National Science F
+     oundation :cite:`paper-netCDF` :cite:`www-netcdf` . The purpose of the Netwo
+     rk Common Data Form(netCDF) interface is to support the creation, efficient
+     access, and sharing of data in a form that is self-describing, portable, co
+     mpact, extendible, and archivable Version 3 of netCDF is widely used in   
+     atmospheric and ocean sciences due to its simplicity. NetCDF version 4 has 
+     been designed to address limitations of netCDF version 3 while preserving 
+     useful forms of compatibility with existing application software and data 
+     archives :cite:`paper-netCDF`. 
+     NetCDF consists of: a) A conceptual data model b) A set of binary data 
+     formats c) A set of APIs for C/Fortran/Java 
+
 256. CDF
 
      Common Data Format :cite:`www-cdf` is a conceptual data
