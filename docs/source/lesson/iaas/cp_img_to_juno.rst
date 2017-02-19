@@ -1,3 +1,5 @@
+:orphan:
+
 How to copy your image from Havana to Juno
 =====================================
 

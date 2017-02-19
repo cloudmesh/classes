@@ -6,12 +6,12 @@
 .. toctree::
    :maxdepth: 3
 
-   projects   
-   programming
+   /lessons/projects   
+   /lessons/prg/programming
    as1
    technologies
-   python
-   iaas
-   quickstart_openstack
+   /lesson/prg/python_intro
+   /lessons/iaas
    chameleon
    notebooks/lesson-a
+   

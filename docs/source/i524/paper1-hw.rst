@@ -1,3 +1,5 @@
+:orphan:
+
 .. _paper1-hw:
 
 Paper 1 Homework

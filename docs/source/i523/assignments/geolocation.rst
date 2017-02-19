@@ -1,3 +1,5 @@
+:orphan:
+
 .. _geolocation:
 
 PRG-GEO: Geolocation

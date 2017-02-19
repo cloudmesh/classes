@@ -1,3 +1,5 @@
+:orphan:
+
 .. _robotswarm:
 
 Virtual Robot Swarm
