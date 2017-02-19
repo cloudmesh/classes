@@ -1,3 +1,5 @@
+:orphan:
+
 .. _s-openstack:
 
 OpenStack on FutureSystems

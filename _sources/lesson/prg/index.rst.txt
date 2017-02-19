@@ -1,5 +1,5 @@
 Programming
-=======
+===========
 
 .. toctree::
    :glob:

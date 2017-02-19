@@ -1,3 +1,5 @@
+:orphan:
+
 .. highlight:: bash
 
 .. _s-hpc:

@@ -162,6 +162,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
@@ -411,6 +412,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
@@ -619,6 +621,14 @@ tools, for example:</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Replace PORTALUSERNAME with your actual portal account ID</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you see &#8216;Permission Denied&#8217; SSH error, it&#8217;s probably
+because of either wrong public/private keys or delays in
+account creation. &#8216;-vvv&#8217; verbose option to <cite>ssh</cite> command is
+helpful which generates debugging messages in case you want
+to find out issues.</p>
 </div>
 <p>Connection is granted with the Welcome message like:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Welcome</span> <span class="n">to</span> <span class="n">india</span><span class="o">.</span><span class="n">futuresystems</span><span class="o">.</span><span class="n">org</span>

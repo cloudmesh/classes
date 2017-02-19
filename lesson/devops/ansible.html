@@ -162,6 +162,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ansible-playbooks">Ansible Playbooks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="comparison.html">Compaprison of Configuration management software</a></li>
@@ -265,6 +266,25 @@
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">Ansible</a><ul>
 <li><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ansible-playbooks">Ansible Playbooks</a><ul>
+<li><a class="reference internal" href="#tutorial-writing-ansible-playbook">Tutorial: Writing Ansible Playbook</a><ul>
+<li><a class="reference internal" href="#first-playbook-for-mongodb-installation">First playbook for MongoDB Installation</a></li>
+<li><a class="reference internal" href="#enabling-root-ssh-access">Enabling Root SSH Access</a></li>
+<li><a class="reference internal" href="#hosts-and-users">Hosts and Users</a></li>
+<li><a class="reference internal" href="#tasks">Tasks</a></li>
+<li><a class="reference internal" href="#module-apt-key-add-repository-keys">Module <code class="docutils literal"><span class="pre">apt_key</span></code>: add repository keys</a></li>
+<li><a class="reference internal" href="#module-apt-repository-add-repositories">Module <code class="docutils literal"><span class="pre">apt_repository</span></code>: add repositories</a></li>
+<li><a class="reference internal" href="#module-apt-install-packages">Module <code class="docutils literal"><span class="pre">apt</span></code>: install packages</a></li>
+<li><a class="reference internal" href="#module-service-manage-services">Module <code class="docutils literal"><span class="pre">service</span></code>: manage services</a></li>
+<li><a class="reference internal" href="#the-full-playbook">The Full Playbook</a></li>
+<li><a class="reference internal" href="#running-a-playbook">Running a Playbook</a></li>
+<li><a class="reference internal" href="#sanity-check-test-mongodb">Sanity Check: Test MongoDB</a></li>
+<li><a class="reference internal" href="#terms">Terms</a></li>
+<li><a class="reference internal" href="#reference">Reference</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#lab-session">Lab Session</a></li>
 </ul>
 </li>
@@ -393,6 +413,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ansible-playbooks">Ansible Playbooks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="comparison.html">Compaprison of Configuration management software</a></li>
@@ -486,6 +507,25 @@
 </li><ul>
 <li><a class="reference internal" href="#">Ansible</a><ul>
 <li><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ansible-playbooks">Ansible Playbooks</a><ul>
+<li><a class="reference internal" href="#tutorial-writing-ansible-playbook">Tutorial: Writing Ansible Playbook</a><ul>
+<li><a class="reference internal" href="#first-playbook-for-mongodb-installation">First playbook for MongoDB Installation</a></li>
+<li><a class="reference internal" href="#enabling-root-ssh-access">Enabling Root SSH Access</a></li>
+<li><a class="reference internal" href="#hosts-and-users">Hosts and Users</a></li>
+<li><a class="reference internal" href="#tasks">Tasks</a></li>
+<li><a class="reference internal" href="#module-apt-key-add-repository-keys">Module <code class="docutils literal"><span class="pre">apt_key</span></code>: add repository keys</a></li>
+<li><a class="reference internal" href="#module-apt-repository-add-repositories">Module <code class="docutils literal"><span class="pre">apt_repository</span></code>: add repositories</a></li>
+<li><a class="reference internal" href="#module-apt-install-packages">Module <code class="docutils literal"><span class="pre">apt</span></code>: install packages</a></li>
+<li><a class="reference internal" href="#module-service-manage-services">Module <code class="docutils literal"><span class="pre">service</span></code>: manage services</a></li>
+<li><a class="reference internal" href="#the-full-playbook">The Full Playbook</a></li>
+<li><a class="reference internal" href="#running-a-playbook">Running a Playbook</a></li>
+<li><a class="reference internal" href="#sanity-check-test-mongodb">Sanity Check: Test MongoDB</a></li>
+<li><a class="reference internal" href="#terms">Terms</a></li>
+<li><a class="reference internal" href="#reference">Reference</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#lab-session">Lab Session</a></li>
 </ul>
 </li>
@@ -557,6 +597,277 @@ $ ssh-add ~/.ssh/id_rsa
 $ ssh-keygen -lf ~/.ssh/id_rsa.pub
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+<div class="section" id="ansible-playbooks">
+<h1>Ansible Playbooks<a class="headerlink" href="#ansible-playbooks" title="Permalink to this headline">¶</a></h1>
+<p>Ansible Playbooks are automated scripts written in YAML data format.  Instead
+of using manual commands to setup multiple remote machines, you can utilize
+Ansible Playbooks to configure your entire systems. YAML syntax is easy to read
+and express the data structure of certain Ansible functions. You simply write
+some tasks, for example, installing software, configuring default settings, and
+starting the software, in a Ansible Playbook.  With a few examples in this
+tutorial, you will understand how it works and how to write your own Playbooks.</p>
+<dl class="docutils">
+<dt>..note:: There are also several examples of using Ansible <a href="#id1"><span class="problematic" id="id2">`</span></a>Playbooks</dt>
+<dd>&lt;<a class="reference external" href="http://docs.ansible.com/playbooks.html">http://docs.ansible.com/playbooks.html</a>&gt;`_ from the official site. It covers
+from basic usage of Ansible Playbooks to advanced usage such as applying
+patches and updates with different roles and groups.</dd>
+</dl>
+<div class="section" id="tutorial-writing-ansible-playbook">
+<h2>Tutorial: Writing Ansible Playbook<a class="headerlink" href="#tutorial-writing-ansible-playbook" title="Permalink to this headline">¶</a></h2>
+<p>In this tutorial, we are going to write a basic playbook of Ansible software.
+Keep in mind that <code class="docutils literal"><span class="pre">Ansible</span></code> is a main program and <code class="docutils literal"><span class="pre">playbook</span></code> is a template
+that you would like to use. You may have several playbooks in your Ansible.</p>
+<div class="section" id="first-playbook-for-mongodb-installation">
+<h3>First playbook for MongoDB Installation<a class="headerlink" href="#first-playbook-for-mongodb-installation" title="Permalink to this headline">¶</a></h3>
+<p>As a first example, we are going to write a playbook which installs MongoDB
+server.  It includes the following tasks:</p>
+<ul class="simple">
+<li>Import the public key used by the package management system</li>
+<li>Create a list file for MongoDB</li>
+<li>Reload local package database</li>
+<li>Install the MongoDB packages</li>
+<li>Start MongoDB</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>This tutorial is based on the manual installation of MongoDB from
+the official site:
+<a class="reference external" href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/*">http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/*</a></p>
+<p class="last">We also assume that we install MongoDB on Ubuntu 15.10.</p>
+</div>
+</div>
+<div class="section" id="enabling-root-ssh-access">
+<h3>Enabling Root SSH Access<a class="headerlink" href="#enabling-root-ssh-access" title="Permalink to this headline">¶</a></h3>
+<p>Some setups of managed nodes may not allow you to log in as root. As
+this may be problematic later, let us create a playbook to resolve
+this. Create a <code class="docutils literal"><span class="pre">enable-root-access.yaml</span></code> file with the following
+contents:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="o">-</span> <span class="n">hosts</span><span class="p">:</span> <span class="n">ansible</span><span class="o">-</span><span class="n">test</span>
+  <span class="n">remote_user</span><span class="p">:</span> <span class="n">ubuntu</span>
+  <span class="n">tasks</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Enable</span> <span class="n">root</span> <span class="n">login</span>
+      <span class="n">shell</span><span class="p">:</span> <span class="n">sudo</span> <span class="n">cp</span> <span class="o">~/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">authorized_keys</span> <span class="o">/</span><span class="n">root</span><span class="o">/.</span><span class="n">ssh</span><span class="o">/</span>
+</pre></div>
+</div>
+<p>Explanation:</p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">hosts</span></code> specifies the name of a group of machines in the inventory</li>
+<li><code class="docutils literal"><span class="pre">remote_user</span></code> specifies the username on the managed nodes to log in as</li>
+<li><code class="docutils literal"><span class="pre">tasks</span></code> is a list of tasks to accomplish having a <code class="docutils literal"><span class="pre">name</span></code> (a
+description) and modules to execute. In this case we use the
+<code class="docutils literal"><span class="pre">shell</span></code> module.</li>
+</ul>
+<p>We can run this playbook like so:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ansible-playbook -i inventory.txt -c ssh enable-root-access.yaml
+
+PLAY [ansible-test] ***********************************************************
+
+GATHERING FACTS ***************************************************************
+ok: [10.23.2.105]
+ok: [10.23.2.104]
+
+TASK: [Enable root login] *****************************************************
+changed: [10.23.2.104]
+changed: [10.23.2.105]
+
+PLAY RECAP ********************************************************************
+10.23.2.104                : ok=2    changed=1    unreachable=0    failed=0
+10.23.2.105                : ok=2    changed=1    unreachable=0    failed=0
+</pre></div>
+</div>
+</div>
+<div class="section" id="hosts-and-users">
+<h3>Hosts and Users<a class="headerlink" href="#hosts-and-users" title="Permalink to this headline">¶</a></h3>
+<p>First step is choosing hosts to install MongoDB and a user account to run
+commands (tasks).  We start with the following lines in the example filename of
+<code class="docutils literal"><span class="pre">mongodb.yaml</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="o">-</span> <span class="n">hosts</span><span class="p">:</span> <span class="n">ansible</span><span class="o">-</span><span class="n">test</span>
+  <span class="n">remote_user</span><span class="p">:</span> <span class="n">root</span>
+</pre></div>
+</div>
+<p>In a previous tutorial, we setup two machines with <code class="docutils literal"><span class="pre">ansible-test</span></code> group name.
+This tutorial uses that two machines for MongoDB installation.  Also, we use
+<code class="docutils literal"><span class="pre">root</span></code> account to complete Ansible tasks.</p>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Indentation is important in YAML format. Do not ignore spaces start
+with in each line.</p>
+</div>
+</div>
+<div class="section" id="tasks">
+<h3>Tasks<a class="headerlink" href="#tasks" title="Permalink to this headline">¶</a></h3>
+<p>A list of tasks contains commands or configurations to be executed on remote
+machines in a sequential order.  Each task comes with a <code class="docutils literal"><span class="pre">name</span></code> and a
+<code class="docutils literal"><span class="pre">module</span></code> to run your command or configuration.  You provide a description of
+your task in <code class="docutils literal"><span class="pre">name</span></code> section and choose a <code class="docutils literal"><span class="pre">module</span></code> for your task.  There are
+several modules that you can use, for example, <code class="docutils literal"><span class="pre">shell</span></code> module simply executes
+a command without considering a return value.  You may use <code class="docutils literal"><span class="pre">apt</span></code> or <code class="docutils literal"><span class="pre">yum</span></code>
+module which is one of the packaging modules to install software. You can find
+an entire list of modules here:
+<a class="reference external" href="http://docs.ansible.com/list_of_all_modules.html">http://docs.ansible.com/list_of_all_modules.html</a></p>
+</div>
+<div class="section" id="module-apt-key-add-repository-keys">
+<h3>Module <code class="docutils literal"><span class="pre">apt_key</span></code>: add repository keys<a class="headerlink" href="#module-apt-key-add-repository-keys" title="Permalink to this headline">¶</a></h3>
+<p>We need to import the MongoDB public GPG Key. This is going to be a first task
+in our playbook.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">tasks</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Import</span> <span class="n">the</span> <span class="n">public</span> <span class="n">key</span> <span class="n">used</span> <span class="n">by</span> <span class="n">the</span> <span class="n">package</span> <span class="n">management</span> <span class="n">system</span>
+    <span class="n">apt_key</span><span class="p">:</span> <span class="n">keyserver</span><span class="o">=</span><span class="n">hkp</span><span class="p">:</span><span class="o">//</span><span class="n">keyserver</span><span class="o">.</span><span class="n">ubuntu</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="mi">80</span> <span class="nb">id</span><span class="o">=</span><span class="mi">7</span><span class="n">F0CEB10</span> <span class="n">state</span><span class="o">=</span><span class="n">present</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="module-apt-repository-add-repositories">
+<h3>Module <code class="docutils literal"><span class="pre">apt_repository</span></code>: add repositories<a class="headerlink" href="#module-apt-repository-add-repositories" title="Permalink to this headline">¶</a></h3>
+<p>Next add the MongoDB repository to apt:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Add</span> <span class="n">MongoDB</span> <span class="n">repository</span>
+  <span class="n">apt_repository</span><span class="p">:</span> <span class="n">repo</span><span class="o">=</span><span class="s1">&#39;deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen&#39;</span> <span class="n">state</span><span class="o">=</span><span class="n">present</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="module-apt-install-packages">
+<h3>Module <code class="docutils literal"><span class="pre">apt</span></code>: install packages<a class="headerlink" href="#module-apt-install-packages" title="Permalink to this headline">¶</a></h3>
+<p>We use <code class="docutils literal"><span class="pre">apt</span></code> module to install <code class="docutils literal"><span class="pre">mongodb-org</span></code> package.
+<code class="docutils literal"><span class="pre">notify</span></code> action is added to start <code class="docutils literal"><span class="pre">mongod</span></code> after the completion of this task.
+Use the <code class="docutils literal"><span class="pre">update_cache=yes</span></code> option to reload the local package database.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">install</span> <span class="n">mongodb</span>
+  <span class="n">apt</span><span class="p">:</span> <span class="n">pkg</span><span class="o">=</span><span class="n">mongodb</span><span class="o">-</span><span class="n">org</span> <span class="n">state</span><span class="o">=</span><span class="n">latest</span> <span class="n">update_cache</span><span class="o">=</span><span class="n">yes</span>
+  <span class="n">notify</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">start</span> <span class="n">mongodb</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="module-service-manage-services">
+<h3>Module <code class="docutils literal"><span class="pre">service</span></code>: manage services<a class="headerlink" href="#module-service-manage-services" title="Permalink to this headline">¶</a></h3>
+<p>We use <code class="docutils literal"><span class="pre">handlers</span></code> here to start or restart services. It is similar to
+<code class="docutils literal"><span class="pre">tasks</span></code> but will run only once.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">handlers</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">start</span> <span class="n">mongodb</span>
+    <span class="n">service</span><span class="p">:</span> <span class="n">name</span><span class="o">=</span><span class="n">mongod</span> <span class="n">state</span><span class="o">=</span><span class="n">started</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="the-full-playbook">
+<h3>The Full Playbook<a class="headerlink" href="#the-full-playbook" title="Permalink to this headline">¶</a></h3>
+<p>Our first playbook looks like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="o">-</span> <span class="n">hosts</span><span class="p">:</span> <span class="n">ansible</span><span class="o">-</span><span class="n">test</span>
+  <span class="n">remote_user</span><span class="p">:</span> <span class="n">root</span>
+  <span class="n">tasks</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Import</span> <span class="n">the</span> <span class="n">public</span> <span class="n">key</span> <span class="n">used</span> <span class="n">by</span> <span class="n">the</span> <span class="n">package</span> <span class="n">management</span> <span class="n">system</span>
+    <span class="n">apt_key</span><span class="p">:</span> <span class="n">keyserver</span><span class="o">=</span><span class="n">hkp</span><span class="p">:</span><span class="o">//</span><span class="n">keyserver</span><span class="o">.</span><span class="n">ubuntu</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="mi">80</span> <span class="nb">id</span><span class="o">=</span><span class="mi">7</span><span class="n">F0CEB10</span> <span class="n">state</span><span class="o">=</span><span class="n">present</span>
+  <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Add</span> <span class="n">MongoDB</span> <span class="n">repository</span>
+    <span class="n">apt_repository</span><span class="p">:</span> <span class="n">repo</span><span class="o">=</span><span class="s1">&#39;deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen&#39;</span> <span class="n">state</span><span class="o">=</span><span class="n">present</span>
+  <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">install</span> <span class="n">mongodb</span>
+    <span class="n">apt</span><span class="p">:</span> <span class="n">pkg</span><span class="o">=</span><span class="n">mongodb</span><span class="o">-</span><span class="n">org</span> <span class="n">state</span><span class="o">=</span><span class="n">latest</span> <span class="n">update_cache</span><span class="o">=</span><span class="n">yes</span>
+    <span class="n">notify</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">start</span> <span class="n">mongodb</span>
+  <span class="n">handlers</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">start</span> <span class="n">mongodb</span>
+      <span class="n">service</span><span class="p">:</span> <span class="n">name</span><span class="o">=</span><span class="n">mongod</span> <span class="n">state</span><span class="o">=</span><span class="n">started</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="running-a-playbook">
+<h3>Running a Playbook<a class="headerlink" href="#running-a-playbook" title="Permalink to this headline">¶</a></h3>
+<p>We use <code class="docutils literal"><span class="pre">ansible-playbook</span></code> command to run our playbook:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ansible-playbook -i inventory.txt -c ssh mongodb.yaml
+
+PLAY [ansible-test] ***********************************************************
+
+GATHERING FACTS ***************************************************************
+ok: [10.23.2.104]
+ok: [10.23.2.105]
+
+TASK: [Import the public key used by the package management system] ***********
+changed: [10.23.2.104]
+changed: [10.23.2.105]
+
+TASK: [Add MongoDB repository] ************************************************
+changed: [10.23.2.104]
+changed: [10.23.2.105]
+
+TASK: [install mongodb] *******************************************************
+changed: [10.23.2.104]
+changed: [10.23.2.105]
+
+NOTIFIED: [start mongodb] *****************************************************
+ok: [10.23.2.105]
+ok: [10.23.2.104]
+
+PLAY RECAP ********************************************************************
+10.23.2.104                : ok=5    changed=3    unreachable=0    failed=0
+10.23.2.105                : ok=5    changed=3    unreachable=0    failed=0
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>If you rerun the playbook, you should see that nothing changed:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span>$ ansible-playbook -i inventory.txt -c ssh mongodb.yaml
+
+PLAY [ansible-test] ***********************************************************
+
+GATHERING FACTS ***************************************************************
+ok: [10.23.2.105]
+ok: [10.23.2.104]
+
+TASK: [Import the public key used by the package management system] ***********
+ok: [10.23.2.104]
+ok: [10.23.2.105]
+
+TASK: [Add MongoDB repository] ************************************************
+ok: [10.23.2.104]
+ok: [10.23.2.105]
+
+TASK: [install mongodb] *******************************************************
+ok: [10.23.2.105]
+ok: [10.23.2.104]
+
+PLAY RECAP ********************************************************************
+10.23.2.104                : ok=4    changed=0    unreachable=0    failed=0
+10.23.2.105                : ok=4    changed=0    unreachable=0    failed=0
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="sanity-check-test-mongodb">
+<h3>Sanity Check: Test MongoDB<a class="headerlink" href="#sanity-check-test-mongodb" title="Permalink to this headline">¶</a></h3>
+<p>Let&#8217;s try to run &#8216;mongo&#8217; to enter mongodb shell.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ssh ubuntu@$IP
+$ mongo
+MongoDB shell version: 2.6.9
+connecting to: test
+Welcome to the MongoDB shell.
+For interactive help, type &quot;help&quot;.
+For more comprehensive documentation, see
+        http://docs.mongodb.org/
+Questions? Try the support group
+        http://groups.google.com/group/mongodb-user
+&gt;
+</pre></div>
+</div>
+</div>
+<div class="section" id="terms">
+<h3>Terms<a class="headerlink" href="#terms" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Module: Ansible library to run or manage services, packages, files or
+commands.</li>
+<li>Handler: A task for notifier.</li>
+<li>Task: Ansible job to run a command, check files, or update configurations.</li>
+<li>Playbook: a list of tasks for Ansible nodes. YAML format used.</li>
+<li>YAML: Human readable generic data serialization.</li>
+</ul>
+</div>
+<div class="section" id="reference">
+<h3>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h3>
+<p>The main tutorial from Ansible is here:
+<a class="reference external" href="http://docs.ansible.com/playbooks_intro.html">http://docs.ansible.com/playbooks_intro.html</a></p>
+<p>You can also find an index of the ansible modules here:
+<a class="reference external" href="http://docs.ansible.com/modules_by_category.html">http://docs.ansible.com/modules_by_category.html</a></p>
 </div>
 </div>
 <div class="section" id="lab-session">

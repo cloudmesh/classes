@@ -31,9 +31,7 @@ In order to conduct this lesson you should have knowledge of
      $ ssh-keygen -lf ~/.ssh/id_rsa.pub
 
 
-.. include:: ../ansible.rst
-
-.. include:: ../ansible_playbook.rst
+.. include:: ansible_playbook.rst
 
   
 .. _ref-class-lesson-devops-ansible-lab:

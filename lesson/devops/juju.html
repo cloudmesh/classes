@@ -162,6 +162,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="comparison.html">Compaprison of Configuration management software</a></li>
@@ -412,6 +413,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="comparison.html">Compaprison of Configuration management software</a></li>
@@ -662,7 +664,7 @@ services on Juju.</p>
 <h3>IP tables Configuration<a class="headerlink" href="#ip-tables-configuration" title="Permalink to this headline">¶</a></h3>
 <p>Since Juju GUI is running with a virtual network in your VM instance, you need
 to configure <code class="docutils literal"><span class="pre">iptables</span></code>. Your Juju GUI will be served on your floating IP
-address with the FORWARD rules.</p>
+address with the FORWARD rules.:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">iptables</span> <span class="o">-</span><span class="n">t</span> <span class="n">nat</span> <span class="o">-</span><span class="n">A</span> <span class="n">PREROUTING</span> <span class="o">-</span><span class="n">p</span> <span class="n">tcp</span> <span class="o">-</span><span class="n">d</span> <span class="mf">0.0</span><span class="o">.</span><span class="mf">0.0</span> <span class="o">--</span><span class="n">dport</span> <span class="mi">443</span> <span class="o">-</span><span class="n">j</span> <span class="n">DNAT</span> <span class="o">--</span><span class="n">to</span><span class="o">-</span><span class="n">destination</span> <span class="p">[</span><span class="n">IP</span> <span class="n">ADDRESS</span> <span class="n">of</span> <span class="n">Juju</span> <span class="n">GUI</span><span class="p">]:</span><span class="mi">443</span>
 </pre></div>
 </div>
@@ -706,7 +708,7 @@ password will be printed out on your screen. Use them to login.</p>
 </div>
 <div class="section" id="screenshot-of-juju-gui">
 <h3>Screenshot of Juju GUI<a class="headerlink" href="#screenshot-of-juju-gui" title="Permalink to this headline">¶</a></h3>
-<img alt="lesson/devops/../../../images/juju_gui.png" src="lesson/devops/../../../images/juju_gui.png" />
+<img alt="../../_images/juju_gui.png" src="../../_images/juju_gui.png" />
 </div>
 </div>
 <div class="section" id="exercises">
