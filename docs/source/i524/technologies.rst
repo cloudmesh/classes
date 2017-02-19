@@ -742,6 +742,21 @@ Application and Analytics
     GPUs.
 	
 55. H2O
+
+    It is an open source software for big data analysis. It was launched
+    by the Start-up H2O in 2011. :cite:`www-H2O-website` It provides an
+    in-memory, distributed, fast and a scalable machine learning and
+    predictive analytics platform that allows the users to build 
+    machine learning models on big data. It is written in
+    Java. :cite:`www-H20-book` It is currently implemented in 5000
+    companies. It provides APIs for R(3.0.0 or later), Python(2.7.x,
+    3.5.x), Scala(1.4-1.6) and JSON. The software also allows online
+    scoring and modeling on a single platform.  It is scalable and has a
+    wide range of OS and language support. It works perfectly on the
+    conventional operating systems, and big data systems such as Hadoop,
+    Cloudera, MapReduce, HortonWorks. :cite:`www-H20-wiki` It can be used
+    on cloud computing environments such as Amazon and Microsoft Azure.
+
 56. IBM Watson
 
     IBM Watson :cite:`www-ibmwatson-wiki` is a super computer built on
@@ -1199,6 +1214,21 @@ Application Hosting Frameworks
     throughout the world. :cite:`www-azure-msft`
 
 87. Cloud Foundry
+
+    It is an open source software with multi cloud application .It is
+    a platform for running applications and
+    services. :cite:`www-cloudfoundry-book` It was originally
+    developed by VMware and currently owned by Pivotal . It is written
+    in Ruby and Go .It has a commercial version called Pivotal Cloud
+    Foundry (PFC). Cloud Foundry is available as a stand alone
+    software package, we can also deploy it to Amazon AWS as well as
+    host it on OpenStack server , HP’s Helion or VMware’s vSphere as
+    given in the blog :cite:`www-cloudfoundry-blog` , it delivers
+    quick application from development to deployment and is highly
+    scalable. It has a DevOps friendly workflow.  Cloud Foundry
+    changes the way application and services are deployed and reduces
+    the develop to deployment cycle time.
+
 88. Pivotal
 89. IBM BlueMix
 90. (Ninefold)
@@ -1238,6 +1268,23 @@ Application Hosting Frameworks
     manages them. :cite:`tweney`
     
 94. CloudBees
+
+    :cite:`www-cloudbees-wiki` Cloudbees provides Platform as a
+    Service (PaaS) solution, which is a cloud service for Java
+    applications. It is used to build, run and manage the web
+    applications. It was created in 2010 by Jenkins. It has a
+    continuous delivery platform for DevOps, and adds a
+    enterprise-grade functionality with an expert level
+    support. Cloudbees is better than the traditional Java platform as
+    it requires no provision of the nodes, clusters, load balancers
+    and databases. In cloudbees the environment is constantly managed
+    and monitored where a metering and scale updating is done on a
+    real time basis. :cite:`www-cloudbees-webpage` The platform ships
+    with verified security and enhancements assuring less risk for
+    sharing sensitive information. It simplies the task of getting the
+    platform accessed by every user using the feature “Jenkins
+    Sprawl”.
+
 95. Engine Yard
 96. (CloudControl)
 
@@ -4448,6 +4495,21 @@ IaaS Management from HPC to hypervisors
      systems) :cite:`www-xen-fl`.
           
 340. KVM
+
+     :cite:`www-KVM-wiki` It is an acronym for Kernel-based Virtual
+     Machine for the Linux Kernel that turns it into a
+     hypervisor upon installation. It was originally developed
+     by Qumranet in 2007. It has a kernel model and uses kernel
+     as VMM. It only supports fully virtualized VMs. It is very
+     active for Linux users due to it’s ease of use, it can be
+     completely controlled by ourselves and there is an ease for
+     migration from or to other platforms. :cite:`www-KVM-
+     webpage` It is built to run on a x86 machine on an Intel
+     processor with virtualization technology extensions (VT-x)
+     or an AMD-V. It supports 32 and 64 bit guests on a 64 bit
+     host and hardware visualization features. The supported
+     guest systems are Solaris , Linux, Windows and BSD Unix.
+
 341. QEMU
      
      QEMU (Quick Emulator) is a generic open source hosted hypervisor
