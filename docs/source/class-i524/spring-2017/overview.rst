@@ -406,7 +406,7 @@ Report Format
 All reports will be using the ACM proceedings format. The MSWord template
 can be found here:
 
-* :download:`paper-report.docx <files/paper-report.docx>`
+* :download:`paper-report.docx </files/paper-report.docx>`
 
 A LaTeX version can be found at
 
