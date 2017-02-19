@@ -1238,12 +1238,12 @@ you.
    in the future lesson :doc:`modules`.
    
 Exercises
-=================================================================
+---------
 
 .. _lab-python-1:
 
 Lab - Python - FizzBuzz
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Write a python program called fizzbuzz.py that accepts an integer n
 from the command line.  Pass this integer to a function called
@@ -1257,7 +1257,7 @@ number is a multiple of three, print "fizz", if a multiple of 5 print
 .. _lab-python-2:
 
 Lab - Python - Setup for FutureSystems
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Create a virtualenv ``~/ENV``
 #. Modify your ``~/.bashrc`` shell file to activate your environment
@@ -1268,12 +1268,14 @@ Lab - Python - Setup for FutureSystems
 #. Demonstrate the program works and submit the code and output.
 
 Ecosystem
-=================================================================
+---------
 
 .. _autoenv_:
 
-`Autoenv <https://pypi.python.org/pypi/autoenv/0.2.0>`_: Directory-based Environments
------------------------------------------------
+Autoenv: Directory-based Environments
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Link: `Autoenv <https://pypi.python.org/pypi/autoenv/0.2.0>`
 
 .. warning:: We do not recommend that you use autoenv. INstead we
 	     recommend that you use pyenv. For this class neither is
@@ -1330,8 +1332,10 @@ Autoenv can be disabled via ``unset cd`` if you experience I/O issues
    with certain file systems, particularly those that are FUSE-based
    (such as ``smbnetfs``).
 
-`pypi <https://pypi.python.org/pypi>`_
------------------------------------------------
+pypi
+^^^^
+
+Link: `pypi <https://pypi.python.org/pypi>`_
 
 The Python Package Index is a large repository of software for the
 Python programming language containing a large number of packages
@@ -1351,7 +1355,7 @@ be the package called cloudmesh_client which you can install with::
 If all goes well the package will be installed.
 
 Alternative Installations
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The basic installation of python is provided by python.org. However
 others claim to have alternative environments that allow you to
@@ -1447,7 +1451,7 @@ Useful Ecosystem Links
 .. _python-resources:
 
 Resources
-=================================================================
+---------
 
 If you are unfamiliar with programming in Python, we also refer you
 to some of the numerous online resources. You may wish to start with

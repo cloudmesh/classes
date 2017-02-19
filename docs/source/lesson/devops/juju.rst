@@ -33,7 +33,10 @@ This lesson covers for:
 * Juju GUI
 * Media Wiki or WordPress
 * iptables for virtual networks
-.. * Configuration with AWS
+
+..
+   COMMENT
+   * Configuration with AWS
    * Configuration with HP (Helion) Cloud
    * Configuration with India OpenStack on FutureSystems
    * Hadoop example 
@@ -53,9 +56,7 @@ Installation on Ubuntu
 * Start a VM instance with futuresystems/Ubuntu-14.04.
 
 Once you are in a VM instance, refresh the package lists with the following
-commands:
-
-::
+commands::
   
    sudo add-apt-repository ppa:juju/stable -y
    sudo apt-get update
@@ -69,9 +70,7 @@ Install Juju packages::
 Installation on OSX (Optional)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Try to use Homebrew for installing Juju on OSX:
-
-::
+Try to use Homebrew for installing Juju on OSX::
   
   brew install juju-quickstart
   brew install juju
@@ -108,15 +107,11 @@ IP tables Configuration
 
 Since Juju GUI is running with a virtual network in your VM instance, you need
 to configure ``iptables``. Your Juju GUI will be served on your floating IP
-address with the FORWARD rules.
-
-::
+address with the FORWARD rules.::
   
   sudo iptables -t nat -A PREROUTING -p tcp -d 0.0.0.0 --dport 443 -j DNAT --to-destination [IP ADDRESS of Juju GUI]:443
 
-You can find a IP address of your Juju GUI with the following command:
-
-::
+You can find a IP address of your Juju GUI with the following command::
 
   juju status
  
@@ -157,7 +152,7 @@ An example of output::
 Screenshot of Juju GUI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: ../../../images/juju_gui.png
+.. image:: /images/juju_gui.png
 
 .. _ref-class-lesson-devops-juju-exercises:
 
