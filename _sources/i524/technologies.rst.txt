@@ -1230,6 +1230,20 @@ Application Hosting Frameworks
     the develop to deployment cycle time.
 
 88. Pivotal
+
+    Pivotal Software, Inc. (Pivotal) is a software and services
+    company. It offeres multiple consulting and technology services,
+    which includes Pivotal Web Services, which is an agile application
+    hosting service. It has a single step upload feature "cf push",
+    another feature called Buildpacks lets us push applications
+    written for any language like Java, Grails, Play, Spring, Node.js,
+    Ruby on Rails, Sinatra or Go. Pivotal Web Services also allows
+    developers to connect to 3rd party databases, email services,
+    monitoring and more from the Marketplace. It also offers
+    performance monitoring, active health monitoring, unified log
+    streaming, web console built for team-based agile development
+    :cite:`pivotal-www`.
+
 89. IBM BlueMix
 90. (Ninefold)
 
@@ -1732,6 +1746,21 @@ Streams
 131. Neptune
 
 132. Google MillWheel
+
+     MillWheel is a framework for building low-latency data-processing
+     applications. Users specify a directed computation graph and
+     application code for individual nodes, and the system manages
+     persistent state and the continuous flow of records, all within
+     the envelope of the framework’s fault-tolerance guarantees. Other
+     streaming systems do not provide this combination of fault
+     tolerance, versatility, and scalability. MillWHeel allows for
+     complex streaming systems to be created without distributed
+     systems expertise. MillWheel’s programming model provides a
+     notion of logical time, making it simple to write time-based
+     aggregations. MillWheel was designed from the outset with fault
+     tolerance and scalability in mind. In practice, we find that
+     MillWheel’s unique combination of scalability, fault tolerance,
+     and a versatile programming model :cite:`millwheel-paper`.
 133. Amazon Kinesis
 
      Kinesis is Amazon’s :cite:`www-kinesis` real time data processing
@@ -2474,6 +2503,25 @@ In-memory databases/caches
 
 189. Infinispan
 190. VoltDB
+
+     VoltDB is an in-memory database. It is an ACID-compliant RDBMS
+     which uses a shared nothing architecture to achieve database
+     parallelism. It includes both enterprise and community
+     editions. VoltDB is a scale-out NewSQL relational database that
+     supports SQL access from within pre-compiled Java stored
+     procedures.  VoltDB relies on horizontal partitioning down to the
+     individual hardware thread to scale, k-safety (synchronous
+     replication) to provide high availability, and a combination of
+     continuous snapshots and command logging for durability (crash
+     recovery) :cite:`voltdb-www`. The in-memory, scale-out
+     architecture couples the speed of traditional streaming solutions
+     with the consistency of an operational database. This gives a
+     simplified technology stack that delivers low-latency response
+     times (1ms) and hundreds of thousands of transactions per
+     second. VoltDB allows users to ingest data, analyze data, and act
+     on data in milliseconds, allowing users to create per-person,
+     real-time experiences :cite:`voltdb-wiki`. 
+
 191. H-Store
 
      H-Store is an in memory and parallel database management system
@@ -3303,6 +3351,29 @@ File management
 ----------------------------------------------------------------------
 
 254. iRODS
+
+     The Integrated Rule-Oriented Data System (iRODS) is open source
+     data management software. iRODS is released as a production-level
+     distribution aimed at deployment in mission critical
+     environments. It virtualizes data storage resources, so users can
+     take control of their data, regardless of where and on what
+     device the data is stored. The development infrastructure
+     supports exhaustive testing on supported platforms. The plugin
+     architecture supports microservices, storage systems,
+     authentication, networking, databases, rule engines, and an
+     extensible API :cite:`irods-www`.  iRODS implements data
+     virtualization, allowing access to distributed storage assets
+     under a unified namespace, and freeing organizations from getting
+     locked in to single-vendor storage solutions. iRODS enables data
+     discovery using a metadata catalog that describes every file,
+     every directory, and every storage resource in the iRODS
+     Zone. iRODS automates data workflows, with a rule engine that
+     permits any action to be initiated by any trigger on any server
+     or client in the Zone. iRODS enables secure collaboration, so
+     users only need to log in to their home Zone to access data
+     hosted on a remote Zone. :cite:`github-irods-www`
+
+
 255. NetCDF
 
      NetCDF is a set of software libraries and self-describing, machine-indepen
