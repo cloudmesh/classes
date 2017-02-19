@@ -2329,6 +2329,24 @@ Inter process communication Collectives
      Amazon S3.
 
 179. Lambda
+
+     AWS Lambda is a product from amazon which facilitates serverless 
+     computing :cite:`www-awslambda`.AWS Lambda allows for running the code 
+     without the need for provisioning or managing servers, all server management
+     is taken care by AWS.The code to be run on AWS Lambda is called a server
+     function which can be written in Node.js,Python,Java,C#.Each Lambda 
+     function is to be stateless and any persistent data needs are to be handled
+     through storage devices.AWS Lambda function can be setup using the AWS Lambda
+     console where one can setup the function code and specify the event that 
+     triggers the functional call.AWS Lamda service supports multiple event sources
+     as identified in :cite:`www-awslambdaevent`.AWS Lambda is designed to use 
+     replication and redundancy to provide for high availability both for the service
+     itself and the function it runs.AWS Lambda automatically scales your application
+     by running the code in response to each trigger. The code runs in parallel and 
+     processes each trigger individually, scaling precisely with the size of the 
+     workload.Billing for AWS Lambda is based on the number of times the code executes
+     and in 100 ms increments of the duration of the processing.
+
 180. Google Pub Sub
 
      :cite:`www-google-pub-sub` Google Pub/Sub provides an asynchronous 
@@ -4391,6 +4409,24 @@ DevOps
 
 325. Ubuntu MaaS
 326. Facebook Tupperware
+
+     Facebook Tupperware is a system which provisions services by taking 
+     requirements from engineers and mapping them to actual hardware allocations
+     using containers :cite:`www-FaceTup`.Facebook Tupperware simplifies 
+     the  task of configuring and running services in production and 
+     allows engineers to focus on actual application logic.The tupperware 
+     system consists of a Scheduler , Agent process and a Server Databse.
+     The Scheduler consists of set of machines with one of them as master
+     and the others in standby.The machines share state among them.The Agent process 
+     runs on each and every machine and manages all the tasks and co-ordinates
+     with the Scheduler.The Server database stores the details of resources 
+     available across machines which is used by the scheduler for scheduling
+     jobs and tasks.Tupperware allows for sandboxing of the tasks which allows 
+     for isolation of the tasks.Initially isolation was implemented using chroots
+     but now it is switched to Linux Containers(LXC) .The 
+     configuration for the container is done by a specific config file written 
+     in a dialect of python by the owner of the process.
+
 327. AWS OpsWorks
 
      AWS Opsworks is a configuration service provided by Amazon Web
