@@ -1417,20 +1417,20 @@ High level Programming
 
      MapReduce Query Language (MRQL, pronounced miracle) "is a query
      processing and optimization system for large-scale, distributed
-     data analysis". :cite:`www-apachemrql` MRQL provides a SQL
+     data analysis" :cite:`www-apachemrql`. MRQL provides a SQL
      like language for use on Apache Hadoop, Hama, Spark, and Flink.
      MRQL allows users to perform complex data analysis using only SQL
      like queries, which are translated by MRQL to efficient Java
      code. MRQL can evaluate queries in Map-Reduce (using Hadoop), Bulk
-     Synchronous Parallel (using Hama), Spark, and Flink modes.
-     :cite:`www-apachemrql`
+     Synchronous Parallel (using Hama), Spark, and Flink modes
+     :cite:`www-apachemrql`.
 
      MRQL was created in 2011 by Leaonids
      Fegaras :cite:`www-mrqlhadoop` and is currently in the Apache
      Incubator.  All projects accepted by the Apache Software
      Foundation (ASF) undergo an incubation period until a review
      indicates that the project meets the standards of other ASF
-     projects. :cite:`www-apacheincubator`
+     projects :cite:`www-apacheincubator`.
 
 112. SAP HANA
 
@@ -2400,9 +2400,9 @@ In-memory databases/caches
 
 187. Hazelcast
 
-     Hazelcast is a java based, in memory data grid. :cite:`www-wikihazel` 
-     It is open source software, released under the Apache 2.0 License. 
-     :cite:`www-githubhazel` Hazelcast enables predictable scaling for 
+     Hazelcast is a java based, in memory data grid :cite:`www-wikihazel`.
+     It is open source software, released under the Apache 2.0 License 
+     :cite:`www-githubhazel`. Hazelcast enables predictable scaling for 
      applications by providing in memory access to data. 
      Hazelcast uses a grid to distribute data evenly across
      a cluster. Clusters allow processing and storage to scale 
@@ -2410,8 +2410,8 @@ In-memory databases/caches
      machines, or in Docker containers. Hazelcast can be utilized for 
      a wide variety of applications. It has APIs for many programing 
      languages including Python, Java, Scala, C++, .NET and Node.js and
-     supports any binary languages through an Open Binary Client Protocol.
-     :cite:`www-wikihazel`
+     supports any binary languages through an Open Binary Client Protocol
+     :cite:`www-wikihazel`.
 
 188. Ehcache
 
@@ -2991,15 +2991,15 @@ NoSQL
 
      Google Bigtable is a NoSQL database service, built upon several Google
      technologies, including Google File System, Chubby Lock Service, and
-     SSTable. :cite:`www-cloudbigtable`  Designed for Big Data, Bigtable 
+     SSTable :cite:`www-cloudbigtable`.  Designed for Big Data, Bigtable 
      provides high performance and low latency and scales to hundreds of
-     petabytes. :cite:`www-cloudbigtable` Bigtable powers many core
+     petabytes :cite:`www-cloudbigtable`. Bigtable powers many core
      Google products, such as Search, Analytics, Maps, Earth, Gmail,
      and YouTube. Bigtable also drives Google Cloud Datastore and
      Spanner, a distributed NewSQL database also developed by
-     Google. :cite:`www-wikispanner` :cite:`www-wikibigtable` 
+     Google :cite:`www-wikispanner` :cite:`www-wikibigtable`.
      Since May 6, 2015, a version of Bigtable has been available to the 
-     public. :cite:`www-wikibigtable`
+     public :cite:`www-wikibigtable`.
 
 236. LevelDB
 237. Megastore and Spanner
@@ -3745,24 +3745,24 @@ File systems
 295. GPFS
 
      IBM General Parallel File System (GPFS) was rebranded to IBM 
-     Spectrum Scale on February 17, 2015.  :cite:`www-wikigpfs`
+     Spectrum Scale on February 17, 2015 :cite:`www-wikigpfs`.
      See 380.
 
 380. IBM Spectrum Scale
 
      General Parallel File System (GPFS) was rebranded as IBM Spectrum 
-     Scale on February 17, 2015. :cite:`www-wikigpfs`
+     Scale on February 17, 2015 :cite:`www-wikigpfs`.
 
      Spectrum Scale is a clustered file system, developed by IBM, designed 
      for high performance. It "provides concurrent high-speed file access 
      to applications executing on multiple nodes of clusters" 
      :cite:`www-wikigpfs` and can be deployed in either shared-nothing 
      or shared disk modes. Spectrum Scale is available on AIX, Linux, 
-     Windows Server, and IBM System Cluster 1350. :cite:`www-wikigpfs` 
+     Windows Server, and IBM System Cluster 1350 :cite:`www-wikigpfs`.
      Due to its focus on performance and scalability, Spectrum Scale has 
      been utilized in compute clusters, big data and analytics - including 
      support for Hadoop Distributed File System (HDFS), backups and 
-     restores, and private clouds. :cite:`www-spectrumscale`
+     restores, and private clouds :cite:`www-spectrumscale`.
 
 296. GFFS
 
@@ -4263,7 +4263,7 @@ DevOps
      free offering in which applications are modeled as stacks
      containing various layers. Amazon Elastic Cloud Compute (EC2)
      instances or other resources can be deployed and configured
-     in each layer of AWS OpsWorks Stacks. :cite:`www-awsopsworks`
+     in each layer of AWS OpsWorks Stacks :cite:`www-awsopsworks`.
 
 328. OpenStack Ironic
 329. Google Kubernetes
