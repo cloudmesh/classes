@@ -5294,7 +5294,7 @@ TechList.3:
 
 
 References
----------
+----------
 
 .. bibliography:: ../refs.bib
    :style: unsrt

@@ -18,7 +18,7 @@ https://d1b10bmlvqabco.cloudfront.net/attach/irqfvh1ctrg2vt/is28edmcmde4ht/iv6f6
 
 
 
-Requirements:
+Requirements
 ------------
 
 * tablaeu and plotly will not be allowed

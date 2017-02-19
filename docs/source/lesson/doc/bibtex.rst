@@ -1,5 +1,5 @@
 Bibliography Management
-======================
+=======================
 
 .. warning:: THis page is under active development and students are
 	     encouraged to contribute
@@ -26,7 +26,7 @@ We will address a number of important entry types which includes:
   
   
 Source code References
----------------------
+----------------------
 
 We will learn how to cite a source code from a publicly hosted
 repository. Such repositories are frequently used and include, for

@@ -730,7 +730,7 @@ Report and Paper Format
 All reports and paper assignments will be using the ACM proceedings
 format. The MSWord template can be found here:
 
-* :download:`paper-report.docx <files/paper-report.docx>`
+* :download:`paper-report.docx </files/paper-report.docx>`
 
 * The URL is https://gitlab.com/cloudmesh/fall2016/blob/master/docs/source/files/paper-report.docx
 

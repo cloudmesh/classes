@@ -2,7 +2,7 @@
 
 
 Virtual Box Installation and Instructions
-========================================
+=========================================
 
 For development purposes we recommend tha you use for this class an
 ubuntu virtual machine that you set up with the help of virtualbox.
@@ -52,7 +52,7 @@ A video to showcase such an install is available at:
 
 	     
 Guest additions
-----------------
+---------------
 
 The virtual guest additions allow you to easily do the following
 tasks:

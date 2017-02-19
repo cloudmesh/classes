@@ -1,12 +1,12 @@
 .. _openstack_kilo:
 
 FutureSystems OpenStack Kilo - Quickstart Guide
-==============================
+===============================================
 
 OpenStack Kilo is the current cloud offerring from FutureSystems. Here are the quickstart guide on using the kilo cloud.
 
 Nova Client on India
----------------------
+--------------------
 Load the nova client by:
 
 .. code::
@@ -22,12 +22,12 @@ Then load your account information for Kilo. The Kilo account information is ena
 You will see instances or images on Kilo now by nova client tools, e.g. nova list.
 
 Start a New Instance
----------------------
+--------------------
 
 Starting a new instance is not difficult but requres a few steps like keypair registration and floating ip association. The simple instructions will be provided in this page.
 
 SSH Key Pair Registraion
-""""""""""""""""""""""""""""
+""""""""""""""""""""""""
 
 If this is a first time to run a instance, the keypair registration is required. We assume you have a key registered on India Juno which is a previous release of OpenStack. Let's register your key on OpenStack Kilo. Juno and Kilo are separated clouds so we need to register your key on both side.
 
@@ -48,7 +48,7 @@ Let's continue to start a VM in the next section.
     ssh-keygen -t rsa -C $USER-india-key
 
 Start a VM Instance
-""""""""""""""""""""""""
+"""""""""""""""""""
 
 The ``nova boot`` simple command will start a VM instance. Note that ``NETID`` is required on OpenStack Kilo which is different from OpenStack Juno.
    
@@ -60,7 +60,7 @@ The ``nova boot`` simple command will start a VM instance. Note that ``NETID`` i
 .. note:: replace $USER-india-key if you have a different name for your registered key. Replace other options e.g. image or flavor as you wish.
 
 Floating IP Address
-""""""""""""""""""""""""""
+"""""""""""""""""""
 
 Now your VM instance is up and running but can't be accessible because it only has an internal IP address. We will associate a floating IP address here to get SSH access to a VM instance.
 
@@ -88,7 +88,7 @@ Once you completed this step, you are now able to SSH into your VM instance.
 .. note:: ``ubuntu`` is login name your your VM if you start a VM with Ubuntu image. Try other names if you used other distributions like CentOS or CoreOS. For example, ``centos`` is for ``CentOS`` and ``core`` is for ``CoreOS`` image.
 
 Horizon Web Interface
---------------------------
+---------------------
 
 Openstack provides a web interface to manage cloud resources easily. Usage reports, current quota or Heat stacks are visible on the web.
 
@@ -96,7 +96,7 @@ Openstack provides a web interface to manage cloud resources easily. Usage repor
 * https://openstack.futuresystems.org/horizon/
 
 Termination of VM Instance
------------------------------
+--------------------------
 
 If you completed your work on your VM instance, you may terminate your VM and release a floating IP address associated with. For example, we terminate our first instance and the IP address by:
 
@@ -109,7 +109,7 @@ If you completed your work on your VM instance, you may terminate your VM and re
 
 
 FAQ
-------
+---
 
 Q. My ssh connection was denied with the message like below. What should I do?
 

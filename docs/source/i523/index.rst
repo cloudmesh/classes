@@ -15,8 +15,7 @@ I523 Big Data Applications and Analytics
 
    overview
    course
-   faq
-   /lessons/linux/refcards
+   /lesson/linux/refcards
    assignments/assignments
    /lesson/prg/gitlab
    projects

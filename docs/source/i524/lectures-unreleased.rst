@@ -8,7 +8,7 @@ Unreleased Lectures
 .. warning:: Lectures listed bellow are under development and not yet released.
 
 Lectures - Unreleased Theory Track
-------------------------
+----------------------------------
    
 .. csv-table:: Unreleased Theory Track
    :header: "ID", "Description", "Resources", "Length"
@@ -16,7 +16,7 @@ Lectures - Unreleased Theory Track
    :file: lectures-theory-unreleased.csv
 
 Unreleased Lectures - Collaboration Track
-------------------------------
+-----------------------------------------
 
 .. csv-table:: Unreleased Collaboration Track
    :header: "ID", "Quantity", "Description", "Length"

@@ -1,7 +1,7 @@
 :orphan:
 
 How to copy your image from Havana to Juno
-=====================================
+==========================================
 
 Description
 -----------
@@ -14,7 +14,7 @@ The steps to copy your image from Havana to Juno goes like this;
 - **Step 4.** Upload image
 
 Step 1. Setup OpenStack Havana environment
------------------------------------------
+------------------------------------------
 
 Load ``openstack-havana`` module::
 
