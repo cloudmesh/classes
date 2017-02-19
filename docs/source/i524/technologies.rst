@@ -2641,6 +2641,29 @@ SQL(NewSQL)
 206. SciDB
 207. Rasdaman
 208. Apache Derby
+
+     :cite:`www-apachederby`: Apache Derby is java based relational
+     database system. Apache Derby has JDBC driver which can be used
+     by Java based applications. Apache derby is part of the Apache DB
+     subproject and licensed under Apache version 2.0.
+
+     :cite:`www-apachederbycharter`: Derby Embedded Database Engine is
+     the database engine with JDBC and SQL as programming APIs.
+     Client/Server functionality is achieved by Derby network server,
+     it allows connection through TCP/IP using DRDA protocol. ij,
+     database utility makes it possible for SQL scripts to be run on
+     JDBC database. The dblook utility is the schema extraction
+     tool. The sysinfo utility is used for displaying version of Java
+     environment and Derby.
+
+     There are two deployement options for Apache Derby , embedded and
+     Derby network server option. In embedded framework, Derby is
+     started and stopped by the single user java application without
+     any adiministration required. In the case of Derby network server
+     configuration, Derby is started by multi user java application
+     over TCP/IP. Since Apache Derby is written in Java, it runs on
+     any certified JVM(Java Virtual Machine). :cite:`www-derbymanual`:
+      
 209. Pivotal Greenplum
 210. Google Cloud SQL
 211. Azure SQL
