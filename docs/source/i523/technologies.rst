@@ -1,4 +1,4 @@
-
+:orphan:
 
 Installing Cloudmesh Client
 ===========================
@@ -51,4 +51,4 @@ Hadoop
 Refernces
 =========
 
-.. bibliography:: ref.bib    
+.. bibliography:: ../references.bib    

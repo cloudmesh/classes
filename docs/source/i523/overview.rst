@@ -1,4 +1,5 @@
-
+:orphan:
+   
 Overview
 ========
 
@@ -274,10 +275,11 @@ All sessions refer to Sections, Discussions and Units
 +------------+-------+------------+------------------------------------+
 | 12/16/2016 | 17    | Last Day	  | | End Date of Semester             |
 +------------+-------+------------+------------------------------------+
+
 * ( 1 ) Use lecture free time wisely
 * ( 2 ) Improve your python knowledge while you do your project
-* ( 3 ) If you can not do PRG by Oct 10/14 or have difficulties with it,
-  we recommend that you do a paper
+* ( 3 ) If you can not do PRG by Oct 10/14 or have difficulties with
+  it, we recommend that you do a paper
 * ( 4 ) we will not do PRG2, and PRG3 in this class
 * ( 5 ) if you have homework late past Dec 2nd you may run the risk of
   obtaining an incomplete in the class as grading may need time and
@@ -638,7 +640,7 @@ For this class support is provided by
 Dr. Gregor von Laszewski
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/gregor2.png
+.. image:: ../images/gregor2.png
 
 Gregor von Laszewski is an Assistant Director of Cloud Computing in the
 DSC. He held a position at Argonne National Laboratory from Nov. 1996 – Aug.
@@ -677,7 +679,7 @@ Please contact me if you are interested in this.
 Dr. Geoffrey Fox
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/gcf.jpg
+.. image:: ../images/gcf.jpg
 
 Fox received a Ph.D. in Theoretical Physics from Cambridge University
 and is now distinguished professor of Informatics and Computing, and
@@ -706,7 +708,7 @@ is a Fellow of APS (Physics) and ACM (Computing).
 Dr. Badi' Abdul-Wahid
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/badi.png
+.. image:: ../images/badi.png
 
 Badi' received a Ph.D. in Computer Science at the University of Notre
 Dame under Professor Jesus Izaguirre. The primary focus of his
@@ -724,7 +726,7 @@ Teaching Assistants
 Hyungro Lee
 ~~~~~~~~~~~
 
-.. image:: images/Hyungro.jpg
+.. image:: ../images/Hyungro.jpg
 
 
 Hyungro Lee is a PhD candidate in Computer Science at Indiana University
@@ -746,7 +748,7 @@ and cloud computing
 Jerome Mitchell
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/jerome.jpg
+.. image:: ../images/jerome.png
 
 Jerome Mitchell is a Ph.D candidate in computer science at Indiana
 University and is interested in coupling the fields of computer and
@@ -767,7 +769,7 @@ distributed computing at minority-serving institutions.
 Prashanth Balasubramani
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/Prashanth.jpg
+.. image:: ../images/Prashanth.jpg
 
 Prashanth Balasubramani is an MS student in Computer Science at
 Indiana University working with Gregor von Laszewski, Assistant

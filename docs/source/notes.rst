@@ -50,6 +50,7 @@ I524 Lessons
    lesson/prg/rest
    lesson/prg/python_intro
    lesson/prg/python_big_data
+   i524/python-homework
    lesson/prg/python_lesson1
    lesson/prg/pyenv   
 
@@ -60,7 +61,8 @@ Index
 :ref:`genindex`
 
 
-.. comment::
+..
+   COMMENT
 
    lesson/index
    notebooks/index

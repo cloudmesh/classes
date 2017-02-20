@@ -1,4 +1,6 @@
-Drafts (TODO)
+:orphan:
+
+   Drafts (TODO)
 =============
 
 .. toctree::
