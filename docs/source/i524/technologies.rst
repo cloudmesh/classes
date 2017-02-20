@@ -4805,7 +4805,7 @@ IaaS Management from HPC to hypervisors
      reliable. It also makes managing large cluster environements
      easier. CoreOS provides open source tools like CoreOS Linux,
      etcd,rkt and flannel. CoreOS also has commercial products
-     Kubernetes and CoreOS stack. Core OS. In CoreOS linux service
+     Kubernetes and CoreOS stack. In CoreOS linux service
      discovery is achieved by etcd, applications are run on Docker and
      process management is achieved by fleet.
 
