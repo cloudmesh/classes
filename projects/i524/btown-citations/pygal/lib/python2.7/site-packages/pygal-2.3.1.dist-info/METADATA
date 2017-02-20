@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: pygal
+Version: 2.3.1
+Summary: A python svg graph plotting library
+Home-page: http://pygal.org/
+Author: Kozea
+Author-email: florian.mounier@kozea.fr
+License: GNU LGPL v3+
+Keywords: svg,chart,graph,diagram,plot,histogram,kiviat
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Provides: pygal
+Provides-Extra: lxml
+Requires-Dist: lxml; extra == 'lxml'
+Provides-Extra: png
+Requires-Dist: cairosvg; extra == 'png'
+
+UNKNOWN
+
+
