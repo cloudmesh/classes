@@ -143,11 +143,11 @@ Workflow-Orchestration
     
     BioKepler is a Kepler module of scientific workflow components to
     execute a set of bioinformatics tools using distributed execution
-    patterns :cite:`WWW-bioKepler`. It contains a specialized set of
+    patterns :cite:`www-biokepler`. It contains a specialized set of
     actors called “bioActors” for running bioinformatic tools,
     directors providing distributed data-parallel(DPP) execution on
     Big Data platforms such as Hadoop and Spark they are also
-    configurable and reusable :cite:`WWW-bioKepler-Demos`. BioKepler
+    configurable and reusable :cite:`www-biokepler-demos`. BioKepler
     contains over 40 example workflows that demonstrate the actors and
     directors :cite:`bioActors`.
     
@@ -298,7 +298,7 @@ Workflow-Orchestration
     patterns (pipelines). Dataflow includes SDKs for defining data
     processing workflows and a Cloud platform managed services to run
     those workflows on a Google cloud platform resources such as Compute
-    Engine, BigQuery amongst others :cite:`WWW-Dataflow`. Dataflow
+    Engine, BigQuery amongst others :cite:`www-Dataflow`. Dataflow
     pipelines can operate in both batch and streaming mode. The platform
     resources are provided on demand, allowing users to scale to meet
     their requirements, it’s also optimized to help balance lagging work
@@ -306,7 +306,7 @@ Workflow-Orchestration
 
     Being a cloud offering, Dataflow is designed to allow users to focus
     on devising proper analysis without worrying about the installation
-    and maintaining :cite:`WWW-GoogleLiveStream` the underlying data
+    and maintaining :cite:`www-GoogleLiveStream` the underlying data
     piping and process infrastructure.
     
 25. NiFi (NSA)
@@ -633,7 +633,7 @@ Application and Analytics
     translation services like livestream, high volumes of emails or
     detailed articles and documents. There’s also standard edition
     which is tailored for short, real-time
-    conversations :cite:`WWW-Translation`.
+    conversations :cite:`www-translation`.
 46. mlpy
     
     mlpy is an open source python library made for providing
@@ -2562,7 +2562,7 @@ In-memory databases/caches
      readers nor do readers block writes. Also, it does
      allow multiple applications on the same system to
      open and use the store simultaneously which helps in
-     scaling up performance :cite:`WWW-LMDB`.
+     scaling up performance :cite:`www-lmdb`.
 
 187. Hazelcast
 
@@ -4786,11 +4786,11 @@ IaaS Management from HPC to hypervisors
 341. QEMU
      
      QEMU (Quick Emulator) is a generic open source hosted hypervisor
-     :cite:`WWW-Hypervisor` that performs hardware virtualization
+     :cite:`www-hypervisor` that performs hardware virtualization
      (virtualization of computers as complete hardware platform,
      certain logical abstraction of their componentry or only the
      certain functionality required to run various operating systems)
-     :cite:`WWW-QEMU` and also emulates CPUs through dynamic binary
+     :cite-`www-qemu` and also emulates CPUs through dynamic binary
      translations and provides a set of device models, enabling it to
      run a variety of unmodified guest operating systems.
      
@@ -4800,7 +4800,7 @@ IaaS Management from HPC to hypervisors
      translations.  When used as a virtualizer, QEMU achieves near native
      performance by executing the guest code directly on the host CPU. QEMU
      supports virtualization when executing under the Xen hypervisor or
-     using KVM kernel module in Linux :cite:`WWW-QEMUWiki`.
+     using KVM kernel module in Linux :cite:`www-qemuwiki`.
 
      Compared to other virtualization programs like VMWare and VirtualBox,
      QEMU does not provide a GUI interface to manage virtual machines nor
