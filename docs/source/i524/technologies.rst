@@ -4149,6 +4149,27 @@ Interoperability
      removed from the next major version  :cite:`edmonds-metsch-2016`.
 	 
 305. CDMI
+
+     The Storage Networking Industry Association (SNIA)
+     :cite:`www-sniawebsite` is a non-profit organization formed by
+     various companies, suppliers and consumers of data storage and
+     network products. SNIA defines various standards to ensure the
+     quality and interoperability of various storage systems. One of
+     the standards defined by SNIA to for providers and users of cloud
+     is Cloud Data Management Interface (CDMI). According latest issue
+     of CDMI :cite:`cdmi-manual`, "CDMI International Standard is
+     intended for application developers who are implementing or using
+     cloud storage. It documents how to access cloud storage and to
+     manage the data stored there." It defines functional interface
+     for applications that will use cloud for various functionalities
+     like create, retrieve, update and delete data elements from the
+     cloud. These interface could be used to manage containers along
+     with the data. The interface could be used by administrative and
+     management applications as well. Also, the CDMI specification
+     uses RESTful principles in the interface design. All the
+     standards issued on CDMI can be found on SNIA web page
+     :cite:`www-cdmiwebsite`.
+     
 306. Whirr
 307. Saga
 
@@ -4443,6 +4464,27 @@ DevOps
      in each layer of AWS OpsWorks Stacks :cite:`www-awsopsworks`.
 
 328. OpenStack Ironic
+
+     Ironic :cite:`www-ironicwebsite` project is developed and
+     supported by OpenStack. Ironic provisions bare metal machines
+     instead of virtual machines and functions as hypervisor API that
+     is developed using open source technologies like Preboot
+     Execution Environment (PXE), Dynamic Host Configuration Protocol
+     (DHCP), Network Bootstrap Program (NBP), Trivial File Transfer
+     Protocol (TFTP) and Intelligent Platform Management Interface
+     (IPMI). A properly configured Bare Metal service with the Compute
+     and Network services, could provision both virtual and physical
+     machines through the Compute service’s API. But, the number of
+     instance actions are limited, due to physical servers and switch
+     hardware. For example, live migration is not possible on a bare
+     metal instance. The Ironic service has five key components. A
+     RESTful API service, through which other components would
+     interact with the bare metal servers, a Conductor service,
+     various drivers, messaging queue and a database. Ironic could be
+     integrated with other OpenStack projects like Identity
+     (keystone), Compute (nova), Network (neutron), Image (glance) and
+     Object (swift) services.
+     
 329. Google Kubernetes
 
      Google Kubernetes is a cluster management platform developed by
@@ -5229,7 +5271,21 @@ New Technologies to be integrated
      or Web application (and most mobile devices) can be configured to route its traffic
      through Fiddler :cite:`www-fiddler`.
 
-384. TBA
+384. Zeppelin
+
+     Apache Zeppelin :cite:`www-zeppelinwebsite` provides an
+     interactive environment for big data data analytics on
+     applications using distributed data processing systems like
+     Hadoop and Spark. It supports various tasks like data ingestion,
+     data discovery, data visualization, data analytics and
+     collaboration. Apache Zeppelin provides built-in Apache Spark
+     integration and is compatible with many languages/data-processing
+     backends like Python, R, SQL, Cassandra and JDBC. It also
+     supports adding new language backend. Zeppelin also lets users to
+     collaborate by sharing their Notebooks, Paragraph and has option
+     to broadcast any changes in realtime.
+
+385. TBA
 
 
 .. _techs-exercise:
