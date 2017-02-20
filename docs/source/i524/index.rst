@@ -2,7 +2,7 @@
 	   
 
 i524 Overview
-==============
+=============
 
 This course studies software used in many commercial activities
 related to Big Data. The backdrop for course contains more than 370
@@ -499,7 +499,7 @@ Some things to keep in mind:
 .. index:: I524 project ideas
 	   
 Selected Project Ideas
-------------------------------
+----------------------
 	   
 Students can select from a number of project ideas. We will improve
 and add additional ideas throughout the semester. Students can also
@@ -639,7 +639,7 @@ Additional links form another class:
     
 
 Report Format
----------------
+-------------
 
 All reports will be using the format specified in Section :ref:`reports`.
 
@@ -648,7 +648,7 @@ this format and are not professionally looking, will be returned
 without review.
 
 Github repositories
---------------------
+-------------------
 
 Class content repository: https://github.com/cloudmesh/classes
 
@@ -712,7 +712,7 @@ contributiong to the class Web page with git pull requests.
 
 
 Academic Integrity Policy
-----------------------------------------------------------------------
+-------------------------
 
 We take academic integrity very seriously. You are required to abide
 by the Indiana University policy on academic integrity, as described
@@ -749,7 +749,7 @@ different language and claim it to be your project.
 
 
 Links
--------
+-----
 
 This page is conveniently managed with git. The location for the
 changes can be found at
@@ -815,7 +815,7 @@ Please, select the course that is most suitable for your program:
 
 		 
 References
----------
+----------
 
 http://hpc-abds.org/kaleidoscope/ 
 

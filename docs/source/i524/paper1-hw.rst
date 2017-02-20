@@ -1,7 +1,13 @@
+:orphan:
+
 .. _paper1-hw:
 
 Paper 1 Homework
-=================================
+================
+
+.. note:: A video showing you how to get started on the paper is
+          available on the `class YouTube account
+          <https://www.youtube.com/watch?v=_q2TNpeGajQ>`_.
 
 In this homework you will write a short paper on one of the
 technologies that was assigned to you in the :ref:`TechList homework
@@ -18,14 +24,16 @@ compiling it can be found in the homework submission repository at:**
 https://github.com/cloudmesh/sp17-i524
 
 Writing the Paper
---------------
+-----------------
+
 For the actual content of the paper, you need to write a two page
 overview of one of the technologies assigned to you in the TechList
-assignment. Your intended audience should be someone who might not
-have specific technical background in the area of the technology, but
-who is a rigorous thinker and whose problem domain might benefit from
-it. Thus, the paper should provide context about the technology such
-as:
+assignment. *The two pages refer to the amount of text you should
+write; references, figures and other similar items are not included.*
+Your intended audience should be someone who might not have specific
+technical background in the area of the technology, but who is a
+rigorous thinker and whose problem domain might benefit from it. Thus,
+the paper should provide context about the technology such as:
 
 * Summarize the technology briefly
 * What kind of problems has it been applied to successfully?
@@ -49,7 +57,7 @@ Your paper should have an introduction and a conclusion, and use
 sections in the middle portion as needed to be easy to understand.
 
 Writing Style
-^^^^^^^^^^^^
+^^^^^^^^^^^^^
 Treat this as a scientific paper, so you should aim to inform and give
 a well-rounded overview of the subject matter. Do not use superlatives
 or adjectives that are more appropriate for an advertisement, such as
@@ -69,6 +77,7 @@ at paper C to make sure the claim is accurate and cite that paper.
   
 Submission
 ----------
+
 Submission of this assignment will be in Github as outlined
 above. Please, start early and raise any questions about the above
 process on Piazza and in the online office hours. Depending on how

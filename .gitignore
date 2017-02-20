@@ -1,3 +1,6 @@
+docs/source/notebooks/*.rst
+docs/source/notebooks/*.tex
+docs/source/notebooks/*_files
 venv
 *.pyc
 .DS_Store
