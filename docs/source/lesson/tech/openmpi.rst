@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ref-class-lesson-openmpi-with-cloudmesh:
 
 Deploying Open MPI Cluster with Cloudmesh ``launcher``

@@ -92,7 +92,7 @@ Use a VM instance with a Ubuntu 14.04 image. The installation commands are::
         sudo apt-get update
         sudo apt-get install puppet
 
-.. info:: This is a client installation only. If you'd like to install Puppet
+.. note:: This is a client installation only. If you'd like to install Puppet
           Server, please read the instructions here:
           http://docs.puppetlabs.com/guides/install_puppet/install_debian_ubuntu.html
 

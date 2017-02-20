@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dockerswarm:
 
 Virtual Cluster with Docker Swarm

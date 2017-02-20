@@ -14,7 +14,7 @@ A more extensive list of tutorials can be found at
 * https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
 
 Video Lectures on Github
----------------------
+------------------------
 
 The github foundation has a number of excellent videos about git. If
 you are unfamiliar with git and you like to watch videos in addition
@@ -96,7 +96,7 @@ illustrated right next.)
 *    https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 
 Pull Request
-~~~~~~~~~~
+~~~~~~~~~~~~
 
 Pull requests are a means of starting a conversation about a proposed
 change back into a project. We'll be taking a look at the strength of
@@ -117,7 +117,7 @@ command.
 * https://www.youtube.com/watch?v=HwrPhOp6-aM
 
 Branch
-~~~~~
+~~~~~~
 
 Branches are an excellent way to not only work safely on features or
 experiments, but they are also the key element in creating Pull
@@ -164,7 +164,7 @@ software worlds.  More: http://windows.github.com
 
 
 Exercise
--------
+--------
 
 Github.1:
   How do you set your favorite editor as a default with github config

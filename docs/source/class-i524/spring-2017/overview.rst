@@ -192,7 +192,6 @@ All sessions refer to Sections, Discussions and Units
 | 10/21/2016 | 10    |         W10| | :ref:`S11`                       |
 |            |       |            | | d11_	       	               |
 |            |       |            | | Work on Project	               |
-|            |       |            | | :ref:`driverslicense` (due)      |
 +------------+-------+------------+------------------------------------+
 | 10/28/2016 | 11    |         W11| | :ref:`S12`                       |
 |            |       |            | | d12_	       	               |
@@ -407,7 +406,7 @@ Report Format
 All reports will be using the ACM proceedings format. The MSWord template
 can be found here:
 
-* :download:`paper-report.docx <files/paper-report.docx>`
+* :download:`paper-report.docx </files/paper-report.docx>`
 
 A LaTeX version can be found at
 

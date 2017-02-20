@@ -1,17 +1,16 @@
 :orphan:
 
-   Drafts (TODO)
+Drafts (TODO)
 =============
 
 .. toctree::
    :maxdepth: 3
 
-   projects   
-   programming
-   as1
+   /lesson/projects   
+   /lesson/prg/programming
    technologies
-   python
-   iaas
-   quickstart_openstack
+   /lesson/prg/python_intro
+   /lesson/iaas/index
    chameleon
    notebooks/lesson-a
+   

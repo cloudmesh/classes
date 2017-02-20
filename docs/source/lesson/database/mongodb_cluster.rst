@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ref-class-lesson-mongodb-sharded-cluster:
 
 MongoDB Sharded Cluster
@@ -14,6 +16,7 @@ MongoDB Sharding Overview
 -------------------------
 
 .. image:: images/mongodb-overview.png
+	   
 Figure 1. Sharding Mongodb
 *Image reference: http://docs.mongodb.org/master/MongoDB-sharding-guide.pdf*
 
@@ -181,12 +184,12 @@ that database where MongoDB stores all data before sharding begins.
 * From a mongo shell, connect to the mongos instance. Issue a command using the
   following syntax::
 
-  mongo --host <hostname of machine running mongos> --port <port mongos listens on>
+    mongo --host <hostname of machine running mongos> --port <port mongos listens on>
 
 * Issue the sh.enableSharding() method, specifying the name of the database for
   which to enable sharding. Use the following syntax::
 
-  sh.enableSharding("<database>")
+    sh.enableSharding("<database>")
 
 Optionally, you can enable sharding for a database using the enableSharding
 command, which uses the following syntax::
@@ -209,7 +212,7 @@ You enable sharding on a per-collection basis.
 * Enable sharding for a collection by issuing the sh.shardCollection() method
   in the mongo shell. The method uses the following syntax::
 
-  sh.shardCollection("<database>.<collection>", shard-key-pattern)
+    sh.shardCollection("<database>.<collection>", shard-key-pattern)
 
   Replace the <database>.<collection> string with the full namespace of your
   database, which consists of the name of your database, a dot (e.g. .), and
@@ -226,22 +229,24 @@ You enable sharding on a per-collection basis.
           sh.shardCollection("assets.chairs", { "type": 1, "_id": 1 } )
           sh.shardCollection("events.alerts", { "_id": "hashed" } )
 
-In order, these operations shard::
+In order, these operations shard:
 
-* The people collection in the records database using the shard key {
-  "zipcode": 1, "name": 1 }.  This shard key distributes documents by the value
-  of the zipcode field. If a number of documents have the same value for this
-  field, then that chunk will be splittable by the values of the name field.
-* The addresses collection in the people database using the shard key {
-  "state": 1, "_id": 1 }.  This shard key distributes documents by the value of
-  the state field. If a number of documents have the same value for this field,
-  then that chunk will be splittable by the values of the _id field.
-* The chairs collection in the assets database using the shard key { "type": 1,
-  "_id": 1 }.  This shard key distributes documents by the value of the type
+* The people collection in the records database using the shard key
+  {"zipcode": 1, "name": 1}.  This shard key distributes documents by
+  the value of the zipcode field. If a number of documents have the
+  same value for this field, then that chunk will be splittable by the
+  values of the name field.
+* The addresses collection in the people database using the shard key
+  {"state": 1, "_id": 1}.  This shard key distributes documents by the
+  value of the state field. If a number of documents have the same
+  value for this field, then that chunk will be splittable by the
+  values of the _id field.
+* The chairs collection in the assets database using the shard key {"type": 1,
+  "_id": 1}.  This shard key distributes documents by the value of the type
   field. If a number of documents have the same value for this field, then that
   chunk will be splittable by the values of the _id field.
-* The alerts collection in the events database using the shard key { "_id":
-  "hashed" }.
+* The alerts collection in the events database using the shard key {"_id":
+  "hashed"}.
 
 *New in version 2.4.*
 

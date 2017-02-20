@@ -1648,7 +1648,7 @@ https://iu.app.box.com/s/6uz4ofnnd9usv75cab71
 Files
 ^^^^^
 
-* :download:`HiggsClassI-Sloping.py <files/python/physics/mr_higgs/higgs_classI_sloping.py>`
+* :download:`HiggsClassI-Sloping.py </files/python/physics/mr_higgs/higgs_classI_sloping.py>`
 
 Lesson 1 - Looking for Higgs Particle and Counting Introduction I
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1725,11 +1725,11 @@ https://iu.app.box.com/s/77iw9brrugz2pjoq6fw1
 Files
 ^^^^^
 
-* :download:`HiggsClassI-Sloping.py <files/python/physics/mr_higgs/higgs_classI_sloping.py>`
+* :download:`HiggsClassI-Sloping.py </files/python/physics/mr_higgs/higgs_classI_sloping.py>`
 
-* :download:`HiggsClassIII.py <files/python/physics/number_theory/higgs_classIII.py>`
+* :download:`HiggsClassIII.py </files/python/physics/number_theory/higgs_classIII.py>`
 
-* :download:`HiggsClassIIUniform.py <files/python/physics/mr_higgs/higgs_classII_uniform.py>`
+* :download:`HiggsClassIIUniform.py </files/python/physics/mr_higgs/higgs_classII_uniform.py>`
 
 
 Lesson 1 - Physics Use Case II 1: Class Software
@@ -1806,7 +1806,7 @@ Slides
 
 https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y
 
-:download:`HiggsClassIII.py <files/python/physics/number_theory/higgs_classIII.py>`
+:download:`HiggsClassIII.py </files/python/physics/number_theory/higgs_classIII.py>`
 
 
 Lesson 1 - Statistics Overview and Fundamental Idea: Random Variables
@@ -1907,7 +1907,7 @@ Files
 ^^^^^
 
 
-* :download:`HiggsClassIII.py <files/python/physics/calculated_dice_roll/higgs_classIV_seeds.py>`
+* :download:`HiggsClassIII.py </files/python/physics/calculated_dice_roll/higgs_classIV_seeds.py>`
 
 Lesson 1 - Generators and Seeds I
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2930,13 +2930,13 @@ https://iu.app.box.com/s/jypomnrz755xgps5e6iw
 
 Files
 ^^^^^
-* :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
+* :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz </files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
 
-* :download:`DatingRatings-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
+* :download:`DatingRatings-OriginalLabels.pviz </files/python/plotviz/datingrating_originallabels.pviz>`
 
-* :download:`ClusterFinal-M30-C28.pviz <files/python/plotviz/clusterFinal-M30-C28.pviz>`
+* :download:`ClusterFinal-M30-C28.pviz </files/python/plotviz/clusterFinal-M30-C28.pviz>`
 
-* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
+* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz </files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
 
 
 Lesson 1 - Motivation and Introduction to use
@@ -3406,12 +3406,12 @@ https://iu.app.box.com/s/i9et3dxnhr3qt5gn14bg
 
 Files
 ^^^^^
-* :download:`kNN.py <files/python/knn/kNN.py>`
-* :download:`kNN_Driver.py <files/python/knn/kNN_Driver.py>`
-* :download:`DatingTesting2.txt  <files/python/knn/dating_test_set2.txt>`
-* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/knn/clusterFinal-M3-C3Dating-ReClustered.pviz>`
-* :download:`DatingRating-OriginalLabels.pviz <files/python/knn/dating_rating_original_labels.pviz>`
-* :download:`clusterFinal-M30-C28.pviz <files/python/knn/clusterFinal-M30-C28.pviz>`
+* :download:`kNN.py </files/python/knn/kNN.py>`
+* :download:`kNN_Driver.py </files/python/knn/kNN_Driver.py>`
+* :download:`DatingTesting2.txt  </files/python/knn/dating_test_set2.txt>`
+* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz </files/python/knn/clusterFinal-M3-C3Dating-ReClustered.pviz>`
+* :download:`DatingRating-OriginalLabels.pviz </files/python/knn/dating_rating_original_labels.pviz>`
+* :download:`clusterFinal-M30-C28.pviz </files/python/knn/clusterFinal-M30-C28.pviz>`
 
 
 Lesson 1 - Python k'th Nearest Neighbor Algorithms I
@@ -3484,10 +3484,10 @@ https://iu.app.box.com/s/70qn6d61oln9b50jqobl
 Files
 ^^^^^
 
-* :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz <files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
-* :download:`DatingRating-OriginalLabels.pviz <files/python/plotviz/datingrating_originallabels.pviz>`
-* :download:`clusterFinal-M30-C28.pviz <files/python/plotviz/clusterFinal-M30-C28.pviz>`
-* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz <files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
+* :download:`Fungi_LSU_3_15_to_3_26_zeroidx.pviz </files/python/plotviz/fungi_lsu_3_15_to_3_26_zeroidx.pviz>`
+* :download:`DatingRating-OriginalLabels.pviz </files/python/plotviz/datingrating_originallabels.pviz>`
+* :download:`clusterFinal-M30-C28.pviz </files/python/plotviz/clusterFinal-M30-C28.pviz>`
+* :download:`clusterFinal-M3-C3Dating-ReClustered.pviz </files/python/plotviz/clusterfinal_m3_c3dating_reclustered.pviz>`
 
 
 
@@ -4484,10 +4484,10 @@ https://iu.app.box.com/s/ltgbehfjwvgh40l5d3w8
 Files
 ^^^^^
 
-* :download:`xmean.py <files/python/k_means/xmean.py>`
-* :download:`sample.csv <files/python/k_means/sample.csv>`
-* :download:`parallel_kmeans.py <files/python/k_means/parallel_kmeans.py>`
-* :download:`kmeans_extra.py <files/python/k_means/kmeans_extra.py>`
+* :download:`xmean.py </files/python/k_means/xmean.py>`
+* :download:`sample.csv </files/python/k_means/sample.csv>`
+* :download:`parallel_kmeans.py </files/python/k_means/parallel_kmeans.py>`
+* :download:`kmeans_extra.py </files/python/k_means/kmeans_extra.py>`
 
 Lesson 1 - K-means in Python
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -4623,7 +4623,7 @@ https://iu.app.box.com/s/zc9pckhyehn0cog8wy19
 Files
 ^^^^^
 
-* :download:`ParallelKmeans <files/python/k_means/parallel_kmeans.py>`
+* :download:`ParallelKmeans </files/python/k_means/parallel_kmeans.py>`
 
 Lesson 1 - MapReduce Kmeans in Python I
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -4671,8 +4671,8 @@ Files
 ^^^^^
 
 
-* :download:`pagerank1.py <files/python/page_rank/pagerank1.py>`
-* :download:`pagerank2.py <files/python/page_rank/pagerank2.py>`
+* :download:`pagerank1.py </files/python/page_rank/pagerank1.py>`
+* :download:`pagerank2.py </files/python/page_rank/pagerank2.py>`
 
 
 Lesson 1 - Calculate PageRank from Web Linkage Matrix I

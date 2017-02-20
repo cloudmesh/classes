@@ -1,6 +1,8 @@
 :orphan:
-   
-* ----------------------------
+
+LINKS
+=====
+
 * http://www.gartner.com/technology/home.jsp and many web links
 * Meeker/Wu May 29 2013 Internet Trends D11 Conference http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013
 * http://cs.metrostate.edu/~sbd/slides/Sun.pdf
@@ -29,7 +31,7 @@
 * http://x-informatics.appspot.com/course
 * http://iucloudsummerschool.appspot.com/preview
 * https://www.youtube.com/watch?v=M3jcSCA9_hM
-* ----------------------------
+* 
 * http://www.microsoft.com/en-us/news/features/2012/mar12/03-05CloudComputingJobs.aspx
 * http://www.mckinsey.com/mgi/publications/big_data/index.asp
 * Tom Davenport http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
@@ -41,7 +43,7 @@
 * Bill Ruhhttp://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
 * http://www.hsph.harvard.edu/ncb2011/files/ncb2011-z03-rodriguez.pptx
 * Hugh Williams http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
-* ----------------------------
+* 
 * http://www.economist.com/node/15579717
 * Geoffrey Fox and Dennis Gannon Using Clouds for Technical Computing To be published in Proceedings of HPC 2012 Conference at Cetraro,  Italy June 28 2012
 * http://grids.ucs.indiana.edu/ptliupages/publications/Clouds_Technical_Computing_FoxGannonv2.pdf
@@ -54,7 +56,7 @@
 * http://www.wired.com/wired/issue/16-07
 * http://research.microsoft.com/en-us/collaboration/fourthparadigm/
 * CSTI General Assembly 2012, Washington, D.C., USA Technical  Activities Coordinating Committee (TACC) Meeting,  Data Management,  Cloud Computing and the Long Tail of Science October 2012 Dennis Gannon  https://sites.google.com/site/opensourceiotcloud/
-* ----------------------------
+* 
 * CSTI General Assembly 2012, Washington, D.C., USA Technical Activities Coordinating Committee (TACC) Meeting, Data Management, Cloud Computing and the Long Tail of Science October 2012 Dennis Gannon
 * Dan Reed Roger Barga Dennis Gannon Rich Wolskihttp://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf
 * http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/
@@ -69,7 +71,7 @@
 * Tom Davenport http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
 * http://www.mckinsey.com/mgi/publications/big_data/index.asp
 * http://cra.org/ccc/docs/nitrdsymposium/pdfs/keyes.pdf
-* ----------------------------
+* 
 * https://wiki.nci.nih.gov/display/CIP/CIP+Survey+of+Biomedical+Imaging+Archives
 * http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf
 * http://www.ieee-icsc.org/ICSC2010/Tony%20Hey%20-%2020100923.pdf
@@ -118,7 +120,7 @@
 * http://www.delsall.org
 * http://salsahpc.indiana.edu/millionseq/mina/16SrRNA_index.html
 * http://www.geatbx.com/docu/fcnindex-01.html
-* ----------------------------
+* 
 * http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling
 * http://www.sloansportsconference.com/
 * http://sabr.org/
@@ -142,7 +144,7 @@
 * http://en.wikipedia.org/wiki/Coefficient_of_determination
 * http://www.sloansportsconference.com/wp-content/uploads/2014/02/2014_SSAC_Data-driven-Method-for-In-game-Decision-Making.pdf
 * https://courses.edx.org/courses/BUx/SABR101x/2T2014/courseware/10e616fc7649469ab4457ae18df92b20/
-* ---------------------------
+* 
 * http://vincegennaro.mlblogs.com/
 * https://www.youtube.com/watch?v=H-kx-x_d0Mk
 * http://www.sportvision.com/media/pitchfx-how-it-works
@@ -154,7 +156,7 @@
 * http://grantland.com/the-triangle/mlb-advanced-media-play-tracking-bob-bowman-interview/
 * http://www.sportvision.com/baseball/hitfx
 * https://www.youtube.com/watch?v=YkjtnuNmK74
-* ----------------------------
+* 
 * http://www.sloansportsconference.com/?page_id=481&sort_cate=Research%20Paper
 * http://www.slideshare.net/Tricon_Infotech/big-data-for-big-sports
 * http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling
@@ -166,7 +168,7 @@
 * http://www.sloansportsconference.com/wp-content/uploads/2012/02/Goldsberry_Sloan_Submission.pdf
 * http://gamesetmap.com/
 * http://www.trakus.com/technology.asp#tNetText
-* ----------------------------
+* 
 * http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf
 * http://www.interactions.org/cms/?pid=6002
 * http://www.interactions.org/cms/?pid=1032811
@@ -174,16 +176,16 @@
 * http://biologos.org/blog/what-is-the-higgs-boson
 * http://www.atlas.ch/pdf/ATLAS_fact_sheets.pdf
 * http://www.nature.com/news/specials/lhc/interactive.html
-* ----------------------------
+* 
 * https://www.enthought.com/products/canopy/
 * Python for Data Analysis: Agile Tools for Real World Data By Wes  McKinney, Publisher: O'Reilly Media, Released: October 2012,  Pages: 472.
 * http://jwork.org/scavis/api/
 * https://en.wikipedia.org/wiki/DataMelt
-* ----------------------------
+* 
 * http://indico.cern.ch/event/20453/session/6/contribution/15?materialId=slides
 * http://www.atlas.ch/photos/events.html
 * http://cms.web.cern.ch/
-* ----------------------------
+* 
 * https://en.wikipedia.org/wiki/Pseudorandom_number_generator
 * https://en.wikipedia.org/wiki/Mersenne_Twister
 * https://en.wikipedia.org/wiki/Mersenne_prime
@@ -192,7 +194,7 @@
 * https://en.wikipedia.org/wiki/Central_limit_theorem
 * http://jwork.org/scavis/api/
 * https://en.wikipedia.org/wiki/DataMelt
-* ----------------------------
+* 
 * http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutorial
 * http://www.ifi.uzh.ch/ce/teaching/spring2012/16-Recommender-Systems_Slides.pdf
 * https://www.kaggle.com/
@@ -201,32 +203,32 @@
 * http://www.techworld.com/news/apps/netflix-foretells-house-of-cards-success-with-cassandra-big-data-engine-3437514/
 * https://en.wikipedia.org/wiki/A/B_testing
 * http://www.infoq.com/presentations/Netflix-Architecture
-* ----------------------------
+* 
 * http://pages.cs.wisc.edu/~beechung/icml11-tutorial/
-* ----------------------------
+* 
 *  https://en.wikipedia.org/wiki/Kmeans
 *  http://grids.ucs.indiana.edu/ptliupages/publications/DACIDR_camera_ready_v0.3.pdf
 *  http://salsahpc.indiana.edu/millionseq/
 *  http://salsafungiphy.blogspot.com/
 *  https://en.wikipedia.org/wiki/Heuristic
-* ----------------------------
+* 
 * Solving Problems in Concurrent Processors-Volume 1,  with M. Johnson, G. Lyzenga, S. Otto, J. Salmon, D. Walker, Prentice  Hall, March 1988.
 * Parallel Computing Works!, with P. Messina, R. Williams, Morgan  Kaufman (1994). http://www.netlib.org/utk/lsi/pcwLSI/text/
 * The Sourcebook of Parallel Computing book edited by Jack Dongarra,  Ian Foster, Geoffrey Fox, William Gropp, Ken Kennedy, Linda Torczon,  and Andy White, Morgan Kaufmann, November 2002.
 * Geoffrey Fox Computational Sciences and Parallelism to appear in  Enclyclopedia on Parallel Computing edited by David Padua and  published by  Springer. http://grids.ucs.indiana.edu/ptliupages/publications/SpringerEncyclopedia_Fox.pdf
-* ----------------------------
+* 
 * http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing
 * http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis
 * https://setandbma.wordpress.com/2012/08/10/hype-cycle-2012-emerging-technologies/
 * http://insights.dice.com/2013/01/23/big-data-hype-is-imploding-gartner-analyst-2/
 * http://research.microsoft.com/pubs/78813/AJ18_EN.pdf
 * http://static.googleusercontent.com/media/www.google.com/en//green/pdfs/google-green-computing.pdf
-* ----------------------------
+* 
 * http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis
 * http://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf
 * http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf
 * http://cloudonomic.blogspot.com/2009/02/cloud-taxonomy-and-ontology.html
-* ----------------------------
+* 
 * http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing
 * http://www.eweek.com/c/a/Cloud-Computing/AWS-Innovation-Means-Cloud-Domination-307831
 * CSTI General Assembly 2012, Washington, D.C., USA Technical Activities Coordinating Committee (TACC) Meeting, Data Management, Cloud Computing and the Long Tail of Science October 2012 Dennis Gannon.
@@ -253,7 +255,7 @@
 * http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing
 * http://www.venus-c.eu/Pages/Home.aspx
 * http://www.kpcb.com/internet-trends
-* ----------------------------
+* 
 * http://bigdatawg.nist.gov/_uploadfiles/M0311_v2_2965963213.pdf
 * https://dzone.com/articles/hadoop-t-etl
 * http://venublog.com/2013/07/16/hadoop-summit-2013-hive-authorization/
@@ -264,18 +266,18 @@
 * http://hortonworks.com/hadoop/yarn/
 * https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf
 * http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
-* ----------------------------
+* 
 * http://saedsayad.com/data_mining_map.htm
 * http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html
 * The Web Graph: an Overview Jean-Loup Guillaume and Matthieu Latapy https://hal.archives-ouvertes.fr/file/index/docid/54458/filename/webgraph.pdf
 * Constructing a reliable Web graph with information on browsing behavior, Yiqun Liu, Yufei Xue, Danqing Xu, Rongwei Cen, Min Zhang, Shaoping Ma, Liyun Ru  http://www.sciencedirect.com/science/article/pii/S0167923612001844
 * http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
-* ----------------------------
+* 
 * http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
 * https://en.wikipedia.org/wiki/PageRank
 * http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html
 * Meeker/Wu May 29 2013 Internet Trends D11 Conference http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013
-* ----------------------------
+* 
 * https://www.gesoftware.com/minds-and-machines
 * https://www.gesoftware.com/predix
 * https://www.gesoftware.com/sites/default/files/the-industrial-internet/index.html

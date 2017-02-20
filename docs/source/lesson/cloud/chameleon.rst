@@ -1,6 +1,7 @@
 .. _ref-chalemelon:
 
-.. comment::
+..
+  COMMENT
 
   This page is a copy of
   https://github.com/futuresystems/class-admin-tools/blob/master/chameleon/big-data-stack.org

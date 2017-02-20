@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ref-class-lesson-hadoop-yarn:
 
 Apache Hadoop YARN

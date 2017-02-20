@@ -47,10 +47,11 @@ SSH into india, for example::
 
 .. note:: Replace PORTALUSERNAME with your actual portal account ID
 
-.. tips:: If you see 'Permission Denied' SSH error, it's probably because of
-  either wrong public/private keys or delays in account creation. '-vvv'
-  verbose option to `ssh` command is helpful which generates debugging
-  messages in case you want to find out issues.
+.. note:: If you see 'Permission Denied' SSH error, it's probably
+          because of either wrong public/private keys or delays in
+          account creation. '-vvv' verbose option to `ssh` command is
+          helpful which generates debugging messages in case you want
+          to find out issues.
 
 Connection is granted with the Welcome message like:
 

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ref-class-lesson-zookeeper:
 
 Apache ZooKeeper

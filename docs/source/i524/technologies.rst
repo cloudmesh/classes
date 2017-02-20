@@ -742,6 +742,21 @@ Application and Analytics
     GPUs.
 	
 55. H2O
+
+    It is an open source software for big data analysis. It was launched
+    by the Start-up H2O in 2011. :cite:`www-H2O-website` It provides an
+    in-memory, distributed, fast and a scalable machine learning and
+    predictive analytics platform that allows the users to build 
+    machine learning models on big data. It is written in
+    Java. :cite:`www-H20-book` It is currently implemented in 5000
+    companies. It provides APIs for R(3.0.0 or later), Python(2.7.x,
+    3.5.x), Scala(1.4-1.6) and JSON. The software also allows online
+    scoring and modeling on a single platform.  It is scalable and has a
+    wide range of OS and language support. It works perfectly on the
+    conventional operating systems, and big data systems such as Hadoop,
+    Cloudera, MapReduce, HortonWorks. :cite:`www-H20-wiki` It can be used
+    on cloud computing environments such as Amazon and Microsoft Azure.
+
 56. IBM Watson
 
     IBM Watson :cite:`www-ibmwatson-wiki` is a super computer built on
@@ -826,6 +841,26 @@ Application and Analytics
     
 60. IBM System G
 61. GraphBuilder(Intel)
+
+    Intel GraphBuilder for Apache Hadoop V2 is a software that is used
+    to build graph data models easily enabiling data scientists to
+    concentrate more on the business solution rather than
+    preparing/formatting the data. The software automates a)Data
+    cleaning, b)transforming data and c)creating graph models with
+    high throughput parallel processing using hadoop, with the help of
+    prebuilt libraries. Intel Graph Builder helps to speed up the time
+    to insight for data scientists by automating heavy custom
+    workflows and also by removing the complexities of cluster
+    computing for constructing graphs from Big Data. Intel Graph
+    Building uses Apache Pig scripting language to simplify data
+    preparation pipeline.  "Intel Graph Builder also includes a
+    connector that parallelizes the loading of the graph output into
+    the Aurelius Titan open source graph database—which further speeds
+    the graph processing pipeline through the final stage".  Finally
+    being an open source there is a possibility of adding a load of
+    functionalities by various contributors.:cite:`graphbuilder`
+
+    
 62. TinkerPop
     
     ThinkerPop is a graph computing framework from Apache software
@@ -1211,7 +1246,36 @@ Application Hosting Frameworks
     throughout the world. :cite:`www-azure-msft`
 
 87. Cloud Foundry
+
+    It is an open source software with multi cloud application .It is
+    a platform for running applications and
+    services. :cite:`www-cloudfoundry-book` It was originally
+    developed by VMware and currently owned by Pivotal . It is written
+    in Ruby and Go .It has a commercial version called Pivotal Cloud
+    Foundry (PFC). Cloud Foundry is available as a stand alone
+    software package, we can also deploy it to Amazon AWS as well as
+    host it on OpenStack server , HP’s Helion or VMware’s vSphere as
+    given in the blog :cite:`www-cloudfoundry-blog` , it delivers
+    quick application from development to deployment and is highly
+    scalable. It has a DevOps friendly workflow.  Cloud Foundry
+    changes the way application and services are deployed and reduces
+    the develop to deployment cycle time.
+
 88. Pivotal
+
+    Pivotal Software, Inc. (Pivotal) is a software and services
+    company. It offeres multiple consulting and technology services,
+    which includes Pivotal Web Services, which is an agile application
+    hosting service. It has a single step upload feature "cf push",
+    another feature called Buildpacks lets us push applications
+    written for any language like Java, Grails, Play, Spring, Node.js,
+    Ruby on Rails, Sinatra or Go. Pivotal Web Services also allows
+    developers to connect to 3rd party databases, email services,
+    monitoring and more from the Marketplace. It also offers
+    performance monitoring, active health monitoring, unified log
+    streaming, web console built for team-based agile development
+    :cite:`pivotal-www`.
+
 89. IBM BlueMix
 90. (Ninefold)
 
@@ -1267,6 +1331,23 @@ Application Hosting Frameworks
     manages them. :cite:`tweney`
     
 94. CloudBees
+
+    :cite:`www-cloudbees-wiki` Cloudbees provides Platform as a
+    Service (PaaS) solution, which is a cloud service for Java
+    applications. It is used to build, run and manage the web
+    applications. It was created in 2010 by Jenkins. It has a
+    continuous delivery platform for DevOps, and adds a
+    enterprise-grade functionality with an expert level
+    support. Cloudbees is better than the traditional Java platform as
+    it requires no provision of the nodes, clusters, load balancers
+    and databases. In cloudbees the environment is constantly managed
+    and monitored where a metering and scale updating is done on a
+    real time basis. :cite:`www-cloudbees-webpage` The platform ships
+    with verified security and enhancements assuring less risk for
+    sharing sensitive information. It simplies the task of getting the
+    platform accessed by every user using the feature “Jenkins
+    Sprawl”.
+
 95. Engine Yard
 96. (CloudControl)
 
@@ -1280,6 +1361,19 @@ Application Hosting Frameworks
 98. Dokku
 99. OSGi
 100. HUBzero
+     
+     HUBzero is a collaborative framework which allows creation of
+     dynamic websites for scientific research as well as educational
+     activities.  HUBzero lets scientific researchers work together
+     online to develop simulation and modeling tools.  These tools can
+     help you connect with powerful Grid computing resources as well
+     as rendering farms.:cite:`hubzerowebsite` Thus allowing other
+     researchers to access the resulting tools online using a normal
+     web browser and launch simulation runs on the Grid infrastructure
+     without having to download or compile any code. It is a unique
+     framework with simulation and social networking
+     capabilities.:cite:`hubzeropaper2010`
+
 101. OODT
      
      The Apache Object Oriented Data Technology (OODT) is an open source data 
@@ -1446,20 +1540,20 @@ High level Programming
 
      MapReduce Query Language (MRQL, pronounced miracle) "is a query
      processing and optimization system for large-scale, distributed
-     data analysis". :cite:`www-apachemrql` MRQL provides a SQL
+     data analysis" :cite:`www-apachemrql`. MRQL provides a SQL
      like language for use on Apache Hadoop, Hama, Spark, and Flink.
      MRQL allows users to perform complex data analysis using only SQL
      like queries, which are translated by MRQL to efficient Java
      code. MRQL can evaluate queries in Map-Reduce (using Hadoop), Bulk
-     Synchronous Parallel (using Hama), Spark, and Flink modes.
-     :cite:`www-apachemrql`
+     Synchronous Parallel (using Hama), Spark, and Flink modes
+     :cite:`www-apachemrql`.
 
      MRQL was created in 2011 by Leaonids
      Fegaras :cite:`www-mrqlhadoop` and is currently in the Apache
      Incubator.  All projects accepted by the Apache Software
      Foundation (ASF) undergo an incubation period until a review
      indicates that the project meets the standards of other ASF
-     projects. :cite:`www-apacheincubator`
+     projects :cite:`www-apacheincubator`.
 
 112. SAP HANA
 
@@ -1714,6 +1808,21 @@ Streams
 131. Neptune
 
 132. Google MillWheel
+
+     MillWheel is a framework for building low-latency data-processing
+     applications. Users specify a directed computation graph and
+     application code for individual nodes, and the system manages
+     persistent state and the continuous flow of records, all within
+     the envelope of the framework’s fault-tolerance guarantees. Other
+     streaming systems do not provide this combination of fault
+     tolerance, versatility, and scalability. MillWHeel allows for
+     complex streaming systems to be created without distributed
+     systems expertise. MillWheel’s programming model provides a
+     notion of logical time, making it simple to write time-based
+     aggregations. MillWheel was designed from the outset with fault
+     tolerance and scalability in mind. In practice, we find that
+     MillWheel’s unique combination of scalability, fault tolerance,
+     and a versatile programming model :cite:`millwheel-paper`.
 133. Amazon Kinesis
 
      Kinesis is Amazon’s :cite:`www-kinesis` real time data processing
@@ -2291,6 +2400,24 @@ Inter process communication Collectives
      Amazon S3.
 
 179. Lambda
+
+     AWS Lambda is a product from amazon which facilitates serverless 
+     computing :cite:`www-awslambda`.AWS Lambda allows for running the code 
+     without the need for provisioning or managing servers, all server management
+     is taken care by AWS.The code to be run on AWS Lambda is called a server
+     function which can be written in Node.js,Python,Java,C#.Each Lambda 
+     function is to be stateless and any persistent data needs are to be handled
+     through storage devices.AWS Lambda function can be setup using the AWS Lambda
+     console where one can setup the function code and specify the event that 
+     triggers the functional call.AWS Lamda service supports multiple event sources
+     as identified in :cite:`www-awslambdaevent`.AWS Lambda is designed to use 
+     replication and redundancy to provide for high availability both for the service
+     itself and the function it runs.AWS Lambda automatically scales your application
+     by running the code in response to each trigger. The code runs in parallel and 
+     processes each trigger individually, scaling precisely with the size of the 
+     workload.Billing for AWS Lambda is based on the number of times the code executes
+     and in 100 ms increments of the duration of the processing.
+
 180. Google Pub Sub
 
      :cite:`www-google-pub-sub` Google Pub/Sub provides an asynchronous 
@@ -2438,9 +2565,9 @@ In-memory databases/caches
 
 187. Hazelcast
 
-     Hazelcast is a java based, in memory data grid. :cite:`www-wikihazel` 
-     It is open source software, released under the Apache 2.0 License. 
-     :cite:`www-githubhazel` Hazelcast enables predictable scaling for 
+     Hazelcast is a java based, in memory data grid :cite:`www-wikihazel`.
+     It is open source software, released under the Apache 2.0 License 
+     :cite:`www-githubhazel`. Hazelcast enables predictable scaling for 
      applications by providing in memory access to data. 
      Hazelcast uses a grid to distribute data evenly across
      a cluster. Clusters allow processing and storage to scale 
@@ -2448,8 +2575,8 @@ In-memory databases/caches
      machines, or in Docker containers. Hazelcast can be utilized for 
      a wide variety of applications. It has APIs for many programing 
      languages including Python, Java, Scala, C++, .NET and Node.js and
-     supports any binary languages through an Open Binary Client Protocol.
-     :cite:`www-wikihazel`
+     supports any binary languages through an Open Binary Client Protocol
+     :cite:`www-wikihazel`.
 
 188. Ehcache
 
@@ -2465,6 +2592,25 @@ In-memory databases/caches
 
 189. Infinispan
 190. VoltDB
+
+     VoltDB is an in-memory database. It is an ACID-compliant RDBMS
+     which uses a shared nothing architecture to achieve database
+     parallelism. It includes both enterprise and community
+     editions. VoltDB is a scale-out NewSQL relational database that
+     supports SQL access from within pre-compiled Java stored
+     procedures.  VoltDB relies on horizontal partitioning down to the
+     individual hardware thread to scale, k-safety (synchronous
+     replication) to provide high availability, and a combination of
+     continuous snapshots and command logging for durability (crash
+     recovery) :cite:`voltdb-www`. The in-memory, scale-out
+     architecture couples the speed of traditional streaming solutions
+     with the consistency of an operational database. This gives a
+     simplified technology stack that delivers low-latency response
+     times (1ms) and hundreds of thousands of transactions per
+     second. VoltDB allows users to ingest data, analyze data, and act
+     on data in milliseconds, allowing users to create per-person,
+     real-time experiences :cite:`voltdb-wiki`. 
+
 191. H-Store
 
      H-Store is an in memory and parallel database management system
@@ -2679,6 +2825,29 @@ SQL(NewSQL)
 206. SciDB
 207. Rasdaman
 208. Apache Derby
+
+     :cite:`www-apachederby`: Apache Derby is java based relational
+     database system. Apache Derby has JDBC driver which can be used
+     by Java based applications. Apache derby is part of the Apache DB
+     subproject and licensed under Apache version 2.0.
+
+     :cite:`www-apachederbycharter`: Derby Embedded Database Engine is
+     the database engine with JDBC and SQL as programming APIs.
+     Client/Server functionality is achieved by Derby network server,
+     it allows connection through TCP/IP using DRDA protocol. ij,
+     database utility makes it possible for SQL scripts to be run on
+     JDBC database. The dblook utility is the schema extraction
+     tool. The sysinfo utility is used for displaying version of Java
+     environment and Derby.
+
+     There are two deployement options for Apache Derby , embedded and
+     Derby network server option. In embedded framework, Derby is
+     started and stopped by the single user java application without
+     any adiministration required. In the case of Derby network server
+     configuration, Derby is started by multi user java application
+     over TCP/IP. Since Apache Derby is written in Java, it runs on
+     any certified JVM(Java Virtual Machine). :cite:`www-derbymanual`:
+      
 209. Pivotal Greenplum
 210. Google Cloud SQL
 211. Azure SQL
@@ -3029,15 +3198,15 @@ NoSQL
 
      Google Bigtable is a NoSQL database service, built upon several Google
      technologies, including Google File System, Chubby Lock Service, and
-     SSTable. :cite:`www-cloudbigtable`  Designed for Big Data, Bigtable 
+     SSTable :cite:`www-cloudbigtable`.  Designed for Big Data, Bigtable 
      provides high performance and low latency and scales to hundreds of
-     petabytes. :cite:`www-cloudbigtable` Bigtable powers many core
+     petabytes :cite:`www-cloudbigtable`. Bigtable powers many core
      Google products, such as Search, Analytics, Maps, Earth, Gmail,
      and YouTube. Bigtable also drives Google Cloud Datastore and
      Spanner, a distributed NewSQL database also developed by
-     Google. :cite:`www-wikispanner` :cite:`www-wikibigtable` 
+     Google :cite:`www-wikispanner` :cite:`www-wikibigtable`.
      Since May 6, 2015, a version of Bigtable has been available to the 
-     public. :cite:`www-wikibigtable`
+     public :cite:`www-wikibigtable`.
 
 236. LevelDB
 237. Megastore and Spanner
@@ -3271,6 +3440,29 @@ File management
 ----------------------------------------------------------------------
 
 254. iRODS
+
+     The Integrated Rule-Oriented Data System (iRODS) is open source
+     data management software. iRODS is released as a production-level
+     distribution aimed at deployment in mission critical
+     environments. It virtualizes data storage resources, so users can
+     take control of their data, regardless of where and on what
+     device the data is stored. The development infrastructure
+     supports exhaustive testing on supported platforms. The plugin
+     architecture supports microservices, storage systems,
+     authentication, networking, databases, rule engines, and an
+     extensible API :cite:`irods-www`.  iRODS implements data
+     virtualization, allowing access to distributed storage assets
+     under a unified namespace, and freeing organizations from getting
+     locked in to single-vendor storage solutions. iRODS enables data
+     discovery using a metadata catalog that describes every file,
+     every directory, and every storage resource in the iRODS
+     Zone. iRODS automates data workflows, with a rule engine that
+     permits any action to be initiated by any trigger on any server
+     or client in the Zone. iRODS enables secure collaboration, so
+     users only need to log in to their home Zone to access data
+     hosted on a remote Zone. :cite:`github-irods-www`
+
+
 255. NetCDF
 
      NetCDF is a set of software libraries and self-describing, machine-indepen
@@ -3582,7 +3774,43 @@ Cluster Resource Management
 275. Google Omega
 276. Facebook Corona
 277. Celery
+
+     "Celery is an asynchronous task queue/job queue based on
+     distributed message passing.  The focus of celery is mostly on
+     real-time operation, but it equally scheduling.  In celery there
+     are execution units, called tasks, are executed concurrently on a
+     single or more worker servers using multiprocessing, Eventlet,or
+     gevent.  Tasks can execute asynchronously (in the background) or
+     synchronously (wait until ready).  Celery is easy to integrate
+     with web framework. Celery is written in python whereas the
+     protocol can be implemented in any language":cite:`celery`.Celery
+     is a simple, flexible, and reliable distributed system to process
+     vast amounts of messages,while providing operations with the
+     tools required to maintain such a system":cite:`celerydocs`
+
+     
 278. HTCondor
+
+    
+     HTCondor is a specialized workload management system for
+     compute-intensive jobs.  HTCondor provides various features like
+     a)job queuing mechanism, b)scheduling policy, c)resource
+     monitoring, d)priority scheme and e)resource management just as
+     other full-featured batch systems.  "Users submit their serial or
+     parallel jobs to HTCondor,HTCondor places them into a queue,
+     chooses when and where to run the jobs based upon a policy,
+     carefully monitors their progress, and ultimately informs the
+     user upon completion".  HTCondor can be used to manage a cluster
+     of dedicated compute nodes. HTCondor uses unique mechanisms to
+     harness wasted CPU power from idle deskto workstations.  "The
+     ClassAd mechanism in HTCondor provides an extremely flexible and
+     expressive framework for matching resource requests (jobs) with
+     resource offers (machines).  Jobs can easily state both job
+     requirements and job preferences".  "HTCondor incorporates many
+     of the emerging Grid and Cloud-based computing methodologies and
+     protocols":cite:`htcondor`
+
+     
 279. SGE
 280. OpenPBS
 281. Moab
@@ -3783,24 +4011,24 @@ File systems
 295. GPFS
 
      IBM General Parallel File System (GPFS) was rebranded to IBM 
-     Spectrum Scale on February 17, 2015.  :cite:`www-wikigpfs`
+     Spectrum Scale on February 17, 2015 :cite:`www-wikigpfs`.
      See 380.
 
 380. IBM Spectrum Scale
 
      General Parallel File System (GPFS) was rebranded as IBM Spectrum 
-     Scale on February 17, 2015. :cite:`www-wikigpfs`
+     Scale on February 17, 2015 :cite:`www-wikigpfs`.
 
      Spectrum Scale is a clustered file system, developed by IBM, designed 
      for high performance. It "provides concurrent high-speed file access 
      to applications executing on multiple nodes of clusters" 
      :cite:`www-wikigpfs` and can be deployed in either shared-nothing 
      or shared disk modes. Spectrum Scale is available on AIX, Linux, 
-     Windows Server, and IBM System Cluster 1350. :cite:`www-wikigpfs` 
+     Windows Server, and IBM System Cluster 1350 :cite:`www-wikigpfs`.
      Due to its focus on performance and scalability, Spectrum Scale has 
      been utilized in compute clusters, big data and analytics - including 
      support for Hadoop Distributed File System (HDFS), backups and 
-     restores, and private clouds. :cite:`www-spectrumscale`
+     restores, and private clouds :cite:`www-spectrumscale`.
 
 296. GFFS
 
@@ -4300,6 +4528,24 @@ DevOps
 
 325. Ubuntu MaaS
 326. Facebook Tupperware
+
+     Facebook Tupperware is a system which provisions services by taking 
+     requirements from engineers and mapping them to actual hardware allocations
+     using containers :cite:`www-FaceTup`.Facebook Tupperware simplifies 
+     the  task of configuring and running services in production and 
+     allows engineers to focus on actual application logic.The tupperware 
+     system consists of a Scheduler , Agent process and a Server Databse.
+     The Scheduler consists of set of machines with one of them as master
+     and the others in standby.The machines share state among them.The Agent process 
+     runs on each and every machine and manages all the tasks and co-ordinates
+     with the Scheduler.The Server database stores the details of resources 
+     available across machines which is used by the scheduler for scheduling
+     jobs and tasks.Tupperware allows for sandboxing of the tasks which allows 
+     for isolation of the tasks.Initially isolation was implemented using chroots
+     but now it is switched to Linux Containers(LXC) .The 
+     configuration for the container is done by a specific config file written 
+     in a dialect of python by the owner of the process.
+
 327. AWS OpsWorks
 
      AWS Opsworks is a configuration service provided by Amazon Web
@@ -4313,7 +4559,7 @@ DevOps
      free offering in which applications are modeled as stacks
      containing various layers. Amazon Elastic Cloud Compute (EC2)
      instances or other resources can be deployed and configured
-     in each layer of AWS OpsWorks Stacks. :cite:`www-awsopsworks`
+     in each layer of AWS OpsWorks Stacks :cite:`www-awsopsworks`.
 
 328. OpenStack Ironic
 329. Google Kubernetes
@@ -4357,6 +4603,22 @@ DevOps
      :cite:`github-buildstep`. 
 
 331. Gitreceive
+
+     Gitreceive is used to create an ssh+git user which can accept
+     repository pushes right away and also triggers a hook
+     script. Gitreceive is used to push code anywhere as well as
+     extend your Git workflow. "Gitreceive dynamically creates bare
+     repositories with a special pre-receive hook that triggers your
+     own general gitreceive hook giving you easy access to the code
+     that was pushed while still being able to send output back to the
+     git user" Gitreceive can also be used to provide feedback to the
+     user not only just to trigger code on git push.  Gitreceive can
+     used for the following: "a)for putting a git push deploy
+     interface in front of App Engine b)Run your company build/test
+     system as a separate remote c)Integrate custom systems into your
+     workflow d)Build your own Heroku e)Push code
+     anywhere".:cite:`lindsay2016`
+     
 332. OpenTOSCA
 333. Winery
 
@@ -4475,6 +4737,21 @@ IaaS Management from HPC to hypervisors
      systems) :cite:`www-xen-fl`.
           
 340. KVM
+
+     :cite:`www-KVM-wiki` It is an acronym for Kernel-based Virtual
+     Machine for the Linux Kernel that turns it into a
+     hypervisor upon installation. It was originally developed
+     by Qumranet in 2007. It has a kernel model and uses kernel
+     as VMM. It only supports fully virtualized VMs. It is very
+     active for Linux users due to it’s ease of use, it can be
+     completely controlled by ourselves and there is an ease for
+     migration from or to other platforms. :cite:`www-KVM-
+     webpage` It is built to run on a x86 machine on an Intel
+     processor with virtualization technology extensions (VT-x)
+     or an AMD-V. It supports 32 and 64 bit guests on a 64 bit
+     host and hardware visualization features. The supported
+     guest systems are Solaris , Linux, Windows and BSD Unix.
+
 341. QEMU
      
      QEMU (Quick Emulator) is a generic open source hosted hypervisor
@@ -4663,7 +4940,7 @@ IaaS Management from HPC to hypervisors
      reliable. It also makes managing large cluster environements
      easier. CoreOS provides open source tools like CoreOS Linux,
      etcd,rkt and flannel. CoreOS also has commercial products
-     Kubernetes and CoreOS stack. Core OS. In CoreOS linux service
+     Kubernetes and CoreOS stack. In CoreOS linux service
      discovery is achieved by etcd, applications are run on Docker and
      process management is achieved by fleet.
 
@@ -5207,7 +5484,7 @@ TechList.3:
 
 
 References
----------
+----------
 
 .. bibliography:: ../refs.bib
    :style: unsrt
