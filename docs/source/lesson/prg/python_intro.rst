@@ -219,20 +219,20 @@ these features available to any subsequent code we write::
 
 .. note::
 
-The first of these imports allows us to use the ``print`` function to
-output text to the screen, instead of the ``print`` statement, which
-Python 2 uses. This is simply a `design decision
-<https://www.python.org/dev/peps/pep-3105/>`_ that better reflects
-Python's underlying philosophy.
+   The first of these imports allows us to use the ``print`` function
+   to output text to the screen, instead of the ``print`` statement,
+   which Python 2 uses. This is simply a `design decision
+   <https://www.python.org/dev/peps/pep-3105/>`_ that better reflects
+   Python's underlying philosophy.
 
 .. note::
 
-The second of these imports makes sure that the `division operator
-<https://www.python.org/dev/peps/pep-0238/>`_ behaves in a way a
-newcomer to the language might find more intruitive. In Python 2,
-division ``/`` is *floor division* when the arguments are integers,
-meaning that ``5 / 2 == 2``, for example. In Python 3, division ``/``
-is *true division*, thus ``5 / 2 == 2.5``.
+   The second of these imports makes sure that the `division operator
+   <https://www.python.org/dev/peps/pep-0238/>`_ behaves in a way a
+   newcomer to the language might find more intruitive. In Python 2,
+   division ``/`` is *floor division* when the arguments are integers,
+   meaning that ``5 / 2 == 2``, for example. In Python 3, division
+   ``/`` is *true division*, thus ``5 / 2 == 2.5``.
 
 Statements and Strings
 ----------------------
@@ -1170,7 +1170,7 @@ them, check their dependencies and install those as needed, then
 install the requested packages.
 
 .. note:: You can skip '--trusted-host pypi.python.org' option if you have a
-        patch on urllib3 on Python 2.7.9.
+          patch on urllib3 on Python 2.7.9.
 
 Using autopep8
 --------------
