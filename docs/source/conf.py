@@ -4,7 +4,9 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+# import sys
 import sys
+sys.setrecursionlimit(1500)
 
 theme_foundation = False
 theme_bootstrap  = not theme_foundation

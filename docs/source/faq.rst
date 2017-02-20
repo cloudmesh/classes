@@ -309,7 +309,7 @@ such as R or technologies such as neo4j. However all deployment must
 be done in python and ansible.
 
 I am lost?
------------
+----------
 
 Please contact the instructors for your class.
 
@@ -632,13 +632,17 @@ web page, relate technology to big data if you can
 
  
 
-* a write a good introdcution to the technology that summarizes what it is (and if possible how it relates to big data)
+* a write a good introdcution to the technology that summarizes what
+  it is (and if possible how it relates to big data)
 
-* include the most important refernces and prepare them in correct bibtex format
+* include the most important refernces and prepare them in correct
+  bibtex format
 
-* check in your contribution (obviously if you can not do that ask for help form the TAs so you get educated on git)
+* check in your contribution (obviously if you can not do that ask for
+  help form the TAs so you get educated on git)
 
-* you get 50% of your points from the writeup and 50% of the points from the bibliography
+* you get 50% of your points from the writeup and 50% of the points
+  from the bibliography
 
  
 You are allowed to work in teams to improve your own submissions. 
@@ -1019,10 +1023,10 @@ Now lets add the URL and owner::
     owner = {S17-IO-3005},
   }	
 
-Should we be satisfied? No, even our
-original information we gathere provided more information. So lets
-continue. Lets googlesearch different queries with ACM or IEEE and the title. When doing
-the IEEE in the example we find an entry called
+Should we be satisfied? No, even our original information we gathere
+provided more information. So lets continue. Lets googlesearch
+different queries with ACM or IEEE and the title. When doing the IEEE
+in the example we find an entry called
 
 `dlp: Frank Leyman <http%3A%2F%2Fdblp.uni-trier.de%2Fpers%2Fl%2FLeymann%3AFrank&usg=AFQjCNHCu-66qxWH0zRlPLr4DA8jIo5V-g&sig2=1vYdnGOEiMcLBEMpbeBA7g>`_ 
 
@@ -1119,6 +1123,7 @@ So lets copy and fill out the **form** from our various searches::
 What are the differnt entry types and fields
 --------------------------------------------
 
+
 We were asked what are the different entry types and fields, so we did
 a google query and found the following useful information. please
 remember that we also have fields such as doi, owner, we will add
@@ -1129,6 +1134,7 @@ the identification if a referncei is ok or not.
 Please see https://en.wikipedia.org/wiki/BibTeX 
 
 Can I write the papers on OSX?
+------------------------------
 
 Yes of course you can write papers on OSX. But we support for Ubuntu
 16.04, because we consider it as the main OS that we use in this
@@ -1143,8 +1149,17 @@ papers you write = number of team members * 3, papers can not be
 combined.
 
 
+What is the nature of team collaboration on papers
+--------------------------------------------------
+You can build teams of three. You need to yourself build the team. The
+web page tells you that there will be no reduction in numbers of
+papers you write = number of team members * 3, papers can not be
+combined.
+
+
 What are the due dates for assignments
---------------------------------------
+-------------------------
+
 
 Due dates are posed on the Web page calendar.
 
@@ -1159,8 +1174,25 @@ What are good places to find refernce entries?
 * http://dblp.uni-trier.de/
 * http://academic.research.microsoft.com/
 
-  
 
+Matplotlib Installation
+------------------------------  
+
+Follow the installation in the class documentation properly.
+
+Install the requirements::
+  
+  $ pip install -r requirements.txt
+
+
+Install matplotlib using pip::
+    
+  $ pip install matplotlib
+
+  
+Install python Tkinter packages::
+
+  $ sudo apt-get install python-tk
   
   
   

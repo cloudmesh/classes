@@ -25,6 +25,7 @@ Installing Cloudmesh Client
 For any help regarding the installation or launching of VM's, please drop
 a mail to the course help group and we will get back to you as soon as we
 can:
+
    * https://groups.google.com/forum/#!forum/big-data-iu-fall-2016-help
 
 5. Refernces:
