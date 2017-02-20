@@ -37,23 +37,22 @@ vim or vi instead of emacs to run this. ::
 
   $ emacs ~/.cloudmesh/cloudmesh.yaml
 
-examples :
-::
+examples::
+  
    $ vim ~/.cloudmesh/cloudmesh.yaml
    $ vi ~/.cloudmesh/cloudmesh.yaml
    $ gedit ~/.cloudmesh/cloudmesh.yaml
 
-First the profile section must be updated as follows.
-::
-    profile:
-          firstname: TBD
-          lastname: TBD
-          email: TBD
-          user: TBD
+First the profile section must be updated as follows::
+
+  profile:
+  firstname: TBD
+  lastname: TBD
+  email: TBD
+  user: TBD
 
 
-example configuration
-::
+example configuration::
 
    profile:
         firstname: Vibhatha
@@ -69,8 +68,7 @@ Step 3 :Setting Up Chameleon Cloud
 -----------------------------------
 
 In the cloudmesh.yaml file, set chameleon cloud as the active cloud
-as shown below. Locate the attribute value in the
-::
+as shown below. Locate the attribute value in the::
 
    active:
     - chameleon
@@ -80,8 +78,7 @@ the chameleon cloud setup.
 
 http://cloudmesh.github.io/client/configuration.html#chameleon-cloud
 
-The following parameters has to be replaced with corresponding values.
-::
+The following parameters has to be replaced with corresponding values::
 
    OS_PASSWORD: TBD
    OS_TENANT_NAME: TBD
@@ -93,8 +90,7 @@ Make sure you are following the above url.
 And after replacing all the TBD values, the configuration should look like
 as follows.
 
-example configuration
-  ::
+example configuration::
   
     OS_PASSWORD: NOTMYPASSWORD
     OS_TENANT_NAME: CH-818664
@@ -102,17 +98,18 @@ example configuration
     OS_PROJECT_NAME: CH-818664
     OS_USERNAME: vibhatha
 
-  .. tip::
-     If you don't want to put your cloud password in the yaml file, you can
-     put ``read`` instead of the password in ``OS_PASSWORD`` field. In this
-     way, every time you need to access the cloud, you will type in password.
+.. tip::
+     
+   If you don't want to put your cloud password in the yaml file, you can
+   put ``read`` instead of the password in ``OS_PASSWORD`` field. In this
+   way, every time you need to access the cloud, you will type in password.
 
 
-Make sure the TENANT_NAME: CH-818664.
-You must be a member of the project in the Chameleon cloud, in order to
-gain access to the virtual machines.
+Make sure the TENANT_NAME: CH-818664.  You must be a member of the
+project in the Chameleon cloud, in order to gain access to the virtual
+machines.
 
-.. Note:: Replace all TBD values with correct values (only in profile section and chameleon cloud section).
+.. note:: Replace all TBD values with correct values (only in profile section and chameleon cloud section).
 
 
 http://cloudmesh.github.io/client/configuration.html#chameleon-cloud
@@ -128,24 +125,21 @@ First set up chameleon as the default cloud.
 
    $ cm default cloud=chameleon
 
-Information about the configurations can be retrieved by the following command.
-::
-$cm info
+Information about the configurations can be retrieved by the following command::
+
+  $cm info
 
 Then add the ssh key to the cloudmesh database by running the following command.
 And make sure, you have already generated a ssh key and the same ssh key will be
-added to the database.
-::
+added to the database::
 
    $ cm key add --ssh
 
-Upload the key to the chameleon cloud.
-::
+Upload the key to the chameleon cloud::
 
    $ cm key upload
 
-Upload the security group to the chameleon cloud.
-::
+Upload the security group to the chameleon cloud::
 
    $ cm secgroup upload
 
@@ -153,16 +147,14 @@ Upload the security group to the chameleon cloud.
 Step 5 : Boot Virtual Machine
 -----------------------------
 
-Run the following command to boot the virtual machine.
-::
+Run the following command to boot the virtual machine::
 
    $ cm vm boot
 
 
 Additional Info:
 You can run the following commands to view the security groups
-and virtual machines running.
-::
+and virtual machines running::
 
    $ cm secgroup list
    $ cm vm list
@@ -172,37 +164,32 @@ Step 6 : Run Virtual Machine
 ----------------------------
 
 Execute the following command to run the virtual machine.
-First assign a floating ip.
-::
+First assign a floating ip::
 
    $ cm vm ip assign
 
-Run the virtual machine.
-::
+Run the virtual machine::
 
    $ cm vm ssh
 
-After a successful launch it will show a similar console as shown below.
-::
+After a successful launch it will show a similar console as shown below::
 
    cc@hostname$-
 
 
 Step 7 : Remove Virtual Machine
 -------------------------------
-To delete a virtual machine, run the following command.
-::
+To delete a virtual machine, run the following command::
 
    $ cm vm delete <name_of_vm>
 
-Example :
-::
+Example::
 
    $ cm vm delete vibhatha-001
 
-.. Note:: No inside directories, just create everything in the home directory.
-   Or a work directory in the home directory. Make sure work in the same
-   directory when executing commands. And make sure you are in the right directory
-   when you are executing commands. We do this in order to minimize complications
-   and add the correct cloudmesh.yaml file for the task.You should edit the right way.
-   (never use cd when doing this)
+.. note:: No inside directories, just create everything in the home directory.
+          Or a work directory in the home directory. Make sure work in the same
+          directory when executing commands. And make sure you are in the right directory
+          when you are executing commands. We do this in order to minimize complications
+          and add the correct cloudmesh.yaml file for the task.You should edit the right way.
+          (never use cd when doing this)
