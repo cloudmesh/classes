@@ -1123,6 +1123,7 @@ So lets copy and fill out the **form** from our various searches::
 What are the differnt entry types and fields
 --------------------------------------------
 
+
 We were asked what are the different entry types and fields, so we did
 a google query and found the following useful information. please
 remember that we also have fields such as doi, owner, we will add
@@ -1133,6 +1134,7 @@ the identification if a referncei is ok or not.
 Please see https://en.wikipedia.org/wiki/BibTeX 
 
 Can I write the papers on OSX?
+------------------------------
 
 Yes of course you can write papers on OSX. But we support for Ubuntu
 16.04, because we consider it as the main OS that we use in this
@@ -1147,8 +1149,17 @@ papers you write = number of team members * 3, papers can not be
 combined.
 
 
+What is the nature of team collaboration on papers
+--------------------------------------------------
+You can build teams of three. You need to yourself build the team. The
+web page tells you that there will be no reduction in numbers of
+papers you write = number of team members * 3, papers can not be
+combined.
+
+
 What are the due dates for assignments
---------------------------------------
+-------------------------
+
 
 Due dates are posed on the Web page calendar.
 
@@ -1163,8 +1174,25 @@ What are good places to find refernce entries?
 * http://dblp.uni-trier.de/
 * http://academic.research.microsoft.com/
 
-  
 
+Matplotlib Installation
+------------------------------  
+
+Follow the installation in the class documentation properly.
+
+Install the requirements::
+  
+  $ pip install -r requirements.txt
+
+
+Install matplotlib using pip::
+    
+  $ pip install matplotlib
+
+  
+Install python Tkinter packages::
+
+  $ sudo apt-get install python-tk
   
   
   

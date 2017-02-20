@@ -34,15 +34,18 @@ Workflow-Orchestration
 
 2. ActiveBPEL
 
-   Business Process Execution Language for Web Services (BPEL4WS or just BPEL) is
-   an XML-based grammar for describing the logic to coordinate and control
-   web services that seamlessly integrate people, processes and systems, increasing
-   the efficiency and visibility of the business. ActiveBPEL is a robust Java/J2EE  
-   runtime environment that is capable of executing process definitions created to 
-   the Business Process Execution Language for Web Services. The ActiveBPEL also 
-   provides an administration interface that is accessible via web service 
-   invocations;and it can also be use to administer, to control and to integrate
-   web services into a larger application :cite:`www-bpel`.
+   Business Process Execution Language for Web Services (BPEL4WS or
+   just BPEL) is an XML-based grammar for describing the logic to
+   coordinate and control web services that seamlessly integrate
+   people, processes and systems, increasing the efficiency and
+   visibility of the business. ActiveBPEL is a robust Java/J2EE
+   runtime environment that is capable of executing process
+   definitions created to the Business Process Execution Language for
+   Web Services. The ActiveBPEL also provides an administration
+   interface that is accessible via web service invocations;and it can
+   also be use to administer, to control and to integrate web services
+   into a larger application. :cite:`www-bpel`
+
 
 3. Airavata
 4. Pegasus
@@ -841,6 +844,26 @@ Application and Analytics
     
 60. IBM System G
 61. GraphBuilder(Intel)
+
+    Intel GraphBuilder for Apache Hadoop V2 is a software that is used
+    to build graph data models easily enabiling data scientists to
+    concentrate more on the business solution rather than
+    preparing/formatting the data. The software automates a)Data
+    cleaning, b)transforming data and c)creating graph models with
+    high throughput parallel processing using hadoop, with the help of
+    prebuilt libraries. Intel Graph Builder helps to speed up the time
+    to insight for data scientists by automating heavy custom
+    workflows and also by removing the complexities of cluster
+    computing for constructing graphs from Big Data. Intel Graph
+    Building uses Apache Pig scripting language to simplify data
+    preparation pipeline.  "Intel Graph Builder also includes a
+    connector that parallelizes the loading of the graph output into
+    the Aurelius Titan open source graph database—which further speeds
+    the graph processing pipeline through the final stage".  Finally
+    being an open source there is a possibility of adding a load of
+    functionalities by various contributors.:cite:`graphbuilder`
+
+    
 62. TinkerPop
     
     ThinkerPop is a graph computing framework from Apache software
@@ -1312,6 +1335,19 @@ Application Hosting Frameworks
 98. Dokku
 99. OSGi
 100. HUBzero
+     
+     HUBzero is a collaborative framework which allows creation of
+     dynamic websites for scientific research as well as educational
+     activities.  HUBzero lets scientific researchers work together
+     online to develop simulation and modeling tools.  These tools can
+     help you connect with powerful Grid computing resources as well
+     as rendering farms.:cite:`hubzerowebsite` Thus allowing other
+     researchers to access the resulting tools online using a normal
+     web browser and launch simulation runs on the Grid infrastructure
+     without having to download or compile any code. It is a unique
+     framework with simulation and social networking
+     capabilities.:cite:`hubzeropaper2010`
+
 101. OODT
      
      The Apache Object Oriented Data Technology (OODT) is an open source data 
@@ -3703,7 +3739,43 @@ Cluster Resource Management
 275. Google Omega
 276. Facebook Corona
 277. Celery
+
+     "Celery is an asynchronous task queue/job queue based on
+     distributed message passing.  The focus of celery is mostly on
+     real-time operation, but it equally scheduling.  In celery there
+     are execution units, called tasks, are executed concurrently on a
+     single or more worker servers using multiprocessing, Eventlet,or
+     gevent.  Tasks can execute asynchronously (in the background) or
+     synchronously (wait until ready).  Celery is easy to integrate
+     with web framework. Celery is written in python whereas the
+     protocol can be implemented in any language":cite:`celery`.Celery
+     is a simple, flexible, and reliable distributed system to process
+     vast amounts of messages,while providing operations with the
+     tools required to maintain such a system":cite:`celerydocs`
+
+     
 278. HTCondor
+
+    
+     HTCondor is a specialized workload management system for
+     compute-intensive jobs.  HTCondor provides various features like
+     a)job queuing mechanism, b)scheduling policy, c)resource
+     monitoring, d)priority scheme and e)resource management just as
+     other full-featured batch systems.  "Users submit their serial or
+     parallel jobs to HTCondor,HTCondor places them into a queue,
+     chooses when and where to run the jobs based upon a policy,
+     carefully monitors their progress, and ultimately informs the
+     user upon completion".  HTCondor can be used to manage a cluster
+     of dedicated compute nodes. HTCondor uses unique mechanisms to
+     harness wasted CPU power from idle deskto workstations.  "The
+     ClassAd mechanism in HTCondor provides an extremely flexible and
+     expressive framework for matching resource requests (jobs) with
+     resource offers (machines).  Jobs can easily state both job
+     requirements and job preferences".  "HTCondor incorporates many
+     of the emerging Grid and Cloud-based computing methodologies and
+     protocols":cite:`htcondor`
+
+     
 279. SGE
 280. OpenPBS
 281. Moab
@@ -4484,6 +4556,22 @@ DevOps
      :cite:`github-buildstep`. 
 
 331. Gitreceive
+
+     Gitreceive is used to create an ssh+git user which can accept
+     repository pushes right away and also triggers a hook
+     script. Gitreceive is used to push code anywhere as well as
+     extend your Git workflow. "Gitreceive dynamically creates bare
+     repositories with a special pre-receive hook that triggers your
+     own general gitreceive hook giving you easy access to the code
+     that was pushed while still being able to send output back to the
+     git user" Gitreceive can also be used to provide feedback to the
+     user not only just to trigger code on git push.  Gitreceive can
+     used for the following: "a)for putting a git push deploy
+     interface in front of App Engine b)Run your company build/test
+     system as a separate remote c)Integrate custom systems into your
+     workflow d)Build your own Heroku e)Push code
+     anywhere".:cite:`lindsay2016`
+     
 332. OpenTOSCA
 333. Winery
 
@@ -4805,7 +4893,7 @@ IaaS Management from HPC to hypervisors
      reliable. It also makes managing large cluster environements
      easier. CoreOS provides open source tools like CoreOS Linux,
      etcd,rkt and flannel. CoreOS also has commercial products
-     Kubernetes and CoreOS stack. Core OS. In CoreOS linux service
+     Kubernetes and CoreOS stack. In CoreOS linux service
      discovery is achieved by etcd, applications are run on Docker and
      process management is achieved by fleet.
 
