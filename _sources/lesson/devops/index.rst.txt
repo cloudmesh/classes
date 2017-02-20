@@ -5,6 +5,7 @@
 
    ansible
    ansible-start-point
+   ancible-advanced
    chef
    comparison
    composite_cluster
