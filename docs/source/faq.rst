@@ -1115,17 +1115,22 @@ So lets copy and fill out the **form** from our various searches::
 What are the differnt entry types and fields
 --------------------------------------------
 
+<<<<<<< HEAD
 We were asked what are the different entry types and fields, so we did
 a google query and found the following useful information. please
 remember that we also have fields such as doi, owner, we will add
 status ={pass/fail} at time of grading to indicate if the refernce
 passes or fails. We may assign this to you so you get familiar with
 the identification if a referncei is ok or not.
+=======
+We were asked what are the different entry types and fields, so we did a google query and found the following useful information. please remember that we also have fields such as doi, owner, we will add status ={pass/fail} at time of grading to indicate if the refernce passes or fails. We may assign this to you so you get familiar with the identification if a referncei is ok or not.
+>>>>>>> 06d7fb9b102688402090b6be532863917d2d2528
 
 Please see https://en.wikipedia.org/wiki/BibTeX 
 
 Can I write the papers on OSX?
 
+<<<<<<< HEAD
 Yes of course you can write papers on OSX. But we support for Ubuntu
 16.04, because we consider it as the main OS that we use in this
 class.  You can use, VM to install Ubuntu and use it for class work.
@@ -1141,6 +1146,18 @@ combined.
 
 What are the due dates for assignments
 --------------------------------------
+=======
+Yes of course you can write papers on OSX. But we support for Ubuntu 16.04, because we consider it as the main OS that we use in this class.
+You can use, VM to install Ubuntu and use it for class work.
+
+What is the nature of team collaboration on papers
+--------------------------------------------------
+You can build teams of three. You need to yourself build the team. The web page tells you that there will be no reduction in numbers of papers you write = number of team members * 3, papers can not be combined.
+
+
+What are the due dates for assignments
+-------------------------
+>>>>>>> 06d7fb9b102688402090b6be532863917d2d2528
 
 Due dates are posed on the Web page calendar.
 
