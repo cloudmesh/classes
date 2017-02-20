@@ -1170,8 +1170,25 @@ What are good places to find refernce entries?
 * http://dblp.uni-trier.de/
 * http://academic.research.microsoft.com/
 
-  
 
+Matplotlib Installation
+------------------------------  
+
+Follow the installation in the class documentation properly.
+
+Install the requirements::
+  
+  $ pip install -r requirements.txt
+
+
+Install matplotlib using pip::
+    
+  $ pip install matplotlib
+
+  
+Install python Tkinter packages::
+
+  $ sudo apt-get install python-tk
   
   
   
