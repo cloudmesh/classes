@@ -228,9 +228,12 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#matplotlib-installation">Matplotlib Installation</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -508,9 +511,12 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#matplotlib-installation">Matplotlib Installation</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -875,15 +881,21 @@ these features available to any subsequent code we write:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
 </pre></div>
 </div>
-<p>The first of these imports allows us to use the <code class="docutils literal"><span class="pre">print</span></code> function to
-output text to the screen, instead of the <code class="docutils literal"><span class="pre">print</span></code> statement, which
-Python 2 uses. This is simply a <a class="reference external" href="https://www.python.org/dev/peps/pep-3105/">design decision</a> that better reflects
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The first of these imports allows us to use the <code class="docutils literal"><span class="pre">print</span></code> function
+to output text to the screen, instead of the <code class="docutils literal"><span class="pre">print</span></code> statement,
+which Python 2 uses. This is simply a <a class="reference external" href="https://www.python.org/dev/peps/pep-3105/">design decision</a> that better reflects
 Python&#8217;s underlying philosophy.</p>
-<p>The second of these imports makes sure that the <a class="reference external" href="https://www.python.org/dev/peps/pep-0238/">division operator</a> behaves in a way a
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The second of these imports makes sure that the <a class="reference external" href="https://www.python.org/dev/peps/pep-0238/">division operator</a> behaves in a way a
 newcomer to the language might find more intruitive. In Python 2,
 division <code class="docutils literal"><span class="pre">/</span></code> is <em>floor division</em> when the arguments are integers,
-meaning that <code class="docutils literal"><span class="pre">5</span> <span class="pre">/</span> <span class="pre">2</span> <span class="pre">==</span> <span class="pre">2</span></code>, for example. In Python 3, division <code class="docutils literal"><span class="pre">/</span></code>
-is <em>true division</em>, thus <code class="docutils literal"><span class="pre">5</span> <span class="pre">/</span> <span class="pre">2</span> <span class="pre">==</span> <span class="pre">2.5</span></code>.</p>
+meaning that <code class="docutils literal"><span class="pre">5</span> <span class="pre">/</span> <span class="pre">2</span> <span class="pre">==</span> <span class="pre">2</span></code>, for example. In Python 3, division
+<code class="docutils literal"><span class="pre">/</span></code> is <em>true division</em>, thus <code class="docutils literal"><span class="pre">5</span> <span class="pre">/</span> <span class="pre">2</span> <span class="pre">==</span> <span class="pre">2.5</span></code>.</p>
+</div>
 </div>
 <div class="section" id="statements-and-strings">
 <h2><a class="toc-backref" href="#id22">Statements and Strings</a><a class="headerlink" href="#statements-and-strings" title="Permalink to this headline">¶</a></h2>

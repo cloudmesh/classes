@@ -34,15 +34,18 @@ Workflow-Orchestration
 
 2. ActiveBPEL
 
-   Business Process Execution Language for Web Services (BPEL4WS or just BPEL) is
-   an XML-based grammar for describing the logic to coordinate and control
-   web services that seamlessly integrate people, processes and systems, increasing
-   the efficiency and visibility of the business. ActiveBPEL is a robust Java/J2EE  
-   runtime environment that is capable of executing process definitions created to 
-   the Business Process Execution Language for Web Services. The ActiveBPEL also 
-   provides an administration interface that is accessible via web service 
-   invocations;and it can also be use to administer, to control and to integrate
-   web services into a larger application :cite:`www-bpel`.
+   Business Process Execution Language for Web Services (BPEL4WS or
+   just BPEL) is an XML-based grammar for describing the logic to
+   coordinate and control web services that seamlessly integrate
+   people, processes and systems, increasing the efficiency and
+   visibility of the business. ActiveBPEL is a robust Java/J2EE
+   runtime environment that is capable of executing process
+   definitions created to the Business Process Execution Language for
+   Web Services. The ActiveBPEL also provides an administration
+   interface that is accessible via web service invocations;and it can
+   also be use to administer, to control and to integrate web services
+   into a larger application. :cite:`www-bpel`
+
 
 3. Airavata
 4. Pegasus
@@ -841,6 +844,26 @@ Application and Analytics
     
 60. IBM System G
 61. GraphBuilder(Intel)
+
+    Intel GraphBuilder for Apache Hadoop V2 is a software that is used
+    to build graph data models easily enabiling data scientists to
+    concentrate more on the business solution rather than
+    preparing/formatting the data. The software automates a)Data
+    cleaning, b)transforming data and c)creating graph models with
+    high throughput parallel processing using hadoop, with the help of
+    prebuilt libraries. Intel Graph Builder helps to speed up the time
+    to insight for data scientists by automating heavy custom
+    workflows and also by removing the complexities of cluster
+    computing for constructing graphs from Big Data. Intel Graph
+    Building uses Apache Pig scripting language to simplify data
+    preparation pipeline.  "Intel Graph Builder also includes a
+    connector that parallelizes the loading of the graph output into
+    the Aurelius Titan open source graph database—which further speeds
+    the graph processing pipeline through the final stage".  Finally
+    being an open source there is a possibility of adding a load of
+    functionalities by various contributors.:cite:`graphbuilder`
+
+    
 62. TinkerPop
     
     ThinkerPop is a graph computing framework from Apache software
@@ -1312,6 +1335,19 @@ Application Hosting Frameworks
 98. Dokku
 99. OSGi
 100. HUBzero
+     
+     HUBzero is a collaborative framework which allows creation of
+     dynamic websites for scientific research as well as educational
+     activities.  HUBzero lets scientific researchers work together
+     online to develop simulation and modeling tools.  These tools can
+     help you connect with powerful Grid computing resources as well
+     as rendering farms.:cite:`hubzerowebsite` Thus allowing other
+     researchers to access the resulting tools online using a normal
+     web browser and launch simulation runs on the Grid infrastructure
+     without having to download or compile any code. It is a unique
+     framework with simulation and social networking
+     capabilities.:cite:`hubzeropaper2010`
+
 101. OODT
      
      The Apache Object Oriented Data Technology (OODT) is an open source data 
@@ -2329,6 +2365,24 @@ Inter process communication Collectives
      Amazon S3.
 
 179. Lambda
+
+     AWS Lambda is a product from amazon which facilitates serverless 
+     computing :cite:`www-awslambda`.AWS Lambda allows for running the code 
+     without the need for provisioning or managing servers, all server management
+     is taken care by AWS.The code to be run on AWS Lambda is called a server
+     function which can be written in Node.js,Python,Java,C#.Each Lambda 
+     function is to be stateless and any persistent data needs are to be handled
+     through storage devices.AWS Lambda function can be setup using the AWS Lambda
+     console where one can setup the function code and specify the event that 
+     triggers the functional call.AWS Lamda service supports multiple event sources
+     as identified in :cite:`www-awslambdaevent`.AWS Lambda is designed to use 
+     replication and redundancy to provide for high availability both for the service
+     itself and the function it runs.AWS Lambda automatically scales your application
+     by running the code in response to each trigger. The code runs in parallel and 
+     processes each trigger individually, scaling precisely with the size of the 
+     workload.Billing for AWS Lambda is based on the number of times the code executes
+     and in 100 ms increments of the duration of the processing.
+
 180. Google Pub Sub
 
      :cite:`www-google-pub-sub` Google Pub/Sub provides an asynchronous 
@@ -3685,7 +3739,43 @@ Cluster Resource Management
 275. Google Omega
 276. Facebook Corona
 277. Celery
+
+     "Celery is an asynchronous task queue/job queue based on
+     distributed message passing.  The focus of celery is mostly on
+     real-time operation, but it equally scheduling.  In celery there
+     are execution units, called tasks, are executed concurrently on a
+     single or more worker servers using multiprocessing, Eventlet,or
+     gevent.  Tasks can execute asynchronously (in the background) or
+     synchronously (wait until ready).  Celery is easy to integrate
+     with web framework. Celery is written in python whereas the
+     protocol can be implemented in any language":cite:`celery`.Celery
+     is a simple, flexible, and reliable distributed system to process
+     vast amounts of messages,while providing operations with the
+     tools required to maintain such a system":cite:`celerydocs`
+
+     
 278. HTCondor
+
+    
+     HTCondor is a specialized workload management system for
+     compute-intensive jobs.  HTCondor provides various features like
+     a)job queuing mechanism, b)scheduling policy, c)resource
+     monitoring, d)priority scheme and e)resource management just as
+     other full-featured batch systems.  "Users submit their serial or
+     parallel jobs to HTCondor,HTCondor places them into a queue,
+     chooses when and where to run the jobs based upon a policy,
+     carefully monitors their progress, and ultimately informs the
+     user upon completion".  HTCondor can be used to manage a cluster
+     of dedicated compute nodes. HTCondor uses unique mechanisms to
+     harness wasted CPU power from idle deskto workstations.  "The
+     ClassAd mechanism in HTCondor provides an extremely flexible and
+     expressive framework for matching resource requests (jobs) with
+     resource offers (machines).  Jobs can easily state both job
+     requirements and job preferences".  "HTCondor incorporates many
+     of the emerging Grid and Cloud-based computing methodologies and
+     protocols":cite:`htcondor`
+
+     
 279. SGE
 280. OpenPBS
 281. Moab
@@ -4131,6 +4221,27 @@ Interoperability
      removed from the next major version  :cite:`edmonds-metsch-2016`.
 	 
 305. CDMI
+
+     The Storage Networking Industry Association (SNIA)
+     :cite:`www-sniawebsite` is a non-profit organization formed by
+     various companies, suppliers and consumers of data storage and
+     network products. SNIA defines various standards to ensure the
+     quality and interoperability of various storage systems. One of
+     the standards defined by SNIA to for providers and users of cloud
+     is Cloud Data Management Interface (CDMI). According latest issue
+     of CDMI :cite:`cdmi-manual`, "CDMI International Standard is
+     intended for application developers who are implementing or using
+     cloud storage. It documents how to access cloud storage and to
+     manage the data stored there." It defines functional interface
+     for applications that will use cloud for various functionalities
+     like create, retrieve, update and delete data elements from the
+     cloud. These interface could be used to manage containers along
+     with the data. The interface could be used by administrative and
+     management applications as well. Also, the CDMI specification
+     uses RESTful principles in the interface design. All the
+     standards issued on CDMI can be found on SNIA web page
+     :cite:`www-cdmiwebsite`.
+     
 306. Whirr
 307. Saga
 
@@ -4391,6 +4502,24 @@ DevOps
 
 325. Ubuntu MaaS
 326. Facebook Tupperware
+
+     Facebook Tupperware is a system which provisions services by taking 
+     requirements from engineers and mapping them to actual hardware allocations
+     using containers :cite:`www-FaceTup`.Facebook Tupperware simplifies 
+     the  task of configuring and running services in production and 
+     allows engineers to focus on actual application logic.The tupperware 
+     system consists of a Scheduler , Agent process and a Server Databse.
+     The Scheduler consists of set of machines with one of them as master
+     and the others in standby.The machines share state among them.The Agent process 
+     runs on each and every machine and manages all the tasks and co-ordinates
+     with the Scheduler.The Server database stores the details of resources 
+     available across machines which is used by the scheduler for scheduling
+     jobs and tasks.Tupperware allows for sandboxing of the tasks which allows 
+     for isolation of the tasks.Initially isolation was implemented using chroots
+     but now it is switched to Linux Containers(LXC) .The 
+     configuration for the container is done by a specific config file written 
+     in a dialect of python by the owner of the process.
+
 327. AWS OpsWorks
 
      AWS Opsworks is a configuration service provided by Amazon Web
@@ -4407,6 +4536,27 @@ DevOps
      in each layer of AWS OpsWorks Stacks :cite:`www-awsopsworks`.
 
 328. OpenStack Ironic
+
+     Ironic :cite:`www-ironicwebsite` project is developed and
+     supported by OpenStack. Ironic provisions bare metal machines
+     instead of virtual machines and functions as hypervisor API that
+     is developed using open source technologies like Preboot
+     Execution Environment (PXE), Dynamic Host Configuration Protocol
+     (DHCP), Network Bootstrap Program (NBP), Trivial File Transfer
+     Protocol (TFTP) and Intelligent Platform Management Interface
+     (IPMI). A properly configured Bare Metal service with the Compute
+     and Network services, could provision both virtual and physical
+     machines through the Compute service’s API. But, the number of
+     instance actions are limited, due to physical servers and switch
+     hardware. For example, live migration is not possible on a bare
+     metal instance. The Ironic service has five key components. A
+     RESTful API service, through which other components would
+     interact with the bare metal servers, a Conductor service,
+     various drivers, messaging queue and a database. Ironic could be
+     integrated with other OpenStack projects like Identity
+     (keystone), Compute (nova), Network (neutron), Image (glance) and
+     Object (swift) services.
+     
 329. Google Kubernetes
 
      Google Kubernetes is a cluster management platform developed by
@@ -4448,6 +4598,22 @@ DevOps
      :cite:`github-buildstep`. 
 
 331. Gitreceive
+
+     Gitreceive is used to create an ssh+git user which can accept
+     repository pushes right away and also triggers a hook
+     script. Gitreceive is used to push code anywhere as well as
+     extend your Git workflow. "Gitreceive dynamically creates bare
+     repositories with a special pre-receive hook that triggers your
+     own general gitreceive hook giving you easy access to the code
+     that was pushed while still being able to send output back to the
+     git user" Gitreceive can also be used to provide feedback to the
+     user not only just to trigger code on git push.  Gitreceive can
+     used for the following: "a)for putting a git push deploy
+     interface in front of App Engine b)Run your company build/test
+     system as a separate remote c)Integrate custom systems into your
+     workflow d)Build your own Heroku e)Push code
+     anywhere".:cite:`lindsay2016`
+     
 332. OpenTOSCA
 333. Winery
 
@@ -4769,7 +4935,7 @@ IaaS Management from HPC to hypervisors
      reliable. It also makes managing large cluster environements
      easier. CoreOS provides open source tools like CoreOS Linux,
      etcd,rkt and flannel. CoreOS also has commercial products
-     Kubernetes and CoreOS stack. Core OS. In CoreOS linux service
+     Kubernetes and CoreOS stack. In CoreOS linux service
      discovery is achieved by etcd, applications are run on Docker and
      process management is achieved by fleet.
 
@@ -5193,7 +5359,21 @@ New Technologies to be integrated
      or Web application (and most mobile devices) can be configured to route its traffic
      through Fiddler :cite:`www-fiddler`.
 
-384. TBA
+384. Zeppelin
+
+     Apache Zeppelin :cite:`www-zeppelinwebsite` provides an
+     interactive environment for big data data analytics on
+     applications using distributed data processing systems like
+     Hadoop and Spark. It supports various tasks like data ingestion,
+     data discovery, data visualization, data analytics and
+     collaboration. Apache Zeppelin provides built-in Apache Spark
+     integration and is compatible with many languages/data-processing
+     backends like Python, R, SQL, Cassandra and JDBC. It also
+     supports adding new language backend. Zeppelin also lets users to
+     collaborate by sharing their Notebooks, Paragraph and has option
+     to broadcast any changes in realtime.
+
+385. TBA
 
 
 .. _techs-exercise:
