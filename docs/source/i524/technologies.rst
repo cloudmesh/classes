@@ -100,6 +100,24 @@ Workflow-Orchestration
    operational semantics of Taverna is explained.
 
 8. Triana
+
+   :cite:`trianaDocumentation-1` Triana is an open source problem
+   solving software that comes with powerful data analysis tools.  Having
+   been developed at Cardiff University, it has a good and
+   easy-to-understand User Interface and is typically used for signal,
+   text and image processing.  Although it has its own set of analysis
+   tools, it can also easily be integrated with custom tools.  Some of
+   the already available toolkits include signal-analysis toolkit, an
+   image-manipulation toolkit, etc.  Besides, it also checks the data
+   types and reports the usage of any incompatible tools.  It also
+   reports errors, if any, as well as useful debug messages in order to
+   resolve them.  It also helps track serious bugs, so that the program
+   does not crash.  It has two modes of representing the data - a
+   text-editor window or a graph-display window.  The graph-display
+   window has the added advantage of being able to zoom in on particular
+   features.  Triana is specially useful for automating the repetitive
+   tasks, like finding-and-replacing a character or a string.
+   
 9. Trident
 
    In :cite:`www-trident-tutorial`, it is explained that Apache Trident 
@@ -843,6 +861,24 @@ Application and Analytics
     updated with each Spark release.
     
 60. IBM System G
+
+    :cite:`IBMSystemGDocumentation-1` IBM System G provides a set of
+    Cloud and Graph computing tools and solutions for Big Data.  In fact,
+    the G stands for Graph and typically spans a database, visualization,
+    analytics library, middleware and Network Science Analytics tools.
+    :cite:`IBMSystemGDocumentation-2` It assists the easy creating of
+    graph stores and queries and exploring them via interactive
+    visualizations.  Internally, it uses the property graph model for its
+    working.  It consists of five individual components - gShell, REST
+    API, Python interface to gShell, Gremlin and a Visualizer.
+    :cite:`IBMSystemGPaper` Some of the typical applications wherein it
+    can be used include Expertise Location, Commerce, Recommendation,
+    Watson, Cybersecurity, etc.
+
+    However, it is to be noted that the current version does not work in a
+    distributed environment and it is planned that future versions would
+    support it.
+    
 61. GraphBuilder(Intel)
 
     Intel GraphBuilder for Apache Hadoop V2 is a software that is used
