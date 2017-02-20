@@ -843,6 +843,24 @@ Application and Analytics
     updated with each Spark release.
     
 60. IBM System G
+
+    :cite:`IBMSystemGDocumentation-1` IBM System G provides a set of
+    Cloud and Graph computing tools and solutions for Big Data.  In fact,
+    the G stands for Graph and typically spans a database, visualization,
+    analytics library, middleware and Network Science Analytics tools.
+    :cite:`IBMSystemGDocumentation-2` It assists the easy creating of
+    graph stores and queries and exploring them via interactive
+    visualizations.  Internally, it uses the property graph model for its
+    working.  It consists of five individual components - gShell, REST
+    API, Python interface to gShell, Gremlin and a Visualizer.
+    :cite:`IBMSystemGPaper` Some of the typical applications wherein it
+    can be used include Expertise Location, Commerce, Recommendation,
+    Watson, Cybersecurity, etc.
+
+    However, it is to be noted that the current version does not work in a
+    distributed environment and it is planned that future versions would
+    support it.
+    
 61. GraphBuilder(Intel)
 
     Intel GraphBuilder for Apache Hadoop V2 is a software that is used
