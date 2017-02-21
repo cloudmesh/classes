@@ -1,4 +1,4 @@
-Ansible Playbooks
+Ansible III: Write a Playbooks for MongoDB
 =================
 
 Ansible Playbooks are automated scripts written in YAML data format.  Instead
@@ -9,7 +9,7 @@ some tasks, for example, installing software, configuring default settings, and
 starting the software, in a Ansible Playbook.  With a few examples in this
 tutorial, you will understand how it works and how to write your own Playbooks.
 
-..note:: There are also several examples of using Ansible `Playbooks
+.. note:: There are also several examples of using Ansible `Playbooks
          <http://docs.ansible.com/playbooks.html>`_ from the official site. It covers
          from basic usage of Ansible Playbooks to advanced usage such as applying
          patches and updates with different roles and groups.
