@@ -454,22 +454,21 @@ Application and Analytics
 
 36. R
 
-    :cite:`www-R` R, a GNU project, is a successor to S - a
-    statistical programming language. It offers a range of
-    capabilities – “programming language, high level graphics,
-    interfaces to other languages and debugging”. "R is an integrated
-    suite of software facilities for data manipulation, calculation
-    and graphical display". The statistical and graphical techniques
-    provided by R make it popular in the statistical community. The
-    statistical techniques provided include linear and nonlinear
-    modelling, classical statistical tests, time-series analysis,
-    classification and clustering to name a few. :cite:`book-R` The
-    number of packages available in R has made it popular for use in
-    machine learning, visualization, and data operations tasks like
-    data extraction, cleaning, loading, transformation, analysis,
-    modeling and visualization. It's strength lies in analyzing data
-    using its rich library but falls short when working with very
-    large datasets.
+    R, a GNU project, is a successor to S - a statistical programming
+    language. It offers a range of capabilities – “programming
+    language, high level graphics, interfaces to other languages and
+    debugging”. "R is an integrated suite of software facilities for
+    data manipulation, calculation and graphical display". The
+    statistical and graphical techniques provided by R make it popular
+    in the statistical community. The statistical techniques provided
+    include linear and nonlinear modelling, classical statistical
+    tests, time-series analysis, classification and clustering to name
+    a few :cite:`www-R`. The number of packages available in R has
+    made it popular for use in machine learning, visualization, and
+    data operations tasks like data extraction, cleaning, loading,
+    transformation, analysis, modeling and visualization. It's
+    strength lies in analyzing data using its rich library but falls
+    short when working with very large datasets :cite:`book-R`.
     
 37. pbdR
 
@@ -1363,10 +1362,10 @@ Application Hosting Frameworks
 
     No Longer active as of Feb. 2016 :cite:`www-wiki`
 
-97. dotCloud
+97. dotCloud :cite:`www-dotCloud`
 
-    dotCloud services were shutdown on February 29,2016
-    :cite:`www-dotCloud`
+    dotCloud services were shutdown on February 29,2016.
+    
 
 98. Dokku
 99. OSGi
@@ -3155,24 +3154,23 @@ NoSQL
      multiple machines :cite:`www-ibm-cloudant`.
    
 
-233. Pivotal Gemfire
+233. Pivotal Gemfire :cite:`www-gemfire`
      
-     According to :cite:`www-gemfire`, a real-time, consistent access
-     to data-intensive applications is provided by a open source, data
-     management platform named Pivotal Gemfire. "GemFire pools memory,
-     CPU, network resources, and optionally local disk across multiple
-     processes to manage application objects and behavior". The main
-     features of Gemfire are high scalability, continuous
-     availability, shared nothing disk persistence, heterogeneous data
-     sharing and parallelized application behavior on data stores to
-     name a few.  In Gemfire, clients can subscribe to receive
-     notifications to execute their task based on a specific change in
-     data. This is achieved through the continuous querying feature
-     which enables event-driven architecture. The shared nothing
-     architecture of Gemfire suggests that each node is
-     self-sufficient and independent, which means that if the disk or
-     caches in one node fail the remaining nodes remaining
-     untouched. Additionally, the support for multi-site
+     A real-time, consistent access to data-intensive applications is
+     provided by a open source, data management platform named Pivotal
+     Gemfire. "GemFire pools memory, CPU, network resources, and
+     optionally local disk across multiple processes to manage
+     application objects and behavior". The main features of Gemfire
+     are high scalability, continuous availability, shared nothing
+     disk persistence, heterogeneous data sharing and parallelized
+     application behavior on data stores to name a few.  In Gemfire,
+     clients can subscribe to receive notifications to execute their
+     task based on a specific change in data. This is achieved through
+     the continuous querying feature which enables event-driven
+     architecture. The shared nothing architecture of Gemfire suggests
+     that each node is self-sufficient and independent, which means
+     that if the disk or caches in one node fail the remaining nodes
+     remaining untouched. Additionally, the support for multi-site
      configurations enable the user to scale horizontally between
      different distributed systems spread over a wide geographical
      network.
@@ -3919,22 +3917,22 @@ File systems
 290. Cinder
       
      "Cinder is a block storage service for Openstack"
-     :cite:`wiki-Cinder`. According to :cite:`book-Cinder` Openstack
-     Compute uses ephemeral disks meaning that they exist only for the
-     life of the Openstack instance i.e. when the instance is
-     terminated the disks disappear. Block storage system is a type of
-     persistent storage that can be used to persist data beyond the
-     life of the instance. Cinder provides users with access to
-     persistent block-level storage devices. It is designed such that
-     users can create block storage devices on demand and attach them
-     to any running instances of OpenStack
-     Compute. :cite:`wiki-Cinder` This is achieved through the use of
-     either a reference implementation(LVM) or plugin drivers for
-     other storage. Cinder virtualizes the management of block storage
-     devices and provides end users with a self-service API to request
-     and consume those resources without requiring any knowledge of
-     where their storage is actually deployed or on what type of
-     device.
+     :cite:`wiki-Cinder`. Openstack Compute uses ephemeral disks
+     meaning that they exist only for the life of the Openstack
+     instance i.e. when the instance is terminated the disks
+     disappear. Block storage system is a type of persistent storage
+     that can be used to persist data beyond the life of the
+     instance. Cinder provides users with access to persistent
+     block-level storage devices. It is designed such that users can
+     create block storage devices on demand and attach them to any
+     running instances of OpenStack Compute :cite:`book-Cinder`. This
+     is achieved through the use of either a reference
+     implementation(LVM) or plugin drivers for other storage. Cinder
+     virtualizes the management of block storage devices and provides
+     end users with a self-service API to request and consume those
+     resources without requiring any knowledge of where their storage
+     is actually deployed or on what type of device
+     :cite:`wiki-Cinder`.
      
 291. Ceph
 
