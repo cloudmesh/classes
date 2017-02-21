@@ -454,22 +454,21 @@ Application and Analytics
 
 36. R
 
-    :cite:`www-R` R, a GNU project, is a successor to S - a
-    statistical programming language. It offers a range of
-    capabilities – “programming language, high level graphics,
-    interfaces to other languages and debugging”. "R is an integrated
-    suite of software facilities for data manipulation, calculation
-    and graphical display". The statistical and graphical techniques
-    provided by R make it popular in the statistical community. The
-    statistical techniques provided include linear and nonlinear
-    modelling, classical statistical tests, time-series analysis,
-    classification and clustering to name a few. :cite:`book-R` The
-    number of packages available in R has made it popular for use in
-    machine learning, visualization, and data operations tasks like
-    data extraction, cleaning, loading, transformation, analysis,
-    modeling and visualization. It's strength lies in analyzing data
-    using its rich library but falls short when working with very
-    large datasets.
+    R, a GNU project, is a successor to S - a statistical programming
+    language. It offers a range of capabilities – “programming
+    language, high level graphics, interfaces to other languages and
+    debugging”. "R is an integrated suite of software facilities for
+    data manipulation, calculation and graphical display". The
+    statistical and graphical techniques provided by R make it popular
+    in the statistical community. The statistical techniques provided
+    include linear and nonlinear modelling, classical statistical
+    tests, time-series analysis, classification and clustering to name
+    a few :cite:`www-R`. The number of packages available in R has
+    made it popular for use in machine learning, visualization, and
+    data operations tasks like data extraction, cleaning, loading,
+    transformation, analysis, modeling and visualization. It's
+    strength lies in analyzing data using its rich library but falls
+    short when working with very large datasets :cite:`book-R`.
     
 37. pbdR
 
@@ -922,6 +921,18 @@ Application and Analytics
     changing the code.
 
 63. Parasol
+
+    The parasol laboratory is a multidisciplinary research program 
+    founded at Texas A&M University with a focus on next generation 
+    computing languages.  The core focus is centered around algorithm 
+    and application development to find solutions to data concentrated 
+    problems. :cite:`www-parasol` The developed applications are being 
+    applied in the following areas: computational biology, geophysics, 
+    neuroscience, physics, robotics, virtual reality and computer aided 
+    drug design(CAD).  The program has organized a number of workshops 
+    and conferences in the areas such as software, intelligent systems, 
+    and parallel architecture.
+    
 64. Dream:Lab
 
     DREAM:Lab stands for “Distributed Research on Emerging
@@ -1326,6 +1337,22 @@ Application Hosting Frameworks
     around the world. :cite:`www-jelastic-1`
 
 92. Stackato
+    
+    Hewlett Packard Enterprise or HPE Helion Stackato is a platform as a 
+    service(PaaS) cloud computing solution.  The platform facilitates 
+    deployment of the user’s application in the cloud and will function 
+    on top of an Infrastructure as a service(IaaS). :cite:`www-hpe` Multiple 
+    cloud development is supported across AWS, vSphere, and Helion Openstack.  
+    The platform supports the following programming languages: native 
+    .NET support, java, Node.js, python, and ruby.  This flexibility is 
+    advantageous compared to early PaaS solutions which would force the 
+    customer into utilizing a single stack.  Additionally, this solution 
+    has the capacity to support private, public and hybrid clouds. 
+    :cite:`www-virt` This capability user has to not have to make choices 
+    of flexibility over security of sensitive data when choosing a 
+    cloud computing platform.
+ 
+    
 93. appfog
 
     According to :cite:`wee`, “AppFog is a platform as a service (PaaS)
@@ -1363,10 +1390,10 @@ Application Hosting Frameworks
 
     No Longer active as of Feb. 2016 :cite:`www-wiki`
 
-97. dotCloud
+97. dotCloud :cite:`www-dotCloud`
 
-    dotCloud services were shutdown on February 29,2016
-    :cite:`www-dotCloud`
+    dotCloud services were shutdown on February 29,2016.
+    
 
 98. Dokku
 99. OSGi
@@ -2108,6 +2135,14 @@ Basic Programming model and runtime, SPMD, MapReduce
 158. MapGraph
 159. Totem
 
+     Totem is a project to overcome the current challenges in graph 
+     algorithms.  The project is research the Networked Systems
+     Laboratory (NetSysLab) The issue resides in the scale of real 
+     world graphs and the inability to process them on platforms
+     other than a supercomputer.  Totem is based on a bulk synchronous 
+     parallel(BSP) model that can enable hybrid CPU/GPU systems to process 
+     graph based applications in a cost effective manner. 
+     :cite:`www-netsyslab`
 
 Inter process communication Collectives
 ----------------------------------------------------------------------
@@ -3155,24 +3190,23 @@ NoSQL
      multiple machines :cite:`www-ibm-cloudant`.
    
 
-233. Pivotal Gemfire
+233. Pivotal Gemfire :cite:`www-gemfire`
      
-     According to :cite:`www-gemfire`, a real-time, consistent access
-     to data-intensive applications is provided by a open source, data
-     management platform named Pivotal Gemfire. "GemFire pools memory,
-     CPU, network resources, and optionally local disk across multiple
-     processes to manage application objects and behavior". The main
-     features of Gemfire are high scalability, continuous
-     availability, shared nothing disk persistence, heterogeneous data
-     sharing and parallelized application behavior on data stores to
-     name a few.  In Gemfire, clients can subscribe to receive
-     notifications to execute their task based on a specific change in
-     data. This is achieved through the continuous querying feature
-     which enables event-driven architecture. The shared nothing
-     architecture of Gemfire suggests that each node is
-     self-sufficient and independent, which means that if the disk or
-     caches in one node fail the remaining nodes remaining
-     untouched. Additionally, the support for multi-site
+     A real-time, consistent access to data-intensive applications is
+     provided by a open source, data management platform named Pivotal
+     Gemfire. "GemFire pools memory, CPU, network resources, and
+     optionally local disk across multiple processes to manage
+     application objects and behavior". The main features of Gemfire
+     are high scalability, continuous availability, shared nothing
+     disk persistence, heterogeneous data sharing and parallelized
+     application behavior on data stores to name a few.  In Gemfire,
+     clients can subscribe to receive notifications to execute their
+     task based on a specific change in data. This is achieved through
+     the continuous querying feature which enables event-driven
+     architecture. The shared nothing architecture of Gemfire suggests
+     that each node is self-sufficient and independent, which means
+     that if the disk or caches in one node fail the remaining nodes
+     remaining untouched. Additionally, the support for multi-site
      configurations enable the user to scale horizontally between
      different distributed systems spread over a wide geographical
      network.
@@ -3919,22 +3953,22 @@ File systems
 290. Cinder
       
      "Cinder is a block storage service for Openstack"
-     :cite:`wiki-Cinder`. According to :cite:`book-Cinder` Openstack
-     Compute uses ephemeral disks meaning that they exist only for the
-     life of the Openstack instance i.e. when the instance is
-     terminated the disks disappear. Block storage system is a type of
-     persistent storage that can be used to persist data beyond the
-     life of the instance. Cinder provides users with access to
-     persistent block-level storage devices. It is designed such that
-     users can create block storage devices on demand and attach them
-     to any running instances of OpenStack
-     Compute. :cite:`wiki-Cinder` This is achieved through the use of
-     either a reference implementation(LVM) or plugin drivers for
-     other storage. Cinder virtualizes the management of block storage
-     devices and provides end users with a self-service API to request
-     and consume those resources without requiring any knowledge of
-     where their storage is actually deployed or on what type of
-     device.
+     :cite:`wiki-Cinder`. Openstack Compute uses ephemeral disks
+     meaning that they exist only for the life of the Openstack
+     instance i.e. when the instance is terminated the disks
+     disappear. Block storage system is a type of persistent storage
+     that can be used to persist data beyond the life of the
+     instance. Cinder provides users with access to persistent
+     block-level storage devices. It is designed such that users can
+     create block storage devices on demand and attach them to any
+     running instances of OpenStack Compute :cite:`book-Cinder`. This
+     is achieved through the use of either a reference
+     implementation(LVM) or plugin drivers for other storage. Cinder
+     virtualizes the management of block storage devices and provides
+     end users with a self-service API to request and consume those
+     resources without requiring any knowledge of where their storage
+     is actually deployed or on what type of device
+     :cite:`wiki-Cinder`.
      
 291. Ceph
 
@@ -4134,6 +4168,18 @@ Interoperability
 ----------------------------------------------------------------------
 
 300. Libvirt
+
+     Libvirt is an open source API to manage hardware virtualization 
+     developed by Red Hat.  It is a standard C library but has
+     accessibility from other languages such as Python, Perl, Java 
+     and others. :cite:`www-libvirt` Multiple virtual machine
+     monitors(VMM) or hypervisors are supported such as KVM,QEMU, 
+     Xen, Virtuozzo, VMWare ESX, LXC, and BHyve.  It can be divided
+     into five categories such as hypervisor connection, domain, 
+     network, storage volume and pool.   :cite:`www-ibm`  It is accessible 
+     by many operating systems such as Linux, FreeBSD, Mac OS, and 
+     Windows OS.
+     
 301. Libcloud
 
      :cite::`www-libcloudwiki` Libcloud is a python library that
@@ -5019,6 +5065,25 @@ IaaS Management from HPC to hypervisors
      
      
 355. vSphere and vCloud
+
+     vSphere was developed by VMware and is a cloud computing 
+     virtualization platform. :cite:`www-vmware`  vSphere is not
+     one piece of software but a suite of tools that contains software 
+     such as vCenter, ESXi, vSphere client and a number of other 
+     technologies.  ESXi server is a type 1 hypervisor on a physical 
+     machine of which all virtual machines are installed.  
+     The vSphere client then allows administrators to connect to 
+     the ESXi and manage the virtual machines.  The vCenter server 
+     is a virtual machine that is also installed on the 
+     ESXi server which is used in environments when multiple ESXi 
+     servers areexist.  Similarly, vCloud is also a suite of 
+     applications but for establishing an infrastructure for a 
+     private cloud. :cite:`www-mustbegeek`  The suite includes the 
+     vsphere suite, but also contains site recovery management for 
+     disaster recovery,  site networking and security.  Additionally, 
+     a management suite that can give a visual of the infrastructure 
+     to determine where potential issues might arise.
+     
 356. Amazon
 
      Amazon’s AWS (Amazon Web Services) is a provider of Infrastructure 

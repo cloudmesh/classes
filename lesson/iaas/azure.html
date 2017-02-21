@@ -151,6 +151,7 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../ansible/index.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
@@ -161,9 +162,6 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="index.html">IaaS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html">Ansible</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
@@ -401,6 +399,7 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../ansible/index.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
@@ -411,9 +410,6 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="index.html">IaaS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html">Ansible</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
@@ -882,13 +878,13 @@ service, 5) python to install and run Flask.</p>
 </li>
 <li><p class="first">Write a python script in <code class="docutils literal"><span class="pre">hello.py</span></code></p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="k">import</span> <span class="n">Flask</span>
-<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
 
 <span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
     <span class="k">return</span> <span class="s2">&quot;Hello World!&quot;</span>
 
-<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
     <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -999,7 +995,7 @@ repository for Azure VM images.</li>
       
     </p>
     <p>
-        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+        &copy; Copyright 2017, Gregor von Laszewski.<br/>
     </p>
   </div>
 </footer>

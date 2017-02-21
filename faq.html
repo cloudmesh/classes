@@ -151,6 +151,7 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="lesson/ansible/index.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/cloud/index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/doc/index.html">Writing Documents</a></li>
@@ -161,9 +162,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson/projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/iaas/index.html">IaaS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson/devops/ansible.html">Ansible</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson/devops/ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson/devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
@@ -446,6 +444,7 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="lesson/ansible/index.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/cloud/index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/doc/index.html">Writing Documents</a></li>
@@ -456,9 +455,6 @@
 <li class="toctree-l2"><a class="reference internal" href="lesson/projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/iaas/index.html">IaaS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson/devops/ansible.html">Ansible</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson/devops/ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lesson/devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
@@ -1075,7 +1071,7 @@ explained below. Make sure to do the following steps first:</p>
 
   <span class="o">----------------------------------------</span>
   <span class="n">Rolling</span> <span class="n">back</span> <span class="n">uninstall</span> <span class="n">of</span> <span class="n">cryptography</span>
-  <span class="n">Command</span> <span class="s2">&quot;/usr/bin/python -u -c &quot;</span><span class="kn">import</span> <span class="nn">setuptools</span><span class="o">,</span> <span class="nn">tokenize</span><span class="p">;</span><span class="vm">__file__</span><span class="o">=</span><span class="s1">&#39;/tmp/pip-build-1vi4of/cryptography/setup.py&#39;</span><span class="p">;</span><span class="n">f</span><span class="o">=</span><span class="nb">getattr</span><span class="p">(</span><span class="n">tokenize</span><span class="p">,</span> <span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="nb">open</span><span class="p">)(</span><span class="vm">__file__</span><span class="p">);</span><span class="n">code</span><span class="o">=</span><span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\r\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">);</span><span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">();</span><span class="n">exec</span><span class="p">(</span><span class="nb">compile</span><span class="p">(</span><span class="n">code</span><span class="p">,</span> <span class="vm">__file__</span><span class="p">,</span> <span class="s1">&#39;exec&#39;</span><span class="p">))</span><span class="s2">&quot; install --record /tmp/pip-gNcw68-record/install-record.txt --single-version-externally-managed --compile&quot;</span> <span class="n">failed</span> <span class="k">with</span> <span class="n">error</span> <span class="n">code</span> <span class="mi">1</span> <span class="ow">in</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">pip</span><span class="o">-</span><span class="n">build</span><span class="o">-</span><span class="mi">1</span><span class="n">vi4of</span><span class="o">/</span><span class="n">cryptography</span><span class="o">/</span>
+  <span class="n">Command</span> <span class="s2">&quot;/usr/bin/python -u -c &quot;</span><span class="kn">import</span> <span class="nn">setuptools</span><span class="o">,</span> <span class="nn">tokenize</span><span class="p">;</span><span class="n">__file__</span><span class="o">=</span><span class="s1">&#39;/tmp/pip-build-1vi4of/cryptography/setup.py&#39;</span><span class="p">;</span><span class="n">f</span><span class="o">=</span><span class="nb">getattr</span><span class="p">(</span><span class="n">tokenize</span><span class="p">,</span> <span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="nb">open</span><span class="p">)(</span><span class="n">__file__</span><span class="p">);</span><span class="n">code</span><span class="o">=</span><span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\r\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">);</span><span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">();</span><span class="n">exec</span><span class="p">(</span><span class="nb">compile</span><span class="p">(</span><span class="n">code</span><span class="p">,</span> <span class="n">__file__</span><span class="p">,</span> <span class="s1">&#39;exec&#39;</span><span class="p">))</span><span class="s2">&quot; install --record /tmp/pip-gNcw68-record/install-record.txt --single-version-externally-managed --compile&quot;</span> <span class="n">failed</span> <span class="k">with</span> <span class="n">error</span> <span class="n">code</span> <span class="mi">1</span> <span class="ow">in</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">pip</span><span class="o">-</span><span class="n">build</span><span class="o">-</span><span class="mi">1</span><span class="n">vi4of</span><span class="o">/</span><span class="n">cryptography</span><span class="o">/</span>
 </pre></div>
 </div>
 <p>Trying to build the source with this error:</p>
@@ -1677,7 +1673,7 @@ combined.</p>
       
     </p>
     <p>
-        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+        &copy; Copyright 2017, Gregor von Laszewski.<br/>
     </p>
   </div>
 </footer>
