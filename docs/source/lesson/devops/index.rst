@@ -3,9 +3,6 @@
 .. toctree::
    :maxdepth: 1
 
-   ansible
-   ansible-start-point
-   ancible-advanced
    chef
    comparison
    composite_cluster
