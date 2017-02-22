@@ -151,7 +151,6 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../ansible/index.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
@@ -162,6 +161,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
@@ -432,7 +434,6 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../ansible/index.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
@@ -443,6 +444,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible.html#ansible-playbooks">Ansible Playbooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible-start-point.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
@@ -1421,8 +1425,8 @@ and greater than the difference of the lengths of the other two sides.:</p>
 <span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
 <span class="kn">from</span> <span class="nn">docopt</span> <span class="k">import</span> <span class="n">docopt</span>
 
-<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-      <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="n">__doc__</span><span class="p">)</span>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+      <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="vm">__doc__</span><span class="p">)</span>
       <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;LENGTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;WIDTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;HEIGHT&#39;</span><span class="p">])</span>
       <span class="n">valid_triangle</span> <span class="o">=</span> \
               <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
@@ -1994,7 +1998,7 @@ otherwise stated.</p>
       
     </p>
     <p>
-        &copy; Copyright 2017, Gregor von Laszewski.<br/>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
     </p>
   </div>
 </footer>
