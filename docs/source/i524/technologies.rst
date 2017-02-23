@@ -237,6 +237,24 @@ Workflow-Orchestration
 18. Google FlumeJava
 19. Crunch
 
+    Arvados Crunch :cite:`www-arvados` is a containerized workflow
+    engine for running complex, multi-part pipelines or workflows in a
+    way that is flexible, scalable, and supports versioning,
+    reproducibilty, and provenance while running in virtualized
+    computing environments. The Arvados Crunch :cite:`www-crunch`
+    framework is designed to support processing very large data
+    batches (gigabytes to terabytes) efficiently. Arvados Crunch
+    increases concurrency by running tasks asynchronously, using many
+    CPUs and network interfaces at once (especially beneficial for
+    CPU-bound and I/O-bound tasks respectively). Crunch also tracks
+    inputs, outputs, and settings so you can verify that the inputs,
+    settings, and sequence of programs you used to arrive at an output
+    is really what you think it was. Crunch ensures that your programs
+    and workflows are repeatable with different versions of your code,
+    OS updates, etc. and allows you to interrupt and resume
+    long-running jobs consisting of many short tasks and maintains
+    timing statistics automatically.
+
 20. Cascading
 
     :cite:`www-cascading` Cascading software authored by Chris Wensel
