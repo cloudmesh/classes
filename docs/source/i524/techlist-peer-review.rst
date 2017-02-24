@@ -34,7 +34,8 @@ belonging to the student you are reviewing and **add your comments to
 the Review field of each reference**. The *Review* field has already
 been added by us, you just need to put in your comments.
 
-For example, if student *S17-TS-0006* was reviewing *S17-TS-0007*'s entry::
+For example, if student *S17-TS-0006* was reviewing *S17-TS-0007*'s
+entry::
   
   % S17-TS-0007
   ...

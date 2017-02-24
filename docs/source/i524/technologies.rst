@@ -5494,11 +5494,12 @@ Message and Data Protocols
      Google and available under open source licensing. The parser
      program is available in many languages including java and python.
 
+.. _new-techs:
 
-New Technologies to be integrated
----------------------------------
+New Technologies (To Be Integrated by the AIs)
+----------------------------------------------
 
-382. Snort
+381. Snort
 
      :cite:`www-snort` Snort is a Network Intrusion Prevention System (NIPS) and
      Network Intrusion Detection System (NIDS). Snort's open source network-based
@@ -5518,7 +5519,7 @@ New Technologies to be integrated
      defined by the user. The program will then perform a specific action based on
      what has been identified.
 
-383. Fiddler
+382. Fiddler
 
      Fiddler is an HTTP debugging proxy server application. Fiddler captures HTTP   
      and HTTPS traffic and logs it for the user to review by implementing
@@ -5529,7 +5530,7 @@ New Technologies to be integrated
      or Web application (and most mobile devices) can be configured to route its traffic
      through Fiddler :cite:`www-fiddler`.
 
-384. Zeppelin
+383. Zeppelin
 
      Apache Zeppelin :cite:`www-zeppelinwebsite` provides an
      interactive environment for big data data analytics on
@@ -5543,7 +5544,7 @@ New Technologies to be integrated
      collaborate by sharing their Notebooks, Paragraph and has option
      to broadcast any changes in realtime.
 
-385. Open MPI 
+384. Open MPI 
 
      The Open MPI Project :cite:`www-open-mpi` is an open
      source Message Passing Interface implementation that is developed
@@ -5559,7 +5560,7 @@ New Technologies to be integrated
      for all of MPI-2, multiple concurrent user threads, and multiple
      options for handling process and network failures.
 
-386. TBA
+385. *Add the next tech here.*
 
 
 .. _techs-exercise:
@@ -5639,15 +5640,22 @@ TechList 1.c:
   not on what the author of the Web page claims.
 
 TechList 1.d:
-  Identify technologies from the Apache project or other
-  Big Data related Web pages and projects that are not yet listed here
-  and add the name and descriptions as well as references and that you
-  find important.
+  Identify technologies from the `Apache Project
+  <https://projects.apache.org/>`_ or other Big Data related Web pages
+  and projects that are not yet listed here. Add them at the end of
+  the Technologies page under the :ref:`New Technologies <new-techs>`
+  section, together with a description and appropriate references just
+  like you did for your list of technologies in TechList 1a-1c. As
+  part of your paragraph, please suggest a section where you think is
+  best to add the technologies. Once the new technologies have been
+  submitted, the AIs will integrate them in the appropriate
+  sections. Please, only add new techs to the last section, otherwise
+  it will be easy to introduce conflicts in the file.
 
 TechList.2:
-  In this hopweork we provide you with additional technologies
-  that you need to compleate They are marked with (2) in the HID
-  assignment.
+  In this hopweork we provide you with additional technologies that
+  you need to compleate They are marked with (2) in the :doc:`HID
+  Assignment page <hids-techs>`.
 
 TechList.3:
   Identify technologies that are not listed here and add
