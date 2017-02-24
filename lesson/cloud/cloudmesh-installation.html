@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Installing Cloudmesh Client on Ubuntu 16.04 &#8212; Big Data Classes</title>
+    <title>Cloudmesh Client on Ubuntu 16.04 &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -143,7 +143,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#devops">DevOps</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#new-technologies-to-be-integrated">New Technologies to be integrated</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#new-technologies-to-be-integrated-by-the-ais">New Technologies (To Be Integrated by the AIs)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#excersise">Excersise</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#references">References</a></li>
 </ul>
@@ -265,14 +265,17 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Installing Cloudmesh Client on Ubuntu 16.04</a><ul>
-<li><a class="reference internal" href="#step-1-installation-cloudmesh-client">Step 1 : Installation Cloudmesh Client</a></li>
-<li><a class="reference internal" href="#step-2-setting-up-profile">Step 2 : Setting Up Profile</a></li>
-<li><a class="reference internal" href="#step-3-setting-up-chameleon-cloud">Step 3 :Setting Up Chameleon Cloud</a></li>
-<li><a class="reference internal" href="#step-4-setting-up-virtual-machine">Step 4 : Setting Up Virtual Machine</a></li>
-<li><a class="reference internal" href="#step-5-boot-virtual-machine">Step 5 : Boot Virtual Machine</a></li>
-<li><a class="reference internal" href="#step-6-run-virtual-machine">Step 6 : Run Virtual Machine</a></li>
+<li><a class="reference internal" href="#">Cloudmesh Client on Ubuntu 16.04</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#setting-up">Setting Up</a></li>
+<li><a class="reference internal" href="#setting-up-chameleon-cloud">Setting Up Chameleon Cloud</a></li>
+<li><a class="reference internal" href="#preaparing-for-chameleon-access">Preaparing for Chameleon Access</a></li>
+<li><a class="reference internal" href="#boot-virtual-machine">Boot Virtual Machine</a></li>
+<li><a class="reference internal" href="#login-to-the-vm">Login to the vm</a><ul>
 <li><a class="reference internal" href="#step-7-remove-virtual-machine">Step 7 : Remove Virtual Machine</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#exercise">Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -381,7 +384,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#devops">DevOps</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#new-technologies-to-be-integrated">New Technologies to be integrated</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#new-technologies-to-be-integrated-by-the-ais">New Technologies (To Be Integrated by the AIs)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#excersise">Excersise</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#references">References</a></li>
 </ul>
@@ -493,14 +496,17 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Installing Cloudmesh Client on Ubuntu 16.04</a><ul>
-<li><a class="reference internal" href="#step-1-installation-cloudmesh-client">Step 1 : Installation Cloudmesh Client</a></li>
-<li><a class="reference internal" href="#step-2-setting-up-profile">Step 2 : Setting Up Profile</a></li>
-<li><a class="reference internal" href="#step-3-setting-up-chameleon-cloud">Step 3 :Setting Up Chameleon Cloud</a></li>
-<li><a class="reference internal" href="#step-4-setting-up-virtual-machine">Step 4 : Setting Up Virtual Machine</a></li>
-<li><a class="reference internal" href="#step-5-boot-virtual-machine">Step 5 : Boot Virtual Machine</a></li>
-<li><a class="reference internal" href="#step-6-run-virtual-machine">Step 6 : Run Virtual Machine</a></li>
+<li><a class="reference internal" href="#">Cloudmesh Client on Ubuntu 16.04</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#setting-up">Setting Up</a></li>
+<li><a class="reference internal" href="#setting-up-chameleon-cloud">Setting Up Chameleon Cloud</a></li>
+<li><a class="reference internal" href="#preaparing-for-chameleon-access">Preaparing for Chameleon Access</a></li>
+<li><a class="reference internal" href="#boot-virtual-machine">Boot Virtual Machine</a></li>
+<li><a class="reference internal" href="#login-to-the-vm">Login to the vm</a><ul>
 <li><a class="reference internal" href="#step-7-remove-virtual-machine">Step 7 : Remove Virtual Machine</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#exercise">Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -545,28 +551,38 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="installing-cloudmesh-client-on-ubuntu-16-04">
-<span id="cm-install"></span><h1>Installing Cloudmesh Client on Ubuntu 16.04<a class="headerlink" href="#installing-cloudmesh-client-on-ubuntu-16-04" title="Permalink to this headline">¶</a></h1>
-<p>First install cloudmesh client using pip and make sure you
-install the latest updates.</p>
-<div class="section" id="step-1-installation-cloudmesh-client">
-<h2>Step 1 : Installation Cloudmesh Client<a class="headerlink" href="#step-1-installation-cloudmesh-client" title="Permalink to this headline">¶</a></h2>
-<p>Install cloudmesh client using pip</p>
+  <div class="section" id="cloudmesh-client-on-ubuntu-16-04">
+<span id="cm-install"></span><h1>Cloudmesh Client on Ubuntu 16.04<a class="headerlink" href="#cloudmesh-client-on-ubuntu-16-04" title="Permalink to this headline">¶</a></h1>
+<p>In this class we will be accessing for several projects multiple
+clouds. This could pose a significant development issue for some in
+the class. to simplify access we introduce you to one method that we
+recommend for this class. We will be using a project called
+cloudmesh_client that allows users to easily access multiple clouds
+from the commandline. Switching between clouds can be achieved with one
+variable. The advantages include:</p>
+<ul class="simple">
+<li>access to another cloud in case of failure</li>
+<li>relocation of experiments to see if they are robust</li>
+<li>performance benchmarking to compare clouds.</li>
+</ul>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>First, let us install cloudmesh client using pip and make sure you
+install the latest updates. Install cloudmesh client using pip</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pip install -U cloudmesh_client
 </pre></div>
 </div>
 <p>In order to make sure cloudmesh is running properly, enter cm in your command line.
 It will show a terminal in the following way.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm&gt;
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm
 </pre></div>
 </div>
 </div>
-<div class="section" id="step-2-setting-up-profile">
-<h2>Step 2 : Setting Up Profile<a class="headerlink" href="#step-2-setting-up-profile" title="Permalink to this headline">¶</a></h2>
-<p>Now cloudmesh is installed locally. In order to run a virtual
-machine in chameleon cloud, there are few configurations that
-has to be done.</p>
-<p>You can find the configuration information in the following
+<div class="section" id="setting-up">
+<h2>Setting Up<a class="headerlink" href="#setting-up" title="Permalink to this headline">¶</a></h2>
+<p>Now cloudmesh is installed locally. In order to run a virtual machine
+in chameleon cloud, there are few configurations that have to be
+done. You can find the configuration information in the following
 location.</p>
 <p><a class="reference external" href="http://cloudmesh.github.io/client/configuration.html">http://cloudmesh.github.io/client/configuration.html</a></p>
 <p>After setting up cloudmesh client locally, the yaml file
@@ -600,8 +616,8 @@ $ gedit ~/.cloudmesh/cloudmesh.yaml
 <p>This must be filled when working on Cloudmesh set up.
 And this can be found in the configuration file in cm- yaml file.</p>
 </div>
-<div class="section" id="step-3-setting-up-chameleon-cloud">
-<h2>Step 3 :Setting Up Chameleon Cloud<a class="headerlink" href="#step-3-setting-up-chameleon-cloud" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setting-up-chameleon-cloud">
+<h2>Setting Up Chameleon Cloud<a class="headerlink" href="#setting-up-chameleon-cloud" title="Permalink to this headline">¶</a></h2>
 <p>In the cloudmesh.yaml file, set chameleon cloud as the active cloud
 as shown below. Locate the attribute value in the:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">active</span><span class="p">:</span>
@@ -645,54 +661,61 @@ machines.</p>
 </div>
 <p><a class="reference external" href="http://cloudmesh.github.io/client/configuration.html#chameleon-cloud">http://cloudmesh.github.io/client/configuration.html#chameleon-cloud</a></p>
 </div>
-<div class="section" id="step-4-setting-up-virtual-machine">
-<h2>Step 4 : Setting Up Virtual Machine<a class="headerlink" href="#step-4-setting-up-virtual-machine" title="Permalink to this headline">¶</a></h2>
-<p>Run the following commands one by one.</p>
-<p>First set up chameleon as the default cloud.</p>
+<div class="section" id="preaparing-for-chameleon-access">
+<h2>Preaparing for Chameleon Access<a class="headerlink" href="#preaparing-for-chameleon-access" title="Permalink to this headline">¶</a></h2>
+<p>To create a virtual machine we need first to make sure we start it on
+chamelon cloud. This we need to set the default cloud to be chameleon
+with the following command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm default cloud=chameleon
 </pre></div>
 </div>
-<p>Information about the configurations can be retrieved by the following command:</p>
+<p>Information about the configuration of cloudmesh can be retrieved by
+the following command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$cm info
 </pre></div>
 </div>
-<p>Then add the ssh key to the cloudmesh database by running the following command.
-And make sure, you have already generated a ssh key and the same ssh key will be
-added to the database:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm key add --ssh
-</pre></div>
-</div>
-<p>Upload the key to the chameleon cloud:</p>
+<p>Next we need to add the ssh key to the cloudmesh database by running
+the following command.  Make sure you have already generated a
+ssh key with ssh-keygen. The command will add the default id_rsa.pub
+key to a local database.</p>
+<blockquote>
+<div>$ cm key add &#8211;ssh</div></blockquote>
+<p>Not that the key is in our local cloudmesh database, we need to upload
+it to all active clouds. As we have just one active cloud it will
+uploade the key to the chamelon cloud once you execute the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm key upload
 </pre></div>
 </div>
-<p>Upload the security group to the chameleon cloud:</p>
+<p>Furthermore, we must be able to communicate with the
+virtualmachines. To communicate which ports we use we execute the
+secgroup command. To just use the defaults we execute the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm secgroup upload
 </pre></div>
 </div>
+<p>To see the details of the secgropus please use the command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm secgroup list
+</pre></div>
 </div>
-<div class="section" id="step-5-boot-virtual-machine">
-<h2>Step 5 : Boot Virtual Machine<a class="headerlink" href="#step-5-boot-virtual-machine" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="boot-virtual-machine">
+<h2>Boot Virtual Machine<a class="headerlink" href="#boot-virtual-machine" title="Permalink to this headline">¶</a></h2>
 <p>Run the following command to boot the virtual machine:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm boot
 </pre></div>
 </div>
-<p>Additional Info:
-You can run the following commands to view the security groups
-and virtual machines running:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm secgroup list
-$ cm vm list
+<p>To see all vms just use the command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm list
 </pre></div>
 </div>
 </div>
-<div class="section" id="step-6-run-virtual-machine">
-<h2>Step 6 : Run Virtual Machine<a class="headerlink" href="#step-6-run-virtual-machine" title="Permalink to this headline">¶</a></h2>
-<p>Execute the following command to run the virtual machine.
-First assign a floating ip:</p>
+<div class="section" id="login-to-the-vm">
+<h2>Login to the vm<a class="headerlink" href="#login-to-the-vm" title="Permalink to this headline">¶</a></h2>
+<p>To login to the vm you need to have a publicly available (floating) ip. This
+can be achieved with the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ip assign
 </pre></div>
 </div>
-<p>Run the virtual machine:</p>
+<p>You can after this command has succeed login to the vm with the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ssh
 </pre></div>
 </div>
@@ -700,9 +723,18 @@ First assign a floating ip:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>cc@hostname$-
 </pre></div>
 </div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Many errors could occur that are unrelated to cloudmesh
+client. Such errors could include network interruptions,
+resource starvation of cloudmesh, while either no vms
+can be started, they are out of ip addresses, ir they
+have a maintenance day. Please do not blame cloudmesh for
+such issues and explore first if they originate through
+such issues.</p>
 </div>
 <div class="section" id="step-7-remove-virtual-machine">
-<h2>Step 7 : Remove Virtual Machine<a class="headerlink" href="#step-7-remove-virtual-machine" title="Permalink to this headline">¶</a></h2>
+<h3>Step 7 : Remove Virtual Machine<a class="headerlink" href="#step-7-remove-virtual-machine" title="Permalink to this headline">¶</a></h3>
 <p>To delete a virtual machine, run the following command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm delete &lt;name_of_vm&gt;
 </pre></div>
@@ -711,15 +743,17 @@ First assign a floating ip:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm delete vibhatha-001
 </pre></div>
 </div>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">No inside directories, just create everything in the home directory.
-Or a work directory in the home directory. Make sure work in the same
-directory when executing commands. And make sure you are in the right directory
-when you are executing commands. We do this in order to minimize complications
-and add the correct cloudmesh.yaml file for the task.You should edit the right way.
-(never use cd when doing this)</p>
+<p>It is important that you delete or terminate the vm after you are done
+as chameleon cloud has a limited set of resources. we recommend that
+you do not keep a vm up for more than 6 hours. Please be aware when
+you delete a vm everything on that vm is deleted. hence we recommend
+you to make appropriate backups of the content in the vm and have
+scripts via ansible to recreate your softwarstack.</p>
 </div>
+</div>
+<div class="section" id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<p>cloudmesh.1: install cloudmesh, create a vm and delete it</p>
 </div>
 </div>
 
