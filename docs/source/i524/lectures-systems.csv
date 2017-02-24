@@ -1,16 +1,15 @@
-Ubuntu, Development OS for the class, :doc:`Web page <../lesson/linux/ubuntu>`,
-Virtualbox, Virtualbox for class, :doc:`Web page <../lesson/linux/virtualbox>`,
-  , Instalation of ubuntu in virtualbox, `Video <https://youtu.be/NWibDntN2M4>`_,   
-  , Instalation of guest additions in virtualbox, `Video <https://youtu.be/wdCoiNdn2jA>`_,   
-Shell, Linux Shell, `Video <https://www.youtube.com/watch?v=LeTlm_ck2GI>`_ | :doc:`Web Page <../lesson/linux/linux>`,
-Ansible, Starting Point, `Video <https://www.youtube.com/watch?v=no52OmHg1ek>`_ | :doc:`Web Page <../lesson/ansible/ansible-I>`,
-       , Roles and Others, `Video <https://www.youtube.com/watch?v=eN52x5XxJAE>`_ | :doc:`Web Page <../lesson/ansible/ansible-II>`,
-Python, Introduction to Python, :doc:`Web page <../lesson/prg/python_intro>`,
-      , Python for Big Data, :doc:`Web Page <../lesson/prg/python_big_data>`,
-      , Python Exercises, :doc:`Web Page <python-homework>`,
-      , (Draft - Advanced) Python Fingerprint example, :doc:`Web page <../lesson/prg/python_lesson1>`,
-      , PyCharm, `Video <https://www.youtube.com/watch?v=X8ZpbZweJcw>`_,      
-Refcards, Refernce cards, :doc:`Web Page <../lesson/linux/refcards>`,
-Emacs, (Optional) Useful emacs commands, :doc:`Web Page <../lesson/doc/emacs>`,
-Cloudmesh Client,Installation of Cloudmesh Client, `Video <https://www.youtube.com/watch?v=R50IQYhr-vg>`_ | :doc:`Web Page <../lesson/cloud/cloudmesh-installation>`,
-
+Ubuntu, Development OS for the class, :doc:`Web page <../lesson/linux/ubuntu>`,,7 Jan
+Virtualbox, Virtualbox for class, :doc:`Web page <../lesson/linux/virtualbox>`,,7 Jan
+  , Instalation of ubuntu in virtualbox, `Video <https://youtu.be/NWibDntN2M4>`_,   ,7 Jan
+  , Instalation of guest additions in virtualbox, `Video <https://youtu.be/wdCoiNdn2jA>`_,   ,7 Jan
+Shell, Linux Shell, `Video <https://www.youtube.com/watch?v=LeTlm_ck2GI>`_ | :doc:`Web Page <../lesson/linux/linux>`,,7 Jan
+Python, Introduction to Python, :doc:`Web page <../lesson/prg/python_intro>`,,7 Jan
+      , Python for Big Data, :doc:`Web Page <../lesson/prg/python_big_data>`,,7 Jan
+      , Python Exercises, :doc:`Web Page <python-homework>`,,7 Jan
+      , (Draft - Advanced) Python Fingerprint example, :doc:`Web page <../lesson/prg/python_lesson1>`,,7 Jan
+      , PyCharm, `Video <https://www.youtube.com/watch?v=X8ZpbZweJcw>`_,      ,7 Jan
+Refcards, Refernce cards, :doc:`Web Page <../lesson/linux/refcards>`,,7 Jan
+Emacs, (Optional) Useful emacs commands, :doc:`Web Page <../lesson/doc/emacs>`,,7 Jan
+Cloudmesh Client,Installation of Cloudmesh Client, `Video <https://www.youtube.com/watch?v=R50IQYhr-vg>`_ | :doc:`Web Page <../lesson/cloud/cloudmesh-installation>`,,14 Feb
+Ansible, Starting Point, `Video <https://www.youtube.com/watch?v=no52OmHg1ek>`_ | :doc:`Web Page <../lesson/ansible/ansible-I>`,,14 Feb
+       , Roles and Others, `Video <https://www.youtube.com/watch?v=eN52x5XxJAE>`_ | :doc:`Web Page <../lesson/ansible/ansible-II>`,,14 Feb
