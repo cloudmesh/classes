@@ -48,6 +48,19 @@ Workflow-Orchestration
 
 
 3. Airavata
+
+   Apache Airavata :cite:`www-airavata` is a software framework that
+   enables you to compose, manage, execute, and monitor large scale
+   applications and workflows on distributed computing resources such
+   as local clusters, supercomputers, computational grids, and
+   computing clouds. Scientific gateway developers use Airavata as
+   their middleware layer between job submissions and grid
+   systems. Airavata supports long running applications and workflows
+   on distributed computational resources. Many scientific gateways
+   are already using Airavata to perform computations (e.g. Ultrascan
+   :cite:`www-ultrascan`, SEAGrid :cite:`www-seagrid` and GenApp
+   :cite:`www-genapp`).
+
 4. Pegasus
 
    The Pegasus :cite:`www-Pegasus` is workflow management system 
@@ -100,6 +113,24 @@ Workflow-Orchestration
    operational semantics of Taverna is explained.
 
 8. Triana
+
+   :cite:`trianaDocumentation-1` Triana is an open source problem
+   solving software that comes with powerful data analysis tools.  Having
+   been developed at Cardiff University, it has a good and
+   easy-to-understand User Interface and is typically used for signal,
+   text and image processing.  Although it has its own set of analysis
+   tools, it can also easily be integrated with custom tools.  Some of
+   the already available toolkits include signal-analysis toolkit, an
+   image-manipulation toolkit, etc.  Besides, it also checks the data
+   types and reports the usage of any incompatible tools.  It also
+   reports errors, if any, as well as useful debug messages in order to
+   resolve them.  It also helps track serious bugs, so that the program
+   does not crash.  It has two modes of representing the data - a
+   text-editor window or a graph-display window.  The graph-display
+   window has the added advantage of being able to zoom in on particular
+   features.  Triana is specially useful for automating the repetitive
+   tasks, like finding-and-replacing a character or a string.
+   
 9. Trident
 
    In :cite:`www-trident-tutorial`, it is explained that Apache Trident 
@@ -125,11 +156,11 @@ Workflow-Orchestration
     
     BioKepler is a Kepler module of scientific workflow components to
     execute a set of bioinformatics tools using distributed execution
-    patterns :cite:`WWW-bioKepler`. It contains a specialized set of
+    patterns :cite:`www-biokepler`. It contains a specialized set of
     actors called “bioActors” for running bioinformatic tools,
     directors providing distributed data-parallel(DPP) execution on
     Big Data platforms such as Hadoop and Spark they are also
-    configurable and reusable :cite:`WWW-bioKepler-Demos`. BioKepler
+    configurable and reusable :cite:`www-biokepler-demos`. BioKepler
     contains over 40 example workflows that demonstrate the actors and
     directors :cite:`bioActors`.
     
@@ -206,6 +237,24 @@ Workflow-Orchestration
 18. Google FlumeJava
 19. Crunch
 
+    Arvados Crunch :cite:`www-arvados` is a containerized workflow
+    engine for running complex, multi-part pipelines or workflows in a
+    way that is flexible, scalable, and supports versioning,
+    reproducibilty, and provenance while running in virtualized
+    computing environments. The Arvados Crunch :cite:`www-crunch`
+    framework is designed to support processing very large data
+    batches (gigabytes to terabytes) efficiently. Arvados Crunch
+    increases concurrency by running tasks asynchronously, using many
+    CPUs and network interfaces at once (especially beneficial for
+    CPU-bound and I/O-bound tasks respectively). Crunch also tracks
+    inputs, outputs, and settings so you can verify that the inputs,
+    settings, and sequence of programs you used to arrive at an output
+    is really what you think it was. Crunch ensures that your programs
+    and workflows are repeatable with different versions of your code,
+    OS updates, etc. and allows you to interrupt and resume
+    long-running jobs consisting of many short tasks and maintains
+    timing statistics automatically.
+
 20. Cascading
 
     :cite:`www-cascading` Cascading software authored by Chris Wensel
@@ -280,7 +329,7 @@ Workflow-Orchestration
     patterns (pipelines). Dataflow includes SDKs for defining data
     processing workflows and a Cloud platform managed services to run
     those workflows on a Google cloud platform resources such as Compute
-    Engine, BigQuery amongst others :cite:`WWW-Dataflow`. Dataflow
+    Engine, BigQuery amongst others :cite:`www-Dataflow`. Dataflow
     pipelines can operate in both batch and streaming mode. The platform
     resources are provided on demand, allowing users to scale to meet
     their requirements, it’s also optimized to help balance lagging work
@@ -288,7 +337,7 @@ Workflow-Orchestration
 
     Being a cloud offering, Dataflow is designed to allow users to focus
     on devising proper analysis without worrying about the installation
-    and maintaining :cite:`WWW-GoogleLiveStream` the underlying data
+    and maintaining :cite:`www-GoogleLiveStream` the underlying data
     piping and process infrastructure.
     
 25. NiFi (NSA)
@@ -436,22 +485,21 @@ Application and Analytics
 
 36. R
 
-    :cite:`www-R` R, a GNU project, is a successor to S - a
-    statistical programming language. It offers a range of
-    capabilities – “programming language, high level graphics,
-    interfaces to other languages and debugging”. "R is an integrated
-    suite of software facilities for data manipulation, calculation
-    and graphical display". The statistical and graphical techniques
-    provided by R make it popular in the statistical community. The
-    statistical techniques provided include linear and nonlinear
-    modelling, classical statistical tests, time-series analysis,
-    classification and clustering to name a few. :cite:`book-R` The
-    number of packages available in R has made it popular for use in
-    machine learning, visualization, and data operations tasks like
-    data extraction, cleaning, loading, transformation, analysis,
-    modeling and visualization. It's strength lies in analyzing data
-    using its rich library but falls short when working with very
-    large datasets.
+    R, a GNU project, is a successor to S - a statistical programming
+    language. It offers a range of capabilities – “programming
+    language, high level graphics, interfaces to other languages and
+    debugging”. "R is an integrated suite of software facilities for
+    data manipulation, calculation and graphical display". The
+    statistical and graphical techniques provided by R make it popular
+    in the statistical community. The statistical techniques provided
+    include linear and nonlinear modelling, classical statistical
+    tests, time-series analysis, classification and clustering to name
+    a few :cite:`www-R`. The number of packages available in R has
+    made it popular for use in machine learning, visualization, and
+    data operations tasks like data extraction, cleaning, loading,
+    transformation, analysis, modeling and visualization. It's
+    strength lies in analyzing data using its rich library but falls
+    short when working with very large datasets :cite:`book-R`.
     
 37. pbdR
 
@@ -615,7 +663,7 @@ Application and Analytics
     translation services like livestream, high volumes of emails or
     detailed articles and documents. There’s also standard edition
     which is tailored for short, real-time
-    conversations :cite:`WWW-Translation`.
+    conversations :cite:`www-translation`.
 46. mlpy
     
     mlpy is an open source python library made for providing
@@ -843,6 +891,24 @@ Application and Analytics
     updated with each Spark release.
     
 60. IBM System G
+
+    :cite:`IBMSystemGDocumentation-1` IBM System G provides a set of
+    Cloud and Graph computing tools and solutions for Big Data.  In fact,
+    the G stands for Graph and typically spans a database, visualization,
+    analytics library, middleware and Network Science Analytics tools.
+    :cite:`IBMSystemGDocumentation-2` It assists the easy creating of
+    graph stores and queries and exploring them via interactive
+    visualizations.  Internally, it uses the property graph model for its
+    working.  It consists of five individual components - gShell, REST
+    API, Python interface to gShell, Gremlin and a Visualizer.
+    :cite:`IBMSystemGPaper` Some of the typical applications wherein it
+    can be used include Expertise Location, Commerce, Recommendation,
+    Watson, Cybersecurity, etc.
+
+    However, it is to be noted that the current version does not work in a
+    distributed environment and it is planned that future versions would
+    support it.
+    
 61. GraphBuilder(Intel)
 
     Intel GraphBuilder for Apache Hadoop V2 is a software that is used
@@ -886,6 +952,18 @@ Application and Analytics
     changing the code.
 
 63. Parasol
+
+    The parasol laboratory is a multidisciplinary research program 
+    founded at Texas A&M University with a focus on next generation 
+    computing languages.  The core focus is centered around algorithm 
+    and application development to find solutions to data concentrated 
+    problems. :cite:`www-parasol` The developed applications are being 
+    applied in the following areas: computational biology, geophysics, 
+    neuroscience, physics, robotics, virtual reality and computer aided 
+    drug design(CAD).  The program has organized a number of workshops 
+    and conferences in the areas such as software, intelligent systems, 
+    and parallel architecture.
+    
 64. Dream:Lab
 
     DREAM:Lab stands for “Distributed Research on Emerging
@@ -1290,6 +1368,22 @@ Application Hosting Frameworks
     around the world. :cite:`www-jelastic-1`
 
 92. Stackato
+    
+    Hewlett Packard Enterprise or HPE Helion Stackato is a platform as a 
+    service(PaaS) cloud computing solution.  The platform facilitates 
+    deployment of the user’s application in the cloud and will function 
+    on top of an Infrastructure as a service(IaaS). :cite:`www-hpe` Multiple 
+    cloud development is supported across AWS, vSphere, and Helion Openstack.  
+    The platform supports the following programming languages: native 
+    .NET support, java, Node.js, python, and ruby.  This flexibility is 
+    advantageous compared to early PaaS solutions which would force the 
+    customer into utilizing a single stack.  Additionally, this solution 
+    has the capacity to support private, public and hybrid clouds. 
+    :cite:`www-virt` This capability user has to not have to make choices 
+    of flexibility over security of sensitive data when choosing a 
+    cloud computing platform.
+ 
+    
 93. appfog
 
     According to :cite:`wee`, “AppFog is a platform as a service (PaaS)
@@ -1327,10 +1421,10 @@ Application Hosting Frameworks
 
     No Longer active as of Feb. 2016 :cite:`www-wiki`
 
-97. dotCloud
+97. dotCloud :cite:`www-dotCloud`
 
-    dotCloud services were shutdown on February 29,2016
-    :cite:`www-dotCloud`
+    dotCloud services were shutdown on February 29,2016.
+    
 
 98. Dokku
 99. OSGi
@@ -2072,6 +2166,14 @@ Basic Programming model and runtime, SPMD, MapReduce
 158. MapGraph
 159. Totem
 
+     Totem is a project to overcome the current challenges in graph 
+     algorithms.  The project is research the Networked Systems
+     Laboratory (NetSysLab) The issue resides in the scale of real 
+     world graphs and the inability to process them on platforms
+     other than a supercomputer.  Totem is based on a bulk synchronous 
+     parallel(BSP) model that can enable hybrid CPU/GPU systems to process 
+     graph based applications in a cost effective manner. 
+     :cite:`www-netsyslab`
 
 Inter process communication Collectives
 ----------------------------------------------------------------------
@@ -2345,17 +2447,18 @@ Inter process communication Collectives
      push notifications to iOS, Windows, Fire OS and Android OS
      devices.
 
-     According to :cite:`sns-blog`,Topics are named groups of events or
-     access points, each identifying a specific subject, content, or event
-     type. Each topic has a unique identifier (URI) that identifies the SNS
-     endpoint for publishing and subscribing.Owners create topics and
-     control all access to the topic. The owner can define the permissions
-     for all of the topics that they own.Subscribers are clients
-     (applications, end-users, servers, or other devices) that want to
-     receive notifications on specific topics of interest to
-     them.Publishers send messages to topics. SNS matches the topic with
-     the list of subscribers interested in the topic, and delivers the
-     message to each and every one of them.
+     According to :cite:`sns-blog` SNS system architecture consists 
+     of four elements: (1) Topics, (2) Owners, (3) Publishers, and
+     (4) Subscribers. Topics are events or access points that identifies
+     the subject of the event and can be accessed by an unique
+     identifier(URI). Owners create topics and control all access to
+     the topic and define the corressponding permission for each
+     topic. Subscribers are clients (applications, end-users,
+     servers, or other devices) that want to receive messages or
+     notifications on specific topics of interest to them.Publishers
+     send messages to topics. SNS matches the topic with the list of
+     subscribers interested in the topic, and delivers the message to
+     them.
 
      According to :cite:`sns-faq`, Amazon SNS follows pay as per usage. In
      general it is $0.50 per 1 million Amazon SNS Requests.Amazon SNS
@@ -2526,7 +2629,7 @@ In-memory databases/caches
      readers nor do readers block writes. Also, it does
      allow multiple applications on the same system to
      open and use the store simultaneously which helps in
-     scaling up performance :cite:`WWW-LMDB`.
+     scaling up performance :cite:`www-lmdb`.
 
 187. Hazelcast
 
@@ -3118,24 +3221,23 @@ NoSQL
      multiple machines :cite:`www-ibm-cloudant`.
    
 
-233. Pivotal Gemfire
+233. Pivotal Gemfire :cite:`www-gemfire`
      
-     According to :cite:`www-gemfire`, a real-time, consistent access
-     to data-intensive applications is provided by a open source, data
-     management platform named Pivotal Gemfire. "GemFire pools memory,
-     CPU, network resources, and optionally local disk across multiple
-     processes to manage application objects and behavior". The main
-     features of Gemfire are high scalability, continuous
-     availability, shared nothing disk persistence, heterogeneous data
-     sharing and parallelized application behavior on data stores to
-     name a few.  In Gemfire, clients can subscribe to receive
-     notifications to execute their task based on a specific change in
-     data. This is achieved through the continuous querying feature
-     which enables event-driven architecture. The shared nothing
-     architecture of Gemfire suggests that each node is
-     self-sufficient and independent, which means that if the disk or
-     caches in one node fail the remaining nodes remaining
-     untouched. Additionally, the support for multi-site
+     A real-time, consistent access to data-intensive applications is
+     provided by a open source, data management platform named Pivotal
+     Gemfire. "GemFire pools memory, CPU, network resources, and
+     optionally local disk across multiple processes to manage
+     application objects and behavior". The main features of Gemfire
+     are high scalability, continuous availability, shared nothing
+     disk persistence, heterogeneous data sharing and parallelized
+     application behavior on data stores to name a few.  In Gemfire,
+     clients can subscribe to receive notifications to execute their
+     task based on a specific change in data. This is achieved through
+     the continuous querying feature which enables event-driven
+     architecture. The shared nothing architecture of Gemfire suggests
+     that each node is self-sufficient and independent, which means
+     that if the disk or caches in one node fail the remaining nodes
+     remaining untouched. Additionally, the support for multi-site
      configurations enable the user to scale horizontally between
      different distributed systems spread over a wide geographical
      network.
@@ -3882,22 +3984,22 @@ File systems
 290. Cinder
       
      "Cinder is a block storage service for Openstack"
-     :cite:`wiki-Cinder`. According to :cite:`book-Cinder` Openstack
-     Compute uses ephemeral disks meaning that they exist only for the
-     life of the Openstack instance i.e. when the instance is
-     terminated the disks disappear. Block storage system is a type of
-     persistent storage that can be used to persist data beyond the
-     life of the instance. Cinder provides users with access to
-     persistent block-level storage devices. It is designed such that
-     users can create block storage devices on demand and attach them
-     to any running instances of OpenStack
-     Compute. :cite:`wiki-Cinder` This is achieved through the use of
-     either a reference implementation(LVM) or plugin drivers for
-     other storage. Cinder virtualizes the management of block storage
-     devices and provides end users with a self-service API to request
-     and consume those resources without requiring any knowledge of
-     where their storage is actually deployed or on what type of
-     device.
+     :cite:`wiki-Cinder`. Openstack Compute uses ephemeral disks
+     meaning that they exist only for the life of the Openstack
+     instance i.e. when the instance is terminated the disks
+     disappear. Block storage system is a type of persistent storage
+     that can be used to persist data beyond the life of the
+     instance. Cinder provides users with access to persistent
+     block-level storage devices. It is designed such that users can
+     create block storage devices on demand and attach them to any
+     running instances of OpenStack Compute :cite:`book-Cinder`. This
+     is achieved through the use of either a reference
+     implementation(LVM) or plugin drivers for other storage. Cinder
+     virtualizes the management of block storage devices and provides
+     end users with a self-service API to request and consume those
+     resources without requiring any knowledge of where their storage
+     is actually deployed or on what type of device
+     :cite:`wiki-Cinder`.
      
 291. Ceph
 
@@ -4097,6 +4199,18 @@ Interoperability
 ----------------------------------------------------------------------
 
 300. Libvirt
+
+     Libvirt is an open source API to manage hardware virtualization 
+     developed by Red Hat.  It is a standard C library but has
+     accessibility from other languages such as Python, Perl, Java 
+     and others. :cite:`www-libvirt` Multiple virtual machine
+     monitors(VMM) or hypervisors are supported such as KVM,QEMU, 
+     Xen, Virtuozzo, VMWare ESX, LXC, and BHyve.  It can be divided
+     into five categories such as hypervisor connection, domain, 
+     network, storage volume and pool.   :cite:`www-ibm`  It is accessible 
+     by many operating systems such as Linux, FreeBSD, Mac OS, and 
+     Windows OS.
+     
 301. Libcloud
 
      :cite::`www-libcloudwiki` Libcloud is a python library that
@@ -4221,6 +4335,27 @@ Interoperability
      removed from the next major version  :cite:`edmonds-metsch-2016`.
 	 
 305. CDMI
+
+     The Storage Networking Industry Association (SNIA)
+     :cite:`www-sniawebsite` is a non-profit organization formed by
+     various companies, suppliers and consumers of data storage and
+     network products. SNIA defines various standards to ensure the
+     quality and interoperability of various storage systems. One of
+     the standards defined by SNIA to for providers and users of cloud
+     is Cloud Data Management Interface (CDMI). According latest issue
+     of CDMI :cite:`cdmi-manual`, "CDMI International Standard is
+     intended for application developers who are implementing or using
+     cloud storage. It documents how to access cloud storage and to
+     manage the data stored there." It defines functional interface
+     for applications that will use cloud for various functionalities
+     like create, retrieve, update and delete data elements from the
+     cloud. These interface could be used to manage containers along
+     with the data. The interface could be used by administrative and
+     management applications as well. Also, the CDMI specification
+     uses RESTful principles in the interface design. All the
+     standards issued on CDMI can be found on SNIA web page
+     :cite:`www-cdmiwebsite`.
+     
 306. Whirr
 307. Saga
 
@@ -4515,6 +4650,27 @@ DevOps
      in each layer of AWS OpsWorks Stacks :cite:`www-awsopsworks`.
 
 328. OpenStack Ironic
+
+     Ironic :cite:`www-ironicwebsite` project is developed and
+     supported by OpenStack. Ironic provisions bare metal machines
+     instead of virtual machines and functions as hypervisor API that
+     is developed using open source technologies like Preboot
+     Execution Environment (PXE), Dynamic Host Configuration Protocol
+     (DHCP), Network Bootstrap Program (NBP), Trivial File Transfer
+     Protocol (TFTP) and Intelligent Platform Management Interface
+     (IPMI). A properly configured Bare Metal service with the Compute
+     and Network services, could provision both virtual and physical
+     machines through the Compute service’s API. But, the number of
+     instance actions are limited, due to physical servers and switch
+     hardware. For example, live migration is not possible on a bare
+     metal instance. The Ironic service has five key components. A
+     RESTful API service, through which other components would
+     interact with the bare metal servers, a Conductor service,
+     various drivers, messaging queue and a database. Ironic could be
+     integrated with other OpenStack projects like Identity
+     (keystone), Compute (nova), Network (neutron), Image (glance) and
+     Object (swift) services.
+     
 329. Google Kubernetes
 
      Google Kubernetes is a cluster management platform developed by
@@ -4708,11 +4864,11 @@ IaaS Management from HPC to hypervisors
 341. QEMU
      
      QEMU (Quick Emulator) is a generic open source hosted hypervisor
-     :cite:`WWW-Hypervisor` that performs hardware virtualization
+     :cite:`www-hypervisor` that performs hardware virtualization
      (virtualization of computers as complete hardware platform,
      certain logical abstraction of their componentry or only the
      certain functionality required to run various operating systems)
-     :cite:`WWW-QEMU` and also emulates CPUs through dynamic binary
+     :cite-`www-qemu` and also emulates CPUs through dynamic binary
      translations and provides a set of device models, enabling it to
      run a variety of unmodified guest operating systems.
      
@@ -4722,7 +4878,7 @@ IaaS Management from HPC to hypervisors
      translations.  When used as a virtualizer, QEMU achieves near native
      performance by executing the guest code directly on the host CPU. QEMU
      supports virtualization when executing under the Xen hypervisor or
-     using KVM kernel module in Linux :cite:`WWW-QEMUWiki`.
+     using KVM kernel module in Linux :cite:`www-qemuwiki`.
 
      Compared to other virtualization programs like VMWare and VirtualBox,
      QEMU does not provide a GUI interface to manage virtual machines nor
@@ -4940,6 +5096,25 @@ IaaS Management from HPC to hypervisors
      
      
 355. vSphere and vCloud
+
+     vSphere was developed by VMware and is a cloud computing 
+     virtualization platform. :cite:`www-vmware`  vSphere is not
+     one piece of software but a suite of tools that contains software 
+     such as vCenter, ESXi, vSphere client and a number of other 
+     technologies.  ESXi server is a type 1 hypervisor on a physical 
+     machine of which all virtual machines are installed.  
+     The vSphere client then allows administrators to connect to 
+     the ESXi and manage the virtual machines.  The vCenter server 
+     is a virtual machine that is also installed on the 
+     ESXi server which is used in environments when multiple ESXi 
+     servers areexist.  Similarly, vCloud is also a suite of 
+     applications but for establishing an infrastructure for a 
+     private cloud. :cite:`www-mustbegeek`  The suite includes the 
+     vsphere suite, but also contains site recovery management for 
+     disaster recovery,  site networking and security.  Additionally, 
+     a management suite that can give a visual of the infrastructure 
+     to determine where potential issues might arise.
+     
 356. Amazon
 
      Amazon’s AWS (Amazon Web Services) is a provider of Infrastructure 
@@ -5317,7 +5492,37 @@ New Technologies to be integrated
      or Web application (and most mobile devices) can be configured to route its traffic
      through Fiddler :cite:`www-fiddler`.
 
-384. TBA
+384. Zeppelin
+
+     Apache Zeppelin :cite:`www-zeppelinwebsite` provides an
+     interactive environment for big data data analytics on
+     applications using distributed data processing systems like
+     Hadoop and Spark. It supports various tasks like data ingestion,
+     data discovery, data visualization, data analytics and
+     collaboration. Apache Zeppelin provides built-in Apache Spark
+     integration and is compatible with many languages/data-processing
+     backends like Python, R, SQL, Cassandra and JDBC. It also
+     supports adding new language backend. Zeppelin also lets users to
+     collaborate by sharing their Notebooks, Paragraph and has option
+     to broadcast any changes in realtime.
+
+385. Open MPI 
+
+     The Open MPI Project :cite:`www-open-mpi` is an open
+     source Message Passing Interface implementation that is developed
+     and maintained by a consortium of academic, research, and
+     industry partners. Open MPI is therefore able to combine the
+     expertise, technologies, and resources from all across the High
+     Performance Computing community in order to build the best MPI
+     library available. Open MPI offers advantages for system and
+     software vendors, application developers and computer science
+     researchers. Open MPI :cite:`open-mpi-paper-2004` provides
+     functionality that has not previously been available in any
+     single, production-quality MPI implementation, including support
+     for all of MPI-2, multiple concurrent user threads, and multiple
+     options for handling process and network failures.
+
+386. TBA
 
 
 .. _techs-exercise:
