@@ -1500,6 +1500,26 @@ High level Programming
 ----------------------------------------------------------------------
 
 104. Kite
+
+     Kite is a programming language designed to minimize the required
+     experience level of the programmer.  It aims to allow quick
+     development and running time and low CPU and memory usage. Kite
+     was designed with lightweight systems in mind.  On OS X Leopard,
+     the main Kite library is only 88KB, with each package in the
+     standard library weighing in at 13-30KB. The main design
+     philosophy is minimalism — only include the minimum necessary,
+     while giving developers the power to write anything that they can
+     write in other languages. Kite combines both object oriented and
+     functional paradigms in the language syntax.  One special feature
+     is its use of the pipe character (|) to indicate function calls,
+     as opposed to the period (.) or arrow (->) in other languages.
+     Properties are still de-referenced using the period
+     :cite:`kite-devtopics`. Kite also offers a digital assistant for
+     programmers. Kite offers a product which sits as a sidebar in
+     code editor and enables programmers to search for opensource
+     codes to implement in their codes. It even provides relavant
+     examples/syntax and also tries to spot errors in the programs
+     :cite:`kite-wired`.
 105. Hive
 106. HCatalog
 107. Tajo
@@ -3880,6 +3900,23 @@ Cluster Resource Management
      
 279. SGE
 280. OpenPBS
+
+     Portable Batch System (or simply PBS) is the name of computer
+     software that performs job scheduling. Its primary task is to
+     allocate computational tasks, i.e., batch jobs, among the
+     available computing resources. It is often used in conjunction
+     with UNIX cluster environments :cite:`openpbs-wiki`. OpenPBS is
+     the original open source version of PBS. There are more
+     commercialized versions of the same software. One of the key
+     feature of OpenPBS is that it supports millions of cores with
+     fast job dispatch and minimal latency. It meets unique site goals
+     and SLAs by balancing job turnaround time and utilization with
+     optimal job placement. OpenPBS also includes automatic fail-over
+     architecture with no single point of failure – jobs are never
+     lost, and jobs continue to run despite failures. It is built upon
+     a Flexible Plugin Framework which simplifies administration with
+     enhanced visibility and extensibility :cite:`openpbs-www`.
+
 281. Moab
 282. Slurm :cite:`www-slurm`
 
