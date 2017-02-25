@@ -234,6 +234,23 @@ Workflow-Orchestration
     or allows triggering actions when files arrive at HDFS. Also supported by
     Hadoop vendors :cite:`paper-Oozie`.
 17. Tez
+
+	Apache Tez is application framework build for writing native YARN application 
+	in Apache Hadoop. It provides architecture which allows user to convert complex 
+	computation as dataflow graphs	and the distributed engine to handle the directed
+	acyclic graph for processing large amount of data.It is used by the Apache Hive, Pig 
+	as execution engine to increase the performance of map reduce functionality. :cite:`www-apache-tez`
+
+	Tez is client side application providing benefits to the end user like 
+		Better application performance.
+		Better result predictions.
+		Optimum use of compute capability.
+		Efficient use of allocated resources.
+		Reduction in HDFS load and network usage.
+		Better locality and data transfer.
+	
+	Tez provides DAG API's and Runtime API's to define the processing. 
+
 18. Google FlumeJava
 19. Crunch
 
@@ -4738,6 +4755,15 @@ DevOps
      of OpenStack Dashboard.
 
 323. Rocks
+	
+	:cite:`www-rockscluster` Rocks provides open cluster distribution solution is build targeting 
+	the scientist with less cluster experience to ease the process of deployment,managing,upgrading 
+	and scaling high performance parallel computing cluster.  
+	It was initially build on linux however the latest version Rocks 6.2 Sidewinder is also available on CentOS.
+	Rocks can help create a cluster in few days with default configuration and software packages. 
+	Rocks distribution package comes with high-performance distributed and parallel computing tools.
+	It is used by NASA, the NSA , IBM Austin Research LAB, US Navy and many other institution for their projects.	
+	
 324. Cisco Intelligent Automation for Cloud
 
      Cisco Intelligent automation for cloud desires to help different
