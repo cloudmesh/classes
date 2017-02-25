@@ -1584,7 +1584,7 @@ High level Programming
      Data Scientists when working on huge data sets try to extract
      meaning and interpret the data to enhance insight about the
      various patterns, oppurtunities and possiblities that the dataset
-     has to offer. :cite: 'shark-paper-2012' At a traditional
+     has to offer. :cite: `shark-paper-2012` At a traditional
      EDW(Enterprrise Data Warehouse) a simple data manipulation can be
      perfpormed using SQL queries but we have to rely on other systems
      to apply the machine learning on thoese data.Apache Shark is a
@@ -1593,7 +1593,7 @@ High level Programming
      manipulation using SQL and pushing sophisticated analysis towards
      the data.
 
-     :cite:'shark-paper-2012' Shark is a data Warehouse system built
+     :cite: `shark-paper-2012` Shark is a data Warehouse system built
      on top of Apache Spark which does the parallel data execution and
      is capable of deep data analysis using the Resilient Distributed
      Datasets(RDD) memory abstraction which unifies the SQL query
@@ -1604,11 +1604,11 @@ High level Programming
      more data or faster query processing thus it can be scaled to
      thoushands o nodes in a fault-toleranat manner
 
-     :cite:'shark-paper-2012' "Shark is built on Hive Codebase and it
+     :cite: `shark-paper-2012` "Shark is built on Hive Codebase and it
      has the ability to execute HIVE QL queries up to 100 times faster
      than Hive without making any change in the existing
      queries". Shark can run both on the StandAlone Mode and Cluster
-     Mode.:cite:'shark-paper-2012' Shark can answer the queries 40X
+     Mode. :cite: `shark-paper-2012` Shark can answer the queries 40X
      faster than Apache Hive and can machine learning programs 25X
      faster than MapReduce programmes. in Apache hadoop on large data
      sets.Thus, this new data analysis system performs query
@@ -5678,6 +5678,24 @@ New Technologies (To Be Integrated by the AIs)
      AIX or SOLARIS etc. It is basically an integral part of many java
      based web application.
 
+386. Apache Beam       
+
+     Apache Beam attempts to abstract away the need to write
+     code for multiple data-oriented workflows, e.g., batch, interactive and
+     streaming, as well as multiple big data tools, e.g., Storm, Spark and 
+     Flink.  Instead, Beam attempts to automagically map a dataflow process 
+     written in Java or Python to the target runtime environment via *runners*.
+     As a result, switching a data processing routine from Spark to Flink only 
+     requires changing the target runtime environment as opposed to re-writing 
+     the entire process :cite:`www-infoworld-apachebeam` (perhaps in a 
+     completely different language).  Google contributed its Dataflow SDK, the 
+     Dataflow model and three runners :cite:`www-datanami-apachebeam` to the 
+     Apache Software Foundation in the first half of 2016.  The ASF elevated
+     Beam to a Top-Level project in January 2017.  Jean-Baptiste Onofre of 
+     French tech company Talend, and a frequent Apache project contributor, 
+     champions the project. :cite:`www-talend-apachebeam`  It should be grouped
+     with the technologies in the *Interoperability* section.
+
 .. _techs-exercise:
 
 Excersise
@@ -5747,11 +5765,11 @@ TechList.1.b: Identify how to cite. We are using "scientific" citation
   history paper.
 
 TechList 1.c:
-  Learn about Plagearism and how to avoid it.
+  Learn about plagiarism and how to avoid it.
   Many Web pages will conduct self advertisement while adding
   suspicious and subjective adjectives or phrases such as cheaper,
   superior, best, most important, with no equal, and others that you
-  may not want to copy into your descriptions. Please focus on facts
+  may not want to copy into your descriptions. Please focus on facts,
   not on what the author of the Web page claims.
 
 TechList 1.d:
@@ -5769,15 +5787,14 @@ TechList 1.d:
 
 TechList.2:
   In this hopweork we provide you with additional technologies that
-  you need to compleate They are marked with (2) in the :doc:`HID
+  you need to complete. They are marked with (2) in the :doc:`HID
   Assignment page <hids-techs>`.
 
-TechList.3:
-  Identify technologies that are not listed here and add
-  them. Provide a description and a refrence just as you did before.
-  Make sure duplicated entries will be merged. Before you start doing a
-  technology to avoid adding technologies that have already been done by
-  others.
+TechList.3:   
+  Identify technologies that are not listed here and add   them.
+  Provide a description and a reference just as you did before. Before you
+  add a technology, verify that it is not on the **new technologies** list
+  already.  Duplicated entries will be merged.
 
 Open Discussion:
   For useful information on how to correctly create BibTeX entries,
