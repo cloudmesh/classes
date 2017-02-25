@@ -1,14 +1,26 @@
 .. _cm_install_:
 
-Installing Cloudmesh Client on Ubuntu 16.04
-===========================================
+Cloudmesh Client on Ubuntu 16.04
+================================
 
-First install cloudmesh client using pip and make sure you
-install the latest updates.
+In this class we will be accessing for several projects multiple
+clouds. This could pose a significant development issue for some in
+the class. to simplify access we introduce you to one method that we
+recommend for this class. We will be using a project called
+cloudmesh_client that allows users to easily access multiple clouds
+from the commandline. Switching between clouds can be achieved with one
+variable. The advantages include:
 
-Step 1 : Installation Cloudmesh Client
---------------------------------------
-Install cloudmesh client using pip ::
+* access to another cloud in case of failure
+* relocation of experiments to see if they are robust
+* performance benchmarking to compare clouds.
+  
+
+Installation
+------------
+
+First, let us install cloudmesh client using pip and make sure you
+install the latest updates. Install cloudmesh client using pip ::
 
   $ pip install -U cloudmesh_client
 
@@ -17,16 +29,15 @@ It will show a terminal in the following way.
 
 ::
 
-  $ cm>
+  $ cm
 
-Step 2 : Setting Up Profile
----------------------------
+  
+Setting Up
+----------
 
-Now cloudmesh is installed locally. In order to run a virtual
-machine in chameleon cloud, there are few configurations that
-has to be done.
-
-You can find the configuration information in the following
+Now cloudmesh is installed locally. In order to run a virtual machine
+in chameleon cloud, there are few configurations that have to be
+done. You can find the configuration information in the following
 location.
 
 http://cloudmesh.github.io/client/configuration.html
@@ -64,8 +75,8 @@ This must be filled when working on Cloudmesh set up.
 And this can be found in the configuration file in cm- yaml file.
 
 
-Step 3 :Setting Up Chameleon Cloud
------------------------------------
+Setting Up Chameleon Cloud
+--------------------------
 
 In the cloudmesh.yaml file, set chameleon cloud as the active cloud
 as shown below. Locate the attribute value in the::
@@ -115,60 +126,66 @@ machines.
 http://cloudmesh.github.io/client/configuration.html#chameleon-cloud
 
 
-Step 4 : Setting Up Virtual Machine
------------------------------------
+Preaparing for Chameleon Access
+-------------------------------
 
-Run the following commands one by one.
-
-First set up chameleon as the default cloud.
-::
+To create a virtual machine we need first to make sure we start it on
+chamelon cloud. This we need to set the default cloud to be chameleon
+with the following command::
 
    $ cm default cloud=chameleon
 
-Information about the configurations can be retrieved by the following command::
+Information about the configuration of cloudmesh can be retrieved by
+the following command::
 
   $cm info
 
-Then add the ssh key to the cloudmesh database by running the following command.
-And make sure, you have already generated a ssh key and the same ssh key will be
-added to the database::
+Next we need to add the ssh key to the cloudmesh database by running
+the following command.  Make sure you have already generated a
+ssh key with ssh-keygen. The command will add the default id_rsa.pub
+key to a local database. 
 
    $ cm key add --ssh
 
-Upload the key to the chameleon cloud::
+Not that the key is in our local cloudmesh database, we need to upload
+it to all active clouds. As we have just one active cloud it will
+uploade the key to the chamelon cloud once you execute the command::
 
    $ cm key upload
 
-Upload the security group to the chameleon cloud::
+Furthermore, we must be able to communicate with the
+virtualmachines. To communicate which ports we use we execute the
+secgroup command. To just use the defaults we execute the command::
 
    $ cm secgroup upload
 
+To see the details of the secgropus please use the command::
 
-Step 5 : Boot Virtual Machine
------------------------------
+   
+   $ cm secgroup list
+   
+   
+Boot Virtual Machine
+--------------------
 
 Run the following command to boot the virtual machine::
 
    $ cm vm boot
 
+To see all vms just use the command::
 
-Additional Info:
-You can run the following commands to view the security groups
-and virtual machines running::
-
-   $ cm secgroup list
    $ cm vm list
 
 
-Step 6 : Run Virtual Machine
-----------------------------
+Login to the vm
+---------------
 
-Execute the following command to run the virtual machine.
-First assign a floating ip::
+To login to the vm you need to have a publicly available (floating) ip. This
+can be achieved with the command::
 
    $ cm vm ip assign
 
-Run the virtual machine::
+You can after this command has succeed login to the vm with the command::
 
    $ cm vm ssh
 
@@ -176,9 +193,18 @@ After a successful launch it will show a similar console as shown below::
 
    cc@hostname$-
 
+.. warning:: Many errors could occur that are unrelated to cloudmesh
+	     client. Such errors could include network interruptions,
+	     resource starvation of cloudmesh, while either no vms
+	     can be started, they are out of ip addresses, ir they
+	     have a maintenance day. Please do not blame cloudmesh for
+	     such issues and explore first if they originate through
+	     such issues.
 
+   
 Step 7 : Remove Virtual Machine
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 To delete a virtual machine, run the following command::
 
    $ cm vm delete <name_of_vm>
@@ -187,9 +213,14 @@ Example::
 
    $ cm vm delete vibhatha-001
 
-.. note:: No inside directories, just create everything in the home directory.
-          Or a work directory in the home directory. Make sure work in the same
-          directory when executing commands. And make sure you are in the right directory
-          when you are executing commands. We do this in order to minimize complications
-          and add the correct cloudmesh.yaml file for the task.You should edit the right way.
-          (never use cd when doing this)
+It is important that you delete or terminate the vm after you are done
+as chameleon cloud has a limited set of resources. we recommend that
+you do not keep a vm up for more than 6 hours. Please be aware when
+you delete a vm everything on that vm is deleted. hence we recommend
+you to make appropriate backups of the content in the vm and have
+scripts via ansible to recreate your softwarstack. 
+	  
+Exercise
+--------
+
+cloudmesh.1: install cloudmesh, create a vm and delete it

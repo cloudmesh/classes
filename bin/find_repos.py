@@ -1,19 +1,21 @@
-"""Usage: python find_repos.py [-h] RAW_LOG_FILE
+'''Usage: find_repos [-h] RAW_LOG_FILE
 
 List all repos from which pull requests were generated from and the
 datetime of the last pull request.
 
 Arguments:
-  RAW_LOG_FILE  A file containing the output of 'git log --raw'
+  RAW_LOG_FILE  A file containing the output of "git log --raw"
 
 Options:
   -h --help
 
-"""
+'''
+
 from __future__ import print_function, division
 import os, re
 from docopt import docopt
 from dateutil import parser
+from datetime import datetime
 
 P = r'Merge pull request #\d+ from (.+/.+)'
 
@@ -40,5 +42,7 @@ if __name__ == '__main__':
 						if curr_date > repos[repo]:
 							repos[repo] = curr_date
 
-	for repo, last_pr in repos.items():
-		print(repo, last_pr)
+	print('\n'.join([
+		'%s: %r' % (repo, datetime.strftime(dt, '%Y/%m/%d'))
+		for (repo, dt) in sorted(repos.items())
+	]))

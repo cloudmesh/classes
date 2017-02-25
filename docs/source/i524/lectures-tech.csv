@@ -38,4 +38,3 @@ Cluster.1, HPC Queuing System, :doc:`Web page <../lesson/tech/hpc>`,,NO
 Docker.1, Docker Basics, :doc:`Web page <../lesson/tech/docker>` ,,NO
 VM.1, VM Software - Vagrant, :doc:`Web page <../lesson/tech/vagrant>`, ,NO
 X.Hadoop.x, Hadoop MRv2, `Web page <http://cloudmesh.github.io/introduction_to_cloud_computing/class/lesson/cluster/hadoop2.html#ref-class-lesson-hadoop2>`_ ,,NO
-Cloudmesh Client,Cloudmesh Client Installation,  `Video <https://www.youtube.com/watch?v=R50IQYhr-vg>`_,   0:23:04,NO

@@ -26,4 +26,13 @@ commercial services.
    openstack
    azure
    
+IU
+--
 
+Indiana University maintains some compute resources that you can use
+for classes. 
+
+.. toctree::
+   :maxdepth: 2
+
+   iu

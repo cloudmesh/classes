@@ -1301,6 +1301,34 @@ Application Hosting Frameworks
     
 
 85. AWS Elastic Beanstalk
+
+    :cite: `www-amazon elastic beanstalk` AWS Elastic Beanstalk is an
+    orchestration service offered from Amazon Web Services which
+    provides user with a platform for easy and quiclk deployment of
+    their WebApps and services. :cite: `amazon elastic beanstalk-book`
+    Amazon Elastic BeanStack automatically handles the deployement
+    details of capacity provisioning by Amazon Cloud Watch, Elastic
+    Load Balancing, Auto-scaling, and application health monitoring of
+    the WebApps and service. AWS Management Console allows the users
+    to configure an automatic scaling mechanism of AWS Elastic
+    Beanstalk. Elastic Load Balancing enables a load balancer,which
+    automatically spreads load across all running instances in an
+    auto-scaling group based on metrics like request count and latency
+    tracked by Amazon CloudWatch. Amazon CloudWatch tracks and stores
+    per-instance metrics, including request count and latency, CPU and
+    RAM utilization. Elastic Beanstalk supports applications developed
+    in Java, PHP, .NET, Node.js, Python, and Ruby, as well as
+    different container types for each language such as Apache Tomcat
+    for Java applications, Apache HTTP Server for PHP applications
+    Docker, GO and many more for specific languanges where the
+    container defines the infrastructure and softwarestack to be used
+    for a given enviorment.:cite: `www-amazon elastic beanstalk` "AWS
+    Elastic Beanstalk runs on the Amazon Linux AMI and the Windows
+    Server 2012 R2 AMI. Both AMIs are supported and maintained by
+    Amazon Web Services and are designed to provide a stable, secure,
+    and high-performance execution environment for Amazon EC2 Cloud
+    computing."
+
 86. Azure
 
     Microsoft Corporation (MSFT) markets its cloud products under the
@@ -1517,6 +1545,26 @@ High level Programming
 ----------------------------------------------------------------------
 
 104. Kite
+
+     Kite is a programming language designed to minimize the required
+     experience level of the programmer.  It aims to allow quick
+     development and running time and low CPU and memory usage. Kite
+     was designed with lightweight systems in mind.  On OS X Leopard,
+     the main Kite library is only 88KB, with each package in the
+     standard library weighing in at 13-30KB. The main design
+     philosophy is minimalism — only include the minimum necessary,
+     while giving developers the power to write anything that they can
+     write in other languages. Kite combines both object oriented and
+     functional paradigms in the language syntax.  One special feature
+     is its use of the pipe character (|) to indicate function calls,
+     as opposed to the period (.) or arrow (->) in other languages.
+     Properties are still de-referenced using the period
+     :cite:`kite-devtopics`. Kite also offers a digital assistant for
+     programmers. Kite offers a product which sits as a sidebar in
+     code editor and enables programmers to search for opensource
+     codes to implement in their codes. It even provides relavant
+     examples/syntax and also tries to spot errors in the programs
+     :cite:`kite-wired`.
 105. Hive
 106. HCatalog
 107. Tajo
@@ -2725,6 +2773,25 @@ Object-relational mapping
 
 192. Hibernate
 193. OpenJPA
+
+     According to `cite`:www-openjpa, Apache OpenJPA is a Java
+     persistence project developed by The Apache Software Foundation that
+     can either be used as Plain old Java Object (POJO) or could be used in
+     any Java EE compliant containers.It provides object relational mapping
+     which effectively simplifies the storing of relational dependencies
+     among objects in databases. According to `cite`:www-openjpa-wiki,
+     Kodo, an implementation of Java Data Objects acted as a precursor to
+     the development of OpenJPA. In 2006, BEA Systems donated the majority
+     of the source code of Kodo to The Apache Software Foundation under the
+     name OpenJPA. Being a POJO, OPenJPA can be used without needing to
+     extend prespecified classes, implementing predefined interfaces and
+     inclusion of annotations. OPenJPA can be used in cases where the focus
+     of the project is majorly on business logic and has no dependencies on
+     enterprise frameworks.OPenJPA can be implemented across multiple
+     operating systems, on account of its function of cross platform
+     support. It is written in Java and a most recent stable release came
+     out in April 20, 2016 under the version 2.4.1 with Apache License 2.0.
+
 194. EclipseLink
 
      EclipseLink is an open source persistence Services project from Eclipse
@@ -3857,6 +3924,38 @@ Cluster Resource Management
 274. Llama
 275. Google Omega
 276. Facebook Corona
+
+     Corona is a new scheduling framework developed by facebook which
+     seperates the cluster resource management from Job coordination.
+     Facebook employed the MapReduce implementation from Apache Hadoop
+     since 2011 for job scheduling.The scheduling MapReduce framework
+     has it's limitations with the scalibility as when the number of
+     jobs at facebook grew in the next few years.:cite: `www-facebook
+     corona` Another limitation of Hadoop was it was a pull-based
+     scheduling model as the task trackerhave to provide a heartbeat
+     to the job tracker to indicate that it is running which
+     associates with a pre-defined delay,that was problematic for
+     small jobs. Hadoop MapReduce is also constrained by its static
+     slot-based resource management model where a MapReduce cluster is
+     divided into a fixed number of map and reduce slots based on a
+     static configuration – so slots are wasted anytime the cluster
+     workload does not fit the static configuration.
+
+     :cite:`www-facebook corona`Corona improves over the Hadoop
+     MapReduce by introducing a cluster manager whose only purpose is
+     to track the nodes in the cluster and the amount free
+     resources. A dedicated job tracker is created for each job, and
+     can run either in the same process as the client (for small jobs)
+     or as a separate process in the cluster (for large jobs). The
+     other difference is it uses a push-based scheduling whoese
+     implementation does not involve a periodic heartbeat and thus
+     scheduling latency is minimized. The cluster manager also
+     implements a fair-share scheduling as it has access to the full
+     snapshot of the cluster for making the scheduling decsions.Corona
+     is used as an integeral part of the Facebook's data
+     infrastructure and is helping power big data analytics for teams
+     across the company.
+     
 277. Celery
 
      "Celery is an asynchronous task queue/job queue based on
@@ -3896,7 +3995,50 @@ Cluster Resource Management
 
      
 279. SGE
+
+     According to `cite`:www-sge-wiki, Sun Grid Engine (SGE) renamed
+     to Oracle Grid Engine (OGE) is a grid computing cluster software
+     system. Grid Engine is a high performance computing cluster used
+     for managing job queueing in distributed and parallel
+     environment. It can accept, schedule, dispatch and manage the
+     execution of single, parallel user jobs in a remote or
+     distributed manner. It also manages the resource allocation to
+     those jobs. The resources can be anything like processors,
+     storage, RAM and licenses for softwares. The latest stable
+     release of OGE is termed as 6.2u8 which came out in October
+     1,2012.
+
+     OGE supports a vast array of features like: Topology-aware scheduling
+     and thread binding, advanced fault tolerance mechanisms for job
+     scheduling, web interface based status reporting and ability to use
+     different scheduling algorithms,etc. OGE runs on several platforms
+     including AIX, BSD, Linux, Solaris, OS X, Tru64, Windows, etc. It is
+     under delpoyment phasae for IBM's 64-bit operating system
+     z/OS. Standard Grid cluster comprises of one master host and many
+     execution hosts. There is a option of creating shadow master hosts
+     which would take the master's place incase of a system crash. Notable
+     deployments of OGE include: TSUBAME supercomputer at the Tokyo
+     Institute of Technology,Ranger at the Texas Advanced Computing Center
+     (TACC) and San Diego Supercomputer Center (SDSC).
+
 280. OpenPBS
+
+     Portable Batch System (or simply PBS) is the name of computer
+     software that performs job scheduling. Its primary task is to
+     allocate computational tasks, i.e., batch jobs, among the
+     available computing resources. It is often used in conjunction
+     with UNIX cluster environments :cite:`openpbs-wiki`. OpenPBS is
+     the original open source version of PBS. There are more
+     commercialized versions of the same software. One of the key
+     feature of OpenPBS is that it supports millions of cores with
+     fast job dispatch and minimal latency. It meets unique site goals
+     and SLAs by balancing job turnaround time and utilization with
+     optimal job placement. OpenPBS also includes automatic fail-over
+     architecture with no single point of failure – jobs are never
+     lost, and jobs continue to run despite failures. It is built upon
+     a Flexible Plugin Framework which simplifies administration with
+     enhanced visibility and extensibility :cite:`openpbs-www`.
+
 281. Moab
 282. Slurm :cite:`www-slurm`
 
@@ -5483,11 +5625,12 @@ Message and Data Protocols
      Google and available under open source licensing. The parser
      program is available in many languages including java and python.
 
+.. _new-techs:
 
-New Technologies to be integrated
----------------------------------
+New Technologies (To Be Integrated by the AIs)
+----------------------------------------------
 
-382. Snort
+381. Snort
 
      :cite:`www-snort` Snort is a Network Intrusion Prevention System (NIPS) and
      Network Intrusion Detection System (NIDS). Snort's open source network-based
@@ -5507,7 +5650,7 @@ New Technologies to be integrated
      defined by the user. The program will then perform a specific action based on
      what has been identified.
 
-383. Fiddler
+382. Fiddler
 
      Fiddler is an HTTP debugging proxy server application. Fiddler captures HTTP   
      and HTTPS traffic and logs it for the user to review by implementing
@@ -5518,7 +5661,7 @@ New Technologies to be integrated
      or Web application (and most mobile devices) can be configured to route its traffic
      through Fiddler :cite:`www-fiddler`.
 
-384. Zeppelin
+383. Zeppelin
 
      Apache Zeppelin :cite:`www-zeppelinwebsite` provides an
      interactive environment for big data data analytics on
@@ -5532,7 +5675,7 @@ New Technologies to be integrated
      collaborate by sharing their Notebooks, Paragraph and has option
      to broadcast any changes in realtime.
 
-385. Open MPI 
+384. Open MPI 
 
      The Open MPI Project :cite:`www-open-mpi` is an open
      source Message Passing Interface implementation that is developed
@@ -5548,8 +5691,18 @@ New Technologies to be integrated
      for all of MPI-2, multiple concurrent user threads, and multiple
      options for handling process and network failures.
 
-386. TBA
+385. Apache Tomcat
 
+     Apache tomcat is an open source java servlet
+     container. :cite:`www-tomcat-official` It is used in IT industry
+     as a HTTP web server which listens to the requests made by web
+     client and send reponses. The main components of tomcat are
+     cataline, coyote and jasper. The most stable version of Apache
+     Tomcat server is version 8.5.11. Apache tomcat is released under
+     Apache License version 2. :cite:`www-tomcat-wiki` As it is cross
+     platform, it can run in any platform or OS like Windows, UNIX,
+     AIX or SOLARIS etc. It is basically an integral part of many java
+     based web application.
 
 .. _techs-exercise:
 
@@ -5628,15 +5781,22 @@ TechList 1.c:
   not on what the author of the Web page claims.
 
 TechList 1.d:
-  Identify technologies from the Apache project or other
-  Big Data related Web pages and projects that are not yet listed here
-  and add the name and descriptions as well as references and that you
-  find important.
+  Identify technologies from the `Apache Project
+  <https://projects.apache.org/>`_ or other Big Data related Web pages
+  and projects that are not yet listed here. Add them at the end of
+  the Technologies page under the :ref:`New Technologies <new-techs>`
+  section, together with a description and appropriate references just
+  like you did for your list of technologies in TechList 1a-1c. As
+  part of your paragraph, please suggest a section where you think is
+  best to add the technologies. Once the new technologies have been
+  submitted, the AIs will integrate them in the appropriate
+  sections. Please, only add new techs to the last section, otherwise
+  it will be easy to introduce conflicts in the file.
 
 TechList.2:
-  In this hopweork we provide you with additional technologies
-  that you need to compleate They are marked with (2) in the HID
-  assignment.
+  In this hopweork we provide you with additional technologies that
+  you need to compleate They are marked with (2) in the :doc:`HID
+  Assignment page <hids-techs>`.
 
 TechList.3:
   Identify technologies that are not listed here and add
@@ -5645,8 +5805,10 @@ TechList.3:
   technology to avoid adding technologies that have already been done by
   others.
 
-
-
+Open Discussion:
+  For useful information on how to correctly create BibTeX entries,
+  see and contribute to :ref:`these open discussion threads Piazza
+  <bibtex-discussions>`.
 
 References
 ----------
