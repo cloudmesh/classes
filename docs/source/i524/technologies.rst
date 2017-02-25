@@ -5560,9 +5560,7 @@ New Technologies (To Be Integrated by the AIs)
      for all of MPI-2, multiple concurrent user threads, and multiple
      options for handling process and network failures.
 
-385. *Add the next tech here.*
-
-     Apache Tomcat
+385. Apache Tomcat
 
      Apache tomcat is an open source java servlet
      container. :cite:`www-tomcat-official` It is used in IT industry
