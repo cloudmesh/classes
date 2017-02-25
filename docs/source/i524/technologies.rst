@@ -2728,6 +2728,25 @@ Object-relational mapping
 
 192. Hibernate
 193. OpenJPA
+
+     According to `cite`:www-openjpa, Apache OpenJPA is a Java
+     persistence project developed by The Apache Software Foundation that
+     can either be used as Plain old Java Object (POJO) or could be used in
+     any Java EE compliant containers.It provides object relational mapping
+     which effectively simplifies the storing of relational dependencies
+     among objects in databases. According to `cite`:www-openjpa-wiki,
+     Kodo, an implementation of Java Data Objects acted as a precursor to
+     the development of OpenJPA. In 2006, BEA Systems donated the majority
+     of the source code of Kodo to The Apache Software Foundation under the
+     name OpenJPA. Being a POJO, OPenJPA can be used without needing to
+     extend prespecified classes, implementing predefined interfaces and
+     inclusion of annotations. OPenJPA can be used in cases where the focus
+     of the project is majorly on business logic and has no dependencies on
+     enterprise frameworks.OPenJPA can be implemented across multiple
+     operating systems, on account of its function of cross platform
+     support. It is written in Java and a most recent stable release came
+     out in April 20, 2016 under the version 2.4.1 with Apache License 2.0.
+
 194. EclipseLink
 
      EclipseLink is an open source persistence Services project from Eclipse
@@ -3899,6 +3918,32 @@ Cluster Resource Management
 
      
 279. SGE
+
+     According to `cite`:www-sge-wiki, Sun Grid Engine (SGE) renamed
+     to Oracle Grid Engine (OGE) is a grid computing cluster software
+     system. Grid Engine is a high performance computing cluster used
+     for managing job queueing in distributed and parallel
+     environment. It can accept, schedule, dispatch and manage the
+     execution of single, parallel user jobs in a remote or
+     distributed manner. It also manages the resource allocation to
+     those jobs. The resources can be anything like processors,
+     storage, RAM and licenses for softwares. The latest stable
+     release of OGE is termed as 6.2u8 which came out in October
+     1,2012.
+
+     OGE supports a vast array of features like: Topology-aware scheduling
+     and thread binding, advanced fault tolerance mechanisms for job
+     scheduling, web interface based status reporting and ability to use
+     different scheduling algorithms,etc. OGE runs on several platforms
+     including AIX, BSD, Linux, Solaris, OS X, Tru64, Windows, etc. It is
+     under delpoyment phasae for IBM's 64-bit operating system
+     z/OS. Standard Grid cluster comprises of one master host and many
+     execution hosts. There is a option of creating shadow master hosts
+     which would take the master's place incase of a system crash. Notable
+     deployments of OGE include: TSUBAME supercomputer at the Tokyo
+     Institute of Technology,Ranger at the Texas Advanced Computing Center
+     (TACC) and San Diego Supercomputer Center (SDSC).
+
 280. OpenPBS
 
      Portable Batch System (or simply PBS) is the name of computer
@@ -5666,37 +5711,8 @@ TechList.3:
 
 Open Discussion:
   For useful information on how to correctly create BibTeX entries,
-  see and contribute to the following threads on Piazza.
-
-  .. _bibtex-discussions:
-
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 1: What is the entry for ... a Blog entry? <https://piazza.com/class/ix39m27czn5uw?cid=205>`_                     |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 2: What is the entry for ... a paper in a proceedings <https://piazza.com/class/ix39m27czn5uw?cid=206>`_          |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 3: What is the entry for ... a wikipedia entry? <https://piazza.com/class/ix39m27czn5uw?cid=207>`_                |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 4: What is the entry for ... a tech report? <https://piazza.com/class/ix39m27czn5uw?cid=208>`_                    |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 5: What is the entry for ... a w3 document? <https://piazza.com/class/ix39m27czn5uw?cid=209>`_                    |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 6: What is the entry for ... an article? <https://piazza.com/class/ix39m27czn5uw?cid=210>`_                       |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 7: What is the entry for ... a book? <https://piazza.com/class/ix39m27czn5uw?cid=211>`_                           |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 8: What is the entry for ... a github project? <https://piazza.com/class/ix39m27czn5uw?cid=212>`_                 |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 9: What is the entry for ... a Web page? <https://piazza.com/class/ix39m27czn5uw?cid=213>`_                       |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 10: What is my entry ... when it has different capitalization? <https://piazza.com/class/ix39m27czn5uw?cid=214>`_ |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 11: What is my entry for ... a proceedings? <https://piazza.com/class/ix39m27czn5uw?cid=215>`_                    |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 12: What is wrong? <https://piazza.com/class/ix39m27czn5uw?cid=222>`_                                             |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 13: How to cite StackOverflow and similar? <https://piazza.com/class/ix39m27czn5uw?cid=275>`_                     |
-  +------------------------------------------------------------------------------------------------------------------------------------+
+  see and contribute to :ref:`these open discussion threads Piazza
+  <bibtex-discussions>`.
 
 References
 ----------
