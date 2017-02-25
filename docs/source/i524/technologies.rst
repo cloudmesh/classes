@@ -2163,6 +2163,17 @@ Basic Programming model and runtime, SPMD, MapReduce
      :cite:`book-hama`.
      
 151. Giraph
+
+     Apache Giraph is an iterative graph processing system built for big
+     data :cite:`www-giraph-apache`.It utilizes Hadoop Mapreduce
+     technology for processing graphs :cite:`www-apache-giraph-wiki`
+     Giraph was initially developed by Yahoo based on the paper
+     published by Google on Pregel. :cite:`www-apache-giraph-pcworld`
+     Facebook with some improvements on Giraph could analyze real world
+     graphs up to a scale of a trillion.Giraph can directly interface
+     with HDFS and Hive ( As it's developed in
+     Java). :cite:`www-apache-giraph-fb`
+   
 152. Pregel
 153. Pegasus
 154. Ligra
@@ -2985,6 +2996,19 @@ SQL(NewSQL)
       
 209. Pivotal Greenplum
 210. Google Cloud SQL
+     
+     Google Cloud SQL is a fully managed data base as service
+     developed by Google where google manages the backup,patching and
+     replication of the databases etc
+     :cite:`www-cloud-sql-google`. Cloud SQL database aims at
+     developers to focus on app development leaving database
+     adminstitation to a minimum. This can be understood as 'My SQL
+     on Cloud' as most of the features from MySQL 5.7 are directly
+     supported in Cloud SQL. The service is offered with 'Pay per
+     use' providing the flexibility and 'better performance per
+     dollar'.  Cloud SQL is scalable up to 16 processor cores and
+     more than 100GB of RAM. :cite:`www-cloud-sql-google-faq`
+      
 211. Azure SQL
 212. Amazon RDS
 
