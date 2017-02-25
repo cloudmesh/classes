@@ -1,7 +1,9 @@
+:orphan:
+
 .. _paper1-hw:
 
 Paper 1 Homework
-=================================
+================
 
 .. note:: A video showing you how to get started on the paper is
           available on the `class YouTube account
@@ -55,7 +57,7 @@ Your paper should have an introduction and a conclusion, and use
 sections in the middle portion as needed to be easy to understand.
 
 Writing Style
-^^^^^^^^^^^^
+^^^^^^^^^^^^^
 Treat this as a scientific paper, so you should aim to inform and give
 a well-rounded overview of the subject matter. Do not use superlatives
 or adjectives that are more appropriate for an advertisement, such as
@@ -75,6 +77,7 @@ at paper C to make sure the claim is accurate and cite that paper.
   
 Submission
 ----------
+
 Submission of this assignment will be in Github as outlined
 above. Please, start early and raise any questions about the above
 process on Piazza and in the online office hours. Depending on how

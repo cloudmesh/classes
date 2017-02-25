@@ -1,4 +1,5 @@
-Ansible Advanced
+
+Ansible II: Roles
 ======================================================================
 
 In this example, we are going to install R package onto your cloud VMs. R is a useful statistic programing language commonly used in many scientific and statistics computing projects, maybe also the one you chose for this class.

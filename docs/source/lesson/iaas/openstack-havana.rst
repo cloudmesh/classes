@@ -1,3 +1,5 @@
+:orphan:
+
 .. _s-openstack-havana:
 
 OpenStack on FutureSystems

@@ -15,33 +15,30 @@ I523 Big Data Applications and Analytics
 
    overview
    course
-   faq
-   ../lessons/linux/refcards
+   /lesson/linux/refcards
    assignments/assignments
-   ../lesson/prg/gitlab
+   /lesson/prg/gitlab
    projects
 	      
 .. toctree::
    :caption: Python for Big Data
    :maxdepth: 2
 
-   ../lesson/prg/python_intro
-   ../lesson/prg/python_big_data
-   ../lesson/prg/python_lesson1   
+   /lesson/prg/python_intro
+   /lesson/prg/python_big_data
+   /lesson/prg/python_lesson1   
 
 .. toctree::
    :caption: Useful Tools and Tips
    :maxdepth: 2
 
-   driverslicense	      
    datasets
-   ../lesson/linux/refcards	     
-   ../lesson/linux/linux
-   ../lesson/doc/latex
-   ../lesson/doc/refmanager
-   ../lesson/linux/ubuntu
-   ../lesson/linux/ssh
-   ../lesson/linux/links
+   /lesson/linux/refcards	     
+   /lesson/linux/linux
+   /lesson/doc/latex
+   /lesson/linux/ubuntu
+   /lesson/linux/ssh
+   links
 
 .. toctree::
    :caption: APPENDIX
@@ -60,7 +57,5 @@ I523 Big Data Applications and Analytics
    :caption: Contributing
    :maxdepth: 2
 
-   ../lesson/contrib/contributing
-   todo
-   CHANGELOG    
+   /lesson/contrib/contributing
 

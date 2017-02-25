@@ -1,3 +1,5 @@
+:orphan:
+
 .. _windows-bash:
 
 Installing Bash on Windows

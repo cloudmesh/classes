@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ref-class-lesson-docker:
 
 Docker Basics on FutureSystems
@@ -190,12 +192,13 @@ The main tutorial from Docker is here:
 https://docs.docker.com/installation/ubuntulinux/
 
 
-.. comment::
+..
+  COMMENT
 
-        Next Step
-        -------------------------------------------------------------------------------
+  Next Step
+  -------------------------------------------------------------------------------
 
-        In the next lesson, we learn how to deploy Cloudmesh using Docker.
+  In the next lesson, we learn how to deploy Cloudmesh using Docker.
 
-        :ref:`Next Tutorial- Deploying Cloudmesh using Docker <ref-class-lesson-docker-with-cloudmesh>`
+  :ref:`Next Tutorial- Deploying Cloudmesh using Docker <ref-class-lesson-docker-with-cloudmesh>`
 

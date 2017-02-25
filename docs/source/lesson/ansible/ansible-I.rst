@@ -1,6 +1,5 @@
 
-
-Ansible
+Ansible I: Simplest Example
 ======================================================================
 
 Prerequisite
