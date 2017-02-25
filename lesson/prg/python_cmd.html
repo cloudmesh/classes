@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Basic Emacs &#8212; Big Data Classes</title>
+    <title>cmd Module &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -32,8 +32,8 @@
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="LaTeX" href="latex.html" />
-    <link rel="prev" title="Bibliography Management" href="bibtex.html" />
+    <link rel="next" title="Introduction to Python" href="python_intro.html" />
+    <link rel="prev" title="Python for Big Data" href="python_big_data.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -154,10 +154,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../ansible/index.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
@@ -265,7 +265,14 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Basic Emacs</a></li>
+<li><a class="reference internal" href="#"><cite>cmd</cite> Module</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#hello-world-with-cmd"><em>Hello, World</em> with <cite>cmd</cite></a></li>
+<li><a class="reference internal" href="#a-more-involved-example">A More Involved Example</a></li>
+<li><a class="reference internal" href="#help-messages">Help Messages</a></li>
+<li><a class="reference internal" href="#useful-links">Useful Links</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -383,10 +390,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../ansible/index.html">Ansible</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
@@ -484,7 +491,14 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Basic Emacs</a></li>
+<li><a class="reference internal" href="#"><cite>cmd</cite> Module</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#hello-world-with-cmd"><em>Hello, World</em> with <cite>cmd</cite></a></li>
+<li><a class="reference internal" href="#a-more-involved-example">A More Involved Example</a></li>
+<li><a class="reference internal" href="#help-messages">Help Messages</a></li>
+<li><a class="reference internal" href="#useful-links">Useful Links</a></li>
+</ul>
+</li>
 </ul>
 <p></p>
 <hr>
@@ -529,262 +543,248 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="basic-emacs">
-<h1>Basic Emacs<a class="headerlink" href="#basic-emacs" title="Permalink to this headline">¶</a></h1>
-<p>One of the most useful refernces for emacs is the following refrence
-card. It takes some time to use this card efficiently, but the most
-important commands are written on it. Generations of students have
-litterally been just presented with thsi card and they learned emacs
-from it.</p>
+  <div class="section" id="cmd-module">
+<h1><a class="toc-backref" href="#id1"><cite>cmd</cite> Module</a><a class="headerlink" href="#cmd-module" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
 <ul class="simple">
-<li><a class="reference external" href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf">https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf</a></li>
+<li><a class="reference internal" href="#cmd-module" id="id1"><cite>cmd</cite> Module</a><ul>
+<li><a class="reference internal" href="#introduction" id="id2">Introduction</a></li>
+<li><a class="reference internal" href="#hello-world-with-cmd" id="id3"><em>Hello, World</em> with <cite>cmd</cite></a></li>
+<li><a class="reference internal" href="#a-more-involved-example" id="id4">A More Involved Example</a></li>
+<li><a class="reference internal" href="#help-messages" id="id5">Help Messages</a></li>
+<li><a class="reference internal" href="#useful-links" id="id6">Useful Links</a></li>
 </ul>
-<p>There is naturally also additional material available and a graet
-manual. YOu could also look at</p>
+</li>
+</ul>
+</div>
+<div class="section" id="introduction">
+<h2><a class="toc-backref" href="#id2">Introduction</a><a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>The Python <cite>cmd</cite> module is useful for any more involved command-line
+application. It is used in the <a class="reference external" href="http://cloudmesh.github.io/">Cloudmesh Project</a>, for example, and students in <a class="reference internal" href="../../i524/index.html"><span class="doc">I524</span></a> have found it helpful in their projects.  The
+Python <cite>cmd</cite> module contains a public class, <cite>Cmd</cite>, designed to be
+used as a base class for command processors such as interactive shells
+and other command interpreters.</p>
+</div>
+<div class="section" id="hello-world-with-cmd">
+<h2><a class="toc-backref" href="#id3"><em>Hello, World</em> with <cite>cmd</cite></a><a class="headerlink" href="#hello-world-with-cmd" title="Permalink to this headline">¶</a></h2>
+<p>This example shows a very simple command interpreter that simply
+responds to the <cite>greet</cite> command.</p>
+<p>In order to demonstrate commands provided by <cite>cmd</cite>, let&#8217;s save the
+following program in a file called <cite>helloworld.py</cite>.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
+<span class="kn">import</span> <span class="nn">cmd</span>
+
+
+<span class="k">class</span> <span class="nc">HelloWorld</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Cmd</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;Simple command processor example.&#39;&#39;&#39;</span>
+
+    <span class="k">def</span> <span class="nf">do_greet</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">line</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello, </span><span class="si">%s</span><span class="s1">!&#39;</span> <span class="o">%</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello!&#39;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">do_EOF</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;bye, bye&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">True</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">HelloWorld</span><span class="p">()</span><span class="o">.</span><span class="n">cmdloop</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>A session with this program might look like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ python helloworld.py
+
+(Cmd) help
+
+Documented commands (type help &lt;topic&gt;):
+========================================
+help
+
+Undocumented commands:
+======================
+EOF  greet
+
+(Cmd) greet
+Hello!
+(Cmd) greet albert
+Hello, Albert!
+&lt;CTRL-D pressed&gt;
+(Cmd) bye, bye
+</pre></div>
+</div>
+<p>The <cite>Cmd</cite> class can be used to customize a subclass that becomes a
+user-defined command prompt. After you have executed your program,
+commands defined in your class can be used. Take note of the
+following in this example:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://www.gnu.org/software/emacs/tour/">https://www.gnu.org/software/emacs/tour/</a></li>
+<li>The methods of the class of the form <cite>do_xxx</cite> implement the shell
+commands, with <cite>xxx</cite> being the name of the command. For example, in
+the <cite>HelloWorld</cite> class, the function <cite>do_greet</cite> maps to the <cite>greet</cite>
+on the command line.</li>
+<li>The <cite>EOF</cite> command is a special command that is executed when you
+press CTRL-D on your keyboard.</li>
+<li>As soon as any command method returns <cite>True</cite> the shell application
+exits. Thus, in this example the shell is exited by pressing CTRL-D,
+since the <cite>do_EOF</cite> method is the only one that returns <cite>True</cite>.</li>
+<li>The shell application is started by calling the <cite>cmdloop</cite> method of
+the class.</li>
 </ul>
-<p>From the last page we have summarized the most useful and <strong>simple</strong>
-features. And present them here. One of the hidden gems of emacs is
-the ability to recreate replayable macros which we include here also.
-YOu ought to try it and you will find that for data science and the
-cleanup of data emacs (applied to smaller datasets) is a gem.</p>
-<p>Notation</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="28%" />
-<col width="72%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>C</td>
-<td>Control</td>
-</tr>
-<tr class="row-odd"><td>M</td>
-<td>Esc  (meta character)</td>
-</tr>
-</tbody>
-</table>
-<p>In the event of an emergency…</p>
-<p>Here&#8217;s what to do if you&#8217;ve accidentally pressed a wrong key:</p>
-<p>If you executed a command and Emacs has modified your buffer, use C-/ to undo that change.
-If you pressed a prefix key (e.g. C-x) or you invoked a command which is now prompting you for input (e.g. Find file: …), type C-g, repeatedly if necessary, to cancel.
-C-g also cancels a long-running operation if it appears that Emacs has frozen.</p>
-<p>Moving around in buffers can be done with cursor keys, or with the following key combinations:</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="22%" />
-<col width="78%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>C-f</td>
-<td>Forward one character</td>
-</tr>
-<tr class="row-odd"><td>C-n</td>
-<td>Next line</td>
-</tr>
-<tr class="row-even"><td>C-b</td>
-<td>Back one character</td>
-</tr>
-<tr class="row-odd"><td>C-p</td>
-<td>Previous line</td>
-</tr>
-</tbody>
-</table>
-<p>Here are some ways to move around in larger increments:</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="22%" />
-<col width="78%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>C-a</td>
-<td>Beginning of line</td>
-</tr>
-<tr class="row-odd"><td>M-f</td>
-<td>Forward one word</td>
-</tr>
-<tr class="row-even"><td>M-a</td>
-<td>Previous sentence</td>
-</tr>
-<tr class="row-odd"><td>M-v</td>
-<td>Previous screen</td>
-</tr>
-<tr class="row-even"><td>M-&lt;</td>
-<td>Beginning of buffer</td>
-</tr>
-<tr class="row-odd"><td>C-e</td>
-<td>End of line</td>
-</tr>
-<tr class="row-even"><td>M-b</td>
-<td>Back one word</td>
-</tr>
-<tr class="row-odd"><td>M-e</td>
-<td>Next sentence</td>
-</tr>
-<tr class="row-even"><td>C-v</td>
-<td>Next screen</td>
-</tr>
-<tr class="row-odd"><td>M-&gt;</td>
-<td>End of buffer</td>
-</tr>
-</tbody>
-</table>
-<p>You can jump directly to a particular line number in a buffer:</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="21%" />
-<col width="79%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>M-g g</td>
-<td>Jump to specified line</td>
-</tr>
-</tbody>
-</table>
-<p>Seaching is easy with the following commands</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="18%" />
-<col width="82%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>C-s</td>
-<td>Incremental search forward</td>
-</tr>
-<tr class="row-odd"><td>C-r</td>
-<td>Incremental search backward</td>
-</tr>
-</tbody>
-</table>
-<p>Replace</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="18%" />
-<col width="82%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>M-%</td>
-<td>Query replace</td>
-</tr>
-</tbody>
-</table>
-<p>Killing (&#8220;cutting&#8221;) text</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="18%" />
-<col width="82%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>C-k</td>
-<td>Kill line</td>
-</tr>
-</tbody>
-</table>
-<p>Yanking</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="18%" />
-<col width="82%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>C-y</td>
-<td>Yanks last killed text</td>
-</tr>
-</tbody>
-</table>
-<p>Macros</p>
-<p>Keyboard Macros</p>
-<p>Keyboard macros are a way to remember a fixed sequence of keys for later repetition. They&#8217;re handy for automating some boring editing tasks.</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="21%" />
-<col width="79%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>M-x (</td>
-<td>Start recording macro</td>
-</tr>
-<tr class="row-odd"><td>M-x )</td>
-<td>Stop recording macro</td>
-</tr>
-<tr class="row-even"><td>M-x e</td>
-<td>Play back macro once</td>
-</tr>
-<tr class="row-odd"><td>M-5 M-x-e</td>
-<td>Play back macro 5 times</td>
-</tr>
-</tbody>
-</table>
-<p>Modes</p>
-<p>&#8220;Every buffer has an associated major mode, which alters certain behaviors, key bindings, and text display in that buffer. The idea is to customize the appearance and features available based on the contents of the buffer.&#8221;
-modes are typically activated by ending such as .py, .java, .rst, ...</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="20%" />
-<col width="80%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Key</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>M-x python-mode</td>
-<td>Mode for editing Python files</td>
-</tr>
-<tr class="row-odd"><td>M-x auto-fill-mode</td>
-<td>Wraps your lines automatically when they get longer than 70 characters.</td>
-</tr>
-<tr class="row-even"><td>M-x flyspell-mode</td>
-<td>Highlights misspelled words as you type.</td>
-</tr>
-</tbody>
-</table>
+</div>
+<div class="section" id="a-more-involved-example">
+<h2><a class="toc-backref" href="#id4">A More Involved Example</a><a class="headerlink" href="#a-more-involved-example" title="Permalink to this headline">¶</a></h2>
+<p>Let&#8217;s look at a little more involved example. Save the following code
+in a file called <cite>calculator.py</cite>.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
+<span class="kn">import</span> <span class="nn">cmd</span>
+
+
+<span class="k">class</span> <span class="nc">Calculator</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Cmd</span><span class="p">):</span>
+     <span class="n">prompt</span> <span class="o">=</span> <span class="s1">&#39;calc &gt;&gt;&gt; &#39;</span>
+     <span class="n">intro</span> <span class="o">=</span> <span class="s1">&#39;Simple calculator that can do addition, subtraction, multiplication and division.&#39;</span>
+
+     <span class="k">def</span> <span class="nf">do_add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+             <span class="n">args</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+             <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+             <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">:</span>
+                     <span class="n">total</span> <span class="o">+=</span> <span class="nb">float</span><span class="p">(</span><span class="n">arg</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+             <span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+
+     <span class="k">def</span> <span class="nf">do_subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+             <span class="n">args</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+             <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+             <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                     <span class="n">total</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+             <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+                     <span class="n">total</span> <span class="o">-=</span> <span class="nb">float</span><span class="p">(</span><span class="n">arg</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+             <span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+
+     <span class="k">def</span> <span class="nf">do_EOF</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;bye, bye&#39;</span><span class="p">)</span>
+             <span class="k">return</span> <span class="kc">True</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+     <span class="n">Calculator</span><span class="p">()</span><span class="o">.</span><span class="n">cmdloop</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>A session with this program might look like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ python calculator.py
+Simple calculator that can do addition, subtraction, multiplication and division.
+calc &gt;&gt;&gt; help
+
+Documented commands (type help &lt;topic&gt;):
+========================================
+help
+
+Undocumented commands:
+======================
+EOF  add  subtract
+
+calc &gt;&gt;&gt; add
+0
+calc &gt;&gt;&gt; add 4 5 6
+15.0
+calc &gt;&gt;&gt; subtract
+0
+calc &gt;&gt;&gt; subtract 10 2
+8.0
+calc &gt;&gt;&gt; subtract 10 2 20
+-12.0
+calc &gt;&gt;&gt; bye, bye
+</pre></div>
+</div>
+<ul class="simple">
+<li>In this case we are using the <cite>prompt</cite> and <cite>intro</cite> class variables
+to define what the default prompt looks like and a welcome message
+when the command interpreter is invoked.</li>
+<li>In the <cite>add</cite> and <cite>subtract</cite> commands we are using the <cite>strip</cite> and
+<cite>split</cite> methods to parse all arguments. If you want to get fancy,
+you can use Python modules like <cite>getopts</cite> or <cite>argparse</cite> for this,
+but this is not necessary in this simple example.</li>
+</ul>
+</div>
+<div class="section" id="help-messages">
+<h2><a class="toc-backref" href="#id5">Help Messages</a><a class="headerlink" href="#help-messages" title="Permalink to this headline">¶</a></h2>
+<p>Notice that all commands presently show up as undocumented. To remedy
+this, we can define <cite>help_</cite> methods for each command:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
+<span class="kn">import</span> <span class="nn">cmd</span>
+
+
+<span class="k">class</span> <span class="nc">Calculator</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">Cmd</span><span class="p">):</span>
+      <span class="n">prompt</span> <span class="o">=</span> <span class="s1">&#39;calc &gt;&gt;&gt; &#39;</span>
+      <span class="n">intro</span> <span class="o">=</span> <span class="s1">&#39;Simple calculator that can do addition, subtraction, multiplication and division.&#39;</span>
+
+      <span class="k">def</span> <span class="nf">do_add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+              <span class="n">args</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+              <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+              <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">:</span>
+                      <span class="n">total</span> <span class="o">+=</span> <span class="nb">float</span><span class="p">(</span><span class="n">arg</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+              <span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+
+      <span class="k">def</span> <span class="nf">help_add</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+              <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span>
+                      <span class="s1">&#39;add [number,]&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;Add the arguments together and display the total.&#39;</span>
+              <span class="p">]))</span>
+
+      <span class="k">def</span> <span class="nf">do_subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+              <span class="n">args</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+              <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+              <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                      <span class="n">total</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+              <span class="k">for</span> <span class="n">arg</span> <span class="ow">in</span> <span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+                      <span class="n">total</span> <span class="o">-=</span> <span class="nb">float</span><span class="p">(</span><span class="n">arg</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+              <span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
+
+      <span class="k">def</span> <span class="nf">help_subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+              <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span>
+                      <span class="s1">&#39;subtract [number,]&#39;</span><span class="p">,</span>
+                      <span class="s1">&#39;Subtract all following arguments from the first argument.&#39;</span>
+              <span class="p">]))</span>
+
+      <span class="k">def</span> <span class="nf">do_EOF</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">):</span>
+              <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;bye, bye&#39;</span><span class="p">)</span>
+              <span class="k">return</span> <span class="kc">True</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+      <span class="n">Calculator</span><span class="p">()</span><span class="o">.</span><span class="n">cmdloop</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Now, we can obtain help for the <cite>add</cite> and <cite>subtract</cite> commands:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ python calculator.py
+Simple calculator that can do addition, subtraction, multiplication and division.
+calc &gt;&gt;&gt; help
+
+Documented commands (type help &lt;topic&gt;):
+========================================
+add  help  subtract
+
+Undocumented commands:
+======================
+EOF
+
+calc &gt;&gt;&gt; help add
+add [number,]
+Add the arguments together and display the total.
+calc &gt;&gt;&gt; help subtract
+subtract [number,]
+Subtract all following arguments from the first argument.
+calc &gt;&gt;&gt; bye, bye
+</pre></div>
+</div>
+</div>
+<div class="section" id="useful-links">
+<h2><a class="toc-backref" href="#id6">Useful Links</a><a class="headerlink" href="#useful-links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://docs.python.org/2/library/cmd.html">Python Docs</a></li>
+<li><a class="reference external" href="https://pymotw.com/2/cmd/">Python Module of the Week: cmd – Create line-oriented command processors</a></li>
+</ul>
+</div>
 </div>
 
 
