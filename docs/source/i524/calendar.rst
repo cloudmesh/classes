@@ -34,9 +34,9 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 +-------------------------------------------------------------------------------+--------------------+-----+
 | :doc:`Technology Paper 1 <paper1-hw>`                                         | Mon, Feb 27, 9am   | T1  |
 +-------------------------------------------------------------------------------+--------------------+-----+
-| Participate in the :ref:`BibTex discussions on Piazza <bibtex-discussions>`   | Overdue            | T0c |
+| :doc:`BibTeX open discussions on Piazza <open-discussions-hw>`                | Overdue            | T0c |
 +-------------------------------------------------------------------------------+--------------------+-----+
-| Review of :ref:`BibTex open discussion <bibtex-discussions>` fixes            | Mon, Feb 27, 9am   | T0c |
+| Review/fixes of :doc:`BibTex open discussion on Piazza <open-discussions-hw>` | Mon, Feb 27, 9am   | T0c |
 +-------------------------------------------------------------------------------+--------------------+-----+
 | :ref:`TechList.1d and Techlist 2 <techs-exercise>`                            | Mon, Feb 27, 9am   | T0b |
 +-------------------------------------------------------------------------------+--------------------+-----+

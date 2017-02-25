@@ -5711,37 +5711,8 @@ TechList.3:
 
 Open Discussion:
   For useful information on how to correctly create BibTeX entries,
-  see and contribute to the following threads on Piazza.
-
-  .. _bibtex-discussions:
-
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 1: What is the entry for ... a Blog entry? <https://piazza.com/class/ix39m27czn5uw?cid=205>`_                     |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 2: What is the entry for ... a paper in a proceedings <https://piazza.com/class/ix39m27czn5uw?cid=206>`_          |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 3: What is the entry for ... a wikipedia entry? <https://piazza.com/class/ix39m27czn5uw?cid=207>`_                |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 4: What is the entry for ... a tech report? <https://piazza.com/class/ix39m27czn5uw?cid=208>`_                    |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 5: What is the entry for ... a w3 document? <https://piazza.com/class/ix39m27czn5uw?cid=209>`_                    |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 6: What is the entry for ... an article? <https://piazza.com/class/ix39m27czn5uw?cid=210>`_                       |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 7: What is the entry for ... a book? <https://piazza.com/class/ix39m27czn5uw?cid=211>`_                           |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 8: What is the entry for ... a github project? <https://piazza.com/class/ix39m27czn5uw?cid=212>`_                 |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 9: What is the entry for ... a Web page? <https://piazza.com/class/ix39m27czn5uw?cid=213>`_                       |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 10: What is my entry ... when it has different capitalization? <https://piazza.com/class/ix39m27czn5uw?cid=214>`_ |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 11: What is my entry for ... a proceedings? <https://piazza.com/class/ix39m27czn5uw?cid=215>`_                    |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 12: What is wrong? <https://piazza.com/class/ix39m27czn5uw?cid=222>`_                                             |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 13: How to cite StackOverflow and similar? <https://piazza.com/class/ix39m27czn5uw?cid=275>`_                     |
-  +------------------------------------------------------------------------------------------------------------------------------------+
+  see and contribute to :ref:`these open discussion threads Piazza
+  <bibtex-discussions>`.
 
 References
 ----------
