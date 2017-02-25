@@ -958,6 +958,34 @@ Application Hosting Frameworks
     
 
 85. AWS Elastic Beanstalk
+
+    :cite: `www-amazon elastic beanstalk` AWS Elastic Beanstalk is an
+    orchestration service offered from Amazon Web Services which
+    provides user with a platform for easy and quiclk deployment of
+    their WebApps and services. :cite: `amazon elastic beanstalk-book`
+    Amazon Elastic BeanStack automatically handles the deployement
+    details of capacity provisioning by Amazon Cloud Watch, Elastic
+    Load Balancing, Auto-scaling, and application health monitoring of
+    the WebApps and service. AWS Management Console allows the users
+    to configure an automatic scaling mechanism of AWS Elastic
+    Beanstalk. Elastic Load Balancing enables a load balancer,which
+    automatically spreads load across all running instances in an
+    auto-scaling group based on metrics like request count and latency
+    tracked by Amazon CloudWatch. Amazon CloudWatch tracks and stores
+    per-instance metrics, including request count and latency, CPU and
+    RAM utilization. Elastic Beanstalk supports applications developed
+    in Java, PHP, .NET, Node.js, Python, and Ruby, as well as
+    different container types for each language such as Apache Tomcat
+    for Java applications, Apache HTTP Server for PHP applications
+    Docker, GO and many more for specific languanges where the
+    container defines the infrastructure and softwarestack to be used
+    for a given enviorment.:cite: `www-amazon elastic beanstalk` "AWS
+    Elastic Beanstalk runs on the Amazon Linux AMI and the Windows
+    Server 2012 R2 AMI. Both AMIs are supported and maintained by
+    Amazon Web Services and are designed to provide a stable, secure,
+    and high-performance execution environment for Amazon EC2 Cloud
+    computing."
+
 86. Azure
 
     Microsoft Corporation (MSFT) markets its cloud products under the
@@ -3097,6 +3125,38 @@ Cluster Resource Management
 274. Llama
 275. Google Omega
 276. Facebook Corona
+
+     Corona is a new scheduling framework developed by facebook which
+     seperates the cluster resource management from Job coordination.
+     Facebook employed the MapReduce implementation from Apache Hadoop
+     since 2011 for job scheduling.The scheduling MapReduce framework
+     has it's limitations with the scalibility as when the number of
+     jobs at facebook grew in the next few years.:cite: `www-facebook
+     corona` Another limitation of Hadoop was it was a pull-based
+     scheduling model as the task trackerhave to provide a heartbeat
+     to the job tracker to indicate that it is running which
+     associates with a pre-defined delay,that was problematic for
+     small jobs. Hadoop MapReduce is also constrained by its static
+     slot-based resource management model where a MapReduce cluster is
+     divided into a fixed number of map and reduce slots based on a
+     static configuration – so slots are wasted anytime the cluster
+     workload does not fit the static configuration.
+
+     :cite:`www-facebook corona`Corona improves over the Hadoop
+     MapReduce by introducing a cluster manager whose only purpose is
+     to track the nodes in the cluster and the amount free
+     resources. A dedicated job tracker is created for each job, and
+     can run either in the same process as the client (for small jobs)
+     or as a separate process in the cluster (for large jobs). The
+     other difference is it uses a push-based scheduling whoese
+     implementation does not involve a periodic heartbeat and thus
+     scheduling latency is minimized. The cluster manager also
+     implements a fair-share scheduling as it has access to the full
+     snapshot of the cluster for making the scheduling decsions.Corona
+     is used as an integeral part of the Facebook's data
+     infrastructure and is helping power big data analytics for teams
+     across the company.
+     
 277. Celery
 278. HTCondor
 279. SGE
