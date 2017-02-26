@@ -1832,7 +1832,7 @@ High level Programming
      The authors designed it to handle "simple, easily distributed
      computations: filtering, aggregation, extraction of statistics,"
      etc. from the aforementioned data sets.
-     :cite:`google-sawzall`
+     :cite:`pike05sawzall`
 
      In general terms, a Sawzall job works as follows: multiple
      computers each create a Sawzall instance, perform some operation
@@ -1855,7 +1855,7 @@ High level Programming
      a native language [and] [m]ore important[ly] drawing an explicit
      line between filtering and aggregation enables a high degree of
      parallelism, even though it hides the parallelism from the
-     language itself".  :cite:`google-sawzall`
+     language itself".  :cite:`pike05sawzall`
 
      Important components of the Sawzall language include: *szl*, the
      binary containing the code compiler and byte-code interpreter
@@ -5181,18 +5181,16 @@ IaaS Management from HPC to hypervisors
 340. KVM
 
      :cite:`www-KVM-wiki` It is an acronym for Kernel-based Virtual
-     Machine for the Linux Kernel that turns it into a
-     hypervisor upon installation. It was originally developed
-     by Qumranet in 2007. It has a kernel model and uses kernel
-     as VMM. It only supports fully virtualized VMs. It is very
-     active for Linux users due to it’s ease of use, it can be
-     completely controlled by ourselves and there is an ease for
-     migration from or to other platforms. :cite:`www-KVM-
-     webpage` It is built to run on a x86 machine on an Intel
-     processor with virtualization technology extensions (VT-x)
-     or an AMD-V. It supports 32 and 64 bit guests on a 64 bit
-     host and hardware visualization features. The supported
-     guest systems are Solaris , Linux, Windows and BSD Unix.
+     Machine for the Linux Kernel that turns it into a hypervisor upon
+     installation. It was originally developed by Qumranet in 2007. It has a
+     kernel model and uses kernel as VMM. It only supports fully virtualized
+     VMs. It is very active for Linux users due to it’s ease of use, it can be
+     completely controlled by ourselves and there is an ease for migration
+     from or to other platforms. :cite:`www-KVM-webpage` It is built to run on a
+     x86 machine on an Intel processor with virtualization technology
+     extensions (VT-x) or an AMD-V. It supports 32 and 64 bit guests on a 64
+     bit host and hardware visualization features. The supported guest systems
+     are Solaris , Linux, Windows and BSD Unix.
 
 341. QEMU
      
