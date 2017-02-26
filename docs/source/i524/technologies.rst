@@ -1284,6 +1284,34 @@ Application Hosting Frameworks
     
 
 85. AWS Elastic Beanstalk
+
+    :cite: `www-amazon elastic beanstalk` AWS Elastic Beanstalk is an
+    orchestration service offered from Amazon Web Services which
+    provides user with a platform for easy and quiclk deployment of
+    their WebApps and services. :cite: `amazon elastic beanstalk-book`
+    Amazon Elastic BeanStack automatically handles the deployement
+    details of capacity provisioning by Amazon Cloud Watch, Elastic
+    Load Balancing, Auto-scaling, and application health monitoring of
+    the WebApps and service. AWS Management Console allows the users
+    to configure an automatic scaling mechanism of AWS Elastic
+    Beanstalk. Elastic Load Balancing enables a load balancer,which
+    automatically spreads load across all running instances in an
+    auto-scaling group based on metrics like request count and latency
+    tracked by Amazon CloudWatch. Amazon CloudWatch tracks and stores
+    per-instance metrics, including request count and latency, CPU and
+    RAM utilization. Elastic Beanstalk supports applications developed
+    in Java, PHP, .NET, Node.js, Python, and Ruby, as well as
+    different container types for each language such as Apache Tomcat
+    for Java applications, Apache HTTP Server for PHP applications
+    Docker, GO and many more for specific languanges where the
+    container defines the infrastructure and softwarestack to be used
+    for a given enviorment.:cite: `www-amazon elastic beanstalk` "AWS
+    Elastic Beanstalk runs on the Amazon Linux AMI and the Windows
+    Server 2012 R2 AMI. Both AMIs are supported and maintained by
+    Amazon Web Services and are designed to provide a stable, secure,
+    and high-performance execution environment for Amazon EC2 Cloud
+    computing."
+
 86. Azure
 
     Microsoft Corporation (MSFT) markets its cloud products under the
@@ -1556,7 +1584,7 @@ High level Programming
      Data Scientists when working on huge data sets try to extract
      meaning and interpret the data to enhance insight about the
      various patterns, oppurtunities and possiblities that the dataset
-     has to offer. :cite: 'shark-paper-2012' At a traditional
+     has to offer. :cite: `shark-paper-2012` At a traditional
      EDW(Enterprrise Data Warehouse) a simple data manipulation can be
      perfpormed using SQL queries but we have to rely on other systems
      to apply the machine learning on thoese data.Apache Shark is a
@@ -1565,7 +1593,7 @@ High level Programming
      manipulation using SQL and pushing sophisticated analysis towards
      the data.
 
-     :cite:'shark-paper-2012' Shark is a data Warehouse system built
+     :cite: `shark-paper-2012` Shark is a data Warehouse system built
      on top of Apache Spark which does the parallel data execution and
      is capable of deep data analysis using the Resilient Distributed
      Datasets(RDD) memory abstraction which unifies the SQL query
@@ -1576,11 +1604,11 @@ High level Programming
      more data or faster query processing thus it can be scaled to
      thoushands o nodes in a fault-toleranat manner
 
-     :cite:'shark-paper-2012' "Shark is built on Hive Codebase and it
+     :cite: `shark-paper-2012` "Shark is built on Hive Codebase and it
      has the ability to execute HIVE QL queries up to 100 times faster
      than Hive without making any change in the existing
      queries". Shark can run both on the StandAlone Mode and Cluster
-     Mode.:cite:'shark-paper-2012' Shark can answer the queries 40X
+     Mode. :cite: `shark-paper-2012` Shark can answer the queries 40X
      faster than Apache Hive and can machine learning programs 25X
      faster than MapReduce programmes. in Apache hadoop on large data
      sets.Thus, this new data analysis system performs query
@@ -2120,6 +2148,31 @@ Basic Programming model and runtime, SPMD, MapReduce
 
      
 149. Disco
+
+     a. Disco from discoproject.org represents an implementation of mapreduce 
+     for distributed computing that benefits end users by relieving them of 
+     the need to handle “difficult technicalities related to distribution such 
+     as communication protocols, load balancing, locking, job scheduling, and 
+     fault tolerance.” :cite:`www-whatis-discoproject` Its designers wrote the software in Erlang, an 
+     inherently fault tolerant language. In addition, Disco’s creators chose 
+     Erlang because they believe it best meets the software’s need to handle 
+     “tens of thousands of tasks in parallel.” :cite:`www-erlangprime-discoproject` Python was used for 
+     Disco’s libraries. Finally, Disco supports pipelines, “a linear sequence 
+     of stages, where the outputs of each stage are grouped into the input of 
+     the subsequent stage.” :cite:`www-clarridge-discoproject` Its designers implemented Disco’s libraries 
+     in Python. Disco originated within Nokia Corp. to handle large data sets. 
+     Since then it has proven itself reliable in production environments 
+     outside of Nokia. :cite:`www-nokia-discoproject`
+
+     b. DISCO from the research group Service Engineering (SE), 
+     :cite:`www-discoabout-discoabstractionlayer` serves 
+     as “an abstraction layer for OpenStack‘s orchestration component [Heat]” 
+     SE based DISCO on its prior orchestration framework, Hurtle. The software 
+     sets up a computer cluster and deploys the user’s choice of distributed 
+     computing architecture onto the cluster based on setup inputs provided by 
+     the user. DISCO offers a command line interface via HTTP to directly 
+     access OpenStack. :cite:`www-discodescribed-discoabstractionlayer`
+
 150. Hama
 
      Apache Hama is a framework for Big Data analytics which uses the
@@ -2135,6 +2188,17 @@ Basic Programming model and runtime, SPMD, MapReduce
      :cite:`book-hama`.
      
 151. Giraph
+
+     Apache Giraph is an iterative graph processing system built for big
+     data :cite:`www-giraph-apache`.It utilizes Hadoop Mapreduce
+     technology for processing graphs :cite:`www-apache-giraph-wiki`
+     Giraph was initially developed by Yahoo based on the paper
+     published by Google on Pregel. :cite:`www-apache-giraph-pcworld`
+     Facebook with some improvements on Giraph could analyze real world
+     graphs up to a scale of a trillion.Giraph can directly interface
+     with HDFS and Hive ( As it's developed in
+     Java). :cite:`www-apache-giraph-fb`
+   
 152. Pregel
 153. Pegasus
 154. Ligra
@@ -2957,6 +3021,19 @@ SQL(NewSQL)
       
 209. Pivotal Greenplum
 210. Google Cloud SQL
+     
+     Google Cloud SQL is a fully managed data base as service
+     developed by Google where google manages the backup,patching and
+     replication of the databases etc
+     :cite:`www-cloud-sql-google`. Cloud SQL database aims at
+     developers to focus on app development leaving database
+     adminstitation to a minimum. This can be understood as 'My SQL
+     on Cloud' as most of the features from MySQL 5.7 are directly
+     supported in Cloud SQL. The service is offered with 'Pay per
+     use' providing the flexibility and 'better performance per
+     dollar'.  Cloud SQL is scalable up to 16 processor cores and
+     more than 100GB of RAM. :cite:`www-cloud-sql-google-faq`
+      
 211. Azure SQL
 212. Amazon RDS
 
@@ -3879,6 +3956,38 @@ Cluster Resource Management
 274. Llama
 275. Google Omega
 276. Facebook Corona
+
+     Corona is a new scheduling framework developed by facebook which
+     seperates the cluster resource management from Job coordination.
+     Facebook employed the MapReduce implementation from Apache Hadoop
+     since 2011 for job scheduling.The scheduling MapReduce framework
+     has it's limitations with the scalibility as when the number of
+     jobs at facebook grew in the next few years.:cite: `www-facebook
+     corona` Another limitation of Hadoop was it was a pull-based
+     scheduling model as the task trackerhave to provide a heartbeat
+     to the job tracker to indicate that it is running which
+     associates with a pre-defined delay,that was problematic for
+     small jobs. Hadoop MapReduce is also constrained by its static
+     slot-based resource management model where a MapReduce cluster is
+     divided into a fixed number of map and reduce slots based on a
+     static configuration – so slots are wasted anytime the cluster
+     workload does not fit the static configuration.
+
+     :cite:`www-facebook corona`Corona improves over the Hadoop
+     MapReduce by introducing a cluster manager whose only purpose is
+     to track the nodes in the cluster and the amount free
+     resources. A dedicated job tracker is created for each job, and
+     can run either in the same process as the client (for small jobs)
+     or as a separate process in the cluster (for large jobs). The
+     other difference is it uses a push-based scheduling whoese
+     implementation does not involve a periodic heartbeat and thus
+     scheduling latency is minimized. The cluster manager also
+     implements a fair-share scheduling as it has access to the full
+     snapshot of the cluster for making the scheduling decsions.Corona
+     is used as an integeral part of the Facebook's data
+     infrastructure and is helping power big data analytics for teams
+     across the company.
+     
 277. Celery
 
      "Celery is an asynchronous task queue/job queue based on
@@ -5605,8 +5714,36 @@ New Technologies (To Be Integrated by the AIs)
      for all of MPI-2, multiple concurrent user threads, and multiple
      options for handling process and network failures.
 
-385. *Add the next tech here.*
+385. Apache Tomcat
 
+     Apache tomcat is an open source java servlet
+     container. :cite:`www-tomcat-official` It is used in IT industry
+     as a HTTP web server which listens to the requests made by web
+     client and send reponses. The main components of tomcat are
+     cataline, coyote and jasper. The most stable version of Apache
+     Tomcat server is version 8.5.11. Apache tomcat is released under
+     Apache License version 2. :cite:`www-tomcat-wiki` As it is cross
+     platform, it can run in any platform or OS like Windows, UNIX,
+     AIX or SOLARIS etc. It is basically an integral part of many java
+     based web application.
+
+386. Apache Beam       
+
+     Apache Beam attempts to abstract away the need to write
+     code for multiple data-oriented workflows, e.g., batch, interactive and
+     streaming, as well as multiple big data tools, e.g., Storm, Spark and 
+     Flink.  Instead, Beam attempts to automagically map a dataflow process 
+     written in Java or Python to the target runtime environment via *runners*.
+     As a result, switching a data processing routine from Spark to Flink only 
+     requires changing the target runtime environment as opposed to re-writing 
+     the entire process :cite:`www-infoworld-apachebeam` (perhaps in a 
+     completely different language).  Google contributed its Dataflow SDK, the 
+     Dataflow model and three runners :cite:`www-datanami-apachebeam` to the 
+     Apache Software Foundation in the first half of 2016.  The ASF elevated
+     Beam to a Top-Level project in January 2017.  Jean-Baptiste Onofre of 
+     French tech company Talend, and a frequent Apache project contributor, 
+     champions the project. :cite:`www-talend-apachebeam`  It should be grouped
+     with the technologies in the *Interoperability* section.
 
 .. _techs-exercise:
 
@@ -5677,11 +5814,11 @@ TechList.1.b: Identify how to cite. We are using "scientific" citation
   history paper.
 
 TechList 1.c:
-  Learn about Plagearism and how to avoid it.
+  Learn about plagiarism and how to avoid it.
   Many Web pages will conduct self advertisement while adding
   suspicious and subjective adjectives or phrases such as cheaper,
   superior, best, most important, with no equal, and others that you
-  may not want to copy into your descriptions. Please focus on facts
+  may not want to copy into your descriptions. Please focus on facts,
   not on what the author of the Web page claims.
 
 TechList 1.d:
@@ -5699,49 +5836,19 @@ TechList 1.d:
 
 TechList.2:
   In this hopweork we provide you with additional technologies that
-  you need to compleate They are marked with (2) in the :doc:`HID
+  you need to complete. They are marked with (2) in the :doc:`HID
   Assignment page <hids-techs>`.
 
-TechList.3:
-  Identify technologies that are not listed here and add
-  them. Provide a description and a refrence just as you did before.
-  Make sure duplicated entries will be merged. Before you start doing a
-  technology to avoid adding technologies that have already been done by
-  others.
+TechList.3:   
+  Identify technologies that are not listed here and add   them.
+  Provide a description and a reference just as you did before. Before you
+  add a technology, verify that it is not on the **new technologies** list
+  already.  Duplicated entries will be merged.
 
 Open Discussion:
   For useful information on how to correctly create BibTeX entries,
-  see and contribute to the following threads on Piazza.
-
-  .. _bibtex-discussions:
-
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 1: What is the entry for ... a Blog entry? <https://piazza.com/class/ix39m27czn5uw?cid=205>`_                     |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 2: What is the entry for ... a paper in a proceedings <https://piazza.com/class/ix39m27czn5uw?cid=206>`_          |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 3: What is the entry for ... a wikipedia entry? <https://piazza.com/class/ix39m27czn5uw?cid=207>`_                |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 4: What is the entry for ... a tech report? <https://piazza.com/class/ix39m27czn5uw?cid=208>`_                    |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 5: What is the entry for ... a w3 document? <https://piazza.com/class/ix39m27czn5uw?cid=209>`_                    |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 6: What is the entry for ... an article? <https://piazza.com/class/ix39m27czn5uw?cid=210>`_                       |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 7: What is the entry for ... a book? <https://piazza.com/class/ix39m27czn5uw?cid=211>`_                           |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 8: What is the entry for ... a github project? <https://piazza.com/class/ix39m27czn5uw?cid=212>`_                 |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 9: What is the entry for ... a Web page? <https://piazza.com/class/ix39m27czn5uw?cid=213>`_                       |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 10: What is my entry ... when it has different capitalization? <https://piazza.com/class/ix39m27czn5uw?cid=214>`_ |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 11: What is my entry for ... a proceedings? <https://piazza.com/class/ix39m27czn5uw?cid=215>`_                    |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 12: What is wrong? <https://piazza.com/class/ix39m27czn5uw?cid=222>`_                                             |
-  +------------------------------------------------------------------------------------------------------------------------------------+
-  | `Open Discussion 13: How to cite StackOverflow and similar? <https://piazza.com/class/ix39m27czn5uw?cid=275>`_                     |
-  +------------------------------------------------------------------------------------------------------------------------------------+
+  see and contribute to :ref:`these open discussion threads Piazza
+  <bibtex-discussions>`.
 
 References
 ----------
