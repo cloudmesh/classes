@@ -1089,6 +1089,20 @@ Application and Analytics
 	
 71. Graylog
 72. Splunk
+
+    Splunk is a platform for big data analytics. It is a software
+    product that enables you to search, analyze, and visualize the
+    machine-generated data gathered from the websites, applications,
+    sensors, devices, and so on, that comprise your IT infrastructure or
+    business :cite:`www-splunk`. After defining the data source, Splunk
+    indexes the data stream and parses it into a series of individual
+    events that you can view and search. It provides distributed search
+    and MapReduce linearly scales search and reporting. It uses a standard
+    API to connect directly to applications and devices. It was developed
+    in response to the demand for comprehensible and actionable data
+    reporting for executives outside a company's IT department
+    :cite:`www-splunk`.
+	  
 73. Tableau
 
     :cite:`www-tableau-tutorial` Tableau is a family of interactive data visualization products 
@@ -3093,6 +3107,23 @@ SQL(NewSQL)
 215. N1QL
 216. BlinkDB
 217. Spark SQL
+
+     Spark SQL is Apache Spark's module for working with structured
+     data. Spark SQL is a new module that integrates relational
+     processing with Spark's functional programming API
+     :cite:`www-spark-sql`. It is used to seamlessly mix SQL queries
+     with Spark programs. Spark SQL lets you query structured data
+     inside Spark programs, using either SQL or a familiar DataFrame
+     API.  it offers much tighter integration between relational and
+     procedural processing, through a declarative DataFrame API that
+     integrates with procedural Spark code.  Spark SQL reuses the Hive
+     frontend and metastore, giving you full compatibility with
+     existing Hive data, queries, and UDFs by installing it alongside
+     Hive. Spark SQL includes a cost-based optimizer, columnar storage
+     and code generation to make queries fast
+     :cite:`www-spark-sql-2`. At the same time, it scales to thousands
+     of nodes and multi hour queries using the Spark engine, which
+     provides full mid-query fault tolerance.
 
 NoSQL
 ----------------------------------------------------------------------
