@@ -2631,6 +2631,19 @@ Inter process communication Collectives
 
 182. Event Hubs
 
+     Azure Event Hubs is a hyper-scale telemetry ingestion service. It
+     collects, transforms, and stores millions of events. As a
+     distributed streaming platform, it offers low latency and
+     configurable time retention enabling one to ingress massive
+     amounts of telemetry into the cloud and read the data from
+     multiple applications using publish-subscribe
+     semantics. :cite:`www-eventhubs` It is a highly scalable data
+     streaming platform. Data sent to an Event Hub can be transformed
+     and stored using any real-time analytics provider or
+     batching/storage adapters. With the ability to provide
+     publish-subscribe capabilities , Event Hubs serves as the "on
+     ramp" for Big Data.
+
 In-memory databases/caches
 ----------------------------------------------------------------------
 
@@ -2817,12 +2830,12 @@ Object-relational mapping
 192. Hibernate
 193. OpenJPA
 
-     According to `cite`:www-openjpa, Apache OpenJPA is a Java
+     According to :cite:`www-openjpa`, Apache OpenJPA is a Java
      persistence project developed by The Apache Software Foundation that
      can either be used as Plain old Java Object (POJO) or could be used in
      any Java EE compliant containers.It provides object relational mapping
      which effectively simplifies the storing of relational dependencies
-     among objects in databases. According to `cite`:www-openjpa-wiki,
+     among objects in databases. :cite:`www-openjpa-wiki` mentions that
      Kodo, an implementation of Java Data Objects acted as a precursor to
      the development of OpenJPA. In 2006, BEA Systems donated the majority
      of the source code of Kodo to The Apache Software Foundation under the
@@ -3417,6 +3430,21 @@ NoSQL
      public :cite:`www-wikibigtable`.
 
 236. LevelDB
+
+     LevelDB is a light-weight, single-purpose library for persistence
+     with bindings to many platforms. :cite:`www-leveldb` It is a
+     simple open source on-disk key/value data store built by Google,
+     inspired by BigTable and is used in Google Chrome and many other
+     products. It supports arbitrary byte arrays as both keys and
+     values, singular get, put and delete operations, batched put and
+     delete, bi-directional iterators and simple compression using the
+     very fast Snappy algorithm. It is hosted on GitHub under the New
+     BSD License and has been ported to a variety of Unix-based
+     systems, Mac OS X, Windows, and Android. It is not an SQL
+     database and does not support SQL queries. Also, it has no
+     support for indexes. Applications use LevelDB as a library, as it
+     does not provide a server or command-line interface.
+
 237. Megastore and Spanner
 
      Spanner :cite:`corbett-spanner` is Google's distributed database
@@ -4073,7 +4101,7 @@ Cluster Resource Management
      
 279. SGE
 
-     According to `cite`:www-sge-wiki, Sun Grid Engine (SGE) renamed
+     According to :cite:`www-sge-wiki`, Sun Grid Engine (SGE) renamed
      to Oracle Grid Engine (OGE) is a grid computing cluster software
      system. Grid Engine is a high performance computing cluster used
      for managing job queueing in distributed and parallel
