@@ -96,6 +96,26 @@ Workflow-Orchestration
    community to address common needs :cite:`www-kepler`.
 
 6. Swift
+
+   Swift is a general-purpose, multi-paradigm, compiled programming
+   language. It has been developed by Apple Inc. for iOS, macOS,
+   watchOS, tvOS, and Linux. This programming language is intended to
+   be more robust and resilient to erroneous code than Objective-C,
+   and more concise. It has been built with the LLVM compiler
+   framework included in Xcode 6 and later and, on platforms other
+   than Linux. C, Objective-C, C++ and Swift code can be run within
+   one program as Swift uses the Objective-C runtime
+   library. :cite:`www-swift-wikipedia`
+
+   Swift supports the core concepts that made Objective-C flexible,
+   notably dynamic dispatch, widespread late binding, extensible
+   programming and similar features. Swift features have well-known
+   safety and performance trade-offs. A system that helps address
+   common programming errors like null pointers was introduced to
+   enhance safety. Apple has invested considerable effort in
+   aggressive optimization that can flatten out method calls and
+   accessors to eliminate this overhead to handle performance issues.
+      
 7. Taverna
 
    Taverna is workflow management system. According to
@@ -308,19 +328,20 @@ Workflow-Orchestration
     can ingest data from various sources, transform/ process data and
     publish the result data to the data stores. A data management
     gateway enables access to data on SQL Databases
-    :cite:`Azure_df`. The data processing is done by It works by
+    :cite:`www-jamesserra`. The data processing is done by It works by
     creating pipelines to transform the raw data into a format that
     can be readily used by BI Tools or applications. The services
     comes with rich visualization aids that aid data analysis. Data
     Factory supports two types of activities: data movement activities
-    and data transformation activities. Data Movement :cite:`Azure_ms`
-    is a Copy Activity in Data Factory that copies data from a data
-    source to a Data sink. Data Factory supports the following data
-    stores. Data from any source can be written to any sink.  Data
-    Transformation: Azure Data Factory supports the following
-    transformation activities such as Map reduce, Hive transformations
-    and Machine learning activities.  Data factory is a great tool to
-    analyze web data, sensor data and geo-spatial data.
+    and data transformation activities. Data Movement
+    :cite:`www-microsoft-azure` is a Copy Activity in Data Factory
+    that copies data from a data source to a Data sink. Data Factory
+    supports the following data stores. Data from any source can be
+    written to any sink.  Data Transformation: Azure Data Factory
+    supports the following transformation activities such as Map
+    reduce, Hive transformations and Machine learning activities.Data
+    factory is a great tool to analyze web data, sensor data and
+    geo-spatial data.
 
 24. Google Cloud Dataflow
     
@@ -1089,6 +1110,20 @@ Application and Analytics
 	
 71. Graylog
 72. Splunk
+
+    Splunk is a platform for big data analytics. It is a software
+    product that enables you to search, analyze, and visualize the
+    machine-generated data gathered from the websites, applications,
+    sensors, devices, and so on, that comprise your IT infrastructure or
+    business :cite:`www-splunk`. After defining the data source, Splunk
+    indexes the data stream and parses it into a series of individual
+    events that you can view and search. It provides distributed search
+    and MapReduce linearly scales search and reporting. It uses a standard
+    API to connect directly to applications and devices. It was developed
+    in response to the demand for comprehensible and actionable data
+    reporting for executives outside a company's IT department
+    :cite:`www-splunk`.
+	  
 73. Tableau
 
     :cite:`www-tableau-tutorial` Tableau is a family of interactive data visualization products 
@@ -1835,24 +1870,26 @@ High level Programming
 
 124. Google Cloud DataFlow
      
-     Google Cloud DataFlow :cite:`data_flow1` is a unified programming
-     model that manages the deployment, maintenance and optimization
-     of data processes such as batch processing, ETL etc. It creates a
-     pipeline of tasks and dynamically allocates resources thereby
-     maintaining high efficiency and low latency. According to
-     :cite:`data_flow1`, these capabilities make it suitable for
-     solving challenging big data problems. Also, google DataFlow
-     overcomes the performance issues faced by Hadoops Mapreduce while
-     building pipelines. As stated in :cite:`dataconomy` the
-     performance of MapReduce started deteriorating while facing
-     multiplepetabytes of data whereas Google Cloud Dataflow is
-     apparently better at handling enormous
-     datasets. :cite:`data_flow1` Additionally Google Dataflow can be
-     integrated with Cloud Storage, Cloud Pub/Sub, Cloud Datastore,
-     Cloud Bigtable, and BigQuery. The unified programming ability is
-     another noteworthy feature which uses Apache Beam SDKs to support
-     powerful operations like windowing and allows correctness control
-     to be applied to batch and stream  data processes.
+     Google Cloud DataFlow :cite:`www-cloud-google1` is a unified
+     programming model that manages the deployment, maintenance and
+     optimization of data processes such as batch processing, ETL
+     etc. It creates a pipeline of tasks and dynamically allocates
+     resources thereby maintaining high efficiency and low
+     latency. According to :cite:`www-cloud-google1`, these
+     capabilities make it suitable for solving challenging big data
+     problems. Also, google DataFlow overcomes the performance issues
+     faced by Hadoops Mapreduce while building pipelines. As stated in
+     :cite:`www-dataconomy` the performance of MapReduce started
+     deteriorating while facing multiple petabytes of data whereas
+     Google Cloud Dataflow is apparently better at handling enormous
+     datasets.  :cite:`www-cloud-google1` Additionally Google Dataflow
+     can be integrated with Cloud Storage, Cloud Pub/Sub, Cloud
+     Datastore, Cloud Bigtable, and BigQuery. The unified programming
+     ability is another noteworthy feature which uses Apache Beam SDKs
+     to support powerful operations like windowing and allows
+     correctness control to be applied to batch and stream data
+     processes.
+
      
 125. Summingbird
 126. Lumberyard
@@ -2247,6 +2284,27 @@ Basic Programming model and runtime, SPMD, MapReduce
      C++ and Java.
 	   
 157. Medusa-GPU
+     
+     Graphs are commonly used data structures . However, developers
+     may find it challenging to write correct and efficient
+     programs. Furthermore, graph processing is further complicated by
+     irregularities of graph structures. Medusa enables the developers
+     to write sequential C/C++ code. According to :cite:`paper_medusa`
+     it provides a set of APIs which embraces a runtime system to
+     automatically execute those APIs in parallel. A number of
+     optimization techniques are implemented to improvise the
+     efficiency of graph processing. The experimental results provided
+     in the paper :cite:`paper_medusa` demonstrate that (1) Medusa
+     greatly simplifies implementation of GPGPU programs for graph
+     processing, with many fewer lines of source code written by
+     developers; (2) The optimization techniques significantly improve
+     the performance of the runtime system, making its performance
+     comparable with or better than manually tuned GPU graph
+     operations. :cite:`www-medusa` Medusa has proved to be a powerful
+     framework for networked digital audio and video
+     framework. :cite:`www-medusa` By exploiting the APIs it takes a
+     modular approach to construct complex graph systems. 
+
 158. MapGraph
 159. Totem
 
@@ -2885,13 +2943,13 @@ Extraction Tools
 ----------------------------------------------------------------------
 
 197. UIMA
-     
+
      Unstructured Information Management applications (UIMA) provides
      a framework for content analytics. It searches unstructured data
      to retrieve specific targets for the user. For example, when a
      text document is given as input to the system, it identifies
      targets such as persons, places, objects and even
-     associations. According to , :cite:`uima_wiki` theUIMA
+     associations. According to , :cite:`www-wiki-uima` theUIMA
      architecture can be thought of as four dimensions: 1. Specifies
      component interfaces in analytics pipeline.  2. Describes a set
      of Design patterns. 3. Suggests two data representations: an
@@ -2902,14 +2960,14 @@ Extraction Tools
 
      UIMA uses different, possibly mixed, approaches which include
      Natural Language Processing, Machine Learning, IR. UIMA supports
-     multimodal analytics :cite:`uima_ss` which enables the system to
-     process the resource fro various points of view. UIMA is used in
-     several software projects such as the IBM Research's Watson uses
-     UIMA for analyzing unstructured data and Clinical Text Analysis
-     and Knowledge Extraction System (Apache cTAKES) which is a
-     UIMA-based system for information extraction from medical
-     records.
-
+     multimodal analytics :cite:`www-uima-slideshare` which enables
+     the system to process the resource fro various points of
+     view. UIMA is used in several software projects such as the IBM
+     Research's Watson uses UIMA for analyzing unstructured data and
+     Clinical Text Analysis and Knowledge Extraction System (Apache
+     cTAKES) which is a UIMA-based system for information extraction
+     from medical records.
+     
 381. Tika
 
      "The Apache Tika toolkit detects and extracts metadata and text
@@ -3094,6 +3152,23 @@ SQL(NewSQL)
 216. BlinkDB
 217. Spark SQL
 
+     Spark SQL is Apache Spark's module for working with structured
+     data. Spark SQL is a new module that integrates relational
+     processing with Spark's functional programming API
+     :cite:`www-spark-sql`. It is used to seamlessly mix SQL queries
+     with Spark programs. Spark SQL lets you query structured data
+     inside Spark programs, using either SQL or a familiar DataFrame
+     API.  it offers much tighter integration between relational and
+     procedural processing, through a declarative DataFrame API that
+     integrates with procedural Spark code.  Spark SQL reuses the Hive
+     frontend and metastore, giving you full compatibility with
+     existing Hive data, queries, and UDFs by installing it alongside
+     Hive. Spark SQL includes a cost-based optimizer, columnar storage
+     and code generation to make queries fast
+     :cite:`www-spark-sql-2`. At the same time, it scales to thousands
+     of nodes and multi hour queries using the Spark engine, which
+     provides full mid-query fault tolerance.
+
 NoSQL
 ----------------------------------------------------------------------
 
@@ -3119,12 +3194,12 @@ NoSQL
      applications need. At its core, Solandra is a tight integration
      of Solr and Cassandra, meaning within a single JVM both Solr and
      Cassandra are running, and documents are stored and disributed
-     using Cassandra's data model. :cite:`www-solandra`
+     using Cassandra's data model. :cite:`github-solandra`
 
      Solandra supports most out-of-the-box Solr functionality (search,
      faceting, highlights), multi-master (read/write to any node). It
-     features replication, sharding, caching, and compaction managed
-     by Cassandra. :cite:`www-solandra2`
+     features replication, sharing, caching, and compaction managed
+     by Cassandra. :cite:`github-solandra2`
 	  
 221. Voldemort
 
@@ -3238,15 +3313,16 @@ NoSQL
      
 226. Tycoon
 
-     Tycoon/ Kyoto Tycoon :cite:`Tycoon_fl` is a lightweight database
-     server developed by FLL labs and is a distributed Key-value store
-     :cite:`Tycoon_cf`. It is very useful in handling cache data
-     persistent data of various applications. Kyoto Tycoon is also a
-     package of network interface to the DBM called Kyoto Cabinet
-     :cite:`Tycoon_fl2` which contains a library of routines for
-     managing a database. Tycoon is composed of a sever process that
-     manger multiple databases. This renders high concurrency enabling
-     it to handle more than 10 thousand connections at the same time.
+     Tycoon/ Kyoto Tycoon :cite:`www-fallabs-tycoon` is a lightweight
+     database server developed by FLL labs and is a distributed
+     Key-value store :cite:`www-cloufare-tycoon`. It is very useful in
+     handling cache data persistent data of various
+     applications. Kyoto Tycoon is also a package of network interface
+     to the DBM called Kyoto Cabinet :cite:`www-fallabs-kyoto` which
+     contains a library of routines for managing a database. Tycoon is
+     composed of a sever process that manger multiple databases. This
+     renders high concurrency enabling it to handle more than 10
+     thousand connections at the same time.
      
 227. Tyrant
 
@@ -3485,6 +3561,25 @@ NoSQL
      
 241. Sqrrl
 242. Neo4J
+
+     Neo4J :cite:`www-wiki-neo4j` is a popular ACID compliant graph
+     database management system developed by Neo technology. In this
+     database everything is stored as nodes or edges, both of which
+     can be labeled. Labels help in narrowing and simplifying the
+     search process through the database. :cite:`www-slideshare` It is
+     a highly scalable software and can be distributed across multiple
+     machines.  The graph query language that accompanies the software
+     has traversal framework which makes it fast and
+     powerful. :cite:`www-neo4j` The Neo4J is often used for
+     clustering. It offers two feature clustering solutions: Causal
+     Clustering and Highly available
+     clustering. :cite:`www-neo4j-causal-cluster` Casual clustering
+     focuses on safety, scalability and causal consistency in the
+     graph. :cite:`www-neo4j-HA-cluster` The highly available cluster
+     places importance to fault tolerance as each instance in the
+     cluster has full copies of data in their local database.
+
+     
 243. graphdb
 
      A Graph Database is a database that uses graph structures for semantic
@@ -3565,22 +3660,23 @@ NoSQL
 249. Jena
 
      Jena is an open source Java Framework provided by Apache for
-     semantic web applications. (:cite:`jena_wiki`) It provides a
+     semantic web applications. (:cite:`www-w3-jena`) It provides a
      programmatic environment for RDF, RDFS and OWL, SPARQL, GRDDL,
      and includes a rule-based inference engine. Semantic web data
      differs from conventional web applications in that it supports a
      web of data instead of the classic web of documents format. The
      presence of a rule based inference engine enable Jena to perform
-     a reasoning based on OWL and RDFS ontologies.  :cite:`jena_blog`
-     The architecture of Jena contains three layers : Graph layer,
-     model layer and Ontology layer. The graph layer forms the base
-     for the architecture. It does not have an extensive RDF
-     implementation and serves more as a Service provider
-     Interface. According to :cite:`jena_blog` It provides
-     classes/methods that could be further extended. The model layer
-     extends the graph layer and provides objects of type ‘resource’
-     instead of ‘node’ to work with.  The ontology layer enables one
-     to work with triples.
+     a reasoning based on OWL and RDFS ontologies.
+     :cite:`www-trimc-nlp-blogspot` ` The architecture of Jena
+     contains three layers : Graph layer, model layer and Ontology
+     layer. The graph layer forms the base for the architecture. It
+     does not have an extensive RDF implementation and serves more as
+     a Service provider Interface. According to
+     :cite:`www-trimc-nlp-blogspot` It provides classes/methods that
+     could be further extended. The model layer extends the graph
+     layer and provides objects of type ‘resource’ instead of ‘node’
+     to work with.  The ontology layer enables one to work with
+     triples.
 
 250. Sesame
 
@@ -4689,7 +4785,7 @@ DevOps
      deployment. :cite:`www-ansible` Once Ansible gets installed on a
      control node, which is an agentless architecture, it connects to
      a managed node through the default OpenSSH connection
-     type. :cite:`www-ansible2`
+     type. :cite:`www-ansible-wikipedia`
 
      As with most configuration management softwares, Ansible
      distinguishes two types of servers: controlling machines and
@@ -5107,6 +5203,22 @@ IaaS Management from HPC to hypervisors
      several GUI front-ends for QEMU like virt-manager and gnome-box.
 
 342. Hyper-V
+     
+     Hyper-V is a native hypervisor which was first released alongside
+     Windows Server 2008. It is available free of charge for all the
+     Windows Server and some client operating systems since the
+     release. Microsoft Hyper-V, is also codenamed as Viridian and
+     formerly known as Windows Server Virtualization, is a native
+     hypervisor. Xbox One also include Hyper-V, in which it would
+     launch both Xbox OS and Windows 10. :cite:`www-hyper-v-wikipedia`
+
+     Hyper-V is used to create virtual machines on x86-64 systems
+     which are running Windows. Windows 8 onwards, Hyper-V supersedes
+     Windows Virtual PC as the hardware virtualization component of
+     the client editions of Windows NT. A server computer running
+     Hyper-V can be configured to expose individual virtual machines
+     to one or more networks.
+
 343. VirtualBox
 344. OpenVZ
 
@@ -5256,7 +5368,7 @@ IaaS Management from HPC to hypervisors
      and VMs, AJAX web GUI for management, AWS API compatibility,
      Hypervisor agnostic, snapshot management, usage metering, network
      management (VLAN's, security groups), virtual routers, firewalls,
-     load balancers and multi-role support. :cite:`www-cloudstack2`
+     load balancers and multi-role support. :cite:`www-cloudstack-wikipedia`
 	  
 352. CoreOS
      
@@ -5772,6 +5884,18 @@ New Technologies (To Be Integrated by the AIs)
      French tech company Talend, and a frequent Apache project contributor, 
      champions the project. :cite:`www-talend-apachebeam`  It should be grouped
      with the technologies in the *Interoperability* section.
+
+387. Cloudability
+
+     Cloudability is a financial management tool for analyzing and
+     monitoring all cloud expenses across an organization. It can be
+     used for cost monitoring, usage rightsizing, reserved instance
+     planning, cost allocation, role-based visibility. It aggregates
+     expenditures into reports, helps identify opportunities for
+     reducing costs, offers budget alerts and recommendations via SMS
+     and email, and provides APIs for connecting cloud billing and
+     usage data to any business or financial
+     system. :cite:`www-cloudability`
 
 .. _techs-exercise:
 
