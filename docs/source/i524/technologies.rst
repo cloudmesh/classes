@@ -1774,6 +1774,40 @@ High level Programming
      working through application crash reports.
 
 118. Google BigQuery
+
+
+     Google BigQuery :cite:`www-bigquery` is an enterprise data
+     warehouse used for large scale data
+     analytics. :cite:`www-bigquery-documentation` A user can store
+     and query massive datasets by storing the data in BigQuery and
+     querying the database using fast SQL queries using the processing
+     power of Google's infrastructure. In Googe BigQuery a user can
+     control access to both the project and the data based on the his
+     business needs which gives the ability to others to view and even
+     query the data. :cite:`www-bigquery` BigQuery can scale the
+     database from GigaBytes to PetaBytes. BigQuery can be accessed
+     using a Web UI or a command-line tool or even by making calls to
+     the BigQuery REST API using a variety of client libraries such as
+     Java, .NET pr python. BigQuery can also be accessed using a
+     variety of third party tool. BigQuery is fully managed to get
+     started on its own, so there is no need to deploy any resources
+     such as disks and virtual machines.
+
+     :cite:`www-bigquery-documentation` Projects in BigQuery are
+     top-level containers in Google Cloud Platform. They contain the
+     BigQuery Data. Each project is referenced by a name and
+     unique ID. Tables contain the data in BigQuery. Each table has a
+     schema that describes field names, types, and other
+     information. Datasets enable to organise and control access to
+     the tables. Every table must belong to a dataset. A BigQuery data
+     can be shared with others by defining roles and setting
+     permissions for organizations, projects, and datasets, but not on
+     the tables within them. BigQuery stores data in the
+     :cite:`www-bigquery-columnar-storage` Capacitor columnar data
+     format, and offers the standard database concepts of tables,
+     partitions, columns, and rows.
+
+     
 119. Amazon Redshift
      
      Amazon Redshift is a fully managed, petabyte-scale data werehouse service
@@ -1917,6 +1951,30 @@ Streams
      bolt. :cite:`www-storm-home-concepts`
      
 128. S4
+
+
+     S4 :cite:`www-s4` is a distributed, scalable, fault-tolerant,
+     pluggable platform that allows programmers to easily develop
+     applications for processing continuous unbounded streams of
+     data. It is built on similar concept of key-value pairs like the
+     MapReduce. The core platform is written in
+     Java. :cite:`www-s4-overview` S4 provides a runtime distributed
+     platform that handles communication, scheduling and distribution
+     across containers. The containers are called S4 nodes. The data
+     is executed and processed on these S4 nodes. These S4 nodes are
+     then deployed on S4 clusters. The user develops applications and
+     deploys them on S4 clusters for its processing. The applications
+     are built as a graph of Processing Elements (PEs) and Stream that
+     interconnects the PEs. All PEs communicate asynchronously by
+     sending events on streams. Events are dispatched to nodes
+     according to their key in the program. :cite:`www-s4` All nodes
+     are symmetric with no centralized service and no single point of
+     failure. Additionally there is no limit on the number of nodes
+     that can be supported.  :cite:`www-wiki-s4` In S4, both the
+     platform and the applications are built by dependency injection,
+     and configured through independent modules.
+
+     
 129. Samza
 
      Apache Samza is an open-source near-realtime, asynchronous computational 
