@@ -2148,6 +2148,31 @@ Basic Programming model and runtime, SPMD, MapReduce
 
      
 149. Disco
+
+     a. Disco from discoproject.org represents an implementation of mapreduce 
+     for distributed computing that benefits end users by relieving them of 
+     the need to handle “difficult technicalities related to distribution such 
+     as communication protocols, load balancing, locking, job scheduling, and 
+     fault tolerance.” :cite:`www-whatis-discoproject` Its designers wrote the software in Erlang, an 
+     inherently fault tolerant language. In addition, Disco’s creators chose 
+     Erlang because they believe it best meets the software’s need to handle 
+     “tens of thousands of tasks in parallel.” :cite:`www-erlangprime-discoproject` Python was used for 
+     Disco’s libraries. Finally, Disco supports pipelines, “a linear sequence 
+     of stages, where the outputs of each stage are grouped into the input of 
+     the subsequent stage.” :cite:`www-clarridge-discoproject` Its designers implemented Disco’s libraries 
+     in Python. Disco originated within Nokia Corp. to handle large data sets. 
+     Since then it has proven itself reliable in production environments 
+     outside of Nokia. :cite:`www-nokia-discoproject`
+
+     b. DISCO from the research group Service Engineering (SE), 
+     :cite:`www-discoabout-discoabstractionlayer` serves 
+     as “an abstraction layer for OpenStack‘s orchestration component [Heat]” 
+     SE based DISCO on its prior orchestration framework, Hurtle. The software 
+     sets up a computer cluster and deploys the user’s choice of distributed 
+     computing architecture onto the cluster based on setup inputs provided by 
+     the user. DISCO offers a command line interface via HTTP to directly 
+     access OpenStack. :cite:`www-discodescribed-discoabstractionlayer`
+
 150. Hama
 
      Apache Hama is a framework for Big Data analytics which uses the
@@ -2582,6 +2607,19 @@ Inter process communication Collectives
 
 182. Event Hubs
 
+     Azure Event Hubs is a hyper-scale telemetry ingestion service. It
+     collects, transforms, and stores millions of events. As a
+     distributed streaming platform, it offers low latency and
+     configurable time retention enabling one to ingress massive
+     amounts of telemetry into the cloud and read the data from
+     multiple applications using publish-subscribe
+     semantics. :cite:`www-eventhubs` It is a highly scalable data
+     streaming platform. Data sent to an Event Hub can be transformed
+     and stored using any real-time analytics provider or
+     batching/storage adapters. With the ability to provide
+     publish-subscribe capabilities , Event Hubs serves as the "on
+     ramp" for Big Data.
+
 In-memory databases/caches
 ----------------------------------------------------------------------
 
@@ -2768,12 +2806,12 @@ Object-relational mapping
 192. Hibernate
 193. OpenJPA
 
-     According to `cite`:www-openjpa, Apache OpenJPA is a Java
+     According to :cite:`www-openjpa`, Apache OpenJPA is a Java
      persistence project developed by The Apache Software Foundation that
      can either be used as Plain old Java Object (POJO) or could be used in
      any Java EE compliant containers.It provides object relational mapping
      which effectively simplifies the storing of relational dependencies
-     among objects in databases. According to `cite`:www-openjpa-wiki,
+     among objects in databases. :cite:`www-openjpa-wiki` mentions that
      Kodo, an implementation of Java Data Objects acted as a precursor to
      the development of OpenJPA. In 2006, BEA Systems donated the majority
      of the source code of Kodo to The Apache Software Foundation under the
@@ -3360,13 +3398,28 @@ NoSQL
      provides high performance and low latency and scales to hundreds of
      petabytes :cite:`www-cloudbigtable`. Bigtable powers many core
      Google products, such as Search, Analytics, Maps, Earth, Gmail,
-     and YouTube. Bigtable also drives Google Cloud Datastore and
+     and YouTube. Bigtable also drives Google Cloud Datastore and influenced
      Spanner, a distributed NewSQL database also developed by
      Google :cite:`www-wikispanner` :cite:`www-wikibigtable`.
-     Since May 6, 2015, a version of Bigtable has been available to the 
-     public :cite:`www-wikibigtable`.
+     Since May 6, 2015, Bigtable has been available to the 
+     public as Cloud Bigtable :cite:`www-wikibigtable`.
 
 236. LevelDB
+
+     LevelDB is a light-weight, single-purpose library for persistence
+     with bindings to many platforms. :cite:`www-leveldb` It is a
+     simple open source on-disk key/value data store built by Google,
+     inspired by BigTable and is used in Google Chrome and many other
+     products. It supports arbitrary byte arrays as both keys and
+     values, singular get, put and delete operations, batched put and
+     delete, bi-directional iterators and simple compression using the
+     very fast Snappy algorithm. It is hosted on GitHub under the New
+     BSD License and has been ported to a variety of Unix-based
+     systems, Mac OS X, Windows, and Android. It is not an SQL
+     database and does not support SQL queries. Also, it has no
+     support for indexes. Applications use LevelDB as a library, as it
+     does not provide a server or command-line interface.
+
 237. Megastore and Spanner
 
      Spanner :cite:`corbett-spanner` is Google's distributed database
@@ -4003,7 +4056,7 @@ Cluster Resource Management
      
 279. SGE
 
-     According to `cite`:www-sge-wiki, Sun Grid Engine (SGE) renamed
+     According to :cite:`www-sge-wiki`, Sun Grid Engine (SGE) renamed
      to Oracle Grid Engine (OGE) is a grid computing cluster software
      system. Grid Engine is a high performance computing cluster used
      for managing job queueing in distributed and parallel

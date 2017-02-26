@@ -4064,6 +4064,28 @@
   Url =		 {https://wiki.apache.org/incubator/ReefProposal }
 }
 
+@Misc {www-eventhubs,
+  Title = 		{Event Hubs}, 
+  Author = 		{{Microsoft}},
+  HowPublished = 	{Web Page},
+  Month =	 	dec,
+  Note =		{accessed 2017-02-25},
+  Year =		2016,
+  Owner = 		{S17-IR-2012},
+  Url = 		{https://azure.microsoft.com/en-us/services/event-hubs/}
+}
+
+@Misc {www-leveldb,
+  Title = 		{LevelDB}, 
+  Author = 		{{LevelDB}},
+  HowPublished = 	{Web Page},
+  Month =	 	feb,
+  Note =		{accessed 2017-02-25},
+  Year =		2017,
+  Owner = 		{S17-IR-2012},
+  Url = 		{leveldb.org}
+}
+
 % S17-IR-2013
 
 @Misc{apache-flume,
@@ -4557,8 +4579,12 @@
 }
 
 % S17-IR-2021
+% All your entries should be below the S17-IR-2021 section and not under the unknown HIDs section.
+% The owner attribute is missing for three entries at the end.
+% Incorrect quotation marks have been used for citation.  Due to this, the correct references are not reflected in the Webpage.
+
 @InProceedings{facebook-paper-2016,
-  review = {},
+  review = {Incorrect quotation marks have been used for citation, due to which they are not displayed correctly.  You need to use '`' instead of an apostrophe '''.  Facebook.inc should be Facebook.Inc.  You should also do some grammatical checks like data processing instead of data 'P'rocessing, etc.},
   author       = {Guoqiang Jerry Chen and Janet L. Wiener and Shridhar Iyer and Anshul Jaiswal anad Ran Lei Nikhil Simha and Wei Wang and Kevin Wilfong and Tim Williamson and Serhat Yilmaz},
   title        = {Realtime Data Processing at Facebook},
   year         = {2016},
@@ -4608,7 +4634,7 @@ which makes i fairly real time.},
 }
 
 @Misc{www-facebook,
-  review = {},
+  review = {Note should contain some text like "Date Accessed".  As per current entry, it looks just like a nominal date entry which it isn't.},
   title        = {Facebook's New Realtime Analytics System: HBase To Process 20 Billion Events Per Day},
   howpublished = {Web Page},
   note         = {2017-2-8},
@@ -4618,7 +4644,7 @@ which makes i fairly real time.},
 
 
 @Book{redis-book-2011,
-  review = {},
+  review = {The author entry is incorrect.  You need to use 'and' for separating two author names.},
   title     = {Reddis Cookbook:Practical Technique for fast Data Manipulation},
   publisher = {O'Reilly Media},
   year      = {2011},
@@ -4656,7 +4682,7 @@ frameworks like Node.js ,Django,Ruby-on-Rails etc.},
 }
 
 @Book{redis-book-2016,
-  review = {},
+  review = {The formatting of ISBN is incorrect; though it is not a major issue},
   title     = {Mastering Redis},
   publisher = {Packt Publishing},
   year      = {2016},
@@ -4666,7 +4692,7 @@ frameworks like Node.js ,Django,Ruby-on-Rails etc.},
 }
 
 @Misc{www-redis,
-  review = {},
+  review = {The note entry should contain some text like "Date accessed", etc.  As per the current format, it looks like a date attribute entry which it isn't.},
   title        = {Introduction to REDIX},
   howpublished = {Web Page},
   note         = {2017-2-8},
@@ -4675,7 +4701,7 @@ frameworks like Node.js ,Django,Ruby-on-Rails etc.},
 }
 
 @InProceedings{randomname,
-  review = {},
+  review = {The pages entry is incorrect.  There should preferably be a single hypen.  Also the name of the attribute 'randomname' should be more meaningful.},
 author = {Engle and Cliff and Lupher and Antonio and Xin and Reynold and Zaharia and Matei and Franklin and Michael J. and Shenker and Scott and Stoica and Ion},
 title = {Shark: Fast Data Analysis Using Coarse-grained Distributed Memory},
 booktitle = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},
@@ -4725,7 +4751,7 @@ owner     = {S17-IR-2021},
 }
 
 @InProceedings{ligra-paper-2013,
-  review = {},
+  review = {There should be a comma between Pennsylvania and USA.  Also, correct spacing should be present in the publisher attribute.},
   author    = {Julian Shun and Guy E. Blelloch},
   title     = {Ligra: A Lightweight Graph Processing Framework for Shared Memory},
   booktitle = {ACM SIGPLAN Notices - PPoPP '13},
@@ -4739,7 +4765,7 @@ owner     = {S17-IR-2021},
 }
 
 @InProceedings{ligra-paper-2,
-  review = {},
+  review = {N/A},
   author    = {Julian Shun, Guy E. Blelloch and Laxman Dhulipala},
   title     = {Smaller and Faster: Parallel Processing of Compressed Graphs with Ligra+},
   booktitle = {ACM SIGPLAN Notices - PPoPP '13DCC '15 Proceedings of the 2015 Data Compression Conference},
@@ -7124,7 +7150,7 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
 }
 
 @Book{docker-book,
-  review = {},
+  review = {The title preferably should not contain everything in capitals.  Also, correct commas should be used in the address attribute.},
   title     = {Docker Up and Running, SHIPPING RELIABLE CONTAINERS IN PRODUCTION},
   publisher = {O'REILLY},
   year      = {2015},
@@ -7160,7 +7186,7 @@ it were running on a single, huge computer" as swarm can be scaled upto
 }
 
 @Misc{www-docker,
-  review = {},
+  review = {The title attribute is incorrect, as there is no reason behind using an extra pair of curly braces.},
   title        = {{doxker},swarm},
   howpublished = {WebPage},
   note         = {Accessed: 2017-8-02},
@@ -7506,5 +7532,76 @@ abstract     = {Ironic :cite:`www-ironicwebsite` project is developed
   Owner                    = {S17-IO-3010},
   Timestamp                = {2017.02.25},
   Url                      = {http://www.infoworld.com/article/3056172/application-development/apache-beam-wants-to-be-uber-api-for-big-data.html}
+}
+
+@Misc{www-clarridge-discoproject,
+  Title                    = {Disco - A Powerful Erlang and Python Map/Reduce Framework},
+  Author                   = {Clarridge, Tait},
+  HowPublished             = {Blog},
+  Month                    = {may},
+  Note                     = {accessed 25-feb-2017},
+  Year                     = {2014},
+  Owner                    = {S17-IO-3010},
+  Timestamp                = {2017.02.25},
+  Url                      = {http://www.taitclarridge.com/techlog/2014/05/disco-a-powerful-erlang-and-python-mapreduce-framework.html}
+}
+
+@Misc{www-whatis-discoproject,
+  Title                    = {What is Disco},
+  Author                   = {{The Disco Project}},
+  HowPublished             = {Web page},
+  Month                    = {feb},
+  Note                     = {accessed 25-feb-2017},
+  Year                     = {2017},
+  Owner                    = {S17-IO-3010},
+  Timestamp                = {2017.02.25},
+  Url                      = {http://disco.readthedocs.io/en/develop/intro.html}
+}
+
+@Misc{www-erlangprime-discoproject,
+  Title                    = {Why Not Hadoop?},
+  Author                   = {{The Disco Project}},
+  HowPublished             = {Web page},
+  Month                    = {feb},
+  Note                     = {accessed 25-feb-2017},
+  Year                     = {2017},
+  Owner                    = {S17-IO-3010},
+  Timestamp                = {2017.02.25},
+  Url                      = {http://disco.readthedocs.io/en/develop/faq.html#why-not-hadoop}
+}
+
+@Misc{www-discodescribed-discoabstractionlayer,
+  Title                    = {First public release of DISCO - a new distributed computing orchestration framework},
+  Author                   = {{mesz}},
+  HowPublished             = {Blog},
+  Month                    = {may},
+  Note                     = {accessed 25-feb-2016},
+  Year                     = {2016},
+  Owner                    = {S17-IO-3010},
+  Timestamp                = {2017.02.25},
+  Url                      = {https://blog.zhaw.ch/icclab/first-beta-release-of-disco/}
+}
+
+@Misc{www-nokia-discoproject,
+  Author                   = {{Nokia Corp.}},
+  HowPublished             = {Web page},
+  Month                    = {feb},
+  Note                     = {accessed 25-feb-2017},
+  Year                     = {2017},
+  Owner                    = {S17-IO-3010},
+  Timestamp                = {2017.02.25},
+  Url                      = {http://www.nokia.com/en_int}
+}
+
+@Misc{www-discoabout-discoabstractionlayer,
+  Title                    = {About Us},
+  Author                   = {{ZHAW Zurich University of Applied Sciences}},
+  HowPublished             = {Blog},
+  Month                    = {feb},
+  Note                     = {accessed 25-feb-2017},
+  Year                     = {2017},
+  Owner                    = {S17-IO-3010},
+  Timestamp                = {2017.02.25},
+  Url                      = {https://blog.zhaw.ch/icclab/ueber-uns/}
 }
 @Comment{jabref-meta: databaseType:bibtex;}
