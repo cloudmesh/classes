@@ -5885,7 +5885,7 @@ New Technologies (To Be Integrated by the AIs)
      champions the project. :cite:`www-talend-apachebeam`  It should be grouped
      with the technologies in the *Interoperability* section.
 
-388. Cloudability
+387. Cloudability
 
      Cloudability is a financial management tool for analyzing and
      monitoring all cloud expenses across an organization. It can be
@@ -5897,7 +5897,7 @@ New Technologies (To Be Integrated by the AIs)
      usage data to any business or financial
      system. :cite:`www-cloudability`
 
-387. Blaze  
+388. Blaze  
 
      Blaze library translates NumPy/Pandas-like syntax to data computing systems (e.g. database
      , in-memory, distributed-computing). This provides Python users with a familiar
