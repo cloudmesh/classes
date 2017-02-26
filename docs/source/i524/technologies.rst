@@ -96,6 +96,26 @@ Workflow-Orchestration
    community to address common needs :cite:`www-kepler`.
 
 6. Swift
+
+   Swift is a general-purpose, multi-paradigm, compiled programming
+   language. It has been developed by Apple Inc. for iOS, macOS,
+   watchOS, tvOS, and Linux. This programming language is intended to
+   be more robust and resilient to erroneous code than Objective-C,
+   and more concise. It has been built with the LLVM compiler
+   framework included in Xcode 6 and later and, on platforms other
+   than Linux. C, Objective-C, C++ and Swift code can be run within
+   one program as Swift uses the Objective-C runtime
+   library. :cite:`www-swift-wikipedia`
+
+   Swift supports the core concepts that made Objective-C flexible,
+   notably dynamic dispatch, widespread late binding, extensible
+   programming and similar features. Swift features have well-known
+   safety and performance trade-offs. A system that helps address
+   common programming errors like null pointers was introduced to
+   enhance safety. Apple has invested considerable effort in
+   aggressive optimization that can flatten out method calls and
+   accessors to eliminate this overhead to handle performance issues.
+      
 7. Taverna
 
    Taverna is workflow management system. According to
@@ -3150,12 +3170,12 @@ NoSQL
      applications need. At its core, Solandra is a tight integration
      of Solr and Cassandra, meaning within a single JVM both Solr and
      Cassandra are running, and documents are stored and disributed
-     using Cassandra's data model. :cite:`www-solandra`
+     using Cassandra's data model. :cite:`github-solandra`
 
      Solandra supports most out-of-the-box Solr functionality (search,
      faceting, highlights), multi-master (read/write to any node). It
-     features replication, sharding, caching, and compaction managed
-     by Cassandra. :cite:`www-solandra2`
+     features replication, sharing, caching, and compaction managed
+     by Cassandra. :cite:`github-solandra2`
 	  
 221. Voldemort
 
@@ -4720,7 +4740,7 @@ DevOps
      deployment. :cite:`www-ansible` Once Ansible gets installed on a
      control node, which is an agentless architecture, it connects to
      a managed node through the default OpenSSH connection
-     type. :cite:`www-ansible2`
+     type. :cite:`www-ansible-wikipedia`
 
      As with most configuration management softwares, Ansible
      distinguishes two types of servers: controlling machines and
@@ -5138,6 +5158,22 @@ IaaS Management from HPC to hypervisors
      several GUI front-ends for QEMU like virt-manager and gnome-box.
 
 342. Hyper-V
+     
+     Hyper-V is a native hypervisor which was first released alongside
+     Windows Server 2008. It is available free of charge for all the
+     Windows Server and some client operating systems since the
+     release. Microsoft Hyper-V, is also codenamed as Viridian and
+     formerly known as Windows Server Virtualization, is a native
+     hypervisor. Xbox One also include Hyper-V, in which it would
+     launch both Xbox OS and Windows 10. :cite:`www-hyper-v-wikipedia`
+
+     Hyper-V is used to create virtual machines on x86-64 systems
+     which are running Windows. Windows 8 onwards, Hyper-V supersedes
+     Windows Virtual PC as the hardware virtualization component of
+     the client editions of Windows NT. A server computer running
+     Hyper-V can be configured to expose individual virtual machines
+     to one or more networks.
+
 343. VirtualBox
 344. OpenVZ
 
@@ -5287,7 +5323,7 @@ IaaS Management from HPC to hypervisors
      and VMs, AJAX web GUI for management, AWS API compatibility,
      Hypervisor agnostic, snapshot management, usage metering, network
      management (VLAN's, security groups), virtual routers, firewalls,
-     load balancers and multi-role support. :cite:`www-cloudstack2`
+     load balancers and multi-role support. :cite:`www-cloudstack-wikipedia`
 	  
 352. CoreOS
      
@@ -5803,6 +5839,18 @@ New Technologies (To Be Integrated by the AIs)
      French tech company Talend, and a frequent Apache project contributor, 
      champions the project. :cite:`www-talend-apachebeam`  It should be grouped
      with the technologies in the *Interoperability* section.
+
+387. Cloudability
+
+     Cloudability is a financial management tool for analyzing and
+     monitoring all cloud expenses across an organization. It can be
+     used for cost monitoring, usage rightsizing, reserved instance
+     planning, cost allocation, role-based visibility. It aggregates
+     expenditures into reports, helps identify opportunities for
+     reducing costs, offers budget alerts and recommendations via SMS
+     and email, and provides APIs for connecting cloud billing and
+     usage data to any business or financial
+     system. :cite:`www-cloudability`
 
 .. _techs-exercise:
 
