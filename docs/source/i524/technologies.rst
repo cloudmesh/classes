@@ -2813,12 +2813,12 @@ Object-relational mapping
 192. Hibernate
 193. OpenJPA
 
-     According to `cite`:www-openjpa, Apache OpenJPA is a Java
+     According to :cite:`www-openjpa`, Apache OpenJPA is a Java
      persistence project developed by The Apache Software Foundation that
      can either be used as Plain old Java Object (POJO) or could be used in
      any Java EE compliant containers.It provides object relational mapping
      which effectively simplifies the storing of relational dependencies
-     among objects in databases. According to `cite`:www-openjpa-wiki,
+     among objects in databases. :cite:`www-openjpa-wiki` mentions that
      Kodo, an implementation of Java Data Objects acted as a precursor to
      the development of OpenJPA. In 2006, BEA Systems donated the majority
      of the source code of Kodo to The Apache Software Foundation under the
@@ -4048,7 +4048,7 @@ Cluster Resource Management
      
 279. SGE
 
-     According to `cite`:www-sge-wiki, Sun Grid Engine (SGE) renamed
+     According to :cite:`www-sge-wiki`, Sun Grid Engine (SGE) renamed
      to Oracle Grid Engine (OGE) is a grid computing cluster software
      system. Grid Engine is a high performance computing cluster used
      for managing job queueing in distributed and parallel
