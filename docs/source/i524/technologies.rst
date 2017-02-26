@@ -475,15 +475,14 @@ Application and Analytics
 
 32. Mahout 
 
- :cite:`www-mahout`
- "Apache Mahout software provides three major features:
-   (1) A simple and extensible programming environment and framework
-       for building scalable algorithms
-   (2) A wide variety of premade algorithms for Scala + Apache Spark,
-       H2O, Apache Flink
-   (3) Samsara, a vector math experimentation environment with R-like
+:cite:`www-mahout`
+"Apache Mahout software provides three major features:
+(1) A simple and extensible programming environment and framework for
+    building scalable algorithms
+(2) A wide variety of premade algorithms for Scala + Apache Spark,
+    H2O, Apache Flink
+(3) Samsara, a vector math experimentation environment with R-like
     syntax which works at scale"
-
 
 33. MLlib
 34. Mbase
@@ -599,7 +598,7 @@ routines to perform a certain subtask or common low-level
 computation. ScaLAPACK routines are based on block-partitioned
 algorithms in order to minimize the frequency of data movement between
 different levels of the memory hierarchy.
-    
+  
 42. PetSc
 43. PLASMA MAGMA
 
@@ -1507,11 +1506,11 @@ Application Hosting Frameworks
      framework with simulation and social networking
      capabilities.:cite:`hubzeropaper2010`
 
-101. OODT
+101. OODT   
 
-The Apache Object Oriented Data Technology (OODT) is an open
-source data management system framework. OODT was originally developed
-at NASA Jet Propulsion Laboratory to support capturing, processing and
+The Apache Object Oriented Data Technology (OODT) is an open source
+data management system framework. OODT was originally developed at
+NASA Jet Propulsion Laboratory to support capturing, processing and
 sharing of data for NASA's scientific archives. OODT focuses on two
 canonical use cases: Big Data processing and on Information
 integration. It facilitates the integration of highly distributed and
@@ -1519,6 +1518,7 @@ heterogeneous data intensive systems enabling the integration of
 different, distributed software systems, metadata and data. OODT is
 written in the Java, and through its REST API used in other languages
 including Python. :cite:`www-oodt`
+
      
 102. Agave
 
@@ -1740,7 +1740,6 @@ more scalable than currently available parallel database systems and
 DBMS/MapReduce hybrid systems. It has been demonstrated on clusters
 with 100 nodes and should scale as long as Hadoop scales, while
 achieving superior performance on structured data analysis workloads.
-
      
 114. PolyBase
 115. Pivotal HD/Hawq
@@ -4209,6 +4208,7 @@ grid-optimized job submission. Moab's unique intelligent and
 predictive capabilities evaluate the impact of future orchestration
 decisions across diverse workload domains (HPC, HTC, Big Data, and
 Cloud VMs).:cite:`www-moab`
+
 
 282. Slurm :cite:`www-slurm`
 
