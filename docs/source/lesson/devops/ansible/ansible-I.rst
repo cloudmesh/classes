@@ -47,6 +47,8 @@ When you execute Ansible within this folder, this local configuration file is al
    
 This local configuration file simple tells that the target machines' names are given in a file named 'hosts'
 
+.. note:: In your assignments, we choose to use ``inventory`` instead of ``ansible.cfg``. More details will be given when we introduce ``ansible-galaxy`` in following chapters. At this moment, getting yourself familiar with some concepts of configuring the Ansible environment is good enough.
+
 - specify hosts in the file
 
 You should have accesses to all VMs listed in this file as part of our prerequisites. Create and edit file 'hosts'::
