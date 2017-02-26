@@ -3360,11 +3360,11 @@ NoSQL
      provides high performance and low latency and scales to hundreds of
      petabytes :cite:`www-cloudbigtable`. Bigtable powers many core
      Google products, such as Search, Analytics, Maps, Earth, Gmail,
-     and YouTube. Bigtable also drives Google Cloud Datastore and
+     and YouTube. Bigtable also drives Google Cloud Datastore and influenced
      Spanner, a distributed NewSQL database also developed by
      Google :cite:`www-wikispanner` :cite:`www-wikibigtable`.
-     Since May 6, 2015, a version of Bigtable has been available to the 
-     public :cite:`www-wikibigtable`.
+     Since May 6, 2015, a version of Bigtablehas been available to the 
+     public as Cloud Bigtable :cite:`www-wikibigtable`.
 
 236. LevelDB
 237. Megastore and Spanner
