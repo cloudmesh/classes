@@ -3,6 +3,7 @@
 .. toctree::
    :maxdepth: 1
 
+   ansible/index
    chef
    comparison
    composite_cluster

@@ -1,4 +1,4 @@
-Ansible III: Write a Playbooks for MongoDB
+Ansible: Write a Playbooks for MongoDB
 =================
 
 Ansible Playbooks are automated scripts written in YAML data format.  Instead
