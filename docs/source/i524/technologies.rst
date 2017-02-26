@@ -5885,6 +5885,18 @@ New Technologies (To Be Integrated by the AIs)
      champions the project. :cite:`www-talend-apachebeam`  It should be grouped
      with the technologies in the *Interoperability* section.
 
+388. Cloudability
+
+     Cloudability is a financial management tool for analyzing and
+     monitoring all cloud expenses across an organization. It can be
+     used for cost monitoring, usage rightsizing, reserved instance
+     planning, cost allocation, role-based visibility. It aggregates
+     expenditures into reports, helps identify opportunities for
+     reducing costs, offers budget alerts and recommendations via SMS
+     and email, and provides APIs for connecting cloud billing and
+     usage data to any business or financial
+     system. :cite:`www-cloudability`
+
 387. Blaze  
 
      Blaze library translates NumPy/Pandas-like syntax to data computing systems (e.g. database
@@ -5900,18 +5912,6 @@ New Technologies (To Be Integrated by the AIs)
      session. It allows the data scientists and analyst to write their queries in a unified
      way that does not have to change because the data is stored in another format or a different
      data-store. :cite:`www-blaze` 
-
-388. Cloudability
-
-     Cloudability is a financial management tool for analyzing and
-     monitoring all cloud expenses across an organization. It can be
-     used for cost monitoring, usage rightsizing, reserved instance
-     planning, cost allocation, role-based visibility. It aggregates
-     expenditures into reports, helps identify opportunities for
-     reducing costs, offers budget alerts and recommendations via SMS
-     and email, and provides APIs for connecting cloud billing and
-     usage data to any business or financial
-     system. :cite:`www-cloudability`
 
 .. _techs-exercise:
 
