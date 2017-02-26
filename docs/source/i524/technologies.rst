@@ -328,19 +328,20 @@ Workflow-Orchestration
     can ingest data from various sources, transform/ process data and
     publish the result data to the data stores. A data management
     gateway enables access to data on SQL Databases
-    :cite:`Azure_df`. The data processing is done by It works by
+    :cite:`www-jamesserra`. The data processing is done by It works by
     creating pipelines to transform the raw data into a format that
     can be readily used by BI Tools or applications. The services
     comes with rich visualization aids that aid data analysis. Data
     Factory supports two types of activities: data movement activities
-    and data transformation activities. Data Movement :cite:`Azure_ms`
-    is a Copy Activity in Data Factory that copies data from a data
-    source to a Data sink. Data Factory supports the following data
-    stores. Data from any source can be written to any sink.  Data
-    Transformation: Azure Data Factory supports the following
-    transformation activities such as Map reduce, Hive transformations
-    and Machine learning activities.  Data factory is a great tool to
-    analyze web data, sensor data and geo-spatial data.
+    and data transformation activities. Data Movement
+    :cite:`www-microsoft-azure` is a Copy Activity in Data Factory
+    that copies data from a data source to a Data sink. Data Factory
+    supports the following data stores. Data from any source can be
+    written to any sink.  Data Transformation: Azure Data Factory
+    supports the following transformation activities such as Map
+    reduce, Hive transformations and Machine learning activities.Data
+    factory is a great tool to analyze web data, sensor data and
+    geo-spatial data.
 
 24. Google Cloud Dataflow
     
@@ -1869,24 +1870,26 @@ High level Programming
 
 124. Google Cloud DataFlow
      
-     Google Cloud DataFlow :cite:`data_flow1` is a unified programming
-     model that manages the deployment, maintenance and optimization
-     of data processes such as batch processing, ETL etc. It creates a
-     pipeline of tasks and dynamically allocates resources thereby
-     maintaining high efficiency and low latency. According to
-     :cite:`data_flow1`, these capabilities make it suitable for
-     solving challenging big data problems. Also, google DataFlow
-     overcomes the performance issues faced by Hadoops Mapreduce while
-     building pipelines. As stated in :cite:`dataconomy` the
-     performance of MapReduce started deteriorating while facing
-     multiplepetabytes of data whereas Google Cloud Dataflow is
-     apparently better at handling enormous
-     datasets. :cite:`data_flow1` Additionally Google Dataflow can be
-     integrated with Cloud Storage, Cloud Pub/Sub, Cloud Datastore,
-     Cloud Bigtable, and BigQuery. The unified programming ability is
-     another noteworthy feature which uses Apache Beam SDKs to support
-     powerful operations like windowing and allows correctness control
-     to be applied to batch and stream  data processes.
+     Google Cloud DataFlow :cite:`www-cloud-google1` is a unified
+     programming model that manages the deployment, maintenance and
+     optimization of data processes such as batch processing, ETL
+     etc. It creates a pipeline of tasks and dynamically allocates
+     resources thereby maintaining high efficiency and low
+     latency. According to :cite:`www-cloud-google1`, these
+     capabilities make it suitable for solving challenging big data
+     problems. Also, google DataFlow overcomes the performance issues
+     faced by Hadoops Mapreduce while building pipelines. As stated in
+     :cite:`www-dataconomy` the performance of MapReduce started
+     deteriorating while facing multiple petabytes of data whereas
+     Google Cloud Dataflow is apparently better at handling enormous
+     datasets.  :cite:`www-cloud-google1` Additionally Google Dataflow
+     can be integrated with Cloud Storage, Cloud Pub/Sub, Cloud
+     Datastore, Cloud Bigtable, and BigQuery. The unified programming
+     ability is another noteworthy feature which uses Apache Beam SDKs
+     to support powerful operations like windowing and allows
+     correctness control to be applied to batch and stream data
+     processes.
+
      
 125. Summingbird
 126. Lumberyard
@@ -2281,6 +2284,27 @@ Basic Programming model and runtime, SPMD, MapReduce
      C++ and Java.
 	   
 157. Medusa-GPU
+     
+     Graphs are commonly used data structures . However, developers
+     may find it challenging to write correct and efficient
+     programs. Furthermore, graph processing is further complicated by
+     irregularities of graph structures. Medusa enables the developers
+     to write sequential C/C++ code. According to :cite:`paper_medusa`
+     it provides a set of APIs which embraces a runtime system to
+     automatically execute those APIs in parallel. A number of
+     optimization techniques are implemented to improvise the
+     efficiency of graph processing. The experimental results provided
+     in the paper :cite:`paper_medusa` demonstrate that (1) Medusa
+     greatly simplifies implementation of GPGPU programs for graph
+     processing, with many fewer lines of source code written by
+     developers; (2) The optimization techniques significantly improve
+     the performance of the runtime system, making its performance
+     comparable with or better than manually tuned GPU graph
+     operations. :cite:`www-medusa` Medusa has proved to be a powerful
+     framework for networked digital audio and video
+     framework. :cite:`www-medusa` By exploiting the APIs it takes a
+     modular approach to construct complex graph systems. 
+
 158. MapGraph
 159. Totem
 
@@ -2919,13 +2943,13 @@ Extraction Tools
 ----------------------------------------------------------------------
 
 197. UIMA
-     
+
      Unstructured Information Management applications (UIMA) provides
      a framework for content analytics. It searches unstructured data
      to retrieve specific targets for the user. For example, when a
      text document is given as input to the system, it identifies
      targets such as persons, places, objects and even
-     associations. According to , :cite:`uima_wiki` theUIMA
+     associations. According to , :cite:`www-wiki-uima` theUIMA
      architecture can be thought of as four dimensions: 1. Specifies
      component interfaces in analytics pipeline.  2. Describes a set
      of Design patterns. 3. Suggests two data representations: an
@@ -2936,14 +2960,14 @@ Extraction Tools
 
      UIMA uses different, possibly mixed, approaches which include
      Natural Language Processing, Machine Learning, IR. UIMA supports
-     multimodal analytics :cite:`uima_ss` which enables the system to
-     process the resource fro various points of view. UIMA is used in
-     several software projects such as the IBM Research's Watson uses
-     UIMA for analyzing unstructured data and Clinical Text Analysis
-     and Knowledge Extraction System (Apache cTAKES) which is a
-     UIMA-based system for information extraction from medical
-     records.
-
+     multimodal analytics :cite:`www-uima-slideshare` which enables
+     the system to process the resource fro various points of
+     view. UIMA is used in several software projects such as the IBM
+     Research's Watson uses UIMA for analyzing unstructured data and
+     Clinical Text Analysis and Knowledge Extraction System (Apache
+     cTAKES) which is a UIMA-based system for information extraction
+     from medical records.
+     
 381. Tika
 
      "The Apache Tika toolkit detects and extracts metadata and text
@@ -3289,15 +3313,16 @@ NoSQL
      
 226. Tycoon
 
-     Tycoon/ Kyoto Tycoon :cite:`Tycoon_fl` is a lightweight database
-     server developed by FLL labs and is a distributed Key-value store
-     :cite:`Tycoon_cf`. It is very useful in handling cache data
-     persistent data of various applications. Kyoto Tycoon is also a
-     package of network interface to the DBM called Kyoto Cabinet
-     :cite:`Tycoon_fl2` which contains a library of routines for
-     managing a database. Tycoon is composed of a sever process that
-     manger multiple databases. This renders high concurrency enabling
-     it to handle more than 10 thousand connections at the same time.
+     Tycoon/ Kyoto Tycoon :cite:`www-fallabs-tycoon` is a lightweight
+     database server developed by FLL labs and is a distributed
+     Key-value store :cite:`www-cloufare-tycoon`. It is very useful in
+     handling cache data persistent data of various
+     applications. Kyoto Tycoon is also a package of network interface
+     to the DBM called Kyoto Cabinet :cite:`www-fallabs-kyoto` which
+     contains a library of routines for managing a database. Tycoon is
+     composed of a sever process that manger multiple databases. This
+     renders high concurrency enabling it to handle more than 10
+     thousand connections at the same time.
      
 227. Tyrant
 
@@ -3536,6 +3561,25 @@ NoSQL
      
 241. Sqrrl
 242. Neo4J
+
+     Neo4J :cite:`www-wiki-neo4j` is a popular ACID compliant graph
+     database management system developed by Neo technology. In this
+     database everything is stored as nodes or edges, both of which
+     can be labeled. Labels help in narrowing and simplifying the
+     search process through the database. :cite:`www-slideshare` It is
+     a highly scalable software and can be distributed across multiple
+     machines.  The graph query language that accompanies the software
+     has traversal framework which makes it fast and
+     powerful. :cite:`www-neo4j` The Neo4J is often used for
+     clustering. It offers two feature clustering solutions: Causal
+     Clustering and Highly available
+     clustering. :cite:`www-neo4j-causal-cluster` Casual clustering
+     focuses on safety, scalability and causal consistency in the
+     graph. :cite:`www-neo4j-HA-cluster` The highly available cluster
+     places importance to fault tolerance as each instance in the
+     cluster has full copies of data in their local database.
+
+     
 243. graphdb
 
      A Graph Database is a database that uses graph structures for semantic
@@ -3616,22 +3660,23 @@ NoSQL
 249. Jena
 
      Jena is an open source Java Framework provided by Apache for
-     semantic web applications. (:cite:`jena_wiki`) It provides a
+     semantic web applications. (:cite:`www-w3-jena`) It provides a
      programmatic environment for RDF, RDFS and OWL, SPARQL, GRDDL,
      and includes a rule-based inference engine. Semantic web data
      differs from conventional web applications in that it supports a
      web of data instead of the classic web of documents format. The
      presence of a rule based inference engine enable Jena to perform
-     a reasoning based on OWL and RDFS ontologies.  :cite:`jena_blog`
-     The architecture of Jena contains three layers : Graph layer,
-     model layer and Ontology layer. The graph layer forms the base
-     for the architecture. It does not have an extensive RDF
-     implementation and serves more as a Service provider
-     Interface. According to :cite:`jena_blog` It provides
-     classes/methods that could be further extended. The model layer
-     extends the graph layer and provides objects of type ‘resource’
-     instead of ‘node’ to work with.  The ontology layer enables one
-     to work with triples.
+     a reasoning based on OWL and RDFS ontologies.
+     :cite:`www-trimc-nlp-blogspot` ` The architecture of Jena
+     contains three layers : Graph layer, model layer and Ontology
+     layer. The graph layer forms the base for the architecture. It
+     does not have an extensive RDF implementation and serves more as
+     a Service provider Interface. According to
+     :cite:`www-trimc-nlp-blogspot` It provides classes/methods that
+     could be further extended. The model layer extends the graph
+     layer and provides objects of type ‘resource’ instead of ‘node’
+     to work with.  The ontology layer enables one to work with
+     triples.
 
 250. Sesame
 
