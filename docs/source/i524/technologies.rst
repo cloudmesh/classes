@@ -2514,6 +2514,29 @@ NoSQL
      be queried.  :cite:`www-Allegrow`
 
 246. Blazegraph
+
+     Blazegraph is a graph database also supporting property graph, 
+     capable of clustered deployment. A graph database is a NoSQL 
+     database. It is based on a graph theory of nodes and edges where 
+     each node represents an element such as user or business and each 
+     edge represents relationship between two nodes. It is mainly used 
+     for storing and analyzing data where maintaining interconnections 
+     is essential. Data pertaining to social media is best example where 
+     graph database can be used.
+
+     Blazegraph’s main focus is large scale complex graph analytics and query. 
+     The Blazegraph database runs on graphics processing units (GPU) to 
+     speed graph traversals. :cite ‘paper-blzgraph’
+
+     Lets see how to work with data in Blazegraph. :cite ‘www-blzgraph’ 
+
+     - Blazegraph uses SPARQL RDF query language.
+     - Blazegraph data can be accessed using REST APIs. REST APIs need 
+       an instance of NanoSparqlServer.
+     - Blazegraph supports Apache TinkerPop, which is a graph computing framework.
+     - For graph data mining, Blazegraph implements GAS (Gather, Apply, Scatter) 
+       model as a service.
+
 247. Facebook Tao
 
      In the paper published in USENIX annual technical conference, 
