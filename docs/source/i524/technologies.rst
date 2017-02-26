@@ -3366,7 +3366,25 @@ NoSQL
 
 229. Espresso
 230. CouchDB
-231. Couchbase
+     
+     The Apache Software Foundation makes CouchDB available as an option for
+     those seeking an open-source, NoSQL, document-oriented database. CouchDB,
+     or cluster of unreliable commodity hardware database,  
+     :cite:`www-exploringcdb-couchdb` stores data as a JSON-formatted document.
+     Documents can consist of a variety of field types, e.g., text, booleans
+     or lists, as well as metadata used by the software. 
+     :cite:`www-techoverview-couchdb`  CouchDB does not limit the number of 
+     fields per document, and it does not require any two documents to consist
+     of matching or even similar fields.  That is, the document has structure,
+     but the structure can vary by document.  CouchDB coordinates cluster
+     activities using the master-master mode by default, which means it does
+     not have any one in charge of the cluster.  However, a cluster can be set
+     up to write all data to single node, which is then replicated across the
+     cluster.  Either way, the system can only offer eventual consistency.
+     :cite:`www-cdb-vs-cbs-couchdb`  CouchDB serves as the basis of Couchbase,
+     Inc's Couchbase Server.
+
+231. Couchbase Server
 
      Couchbase, Inc. offers Couchbase Server (CBS) to the marketplace
      as a NoSQL, document-oriented database alternative to traditional
@@ -3388,8 +3406,8 @@ NoSQL
      of RAM".  :cite:`www-safaribooks-cbs`
 
      CBS is written in Erlang/OTP, but generally shortened to just
-     Erlang.  In actuality, t is written in "Erlang using components
-     of OTP alongside some C/C++":cite:`www-erlangcentral-cbs`, It
+     Erlang.  In actuality, it is written in "Erlang using components
+     of OTP alongside some C/C++" :cite:`www-erlangcentral-cbs`, It
      runs on an Erlang virtual machine known as
      BEAM. :cite:`www-wikipedia-erlang-cbs`
 
