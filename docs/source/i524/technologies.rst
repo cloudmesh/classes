@@ -3363,7 +3363,7 @@ NoSQL
      and YouTube. Bigtable also drives Google Cloud Datastore and influenced
      Spanner, a distributed NewSQL database also developed by
      Google :cite:`www-wikispanner` :cite:`www-wikibigtable`.
-     Since May 6, 2015, a version of Bigtablehas been available to the 
+     Since May 6, 2015, Bigtable has been available to the 
      public as Cloud Bigtable :cite:`www-wikibigtable`.
 
 236. LevelDB
