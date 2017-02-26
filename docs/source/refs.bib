@@ -4557,8 +4557,12 @@
 }
 
 % S17-IR-2021
+% All your entries should be below the S17-IR-2021 section and not under the unknown HIDs section.
+% The owner attribute is missing for three entries at the end.
+% Incorrect quotation marks have been used for citation.  Due to this, the correct references are not reflected in the Webpage.
+
 @InProceedings{facebook-paper-2016,
-  review = {},
+  review = {Incorrect quotation marks have been used for citation, due to which they are not displayed correctly.  You need to use '`' instead of an apostrophe '''.  Facebook.inc should be Facebook.Inc.  You should also do some grammatical checks like data processing instead of data 'P'rocessing, etc.},
   author       = {Guoqiang Jerry Chen and Janet L. Wiener and Shridhar Iyer and Anshul Jaiswal anad Ran Lei Nikhil Simha and Wei Wang and Kevin Wilfong and Tim Williamson and Serhat Yilmaz},
   title        = {Realtime Data Processing at Facebook},
   year         = {2016},
@@ -4608,7 +4612,7 @@ which makes i fairly real time.},
 }
 
 @Misc{www-facebook,
-  review = {},
+  review = {Note should contain some text like "Date Accessed".  As per current entry, it looks just like a nominal date entry which it isn't.},
   title        = {Facebook's New Realtime Analytics System: HBase To Process 20 Billion Events Per Day},
   howpublished = {Web Page},
   note         = {2017-2-8},
@@ -4618,7 +4622,7 @@ which makes i fairly real time.},
 
 
 @Book{redis-book-2011,
-  review = {},
+  review = {The author entry is incorrect.  You need to use 'and' for separating two author names.},
   title     = {Reddis Cookbook:Practical Technique for fast Data Manipulation},
   publisher = {O'Reilly Media},
   year      = {2011},
@@ -4656,7 +4660,7 @@ frameworks like Node.js ,Django,Ruby-on-Rails etc.},
 }
 
 @Book{redis-book-2016,
-  review = {},
+  review = {The formatting of ISBN is incorrect; though it is not a major issue},
   title     = {Mastering Redis},
   publisher = {Packt Publishing},
   year      = {2016},
@@ -4666,7 +4670,7 @@ frameworks like Node.js ,Django,Ruby-on-Rails etc.},
 }
 
 @Misc{www-redis,
-  review = {},
+  review = {The note entry should contain some text like "Date accessed", etc.  As per the current format, it looks like a date attribute entry which it isn't.},
   title        = {Introduction to REDIX},
   howpublished = {Web Page},
   note         = {2017-2-8},
@@ -4675,7 +4679,7 @@ frameworks like Node.js ,Django,Ruby-on-Rails etc.},
 }
 
 @InProceedings{randomname,
-  review = {},
+  review = {The pages entry is incorrect.  There should preferably be a single hypen.  Also the name of the attribute 'randomname' should be more meaningful.},
 author = {Engle and Cliff and Lupher and Antonio and Xin and Reynold and Zaharia and Matei and Franklin and Michael J. and Shenker and Scott and Stoica and Ion},
 title = {Shark: Fast Data Analysis Using Coarse-grained Distributed Memory},
 booktitle = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},
@@ -4725,7 +4729,7 @@ owner     = {S17-IR-2021},
 }
 
 @InProceedings{ligra-paper-2013,
-  review = {},
+  review = {There should be a comma between Pennsylvania and USA.  Also, correct spacing should be present in the publisher attribute.},
   author    = {Julian Shun and Guy E. Blelloch},
   title     = {Ligra: A Lightweight Graph Processing Framework for Shared Memory},
   booktitle = {ACM SIGPLAN Notices - PPoPP '13},
@@ -4739,7 +4743,7 @@ owner     = {S17-IR-2021},
 }
 
 @InProceedings{ligra-paper-2,
-  review = {},
+  review = {N/A},
   author    = {Julian Shun, Guy E. Blelloch and Laxman Dhulipala},
   title     = {Smaller and Faster: Parallel Processing of Compressed Graphs with Ligra+},
   booktitle = {ACM SIGPLAN Notices - PPoPP '13DCC '15 Proceedings of the 2015 Data Compression Conference},
@@ -4925,6 +4929,157 @@ support it.},
   organization = {Cardiff University},
   owner        = {S17-IR-2022},
   url          = {http://www.trianacode.org/},
+}
+
+@Misc{www-RDF,
+  review = {},
+  title        = {{RDF} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-25},
+  abstract     = {Sesame is framework which can be used for the analysis of RDF (Resource
+Description Framework) data.  Resource Description Framework
+(RDF) :cite:`www-RDF` is a model that facilitates the
+interchange of data on the Web.  Using RFD enables us to merge
+data even if the underlying schemas differ.
+:cite:`www-sesame` Sesame has now officially been integrated
+into RDF4J Eclipse project.  Sesame takes in the natively
+written code as the input and then performs a series of
+transformations, generating kernels for various platforms.
+:cite:`sesame-paper-2013` In order to achieve this, it makes
+use of the feature identifier, impact predictor,
+source-to-source translator and the auto-tuner.  The feature
+identifier is concerned with the extraction and detection of
+the architectural features that are important for application
+performance.  The impact predictor determines the performance
+impact of the core features extracted above.  A
+source-to-source translator transforms the input code into a
+parametrized one; while the auto-tuner helps find the optimal
+solution for the processor.},
+  owner        = {S17-IR-2022},
+  url          = {https://www.w3.org/RDF/},
+}
+
+@Misc{www-sesame,
+  review = {},
+  title        = {{sesame} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-26},
+  owner        = {S17-IR-2022},
+  url          = {https://projects.eclipse.org/projects/technology.rdf4j},
+}
+
+@InProceedings{sesame-paper-2013,
+  review = {},
+  author    = {Jianbin Fang, Ana Lucia Varbanescu and Henk Sips},
+  title     = {Sesame: A User-Transparent Optimizing Framework for Many-Core Processors},
+  booktitle = {IEEE/ACM International Symposium on Cluster, Cloud, and Grid Computing},
+  year      = {2013},
+  pages     = {70-73},
+  owner     = {S17-IR-2022},
+}
+
+@Misc{www-paas-openshift,
+  review = {},
+  title        = {{paas-openshift} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-25},
+  abstract     = {:cite:`www-paas` OpenShift was launched as a PaaS (Platform as a 
+Service) by Red Hat in the Red Hat Summit, 2011. 
+:cite:`www-developers-openshift` It is a cloud application development 
+and hosting platform that envisages shifting of the developer's focus to 
+development by automating the management and scaling of applications. 
+Thus, :cite:`www-openshift` OpenShift enables us to write our 
+applications in any one web development language (using any framework) 
+and it itself takes up the task of running the application on the web. 
+This has its advantages and disadvantages - advantage being the 
+developer doesn't have to worry about how the stuff works internally (as 
+it is abstracted away) and the disadvantage being that he cannot control 
+how it works, again because it is abstracted. 
+
+:cite:`openshift-blog` OpenShift is powered by Origin, which is in turn 
+built using Docker container packaging and Kubernetes container cluster. 
+Due to this, OpenShift offers a lot of options, including online, 
+on-premise and open source project options.},
+  owner        = {S17-IR-2022},
+  url          = {https://blog.openshift.com/announcing-openshift-origin-the-open-source-platform-as-a-service-paas/},
+}
+
+@Misc{www-developers-openshift,
+  review = {},
+  title        = {{developers-openshift} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-26},
+  owner        = {S17-IR-2022},
+  url          = {https://developers.openshift.com/},
+}
+
+@Misc{www-openshift,
+  review = {},
+  title        = {{openshift} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-26},
+  owner        = {S17-IR-2022},
+  url          = {https://www.openshift.org/},
+}
+
+@Misc{www-openshift-blog,
+  review = {},
+  title        = {{openshift-blog} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-27},
+  owner        = {S17-IR-2022},
+  url          = {https://blog.openshift.com/getting-started-with-openshift-origin-the-open-source-platform-as-a-service-paas/},
+}
+
+@Misc{www-boto,
+  review = {},
+  title        = {{boto} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-25},
+  abstract     = {:cite:`www-boto` The latest version of Boto is Boto3. 
+:cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS) Software 
+Development Kit (SDK) for Python. It enables the Python developers to 
+make use of services like Amazon S3 and Amazon EC2. 
+:cite:`www-boto3-documentation` It provides object oriented APIs along 
+with low-level direct service access. It provides simple in-built 
+functions and interfaces to work with Amazon S3 and EC2. 
+
+:cite:`www-boto-amazon-python-sdk` Boto3 has two distinct levels of APIs 
+- client and resource. One-to-one mappings to underlying HTTP API is 
+provided by the client APIs. Resource APIs provide resource objects and 
+collections to perform various actions by accessing the attributes. 
+Boto3 also comes with 'waiters'. Waiters are used for polling status 
+changes in AWS, automatically. Boto3 has these waiters for both the APIs 
+- client as well as resource.},
+  owner        = {S17-IR-2022},
+  url          = {http://boto.cloudhackers.com/en/latest/},
+}
+
+@Misc{www-boto-github,
+  review = {},
+  title        = {{boto-github} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-25},
+  owner        = {S17-IR-2022},
+  url          = {https://github.com/boto/boto3},
+}
+
+@Misc{www-boto3-documentation,
+  review = {},
+  title        = {{boto3-documentation} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-26},
+  owner        = {S17-IR-2022},
+  url          = {https://boto3.readthedocs.io/en/latest/},
+}
+
+@Misc{www-boto-amazon-python-sdk,
+  review = {},
+  title        = {{boto-amazon-python-sdk} components},
+  howpublished = {Web Page},
+  note         = {Accessed: 2017-1-26},
+  owner        = {S17-IR-2022},
+  url          = {https://aws.amazon.com/sdk-for-python/},
 }
 
 % S17-IR-2024
@@ -6972,159 +7127,8 @@ support it.},
 	url 		 = {http://nwb.cns.iu.edu/about.html}
 }
 
-@Misc{www-RDF,
-  review = {},
-  title        = {{RDF} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-25},
-  abstract     = {Sesame is framework which can be used for the analysis of RDF (Resource
-Description Framework) data.  Resource Description Framework
-(RDF) :cite:`www-RDF` is a model that facilitates the
-interchange of data on the Web.  Using RFD enables us to merge
-data even if the underlying schemas differ.
-:cite:`www-sesame` Sesame has now officially been integrated
-into RDF4J Eclipse project.  Sesame takes in the natively
-written code as the input and then performs a series of
-transformations, generating kernels for various platforms.
-:cite:`sesame-paper-2013` In order to achieve this, it makes
-use of the feature identifier, impact predictor,
-source-to-source translator and the auto-tuner.  The feature
-identifier is concerned with the extraction and detection of
-the architectural features that are important for application
-performance.  The impact predictor determines the performance
-impact of the core features extracted above.  A
-source-to-source translator transforms the input code into a
-parametrized one; while the auto-tuner helps find the optimal
-solution for the processor.},
-  owner        = {S17-IR-2022},
-  url          = {https://www.w3.org/RDF/},
-}
-
-@Misc{www-sesame,
-  review = {},
-  title        = {{sesame} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-26},
-  owner        = {S17-IR-2022},
-  url          = {https://projects.eclipse.org/projects/technology.rdf4j},
-}
-
-@InProceedings{sesame-paper-2013,
-  review = {},
-  author    = {Jianbin Fang, Ana Lucia Varbanescu and Henk Sips},
-  title     = {Sesame: A User-Transparent Optimizing Framework for Many-Core Processors},
-  booktitle = {IEEE/ACM International Symposium on Cluster, Cloud, and Grid Computing},
-  year      = {2013},
-  pages     = {70-73},
-  owner     = {S17-IR-2022},
-}
-
-@Misc{www-paas-openshift,
-  review = {},
-  title        = {{paas-openshift} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-25},
-  abstract     = {:cite:`www-paas` OpenShift was launched as a PaaS (Platform as a 
-Service) by Red Hat in the Red Hat Summit, 2011. 
-:cite:`www-developers-openshift` It is a cloud application development 
-and hosting platform that envisages shifting of the developer's focus to 
-development by automating the management and scaling of applications. 
-Thus, :cite:`www-openshift` OpenShift enables us to write our 
-applications in any one web development language (using any framework) 
-and it itself takes up the task of running the application on the web. 
-This has its advantages and disadvantages - advantage being the 
-developer doesn't have to worry about how the stuff works internally (as 
-it is abstracted away) and the disadvantage being that he cannot control 
-how it works, again because it is abstracted. 
-
-:cite:`openshift-blog` OpenShift is powered by Origin, which is in turn 
-built using Docker container packaging and Kubernetes container cluster. 
-Due to this, OpenShift offers a lot of options, including online, 
-on-premise and open source project options.},
-  owner        = {S17-IR-2022},
-  url          = {https://blog.openshift.com/announcing-openshift-origin-the-open-source-platform-as-a-service-paas/},
-}
-
-@Misc{www-developers-openshift,
-  review = {},
-  title        = {{developers-openshift} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-26},
-  owner        = {S17-IR-2022},
-  url          = {https://developers.openshift.com/},
-}
-
-@Misc{www-openshift,
-  review = {},
-  title        = {{openshift} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-26},
-  owner        = {S17-IR-2022},
-  url          = {https://www.openshift.org/},
-}
-
-@Misc{www-openshift-blog,
-  review = {},
-  title        = {{openshift-blog} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-27},
-  owner        = {S17-IR-2022},
-  url          = {https://blog.openshift.com/getting-started-with-openshift-origin-the-open-source-platform-as-a-service-paas/},
-}
-
-@Misc{www-boto,
-  review = {},
-  title        = {{boto} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-25},
-  abstract     = {:cite:`www-boto` The latest version of Boto is Boto3. 
-:cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS) Software 
-Development Kit (SDK) for Python. It enables the Python developers to 
-make use of services like Amazon S3 and Amazon EC2. 
-:cite:`www-boto3-documentation` It provides object oriented APIs along 
-with low-level direct service access. It provides simple in-built 
-functions and interfaces to work with Amazon S3 and EC2. 
-
-:cite:`www-boto-amazon-python-sdk` Boto3 has two distinct levels of APIs 
-- client and resource. One-to-one mappings to underlying HTTP API is 
-provided by the client APIs. Resource APIs provide resource objects and 
-collections to perform various actions by accessing the attributes. 
-Boto3 also comes with 'waiters'. Waiters are used for polling status 
-changes in AWS, automatically. Boto3 has these waiters for both the APIs 
-- client as well as resource.},
-  owner        = {S17-IR-2022},
-  url          = {http://boto.cloudhackers.com/en/latest/},
-}
-
-@Misc{www-boto-github,
-  review = {},
-  title        = {{boto-github} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-25},
-  owner        = {S17-IR-2022},
-  url          = {https://github.com/boto/boto3},
-}
-
-@Misc{www-boto3-documentation,
-  review = {},
-  title        = {{boto3-documentation} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-26},
-  owner        = {S17-IR-2022},
-  url          = {https://boto3.readthedocs.io/en/latest/},
-}
-
-@Misc{www-boto-amazon-python-sdk,
-  review = {},
-  title        = {{boto-amazon-python-sdk} components},
-  howpublished = {Web Page},
-  note         = {Accessed: 2017-1-26},
-  owner        = {S17-IR-2022},
-  url          = {https://aws.amazon.com/sdk-for-python/},
-}
-
 @Book{docker-book,
-  review = {},
+  review = {The title preferably should not contain everything in capitals.  Also, correct commas should be used in the address attribute.},
   title     = {Docker Up and Running, SHIPPING RELIABLE CONTAINERS IN PRODUCTION},
   publisher = {O'REILLY},
   year      = {2015},
@@ -7160,7 +7164,7 @@ it were running on a single, huge computer" as swarm can be scaled upto
 }
 
 @Misc{www-docker,
-  review = {},
+  review = {The title attribute is incorrect, as there is no reason behind using an extra pair of curly braces.},
   title        = {{doxker},swarm},
   howpublished = {WebPage},
   note         = {Accessed: 2017-8-02},
