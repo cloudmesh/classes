@@ -2222,6 +2222,27 @@ Basic Programming model and runtime, SPMD, MapReduce
      C++ and Java.
 	   
 157. Medusa-GPU
+     
+     Graphs are commonly used data structures . However, developers
+     may find it challenging to write correct and efficient
+     programs. Furthermore, graph processing is further complicated by
+     irregularities of graph structures. Medusa enables the developers
+     to write sequential C/C++ code. According to :cite:`paper_medusa`
+     it provides a set of APIs which embraces a runtime system to
+     automatically execute those APIs in parallel. A number of
+     optimization techniques are implemented to improvise the
+     efficiency of graph processing. The experimental results provided
+     in the paper :cite:`paper_medusa` demonstrate that (1) Medusa
+     greatly simplifies implementation of GPGPU programs for graph
+     processing, with many fewer lines of source code written by
+     developers; (2) The optimization techniques significantly improve
+     the performance of the runtime system, making its performance
+     comparable with or better than manually tuned GPU graph
+     operations. :cite:`www-medusa` Medusa has proved to be a powerful
+     framework for networked digital audio and video
+     framework. :cite:`www-medusa` By exploiting the APIs it takes a
+     modular approach to construct complex graph systems. 
+
 158. MapGraph
 159. Totem
 
@@ -3432,6 +3453,25 @@ NoSQL
      
 241. Sqrrl
 242. Neo4J
+
+     Neo4J :cite:`www-wiki-neo4j` is a popular ACID compliant graph
+     database management system developed by Neo technology. In this
+     database everything is stored as nodes or edges, both of which
+     can be labeled. Labels help in narrowing and simplifying the
+     search process through the database. :cite:`www-slideshare` It is
+     a highly scalable software and can be distributed across multiple
+     machines.  The graph query language that accompanies the software
+     has traversal framework which makes it fast and
+     powerful. :cite:`www-neo4j` The Neo4J is often used for
+     clustering. It offers two feature clustering solutions: Causal
+     Clustering and Highly available
+     clustering. :cite:`www-neo4j-causal-cluster` Casual clustering
+     focuses on safety, scalability and causal consistency in the
+     graph. :cite:`www-neo4j-HA-cluster` The highly available cluster
+     places importance to fault tolerance as each instance in the
+     cluster has full copies of data in their local database.
+
+     
 243. graphdb
 
      A Graph Database is a database that uses graph structures for semantic
