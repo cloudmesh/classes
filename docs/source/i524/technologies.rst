@@ -6131,6 +6131,19 @@ New Technologies (To Be Integrated by the AIs)
      period until a review indicates that the project meets the 
      standards of other ASF projects :cite:`www-apacheincubator`
 
+399. LXD
+
+     LXD is is demon processes established to manage the
+     containers. It can be understood as hypervisor for linux
+     containers. It is implemented by exporting RESTful API for libxlc
+     to the remote network or local unix
+     socket. :cite:`www-lxd-thevarguy`. It implements the under
+     previlized conatiners by default adding more security. It works
+     with Image based work flow supports online snapshopping and live
+     container migration. :cite:`www-lxd-lists-linux`.It was build
+     with aim of providing VM like virtulization with container like
+     performance. :cite:`www-lxd-ubuntu`
+
 .. _techs-exercise:
 
 Excersise
