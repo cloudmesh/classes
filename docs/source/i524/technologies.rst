@@ -989,7 +989,7 @@ Application and Analytics
     the Aurelius Titan open source graph database—which further speeds
     the graph processing pipeline through the final stage".  Finally
     being an open source there is a possibility of adding a load of
-    functionalities by various contributors.:cite:`graphbuilder`
+    functionalities by various contributors. :cite:`graphbuilder`
 
     
 62. TinkerPop
@@ -1215,7 +1215,7 @@ Application and Analytics
 74. D3.js
 
     D3.js is a JavaScript library responsible for manipulating
-    documents based on data. D3 helps in making data more interactive
+    documentcs based on data. D3 helps in making data more interactive
     using HTML, SVG, and CSS. D3’s emphasis on web standards makes it
     framework independent utilizing the full capabilities of modern
     browsers, combining powerful visualization components and a
@@ -1572,12 +1572,12 @@ Application Hosting Frameworks
      activities.  HUBzero lets scientific researchers work together
      online to develop simulation and modeling tools.  These tools can
      help you connect with powerful Grid computing resources as well
-     as rendering farms.:cite:`hubzerowebsite` Thus allowing other
+     as rendering farms. :cite:`hubzerowebsite` Thus allowing other
      researchers to access the resulting tools online using a normal
      web browser and launch simulation runs on the Grid infrastructure
      without having to download or compile any code. It is a unique
      framework with simulation and social networking
-     capabilities.:cite:`hubzeropaper2010`
+     capabilities. :cite:`hubzeropaper2010`
 
 101. OODT
      
@@ -2961,6 +2961,28 @@ In-memory databases/caches
      It conforms to Java caching standard JSR 107. 
 
 189. Infinispan
+
+     Infinispan is a highly available, extremely scalable key/value
+     data store and data grid platform. The design perspective of
+     infinispan is exposing a distributed,highly concurrent data
+     structure to make the most use of modern multi-core as well as
+     multi-processor architectures. It is mostly used as a distributed
+     cache, but also can be used as a object database or NoSQL
+     key/value store. :cite:`infinispan.org`
+
+     Infinispan is mostly used as a cache store. It is predomininantly
+     used for applications that are clustered, and requires a cache
+     coherency for data consistency. Infinispan is written in java and
+     is open source. It is fully transactional. Infinispan is used to
+     add clusterability as well as high availability to frameworks.
+     Infinispan has many use-cases,they are: 1) it can be used as a
+     distributed cache 2)Storage for temporal data, like web sessions,
+     3)Cross-JVM communication, 4)Shared storage, 5)In-memory data
+     processing and analytics and 6)MapReduce Implementstion in the
+     In-Memory Data Grid. It is also used in research and academia as
+     a framework for distribution execution and
+     storage. :cite:`infinispan_wikipedia`
+     
 190. VoltDB
 
      VoltDB is an in-memory database. It is an ACID-compliant RDBMS
@@ -3274,6 +3296,25 @@ SQL(NewSQL)
      any certified JVM(Java Virtual Machine). :cite:`www-derbymanual`:
       
 209. Pivotal Greenplum
+
+     Pivotal Greenplum is a commercial fully featured data
+     warehouse. It is powered by Greenplum Database an open source
+     initiative." It is powered by advanced cost-based query optimizer
+     thereby delivering high analytical query performance on large
+     data volumes". Pivotal Greenplum is uniquely focused on big data
+     analytics. :cite:`pivotal.io`
+
+     The system consists of a master node, standy master node and
+     segment nodes. The master node consists of the catalog
+     information whereas the data resides on the segment nodes.  The
+     segment nodes runs on one or more segments which are modified
+     PostgreSQL databases and are assigned a content identifier. The
+     data is distributed among these segment nodes. The segment node
+     also supports bult loading and unloading. The master node parses,
+     optimizes an SQL query and dispatch it to all segment
+     nodes. Therefore, it provides powerful and rapid analytics on
+     petabyte scale data volumes :cite:`pivotal_wikipedia`
+
 210. Google Cloud SQL
      
      Google Cloud SQL is a fully managed data base as service
@@ -5330,7 +5371,7 @@ DevOps
      interface in front of App Engine b)Run your company build/test
      system as a separate remote c)Integrate custom systems into your
      workflow d)Build your own Heroku e)Push code
-     anywhere".:cite:`lindsay2016`
+     anywhere". :cite:`lindsay2016`
      
 332. OpenTOSCA
 333. Winery
