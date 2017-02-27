@@ -1604,6 +1604,21 @@ High level Programming
      examples/syntax and also tries to spot errors in the programs
      :cite:`kite-wired`.
 105. Hive
+     The reason behind development of Hive is making it easier for
+     end users to use Hadoop. Map reduce programs were required to 
+     be developed by users for simple to complex tasks. It lacked 
+     expressiveness like query language. So, it was a time consuming
+     and difficult task for end users to use Hadoop. For solving this
+     problem Hive was built in January 2007 and open sourced in August2008.
+     Hive is an open source data warehousing solution which is built on top
+     of Hadoop. It structures data into understandable and conventional
+     database terms like tables, columns, rows and partitions. It supports
+     HiveQL queries which have structure like SQL queries. HiveQL queries 
+     are compiled to map reduce jobs which are then executed by Hadoop. 
+     Hive also contains Metastore which includes schemas and statistics 
+     which is useful in query compilation, optimization and data exploration 
+     :cite:`hive`
+
 106. HCatalog
 107. Tajo
 
@@ -2940,6 +2955,26 @@ Object-relational mapping
 ----------------------------------------------------------------------
 
 192. Hibernate
+
+     Hibernate is an open source project which provides object relational
+     persistence framework for applications in Java. It is an Object
+     relational mapping library (ORM) which provides the framework for 
+     mapping object oriented model to relational database. It provides
+     a query language, a caching layer and Java Management Extensions (JMX)
+     support. Databases supported by Hibernate includes DB2, Oracle, MySQL,
+     PostgreSQL.To provide persistence services, Hibernate uses database 
+     and configuration data. For using hibernate, firstly a java class is
+     created which represents table in the database. Then columns in database
+     are mapped to the instance variables of created Java class. Hibernate 
+     can perform database operations like select, insert, delete and update
+     records in table by automatically creating query. Connection management
+     and transaction management are provided by hibernate.
+     Hibernate saves development and debugging time in comparison to JDBC.
+     But it is slower at runtime as it generates many SQL statements at 
+     runtime. It is database independent. For batch processing it is 
+     advisable to use JDBC over Hibernate 
+     :cite:`hibernate`
+
 193. OpenJPA
 
      According to :cite:`www-openjpa`, Apache OpenJPA is a Java
