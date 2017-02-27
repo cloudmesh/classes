@@ -98,8 +98,7 @@ thresh=1e-5, Parallelism = 1):
 
  code\_book :                        
 
- the lowest distortion codebook      
-found.                               
+ the lowest distortion codebook found.                               
 
  avg\_dist :                         
 

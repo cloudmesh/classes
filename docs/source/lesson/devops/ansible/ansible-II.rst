@@ -31,6 +31,8 @@ the hosts are defined in a file 'hosts', which we configured in 'ansible.cfg'::
    [R_hosts]
    <cloud_server_ip> ansible_ssh_user=<cloud_server_username>
 
+.. note:: In your assignments, we choose to use ``inventory`` instead of ``ansible.cfg``. More details will be given when we introduce ``ansible-galaxy`` in following chapters. At this moment, getting yourself familiar with some concepts of configuring the Ansible environment is good enough.
+
 This should get the installation job done. But we are going to extend it via new features next.
 
 Introducing Roles
