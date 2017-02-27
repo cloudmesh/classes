@@ -253,7 +253,28 @@ Workflow-Orchestration
     they finish and whether they hang without expensive polling. Oozie Coordinat
     or allows triggering actions when files arrive at HDFS. Also supported by
     Hadoop vendors :cite:`paper-Oozie`.
+	
 17. Tez
+
+    Apache Tez is open source distributed execution framework build for writing native
+    YARN application. It provides architecture which allows user to convert complex
+    computation as dataflow graphs	and the distributed engine to handle the directed
+    acyclic graph for processing large amount of data. It is highly customizable and pluggable 
+    so that it can be used as a platform for various application.It is used by the Apache Hive, 
+    Pig as execution engine to increase the performance of map reduce functionality.
+    :cite:`www-apache-tez` Tez focuses on running application efficiently on Hadoop 
+    cluster leaving the end user to concentrate only on its business logic. Tez provides 
+    features like distributed parallel execution on hadoop cluster,horizontal scalability,
+    resource elasticity,shared library reusable components and security features. Tez provides
+    capability to naturally map the algorithm into the hadoop cluster execution engine and
+    it also provides the interface for interaction with different data sources and configurations. 
+	
+    Tez is client side application and just needs Tez client to be pointed to Tez jar 
+    libraries path makes it easy and quick to deploy. User can have have multiple tez 
+    version running concurrently. Tez provides DAG API's which lets user define structure
+    for the computation and Runtime API's which contain the logic or code that needs to be
+    executed in each transformation or task. 
+
 18. Google FlumeJava
 19. Crunch
 
@@ -1129,6 +1150,34 @@ Application and Analytics
     insights by harnessing a greater volume and variety of data.
 	
 71. Graylog
+
+    Graylog is an open source log management tool that allows an
+    organization to assemble, organize and analyze large amounts of data
+    from its network activity. It collects and aggregates events from a
+    group of sources and presents data in a streamlines, simplified
+    interface where one can drill down to significant metrics, identify
+    key relationships, generate powerful data visualizations and derive
+    actionable insights. :cite:`www-graylog-blog`
+    :cite:`www-graylog-optimization` Graylog allows us to centrally
+    collect and manage log messages of an organization's complete
+    infrastructure. A user can perform search on terrabytes of log data to
+    discover number of failed logins,find application errors across all
+    servers or monitor the acivity of a suspicious user id.Graylog works
+    on top of ElasticSearch and MongoDB to facilitate this high
+    availability searching.
+    Graylog provides visualization through creation of dashboards that
+    allows a user to build pre-defined views on his data to assemble all
+    of his important data only a single click
+    away. :cite:`www-graylog-dashboards` Any search result or metric shall
+    be added as a widget on the dashboard to observe trends in one single
+    location. These dashboards can also be shared with other users in the
+    organization. Based on a user's recent search queries,graylog also
+    allows you to distinguish data that are not searched upon very often
+    and thus can be archived on cost effective storage drives. Users can
+    also add certain trigger conditions that shall alert the system about
+    performance issues, failed logins or exceptions in the flow of the
+    application.
+    
 72. Splunk
 
     Splunk is a platform for big data analytics. It is a software
@@ -1249,27 +1298,32 @@ Application and Analytics
 Application Hosting Frameworks
 ----------------------------------------------------------------------
 
-80. Google App Engine  :cite:`www-gae`
+80. Google App Engine
 
-    On purpose we put in here a "good" example of a bad entry that woudl
-    receive 10 out of 100 points, e.g. an F:
-
-    "Google App Engine" provides platform as a service.
-    There are major advantages from this framework:
-
-    1. Scalable Applications
-    2. Easier to maintain
-    3. Publishing services easily
-
-    Reasons: (a) "major advantages is advertisement" if you add word
-    major (b) grammar needs to be improved (c) the three points do not
-    realy say anything about Google App Engine (d) the reader will
-    after reading this have not much information about what it is (e)
-    a refernce is not included. (f) enumeration should be in this page
-    avoided. We like to see a number of paragraphs with text.
-
-    **Note: This is an example for a bad entry**
-
+    Google App Engine is a cloud computing platform to host your mobile
+    or web applications on Google managed servers. Google App Engine
+    provides automatic scaling for web applications, i.e it automatically
+    allocates more resources to the application upon increase in the
+    number of requests. It gives developers the freedom to focus on
+    developing their code and not worry about the infrastructure. Google
+    App Engine provides built-in services and APIs such as load
+    balancing, automated security scanning, application logging, NoSQL
+    datastores, memcache, and a user authentication API, that are a core
+    part to most applications. :cite:`www-appengine-google`
+     
+    An App Engine platform can be run in either the Standard or the
+    Flexible environment. Standard environment lays restrictions on the
+    maximum number of resources an application can use and charges a user
+    based on the instance hours used. The flexible environment as the
+    name suggests provides higher flexibility in terms of resources and
+    is charged based on the CPU and disk utilization.The App Engine
+    requires developers to use only its supported languages and
+    frameworks. Supported languages are Java, Python, Ruby, Scala, PHP,
+    GO, Node.js and other JVM oriented languages. The App Engine
+    datastore uses a SQL like syntax called the GQL (Google Query
+    Language) which works with non-relational databases when compared to
+    SQL. :cite:`www-wiki-appengine`
+    
 81. AppScale
 
     AppScale is an application hosting platform. This platform helps
@@ -1604,6 +1658,21 @@ High level Programming
      examples/syntax and also tries to spot errors in the programs
      :cite:`kite-wired`.
 105. Hive
+     The reason behind development of Hive is making it easier for
+     end users to use Hadoop. Map reduce programs were required to 
+     be developed by users for simple to complex tasks. It lacked 
+     expressiveness like query language. So, it was a time consuming
+     and difficult task for end users to use Hadoop. For solving this
+     problem Hive was built in January 2007 and open sourced in August2008.
+     Hive is an open source data warehousing solution which is built on top
+     of Hadoop. It structures data into understandable and conventional
+     database terms like tables, columns, rows and partitions. It supports
+     HiveQL queries which have structure like SQL queries. HiveQL queries 
+     are compiled to map reduce jobs which are then executed by Hadoop. 
+     Hive also contains Metastore which includes schemas and statistics 
+     which is useful in query compilation, optimization and data exploration 
+     :cite:`hive`
+
 106. HCatalog
 107. Tajo
 
@@ -2940,6 +3009,26 @@ Object-relational mapping
 ----------------------------------------------------------------------
 
 192. Hibernate
+
+     Hibernate is an open source project which provides object relational
+     persistence framework for applications in Java. It is an Object
+     relational mapping library (ORM) which provides the framework for 
+     mapping object oriented model to relational database. It provides
+     a query language, a caching layer and Java Management Extensions (JMX)
+     support. Databases supported by Hibernate includes DB2, Oracle, MySQL,
+     PostgreSQL.To provide persistence services, Hibernate uses database 
+     and configuration data. For using hibernate, firstly a java class is
+     created which represents table in the database. Then columns in database
+     are mapped to the instance variables of created Java class. Hibernate 
+     can perform database operations like select, insert, delete and update
+     records in table by automatically creating query. Connection management
+     and transaction management are provided by hibernate.
+     Hibernate saves development and debugging time in comparison to JDBC.
+     But it is slower at runtime as it generates many SQL statements at 
+     runtime. It is database independent. For batch processing it is 
+     advisable to use JDBC over Hibernate 
+     :cite:`hibernate`
+
 193. OpenJPA
 
      According to :cite:`www-openjpa`, Apache OpenJPA is a Java
@@ -5034,6 +5123,17 @@ DevOps
      of OpenStack Dashboard.
 
 323. Rocks
+
+     :cite:`www-rockscluster` Rocks provides open cluster distribution solution
+     is buid targetting the scientist with less cluster experience to ease the process 
+     of deployment,managing,upgrading and scaling high performance parallel computing cluster.  
+     It was initially build on linux however the latest version Rocks 6.2 Sidewinder is 
+     also available on CentOS.Rocks can help create a cluster in few days with default 
+     configuration and software packages. 
+     Rocks distribution package comes with high-performance distributed and parallel
+     computing tools.It is used by NASA, the NSA , IBM Austin Research LAB, US Navy 
+     and many other institution for their projects.
+
 324. Cisco Intelligent Automation for Cloud
 
      Cisco Intelligent automation for cloud desires to help different
@@ -6162,6 +6262,28 @@ New Technologies (To Be Integrated by the AIs)
      period until a review indicates that the project meets the 
      standards of other ASF projects :cite:`www-apacheincubator`
 
+390. Apache Ant
+
+     Apache Ant is a Java library and command-line tool whose mission
+     is to drive processes described in build files as targets and
+     extension points dependent upon each other. The main known usage
+     of Ant is the build of Java applications. Ant supplies a number
+     of built-in tasks allowing to compile, assemble, test and run
+     Java applications. Ant can also be used effectively to build non
+     Java applications, for instance C or C++ applications. More
+     generally, Ant can be used to pilot any type of process which can
+     be described in terms of targets and tasks. Ant is written in
+     Java. Users of Ant can develop their own "antlibs" containing Ant
+     tasks and types, and are offered a large number of ready-made
+     commercial or open-source "antlibs". Ant is extremely flexible
+     and does not impose coding conventions or directory layouts to
+     the Java projects which adopt it as a build tool. Software
+     development projects looking for a solution combining build tool
+     and dependency management can use Ant in combination with Apache
+     Ivy. The Apache Ant project is part of the Apache Software
+     Foundation :cite:`ant-www`.
+
+     
 .. _techs-exercise:
 
 Excersise
