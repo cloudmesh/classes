@@ -4,7 +4,6 @@ Lessons
 .. toctree::
    :maxdepth: 2
 
-   ansible/index
    cloud/index
    contrib/index
    doc/index

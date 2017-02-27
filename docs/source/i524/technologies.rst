@@ -1320,10 +1320,10 @@ Application Hosting Frameworks
 
 85. AWS Elastic Beanstalk
 
-    :cite: `www-amazon elastic beanstalk` AWS Elastic Beanstalk is an
+    :cite:`www-amazon elastic beanstalk` AWS Elastic Beanstalk is an
     orchestration service offered from Amazon Web Services which
     provides user with a platform for easy and quiclk deployment of
-    their WebApps and services. :cite: `amazon elastic beanstalk-book`
+    their WebApps and services. :cite:`amazon elastic beanstalk-book`
     Amazon Elastic BeanStack automatically handles the deployement
     details of capacity provisioning by Amazon Cloud Watch, Elastic
     Load Balancing, Auto-scaling, and application health monitoring of
@@ -1340,7 +1340,7 @@ Application Hosting Frameworks
     for Java applications, Apache HTTP Server for PHP applications
     Docker, GO and many more for specific languanges where the
     container defines the infrastructure and softwarestack to be used
-    for a given enviorment.:cite: `www-amazon elastic beanstalk` "AWS
+    for a given enviorment.:cite:`www-amazon elastic beanstalk` "AWS
     Elastic Beanstalk runs on the Amazon Linux AMI and the Windows
     Server 2012 R2 AMI. Both AMIs are supported and maintained by
     Amazon Web Services and are designed to provide a stable, secure,
@@ -1619,7 +1619,7 @@ High level Programming
      Data Scientists when working on huge data sets try to extract
      meaning and interpret the data to enhance insight about the
      various patterns, oppurtunities and possiblities that the dataset
-     has to offer. :cite: `shark-paper-2012` At a traditional
+     has to offer. :cite:`shark-paper-2012` At a traditional
      EDW(Enterprrise Data Warehouse) a simple data manipulation can be
      perfpormed using SQL queries but we have to rely on other systems
      to apply the machine learning on thoese data.Apache Shark is a
@@ -1628,7 +1628,7 @@ High level Programming
      manipulation using SQL and pushing sophisticated analysis towards
      the data.
 
-     :cite: `shark-paper-2012` Shark is a data Warehouse system built
+     :cite:`shark-paper-2012` Shark is a data Warehouse system built
      on top of Apache Spark which does the parallel data execution and
      is capable of deep data analysis using the Resilient Distributed
      Datasets(RDD) memory abstraction which unifies the SQL query
@@ -1639,11 +1639,11 @@ High level Programming
      more data or faster query processing thus it can be scaled to
      thoushands o nodes in a fault-toleranat manner
 
-     :cite: `shark-paper-2012` "Shark is built on Hive Codebase and it
+     :cite:`shark-paper-2012` "Shark is built on Hive Codebase and it
      has the ability to execute HIVE QL queries up to 100 times faster
      than Hive without making any change in the existing
      queries". Shark can run both on the StandAlone Mode and Cluster
-     Mode. :cite: `shark-paper-2012` Shark can answer the queries 40X
+     Mode. :cite:`shark-paper-2012` Shark can answer the queries 40X
      faster than Apache Hive and can machine learning programs 25X
      faster than MapReduce programmes. in Apache hadoop on large data
      sets.Thus, this new data analysis system performs query
@@ -1774,6 +1774,40 @@ High level Programming
      working through application crash reports.
 
 118. Google BigQuery
+
+
+     Google BigQuery :cite:`www-bigquery` is an enterprise data
+     warehouse used for large scale data
+     analytics. :cite:`www-bigquery-documentation` A user can store
+     and query massive datasets by storing the data in BigQuery and
+     querying the database using fast SQL queries using the processing
+     power of Google's infrastructure. In Googe BigQuery a user can
+     control access to both the project and the data based on the his
+     business needs which gives the ability to others to view and even
+     query the data. :cite:`www-bigquery` BigQuery can scale the
+     database from GigaBytes to PetaBytes. BigQuery can be accessed
+     using a Web UI or a command-line tool or even by making calls to
+     the BigQuery REST API using a variety of client libraries such as
+     Java, .NET pr python. BigQuery can also be accessed using a
+     variety of third party tool. BigQuery is fully managed to get
+     started on its own, so there is no need to deploy any resources
+     such as disks and virtual machines.
+
+     :cite:`www-bigquery-documentation` Projects in BigQuery are
+     top-level containers in Google Cloud Platform. They contain the
+     BigQuery Data. Each project is referenced by a name and
+     unique ID. Tables contain the data in BigQuery. Each table has a
+     schema that describes field names, types, and other
+     information. Datasets enable to organise and control access to
+     the tables. Every table must belong to a dataset. A BigQuery data
+     can be shared with others by defining roles and setting
+     permissions for organizations, projects, and datasets, but not on
+     the tables within them. BigQuery stores data in the
+     :cite:`www-bigquery-columnar-storage` Capacitor columnar data
+     format, and offers the standard database concepts of tables,
+     partitions, columns, and rows.
+
+     
 119. Amazon Redshift
      
      Amazon Redshift is a fully managed, petabyte-scale data werehouse service
@@ -1832,7 +1866,7 @@ High level Programming
      The authors designed it to handle "simple, easily distributed
      computations: filtering, aggregation, extraction of statistics,"
      etc. from the aforementioned data sets.
-     :cite:`google-sawzall`
+     :cite:`pike05sawzall`
 
      In general terms, a Sawzall job works as follows: multiple
      computers each create a Sawzall instance, perform some operation
@@ -1855,7 +1889,7 @@ High level Programming
      a native language [and] [m]ore important[ly] drawing an explicit
      line between filtering and aggregation enables a high degree of
      parallelism, even though it hides the parallelism from the
-     language itself".  :cite:`google-sawzall`
+     language itself".  :cite:`pike05sawzall`
 
      Important components of the Sawzall language include: *szl*, the
      binary containing the code compiler and byte-code interpreter
@@ -1917,6 +1951,30 @@ Streams
      bolt. :cite:`www-storm-home-concepts`
      
 128. S4
+
+
+     S4 :cite:`www-s4` is a distributed, scalable, fault-tolerant,
+     pluggable platform that allows programmers to easily develop
+     applications for processing continuous unbounded streams of
+     data. It is built on similar concept of key-value pairs like the
+     MapReduce. The core platform is written in
+     Java. :cite:`www-s4-overview` S4 provides a runtime distributed
+     platform that handles communication, scheduling and distribution
+     across containers. The containers are called S4 nodes. The data
+     is executed and processed on these S4 nodes. These S4 nodes are
+     then deployed on S4 clusters. The user develops applications and
+     deploys them on S4 clusters for its processing. The applications
+     are built as a graph of Processing Elements (PEs) and Stream that
+     interconnects the PEs. All PEs communicate asynchronously by
+     sending events on streams. Events are dispatched to nodes
+     according to their key in the program. :cite:`www-s4` All nodes
+     are symmetric with no centralized service and no single point of
+     failure. Additionally there is no limit on the number of nodes
+     that can be supported.  :cite:`www-wiki-s4` In S4, both the
+     platform and the applications are built by dependency injection,
+     and configured through independent modules.
+
+     
 129. Samza
 
      Apache Samza is an open-source near-realtime, asynchronous computational 
@@ -2040,7 +2098,7 @@ Streams
      system, facebook primarily focused on the five key decissions
      that the system should incorporate and that included Ease of Use,
      Performance , Fault-tolerance , Scalability and
-     Correctness.:cite: 'www-facebook' "The real time data analytics
+     Correctness.:cite:'www-facebook' "The real time data analytics
      ecosystem at facebook is designed to handle hundreds of Gigabytes
      of data per second via hundreds of data pipelines and this system
      handles over 200,000 events per second with a maximum latency of
@@ -3366,7 +3424,25 @@ NoSQL
 
 229. Espresso
 230. CouchDB
-231. Couchbase
+     
+     The Apache Software Foundation makes CouchDB available as an option for
+     those seeking an open-source, NoSQL, document-oriented database. CouchDB,
+     or cluster of unreliable commodity hardware database,  
+     :cite:`www-exploringcdb-couchdb` stores data as a JSON-formatted document.
+     Documents can consist of a variety of field types, e.g., text, booleans
+     or lists, as well as metadata used by the software. 
+     :cite:`www-techoverview-couchdb`  CouchDB does not limit the number of 
+     fields per document, and it does not require any two documents to consist
+     of matching or even similar fields.  That is, the document has structure,
+     but the structure can vary by document.  CouchDB coordinates cluster
+     activities using the master-master mode by default, which means it does
+     not have any one in charge of the cluster.  However, a cluster can be set
+     up to write all data to single node, which is then replicated across the
+     cluster.  Either way, the system can only offer eventual consistency.
+     :cite:`www-cdb-vs-cbs-couchdb`  CouchDB serves as the basis of Couchbase,
+     Inc's Couchbase Server.
+
+231. Couchbase Server
 
      Couchbase, Inc. offers Couchbase Server (CBS) to the marketplace
      as a NoSQL, document-oriented database alternative to traditional
@@ -3388,8 +3464,8 @@ NoSQL
      of RAM".  :cite:`www-safaribooks-cbs`
 
      CBS is written in Erlang/OTP, but generally shortened to just
-     Erlang.  In actuality, t is written in "Erlang using components
-     of OTP alongside some C/C++":cite:`www-erlangcentral-cbs`, It
+     Erlang.  In actuality, it is written in "Erlang using components
+     of OTP alongside some C/C++" :cite:`www-erlangcentral-cbs`, It
      runs on an Erlang virtual machine known as
      BEAM. :cite:`www-wikipedia-erlang-cbs`
 
@@ -4086,7 +4162,7 @@ Cluster Resource Management
      Facebook employed the MapReduce implementation from Apache Hadoop
      since 2011 for job scheduling.The scheduling MapReduce framework
      has it's limitations with the scalibility as when the number of
-     jobs at facebook grew in the next few years.:cite: `www-facebook
+     jobs at facebook grew in the next few years.:cite:`www-facebook
      corona` Another limitation of Hadoop was it was a pull-based
      scheduling model as the task trackerhave to provide a heartbeat
      to the job tracker to indicate that it is running which
@@ -4837,6 +4913,17 @@ DevOps
      snippets.
 
 316. Xcat
+
+     xCAT is defined as extreme cloud/cluster administration
+     toolkit. Tnd his open source software was developed by IBM and 
+     utilized on clusters based on either linux or a version of UNIX 
+     called AIX. With this service administrator is enabled with 
+     a number of capabilities including parallel system management, 
+     provision OS usage on virtual machines, and manage all systems 
+     remotely. :cite:`www-xcat` xCAT works with various cluster types 
+     such as high performance computing, horizontal scaling web farms, 
+     administrative, and operating systems. :cite:`www-03ibm`
+     
 317. Razor
 
      Razor is a hardware provisioning application, developed by Puppet
@@ -5169,8 +5256,8 @@ IaaS Management from HPC to hypervisors
      as VMM. It only supports fully virtualized VMs. It is very
      active for Linux users due to it’s ease of use, it can be
      completely controlled by ourselves and there is an ease for
-     migration from or to other platforms. :cite:`www-KVM-
-     webpage` It is built to run on a x86 machine on an Intel
+     migration from or to other platforms. :cite:`www-KVM-webpage`
+     It is built to run on a x86 machine on an Intel
      processor with virtualization technology extensions (VT-x)
      or an AMD-V. It supports 32 and 64 bit guests on a 64 bit
      host and hardware visualization features. The supported
@@ -5576,6 +5663,19 @@ Monitoring
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 365. InCommon
+
+     The mission of InCommon is to ``create and support a common trust
+     framework for U.S. education and research.  This includes trustworthy
+     shared management of access to on-line resources in support of
+     education and research in the United States''. :cite:`www-incommon`
+     This mission ultimately is a simplification and an elimination of the
+     need for multiple accounts across various websites that are at risk of
+     data spills or misuse.  In the academic setting, this helps assist
+     researchers to focus on their area of study, and enabling the cross
+     collaboration which is happening on a globa scale.  Currently any two
+     and four year higher education institution that is accredited is
+     eligble for joining InCommon.
+
 366. Eduroam :cite:`www-eduroam`
 
      Eduroam is an initiative started in the year 2003 when the number
