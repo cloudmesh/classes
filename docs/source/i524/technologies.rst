@@ -5997,7 +5997,26 @@ New Technologies (To Be Integrated by the AIs)
      usage data to any business or financial
      system. :cite:`www-cloudability`
 
-388. Blaze  
+
+388. CUDA
+
+     It is a parallel computing platform and application programming
+     interface(API) model created by Nvidia. It allows software developers
+     to use a CUDA-enabled graphics processing unit for general purpose
+     processing. The CUDA platform is a software layer that gives direct
+     access to the GPU's virtual instruction set and parallel computational
+     elements, for the execution of compute kernels.  CUDA platform has
+     advantages such as scattered reads i.e the code can read from
+     arbitrary addresses in memory, unified virtual memory, unified memory,
+     faster downloads and readbacks to and from the GPU and full support
+     for integer and bitwise operations. :cite:`www-cuda-wikipedia`.  CUDA
+     is used for accelerated rendering of 3D graphics, accelerated
+     interconversion of video file formats, encryption, decryption and
+     compression of files.  It is also usedd for distributed calculations,
+     face recognition and distributed computing. :cite:`www-cuda-wikipedia`
+	  
+
+389. Blaze  
 
      Blaze library translates NumPy/Pandas-like syntax to data computing systems (e.g. database
      , in-memory, distributed-computing). This provides Python users with a familiar
@@ -6012,6 +6031,7 @@ New Technologies (To Be Integrated by the AIs)
      session. It allows the data scientists and analyst to write their queries in a unified
      way that does not have to change because the data is stored in another format or a different
      data-store. :cite:`www-blaze` 
+
 
 .. _techs-exercise:
 
