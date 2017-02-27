@@ -745,6 +745,26 @@ Application and Analytics
     designed to be extensible.
 
 50. DAAL(Intel)
+
+    DAAL stands for Data Analytics Acceleration Library. DAAL is
+    software library offered by Intel which is written in C++, python,
+    and Java which implements algorithm for doing efficient and
+    optimized data analysis tasks to solve big-data
+    problems. :cite:`www-daal-wiki`. The library is designed to use
+    data platforms like Hadoop, Spark, R, and Matlab.The important
+    algorithms which DAAL implements are 'Lower Order Moments' which
+    is used to find out max, min standard deviation of a dataset,
+    'Clustering' which is used to do unsupervised learning by grouping
+    data into unlabelled group.It also inlude 10-12 other important
+    algorithms.
+
+    :cite:`www-daal-official` It supports three processing modes
+    namely batch processing, online processing and distributed
+    processing.Intel DAAL addresses all stages of data analytics
+    pipeline namely pre-processing, transformation, analysis,
+    modelling,validation, and decision making.
+    
+    
 51. Caffe
 
     Caffe is a deep learning framework made with three terms namely
@@ -3124,6 +3144,22 @@ SQL(NewSQL)
 
 206. SciDB
 207. Rasdaman
+
+     Rasdaman is an specialized database management system which adds
+     capabilities for storage and retrival of massive
+     multi-dimensional array, such as sensors,image, and statistics
+     data. :cite:`www-rasdaman-wiki` It is written in C++
+     language. For example, it can serve 1-D measurement data, 2-D
+     satellite data, 3-D x/y/t image series and x/y/z exploration
+     data, 4-D ocean and climate data, and much more.
+
+     :cite:`www-rasdaman-official`: Rasdaman servers provides
+     functionality from geo service up to complex analytics which are
+     related to spatio-temporal raster data.It also integrates
+     smoothly with R, OpenLayers, NASA WorldWind etc. via APIs
+     calls. It is massively used in the domains like earth, space,
+     and social science related fields.
+     
 208. Apache Derby
 
      :cite:`www-apachederby`: Apache Derby is java based relational
