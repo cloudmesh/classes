@@ -4895,6 +4895,17 @@ DevOps
      snippets.
 
 316. Xcat
+
+     xCAT is defined as extreme cloud/cluster administration
+     toolkit. Tnd his open source software was developed by IBM and 
+     utilized on clusters based on either linux or a version of UNIX 
+     called AIX. With this service administrator is enabled with 
+     a number of capabilities including parallel system management, 
+     provision OS usage on virtual machines, and manage all systems 
+     remotely. :cite:`www-xcat` xCAT works with various cluster types 
+     such as high performance computing, horizontal scaling web farms, 
+     administrative, and operating systems. :cite:`www-03ibm`
+     
 317. Razor
 
      Razor is a hardware provisioning application, developed by Puppet
@@ -5634,6 +5645,19 @@ Monitoring
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 365. InCommon
+
+     The mission of InCommon is to ``create and support a common trust
+     framework for U.S. education and research.  This includes trustworthy
+     shared management of access to on-line resources in support of
+     education and research in the United States''. :cite:`www-incommon`
+     This mission ultimately is a simplification and an elimination of the
+     need for multiple accounts across various websites that are at risk of
+     data spills or misuse.  In the academic setting, this helps assist
+     researchers to focus on their area of study, and enabling the cross
+     collaboration which is happening on a globa scale.  Currently any two
+     and four year higher education institution that is accredited is
+     eligble for joining InCommon.
+
 366. Eduroam :cite:`www-eduroam`
 
      Eduroam is an initiative started in the year 2003 when the number
