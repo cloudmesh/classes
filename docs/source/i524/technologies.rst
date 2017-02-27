@@ -6030,8 +6030,53 @@ New Technologies (To Be Integrated by the AIs)
      optimizing and translating the query as appropriate to provide a smooth and interactive
      session. It allows the data scientists and analyst to write their queries in a unified
      way that does not have to change because the data is stored in another format or a different
-     data-store. :cite:`www-blaze` 
+     data-store. :cite:`www-blaze`
 
+
+389. Apache OODT
+
+     :cite:`www-oodt` Apache Object Oriented Data Technology (OODT) is
+     a distributed data management technology that helps to integrate
+     and archive your processes, your data, and its metadata. OODT
+     allows to generate, process, manage and analyze distributed and
+     heterogeneous data enabling integration of different, distributed
+     software systems. Apache OODT uses structured XML-based capturing
+     of the processing pipeline which is used to create, edit, manage
+     and provision workflow and task execution. OODT is written in
+     Java programming language and provides its own set of APIs for
+     storing and processing data. :cite:`www-oodt-documentation` It
+     provides three core services. A File Manager is responsible for
+     tracking file locations, their metadata, and for transferring
+     files from a staging area to controlled access storage. A
+     Workflow Manager captures control flow and data flow for complex
+     processes, and allows for reproducibility and the construction of
+     scientific pipelines. A Resource Manager handles allocation of
+     workflow tasks and other jobs to underlying resources, e.g.,
+     Python jobs go to nodes with Python installed on them similarly
+     jobs that require a large disk or CPU are properly sent to those
+     nodes that fulfill those requirements. OODT is now supported with
+     Apache Mesos and Grid Computing which can allow for creating of
+     highly distributed, scalable data platforms that can process
+     large amounts of data. OODT technology is used in NASA's Jet
+     Propulsion Labatory.
+
+
+
+389. Omid
+
+     Omid is a "flexible, reliable, high performant and scalable ACID 
+     transactional framework" :cite:`www-apacheomid` for NoSQL databases, 
+     developed by Yahoo for HBase and contributed to the Apache 
+     community  Most NoSQL databases, do not natively support ACID 
+     transactions. Omid employs a lock free approach from concurrency 
+     and can scale beyond 100,000 transactions per second. At Yahoo,
+     millions of transactions per day are processed by Omid.
+     :cite:`www-www-yahooomid`. 
+
+     Omid is currently in the Apache Incubator.  All projects accepted 
+     by the Apache Software Foundation (ASF) undergo an incubation 
+     period until a review indicates that the project meets the 
+     standards of other ASF projects :cite:`www-apacheincubator`
 
 .. _techs-exercise:
 
