@@ -205,7 +205,7 @@ Workflow-Orchestration
 13. Jupyter
 14. Dryad
 
-      Dryad is a general-purpose distributed execution engine for
+    Dryad is a general-purpose distributed execution engine for
     coarse-grain data-parallel applications. According to
     :cite:`www-DryadIntro` it was created with the objective of
     automatically managing scheduling, distribution, fault tolerance
