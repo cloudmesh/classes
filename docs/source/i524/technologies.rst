@@ -203,6 +203,33 @@ Workflow-Orchestration
     
 12. IPython
 13. Jupyter
+
+	The Jupyter Notebook is a language-agnostic HTML notebook web application
+	that allows you to create and share documents that contain live code,
+	equations, visualizations and explanatory text. :cite:`www-jupyter-1` The
+	notebook extends the console-based approach to interactive computing in a
+	qualitatively new direction, providing a web-based application suitable for
+	capturing the whole computation process: developing, documenting, and
+	executing code, as well as communicating the results. :cite:`www-jupyter-2`
+	The Jupyter notebook combines two components:
+	1. A web application: a browser-based tool for interactive authoring of
+	documents which combine explanatory text, mathematics, computations and
+	their rich media output.
+	2. Notebook documents: a representation of all content visible in the web
+	application, including inputs and outputs of the computations, explanatory
+	text, mathematics, images, and rich media representations of objects.
+	Notebooks may be exported to a range of static formats, including HTML
+	(for example, for blog posts), reStructuredText, LaTeX, PDF, and slide
+	shows, via the nbconvert command. :cite:`www-jupyter-3` Notebook documents
+	contains the inputs and outputs of a interactive session as well as
+	additional text that accompanies the code but is not meant for execution. :cite:`www-jupyter-4`
+	In this way, notebook files can serve as a complete computational record of
+	a session, interleaving executable code with explanatory text, mathematics,
+	and rich representations of resulting objects. :cite:`www-jupyter-5`
+	These documents are internally JSON files and are saved with the .ipynb
+	extension. Since JSON is a plain text format, they can be version-controlled
+	and shared with colleagues. :cite:`www-jupyter-6`
+
 14. (Dryad)
 15. Naiad
 
@@ -1133,6 +1160,22 @@ Application and Analytics
     single package.
     
 69. Kibana
+
+	Kibana is an open source data visualization plugin for Elasticsearch. :cite:`www-kibana-1`
+	It provides visualization capabilities on top of the content indexed on an
+	Elasticsearch cluster. Users can create bar, line and scatter plots, or pie
+	charts and maps on top of large volumes of data. :cite:`www-kibana-2`
+	The combination of Elasticsearch, Logstash, and Kibana (also known as ELK
+	stack or Elastic stack) is available as products or service. Logstash
+	provides an input stream to Elastic for storage and search, and Kibana
+	accesses the data for visualizations such as dashboards. :cite:`www-kibana-3`
+	Elasticsearch is a search engine based on Lucene. :cite:`www-kibana-4` It
+	provides a distributed, multitenant-capable full-text search engine with an
+	HTTP web interface and schema-free JSON documents. Kibana makes it easy to
+	understand large volumes of data. Its simple, browser-based interface
+	enables you to quickly create and share dynamic dashboards that display
+	changes to Elasticsearch queries in real time. :cite:`www-kibana-5` :cite:`www-kibana-6`
+
 70. Logstash
 
     Logstash is an open source data collection engine with real-time
