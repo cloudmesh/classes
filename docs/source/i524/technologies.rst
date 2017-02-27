@@ -5714,6 +5714,18 @@ IaaS Management from HPC to hypervisors
 
 360. Amazon Route 53
 
+     Amazon Route 53 is a DNS (Domain Name System) service that gives
+     developers and businesses a reliable way to route end users to
+     Internet applications. The number 53 refers to TCP or UDP port
+     53, where DNS server requests are addressed :cite:`www-ar53`.
+     
+     When using Route 53 as your DNS provider, in case of a recursion,
+     the query of fetching an IP address (of a website or application)
+     always goes to the closest server location to reduce query
+     latency. The Route 53 server returns the IP address enabling the
+     browser to load the website or application. Route 53 can also be
+     used for registering domain names and arranging DNS “health
+     checks” to monitor the server :cite:`www-amar53`.
 
 Cross-Cutting Functions
 ----------------------------------------------------------------------
@@ -5741,6 +5753,25 @@ Monitoring
      for ambari on github.
      
 362. Ganglia
+
+     Ganglia is a scalable distributed monitoring system for
+     high-performance computing systems (clusters and grids). It is a
+     BSD-licensed open-source project that grew out of the University of
+     California, Berkeley Millennium Project which was initially funded in
+     large part by the National Partnership for Advanced Computational
+     Infrastructure (NPACI) and National Science Foundation RI Award
+     EIA-9802069 :cite:`www-gms`.
+
+     It relies on a multicast-based listen/announce protocol to monitor
+     state within clusters. It uses a tree of point-to-point connections
+     amongst representative cluster nodes to unite clusters and aggregate
+     their state :cite:`www-gsoft`. It leverages technologies such as XML
+     for data representation, XDR for compact, portable data transport, and
+     RRDtool for data storage and visualization. The implementation is
+     robust, has been ported to an extensive set of operating systems and
+     processor architectures, and is currently in use on thousands of
+     clusters around the world, handling clusters with 2000 nodes.
+     
 363. Nagios :cite:`www-nagios`
 
      Nagios is a platform, which provides a set of software for
