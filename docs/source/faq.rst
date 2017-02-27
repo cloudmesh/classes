@@ -824,8 +824,8 @@ will be sufficient, since this is the only one you push into.
 
 
 
-How to properly research a bibtex entry
----------------------------------------
+How to properly research a bibtex entry?
+----------------------------------------
 
 Often you may find via google a bibtex entry that may need some more
 reserach. Lets assume your first google quesry returns a publication
@@ -986,8 +986,7 @@ Lets query::
 
 We get:
 
-*
-https://scholar.google.de/citations?view_op=view_citation&hl=en&user=j6lIXt0AAAAJ&citation_for_view=j6lIXt0AAAAJ:8k81kl-MbHgC
+* https://scholar.google.de/citations?view_op=view_citation&hl=en&user=j6lIXt0AAAAJ&citation_for_view=j6lIXt0AAAAJ:8k81kl-MbHgC
 
 On that page we see `Cite
 <https://scholar.google.com/scholar_lookup?title=Automated+drug+dispensing+system+reduces+medication+errors+in+an+intensive+care+setting&author=Chapuis&publication_year=2010#>`_
@@ -1158,8 +1157,7 @@ combined.
 
 
 What are the due dates for assignments
--------------------------
-
+--------------------------------------
 
 Due dates are posed on the Web page calendar.
 
@@ -1175,8 +1173,8 @@ What are good places to find refernce entries?
 * http://academic.research.microsoft.com/
 
 
-Matplotlib Installation
-------------------------------  
+HOw to install Matplotlib?
+--------------------------
 
 Follow the installation in the class documentation properly.
 
