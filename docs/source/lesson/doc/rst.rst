@@ -1,6 +1,5 @@
-=====================================================
 reStructuredText
-=====================================================
+================
 
 reStructuredText (RST) pur[pose is to provide an easy-to-read,
 what-you-see-is-what-you-get plaintext markup syntax and parser
@@ -31,7 +30,7 @@ The source for this page is located at
 This way you can look at the source on how we create this page.
 
 Sections
-----------------------------------------------------------------------   
+--------
 
 
 # with overline, for parts
@@ -57,7 +56,7 @@ various underlines::
       ~~~~~~~~~~~~~~~~~~~~~
 
 Listtable
-----------------------------------------------------------------------
+---------
 
 ::
 
@@ -75,7 +74,7 @@ Listtable
 
 
 Exceltable
-----------------------------------------------------------------------
+----------
 
 we have integrated Excel table from
 http://pythonhosted.org//sphinxcontrib-exceltable/ intou our sphinx
@@ -85,10 +84,10 @@ documentation to list tables can be found at
 http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table
 
 Boxes
-----------------------------------------------------------------------
+-----
 
 Seealso
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^
 
 ::
 
@@ -98,7 +97,7 @@ Seealso
 .. seealso:: This is a simple **seealso** note. 
 
 Note
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^
 
 .. note::  This is a **note** box.
 
@@ -107,7 +106,7 @@ Note
     .. note::  This is a **note** box.
 
 Warning
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^
 
 .. warning:: note the space between the directive and the text
 
@@ -116,7 +115,7 @@ Warning
     .. warning:: note the space between the directive and the text
 
 Others
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 
 .. attention:: This is an **attention** box.
@@ -171,7 +170,7 @@ Others
 
 
 Sidebar directive
-----------------------------------------------------------------------
+-----------------
 
 It is possible to create sidebar using the following code::
 
@@ -191,7 +190,7 @@ It is possible to create sidebar using the following code::
     interpreted as body elements.
 
 Programm examples
-----------------------------------------------------------------------
+-----------------
 
 You can include code examples and bash commands with two colons.
 
@@ -205,44 +204,46 @@ This is an example for a shell command::
   $ ls -lisa
 
 
-Autorun
-----------------------------------------------------------------------
+..
+   COMMENT
+   Autorun
+   -------
 
-.. warning:: This feature may not be enabled on the Web Page.
-	     
-Autorun is an extension for Sphinx_ that can execute the code from a
-runblock directive and attach the output of the execution to the document. 
+   .. warning:: This feature may not be enabled on the Web Page.
 
-For example::
+   Autorun is an extension for Sphinx_ that can execute the code from a
+   runblock directive and attach the output of the execution to the document. 
 
-    .. runblock:: pycon
-        
-        >>> for i in range(3):
-        ...    print i
+   For example::
 
-Produces
+       .. runblock:: pycon
 
-.. runblock:: pycon
-        
-    >>> for i in range(3):
-    ...    print i
+	   >>> for i in range(3):
+	   ...    print i
+
+   Produces
+
+   .. runblock:: pycon
+
+       >>> for i in range(3):
+       ...    print i
 
 
-Another example::
+   Another example::
 
-    .. runblock:: console
+       .. runblock:: console
 
-        $ date
+	   $ date
 
-Produces
+   Produces
 
-.. runblock:: console
+   .. runblock:: console
 
-   $ date 
+      $ date 
 
-However, when it comes to excersises we do preferthe use of ipython
-notebooks as this allows us to present them also to users as self
-contained excersises.
+   However, when it comes to excersises we do preferthe use of ipython
+   notebooks as this allows us to present them also to users as self
+   contained excersises.
 
 Hyperlinks
 ----------------------------------------------------------------------
