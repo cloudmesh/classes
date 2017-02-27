@@ -745,6 +745,26 @@ Application and Analytics
     designed to be extensible.
 
 50. DAAL(Intel)
+
+    DAAL stands for Data Analytics Acceleration Library. DAAL is
+    software library offered by Intel which is written in C++, python,
+    and Java which implements algorithm for doing efficient and
+    optimized data analysis tasks to solve big-data
+    problems. :cite:`www-daal-wiki`. The library is designed to use
+    data platforms like Hadoop, Spark, R, and Matlab.The important
+    algorithms which DAAL implements are 'Lower Order Moments' which
+    is used to find out max, min standard deviation of a dataset,
+    'Clustering' which is used to do unsupervised learning by grouping
+    data into unlabelled group.It also inlude 10-12 other important
+    algorithms.
+
+    :cite:`www-daal-official` It supports three processing modes
+    namely batch processing, online processing and distributed
+    processing.Intel DAAL addresses all stages of data analytics
+    pipeline namely pre-processing, transformation, analysis,
+    modelling,validation, and decision making.
+    
+    
 51. Caffe
 
     Caffe is a deep learning framework made with three terms namely
@@ -3124,6 +3144,22 @@ SQL(NewSQL)
 
 206. SciDB
 207. Rasdaman
+
+     Rasdaman is an specialized database management system which adds
+     capabilities for storage and retrival of massive
+     multi-dimensional array, such as sensors,image, and statistics
+     data. :cite:`www-rasdaman-wiki` It is written in C++
+     language. For example, it can serve 1-D measurement data, 2-D
+     satellite data, 3-D x/y/t image series and x/y/z exploration
+     data, 4-D ocean and climate data, and much more.
+
+     :cite:`www-rasdaman-official`: Rasdaman servers provides
+     functionality from geo service up to complex analytics which are
+     related to spatio-temporal raster data.It also integrates
+     smoothly with R, OpenLayers, NASA WorldWind etc. via APIs
+     calls. It is massively used in the domains like earth, space,
+     and social science related fields.
+     
 208. Apache Derby
 
      :cite:`www-apachederby`: Apache Derby is java based relational
@@ -4298,6 +4334,19 @@ Cluster Resource Management
      
 283. Torque
 284. Globus Tools
+
+     :cite:`sotomayor2006globus` The Globus Toolkit is an open source toolkit 
+     organized as a collection of loosely coupled components. These components 
+     consist of services, programming libraries and development tools designed 
+     for building Grid-based applications. GT components fall into five broad 
+     domain areas: Security, Data Management, Execution Management, Information 
+     Services, and Common Runtime. :cite:`foster2006globus` These components 
+     enable a broader "Globus ecosystem" of tools and components that build on 
+     or interoperate with GT functionality to provide a wide range of useful 
+     application-level functions. www-about-globus 
+     :cite:`www-about-globus` Since 2000, companies like Fujitsu, IBM, NEC and 
+     Oracle have pursued Grid strategies based on the Globus Toolkit.
+
 285. Pilot Jobs
 
      In pilot job, an application acquires a resource so that it can
@@ -6030,8 +6079,27 @@ New Technologies (To Be Integrated by the AIs)
      optimizing and translating the query as appropriate to provide a smooth and interactive
      session. It allows the data scientists and analyst to write their queries in a unified
      way that does not have to change because the data is stored in another format or a different
-     data-store. :cite:`www-blaze`
+     data-store. :cite:`www-blaze` 
 
+390. OpenRefine
+
+     OpenRefine (formerly GoogleRefine) is an open source tool that is
+     dedicated to cleaning messy data. With the help of this
+     user-friendly tool you can explore huge data sets easily and
+     quickly even if the data is a little unstructured. It allows you
+     to load data, understand it, clean it up, reconcile it, and
+     augment it with data coming from the web
+     :cite:`www-openrefine`.It operates on rows of data which have
+     cells under columns, which is very similar to relational database
+     tables. One OpenRefine project is one table. The user can filter
+     the rows to display using facets that define filtering
+     criteria. most operations in OpenRefine are done on all visible
+     rows: transformation of all cells in all rows under one column,
+     creation of a new column based on existing column data, etc. All
+     actions that were done on a dataset are stored in a project and
+     can be replayed on another dataset. It has a huge community with
+     lots of contributors meaning that the software is constantly
+     getting better and better.
 
 389. Apache OODT
 
@@ -6059,8 +6127,6 @@ New Technologies (To Be Integrated by the AIs)
      highly distributed, scalable data platforms that can process
      large amounts of data. OODT technology is used in NASA's Jet
      Propulsion Labatory.
-
-
 
 389. Omid
 
