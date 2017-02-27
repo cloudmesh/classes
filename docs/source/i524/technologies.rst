@@ -4332,6 +4332,26 @@ Cluster Resource Management
      quality. :cite:`www-ibm-helix-paper`
       
 274. Llama
+
+     Llama stands for leveraging learning to automatically manage
+     algorithms. There has been a phenomenal improvement in algorithm
+     portfolio and selection approaches. The main drawback of them is
+     that their implementation is specific to a problem domain and
+     customized which leads to the difficulty of exploring new
+     techniques for certain problem domains. Llama has been developed
+     to provide an extensible toolkit which can initiate exploration
+     of a variety of portfolio techniques over a wide range of problem
+     domains. It is modular and implemented as an R package. It
+     leverages the extensive library of machine learning algorithms
+     and techniques in R :cite:`lla1`. Llama can be regarded as a
+     framework which provides the prerequisites for initiating
+     automatic portfolio selectors. It provides a set of methods for
+     combining several trivial approaches of portfolio selection into
+     sophisticated techniques. The primary reason behind the
+     introduction of Llama was to help the researchers working in
+     algorithm selection, algorithm portfolios, etc. and can be just
+     used as a tool for designing the systems :cite:`lla1`.
+     
 275. Google Omega
 276. Facebook Corona
 
@@ -5764,6 +5784,31 @@ IaaS Management from HPC to hypervisors
      
 357. Azure
 358. Google and other public Clouds
+
+     A public cloud is a scenario where a provider provides services
+     such as infrastructure or applications to the public over the
+     internet. Google cloud generally refers to services such as cloud
+     print, connect, messaging, storage and platform
+     :cite:`goo1`. Google cloud print allows a print-aware application
+     on a device, installed on a network, to provide prints to any
+     printer on that network. Cloud connect allows an automatic
+     storage and synchronization of Microsoft word documents,
+     power-points and excel sheets to Google docs while preserving the
+     Microsoft office formats. In certain cases, developers require
+     important notifications to be sent to applications targeting
+     android operating system. Google cloud messaging provides such
+     services. Google cloud platform allows the developers to deploy
+     their mobile, web and backend solutions on a highly scalable and
+     reliable infrastructure :cite:`goo2`. It gives developers a
+     privilege of using any programming language. Google cloud
+     platform provides a wide range of products and services including
+     networking, storage, machine learning, big data, authentication
+     and security, resource management, etc. In general, public clouds
+     provide services to different end users with the usage of the
+     same shared infrastructure :cite:`goo3`. Windows Azure services
+     platform, Amazon elastic compute cloud and Sun cloud are few
+     examples of public clouds.
+     
 359. Networking: Google Cloud DNS
 
      Under the umbrella of google cloud platform, helps user to publish their domain using 
