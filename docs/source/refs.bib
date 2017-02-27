@@ -5961,7 +5961,7 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
 
 
 % S17-IR-2029
-
+% Fixed review comments on Feb-27-2017
 @InProceedings{giraffePaper,
   review = {Kindly remove RST citations command on line 12},
   Title =	 {GIRAFFE: A Scalable Distributed Coordination Service
@@ -5984,15 +5984,16 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
                   like Zookeeper and Chubby which were efficient only
                   in read-intensive scenario and small ensembles. To
                   overcome this three important aspects were included
-                  in the design of Giraffe :cite:`giraffePaper`. First
-                  feature is Giraffe uses interior-node joint trees to
-                  organize coordination servers for better
-                  scalability. Second, Giraffe uses Paxos protocol for
-                  better consistency and to provide more
-                  fault-tolerance. Finally, Giraffe also facilitates
-                  hierarchical data organization and in-memory storage
-                  for high throughput and low latency.},
+                  in the design of Giraffe. First feature is Giraffe
+                  uses interior-node joint trees to organize
+                  coordination servers for better scalability. Second,
+                  Giraffe uses Paxos protocol for better consistency
+                  and to provide more fault-tolerance. Finally,
+                  Giraffe also facilitates hierarchical data
+                  organization and in-memory storage for high
+                  throughput and low latency.},
   Owner =	 {S17-IR-2029},
+  Note         = {Accessed: 2017-2-27},
   Url =		 {http://www.mcs.anl.gov/papers/P5157-0714.pdf}
 }
 
@@ -6009,6 +6010,7 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
   Month =	 jun,
   Pages =	 {1-14},
   Owner =	 {S17-IR-2029},
+  Note         = {Accessed: 2017-2-27},
   Url =          {http://iss.ices.utexas.edu/Publications/Papers/pingali11.pdf},
 }
 
@@ -6019,29 +6021,28 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
   Author       = {C.J. Gronlund and Gary Ericson and Larry Francs and Paulette McKay},
   Year =	 {2017},
   Month =	 jan,
-  Note         = {Accessed: 2017-2-19},
+  Note         = {Accessed: 2017-2-27},
   Abstract =	 {Azure Machine Learning is a cloud based service that
                   can be used to do predictive analytics, machine
-                  learning or datya mining. It has features like
+                  learning or data mining. It has features like
                   in-built algorithm library, machine learning studio
-                  and a webservice :cite:`www-azureMLSite`. In built
-                  algorithm library has implementation of various
-                  popular machine learning algorithms like decision
-                  tree, SVM, linear regression, neural networks
-                  etc. Machine learning studio facilitates creation of
-                  predictive models using graphical user interface by
-                  dragging, dropping and connecting of different
-                  modules that can be used by people with minimal
-                  knowledge in the machine learning field. Machine
-                  learning studio is a free service for basic version
-                  and comes with a monthly charge for advanced
-                  versions. Apart from building models, studio also
-                  has options to do preprocessing like clean,
-                  transform and normalize the data. Webservice
-                  provides option to deploy the machine learning
-                  algorithm as ready to consume APIs that can be
-                  reused in future with minimal effort and can also be
-                  published.},
+                  and a webservice. In built algorithm library has
+                  implementation of various popular machine learning
+                  algorithms like decision tree, SVM, linear
+                  regression, neural networks etc. Machine learning
+                  studio facilitates creation of predictive models
+                  using graphical user interface by dragging, dropping
+                  and connecting of different modules that can be used
+                  by people with minimal knowledge in the machine
+                  learning field. Machine learning studio is a free
+                  service for basic version and comes with a monthly
+                  charge for advanced versions. Apart from building
+                  models, studio also has options to do preprocessing
+                  like clean, transform and normalize the
+                  data. Webservice provides option to deploy the
+                  machine learning algorithm as ready to consume APIs
+                  that can be reused in future with minimal effort and
+                  can also be published.},
   Owner =	 {S17-IR-2029},
   Url =
                   {https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-what-is-machine-learning#what-is-machine-learning-in-the-microsoft-azure-cloud},
@@ -6052,24 +6053,24 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
   Title =	 {Galois website},
   Author       = {ISS team - {University of Texas}},
   HowPublished = {Web Page},
-  Note =	 {Accessed: 2017-2-19},
+  Note =	 {Accessed: 2017-2-27},
   Abstract =	 {Galois system was built by intelligent software
                   systems team at University of Texas, Austin. As
-                  explained in :cite:`www-galoisSite`, ``Galois is a
-                  system that automatically executes ''Galoized''
-                  serial C++ or Java code in parallel on shared-memory
-                  machines. It works by exploiting amorphous
-                  data-parallelism, which is present even in irregular
-                  codes that are organized around pointer-based data
-                  structures such as graphs and trees''. By using
-                  Galois provided data structures programmers can
-                  write serial programs that gives the performance of
-                  parallel execution. Galois employs annotations at
-                  loop levels to understand correct context during
-                  concurrent execution and executes the code that
-                  could be run in parallel. The key idea behind Galois
-                  is Tao-analysis, in which parallelism is exploited
-                  at compile time rather than at run time by creating
+                  explained in website, ``Galois is a system that
+                  automatically executes ''Galoized'' serial C++ or
+                  Java code in parallel on shared-memory machines. It
+                  works by exploiting amorphous data-parallelism,
+                  which is present even in irregular codes that are
+                  organized around pointer-based data structures such
+                  as graphs and trees''. By using Galois provided data
+                  structures programmers can write serial programs
+                  that gives the performance of parallel
+                  execution. Galois employs annotations at loop levels
+                  to understand correct context during concurrent
+                  execution and executes the code that could be run in
+                  parallel. The key idea behind Galois is
+                  Tao-analysis, in which parallelism is exploited at
+                  compile time rather than at run time by creating
                   operators equivalent of the code by employing data
                   driven local computation algorithm
                   :cite:`taoParallelismPaper`. Galois currently
@@ -6086,10 +6087,10 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
   HowPublished = {Web Page},
   Year =	 {2015},
   Month =	 nov,
-  Note =	 {Accessed: 2017-1-28},
+  Note =	 {Accessed: 2017-2-27},
   Abstract =	 {The Australian based cloud computing platform has
                   shut down their services since January 30,
-                  2016. Refer :cite:`www-ninefoldSite`},
+                  2016.},
   Owner =	 {S17-IR-2029},
   Url =		 { http://ninefold.com/news/}
 }
@@ -6101,11 +6102,10 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
   HowPublished = {Web Page},
   Year =	 {2015},
   Month =	 apr,
-  Note =	 {Accessed: 2017-1-28},
+  Note =	 {Accessed: 2017-2-27},
   Abstract =	 {Though originally developed for Linux, SLURM also
                   provides full support on platforms like AIX,
-                  FreeBSD, NetBSD and Solaris
-                  :cite:`www-slurmPlatformsSite`},
+                  FreeBSD, NetBSD and Solaris},
   Owner =	 {S17-IR-2029},
   Url =		 {https://slurm.schedmd.com/platforms.html}
 }
@@ -6117,25 +6117,25 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
   HowPublished = {Web Page},
   Year =	 {2013},
   Month =	 mar,
-  Note =	 {Accessed: 2017-1-28},
+  Note =	 {Accessed: 2017-2-27},
   Abstract =	 {Simple Linux Utility for Resource Management (SLURM)
                   workload manager is an open source, scalable cluster
                   resource management tool used for job scheduling in
                   small to large Linux cluster using multi-core
-                  architecture. As per, :cite:`www-slurmSchedmdSite`
-                  SLURM has three key functions. First, it allocates
-                  resources to users for some duration with exclusive
-                  and/or non-exclusive access. Second, it enables
-                  users to start, execute and monitor jobs on the
-                  resources allocated to them. Finally, it
-                  intermediates to resolve conflicts on resources for
-                  pending work by maintaining them in a queue. The
-                  slurm architecture has following components: a
-                  centralized manager to monitor resources and work,
-                  may have a backup manager, daemon on each server to
-                  provide fault-tolerant communications, an optional
-                  daemon for clusters with multiple mangers and tools
-                  to initiate, terminate and report about jobs in a
+                  architecture. As per, SLURM has three key
+                  functions. First, it allocates resources to users
+                  for some duration with exclusive and/or
+                  non-exclusive access. Second, it enables users to
+                  start, execute and monitor jobs on the resources
+                  allocated to them. Finally, it intermediates to
+                  resolve conflicts on resources for pending work by
+                  maintaining them in a queue. The slurm architecture
+                  has following components: a centralized manager to
+                  monitor resources and work, may have a backup
+                  manager, daemon on each server to provide
+                  fault-tolerant communications, an optional daemon
+                  for clusters with multiple mangers and tools to
+                  initiate, terminate and report about jobs in a
                   graphical view with network topology. It also
                   provides around twenty additional plugins that could
                   be used for functionalities like accounting,
@@ -6143,6 +6143,174 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
                   scheduling and multifactor job prioritization.},
   Owner =	 {S17-IR-2029},
   Url =		 {https://slurm.schedmd.com/overview.html}
+}
+
+% Entries for techlist 2 and 1d. Moved to S17-IR-2029 section from bottom of bib file.
+@Misc{www-sniawebsite,
+  review = {},
+  author       = {Storage Networking Industry Association},
+  title        = {About the {SNIA}},
+  publisher    = {snia.org},
+  howpublished = {Web Page},
+  url          = {https://www.snia.org/about},
+  owner        = {S17-IR-2029},
+  note         = {Accessed: 2017-2-27},
+  abstract     = {The Storage Networking Industry Association (SNIA) is
+                  a non-profit organization formed by various
+                  companies, suppliers and consumers of data storage
+                  and network products. SNIA defines various standards
+                  to ensure the quality and interoperability of
+                  various storage systems. One of the standards
+                  defined by SNIA is Cloud Data Management Interface
+                  (CDMI). According latest issue of CDMI, “CDMI
+                  International Standard is intended for application
+                  developers who are implementing or using cloud
+                  storage. It documents how to access cloud storage
+                  and to manage the data stored there.” It defines
+                  functional interface for applications that will use
+                  cloud for various functionalities like create,
+                  retrieve, update and delete data elements from the
+                  cloud. These interface could be used to manage
+                  containers along with the data. The interface could
+                  be used by administrative and management
+                  applications as well. Also, the CDMI specification
+                  uses RESTful principles in the interface design. All
+                  the standards issued on CDMI can be found on SNIA
+                  web page.},
+}
+
+@Manual{cdmi-manual,
+  review = {},
+  title        = {Cloud Data Management Interface},
+  author       = {Storage Networking Industry Association},
+  organization = {Storage Networking Industry Association},
+  address      = {Colorado Springs, CO},
+  edition      = {1.1.1},
+  month        = mar,
+  year         = {2015},
+  note         = {Accessed: 2017-2-27},
+  abstract     = {The Storage Networking Industry Association (SNIA)
+                  is a non-profit organization formed by various
+                  companies, suppliers and consumers of data storage
+                  and network products. SNIA defines various standards
+                  to ensure the quality and interoperability of
+                  various storage systems. One of the standards
+                  defined by SNIA is Cloud Data Management Interface
+                  (CDMI). According latest issue of CDMI, “CDMI
+                  International Standard is intended for application
+                  developers who are implementing or using cloud
+                  storage. It documents how to access cloud storage
+                  and to manage the data stored there.” It defines
+                  functional interface for applications that will use
+                  cloud for various functionalities like create,
+                  retrieve, update and delete data elements from the
+                  cloud. These interface could be used to manage
+                  containers along with the data. The interface could
+                  be used by administrative and management
+                  applications as well. Also, the CDMI specification
+                  uses RESTful principles in the interface design. All
+                  the standards issued on CDMI can be found on SNIA
+                  web page.},
+  owner        = {S17-IR-2029},
+  url          = {https://www.snia.org/sites/default/files/CDMI_Spec_v1.1.1.pdf},
+}
+
+@Misc{www-cdmiwebsite,
+  review = {},
+  author       = {Storage Networking Industry Association},
+  title        = {Cloud Data Management Interface},
+  publisher    = {snia.org},
+  month        = mar,
+  year         = {2015},
+  howpublished = {Web Page},
+  url          = {https://www.snia.org/cdmi},
+  owner        = {S17-IR-2029},
+  note         = {Accessed: 2017-2-27},
+  abstract     = {The Storage Networking Industry Association (SNIA)
+                  is a non-profit organization formed by various
+                  companies, suppliers and consumers of data storage
+                  and network products. SNIA defines various standards
+                  to ensure the quality and interoperability of
+                  various storage systems. One of the standards
+                  defined by SNIA is Cloud Data Management Interface
+                  (CDMI). According latest issue of CDMI, “CDMI
+                  International Standard is intended for application
+                  developers who are implementing or using cloud
+                  storage. It documents how to access cloud storage
+                  and to manage the data stored there.” It defines
+                  functional interface for applications that will use
+                  cloud for various functionalities like create,
+                  retrieve, update and delete data elements from the
+                  cloud. These interface could be used to manage
+                  containers along with the data. The interface could
+                  be used by administrative and management
+                  applications as well. Also, the CDMI specification
+                  uses RESTful principles in the interface design. All
+                  the standards issued on CDMI can be found on SNIA
+                  web page.},
+}
+
+@Misc{www-ironicwebsite,
+  review = {},
+author       = {Devananda Van Der Veen and Llama  Wrangler},
+title        = {Introduction to {Ironic}},
+publisher    = {OpenStack.org},
+month        = mar,
+year         = {2015},
+howpublished = {Web Page},
+url          = {https://docs.openstack.org/developer/ironic/deploy/user-guide.html},
+owner        = {S17-IR-2029},
+note         = {Accessed: 2017-2-27},
+abstract     = {Ironic project is developed and supported by
+                  OpenStack. Ironic provisions bare metal machines
+                  instead of virtual machines and functions as
+                  hypervisor API that is developed using open source
+                  technologies like Preboot Execution Environment
+                  (PXE), Dynamic Host Configuration Protocol (DHCP),
+                  Network Bootstrap Program (NBP), Trivial File
+                  Transfer Protocol (TFTP) and Intelligent Platform
+                  Management Interface (IPMI). A properly configured
+                  Bare Metal service with the Compute and Network
+                  services, could provision both virtual and physical
+                  machines through the Compute service’s API. But, the
+                  number of instance actions are limited, due to
+                  physical servers and switch hardware. For example,
+                  live migration is not possible on a bare metal
+                  instance. The Ironic service has five key
+                  components. A RESTful API service, through which
+                  other components would interact with the bare metal
+                  servers, a Conductor service, various drivers,
+                  messaging queue and a database. Ironic could be
+                  integrated with other OpenStack projects like
+                  Identity (keystone), Compute (nova), Network
+                  (neutron), Image (glance) and Object (swift)
+                  services.},
+}
+
+@Misc{www-zeppelinwebsite,
+  review = {},
+  author       = {Apache Zeppelin},
+  title        = {Apache Zeppelin 0.7.0 Documentation},
+  publisher    = {zeppelin.apache.org},
+  month        = feb,
+  year         = {2017},
+  howpublished = {Web Page},
+  url          = {https://zeppelin.apache.org/docs/0.7.0/},
+  owner        = {S17-IR-2029},
+  note         = {Accessed: 2017-2-27},
+  abstract     = {Apache Zeppelin provides an interactive environment
+                  for big data data analytics on applications using
+                  distributed data processing system like Hadoop and
+                  Spark. It supports various tasks like data
+                  ingestion, data discovery, data visualization, data
+                  analytics and collaboration. Apache Zeppelin
+                  provides built-in Apache Spark integration and is
+                  compatible with many languages/data-processing
+                  backends like Python, R, SQL, Cassandra and JDBC. It
+                  also supports adding new language backend. Zeppelin
+                  lets users to collaborate by sharing their
+                  Notebooks, Paragraph and has option to broadcast any
+                  changes in realtime.},
 }
 
 % S17-IR-2030
@@ -8047,172 +8215,6 @@ it were running on a single, huge computer" as swarm can be scaled upto
   url          = {www.talend.com},
 }
 
-@Misc{www-sniawebsite,
-  review = {},
-  author       = {Storage Networking Industry Association},
-  title        = {About the {SNIA}},
-  publisher    = {snia.org},
-  howpublished = {Web Page},
-  url          = {https://www.snia.org/about},
-  owner        = {S17-IR-2029},
-  note         = {Accessed: 02-19-2017},
-  abstract     = {The Storage Networking Industry Association (SNIA) is
-                  a non-profit organization formed by various
-                  companies, suppliers and consumers of data storage
-                  and network products. SNIA defines various standards
-                  to ensure the quality and interoperability of
-                  various storage systems. One of the standards
-                  defined by SNIA is Cloud Data Management Interface
-                  (CDMI). According latest issue of CDMI, “CDMI
-                  International Standard is intended for application
-                  developers who are implementing or using cloud
-                  storage. It documents how to access cloud storage
-                  and to manage the data stored there.” It defines
-                  functional interface for applications that will use
-                  cloud for various functionalities like create,
-                  retrieve, update and delete data elements from the
-                  cloud. These interface could be used to manage
-                  containers along with the data. The interface could
-                  be used by administrative and management
-                  applications as well. Also, the CDMI specification
-                  uses RESTful principles in the interface design. All
-                  the standards issued on CDMI can be found on SNIA
-                  web page.},
-}
-
-@Manual{cdmi-manual,
-  review = {},
-  title        = {Cloud Data Management Interface},
-  author       = {Storage Networking Industry Association},
-  organization = {Storage Networking Industry Association},
-  address      = {Colorado Springs, CO},
-  edition      = {1.1.1},
-  month        = mar,
-  year         = {2015},
-  note         = {Accessed: 2017-02-19},
-  abstract     = {The Storage Networking Industry Association (SNIA)
-                  is a non-profit organization formed by various
-                  companies, suppliers and consumers of data storage
-                  and network products. SNIA defines various standards
-                  to ensure the quality and interoperability of
-                  various storage systems. One of the standards
-                  defined by SNIA is Cloud Data Management Interface
-                  (CDMI). According latest issue of CDMI, “CDMI
-                  International Standard is intended for application
-                  developers who are implementing or using cloud
-                  storage. It documents how to access cloud storage
-                  and to manage the data stored there.” It defines
-                  functional interface for applications that will use
-                  cloud for various functionalities like create,
-                  retrieve, update and delete data elements from the
-                  cloud. These interface could be used to manage
-                  containers along with the data. The interface could
-                  be used by administrative and management
-                  applications as well. Also, the CDMI specification
-                  uses RESTful principles in the interface design. All
-                  the standards issued on CDMI can be found on SNIA
-                  web page.},
-  owner        = {S17-IR-2029},
-  url          = {https://www.snia.org/sites/default/files/CDMI_Spec_v1.1.1.pdf},
-}
-
-@Misc{www-cdmiwebsite,
-  review = {},
-  author       = {Storage Networking Industry Association},
-  title        = {Cloud Data Management Interface},
-  publisher    = {snia.org},
-  month        = mar,
-  year         = {2015},
-  howpublished = {Web Page},
-  url          = {https://www.snia.org/cdmi},
-  owner        = {S17-IR-2029},
-  note         = {Accessed: 02-19-2017},
-  abstract     = {The Storage Networking Industry Association (SNIA)
-                  is a non-profit organization formed by various
-                  companies, suppliers and consumers of data storage
-                  and network products. SNIA defines various standards
-                  to ensure the quality and interoperability of
-                  various storage systems. One of the standards
-                  defined by SNIA is Cloud Data Management Interface
-                  (CDMI). According latest issue of CDMI, “CDMI
-                  International Standard is intended for application
-                  developers who are implementing or using cloud
-                  storage. It documents how to access cloud storage
-                  and to manage the data stored there.” It defines
-                  functional interface for applications that will use
-                  cloud for various functionalities like create,
-                  retrieve, update and delete data elements from the
-                  cloud. These interface could be used to manage
-                  containers along with the data. The interface could
-                  be used by administrative and management
-                  applications as well. Also, the CDMI specification
-                  uses RESTful principles in the interface design. All
-                  the standards issued on CDMI can be found on SNIA
-                  web page.},
-}
-
-@Misc{www-ironicwebsite,
-  review = {},
-author       = {Devananda Van Der Veen and Llama  Wrangler},
-title        = {Introduction to {Ironic}},
-publisher    = {OpenStack.org},
-month        = mar,
-year         = {2015},
-howpublished = {Web Page},
-url          = {https://docs.openstack.org/developer/ironic/deploy/user-guide.html},
-owner        = {S17-IR-2029},
-note         = {Accessed: 02-19-2017},
-abstract     = {Ironic :cite:`www-ironicwebsite` project is developed
-                  and supported by OpenStack. Ironic provisions bare
-                  metal machines instead of virtual machines and
-                  functions as hypervisor API that is developed using
-                  open source technologies like Preboot Execution
-                  Environment (PXE), Dynamic Host Configuration
-                  Protocol (DHCP), Network Bootstrap Program (NBP),
-                  Trivial File Transfer Protocol (TFTP) and
-                  Intelligent Platform Management Interface (IPMI). A
-                  properly configured Bare Metal service with the
-                  Compute and Network services, could provision both
-                  virtual and physical machines through the Compute
-                  service’s API. But, the number of instance actions
-                  are limited, due to physical servers and switch
-                  hardware. For example, live migration is not
-                  possible on a bare metal instance. The Ironic
-                  service has five key components. A RESTful API
-                  service, through which other components would
-                  interact with the bare metal servers, a Conductor
-                  service, various drivers, messaging queue and a
-                  database. Ironic could be integrated with other
-                  OpenStack projects like Identity (keystone), Compute
-                  (nova), Network (neutron), Image (glance) and Object
-                  (swift) services.},
-}
-
-@Misc{www-zeppelinwebsite,
-  review = {},
-  author       = {Apache Zeppelin},
-  title        = {Apache Zeppelin 0.7.0 Documentation},
-  publisher    = {zeppelin.apache.org},
-  month        = feb,
-  year         = {2017},
-  howpublished = {Web Page},
-  url          = {https://zeppelin.apache.org/docs/0.7.0/},
-  owner        = {S17-IR-2029},
-  note         = {Accessed: 02-19-2017},
-  abstract     = {Apache Zeppelin :cite:`www-zeppelinwebsite` provides
-                  an interactive environment for big data data
-                  analytics on applications using distributed data
-                  processing system like Hadoop and Spark. It supports
-                  various tasks like data ingestion, data discovery,
-                  data visualization, data analytics and
-                  collaboration. Apache Zeppelin provides built-in
-                  Apache Spark integration and is compatible with many
-                  languages/data-processing backends like Python, R,
-                  SQL, Cassandra and JDBC. It also supports adding new
-                  language backend. Zeppelin lets users to collaborate
-                  by sharing their Notebooks, Paragraph and has option
-                  to broadcast any changes in realtime.},
-}
 
 @Misc{www-talend-apachebeam,
   Title                    = {The Future of Apache Beam, Now a Top-Level Apache Software Foundation Project},
