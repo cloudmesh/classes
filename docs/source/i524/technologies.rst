@@ -2619,6 +2619,32 @@ Inter process communication Collectives
         messages from queues on demand”
 
 169. NaradaBrokering
+
+     NaradaBrokering :cite:`www-narada`, is a content distribution
+     infrastructure for voluminous data streams. The substrate places
+     no limits on the size, rate and scope of the information
+     encapsulated within these streams or on the number of entities
+     within the system. The smallest unit of this substrate called as
+     broker, intelligently process and route messages, while working
+     with multiple underlying communication protocols. The major
+     capabilities of NaradaBrokering consists of providing a message
+     oriented middleware (MoM) which facilitates communications
+     between entities (which includes clients, resources, services and
+     proxies thereto) through the exchange of messages and providing a
+     notification framework by efficiently routing messages from the
+     originators to only the registered consumers of the message in
+     question :cite:`paper-nb-sustrate`. Also, it provides salient
+     stream oriented features such as their Secure end-to-end
+     delivery, Robust disseminations, jitter reductions.
+
+     NaradaBrokering incorporates support for several communication
+     protocol such as TCP, UDP, Multicast, HTTP, SSL, IPSec and
+     Parallel TCP as well as supports enterprise messaging standards
+     such as the Java Message Service, and a slew of Web Service
+     specifications such as SOAP, WS-Eventing, WS-Reliable Messaging
+     and WS-Reliability :cite:`www-narada-features`.
+
+     
 170. QPid
 171. Kafka
 
@@ -3316,6 +3342,27 @@ SQL(NewSQL)
 
      
 213. Google F1
+
+     F1 is a distributed relational database system built at Google to
+     support the AdWords business. It is a hybrid database that
+     combines high availability, the scalability of NoSQL systems like
+     Bigtable, and the consistency and usability of traditional SQL
+     databases. F1 is built on Spanner, which provides synchronous
+     cross-datacenter replication and strong consistency
+     :cite:`paper-F1`.
+     
+     F1 features include a strictly enforced schema, a powerful
+     parallel SQL query engine, general transactions, change tracking
+     and notification, and indexing, and is built on top of a
+     highly-distributed storage system that scales on standard
+     hardware in Google data centers. The store is dynamically sharded
+     and is able to handle data center outages without data loss
+     :cite:`paper-RDBMS` . The synchronous cross-datacenter
+     replication and strong consistency results in higher commit
+     latency which can be overcome using hierarchical schema model
+     with structured data types and through smart application design.
+     
+
 214. IBM dashDB
 
      IBM dashDB is a data warehousing service hosted in cloud ,
@@ -3757,6 +3804,23 @@ NoSQL
      spanner infrastructure.
 
 238. Accumulo
+
+     Apache Accumulo, a highly scalable structured store based on
+     Google’s BigTable, is a sorted, distributed key/value store that
+     provides robust, scalable data storage and retrieval. Accumulo is
+     written in Java and operates over the Hadoop Distributed File
+     System (HDFS), which is part of the popular Apache Hadoop
+     project. Accumulo supports efficient storage and retrieval of
+     structured data, including queries for ranges, and provides
+     support for using Accumulo tables as input and output for
+     MapReduce jobs.
+     Accumulo features automatic load-balancing and
+     partitioning, data compression and fine-grained security
+     labels. Much of the work Accumulo does involves maintaining
+     certain properties of the data, such as organization,
+     availability, and integrity, across many commodity-class
+     machines :cite:`apache-accumulo`.
+
 239. Cassandra
 
      Apache Cassandra :cite:`www-cassandra` is an open-source
@@ -3881,6 +3945,28 @@ NoSQL
      be queried.  :cite:`www-Allegrow`
 
 246. Blazegraph
+
+     Blazegraph is a graph database also supporting property graph, 
+     capable of clustered deployment. A graph database is a NoSQL 
+     database. It is based on a graph theory of nodes and edges where 
+     each node represents an element such as user or business and each 
+     edge represents relationship between two nodes. It is mainly used 
+     for storing and analyzing data where maintaining interconnections 
+     is essential. Data pertaining to social media is best example where 
+     graph database can be used.
+
+     Blazegraph’s main focus is large scale complex graph analytics and query. 
+     The Blazegraph database runs on graphics processing units (GPU) to 
+     speed graph traversals. :cite ‘paper-blzgraph’
+
+     Lets now see how Blazegraph handles data. :cite ‘www-blzgraph’ 
+     **Blazegraph data can be accessed** using REST APIs. 
+
+     **Blazegraph supports** Apache TinkerPop, which is a graph computing framework.
+
+     **For graph data mining,** Blazegraph implements GAS (Gather, Apply, 
+     Scatter) model as a service.
+
 247. Facebook Tao
 
      In the paper published in USENIX annual technical conference, 
@@ -4355,6 +4441,26 @@ Cluster Resource Management
      quality. :cite:`www-ibm-helix-paper`
       
 274. Llama
+
+     Llama stands for leveraging learning to automatically manage
+     algorithms. There has been a phenomenal improvement in algorithm
+     portfolio and selection approaches. The main drawback of them is
+     that their implementation is specific to a problem domain and
+     customized which leads to the difficulty of exploring new
+     techniques for certain problem domains. Llama has been developed
+     to provide an extensible toolkit which can initiate exploration
+     of a variety of portfolio techniques over a wide range of problem
+     domains. It is modular and implemented as an R package. It
+     leverages the extensive library of machine learning algorithms
+     and techniques in R :cite:`lla1`. Llama can be regarded as a
+     framework which provides the prerequisites for initiating
+     automatic portfolio selectors. It provides a set of methods for
+     combining several trivial approaches of portfolio selection into
+     sophisticated techniques. The primary reason behind the
+     introduction of Llama was to help the researchers working in
+     algorithm selection, algorithm portfolios, etc. and can be just
+     used as a tool for designing the systems :cite:`lla1`.
+     
 275. Google Omega
 276. Facebook Corona
 
@@ -5414,6 +5520,26 @@ DevOps
      also supports Docker and VMWare vSphere.
      
 337. DevOpSlang
+     
+     DevOpSlang serves as means of collaboration and
+     provides the foundation to automate deployment and operations of
+     an application. Technically, it is a domain specific language
+     based on JavaScript Object Notation (JSON). JSON Schema is used
+     to define a formal schema for DevOpSlang and complete JSON Schema
+     definition of DevOpSlang is publicly available on GitHub project
+     DevOpSlang: http://github.com/jojow/devopslang Devopsfiles are
+     the technical artifacts (Unix shell commands, Chef Scripts, etc.)
+     rendered using DevOpSlang to implement operations.
+     Beside some meta data such as ’version’ and ’author’ Devopsfile defines
+     operations like ’start’ consisting of a single or multiple
+     actions which specifies the command to run the
+     application. Similarly, a ’build’ operation can be defined to
+     install the dependencies required to run the
+     application. Different abstraction levels may be combined
+     consistently such as a ’deploy’ operation consisting of actions
+     on the level of Unix shell commands and actions using portable
+     Chef cookbooks :cite:`DevOpSlang`.
+
 338. Any2Api
 
      This framework :cite:`wettinger-any2api` allows user to wrap an
@@ -5803,6 +5929,31 @@ IaaS Management from HPC to hypervisors
      
 357. Azure
 358. Google and other public Clouds
+
+     A public cloud is a scenario where a provider provides services
+     such as infrastructure or applications to the public over the
+     internet. Google cloud generally refers to services such as cloud
+     print, connect, messaging, storage and platform
+     :cite:`goo1`. Google cloud print allows a print-aware application
+     on a device, installed on a network, to provide prints to any
+     printer on that network. Cloud connect allows an automatic
+     storage and synchronization of Microsoft word documents,
+     power-points and excel sheets to Google docs while preserving the
+     Microsoft office formats. In certain cases, developers require
+     important notifications to be sent to applications targeting
+     android operating system. Google cloud messaging provides such
+     services. Google cloud platform allows the developers to deploy
+     their mobile, web and backend solutions on a highly scalable and
+     reliable infrastructure :cite:`goo2`. It gives developers a
+     privilege of using any programming language. Google cloud
+     platform provides a wide range of products and services including
+     networking, storage, machine learning, big data, authentication
+     and security, resource management, etc. In general, public clouds
+     provide services to different end users with the usage of the
+     same shared infrastructure :cite:`goo3`. Windows Azure services
+     platform, Amazon elastic compute cloud and Sun cloud are few
+     examples of public clouds.
+     
 359. Networking: Google Cloud DNS
 
      Under the umbrella of google cloud platform, helps user to publish their domain using 
@@ -6304,6 +6455,17 @@ New Technologies (To Be Integrated by the AIs)
      way that does not have to change because the data is stored in another format or a different
      data-store. :cite:`www-blaze` 
 
+389. Apache Arrow
+     
+     Apache arrow allows execution engines to utilize what is known as 
+     Single Input multiple data (SIMD).  :cite:`www-arrow`   This SIMD 
+     is an operation that allows modern processors to take advantage of 
+     this engine.  Peformance is enhanced by grouping relevant data as 
+     close as possible in a column format.    Many programming languages 
+     are supported such a Java, C, C++, Python and it is anticipated that 
+     languages will be added as it grows.  It is still in early developemnt
+     but has released a 0.1.0 build.
+
 390. OpenRefine
 
      OpenRefine (formerly GoogleRefine) is an open source tool that is
@@ -6367,7 +6529,30 @@ New Technologies (To Be Integrated by the AIs)
      period until a review indicates that the project meets the 
      standards of other ASF projects :cite:`www-apacheincubator`
 
-390. Apache Ant
+390. :cite:`RMBDP-Book` Askalon was developed at the University of
+     Innsbruck.  It is application development as well as a runtime
+     environment. It allows easy execution of distributed work flow
+     applications in service oriented grids. It uses a Service Oriented
+     Architecture. Also, for its Grid middleware it uses the Globus
+     Toolkit. The work flow applications are developed using Abstract Grid
+     Work flow Language (AGWL). The architecture has various components
+     like the resource broker responsible for brokerage functions like
+     management and reservation, information service for the discovery and
+     organization of resources and data, metascheduler for mapping in the
+     Grid, performance analysis for unification of performance monitoring
+     and integration of the results and the Askalon scheduler.
+
+     The Metascheduler is of special significance since it consists of
+     two major components - the workflow converter and the scheduling
+     engine. The former is responsible for conversion of traditional
+     workflows into directed acyclic graphs (DAGs) while the later one is
+     responsible for the scheduling of workflows for various specific
+     tasks. It has a conventional pluggable architecture which allows easy
+     integration of various services. By default, the Heterogeneous
+     Earliest Finish Time (HEFT) is used as the primary scheduling
+     algorithm.
+
+391. Apache Ant
 
      Apache Ant is a Java library and command-line tool whose mission
      is to drive processes described in build files as targets and
@@ -6388,7 +6573,6 @@ New Technologies (To Be Integrated by the AIs)
      Ivy. The Apache Ant project is part of the Apache Software
      Foundation :cite:`ant-www`.
 
-     
 .. _techs-exercise:
 
 Excersise
