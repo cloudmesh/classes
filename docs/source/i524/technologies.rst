@@ -3847,6 +3847,23 @@ NoSQL
      spanner infrastructure.
 
 238. Accumulo
+
+     Apache Accumulo, a highly scalable structured store based on
+     Google’s BigTable, is a sorted, distributed key/value store that
+     provides robust, scalable data storage and retrieval. Accumulo is
+     written in Java and operates over the Hadoop Distributed File
+     System (HDFS), which is part of the popular Apache Hadoop
+     project. Accumulo supports efficient storage and retrieval of
+     structured data, including queries for ranges, and provides
+     support for using Accumulo tables as input and output for
+     MapReduce jobs.
+     Accumulo features automatic load-balancing and
+     partitioning, data compression and fine-grained security
+     labels. Much of the work Accumulo does involves maintaining
+     certain properties of the data, such as organization,
+     availability, and integrity, across many commodity-class
+     machines :cite:`apache-accumulo`.
+
 239. Cassandra
 
      Apache Cassandra :cite:`www-cassandra` is an open-source
@@ -4467,6 +4484,26 @@ Cluster Resource Management
      quality. :cite:`www-ibm-helix-paper`
       
 274. Llama
+
+     Llama stands for leveraging learning to automatically manage
+     algorithms. There has been a phenomenal improvement in algorithm
+     portfolio and selection approaches. The main drawback of them is
+     that their implementation is specific to a problem domain and
+     customized which leads to the difficulty of exploring new
+     techniques for certain problem domains. Llama has been developed
+     to provide an extensible toolkit which can initiate exploration
+     of a variety of portfolio techniques over a wide range of problem
+     domains. It is modular and implemented as an R package. It
+     leverages the extensive library of machine learning algorithms
+     and techniques in R :cite:`lla1`. Llama can be regarded as a
+     framework which provides the prerequisites for initiating
+     automatic portfolio selectors. It provides a set of methods for
+     combining several trivial approaches of portfolio selection into
+     sophisticated techniques. The primary reason behind the
+     introduction of Llama was to help the researchers working in
+     algorithm selection, algorithm portfolios, etc. and can be just
+     used as a tool for designing the systems :cite:`lla1`.
+     
 275. Google Omega
 276. Facebook Corona
 
@@ -5526,6 +5563,26 @@ DevOps
      also supports Docker and VMWare vSphere.
      
 337. DevOpSlang
+     
+     DevOpSlang serves as means of collaboration and
+     provides the foundation to automate deployment and operations of
+     an application. Technically, it is a domain specific language
+     based on JavaScript Object Notation (JSON). JSON Schema is used
+     to define a formal schema for DevOpSlang and complete JSON Schema
+     definition of DevOpSlang is publicly available on GitHub project
+     DevOpSlang: http://github.com/jojow/devopslang Devopsfiles are
+     the technical artifacts (Unix shell commands, Chef Scripts, etc.)
+     rendered using DevOpSlang to implement operations.
+     Beside some meta data such as ’version’ and ’author’ Devopsfile defines
+     operations like ’start’ consisting of a single or multiple
+     actions which specifies the command to run the
+     application. Similarly, a ’build’ operation can be defined to
+     install the dependencies required to run the
+     application. Different abstraction levels may be combined
+     consistently such as a ’deploy’ operation consisting of actions
+     on the level of Unix shell commands and actions using portable
+     Chef cookbooks :cite:`DevOpSlang`.
+
 338. Any2Api
 
      This framework :cite:`wettinger-any2api` allows user to wrap an
@@ -5915,6 +5972,31 @@ IaaS Management from HPC to hypervisors
      
 357. Azure
 358. Google and other public Clouds
+
+     A public cloud is a scenario where a provider provides services
+     such as infrastructure or applications to the public over the
+     internet. Google cloud generally refers to services such as cloud
+     print, connect, messaging, storage and platform
+     :cite:`goo1`. Google cloud print allows a print-aware application
+     on a device, installed on a network, to provide prints to any
+     printer on that network. Cloud connect allows an automatic
+     storage and synchronization of Microsoft word documents,
+     power-points and excel sheets to Google docs while preserving the
+     Microsoft office formats. In certain cases, developers require
+     important notifications to be sent to applications targeting
+     android operating system. Google cloud messaging provides such
+     services. Google cloud platform allows the developers to deploy
+     their mobile, web and backend solutions on a highly scalable and
+     reliable infrastructure :cite:`goo2`. It gives developers a
+     privilege of using any programming language. Google cloud
+     platform provides a wide range of products and services including
+     networking, storage, machine learning, big data, authentication
+     and security, resource management, etc. In general, public clouds
+     provide services to different end users with the usage of the
+     same shared infrastructure :cite:`goo3`. Windows Azure services
+     platform, Amazon elastic compute cloud and Sun cloud are few
+     examples of public clouds.
+     
 359. Networking: Google Cloud DNS
 
      Under the umbrella of google cloud platform, helps user to publish their domain using 
@@ -6415,6 +6497,17 @@ New Technologies (To Be Integrated by the AIs)
      session. It allows the data scientists and analyst to write their queries in a unified
      way that does not have to change because the data is stored in another format or a different
      data-store. :cite:`www-blaze` 
+
+389. Apache Arrow
+     
+     Apache arrow allows execution engines to utilize what is known as 
+     Single Input multiple data (SIMD).  :cite:`www-arrow`   This SIMD 
+     is an operation that allows modern processors to take advantage of 
+     this engine.  Peformance is enhanced by grouping relevant data as 
+     close as possible in a column format.    Many programming languages 
+     are supported such a Java, C, C++, Python and it is anticipated that 
+     languages will be added as it grows.  It is still in early developemnt
+     but has released a 0.1.0 build.
 
 390. OpenRefine
 
