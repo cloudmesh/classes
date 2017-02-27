@@ -1,5 +1,4 @@
 Ansible: Write a Playbooks for MongoDB
-=================
 
 Ansible Playbooks are automated scripts written in YAML data format.  Instead
 of using manual commands to setup multiple remote machines, you can utilize
