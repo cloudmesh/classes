@@ -5902,11 +5902,7 @@ New Technologies (To Be Integrated by the AIs)
      champions the project. :cite:`www-talend-apachebeam`  It should be grouped
      with the technologies in the *Interoperability* section.
 
-<<<<<<< d2dd3a39d2eb0e930c12b96a8ab3cff8c17aa530
 387. Cloudability
-=======
-388. Cloudability
->>>>>>> new:usr added paragraph about Blaze
 
      Cloudability is a financial management tool for analyzing and
      monitoring all cloud expenses across an organization. It can be
@@ -5918,26 +5914,16 @@ New Technologies (To Be Integrated by the AIs)
      usage data to any business or financial
      system. :cite:`www-cloudability`
 
-<<<<<<< d2dd3a39d2eb0e930c12b96a8ab3cff8c17aa530
 388. Blaze
 
      Blaze library translates NumPy/Pandas-like syntax to data computing systems (e.g. database
      , in-memory, distributed-computing). This provides Python users with a familiar
      interface to query data  in a variety of other data storage systems.
      One Blaze query can work across data ranging from a CSV file to a distributed
-=======
-387. Blaze  
-
-     Blaze library translates NumPy/Pandas-like syntax to data computing systems (e.g. database
-     , in-memory, distributed-computing). This provides Python users with a familiar
-     interface to query data  in a variety of other data storage systems. 
-     One Blaze query can work across data ranging from a CSV file to a distributed 
->>>>>>> new:usr added paragraph about Blaze
      database.
 
      Blaze presents a pleasant and familiar interface regardless of what computational
      solution or database we use (e.g. Spark, Impala, SQL databases, No-SQL data-stores,
-<<<<<<< d2dd3a39d2eb0e930c12b96a8ab3cff8c17aa530
      raw-files). It mediates the users interaction with files, data structures, and databases,
      optimizing and translating the query as appropriate to provide a smooth and interactive
      session. It allows the data scientists and analyst to write their queries in a unified
@@ -5968,13 +5954,6 @@ New Technologies (To Be Integrated by the AIs)
     Cloudera Hadoop, Hortonworks Hadoop and Amazon EMR.
     CDAP sample apps :cite:`github-cdap-sample-apps` provide explain how to
     implement apps on CDAP platform.
-=======
-     raw-files). It mediates the users interaction with files, data structures, and databases, 
-     optimizing and translating the query as appropriate to provide a smooth and interactive
-     session. It allows the data scientists and analyst to write their queries in a unified
-     way that does not have to change because the data is stored in another format or a different
-     data-store. :cite:`www-blaze` 
->>>>>>> new:usr added paragraph about Blaze
 
 .. _techs-exercise:
 
