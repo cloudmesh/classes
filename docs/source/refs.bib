@@ -5428,9 +5428,40 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
   url          = {https://aws.amazon.com/sdk-for-python/},
 }
 
+@InBook{RMBDP-Book,
+  pages     = {49-50},
+  title     = {Resource Management for Big Data Platforms},
+  publisher = {Springer Nature},
+  year      = {2016},
+  editor    = {Florin Pop and Joanna Kolodziej and Beniamino DiMartino},
+  abstract  = {:cite:`RMBDP-Book` Askalon was developed at the University of Innsbruck. 
+It is application development as well as a runtime environment. It 
+allows easy execution of distributed work flow applications in service 
+oriented grids. It uses a Service Oriented Architecture. Also, for its 
+Grid middleware it uses the Globus Toolkit. The work flow applications 
+are developed using Abstract Grid Work flow Language (AGWL). The 
+architecture has various components like the resource broker responsible 
+for brokerage functions like management and reservation, information 
+service for the discovery and organization of resources and data, 
+metascheduler for mapping in the Grid, performance analysis for 
+unification of performance monitoring and integration of the results and 
+the Askalon scheduler. 
+
+The Metascheduler is of special significance since it consists of two 
+major components - the workflow converter and the scheduling engine. The 
+former is responsible for conversion of traditional workflows into 
+directed acyclic graphs (DAGs) while the later one is responsible for 
+the scheduling of workflows for various specific tasks. It has a 
+conventional pluggable architecture which allows easy integration of 
+various services. By default, the Heterogeneous Earliest Finish Time 
+(HEFT) is used as the primary scheduling algorithm.},
+  owner     = {S17-IR-2022},
+}
+
 % S17-IR-2024
+%Reviewed by S17-IR-2026 :Incomplete Title for Web-pages,Title should be complete text shown in tab bar
 @inproceedings{www-graphX1,
-  review = {},
+  review = {missing owner and note(accessed date)},
   author =	 {Xin, Reynold S. and Gonzalez, Joseph E. and
                   Franklin, Michael J. and Stoica, Ion},
   title =	 {GraphX: A Resilient Distributed Graph System on
@@ -5452,6 +5483,7 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
 }
 
 @Misc{www-cobbler,
+  review=        {I think  Howpublished should be {Blog}},
   Title =	 {Cobbler},
   Author =	 {{Modine Austin}},
   HowPublished = {Web Page},
@@ -5464,6 +5496,7 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
 
 
 @Misc{www-ldap,
+  review=        {This entry has author and contributors,should be updated},
   Title =	 {Lightweight Directory Access Protocol},
   Author =	 {{TechTarget}},
   HowPublished = {Web Page},
@@ -5531,6 +5564,7 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
 }
 
 @Misc{www-spark-sql-2,
+  review=        {this entry is Inproceedings as per url provided},
   Title =	 {Spark SQL: Relational Data Processing in Spark},
   Author =	 {{ACM, Inc.}},
   HowPublished = {Web Page},
@@ -5787,6 +5821,95 @@ changes in AWS, automatically. Boto3 has these waiters for both the APIs
   owner   = {S17-IR-2026},
   url     = {https://www.duo.uio.no/bitstream/handle/10852/43117/1595-Setty-DUO-Thesis.pdf?sequence=1&isAllowed=y},
 }
+
+@Misc{www-narada,
+  review = {},
+  author       = {{Community Grids Lab IU}},
+  title        = {The NaradaBrokering Project @ IU Community Grids Laboratory},
+  howpublished = {Web Page},
+  year         = {2009},
+  month        = nov,
+  note         = {Accessed: 2017-2-15},
+  address      = {501 N. MORTON ST, SUITE 224 BLOOMINGTON IN 47404},
+  organization = {Pervasive Technology Labs at Indiana University},
+  owner        = {S17-IR-2026},
+  url          = {http://www.naradabrokering.org/},
+} 
+@Misc{www-narada-features,
+  review ={},
+  author       = {{Community Grids Lab IU}},
+  title        = {Some of the salient features in naradabrokering},
+  howpublished = {Web Page},
+  year         = {2009},
+  month        = nov,
+  note         = {Accessed: 2017-2-15},
+  address      = {501 N. MORTON ST, SUITE 224 BLOOMINGTON IN 47404},
+  organization = {Pervasive Technology Labs at Indiana University},
+  owner        = {S17-IR-2026},
+  url          = {http://www.naradabrokering.org/},
+}
+ 
+@ARTICLE{paper-nb-sustrate,
+review={},
+author={G. Fox and S. Pallickara},
+journal={Proceedings of the IEEE},
+title={Deploying the NaradaBrokering Substrate in Aiding Efficient Web and Grid Service Interactions},
+year={2005},
+volume={93},
+number={3},
+pages={564-577},
+doi={10.1109/JPROC.2004.842759},
+ISSN={0018-9219},
+Month = mar,
+note = {Accessed : 2017-02-15},
+owner = {S17-IR-2026},
+}
+
+
+@article{paper-F1,
+ review ={},
+ author = {Shute, Jeff and Vingralek, Radek and Samwel, Bart and Handy, Ben and Whipkey, Chad and Rollins, Eric and Oancea, Mircea and Littlefield, Kyle and Menestrina, David and Ellner, Stephan and Cieslewicz, John and Rae, Ian and Stancescu, Traian and Apte, Himani},
+ title = {F1: A Distributed SQL Database That Scales},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {August 2013},
+ volume = {6},
+ number = {11},
+ month = aug,
+ year = {2013},
+ issn = {2150-8097},
+ pages = {1068--1079},
+ numpages = {12},
+ url = {https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41344.pdf},
+ doi = {10.14778/2536222.2536232},
+ acmid = {2536232},
+ publisher = {VLDB Endowment},
+owner = {S17-IR-2026},
+note = {Accessed:2017-02-15},
+}
+
+
+@inproceedings{paper-RDBMS,
+ review={},
+ author = {Shute, Jeff and Oancea, Mircea and Ellner, Stephan and Handy, Ben and Rollins, Eric and Samwel, Bart and Vingralek, Radek and Whipkey, Chad and Chen, Xin and Jegerlehner, Beat and Littlefield, Kyle and Tong, Phoenix},
+ title = {F1: The Fault-tolerant Distributed RDBMS Supporting Google's Ad Business},
+ booktitle = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},
+ series = {SIGMOD '12},
+ year = {2012},
+ isbn = {978-1-4503-1247-9},
+ location = {Scottsdale, Arizona, USA},
+ pages = {777--778},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/2213836.2213954},
+ doi = {10.1145/2213836.2213954},
+ acmid = {2213954},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ owner = {S17-IR-2026},
+ note = {Accessed : 2017-02-15},
+ keywords = {business applications, mysql, query engines, relational schema, scalability, sql, synchronous replication, transactional consistency},
+} 
+
+
 
 % S17-IR-2027
 
@@ -6588,6 +6711,38 @@ GPUs},
   note         = {Accessed:2/6/2017},
   owner        = {S17-IR-2034},
   url          = {http://tinkerpop.apache.org/},
+}
+
+@Misc{www-OpenStack.org,
+	title        = {Software >> OpenStack Open Source Cloud Computing Software},
+	howpublished = {Web Page},
+	note         = {Online; accessed 23-Feb-2017},
+	owner        = {S17-IR-2034},
+	url          = {https://www.openstack.org/software/},
+}
+
+@Misc{www-OpenStack-Found,
+	title        = {Foundation >> OpenStack Open Source Cloud Computing Software},
+	howpublished = {Web Page},
+	note         = {Online; accessed 23-Feb-2017},
+	owner        = {S17-IR-2034},
+	url          = {https://www.openstack.org/foundation/},
+}
+
+@Misc{www-Apache-License,
+	title        = {Apache License, Version 2.0},
+	howpublished = {Web Page},
+	note         = {Online; accessed 23-Feb-2017},
+	owner        = {S17-IR-2034},
+	url          = {https://www.apache.org/licenses/LICENSE-2.0},
+}
+
+@Misc{www-Linkedin-Espresso,
+	title        = {Introducing Espresso - LinkedIn's hot new distributed document store | Linkedin Engineerin},
+	howpublished = {Web Page},
+	note         = {Online; accessed 23-Feb-2017},
+	owner        = {S17-IR-2034},
+	url          = {https://engineering.linkedin.com/espresso/introducing-espresso-linkedins-hot-new-distributed-document-store},
 }
 
 
