@@ -237,7 +237,7 @@ Now, we can obtain help for the `add` and `subtract` commands::
   calc >>> bye, bye
 
 Useful Links
-----------
+------------
 
 * `Python Docs <https://docs.python.org/2/library/cmd.html>`_
 * `Python Module of the Week: cmd – Create line-oriented command processors <https://pymotw.com/2/cmd/>`_

@@ -1,5 +1,5 @@
-What is the entry for ... a book
-================================
+What is the entry for a book
+============================
 
 Given the following entry. What is the proper entry for this book.
 Provide rationale::
