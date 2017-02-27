@@ -253,7 +253,28 @@ Workflow-Orchestration
     they finish and whether they hang without expensive polling. Oozie Coordinat
     or allows triggering actions when files arrive at HDFS. Also supported by
     Hadoop vendors :cite:`paper-Oozie`.
+	
 17. Tez
+
+    Apache Tez is open source distributed execution framework build for writing native
+    YARN application. It provides architecture which allows user to convert complex
+    computation as dataflow graphs	and the distributed engine to handle the directed
+    acyclic graph for processing large amount of data. It is highly customizable and pluggable 
+    so that it can be used as a platform for various application.It is used by the Apache Hive, 
+    Pig as execution engine to increase the performance of map reduce functionality.
+    :cite:`www-apache-tez` Tez focuses on running application efficiently on Hadoop 
+    cluster leaving the end user to concentrate only on its business logic. Tez provides 
+    features like distributed parallel execution on hadoop cluster,horizontal scalability,
+    resource elasticity,shared library reusable components and security features. Tez provides
+    capability to naturally map the algorithm into the hadoop cluster execution engine and
+    it also provides the interface for interaction with different data sources and configurations. 
+	
+    Tez is client side application and just needs Tez client to be pointed to Tez jar 
+    libraries path makes it easy and quick to deploy. User can have have multiple tez 
+    version running concurrently. Tez provides DAG API's which lets user define structure
+    for the computation and Runtime API's which contain the logic or code that needs to be
+    executed in each transformation or task. 
+
 18. Google FlumeJava
 19. Crunch
 
@@ -745,6 +766,26 @@ Application and Analytics
     designed to be extensible.
 
 50. DAAL(Intel)
+
+    DAAL stands for Data Analytics Acceleration Library. DAAL is
+    software library offered by Intel which is written in C++, python,
+    and Java which implements algorithm for doing efficient and
+    optimized data analysis tasks to solve big-data
+    problems. :cite:`www-daal-wiki`. The library is designed to use
+    data platforms like Hadoop, Spark, R, and Matlab.The important
+    algorithms which DAAL implements are 'Lower Order Moments' which
+    is used to find out max, min standard deviation of a dataset,
+    'Clustering' which is used to do unsupervised learning by grouping
+    data into unlabelled group.It also inlude 10-12 other important
+    algorithms.
+
+    :cite:`www-daal-official` It supports three processing modes
+    namely batch processing, online processing and distributed
+    processing.Intel DAAL addresses all stages of data analytics
+    pipeline namely pre-processing, transformation, analysis,
+    modelling,validation, and decision making.
+    
+    
 51. Caffe
 
     Caffe is a deep learning framework made with three terms namely
@@ -1109,6 +1150,34 @@ Application and Analytics
     insights by harnessing a greater volume and variety of data.
 	
 71. Graylog
+
+    Graylog is an open source log management tool that allows an
+    organization to assemble, organize and analyze large amounts of data
+    from its network activity. It collects and aggregates events from a
+    group of sources and presents data in a streamlines, simplified
+    interface where one can drill down to significant metrics, identify
+    key relationships, generate powerful data visualizations and derive
+    actionable insights. :cite:`www-graylog-blog`
+    :cite:`www-graylog-optimization` Graylog allows us to centrally
+    collect and manage log messages of an organization's complete
+    infrastructure. A user can perform search on terrabytes of log data to
+    discover number of failed logins,find application errors across all
+    servers or monitor the acivity of a suspicious user id.Graylog works
+    on top of ElasticSearch and MongoDB to facilitate this high
+    availability searching.
+    Graylog provides visualization through creation of dashboards that
+    allows a user to build pre-defined views on his data to assemble all
+    of his important data only a single click
+    away. :cite:`www-graylog-dashboards` Any search result or metric shall
+    be added as a widget on the dashboard to observe trends in one single
+    location. These dashboards can also be shared with other users in the
+    organization. Based on a user's recent search queries,graylog also
+    allows you to distinguish data that are not searched upon very often
+    and thus can be archived on cost effective storage drives. Users can
+    also add certain trigger conditions that shall alert the system about
+    performance issues, failed logins or exceptions in the flow of the
+    application.
+    
 72. Splunk
 
     Splunk is a platform for big data analytics. It is a software
@@ -1229,27 +1298,32 @@ Application and Analytics
 Application Hosting Frameworks
 ----------------------------------------------------------------------
 
-80. Google App Engine  :cite:`www-gae`
+80. Google App Engine
 
-    On purpose we put in here a "good" example of a bad entry that woudl
-    receive 10 out of 100 points, e.g. an F:
-
-    "Google App Engine" provides platform as a service.
-    There are major advantages from this framework:
-
-    1. Scalable Applications
-    2. Easier to maintain
-    3. Publishing services easily
-
-    Reasons: (a) "major advantages is advertisement" if you add word
-    major (b) grammar needs to be improved (c) the three points do not
-    realy say anything about Google App Engine (d) the reader will
-    after reading this have not much information about what it is (e)
-    a refernce is not included. (f) enumeration should be in this page
-    avoided. We like to see a number of paragraphs with text.
-
-    **Note: This is an example for a bad entry**
-
+    Google App Engine is a cloud computing platform to host your mobile
+    or web applications on Google managed servers. Google App Engine
+    provides automatic scaling for web applications, i.e it automatically
+    allocates more resources to the application upon increase in the
+    number of requests. It gives developers the freedom to focus on
+    developing their code and not worry about the infrastructure. Google
+    App Engine provides built-in services and APIs such as load
+    balancing, automated security scanning, application logging, NoSQL
+    datastores, memcache, and a user authentication API, that are a core
+    part to most applications. :cite:`www-appengine-google`
+     
+    An App Engine platform can be run in either the Standard or the
+    Flexible environment. Standard environment lays restrictions on the
+    maximum number of resources an application can use and charges a user
+    based on the instance hours used. The flexible environment as the
+    name suggests provides higher flexibility in terms of resources and
+    is charged based on the CPU and disk utilization.The App Engine
+    requires developers to use only its supported languages and
+    frameworks. Supported languages are Java, Python, Ruby, Scala, PHP,
+    GO, Node.js and other JVM oriented languages. The App Engine
+    datastore uses a SQL like syntax called the GQL (Google Query
+    Language) which works with non-relational databases when compared to
+    SQL. :cite:`www-wiki-appengine`
+    
 81. AppScale
 
     AppScale is an application hosting platform. This platform helps
@@ -1584,6 +1658,21 @@ High level Programming
      examples/syntax and also tries to spot errors in the programs
      :cite:`kite-wired`.
 105. Hive
+     The reason behind development of Hive is making it easier for
+     end users to use Hadoop. Map reduce programs were required to 
+     be developed by users for simple to complex tasks. It lacked 
+     expressiveness like query language. So, it was a time consuming
+     and difficult task for end users to use Hadoop. For solving this
+     problem Hive was built in January 2007 and open sourced in August2008.
+     Hive is an open source data warehousing solution which is built on top
+     of Hadoop. It structures data into understandable and conventional
+     database terms like tables, columns, rows and partitions. It supports
+     HiveQL queries which have structure like SQL queries. HiveQL queries 
+     are compiled to map reduce jobs which are then executed by Hadoop. 
+     Hive also contains Metastore which includes schemas and statistics 
+     which is useful in query compilation, optimization and data exploration 
+     :cite:`hive`
+
 106. HCatalog
 107. Tajo
 
@@ -2923,6 +3012,26 @@ Object-relational mapping
 ----------------------------------------------------------------------
 
 192. Hibernate
+
+     Hibernate is an open source project which provides object relational
+     persistence framework for applications in Java. It is an Object
+     relational mapping library (ORM) which provides the framework for 
+     mapping object oriented model to relational database. It provides
+     a query language, a caching layer and Java Management Extensions (JMX)
+     support. Databases supported by Hibernate includes DB2, Oracle, MySQL,
+     PostgreSQL.To provide persistence services, Hibernate uses database 
+     and configuration data. For using hibernate, firstly a java class is
+     created which represents table in the database. Then columns in database
+     are mapped to the instance variables of created Java class. Hibernate 
+     can perform database operations like select, insert, delete and update
+     records in table by automatically creating query. Connection management
+     and transaction management are provided by hibernate.
+     Hibernate saves development and debugging time in comparison to JDBC.
+     But it is slower at runtime as it generates many SQL statements at 
+     runtime. It is database independent. For batch processing it is 
+     advisable to use JDBC over Hibernate 
+     :cite:`hibernate`
+
 193. OpenJPA
 
      According to :cite:`www-openjpa`, Apache OpenJPA is a Java
@@ -3127,6 +3236,22 @@ SQL(NewSQL)
 
 206. SciDB
 207. Rasdaman
+
+     Rasdaman is an specialized database management system which adds
+     capabilities for storage and retrival of massive
+     multi-dimensional array, such as sensors,image, and statistics
+     data. :cite:`www-rasdaman-wiki` It is written in C++
+     language. For example, it can serve 1-D measurement data, 2-D
+     satellite data, 3-D x/y/t image series and x/y/z exploration
+     data, 4-D ocean and climate data, and much more.
+
+     :cite:`www-rasdaman-official`: Rasdaman servers provides
+     functionality from geo service up to complex analytics which are
+     related to spatio-temporal raster data.It also integrates
+     smoothly with R, OpenLayers, NASA WorldWind etc. via APIs
+     calls. It is massively used in the domains like earth, space,
+     and social science related fields.
+     
 208. Apache Derby
 
      :cite:`www-apachederby`: Apache Derby is java based relational
@@ -3701,6 +3826,37 @@ NoSQL
      nodes, edges and properties.
      
 244. Yarcdata
+
+     Yarcdata is Cray subsidiary providing Analytics
+     products, namely the Urika Agile Analytics Platform and Graph
+     Engine. Cray’s Urika (Universal RDF Integration Knowledge
+     Appliance) system :cite:`www-Urika-appliance` is a hardware
+     platform designed specifically to provide high-speed
+     graph-retrieval for relationship analytics. Urika is a massively
+     parallel, multi-threaded, shared-memory computing device designed
+     to store and retrieve massive graph datasets. The system can
+     import and host massive heterogeneous graphs represented in the
+     resource description framework (RDF) format and can retrieve
+     descriptive graph patterns specified in a SPARQL query.
+
+     Urika-GD :cite:`techspec-Urika-GD` is a big data appliance for
+     graph analytics helps enterprises gain key insights by
+     discovering relationships in big data. Its highly scalable,
+     real-time graph analytics warehouse supports ad hoc queries,
+     pattern-based searches, inferencing and deduction. The Urika-GD
+     appliance complements an existing data warehouse or Hadoop®
+     cluster by offloading graph workloads and interoperating within
+     the existing analytics workflow
+
+     Cray Graph Engine :cite:`paper-graph-data` is a semantic database
+     using Resource Description Framework (RDF) triples to represent
+     the data, SPARQL as the query language and extensions to support
+     mathematical algorithms.
+
+     The paper "Graph mining meets the semantic web"
+     :cite:`paper-lee2015graph` outlines the implementation of graph
+     mining algorithms using SPARQL.
+
 245. AllegroGraph
      
      “AllegroGraph is a database technology that enables businesses to 
@@ -4105,6 +4261,28 @@ Data Transport
 
 270. Pivotal GPLOAD/GPFDIST
 
+     Greenplum Database :cite:`book-greenplum-gollapudi2013` is a shared nothing,
+     massively parallel processing solution built to support next
+     generation data warehousing and Big Data analytics processing. In
+     its new distribution under Pivotal, Greenplum Database is called
+     Pivotal(Greenplum) Database.
+
+     gpfdist :cite:`www-gpfdist` is Greenplum's parallel file
+     distribution program. It is used by readable external tables and
+     gpload to serve external table files to all Greenplum Database
+     segments in parallel. It is used by writable external tables to
+     accept output streams from Greenplum Database segments in
+     parallel and write them out to a file.
+
+     gpload :cite:`book-greenplum-gollapudi2013` is data loading
+     utility is used to load data into Greenplum's external table in
+     parallel.
+
+     Google has an invention :cite:`patent-google-gpf` relating to
+     integrating map-reduce processing techniques into a distributed
+     relational database. An embodiment of the invention is
+     implemented by Greenplum as gpfdist.
+
 Cluster Resource Management
 ----------------------------------------------------------------------
 
@@ -4321,6 +4499,19 @@ Cluster Resource Management
      
 283. Torque
 284. Globus Tools
+
+     :cite:`sotomayor2006globus` The Globus Toolkit is an open source toolkit 
+     organized as a collection of loosely coupled components. These components 
+     consist of services, programming libraries and development tools designed 
+     for building Grid-based applications. GT components fall into five broad 
+     domain areas: Security, Data Management, Execution Management, Information 
+     Services, and Common Runtime. :cite:`foster2006globus` These components 
+     enable a broader "Globus ecosystem" of tools and components that build on 
+     or interoperate with GT functionality to provide a wide range of useful 
+     application-level functions. www-about-globus 
+     :cite:`www-about-globus` Since 2000, companies like Fujitsu, IBM, NEC and 
+     Oracle have pursued Grid strategies based on the Globus Toolkit.
+
 285. Pilot Jobs
 
      In pilot job, an application acquires a resource so that it can
@@ -5021,6 +5212,17 @@ DevOps
      of OpenStack Dashboard.
 
 323. Rocks
+
+     :cite:`www-rockscluster` Rocks provides open cluster distribution solution
+     is buid targetting the scientist with less cluster experience to ease the process 
+     of deployment,managing,upgrading and scaling high performance parallel computing cluster.  
+     It was initially build on linux however the latest version Rocks 6.2 Sidewinder is 
+     also available on CentOS.Rocks can help create a cluster in few days with default 
+     configuration and software packages. 
+     Rocks distribution package comes with high-performance distributed and parallel
+     computing tools.It is used by NASA, the NSA , IBM Austin Research LAB, US Navy 
+     and many other institution for their projects.
+
 324. Cisco Intelligent Automation for Cloud
 
      Cisco Intelligent automation for cloud desires to help different
@@ -5617,6 +5819,18 @@ IaaS Management from HPC to hypervisors
 
 360. Amazon Route 53
 
+     Amazon Route 53 is a DNS (Domain Name System) service that gives
+     developers and businesses a reliable way to route end users to
+     Internet applications. The number 53 refers to TCP or UDP port
+     53, where DNS server requests are addressed :cite:`www-ar53`.
+     
+     When using Route 53 as your DNS provider, in case of a recursion,
+     the query of fetching an IP address (of a website or application)
+     always goes to the closest server location to reduce query
+     latency. The Route 53 server returns the IP address enabling the
+     browser to load the website or application. Route 53 can also be
+     used for registering domain names and arranging DNS “health
+     checks” to monitor the server :cite:`www-amar53`.
 
 Cross-Cutting Functions
 ----------------------------------------------------------------------
@@ -5644,6 +5858,25 @@ Monitoring
      for ambari on github.
      
 362. Ganglia
+
+     Ganglia is a scalable distributed monitoring system for
+     high-performance computing systems (clusters and grids). It is a
+     BSD-licensed open-source project that grew out of the University of
+     California, Berkeley Millennium Project which was initially funded in
+     large part by the National Partnership for Advanced Computational
+     Infrastructure (NPACI) and National Science Foundation RI Award
+     EIA-9802069 :cite:`www-gms`.
+
+     It relies on a multicast-based listen/announce protocol to monitor
+     state within clusters. It uses a tree of point-to-point connections
+     amongst representative cluster nodes to unite clusters and aggregate
+     their state :cite:`www-gsoft`. It leverages technologies such as XML
+     for data representation, XDR for compact, portable data transport, and
+     RRDtool for data storage and visualization. The implementation is
+     robust, has been ported to an extensive set of operating systems and
+     processor architectures, and is currently in use on thousands of
+     clusters around the world, handling clusters with 2000 nodes.
+     
 363. Nagios :cite:`www-nagios`
 
      Nagios is a platform, which provides a set of software for
@@ -6071,7 +6304,91 @@ New Technologies (To Be Integrated by the AIs)
      way that does not have to change because the data is stored in another format or a different
      data-store. :cite:`www-blaze` 
 
+390. OpenRefine
 
+     OpenRefine (formerly GoogleRefine) is an open source tool that is
+     dedicated to cleaning messy data. With the help of this
+     user-friendly tool you can explore huge data sets easily and
+     quickly even if the data is a little unstructured. It allows you
+     to load data, understand it, clean it up, reconcile it, and
+     augment it with data coming from the web
+     :cite:`www-openrefine`.It operates on rows of data which have
+     cells under columns, which is very similar to relational database
+     tables. One OpenRefine project is one table. The user can filter
+     the rows to display using facets that define filtering
+     criteria. most operations in OpenRefine are done on all visible
+     rows: transformation of all cells in all rows under one column,
+     creation of a new column based on existing column data, etc. All
+     actions that were done on a dataset are stored in a project and
+     can be replayed on another dataset. It has a huge community with
+     lots of contributors meaning that the software is constantly
+     getting better and better.
+
+389. Apache OODT
+
+     :cite:`www-oodt` Apache Object Oriented Data Technology (OODT) is
+     a distributed data management technology that helps to integrate
+     and archive your processes, your data, and its metadata. OODT
+     allows to generate, process, manage and analyze distributed and
+     heterogeneous data enabling integration of different, distributed
+     software systems. Apache OODT uses structured XML-based capturing
+     of the processing pipeline which is used to create, edit, manage
+     and provision workflow and task execution. OODT is written in
+     Java programming language and provides its own set of APIs for
+     storing and processing data. :cite:`www-oodt-documentation` It
+     provides three core services. A File Manager is responsible for
+     tracking file locations, their metadata, and for transferring
+     files from a staging area to controlled access storage. A
+     Workflow Manager captures control flow and data flow for complex
+     processes, and allows for reproducibility and the construction of
+     scientific pipelines. A Resource Manager handles allocation of
+     workflow tasks and other jobs to underlying resources, e.g.,
+     Python jobs go to nodes with Python installed on them similarly
+     jobs that require a large disk or CPU are properly sent to those
+     nodes that fulfill those requirements. OODT is now supported with
+     Apache Mesos and Grid Computing which can allow for creating of
+     highly distributed, scalable data platforms that can process
+     large amounts of data. OODT technology is used in NASA's Jet
+     Propulsion Labatory.
+
+389. Omid
+
+     Omid is a "flexible, reliable, high performant and scalable ACID 
+     transactional framework" :cite:`www-apacheomid` for NoSQL databases, 
+     developed by Yahoo for HBase and contributed to the Apache 
+     community  Most NoSQL databases, do not natively support ACID 
+     transactions. Omid employs a lock free approach from concurrency 
+     and can scale beyond 100,000 transactions per second. At Yahoo,
+     millions of transactions per day are processed by Omid.
+     :cite:`www-www-yahooomid`. 
+
+     Omid is currently in the Apache Incubator.  All projects accepted 
+     by the Apache Software Foundation (ASF) undergo an incubation 
+     period until a review indicates that the project meets the 
+     standards of other ASF projects :cite:`www-apacheincubator`
+
+390. Apache Ant
+
+     Apache Ant is a Java library and command-line tool whose mission
+     is to drive processes described in build files as targets and
+     extension points dependent upon each other. The main known usage
+     of Ant is the build of Java applications. Ant supplies a number
+     of built-in tasks allowing to compile, assemble, test and run
+     Java applications. Ant can also be used effectively to build non
+     Java applications, for instance C or C++ applications. More
+     generally, Ant can be used to pilot any type of process which can
+     be described in terms of targets and tasks. Ant is written in
+     Java. Users of Ant can develop their own "antlibs" containing Ant
+     tasks and types, and are offered a large number of ready-made
+     commercial or open-source "antlibs". Ant is extremely flexible
+     and does not impose coding conventions or directory layouts to
+     the Java projects which adopt it as a build tool. Software
+     development projects looking for a solution combining build tool
+     and dependency management can use Ant in combination with Apache
+     Ivy. The Apache Ant project is part of the Apache Software
+     Foundation :cite:`ant-www`.
+
+     
 .. _techs-exercise:
 
 Excersise
