@@ -2619,6 +2619,32 @@ Inter process communication Collectives
         messages from queues on demand”
 
 169. NaradaBrokering
+
+     NaradaBrokering :cite:`www-narada`, is a content distribution
+     infrastructure for voluminous data streams. The substrate places
+     no limits on the size, rate and scope of the information
+     encapsulated within these streams or on the number of entities
+     within the system. The smallest unit of this substrate called as
+     broker, intelligently process and route messages, while working
+     with multiple underlying communication protocols. The major
+     capabilities of NaradaBrokering consists of providing a message
+     oriented middleware (MoM) which facilitates communications
+     between entities (which includes clients, resources, services and
+     proxies thereto) through the exchange of messages and providing a
+     notification framework by efficiently routing messages from the
+     originators to only the registered consumers of the message in
+     question :cite:`paper-nb-sustrate`. Also, it provides salient
+     stream oriented features such as their Secure end-to-end
+     delivery, Robust disseminations, jitter reductions.
+
+     NaradaBrokering incorporates support for several communication
+     protocol such as TCP, UDP, Multicast, HTTP, SSL, IPSec and
+     Parallel TCP as well as supports enterprise messaging standards
+     such as the Java Message Service, and a slew of Web Service
+     specifications such as SOAP, WS-Eventing, WS-Reliable Messaging
+     and WS-Reliability :cite:`www-narada-features`.
+
+     
 170. QPid
 171. Kafka
 
@@ -3316,6 +3342,27 @@ SQL(NewSQL)
 
      
 213. Google F1
+
+     F1 is a distributed relational database system built at Google to
+     support the AdWords business. It is a hybrid database that
+     combines high availability, the scalability of NoSQL systems like
+     Bigtable, and the consistency and usability of traditional SQL
+     databases. F1 is built on Spanner, which provides synchronous
+     cross-datacenter replication and strong consistency
+     :cite:`paper-F1`.
+     
+     F1 features include a strictly enforced schema, a powerful
+     parallel SQL query engine, general transactions, change tracking
+     and notification, and indexing, and is built on top of a
+     highly-distributed storage system that scales on standard
+     hardware in Google data centers. The store is dynamically sharded
+     and is able to handle data center outages without data loss
+     :cite:`paper-RDBMS` . The synchronous cross-datacenter
+     replication and strong consistency results in higher commit
+     latency which can be overcome using hierarchical schema model
+     with structured data types and through smart application design.
+     
+
 214. IBM dashDB
 
      IBM dashDB is a data warehousing service hosted in cloud ,
