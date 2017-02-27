@@ -5995,6 +5995,17 @@ New Technologies (To Be Integrated by the AIs)
      way that does not have to change because the data is stored in another format or a different
      data-store. :cite:`www-blaze` 
 
+389. Apache Arrow
+     
+     Apache arrow allows execution engines to utilize what is known as 
+     Single Input multiple data (SIMD).  :cite:`www-arrow`   This SIMD 
+     is an operation that allows modern processors to take advantage of 
+     this engine.  Peformance is enhanced by grouping relevant data as 
+     close as possible in a column format.    Many programming languages 
+     are supported such a Java, C, C++, Python and it is anticipated that 
+     languages will be added as it grows.  It is still in early developemnt
+     but has released a 0.1.0 build.
+
 .. _techs-exercise:
 
 Excersise
