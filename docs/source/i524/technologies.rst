@@ -6066,8 +6066,27 @@ New Technologies (To Be Integrated by the AIs)
      optimizing and translating the query as appropriate to provide a smooth and interactive
      session. It allows the data scientists and analyst to write their queries in a unified
      way that does not have to change because the data is stored in another format or a different
-     data-store. :cite:`www-blaze`
+     data-store. :cite:`www-blaze` 
 
+390. OpenRefine
+
+     OpenRefine (formerly GoogleRefine) is an open source tool that is
+     dedicated to cleaning messy data. With the help of this
+     user-friendly tool you can explore huge data sets easily and
+     quickly even if the data is a little unstructured. It allows you
+     to load data, understand it, clean it up, reconcile it, and
+     augment it with data coming from the web
+     :cite:`www-openrefine`.It operates on rows of data which have
+     cells under columns, which is very similar to relational database
+     tables. One OpenRefine project is one table. The user can filter
+     the rows to display using facets that define filtering
+     criteria. most operations in OpenRefine are done on all visible
+     rows: transformation of all cells in all rows under one column,
+     creation of a new column based on existing column data, etc. All
+     actions that were done on a dataset are stored in a project and
+     can be replayed on another dataset. It has a huge community with
+     lots of contributors meaning that the software is constantly
+     getting better and better.
 
 389. Apache OODT
 
@@ -6095,8 +6114,6 @@ New Technologies (To Be Integrated by the AIs)
      highly distributed, scalable data platforms that can process
      large amounts of data. OODT technology is used in NASA's Jet
      Propulsion Labatory.
-
-
 
 389. Omid
 
