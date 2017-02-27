@@ -2428,6 +2428,9 @@ Basic Programming model and runtime, SPMD, MapReduce
    
 152. Pregel
 153. Pegasus
+
+     See #4 above.
+
 154. Ligra
 
      Ligra is a Light Weight Graph Processing Framework for the graph
@@ -2659,6 +2662,32 @@ Inter process communication Collectives
         messages from queues on demand”
 
 169. NaradaBrokering
+
+     NaradaBrokering :cite:`www-narada`, is a content distribution
+     infrastructure for voluminous data streams. The substrate places
+     no limits on the size, rate and scope of the information
+     encapsulated within these streams or on the number of entities
+     within the system. The smallest unit of this substrate called as
+     broker, intelligently process and route messages, while working
+     with multiple underlying communication protocols. The major
+     capabilities of NaradaBrokering consists of providing a message
+     oriented middleware (MoM) which facilitates communications
+     between entities (which includes clients, resources, services and
+     proxies thereto) through the exchange of messages and providing a
+     notification framework by efficiently routing messages from the
+     originators to only the registered consumers of the message in
+     question :cite:`paper-nb-sustrate`. Also, it provides salient
+     stream oriented features such as their Secure end-to-end
+     delivery, Robust disseminations, jitter reductions.
+
+     NaradaBrokering incorporates support for several communication
+     protocol such as TCP, UDP, Multicast, HTTP, SSL, IPSec and
+     Parallel TCP as well as supports enterprise messaging standards
+     such as the Java Message Service, and a slew of Web Service
+     specifications such as SOAP, WS-Eventing, WS-Reliable Messaging
+     and WS-Reliability :cite:`www-narada-features`.
+
+     
 170. QPid
 171. Kafka
 
@@ -3356,6 +3385,27 @@ SQL(NewSQL)
 
      
 213. Google F1
+
+     F1 is a distributed relational database system built at Google to
+     support the AdWords business. It is a hybrid database that
+     combines high availability, the scalability of NoSQL systems like
+     Bigtable, and the consistency and usability of traditional SQL
+     databases. F1 is built on Spanner, which provides synchronous
+     cross-datacenter replication and strong consistency
+     :cite:`paper-F1`.
+     
+     F1 features include a strictly enforced schema, a powerful
+     parallel SQL query engine, general transactions, change tracking
+     and notification, and indexing, and is built on top of a
+     highly-distributed storage system that scales on standard
+     hardware in Google data centers. The store is dynamically sharded
+     and is able to handle data center outages without data loss
+     :cite:`paper-RDBMS` . The synchronous cross-datacenter
+     replication and strong consistency results in higher commit
+     latency which can be overcome using hierarchical schema model
+     with structured data types and through smart application design.
+     
+
 214. IBM dashDB
 
      IBM dashDB is a data warehousing service hosted in cloud ,
@@ -3591,6 +3641,26 @@ NoSQL
      backups one can use MongoRocks that is a third party tool developed by Facebook.
 
 229. Espresso
+
+     Espresso :cite:`www-Linkedin-Espresso` is a document-oriented distributed 
+     data serving platform  that plays an important role in LinkedIn's central 
+     data pipeline. It currently powers approximately 30 LinkedIn applications 
+     including Member Profile, InMail, etc and also hosts some of its most 
+     important member data. Espresso provides a heirarchical data model in 
+     which the databases and table schema are defined in JSON.Some of the key
+     component of Espresso include : 
+     1)Router: which is a stateless HTTP Proxy and also acts as a entry point
+     for all client requests in Espresso. The Router uses local   cached routing 
+     table to manage the partition among all the storage nodes within the 
+     cluster. 2)Storage Node: are the building blocks of the storage and each one
+     of them hosts a set of partition. 3) Helix: is responsible for cluster 
+     management in Espresso. 4) Databus: are responsible for  capturing change 
+     to transport source transactions in commit order. 
+
+     All the above mentioned components together enable Espresso to achieve 
+     real-time secondary indexing, on-the-fly schema evolution and also a 
+     timeline consistent change capture stream.
+
 230. CouchDB
      
      The Apache Software Foundation makes CouchDB available as an option for
@@ -5632,6 +5702,22 @@ IaaS Management from HPC to hypervisors
      These few advantages of Linux-VServer.
 
 347. OpenStack
+ 
+     OpenStack :cite:`www-OpenStack.org` is a free and open source cloud operating 
+     system mostly deployed as infrastructure as a service(Iaas) that allows 
+     us to control large pool of computers, storage, and networking resources.
+     OpenStack is managed by OpenStack Foundation :cite:`www-OpenStack-Found`. 
+     
+     Just like cloud, OpenStack provides infrastructure which runs as platform 
+     upon which end users can create applications. Key components of OpenStack 
+     include: Nova: which is the primary computing engine, Swift: which is a 
+     storage system for object and files, Neutron: which ensures effective 
+     communication between each of the components of the OpenStack. Other   
+     components include: Cinder, Horizon, Keystone, Glance, Ceilometer and 
+     Heat. The main goal of Openstack is to allow business to build 
+     Amazon-like cloud services in their own data centers.OpenStack is 
+     licensed under the Apache 2.0 license :cite:`Apache-License` 
+	
 348. OpenNebula
 
      According to OpenNebula webpage :cite:`www-opennebula-org` it
@@ -6371,7 +6457,30 @@ New Technologies (To Be Integrated by the AIs)
      period until a review indicates that the project meets the 
      standards of other ASF projects :cite:`www-apacheincubator`
 
-390. Apache Ant
+390. :cite:`RMBDP-Book` Askalon was developed at the University of
+     Innsbruck.  It is application development as well as a runtime
+     environment. It allows easy execution of distributed work flow
+     applications in service oriented grids. It uses a Service Oriented
+     Architecture. Also, for its Grid middleware it uses the Globus
+     Toolkit. The work flow applications are developed using Abstract Grid
+     Work flow Language (AGWL). The architecture has various components
+     like the resource broker responsible for brokerage functions like
+     management and reservation, information service for the discovery and
+     organization of resources and data, metascheduler for mapping in the
+     Grid, performance analysis for unification of performance monitoring
+     and integration of the results and the Askalon scheduler.
+
+     The Metascheduler is of special significance since it consists of
+     two major components - the workflow converter and the scheduling
+     engine. The former is responsible for conversion of traditional
+     workflows into directed acyclic graphs (DAGs) while the later one is
+     responsible for the scheduling of workflows for various specific
+     tasks. It has a conventional pluggable architecture which allows easy
+     integration of various services. By default, the Heterogeneous
+     Earliest Finish Time (HEFT) is used as the primary scheduling
+     algorithm.
+
+391. Apache Ant
 
      Apache Ant is a Java library and command-line tool whose mission
      is to drive processes described in build files as targets and
@@ -6392,7 +6501,6 @@ New Technologies (To Be Integrated by the AIs)
      Ivy. The Apache Ant project is part of the Apache Software
      Foundation :cite:`ant-www`.
 
-     
 .. _techs-exercise:
 
 Excersise
