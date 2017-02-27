@@ -2385,6 +2385,9 @@ Basic Programming model and runtime, SPMD, MapReduce
    
 152. Pregel
 153. Pegasus
+
+     See #4 above.
+
 154. Ligra
 
      Ligra is a Light Weight Graph Processing Framework for the graph
@@ -3548,6 +3551,26 @@ NoSQL
      backups one can use MongoRocks that is a third party tool developed by Facebook.
 
 229. Espresso
+
+     Espresso :cite:`www-Linkedin-Espresso` is a document-oriented distributed 
+     data serving platform  that plays an important role in LinkedIn's central 
+     data pipeline. It currently powers approximately 30 LinkedIn applications 
+     including Member Profile, InMail, etc and also hosts some of its most 
+     important member data. Espresso provides a heirarchical data model in 
+     which the databases and table schema are defined in JSON.Some of the key
+     component of Espresso include : 
+     1)Router: which is a stateless HTTP Proxy and also acts as a entry point
+     for all client requests in Espresso. The Router uses local   cached routing 
+     table to manage the partition among all the storage nodes within the 
+     cluster. 2)Storage Node: are the building blocks of the storage and each one
+     of them hosts a set of partition. 3) Helix: is responsible for cluster 
+     management in Espresso. 4) Databus: are responsible for  capturing change 
+     to transport source transactions in commit order. 
+
+     All the above mentioned components together enable Espresso to achieve 
+     real-time secondary indexing, on-the-fly schema evolution and also a 
+     timeline consistent change capture stream.
+
 230. CouchDB
      
      The Apache Software Foundation makes CouchDB available as an option for
@@ -5589,6 +5612,22 @@ IaaS Management from HPC to hypervisors
      These few advantages of Linux-VServer.
 
 347. OpenStack
+ 
+     OpenStack :cite:`www-OpenStack.org` is a free and open source cloud operating 
+     system mostly deployed as infrastructure as a service(Iaas) that allows 
+     us to control large pool of computers, storage, and networking resources.
+     OpenStack is managed by OpenStack Foundation :cite:`www-OpenStack-Found`. 
+     
+     Just like cloud, OpenStack provides infrastructure which runs as platform 
+     upon which end users can create applications. Key components of OpenStack 
+     include: Nova: which is the primary computing engine, Swift: which is a 
+     storage system for object and files, Neutron: which ensures effective 
+     communication between each of the components of the OpenStack. Other   
+     components include: Cinder, Horizon, Keystone, Glance, Ceilometer and 
+     Heat. The main goal of Openstack is to allow business to build 
+     Amazon-like cloud services in their own data centers.OpenStack is 
+     licensed under the Apache 2.0 license :cite:`Apache-License` 
+	
 348. OpenNebula
 
      According to OpenNebula webpage :cite:`www-opennebula-org` it
