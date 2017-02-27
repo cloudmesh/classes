@@ -6362,7 +6362,6 @@ New Technologies (To Be Integrated by the AIs)
      languages will be added as it grows.  It is still in early developemnt
      but has released a 0.1.0 build.
 
-=======
 390. OpenRefine
 
      OpenRefine (formerly GoogleRefine) is an open source tool that is
