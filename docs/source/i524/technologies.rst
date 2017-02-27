@@ -1277,27 +1277,32 @@ Application and Analytics
 Application Hosting Frameworks
 ----------------------------------------------------------------------
 
-80. Google App Engine  :cite:`www-gae`
+80. Google App Engine
 
-    On purpose we put in here a "good" example of a bad entry that woudl
-    receive 10 out of 100 points, e.g. an F:
-
-    "Google App Engine" provides platform as a service.
-    There are major advantages from this framework:
-
-    1. Scalable Applications
-    2. Easier to maintain
-    3. Publishing services easily
-
-    Reasons: (a) "major advantages is advertisement" if you add word
-    major (b) grammar needs to be improved (c) the three points do not
-    realy say anything about Google App Engine (d) the reader will
-    after reading this have not much information about what it is (e)
-    a refernce is not included. (f) enumeration should be in this page
-    avoided. We like to see a number of paragraphs with text.
-
-    **Note: This is an example for a bad entry**
-
+    Google App Engine is a cloud computing platform to host your mobile
+    or web applications on Google managed servers. Google App Engine
+    provides automatic scaling for web applications, i.e it automatically
+    allocates more resources to the application upon increase in the
+    number of requests. It gives developers the freedom to focus on
+    developing their code and not worry about the infrastructure. Google
+    App Engine provides built-in services and APIs such as load
+    balancing, automated security scanning, application logging, NoSQL
+    datastores, memcache, and a user authentication API, that are a core
+    part to most applications. :cite:`www-appengine-google`
+     
+    An App Engine platform can be run in either the Standard or the
+    Flexible environment. Standard environment lays restrictions on the
+    maximum number of resources an application can use and charges a user
+    based on the instance hours used. The flexible environment as the
+    name suggests provides higher flexibility in terms of resources and
+    is charged based on the CPU and disk utilization.The App Engine
+    requires developers to use only its supported languages and
+    frameworks. Supported languages are Java, Python, Ruby, Scala, PHP,
+    GO, Node.js and other JVM oriented languages. The App Engine
+    datastore uses a SQL like syntax called the GQL (Google Query
+    Language) which works with non-relational databases when compared to
+    SQL. :cite:`www-wiki-appengine`
+    
 81. AppScale
 
     AppScale is an application hosting platform. This platform helps
