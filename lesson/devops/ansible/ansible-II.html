@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Ansible II: Roles &#8212; Big Data Classes</title>
+    
+    <link rel="stylesheet" href="../../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/bootswatch-3.3.6/cerulean/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Ansible III: Ansible Galaxy" href="ansible-III.html" />
+    <link rel="prev" title="Ansible I: Simplest Example" href="ansible-I.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          i524</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../../../i524/index.html">Overview</a></li>
+                <li><a href="../../../i524/lectures.html">Lectures</a></li>
+                <li><a href="../../index.html">Lessons</a></li>
+                <li><a href="../../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+                <li><a href="https://piazza.com/class/ix39m27czn5uw">Piazza</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/preface/index.html">Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/about.html">About</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/disclaimer.html">Disclaimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/convention.html">Conventions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/instructors.html">Instructors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/instructors.html#teaching-assistants">Teaching Assistants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/index.html">i524 Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#meeting-times">Meeting Times</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#online-meetings">Online Meetings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#who-can-take-the-class">Who can take the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#homework">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#open-source-publication-of-homework">Open Source Publication of Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#piazza">Piazza</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#tips-on-how-to-achieve-your-best">Tips on how to achieve your best</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#submissions">Submissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#selected-project-ideas">Selected Project Ideas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#software-project">Software Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#report-format">Report Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#github-repositories">Github repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#code-repositories-deliverables">Code Repositories Deliverables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#learning-outcomes">Learning Outcomes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#academic-integrity-policy">Academic Integrity Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#course-numbers">Course Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/calendar.html">I524 Calendar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/calendar.html#comments">Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/calendar.html#official-university-calendar">Official University calendar</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/lectures.html">I524 Lectures</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#lectures">Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#lectures-theory-track">Lectures - Theory Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#lectures-collaboration-track">Lectures - Collaboration Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#lectures-systems">Lectures - Systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#unreleased-lectures">Unreleased Lectures</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/technologies.html">Technologies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#application-and-analytics">Application and Analytics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#application-hosting-frameworks">Application Hosting Frameworks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#high-level-programming">High level Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#streams">Streams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#basic-programming-model-and-runtime-spmd-mapreduce">Basic Programming model and runtime, SPMD, MapReduce</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#inter-process-communication-collectives">Inter process communication Collectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#in-memory-databases-caches">In-memory databases/caches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#object-relational-mapping">Object-relational mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#extraction-tools">Extraction Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#sql-newsql">SQL(NewSQL)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#nosql">NoSQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#file-management">File management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#data-transport">Data Transport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#cluster-resource-management">Cluster Resource Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#file-systems">File systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#interoperability">Interoperability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#devops">DevOps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#new-technologies-to-be-integrated-by-the-ais">New Technologies (To Be Integrated by the AIs)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#excersise">Excersise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#references">References</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Lessons</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hadoop.html">Hadoop Virtual Cluster Installation (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don&#8217;t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id25">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Ansible II: Roles</a><ul>
+<li><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
+<li><a class="reference internal" href="#a-completed-playbook">A completed playbook</a></li>
+<li><a class="reference internal" href="#introducing-roles">Introducing Roles</a></li>
+<li><a class="reference internal" href="#install-source-code-from-github">Install source code from Github</a></li>
+<li><a class="reference internal" href="#using-variables-in-a-separate-file">Using variables in a separate file</a></li>
+<li><a class="reference internal" href="#summarize">Summarize</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/preface/index.html">Preface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/about.html">About</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/disclaimer.html">Disclaimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/convention.html">Conventions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/instructors.html">Instructors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/preface/instructors.html#teaching-assistants">Teaching Assistants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/index.html">i524 Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#meeting-times">Meeting Times</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#online-meetings">Online Meetings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#who-can-take-the-class">Who can take the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#homework">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#open-source-publication-of-homework">Open Source Publication of Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#piazza">Piazza</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#tips-on-how-to-achieve-your-best">Tips on how to achieve your best</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#submissions">Submissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#selected-project-ideas">Selected Project Ideas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#software-project">Software Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#report-format">Report Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#github-repositories">Github repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#code-repositories-deliverables">Code Repositories Deliverables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#learning-outcomes">Learning Outcomes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#academic-integrity-policy">Academic Integrity Policy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#links">Links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#course-numbers">Course Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/index.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/calendar.html">I524 Calendar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/calendar.html#comments">Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/calendar.html#official-university-calendar">Official University calendar</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/lectures.html">I524 Lectures</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#lectures">Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#lectures-theory-track">Lectures - Theory Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#lectures-collaboration-track">Lectures - Collaboration Track</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#lectures-systems">Lectures - Systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/lectures.html#unreleased-lectures">Unreleased Lectures</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/technologies.html">Technologies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#application-and-analytics">Application and Analytics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#application-hosting-frameworks">Application Hosting Frameworks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#high-level-programming">High level Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#streams">Streams</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#basic-programming-model-and-runtime-spmd-mapreduce">Basic Programming model and runtime, SPMD, MapReduce</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#inter-process-communication-collectives">Inter process communication Collectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#in-memory-databases-caches">In-memory databases/caches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#object-relational-mapping">Object-relational mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#extraction-tools">Extraction Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#sql-newsql">SQL(NewSQL)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#nosql">NoSQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#file-management">File management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#data-transport">Data Transport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#cluster-resource-management">Cluster Resource Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#file-systems">File systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#interoperability">Interoperability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#devops">DevOps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#new-technologies-to-be-integrated-by-the-ais">New Technologies (To Be Integrated by the AIs)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#excersise">Excersise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/technologies.html#references">References</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Lessons</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hadoop.html">Hadoop Virtual Cluster Installation (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don&#8217;t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id25">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">Ansible II: Roles</a><ul>
+<li><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
+<li><a class="reference internal" href="#a-completed-playbook">A completed playbook</a></li>
+<li><a class="reference internal" href="#introducing-roles">Introducing Roles</a></li>
+<li><a class="reference internal" href="#install-source-code-from-github">Install source code from Github</a></li>
+<li><a class="reference internal" href="#using-variables-in-a-separate-file">Using variables in a separate file</a></li>
+<li><a class="reference internal" href="#summarize">Summarize</a></li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Links</b>
+<ul>
+  <li><a href="https://cloudmesh.github.io/classes/faq.html">FAQ</a> </li>  
+  <li><a href="https://cloudmesh.github.io/classes/i524/index.html#online-meetings">Meetings</a> </li>
+  <li><a
+  href="https://iu.instructure.com/courses/1603897/assignments/syllabus">Zoom</a>
+  <li> <a href="https://cloudmesh.github.io/classes/i524/technologies.html#excersise">HW TechList.1</a>
+  </li>
+  <li> <a href="https://cloudmesh.github.io/classes/i524/paper1-hw.html#paper-1-homework">HW Paper.1</a>
+  </li>
+  <li> <a href="https://cloudmesh.github.io/classes/i524/open-discussions-hw.html">HW Open Discussions</a>
+  </li>
+  <li> <a href="https://cloudmesh.github.io/classes/i524/python-homework.html">HW cmd.1</a>
+  </li>
+  <li> <a href="https://cloudmesh.github.io/classes/i524/techlist-peer-review.html">HW TechList.1 Peer Review</a>
+  </li>
+  <li> <a href="https://cloudmesh.github.io/classes/i524/calendar.html#i524-calendar">Calendar</a>
+  </li>
+  <li> <a href="https://cloudmesh.github.io/classes/"> <img src="https://cloudmesh.github.io/classes/_static/html.jpg" width="40" height="40" alt="pdf"> Web Page</a>
+  </li>
+  <li>
+    <a href="https://cloudmesh.github.io/classes/i524-notes.pdf">
+       <img src="https://cloudmesh.github.io/classes/_static/pdf.png" width="40" height="40" alt="pdf"> (Incomplete)</a>
+  </li>
+</ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="ansible-ii-roles">
+<h1>Ansible II: Roles<a class="headerlink" href="#ansible-ii-roles" title="Permalink to this headline">¶</a></h1>
+<p>In this example, we are going to install R package onto your cloud VMs. R is a useful statistic programing language commonly used in many scientific and statistics computing projects, maybe also the one you chose for this class.</p>
+<p>In addition to last basic example, we are going to illustrate the concept of Ansible Roles, install source code through Github, and make use of variables. These are key features you will find useful in your project deployments.</p>
+<p>We are going to use a top-down fashion in this example. We first start from a playbook that is already good to go. You can execute this playbook (don&#8217;t do it yet) to get R installed in your remote hosts. We then further complicate this concise playbook by introducing functionalities to do the same tasks but in different ways. Although these detours are not necessary in this simply case, it helps you grasp the power of Ansible and ease your life when they are needed in your real projects.</p>
+<div class="section" id="prerequisite">
+<h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Finished Ansible Lesson I</li>
+<li>Have VMs reserved on cloud and SSH Key setup</li>
+</ul>
+</div>
+<div class="section" id="a-completed-playbook">
+<h2>A completed playbook<a class="headerlink" href="#a-completed-playbook" title="Permalink to this headline">¶</a></h2>
+<p>From the earlier example, we already can compose a playbook &#8216;example.yml&#8217; that install a software package, for example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="o">-</span> <span class="n">hosts</span><span class="p">:</span> <span class="n">R_hosts</span>
+  <span class="n">become</span><span class="p">:</span> <span class="n">yes</span>
+  <span class="n">tasks</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">install</span> <span class="n">the</span> <span class="n">R</span> <span class="n">package</span>
+      <span class="n">apt</span><span class="p">:</span> <span class="n">name</span><span class="o">=</span><span class="n">r</span><span class="o">-</span><span class="n">base</span> <span class="n">update_cache</span><span class="o">=</span><span class="n">yes</span> <span class="n">state</span><span class="o">=</span><span class="n">latest</span>
+</pre></div>
+</div>
+<p>the hosts are defined in a file &#8216;hosts&#8217;, which we configured in &#8216;ansible.cfg&#8217;:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">R_hosts</span><span class="p">]</span>
+<span class="o">&lt;</span><span class="n">cloud_server_ip</span><span class="o">&gt;</span> <span class="n">ansible_ssh_user</span><span class="o">=&lt;</span><span class="n">cloud_server_username</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In your assignments, we choose to use <code class="docutils literal"><span class="pre">inventory</span></code> instead of <code class="docutils literal"><span class="pre">ansible.cfg</span></code>. More details will be given when we introduce <code class="docutils literal"><span class="pre">ansible-galaxy</span></code> in following chapters. At this moment, getting yourself familiar with some concepts of configuring the Ansible environment is good enough.</p>
+</div>
+<p>This should get the installation job done. But we are going to extend it via new features next.</p>
+</div>
+<div class="section" id="introducing-roles">
+<h2>Introducing Roles<a class="headerlink" href="#introducing-roles" title="Permalink to this headline">¶</a></h2>
+<p>Role is an important concept used very often in large Ansible projects. You divide a series of tasks into different groups. Each group corresponds to certain role of the whole project.</p>
+<p>For example, if your project is to deploy a web site, you may need to install the back end database, the web server that responses HTTP requests and the web application itself. They are three different roles and should carry out their own installation and configuration tasks.</p>
+<p>Even though we only need to install the R package in this example, we can still do it by defining a role &#8216;r&#8217;. Modify your &#8216;example.yml&#8217; to be:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="o">-</span> <span class="n">hosts</span><span class="p">:</span> <span class="n">R_hosts</span>
+
+  <span class="n">roles</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">r</span>
+</pre></div>
+</div>
+<p>and create directory structure in your top project directory:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ mkdir -p roles/r/tasks
+$ touch roles/r/tasks/main.yml
+</pre></div>
+</div>
+<p>edit this &#8216;main.yml&#8217; to be:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">install</span> <span class="n">the</span> <span class="n">R</span> <span class="n">package</span>
+  <span class="n">apt</span><span class="p">:</span> <span class="n">name</span><span class="o">=</span><span class="n">r</span><span class="o">-</span><span class="n">base</span> <span class="n">update_cache</span><span class="o">=</span><span class="n">yes</span> <span class="n">state</span><span class="o">=</span><span class="n">latest</span>
+  <span class="n">become</span><span class="p">:</span> <span class="n">yes</span>
+</pre></div>
+</div>
+<p>You probably already get the point. We take the &#8216;tasks&#8217; section out of the one-for-all example.yml and re-organize them into roles. Each role specified in example.yml should have its own directory under roles/ and the tasks need be done by this role is listed in a file &#8216;tasks/main.yml&#8217; as above.</p>
+</div>
+<div class="section" id="install-source-code-from-github">
+<h2>Install source code from Github<a class="headerlink" href="#install-source-code-from-github" title="Permalink to this headline">¶</a></h2>
+<p>Although R can be installed through the OS package manager (apt-get etc.), the software used in your projects may not. Many research projects are available by Git instead. Here we are going to show you how to install packages from their Git repositories. Instead of directly executing the module &#8216;apt&#8217;, we pretend Ubuntu does not provide this package and you have to find it on Git. The source code of R can be found at <a class="reference external" href="https://github.com/wch/r-source.git">https://github.com/wch/r-source.git</a>. We are going to clone it to a remote VM&#8217;s hard drive, build the package and install the binary there.</p>
+<p>To do so, we need a few new Ansible modules. You may remember from last example that Ansible modules assist us to do various kinds of jobs when fed correct arguments. No surprise, Ansible has a module &#8216;git&#8217; to take care of git-related works, and a &#8216;command&#8217; module to run shell commands. Let&#8217;s modify &#8216;roles/r/tasks/main.yml&#8217; to be:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">get</span> <span class="n">R</span> <span class="n">package</span> <span class="n">source</span>
+  <span class="n">git</span><span class="p">:</span>
+    <span class="n">repo</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">wch</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">source</span><span class="o">.</span><span class="n">git</span>
+    <span class="n">dest</span><span class="p">:</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">R</span>
+
+<span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">install</span> <span class="n">R</span>
+  <span class="n">become</span><span class="p">:</span> <span class="n">yes</span>
+  <span class="n">command</span><span class="p">:</span> <span class="n">chdir</span><span class="o">=/</span><span class="n">tmp</span><span class="o">/</span><span class="n">R</span> <span class="s2">&quot;{{ item }}&quot;</span>
+  <span class="n">with_items</span><span class="p">:</span>
+    <span class="o">-</span> <span class="o">./</span><span class="n">configure</span>
+    <span class="o">-</span> <span class="n">make</span>
+    <span class="o">-</span> <span class="n">make</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>The role &#8216;r&#8217; carries out its two tasks now. One to clone the R source code into /tmp/R, the other uses a series of shell commands to build and install the packages.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Note that the commands executed by the second task may not be available on a fresh VM image. But the point of this example is to show an alternative way to install packages, so we conveniently assume conditions are all met.</p>
+</div>
+</div>
+<div class="section" id="using-variables-in-a-separate-file">
+<h2>Using variables in a separate file<a class="headerlink" href="#using-variables-in-a-separate-file" title="Permalink to this headline">¶</a></h2>
+<p>We typed several string constants in our Ansible scripts so far. In general, it is a good practice to give these values names and use them by referring to their names. This way, you complex Ansible project can be less error prone. Create a file in the same directory, and name it &#8216;vars.yml&#8217;:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="n">repository</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">wch</span><span class="o">/</span><span class="n">r</span><span class="o">-</span><span class="n">source</span><span class="o">.</span><span class="n">git</span>
+<span class="n">tmp</span><span class="p">:</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">R</span>
+</pre></div>
+</div>
+<p>Accordingly, we will update our &#8216;example.yml&#8217;:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="o">-</span> <span class="n">hosts</span><span class="p">:</span> <span class="n">R_hosts</span>
+  <span class="n">vars_files</span><span class="p">:</span>
+    <span class="o">-</span> <span class="nb">vars</span><span class="o">.</span><span class="n">yml</span>
+  <span class="n">roles</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">r</span>
+</pre></div>
+</div>
+<p>As shown, we specify a &#8216;vars_files&#8217; telling the script that the file &#8216;vars.yml&#8217; is going to supply variable values, whose keys are denoted by Double curly brackets like in &#8216;roles/r/tasks/main.yml&#8217;:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">get</span> <span class="n">R</span> <span class="n">package</span> <span class="n">source</span>
+  <span class="n">git</span><span class="p">:</span>
+    <span class="n">repo</span><span class="p">:</span> <span class="s2">&quot;{{ repository }}&quot;</span>
+    <span class="n">dest</span><span class="p">:</span> <span class="s2">&quot;{{ tmp }}&quot;</span>
+
+<span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">install</span> <span class="n">R</span>
+  <span class="n">become</span><span class="p">:</span> <span class="n">yes</span>
+  <span class="n">command</span><span class="p">:</span> <span class="n">chdir</span><span class="o">=</span><span class="s2">&quot;{{ tmp }}&quot;</span> <span class="s2">&quot;{{ item }}&quot;</span>
+  <span class="n">with_items</span><span class="p">:</span>
+    <span class="o">-</span> <span class="o">./</span><span class="n">configure</span>
+    <span class="o">-</span> <span class="n">make</span>
+    <span class="o">-</span> <span class="n">make</span> <span class="n">install</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="summarize">
+<h2>Summarize<a class="headerlink" href="#summarize" title="Permalink to this headline">¶</a></h2>
+<p>Now, just edit the &#8216;hosts&#8217; file with your target VMs&#8217; IP addresses and execute the playbook.</p>
+<p>You should be able to extend the Ansible playbook for your project. Configuration tools like Ansible are important components to master the cloud environment. There is much to explore and it&#8217;s worth it.</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
