@@ -3803,6 +3803,37 @@ NoSQL
      nodes, edges and properties.
      
 244. Yarcdata
+
+     Yarcdata is Cray subsidiary providing Analytics
+     products, namely the Urika Agile Analytics Platform and Graph
+     Engine. Cray’s Urika (Universal RDF Integration Knowledge
+     Appliance) system :cite:`www-Urika-appliance` is a hardware
+     platform designed specifically to provide high-speed
+     graph-retrieval for relationship analytics. Urika is a massively
+     parallel, multi-threaded, shared-memory computing device designed
+     to store and retrieve massive graph datasets. The system can
+     import and host massive heterogeneous graphs represented in the
+     resource description framework (RDF) format and can retrieve
+     descriptive graph patterns specified in a SPARQL query.
+
+     Urika-GD :cite:`techspec-Urika-GD` is a big data appliance for
+     graph analytics helps enterprises gain key insights by
+     discovering relationships in big data. Its highly scalable,
+     real-time graph analytics warehouse supports ad hoc queries,
+     pattern-based searches, inferencing and deduction. The Urika-GD
+     appliance complements an existing data warehouse or Hadoop®
+     cluster by offloading graph workloads and interoperating within
+     the existing analytics workflow
+
+     Cray Graph Engine :cite:`paper-graph-data` is a semantic database
+     using Resource Description Framework (RDF) triples to represent
+     the data, SPARQL as the query language and extensions to support
+     mathematical algorithms.
+
+     The paper "Graph mining meets the semantic web"
+     :cite:`paper-lee2015graph` outlines the implementation of graph
+     mining algorithms using SPARQL.
+
 245. AllegroGraph
      
      “AllegroGraph is a database technology that enables businesses to 
@@ -4206,6 +4237,28 @@ Data Transport
      Data Integration, Microsoft BI Suite and Couchbase :cite:`sqoop-wiki`. 
 
 270. Pivotal GPLOAD/GPFDIST
+
+     Greenplum Database :cite:`book-greenplum-gollapudi2013` is a shared nothing,
+     massively parallel processing solution built to support next
+     generation data warehousing and Big Data analytics processing. In
+     its new distribution under Pivotal, Greenplum Database is called
+     Pivotal(Greenplum) Database.
+
+     gpfdist :cite:`www-gpfdist` is Greenplum's parallel file
+     distribution program. It is used by readable external tables and
+     gpload to serve external table files to all Greenplum Database
+     segments in parallel. It is used by writable external tables to
+     accept output streams from Greenplum Database segments in
+     parallel and write them out to a file.
+
+     gpload :cite:`book-greenplum-gollapudi2013` is data loading
+     utility is used to load data into Greenplum's external table in
+     parallel.
+
+     Google has an invention :cite:`patent-google-gpf` relating to
+     integrating map-reduce processing techniques into a distributed
+     relational database. An embodiment of the invention is
+     implemented by Greenplum as gpfdist.
 
 Cluster Resource Management
 ----------------------------------------------------------------------
