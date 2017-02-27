@@ -1658,6 +1658,21 @@ High level Programming
      examples/syntax and also tries to spot errors in the programs
      :cite:`kite-wired`.
 105. Hive
+     The reason behind development of Hive is making it easier for
+     end users to use Hadoop. Map reduce programs were required to 
+     be developed by users for simple to complex tasks. It lacked 
+     expressiveness like query language. So, it was a time consuming
+     and difficult task for end users to use Hadoop. For solving this
+     problem Hive was built in January 2007 and open sourced in August2008.
+     Hive is an open source data warehousing solution which is built on top
+     of Hadoop. It structures data into understandable and conventional
+     database terms like tables, columns, rows and partitions. It supports
+     HiveQL queries which have structure like SQL queries. HiveQL queries 
+     are compiled to map reduce jobs which are then executed by Hadoop. 
+     Hive also contains Metastore which includes schemas and statistics 
+     which is useful in query compilation, optimization and data exploration 
+     :cite:`hive`
+
 106. HCatalog
 107. Tajo
 
@@ -2994,6 +3009,26 @@ Object-relational mapping
 ----------------------------------------------------------------------
 
 192. Hibernate
+
+     Hibernate is an open source project which provides object relational
+     persistence framework for applications in Java. It is an Object
+     relational mapping library (ORM) which provides the framework for 
+     mapping object oriented model to relational database. It provides
+     a query language, a caching layer and Java Management Extensions (JMX)
+     support. Databases supported by Hibernate includes DB2, Oracle, MySQL,
+     PostgreSQL.To provide persistence services, Hibernate uses database 
+     and configuration data. For using hibernate, firstly a java class is
+     created which represents table in the database. Then columns in database
+     are mapped to the instance variables of created Java class. Hibernate 
+     can perform database operations like select, insert, delete and update
+     records in table by automatically creating query. Connection management
+     and transaction management are provided by hibernate.
+     Hibernate saves development and debugging time in comparison to JDBC.
+     But it is slower at runtime as it generates many SQL statements at 
+     runtime. It is database independent. For batch processing it is 
+     advisable to use JDBC over Hibernate 
+     :cite:`hibernate`
+
 193. OpenJPA
 
      According to :cite:`www-openjpa`, Apache OpenJPA is a Java
@@ -3768,6 +3803,37 @@ NoSQL
      nodes, edges and properties.
      
 244. Yarcdata
+
+     Yarcdata is Cray subsidiary providing Analytics
+     products, namely the Urika Agile Analytics Platform and Graph
+     Engine. Cray’s Urika (Universal RDF Integration Knowledge
+     Appliance) system :cite:`www-Urika-appliance` is a hardware
+     platform designed specifically to provide high-speed
+     graph-retrieval for relationship analytics. Urika is a massively
+     parallel, multi-threaded, shared-memory computing device designed
+     to store and retrieve massive graph datasets. The system can
+     import and host massive heterogeneous graphs represented in the
+     resource description framework (RDF) format and can retrieve
+     descriptive graph patterns specified in a SPARQL query.
+
+     Urika-GD :cite:`techspec-Urika-GD` is a big data appliance for
+     graph analytics helps enterprises gain key insights by
+     discovering relationships in big data. Its highly scalable,
+     real-time graph analytics warehouse supports ad hoc queries,
+     pattern-based searches, inferencing and deduction. The Urika-GD
+     appliance complements an existing data warehouse or Hadoop®
+     cluster by offloading graph workloads and interoperating within
+     the existing analytics workflow
+
+     Cray Graph Engine :cite:`paper-graph-data` is a semantic database
+     using Resource Description Framework (RDF) triples to represent
+     the data, SPARQL as the query language and extensions to support
+     mathematical algorithms.
+
+     The paper "Graph mining meets the semantic web"
+     :cite:`paper-lee2015graph` outlines the implementation of graph
+     mining algorithms using SPARQL.
+
 245. AllegroGraph
      
      “AllegroGraph is a database technology that enables businesses to 
@@ -4172,6 +4238,28 @@ Data Transport
 
 270. Pivotal GPLOAD/GPFDIST
 
+     Greenplum Database :cite:`book-greenplum-gollapudi2013` is a shared nothing,
+     massively parallel processing solution built to support next
+     generation data warehousing and Big Data analytics processing. In
+     its new distribution under Pivotal, Greenplum Database is called
+     Pivotal(Greenplum) Database.
+
+     gpfdist :cite:`www-gpfdist` is Greenplum's parallel file
+     distribution program. It is used by readable external tables and
+     gpload to serve external table files to all Greenplum Database
+     segments in parallel. It is used by writable external tables to
+     accept output streams from Greenplum Database segments in
+     parallel and write them out to a file.
+
+     gpload :cite:`book-greenplum-gollapudi2013` is data loading
+     utility is used to load data into Greenplum's external table in
+     parallel.
+
+     Google has an invention :cite:`patent-google-gpf` relating to
+     integrating map-reduce processing techniques into a distributed
+     relational database. An embodiment of the invention is
+     implemented by Greenplum as gpfdist.
+
 Cluster Resource Management
 ----------------------------------------------------------------------
 
@@ -4388,6 +4476,19 @@ Cluster Resource Management
      
 283. Torque
 284. Globus Tools
+
+     :cite:`sotomayor2006globus` The Globus Toolkit is an open source toolkit 
+     organized as a collection of loosely coupled components. These components 
+     consist of services, programming libraries and development tools designed 
+     for building Grid-based applications. GT components fall into five broad 
+     domain areas: Security, Data Management, Execution Management, Information 
+     Services, and Common Runtime. :cite:`foster2006globus` These components 
+     enable a broader "Globus ecosystem" of tools and components that build on 
+     or interoperate with GT functionality to provide a wide range of useful 
+     application-level functions. www-about-globus 
+     :cite:`www-about-globus` Since 2000, companies like Fujitsu, IBM, NEC and 
+     Oracle have pursued Grid strategies based on the Globus Toolkit.
+
 285. Pilot Jobs
 
      In pilot job, an application acquires a resource so that it can
@@ -5679,6 +5780,18 @@ IaaS Management from HPC to hypervisors
 
 360. Amazon Route 53
 
+     Amazon Route 53 is a DNS (Domain Name System) service that gives
+     developers and businesses a reliable way to route end users to
+     Internet applications. The number 53 refers to TCP or UDP port
+     53, where DNS server requests are addressed :cite:`www-ar53`.
+     
+     When using Route 53 as your DNS provider, in case of a recursion,
+     the query of fetching an IP address (of a website or application)
+     always goes to the closest server location to reduce query
+     latency. The Route 53 server returns the IP address enabling the
+     browser to load the website or application. Route 53 can also be
+     used for registering domain names and arranging DNS “health
+     checks” to monitor the server :cite:`www-amar53`.
 
 Cross-Cutting Functions
 ----------------------------------------------------------------------
@@ -5706,6 +5819,25 @@ Monitoring
      for ambari on github.
      
 362. Ganglia
+
+     Ganglia is a scalable distributed monitoring system for
+     high-performance computing systems (clusters and grids). It is a
+     BSD-licensed open-source project that grew out of the University of
+     California, Berkeley Millennium Project which was initially funded in
+     large part by the National Partnership for Advanced Computational
+     Infrastructure (NPACI) and National Science Foundation RI Award
+     EIA-9802069 :cite:`www-gms`.
+
+     It relies on a multicast-based listen/announce protocol to monitor
+     state within clusters. It uses a tree of point-to-point connections
+     amongst representative cluster nodes to unite clusters and aggregate
+     their state :cite:`www-gsoft`. It leverages technologies such as XML
+     for data representation, XDR for compact, portable data transport, and
+     RRDtool for data storage and visualization. The implementation is
+     robust, has been ported to an extensive set of operating systems and
+     processor architectures, and is currently in use on thousands of
+     clusters around the world, handling clusters with 2000 nodes.
+     
 363. Nagios :cite:`www-nagios`
 
      Nagios is a platform, which provides a set of software for
@@ -6196,6 +6328,28 @@ New Technologies (To Be Integrated by the AIs)
      period until a review indicates that the project meets the 
      standards of other ASF projects :cite:`www-apacheincubator`
 
+390. Apache Ant
+
+     Apache Ant is a Java library and command-line tool whose mission
+     is to drive processes described in build files as targets and
+     extension points dependent upon each other. The main known usage
+     of Ant is the build of Java applications. Ant supplies a number
+     of built-in tasks allowing to compile, assemble, test and run
+     Java applications. Ant can also be used effectively to build non
+     Java applications, for instance C or C++ applications. More
+     generally, Ant can be used to pilot any type of process which can
+     be described in terms of targets and tasks. Ant is written in
+     Java. Users of Ant can develop their own "antlibs" containing Ant
+     tasks and types, and are offered a large number of ready-made
+     commercial or open-source "antlibs". Ant is extremely flexible
+     and does not impose coding conventions or directory layouts to
+     the Java projects which adopt it as a build tool. Software
+     development projects looking for a solution combining build tool
+     and dependency management can use Ant in combination with Apache
+     Ivy. The Apache Ant project is part of the Apache Software
+     Foundation :cite:`ant-www`.
+
+     
 .. _techs-exercise:
 
 Excersise
