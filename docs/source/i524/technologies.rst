@@ -1866,7 +1866,7 @@ High level Programming
      The authors designed it to handle "simple, easily distributed
      computations: filtering, aggregation, extraction of statistics,"
      etc. from the aforementioned data sets.
-     :cite:`google-sawzall`
+     :cite:`pike05sawzall`
 
      In general terms, a Sawzall job works as follows: multiple
      computers each create a Sawzall instance, perform some operation
@@ -1889,7 +1889,7 @@ High level Programming
      a native language [and] [m]ore important[ly] drawing an explicit
      line between filtering and aggregation enables a high degree of
      parallelism, even though it hides the parallelism from the
-     language itself".  :cite:`google-sawzall`
+     language itself".  :cite:`pike05sawzall`
 
      Important components of the Sawzall language include: *szl*, the
      binary containing the code compiler and byte-code interpreter
@@ -3441,7 +3441,25 @@ NoSQL
 
 229. Espresso
 230. CouchDB
-231. Couchbase
+     
+     The Apache Software Foundation makes CouchDB available as an option for
+     those seeking an open-source, NoSQL, document-oriented database. CouchDB,
+     or cluster of unreliable commodity hardware database,  
+     :cite:`www-exploringcdb-couchdb` stores data as a JSON-formatted document.
+     Documents can consist of a variety of field types, e.g., text, booleans
+     or lists, as well as metadata used by the software. 
+     :cite:`www-techoverview-couchdb`  CouchDB does not limit the number of 
+     fields per document, and it does not require any two documents to consist
+     of matching or even similar fields.  That is, the document has structure,
+     but the structure can vary by document.  CouchDB coordinates cluster
+     activities using the master-master mode by default, which means it does
+     not have any one in charge of the cluster.  However, a cluster can be set
+     up to write all data to single node, which is then replicated across the
+     cluster.  Either way, the system can only offer eventual consistency.
+     :cite:`www-cdb-vs-cbs-couchdb`  CouchDB serves as the basis of Couchbase,
+     Inc's Couchbase Server.
+
+231. Couchbase Server
 
      Couchbase, Inc. offers Couchbase Server (CBS) to the marketplace
      as a NoSQL, document-oriented database alternative to traditional
@@ -3463,8 +3481,8 @@ NoSQL
      of RAM".  :cite:`www-safaribooks-cbs`
 
      CBS is written in Erlang/OTP, but generally shortened to just
-     Erlang.  In actuality, t is written in "Erlang using components
-     of OTP alongside some C/C++":cite:`www-erlangcentral-cbs`, It
+     Erlang.  In actuality, it is written in "Erlang using components
+     of OTP alongside some C/C++" :cite:`www-erlangcentral-cbs`, It
      runs on an Erlang virtual machine known as
      BEAM. :cite:`www-wikipedia-erlang-cbs`
 
@@ -5255,8 +5273,8 @@ IaaS Management from HPC to hypervisors
      as VMM. It only supports fully virtualized VMs. It is very
      active for Linux users due to it’s ease of use, it can be
      completely controlled by ourselves and there is an ease for
-     migration from or to other platforms. :cite:`www-KVM-
-     webpage` It is built to run on a x86 machine on an Intel
+     migration from or to other platforms. :cite:`www-KVM-webpage`
+     It is built to run on a x86 machine on an Intel
      processor with virtualization technology extensions (VT-x)
      or an AMD-V. It supports 32 and 64 bit guests on a 64 bit
      host and hardware visualization features. The supported
@@ -5997,7 +6015,26 @@ New Technologies (To Be Integrated by the AIs)
      system. :cite:`www-cloudability`
 
 
-388. Blaze
+
+388. CUDA
+
+     It is a parallel computing platform and application programming
+     interface(API) model created by Nvidia. It allows software developers
+     to use a CUDA-enabled graphics processing unit for general purpose
+     processing. The CUDA platform is a software layer that gives direct
+     access to the GPU's virtual instruction set and parallel computational
+     elements, for the execution of compute kernels.  CUDA platform has
+     advantages such as scattered reads i.e the code can read from
+     arbitrary addresses in memory, unified virtual memory, unified memory,
+     faster downloads and readbacks to and from the GPU and full support
+     for integer and bitwise operations. :cite:`www-cuda-wikipedia`.  CUDA
+     is used for accelerated rendering of 3D graphics, accelerated
+     interconversion of video file formats, encryption, decryption and
+     compression of files.  It is also usedd for distributed calculations,
+     face recognition and distributed computing. :cite:`www-cuda-wikipedia`
+	  
+
+389. Blaze  
 
      Blaze library translates NumPy/Pandas-like syntax to data computing systems (e.g. database
      , in-memory, distributed-computing). This provides Python users with a familiar
@@ -6037,6 +6074,7 @@ New Technologies (To Be Integrated by the AIs)
     Cloudera Hadoop, Hortonworks Hadoop and Amazon EMR.
     CDAP sample apps :cite:`github-cdap-sample-apps` provide explain how to
     implement apps on CDAP platform.
+
 
 .. _techs-exercise:
 
