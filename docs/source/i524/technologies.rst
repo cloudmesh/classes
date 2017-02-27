@@ -1320,10 +1320,10 @@ Application Hosting Frameworks
 
 85. AWS Elastic Beanstalk
 
-    :cite: `www-amazon elastic beanstalk` AWS Elastic Beanstalk is an
+    :cite:`www-amazon elastic beanstalk` AWS Elastic Beanstalk is an
     orchestration service offered from Amazon Web Services which
     provides user with a platform for easy and quiclk deployment of
-    their WebApps and services. :cite: `amazon elastic beanstalk-book`
+    their WebApps and services. :cite:`amazon elastic beanstalk-book`
     Amazon Elastic BeanStack automatically handles the deployement
     details of capacity provisioning by Amazon Cloud Watch, Elastic
     Load Balancing, Auto-scaling, and application health monitoring of
@@ -1340,7 +1340,7 @@ Application Hosting Frameworks
     for Java applications, Apache HTTP Server for PHP applications
     Docker, GO and many more for specific languanges where the
     container defines the infrastructure and softwarestack to be used
-    for a given enviorment.:cite: `www-amazon elastic beanstalk` "AWS
+    for a given enviorment.:cite:`www-amazon elastic beanstalk` "AWS
     Elastic Beanstalk runs on the Amazon Linux AMI and the Windows
     Server 2012 R2 AMI. Both AMIs are supported and maintained by
     Amazon Web Services and are designed to provide a stable, secure,
@@ -1619,7 +1619,7 @@ High level Programming
      Data Scientists when working on huge data sets try to extract
      meaning and interpret the data to enhance insight about the
      various patterns, oppurtunities and possiblities that the dataset
-     has to offer. :cite: `shark-paper-2012` At a traditional
+     has to offer. :cite:`shark-paper-2012` At a traditional
      EDW(Enterprrise Data Warehouse) a simple data manipulation can be
      perfpormed using SQL queries but we have to rely on other systems
      to apply the machine learning on thoese data.Apache Shark is a
@@ -1628,7 +1628,7 @@ High level Programming
      manipulation using SQL and pushing sophisticated analysis towards
      the data.
 
-     :cite: `shark-paper-2012` Shark is a data Warehouse system built
+     :cite:`shark-paper-2012` Shark is a data Warehouse system built
      on top of Apache Spark which does the parallel data execution and
      is capable of deep data analysis using the Resilient Distributed
      Datasets(RDD) memory abstraction which unifies the SQL query
@@ -1639,11 +1639,11 @@ High level Programming
      more data or faster query processing thus it can be scaled to
      thoushands o nodes in a fault-toleranat manner
 
-     :cite: `shark-paper-2012` "Shark is built on Hive Codebase and it
+     :cite:`shark-paper-2012` "Shark is built on Hive Codebase and it
      has the ability to execute HIVE QL queries up to 100 times faster
      than Hive without making any change in the existing
      queries". Shark can run both on the StandAlone Mode and Cluster
-     Mode. :cite: `shark-paper-2012` Shark can answer the queries 40X
+     Mode. :cite:`shark-paper-2012` Shark can answer the queries 40X
      faster than Apache Hive and can machine learning programs 25X
      faster than MapReduce programmes. in Apache hadoop on large data
      sets.Thus, this new data analysis system performs query
@@ -2098,7 +2098,7 @@ Streams
      system, facebook primarily focused on the five key decissions
      that the system should incorporate and that included Ease of Use,
      Performance , Fault-tolerance , Scalability and
-     Correctness.:cite: 'www-facebook' "The real time data analytics
+     Correctness.:cite:'www-facebook' "The real time data analytics
      ecosystem at facebook is designed to handle hundreds of Gigabytes
      of data per second via hundreds of data pipelines and this system
      handles over 200,000 events per second with a maximum latency of
@@ -4162,7 +4162,7 @@ Cluster Resource Management
      Facebook employed the MapReduce implementation from Apache Hadoop
      since 2011 for job scheduling.The scheduling MapReduce framework
      has it's limitations with the scalibility as when the number of
-     jobs at facebook grew in the next few years.:cite: `www-facebook
+     jobs at facebook grew in the next few years.:cite:`www-facebook
      corona` Another limitation of Hadoop was it was a pull-based
      scheduling model as the task trackerhave to provide a heartbeat
      to the job tracker to indicate that it is running which
@@ -4913,6 +4913,17 @@ DevOps
      snippets.
 
 316. Xcat
+
+     xCAT is defined as extreme cloud/cluster administration
+     toolkit. Tnd his open source software was developed by IBM and 
+     utilized on clusters based on either linux or a version of UNIX 
+     called AIX. With this service administrator is enabled with 
+     a number of capabilities including parallel system management, 
+     provision OS usage on virtual machines, and manage all systems 
+     remotely. :cite:`www-xcat` xCAT works with various cluster types 
+     such as high performance computing, horizontal scaling web farms, 
+     administrative, and operating systems. :cite:`www-03ibm`
+     
 317. Razor
 
      Razor is a hardware provisioning application, developed by Puppet
@@ -5652,6 +5663,19 @@ Monitoring
 Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 365. InCommon
+
+     The mission of InCommon is to ``create and support a common trust
+     framework for U.S. education and research.  This includes trustworthy
+     shared management of access to on-line resources in support of
+     education and research in the United States''. :cite:`www-incommon`
+     This mission ultimately is a simplification and an elimination of the
+     need for multiple accounts across various websites that are at risk of
+     data spills or misuse.  In the academic setting, this helps assist
+     researchers to focus on their area of study, and enabling the cross
+     collaboration which is happening on a globa scale.  Currently any two
+     and four year higher education institution that is accredited is
+     eligble for joining InCommon.
+
 366. Eduroam :cite:`www-eduroam`
 
      Eduroam is an initiative started in the year 2003 when the number
