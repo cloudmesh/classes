@@ -3804,6 +3804,23 @@ NoSQL
      spanner infrastructure.
 
 238. Accumulo
+
+     Apache Accumulo, a highly scalable structured store based on
+     Google’s BigTable, is a sorted, distributed key/value store that
+     provides robust, scalable data storage and retrieval. Accumulo is
+     written in Java and operates over the Hadoop Distributed File
+     System (HDFS), which is part of the popular Apache Hadoop
+     project. Accumulo supports efficient storage and retrieval of
+     structured data, including queries for ranges, and provides
+     support for using Accumulo tables as input and output for
+     MapReduce jobs.
+     Accumulo features automatic load-balancing and
+     partitioning, data compression and fine-grained security
+     labels. Much of the work Accumulo does involves maintaining
+     certain properties of the data, such as organization,
+     availability, and integrity, across many commodity-class
+     machines :cite:`apache-accumulo`.
+
 239. Cassandra
 
      Apache Cassandra :cite:`www-cassandra` is an open-source
@@ -5503,6 +5520,26 @@ DevOps
      also supports Docker and VMWare vSphere.
      
 337. DevOpSlang
+     
+     DevOpSlang serves as means of collaboration and
+     provides the foundation to automate deployment and operations of
+     an application. Technically, it is a domain specific language
+     based on JavaScript Object Notation (JSON). JSON Schema is used
+     to define a formal schema for DevOpSlang and complete JSON Schema
+     definition of DevOpSlang is publicly available on GitHub project
+     DevOpSlang: http://github.com/jojow/devopslang Devopsfiles are
+     the technical artifacts (Unix shell commands, Chef Scripts, etc.)
+     rendered using DevOpSlang to implement operations.
+     Beside some meta data such as ’version’ and ’author’ Devopsfile defines
+     operations like ’start’ consisting of a single or multiple
+     actions which specifies the command to run the
+     application. Similarly, a ’build’ operation can be defined to
+     install the dependencies required to run the
+     application. Different abstraction levels may be combined
+     consistently such as a ’deploy’ operation consisting of actions
+     on the level of Unix shell commands and actions using portable
+     Chef cookbooks :cite:`DevOpSlang`.
+
 338. Any2Api
 
      This framework :cite:`wettinger-any2api` allows user to wrap an
