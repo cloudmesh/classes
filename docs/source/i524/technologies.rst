@@ -2351,6 +2351,23 @@ Streams
 141. Flink Streaming
 142. DataTurbine
 
+     Data Turbine :cite:`www-data-turbine` is open source engine that allows to
+     stream data from various sources, process it and sink it to different
+     destinations. The streaming sources can be labs, web cams and Java enabled
+     cell phones. The sinks can be visualizations, interfaces and databases.
+     Data Turbine can be used to stream data formats like numbers, text,
+     sound and
+     video.
+
+     :cite:`osdt-ecologicalsociety` explains that the Data Turbine middleware
+     provides the cyber-infrastructure that integrates disparate elements of
+     complex distributed real time application. Data Turbine acts as a
+     middleware black box using which applications and devices can send and
+     receive data. Data Turbine manages the management operations like memory
+     and file management as well as book-keeping and reconnection logic.
+     Data Turbine also provides Android based controller which allows
+     algorithms to run close to sensors.
+
 
 Basic Programming model and runtime, SPMD, MapReduce
 ----------------------------------------------------------------------
@@ -6523,6 +6540,7 @@ New Technologies (To Be Integrated by the AIs)
      system. :cite:`www-cloudability`
 
 
+
 388. CUDA
 
      It is a parallel computing platform and application programming
@@ -6545,17 +6563,42 @@ New Technologies (To Be Integrated by the AIs)
 
      Blaze library translates NumPy/Pandas-like syntax to data computing systems (e.g. database
      , in-memory, distributed-computing). This provides Python users with a familiar
-     interface to query data  in a variety of other data storage systems. 
-     One Blaze query can work across data ranging from a CSV file to a distributed 
+     interface to query data  in a variety of other data storage systems.
+     One Blaze query can work across data ranging from a CSV file to a distributed
      database.
 
      Blaze presents a pleasant and familiar interface regardless of what computational
      solution or database we use (e.g. Spark, Impala, SQL databases, No-SQL data-stores,
-     raw-files). It mediates the users interaction with files, data structures, and databases, 
+     raw-files). It mediates the users interaction with files, data structures, and databases,
      optimizing and translating the query as appropriate to provide a smooth and interactive
      session. It allows the data scientists and analyst to write their queries in a unified
      way that does not have to change because the data is stored in another format or a different
-     data-store. :cite:`www-blaze` 
+     data-store. :cite:`www-blaze`
+
+389. CDAP
+
+    CDAP :cite:`www-cdap` stands for Cask Data Application Platform. CDAP is an
+    application development platform using which developers can build, deploy
+    and monitor applications on Apache Hadoop. In a typical CDAP application,
+    a developer can ingest data, store and manage datasets on Hadoop, perform
+    batch mode data analysis, and develop web services to expose the data.
+    They can also schedule and monitor the execution of the application. This
+    way, CDAP enables the developers to use single platform to develop the end
+    to end application on Apache Hadoop.
+
+    CDAP documentation :cite:`www-cdap-docs` explains the important
+    CDAP
+    concepts of CDAP Dataset, CDAP Application and CDAP Services. CDAP Datasets
+    provide logical abstraction over the data stored in Hadoop. CDAP
+    Applications provide containers to implement application business logic
+    in open source processing frameworks like map reduce, Spark and real time
+    flow. CDAP applications also provide standardize way to deploy and manage
+    the apps. CDAP Services provide services for application management,
+    metadata management, and streams management.
+    CDAP can be deployed on various Hadoop Platforms such as Apache Hadoop,
+    Cloudera Hadoop, Hortonworks Hadoop and Amazon EMR.
+    CDAP sample apps :cite:`github-cdap-sample-apps` provide explain how to
+    implement apps on CDAP platform.
 
 389. Apache Arrow
      
