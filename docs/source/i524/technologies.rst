@@ -773,7 +773,33 @@ Application and Analytics
     dimensionality reduction, parameter tuning, feature selection and
     extraction.
 
-48. PyBrain
+48. PyBrain :cite:`article-pybrain`
+
+    The goal of PyBrain is to provide flexible, easyto-use algorithms
+    that are not just simple but are also powerful for machine
+    learning tasks. The algorithms implemented are Long Short-Term
+    Memory (LSTM), policy gradient methods, (multidimensional)
+    recurrent neural networks and deep belief networks. These
+    algorithms include a variety of predefined environments and
+    benchmarks to test and compare algorithms.
+
+    PyBrain provides a toolbox for supervised, unsupervised and
+    reinforcement learning as well as black-box and multi-objective
+    optimization as it is much larger than Python libraries.
+
+    PyBrain implements many recent learning algorithms and
+    architectures while emphasizing on sequential and nonsequential
+    data and tasks. These algorithms range from areas such as
+    supervised learning and reinforcement learning to direct search /
+    optimization and evolutionary methods.  For application-oriented
+    users, PyBrain contains reference implementations of a number of
+    algorithms at the bleeding edge of research and this is in
+    addition to standard algorithms which are not available in Python
+    library. Besides this PyBrain sets itself apart by its versatility
+    for composing custom neural networks architectures that range from
+    (multi-dimensional) recurrent networks to restricted Boltzmann
+    machines or convolutional networks.
+    
 49. CompLearn
 
     Complearn is a system that makes use of data compression
@@ -1596,7 +1622,40 @@ Application Hosting Frameworks
     platform accessed by every user using the feature “Jenkins
     Sprawl”.
 
-95. Engine Yard
+95. Engine Yard :cite:`www-engineyard`
+
+    A deployment platform with fully managed services that combines
+    high-end clustering resources to run Ruby and Rails applications
+    in the cloud is offered by Engine Yard. It is designed as a
+    platform-as-a-Service for Web application developers using Ruby on
+    Rails, PHP and Node.js who requires the advantages of cloud
+    computing. Amazon cloud is the platform where the Engine Yard
+    perform its operations and accomplishes application stack for its
+    users. Amazon allows as many as eight regions to Engine Yard to
+    deploy its CPU instances in varying capacities such as normal,
+    high memory and high CPU. According to customer requirements
+    multiple software components are configured and processed when an
+    instance is started in Engine Yard.
+    
+    Engine Yard builds its version on Gentoo Linux and has
+    non-proprietary approach to its stack. The stack includes HAProxy
+    load balancer, Ngnix and Rack Web servers, Passenger and Unicorn
+    app servers, as well as MySQL and PostgreSQL relational databases
+    in addition to Ruby, PHP, and Node.js The credibility of Engine
+    Yard rests with orchestration and management as developers have
+    option of performing functions in Amazon cloud. Standard
+    operations management procedures are performed once the systems
+    are configured and deployed. Key operations tasks such as
+    performing backups, managing snapshots, managing clusters,
+    administering databases and load balancing are taken care by
+    Engine Yard.
+    
+    Engine Yard users are empowered as they have more control over
+    virtual machine instances. These instances are dedicated instances
+    and are not shared with other users. As the instances are
+    independent every user can exercise greater control over instances
+    without interferences with other users.
+
 96. (CloudControl)
 
     No Longer active as of Feb. 2016 :cite:`www-wiki`
