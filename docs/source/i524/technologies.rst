@@ -203,6 +203,33 @@ Workflow-Orchestration
     
 12. IPython
 13. Jupyter
+
+	The Jupyter Notebook is a language-agnostic HTML notebook web application
+	that allows you to create and share documents that contain live code,
+	equations, visualizations and explanatory text. :cite:`www-jupyter-1` The
+	notebook extends the console-based approach to interactive computing in a
+	qualitatively new direction, providing a web-based application suitable for
+	capturing the whole computation process: developing, documenting, and
+	executing code, as well as communicating the results. :cite:`www-jupyter-2`
+	The Jupyter notebook combines two components:
+	1. A web application: a browser-based tool for interactive authoring of
+	documents which combine explanatory text, mathematics, computations and
+	their rich media output.
+	2. Notebook documents: a representation of all content visible in the web
+	application, including inputs and outputs of the computations, explanatory
+	text, mathematics, images, and rich media representations of objects.
+	Notebooks may be exported to a range of static formats, including HTML
+	(for example, for blog posts), reStructuredText, LaTeX, PDF, and slide
+	shows, via the nbconvert command. :cite:`www-jupyter-3` Notebook documents
+	contains the inputs and outputs of a interactive session as well as
+	additional text that accompanies the code but is not meant for execution. :cite:`www-jupyter-4`
+	In this way, notebook files can serve as a complete computational record of
+	a session, interleaving executable code with explanatory text, mathematics,
+	and rich representations of resulting objects. :cite:`www-jupyter-5`
+	These documents are internally JSON files and are saved with the .ipynb
+	extension. Since JSON is a plain text format, they can be version-controlled
+	and shared with colleagues. :cite:`www-jupyter-6`
+
 14. (Dryad)
 15. Naiad
 
@@ -746,7 +773,33 @@ Application and Analytics
     dimensionality reduction, parameter tuning, feature selection and
     extraction.
 
-48. PyBrain
+48. PyBrain :cite:`article-pybrain`
+
+    The goal of PyBrain is to provide flexible, easyto-use algorithms
+    that are not just simple but are also powerful for machine
+    learning tasks. The algorithms implemented are Long Short-Term
+    Memory (LSTM), policy gradient methods, (multidimensional)
+    recurrent neural networks and deep belief networks. These
+    algorithms include a variety of predefined environments and
+    benchmarks to test and compare algorithms.
+
+    PyBrain provides a toolbox for supervised, unsupervised and
+    reinforcement learning as well as black-box and multi-objective
+    optimization as it is much larger than Python libraries.
+
+    PyBrain implements many recent learning algorithms and
+    architectures while emphasizing on sequential and nonsequential
+    data and tasks. These algorithms range from areas such as
+    supervised learning and reinforcement learning to direct search /
+    optimization and evolutionary methods.  For application-oriented
+    users, PyBrain contains reference implementations of a number of
+    algorithms at the bleeding edge of research and this is in
+    addition to standard algorithms which are not available in Python
+    library. Besides this PyBrain sets itself apart by its versatility
+    for composing custom neural networks architectures that range from
+    (multi-dimensional) recurrent networks to restricted Boltzmann
+    machines or convolutional networks.
+    
 49. CompLearn
 
     Complearn is a system that makes use of data compression
@@ -1133,6 +1186,22 @@ Application and Analytics
     single package.
     
 69. Kibana
+
+	Kibana is an open source data visualization plugin for Elasticsearch. :cite:`www-kibana-1`
+	It provides visualization capabilities on top of the content indexed on an
+	Elasticsearch cluster. Users can create bar, line and scatter plots, or pie
+	charts and maps on top of large volumes of data. :cite:`www-kibana-2`
+	The combination of Elasticsearch, Logstash, and Kibana (also known as ELK
+	stack or Elastic stack) is available as products or service. Logstash
+	provides an input stream to Elastic for storage and search, and Kibana
+	accesses the data for visualizations such as dashboards. :cite:`www-kibana-3`
+	Elasticsearch is a search engine based on Lucene. :cite:`www-kibana-4` It
+	provides a distributed, multitenant-capable full-text search engine with an
+	HTTP web interface and schema-free JSON documents. Kibana makes it easy to
+	understand large volumes of data. Its simple, browser-based interface
+	enables you to quickly create and share dynamic dashboards that display
+	changes to Elasticsearch queries in real time. :cite:`www-kibana-5` :cite:`www-kibana-6`
+
 70. Logstash
 
     Logstash is an open source data collection engine with real-time
@@ -1553,7 +1622,40 @@ Application Hosting Frameworks
     platform accessed by every user using the feature “Jenkins
     Sprawl”.
 
-95. Engine Yard
+95. Engine Yard :cite:`www-engineyard`
+
+    A deployment platform with fully managed services that combines
+    high-end clustering resources to run Ruby and Rails applications
+    in the cloud is offered by Engine Yard. It is designed as a
+    platform-as-a-Service for Web application developers using Ruby on
+    Rails, PHP and Node.js who requires the advantages of cloud
+    computing. Amazon cloud is the platform where the Engine Yard
+    perform its operations and accomplishes application stack for its
+    users. Amazon allows as many as eight regions to Engine Yard to
+    deploy its CPU instances in varying capacities such as normal,
+    high memory and high CPU. According to customer requirements
+    multiple software components are configured and processed when an
+    instance is started in Engine Yard.
+    
+    Engine Yard builds its version on Gentoo Linux and has
+    non-proprietary approach to its stack. The stack includes HAProxy
+    load balancer, Ngnix and Rack Web servers, Passenger and Unicorn
+    app servers, as well as MySQL and PostgreSQL relational databases
+    in addition to Ruby, PHP, and Node.js The credibility of Engine
+    Yard rests with orchestration and management as developers have
+    option of performing functions in Amazon cloud. Standard
+    operations management procedures are performed once the systems
+    are configured and deployed. Key operations tasks such as
+    performing backups, managing snapshots, managing clusters,
+    administering databases and load balancing are taken care by
+    Engine Yard.
+    
+    Engine Yard users are empowered as they have more control over
+    virtual machine instances. These instances are dedicated instances
+    and are not shared with other users. As the instances are
+    independent every user can exercise greater control over instances
+    without interferences with other users.
+
 96. (CloudControl)
 
     No Longer active as of Feb. 2016 :cite:`www-wiki`

@@ -3749,8 +3749,12 @@
 
 
 % S17-IR-2004
+% For all the entries the author names should be of the format "firstname lastname" instead of "lastname, firstname". 
+% I am not sure what the Urldate is, but if it is the date the URL was accessed, it could be included in the note field
 @Article{paper-plasma-magma-1,
-  review = {},
+  review = {The month and doi field should be included since this information is available for this article.
+  The doi for this article is /10.1016/j.parco.2008.10.002.
+  Hence the URL should be http://dx.doi.org/10.1016/j.parco.2008.10.002},
   Title                    = {A class of parallel tiled linear algebra algorithms for multicore architectures},
   Author                   = {Buttari, Alfredo and Langou, Julien and Kurzak, Jakub and Dongarra, Jack},
   Journal                  = {Parallel Computing},
@@ -3766,7 +3770,8 @@
 }
 
 @InProceedings{paper-openvz-1,
-  review = {},
+  review = {The doi,publisher address,and editor  field should be included since this information is available for this chapter. 
+  The URL should be updated based on the doi as shown for paper-plasma-magma-1},
   Title                    = {A synthetical performance evaluation of openvz, xen and kvm},
   Author                   = {Che, Jianhua and Shi, Congcong and Yu, Yong and Lin, Weimin},
   Booktitle                = {Services {Computing} {Conference} ({APSCC}), 2010 {IEEE} {Asia}-{Pacific}},
@@ -3782,7 +3787,8 @@
 }
 
 @InCollection{paper-plasma-magma-2,
-  review = {},
+  review = {The doi,organization,address and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi as shown for paper-plasma-magma-1.},
   Title                    = {Accelerating numerical dense linear algebra calculations with {GPUs}},
   Author                   = {Dongarra, Jack and Gates, Mark and Haidar, Azzam and Kurzak, Jakub and Luszczek, Piotr and Tomov, Stanimire and Yamazaki, Ichitaro},
   Booktitle                = {Numerical {Computations} with {GPUs}},
@@ -3812,7 +3818,8 @@
 }
 
 @Article{paper-azure-1,
-  review = {},
+  review = {The doi and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi as shown for paper-plasma-magma-1.},
   Title                    = {Early observations on the performance of {Windows} {Azure}},
   Author                   = {Hill, Zach and Li, Jie and Mao, Ming and Ruiz-Alvarez, Arkaitz and Humphrey, Marty},
   Journal                  = {Scientific Programming},
@@ -3829,7 +3836,7 @@
 }
 
 @Article{paper-samza-1,
-  review = {},
+  review = {The volume,number,pages and month field should be included since this information is available for this entry.},
   Title                    = {Kafka, {Samza} and the {Unix} philosophy of distributed data},
   Author                   = {Kleppmann, Martin and Kreps, Jay},
   Journal                  = {Bulletin of the IEEE CS Technical Committee on Data Engineering},
@@ -3843,7 +3850,8 @@
 }
 
 @Article{paper-plasma-magma-4,
-  review = {},
+  review = {The doi and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi.},
   Title                    = {Scheduling dense linear algebra operations on multicore processors},
   Author                   = {Kurzak, Jakub and Ltaief, Hatem and Dongarra, Jack and Badia, Rosa M.},
   Journal                  = {Concurrency and Computation: Practice and Experience},
@@ -3859,7 +3867,8 @@
 }
 
 @Article{paper-plasma-magma-5,
-  review = {},
+  review = {The doi,publisher, address and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi.},
   Title                    = {Towards dense linear algebra for hybrid {GPU} accelerated manycore systems},
   Author                   = {Tomov, Stanimire and Dongarra, Jack and Baboulin, Marc},
   Journal                  = {Parallel Computing},
@@ -3875,7 +3884,8 @@
 }
 
 @InProceedings{paper-plasma-magma-6,
-  review = {},
+  review = {The doi and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi.},
   Title                    = {Dense linear algebra solvers for multicore with {GPU} accelerators},
   Author                   = {Tomov, Stanimire and Nath, Rajib and Ltaief, Hatem and Dongarra, Jack},
   Booktitle                = {Parallel \& {Distributed} {Processing}, {Workshops} and {Phd} {Forum} ({IPDPSW}), 2010 {IEEE} {International} {Symposium} on},
@@ -3890,7 +3900,7 @@
 }
 
 @Misc{www-azure-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Introduction to {Azure} {Storage} {\textbar} {Microsoft} {Docs}},
 
   File                     = {Introduction to Azure Storage | Microsoft Docs:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/BTZMRECE/storage-introduction.html:text/html},
@@ -3901,7 +3911,7 @@
 }
 
 @Misc{www-azure-2,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Get started with {Azure} {Blob} storage (object storage) using .{NET} {\textbar} {Microsoft} {Docs}},
 
   File                     = {Get started with Azure Blob storage (object storage) using .NET | Microsoft Docs:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/SQTQ93PE/storage-dotnet-how-to-use-blobs.html:text/html},
@@ -3912,7 +3922,7 @@
 }
 
 @Misc{www-jelastic-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Grow {Hosting} {Business} with {Software} {Platform}},
 
   Abstract                 = {Start selling PaaS, elastic VPS, Docker hosting and hundreds of prepackaged applications to your customers based on your infrastructure},
@@ -3925,7 +3935,7 @@
 }
 
 @Misc{www-openvz-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Features},
 
   Abstract                 = {The architecture of OpenVZ is different from the traditional virtual machines architecture because it always runs the same OS kernel as the host system (while still allowing multiple Linux distributions in individual containers). This single-kernel implementation technology enables running containers with a near-zero overhead. Thus, OpenVZ offer an order of magnitude higher efficiency and manageability than traditional virtualization technologies.},
@@ -3938,7 +3948,7 @@
 }
 
 @Misc{www-openvz-2,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {How {To} {Create} {OpenVZ} {Container} {In} {OpenVZ} {\textbar} {Unixmen}},
 
   File                     = {How To Create OpenVZ Container In OpenVZ | Unixmen:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/3Z98XPQE/how-to-create-openvz-container-in-openvz.html:text/html},
@@ -3949,7 +3959,7 @@
 }
 
 @Misc{www-plasma-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {{PLASMA} {README}},
 
   File                     = {PLASMA README:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/Z8AFSTCV/README.html:text/html},
@@ -3960,7 +3970,7 @@
 }
 
 @Misc{www-samza-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Samza},
 
   File                     = {Samza:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/M69KPS8X/samza.apache.org.html:text/html},
@@ -3971,7 +3981,7 @@
 }
 
 @Misc{www-samza-2,
-  review = {},
+  review = {For this article, the author,year and month field are given and should be updated in the reference},
   Title                    = {How {LinkedIn} {Uses} {Apache} {Samza}},
 
   Abstract                 = {Apache Samza is a stream processor LinkedIn recently open-sourced. In his presentation, Samza: Real-time Stream Processing at LinkedIn, Chris Riccomini discusses Samza's feature set, how Samza integrates with YARN and Kafka, how it's used at LinkedIn, and what's next on the roadmap.},
@@ -3984,7 +3994,7 @@
 }
 
 @Misc{www-openvz-3,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {{OpenVZ}},
   Month                    = feb,
   Note                     = {Page Version ID: 764498783},
@@ -4002,7 +4012,7 @@
 }
 
 @Misc{www-samza-3,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Apache {Samza}},
   Month                    = feb,
   Note                     = {Page Version ID: 764035647},
@@ -4020,7 +4030,7 @@
 }
 
 @Misc{www-jelastic-2,
-  review = {},
+  review = {Looks good},
   Title                    = {Jelastic},
   Month                    = dec,
   Note                     = {Page Version ID: 754931676},
@@ -4038,7 +4048,7 @@
 }
 
 @Misc{www-samza-4,
-  review = {},
+  review = {Need to include the author of this post},
   Title                    = {Apache {Samza}, {LinkedIn}'s {Framework} for {Stream} {Processing}},
   Month                    = jan,
   Year                     = {2015},
@@ -4053,7 +4063,7 @@
 }
 
 @Misc{www-azure-3,
-  review = {},
+  review = {Need to include the author of this post},
   Title                    = {An {Introduction} to {Windows} {Azure} {BLOB} {Storage}},
   Month                    = jul,
   Year                     = {2013},
@@ -4065,6 +4075,158 @@
   howpublished             = {Web Page},
   Url                      = {https://www.simple-talk.com/cloud/cloud-data/an-introduction-to-windows-azure-blob-storage/},
   Urldate                  = {2017-02-13}
+}
+
+@Misc{www-jupyter-1,
+  Title                    = {Project {Jupyter}},
+  HowPublished             = {Web page},
+
+  Abstract                 = {The Jupyter Notebook is a web-based interactive computing platform. The notebook combines live code, equations, narrative text, visualizations, interactive dashboards and other media.},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/B3BVIEB5/www-jupyter-1.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {http://www.jupyter.org},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-2,
+  Title                    = {{GitHub} - jupyter/jupyter: {Jupyter} metapackage for installation, docs and chat},
+  HowPublished             = {Web page},
+
+  File                     = {GitHub - jupyter/jupyter\: Jupyter metapackage for installation, docs and chat:.mozilla/firefox/2hrphxfh.default/zotero/storage/R2XKBGSV/www-jupyter-2.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://github.com/jupyter/jupyter},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-3,
+  Title                    = {{GitHub} - jupyter/notebook: {Jupyter Interactive Notebook}},
+  HowPublished             = {Web page},
+
+  File                     = {GitHub - jupyter/notebook\: Jupyter Interactive Notebook:.mozilla/firefox/2hrphxfh.default/zotero/storage/GJ8RKRKQ/www-jupyter-3.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://github.com/jupyter/notebook},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-4,
+  Title                    = {The {Jupyter} notebook --- {Jupyter Notebook} 5.0.0.dev documentation},
+  HowPublished             = {Web page},
+
+  File                     = {The Jupyter notebook — Jupyter Notebook 5.0.0.dev documentation:.mozilla/firefox/2hrphxfh.default/zotero/storage/AHIFS4UX/www-jupyter-4.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://jupyter-notebook.readthedocs.io/en/latest/index.html},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-6,
+  Title                    = {What is the {Jupyter Notebook}? --- {Jupyter Notebook} 5.0.0.dev documentation},
+  HowPublished             = {Web page},
+
+  File                     = {What is the Jupyter Notebook? — Jupyter Notebook 5.0.0.dev documentation:.mozilla/firefox/2hrphxfh.default/zotero/storage/23UVZM28/www-jupyter-6.html:URL},
+  Owner                    = {S17-IR-2004},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-5,
+  Title                    = {{IPython}},
+  HowPublished             = {Web page},
+  Month                    = feb,
+  Note                     = {Page Version ID: 767266837},
+  Year                     = {2017},
+
+  Abstract                 = {IPython is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers introspection, rich media, shell syntax, tab completion, and history. IPython provides the following features:
+Interactive shells (terminal and Qt-based).
+A browser-based notebook with support for code, text, mathematical expressions, inline plots and other media.
+Support for interactive data visualization and use of GUI toolkits.
+Flexible, embeddable interpreters to load into one's own projects.
+Tools for parallel computing.},
+  Copyright                = {Creative Commons Attribution-ShareAlike License},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/SSC6FZIS/www-jupyter-5.html:URL},
+  Journal                  = {Wikipedia},
+  Language                 = {en},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://en.wikipedia.org/w/index.php?title=IPython&oldid=767266837},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-1,
+  Title                    = {Kibana: {Explore}, {Visualize}, {Discover Data \textbar Elastic}},
+  HowPublished             = {Web Page},
+
+  File                     = {Kibana\: Explore, Visualize, Discover Data | Elastic:.mozilla/firefox/2hrphxfh.default/zotero/storage/QMD66XZJ/www-kibana-1.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://www.elastic.co/products/kibana},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-2,
+  Title                    = {{GitHub} - elastic/kibana: {Kibana} analytics and search dashboard for {Elasticsearch}},
+  HowPublished             = {Web Page},
+
+  File                     = {GitHub - elastic/kibana\: Kibana analytics and search dashboard for Elasticsearch:.mozilla/firefox/2hrphxfh.default/zotero/storage/CFE2ACM8/www-kibana-2.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://github.com/elastic/kibana},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-3,
+  Title                    = {How {To Use Logstash} and {Kibana To Centralize Logs On Ubuntu} 14.04},
+  HowPublished             = {Web Page},
+
+  Abstract                 = {In this tutorial, we will go over the installation of Logstash 1.4.2 and Kibana 3, and how to configure them to gather and visualize the syslogs of our systems in a centralized location. Logstash is an open source tool for collecting, parsing, and sto},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/GTX95JB8/www-kibana-3.html:URL},
+  Journal                  = {DigitalOcean},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-6,
+  Title                    = {Introduction {\textbar Kibana User Guide} [5.2] {\textbar Elastic}},
+  HowPublished             = {Web Page},
+
+  Abstract                 = {Get started with the documentation for Elasticsearch, Kibana, Logstash, Beats, X-Pack, Elastic Cloud, Elasticsearch for Apache Hadoop, and our language clients.,},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/V5NC2MQM/www-kibana-6.html:URL},
+  Owner                    = {S17-IR-2004},
+  Type                     = {Docs/{Kibana}/{Reference}/5.2},
+  Url                      = {https://www.elastic.co/guide/en/kibana/current/introduction.html},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-4,
+  Title                    = {Elasticsearch},
+  HowPublished             = {Web Page},
+  Month                    = feb,
+  Note                     = {Page Version ID: 767434249},
+  Year                     = {2017},
+
+  Abstract                 = {Elasticsearch is a search engine based on Lucene. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java and is released as open source under the terms of the Apache License. Official clients are available in Java, .NET (C\#), Python, Groovy and many other languages. Elasticsearch is the most popular enterprise search engine followed by Apache Solr, also based on Lucene.
+It is developed alongside a data collection and log parsing engine called Logstash, and an analytics and visualization platform called Kibana. The three products are designed to be used as an integrated solution, referred to as the "ELK stack".},
+  Copyright                = {Creative Commons Attribution-ShareAlike License},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/RDU93TT5/www-kibana-4.html:URL},
+  Journal                  = {Wikipedia},
+  Language                 = {en},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://en.wikipedia.org/w/index.php?title=Elasticsearch&oldid=767434249},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-5,
+  Title                    = {Kibana},
+  HowPublished             = {Web Page},
+  Month                    = feb,
+  Note                     = {Page Version ID: 767434139},
+  Year                     = {2017},
+
+  Abstract                 = {Kibana is an open source data visualization plugin for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Users can create bar, line and scatter plots, or pie charts and maps on top of large volumes of data.
+The combination of Elasticsearch, Logstash, and Kibana (also known as ELK stack or Elastic stack) is available as products or service. Logstash provides an input stream to Elastic for storage and search, and Kibana accesses the data for visualizations such as dashboards.},
+  Copyright                = {Creative Commons Attribution-ShareAlike License},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/H8JHD23K/www-kibana-5.html:URL},
+  Journal                  = {Wikipedia},
+  Language                 = {en},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://en.wikipedia.org/w/index.php?title=Kibana&oldid=767434139},
+  Urldate                  = {2017-02-27}
 }
 
 % S17-IR-2006
@@ -4142,6 +4304,37 @@
   note         = {Accessed: 2017-01-28},
   url          = {http://gemfire.docs.pivotal.io/gemfire/getting_started/gemfire_overview.html},
   owner        = {S17-IR-2006}
+}
+
+@article{article-pybrain,
+ review = {},
+ author = {Tom Schaul and Justin Bayer and Daan Wierstra and Yi Sun and Martin Felder and Frank Sehnke and Thomas R\"{u}ckstie\ss and J\"{u}rgen Schmidhuber},
+ title = {PyBrain},
+ editor = {Soeren Sonnenburg},
+ journal = {Journal of Machine Learning Research},
+ volume = {11},
+ month = mar,
+ year = {2010},
+ issn = {1532-4435},
+ pages = {743--746},
+ numpages = {4},
+ url = {http://dl.acm.org/citation.cfm?id=1756006.1756030},
+ publisher = {JMLR.org},
+ owner = {S17-IR-2006}
+} 
+
+@Misc{www-engineyard,
+review = {},
+author = {Dan Sullivan},
+title = {Paas Provider Comparison Guide: Engine Yard - Orchestration and Management},
+month =jul,
+year ={2013},
+journal ={Cloud Computing},
+publisher ={tomsitpro.com},
+url={http://www.tomsitpro.com/articles/paas-engine-yard-amazon-elastic-cloud-computing,2-578.html},
+howpublished = {Article},
+note = {Accessed: 02-26-2017},
+owner ={S17-IR-2006}
 }
 
 % S17-IR-2008
