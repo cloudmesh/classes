@@ -6687,6 +6687,7 @@ New Technologies (To Be Integrated by the AIs)
      container migration. :cite:`www-lxd-lists-linux`.It was build
      with aim of providing VM like virtulization with container like
      performance. :cite:`www-lxd-ubuntu`
+
 .. _techs-exercise:
 
 Excersise
