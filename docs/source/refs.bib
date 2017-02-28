@@ -3749,8 +3749,12 @@
 
 
 % S17-IR-2004
+% For all the entries the author names should be of the format "firstname lastname" instead of "lastname, firstname". 
+% I am not sure what the Urldate is, but if it is the date the URL was accessed, it could be included in the note field
 @Article{paper-plasma-magma-1,
-  review = {},
+  review = {The month and doi field should be included since this information is available for this article.
+  The doi for this article is /10.1016/j.parco.2008.10.002.
+  Hence the URL should be http://dx.doi.org/10.1016/j.parco.2008.10.002},
   Title                    = {A class of parallel tiled linear algebra algorithms for multicore architectures},
   Author                   = {Buttari, Alfredo and Langou, Julien and Kurzak, Jakub and Dongarra, Jack},
   Journal                  = {Parallel Computing},
@@ -3766,7 +3770,8 @@
 }
 
 @InProceedings{paper-openvz-1,
-  review = {},
+  review = {The doi,publisher address,and editor  field should be included since this information is available for this chapter. 
+  The URL should be updated based on the doi as shown for paper-plasma-magma-1},
   Title                    = {A synthetical performance evaluation of openvz, xen and kvm},
   Author                   = {Che, Jianhua and Shi, Congcong and Yu, Yong and Lin, Weimin},
   Booktitle                = {Services {Computing} {Conference} ({APSCC}), 2010 {IEEE} {Asia}-{Pacific}},
@@ -3782,7 +3787,8 @@
 }
 
 @InCollection{paper-plasma-magma-2,
-  review = {},
+  review = {The doi,organization,address and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi as shown for paper-plasma-magma-1.},
   Title                    = {Accelerating numerical dense linear algebra calculations with {GPUs}},
   Author                   = {Dongarra, Jack and Gates, Mark and Haidar, Azzam and Kurzak, Jakub and Luszczek, Piotr and Tomov, Stanimire and Yamazaki, Ichitaro},
   Booktitle                = {Numerical {Computations} with {GPUs}},
@@ -3812,7 +3818,8 @@
 }
 
 @Article{paper-azure-1,
-  review = {},
+  review = {The doi and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi as shown for paper-plasma-magma-1.},
   Title                    = {Early observations on the performance of {Windows} {Azure}},
   Author                   = {Hill, Zach and Li, Jie and Mao, Ming and Ruiz-Alvarez, Arkaitz and Humphrey, Marty},
   Journal                  = {Scientific Programming},
@@ -3829,7 +3836,7 @@
 }
 
 @Article{paper-samza-1,
-  review = {},
+  review = {The volume,number,pages and month field should be included since this information is available for this entry.},
   Title                    = {Kafka, {Samza} and the {Unix} philosophy of distributed data},
   Author                   = {Kleppmann, Martin and Kreps, Jay},
   Journal                  = {Bulletin of the IEEE CS Technical Committee on Data Engineering},
@@ -3843,7 +3850,8 @@
 }
 
 @Article{paper-plasma-magma-4,
-  review = {},
+  review = {The doi and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi.},
   Title                    = {Scheduling dense linear algebra operations on multicore processors},
   Author                   = {Kurzak, Jakub and Ltaief, Hatem and Dongarra, Jack and Badia, Rosa M.},
   Journal                  = {Concurrency and Computation: Practice and Experience},
@@ -3859,7 +3867,8 @@
 }
 
 @Article{paper-plasma-magma-5,
-  review = {},
+  review = {The doi,publisher, address and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi.},
   Title                    = {Towards dense linear algebra for hybrid {GPU} accelerated manycore systems},
   Author                   = {Tomov, Stanimire and Dongarra, Jack and Baboulin, Marc},
   Journal                  = {Parallel Computing},
@@ -3875,7 +3884,8 @@
 }
 
 @InProceedings{paper-plasma-magma-6,
-  review = {},
+  review = {The doi and month field should be included since this information is available for this entry. 
+  The URL should be updated based on the doi.},
   Title                    = {Dense linear algebra solvers for multicore with {GPU} accelerators},
   Author                   = {Tomov, Stanimire and Nath, Rajib and Ltaief, Hatem and Dongarra, Jack},
   Booktitle                = {Parallel \& {Distributed} {Processing}, {Workshops} and {Phd} {Forum} ({IPDPSW}), 2010 {IEEE} {International} {Symposium} on},
@@ -3890,7 +3900,7 @@
 }
 
 @Misc{www-azure-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Introduction to {Azure} {Storage} {\textbar} {Microsoft} {Docs}},
 
   File                     = {Introduction to Azure Storage | Microsoft Docs:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/BTZMRECE/storage-introduction.html:text/html},
@@ -3901,7 +3911,7 @@
 }
 
 @Misc{www-azure-2,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Get started with {Azure} {Blob} storage (object storage) using .{NET} {\textbar} {Microsoft} {Docs}},
 
   File                     = {Get started with Azure Blob storage (object storage) using .NET | Microsoft Docs:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/SQTQ93PE/storage-dotnet-how-to-use-blobs.html:text/html},
@@ -3912,7 +3922,7 @@
 }
 
 @Misc{www-jelastic-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Grow {Hosting} {Business} with {Software} {Platform}},
 
   Abstract                 = {Start selling PaaS, elastic VPS, Docker hosting and hundreds of prepackaged applications to your customers based on your infrastructure},
@@ -3925,7 +3935,7 @@
 }
 
 @Misc{www-openvz-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Features},
 
   Abstract                 = {The architecture of OpenVZ is different from the traditional virtual machines architecture because it always runs the same OS kernel as the host system (while still allowing multiple Linux distributions in individual containers). This single-kernel implementation technology enables running containers with a near-zero overhead. Thus, OpenVZ offer an order of magnitude higher efficiency and manageability than traditional virtualization technologies.},
@@ -3938,7 +3948,7 @@
 }
 
 @Misc{www-openvz-2,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {How {To} {Create} {OpenVZ} {Container} {In} {OpenVZ} {\textbar} {Unixmen}},
 
   File                     = {How To Create OpenVZ Container In OpenVZ | Unixmen:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/3Z98XPQE/how-to-create-openvz-container-in-openvz.html:text/html},
@@ -3949,7 +3959,7 @@
 }
 
 @Misc{www-plasma-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {{PLASMA} {README}},
 
   File                     = {PLASMA README:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/Z8AFSTCV/README.html:text/html},
@@ -3960,7 +3970,7 @@
 }
 
 @Misc{www-samza-1,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Samza},
 
   File                     = {Samza:/home/bigdata/.mozilla/firefox/2hrphxfh.default/zotero/storage/M69KPS8X/samza.apache.org.html:text/html},
@@ -3971,7 +3981,7 @@
 }
 
 @Misc{www-samza-2,
-  review = {},
+  review = {For this article, the author,year and month field are given and should be updated in the reference},
   Title                    = {How {LinkedIn} {Uses} {Apache} {Samza}},
 
   Abstract                 = {Apache Samza is a stream processor LinkedIn recently open-sourced. In his presentation, Samza: Real-time Stream Processing at LinkedIn, Chris Riccomini discusses Samza's feature set, how Samza integrates with YARN and Kafka, how it's used at LinkedIn, and what's next on the roadmap.},
@@ -3984,7 +3994,7 @@
 }
 
 @Misc{www-openvz-3,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {{OpenVZ}},
   Month                    = feb,
   Note                     = {Page Version ID: 764498783},
@@ -4002,7 +4012,7 @@
 }
 
 @Misc{www-samza-3,
-  review = {},
+  review = {Since this entry does not have an author, a key field should be included},
   Title                    = {Apache {Samza}},
   Month                    = feb,
   Note                     = {Page Version ID: 764035647},
@@ -4020,7 +4030,7 @@
 }
 
 @Misc{www-jelastic-2,
-  review = {},
+  review = {Looks good},
   Title                    = {Jelastic},
   Month                    = dec,
   Note                     = {Page Version ID: 754931676},
@@ -4038,7 +4048,7 @@
 }
 
 @Misc{www-samza-4,
-  review = {},
+  review = {Need to include the author of this post},
   Title                    = {Apache {Samza}, {LinkedIn}'s {Framework} for {Stream} {Processing}},
   Month                    = jan,
   Year                     = {2015},
@@ -4053,7 +4063,7 @@
 }
 
 @Misc{www-azure-3,
-  review = {},
+  review = {Need to include the author of this post},
   Title                    = {An {Introduction} to {Windows} {Azure} {BLOB} {Storage}},
   Month                    = jul,
   Year                     = {2013},
@@ -4065,6 +4075,158 @@
   howpublished             = {Web Page},
   Url                      = {https://www.simple-talk.com/cloud/cloud-data/an-introduction-to-windows-azure-blob-storage/},
   Urldate                  = {2017-02-13}
+}
+
+@Misc{www-jupyter-1,
+  Title                    = {Project {Jupyter}},
+  HowPublished             = {Web page},
+
+  Abstract                 = {The Jupyter Notebook is a web-based interactive computing platform. The notebook combines live code, equations, narrative text, visualizations, interactive dashboards and other media.},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/B3BVIEB5/www-jupyter-1.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {http://www.jupyter.org},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-2,
+  Title                    = {{GitHub} - jupyter/jupyter: {Jupyter} metapackage for installation, docs and chat},
+  HowPublished             = {Web page},
+
+  File                     = {GitHub - jupyter/jupyter\: Jupyter metapackage for installation, docs and chat:.mozilla/firefox/2hrphxfh.default/zotero/storage/R2XKBGSV/www-jupyter-2.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://github.com/jupyter/jupyter},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-3,
+  Title                    = {{GitHub} - jupyter/notebook: {Jupyter Interactive Notebook}},
+  HowPublished             = {Web page},
+
+  File                     = {GitHub - jupyter/notebook\: Jupyter Interactive Notebook:.mozilla/firefox/2hrphxfh.default/zotero/storage/GJ8RKRKQ/www-jupyter-3.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://github.com/jupyter/notebook},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-4,
+  Title                    = {The {Jupyter} notebook --- {Jupyter Notebook} 5.0.0.dev documentation},
+  HowPublished             = {Web page},
+
+  File                     = {The Jupyter notebook — Jupyter Notebook 5.0.0.dev documentation:.mozilla/firefox/2hrphxfh.default/zotero/storage/AHIFS4UX/www-jupyter-4.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://jupyter-notebook.readthedocs.io/en/latest/index.html},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-6,
+  Title                    = {What is the {Jupyter Notebook}? --- {Jupyter Notebook} 5.0.0.dev documentation},
+  HowPublished             = {Web page},
+
+  File                     = {What is the Jupyter Notebook? — Jupyter Notebook 5.0.0.dev documentation:.mozilla/firefox/2hrphxfh.default/zotero/storage/23UVZM28/www-jupyter-6.html:URL},
+  Owner                    = {S17-IR-2004},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-jupyter-5,
+  Title                    = {{IPython}},
+  HowPublished             = {Web page},
+  Month                    = feb,
+  Note                     = {Page Version ID: 767266837},
+  Year                     = {2017},
+
+  Abstract                 = {IPython is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers introspection, rich media, shell syntax, tab completion, and history. IPython provides the following features:
+Interactive shells (terminal and Qt-based).
+A browser-based notebook with support for code, text, mathematical expressions, inline plots and other media.
+Support for interactive data visualization and use of GUI toolkits.
+Flexible, embeddable interpreters to load into one's own projects.
+Tools for parallel computing.},
+  Copyright                = {Creative Commons Attribution-ShareAlike License},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/SSC6FZIS/www-jupyter-5.html:URL},
+  Journal                  = {Wikipedia},
+  Language                 = {en},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://en.wikipedia.org/w/index.php?title=IPython&oldid=767266837},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-1,
+  Title                    = {Kibana: {Explore}, {Visualize}, {Discover Data \textbar Elastic}},
+  HowPublished             = {Web Page},
+
+  File                     = {Kibana\: Explore, Visualize, Discover Data | Elastic:.mozilla/firefox/2hrphxfh.default/zotero/storage/QMD66XZJ/www-kibana-1.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://www.elastic.co/products/kibana},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-2,
+  Title                    = {{GitHub} - elastic/kibana: {Kibana} analytics and search dashboard for {Elasticsearch}},
+  HowPublished             = {Web Page},
+
+  File                     = {GitHub - elastic/kibana\: Kibana analytics and search dashboard for Elasticsearch:.mozilla/firefox/2hrphxfh.default/zotero/storage/CFE2ACM8/www-kibana-2.html:URL},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://github.com/elastic/kibana},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-3,
+  Title                    = {How {To Use Logstash} and {Kibana To Centralize Logs On Ubuntu} 14.04},
+  HowPublished             = {Web Page},
+
+  Abstract                 = {In this tutorial, we will go over the installation of Logstash 1.4.2 and Kibana 3, and how to configure them to gather and visualize the syslogs of our systems in a centralized location. Logstash is an open source tool for collecting, parsing, and sto},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/GTX95JB8/www-kibana-3.html:URL},
+  Journal                  = {DigitalOcean},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-6,
+  Title                    = {Introduction {\textbar Kibana User Guide} [5.2] {\textbar Elastic}},
+  HowPublished             = {Web Page},
+
+  Abstract                 = {Get started with the documentation for Elasticsearch, Kibana, Logstash, Beats, X-Pack, Elastic Cloud, Elasticsearch for Apache Hadoop, and our language clients.,},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/V5NC2MQM/www-kibana-6.html:URL},
+  Owner                    = {S17-IR-2004},
+  Type                     = {Docs/{Kibana}/{Reference}/5.2},
+  Url                      = {https://www.elastic.co/guide/en/kibana/current/introduction.html},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-4,
+  Title                    = {Elasticsearch},
+  HowPublished             = {Web Page},
+  Month                    = feb,
+  Note                     = {Page Version ID: 767434249},
+  Year                     = {2017},
+
+  Abstract                 = {Elasticsearch is a search engine based on Lucene. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java and is released as open source under the terms of the Apache License. Official clients are available in Java, .NET (C\#), Python, Groovy and many other languages. Elasticsearch is the most popular enterprise search engine followed by Apache Solr, also based on Lucene.
+It is developed alongside a data collection and log parsing engine called Logstash, and an analytics and visualization platform called Kibana. The three products are designed to be used as an integrated solution, referred to as the "ELK stack".},
+  Copyright                = {Creative Commons Attribution-ShareAlike License},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/RDU93TT5/www-kibana-4.html:URL},
+  Journal                  = {Wikipedia},
+  Language                 = {en},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://en.wikipedia.org/w/index.php?title=Elasticsearch&oldid=767434249},
+  Urldate                  = {2017-02-27}
+}
+
+@Misc{www-kibana-5,
+  Title                    = {Kibana},
+  HowPublished             = {Web Page},
+  Month                    = feb,
+  Note                     = {Page Version ID: 767434139},
+  Year                     = {2017},
+
+  Abstract                 = {Kibana is an open source data visualization plugin for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Users can create bar, line and scatter plots, or pie charts and maps on top of large volumes of data.
+The combination of Elasticsearch, Logstash, and Kibana (also known as ELK stack or Elastic stack) is available as products or service. Logstash provides an input stream to Elastic for storage and search, and Kibana accesses the data for visualizations such as dashboards.},
+  Copyright                = {Creative Commons Attribution-ShareAlike License},
+  File                     = {Snapshot:.mozilla/firefox/2hrphxfh.default/zotero/storage/H8JHD23K/www-kibana-5.html:URL},
+  Journal                  = {Wikipedia},
+  Language                 = {en},
+  Owner                    = {S17-IR-2004},
+  Url                      = {https://en.wikipedia.org/w/index.php?title=Kibana&oldid=767434139},
+  Urldate                  = {2017-02-27}
 }
 
 % S17-IR-2006
@@ -4142,6 +4304,37 @@
   note         = {Accessed: 2017-01-28},
   url          = {http://gemfire.docs.pivotal.io/gemfire/getting_started/gemfire_overview.html},
   owner        = {S17-IR-2006}
+}
+
+@article{article-pybrain,
+ review = {},
+ author = {Tom Schaul and Justin Bayer and Daan Wierstra and Yi Sun and Martin Felder and Frank Sehnke and Thomas R\"{u}ckstie\ss and J\"{u}rgen Schmidhuber},
+ title = {PyBrain},
+ editor = {Soeren Sonnenburg},
+ journal = {Journal of Machine Learning Research},
+ volume = {11},
+ month = mar,
+ year = {2010},
+ issn = {1532-4435},
+ pages = {743--746},
+ numpages = {4},
+ url = {http://dl.acm.org/citation.cfm?id=1756006.1756030},
+ publisher = {JMLR.org},
+ owner = {S17-IR-2006}
+} 
+
+@Misc{www-engineyard,
+review = {},
+author = {Dan Sullivan},
+title = {Paas Provider Comparison Guide: Engine Yard - Orchestration and Management},
+month =jul,
+year ={2013},
+journal ={Cloud Computing},
+publisher ={tomsitpro.com},
+url={http://www.tomsitpro.com/articles/paas-engine-yard-amazon-elastic-cloud-computing,2-578.html},
+howpublished = {Article},
+note = {Accessed: 02-26-2017},
+owner ={S17-IR-2006}
 }
 
 % S17-IR-2008
@@ -6236,7 +6429,7 @@ note = {Accessed:2017-02-15},
 
 
 % S17-IR-2029
-
+% Fixed review comments on Feb-27-2017
 @InProceedings{giraffePaper,
   review = {Kindly remove RST citations command on line 12},
   Title =	 {GIRAFFE: A Scalable Distributed Coordination Service
@@ -6259,15 +6452,16 @@ note = {Accessed:2017-02-15},
                   like Zookeeper and Chubby which were efficient only
                   in read-intensive scenario and small ensembles. To
                   overcome this three important aspects were included
-                  in the design of Giraffe :cite:`giraffePaper`. First
-                  feature is Giraffe uses interior-node joint trees to
-                  organize coordination servers for better
-                  scalability. Second, Giraffe uses Paxos protocol for
-                  better consistency and to provide more
-                  fault-tolerance. Finally, Giraffe also facilitates
-                  hierarchical data organization and in-memory storage
-                  for high throughput and low latency.},
+                  in the design of Giraffe. First feature is Giraffe
+                  uses interior-node joint trees to organize
+                  coordination servers for better scalability. Second,
+                  Giraffe uses Paxos protocol for better consistency
+                  and to provide more fault-tolerance. Finally,
+                  Giraffe also facilitates hierarchical data
+                  organization and in-memory storage for high
+                  throughput and low latency.},
   Owner =	 {S17-IR-2029},
+  Note         = {Accessed: 2017-2-27},
   Url =		 {http://www.mcs.anl.gov/papers/P5157-0714.pdf}
 }
 
@@ -6284,6 +6478,7 @@ note = {Accessed:2017-02-15},
   Month =	 jun,
   Pages =	 {1-14},
   Owner =	 {S17-IR-2029},
+  Note         = {Accessed: 2017-2-27},
   Url =          {http://iss.ices.utexas.edu/Publications/Papers/pingali11.pdf},
 }
 
@@ -6294,29 +6489,28 @@ note = {Accessed:2017-02-15},
   Author       = {C.J. Gronlund and Gary Ericson and Larry Francs and Paulette McKay},
   Year =	 {2017},
   Month =	 jan,
-  Note         = {Accessed: 2017-2-19},
+  Note         = {Accessed: 2017-2-27},
   Abstract =	 {Azure Machine Learning is a cloud based service that
                   can be used to do predictive analytics, machine
-                  learning or datya mining. It has features like
+                  learning or data mining. It has features like
                   in-built algorithm library, machine learning studio
-                  and a webservice :cite:`www-azureMLSite`. In built
-                  algorithm library has implementation of various
-                  popular machine learning algorithms like decision
-                  tree, SVM, linear regression, neural networks
-                  etc. Machine learning studio facilitates creation of
-                  predictive models using graphical user interface by
-                  dragging, dropping and connecting of different
-                  modules that can be used by people with minimal
-                  knowledge in the machine learning field. Machine
-                  learning studio is a free service for basic version
-                  and comes with a monthly charge for advanced
-                  versions. Apart from building models, studio also
-                  has options to do preprocessing like clean,
-                  transform and normalize the data. Webservice
-                  provides option to deploy the machine learning
-                  algorithm as ready to consume APIs that can be
-                  reused in future with minimal effort and can also be
-                  published.},
+                  and a webservice. In built algorithm library has
+                  implementation of various popular machine learning
+                  algorithms like decision tree, SVM, linear
+                  regression, neural networks etc. Machine learning
+                  studio facilitates creation of predictive models
+                  using graphical user interface by dragging, dropping
+                  and connecting of different modules that can be used
+                  by people with minimal knowledge in the machine
+                  learning field. Machine learning studio is a free
+                  service for basic version and comes with a monthly
+                  charge for advanced versions. Apart from building
+                  models, studio also has options to do preprocessing
+                  like clean, transform and normalize the
+                  data. Webservice provides option to deploy the
+                  machine learning algorithm as ready to consume APIs
+                  that can be reused in future with minimal effort and
+                  can also be published.},
   Owner =	 {S17-IR-2029},
   Url =
                   {https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-what-is-machine-learning#what-is-machine-learning-in-the-microsoft-azure-cloud},
@@ -6327,24 +6521,24 @@ note = {Accessed:2017-02-15},
   Title =	 {Galois website},
   Author       = {ISS team - {University of Texas}},
   HowPublished = {Web Page},
-  Note =	 {Accessed: 2017-2-19},
+  Note =	 {Accessed: 2017-2-27},
   Abstract =	 {Galois system was built by intelligent software
                   systems team at University of Texas, Austin. As
-                  explained in :cite:`www-galoisSite`, ``Galois is a
-                  system that automatically executes ''Galoized''
-                  serial C++ or Java code in parallel on shared-memory
-                  machines. It works by exploiting amorphous
-                  data-parallelism, which is present even in irregular
-                  codes that are organized around pointer-based data
-                  structures such as graphs and trees''. By using
-                  Galois provided data structures programmers can
-                  write serial programs that gives the performance of
-                  parallel execution. Galois employs annotations at
-                  loop levels to understand correct context during
-                  concurrent execution and executes the code that
-                  could be run in parallel. The key idea behind Galois
-                  is Tao-analysis, in which parallelism is exploited
-                  at compile time rather than at run time by creating
+                  explained in website, ``Galois is a system that
+                  automatically executes ''Galoized'' serial C++ or
+                  Java code in parallel on shared-memory machines. It
+                  works by exploiting amorphous data-parallelism,
+                  which is present even in irregular codes that are
+                  organized around pointer-based data structures such
+                  as graphs and trees''. By using Galois provided data
+                  structures programmers can write serial programs
+                  that gives the performance of parallel
+                  execution. Galois employs annotations at loop levels
+                  to understand correct context during concurrent
+                  execution and executes the code that could be run in
+                  parallel. The key idea behind Galois is
+                  Tao-analysis, in which parallelism is exploited at
+                  compile time rather than at run time by creating
                   operators equivalent of the code by employing data
                   driven local computation algorithm
                   :cite:`taoParallelismPaper`. Galois currently
@@ -6361,10 +6555,10 @@ note = {Accessed:2017-02-15},
   HowPublished = {Web Page},
   Year =	 {2015},
   Month =	 nov,
-  Note =	 {Accessed: 2017-1-28},
+  Note =	 {Accessed: 2017-2-27},
   Abstract =	 {The Australian based cloud computing platform has
                   shut down their services since January 30,
-                  2016. Refer :cite:`www-ninefoldSite`},
+                  2016.},
   Owner =	 {S17-IR-2029},
   Url =		 { http://ninefold.com/news/}
 }
@@ -6376,11 +6570,10 @@ note = {Accessed:2017-02-15},
   HowPublished = {Web Page},
   Year =	 {2015},
   Month =	 apr,
-  Note =	 {Accessed: 2017-1-28},
+  Note =	 {Accessed: 2017-2-27},
   Abstract =	 {Though originally developed for Linux, SLURM also
                   provides full support on platforms like AIX,
-                  FreeBSD, NetBSD and Solaris
-                  :cite:`www-slurmPlatformsSite`},
+                  FreeBSD, NetBSD and Solaris},
   Owner =	 {S17-IR-2029},
   Url =		 {https://slurm.schedmd.com/platforms.html}
 }
@@ -6392,25 +6585,25 @@ note = {Accessed:2017-02-15},
   HowPublished = {Web Page},
   Year =	 {2013},
   Month =	 mar,
-  Note =	 {Accessed: 2017-1-28},
+  Note =	 {Accessed: 2017-2-27},
   Abstract =	 {Simple Linux Utility for Resource Management (SLURM)
                   workload manager is an open source, scalable cluster
                   resource management tool used for job scheduling in
                   small to large Linux cluster using multi-core
-                  architecture. As per, :cite:`www-slurmSchedmdSite`
-                  SLURM has three key functions. First, it allocates
-                  resources to users for some duration with exclusive
-                  and/or non-exclusive access. Second, it enables
-                  users to start, execute and monitor jobs on the
-                  resources allocated to them. Finally, it
-                  intermediates to resolve conflicts on resources for
-                  pending work by maintaining them in a queue. The
-                  slurm architecture has following components: a
-                  centralized manager to monitor resources and work,
-                  may have a backup manager, daemon on each server to
-                  provide fault-tolerant communications, an optional
-                  daemon for clusters with multiple mangers and tools
-                  to initiate, terminate and report about jobs in a
+                  architecture. As per, SLURM has three key
+                  functions. First, it allocates resources to users
+                  for some duration with exclusive and/or
+                  non-exclusive access. Second, it enables users to
+                  start, execute and monitor jobs on the resources
+                  allocated to them. Finally, it intermediates to
+                  resolve conflicts on resources for pending work by
+                  maintaining them in a queue. The slurm architecture
+                  has following components: a centralized manager to
+                  monitor resources and work, may have a backup
+                  manager, daemon on each server to provide
+                  fault-tolerant communications, an optional daemon
+                  for clusters with multiple mangers and tools to
+                  initiate, terminate and report about jobs in a
                   graphical view with network topology. It also
                   provides around twenty additional plugins that could
                   be used for functionalities like accounting,
@@ -6418,6 +6611,174 @@ note = {Accessed:2017-02-15},
                   scheduling and multifactor job prioritization.},
   Owner =	 {S17-IR-2029},
   Url =		 {https://slurm.schedmd.com/overview.html}
+}
+
+% Entries for techlist 2 and 1d. Moved to S17-IR-2029 section from bottom of bib file.
+@Misc{www-sniawebsite,
+  review = {},
+  author       = {Storage Networking Industry Association},
+  title        = {About the {SNIA}},
+  publisher    = {snia.org},
+  howpublished = {Web Page},
+  url          = {https://www.snia.org/about},
+  owner        = {S17-IR-2029},
+  note         = {Accessed: 2017-2-27},
+  abstract     = {The Storage Networking Industry Association (SNIA) is
+                  a non-profit organization formed by various
+                  companies, suppliers and consumers of data storage
+                  and network products. SNIA defines various standards
+                  to ensure the quality and interoperability of
+                  various storage systems. One of the standards
+                  defined by SNIA is Cloud Data Management Interface
+                  (CDMI). According latest issue of CDMI, “CDMI
+                  International Standard is intended for application
+                  developers who are implementing or using cloud
+                  storage. It documents how to access cloud storage
+                  and to manage the data stored there.” It defines
+                  functional interface for applications that will use
+                  cloud for various functionalities like create,
+                  retrieve, update and delete data elements from the
+                  cloud. These interface could be used to manage
+                  containers along with the data. The interface could
+                  be used by administrative and management
+                  applications as well. Also, the CDMI specification
+                  uses RESTful principles in the interface design. All
+                  the standards issued on CDMI can be found on SNIA
+                  web page.},
+}
+
+@Manual{cdmi-manual,
+  review = {},
+  title        = {Cloud Data Management Interface},
+  author       = {Storage Networking Industry Association},
+  organization = {Storage Networking Industry Association},
+  address      = {Colorado Springs, CO},
+  edition      = {1.1.1},
+  month        = mar,
+  year         = {2015},
+  note         = {Accessed: 2017-2-27},
+  abstract     = {The Storage Networking Industry Association (SNIA)
+                  is a non-profit organization formed by various
+                  companies, suppliers and consumers of data storage
+                  and network products. SNIA defines various standards
+                  to ensure the quality and interoperability of
+                  various storage systems. One of the standards
+                  defined by SNIA is Cloud Data Management Interface
+                  (CDMI). According latest issue of CDMI, “CDMI
+                  International Standard is intended for application
+                  developers who are implementing or using cloud
+                  storage. It documents how to access cloud storage
+                  and to manage the data stored there.” It defines
+                  functional interface for applications that will use
+                  cloud for various functionalities like create,
+                  retrieve, update and delete data elements from the
+                  cloud. These interface could be used to manage
+                  containers along with the data. The interface could
+                  be used by administrative and management
+                  applications as well. Also, the CDMI specification
+                  uses RESTful principles in the interface design. All
+                  the standards issued on CDMI can be found on SNIA
+                  web page.},
+  owner        = {S17-IR-2029},
+  url          = {https://www.snia.org/sites/default/files/CDMI_Spec_v1.1.1.pdf},
+}
+
+@Misc{www-cdmiwebsite,
+  review = {},
+  author       = {Storage Networking Industry Association},
+  title        = {Cloud Data Management Interface},
+  publisher    = {snia.org},
+  month        = mar,
+  year         = {2015},
+  howpublished = {Web Page},
+  url          = {https://www.snia.org/cdmi},
+  owner        = {S17-IR-2029},
+  note         = {Accessed: 2017-2-27},
+  abstract     = {The Storage Networking Industry Association (SNIA)
+                  is a non-profit organization formed by various
+                  companies, suppliers and consumers of data storage
+                  and network products. SNIA defines various standards
+                  to ensure the quality and interoperability of
+                  various storage systems. One of the standards
+                  defined by SNIA is Cloud Data Management Interface
+                  (CDMI). According latest issue of CDMI, “CDMI
+                  International Standard is intended for application
+                  developers who are implementing or using cloud
+                  storage. It documents how to access cloud storage
+                  and to manage the data stored there.” It defines
+                  functional interface for applications that will use
+                  cloud for various functionalities like create,
+                  retrieve, update and delete data elements from the
+                  cloud. These interface could be used to manage
+                  containers along with the data. The interface could
+                  be used by administrative and management
+                  applications as well. Also, the CDMI specification
+                  uses RESTful principles in the interface design. All
+                  the standards issued on CDMI can be found on SNIA
+                  web page.},
+}
+
+@Misc{www-ironicwebsite,
+  review = {},
+author       = {Devananda Van Der Veen and Llama  Wrangler},
+title        = {Introduction to {Ironic}},
+publisher    = {OpenStack.org},
+month        = mar,
+year         = {2015},
+howpublished = {Web Page},
+url          = {https://docs.openstack.org/developer/ironic/deploy/user-guide.html},
+owner        = {S17-IR-2029},
+note         = {Accessed: 2017-2-27},
+abstract     = {Ironic project is developed and supported by
+                  OpenStack. Ironic provisions bare metal machines
+                  instead of virtual machines and functions as
+                  hypervisor API that is developed using open source
+                  technologies like Preboot Execution Environment
+                  (PXE), Dynamic Host Configuration Protocol (DHCP),
+                  Network Bootstrap Program (NBP), Trivial File
+                  Transfer Protocol (TFTP) and Intelligent Platform
+                  Management Interface (IPMI). A properly configured
+                  Bare Metal service with the Compute and Network
+                  services, could provision both virtual and physical
+                  machines through the Compute service’s API. But, the
+                  number of instance actions are limited, due to
+                  physical servers and switch hardware. For example,
+                  live migration is not possible on a bare metal
+                  instance. The Ironic service has five key
+                  components. A RESTful API service, through which
+                  other components would interact with the bare metal
+                  servers, a Conductor service, various drivers,
+                  messaging queue and a database. Ironic could be
+                  integrated with other OpenStack projects like
+                  Identity (keystone), Compute (nova), Network
+                  (neutron), Image (glance) and Object (swift)
+                  services.},
+}
+
+@Misc{www-zeppelinwebsite,
+  review = {},
+  author       = {Apache Zeppelin},
+  title        = {Apache Zeppelin 0.7.0 Documentation},
+  publisher    = {zeppelin.apache.org},
+  month        = feb,
+  year         = {2017},
+  howpublished = {Web Page},
+  url          = {https://zeppelin.apache.org/docs/0.7.0/},
+  owner        = {S17-IR-2029},
+  note         = {Accessed: 2017-2-27},
+  abstract     = {Apache Zeppelin provides an interactive environment
+                  for big data data analytics on applications using
+                  distributed data processing system like Hadoop and
+                  Spark. It supports various tasks like data
+                  ingestion, data discovery, data visualization, data
+                  analytics and collaboration. Apache Zeppelin
+                  provides built-in Apache Spark integration and is
+                  compatible with many languages/data-processing
+                  backends like Python, R, SQL, Cassandra and JDBC. It
+                  also supports adding new language backend. Zeppelin
+                  lets users to collaborate by sharing their
+                  Notebooks, Paragraph and has option to broadcast any
+                  changes in realtime.},
 }
 
 % S17-IR-2030
@@ -6892,7 +7253,7 @@ GPUs},
 % S17-IR-2035
 
 @Misc{www-odbc,
-  review = {},
+  review = {Should have an author field stating Author = {Wikipedia}. If the author field is missing, you need to add the Key attribute to override the order for the bib entry. You could add the last modified date of the wikipedia page as the month/year entry},
 	title = {Open Database Connectivity},
 	howpublished = {Web Page},
 	note = {Accessed: 2017-1-30},
@@ -6901,7 +7262,7 @@ GPUs},
 }
 
 @Misc{www-jdbc,
-  review = {},
+  review = {Should have an author field stating Author = {Wikipedia}. If the author field is missing, you need to add the Key attribute to override the order for the bib entry. You could add the last modified date of the wikipedia page as the month/year entry},
 	title = {Java Database Connectivity},
 	howpublished = {Web Page},
 	note = {Accessed: 2017-1-30},
@@ -6910,7 +7271,7 @@ GPUs},
 }
 
 @inproceedings{paper-f4,
-  review = {},
+  review = {Issue with author names. Unless the last name has spaces, it should be first name followed by the last name and no ,(commas). Pages attribute shall have only a single - in between page numbers. ISBN/ISSN is missing},
   title={f4: Facebook’s warm blob storage system},
   author={Muralidhar, Subramanian and Lloyd, Wyatt and Roy, Sabyasachi
                   and Hill, Cory and Lin, Ernest and Liu, Weiwen and
@@ -6924,7 +7285,7 @@ GPUs},
 }
 
 @Misc{www-pgx,
-  review = {},
+  review = {Missing Key attribute. If the author field is missing, you need to add the Key attribute to override the order for the bib entry},
 	title = {Oracle Labs PGX},
 	howpublished = {Web Page},
 	note = {Accessed: 2017-02-07},
@@ -6933,7 +7294,7 @@ GPUs},
 }
 
 @Misc{www-ora,
-  review = {},
+  review = {Missing Key attribute. If the author field is missing, you need to add the Key attribute to override the order for the bib entry},
 	title = {Parallel Graph Analytics (PGX)},
 	howpublished = {Web Page},
 	note = {Accessed: 2017-02-11},
@@ -6942,7 +7303,7 @@ GPUs},
 }
 
 @inproceedings{paper-eucalyptus,
-  review = {},
+  review = {Issue with author names. Unless the last name has spaces, it should be first name followed by the last name and no ,(commas). Pages attribute shall have only a single - in between page numbers. ISBN/ISSN is missing},
   title={The eucalyptus open-source cloud-computing system},
   author={Nurmi, Daniel and Wolski, Rich and Grzegorczyk, Chris and
                   Obertelli, Graziano and Soman, Sunil and Youseff,
@@ -6955,7 +7316,7 @@ GPUs},
 }
 
 @Misc{www-eucalyptus,
-  review = {},
+  review = {Missing Key attribute. If the author field is missing, you need to add the Key attribute to override the order for the bib entry},
 	title = {The Eucalyptus Open-Source Private Cloud},
 	howpublished = {Web Page},
 	note = {Accessed: 2017-02-11},
@@ -6964,7 +7325,7 @@ GPUs},
 }
 
 @Misc{www-d3,
-  review = {},
+  review = {Missing Key attribute. If the author field is missing, you need to add the Key attribute to override the order for the bib entry},
 	title = {D3 Data-Driven Documents},
 	howpublished = {Web Page},
 	note = {Accessed: 2017-02-11},
@@ -7263,7 +7624,14 @@ GPUs},
 % S17-IR-2038
 
 @Book{www-terraform-book,
-  review = {},
+  review = {The Publisher field could just contain the name of
+            the publisher. You could have added separate field
+            for edition with its value and even month field to
+            have November as the value for it. The address of
+            the author could be listed under the address
+            field. Asin field could have also been added. Url
+            field where the book is listed must be added as
+            well},
   Title                    = {The Terraform Book},
   Author                   = {James Turnbull},
   Publisher                = {Turnbull Press; 110 edition (November 26, 2016)},
@@ -7275,7 +7643,13 @@ GPUs},
 }
 
 @Misc{www-Terraform,
-  review = {},
+  review = {No need to put the entire word Terraform in the
+            braces. Since author field is not present, it should
+            contain key field. Key field is used for
+            alphabetizing and creating a label when the "author"
+            and "editor" fields are missing. Note field is also
+            missing. Note field should have value = Accessed:
+            2017-xx-xx denoting the date value},
   Title                    = {{Terraform} components},
   HowPublished             = {Web Page},
 
@@ -7285,7 +7659,10 @@ GPUs},
 }
 
 @Misc{www-H20-website,
-  review = {},
+  review = {Since no author field, key field can be added. Note
+            field displaying information about when the url was
+            accessed is also missing. No need for braces in the
+            H20 website documentation},
   Title                    = {{H20 Website Documentation} components},
   HowPublished             = {Web Page},
 
@@ -7295,7 +7672,13 @@ GPUs},
 }
 
 @Misc{www-H20-wiki,
-  review = {},
+  review = {Key field is missing since author is not
+            present. Key field is used for alphabetizing and
+            creating a label when the "author" and "editor"
+            fields are missing. Also the note field is missing
+            as well. Can remove the extra braces from the title
+            field. Can even validate the source from wiki since
+            wiki reference are mostly incorrect},
   Title                    = {{H2O Wikipedia Documentation} components},
   HowPublished             = {Web Page},
 
@@ -7305,7 +7688,11 @@ GPUs},
 }
 
 @Book{www-H2O-book,
-  review = {},
+  review = {Edition information is missing. Date field is also
+            missing. Date when the book was published. Month
+            field is also missing. Pages field is missing which
+            represents which pages where used as a
+            reference. ISBN number field is also missing},
   Title                    = {Practical Machine Learning with H2O},
   Author                   = {Darren Cook},
   Publisher                = {O'Reilley Media},
@@ -7317,7 +7704,9 @@ GPUs},
 }
 
 @Misc{www-KVM-wiki,
-  review = {},
+  review = {Note field is missing having the when accessed
+            information. Key field is also missing since author
+            field is not there},
   Title                    = {KVM Wikipedia Documentation},
   HowPublished             = {Web Page},
   
@@ -7327,7 +7716,9 @@ GPUs},
 }
 
 @Misc{www-KVM-webpage,
-  review = {},
+  review = {Key field is missing and note field is missing.Key
+            field is used for alphabetizing and creating a label
+            when the "author" and "editor" fields are missing},
   Title                    = {KVM webpage documentation},
   HowPublished             = {Web Page},
 
@@ -7337,7 +7728,13 @@ GPUs},
 }
   
 @Book{www-cloudfoundry-book,
-  review = {},
+  review = {Edition information is missing. Date field is also
+            missing. Date when the book was published. Author
+            name is in incorrect format. Either it should be
+            firstname lastname or lastname, fistname like Winn,
+            Duncan C.E. .Pages field is missing which represents
+            which pages where used as a reference. ISBN number
+            field is also missing. The number is 1491965762 },
   Title                    = {Cloud Foundry-The Cloud Native Platform},
   Author                   = {Duncan C.E Winn},
   Publisher                = {O'Reilley Media},
@@ -7349,7 +7746,17 @@ GPUs},
 }
 
 @Misc{www-cloudfoundry-blog,
-  review = {},
+  review = {Key field is missing. Key field is used for
+            alphabetizing and creating a label when the "author"
+            and "editor" fields are missing. Note field is also
+            missing have the accessed information. Moreover,
+            since it is a blog, HowPublished field's value
+            should be "Blog". Month and year fields are also
+            missing. Month - month is which the blog was
+            published. Year - year in which the blog was
+            published. month should contain only 3 characters of
+            the month name and it should be without braces as
+            well},
   Title                    = {Cloud Foundry Blog},
   HowPublished             = {Web Page},
 
@@ -7359,7 +7766,10 @@ GPUs},
 }
 
 @Misc{www-cloudbees-wiki,
-  review = {},
+  review = {Key field is missing. Key field is used for
+            alphabetizing and creating a label when the "author"
+            and "editor" fields are missing. Note field is
+            missing as well},
   Title                    = {Cloudbees Wikipedia Documentation},
   HowPublished             = {Web Page},
 
@@ -7369,7 +7779,13 @@ GPUs},
 }
 
 @Misc{www-cloudbees-webpage,
-  review = {},
+  review = {Note field is missing which has the accessed
+            information.Key field is also missing which is used
+            for alphabetizing and creating a label when the
+            "author" and "editor" fields are missing. Title is
+            inaccurate. Title should be Cloudbees Jenkins
+            Platform as the url is related to Jenkins platform
+            of cloudbees },
   Title                    = {Cloudbees Webpage Documentation},
   HowPublished             = {Web Page},
 
@@ -8278,172 +8694,6 @@ it were running on a single, huge computer" as swarm can be scaled upto
   url          = {www.talend.com},
 }
 
-@Misc{www-sniawebsite,
-  review = {},
-  author       = {Storage Networking Industry Association},
-  title        = {About the {SNIA}},
-  publisher    = {snia.org},
-  howpublished = {Web Page},
-  url          = {https://www.snia.org/about},
-  owner        = {S17-IR-2029},
-  note         = {Accessed: 02-19-2017},
-  abstract     = {The Storage Networking Industry Association (SNIA) is
-                  a non-profit organization formed by various
-                  companies, suppliers and consumers of data storage
-                  and network products. SNIA defines various standards
-                  to ensure the quality and interoperability of
-                  various storage systems. One of the standards
-                  defined by SNIA is Cloud Data Management Interface
-                  (CDMI). According latest issue of CDMI, “CDMI
-                  International Standard is intended for application
-                  developers who are implementing or using cloud
-                  storage. It documents how to access cloud storage
-                  and to manage the data stored there.” It defines
-                  functional interface for applications that will use
-                  cloud for various functionalities like create,
-                  retrieve, update and delete data elements from the
-                  cloud. These interface could be used to manage
-                  containers along with the data. The interface could
-                  be used by administrative and management
-                  applications as well. Also, the CDMI specification
-                  uses RESTful principles in the interface design. All
-                  the standards issued on CDMI can be found on SNIA
-                  web page.},
-}
-
-@Manual{cdmi-manual,
-  review = {},
-  title        = {Cloud Data Management Interface},
-  author       = {Storage Networking Industry Association},
-  organization = {Storage Networking Industry Association},
-  address      = {Colorado Springs, CO},
-  edition      = {1.1.1},
-  month        = mar,
-  year         = {2015},
-  note         = {Accessed: 2017-02-19},
-  abstract     = {The Storage Networking Industry Association (SNIA)
-                  is a non-profit organization formed by various
-                  companies, suppliers and consumers of data storage
-                  and network products. SNIA defines various standards
-                  to ensure the quality and interoperability of
-                  various storage systems. One of the standards
-                  defined by SNIA is Cloud Data Management Interface
-                  (CDMI). According latest issue of CDMI, “CDMI
-                  International Standard is intended for application
-                  developers who are implementing or using cloud
-                  storage. It documents how to access cloud storage
-                  and to manage the data stored there.” It defines
-                  functional interface for applications that will use
-                  cloud for various functionalities like create,
-                  retrieve, update and delete data elements from the
-                  cloud. These interface could be used to manage
-                  containers along with the data. The interface could
-                  be used by administrative and management
-                  applications as well. Also, the CDMI specification
-                  uses RESTful principles in the interface design. All
-                  the standards issued on CDMI can be found on SNIA
-                  web page.},
-  owner        = {S17-IR-2029},
-  url          = {https://www.snia.org/sites/default/files/CDMI_Spec_v1.1.1.pdf},
-}
-
-@Misc{www-cdmiwebsite,
-  review = {},
-  author       = {Storage Networking Industry Association},
-  title        = {Cloud Data Management Interface},
-  publisher    = {snia.org},
-  month        = mar,
-  year         = {2015},
-  howpublished = {Web Page},
-  url          = {https://www.snia.org/cdmi},
-  owner        = {S17-IR-2029},
-  note         = {Accessed: 02-19-2017},
-  abstract     = {The Storage Networking Industry Association (SNIA)
-                  is a non-profit organization formed by various
-                  companies, suppliers and consumers of data storage
-                  and network products. SNIA defines various standards
-                  to ensure the quality and interoperability of
-                  various storage systems. One of the standards
-                  defined by SNIA is Cloud Data Management Interface
-                  (CDMI). According latest issue of CDMI, “CDMI
-                  International Standard is intended for application
-                  developers who are implementing or using cloud
-                  storage. It documents how to access cloud storage
-                  and to manage the data stored there.” It defines
-                  functional interface for applications that will use
-                  cloud for various functionalities like create,
-                  retrieve, update and delete data elements from the
-                  cloud. These interface could be used to manage
-                  containers along with the data. The interface could
-                  be used by administrative and management
-                  applications as well. Also, the CDMI specification
-                  uses RESTful principles in the interface design. All
-                  the standards issued on CDMI can be found on SNIA
-                  web page.},
-}
-
-@Misc{www-ironicwebsite,
-  review = {},
-author       = {Devananda Van Der Veen and Llama  Wrangler},
-title        = {Introduction to {Ironic}},
-publisher    = {OpenStack.org},
-month        = mar,
-year         = {2015},
-howpublished = {Web Page},
-url          = {https://docs.openstack.org/developer/ironic/deploy/user-guide.html},
-owner        = {S17-IR-2029},
-note         = {Accessed: 02-19-2017},
-abstract     = {Ironic :cite:`www-ironicwebsite` project is developed
-                  and supported by OpenStack. Ironic provisions bare
-                  metal machines instead of virtual machines and
-                  functions as hypervisor API that is developed using
-                  open source technologies like Preboot Execution
-                  Environment (PXE), Dynamic Host Configuration
-                  Protocol (DHCP), Network Bootstrap Program (NBP),
-                  Trivial File Transfer Protocol (TFTP) and
-                  Intelligent Platform Management Interface (IPMI). A
-                  properly configured Bare Metal service with the
-                  Compute and Network services, could provision both
-                  virtual and physical machines through the Compute
-                  service’s API. But, the number of instance actions
-                  are limited, due to physical servers and switch
-                  hardware. For example, live migration is not
-                  possible on a bare metal instance. The Ironic
-                  service has five key components. A RESTful API
-                  service, through which other components would
-                  interact with the bare metal servers, a Conductor
-                  service, various drivers, messaging queue and a
-                  database. Ironic could be integrated with other
-                  OpenStack projects like Identity (keystone), Compute
-                  (nova), Network (neutron), Image (glance) and Object
-                  (swift) services.},
-}
-
-@Misc{www-zeppelinwebsite,
-  review = {},
-  author       = {Apache Zeppelin},
-  title        = {Apache Zeppelin 0.7.0 Documentation},
-  publisher    = {zeppelin.apache.org},
-  month        = feb,
-  year         = {2017},
-  howpublished = {Web Page},
-  url          = {https://zeppelin.apache.org/docs/0.7.0/},
-  owner        = {S17-IR-2029},
-  note         = {Accessed: 02-19-2017},
-  abstract     = {Apache Zeppelin :cite:`www-zeppelinwebsite` provides
-                  an interactive environment for big data data
-                  analytics on applications using distributed data
-                  processing system like Hadoop and Spark. It supports
-                  various tasks like data ingestion, data discovery,
-                  data visualization, data analytics and
-                  collaboration. Apache Zeppelin provides built-in
-                  Apache Spark integration and is compatible with many
-                  languages/data-processing backends like Python, R,
-                  SQL, Cassandra and JDBC. It also supports adding new
-                  language backend. Zeppelin lets users to collaborate
-                  by sharing their Notebooks, Paragraph and has option
-                  to broadcast any changes in realtime.},
-}
 
 @Misc{www-talend-apachebeam,
   Title                    = {The Future of Apache Beam, Now a Top-Level Apache Software Foundation Project},
