@@ -516,6 +516,24 @@ Workflow-Orchestration
     upto 1000 Nodes or upto 50,000 containers
     
 31. KeystoneML
+    
+    A framework for building and deploying large-scale
+    machine-learning pipelines within Apache Spark. It captures and
+    optimizes the end-to-end large-scale machine learning applications
+    for high-throughput training in a distributed environment with a
+    high-level API :cite:`sparks2016keystoneml`. This approach
+    increases ease of use and higher performance over existing systems
+    for large scale learning :cite:`sparks2016keystoneml`. It is
+    designed to be a faster and more sophisticated alternative to
+    SparkML, the machine learning framework that’s a full member of
+    the Apache Spark club. Whereas SparkML comes with a basic set of
+    operators for processing text and numbers, KeystoneML includes a
+    richer set of operators and algorithms designed specifically for
+    natural language processing, computer vision, and speech
+    processing :cite:`building`. It has enriched set of operations for
+    complex domains:vision,NLP,Speech, plus,advanced math And is
+    Integrated with new BDAS technologies: Velox, ml-matrix, soon
+    Planck, TuPAQ and Sample Clean :cite:`spark`.
 
 
 Application and Analytics
@@ -533,7 +551,25 @@ Application and Analytics
 
 
 33. MLlib
-34. Mbase
+34. MLbase
+    
+    MLBase :cite:`www-mlbase` is a distributed machine learning
+    system built with Apache Spark :cite:`www-spark`. Machine Learning
+    (ML) and Statistical analysis are tools for extracting insights from
+    big data. MLbase is a tool for execute machine learning algorithms on
+    a scalable platform.It consist of three components MLLib, MLI and ML
+    Optimizer. MLLib was initially developed as a part of MLBase project
+    but is now a part of Apache Spark. MLI is an experimental API for
+    developing ML algorithm and to extract information. It provides
+    high-level abstraction to the core ML algorithms. A prototype is
+    currently implemented against Spark. ML optimizer on the other hand is
+    use to automate the MLI pipeline construction. It solves for the
+    search problem over feature extractors and ML algorithms included in
+    MLI and ML lib. This library is its in early stage and under active
+    development. Publications like :cite:`mlbasepub1`, :cite:`mlbasepub2` and 
+    :cite:`mlbasepub3` are available on distributed machine learning with MLBase.    
+
+
 35. DataFu
 
     The Apache DataFu project was created out of the need for stable,
@@ -631,20 +667,21 @@ Application and Analytics
 
 41. Scalapack
 
-    ScaLAPACK is a library of high-performance linear algebra routines for 
-    parallel distributed memory machines. It solves dense and banded linear
-    systems, least squares problems, eigenvalue problems, and singular 
-    value problems. It is designed for heterogeneous computing and is 
-    portable on any computer that supports Message Passing Interface or 
-    Parallel Virtual Machine. :cite:`git-Scalapack`
-    
-    ScaLAPACK is a open source software package and is available from netlib 
-    via anonymous ftp and the World Wide Web. It contains driver routines  for 
-    solving standard types of problems, computational routines  to perform a 
-    distinct computational task, and auxiliary routines  to perform a certain
-    subtask or common low-level computation. ScaLAPACK routines are based on 
-    block-partitioned algorithms in order to minimize the frequency of data 
-    movement between different levels of the memory hierarchy.
+    ScaLAPACK is a library of high-performance linear algebra routines for
+    parallel distributed memory machines. It solves dense and banded
+    linear systems, least squares problems, eigenvalue problems, and
+    singular value problems. It is designed for heterogeneous computing
+    and is portable on any computer that supports Message Passing
+    Interface or Parallel Virtual Machine. :cite:`www-scalapack`
+
+    ScaLAPACK is a open source software package and is available from
+    netlib via anonymous ftp and the World Wide Web. It contains driver
+    routines for solving standard types of problems, computational
+    routines to perform a distinct computational task, and auxiliary
+    routines to perform a certain subtask or common low-level
+    computation. ScaLAPACK routines are based on block-partitioned
+    algorithms in order to minimize the frequency of data movement between
+    different levels of the memory hierarchy.
     
 42. PetSc
 43. PLASMA MAGMA
@@ -1683,15 +1720,16 @@ Application Hosting Frameworks
 
 101. OODT
      
-     The Apache Object Oriented Data Technology (OODT) is an open source data 
-     management system framework. OODT was originally developed at NASA Jet 
-     Propulsion Laboratory to support capturing, processing and sharing of data
-     for NASA's scientific archives. OODT focuses on two canonical use cases: 
-     Big Data processing and on Information integration. It facilitates the 
-     integration of highly distributed and heterogeneous data intensive systems
-     enabling the integration of different, distributed software systems, 
-     metadata and data. OODT is written in the Java, and through its REST API 
-     used in other languages including Python. :cite:`git-OOTD`
+     The Apache Object Oriented Data Technology (OODT) is an open source
+     data management system framework. OODT was originally developed at
+     NASA Jet Propulsion Laboratory to support capturing, processing and
+     sharing of data for NASA's scientific archives. OODT focuses on two
+     canonical use cases: Big Data processing and on Information
+     integration. It facilitates the integration of highly distributed and
+     heterogeneous data intensive systems enabling the integration of
+     different, distributed software systems, metadata and data. OODT is
+     written in the Java, and through its REST API used in other languages
+     including Python. :cite:`www-oodt2`
      
 102. Agave
 
@@ -1916,20 +1954,21 @@ High level Programming
 
 113. HadoopDB
     
-     HadoopDB is a hybrid of parallel database and MapReduce technologies. It 
-     approaches parallel databases in performance and efficiency, yet still 
-     yields the scalability, fault tolerance, and flexibility of MapReduce 
-     systems. It is a free and open source parallel DBMS. The basic idea behind
-     it is to give Hadoop access to multiple single-node DBMS servers 
-     (eg. PostgreSQL or MySQL) deployed across the cluster. It pushes as much 
-     as possible data processing into the database engine by issuing SQL 
-     queries which results in resembling a shared-nothing cluster of 
-     machines. :cite:`git-HadoopDB`
-     
-     HadoopDB is more scalable than currently available parallel database 
-     systems and DBMS/MapReduce hybrid systems. It has been demonstrated on 
-     clusters with 100 nodes and should scale as long as Hadoop scales, while 
-     achieving superior performance on structured data analysis workloads.
+     HadoopDB is a hybrid of parallel database and MapReduce
+     technologies. It approaches parallel databases in performance and
+     efficiency, yet still yields the scalability, fault tolerance, and
+     flexibility of MapReduce systems. It is a free and open source
+     parallel DBMS. The basic idea behind it is to give Hadoop access to
+     multiple single-node DBMS servers (eg. PostgreSQL or MySQL) deployed
+     across the cluster. It pushes as much as possible data processing into
+     the database engine by issuing SQL queries which results in resembling
+     a shared-nothing cluster of machines. :cite:`www-hadoopdb`
+
+     HadoopDB is more scalable than currently available parallel database
+     systems and DBMS/MapReduce hybrid systems. It has been demonstrated on
+     clusters with 100 nodes and should scale as long as Hadoop scales,
+     while achieving superior performance on structured data analysis
+     workloads.
      
 114. PolyBase
 115. Pivotal HD/Hawq
@@ -1984,7 +2023,7 @@ High level Programming
      started on its own, so there is no need to deploy any resources
      such as disks and virtual machines.
 
-     :cite:`www-bigquery-documentation` Projects in BigQuery are
+     Projects in BigQuery :cite:`www-bigquery-documentation` are
      top-level containers in Google Cloud Platform. They contain the
      BigQuery Data. Each project is referenced by a name and
      unique ID. Tables contain the data in BigQuery. Each table has a
@@ -2118,6 +2157,18 @@ High level Programming
      
 125. Summingbird
 126. Lumberyard
+     
+     It is powerful and full-featured enough to develop triple-A,
+     current-gen console games and is deeply integrated with AWS and
+     Twitch(an online steaming service)
+     :cite:`gamasutra`. Lumberyard's core engine technology is based
+     on Crytek's CryEngine :cite:`hands`. The goal is "creating
+     experiences that embrace the notion of a player, broadcaster, and
+     viewer all joining together":cite:`gamasutra`. Monetization for
+     Lumberyard will come strictly through the use of Amazon Web
+     Services' cloud computing. If you use the engine for your game,
+     you're permitted to roll your own server tech, but if you're
+     using a third-party provider, it has to be Amazon :cite:`what`.
 
 Streams
 ----------------------------------------------------------------------
@@ -2350,6 +2401,23 @@ Streams
 140. Spark Streaming
 141. Flink Streaming
 142. DataTurbine
+
+     Data Turbine :cite:`www-data-turbine` is open source engine that allows to
+     stream data from various sources, process it and sink it to different
+     destinations. The streaming sources can be labs, web cams and Java enabled
+     cell phones. The sinks can be visualizations, interfaces and databases.
+     Data Turbine can be used to stream data formats like numbers, text,
+     sound and
+     video.
+
+     :cite:`osdt-ecologicalsociety` explains that the Data Turbine middleware
+     provides the cyber-infrastructure that integrates disparate elements of
+     complex distributed real time application. Data Turbine acts as a
+     middleware black box using which applications and devices can send and
+     receive data. Data Turbine manages the management operations like memory
+     and file management as well as book-keeping and reconnection logic.
+     Data Turbine also provides Android based controller which allows
+     algorithms to run close to sensors.
 
 
 Basic Programming model and runtime, SPMD, MapReduce
@@ -2775,27 +2843,27 @@ Inter process communication Collectives
 
 172. Kestrel
      
-     Kestrel is a distributed message queue, with added features and 
-     bulletproofing, as well as the scalability offered by actors and 
-     the Java virtual machine. It supports multiple protocols: memcache: 
-     the memcache protocol; thrift: Apache Thrift-based RPC; text: a simple 
-     text-based protocol. Each queue is strictly ordered following the FIFO 
-     (first in, first out) principle. To keep up with performance items are 
-     cached in system memory. Kestrel is more durable as queues are stored 
-     in memory for speed, but logged into a journal on disk so that servers 
-     can be shutdown or moved without losing any data. When kestrel starts 
-     up, it scans the journal folder and creates queues based on any journal 
-     files it finds there, to restore state to the way it was when it last 
-     shutdown (or was killed or died).
-     
-     Kestrel uses a pull-based data aggregator system that convey data without
-     prior definition on its destination. So the destination can be defined 
-     later on either storage system, like HDFS or NoSQL, or processing system,
-     like storm and sppark streaming. Each server handles a set of reliable, 
-     ordered message queues. When you put a cluster of these servers together,
-     with no cross communication, and pick a server at random whenever you do
-     a set or get, you end up with a reliable, loosely ordered message 
-     queue :cite:`git-kestrel`.
+     Kestrel is a distributed message queue, with added features and
+     bulletproofing, as well as the scalability offered by actors and the
+     Java virtual machine. It supports multiple protocols: memcache: the
+     memcache protocol; thrift: Apache Thrift-based RPC; text: a simple
+     text-based protocol. Each queue is strictly ordered following the FIFO
+     (first in, first out) principle. To keep up with performance items are
+     cached in system memory. Kestrel is more durable as queues are stored
+     in memory for speed, but logged into a journal on disk so that servers
+     can be shutdown or moved without losing any data. When kestrel starts
+     up, it scans the journal folder and creates queues based on any
+     journal files it finds there, to restore state to the way it was when
+     it last shutdown (or was killed or died).
+
+     Kestrel uses a pull-based data aggregator system that convey data
+     without prior definition on its destination. So the destination can be
+     defined later on either storage system, like HDFS or NoSQL, or
+     processing system, like storm and sppark streaming. Each server
+     handles a set of reliable, ordered message queues. When you put a
+     cluster of these servers together, with no cross communication, and
+     pick a server at random whenever you do a set or get, you end up with
+     a reliable, loosely ordered message queue :cite:`git-kestrel`.
 
 173. JMS
 
@@ -4681,6 +4749,18 @@ Cluster Resource Management
      enhanced visibility and extensibility :cite:`openpbs-www`.
 
 281. Moab
+
+     Moab HPC Suite is a workload management and resource orchestration
+     platform that automates the scheduling, managing, monitoring, and
+     reporting of HPC workloads on massive scale. It uses multi-dimensional
+     policies and advanced future modeling to optimize workload start and
+     run times on diverse resources. It integrates and accelerates the
+     workloads management across independent clusters by adding
+     grid-optimized job submission. Moab's unique intelligent and
+     predictive capabilities evaluate the impact of future orchestration
+     decisions across diverse workload domains (HPC, HTC, Big Data, and
+     Cloud VMs).:cite:`www-moab`
+
 282. Slurm :cite:`www-slurm`
 
      Simple Linux Utility for Resource Management (SLURM) workload
@@ -6385,20 +6465,19 @@ Message and Data Protocols
 377. Avro
 378. Thrift
 
-     The Apache Thrift software framework, for scalable cross-language services 
-     development, combines a software stack with a code generation engine to 
-     build services that work efficiently and seamlessly between C++, Java, 
-     Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, 
-     Smalltalk, OCaml and Delphi and other languages. It includes a complete 
-     stack for creating clients and servers. It includes a server infrastructure
-     to tie the protocols and transports together. There are blocking, 
-     non-blocking, single and multithreaded servers available.
+     The Apache Thrift software framework, for scalable cross-language
+     services development, combines a software stack with a code generation
+     engine to build services that work efficiently and seamlessly between
+     C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa,
+     JavaScript, Node.js, Smalltalk, OCaml and Delphi and other
+     languages. :cite:`paper-thrift` It includes a complete stack for
+     creating clients and servers. It includes a server infrastructure to
+     tie the protocols and transports together. There are blocking,
+     non-blocking, single and multithreaded servers available.  Thrift was
+     originally developed at Facebook, it was open sourced in April 2007
+     and entered the Apache Incubator in May, 2008. It became an Apache TLP
+     in October, 2010. :cite:`www-thrift`
      
-     Thrift was originally developed at Facebook, it was open sourced in April 
-     2007 and entered the Apache Incubator in May, 2008. It became an Apache TLP
-     in October, 2010. :cite:`git-Thrift`
-     
-
 379. Protobuf
 
      Protocol Buffer :cite:`www-protobuf` is a way to serialize
@@ -6523,6 +6602,7 @@ New Technologies (To Be Integrated by the AIs)
      system. :cite:`www-cloudability`
 
 
+
 388. CUDA
 
      It is a parallel computing platform and application programming
@@ -6545,17 +6625,42 @@ New Technologies (To Be Integrated by the AIs)
 
      Blaze library translates NumPy/Pandas-like syntax to data computing systems (e.g. database
      , in-memory, distributed-computing). This provides Python users with a familiar
-     interface to query data  in a variety of other data storage systems. 
-     One Blaze query can work across data ranging from a CSV file to a distributed 
+     interface to query data  in a variety of other data storage systems.
+     One Blaze query can work across data ranging from a CSV file to a distributed
      database.
 
      Blaze presents a pleasant and familiar interface regardless of what computational
      solution or database we use (e.g. Spark, Impala, SQL databases, No-SQL data-stores,
-     raw-files). It mediates the users interaction with files, data structures, and databases, 
+     raw-files). It mediates the users interaction with files, data structures, and databases,
      optimizing and translating the query as appropriate to provide a smooth and interactive
      session. It allows the data scientists and analyst to write their queries in a unified
      way that does not have to change because the data is stored in another format or a different
-     data-store. :cite:`www-blaze` 
+     data-store. :cite:`www-blaze`
+
+389. CDAP
+
+    CDAP :cite:`www-cdap` stands for Cask Data Application Platform. CDAP is an
+    application development platform using which developers can build, deploy
+    and monitor applications on Apache Hadoop. In a typical CDAP application,
+    a developer can ingest data, store and manage datasets on Hadoop, perform
+    batch mode data analysis, and develop web services to expose the data.
+    They can also schedule and monitor the execution of the application. This
+    way, CDAP enables the developers to use single platform to develop the end
+    to end application on Apache Hadoop.
+
+    CDAP documentation :cite:`www-cdap-docs` explains the important
+    CDAP
+    concepts of CDAP Dataset, CDAP Application and CDAP Services. CDAP Datasets
+    provide logical abstraction over the data stored in Hadoop. CDAP
+    Applications provide containers to implement application business logic
+    in open source processing frameworks like map reduce, Spark and real time
+    flow. CDAP applications also provide standardize way to deploy and manage
+    the apps. CDAP Services provide services for application management,
+    metadata management, and streams management.
+    CDAP can be deployed on various Hadoop Platforms such as Apache Hadoop,
+    Cloudera Hadoop, Hortonworks Hadoop and Amazon EMR.
+    CDAP sample apps :cite:`github-cdap-sample-apps` provide explain how to
+    implement apps on CDAP platform.
 
 389. Apache Arrow
      
@@ -6588,9 +6693,9 @@ New Technologies (To Be Integrated by the AIs)
      lots of contributors meaning that the software is constantly
      getting better and better.
 
-389. Apache OODT
+391. Apache OODT
 
-     :cite:`www-oodt` Apache Object Oriented Data Technology (OODT) is
+     Apache Object Oriented Data Technology (OODT) :cite:`www-oodt` is
      a distributed data management technology that helps to integrate
      and archive your processes, your data, and its metadata. OODT
      allows to generate, process, manage and analyze distributed and
@@ -6675,7 +6780,7 @@ New Technologies (To Be Integrated by the AIs)
      Ivy. The Apache Ant project is part of the Apache Software
      Foundation :cite:`ant-www`.
 
-731. LXD
+392. LXD
 
      LXD is a  demon processes established to manage the
      containers. It can be understood as hypervisor for linux
@@ -6687,6 +6792,42 @@ New Technologies (To Be Integrated by the AIs)
      container migration. :cite:`www-lxd-lists-linux`.It was build
      with aim of providing VM like virtulization with container like
      performance. :cite:`www-lxd-ubuntu`
+
+393. Wink
+
+     Apache wink :cite:`www-apache-wink` provides a framework to develop and use
+     RESTful web services. It implements using JAX-RS v1.1 specification. The project
+     provides server module which integrates with all popular web servers and a client
+     module which can used to write RESTful web services. This project will be integrated
+     with Geronimo and other opensource REST projects to build a vendor neutral
+     community. Currently IBM and HP have taken lead. IBM is writing a full JAX-RS
+     implementation while HP is working on RESTful SDK for client and server components.
+     Portion of initial project was also taken from Apache CXF which uses other Apache
+     components like commons-codec, commons-logging, Apache-Abdera. Apache wink
+     will simply web services development using one single standard.
+
+394. Apache Apex
+     
+     Apache Apex is “a YARN(Hadoop 2.0)-native platform that unifies
+     cloud and batch processing” :cite:`www-apacheapexwiki`.This
+     project was developed under Apache License 2.0 and was driven by
+     Data Torrent. It can be used for processing both streams of data
+     and static files making it more relevant in the context of
+     present day internet and social media. It is aimed at leveraging
+     the present Hadoop platform and reducing the learning curve for
+     development of applications over it. It is aimed at It can used
+     through a simple API. It enables reuse of code by not having to
+     make drastic changes to the applications by providing
+     interoperability with existing technology stack. It leverages the
+     existing Hadoop platform investments.
+
+     Apart from the Apex core component, it also has Apex Malhar which
+     provides a library of connectors and logic functions. It provides
+     connectors to existing file systems, message systems and relational,
+     NoSQL and Hadoop databases, social media. It also provides a library
+     of compute operators like Machine Learning, Stats and Math, Pattern
+     Marching, Query and Scripting, Stream manipulators, Parsers and UI &
+     Charting operators :cite:`www-apacheapexblog`.
 
 .. _techs-exercise:
 
