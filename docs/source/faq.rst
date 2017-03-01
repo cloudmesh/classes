@@ -1173,7 +1173,7 @@ What are good places to find refernce entries?
 * http://academic.research.microsoft.com/
 
 
-HOw to install Matplotlib?
+How to install Matplotlib?
 --------------------------
 
 Follow the installation in the class documentation properly.
@@ -1193,5 +1193,74 @@ Install python Tkinter packages::
   $ sudo apt-get install python-tk
   
   
-  
+How to test if your OS can install cloudmesh_client
+---------------------------------------------------
 
+ In installation of Cloudmesh Client, there may be extra packages that has to be installed.Missing a few dependencies for cryptography.
+
+Since this SO question keeps coming up I'll drop a response here too (I am one of the pyca/cryptography developers). Here's what you need to reliably install pyca/cryptography on the 3 major platforms.
+
+Please note in all these cases it is highly recommended that you install into a virtualenv and not into the global package space. This is not specific to cryptography but rather is generic advice to keep your Python installation reliable. The global package space in OS provided Pythons is owned by the system and installing things via pip into it is asking for trouble.
+
+Windows
+~~~~~~~
+Upgrade to the latest pip (8.1.2 as of June 2016) and just pip install cryptography
+
+cryptography and cffi are both shipped as statically linked wheels.
+
+OS X
+~~~~
+Ono OSX you need to install xcode.
+
+Upgrade to the latest pip (8.1.2 as of June 2016) and just pip install cryptography
+
+cryptography and cffi are both shipped as statically linked wheels. This will work for pyenv Python, system Python, homebrew Python, etc. As long as you're on the latest pip you won't even need a compiler.
+
+Linux
+~~~~~
+On Linux you'll need a C compiler, libffi + its development headers, and openssl + its development headers.
+
+Debian or Ubuntu derived distributions
+
+apt-get install build-essential libssl-dev libffi-dev python-dev followed by::
+
+  pip install cryptography
+
+Red Hat derived distributions::
+
+  yum install gcc openssl-devel libffi-devel python-devel followed by
+
+  pip install cryptography
+
+
+Tips to write a Good Paper
+--------------------------
+
+This that must be avoided to write a good paper.
+
+Why Technology xyz
+
+(and makeing sure to include a ? ;)
+
+Instead give the section a good name that is not a question, such as 
+
+Introduction
+
+Design
+
+Architecture
+
+Performance
+
+Comparison
+
+Big Data Use cases
+
+Conclusion
+
+And there are many more different things.
+
+Make sure to write a good paper avoiding these headings when you start a sub-section in your paper.
+
+ 
+  
