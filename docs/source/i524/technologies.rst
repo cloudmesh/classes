@@ -516,6 +516,24 @@ Workflow-Orchestration
     upto 1000 Nodes or upto 50,000 containers
     
 31. KeystoneML
+    
+    A framework for building and deploying large-scale
+    machine-learning pipelines within Apache Spark. It captures and
+    optimizes the end-to-end large-scale machine learning applications
+    for high-throughput training in a distributed environment with a
+    high-level API :cite:`sparks2016keystoneml`. This approach
+    increases ease of use and higher performance over existing systems
+    for large scale learning :cite:`sparks2016keystoneml`. It is
+    designed to be a faster and more sophisticated alternative to
+    SparkML, the machine learning framework that’s a full member of
+    the Apache Spark club. Whereas SparkML comes with a basic set of
+    operators for processing text and numbers, KeystoneML includes a
+    richer set of operators and algorithms designed specifically for
+    natural language processing, computer vision, and speech
+    processing :cite:`building`. It has enriched set of operations for
+    complex domains:vision,NLP,Speech, plus,advanced math And is
+    Integrated with new BDAS technologies: Velox, ml-matrix, soon
+    Planck, TuPAQ and Sample Clean :cite:`spark`.
 
 
 Application and Analytics
@@ -2118,6 +2136,18 @@ High level Programming
      
 125. Summingbird
 126. Lumberyard
+     
+     It is powerful and full-featured enough to develop triple-A,
+     current-gen console games and is deeply integrated with AWS and
+     Twitch(an online steaming service)
+     :cite:`gamasutra`. Lumberyard's core engine technology is based
+     on Crytek's CryEngine :cite:`hands`. The goal is "creating
+     experiences that embrace the notion of a player, broadcaster, and
+     viewer all joining together":cite:`gamasutra`. Monetization for
+     Lumberyard will come strictly through the use of Amazon Web
+     Services' cloud computing. If you use the engine for your game,
+     you're permitted to roll your own server tech, but if you're
+     using a third-party provider, it has to be Amazon :cite:`what`.
 
 Streams
 ----------------------------------------------------------------------
