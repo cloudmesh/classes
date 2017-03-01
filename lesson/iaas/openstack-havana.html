@@ -229,7 +229,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -480,7 +482,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -643,11 +647,11 @@ simplifying access to multiple heterogeneous clouds on FutureSystems.</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>+----+-----------+-----------+------+-----------+------+-------+-------------+-----------+-------------+
 <span class="p">|</span> ID <span class="p">|</span> Name      <span class="p">|</span> Memory_MB <span class="p">|</span> Disk <span class="p">|</span> Ephemeral <span class="p">|</span> Swap <span class="p">|</span> VCPUs <span class="p">|</span> RXTX_Factor <span class="p">|</span> Is_Public <span class="p">|</span> extra_specs <span class="p">|</span>
 +----+-----------+-----------+------+-----------+------+-------+-------------+-----------+-------------+
-<span class="p">|</span> <span class="m">1</span>  <span class="p">|</span> m1.tiny   <span class="p">|</span> <span class="m">512</span>       <span class="p">|</span> <span class="m">0</span>    <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">1</span>     <span class="p">|</span> <span class="m">1</span>.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
-<span class="p">|</span> <span class="m">2</span>  <span class="p">|</span> m1.small  <span class="p">|</span> <span class="m">2048</span>      <span class="p">|</span> <span class="m">20</span>   <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">1</span>     <span class="p">|</span> <span class="m">1</span>.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
-<span class="p">|</span> <span class="m">3</span>  <span class="p">|</span> m1.medium <span class="p">|</span> <span class="m">4096</span>      <span class="p">|</span> <span class="m">40</span>   <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">2</span>     <span class="p">|</span> <span class="m">1</span>.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
-<span class="p">|</span> <span class="m">4</span>  <span class="p">|</span> m1.large  <span class="p">|</span> <span class="m">8192</span>      <span class="p">|</span> <span class="m">80</span>   <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">4</span>     <span class="p">|</span> <span class="m">1</span>.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
-<span class="p">|</span> <span class="m">5</span>  <span class="p">|</span> m1.xlarge <span class="p">|</span> <span class="m">16384</span>     <span class="p">|</span> <span class="m">160</span>  <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">8</span>     <span class="p">|</span> <span class="m">1</span>.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
+<span class="p">|</span> <span class="m">1</span>  <span class="p">|</span> m1.tiny   <span class="p">|</span> <span class="m">512</span>       <span class="p">|</span> <span class="m">0</span>    <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">1</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
+<span class="p">|</span> <span class="m">2</span>  <span class="p">|</span> m1.small  <span class="p">|</span> <span class="m">2048</span>      <span class="p">|</span> <span class="m">20</span>   <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">1</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
+<span class="p">|</span> <span class="m">3</span>  <span class="p">|</span> m1.medium <span class="p">|</span> <span class="m">4096</span>      <span class="p">|</span> <span class="m">40</span>   <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">2</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
+<span class="p">|</span> <span class="m">4</span>  <span class="p">|</span> m1.large  <span class="p">|</span> <span class="m">8192</span>      <span class="p">|</span> <span class="m">80</span>   <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">4</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
+<span class="p">|</span> <span class="m">5</span>  <span class="p">|</span> m1.xlarge <span class="p">|</span> <span class="m">16384</span>     <span class="p">|</span> <span class="m">160</span>  <span class="p">|</span> <span class="m">0</span>         <span class="p">|</span>      <span class="p">|</span> <span class="m">8</span>     <span class="p">|</span> 1.0         <span class="p">|</span> True      <span class="p">|</span> <span class="o">{}</span>          <span class="p">|</span>
 +----+-----------+-----------+------+-----------+------+-------+-------------+-----------+-------------+
 </pre></div>
 </div>
@@ -714,8 +718,8 @@ us to log into the VMs. To do so we create the following policies as
 part of our default security policies. Not that when you are in a
 group project this may already have been done for you by another group
 member. We will add ICMP and port 22 on default group:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova secgroup-add-rule default icmp -1 -1 <span class="m">0</span>.0.0.0/0
-$ nova secgroup-add-rule default tcp <span class="m">22</span> <span class="m">22</span> <span class="m">0</span>.0.0.0/0
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova secgroup-add-rule default icmp -1 -1 0.0.0.0/0
+$ nova secgroup-add-rule default tcp <span class="m">22</span> <span class="m">22</span> 0.0.0.0/0
 $ nova secgroup-list-rules default
 </pre></div>
 </div>
@@ -729,8 +733,8 @@ the errors and move on.</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>+-------------+-----------+---------+-----------+--------------+
 <span class="p">|</span> IP Protocol <span class="p">|</span> From Port <span class="p">|</span> To Port <span class="p">|</span> IP Range  <span class="p">|</span> Source Group <span class="p">|</span>
 +-------------+-----------+---------+-----------+--------------+
-<span class="p">|</span> icmp        <span class="p">|</span> -1        <span class="p">|</span> -1      <span class="p">|</span> <span class="m">0</span>.0.0.0/0 <span class="p">|</span>              <span class="p">|</span>
-<span class="p">|</span> tcp         <span class="p">|</span> <span class="m">22</span>        <span class="p">|</span> <span class="m">22</span>      <span class="p">|</span> <span class="m">0</span>.0.0.0/0 <span class="p">|</span>              <span class="p">|</span>
+<span class="p">|</span> icmp        <span class="p">|</span> -1        <span class="p">|</span> -1      <span class="p">|</span> 0.0.0.0/0 <span class="p">|</span>              <span class="p">|</span>
+<span class="p">|</span> tcp         <span class="p">|</span> <span class="m">22</span>        <span class="p">|</span> <span class="m">22</span>      <span class="p">|</span> 0.0.0.0/0 <span class="p">|</span>              <span class="p">|</span>
 +-------------+-----------+---------+-----------+--------------+
 </pre></div>
 </div>
@@ -750,7 +754,7 @@ you will see an output similar to:</p>
 <span class="p">|</span> Property                    <span class="p">|</span> Value                                <span class="p">|</span>
 +-----------------------------+--------------------------------------+
 <span class="p">|</span> status                      <span class="p">|</span> BUILD                                <span class="p">|</span>
-<span class="p">|</span> updated                     <span class="p">|</span> <span class="m">2013</span>-05-15T20:32:03Z                 <span class="p">|</span>
+<span class="p">|</span> updated                     <span class="p">|</span> 2013-05-15T20:32:03Z                 <span class="p">|</span>
 <span class="p">|</span> OS-EXT-STS:task_state       <span class="p">|</span> scheduling                           <span class="p">|</span>
 <span class="p">|</span> key_name                    <span class="p">|</span> <span class="nv">$PORTALNAME</span>-key                      <span class="p">|</span>
 <span class="p">|</span> image                       <span class="p">|</span> futuregrid/ubuntu-14.04              <span class="p">|</span>
@@ -763,7 +767,7 @@ you will see an output similar to:</p>
 <span class="p">|</span> name                        <span class="p">|</span> vm001                                <span class="p">|</span>
 <span class="p">|</span> adminPass                   <span class="p">|</span> KgiKjek99dgk                         <span class="p">|</span>
 <span class="p">|</span> tenant_id                   <span class="p">|</span> b7ea98db7b3449b184b58d28e80c7541     <span class="p">|</span>
-<span class="p">|</span> created                     <span class="p">|</span> <span class="m">2013</span>-05-15T20:32:03Z                 <span class="p">|</span>
+<span class="p">|</span> created                     <span class="p">|</span> 2013-05-15T20:32:03Z                 <span class="p">|</span>
 <span class="p">|</span> OS-DCF:diskConfig           <span class="p">|</span> MANUAL                               <span class="p">|</span>
 <span class="p">|</span> metadata                    <span class="p">|</span> <span class="o">{}</span>                                   <span class="p">|</span>
 <span class="p">|</span> accessIPv4                  <span class="p">|</span>                                      <span class="p">|</span>
@@ -785,14 +789,14 @@ command and monitor the Status field in the table:</p>
 +-------------+----------------+--------+---------------------+
 <span class="p">|</span> ID          <span class="p">|</span> Name           <span class="p">|</span> Status <span class="p">|</span> Networks            <span class="p">|</span>
 +-------------+----------------+--------+---------------------+
-<span class="p">|</span> e15 ... 3b7 <span class="p">|</span> <span class="nv">$PORTALNAME</span>-001<span class="p">|</span> ACTIVE <span class="p">|</span> <span class="nv">private</span><span class="o">=</span><span class="m">10</span>.35.23.18 <span class="p">|</span>
+<span class="p">|</span> e15 ... 3b7 <span class="p">|</span> <span class="nv">$PORTALNAME</span>-001<span class="p">|</span> ACTIVE <span class="p">|</span> <span class="nv">private</span><span class="o">=</span>10.35.23.18 <span class="p">|</span>
 +-------------+----------------+--------+---------------------+
 </pre></div>
 </div>
 <p>Once it has changed from for example BUILD to ACTIVE, you can log
 in. Pleas use the IP address provided under networks. Note that the
 first address is private and can not be reached from outside india:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>$ ssh -l ubuntu -i ~/.ssh/<span class="nv">$PORTALNAME</span>-key <span class="m">10</span>.35.23.18
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ ssh -l ubuntu -i ~/.ssh/<span class="nv">$PORTALNAME</span>-key 10.35.23.18
 </pre></div>
 </div>
 <p>If you see a warning similar to:</p>
@@ -838,20 +842,20 @@ created earlier with the boot command.</p>
 </div>
 <p>Next, let us login to your instance, make filesystem and mount it.
 Here&#8217;s an example, mounting on /mnt:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>$ ssh -l ubuntu -i ~/.ssh/<span class="nv">$PORTALNAME</span>-key <span class="m">10</span>.35.23.18
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ ssh -l ubuntu -i ~/.ssh/<span class="nv">$PORTALNAME</span>-key 10.35.23.18
 ubuntu@<span class="nv">$PORTALNAME</span>-001:~$ sudo su -
 root@<span class="nv">$PORTALNAME</span>-001:~# mkfs.ext4 /dev/vdb
 root@<span class="nv">$PORTALNAME</span>-001:~# mount /dev/vdb /mnt
 root@<span class="nv">$PORTALNAME</span>-001:~# df -h
 Filesystem      Size  Used Avail Use% Mounted on
-/dev/vda1        20G  <span class="m">2</span>.1G   17G  <span class="m">11</span>% /
-none            <span class="m">4</span>.0K     <span class="m">0</span>  <span class="m">4</span>.0K   <span class="m">0</span>% /sys/fs/cgroup
-udev            998M  <span class="m">8</span>.0K  998M   <span class="m">1</span>% /dev
-tmpfs           201M  236K  201M   <span class="m">1</span>% /run
-none            <span class="m">5</span>.0M     <span class="m">0</span>  <span class="m">5</span>.0M   <span class="m">0</span>% /run/lock
-none           1002M     <span class="m">0</span> 1002M   <span class="m">0</span>% /run/shm
-none            100M     <span class="m">0</span>  100M   <span class="m">0</span>% /run/user
-/dev/vdb        <span class="m">4</span>.8G   23M  <span class="m">0</span>.8G   <span class="m">1</span>% /mnt
+/dev/vda1        20G  2.1G   17G  11% /
+none            4.0K     <span class="m">0</span>  4.0K   0% /sys/fs/cgroup
+udev            998M  8.0K  998M   1% /dev
+tmpfs           201M  236K  201M   1% /run
+none            5.0M     <span class="m">0</span>  5.0M   0% /run/lock
+none           1002M     <span class="m">0</span> 1002M   0% /run/shm
+none            100M     <span class="m">0</span>  100M   0% /run/user
+/dev/vdb        4.8G   23M  0.8G   1% /mnt
 </pre></div>
 </div>
 <p>When you want to detach it, unmount /mnt first, go back to indias&#8217;s
@@ -874,18 +878,18 @@ india. Firts, Create an external ip address with:</p>
 +-----------------+-------------+----------+------+
 <span class="p">|</span> Ip              <span class="p">|</span> Instance Id <span class="p">|</span> Fixed Ip <span class="p">|</span> Pool <span class="p">|</span>
 +-----------------+-------------+----------+------+
-<span class="p">|</span> <span class="m">198</span>.202.120.193 <span class="p">|</span> None        <span class="p">|</span> None     <span class="p">|</span> nova <span class="p">|</span>
+<span class="p">|</span> 198.202.120.193 <span class="p">|</span> None        <span class="p">|</span> None     <span class="p">|</span> nova <span class="p">|</span>
 +-----------------+-------------+----------+------+
 </pre></div>
 </div>
 <p>Next, put it on your instance with:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova add-floating-ip <span class="nv">$PORTALNAME</span>-001 <span class="m">198</span>.202.120.193
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nova add-floating-ip <span class="nv">$PORTALNAME</span>-001 198.202.120.193
 $ nova floating-ip-list
 
 +-----------------+--------------------------------------+-------------+------+
 <span class="p">|</span> Ip              <span class="p">|</span> Instance Id                          <span class="p">|</span> Fixed Ip    <span class="p">|</span> Pool <span class="p">|</span>
 +-----------------+--------------------------------------+-------------+------+
-<span class="p">|</span> <span class="m">198</span>.202.120.193 <span class="p">|</span> c0bd849a-221a-4e53-bf7b-7097541a9bcc <span class="p">|</span> <span class="m">10</span>.35.23.20 <span class="p">|</span> nova <span class="p">|</span>
+<span class="p">|</span> 198.202.120.193 <span class="p">|</span> c0bd849a-221a-4e53-bf7b-7097541a9bcc <span class="p">|</span> 10.35.23.20 <span class="p">|</span> nova <span class="p">|</span>
 +-----------------+--------------------------------------+-------------+------+
 </pre></div>
 </div>
@@ -1041,7 +1045,7 @@ this file:</p>
 <span class="nb">export</span> <span class="nv">EC2_SECRET_KEY</span><span class="o">=</span><span class="s2">&quot;Your EC2_SECRET_KEY&quot;</span>
 <span class="nb">export</span> <span class="nv">EC2_URL</span><span class="o">=</span><span class="s2">&quot;http://i57r.idp.iu.futuregrid.org:8773/services/Cloud&quot;</span>
 <span class="nb">export</span> <span class="nv">S3_URL</span><span class="o">=</span><span class="s2">&quot;http://i57r.idp.iu.futuregrid.org:3333&quot;</span>
-<span class="nb">export</span> <span class="nv">EC2_USER_ID</span><span class="o">=</span><span class="m">11</span>
+<span class="nb">export</span> <span class="nv">EC2_USER_ID</span><span class="o">=</span>11
 <span class="nb">export</span> <span class="nv">EC2_PRIVATE_KEY</span><span class="o">=</span><span class="si">${</span><span class="nv">NOVA_KEY_DIR</span><span class="si">}</span>/pk.pem
 <span class="nb">export</span> <span class="nv">EC2_CERT</span><span class="o">=</span><span class="si">${</span><span class="nv">NOVA_KEY_DIR</span><span class="si">}</span>/cert.pem
 <span class="nb">export</span> <span class="nv">NOVA_CERT</span><span class="o">=</span><span class="si">${</span><span class="nv">NOVA_KEY_DIR</span><span class="si">}</span>/cacert.pem

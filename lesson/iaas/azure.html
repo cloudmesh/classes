@@ -231,7 +231,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -479,7 +481,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -880,13 +884,13 @@ service, 5) python to install and run Flask.</p>
 </li>
 <li><p class="first">Write a python script in <code class="docutils literal"><span class="pre">hello.py</span></code></p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="k">import</span> <span class="n">Flask</span>
-<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
 
 <span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
     <span class="k">return</span> <span class="s2">&quot;Hello World!&quot;</span>
 
-<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
     <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </pre></div>
 </div>

@@ -229,7 +229,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -485,7 +487,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -606,7 +610,7 @@ node:</p>
 login to sierra as follows:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ ssh portalname@india.futuregrid.org
 Welcome to india.futuregrid.org
-Last login: Thu Aug <span class="m">12</span> <span class="m">19</span>:19:22 <span class="m">2010</span> from ....
+Last login: Thu Aug <span class="m">12</span> 19:19:22 <span class="m">2010</span> from ....
 </pre></div>
 </div>
 <div class="section" id="ssh-add">
@@ -707,7 +711,7 @@ $ module unload &lt;package name&gt;/&lt;optional package version&gt;
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ module list
 
 Currently Loaded Modulefiles:
-  <span class="m">1</span><span class="o">)</span> torque/2.4.8   <span class="m">2</span><span class="o">)</span> moab/5.4.0
+  1<span class="o">)</span> torque/2.4.8   2<span class="o">)</span> moab/5.4.0
 </pre></div>
 </div>
 <p><strong>Example</strong> - list the avialable modules on india:</p>
@@ -960,7 +964,7 @@ module load openmpi
 
 <span class="c1"># launch the parallel application with the correct number of process</span>
 <span class="c1"># Typical usage: mpirun -np &lt;number of processes&gt; &lt;executable&gt; &lt;arguments&gt;</span>
-mpirun -np <span class="m">32</span> ring -t <span class="m">1000</span>
+mpirun -np <span class="m">32</span> ring -t 1000
 
 <span class="nb">echo</span> <span class="s2">&quot;Nodes allocated to this job: &quot;</span>
 cat <span class="nv">$PBS_NODEFILE</span>
@@ -1037,12 +1041,12 @@ purpose with the qstat command on the appropriate login node:</p>
 </dl>
 <p>Next we focus on the -l option that specifies the resources. The
 term:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nv">nodes</span><span class="o">=</span><span class="m">4</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nv">nodes</span><span class="o">=</span>4
 </pre></div>
 </div>
 <p>means that we specify 4 servers on which we execute the job. The
 term:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nv">ppn</span><span class="o">=</span><span class="m">8</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nv">ppn</span><span class="o">=</span>8
 </pre></div>
 </div>
 <p>means that we use 8 virtual processors per node, where a virtual
@@ -1081,7 +1085,7 @@ in the batch queue.</p>
 <p>Once you have created a submission script, you can then use the
 qsub command to submit this job to be executed on the compute nodes:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ qsub ring.pbs
-<span class="m">20311</span>.i136
+20311.i136
 </pre></div>
 </div>
 <p>The qsub command outputs either a job identifier or an error message
@@ -1093,7 +1097,7 @@ command. For differences we ask you to consult the manual pages.</p>
 <h3>Job Deletion<a class="headerlink" href="#job-deletion" title="Permalink to this headline">¶</a></h3>
 <p>Sometimes you may want to delete a job from the queue, which can be
 easily done with the qdel command, followed by the id:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>$ qdel <span class="m">20311</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ qdel 20311
 </pre></div>
 </div>
 </div>
@@ -1111,16 +1115,16 @@ jobs,  eligible jobs, and blocked jobs:</p>
 active <span class="nb">jobs</span>
 ------------------------
 JOBID    USERNAME       STATE PROCS    REMAINING            STARTTIME
-<span class="m">20311</span>   yourusername       Running     <span class="m">16</span>        <span class="m">3</span>:59:59 Tue Aug <span class="m">17</span> <span class="m">09</span>:02:40
-<span class="m">1</span> active job <span class="m">16</span> of <span class="m">264</span> processors in use by <span class="nb">local</span> <span class="nb">jobs</span> <span class="o">(</span><span class="m">6</span>.06%<span class="o">)</span>
-                  <span class="m">2</span> of <span class="m">33</span> nodes active <span class="o">(</span><span class="m">6</span>.06%<span class="o">)</span> eligible <span class="nb">jobs</span>
+<span class="m">20311</span>   yourusername       Running     <span class="m">16</span>        3:59:59 Tue Aug <span class="m">17</span> 09:02:40
+<span class="m">1</span> active job <span class="m">16</span> of <span class="m">264</span> processors in use by <span class="nb">local</span> <span class="nb">jobs</span> <span class="o">(</span>6.06%<span class="o">)</span>
+                  <span class="m">2</span> of <span class="m">33</span> nodes active <span class="o">(</span>6.06%<span class="o">)</span> eligible <span class="nb">jobs</span>
 ----------------------
 JOBID    USERNAME       STATE PROCS    REMAINING            STARTTIME
 <span class="m">0</span> eligible <span class="nb">jobs</span> blocked <span class="nb">jobs</span>
 -----------------------
 JOBID    USERNAME       STATE PROCS    REMAINING            STARTTIME
 <span class="m">0</span> blocked <span class="nb">jobs</span>
-Total job: <span class="m">1</span>
+Total job: 1
 </pre></div>
 </div>
 <dl class="last docutils">
@@ -1148,8 +1152,8 @@ added via a status column called S:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ qstat
 Job id                             Name               User          Time Use S Queue
 ------------------------- --------------------- ------------------- -------- - -----
-<span class="m">1981</span>.i136                       sub19327.sub      inca               <span class="m">00</span>:00:00 C batch
-<span class="m">20311</span>.i136                      testjob           yourusername              <span class="m">0</span> R batch
+1981.i136                       sub19327.sub      inca               00:00:00 C batch
+20311.i136                      testjob           yourusername              <span class="m">0</span> R batch
 </pre></div>
 </div>
 <dl class="last docutils">
@@ -1175,7 +1179,7 @@ completed, and H for a job that is being held.</dd>
 </dd>
 </dl>
 <p>If you are interested in only your job use grep:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>$ qstat <span class="p">|</span> grep <span class="m">20311</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ qstat <span class="p">|</span> grep 20311
 </pre></div>
 </div>
 </div>
@@ -1242,8 +1246,8 @@ processors on 2 nodes:</p>
 
 <span class="c1">#cd to directory where job was submitted from</span>
 <span class="nb">cd</span> <span class="nv">$PBS_O_WORKDIR</span>
-<span class="nb">export</span> <span class="nv">MPICH_FAST_MEMCPY</span><span class="o">=</span><span class="m">1</span>
-<span class="nb">export</span> <span class="nv">MPICH_PTL_MATCH_OFF</span><span class="o">=</span><span class="m">1</span>
+<span class="nb">export</span> <span class="nv">MPICH_FAST_MEMCPY</span><span class="o">=</span>1
+<span class="nb">export</span> <span class="nv">MPICH_PTL_MATCH_OFF</span><span class="o">=</span>1
 aprun -n <span class="m">16</span> -N <span class="m">8</span> -ss -cc cpu hpcc
 
 $ qsub job.pbs

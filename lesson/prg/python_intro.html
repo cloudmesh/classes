@@ -231,7 +231,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -512,7 +514,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">HOw to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
@@ -1423,8 +1427,8 @@ and greater than the difference of the lengths of the other two sides.:</p>
 <span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
 <span class="kn">from</span> <span class="nn">docopt</span> <span class="k">import</span> <span class="n">docopt</span>
 
-<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-      <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="vm">__doc__</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+      <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="n">__doc__</span><span class="p">)</span>
       <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;LENGTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;WIDTH&#39;</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;HEIGHT&#39;</span><span class="p">])</span>
       <span class="n">valid_triangle</span> <span class="o">=</span> \
               <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
