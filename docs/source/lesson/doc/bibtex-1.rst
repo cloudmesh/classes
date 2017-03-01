@@ -62,11 +62,13 @@ them with articles in journals or proceedings.
 Author:
 This field should include all the authors for your entry. Author names
 should be separated using “and”. We can write the author names in two
-forms as below –
-Example 1: Type 1 -- Donald E. Knuth
-        Type 2 -- Knuth, Donald E.
-Example 2: Type 1 -- Eddie van Halen
-        Type 2 -- van Halen, Eddie
+forms::
+  
+  Example 1: Type 1 -- Donald E. Knuth
+             Type 2 -- Knuth, Donald E.
+  Example 2: Type 1 -- Eddie van Halen
+             Type 2 -- van Halen, Eddie
+
 The second type should be used for authors with more than two names to
 differentiate between middle name and last names.
   
