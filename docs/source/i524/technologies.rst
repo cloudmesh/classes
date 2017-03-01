@@ -1984,7 +1984,7 @@ High level Programming
      started on its own, so there is no need to deploy any resources
      such as disks and virtual machines.
 
-     :cite:`www-bigquery-documentation` Projects in BigQuery are
+     Projects in BigQuery :cite:`www-bigquery-documentation` are
      top-level containers in Google Cloud Platform. They contain the
      BigQuery Data. Each project is referenced by a name and
      unique ID. Tables contain the data in BigQuery. Each table has a
@@ -6588,9 +6588,9 @@ New Technologies (To Be Integrated by the AIs)
      lots of contributors meaning that the software is constantly
      getting better and better.
 
-389. Apache OODT
+391. Apache OODT
 
-     :cite:`www-oodt` Apache Object Oriented Data Technology (OODT) is
+     Apache Object Oriented Data Technology (OODT) :cite:`www-oodt` is
      a distributed data management technology that helps to integrate
      and archive your processes, your data, and its metadata. OODT
      allows to generate, process, manage and analyze distributed and
