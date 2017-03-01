@@ -696,7 +696,7 @@ Application and Analytics
     linear systems, least squares problems, eigenvalue problems, and
     singular value problems. It is designed for heterogeneous computing
     and is portable on any computer that supports Message Passing
-    Interface or Parallel Virtual Machine. :cite:`www-scalapack`
+    Interface or Parallel Virtual Machine :cite:`www-scalapack`.
 
     ScaLAPACK is a open source software package and is available from
     netlib via anonymous ftp and the World Wide Web. It contains driver
@@ -1780,7 +1780,7 @@ Application Hosting Frameworks
      intensive systems enabling the integration of different,
      distributed software systems, metadata and data. OODT is written
      in the Java, and through its REST API used in other languages
-     including Python. :cite:`www-oodt2`
+     including Python :cite:`www-oodt2`.
      
 102. Agave
 
@@ -2018,7 +2018,7 @@ High level Programming
      MySQL) deployed across the cluster. It pushes as much as possible
      data processing into the database engine by issuing SQL queries
      which results in resembling a shared-nothing cluster of
-     machines. :cite:`www-hadoopdb`
+     machines :cite:`www-hadoopdb`.
 
      HadoopDB is more scalable than currently available parallel
      database systems and DBMS/MapReduce hybrid systems. It has been
@@ -4872,7 +4872,7 @@ Cluster Resource Management
      grid-optimized job submission. Moab's unique intelligent and
      predictive capabilities evaluate the impact of future orchestration
      decisions across diverse workload domains (HPC, HTC, Big Data, and
-     Cloud VMs).:cite:`www-moab`
+     Cloud VMs) :cite:`www-moab`.
 
 282. Slurm :cite:`www-slurm`
 
@@ -6625,17 +6625,18 @@ Message and Data Protocols
 378. Thrift
 
      The Apache Thrift software framework, for scalable cross-language
-     services development, combines a software stack with a code generation
-     engine to build services that work efficiently and seamlessly between
-     C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa,
-     JavaScript, Node.js, Smalltalk, OCaml and Delphi and other
-     languages. :cite:`paper-thrift` It includes a complete stack for
-     creating clients and servers. It includes a server infrastructure to
-     tie the protocols and transports together. There are blocking,
-     non-blocking, single and multithreaded servers available.  Thrift was
-     originally developed at Facebook, it was open sourced in April 2007
-     and entered the Apache Incubator in May, 2008. It became an Apache TLP
-     in October, 2010. :cite:`www-thrift`
+     services development, combines a software stack with a code
+     generation engine to build services that work efficiently and
+     seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl,
+     Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml and
+     Delphi and other languages :cite:`paper-thrift`. It includes a
+     complete stack for creating clients and servers. It includes a
+     server infrastructure to tie the protocols and transports
+     together. There are blocking, non-blocking, single and
+     multithreaded servers available.  Thrift was originally developed
+     at Facebook, it was open sourced in April 2007 and entered the
+     Apache Incubator in May, 2008. It became an Apache TLP in
+     October, 2010 :cite:`www-thrift`.
      
 379. Protobuf
 
