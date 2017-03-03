@@ -134,16 +134,18 @@ chamelon cloud. This we need to set the default cloud to be chameleon
 with the following command::
 
    $ cm default cloud=chameleon
+   $ cm register profile 
+   $ cm default user=YOURUSERNAME 
 
 Information about the configuration of cloudmesh can be retrieved by
 the following command::
 
-  $cm info
+   $ cm info
 
 Next we need to add the ssh key to the cloudmesh database by running
 the following command.  Make sure you have already generated a
 ssh key with ssh-keygen. The command will add the default id_rsa.pub
-key to a local database. 
+key to a local database:: 
 
    $ cm key add --ssh
 
@@ -212,6 +214,15 @@ To delete a virtual machine, run the following command::
 Example::
 
    $ cm vm delete vibhatha-001
+
+To delete multiple virtual machines, run the following command::
+  
+   $ cm vm delete <name_of_vm>* 
+
+or with ``--all`` option::
+
+   $ cm vm delete --all
+
 
 It is important that you delete or terminate the vm after you are done
 as chameleon cloud has a limited set of resources. we recommend that
