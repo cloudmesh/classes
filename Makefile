@@ -57,8 +57,10 @@ watch:
 build: clean
 	touch docs/source/index.rst
 
-publish:
+bpublish: publish
 	cp docs/build/latex/book.pdf docs/build/html
+
+publish:
 	ghp-import -n -p docs/build/html
 
 view:

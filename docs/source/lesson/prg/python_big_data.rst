@@ -1,8 +1,6 @@
 Python for Big Data
 ===================
 
-.. contents::
-
 An Example with Pandas, NumPy and Matplotlib
 --------------------------------------------
 
