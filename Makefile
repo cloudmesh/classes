@@ -25,6 +25,17 @@ notebooks:
 	cd  docs/source/notebooks/; jupyter nbconvert --to rst facedetection.ipynb
 
 pdf: 
+	cd docs;  make latex 
+	cd docs/build/latex; pdflatex -interaction  nonstopmode  i524-notes 
+	# cd docs/build/latex; bibtex Classes
+	cd docs/build/latex; pdflatex -interaction  nonstopmode  i524-notes
+	cd docs/build/latex; pdflatex -interaction  nonstopmode  i524-notes 
+	cp docs/build/latex/i524-notes.pdf docs/build/html
+
+bview:
+	$(BROWSER) docs/build/html/i524-notes.pdf
+
+b: 
 	cd docs;  make latex
 	cp -r docs/book-template/* docs/build/latex
 	perl -ne 'print unless 1../begin{document}/' < docs/build/latex/i524-notes.tex > /tmp/content.tex
