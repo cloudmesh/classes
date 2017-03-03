@@ -32,7 +32,7 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 +-------------------------------------------------------------------------------+--------------------+-----+
 | :ref:`TechList.1a - 1.c <techs-exercise>`                                     | Mon, Feb 15, 9am   | T0a |
 +-------------------------------------------------------------------------------+--------------------+-----+
-| :doc:`Technology Paper 1 <paper1-hw>`                                         | Mon, Feb 27, 9am   | T1  |
+| :doc:`Technology Paper 1 <paper1-hw>`                                         | Mon, Feb 27, 9am   | PA1 |
 +-------------------------------------------------------------------------------+--------------------+-----+
 | :doc:`BibTeX open discussions on Piazza <open-discussions-hw>`                | Overdue            | T0c |
 +-------------------------------------------------------------------------------+--------------------+-----+
@@ -40,13 +40,13 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 +-------------------------------------------------------------------------------+--------------------+-----+
 | :ref:`TechList.1d and Techlist 2 <techs-exercise>`                            | Mon, Feb 27, 9am   | T0b |
 +-------------------------------------------------------------------------------+--------------------+-----+
-| :doc:`Python cmd homework <python-homework>`                                  | See assignment link| T0d |
+| :doc:`Python cmd homework <python-homework>`                                  | See assignment link| PR1 |
 +-------------------------------------------------------------------------------+--------------------+-----+
 | :doc:`TechList Peer Review <techlist-peer-review>`                            | See assignment link| T0d |
 +-------------------------------------------------------------------------------+--------------------+-----+
-| Technology Paper 2 due                                                        | Mon, Mar 27, 9am   | T3  |
+| Technology Paper 2 due                                                        | Mon, Mar 27, 9am   | PA2 |
 +-------------------------------------------------------------------------------+--------------------+-----+
-| :doc:`Ansible Deployment of Technology (New) <ansible-assignment>`            | Mon, Mar 27, 9am   | A1  |
+| :doc:`Ansible Deployment of Technology (New) <ansible-assignment>`            | See assignment link| PR2 |
 +-------------------------------------------------------------------------------+--------------------+-----+
 | Auto Witdraw	                                                                | Sun, Mar 12        |     |
 +-------------------------------------------------------------------------------+--------------------+-----+
