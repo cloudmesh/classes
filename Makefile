@@ -40,8 +40,9 @@ b:
 	cp -r docs/book-template/* docs/build/latex
 	perl -ne 'print unless 1../begin{document}/' < docs/build/latex/i524-notes.tex > /tmp/content.tex
 	sed '/end{document}/ {$!N;d;}' /tmp/content.tex > docs/build/latex/content.tex
+	#cd docs/build/latex; pdflatex book
 	cd docs/build/latex; pdflatex -interaction  nonstopmode  book
-	# cd docs/build/latex; bibtex book
+	# cd docs/build/latex; biber book
 	cd docs/build/latex; pdflatex -interaction  nonstopmode  book
 	cd docs/build/latex; pdflatex -interaction  nonstopmode  book
 	cp docs/build/latex/book.pdf docs/build/html
