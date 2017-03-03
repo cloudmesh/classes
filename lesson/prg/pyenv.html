@@ -271,9 +271,9 @@
 <li><a class="reference internal" href="#">pyenv</a><ul>
 <li><a class="reference internal" href="#install-pyenv-on-osx">Install pyenv on OSX</a></li>
 <li><a class="reference internal" href="#python-versions">Python Versions</a></li>
-<li><a class="reference internal" href="#install-different-python-versions">Install different python versions</a></li>
+<li><a class="reference internal" href="#install-different-python-versions">Install Different Python Versions</a></li>
 <li><a class="reference internal" href="#set-up-the-shell">Set up the Shell</a></li>
-<li><a class="reference internal" href="#switching-environments">Switching environments</a></li>
+<li><a class="reference internal" href="#switching-environments">Switching Environments</a></li>
 <li><a class="reference internal" href="#make-sure-pip-is-up-to-date">Make sure pip is up to date</a></li>
 <li><a class="reference internal" href="#excersise">Excersise</a></li>
 </ul>
@@ -502,9 +502,9 @@
 <li><a class="reference internal" href="#">pyenv</a><ul>
 <li><a class="reference internal" href="#install-pyenv-on-osx">Install pyenv on OSX</a></li>
 <li><a class="reference internal" href="#python-versions">Python Versions</a></li>
-<li><a class="reference internal" href="#install-different-python-versions">Install different python versions</a></li>
+<li><a class="reference internal" href="#install-different-python-versions">Install Different Python Versions</a></li>
 <li><a class="reference internal" href="#set-up-the-shell">Set up the Shell</a></li>
-<li><a class="reference internal" href="#switching-environments">Switching environments</a></li>
+<li><a class="reference internal" href="#switching-environments">Switching Environments</a></li>
 <li><a class="reference internal" href="#make-sure-pip-is-up-to-date">Make sure pip is up to date</a></li>
 <li><a class="reference internal" href="#excersise">Excersise</a></li>
 </ul>
@@ -554,24 +554,24 @@
 [<a class="reference external" href="https://github.com/yyuu/pyenv">https://github.com/yyuu/pyenv</a>].</p>
 <p>pyenv allows:</p>
 <ul class="simple">
-<li>users to  change the global Python version on a per-user basis.</li>
-<li>users to enable support for per-project Python versions.</li>
-<li>allow easy version changes without complex environment variable
-management.</li>
-<li>search installed commands accross different python versions</li>
-<li>integrate with tox [<a class="reference external" href="https://tox.readthedocs.io/en/latest/">https://tox.readthedocs.io/en/latest/</a>]</li>
+<li>users to  change the global Python version on a per-user basis;</li>
+<li>users to enable support for per-project Python versions;</li>
+<li>easy version changes without complex environment variable
+management;</li>
+<li>to search installed commands accross different python versions;</li>
+<li>integrate with tox [<a class="reference external" href="https://tox.readthedocs.io/en/latest/">https://tox.readthedocs.io/en/latest/</a>].</li>
 </ul>
 <div class="section" id="install-pyenv-on-osx">
 <h2>Install pyenv on OSX<a class="headerlink" href="#install-pyenv-on-osx" title="Permalink to this headline">¶</a></h2>
 <p>We describe here a mechanism of installing pyenv with homebrew. Other
-mechnisms can be found on the pyenv documentation page
+mechanisms can be found on the pyenv documentation page
 [<a class="reference external" href="https://github.com/yyuu/pyenv-installer">https://github.com/yyuu/pyenv-installer</a>]. First, make sure you have
 xcode installed:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ xcode-select --install
 </pre></div>
 </div>
-<p>Next let us install homebrew, pyenv, pyenv-virtualenv and
-pyenv-virtualwrapper. Additionally we like to install readline and
+<p>Next install homebrew, pyenv, pyenv-virtualenv and
+pyenv-virtualwrapper. Additionally install readline and
 some compression tools:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">ruby</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span>
 <span class="n">brew</span> <span class="n">update</span>
@@ -582,40 +582,40 @@ some compression tools:</p>
 </div>
 <div class="section" id="python-versions">
 <h2>Python Versions<a class="headerlink" href="#python-versions" title="Permalink to this headline">¶</a></h2>
-<p>In order to use pyenv you need to have some python version
-installed. We recommend that you download and install python 2.7.13
+<p>In order to use pyenv, you need to have more than one python version
+installed. We recommend you download and install python 2.7.13
 and 3.6 from python.org [<a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>]</p>
 </div>
 <div class="section" id="install-different-python-versions">
-<h2>Install different python versions<a class="headerlink" href="#install-different-python-versions" title="Permalink to this headline">¶</a></h2>
+<h2>Install Different Python Versions<a class="headerlink" href="#install-different-python-versions" title="Permalink to this headline">¶</a></h2>
 <p>You can now install different versions of python into your local
 environment with the following commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv install 2.7.13
 $ pyenv install 3.6.0
 </pre></div>
 </div>
-<p>YOu cen set the global python defualt vesrion with:</p>
+<p>You can set the global python defualt version with:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv global 2.7.13
 </pre></div>
 </div>
-<p>To get the versions accessible to you you can say:</p>
+<p>Type the following to determine which versions you have available:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv version
 </pre></div>
 </div>
-<p>To associate a specifc name with a python version you can use the
-commands:</p>
+<p>Associate a specifc environment name with a certain python version,
+use the following commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv virtualenv 2.7.13 ENV2
 $ pyenv virtualenv 3.6.0 ENV3
 </pre></div>
 </div>
-<p>In this example you will have <cite>ENV2</cite> representing python 2.7.13 and <cite>ENV3</cite>
-representing python 3.6.0. Often its just easier to typ this than the
-explicit version.</p>
+<p>In the example above, <cite>ENV2</cite> would represent python 2.7.13 while <cite>ENV3</cite>
+would represent python 3.6.0. Often it is easier to type the alias rather
+than the explicit version.</p>
 </div>
 <div class="section" id="set-up-the-shell">
 <h2>Set up the Shell<a class="headerlink" href="#set-up-the-shell" title="Permalink to this headline">¶</a></h2>
-<p>To make all smothely work from your terminal, you can
-unclude the follwowing in your .bashrc files:</p>
+<p>To make all work smoothly from your terminal, you can
+include the follwowing in your .bashrc files:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 eval &quot;$(pyenv init -)&quot;
 eval &quot;$(pyenv virtualenv-init -)&quot;
@@ -634,9 +634,9 @@ PS1=&quot;\$(__pyenv_version_ps1) ${PS1}&quot;
 </div>
 </div>
 <div class="section" id="switching-environments">
-<h2>Switching environments<a class="headerlink" href="#switching-environments" title="Permalink to this headline">¶</a></h2>
-<p>While having set up the environments switchin between them is now easy
-with the following commands:</p>
+<h2>Switching Environments<a class="headerlink" href="#switching-environments" title="Permalink to this headline">¶</a></h2>
+<p>After setting up the different environments, switching between them is now easy.
+Simply use the following commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>(2.7.13) laptop~ gregor$ pyenv activate ENV2
 (ENV2) laptop~ gregor$ pyenv activate ENV3
 (ENV3) laptop~ gregor$ pyenv activate ENV2
@@ -650,8 +650,8 @@ file:</p>
 <span class="n">alias</span> <span class="n">ENV3</span><span class="o">=</span><span class="s2">&quot;pyenv activate ENV3&quot;</span>
 </pre></div>
 </div>
-<p>If you start now a new terminal, you can swithc between the different
-versions of python simply with:</p>
+<p>If you start a new terminal, you can switch between the different
+versions of python simply by typing:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ ENV2
 $ ENV3
 </pre></div>
@@ -670,11 +670,11 @@ date:</p>
 <h2>Excersise<a class="headerlink" href="#excersise" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
 <dt>pyenv.1:</dt>
-<dd>write an install instruction for an operation system of your choice
-and add tor this documentation</dd>
+<dd>Write installation instructions for an operating system of your choice
+and add to this documentation.</dd>
 <dt>pyenv.2:</dt>
-<dd>replicate the steps so you can type in ENV2 and ENV3 in yor
-terminals to switch between python 2 and 3</dd>
+<dd>Replicate the steps above, so you can type in ENV2 and ENV3 in your
+terminals to switch between python 2 and 3.</dd>
 </dl>
 </div>
 </div>
