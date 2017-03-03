@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Programming &#8212; Big Data Classes</title>
+    <title>CMD5 &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -32,8 +32,8 @@
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Git" href="git.html" />
-    <link rel="prev" title="Oragnization" href="../org/index.html" />
+    <link rel="next" title="Introduction to Python" href="python_intro.html" />
+    <link rel="prev" title="cmd Module" href="python_cmd.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -157,7 +157,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Programming</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
@@ -268,7 +268,14 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Programming</a></li>
+<li><a class="reference internal" href="#">CMD5</a><ul>
+<li><a class="reference internal" href="#resources">Resources</a></li>
+<li><a class="reference internal" href="#installation-from-source">Installation from source</a></li>
+<li><a class="reference internal" href="#execution">Execution</a></li>
+<li><a class="reference internal" href="#create-your-own-extension">Create your own Extension</a></li>
+<li><a class="reference internal" href="#excersise">Excersise</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -389,7 +396,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Programming</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Programming</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
@@ -490,7 +497,14 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Programming</a></li>
+<li><a class="reference internal" href="#">CMD5</a><ul>
+<li><a class="reference internal" href="#resources">Resources</a></li>
+<li><a class="reference internal" href="#installation-from-source">Installation from source</a></li>
+<li><a class="reference internal" href="#execution">Execution</a></li>
+<li><a class="reference internal" href="#create-your-own-extension">Create your own Extension</a></li>
+<li><a class="reference internal" href="#excersise">Excersise</a></li>
+</ul>
+</li>
 </ul>
 <p></p>
 <hr>
@@ -530,24 +544,160 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="programming">
-<h1>Programming<a class="headerlink" href="#programming" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="git.html">Git</a></li>
-<li class="toctree-l1"><a class="reference internal" href="github.html">Github</a></li>
-<li class="toctree-l1"><a class="reference internal" href="gitlab.html">Gitlab</a></li>
-<li class="toctree-l1"><a class="reference internal" href="programming.html">Additional Programming Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="programming.html#preview-course-examples">Preview Course Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pull_requests.html">Pull Requests</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pyenv.html">pyenv</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_big_data.html">Python for Big Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_cmd.html"><cite>cmd</cite> Module</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_cmd5.html">CMD5</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_intro.html">Introduction to Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="rest.html">REST with Eve</a></li>
+  <div class="section" id="cmd5">
+<h1>CMD5<a class="headerlink" href="#cmd5" title="Permalink to this headline">¶</a></h1>
+<p>CMD is a very useful package in python to create command line
+shells. However it does not allow the dynamic integration of newly
+defined commands. Furthermore, addition to cmd need to be done within
+the same source tree. To simplify developping commands by a number of
+people and to have a dynamic plugin mechnism, we developed cmd5.
+It is a rewrite on our ealier effords in cloudmesh and cmd3.</p>
+<div class="section" id="resources">
+<h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<p>The source code for cmd5 is located in github:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cmd5">https://github.com/cloudmesh/cmd5</a></li>
 </ul>
+</div>
+<div class="section" id="installation-from-source">
+<h2>Installation from source<a class="headerlink" href="#installation-from-source" title="Permalink to this headline">¶</a></h2>
+<p>We recommend that you use a virtualenv either with virtualenv or
+pyenv. This can be either achieved vor virtualenv with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">virtualenv</span> <span class="o">~/</span><span class="n">ENV2</span>
+</pre></div>
+</div>
+<p>or for pyenv, with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pyenev</span> <span class="n">virtualenv</span> <span class="mf">2.7</span><span class="o">.</span><span class="mi">13</span> <span class="n">ENV2</span>
+</pre></div>
+</div>
+<p>Next, you must install cloudmesh_client with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">cloudmesh_client</span>
+</pre></div>
+</div>
+<p>Now you need to get two source directories. We assume yo place them in
+~/github:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">~/</span><span class="n">github</span>
+<span class="n">cd</span> <span class="o">~/</span><span class="n">github</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">cmd5</span><span class="o">.</span><span class="n">git</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">extbar</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+<p>The cmd5 repository contains the shell, while the extbar directory
+contains the sample to add the dynamic commands foo and bar.</p>
+<p>To install them simply to the following:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">~/</span><span class="n">github</span><span class="o">/</span><span class="n">cmd5</span>
+<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+<span class="n">cd</span> <span class="o">~/</span><span class="n">github</span><span class="o">/</span><span class="n">extbar</span>
+<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="execution">
+<h2>Execution<a class="headerlink" href="#execution" title="Permalink to this headline">¶</a></h2>
+<p>to run the shell you can activate it with the cms command. cms stands
+for cloudmesh shell:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV2) $ cms
+</pre></div>
+</div>
+<p>It will print the banner and enter the shell:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>+-------------------------------------------------------+
+|   ____ _                 _                     _      |
+|  / ___| | ___  _   _  __| |_ __ ___   ___  ___| |__   |
+| | |   | |/ _ \| | | |/ _` | &#39;_ ` _ \ / _ \/ __| &#39;_ \  |
+| | |___| | (_) | |_| | (_| | | | | | |  __/\__ \ | | | |
+|  \____|_|\___/ \__,_|\__,_|_| |_| |_|\___||___/_| |_| |
++-------------------------------------------------------+
+|                  Cloudmesh CMD5 Shell                 |
++-------------------------------------------------------+
+
+cms&gt;
+</pre></div>
+</div>
+<p>To see the list of commands you can say</p>
+<blockquote>
+<div>cms&gt; help</div></blockquote>
+<p>To see the manula page for a specific command, please use:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">help</span> <span class="n">COMMANDNAME</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="create-your-own-extension">
+<h2>Create your own Extension<a class="headerlink" href="#create-your-own-extension" title="Permalink to this headline">¶</a></h2>
+<p>One of the most important features of CMD5 is its ability to extend it
+with new commands.  This is done via packaged name spaces. This is
+defined in the setup.py file of your enhancement. The best way to
+create an enhancement is to take a look at the code in</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/extbar.git">https://github.com/cloudmesh/extbar.git</a></li>
+</ul>
+<p>Simply copy the code and modify the bar and foo commands to fit yor
+needs. It is important that all objects are defined in the command
+itself and that no global variables be use in order to allow each
+shell command to stand alone. Naturally you should develop API
+libraries outside of the cloudmesh shell command and reuse them in
+order to keep the command code as small as possible. We place the
+command in:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cloudmsesh</span><span class="o">/</span><span class="n">ext</span><span class="o">/</span><span class="n">command</span><span class="o">/</span><span class="n">COMMANDNAME</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>An example for the bar command is presented at:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/extbar/blob/master/cloudmesh/ext/command/bar.py">https://github.com/cloudmesh/extbar/blob/master/cloudmesh/ext/command/bar.py</a></li>
+</ul>
+<p>It shows how simple the command definition is (bar.py):</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span>
+<span class="kn">from</span> <span class="nn">cloudmesh_client.shell.command</span> <span class="k">import</span> <span class="n">command</span>
+<span class="kn">from</span> <span class="nn">cloudmesh_client.shell.command</span> <span class="k">import</span> <span class="n">PluginCommand</span>
+
+<span class="k">class</span> <span class="nc">BarCommand</span><span class="p">(</span><span class="n">PluginCommand</span><span class="p">):</span>
+
+    <span class="nd">@command</span>
+    <span class="k">def</span> <span class="nf">do_bar</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">arguments</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        ::</span>
+<span class="sd">          Usage:</span>
+<span class="sd">                command -f FILE</span>
+<span class="sd">                command FILE</span>
+<span class="sd">                command list</span>
+<span class="sd">          This command does some useful things.</span>
+<span class="sd">          Arguments:</span>
+<span class="sd">              FILE   a file name</span>
+<span class="sd">          Options:</span>
+<span class="sd">              -f      specify the file</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">arguments</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>An important difference to other CMD solutions is that our commands
+can leverage (besides the standrad definition), docopts as a way to
+define the manual page. This allows us to use arguments as dict and
+use simple if conditions to interpret the command. Using docopts has
+the advantage that contributors are forced to think about the command
+and its options and document them from the start. Previously we used
+not to use docopts and argparse was used. However we noticed that for
+some contributions the lead to commands that were either not properly
+documented or the developers delivered ambiguous commands that
+resulted in confusion and wrong ussage by the users. Hence, we do
+recommend that you use docopts.</p>
+<p>The transformation is enabled by the &#64;command decorator that takes
+also the manual page and creates a proper help message for the shell
+automatically. Thus there is no need to introduce a sepaarte help
+method as would normally be needed in CMD.</p>
+</div>
+<div class="section" id="excersise">
+<h2>Excersise<a class="headerlink" href="#excersise" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>CMD5.1:</dt>
+<dd>Install cmd5 on your computer.</dd>
+<dt>CMD5.2:</dt>
+<dd>Write a new command with your firstname as teh command name.</dd>
+<dt>CMD5.3:</dt>
+<dd>Write a new command and experiment with docopt syntax and argument
+interpretation of the dict with if conditions.</dd>
+<dt>CMD5.4:</dt>
+<dd>If you have useful extensions that you like us to add by default,
+please work with us.</dd>
+</dl>
 </div>
 </div>
 
