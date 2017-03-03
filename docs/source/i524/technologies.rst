@@ -7001,6 +7001,31 @@ New Technologies (To Be Integrated by the AIs)
      Marching, Query and Scripting, Stream manipulators, Parsers and UI &
      Charting operators :cite:`www-apacheapexblog`.
 
+     Apache Knox
+
+     According to :cite:'knox', “the Apache Knox Gateway is a REST API
+     Gateway for interacting with Apache Hadoop clusters.” REST stands
+     for Representational State Transfer and is web architectural
+     style designed for distributed hypermedia systems and defines a
+     set of constraints. :cite:'fielding' API Gateways manage concerns
+     related to “Authentication, Transport Security, Load-balancing,
+     Request Dispatching (including fault tolerance and service
+     discovery), Depenency Resolution, Transport Transformations.”
+     :cite:'peyrott' Although every Apache Hadoop cluster has its own
+     set of REST APIs, Knox will represent all of them as “a single
+     cluster specific application context path.” :cite:'knox' Knox
+     protects Apache Hadoop clusters, by way of its gateway function,
+     by aiding “the control, integration, monitoring and automation of
+     critical administrative and analytical needs.” :cite:'knox' Some
+     Apache Hadoop Services that integrate with Knox are, “Ambari,
+     WebHDFS (HDFS), Templeton (Hcatalog), Stargate (Hbase), Oozie,
+     Hive/JDBC, Yarn RM, [and] Storm.”  :cite:'knox' Apache Knox has a
+     configuration driven method to aid in the addition of new routing
+     services. :cite:'knox' This allows support for new and custom
+     Apache Hadoop REST APIs to be added to the Knox gateway quickly
+     and easily. :cite:'knox' This technology would be best placed
+     under the interoperability category.
+
 .. _techs-exercise:
 
 Excersise
