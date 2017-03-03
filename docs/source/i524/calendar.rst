@@ -44,9 +44,9 @@ Residential classes meet Mondays 09:30A-10:45A, I2 130
 +-------------------------------------------------------------------------------+--------------------+-----+
 | :doc:`TechList Peer Review <techlist-peer-review>`                            | See assignment link| T0d |
 +-------------------------------------------------------------------------------+--------------------+-----+
-| Technology Paper 2 due                                                        | Mon, Mar 27, 9am   | PA2 |
+| :doc:`Ansible Deployment of Emacs <ansible-assignment>`                       | See assignment link| PR2 |
 +-------------------------------------------------------------------------------+--------------------+-----+
-| :doc:`Ansible Deployment of Technology (New) <ansible-assignment>`            | See assignment link| PR2 |
+| Technology Paper 2 due                                                        | Mon, Mar 27, 9am   | PA2 |
 +-------------------------------------------------------------------------------+--------------------+-----+
 | Auto Witdraw	                                                                | Sun, Mar 12        |     |
 +-------------------------------------------------------------------------------+--------------------+-----+
