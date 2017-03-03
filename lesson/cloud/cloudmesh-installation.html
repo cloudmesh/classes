@@ -673,19 +673,22 @@ machines.</p>
 chamelon cloud. This we need to set the default cloud to be chameleon
 with the following command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm default cloud=chameleon
+$ cm register profile
+$ cm default user=YOURUSERNAME
 </pre></div>
 </div>
 <p>Information about the configuration of cloudmesh can be retrieved by
 the following command:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$cm info
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm info
 </pre></div>
 </div>
 <p>Next we need to add the ssh key to the cloudmesh database by running
 the following command.  Make sure you have already generated a
 ssh key with ssh-keygen. The command will add the default id_rsa.pub
-key to a local database.</p>
-<blockquote>
-<div>$ cm key add &#8211;ssh</div></blockquote>
+key to a local database:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm key add --ssh
+</pre></div>
+</div>
 <p>Not that the key is in our local cloudmesh database, we need to upload
 it to all active clouds. As we have just one active cloud it will
 uploade the key to the chamelon cloud once you execute the command:</p>
@@ -747,6 +750,14 @@ such issues.</p>
 </div>
 <p>Example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm delete vibhatha-001
+</pre></div>
+</div>
+<p>To delete multiple virtual machines, run the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm delete &lt;name_of_vm&gt;*
+</pre></div>
+</div>
+<p>or with <code class="docutils literal"><span class="pre">--all</span></code> option:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm delete --all
 </pre></div>
 </div>
 <p>It is important that you delete or terminate the vm after you are done
