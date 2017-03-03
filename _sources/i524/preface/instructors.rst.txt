@@ -1,5 +1,5 @@
 Instructors
-------------
+===========
 
 The course presents lectures in online form given by the instructors
 listed bellow. Many others have helped making this material available
