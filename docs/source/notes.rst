@@ -1,17 +1,20 @@
 :orphan:
 
-*************
-I524 - Notes
-*************
-
-I524 Preface 
-=================
+i524
+====
+   
+I524 Preface
+============
 
 .. toctree::
-   :maxdepth: 10
+   :maxdepth: 1
 
-   i524/preface/index	      
-
+   i524/preface/about
+   i524/preface/disclaimer
+   i524/preface/convention
+   i524/preface/instructors
+   lesson/contrib/contributing.rst
+   
 I524 Introduction
 =================
 
@@ -22,6 +25,14 @@ I524 Introduction
    i524/calendar
    i524/lectures
 
+I524 FAQ
+========
+
+.. toctree::
+   :maxdepth: 10
+
+   faq
+
 I524 Technology Collection
 ==========================
 
@@ -31,44 +42,83 @@ I524 Technology Collection
    i524/hids-techs
    i524/technologies
    references
+
    
-I524 FAQ
-========
+Project
+=======
 
 .. toctree::
    :maxdepth: 10
 
-   faq
-
-I524 Lessons
-============
+   lesson/data/datasets.rst
+   lesson/doc/report
+   
+Document Preparation
+====================
 
 .. toctree::
    :maxdepth: 10
 
-   lesson/doc/index
-   lesson/linux/index
+   lesson/doc/emacs.rst
+   lesson/doc/latex.rst   
+   lesson/doc/bibtex.rst
+   lesson/doc/bibtex-1.rst	
+   lesson/doc/bibtex-7.rst		
+   lesson/doc/report.rst
+   lesson/doc/rst.rst
+
+Linux
+=====
+
+.. toctree::
+   :maxdepth: 10
+
+   lesson/linux/linux
    lesson/linux/refcards
-   lesson/prg/rest
+   lesson/linux/ssh
+   lesson/linux/ubuntu
+   lesson/linux/virtualbox
+      
+Python
+======
+
+.. toctree::
+   :maxdepth: 10
+   
    lesson/prg/python_intro
+   lesson/prg/pyenv   
    lesson/prg/python_big_data
    lesson/prg/python_cmd
+   lesson/prg/python_cmd5
+   lesson/prg/rest
    i524/python-homework
    lesson/prg/python_lesson1
-   lesson/prg/pyenv   
 
+Ansible
+=======
+
+.. toctree::
+   :maxdepth: 10
    
-Index
------
+   lesson/devops/ansible/ansible-I
+   lesson/devops/ansible/ansible-II   
+   lesson/devops/ansible/ansible-III
 
-:ref:`genindex`
+Github
+======
+
+.. toctree::
+   :maxdepth: 10
+   
+   lesson/prg/github
 
 
-..
-   COMMENT
+IaaS
+====
 
-   lesson/index
-   notebooks/index
-
+.. toctree::
+   :maxdepth: 10
+   
+   lesson/cloud/cloudmesh-installation
    
       
