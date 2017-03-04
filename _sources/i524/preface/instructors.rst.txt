@@ -15,7 +15,7 @@ and may not be listed here. For this class support is provided by
 
 
 Dr. Gregor von Laszewski
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 .. image:: /images/gregor2.png
 
@@ -58,7 +58,7 @@ independent studies. Current topics include but are not limited to
 Please contact me if you are interested in this.
 
 Dr. Geoffrey C. Fox
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 .. image:: /images/gcf.jpg
 
@@ -87,7 +87,7 @@ is a Fellow of APS (Physics) and ACM (Computing).
 
 
 Dr. Badi' Abdul-Wahid
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 .. image:: /images/badi.png
 
@@ -127,6 +127,7 @@ distributed computing at minority-serving institutions.
 
 Dimitar Nikolov
 ^^^^^^^^^^^^^^^
+
 .. image:: /images/dimitar.png
 	   
 **Dimitar Nikolov** is a PhD student in the Computer Science program at
@@ -138,6 +139,7 @@ Menczer. His thesis topic is TBD.
 
 Vibhatha Abeykoon
 ^^^^^^^^^^^^^^^^^
+
 .. image:: /images/vb.png
      
 **Vibhatha Abeykoon** is a PhD student in the Intelligent Systems Engineering program at
@@ -148,6 +150,7 @@ PhD he conducts research with Professor Geoffrey C. Fox and Assistant Professor 
 
 Miao Zhang
 ^^^^^^^^^^
+
 .. image:: /images/miao100px.jpg
      
 **Miao Zhang** PhD student working primarily on computer network related stuff.
@@ -155,6 +158,7 @@ Currently focuses on network performance monitoring and forecasting.
 
 Tony Liu
 ^^^^^^^^
+
 .. image:: /images/tony.png
 
 **Tony Liu** is a PhD student in the Intelligent Systems Engineering program at Indiana University since August 2016. He received his Master degree in Computer Science program in May 2016 at IU. His research interests are high performance computing, computer systems and computer architecture. He used to work under Professor Thomas Sterling and Professor Andrew Lumsdaine from Center for Research in Extreme Scale Technology (CREST) on HPX-5 runtime system project. His currently works on benchmarking Intel Xeon Phi Knights Landing processor with Caffe under Professor Judy Qiu and Professor Lei Jiang.
