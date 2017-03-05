@@ -5883,47 +5883,14 @@
   review =	 {The title preferably should not contain everything
                   in capitals.  Also, correct commas should be used in
                   the address attribute.},
-  title =	 {Docker Up and Running, SHIPPING RELIABLE CONTAINERS
-                  IN PRODUCTION},
+  title =	 {Docker Up and Running, Shipping Reliable Containers
+                  In Production},
   publisher =	 {O'REILLY},
   year =	 2015,
   author =	 {Karl Matthias and Sean P. Kane},
   address =	 {1005 Gravenstein Highway North, Sebastopol, CA
                   95472.},
   isbn =	 {978-1-491-91757-2},
-  abstract =	 {Docker is an open-source container based
-                  technology.A container allows a developer to package
-                  up an application and all its part includig the
-                  stack it runs on, dependencies it is associated with
-                  and everything the application requirs to run within
-                  an isolated enviorment . Docker seperates
-                  Application from the underlying Operating System in
-                  a similar way as Virtual Machines seperates the
-                  Operating System from the underlying
-                  Hardware.Dockerizing an application is very
-                  lightweight in comparison with running the
-                  application on the Virtual Machine as all the
-                  containers share the same underlying kernel, the
-                  Host OS should be same as the container OS
-                  (eliminating guest OS) and an average machine cannot
-                  have more than few VMs running o them.
-                  :cite:'docker-book' Docker Machine is a tool that
-                  lets you install Docker Engine on virtual hosts, and
-                  manage the hosts with docker-machine commands. You
-                  can use Machine to create Docker hosts on your local
-                  Mac or Windows box, on your company network, in your
-                  data center, or on cloud providers like AWS or
-                  Digital Ocean. For Docker 1.12 or higher swarm mode
-                  is integerated with the Docker Engine, but on the
-                  older versions with Machine's swarm option, we can
-                  configure a swarm cluster Docker Swarm provides
-                  native clustering capabilities to turn a group of
-                  Docker engines into a single, virtual Docker
-                  Engine. With these pooled resources
-                  ,:cite:'www-docker'"you can scale out your
-                  application as if it were running on a single, huge
-                  computer" as swarm can be scaled upto 1000 Nodes or
-                  upto 50,000 containers},
   editior =	 {Brian Anderson},
   owner =	 {S17-IR-2021},
 }
@@ -5931,7 +5898,7 @@
 @Misc{www-docker,
   review =	 {The title attribute is incorrect, as there is no
                   reason behind using an extra pair of curly braces.},
-  title =	 {{doxker},swarm},
+  title =	 {docker,swarm},
   howpublished = {WebPage},
   note =	 {Accessed: 2017-8-02},
   owner =	 {S17-IR-2021},
@@ -5947,67 +5914,17 @@
                   checks like data processing instead of data
                   'P'rocessing, etc.},
   author =	 {Guoqiang Jerry Chen and Janet L. Wiener and Shridhar
-                  Iyer and Anshul Jaiswal anad Ran Lei Nikhil Simha
+                  Iyer and Anshul Jaiswal anad Ran Lei and Nikhil Simha
                   and Wei Wang and Kevin Wilfong and Tim Williamson
                   and Serhat Yilmaz},
-  title =	 {Realtime Data Processing at Facebook},
+  title =	 {Realtime Data processing at Facebook},
   year =	 2016,
+  pages  =       {1087-1098},
+  datepublished ={2016-06-26},
   address =	 {San Francisco, CA USA},
   organization = {Facebook},
-  publisher =	 {Facebook.inc},
-  abstract =	 {The real time data Processing at Fcabook is carried
-                  out using the technologies like Scibe,PTail, Puma
-                  and ODS. While designing the system, facebook
-                  primarily focused on the five key decissions that
-                  the system should incorporate and that included Ease
-                  of Use, Performance , Fault-tolerance , Scalability
-                  and Correctness.:cite: 'www-facebook' "The real time
-                  data analytics ecosystem at facebook is designed to
-                  handle hundreds of Gigabytes of data per second via
-                  hundreds of data pipelines and this system handles
-                  over 200,000 events per second with a maximum
-                  latency of 30 seconds". :cite:'www-facebook'Fcabook
-                  focused on the Seconds of latency while designing
-                  the system and not milliseconds as seconds are fast
-                  enough to for all the use case that needs to be
-                  supported, and it allowed facebook to use persistent
-                  message bus for data transport and this made the
-                  system more fault toleranat and
-                  scalable. :cite:'facebook-paper-2017' The large
-                  infrastructure of facebook comprises of hundreds of
-                  systems distributed across multiple data centers
-                  that needs a continious monitoring to track their
-                  health and performance.Which is done by Operational
-                  Data Store(ODS).ODS comprises of a time series
-                  database (TSDB),which is a query service, and a
-                  detection and alerting system. ODS’s TSDB is built
-                  atop the HBase storage system.Time series data from
-                  services running on Facebook hosts is collected by
-                  the ODS write service and written to HBase.  When
-                  the data is generated by the user from their
-                  devices, an AJAX request is fired to facebook,and
-                  these requests are then written to a log file using
-                  Scribe(distributed data transport system), this
-                  messaging system collect, aggregate and delivers
-                  high volume of log data with few seconds of latency
-                  and high throughput.Scribe stores the data in the
-                  HDFS(Hadoop Distributed File System) in a tailing
-                  fashion, where the new events are stored in log
-                  files and the files are tailed below the current
-                  events.The events are then written into the storage
-                  HBase on distributed machines. This makes the data
-                  avalible for both batch and real-time
-                  processing. Ptail is an internal tool built to
-                  aggregate data from multiple Scribe stores and It
-                  then tails the log files and pulls data out for
-                  processing. Puma is a stream processing system which
-                  is the real-time aggregation/storage of data. Puma
-                  provides filtering and processing of Scribe streams
-                  (with a few seconds delay), usually Puma batches the
-                  storage per 1.5 seconds on average and when the last
-                  flush completes, then only a new batch starts to
-                  avoid the contention issues, which makes i fairly
-                  real time.},
+  publisher =	 {Facebook.Inc.},
+  sponsors    =  {SIGMOD ACM Special Interest Group on Management of Data },
   owner =	 {S17-IR-2021},
 }
 
@@ -6018,7 +5935,9 @@
   title =	 {Facebook's New Realtime Analytics System: HBase To
                   Process 20 Billion Events Per Day},
   howpublished = {Web Page},
-  note =	 {2017-2-8},
+  note =         {Accessed:2017-2-8},
+  year =          2011,
+  month =         mar,
   owner =	 {S17-IR-2021},
   url =
                   {http://highscalability.com/blog/2011/3/22/facebooks-new-realtime-analytics-system-hbase-to-process-20.html},
@@ -6030,46 +5949,12 @@
   title =	 {Reddis Cookbook:Practical Technique for fast Data
                   Manipulation},
   publisher =	 {O'Reilly Media},
-  year =	 2011,
-  author =	 {Tiago Macedo , Fred Oliveira},
+  author =	 {Tiago Macedo and Fred Oliveira},
+  totalpages =   78,
+  year =	 2011, 
+  month =        aug, 
   address =	 {Sonoma County, California, United States},
   isbn =	 {978-1-4493-0503-1},
-  abstract =	 {Redis (Remote Dictionary Server) is an open source
-                  ,in-memory, key-value database which is commonly
-                  referred as a data structure server.
-                  :cite:'redis-book-2011' "It is called a data
-                  structure server and not simply a key-value store
-                  because Redis implements datastructure which allows
-                  keys to contain binary safe strings ,hashes,sets and
-                  sortedsets, as well as lists" .Redis’s exceptional
-                  performance, simplicity to use and implement, and
-                  atomic manipulation of data structures lends itself
-                  to solving problems that are difficult or perform
-                  poorly when implemented with traditional relational
-                  databases.  :cite:'redis-book-2016' "Salivator
-                  Sanfilippo(Creator of open-sorce database Redis)
-                  makes a strong case that Redis does not need to
-                  replace the existing database but is an excellent
-                  addition to an enterprise for new functionalities or
-                  to solve sometimes intyractable problems."
-                  :cite:'redis-book-2016' A very popular use pattern
-                  for Redis is an in-memory cache for
-                  web-applications. The second popular use pattern for
-                  REDIS is for metric storage of such quantitative
-                  data such as web page usage and user behaviour on
-                  gamer leaderboards where using a bit operations on
-                  strings, Redis very efficently stores binary
-                  information on a particular characteristics.The
-                  third popular Redis use pattern is a communication
-                  layer between different systems through a
-                  publish/subscribe(pub/sub for short), where one can
-                  post message to one or more channels that can be
-                  acted upon by other systems that are subscribed to
-                  or listening to that channel for incoming
-                  message. The Comapnies using REDIS includes Twitter
-                  to store the timelines of all the user , Pinterest
-                  stores the user follower graph, Github, popular web
-                  frameworks like Node.js ,Django,Ruby-on-Rails etc.},
   owner =	 {S17-IR-2021},
 }
 
@@ -6079,6 +5964,9 @@
   title =	 {Mastering Redis},
   publisher =	 {Packt Publishing},
   year =	 2016,
+  totalpages =   366,
+  month   =      may,
+  year   =       2016,
   author =	 {Jeremy Nelson},
   isbn =	 {978-1783988181},
   owner =	 {S17-IR-2021},
@@ -6090,12 +5978,12 @@
                   like a date attribute entry which it isn't.},
   title =	 {Introduction to REDIX},
   howpublished = {Web Page},
-  note =	 {2017-2-8},
+  note =	 {accessed: 2017-02-08},
   owner =	 {S17-IR-2021},
   url =		 {https://redis.io/topics/introduction},
 }
 
-@InProceedings{randomname,
+@InProceedings{shark-paper-2012,
   review =	 {The pages entry is incorrect.  There should
                   preferably be a single hypen.  Also the name of the
                   attribute 'randomname' should be more meaningful.},
@@ -6107,7 +5995,7 @@
   booktitle =	 {Proceedings of the 2012 ACM SIGMOD International
                   Conference on Management of Data},
   series =	 {SIGMOD '12},
-  year =	 2012,
+  year =	  2012,
   isbn =	 {978-1-4503-1247-9},
   location =	 {Scottsdale, Arizona, USA},
   pages =	 {689--692},
@@ -6119,45 +6007,6 @@
   address =	 {New York, NY, USA},
   keywords =	 {data warehouse, databases, machine learning,
                   resilient distributed dataset, shark, spark},
-  abstract =	 {Data Scientists when working on huge data sets try
-                  to extract meaning and interpret the data to enhance
-                  insight about the various patterns, oppurtunities
-                  and possiblities that the dataset has to
-                  offer. :cite: 'shark-paper-2012' At a traditional
-                  EDW(Enterprrise Data Warehouse) a simple data
-                  manipulation can be perfpormed using SQL queries but
-                  we have to rely on other systems to apply the
-                  machine learning on thoese data.Apache Shark is a
-                  distributed query engine developed by the open
-                  source community whoese goal is to provide a a
-                  unified system for easy data manipulation using SQL
-                  and pushing sophisticated analysis towards the data.
-                  :cite:'shark-paper-2012' Shark is a data Warehouse
-                  system built on top of Apache Spark which does the
-                  parallel data execution and is capable of deep data
-                  analysis using the Resilient Distributed
-                  Datasets(RDD) memory abstraction which unifies the
-                  SQL query processing engine with analytical
-                  algorithms based on this common abstraction allowing
-                  the two to run in the same set of workers and share
-                  intermediate data. Since RDDs are designed to scale
-                  horizontally, it is easy to add or remove nodes to
-                  accommodate more data or faster query processing
-                  thus it can be scaled to thoushands o nodes in a
-                  fault-toleranat manner :cite:'shark-paper-2012'
-                  "Shark is built on Hive Codebase and it has the
-                  ability to execute HIVE QL queries up to 100 times
-                  faster than Hive without making any change in the
-                  existing queries". Shark can run both on the
-                  StandAlone Mode and Cluster
-                  Mode.:cite:'shark-paper-2012' Shark can answer the
-                  queries 40X faster than Apache Hive and can machine
-                  learning programs 25X faster than MapReduce
-                  programmes. in Apache hadoop on large data
-                  sets.Thus, this new data analysis system performs
-                  query processing and complex analytics(iterative
-                  Machine learning) at scale and efficiently recovers
-                  form the failures midway.},
   owner =	 {S17-IR-2021},
 }
 
@@ -6170,8 +6019,8 @@
                   Shared Memory},
   booktitle =	 {ACM SIGPLAN Notices - PPoPP '13},
   year =	 2013,
-  address =	 {Pittsburgh, Pennsylvania USA},
-  publisher =	 {ACM New York,NY,USA},
+  address =	 {Pittsburgh, Pennsylvania, USA},
+  publisher =	 {ACM New York, NY, USA},
   doi =		 {10.1145/2517327.2442530},
   isbn =	 {978-1-4503-1922-5},
   owner =	 {S17-IR-2021},
