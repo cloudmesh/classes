@@ -32,14 +32,42 @@ pdf:
 	cd docs/build/latex; pdflatex -interaction  nonstopmode  i524-notes 
 	cp docs/build/latex/i524-notes.pdf docs/build/html
 
+bview:
+	cp docs/build/latex/book.pdf docs/build/html	
+	$(BROWSER) docs/build/html/book.pdf
+
+c:
+	cd docs;  make latex
+	cp -r docs/book-template/* docs/build/latex
+	perl -ne 'print unless 1../begin{document}/' < docs/build/latex/i524-notes.tex > /tmp/content.tex
+	sed '/end{document}/ {$!N;d;}' /tmp/content.tex > docs/build/latex/content.tex
+	#cd docs/build/latex; pdflatex book
+	cd docs/build/latex; pdflatex  book
+
+b: 
+	cd docs;  make latex
+	cp -r docs/book-template/* docs/build/latex
+	perl -ne 'print unless 1../begin{document}/' < docs/build/latex/i524-notes.tex > /tmp/content.tex
+	sed '/end{document}/ {$!N;d;}' /tmp/content.tex > docs/build/latex/content.tex
+	#cd docs/build/latex; pdflatex book
+	cd docs/build/latex; pdflatex -interaction  nonstopmode  book
+	# cd docs/build/latex; biber book
+	cd docs/build/latex; pdflatex -interaction  nonstopmode  book
+	cd docs/build/latex; pdflatex -interaction  nonstopmode  book
+	cp docs/build/latex/book.pdf docs/build/html
+
+
 pdfview:
-	$(BROWSER) docs/build/html/i524-notes.pdf
+	$(BROWSER) docs/build/latex/i524-notes.pdf
 
 watch:
 	watchmedo shell-command --patterns="Makefile;*.rst;*.csv;*.py" --recursive --command='make doc'
 
 build: clean
 	touch docs/source/index.rst
+
+bpublish: publish
+	cp docs/build/latex/book.pdf docs/build/html
 
 publish:
 	ghp-import -n -p docs/build/html

@@ -19,18 +19,20 @@ Workflow-Orchestration
 
 1. ODE
 
-   Apache ODE (Orchestration Director Engine) is an open source 
-   implementation of the WS-BPEL 2.0 standard. WS- BPEL which stands for 
-   Web Services Business Process Execution Language, is an executable 
-   language for writing business processes with web services :cite:`www-bpel-wiki`. 
-   It includes control structures like conditions or loops as well as 
-   elements to invoke web services and receive messages from services. 
-   ODE uses WSDL (Web Services Description Language) for interfacing 
-   with web services :cite:`www-ode-wiki`. Naming a few of its features, 
-   It supports two communication layers for interacting with the outside 
-   world, one based on Axis2 (Web Services http transport) and another 
-   one based on the JBI standard. It also supports both long and short 
-   living process executions for orchestrating services for applications :cite:`www-ode-web`.
+   Apache ODE (Orchestration Director Engine) is an open source
+   implementation of the WS-BPEL 2.0 standard. WS- BPEL which stands
+   for  Web Services Business Process Execution Language, is an
+   executable language for writing business processes with web
+   services :cite:`www-bpel-wiki`.  It includes control structures
+   like conditions or loops as well as elements to invoke web services
+   and receive messages from services.  ODE uses WSDL (Web Services
+   Description Language) for interfacing with web services
+   :cite:`www-ode-wiki`. Naming a few of its features, It supports two
+   communication layers for interacting with the outside world, one
+   based on Axis2 (Web Services http transport) and another one based
+   on the JBI standard. It also supports both long and short living
+   process executions for orchestrating services for applications
+   :cite:`www-ode-web`.
 
 2. ActiveBPEL
 
@@ -83,17 +85,19 @@ Workflow-Orchestration
 
 5. Kepler
  
-   Kepler, scientific workflow application, is designed to help scientist,
-   analyst, and computer programmer create, execute and share models and 
-   analyses across a broad range of scientific and engineering disciplines.
-   Kepler can operate on data stored in a variety of formats, locally and 
-   over the internet, and is an effective environment for integrating
-   disparate software components such as merging "R" scripts with compiled "C"
-   code, or facilitating remote, distributed execution of models. Using Kepler's
-   GUI, users can simply select and then connect pertinent analytical components
-   and data sources to create a "scientific workflow". Overall, the Kepler helps
-   users share and reuse data, workflow, and components developed by the scientific
-   community to address common needs :cite:`www-kepler`.
+   Kepler, scientific workflow application, is designed to help
+   scientist, analyst, and computer programmer create, execute and
+   share models and analyses across a broad range of scientific and
+   engineering disciplines.  Kepler can operate on data stored in a
+   variety of formats, locally and over the internet, and is an
+   effective environment for integrating disparate software components
+   such as merging "R" scripts with compiled "C" code, or facilitating
+   remote, distributed execution of models. Using Kepler's GUI, users
+   can simply select and then connect pertinent analytical components
+   and data sources to create a "scientific workflow". Overall, the
+   Kepler helps users share and reuse data, workflow, and components
+   developed by the scientific community to address common needs
+   :cite:`www-kepler`.
 
 6. Swift
 
@@ -122,34 +126,37 @@ Workflow-Orchestration
    :cite:`www-taverna`, Taverna is transitioning to Apache Incubator
    as of Jan 2017.  Taverna suite includes 2 products:
 
-   (1). Taverna Workbench is desktop client where user can define the workflow.
-   (2). Taverna Server is responsible for executing the remote workflows.
+   1. Taverna Workbench is desktop client where user can define the
+      workflow.
+   2. Taverna Server is responsible for executing the remote
+      workflows.
 
    Taverna workflows can also be executed on command-line.  Taverna
    supports wide range of services including WSDL-style and RESTful
    Web Services, BioMart, SoapLab, R, and Excel. Taverna also support
    mechanism to monitor the running workflows using its web browser
-   interface.  In the :cite:`taverna-paper` paper, the formal syntax and 
-   operational semantics of Taverna is explained.
+   interface.  In the :cite:`taverna-paper` paper, the formal syntax
+   and operational semantics of Taverna is explained.
 
 8. Triana
 
    :cite:`trianaDocumentation-1` Triana is an open source problem
-   solving software that comes with powerful data analysis tools.  Having
-   been developed at Cardiff University, it has a good and
+   solving software that comes with powerful data analysis tools.
+   Having been developed at Cardiff University, it has a good and
    easy-to-understand User Interface and is typically used for signal,
    text and image processing.  Although it has its own set of analysis
    tools, it can also easily be integrated with custom tools.  Some of
    the already available toolkits include signal-analysis toolkit, an
    image-manipulation toolkit, etc.  Besides, it also checks the data
    types and reports the usage of any incompatible tools.  It also
-   reports errors, if any, as well as useful debug messages in order to
-   resolve them.  It also helps track serious bugs, so that the program
-   does not crash.  It has two modes of representing the data - a
-   text-editor window or a graph-display window.  The graph-display
-   window has the added advantage of being able to zoom in on particular
-   features.  Triana is specially useful for automating the repetitive
-   tasks, like finding-and-replacing a character or a string.
+   reports errors, if any, as well as useful debug messages in order
+   to resolve them.  It also helps track serious bugs, so that the
+   program does not crash.  It has two modes of representing the
+   data - a text-editor window or a graph-display window.  The
+   graph-display window has the added advantage of being able to zoom
+   in on particular features.  Triana is specially useful for
+   automating the repetitive tasks, like finding-and-replacing a
+   character or a string.
    
 9. Trident
 
@@ -203,6 +210,41 @@ Workflow-Orchestration
     
 12. IPython
 13. Jupyter
+
+    The Jupyter Notebook is a language-agnostic HTML notebook web
+    application that allows you to create and share documents that
+    contain live code, equations, visualizations and explanatory
+    text. :cite:`www-jupyter-1` The notebook extends the console-based
+    approach to interactive computing in a qualitatively new
+    direction, providing a web-based application suitable for
+    capturing the whole computation process: developing, documenting,
+    and executing code, as well as communicating the
+    results. :cite:`www-jupyter-2` The Jupyter notebook combines two
+    components:
+    
+    1. A web application: a browser-based tool for interactive
+    authoring of documents which combine explanatory text,
+    mathematics, computations and their rich media output.
+
+    2. Notebook documents: a representation of all content visible in
+    the web application, including inputs and outputs of the
+    computations, explanatory text, mathematics, images, and rich
+    media representations of objects.
+
+    Notebooks may be exported to a range of static formats, including
+    HTML (for example, for blog posts), reStructuredText, LaTeX, PDF,
+    and slide shows, via the nbconvert command. :cite:`www-jupyter-3`
+    Notebook documents contains the inputs and outputs of a
+    interactive session as well as additional text that accompanies
+    the code but is not meant for execution. :cite:`www-jupyter-4` In
+    this way, notebook files can serve as a complete computational
+    record of a session, interleaving executable code with explanatory
+    text, mathematics, and rich representations of resulting
+    objects. :cite:`www-jupyter-5` These documents are internally JSON
+    files and are saved with the .ipynb extension. Since JSON is a
+    plain text format, they can be version-controlled and shared with
+    colleagues. :cite:`www-jupyter-6`
+
 14. (Dryad)
 15. Naiad
 
@@ -237,23 +279,53 @@ Workflow-Orchestration
     
 16. Oozie
 
-    Oozie is a workflow manager and scheduler. Oozie is designed to scale in a 
-    Hadoop cluster. Each job will be launched from a different datanode
-    :cite:`paper-Oozie` :cite:`www-Oozie1` . 
-    Oozie :cite:`www-Oozie2` is architected from the ground up for large-scale 
-    Hadoop workflow. Scales to meet the demand, provides a multi-tenant service, 
-    is secure to protect data and processing, and can be operated cost effective
-    ly. As demand for workflow and the sophistication of applications increase, 
-    it must continue to mature in these areas :cite:`paper-Oozie`.Is well integr
-    ated with Hadoop security. Is the only workflow manager with built-in Hadoo
-    p actions, making workflow development, maintenance and troubleshooting easi
-    er. It’s UI makes it easier to drill down to specific errors in the data
-    nodes. Proven to scale in some of the world’s largest clusters 
-    :cite:`paper-Oozie`. Gets callbacks from MapReduce jobs so it knows when 
-    they finish and whether they hang without expensive polling. Oozie Coordinat
-    or allows triggering actions when files arrive at HDFS. Also supported by
-    Hadoop vendors :cite:`paper-Oozie`.
+    Oozie is a workflow manager and scheduler. Oozie is designed to
+    scale in a Hadoop cluster. Each job will be launched from a
+    different datanode :cite:`paper-Oozie` :cite:`www-Oozie1`.  Oozie
+    :cite:`www-Oozie2` is architected from the ground up for
+    large-scale Hadoop workflow. Scales to meet the demand, provides a
+    multi-tenant service, is secure to protect data and processing,
+    and can be operated cost effective ly. As demand for workflow and
+    the sophistication of applications increase, it must continue to
+    mature in these areas :cite:`paper-Oozie`.Is well integr ated with
+    Hadoop security. Is the only workflow manager with built-in Hadoo
+    p actions, making workflow development, maintenance and
+    troubleshooting easi er. It’s UI makes it easier to drill down to
+    specific errors in the data nodes. Proven to scale in some of the
+    world’s largest clusters :cite:`paper-Oozie`. Gets callbacks from
+    MapReduce jobs so it knows when they finish and whether they hang
+    without expensive polling. Oozie Coordinat or allows triggering
+    actions when files arrive at HDFS. Also supported by Hadoop
+    vendors :cite:`paper-Oozie`.
+	
 17. Tez
+
+    Apache Tez is open source distributed execution framework build
+    for writing native YARN application. It provides architecture
+    which allows user to convert complex computation as dataflow
+    graphs and the distributed engine to handle the directed acyclic
+    graph for processing large amount of data. It is highly
+    customizable and pluggable so that it can be used as a platform
+    for various application.It is used by the Apache Hive, Pig as
+    execution engine to increase the performance of map reduce
+    functionality.  :cite:`www-apache-tez` Tez focuses on running
+    application efficiently on Hadoop cluster leaving the end user to
+    concentrate only on its business logic. Tez provides features like
+    distributed parallel execution on hadoop cluster,horizontal
+    scalability, resource elasticity,shared library reusable
+    components and security features. Tez provides capability to
+    naturally map the algorithm into the hadoop cluster execution
+    engine and it also provides the interface for interaction with
+    different data sources and configurations.
+	
+    Tez is client side application and just needs Tez client to be
+    pointed to Tez jar libraries path makes it easy and quick to
+    deploy. User can have have multiple tez version running
+    concurrently. Tez provides DAG API's which lets user define
+    structure for the computation and Runtime API's which contain the
+    logic or code that needs to be executed in each transformation or
+    task.
+
 18. Google FlumeJava
 19. Crunch
 
@@ -293,34 +365,29 @@ Workflow-Orchestration
 21. Scalding
 22. e-Science Central
 
-    In :cite:`e-science-central-paper-2010`, it is explained 
-    that e-Science Central is designed to address some of the 
-    pitfalls within current Infrastructure as a Service (e.g. 
-    Amazon EC2) and Platform as a Service (e.g. force.com) 
-    services. For instance, in 
-    :cite:`e-science-central-paper-2010`, the "majority of 
-    potential scientific users, access to raw hardware is of 
-    little use as they lack the skills and resources needed to 
-    design, develop and maintain the robust, scalable 
-    applications they require" and furthermore "current 
-    platforms focus on services required for business 
-    applications, rather than those needed for scientific 
-    data storage and analysis." In 
-    :cite:`www-e-science-central`, it is explained that 
-    e-Science Central is a "cloud based platform for 
-    data analysis" which is "portable and can be run on 
-    Amazon AWS, Windows Azure or your own hardware." In 
-    :cite:`e-science-central-paper-2010`, e-Science Central 
-    is further described  as a platform, which "provides 
-    both Software and Platform as a Service for scientific 
-    data management, analysis and collaboration." This 
-    collaborative platform is designed to be scalable while 
-    also maintaining ease of use for scientists. In 
-    :cite:`e-science-central-paper-2010`, "a project 
-    consisting of chemical modeling by cancer researchers" 
-    demonstrates how e-Science Central "allows scientists to 
-    upload data, edit and run workflows, and share results in 
-    the cloud." 
+    In :cite:`e-science-central-paper-2010`, it is explained that
+    e-Science Central is designed to address some of the pitfalls
+    within current Infrastructure as a Service (e.g.  Amazon EC2) and
+    Platform as a Service (e.g. force.com) services. For instance, in
+    :cite:`e-science-central-paper-2010`, the "majority of potential
+    scientific users, access to raw hardware is of little use as they
+    lack the skills and resources needed to design, develop and
+    maintain the robust, scalable applications they require" and
+    furthermore "current platforms focus on services required for
+    business applications, rather than those needed for scientific
+    data storage and analysis." In :cite:`www-e-science-central`, it
+    is explained that e-Science Central is a "cloud based platform for
+    data analysis" which is "portable and can be run on Amazon AWS,
+    Windows Azure or your own hardware." In
+    :cite:`e-science-central-paper-2010`, e-Science Central is further
+    described as a platform, which "provides both Software and
+    Platform as a Service for scientific data management, analysis and
+    collaboration." This collaborative platform is designed to be
+    scalable while also maintaining ease of use for scientists. In
+    :cite:`e-science-central-paper-2010`, "a project consisting of
+    chemical modeling by cancer researchers" demonstrates how
+    e-Science Central "allows scientists to upload data, edit and run
+    workflows, and share results in the cloud."
 
 23. Azure Data Factory
     
@@ -346,15 +413,15 @@ Workflow-Orchestration
 24. Google Cloud Dataflow
     
     Google Cloud Dataflow is a unified programming model and a managed
-    service for developing and executing a wide variety of data processing
-    patterns (pipelines). Dataflow includes SDKs for defining data
-    processing workflows and a Cloud platform managed services to run
-    those workflows on a Google cloud platform resources such as Compute
-    Engine, BigQuery amongst others :cite:`www-Dataflow`. Dataflow
-    pipelines can operate in both batch and streaming mode. The platform
-    resources are provided on demand, allowing users to scale to meet
-    their requirements, it’s also optimized to help balance lagging work
-    dynamically.
+    service for developing and executing a wide variety of data
+    processing patterns (pipelines). Dataflow includes SDKs for
+    defining data processing workflows and a Cloud platform managed
+    services to run those workflows on a Google cloud platform
+    resources such as Compute Engine, BigQuery amongst others
+    :cite:`www-Dataflow`. Dataflow pipelines can operate in both batch
+    and streaming mode. The platform resources are provided on demand,
+    allowing users to scale to meet their requirements, it’s also
+    optimized to help balance lagging work dynamically.
 
     Being a cloud offering, Dataflow is designed to allow users to focus
     on devising proper analysis without worrying about the installation
@@ -364,16 +431,14 @@ Workflow-Orchestration
 25. NiFi (NSA)
 
     :cite:`www-nifi` Defines NiFi as "An Easy to use, powerful and
-    realiable system to process and distribute data".
-    This tool aims
-    at automated data flow from sources with different sizes ,
-    formats and following diffent protocals to the centralized
-    location or destination. :cite:`www-hortanworks`.
+    realiable system to process and distribute data".  This tool aims
+    at automated data flow from sources with different sizes , formats
+    and following diffent protocals to the centralized location or
+    destination. :cite:`www-hortanworks`.
     
-    This comes equipped with an easy use UI where the data flow
-    can be conrolled with a drag and a drop.
-    NiFi was initiatially developed by NSA ( called Niagarafiles )
-    using the concepts of flowbased
+    This comes equipped with an easy use UI where the data flow can be
+    conrolled with a drag and a drop.  NiFi was initiatially developed
+    by NSA ( called Niagarafiles ) using the concepts of flowbased
     programming and latter submitted to Apachi Software
     foundation. :cite:`www-forbes`
     
@@ -408,17 +473,20 @@ Workflow-Orchestration
 
 27. Talend
 
-    Talend is Apache Software Foundation sponsor Big data integration tool design to 
-    ease the development and integration and management of big data, Talend provides 
-    well optimised auto generated code to load transform, enrich and cleanse data inside 
-    Hadoop, where one don’t need to learn write and maintain Hadoop and spark code. 
-    The product has 900+ inbuild components feature data integration
+    Talend is Apache Software Foundation sponsor Big data integration
+    tool design to ease the development and integration and management
+    of big data, Talend provides well optimised auto generated code to
+    load transform, enrich and cleanse data inside Hadoop, where one
+    don’t need to learn write and maintain Hadoop and spark code.  The
+    product has 900+ inbuild components feature data integration
      
-    Talend features multiple products that simplify the digital transformation tools 
-    such as Big data integration, Data integration, Data Quality, Data Preparation, 
-    Cloud Integration, Application Integration, Master Data management, Metadata Manager. 
-    Talend Integration cloud is secure and managed integration Platform-as-a-service (iPaas), 
-    for connecting, cleansing and sharing cloud on premise data.
+    Talend features multiple products that simplify the digital
+    transformation tools such as Big data integration, Data
+    integration, Data Quality, Data Preparation, Cloud Integration,
+    Application Integration, Master Data management, Metadata Manager.
+    Talend Integration cloud is secure and managed integration
+    Platform-as-a-service (iPaas), for connecting, cleansing and
+    sharing cloud on premise data.
 
 28. Pentaho
 
@@ -468,6 +536,24 @@ Workflow-Orchestration
     upto 1000 Nodes or upto 50,000 containers
     
 31. KeystoneML
+    
+    A framework for building and deploying large-scale
+    machine-learning pipelines within Apache Spark. It captures and
+    optimizes the end-to-end large-scale machine learning applications
+    for high-throughput training in a distributed environment with a
+    high-level API :cite:`sparks2016keystoneml`. This approach
+    increases ease of use and higher performance over existing systems
+    for large scale learning :cite:`sparks2016keystoneml`. It is
+    designed to be a faster and more sophisticated alternative to
+    SparkML, the machine learning framework that’s a full member of
+    the Apache Spark club. Whereas SparkML comes with a basic set of
+    operators for processing text and numbers, KeystoneML includes a
+    richer set of operators and algorithms designed specifically for
+    natural language processing, computer vision, and speech
+    processing :cite:`building`. It has enriched set of operations for
+    complex domains:vision,NLP,Speech, plus,advanced math And is
+    Integrated with new BDAS technologies: Velox, ml-matrix, soon
+    Planck, TuPAQ and Sample Clean :cite:`spark`.
 
 
 Application and Analytics
@@ -485,7 +571,27 @@ Application and Analytics
 
 
 33. MLlib
-34. Mbase
+34. MLbase
+    
+    MLBase :cite:`www-mlbase` is a distributed machine learning
+    system built with Apache Spark :cite:`www-spark`. Machine Learning
+    (ML) and Statistical analysis are tools for extracting insights
+    from big data. MLbase is a tool for execute machine learning
+    algorithms on a scalable platform.It consist of three components
+    MLLib, MLI and ML Optimizer. MLLib was initially developed as a
+    part of MLBase project but is now a part of Apache Spark. MLI is
+    an experimental API for developing ML algorithm and to extract
+    information. It provides high-level abstraction to the core ML
+    algorithms. A prototype is currently implemented against Spark. ML
+    optimizer on the other hand is use to automate the MLI pipeline
+    construction. It solves for the search problem over feature
+    extractors and ML algorithms included in MLI and ML lib. This
+    library is its in early stage and under active
+    development. Publications like :cite:`mlbasepub1`,
+    :cite:`mlbasepub2` and :cite:`mlbasepub3` are available on
+    distributed machine learning with MLBase.
+
+
 35. DataFu
 
     The Apache DataFu project was created out of the need for stable,
@@ -560,14 +666,16 @@ Application and Analytics
     
 39. ImageJ
 
-    ImageJ is a  Java-based image processing program developed at the National 
-    Institutes of Health (NIH). ImageJ was designed with an open architecture 
-    that provides extensibility via Java plugins and recordable macros.
-    Using ImageJ's built-in editor and a Java compiler, it has enabled to solve 
-    many image processing and analysis problems in scientifif research from 
-    three-dimensional live-cell imaging to radiological image processing. 
-    ImageJ's plugin architecture and built-in development environment has made
-    it a popular platform for teaching image processing. :cite:`www-imagej`
+    ImageJ is a Java-based image processing program developed at the
+    National Institutes of Health (NIH). ImageJ was designed with an
+    open architecture that provides extensibility via Java plugins and
+    recordable macros.  Using ImageJ's built-in editor and a Java
+    compiler, it has enabled to solve many image processing and
+    analysis problems in scientifif research from three-dimensional
+    live-cell imaging to radiological image processing.  ImageJ's
+    plugin architecture and built-in development environment has made
+    it a popular platform for teaching image
+    processing. :cite:`www-imagej`
 
 40. OpenCV
 
@@ -583,52 +691,57 @@ Application and Analytics
 
 41. Scalapack
 
-    ScaLAPACK is a library of high-performance linear algebra routines for 
-    parallel distributed memory machines. It solves dense and banded linear
-    systems, least squares problems, eigenvalue problems, and singular 
-    value problems. It is designed for heterogeneous computing and is 
-    portable on any computer that supports Message Passing Interface or 
-    Parallel Virtual Machine. :cite:`git-Scalapack`
-    
-    ScaLAPACK is a open source software package and is available from netlib 
-    via anonymous ftp and the World Wide Web. It contains driver routines  for 
-    solving standard types of problems, computational routines  to perform a 
-    distinct computational task, and auxiliary routines  to perform a certain
-    subtask or common low-level computation. ScaLAPACK routines are based on 
-    block-partitioned algorithms in order to minimize the frequency of data 
-    movement between different levels of the memory hierarchy.
+    ScaLAPACK is a library of high-performance linear algebra routines for
+    parallel distributed memory machines. It solves dense and banded
+    linear systems, least squares problems, eigenvalue problems, and
+    singular value problems. It is designed for heterogeneous computing
+    and is portable on any computer that supports Message Passing
+    Interface or Parallel Virtual Machine. :cite:`www-scalapack`
+
+    ScaLAPACK is a open source software package and is available from
+    netlib via anonymous ftp and the World Wide Web. It contains driver
+    routines for solving standard types of problems, computational
+    routines to perform a distinct computational task, and auxiliary
+    routines to perform a certain subtask or common low-level
+    computation. ScaLAPACK routines are based on block-partitioned
+    algorithms in order to minimize the frequency of data movement between
+    different levels of the memory hierarchy.
     
 42. PetSc
 43. PLASMA MAGMA
 
-    PLASMA is built to address the performance shortcomings of the LAPACK and
-    ScaLAPACK libraries on multicore processors and multi-socket systems of
-    multicore processors and their inability to efficiently utilize accelerators
-    such as Graphics Processing Units (GPUs). Real arithmetic and complex
-    arithmetic are supported in both single precision and double precision.
-    PLASMA has been designed by restructuring the software to achieve much
-    greater efficiency, where possible, on modern computers based on multicore
-    processors. PLASMA does not support band matrices and does not solve
-    eigenvalue and singular value problems. Also, PLASMA does not replace
-    ScaLAPACK as software for distributed memory computers, since it only
-    supports shared-memory machines. :cite:`paper-plasma-magma-1` :cite:`www-plasma-1`
-    Recent activities of major chip manufacturers, such as Intel, AMD, IBM and
-    NVIDIA, make it more evident than ever that future designs of
-    microprocessors and large HPC systems will be hybrid/heterogeneous in
-    nature, relying on the integration (in varying proportions) of two major
-    types of components: :cite:`paper-plasma-magma-2` :cite:`paper-plasma-magma-3`
-    1. Many-cores CPU technology, where the number of cores will continue to
-    escalate because of the desire to pack more and more components on a chip
-    while avoiding the power wall, instruction level parallelism wall, and the
-    memory wall;
-    2. Special purpose hardware and accelerators, especially Graphics Processing
-    Units (GPUs), which are in commodity production, have outpaced standard CPUs
-    in floating point performance in recent years, and have become as easy, if
-    not easier to program than multicore CPUs.
-    While the relative balance between these component types in future designs
-    is not clear, and will likely to vary over time, there seems to be no doubt
-    that future generations of computer systems, ranging from laptops to
-    supercomputers, will consist of a composition of heterogeneous components.
+    PLASMA is built to address the performance shortcomings of the
+    LAPACK and ScaLAPACK libraries on multicore processors and
+    multi-socket systems of multicore processors and their inability
+    to efficiently utilize accelerators such as Graphics Processing
+    Units (GPUs). Real arithmetic and complex arithmetic are supported
+    in both single precision and double precision.  PLASMA has been
+    designed by restructuring the software to achieve much greater
+    efficiency, where possible, on modern computers based on multicore
+    processors. PLASMA does not support band matrices and does not
+    solve eigenvalue and singular value problems. Also, PLASMA does
+    not replace ScaLAPACK as software for distributed memory
+    computers, since it only supports shared-memory
+    machines. :cite:`paper-plasma-magma-1` :cite:`www-plasma-1` Recent
+    activities of major chip manufacturers, such as Intel, AMD, IBM
+    and NVIDIA, make it more evident than ever that future designs of
+    microprocessors and large HPC systems will be hybrid/heterogeneous
+    in nature, relying on the integration (in varying proportions) of
+    two major types of components: :cite:`paper-plasma-magma-2`
+    :cite:`paper-plasma-magma-3`
+    1. Many-cores CPU technology, where the number of cores will
+    continue to escalate because of the desire to pack more and more
+    components on a chip while avoiding the power wall, instruction
+    level parallelism wall, and the memory wall;
+    2. Special purpose hardware and accelerators, especially Graphics
+    Processing Units (GPUs), which are in commodity production, have
+    outpaced standard CPUs in floating point performance in recent
+    years, and have become as easy, if not easier to program than
+    multicore CPUs.  While the relative balance between these
+    component types in future designs is not clear, and will likely to
+    vary over time, there seems to be no doubt that future generations
+    of computer systems, ranging from laptops to supercomputers, will
+    consist of a composition of heterogeneous components.
     :cite:`paper-plasma-magma-4`:cite:`paper-plasma-magma-5`:cite:`paper-plasma-magma-6`
 
 44. Azure Machine Learning
@@ -687,12 +800,13 @@ Application and Analytics
     conversations :cite:`www-translation`.
 46. mlpy
     
-    mlpy is an open source python library made for providing
-    machine learning functionality.It is built on top of popular
-    existing python libraries of NumPy, SciPy and GNU scientific
-    libraries (GSL).It also makes extensive use of Cython
-    language. These form the prerequisites for mlpy. :cite:`DBLP:journals/corr/abs-1202-6548`
-    explains the significanceq of its components: NumPy, SciPy provide
+    mlpy is an open source python library made for providing machine
+    learning functionality.It is built on top of popular existing
+    python libraries of NumPy, SciPy and GNU scientific libraries
+    (GSL).It also makes extensive use of Cython language. These form
+    the prerequisites for
+    mlpy. :cite:`DBLP:journals/corr/abs-1202-6548` explains the
+    significanceq of its components: NumPy, SciPy provide
     sophisticated N-dimensional arrays, linear algebra functionality
     and a variety of learning methods, GSL, which is written in C,
     provides complex numerical calculation functionality.
@@ -725,7 +839,33 @@ Application and Analytics
     dimensionality reduction, parameter tuning, feature selection and
     extraction.
 
-48. PyBrain
+48. PyBrain :cite:`article-pybrain`
+
+    The goal of PyBrain is to provide flexible, easyto-use algorithms
+    that are not just simple but are also powerful for machine
+    learning tasks. The algorithms implemented are Long Short-Term
+    Memory (LSTM), policy gradient methods, (multidimensional)
+    recurrent neural networks and deep belief networks. These
+    algorithms include a variety of predefined environments and
+    benchmarks to test and compare algorithms.
+
+    PyBrain provides a toolbox for supervised, unsupervised and
+    reinforcement learning as well as black-box and multi-objective
+    optimization as it is much larger than Python libraries.
+
+    PyBrain implements many recent learning algorithms and
+    architectures while emphasizing on sequential and nonsequential
+    data and tasks. These algorithms range from areas such as
+    supervised learning and reinforcement learning to direct search /
+    optimization and evolutionary methods.  For application-oriented
+    users, PyBrain contains reference implementations of a number of
+    algorithms at the bleeding edge of research and this is in
+    addition to standard algorithms which are not available in Python
+    library. Besides this PyBrain sets itself apart by its versatility
+    for composing custom neural networks architectures that range from
+    (multi-dimensional) recurrent networks to restricted Boltzmann
+    machines or convolutional networks.
+    
 49. CompLearn
 
     Complearn is a system that makes use of data compression
@@ -768,18 +908,18 @@ Application and Analytics
 51. Caffe
 
     Caffe is a deep learning framework made with three terms namely
-    expression, speed and modularity :cite:`www-caffe`. Using Expressive
-    architecture, switching between CPU and GPU by setting a single
-    flag to train on a GPU machine then deploy to commodity cluster or
-    mobile devices.Here the concept of configuration file will comes
-    without hard coding the values . Switching between CPU and GPU can
-    be done by setting a flag to train on a GPU machine then deploy to
-    commodity clusters or mobile devices.
+    expression, speed and modularity :cite:`www-caffe`. Using
+    Expressive architecture, switching between CPU and GPU by setting
+    a single flag to train on a GPU machine then deploy to commodity
+    cluster or mobile devices.Here the concept of configuration file
+    will comes without hard coding the values . Switching between CPU
+    and GPU can be done by setting a flag to train on a GPU machine
+    then deploy to commodity clusters or mobile devices.
 
     It can process over 60 million images per day with a single NVIIA
     k40 GPU It is being used bu academic research projects, startup
-    prototypes, and even large-scale industrial applications in vision,
-    speech, and multimedia.
+    prototypes, and even large-scale industrial applications in
+    vision, speech, and multimedia.
     
 52. Torch
 
@@ -797,23 +937,24 @@ Application and Analytics
     
     
 53. Theano
-    Theano is a Python library. It was written at the LISA lab. 
+    
+    Theano is a Python library. It was written at the LISA lab.
     Initially it was created with the purpose to support efficient
-    development of machine learning(ML) algorithms. 
-    Theano uses recent GPUs for higher speed.
-    It is used to evaluate mathematical expressions and especially
-    those mathematical expressions that include multi-dimensional arrays.
-    Theano’s working is dependent on combining aspects of a computer algebra
-    system and an optimizing compiler.
-    This combination of computer algebra system with optimized compilation
-    is highly beneficial for the tasks which involves complicated 
-    mathematical expressions and that need to be evaluated repeatedly as
-    evaluation speed is highly critical in such cases. 
-    It can also be used to generate customized C code for number of
-    mathematical operations. 
-    For cases where many different expressions are there and each of them 
-    is evaluated just once, Theano can minimize the amount of compilation
-    and analyses overhead :cite:`www-theano`.
+    development of machine learning(ML) algorithms.  Theano uses
+    recent GPUs for higher speed.  It is used to evaluate mathematical
+    expressions and especially those mathematical expressions that
+    include multi-dimensional arrays.  Theano’s working is dependent
+    on combining aspects of a computer algebra system and an
+    optimizing compiler.  This combination of computer algebra system
+    with optimized compilation is highly beneficial for the tasks
+    which involves complicated mathematical expressions and that need
+    to be evaluated repeatedly as evaluation speed is highly critical
+    in such cases.  It can also be used to generate customized C code
+    for number of mathematical operations.  For cases where many
+    different expressions are there and each of them is evaluated just
+    once, Theano can minimize the amount of compilation and analyses
+    overhead :cite:`www-theano`.
+    
 54. DL4j
 
     DL4j stands for Deeplearning4j. :cite:`www-dl4j` It is a deep
@@ -835,19 +976,20 @@ Application and Analytics
 	
 55. H2O
 
-    It is an open source software for big data analysis. It was launched
-    by the Start-up H2O in 2011. :cite:`www-H2O-website` It provides an
-    in-memory, distributed, fast and a scalable machine learning and
-    predictive analytics platform that allows the users to build 
-    machine learning models on big data. It is written in
+    It is an open source software for big data analysis. It was
+    launched by the Start-up H2O in 2011. :cite:`www-H2O-website` It
+    provides an in-memory, distributed, fast and a scalable machine
+    learning and predictive analytics platform that allows the users
+    to build machine learning models on big data. It is written in
     Java. :cite:`www-H20-book` It is currently implemented in 5000
     companies. It provides APIs for R(3.0.0 or later), Python(2.7.x,
     3.5.x), Scala(1.4-1.6) and JSON. The software also allows online
-    scoring and modeling on a single platform.  It is scalable and has a
-    wide range of OS and language support. It works perfectly on the
-    conventional operating systems, and big data systems such as Hadoop,
-    Cloudera, MapReduce, HortonWorks. :cite:`www-H20-wiki` It can be used
-    on cloud computing environments such as Amazon and Microsoft Azure.
+    scoring and modeling on a single platform.  It is scalable and has
+    a wide range of OS and language support. It works perfectly on the
+    conventional operating systems, and big data systems such as
+    Hadoop, Cloudera, MapReduce, HortonWorks. :cite:`www-H20-wiki` It
+    can be used on cloud computing environments such as Amazon and
+    Microsoft Azure.
 
 56. IBM Watson
 
@@ -888,67 +1030,69 @@ Application and Analytics
     
 58. GraphLab
 
-    GraphLab :cite:`www-graphlab` is a graph-based, distributed computation,
-    high performance framework for machine learning written in C++. It
-    is an open source project started by Prof. Carlos Guestrin of
-    Carnegie Mellon University in 2009, designed considering the
-    scale, variety and complexity of real world data. It integrates
-    various high level algorithms such as Stochastic Gradient Descent,
-    Gradient Descent & Locking and provides high performance
-    experience. It includes scalable machine learning toolkits which
-    has implementation for deep learning, factor machines, topic
-    modeling, clustering, nearest neighbors and almost everything
-    required to enhance machine learning models. This framework is
-    targeted for sparse iterative graph algorithms. It helps data
-    scientists and developers easily create and install applications
-    at large scale.
+    GraphLab :cite:`www-graphlab` is a graph-based, distributed
+    computation, high performance framework for machine learning
+    written in C++. It is an open source project started by
+    Prof. Carlos Guestrin of Carnegie Mellon University in 2009,
+    designed considering the scale, variety and complexity of real
+    world data. It integrates various high level algorithms such as
+    Stochastic Gradient Descent, Gradient Descent & Locking and
+    provides high performance experience. It includes scalable machine
+    learning toolkits which has implementation for deep learning,
+    factor machines, topic modeling, clustering, nearest neighbors and
+    almost everything required to enhance machine learning
+    models. This framework is targeted for sparse iterative graph
+    algorithms. It helps data scientists and developers easily create
+    and install applications at large scale.
     
 59. GraphX
 
-    GraphX is Apache Spark's API for graph and graph-parallel computation.
-    :cite:`www-graphX`
+    GraphX is Apache Spark's API for graph and graph-parallel
+    computation.  :cite:`www-graphX`
 	  
     GraphX provides:
     
-    Flexibility: It seamlessly works with both graphs and collections. GraphX
-    unifies ETL, exploratory analysis, and iterative graph computation within a
-    single system. You can view the same data as both graphs and collections,
-    transform and join graphs with RDDs efficiently, and write custom iterative
-    graph algorithms using the Pregel API.
+    Flexibility: It seamlessly works with both graphs and
+    collections. GraphX unifies ETL, exploratory analysis, and
+    iterative graph computation within a single system. You can view
+    the same data as both graphs and collections, transform and join
+    graphs with RDDs efficiently, and write custom iterative graph
+    algorithms using the Pregel API.
     
-    Speed: Its performance is comparable to the fastest specialized graph
-    processing systems while retaining Apache Spark's flexibility, fault
-    tolerance, and ease of use.
+    Speed: Its performance is comparable to the fastest specialized
+    graph processing systems while retaining Apache Spark's
+    flexibility, fault tolerance, and ease of use.
     
-    Algorithms: GraphX comes with a variety of algorithms such as PageRank,
-    Connected Components, Label propagations, SVD++, Strongly connected
-    components and Triangle Count.
+    Algorithms: GraphX comes with a variety of algorithms such as
+    PageRank, Connected Components, Label propagations, SVD++,
+    Strongly connected components and Triangle Count.
 
-    It combines the advantages of both data-parallel and graph-parallel systems
-    by efficiently expressing graph computataion within the Spark data-parallel
+    It combines the advantages of both data-parallel and
+    graph-parallel systems by efficiently expressing graph
+    computataion within the Spark data-parallel
     framework. :cite:`www-graphX1`
 
-    It gets developed as a part of Apache Spark project. It thus gets tested and
-    updated with each Spark release.
+    It gets developed as a part of Apache Spark project. It thus gets
+    tested and updated with each Spark release.
     
 60. IBM System G
 
     :cite:`IBMSystemGDocumentation-1` IBM System G provides a set of
-    Cloud and Graph computing tools and solutions for Big Data.  In fact,
-    the G stands for Graph and typically spans a database, visualization,
-    analytics library, middleware and Network Science Analytics tools.
-    :cite:`IBMSystemGDocumentation-2` It assists the easy creating of
-    graph stores and queries and exploring them via interactive
-    visualizations.  Internally, it uses the property graph model for its
-    working.  It consists of five individual components - gShell, REST
-    API, Python interface to gShell, Gremlin and a Visualizer.
-    :cite:`IBMSystemGPaper` Some of the typical applications wherein it
-    can be used include Expertise Location, Commerce, Recommendation,
-    Watson, Cybersecurity, etc.
+    Cloud and Graph computing tools and solutions for Big Data.  In
+    fact, the G stands for Graph and typically spans a database,
+    visualization, analytics library, middleware and Network Science
+    Analytics tools.  :cite:`IBMSystemGDocumentation-2` It assists the
+    easy creating of graph stores and queries and exploring them via
+    interactive visualizations.  Internally, it uses the property
+    graph model for its working.  It consists of five individual
+    components - gShell, REST API, Python interface to gShell, Gremlin
+    and a Visualizer.  :cite:`IBMSystemGPaper` Some of the typical
+    applications wherein it can be used include Expertise Location,
+    Commerce, Recommendation, Watson, Cybersecurity, etc.
 
-    However, it is to be noted that the current version does not work in a
-    distributed environment and it is planned that future versions would
-    support it.
+    However, it is to be noted that the current version does not work
+    in a distributed environment and it is planned that future
+    versions would support it.
     
 61. GraphBuilder(Intel)
 
@@ -1008,18 +1152,19 @@ Application and Analytics
 64. Dream:Lab
 
     DREAM:Lab stands for “Distributed Research on Emerging
-    Applications and Machines Lab.” :cite:`dream` DREAM:Lab is centered
-    around distributed systems research to enable expeditious
-    utilization of distributed data and computing systems. :cite:`dream`
-    DREAM:Lab utilizes the “capabilities of hundereds of personal
-    computers” to allow access to supercomputing resources to average
-    individuals. :cite:`rao` The DREAM:Lab pursues this goal by utilizing
-    distributed computing. :cite:`rao` Distributed computing consists of
-    independent computing resources that communicate with each other
-    over a network. :cite:`denero` A large, complex computing problem is
-    broken down into smaller, more manageable tasks and then these
-    tasks are distributed to the various components of the distributed
-    computing system. :cite:`denero`
+    Applications and Machines Lab.” :cite:`dream` DREAM:Lab is
+    centered around distributed systems research to enable expeditious
+    utilization of distributed data and computing
+    systems. :cite:`dream` DREAM:Lab utilizes the “capabilities of
+    hundereds of personal computers” to allow access to supercomputing
+    resources to average individuals. :cite:`rao` The DREAM:Lab
+    pursues this goal by utilizing distributed computing. :cite:`rao`
+    Distributed computing consists of independent computing resources
+    that communicate with each other over a network. :cite:`denero` A
+    large, complex computing problem is broken down into smaller, more
+    manageable tasks and then these tasks are distributed to the
+    various components of the distributed computing
+    system. :cite:`denero`
     
 65. Google Fusion Tables
     
@@ -1044,22 +1189,26 @@ Application and Analytics
 
 66. CINET
 
-    A representation of connected entities such as “physical, biological and social 
-    phenomena”:cite:`www-bi.vt.edu` predictive model. Network science has grown its 
-    importance understanding these phenomena Cyberinfrastructure is middleware tool 
-    helps study Network science, :cite:`www-portal.futuresystems.org/projects/233` 
-    “by providing unparalleled computational and analytic environment for researcher”.
+    A representation of connected entities such as “physical,
+    biological and social phenomena”:cite:`www-bi.vt.edu` predictive
+    model. Network science has grown its importance understanding
+    these phenomena Cyberinfrastructure is middleware tool helps study
+    Network science, :cite:`www-portal.futuresystems.org/projects/233`
+    “by providing unparalleled computational and analytic environment
+    for researcher”.
  
-    Network science involves study of graph a large volume which requires high power 
-    computing which usually cant be achieve by desktop. Cyberinfrastructure provides 
-    cloud based infrastructure (e.g. FutureGrid) as well as use of HPC (e.g. Shadowfax, 
-    Pecos). With use of advance intelligent Job mangers, it select the infrastructure 
-    smartly suitable for submitted job.
+    Network science involves study of graph a large volume which
+    requires high power computing which usually cant be achieve by
+    desktop. Cyberinfrastructure provides cloud based infrastructure
+    (e.g. FutureGrid) as well as use of HPC (e.g. Shadowfax,
+    Pecos). With use of advance intelligent Job mangers, it select the
+    infrastructure smartly suitable for submitted job.
      
-    It provides structural and dynamic network analysis, has number of algorithms for 
-    “network analysis such as shortest path, sub path, motif counting, centrality and 
-    graph traversal”. CiNet has number of range of network visualization modules. 
-    CiNet is actively being used by several universities, researchers and analysist.
+    It provides structural and dynamic network analysis, has number of
+    algorithms for “network analysis such as shortest path, sub path,
+    motif counting, centrality and graph traversal”. CiNet has number
+    of range of network visualization modules.  CiNet is actively
+    being used by several universities, researchers and analysist.
 
 67. NWB
 
@@ -1112,6 +1261,26 @@ Application and Analytics
     single package.
     
 69. Kibana
+
+    Kibana is an open source data visualization plugin for
+    Elasticsearch. :cite:`www-kibana-1` It provides visualization
+    capabilities on top of the content indexed on an Elasticsearch
+    cluster. Users can create bar, line and scatter plots, or pie
+    charts and maps on top of large volumes of
+    data. :cite:`www-kibana-2` The combination of Elasticsearch,
+    Logstash, and Kibana (also known as ELK stack or Elastic stack) is
+    available as products or service. Logstash provides an input
+    stream to Elastic for storage and search, and Kibana accesses the
+    data for visualizations such as dashboards. :cite:`www-kibana-3`
+    Elasticsearch is a search engine based on
+    Lucene. :cite:`www-kibana-4` It provides a distributed,
+    multitenant-capable full-text search engine with an HTTP web
+    interface and schema-free JSON documents. Kibana makes it easy to
+    understand large volumes of data. Its simple, browser-based
+    interface enables you to quickly create and share dynamic
+    dashboards that display changes to Elasticsearch queries in real
+    time. :cite:`www-kibana-5` :cite:`www-kibana-6`
+
 70. Logstash
 
     Logstash is an open source data collection engine with real-time
@@ -1129,39 +1298,68 @@ Application and Analytics
     insights by harnessing a greater volume and variety of data.
 	
 71. Graylog
+
+    Graylog is an open source log management tool that allows an
+    organization to assemble, organize and analyze large amounts of
+    data from its network activity. It collects and aggregates events
+    from a group of sources and presents data in a streamlines,
+    simplified interface where one can drill down to significant
+    metrics, identify key relationships, generate powerful data
+    visualizations and derive actionable
+    insights. :cite:`www-graylog-blog`
+    :cite:`www-graylog-optimization` Graylog allows us to centrally
+    collect and manage log messages of an organization's complete
+    infrastructure. A user can perform search on terrabytes of log
+    data to discover number of failed logins,find application errors
+    across all servers or monitor the acivity of a suspicious user
+    id.Graylog works on top of ElasticSearch and MongoDB to facilitate
+    this high availability searching.  Graylog provides visualization
+    through creation of dashboards that allows a user to build
+    pre-defined views on his data to assemble all of his important
+    data only a single click away. :cite:`www-graylog-dashboards` Any
+    search result or metric shall be added as a widget on the
+    dashboard to observe trends in one single location. These
+    dashboards can also be shared with other users in the
+    organization. Based on a user's recent search queries,graylog also
+    allows you to distinguish data that are not searched upon very
+    often and thus can be archived on cost effective storage
+    drives. Users can also add certain trigger conditions that shall
+    alert the system about performance issues, failed logins or
+    exceptions in the flow of the application.
+    
 72. Splunk
 
     Splunk is a platform for big data analytics. It is a software
     product that enables you to search, analyze, and visualize the
     machine-generated data gathered from the websites, applications,
-    sensors, devices, and so on, that comprise your IT infrastructure or
-    business :cite:`www-splunk`. After defining the data source, Splunk
-    indexes the data stream and parses it into a series of individual
-    events that you can view and search. It provides distributed search
-    and MapReduce linearly scales search and reporting. It uses a standard
-    API to connect directly to applications and devices. It was developed
-    in response to the demand for comprehensible and actionable data
-    reporting for executives outside a company's IT department
-    :cite:`www-splunk`.
+    sensors, devices, and so on, that comprise your IT infrastructure
+    or business :cite:`www-splunk`. After defining the data source,
+    Splunk indexes the data stream and parses it into a series of
+    individual events that you can view and search. It provides
+    distributed search and MapReduce linearly scales search and
+    reporting. It uses a standard API to connect directly to
+    applications and devices. It was developed in response to the
+    demand for comprehensible and actionable data reporting for
+    executives outside a company's IT department :cite:`www-splunk`.
 	  
 73. Tableau
 
-    :cite:`www-tableau-tutorial` Tableau is a family of interactive data visualization products 
-    focused on business intelligence. The different products which 
-    tableau has built are: Tableau Desktop, for individual use; 
-    Tableau Server for collaboration in an organization; Tableau 
-    Online, for Business Intelligence in the Cloud; Tableau Reader, 
-    for reading files saved in Tableau Desktop; Tableau Public, for 
-    journalists or anyone to publish interactive data online.
-    :cite:`www-tableau-web` Tableau uses VizQL as a  visual query language for translating 
-    drag-and-drop actions into data queries and later expressing the 
-    data visually. Tableau also benefits from an Advanced In-Memory 
-    Technology for handling large amounts of data. 
-    The strengths of Tableau are mainly the ease of use and speed. 
-    However, it has a number of limitations, which the most prominent 
-    are unfitness for broad business and technical user, being 
-    closed-source, no predictive analytical capabilities and no support 
-    for expanded analytics.
+    :cite:`www-tableau-tutorial` Tableau is a family of interactive
+    data visualization products focused on business intelligence. The
+    different products which tableau has built are: Tableau Desktop,
+    for individual use; Tableau Server for collaboration in an
+    organization; Tableau Online, for Business Intelligence in the
+    Cloud; Tableau Reader, for reading files saved in Tableau Desktop;
+    Tableau Public, for journalists or anyone to publish interactive
+    data online.  :cite:`www-tableau-web` Tableau uses VizQL as a
+    visual query language for translating drag-and-drop actions into
+    data queries and later expressing the data visually. Tableau also
+    benefits from an Advanced In-Memory Technology for handling large
+    amounts of data.  The strengths of Tableau are mainly the ease of
+    use and speed.  However, it has a number of limitations, which the
+    most prominent are unfitness for broad business and technical
+    user, being closed-source, no predictive analytical capabilities
+    and no support for expanded analytics.
 
 74. D3.js
 
@@ -1231,45 +1429,53 @@ Application and Analytics
     
 79. CNTK
 
-    The Microsoft Cognitive Toolkit - CNTK - is a unified deep-learning toolkit 
-    by Microsoft Research. It is in essence an implementation of Computational 
-    Network(CN) which supports both CPU and GPU. CNTK supports arbitrary valid 
-    computational networks and makes building DNNs, CNNs, RNNs, LSTMS, and other 
-    complicated networks as simple as describing the operations of the networks. 
-    The toolkit is implemented with efficiency in mind. It removes duplicate 
-    computations in both forward and backward passes, uses minimal memory needed 
-    and reduces memory reallocation by reusing them. It also speeds up the model 
-    training and evaluation by doing batch computation whenever possible 
-    :cite:`book-cntk` . It can be included as a library in your Python or C++ pro
-    grams, or used as a standalone machine learning tool through its own model  
-    description language (BrainScript). :cite:`www-cntk`
-    Latest Version:2017-02-10. V 2.0 Beta 11 Release
+    The Microsoft Cognitive Toolkit - CNTK - is a unified
+    deep-learning toolkit by Microsoft Research. It is in essence an
+    implementation of Computational Network(CN) which supports both
+    CPU and GPU. CNTK supports arbitrary valid computational networks
+    and makes building DNNs, CNNs, RNNs, LSTMS, and other complicated
+    networks as simple as describing the operations of the networks.
+    The toolkit is implemented with efficiency in mind. It removes
+    duplicate computations in both forward and backward passes, uses
+    minimal memory needed and reduces memory reallocation by reusing
+    them. It also speeds up the model training and evaluation by doing
+    batch computation whenever possible :cite:`book-cntk` . It can be
+    included as a library in your Python or C++ pro grams, or used as
+    a standalone machine learning tool through its own model
+    description language (BrainScript). :cite:`www-cntk` Latest
+    Version:2017-02-10. V 2.0 Beta 11 Release
 
 
 Application Hosting Frameworks
 ----------------------------------------------------------------------
 
-80. Google App Engine  :cite:`www-gae`
+80. Google App Engine
 
-    On purpose we put in here a "good" example of a bad entry that woudl
-    receive 10 out of 100 points, e.g. an F:
-
-    "Google App Engine" provides platform as a service.
-    There are major advantages from this framework:
-
-    1. Scalable Applications
-    2. Easier to maintain
-    3. Publishing services easily
-
-    Reasons: (a) "major advantages is advertisement" if you add word
-    major (b) grammar needs to be improved (c) the three points do not
-    realy say anything about Google App Engine (d) the reader will
-    after reading this have not much information about what it is (e)
-    a refernce is not included. (f) enumeration should be in this page
-    avoided. We like to see a number of paragraphs with text.
-
-    **Note: This is an example for a bad entry**
-
+    Google App Engine is a cloud computing platform to host your
+    mobile or web applications on Google managed servers. Google App
+    Engine provides automatic scaling for web applications, i.e it
+    automatically allocates more resources to the application upon
+    increase in the number of requests. It gives developers the
+    freedom to focus on developing their code and not worry about the
+    infrastructure. Google App Engine provides built-in services and
+    APIs such as load balancing, automated security scanning,
+    application logging, NoSQL datastores, memcache, and a user
+    authentication API, that are a core part to most
+    applications. :cite:`www-appengine-google`
+     
+    An App Engine platform can be run in either the Standard or the
+    Flexible environment. Standard environment lays restrictions on
+    the maximum number of resources an application can use and charges
+    a user based on the instance hours used. The flexible environment
+    as the name suggests provides higher flexibility in terms of
+    resources and is charged based on the CPU and disk utilization.The
+    App Engine requires developers to use only its supported languages
+    and frameworks. Supported languages are Java, Python, Ruby, Scala,
+    PHP, GO, Node.js and other JVM oriented languages. The App Engine
+    datastore uses a SQL like syntax called the GQL (Google Query
+    Language) which works with non-relational databases when compared
+    to SQL. :cite:`www-wiki-appengine`
+    
 81. AppScale
 
     AppScale is an application hosting platform. This platform helps
@@ -1303,25 +1509,26 @@ Application Hosting Frameworks
     works, again because it is abstracted.
 
     :cite:`openshift-blog` OpenShift is powered by Origin, which is in
-    turn built using Docker container packaging and Kubernetes container
-    cluster.  Due to this, OpenShift offers a lot of options, including
-    online, on-premise and open source project options.
+    turn built using Docker container packaging and Kubernetes
+    container cluster.  Due to this, OpenShift offers a lot of
+    options, including online, on-premise and open source project
+    options.
     
 83. Heroku
 
-    Heroku :cite:`www-Heroku` is a platform as a service that is used 
-    for building, delivering monitoring and scaling applications. It 
-    lets you  develop and deploy application quickly without thinking
-    about irrelevant problems such as infrastructure. Heroku also 
-    provides a secure and scalable database as a service with number of 
-    developers’ tools like database followers, forking, data clips and
-    automated health checks. It works by deploying to cedar stack 
-    :cite:`www-cedar`, an online runtime environment that supports apps 
-    buit in Java, Node.js, Scala, Clojure, Python and PHP. It uses Git 
-    for version controlling. It is also tightly intergrated with 
-    Salesforce, providing seamless and smooth Heroku and Salesforce 
-    data synchronization enabling companies to develop and design creative 
-    apps that uses both platforms.
+    Heroku :cite:`www-Heroku` is a platform as a service that is used
+    for building, delivering monitoring and scaling applications. It
+    lets you develop and deploy application quickly without thinking
+    about irrelevant problems such as infrastructure. Heroku also
+    provides a secure and scalable database as a service with number
+    of developers’ tools like database followers, forking, data clips
+    and automated health checks. It works by deploying to cedar stack
+    :cite:`www-cedar`, an online runtime environment that supports
+    apps buit in Java, Node.js, Scala, Clojure, Python and PHP. It
+    uses Git for version controlling. It is also tightly intergrated
+    with Salesforce, providing seamless and smooth Heroku and
+    Salesforce data synchronization enabling companies to develop and
+    design creative apps that uses both platforms.
 
 84. Aerobatic
 
@@ -1436,35 +1643,38 @@ Application Hosting Frameworks
 
 91. Jelastic
 
-    Jelastic (acronym for Java Elastic) is an unlimited PaaS and Container based
-    IaaS within a single platform that provides high availability of
-    applications, automatic vertical and horizontal scaling via containerization
-    to software development clients, enterprise businesses, DevOps, System
-    Admins, Developers, OEMs and web hosting providers. :cite:`www-jelastic-2` 
-    Jelastic is a Platform-as-Infrastructure provider of Java and PHP hosting. 
-    It has international hosting partners and data centers. The company can add 
-    memory, CPU and disk space to meet customer needs. The main competitors of 
-    Jelastic are Google App Engine, Amazon Elastic Beanstalk, Heroku, and Cloud 
-    Foundry.Jelastic is unique in that it does not have limitations or code 
-    change requirements, and it offers automated vertical scaling, application
-    lifecycle management, and availability from multiple hosting providers
+    Jelastic (acronym for Java Elastic) is an unlimited PaaS and
+    Container based IaaS within a single platform that provides high
+    availability of applications, automatic vertical and horizontal
+    scaling via containerization to software development clients,
+    enterprise businesses, DevOps, System Admins, Developers, OEMs and
+    web hosting providers. :cite:`www-jelastic-2` Jelastic is a
+    Platform-as-Infrastructure provider of Java and PHP hosting.  It
+    has international hosting partners and data centers. The company
+    can add memory, CPU and disk space to meet customer needs. The
+    main competitors of Jelastic are Google App Engine, Amazon Elastic
+    Beanstalk, Heroku, and Cloud Foundry.Jelastic is unique in that it
+    does not have limitations or code change requirements, and it
+    offers automated vertical scaling, application lifecycle
+    management, and availability from multiple hosting providers
     around the world. :cite:`www-jelastic-1`
 
 92. Stackato
     
-    Hewlett Packard Enterprise or HPE Helion Stackato is a platform as a 
-    service(PaaS) cloud computing solution.  The platform facilitates 
-    deployment of the user’s application in the cloud and will function 
-    on top of an Infrastructure as a service(IaaS). :cite:`www-hpe` Multiple 
-    cloud development is supported across AWS, vSphere, and Helion Openstack.  
-    The platform supports the following programming languages: native 
-    .NET support, java, Node.js, python, and ruby.  This flexibility is 
-    advantageous compared to early PaaS solutions which would force the 
-    customer into utilizing a single stack.  Additionally, this solution 
-    has the capacity to support private, public and hybrid clouds. 
-    :cite:`www-virt` This capability user has to not have to make choices 
-    of flexibility over security of sensitive data when choosing a 
-    cloud computing platform.
+    Hewlett Packard Enterprise or HPE Helion Stackato is a platform as
+    a service(PaaS) cloud computing solution.  The platform
+    facilitates deployment of the user’s application in the cloud and
+    will function on top of an Infrastructure as a
+    service(IaaS). :cite:`www-hpe` Multiple cloud development is
+    supported across AWS, vSphere, and Helion Openstack.  The platform
+    supports the following programming languages: native .NET support,
+    java, Node.js, python, and ruby.  This flexibility is advantageous
+    compared to early PaaS solutions which would force the customer
+    into utilizing a single stack.  Additionally, this solution has
+    the capacity to support private, public and hybrid clouds.
+    :cite:`www-virt` This capability user has to not have to make
+    choices of flexibility over security of sensitive data when
+    choosing a cloud computing platform.
  
     
 93. appfog
@@ -1499,7 +1709,40 @@ Application Hosting Frameworks
     platform accessed by every user using the feature “Jenkins
     Sprawl”.
 
-95. Engine Yard
+95. Engine Yard :cite:`www-engineyard`
+
+    A deployment platform with fully managed services that combines
+    high-end clustering resources to run Ruby and Rails applications
+    in the cloud is offered by Engine Yard. It is designed as a
+    platform-as-a-Service for Web application developers using Ruby on
+    Rails, PHP and Node.js who requires the advantages of cloud
+    computing. Amazon cloud is the platform where the Engine Yard
+    perform its operations and accomplishes application stack for its
+    users. Amazon allows as many as eight regions to Engine Yard to
+    deploy its CPU instances in varying capacities such as normal,
+    high memory and high CPU. According to customer requirements
+    multiple software components are configured and processed when an
+    instance is started in Engine Yard.
+    
+    Engine Yard builds its version on Gentoo Linux and has
+    non-proprietary approach to its stack. The stack includes HAProxy
+    load balancer, Ngnix and Rack Web servers, Passenger and Unicorn
+    app servers, as well as MySQL and PostgreSQL relational databases
+    in addition to Ruby, PHP, and Node.js The credibility of Engine
+    Yard rests with orchestration and management as developers have
+    option of performing functions in Amazon cloud. Standard
+    operations management procedures are performed once the systems
+    are configured and deployed. Key operations tasks such as
+    performing backups, managing snapshots, managing clusters,
+    administering databases and load balancing are taken care by
+    Engine Yard.
+    
+    Engine Yard users are empowered as they have more control over
+    virtual machine instances. These instances are dedicated instances
+    and are not shared with other users. As the instances are
+    independent every user can exercise greater control over instances
+    without interferences with other users.
+
 96. (CloudControl)
 
     No Longer active as of Feb. 2016 :cite:`www-wiki`
@@ -1527,15 +1770,17 @@ Application Hosting Frameworks
 
 101. OODT
      
-     The Apache Object Oriented Data Technology (OODT) is an open source data 
-     management system framework. OODT was originally developed at NASA Jet 
-     Propulsion Laboratory to support capturing, processing and sharing of data
-     for NASA's scientific archives. OODT focuses on two canonical use cases: 
-     Big Data processing and on Information integration. It facilitates the 
-     integration of highly distributed and heterogeneous data intensive systems
-     enabling the integration of different, distributed software systems, 
-     metadata and data. OODT is written in the Java, and through its REST API 
-     used in other languages including Python. :cite:`git-OOTD`
+     The Apache Object Oriented Data Technology (OODT) is an open
+     source data management system framework. OODT was originally
+     developed at NASA Jet Propulsion Laboratory to support capturing,
+     processing and sharing of data for NASA's scientific
+     archives. OODT focuses on two canonical use cases: Big Data
+     processing and on Information integration. It facilitates the
+     integration of highly distributed and heterogeneous data
+     intensive systems enabling the integration of different,
+     distributed software systems, metadata and data. OODT is written
+     in the Java, and through its REST API used in other languages
+     including Python. :cite:`www-oodt2`
      
 102. Agave
 
@@ -1563,20 +1808,21 @@ Application Hosting Frameworks
 103. Atmosphere
 
      Atmosphere is developed by CyVerse (previously named as iPlant
-     Collaborative).
-     It is a cloud-computing platform. It allows one to launch his own
-     “isolated virtual machine (VM) image :cite:`www-at1`.
-     It does not require any machine specification. It can be run on any device
+     Collaborative).  It is a cloud-computing platform. It allows one
+     to launch his own “isolated virtual machine (VM) image
+     :cite:`www-at1`.  It does not require any machine
+     specification. It can be run on any device
      (tablet/desktop/laptop) and any machine(Linux/Windows/Max/Unix).
-     User should have a CyVerse account and be granted permission to access to 
-     Atmosphere before he can begin using Atmosphere. No subscription is needed.
-     Atmosphere is designed to execute data-intense bioinformatics tasks that 
-     may include a)Infrastructure as a Service (IaaS) with advanced APIs;
-     b)Platform as a Service (PaaS), and c)Software as a Service (SaaS).
-     On Atmosphere one has several images of virtual machine and user can launch
-     any image or instance according to his requirements.
-     The images launched by users can be shared among different members as and
-     when required :cite:`www-at2`.
+     User should have a CyVerse account and be granted permission to
+     access to Atmosphere before he can begin using Atmosphere. No
+     subscription is needed.  Atmosphere is designed to execute
+     data-intense bioinformatics tasks that may include
+     a)Infrastructure as a Service (IaaS) with advanced APIs;
+     b)Platform as a Service (PaaS), and c)Software as a Service
+     (SaaS).  On Atmosphere one has several images of virtual machine
+     and user can launch any image or instance according to his
+     requirements.  The images launched by users can be shared among
+     different members as and when required :cite:`www-at2`.
 
 
 High level Programming
@@ -1603,7 +1849,25 @@ High level Programming
      codes to implement in their codes. It even provides relavant
      examples/syntax and also tries to spot errors in the programs
      :cite:`kite-wired`.
+	   
 105. Hive
+     
+     The reason behind development of Hive is making it easier for end
+     users to use Hadoop. Map reduce programs were required to be
+     developed by users for simple to complex tasks. It lacked
+     expressiveness like query language. So, it was a time consuming
+     and difficult task for end users to use Hadoop. For solving this
+     problem Hive was built in January 2007 and open sourced in
+     August2008.  Hive is an open source data warehousing solution
+     which is built on top of Hadoop. It structures data into
+     understandable and conventional database terms like tables,
+     columns, rows and partitions. It supports HiveQL queries which
+     have structure like SQL queries. HiveQL queries are compiled to
+     map reduce jobs which are then executed by Hadoop.  Hive also
+     contains Metastore which includes schemas and statistics which is
+     useful in query compilation, optimization and data exploration
+     :cite:`hive`
+
 106. HCatalog
 107. Tajo
 
@@ -1745,20 +2009,22 @@ High level Programming
 
 113. HadoopDB
     
-     HadoopDB is a hybrid of parallel database and MapReduce technologies. It 
-     approaches parallel databases in performance and efficiency, yet still 
-     yields the scalability, fault tolerance, and flexibility of MapReduce 
-     systems. It is a free and open source parallel DBMS. The basic idea behind
-     it is to give Hadoop access to multiple single-node DBMS servers 
-     (eg. PostgreSQL or MySQL) deployed across the cluster. It pushes as much 
-     as possible data processing into the database engine by issuing SQL 
-     queries which results in resembling a shared-nothing cluster of 
-     machines. :cite:`git-HadoopDB`
-     
-     HadoopDB is more scalable than currently available parallel database 
-     systems and DBMS/MapReduce hybrid systems. It has been demonstrated on 
-     clusters with 100 nodes and should scale as long as Hadoop scales, while 
-     achieving superior performance on structured data analysis workloads.
+     HadoopDB is a hybrid of parallel database and MapReduce
+     technologies. It approaches parallel databases in performance and
+     efficiency, yet still yields the scalability, fault tolerance,
+     and flexibility of MapReduce systems. It is a free and open
+     source parallel DBMS. The basic idea behind it is to give Hadoop
+     access to multiple single-node DBMS servers (eg. PostgreSQL or
+     MySQL) deployed across the cluster. It pushes as much as possible
+     data processing into the database engine by issuing SQL queries
+     which results in resembling a shared-nothing cluster of
+     machines. :cite:`www-hadoopdb`
+
+     HadoopDB is more scalable than currently available parallel
+     database systems and DBMS/MapReduce hybrid systems. It has been
+     demonstrated on clusters with 100 nodes and should scale as long
+     as Hadoop scales, while achieving superior performance on
+     structured data analysis workloads.
      
 114. PolyBase
 115. Pivotal HD/Hawq
@@ -1782,16 +2048,18 @@ High level Programming
 
 117. Google Dremel
  
-     Dremel is a scalable, interactive ad-hoc query system for analysis of 
-     read-only nested data. By combining multi-level execution trees and 
-     columnar data layout, Google Dremel is capable of running aggregation
-     queries over trillion-row tables in seconds. :cite:`paper-dremel` 
-     With Dremel, you can write a declarative SQL-like query against data stored
-     in a read-only columnar format efficiently for analysis or data exploration.
-     It's also possible to write queries that analyze billions of rows, terabytes of 
-     data, and trillions of records in seconds. Dremel can be use for a variety 
-     of jobs including analyzing web-crawled documents, detecting e-mail spam, 
-     working through application crash reports.
+     Dremel is a scalable, interactive ad-hoc query system for
+     analysis of read-only nested data. By combining multi-level
+     execution trees and columnar data layout, Google Dremel is
+     capable of running aggregation queries over trillion-row tables
+     in seconds. :cite:`paper-dremel` With Dremel, you can write a
+     declarative SQL-like query against data stored in a read-only
+     columnar format efficiently for analysis or data exploration.
+     It's also possible to write queries that analyze billions of
+     rows, terabytes of data, and trillions of records in
+     seconds. Dremel can be use for a variety of jobs including
+     analyzing web-crawled documents, detecting e-mail spam, working
+     through application crash reports.
 
 118. Google BigQuery
 
@@ -1813,7 +2081,7 @@ High level Programming
      started on its own, so there is no need to deploy any resources
      such as disks and virtual machines.
 
-     :cite:`www-bigquery-documentation` Projects in BigQuery are
+     Projects in BigQuery :cite:`www-bigquery-documentation` are
      top-level containers in Google Cloud Platform. They contain the
      BigQuery Data. Each project is referenced by a name and
      unique ID. Tables contain the data in BigQuery. Each table has a
@@ -1830,15 +2098,17 @@ High level Programming
      
 119. Amazon Redshift
      
-     Amazon Redshift is a fully managed, petabyte-scale data werehouse service
-     in the cloud. Redshift service manages all of the workof setting up, operating
-     and scalling a data werehouse. AWS Redshift can perform these tasks including
-     provisioning capacity, monitoring and backing up the cluster, and applying 
-     patches as well as upgrades to the Redshift's engine :cite:`www-redshift`.
-     Redshift is built on thet top of technology from the Massive Paraller Processing
-     (MPP) data-werehouse company ParAccel which based on PostgresSQL 8.0.2
-     to PostgresSQL 9.x with capabilty to handle analytics workloads on large-
-     scale dataset stored by a column-oriented DBMS principle :cite:`www-wiki-red`.
+     Amazon Redshift is a fully managed, petabyte-scale data werehouse
+     service in the cloud. Redshift service manages all of the workof
+     setting up, operating and scalling a data werehouse. AWS Redshift
+     can perform these tasks including provisioning capacity,
+     monitoring and backing up the cluster, and applying patches as
+     well as upgrades to the Redshift's engine :cite:`www-redshift`.
+     Redshift is built on thet top of technology from the Massive
+     Paraller Processing (MPP) data-werehouse company ParAccel which
+     based on PostgresSQL 8.0.2 to PostgresSQL 9.x with capabilty to
+     handle analytics workloads on large- scale dataset stored by a
+     column-oriented DBMS principle :cite:`www-wiki-red`.
 
 120. Drill
 
@@ -1947,6 +2217,18 @@ High level Programming
      
 125. Summingbird
 126. Lumberyard
+     
+     It is powerful and full-featured enough to develop triple-A,
+     current-gen console games and is deeply integrated with AWS and
+     Twitch(an online steaming service)
+     :cite:`gamasutra`. Lumberyard's core engine technology is based
+     on Crytek's CryEngine :cite:`hands`. The goal is "creating
+     experiences that embrace the notion of a player, broadcaster, and
+     viewer all joining together":cite:`gamasutra`. Monetization for
+     Lumberyard will come strictly through the use of Amazon Web
+     Services' cloud computing. If you use the engine for your game,
+     you're permitted to roll your own server tech, but if you're
+     using a third-party provider, it has to be Amazon :cite:`what`.
 
 Streams
 ----------------------------------------------------------------------
@@ -1997,45 +2279,49 @@ Streams
      
 129. Samza
 
-     Apache Samza is an open-source near-realtime, asynchronous computational 
-     framework for stream processing developed by the Apache Software 
-     Foundation in Scala and Java. :cite:`www-samza-3`
-     Apache Samza is a distributed stream processing framework. It uses Apache
-     Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance,
-     processor isolation, security, and resource management. Samza processes
-     streams. A stream is composed of immutable messages of a similar type or
-     category. Messages can be appended to a stream or read from a stream.
-     Samza supports pluggable systems that implement the stream abstraction:
-     in Kafka a stream is a topic, in a database we might read a stream by
-     consuming updates from a table, in Hadoop we might tail a directory of
-     files in HDFS. Samza is a stream processing framework. Samza provides a
-     very simple callback-based “process message” API comparable to MapReduce.
-     Samza manages snapshotting and restoration of a stream processor’s state.
-     Samza is built to handle large amounts of state (many gigabytes per
-     partition). :cite:`www-samza-1` Whenever a machine in the cluster fails, 
-     Samza works with YARN to transparently migrate your tasks to another      
-     machine. Samza uses Kafka to guarantee that messages are processed in the  
-     order they were written to a partition, and that no messages are ever lost. 
-     Samza is partitioned and distributed at every level. Kafka provides  
-     ordered, partitioned, replayable, fault-tolerant streams. YARN provides a 
-     distributed environment for Samza containers to run in. Samza works with   
-     Apache YARN, which supports Hadoop’s security model, and resource isolation 
-     through Linux CGroups :cite:`www-samza-4` :cite:`www-samza-3`.
+     Apache Samza is an open-source near-realtime, asynchronous
+     computational framework for stream processing developed by the
+     Apache Software Foundation in Scala and Java. :cite:`www-samza-3`
+     Apache Samza is a distributed stream processing framework. It
+     uses Apache Kafka for messaging, and Apache Hadoop YARN to
+     provide fault tolerance, processor isolation, security, and
+     resource management. Samza processes streams. A stream is
+     composed of immutable messages of a similar type or
+     category. Messages can be appended to a stream or read from a
+     stream.  Samza supports pluggable systems that implement the
+     stream abstraction: in Kafka a stream is a topic, in a database
+     we might read a stream by consuming updates from a table, in
+     Hadoop we might tail a directory of files in HDFS. Samza is a
+     stream processing framework. Samza provides a very simple
+     callback-based “process message” API comparable to MapReduce.
+     Samza manages snapshotting and restoration of a stream
+     processor’s state.  Samza is built to handle large amounts of
+     state (many gigabytes per partition). :cite:`www-samza-1`
+     Whenever a machine in the cluster fails, Samza works with YARN to
+     transparently migrate your tasks to another machine. Samza uses
+     Kafka to guarantee that messages are processed in the order they
+     were written to a partition, and that no messages are ever lost.
+     Samza is partitioned and distributed at every level. Kafka
+     provides ordered, partitioned, replayable, fault-tolerant
+     streams. YARN provides a distributed environment for Samza
+     containers to run in. Samza works with Apache YARN, which
+     supports Hadoop’s security model, and resource isolation through
+     Linux CGroups :cite:`www-samza-4` :cite:`www-samza-3`.
 
 130. Granules
 
-     Granules in used for execution or processing of data streams in 
-     distributed environment.
-     When applications are running concurrently on multiple computational 
-     resources, granules manage their parallel execution.
-     The MapReduce implementation in Granules is responsible for providing
-     better performance.It has the capability of expressing computations like 
-     graphs.
-     Computations can be scheduled based on periodicity or other activity.
-     Computations can be developed in C, C++, Java, Python, C#, R
-     It also provides support for extending basic Map reduce framework.
-     Its application domains include hand writing recognition, bio informatics
-     and computer brain interface :cite:`www-granules`.
+     Granules in used for execution or processing of data streams in
+     distributed environment.  When applications are running
+     concurrently on multiple computational resources, granules manage
+     their parallel execution.  The MapReduce implementation in
+     Granules is responsible for providing better performance.It has
+     the capability of expressing computations like graphs.
+     Computations can be scheduled based on periodicity or other
+     activity.  Computations can be developed in C, C++, Java, Python,
+     C#, R It also provides support for extending basic Map reduce
+     framework.  Its application domains include hand writing
+     recognition, bio informatics and computer brain interface
+     :cite:`www-granules`.
 131. Neptune
 
 132. Google MillWheel
@@ -2180,6 +2466,23 @@ Streams
 141. Flink Streaming
 142. DataTurbine
 
+     Data Turbine :cite:`www-data-turbine` is open source engine that
+     allows to stream data from various sources, process it and sink
+     it to different destinations. The streaming sources can be labs,
+     web cams and Java enabled cell phones. The sinks can be
+     visualizations, interfaces and databases.  Data Turbine can be
+     used to stream data formats like numbers, text, sound and video.
+
+     :cite:`osdt-ecologicalsociety` explains that the Data Turbine
+     middleware provides the cyber-infrastructure that integrates
+     disparate elements of complex distributed real time
+     application. Data Turbine acts as a middleware black box using
+     which applications and devices can send and receive data. Data
+     Turbine manages the management operations like memory and file
+     management as well as book-keeping and reconnection logic.  Data
+     Turbine also provides Android based controller which allows
+     algorithms to run close to sensors.
+
 
 Basic Programming model and runtime, SPMD, MapReduce
 ----------------------------------------------------------------------
@@ -2207,19 +2510,22 @@ Basic Programming model and runtime, SPMD, MapReduce
      
 145. Twister
 
-     Twister is a new software tool released by Indiana University, which is an 
-     extension to MapReduce architectures currently used in the academia and 
-     industry :cite:`www-twister1`. It supports faster execution of many data mining applications 
-     implemented as MapReduce programs. Applications that currently use Twister
-     include: K-means clustering, Google's page rank, Breadth first graph search
-     , Matrix multiplication, and Multidimensional scaling. Twister also builds 
-     on the SALSA team's work related to commercial MapReduce runtimes, 
-     including Microsoft Dryad software and open source Hadoop software. SALSA 
-     project work is funded in part by an award from Microsoft, Inc. The archite
-     cture is based on pub/sub messaging that enables it to perform faster data
-     transfers, minimizing the overhead of the runtime. Also, the support for 
-     long running processes improves the efficiency of the runtime for many     
-     iterative MapReduce computations. :cite:`www-twister2` :cite:`www-twister3` 
+     Twister is a new software tool released by Indiana University,
+     which is an extension to MapReduce architectures currently used
+     in the academia and industry :cite:`www-twister1`. It supports
+     faster execution of many data mining applications implemented as
+     MapReduce programs. Applications that currently use Twister
+     include: K-means clustering, Google's page rank, Breadth first
+     graph search , Matrix multiplication, and Multidimensional
+     scaling. Twister also builds on the SALSA team's work related to
+     commercial MapReduce runtimes, including Microsoft Dryad software
+     and open source Hadoop software. SALSA project work is funded in
+     part by an award from Microsoft, Inc. The archite cture is based
+     on pub/sub messaging that enables it to perform faster data
+     transfers, minimizing the overhead of the runtime. Also, the
+     support for long running processes improves the efficiency of the
+     runtime for many iterative MapReduce
+     computations. :cite:`www-twister2` :cite:`www-twister3`
      :cite:`paper-twister`.
 
 146. MR-MPI
@@ -2264,29 +2570,34 @@ Basic Programming model and runtime, SPMD, MapReduce
      
 149. Disco
 
-     a. Disco from discoproject.org represents an implementation of mapreduce 
-     for distributed computing that benefits end users by relieving them of 
-     the need to handle “difficult technicalities related to distribution such 
-     as communication protocols, load balancing, locking, job scheduling, and 
-     fault tolerance.” :cite:`www-whatis-discoproject` Its designers wrote the software in Erlang, an 
-     inherently fault tolerant language. In addition, Disco’s creators chose 
-     Erlang because they believe it best meets the software’s need to handle 
-     “tens of thousands of tasks in parallel.” :cite:`www-erlangprime-discoproject` Python was used for 
-     Disco’s libraries. Finally, Disco supports pipelines, “a linear sequence 
-     of stages, where the outputs of each stage are grouped into the input of 
-     the subsequent stage.” :cite:`www-clarridge-discoproject` Its designers implemented Disco’s libraries 
-     in Python. Disco originated within Nokia Corp. to handle large data sets. 
-     Since then it has proven itself reliable in production environments 
-     outside of Nokia. :cite:`www-nokia-discoproject`
+     a. Disco from discoproject.org represents an implementation of
+     mapreduce for distributed computing that benefits end users by
+     relieving them of the need to handle “difficult technicalities
+     related to distribution such as communication protocols, load
+     balancing, locking, job scheduling, and fault tolerance.”
+     :cite:`www-whatis-discoproject` Its designers wrote the software
+     in Erlang, an inherently fault tolerant language. In addition,
+     Disco’s creators chose Erlang because they believe it best meets
+     the software’s need to handle “tens of thousands of tasks in
+     parallel.” :cite:`www-erlangprime-discoproject` Python was used
+     for Disco’s libraries. Finally, Disco supports pipelines, “a
+     linear sequence of stages, where the outputs of each stage are
+     grouped into the input of the subsequent stage.”
+     :cite:`www-clarridge-discoproject` Its designers implemented
+     Disco’s libraries in Python. Disco originated within Nokia
+     Corp. to handle large data sets.  Since then it has proven itself
+     reliable in production environments outside of
+     Nokia. :cite:`www-nokia-discoproject`
 
-     b. DISCO from the research group Service Engineering (SE), 
-     :cite:`www-discoabout-discoabstractionlayer` serves 
-     as “an abstraction layer for OpenStack‘s orchestration component [Heat]” 
-     SE based DISCO on its prior orchestration framework, Hurtle. The software 
-     sets up a computer cluster and deploys the user’s choice of distributed 
-     computing architecture onto the cluster based on setup inputs provided by 
-     the user. DISCO offers a command line interface via HTTP to directly 
-     access OpenStack. :cite:`www-discodescribed-discoabstractionlayer`
+     b. DISCO from the research group Service Engineering (SE),
+     :cite:`www-discoabout-discoabstractionlayer` serves as “an
+     abstraction layer for OpenStack‘s orchestration component [Heat]”
+     SE based DISCO on its prior orchestration framework, Hurtle. The
+     software sets up a computer cluster and deploys the user’s choice
+     of distributed computing architecture onto the cluster based on
+     setup inputs provided by the user. DISCO offers a command line
+     interface via HTTP to directly access
+     OpenStack. :cite:`www-discodescribed-discoabstractionlayer`
 
 150. Hama
 
@@ -2316,6 +2627,9 @@ Basic Programming model and runtime, SPMD, MapReduce
    
 152. Pregel
 153. Pegasus
+
+     See #4 above.
+
 154. Ligra
 
      Ligra is a Light Weight Graph Processing Framework for the graph
@@ -2547,78 +2861,110 @@ Inter process communication Collectives
         messages from queues on demand”
 
 169. NaradaBrokering
+
+     NaradaBrokering :cite:`www-narada`, is a content distribution
+     infrastructure for voluminous data streams. The substrate places
+     no limits on the size, rate and scope of the information
+     encapsulated within these streams or on the number of entities
+     within the system. The smallest unit of this substrate called as
+     broker, intelligently process and route messages, while working
+     with multiple underlying communication protocols. The major
+     capabilities of NaradaBrokering consists of providing a message
+     oriented middleware (MoM) which facilitates communications
+     between entities (which includes clients, resources, services and
+     proxies thereto) through the exchange of messages and providing a
+     notification framework by efficiently routing messages from the
+     originators to only the registered consumers of the message in
+     question :cite:`paper-nb-sustrate`. Also, it provides salient
+     stream oriented features such as their Secure end-to-end
+     delivery, Robust disseminations, jitter reductions.
+
+     NaradaBrokering incorporates support for several communication
+     protocol such as TCP, UDP, Multicast, HTTP, SSL, IPSec and
+     Parallel TCP as well as supports enterprise messaging standards
+     such as the Java Message Service, and a slew of Web Service
+     specifications such as SOAP, WS-Eventing, WS-Reliable Messaging
+     and WS-Reliability :cite:`www-narada-features`.
+
+     
 170. QPid
 171. Kafka
 
-     Apache Kafka is a streaming platform, which works based on 
-     publish-subscribe messaging system and supports distributed environment.
+     Apache Kafka is a streaming platform, which works based on
+     publish-subscribe messaging system and supports distributed
+     environment.
       
-     *Kafka lets you publish and subscribe to the messages.* Kafka maintains 
-     message feeds based on ‘topic’. A topic is a category or feed name to 
-     which records are published. Kafka’s Connector APIs are used to publish 
-     the messages to one or more topics, whereas, Consumer APIs are used to 
-     subscribe to the topics.
+     *Kafka lets you publish and subscribe to the messages.* Kafka
+     maintains message feeds based on ‘topic’. A topic is a category
+     or feed name to which records are published. Kafka’s Connector
+     APIs are used to publish the messages to one or more topics,
+     whereas, Consumer APIs are used to subscribe to the topics.
 
-     *Kafka lets you process the stream of data at real time.* Kafka’s stream 
-     processor takes continual stream of data from input topics, processes the 
-     data in real time and produces streams of data to output topics. Kafka’s 
-     Streams API are used for data transformation.
+     *Kafka lets you process the stream of data at real time.* Kafka’s
+     stream processor takes continual stream of data from input
+     topics, processes the data in real time and produces streams of
+     data to output topics. Kafka’s Streams API are used for data
+     transformation.
 
-     *Kafka lets you store the stream of data in distributed clusters.* Kafka 
-     acts as a storage system for incoming data stream. As Kafka is a distributed 
-     system, data streams are partitioned and replicated across nodes.
+     *Kafka lets you store the stream of data in distributed
+     clusters.* Kafka acts as a storage system for incoming data
+     stream. As Kafka is a distributed system, data streams are
+     partitioned and replicated across nodes.
 
-     Thus, a combination of messaging, storage and processing data stream makes 
-     Kafka a ‘streaming platform’. It can be used for building data pipelines 
-     where data is transferred between systems or applications. Kafka can also be 
-     used by applications that transform real time incoming data. :cite:'www-kafka'
+     Thus, a combination of messaging, storage and processing data
+     stream makes Kafka a ‘streaming platform’. It can be used for
+     building data pipelines where data is transferred between systems
+     or applications. Kafka can also be used by applications that
+     transform real time incoming data. :cite:'www-kafka'
 
 172. Kestrel
      
-     Kestrel is a distributed message queue, with added features and 
-     bulletproofing, as well as the scalability offered by actors and 
-     the Java virtual machine. It supports multiple protocols: memcache: 
-     the memcache protocol; thrift: Apache Thrift-based RPC; text: a simple 
-     text-based protocol. Each queue is strictly ordered following the FIFO 
-     (first in, first out) principle. To keep up with performance items are 
-     cached in system memory. Kestrel is more durable as queues are stored 
-     in memory for speed, but logged into a journal on disk so that servers 
-     can be shutdown or moved without losing any data. When kestrel starts 
-     up, it scans the journal folder and creates queues based on any journal 
-     files it finds there, to restore state to the way it was when it last 
-     shutdown (or was killed or died).
-     
-     Kestrel uses a pull-based data aggregator system that convey data without
-     prior definition on its destination. So the destination can be defined 
-     later on either storage system, like HDFS or NoSQL, or processing system,
-     like storm and sppark streaming. Each server handles a set of reliable, 
-     ordered message queues. When you put a cluster of these servers together,
-     with no cross communication, and pick a server at random whenever you do
-     a set or get, you end up with a reliable, loosely ordered message 
+     Kestrel is a distributed message queue, with added features and
+     bulletproofing, as well as the scalability offered by actors and
+     the Java virtual machine. It supports multiple protocols:
+     memcache: the memcache protocol; thrift: Apache Thrift-based RPC;
+     text: a simple text-based protocol. Each queue is strictly
+     ordered following the FIFO (first in, first out) principle. To
+     keep up with performance items are cached in system
+     memory. Kestrel is more durable as queues are stored in memory
+     for speed, but logged into a journal on disk so that servers can
+     be shutdown or moved without losing any data. When kestrel starts
+     up, it scans the journal folder and creates queues based on any
+     journal files it finds there, to restore state to the way it was
+     when it last shutdown (or was killed or died).
+
+     Kestrel uses a pull-based data aggregator system that convey data
+     without prior definition on its destination. So the destination
+     can be defined later on either storage system, like HDFS or
+     NoSQL, or processing system, like storm and sppark
+     streaming. Each server handles a set of reliable, ordered message
+     queues. When you put a cluster of these servers together, with no
+     cross communication, and pick a server at random whenever you do
+     a set or get, you end up with a reliable, loosely ordered message
      queue :cite:`git-kestrel`.
 
 173. JMS
 
-     JMS (Java Messaging Service) is a java oriented messaging standard
-     that defines a set of interfaces and semantics which allows
-     applications to send, receive, create, and read messages.  It allows
-     the communication between different components of a distributed
-     application to be loosely coupled, reliable, and
-     asynchronous. :cite:`www-jms-wiki` JMS overcomes the drawbacks of RMI
-     (Remote Method Invocation) where the sender needs to know the method
-     signature of the remote object to invoke it and RPC(Remote Procedure
-     Call), which is tightly coupled i.e it cannot function unless the
-     sender has important information about the receiver.
+     JMS (Java Messaging Service) is a java oriented messaging
+     standard that defines a set of interfaces and semantics which
+     allows applications to send, receive, create, and read messages.
+     It allows the communication between different components of a
+     distributed application to be loosely coupled, reliable, and
+     asynchronous. :cite:`www-jms-wiki` JMS overcomes the drawbacks of
+     RMI (Remote Method Invocation) where the sender needs to know the
+     method signature of the remote object to invoke it and RPC(Remote
+     Procedure Call), which is tightly coupled i.e it cannot function
+     unless the sender has important information about the receiver.
 
-     JMS establishes a standard that provides loosely coupled communication
-     i.e the sender and receiver need not be present at the same time or
-     know anything about each other before initiating the communication.
-     JMS provides two communication domains.A point-to-point messaging
-     domain where there is one producer and one consumer. On generating
-     message, a producer simple pushes the message to a message queue which
-     is known to the consumer. The other communication domain is
-     publish/subscribe model, where one message can have multiple
-     receivers. :cite:`www-jms-oracle-docs`
+     JMS establishes a standard that provides loosely coupled
+     communication i.e the sender and receiver need not be present at
+     the same time or know anything about each other before initiating
+     the communication.  JMS provides two communication domains.A
+     point-to-point messaging domain where there is one producer and
+     one consumer. On generating message, a producer simple pushes the
+     message to a message queue which is known to the consumer. The
+     other communication domain is publish/subscribe model, where one
+     message can have multiple receivers. :cite:`www-jms-oracle-docs`
 
 174. AMQP
 
@@ -2680,66 +3026,76 @@ Inter process communication Collectives
      subscribers interested in the topic, and delivers the message to
      them.
 
-     According to :cite:`sns-faq`, Amazon SNS follows pay as per usage. In
-     general it is $0.50 per 1 million Amazon SNS Requests.Amazon SNS
-     supports notifications over multiple transport protocols such as
-     HTTP/HTTPS, Email/Email-JSON, SQS(Message queue) and SMS.Amazon SNS
-     can be used with other AWS services such as Amazon SQS, Amazon EC2 and
-     Amazon S3.
+     According to :cite:`sns-faq`, Amazon SNS follows pay as per
+     usage. In general it is $0.50 per 1 million Amazon SNS
+     Requests.Amazon SNS supports notifications over multiple
+     transport protocols such as HTTP/HTTPS, Email/Email-JSON,
+     SQS(Message queue) and SMS.Amazon SNS can be used with other AWS
+     services such as Amazon SQS, Amazon EC2 and Amazon S3.
 
 179. Lambda
 
-     AWS Lambda is a product from amazon which facilitates serverless 
-     computing :cite:`www-awslambda`.AWS Lambda allows for running the code 
-     without the need for provisioning or managing servers, all server management
-     is taken care by AWS.The code to be run on AWS Lambda is called a server
-     function which can be written in Node.js,Python,Java,C#.Each Lambda 
-     function is to be stateless and any persistent data needs are to be handled
-     through storage devices.AWS Lambda function can be setup using the AWS Lambda
-     console where one can setup the function code and specify the event that 
-     triggers the functional call.AWS Lamda service supports multiple event sources
-     as identified in :cite:`www-awslambdaevent`.AWS Lambda is designed to use 
-     replication and redundancy to provide for high availability both for the service
-     itself and the function it runs.AWS Lambda automatically scales your application
-     by running the code in response to each trigger. The code runs in parallel and 
-     processes each trigger individually, scaling precisely with the size of the 
-     workload.Billing for AWS Lambda is based on the number of times the code executes
-     and in 100 ms increments of the duration of the processing.
+     AWS Lambda is a product from amazon which facilitates serverless
+     computing :cite:`www-awslambda`.AWS Lambda allows for running the
+     code without the need for provisioning or managing servers, all
+     server management is taken care by AWS.The code to be run on AWS
+     Lambda is called a server function which can be written in
+     Node.js,Python,Java,C#.Each Lambda function is to be stateless
+     and any persistent data needs are to be handled through storage
+     devices.AWS Lambda function can be setup using the AWS Lambda
+     console where one can setup the function code and specify the
+     event that triggers the functional call.AWS Lamda service
+     supports multiple event sources as identified in
+     :cite:`www-awslambdaevent`.AWS Lambda is designed to use
+     replication and redundancy to provide for high availability both
+     for the service itself and the function it runs.AWS Lambda
+     automatically scales your application by running the code in
+     response to each trigger. The code runs in parallel and processes
+     each trigger individually, scaling precisely with the size of the
+     workload.Billing for AWS Lambda is based on the number of times
+     the code executes and in 100 ms increments of the duration of the
+     processing.
 
 180. Google Pub Sub
 
-     :cite:`www-google-pub-sub` Google Pub/Sub provides an asynchronous 
-     messaging facility which assists the communication between independent 
-     applications. It works in real time and helps keep the two interacting 
-     systems independent. It is the same technology used by many of the 
-     Google apps like GMail, Ads, etc. and so integration with them becomes 
-     very easy. :cite:`www-google-pub-sub-features` Some of the typical 
-     features it provides are: (1) Push and Pull - Google Pub/Sub integrates 
-     quickly and easily with the systems hosted on the Google Cloud Platform 
-     thereby supporting one-to-many, one-to-one and many-to-many 
-     communication, using the push and pull requests. (2) Scalability - It 
-     provides high scalability and availability even under heavy load without 
-     any degradation of latency. This is done by using a global and highly 
-     scalable design. (3) Encryption - It provides security by encryption of 
-     the stored data as well as that in transit. Other than these important 
-     features, it provides some others as well, like the usage of RESTful 
-     APIs, end-to-end acknowledgement, replicated storage, etc. 
+     :cite:`www-google-pub-sub` Google Pub/Sub provides an
+     asynchronous messaging facility which assists the communication
+     between independent applications. It works in real time and helps
+     keep the two interacting systems independent. It is the same
+     technology used by many of the Google apps like GMail, Ads,
+     etc. and so integration with them becomes very
+     easy. :cite:`www-google-pub-sub-features` Some of the typical
+     features it provides are: (1) Push and Pull - Google Pub/Sub
+     integrates quickly and easily with the systems hosted on the
+     Google Cloud Platform thereby supporting one-to-many, one-to-one
+     and many-to-many communication, using the push and pull
+     requests. (2) Scalability - It provides high scalability and
+     availability even under heavy load without any degradation of
+     latency. This is done by using a global and highly scalable
+     design. (3) Encryption - It provides security by encryption of
+     the stored data as well as that in transit. Other than these
+     important features, it provides some others as well, like the
+     usage of RESTful APIs, end-to-end acknowledgement, replicated
+     storage, etc.
      
 181. Azure Queues
 
      Azure Queues storage is a Microsoft Azure service, providing inter
-     -process communication by message passing :cite:`silberschatz1998operating`. 
-     A sender sends the message and a client receives and processes them. 
-     The messages are stored in a queue which can contain millions of 
-     messages, up to the total capacity limit of a storage account :cite:`www-azurequeue-web`.
-     Each message can be up to 64 KB in size. These messages can then be 
-     accessed from anywhere in the world via authenticated calls using HTTP or 
-     HTTPS. Similar to the other message queue services, Azure Queues enables 
-     decoupling of the components :cite:`www-tutorialspoint`. It runs in an 
-     asynchronous environment where messages can be sent among the different 
-     components of an application. Thus, it provides an efficient solution for 
-     managing workflows and tasks. The messages can remain in the queue up to 7 
-     days, and afterwards, they will be deleted automatically.
+     -process communication by message passing
+     :cite:`silberschatz1998operating`.  A sender sends the message
+     and a client receives and processes them.  The messages are
+     stored in a queue which can contain millions of messages, up to
+     the total capacity limit of a storage account
+     :cite:`www-azurequeue-web`.  Each message can be up to 64 KB in
+     size. These messages can then be accessed from anywhere in the
+     world via authenticated calls using HTTP or HTTPS. Similar to the
+     other message queue services, Azure Queues enables decoupling of
+     the components :cite:`www-tutorialspoint`. It runs in an
+     asynchronous environment where messages can be sent among the
+     different components of an application. Thus, it provides an
+     efficient solution for managing workflows and tasks. The messages
+     can remain in the queue up to 7 days, and afterwards, they will
+     be deleted automatically.
 
 182. Event Hubs
 
@@ -2795,18 +3151,19 @@ In-memory databases/caches
 
 184. Memcached
 
-     Memcached is a free and open-source, high performance, distributed memory
-     object caching system. :cite:`www-memcached` Although, generic in nature,it
-     is intended for se in speeding up dynamic web applications by reducing
-     the database load.
+     Memcached is a free and open-source, high performance,
+     distributed memory object caching system. :cite:`www-memcached`
+     Although, generic in nature,it is intended for se in speeding up
+     dynamic web applications by reducing the database load.
 
-     It can be thought of as a short term memory for your applications.
-     Memcached is an in-memory key-value store for small chunks of arbitrary
-     data from the results of database calls, API calls and page rendering. Its
-     API is available in most of the popular languages. In simple terms, it
-     allows you to take memory from parts of your system where you have more
-     memory than you need and allocate it to parts of your system where you
-     have less memory than you need.
+     It can be thought of as a short term memory for your
+     applications.  Memcached is an in-memory key-value store for
+     small chunks of arbitrary data from the results of database
+     calls, API calls and page rendering. Its API is available in most
+     of the popular languages. In simple terms, it allows you to take
+     memory from parts of your system where you have more memory than
+     you need and allocate it to parts of your system where you have
+     less memory than you need.
      
 185. Redis
 
@@ -2842,54 +3199,53 @@ In-memory databases/caches
 
 186. LMDB (key value)
 
-     LMDB (Lighting memory-mapped Database) is a high performance embedded
-     transactional database in form of a key-value store
-     :cite:`www-keyvalue`. LMDB is designed around
-     virtual memory facilities found in modern operating
-     systems, multi-version concurrency control (MVCC)
-     and single-level store (SLS) concepts. LMDB stores
-     arbitrary key/data pairs as byte arrays, provides a
-     range-based search capability, supports multiple
-     data items for a single key and has a special mode
-     for appending records at the end of the database
-     (MDB_APPEND) which significantly increases its write
-     performance compared to other similar databases.
+     LMDB (Lighting memory-mapped Database) is a high performance
+     embedded transactional database in form of a key-value store
+     :cite:`www-keyvalue`. LMDB is designed around virtual memory
+     facilities found in modern operating systems, multi-version
+     concurrency control (MVCC) and single-level store (SLS)
+     concepts. LMDB stores arbitrary key/data pairs as byte arrays,
+     provides a range-based search capability, supports multiple data
+     items for a single key and has a special mode for appending
+     records at the end of the database (MDB_APPEND) which
+     significantly increases its write performance compared to other
+     similar databases.
 
      LMDB is not a relational database :cite:`www-relationaldb` and
-     strictly uses key-value store. Key-value databases
-     allows one write at a time, the difference that LMDB
-     highlights is that write transactions do not block
-     readers nor do readers block writes. Also, it does
-     allow multiple applications on the same system to
-     open and use the store simultaneously which helps in
+     strictly uses key-value store. Key-value databases allows one
+     write at a time, the difference that LMDB highlights is that
+     write transactions do not block readers nor do readers block
+     writes. Also, it does allow multiple applications on the same
+     system to open and use the store simultaneously which helps in
      scaling up performance :cite:`www-lmdb`.
 
 187. Hazelcast
 
-     Hazelcast is a java based, in memory data grid :cite:`www-wikihazel`.
-     It is open source software, released under the Apache 2.0 License 
-     :cite:`www-githubhazel`. Hazelcast enables predictable scaling for 
-     applications by providing in memory access to data. 
-     Hazelcast uses a grid to distribute data evenly across
-     a cluster. Clusters allow processing and storage to scale 
-     horizontally. Hazelcast can run locally, in the cloud, in virtual 
-     machines, or in Docker containers. Hazelcast can be utilized for 
-     a wide variety of applications. It has APIs for many programing 
-     languages including Python, Java, Scala, C++, .NET and Node.js and
-     supports any binary languages through an Open Binary Client Protocol
-     :cite:`www-wikihazel`.
+     Hazelcast is a java based, in memory data grid
+     :cite:`www-wikihazel`.  It is open source software, released
+     under the Apache 2.0 License :cite:`www-githubhazel`. Hazelcast
+     enables predictable scaling for applications by providing in
+     memory access to data.  Hazelcast uses a grid to distribute data
+     evenly across a cluster. Clusters allow processing and storage to
+     scale horizontally. Hazelcast can run locally, in the cloud, in
+     virtual machines, or in Docker containers. Hazelcast can be
+     utilized for a wide variety of applications. It has APIs for many
+     programing languages including Python, Java, Scala, C++, .NET and
+     Node.js and supports any binary languages through an Open Binary
+     Client Protocol :cite:`www-wikihazel`.
 
 188. Ehcache
 
-     EHCACHE is an open-source Java-based cache. It supports distributed
-     caching and could scale to hundred of caches. It comes with REST APIs
-     and could be integrated with popular frameworks like Hibernate
-     :cite:`www-ehcache-features`. It offers storage tires such that less
-     frequently data could be moved to slower tires
-     :cite:`www-ehcache-documentation`. It's XA compliant and supports two-
-     phase commit and recovery for transactions. It's developed and
-     maintained by Terracotta and is available under Apache 2.0 license.
-     It conforms to Java caching standard JSR 107. 
+     EHCACHE is an open-source Java-based cache. It supports
+     distributed caching and could scale to hundred of caches. It
+     comes with REST APIs and could be integrated with popular
+     frameworks like Hibernate :cite:`www-ehcache-features`. It offers
+     storage tires such that less frequently data could be moved to
+     slower tires :cite:`www-ehcache-documentation`. It's XA compliant
+     and supports two- phase commit and recovery for
+     transactions. It's developed and maintained by Terracotta and is
+     available under Apache 2.0 license.  It conforms to Java caching
+     standard JSR 107.
 
 189. Infinispan
 190. VoltDB
@@ -2910,7 +3266,7 @@ In-memory databases/caches
      times (1ms) and hundreds of thousands of transactions per
      second. VoltDB allows users to ingest data, analyze data, and act
      on data in milliseconds, allowing users to create per-person,
-     real-time experiences :cite:`voltdb-wiki`. 
+     real-time experiences :cite:`voltdb-wiki`.
 
 191. H-Store
 
@@ -2940,6 +3296,27 @@ Object-relational mapping
 ----------------------------------------------------------------------
 
 192. Hibernate
+
+     Hibernate is an open source project which provides object
+     relational persistence framework for applications in Java. It is
+     an Object relational mapping library (ORM) which provides the
+     framework for mapping object oriented model to relational
+     database. It provides a query language, a caching layer and Java
+     Management Extensions (JMX) support. Databases supported by
+     Hibernate includes DB2, Oracle, MySQL, PostgreSQL.To provide
+     persistence services, Hibernate uses database and configuration
+     data. For using hibernate, firstly a java class is created which
+     represents table in the database. Then columns in database are
+     mapped to the instance variables of created Java class. Hibernate
+     can perform database operations like select, insert, delete and
+     update records in table by automatically creating
+     query. Connection management and transaction management are
+     provided by hibernate.  Hibernate saves development and debugging
+     time in comparison to JDBC.  But it is slower at runtime as it
+     generates many SQL statements at runtime. It is database
+     independent. For batch processing it is advisable to use JDBC
+     over Hibernate :cite:`hibernate`
+
 193. OpenJPA
 
      According to :cite:`www-openjpa`, Apache OpenJPA is a Java
@@ -3088,9 +3465,9 @@ SQL(NewSQL)
         integrated with Microsoft Azure cloud platform and available in
         platform-as-a-service mode.
 
-     In the book :cite:`book-sqlserver`, the technical architecture of SQL Server in
-     OLTP(online transaction processing), hybrid cloud and business
-     intelligence modes is explained in detail.
+     In the book :cite:`book-sqlserver`, the technical architecture of
+     SQL Server in OLTP(online transaction processing), hybrid cloud
+     and business intelligence modes is explained in detail.
 
 
 
@@ -3224,6 +3601,27 @@ SQL(NewSQL)
 
      
 213. Google F1
+
+     F1 is a distributed relational database system built at Google to
+     support the AdWords business. It is a hybrid database that
+     combines high availability, the scalability of NoSQL systems like
+     Bigtable, and the consistency and usability of traditional SQL
+     databases. F1 is built on Spanner, which provides synchronous
+     cross-datacenter replication and strong consistency
+     :cite:`paper-F1`.
+     
+     F1 features include a strictly enforced schema, a powerful
+     parallel SQL query engine, general transactions, change tracking
+     and notification, and indexing, and is built on top of a
+     highly-distributed storage system that scales on standard
+     hardware in Google data centers. The store is dynamically sharded
+     and is able to handle data center outages without data loss
+     :cite:`paper-RDBMS` . The synchronous cross-datacenter
+     replication and strong consistency results in higher commit
+     latency which can be overcome using hierarchical schema model
+     with structured data types and through smart application design.
+     
+
 214. IBM dashDB
 
      IBM dashDB is a data warehousing service hosted in cloud ,
@@ -3327,16 +3725,17 @@ NoSQL
      
 222. Riak
 
-     Riak is a set of scalable distributed NoSQL databases developed by
-     Basho Technologies. Riak KV is a key-value :cite:`www-riak-kv` database
-     with time-to-live feature so that older data is deleted automatically.
-     It can be queried through secondary indexes, search via Apache Solr,
-     and MapReduce. Riak TS is designed for time-series data. It co-
-     locates related data on the same physical cluster for faster access
-     :cite:`www-riak-ts`. Riak S2 is designed to store large objects like media
-     files and software binaries :cite:`www-riak-s2`. The databases are available
-     in both open source and commercial versions with multicluster
-     replication provided only in later. REST APIs are available for these
+     Riak is a set of scalable distributed NoSQL databases developed
+     by Basho Technologies. Riak KV is a key-value :cite:`www-riak-kv`
+     database with time-to-live feature so that older data is deleted
+     automatically.  It can be queried through secondary indexes,
+     search via Apache Solr, and MapReduce. Riak TS is designed for
+     time-series data. It co- locates related data on the same
+     physical cluster for faster access :cite:`www-riak-ts`. Riak S2
+     is designed to store large objects like media files and software
+     binaries :cite:`www-riak-s2`. The databases are available in both
+     open source and commercial versions with multicluster replication
+     provided only in later. REST APIs are available for these
      databases.
 
 223. ZHT
@@ -3344,60 +3743,66 @@ NoSQL
      According to :cite:`datasys`, “ZHT is a zero-hop distributed hash
      table.” Distributed hash tables effectively break a hash table up
      and assign different nodes responsibility for managing different
-     pieces of the larger hash table. :cite:`wiley` To retrieve a value in a
-     distributed hash table, one needs to find the node that is
-     responsible for the managing the key value pair of
-     interest. :cite:`wiley` In general, every node that is a part of the
-     distributed hash table has a reference to the closest two nodes
-     in the node list. :cite:`wiley` In a ZHT, however, every node contains
-     information concerning the location of every other node. :cite:`Li`
-     Through this approach, ZHT aims to provide “high availability,
-     good fault tolerance, high throughput, and low latencies, at
-     extreme scales of millions of nodes.” :cite:`Li` Some of the defining
-     characteristics of ZHT are that it is light-weight, allows nodes
-     to join and leave dynamically, and utilizes replication to obtain
-     fault tolerance among others. :cite:`Li`
+     pieces of the larger hash table. :cite:`wiley` To retrieve a
+     value in a distributed hash table, one needs to find the node
+     that is responsible for the managing the key value pair of
+     interest. :cite:`wiley` In general, every node that is a part of
+     the distributed hash table has a reference to the closest two
+     nodes in the node list. :cite:`wiley` In a ZHT, however, every
+     node contains information concerning the location of every other
+     node. :cite:`Li` Through this approach, ZHT aims to provide “high
+     availability, good fault tolerance, high throughput, and low
+     latencies, at extreme scales of millions of nodes.” :cite:`Li`
+     Some of the defining characteristics of ZHT are that it is
+     light-weight, allows nodes to join and leave dynamically, and
+     utilizes replication to obtain fault tolerance among
+     others. :cite:`Li`
      
 224. Berkeley DB
 
-     Berkeley DB is a family of open source, NoSQL key-value database libraries. 
-     :cite:`www-bdb-wiki` It provides a simple function-call API for data access 
-     and management over a number of programming languages, including C, C++, 
-     Java, Perl, Tcl, Python, and PHP. Berkeley DB is embedded because it links 
-     directly into the application and runs in the same address space as the 
-     application. :cite:`www-bdb-stanford` As a result, no inter-process 
-     communication, either over the network or between processes on the same 
-     machine, is required for database operations. It is also extremely portable 
-     and scalable, it can manage databases up to 256 terabytes in size.
+     Berkeley DB is a family of open source, NoSQL key-value database
+     libraries.  :cite:`www-bdb-wiki` It provides a simple
+     function-call API for data access and management over a number of
+     programming languages, including C, C++, Java, Perl, Tcl, Python,
+     and PHP. Berkeley DB is embedded because it links directly into
+     the application and runs in the same address space as the
+     application. :cite:`www-bdb-stanford` As a result, no
+     inter-process communication, either over the network or between
+     processes on the same machine, is required for database
+     operations. It is also extremely portable and scalable, it can
+     manage databases up to 256 terabytes in size.
      
-     :cite:`www-bdb` For data management, Berkeley DB offers advanced services, 
-     such as concurrency for many users, ACID transactions, and recovery. 
+     :cite:`www-bdb` For data management, Berkeley DB offers advanced
+     services, such as concurrency for many users, ACID transactions,
+     and recovery.
      
-     Berkeley DB is used in a wide variety of products and a large number of 
-     projects, including gateways from Cisco, Web applications at Amazon.com 
-     and open-source projects such as Apache and Linux.
+     Berkeley DB is used in a wide variety of products and a large
+     number of projects, including gateways from Cisco, Web
+     applications at Amazon.com and open-source projects such as
+     Apache and Linux.
 
 225. Kyoto/Tokyo Cabinet
 
      Tokyo Cabinet :cite:`www-tokyo-cabinet` and Kyoto Cabinet
-     :cite:`www-kyoto-cabinet` are libraries of routines for managing a
-     database. The database normally is a simple data file containing
-     records having a key value pair structure. Every key and value is
-     serial bytes with variable length. Both binary data and character
-     string can be used as a key and a value. There is no concept of
-     data tables nor data types like RDBMS or DBMS. Records are
-     organized in hash table, B+ tree, or fixed-length array.Tokyo and
-     Kyoto cabinets both are developed as a successor of GDBM and QDBM
-     which are library routines for managing database as well. Tokyo
-     Cabinet is written in the C language, and is provided as API of
-     C, Perl, Ruby, Java, and Lua. Tokyo Cabinet is available on
-     platforms which have API conforming to C99 and POSIX. Whereas
-     Kyoto Cabinet is written in the C++ language, and is provided as
-     API of C++, C, Java, Python, Ruby, Perl, and Lua. Kyoto Cabinet
-     is available on platforms which have API conforming to C++03 with
-     the TR1 library extensions. Both are free software licenced under
-     GNU (General Public Licence). :cite:`www-tokyo-cabinet` actually mentions
-     that Kyoto Cabinet is more powerful and has convenient library
+     :cite:`www-kyoto-cabinet` are libraries of routines for managing
+     a database. The database normally is a simple data file
+     containing records having a key value pair structure. Every key
+     and value is serial bytes with variable length. Both binary data
+     and character string can be used as a key and a value. There is
+     no concept of data tables nor data types like RDBMS or
+     DBMS. Records are organized in hash table, B+ tree, or
+     fixed-length array.Tokyo and Kyoto cabinets both are developed as
+     a successor of GDBM and QDBM which are library routines for
+     managing database as well. Tokyo Cabinet is written in the C
+     language, and is provided as API of C, Perl, Ruby, Java, and
+     Lua. Tokyo Cabinet is available on platforms which have API
+     conforming to C99 and POSIX. Whereas Kyoto Cabinet is written in
+     the C++ language, and is provided as API of C++, C, Java, Python,
+     Ruby, Perl, and Lua. Kyoto Cabinet is available on platforms
+     which have API conforming to C++03 with the TR1 library
+     extensions. Both are free software licenced under GNU (General
+     Public Licence). :cite:`www-tokyo-cabinet` actually mentions that
+     Kyoto Cabinet is more powerful and has convenient library
      structure than Tokyo and recommends people to use Kyoto. Since
      they use key-value pair concept, you can store a record with a
      key and a value, delete a record using the key and even retrive a
@@ -3436,47 +3841,72 @@ NoSQL
 
 228. MongoDB
 
-     MongoDB is a NoSQL database which uses collections and documents 
-     to store data as opposed to the relational database where data is 
-     stored in tables and rows. In MongoDB a collection is a container 
-     for documents, whereas a document contains key-value pairs for storing 
-     data. As MongoDB is a NoSQL database, it supports dynamic schema design 
-     allowing documents to have different fields. The database uses a document 
-     storage and data interchange format called BSON, which provides a binary 
-     representation of JSON-like documents.
+     MongoDB is a NoSQL database which uses collections and documents
+     to store data as opposed to the relational database where data is
+     stored in tables and rows. In MongoDB a collection is a container
+     for documents, whereas a document contains key-value pairs for
+     storing data. As MongoDB is a NoSQL database, it supports dynamic
+     schema design allowing documents to have different fields. The
+     database uses a document storage and data interchange format
+     called BSON, which provides a binary representation of JSON-like
+     documents.
 
-     MongoDB provides high data availability by way of replication and 
-     sharding. High cost involved in data replication can be reduced by 
-     horizontal data 
-     scaling by way of shards where data is scattered across multiple 
-     servers. It reduces query cost as the query load is distributed 
-     across servers. This means that both read and write performance 
-     can be increased by adding more shards to a cluster. Which document 
-     resides on which shard is determined by the shard key of each collection.
+     MongoDB provides high data availability by way of replication and
+     sharding. High cost involved in data replication can be reduced
+     by horizontal data scaling by way of shards where data is
+     scattered across multiple servers. It reduces query cost as the
+     query load is distributed across servers. This means that both
+     read and write performance can be increased by adding more shards
+     to a cluster. Which document resides on which shard is determined
+     by the shard key of each collection.
 
-     As far as data backup and restore is concerned the default MongoDB 
-     storage engines natively support backup of complete data. For incremental 
-     backups one can use MongoRocks that is a third party tool developed by Facebook.
+     As far as data backup and restore is concerned the default
+     MongoDB storage engines natively support backup of complete
+     data. For incremental backups one can use MongoRocks that is a
+     third party tool developed by Facebook.
 
 229. Espresso
+
+     Espresso :cite:`www-Linkedin-Espresso` is a document-oriented
+     distributed data serving platform that plays an important role in
+     LinkedIn's central data pipeline. It currently powers
+     approximately 30 LinkedIn applications including Member Profile,
+     InMail, etc and also hosts some of its most important member
+     data. Espresso provides a heirarchical data model in which the
+     databases and table schema are defined in JSON.Some of the key
+     component of Espresso include : 1)Router: which is a stateless
+     HTTP Proxy and also acts as a entry point for all client requests
+     in Espresso. The Router uses local cached routing table to manage
+     the partition among all the storage nodes within the
+     cluster. 2)Storage Node: are the building blocks of the storage
+     and each one of them hosts a set of partition. 3) Helix: is
+     responsible for cluster management in Espresso. 4) Databus: are
+     responsible for capturing change to transport source transactions
+     in commit order.
+
+     All the above mentioned components together enable Espresso to achieve 
+     real-time secondary indexing, on-the-fly schema evolution and also a 
+     timeline consistent change capture stream.
+
 230. CouchDB
      
-     The Apache Software Foundation makes CouchDB available as an option for
-     those seeking an open-source, NoSQL, document-oriented database. CouchDB,
-     or cluster of unreliable commodity hardware database,  
-     :cite:`www-exploringcdb-couchdb` stores data as a JSON-formatted document.
-     Documents can consist of a variety of field types, e.g., text, booleans
-     or lists, as well as metadata used by the software. 
-     :cite:`www-techoverview-couchdb`  CouchDB does not limit the number of 
-     fields per document, and it does not require any two documents to consist
-     of matching or even similar fields.  That is, the document has structure,
-     but the structure can vary by document.  CouchDB coordinates cluster
-     activities using the master-master mode by default, which means it does
-     not have any one in charge of the cluster.  However, a cluster can be set
-     up to write all data to single node, which is then replicated across the
-     cluster.  Either way, the system can only offer eventual consistency.
-     :cite:`www-cdb-vs-cbs-couchdb`  CouchDB serves as the basis of Couchbase,
-     Inc's Couchbase Server.
+     The Apache Software Foundation makes CouchDB available as an
+     option for those seeking an open-source, NoSQL, document-oriented
+     database. CouchDB, or cluster of unreliable commodity hardware
+     database, :cite:`www-exploringcdb-couchdb` stores data as a
+     JSON-formatted document.  Documents can consist of a variety of
+     field types, e.g., text, booleans or lists, as well as metadata
+     used by the software.  :cite:`www-techoverview-couchdb` CouchDB
+     does not limit the number of fields per document, and it does not
+     require any two documents to consist of matching or even similar
+     fields.  That is, the document has structure, but the structure
+     can vary by document.  CouchDB coordinates cluster activities
+     using the master-master mode by default, which means it does not
+     have any one in charge of the cluster.  However, a cluster can be
+     set up to write all data to single node, which is then replicated
+     across the cluster.  Either way, the system can only offer
+     eventual consistency.  :cite:`www-cdb-vs-cbs-couchdb` CouchDB
+     serves as the basis of Couchbase, Inc's Couchbase Server.
 
 231. Couchbase Server
 
@@ -3571,26 +4001,27 @@ NoSQL
      HDFS. Moreover, Hbase supports random, real-time CRUD
      (Create/Read/Update/Delete) operations.
 
-     Hbase is a type of NoSQL database and is classified as a key value
-     store.In HBase, value is identied with a key where both of them are
-     stored as byte arrays. Values are stored in the order of keys. HBase
-     is a database system where the tables have no schema. Some of the
-     companies that use HBase as their core program are Facebook, Twitter,
-     Adobe, Netflix etc.
+     Hbase is a type of NoSQL database and is classified as a key
+     value store.In HBase, value is identied with a key where both of
+     them are stored as byte arrays. Values are stored in the order of
+     keys. HBase is a database system where the tables have no
+     schema. Some of the companies that use HBase as their core
+     program are Facebook, Twitter, Adobe, Netflix etc.
 
 235. Google Bigtable
 
-     Google Bigtable is a NoSQL database service, built upon several Google
-     technologies, including Google File System, Chubby Lock Service, and
-     SSTable :cite:`www-cloudbigtable`.  Designed for Big Data, Bigtable 
-     provides high performance and low latency and scales to hundreds of
-     petabytes :cite:`www-cloudbigtable`. Bigtable powers many core
-     Google products, such as Search, Analytics, Maps, Earth, Gmail,
-     and YouTube. Bigtable also drives Google Cloud Datastore and influenced
-     Spanner, a distributed NewSQL database also developed by
-     Google :cite:`www-wikispanner` :cite:`www-wikibigtable`.
-     Since May 6, 2015, Bigtable has been available to the 
-     public as Cloud Bigtable :cite:`www-wikibigtable`.
+     Google Bigtable is a NoSQL database service, built upon several
+     Google technologies, including Google File System, Chubby Lock
+     Service, and SSTable :cite:`www-cloudbigtable`.  Designed for Big
+     Data, Bigtable provides high performance and low latency and
+     scales to hundreds of petabytes
+     :cite:`www-cloudbigtable`. Bigtable powers many core Google
+     products, such as Search, Analytics, Maps, Earth, Gmail, and
+     YouTube. Bigtable also drives Google Cloud Datastore and
+     influenced Spanner, a distributed NewSQL database also developed
+     by Google :cite:`www-wikispanner` :cite:`www-wikibigtable`.
+     Since May 6, 2015, Bigtable has been available to the public as
+     Cloud Bigtable :cite:`www-wikibigtable`.
 
 236. LevelDB
 
@@ -3645,6 +4076,23 @@ NoSQL
      spanner infrastructure.
 
 238. Accumulo
+
+     Apache Accumulo, a highly scalable structured store based on
+     Google’s BigTable, is a sorted, distributed key/value store that
+     provides robust, scalable data storage and retrieval. Accumulo is
+     written in Java and operates over the Hadoop Distributed File
+     System (HDFS), which is part of the popular Apache Hadoop
+     project. Accumulo supports efficient storage and retrieval of
+     structured data, including queries for ranges, and provides
+     support for using Accumulo tables as input and output for
+     MapReduce jobs.
+     Accumulo features automatic load-balancing and
+     partitioning, data compression and fine-grained security
+     labels. Much of the work Accumulo does involves maintaining
+     certain properties of the data, such as organization,
+     availability, and integrity, across many commodity-class
+     machines :cite:`apache-accumulo`.
+
 239. Cassandra
 
      Apache Cassandra :cite:`www-cassandra` is an open-source
@@ -3663,13 +4111,14 @@ NoSQL
 
      Rya is a “scalable system for storing and retrieving RDF data in
      a cluster of nodes.” :cite:`Punnoose` RDF stands for Resource
-     Description Framework. :cite:`Punnoose` RDF is a model that facilitates
-     the exchange of data on a network. :cite:`w3` RDF utilizes a form
-     commonly referred to as a triple, an object that consists of a
-     subject, predicate, and object. :cite:`Punnoose` These triples are used
-     to describe resources on the Internet. :cite:`Punnoose` Through new
-     storage and querying techniques, Rya aims to make accessing RDF
-     data fast and easy. :cite:`apacherya`
+     Description Framework. :cite:`Punnoose` RDF is a model that
+     facilitates the exchange of data on a network. :cite:`w3` RDF
+     utilizes a form commonly referred to as a triple, an object that
+     consists of a subject, predicate, and object. :cite:`Punnoose`
+     These triples are used to describe resources on the
+     Internet. :cite:`Punnoose` Through new storage and querying
+     techniques, Rya aims to make accessing RDF data fast and
+     easy. :cite:`apacherya`
      
 241. Sqrrl
 242. Neo4J
@@ -3694,80 +4143,139 @@ NoSQL
      
 243. graphdb
 
-     A Graph Database is a database that uses graph structures for semantic
-     queries with nodes, edges and properties to represent and store data.
-     :cite:`www-graphdb`
-     The Graph is a concept which directly relates the data items in the store.
-     The data which is present in the store is linked together directly with the
-     help of relationships. It can be retrieved with a single operation.
-     Graph database allow simple and rapid retrieval of complex hierarchical
-     structures that are difficult to model in relational systems.
+     A Graph Database is a database that uses graph structures for
+     semantic queries with nodes, edges and properties to represent
+     and store data.  :cite:`www-graphdb` The Graph is a concept which
+     directly relates the data items in the store.  The data which is
+     present in the store is linked together directly with the help of
+     relationships. It can be retrieved with a single operation.
+     Graph database allow simple and rapid retrieval of complex
+     hierarchical structures that are difficult to model in relational
+     systems.
 
-     There are different underlying storage mechanisms used by graph databases.
-     Some graphdb depend on a relational engine and store the graph data in a
-     table, while others use a key-value store or document-oriented database for
-     storage. Thus, they are inherently caled as NoSQL structures.
-     Data retrieval in a graph database requires a different query language
-     other than SQL. Some of the query languages used to retrieve data from a
-     graph database are Gremlin, SPARQL, and Cypher.
-     Graph databases are based on graph theory. They employ the concepts of
-     nodes, edges and properties.
+     There are different underlying storage mechanisms used by graph
+     databases.  Some graphdb depend on a relational engine and store
+     the graph data in a table, while others use a key-value store or
+     document-oriented database for storage. Thus, they are inherently
+     caled as NoSQL structures.  Data retrieval in a graph database
+     requires a different query language other than SQL. Some of the
+     query languages used to retrieve data from a graph database are
+     Gremlin, SPARQL, and Cypher.  Graph databases are based on graph
+     theory. They employ the concepts of nodes, edges and properties.
      
 244. Yarcdata
+
+     Yarcdata is Cray subsidiary providing Analytics
+     products, namely the Urika Agile Analytics Platform and Graph
+     Engine. Cray’s Urika (Universal RDF Integration Knowledge
+     Appliance) system :cite:`www-Urika-appliance` is a hardware
+     platform designed specifically to provide high-speed
+     graph-retrieval for relationship analytics. Urika is a massively
+     parallel, multi-threaded, shared-memory computing device designed
+     to store and retrieve massive graph datasets. The system can
+     import and host massive heterogeneous graphs represented in the
+     resource description framework (RDF) format and can retrieve
+     descriptive graph patterns specified in a SPARQL query.
+
+     Urika-GD :cite:`techspec-Urika-GD` is a big data appliance for
+     graph analytics helps enterprises gain key insights by
+     discovering relationships in big data. Its highly scalable,
+     real-time graph analytics warehouse supports ad hoc queries,
+     pattern-based searches, inferencing and deduction. The Urika-GD
+     appliance complements an existing data warehouse or Hadoop®
+     cluster by offloading graph workloads and interoperating within
+     the existing analytics workflow
+
+     Cray Graph Engine :cite:`paper-graph-data` is a semantic database
+     using Resource Description Framework (RDF) triples to represent
+     the data, SPARQL as the query language and extensions to support
+     mathematical algorithms.
+
+     The paper "Graph mining meets the semantic web"
+     :cite:`paper-lee2015graph` outlines the implementation of graph
+     mining algorithms using SPARQL.
+
 245. AllegroGraph
      
-     “AllegroGraph is a database technology that enables businesses to 
-     extract sophisticated decision insights and predictive analytics from 
-     their highly complex, distributed data that can’t be answered with 
-     conventional databases, i.e., it turns complex data into actionable 
-     business insights.” :cite:`www-Allegro`
-     It can be viewed as a closed source database that is used for storage
-     and retrieval of data in the form of triples (triple is a data entity 
-     composed of subject-predicate-object like “Professor teaches students”).
-     Information in a triplestore is retrieved using a query language. Query 
-     languages can be classified into database query languages or information
-     retrieval query languages. The difference is that a database query language
-     gives exact answers to exact questions, while an information retrieval 
-     query language finds documents containing requested information. 
-     Triple format represents information in a machine-readable format. 
-     Every part of the triple is individually addressable via unique URLs — 
-     for example, the statement “Professor teaches students” might be 
-     represented in RDF(Resource Description Framework ) as 
-     http://example.name#Professor12 http://xmlns.com/foaf/0.1/teacheshttp:
-     //example.name#students. Using this representation, semantic data can 
-     be queried.  :cite:`www-Allegrow`
+     “AllegroGraph is a database technology that enables businesses to
+     extract sophisticated decision insights and predictive analytics
+     from their highly complex, distributed data that can’t be
+     answered with conventional databases, i.e., it turns complex data
+     into actionable business insights.” :cite:`www-Allegro` It can be
+     viewed as a closed source database that is used for storage and
+     retrieval of data in the form of triples (triple is a data entity
+     composed of subject-predicate-object like “Professor teaches
+     students”).  Information in a triplestore is retrieved using a
+     query language. Query languages can be classified into database
+     query languages or information retrieval query languages. The
+     difference is that a database query language gives exact answers
+     to exact questions, while an information retrieval query language
+     finds documents containing requested information.  Triple
+     format represents information in a machine-readable format.
+     Every part of the triple is individually addressable via
+     unique URLs — for example, the statement “Professor teaches
+     students” might be represented in RDF(Resource Description
+     Framework ) as  http://example.name#Professor12
+     http://xmlns.com/foaf/0.1/teacheshttp:
+     //example.name#students. Using this representation, semantic data
+     can be queried.  :cite:`www-Allegrow`
 
 246. Blazegraph
+
+     Blazegraph is a graph database also supporting property graph, 
+     capable of clustered deployment. A graph database is a NoSQL 
+     database. It is based on a graph theory of nodes and edges where 
+     each node represents an element such as user or business and each 
+     edge represents relationship between two nodes. It is mainly used 
+     for storing and analyzing data where maintaining interconnections 
+     is essential. Data pertaining to social media is best example where 
+     graph database can be used.
+
+     Blazegraph’s main focus is large scale complex graph analytics and query. 
+     The Blazegraph database runs on graphics processing units (GPU) to 
+     speed graph traversals. :cite ‘paper-blzgraph’
+
+     Lets now see how Blazegraph handles data. :cite ‘www-blzgraph’ 
+     **Blazegraph data can be accessed** using REST APIs. 
+
+     **Blazegraph supports** Apache TinkerPop, which is a graph
+      computing framework.
+
+     **For graph data mining,** Blazegraph implements GAS (Gather, Apply, 
+     Scatter) model as a service.
+
 247. Facebook Tao
 
-     In the paper published in USENIX annual technical conference, 
-     Facebook Inc describes TAO (The Association and Objects) as 
-     :cite ‘book-tao’ a geographically distributed data store that 
-     provides timely access to the social graph for Facebook’s demanding 
-     workload using a fixed set of queries. It is deployed at Facebook for 
-     many data types that fit its model. The system runs on thousands of 
-     machines, is widely distributed, and provides access to many petabytes 
-     of data. TAO represents social data items as Objects (user) and 
-     relationship between them as Associations (liked by, friend of). 
-     TAO cleanly separates the caching tiers from the persistent data 
-     store allowing each of them to be scaled independently. To any user 
-     of the system it presents a single unified API that makes the entire 
-     system appear like 1 giant graph database. :cite:'www-tao'.
+     In the paper published in USENIX annual technical conference,
+     Facebook Inc describes TAO (The Association and Objects) as :cite
+     ‘book-tao’ a geographically distributed data store that provides
+     timely access to the social graph for Facebook’s demanding
+     workload using a fixed set of queries. It is deployed at Facebook
+     for many data types that fit its model. The system runs on
+     thousands of machines, is widely distributed, and provides access
+     to many petabytes of data. TAO represents social data items as
+     Objects (user) and relationship between them as Associations
+     (liked by, friend of).  TAO cleanly separates the caching tiers
+     from the persistent data store allowing each of them to be scaled
+     independently. To any user of the system it presents a single
+     unified API that makes the entire system appear like 1 giant
+     graph database. :cite:'www-tao'.
 
 248. Titan:db
 
-     Titan:db :cite:`www-Titan` is a distributed graph database that 
+     Titan:db :cite:`www-Titan` is a distributed graph database that
      can support of thousands of concurrent users interacting with a
-     single massive graph database that is distributed over the 
-     clusters. It is open source with liberal Apache 2 license. 
-     Its main components are storage backend, search backend, and 
+     single massive graph database that is distributed over the
+     clusters. It is open source with liberal Apache 2 license.  Its
+     main components are storage backend, search backend, and
      TinkerPop graph stack. Titan provides support for various 
-     storage backends and also linear scalability for a growing data 
-     and user base. It inherits features such as ‘Gremlin’ query 
-     language  and ‘Rexter’ graph server from TinkerPop :cite:`www-TinkerPop`. 
-     For huge graphs, Titan uses a component called Titan-hadoop which 
-     compiles Gremlin queries to Hadoop MapReduce jobs and runs them 
-     on the clusters. Titan is basically optimal for smaller graphs.
+     storage backends and also linear scalability for a growing data
+     and user base. It inherits features such as ‘Gremlin’ query
+     language and ‘Rexter’ graph server from TinkerPop
+     :cite:`www-TinkerPop`.  For huge graphs, Titan uses a component
+     called Titan-hadoop which compiles Gremlin queries to Hadoop
+     MapReduce jobs and runs them on the clusters. Titan is basically
+     optimal for smaller graphs.
 
 249. Jena
 
@@ -3884,21 +4392,23 @@ File management
 
 255. NetCDF
 
-     NetCDF is a set of software libraries and self-describing, machine-indepen
-     dent data formats that support the creation, access, and sharing of array
-     oriented scientific data. NetCDF was developed and is maintained at Unidata
-     , part of the University Corporation for Atmospheric Research (UCAR) Commun
-     ity Programs (UCP). Unidata is funded primarily by the National Science F
-     oundation :cite:`paper-netCDF` :cite:`www-netcdf` . The purpose of the Netwo
-     rk Common Data Form(netCDF) interface is to support the creation, efficient
-     access, and sharing of data in a form that is self-describing, portable, co
-     mpact, extendible, and archivable Version 3 of netCDF is widely used in   
-     atmospheric and ocean sciences due to its simplicity. NetCDF version 4 has 
-     been designed to address limitations of netCDF version 3 while preserving 
-     useful forms of compatibility with existing application software and data 
-     archives :cite:`paper-netCDF`. 
-     NetCDF consists of: a) A conceptual data model b) A set of binary data 
-     formats c) A set of APIs for C/Fortran/Java 
+     NetCDF is a set of software libraries and self-describing,
+     machine-indepen dent data formats that support the creation,
+     access, and sharing of array oriented scientific data. NetCDF was
+     developed and is maintained at Unidata , part of the University
+     Corporation for Atmospheric Research (UCAR) Commun ity Programs
+     (UCP). Unidata is funded primarily by the National Science F
+     oundation :cite:`paper-netCDF` :cite:`www-netcdf` . The purpose
+     of the Netwo rk Common Data Form(netCDF) interface is to support
+     the creation, efficient access, and sharing of data in a form
+     that is self-describing, portable, co mpact, extendible, and
+     archivable Version 3 of netCDF is widely used in atmospheric and
+     ocean sciences due to its simplicity. NetCDF version 4 has been
+     designed to address limitations of netCDF version 3 while
+     preserving useful forms of compatibility with existing
+     application software and data archives :cite:`paper-netCDF`.
+     NetCDF consists of: a) A conceptual data model b) A set of binary
+     data formats c) A set of APIs for C/Fortran/Java
 
 256. CDF
 
@@ -4104,19 +4614,42 @@ Data Transport
 
 269. Sqoop
      
-     Apache Sqoop is a tool to transfer large amounts of data between Apache Hadoop
-     and sql databases :cite:`www-sqoop`. The name is a Portmanteau of
-     SQL + Hadoop. It is a command line interface application which
-     supports incremental loads of complete tables, free form (custom)
-     SQL Queries and allows the use of saved and scheduled jobs to import
-     latest updates made since the last import. The imports can also be
-     used to populate tables in Hive or Hbase. Sqoop has the option of
-     export, which allows data to be transferred from Hadoop into a
-     relational database. Sqoop is supported in many different business
-     integration suits like Informatica Big Data Management, Pentaho
-     Data Integration, Microsoft BI Suite and Couchbase :cite:`sqoop-wiki`. 
+     Apache Sqoop is a tool to transfer large amounts of data between
+     Apache Hadoop and sql databases :cite:`www-sqoop`. The name is a
+     Portmanteau of SQL + Hadoop. It is a command line interface
+     application which supports incremental loads of complete tables,
+     free form (custom) SQL Queries and allows the use of saved and
+     scheduled jobs to import latest updates made since the last
+     import. The imports can also be used to populate tables in Hive
+     or Hbase. Sqoop has the option of export, which allows data to be
+     transferred from Hadoop into a relational database. Sqoop is
+     supported in many different business integration suits like
+     Informatica Big Data Management, Pentaho Data Integration,
+     Microsoft BI Suite and Couchbase :cite:`sqoop-wiki`.
 
 270. Pivotal GPLOAD/GPFDIST
+
+     Greenplum Database :cite:`book-greenplum-gollapudi2013` is a
+     shared nothing, massively parallel processing solution built to
+     support next generation data warehousing and Big Data analytics
+     processing. In its new distribution under Pivotal, Greenplum
+     Database is called Pivotal(Greenplum) Database.
+
+     gpfdist :cite:`www-gpfdist` is Greenplum's parallel file
+     distribution program. It is used by readable external tables and
+     gpload to serve external table files to all Greenplum Database
+     segments in parallel. It is used by writable external tables to
+     accept output streams from Greenplum Database segments in
+     parallel and write them out to a file.
+
+     gpload :cite:`book-greenplum-gollapudi2013` is data loading
+     utility is used to load data into Greenplum's external table in
+     parallel.
+
+     Google has an invention :cite:`patent-google-gpf` relating to
+     integrating map-reduce processing techniques into a distributed
+     relational database. An embodiment of the invention is
+     implemented by Greenplum as gpfdist.
 
 Cluster Resource Management
 ----------------------------------------------------------------------
@@ -4190,6 +4723,26 @@ Cluster Resource Management
      quality. :cite:`www-ibm-helix-paper`
       
 274. Llama
+
+     Llama stands for leveraging learning to automatically manage
+     algorithms. There has been a phenomenal improvement in algorithm
+     portfolio and selection approaches. The main drawback of them is
+     that their implementation is specific to a problem domain and
+     customized which leads to the difficulty of exploring new
+     techniques for certain problem domains. Llama has been developed
+     to provide an extensible toolkit which can initiate exploration
+     of a variety of portfolio techniques over a wide range of problem
+     domains. It is modular and implemented as an R package. It
+     leverages the extensive library of machine learning algorithms
+     and techniques in R :cite:`lla1`. Llama can be regarded as a
+     framework which provides the prerequisites for initiating
+     automatic portfolio selectors. It provides a set of methods for
+     combining several trivial approaches of portfolio selection into
+     sophisticated techniques. The primary reason behind the
+     introduction of Llama was to help the researchers working in
+     algorithm selection, algorithm portfolios, etc. and can be just
+     used as a tool for designing the systems :cite:`lla1`.
+     
 275. Google Omega
 276. Facebook Corona
 
@@ -4276,18 +4829,19 @@ Cluster Resource Management
      release of OGE is termed as 6.2u8 which came out in October
      1,2012.
 
-     OGE supports a vast array of features like: Topology-aware scheduling
-     and thread binding, advanced fault tolerance mechanisms for job
-     scheduling, web interface based status reporting and ability to use
-     different scheduling algorithms,etc. OGE runs on several platforms
-     including AIX, BSD, Linux, Solaris, OS X, Tru64, Windows, etc. It is
-     under delpoyment phasae for IBM's 64-bit operating system
-     z/OS. Standard Grid cluster comprises of one master host and many
-     execution hosts. There is a option of creating shadow master hosts
-     which would take the master's place incase of a system crash. Notable
+     OGE supports a vast array of features like: Topology-aware
+     scheduling and thread binding, advanced fault tolerance
+     mechanisms for job scheduling, web interface based status
+     reporting and ability to use different scheduling
+     algorithms,etc. OGE runs on several platforms including AIX, BSD,
+     Linux, Solaris, OS X, Tru64, Windows, etc. It is under delpoyment
+     phasae for IBM's 64-bit operating system z/OS. Standard Grid
+     cluster comprises of one master host and many execution
+     hosts. There is a option of creating shadow master hosts which
+     would take the master's place incase of a system crash. Notable
      deployments of OGE include: TSUBAME supercomputer at the Tokyo
-     Institute of Technology,Ranger at the Texas Advanced Computing Center
-     (TACC) and San Diego Supercomputer Center (SDSC).
+     Institute of Technology,Ranger at the Texas Advanced Computing
+     Center (TACC) and San Diego Supercomputer Center (SDSC).
 
 280. OpenPBS
 
@@ -4308,6 +4862,18 @@ Cluster Resource Management
      enhanced visibility and extensibility :cite:`openpbs-www`.
 
 281. Moab
+
+     Moab HPC Suite is a workload management and resource orchestration
+     platform that automates the scheduling, managing, monitoring, and
+     reporting of HPC workloads on massive scale. It uses multi-dimensional
+     policies and advanced future modeling to optimize workload start and
+     run times on diverse resources. It integrates and accelerates the
+     workloads management across independent clusters by adding
+     grid-optimized job submission. Moab's unique intelligent and
+     predictive capabilities evaluate the impact of future orchestration
+     decisions across diverse workload domains (HPC, HTC, Big Data, and
+     Cloud VMs).:cite:`www-moab`
+
 282. Slurm :cite:`www-slurm`
 
      Simple Linux Utility for Resource Management (SLURM) workload
@@ -4335,17 +4901,19 @@ Cluster Resource Management
 283. Torque
 284. Globus Tools
 
-     :cite:`sotomayor2006globus` The Globus Toolkit is an open source toolkit 
-     organized as a collection of loosely coupled components. These components 
-     consist of services, programming libraries and development tools designed 
-     for building Grid-based applications. GT components fall into five broad 
-     domain areas: Security, Data Management, Execution Management, Information 
-     Services, and Common Runtime. :cite:`foster2006globus` These components 
-     enable a broader "Globus ecosystem" of tools and components that build on 
-     or interoperate with GT functionality to provide a wide range of useful 
-     application-level functions. www-about-globus 
-     :cite:`www-about-globus` Since 2000, companies like Fujitsu, IBM, NEC and 
-     Oracle have pursued Grid strategies based on the Globus Toolkit.
+     :cite:`sotomayor2006globus` The Globus Toolkit is an open source
+     toolkit organized as a collection of loosely coupled
+     components. These components consist of services, programming
+     libraries and development tools designed for building Grid-based
+     applications. GT components fall into five broad domain areas:
+     Security, Data Management, Execution Management, Information
+     Services, and Common Runtime. :cite:`foster2006globus` These
+     components enable a broader "Globus ecosystem" of tools and
+     components that build on or interoperate with GT functionality to
+     provide a wide range of useful application-level
+     functions. www-about-globus :cite:`www-about-globus` Since 2000,
+     companies like Fujitsu, IBM, NEC and Oracle have pursued Grid
+     strategies based on the Globus Toolkit.
 
 285. Pilot Jobs
 
@@ -4386,22 +4954,27 @@ File systems
 287. Swift
 288. Haystack
 
-     Haystack is an open source project working with data from internet of Things, aim to 
-     standardise the semantic data model generated from smart devices, homes, factories etc. 
-     It include automation, control, energy, HVAC, lighting and other environmental systems. 
-     :cite:`www-project-haystack.org`
+     Haystack is an open source project working with data from
+     internet of Things, aim to standardise the semantic data model
+     generated from smart devices, homes, factories etc.  It include
+     automation, control, energy, HVAC, lighting and other
+     environmental systems.  :cite:`www-project-haystack.org`
      
-     Building block of Project haystack is on TagModel tagging of metadata stored in key/value 
-     pair applied to entity such id, dis, sites, geoAddr, tz. Structure the primary structure 
-     of haystack is based on three entities, Site location of single unit, equip physical or 
-     logical piece of equipment within site, point sensor, actuator or setpoint value for equip, 
-     it also includes weather outside weather condition. TimeZone time series data is most 
-     important factor it is foundation for sensor and operational data. Captured data not  always 
-     associated with measurable unit, however it provides facility to associate the data points. 
-     Commonly Supported units like Misc, Area, Currency, Energy, Power, Temperature, Temperature 
-     differential, Time, Volumetric Flow. The data often represented in 2D tabular form for tagged 
-     entities. It supports the query language for filtering over the data, data exposed through 
-     REST API in JSON format.
+     Building block of Project haystack is on TagModel tagging of
+     metadata stored in key/value pair applied to entity such id, dis,
+     sites, geoAddr, tz. Structure the primary structure of haystack
+     is based on three entities, Site location of single unit, equip
+     physical or logical piece of equipment within site, point sensor,
+     actuator or setpoint value for equip, it also includes weather
+     outside weather condition. TimeZone time series data is most
+     important factor it is foundation for sensor and operational
+     data. Captured data not always associated with measurable unit,
+     however it provides facility to associate the data points.
+     Commonly Supported units like Misc, Area, Currency, Energy,
+     Power, Temperature, Temperature differential, Time, Volumetric
+     Flow. The data often represented in 2D tabular form for tagged
+     entities. It supports the query language for filtering over the
+     data, data exposed through REST API in JSON format.
 
 289. f4
      
@@ -4526,16 +5099,17 @@ File systems
      General Parallel File System (GPFS) was rebranded as IBM Spectrum 
      Scale on February 17, 2015 :cite:`www-wikigpfs`.
 
-     Spectrum Scale is a clustered file system, developed by IBM, designed 
-     for high performance. It "provides concurrent high-speed file access 
-     to applications executing on multiple nodes of clusters" 
-     :cite:`www-wikigpfs` and can be deployed in either shared-nothing 
-     or shared disk modes. Spectrum Scale is available on AIX, Linux, 
-     Windows Server, and IBM System Cluster 1350 :cite:`www-wikigpfs`.
-     Due to its focus on performance and scalability, Spectrum Scale has 
-     been utilized in compute clusters, big data and analytics - including 
-     support for Hadoop Distributed File System (HDFS), backups and 
-     restores, and private clouds :cite:`www-spectrumscale`.
+     Spectrum Scale is a clustered file system, developed by IBM,
+     designed for high performance. It "provides concurrent high-speed
+     file access to applications executing on multiple nodes of
+     clusters" :cite:`www-wikigpfs` and can be deployed in either
+     shared-nothing or shared disk modes. Spectrum Scale is available
+     on AIX, Linux, Windows Server, and IBM System Cluster 1350
+     :cite:`www-wikigpfs`.  Due to its focus on performance and
+     scalability, Spectrum Scale has been utilized in compute
+     clusters, big data and analytics - including support for Hadoop
+     Distributed File System (HDFS), backups and restores, and private
+     clouds :cite:`www-spectrumscale`.
 
 296. GFFS
 
@@ -4580,40 +5154,45 @@ File systems
 	
 298. Azure Blob
 
-     Azure Blob storage is a service that stores unstructured data in the cloud
-     as objects/blobs. Blob storage can store any type of text or binary data,
-     such as a document, media file, or application installer :cite:`www-azure-3`
-     Blob storage is also referred to as object storage. The word ‘Blob’ expands 
-     to Binary Large OBject. There are three types of blobs in the service offe-
-     red by Windows Azure namely block, append and page blobs. :cite:`www-azure-2`
-     1. Block blobs are collection of individual blocks with unique block ID.
-     The block blobs allow the users to upload large amount of data.
-     2. Append blobs are optimized blocks that helps in making the operations
-     efficient.
-     3. Page blobs are compilation of pages. They allow random read and write
-     operations. While creating a blob, if the type is not specified they are
-     set to block type by default. All the blobs must be inside a container in
-     your storage.
-     Azure Blob storage is a service for storing large amounts of unstructured
-     object data, such as text or binary data, that can be accessed from
-     anywhere in the world via HTTP or HTTPS. You can use Blob storage to expose
-     data publicly to the world, or to store application data privately. Common
-     uses of Blob storage include serving images or documents directly to a
-     browser, storing files for distributed access, streaming video and audio,
-     storing data for backup and restore, disaster recovery, and archiving and
-     storing data for analysis by an on-premises or Azure-hosted service.
-     Azure Storage is massively scalable and elastic with an auto-partitioning
-     system that automatically load-balances your data. Blob storage is a
-     specialized storage account for storing your unstructured data as blobs
-     (objects) in Azure Storage. Blob storage is similar to existing
-     general-purpose storage accounts and shares all the great durability,
-     availability, scalability, and performance features. Blob storage has two
-     types of access tiers that can be specified, hot access tier, which will be
-     accessed more frequently, and a cool access tier, which will be less
-     frequently accessed. There are many reasons why you should consider using
-     BLOB storage. Perhaps you want to share files with clients, or off-load
-     some of the static content from your web servers to reduce the load on
-     them. :cite:`www-azure-3`
+     Azure Blob storage is a service that stores unstructured data in
+     the cloud as objects/blobs. Blob storage can store any type of
+     text or binary data, such as a document, media file, or
+     application installer :cite:`www-azure-3` Blob storage is also
+     referred to as object storage. The word ‘Blob’ expands to Binary
+     Large OBject. There are three types of blobs in the service offe-
+     red by Windows Azure namely block, append and page
+     blobs. :cite:`www-azure-2`
+     1. Block blobs are collection of individual blocks with unique
+     block ID.  The block blobs allow the users to upload large amount
+     of data.
+     2. Append blobs are optimized blocks that helps in making the
+     operations efficient.
+     3. Page blobs are compilation of pages. They allow random read
+     and write operations. While creating a blob, if the type is not
+     specified they are set to block type by default. All the blobs
+     must be inside a container in your storage.  Azure Blob storage
+     is a service for storing large amounts of unstructured object
+     data, such as text or binary data, that can be accessed from
+     anywhere in the world via HTTP or HTTPS. You can use Blob storage
+     to expose data publicly to the world, or to store application
+     data privately. Common uses of Blob storage include serving
+     images or documents directly to a browser, storing files for
+     distributed access, streaming video and audio, storing data for
+     backup and restore, disaster recovery, and archiving and storing
+     data for analysis by an on-premises or Azure-hosted service.
+     Azure Storage is massively scalable and elastic with an
+     auto-partitioning system that automatically load-balances your
+     data. Blob storage is a specialized storage account for storing
+     your unstructured data as blobs (objects) in Azure Storage. Blob
+     storage is similar to existing general-purpose storage accounts
+     and shares all the great durability, availability, scalability,
+     and performance features. Blob storage has two types of access
+     tiers that can be specified, hot access tier, which will be
+     accessed more frequently, and a cool access tier, which will be
+     less frequently accessed. There are many reasons why you should
+     consider using BLOB storage. Perhaps you want to share files with
+     clients, or off-load some of the static content from your web
+     servers to reduce the load on them. :cite:`www-azure-3`
 
 299. Google Cloud Storage
 
@@ -4640,15 +5219,15 @@ Interoperability
 
 300. Libvirt
 
-     Libvirt is an open source API to manage hardware virtualization 
+     Libvirt is an open source API to manage hardware virtualization
      developed by Red Hat.  It is a standard C library but has
-     accessibility from other languages such as Python, Perl, Java 
-     and others. :cite:`www-libvirt` Multiple virtual machine
-     monitors(VMM) or hypervisors are supported such as KVM,QEMU, 
-     Xen, Virtuozzo, VMWare ESX, LXC, and BHyve.  It can be divided
-     into five categories such as hypervisor connection, domain, 
-     network, storage volume and pool.   :cite:`www-ibm`  It is accessible 
-     by many operating systems such as Linux, FreeBSD, Mac OS, and 
+     accessibility from other languages such as Python, Perl, Java and
+     others. :cite:`www-libvirt` Multiple virtual machine
+     monitors(VMM) or hypervisors are supported such as KVM,QEMU, Xen,
+     Virtuozzo, VMWare ESX, LXC, and BHyve.  It can be divided into
+     five categories such as hypervisor connection, domain, network,
+     storage volume and pool.  :cite:`www-ibm` It is accessible by
+     many operating systems such as Linux, FreeBSD, Mac OS, and
      Windows OS.
      
 301. Libcloud
@@ -4799,33 +5378,35 @@ Interoperability
 306. Whirr
 307. Saga
 
-     SAGA(Simple API for Grid Applications) provides an abstraction layer
-     to make it easier for applications to utilize and exploit infra
-     effectively. With infrastructure being changed continuously its
-     becoming difficult for most applications to utilize the advances in
-     hardware. SAGA API provides a high level abstraction of the most
-     common Grid functions so as to be independent of the diverse and
-     dynamic Grid environments. :cite:`saga-paper` This shall address the
-     problem of applications developers developing an application tailored
-     to a specific set of infrastructure.  SAGA allows computer scientists
-     to write their applications at high level just once and not to worry
-     about low level hardware changes. SAGA provides this high level
-     interface which has the underlying mechanisms and adapters to make the
-     appropriate calls in an intelligent fashion so that it can work on any
-     underlying grid system. “SAGA was built to provide a standardized,
-     common interface across various grid middleware systems and their
+     SAGA(Simple API for Grid Applications) provides an abstraction
+     layer to make it easier for applications to utilize and exploit
+     infra effectively. With infrastructure being changed continuously
+     its becoming difficult for most applications to utilize the
+     advances in hardware. SAGA API provides a high level abstraction
+     of the most common Grid functions so as to be independent of the
+     diverse and dynamic Grid environments. :cite:`saga-paper` This
+     shall address the problem of applications developers developing
+     an application tailored to a specific set of infrastructure.
+     SAGA allows computer scientists to write their applications at
+     high level just once and not to worry about low level hardware
+     changes. SAGA provides this high level interface which has the
+     underlying mechanisms and adapters to make the appropriate calls
+     in an intelligent fashion so that it can work on any underlying
+     grid system. “SAGA was built to provide a standardized, common
+     interface across various grid middleware systems and their
      versions.”  :cite:`www-saga-ogf-document`
 
-     As SAGA is to be implemented on different types
-     of middleware it does not specify a single security model but provides
-     hooks to interfaces of various security models. The SAGA API provides
-     a set of packages to implement its objectivity : SAGA supports data
+     As SAGA is to be implemented on different types of middleware it
+     does not specify a single security model but provides hooks to
+     interfaces of various security models. The SAGA API provides a
+     set of packages to implement its objectivity : SAGA supports data
      management, resource discovery, asynchronous notification, event
      generation, event delivery etc. It does so by providing set of
-     functional packages namely SAGA file package, replica package, stream
-     package, RPC package, etc. SAGA provides interoperability by allowing
-     the same application code to run on multiple grids and also
-     communicate with applications running on others. :cite:`saga-paper`
+     functional packages namely SAGA file package, replica package,
+     stream package, RPC package, etc. SAGA provides interoperability
+     by allowing the same application code to run on multiple grids
+     and also communicate with applications running on
+     others. :cite:`saga-paper`
 
 308. Genesis
 
@@ -4927,20 +5508,22 @@ DevOps
 313. SaltStack
 314. Boto
 
-     :cite:`www-boto` The latest version of Boto is Boto3. 
-     :cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS) Software 
-     Development Kit (SDK) for Python. It enables the Python developers to 
-     make use of services like Amazon S3 and Amazon EC2. 
-     :cite:`www-boto3-documentation` It provides object oriented APIs along 
-     with low-level direct service access. It provides simple in-built 
-     functions and interfaces to work with Amazon S3 and EC2. 
+     :cite:`www-boto` The latest version of Boto is Boto3.
+     :cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS)
+     :cite:Software Development Kit (SDK) for Python. It enables the
+     :cite:Python developers to make use of services like Amazon S3
+     :cite:and Amazon EC2.  `www-boto3-documentation` It provides
+     :cite:object oriented APIs along with low-level direct service
+     :cite:access. It provides simple in-built functions and
+     :cite:interfaces to work with Amazon S3 and EC2.
 
      :cite:`www-boto-amazon-python-sdk` Boto3 has two distinct levels of APIs 
-     - client and resource. One-to-one mappings to underlying HTTP API is 
-     provided by the client APIs. Resource APIs provide resource objects and 
-     collections to perform various actions by accessing the attributes. 
-     Boto3 also comes with 'waiters'. Waiters are used for polling status 
-     changes in AWS, automatically. Boto3 has these waiters for both the APIs 
+     - client and resource. One-to-one mappings to underlying HTTP API
+     is provided by the client APIs. Resource APIs provide resource
+     objects and collections to perform various actions by accessing
+     the attributes.  Boto3 also comes with 'waiters'. Waiters are
+     used for polling status changes in AWS, automatically. Boto3 has
+     these waiters for both the APIs
      - client as well as resource. 
      
 315. Cobbler
@@ -5047,6 +5630,19 @@ DevOps
      of OpenStack Dashboard.
 
 323. Rocks
+
+     :cite:`www-rockscluster` Rocks provides open cluster distribution
+     solution is buid targetting the scientist with less cluster
+     experience to ease the process of deployment,managing,upgrading
+     and scaling high performance parallel computing cluster.  It was
+     initially build on linux however the latest version Rocks 6.2
+     Sidewinder is also available on CentOS.Rocks can help create a
+     cluster in few days with default configuration and software
+     packages.  Rocks distribution package comes with high-performance
+     distributed and parallel computing tools.It is used by NASA, the
+     NSA , IBM Austin Research LAB, US Navy and many other institution
+     for their projects.
+
 324. Cisco Intelligent Automation for Cloud
 
      Cisco Intelligent automation for cloud desires to help different
@@ -5068,22 +5664,24 @@ DevOps
 325. Ubuntu MaaS
 326. Facebook Tupperware
 
-     Facebook Tupperware is a system which provisions services by taking 
-     requirements from engineers and mapping them to actual hardware allocations
-     using containers :cite:`www-FaceTup`.Facebook Tupperware simplifies 
-     the  task of configuring and running services in production and 
-     allows engineers to focus on actual application logic.The tupperware 
-     system consists of a Scheduler , Agent process and a Server Databse.
-     The Scheduler consists of set of machines with one of them as master
-     and the others in standby.The machines share state among them.The Agent process 
-     runs on each and every machine and manages all the tasks and co-ordinates
-     with the Scheduler.The Server database stores the details of resources 
-     available across machines which is used by the scheduler for scheduling
-     jobs and tasks.Tupperware allows for sandboxing of the tasks which allows 
-     for isolation of the tasks.Initially isolation was implemented using chroots
-     but now it is switched to Linux Containers(LXC) .The 
-     configuration for the container is done by a specific config file written 
-     in a dialect of python by the owner of the process.
+     Facebook Tupperware is a system which provisions services by
+     taking requirements from engineers and mapping them to actual
+     hardware allocations using containers
+     :cite:`www-FaceTup`.Facebook Tupperware simplifies the task of
+     configuring and running services in production and allows
+     engineers to focus on actual application logic.The tupperware
+     system consists of a Scheduler , Agent process and a Server
+     Databse.  The Scheduler consists of set of machines with one of
+     them as master and the others in standby.The machines share state
+     among them.The Agent process runs on each and every machine and
+     manages all the tasks and co-ordinates with the Scheduler.The
+     Server database stores the details of resources available across
+     machines which is used by the scheduler for scheduling jobs and
+     tasks.Tupperware allows for sandboxing of the tasks which allows
+     for isolation of the tasks.Initially isolation was implemented
+     using chroots but now it is switched to Linux Containers(LXC)
+     .The configuration for the container is done by a specific config
+     file written in a dialect of python by the owner of the process.
 
 327. AWS OpsWorks
 
@@ -5238,6 +5836,26 @@ DevOps
      also supports Docker and VMWare vSphere.
      
 337. DevOpSlang
+     
+     DevOpSlang serves as means of collaboration and provides the
+     foundation to automate deployment and operations of an
+     application. Technically, it is a domain specific language based
+     on JavaScript Object Notation (JSON). JSON Schema is used to
+     define a formal schema for DevOpSlang and complete JSON Schema
+     definition of DevOpSlang is publicly available on GitHub project
+     DevOpSlang: http://github.com/jojow/devopslang Devopsfiles are
+     the technical artifacts (Unix shell commands, Chef Scripts, etc.)
+     rendered using DevOpSlang to implement operations.  Beside some
+     meta data such as ’version’ and ’author’ Devopsfile defines
+     operations like ’start’ consisting of a single or multiple
+     actions which specifies the command to run the
+     application. Similarly, a ’build’ operation can be defined to
+     install the dependencies required to run the
+     application. Different abstraction levels may be combined
+     consistently such as a ’deploy’ operation consisting of actions
+     on the level of Unix shell commands and actions using portable
+     Chef cookbooks :cite:`DevOpSlang`.
+
 338. Any2Api
 
      This framework :cite:`wettinger-any2api` allows user to wrap an
@@ -5278,39 +5896,39 @@ IaaS Management from HPC to hypervisors
 339. Xen
 
      Xen is the only open-source bare-metal hypervisor based on
-     microkernel design :cite:`www-xen-wikipedia`. The hypervisor
-     runs at the highest privilege among all the processes on the
-     host. It's responsibility is to manage CPU and memory and
-     handle interrupts :cite:`www-xen-overview`. Virtual
-     machines are deployed in the guest domain called DomU which
-     has no access privilege to hardware. A special virtual machine
-     is deployed in the control domain called Domain 0. It contains
-     hardware drivers and the toolstack to control the VMs and is
-     the first VM to be deployed. Xen supports both Paravirtualization
-     and hardware assisted virtualization. The hypervisor itself has
-     a very small footprint. It's being actively maintained by Linux
-     Foundation under the trademark "XEN Project". Some of the
-     features included in the latest releases include "Reboot-free
-     Live Patching" (to enable application of security patches without
-     rebooting the system) and KCONFIG support (compilation support to
-     create a lighter version for requirements such as embedded
-     systems) :cite:`www-xen-fl`.
+     microkernel design :cite:`www-xen-wikipedia`. The hypervisor runs
+     at the highest privilege among all the processes on the
+     host. It's responsibility is to manage CPU and memory and handle
+     interrupts :cite:`www-xen-overview`. Virtual machines are
+     deployed in the guest domain called DomU which has no access
+     privilege to hardware. A special virtual machine is deployed in
+     the control domain called Domain 0. It contains hardware drivers
+     and the toolstack to control the VMs and is the first VM to be
+     deployed. Xen supports both Paravirtualization and hardware
+     assisted virtualization. The hypervisor itself has a very small
+     footprint. It's being actively maintained by Linux Foundation
+     under the trademark "XEN Project". Some of the features included
+     in the latest releases include "Reboot-free Live Patching" (to
+     enable application of security patches without rebooting the
+     system) and KCONFIG support (compilation support to create a
+     lighter version for requirements such as embedded systems)
+     :cite:`www-xen-fl`.
           
 340. KVM
 
      :cite:`www-KVM-wiki` It is an acronym for Kernel-based Virtual
-     Machine for the Linux Kernel that turns it into a
-     hypervisor upon installation. It was originally developed
-     by Qumranet in 2007. It has a kernel model and uses kernel
-     as VMM. It only supports fully virtualized VMs. It is very
-     active for Linux users due to it’s ease of use, it can be
-     completely controlled by ourselves and there is an ease for
-     migration from or to other platforms. :cite:`www-KVM-webpage`
-     It is built to run on a x86 machine on an Intel
-     processor with virtualization technology extensions (VT-x)
-     or an AMD-V. It supports 32 and 64 bit guests on a 64 bit
-     host and hardware visualization features. The supported
-     guest systems are Solaris , Linux, Windows and BSD Unix.
+     Machine for the Linux Kernel that turns it into a hypervisor upon
+     installation. It was originally developed by Qumranet in 2007. It
+     has a kernel model and uses kernel as VMM. It only supports fully
+     virtualized VMs. It is very active for Linux users due to it’s
+     ease of use, it can be completely controlled by ourselves and
+     there is an ease for migration from or to other
+     platforms. :cite:`www-KVM-webpage` It is built to run on a x86
+     machine on an Intel processor with virtualization technology
+     extensions (VT-x) or an AMD-V. It supports 32 and 64 bit guests
+     on a 64 bit host and hardware visualization features. The
+     supported guest systems are Solaris , Linux, Windows and BSD
+     Unix.
 
 341. QEMU
      
@@ -5323,13 +5941,14 @@ IaaS Management from HPC to hypervisors
      translations and provides a set of device models, enabling it to
      run a variety of unmodified guest operating systems.
      
-     When used as an emulator, QEMU can run Operating Systems and programs
-     made for one machine (ARM board) on a different machine (e.g. a
-     personal computer) and achieve good performance by using dynamic
-     translations.  When used as a virtualizer, QEMU achieves near native
-     performance by executing the guest code directly on the host CPU. QEMU
-     supports virtualization when executing under the Xen hypervisor or
-     using KVM kernel module in Linux :cite:`www-qemuwiki`.
+     When used as an emulator, QEMU can run Operating Systems and
+     programs made for one machine (ARM board) on a different machine
+     (e.g. a personal computer) and achieve good performance by using
+     dynamic translations.  When used as a virtualizer, QEMU achieves
+     near native performance by executing the guest code directly on
+     the host CPU. QEMU supports virtualization when executing under
+     the Xen hypervisor or using KVM kernel module in Linux
+     :cite:`www-qemuwiki`.
 
      Compared to other virtualization programs like VMWare and VirtualBox,
      QEMU does not provide a GUI interface to manage virtual machines nor
@@ -5358,54 +5977,61 @@ IaaS Management from HPC to hypervisors
 343. VirtualBox
 344. OpenVZ
 
-     OpenVZ (Open Virtuozzo) is an operating system-level virtualization
-     technology for Linux. It allows a physical server to run multiple isolated
-     operating system instances, called containers, virtual private servers, or
-     virtual environments (VEs). OpenVZ is similar to Solaris Containers and
-     LXC. :cite:`www-openvz-3` While virtualization technologies like VMware and 
-     Xen provide full virtualization and can run multiple operating systems and 
-     different kernel versions, OpenVZ uses a single patched Linux kernel and 
-     therefore can run only Linux. All OpenVZ containers share the same archite-
-     cture and kernel version. This can be a disadvantage in situations where 
-     guests require different kernel versions than that of the host. However, as
-     it does not have the overhead of a true hypervisor, it is very fast and 
-     efficient. Memory allocation with OpenVZ is soft in that memory not used in 
-     one virtual environment can be used by others or for disk caching. :cite:`www-openvz-2`
-     While old versions of OpenVZ used a common file system (where each virtual 
-     environment is just a directory of files that is isolated using chroot), 
-     current versions of OpenVZ allow each container to have its own file system. 
-     OpenVZ has four main features, :cite:`www-openvz-1`
-     1. OS virtualization: A container (CT) looks and behaves like a regular
-     Linux system. It has standard startup scripts; software from vendors can
-     run inside a container without OpenVZ-specific modifications or adjustment;
-     A user can change any configuration file and install additional software;
-     Containers are completely isolated from each other and are not bound to
-     only one CPU and can use all available CPU power.
-     2. Network virtualization: Each CT has its own IP address and CTs are
-     isolated from the other CTs meaning containers are protected from each
-     other in the way that makes traffic snooping impossible; Firewalling may
-     be used inside a CT
-     3. Resource management: All the CTs are use the same kernel. OpenVZ
-     resource management consists of four main components: two-level disk quota,
-     fair CPU scheduler, disk I/O scheduler, and user beancounters.
-     4. Checkpointing and live migration: Checkpointing allows to migrate a
-     container from one physical server to another without a need to
-     shutdown/restart a container. This feature makes possible scenarios such as
-     upgrading your server without any need to reboot it: if your database needs
-     more memory or CPU resources, you just buy a newer better server and live
-     migrate your container to it, then increase its limits.
+     OpenVZ (Open Virtuozzo) is an operating system-level
+     virtualization technology for Linux. It allows a physical server
+     to run multiple isolated operating system instances, called
+     containers, virtual private servers, or virtual environments
+     (VEs). OpenVZ is similar to Solaris Containers and
+     LXC. :cite:`www-openvz-3` While virtualization technologies like
+     VMware and Xen provide full virtualization and can run multiple
+     operating systems and different kernel versions, OpenVZ uses a
+     single patched Linux kernel and therefore can run only Linux. All
+     OpenVZ containers share the same archite- cture and kernel
+     version. This can be a disadvantage in situations where guests
+     require different kernel versions than that of the host. However,
+     as it does not have the overhead of a true hypervisor, it is very
+     fast and efficient. Memory allocation with OpenVZ is soft in that
+     memory not used in one virtual environment can be used by others
+     or for disk caching. :cite:`www-openvz-2` While old versions of
+     OpenVZ used a common file system (where each virtual environment
+     is just a directory of files that is isolated using chroot),
+     current versions of OpenVZ allow each container to have its own
+     file system.  OpenVZ has four main features, :cite:`www-openvz-1`
+     1. OS virtualization: A container (CT) looks and behaves like a
+     regular Linux system. It has standard startup scripts; software
+     from vendors can run inside a container without OpenVZ-specific
+     modifications or adjustment; A user can change any configuration
+     file and install additional software; Containers are completely
+     isolated from each other and are not bound to only one CPU and
+     can use all available CPU power.
+     2. Network virtualization: Each CT has its own IP address and CTs
+     are isolated from the other CTs meaning containers are protected
+     from each other in the way that makes traffic snooping
+     impossible; Firewalling may be used inside a CT
+     3. Resource management: All the CTs are use the same
+     kernel. OpenVZ resource management consists of four main
+     components: two-level disk quota, fair CPU scheduler, disk I/O
+     scheduler, and user beancounters.
+     4. Checkpointing and live migration: Checkpointing allows to
+     migrate a container from one physical server to another without a
+     need to shutdown/restart a container. This feature makes possible
+     scenarios such as upgrading your server without any need to
+     reboot it: if your database needs more memory or CPU resources,
+     you just buy a newer better server and live migrate your
+     container to it, then increase its limits.
 
 
 345. LXC
      
      LXC (Linux Containers) is an operating-system-level
-     virtualization method for running multiple isolated
-     Linux systems (containers) on a control host using a single
-     Linux kernel :cite:`www-wiki-lxc`. LXC are similar to the treditional virtual
+     virtualization method for running multiple isolated Linux systems
+     (containers) on a control host using a single Linux kernel
+     :cite:`www-wiki-lxc`. LXC are similar to the treditional virtual
      machines but instead of having seperate kernel process for the
      guest operating system being run, containers would share the
      kernal process with the host operating system. This is made
-     possible with the implementation of namespaces and cgroups. :cite:`www-jpablo`
+     possible with the implementation of namespaces and
+     cgroups. :cite:`www-jpablo`
 
      Containers are light weighed ( As guest operating system
      loading and booting is eleminated ) and more customizable
@@ -5416,26 +6042,48 @@ IaaS Management from HPC to hypervisors
 	
 346. Linux-Vserver
 
-     Linux-VServers are used on web hosting services, pooling resources and containing 
-     any security breach. :cite:`www.linux-vserver.org/Paper` “Linux servers consist 
-     of three building blocks Hardware, Kernel and Applications” the purpose of kernel 
-     is to provide abstraction layer between hardware and application. Linux-Vserver 
-     provides VPS securely partitioning the resources on computer system in such a way 
-     that process cannot mount denial of service out of the partition.
+     Linux-VServers are used on web hosting services, pooling
+     resources and containing any security
+     breach. :cite:`www.linux-vserver.org/Paper` “Linux servers
+     consist of three building blocks Hardware, Kernel and
+     Applications” the purpose of kernel is to provide abstraction
+     layer between hardware and application. Linux-Vserver provides
+     VPS securely partitioning the resources on computer system in
+     such a way that process cannot mount denial of service out of the
+     partition.
      
-     It utilises the power of Linux kernel and top of it with additional modification 
-     provides secure layer to each process (VPS)  feel like it is running separate system. 
-     By providing context separation, context capabilities, each partition called as 
-     security context, chroot barrier created on provate directory of each VPS to prevent 
-     unauthorized modification. Booting VPS in new secure context is just matter of booting 
-     server, context is so robust to boot many server simultaneously. 
+     It utilises the power of Linux kernel and top of it with
+     additional modification provides secure layer to each process
+     (VPS) feel like it is running separate system.  By providing
+     context separation, context capabilities, each partition called
+     as security context, chroot barrier created on provate directory
+     of each VPS to prevent unauthorized modification. Booting VPS in
+     new secure context is just matter of booting server, context is
+     so robust to boot many server simultaneously.
      
-     The virtual servers shares same system calls, shares common file system, process 
-     within VS are queued to same scheduler that of host allowing guest process to run 
-     concurrently on SMP systems. No additional overhead of network virtualization. 
-     These few advantages of Linux-VServer.
+     The virtual servers shares same system calls, shares common file
+     system, process within VS are queued to same scheduler that of
+     host allowing guest process to run concurrently on SMP
+     systems. No additional overhead of network virtualization.  These
+     few advantages of Linux-VServer.
 
 347. OpenStack
+ 
+     OpenStack :cite:`www-OpenStack.org` is a free and open source cloud operating 
+     system mostly deployed as infrastructure as a service(Iaas) that allows 
+     us to control large pool of computers, storage, and networking resources.
+     OpenStack is managed by OpenStack Foundation :cite:`www-OpenStack-Found`. 
+     
+     Just like cloud, OpenStack provides infrastructure which runs as platform 
+     upon which end users can create applications. Key components of OpenStack 
+     include: Nova: which is the primary computing engine, Swift: which is a 
+     storage system for object and files, Neutron: which ensures effective 
+     communication between each of the components of the OpenStack. Other   
+     components include: Cinder, Horizon, Keystone, Glance, Ceilometer and 
+     Heat. The main goal of Openstack is to allow business to build 
+     Amazon-like cloud services in their own data centers.OpenStack is 
+     licensed under the Apache 2.0 license :cite:`Apache-License` 
+	
 348. OpenNebula
 
      According to OpenNebula webpage :cite:`www-opennebula-org` it
@@ -5584,16 +6232,17 @@ IaaS Management from HPC to hypervisors
      
 356. Amazon
 
-     Amazon’s AWS (Amazon Web Services) is a provider of Infrastructure 
-     as a Service (IaaS) on cloud. It provides a broad set of infrastructure 
-     services, such as computing, data storage, networking and databases. 
-     One can leverage AWS services by creating an account with AWS and then 
-     creating a virtual server, called as an instance, on the AWS cloud. 
-     In this instance you can select the hard disk volume, number of CPUs 
-     and other hardware configuration based on your application needs. 
-     You can also select operating system and other software required 
-     to run your application. AWS lets you select from the countless services. 
-     Some of them are mentioned below:
+     Amazon’s AWS (Amazon Web Services) is a provider of
+     Infrastructure as a Service (IaaS) on cloud. It provides a broad
+     set of infrastructure services, such as computing, data storage,
+     networking and databases.  One can leverage AWS services by
+     creating an account with AWS and then creating a virtual server,
+     called as an instance, on the AWS cloud.  In this instance you
+     can select the hard disk volume, number of CPUs and other
+     hardware configuration based on your application needs.  You can
+     also select operating system and other software required to run
+     your application. AWS lets you select from the countless
+     services.  Some of them are mentioned below:
 
      -  Amazon Elastic Computer Cloud (EC2)
      -  Amazon Simple Storage Service (Amazon S3)
@@ -5604,29 +6253,71 @@ IaaS Management from HPC to hypervisors
      -  Amazon Simple Queue Service (Amazon SQS)
      -  Amazon Virtual Private Cloud (Amazon VPC)
 
-     Amazon EC2 and Amazon S3 are the two core IaaS services, which are 
-     used by cloud application solution developers worldwide. :cite:'www-aws'
+     Amazon EC2 and Amazon S3 are the two core IaaS services, which
+     are used by cloud application solution developers
+     worldwide. :cite:'www-aws'
 
      **Improve: all of them need bibentries**
      
 357. Azure
 358. Google and other public Clouds
+
+     A public cloud is a scenario where a provider provides services
+     such as infrastructure or applications to the public over the
+     internet. Google cloud generally refers to services such as cloud
+     print, connect, messaging, storage and platform
+     :cite:`goo1`. Google cloud print allows a print-aware application
+     on a device, installed on a network, to provide prints to any
+     printer on that network. Cloud connect allows an automatic
+     storage and synchronization of Microsoft word documents,
+     power-points and excel sheets to Google docs while preserving the
+     Microsoft office formats. In certain cases, developers require
+     important notifications to be sent to applications targeting
+     android operating system. Google cloud messaging provides such
+     services. Google cloud platform allows the developers to deploy
+     their mobile, web and backend solutions on a highly scalable and
+     reliable infrastructure :cite:`goo2`. It gives developers a
+     privilege of using any programming language. Google cloud
+     platform provides a wide range of products and services including
+     networking, storage, machine learning, big data, authentication
+     and security, resource management, etc. In general, public clouds
+     provide services to different end users with the usage of the
+     same shared infrastructure :cite:`goo3`. Windows Azure services
+     platform, Amazon elastic compute cloud and Sun cloud are few
+     examples of public clouds.
+     
 359. Networking: Google Cloud DNS
 
-     Under the umbrella of google cloud platform, helps user to publish their domain using 
-     Google’s infrastructure. It is highly scalable, low latency, high availability DNS 
-     service residing on infrastructure same as google.  
+     Under the umbrella of google cloud platform, helps user to
+     publish their domain using Google’s infrastructure. It is highly
+     scalable, low latency, high availability DNS service residing on
+     infrastructure same as google.
    
-     It is build around projects a resource container, domain for access control, and billing 
-     configuration. Managed zones holds records for same DNS name. The resource record sets 
-     collection holds current state of the DNS that make up managed zones it is unmodifiable 
-     or cannot be modified easily and changes to record sets. It supports “A” address records, 
-     “AAAA” IPv6, “CAA” Certificate authority, “CNAME” canonical name, “MX” mail exchange, 
-     “NAPTR” naming authority pointer, “NS” Name server record, “SOA” start of authority, 
-     “SPF” Sender policy framework, “SRV” service locator, “TXT” text record.
+     It is build around projects a resource container, domain for
+     access control, and billing configuration. Managed zones holds
+     records for same DNS name. The resource record sets collection
+     holds current state of the DNS that make up managed zones it is
+     unmodifiable or cannot be modified easily and changes to record
+     sets. It supports “A” address records, “AAAA” IPv6, “CAA”
+     Certificate authority, “CNAME” canonical name, “MX” mail
+     exchange, “NAPTR” naming authority pointer, “NS” Name server
+     record, “SOA” start of authority, “SPF” Sender policy framework,
+     “SRV” service locator, “TXT” text record.
 
 360. Amazon Route 53
 
+     Amazon Route 53 is a DNS (Domain Name System) service that gives
+     developers and businesses a reliable way to route end users to
+     Internet applications. The number 53 refers to TCP or UDP port
+     53, where DNS server requests are addressed :cite:`www-ar53`.
+     
+     When using Route 53 as your DNS provider, in case of a recursion,
+     the query of fetching an IP address (of a website or application)
+     always goes to the closest server location to reduce query
+     latency. The Route 53 server returns the IP address enabling the
+     browser to load the website or application. Route 53 can also be
+     used for registering domain names and arranging DNS “health
+     checks” to monitor the server :cite:`www-amar53`.
 
 Cross-Cutting Functions
 ----------------------------------------------------------------------
@@ -5654,6 +6345,26 @@ Monitoring
      for ambari on github.
      
 362. Ganglia
+
+     Ganglia is a scalable distributed monitoring system for
+     high-performance computing systems (clusters and grids). It is a
+     BSD-licensed open-source project that grew out of the University
+     of California, Berkeley Millennium Project which was initially
+     funded in large part by the National Partnership for Advanced
+     Computational Infrastructure (NPACI) and National Science
+     Foundation RI Award EIA-9802069 :cite:`www-gms`.
+
+     It relies on a multicast-based listen/announce protocol to
+     monitor state within clusters. It uses a tree of point-to-point
+     connections amongst representative cluster nodes to unite
+     clusters and aggregate their state :cite:`www-gsoft`. It
+     leverages technologies such as XML for data representation, XDR
+     for compact, portable data transport, and RRDtool for data
+     storage and visualization. The implementation is robust, has been
+     ported to an extensive set of operating systems and processor
+     architectures, and is currently in use on thousands of clusters
+     around the world, handling clusters with 2000 nodes.
+     
 363. Nagios :cite:`www-nagios`
 
      Nagios is a platform, which provides a set of software for
@@ -5714,16 +6425,17 @@ Security & Privacy
 365. InCommon
 
      The mission of InCommon is to ``create and support a common trust
-     framework for U.S. education and research.  This includes trustworthy
-     shared management of access to on-line resources in support of
-     education and research in the United States''. :cite:`www-incommon`
-     This mission ultimately is a simplification and an elimination of the
-     need for multiple accounts across various websites that are at risk of
-     data spills or misuse.  In the academic setting, this helps assist
-     researchers to focus on their area of study, and enabling the cross
-     collaboration which is happening on a globa scale.  Currently any two
-     and four year higher education institution that is accredited is
-     eligble for joining InCommon.
+     framework for U.S. education and research.  This includes
+     trustworthy shared management of access to on-line resources in
+     support of education and research in the United
+     States''. :cite:`www-incommon` This mission ultimately is a
+     simplification and an elimination of the need for multiple
+     accounts across various websites that are at risk of data spills
+     or misuse.  In the academic setting, this helps assist
+     researchers to focus on their area of study, and enabling the
+     cross collaboration which is happening on a globa scale.
+     Currently any two and four year higher education institution that
+     is accredited is eligble for joining InCommon.
 
 366. Eduroam :cite:`www-eduroam`
 
@@ -5750,20 +6462,23 @@ Security & Privacy
 
 367. OpenStack Keystone
 
-     :cite:`www-keystone-wiki` Keystone is the identity service used by 
-     OpenStack for authentication (authN) and high-level authorization (authZ). 
-     There are two authentication mechanisms in Keystone, UUID token, and PKI. 
-     Universally unique identifier (UUID) is a 128-bit number used to identify 
-     information (user). Each application after each request of the client 
-     checks token validity online. PKI was introduced later and improved the 
-     security of Keystone :cite:`cui2015security`. In PKI, each token has its 
-     own digital signature that can be checked by any service and OpenStack 
-     application with no necessity to ask for Keystone database :cite:`www-cloudberrylab-kstn`.
+     :cite:`www-keystone-wiki` Keystone is the identity service used
+     by OpenStack for authentication (authN) and high-level
+     authorization (authZ).  There are two authentication mechanisms
+     in Keystone, UUID token, and PKI.  Universally unique identifier
+     (UUID) is a 128-bit number used to identify information
+     (user). Each application after each request of the client checks
+     token validity online. PKI was introduced later and improved the
+     security of Keystone :cite:`cui2015security`. In PKI, each token
+     has its own digital signature that can be checked by any service
+     and OpenStack application with no necessity to ask for Keystone
+     database :cite:`www-cloudberrylab-kstn`.
  
-     Thus, Keystone enables ensuring user’s identity with no need to transmit 
-     its password to applications. It has recently been rearchitected to allow 
-     for expansion to support proxying external services and AuthN/AuthZ 
-     mechanisms such as oAuth, SAML and openID in future versions :cite:`www-keystone`.
+     Thus, Keystone enables ensuring user’s identity with no need to
+     transmit its password to applications. It has recently been
+     rearchitected to allow for expansion to support proxying external
+     services and AuthN/AuthZ mechanisms such as oAuth, SAML and
+     openID in future versions :cite:`www-keystone`.
 
 368. LDAP
 
@@ -5909,20 +6624,19 @@ Message and Data Protocols
 377. Avro
 378. Thrift
 
-     The Apache Thrift software framework, for scalable cross-language services 
-     development, combines a software stack with a code generation engine to 
-     build services that work efficiently and seamlessly between C++, Java, 
-     Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, 
-     Smalltalk, OCaml and Delphi and other languages. It includes a complete 
-     stack for creating clients and servers. It includes a server infrastructure
-     to tie the protocols and transports together. There are blocking, 
-     non-blocking, single and multithreaded servers available.
+     The Apache Thrift software framework, for scalable cross-language
+     services development, combines a software stack with a code generation
+     engine to build services that work efficiently and seamlessly between
+     C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa,
+     JavaScript, Node.js, Smalltalk, OCaml and Delphi and other
+     languages. :cite:`paper-thrift` It includes a complete stack for
+     creating clients and servers. It includes a server infrastructure to
+     tie the protocols and transports together. There are blocking,
+     non-blocking, single and multithreaded servers available.  Thrift was
+     originally developed at Facebook, it was open sourced in April 2007
+     and entered the Apache Incubator in May, 2008. It became an Apache TLP
+     in October, 2010. :cite:`www-thrift`
      
-     Thrift was originally developed at Facebook, it was open sourced in April 
-     2007 and entered the Apache Incubator in May, 2008. It became an Apache TLP
-     in October, 2010. :cite:`git-Thrift`
-     
-
 379. Protobuf
 
      Protocol Buffer :cite:`www-protobuf` is a way to serialize
@@ -5944,33 +6658,38 @@ New Technologies (To Be Integrated by the AIs)
 
 381. Snort
 
-     :cite:`www-snort` Snort is a Network Intrusion Prevention System (NIPS) and
-     Network Intrusion Detection System (NIDS). Snort's open source network-based
-     intrusion detection system (NIDS) has the ability to perform real-time traffic
-     analysis and packet logging on Internet Protocol (IP) networks. Snort performs
-     protocol analysis, content searching and matching. These basic services have
-     many purposes including application-aware triggered quality of service,
-     to de-prioritize bulk traffic when latency-sensitive applications are in use.
-     The program can also be used to detect probes or attacks, including, but not
-     limited to, operating system fingerprinting attempts, common gateway interface,
-     buffer overflows, server message block probes, and stealth port scans.
-     Snort can be configured in three main modes: sniffer, packet logger, and
-     network intrusion detection. In sniffer mode, the program will read
-     network packets and display them on the console. In packet logger mode,
-     the program will log packets to the disk. In intrusion detection mode,
-     the program will monitor network traffic and analyze it against a rule set
-     defined by the user. The program will then perform a specific action based on
-     what has been identified.
+     :cite:`www-snort` Snort is a Network Intrusion Prevention System
+     (NIPS) and Network Intrusion Detection System (NIDS). Snort's
+     open source network-based intrusion detection system (NIDS) has
+     the ability to perform real-time traffic analysis and packet
+     logging on Internet Protocol (IP) networks. Snort performs
+     protocol analysis, content searching and matching. These basic
+     services have many purposes including application-aware triggered
+     quality of service, to de-prioritize bulk traffic when
+     latency-sensitive applications are in use.  The program can also
+     be used to detect probes or attacks, including, but not limited
+     to, operating system fingerprinting attempts, common gateway
+     interface, buffer overflows, server message block probes, and
+     stealth port scans.  Snort can be configured in three main modes:
+     sniffer, packet logger, and network intrusion detection. In
+     sniffer mode, the program will read network packets and display
+     them on the console. In packet logger mode, the program will log
+     packets to the disk. In intrusion detection mode, the program
+     will monitor network traffic and analyze it against a rule set
+     defined by the user. The program will then perform a specific
+     action based on what has been identified.
 
 382. Fiddler
 
-     Fiddler is an HTTP debugging proxy server application. Fiddler captures HTTP   
-     and HTTPS traffic and logs it for the user to review by implementing
-     man-in-the-middle interception using self-signed certificates. Fiddler can also
-     be used to modify ("fiddle with") HTTP traffic for troubleshooting purposes as
-     it is being sent or received.[5] By default, traffic from Microsoft's WinINET
-     HTTP(S) stack is automatically directed to the proxy at runtime, but any browser
-     or Web application (and most mobile devices) can be configured to route its traffic
+     Fiddler is an HTTP debugging proxy server application. Fiddler
+     captures HTTP and HTTPS traffic and logs it for the user to
+     review by implementing man-in-the-middle interception using
+     self-signed certificates. Fiddler can also be used to modify
+     ("fiddle with") HTTP traffic for troubleshooting purposes as it
+     is being sent or received.[5] By default, traffic from
+     Microsoft's WinINET HTTP(S) stack is automatically directed to
+     the proxy at runtime, but any browser or Web application (and
+     most mobile devices) can be configured to route its traffic
      through Fiddler :cite:`www-fiddler`.
 
 383. Zeppelin
@@ -6047,6 +6766,7 @@ New Technologies (To Be Integrated by the AIs)
      system. :cite:`www-cloudability`
 
 
+
 388. CUDA
 
      It is a parallel computing platform and application programming
@@ -6067,19 +6787,59 @@ New Technologies (To Be Integrated by the AIs)
 
 389. Blaze  
 
-     Blaze library translates NumPy/Pandas-like syntax to data computing systems (e.g. database
-     , in-memory, distributed-computing). This provides Python users with a familiar
-     interface to query data  in a variety of other data storage systems. 
-     One Blaze query can work across data ranging from a CSV file to a distributed 
-     database.
+     Blaze library translates NumPy/Pandas-like syntax to data
+     computing systems (e.g. database , in-memory,
+     distributed-computing). This provides Python users with a
+     familiar interface to query data in a variety of other data
+     storage systems.  One Blaze query can work across data ranging
+     from a CSV file to a distributed database.
 
-     Blaze presents a pleasant and familiar interface regardless of what computational
-     solution or database we use (e.g. Spark, Impala, SQL databases, No-SQL data-stores,
-     raw-files). It mediates the users interaction with files, data structures, and databases, 
-     optimizing and translating the query as appropriate to provide a smooth and interactive
-     session. It allows the data scientists and analyst to write their queries in a unified
-     way that does not have to change because the data is stored in another format or a different
-     data-store. :cite:`www-blaze` 
+     Blaze presents a pleasant and familiar interface regardless of
+     what computational solution or database we use (e.g. Spark,
+     Impala, SQL databases, No-SQL data-stores, raw-files). It
+     mediates the users interaction with files, data structures, and
+     databases, optimizing and translating the query as appropriate to
+     provide a smooth and interactive session. It allows the data
+     scientists and analyst to write their queries in a unified way
+     that does not have to change because the data is stored in
+     another format or a different data-store. :cite:`www-blaze`
+
+389. CDAP
+
+     CDAP :cite:`www-cdap` stands for Cask Data Application
+     Platform. CDAP is an application development platform using which
+     developers can build, deploy and monitor applications on Apache
+     Hadoop. In a typical CDAP application, a developer can ingest
+     data, store and manage datasets on Hadoop, perform batch mode
+     data analysis, and develop web services to expose the data.  They
+     can also schedule and monitor the execution of the
+     application. This way, CDAP enables the developers to use single
+     platform to develop the end to end application on Apache Hadoop.
+
+     CDAP documentation :cite:`www-cdap-docs` explains the important
+     CDAP concepts of CDAP Dataset, CDAP Application and CDAP
+     Services. CDAP Datasets provide logical abstraction over the data
+     stored in Hadoop. CDAP Applications provide containers to
+     implement application business logic in open source processing
+     frameworks like map reduce, Spark and real time flow. CDAP
+     applications also provide standardize way to deploy and manage
+     the apps. CDAP Services provide services for application
+     management, metadata management, and streams management.  CDAP
+     can be deployed on various Hadoop Platforms such as Apache
+     Hadoop, Cloudera Hadoop, Hortonworks Hadoop and Amazon EMR.  CDAP
+     sample apps :cite:`github-cdap-sample-apps` provide explain how
+     to implement apps on CDAP platform.
+
+389. Apache Arrow
+     
+     Apache arrow allows execution engines to utilize what is known as
+     Single Input multiple data (SIMD).  :cite:`www-arrow` This SIMD
+     is an operation that allows modern processors to take advantage
+     of this engine.  Peformance is enhanced by grouping relevant data
+     as close as possible in a column format.  Many programming
+     languages are supported such a Java, C, C++, Python and it is
+     anticipated that languages will be added as it grows.  It is
+     still in early developemnt but has released a 0.1.0 build.
 
 390. OpenRefine
 
@@ -6101,9 +6861,9 @@ New Technologies (To Be Integrated by the AIs)
      lots of contributors meaning that the software is constantly
      getting better and better.
 
-389. Apache OODT
+391. Apache OODT
 
-     :cite:`www-oodt` Apache Object Oriented Data Technology (OODT) is
+     Apache Object Oriented Data Technology (OODT) :cite:`www-oodt` is
      a distributed data management technology that helps to integrate
      and archive your processes, your data, and its metadata. OODT
      allows to generate, process, manage and analyze distributed and
@@ -6143,6 +6903,128 @@ New Technologies (To Be Integrated by the AIs)
      by the Apache Software Foundation (ASF) undergo an incubation 
      period until a review indicates that the project meets the 
      standards of other ASF projects :cite:`www-apacheincubator`
+
+390. :cite:`RMBDP-Book` Askalon was developed at the University of
+     Innsbruck.  It is application development as well as a runtime
+     environment. It allows easy execution of distributed work flow
+     applications in service oriented grids. It uses a Service
+     Oriented Architecture. Also, for its Grid middleware it uses the
+     Globus Toolkit. The work flow applications are developed using
+     Abstract Grid Work flow Language (AGWL). The architecture has
+     various components like the resource broker responsible for
+     brokerage functions like management and reservation, information
+     service for the discovery and organization of resources and data,
+     metascheduler for mapping in the Grid, performance analysis for
+     unification of performance monitoring and integration of the
+     results and the Askalon scheduler.
+
+     The Metascheduler is of special significance since it consists of
+     two major components - the workflow converter and the scheduling
+     engine. The former is responsible for conversion of traditional
+     workflows into directed acyclic graphs (DAGs) while the later one is
+     responsible for the scheduling of workflows for various specific
+     tasks. It has a conventional pluggable architecture which allows easy
+     integration of various services. By default, the Heterogeneous
+     Earliest Finish Time (HEFT) is used as the primary scheduling
+     algorithm.
+
+391. Apache Ant
+
+     Apache Ant is a Java library and command-line tool whose mission
+     is to drive processes described in build files as targets and
+     extension points dependent upon each other. The main known usage
+     of Ant is the build of Java applications. Ant supplies a number
+     of built-in tasks allowing to compile, assemble, test and run
+     Java applications. Ant can also be used effectively to build non
+     Java applications, for instance C or C++ applications. More
+     generally, Ant can be used to pilot any type of process which can
+     be described in terms of targets and tasks. Ant is written in
+     Java. Users of Ant can develop their own "antlibs" containing Ant
+     tasks and types, and are offered a large number of ready-made
+     commercial or open-source "antlibs". Ant is extremely flexible
+     and does not impose coding conventions or directory layouts to
+     the Java projects which adopt it as a build tool. Software
+     development projects looking for a solution combining build tool
+     and dependency management can use Ant in combination with Apache
+     Ivy. The Apache Ant project is part of the Apache Software
+     Foundation :cite:`ant-www`.
+
+392. LXD
+
+     LXD is a  demon processes established to manage the
+     containers. It can be understood as hypervisor for linux
+     containers. It is implemented by exporting RESTful API for libxlc
+     to the remote network or local unix
+     socket. :cite:`www-lxd-thevarguy`. It implements the under
+     previlized conatiners by default adding more security. It works
+     with Image based work flow supports online snapshopping and live
+     container migration. :cite:`www-lxd-lists-linux`.It was build
+     with aim of providing VM like virtulization with container like
+     performance. :cite:`www-lxd-ubuntu`
+
+393. Wink
+
+     Apache wink :cite:`www-apache-wink` provides a framework to
+     develop and use RESTful web services. It implements using JAX-RS
+     v1.1 specification. The project provides server module which
+     integrates with all popular web servers and a client module which
+     can used to write RESTful web services. This project will be
+     integrated with Geronimo and other opensource REST projects to
+     build a vendor neutral community. Currently IBM and HP have taken
+     lead. IBM is writing a full JAX-RS implementation while HP is
+     working on RESTful SDK for client and server components.  Portion
+     of initial project was also taken from Apache CXF which uses
+     other Apache components like commons-codec, commons-logging,
+     Apache-Abdera. Apache wink will simply web services development
+     using one single standard.
+
+394. Apache Apex
+     
+     Apache Apex is “a YARN(Hadoop 2.0)-native platform that unifies
+     cloud and batch processing” :cite:`www-apacheapexwiki`.This
+     project was developed under Apache License 2.0 and was driven by
+     Data Torrent. It can be used for processing both streams of data
+     and static files making it more relevant in the context of
+     present day internet and social media. It is aimed at leveraging
+     the present Hadoop platform and reducing the learning curve for
+     development of applications over it. It is aimed at It can used
+     through a simple API. It enables reuse of code by not having to
+     make drastic changes to the applications by providing
+     interoperability with existing technology stack. It leverages the
+     existing Hadoop platform investments.
+
+     Apart from the Apex core component, it also has Apex Malhar which
+     provides a library of connectors and logic functions. It provides
+     connectors to existing file systems, message systems and relational,
+     NoSQL and Hadoop databases, social media. It also provides a library
+     of compute operators like Machine Learning, Stats and Math, Pattern
+     Marching, Query and Scripting, Stream manipulators, Parsers and UI &
+     Charting operators :cite:`www-apacheapexblog`.
+
+     Apache Knox
+
+     According to :cite:'knox', “the Apache Knox Gateway is a REST API
+     Gateway for interacting with Apache Hadoop clusters.” REST stands
+     for Representational State Transfer and is web architectural
+     style designed for distributed hypermedia systems and defines a
+     set of constraints. :cite:'fielding' API Gateways manage concerns
+     related to “Authentication, Transport Security, Load-balancing,
+     Request Dispatching (including fault tolerance and service
+     discovery), Depenency Resolution, Transport Transformations.”
+     :cite:'peyrott' Although every Apache Hadoop cluster has its own
+     set of REST APIs, Knox will represent all of them as “a single
+     cluster specific application context path.” :cite:'knox' Knox
+     protects Apache Hadoop clusters, by way of its gateway function,
+     by aiding “the control, integration, monitoring and automation of
+     critical administrative and analytical needs.” :cite:'knox' Some
+     Apache Hadoop Services that integrate with Knox are, “Ambari,
+     WebHDFS (HDFS), Templeton (Hcatalog), Stargate (Hbase), Oozie,
+     Hive/JDBC, Yarn RM, [and] Storm.”  :cite:'knox' Apache Knox has a
+     configuration driven method to aid in the addition of new routing
+     services. :cite:'knox' This allows support for new and custom
+     Apache Hadoop REST APIs to be added to the Knox gateway quickly
+     and easily. :cite:'knox' This technology would be best placed
+     under the interoperability category.
 
 .. _techs-exercise:
 
