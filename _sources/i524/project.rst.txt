@@ -175,7 +175,7 @@ increases with each student and a work break down must be provided.
 More than three students are not allowed. If you work in a group you
 will be asked to deploy a larger system or demonstrate deployability
 on multiple clouds or container frameworks while benchmarking and
-comparing them. A group project containing 2 or 3 team members shoudl
+comparing them. A group project containing 2 or 3 team members should
 not look like a project done by an individual. Please plan careful and
 make sure all team members contribute.
 
