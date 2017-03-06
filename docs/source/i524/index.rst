@@ -263,7 +263,7 @@ Grading policies are listed in Table 1.
   you work in a group you will be asked to deploy a larger system or
   demonstrate deployability on multiple clouds or container frameworks
   while benchmarking and comparing them. A group project containing 2
-  or 3 team members shoudl not look like a project done by an
+  or 3 team members should not look like a project done by an
   individual. Please plan careful and make sure all team members
   contribute.
 

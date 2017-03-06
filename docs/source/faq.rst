@@ -608,7 +608,7 @@ As Gregor von Laszewski pointed out with flowery words in an article published r
 
 Instead use: In [1] ...    
 
-Naturally you shoudl use the \cite command.
+Naturally you should use the \cite command.
  
 Spelling
 --------

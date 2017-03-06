@@ -19,6 +19,6 @@ need to showcase the SLURM deployment on an opesntack cloud before you
 can use the comet resource. Restrictions in the number of cores will
 be employed.
 
-The SLURM cluster shoudl also use Open XDMOD to report on usage whcih
+The SLURM cluster should also use Open XDMOD to report on usage whcih
 will make benchmarking easier and provide a lot of details.
 
