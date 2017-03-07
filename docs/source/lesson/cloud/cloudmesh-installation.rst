@@ -207,7 +207,7 @@ After a successful launch it will show a similar console as shown below::
 Step 7 : Remove Virtual Machine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To delete a virtual machine, run the following command::
+To delete a virtual machine, run the following command (exit the vm first if necessary)::
 
    $ cm vm delete <name_of_vm>
 
