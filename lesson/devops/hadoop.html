@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Hadoop Virtual Cluster Installation (under preparation) &#8212; Big Data Classes</title>
+    <title>Hadoop Virtual Cluster Installation &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -166,7 +166,7 @@
 <li class="toctree-l2"><a class="reference internal" href="comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="composite_cluster.html">Composite Clusters (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Hadoop Virtual Cluster Installation (under preparation)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Hadoop Virtual Cluster Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="juju.html">Ubuntu Juju</a></li>
 <li class="toctree-l2"><a class="reference internal" href="mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
@@ -278,7 +278,7 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Hadoop Virtual Cluster Installation (under preparation)</a><ul>
+<li><a class="reference internal" href="#">Hadoop Virtual Cluster Installation</a><ul>
 <li><a class="reference internal" href="#cloudmesh-cluster-installation">Cloudmesh Cluster Installation</a><ul>
 <li><a class="reference internal" href="#create-cluster">Create Cluster</a></li>
 <li><a class="reference internal" href="#check-created-cluster">Check Created Cluster</a></li>
@@ -287,10 +287,11 @@
 </li>
 <li><a class="reference internal" href="#hadoop-cluster-installation">Hadoop Cluster Installation</a><ul>
 <li><a class="reference internal" href="#create-hadoop-cluster">Create Hadoop Cluster</a></li>
+<li><a class="reference internal" href="#delete-hadoop-cluster">Delete Hadoop Cluster</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#advanced-topics-with-hadoop">Advanced Topics with Hadoop</a><ul>
-<li><a class="reference internal" href="#hadoop-virtual-cluster-with-spark-yarn-or-pig">Hadoop Virtual Cluster with Spark, Yarn or Pig</a></li>
+<li><a class="reference internal" href="#hadoop-virtual-cluster-with-spark-and-or-pig">Hadoop Virtual Cluster with Spark and/or Pig</a></li>
 </ul>
 </li>
 </ul>
@@ -424,7 +425,7 @@
 <li class="toctree-l2"><a class="reference internal" href="comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="composite_cluster.html">Composite Clusters (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Hadoop Virtual Cluster Installation (under preparation)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Hadoop Virtual Cluster Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="juju.html">Ubuntu Juju</a></li>
 <li class="toctree-l2"><a class="reference internal" href="mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
@@ -526,7 +527,7 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Hadoop Virtual Cluster Installation (under preparation)</a><ul>
+<li><a class="reference internal" href="#">Hadoop Virtual Cluster Installation</a><ul>
 <li><a class="reference internal" href="#cloudmesh-cluster-installation">Cloudmesh Cluster Installation</a><ul>
 <li><a class="reference internal" href="#create-cluster">Create Cluster</a></li>
 <li><a class="reference internal" href="#check-created-cluster">Check Created Cluster</a></li>
@@ -535,10 +536,11 @@
 </li>
 <li><a class="reference internal" href="#hadoop-cluster-installation">Hadoop Cluster Installation</a><ul>
 <li><a class="reference internal" href="#create-hadoop-cluster">Create Hadoop Cluster</a></li>
+<li><a class="reference internal" href="#delete-hadoop-cluster">Delete Hadoop Cluster</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#advanced-topics-with-hadoop">Advanced Topics with Hadoop</a><ul>
-<li><a class="reference internal" href="#hadoop-virtual-cluster-with-spark-yarn-or-pig">Hadoop Virtual Cluster with Spark, Yarn or Pig</a></li>
+<li><a class="reference internal" href="#hadoop-virtual-cluster-with-spark-and-or-pig">Hadoop Virtual Cluster with Spark and/or Pig</a></li>
 </ul>
 </li>
 </ul>
@@ -582,33 +584,37 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="hadoop-virtual-cluster-installation-under-preparation">
-<h1>Hadoop Virtual Cluster Installation (under preparation)<a class="headerlink" href="#hadoop-virtual-cluster-installation-under-preparation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="hadoop-virtual-cluster-installation">
+<h1>Hadoop Virtual Cluster Installation<a class="headerlink" href="#hadoop-virtual-cluster-installation" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="cloudmesh-cluster-installation">
 <h2>Cloudmesh Cluster Installation<a class="headerlink" href="#cloudmesh-cluster-installation" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><div class="admonition important">
+<div class="admonition important">
 <p class="first admonition-title">Important</p>
 <p class="last">Before you start this lesson, you MUST finish
 <a class="reference internal" href="../cloud/cloudmesh-installation.html#cm-install"><span class="std std-ref">Cloudmesh Client on Ubuntu 16.04</span></a>.</p>
 </div>
-</div></blockquote>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This lesson is created and test under the newest version of
+Cloudmesh client. Update yours if not.</p>
+</div>
 <p>To manage virtual cluster on cloud, the command is <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span></code>. Try
 <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">help</span></code> to see what other commands are and what options they
 supported.</p>
 <div class="section" id="create-cluster">
 <h3>Create Cluster<a class="headerlink" href="#create-cluster" title="Permalink to this headline">¶</a></h3>
-<p>To create a virtual cluster on cloud, we use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">create</span></code>.
-For example, we will create a cluster with three nodes:</p>
+<p>To create a virtual cluster on cloud, we must define an active cluster
+specification with <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">define</span></code> command.
+For example, we define a cluster with 3 nodes:</p>
 <blockquote>
-<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster create --count 3
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster define --count 3
 </pre></div>
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
 <p>All options will use the default setting if not specified during cluster
-create. Try <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">help</span></code> command to see what options
-<code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">create</span></code> has and mean, here is part of the usage information:</p>
+define. Try <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">help</span></code> command to see what options
+<code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">define</span></code> has and means, here is part of the usage information:</p>
 <div class="last highlight-default"><div class="highlight"><pre><span></span>$ cm cluster help
 usage:
 cluster create [-n NAME] [-c COUNT] [-C CLOUD] [-u NAME] [-i IMAGE]
@@ -624,6 +630,7 @@ Options:
  -f NAME --flavor=NAME          Name of the flavor
  -k NAME --key=NAME             Name of the key
  -s NAME --secgroup=NAME        NAME of the security group
+ -o PATH --path=PATH            Output to this path
 ...
 </pre></div>
 </div>
@@ -631,42 +638,159 @@ Options:
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
 <p>Floating IP is a valuable and limited resource on cloud.
-<code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">create</span></code> will assign floating IP to every node within
+<code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">define</span></code> will assign floating IP to every node within
 the cluster by default.
 We recommend to use option <code class="docutils literal"><span class="pre">-I</span></code> or <code class="docutils literal"><span class="pre">--no-floating-ip</span></code> to avoid
 assigning floating IPs during cluster creation:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster create --count 3 -I
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster define --count 3 -I
 </pre></div>
 </div>
 <p class="last">Then manually assign floating IP to one of the nodes. Use this node as
 a logging node or head node to log in to all the other nodes.</p>
 </div>
 </div></blockquote>
-<p>Every time a new cluster is created, the counter of the default cluster name will
-increment. Hence, the default cluster name will be
-<code class="docutils literal"><span class="pre">cluster-001</span></code>, <code class="docutils literal"><span class="pre">cluster-002</span></code>, <code class="docutils literal"><span class="pre">cluster-003</span></code> and so on.</p>
+<p>We can have multiple specifications defined at the same time. Every time
+a new cluster specification is defined, the counter of the default cluster
+name will increment. Hence, the default cluster name will be <code class="docutils literal"><span class="pre">cluster-001</span></code>,
+<code class="docutils literal"><span class="pre">cluster-002</span></code>, <code class="docutils literal"><span class="pre">cluster-003</span></code> and so on. Use
+<code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">avail</span></code> to check all the available cluster specifications:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster avail
+  cluster-001
+    count                         : 3
+    image                         : CC-Ubuntu14.04
+    key                           : xl41
+    flavor                        : m1.small
+    secgroup                      : default
+    assignFloatingIP              : True
+    cloud                         : chameleon
+&gt; cluster-002
+    count                         : 3
+    image                         : CC-Ubuntu14.04
+    key                           : xl41
+    flavor                        : m1.small
+    secgroup                      : default
+    assignFloatingIP              : False
+    cloud                         : chameleon
+</pre></div>
+</div>
+</div></blockquote>
+<p>With <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">use</span> <span class="pre">[NAME]</span></code>, we are able to switch between different
+specifications with given cluster name:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster use cluster-001
+$ cm cluster avail
+&gt; cluster-001
+    count                         : 3
+    image                         : CC-Ubuntu14.04
+    key                           : xl41
+    flavor                        : m1.small
+    secgroup                      : default
+    assignFloatingIP              : True
+    cloud                         : chameleon
+  cluster-002
+    count                         : 3
+    image                         : CC-Ubuntu14.04
+    key                           : xl41
+    flavor                        : m1.small
+    secgroup                      : default
+    assignFloatingIP              : False
+    cloud                         : chameleon
+</pre></div>
+</div>
+</div></blockquote>
+<p>This will activate specification <code class="docutils literal"><span class="pre">cluster-001</span></code> which assigns floating IP
+during creation rather than the latest one <code class="docutils literal"><span class="pre">cluster-002</span></code>.</p>
+<p>With our cluster specification ready, we create the cluster with command
+<code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">allocate</span></code>. This will create a virtual cluster on the cloud
+with the activated specification:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster allocate
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Each specification can have one active cluster, which means <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span>
+<span class="pre">allocate</span></code> does nothing if there is a successfully active cluster.</p>
+</div>
+</div></blockquote>
 </div>
 <div class="section" id="check-created-cluster">
 <h3>Check Created Cluster<a class="headerlink" href="#check-created-cluster" title="Permalink to this headline">¶</a></h3>
-<p>With <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">list</span></code>, we can see the cluster with the default name
+<p>With command <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">list</span></code>, we can see the cluster with the default name
 <code class="docutils literal"><span class="pre">cluster-001</span></code> we just created:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster list
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster list
 cluster-001
 </pre></div>
 </div>
+</div></blockquote>
+<p>Using <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">node</span> <span class="pre">[NAME]</span></code>, we can also see the nodes of the cluster along
+with their assigned floating IPs of the cluster:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster nodes cluster-001
+xl41-001 129.114.33.147
+xl41-002 129.114.33.148
+xl41-003 129.114.33.149
+</pre></div>
+</div>
+</div></blockquote>
+<p>If option <code class="docutils literal"><span class="pre">--no-floating-ip</span></code> is included during definition, you will see nodes
+without floating IP:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster nodes cluster-002
+xl41-004 None
+xl41-005 None
+xl41-006 None
+</pre></div>
+</div>
+</div></blockquote>
+<p>To log in one of them, use command <code class="docutils literal"><span class="pre">cm</span> <span class="pre">vm</span> <span class="pre">assign</span> <span class="pre">IP</span> <span class="pre">[NAME]</span></code> to assign a
+floating IP to one of them:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ip assign xl41-006
+$ cm cluster nodes cluster-002
+xl41-004 None
+xl41-005 None
+xl41-006 129.114.33.150
+</pre></div>
+</div>
+</div></blockquote>
+<p>Then you can log in this node as a head node of your cluster
+by <code class="docutils literal"><span class="pre">cm</span> <span class="pre">vm</span> <span class="pre">ssh</span> <span class="pre">[NAME]</span></code>:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ssh xl41-006
+cc@xl41-006 $
+</pre></div>
+</div>
+</div></blockquote>
 </div>
 <div class="section" id="delete-cluster">
 <h3>Delete Cluster<a class="headerlink" href="#delete-cluster" title="Permalink to this headline">¶</a></h3>
-<p>Using <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">delete</span> <span class="pre">NAME</span></code>, we are able to delete the cluster
-we created</p>
+<p>Using <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">delete</span> <span class="pre">[NAME]</span></code>, we are able to delete the cluster
+we created:</p>
 <blockquote>
 <div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster delete cluster-001
 </pre></div>
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
-<p>Option <code class="docutils literal"><span class="pre">--all</span></code> will delete all the clusters created:</p>
-<div class="last highlight-default"><div class="highlight"><pre><span></span>$ cm cluster delete cluster --all
+<p>Option <code class="docutils literal"><span class="pre">--all</span></code> can delete all the clusters created, so be careful:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span>$ cm cluster delete --all
+</pre></div>
+</div>
+</div>
+</div></blockquote>
+<p>Then we need to undefine our cluster specification with command
+<code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">undefine</span> <span class="pre">[NAME]</span></code>:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster undefine cluster-001
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>Option <code class="docutils literal"><span class="pre">--all</span></code> can delete all the cluster specifications:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span>$ cm cluster undefine --all
 </pre></div>
 </div>
 </div>
@@ -677,37 +801,87 @@ we created</p>
 <h2>Hadoop Cluster Installation<a class="headerlink" href="#hadoop-cluster-installation" title="Permalink to this headline">¶</a></h2>
 <div class="admonition important">
 <p class="first admonition-title">Important</p>
-<p class="last">Before you start this lesson, you MUST finish
-<a class="reference internal" href="../cloud/cloudmesh-installation.html#cm-install"><span class="std std-ref">Cloudmesh Client on Ubuntu 16.04</span></a>.</p>
+<p class="last">This section is built upon the previous one. Please finish the previous one
+before start this one.</p>
 </div>
 <div class="section" id="create-hadoop-cluster">
 <h3>Create Hadoop Cluster<a class="headerlink" href="#create-hadoop-cluster" title="Permalink to this headline">¶</a></h3>
-<p>Before we start a Hadoop cluster, we need to find out the username on
-the image we are going to use. For instance, I am using <code class="docutils literal"><span class="pre">CC-Ubuntu14.04</span></code>
-on Chameleon, the username of this image is <code class="docutils literal"><span class="pre">cc</span></code>.</p>
-<p>To install a Hadoop cluster with 3 nodes, use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">start</span> <span class="pre">COUNT</span></code> command</p>
+<p>To create a Hadoop cluster, we need to first define a cluster with
+<code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">define</span></code> command:</p>
 <blockquote>
-<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop start 3 --username cc
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster define --count 3
 </pre></div>
 </div>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">DO NOT use <code class="docutils literal"><span class="pre">cc</span></code> when create Hadoop cluster on your machine! The username
-on the image you are using could be something else!</p>
+<p>To deploy a Hadoop cluster, we only support image <code class="docutils literal"><span class="pre">CC-Ubuntu14.04</span></code>
+on Chameleon. DO NOT use <code class="docutils literal"><span class="pre">CC-Ubuntu16.04</span></code> or any other images.
+You will need to specify it if it&#8217;s not the default image.</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span>$ cm cluster define --count 3 --image CC-Ubuntu14.04
+</pre></div>
+</div>
+</div>
+</div></blockquote>
+<p>Then we define the Hadoop cluster upon the cluster we defined
+using <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">define</span></code> command:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop define
+</pre></div>
+</div>
+</div></blockquote>
+<p>Same as <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">define</span></code>, you can define multiple specification for the
+Hadoop cluster and check them with <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">avail</span></code>:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop avail
+&gt; stack-001
+  local_path                    : /Users/tony/.cloudmesh/stacks/stack-001
+  addons                        : []
+</pre></div>
+</div>
+</div></blockquote>
+<p>We can use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">use</span> <span class="pre">[NAME]</span></code> to activate the specification with the
+given name:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop use stack-001
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">May not be available for current version of Cloudmesh Client.</p>
+</div>
+</div></blockquote>
+<p>Before deploy, we need to use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">sync</span></code> to checkout / synchronize the
+Big Data Stack from Github.com:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop sync
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">To avoid errors, make sure you are able to connect to Github.com using SSH:
+<a class="reference external" href="https://help.github.com/articles/connecting-to-github-with-ssh/">https://help.github.com/articles/connecting-to-github-with-ssh/</a>.</p>
+</div>
+</div></blockquote>
+<p>Finally, we are ready to deploy our Hadoop cluster:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop deploy
+</pre></div>
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
-<p class="last">This process will take 10 minutes or longer.</p>
+<p class="last">This process could take up to 10 minutes based on your network.</p>
 </div>
 </div></blockquote>
-<p>To check Hadoop is working or not. Use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">vm</span> <span class="pre">ssh</span></code> to log into the head node.</p>
+<p>To check Hadoop is working or not. Use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">vm</span> <span class="pre">ssh</span></code> to log into the
+<code class="docutils literal"><span class="pre">Namenode</span></code> of the Hadoop cluster. It&#8217;s usually the first node of
+the cluster:</p>
 <blockquote>
 <div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ssh node-001
 cc@hostname$
 </pre></div>
 </div>
 </div></blockquote>
-<p>Switch to user <code class="docutils literal"><span class="pre">hadoop</span></code> and check HDFS is set up or not.</p>
+<p>Switch to user <code class="docutils literal"><span class="pre">hadoop</span></code> and check HDFS is set up or not:</p>
 <blockquote>
 <div><div class="highlight-default"><div class="highlight"><pre><span></span>cc@hostname$ sudo su - hadoop
 hadoop@hostname$ hdfs dfs -ls /
@@ -716,10 +890,24 @@ drwxrwx---   - hadoop hadoop,hadoopadmin          0 2017-02-15 17:26 /tmp
 </pre></div>
 </div>
 </div></blockquote>
-<p>Now the Hadoop cluster is properly installed.</p>
-<p>To delete the Hadoop cluster we created, use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">delete</span> <span class="pre">NAME</span></code></p>
+<p>Now the Hadoop cluster is properly installed and configured.</p>
+</div>
+<div class="section" id="delete-hadoop-cluster">
+<h3>Delete Hadoop Cluster<a class="headerlink" href="#delete-hadoop-cluster" title="Permalink to this headline">¶</a></h3>
+<p>To delete the Hadoop cluster we created, use command
+<code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">delete</span> <span class="pre">[NAME]</span></code> to delete the cluster with given name:</p>
 <blockquote>
 <div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster delete cluster-001
+</pre></div>
+</div>
+</div></blockquote>
+<p>Then undefine the Hadoop specification and the cluster specification:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop undefine stack-001
+$ cm cluster undefine cluster-001
+
+.. warning::
+   May not be available for current version of Cloudmesh Client.
 </pre></div>
 </div>
 </div></blockquote>
@@ -727,14 +915,32 @@ drwxrwx---   - hadoop hadoop,hadoopadmin          0 2017-02-15 17:26 /tmp
 </div>
 <div class="section" id="advanced-topics-with-hadoop">
 <h2>Advanced Topics with Hadoop<a class="headerlink" href="#advanced-topics-with-hadoop" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="hadoop-virtual-cluster-with-spark-yarn-or-pig">
-<h3>Hadoop Virtual Cluster with Spark, Yarn or Pig<a class="headerlink" href="#hadoop-virtual-cluster-with-spark-yarn-or-pig" title="Permalink to this headline">¶</a></h3>
-<p>To install Spark, Yarn or Pig with Hadoop cluster, it&#8217;s quite simple.
-We still use command <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">start</span> <span class="pre">COUNT</span></code> but with <code class="docutils literal"><span class="pre">ADDON</span></code>.</p>
-<p>For example, we create a Spark cluster with 3 nodes. To do that, all we need is
-to specify <code class="docutils literal"><span class="pre">spark</span></code> as an <code class="docutils literal"><span class="pre">ADDON</span></code> during creation:</p>
+<div class="section" id="hadoop-virtual-cluster-with-spark-and-or-pig">
+<h3>Hadoop Virtual Cluster with Spark and/or Pig<a class="headerlink" href="#hadoop-virtual-cluster-with-spark-and-or-pig" title="Permalink to this headline">¶</a></h3>
+<p>To install Spark and/or Pig with Hadoop cluster, it&#8217;s quite simple.
+We just need to use command <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">define</span></code> but with <code class="docutils literal"><span class="pre">ADDON</span></code>.</p>
+<p>For example, we create a 3-nodes Spark cluster with Pig. To do that, all we
+need is to specify <code class="docutils literal"><span class="pre">spark</span></code> as an <code class="docutils literal"><span class="pre">ADDON</span></code> during Hadoop definition:</p>
 <blockquote>
-<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop start 3 --username cc spark
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop define spark pig
+</pre></div>
+</div>
+</div></blockquote>
+<p>With <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">avail</span></code>, we can see the detail of the specification for the
+Hadoop cluster:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop avail
+&gt; stack-001
+  local_path                    : /Users/tony/.cloudmesh/stacks/stack-001
+  addons                        : [u&#39;spark&#39;, u&#39;pig&#39;]
+</pre></div>
+</div>
+</div></blockquote>
+<p>Then we use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">sync</span></code> and <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">deploy</span></code> to deploy our Spark
+cluster:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop sync
+$ cm hadoop deploy
 </pre></div>
 </div>
 <div class="admonition tip">
