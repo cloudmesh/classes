@@ -2216,6 +2216,37 @@ High level Programming
 
      
 125. Summingbird
+     
+     According to :cite:'summingbirdgit', "Summingbird is
+     a library that lets you write MapReduce programs that look like
+     native Scala or Java collection transformations and execute them
+     on a number of well-known distributed MapReduce platforms,
+     including Storm and Scalding."  Summingbird is open-source and is
+     a domain-specific Scala implemented language
+     :cite:'boykin2014summingbird'. It combines online and batch
+     MapReduce computations into one framework
+     :cite:'boykin2014summingbird'. It utilizes the platforms Hadoop
+     for batch and Storm for online process execution
+     :cite:'boykin2014summingbird'. The open-source Hadoop
+     implementation of MapReduce is a tool which those responsible for
+     data management use to handle problems related to big data
+     :cite:'boykin2014summingbird'. Summingbird uses an algebraic
+     structure called a commutative semigroup to perform aggregations
+     of both batch and online processes
+     :cite:'boykin2014summingbird'. A commutative semigroup is a
+     particular type of semigroup "where the associated binary
+     operation is also commutative" :cite:'boykin2014summingbird'.
+     The types of data that Summingbird takes as inputs are streams
+     and snapshots :cite:'boykin2014summingbird'. The types of data
+     Summingbird jobs generate are called stores and sinks
+     :cite:'boykin2014summingbird'. Stores are "an abstract model of a
+     key-value store" while sinks are unaggregated tuples from a
+     producer :cite:'boykin2014summingbird'. Summingbird aims to
+     simplify the process of both batch and online analytics by
+     exploiting "the formal properties of algebraic structures" to
+     integrate the various modes of distributed processing
+     :cite:'boykin2014summingbird'.
+	   
 126. Lumberyard
      
      It is powerful and full-featured enough to develop triple-A,
@@ -3472,6 +3503,33 @@ SQL(NewSQL)
 
 
 201. SQLite
+
+     SQLite is a severless SQL database engine whose source code
+     resides in the public domain :cite:'sqliteabout'. SQLite
+     databases, including tables, indices, and views, reside on a
+     single file on the disk :cite:'sqliteabout'. It has a compact
+     library, often taking up less than KiB of space, depending on the
+     particular configuration :cite:'sqliteabout'. Performance is the
+     tradeoff with the smaller size, i.e. performance usually runs
+     faster when given more memory :cite:'sqliteabout'. SQLite
+     transactions comply with the ACID (Atomicity, Consistency,
+     Isolation, Durability) :cite:'acid' properties
+     :cite:'sqliteabout'. SQLite does not require administration or
+     configuration :cite:'sqliteover'. There are some limitations
+     associated with SQLite, such as the inability to perform Right
+     Outer Joins, read-only views, and access permissions (other than
+     those that are associated with regular file acces permissions)
+     :cite:'sqliteover' SQLite does not compare directly with
+     clien/server databases such as MySQL as they are both trying to
+     solve different problems :cite:'sqlitewhentouse'. While database
+     engines such as MySQL aim to provide a shared database, with
+     different access permissions to different
+     individuals/applications, SQLite has the goal of being a local
+     repository of data for applications :cite:'sqlitewhentouse' While
+     SQLite is not appropriate for every situation, there certainly
+     exists situations where it can prove to be a prudent choice for
+     data management needs :cite:'sqlitewhentouse'.
+     
 202. MySQL
 
      MySQL is a relational database management system. :cite:`devmysql` SQL
