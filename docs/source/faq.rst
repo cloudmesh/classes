@@ -1,6 +1,7 @@
 FAQ
 ====
 
+
 How do I ask a question?
 ------------------------
 
@@ -177,7 +178,7 @@ How to write a research article on computer science?
 Other resources may inspire you also:
 
 #. `https://globaljournals.org/guidelines-tips/research-paper-publishing <https://globaljournals.org/guidelines-tips/research-paper-publishing>`_
-#. `http://www.cs.columbia.edu/~hgs/etc/writing-style.html <http://www.cs.columbia.edu/~hgs/etc/writing-style.html>`_
+#. `http://www.cs.columbia.edu/-hgs/etc/writing-style.html <http://www.cs.columbia.edu/-hgs/etc/writing-style.html>`_
 #. `https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal <https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal>`_
 
 Which bibliography manager is required for the class?
@@ -480,8 +481,8 @@ Pip installation error when installing requirements.::
 
   error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
     
-    ----------------------------------------
-    Rolling back uninstall of cryptography
+Rolling back uninstall of cryptography
+--------------------------------------
     Command "/usr/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-1vi4of/cryptography/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-gNcw68-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-1vi4of/cryptography/
 
 
@@ -597,7 +598,7 @@ Tips: TechList.1 homework
 .. warning:: why is this not placed in techlist-hw.rst?
 
 Citations
-~~~~~~~~~
+---------
 
 Do not mention the authors of a citation that you use. 
 
@@ -607,10 +608,10 @@ As Gregor von Laszewski pointed out with flowery words in an article published r
 
 Instead use: In [1] ...    
 
-Naturally you shoudl use the \cite command.
+Naturally you should use the \cite command.
  
 Spelling
-~~~~~~~~
+--------
 
 * use a space after periods, and commas in a centence
 * use a spellchecker
@@ -618,12 +619,12 @@ Spelling
   fixed width font to edit RST to see it more easily)
 
 Github
-~~~~~~
+------
 
 * when dounig your pull request, make sure you do not have any conflists, rebase if needed
 
 Rubric
-~~~~~~
+------
  
 We already commented on what a good entry looks like so its rather
 simple, avoid plagiarism, subsections in the text, keep bullet lists
@@ -649,7 +650,7 @@ You are allowed to work in teams to improve your own submissions.
 
      
 Timeliness
-~~~~~~~~~~
+----------
 
 You will safe yourself a lot of hazle if you check in your assignment
 early.  ON the last day typically a lot of checkins happen and may
@@ -660,7 +661,7 @@ require you to do a rebase. The sooner you do it the easier for you.
  
 
 Outdated Tech ology
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 One of the technology assigned to me is 'Ninefold'. It seems ninefold
 has shutdown their cloud service on January 30, 2016. Should I write a
@@ -952,7 +953,7 @@ have been graded with a "fail" instead of a "pass".
 
  
 A second example
-~~~~~~~~~~~~~~~~
+----------------
 
 Lets look at a second obvious example that needs improvement::
 
@@ -1054,7 +1055,7 @@ Lets look at it and we find two entries::
   @proceedings{DBLP:conf/closer/2015,
     editor    = {Markus Helfert and
 		 Donald Ferguson and
-		 V{\'{\i}}ctor M{\'{e}}ndez Mu{\~{n}}oz},
+		 V{\'{\i}}ctor M{\'{e}}ndez Mu{\-{n}}oz},
     title     = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
 		 Cloud Computing and Services Science, Lisbon, Portugal, 20-22 May,
 		 2015},
@@ -1108,7 +1109,7 @@ So lets copy and fill out the **form** from our various searches::
       year = 	 {2015},
       editor    = {Markus Helfert and
  		   Donald Ferguson and
-		   V{\'{\i}}ctor M{\'{e}}ndez Mu{\~{n}}oz},
+		   V{\'{\i}}ctor M{\'{e}}ndez Mu{\-{n}}oz},
       publisher = {SciTePress},
       isbn      = {978-989-758-104-5},
       pages = {475--486},
@@ -1203,13 +1204,13 @@ Since this SO question keeps coming up I'll drop a response here too (I am one o
 Please note in all these cases it is highly recommended that you install into a virtualenv and not into the global package space. This is not specific to cryptography but rather is generic advice to keep your Python installation reliable. The global package space in OS provided Pythons is owned by the system and installing things via pip into it is asking for trouble.
 
 Windows
-~~~~~~~
+-------
 Upgrade to the latest pip (8.1.2 as of June 2016) and just pip install cryptography
 
 cryptography and cffi are both shipped as statically linked wheels.
 
 OS X
-~~~~
+----
 Ono OSX you need to install xcode.
 
 Upgrade to the latest pip (8.1.2 as of June 2016) and just pip install cryptography
@@ -1217,7 +1218,7 @@ Upgrade to the latest pip (8.1.2 as of June 2016) and just pip install cryptogra
 cryptography and cffi are both shipped as statically linked wheels. This will work for pyenv Python, system Python, homebrew Python, etc. As long as you're on the latest pip you won't even need a compiler.
 
 Linux
-~~~~~
+-----
 On Linux you'll need a C compiler, libffi + its development headers, and openssl + its development headers.
 
 Debian or Ubuntu derived distributions

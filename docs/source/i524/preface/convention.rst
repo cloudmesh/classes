@@ -1,5 +1,5 @@
 Conventions
-----------------------------------------------------------------------
+===========
 
 `$`
     When showing examples of commands, the `$` symbol precedes the

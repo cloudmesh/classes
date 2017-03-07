@@ -429,15 +429,16 @@ latex_elements = {
 
      # The font size ('10pt', '11pt' or '12pt').
      #
-     # 'pointsize': '10pt',
+     'pointsize': '10pt',
 
      # Additional stuff for the LaTeX preamble.
      #
-     # 'preamble': '',
+     # 'preamble': '\input{structure}',
 
      # Latex figure (float) alignment
      #
      # 'figure_align': 'htbp',
+     'maketitle': r'\pagenumbering{arabic}',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -448,7 +449,7 @@ latex_documents = [
      'i524-notes.tex',
      u'I524 Lecture Notes',
      u'Gregor von Laszewski',
-     'manual'),
+     'book'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
