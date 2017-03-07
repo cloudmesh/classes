@@ -95,6 +95,7 @@ commands (tasks).  We start with the following lines in the example filename of
   ---
   - hosts: ansible-test
     remote_user: root
+    become: yes
 
 In a previous tutorial, we setup two machines with ``ansible-test`` group name.
 This tutorial uses that two machines for MongoDB installation.  Also, we use
@@ -166,6 +167,7 @@ Our first playbook looks like this::
   ---
   - hosts: ansible-test
     remote_user: root
+    become: yes
     tasks:
     - name: Import the public key used by the package management system
       apt_key: keyserver=hkp://keyserver.ubuntu.com:80 id=7F0CEB10 state=present
