@@ -1,11 +1,9 @@
 FAQ
 ====
 
-Communication
--------------
 
 How do I ask a question?
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 We are using piazza for asking question. Our intend is to first gather
 the answer on piazza and than move the answer in some form to the web
@@ -35,7 +33,7 @@ http://www.techsupportalert.com/content/how-ask-question-when-you-want-technical
 
 
 What are the prerequisites for this class?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------------
 
 We have communicated the prerequisites to the university, but they may
 have forgotten to add them to the class.  The perquisites can be found
@@ -46,7 +44,7 @@ See:
 * I524 :ref:`ref-i524-prerequisits`
 
 Why is this class not hosted on EdX?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------
 
 I523 and I524 were the first classes hosted on EdX. We wanted to
 continue offering them on EdX. However, the university system
@@ -56,12 +54,12 @@ and we hope that the university will soon update to an EdX system that
 can host our classes.
 
 Why are you not using CANVAS for communicating with students?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------------
 
 We have found that Piazza supports our needs for communication better than Canvas.
 
 Why are you using github for submitting projects and papers?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------------------------------
 
 This class is about open source technology and we like that you benefit
 from material others in the class are developing or have developed. All
@@ -77,7 +75,7 @@ technology papers and improve them.
 
 
 I am full time student at IUPUI. Can I take the online version?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------------------------
 
 Yes you can.
 
@@ -88,7 +86,7 @@ do not allow to take online classes. It will be up to you to verify
 the requirements with the appropriate administrators.
 
 I am a residential student at IU. Can I take the online version only?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------------------------------
 
 We recommend you take the residential class.
 
@@ -101,7 +99,7 @@ have such restrictions. Please find out what they are and which
 section of the course is appropriate for you. 
 
 The class is full what do I do?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
 
 #. Make sure to put yourself on the waiting list.
 #. If you are a residential student show up on the first class in the
@@ -110,7 +108,7 @@ The class is full what do I do?
    will create a list and discuss with the registrar what to do.
    
 Do I need to buy a textbook?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
 
 No, the resources will be provided for every unit. However, we
 recommend that you identify useful books for the class that can help
@@ -125,14 +123,14 @@ you. Examples include
 If you find good books, we like to add them here.
    
 Why is there no textbook?
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 We cover a wide range of topics and their subject-matter is constantly
 undergoing changes. A textbook would be out of date by the time of
 publishing.
 
 Do I need a computer to participate in this class?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------------
 
 If you are an online student you need access to a computer. If you
 are a residential student the facilities provided by SOIC will be
@@ -158,7 +156,7 @@ use an SSD if you can.
 
    
 Representative Bibliography
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
 #. `Big data: The next frontier for innovation, competition, and
    productivity <http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation>`__
@@ -166,13 +164,13 @@ Representative Bibliography
    Class <https://bigdatacoursespring2015.appspot.com>`__
 
 Where is the official IU calendar for the Fall?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------------------
 
 Please follow this
 `link <http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml>`__
 
 How to write a research article on computer science?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------------
 
 #. A good lecture about this is presented by Simon Peyton Jones,
    Microsoft Research https://www.youtube.com/watch?v=g3dkRsTqdDA
@@ -180,11 +178,11 @@ How to write a research article on computer science?
 Other resources may inspire you also:
 
 #. `https://globaljournals.org/guidelines-tips/research-paper-publishing <https://globaljournals.org/guidelines-tips/research-paper-publishing>`_
-#. `http://www.cs.columbia.edu/^hgs/etc/writing-style.html <http://www.cs.columbia.edu/^hgs/etc/writing-style.html>`_
+#. `http://www.cs.columbia.edu/-hgs/etc/writing-style.html <http://www.cs.columbia.edu/-hgs/etc/writing-style.html>`_
 #. `https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal <https://www.quora.com/How-do-I-write-a-research-paper-for-a-computer-science-journal>`_
 
 Which bibliography manager is required for the class?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------------------------
 
 We require you use jabref:
 
@@ -192,7 +190,7 @@ We require you use jabref:
 
 
 Can I use endnote or other bibliography managers?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------
 
 No. Jabref is best for us and we do require that you hand in all
 bibliographies while cleaning and transferring them to jabref. We will
@@ -206,14 +204,14 @@ not accept any other bibliography tool such as:
 
    
 Plagiarism test and resources related to that
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------
 
 #. `https://www.grammarly.com/plagiarism-checker <https://www.grammarly.com/plagiarism-checker>`_
 #. `http://turnitin.com/ <http://turnitin.com/>`_
 #. `http://www.plagscan.com/plagiarism-check/ <http://www.plagscan.com/plagiarism-check/>`_
 
 How many hours will this course take to work on every week?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------------------------------
 
 This question can not rely be answered precisely. Typically we have
 2-3 hours video per week. However starting from that its difficult to
@@ -235,7 +233,7 @@ put a real number down as things may also depend on your background.
 * The project or term paper will take a significant amount of time.
 
 Is all classes material final?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 No. Class material can change. Please remember that in a normal class
 you will be given several hours of lectures a week. They will be
@@ -248,13 +246,13 @@ to hear from you. Pull requests can be issued by you so your
 contributions get acknowledged and rewarded as part of the grade.
 
 What are the changes to the web page?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------
 
 The changes we make are typically fixing errata or clarification of
 content. We do attempt to indicate when major change is made.
 
 What lectures should I learn when?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 The class is structured in lectures that you can listen to at any
 time. If you have difficulties with organizing your own calendar, we
@@ -273,7 +271,7 @@ weeks. You will need to work on it all semester long on weekly basis,
 starting with learning how to use ansible and cloud resources.
 
 I524: Why are you doing the papers?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------
 
 Part of doing research is to communicate your thoughts on topics and
 to be able to analyze and evaluate technologies that may or may not be
@@ -285,7 +283,7 @@ serve also the dual purpose of you learning how to write a paper and
 use bibliographies.
 
 I524: Why are there no homework to test me on skills such as ansible or python?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------------------------------
 
 We used to do smaller homework in previous classes to evaluate you on
 your skills. However we found that they did not reflect real-world use
@@ -297,7 +295,7 @@ can conduct to test your skills if you like. Please let us know if you
 like to do that and we can assign such homework to you.
 
 I524: Why not use chef or another DevOps framework?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------------
 
 We used to use chef and other DevOps frameworks. However we found that
 for a class grading can not be uniformly conducted while using too
@@ -312,24 +310,24 @@ such as R or technologies such as neo4j. However all deployment must
 be done in python and ansible.
 
 I am lost?
-^^^^^^^^^^
+----------
 
 Please contact the instructors for your class.
 
 I do not like Technology/Topic/Project/etc?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------
 
 Please contact the instructors for your class.
 
 I am not able to attend the online hours
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------
 
 Typically we provide many different times for meetings via Zoom. We
 even schedule within reason special sessions. All of them are however
 during reasonable hours in United States Easter Standard Time.
 
 Do I need to attend the online sessions?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------
 
 No. But you can ask any question you want. We found that in previous
 classes that some students clearly benefitted from online sessions.
@@ -337,14 +335,14 @@ If you attend them make sure you have a working and tested microphone
 if possible.
 
 What are the leaning outcomes?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 If you feel that they are not clearly stated as part of the course
 please contact us so that we can clarify the material.
 
 
 There are so many messages on Piazza I can not keep up.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------
 
 Residential students typically participate in live lectures in which
 we discuss with each other important aspects of a topic. As an online
@@ -355,7 +353,7 @@ also that one student asks a question, while the professor answers the
 question to the entire class.
 
 I find the hosting Web confusing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------
 
 Once in a while we find that a student finds the hosting of the class
 material on the class Web page confusing. This confusion can be
@@ -376,7 +374,7 @@ overcome by doing the following:
 
    
 I524: I do not know python. What do I do?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------------
 
 This class requires python. Please learn it. We will be using ansible
 for the project. This you can acquire as part of the class through
@@ -385,7 +383,7 @@ python included.
 
 
 How to solve merge conflict in Pull Request?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------
 
 Make sure you have upstream repo defined::
 
@@ -462,7 +460,7 @@ automatically
 
 
 Building cloudmesh/classes in local machine
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------
 
 If you experience following errors, please follow the guideline
 explained below. Make sure to do the following steps first::
@@ -484,7 +482,7 @@ Pip installation error when installing requirements.::
   error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
     
 Rolling back uninstall of cryptography
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------
     Command "/usr/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-1vi4of/cryptography/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-gNcw68-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-1vi4of/cryptography/
 
 
@@ -507,7 +505,7 @@ Trying to build the source with this error::
 
 
 How to sole Merge Conflict in a Pull Request?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------
 
 .. warning:: THis FAQ seems duplicated. Also you are allowed to point
 	     to content where thsi is already explained with a
@@ -574,7 +572,7 @@ automatically
 
 
 Cheat sheet for Linux commands
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 Usage of a particular command and all the attributes associated with
 it, use 'man' command. Avoid using 'rm -r' command to delete files
@@ -595,12 +593,12 @@ https://cloudmesh.github.io/classes/lesson/linux/refcards.html
 
 
 Tips: TechList.1 homework
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
  
 .. warning:: why is this not placed in techlist-hw.rst?
 
 Citations
-^^^^^^^^^
+---------
 
 Do not mention the authors of a citation that you use. 
 
@@ -610,10 +608,10 @@ As Gregor von Laszewski pointed out with flowery words in an article published r
 
 Instead use: In [1] ...    
 
-Naturally you shoudl use the \cite command.
+Naturally you should use the \cite command.
  
 Spelling
-^^^^^^^^
+--------
 
 * use a space after periods, and commas in a centence
 * use a spellchecker
@@ -621,12 +619,12 @@ Spelling
   fixed width font to edit RST to see it more easily)
 
 Github
-^^^^^^
+------
 
 * when dounig your pull request, make sure you do not have any conflists, rebase if needed
 
 Rubric
-^^^^^^
+------
  
 We already commented on what a good entry looks like so its rather
 simple, avoid plagiarism, subsections in the text, keep bullet lists
@@ -652,7 +650,7 @@ You are allowed to work in teams to improve your own submissions.
 
      
 Timeliness
-^^^^^^^^^^
+----------
 
 You will safe yourself a lot of hazle if you check in your assignment
 early.  ON the last day typically a lot of checkins happen and may
@@ -663,7 +661,7 @@ require you to do a rebase. The sooner you do it the easier for you.
  
 
 Outdated Tech ology
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 One of the technology assigned to me is 'Ninefold'. It seems ninefold
 has shutdown their cloud service on January 30, 2016. Should I write a
@@ -684,7 +682,7 @@ Note: Outdated and unnecessary technologies will be removed by the TAs.
 
 
 Techlist 1 and Paper 1 : Pagecount
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 TechLIst = a couple of paragraphs (so real short, see the NAGIOS example
 
@@ -698,7 +696,7 @@ PS: If your paper is longer or if it a paragraph short that does not matter to u
 
 
 Tips to Install Virtualbox
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 A video on how to install virtual box on windows 10 can be seen as part of an unrelated course on youtube at
 
 https://www.youtube.com/watch?v=XvCUpZuHgvo 
@@ -713,7 +711,7 @@ part form the window bellow)
 https://www.youtube.com/watch?v=13GS1cLyk-E
 
 Do I generate the SSH key on Ubuntu VM ?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------
 
 I have installed Ubuntu(on virtual box) on my windows 10 system. I
 wanted to confirm if the SSH key should be created on the Ubuntu VM?
@@ -757,7 +755,7 @@ access.
 
 
 Ways to run Ubuntu on Windows 10
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------
 
 There are multiple ways to get ubuntu onto Windows.
 
@@ -797,7 +795,7 @@ https://cloudmesh.github.io/classes/i524/lectures.html
 
 
 Don't use Anaconda
-^^^^^^^^^^^^^^^^^^
+------------------
 
 We use python 2.7.13 for this class. It is better to use Virtualenv
 and pip. And for the IDE, you can use PyCharm. This is the open source
@@ -812,7 +810,7 @@ case you use anaconda or canopy.
 
 
 Using SSH Key for Git Push
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 When you cloned your repository did you use SSH rather than HTTPS?
 Your clone command should look like this:
@@ -828,7 +826,7 @@ will be sufficient, since this is the only one you push into.
 
 
 How to properly research a bibtex entry?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------
 
 Often you may find via google a bibtex entry that may need some more
 reserach. Lets assume your first google quesry returns a publication
@@ -955,7 +953,7 @@ have been graded with a "fail" instead of a "pass".
 
  
 A second example
-^^^^^^^^^^^^^^^^
+----------------
 
 Lets look at a second obvious example that needs improvement::
 
@@ -1057,7 +1055,7 @@ Lets look at it and we find two entries::
   @proceedings{DBLP:conf/closer/2015,
     editor    = {Markus Helfert and
 		 Donald Ferguson and
-		 V{\'{\i}}ctor M{\'{e}}ndez Mu{\^{n}}oz},
+		 V{\'{\i}}ctor M{\'{e}}ndez Mu{\-{n}}oz},
     title     = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
 		 Cloud Computing and Services Science, Lisbon, Portugal, 20-22 May,
 		 2015},
@@ -1111,7 +1109,7 @@ So lets copy and fill out the **form** from our various searches::
       year = 	 {2015},
       editor    = {Markus Helfert and
  		   Donald Ferguson and
-		   V{\'{\i}}ctor M{\'{e}}ndez Mu{\^{n}}oz},
+		   V{\'{\i}}ctor M{\'{e}}ndez Mu{\-{n}}oz},
       publisher = {SciTePress},
       isbn      = {978-989-758-104-5},
       pages = {475--486},
@@ -1123,7 +1121,7 @@ So lets copy and fill out the **form** from our various searches::
     }
 
 What are the differnt entry types and fields
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------
 
 
 We were asked what are the different entry types and fields, so we did
@@ -1136,14 +1134,14 @@ the identification if a referncei is ok or not.
 Please see https://en.wikipedia.org/wiki/BibTeX 
 
 Can I write the papers on OSX?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 Yes of course you can write papers on OSX. But we support for Ubuntu
 16.04, because we consider it as the main OS that we use in this
 class.  You can use, VM to install Ubuntu and use it for class work.
 
 What is the nature of team collaboration on papers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------------
 
 You can build teams of three. You need to yourself build the team. The
 web page tells you that there will be no reduction in numbers of
@@ -1152,7 +1150,7 @@ combined.
 
 
 What is the nature of team collaboration on papers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------------
 You can build teams of three. You need to yourself build the team. The
 web page tells you that there will be no reduction in numbers of
 papers you write = number of team members * 3, papers can not be
@@ -1160,14 +1158,14 @@ combined.
 
 
 What are the due dates for assignments
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------
 
 Due dates are posed on the Web page calendar.
 
 
 
 What are good places to find refernce entries?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------
 
 * https://scholar.google.com/
 * http://dl.acm.org/
@@ -1177,7 +1175,7 @@ What are good places to find refernce entries?
 
 
 How to install Matplotlib?
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 Follow the installation in the class documentation properly.
 
@@ -1197,7 +1195,7 @@ Install python Tkinter packages::
   
   
 How to test if your OS can install cloudmesh_client
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------------
 
  In installation of Cloudmesh Client, there may be extra packages that has to be installed.Missing a few dependencies for cryptography.
 
@@ -1206,13 +1204,13 @@ Since this SO question keeps coming up I'll drop a response here too (I am one o
 Please note in all these cases it is highly recommended that you install into a virtualenv and not into the global package space. This is not specific to cryptography but rather is generic advice to keep your Python installation reliable. The global package space in OS provided Pythons is owned by the system and installing things via pip into it is asking for trouble.
 
 Windows
-^^^^^^^
+-------
 Upgrade to the latest pip (8.1.2 as of June 2016) and just pip install cryptography
 
 cryptography and cffi are both shipped as statically linked wheels.
 
 OS X
-^^^^
+----
 Ono OSX you need to install xcode.
 
 Upgrade to the latest pip (8.1.2 as of June 2016) and just pip install cryptography
@@ -1220,7 +1218,7 @@ Upgrade to the latest pip (8.1.2 as of June 2016) and just pip install cryptogra
 cryptography and cffi are both shipped as statically linked wheels. This will work for pyenv Python, system Python, homebrew Python, etc. As long as you're on the latest pip you won't even need a compiler.
 
 Linux
-^^^^^
+-----
 On Linux you'll need a C compiler, libffi + its development headers, and openssl + its development headers.
 
 Debian or Ubuntu derived distributions
@@ -1237,7 +1235,7 @@ Red Hat derived distributions::
 
 
 Tips to write a Good Paper
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 This that must be avoided to write a good paper.
 
