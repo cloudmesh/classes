@@ -280,6 +280,7 @@
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">Cloudmesh Client on Ubuntu 16.04</a><ul>
 <li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#cloudmesh-client-upgrade">Cloudmesh Client Upgrade</a></li>
 <li><a class="reference internal" href="#setting-up">Setting Up</a></li>
 <li><a class="reference internal" href="#setting-up-chameleon-cloud">Setting Up Chameleon Cloud</a></li>
 <li><a class="reference internal" href="#preaparing-for-chameleon-access">Preaparing for Chameleon Access</a></li>
@@ -524,6 +525,7 @@
 </li><ul>
 <li><a class="reference internal" href="#">Cloudmesh Client on Ubuntu 16.04</a><ul>
 <li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#cloudmesh-client-upgrade">Cloudmesh Client Upgrade</a></li>
 <li><a class="reference internal" href="#setting-up">Setting Up</a></li>
 <li><a class="reference internal" href="#setting-up-chameleon-cloud">Setting Up Chameleon Cloud</a></li>
 <li><a class="reference internal" href="#preaparing-for-chameleon-access">Preaparing for Chameleon Access</a></li>
@@ -600,6 +602,51 @@ It will show a terminal in the following way.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm
 </pre></div>
 </div>
+<p>, 2017, at 11:21 AM, Gregor von Laszewski &lt;<a class="reference external" href="mailto:laszewski&#37;&#52;&#48;gmail&#46;com">laszewski<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt; wrote:</p>
+<p>On Mar 10, 2017, at 11:13 AM, Gregor von Laszewski &lt;<a class="reference external" href="mailto:laszewski&#37;&#52;&#48;gmail&#46;com">laszewski<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt; wrote:</p>
+<p>All:</p>
+<p>I released a new cm version 4.6.0.</p>
+<p>Please test vm boot, cluster, and hadoop</p>
+<p>do</p>
+<p>pip uninstall cloudmesh_client
+…. till you get an error that no older versions are there
+pip uninstall cloudmesh_client</p>
+<p>pip install cloudmesh_client
+cm reset
+cm refresh on
+cm key add —ssh</p>
+<p>cm vm boot</p>
+</div>
+<div class="section" id="cloudmesh-client-upgrade">
+<h2>Cloudmesh Client Upgrade<a class="headerlink" href="#cloudmesh-client-upgrade" title="Permalink to this headline">¶</a></h2>
+<p>From time to time we will release new versions of cloudmesh client. The
+safest way to install it is to make sure that you shut down all VMs in
+all clouds. Than you reset the db with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">reset</span>
+</pre></div>
+</div>
+<p>Next you uninstall all previous versions of cloudmesh with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">uninstall</span> <span class="n">cloudmesh_client</span>
+</pre></div>
+</div>
+<p>YOu repeat the uninstall step ass long as you will find older versions
+of cloudmesh client. Once there is no more old version, you simply
+install the new version of cloudmesh client with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">cloudmesh_client</span> <span class="o">-</span><span class="n">U</span>
+</pre></div>
+</div>
+<p>As the reset has deleted the db, you need to add your key and set
+refresh to on with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>cm refresh on
+cm key add —ssh
+</pre></div>
+</div>
+<p>Test it out to do things such as listing images or booting vms:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">vm</span> <span class="nb">list</span>
+<span class="n">cm</span> <span class="n">vm</span> <span class="n">boot</span>
+</pre></div>
+</div>
+<p>Naturally you must have done the setup stap eiather previously.</p>
 </div>
 <div class="section" id="setting-up">
 <h2>Setting Up<a class="headerlink" href="#setting-up" title="Permalink to this headline">¶</a></h2>
