@@ -166,7 +166,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../composite_cluster.html">Composite Clusters (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../hadoop.html">Hadoop Virtual Cluster Installation (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hadoop.html">Hadoop Virtual Cluster Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../juju.html">Ubuntu Juju</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
@@ -426,7 +426,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../composite_cluster.html">Composite Clusters (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../hadoop.html">Hadoop Virtual Cluster Installation (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hadoop.html">Hadoop Virtual Cluster Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../juju.html">Ubuntu Juju</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
@@ -674,6 +674,7 @@ commands (tasks).  We start with the following lines in the example filename of
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
 <span class="o">-</span> <span class="n">hosts</span><span class="p">:</span> <span class="n">ansible</span><span class="o">-</span><span class="n">test</span>
   <span class="n">remote_user</span><span class="p">:</span> <span class="n">root</span>
+  <span class="n">become</span><span class="p">:</span> <span class="n">yes</span>
 </pre></div>
 </div>
 <p>In a previous tutorial, we setup two machines with <code class="docutils literal"><span class="pre">ansible-test</span></code> group name.
@@ -743,6 +744,7 @@ Use the <code class="docutils literal"><span class="pre">update_cache=yes</span>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
 <span class="o">-</span> <span class="n">hosts</span><span class="p">:</span> <span class="n">ansible</span><span class="o">-</span><span class="n">test</span>
   <span class="n">remote_user</span><span class="p">:</span> <span class="n">root</span>
+  <span class="n">become</span><span class="p">:</span> <span class="n">yes</span>
   <span class="n">tasks</span><span class="p">:</span>
   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Import</span> <span class="n">the</span> <span class="n">public</span> <span class="n">key</span> <span class="n">used</span> <span class="n">by</span> <span class="n">the</span> <span class="n">package</span> <span class="n">management</span> <span class="n">system</span>
     <span class="n">apt_key</span><span class="p">:</span> <span class="n">keyserver</span><span class="o">=</span><span class="n">hkp</span><span class="p">:</span><span class="o">//</span><span class="n">keyserver</span><span class="o">.</span><span class="n">ubuntu</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="mi">80</span> <span class="nb">id</span><span class="o">=</span><span class="mi">7</span><span class="n">F0CEB10</span> <span class="n">state</span><span class="o">=</span><span class="n">present</span>

@@ -2216,6 +2216,37 @@ High level Programming
 
      
 125. Summingbird
+     
+     According to :cite:'summingbirdgit', "Summingbird is
+     a library that lets you write MapReduce programs that look like
+     native Scala or Java collection transformations and execute them
+     on a number of well-known distributed MapReduce platforms,
+     including Storm and Scalding."  Summingbird is open-source and is
+     a domain-specific Scala implemented language
+     :cite:'boykin2014summingbird'. It combines online and batch
+     MapReduce computations into one framework
+     :cite:'boykin2014summingbird'. It utilizes the platforms Hadoop
+     for batch and Storm for online process execution
+     :cite:'boykin2014summingbird'. The open-source Hadoop
+     implementation of MapReduce is a tool which those responsible for
+     data management use to handle problems related to big data
+     :cite:'boykin2014summingbird'. Summingbird uses an algebraic
+     structure called a commutative semigroup to perform aggregations
+     of both batch and online processes
+     :cite:'boykin2014summingbird'. A commutative semigroup is a
+     particular type of semigroup "where the associated binary
+     operation is also commutative" :cite:'boykin2014summingbird'.
+     The types of data that Summingbird takes as inputs are streams
+     and snapshots :cite:'boykin2014summingbird'. The types of data
+     Summingbird jobs generate are called stores and sinks
+     :cite:'boykin2014summingbird'. Stores are "an abstract model of a
+     key-value store" while sinks are unaggregated tuples from a
+     producer :cite:'boykin2014summingbird'. Summingbird aims to
+     simplify the process of both batch and online analytics by
+     exploiting "the formal properties of algebraic structures" to
+     integrate the various modes of distributed processing
+     :cite:'boykin2014summingbird'.
+	   
 126. Lumberyard
      
      It is powerful and full-featured enough to develop triple-A,
@@ -3006,14 +3037,14 @@ Inter process communication Collectives
      Amazon SNS is an Inter process communication service which gives
      the user simple, end-to-end push messaging service allowing them
      to send messages, alerts, or notifications. According to
-     :cite:`www-sns`, it can be used to send a directed message
+     :cite:`www-sns-webpage`, it can be used to send a directed message
      intended for an entity or to broadcast messages to list of
      selected entities. It is an easy to use and cost effective
      mechanism to send push messages. Amazon SNS is compatible to send
      push notifications to iOS, Windows, Fire OS and Android OS
      devices.
 
-     According to :cite:`sns-blog` SNS system architecture consists 
+     According to :cite:`www-sns-blog` SNS system architecture consists 
      of four elements: (1) Topics, (2) Owners, (3) Publishers, and
      (4) Subscribers. Topics are events or access points that identifies
      the subject of the event and can be accessed by an unique
@@ -3026,7 +3057,7 @@ Inter process communication Collectives
      subscribers interested in the topic, and delivers the message to
      them.
 
-     According to :cite:`sns-faq`, Amazon SNS follows pay as per
+     According to :cite:`www-sns-faq`, Amazon SNS follows pay as per
      usage. In general it is $0.50 per 1 million Amazon SNS
      Requests.Amazon SNS supports notifications over multiple
      transport protocols such as HTTP/HTTPS, Email/Email-JSON,
@@ -3472,6 +3503,33 @@ SQL(NewSQL)
 
 
 201. SQLite
+
+     SQLite is a severless SQL database engine whose source code
+     resides in the public domain :cite:'sqliteabout'. SQLite
+     databases, including tables, indices, and views, reside on a
+     single file on the disk :cite:'sqliteabout'. It has a compact
+     library, often taking up less than KiB of space, depending on the
+     particular configuration :cite:'sqliteabout'. Performance is the
+     tradeoff with the smaller size, i.e. performance usually runs
+     faster when given more memory :cite:'sqliteabout'. SQLite
+     transactions comply with the ACID (Atomicity, Consistency,
+     Isolation, Durability) :cite:'acid' properties
+     :cite:'sqliteabout'. SQLite does not require administration or
+     configuration :cite:'sqliteover'. There are some limitations
+     associated with SQLite, such as the inability to perform Right
+     Outer Joins, read-only views, and access permissions (other than
+     those that are associated with regular file acces permissions)
+     :cite:'sqliteover' SQLite does not compare directly with
+     clien/server databases such as MySQL as they are both trying to
+     solve different problems :cite:'sqlitewhentouse'. While database
+     engines such as MySQL aim to provide a shared database, with
+     different access permissions to different
+     individuals/applications, SQLite has the goal of being a local
+     repository of data for applications :cite:'sqlitewhentouse' While
+     SQLite is not appropriate for every situation, there certainly
+     exists situations where it can prove to be a prudent choice for
+     data management needs :cite:'sqlitewhentouse'.
+     
 202. MySQL
 
      MySQL is a relational database management system. :cite:`devmysql` SQL
@@ -4464,7 +4522,7 @@ File management
 
 260. RCFile
 
-     RCFile (Record Columnar File) :cite:`www-rcfile` is a big
+     RCFile (Record Columnar File) :cite:`www-rcfile-wiki` is a big
      data placement data structure that supports fast data loading and
      query processing coupled with efficient storage space utilization
      and adaptive to dynamic workload environments. It is designed for
@@ -4543,7 +4601,7 @@ Data Transport
 264. HTTP
 265. FTP
 
-     According to :cite:`ftp-wiki` FTP is an acronym for File Transfer
+     According to :cite:`www-ftp-wiki` FTP is an acronym for File Transfer
      Protocol. It is network protocol standard used for transferring
      files between two computer systems or between a client and a
      server. It is part of the Application layer of the Internet
@@ -7025,6 +7083,30 @@ New Technologies (To Be Integrated by the AIs)
      Apache Hadoop REST APIs to be added to the Knox gateway quickly
      and easily. :cite:'knox' This technology would be best placed
      under the interoperability category.
+
+     Apache Apex
+
+     The Apex platform is designed to process real-time events with
+     streaming data natively in Hadoop. The platform handles
+     application execution, dynamic scaling, state checkpointing and
+     recovery, etc. This allows the users to focus on writing their
+     application logic without mixing operational and functional
+     concerns :cite:`apache-apex`. In the platform, building a
+     streaming application is easy and intuitive.
+
+     An application may consist of one or more operators each of which
+     define some logical operation to be done on the tuples arriving
+     at the operator. These operators are connected together to form
+     streams. A streaming application is represented by a DAG that
+     consists of operators and streams :cite:`apex-operators`. The
+     Apex platform comes with support for web services and
+     metrics. This enables ease of use and easy integration with
+     current data pipeline components. DevOps teams can monitor data
+     in action using existing systems and dashboards with minimal
+     changes, thereby easily integrating with the current setup. With
+     different connectors and the ease of adding more connectors, Apex
+     easily integrates with an existing dataflow :cite:`apex-ease`.
+
 
 .. _techs-exercise:
 

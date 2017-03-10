@@ -54,12 +54,14 @@ For example, we define a cluster with 3 nodes:
      Floating IP is a valuable and limited resource on cloud.
      ``cm cluster define`` will assign floating IP to every node within
      the cluster by default.
-     We recommend to use option ``-I`` or ``--no-floating-ip`` to avoid
-     assigning floating IPs during cluster creation:
+     Cluster creation will fail if the floating IPs run out on cloud.
+     When you run into error like this, use option ``-I`` or
+     ``--no-floating-ip`` to avoid assigning floating IPs during cluster
+     creation:
 
      ::
 
-       $ cm cluster define --count 3 -I
+       $ cm cluster define --count 3 --no-floating-ip
 
      Then manually assign floating IP to one of the nodes. Use this node as
      a logging node or head node to log in to all the other nodes.
@@ -141,8 +143,8 @@ With command ``cm cluster list``, we can see the cluster with the default name
     $ cm cluster list
     cluster-001
 
-Using ``cm cluster node [NAME]``, we can also see the nodes of the cluster along
-with their assigned floating IPs of the cluster:
+Using ``cm cluster nodes [NAME]``, we can also see the nodes of the cluster
+along with their assigned floating IPs of the cluster:
 
   ::
 
@@ -331,15 +333,23 @@ Advanced Topics with Hadoop
 
 Hadoop Virtual Cluster with Spark and/or Pig
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-To install Spark and/or Pig with Hadoop cluster, it's quite simple.
-We just need to use command ``cm hadoop define`` but with ``ADDON``.
+To install Spark and/or Pig with Hadoop cluster, we first use command
+``cm hadoop define`` but with ``ADDON`` to define the cluster specification.
 
-For example, we create a 3-nodes Spark cluster with Pig. To do that, all we
+For example, we create a 3-node Spark cluster with Pig. To do that, all we
 need is to specify ``spark`` as an ``ADDON`` during Hadoop definition:
 
   ::
 
     $ cm hadoop define spark pig
+
+
+Using ``cm hadoop addons``, we are able to check the current supported addon:
+
+  ::
+
+    $ cm hadoop addons
+
 
 With ``cm hadoop avail``, we can see the detail of the specification for the
 Hadoop cluster:
@@ -351,6 +361,7 @@ Hadoop cluster:
       local_path                    : /Users/tony/.cloudmesh/stacks/stack-001
       addons                        : [u'spark', u'pig']
 
+
 Then we use ``cm hadoop sync`` and ``cm hadoop deploy`` to deploy our Spark
 cluster:
 
@@ -360,9 +371,108 @@ cluster:
     $ cm hadoop deploy
 
   .. tip::
-       This process will take even longer than a cluster creation. It could
-       take 15 minutes or longer.
+       This process will take 15 minutes or longer.
 
-  .. tip::
-     For a full list implemented ``ADDON`` with Cloudmesh Client, go to
-     https://github.com/cloudmesh/big-data-stack.
+Word Count Example on Spark
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Now with the cluster ready, let's run a simple Spark job, Word Count, on one of
+William Shakespear's work.
+Use ``cm vm ssh`` to log into the ``Namenode`` of the Spark cluster.
+It should be the first node of the cluster:
+
+  ::
+
+    $ cm vm ssh node-001
+    cc@hostname$
+
+Switch to user ``hadoop`` and check HDFS is set up or not:
+
+  ::
+
+    cc@hostname$ sudo su - hadoop
+    hadoop@hostname$
+
+Download the input file from the Internet:
+
+  ::
+
+    wget --no-check-certificate -O inputfile.txt \
+    https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt
+
+You can also use any other text file you preferred.
+Create a new directory ``wordcount`` within HDFS to store the input and output:
+
+  ::
+
+    $ hdfs dfs -mkdir /wordcount
+
+Store the input text file into the directory:
+
+  ::
+
+    $ hdfs dfs -put inputfile.txt /wordcount/inputfile.txt
+
+Save the following code as ``wordcount.py`` on the local file system on
+Namenode:
+
+  ::
+
+    import sys
+
+    from pyspark import SparkContext, SparkConf
+
+    if __name__ == "__main__":
+
+      # tak two arguments, input and output
+      if len(sys.argv) != 3:
+        print("Usage: wordcount <input> <output>")
+        exit(-1)
+
+      # create Spark context with Spark configuration
+      conf = SparkConf().setAppName("Spark Count")
+      sc = SparkContext(conf=conf)
+
+      # read in text file
+      text_file = sc.textFile(sys.argv[1])
+
+      # split each line into words
+      # count the occurrence of each word
+      # sort the output based on word
+      counts = text_file.flatMap(lambda line: line.split(" ")) \
+               .map(lambda word: (word, 1)) \
+               .reduceByKey(lambda a, b: a + b)
+               .sortByKey()
+
+      # save the result in the output text file
+      counts.saveAsTextFile(sys.argv[2])
+
+Next submit the job to Yarn and run in distribute:
+
+  ::
+
+    $ spark-submit --master yarn --deploy-mode client --executor-memory 1g \
+    --name wordcount --conf "spark.app.id=wordcount" wordcount.py \
+    hdfs://192.168.0.236:8020/wordcount/inputfile.txt \
+    hdfs://192.168.0.236:8020/wordcount/output
+
+Finally, take a look at the result in the output directory:
+
+  ::
+
+    $ hdfs dfs -ls /wordcount/outputfile/
+    Found 3 items
+    -rw-r--r--   1 hadoop hadoop,hadoopadmin          0 2017-03-07 21:28 /wordcount/output/_SUCCESS
+    -rw-r--r--   1 hadoop hadoop,hadoopadmin     483182 2017-03-07 21:28 /wordcount/output/part-00000
+    -rw-r--r--   1 hadoop hadoop,hadoopadmin     639649 2017-03-07 21:28 /wordcount/output/part-00001
+    $ hdfs dfs -cat /wordcount/output/part-00000 | less
+    (u'', 517065)
+    (u'"', 241)
+    (u'"\'Tis', 1)
+    (u'"A', 4)
+    (u'"AS-IS".', 1)
+    (u'"Air,"', 1)
+    (u'"Alas,', 1)
+    (u'"Amen"', 2)
+    (u'"Amen"?', 1)
+    (u'"Amen,"', 1)
+    ...

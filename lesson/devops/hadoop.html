@@ -292,6 +292,7 @@
 </li>
 <li><a class="reference internal" href="#advanced-topics-with-hadoop">Advanced Topics with Hadoop</a><ul>
 <li><a class="reference internal" href="#hadoop-virtual-cluster-with-spark-and-or-pig">Hadoop Virtual Cluster with Spark and/or Pig</a></li>
+<li><a class="reference internal" href="#word-count-example-on-spark">Word Count Example on Spark</a></li>
 </ul>
 </li>
 </ul>
@@ -541,6 +542,7 @@
 </li>
 <li><a class="reference internal" href="#advanced-topics-with-hadoop">Advanced Topics with Hadoop</a><ul>
 <li><a class="reference internal" href="#hadoop-virtual-cluster-with-spark-and-or-pig">Hadoop Virtual Cluster with Spark and/or Pig</a></li>
+<li><a class="reference internal" href="#word-count-example-on-spark">Word Count Example on Spark</a></li>
 </ul>
 </li>
 </ul>
@@ -640,9 +642,11 @@ Options:
 <p>Floating IP is a valuable and limited resource on cloud.
 <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">define</span></code> will assign floating IP to every node within
 the cluster by default.
-We recommend to use option <code class="docutils literal"><span class="pre">-I</span></code> or <code class="docutils literal"><span class="pre">--no-floating-ip</span></code> to avoid
-assigning floating IPs during cluster creation:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster define --count 3 -I
+Cluster creation will fail if the floating IPs run out on cloud.
+When you run into error like this, use option <code class="docutils literal"><span class="pre">-I</span></code> or
+<code class="docutils literal"><span class="pre">--no-floating-ip</span></code> to avoid assigning floating IPs during cluster
+creation:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster define --count 3 --no-floating-ip
 </pre></div>
 </div>
 <p class="last">Then manually assign floating IP to one of the nodes. Use this node as
@@ -725,8 +729,8 @@ cluster-001
 </pre></div>
 </div>
 </div></blockquote>
-<p>Using <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">node</span> <span class="pre">[NAME]</span></code>, we can also see the nodes of the cluster along
-with their assigned floating IPs of the cluster:</p>
+<p>Using <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">nodes</span> <span class="pre">[NAME]</span></code>, we can also see the nodes of the cluster
+along with their assigned floating IPs of the cluster:</p>
 <blockquote>
 <div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster nodes cluster-001
 xl41-001 129.114.33.147
@@ -917,12 +921,18 @@ $ cm cluster undefine cluster-001
 <h2>Advanced Topics with Hadoop<a class="headerlink" href="#advanced-topics-with-hadoop" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="hadoop-virtual-cluster-with-spark-and-or-pig">
 <h3>Hadoop Virtual Cluster with Spark and/or Pig<a class="headerlink" href="#hadoop-virtual-cluster-with-spark-and-or-pig" title="Permalink to this headline">¶</a></h3>
-<p>To install Spark and/or Pig with Hadoop cluster, it&#8217;s quite simple.
-We just need to use command <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">define</span></code> but with <code class="docutils literal"><span class="pre">ADDON</span></code>.</p>
-<p>For example, we create a 3-nodes Spark cluster with Pig. To do that, all we
+<p>To install Spark and/or Pig with Hadoop cluster, we first use command
+<code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">define</span></code> but with <code class="docutils literal"><span class="pre">ADDON</span></code> to define the cluster specification.</p>
+<p>For example, we create a 3-node Spark cluster with Pig. To do that, all we
 need is to specify <code class="docutils literal"><span class="pre">spark</span></code> as an <code class="docutils literal"><span class="pre">ADDON</span></code> during Hadoop definition:</p>
 <blockquote>
 <div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop define spark pig
+</pre></div>
+</div>
+</div></blockquote>
+<p>Using <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">addons</span></code>, we are able to check the current supported addon:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop addons
 </pre></div>
 </div>
 </div></blockquote>
@@ -945,13 +955,112 @@ $ cm hadoop deploy
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
-<p class="last">This process will take even longer than a cluster creation. It could
-take 15 minutes or longer.</p>
+<p class="last">This process will take 15 minutes or longer.</p>
 </div>
-<div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<p class="last">For a full list implemented <code class="docutils literal"><span class="pre">ADDON</span></code> with Cloudmesh Client, go to
-<a class="reference external" href="https://github.com/cloudmesh/big-data-stack">https://github.com/cloudmesh/big-data-stack</a>.</p>
+</div></blockquote>
+</div>
+<div class="section" id="word-count-example-on-spark">
+<h3>Word Count Example on Spark<a class="headerlink" href="#word-count-example-on-spark" title="Permalink to this headline">¶</a></h3>
+<p>Now with the cluster ready, let&#8217;s run a simple Spark job, Word Count, on one of
+William Shakespear&#8217;s work.
+Use <code class="docutils literal"><span class="pre">cm</span> <span class="pre">vm</span> <span class="pre">ssh</span></code> to log into the <code class="docutils literal"><span class="pre">Namenode</span></code> of the Spark cluster.
+It should be the first node of the cluster:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ssh node-001
+cc@hostname$
+</pre></div>
+</div>
+</div></blockquote>
+<p>Switch to user <code class="docutils literal"><span class="pre">hadoop</span></code> and check HDFS is set up or not:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>cc@hostname$ sudo su - hadoop
+hadoop@hostname$
+</pre></div>
+</div>
+</div></blockquote>
+<p>Download the input file from the Internet:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">wget</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">check</span><span class="o">-</span><span class="n">certificate</span> <span class="o">-</span><span class="n">O</span> <span class="n">inputfile</span><span class="o">.</span><span class="n">txt</span> \
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">ocw</span><span class="o">.</span><span class="n">mit</span><span class="o">.</span><span class="n">edu</span><span class="o">/</span><span class="n">ans7870</span><span class="o">/</span><span class="mi">6</span><span class="o">/</span><span class="mf">6.006</span><span class="o">/</span><span class="n">s08</span><span class="o">/</span><span class="n">lecturenotes</span><span class="o">/</span><span class="n">files</span><span class="o">/</span><span class="n">t8</span><span class="o">.</span><span class="n">shakespeare</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>You can also use any other text file you preferred.
+Create a new directory <code class="docutils literal"><span class="pre">wordcount</span></code> within HDFS to store the input and output:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ hdfs dfs -mkdir /wordcount
+</pre></div>
+</div>
+</div></blockquote>
+<p>Store the input text file into the directory:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ hdfs dfs -put inputfile.txt /wordcount/inputfile.txt
+</pre></div>
+</div>
+</div></blockquote>
+<p>Save the following code as <code class="docutils literal"><span class="pre">wordcount.py</span></code> on the local file system on
+Namenode:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="kn">from</span> <span class="nn">pyspark</span> <span class="k">import</span> <span class="n">SparkContext</span><span class="p">,</span> <span class="n">SparkConf</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+
+  <span class="c1"># tak two arguments, input and output</span>
+  <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Usage: wordcount &lt;input&gt; &lt;output&gt;&quot;</span><span class="p">)</span>
+    <span class="n">exit</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+
+  <span class="c1"># create Spark context with Spark configuration</span>
+  <span class="n">conf</span> <span class="o">=</span> <span class="n">SparkConf</span><span class="p">()</span><span class="o">.</span><span class="n">setAppName</span><span class="p">(</span><span class="s2">&quot;Spark Count&quot;</span><span class="p">)</span>
+  <span class="n">sc</span> <span class="o">=</span> <span class="n">SparkContext</span><span class="p">(</span><span class="n">conf</span><span class="o">=</span><span class="n">conf</span><span class="p">)</span>
+
+  <span class="c1"># read in text file</span>
+  <span class="n">text_file</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">textFile</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+  <span class="c1"># split each line into words</span>
+  <span class="c1"># count the occurrence of each word</span>
+  <span class="c1"># sort the output based on word</span>
+  <span class="n">counts</span> <span class="o">=</span> <span class="n">text_file</span><span class="o">.</span><span class="n">flatMap</span><span class="p">(</span><span class="k">lambda</span> <span class="n">line</span><span class="p">:</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">))</span> \
+           <span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">word</span><span class="p">:</span> <span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span> \
+           <span class="o">.</span><span class="n">reduceByKey</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
+           <span class="o">.</span><span class="n">sortByKey</span><span class="p">()</span>
+
+  <span class="c1"># save the result in the output text file</span>
+  <span class="n">counts</span><span class="o">.</span><span class="n">saveAsTextFile</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>Next submit the job to Yarn and run in distribute:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ spark-submit --master yarn --deploy-mode client --executor-memory 1g \
+--name wordcount --conf &quot;spark.app.id=wordcount&quot; wordcount.py \
+hdfs://192.168.0.236:8020/wordcount/inputfile.txt \
+hdfs://192.168.0.236:8020/wordcount/output
+</pre></div>
+</div>
+</div></blockquote>
+<p>Finally, take a look at the result in the output directory:</p>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>$ hdfs dfs -ls /wordcount/outputfile/
+Found 3 items
+-rw-r--r--   1 hadoop hadoop,hadoopadmin          0 2017-03-07 21:28 /wordcount/output/_SUCCESS
+-rw-r--r--   1 hadoop hadoop,hadoopadmin     483182 2017-03-07 21:28 /wordcount/output/part-00000
+-rw-r--r--   1 hadoop hadoop,hadoopadmin     639649 2017-03-07 21:28 /wordcount/output/part-00001
+$ hdfs dfs -cat /wordcount/output/part-00000 | less
+(u&#39;&#39;, 517065)
+(u&#39;&quot;&#39;, 241)
+(u&#39;&quot;\&#39;Tis&#39;, 1)
+(u&#39;&quot;A&#39;, 4)
+(u&#39;&quot;AS-IS&quot;.&#39;, 1)
+(u&#39;&quot;Air,&quot;&#39;, 1)
+(u&#39;&quot;Alas,&#39;, 1)
+(u&#39;&quot;Amen&quot;&#39;, 2)
+(u&#39;&quot;Amen&quot;?&#39;, 1)
+(u&#39;&quot;Amen,&quot;&#39;, 1)
+...
+</pre></div>
 </div>
 </div></blockquote>
 </div>

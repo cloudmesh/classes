@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Python for Big Data &#8212; Big Data Classes</title>
+    <title>Word Count 1: Parallel Python &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -32,8 +32,8 @@
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="cmd Module" href="python_cmd.html" />
-    <link rel="prev" title="pyenv" href="pyenv.html" />
+    <link rel="next" title="Data" href="../data/index.html" />
+    <link rel="prev" title="REST with Eve" href="rest.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -278,34 +278,15 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Python for Big Data</a><ul>
-<li><a class="reference internal" href="#an-example-with-pandas-numpy-and-matplotlib">An Example with Pandas, NumPy and Matplotlib</a><ul>
-<li><a class="reference internal" href="#set-up-directories-and-get-test-data">Set Up Directories and Get Test Data</a></li>
-<li><a class="reference internal" href="#load-data-in-pandas">Load Data in Pandas</a></li>
-<li><a class="reference internal" href="#working-with-dataframes">Working with DataFrames</a></li>
-<li><a class="reference internal" href="#plotting-with-matplotlib-and-numpy">Plotting with Matplotlib and NumPy</a></li>
-<li><a class="reference internal" href="#more-dataframe-manipulation-and-plotting">More <em>DataFrame</em> Manipulation and Plotting</a></li>
-<li><a class="reference internal" href="#saving-plots-to-pdf">Saving Plots to PDF</a></li>
-<li><a class="reference internal" href="#next-steps-and-exercises">Next Steps and Exercises</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#summary-of-useful-libraries">Summary of Useful Libraries</a><ul>
-<li><a class="reference internal" href="#id3">Numpy</a></li>
-<li><a class="reference internal" href="#id4">MatplotLib</a></li>
-<li><a class="reference internal" href="#id5">Pandas</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#other-useful-libraries">Other Useful Libraries</a><ul>
-<li><a class="reference internal" href="#scipy">Scipy</a></li>
-<li><a class="reference internal" href="#ggplot">ggplot</a></li>
-<li><a class="reference internal" href="#seaborn">seaborn</a></li>
-<li><a class="reference internal" href="#bokeh">Bokeh</a></li>
-<li><a class="reference internal" href="#pygal">pygal</a></li>
-<li><a class="reference internal" href="#network-and-graphs">Network and Graphs</a></li>
-<li><a class="reference internal" href="#rest">REST</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#other-examples">Other Examples</a></li>
+<li><a class="reference internal" href="#">Word Count 1: Parallel Python</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#generating-a-document-collection">Generating a Document Collection</a></li>
+<li><a class="reference internal" href="#serial-implementation">Serial Implementation</a></li>
+<li><a class="reference internal" href="#serial-implementation-using-map-and-reduce">Serial Implementation Using <code class="docutils literal"><span class="pre">map</span></code> and <code class="docutils literal"><span class="pre">reduce</span></code></a></li>
+<li><a class="reference internal" href="#parallel-implementation">Parallel Implementation</a></li>
+<li><a class="reference internal" href="#questions">Questions</a></li>
+<li><a class="reference internal" href="#next-steps">Next Steps</a></li>
+<li><a class="reference internal" href="#useful-links">Useful Links</a></li>
 </ul>
 </li>
 </ul>
@@ -539,34 +520,15 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Python for Big Data</a><ul>
-<li><a class="reference internal" href="#an-example-with-pandas-numpy-and-matplotlib">An Example with Pandas, NumPy and Matplotlib</a><ul>
-<li><a class="reference internal" href="#set-up-directories-and-get-test-data">Set Up Directories and Get Test Data</a></li>
-<li><a class="reference internal" href="#load-data-in-pandas">Load Data in Pandas</a></li>
-<li><a class="reference internal" href="#working-with-dataframes">Working with DataFrames</a></li>
-<li><a class="reference internal" href="#plotting-with-matplotlib-and-numpy">Plotting with Matplotlib and NumPy</a></li>
-<li><a class="reference internal" href="#more-dataframe-manipulation-and-plotting">More <em>DataFrame</em> Manipulation and Plotting</a></li>
-<li><a class="reference internal" href="#saving-plots-to-pdf">Saving Plots to PDF</a></li>
-<li><a class="reference internal" href="#next-steps-and-exercises">Next Steps and Exercises</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#summary-of-useful-libraries">Summary of Useful Libraries</a><ul>
-<li><a class="reference internal" href="#id3">Numpy</a></li>
-<li><a class="reference internal" href="#id4">MatplotLib</a></li>
-<li><a class="reference internal" href="#id5">Pandas</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#other-useful-libraries">Other Useful Libraries</a><ul>
-<li><a class="reference internal" href="#scipy">Scipy</a></li>
-<li><a class="reference internal" href="#ggplot">ggplot</a></li>
-<li><a class="reference internal" href="#seaborn">seaborn</a></li>
-<li><a class="reference internal" href="#bokeh">Bokeh</a></li>
-<li><a class="reference internal" href="#pygal">pygal</a></li>
-<li><a class="reference internal" href="#network-and-graphs">Network and Graphs</a></li>
-<li><a class="reference internal" href="#rest">REST</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#other-examples">Other Examples</a></li>
+<li><a class="reference internal" href="#">Word Count 1: Parallel Python</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#generating-a-document-collection">Generating a Document Collection</a></li>
+<li><a class="reference internal" href="#serial-implementation">Serial Implementation</a></li>
+<li><a class="reference internal" href="#serial-implementation-using-map-and-reduce">Serial Implementation Using <code class="docutils literal"><span class="pre">map</span></code> and <code class="docutils literal"><span class="pre">reduce</span></code></a></li>
+<li><a class="reference internal" href="#parallel-implementation">Parallel Implementation</a></li>
+<li><a class="reference internal" href="#questions">Questions</a></li>
+<li><a class="reference internal" href="#next-steps">Next Steps</a></li>
+<li><a class="reference internal" href="#useful-links">Useful Links</a></li>
 </ul>
 </li>
 </ul>
@@ -608,362 +570,275 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="python-for-big-data">
-<h1>Python for Big Data<a class="headerlink" href="#python-for-big-data" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="an-example-with-pandas-numpy-and-matplotlib">
-<h2>An Example with Pandas, NumPy and Matplotlib<a class="headerlink" href="#an-example-with-pandas-numpy-and-matplotlib" title="Permalink to this headline">¶</a></h2>
-<p>In this example, we will download some traffic citation data for the
-city of Bloomington, IN, load it into Python and generate a
-histogram. In doing so, you will be exposed to important Python
-libraries for working with big data such as <a class="reference external" href="www.numpy.org">numpy</a>,
-<a class="reference external" href="pandas.pydata.org">pandas</a> and <a class="reference external" href="matplotlib.org">matplotlib</a>.</p>
-<div class="section" id="set-up-directories-and-get-test-data">
-<h3>Set Up Directories and Get Test Data<a class="headerlink" href="#set-up-directories-and-get-test-data" title="Permalink to this headline">¶</a></h3>
-<p>Data.gov is a government portal for open data and the <a class="reference external" href="https://catalog.data.gov/dataset?organization_type=City+Government&amp;organization=city-of-bloomington&amp;_organization_limit=0">city of
-Bloomington, Indiana makes available a number of datasets there</a>.</p>
-<p>We will use traffic citations data for 2016.</p>
-<p>To start, let&#8217;s create a separate directory for this project and
-download the CSV data:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ cd ~/projects/i524
-$ mkdir btown-citations
-$ cd btown-citations
-$ wget https://data.bloomington.in.gov/dataset/c543f0c1-1e37-46ce-a0ba-e0a949bd248a/resource/24841976-fd35-4483-a2b4-573bd1e77cfb/download/2016-first-quarter-citations.csv
+  <div class="section" id="word-count-1-parallel-python">
+<h1>Word Count 1: Parallel Python<a class="headerlink" href="#word-count-1-parallel-python" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>In this lesson we will demonstrate Python&#8217;s <code class="docutils literal"><span class="pre">multiprocessing</span></code> API
+for parallel computation by writing a program that counts how many
+times each word in a collection of documents appear.</p>
+</div>
+<div class="section" id="generating-a-document-collection">
+<h2>Generating a Document Collection<a class="headerlink" href="#generating-a-document-collection" title="Permalink to this headline">¶</a></h2>
+<p>Before we begin, let&#8217;s write a script that will let us generate
+document collections by specifying the number of documents and the
+number of words per document. This will make benchmarking later
+straightforward.</p>
+<p>To keep it simple, the vocabulary of the document collection will
+consist of random numbers rather than the words of an actual language:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="sd">&#39;&#39;&#39;Usage: generate_nums.py [-h] NUM_LISTS INTS_PER_LIST MIN_INT MAX_INT DEST_DIR</span>
+
+<span class="sd">Generate random lists of integers and save them as 1.txt, 2.txt, etc.</span>
+
+<span class="sd">Arguments:</span>
+<span class="sd">   NUM_LISTS     The number of lists to create.</span>
+<span class="sd">   INTS_PER_LIST The number of integers in each list.</span>
+<span class="sd">   MIN_NUM       Each generated integer will be &gt;= MIN_NUM.</span>
+<span class="sd">   MAX_NUM       Each generated integer will be &lt;= MAX_NUM.</span>
+<span class="sd">   DEST_DIR      A directory where the generated numbers will be stored.</span>
+
+<span class="sd">Options:</span>
+<span class="sd">  -h --help</span>
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span>
+<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">random</span><span class="o">,</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">docopt</span> <span class="k">import</span> <span class="n">docopt</span>
+
+
+<span class="k">def</span> <span class="nf">generate_random_lists</span><span class="p">(</span><span class="n">num_lists</span><span class="p">,</span> <span class="n">ints_per_list</span><span class="p">,</span> <span class="n">min_int</span><span class="p">,</span> <span class="n">max_int</span><span class="p">):</span>
+   <span class="k">return</span> <span class="p">[[</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">min_int</span><span class="p">,</span> <span class="n">max_int</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ints_per_list</span><span class="p">)]</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_lists</span><span class="p">)]</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+   <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="vm">__doc__</span><span class="p">)</span>
+   <span class="n">num_lists</span><span class="p">,</span> <span class="n">ints_per_list</span><span class="p">,</span> <span class="n">min_int</span><span class="p">,</span> <span class="n">max_int</span><span class="p">,</span> <span class="n">dest_dir</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;NUM_LISTS&#39;</span><span class="p">]),</span>
+      <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;INTS_PER_LIST&#39;</span><span class="p">]),</span>
+      <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;MIN_INT&#39;</span><span class="p">]),</span>
+      <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;MAX_INT&#39;</span><span class="p">]),</span>
+      <span class="n">args</span><span class="p">[</span><span class="s1">&#39;DEST_DIR&#39;</span><span class="p">]</span>
+   <span class="p">]</span>
+
+   <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">dest_dir</span><span class="p">):</span>
+      <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">dest_dir</span><span class="p">)</span>
+
+   <span class="n">lists</span> <span class="o">=</span> <span class="n">generate_random_lists</span><span class="p">(</span><span class="n">num_lists</span><span class="p">,</span> <span class="n">ints_per_list</span><span class="p">,</span> <span class="n">min_int</span><span class="p">,</span> <span class="n">max_int</span><span class="p">)</span>
+   <span class="n">curr_list</span> <span class="o">=</span> <span class="mi">1</span>
+   <span class="k">for</span> <span class="n">lst</span> <span class="ow">in</span> <span class="n">lists</span><span class="p">:</span>
+      <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dest_dir</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%d</span><span class="s1">.txt&#39;</span> <span class="o">%</span> <span class="n">curr_list</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+         <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">linesep</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">lst</span><span class="p">)))</span>
+      <span class="n">curr_list</span> <span class="o">+=</span> <span class="mi">1</span>
+   <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Numbers written.&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Depending on your directory organization, the above might be slightly
-different for you.</p>
-<p>If you go to the link to data.gov for Bloomington above, you will see
-that the citations data is organized per quarter, so there are a total
-of four files. Above, we downloaded the data for the first quarter. Go
-ahead and download the remaining three files with <code class="docutils literal"><span class="pre">wget</span></code>.</p>
-<p>In this example, we will use three modules, <code class="docutils literal"><span class="pre">numpy</span></code>, <code class="docutils literal"><span class="pre">pandas</span></code> and
-<code class="docutils literal"><span class="pre">matplotlib</span></code>. If you set up <code class="docutils literal"><span class="pre">virtualenv</span></code> as described in the
-<a class="reference internal" href="python_intro.html"><span class="doc">Python tutorial</span></a>, the first two of these are
-already installed for you. To install <code class="docutils literal"><span class="pre">matplotlib</span></code>, make sure you&#8217;ve
-activated your <code class="docutils literal"><span class="pre">virtualenv</span></code> and use <code class="docutils literal"><span class="pre">pip</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ source ~/ENV/bin/activate
-$ pip install matplotlib
+<p>Notice that we are using the <a class="reference external" href="https://pypi.python.org/pypi/docopt">docopt</a> module that you should be
+familiar with from the <a class="reference internal" href="python_intro.html"><span class="doc">Intro to Python</span></a> tutorial
+to make the script easy to run from the command line.</p>
+<p>You can generate a document collection with this script as follows:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">generate_nums</span><span class="o">.</span><span class="n">py</span> <span class="mi">1000</span> <span class="mi">10000</span> <span class="mi">0</span> <span class="mi">100</span> <span class="n">docs</span><span class="o">-</span><span class="mi">1000</span><span class="o">-</span><span class="mi">10000</span>
 </pre></div>
 </div>
-<p>If you are using a different distribution of Python, you will need to
-make sure that all three of these modules are installed.</p>
 </div>
-<div class="section" id="load-data-in-pandas">
-<h3>Load Data in Pandas<a class="headerlink" href="#load-data-in-pandas" title="Permalink to this headline">¶</a></h3>
-<p>From the same directory where you saved the citations data, let&#8217;s
-start the Python interpreter and load the citations data for Q1 2016</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span>$ python
-&gt;&gt;&gt; from __future__ import division, print_function
-&gt;&gt;&gt; import numpy as np
-&gt;&gt;&gt; import pandas as pd
-&gt;&gt;&gt; import matplotlib.pyplot as plt
-&gt;&gt;&gt; data = pd.read_csv(&#39;2016-first-quarter-citations.csv&#39;)
+<div class="section" id="serial-implementation">
+<h2>Serial Implementation<a class="headerlink" href="#serial-implementation" title="Permalink to this headline">¶</a></h2>
+<p>A first serial implementation of wordcount is straightforward:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="sd">&#39;&#39;&#39;Usage: wordcount.py [-h] DATA_DIR</span>
+
+<span class="sd">Read a collection of .txt documents and count how many times each word</span>
+<span class="sd">appears in the collection.</span>
+
+<span class="sd">Arguments:</span>
+<span class="sd">  DATA_DIR  A directory with documents (.txt files).</span>
+
+<span class="sd">Options:</span>
+<span class="sd">  -h --help</span>
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span><span class="p">,</span> <span class="n">print_function</span>
+<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">glob</span><span class="o">,</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">docopt</span> <span class="k">import</span> <span class="n">docopt</span>
+
+<span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">wordcount</span><span class="p">(</span><span class="n">files</span><span class="p">):</span>
+   <span class="n">counts</span> <span class="o">=</span> <span class="p">{}</span>
+   <span class="k">for</span> <span class="n">filepath</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+      <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+         <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">word</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
+         <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">word</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">counts</span><span class="p">:</span>
+               <span class="n">counts</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">counts</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+   <span class="k">return</span> <span class="n">counts</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+   <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="vm">__doc__</span><span class="p">)</span>
+   <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;DATA_DIR&#39;</span><span class="p">]):</span>
+      <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Invalid data directory: </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">args</span><span class="p">[</span><span class="s1">&#39;DATA_DIR&#39;</span><span class="p">])</span>
+
+   <span class="n">counts</span> <span class="o">=</span> <span class="n">wordcount</span><span class="p">(</span><span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;DATA_DIR&#39;</span><span class="p">],</span> <span class="s1">&#39;*.txt&#39;</span><span class="p">)))</span>
+   <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>If the first <code class="docutils literal"><span class="pre">import</span></code> statement seems confusing, take a look at the
-<a class="reference internal" href="python_intro.html"><span class="doc">Python tutorial</span></a>. The next three <code class="docutils literal"><span class="pre">import</span></code>
-statements load each of the modules we will use in this example. The
-final line uses Pandas&#8217; <code class="docutils literal"><span class="pre">read_csv</span></code> function to load the data into a
-Pandas <code class="docutils literal"><span class="pre">DataFrame</span></code> data structure.</p>
 </div>
-<div class="section" id="working-with-dataframes">
-<h3>Working with DataFrames<a class="headerlink" href="#working-with-dataframes" title="Permalink to this headline">¶</a></h3>
-<p>You can verify that you are working with a <code class="docutils literal"><span class="pre">DataFrame</span></code> and use some
-of its methods to take a look at the structure of the data as follows:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<span class="go">&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">index</span>
-<span class="go">Int64Index([  0,   1,   2,   3,   4,   5,   6,   7,   8,   9,</span>
+<div class="section" id="serial-implementation-using-map-and-reduce">
+<h2>Serial Implementation Using <code class="docutils literal"><span class="pre">map</span></code> and <code class="docutils literal"><span class="pre">reduce</span></code><a class="headerlink" href="#serial-implementation-using-map-and-reduce" title="Permalink to this headline">¶</a></h2>
+<p>We can improve the serial plementation in anticipation of
+parallelizing the program by making use of Python&#8217;s <code class="docutils literal"><span class="pre">map</span></code> and
+<code class="docutils literal"><span class="pre">reduce</span></code> functions.</p>
+<p>In short, you can use <code class="docutils literal"><span class="pre">map</span></code> to apply the same function to the
+members of a collection. For example, to convert a list of numbers to
+strings, you could do:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">random</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nums</span>
+<span class="go">[2, 1, 1, 1, 2, 2, 2, 2, 2, 2]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+<span class="go">[&#39;2&#39;, &#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;2&#39;, &#39;2&#39;, &#39;2&#39;, &#39;2&#39;, &#39;2&#39;, &#39;2&#39;]</span>
+</pre></div>
+</div>
+<p>We can use <cite>reduce</cite> to apply the same function cumulatively to the
+items of a sequence. For example, to find the total of the numbers in
+our list, we could use <code class="docutils literal"><span class="pre">reduce</span></code> as follows:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span> <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
 <span class="gp">...</span>
-<span class="go">197, 198, 199, 200, 201, 202, 203, 204, 205, 206],</span>
-<span class="go">dtype=&#39;int64&#39;, length=200)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">columns</span>
-<span class="go">Index([u&#39;Citation Number&#39;, u&#39;Date Issued&#39;, u&#39;Time Issued&#39;, u&#39;Location &#39;,</span>
-<span class="go">u&#39;District&#39;, u&#39;Cited Person Age&#39;, u&#39;Cited Person Sex&#39;,</span>
-<span class="go">u&#39;Cited Person Race&#39;, u&#39;Offense Code&#39;, u&#39;Offense Description&#39;,</span>
-<span class="go">u&#39;Officer Age&#39;, u&#39;Officer Sex&#39;, u&#39;Officer Race&#39;],</span>
-<span class="go">dtype=&#39;object&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">dtypes</span>
-<span class="go">Citation Number                object</span>
-<span class="go">Date Issued                    object</span>
-<span class="go">Time Issued                    object</span>
-<span class="go">Location                       object</span>
-<span class="go">District                       object</span>
-<span class="go">Cited Person Age              float64</span>
-<span class="go">Cited Person Sex               object</span>
-<span class="go">Cited Person Race              object</span>
-<span class="go">Offense Code                   object</span>
-<span class="go">Offense Description            object</span>
-<span class="go">Officer Age                   float64</span>
-<span class="go">Officer Sex                    object</span>
-<span class="go">Officer Race                   object</span>
-<span class="go">dtype: object</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
-<span class="go">(200, 15)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">reduce</span><span class="p">(</span><span class="n">add</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+<span class="go">17</span>
 </pre></div>
 </div>
-<p>As you can see from the <code class="docutils literal"><span class="pre">columns</span></code> field, when the CSV file was read,
-the header line was used to populate the name of the columns in the
-<code class="docutils literal"><span class="pre">DataFrame</span></code>. In addition, you will notice that <code class="docutils literal"><span class="pre">read_csv</span></code>
-correctly inferred the data type of some columns like <em>Age</em>, but not
-of others like <em>Date Issued</em> and <em>Time Issued</em>. <code class="docutils literal"><span class="pre">read_csv</span></code> is a very
-customizable function and in general, you can correct issues like this
-using the <code class="docutils literal"><span class="pre">dtype</span></code> and <code class="docutils literal"><span class="pre">converters</span></code> parameters. In this specific
-case, it makes more sense to combine the <em>Date Issued</em> and <em>Time
-Issued</em> columns into a new column containing a time stamp. We will see
-how to do this shortly.</p>
-<p>You can also look at the data itself with the <code class="docutils literal"><span class="pre">DataFrame</span></code>&#8216;s
-<code class="docutils literal"><span class="pre">head()</span></code> and <code class="docutils literal"><span class="pre">tail()</span></code> methods:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-<span class="go">&lt;Output omitted for brevity&gt;</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
-<span class="go">&lt;Output omitted for brevity&gt;</span>
+<p>We can simplify this even more by using a <cite>lambda</cite> function:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+<span class="go">17</span>
 </pre></div>
 </div>
-<p>In addition to letting you examine your data easily, <a href="#id1"><span class="problematic" id="id2">``</span></a>DataFrame``s
-have methods that help you deal with missing values:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">how</span><span class="o">=</span><span class="s1">&#39;any&#39;</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
-</pre></div>
-</div>
-<p>Adding columns to the data is also easy. Here, we add two
-columns. First, a <a class="reference external" href="https://docs.python.org/2/library/datetime.html">datetime</a> column that is a
-combination of the <code class="docutils literal"><span class="pre">Date</span> <span class="pre">Issued</span></code> and <code class="docutils literal"><span class="pre">Time</span> <span class="pre">Issued</span></code> columns
-originally in the data. Second, a column identifying what day of the
-week each citation was given. To understand this example better, take
-a look at the Python docs for the <code class="docutils literal"><span class="pre">strptime</span></code> and <code class="docutils literal"><span class="pre">strftime</span></code>
-functions in the <code class="docutils literal"><span class="pre">datetime</span></code> module linked above.</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;DateTime Issued&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span>
-<span class="gp">... </span> <span class="k">lambda</span> <span class="n">row</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Date Issued&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;:&#39;</span> <span class="o">+</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;Time Issued&#39;</span><span class="p">],</span> <span class="s1">&#39;%m/</span><span class="si">%d</span><span class="s1">/%y:%I:%M %p&#39;</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span>
-<span class="gp">... </span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="o">.</span><span class="n">columns</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Day of Week Issued&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span>
-<span class="gp">... </span> <span class="k">lambda</span> <span class="n">row</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;DateTime Issued&#39;</span><span class="p">],</span> <span class="s1">&#39;%A&#39;</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span>
-<span class="gp">... </span><span class="p">)</span>
+<p>You can read more about <a class="reference external" href="https://docs.python.org/2.7/tutorial/controlflow.html#lambda-expressions">Python&#8217;s lambda function in the docs</a>.</p>
+<p>With this in mind, we can reimplement the wordcount example as follows:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="sd">&#39;&#39;&#39;Usage: wordcount_mapreduce.py [-h] DATA_DIR</span>
+
+<span class="sd">Read a collection of .txt documents and count how many times each word</span>
+<span class="sd">appears in the collection.</span>
+
+<span class="sd">Arguments:</span>
+<span class="sd">   DATA_DIR  A directory with documents (.txt files).</span>
+
+<span class="sd">Options:</span>
+<span class="sd">   -h --help</span>
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span><span class="p">,</span> <span class="n">print_function</span>
+<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">glob</span><span class="o">,</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">docopt</span> <span class="k">import</span> <span class="n">docopt</span>
+
+<span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">count_words</span><span class="p">(</span><span class="n">filepath</span><span class="p">):</span>
+   <span class="n">counts</span> <span class="o">=</span> <span class="p">{}</span>
+   <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+      <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">word</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()]</span>
+
+      <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
+         <span class="k">if</span> <span class="n">word</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">counts</span><span class="p">:</span>
+            <span class="n">counts</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+         <span class="n">counts</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+      <span class="k">return</span> <span class="n">counts</span>
+
+
+<span class="k">def</span> <span class="nf">merge_counts</span><span class="p">(</span><span class="n">counts1</span><span class="p">,</span> <span class="n">counts2</span><span class="p">):</span>
+   <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">count</span> <span class="ow">in</span> <span class="n">counts2</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+      <span class="k">if</span> <span class="n">word</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">counts1</span><span class="p">:</span>
+         <span class="n">counts1</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+      <span class="n">counts1</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">+=</span> <span class="n">counts2</span><span class="p">[</span><span class="n">word</span><span class="p">]</span>
+   <span class="k">return</span> <span class="n">counts1</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+   <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="vm">__doc__</span><span class="p">)</span>
+   <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;DATA_DIR&#39;</span><span class="p">]):</span>
+      <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Invalid data directory: </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">args</span><span class="p">[</span><span class="s1">&#39;DATA_DIR&#39;</span><span class="p">])</span>
+
+   <span class="n">per_doc_counts</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">count_words</span><span class="p">,</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;DATA_DIR&#39;</span><span class="p">],</span> <span class="s1">&#39;*.txt&#39;</span><span class="p">)))</span>
+   <span class="n">counts</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="n">merge_counts</span><span class="p">,</span> <span class="p">[{}]</span> <span class="o">+</span> <span class="n">per_doc_counts</span><span class="p">)</span>
+   <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="plotting-with-matplotlib-and-numpy">
-<h3>Plotting with Matplotlib and NumPy<a class="headerlink" href="#plotting-with-matplotlib-and-numpy" title="Permalink to this headline">¶</a></h3>
-<p>Let&#8217;s say we want to see how many citations were given each day of the
-week. We gather the data first:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">days</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Monday&#39;</span><span class="p">,</span> <span class="s1">&#39;Tuesday&#39;</span><span class="p">,</span> <span class="s1">&#39;Wednesday&#39;</span><span class="p">,</span> <span class="s1">&#39;Thursday&#39;</span><span class="p">,</span> <span class="s1">&#39;Friday&#39;</span><span class="p">,</span> <span class="s1">&#39;Saturday&#39;</span><span class="p">,</span> <span class="s1">&#39;Sunday&#39;</span><span class="p">]</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">dow_data</span> <span class="o">=</span> <span class="p">[</span><span class="n">days</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">dow</span><span class="p">)</span> <span class="k">for</span> <span class="n">dow</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Day of Week Issued&#39;</span><span class="p">]]</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">dow_data</span>
-<span class="go">&lt;Output omitted for brevity&gt;</span>
-</pre></div>
-</div>
-<p>Then we use <code class="docutils literal"><span class="pre">matplotlib</span></code> to plot it:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">dow_data</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">days</span><span class="p">))</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">days</span><span class="p">)),</span> <span class="n">days</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-<p>You should see something like this on your screen:</p>
-<a class="reference internal image-reference" href="../../_images/dow.png"><img alt="../../_images/dow.png" src="../../_images/dow.png" style="width: 400px;" /></a>
-</div>
-<div class="section" id="more-dataframe-manipulation-and-plotting">
-<h3>More <em>DataFrame</em> Manipulation and Plotting<a class="headerlink" href="#more-dataframe-manipulation-and-plotting" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal"><span class="pre">DataFrame``s</span> <span class="pre">and</span> <span class="pre">``numpy</span></code> give us other ways to manipulate
-data. For example, we can plot a histogram of the ages of violators
-like this:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ages</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Cited Person Age&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">ages</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">ages</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">ages</span><span class="p">))</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../../_images/ages.png"><img alt="../../_images/ages.png" src="../../_images/ages.png" style="width: 400px;" /></a>
-<p>Surprisingly, we see some 116 year-old violators! This is probably an
-error in the data, so we can remove these data points easily and plot
-the histogram again:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">ages</span> <span class="o">=</span> <span class="n">ages</span><span class="p">[</span><span class="n">ages</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">]</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">ages</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">ages</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">ages</span><span class="p">))</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../../_images/ages-filtered.png"><img alt="../../_images/ages-filtered.png" src="../../_images/ages-filtered.png" style="width: 400px;" /></a>
-</div>
-<div class="section" id="saving-plots-to-pdf">
-<h3>Saving Plots to PDF<a class="headerlink" href="#saving-plots-to-pdf" title="Permalink to this headline">¶</a></h3>
-<p>Oftentimes, you will want to save your <code class="docutils literal"><span class="pre">matplotlib</span></code> graph as a PDF
-or an SVG file instead of just viewing it on your screen. For both, we need to create a <code class="docutils literal"><span class="pre">figure</span></code> and plot the histogram as before:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">ages</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">ages</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">ages</span><span class="p">))</span>
-</pre></div>
-</div>
-<p>Then, instead of calling <code class="docutils literal"><span class="pre">plt.show()</span></code> we can invoke
-<code class="docutils literal"><span class="pre">plt.savefig()</span></code> to save as SVG:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;hist.svg&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>If we want to save the figure as PDF instead, we need to use the
-<code class="docutils literal"><span class="pre">PdfPages</span></code> module together with <code class="docutils literal"><span class="pre">savefig()</span></code>:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib.patches</span> <span class="k">as</span> <span class="nn">mpatches</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">matplotlib.backends.backend_pdf</span> <span class="k">import</span> <span class="n">PdfPages</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">pp</span> <span class="o">=</span> <span class="n">PdfPages</span><span class="p">(</span><span class="s1">&#39;hist.pdf&#39;</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">pp</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;pdf&#39;</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">pp</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<div class="section" id="parallel-implementation">
+<h2>Parallel Implementation<a class="headerlink" href="#parallel-implementation" title="Permalink to this headline">¶</a></h2>
+<p>Drawing on the previous implementation using <code class="docutils literal"><span class="pre">map</span></code> and <code class="docutils literal"><span class="pre">reduce</span></code>,
+we can parallelize the implementation using Python&#8217;s
+<code class="docutils literal"><span class="pre">multiprocessing</span></code> API:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="sd">&#39;&#39;&#39;Usage: wordcount_mapreduce_parallel.py [-h] DATA_DIR NUM_PROCESSES</span>
+
+<span class="sd">Read a collection of .txt documents and count, in parallel, how many</span>
+<span class="sd">times each word appears in the collection.</span>
+
+<span class="sd">Arguments:</span>
+<span class="sd">   DATA_DIR       A directory with documents (.txt files).</span>
+<span class="sd">   NUM_PROCESSES  The number of parallel processes to use.</span>
+
+<span class="sd">Options:</span>
+<span class="sd">   -h --help</span>
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span><span class="p">,</span> <span class="n">print_function</span>
+<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">glob</span><span class="o">,</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">docopt</span> <span class="k">import</span> <span class="n">docopt</span>
+<span class="kn">from</span> <span class="nn">wordcount_mapreduce</span> <span class="k">import</span> <span class="n">count_words</span><span class="p">,</span> <span class="n">merge_counts</span>
+<span class="kn">from</span> <span class="nn">multiprocessing</span> <span class="k">import</span> <span class="n">Pool</span>
+
+<span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+   <span class="n">args</span> <span class="o">=</span> <span class="n">docopt</span><span class="p">(</span><span class="vm">__doc__</span><span class="p">)</span>
+   <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;DATA_DIR&#39;</span><span class="p">]):</span>
+      <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Invalid data directory: </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">args</span><span class="p">[</span><span class="s1">&#39;DATA_DIR&#39;</span><span class="p">])</span>
+   <span class="n">num_processes</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;NUM_PROCESSES&#39;</span><span class="p">])</span>
+
+   <span class="n">pool</span> <span class="o">=</span> <span class="n">Pool</span><span class="p">(</span><span class="n">processes</span><span class="o">=</span><span class="n">num_processes</span><span class="p">)</span>
+   <span class="n">per_doc_counts</span> <span class="o">=</span> <span class="n">pool</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">count_words</span><span class="p">,</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="s1">&#39;DATA_DIR&#39;</span><span class="p">],</span> <span class="s1">&#39;*.txt&#39;</span><span class="p">)))</span>
+   <span class="n">counts</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="n">merge_counts</span><span class="p">,</span> <span class="p">[{}]</span> <span class="o">+</span> <span class="n">per_doc_counts</span><span class="p">)</span>
+   <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="next-steps-and-exercises">
-<h3>Next Steps and Exercises<a class="headerlink" href="#next-steps-and-exercises" title="Permalink to this headline">¶</a></h3>
-<p>There is a lot more to working with <code class="docutils literal"><span class="pre">pandas</span></code>, <code class="docutils literal"><span class="pre">numpy</span></code> and
-<code class="docutils literal"><span class="pre">matplotlib</span></code> than we can show you here, but hopefully this example
-has piqued your curiosity.</p>
-<p>Don&#8217;t worry if you don&#8217;t understand
-everything in this example. For a more detailed explanation on these
-modules and the examples we did, please take a look at the tutorials
-below. The <code class="docutils literal"><span class="pre">numpy</span></code> and <code class="docutils literal"><span class="pre">pandas</span></code> tutorials are mandatory if you
-want to be able to use these modules, and the <code class="docutils literal"><span class="pre">matplotlib</span></code> gallery
-has many useful code examples.</p>
+<div class="section" id="questions">
+<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this headline">¶</a></h2>
+<p>To time each of the examples above, enter it into its own Python file
+and use Linux&#8217;s <code class="docutils literal"><span class="pre">time</span></code> command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ time python wordcount.py docs-1000-10000
+</pre></div>
 </div>
+<p>The output contains the <cite>real</cite> run time and the <cite>user</cite> run
+time. <cite>real</cite> is wall clock time - time from start to finish of the
+call. <cite>user</cite> is the amount of CPU time spent in user-mode code
+(outside the kernel) within the process, that is, only actual CPU time
+used in executing the process.</p>
+<p>Run the three different programs (serial, seria w/ map and reduce,
+parallel) and answer the following questions:</p>
+<ol class="arabic simple">
+<li>Is there any performance difference between the different versions
+of the program?</li>
+<li>Does <cite>user</cite> time significantly differ from <cite>real</cite> time for any of
+the versions of the program?</li>
+<li>Experiment with different numbers of processes for the parallel
+example, starting with 1. What is the performance gain when you
+goal from 1 to 2 processes? From 2 to 3? When do you stop seeing
+improvement? (this will depend on your machine architecture)</li>
+</ol>
 </div>
-<div class="section" id="summary-of-useful-libraries">
-<h2>Summary of Useful Libraries<a class="headerlink" href="#summary-of-useful-libraries" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id3">
-<h3>Numpy<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="http://www.numpy.org/">http://www.numpy.org/</a></li>
-</ul>
-<p>According to the Numpy Web page &#8220;NumPy is a package for scientific
-computing with Python. It contains a powerful N-dimensional array
-object, sophisticated (broadcasting) functions, tools for integrating
-C/C++ and Fortran code, useful linear algebra, Fourier transform, and
-random number capabilities</p>
-<p>Tutorial: <a class="reference external" href="https://docs.scipy.org/doc/numpy-dev/user/quickstart.html">https://docs.scipy.org/doc/numpy-dev/user/quickstart.html</a></p>
+<div class="section" id="next-steps">
+<h2>Next Steps<a class="headerlink" href="#next-steps" title="Permalink to this headline">¶</a></h2>
+<p>In the next tutorials in this series, we will implement the
+<code class="docutils literal"><span class="pre">wordcount</span></code> example in Hadoop, Pig, and will deploy it to Chameleon
+Cloud.</p>
 </div>
-<div class="section" id="id4">
-<h3>MatplotLib<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="http://matplotlib.org/">http://matplotlib.org/</a></li>
-</ul>
-<p>According the the Matplotlib Web page, &#8220;matplotlib is a python 2D
-plotting library which produces publication quality figures in a
-variety of hardcopy formats and interactive environments across
-platforms. matplotlib can be used in python scripts, the python and
-ipython shell (ala MATLAB®* or Mathematica®†), web application
-servers, and six graphical user interface toolkits.&#8221;</p>
-<p>Matplotlib Gallery: <a class="reference external" href="http://matplotlib.org/gallery.html">http://matplotlib.org/gallery.html</a></p>
-</div>
-<div class="section" id="id5">
-<h3>Pandas<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="http://pandas.pydata.org/">http://pandas.pydata.org/</a></li>
-</ul>
-<p>According to the Pandas Web page, &#8220;Pandas is a library library
-providing high-performance, easy-to-use data structures and data
-analysis tools for the Python programming language.&#8221;</p>
-<p>In addition to access to charts via matplotlib it has elementary
-functionality for conduction data analysis. Pandas may be very
-suitable for your projects.</p>
-<p>Tutorial: <a class="reference external" href="http://pandas.pydata.org/pandas-docs/stable/10min.html">http://pandas.pydata.org/pandas-docs/stable/10min.html</a></p>
-<p>Pandas Cheat Sheet:
-<a class="reference external" href="https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf">https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf</a></p>
-</div>
-</div>
-<div class="section" id="other-useful-libraries">
-<h2>Other Useful Libraries<a class="headerlink" href="#other-useful-libraries" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="scipy">
-<h3>Scipy<a class="headerlink" href="#scipy" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="https://www.scipy.org/">https://www.scipy.org/</a></li>
-</ul>
-<p>According to the SciPy Web page, &#8220;SciPy (pronounced “Sigh Pie”) is a
-Python-based ecosystem of open-source software for mathematics,
-science, and engineering. In particular, these are some of the core
-packages:</p>
-<ul class="simple">
-<li>NumPy</li>
-<li>IPython</li>
-<li>Pandas</li>
-<li>Matplotlib</li>
-<li>Sympy</li>
-<li>SciPy library</li>
-</ul>
-<p>It is thus an agglomeration of useful pacakes and will prbably sufice
-for your projects in case you use Python.</p>
-</div>
-<div class="section" id="ggplot">
-<h3>ggplot<a class="headerlink" href="#ggplot" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="http://ggplot.yhathq.com/">http://ggplot.yhathq.com/</a></li>
-</ul>
-<p>According to the ggplot python Web page ggplot is a plotting system
-for Python based on R&#8217;s ggplot2. It allows to quickly generate some
-plots quickly with little effort. Often it may be easier to use than
-matplotlib directly.</p>
-</div>
-<div class="section" id="seaborn">
-<h3>seaborn<a class="headerlink" href="#seaborn" title="Permalink to this headline">¶</a></h3>
-<p><a class="reference external" href="http://www.data-analysis-in-python.org/t_seaborn.html">http://www.data-analysis-in-python.org/t_seaborn.html</a></p>
-<p>The good library for plotting is called seaborn which is build on top
-of matplotlib. It provides high level templates for common
-statistical plots.</p>
-<ul class="simple">
-<li>Gallery: <a class="reference external" href="http://stanford.edu/~mwaskom/software/seaborn/examples/index.html">http://stanford.edu/~mwaskom/software/seaborn/examples/index.html</a></li>
-<li>Original Tutorial: <a class="reference external" href="http://stanford.edu/~mwaskom/software/seaborn/tutorial.html">http://stanford.edu/~mwaskom/software/seaborn/tutorial.html</a></li>
-<li>Additional Tutorial: <a class="reference external" href="https://stanford.edu/~mwaskom/software/seaborn/tutorial/distributions.html">https://stanford.edu/~mwaskom/software/seaborn/tutorial/distributions.html</a></li>
-</ul>
-</div>
-<div class="section" id="bokeh">
-<h3>Bokeh<a class="headerlink" href="#bokeh" title="Permalink to this headline">¶</a></h3>
-<p>Bokeh is an interactive visualization library with focus on
-web browsers for display. Its goal is to provide a similar experience
-as D3.js</p>
-<ul class="simple">
-<li>URL: <a class="reference external" href="http://bokeh.pydata.org/">http://bokeh.pydata.org/</a></li>
-<li>Gallery: <a class="reference external" href="http://bokeh.pydata.org/en/latest/docs/gallery.html">http://bokeh.pydata.org/en/latest/docs/gallery.html</a></li>
-</ul>
-</div>
-<div class="section" id="pygal">
-<h3>pygal<a class="headerlink" href="#pygal" title="Permalink to this headline">¶</a></h3>
-<p>Pygal is a simple API to produce graphs that can be easily
-embedded into your Web pages. It contains annotations when you hover
-over data points. It also allows to present the data in a table.</p>
-<ul class="simple">
-<li>URL: <a class="reference external" href="http://pygal.org/">http://pygal.org/</a></li>
-</ul>
-</div>
-<div class="section" id="network-and-graphs">
-<h3>Network and Graphs<a class="headerlink" href="#network-and-graphs" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>igraph: <a class="reference external" href="http://www.pythonforsocialscientists.org/t_igraph.html">http://www.pythonforsocialscientists.org/t_igraph.html</a></li>
-<li>networkx: <a class="reference external" href="https://networkx.github.io/">https://networkx.github.io/</a></li>
-</ul>
-</div>
-<div class="section" id="rest">
-<h3>REST<a class="headerlink" href="#rest" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>django REST FRamework <a class="reference external" href="http://www.django-rest-framework.org/">http://www.django-rest-framework.org/</a></li>
-<li>flask <a class="reference external" href="https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask">https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask</a></li>
-<li>requests
-<a class="reference external" href="https://realpython.com/blog/python/api-integration-in-python/">https://realpython.com/blog/python/api-integration-in-python/</a></li>
-<li>urllib2 <a class="reference external" href="http://rest.elkstein.org/2008/02/using-rest-in-python.html">http://rest.elkstein.org/2008/02/using-rest-in-python.html</a>
-(not recommended)</li>
-<li>web
-<a class="reference external" href="http://www.dreamsyssoft.com/python-scripting-tutorial/create-simple-rest-web-service-with-python.php">http://www.dreamsyssoft.com/python-scripting-tutorial/create-simple-rest-web-service-with-python.php</a>
-(not recommended)</li>
-<li>bottle <a class="reference external" href="http://bottlepy.org/docs/dev/index.html">http://bottlepy.org/docs/dev/index.html</a></li>
-<li>falcon <a class="reference external" href="https://falconframework.org/">https://falconframework.org/</a></li>
-<li>eve <a class="reference external" href="http://python-eve.org/">http://python-eve.org/</a></li>
-<li><a class="reference external" href="https://code.tutsplus.com/tutorials/building-rest-apis-using-eve--cms-22961">https://code.tutsplus.com/tutorials/building-rest-apis-using-eve&#8211;cms-22961</a></li>
-</ul>
-</div>
-</div>
-<div class="section" id="other-examples">
-<h2>Other Examples<a class="headerlink" href="#other-examples" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><a class="reference internal" href="python_lesson1.html"><span class="doc">Fingerprint Analysis</span></a></li>
-</ul>
+<div class="section" id="useful-links">
+<h2>Useful Links<a class="headerlink" href="#useful-links" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://book.pythontips.com/en/latest/map_filter.html">Map, Filter and Reduce</a>
+<a class="reference external" href="https://docs.python.org/2/library/multiprocessing.html">multiprocessing API</a></p>
 </div>
 </div>
 
