@@ -201,7 +201,9 @@ and doing proper time management is a must for this class. Avoid
 starting your project late. Procrastination does not pay off.
 Too often we see a student starting their project in the week before
 it is due. We can guarantee you this will be problematic.
-
+To force you to think about your time management we require that your
+report contains a section **Project Execution Plan**, that documents when you
+approximately do what.
 
 Focus on your project
 ---------------------
@@ -260,7 +262,8 @@ The following tips have been issued and especially apply to the
 project:
 
 * **Start the project in the first 4 weeks of the class**
-starting means reading thinking and potentially discussing with other students or TAs
+  starting means reading thinking and potentially discussing with
+  other students or TAs 
 * Do not underestimating the time it takes to do the project.
 * Do not forget to include benchmarks in your project.
 * Unnecessarily struggling with LaTeX as you do not use an example we
@@ -402,3 +405,95 @@ project). Everything must be installable form the command line.
 In many cases it is better not to use shell scripts but actually use
 the python CMD or even better the CMD5 tools as presented in class
 
+
+Submission
+----------
+
+The project is submitted into github into your project directory. We
+will refine this section, but the code must be submitted here. No
+compiled code or data is accepted in this directory. We expect you
+make weekly pull requests.
+
+If you are working in a team, we will set up a "special project directory"
+directory for you, so you need to announce teams on Piazza. A post
+will be made to collect the team information.
+
+Woring Alone
+^^^^^^^^^^^^
+
+A README.rst file needs to be included that contains the following
+information (please be mindfull with the spaces, there is an empty
+line between each field. Additional fields may need to be added as the
+project proceeds::
+
+  group: no
+
+  project_url: url to the project directory
+  
+  title: Your Project Title in CamelCase
+
+  author: Firstname Lastname
+
+  HID: your HID
+
+  piazza: your piazza id
+
+  github: your github id
+
+  repository: the link to the report folder
+
+  proposal: report-proposal.pdf
+
+  proposal_submission: mm/dd/2017 hh:mmam
+
+  report: report.pdf
+
+  report_submission: mm/dd/2017 hh:mmam
+  
+  status: short one line non breaking sentance about where you are (updated weekly)
+
+  dataset_url: url of the dataset, do not store in repo
+
+  deployment: short description of what you deploy
+
+  abstract: a copy of the abstract, make sure to use proper
+    indentation in RST format
+  
+  Bibtex Entry
+  ------------
+
+  @TechReport{Project_ID_or_HID-project,
+    author = 	  {},
+    title = 	  {},
+    institution = {Indiana University},
+    year = 	  {2017},
+    type = 	  {Class Project Report},
+    number = 	  {your HID or project id},
+    address = 	  {Course I524, Spring 2017},
+    month = 	  apr,
+    url =         (url of the report.pdf}
+  } 
+     
+  
+  
+Working in a team
+^^^^^^^^^^^^^^^^^^
+
+YOu will need to communicate via Piazza with the TAs that will set up
+a repository for you. All github names of all team members will need
+to be listed in that request.
+
+Each author has to go to their HID repository and fill out the
+README.rst while making sure the values ar set as follows::
+
+  group: yes
+
+  project_url: url to the project directory, that will be assigned to you
+
+AFter the project directory is created, fill out the README.rst, just
+as if you do it for a single user, but add in the Author field the
+list of authors. Use a comma to separate authors. 
+
+Please note that we create automatically a proceedings from the
+README.rst from all students. If you have not filled out the
+README.rst we will not be able to see your submission.

@@ -31,6 +31,62 @@ It will show a terminal in the following way.
 
   $ cm
 
+
+, 2017, at 11:21 AM, Gregor von Laszewski <laszewski@gmail.com> wrote:
+
+
+On Mar 10, 2017, at 11:13 AM, Gregor von Laszewski <laszewski@gmail.com> wrote:
+
+All:
+
+I released a new cm version 4.6.0.
+
+Please test vm boot, cluster, and hadoop 
+
+do 
+
+pip uninstall cloudmesh_client
+…. till you get an error that no older versions are there
+pip uninstall cloudmesh_client
+
+pip install cloudmesh_client
+cm reset
+cm refresh on
+cm key add —ssh
+
+cm vm boot
+
+Cloudmesh Client Upgrade
+------------------------
+
+From time to time we will release new versions of cloudmesh client. The
+safest way to install it is to make sure that you shut down all VMs in
+all clouds. Than you reset the db with::
+
+  cm reset
+
+Next you uninstall all previous versions of cloudmesh with::
+
+  pip uninstall cloudmesh_client
+
+YOu repeat the uninstall step ass long as you will find older versions
+of cloudmesh client. Once there is no more old version, you simply
+install the new version of cloudmesh client with::
+
+  pip install cloudmesh_client -U
+  
+As the reset has deleted the db, you need to add your key and set
+refresh to on with::
+  
+  cm refresh on
+  cm key add —ssh
+
+Test it out to do things such as listing images or booting vms::
+
+  cm vm list
+  cm vm boot
+
+Naturally you must have done the setup stap eiather previously.
   
 Setting Up
 ----------
