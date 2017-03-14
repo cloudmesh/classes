@@ -166,7 +166,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
@@ -292,6 +292,7 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#sidebar-directive">Sidebar directive</a></li>
+<li><a class="reference internal" href="#sphinx-prompt">Sphinx Prompt</a></li>
 <li><a class="reference internal" href="#programm-examples">Programm examples</a></li>
 <li><a class="reference internal" href="#hyperlinks">Hyperlinks</a></li>
 <li><a class="reference internal" href="#todo">Todo</a></li>
@@ -426,7 +427,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
@@ -542,6 +543,7 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#sidebar-directive">Sidebar directive</a></li>
+<li><a class="reference internal" href="#sphinx-prompt">Sphinx Prompt</a></li>
 <li><a class="reference internal" href="#programm-examples">Programm examples</a></li>
 <li><a class="reference internal" href="#hyperlinks">Hyperlinks</a></li>
 <li><a class="reference internal" href="#todo">Todo</a></li>
@@ -785,10 +787,25 @@ the body of the sidebar, and are
 interpreted as body elements.</p>
 </div>
 </div>
+<div class="section" id="sphinx-prompt">
+<h2>Sphinx Prompt<a class="headerlink" href="#sphinx-prompt" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>.. prompt:: bash, cloudmesh$
+
+   wget -O cm-setup.sh http://bit.ly/cloudmesh-client-xenial
+   sh cm-setup.sh
+</pre></div>
+</div>
+<pre class="highlight"><style type="text/css">
+span.prompt1:before {
+  content: "cloudmesh$ ";
+}
+</style><span class="prompt1">wget -O cm-setup.sh http://bit.ly/cloudmesh-client-xenial</span>
+<span class="prompt1">sh cm-setup.sh</span>
+</pre></div>
 <div class="section" id="programm-examples">
 <h2>Programm examples<a class="headerlink" href="#programm-examples" title="Permalink to this headline">¶</a></h2>
 <p>You can include code examples and bash commands with two colons.</p>
-<p>This isa na example for python:</p>
+<p>This is an example for python:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Hallo World&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
