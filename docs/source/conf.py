@@ -45,6 +45,8 @@ extensions = [
     'sphinxcontrib.bibtex'
 ]
 
+extensions += ['sphinx-prompt']    
+    
 if theme_foundation:    
     extensions += ['foundation_sphinx_theme']
     extensions += ['sphinxcontrib.fulltoc']
