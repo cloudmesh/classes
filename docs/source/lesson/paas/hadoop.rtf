@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg10000
+{\fonttbl
+{\f1\fnil\fcharset0\fprq0 Calibri Light;}
+{\f2\fnil\fcharset0\fprq0 Calibri;}
+{\f3\fnil\fcharset0\fprq0 Arial;}
+{\f4\fnil\fcharset2\fprq0 Wingdings;}
+}
+{\colortbl;
+\red0\green0\blue0;
+\red0\green112\blue192;
+\red0\green0\blue0;
+\red0\green32\blue96;
+\red0\green0\blue255;
+}
+{\stylesheet
+{\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\level1 heading 1;}
+{\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\level2 heading 2;}
+{\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\level3 heading 3;}
+{\s4\li2520\fi-360\kerning24\cf3\lang1033\level4 heading 4;}
+{\s5\li3240\fi-360\kerning24\cf3\lang1033\level5 heading 5;}
+{\s6\li3960\fi-360\kerning24\cf3\lang1033\level6 heading 6;}
+{\s7\li4680\fi-360\kerning24\cf3\lang1033\level7 heading 7;}
+{\s8\li5400\fi-360\kerning24\cf3\lang1033\level8 heading 8;}
+{\s9\li6120\fi-360\kerning24\cf3\lang1033\level9 heading 9;}
+}
+\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\li0\fi0\qc {\f1\fs120\cf1 Hadoop MapReduce}{\f1\fs120\cf1 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\li0\fi0 {\f1\fs88\cf1 Sam\uc1\u8217\'92s Problem}{\f1\fs88\cf1 \par 
+}\pard\plain\ltrpar\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\li360 {\pntext\pard\plain\f3\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\fs56\cf1 Sam thought of \uc1\u8220\'93drinking\u8221\'94 the apple}{\f2\fs56\cf1 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\li0\fi0 {\f1\fs88\cf1 Creative Sam}{\f1\fs88\cf1 \par 
+}\pard\plain\ltrpar\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\li360 {\pntext\pard\plain\f3\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\fs56\cf1 Implemented a }{\i\f2\fs56\cf2 parallel}{\i\f2\fs56\cf1  }{\f2\fs56\cf1 version of his innovation }{\f2\fs56\cf1 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\li0\fi0 {\f1\fs64\cf1 MapReduce}{\f1\fs64\cf1  Implementation Overview\par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\li0\fi0 {\f1\fs88\cf1 Execution\par 
+}\pard\plain\ltrpar\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\li960\fi-960 {\pntext\pard\plain\f3\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\fs56\cf1 How is this distributed?\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1560\fi-840 {\pntext\pard\plain\f4\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf4\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf1 Partition input key/value pairs into chunks, run map() tasks in parallel\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1560\fi-840 {\pntext\pard\plain\f4\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf4\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf1 After all map()s are complete, consolidate all emitted values for each unique emitted key\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1560\fi-840 {\pntext\pard\plain\f4\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf4\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf1 Now partition space of output map keys, and run reduce() in parallel\par 
+}\pard\plain\ltrpar\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\li960\fi-960 {\pntext\pard\plain\f3\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\fs56\cf1 If map() or reduce() fails, }{\f2\fs56\cf1 reexecute}{\f2\fs56\cf1 !\par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\li0\fi0 {\f1\fs88\cf1 Execution}{\f1\cf1  \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\li0\fi0 {\f1\fs88\cf1 Parallel Execution \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\li720\fi0 {\b\f1\fs80\cf1 Task Granularity & Pipelining}{\b\f1\fs40\cf1 \line }{\f1\cf1 \par 
+}\pard\plain\ltrpar\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\li360 {\pntext\pard\plain\f3\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\fs56\cf1 Fine granularity tasks:   map tasks >> machines\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1080 {\pntext\pard\plain\f3\fs40 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs40{\pntxtb \uc1\u8226\'95}}{\f2\cf1 Minimizes time for fault recovery\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1080 {\pntext\pard\plain\f3\fs40 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs40{\pntxtb \uc1\u8226\'95}}{\f2\cf1 Can pipeline shuffling with map execution\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1080 {\pntext\pard\plain\f3\fs40 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs40{\pntxtb \uc1\u8226\'95}}{\f2\cf1 Better dynamic load balancing \par 
+}\pard\plain\ltrpar\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\li360 {\pntext\pard\plain\f3\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\fs56\cf1 Often use 200,000 map  &  5000 reduce tasks \par 
+}\pard\plain\ltrpar\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\li360 {\pntext\pard\plain\f3\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\fs56\cf1 Running on 2000 machines \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033\li0\fi0 {\f1\fs88\cf4 MapReduce}{\f1\fs88\cf4 \par 
+}\pard\plain\ltrpar\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\li360 {\pntext\pard\plain\f3\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\fs56\cf4 Implementations support:\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1080 {\pntext\pard\plain\f3\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf4 Splitting of data\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1080 {\pntext\pard\plain\f3\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf4 Passing the output of map functions to reduce functions\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1080 {\pntext\pard\plain\f3\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf4 Sorting the inputs to the reduce function based on the intermediate keys\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\kerning24\fs40\cf3\lang1033\li1080 {\pntext\pard\plain\f3\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf4 Quality of services\par 
+}\pard\plain\ltrpar\s2\li1080\fi-360\kerning24\fs48\cf3\lang1033\li360 {\f2\fs56\cf1 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li360\fi-360\kerning24\fs56\cf3\lang1033 {\f3 \par 
+}
+}
