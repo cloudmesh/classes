@@ -59,6 +59,10 @@ cm vm boot
 Cloudmesh Client Upgrade
 ------------------------
 
+.. note:: Please skip this section if this is your first time
+	  installing cloudmesh client.
+
+	  
 From time to time we will release new versions of cloudmesh client. The
 safest way to install it is to make sure that you shut down all VMs in
 all clouds. Than you reset the db with::
