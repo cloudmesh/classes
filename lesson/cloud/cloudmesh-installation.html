@@ -284,11 +284,9 @@
 <li><a class="reference internal" href="#setting-up">Setting Up</a></li>
 <li><a class="reference internal" href="#setting-up-chameleon-cloud">Setting Up Chameleon Cloud</a></li>
 <li><a class="reference internal" href="#preaparing-for-chameleon-access">Preaparing for Chameleon Access</a></li>
-<li><a class="reference internal" href="#boot-virtual-machine">Boot Virtual Machine</a></li>
-<li><a class="reference internal" href="#login-to-the-vm">Login to the vm</a><ul>
-<li><a class="reference internal" href="#step-7-remove-virtual-machine">Step 7 : Remove Virtual Machine</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#booting-vms">Booting VMs</a></li>
+<li><a class="reference internal" href="#loging-in-to-a-vm">Loging In To A VM</a></li>
+<li><a class="reference internal" href="#removing-vms">Removing VMs</a></li>
 <li><a class="reference internal" href="#exercise">Exercise</a></li>
 </ul>
 </li>
@@ -529,11 +527,9 @@
 <li><a class="reference internal" href="#setting-up">Setting Up</a></li>
 <li><a class="reference internal" href="#setting-up-chameleon-cloud">Setting Up Chameleon Cloud</a></li>
 <li><a class="reference internal" href="#preaparing-for-chameleon-access">Preaparing for Chameleon Access</a></li>
-<li><a class="reference internal" href="#boot-virtual-machine">Boot Virtual Machine</a></li>
-<li><a class="reference internal" href="#login-to-the-vm">Login to the vm</a><ul>
-<li><a class="reference internal" href="#step-7-remove-virtual-machine">Step 7 : Remove Virtual Machine</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#booting-vms">Booting VMs</a></li>
+<li><a class="reference internal" href="#loging-in-to-a-vm">Loging In To A VM</a></li>
+<li><a class="reference internal" href="#removing-vms">Removing VMs</a></li>
 <li><a class="reference internal" href="#exercise">Exercise</a></li>
 </ul>
 </li>
@@ -583,8 +579,8 @@ clouds. This could pose a significant development issue for some in
 the class. to simplify access we introduce you to one method that we
 recommend for this class. We will be using a project called
 cloudmesh_client that allows users to easily access multiple clouds
-from the commandline. Switching between clouds can be achieved with one
-variable. The advantages include:</p>
+from the commandline. Switching between clouds can be achieved with
+one variable. The advantages include:</p>
 <ul class="simple">
 <li>access to another cloud in case of failure</li>
 <li>relocation of experiments to see if they are robust</li>
@@ -597,25 +593,25 @@ install the latest updates. Install cloudmesh client using pip</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pip install -U cloudmesh_client
 </pre></div>
 </div>
-<p>In order to make sure cloudmesh is running properly, enter cm in your command line.
-It will show a terminal in the following way.</p>
+<p>In order to make sure cloudmesh is running properly, enter cm in your
+command line.  It will show a terminal in the following way:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm
 </pre></div>
 </div>
-<p>, 2017, at 11:21 AM, Gregor von Laszewski &lt;<a class="reference external" href="mailto:laszewski&#37;&#52;&#48;gmail&#46;com">laszewski<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt; wrote:</p>
-<p>On Mar 10, 2017, at 11:13 AM, Gregor von Laszewski &lt;<a class="reference external" href="mailto:laszewski&#37;&#52;&#48;gmail&#46;com">laszewski<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt; wrote:</p>
-<p>All:</p>
-<p>I released a new cm version 4.6.0.</p>
-<p>Please test vm boot, cluster, and hadoop</p>
-<p>do</p>
-<p>pip uninstall cloudmesh_client
-…. till you get an error that no older versions are there
-pip uninstall cloudmesh_client</p>
-<p>pip install cloudmesh_client
-cm reset
-cm refresh on
-cm key add —ssh</p>
-<p>cm vm boot</p>
+<p>If the installation was successful, this will start the cloudmesh
+shell. To exit the shell, you can issue the <code class="docutils literal"><span class="pre">quit</span></code> command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>+=======================================================+
+.   ____ _                 _                     _      .
+.  / ___| | ___  _   _  __| |_ __ ___   ___  ___| |__   .
+. | |   | |/ _ \| | | |/ _` | &#39;_ ` _ \ / _ \/ __| &#39;_ \  .
+. | |___| | (_) | |_| | (_| | | | | | |  __/\__ \ | | | .
+.  \____|_|\___/ \__,_|\__,_|_| |_| |_|\___||___/_| |_| .
++=======================================================+
+                     Cloudmesh Shell
+cm&gt; quit
+$
+</pre></div>
+</div>
 </div>
 <div class="section" id="cloudmesh-client-upgrade">
 <h2>Cloudmesh Client Upgrade<a class="headerlink" href="#cloudmesh-client-upgrade" title="Permalink to this headline">¶</a></h2>
@@ -624,9 +620,9 @@ cm key add —ssh</p>
 <p class="last">Please skip this section if this is your first time
 installing cloudmesh client.</p>
 </div>
-<p>From time to time we will release new versions of cloudmesh client. The
-safest way to install it is to make sure that you shut down all VMs in
-all clouds. Than you reset the db with:</p>
+<p>From time to time we will release new versions of cloudmesh
+client. The safest way to install it is to make sure that you shut
+down all VMs in all clouds. Then you reset the db with:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cm</span> <span class="n">reset</span>
 </pre></div>
 </div>
@@ -634,10 +630,10 @@ all clouds. Than you reset the db with:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">uninstall</span> <span class="n">cloudmesh_client</span>
 </pre></div>
 </div>
-<p>YOu repeat the uninstall step ass long as you will find older versions
-of cloudmesh client. Once there is no more old version, you simply
-install the new version of cloudmesh client with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">cloudmesh_client</span> <span class="o">-</span><span class="n">U</span>
+<p>You need to repeat the uninstall step as long as you find older
+versions of cloudmesh client. Once there aren&#8217;t any old versions, you
+simply install the new version of cloudmesh client with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">U</span> <span class="n">cloudmesh_client</span>
 </pre></div>
 </div>
 <p>As the reset has deleted the db, you need to add your key and set
@@ -651,28 +647,19 @@ cm key add —ssh
 <span class="n">cm</span> <span class="n">vm</span> <span class="n">boot</span>
 </pre></div>
 </div>
-<p>Naturally you must have done the setup stap eiather previously.</p>
+<p>Naturally you must have done the setup step previously.</p>
 </div>
 <div class="section" id="setting-up">
 <h2>Setting Up<a class="headerlink" href="#setting-up" title="Permalink to this headline">¶</a></h2>
 <p>Now cloudmesh is installed locally. In order to run a virtual machine
-in chameleon cloud, there are few configurations that have to be
-done. You can find the configuration information in the following
-location.</p>
-<p><a class="reference external" href="http://cloudmesh.github.io/client/configuration.html">http://cloudmesh.github.io/client/configuration.html</a></p>
-<p>After setting up cloudmesh client locally, the yaml file
-can be opened by running the following command. You can use
-vim or vi instead of emacs to run this.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ emacs ~/.cloudmesh/cloudmesh.yaml
-</pre></div>
-</div>
-<p>examples:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ vim ~/.cloudmesh/cloudmesh.yaml
-$ vi ~/.cloudmesh/cloudmesh.yaml
-$ gedit ~/.cloudmesh/cloudmesh.yaml
-</pre></div>
-</div>
-<p>First the profile section must be updated as follows:</p>
+in chameleon cloud, there are a few configurations steps that have to
+be completed. We show this below, and if you want to get more detailed
+information on configuring the cloudmesh client, you can access it at
+<a class="reference external" href="http://cloudmesh.github.io/client/configuration.html">http://cloudmesh.github.io/client/configuration.html</a>.</p>
+<p>Open the cloudmesh client configuration file,
+<code class="docutils literal"><span class="pre">~/.cloudmesh/cloudmesh.yaml</span></code>, in your preferred text editor. The
+first section in the file you need to update is <code class="docutils literal"><span class="pre">profile:</span></code>, which by
+default will look as follows:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">profile</span><span class="p">:</span>
 <span class="n">firstname</span><span class="p">:</span> <span class="n">TBD</span>
 <span class="n">lastname</span><span class="p">:</span> <span class="n">TBD</span>
@@ -680,7 +667,7 @@ $ gedit ~/.cloudmesh/cloudmesh.yaml
 <span class="n">user</span><span class="p">:</span> <span class="n">TBD</span>
 </pre></div>
 </div>
-<p>example configuration:</p>
+<p>Change it with your personal information. For example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">profile</span><span class="p">:</span>
      <span class="n">firstname</span><span class="p">:</span> <span class="n">Vibhatha</span>
      <span class="n">lastname</span><span class="p">:</span> <span class="n">Abeykoon</span>
@@ -688,21 +675,28 @@ $ gedit ~/.cloudmesh/cloudmesh.yaml
      <span class="n">user</span><span class="p">:</span> <span class="n">vibhatha</span>
 </pre></div>
 </div>
-<p>This must be filled when working on Cloudmesh set up.
-And this can be found in the configuration file in cm- yaml file.</p>
+<p>The <code class="docutils literal"><span class="pre">user</span></code> field doesn&#8217;t refer to any specific username (e.g. for
+cloudmesh, IU, etc.). However, it is good to set it to something that
+you are fairly sure will be unique. Your IU username is a good choice.</p>
 </div>
 <div class="section" id="setting-up-chameleon-cloud">
 <h2>Setting Up Chameleon Cloud<a class="headerlink" href="#setting-up-chameleon-cloud" title="Permalink to this headline">¶</a></h2>
-<p>In the cloudmesh.yaml file, set chameleon cloud as the active cloud
-as shown below. Locate the attribute value in the:</p>
+<p>In <code class="docutils literal"><span class="pre">cloudmesh.yaml</span></code>, set chameleon cloud as the active cloud like
+this:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">active</span><span class="p">:</span>
  <span class="o">-</span> <span class="n">chameleon</span>
+<span class="n">clouds</span><span class="p">:</span>
+<span class="o">...</span>
 </pre></div>
 </div>
-<p>Go to the following link and you can find the information regarding,
-the chameleon cloud setup.</p>
-<p><a class="reference external" href="http://cloudmesh.github.io/client/configuration.html#chameleon-cloud">http://cloudmesh.github.io/client/configuration.html#chameleon-cloud</a></p>
-<p>The following parameters has to be replaced with corresponding values:</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">For full details on how to set up Chameleon Cloud with
+cloudmesh client, go here:
+<a class="reference external" href="http://cloudmesh.github.io/client/configuration.html#chameleon-cloud">http://cloudmesh.github.io/client/configuration.html#chameleon-cloud</a></p>
+</div>
+<p>Next, you need to fill in the details about your chameleon cloud
+account. The relevant section will look like this:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">OS_PASSWORD</span><span class="p">:</span> <span class="n">TBD</span>
 <span class="n">OS_TENANT_NAME</span><span class="p">:</span> <span class="n">TBD</span>
 <span class="n">OS_TENANT_ID</span><span class="p">:</span> <span class="n">TBD</span>
@@ -710,11 +704,9 @@ the chameleon cloud setup.</p>
 <span class="n">OS_USERNAME</span><span class="p">:</span> <span class="n">TBD</span>
 </pre></div>
 </div>
-<p>Make sure you are following the above url.
-And after replacing all the TBD values, the configuration should look like
-as follows.</p>
-<p>example configuration:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">OS_PASSWORD</span><span class="p">:</span> <span class="n">NOTMYPASSWORD</span>
+<p>Fill in the username, password and project details from your chameleon
+cloud account:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">OS_PASSWORD</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">enter</span> <span class="n">your</span> <span class="n">chameleon</span> <span class="n">cloud</span> <span class="n">password</span> <span class="n">here</span><span class="o">&gt;</span>
 <span class="n">OS_TENANT_NAME</span><span class="p">:</span> <span class="n">CH</span><span class="o">-</span><span class="mi">818664</span>
 <span class="n">OS_TENANT_ID</span><span class="p">:</span> <span class="n">CH</span><span class="o">-</span><span class="mi">818664</span>
 <span class="n">OS_PROJECT_NAME</span><span class="p">:</span> <span class="n">CH</span><span class="o">-</span><span class="mi">818664</span>
@@ -727,20 +719,22 @@ as follows.</p>
 put <code class="docutils literal"><span class="pre">read</span></code> instead of the password in <code class="docutils literal"><span class="pre">OS_PASSWORD</span></code> field. In this
 way, every time you need to access the cloud, you will type in password.</p>
 </div>
-<p>Make sure the TENANT_NAME: CH-818664.  You must be a member of the
-project in the Chameleon cloud, in order to gain access to the virtual
-machines.</p>
+<p>Make sure the <code class="docutils literal"><span class="pre">TENANT_NAME</span></code> has the value <code class="docutils literal"><span class="pre">CH-818664</span></code>. This
+identifies the class allocation, which you should have been added to,
+and should be able to see on your dashboard at
+<a class="reference external" href="https://www.chameleoncloud.org/user/dashboard/">https://www.chameleoncloud.org/user/dashboard/</a>. If this is not the
+case, please contact us immediately on the class Piazza.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Replace all TBD values with correct values (only in profile section and chameleon cloud section).</p>
+<p class="last">Replace all TBD values with correct values (only in profile
+section and chameleon cloud section).</p>
 </div>
-<p><a class="reference external" href="http://cloudmesh.github.io/client/configuration.html#chameleon-cloud">http://cloudmesh.github.io/client/configuration.html#chameleon-cloud</a></p>
 </div>
 <div class="section" id="preaparing-for-chameleon-access">
 <h2>Preaparing for Chameleon Access<a class="headerlink" href="#preaparing-for-chameleon-access" title="Permalink to this headline">¶</a></h2>
-<p>To create a virtual machine we need first to make sure we start it on
-chamelon cloud. This we need to set the default cloud to be chameleon
-with the following command:</p>
+<p>We need to make sure that any VMs we start will be created on
+chameleon cloud and the correct user profile information will be
+used. To do this, we need to set the following options:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm default cloud=chameleon
 $ cm register profile
 $ cm default user=YOURUSERNAME
@@ -751,73 +745,79 @@ the following command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm info
 </pre></div>
 </div>
-<p>Next we need to add the ssh key to the cloudmesh database by running
-the following command.  Make sure you have already generated a
-ssh key with ssh-keygen. The command will add the default id_rsa.pub
-key to a local database:</p>
+<p>Next, we need to add the ssh key to the cloudmesh database. Make sure
+you have already generated a ssh key with <code class="docutils literal"><span class="pre">ssh-keygen</span></code>. Then, the
+following command will add the <code class="docutils literal"><span class="pre">id_rsa.pub</span></code> key from your <code class="docutils literal"><span class="pre">~/.ssh</span></code>
+directory to the local cloudmesh client database:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm key add --ssh
 </pre></div>
 </div>
-<p>Not that the key is in our local cloudmesh database, we need to upload
+<p>The key is now in our local cloudmesh database, but we need to upload
 it to all active clouds. As we have just one active cloud it will
-uploade the key to the chamelon cloud once you execute the command:</p>
+upload the key to the chamelon cloud once you execute the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm key upload
 </pre></div>
 </div>
-<p>Furthermore, we must be able to communicate with the
-virtualmachines. To communicate which ports we use we execute the
-secgroup command. To just use the defaults we execute the command:</p>
+<p>We must be able to communicate with the virtual machines, and to
+facilitate this, we need to set the <code class="docutils literal"><span class="pre">secgroup</span></code> command as follows:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm secgroup upload
 </pre></div>
 </div>
-<p>To see the details of the secgropus please use the command:</p>
+<p>To see the details of the secgroup configuration, you can execute:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm secgroup list
 </pre></div>
 </div>
 </div>
-<div class="section" id="boot-virtual-machine">
-<h2>Boot Virtual Machine<a class="headerlink" href="#boot-virtual-machine" title="Permalink to this headline">¶</a></h2>
-<p>Run the following command to boot the virtual machine:</p>
+<div class="section" id="booting-vms">
+<h2>Booting VMs<a class="headerlink" href="#booting-vms" title="Permalink to this headline">¶</a></h2>
+<p>To boot a virtual machine using your configuration, run this command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm boot
 </pre></div>
 </div>
-<p>To see all vms just use the command:</p>
+<p>To see all currently running VMs, use the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm list
 </pre></div>
 </div>
 </div>
-<div class="section" id="login-to-the-vm">
-<h2>Login to the vm<a class="headerlink" href="#login-to-the-vm" title="Permalink to this headline">¶</a></h2>
-<p>To login to the vm you need to have a publicly available (floating) ip. This
-can be achieved with the command:</p>
+<div class="section" id="loging-in-to-a-vm">
+<h2>Loging In To A VM<a class="headerlink" href="#loging-in-to-a-vm" title="Permalink to this headline">¶</a></h2>
+<p>To login to the vm you need to assign a publicly available IP
+address. You can do this with:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ip assign
 </pre></div>
 </div>
-<p>You can after this command has succeed login to the vm with the command:</p>
+<p>Finally, to access your newly created VM, you enter:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ssh
 </pre></div>
 </div>
-<p>After a successful launch it will show a similar console as shown below:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>cc@hostname$-
+<p>You will see a prompt like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>cc@hostname$
+</pre></div>
+</div>
+<p>To exit the VM, do:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>cc@hostname$ exit
 </pre></div>
 </div>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">Many errors could occur that are unrelated to cloudmesh
 client. Such errors could include network interruptions,
-resource starvation of cloudmesh, while either no vms
-can be started, they are out of ip addresses, ir they
-have a maintenance day. Please do not blame cloudmesh for
-such issues and explore first if they originate through
-such issues.</p>
+resource starvation on chameleon cloud during which
+either no VMs can be started, or an IP address can not be
+assigned, or chameleon cloud is offline for
+maintenance. Please, check for these and other similar
+errors before you assume there is something wrong with
+cloudmesh client.</p>
 </div>
-<div class="section" id="step-7-remove-virtual-machine">
-<h3>Step 7 : Remove Virtual Machine<a class="headerlink" href="#step-7-remove-virtual-machine" title="Permalink to this headline">¶</a></h3>
-<p>To delete a virtual machine, run the following command (exit the vm first if necessary):</p>
+</div>
+<div class="section" id="removing-vms">
+<h2>Removing VMs<a class="headerlink" href="#removing-vms" title="Permalink to this headline">¶</a></h2>
+<p>To delete a virtual machine, run the following command (exit the VM
+first if necessary):</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm delete &lt;name_of_vm&gt;
 </pre></div>
 </div>
-<p>Example:</p>
+<p>For example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm delete vibhatha-001
 </pre></div>
 </div>
@@ -829,17 +829,17 @@ such issues.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm delete --all
 </pre></div>
 </div>
-<p>It is important that you delete or terminate the vm after you are done
-as chameleon cloud has a limited set of resources. we recommend that
-you do not keep a vm up for more than 6 hours. Please be aware when
-you delete a vm everything on that vm is deleted. hence we recommend
-you to make appropriate backups of the content in the vm and have
-scripts via ansible to recreate your softwarstack.</p>
-</div>
+<p>It is important that you delete or terminate your VMs after you are done
+as chameleon cloud has a limited set of resources. We recommend that
+you do not keep a VM up for more than 6 hours. Please be aware when
+you delete a VM everything on that VM is deleted. hence we recommend
+that you make appropriate backups of the content in the VM and have
+Ansible scripts to recreate your software stack.</p>
 </div>
 <div class="section" id="exercise">
 <h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
-<p>cloudmesh.1: install cloudmesh, create a vm and delete it</p>
+<p>cloudmesh.1: Follow the instructions in this lesson to install
+cloudmesh, create a VM and delete it.</p>
 </div>
 </div>
 
