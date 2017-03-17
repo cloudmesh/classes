@@ -263,11 +263,12 @@ Workflow-Orchestration
     one vertex to another is realized by TCP/IP streams, shared
     memory, or temporary files. In the directed acyclic graph created
     by Dryad, each vertex is a program and the edges represent data
-    channels. Each graph is represented as G = <VG, EG, IG, OG> in
+    channels. Each graph is represented as G = (VG, EG, IG, OG) in
     :cite:`DryadPaper` where VG is a sequence of vertices with EG
-    directed edges and two sets IG ⊆ VG and OG ⊆ VG that indicate the
-    input and output vertices respectively. Other technologies used
-    for the same purpose as Dryad include Map Reduce, MPI etc.
+    directed edges and two sets IG is a subset of VG and OG is a
+    subset of VG that indicate the input and output vertices
+    respectively. Other technologies used for the same purpose as
+    Dryad include Map Reduce, MPI etc.
     
 15. Naiad
 
