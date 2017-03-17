@@ -29,8 +29,6 @@ allocation.
 Getting Access
 -------------------------------------------------------------------------------
 
-** Closed as of 08/02/2016 **
-
   1. Create an account on [[https://www.chameleoncloud.org/][Chameleon Cloud]]
   2. Send your Chameleon username to <course email>
      Note: the subject *MUST* be

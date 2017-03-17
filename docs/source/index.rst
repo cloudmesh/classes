@@ -10,8 +10,9 @@ I524
    i524/index
    i524/calendar
    i524/lectures
+   i524/assignments
 
-i524 Technologies
+I524 Technologies
 -----------------
 
 .. toctree::

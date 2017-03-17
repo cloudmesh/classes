@@ -49,7 +49,7 @@ Do so by running the ``apt-get`` command:
 
      $ sudo apt-get update
      Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
-     Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease                              
+     Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease
      Get:3 http://security.ubuntu.com/ubuntu xenial-security/main Sources [55.8 kB]
      Get:4 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
      # ....etc
@@ -82,6 +82,12 @@ Install Git using:
 
 Development Tools
 ~~~~~~~~~~~~~~~~~
+Install build essentials and supporting development libraries:
+
+::
+
+  $ sudo apt-get install build-essential libssl-dev libffi-dev
+
 
 Install Python and other necessary programs and tools:
 
@@ -89,7 +95,13 @@ Install Python and other necessary programs and tools:
 
    $ sudo apt-get install -y python-dev python-virtualenv python-pip graphviz make
 
+Install cryptography:
 
+::
+
+   $ sudo pip install cryptography
+
+   
 LaTeX
 ~~~~~
 
@@ -100,4 +112,3 @@ several gigabytes of download and install, so make take a while:
 ::
 
    $ sudo apt-get install -y texlive-full
-

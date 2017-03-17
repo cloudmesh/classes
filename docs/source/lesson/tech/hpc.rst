@@ -676,7 +676,7 @@ forwarding with::
    firefox
 
 The best way is to find your own resources and let us know which we
-shoudl add.
+should add.
 
 
 

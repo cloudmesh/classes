@@ -1,4 +1,4 @@
-Web Page
+Contributing
 ============
 
 Contributing content to this web page is easy. First you have to fork

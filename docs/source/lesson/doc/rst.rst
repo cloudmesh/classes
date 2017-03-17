@@ -189,12 +189,28 @@ It is possible to create sidebar using the following code::
     the body of the sidebar, and are
     interpreted as body elements.
 
+Sphinx Prompt
+-------------
+
+::
+
+   .. prompt:: bash, cloudmesh$
+
+      wget -O cm-setup.sh http://bit.ly/cloudmesh-client-xenial
+      sh cm-setup.sh
+
+.. prompt:: bash, cloudmesh$
+
+    wget -O cm-setup.sh http://bit.ly/cloudmesh-client-xenial
+    sh cm-setup.sh
+    
+    
 Programm examples
 -----------------
 
 You can include code examples and bash commands with two colons.
 
-This isa na example for python::
+This is an example for python::
 
   print ("Hallo World")
 

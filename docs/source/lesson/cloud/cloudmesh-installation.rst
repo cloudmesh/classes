@@ -31,6 +31,66 @@ It will show a terminal in the following way.
 
   $ cm
 
+
+, 2017, at 11:21 AM, Gregor von Laszewski <laszewski@gmail.com> wrote:
+
+
+On Mar 10, 2017, at 11:13 AM, Gregor von Laszewski <laszewski@gmail.com> wrote:
+
+All:
+
+I released a new cm version 4.6.0.
+
+Please test vm boot, cluster, and hadoop 
+
+do 
+
+pip uninstall cloudmesh_client
+…. till you get an error that no older versions are there
+pip uninstall cloudmesh_client
+
+pip install cloudmesh_client
+cm reset
+cm refresh on
+cm key add —ssh
+
+cm vm boot
+
+Cloudmesh Client Upgrade
+------------------------
+
+.. note:: Please skip this section if this is your first time
+	  installing cloudmesh client.
+
+	  
+From time to time we will release new versions of cloudmesh client. The
+safest way to install it is to make sure that you shut down all VMs in
+all clouds. Than you reset the db with::
+
+  cm reset
+
+Next you uninstall all previous versions of cloudmesh with::
+
+  pip uninstall cloudmesh_client
+
+YOu repeat the uninstall step ass long as you will find older versions
+of cloudmesh client. Once there is no more old version, you simply
+install the new version of cloudmesh client with::
+
+  pip install cloudmesh_client -U
+  
+As the reset has deleted the db, you need to add your key and set
+refresh to on with::
+  
+  cm refresh on
+  cm key add —ssh
+
+Test it out to do things such as listing images or booting vms::
+
+  cm vm list
+  cm vm boot
+
+Naturally you must have done the setup stap eiather previously.
   
 Setting Up
 ----------
@@ -134,16 +194,18 @@ chamelon cloud. This we need to set the default cloud to be chameleon
 with the following command::
 
    $ cm default cloud=chameleon
+   $ cm register profile 
+   $ cm default user=YOURUSERNAME 
 
 Information about the configuration of cloudmesh can be retrieved by
 the following command::
 
-  $cm info
+   $ cm info
 
 Next we need to add the ssh key to the cloudmesh database by running
 the following command.  Make sure you have already generated a
 ssh key with ssh-keygen. The command will add the default id_rsa.pub
-key to a local database. 
+key to a local database:: 
 
    $ cm key add --ssh
 
@@ -205,13 +267,22 @@ After a successful launch it will show a similar console as shown below::
 Step 7 : Remove Virtual Machine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To delete a virtual machine, run the following command::
+To delete a virtual machine, run the following command (exit the vm first if necessary)::
 
    $ cm vm delete <name_of_vm>
 
 Example::
 
    $ cm vm delete vibhatha-001
+
+To delete multiple virtual machines, run the following command::
+  
+   $ cm vm delete <name_of_vm>* 
+
+or with ``--all`` option::
+
+   $ cm vm delete --all
+
 
 It is important that you delete or terminate the vm after you are done
 as chameleon cloud has a limited set of resources. we recommend that

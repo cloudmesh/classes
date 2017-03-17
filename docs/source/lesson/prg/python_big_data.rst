@@ -1,8 +1,6 @@
 Python for Big Data
 ===================
 
-.. contents::
-
 An Example with Pandas, NumPy and Matplotlib
 --------------------------------------------
 
@@ -89,8 +87,7 @@ of its methods to take a look at the structure of the data as follows:
    Index([u'Citation Number', u'Date Issued', u'Time Issued', u'Location ',
    u'District', u'Cited Person Age', u'Cited Person Sex',
    u'Cited Person Race', u'Offense Code', u'Offense Description',
-   u'Officer Age', u'Officer Sex', u'Officer Race', u'DateTime Issued',
-   u'Day of Week Issued'],
+   u'Officer Age', u'Officer Sex', u'Officer Race'],
    dtype='object')
    >>> data.dtypes
    Citation Number                object
@@ -196,7 +193,7 @@ like this:
 
 .. code:: python
 	  
-   >>> ages = data['Cited Person Age']
+   >>> ages = data['Cited Person Age'].astype(int)
    >>> fig = plt.figure()
    >>> ax = fig.add_subplot(1, 1, 1)
    >>> plt.hist(ages, bins=np.max(ages) - np.min(ages))

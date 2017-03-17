@@ -1,8 +1,6 @@
 `cmd` Module
 ============
 
-.. contents::
-   
 Introduction
 ------------
 The Python `cmd` module is useful for any more involved command-line
