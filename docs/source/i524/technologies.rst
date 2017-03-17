@@ -245,7 +245,30 @@ Workflow-Orchestration
     plain text format, they can be version-controlled and shared with
     colleagues. :cite:`www-jupyter-6`
 
-14. (Dryad)
+14. Dryad
+
+    Dryad is a general-purpose distributed execution engine for
+    coarse-grain data-parallel applications. According to
+    :cite:`www-DryadIntro` it was created with the objective of
+    automatically managing scheduling, distribution, fault tolerance
+    etc. Dryad concentrates on the throughput instead of latency and
+    it assumes that a private data centre is used. It creates a
+    dataflow graph by using computational “vertices” and communication
+    “channels”. The computational vertices are written using C++ base
+    classes and objects. During runtime, the dataflow graph is
+    parallelized by distributing the vertices across multiple
+    processor cores on the same computer or different physical
+    computers connected by a network. The Dryad runtime handles this
+    scheduling without any explicit intervention. The data flow from
+    one vertex to another is realized by TCP/IP streams, shared
+    memory, or temporary files. In the directed acyclic graph created
+    by Dryad, each vertex is a program and the edges represent data
+    channels. Each graph is represented as G = <VG, EG, IG, OG> in
+    :cite:`DryadPaper` where VG is a sequence of vertices with EG
+    directed edges and two sets IG ⊆ VG and OG ⊆ VG that indicate the
+    input and output vertices respectively. Other technologies used
+    for the same purpose as Dryad include Map Reduce, MPI etc.
+    
 15. Naiad
 
     Naiad :cite:`paper-naiad` is a distributed system based on
@@ -2442,7 +2465,7 @@ Streams
      Twitter for distributed streaming processing. Heron was
      introduced at SIGMOD 2015 to overcome the shortcomings of Twitter
      Storm as the scale and diversity of Twitter data increased. As
-     mentioned in :cite:`TwitterHeronOpen` The primary advantages of
+     mentioned in :cite:`www-TwitterHeronOpen` The primary advantages of
      Heron were: API compatible with Storm: Back compatibility with
      Twitter Storm reduced migration time. Task-Isolation: Every task
      runs in process-level isolation, making it easy to debug/
@@ -2453,7 +2476,7 @@ Streams
      accuracy. Batching of tuples: Amortizing the cost of transferring
      tuples. Efficiency: Reduce resource consumption by 2-5x and Heron
      latency is 5-15x lower than Storm’s latency. The architecture of
-     Heron (as shown in :cite:`TwitterHeron`)uses the Storm API to
+     Heron (as shown in :cite:`www-TwitterHeron`)uses the Storm API to
      submit topologies to a scheduler. The scheduler runs each
      topology as a job consisting of several containers. The
      containers run the topology master, stream manager, metrics
@@ -3421,7 +3444,7 @@ Object-relational mapping
      DataNucleus (available under Apache 2 open source license) is a
      data management framework in Java. Formerly known as ‘Java
      Persistent Objects’ (JPOX) this was relaunched in 2008 as
-     ‘DataNucleus’. According to :cite:`DataNucleusWiki` DataNucleus
+     ‘DataNucleus’. According to :cite:`www-DataNucleusWiki` DataNucleus
      Access Platform is a fully compliant implementation of the Java
      Persistent API (JPA) and Java Data Objects (JDO)
      specifications. It provides persistence and retrieval of data to
@@ -3433,11 +3456,12 @@ Object-relational mapping
      (XLS, OOXML, XML, ODF), Web-based (Amazon S3, Google Storage,
      JSON), Doc-based (MongoDB) and Others (NeoDatis, LDAP). It
      supports the JPA (Uses JPQL Query language), JDO (Uses JDOQL
-     Query language) and REST APIs :cite:`DataNucleus`.DataNucleus
+     Query language) and REST APIs :cite:`www-DataNucleus`.DataNucleus
      products are built from a sequence of plugins where each of it is
      an OSGi bundle and can be used in an OSGi environment. Google App
      Engine uses DataNucleus as the Java persistence layer
-     :cite:`DataNucleusPerformance`.
+     :cite:`www-DataNucleusPerformance`.
+	   
 	   
 196. ODBC/JDBC
 
@@ -3513,6 +3537,29 @@ SQL(NewSQL)
 
 
 199. DB2
+
+     DB2 is a Relational DataBase Management System (RDBMS). Though
+     initially introduced in 1983 by IBM to run exclusively on its MVS
+     (Multiple Virtual Storage) mainframe platform, it was later
+     extended to other operating systems like UNIX, Windows and
+     Linux. It is used to store, analyze and retrieve the data and is
+     extended with the support of Object-Oriented features and
+     non-relational structures with XML :cite:`www-DB2Intro`. DB2
+     server editions include: Advanced Enterprise Server Edition and
+     Enterprise Server Edition (AESE / ESE) designed for mid-size to
+     large-size business organizations, Workgroup Server Edition (WSE)
+     designed for Workgroup or mid-size business organizations,
+     Express -C provides the capabilities of DB2 at no charge and can
+     run on any physical or virtual systems, Express Edition designed
+     for entry level and mid-size business organizations, Enterprise
+     Developer Edition offers single application developer useful to
+     design, build and prototype the applications for deployment on
+     the IBM server. DB2 has APIs for REXX, PL/I, COBOL, RPG, FORTRAN,
+     C++, C, Delphi, .NET CLI, Java, Python, Perl, PHP, Ruby, and many
+     other programming languages. DB2 also supports integration into
+     the Eclipse and Visual Studio integrated development environments
+     :cite:`www-DB2Wiki`.
+
 200. SQL Server
 
      SQL Server :cite:`www-sqlserver-wiki` is a relational database
@@ -3673,11 +3720,11 @@ SQL(NewSQL)
      According to Amazon Web Services, Amazon Relation Database
      Service (Amazon RDS) is a web service which makes it easy to
      setup, operate and scale relational databases in the cloud. As
-     mentioned in :cite:`AmazonRDS` It allows to create and use
+     mentioned in :cite:`www-AmazonRDS` It allows to create and use
      MySQL, Oracle, SQL Server, and PostgreSQL databases in the
      cloud. Thus, codes, applications and tools used with existing
      databases can be used with Amazon RDS. The basic components of
-     Amazon(As listed in :cite:`AmazonRDSComponents`) RDS include: DB
+     Amazon(As listed in :cite:`www-AmazonRDSComponents`) RDS include: DB
      Instances: DB instance is an isolated database environment in the
      cloud. Regions and availability zones: Region is a data center
      location which contains Availability Zones. Availability Zone is
@@ -5653,7 +5700,7 @@ DevOps
      Labs and EMC. Razor was introduced as open, pluggable, and
      programmable since most of the provisioning tools that existed
      were vendor-specific, monolithic, and closed. According to
-     :cite:`RazorWiki` it can deploy both bare-metal and virtual
+     :cite:`www-RazorWiki` it can deploy both bare-metal and virtual
      systems. During boot the Razor client automatically discovers the
      inventory of the server hardware – CPUs, disk, memory, etc.,
      feeds this to the Razor server in real-time and the latest state
@@ -5663,7 +5710,7 @@ DevOps
      rules are referred to choose the preconfigured model to be
      applied to a new node. The node follows the model's directions,
      giving feedback to Razor as it completes various steps as
-     specified in :cite:`RazorPuppet`. Models can include steps for
+     specified in :cite:`www-RazorPuppet`. Models can include steps for
      handoff to a DevOps system or to any other system capable of
      controlling the node.
      
@@ -6631,7 +6678,7 @@ Security & Privacy
 
 372. SAML OAuth
 
-     As explained in :cite:`SAML`, Security Assertion Markup Language
+     As explained in :cite:`www-SAML`, Security Assertion Markup Language
      (SAML) is a secured XML based communication mechanism for
      communicating identities between organizations. The primary use
      case of SAML is Internet SSO. It eliminates the need to maintain
