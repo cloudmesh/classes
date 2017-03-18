@@ -6579,11 +6579,11 @@ Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 365. InCommon
 
-     The mission of InCommon is to ``create and support a common trust
+     The mission of InCommon is to "create and support a common trust
      framework for U.S. education and research.  This includes
      trustworthy shared management of access to on-line resources in
      support of education and research in the United
-     States''. :cite:`www-incommon` This mission ultimately is a
+     States". :cite:`www-incommon` This mission ultimately is a
      simplification and an elimination of the need for multiple
      accounts across various websites that are at risk of data spills
      or misuse.  In the academic setting, this helps assist
@@ -7204,10 +7204,36 @@ New Technologies (To Be Integrated by the AIs)
      different connectors and the ease of adding more connectors, Apex
      easily integrates with an existing dataflow :cite:`apex-ease`.
 
+395. Robot Operating System (ROS)
+
+     The aptly-named *Robot Operating System*, or ROS, provides a
+     framework for writing operating systems for robots.  ROS offers "a 
+     collection of tools, libraries, and conventions [meant to] simplify the 
+     task of creating complex and robust robot behavior across a wide variety 
+     of robotic platforms" :cite:`www-ros-about`. ROS' designers, the Open 
+     Source Robotics Foundation, hereinafter OSRF or the Foundation, attempt 
+     to meet the aforementioned objective by implementing ROS as a modular 
+     system.  That is, ROS offers a core set of features, such as 
+     inter-process communication, that work with or without pre-existing, 
+     self-contained components for other tasks.
+
+     The OSRF designed ROS as a distributed, modular system.  The OSRF 
+     maintains a subset of essential features for ROS, i.e., *ROS 
+     core*, to provide an extensible platform for other roboticists.  The 
+     Foundation also coordinates the maintenance and distribution of a vast 
+     array of ROS add-ons, referred to as modules.  ROS' core consists of the 
+     following components: a) communications infrastructure; b) robot-specific 
+     features; and, c) tools.  The modules, analagous to packages in Linux 
+     repositories or libraries in other software packages such as *R*, 
+     provide solutions for numerous robot-related problems.  General 
+     categories include a) drivers, such as sensor and actuator interfaces; b) 
+     platforms, for steering and image processing, etc.; c) algorithms, for 
+     task planning and obstacle avoidance; and, d) user interfaces, such as 
+     tele-operation and sensor data display.:cite:`www-software-categories`
 
 .. _techs-exercise:
 
-Excersise
+Excercise
 ---------
 
 TechList.1: In class you will be given an HID and you will be assigned
