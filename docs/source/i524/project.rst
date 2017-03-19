@@ -3,10 +3,10 @@ Project
 
 The main activity of the course will be building a significant project
 using multiple subsystems combined with user code and data. Projects
-will be suggested or students can chose their own. A project report
+will be suggested or students can choose their own. A project report
 will summarize the work conducted.
 
-Topics taught in this class will be very relevant for industry as you
+Topics taught in this class will be very relevant for an industry as you
 are not only exposed to big data, but you will also be practically
 exposed to DevOps and collaborative code development tools as part of
 your homework and project assignment.
@@ -15,8 +15,8 @@ Project Selection and Approval
 ------------------------------
 
 Each project must be approved by the TAs and the Professor. This is
-done in an itterative process in which the students needs to first
-provide a 2 page description of the project detailing the project and
+done in an iterative process in which the students needs to first
+provide a 2-page description of the project detailing the project and
 its execution plan. This is a *snapshot* of a draft of the actual
 report that will be handed in at the end. Thus, you do not have to
 write in your proposal the words, we propose, or in this proposal. You
@@ -44,9 +44,9 @@ descriptions that you may want to take a look at include:
   http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf
 * Selected examples from Fall I523:
   Some students may have created an example as part of I523. Not all
-  examples created as part of this class qualify for a I524
+  examples created as part of this class qualify for an I524
   project. Please contact Gregor von Laszewski via Piazza to discuss
-  suitability of your previous I523 project. If such a project is
+  the suitability of your previous I523 project. If such a project is
   selected, approved and used it is expected it is significantly
   enhanced.
 * Cloudmesh Enhancements:
@@ -57,8 +57,8 @@ descriptions that you may want to take a look at include:
   * Development of REST services for cloudmesh while using cloudmesh
     client
   * Development of benchmarking examples while using cloudmesh client
-  * Development of a better Azure interface to additinal services
-  * Development of a better AWS interfac to additinal services
+  * Development of a better Azure interface to additional services
+  * Development of a better AWS interface to additional services
   * Development of a Web interface while using django
   * SLURM integration to create virtual clusters on comet
   * Port cloudmesh client to Windows 10
@@ -126,8 +126,8 @@ on a real cloud (e.g. chameleoncloud.org).
 Is there a sample report?
 -------------------------
 
-Due to the variability of the project we also do not have a sample
-report for a sucessfully conducted project. However the papers written
+Due to the variability of the project, we also do not have a sample
+report for a successfully conducted project. However, the papers written
 in class as well as the homework to develop an ansible deployment will
 provide you with sufficient clarity how to be successful.
 
@@ -146,7 +146,7 @@ computers.
  
 If your project uses neither, you have to make sure that you hand in a
 software stack deployment done very well on some software related to
-the 300+ software systems. You can pick what you want, but shuld not
+the 300+ software systems. You can pick what you want, but should not
 be as simple as installing emacs or R. For example a sharded mongodb
 or cansandra deployment, a distributed deployment of hadoop (some
 students asked for this one despite that we had already one like
@@ -187,10 +187,10 @@ We monitor progress for grades
 
 We monitor your progress in Github and you will get *Discussion*
 points for this. Thus it is imperative you do **Frequent checkins**:
-It is **important** to make frequent and often commits to the github
+It is **important** to make frequent and often commits to the Github
 repository as the activities will be monitored and will be integrated
 into the project grade. For example, if you elect to just check in
-your project at the end of the semester while not using github, you
+your project at the end of the semester while not using Github, you
 will miss points.
 
 Time Management
@@ -201,7 +201,9 @@ and doing proper time management is a must for this class. Avoid
 starting your project late. Procrastination does not pay off.
 Too often we see a student starting their project in the week before
 it is due. We can guarantee you this will be problematic.
-
+To force you to think about your time management we require that your
+report contains a section **Project Execution Plan**, that documents when you
+approximately do what.
 
 Focus on your project
 ---------------------
@@ -209,7 +211,7 @@ Focus on your project
 We will not accept any bonus projects or secondary projects as we want
 that you focus on your class project. If you would have time to do a
 second project, we recommend you add or integrate it in your actual
-project spo you can achieve your best. One exccelent project is better
+project so you can achieve your best. One excellent project is better
 than two good projects.
 
 
@@ -222,7 +224,7 @@ to conduct such an activity. However, this is going to be a
 significant effort and you need to decide if you like to conduct
 this. In such cases if the work is sufficient for publication
 submission, an A+ for the class could be considered. It will be a lot
-of work. The length of such a paper is typically 10-12 high quality
+of work. The length of such a paper is typically 10-12 high-quality
 pages including figures and references. We may elect for the final
 submission to use a different LaTeX style
 
@@ -235,11 +237,11 @@ All project related discussions must be conducted in the **piazza** folder.
 Grading
 -------
 
-Some students form the class asked for a precise grading
-scheme. However, based on previous pobservation with other classes a
-truly outstanding project will not really need a grading scheme.
+Some students from the class asked for a precise grading
+scheme. However, based on the previous observation with other classes
+a truly outstanding project will not really need a grading scheme.
 
-However as we got asked we propose the following::
+However, as we got asked we propose the following::
 
  ansible 30%
  benchmarking 30%
@@ -260,21 +262,22 @@ The following tips have been issued and especially apply to the
 project:
 
 * **Start the project in the first 4 weeks of the class**
-starting means reading thinking and potentially discussing with other students or TAs
-* Do not underestimating the time it takes to do the project.
+  starting means reading thinking and potentially discussing with
+  other students or TAs 
+* Do not underestimate the time it takes to do the project.
 * Do not forget to include benchmarks in your project.
 * Unnecessarily struggling with LaTeX as you do not use an example we
   provide.
 * Not having a computer that is up to date. Update your memory and
-  have a SSD
-* Ignoring obvious security rules and not integrating ssh form the
+  have an SSD
+* Ignoring obvious security rules and not integrating ssh from the
   start into your projects.
 * Not posting passwords into git. For example git does
   **not** allow to **easily** completely delete files that contain secret
   information such as passwords. It takes significant effort to do
   that. Make sure you do add in git on individual files and never
   just a bulk add.
-* Having your coleagues do the work for you
+* Having your colleagues do the work for you
 * Underestimating the **time** it takes to do deployments
 * Not reading our piazza posts and repeating the same question over
   and over
@@ -288,7 +291,7 @@ Artifacts
 The following artifacts are part of the deliverables for a project
 
 Code:
-    You must deliver the code in github. The code must be compilable
+    You must deliver the code in Github. The code must be compilable
     and a TA may try to replicate to run your code. You MUST avoid
     lengthy install descriptions and everything must be installable
     from the command line. We will check submission. All team members
@@ -310,13 +313,13 @@ Work Breakdown:
     many commits and lines of code a team member has contributed. The
     section does not count towards the overall length of the paper.
 
-    In addition the graders will check the history of checkins to
-    verify each team member has used github to checkin their
+    In addition, the graders will check the history of checkins to
+    verify each team member has used Github to checkin their
     contributions frequently. E.g. if we find that one of the students
     has not checked in code or documentation in the same way at other
     teammates, it will be questioned. An oral exam may be scheduled to
     verify that the student has contributed to the project. In an oral
-    exam the student must be familiar with **all** aspects of the
+    exam, the student must be familiar with **all** aspects of the
     project not just the part you contributed.
 
 License:
@@ -328,13 +331,13 @@ License:
     these packages have while adding a licenses file.
 
 
-Reproducability:
-    The reproducability of your code is anticipated to be tested
-    twice. It is tetes by another student or team, it is also tested
+Reproducibility:
+    The reproducibility of your code is anticipated to be tested
+    twice. It is tests by another student or team, it is also tested
     by a TA. A report of the testing team is provided. Your team will
     also be responsible for executing as many tests as you have team
-    members on other projects. A reproducability statement should be
-    written with details about functionality, readbility, and report
+    members on other projects. A reproducibility statement should be
+    written with details about functionality, readability, and report
     quality. This statement does not have to be written in latex but
     uses RST.
 
@@ -364,7 +367,7 @@ Report Format
 All reports will be using the format specified in Section :ref:`reports`.
 
 There will be **NO EXCEPTION** to this format. Documents not following
-this format and are not professionally looking, will be returned
+this format and are not professionally looking will be returned
 without review. The format is the same format that we use for the
 technology papers. Some additional information is provided in the
 technology paper template.
@@ -384,10 +387,9 @@ Code repositories are for code, if you have additional libraries or
 data that are needed you need to develop a script or use a DevOps
 framework to install such software. They **must** not be checked into
 github. Thus zip files and .class, .o, precompiled python, .exe, core
-dumps, and other such files files are not permissible in the
-project. If we find such files you will get a 20% deduction in your
-grade. Each project must be reproducible with a simple script. An
-example is::
+dumps, and other such files are not permissible in the project. If we
+find such files you will get a 20% deduction in your grade. Each
+project must be reproducible with a simple script. An example is::
 
     git clone ....
     make install
@@ -395,10 +397,102 @@ example is::
     make view
 
 Which would use a simple make file to install, run, and view the
-results. Naturally you can use ansible or shell scripts. It is not
+results. Naturally, you can use ansible or shell scripts. It is not
 permissible to use GUI based DevOps preinstalled frameworks (such as
 the one you may have installed in your company or as part of another
-project). Everything must be installable form the command line.
-In many cases it is better not to use shell scripts but actually use
+project). Everything must be installable from the command line.
+In many cases, it is better not to use shell scripts but actually use
 the python CMD or even better the CMD5 tools as presented in class
 
+
+Submission
+----------
+
+The project is submitted into Github into your project directory. We
+will refine this section, but the code must be submitted here. No
+compiled code or data is accepted in this directory. We expect you
+make weekly pull requests.
+
+If you are working in a team, we will set up a "special project directory"
+directory for you, so you need to announce teams on Piazza. A post
+will be made to collect the team information.
+
+Working Alone
+^^^^^^^^^^^^
+
+A README.rst file needs to be included that contains the following
+information (please be mindfull with the spaces, there is an empty
+line between each field. Additional fields may need to be added as the
+project proceeds::
+
+  group: no
+
+  project_url: url to the project directory
+  
+  title: Your Project Title in CamelCase
+
+  author: Firstname Lastname
+
+  HID: your HID
+
+  piazza: your piazza id
+
+  github: your github id
+
+  repository: the link to the report folder
+
+  proposal: report-proposal.pdf
+
+  proposal_submission: mm/dd/2017 hh:mmam
+
+  report: report.pdf
+
+  report_submission: mm/dd/2017 hh:mmam
+  
+  status: short one line non breaking sentance about where you are (updated weekly)
+
+  dataset_url: url of the dataset, do not store in repo
+
+  deployment: short description of what you deploy
+
+  abstract: a copy of the abstract, make sure to use proper
+    indentation in RST format
+  
+  Bibtex Entry
+  ------------
+
+  @TechReport{Project_ID_or_HID-project,
+    author = 	  {},
+    title = 	  {},
+    institution = {Indiana University},
+    year = 	  {2017},
+    type = 	  {Class Project Report},
+    number = 	  {your HID or project id},
+    address = 	  {Course I524, Spring 2017},
+    month = 	  apr,
+    url =         (url of the report.pdf}
+  } 
+     
+  
+  
+Working in a team
+^^^^^^^^^^^^^^^^^^
+
+You will need to communicate via Piazza with the TAs that will set up
+a repository for you. All Github names of all team members will need
+to be listed in that request.
+
+Each author has to go to their HID repository and fill out the
+README.rst while making sure the values ar set as follows::
+
+  group: yes
+
+  project_url: url to the project directory, that will be assigned to you
+
+After the project directory is created, fill out the README.rst, just
+as if you do it for a single user, but add in the Author field the
+list of authors. Use a comma to separate authors. 
+
+Please note that we create automatically a proceedings from the
+README.rst from all students. If you have not filled out the
+README.rst we will not be able to see your submission.

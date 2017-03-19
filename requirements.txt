@@ -6,6 +6,7 @@ sphinxcontrib-bibtex
 foundation-sphinx-theme
 sphinx_bootstrap_theme
 sphinxcontrib-fulltoc
+sphinx-prompt
 pybtex
 watchdog
 Pygments

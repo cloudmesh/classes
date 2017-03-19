@@ -25,6 +25,17 @@ I524 Introduction
    i524/calendar
    i524/lectures
 
+   
+Project
+=======
+
+.. toctree::
+   :maxdepth: 10
+
+   i524/project	      
+   lesson/data/datasets.rst
+   lesson/doc/report
+   
 I524 FAQ
 ========
 
@@ -43,15 +54,6 @@ I524 Technology Collection
    i524/technologies
    references
 
-   
-Project
-=======
-
-.. toctree::
-   :maxdepth: 10
-
-   lesson/data/datasets.rst
-   lesson/doc/report
    
 Document Preparation
 ====================
