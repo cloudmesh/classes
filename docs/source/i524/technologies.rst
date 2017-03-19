@@ -1000,20 +1000,20 @@ Application and Analytics
 	
 55. H2O
 
-    It is an open source software for big data analysis. It was
-    launched by the Start-up H2O in 2011. :cite:`www-H2O-website` It
-    provides an in-memory, distributed, fast and a scalable machine
-    learning and predictive analytics platform that allows the users
-    to build machine learning models on big data. It is written in
-    Java. :cite:`www-H20-book` It is currently implemented in 5000
+    It is an open source software for big data analysis. It was launched
+    by the Start-up H2O in 2011. :cite:`www-H2O-website` It provides an
+    in-memory, distributed, fast and a scalable machine learning and
+    predictive analytics platform that allows the users to build 
+    machine learning models on big data. It is written in
+    Java. :cite:`www-H2O-book` It is currently implemented in 5000
     companies. It provides APIs for R(3.0.0 or later), Python(2.7.x,
     3.5.x), Scala(1.4-1.6) and JSON. The software also allows online
-    scoring and modeling on a single platform.  It is scalable and has
-    a wide range of OS and language support. It works perfectly on the
-    conventional operating systems, and big data systems such as
-    Hadoop, Cloudera, MapReduce, HortonWorks. :cite:`www-H20-wiki` It
-    can be used on cloud computing environments such as Amazon and
-    Microsoft Azure.
+    scoring and modeling on a single platform.  It is scalable and has a
+    wide range of OS and language support. It works perfectly on the
+    conventional operating systems, and big data systems such as Hadoop,
+    Cloudera, MapReduce, HortonWorks. :cite:`www-H2O-wiki` It can be used
+    on cloud computing environments such as Amazon and Microsoft Azure.
+
 
 56. IBM Watson
 
@@ -1401,6 +1401,19 @@ Application and Analytics
 
     
 75. three.js
+
+    :cite:`www-three.js-wiki` Three.js is an API library with about
+    650 contributions till date , where users can create and display
+    an animated 3D computer graphics in a web browser.It is written
+    in javascript and uses WebGL, HTML5 or SVG. Users can animate
+    HTML elements using CSS3 or even import models from 3D modelling
+    apps. :cite:`www-threejs-webpage` In order to display anything
+    using three.js we need three basic features, which are scene,
+    camera and renderer. This will result in rendering the scene
+    with a camera. In addition to these three features , we can add
+    animation, lights (ambience,spot lights, shadows), objects
+    (lines , ribbons , particles) , geometry etc.
+
 76. Potree
 
     Potree :cite:`www-potree` is a opensource tool powered by WebGL
@@ -3089,6 +3102,25 @@ Inter process communication Collectives
      monitors river and floodplains through a set of sensors.
 
 177. Marionette Collective
+
+     :cite: `www-marionette-webpage` It is basically a framework for
+     management of a system where the systems undergo an organized
+    coordination resulting in an automated deployment of systems which
+    creates an orderly workflow or a parallel wise job execution. It
+    doesn’t rely on central inventories such as SSH and uses tools such as
+    Middleware. This gives an advantage of delivering a very scalable and
+    quick execution environment.  Mcollective gives us a huge advantage of
+    working with a large number of servers , it uses publish/subscribe
+    middleware for communicating with many hosts at once in a parallel
+    manner. Mcollective allows us to interact with a cluster of servers at
+    the same time, it allows us to use a simple command line to call
+    remote agents and there isn’t a centralized inventory. Mcollective
+    uses a broadcast paradigm to distribute the requests , where all the
+    servers receives the request at the same time which are also attached
+    with a filter. The servers which match the filter will act on these
+    requests.
+
+
 178. Public Cloud: Amazon SNS
 
      Amazon SNS is an Inter process communication service which gives
