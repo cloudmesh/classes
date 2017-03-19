@@ -249,6 +249,19 @@ Application and Analytics
 
 
 33. MLlib
+
+
+    MLlib is Apache Spark’s scalable machine learning library. :cite:
+    `www-mllib` . Its goal is to make machine learning scalable and easy.
+    It provides various tools such as, algorithms, feature extraction,
+    utilities for data handling and tools for constructing, evaluating,
+    and tuning machine learning pipelines. MLlib uses the linear algebra
+    package Breeze, which depends on netlib-java for optimized numerical
+    processing. It is shipped with Spark and supports several languages
+    which provides functionality for wide range of learning settings.
+    It includes Java, Scala and Python APIs and is released as a part of
+    Spark project under the Apache 2.0 license :cite: `MLlib-article` 
+    
 34. Mbase
 35. DataFu
 
@@ -1362,6 +1375,17 @@ Basic Programming model and runtime, SPMD, MapReduce
      mentioned above.
 
 155. GraphChi
+
+     GraphChi is a disk-based system for computing efficiently on graphs
+     with large number of edges. It uses a well-known method to break
+     large graphs into small parts, and executes data mining, graph mining
+     , machine learning algorithms. GraphChi can process over one hundred
+     thousand graph updates per second, while simultaneously performing
+     computation.  :cite: `GraphChi`. GraphChi is a spin-off of the GraphLab.
+     GraphChi brings web-scale graph computation, such as analysis of social
+     networks, available to anyone with a modern laptop
+
+     
 156. Galois
      
      Galois system was built by intelligent software systems team at
