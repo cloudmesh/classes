@@ -5027,7 +5027,7 @@ Cluster Resource Management
      grid-optimized job submission. Moab's unique intelligent and
      predictive capabilities evaluate the impact of future orchestration
      decisions across diverse workload domains (HPC, HTC, Big Data, and
-     Cloud VMs).:cite:`www-moab`
+     Cloud VMs):cite:`www-moab`.
 
 282. Slurm :cite:`www-slurm`
 
