@@ -2436,6 +2436,15 @@ Streams
      tolerant and highly available.
 
 134. LinkedIn
+	 
+	LinkedIn is a social networking website for Business and employment :cite:`www-linkedinwiki`. LinkedIn has more than 400 million user profiles (as per 10 March2016 news), and increasing at a rate of 2new member every second :cite:`www-linkedinbigdata`. LinkedIn provides different products like: 
+		•	People You May Know
+		•	Skill Endorsements
+		•	Jobs You May Be Interested In
+		•	News Feed Updates
+	Such products are based on big data. To achieve such big data tasks, LinkedIn has its ecosystem consist of Oracle, Hadoop, Pig, Hive, Azkaban (Workflow), Avro Data, Zookeeper, Aster Data, Data In- Apache Kafka, Data Out- Apache Kafka and Voldemort :cite:`www-linkedinbigdata`. LinkedIn uses Hadoop and Aster Data as an analytics layer :cite:`www-linkedinquora`. LinkedIn partitioned the user’s data into separate DB’s stored it in XML format. Voldemort is a key lookup system used to store the analytically-derived data for the products like “People You May Know”. Voldemort stores the data in key-value form  :cite:`www-linkedinquora`. LinkedIn has exposed REST API to get the user data :cite:`www-linkedindevelopers`. 
+
+
 135. Twitter Heron
 
      Heron is a real-time analytics platform that was developed at
@@ -5889,6 +5898,15 @@ DevOps
      application."
 
 334. CloudML
+
+	 Google Could Machine Leaning is a Googles cloud based managed system for building machine learning model, capable to work on any type and volume of data. User can create their own machine learning model using Google TensorFlow framework, which helps to use the range of Google products from Google Photos to Google Cloud Speech. We can build our machine learning model regardless the size, google will managed it infrastructure according to requirement. User can immediately host the created model and start predicting on new data :cite:`www-googlecloudmachinelearning`.
+	 Cloud Machine Learning provides two important things:
+		•	Help user to train the machine learning model at large scale with the help of TensorFlow training application.
+		•	User can host the trained model on cloud, this will help to use the large and new data available on cloud, which help in creating good model.
+	 Google CloudML will help user to focus on model instead of hardware configuration and resource management :cite:`www-googlecloudoverview`.
+
+
+
 335. Blueprints
 
      In :cite:`www-blueprints`, it is explained that "IBM Blueprint 
@@ -7041,7 +7059,7 @@ New Technologies (To Be Integrated by the AIs)
      Foundation :cite:`ant-www`.
 
 392. LXD
-
+	 
      LXD is a  demon processes established to manage the
      containers. It can be understood as hypervisor for linux
      containers. It is implemented by exporting RESTful API for libxlc
@@ -7140,6 +7158,13 @@ New Technologies (To Be Integrated by the AIs)
      different connectors and the ease of adding more connectors, Apex
      easily integrates with an existing dataflow :cite:`apex-ease`.
 
+395. Google Cloud Machine Learning
+	 
+	 Google Could Machine Leaning is a Googles cloud based managed system for building machine learning model, capable to work on any type and volume of data. User can create their own machine learning model using Google TensorFlow framework, which helps to use the range of Google products from Google Photos to Google Cloud Speech. We can build our machine learning model regardless the size, google will managed it infrastructure according to requirement. User can immediately host the created model and start predicting on new data :cite:`www-googlecloudmachinelearning`.
+	 Cloud Machine Learning provides two important things:
+		•	Help user to train the machine learning model at large scale with the help of TensorFlow training application.
+		•	User can host the trained model on cloud, this will help to use the large and new data available on cloud, which help in creating good model.
+	 Google CloudML will help user to focus on model instead of hardware configuration and resource management :cite:`www-googlecloudoverview`.
 
 .. _techs-exercise:
 
