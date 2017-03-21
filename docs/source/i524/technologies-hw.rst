@@ -8,9 +8,9 @@ Completing Techlist Assignments
 
 Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
-From the video you learn how to fork and create pull requests. We
+From the video, you learn how to fork and create pull requests. We
 encourage you to watch the video. It is on purpose long. We assume
-thet you are running the commands in virtualenv
+that you are running the commands in virtualenv
 
 
 Prerequisites
@@ -409,24 +409,24 @@ Check the https://github.com/cloudmesh/classes/pulls to see your pull
 request.  When your changes were approved and merged with the master
 branch, your pull request will disappear.
 
-What happens when I cite a refernce more than once?
+What happens when I cite a reference more than once?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The developers of the module that allows us to use bibtex in sphinx
-ommit the label when a refernce is cited more than once. Back
-refrences are included in the refernce section. We ignore this andhope
-the developers of the module will change this in future. You can
+omit the label when a reference is cited more than once. Back
+references are included in the reference section. We ignore this and
+hope the developers of the module will change this in future. You can
 certainly work with them to fix this and improve their module, but
 this is out of scope for this class. We simply ignore this issue.
 
 What is the difference between label and key?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A key is only used to give bibtex a hint on haow the bibtex entry is
+A key is only used to give bibtex a hint on how the bibtex entry is
 **sorted** in the bibliography. It is not used as label, or the
 specification of some category.
 
-A label is the actuall identifyer that you would use in the text to
+A label is the actual identifier that you would use in the text to
 refer to the entry and is in the line with the @ character.
 
 How do I do an organization as author?
@@ -439,9 +439,9 @@ How do I do an organization as author?
 How do I do an entry that does not have an author?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Leave the author field of, however now there is no sorting
-criteria. To enable proper sorting you add a usefull key that uses the
-place ment in the reference section based on the key you put in.
+Leave the author field of, however now there are  no sorting
+criteria. To enable proper sorting you add a useful key that uses the
+placement in the reference section based on the key you put in.
 
 ::
 
@@ -467,7 +467,7 @@ In case you need to list items you can do it this way::
  
   The technology xyz addresses (a) interoperability, (b)
   extensibility, and (c) an example for avoiding bullet points while
-  replaceing them in a single sentence
+  replacing them in a single sentence
 
 It will result in:
 
