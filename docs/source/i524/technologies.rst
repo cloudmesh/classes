@@ -5027,7 +5027,7 @@ Cluster Resource Management
      grid-optimized job submission. Moab's unique intelligent and
      predictive capabilities evaluate the impact of future orchestration
      decisions across diverse workload domains (HPC, HTC, Big Data, and
-     Cloud VMs).:cite:`www-moab`
+     Cloud VMs):cite:`www-moab`.
 
 282. Slurm :cite:`www-slurm`
 
@@ -7231,6 +7231,21 @@ New Technologies (To Be Integrated by the AIs)
      task planning and obstacle avoidance; and, d) user interfaces, such as 
      tele-operation and sensor data display.:cite:`www-software-categories`
 
+
+396. Apache Flex
+
+     Apache Flex :cite:`www-flex` is an open source aplication
+     framework for building and maintaining mobile and web
+     applications that deploy consistently on multiple browsers,
+     desktops and mobile devices. It was initially developed by
+     Macromedia and then acquired by Adobe Systems. It was later
+     donated to the Apache Software Foundation in 2011
+     :cite:`blog-flex`. It can pull data from multiple back-end
+     sources such as Java, Spring, PHP, Ruby, .NET, Adobe ColdFusion,
+     and SAP and display it visually allowing users to drill down into
+     the data for deeper insight and even change the data and have it
+     automatically updated on the back end :cite:`wiki-flex`.
+     
 .. _techs-exercise:
 
 Excercise
