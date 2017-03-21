@@ -245,7 +245,31 @@ Workflow-Orchestration
     plain text format, they can be version-controlled and shared with
     colleagues. :cite:`www-jupyter-6`
 
-14. (Dryad)
+14. Dryad
+
+    Dryad is a general-purpose distributed execution engine for
+    coarse-grain data-parallel applications. According to
+    :cite:`www-DryadIntro` it was created with the objective of
+    automatically managing scheduling, distribution, fault tolerance
+    etc. Dryad concentrates on the throughput instead of latency and
+    it assumes that a private data centre is used. It creates a
+    dataflow graph by using computational 'vertices' and communication
+    'channels'. The computational vertices are written using C++ base
+    classes and objects. During runtime, the dataflow graph is
+    parallelized by distributing the vertices across multiple
+    processor cores on the same computer or different physical
+    computers connected by a network. The Dryad runtime handles this
+    scheduling without any explicit intervention. The data flow from
+    one vertex to another is realized by TCP/IP streams, shared
+    memory, or temporary files. In the directed acyclic graph created
+    by Dryad, each vertex is a program and the edges represent data
+    channels. Each graph is represented as G = (VG, EG, IG, OG) in
+    :cite:`DryadPaper` where VG is a sequence of vertices with EG
+    directed edges and two sets IG is a subset of VG and OG is a
+    subset of VG that indicate the input and output vertices
+    respectively. Other technologies used for the same purpose as
+    Dryad include Map Reduce, MPI etc.
+    
 15. Naiad
 
     Naiad :cite:`paper-naiad` is a distributed system based on
@@ -2027,6 +2051,39 @@ High level Programming
      structured data analysis workloads.
      
 114. PolyBase
+
+     “PolyBase is a technology that accesses and combines both non-relational
+     and relational data, all from within SQL Server. It allows you to run 
+     queries on external data in Hadoop or Azure Blob storage acts 
+     mediator between SQL and non SQL data store it makes the analysis 
+     of the relation data and other data that is non structure to 
+     tables (Hadoop).”`:cite:www-polybase` Unless there is a way to 
+     transfer data between the data stores it is always difficult to do so. 
+     PolyBase bridges this gap by operating on data that is external 
+     to SQL server. It don’t require additional software, querying to 
+     external can be done with same syntax as querying a database table. 
+     This happens transparently behind the scene, no knowledge of Hadoop
+     or Azure is required.
+
+     It can query data store in Hadoop using T-SQL, polybase also makes 
+     it easy to access the Azure blob data using T-SQL. There is no 
+     need for a separate ETL or import tool while importing data 
+     from Hadoop, “Azure blob storage or Azure Data Lake into relational 
+     tables. It leverages Microsoft’s Columnstore technology and analysis 
+     capabilities while importing”`:cite:www-polybase`. It also archives 
+     data into Hadoop Azure blob and data lake store in cost effective way. 
+
+     Push computation to Hadoop. The query optimizer makes a cost-based 
+     decision to push computation to Hadoop and while doing so will 
+     improve query performance. It uses statistics on external tables 
+     to make the cost-based decision. Pushing computation creates 
+     MapReduce jobs and leverages Hadoop's distributed computational 
+     resources. Scale compute resources. SQL Server PolyBase scale-out 
+     groups can be used to improve query performance. This enables parallel 
+     data transfer between SQL Server instances and Hadoop nodes, 
+     and it adds compute resources for operating on the external data.
+
+
 115. Pivotal HD/Hawq
 
      Pivotal HDB is the Apache Hadoop native SQL database powered by
@@ -2216,6 +2273,37 @@ High level Programming
 
      
 125. Summingbird
+     
+     According to :cite:'summingbirdgit', "Summingbird is
+     a library that lets you write MapReduce programs that look like
+     native Scala or Java collection transformations and execute them
+     on a number of well-known distributed MapReduce platforms,
+     including Storm and Scalding."  Summingbird is open-source and is
+     a domain-specific Scala implemented language
+     :cite:'boykin2014summingbird'. It combines online and batch
+     MapReduce computations into one framework
+     :cite:'boykin2014summingbird'. It utilizes the platforms Hadoop
+     for batch and Storm for online process execution
+     :cite:'boykin2014summingbird'. The open-source Hadoop
+     implementation of MapReduce is a tool which those responsible for
+     data management use to handle problems related to big data
+     :cite:'boykin2014summingbird'. Summingbird uses an algebraic
+     structure called a commutative semigroup to perform aggregations
+     of both batch and online processes
+     :cite:'boykin2014summingbird'. A commutative semigroup is a
+     particular type of semigroup "where the associated binary
+     operation is also commutative" :cite:'boykin2014summingbird'.
+     The types of data that Summingbird takes as inputs are streams
+     and snapshots :cite:'boykin2014summingbird'. The types of data
+     Summingbird jobs generate are called stores and sinks
+     :cite:'boykin2014summingbird'. Stores are "an abstract model of a
+     key-value store" while sinks are unaggregated tuples from a
+     producer :cite:'boykin2014summingbird'. Summingbird aims to
+     simplify the process of both batch and online analytics by
+     exploiting "the formal properties of algebraic structures" to
+     integrate the various modes of distributed processing
+     :cite:'boykin2014summingbird'.
+	   
 126. Lumberyard
      
      It is powerful and full-featured enough to develop triple-A,
@@ -2378,8 +2466,8 @@ Streams
      Twitter for distributed streaming processing. Heron was
      introduced at SIGMOD 2015 to overcome the shortcomings of Twitter
      Storm as the scale and diversity of Twitter data increased. As
-     mentioned in :cite:`TwitterHeronOpen` The primary advantages of
-     Heron were: API compatible with Storm: Back compatibility with
+     mentioned in :cite:`www-TwitterHeronOpen` The primary advantages
+     of Heron were: API compatible with Storm: Back compatibility with
      Twitter Storm reduced migration time. Task-Isolation: Every task
      runs in process-level isolation, making it easy to debug/
      profile. Use of main stream languages: C++, Java, Python for
@@ -2389,7 +2477,7 @@ Streams
      accuracy. Batching of tuples: Amortizing the cost of transferring
      tuples. Efficiency: Reduce resource consumption by 2-5x and Heron
      latency is 5-15x lower than Storm’s latency. The architecture of
-     Heron (as shown in :cite:`TwitterHeron`)uses the Storm API to
+     Heron (as shown in :cite:`www-TwitterHeron`)uses the Storm API to
      submit topologies to a scheduler. The scheduler runs each
      topology as a job consisting of several containers. The
      containers run the topology master, stream manager, metrics
@@ -3006,14 +3094,14 @@ Inter process communication Collectives
      Amazon SNS is an Inter process communication service which gives
      the user simple, end-to-end push messaging service allowing them
      to send messages, alerts, or notifications. According to
-     :cite:`www-sns`, it can be used to send a directed message
+     :cite:`www-sns-webpage`, it can be used to send a directed message
      intended for an entity or to broadcast messages to list of
      selected entities. It is an easy to use and cost effective
      mechanism to send push messages. Amazon SNS is compatible to send
      push notifications to iOS, Windows, Fire OS and Android OS
      devices.
 
-     According to :cite:`sns-blog` SNS system architecture consists 
+     According to :cite:`www-sns-blog` SNS system architecture consists 
      of four elements: (1) Topics, (2) Owners, (3) Publishers, and
      (4) Subscribers. Topics are events or access points that identifies
      the subject of the event and can be accessed by an unique
@@ -3026,7 +3114,7 @@ Inter process communication Collectives
      subscribers interested in the topic, and delivers the message to
      them.
 
-     According to :cite:`sns-faq`, Amazon SNS follows pay as per
+     According to :cite:`www-sns-faq`, Amazon SNS follows pay as per
      usage. In general it is $0.50 per 1 million Amazon SNS
      Requests.Amazon SNS supports notifications over multiple
      transport protocols such as HTTP/HTTPS, Email/Email-JSON,
@@ -3355,11 +3443,11 @@ Object-relational mapping
 195. DataNucleus
 
      DataNucleus (available under Apache 2 open source license) is a
-     data management framework in Java. Formerly known as ‘Java
-     Persistent Objects’ (JPOX) this was relaunched in 2008 as
-     ‘DataNucleus’. According to :cite:`DataNucleusWiki` DataNucleus
-     Access Platform is a fully compliant implementation of the Java
-     Persistent API (JPA) and Java Data Objects (JDO)
+     data management framework in Java. Formerly known as 'Java
+     Persistent Objects' (JPOX) this was relaunched in 2008 as
+     'DataNucleus'. According to :cite:`www-DataNucleusWiki`
+     DataNucleus Access Platform is a fully compliant implementation
+     of the Java Persistent API (JPA) and Java Data Objects (JDO)
      specifications. It provides persistence and retrieval of data to
      a number of datastores using a number of APIs, with a number of
      query languages. In addition to object-relational mapping (ORM)
@@ -3369,11 +3457,11 @@ Object-relational mapping
      (XLS, OOXML, XML, ODF), Web-based (Amazon S3, Google Storage,
      JSON), Doc-based (MongoDB) and Others (NeoDatis, LDAP). It
      supports the JPA (Uses JPQL Query language), JDO (Uses JDOQL
-     Query language) and REST APIs :cite:`DataNucleus`.DataNucleus
+     Query language) and REST APIs :cite:`www-DataNucleus`.DataNucleus
      products are built from a sequence of plugins where each of it is
      an OSGi bundle and can be used in an OSGi environment. Google App
      Engine uses DataNucleus as the Java persistence layer
-     :cite:`DataNucleusPerformance`.
+     :cite:`www-DataNucleusPerformance`.	   
 	   
 196. ODBC/JDBC
 
@@ -3449,6 +3537,29 @@ SQL(NewSQL)
 
 
 199. DB2
+
+     DB2 is a Relational DataBase Management System (RDBMS). Though
+     initially introduced in 1983 by IBM to run exclusively on its MVS
+     (Multiple Virtual Storage) mainframe platform, it was later
+     extended to other operating systems like UNIX, Windows and
+     Linux. It is used to store, analyze and retrieve the data and is
+     extended with the support of Object-Oriented features and
+     non-relational structures with XML :cite:`www-DB2Intro`. DB2
+     server editions include: Advanced Enterprise Server Edition and
+     Enterprise Server Edition (AESE / ESE) designed for mid-size to
+     large-size business organizations, Workgroup Server Edition (WSE)
+     designed for Workgroup or mid-size business organizations,
+     Express -C provides the capabilities of DB2 at no charge and can
+     run on any physical or virtual systems, Express Edition designed
+     for entry level and mid-size business organizations, Enterprise
+     Developer Edition offers single application developer useful to
+     design, build and prototype the applications for deployment on
+     the IBM server. DB2 has APIs for REXX, PL/I, COBOL, RPG, FORTRAN,
+     C++, C, Delphi, .NET CLI, Java, Python, Perl, PHP, Ruby, and many
+     other programming languages. DB2 also supports integration into
+     the Eclipse and Visual Studio integrated development environments
+     :cite:`www-DB2Wiki`.
+
 200. SQL Server
 
      SQL Server :cite:`www-sqlserver-wiki` is a relational database
@@ -3472,6 +3583,33 @@ SQL(NewSQL)
 
 
 201. SQLite
+
+     SQLite is a severless SQL database engine whose source code
+     resides in the public domain :cite:'sqliteabout'. SQLite
+     databases, including tables, indices, and views, reside on a
+     single file on the disk :cite:'sqliteabout'. It has a compact
+     library, often taking up less than KiB of space, depending on the
+     particular configuration :cite:'sqliteabout'. Performance is the
+     tradeoff with the smaller size, i.e. performance usually runs
+     faster when given more memory :cite:'sqliteabout'. SQLite
+     transactions comply with the ACID (Atomicity, Consistency,
+     Isolation, Durability) :cite:'acid' properties
+     :cite:'sqliteabout'. SQLite does not require administration or
+     configuration :cite:'sqliteover'. There are some limitations
+     associated with SQLite, such as the inability to perform Right
+     Outer Joins, read-only views, and access permissions (other than
+     those that are associated with regular file acces permissions)
+     :cite:'sqliteover' SQLite does not compare directly with
+     clien/server databases such as MySQL as they are both trying to
+     solve different problems :cite:'sqlitewhentouse'. While database
+     engines such as MySQL aim to provide a shared database, with
+     different access permissions to different
+     individuals/applications, SQLite has the goal of being a local
+     repository of data for applications :cite:'sqlitewhentouse' While
+     SQLite is not appropriate for every situation, there certainly
+     exists situations where it can prove to be a prudent choice for
+     data management needs :cite:'sqlitewhentouse'.
+     
 202. MySQL
 
      MySQL is a relational database management system. :cite:`devmysql` SQL
@@ -3520,6 +3658,22 @@ SQL(NewSQL)
      downtime).
 
 206. SciDB
+
+     SciDB is an open source DBMS based on multi-dimensional array data model
+     and runs on Linux platform. :cite:`ercimnews` The data store is optimized
+     for mathematical operations such as linear algebra and statistical
+     analysis. The data can be distributed across multiple nodes in a cluster. 
+
+     The dimensions of the data can be either standard integers or user-defined
+     types. Ragged arrays are also supported. The data is accessed through AQL,
+     a SQL like language designed specifically for array operations. It
+     supports operations such as to filter and join arrays and aggregation over
+     the cell values. It has few similarities to Postgres in terms of
+     user-defined scalar functions and storage manager. Old values of data are
+     updated instead of being deleted to retain different versions of a cell.
+     The arrays are divided into chunks and partitioned across the nodes in the
+     cluster, with provision of caching some of them in the main memory. 
+
 207. Rasdaman
 
      Rasdaman is an specialized database management system which adds
@@ -3582,22 +3736,23 @@ SQL(NewSQL)
      According to Amazon Web Services, Amazon Relation Database
      Service (Amazon RDS) is a web service which makes it easy to
      setup, operate and scale relational databases in the cloud. As
-     mentioned in :cite:`AmazonRDS` It allows to create and use
+     mentioned in :cite:`www-AmazonRDS` It allows to create and use
      MySQL, Oracle, SQL Server, and PostgreSQL databases in the
      cloud. Thus, codes, applications and tools used with existing
      databases can be used with Amazon RDS. The basic components of
-     Amazon(As listed in :cite:`AmazonRDSComponents`) RDS include: DB
-     Instances: DB instance is an isolated database environment in the
-     cloud. Regions and availability zones: Region is a data center
-     location which contains Availability Zones. Availability Zone is
-     isolated from failures in other Availability Zones. Security
-     groups: controls access to DB instance by allowing access to IP
-     address ranges or Amazon EC2 instances that is specified. DB
-     parameter groups: manage configuration of DB engine by specifying
-     engine configuration values that are applied to one or more DB
-     instances of the same instance type. DB option groups: Simplifies
-     data management through Oracle Application Express (APEX), SQL
-     Server Transparent Data Encryption, and MySQL memcached support.
+     Amazon(As listed in :cite:`www-AmazonRDSComponents`) RDS include:
+     DB Instances: DB instance is an isolated database environment in
+     the cloud. Regions and availability zones: Region is a data
+     center location which contains Availability Zones. Availability
+     Zone is isolated from failures in other Availability
+     Zones. Security groups: controls access to DB instance by
+     allowing access to IP address ranges or Amazon EC2 instances that
+     is specified. DB parameter groups: manage configuration of DB
+     engine by specifying engine configuration values that are applied
+     to one or more DB instances of the same instance type. DB option
+     groups: Simplifies data management through Oracle Application
+     Express (APEX), SQL Server Transparent Data Encryption, and MySQL
+     memcached support.
 
      
 213. Google F1
@@ -4464,7 +4619,7 @@ File management
 
 260. RCFile
 
-     RCFile (Record Columnar File) :cite:`www-rcfile` is a big
+     RCFile (Record Columnar File) :cite:`www-rcfile-wiki` is a big
      data placement data structure that supports fast data loading and
      query processing coupled with efficient storage space utilization
      and adaptive to dynamic workload environments. It is designed for
@@ -4543,7 +4698,7 @@ Data Transport
 264. HTTP
 265. FTP
 
-     According to :cite:`ftp-wiki` FTP is an acronym for File Transfer
+     According to :cite:`www-ftp-wiki` FTP is an acronym for File Transfer
      Protocol. It is network protocol standard used for transferring
      files between two computer systems or between a client and a
      server. It is part of the Application layer of the Internet
@@ -5562,7 +5717,7 @@ DevOps
      Labs and EMC. Razor was introduced as open, pluggable, and
      programmable since most of the provisioning tools that existed
      were vendor-specific, monolithic, and closed. According to
-     :cite:`RazorWiki` it can deploy both bare-metal and virtual
+     :cite:`www-RazorWiki` it can deploy both bare-metal and virtual
      systems. During boot the Razor client automatically discovers the
      inventory of the server hardware – CPUs, disk, memory, etc.,
      feeds this to the Razor server in real-time and the latest state
@@ -5572,8 +5727,8 @@ DevOps
      rules are referred to choose the preconfigured model to be
      applied to a new node. The node follows the model's directions,
      giving feedback to Razor as it completes various steps as
-     specified in :cite:`RazorPuppet`. Models can include steps for
-     handoff to a DevOps system or to any other system capable of
+     specified in :cite:`www-RazorPuppet`. Models can include steps
+     for handoff to a DevOps system or to any other system capable of
      controlling the node.
      
 318. CloudMesh
@@ -6424,11 +6579,11 @@ Security & Privacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 365. InCommon
 
-     The mission of InCommon is to ``create and support a common trust
+     The mission of InCommon is to "create and support a common trust
      framework for U.S. education and research.  This includes
      trustworthy shared management of access to on-line resources in
      support of education and research in the United
-     States''. :cite:`www-incommon` This mission ultimately is a
+     States". :cite:`www-incommon` This mission ultimately is a
      simplification and an elimination of the need for multiple
      accounts across various websites that are at risk of data spills
      or misuse.  In the academic setting, this helps assist
@@ -6540,22 +6695,22 @@ Security & Privacy
 
 372. SAML OAuth
 
-     As explained in :cite:`SAML`, Security Assertion Markup Language
-     (SAML) is a secured XML based communication mechanism for
-     communicating identities between organizations. The primary use
-     case of SAML is Internet SSO. It eliminates the need to maintain
-     multiple authentication credentials in multiple locations. This
-     enhances security by elimination opportunities for identity
-     theft/Phishing. It increases application access by eliminating
-     barriers to usage. It reduces administration time and cost by
-     excluding the effort to maintain duplicate credentials and
-     helpdesk calls to reset forgotten passwords. Three entities of
-     SAML are the users, Identity Provider (IdP-Organization that
+     As explained in :cite:`www-SAML`, Security Assertion Markup
+     Language (SAML) is a secured XML based communication mechanism
+     for communicating identities between organizations. The primary
+     use case of SAML is Internet SSO. It eliminates the need to
+     maintain multiple authentication credentials in multiple
+     locations. This enhances security by elimination opportunities
+     for identity theft/Phishing. It increases application access by
+     eliminating barriers to usage. It reduces administration time and
+     cost by excluding the effort to maintain duplicate credentials
+     and helpdesk calls to reset forgotten passwords. Three entities
+     of SAML are the users, Identity Provider (IdP-Organization that
      maintains a directory of users and an authentication mechanism)
      and Service Provider(SP-Hosts the application /service). User
      tries to access the application by clicking on a link or through
      an URL on the internet. The Federated identity software running
-     in the IdP validates the user’s identity and the user is then
+     in the IdP validates the user's identity and the user is then
      authenticated. A specifically formatted message is then
      communicated to the federated identity software running at SP. SP
      creates a session for the user in the target application and
@@ -7026,9 +7181,59 @@ New Technologies (To Be Integrated by the AIs)
      and easily. :cite:'knox' This technology would be best placed
      under the interoperability category.
 
+     Apache Apex
+
+     The Apex platform is designed to process real-time events with
+     streaming data natively in Hadoop. The platform handles
+     application execution, dynamic scaling, state checkpointing and
+     recovery, etc. This allows the users to focus on writing their
+     application logic without mixing operational and functional
+     concerns :cite:`apache-apex`. In the platform, building a
+     streaming application is easy and intuitive.
+
+     An application may consist of one or more operators each of which
+     define some logical operation to be done on the tuples arriving
+     at the operator. These operators are connected together to form
+     streams. A streaming application is represented by a DAG that
+     consists of operators and streams :cite:`apex-operators`. The
+     Apex platform comes with support for web services and
+     metrics. This enables ease of use and easy integration with
+     current data pipeline components. DevOps teams can monitor data
+     in action using existing systems and dashboards with minimal
+     changes, thereby easily integrating with the current setup. With
+     different connectors and the ease of adding more connectors, Apex
+     easily integrates with an existing dataflow :cite:`apex-ease`.
+
+395. Robot Operating System (ROS)
+
+     The aptly-named *Robot Operating System*, or ROS, provides a
+     framework for writing operating systems for robots.  ROS offers "a 
+     collection of tools, libraries, and conventions [meant to] simplify the 
+     task of creating complex and robust robot behavior across a wide variety 
+     of robotic platforms" :cite:`www-ros-about`. ROS' designers, the Open 
+     Source Robotics Foundation, hereinafter OSRF or the Foundation, attempt 
+     to meet the aforementioned objective by implementing ROS as a modular 
+     system.  That is, ROS offers a core set of features, such as 
+     inter-process communication, that work with or without pre-existing, 
+     self-contained components for other tasks.
+
+     The OSRF designed ROS as a distributed, modular system.  The OSRF 
+     maintains a subset of essential features for ROS, i.e., *ROS 
+     core*, to provide an extensible platform for other roboticists.  The 
+     Foundation also coordinates the maintenance and distribution of a vast 
+     array of ROS add-ons, referred to as modules.  ROS' core consists of the 
+     following components: a) communications infrastructure; b) robot-specific 
+     features; and, c) tools.  The modules, analagous to packages in Linux 
+     repositories or libraries in other software packages such as *R*, 
+     provide solutions for numerous robot-related problems.  General 
+     categories include a) drivers, such as sensor and actuator interfaces; b) 
+     platforms, for steering and image processing, etc.; c) algorithms, for 
+     task planning and obstacle avoidance; and, d) user interfaces, such as 
+     tele-operation and sensor data display.:cite:`www-software-categories`
+
 .. _techs-exercise:
 
-Excersise
+Excercise
 ---------
 
 TechList.1: In class you will be given an HID and you will be assigned

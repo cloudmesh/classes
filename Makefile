@@ -92,17 +92,13 @@ notes:
 
 # FIXME: should be cloudmesh/classes
 dockerimage: Dockerfile $(wildcard docker/*)
-	for tag in latest $(GIT_RECENT_TAG); do \
-	  time docker build -t badi/cloudmesh_classes:$(GIT_RECENT_TAG) . ;\
-	done
+	time docker build -t badi/cloudmesh_classes:latest . 
 
 # FIXME this should be cloudmesh/classes
 dockerpublish: dockerimage
-	for tag in latest $(GIT_RECENT_TAG); do \
-	  time docker push badi/cloudmesh_classes:$(GIT_RECENT_TAG) ; \
-	done
+	time docker push badi/cloudmesh_classes:latest
 
-dockerrun: dockerimage
+dockerrun:
 	time docker run \
 	  -e HOST_UID=$(shell id -u) \
 	  -e HOST_GID=$(shell id -g) \

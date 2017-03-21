@@ -48,12 +48,12 @@ them. Topics of this class will include:
    environments based on software deployed and used on clouds while
    using Containers, OpenStack and Ansible playbooks.
 
-#. Students will chose a number of open source members of the list
+#. Students will choose a number of open source members of the list
    each and create repeatable deployments as illustrated in class. 
 
 #. The main activity of the course will be building a significant
    project using multiple subsystems combined with user code and
-   data. Projects will be suggested or students can chose their own. A
+   data. Projects will be suggested or students can choose their own. A
    project report will summarize the work conducted.
 
 #. Topics taught in this class will be very relevant for industry as
@@ -197,7 +197,7 @@ Who can take the class?
   to have enough time to learn python if you do not know it.
 
 * You can take I524 without taking I523, but you must be proficient
-  in python. Overlap between I523 and I524 only relates to some
+  in python. The overlap between I523 and I524 only relates to some
   introduction lectures and naturally lectures from the systems track
   such as github, report writing, introduction to python.
 
@@ -240,10 +240,10 @@ Grading policies are listed in Table 1.
   also on the technology papers. However the workload is not reduced,
   you will produce 3 times the number of group members technology
   papers of unique technologies. However, you can have multiple
-  coauthors for each paper (up to thre) that are part of your
+  coauthors for each paper (up to three) that are part of your
   group. Please do not ask us how many technology papers you need to
   write if you are in a group. The rule is clearly specified. Example:
-  Your group has 3 members, each of them has to procude 3 unique
+  Your group has 3 members, each of them has to produce 3 unique
   papers, thus you have to produce 9 unique technology papers for this
   group. If you have 2 members you have to produce 6, if you work
   alone you have to produce 3.
@@ -263,7 +263,7 @@ Grading policies are listed in Table 1.
   you work in a group you will be asked to deploy a larger system or
   demonstrate deployability on multiple clouds or container frameworks
   while benchmarking and comparing them. A group project containing 2
-  or 3 team members shoudl not look like a project done by an
+  or 3 team members should not look like a project done by an
   individual. Please plan careful and make sure all team members
   contribute.
 
@@ -275,11 +275,11 @@ Grading policies are listed in Table 1.
   project late. Procrastination does not pay off.
        
 * **No bonus projects:** This class will not have any bonus projects
-  or regrading requests. Instead you need to focus your time on the
+  regrading to requests. Instead, you need to focus your time on the
   papers and the project assignments and homework.
 
 * **Voluntary work:** You are welcome to conduct assignments and
-  excerises you find on the class Web page on your own. However they
+  exercises you find on the class Web page on your own. However, they
   are not graded or considered for extra credit.
 
 * **Late homework**: Any late homework will be receiving a 10% grade
@@ -326,9 +326,9 @@ We expect you are familiar with:
 * Python 2.7.x (we will not use python 3 for this class as it
   is not yet portable with all systems) Although python is considered
   to be a straight forward language to learn, students that have not
-  done any programming my find it challanging. 
+  done any programming may find it challenging. 
   
-* Familaiarity with th Python eco system. The best way to install
+* Familiarity with the Python ecosystem. The best way to install
   python on a computer is to use virtualenv, and pip (which we will
   teach you as part of the class).
 
@@ -350,11 +350,11 @@ technologies to gather the homework submissions. We will not be using
 CANVAS so we teach you these technologies that are often mandated in
 industry. CANVAS is not.
 
-As a consequence all technology papers from all students will be
+As a consequence, all technology papers from all students will be
 available as a single big technical report. To achieve this all
-reports must be written in the same format. This wil be LaTeX and all
+reports must be written in the same format. This will be LaTeX and all
 references have to be provided a bibtex file while you use jabref.
-Alternatively lyx.org can be used, if you prefer to edit
+Alternatively, lyx.org can be used, if you prefer to edit
 latex in *what you see is almost what you get* format. The use of
 sharelatex or overleave or lyx.org is allowed.
 
@@ -366,7 +366,7 @@ Piazza
 
 All communication will be done via Piazza. We will not read e-mail
 send to our university or private e-mails. All instructors are
-following this rule. Any mail that is not send via Piazza will be
+following this rule. Any mail that is not sent via Piazza will be
 **not read** and **deleted**. This is also true for any mail send to
 the inbox system in CANVAS. We found CANVAS a not scalable solution
 for our class and will not use CANVAS for reaching out to you.   If you
@@ -389,7 +389,7 @@ help:
     please mark it again as unresolved or post a follow up.
 
 project:
-    Questions related to projects are posted here.
+    Questions related to projectsis posted here.
 
 logistics:
     Question regarding the logistics of the class are posted
@@ -414,8 +414,8 @@ faq:
 meetings: Here we will post times for meetings with TA's and
     instructors that are not yet posted on the Web page as part of the
     regular meeting times. Class participants are allowed to attend
-    any Zoom meeting that we annonce in this folder. For online
-    students we will also determine a time for regulare meetings. The
+    any Zoom meeting that we announce in this folder. For online
+    students we will also determine a time for regular meetings. The
     TAs are required to hold 10 hours of meeting times upon request
     with you. Please make use of this.
 
@@ -443,8 +443,8 @@ your best:
 * **Start the project in the first 4 weeks of the class**
 * Be aware that this class is not based on a text book and what this
   implies. 
-* Do not overestimating the technical abilities.
-* Do not underestimating the time it takes to do the project.
+* Do not overestimate the technical abilities.
+* Do not underestimate the time it takes to do the project.
 * Do not forget to include benchmarks in your project.
 * Unnecessarily struggling with LaTeX as you do not use an example we
   provide.
@@ -459,7 +459,7 @@ your best:
   information such as passwords. It takes significant effort to do
   that. Make sure you do add in git on individual files and never
   just a bulk add.
-* Having your coleagues do the work for you
+* Having your colleagues do the work for you
 * Underestimating the **time** it takes to do deployments
 * Not reading our piazza posts and repeating the same question over
   and over
@@ -516,7 +516,7 @@ descriptions that you may want to take a look at include:
   http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf
 * Selected examples from Fall I523:
   Some students may have created an example as part of I523. Not all
-  examples created as part of this class qualify for a I524
+  examples created as part of this class qualify for an I524
   project. Please contact Gregor von Laszewski via Piazza to discuss
   suitability of your previous I523 project. If such a project is
   selected, approved and used it is expected it is significantly
@@ -529,8 +529,8 @@ descriptions that you may want to take a look at include:
   * Development of REST services for cloudmesh while using cloudmesh
     client
   * Development of benchmarking examples while using cloudmesh client
-  * Development of a better Azure interface to additinal services
-  * Development of a better AWS interfac to additinal services
+  * Development of a better Azure interface to additional services
+  * Development of a better AWS interface to additional services
   * Development of a Web interface while using django
   * SLURM integration to create virtual clusters on comet
   * Port cloudmesh client to Windows 10
@@ -543,7 +543,7 @@ descriptions that you may want to take a look at include:
 Software Project
 ----------------
 
-For a software project you have the choice of working indifidualy or
+For a software project you have the choice of working individually or
 working in a team of up to three students. You can use the **search
 teammate** folder to find and form groups:
 
@@ -574,7 +574,7 @@ Work Breakdown:
     many commits and lines of code a team member has contributed. The
     section does not count towards the overall length of the paper.
 
-    In addition the graders will check the history of checkins to
+    In addition, the graders will check the history of checkins to
     verify each team member has used github to checkin their
     contributions frequently. E.g. if we find that one of the students
     has not checked in code or documentation in the same way at other
@@ -592,18 +592,18 @@ License:
     these packages have while adding a licenses file.
 
 
-Reproducability:
-    The reproducability of your code will be tested
+Reproducibility:
+    The reproducibility of your code will be tested
     twice. It is tetes by another student or team, it is also tested
     by a TA. A report of the testing team is provided. Your team will
     also be responsible for executing as many tests as you have team
-    members on other projects. A reproducability statement should be
-    written with details about functionality, readbility, and report
+    members on other projects. A reproducibility statement should be
+    written with details about functionality, readability, and report
     quality. This statement does not have to be written in latex but
     uses RST.
 
 Requirements:
-    * Use of cloud resources mandatory, can be substituted by
+    * Use of cloud resources are mandatory and can be substituted by
       kubeernetes or docker swarm
     * Deployment must be done with ansible
     * A Makefile or a cmd file as discussed in class is needed to
@@ -622,7 +622,7 @@ Requirements:
       than the once provided by cloudmesh. Proof is to be provided by
       reproducible benchmarks. If this can not be achieved the
       student(s) have to write an additional ansible script for a
-      technologie listed in class or approved by the professor.
+      technology listed in class or approved by the professor.
       
 Additional links form another class:
     This other class contains a section deployment
@@ -644,7 +644,7 @@ Report Format
 All reports will be using the format specified in Section :ref:`reports`.
 
 There will be **NO EXCEPTION** to this format. Documents not following
-this format and are not professionally looking, will be returned
+this format or not looking professional will be returned
 without review.
 
 Github repositories
@@ -662,7 +662,7 @@ Code repositories are for code, if you have additional libraries or
 data that are needed you need to develop a script or use a DevOps
 framework to install such software. They **must** not be checked into
 github. Thus zip files and .class, .o, precompiled python, .exe, core
-dumps, and other such files files are not permissible in the
+dumps, and other such files are not permissible in the
 project. If we find such files you will get a 20% deduction in your
 grade. Each project must be reproducible with a simple script. An
 example is::
@@ -676,7 +676,7 @@ Which would use a simple make file to install, run, and view the
 results. Naturally you can use ansible or shell scripts. It is not
 permissible to use GUI based DevOps preinstalled frameworks (such as
 the one you may have installed in your company or as part of another
-project). Everything must be installable form the command line.
+project). Everything must be installable from the command line.
       
 
 
@@ -685,7 +685,7 @@ Learning Outcomes
 
 Students will
 
-1. gain broad understanding of Big Data applications and open source
+1. gain a broad understanding of Big Data applications and open source
    technologies supporting them.
 
 2. have intense programming experience in Python and ansible and DevOps.
@@ -693,7 +693,7 @@ Students will
 3. use open source technologies to manage code in large groups of
    individuals.
 
-4. be able to communicate reserach in professional scientific reports.
+4. be able to communicate research in professional scientific reports.
 
 
 Outcome 1 is supported by a series of lectures around open source
@@ -707,7 +707,7 @@ report that is shared with all students. Students can gain additional
 insight from reading and reviewing other students contributions.
 
 Outcome 3 is supported by using piazza and github as well as
-contributiong to the class Web page with git pull requests.
+contributing to the class Web page with git pull requests.
 
 
 
