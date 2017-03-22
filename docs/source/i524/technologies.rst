@@ -2460,15 +2460,35 @@ Streams
      tolerant and highly available.
 
 134. LinkedIn
+     
+     LinkedIn is a social networking website for 
+     Business and employment :cite:`www-linkedinwiki`.
+     LinkedIn has more than 400 million user profiles 
+     (as per 10 March2016 news), and increasing at a
+     rate of 2new member every second
+     :cite:`www-linkedinbigdata`. LinkedIn provides
+     different products like:
+     
+     1.  People You May Know
+     2.  Skill Endorsements
+     3.  Jobs You May Be Interested In
+     4.  News Feed Updates
+
+     Such products are based on big data. To achieve such
+     big data tasks, LinkedIn has its ecosystem consist of
+     Oracle, Hadoop, Pig, Hive, Azkaban (Workflow), Avro
+     Data, Zookeeper, Aster Data, Data In- Apache Kafka,
+     Data Out- Apache Kafka and Voldemort
+     :cite:`www-linkedinbigdata`. LinkedIn uses Hadoop
+     and Aster Data as an analytics layer
+     :cite:`www-linkedinquora`. LinkedIn partitioned the
+     user’s data into separate DB’s stored it in XML format.
+     Voldemort is a key lookup system used to store the
+     analytically-derived data for the products like “People
+     You May Know”. Voldemort stores the data in key-value
+     form  :cite:`www-linkedinquora`. LinkedIn has exposed REST
+     API to get the user data :cite:`www-linkedindevelopers`. 
 	 
-	LinkedIn is a social networking website for Business and employment :cite:`www-linkedinwiki`. LinkedIn has more than 400 million user profiles (as per 10 March2016 news), and increasing at a rate of 2new member every second :cite:`www-linkedinbigdata`. LinkedIn provides different products like: 
-		•	People You May Know
-		•	Skill Endorsements
-		•	Jobs You May Be Interested In
-		•	News Feed Updates
-	Such products are based on big data. To achieve such big data tasks, LinkedIn has its ecosystem consist of Oracle, Hadoop, Pig, Hive, Azkaban (Workflow), Avro Data, Zookeeper, Aster Data, Data In- Apache Kafka, Data Out- Apache Kafka and Voldemort :cite:`www-linkedinbigdata`. LinkedIn uses Hadoop and Aster Data as an analytics layer :cite:`www-linkedinquora`. LinkedIn partitioned the user’s data into separate DB’s stored it in XML format. Voldemort is a key lookup system used to store the analytically-derived data for the products like “People You May Know”. Voldemort stores the data in key-value form  :cite:`www-linkedinquora`. LinkedIn has exposed REST API to get the user data :cite:`www-linkedindevelopers`. 
-
-
 135. Twitter Heron
 
      Heron is a real-time analytics platform that was developed at
@@ -5925,7 +5945,7 @@ DevOps
      :cite:`github-buildstep`. 
 
 331. Gitreceive
-
+     
      Gitreceive is used to create an ssh+git user which can accept
      repository pushes right away and also triggers a hook
      script. Gitreceive is used to push code anywhere as well as
@@ -5962,13 +5982,30 @@ DevOps
      application."
 
 334. CloudML
-
-	 Google Could Machine Leaning is a Googles cloud based managed system for building machine learning model, capable to work on any type and volume of data. User can create their own machine learning model using Google TensorFlow framework, which helps to use the range of Google products from Google Photos to Google Cloud Speech. We can build our machine learning model regardless the size, google will managed it infrastructure according to requirement. User can immediately host the created model and start predicting on new data :cite:`www-googlecloudmachinelearning`.
-	 Cloud Machine Learning provides two important things:
-		•	Help user to train the machine learning model at large scale with the help of TensorFlow training application.
-		•	User can host the trained model on cloud, this will help to use the large and new data available on cloud, which help in creating good model.
-	 Google CloudML will help user to focus on model instead of hardware configuration and resource management :cite:`www-googlecloudoverview`.
-
+                                                             
+     CloudML a research project initiated by SINTEF in 
+     2011 :cite:`www-cloudml`. Cloud computing facilitates
+     to shared and virtualized computer capabilities like
+     storage, memory, CPU, GPU and networks, to user. 
+     There is multiple cloud provider, also the
+     Iaas(Infrastructure-as-a-service) and
+     Pass(Platform-as-a-service). 
+     To operate multiple cloud for applications, which requires multiple 
+     private, public, or hybrid clouds, limit the capability of each cloud 
+     solution.  Solution provided by such cloud will gets incompatible with 
+     others. So, to providing the solution which can compatible with 
+     multi-cloud platform is a tedious job. To achieve this CloudML provides a “domain-specific modelling 
+     language along with run time environment”
+     :cite:`www-cloudml`.It provides the 
+     interoperability and provide vendor lock-in, also 
+     it provides the solution on specification of provisioning, deployment, and adaptation concerns of
+     multi-cloud systems. At design time as well as runtime
+     :cite:`www-cloudml` . CloudML provides two level 
+     of abstraction while developing model for multi-cloud application:
+     a.	Cloud Provider-Independent Model (CPIM), this specifies the provisioning and deployment.
+     b.	Cloud Provider-Specific Model (CPSM), which filters the provisioning and deployment of multiple cloud application, according to its cloud.
+     This two abstract approach help CloudML to achieve the multi-cloud 
+     application support :cite:`www-cloudmlwiki`.
 
 
 335. Blueprints
@@ -7224,15 +7261,31 @@ New Technologies (To Be Integrated by the AIs)
 
 
 395. Google Cloud Machine Learning
-	 
-	 Google Could Machine Leaning is a Googles cloud based managed system for building machine learning model, capable to work on any type and volume of data. User can create their own machine learning model using Google TensorFlow framework, which helps to use the range of Google products from Google Photos to Google Cloud Speech. We can build our machine learning model regardless the size, google will managed it infrastructure according to requirement. User can immediately host the created model and start predicting on new data :cite:`www-googlecloudmachinelearning`.
-	 Cloud Machine Learning provides two important things:
-		•	Help user to train the machine learning model at large scale with the help of TensorFlow training application.
-		•	User can host the trained model on cloud, this will help to use the large and new data available on cloud, which help in creating good model.
-	 Google CloudML will help user to focus on model instead of hardware configuration and resource management :cite:`www-googlecloudoverview`.
+     
+     Google Could Machine Leaning is a Googles cloud 
+     based managed system for building machine learning model,
+     capable to work on any type and volume of data.
+     User can create their own machine learning model
+     using GoogleTensorFlow framework, which 
+     helps to use the  range of Google products from 
+     Google Photos to Google Cloud Speech. We can 
+     build our machine learning model regardless the 
+     size, google will managed it infrastructure 
+     according to  requirement. User can immediately host 
+     the created model and start predicting on new data
+     :cite:`www-googlecloudmachinelearning`.
+     Cloud Machine Learning provides two important things:
+    	 
+     1. Help user to train the machine learning model at large scale with the help of TensorFlow  training application.
+     2. User can host the trained model on cloud,  this will help to use the large and new data available on cloud, which help in creating good model.
 
+     Google CloudML will help user to focus on 
+     model instead of hardware configuration and resource
+     management :cite:`www-googlecloudoverview`.
+	
+ 
 396. Robot Operating System (ROS)
-
+	 
      The aptly-named *Robot Operating System*, or ROS, provides a
      framework for writing operating systems for robots.  ROS offers "a 
      collection of tools, libraries, and conventions [meant to] simplify the 
