@@ -10,11 +10,11 @@ Conventions
        $ ls
 
 `PORTALNAME`
-    In some examples we refer to your portal name as the `PORTALNAME`
+    In some examples, we refer to your portal name as the `PORTALNAME`
     you have on FutureSystems.
 
 `USERNAME`
-    In some examples we refer to your local computers name as
+    In some examples, we refer to your local computers name as
     `USERNAME`. Your portal name and your local name may be
     different.
 

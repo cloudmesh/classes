@@ -12,6 +12,8 @@ Python, Introduction to Python, :doc:`Web page <../lesson/prg/python_intro>`,,7 
 Refcards, Reference cards, :doc:`Web Page <../lesson/linux/refcards>`,,7 Jan
 Emacs, (Optional) Useful emacs commands, :doc:`Web Page <../lesson/doc/emacs>`,,7 Jan
 Cloudmesh Client,Installation of Cloudmesh Client, `Video <https://www.youtube.com/watch?v=R50IQYhr-vg>`_ | :doc:`Web Page <../lesson/cloud/cloudmesh-installation>`,,14 Feb
+	  ,Setting up a cluster and Hadoop / Pig / Spark with Cloudmesh, `Video <https://www.youtube.com/watch?v=KOV8PqvX-GQ>`_ | :doc:`Web Page <../lesson/devops/hadoop>`,,Mar 20
+
 Ansible, Starting Point, `Video <https://www.youtube.com/watch?v=no52OmHg1ek>`_ | :doc:`Web Page <../lesson/devops/ansible/ansible-I>`,
        , Roles and Others, `Video <https://www.youtube.com/watch?v=eN52x5XxJAE>`_ | :doc:`Web Page <../lesson/devops/ansible/ansible-II>`,
        , Ansible Galaxy, :doc:`Web Page <../lesson/devops/ansible/ansible-III>`
