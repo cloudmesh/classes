@@ -3336,6 +3336,28 @@ In-memory databases/caches
      standard JSR 107.
 
 189. Infinispan
+
+     Infinispan is a highly available, extremely scalable key/value data
+     store and data grid platform. The design perspective of
+     infinispan is exposing a distributed,highly concurrent data
+     structure to make the most use of modern multi-core as well as
+     multi-processor architectures. It is mostly used as a distributed
+     cache, but also can be used as a object database or NoSQL
+     key/value store :cite:`infinispan.org`.
+
+     Infinispan is mostly used as a cache store. It is predomininantly
+     used for applications that are clustered, and requires a cache
+     coherency for data consistency. Infinispan is written in java and
+     is open source. It is fully transactional. Infinispan is used to
+     add clusterability as well as high availability to frameworks.
+     Infinispan has many use-cases,they are: 1) it can be used as a
+     distributed cache 2)Storage for temporal data, like web sessions,
+     3)Cross-JVM communication, 4)Shared storage, 5)In-memory data
+     processing and analytics and 6)MapReduce Implementstion in the
+     In-Memory Data Grid. It is also used in research and academia as
+     a framework for distribution execution and
+     storage :cite:`infinispan_wikipedia`.
+     
 190. VoltDB
 
      VoltDB is an in-memory database. It is an ACID-compliant RDBMS
@@ -3716,6 +3738,25 @@ SQL(NewSQL)
      any certified JVM(Java Virtual Machine). :cite:`www-derbymanual`:
       
 209. Pivotal Greenplum
+
+     Pivotal Greenplum is a commercial fully featured data
+     warehouse. It is powered by Greenplum Database an open source
+     initiative." It is powered by advanced cost-based query optimizer
+     thereby delivering high analytical query performance on large
+     data volumes". Pivotal Greenplum is uniquely focused on big data
+     analytics :cite:`pivotal.io`.
+
+     The system consists of a master node, standy master node and
+     segment nodes. The master node consists of the catalog
+     information whereas the data resides on the segment nodes.  The
+     segment nodes runs on one or more segments which are modified
+     PostgreSQL databases and are assigned a content identifier. The
+     data is distributed among these segment nodes. The segment node
+     also supports bult loading and unloading. The master node parses,
+     optimizes an SQL query and dispatch it to all segment
+     nodes. Therefore, it provides powerful and rapid analytics on
+     petabyte scale data volumes :cite:`pivotal_wikipedia`.
+     
 210. Google Cloud SQL
      
      Google Cloud SQL is a fully managed data base as service
