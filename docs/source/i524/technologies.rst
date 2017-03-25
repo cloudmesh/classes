@@ -3103,8 +3103,8 @@ Inter process communication Collectives
 
 177. Marionette Collective
 
-     :cite: `www-marionette-webpage` It is basically a framework for
-     management of a system where the systems undergo an organized
+    :cite: `www-marionette-webpage` It is basically a framework for
+    management of a system where the systems undergo an organized
     coordination resulting in an automated deployment of systems which
     creates an orderly workflow or a parallel wise job execution. It
     doesn’t rely on central inventories such as SSH and uses tools such as
