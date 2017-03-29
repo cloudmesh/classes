@@ -144,7 +144,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#new-technologies-to-be-integrated-by-the-ais">New Technologies (To Be Integrated by the AIs)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#excersise">Excersise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#excercise">Excercise</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#references">References</a></li>
 </ul>
 </li>
@@ -408,7 +408,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#new-technologies-to-be-integrated-by-the-ais">New Technologies (To Be Integrated by the AIs)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#excersise">Excersise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#excercise">Excercise</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#references">References</a></li>
 </ul>
 </li>
@@ -599,8 +599,8 @@
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">This cloud is being updated so this guide will <strong>not work
-completely</strong>. However the commands to openstack provide a
-good introduction to any openstack cloud. Naturally
+completely</strong>. However, the commands to OpenStack provide a
+good introduction to any OpenStack cloud. Naturally,
 account management will be different.</p>
 </div>
 <p>This lesson provides a short guide to start using OpenStack on FutureSystems.</p>
@@ -708,7 +708,7 @@ every time when you open a new SSH terminal for India. For example:</p>
 </pre></div>
 </div>
 <p>See the last line of the file. <code class="docutils literal"><span class="pre">module</span></code> command is added. <code class="docutils literal"><span class="pre">.bash_profile</span></code> or
-<code class="docutils literal"><span class="pre">.bashrc</span></code> exists in your home directory to initialze a shell when you login.
+<code class="docutils literal"><span class="pre">.bashrc</span></code> exists in your home directory to initialize a shell when you login.
 Any commands or environmental variables e.g. PATH in these files is going to be
 executed. Find more information online, if you are interested in. <a class="reference external" href="https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html">Bash Startup
 Files from GNU</a></p>
@@ -753,7 +753,7 @@ resources.</p>
 </div>
 <div class="section" id="openstack-credential">
 <h2>OpenStack Credential<a class="headerlink" href="#openstack-credential" title="Permalink to this headline">¶</a></h2>
-<p><code class="docutils literal"><span class="pre">nova</span></code> command is ready but we still need a OpenStack credential because we
+<p><code class="docutils literal"><span class="pre">nova</span></code> command is ready but we still need an OpenStack credential because we
 use OpenStack under a project membership and OpenStack verifies our identity by
 looking at OpenStack credentials. It is simply done by:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">source</span> <span class="o">~/.</span><span class="n">cloudmeh</span><span class="o">/</span><span class="n">clouds</span><span class="o">/</span><span class="n">india</span><span class="o">/</span><span class="n">kilo</span><span class="o">/</span><span class="n">openrc</span><span class="o">.</span><span class="n">sh</span>
@@ -803,7 +803,7 @@ registered on either the portal.futuresystems.org or github.com.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">keypair</span><span class="o">-</span><span class="n">add</span> <span class="n">quickstart</span><span class="o">-</span><span class="n">key</span> <span class="o">&gt;</span> <span class="o">~/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span>
 </pre></div>
 </div>
-<p>This command does two things: one is registering a new public key to Openstack
+<p>This command does two things: one is registering a new public key to OpenStack
 and the other one is saving a new private key to your .ssh directory.</p>
 <p>Let&#8217;s check your new keypair by:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nova</span> <span class="n">keypair</span><span class="o">-</span><span class="nb">list</span>
@@ -825,7 +825,7 @@ and the other one is saving a new private key to your .ssh directory.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">r</span><span class="o">--</span><span class="n">r</span><span class="o">--</span> <span class="mi">1</span> <span class="n">albert</span> <span class="n">users</span> <span class="mi">1751</span> <span class="n">Jan</span> <span class="mi">25</span> <span class="mi">00</span><span class="p">:</span><span class="mi">10</span> <span class="o">/</span><span class="n">N</span><span class="o">/</span><span class="n">u</span><span class="o">/</span><span class="n">albert</span><span class="o">/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span>
 </pre></div>
 </div>
-<p>The permission is too open, change the file permission with the owners only
+<p>The permission is to open, change the file permission with the owners only
 read-write permission by:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">chmod</span> <span class="mi">600</span> <span class="o">~/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span>
 </pre></div>
@@ -970,7 +970,7 @@ launching request is accepted with the messages like:</p>
 </pre></div>
 </div>
 <p>We may try SSH into the <em>$USER-quickstart</em> VM. Note that you see your portal ID
-in <em>albert</em>. SSH into the private IP addres and like you SSHed to India but with a
+in <em>albert</em>. SSH into the private IP address and like you SSHed to India but with a
 different SSH key like:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ssh</span> <span class="o">-</span><span class="n">i</span> <span class="o">~/.</span><span class="n">ssh</span><span class="o">/</span><span class="n">quickstart</span><span class="o">-</span><span class="n">key</span> <span class="mf">10.0</span><span class="o">.</span><span class="mf">6.4</span> <span class="o">-</span><span class="n">l</span> <span class="n">ubuntu</span>
 </pre></div>

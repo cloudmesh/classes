@@ -10,12 +10,12 @@
 Chameleon Cloud
 ===============================================================================
 
-Chameleon Cloud provides OpenStack Cloud with KVM or Baremetal for developing
-with the Big Data Stack. https://www.chameleoncloud.org/ Chameleon Cloud
-provides an environment for experimenting with cloud environments.  This class
-does not support use of Chameleon cloud for any assignment or project work but
-computing resources may be available upon request with limited access and
-allocation.
+Chameleon Cloud provides OpenStack Cloud with KVM or Baremetal for
+developing with the Big Data Stack. https://www.chameleoncloud.org/
+Chameleon Cloud provides an environment for experimenting with cloud
+environments.  This class does not the support use of Chameleon cloud
+for any assignment or project work but computing resources may be
+available upon request with limited access and allocation.
 
   There are some differences between FutureSystems OpenStack and Chameleon
   OpenStack.

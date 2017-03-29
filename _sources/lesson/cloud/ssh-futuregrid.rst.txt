@@ -1,7 +1,7 @@
 Upload the key to the FutureSystem Portal
 ----------------------------------------------------------------------
 
-Next you need to upload the key to the portal. You must be logged into the portal to do so.
+Next, you need to upload the key to the portal. You must be logged into the portal to do so.
 
 
 .. list-table:: 
@@ -10,7 +10,7 @@ Next you need to upload the key to the portal. You must be logged into the porta
 
    * - Step
      - Description
-     - Supporting Screensho
+     - Supporting Screenshot
    * - Step 1 
      - Log into the portal
      - |image25|
@@ -35,12 +35,12 @@ Next you need to upload the key to the portal. You must be logged into the porta
      - 
    
      
-At this point you have uploaded your key. However you will still need
+At this point, you have uploaded your key. However, you will still need
 to wait till all accounts have been set up to use the key, or if you
 did not have an account till it has been created by an
 administrator. Please, check your email for further updates. You can
 also refresh this page and see if the boxes in your account status
-information are all green. Than you can continue.
+information are all green. Then you can continue.
 
 Testing your ssh key
 -----------------------
