@@ -1,6 +1,6 @@
 Organization, Lessons vs Lectures, `Web Page <../lesson/org/index.html>`_,
 Piazza, Information about Piazza, `PDF <https://piazza.com/pdfs/piazza_product_introduction.pdf>`_,
-Web Page, Contributiing to the Web Page, `Web Page <../lesson/contrib/contributing.html>`_,
+Web Page, Contributing to the Web Page, `Web Page <../lesson/contrib/contributing.html>`_,
 Github, Overview and Introduction, `Web page <../lesson/prg/github.html#video-lectures-on-github>`_, 
       , Install Instructions, `Web page <https://www.atlassian.com/git/tutorials/install-git>`_,    
       , config, `Video <https://www.youtube.com/watch?v=ZChtKFLiaNw>`_, 2:47
@@ -18,4 +18,5 @@ Paper,How to write a paper by Simon Peyton Jones, `Video <https://www.youtube.co
      ,jabref, `Video <https://youtu.be/cMtYOHCHZ3k>`_,14:41
      ,bibtex, `Web Page <../lesson/doc/bibtex.html>`_,
      ,Report Format, `Web Page <../lesson/doc/report.html>`_ - `Git <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_ - `PDF <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_,
+     ,Advice based on paper 1 submissions,:doc:`Web Page <paper-advice>`
 RST, (Draft) Restructured Text, `Web Page <../lesson/doc/rst.html>`_,
