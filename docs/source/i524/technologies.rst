@@ -1,8 +1,9 @@
 
 .. index:: I524 technologies
 
-Technologies
-======================================================================
+==============
+ Technologies
+==============
 
 
 In this section we find a number of technologies that are related to
@@ -15,7 +16,7 @@ projects is at
 
 
 Workflow-Orchestration
-----------------------------------------------------------------------
+======================
 
 1. ODE
 
@@ -581,7 +582,7 @@ Workflow-Orchestration
 
 
 Application and Analytics
-----------------------------------------------------------------------
+=========================
 
 32. Mahout :cite:`www-mahout`
 
@@ -1471,7 +1472,7 @@ Application and Analytics
 
 
 Application Hosting Frameworks
-----------------------------------------------------------------------
+==============================
 
 80. Google App Engine
 
@@ -1850,7 +1851,7 @@ Application Hosting Frameworks
 
 
 High level Programming
-----------------------------------------------------------------------
+======================
 
 104. Kite
 
@@ -2319,7 +2320,7 @@ High level Programming
      using a third-party provider, it has to be Amazon :cite:`what`.
 
 Streams
-----------------------------------------------------------------------
+=======
 
 127. Storm
 
@@ -2460,6 +2461,31 @@ Streams
      tolerant and highly available.
 
 134. LinkedIn
+     
+     LinkedIn is a social networking website for Business and employment
+     :cite:`www-linkedinwiki`. LinkedIn has more than 400 million
+     user profiles (as per 10 March2016 news), and increasing
+     at a rate of 2new member every second :cite:`www-linkedinbigdata`.
+     LinkedIn provides different products like:
+
+     - People You May Know
+     - Skill Endorsements
+     - Jobs You May Be Interested In
+     - News Feed Updates
+
+     Such products are based on big data. To achieve such big data
+     tasks, LinkedIn has its ecosystem consist of Oracle, Hadoop, Pig,
+     Hive, Azkaban (Workflow), Avro Data, Zookeeper, Aster Data,
+     Data In- Apache Kafka, Data Out- Apache Kafka and Voldemort
+     :cite:`www-linkedinbigdata`. LinkedIn uses Hadoop and Aster Data
+     as an analytics layer :cite:`www-linkedinquora`. LinkedIn
+     partitioned the user’s data into separate DB’s stored it in XML
+     format. Voldemort is a key lookup system used to store the
+     analytically-derived data for the products like “People You
+     May Know”. Voldemort stores the data in key-value form
+     :cite:`www-linkedinquora`. LinkedIn has exposed REST
+     API to get the user data :cite:`www-linkedindevelopers`.
+	 
 135. Twitter Heron
 
      Heron is a real-time analytics platform that was developed at
@@ -2573,7 +2599,7 @@ Streams
 
 
 Basic Programming model and runtime, SPMD, MapReduce
-----------------------------------------------------------------------
+====================================================
 
 143. Hadoop
 144. Spark :cite:`www-spark`
@@ -2798,7 +2824,7 @@ Basic Programming model and runtime, SPMD, MapReduce
      :cite:`www-netsyslab`
 
 Inter process communication Collectives
-----------------------------------------------------------------------
+=======================================
 
 160. point-to-point
 161. (a) publish-subscribe: MPI
@@ -3201,7 +3227,7 @@ Inter process communication Collectives
      ramp" for Big Data.
 
 In-memory databases/caches
-----------------------------------------------------------------------
+==========================
 
 
 183. Gora (general object from NoSQL)
@@ -3336,28 +3362,6 @@ In-memory databases/caches
      standard JSR 107.
 
 189. Infinispan
-
-     Infinispan is a highly available, extremely scalable key/value data
-     store and data grid platform. The design perspective of
-     infinispan is exposing a distributed,highly concurrent data
-     structure to make the most use of modern multi-core as well as
-     multi-processor architectures. It is mostly used as a distributed
-     cache, but also can be used as a object database or NoSQL
-     key/value store :cite:`infinispan.org`.
-
-     Infinispan is mostly used as a cache store. It is predomininantly
-     used for applications that are clustered, and requires a cache
-     coherency for data consistency. Infinispan is written in java and
-     is open source. It is fully transactional. Infinispan is used to
-     add clusterability as well as high availability to frameworks.
-     Infinispan has many use-cases,they are: 1) it can be used as a
-     distributed cache 2)Storage for temporal data, like web sessions,
-     3)Cross-JVM communication, 4)Shared storage, 5)In-memory data
-     processing and analytics and 6)MapReduce Implementstion in the
-     In-Memory Data Grid. It is also used in research and academia as
-     a framework for distribution execution and
-     storage :cite:`infinispan_wikipedia`.
-     
 190. VoltDB
 
      VoltDB is an in-memory database. It is an ACID-compliant RDBMS
@@ -3403,7 +3407,7 @@ In-memory databases/caches
      single-node system.
 
 Object-relational mapping
-----------------------------------------------------------------------
+=========================
 
 192. Hibernate
 
@@ -3505,7 +3509,7 @@ Object-relational mapping
      databases by using a JDBC-to-ODBC bridge.
      
 Extraction Tools
-----------------------------------------------------------------------
+================
 
 197. UIMA
 
@@ -3543,7 +3547,7 @@ Extraction Tools
 
 
 SQL(NewSQL)
-----------------------------------------------------------------------
+===========
 
 198. Oracle
 
@@ -3738,25 +3742,6 @@ SQL(NewSQL)
      any certified JVM(Java Virtual Machine). :cite:`www-derbymanual`:
       
 209. Pivotal Greenplum
-
-     Pivotal Greenplum is a commercial fully featured data
-     warehouse. It is powered by Greenplum Database an open source
-     initiative." It is powered by advanced cost-based query optimizer
-     thereby delivering high analytical query performance on large
-     data volumes". Pivotal Greenplum is uniquely focused on big data
-     analytics :cite:`pivotal.io`.
-
-     The system consists of a master node, standy master node and
-     segment nodes. The master node consists of the catalog
-     information whereas the data resides on the segment nodes.  The
-     segment nodes runs on one or more segments which are modified
-     PostgreSQL databases and are assigned a content identifier. The
-     data is distributed among these segment nodes. The segment node
-     also supports bult loading and unloading. The master node parses,
-     optimizes an SQL query and dispatch it to all segment
-     nodes. Therefore, it provides powerful and rapid analytics on
-     petabyte scale data volumes :cite:`pivotal_wikipedia`.
-     
 210. Google Cloud SQL
      
      Google Cloud SQL is a fully managed data base as service
@@ -3858,7 +3843,7 @@ SQL(NewSQL)
      provides full mid-query fault tolerance.
 
 NoSQL
-----------------------------------------------------------------------
+=====
 
 218. Lucene
 
@@ -4560,7 +4545,7 @@ NoSQL
 253. Google DataStore
 
 File management
-----------------------------------------------------------------------
+===============
 
 254. iRODS
 
@@ -4713,7 +4698,7 @@ File management
      
 
 Data Transport
-----------------------------------------------------------------------
+==============
 
 263. BitTorrent
 
@@ -4848,7 +4833,7 @@ Data Transport
      implemented by Greenplum as gpfdist.
 
 Cluster Resource Management
-----------------------------------------------------------------------
+===========================
 
 271. Mesos
 
@@ -5129,7 +5114,7 @@ Cluster Resource Management
      relayed to the workloads.      
 
 File systems
-----------------------------------------------------------------------
+============
 
 286. HDFS
      
@@ -5411,7 +5396,7 @@ File systems
 
 
 Interoperability
-----------------------------------------------------------------------
+================
 
 300. Libvirt
 
@@ -5607,7 +5592,7 @@ Interoperability
 308. Genesis
 
 DevOps
-----------------------------------------------------------------------
+======
 
 309. Docker (Machine, Swarm)
 
@@ -5957,7 +5942,7 @@ DevOps
      :cite:`github-buildstep`. 
 
 331. Gitreceive
-
+     
      Gitreceive is used to create an ssh+git user which can accept
      repository pushes right away and also triggers a hook
      script. Gitreceive is used to push code anywhere as well as
@@ -5994,6 +5979,37 @@ DevOps
      application."
 
 334. CloudML
+                                                            
+     CloudML a research project initiated by SINTEF in 2011
+     :cite:`www-cloudml`. Cloud computing facilitates to shared
+     and virtualized computer capabilities like storage, memory,
+     CPU, GPU and networks, to user. There is multiple cloud provider,
+     also the Iaas(Infrastructure-as-a-service) and
+     Pass(Platform-as-a-service). To operate multiple cloud for
+     applications, which requires multiple private, public, or hybrid
+     clouds, limit the capability of each cloud solution.  Solution
+     provided by such cloud will gets incompatible with others. So,
+     to providing the solution which can compatible with multi-cloud
+     platform is a tedious job. To achieve this CloudML provides a
+     “domain-specific modelling language along with run time environment”
+     :cite:`www-cloudml`.It provides the interoperability and provide
+     vendor lock-in, also it provides the solution on specification of
+     provisioning, deployment, and adaptation concerns of multi-cloud
+     systems. At design time as well as runtime :cite:`www-cloudml`.
+     CloudML provides two level of abstraction while developing model
+     for multi-cloud application:
+
+     - Cloud Provider-Independent Model (CPIM), this specifies the
+       provisioning and deployment.
+       
+     - Cloud Provider-Specific Model (CPSM), which filters the
+       provisioning and deployment of multiple cloud application,
+       according to its cloud.
+
+     This two abstract approach help CloudML to achieve the multi-cloud 
+     application support :cite:`www-cloudmlwiki`.
+
+
 335. Blueprints
 
      In :cite:`www-blueprints`, it is explained that "IBM Blueprint 
@@ -6087,7 +6103,7 @@ DevOps
      using well defined APIs.
 
 IaaS Management from HPC to hypervisors
-----------------------------------------------------------------------
+=======================================
 
 339. Xen
 
@@ -6516,10 +6532,10 @@ IaaS Management from HPC to hypervisors
      checks” to monitor the server :cite:`www-amar53`.
 
 Cross-Cutting Functions
-----------------------------------------------------------------------
+=======================
 
 Monitoring
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------
 
 361. Ambari
 
@@ -6617,7 +6633,7 @@ Monitoring
      also detects problems very early on.
 
 Security & Privacy
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------
 365. InCommon
 
      The mission of InCommon is to "create and support a common trust
@@ -6759,7 +6775,7 @@ Security & Privacy
      authorization message from a known identity provider.
 
 Distributed Coordination
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 373. Google Chubby
 
@@ -6815,7 +6831,7 @@ Distributed Coordination
 376. JGroups
 
 Message and Data Protocols
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 377. Avro
 378. Thrift
@@ -6850,7 +6866,7 @@ Message and Data Protocols
 .. _new-techs:
 
 New Technologies (To Be Integrated by the AIs)
-----------------------------------------------
+==============================================
 
 381. Snort
 
@@ -7146,7 +7162,7 @@ New Technologies (To Be Integrated by the AIs)
      Foundation :cite:`ant-www`.
 
 392. LXD
-
+	 
      LXD is a  demon processes established to manage the
      containers. It can be understood as hypervisor for linux
      containers. It is implemented by exporting RESTful API for libxlc
@@ -7245,8 +7261,32 @@ New Technologies (To Be Integrated by the AIs)
      different connectors and the ease of adding more connectors, Apex
      easily integrates with an existing dataflow :cite:`apex-ease`.
 
-395. Robot Operating System (ROS)
 
+395. Google Cloud Machine Learning
+     
+     Google Could Machine Leaning is a Googles cloud based managed
+     system for building machine learning model, capable to work on any
+     type and volume of data. User can create their own machine learning
+     model using GoogleTensorFlow framework, which helps to use the
+     range of Google products from Google Photos to Google Cloud Speech.
+     We can build our machine learning model regardless the size, google
+     will managed it infrastructure according to  requirement. User can
+     immediately host the created model and start predicting on new data
+     :cite:`www-googlecloudmachinelearning`.Cloud Machine Learning provides
+     two important things:
+     
+     - Help user to train the machine learning model at large scale
+       with the help of TensorFlow  training application.
+	
+     - User can host the trained model on cloud,  this will help
+       to use the large and new data available on cloud, which help in
+       creating good model.
+
+     Google CloudML will help user to focus on model instead of hardware
+     configuration and resource management :cite:`www-googlecloudoverview`.
+	
+396. Robot Operating System (ROS)
+	 
      The aptly-named *Robot Operating System*, or ROS, provides a
      framework for writing operating systems for robots.  ROS offers "a 
      collection of tools, libraries, and conventions [meant to] simplify the 
@@ -7273,7 +7313,8 @@ New Technologies (To Be Integrated by the AIs)
      tele-operation and sensor data display.:cite:`www-software-categories`
 
 
-396. Apache Flex
+
+397. Apache Flex
 
      Apache Flex :cite:`www-flex` is an open source aplication
      framework for building and maintaining mobile and web
@@ -7286,29 +7327,11 @@ New Technologies (To Be Integrated by the AIs)
      and SAP and display it visually allowing users to drill down into
      the data for deeper insight and even change the data and have it
      automatically updated on the back end :cite:`wiki-flex`.
-
-397. Apache Ranger
-     Apache Ranger :cite:`www-apache-ranger` is open source software project
-     designed to provide centralized security services to various components
-     of Apache Hadoop. Apache Hadoop provides various mechanism to store,
-     process and access the data. Each Apache tool has its own security
-     mechanism. This increases administrative overhead and is also error
-     prone.  Apache Ranger fills this gap to provide a central security and
-     auditing mechanism for various Hadoop components
-     :cite:`www-ranger-architecture`. Using Ranger, Hadoop administrators can
-     perform security administration tasks using a central UI or Restful web
-     services. He can define policies which enable users/user-groups to
-     perform specific action using Hadoop components and tools. Ranger
-     provides role based access control for datasets on Hadoop at column and
-     row level.  The blog article :cite:`www-ranger-key-features` explains
-     that the row level filtering and dynamic data masking are most important
-     features of Apache Ranger. Ranger also provides centralized auditing of
-     user acces and security related administrative actions.
-     
+    
 .. _techs-exercise:
 
 Excercise
----------
+=========
 
 TechList.1: In class you will be given an HID and you will be assigned
   a number of technologies that you need to research and create a
@@ -7411,7 +7434,7 @@ Open Discussion:
   <bibtex-discussions>`.
 
 References
-----------
+==========
 
 .. bibliography:: ../refs.bib
    :style: unsrt
