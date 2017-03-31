@@ -9215,8 +9215,10 @@ Ref: http://tex.stackexchange.com/questions/165856/url-citation-control-breaks-a
                   well},
   Title =	 {The Terraform Book},
   Author =	 {James Turnbull},
-  Publisher =	 {Turnbull Press; 110 edition (November 26, 2016)},
+  Publisher =	 {Turnbull Press},
+  edition =      {110},
   Year =	 2016,
+  month =        nov,
   Number =	 9780988820258,
   Owner =	 {S17-IR-2038},
   Timestamp =	 {2017.02.12}
@@ -9231,26 +9233,28 @@ Ref: http://tex.stackexchange.com/questions/165856/url-citation-control-breaks-a
                   missing. Note field should have value = Accessed:
                   2017-xx-xx denoting the date value},
   Title =	 {{Terraform} components},
+  Key =          {Terraform},
+  Note =         {Accessed: 2017-02-12},
   HowPublished = {Web Page},
   Owner =	 {S17-IR-2038},
   Timestamp =	 {2017.02.12},
   Url =		 {https://www.terraform.io/intro/index.html}
 }
 
-@Misc{www-H20-website,
+@Misc{www-H2O-website,
   review =	 {Since no author field, key field can be added. Note
                   field displaying information about when the url was
                   accessed is also missing. No need for braces in the
-                  H20 website documentation},
-  Title =	 {{H20 Website Documentation} components},
+                  H2O website documentation},
+  key =          {H2O},
+  Title =	 {{H2O Website Documentation} components},
   HowPublished = {Web Page},
   Owner =	 {S17-IR-2038},
   Timestamp =	 {2017.02.12},
-  Url =
-                  {http://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html}
+  Url =          {http://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html}
 }
 
-@Misc{www-H20-wiki,
+@Misc{www-H2O-wiki,
   review =	 {Key field is missing since author is not
                   present. Key field is used for alphabetizing and
                   creating a label when the "author" and "editor"
@@ -9258,6 +9262,8 @@ Ref: http://tex.stackexchange.com/questions/165856/url-citation-control-breaks-a
                   as well. Can remove the extra braces from the title
                   field. Can even validate the source from wiki since
                   wiki reference are mostly incorrect},
+  Key =          {H2O},
+  Note =         { Accessed : 2017-02-12},
   Title =	 {{H2O Wikipedia Documentation} components},
   HowPublished = {Web Page},
   Owner =	 {S17-IR-2038},
@@ -9275,33 +9281,38 @@ Ref: http://tex.stackexchange.com/questions/165856/url-citation-control-breaks-a
   Author =	 {Darren Cook},
   Publisher =	 {O'Reilley Media},
   Year =	 2017,
+  month =        dec,
   Owner =	 {S17-IR-2038},
   Timestamp =	 {2017.02.12},
-  Url =
-                  {https://books.google.com/books?id=nJWmDQAAQBAJ&pg=PP2&dq=h2o+software}
+  Url       =    {https://books.google.com/books?  id=nJWmDQAAQBAJ&pg=PP2&dq=h2o+software},
+  isbn =         {978-1-4919-6454-5},
+  Pages =        300
 }
 
 @Misc{www-KVM-wiki,
   review =	 {Note field is missing having the when accessed
                   information. Key field is also missing since author
                   field is not there},
+  key =          {KVM},
   Title =	 {KVM Wikipedia Documentation},
   HowPublished = {Web Page},
   Owner =	 {S17-IR-2038},
   Timestamp =	 {2017.02.13},
-  Url =
-                  {https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine}
+  Url =          {https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine},
+  Note =         {Accessed : 2017-02-12}
 }
 
 @Misc{www-KVM-webpage,
   review =	 {Key field is missing and note field is missing.Key
                   field is used for alphabetizing and creating a label
                   when the "author" and "editor" fields are missing},
+  Key =          {KVM},
   Title =	 {KVM webpage documentation},
   HowPublished = {Web Page},
   Owner =	 {S17-IR-2038},
   Timestamp =	 {2017.02.13},
-  Url =		 {http://www.linux-kvm.org/page/Main_Page}
+  Url =		 {http://www.linux-kvm.org/page/Main_Page},
+  Note =         {Accessed : 2017-02-13}
 }
 
 @Book{www-cloudfoundry-book,
@@ -9318,8 +9329,9 @@ Ref: http://tex.stackexchange.com/questions/165856/url-citation-control-breaks-a
   Year =	 2016,
   Owner =	 {S17-IR-2038},
   Timestamp =	 {2017.02.12},
-  Url =
-                  {https://books.google.com/books?id=XP2wDAAAQBAJ&printsec=frontcover&dq=Cloud+foundry}
+  Url =          {https://books.google.com/books?id=XP2wDAAAQBAJ&printsec=frontcover&dq=Cloud+foundry},
+  Pages =        70,
+  isbn =         {978-4919-6573-3}
 }
 
 @Misc{www-cloudfoundry-blog,
@@ -9335,11 +9347,14 @@ Ref: http://tex.stackexchange.com/questions/165856/url-citation-control-breaks-a
                   the month name and it should be without braces as
                   well},
   Title =	 {Cloud Foundry Blog},
-  HowPublished = {Web Page},
+  Key =          {Cloud Foundry, IaaS, SaaS},
+  Author =       {Vineet Badola},
+  Month =        sep,
+  Year =         2015,
+  HowPublished = {Blog},
   Owner =	 {S17-IR-2038},
   Timestamp =	 {2017.02.13},
-  Url =
-                  {http://cloudacademy.com/blog/cloud-foundry-benefits/}
+  Url =          {http://cloudacademy.com/blog/cloud-foundry-benefits/}
 }
 
 @Misc{www-cloudbees-wiki,
@@ -9347,6 +9362,8 @@ Ref: http://tex.stackexchange.com/questions/165856/url-citation-control-breaks-a
                   alphabetizing and creating a label when the "author"
                   and "editor" fields are missing. Note field is
                   missing as well},
+  Key =          {cloudbees},
+  Note =         {Accessed: 2017-02-13},
   Title =	 {Cloudbees Wikipedia Documentation},
   HowPublished = {Web Page},
   Owner =	 {S17-IR-2038},
@@ -9362,11 +9379,51 @@ Ref: http://tex.stackexchange.com/questions/165856/url-citation-control-breaks-a
                   inaccurate. Title should be Cloudbees Jenkins
                   Platform as the url is related to Jenkins platform
                   of cloudbees },
+  key =          {cloudbees Jenkins},
+  Note =         {Accessed: 2017-02-13},
   Title =	 {Cloudbees Webpage Documentation},
   HowPublished = {Web Page},
   Owner =	 {S17-IR-2038},
   Timestamp =	 {2017.02.13},
   Url =		 {https://www.cloudbees.com/products}
+}
+
+@Misc{www-marionette-webpage,
+  review =	 { },
+  key =          {mcollective, puppetdb},
+  Note =         {Accessed: 2017-02-27},
+  Title =	 {Marionette Collective Webpage Documentation},
+  HowPublished = {Web Page},
+  year =         2016,
+  Owner =	 {S17-IR-2038},
+  Timestamp =	 {2017.02.27},
+  Url =		 {https://docs.puppet.com/mcollective/}
+}
+
+@Misc{www-threejs-wiki,
+  review =	 { },
+  key =          {three.js, API},
+  Note =         {Accessed: 2017-02-27},
+  Title =	 {Three.js},
+  HowPublished = {Web Page},
+  year =         2017,
+  month =        mar,
+  Owner =	 {S17-IR-2038},
+  Timestamp =	 {2017.02.27},
+  Url =		 {https://en.wikipedia.org/wiki/Three.js}
+}
+
+@Misc{www-threejs-webpage,
+  review =	 { },
+  key =          {three.js, API,features},
+  Note =         {Accessed: 2017-02-27},
+  Title =	 {Creating a scene},
+  HowPublished = {Web Page},
+  year =         2016,
+  month =        dec,
+  Owner =	 {S17-IR-2038},
+  Timestamp =	 {2017.02.27},
+  Url =		 {https://threejs.org/docs/index.html#Manual/Getting_Started/Creating_a_scene}
 }
 
 @Misc{www-sge-wiki,
