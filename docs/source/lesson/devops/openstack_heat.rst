@@ -7,14 +7,14 @@ Overview
 ----------------------------------------------------------------------
 
 This lesson will introduce you to a very important topic of OpenStack Heat, a
-software provisioning tool on a OpenStack platform.
+software provisioning tool on an OpenStack platform.
 
 .. tip:: Duration: 1 hour
 
 Prerequisite
 ----------------------------------------------------------------------
 
-In order to conduct this lesson you should have knowledge of
+In order to conduct this lesson, you should have knowledge of
 
 * `OpenStack for Beginners <../iaas/openstack.html>`_
 
@@ -121,7 +121,7 @@ We start learning OpenStack Heat on india.futuresystems.org. You can use Heat
 on FutureSystems via a web interface Horizon or a command line tool (Heat CLI).
 On a Horizon dashboard, graphical resource topology is displayed and relations
 of connected resources are also presented in a canvas. If you use command line
-tools, various command options (which might not be visible on a web) and
+tools, various command options (which might not be visible on a the web) and
 debugging messages are available.
 
 Horizon on FutureSystems
@@ -176,14 +176,14 @@ You need a template first. Save a sample template above in a YAML file, e.g.
 14.04`` image, ``albert-india-key`` SSH keypair and a ``m1.small`` flavor.  You
 have to **REPLACE** ``albert-india-key`` with your registered keyname.
 
-If you are ready to create a new stack, run a following command:
+If you are ready to create a new stack, run the following command:
 
 ::
 
   heat stack-create --template-file openstack_heat_ex1.yaml heat-tutorial-$OS_USERNAME
 
 * You started a stack with a parameter for a template file ``--template-file``.
-* ``heat-tutorial-$OS_USERNAME`` is a your stack name, you can use other names.
+* ``heat-tutorial-$OS_USERNAME`` is your stack name, you can use other names.
 
 .. note:: If you have a template file on the web, you can use a URL with
           ``--template-url`` parameter.
@@ -334,7 +334,7 @@ Exercise II
   - Make a screenshot of the page at ``Stacks > Overview``
   - Make a screenshot of the page at ``Stacks > Resources``
   - Make a screenshot of the page at ``Stacks > Events``
-  - Submit your screen shots.
+  - Submit your screenshots.
 
 Reference
 -------------------------------------------------------------------------------
@@ -356,7 +356,7 @@ Glossary
   out an orchestration.
 
 * Orchestration:
-  Arrange or direct the elements of a situation to produce a desired effect.
+  Arrange or direct the elements of a situation to produce the desired effect.
 
 * Resource:
   An element of OpenStack infrastructure instantiated from a particular
