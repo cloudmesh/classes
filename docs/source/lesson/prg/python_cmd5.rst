@@ -163,7 +163,7 @@ CMD5.1:
     Install cmd5 on your computer.
 
 CMD5.2:
-    Write a new command with your firstname as teh command name.
+    Write a new command with your firstname as the command name.
 
 CMD5.3:
     Write a new command and experiment with docopt syntax and argument
