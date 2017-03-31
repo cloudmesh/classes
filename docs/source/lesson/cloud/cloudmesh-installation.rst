@@ -3,12 +3,12 @@
 Cloudmesh Client on Ubuntu 16.04
 ================================
 
-In this class we will be accessing for several projects multiple
+In this class, we will be accessing for several projects multiple
 clouds. This could pose a significant development issue for some in
 the class. to simplify access we introduce you to one method that we
 recommend for this class. We will be using a project called
 cloudmesh_client that allows users to easily access multiple clouds
-from the commandline. Switching between clouds can be achieved with
+from the command line. Switching between clouds can be achieved with
 one variable. The advantages include:
 
 * access to another cloud in case of failure
@@ -54,7 +54,7 @@ down all VMs in all clouds. Then you reset the db with::
 
   cm reset
 
-Next you uninstall all previous versions of cloudmesh with::
+Next, you uninstall all previous versions of cloudmesh with::
 
   pip uninstall cloudmesh_client
 
@@ -145,9 +145,10 @@ cloud account::
 
 .. tip::
      
-   If you don't want to put your cloud password in the yaml file, you can
-   put ``read`` instead of the password in ``OS_PASSWORD`` field. In this
-   way, every time you need to access the cloud, you will type in password.
+   If you don't want to put your cloud password in the yaml file, you
+   can put ``read`` instead of the password in ``OS_PASSWORD``
+   field. In this way, every time you need to access the cloud, you
+   will type in the password.
 
 Make sure the ``TENANT_NAME`` has the value ``CH-818664``. This
 identifies the class allocation, which you should have been added to,
@@ -158,7 +159,7 @@ case, please contact us immediately on the class Piazza.
 .. note:: Replace all TBD values with correct values (only in profile
           section and chameleon cloud section).
 
-Preaparing for Chameleon Access
+Preparing for Chameleon Access
 -------------------------------
 
 We need to make sure that any VMs we start will be created on
@@ -175,7 +176,7 @@ the following command::
    $ cm info
 
 Next, we need to add the ssh key to the cloudmesh database. Make sure
-you have already generated a ssh key with ``ssh-keygen``. Then, the
+you have already generated an ssh key with ``ssh-keygen``. Then, the
 following command will add the ``id_rsa.pub`` key from your ``~/.ssh``
 directory to the local cloudmesh client database::
   
@@ -207,7 +208,7 @@ To see all currently running VMs, use the command::
 
    $ cm vm list
 
-Loging In To A VM
+Logging In To A VM
 -----------------
 
 To login to the vm you need to assign a publicly available IP

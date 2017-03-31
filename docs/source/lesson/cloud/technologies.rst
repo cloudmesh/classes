@@ -58,7 +58,7 @@ Hadoop
 
 
 
-Refernces
+References
 =========
 
 .. rubric:: References

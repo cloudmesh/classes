@@ -4,8 +4,8 @@ FutureSystems Cloud
 ===============================================================================
 
 .. warning:: This cloud is being updated so this guide will **not work
-	     completely**. However the commands to openstack provide a
-	     good introduction to any openstack cloud. Naturally
+	     completely**. However, the commands to OpenStack provide a
+	     good introduction to any OpenStack cloud. Naturally,
 	     account management will be different.
 
 This lesson provides a short guide to start using OpenStack on FutureSystems.
@@ -106,7 +106,7 @@ If you successfully added the command, the file content looks like::
   module load openstack
 
 See the last line of the file. ``module`` command is added. ``.bash_profile`` or
-``.bashrc`` exists in your home directory to initialze a shell when you login.
+``.bashrc`` exists in your home directory to initialize a shell when you login.
 Any commands or environmental variables e.g. PATH in these files is going to be
 executed. Find more information online, if you are interested in. `Bash Startup
 Files from GNU
@@ -154,7 +154,7 @@ resources.
 OpenStack Credential 
 -------------------------------------------------------------------------------
 
-``nova`` command is ready but we still need a OpenStack credential because we
+``nova`` command is ready but we still need an OpenStack credential because we
 use OpenStack under a project membership and OpenStack verifies our identity by
 looking at OpenStack credentials. It is simply done by:
 
@@ -214,7 +214,7 @@ registered on either the portal.futuresystems.org or github.com.
 
   nova keypair-add quickstart-key > ~/.ssh/quickstart-key
 
-This command does two things: one is registering a new public key to Openstack
+This command does two things: one is registering a new public key to OpenStack
 and the other one is saving a new private key to your .ssh directory. 
 
 Let's check your new keypair by::
@@ -237,7 +237,7 @@ The file should exist::
 
    -rw-r--r-- 1 albert users 1751 Jan 25 00:10 /N/u/albert/.ssh/quickstart-key
 
-The permission is too open, change the file permission with the owners only
+The permission is to open, change the file permission with the owners only
 read-write permission by::
 
    chmod 600 ~/.ssh/quickstart-key
@@ -384,7 +384,7 @@ If you see it is active and running like ::
         +--------------------------------------+------------------+--------+------------+-------------+--------------------+
 
 We may try SSH into the *$USER-quickstart* VM. Note that you see your portal ID
-in *albert*. SSH into the private IP addres and like you SSHed to India but with a
+in *albert*. SSH into the private IP address and like you SSHed to India but with a
 different SSH key like::
 
         ssh -i ~/.ssh/quickstart-key 10.0.6.4 -l ubuntu

@@ -5,9 +5,9 @@ A number of useful clouds exist that may be useful for this
 class. However, if you do work on another cloud we require you to
 replicate your setup on either
 
-* Chameleoncloud (using cloudmesh and openstack)
-* Jetstream (using cloudmesh and openstack not the GUI interface)
-* Futuresystems (using cloudmesh and openstack) 
+* Chameleon cloud (using cloudmesh and OpenStack)
+* Jetstream (using cloudmesh and OpenStack not the GUI interface)
+* Future Systems (using cloudmesh and OpenStack) 
   
 Useful cloudes include:
 

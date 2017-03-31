@@ -213,7 +213,7 @@ using ``cm hadoop define`` command::
 
     $ cm hadoop define
 
-Same as ``cm cluster define``, you can define multiple specification for the
+Same as ``cm cluster define``, you can define multiple specifications for the
 Hadoop cluster and check them with ``cm hadoop avail``::
 
     $ cm hadoop avail

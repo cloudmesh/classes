@@ -5,7 +5,7 @@
 MongoDB Sharded Cluster
 =======================
 
-This tutorial shows deploying a sharded mongodb cluster on india.futuresystems.org.
+This tutorial shows deploying a sharded MongoDB cluster on india.futuresystems.org.
 
 .. tip:: Approximate time: 30 minutes
 
@@ -48,7 +48,7 @@ the OpenStack India. See the page:
 Install Mongodb Server
 ----------------------
 
-Install mongodb server on each of the three virtual instances. If you have
+Install MongoDB server on each of the three virtual instances. If you have
 other operating systems, please use its package management program e.g. yum or
 brew.
 
@@ -257,7 +257,7 @@ provide an even distribution of documents across a cluster.
 Next Step
 ---------
 
-We have additional tutorial for using cloud resources on FutureSystems.
+We have an additional tutorial for using cloud resources on FutureSystems.
 In the next page, we explore several examples such as IPython, Chef, etc.
 
 .. toctree::

@@ -54,10 +54,10 @@ Technology Track:
    time. However, if you submit nothing, we will not issue any points.
 
 Lectures
------------------
+--------
    
 Lectures - Theory Track
-----------------------------------------
+-----------------------
    
 .. csv-table:: Theory Track
    :header: "Topic", "Description", "Resources", "Length", "Available"
@@ -68,8 +68,8 @@ Lectures - Collaboration Track
 ------------------------------
 
 .. csv-table:: Collaboration Track
-   :header: "Topic", "Description", "Resources", "Length"
-   :widths: 10, 70, 10, 10
+   :header: "Topic", "Description", "Resources", "Length", "Available"
+   :widths: 10, 60, 10, 10, 10
    :file: lectures-collab.csv
 
 Lectures - Systems

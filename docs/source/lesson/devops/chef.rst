@@ -14,7 +14,7 @@ tool written in Ruby and Erlang.
 Prerequisite
 ------------
 
-In order to conduct this lesson you should have knowledge of
+In order to conduct this lesson, you should have knowledge of
 
 * `OpenStack for Beginners <../iaas/openstack.html>`_
 
@@ -24,7 +24,7 @@ Description
 Chef is an open source infrastructure automation software that manages
 installation and configuration of your software with its Ruby code ``Recipe``
 and ``Cookbook``. ``Recipe`` is a description of how your servers should be set
-up with your software and ``Cookbook`` is a set of recipes. If you install a
+up with your software and ``Cookbook`` is a set of recipes. If you install an
 Apache web server or a MySQL database using Chef, you may download and use
 existing recipes from the Chef server (SuperMarket). You can also write your
 own recipes with your preference about configuration and installation. In most
@@ -36,7 +36,7 @@ This lesson gives you an introduction of Chef including the following topics:
 
 * Installation of Chef
 * Example I: Apache2 Installation
-* Write a first recipe
+* Write the first recipe
 
 Installation Chef
 -----------------
@@ -45,7 +45,7 @@ This lesson is based on FutureSystems which means you create a VM instance on
 India OpenStack and install Chef on top of it. If you prefer to use other
 virtual environments, we recommend to use Vagrant and VirtualBox.
 
-We assume you use a OpenStack instance on FutureSystems.
+We assume you use an OpenStack instance on FutureSystems.
 
 .. note:: If don't know how to launch a new instance? `See here
     <../iaas/openstack.html#launching-a-new-instance>`_
@@ -87,7 +87,7 @@ Now we expect to use ``chef-client`` command.::
 
 The tested version of Chef is 12.0.3. 
 
-You may have higher version of Chef. We use ``chef-client --local-mode`` or ``chef-solo`` which is a light version of a
+You may have a higher version of Chef. We use ``chef-client --local-mode`` or ``chef-solo`` which is a light version of a
 ``chef-client`` command that uses Cookbooks without communicating with Chef
 server. Chef has a few main components including ``chef-client`` and
 ``chef-server``.  For more detail, see here: `Chef Components
@@ -147,8 +147,9 @@ directory was ``/var/chef/cookbooks/``.
 First Cookbook
 ^^^^^^^^^^^^^^
 
-If you create a new cookbook, you need following instructions. We will start a
-Apache web server with a new cookbook named ``first-cookbook``::
+If you create a new cookbook, you need following instructions. We will
+start an Apache web server with a new cookbook named
+``first-cookbook``::
 
   knife cookbook create first-cookbook
 
@@ -162,7 +163,7 @@ You see::
 Installation of Apache Web Server
 ---------------------------------
 
-We configure our ``first-cookbook`` with a Apache web server in this lesson. It
+We configure our ``first-cookbook`` with an Apache web server in this lesson. It
 includes:
 
 * Download Apache2 Cookbook

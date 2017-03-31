@@ -1,7 +1,7 @@
 Contributing
 ============
 
-Contributing content to this web page is easy. First you have to fork
+Contributing content to this web page is easy. First, you have to fork
 the repository while going to the link:
 
 * https://github.com/cloudmesh/classes
@@ -10,7 +10,7 @@ And press the fork icon. Now you can clone or directly manipulate your
 fork from the web browser. If you clone, you need to make sure you
 clone from your fork.
 
-Next, you cen cd to the `classes` directory and make the
+Next, you can cd to the `classes` directory and make the
 modifications. Check them locally with::
 
   make html 
@@ -24,15 +24,15 @@ If accepted the request will be merged and you will be credited via
 your github account. Make sure you use git config to set your name and e-mail.
 
 
-Please also make sure you do not confuse github and gitlab. While this
-web page is located in github, your activities for the class are done
+Please also make sure you do not confuse GitHub and gitlab. While this
+web page is located in GitHub, your activities for the class are done
 in gitlab.
 
 Exercise
 --------
 
 Contrib.1:
-   Identify a spelling error in the web page, or another item
+   Identify a spelling error on the web page or another item
    to improve. Fork the Web page, fix the error and create a pull request.
 
 Contrib.2:

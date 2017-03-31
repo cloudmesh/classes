@@ -1001,19 +1001,20 @@ Application and Analytics
 55. H2O
 
     It is an open source software for big data analysis. It was
-    launched by the Start-up H2O in 2011. :cite:`www-H2O-website` It
-    provides an in-memory, distributed, fast and a scalable machine
-    learning and predictive analytics platform that allows the users
-    to build machine learning models on big data. It is written in
-    Java. :cite:`www-H20-book` It is currently implemented in 5000
-    companies. It provides APIs for R(3.0.0 or later), Python(2.7.x,
-    3.5.x), Scala(1.4-1.6) and JSON. The software also allows online
+    launched by the Start-up H2O in 2011. It provides an in-memory,
+    distributed, fast and a scalable machine learning and predictive
+    analytics platform that allows the users to build machine learning
+    models on big data :cite:`www-H2O-website`. It is written in
+    Java. It is currently implemented in 5000 companies. It provides
+    APIs for R(3.0.0 or later), Python(2.7.x, 3.5.x), Scala(1.4-1.6)
+    and JSON :cite:`www-H2O-book`. The software also allows online
     scoring and modeling on a single platform.  It is scalable and has
     a wide range of OS and language support. It works perfectly on the
     conventional operating systems, and big data systems such as
-    Hadoop, Cloudera, MapReduce, HortonWorks. :cite:`www-H20-wiki` It
-    can be used on cloud computing environments such as Amazon and
-    Microsoft Azure.
+    Hadoop, Cloudera, MapReduce, HortonWorks.  It can be used on cloud
+    computing environments such as Amazon and Microsoft Azure
+    :cite:`www-H2O-wiki`.
+
 
 56. IBM Watson
 
@@ -1401,6 +1402,19 @@ Application and Analytics
 
     
 75. three.js
+
+    Three.js is an API library with about 650 contributions till date
+    , where users can create and display an animated 3D computer
+    graphics in a web browser.It is written in javascript and uses
+    WebGL, HTML5 or SVG. Users can animate HTML elements using CSS3 or
+    even import models from 3D modelling apps
+    :cite:`www-three.js-wiki`. In order to display anything using
+    three.js we need three basic features, which are scene, camera and
+    renderer. This will result in rendering the scene with a
+    camera. In addition to these three features , we can add
+    animation, lights (ambience,spot lights, shadows), objects (lines
+    , ribbons , particles) , geometry etc :cite:`www-threejs-webpage`.
+    
 76. Potree
 
     Potree :cite:`www-potree` is a opensource tool powered by WebGL
@@ -1631,18 +1645,18 @@ Application Hosting Frameworks
 87. Cloud Foundry
 
     It is an open source software with multi cloud application .It is
-    a platform for running applications and
-    services. :cite:`www-cloudfoundry-book` It was originally
-    developed by VMware and currently owned by Pivotal . It is written
-    in Ruby and Go .It has a commercial version called Pivotal Cloud
-    Foundry (PFC). Cloud Foundry is available as a stand alone
-    software package, we can also deploy it to Amazon AWS as well as
-    host it on OpenStack server , HP’s Helion or VMware’s vSphere as
-    given in the blog :cite:`www-cloudfoundry-blog` , it delivers
-    quick application from development to deployment and is highly
-    scalable. It has a DevOps friendly workflow.  Cloud Foundry
-    changes the way application and services are deployed and reduces
-    the develop to deployment cycle time.
+    a platform for running applications and services. It was
+    originally developed by VMware and currently owned by Pivotal . It
+    is written in Ruby and Go .It has a commercial version called
+    Pivotal Cloud Foundry (PFC):cite:`www-cloudfoundry-book`. Cloud
+    Foundry is available as a stand alone software package, we can
+    also deploy it to Amazon AWS as well as host it on OpenStack
+    server , HP’s Helion or VMware’s vSphere as given in the blog
+    :cite:`www-cloudfoundry-blog` , it delivers quick application from
+    development to deployment and is highly scalable. It has a DevOps
+    friendly workflow.  Cloud Foundry changes the way application and
+    services are deployed and reduces the develop to deployment cycle
+    time.
 
 88. Pivotal
 
@@ -1717,21 +1731,21 @@ Application Hosting Frameworks
     
 94. CloudBees
 
-    :cite:`www-cloudbees-wiki` Cloudbees provides Platform as a
-    Service (PaaS) solution, which is a cloud service for Java
-    applications. It is used to build, run and manage the web
-    applications. It was created in 2010 by Jenkins. It has a
+    Cloudbees provides Platform as a Service (PaaS) solution, which is
+    a cloud service for Java applications
+    :cite:`www-cloudbees-wiki`. It is used to build, run and manage
+    the web applications. It was created in 2010 by Jenkins. It has a
     continuous delivery platform for DevOps, and adds a
     enterprise-grade functionality with an expert level
     support. Cloudbees is better than the traditional Java platform as
     it requires no provision of the nodes, clusters, load balancers
     and databases. In cloudbees the environment is constantly managed
     and monitored where a metering and scale updating is done on a
-    real time basis. :cite:`www-cloudbees-webpage` The platform ships
-    with verified security and enhancements assuring less risk for
-    sharing sensitive information. It simplies the task of getting the
-    platform accessed by every user using the feature “Jenkins
-    Sprawl”.
+    real time basis. The platform ships with verified security and
+    enhancements assuring less risk for sharing sensitive
+    information. It simplies the task of getting the platform accessed
+    by every user using the feature “Jenkins Sprawl”
+    :cite:`www-cloudbees-webpage`.
 
 95. Engine Yard :cite:`www-engineyard`
 
@@ -2460,6 +2474,31 @@ Streams
      tolerant and highly available.
 
 134. LinkedIn
+     
+     LinkedIn is a social networking website for Business and employment
+     :cite:`www-linkedinwiki`. LinkedIn has more than 400 million
+     user profiles (as per 10 March2016 news), and increasing
+     at a rate of 2new member every second :cite:`www-linkedinbigdata`.
+     LinkedIn provides different products like:
+
+     - People You May Know
+     - Skill Endorsements
+     - Jobs You May Be Interested In
+     - News Feed Updates
+
+     Such products are based on big data. To achieve such big data
+     tasks, LinkedIn has its ecosystem consist of Oracle, Hadoop, Pig,
+     Hive, Azkaban (Workflow), Avro Data, Zookeeper, Aster Data,
+     Data In- Apache Kafka, Data Out- Apache Kafka and Voldemort
+     :cite:`www-linkedinbigdata`. LinkedIn uses Hadoop and Aster Data
+     as an analytics layer :cite:`www-linkedinquora`. LinkedIn
+     partitioned the user’s data into separate DB’s stored it in XML
+     format. Voldemort is a key lookup system used to store the
+     analytically-derived data for the products like “People You
+     May Know”. Voldemort stores the data in key-value form
+     :cite:`www-linkedinquora`. LinkedIn has exposed REST
+     API to get the user data :cite:`www-linkedindevelopers`.
+
 135. Twitter Heron
 
      Heron is a real-time analytics platform that was developed at
@@ -3089,6 +3128,25 @@ Inter process communication Collectives
      monitors river and floodplains through a set of sensors.
 
 177. Marionette Collective
+
+     It is basically a framework for management of a system where the
+     systems undergo an organized coordination resulting in an
+     automated deployment of systems which creates an orderly workflow
+     or a parallel wise job execution. It doesn’t rely on central
+     inventories such as SSH and uses tools such as Middleware :cite:
+     `www-marionette-webpage`. This gives an advantage of delivering a
+     very scalable and quick execution environment.  Mcollective gives
+     us a huge advantage of working with a large number of servers ,
+     it uses publish/subscribe middleware for communicating with many
+     hosts at once in a parallel manner. Mcollective allows us to
+     interact with a cluster of servers at the same time, it allows us
+     to use a simple command line to call remote agents and there
+     isn’t a centralized inventory. Mcollective uses a broadcast
+     paradigm to distribute the requests , where all the servers
+     receives the request at the same time which are also attached
+     with a filter. The servers which match the filter will act on
+     these requests.
+     
 178. Public Cloud: Amazon SNS
 
      Amazon SNS is an Inter process communication service which gives
@@ -5994,6 +6052,36 @@ DevOps
      application."
 
 334. CloudML
+                                                            
+     CloudML a research project initiated by SINTEF in 2011
+     :cite:`www-cloudml`. Cloud computing facilitates to shared
+     and virtualized computer capabilities like storage, memory,
+     CPU, GPU and networks, to user. There is multiple cloud provider,
+     also the Iaas(Infrastructure-as-a-service) and
+     Pass(Platform-as-a-service). To operate multiple cloud for
+     applications, which requires multiple private, public, or hybrid
+     clouds, limit the capability of each cloud solution.  Solution
+     provided by such cloud will gets incompatible with others. So,
+     to providing the solution which can compatible with multi-cloud
+     platform is a tedious job. To achieve this CloudML provides a
+     “domain-specific modelling language along with run time environment”
+     :cite:`www-cloudml`.It provides the interoperability and provide
+     vendor lock-in, also it provides the solution on specification of
+     provisioning, deployment, and adaptation concerns of multi-cloud
+     systems. At design time as well as runtime :cite:`www-cloudml`.
+     CloudML provides two level of abstraction while developing model
+     for multi-cloud application:
+
+     - Cloud Provider-Independent Model (CPIM), this specifies the
+       provisioning and deployment.
+       
+     - Cloud Provider-Specific Model (CPSM), which filters the
+       provisioning and deployment of multiple cloud application,
+       according to its cloud.
+
+     This two abstract approach help CloudML to achieve the multi-cloud 
+     application support :cite:`www-cloudmlwiki`.
+
 335. Blueprints
 
      In :cite:`www-blueprints`, it is explained that "IBM Blueprint 
@@ -6112,19 +6200,18 @@ IaaS Management from HPC to hypervisors
           
 340. KVM
 
-     :cite:`www-KVM-wiki` It is an acronym for Kernel-based Virtual
-     Machine for the Linux Kernel that turns it into a hypervisor upon
-     installation. It was originally developed by Qumranet in 2007. It
+     It is an acronym for Kernel-based Virtual Machine for the Linux
+     Kernel that turns it into a hypervisor upon installation. It was
+     originally developed by Qumranet in 2007 :cite:`www-KVM-wiki`. It
      has a kernel model and uses kernel as VMM. It only supports fully
      virtualized VMs. It is very active for Linux users due to it’s
      ease of use, it can be completely controlled by ourselves and
-     there is an ease for migration from or to other
-     platforms. :cite:`www-KVM-webpage` It is built to run on a x86
-     machine on an Intel processor with virtualization technology
-     extensions (VT-x) or an AMD-V. It supports 32 and 64 bit guests
-     on a 64 bit host and hardware visualization features. The
-     supported guest systems are Solaris , Linux, Windows and BSD
-     Unix.
+     there is an ease for migration from or to other platforms. It is
+     built to run on a x86 machine on an Intel processor with
+     virtualization technology extensions (VT-x) or an AMD-V. It
+     supports 32 and 64 bit guests on a 64 bit host and hardware
+     visualization features. The supported guest systems are Solaris ,
+     Linux, Windows and BSD Unix :cite:`www-KVM-webpage`.
 
 341. QEMU
      
@@ -7305,6 +7392,29 @@ New Technologies (To Be Integrated by the AIs)
      features of Apache Ranger. Ranger also provides centralized auditing of
      user acces and security related administrative actions.
      
+398. Google Cloud Machine Learning
+     
+     Google Could Machine Leaning is a Googles cloud based managed
+     system for building machine learning model, capable to work on any
+     type and volume of data. User can create their own machine learning
+     model using GoogleTensorFlow framework, which helps to use the
+     range of Google products from Google Photos to Google Cloud Speech.
+     We can build our machine learning model regardless the size, google
+     will managed it infrastructure according to  requirement. User can
+     immediately host the created model and start predicting on new data
+     :cite:`www-googlecloudmachinelearning`.Cloud Machine Learning provides
+     two important things:
+     
+     - Help user to train the machine learning model at large scale
+       with the help of TensorFlow  training application.
+	
+     - User can host the trained model on cloud,  this will help
+       to use the large and new data available on cloud, which help in
+       creating good model.
+
+     Google CloudML will help user to focus on model instead of hardware
+     configuration and resource management :cite:`www-googlecloudoverview`.
+	     
 .. _techs-exercise:
 
 Excercise

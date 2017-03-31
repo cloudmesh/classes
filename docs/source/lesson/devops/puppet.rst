@@ -15,7 +15,7 @@ management tool.
 Prerequisite
 ----------------------------------------------------------------------
 
-In order to conduct this lesson you should have knowledge of
+In order to conduct this lesson, you should have knowledge of
 
 * `OpenStack for Beginners <../iaas/openstack.html>`_
 
@@ -49,7 +49,7 @@ This lesson is based on FutureSystems which means you create a VM instance on
 India OpenStack and install Puppet on top of it. If you prefer to use other
 virtual environments, we recommend to use Vagrant and VirtualBox.
 
-We assume you use a OpenStack instance on FutureSystems.
+We assume you use an OpenStack instance on FutureSystems.
 
 .. note:: If don't know how to launch a new instance? `See here
     <../iaas/openstack.html#launching-a-new-instance>`_
@@ -143,7 +143,7 @@ Puppet Directory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You Puppet is ready to use on you VM instance. Let's create a Puppet
-configuration file.  The installation process have created a Puppet directory
+configuration file.  The installation process has created a Puppet directory
 under ``/etc/``. (If it hasn't, create it with ``mkdir /etc/puppet``).
 
 ::
