@@ -1,19 +1,19 @@
-Ubuntu, Development OS for the class, :doc:`Web page <../lesson/linux/ubuntu>`,,7 Jan
-Virtualbox, Virtualbox for class, :doc:`Web page <../lesson/linux/virtualbox>`,,7 Jan
-  , Instalation of ubuntu in virtualbox, `Video <https://youtu.be/NWibDntN2M4>`_,   ,7 Jan
-  , Instalation of guest additions in virtualbox, `Video <https://youtu.be/wdCoiNdn2jA>`_,   ,7 Jan
-Shell, Linux Shell, `Video <https://www.youtube.com/watch?v=LeTlm_ck2GI>`_ | :doc:`Web Page <../lesson/linux/linux>`,,7 Jan
-Python, Introduction to Python, :doc:`Web page <../lesson/prg/python_intro>`,,7 Jan
-      , Python for Big Data, :doc:`Web Page <../lesson/prg/python_big_data>`,,7 Jan
-      , Python CMD, :doc:`Web Page <../lesson/prg/python_cmd>`,,7 Jan
-      , (Optional) Python pyenv, :doc:`Web Page <../lesson/prg/pyenv>`,,Feb 24      
-      , (Draft - Advanced) Python Fingerprint example, :doc:`Web page <../lesson/prg/python_lesson1>`,,7 Jan
-      , PyCharm, `Video <https://www.youtube.com/watch?v=X8ZpbZweJcw>`_,      ,7 Jan
-Refcards, Reference cards, :doc:`Web Page <../lesson/linux/refcards>`,,7 Jan
-Emacs, (Optional) Useful emacs commands, :doc:`Web Page <../lesson/doc/emacs>`,,7 Jan
-Cloudmesh Client,Installation of Cloudmesh Client, `Video <https://www.youtube.com/watch?v=R50IQYhr-vg>`_ | :doc:`Web Page <../lesson/cloud/cloudmesh-installation>`,,14 Feb
+Ubuntu, Development OS for the class, :doc:`Web page <../lesson/linux/ubuntu>`,,Jan 7
+Virtualbox, Virtualbox for class, :doc:`Web page <../lesson/linux/virtualbox>`,,Jan 7
+  , Instalation of ubuntu in virtualbox, `Video <https://youtu.be/NWibDntN2M4>`_,   ,Jan 7
+  , Instalation of guest additions in virtualbox, `Video <https://youtu.be/wdCoiNdn2jA>`_,   ,Jan 7
+Shell, Linux Shell, `Video <https://www.youtube.com/watch?v=LeTlm_ck2GI>`_ | :doc:`Web Page <../lesson/linux/linux>`,,Jan 7
+Python, Introduction to Python, :doc:`Web page <../lesson/prg/python_intro>`,,Jan 7
+      , Python for Big Data, :doc:`Web Page <../lesson/prg/python_big_data>`,,Jan 7
+      , Python CMD, :doc:`Web Page <../lesson/prg/python_cmd>`,,Jan 7
+      , Python CMD5, :doc:`Web Page <../lesson/prg/python_cmd5>`,,Mar 30
+      , (Optional) Python pyenv, :doc:`Web Page <../lesson/prg/pyenv>`,,Feb 24
+      , (Draft - Advanced) Python Fingerprint example, :doc:`Web page <../lesson/prg/python_lesson1>`,,Jan 7
+      , PyCharm, `Video <https://www.youtube.com/watch?v=X8ZpbZweJcw>`_,      ,Jan 7
+Refcards, Reference cards, :doc:`Web Page <../lesson/linux/refcards>`,,Jan 7
+Emacs, (Optional) Useful emacs commands, :doc:`Web Page <../lesson/doc/emacs>`,,Jan 7
+Cloudmesh Client,Installation of Cloudmesh Client, `Video <https://www.youtube.com/watch?v=R50IQYhr-vg>`_ | :doc:`Web Page <../lesson/cloud/cloudmesh-installation>`,,Feb 14
 	  ,Setting up a cluster and Hadoop / Pig / Spark with Cloudmesh, `Video <https://www.youtube.com/watch?v=KOV8PqvX-GQ>`_ | :doc:`Web Page <../lesson/devops/hadoop>`,,Mar 20
-
-Ansible, Starting Point, `Video <https://www.youtube.com/watch?v=no52OmHg1ek>`_ | :doc:`Web Page <../lesson/devops/ansible/ansible-I>`,
-       , Roles and Others, `Video <https://www.youtube.com/watch?v=eN52x5XxJAE>`_ | :doc:`Web Page <../lesson/devops/ansible/ansible-II>`,
-       , Ansible Galaxy, :doc:`Web Page <../lesson/devops/ansible/ansible-III>`
+Ansible, Starting Point, `Video <https://www.youtube.com/watch?v=no52OmHg1ek>`_ | :doc:`Web Page <../lesson/devops/ansible/ansible-I>`,,Feb 14
+       , Roles and Others, `Video <https://www.youtube.com/watch?v=eN52x5XxJAE>`_ | :doc:`Web Page <../lesson/devops/ansible/ansible-II>`,,Feb 14
+       , Ansible Galaxy, :doc:`Web Page <../lesson/devops/ansible/ansible-III>`,, Feb 14

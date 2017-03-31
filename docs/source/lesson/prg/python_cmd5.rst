@@ -27,32 +27,36 @@ or for pyenv, with::
 
     pyenev virtualenv 2.7.13 ENV2
 
-Next, you must install cloudmesh_client with::
-
-    pip install cloudmesh_client
-
 Now you need to get two source directories. We assume yo place them in
 ~/github::
 
-    mkdir ~/github
-    cd ~/github
-    git clone https://github.com/cloudmesh/cmd5.git
-    git clone https://github.com/cloudmesh/extbar.git
+  mkdir ~/github
+  cd ~/github
+
+  git clone https://github.com/cloudmesh/common.git
+  git clone https://github.com/cloudmesh/cmd5.git
+  git clone https://github.com/cloudmesh/extbar.git
+
+  cd ~/github/common
+  python setup.py install
+  pip install .
+
+  cd ~/github/cmd5
+  python setup.py install
+  pip install .
+
+  cd ~/github/extbar
+  python setup.py install
+  pip install .
 
 The cmd5 repository contains the shell, while the extbar directory
 contains the sample to add the dynamic commands foo and bar.
 
-To install them simply to the following::
-
-    cd ~/github/cmd5
-    python setup.py install
-    cd ~/github/extbar
-    python setup.py install
 
 Execution
 ---------
 
-to run the shell you can activate it with the cms command. cms stands
+To run the shell you can activate it with the cms command. cms stands
 for cloudmesh shell::
 
     (ENV2) $ cms
@@ -91,7 +95,13 @@ create an enhancement is to take a look at the code in
 * https://github.com/cloudmesh/extbar.git
 
 Simply copy the code and modify the bar and foo commands to fit yor
-needs. It is important that all objects are defined in the command
+needs.
+
+.. warning:: make sure you are not copying the .git directory. Thus we
+	     recommend that you copy it explicitly file by file or
+	     directory by directory
+
+It is important that all objects are defined in the command
 itself and that no global variables be use in order to allow each
 shell command to stand alone. Naturally you should develop API
 libraries outside of the cloudmesh shell command and reuse them in
@@ -107,8 +117,8 @@ An example for the bar command is presented at:
 It shows how simple the command definition is (bar.py)::
 
     from __future__ import print_function
-    from cloudmesh_client.shell.command import command
-    from cloudmesh_client.shell.command import PluginCommand
+    from cloudmesh.shell.command import command
+    from cloudmesh.shell.command import PluginCommand
 
     class BarCommand(PluginCommand):
 

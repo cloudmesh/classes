@@ -1001,19 +1001,20 @@ Application and Analytics
 55. H2O
 
     It is an open source software for big data analysis. It was
-    launched by the Start-up H2O in 2011. :cite:`www-H2O-website` It
-    provides an in-memory, distributed, fast and a scalable machine
-    learning and predictive analytics platform that allows the users
-    to build machine learning models on big data. It is written in
-    Java. :cite:`www-H20-book` It is currently implemented in 5000
-    companies. It provides APIs for R(3.0.0 or later), Python(2.7.x,
-    3.5.x), Scala(1.4-1.6) and JSON. The software also allows online
+    launched by the Start-up H2O in 2011. It provides an in-memory,
+    distributed, fast and a scalable machine learning and predictive
+    analytics platform that allows the users to build machine learning
+    models on big data :cite:`www-H2O-website`. It is written in
+    Java. It is currently implemented in 5000 companies. It provides
+    APIs for R(3.0.0 or later), Python(2.7.x, 3.5.x), Scala(1.4-1.6)
+    and JSON :cite:`www-H2O-book`. The software also allows online
     scoring and modeling on a single platform.  It is scalable and has
     a wide range of OS and language support. It works perfectly on the
     conventional operating systems, and big data systems such as
-    Hadoop, Cloudera, MapReduce, HortonWorks. :cite:`www-H20-wiki` It
-    can be used on cloud computing environments such as Amazon and
-    Microsoft Azure.
+    Hadoop, Cloudera, MapReduce, HortonWorks.  It can be used on cloud
+    computing environments such as Amazon and Microsoft Azure
+    :cite:`www-H2O-wiki`.
+
 
 56. IBM Watson
 
@@ -1401,6 +1402,19 @@ Application and Analytics
 
     
 75. three.js
+
+    Three.js is an API library with about 650 contributions till date
+    , where users can create and display an animated 3D computer
+    graphics in a web browser.It is written in javascript and uses
+    WebGL, HTML5 or SVG. Users can animate HTML elements using CSS3 or
+    even import models from 3D modelling apps
+    :cite:`www-three.js-wiki`. In order to display anything using
+    three.js we need three basic features, which are scene, camera and
+    renderer. This will result in rendering the scene with a
+    camera. In addition to these three features , we can add
+    animation, lights (ambience,spot lights, shadows), objects (lines
+    , ribbons , particles) , geometry etc :cite:`www-threejs-webpage`.
+    
 76. Potree
 
     Potree :cite:`www-potree` is a opensource tool powered by WebGL
@@ -1631,18 +1645,18 @@ Application Hosting Frameworks
 87. Cloud Foundry
 
     It is an open source software with multi cloud application .It is
-    a platform for running applications and
-    services. :cite:`www-cloudfoundry-book` It was originally
-    developed by VMware and currently owned by Pivotal . It is written
-    in Ruby and Go .It has a commercial version called Pivotal Cloud
-    Foundry (PFC). Cloud Foundry is available as a stand alone
-    software package, we can also deploy it to Amazon AWS as well as
-    host it on OpenStack server , HP’s Helion or VMware’s vSphere as
-    given in the blog :cite:`www-cloudfoundry-blog` , it delivers
-    quick application from development to deployment and is highly
-    scalable. It has a DevOps friendly workflow.  Cloud Foundry
-    changes the way application and services are deployed and reduces
-    the develop to deployment cycle time.
+    a platform for running applications and services. It was
+    originally developed by VMware and currently owned by Pivotal . It
+    is written in Ruby and Go .It has a commercial version called
+    Pivotal Cloud Foundry (PFC):cite:`www-cloudfoundry-book`. Cloud
+    Foundry is available as a stand alone software package, we can
+    also deploy it to Amazon AWS as well as host it on OpenStack
+    server , HP’s Helion or VMware’s vSphere as given in the blog
+    :cite:`www-cloudfoundry-blog` , it delivers quick application from
+    development to deployment and is highly scalable. It has a DevOps
+    friendly workflow.  Cloud Foundry changes the way application and
+    services are deployed and reduces the develop to deployment cycle
+    time.
 
 88. Pivotal
 
@@ -1717,21 +1731,21 @@ Application Hosting Frameworks
     
 94. CloudBees
 
-    :cite:`www-cloudbees-wiki` Cloudbees provides Platform as a
-    Service (PaaS) solution, which is a cloud service for Java
-    applications. It is used to build, run and manage the web
-    applications. It was created in 2010 by Jenkins. It has a
+    Cloudbees provides Platform as a Service (PaaS) solution, which is
+    a cloud service for Java applications
+    :cite:`www-cloudbees-wiki`. It is used to build, run and manage
+    the web applications. It was created in 2010 by Jenkins. It has a
     continuous delivery platform for DevOps, and adds a
     enterprise-grade functionality with an expert level
     support. Cloudbees is better than the traditional Java platform as
     it requires no provision of the nodes, clusters, load balancers
     and databases. In cloudbees the environment is constantly managed
     and monitored where a metering and scale updating is done on a
-    real time basis. :cite:`www-cloudbees-webpage` The platform ships
-    with verified security and enhancements assuring less risk for
-    sharing sensitive information. It simplies the task of getting the
-    platform accessed by every user using the feature “Jenkins
-    Sprawl”.
+    real time basis. The platform ships with verified security and
+    enhancements assuring less risk for sharing sensitive
+    information. It simplies the task of getting the platform accessed
+    by every user using the feature “Jenkins Sprawl”
+    :cite:`www-cloudbees-webpage`.
 
 95. Engine Yard :cite:`www-engineyard`
 
@@ -3114,6 +3128,25 @@ Inter process communication Collectives
      monitors river and floodplains through a set of sensors.
 
 177. Marionette Collective
+
+     It is basically a framework for management of a system where the
+     systems undergo an organized coordination resulting in an
+     automated deployment of systems which creates an orderly workflow
+     or a parallel wise job execution. It doesn’t rely on central
+     inventories such as SSH and uses tools such as Middleware :cite:
+     `www-marionette-webpage`. This gives an advantage of delivering a
+     very scalable and quick execution environment.  Mcollective gives
+     us a huge advantage of working with a large number of servers ,
+     it uses publish/subscribe middleware for communicating with many
+     hosts at once in a parallel manner. Mcollective allows us to
+     interact with a cluster of servers at the same time, it allows us
+     to use a simple command line to call remote agents and there
+     isn’t a centralized inventory. Mcollective uses a broadcast
+     paradigm to distribute the requests , where all the servers
+     receives the request at the same time which are also attached
+     with a filter. The servers which match the filter will act on
+     these requests.
+     
 178. Public Cloud: Amazon SNS
 
      Amazon SNS is an Inter process communication service which gives
@@ -6167,19 +6200,18 @@ IaaS Management from HPC to hypervisors
           
 340. KVM
 
-     :cite:`www-KVM-wiki` It is an acronym for Kernel-based Virtual
-     Machine for the Linux Kernel that turns it into a hypervisor upon
-     installation. It was originally developed by Qumranet in 2007. It
+     It is an acronym for Kernel-based Virtual Machine for the Linux
+     Kernel that turns it into a hypervisor upon installation. It was
+     originally developed by Qumranet in 2007 :cite:`www-KVM-wiki`. It
      has a kernel model and uses kernel as VMM. It only supports fully
      virtualized VMs. It is very active for Linux users due to it’s
      ease of use, it can be completely controlled by ourselves and
-     there is an ease for migration from or to other
-     platforms. :cite:`www-KVM-webpage` It is built to run on a x86
-     machine on an Intel processor with virtualization technology
-     extensions (VT-x) or an AMD-V. It supports 32 and 64 bit guests
-     on a 64 bit host and hardware visualization features. The
-     supported guest systems are Solaris , Linux, Windows and BSD
-     Unix.
+     there is an ease for migration from or to other platforms. It is
+     built to run on a x86 machine on an Intel processor with
+     virtualization technology extensions (VT-x) or an AMD-V. It
+     supports 32 and 64 bit guests on a 64 bit host and hardware
+     visualization features. The supported guest systems are Solaris ,
+     Linux, Windows and BSD Unix :cite:`www-KVM-webpage`.
 
 341. QEMU
      

@@ -1,22 +1,22 @@
-Organization, Lessons vs Lectures, `Web Page <../lesson/org/index.html>`_,
-Piazza, Information about Piazza, `PDF <https://piazza.com/pdfs/piazza_product_introduction.pdf>`_,
-Web Page, Contributing to the Web Page, `Web Page <../lesson/contrib/contributing.html>`_,
-Github, Overview and Introduction, `Web page <../lesson/prg/github.html#video-lectures-on-github>`_, 
-      , Install Instructions, `Web page <https://www.atlassian.com/git/tutorials/install-git>`_,    
-      , config, `Video <https://www.youtube.com/watch?v=ZChtKFLiaNw>`_, 2:47
-      , fork, `Video <https://www.youtube.com/watch?v=5oJHRbqEofs>`_, 1:41
-      , checkout, `Video <https://www.youtube.com/watch?v=HwrPhOp6-aM>`_, 3:11
-      , pull, `Video <https://www.youtube.com/watch?v=d5wpJ5VimSU>`_, 4:26
-      , branch, `Video <https://www.youtube.com/watch?v=H5GJfcp3p4Q>`_, 2:25
-      , merge, `Video <https://www.youtube.com/watch?v=yyLiplDQtf0>`_, 4:50
-      , rebase, `Video <https://www.youtube.com/watch?v=SxzjZtJwOgo>`_, 4:20
-      , GUI, `Video <https://www.youtube.com/watch?v=BMYOs5jflGE>`_, 3:47
-      , Windows - unsupported, `Video <https://www.youtube.com/watch?v=YBbkvCrfDSo>`_, 1:25
-Paper,How to write a paper by Simon Peyton Jones, `Video <https://www.youtube.com/watch?v=g3dkRsTqdDA>`_, 34:24
-     ,LaTeX - Overview of LaTeX Resources, `Web Page <../lesson/doc/latex.html>`_,
-     ,(optional) ShareLaTeX, `Video <https://youtu.be/PfhSOjuQk8Y>`_, 8:49
-     ,jabref, `Video <https://youtu.be/cMtYOHCHZ3k>`_,14:41
-     ,bibtex, `Web Page <../lesson/doc/bibtex.html>`_,
-     ,Report Format, `Web Page <../lesson/doc/report.html>`_ - `Git <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_ - `PDF <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_,
-     ,Advice based on paper 1 submissions,:doc:`Web Page <paper-advice>`
-RST, (Draft) Restructured Text, `Web Page <../lesson/doc/rst.html>`_,
+Organization, Lessons vs Lectures, `Web Page <../lesson/org/index.html>`_,,Jan 1
+Piazza, Information about Piazza, `PDF <https://piazza.com/pdfs/piazza_product_introduction.pdf>`_,,Jan 1
+Web Page, Contributing to the Web Page, `Web Page <../lesson/contrib/contributing.html>`_,,Jan 1
+Github, Overview and Introduction, `Web page <../lesson/prg/github.html#video-lectures-on-github>`_, ,Jan 1
+      , Install Instructions, `Web page <https://www.atlassian.com/git/tutorials/install-git>`_,    ,Jan 1
+      , config, `Video <https://www.youtube.com/watch?v=ZChtKFLiaNw>`_, 2:47,Jan 1
+      , fork, `Video <https://www.youtube.com/watch?v=5oJHRbqEofs>`_, 1:41,Jan 1
+      , checkout, `Video <https://www.youtube.com/watch?v=HwrPhOp6-aM>`_, 3:11,Jan 1
+      , pull, `Video <https://www.youtube.com/watch?v=d5wpJ5VimSU>`_, 4:26,Jan 1
+      , branch, `Video <https://www.youtube.com/watch?v=H5GJfcp3p4Q>`_, 2:25,Jan 1
+      , merge, `Video <https://www.youtube.com/watch?v=yyLiplDQtf0>`_, 4:50,Jan 1
+      , rebase, `Video <https://www.youtube.com/watch?v=SxzjZtJwOgo>`_, 4:20,Jan 1
+      , GUI, `Video <https://www.youtube.com/watch?v=BMYOs5jflGE>`_, 3:47,Jan 1
+      , Windows - unsupported, `Video <https://www.youtube.com/watch?v=YBbkvCrfDSo>`_, 1:25,Jan 1
+Paper,How to write a paper by Simon Peyton Jones, `Video <https://www.youtube.com/watch?v=g3dkRsTqdDA>`_, 34:24,Jan 1
+     ,LaTeX - Overview of LaTeX Resources, `Web Page <../lesson/doc/latex.html>`_,,Jan 1
+     ,(optional) ShareLaTeX, `Video <https://youtu.be/PfhSOjuQk8Y>`_, 8:49,Jan 1
+     ,jabref, `Video <https://youtu.be/cMtYOHCHZ3k>`_,14:41,Jan 1
+     ,bibtex, `Web Page <../lesson/doc/bibtex.html>`_,,Jan 1
+     ,Report Format, `Web Page <../lesson/doc/report.html>`_ - `Git <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_ - `PDF <https://github.com/cloudmesh/classes/tree/master/docs/source/format/report>`_,,Jan 1
+     ,Advice based on paper 1 submissions,:doc:`Web Page <paper-advice>`,,Mar 30
+RST, (Draft) Restructured Text, `Web Page <../lesson/doc/rst.html>`_,,Jan 1
