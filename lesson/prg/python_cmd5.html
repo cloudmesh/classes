@@ -590,31 +590,34 @@ pyenv. This can be either achieved vor virtualenv with:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pyenev</span> <span class="n">virtualenv</span> <span class="mf">2.7</span><span class="o">.</span><span class="mi">13</span> <span class="n">ENV2</span>
 </pre></div>
 </div>
-<p>Next, you must install cloudmesh_client with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">cloudmesh_client</span>
-</pre></div>
-</div>
 <p>Now you need to get two source directories. We assume yo place them in
 ~/github:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">~/</span><span class="n">github</span>
 <span class="n">cd</span> <span class="o">~/</span><span class="n">github</span>
+
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">common</span><span class="o">.</span><span class="n">git</span>
 <span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">cmd5</span><span class="o">.</span><span class="n">git</span>
 <span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">extbar</span><span class="o">.</span><span class="n">git</span>
+
+<span class="n">cd</span> <span class="o">~/</span><span class="n">github</span><span class="o">/</span><span class="n">common</span>
+<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">.</span>
+
+<span class="n">cd</span> <span class="o">~/</span><span class="n">github</span><span class="o">/</span><span class="n">cmd5</span>
+<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">.</span>
+
+<span class="n">cd</span> <span class="o">~/</span><span class="n">github</span><span class="o">/</span><span class="n">extbar</span>
+<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">.</span>
 </pre></div>
 </div>
 <p>The cmd5 repository contains the shell, while the extbar directory
 contains the sample to add the dynamic commands foo and bar.</p>
-<p>To install them simply to the following:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">~/</span><span class="n">github</span><span class="o">/</span><span class="n">cmd5</span>
-<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
-<span class="n">cd</span> <span class="o">~/</span><span class="n">github</span><span class="o">/</span><span class="n">extbar</span>
-<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
-</pre></div>
-</div>
 </div>
 <div class="section" id="execution">
 <h2>Execution<a class="headerlink" href="#execution" title="Permalink to this headline">¶</a></h2>
-<p>to run the shell you can activate it with the cms command. cms stands
+<p>To run the shell you can activate it with the cms command. cms stands
 for cloudmesh shell:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>(ENV2) $ cms
 </pre></div>
@@ -651,7 +654,14 @@ create an enhancement is to take a look at the code in</p>
 <li><a class="reference external" href="https://github.com/cloudmesh/extbar.git">https://github.com/cloudmesh/extbar.git</a></li>
 </ul>
 <p>Simply copy the code and modify the bar and foo commands to fit yor
-needs. It is important that all objects are defined in the command
+needs.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">make sure you are not copying the .git directory. Thus we
+recommend that you copy it explicitly file by file or
+directory by directory</p>
+</div>
+<p>It is important that all objects are defined in the command
 itself and that no global variables be use in order to allow each
 shell command to stand alone. Naturally you should develop API
 libraries outside of the cloudmesh shell command and reuse them in
@@ -666,8 +676,8 @@ command in:</p>
 </ul>
 <p>It shows how simple the command definition is (bar.py):</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">print_function</span>
-<span class="kn">from</span> <span class="nn">cloudmesh_client.shell.command</span> <span class="k">import</span> <span class="n">command</span>
-<span class="kn">from</span> <span class="nn">cloudmesh_client.shell.command</span> <span class="k">import</span> <span class="n">PluginCommand</span>
+<span class="kn">from</span> <span class="nn">cloudmesh.shell.command</span> <span class="k">import</span> <span class="n">command</span>
+<span class="kn">from</span> <span class="nn">cloudmesh.shell.command</span> <span class="k">import</span> <span class="n">PluginCommand</span>
 
 <span class="k">class</span> <span class="nc">BarCommand</span><span class="p">(</span><span class="n">PluginCommand</span><span class="p">):</span>
 
