@@ -68,8 +68,8 @@ Lectures - Collaboration Track
 ------------------------------
 
 .. csv-table:: Collaboration Track
-   :header: "Topic", "Description", "Resources", "Length"
-   :widths: 10, 70, 10, 10
+   :header: "Topic", "Description", "Resources", "Length", "Available"
+   :widths: 10, 60, 10, 10, 10
    :file: lectures-collab.csv
 
 Lectures - Systems
