@@ -192,14 +192,32 @@ you need to also delete the mongod database.
 Towards cmd5 extensions to manage eve and mongo
 -----------------------------------------------
 
-NAturally it is of advantage to have in cms administration commands to
+Naturally it is of advantage to have in cms administration commands to
 manage mongo and eve from cmd instead of targets in the
-Makefile. Hence, we propose that the class develops such an
+Makefile. Hence, we **propose** that the class develops such an
 extension. We will create in the repository the extension called admin
 and hobe that students through collaborative work and pull requests
-complete such an admin command. I will provide a simple start.
+complete such an admin command.
 
-And I will provide more information on this here shortely.
+The proposed command is located at:
+
+* https://github.com/cloudmesh/rest/blob/master/cloudmesh/ext/command/admin.py
+
+It will be up to the class to implement such a command. Please
+coordinate with each other.
+
+The implementation based on what we provided in the Make file seems
+straight forward. A great extensinion is to load the objects
+definitions or eve e.g. settings.py not from the class, but forma
+place in `.cloudmesh`. I propose to place the file at::
+
+  .cloudmesh/db/settings.py
+
+the location of this file is used whne the Service class is
+initialized with `None`. Prior to starting the service the file needs
+to be copied there. This could be achived with a set commad.
+
+
 
 
 
