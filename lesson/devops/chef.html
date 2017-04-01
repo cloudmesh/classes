@@ -627,7 +627,7 @@ tool written in Ruby and Erlang.</p>
 </div>
 <div class="section" id="prerequisite">
 <h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
-<p>In order to conduct this lesson you should have knowledge of</p>
+<p>In order to conduct this lesson, you should have knowledge of</p>
 <ul class="simple">
 <li><a class="reference external" href="../iaas/openstack.html">OpenStack for Beginners</a></li>
 </ul>
@@ -637,7 +637,7 @@ tool written in Ruby and Erlang.</p>
 <p>Chef is an open source infrastructure automation software that manages
 installation and configuration of your software with its Ruby code <code class="docutils literal"><span class="pre">Recipe</span></code>
 and <code class="docutils literal"><span class="pre">Cookbook</span></code>. <code class="docutils literal"><span class="pre">Recipe</span></code> is a description of how your servers should be set
-up with your software and <code class="docutils literal"><span class="pre">Cookbook</span></code> is a set of recipes. If you install a
+up with your software and <code class="docutils literal"><span class="pre">Cookbook</span></code> is a set of recipes. If you install an
 Apache web server or a MySQL database using Chef, you may download and use
 existing recipes from the Chef server (SuperMarket). You can also write your
 own recipes with your preference about configuration and installation. In most
@@ -648,7 +648,7 @@ Cookbooks to install software with relevant tools.</p>
 <ul class="simple">
 <li>Installation of Chef</li>
 <li>Example I: Apache2 Installation</li>
-<li>Write a first recipe</li>
+<li>Write the first recipe</li>
 </ul>
 </div>
 <div class="section" id="installation-chef">
@@ -656,7 +656,7 @@ Cookbooks to install software with relevant tools.</p>
 <p>This lesson is based on FutureSystems which means you create a VM instance on
 India OpenStack and install Chef on top of it. If you prefer to use other
 virtual environments, we recommend to use Vagrant and VirtualBox.</p>
-<p>We assume you use a OpenStack instance on FutureSystems.</p>
+<p>We assume you use an OpenStack instance on FutureSystems.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">If don&#8217;t know how to launch a new instance? <a class="reference external" href="../iaas/openstack.html#launching-a-new-instance">See here</a></p>
@@ -694,7 +694,7 @@ downloading and setting Chef.:</p>
 </pre></div>
 </div>
 <p>The tested version of Chef is 12.0.3.</p>
-<p>You may have higher version of Chef. We use <code class="docutils literal"><span class="pre">chef-client</span> <span class="pre">--local-mode</span></code> or <code class="docutils literal"><span class="pre">chef-solo</span></code> which is a light version of a
+<p>You may have a higher version of Chef. We use <code class="docutils literal"><span class="pre">chef-client</span> <span class="pre">--local-mode</span></code> or <code class="docutils literal"><span class="pre">chef-solo</span></code> which is a light version of a
 <code class="docutils literal"><span class="pre">chef-client</span></code> command that uses Cookbooks without communicating with Chef
 server. Chef has a few main components including <code class="docutils literal"><span class="pre">chef-client</span></code> and
 <code class="docutils literal"><span class="pre">chef-server</span></code>.  For more detail, see here: <a class="reference external" href="http://docs.chef.io/client/chef_overview.html#chef-components">Chef Components</a></p>
@@ -749,8 +749,9 @@ directory was <code class="docutils literal"><span class="pre">/var/chef/cookboo
 </div>
 <div class="section" id="first-cookbook">
 <h3>First Cookbook<a class="headerlink" href="#first-cookbook" title="Permalink to this headline">¶</a></h3>
-<p>If you create a new cookbook, you need following instructions. We will start a
-Apache web server with a new cookbook named <code class="docutils literal"><span class="pre">first-cookbook</span></code>:</p>
+<p>If you create a new cookbook, you need following instructions. We will
+start an Apache web server with a new cookbook named
+<code class="docutils literal"><span class="pre">first-cookbook</span></code>:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">knife</span> <span class="n">cookbook</span> <span class="n">create</span> <span class="n">first</span><span class="o">-</span><span class="n">cookbook</span>
 </pre></div>
 </div>
@@ -765,7 +766,7 @@ Apache web server with a new cookbook named <code class="docutils literal"><span
 </div>
 <div class="section" id="installation-of-apache-web-server">
 <h2>Installation of Apache Web Server<a class="headerlink" href="#installation-of-apache-web-server" title="Permalink to this headline">¶</a></h2>
-<p>We configure our <code class="docutils literal"><span class="pre">first-cookbook</span></code> with a Apache web server in this lesson. It
+<p>We configure our <code class="docutils literal"><span class="pre">first-cookbook</span></code> with an Apache web server in this lesson. It
 includes:</p>
 <ul class="simple">
 <li>Download Apache2 Cookbook</li>

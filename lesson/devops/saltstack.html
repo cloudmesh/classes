@@ -647,7 +647,7 @@ management system.</p>
 </div>
 <div class="section" id="prerequisite">
 <h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
-<p>In order to conduct this lesson you should have knowledge of</p>
+<p>In order to conduct this lesson, you should have knowledge of</p>
 <ul class="simple">
 <li><a class="reference external" href="../shell-access.html">Shell Access</a></li>
 <li><a class="reference external" href="../linux/packagemanagement.html">Package Managers</a></li>
@@ -655,9 +655,9 @@ management system.</p>
 </div>
 <div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
-<p>Salt or SaltStack is a open source software for managing configurations and
+<p>Salt or SaltStack is an open source software for managing configurations and
 execution application. It is written in Python and runs with ZeroMQ which is an
-asynchronous messaging library. Salt is similar to Puppet, Ansible and Chef.</p>
+asynchronous messaging library. Salt is similar to Puppet, Ansible, and Chef.</p>
 <p>For more introduction to Salt, see here:
 <a class="reference external" href="http://docs.saltstack.com/en/latest/topics/index.html">http://docs.saltstack.com/en/latest/topics/index.html</a></p>
 </div>
@@ -665,7 +665,7 @@ asynchronous messaging library. Salt is similar to Puppet, Ansible and Chef.</p>
 <h2>Salt Installation<a class="headerlink" href="#salt-installation" title="Permalink to this headline">¶</a></h2>
 <p>Salt can be installed by package management tools or a simple installation
 script. This lesson is based on FutureSystems which means you create a VM
-instance on India OpenStack and install Salt on top of it. We assume you use a
+instance on India OpenStack and install Salt on top of it. We assume you use an
 OpenStack instance on FutureSystems.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -784,7 +784,7 @@ sls files.</p>
 <p>The top file (<code class="docutils literal"><span class="pre">top.sls</span></code>) is to map what <strong>SLS modules</strong> get loaded onto what
 <strong>minions</strong> via the state system. For example <strong>apache sls module</strong> can be
 loaded to install and run on the target machine using <code class="docutils literal"><span class="pre">top.sls</span></code> file.  The
-top file creates a few general abstractions. First it maps what nodes should
+top file creates a few general abstractions. First, it maps what nodes should
 pull from which environments, next it defines which matches systems should draw
 from.</p>
 <ul>
@@ -819,8 +819,8 @@ name.</p>
 </div>
 <div class="section" id="salt-call">
 <h2>Salt Call<a class="headerlink" href="#salt-call" title="Permalink to this headline">¶</a></h2>
-<p>We use <code class="docutils literal"><span class="pre">salt-call</span></code> command to try our example of running a Apache web server.
-With <code class="docutils literal"><span class="pre">--local</span></code> option, we can simply run Salt wihtout communicating with a
+<p>We use <code class="docutils literal"><span class="pre">salt-call</span></code> command to try our example of running an Apache web server.
+With <code class="docutils literal"><span class="pre">--local</span></code> option, we can simply run Salt without communicating with a
 Salt master. The <code class="docutils literal"><span class="pre">--local</span></code> option indicates that <em>salt-minion</em> reads the
 state tree in a local file system and does not to connect to a Salt Master for
 instructions. Optionally you can you <code class="docutils literal"><span class="pre">-l</span></code> option for generating debug
@@ -927,7 +927,7 @@ registered. The output looks like this:</p>
 </div>
 <div class="section" id="nginx-installation-and-start">
 <h3>Nginx Installation and Start<a class="headerlink" href="#nginx-installation-and-start" title="Permalink to this headline">¶</a></h3>
-<p>Before we install and start Nginx web server, we may need to stop a Apache web
+<p>Before we install and start Nginx web server, we may need to stop an Apache web
 server first which uses HTTP (80) port.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">service</span> <span class="n">apache2</span> <span class="n">stop</span>
 </pre></div>
@@ -960,7 +960,7 @@ server first which uses HTTP (80) port.</p>
 <li>&#8216;*&#8217;: all hosts
 The ‘*’ refers to all minions whose key is accepted. In this example,
 <code class="docutils literal"><span class="pre">salt</span></code> in only minion targeted to install <code class="docutils literal"><span class="pre">nginx</span></code>.  The particular
-hostname can be speicified, e.g. <code class="docutils literal"><span class="pre">salt</span> <span class="pre">'salt'</span> <span class="pre">...</span></code>.</li>
+hostname can be speicified e.g. <code class="docutils literal"><span class="pre">salt</span> <span class="pre">'salt'</span> <span class="pre">...</span></code>.</li>
 <li>pkg.install: Install a package, <code class="docutils literal"><span class="pre">refresh=True</span></code> option can be added to
 update the dpkg database.</li>
 </ul>
