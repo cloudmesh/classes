@@ -292,6 +292,7 @@ To install Spark and/or Pig with Hadoop cluster, we first use command
 For example, we create a 3-node Spark cluster with Pig. To do that, all we
 need is to specify ``spark`` as an ``ADDON`` during Hadoop definition::
 
+    $ cm cluster define --count 3
     $ cm hadoop define spark pig
 
 
@@ -317,6 +318,13 @@ cluster::
 
 .. tip::
        This process will take 15 minutes or longer.
+
+Before we proceed to the next step, there is one more thing we need to, which
+is to make sure we are able to ssh from every node to others without password.
+To achieve that, we need to execute ``cm cluster cross_ssh``::
+
+    $ cm cluster cross_ssh
+
 
 Word Count Example on Spark
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -373,7 +381,7 @@ Namenode::
       # sort the output based on word
       counts = text_file.flatMap(lambda line: line.split(" ")) \
                .map(lambda word: (word, 1)) \
-               .reduceByKey(lambda a, b: a + b)
+               .reduceByKey(lambda a, b: a + b) \
                .sortByKey()
 
       # save the result in the output text file
