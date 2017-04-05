@@ -35,6 +35,7 @@ Workflow-Orchestration
    :cite:`www-ode-web`.
 
 2. ActiveBPEL
+<<<<<<< HEAD
 
    Business Process Execution Language for Web Services (BPEL4WS or
    just BPEL) is an XML-based grammar for describing the logic to
@@ -63,6 +64,9 @@ Workflow-Orchestration
    :cite:`www-ultrascan`, SEAGrid :cite:`www-seagrid` and GenApp
    :cite:`www-genapp`).
 
+=======
+3. Airavata
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 4. Pegasus
 5. Kepler
  
@@ -461,6 +465,7 @@ Workflow-Orchestration
     between flat files, databases and Salesforce.
 
 27. Talend
+<<<<<<< HEAD
 
     Talend is Apache Software Foundation sponsor Big data integration
     tool design to ease the development and integration and management
@@ -477,6 +482,8 @@ Workflow-Orchestration
     Platform-as-a-service (iPaas), for connecting, cleansing and
     sharing cloud on premise data.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 28. Pentaho
 29. Apatar
 30. Docker Compose
@@ -544,6 +551,7 @@ Application and Analytics
 
 
 33. MLlib
+<<<<<<< HEAD
 34. MLbase
     
     MLBase :cite:`www-mlbase` is a distributed machine learning
@@ -565,6 +573,22 @@ Application and Analytics
     distributed machine learning with MLBase.
 
 
+=======
+
+
+    MLlib is Apache Spark’s scalable machine learning library. :cite:
+    `www-mllib` . Its goal is to make machine learning scalable and easy.
+    It provides various tools such as, algorithms, feature extraction,
+    utilities for data handling and tools for constructing, evaluating,
+    and tuning machine learning pipelines. MLlib uses the linear algebra
+    package Breeze, which depends on netlib-java for optimized numerical
+    processing. It is shipped with Spark and supports several languages
+    which provides functionality for wide range of learning settings.
+    It includes Java, Scala and Python APIs and is released as a part of
+    Spark project under the Apache 2.0 license :cite: `MLlib-article` 
+    
+34. Mbase
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 35. DataFu
 
     The Apache DataFu project was created out of the need for stable,
@@ -617,6 +641,7 @@ Application and Analytics
 
 38. Bioconductor
 39. ImageJ
+<<<<<<< HEAD
 
     ImageJ is a Java-based image processing program developed at the
     National Institutes of Health (NIH). ImageJ was designed with an
@@ -629,6 +654,8 @@ Application and Analytics
     it a popular platform for teaching image
     processing. :cite:`www-imagej`
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 40. OpenCV
 41. Scalapack
 
@@ -763,6 +790,7 @@ Application and Analytics
     genomics modeling.
     
 47. scikit-learn
+<<<<<<< HEAD
 
     Scikit-learn is an open source library that provides simple and
     efficient tools for data analysis and data mining. It is
@@ -807,6 +835,9 @@ Application and Analytics
     (multi-dimensional) recurrent networks to restricted Boltzmann
     machines or convolutional networks.
     
+=======
+48. PyBrain
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 49. CompLearn
 50. DAAL(Intel)
 
@@ -1268,6 +1299,7 @@ Application and Analytics
     executives outside a company's IT department :cite:`www-splunk`.
 	  
 73. Tableau
+<<<<<<< HEAD
 
     :cite:`www-tableau-tutorial` Tableau is a family of interactive
     data visualization products focused on business intelligence. The
@@ -1286,6 +1318,8 @@ Application and Analytics
     user, being closed-source, no predictive analytical capabilities
     and no support for expanded analytics.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 74. D3.js
 
     D3.js is a JavaScript library responsible for manipulating
@@ -1434,6 +1468,7 @@ Application Hosting Frameworks
     options.
     
 83. Heroku
+<<<<<<< HEAD
 
     Heroku :cite:`www-Heroku` is a platform as a service that is used
     for building, delivering monitoring and scaling applications. It
@@ -1449,6 +1484,8 @@ Application Hosting Frameworks
     Salesforce data synchronization enabling companies to develop and
     design creative apps that uses both platforms.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 84. Aerobatic
 
     According to :cite:`www-aero`: Aerobatic is a platform that allows
@@ -1818,6 +1855,7 @@ High level Programming
      
 
 108. Shark
+<<<<<<< HEAD
 
      Data Scientists when working on huge data sets try to extract
      meaning and interpret the data to enhance insight about the
@@ -1853,6 +1891,8 @@ High level Programming
      processing and complex analytics(iterative Machine learning) at
      scale and efficiently recovers form the failures midway
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 109. Phoenix
 
      In the first quarter of 2013, Salesforce.com released its
@@ -2014,6 +2054,7 @@ High level Programming
      through application crash reports.
 
 118. Google BigQuery
+<<<<<<< HEAD
 
 
      Google BigQuery :cite:`www-bigquery` is an enterprise data
@@ -2062,6 +2103,9 @@ High level Programming
      handle analytics workloads on large- scale dataset stored by a
      column-oriented DBMS principle :cite:`www-wiki-red`.
 
+=======
+119. Amazon Redshift
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 120. Drill
 121. Kyoto Cabinet
 
@@ -2127,6 +2171,7 @@ High level Programming
      :cite:`www-google-code-wiki-sawzall`
 
 124. Google Cloud DataFlow
+<<<<<<< HEAD
      
      Google Cloud DataFlow :cite:`www-cloud-google1` is a unified
      programming model that manages the deployment, maintenance and
@@ -2149,6 +2194,8 @@ High level Programming
      processes.
 
      
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 125. Summingbird
      
      According to :cite:'summingbirdgit', "Summingbird is
@@ -2542,6 +2589,7 @@ Basic Programming model and runtime, SPMD, MapReduce
 
      
 149. Disco
+<<<<<<< HEAD
 
      a. Disco from discoproject.org represents an implementation of
      mapreduce for distributed computing that benefits end users by
@@ -2572,6 +2620,8 @@ Basic Programming model and runtime, SPMD, MapReduce
      interface via HTTP to directly access
      OpenStack. :cite:`www-discodescribed-discoabstractionlayer`
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 150. Hama
 151. Giraph
 
@@ -2931,6 +2981,7 @@ Inter process communication Collectives
      queue :cite:`git-kestrel`.
 
 173. JMS
+<<<<<<< HEAD
 
      JMS (Java Messaging Service) is a java oriented messaging
      standard that defines a set of interfaces and semantics which
@@ -2953,6 +3004,8 @@ Inter process communication Collectives
      other communication domain is publish/subscribe model, where one
      message can have multiple receivers. :cite:`www-jms-oracle-docs`
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 174. AMQP
 
      :cite:`www-amqp` AMQP stands for Advanced Message Queueing
@@ -4345,6 +4398,7 @@ NoSQL
      graph database. :cite:'www-tao'.
 
 248. Titan:db
+<<<<<<< HEAD
 
      Titan:db :cite:`www-Titan` is a distributed graph database that
      can support of thousands of concurrent users interacting with a
@@ -4360,6 +4414,8 @@ NoSQL
      MapReduce jobs and runs them on the clusters. Titan is basically
      optimal for smaller graphs.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 249. Jena
 
      Jena is an open source Java Framework provided by Apache for
@@ -5702,6 +5758,7 @@ DevOps
      of OpenStack Dashboard.
 
 323. Rocks
+<<<<<<< HEAD
 
      :cite:`www-rockscluster` Rocks provides open cluster distribution
      solution is buid targetting the scientist with less cluster
@@ -5715,6 +5772,8 @@ DevOps
      NSA , IBM Austin Research LAB, US Navy and many other institution
      for their projects.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 324. Cisco Intelligent Automation for Cloud
 325. Ubuntu MaaS
 326. Facebook Tupperware
@@ -6267,6 +6326,7 @@ IaaS Management from HPC to hypervisors
 353. rkt
 354. VMware ESXi
 355. vSphere and vCloud
+<<<<<<< HEAD
 
      vSphere was developed by VMware and is a cloud computing 
      virtualization platform. :cite:`www-vmware`  vSphere is not
@@ -6286,6 +6346,8 @@ IaaS Management from HPC to hypervisors
      a management suite that can give a visual of the infrastructure 
      to determine where potential issues might arise.
      
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 356. Amazon
 
      Amazon’s AWS (Amazon Web Services) is a provider of
@@ -6383,6 +6445,7 @@ Monitoring
 
 361. Ambari
 362. Ganglia
+<<<<<<< HEAD
 
      Ganglia is a scalable distributed monitoring system for
      high-performance computing systems (clusters and grids). It is a
@@ -6403,6 +6466,8 @@ Monitoring
      architectures, and is currently in use on thousands of clusters
      around the world, handling clusters with 2000 nodes.
      
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 363. Nagios :cite:`www-nagios`
 
      Nagios is a platform, which provides a set of software for
