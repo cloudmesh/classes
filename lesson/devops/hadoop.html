@@ -884,7 +884,8 @@ $ cm cluster undefine cluster-001
 <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">define</span></code> but with <code class="docutils literal"><span class="pre">ADDON</span></code> to define the cluster specification.</p>
 <p>For example, we create a 3-node Spark cluster with Pig. To do that, all we
 need is to specify <code class="docutils literal"><span class="pre">spark</span></code> as an <code class="docutils literal"><span class="pre">ADDON</span></code> during Hadoop definition:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm hadoop define spark pig
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster define --count 3
+$ cm hadoop define spark pig
 </pre></div>
 </div>
 <p>Using <code class="docutils literal"><span class="pre">cm</span> <span class="pre">hadoop</span> <span class="pre">addons</span></code>, we are able to check the current supported addon:</p>
@@ -908,6 +909,12 @@ $ cm hadoop deploy
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
 <p class="last">This process will take 15 minutes or longer.</p>
+</div>
+<p>Before we proceed to the next step, there is one more thing we need to, which
+is to make sure we are able to ssh from every node to others without password.
+To achieve that, we need to execute <code class="docutils literal"><span class="pre">cm</span> <span class="pre">cluster</span> <span class="pre">cross_ssh</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster cross_ssh
+</pre></div>
 </div>
 </div>
 <div class="section" id="word-count-example-on-spark">
@@ -964,7 +971,7 @@ Namenode:</p>
   <span class="c1"># sort the output based on word</span>
   <span class="n">counts</span> <span class="o">=</span> <span class="n">text_file</span><span class="o">.</span><span class="n">flatMap</span><span class="p">(</span><span class="k">lambda</span> <span class="n">line</span><span class="p">:</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">))</span> \
            <span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">word</span><span class="p">:</span> <span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span> \
-           <span class="o">.</span><span class="n">reduceByKey</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
+           <span class="o">.</span><span class="n">reduceByKey</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> \
            <span class="o">.</span><span class="n">sortByKey</span><span class="p">()</span>
 
   <span class="c1"># save the result in the output text file</span>

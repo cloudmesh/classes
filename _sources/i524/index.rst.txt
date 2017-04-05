@@ -169,23 +169,23 @@ All times are in Eastern Standard Time.
 +-----------------+------------------------------------+
 | **Day of Week** | **Meetings**                       |
 +-----------------+------------------------------------+
-| Monday          | | 8-9am Office Hours               |
+| Monday          | | 8-9am Office Hours (Vibhatha)    |
 |                 | | 9:30-10:45am Residential Lecture |
-|                 | | 6-7pm Office Hours               |
+|                 | | 6-7pm Office Hours (Tony)        |
 +-----------------+------------------------------------+
-| Tuesday         | | 1-2pm Office Hours               |
-|                 | | 4-5pm Office Hours               |
+| Tuesday         | | 1-2pm Office Hours (Dimitar)     |
+|                 | | 4-5pm Office Hours (Jerome)      |
 +-----------------+------------------------------------+
-| Wednesday       | 6-7pm Office Hours                 |
+| Wednesday       | 6-7pm Office Hours (Jerome)        |
 +-----------------+------------------------------------+
 | Thursday        | 6-7pm Office Hours (Gregor)        |
 +-----------------+------------------------------------+
-| Friday	  | 4-5pm Office Hours                 |
+| Friday	  | 4-5pm Office Hours (Dimitar)       |
 +-----------------+------------------------------------+
-| Saturday        | 8-9pm Office Hours                 |
+| Saturday        | 8-9pm Office Hours (Miao)          |
 +-----------------+------------------------------------+
-| Sunday	  | | 9-10am Office Hours              |
-|                 | | 8-9pm Office Hours               |
+| Sunday	  | | 9-10am Office Hours (Vibhatha)   |
+|                 | | 8-9pm Office Hours (Miao)        |
 +-----------------+------------------------------------+
     
 Who can take the class?
