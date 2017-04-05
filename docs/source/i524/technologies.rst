@@ -35,6 +35,7 @@ Workflow-Orchestration
    :cite:`www-ode-web`.
 
 2. ActiveBPEL
+<<<<<<< HEAD
 
    Business Process Execution Language for Web Services (BPEL4WS or
    just BPEL) is an XML-based grammar for describing the logic to
@@ -63,26 +64,10 @@ Workflow-Orchestration
    :cite:`www-ultrascan`, SEAGrid :cite:`www-seagrid` and GenApp
    :cite:`www-genapp`).
 
+=======
+3. Airavata
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 4. Pegasus
-
-   The Pegasus :cite:`www-Pegasus` is workflow management system 
-   that alows to compose and execute a workflow in an application
-   in different environment without the need  for any 
-   modifications. It allows users to make high level workflow 
-   without thinking about the low level details. It locates
-   the required input data and computational resources automatically. 
-   Pegasus also maintains information about tasks done and data 
-   produced. In case of errors Pegasus tries to recover by retrying 
-   the whole workflow and providing check pointing at workflow-level. 
-   It cleans up the storage as the workflow gets executed so that 
-   data-intensive workflows can have enough required space to execute 
-   on storage-constrained resources. Some of the other advantages of 
-   Pegasus are:scalability, reliability and high performance. Pegasus 
-   has been used in many scientific domains like astronomy, 
-   bioinformatics, earthquake science , ocean science, gravitational 
-   wave physics and others.
-
-
 5. Kepler
  
    Kepler, scientific workflow application, is designed to help
@@ -192,22 +177,6 @@ Workflow-Orchestration
     directors :cite:`bioActors`.
     
 11. Galaxy
-
-    Ansible Galaxy is a website platform and command line tool that
-    enables users to discover, create, and share community developed
-    roles. Users' GitHub accounts are used for authentication,
-    allowing users to import roles to share with the ansible
-    community. :cite:`www-galaxy-ansible` describes how Ansible roles
-    are encapsulated and reusable tools for organizing automation
-    content. Thus a role contains all tasks, variables, and handlers
-    that are necessary to complete that
-    role. :cite:`Ansible-book-2016` depicts roles as the most powerful
-    part of Ansible as they keep playbooks simple and readable. "They
-    provide reusable definitions that you can include whenever you
-    need and customize with any variables that the role exposes."
-    :cite:`www-github-galaxy` provides the project documents for
-    Ansible Galaxy on github.
-    
 12. IPython
 13. Jupyter
 
@@ -496,6 +465,7 @@ Workflow-Orchestration
     between flat files, databases and Salesforce.
 
 27. Talend
+<<<<<<< HEAD
 
     Talend is Apache Software Foundation sponsor Big data integration
     tool design to ease the development and integration and management
@@ -512,23 +482,9 @@ Workflow-Orchestration
     Platform-as-a-service (iPaas), for connecting, cleansing and
     sharing cloud on premise data.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 28. Pentaho
-
-    Pentaho is a business intelligence corporation that provides data
-    mining, reporting, dashboarding and data integration
-    capabilities. Generally, organizations tend to obtain meaningful
-    relationships and useful information from the data present with
-    them. Pentaho addresses the obstacles that obstruct them from
-    doing so :cite:`pent1`. The platform includes a wide range of
-    tools that analyze, explore, visualize and predict data easily
-    which simplifies blending any data. The sole objective of pentaho
-    is to translate data into value. Being an open and extensible
-    source, pentaho provides big data tools to extract, prepare and
-    blend any data :cite:`pent2`. Along with this, the visualizations
-    and analytics will help in changing the path that the
-    organizations follow to run their business. From spark and hadoop
-    to noSQL, pentaho transforms big data into big insights.
-
 29. Apatar
 30. Docker Compose
 
@@ -595,6 +551,7 @@ Application and Analytics
 
 
 33. MLlib
+<<<<<<< HEAD
 34. MLbase
     
     MLBase :cite:`www-mlbase` is a distributed machine learning
@@ -616,6 +573,22 @@ Application and Analytics
     distributed machine learning with MLBase.
 
 
+=======
+
+
+    MLlib is Apache Spark’s scalable machine learning library. :cite:
+    `www-mllib` . Its goal is to make machine learning scalable and easy.
+    It provides various tools such as, algorithms, feature extraction,
+    utilities for data handling and tools for constructing, evaluating,
+    and tuning machine learning pipelines. MLlib uses the linear algebra
+    package Breeze, which depends on netlib-java for optimized numerical
+    processing. It is shipped with Spark and supports several languages
+    which provides functionality for wide range of learning settings.
+    It includes Java, Scala and Python APIs and is released as a part of
+    Spark project under the Apache 2.0 license :cite: `MLlib-article` 
+    
+34. Mbase
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 35. DataFu
 
     The Apache DataFu project was created out of the need for stable,
@@ -667,28 +640,8 @@ Application and Analytics
     uses manager/worker parallelism.
 
 38. Bioconductor
-
-    Bioconductor is an open source and open development platform used
-    for analysis and understanding of high throughput genomic
-    data. Bioconductor is used to analyze DNA microarray, flow,
-    sequencing, SNP, and other biological data. All contributions to
-    Bioconductor are under an open source
-    license. :cite:`bioconductor-article-2004` describes the goals of
-    Bioconductor "include fostering collaborative development and
-    widespread use of innovative software, reducing barriers to entry
-    into interdisciplinary scientific research, and promoting the
-    achievement of remote reproducibility of research results"
-    :cite:`www-bioconductor-about` described that Bioconductor is
-    primarily based on R, as most components of Bioconductor are
-    released in R packages. Extensive documentation is provided for
-    each Bioconductor package as vignettes, which include
-    task-oriented descriptions for the functionalities of each
-    package. Bioconductor has annotation functionality to associate
-    "genemoic data in real time with biological metadata from web
-    databases such as GenBank, Entrez genes and PubMed."  Bioconductor
-    also has tools to process genomic annotation data.
-    
 39. ImageJ
+<<<<<<< HEAD
 
     ImageJ is a Java-based image processing program developed at the
     National Institutes of Health (NIH). ImageJ was designed with an
@@ -701,18 +654,9 @@ Application and Analytics
     it a popular platform for teaching image
     processing. :cite:`www-imagej`
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 40. OpenCV
-
-    OpenCV stands for Open source Computer Vision. It was designed for
-    computational efficiency and with a strong focus on real-time
-    applications. It has C++, C, Python and Java interfaces and
-    supports Windows, Linux, Mac OS, iOS and Android. It can take
-    advantage of the hardware acceleration of the underlying
-    heterogeneous compute platform as it is enabled with OpenCL(Open
-    Computing Language) :cite:`www-opencv`. OpenCV 3.2 is the latest
-    version of the software that is currently available
-    :cite:`opencv-version`.
-
 41. Scalapack
 
     ScaLAPACK is a library of high-performance linear algebra routines for
@@ -846,6 +790,7 @@ Application and Analytics
     genomics modeling.
     
 47. scikit-learn
+<<<<<<< HEAD
 
     Scikit-learn is an open source library that provides simple and
     efficient tools for data analysis and data mining. It is
@@ -890,24 +835,10 @@ Application and Analytics
     (multi-dimensional) recurrent networks to restricted Boltzmann
     machines or convolutional networks.
     
+=======
+48. PyBrain
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 49. CompLearn
-
-    Complearn is a system that makes use of data compression
-    methodologies for mining patterns in a large amount of data. So,
-    it is basically a compression-based machine learning system. For
-    identifying and learning different patterns, it provides a set of
-    utilities which can be used in applying standard compression
-    mechanisms. The most important characteristic of complearn is its
-    power in mining patterns even in domains that are unrelated. It
-    has the ability to identify and classify the language of different
-    bodies of text :cite:`comp1`. This helps in reducing the work of
-    providing background knowledge regarding a particular
-    classification. It provides such generalization through a library
-    that is written in ANSI C which is portable and works in many
-    environments :cite:`comp1`. Complearn provides immediate to access
-    every core functionality in all the major languages as it is
-    designed to be extensible.
-
 50. DAAL(Intel)
 
     DAAL stands for Data Analytics Acceleration Library. DAAL is
@@ -1368,6 +1299,7 @@ Application and Analytics
     executives outside a company's IT department :cite:`www-splunk`.
 	  
 73. Tableau
+<<<<<<< HEAD
 
     :cite:`www-tableau-tutorial` Tableau is a family of interactive
     data visualization products focused on business intelligence. The
@@ -1386,6 +1318,8 @@ Application and Analytics
     user, being closed-source, no predictive analytical capabilities
     and no support for expanded analytics.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 74. D3.js
 
     D3.js is a JavaScript library responsible for manipulating
@@ -1446,25 +1380,6 @@ Application and Analytics
     selectMenu and seriesChart.
       
 78. TensorFlow
-
-    TensorFlow is a platform that provides a software library for
-    expressing and executing machine learning
-    algorithms. :cite:`tensorflow-paper-2016` states TensorFlow has a
-    flexible architecture allowing it to be executed with minimal
-    change to many hetegeneous systems such as CPUs and GPUs of mobile
-    devices, desktop machines, and servers. TensorFlow can "express a
-    wide variety of algorithms, including training and inference
-    algorithms for deep neural netowrk models, and it has been used
-    for conducting research and for deploying machine learning systems
-    into production across more than a dozen
-    areas". :cite:`www-tensorflow` describes that TensorFlow utilizes
-    data flow graphs in which the "nodes in the graph represent
-    mathematical operations, while the graph edges represent the
-    multidimensional data arrays (tensors) communicated between them."
-    TensorFlow was developed by the Google Brain Team and has a
-    reference implementation that was released on 2015-11-09 under the
-    Apache 2.0 open source license.
-    
 79. CNTK
 
     The Microsoft Cognitive Toolkit - CNTK - is a unified
@@ -1553,6 +1468,7 @@ Application Hosting Frameworks
     options.
     
 83. Heroku
+<<<<<<< HEAD
 
     Heroku :cite:`www-Heroku` is a platform as a service that is used
     for building, delivering monitoring and scaling applications. It
@@ -1568,6 +1484,8 @@ Application Hosting Frameworks
     Salesforce data synchronization enabling companies to develop and
     design creative apps that uses both platforms.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 84. Aerobatic
 
     According to :cite:`www-aero`: Aerobatic is a platform that allows
@@ -1937,6 +1855,7 @@ High level Programming
      
 
 108. Shark
+<<<<<<< HEAD
 
      Data Scientists when working on huge data sets try to extract
      meaning and interpret the data to enhance insight about the
@@ -1972,6 +1891,8 @@ High level Programming
      processing and complex analytics(iterative Machine learning) at
      scale and efficiently recovers form the failures midway
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 109. Phoenix
 
      In the first quarter of 2013, Salesforce.com released its
@@ -2133,6 +2054,7 @@ High level Programming
      through application crash reports.
 
 118. Google BigQuery
+<<<<<<< HEAD
 
 
      Google BigQuery :cite:`www-bigquery` is an enterprise data
@@ -2181,25 +2103,10 @@ High level Programming
      handle analytics workloads on large- scale dataset stored by a
      column-oriented DBMS principle :cite:`www-wiki-red`.
 
+=======
+119. Amazon Redshift
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 120. Drill
-
-     Apache Drill :cite:`www-ApacheDrill` is an open source framework
-     that provides schema free SQL query engine for distributed 
-     large-scale datasets. Drill has an extensible architecture at 
-     its different layers. It does not require any centralized 
-     metadata and does not have any requirement for schema 
-     specification. Drill is highly useful for short and interactive
-     ad-hoc queries on very large scale data sets. It is scalable to
-     several thousands of nodes. Drill is also capable to query 
-     nested data in various formats like JSON and Parquet. It can 
-     query large amount of data at very high speed. It is also  
-     capable of performing discovery of dynamic schema. 
-     A service called ‘Drillbit’  is at the core of Apache Drill 
-     responsible for accepting requests from the client, processing
-     the required queries, and returning all the results to the client.
-     Drill is primarily focused on non-relational datastores, 
-     including Hadoop and NoSQL
-
 121. Kyoto Cabinet
 
      Kyoto Cabinet as specified in :cite:`www-KyotoCabinet` is a
@@ -2264,6 +2171,7 @@ High level Programming
      :cite:`www-google-code-wiki-sawzall`
 
 124. Google Cloud DataFlow
+<<<<<<< HEAD
      
      Google Cloud DataFlow :cite:`www-cloud-google1` is a unified
      programming model that manages the deployment, maintenance and
@@ -2286,6 +2194,8 @@ High level Programming
      processes.
 
      
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 125. Summingbird
      
      According to :cite:'summingbirdgit', "Summingbird is
@@ -2571,23 +2481,6 @@ Streams
      makes i fairly real time
      
 138. Azure Stream Analytics
-
-     Azure Stream Analytics is a platform that manages data streaming
-     from devices, web sites, infrastructure systems, social media,
-     internet of things analytics, and other sources usings real-time
-     event processing engine. :cite:`www-azurestreamanalytics` Jobs
-     are authored by "specifying the input source of the streaming
-     data, the output sink for the results of your job, and a data
-     tranformation expressed in a SQL-like language."  Some key
-     capabilities and benefits include ease of use, scalability,
-     reliability, repeatability, quick recovery, low cost, reference
-     data use, user defined functions capability, and
-     connectivity. :cite:`www-docs-microsoft` Available documentation
-     to get started with Azure Stream
-     Analytics. :cite:`www-github-azure` Azure Stream Analytics has a
-     development project available on github.
-
-     
 139. Floe
 140. Spark Streaming
 141. Flink Streaming
@@ -2696,6 +2589,7 @@ Basic Programming model and runtime, SPMD, MapReduce
 
      
 149. Disco
+<<<<<<< HEAD
 
      a. Disco from discoproject.org represents an implementation of
      mapreduce for distributed computing that benefits end users by
@@ -2726,20 +2620,9 @@ Basic Programming model and runtime, SPMD, MapReduce
      interface via HTTP to directly access
      OpenStack. :cite:`www-discodescribed-discoabstractionlayer`
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 150. Hama
-
-     Apache Hama is a framework for Big Data analytics which uses the
-     Bulk Synchronous Parallel (BSP) computing model, which was
-     established in 2012 as a Top-Level Project of The Apache Software
-     Foundation.It provides not only pure BSP programming model but
-     also vertex and neuron centric programming models, inspired by
-     Google's Pregel and DistBelief :cite:`apache-hama`. It avoids the
-     processing overhead of MapReduce approach such as sorting,
-     shuffling, reducing the vertices etc. Hama provides a message
-     passing interface and each superstep in BSP is faster than a full
-     job execution in MApReduce framework, such as Hadoop
-     :cite:`book-hama`.
-     
 151. Giraph
 
      Apache Giraph is an iterative graph processing system built for big
@@ -2782,6 +2665,17 @@ Basic Programming model and runtime, SPMD, MapReduce
      mentioned above.
 
 155. GraphChi
+
+     GraphChi is a disk-based system for computing efficiently on graphs
+     with large number of edges. It uses a well-known method to break
+     large graphs into small parts, and executes data mining, graph mining
+     , machine learning algorithms. GraphChi can process over one hundred
+     thousand graph updates per second, while simultaneously performing
+     computation.  :cite: `GraphChi`. GraphChi is a spin-off of the GraphLab.
+     GraphChi brings web-scale graph computation, such as analysis of social
+     networks, available to anyone with a modern laptop
+
+     
 156. Galois
      
      Galois system was built by intelligent software systems team at
@@ -2942,6 +2836,22 @@ Inter process communication Collectives
      distributed systems. 
 
 167. ActiveMQ
+
+     
+     Apache ActiveMQ is a powerful open source messaging and Integration
+     Patterns server according to the website :cite:`www-activeMQ` .
+     It is a message oriented middleware(MOM) for the Apache Software
+     Foundation that provides high availability, reliability, performance,
+     scalability and security for enterprise messaging as stated in
+     :cite:`ActiveMQ-book`. The goal of ActiveMQ is to provide
+     standard-based, message-oriented application integration across as
+     many languages and platforms as possible. ActiveMQ implements the JMS
+     spec and offers dozens of additional features and value on top of this
+     spec.ActiveMQ is used in many scenarios such as heterogeneous application
+     integration, as a replacement for RPC and to loosen the coupling between
+     applications.
+    
+     
 168. RabbitMQ
 
      RabbitMQ is a message broker :cite:`www-rabbitmq` which allows
@@ -3071,6 +2981,7 @@ Inter process communication Collectives
      queue :cite:`git-kestrel`.
 
 173. JMS
+<<<<<<< HEAD
 
      JMS (Java Messaging Service) is a java oriented messaging
      standard that defines a set of interfaces and semantics which
@@ -3093,6 +3004,8 @@ Inter process communication Collectives
      other communication domain is publish/subscribe model, where one
      message can have multiple receivers. :cite:`www-jms-oracle-docs`
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 174. AMQP
 
      :cite:`www-amqp` AMQP stands for Advanced Message Queueing
@@ -3312,37 +3225,6 @@ In-memory databases/caches
      less memory than you need.
      
 185. Redis
-
-     Redis (Remote Dictionary Server) is an open source ,in-memory,
-     key-value database which is commonly referred as a data structure
-     server.  :cite:'redis-book-2011' "It is called a data structure
-     server and not simply a key-value store because Redis implements
-     datastructure which allows keys to contain binary safe strings
-     ,hashes,sets and sortedsets, as well as lists" .Redis’s
-     exceptional performance, simplicity to use and implement, and
-     atomic manipulation of data structures lends itself to solving
-     problems that are difficult or perform poorly when implemented
-     with traditional relational databases.  :cite:'redis-book-2016'
-     "Salivator Sanfilippo(Creator of open-sorce database Redis) makes
-     a strong case that Redis does not need to replace the existing
-     database but is an excellent addition to an enterprise for new
-     functionalities or to solve sometimes intyractable problems."
-
-     :cite:'redis-book-2016' A very popular use pattern for Redis is
-     an in-memory cache for web-applications. The second popular use
-     pattern for REDIS is for metric storage of such quantitative data
-     such as web page usage and user behaviour on gamer leaderboards
-     where using a bit operations on strings, Redis very efficently
-     stores binary information on a particular characteristics.The
-     third popular Redis use pattern is a communication layer between
-     different systems through a publish/subscribe(pub/sub for short),
-     where one can post message to one or more channels that can be
-     acted upon by other systems that are subscribed to or listening
-     to that channel for incoming message. The Comapnies using REDIS
-     includes Twitter to store the timelines of all the user ,
-     Pinterest stores the user follower graph, Github, popular web
-     frameworks like Node.js ,Django,Ruby-on-Rails etc.
-
 186. LMDB (key value)
 
      LMDB (Lighting memory-mapped Database) is a high performance
@@ -4516,6 +4398,7 @@ NoSQL
      graph database. :cite:'www-tao'.
 
 248. Titan:db
+<<<<<<< HEAD
 
      Titan:db :cite:`www-Titan` is a distributed graph database that
      can support of thousands of concurrent users interacting with a
@@ -4531,6 +4414,8 @@ NoSQL
      MapReduce jobs and runs them on the clusters. Titan is basically
      optimal for smaller graphs.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 249. Jena
 
      Jena is an open source Java Framework provided by Apache for
@@ -4737,24 +4622,6 @@ File management
      Yahoo!
 
 261. ORC
-
-     ORC files were created as part of the initiative to massively
-     speed up Apache Hive and improve the storage efficiency of data
-     stored in Apache Hadoop. ORC is a self-describing type-aware
-     columnar file format designed for Hadoop workloads. It is
-     optimized for large streaming reads, but with integrated support
-     for finding required rows quickly. Storing data in a columnar
-     format lets the reader read, decompress, and process only the
-     values that are required for the current query. Because ORC files
-     are type-aware, the writer chooses the most appropriate encoding
-     for the type and builds an internal index as the file is
-     written.ORC files are divided in to stripes that are roughly 64MB
-     by default. The stripes in a file are independent of each other
-     and form the natural unit of distributed work. Within each
-     stripe, the columns are separated from each other so the reader
-     can read just the columns that are required :cite:`www-orc-docs`.
-
-     
 262. Parquet
 
      Apache parquet is the column Oriented data store for Apache
@@ -4856,7 +4723,7 @@ Data Transport
 
      Flume is distributed, reliable and available service for
      efficiently collecting, aggregating and moving large amounts of
-     log data :cite:`apche-flume`. Flume was created to allow you to
+     log data :cite:`apche-flume. Flume was created to allow you to
      flow data from a source into your Hadoop® environment.  In Flume,
      the entities you work with are called sources, decorators, and
      sinks. A source can be any data source, and Flume has many
@@ -4864,7 +4731,7 @@ Data Transport
      operation. A decorator is an operation on the stream that can
      transform the stream in some manner, which could be to compress
      or uncompress data, modify data by adding or removing pieces of
-     information, and more :cite:`ibm-flume`.
+     information, and more :cite: `ibm-flume`.
 
 269. Sqoop
      
@@ -5630,6 +5497,20 @@ Interoperability
      :cite:`www-cdmiwebsite`.
      
 306. Whirr
+
+     Apache Whirr is a set of libraries for running cloud services as in
+     :cite:`www-ApacheWhirr`, which provides a cloud-neutral way to run
+     services. This is achieved by using cloud-neutral provisioning and storage
+     libraries such as jclouds, libcloud. Whirr's API should be built on top
+     these libraries and is not exposed to the users. It is also a common service
+     API, in which the details of its working are, particular to the service.
+     Whirr provides smart defaults for services by which any properly configured
+     system can run quickly, while still being able to override settings as needed.
+     Whirr can also be used as a command line tool for deploying clusters. It uses
+     low level API libraries to work with providers which was mentioned in the
+     :cite:`www-slideshare-ApacheWhirr`
+
+     
 307. Saga
 
      SAGA(Simple API for Grid Applications) provides an abstraction
@@ -5760,6 +5641,22 @@ DevOps
      systems.
 
 313. SaltStack
+     
+     SaltStack (also Salt) platform is a Python-based open-source
+     configuration management software and remote execution engine, which
+     makes systems and configuration management software for the orchestration
+     and automation of CloudOps, ITOps and DevOps at scale. :cite:`www-saltstack` 
+     SaltStack is used to manage all the data center things including any cloud,
+     infrastructure, virtualization, application stack, software or code.
+     Salt is built on two major concepts, which are clearly mentioned in
+     :cite:`SaltStack-book` as remote execution and configuration management. In
+     the remote execution system, Salt leverages Python to accomplish complex
+     tasks with single-function calls. The configuration management system in
+     Salt, called States, builds upon the remote execution foundation to create
+     repeatable, enforceable configuration for the minions (connects to the
+     master and treats the master as the source)
+
+     
 314. Boto
 
      :cite:`www-boto` The latest version of Boto is Boto3.
@@ -5847,29 +5744,6 @@ DevOps
 
 320. Foreman
 321. OpenStack Heat
-
-     Openstack Heat, a template deployment service was the project
-     launched by Openstack, a cloud operating system similar to AWS
-     Cloud Formation. :cite:`www-heat-blog-introduction` states - Heat
-     is an orchestration service which allows us to define resources
-     over the cloud and connections amongst them using a simple text
-     file called referred as a ‘template’. "A Heat template describes
-     the infrastructure for a cloud application in a text file that is
-     readable and writable by humans, and can be checked into version
-     control" :cite:`www-heat-wiki`
-
-     Once the execution enviroment has been setup and a user wants to
-     modify the architecture of resources in the future, a user needs
-     to simply change the template and check it in. Heat shall make
-     the necessary changes. Heat provides 2 types of template -
-     HOT(Heat Orchestration Template) and CFN (AWS Cloud Formation
-     Template). The HOT can be defined as YAML and is not compatible
-     with AWS. The CFN is expressed as JSON and follows the syntax of
-     AWS Cloud Formation and thus is AWS compatible. Further, heat
-     provides an additional @parameters section in its template which
-     can be used to parameterize resources to make the template
-     generic.
-
 322. Sahara
 
      The Sahara product provides users with the capability to
@@ -5884,6 +5758,7 @@ DevOps
      of OpenStack Dashboard.
 
 323. Rocks
+<<<<<<< HEAD
 
      :cite:`www-rockscluster` Rocks provides open cluster distribution
      solution is buid targetting the scientist with less cluster
@@ -5897,24 +5772,9 @@ DevOps
      NSA , IBM Austin Research LAB, US Navy and many other institution
      for their projects.
 
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 324. Cisco Intelligent Automation for Cloud
-
-     Cisco Intelligent automation for cloud desires to help different
-     service providers and software professionals in delivering highly
-     secure infrastructure as a service on demand. It provides a
-     foundation for organizational transformation by expanding the
-     uses of cloud technology beyond its infrastructure
-     :cite:`cis1`. From a single self-service portal, it automates
-     standard business processes and sophisticated data center which
-     is beyond the provision of virtual machines. Cisco Intelligent
-     automation for cloud is a unified cloud platform that can deliver
-     any type of service across mixed environments :cite:`cis2`. This
-     leads to an increase in cloud penetration across different
-     business and IT holdings. Its services range from underlying
-     infrastructure to anything-as-a-service by allowing its users to
-     evaluate, transform and deploy the IT and business services in a
-     way they desire.
-
 325. Ubuntu MaaS
 326. Facebook Tupperware
 
@@ -6032,6 +5892,18 @@ DevOps
      anywhere".:cite:`lindsay2016`
      
 332. OpenTOSCA
+
+     The Topology and Orchestration Specification for Cloud
+     Applications,TOSCA is a new standard facilitating platform
+     independent description of Cloud applications. OpenTOSCA is a
+     runtime for TOSCA-based Cloud applications. The runtime enables
+     fully automated plan-based deployment and management of applications
+     defined in the OASIS TOSCA packaging format CSAR, Cloud Service ARchive.
+     The key tasks of OpenTOSCA, are to operate management operations, run
+     plans, and manage state of the TOSCA.
+     :cite:`OpenTOSCA-paper`
+     
+     
 333. Winery
 
      Eclipse Winery :cite:`www-winery` is a "web-based environment to 
@@ -6452,48 +6324,9 @@ IaaS Management from HPC to hypervisors
      process management is achieved by fleet.
 
 353. rkt
-
-     rkt is an container manager developed by CoreOS :cite:`www-CoreOS`
-     designed for Linux clusters. It is an alternative for Docker 
-     runtime and is designed for server environments with high 
-     security and composibity requirement. It is the first 
-     implementation of the open container standard called 
-     "App Container" or "appc" specification but not the only one. 
-     It is a standalone tool that lives outside of the core operating 
-     system and can be used on variety of platforms such as Ubuntu,
-     RHEL, CentOS, etc. rkt implements the facilities specified by 
-     the App Container as a command line tool. It allows execution 
-     of App Containers with pluggable isolation and also varying 
-     degrees of protection. Unlike Docker, rkt runs containers as 
-     un-priviliged users making it impossible for attackers to break 
-     out of the containers and take control of the entire physical 
-     server. rkt's primary interface comprises a single executable 
-     allowing it easily integrate with existing init systems and 
-     also advanced cluster environments. rkt is open source and is 
-     written in the Go programming language :cite:`www-github/rkt`.
-
-     
 354. VMware ESXi
-
-     VMware ESXi (formerly ESX) is an enterprise-class, type-1
-     hypervisor developed by VMware for deploying and serving virtual
-     computers :cite:`wiki-vmwareESXi`. The name ESX originated as an
-     abbreviation of Elastic Sky X. ESXi installs directly onto your
-     physical server enabling it to be partitioned into multiple
-     logical servers referred to as virtual machines.  Management of
-     VMware ESXi is done via APIs. This allows for an “agent-less”
-     approach to hardware monitoring and system management. VMware
-     also provides remote command lines, such as the vSphere Command
-     Line Interface (vCLI) and PowerCLI, to provide command and
-     scripting capabilities in a more controlled manner. These remote
-     command line sets include a variety of commands for
-     configuration, diagnostics and troubleshooting. For low-level
-     diagnostics and the initial configuration, menu-driven and
-     command line interfaces are available on the local console of the
-     server :cite:`vmware-esxi`.
-     
-     
 355. vSphere and vCloud
+<<<<<<< HEAD
 
      vSphere was developed by VMware and is a cloud computing 
      virtualization platform. :cite:`www-vmware`  vSphere is not
@@ -6513,6 +6346,8 @@ IaaS Management from HPC to hypervisors
      a management suite that can give a visual of the infrastructure 
      to determine where potential issues might arise.
      
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 356. Amazon
 
      Amazon’s AWS (Amazon Web Services) is a provider of
@@ -6609,25 +6444,8 @@ Monitoring
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 361. Ambari
-
-     Apache Amabari is an open source platform that enables easy
-     management and maintenance of Hadoop clusters, regardless of
-     cluster size. Ambari has a simplified Web UI and robust REST API
-     for automating and controlling cluster operations.
-     :cite:`www-hortonworks-ambari` illustrates Ambari to provide key
-     benefits including easy installation, configuration, and
-     management with features such as Smart Configs and cluster
-     recommendations and Ambari Blueprints, to provide repeatable and
-     automated cluster creation. Ambari provides a centralized
-     security setup that automates security capabilities of
-     clusters. Ambari provides a holistic view for cluster monitoring
-     and provides visualizations for operation
-     metrics. :cite:`www-ambari` provides documentation about Ambari,
-     including a quick start guide for installing a cluster with
-     Ambari. :cite:`www-github-ambari` provides the project documents
-     for ambari on github.
-     
 362. Ganglia
+<<<<<<< HEAD
 
      Ganglia is a scalable distributed monitoring system for
      high-performance computing systems (clusters and grids). It is a
@@ -6648,6 +6466,8 @@ Monitoring
      architectures, and is currently in use on thousands of clusters
      around the world, handling clusters with 2000 nodes.
      
+=======
+>>>>>>> 8f5de4b65ea0ff74c0d60d8e6003a3cb626a0b0a
 363. Nagios :cite:`www-nagios`
 
      Nagios is a platform, which provides a set of software for
@@ -6803,24 +6623,7 @@ Security & Privacy
      for a wide variety of data models in Hadoop."
 
 370. Sqrrl
-371. OpenID 
-
-     OpenID is an authentication protocol that allows users to log in
-     to different websites, which are not related, using the same
-     login credentials for each, i.e. without having to create
-     separate id and password for all the websites. The login
-     credentials used are of the existing account. The password is
-     known only to the identity provider and nobody else which
-     relieves the users’ concern about identity being known to an
-     insecure website. :cite:`ope1` It provides a mechanism that makes
-     the users control the information that can be shared among
-     multiple websites. OpenID is being adopted all over the web. Most
-     of the leading organizations including Microsoft, Facebook,
-     Google, etc. are accepting the OpenIDs :cite:`ope2`. It is an
-     open source and not owned by anyone. Anyone can use OpenID or be
-     an OpenID provider and there is no need for an individual to be
-     approved.
-
+371. OpenID
 372. SAML OAuth
 
      As explained in :cite:`www-SAML`, Security Assertion Markup
@@ -6905,6 +6708,20 @@ Message and Data Protocols
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 377. Avro
+
+     Apache Avro :cite:`www-Avro` is a data serialization system,
+     which provides rich data structures, remote procedure call(RPC),
+     a container file to store persistent data and simple integration
+     with dynamic languages.  Avro depends on schemas, which are
+     defined with JSON. This facilitates implementation in other
+     languages that have the JSON libraries.  The key advantages of
+     Avro are schema evolution - Avro will handle the
+     missing/extra/modified fields, dynamic typing - serialization and
+     deserialization without code generation, untagged data - data
+     encoding and faster data processing by allowing data to be
+     written without overhead.
+
+     
 378. Thrift
 
      The Apache Thrift software framework, for scalable cross-language
