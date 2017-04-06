@@ -1344,27 +1344,26 @@ Application and Analytics
     from a group of sources and presents data in a streamlines,
     simplified interface where one can drill down to significant
     metrics, identify key relationships, generate powerful data
-    visualizations and derive actionable
-    insights. :cite:`www-graylog-blog`
-    :cite:`www-graylog-optimization` Graylog allows us to centrally
-    collect and manage log messages of an organization's complete
-    infrastructure. A user can perform search on terrabytes of log
-    data to discover number of failed logins,find application errors
-    across all servers or monitor the acivity of a suspicious user
-    id.Graylog works on top of ElasticSearch and MongoDB to facilitate
-    this high availability searching.  Graylog provides visualization
-    through creation of dashboards that allows a user to build
-    pre-defined views on his data to assemble all of his important
-    data only a single click away. :cite:`www-graylog-dashboards` Any
-    search result or metric shall be added as a widget on the
-    dashboard to observe trends in one single location. These
-    dashboards can also be shared with other users in the
-    organization. Based on a user's recent search queries,graylog also
-    allows you to distinguish data that are not searched upon very
-    often and thus can be archived on cost effective storage
-    drives. Users can also add certain trigger conditions that shall
-    alert the system about performance issues, failed logins or
-    exceptions in the flow of the application.
+    visualizations and derive actionable insights
+    :cite:`www-graylog-blog`.  Graylog allows us to centrally collect
+    and manage log messages of an organization's complete
+    infrastructure :cite:`www-graylog-optimization`. A user can
+    perform search on terrabytes of log data to discover number of
+    failed logins,find application errors across all servers or
+    monitor the acivity of a suspicious user id.Graylog works on top
+    of ElasticSearch and MongoDB to facilitate this high availability
+    searching.  Graylog provides visualization through creation of
+    dashboards that allows a user to build pre-defined views on his
+    data to assemble all of his important data only a single click
+    away :cite:`www-graylog-dashboards`. Any search result or metric
+    shall be added as a widget on the dashboard to observe trends in
+    one single location. These dashboards can also be shared with
+    other users in the organization. Based on a user's recent search
+    queries,graylog also allows you to distinguish data that are not
+    searched upon very often and thus can be archived on cost
+    effective storage drives. Users can also add certain trigger
+    conditions that shall alert the system about performance issues,
+    failed logins or exceptions in the flow of the application.
     
 72. Splunk
 
@@ -1513,7 +1512,7 @@ Application Hosting Frameworks
     APIs such as load balancing, automated security scanning,
     application logging, NoSQL datastores, memcache, and a user
     authentication API, that are a core part to most
-    applications. :cite:`www-appengine-google`
+    applications :cite:`www-appengine-google`.
      
     An App Engine platform can be run in either the Standard or the
     Flexible environment. Standard environment lays restrictions on
@@ -1526,7 +1525,7 @@ Application Hosting Frameworks
     PHP, GO, Node.js and other JVM oriented languages. The App Engine
     datastore uses a SQL like syntax called the GQL (Google Query
     Language) which works with non-relational databases when compared
-    to SQL. :cite:`www-wiki-appengine`
+    to SQL :cite:`www-wiki-appengine`.
     
 81. AppScale
 
@@ -1838,14 +1837,14 @@ Application Hosting Frameworks
 
      Agave is an open source, application hosting framework and
      provides a platform-as-a-service solution for hybrid
-     computing. :cite:`agave-paper` It provides everything ranging
+     computing :cite:`agave-paper`. It provides everything ranging
      from authentication and authorization to computational, data and
      collaborative services. Agave manages end to end lifecycle of an
      application’s execution.  Agave provides an execution platform,
      data management platform, or an application platform through
      which users can execute applications, perform operations on their
      data or simple build their web and mobile
-     applications. :cite:`www-agaveapi-features`
+     applications :cite:`www-agaveapi-features`.
 
      Agave’s API’s provide a catalog with existing technologies and
      hence no additional appliances, servers or other software needs
@@ -1853,9 +1852,9 @@ Application Hosting Frameworks
      user needs to host it on a storage system registered with Agave,
      and submit to agave, a JSON file that shall contain the path to
      the executable file, the input parameters, and specify the
-     desired output location. :cite:`agave-paper` Agave shall read the
-     JSON file, formalize the parameters, execute the user program and
-     dump the output to the requested destination.
+     desired output location. Agave shall read the JSON file,
+     formalize the parameters, execute the user program and dump the
+     output to the requested destination :cite:`agave-paper`.
 
 103. Atmosphere
 
@@ -2366,7 +2365,7 @@ Streams
      datasources and passes it to a bolt. A bolt is the actual processing
      unit that processes data and produces a new output stream. An output
      stream from a bolt can be given as an input to another
-     bolt. :cite:`www-storm-home-concepts`
+     bolt :cite:`www-storm-home-concepts`.
      
 128. S4
 
@@ -3118,7 +3117,7 @@ Inter process communication Collectives
      allows applications to send, receive, create, and read messages.
      It allows the communication between different components of a
      distributed application to be loosely coupled, reliable, and
-     asynchronous. :cite:`www-jms-wiki` JMS overcomes the drawbacks of
+     asynchronous :cite:`www-jms-wiki`. JMS overcomes the drawbacks of
      RMI (Remote Method Invocation) where the sender needs to know the
      method signature of the remote object to invoke it and RPC(Remote
      Procedure Call), which is tightly coupled i.e it cannot function
@@ -3132,7 +3131,7 @@ Inter process communication Collectives
      one consumer. On generating message, a producer simple pushes the
      message to a message queue which is known to the consumer. The
      other communication domain is publish/subscribe model, where one
-     message can have multiple receivers. :cite:`www-jms-oracle-docs`
+     message can have multiple receivers :cite:`www-jms-oracle-docs`.
 
 174. AMQP
 
@@ -5695,7 +5694,7 @@ Interoperability
      its becoming difficult for most applications to utilize the
      advances in hardware. SAGA API provides a high level abstraction
      of the most common Grid functions so as to be independent of the
-     diverse and dynamic Grid environments. :cite:`saga-paper` This
+     diverse and dynamic Grid environments :cite:`saga-paper`. This
      shall address the problem of applications developers developing
      an application tailored to a specific set of infrastructure.
      SAGA allows computer scientists to write their applications at
@@ -5705,7 +5704,7 @@ Interoperability
      in an intelligent fashion so that it can work on any underlying
      grid system. “SAGA was built to provide a standardized, common
      interface across various grid middleware systems and their
-     versions.”  :cite:`www-saga-ogf-document`
+     versions” :cite:`www-saga-ogf-document`.
 
      As SAGA is to be implemented on different types of middleware it
      does not specify a single security model but provides hooks to
@@ -5717,7 +5716,7 @@ Interoperability
      stream package, RPC package, etc. SAGA provides interoperability
      by allowing the same application code to run on multiple grids
      and also communicate with applications running on
-     others. :cite:`saga-paper`
+     others :cite:`saga-paper`.
 
 308. Genesis
 
@@ -5930,7 +5929,7 @@ DevOps
      file called referred as a ‘template’. "A Heat template describes
      the infrastructure for a cloud application in a text file that is
      readable and writable by humans, and can be checked into version
-     control" :cite:`www-heat-wiki`
+     control" :cite:`www-heat-wiki`.
 
      Once the execution enviroment has been setup and a user wants to
      modify the architecture of resources in the future, a user needs
