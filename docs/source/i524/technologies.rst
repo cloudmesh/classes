@@ -91,10 +91,10 @@ Workflow-Orchestration
    engineering disciplines.  Kepler can operate on data stored in a
    variety of formats, locally and over the internet, and is an
    effective environment for integrating disparate software components
-   such as merging "R" scripts with compiled "C" code, or facilitating
+   such as merging *R* scripts with compiled *C* code, or facilitating
    remote, distributed execution of models. Using Kepler's GUI, users
    can simply select and then connect pertinent analytical components
-   and data sources to create a "scientific workflow". Overall, the
+   and data sources to create a *scientific workflow*. Overall, the
    Kepler helps users share and reuse data, workflow, and components
    developed by the scientific community to address common needs
    :cite:`www-kepler`.
@@ -273,7 +273,7 @@ Workflow-Orchestration
 15. Naiad
 
     Naiad :cite:`paper-naiad` is a distributed system based on
-    computational model called "Timely Dataflow" developed for
+    computational model called *Timely Dataflow* developed for
     execution of data-parallel, cyclic dataflow programs. It provides
     an in-memory distributed dataflow framework which exposes control
     over data partitioning and enables features like the high
@@ -672,7 +672,7 @@ Application and Analytics
     environment having series of R packages for statistical computing
     with Big Data using high-performance statistical computation. It
     uses R, a popular language between statisticians and data
-    miners. "pbdR" focuses on distributed memory system, where data is
+    miners. *pbdR* focuses on distributed memory system, where data is
     distributed accross several machines and processed in batch
     mode. It uses MPI for inter process communications. R focuses on
     single machines for data analysis using a interactive
@@ -1037,7 +1037,7 @@ Application and Analytics
     brain does by understanding the data in a natural language as well
     as analyzing structured and unstructured data. It was initially
     developed as a question and answer tool more specifically to
-    answer questions on the quiz show "Jeopardy" but now it has been
+    answer questions on the quiz show *Jeopardy* but now it has been
     seen as helping doctors and nurses in the treatment of cancer. It
     was developed by IBM's DeepQA research team led by David
     Ferrucci. :cite:`www-ibmwatson` illustrates that with Watson you
@@ -1219,7 +1219,7 @@ Application and Analytics
     public. It allows to integrate the data from different tables from
     different users or tables.Fusion Table uses two-layer storage,
     Bigtable and Magastore. The information rows are stored in bigdata
-    table called “Rows”, user can merge the multiple table in to one,
+    table called *Rows*, user can merge the multiple table in to one,
     from multiple users. “Megastore is a library on top of
     bigtable”. :cite:`GoogleFusionTable2012` Data visualization is one
     the feature, where user can see the visual representation of their
@@ -1296,7 +1296,7 @@ Application and Analytics
     Elasticsearch engine and returns output through Kibana
     visualizations. :cite:`www-wikipedia-elasticsearch` A log parsing
     engine "Logstash" and analytics and visualization platform
-    "Kibana" are also developed alongside Elasticsearch forming a
+    *Kibana* are also developed alongside Elasticsearch forming a
     single package.
     
 69. Kibana
@@ -1676,7 +1676,7 @@ Application Hosting Frameworks
     Pivotal Software, Inc. (Pivotal) is a software and services
     company. It offeres multiple consulting and technology services,
     which includes Pivotal Web Services, which is an agile application
-    hosting service. It has a single step upload feature "cf push",
+    hosting service. It has a single step upload feature *cf push*,
     another feature called Buildpacks lets us push applications
     written for any language like Java, Grails, Play, Spring, Node.js,
     Ruby on Rails, Sinatra or Go. Pivotal Web Services also allows
@@ -1757,7 +1757,7 @@ Application Hosting Frameworks
     real time basis. The platform ships with verified security and
     enhancements assuring less risk for sharing sensitive
     information. It simplies the task of getting the platform accessed
-    by every user using the feature “Jenkins Sprawl”
+    by every user using the feature *Jenkins Sprawl*
     :cite:`www-cloudbees-webpage`.
 
 95. Engine Yard :cite:`www-engineyard`
@@ -2408,7 +2408,7 @@ Streams
      we might read a stream by consuming updates from a table, in
      Hadoop we might tail a directory of files in HDFS. Samza is a
      stream processing framework. Samza provides a very simple
-     callback-based “process message” API comparable to MapReduce.
+     callback-based *process message* API comparable to MapReduce.
      Samza manages snapshotting and restoration of a stream
      processor’s state.  Samza is built to handle large amounts of
      state (many gigabytes per partition). :cite:`www-samza-1`
