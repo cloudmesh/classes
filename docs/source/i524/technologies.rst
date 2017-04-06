@@ -7519,7 +7519,7 @@ New Technologies (To Be Integrated by the AIs)
 399. Karajan
 
      Karajan is used to allow users to describe various workflows
-     using XML :cite:`RMBDP-Book`.  It also uses a custom yet user
+     using XML :cite:`RMBDP-Book-1`.  It also uses a custom yet user
      friendly language called K.  The advantages of using XML and K is
      that we can use Directed Acyclic Graphs (DAGs) to describe
      hierarchical workflows.  Besides, it is also very easy to handle
