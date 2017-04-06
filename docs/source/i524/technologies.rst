@@ -596,17 +596,18 @@ Application and Analytics
 
 33. MLlib
 
-    MLlib is Apache Spark’s scalable machine learning library. :cite:
-    `www-mllib` . Its goal is to make machine learning scalable and
-    easy. It provides various tools such as, algorithms, feature
-    extraction, utilities for data handling and tools for
+    MLlib is Apache Spark’s scalable machine learning library
+    :cite:`www-mllib`. Its goal is to make machine learning scalable
+    and easy. MLlib provides various tools such as, algorithms,
+    feature extraction, utilities for data handling and tools for
     constructing, evaluating, and tuning machine learning
     pipelines. MLlib uses the linear algebra package Breeze, which
-    depends on netlib-java for optimized numerical processing. It is
-    shipped with Spark and supports several languages which provides
-    functionality for wide range of learning settings.  It includes
-    Java, Scala and Python APIs and is released as a part of Spark
-    project under the Apache 2.0 license :cite: `MLlib-article`
+    depends on netlib-java for optimized numerical processing. MLlib
+    is shipped with Spark and supports several languages which
+    provides functionality for wide range of learning settings. MLlib
+    library includes Java, Scala and Python APIs and is released as a
+    part of Spark project under the Apache 2.0 license
+    :cite:`MLlib-article`.
 
 34. MLbase
     
@@ -2802,7 +2803,7 @@ Basic Programming model and runtime, SPMD, MapReduce
      executes data mining, graph mining, machine learning
      algorithms. GraphChi can process over one hundred thousand graph
      updates per second, while simultaneously performing
-     computation.  :cite: `GraphChi` GraphChi is a spin-off of the
+     computation :cite:`GraphChi`. GraphChi is a spin-off of the
      GraphLab. GraphChi brings web-scale graph computation, such as
      analysis of social networks, available to anyone with a modern
      laptop
@@ -2970,18 +2971,17 @@ Inter process communication Collectives
 167. ActiveMQ
 
      Apache ActiveMQ is a powerful open source messaging and
-     Integration Patterns server according to the website
-     :cite:`www-activeMQ` .  It is a message oriented middleware(MOM)
-     for the Apache Software Foundation that provides high
-     availability, reliability, performance, scalability and security
-     for enterprise messaging as stated in :cite:`ActiveMQ-book`. The
+     Integration Patterns server :cite:`www-activeMQ`. It is a message
+     oriented middleware(MOM) for the Apache Software Foundation that
+     provides high availability, reliability, performance, scalability
+     and security for enterprise messaging :cite:`ActiveMQ-book`. The
      goal of ActiveMQ is to provide standard-based, message-oriented
      application integration across as many languages and platforms as
      possible. ActiveMQ implements the JMS spec and offers dozens of
-     additional features and value on top of this spec.ActiveMQ is
-     used in many scenarios such as heterogeneous application
-     integration, as a replacement for RPC and to loosen the coupling
-     between applications.
+     additional features and value on top of this
+     specifications. ActiveMQ is used in many scenarios such as
+     heterogeneous application integration, as a replacement for RPC
+     and to loosen the coupling between applications.
      
 168. RabbitMQ
 
@@ -5672,19 +5672,19 @@ Interoperability
      
 306. Whirr
      
-     Apache Whirr is a set of libraries for running cloud services as
-     in :cite:`www-apache-whirr`, which provides a cloud-neutral way
-     to run services. This is achieved by using cloud-neutral
-     provisioning and storage libraries such as jclouds,
+     Apache Whirr is a set of libraries for running cloud services,
+     which provides a cloud-neutral way to run services
+     :cite:`www-ApacheWhirr`. This is achieved by using cloud-neutral
+     provisioning and storage libraries such as jclouds and
      libcloud. Whirr's API should be built on top these libraries and
      is not exposed to the users. It is also a common service API, in
      which the details of its working are, particular to the service.
      Whirr provides smart defaults for services by which any properly
      configured system can run quickly, while still being able to
-     override settings as needed.  Whirr can also be used as a command
+     override settings as needed. Whirr can also be used as a command
      line tool for deploying clusters. It uses low level API libraries
      to work with providers which was mentioned in the
-     :cite:`www-slideshare-apache-whirr`
+     :cite:`www-slideshare-ApacheWhirr`.
 
      
 307. Saga
@@ -5822,9 +5822,9 @@ DevOps
      configuration management software and remote execution engine,
      which makes systems and configuration management software for the
      orchestration and automation of CloudOps, ITOps and DevOps at
-     scale. :cite:`www-saltstack` SaltStack is used to manage all the
+     scale :cite:`www-saltstack`. SaltStack is used to manage all the
      data center things including any cloud, infrastructure,
-     virtualization, application stack, software or code.  Salt is
+     virtualization, application stack, software or code. Salt is
      built on two major concepts, which are clearly mentioned in
      :cite:`SaltStack-book` as remote execution and configuration
      management. In the remote execution system, Salt leverages Python
@@ -6115,7 +6115,7 @@ DevOps
      applications defined in the OASIS TOSCA packaging format CSAR,
      Cloud Service ARchive.  The key tasks of OpenTOSCA, are to
      operate management operations, run plans, and manage state of the
-     TOSCA.  :cite:`OpenTOSCA-paper`
+     TOSCA :cite:`openTOSCA-paper`.
      
 333. Winery
 
@@ -6991,10 +6991,10 @@ Message and Data Protocols
 
 377. Avro
 
-     Apache Avro :cite:`www-Avro` is a data serialization system,
-     which provides rich data structures, remote procedure call(RPC),
-     a container file to store persistent data and simple integration
-     with dynamic languages.  Avro depends on schemas, which are
+     Apache Avro is a data serialization system, which provides rich
+     data structures, remote procedure call(RPC), a container file to
+     store persistent data and simple integration with dynamic
+     languages :cite:`www-Avro`.  Avro depends on schemas, which are
      defined with JSON. This facilitates implementation in other
      languages that have the JSON libraries.  The key advantages of
      Avro are schema evolution - Avro will handle the
