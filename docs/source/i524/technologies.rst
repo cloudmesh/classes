@@ -140,8 +140,8 @@ Workflow-Orchestration
 
 8. Triana
 
-   :cite:`trianaDocumentation-1` Triana is an open source problem
-   solving software that comes with powerful data analysis tools.
+   Triana is an open source problem solving software that comes with 
+   powerful data analysis tools :cite:`trianaDocumentation-1`.
    Having been developed at Cardiff University, it has a good and
    easy-to-understand User Interface and is typically used for signal,
    text and image processing.  Although it has its own set of analysis
@@ -1116,18 +1116,18 @@ Application and Analytics
     
 60. IBM System G
 
-    :cite:`IBMSystemGDocumentation-1` IBM System G provides a set of
-    Cloud and Graph computing tools and solutions for Big Data.  In
+    IBM System G provides a set of Cloud and Graph computing tools and
+    solutions for Big Data :cite:`IBMSystemGDocumentation-1`.  In
     fact, the G stands for Graph and typically spans a database,
     visualization, analytics library, middleware and Network Science
-    Analytics tools.  :cite:`IBMSystemGDocumentation-2` It assists the
-    easy creating of graph stores and queries and exploring them via
-    interactive visualizations.  Internally, it uses the property
+    Analytics tools.  It assists the easy creating of graph stores 
+    and queries and exploring them via interactive visualizations 
+    :cite:`IBMSystemGDocumentation-2`.  Internally, it uses the property
     graph model for its working.  It consists of five individual
     components - gShell, REST API, Python interface to gShell, Gremlin
-    and a Visualizer.  :cite:`IBMSystemGPaper` Some of the typical
-    applications wherein it can be used include Expertise Location,
-    Commerce, Recommendation, Watson, Cybersecurity, etc.
+    and a Visualizer.  Some of the typical applications wherein it
+    can be used include Expertise Location, Commerce, Recommendation, 
+    Watson, Cybersecurity, etc :cite:`IBMSystemGPaper`.
 
     However, it is to be noted that the current version does not work
     in a distributed environment and it is planned that future
@@ -1545,12 +1545,12 @@ Application Hosting Frameworks
 
 82. Red Hat OpenShift
 
-    :cite:`www-paas` OpenShift was launched as a PaaS (Platform as a
-    Service) by Red Hat in the Red Hat Summit, 2011.
-    :cite:`www-developers-openshift` It is a cloud application
-    development and hosting platform that envisages shifting of the
-    developer's focus to development by automating the management and
-    scaling of applications.  Thus, :cite:`www-openshift` OpenShift
+    OpenShift was launched as a PaaS (Platform as a
+    Service) by Red Hat in the Red Hat Summit, 2011 :cite:`www-paas`.
+    It is a cloud application development and hosting platform that 
+    envisages shifting of the developer's focus to development by 
+    automating the management and scaling of applications 
+    :cite:`www-developers-openshift`.  Thus, OpenShift :cite:`www-openshift` 
     enables us to write our applications in any one web development
     language (using any framework) and it itself takes up the task of
     running the application on the web.  This has its advantages and
@@ -1559,9 +1559,9 @@ Application Hosting Frameworks
     away) and the disadvantage being that he cannot control how it
     works, again because it is abstracted.
 
-    :cite:`openshift-blog` OpenShift is powered by Origin, which is in
-    turn built using Docker container packaging and Kubernetes
-    container cluster.  Due to this, OpenShift offers a lot of
+    OpenShift is powered by Origin, which is in turn built using 
+    Docker container packaging and Kubernetes container cluster 
+    :cite:`openshift-blog`.  Due to this, OpenShift offers a lot of
     options, including online, on-premise and open source project
     options.
     
@@ -3244,25 +3244,24 @@ Inter process communication Collectives
 
 180. Google Pub Sub
 
-     :cite:`www-google-pub-sub` Google Pub/Sub provides an
-     asynchronous messaging facility which assists the communication
-     between independent applications. It works in real time and helps
+     Google Pub/Sub provides an asynchronous messaging facility which 
+     assists the communication between independent applications 
+     :cite:`www-google-pub-sub`. It works in real time and helps
      keep the two interacting systems independent. It is the same
      technology used by many of the Google apps like GMail, Ads,
      etc. and so integration with them becomes very
-     easy. :cite:`www-google-pub-sub-features` Some of the typical
-     features it provides are: (1) Push and Pull - Google Pub/Sub
-     integrates quickly and easily with the systems hosted on the
-     Google Cloud Platform thereby supporting one-to-many, one-to-one
-     and many-to-many communication, using the push and pull
-     requests. (2) Scalability - It provides high scalability and
-     availability even under heavy load without any degradation of
-     latency. This is done by using a global and highly scalable
-     design. (3) Encryption - It provides security by encryption of
+     easy.  Some of the typical features it provides are: (1) Push 
+     and Pull - Google Pub/Sub integrates quickly and easily with 
+     the systems hosted on the Google Cloud Platform thereby supporting 
+     one-to-many, one-to-one and many-to-many communication, using 
+     the push and pull requests. (2) Scalability - It provides high 
+     scalability and availability even under heavy load without any 
+     degradation of latency. This is done by using a global and highly 
+     scalable design. (3) Encryption - It provides security by encryption of
      the stored data as well as that in transit. Other than these
      important features, it provides some others as well, like the
      usage of RESTful APIs, end-to-end acknowledgement, replicated
-     storage, etc.
+     storage, etc :cite:`www-google-pub-sub-features`.
      
 181. Azure Queues
 
@@ -4600,13 +4599,13 @@ NoSQL
      (Resource Description Framework) data.  Resource Description
      Framework (RDF) :cite:`www-RDF` is a model that facilitates the
      interchange of data on the Web.  Using RFD enables us to merge
-     data even if the underlying schemas differ.  :cite:`www-sesame`
-     Sesame has now officially been integrated into RDF4J Eclipse
-     project.  Sesame takes in the natively written code as the input
-     and then performs a series of transformations, generating kernels
-     for various platforms.  :cite:`sesame-paper-2013` In order to
-     achieve this, it makes use of the feature identifier, impact
-     predictor, source-to-source translator and the auto-tuner.  The
+     data even if the underlying schemas differ.  Sesame has now 
+     officially been integrated into RDF4J Eclipse project :cite:`www-sesame`.  
+     Sesame takes in the natively written code as the input and then 
+     performs a series of transformations, generating kernels for
+     various platforms.  In order to achieve this, it makes use of the
+     feature identifier, impact predictor, source-to-source translator 
+     and the auto-tuner :cite:`sesame-paper-2013`.  The
      feature identifier is concerned with the extraction and detection
      of the architectural features that are important for application
      performance.  The impact predictor determines the performance
@@ -5224,10 +5223,10 @@ Cluster Resource Management
      well as Distributed computing. Their main aim is to reduce the
      dependency on queues and the associated multiple wait times.
 
-     :cite:`www-pilot-job-paper-2016` Using pilot jobs enables us to have a 
-     multilevel technique for the execution of various workloads. This is so 
-     because the jobs are typically acquired by a placeholder job and they 
-     relayed to the workloads.      
+     Using pilot jobs enables us to have a multilevel technique for 
+     the execution of various workloads. This is so because the jobs
+     are typically acquired by a placeholder job and they 
+     relayed to the workloads :cite:`www-pilot-job-paper-2016`.      
 
 File systems
 ----------------------------------------------------------------------
@@ -5839,18 +5838,18 @@ DevOps
      
 314. Boto
 
-     :cite:`www-boto` The latest version of Boto is Boto3.
-     :cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS)
-     :cite:Software Development Kit (SDK) for Python. It enables the
-     :cite:Python developers to make use of services like Amazon S3
-     :cite:and Amazon EC2.  `www-boto3-documentation` It provides
-     :cite:object oriented APIs along with low-level direct service
-     :cite:access. It provides simple in-built functions and
-     :cite:interfaces to work with Amazon S3 and EC2.
+     The latest version of Boto is Boto3 :cite:`www-boto`.
+     Boto3 is the Amazon Web Services (AWS) Development Kit (SDK) for
+     Python :cite:`www-boto-github`. It enables the
+     Python developers to make use of services like Amazon S3
+     and Amazon EC2 :cite:`www-boto-amazon-python-sdk`.  It provides
+     object oriented APIs along with low-level direct service 
+     :cite:`www-boto3-documentation`.  It provides simple in-built functions 
+     and interfaces to work with Amazon S3 and EC2.
 
-     :cite:`www-boto-amazon-python-sdk` Boto3 has two distinct levels of APIs 
-     - client and resource. One-to-one mappings to underlying HTTP API
-     is provided by the client APIs. Resource APIs provide resource
+     Boto3 has two distinct levels of APIs - client and resource 
+     :cite:`www-boto-amazon-python-sdk`. One-to-one mappings to underlying 
+     HTTP API is provided by the client APIs. Resource APIs provide resource
      objects and collections to perform various actions by accessing
      the attributes.  Boto3 also comes with 'waiters'. Waiters are
      used for polling status changes in AWS, automatically. Boto3 has
@@ -7288,8 +7287,8 @@ New Technologies (To Be Integrated by the AIs)
      period until a review indicates that the project meets the 
      standards of other ASF projects :cite:`www-apacheincubator`
 
-390. :cite:`RMBDP-Book` Askalon was developed at the University of
-     Innsbruck.  It is application development as well as a runtime
+390. Askalon was developed at the University of Innsbruck :cite:`RMBDP-Book`.  
+     It is application development as well as a runtime
      environment. It allows easy execution of distributed work flow
      applications in service oriented grids. It uses a Service
      Oriented Architecture. Also, for its Grid middleware it uses the
