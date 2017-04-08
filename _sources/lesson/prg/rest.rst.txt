@@ -11,7 +11,6 @@ protocol. Although not based on http, in most cases, the HTTP protocol
 is used.  In contrast to what some others write or say, REST is not a
 *standard*.
 
-
 RESTful applications use HTTP requests to:
 
 * post data: while creating and/or updating it,
