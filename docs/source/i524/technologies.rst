@@ -2640,7 +2640,26 @@ Streams
 
      
 139. Floe
-140. Spark Streaming
+140. Spark Streaming :cite:`www-apache-spark-stream`
+
+     Spark Streaming is a library built on top of Spark Core which
+     enables Spark to process real-time streaming data. The streaming
+     jobs can be written similar to batch jobs in Spark, using either
+     Java, Scala or Python. The input to Spark Streaming applications
+     can be fed from multiple data sources such HDFS, Kafka, Flume,
+     Twitter, ZeroMQ, or custom-defined sources. It also provides a
+     basic abstraction called Discretized Streams or DStreams to
+     represent the continuous data streams. Spark's API for
+     manipulating these data streams is very similar to the Spark
+     Core’s Resilient Distributed Dataset(RDD) API
+     :cite:`www-apache-spark-RDD` which makes it easier for users to
+     move between projects with stored and real-time data as the
+     learning curve is short.  Spark Streaming is designed to provide
+     fault-tolerance, throughput, and scalability. Examples of
+     streaming data are messages being published to a queue for
+     real-time flight status update or the log files for a production
+     server.
+     
 141. Flink Streaming
 142. DataTurbine
 
@@ -4714,6 +4733,36 @@ NoSQL
 ’
 
 253. Google DataStore
+
+     Google Cloud Datastore is a NoSQL document database built for
+     automatic scaling, high performance, and ease of application
+     development :cite:`www-google-datastore`. Though Cloud Datastore
+     interface has many of the features similar to traditional
+     databases,but as a NoSQL database, it differs from the SQL in the
+     way as it describes relationships between various data
+     objects. It also provides a number of features that relational
+     databases are not optimally suited to provide, including
+     high-performance at a very large scale and high-reliability. The
+     Google Cloud DataStore can have different kinds of properties for
+     the same kind of entities, unlike the Relational Database where
+     they are represented in rows. For example, the difference between
+     entities can have the properties with the same name but having
+     different values. The flexible schema maps naturally to
+     object-oriented and scripting languages.
+
+     Non-relational databases have become popular recently, especially
+     for web applications that require high-scalability and
+     performance with high-availability. Non-relational databases such
+     as Cloud DataStore let developers to choose an optimal balance
+     between strong consistency and eventual consistency for each
+     application. This allows developers to combine the benefits of
+     both the database structures :cite:`www-google-datastore-2`.
+     Datastore is designed to automatically scale to very large data
+     sets, allowing applications to maintain high performance as they
+     receive more traffic. Datastore also provides a number of
+     features that relational databases are not optimally suited to
+     provide, including high-performance at a very large scale and
+     high-reliability :cite:`www-google-datastore`.
 
 File management
 ----------------------------------------------------------------------
