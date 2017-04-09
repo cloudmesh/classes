@@ -2023,6 +2023,42 @@ High level Programming
      appropriate connection string. :cite:`www-phoenix-bighadoop`
 
 110. Impala
+
+     Cloudera Impala is Cloudera's open source massively parallel
+     processing (MPP) SQL query engine for data stored in a computer
+     cluster running Apache Hadoop :cite:`www-impala-cloudera`. It
+     allows users to execute low latency SQL queries for data stored
+     in HDFS and HBase, without any movement or transformation of
+     data. The Apache Hive provides a powerful query mechanism for
+     hadoop users, but the query respponse time are not acceptable due
+     to Hive's reliance on MapReduce. Impala technology by Cloudera
+     has its MPP query engine written in C++ replacing the Java engine
+     prooves to improve the interactive Hadoop queries and interactive
+     query response time for hadoop users :cite:`www-impala-dummies`
+     . Impala is faster than Hive also because it executes the SQL
+     queries natively without translating them into Hadoop MapReduce
+     jobs, thus taking less time. Impala uses HiveQL as programming
+     interface and also the Impala's Query Exec Engines are co-located
+     with the HDFS data nodes, so that the data nodes and processing
+     tasks are co-located, following the haddops paradigm
+     :cite:`www-impala-dummies`.  Impala can aslo use Hbase as a data
+     source. Thus, Impala can be considered as an extension to the
+     Apache Hadoop, providing a better performance alternative to
+     Hive-on-top-of-MapReduce model.
+
+     Hive and other frameworks built on MapReduce are best suited for
+     long running batch jobs, such as those involving batch processing
+     of Extract, Transform, and Load (ETL) type jobs
+     :cite:`www-impala-cloudera`.  The important applications of
+     Impala are when the data is to be partially analyzed or when the
+     same kind of query is to be processed several times from the
+     dataset. When the data is to be partially analyzed, Impala uses
+     parquet as the file format, which is developed by Twitter and
+     Cloudera and it stores data in vertical manner
+     :cite:`www-impala-beginner`. When Parquet queries the dataset it
+     only reads the coloumn split part files rather than reading the
+     entire dataset as compared to Hive.
+     
 111. MRQL
 
      MapReduce Query Language (MRQL, pronounced miracle) "is a query
@@ -2604,7 +2640,26 @@ Streams
 
      
 139. Floe
-140. Spark Streaming
+140. Spark Streaming :cite:`www-apache-spark-stream`
+
+     Spark Streaming is a library built on top of Spark Core which
+     enables Spark to process real-time streaming data. The streaming
+     jobs can be written similar to batch jobs in Spark, using either
+     Java, Scala or Python. The input to Spark Streaming applications
+     can be fed from multiple data sources such HDFS, Kafka, Flume,
+     Twitter, ZeroMQ, or custom-defined sources. It also provides a
+     basic abstraction called Discretized Streams or DStreams to
+     represent the continuous data streams. Spark's API for
+     manipulating these data streams is very similar to the Spark
+     Core’s Resilient Distributed Dataset(RDD) API
+     :cite:`www-apache-spark-RDD` which makes it easier for users to
+     move between projects with stored and real-time data as the
+     learning curve is short.  Spark Streaming is designed to provide
+     fault-tolerance, throughput, and scalability. Examples of
+     streaming data are messages being published to a queue for
+     real-time flight status update or the log files for a production
+     server.
+     
 141. Flink Streaming
 142. DataTurbine
 
@@ -2630,6 +2685,27 @@ Basic Programming model and runtime, SPMD, MapReduce
 ----------------------------------------------------------------------
 
 143. Hadoop
+
+     Apache Hadoop is an open source framework written in Java that 
+     utilizes distributed storage and the MapReduce programming model 
+     for processing of big data. Hadoop utilizes commodity hardware to 
+     build fault tolerant clusters.  Hadoop was developed based on 
+     papers published by Google on the Google File System (2003) and 
+     MapReduce (2004) :cite:`www-wikihadoop`.
+
+     Hadoop consists of several modules: the Cluster, Storage, Hadoop 
+     Distributed File System (HDFS) Federation, Yarn Infrastructure, 
+     MapReduce Framework, and the Hadoop Common Package.  The Cluster 
+     is comprised of multiple machines, otherwise referred to as nodes.  
+     Storage is typically in the HDFS.  HDFS federation is the framework 
+     responsible for this storage layer.  YARN Infrastructure provides 
+     computational resources such as CPU and memory. The MapReduce layer 
+     is responsible for implementing MapReduce :cite:`www-hadooparch2`.  
+     The Hadoop Common Package which includes operating and file system 
+     abstractions and JAR files needed to start Hadoop 
+     :cite:`www-wikihadoop`. 
+
+
 144. Spark :cite:`www-spark`
 
      Apache Spark which is an open source cluster computing framework
@@ -4657,6 +4733,36 @@ NoSQL
 ’
 
 253. Google DataStore
+
+     Google Cloud Datastore is a NoSQL document database built for
+     automatic scaling, high performance, and ease of application
+     development :cite:`www-google-datastore`. Though Cloud Datastore
+     interface has many of the features similar to traditional
+     databases,but as a NoSQL database, it differs from the SQL in the
+     way as it describes relationships between various data
+     objects. It also provides a number of features that relational
+     databases are not optimally suited to provide, including
+     high-performance at a very large scale and high-reliability. The
+     Google Cloud DataStore can have different kinds of properties for
+     the same kind of entities, unlike the Relational Database where
+     they are represented in rows. For example, the difference between
+     entities can have the properties with the same name but having
+     different values. The flexible schema maps naturally to
+     object-oriented and scripting languages.
+
+     Non-relational databases have become popular recently, especially
+     for web applications that require high-scalability and
+     performance with high-availability. Non-relational databases such
+     as Cloud DataStore let developers to choose an optimal balance
+     between strong consistency and eventual consistency for each
+     application. This allows developers to combine the benefits of
+     both the database structures :cite:`www-google-datastore-2`.
+     Datastore is designed to automatically scale to very large data
+     sets, allowing applications to maintain high performance as they
+     receive more traffic. Datastore also provides a number of
+     features that relational databases are not optimally suited to
+     provide, including high-performance at a very large scale and
+     high-reliability :cite:`www-google-datastore`.
 
 File management
 ----------------------------------------------------------------------
