@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Cloud (under construction) &#8212; Big Data Classes</title>
+    <title>Use only one public IP address on Chameleon cloud &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -32,8 +32,8 @@
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Chameleon Cloud" href="chameleon.html" />
-    <link rel="prev" title="Lessons" href="../index.html" />
+    <link rel="next" title="Upload the key to the FutureSystem Portal" href="ssh-futuregrid.html" />
+    <link rel="prev" title="FutureSystems Cloud" href="futuresystems.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -151,7 +151,7 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Cloud (under construction)</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
@@ -278,7 +278,15 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Cloud (under construction)</a></li>
+<li><a class="reference internal" href="#">Use only one public IP address on Chameleon cloud</a><ul>
+<li><a class="reference internal" href="#step-0-remove-all-your-cluster-virtual-machines-from-chameleon">Step 0. Remove all your cluster virtual machines from Chameleon</a></li>
+<li><a class="reference internal" href="#step-1-create-a-single-vm-on-chameleon-cloud">Step 1. Create a single vm on Chameleon cloud</a></li>
+<li><a class="reference internal" href="#step-2-assign-a-public-ip-address-to-this-virtual-machine">Step 2. Assign a public IP address to this virtual machine</a></li>
+<li><a class="reference internal" href="#step-3-configure-this-public-accessible-vm">Step 3. Configure this public accessible vm</a></li>
+<li><a class="reference internal" href="#step-4-install-cloudmesh-client">Step 4. Install cloudmesh_client</a></li>
+<li><a class="reference internal" href="#step-5-bring-up-your-cluster-in-a-private-ip-environment">Step 5. Bring up your cluster in a private IP environment</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -393,7 +401,7 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Cloud (under construction)</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
@@ -510,7 +518,15 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Cloud (under construction)</a></li>
+<li><a class="reference internal" href="#">Use only one public IP address on Chameleon cloud</a><ul>
+<li><a class="reference internal" href="#step-0-remove-all-your-cluster-virtual-machines-from-chameleon">Step 0. Remove all your cluster virtual machines from Chameleon</a></li>
+<li><a class="reference internal" href="#step-1-create-a-single-vm-on-chameleon-cloud">Step 1. Create a single vm on Chameleon cloud</a></li>
+<li><a class="reference internal" href="#step-2-assign-a-public-ip-address-to-this-virtual-machine">Step 2. Assign a public IP address to this virtual machine</a></li>
+<li><a class="reference internal" href="#step-3-configure-this-public-accessible-vm">Step 3. Configure this public accessible vm</a></li>
+<li><a class="reference internal" href="#step-4-install-cloudmesh-client">Step 4. Install cloudmesh_client</a></li>
+<li><a class="reference internal" href="#step-5-bring-up-your-cluster-in-a-private-ip-environment">Step 5. Bring up your cluster in a private IP environment</a></li>
+</ul>
+</li>
 </ul>
 <p></p>
 <hr>
@@ -550,36 +566,61 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="cloud-under-construction">
-<h1>Cloud (under construction)<a class="headerlink" href="#cloud-under-construction" title="Permalink to this headline">¶</a></h1>
-<p>A number of useful clouds exist that may be useful for this
-class. However, if you do work on another cloud we require you to
-replicate your setup on either</p>
-<ul class="simple">
-<li>Chameleon cloud (using cloudmesh and OpenStack)</li>
-<li>Jetstream (using cloudmesh and OpenStack not the GUI interface)</li>
-<li>Future Systems (using cloudmesh and OpenStack)</li>
+  <div class="section" id="use-only-one-public-ip-address-on-chameleon-cloud">
+<span id="single-public-ip"></span><h1>Use only one public IP address on Chameleon cloud<a class="headerlink" href="#use-only-one-public-ip-address-on-chameleon-cloud" title="Permalink to this headline">¶</a></h1>
+<p>Chameleon cloud has relatively limited public IP addresses. In order to avoid consuming all, we require you to use only one <code class="docutils literal"><span class="pre">head</span></code> virtual machine, which will have a public IP associated with. All other nodes needed for your project will be non-floating IP nodes, meaning that that don&#8217;t have a public accessible IP address. You can only access these nodes from your <code class="docutils literal"><span class="pre">head</span></code> node.</p>
+<p>Essentially, you just need to migrate the VirtualBox vm that you have used on your laptop to Chameleon cloud. Instead of have cloudmesh_client up and running on your VirtualBox vm, you re-setup everything on a public accessible (and the only) Chameleon node. From here, you execute all your script to configure your cluster. Because this <code class="docutils literal"><span class="pre">head</span></code> node is inside Chameleon cloud, those local IP addresses e.g. 192.168.x.x can be used to communicate.</p>
+<div class="section" id="step-0-remove-all-your-cluster-virtual-machines-from-chameleon">
+<h2>Step 0. Remove all your cluster virtual machines from Chameleon<a class="headerlink" href="#step-0-remove-all-your-cluster-virtual-machines-from-chameleon" title="Permalink to this headline">¶</a></h2>
+<p>Make sure your terminate all your previously allocated resources.</p>
+</div>
+<div class="section" id="step-1-create-a-single-vm-on-chameleon-cloud">
+<h2>Step 1. Create a single vm on Chameleon cloud<a class="headerlink" href="#step-1-create-a-single-vm-on-chameleon-cloud" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm boot
+</pre></div>
+</div>
+</div>
+<div class="section" id="step-2-assign-a-public-ip-address-to-this-virtual-machine">
+<h2>Step 2. Assign a public IP address to this virtual machine<a class="headerlink" href="#step-2-assign-a-public-ip-address-to-this-virtual-machine" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ip assign
+</pre></div>
+</div>
+</div>
+<div class="section" id="step-3-configure-this-public-accessible-vm">
+<h2>Step 3. Configure this public accessible vm<a class="headerlink" href="#step-3-configure-this-public-accessible-vm" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ssh
+</pre></div>
+</div>
+<p>Basically, you just repeat what you have done on your laptop, including:</p>
+<blockquote>
+<div><ul class="simple">
+<li>sudo apt-get update</li>
+<li>install supporting packages like: python-dev, libffi-dev, libssl-dev...</li>
+<li>install tools like: pip, git and virtual environment</li>
+<li>activate virtualenv</li>
 </ul>
-<p>Useful cloudes include:</p>
-<ul class="simple">
-<li>Chameleoncloud.org <span class="xref std std-ref">Chameleon</span></li>
-<li>futuresystems.org <a class="reference internal" href="futuresystems.html#ref-quickstart-openstack"><span class="std std-ref">QuickStart</span></a></li>
-<li>Amazon EC2 <a class="reference external" href="https://aws.amazon.com/">https://aws.amazon.com/</a></li>
-<li>Microsoft Azure Virtual Machine <a class="reference external" href="https://azure.microsoft.com">https://azure.microsoft.com</a></li>
+</div></blockquote>
+</div>
+<div class="section" id="step-4-install-cloudmesh-client">
+<h2>Step 4. Install cloudmesh_client<a class="headerlink" href="#step-4-install-cloudmesh-client" title="Permalink to this headline">¶</a></h2>
+<p>Consult to earlier chapters to install cloudmesh_client again with <code class="docutils literal"><span class="pre">git</span> <span class="pre">pull</span></code> from your repo. Remember to:</p>
+<blockquote>
+<div><ul class="simple">
+<li>upload your keys to home folder</li>
+<li>update cloudmesh.yaml accordingly to set cloud, key and user</li>
 </ul>
-<p>More information can be found here:</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="chameleon.html">Chameleon Cloud</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cloudmesh-installation.html">Cloudmesh Client on Ubuntu 16.04</a></li>
-<li class="toctree-l1"><a class="reference internal" href="futuresystems.html">FutureSystems Cloud</a></li>
-<li class="toctree-l1"><a class="reference internal" href="only-one-public-ip.html">Use only one public IP address on Chameleon cloud</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ssh-futuregrid.html">Upload the key to the FutureSystem Portal</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ssh-futuregrid.html#testing-your-ssh-key">Testing your ssh key</a></li>
-<li class="toctree-l1"><a class="reference internal" href="technologies.html">Installing Cloudmesh Client</a></li>
-<li class="toctree-l1"><a class="reference internal" href="technologies.html#hadoop">Hadoop</a></li>
-<li class="toctree-l1"><a class="reference internal" href="technologies.html#references">References</a></li>
-</ul>
+</div></blockquote>
+</div>
+<div class="section" id="step-5-bring-up-your-cluster-in-a-private-ip-environment">
+<h2>Step 5. Bring up your cluster in a private IP environment<a class="headerlink" href="#step-5-bring-up-your-cluster-in-a-private-ip-environment" title="Permalink to this headline">¶</a></h2>
+<p>Consult to earlier chapters to once again set your cluster up. The outline is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster define --count 3 --no-floating-ip
+$ cm cluster allocate
+$ cm cluster nodes &lt;your cluster name&gt;
+$ cm vm ssh &lt;node-name&gt;
+</pre></div>
+</div>
+<p>So now you can refer your nodes with their names, not the public IP addresses.</p>
 </div>
 </div>
 

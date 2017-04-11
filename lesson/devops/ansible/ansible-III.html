@@ -646,6 +646,9 @@ $ ansible-galaxy init &lt;to-be-created-role-name&gt;
 <div class="section" id="test-it-out">
 <h3>test it out<a class="headerlink" href="#test-it-out" title="Permalink to this headline">¶</a></h3>
 <p>You have your Ansible Galaxy role ready now. To test it as a user, go to your HID directory and edit the other two files <code class="docutils literal"><span class="pre">inventory</span></code> and <code class="docutils literal"><span class="pre">playbook.yml</span></code>, which are already generated for you in directory <code class="docutils literal"><span class="pre">tests</span></code> by the script:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ansible-playbook -i ./hosts playbook.yml
+</pre></div>
+</div>
 <p>After running this playbook, you should have Emacs installed on localhost.</p>
 </div>
 </div>

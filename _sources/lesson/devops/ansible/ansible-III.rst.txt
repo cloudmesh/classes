@@ -81,6 +81,8 @@ test it out
 
 You have your Ansible Galaxy role ready now. To test it as a user, go to your HID directory and edit the other two files ``inventory`` and ``playbook.yml``, which are already generated for you in directory ``tests`` by the script::
 
+$ ansible-playbook -i ./hosts playbook.yml
+
 After running this playbook, you should have Emacs installed on localhost.
 
 A Complete Ansible Galaxy Project
