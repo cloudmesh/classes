@@ -289,6 +289,20 @@ by a reference. In addition, words and phrases like `merely`, `this is
 the power of Dremel`, `super high scalability`, `drastically fast` are
 subjective or not specific enough and should be avoided.
 
+Other Important Tips
+--------------------
+
+* `Check for duplicated references
+  <https://piazza.com/class/ix39m27czn5uw?cid=619>`_
+* `Capitalize "Figure" and "Table" when referring to figures and
+  tables <https://piazza.com/class/ix39m27czn5uw?cid=618>`_
+* `Do not hardcode section numbers, but use the \ref command with the
+  section label <https://piazza.com/class/ix39m27czn5uw?cid=617>`_
+* `Don't do a work breakdown if you're the sole author
+  <https://piazza.com/class/ix39m27czn5uw?cid=614>`_
+* `Check any URLs you've included, especially the ones to the paper
+  itself! <https://piazza.com/class/ix39m27czn5uw?cid=613>`_
+  
 Conclusion
 ----------
 
