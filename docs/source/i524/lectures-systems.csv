@@ -15,7 +15,7 @@ Refcards, Reference cards, :doc:`Web Page <../lesson/linux/refcards>`,,Jan 7
 Emacs, (Optional) Useful emacs commands, :doc:`Web Page <../lesson/doc/emacs>`,,Jan 7
 Cloudmesh Client,Installation of Cloudmesh Client, `Video <https://www.youtube.com/watch?v=R50IQYhr-vg>`_ | :doc:`Web Page <../lesson/cloud/cloudmesh-installation>`,,Feb 14
 	  ,Setting up a cluster and Hadoop / Pig / Spark with Cloudmesh, `Video <https://www.youtube.com/watch?v=KOV8PqvX-GQ>`_ | :doc:`Web Page <../lesson/devops/hadoop>`,,Mar 20
-    ,Use only one public IP address, :doc:`Web Page <../lesson/cloud/only-one-public-ip>`,,Apr 11
+    ,Use only one public IP address, :doc:`Web Page <../lesson/cloud/cm-cluster-with-one-ip>`,,Apr 11
 Ansible, Starting Point, `Video <https://www.youtube.com/watch?v=no52OmHg1ek>`_ | :doc:`Web Page <../lesson/devops/ansible/ansible-I>`,,Feb 14
        , Roles and Others, `Video <https://www.youtube.com/watch?v=eN52x5XxJAE>`_ | :doc:`Web Page <../lesson/devops/ansible/ansible-II>`,,Feb 14
        , Ansible Galaxy, :doc:`Web Page <../lesson/devops/ansible/ansible-III>`,, Feb 14
