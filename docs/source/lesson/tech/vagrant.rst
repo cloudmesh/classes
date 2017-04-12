@@ -106,7 +106,7 @@ tell us the setup that needs to be done before running ``vagrant up``.
 
 Next, the environmental variables ``PORTALNAME`` and ``PROJECTID`` are
 retrieved and injected into a provisioning shell script defined and
-stored in ``$script``.
+stored in the ``$script``.
 
 The rest of the file is fairly straightforward:
 
@@ -117,7 +117,7 @@ The rest of the file is fairly straightforward:
   does have network access) to we set the IP address in a private
   network.
 - the provisioning shell script is specified and will run as an
-  unpriviledged user
+  unprivileged user
 - finally, use the ssh-agent forwarding system. This way the ssh
   keypairs for futuresystems access do not need to be copied into from
   the host machine into the workstation.
