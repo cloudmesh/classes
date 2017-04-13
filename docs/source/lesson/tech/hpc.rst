@@ -13,15 +13,15 @@ HPC
 Login Nodes
 -----------------
 
-Several of the clusters have High Performance Computing (HPC) services
+Several of the clusters have High-Performance Computing (HPC) services
 installed. Access to them is provided via a Linux Login node for each
 of the clusters on which these services are installed.
 
-To access the login nodes you need a FG resource account and an SSH
+To access the login nodes you need an FG resource account and an SSH
 public key you have uploaded to FutureGrid (this process is described
 in the section about :ref:`s-accounts`. After you are part of a valid
 project and have a FutureGrid account, you can log into the FutureGrid
-resources with ssh. Multiple systems are accessed through the follong
+resources with ssh. Multiple systems are accessed through the following
 node::
 
   india.futuregrid.org
@@ -32,7 +32,7 @@ To log into xray, please use::
 
   xray.futuregrid.org
 
-For example, assume your portalname is "portalname", than you can
+For example, assume your portalname is "portalname", then you can
 login to sierra as follows::
 
         $ ssh portalname@india.futuregrid.org
@@ -46,7 +46,7 @@ SSH Add
 
 Sometimes you may wish to log in repeatedly in other machines while
 using a cached password. To do that you can use ssh agent and ssh
-add. First start the agent::
+add. First, start the agent::
 
   eval `ssh-agent`
 
@@ -61,7 +61,7 @@ your key password.
 SSH Config
 ^^^^^^^^^^^
 
-Also you may want to setup your ~/.ssh/config file to create shortcut
+Also, you may want to setup your ~/.ssh/config file to create a shortcut
 for the username and hosts on which you want to log in. Let us assume
 your username is albert, then add the following lines in the .ssh/config
 file::
@@ -84,12 +84,12 @@ The login nodes have the `modules <http://modules.sourceforge.net>`__
 package installed. It provides a convenient tool to adapt your
 environment and enables you to activate different packages and services
 dependent on your specific needs. The Modules are utilized to let you
-dynamically control your environment. Modules allows you to load and
+dynamically control your environment. Modules allow you to load and
 unload packages and ensure a coherent working environment. 
 This ensures that your $PATH, $LD_LIBRARY_PATH, $LD_PRELOAD, and other
-environment variables are properly set, and that you can access the
+environment variables are properly set and that you can access the
 programs and libraries you need. For additional information about the
-Modules package you can consult the `manual page <http://modules.sourceforge.net/man/module.html>`__.
+Modules package, you can consult the `manual page <http://modules.sourceforge.net/man/module.html>`__.
 
 To display the list of available modules::
 
@@ -105,7 +105,7 @@ To add and remove packages from your environment you can use the
     $ module load <package name>/<optional package version>
     $ module unload <package name>/<optional package version>
 
-The available command are listed in the next table:
+The available commands are listed in the next table:
 
 .. csv-table:: Module commands
    :header: Command, Description
@@ -128,7 +128,7 @@ The available command are listed in the next table:
      1) torque/2.4.8   2) moab/5.4.0
 
 
-**Example** - list the avialable modules on india::
+**Example** - list the available modules on india::
 
 
    $ module avail
@@ -174,15 +174,15 @@ Filesystem Layout
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 *Home* directories:
-   Home directories are accessible through the $HOME shell variable which are
+   Home directories are accessible through the $HOME shell variable which is
    located at */N/u/<username>*. This is where users are encouraged to
-   keep source files, configuration files and executables. Users
+   keep source files, configuration files, and executables. Users
    should not run code from their $HOME directories. Please note that
    this is an NFS file system, and may result in slower access for
    some applications. We also advise the users to provide external
    backup storage at their home institution or a code repository. For
    example, we recommend that you use git or svn to make sure you
-   backup your changes to the code. Also make sure you backup your
+   backup your changes to the code. Also, make sure you backup your
    data. As a testbed, we do not guarantee data loss.
     
 *Scratch* directories:
@@ -211,7 +211,7 @@ Message Passing Interface (MPI)
 -------------------------------
 
 The *Message Passing Interface Standard (MPI)* is the *de facto*
-standard communication library for almost many HPC systems, and is
+standard communication library for almost many HPC systems and is
 available in a variety of implementations. It has been created through
 consensus of the MPI Forum, which has dozens of participating
 organizations, including vendors, researchers, software library
@@ -297,7 +297,7 @@ Batch Jobs
 
 Once your MPI application is compiled, you run it on the compute nodes
 of a cluster via a batch processing. With the help of a batch
-processing services a job is run on the cluster without the users
+processing services, a job is run on the cluster without the users'
 intervention via a job queue. The user does not have to worry much
 about the internal details of the job queue, but must provide the
 scheduler with some guidance about the job so it can be efficiently
@@ -309,9 +309,9 @@ activate their environment to use the job scheduler::
     $ module load torque
 
 A complete manual for the torque scheduler can be found in the `Torque
-manual <http://www.clusterresources.com/torquedocs21/>`__ .
+manual <http://www.clusterresources.com/torquedocs21/>`__.
 
-Next we need to create a script so that we can run the program on the
+Next, we need to create a script so that we can run the program on the
 cluster.  We will be using our simple ring example to illustrate some
 of the parameters you need to adjust. Please save the following content to
 a file called ring.pbs.:
@@ -369,7 +369,7 @@ purpose with the qstat command on the appropriate login node::
 
    $ qstat -q 
 
-Currently we have the following queues:
+Currently, we have the following queues:
 
 
 HPC Job Queue Information:
@@ -381,7 +381,7 @@ HPC Job Queue Information:
 		   , scalemp      , 8 hours                   , 168 hours             , restricted access     
 
 
-Next we focus on the -l option that specifies the resources. The
+Next, we focus on the -l option that specifies the resources. The
 term::
 
   nodes=4
@@ -395,7 +395,7 @@ means that we use 8 virtual processors per node, where a virtual
 processor is typically executed on a core of the server. Thus it is
 advisable not to exceed the number of cores per server. For some
 programs choosing the best performing number of servers and cores may
-be dependent on factors such as memory needs, IO access and other
+be dependent on factors such as memory needs, IO access, and other
 resource bounded properties. You may have to experiment with the
 parameters. To identify the number of servers and cores available
 please see Tables :ref:`t-clusters` and :ref:`t-clusters-details`.
@@ -436,7 +436,7 @@ qsub command to submit this job to be executed on the compute nodes::
 The qsub command outputs either a job identifier or an error message
 describing why the scheduler would not accept your job. Alternatively,
 you can also use the msub command, which is very similar to the qsub
-command. For differences we ask you to consult the manual pages.
+command. For differences, we ask you to consult the manual pages.
 
 Job Deletion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -485,7 +485,7 @@ showq:
 	  change the order over time.
 
        Blocked jobs:
-	  are jobs that the scheduler cannot run for some reason. Usually
+	  are jobs that the scheduler cannot run for some reason. Usually,
 	  a job becomes blocked because it is requesting something that
 	  is impossible, such as more nodes than those which currently exist, or more
 	  processors per node than are installed.
@@ -538,7 +538,7 @@ file on the command line, your output will be in the file you specified.
 If you run the job again, the output file will be overwritten.
 
 If you don't specify any output file, your job output will have the same
-name as your job script, and will be numbered in the same manner as if
+name as your job script and will be numbered in the same manner as if
 you had specified a job name (**jobname.o######**).
 
 Xray HPC Services
@@ -557,7 +557,7 @@ For MPI jobs, use cc (pgcc). For best performance, add the xtpe-barcelona module
 
     % module add xtpe-module
 
-Currently there is only one queue (batch) available to users on the
+Currently, there is only one queue (batch) available to users on the
 Cray, and all jobs are automatically routed to that queue.  You can
 use the same commands as introduced in the previous sections. Thus, to
 list the queues please use::
@@ -572,7 +572,7 @@ Submitting a Job on xray
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To execute an MPI program on xray we use a special program called aprun in
-the submit script. Additionally we have some special resource
+the submit script. Additionally, we have some special resource
 specifications that we can pass along, such as mppwidth and
 mppnppn. An example is the following program that will use 16
 processors on 2 nodes::
@@ -603,7 +603,7 @@ resource scheduler called APLS. When you submit a job, the batch
 scheduler talks to ALPS to find out what resources are available, and
 ALPS then makes the reservation.
 
-Currently ALPS is a "gang scheduler" and only allows one "job" per node.
+Currently, ALPS is a "gang scheduler" and only allows one "job" per node.
 If a user submits a job in the format aprun -n 1 a.out , ALPS will put
 that job on one core of one node and leave the other seven cores empty.
 When the next job comes in, either from the same user or a different
@@ -654,10 +654,10 @@ into groups of eight, and the
 Interactive Queues
 ----------------------------------------------------------------------
 
-The current queing system contains the ability to run interactive
-queues. This is quite usefule, if you need to debug programs
-interactively that you will run than in a bacth queue. To use this
-feature we provide here a simple exaple on how to use a node on bravo.
+The current queuing system contains the ability to run interactive
+queues. This is quite useful, if you need to debug programs
+interactively that you will run than in a batch queue. To use this
+feature we provide here a simple example on how to use a node on bravo.
 
 
 Start an interactive shell with X11 forwarding on bravo you have to
@@ -666,7 +666,7 @@ india::
 
    ssh -X india
 
-Than you need to start an interactive node::
+Then you need to start an interactive node::
 
    qsub -I -q bravo -X
 

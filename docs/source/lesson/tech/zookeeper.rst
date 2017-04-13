@@ -5,7 +5,7 @@
 Apache ZooKeeper
 ===============================================================================
 
-ZooKeeper is a open source project to provide a configuration and
+ZooKeeper is an open source project to provide a configuration and
 synchronization service for cluster computing. With ZooKeeper, Hadoop YARN
 ResourceManager (RM) is supported with high availability. HBase, Storm and
 other software use ZooKeeper for coordinating the cluster.
@@ -17,7 +17,7 @@ ZooKeeper is a distributed, open-source coordination service for distributed
 applications. It exposes a simple set of primitives that distributed
 applications can build upon to implement higher level services for
 synchronization, configuration maintenance, and groups and naming. It is
-designed to be easy to program to, and uses a data model styled after the
+designed to be easy to program to and uses a data model styled after the
 familiar directory tree structure of file systems. It runs in Java and has
 bindings for both Java and C. (as quoted in ZooKeeper overview:
 http://zookeeper.apache.org/doc/trunk/zookeeperOver.html)
@@ -50,7 +50,7 @@ that update operations satisfy linearizability.
 Implementation
 -------------------------------------------------------------------------------
 
-ZooKeeper synchronizes every changes to the tree of znodes across the ZooKeeper
+ZooKeeper synchronizes every change to the tree of znodes across the ZooKeeper
 servers, ensemble. This way prevents inconsistency of the data by sharing the
 information. If one of the servers fails, the rest of them will replicate state
 and trees.
@@ -141,7 +141,7 @@ myid in ``var/lib/zookeeper`` (For multi-server)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The myid file which stays in ``dataDir`` contains a machine's id. If you have 3
-servers, first server has 1 in the myid, and second one has 2.  The id must be
+servers,the  first server has 1 in the myid, and the second one has 2.  The id must be
 unique within the ensemble and should have a value between 1 and 255.
 
 node 1
@@ -201,7 +201,7 @@ Reading List
   <https://issues.apache.org/jira/secure/attachment/12486023/MapReduce_NextGen_Architecture.pdf>`_
 * Chapter 14: ZooKeeper in Hadoop: The Definitive Guide By Tom White
 
-Additional Readling List
+Additional Reading List
 -------------------------------------------------------------------------------
 
 * Kirsch, Jonathan, and Yair Amir. "Paxos for system builders." Dept. of CS,
