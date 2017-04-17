@@ -18,10 +18,10 @@ OpenStack on FutureSystems
 
 
 .. note:: FutureSystems Portalname and Project ID
-          For this example we assume you have set the shell variable
+          For this example, we assume you have set the shell variable
 	  :pink:PORTALNAME to your FutureSystems portal username. This can
-	  be done as follwows. Let us assume your portal name is
-	  `albert`. Than you can set it with::
+	  be done as follows. Let us assume your portal name is
+	  `albert`. Then you can set it with::
 
               $ export PORTALNAME=albert
 
@@ -36,12 +36,12 @@ OpenStack on FutureSystems
  
          if it is the number 101.
 
-
+	   
 Login
 -------
 
-Currently FutureSystems OpenStack Havana installed on India.  To use
-it you need to first log into india and prepare your Openstack
+Currently, FutureSystems OpenStack Havana installed on India.  To use
+it you need to first log into india and prepare your OpenStack
 credentials::
 
        $ ssh $PORTALNAME@india.futuresystems.org
@@ -63,7 +63,7 @@ can be activated wih ::
     $ source ~/.futuregrid/openstack_havana/novarc
 
 
-In future this file will be created with the help of cloudmesh
+In future, this file will be created with the help of cloudmesh
 simplifying access to multiple heterogeneous clouds on FutureSystems.
 
 List flavors
@@ -73,7 +73,7 @@ To list the flavors, please execute the following command ::
 
     $ nova flavor-list
 
-Everything is fine, if you see an output similar to ::
+Everything is fine if you see an output similar to ::
 
        +----+-----------+-----------+------+-----------+------+-------+-------------+-----------+-------------+
        | ID | Name      | Memory_MB | Disk | Ephemeral | Swap | VCPUs | RXTX_Factor | Is_Public | extra_specs |
@@ -136,13 +136,13 @@ cloud::
 Make sure you are not already having the key with that name in order
 to avoid overwriting it in the cloud. Thus be extra careful to execute
 this step twice. Often it is the case that you already have a key in
-your `~/.ssh` directory that you may want to use. For example if you use
+your `~/.ssh` directory that you may want to use. For example, if you use
 rsa, your key will be located at `~/.ssh/id_rsa.pub`. 
 
 Managing security groups
 ----------------------------------------------------------------------
 
-In the next step we need to make sure that the security groups allow
+In the next step, we need to make sure that the security groups allow
 us to log into the VMs. To do so we create the following policies as
 part of our default security policies. Not that when you are in a
 group project this may already have been done for you by another group
@@ -153,7 +153,7 @@ member. We will add ICMP and port 22 on default group::
        $ nova secgroup-list-rules default
 
 .. note:: Most likely you will get some errors at this time as the
-	  definitions may already uploaded by default. simply ignore
+	  definitions may already upload by default. simply ignore
 	  the errors and move on.
 
 You will see the following output if everything went correctly::
@@ -222,7 +222,7 @@ command and monitor the Status field in the table::
        +-------------+----------------+--------+---------------------+
 
 Once it has changed from for example BUILD to ACTIVE, you can log
-in. Pleas use the IP address provided under networks. Note that the
+in. Please use the IP address provided under networks. Note that the
 first address is private and can not be reached from outside india::
 
        $ ssh -l ubuntu -i ~/.ssh/$PORTALNAME-key 10.35.23.18
@@ -239,14 +239,14 @@ Use block storage
 
 You can create a block storage with the volume-create command. A
 volume is useful as you can store data in it and associate that
-particular volumen to a VM. Hence, if you delete the VM, your volume
+particular volume to a VM. Hence, if you delete the VM, your volume
 and the data on it is still there to be reused. To create one 1G volume
 you can do ::
 
        $ nova volume-create 1 --display-name $PORTALNAME-vol-001
 
 To more conveniently identify the image we also specified a
-displayname. Please chose a uinque name so you can identify the volume
+displayname. Please chose a unique name so you can identify the volume
 more easily.
 
 To list the volumes you can use::
@@ -259,7 +259,7 @@ To list the volumes you can use::
        +--------------+-----------+---------------------+------+-------------+-------------+
 
 To attach the volume to your instance you can use the volume-attach
-subcommand. Let us assume we like to attache it as "/dev/vdb", than
+subcommand. Let us assume we like to attach it as "/dev/vdb", than
 you can use the command:::
 
        $ nova volume-attach $PORTALNAME-001 6d0d8285-xxxx-xxxx-xxxx-xxxxxxxxxabc "/dev/vdb"
@@ -300,8 +300,8 @@ Set up external access to your instance
 ---------------------------------------
 
 So far we only used the internal IP address, but you can also assign
-an external address, so that you can log in from other machines than
-india. Firts, Create an external ip address with::
+an external address so that you can log in from other machines than
+india. First, Create an external ip address with::
 
        $ nova floating-ip-create
 
@@ -356,7 +356,7 @@ If you want to download your customized image, you can do it with this::
        $ glance image-download --file "my-ubuntu-01.img" "fg101/$PORTALNAME/custom-ubuntu-01"
 
 .. warning:: Please note that images not following this convention may
-   be deleted without warning. Also ifyou do no longer need an image,
+   be deleted without warning. Also, if you do no longer need an image,
    please remove it.
 
 Automate some initial configuration
@@ -396,7 +396,7 @@ You should be able to login to $PORTALNAME-002 as root, and the added packages a
 Get the latest version of Ubuntu Cloud Image and upload it to the OpenStack
 ---------------------------------------------------------------------------
 
-.. note:: We will try to provide the latest images. E.g., currently in india openstack 
+.. note:: We will try to provide the latest images. E.g., currently in india OpenStack 
 the ubuntu 14.04 image is officially available under name: futuregrid/ubuntu-14.04. So 
 usually you can skip this section to simply use the one provided officially.
 
@@ -435,15 +435,15 @@ it.
 How to change your password
 ---------------------------
 
-#. Sometimes, users accidentally send password to a collaborator/support
-   for debugging, and then regret. When you put yourself in the
+#. Sometimes, users accidentally send the password to a collaborator/support
+   for debugging and then regret. When you put yourself in the
    situation by mistake, don't worry. Just use keystone client and reset
    your password with::
 
        $ keystone password-update
 
 Remember, you will also need to change it in your novarc. This can be
-achieved by either editing your novarc file directly, or by editing
+achieved by either editing your novarc file directly or by editing
 the file ~/.futuregrid/cloudmesh.yaml and recreating your novarc file.
 
 Things to do when you need Euca2ools or EC2 interfaces
@@ -496,7 +496,7 @@ explain briefly how you can access them.
    Here's our known issues on using euca2ools or ec2 interface.
 
    - euca-upload-bundle with Boto 2.25.0 fails with "S3ResponseError: 404 Not Found".
-   - tagging function such as euca-create-tags, euca-describe-tags fail with "InvalidRequest: The request is invalid."
+   - tagging function such as euca-create-tags, euca-describe-tags fails with "InvalidRequest: The request is invalid."
 
 .. _s-openstack-horizon:
 
@@ -504,10 +504,10 @@ Horizon GUI
 ---------------------------
 
 Horizon is a graphical user interface/dashbooard for OpenStack. For
-starting up VMs and stoping them by hand horizon may be a good
+starting up VMs and stopping them by hand horizon may be a good
 mechanism to manage your Virtual machines.  We have currently the
 following horizon deployments available. However, please note that on
-Alamo an older version of Openstack is run.
+Alamo an older version of OpenStack is run.
  
 .. list-table:: Horizon endpoints
    :header-rows: 1
@@ -585,6 +585,6 @@ Excersises
 
 #. Create a VM on india and login
 #. Create a volume and attach it to the vm
-#. Read up on the openstack web page what vilumes are for.
+#. Read up on the OpenStack web page what vilumes are for.
 #. Log into horizon and explore the interface. Start up a VM, create a
    volume and attach it to the VM. Assign a public ip and log in.
