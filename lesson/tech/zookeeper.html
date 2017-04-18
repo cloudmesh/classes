@@ -298,7 +298,7 @@
 </li>
 <li><a class="reference internal" href="#citation">Citation</a></li>
 <li><a class="reference internal" href="#reading-list">Reading List</a></li>
-<li><a class="reference internal" href="#additional-readling-list">Additional Readling List</a></li>
+<li><a class="reference internal" href="#additional-reading-list">Additional Reading List</a></li>
 <li><a class="reference internal" href="#acknowledgement">Acknowledgement</a></li>
 </ul>
 </li>
@@ -555,7 +555,7 @@
 </li>
 <li><a class="reference internal" href="#citation">Citation</a></li>
 <li><a class="reference internal" href="#reading-list">Reading List</a></li>
-<li><a class="reference internal" href="#additional-readling-list">Additional Readling List</a></li>
+<li><a class="reference internal" href="#additional-reading-list">Additional Reading List</a></li>
 <li><a class="reference internal" href="#acknowledgement">Acknowledgement</a></li>
 </ul>
 </li>
@@ -600,7 +600,7 @@
       
   <div class="section" id="apache-zookeeper">
 <span id="ref-class-lesson-zookeeper"></span><h1>Apache ZooKeeper<a class="headerlink" href="#apache-zookeeper" title="Permalink to this headline">¶</a></h1>
-<p>ZooKeeper is a open source project to provide a configuration and
+<p>ZooKeeper is an open source project to provide a configuration and
 synchronization service for cluster computing. With ZooKeeper, Hadoop YARN
 ResourceManager (RM) is supported with high availability. HBase, Storm and
 other software use ZooKeeper for coordinating the cluster.</p>
@@ -610,7 +610,7 @@ other software use ZooKeeper for coordinating the cluster.</p>
 applications. It exposes a simple set of primitives that distributed
 applications can build upon to implement higher level services for
 synchronization, configuration maintenance, and groups and naming. It is
-designed to be easy to program to, and uses a data model styled after the
+designed to be easy to program to and uses a data model styled after the
 familiar directory tree structure of file systems. It runs in Java and has
 bindings for both Java and C. (as quoted in ZooKeeper overview:
 <a class="reference external" href="http://zookeeper.apache.org/doc/trunk/zookeeperOver.html">http://zookeeper.apache.org/doc/trunk/zookeeperOver.html</a>)</p>
@@ -641,7 +641,7 @@ that update operations satisfy linearizability.</p>
 </div>
 <div class="section" id="implementation">
 <h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
-<p>ZooKeeper synchronizes every changes to the tree of znodes across the ZooKeeper
+<p>ZooKeeper synchronizes every change to the tree of znodes across the ZooKeeper
 servers, ensemble. This way prevents inconsistency of the data by sharing the
 information. If one of the servers fails, the rest of them will replicate state
 and trees.</p>
@@ -720,7 +720,7 @@ specified otherwise, the transaction log of updates to the database.</li>
 <div class="section" id="myid-in-var-lib-zookeeper-for-multi-server">
 <h3>myid in <code class="docutils literal"><span class="pre">var/lib/zookeeper</span></code> (For multi-server)<a class="headerlink" href="#myid-in-var-lib-zookeeper-for-multi-server" title="Permalink to this headline">¶</a></h3>
 <p>The myid file which stays in <code class="docutils literal"><span class="pre">dataDir</span></code> contains a machine&#8217;s id. If you have 3
-servers, first server has 1 in the myid, and second one has 2.  The id must be
+servers,the  first server has 1 in the myid, and the second one has 2.  The id must be
 unique within the ensemble and should have a value between 1 and 255.</p>
 <p>node 1</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">-</span><span class="n">r</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">zookeeper</span>
@@ -772,8 +772,8 @@ Networks (DSN), 2011 IEEE/IFIP 41st International Conference on. IEEE, 2011.
 <li>Chapter 14: ZooKeeper in Hadoop: The Definitive Guide By Tom White</li>
 </ul>
 </div>
-<div class="section" id="additional-readling-list">
-<h2>Additional Readling List<a class="headerlink" href="#additional-readling-list" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="additional-reading-list">
+<h2>Additional Reading List<a class="headerlink" href="#additional-reading-list" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Kirsch, Jonathan, and Yair Amir. &#8220;Paxos for system builders.&#8221; Dept. of CS,
 Johns Hopkins University, Tech. Rep (2008). <a class="reference external" href="http://www.cnds.jhu.edu/pub/papers/psb_ladis_08.pdf">[pdf]</a></li>

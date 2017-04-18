@@ -600,7 +600,7 @@ clusters.</p>
 <p class="first admonition-title">Tip</p>
 <p class="last">approximate time 10-15 minutes</p>
 </div>
-<p>In this tutorial, we are going to deploy a Open MPI cluster using Cloudmesh
+<p>In this tutorial, we are going to deploy an Open MPI cluster using Cloudmesh
 <code class="docutils literal"><span class="pre">launcher</span></code> command.</p>
 <div class="section" id="start-cluster">
 <h3>Start Cluster<a class="headerlink" href="#start-cluster" title="Permalink to this headline">¶</a></h3>
@@ -722,7 +722,7 @@ $
 </div>
 <div class="section" id="compile-hello-c">
 <h4>Compile hello.c<a class="headerlink" href="#compile-hello-c" title="Permalink to this headline">¶</a></h4>
-<p>Since we are running Ubuntu 14.04 in this example, we complie with <code class="docutils literal"><span class="pre">mpicc</span></code>:</p>
+<p>Since we are running Ubuntu 14.04 in this example, we compile with <code class="docutils literal"><span class="pre">mpicc</span></code>:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mpicc</span> <span class="n">hello</span><span class="o">.</span><span class="n">c</span> <span class="o">-</span><span class="n">o</span> <span class="n">hello</span>
 </pre></div>
 </div>
@@ -753,7 +753,7 @@ e.g. mpi1 slots=2</p>
 </div>
 <div class="section" id="copy-hello-program-to-each-node">
 <h4>Copy <code class="docutils literal"><span class="pre">hello</span></code> program to each node<a class="headerlink" href="#copy-hello-program-to-each-node" title="Permalink to this headline">¶</a></h4>
-<p><code class="docutils literal"><span class="pre">hello</span></code> program should to be found on each node. We propagate the binary using <code class="docutils literal"><span class="pre">scp</span></code>:</p>
+<p><code class="docutils literal"><span class="pre">hello</span></code> program should be found on each node. We propagate the binary using <code class="docutils literal"><span class="pre">scp</span></code>:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">scp</span> <span class="n">hello</span> <span class="n">mpi1</span><span class="p">:</span>
 <span class="n">scp</span> <span class="n">hello</span> <span class="n">mpi2</span><span class="p">:</span>
 <span class="n">scp</span> <span class="n">hello</span> <span class="n">mpi3</span><span class="p">:</span>

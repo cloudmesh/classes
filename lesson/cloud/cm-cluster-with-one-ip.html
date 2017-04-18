@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Docker Basics on FutureSystems &#8212; Big Data Classes</title>
+    <title>Use only one public IP address on Chameleon cloud &#8212; Big Data Classes</title>
     
     <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -32,6 +32,8 @@
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="FutureSystems Cloud" href="futuresystems.html" />
+    <link rel="prev" title="Cloudmesh Client on Ubuntu 16.04" href="cloudmesh-installation.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -147,9 +149,9 @@
 </ul>
 </li>
 </ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
@@ -276,20 +278,13 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Docker Basics on FutureSystems</a><ul>
-<li><a class="reference internal" href="#overview">Overview</a><ul>
-<li><a class="reference internal" href="#docker-installation">Docker Installation</a></li>
-<li><a class="reference internal" href="#example-i-hello-world">Example I: &#8220;Hello, World&#8221;</a></li>
-<li><a class="reference internal" href="#shell-prompt-in-docker-container">Shell Prompt in Docker Container</a></li>
-<li><a class="reference internal" href="#example-ii-apache-tomcat-server-on-docker">Example II: Apache Tomcat Server on Docker</a></li>
-<li><a class="reference internal" href="#listing-containers">Listing Containers</a></li>
-<li><a class="reference internal" href="#logs-of-container">Logs of Container</a></li>
-<li><a class="reference internal" href="#search-containers">Search Containers</a></li>
-<li><a class="reference internal" href="#stop-and-delete-container">Stop and Delete Container</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#review-docker-commands">Review Docker Commands</a></li>
-<li><a class="reference internal" href="#reference">Reference</a></li>
+<li><a class="reference internal" href="#">Use only one public IP address on Chameleon cloud</a><ul>
+<li><a class="reference internal" href="#step-0-local-machine">Step 0: local machine</a></li>
+<li><a class="reference internal" href="#step-1-local-machine">Step 1: local machine</a></li>
+<li><a class="reference internal" href="#step-2-local-machine">Step 2: local machine</a></li>
+<li><a class="reference internal" href="#step-3-head-node">Step 3: head node</a></li>
+<li><a class="reference internal" href="#step-4-head-node">Step 4. head node</a></li>
+<li><a class="reference internal" href="#step-5-head-node">Step 5: head node</a></li>
 </ul>
 </li>
 </ul>
@@ -404,9 +399,9 @@
 </ul>
 </li>
 </ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Cloud (under construction)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
@@ -523,20 +518,13 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Docker Basics on FutureSystems</a><ul>
-<li><a class="reference internal" href="#overview">Overview</a><ul>
-<li><a class="reference internal" href="#docker-installation">Docker Installation</a></li>
-<li><a class="reference internal" href="#example-i-hello-world">Example I: &#8220;Hello, World&#8221;</a></li>
-<li><a class="reference internal" href="#shell-prompt-in-docker-container">Shell Prompt in Docker Container</a></li>
-<li><a class="reference internal" href="#example-ii-apache-tomcat-server-on-docker">Example II: Apache Tomcat Server on Docker</a></li>
-<li><a class="reference internal" href="#listing-containers">Listing Containers</a></li>
-<li><a class="reference internal" href="#logs-of-container">Logs of Container</a></li>
-<li><a class="reference internal" href="#search-containers">Search Containers</a></li>
-<li><a class="reference internal" href="#stop-and-delete-container">Stop and Delete Container</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#review-docker-commands">Review Docker Commands</a></li>
-<li><a class="reference internal" href="#reference">Reference</a></li>
+<li><a class="reference internal" href="#">Use only one public IP address on Chameleon cloud</a><ul>
+<li><a class="reference internal" href="#step-0-local-machine">Step 0: local machine</a></li>
+<li><a class="reference internal" href="#step-1-local-machine">Step 1: local machine</a></li>
+<li><a class="reference internal" href="#step-2-local-machine">Step 2: local machine</a></li>
+<li><a class="reference internal" href="#step-3-head-node">Step 3: head node</a></li>
+<li><a class="reference internal" href="#step-4-head-node">Step 4. head node</a></li>
+<li><a class="reference internal" href="#step-5-head-node">Step 5: head node</a></li>
 </ul>
 </li>
 </ul>
@@ -578,168 +566,89 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="docker-basics-on-futuresystems">
-<span id="ref-class-lesson-docker"></span><h1>Docker Basics on FutureSystems<a class="headerlink" href="#docker-basics-on-futuresystems" title="Permalink to this headline">¶</a></h1>
-<p>Docker is an image-based resource isolation software by using
-operating system level virtualization.  Docker host runs software
-containers which deploy applications with its environments. You can
-easily share your application using Docker container across different
-platforms or operating systems.  This section, we introduce basic
-commands of <code class="docutils literal"><span class="pre">docker</span></code> to explore Docker software on FutureSystems.
-In the next section, we will the explore advanced use of <code class="docutils literal"><span class="pre">docker</span></code>
-with Cloudmesh on FutureSystems.</p>
-<div class="section" id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
-<div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<p class="last">approximate time 1 hour</p>
+  <div class="section" id="use-only-one-public-ip-address-on-chameleon-cloud">
+<span id="single-public-ip"></span><h1>Use only one public IP address on Chameleon cloud<a class="headerlink" href="#use-only-one-public-ip-address-on-chameleon-cloud" title="Permalink to this headline">¶</a></h1>
+<p>Chameleon cloud has relatively limited public IP addresses. In order
+to avoid consuming all, we require you to use only one <code class="docutils literal"><span class="pre">head</span></code>
+virtual machine, which will have a public IP associated with. All
+other nodes needed for your project will be non-floating IP nodes,
+meaning that that don&#8217;t have a public accessible IP address. You can
+only access these nodes from your <code class="docutils literal"><span class="pre">head</span></code> node.</p>
+<p>Essentially, you just need to migrate the VirtualBox vm that you have
+used on your laptop to Chameleon cloud. Instead of have
+cloudmesh_client up and running on your VirtualBox vm, you re-setup
+everything on a public accessible (and the only) Chameleon node. From
+here, you execute all your script to configure your cluster. Because
+this <code class="docutils literal"><span class="pre">head</span></code> node is inside Chameleon cloud, those local IP addresses
+e.g. 192.168.x.x can be used to communicate.</p>
+<div class="section" id="step-0-local-machine">
+<h2>Step 0: local machine<a class="headerlink" href="#step-0-local-machine" title="Permalink to this headline">¶</a></h2>
+<p>Make sure your terminate all your previously allocated resources. To remove
+all your cluster virtual machines from Chameleon, run:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster delete &lt;cluster name&gt;
+</pre></div>
 </div>
-<p>In this tutorial, we are going to learn basic commands of Docker.
-Keep in mind that <code class="docutils literal"><span class="pre">docker</span></code> is a main program and <code class="docutils literal"><span class="pre">container</span></code> is an image
-that you would like to use. You may have several containers in your docker.</p>
-<p>The commands will be covered:</p>
-<ul class="simple">
-<li>Start a container (run)</li>
-<li>List containers (ps)</li>
-<li>Logs (logs)</li>
-<li>Search containers (search)</li>
-<li>Stop and delete a container (stop, rm)</li>
+</div>
+<div class="section" id="step-1-local-machine">
+<h2>Step 1: local machine<a class="headerlink" href="#step-1-local-machine" title="Permalink to this headline">¶</a></h2>
+<p>Create a single vm on Chameleon cloud:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm boot
+</pre></div>
+</div>
+</div>
+<div class="section" id="step-2-local-machine">
+<h2>Step 2: local machine<a class="headerlink" href="#step-2-local-machine" title="Permalink to this headline">¶</a></h2>
+<p>Assign a public IP address to this virtual machine:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ip assign
+</pre></div>
+</div>
+</div>
+<div class="section" id="step-3-head-node">
+<h2>Step 3: head node<a class="headerlink" href="#step-3-head-node" title="Permalink to this headline">¶</a></h2>
+<p>First, login this vm through ssh:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm vm ssh
+</pre></div>
+</div>
+<p>Next, you need to reproduce your laptop virtual environment. Here we assume the
+head node is Ubuntu 14.04 fresh installed. If you use a different Linux distro,
+please adjust the package installation accordingly. On the head node::</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get update
+$ sudo apt-get install pip, git, virtualenv
+</pre></div>
+</div>
+<p>The image I used at this moment needs a few more packages to let cm to run:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get install python-dev, libffi-dev, libssl-dev
+</pre></div>
+</div>
+<p>Finally, activate virtualenv:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ virtualenv &lt;provide a venv folder name&gt;
+</pre></div>
+</div>
+<p>Again, your situation may vary depending on the cloud and image you choose.</p>
+</div>
+<div class="section" id="step-4-head-node">
+<h2>Step 4. head node<a class="headerlink" href="#step-4-head-node" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="cloudmesh-installation.html"><span class="doc">Install cloudmesh_client</span></a></p>
+<p>On this newly installed vm, remember to:</p>
+<blockquote>
+<div><ul class="simple">
+<li>upload your keys to home folder</li>
+<li>update cloudmesh.yaml accordingly to set cloud, key and user</li>
 </ul>
-<div class="section" id="docker-installation">
-<h3>Docker Installation<a class="headerlink" href="#docker-installation" title="Permalink to this headline">¶</a></h3>
-<p>We use Ubuntu package tool <cite>apt-get</cite> to download and install Docker.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
-<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">docker</span><span class="o">.</span><span class="n">io</span>
+</div></blockquote>
+</div>
+<div class="section" id="step-5-head-node">
+<h2>Step 5: head node<a class="headerlink" href="#step-5-head-node" title="Permalink to this headline">¶</a></h2>
+<p>It is time to bring up your cluster in a private IP environment. Consult to
+<a class="reference internal" href="../devops/hadoop.html"><span class="doc">earlier chapters</span></a> to set your cluster up. The outline
+is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cm cluster define --count 3 --no-floating-ip
+$ cm cluster allocate
+$ cm cluster nodes &lt;your cluster name&gt;
+$ cm vm ssh &lt;node-name&gt;
 </pre></div>
 </div>
-<div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<p class="last">To get the latest version, try this:
-curl -sSL <a class="reference external" href="https://get.docker.com/ubuntu/">https://get.docker.com/ubuntu/</a> | sudo sh</p>
-</div>
-</div>
-<div class="section" id="example-i-hello-world">
-<h3>Example I: &#8220;Hello, World&#8221;<a class="headerlink" href="#example-i-hello-world" title="Permalink to this headline">¶</a></h3>
-<p>Run a simple command &#8220;Hello, World&#8221;.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">it</span> <span class="n">ubuntu</span> <span class="n">echo</span> <span class="s2">&quot;Hello, World&quot;</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="shell-prompt-in-docker-container">
-<h3>Shell Prompt in Docker Container<a class="headerlink" href="#shell-prompt-in-docker-container" title="Permalink to this headline">¶</a></h3>
-<p>Docker command has a sub-command <code class="docutils literal"><span class="pre">run</span></code> to execute containers with a few
-parameters.  In this example, we use Ubuntu 14.04 image to get bash shell
-prompt.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">i</span> <span class="o">-</span><span class="n">t</span> <span class="n">ubuntu</span><span class="p">:</span><span class="mf">14.04</span> <span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">bash</span>
-</pre></div>
-</div>
-<p>You expect to see results like so:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">root</span><span class="nd">@8110bb395822</span><span class="p">:</span><span class="o">/</span><span class="c1">#</span>
-</pre></div>
-</div>
-<p>Type <code class="docutils literal"><span class="pre">exit</span></code> to quit the shell and return to Docker host.</p>
-</div>
-<div class="section" id="example-ii-apache-tomcat-server-on-docker">
-<h3>Example II: Apache Tomcat Server on Docker<a class="headerlink" href="#example-ii-apache-tomcat-server-on-docker" title="Permalink to this headline">¶</a></h3>
-<p>It&#8217;s easy to deploy Apache Tomcat using Docker. Please run the following
-command: (sudo is suppressed)</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">d</span> <span class="o">-</span><span class="n">p</span> <span class="mi">80</span><span class="p">:</span><span class="mi">8080</span> <span class="n">tomcat</span><span class="p">:</span><span class="mf">8.0</span>
-</pre></div>
-</div>
-<p>It downloads tomcat image from Docker Hub and connects 80 port to 8080 port.
-So, if you open a web browser <code class="docutils literal"><span class="pre">http://localhost</span></code> or <code class="docutils literal"><span class="pre">http://ip</span> <span class="pre">address</span> <span class="pre">of</span>
-<span class="pre">host</span></code> your connection forwards to the container 8080 port. <code class="docutils literal"><span class="pre">-d</span></code> option
-daemonizes the container.</p>
-<div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<p class="last">Did you see <code class="docutils literal"><span class="pre">Unable</span> <span class="pre">to</span> <span class="pre">find</span> <span class="pre">image</span> <span class="pre">'tomcat:8.0'</span> <span class="pre">locally</span></code>?
-Your Docker will find <code class="docutils literal"><span class="pre">tomcat</span></code> from Docker Hub and download it to
-your local.</p>
-</div>
-</div>
-<div class="section" id="listing-containers">
-<h3>Listing Containers<a class="headerlink" href="#listing-containers" title="Permalink to this headline">¶</a></h3>
-<p>We use <code class="docutils literal"><span class="pre">ps</span></code> sub command to list available containers.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">ps</span>
-</pre></div>
-</div>
-<p>You expect to see results like so:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CONTAINER</span> <span class="n">ID</span>        <span class="n">IMAGE</span>                        <span class="n">COMMAND</span>             <span class="n">CREATED</span>             <span class="n">STATUS</span>              <span class="n">PORTS</span>                    <span class="n">NAMES</span>
-<span class="mi">4690</span><span class="n">a7973fef</span>        <span class="n">tomcat</span><span class="p">:</span><span class="mf">8.0</span>                   <span class="s2">&quot;catalina.sh run&quot;</span>   <span class="mi">8</span> <span class="n">seconds</span> <span class="n">ago</span>       <span class="n">Up</span> <span class="mi">5</span> <span class="n">seconds</span>        <span class="mf">0.0</span><span class="o">.</span><span class="mf">0.0</span><span class="p">:</span><span class="mi">8888</span><span class="o">-&gt;</span><span class="mi">8080</span><span class="o">/</span><span class="n">tcp</span>   <span class="n">adoring_lalande</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="logs-of-container">
-<h3>Logs of Container<a class="headerlink" href="#logs-of-container" title="Permalink to this headline">¶</a></h3>
-<p>You can find out details of your container by looking at log messages. Use
-<code class="docutils literal"><span class="pre">NAMES</span></code> from the previous command.  This example we use <code class="docutils literal"><span class="pre">adoring_lalande</span></code> for
-your tomcat:8.0 container.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">logs</span> <span class="o">-</span><span class="n">f</span> <span class="n">adoring_lalande</span>
-</pre></div>
-</div>
-<p>Logs look like so:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.524</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">Server</span> <span class="n">version</span><span class="p">:</span>        <span class="n">Apache</span> <span class="n">Tomcat</span><span class="o">/</span><span class="mf">8.0</span><span class="o">.</span><span class="mi">18</span>
-<span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.526</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">Server</span> <span class="n">built</span><span class="p">:</span>          <span class="n">Jan</span> <span class="mi">23</span> <span class="mi">2015</span> <span class="mi">11</span><span class="p">:</span><span class="mi">56</span><span class="p">:</span><span class="mi">07</span> <span class="n">UTC</span>
-<span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.526</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">Server</span> <span class="n">number</span><span class="p">:</span>         <span class="mf">8.0</span><span class="o">.</span><span class="mf">18.0</span>
-<span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.526</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">OS</span> <span class="n">Name</span><span class="p">:</span>               <span class="n">Linux</span>
-<span class="mi">13</span><span class="o">-</span><span class="n">Feb</span><span class="o">-</span><span class="mi">2015</span> <span class="mi">03</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mf">57.526</span> <span class="n">INFO</span> <span class="p">[</span><span class="n">main</span><span class="p">]</span> <span class="n">org</span><span class="o">.</span><span class="n">apache</span><span class="o">.</span><span class="n">catalina</span><span class="o">.</span><span class="n">startup</span><span class="o">.</span><span class="n">VersionLoggerListener</span><span class="o">.</span><span class="n">log</span> <span class="n">OS</span> <span class="n">Version</span><span class="p">:</span>            <span class="mf">3.13</span><span class="o">.</span><span class="mi">0</span><span class="o">-</span><span class="mi">44</span><span class="o">-</span><span class="n">generic</span>
-<span class="o">...</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="search-containers">
-<h3>Search Containers<a class="headerlink" href="#search-containers" title="Permalink to this headline">¶</a></h3>
-<p>If you are looking for other containers, <code class="docutils literal"><span class="pre">search</span></code> command is useful to find.</p>
-<p>For example, try to find <code class="docutils literal"><span class="pre">ipython</span></code> containers.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">search</span> <span class="n">ipython</span>
-</pre></div>
-</div>
-<p>You expect to see results like so:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">NAME</span>                                <span class="n">DESCRIPTION</span>                                     <span class="n">STARS</span>     <span class="n">OFFICIAL</span>   <span class="n">AUTOMATED</span>
-<span class="n">ipython</span><span class="o">/</span><span class="n">scipyserver</span>                 <span class="n">IPython</span> <span class="n">notebook</span> <span class="n">server</span> <span class="k">with</span> <span class="n">the</span> <span class="n">full</span> <span class="n">SciP</span><span class="o">...</span>   <span class="mi">36</span>                   <span class="p">[</span><span class="n">OK</span><span class="p">]</span>
-<span class="n">ipython</span><span class="o">/</span><span class="n">notebook</span>                    <span class="n">The</span> <span class="n">most</span> <span class="n">recent</span> <span class="n">version</span> <span class="n">of</span> <span class="n">IPython</span><span class="p">,</span> <span class="n">config</span><span class="o">...</span>   <span class="mi">35</span>                   <span class="p">[</span><span class="n">OK</span><span class="p">]</span>
-<span class="n">ipython</span><span class="o">/</span><span class="n">scipystack</span>                                                                  <span class="mi">10</span>                   <span class="p">[</span><span class="n">OK</span><span class="p">]</span>
-<span class="o">...</span>
-</pre></div>
-</div>
-<div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<p class="last"><code class="docutils literal"><span class="pre">STARS</span></code> indicates popular containers.</p>
-</div>
-</div>
-<div class="section" id="stop-and-delete-container">
-<h3>Stop and Delete Container<a class="headerlink" href="#stop-and-delete-container" title="Permalink to this headline">¶</a></h3>
-<p>Like stopping and terminating a virtual instance, docker stops and deletes its
-container with two commands: <code class="docutils literal"><span class="pre">stop</span></code> and <code class="docutils literal"><span class="pre">rm</span></code> We use <code class="docutils literal"><span class="pre">NAMES</span></code> from <code class="docutils literal"><span class="pre">docker</span>
-<span class="pre">ps</span></code> command. This example we use <code class="docutils literal"><span class="pre">adoring_lalande</span></code> for your tomcat:8.0
-container.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">stop</span> <span class="n">adoring_lalande</span>
-</pre></div>
-</div>
-<p>After stopping the container, you can delete it.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">rm</span> <span class="n">adoring_lalande</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="section" id="review-docker-commands">
-<h2>Review Docker Commands<a class="headerlink" href="#review-docker-commands" title="Permalink to this headline">¶</a></h2>
-<p>We have learned some Docker commands. These are basic commands for Docker
-software.</p>
-<ul class="simple">
-<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">run</span></code>: runs a container. <code class="docutils literal"><span class="pre">-it</span></code> option allows you an interactive
-mode. <code class="docutils literal"><span class="pre">-d</span></code> option daemonizes your container.</li>
-<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">logs</span></code>: displays log messages.</li>
-<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">ps</span></code>: shows available containers.</li>
-<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">search</span></code>: searches containers from Docker Hub.</li>
-<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">stop</span></code>: stops your container.</li>
-<li><code class="docutils literal"><span class="pre">docker</span> <span class="pre">rm</span></code>: deletes your container image.</li>
-</ul>
-</div>
-<div class="section" id="reference">
-<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
-<p>The main tutorial from Docker is here:
-<a class="reference external" href="https://docs.docker.com/installation/ubuntulinux/">https://docs.docker.com/installation/ubuntulinux/</a></p>
+<p>So now you can refer your nodes with their names, not the public IP addresses.</p>
 </div>
 </div>
 

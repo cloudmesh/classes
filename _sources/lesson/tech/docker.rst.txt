@@ -5,13 +5,14 @@
 Docker Basics on FutureSystems
 ===============================================================================
 
-Docker is an image-based resource isolation software by using operating system
-level virtualization.  Docker host runs software containers which deploy
-applications with its environments. You can easily share your application using
-Docker container across different platforms or operating systems.  This
-section, we introduce basic commands of ``docker`` to explore Docker software
-on FutureSystems.  In the next section, we will explore advanced use of
-``docker`` with Cloudmesh on FutureSystems.
+Docker is an image-based resource isolation software by using
+operating system level virtualization.  Docker host runs software
+containers which deploy applications with its environments. You can
+easily share your application using Docker container across different
+platforms or operating systems.  This section, we introduce basic
+commands of ``docker`` to explore Docker software on FutureSystems.
+In the next section, we will the explore advanced use of ``docker``
+with Cloudmesh on FutureSystems.
 
 Overview
 -------------------------------------------------------------------------------
@@ -116,7 +117,7 @@ Logs of Container
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can find out details of your container by looking at log messages. Use
-``NAMES`` from previous command.  This example we use ``adoring_lalande`` for
+``NAMES`` from the previous command.  This example we use ``adoring_lalande`` for
 your tomcat:8.0 container.
 
 ::

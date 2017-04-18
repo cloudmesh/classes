@@ -606,14 +606,14 @@
 <span id="s-hpc"></span><h1>HPC<a class="headerlink" href="#hpc" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="login-nodes">
 <span id="s-hpc-access"></span><h2>Login Nodes<a class="headerlink" href="#login-nodes" title="Permalink to this headline">¶</a></h2>
-<p>Several of the clusters have High Performance Computing (HPC) services
+<p>Several of the clusters have High-Performance Computing (HPC) services
 installed. Access to them is provided via a Linux Login node for each
 of the clusters on which these services are installed.</p>
-<p>To access the login nodes you need a FG resource account and an SSH
+<p>To access the login nodes you need an FG resource account and an SSH
 public key you have uploaded to FutureGrid (this process is described
 in the section about <span class="xref std std-ref">s-accounts</span>. After you are part of a valid
 project and have a FutureGrid account, you can log into the FutureGrid
-resources with ssh. Multiple systems are accessed through the follong
+resources with ssh. Multiple systems are accessed through the following
 node:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>india.futuregrid.org
 </pre></div>
@@ -623,7 +623,7 @@ node:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>xray.futuregrid.org
 </pre></div>
 </div>
-<p>For example, assume your portalname is &#8220;portalname&#8221;, than you can
+<p>For example, assume your portalname is &#8220;portalname&#8221;, then you can
 login to sierra as follows:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ ssh portalname@india.futuregrid.org
 Welcome to india.futuregrid.org
@@ -634,7 +634,7 @@ Last login: Thu Aug <span class="m">12</span> <span class="m">19</span>:19:22 <s
 <span id="s-sshadd"></span><h3>SSH Add<a class="headerlink" href="#ssh-add" title="Permalink to this headline">¶</a></h3>
 <p>Sometimes you may wish to log in repeatedly in other machines while
 using a cached password. To do that you can use ssh agent and ssh
-add. First start the agent:</p>
+add. First, start the agent:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nb">eval</span> <span class="sb">`</span>ssh-agent<span class="sb">`</span>
 </pre></div>
 </div>
@@ -648,7 +648,7 @@ your key password.</p>
 </div>
 <div class="section" id="ssh-config">
 <h3>SSH Config<a class="headerlink" href="#ssh-config" title="Permalink to this headline">¶</a></h3>
-<p>Also you may want to setup your ~/.ssh/config file to create shortcut
+<p>Also, you may want to setup your ~/.ssh/config file to create a shortcut
 for the username and hosts on which you want to log in. Let us assume
 your username is albert, then add the following lines in the .ssh/config
 file:</p>
@@ -668,12 +668,12 @@ file:</p>
 package installed. It provides a convenient tool to adapt your
 environment and enables you to activate different packages and services
 dependent on your specific needs. The Modules are utilized to let you
-dynamically control your environment. Modules allows you to load and
+dynamically control your environment. Modules allow you to load and
 unload packages and ensure a coherent working environment.
 This ensures that your $PATH, $LD_LIBRARY_PATH, $LD_PRELOAD, and other
-environment variables are properly set, and that you can access the
+environment variables are properly set and that you can access the
 programs and libraries you need. For additional information about the
-Modules package you can consult the <a class="reference external" href="http://modules.sourceforge.net/man/module.html">manual page</a>.</p>
+Modules package, you can consult the <a class="reference external" href="http://modules.sourceforge.net/man/module.html">manual page</a>.</p>
 <p>To display the list of available modules:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ module avail
 </pre></div>
@@ -688,7 +688,7 @@ Modules package you can consult the <a class="reference external" href="http://m
 $ module unload &lt;package name&gt;/&lt;optional package version&gt;
 </pre></div>
 </div>
-<p>The available command are listed in the next table:</p>
+<p>The available commands are listed in the next table:</p>
 <table border="1" class="docutils" id="id1">
 <caption><span class="caption-text">Module commands</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <colgroup>
@@ -731,7 +731,7 @@ Currently Loaded Modulefiles:
   <span class="m">1</span><span class="o">)</span> torque/2.4.8   <span class="m">2</span><span class="o">)</span> moab/5.4.0
 </pre></div>
 </div>
-<p><strong>Example</strong> - list the avialable modules on india:</p>
+<p><strong>Example</strong> - list the available modules on india:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ module avail
 
 ----------------- /opt/Modules/3.2.8/modulefiles/applications ------------------
@@ -775,15 +775,15 @@ marmot/2.4.0<span class="o">(</span>default<span class="o">)</span>
 <h3>Filesystem Layout<a class="headerlink" href="#filesystem-layout" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><em>Home</em> directories:</dt>
-<dd>Home directories are accessible through the $HOME shell variable which are
+<dd>Home directories are accessible through the $HOME shell variable which is
 located at <em>/N/u/&lt;username&gt;</em>. This is where users are encouraged to
-keep source files, configuration files and executables. Users
+keep source files, configuration files, and executables. Users
 should not run code from their $HOME directories. Please note that
 this is an NFS file system, and may result in slower access for
 some applications. We also advise the users to provide external
 backup storage at their home institution or a code repository. For
 example, we recommend that you use git or svn to make sure you
-backup your changes to the code. Also make sure you backup your
+backup your changes to the code. Also, make sure you backup your
 data. As a testbed, we do not guarantee data loss.</dd>
 <dt><em>Scratch</em> directories:</dt>
 <dd>Scratch directories are located at different locations on the
@@ -800,7 +800,7 @@ points.</dd>
 <div class="section" id="message-passing-interface-mpi">
 <h2>Message Passing Interface (MPI)<a class="headerlink" href="#message-passing-interface-mpi" title="Permalink to this headline">¶</a></h2>
 <p>The <em>Message Passing Interface Standard (MPI)</em> is the <em>de facto</em>
-standard communication library for almost many HPC systems, and is
+standard communication library for almost many HPC systems and is
 available in a variety of implementations. It has been created through
 consensus of the MPI Forum, which has dozens of participating
 organizations, including vendors, researchers, software library
@@ -928,7 +928,7 @@ actually do not use the standard cluster node.</p>
 <h3>Batch Jobs<a class="headerlink" href="#batch-jobs" title="Permalink to this headline">¶</a></h3>
 <p>Once your MPI application is compiled, you run it on the compute nodes
 of a cluster via a batch processing. With the help of a batch
-processing services a job is run on the cluster without the users
+processing services, a job is run on the cluster without the users&#8217;
 intervention via a job queue. The user does not have to worry much
 about the internal details of the job queue, but must provide the
 scheduler with some guidance about the job so it can be efficiently
@@ -939,8 +939,8 @@ activate their environment to use the job scheduler:</p>
 </pre></div>
 </div>
 <p>A complete manual for the torque scheduler can be found in the <a class="reference external" href="http://www.clusterresources.com/torquedocs21/">Torque
-manual</a> .</p>
-<p>Next we need to create a script so that we can run the program on the
+manual</a>.</p>
+<p>Next, we need to create a script so that we can run the program on the
 cluster.  We will be using our simple ring example to illustrate some
 of the parameters you need to adjust. Please save the following content to
 a file called ring.pbs.:</p>
@@ -1014,7 +1014,7 @@ purpose with the qstat command on the appropriate login node:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ qstat -q
 </pre></div>
 </div>
-<p>Currently we have the following queues:</p>
+<p>Currently, we have the following queues:</p>
 <dl class="docutils">
 <dt>HPC Job Queue Information:</dt>
 <dd><table border="1" class="first last docutils">
@@ -1056,7 +1056,7 @@ purpose with the qstat command on the appropriate login node:</p>
 </table>
 </dd>
 </dl>
-<p>Next we focus on the -l option that specifies the resources. The
+<p>Next, we focus on the -l option that specifies the resources. The
 term:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nv">nodes</span><span class="o">=</span><span class="m">4</span>
 </pre></div>
@@ -1070,7 +1070,7 @@ term:</p>
 processor is typically executed on a core of the server. Thus it is
 advisable not to exceed the number of cores per server. For some
 programs choosing the best performing number of servers and cores may
-be dependent on factors such as memory needs, IO access and other
+be dependent on factors such as memory needs, IO access, and other
 resource bounded properties. You may have to experiment with the
 parameters. To identify the number of servers and cores available
 please see Tables <span class="xref std std-ref">t-clusters</span> and <span class="xref std std-ref">t-clusters-details</span>.
@@ -1108,7 +1108,7 @@ qsub command to submit this job to be executed on the compute nodes:</p>
 <p>The qsub command outputs either a job identifier or an error message
 describing why the scheduler would not accept your job. Alternatively,
 you can also use the msub command, which is very similar to the qsub
-command. For differences we ask you to consult the manual pages.</p>
+command. For differences, we ask you to consult the manual pages.</p>
 </div>
 <div class="section" id="job-deletion">
 <h3>Job Deletion<a class="headerlink" href="#job-deletion" title="Permalink to this headline">¶</a></h3>
@@ -1155,7 +1155,7 @@ they can run. As a general rule, jobs are listed in the order
 that they will be scheduled, but scheduling algorithms may
 change the order over time.</dd>
 <dt>Blocked jobs:</dt>
-<dd>are jobs that the scheduler cannot run for some reason. Usually
+<dd>are jobs that the scheduler cannot run for some reason. Usually,
 a job becomes blocked because it is requesting something that
 is impossible, such as more nodes than those which currently exist, or more
 processors per node than are installed.</dd>
@@ -1213,7 +1213,7 @@ job name.</p>
 file on the command line, your output will be in the file you specified.
 If you run the job again, the output file will be overwritten.</p>
 <p>If you don&#8217;t specify any output file, your job output will have the same
-name as your job script, and will be numbered in the same manner as if
+name as your job script and will be numbered in the same manner as if
 you had specified a job name (<strong>jobname.o######</strong>).</p>
 </div>
 </div>
@@ -1232,7 +1232,7 @@ found at</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>% module add xtpe-module
 </pre></div>
 </div>
-<p>Currently there is only one queue (batch) available to users on the
+<p>Currently, there is only one queue (batch) available to users on the
 Cray, and all jobs are automatically routed to that queue.  You can
 use the same commands as introduced in the previous sections. Thus, to
 list the queues please use:</p>
@@ -1246,7 +1246,7 @@ list the queues please use:</p>
 <div class="section" id="submitting-a-job-on-xray">
 <h3>Submitting a Job on xray<a class="headerlink" href="#submitting-a-job-on-xray" title="Permalink to this headline">¶</a></h3>
 <p>To execute an MPI program on xray we use a special program called aprun in
-the submit script. Additionally we have some special resource
+the submit script. Additionally, we have some special resource
 specifications that we can pass along, such as mppwidth and
 mppnppn. An example is the following program that will use 16
 processors on 2 nodes:</p>
@@ -1275,7 +1275,7 @@ socket has four cores. The batch scheduler interfaces with a Cray
 resource scheduler called APLS. When you submit a job, the batch
 scheduler talks to ALPS to find out what resources are available, and
 ALPS then makes the reservation.</p>
-<p>Currently ALPS is a &#8220;gang scheduler&#8221; and only allows one &#8220;job&#8221; per node.
+<p>Currently, ALPS is a &#8220;gang scheduler&#8221; and only allows one &#8220;job&#8221; per node.
 If a user submits a job in the format aprun -n 1 a.out , ALPS will put
 that job on one core of one node and leave the other seven cores empty.
 When the next job comes in, either from the same user or a different
@@ -1322,17 +1322,17 @@ into groups of eight, and the</p>
 </div>
 <div class="section" id="interactive-queues">
 <h2>Interactive Queues<a class="headerlink" href="#interactive-queues" title="Permalink to this headline">¶</a></h2>
-<p>The current queing system contains the ability to run interactive
-queues. This is quite usefule, if you need to debug programs
-interactively that you will run than in a bacth queue. To use this
-feature we provide here a simple exaple on how to use a node on bravo.</p>
+<p>The current queuing system contains the ability to run interactive
+queues. This is quite useful, if you need to debug programs
+interactively that you will run than in a batch queue. To use this
+feature we provide here a simple example on how to use a node on bravo.</p>
 <p>Start an interactive shell with X11 forwarding on bravo you have to
 first login into india as the bravo queues are currently controlled on
 india:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>ssh -X india
 </pre></div>
 </div>
-<p>Than you need to start an interactive node:</p>
+<p>Then you need to start an interactive node:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>qsub -I -q bravo -X
 </pre></div>
 </div>

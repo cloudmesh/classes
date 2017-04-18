@@ -668,7 +668,7 @@ are for documentation purposes only.  In this case, the instructions
 tell us the setup that needs to be done before running <code class="docutils literal"><span class="pre">vagrant</span> <span class="pre">up</span></code>.</p>
 <p>Next, the environmental variables <code class="docutils literal"><span class="pre">PORTALNAME</span></code> and <code class="docutils literal"><span class="pre">PROJECTID</span></code> are
 retrieved and injected into a provisioning shell script defined and
-stored in <code class="docutils literal"><span class="pre">$script</span></code>.</p>
+stored in the <code class="docutils literal"><span class="pre">$script</span></code>.</p>
 <p>The rest of the file is fairly straightforward:</p>
 <ul class="simple">
 <li>use the <code class="docutils literal"><span class="pre">ubuntu/trusty64</span></code> box as the base system to run</li>
@@ -678,7 +678,7 @@ enable automatic update checks</li>
 does have network access) to we set the IP address in a private
 network.</li>
 <li>the provisioning shell script is specified and will run as an
-unpriviledged user</li>
+unprivileged user</li>
 <li>finally, use the ssh-agent forwarding system. This way the ssh
 keypairs for futuresystems access do not need to be copied into from
 the host machine into the workstation.</li>
