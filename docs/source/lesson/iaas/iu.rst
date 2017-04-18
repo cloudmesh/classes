@@ -6,19 +6,19 @@ IU SOIC machines
 
 .. warning:: the current python version on these machines are outdated
 	     and are not suitable for programming use.
-	     However they can be used toe create LaTex documents.
+	     However, they can be used toe create LaTex documents.
 
 Machine information from IU SOIC is published at this Web page:
 
 * https://uisapp2.iu.edu/confluence-prd/pages/viewpage.action?pageId=114491559
 
-It is important to vist this page to look at the Tips before you send
+It is important to visit this page to look at the Tips before you send
 questions to us or the Help Desk.
 
 If your computer is not powerful enough you probably can log into one
-of these machines to do LaTeX and other software for classes. In case
-of python you will have to make sure you have the right version. YOu
-can send a Help message to the Help Desk.
+of these machines to do LaTeX and other software for classes. In the
+case of python, you will have to make sure you have the right
+version. You can send a Help message to the Help Desk.
 
 * https://uisapp2.iu.edu/confluence-prd/pages/viewpage.action?pageId=90899794
 
@@ -33,7 +33,7 @@ Burrow:
   The Burrow systems are available to all SoIC faculty, staff, and
   students (both graduate and undergraduate students in CS or
   Informatics) as well as non-SoIC students who are taking CS or
-  Informatics classes requiring use of these systems. Accounts are
+  Informatics classes requiring the use of these systems. Accounts are
   created automatically for all SoIC graduate students and for
   undergraduate students taking certain SoIC classes. If you are a
   faculty, staff, or undergraduate student in the CS or Informatics
@@ -60,7 +60,7 @@ To login, please use::
 
   ssh albert@burrow.soic.indiana.edu
 
-You will than see womething like this:
+You will then see something like this:
 
   The authenticity of host 'burrow.soic.indiana.edu (129.X.X.X)' can't be established.
   ECDSA key fingerprint is SHA256kjshlkjhxkljhaBKCJSDHFJKSHFKJhb.
