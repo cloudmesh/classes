@@ -3,7 +3,7 @@
 FutureSystems OpenStack Kilo - Quickstart Guide
 ===============================================
 
-OpenStack Kilo is the current cloud offerring from FutureSystems. Here are the quickstart guide on using the kilo cloud.
+OpenStack Kilo is the current cloud offering from FutureSystems. Here are the quickstart guide on using the kilo cloud.
 
 Nova Client on India
 --------------------
@@ -24,12 +24,12 @@ You will see instances or images on Kilo now by nova client tools, e.g. nova lis
 Start a New Instance
 --------------------
 
-Starting a new instance is not difficult but requres a few steps like keypair registration and floating ip association. The simple instructions will be provided in this page.
+Starting a new instance is not difficult but requires a few steps like keypair registration and floating ip association. The simple instructions will be provided in this page.
 
-SSH Key Pair Registraion
+SSH Key Pair Registration
 """"""""""""""""""""""""
 
-If this is a first time to run a instance, the keypair registration is required. We assume you have a key registered on India Juno which is a previous release of OpenStack. Let's register your key on OpenStack Kilo. Juno and Kilo are separated clouds so we need to register your key on both side.
+If this is a first time to run an instance, the keypair registration is required. We assume you have a key registered on India Juno which is a previous release of OpenStack. Let's register your key on OpenStack Kilo. Juno and Kilo are separate clouds so we need to register your key on both sides.
 
 .. note:: If you don't have one, don't worry. It is easy to create a new one. Please follow the instructions here. 
 
@@ -90,7 +90,7 @@ Once you completed this step, you are now able to SSH into your VM instance.
 Horizon Web Interface
 ---------------------
 
-Openstack provides a web interface to manage cloud resources easily. Usage reports, current quota or Heat stacks are visible on the web.
+OpenStack provides a web interface to manage cloud resources easily. Usage reports, current quota or Heat stacks are visible on the web.
 
 * Use your OS_USERNAME and OS_PASSWORD to login.  ``~/.cloudmesh/clouds/india/kilo/openrc.sh`` contains your ``OS_`` variables.
 * https://openstack.futuresystems.org/horizon/
@@ -119,7 +119,7 @@ Q. My ssh connection was denied with the message like below. What should I do?
       @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-A. SSH checks ssh server's fingerprint to verify the identity of the machine that you connect to. You will see the message above if the fingerprint doesn't match with one saved on your local machine (~/.ssh/known_hosts) when you ssh into the machine first time. In the cloud computing, however, you may encounter this message very often wihtout a real vulnerability. It is because that you use a same ip address with a newly deployed virtual machine which has a new fingerprint. We can ignore the host key checking or remove the fingerprint saved on a local machine by:
+A. SSH checks ssh server's fingerprint to verify the identity of the machine that you connect to. You will see the message above if the fingerprint doesn't match with one saved on your local machine (~/.ssh/known_hosts) when you ssh into the machine first time. In the cloud computing, however, you may encounter this message very often without a real vulnerability. It is because that you use the same ip address with a newly deployed virtual machine which has a new fingerprint. We can ignore the host key checking or remove the fingerprint saved on a local machine by:
 
 * Add the following options to ``ssh`` command
 

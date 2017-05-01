@@ -5,10 +5,10 @@ Overview
 ----------------------------------------------------------------------
 
 This lesson will introduce you to a very important topic to Microsoft Azure
-cloud services . Azure Virtual Machine offers IaaS with linux operating
+cloud services. Azure Virtual Machine offers IaaS with Linux operating
 systems. The use of key pairs or creating virtual instances is slightly
 different compared to other clouds e.g. Amazon EC2 or OpenStack Nova.  In this
-lesson, we focus on a simple tutorial of running a Python Flask Web Framework
+lesson, we focus on a simple tutorial on running a Python Flask Web Framework
 on Azure Virtual Machine. We expect that readers gain basic knowledge of using
 Azure cloud services and have some experience of building services on the
 cloud.
@@ -69,13 +69,13 @@ Preparing VM Instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Select a VM base image from Gallery
-   * Gallery is a repositofy for VM images
+   * Gallery is a repository for VM images
    * Choose ``Ubuntu`` tab.
    * There are a few VMs available. Select Ubuntu 14.04 LTS.
    * Community VMs are also available.
 
 * Provide a name for your VM instance
-   - Your VM instance need a name. This name is also used for dns name.
+   - Your VM instance needs a name. This name is also used for dns name.
      For example, if you created a VM instance with ``tutorial-azure``,
      you may have dns name, ``tutorial-azure.cloudapp.net``.
    - Azure provides a unique dns address using the name in this format ``[unique
@@ -83,8 +83,8 @@ Preparing VM Instance
      across entire Azure cloud services.
 
 * Choose a size of your VM instance
-   - select A1 (1core, 1.75 memory) or other preferred size of VM instance
-   - OpenStack Flavor and Amazon Instance types have similar format for the size
+   - select A1 (1core, 1.75 memory) or another preferred size of VM instance
+   - OpenStack Flavor and Amazon Instance types have a similar format for the size
      of VM instances.
 
 * Choose a region
@@ -101,17 +101,17 @@ Preparing VM Instance
    - We provide a password instead of key authentication file e.g. pem.
 
 * Click 'Complete'
-   - Confirm your VM image, size and rules.
+   - Confirm your VM image, size, and rules.
 
-Launch a Instance and IP Address
+Launch an Instance and IP Address
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you successfully launched your instance, it will be available in a few
 moments.
 
-* Find a IP Adddress or hostname
+* Find an IP Adddress or hostname
    - We need destination address to ssh into the server. You can find IP address
-     or hostname in the Instances page.
+     or hostname on the Instances page.
    - Typically you have a dns name like ``[your vm name].cloudapps.net``.
 
 SSH into VM Instance
@@ -125,7 +125,7 @@ Use your ssh client tool to login to the virtual server.
      ``root`` or create a new user.
 
 * Password Authentication
-   - We login to the VM instance using the passowrd that we provided in the
+   - We login to the VM instance using the password that we provided in the
      process of vm creation.
 
 Switch Password Authentication to SSH Key Authentication
@@ -140,7 +140,7 @@ authentication.  This requires a few steps with ``root``.
    - Copy your public key string. We need to provide this to SSH on the VM instance.
 
 * Move to $HOME/.ssh directory
-   - There is a ``authorized_keys`` file which holds a list of public key strings.
+   - There is an ``authorized_keys`` file which holds a list of public key strings.
      If you register your public key in this file, you will be able to login to
      this machine using a pair, your private key.
 
@@ -167,7 +167,7 @@ It's time to install and run Flask Web Framework. It is a minimal software to
 run a web server using Python. We will try to use a sample code ``hello.py``
 from the Flask official site.
 
-We assume that you know how to use some basic Linux commands, editors and
+We assume that you know how to use some basic Linux commands, editors, and
 Python. We will use the following commands 1) sudo, 2) su, 3) apt-get, and 4)
 service, 5) python to install and run Flask.
 
@@ -257,7 +257,7 @@ Exercise2
 
 **Additional (Optional) Study Material**
 
-* Start a one of community VM images. It needs some preparation before starting
-  a virtual machine. Get some experience with using VM Depot which is a open
+* Start one of community VM images. It needs some preparation before starting
+  a virtual machine. Get some experience with using VM Depot which is an open
   repository for Azure VM images.
 

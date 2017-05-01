@@ -91,10 +91,10 @@ Workflow-Orchestration
    engineering disciplines.  Kepler can operate on data stored in a
    variety of formats, locally and over the internet, and is an
    effective environment for integrating disparate software components
-   such as merging "R" scripts with compiled "C" code, or facilitating
+   such as merging *R* scripts with compiled *C* code, or facilitating
    remote, distributed execution of models. Using Kepler's GUI, users
    can simply select and then connect pertinent analytical components
-   and data sources to create a "scientific workflow". Overall, the
+   and data sources to create a *scientific workflow*. Overall, the
    Kepler helps users share and reuse data, workflow, and components
    developed by the scientific community to address common needs
    :cite:`www-kepler`.
@@ -140,8 +140,8 @@ Workflow-Orchestration
 
 8. Triana
 
-   :cite:`trianaDocumentation-1` Triana is an open source problem
-   solving software that comes with powerful data analysis tools.
+   Triana is an open source problem solving software that comes with 
+   powerful data analysis tools :cite:`trianaDocumentation-1`.
    Having been developed at Cardiff University, it has a good and
    easy-to-understand User Interface and is typically used for signal,
    text and image processing.  Although it has its own set of analysis
@@ -273,7 +273,7 @@ Workflow-Orchestration
 15. Naiad
 
     Naiad :cite:`paper-naiad` is a distributed system based on
-    computational model called "Timely Dataflow" developed for
+    computational model called *Timely Dataflow* developed for
     execution of data-parallel, cyclic dataflow programs. It provides
     an in-memory distributed dataflow framework which exposes control
     over data partitioning and enables features like the high
@@ -351,6 +351,35 @@ Workflow-Orchestration
     task.
 
 18. Google FlumeJava
+
+    FlumeJava :cite:`www-flumejava-google` is a java library that
+    allows users to develop and run data parallel pipelines. Its goal
+    is to allow a programmer to express his data-parallel computations
+    in a clear way while simultaneously executing it in the best
+    possible optimized manner. The MapReduce function eases the task
+    of data parallelism. However, a pipeline of MapReduce functions is
+    desired by many real time computation systems. FlumeJava provides
+    these abstractions of data parallel computations by providing
+    support for pipelined execution. To provide optimized parallel
+    execution, FlumeJava defers the execution of these pipelines and
+    instead contsructs an execution plan dataflow graph depending on
+    the results needed by each stage of the pipeline. "When the final
+    results of the parallel operations are eventually needed,
+    FlumeJava first optimizes the execution plan, and then executes
+    the optimized operations on appropriate underlying primitives"
+    :cite:`flumejava-paper`. FlumeJava library is written on top of
+    the collection framework in Java.
+
+    When developing a large pipeline, it is timeconsuming to find a
+    bug in the later stages and then re-compile and re-evaluate all
+    the operations. FlumeJava library supports a cached execution mode
+    to aid in this scenario. In this mode, it automatically creates
+    temporary files to hold the outputs of each operation it
+    executes :cite:`flumejava-paper`. Thus, rather than recomputing
+    all the operations once the pipeline has been rectified to fix all
+    the bugs, it simply reads the output from these temporary files
+    and later deletes them once they are no longer in use.    
+    
 19. Crunch
 
     Arvados Crunch :cite:`www-arvados` is a containerized workflow
@@ -595,6 +624,20 @@ Application and Analytics
 
 
 33. MLlib
+
+    MLlib is Apache Spark’s scalable machine learning library
+    :cite:`www-mllib`. Its goal is to make machine learning scalable
+    and easy. MLlib provides various tools such as, algorithms,
+    feature extraction, utilities for data handling and tools for
+    constructing, evaluating, and tuning machine learning
+    pipelines. MLlib uses the linear algebra package Breeze, which
+    depends on netlib-java for optimized numerical processing. MLlib
+    is shipped with Spark and supports several languages which
+    provides functionality for wide range of learning settings. MLlib
+    library includes Java, Scala and Python APIs and is released as a
+    part of Spark project under the Apache 2.0 license
+    :cite:`MLlib-article`.
+
 34. MLbase
     
     MLBase :cite:`www-mlbase` is a distributed machine learning
@@ -658,7 +701,7 @@ Application and Analytics
     environment having series of R packages for statistical computing
     with Big Data using high-performance statistical computation. It
     uses R, a popular language between statisticians and data
-    miners. "pbdR" focuses on distributed memory system, where data is
+    miners. *pbdR* focuses on distributed memory system, where data is
     distributed accross several machines and processed in batch
     mode. It uses MPI for inter process communications. R focuses on
     single machines for data analysis using a interactive
@@ -1001,19 +1044,20 @@ Application and Analytics
 55. H2O
 
     It is an open source software for big data analysis. It was
-    launched by the Start-up H2O in 2011. :cite:`www-H2O-website` It
-    provides an in-memory, distributed, fast and a scalable machine
-    learning and predictive analytics platform that allows the users
-    to build machine learning models on big data. It is written in
-    Java. :cite:`www-H20-book` It is currently implemented in 5000
-    companies. It provides APIs for R(3.0.0 or later), Python(2.7.x,
-    3.5.x), Scala(1.4-1.6) and JSON. The software also allows online
+    launched by the Start-up H2O in 2011. It provides an in-memory,
+    distributed, fast and a scalable machine learning and predictive
+    analytics platform that allows the users to build machine learning
+    models on big data :cite:`www-H2O-website`. It is written in
+    Java. It is currently implemented in 5000 companies. It provides
+    APIs for R(3.0.0 or later), Python(2.7.x, 3.5.x), Scala(1.4-1.6)
+    and JSON :cite:`www-H2O-book`. The software also allows online
     scoring and modeling on a single platform.  It is scalable and has
     a wide range of OS and language support. It works perfectly on the
     conventional operating systems, and big data systems such as
-    Hadoop, Cloudera, MapReduce, HortonWorks. :cite:`www-H20-wiki` It
-    can be used on cloud computing environments such as Amazon and
-    Microsoft Azure.
+    Hadoop, Cloudera, MapReduce, HortonWorks.  It can be used on cloud
+    computing environments such as Amazon and Microsoft Azure
+    :cite:`www-H2O-wiki`.
+
 
 56. IBM Watson
 
@@ -1022,7 +1066,7 @@ Application and Analytics
     brain does by understanding the data in a natural language as well
     as analyzing structured and unstructured data. It was initially
     developed as a question and answer tool more specifically to
-    answer questions on the quiz show "Jeopardy" but now it has been
+    answer questions on the quiz show *Jeopardy* but now it has been
     seen as helping doctors and nurses in the treatment of cancer. It
     was developed by IBM's DeepQA research team led by David
     Ferrucci. :cite:`www-ibmwatson` illustrates that with Watson you
@@ -1101,18 +1145,18 @@ Application and Analytics
     
 60. IBM System G
 
-    :cite:`IBMSystemGDocumentation-1` IBM System G provides a set of
-    Cloud and Graph computing tools and solutions for Big Data.  In
+    IBM System G provides a set of Cloud and Graph computing tools and
+    solutions for Big Data :cite:`IBMSystemGDocumentation-1`.  In
     fact, the G stands for Graph and typically spans a database,
     visualization, analytics library, middleware and Network Science
-    Analytics tools.  :cite:`IBMSystemGDocumentation-2` It assists the
-    easy creating of graph stores and queries and exploring them via
-    interactive visualizations.  Internally, it uses the property
+    Analytics tools.  It assists the easy creating of graph stores 
+    and queries and exploring them via interactive visualizations 
+    :cite:`IBMSystemGDocumentation-2`.  Internally, it uses the property
     graph model for its working.  It consists of five individual
     components - gShell, REST API, Python interface to gShell, Gremlin
-    and a Visualizer.  :cite:`IBMSystemGPaper` Some of the typical
-    applications wherein it can be used include Expertise Location,
-    Commerce, Recommendation, Watson, Cybersecurity, etc.
+    and a Visualizer.  Some of the typical applications wherein it
+    can be used include Expertise Location, Commerce, Recommendation, 
+    Watson, Cybersecurity, etc :cite:`IBMSystemGPaper`.
 
     However, it is to be noted that the current version does not work
     in a distributed environment and it is planned that future
@@ -1204,7 +1248,7 @@ Application and Analytics
     public. It allows to integrate the data from different tables from
     different users or tables.Fusion Table uses two-layer storage,
     Bigtable and Magastore. The information rows are stored in bigdata
-    table called “Rows”, user can merge the multiple table in to one,
+    table called *Rows*, user can merge the multiple table in to one,
     from multiple users. “Megastore is a library on top of
     bigtable”. :cite:`GoogleFusionTable2012` Data visualization is one
     the feature, where user can see the visual representation of their
@@ -1281,7 +1325,7 @@ Application and Analytics
     Elasticsearch engine and returns output through Kibana
     visualizations. :cite:`www-wikipedia-elasticsearch` A log parsing
     engine "Logstash" and analytics and visualization platform
-    "Kibana" are also developed alongside Elasticsearch forming a
+    *Kibana* are also developed alongside Elasticsearch forming a
     single package.
     
 69. Kibana
@@ -1329,27 +1373,26 @@ Application and Analytics
     from a group of sources and presents data in a streamlines,
     simplified interface where one can drill down to significant
     metrics, identify key relationships, generate powerful data
-    visualizations and derive actionable
-    insights. :cite:`www-graylog-blog`
-    :cite:`www-graylog-optimization` Graylog allows us to centrally
-    collect and manage log messages of an organization's complete
-    infrastructure. A user can perform search on terrabytes of log
-    data to discover number of failed logins,find application errors
-    across all servers or monitor the acivity of a suspicious user
-    id.Graylog works on top of ElasticSearch and MongoDB to facilitate
-    this high availability searching.  Graylog provides visualization
-    through creation of dashboards that allows a user to build
-    pre-defined views on his data to assemble all of his important
-    data only a single click away. :cite:`www-graylog-dashboards` Any
-    search result or metric shall be added as a widget on the
-    dashboard to observe trends in one single location. These
-    dashboards can also be shared with other users in the
-    organization. Based on a user's recent search queries,graylog also
-    allows you to distinguish data that are not searched upon very
-    often and thus can be archived on cost effective storage
-    drives. Users can also add certain trigger conditions that shall
-    alert the system about performance issues, failed logins or
-    exceptions in the flow of the application.
+    visualizations and derive actionable insights
+    :cite:`www-graylog-blog`.  Graylog allows us to centrally collect
+    and manage log messages of an organization's complete
+    infrastructure :cite:`www-graylog-optimization`. A user can
+    perform search on terrabytes of log data to discover number of
+    failed logins,find application errors across all servers or
+    monitor the acivity of a suspicious user id.Graylog works on top
+    of ElasticSearch and MongoDB to facilitate this high availability
+    searching.  Graylog provides visualization through creation of
+    dashboards that allows a user to build pre-defined views on his
+    data to assemble all of his important data only a single click
+    away :cite:`www-graylog-dashboards`. Any search result or metric
+    shall be added as a widget on the dashboard to observe trends in
+    one single location. These dashboards can also be shared with
+    other users in the organization. Based on a user's recent search
+    queries,graylog also allows you to distinguish data that are not
+    searched upon very often and thus can be archived on cost
+    effective storage drives. Users can also add certain trigger
+    conditions that shall alert the system about performance issues,
+    failed logins or exceptions in the flow of the application.
     
 72. Splunk
 
@@ -1401,6 +1444,19 @@ Application and Analytics
 
     
 75. three.js
+
+    Three.js is an API library with about 650 contributions till date
+    , where users can create and display an animated 3D computer
+    graphics in a web browser.It is written in javascript and uses
+    WebGL, HTML5 or SVG. Users can animate HTML elements using CSS3 or
+    even import models from 3D modelling apps
+    :cite:`www-three.js-wiki`. In order to display anything using
+    three.js we need three basic features, which are scene, camera and
+    renderer. This will result in rendering the scene with a
+    camera. In addition to these three features , we can add
+    animation, lights (ambience,spot lights, shadows), objects (lines
+    , ribbons , particles) , geometry etc :cite:`www-threejs-webpage`.
+    
 76. Potree
 
     Potree :cite:`www-potree` is a opensource tool powered by WebGL
@@ -1485,7 +1541,7 @@ Application Hosting Frameworks
     APIs such as load balancing, automated security scanning,
     application logging, NoSQL datastores, memcache, and a user
     authentication API, that are a core part to most
-    applications. :cite:`www-appengine-google`
+    applications :cite:`www-appengine-google`.
      
     An App Engine platform can be run in either the Standard or the
     Flexible environment. Standard environment lays restrictions on
@@ -1498,7 +1554,7 @@ Application Hosting Frameworks
     PHP, GO, Node.js and other JVM oriented languages. The App Engine
     datastore uses a SQL like syntax called the GQL (Google Query
     Language) which works with non-relational databases when compared
-    to SQL. :cite:`www-wiki-appengine`
+    to SQL :cite:`www-wiki-appengine`.
     
 81. AppScale
 
@@ -1518,12 +1574,12 @@ Application Hosting Frameworks
 
 82. Red Hat OpenShift
 
-    :cite:`www-paas` OpenShift was launched as a PaaS (Platform as a
-    Service) by Red Hat in the Red Hat Summit, 2011.
-    :cite:`www-developers-openshift` It is a cloud application
-    development and hosting platform that envisages shifting of the
-    developer's focus to development by automating the management and
-    scaling of applications.  Thus, :cite:`www-openshift` OpenShift
+    OpenShift was launched as a PaaS (Platform as a
+    Service) by Red Hat in the Red Hat Summit, 2011 :cite:`www-paas`.
+    It is a cloud application development and hosting platform that 
+    envisages shifting of the developer's focus to development by 
+    automating the management and scaling of applications 
+    :cite:`www-developers-openshift`.  Thus, OpenShift :cite:`www-openshift` 
     enables us to write our applications in any one web development
     language (using any framework) and it itself takes up the task of
     running the application on the web.  This has its advantages and
@@ -1532,9 +1588,9 @@ Application Hosting Frameworks
     away) and the disadvantage being that he cannot control how it
     works, again because it is abstracted.
 
-    :cite:`openshift-blog` OpenShift is powered by Origin, which is in
-    turn built using Docker container packaging and Kubernetes
-    container cluster.  Due to this, OpenShift offers a lot of
+    OpenShift is powered by Origin, which is in turn built using 
+    Docker container packaging and Kubernetes container cluster 
+    :cite:`openshift-blog`.  Due to this, OpenShift offers a lot of
     options, including online, on-premise and open source project
     options.
     
@@ -1571,32 +1627,32 @@ Application Hosting Frameworks
 
 85. AWS Elastic Beanstalk
 
-    :cite:`www-amazon elastic beanstalk` AWS Elastic Beanstalk is an
-    orchestration service offered from Amazon Web Services which
-    provides user with a platform for easy and quiclk deployment of
-    their WebApps and services. :cite:`amazon elastic beanstalk-book`
-    Amazon Elastic BeanStack automatically handles the deployement
-    details of capacity provisioning by Amazon Cloud Watch, Elastic
-    Load Balancing, Auto-scaling, and application health monitoring of
-    the WebApps and service. AWS Management Console allows the users
-    to configure an automatic scaling mechanism of AWS Elastic
-    Beanstalk. Elastic Load Balancing enables a load balancer,which
-    automatically spreads load across all running instances in an
-    auto-scaling group based on metrics like request count and latency
-    tracked by Amazon CloudWatch. Amazon CloudWatch tracks and stores
-    per-instance metrics, including request count and latency, CPU and
-    RAM utilization. Elastic Beanstalk supports applications developed
-    in Java, PHP, .NET, Node.js, Python, and Ruby, as well as
-    different container types for each language such as Apache Tomcat
-    for Java applications, Apache HTTP Server for PHP applications
-    Docker, GO and many more for specific languanges where the
-    container defines the infrastructure and softwarestack to be used
-    for a given enviorment.:cite:`www-amazon elastic beanstalk` "AWS
-    Elastic Beanstalk runs on the Amazon Linux AMI and the Windows
-    Server 2012 R2 AMI. Both AMIs are supported and maintained by
-    Amazon Web Services and are designed to provide a stable, secure,
-    and high-performance execution environment for Amazon EC2 Cloud
-    computing."
+    AWS Elastic Beanstalk is an orchestration service offered from
+    Amazon Web Services which provides user with a platform for easy
+    and quick deployment of their WebApps and services
+    :cite:`www-amazon elastic beanstalk`. Amazon Elastic BeanStack
+    automatically handles the deployment details of capacity
+    provisioning by Amazon Cloud Watch, Elastic Load Balancing,
+    Auto-scaling, and application health monitoring of the WebApps and
+    service :cite:`amazon elastic beanstalk-book`. AWS Management
+    Console allows the users to configure an automatic scaling
+    mechanism of AWS Elastic Beanstalk. Elastic Load Balancing enables
+    a load balancer, which automatically spreads the load across all
+    running instances in an auto-scaling group based on metrics like
+    request count and latency tracked by Amazon CloudWatch. Amazon
+    CloudWatch tracks and stores per-instance metrics, including
+    request count and latency, CPU, and RAM utilization. Elastic
+    Beanstalk supports applications developed in Java, PHP, .NET,
+    Node.js, Python, and Ruby as well as supports different container
+    types for each language such as Apache Tomcat for Java
+    applications, Apache HTTP Server for PHP applications Docker, GO
+    and much more for specific languages where the container defines
+    the infrastructure and software stack to be used for a given
+    environment. "AWS Elastic Beanstalk runs on the Amazon Linux AMI
+    and the Windows Server 2012 R2 AMI. Both AMIs are supported and
+    maintained by Amazon Web Services and are designed to provide a
+    stable, secure, and high-performance execution environment for
+    Amazon EC2 Cloud computing":cite:`www-amazon elastic beanstalk`.
 
 86. Azure
 
@@ -1631,25 +1687,25 @@ Application Hosting Frameworks
 87. Cloud Foundry
 
     It is an open source software with multi cloud application .It is
-    a platform for running applications and
-    services. :cite:`www-cloudfoundry-book` It was originally
-    developed by VMware and currently owned by Pivotal . It is written
-    in Ruby and Go .It has a commercial version called Pivotal Cloud
-    Foundry (PFC). Cloud Foundry is available as a stand alone
-    software package, we can also deploy it to Amazon AWS as well as
-    host it on OpenStack server , HP’s Helion or VMware’s vSphere as
-    given in the blog :cite:`www-cloudfoundry-blog` , it delivers
-    quick application from development to deployment and is highly
-    scalable. It has a DevOps friendly workflow.  Cloud Foundry
-    changes the way application and services are deployed and reduces
-    the develop to deployment cycle time.
+    a platform for running applications and services. It was
+    originally developed by VMware and currently owned by Pivotal . It
+    is written in Ruby and Go .It has a commercial version called
+    Pivotal Cloud Foundry (PFC):cite:`www-cloudfoundry-book`. Cloud
+    Foundry is available as a stand alone software package, we can
+    also deploy it to Amazon AWS as well as host it on OpenStack
+    server , HP’s Helion or VMware’s vSphere as given in the blog
+    :cite:`www-cloudfoundry-blog` , it delivers quick application from
+    development to deployment and is highly scalable. It has a DevOps
+    friendly workflow.  Cloud Foundry changes the way application and
+    services are deployed and reduces the develop to deployment cycle
+    time.
 
 88. Pivotal
 
     Pivotal Software, Inc. (Pivotal) is a software and services
     company. It offeres multiple consulting and technology services,
     which includes Pivotal Web Services, which is an agile application
-    hosting service. It has a single step upload feature "cf push",
+    hosting service. It has a single step upload feature *cf push*,
     another feature called Buildpacks lets us push applications
     written for any language like Java, Grails, Play, Spring, Node.js,
     Ruby on Rails, Sinatra or Go. Pivotal Web Services also allows
@@ -1717,21 +1773,21 @@ Application Hosting Frameworks
     
 94. CloudBees
 
-    :cite:`www-cloudbees-wiki` Cloudbees provides Platform as a
-    Service (PaaS) solution, which is a cloud service for Java
-    applications. It is used to build, run and manage the web
-    applications. It was created in 2010 by Jenkins. It has a
+    Cloudbees provides Platform as a Service (PaaS) solution, which is
+    a cloud service for Java applications
+    :cite:`www-cloudbees-wiki`. It is used to build, run and manage
+    the web applications. It was created in 2010 by Jenkins. It has a
     continuous delivery platform for DevOps, and adds a
     enterprise-grade functionality with an expert level
     support. Cloudbees is better than the traditional Java platform as
     it requires no provision of the nodes, clusters, load balancers
     and databases. In cloudbees the environment is constantly managed
     and monitored where a metering and scale updating is done on a
-    real time basis. :cite:`www-cloudbees-webpage` The platform ships
-    with verified security and enhancements assuring less risk for
-    sharing sensitive information. It simplies the task of getting the
-    platform accessed by every user using the feature “Jenkins
-    Sprawl”.
+    real time basis. The platform ships with verified security and
+    enhancements assuring less risk for sharing sensitive
+    information. It simplies the task of getting the platform accessed
+    by every user using the feature *Jenkins Sprawl*
+    :cite:`www-cloudbees-webpage`.
 
 95. Engine Yard :cite:`www-engineyard`
 
@@ -1810,14 +1866,14 @@ Application Hosting Frameworks
 
      Agave is an open source, application hosting framework and
      provides a platform-as-a-service solution for hybrid
-     computing. :cite:`agave-paper` It provides everything ranging
+     computing :cite:`agave-paper`. It provides everything ranging
      from authentication and authorization to computational, data and
      collaborative services. Agave manages end to end lifecycle of an
      application’s execution.  Agave provides an execution platform,
      data management platform, or an application platform through
      which users can execute applications, perform operations on their
      data or simple build their web and mobile
-     applications. :cite:`www-agaveapi-features`
+     applications :cite:`www-agaveapi-features`.
 
      Agave’s API’s provide a catalog with existing technologies and
      hence no additional appliances, servers or other software needs
@@ -1825,9 +1881,9 @@ Application Hosting Frameworks
      user needs to host it on a storage system registered with Agave,
      and submit to agave, a JSON file that shall contain the path to
      the executable file, the input parameters, and specify the
-     desired output location. :cite:`agave-paper` Agave shall read the
-     JSON file, formalize the parameters, execute the user program and
-     dump the output to the requested destination.
+     desired output location. Agave shall read the JSON file,
+     formalize the parameters, execute the user program and dump the
+     output to the requested destination :cite:`agave-paper`.
 
 103. Atmosphere
 
@@ -1926,37 +1982,38 @@ High level Programming
 
      Data Scientists when working on huge data sets try to extract
      meaning and interpret the data to enhance insight about the
-     various patterns, oppurtunities and possiblities that the dataset
-     has to offer. :cite:`shark-paper-2012` At a traditional
-     EDW(Enterprrise Data Warehouse) a simple data manipulation can be
-     perfpormed using SQL queries but we have to rely on other systems
-     to apply the machine learning on thoese data.Apache Shark is a
-     distributed query engine developed by the open source community
-     whoese goal is to provide a a unified system for easy data
-     manipulation using SQL and pushing sophisticated analysis towards
-     the data.
+     various patterns, opportunities, and possibilities that the
+     dataset has to offer :cite:`shark-paper-2012`. At a traditional
+     EDW (Enterprise Data Warehouse), a simple data manipulation can
+     be performed using SQL queries but we have to rely on other
+     systems to apply the machine learning algorithms on these data
+     sets. Apache Shark is a distributed query engine developed by the
+     open source community whose goal is to provide a unified system
+     for easy data manipulation using SQL and pushing sophisticated
+     analysis towards the data.
 
-     :cite:`shark-paper-2012` Shark is a data Warehouse system built
-     on top of Apache Spark which does the parallel data execution and
-     is capable of deep data analysis using the Resilient Distributed
-     Datasets(RDD) memory abstraction which unifies the SQL query
-     processing engine with analytical algorithms based on this common
-     abstraction allowing the two to run in the same set of workers
-     and share intermediate data. Since RDDs are designed to scale
-     horizontally, it is easy to add or remove nodes to accommodate
-     more data or faster query processing thus it can be scaled to
-     thoushands o nodes in a fault-toleranat manner
+     Shark is a data Warehouse system built on top of Apache Spark
+     which does the parallel data execution and is also capable of
+     deep data analysis using the Resilient Distributed Datasets(RDD)
+     memory abstraction which unifies the SQL query processing engine
+     with analytical algorithms :cite:`shark-paper-2012`.B ased on
+     this common abstraction, it allows running two query in the same
+     set of workers and share intermediate data. Since RDDs are
+     designed to scale horizontally, it is easy to add or remove nodes
+     to accommodate more data or faster query processing. Thus, it can
+     be scaled to the large number of nodes in a fault-tolerant manner
 
-     :cite:`shark-paper-2012` "Shark is built on Hive Codebase and it
-     has the ability to execute HIVE QL queries up to 100 times faster
-     than Hive without making any change in the existing
-     queries". Shark can run both on the StandAlone Mode and Cluster
-     Mode. :cite:`shark-paper-2012` Shark can answer the queries 40X
-     faster than Apache Hive and can machine learning programs 25X
-     faster than MapReduce programmes. in Apache hadoop on large data
-     sets.Thus, this new data analysis system performs query
-     processing and complex analytics(iterative Machine learning) at
-     scale and efficiently recovers form the failures midway
+     "Shark is built on Hive Codebase and it has the ability to
+     execute HIVE QL queries up to 100 times faster than Hive without
+     making any change in the existing queries"
+     :cite:`shark-paper-2012`. Shark can run both on the Standalone
+     Mode and Cluster-Mode. Shark can answer the queries 40X faster
+     than Apache Hive and can run machine learning algorithms 25X
+     faster than MapReduce programs in Apache Hadoop on large data
+     sets :cite:`shark-paper-2012`.Thus, this new data analysis system
+     performs query processing and complex analytics (iterative
+     Machine learning) at scale and efficiently recovers from the
+     failures.
 
 109. Phoenix
 
@@ -1995,6 +2052,42 @@ High level Programming
      appropriate connection string. :cite:`www-phoenix-bighadoop`
 
 110. Impala
+
+     Cloudera Impala is Cloudera's open source massively parallel
+     processing (MPP) SQL query engine for data stored in a computer
+     cluster running Apache Hadoop :cite:`www-impala-cloudera`. It
+     allows users to execute low latency SQL queries for data stored
+     in HDFS and HBase, without any movement or transformation of
+     data. The Apache Hive provides a powerful query mechanism for
+     hadoop users, but the query respponse time are not acceptable due
+     to Hive's reliance on MapReduce. Impala technology by Cloudera
+     has its MPP query engine written in C++ replacing the Java engine
+     prooves to improve the interactive Hadoop queries and interactive
+     query response time for hadoop users :cite:`www-impala-dummies`
+     . Impala is faster than Hive also because it executes the SQL
+     queries natively without translating them into Hadoop MapReduce
+     jobs, thus taking less time. Impala uses HiveQL as programming
+     interface and also the Impala's Query Exec Engines are co-located
+     with the HDFS data nodes, so that the data nodes and processing
+     tasks are co-located, following the haddops paradigm
+     :cite:`www-impala-dummies`.  Impala can aslo use Hbase as a data
+     source. Thus, Impala can be considered as an extension to the
+     Apache Hadoop, providing a better performance alternative to
+     Hive-on-top-of-MapReduce model.
+
+     Hive and other frameworks built on MapReduce are best suited for
+     long running batch jobs, such as those involving batch processing
+     of Extract, Transform, and Load (ETL) type jobs
+     :cite:`www-impala-cloudera`.  The important applications of
+     Impala are when the data is to be partially analyzed or when the
+     same kind of query is to be processed several times from the
+     dataset. When the data is to be partially analyzed, Impala uses
+     parquet as the file format, which is developed by Twitter and
+     Cloudera and it stores data in vertical manner
+     :cite:`www-impala-beginner`. When Parquet queries the dataset it
+     only reads the coloumn split part files rather than reading the
+     entire dataset as compared to Hive.
+     
 111. MRQL
 
      MapReduce Query Language (MRQL, pronounced miracle) "is a query
@@ -2338,7 +2431,7 @@ Streams
      datasources and passes it to a bolt. A bolt is the actual processing
      unit that processes data and produces a new output stream. An output
      stream from a bolt can be given as an input to another
-     bolt. :cite:`www-storm-home-concepts`
+     bolt :cite:`www-storm-home-concepts`.
      
 128. S4
 
@@ -2381,7 +2474,7 @@ Streams
      we might read a stream by consuming updates from a table, in
      Hadoop we might tail a directory of files in HDFS. Samza is a
      stream processing framework. Samza provides a very simple
-     callback-based “process message” API comparable to MapReduce.
+     callback-based *process message* API comparable to MapReduce.
      Samza manages snapshotting and restoration of a stream
      processor’s state.  Samza is built to handle large amounts of
      state (many gigabytes per partition). :cite:`www-samza-1`
@@ -2460,6 +2553,31 @@ Streams
      tolerant and highly available.
 
 134. LinkedIn
+     
+     LinkedIn is a social networking website for Business and employment
+     :cite:`www-linkedinwiki`. LinkedIn has more than 400 million
+     user profiles (as per 10 March2016 news), and increasing
+     at a rate of 2new member every second :cite:`www-linkedinbigdata`.
+     LinkedIn provides different products like:
+
+     - People You May Know
+     - Skill Endorsements
+     - Jobs You May Be Interested In
+     - News Feed Updates
+
+     Such products are based on big data. To achieve such big data
+     tasks, LinkedIn has its ecosystem consist of Oracle, Hadoop, Pig,
+     Hive, Azkaban (Workflow), Avro Data, Zookeeper, Aster Data,
+     Data In- Apache Kafka, Data Out- Apache Kafka and Voldemort
+     :cite:`www-linkedinbigdata`. LinkedIn uses Hadoop and Aster Data
+     as an analytics layer :cite:`www-linkedinquora`. LinkedIn
+     partitioned the user’s data into separate DB’s stored it in XML
+     format. Voldemort is a key lookup system used to store the
+     analytically-derived data for the products like “People You
+     May Know”. Voldemort stores the data in key-value form
+     :cite:`www-linkedinquora`. LinkedIn has exposed REST
+     API to get the user data :cite:`www-linkedindevelopers`.
+
 135. Twitter Heron
 
      Heron is a real-time analytics platform that was developed at
@@ -2487,49 +2605,50 @@ Streams
 136. Databus
 137. Facebook Puma/Ptail/Scribe/ODS
      
-     The real time data Processing at Fcabook is carried out using the
-     technologies like Scibe,PTail, Puma and ODS. While designing the
-     system, facebook primarily focused on the five key decissions
-     that the system should incorporate and that included Ease of Use,
-     Performance , Fault-tolerance , Scalability and
-     Correctness.:cite:'www-facebook' "The real time data analytics
-     ecosystem at facebook is designed to handle hundreds of Gigabytes
-     of data per second via hundreds of data pipelines and this system
-     handles over 200,000 events per second with a maximum latency of
-     30 seconds". :cite:'www-facebook'Fcabook focused on the Seconds
-     of latency while designing the system and not milliseconds as
-     seconds are fast enough to for all the use case that needs to be
-     supported, and it allowed facebook to use persistent message bus
-     for data transport and this made the system more fault toleranat
-     and scalable. :cite:'facebook-paper-2017' The large
-     infrastructure of facebook comprises of hundreds of systems
-     distributed across multiple data centers that needs a continious
-     monitoring to track their health and performance.Which is done by
-     Operational Data Store(ODS).ODS comprises of a time series
-     database (TSDB),which is a query service, and a detection and
-     alerting system. ODS’s TSDB is built atop the HBase storage
-     system.Time series data from services running on Facebook hosts
-     is collected by the ODS write service and written to HBase.
+     The real time data Processing at Facebook is carried out using
+     the technologies like Scribe, Ptail, Puma, and ODS. While
+     designing the system, facebook primarily focused on the five key
+     decisions that the system should incorporate which were Ease of
+     Use, Performance, Fault-tolerance, Scalability, and
+     Correctness. "The real time data analytics ecosystem at facebook
+     is designed to handle hundreds of Gigabytes of data per second
+     via hundreds of data pipelines and this system handles over
+     200,000 events per second with a maximum latency of 30 seconds"
+     :cite:`www-facebook`. Facebook focused on the Seconds of latency
+     while designing the system and not milliseconds as seconds are
+     fast enough to for all the use case that needs to be supported,
+     and it allowed facebook to use persistent message bus for data
+     transport and this also made the system more fault tolerant and
+     scalable :cite:`www-facebook`. The large infrastructure of
+     facebook comprises of hundreds of systems distributed across
+     multiple data centers that needs a continiuous monitoring to
+     track their health and performance which is done by Operational
+     Data Store(ODS) :cite:`facebook-paper-2017`. ODS comprises of a
+     time series database (TSDB), which is a query service, and a
+     detection and alerting system. ODS’s TSDB is built atop the HBase
+     storage system. Time series data from services running on
+     Facebook hosts is collected by the ODS write service and written
+     to HBase.
 
      When the data is generated by the user from their devices, an
-     AJAX request is fired to facebook,and these requests are then
-     written to a log file using Scribe(distributed data transport
-     system), this messaging system collect, aggregate and delivers
+     AJAX request is fired to facebook, and these requests are then
+     written to a log file using Scribe (distributed data transport
+     system), this messaging system collects, aggregates, and delivers
      high volume of log data with few seconds of latency and high
-     throughput.Scribe stores the data in the HDFS(Hadoop Distributed
-     File System) in a tailing fashion, where the new events are
-     stored in log files and the files are tailed below the current
-     events.The events are then written into the storage HBase on
-     distributed machines. This makes the data avalible for both batch
-     and real-time processing. Ptail is an internal tool built to
-     aggregate data from multiple Scribe stores and It then tails the
-     log files and pulls data out for processing. Puma is a stream
-     processing system which is the real-time aggregation/storage of
-     data. Puma provides filtering and processing of Scribe streams
-     (with a few seconds delay), usually Puma batches the storage per
-     1.5 seconds on average and when the last flush completes, then
-     only a new batch starts to avoid the contention issues, which
-     makes i fairly real time
+     throughput. Scribe stores the data in the HDFS (Hadoop
+     Distributed File System) in a tailing fashion, where the new
+     events are stored in log files and the files are tailed below the
+     current events. The events are then written into the storage
+     HBase on distributed machines. This makes the data available for
+     both batch and real-time processing. Ptail is an internal tool
+     built to aggregate data from multiple Scribe stores. It then
+     tails the log files and pulls data out for processing. Puma is a
+     stream processing system which is the real-time
+     aggregation/storage of data. Puma provides filtering and
+     processing of Scribe streams (with a few seconds delay), usually
+     Puma batches the storage per 1.5 seconds on average and when the
+     last flush completes, then only a new batch starts to avoid the
+     contention issues, which makes it fairly real time.
      
 138. Azure Stream Analytics
 
@@ -2550,7 +2669,26 @@ Streams
 
      
 139. Floe
-140. Spark Streaming
+140. Spark Streaming :cite:`www-apache-spark-stream`
+
+     Spark Streaming is a library built on top of Spark Core which
+     enables Spark to process real-time streaming data. The streaming
+     jobs can be written similar to batch jobs in Spark, using either
+     Java, Scala or Python. The input to Spark Streaming applications
+     can be fed from multiple data sources such HDFS, Kafka, Flume,
+     Twitter, ZeroMQ, or custom-defined sources. It also provides a
+     basic abstraction called Discretized Streams or DStreams to
+     represent the continuous data streams. Spark's API for
+     manipulating these data streams is very similar to the Spark
+     Core’s Resilient Distributed Dataset(RDD) API
+     :cite:`www-apache-spark-RDD` which makes it easier for users to
+     move between projects with stored and real-time data as the
+     learning curve is short.  Spark Streaming is designed to provide
+     fault-tolerance, throughput, and scalability. Examples of
+     streaming data are messages being published to a queue for
+     real-time flight status update or the log files for a production
+     server.
+     
 141. Flink Streaming
 142. DataTurbine
 
@@ -2576,6 +2714,27 @@ Basic Programming model and runtime, SPMD, MapReduce
 ----------------------------------------------------------------------
 
 143. Hadoop
+
+     Apache Hadoop is an open source framework written in Java that 
+     utilizes distributed storage and the MapReduce programming model 
+     for processing of big data. Hadoop utilizes commodity hardware to 
+     build fault tolerant clusters.  Hadoop was developed based on 
+     papers published by Google on the Google File System (2003) and 
+     MapReduce (2004) :cite:`www-wikihadoop`.
+
+     Hadoop consists of several modules: the Cluster, Storage, Hadoop 
+     Distributed File System (HDFS) Federation, Yarn Infrastructure, 
+     MapReduce Framework, and the Hadoop Common Package.  The Cluster 
+     is comprised of multiple machines, otherwise referred to as nodes.  
+     Storage is typically in the HDFS.  HDFS federation is the framework 
+     responsible for this storage layer.  YARN Infrastructure provides 
+     computational resources such as CPU and memory. The MapReduce layer 
+     is responsible for implementing MapReduce :cite:`www-hadooparch2`.  
+     The Hadoop Common Package which includes operating and file system 
+     abstractions and JAR files needed to start Hadoop 
+     :cite:`www-wikihadoop`. 
+
+
 144. Spark :cite:`www-spark`
 
      Apache Spark which is an open source cluster computing framework
@@ -2724,25 +2883,36 @@ Basic Programming model and runtime, SPMD, MapReduce
      manipulation and analysis in shared memory system. It is
      particularly suited for implementing on parallel graph traversal
      algorithms where only a subset of the vertices are processed in an
-     iteration The interface is lightweight in that it supplies only a
+     iteration. The interface is lightweight as it supplies only a
      few functions. The Ligra framework has two very simple routines,
      one for mapping over edges and one for mapping over vertices.
 
-     :cite:'ligra-paper-2013 'The implementations of several graph
-     algorithms like BFS, breadth-first search, betweenness centrality,
-     graph radii estimation, graph-connectivity, PageRank and
-     Bellman-Ford single-source shortest paths efficient and scalable,
-     and often achieve better running times than ones reported by other
-     graph libraries/systems
-
-     :cite:'ligra-paper-2' Although the shared memory machines cannot
-     be scaled to the same size as distributed memory clusters but the
-     current commodity single unit servers can easily fit graphs with
-     well over a hundred billion edges in the shared memory systems
-     that is large enough for any of the graphs reported in the papers
-     mentioned above.
+     The implementations of several graph algorithms like BFS,
+     breadth-first search, betweenness centrality, graph radii
+     estimation, graph-connectivity, PageRank and Bellman-Ford
+     single-source shortest paths efficient and scalable, and often
+     achieve better running times than ones reported by other graph
+     libraries/systems :cite:`ligra-paper-2013`.  Although the shared
+     memory machines cannot be scaled to the same size as distributed
+     memory clusters, but the current commodity single unit servers
+     can easily fit graphs with well over a hundred billion edges in
+     the shared memory systems that are large enough for any of the
+     graphs reported in the paper :cite:`ligra-paper-2`.
 
 155. GraphChi
+
+     GraphChi is a disk-based system for computing
+     efficiently on graphs with large number of edges.  It uses a
+     well-known method to break large graphs into small parts, and
+     executes data mining, graph mining, machine learning
+     algorithms. GraphChi can process over one hundred thousand graph
+     updates per second, while simultaneously performing
+     computation :cite:`GraphChi`. GraphChi is a spin-off of the
+     GraphLab. GraphChi brings web-scale graph computation, such as
+     analysis of social networks, available to anyone with a modern
+     laptop
+
+     
 156. Galois
      
      Galois system was built by intelligent software systems team at
@@ -2903,6 +3073,20 @@ Inter process communication Collectives
      distributed systems. 
 
 167. ActiveMQ
+
+     Apache ActiveMQ is a powerful open source messaging and
+     Integration Patterns server :cite:`www-activeMQ`. It is a message
+     oriented middleware(MOM) for the Apache Software Foundation that
+     provides high availability, reliability, performance, scalability
+     and security for enterprise messaging :cite:`ActiveMQ-book`. The
+     goal of ActiveMQ is to provide standard-based, message-oriented
+     application integration across as many languages and platforms as
+     possible. ActiveMQ implements the JMS spec and offers dozens of
+     additional features and value on top of this
+     specifications. ActiveMQ is used in many scenarios such as
+     heterogeneous application integration, as a replacement for RPC
+     and to loosen the coupling between applications.
+     
 168. RabbitMQ
 
      RabbitMQ is a message broker :cite:`www-rabbitmq` which allows
@@ -3038,7 +3222,7 @@ Inter process communication Collectives
      allows applications to send, receive, create, and read messages.
      It allows the communication between different components of a
      distributed application to be loosely coupled, reliable, and
-     asynchronous. :cite:`www-jms-wiki` JMS overcomes the drawbacks of
+     asynchronous :cite:`www-jms-wiki`. JMS overcomes the drawbacks of
      RMI (Remote Method Invocation) where the sender needs to know the
      method signature of the remote object to invoke it and RPC(Remote
      Procedure Call), which is tightly coupled i.e it cannot function
@@ -3052,7 +3236,7 @@ Inter process communication Collectives
      one consumer. On generating message, a producer simple pushes the
      message to a message queue which is known to the consumer. The
      other communication domain is publish/subscribe model, where one
-     message can have multiple receivers. :cite:`www-jms-oracle-docs`
+     message can have multiple receivers :cite:`www-jms-oracle-docs`.
 
 174. AMQP
 
@@ -3089,6 +3273,25 @@ Inter process communication Collectives
      monitors river and floodplains through a set of sensors.
 
 177. Marionette Collective
+
+     It is basically a framework for management of a system where the
+     systems undergo an organized coordination resulting in an
+     automated deployment of systems which creates an orderly workflow
+     or a parallel wise job execution. It doesn’t rely on central
+     inventories such as SSH and uses tools such as Middleware :cite:
+     `www-marionette-webpage`. This gives an advantage of delivering a
+     very scalable and quick execution environment.  Mcollective gives
+     us a huge advantage of working with a large number of servers ,
+     it uses publish/subscribe middleware for communicating with many
+     hosts at once in a parallel manner. Mcollective allows us to
+     interact with a cluster of servers at the same time, it allows us
+     to use a simple command line to call remote agents and there
+     isn’t a centralized inventory. Mcollective uses a broadcast
+     paradigm to distribute the requests , where all the servers
+     receives the request at the same time which are also attached
+     with a filter. The servers which match the filter will act on
+     these requests.
+     
 178. Public Cloud: Amazon SNS
 
      Amazon SNS is an Inter process communication service which gives
@@ -3146,25 +3349,24 @@ Inter process communication Collectives
 
 180. Google Pub Sub
 
-     :cite:`www-google-pub-sub` Google Pub/Sub provides an
-     asynchronous messaging facility which assists the communication
-     between independent applications. It works in real time and helps
+     Google Pub/Sub provides an asynchronous messaging facility which 
+     assists the communication between independent applications 
+     :cite:`www-google-pub-sub`. It works in real time and helps
      keep the two interacting systems independent. It is the same
      technology used by many of the Google apps like GMail, Ads,
      etc. and so integration with them becomes very
-     easy. :cite:`www-google-pub-sub-features` Some of the typical
-     features it provides are: (1) Push and Pull - Google Pub/Sub
-     integrates quickly and easily with the systems hosted on the
-     Google Cloud Platform thereby supporting one-to-many, one-to-one
-     and many-to-many communication, using the push and pull
-     requests. (2) Scalability - It provides high scalability and
-     availability even under heavy load without any degradation of
-     latency. This is done by using a global and highly scalable
-     design. (3) Encryption - It provides security by encryption of
+     easy.  Some of the typical features it provides are: (1) Push 
+     and Pull - Google Pub/Sub integrates quickly and easily with 
+     the systems hosted on the Google Cloud Platform thereby supporting 
+     one-to-many, one-to-one and many-to-many communication, using 
+     the push and pull requests. (2) Scalability - It provides high 
+     scalability and availability even under heavy load without any 
+     degradation of latency. This is done by using a global and highly 
+     scalable design. (3) Encryption - It provides security by encryption of
      the stored data as well as that in transit. Other than these
      important features, it provides some others as well, like the
      usage of RESTful APIs, end-to-end acknowledgement, replicated
-     storage, etc.
+     storage, etc :cite:`www-google-pub-sub-features`.
      
 181. Azure Queues
 
@@ -3257,33 +3459,35 @@ In-memory databases/caches
 
      Redis (Remote Dictionary Server) is an open source ,in-memory,
      key-value database which is commonly referred as a data structure
-     server.  :cite:'redis-book-2011' "It is called a data structure
-     server and not simply a key-value store because Redis implements
-     datastructure which allows keys to contain binary safe strings
-     ,hashes,sets and sortedsets, as well as lists" .Redis’s
-     exceptional performance, simplicity to use and implement, and
-     atomic manipulation of data structures lends itself to solving
-     problems that are difficult or perform poorly when implemented
-     with traditional relational databases.  :cite:'redis-book-2016'
-     "Salivator Sanfilippo(Creator of open-sorce database Redis) makes
-     a strong case that Redis does not need to replace the existing
-     database but is an excellent addition to an enterprise for new
-     functionalities or to solve sometimes intyractable problems."
+     server. "It is called a data structure server and not simply a
+     key-value store because Redis implements data structure which
+     allows keys to contain binary safe strings, hashes, sets, and
+     sortedsets as well as lists" :cite:`redis-book-2011`.  Redis's
+     better performance, easy to use and implement, and atomic
+     manipulation of data structures lends itself to solving problems
+     that are difficult to solve or perform poorly when implemented
+     with traditional relational databases. "Salivator
+     Sanfilippo (Creator of open-source database Redis) makes a strong
+     case that Redis does not need to replace the existing database
+     but is an excellent addition to an enterprise for new
+     functionalities or to solve sometimes intractable problems."
+     :cite:`redis-book-2016`
 
-     :cite:'redis-book-2016' A very popular use pattern for Redis is
-     an in-memory cache for web-applications. The second popular use
-     pattern for REDIS is for metric storage of such quantitative data
-     such as web page usage and user behaviour on gamer leaderboards
-     where using a bit operations on strings, Redis very efficently
-     stores binary information on a particular characteristics.The
-     third popular Redis use pattern is a communication layer between
-     different systems through a publish/subscribe(pub/sub for short),
-     where one can post message to one or more channels that can be
-     acted upon by other systems that are subscribed to or listening
-     to that channel for incoming message. The Comapnies using REDIS
-     includes Twitter to store the timelines of all the user ,
-     Pinterest stores the user follower graph, Github, popular web
-     frameworks like Node.js ,Django,Ruby-on-Rails etc.
+     A widely used use pattern for Redis is an in-memory cache for
+     web-applications and the other being the use of pattern for REDIS
+     for metric storage of such quantitative data such as the web page
+     usage and user behavior on gamer leaderboards where using a bit
+     operations on strings, Redis very efficiently stores binary
+     information on a particular characteristics
+     :cite:`redis-book-2016`.The other popular Redis use pattern is a
+     communication layer between different systems through a
+     publish/subscribe (pub/sub for short), where one can post the message
+     to one or more channels that can be acted upon by other systems
+     that are subscribed to or listening to that channel for incoming
+     messages. The Companies using REDIS includes Twitter to store the
+     timelines of all the user , Pinterest stores the user follower
+     graph, Github, popular web frameworks like Node.js
+     , Django, Ruby-on-Rails etc.
 
 186. LMDB (key value)
 
@@ -3336,6 +3540,28 @@ In-memory databases/caches
      standard JSR 107.
 
 189. Infinispan
+
+     Infinispan is a highly available, extremely scalable key/value data
+     store and data grid platform. The design perspective of
+     infinispan is exposing a distributed,highly concurrent data
+     structure to make the most use of modern multi-core as well as
+     multi-processor architectures. It is mostly used as a distributed
+     cache, but also can be used as a object database or NoSQL
+     key/value store :cite:`infinispan.org`.
+
+     Infinispan is mostly used as a cache store. It is predomininantly
+     used for applications that are clustered, and requires a cache
+     coherency for data consistency. Infinispan is written in java and
+     is open source. It is fully transactional. Infinispan is used to
+     add clusterability as well as high availability to frameworks.
+     Infinispan has many use-cases,they are: 1) it can be used as a
+     distributed cache 2)Storage for temporal data, like web sessions,
+     3)Cross-JVM communication, 4)Shared storage, 5)In-memory data
+     processing and analytics and 6)MapReduce Implementstion in the
+     In-Memory Data Grid. It is also used in research and academia as
+     a framework for distribution execution and
+     storage :cite:`infinispan_wikipedia`.
+     
 190. VoltDB
 
      VoltDB is an in-memory database. It is an ACID-compliant RDBMS
@@ -3625,6 +3851,41 @@ SQL(NewSQL)
      
 203. PostgreSQL
 
+     PostgreSQL is an open-source relational database management
+     system (DBMS).  It runs on all the major operating systems like
+     Linux, Mac OSX, Windows and UNIX.  It supports the ACID
+     (Atomicity, Consistency, Isolation and Durability) properties of
+     a conventional DBMS.  It supports the standard SQL:2008 data
+     types like INTEGER, NUMERIC, etc. besides providing native
+     interafaces for languages such as C++, C, Java and .Net
+     :cite:`www-postgreSQL-about`.
+
+     With the release of its latest version 9.5, it has included new
+     features like the UPSERT capability, Row Level security and
+     multiple features to support Big Data.  These new features rolled
+     out in the latest version make PostgreSQL a very strong contender
+     for modern use.  UPSERT feature has predominantly been released
+     for the application developers in order to help them simplify
+     their web application and software development.  UPSERT is
+     basically a shorthand of "Insert, on conflict update".  Row Level
+     Security (RLS), as the name suggests, enables the database
+     administrators to control which particular rows could be updated
+     by the users.  This helps in ensuring that the users do not
+     inadvertently update rows which they are not meant to.  Features
+     such as BRIN indexing, Faster sorts, CUBE, ROLLUP and GROUPING
+     SETS, Foreign Data Wrappers and TABLESAMPLE were added as a part
+     of the new Big Data features.  Under BRIN indexing (Block Range
+     Indexing), PostgreSQL supports creating small but powerful
+     indexes for large tables.  Using a new algorithm called as
+     "abbreviated keys", PostgreSQL can sort NUMERIC data very
+     quickly.  The CUBE, ROLLUP and GROUPING clauses enable the users
+     to use just a single query to create myriad reports at different
+     levels of summarization.  Using the concept of Foreign Data
+     Wrappers (FDWs), PostgreSQL can be used for querying Big Data
+     systems like Cassandra and Hadoop.  The TABLESAMPLE clause allows
+     quick statistical sample generation of huge tables without any
+     need to sort them :cite:`www-postgreSQL-features`.
+
 204. CUBRID
 
      CUBRID name is deduced from the combination of word CUBE(security
@@ -3716,6 +3977,25 @@ SQL(NewSQL)
      any certified JVM(Java Virtual Machine). :cite:`www-derbymanual`:
       
 209. Pivotal Greenplum
+
+     Pivotal Greenplum is a commercial fully featured data
+     warehouse. It is powered by Greenplum Database an open source
+     initiative." It is powered by advanced cost-based query optimizer
+     thereby delivering high analytical query performance on large
+     data volumes". Pivotal Greenplum is uniquely focused on big data
+     analytics :cite:`pivotal.io`.
+
+     The system consists of a master node, standy master node and
+     segment nodes. The master node consists of the catalog
+     information whereas the data resides on the segment nodes.  The
+     segment nodes runs on one or more segments which are modified
+     PostgreSQL databases and are assigned a content identifier. The
+     data is distributed among these segment nodes. The segment node
+     also supports bult loading and unloading. The master node parses,
+     optimizes an SQL query and dispatch it to all segment
+     nodes. Therefore, it provides powerful and rapid analytics on
+     petabyte scale data volumes :cite:`pivotal_wikipedia`.
+     
 210. Google Cloud SQL
      
      Google Cloud SQL is a fully managed data base as service
@@ -4459,13 +4739,13 @@ NoSQL
      (Resource Description Framework) data.  Resource Description
      Framework (RDF) :cite:`www-RDF` is a model that facilitates the
      interchange of data on the Web.  Using RFD enables us to merge
-     data even if the underlying schemas differ.  :cite:`www-sesame`
-     Sesame has now officially been integrated into RDF4J Eclipse
-     project.  Sesame takes in the natively written code as the input
-     and then performs a series of transformations, generating kernels
-     for various platforms.  :cite:`sesame-paper-2013` In order to
-     achieve this, it makes use of the feature identifier, impact
-     predictor, source-to-source translator and the auto-tuner.  The
+     data even if the underlying schemas differ.  Sesame has now 
+     officially been integrated into RDF4J Eclipse project :cite:`www-sesame`.  
+     Sesame takes in the natively written code as the input and then 
+     performs a series of transformations, generating kernels for
+     various platforms.  In order to achieve this, it makes use of the
+     feature identifier, impact predictor, source-to-source translator 
+     and the auto-tuner :cite:`sesame-paper-2013`.  The
      feature identifier is concerned with the extraction and detection
      of the architectural features that are important for application
      performance.  The impact predictor determines the performance
@@ -4517,6 +4797,36 @@ NoSQL
 ’
 
 253. Google DataStore
+
+     Google Cloud Datastore is a NoSQL document database built for
+     automatic scaling, high performance, and ease of application
+     development :cite:`www-google-datastore`. Though Cloud Datastore
+     interface has many of the features similar to traditional
+     databases,but as a NoSQL database, it differs from the SQL in the
+     way as it describes relationships between various data
+     objects. It also provides a number of features that relational
+     databases are not optimally suited to provide, including
+     high-performance at a very large scale and high-reliability. The
+     Google Cloud DataStore can have different kinds of properties for
+     the same kind of entities, unlike the Relational Database where
+     they are represented in rows. For example, the difference between
+     entities can have the properties with the same name but having
+     different values. The flexible schema maps naturally to
+     object-oriented and scripting languages.
+
+     Non-relational databases have become popular recently, especially
+     for web applications that require high-scalability and
+     performance with high-availability. Non-relational databases such
+     as Cloud DataStore let developers to choose an optimal balance
+     between strong consistency and eventual consistency for each
+     application. This allows developers to combine the benefits of
+     both the database structures :cite:`www-google-datastore-2`.
+     Datastore is designed to automatically scale to very large data
+     sets, allowing applications to maintain high performance as they
+     receive more traffic. Datastore also provides a number of
+     features that relational databases are not optimally suited to
+     provide, including high-performance at a very large scale and
+     high-reliability :cite:`www-google-datastore`.
 
 File management
 ----------------------------------------------------------------------
@@ -4902,35 +5212,36 @@ Cluster Resource Management
 276. Facebook Corona
 
      Corona is a new scheduling framework developed by facebook which
-     seperates the cluster resource management from Job coordination.
-     Facebook employed the MapReduce implementation from Apache Hadoop
-     since 2011 for job scheduling.The scheduling MapReduce framework
-     has it's limitations with the scalibility as when the number of
-     jobs at facebook grew in the next few years.:cite:`www-facebook
-     corona` Another limitation of Hadoop was it was a pull-based
-     scheduling model as the task trackerhave to provide a heartbeat
-     to the job tracker to indicate that it is running which
-     associates with a pre-defined delay,that was problematic for
-     small jobs. Hadoop MapReduce is also constrained by its static
-     slot-based resource management model where a MapReduce cluster is
-     divided into a fixed number of map and reduce slots based on a
-     static configuration – so slots are wasted anytime the cluster
-     workload does not fit the static configuration.
+     separates the cluster resource management from job coordination.
+     Facebook, employed the MapReduce implementation from Apache
+     Hadoop since 2011 for job scheduling. The scheduling MapReduce
+     framework has its limitations with the scalability as when the
+     number of jobs at facebook grew in the next few years. Another
+     limitation of Hadoop was it was a pull-based scheduling model as
+     the task tracker have to provide a heartbeat to the job tracker to
+     indicate that it is running which associated with a pre-defined
+     delay, that was problematic for small jobs 
+     :cite:`www-facebook-corona`. Hadoop MapReduce is also constrained
+     by its static slot-based resource management model where a
+     MapReduce cluster is divided into a fixed number of map and
+     reduce slots based on a static configurations so the slots are
+     not utilized completely anytime the cluster workload does not fit
+     the static configuration.
 
-     :cite:`www-facebook corona`Corona improves over the Hadoop
-     MapReduce by introducing a cluster manager whose only purpose is
-     to track the nodes in the cluster and the amount free
-     resources. A dedicated job tracker is created for each job, and
-     can run either in the same process as the client (for small jobs)
-     or as a separate process in the cluster (for large jobs). The
-     other difference is it uses a push-based scheduling whoese
-     implementation does not involve a periodic heartbeat and thus
-     scheduling latency is minimized. The cluster manager also
-     implements a fair-share scheduling as it has access to the full
-     snapshot of the cluster for making the scheduling decsions.Corona
-     is used as an integeral part of the Facebook's data
-     infrastructure and is helping power big data analytics for teams
-     across the company.
+     Corona improves over the Hadoop MapReduce by introducing a
+     cluster manager whose only purpose is to track the nodes in the
+     cluster and the amount free resources
+     :cite:`www-facebook-corona`. A dedicated job tracker is created
+     for each job and can run either in the same process as the
+     client (for small jobs) or as a separate process in the cluster
+     (for large jobs). The other difference is that it uses a
+     push-based scheduling whose implementation does not involve a
+     periodic heartbeat and thus scheduling latency is minimized. The
+     cluster manager also implements a fair-share scheduling as it has
+     access to the full snapshot of the cluster for making the
+     scheduling decisions. Corona is used as an integral part of the
+     Facebook's data infrastructure and is helping power big data
+     analytics for teams across the company.
      
 277. Celery
 
@@ -5027,7 +5338,7 @@ Cluster Resource Management
      grid-optimized job submission. Moab's unique intelligent and
      predictive capabilities evaluate the impact of future orchestration
      decisions across diverse workload domains (HPC, HTC, Big Data, and
-     Cloud VMs).:cite:`www-moab`
+     Cloud VMs):cite:`www-moab`.
 
 282. Slurm :cite:`www-slurm`
 
@@ -5082,10 +5393,10 @@ Cluster Resource Management
      well as Distributed computing. Their main aim is to reduce the
      dependency on queues and the associated multiple wait times.
 
-     :cite:`www-pilot-job-paper-2016` Using pilot jobs enables us to have a 
-     multilevel technique for the execution of various workloads. This is so 
-     because the jobs are typically acquired by a placeholder job and they 
-     relayed to the workloads.      
+     Using pilot jobs enables us to have a multilevel technique for 
+     the execution of various workloads. This is so because the jobs
+     are typically acquired by a placeholder job and they 
+     relayed to the workloads :cite:`www-pilot-job-paper-2016`.      
 
 File systems
 ----------------------------------------------------------------------
@@ -5531,6 +5842,22 @@ Interoperability
      :cite:`www-cdmiwebsite`.
      
 306. Whirr
+     
+     Apache Whirr is a set of libraries for running cloud services,
+     which provides a cloud-neutral way to run services
+     :cite:`www-ApacheWhirr`. This is achieved by using cloud-neutral
+     provisioning and storage libraries such as jclouds and
+     libcloud. Whirr's API should be built on top these libraries and
+     is not exposed to the users. It is also a common service API, in
+     which the details of its working are, particular to the service.
+     Whirr provides smart defaults for services by which any properly
+     configured system can run quickly, while still being able to
+     override settings as needed. Whirr can also be used as a command
+     line tool for deploying clusters. It uses low level API libraries
+     to work with providers which was mentioned in the
+     :cite:`www-slideshare-ApacheWhirr`.
+
+     
 307. Saga
 
      SAGA(Simple API for Grid Applications) provides an abstraction
@@ -5539,7 +5866,7 @@ Interoperability
      its becoming difficult for most applications to utilize the
      advances in hardware. SAGA API provides a high level abstraction
      of the most common Grid functions so as to be independent of the
-     diverse and dynamic Grid environments. :cite:`saga-paper` This
+     diverse and dynamic Grid environments :cite:`saga-paper`. This
      shall address the problem of applications developers developing
      an application tailored to a specific set of infrastructure.
      SAGA allows computer scientists to write their applications at
@@ -5549,7 +5876,7 @@ Interoperability
      in an intelligent fashion so that it can work on any underlying
      grid system. “SAGA was built to provide a standardized, common
      interface across various grid middleware systems and their
-     versions.”  :cite:`www-saga-ogf-document`
+     versions” :cite:`www-saga-ogf-document`.
 
      As SAGA is to be implemented on different types of middleware it
      does not specify a single security model but provides hooks to
@@ -5561,7 +5888,7 @@ Interoperability
      stream package, RPC package, etc. SAGA provides interoperability
      by allowing the same application code to run on multiple grids
      and also communicate with applications running on
-     others. :cite:`saga-paper`
+     others :cite:`saga-paper`.
 
 308. Genesis
 
@@ -5570,32 +5897,33 @@ DevOps
 
 309. Docker (Machine, Swarm)
 
-     Docker is an open-source container based technology.A container
+     Docker is an open-source container-based technology. A container
      allows a developer to package up an application and all its part
-     includig the stack it runs on, dependencies it is associated with
-     and everything the application requirs to run within an isolated
-     enviorment . Docker seperates Application from the underlying
-     Operating System in a similar way as Virtual Machines seperates
-     the Operating System from the underlying Hardware.Dockerizing an
-     application is very lightweight in comparison with running the
-     application on the Virtual Machine as all the containers share
-     the same underlying kernel, the Host OS should be same as the
-     container OS (eliminating guest OS) and an average machine cannot
-     have more than few VMs running o them.
+     including the stack it runs on, dependencies it is associated
+     with and everything the application requires to run within an
+     isolated environment. Docker separates Application from the
+     underlying Operating System in a similar way as Virtual Machines
+     separates the Operating System from the underlying
+     hardware. Dockerizing an application is lightweight in comparison
+     with running the application on the Virtual Machine as all the
+     containers share the same underlying kernel, the Host OS should
+     be same as the container OS (eliminating guest OS) and an average
+     machine cannot have more than few VMs running o them.
 
-     :cite:'docker-book' Docker Machine is a tool that lets you
-     install Docker Engine on virtual hosts, and manage the hosts with
-     docker-machine commands. You can use Machine to create Docker
-     hosts on your local Mac or Windows box, on your company network,
-     in your data center, or on cloud providers like AWS or Digital
-     Ocean. For Docker 1.12 or higher swarm mode is integerated with
+     Docker Machine is a tool that lets you install Docker Engine on
+     virtual hosts, and manage the hosts with docker-machine commands
+     :cite:`docker-book`. You can use Machine to create Docker hosts
+     on your local Mac or Windows machine, on your company network, in
+     your data center, or on cloud providers like AWS or Digital
+     Ocean. For Docker 1.12 or higher swarm mode is integrated with
      the Docker Engine, but on the older versions with Machine's swarm
-     option, we can configure a swarm cluster Docker Swarm provides
+     option, user can configure a swarm cluster. Docker Swarm provides
      native clustering capabilities to turn a group of Docker engines
-     into a single, virtual Docker Engine. With these pooled resources
-     ,:cite:'www-docker'"you can scale out your application as if it
-     were running on a single, huge computer" as swarm can be scaled
-     upto 1000 Nodes or upto 50,000 containers
+     into a single, virtual Docker Engine. "With these pooled
+     resources user can scale out your application as if it were
+     running on a single, huge computer" :cite:`www-docker`. Docker
+     Swarm can be scaled up to 1000 Nodes or up to 50,000 containers
+     
 310. Puppet
 
      Puppet is an open source software configuration management
@@ -5661,20 +5989,37 @@ DevOps
      systems.
 
 313. SaltStack
+
+     SaltStack (also Salt) platform is a Python-based open-source
+     configuration management software and remote execution engine,
+     which makes systems and configuration management software for the
+     orchestration and automation of CloudOps, ITOps and DevOps at
+     scale :cite:`www-saltstack`. SaltStack is used to manage all the
+     data center things including any cloud, infrastructure,
+     virtualization, application stack, software or code. Salt is
+     built on two major concepts, which are clearly mentioned in
+     :cite:`SaltStack-book` as remote execution and configuration
+     management. In the remote execution system, Salt leverages Python
+     to accomplish complex tasks with single-function calls. The
+     configuration management system in Salt, called States, builds
+     upon the remote execution foundation to create repeatable,
+     enforceable configuration for the minions (connects to the master
+     and treats the master as the source)
+     
 314. Boto
 
-     :cite:`www-boto` The latest version of Boto is Boto3.
-     :cite:`www-boto-github` Boto3 is the Amazon Web Services (AWS)
-     :cite:Software Development Kit (SDK) for Python. It enables the
-     :cite:Python developers to make use of services like Amazon S3
-     :cite:and Amazon EC2.  `www-boto3-documentation` It provides
-     :cite:object oriented APIs along with low-level direct service
-     :cite:access. It provides simple in-built functions and
-     :cite:interfaces to work with Amazon S3 and EC2.
+     The latest version of Boto is Boto3 :cite:`www-boto`.
+     Boto3 is the Amazon Web Services (AWS) Development Kit (SDK) for
+     Python :cite:`www-boto-github`. It enables the
+     Python developers to make use of services like Amazon S3
+     and Amazon EC2 :cite:`www-boto-amazon-python-sdk`.  It provides
+     object oriented APIs along with low-level direct service 
+     :cite:`www-boto3-documentation`.  It provides simple in-built functions 
+     and interfaces to work with Amazon S3 and EC2.
 
-     :cite:`www-boto-amazon-python-sdk` Boto3 has two distinct levels of APIs 
-     - client and resource. One-to-one mappings to underlying HTTP API
-     is provided by the client APIs. Resource APIs provide resource
+     Boto3 has two distinct levels of APIs - client and resource 
+     :cite:`www-boto-amazon-python-sdk`. One-to-one mappings to underlying 
+     HTTP API is provided by the client APIs. Resource APIs provide resource
      objects and collections to perform various actions by accessing
      the attributes.  Boto3 also comes with 'waiters'. Waiters are
      used for polling status changes in AWS, automatically. Boto3 has
@@ -5757,7 +6102,7 @@ DevOps
      file called referred as a ‘template’. "A Heat template describes
      the infrastructure for a cloud application in a text file that is
      readable and writable by humans, and can be checked into version
-     control" :cite:`www-heat-wiki`
+     control" :cite:`www-heat-wiki`.
 
      Once the execution enviroment has been setup and a user wants to
      modify the architecture of resources in the future, a user needs
@@ -5933,6 +6278,17 @@ DevOps
      anywhere".:cite:`lindsay2016`
      
 332. OpenTOSCA
+
+     The Topology and Orchestration Specification for Cloud
+     Applications,TOSCA is a new standard facilitating platform
+     independent description of Cloud applications. OpenTOSCA is a
+     runtime for TOSCA-based Cloud applications. The runtime enables
+     fully automated plan-based deployment and management of
+     applications defined in the OASIS TOSCA packaging format CSAR,
+     Cloud Service ARchive.  The key tasks of OpenTOSCA, are to
+     operate management operations, run plans, and manage state of the
+     TOSCA :cite:`openTOSCA-paper`.
+     
 333. Winery
 
      Eclipse Winery :cite:`www-winery` is a "web-based environment to 
@@ -5953,6 +6309,36 @@ DevOps
      application."
 
 334. CloudML
+                                                            
+     CloudML a research project initiated by SINTEF in 2011
+     :cite:`www-cloudml`. Cloud computing facilitates to shared
+     and virtualized computer capabilities like storage, memory,
+     CPU, GPU and networks, to user. There is multiple cloud provider,
+     also the Iaas(Infrastructure-as-a-service) and
+     Pass(Platform-as-a-service). To operate multiple cloud for
+     applications, which requires multiple private, public, or hybrid
+     clouds, limit the capability of each cloud solution.  Solution
+     provided by such cloud will gets incompatible with others. So,
+     to providing the solution which can compatible with multi-cloud
+     platform is a tedious job. To achieve this CloudML provides a
+     “domain-specific modelling language along with run time environment”
+     :cite:`www-cloudml`.It provides the interoperability and provide
+     vendor lock-in, also it provides the solution on specification of
+     provisioning, deployment, and adaptation concerns of multi-cloud
+     systems. At design time as well as runtime :cite:`www-cloudml`.
+     CloudML provides two level of abstraction while developing model
+     for multi-cloud application:
+
+     - Cloud Provider-Independent Model (CPIM), this specifies the
+       provisioning and deployment.
+       
+     - Cloud Provider-Specific Model (CPSM), which filters the
+       provisioning and deployment of multiple cloud application,
+       according to its cloud.
+
+     This two abstract approach help CloudML to achieve the multi-cloud 
+     application support :cite:`www-cloudmlwiki`.
+
 335. Blueprints
 
      In :cite:`www-blueprints`, it is explained that "IBM Blueprint 
@@ -6071,19 +6457,18 @@ IaaS Management from HPC to hypervisors
           
 340. KVM
 
-     :cite:`www-KVM-wiki` It is an acronym for Kernel-based Virtual
-     Machine for the Linux Kernel that turns it into a hypervisor upon
-     installation. It was originally developed by Qumranet in 2007. It
+     It is an acronym for Kernel-based Virtual Machine for the Linux
+     Kernel that turns it into a hypervisor upon installation. It was
+     originally developed by Qumranet in 2007 :cite:`www-KVM-wiki`. It
      has a kernel model and uses kernel as VMM. It only supports fully
      virtualized VMs. It is very active for Linux users due to it’s
      ease of use, it can be completely controlled by ourselves and
-     there is an ease for migration from or to other
-     platforms. :cite:`www-KVM-webpage` It is built to run on a x86
-     machine on an Intel processor with virtualization technology
-     extensions (VT-x) or an AMD-V. It supports 32 and 64 bit guests
-     on a 64 bit host and hardware visualization features. The
-     supported guest systems are Solaris , Linux, Windows and BSD
-     Unix.
+     there is an ease for migration from or to other platforms. It is
+     built to run on a x86 machine on an Intel processor with
+     virtualization technology extensions (VT-x) or an AMD-V. It
+     supports 32 and 64 bit guests on a 64 bit host and hardware
+     visualization features. The supported guest systems are Solaris ,
+     Linux, Windows and BSD Unix :cite:`www-KVM-webpage`.
 
 341. QEMU
      
@@ -6777,6 +7162,19 @@ Message and Data Protocols
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 377. Avro
+
+     Apache Avro is a data serialization system, which provides rich
+     data structures, remote procedure call(RPC), a container file to
+     store persistent data and simple integration with dynamic
+     languages :cite:`www-Avro`.  Avro depends on schemas, which are
+     defined with JSON. This facilitates implementation in other
+     languages that have the JSON libraries.  The key advantages of
+     Avro are schema evolution - Avro will handle the
+     missing/extra/modified fields, dynamic typing - serialization and
+     deserialization without code generation, untagged data - data
+     encoding and faster data processing by allowing data to be
+     written without overhead.
+     
 378. Thrift
 
      The Apache Thrift software framework, for scalable cross-language
@@ -7059,8 +7457,8 @@ New Technologies (To Be Integrated by the AIs)
      period until a review indicates that the project meets the 
      standards of other ASF projects :cite:`www-apacheincubator`
 
-390. :cite:`RMBDP-Book` Askalon was developed at the University of
-     Innsbruck.  It is application development as well as a runtime
+390. Askalon was developed at the University of Innsbruck :cite:`RMBDP-Book`.  
+     It is application development as well as a runtime
      environment. It allows easy execution of distributed work flow
      applications in service oriented grids. It uses a Service
      Oriented Architecture. Also, for its Grid middleware it uses the
@@ -7230,6 +7628,94 @@ New Technologies (To Be Integrated by the AIs)
      platforms, for steering and image processing, etc.; c) algorithms, for 
      task planning and obstacle avoidance; and, d) user interfaces, such as 
      tele-operation and sensor data display.:cite:`www-software-categories`
+
+
+396. Apache Flex
+
+     Apache Flex :cite:`www-flex` is an open source aplication
+     framework for building and maintaining mobile and web
+     applications that deploy consistently on multiple browsers,
+     desktops and mobile devices. It was initially developed by
+     Macromedia and then acquired by Adobe Systems. It was later
+     donated to the Apache Software Foundation in 2011
+     :cite:`blog-flex`. It can pull data from multiple back-end
+     sources such as Java, Spring, PHP, Ruby, .NET, Adobe ColdFusion,
+     and SAP and display it visually allowing users to drill down into
+     the data for deeper insight and even change the data and have it
+     automatically updated on the back end :cite:`wiki-flex`.
+
+397. Apache Ranger
+     Apache Ranger :cite:`www-apache-ranger` is open source software project
+     designed to provide centralized security services to various components
+     of Apache Hadoop. Apache Hadoop provides various mechanism to store,
+     process and access the data. Each Apache tool has its own security
+     mechanism. This increases administrative overhead and is also error
+     prone.  Apache Ranger fills this gap to provide a central security and
+     auditing mechanism for various Hadoop components
+     :cite:`www-ranger-architecture`. Using Ranger, Hadoop administrators can
+     perform security administration tasks using a central UI or Restful web
+     services. He can define policies which enable users/user-groups to
+     perform specific action using Hadoop components and tools. Ranger
+     provides role based access control for datasets on Hadoop at column and
+     row level.  The blog article :cite:`www-ranger-key-features` explains
+     that the row level filtering and dynamic data masking are most important
+     features of Apache Ranger. Ranger also provides centralized auditing of
+     user acces and security related administrative actions.
+     
+398. Google Cloud Machine Learning
+     
+     Google Could Machine Leaning is a Googles cloud based managed
+     system for building machine learning model, capable to work on any
+     type and volume of data. User can create their own machine learning
+     model using GoogleTensorFlow framework, which helps to use the
+     range of Google products from Google Photos to Google Cloud Speech.
+     We can build our machine learning model regardless the size, google
+     will managed it infrastructure according to  requirement. User can
+     immediately host the created model and start predicting on new data
+     :cite:`www-googlecloudmachinelearning`.Cloud Machine Learning provides
+     two important things:
+     
+     - Help user to train the machine learning model at large scale
+       with the help of TensorFlow  training application.
+	
+     - User can host the trained model on cloud,  this will help
+       to use the large and new data available on cloud, which help in
+       creating good model.
+
+     Google CloudML will help user to focus on model instead of hardware
+     configuration and resource management :cite:`www-googlecloudoverview`.
+
+399. Karajan
+
+     Karajan is used to allow users to describe various workflows
+     using XML :cite:`RMBDP-Book-1`.  It also uses a custom yet user
+     friendly language called K.  The advantages of using XML and K is
+     that we can use Directed Acyclic Graphs (DAGs) to describe
+     hierarchical workflows.  Besides, it is also very easy to handle
+     concurrency using trivial programming constructs like if/while
+     orders.  It can also use tools such as Globus GRAM for parallel
+     or distributed execution of various workflows.  From an
+     architectural perspective, Karajan mainly consists of three
+     components: Workflow engine, that monitors the execution and is
+     responsible for the higher level interaction with higher level
+     components like the Graphical User Interface Module (GUI) for the
+     description of various workflows; Workflow service, that is used
+     to allow the execution of various workflows using specific
+     functionalities that can be accessed by the workflow engine using
+     specific libraries; and the Checkpointing subsystem that monitors
+     and checks the current state of the workflow.  Karajan is
+     typically used as a scientific workflow scheduling technique for
+     various Big Data platforms.
+
+     The Karajan code, that can be obtained from Java CoG Kit CVS
+     archive has two interfaces: the command line interface (CLI) and
+     the GUI.  The CLI can be accessed via bin/karajan and provides a
+     minimalist interface that is non-interactive and doesn't provide
+     much feedback on the execution status.  As against this, the GUI
+     can be accessed via bin/karajan-gui and provides an enriched
+     interface that provides visual features to determine the
+     execution status besides being interactive in real time
+     :cite:`Karajan-interfaces`.
 
 .. _techs-exercise:
 

@@ -25,7 +25,7 @@ Tutorial: Deploying Open MPI Cluster with ``cm launcher``
 
 .. tip:: approximate time 10-15 minutes
 
-In this tutorial, we are going to deploy a Open MPI cluster using Cloudmesh
+In this tutorial, we are going to deploy an Open MPI cluster using Cloudmesh
 ``launcher`` command.
 
 Start Cluster
@@ -165,7 +165,7 @@ Let's try a simple example to try a MPI program. Here is hello.c:
 Compile hello.c
 ^^^^^^^^^^^^^^^^^^^
 
-Since we are running Ubuntu 14.04 in this example, we complie with ``mpicc``:
+Since we are running Ubuntu 14.04 in this example, we compile with ``mpicc``:
 
 ::
 
@@ -199,7 +199,7 @@ the cluster.
 Copy ``hello`` program to each node
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``hello`` program should to be found on each node. We propagate the binary using ``scp``:
+``hello`` program should be found on each node. We propagate the binary using ``scp``:
 
 ::
 

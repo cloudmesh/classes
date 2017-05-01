@@ -13,11 +13,11 @@ work.
 
 We have two ways of providing content to the class:
 
-* we release content only on weekly basis
+* we release content only on a weekly basis
 * we release content even in draft form
 
 We decided to do the later so you may have the ability to see what is
-comming up. Please do not mistake this as a changing requirement. This
+coming up. Please do not mistake this as a changing requirement. This
 is an opportunity for you. You are not required to look at lectures or
 assignments that are not yet released for this class.
 

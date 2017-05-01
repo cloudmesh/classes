@@ -14,7 +14,7 @@ management system.
 Prerequisite
 ----------------------------------------------------------------------
 
-In order to conduct this lesson you should have knowledge of
+In order to conduct this lesson, you should have knowledge of
 
 * `Shell Access <../shell-access.html>`_
 * `Package Managers <../linux/packagemanagement.html>`_
@@ -22,9 +22,9 @@ In order to conduct this lesson you should have knowledge of
 Description
 ----------------------------------------------------------------------
 
-Salt or SaltStack is a open source software for managing configurations and
+Salt or SaltStack is an open source software for managing configurations and
 execution application. It is written in Python and runs with ZeroMQ which is an
-asynchronous messaging library. Salt is similar to Puppet, Ansible and Chef.
+asynchronous messaging library. Salt is similar to Puppet, Ansible, and Chef.
 
 For more introduction to Salt, see here:
 http://docs.saltstack.com/en/latest/topics/index.html
@@ -34,7 +34,7 @@ Salt Installation
 
 Salt can be installed by package management tools or a simple installation
 script. This lesson is based on FutureSystems which means you create a VM
-instance on India OpenStack and install Salt on top of it. We assume you use a
+instance on India OpenStack and install Salt on top of it. We assume you use an
 OpenStack instance on FutureSystems.
 
 .. note:: If don't know how to launch a new instance? `See here
@@ -168,7 +168,7 @@ Top File
 The top file (``top.sls``) is to map what **SLS modules** get loaded onto what
 **minions** via the state system. For example **apache sls module** can be
 loaded to install and run on the target machine using ``top.sls`` file.  The
-top file creates a few general abstractions. First it maps what nodes should
+top file creates a few general abstractions. First, it maps what nodes should
 pull from which environments, next it defines which matches systems should draw
 from.
 
@@ -199,8 +199,8 @@ The ``webserver.sls`` content include ``apache2`` package installation::
 Salt Call
 -------------------------------------------------------------------------------
 
-We use ``salt-call`` command to try our example of running a Apache web server.
-With ``--local`` option, we can simply run Salt wihtout communicating with a
+We use ``salt-call`` command to try our example of running an Apache web server.
+With ``--local`` option, we can simply run Salt without communicating with a
 Salt master. The ``--local`` option indicates that *salt-minion* reads the
 state tree in a local file system and does not to connect to a Salt Master for
 instructions. Optionally you can you ``-l`` option for generating debug
@@ -326,7 +326,7 @@ registered. The output looks like this::
 Nginx Installation and Start
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Before we install and start Nginx web server, we may need to stop a Apache web
+Before we install and start Nginx web server, we may need to stop an Apache web
 server first which uses HTTP (80) port.
 
 ::
@@ -364,7 +364,7 @@ The output looks like so::
 * '*': all hosts
   The ‘*’ refers to all minions whose key is accepted. In this example,
   ``salt`` in only minion targeted to install ``nginx``.  The particular
-  hostname can be speicified, e.g. ``salt 'salt' ...``.
+  hostname can be speicified e.g. ``salt 'salt' ...``.
 
 * pkg.install: Install a package, ``refresh=True`` option can be added to
   update the dpkg database.

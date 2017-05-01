@@ -16,14 +16,14 @@ cluster.
 Overview
 -------------------------------------------------------------------------------
 
-Apache Software Foundation (ASF) defines YARN as a next generation of MapReduce
+Apache Software Foundation (ASF) defines YARN as the next generation of MapReduce
 or MapReduce 2.0 (MRv2). The main change of MRv2 is the resource management
 from the programming model of MapReduce. The MRv2 consists of a single master
 ResourceManager (RM), one slave NodeManager (NM) per cluster-node, and
 ApplicationMaster (AM) per application. Under YARN, MapReduce is independent as
-it behaves like a one type of available application running in a YARN
+it behaves like a type of available application running in a YARN
 container. YARN is an abbreviation for Yet Another Resource Negotiator which
-was addressed in January, 2008 from
+was addressed in January 2008 from
 https://issues.apache.org/jira/browse/MAPREDUCE-279
 
 .. figure:: ../../images/yarn.png
@@ -89,7 +89,7 @@ ApplicationsManager (ASM)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The second part of the Resource Manager, called the Application Manager,
-receives job submissions and manages launching the Application Master. The
+receives job submissions and manages to launch the Application Master. The
 Application Manager handles failures of the Application Master, while the
 Application Master handles failures of job containers. The Application Master
 then is really an application-specific container charged with management of
@@ -115,7 +115,7 @@ NodeManager (NM)
 NodeManager (NM) is a YARN service that manages resources and deployment on a
 cluster node. NM is separated from TaskTracker from MR1 and now NM is
 responsible for launching containers, each of which can house a map or reduce
-task.  NM is YARN’s per-node agent, and takes care of the individual compute
+task.  NM is YARN’s per-node agent and takes care of the individual compute
 nodes in a Hadoop cluster. This includes keeping up-to date with the
 ResourceManager (RM), overseeing containers’ life-cycle management; monitoring
 resource usage (memory, CPU) of individual containers, tracking node-health,
@@ -132,7 +132,7 @@ containers using the YARN framework. AM is started on a container by the
 ResourceManager's launcher. The first thing that AM needs to do is to connect
 and register itself with the ResourceManager (RM). The registration sets up
 information within RM regarding what host:port AM is listening on to provide
-any form of functionality to a client as well as a tracking url that a client
+any form of functionality to a client as well as a tracking URL that a client
 can use to keep track of status/job history if needed.  AM needs to send a
 heartbeat to RM at regular intervals to inform RM that it is up and alive. 
 
