@@ -4,14 +4,14 @@ LaTeX
 Introduction
 ------------
 
-Mastering a text processing system is an essential part of a researchers
+Mastering a text processing system is an essential part of a researcher's
 life. Not knowing how to use a text processing system can slow down the
 productivity of research drastically.
 
 The information provided here is not intended to replace one of the many
-text books available about LaTeX. For the beginning you might be just
-fine with the documentation provided here. For serious users I recommend
-to purchase a book. Examples for books include
+text books available about LaTeX. For the beginning, you might be just
+fine with the documentation provided here. For serious users, I recommend
+purchasing a book. Examples for books include
 
 -  LaTeX Users and Reference Guide, by Leslie Lamport
 -  LaTeX an Introduction, by Helmut Kopka
@@ -24,14 +24,14 @@ LaTeX vs. X
 -----------
 
 We will refrain from providing a detailed analysis on why we use LaTeX
-in many cases versus other technologies. In general we find that LaTeX:
+in many cases versus other technologies. In general, we find that LaTeX:
 
-* is incredible stable
-* produces high quality output
+* is incredibly stable
+* produces high-quality output
 * is platform independent
 * has lots of templates
 * has been around for many years so it works well
-* removes you form the pain of figure placements
+* removes you from the pain of figure placements
 * focusses you on content rather tan the appearance of the paper
 * integrates well with code repositories such as git to write
   collaborative papers.
@@ -47,13 +47,13 @@ Word
 
 Word is arguably available to many, but if you work on Linux you may
 be out of luck. Also Word often focusses not on structure of the text
-but on look. Many students abuse Word and the documents in Word become
+but on its apperance. Many students abuse Word and the documents in Word become
 a pain to edit with multiple users. Recently Microsoft has offered
 online services to collaborate on writing documents in groups which
 work well. Integration with bibliography managers such as endnote or
 Mendeley is possible.
 
-However we ran into issues whenever we use word:
+However, we ran into issues whenever we use word:
 
 * Word tends sometimes to crash for unknown reasons and we lost a lot
   of work
@@ -67,22 +67,22 @@ However we ran into issues whenever we use word:
   where we have not lost images. Maybe that has changed, so let us
   know
 
-However we highly recommend the collaborative editing features of Word
+However, we highly recommend the collaborative editing features of Word
 that work on a paragraph and not letter level. Thus saving is
 essential so you do not block other people from editing the paragraph.
 
 Google Docs
 ^^^^^^^^^^^
 
-Unfortunately many useful features got lost in the new google
-docs. However it is great to collaborate quickly online, share
+Unfortunately, many useful features got lost in the new google
+docs. However, it is great to collaborate quickly online, share
 thoughts and even write your latex documents together if you like
 (just copy your work in a file offline and use latex to compile it ;-)
 )
 
 The biggest issue we have with Google Docs is that it does not allow
 the support of 2 column formats, that the bibliography integration is
-non existent and that paste and copy from web pages and images
+non-existent and that paste and copy from web pages and images
 encourages unintended plagiarism when collecting information without
 annotations (LaTeX and Word are prone to this too, but we found from
 experience that it tends to happen more with Google docs users.
@@ -93,15 +93,15 @@ A Place for Each
 When looking at the tools we find a place for each:
 
 Google docs:
-   short meeting notes, small documents, quick online collaborations
-   to develop documents collaboratively at the same time
+   Short meeting notes, small documents, quick online collaborations
+   to develop documents collaboratively at the same time.
 
 Word:
-   available to many, supports 2 column format, supports paragraph
+   Available to many, supports 2 column format, supports paragraph
    based collaborative editing, Integrates with bibliography managers.
 
 LaTeX:
-   reduce failures, great offline editing, superior bibliography
+   Reduces failures, great offline editing, superior bibliography
    management, superior image placement, runs everywhere. Great
    collaborative editing with sharelatex, allows easy generation of
    proceedings written by hundreds of people with shared index.
@@ -126,7 +126,7 @@ Vi/Vim
 
 Another popular editor is vi or vim. It is less feature rich but many
 programmers ar using it. As it can edit ASCII text you can edit LaTeX.
-With the LaTeX add ons to vim, vim becomes similar powreful while
+With the LaTeX add-ons to vim, vim becomes similar powerful while
 offering help and syntax highlighting for LaTeX as emacs does. (The
 authors still prefer emacs)
 
@@ -193,13 +193,13 @@ Thus you will have the most of them on your system.
 -  jabref: less fancy GUI to bibtex files
 
 Make sure you check that these programs are there, for example with
-the linux commands::
+the Linux commands::
 
    which pdflatex
    which bibtex
    which jabref (on OSX you may have an icon for it)
 
-If these commands are missing, please instal them.
+If these commands are missing, please install them.
 
 Online Services
 ^^^^^^^^^^^^^^^
@@ -297,7 +297,7 @@ not recommend vizio as it is not universally available and produces
 images that in case you have to present them in a slide presentation
 does not easily reformat if you do not use 4x3 aspect ratio.
 
-Naturally graphics should be provided in SVG or PDF format so they can
+Naturally, graphics should be provided in SVG or PDF format so they can
 scale well when we look at the final PDF. Including PNG, gif, or jpeg
 files often do not result in the necessary resolution or the files
 become real big. For this reason we for example can also not recommend
@@ -314,14 +314,14 @@ LaTeX integrates very well with bibtex. There are several preformatted
 styles available. It includes also styles for ACM and IEEE
 bibliographies. For the ACM style we recommend that you replace
 abbrv.bst with abbrvurl.bst, add hyperref to your usepackages so you
-can also display urls in your citations:
+can also display URLs in your citations:
 
 ::
 
     \bibliographystyle{IEEEtran}
     \bibliography{references.bib}
 
-Than you have to run latex and bibtex in the following order:
+Then you have to run latex and bibtex in the following order:
 
 ::
 
@@ -341,7 +341,7 @@ Two programs stand out when managing bibliographies: emacs and jabref:
 
 *  http://www.jabref.org/
 
-Other programs such as mendeley, Zotero, and even endnote integrate
+Other programs such as Mendeley, Zotero, and even endnote integrate
 with bibtex. However their support is limited, so we recommend that
 you just use jabref. Furthermore its free and runs on all platforms.
 
@@ -350,7 +350,7 @@ jabref
 ^^^^^^
 
 Jabref is a very simple to use bibliography manager for LaTeX and
-other systems. It cand create a multitude of bibliography file formats
+other systems. It can create a multitude of bibliography file formats
 and allows upload in other online bibliography managers.
 
 Video: https://youtu.be/cMtYOHCHZ3k
@@ -361,7 +361,7 @@ Video with cc: https://www.youtube.com/watch?v=QVbifcLgMic
 jabref and MSWord
 ^^^^^^^^^^^^^^^^^
 
-Accordung to others it is possible to integrate jabref
+According to others it is possible to integrate jabref
 references directly into MSWord. This has been conducted so far
 however only on a Windows computer.
 
@@ -397,7 +397,7 @@ Here are the steps the need to be done:
 
 As you can see there is significant effort involve, so we do recommend you
 use LaTeX as you can focus there on content rather than dealing with
-complex layout decisions. This is especially true, if your papers has
+complex layout decisions. This is especially true, if your papers have
 figures or tables, or you need to add references.
 
 Other Reference Managers
@@ -412,10 +412,10 @@ Endnote
 ~~~~~~~
 
 Endnote os a reference manager that works with Windows. Many people
-use endnote. However, in the past endnote has lead to complications
+use Endnote. However, in the past, Endnote has caused complications
 when dealing with collaborative management of references. Its price is
-considerable. We have lost many hours of work because endnote being in
-some cases instable. As student you may be able to use endnote for
+considerable. We have lost many hours of work because of unstability of Endnote in
+some cases. As a student, you may be able to use Endnote for
 free at Indiana University.
 
 * http://endnote.com/
@@ -434,7 +434,7 @@ Installation instructions are available at
 
 https://www.mendeley.com/features/reference-manager/
 
-When dealing with large databases we found Mendeleys integration into
+When dealing with large databases, we found the integration of Mendeley into
 word slow.
 
 Zotero
@@ -449,7 +449,7 @@ The download link is available from
 
 * https://www.zotero.org/
 
-We have limited experience with zotero
+We have limited experience with Zotero
 
 
 Slides
@@ -510,7 +510,7 @@ Including figures over two columns:
 * positioning figures with \textwidth and \columnwidth
   https://www.sharelatex.com/learn/Positioning_images_and_tables
 
-* An organization as author. Assume the author is National Institute
+* An organization as the author. Assume the author is National Institute
   of Health and want  to have the author show up, please do::
 
     key= {National Institute of Health},
