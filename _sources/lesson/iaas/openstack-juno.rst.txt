@@ -21,7 +21,7 @@ OpenStack on FutureSystems
           For this example we assume you have set the shell variable
 	  :pink:PORTALNAME to your FutureSystems portal username. This can
 	  be done as follwows. Let us assume your portal name is
-	  `albert`. Than you can set it with::
+	  `albert`. Then you can set it with::
 
               $ export PORTALNAME=albert
 
@@ -40,8 +40,8 @@ OpenStack on FutureSystems
 Login
 -------
 
-Currently FutureSystems has OpenStack Juno installed on India. To use
-it you need to first log into india and prepare your Openstack
+Currently, FutureSystems has OpenStack Juno installed on India. To use
+it you need to first log into india and prepare your OpenStack
 credentials::
 
        $ ssh $PORTALNAME@india.futuresystems.org
@@ -63,7 +63,7 @@ can be activated wih ::
     $ source ~/.cloudmesh/clouds/india/juno/openrc.sh
 
 
-In future this file will be created with the help of cloudmesh
+In future, this file will be created with the help of cloudmesh
 simplifying access to multiple heterogeneous clouds on FutureSystems.
 
 List flavors
@@ -73,7 +73,7 @@ To list the flavors, please execute the following command ::
 
     $ nova flavor-list
 
-Everything is fine, if you see an output similar to ::
+Everything is fine if you see an output similar to ::
 
        +----+-----------+-----------+------+-----------+------+-------+-------------+-----------+-------------+
        | ID | Name      | Memory_MB | Disk | Ephemeral | Swap | VCPUs | RXTX_Factor | Is_Public | extra_specs |
@@ -117,7 +117,7 @@ Key management
 	    ~/.ssh/$PORTALNAME-key
 
 	  if so, please use another name. However, if you want to
-	  reuse the key, you certainly can do that. Also make sure the
+	  reuse the key, you certainly can do that. Also, make sure the
 	  key is not already uploaded.  This can be easily done in the
 	  following way::
 
@@ -144,7 +144,7 @@ rsa, your key will be located at `~/.ssh/id_rsa.pub`.
 Managing security groups
 ----------------------------------------------------------------------
 
-In the next step we need to make sure that the security groups allow
+In the next step, we need to make sure that the security groups allow
 us to log into the VMs. To do so we create the following policies as
 part of our default security policies. Not that when you are in a
 group project this may already have been done for you by another group
@@ -245,7 +245,7 @@ you need to delete the offending host key from ~/.ssh/known_hosts.
 Add floating IP address
 ----------------------------------------------------------------------
 
-The internal IP address is not reachable from external nework. If you 
+The internal IP address is not reachable from external network. If you 
 want to make your instance reachable from outside, you can use a 
 floating IP address.
 
@@ -426,7 +426,7 @@ To allow snapshots, you must use the following convention:
 
 Let us assume your project is fg101 and you want to save the image
 with by reminding you it was a my-ubuntu-01 image you want to
-key. Than you can issue on india the following command::
+key. Then you can issue on india the following command::
 
        $ nova image-create $PORTALNAME-001 fg101/$PORTALNAME/my-ubuntu-01
        $ nova image-list
@@ -443,7 +443,7 @@ If you want to download your customized image, you can do it with this::
        $ glance image-download --file "my-ubuntu-01.img" "fg101/$PORTALNAME/custom-ubuntu-01"
 
 .. warning:: Please note that images not following this convention may
-   be deleted without warning. Also ifyou do no longer need an image,
+   be deleted without warning. Also, if you do no longer need an image,
    please remove it.
 
 Automate some initial configuration
@@ -483,7 +483,7 @@ You should be able to login to $PORTALNAME-002 as root, and the added packages a
 Get the latest version of Ubuntu Cloud Image and upload it to the OpenStack
 ---------------------------------------------------------------------------
 
-.. note:: We will try to provide the latest images. E.g., currently in india openstack 
+.. note:: We will try to provide the latest images. E.g., currently in india OpensStack 
 the ubuntu 14.04 image is officially available under name: futuresystems/ubuntu-14.04. So 
 usually you can skip this section to simply use the one provided officially.
 
@@ -512,8 +512,8 @@ available when the status become "ACTIVE".
 How to change your password
 ---------------------------
 
-#. Sometimes, users accidentally send password to a collaborator/support
-   for debugging, and then regret. When you put yourself in the
+#. Sometimes, users accidentally send the password to a collaborator/support
+   for debugging and then regret. When you put yourself in the
    situation by mistake, don't worry. Just use keystone client and reset
    your password with::
 
@@ -525,7 +525,7 @@ This can be achieved by either editing your openrc.sh file directly
 
 .. important::
 
-   In order to reset your password your openrc.sh must be valid or you
+   In order to reset your password, your openrc.sh must be valid or you
    must know your current password. If you loose your password or your
    openrc.sh file becomes invalid you need to send an email to support
    requesting help.
@@ -637,7 +637,7 @@ The passphrase for horizion is on purpose not the same as the portal
 password to introduce an additional layer of security.
 
 You can locate the passphrase while looking at the openrc file for the
-appropriate machine on india. Thus first log into india, and than load
+appropriate machine on india. Thus first log into india, and then load
 the openstack module with::
 
      $ module load openstack

@@ -1,12 +1,15 @@
 CMD5
 ====
 
-CMD is a very useful package in python to create command line
-shells. However it does not allow the dynamic integration of newly
-defined commands. Furthermore, addition to cmd need to be done within
-the same source tree. To simplify developping commands by a number of
-people and to have a dynamic plugin mechnism, we developed cmd5.
-It is a rewrite on our ealier effords in cloudmesh and cmd3.
+Python's CMD (https://docs.python.org/2/library/cmd.html) is a very
+useful package to create command line shells. However it
+does not allow the dynamic integration of newly defined
+commands. Furthermore, additions to CMD need to be done within the
+same source tree. To simplify developping commands by a number of
+people and to have a dynamic plugin mechnism, we developed cmd5.  It
+is a rewrite on our ealier effords in cloudmesh client and cmd3.
+
+
 
 Resources
 ---------
@@ -27,30 +30,41 @@ or for pyenv, with::
 
     pyenev virtualenv 2.7.13 ENV2
 
-Now you need to get two source directories. We assume yo place them in
-~/github::
+Cmd5 can easily deployed with pip::
+
+  pip install cloudmesh.cmd5
+
+In case you like to generate easily new cmd 5 commands we also
+recommend you install the cloudmesh sys command with::
+
+  pip install cloudmesh.sys
+
+
+In case you like to work with the source please cone the following
+directories from github::
 
   mkdir ~/github
   cd ~/github
 
-  git clone https://github.com/cloudmesh/common.git
-  git clone https://github.com/cloudmesh/cmd5.git
-  git clone https://github.com/cloudmesh/extbar.git
+  git clone https://github.com/cloudmesh/cloudmesh.common.git
+  git clone https://github.com/cloudmesh/cloudmesh.cmd5.git
+  git clone https://github.com/cloudmesh/cloudmesh.sys.git  
 
-  cd ~/github/common
+  cd ~/github/cloudmesh.common
   python setup.py install
   pip install .
 
-  cd ~/github/cmd5
+  cd ~/github/cloudmesh.cmd5
   python setup.py install
   pip install .
 
-  cd ~/github/extbar
+  cd ~/github/cloudmesh.sys
   python setup.py install
   pip install .
 
-The cmd5 repository contains the shell, while the extbar directory
-contains the sample to add the dynamic commands foo and bar.
+The common directory contains some useful libraries, the cmd5
+repository contains the shell, while the sys directory contains a
+command to generate extensions to cloudmesh.
 
 
 Execution
@@ -88,31 +102,35 @@ Create your own Extension
 -------------------------
 
 One of the most important features of CMD5 is its ability to extend it
-with new commands.  This is done via packaged name spaces. This is
-defined in the setup.py file of your enhancement. The best way to
-create an enhancement is to take a look at the code in
+with new commands.  This is done via packaged name spaces. We
+recommend you name is cloudmesh.mycommand, where mycommand is the name
+of the command that you like to create. This can easily be done while
+using the *sys* command::
 
-* https://github.com/cloudmesh/extbar.git
+  cms sys command generate mycommand
 
-Simply copy the code and modify the bar and foo commands to fit yor
-needs.
+It will download a template form cloudmesh called cloudmesh.bar and
+generate a new directory cloudmesh.mycommand with all the needed files
+to create your own command and register it dynamically with
+cloudmesh. All you have to do is to cd into the directory and install
+the code::
 
-.. warning:: make sure you are not copying the .git directory. Thus we
-	     recommend that you copy it explicitly file by file or
-	     directory by directory
+  cd cloudmesh.mycommand
+  python setup.py install
+  pip install .
 
-It is important that all objects are defined in the command
+Adding your own command is easy. It is important that all objects are defined in the command
 itself and that no global variables be use in order to allow each
 shell command to stand alone. Naturally you should develop API
 libraries outside of the cloudmesh shell command and reuse them in
 order to keep the command code as small as possible. We place the
 command in::
 
-    cloudmsesh/ext/command/COMMANDNAME.py
+    cloudmsesh/mycommand/command/mycommand.py
 
 An example for the bar command is presented at:
 
-* https://github.com/cloudmesh/extbar/blob/master/cloudmesh/ext/command/bar.py
+* https://github.com/cloudmesh/cloudmesh.bar/blob/master/cloudmesh/bar/command/bar.py
 
 It shows how simple the command definition is (bar.py)::
 
@@ -143,17 +161,17 @@ can leverage (besides the standrad definition), docopts as a way to
 define the manual page. This allows us to use arguments as dict and
 use simple if conditions to interpret the command. Using docopts has
 the advantage that contributors are forced to think about the command
-and its options and document them from the start. Previously we used
-not to use docopts and argparse was used. However we noticed that for
-some contributions the lead to commands that were either not properly
+and its options and document them from the start. Previously we did
+not use but argparse and click. However we noticed that for our
+contributors both systems lead to commands that were either not properly
 documented or the developers delivered ambiguous commands that
-resulted in confusion and wrong ussage by the users. Hence, we do
-recommend that you use docopts.
-
-The transformation is enabled by the @command decorator that takes
-also the manual page and creates a proper help message for the shell
+resulted in confusion and wrong ussage by subsequent users. Hence, we do
+recommend that you use docopts for documenting cmd5 commands. 
+The transformation is enabled by the @command decorator that generates
+a manual page and creates a proper help message for the shell
 automatically. Thus there is no need to introduce a sepaarte help
-method as would normally be needed in CMD.
+method as would normally be needed in CMD while reducing the effort it
+takes to contribute new commands in a dynamic fashion.
 
 
 Excersise
