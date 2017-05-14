@@ -1,6 +1,14 @@
 Syllabus
 ========
 
+.. warning:: This Syllabus will be modified. A final Syllabus will be
+             available at the beginning of class. The class will be
+   	     enhanced with SIGNIFICANT programming activities. However
+	     an option of taking the class without programming is
+	     available, but the maximum grade is limited to an A- in
+	     that case.
+
+
 
 .. contents::
    :local:
