@@ -1,0 +1,75 @@
+:orphan:
+
+I523 Big Data Applications and Analytics (2017)
+===============================================
+
+.. warning:: This material will be modified and updated on a weekly
+             bases througought the semester. Some unit and section
+             numbers in the presentations may not correspond to our
+             outline here as we have restructured the material.
+
+.. warning:: This class has a significant amount of programming
+             assignments. However an option of taking the class
+             without programming is available. Those electing not to
+             do the programming need to write an additional paper.
+             The maximum grade of those conducting the non programming
+             option is an A-.
+
+.. warning:: This class will not have any bonus projects as we want
+             that you apply your focus on the class homework instead
+             and make them outstanding.
+             
+* Semester: Fall 2017
+
+   
+.. toctree::
+   :caption: Course
+   :maxdepth: 4
+   :numbered:              
+
+   overview
+   course
+   /lesson/linux/refcards
+   assignments/assignments
+   /lesson/prg/gitlab
+   projects
+	      
+.. toctree::
+   :caption: Python for Big Data
+   :maxdepth: 2
+
+   /lesson/prg/python_intro
+   /lesson/prg/python_big_data
+   /lesson/prg/python_lesson1   
+
+.. toctree::
+   :caption: Useful Tools and Tips
+   :maxdepth: 2
+
+   datasets
+   /lesson/linux/refcards	     
+   /lesson/linux/linux
+   /lesson/doc/latex
+   /lesson/linux/ubuntu
+   /lesson/linux/ssh
+   links
+
+.. toctree::
+   :caption: APPENDIX
+   :maxdepth: 2
+
+   n-resources
+
+	      
+.. toctree::
+   :caption: Drafts(TODO)
+   :maxdepth: 2
+
+   drafts	        
+
+.. toctree::
+   :caption: Contributing
+   :maxdepth: 2
+
+   /lesson/contrib/contributing
+

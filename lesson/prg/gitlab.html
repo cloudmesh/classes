@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 
-
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>Gitlab &#8212; Big Data Classes</title>
-    
-    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/bootswatch-3.3.6/cerulean/bootstrap.min.css" type="text/css" />
+    <title>16. Gitlab &#8212; Big Data Classes</title>
     <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
-    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../../',
@@ -25,7 +19,7 @@
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
@@ -33,14 +27,14 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Introduction to Python" href="python_intro.html" />
-    <link rel="prev" title="Homework" href="../../i523/assignments/assignments.html" />
+    <link rel="prev" title="15. Refcards" href="../linux/refcards.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
 
   </head>
-  <body role="document">
+  <body>
 
   <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
     <div class="container">
@@ -59,10 +53,6 @@
         <div class="collapse navbar-collapse nav-collapse">
           <ul class="nav navbar-nav">
             
-                <li><a href="../../i523/index.html">Overview I523</a></li>
-                <li><a href="../../i523/course.html">i523</a></li>
-                <li><a href="../../i524/index.html">Overview I524</a></li>
-                <li><a href="../../i524/lectures.html">i524</a></li>
                 <li><a href="../index.html">Lessons</a></li>
                 <li><a href="../../changelog.html">Changes</a></li>
                 <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
@@ -77,176 +67,66 @@
      href="../../index.html">Site <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><ul>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/preface/index.html">Preface</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/about.html">About</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/disclaimer.html">Disclaimer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/convention.html">Conventions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/instructors.html">Instructors</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">i524 Overview</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#meeting-times">Meeting Times</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#online-meetings">Online Meetings</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#who-can-take-the-class">Who can take the class?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#homework">Homework</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#prerequisites">Prerequisites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#open-source-publication-of-homework">Open Source Publication of Homework</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#piazza">Piazza</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#tips-on-how-to-achieve-your-best">Tips on how to achieve your best</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#submissions">Submissions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#selected-project-ideas">Selected Project Ideas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#software-project">Software Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#report-format">Report Format</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#github-repositories">Github repositories</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#code-repositories-deliverables">Code Repositories Deliverables</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#learning-outcomes">Learning Outcomes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#academic-integrity-policy">Academic Integrity Policy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#links">Links</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#course-numbers">Course Numbers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#references">References</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/calendar.html">I524 Calendar</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/calendar.html#comments">Comments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/calendar.html#official-university-calendar">Official University calendar</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/lectures.html">I524 Lectures</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#lectures">Lectures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#lectures-theory-track">Lectures - Theory Track</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#lectures-collaboration-track">Lectures - Collaboration Track</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#lectures-systems">Lectures - Systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#unreleased-lectures">Unreleased Lectures</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/assignments.html">I524 Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/hids-techs.html">HID Assignment</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/technologies.html">Technologies</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#application-and-analytics">Application and Analytics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#application-hosting-frameworks">Application Hosting Frameworks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#high-level-programming">High level Programming</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#streams">Streams</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#basic-programming-model-and-runtime-spmd-mapreduce">Basic Programming model and runtime, SPMD, MapReduce</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#inter-process-communication-collectives">Inter process communication Collectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#in-memory-databases-caches">In-memory databases/caches</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#object-relational-mapping">Object-relational mapping</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#extraction-tools">Extraction Tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#sql-newsql">SQL(NewSQL)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#nosql">NoSQL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#file-management">File management</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#data-transport">Data Transport</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#cluster-resource-management">Cluster Resource Management</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#file-systems">File systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#interoperability">Interoperability</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#devops">DevOps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#new-technologies-to-be-integrated-by-the-ais">New Technologies (To Be Integrated by the AIs)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#excercise">Excercise</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#references">References</a></li>
-</ul>
-</li>
-</ul>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../i523/course.html">Syllabus</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#errata">Errata</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-1-introduction">Section 1 - Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-2-overview-of-data-science-what-is-big-data-data-analytics-and-x-informatics">Section 2 - Overview of Data Science: What is Big Data, Data Analytics and X-Informatics?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-3-health-informatics-case-study">Section 3 - Health Informatics Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-4-sports-case-study">Section 4 - Sports Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-7-sports-informatics-i-sabermetrics-basic">Unit 7 - Sports Informatics I : Sabermetrics (Basic)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-8-sports-informatics-ii-sabermetrics-advanced">Unit 8 - Sports Informatics II : Sabermetrics (Advanced)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-9-sports-informatics-iii-other-sports">Unit 9 - Sports Informatics III : Other Sports</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-5-technology-training-python-futuresystems-will-be-updated">Section 5 - Technology Training - Python &amp; FutureSystems (will be updated)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-10-python-for-big-data-and-x-informatics-numpy-scipy-matplotlib">Unit 10 - Python for Big Data and X-Informatics: NumPy, SciPy, MatPlotlib</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-11-using-futuresystems-please-do-not-do-yet">Unit 11 - Using FutureSystems (Please do not do yet)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-6-physics-case-study">Section 6 - Physics Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-12-i-looking-for-higgs-particles-bumps-in-histograms-experiments-and-accelerators">Unit 12 - I: Looking for Higgs Particles, Bumps in Histograms, Experiments and Accelerators</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-13-ii-looking-for-higgs-particles-python-event-counting-for-signal-and-background">Unit 13 - II: Looking for Higgs Particles: Python Event Counting for Signal and Background</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-14-iii-looking-for-higgs-particles-random-variables-physics-and-normal-distributions">Unit 14 - III: Looking for Higgs Particles: Random Variables, Physics and Normal Distributions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-15-iv-looking-for-higgs-particles-random-numbers-distributions-and-central-limit-theorem">Unit 15 - IV: Looking for Higgs Particles: Random Numbers, Distributions and Central Limit Theorem</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-7-big-data-use-cases-survey">Section 7 - Big Data Use Cases Survey</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-16-overview-of-nist-big-data-public-working-group-nbd-pwg-process-and-results">Unit 16 - Overview of NIST Big Data Public Working Group (NBD-PWG) Process and Results</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-17-51-big-data-use-cases">Unit 17 - 51 Big Data Use Cases</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-18-features-of-51-big-data-use-cases">Unit 18 - Features of 51 Big Data Use Cases</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-8-technology-training-plotviz">Section 8 - Technology Training - Plotviz</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-19-using-plotviz-software-for-displaying-point-distributions-in-3d">Unit 19 - Using Plotviz Software for Displaying Point Distributions in 3D</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-9-e-commerce-and-lifestyle-case-study">Section 9 - e-Commerce and LifeStyle Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-20-recommender-systems-introduction">Unit 20 - Recommender Systems: Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-21-recommender-systems-examples-and-algorithms">Unit 21 - Recommender Systems: Examples and Algorithms</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-22-item-based-collaborative-filtering-and-its-technologies">Unit 22 - Item-based Collaborative Filtering and its Technologies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-10-technology-training-knn-clustering">Section 10 - Technology Training - kNN &amp; Clustering</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-24-clustering-and-heuristic-methods">Unit 24 - Clustering and heuristic methods</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-11-cloud-computing-technology-for-big-data-applications-analytics-will-be-updated">Section 11 - Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-25-parallel-computing-overview-of-basic-principles-with-familiar-examples">Unit 25 - Parallel Computing: Overview of Basic Principles with familiar Examples</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-26-cloud-computing-technology-part-i-introduction">Unit 26 - Cloud Computing Technology Part I: Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-27-cloud-computing-technology-part-ii-software-and-systems">Unit 27 - Cloud Computing Technology Part II: Software and Systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-28-cloud-computing-technology-part-iii-architectures-applications-and-systems">Unit 28 - Cloud Computing Technology Part III: Architectures, Applications and Systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-29-cloud-computing-technology-part-iv-data-systems">Unit 29 - Cloud Computing Technology Part IV: Data Systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-12-web-search-and-text-mining-and-their-technologies">Section 12 - Web Search and Text Mining and their technologies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-30-web-search-and-text-mining-i">Unit 30 - Web Search and Text Mining I</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-31-web-search-and-text-mining-ii">Unit 31 - Web Search and Text Mining II</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-13-technology-for-big-data-applications-and-analytics">Section 13 - Technology for Big Data Applications and Analytics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-32-technology-for-x-informatics-k-means-python-java-track">Unit 32 - Technology for X-Informatics: K-means (Python &amp; Java Track)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-33-technology-for-x-informatics-mapreduce">Unit 33 - Technology for X-Informatics: MapReduce</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-35-technology-pagerank-python-java-track">Unit 35 - Technology: PageRank (Python &amp; Java Track)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-14-sensors-case-study">Section 14 - Sensors Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-36-case-study-sensors">Unit 36 - Case Study: Sensors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-15-radar-case-study">Section 15 - Radar Case Study</a></li>
-</ul>
-</li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html">Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html">Syllabus</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/assignments/assignments.html">Homework</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Gitlab</a></li>
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">1. Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#overview-of-data-science">2. Overview of Data Science</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#health-informatics-case-study">3. Health Informatics Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#sports-case-study">4. Sports Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#outdated-technology-training-python-futuresystems">5. OUTDATED: Technology Training - Python &amp; FutureSystems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#section-6-physics-case-study">6. Section 6. Physics Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#big-data-use-cases-survey">7. Big Data Use Cases Survey</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-training-plotviz">8. Technology Training - Plotviz</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#e-commerce-and-lifestyle-case-study">9. e-Commerce and LifeStyle Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-training-knn-clustering">10. Technology Training - kNN &amp; Clustering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#cloud-computing-technology-for-big-data-applications-analytics-will-be-updated">11. Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-for-big-data-applications-and-analytics">12. Technology for Big Data Applications and Analytics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#sensors-case-study">13. Sensors Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#radar-case-study">14. Radar Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">15. Refcards</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">16. Gitlab</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_intro.html">Introduction to Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_big_data.html">Python for Big Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">15. Refcards</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">LaTeX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/links.html">Links Report</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/n-resources.html">Homework References</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">Contributing</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/links.html">Links Report</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/n-resources.html">Homework References</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/overview.html">Overview</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#about-the-course">About the Course</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#course-numbers">Course Numbers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#meeting-times">Meeting Times</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#office-hours">Office Hours</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#discussions-and-communication">Discussions and communication</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#calendar">Calendar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#common-mistakes">Common Mistakes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#systems-usage">Systems Usage</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#term-paper-or-project">Term Paper or Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#software-project">Software Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#term-paper">Term Paper</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#report-format">Report Format</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#code-repositories-deliverables">Code Repositories Deliverables</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#prerequisites">Prerequisites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#learning-outcomes">Learning Outcomes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#grading">Grading</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#academic-integrity-policy">Academic Integrity Policy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#instructors">Instructors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#teaching-assistants">Teaching Assistants</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#links">Links</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#updates">Updates</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">15. Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">16. Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">15. Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">Contributing</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/research.html">How to do Research?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/resources.html">LINKS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/technologies.html">Installing Cloudmesh Client</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/technologies.html#hadoop">Hadoop</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/technologies.html#refernces">Refernces</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
@@ -279,6 +159,8 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
@@ -328,7 +210,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don&#8217;t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#a-second-example">A second example</a></li>
@@ -377,17 +259,17 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Gitlab</a><ul>
-<li><a class="reference internal" href="#getting-an-account">Getting an account</a></li>
-<li><a class="reference internal" href="#getting-a-repository">Getting a repository</a></li>
-<li><a class="reference internal" href="#upload-your-public-key">Upload your public key</a></li>
-<li><a class="reference internal" href="#how-to-configure-git-and-gitlab-for-your-computer">How to configure Git and Gitlab for your computer</a></li>
-<li><a class="reference internal" href="#using-web-browsers-to-upload">Using Web browsers to upload</a></li>
-<li><a class="reference internal" href="#using-git-gui-tools">Using Git GUI tools</a></li>
-<li><a class="reference internal" href="#submission-of-homework">Submission of homework</a></li>
-<li><a class="reference internal" href="#readme-md">README.md</a></li>
-<li><a class="reference internal" href="#git-resources">Git Resources</a></li>
-<li><a class="reference internal" href="#exercise">Exercise</a></li>
+<li><a class="reference internal" href="#">16. Gitlab</a><ul>
+<li><a class="reference internal" href="#getting-an-account">16.1. Getting an account</a></li>
+<li><a class="reference internal" href="#getting-a-repository">16.2. Getting a repository</a></li>
+<li><a class="reference internal" href="#upload-your-public-key">16.3. Upload your public key</a></li>
+<li><a class="reference internal" href="#how-to-configure-git-and-gitlab-for-your-computer">16.4. How to configure Git and Gitlab for your computer</a></li>
+<li><a class="reference internal" href="#using-web-browsers-to-upload">16.5. Using Web browsers to upload</a></li>
+<li><a class="reference internal" href="#using-git-gui-tools">16.6. Using Git GUI tools</a></li>
+<li><a class="reference internal" href="#submission-of-homework">16.7. Submission of homework</a></li>
+<li><a class="reference internal" href="#readme-md">16.8. README.md</a></li>
+<li><a class="reference internal" href="#git-resources">16.9. Git Resources</a></li>
+<li><a class="reference internal" href="#exercise">16.10. Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -428,176 +310,66 @@
      href="../../index.html">Site <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><ul>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/preface/index.html">Preface</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/about.html">About</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/disclaimer.html">Disclaimer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/convention.html">Conventions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/preface/instructors.html">Instructors</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/index.html">i524 Overview</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#meeting-times">Meeting Times</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#online-meetings">Online Meetings</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#who-can-take-the-class">Who can take the class?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#homework">Homework</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#prerequisites">Prerequisites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#open-source-publication-of-homework">Open Source Publication of Homework</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#piazza">Piazza</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#tips-on-how-to-achieve-your-best">Tips on how to achieve your best</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#submissions">Submissions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#selected-project-ideas">Selected Project Ideas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#software-project">Software Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#report-format">Report Format</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#github-repositories">Github repositories</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#code-repositories-deliverables">Code Repositories Deliverables</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#learning-outcomes">Learning Outcomes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#academic-integrity-policy">Academic Integrity Policy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#links">Links</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#course-numbers">Course Numbers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/index.html#references">References</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/calendar.html">I524 Calendar</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/calendar.html#comments">Comments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/calendar.html#official-university-calendar">Official University calendar</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/lectures.html">I524 Lectures</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#lectures">Lectures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#lectures-theory-track">Lectures - Theory Track</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#lectures-collaboration-track">Lectures - Collaboration Track</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#lectures-systems">Lectures - Systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/lectures.html#unreleased-lectures">Unreleased Lectures</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/assignments.html">I524 Assignments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/hids-techs.html">HID Assignment</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/technologies.html">Technologies</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#workflow-orchestration">Workflow-Orchestration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#application-and-analytics">Application and Analytics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#application-hosting-frameworks">Application Hosting Frameworks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#high-level-programming">High level Programming</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#streams">Streams</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#basic-programming-model-and-runtime-spmd-mapreduce">Basic Programming model and runtime, SPMD, MapReduce</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#inter-process-communication-collectives">Inter process communication Collectives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#in-memory-databases-caches">In-memory databases/caches</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#object-relational-mapping">Object-relational mapping</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#extraction-tools">Extraction Tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#sql-newsql">SQL(NewSQL)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#nosql">NoSQL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#file-management">File management</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#data-transport">Data Transport</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#cluster-resource-management">Cluster Resource Management</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#file-systems">File systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#interoperability">Interoperability</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#devops">DevOps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#iaas-management-from-hpc-to-hypervisors">IaaS Management from HPC to hypervisors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#cross-cutting-functions">Cross-Cutting Functions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#new-technologies-to-be-integrated-by-the-ais">New Technologies (To Be Integrated by the AIs)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#excercise">Excercise</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i524/technologies.html#references">References</a></li>
-</ul>
-</li>
-</ul>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../i523/course.html">Syllabus</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#errata">Errata</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-1-introduction">Section 1 - Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-2-overview-of-data-science-what-is-big-data-data-analytics-and-x-informatics">Section 2 - Overview of Data Science: What is Big Data, Data Analytics and X-Informatics?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-3-health-informatics-case-study">Section 3 - Health Informatics Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-4-sports-case-study">Section 4 - Sports Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-7-sports-informatics-i-sabermetrics-basic">Unit 7 - Sports Informatics I : Sabermetrics (Basic)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-8-sports-informatics-ii-sabermetrics-advanced">Unit 8 - Sports Informatics II : Sabermetrics (Advanced)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-9-sports-informatics-iii-other-sports">Unit 9 - Sports Informatics III : Other Sports</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-5-technology-training-python-futuresystems-will-be-updated">Section 5 - Technology Training - Python &amp; FutureSystems (will be updated)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-10-python-for-big-data-and-x-informatics-numpy-scipy-matplotlib">Unit 10 - Python for Big Data and X-Informatics: NumPy, SciPy, MatPlotlib</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-11-using-futuresystems-please-do-not-do-yet">Unit 11 - Using FutureSystems (Please do not do yet)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-6-physics-case-study">Section 6 - Physics Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-12-i-looking-for-higgs-particles-bumps-in-histograms-experiments-and-accelerators">Unit 12 - I: Looking for Higgs Particles, Bumps in Histograms, Experiments and Accelerators</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-13-ii-looking-for-higgs-particles-python-event-counting-for-signal-and-background">Unit 13 - II: Looking for Higgs Particles: Python Event Counting for Signal and Background</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-14-iii-looking-for-higgs-particles-random-variables-physics-and-normal-distributions">Unit 14 - III: Looking for Higgs Particles: Random Variables, Physics and Normal Distributions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-15-iv-looking-for-higgs-particles-random-numbers-distributions-and-central-limit-theorem">Unit 15 - IV: Looking for Higgs Particles: Random Numbers, Distributions and Central Limit Theorem</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-7-big-data-use-cases-survey">Section 7 - Big Data Use Cases Survey</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-16-overview-of-nist-big-data-public-working-group-nbd-pwg-process-and-results">Unit 16 - Overview of NIST Big Data Public Working Group (NBD-PWG) Process and Results</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-17-51-big-data-use-cases">Unit 17 - 51 Big Data Use Cases</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-18-features-of-51-big-data-use-cases">Unit 18 - Features of 51 Big Data Use Cases</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-8-technology-training-plotviz">Section 8 - Technology Training - Plotviz</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-19-using-plotviz-software-for-displaying-point-distributions-in-3d">Unit 19 - Using Plotviz Software for Displaying Point Distributions in 3D</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-9-e-commerce-and-lifestyle-case-study">Section 9 - e-Commerce and LifeStyle Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-20-recommender-systems-introduction">Unit 20 - Recommender Systems: Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-21-recommender-systems-examples-and-algorithms">Unit 21 - Recommender Systems: Examples and Algorithms</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-22-item-based-collaborative-filtering-and-its-technologies">Unit 22 - Item-based Collaborative Filtering and its Technologies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-10-technology-training-knn-clustering">Section 10 - Technology Training - kNN &amp; Clustering</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-24-clustering-and-heuristic-methods">Unit 24 - Clustering and heuristic methods</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-11-cloud-computing-technology-for-big-data-applications-analytics-will-be-updated">Section 11 - Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-25-parallel-computing-overview-of-basic-principles-with-familiar-examples">Unit 25 - Parallel Computing: Overview of Basic Principles with familiar Examples</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-26-cloud-computing-technology-part-i-introduction">Unit 26 - Cloud Computing Technology Part I: Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-27-cloud-computing-technology-part-ii-software-and-systems">Unit 27 - Cloud Computing Technology Part II: Software and Systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-28-cloud-computing-technology-part-iii-architectures-applications-and-systems">Unit 28 - Cloud Computing Technology Part III: Architectures, Applications and Systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-29-cloud-computing-technology-part-iv-data-systems">Unit 29 - Cloud Computing Technology Part IV: Data Systems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-12-web-search-and-text-mining-and-their-technologies">Section 12 - Web Search and Text Mining and their technologies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-30-web-search-and-text-mining-i">Unit 30 - Web Search and Text Mining I</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-31-web-search-and-text-mining-ii">Unit 31 - Web Search and Text Mining II</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-13-technology-for-big-data-applications-and-analytics">Section 13 - Technology for Big Data Applications and Analytics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-32-technology-for-x-informatics-k-means-python-java-track">Unit 32 - Technology for X-Informatics: K-means (Python &amp; Java Track)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-33-technology-for-x-informatics-mapreduce">Unit 33 - Technology for X-Informatics: MapReduce</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-35-technology-pagerank-python-java-track">Unit 35 - Technology: PageRank (Python &amp; Java Track)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-14-sensors-case-study">Section 14 - Sensors Case Study</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#unit-36-case-study-sensors">Unit 36 - Case Study: Sensors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html#section-15-radar-case-study">Section 15 - Radar Case Study</a></li>
-</ul>
-</li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../i523/index.html">I523 Big Data Applications and Analytics</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html">Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/course.html">Syllabus</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/assignments/assignments.html">Homework</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Gitlab</a></li>
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">1. Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#overview-of-data-science">2. Overview of Data Science</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#health-informatics-case-study">3. Health Informatics Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#sports-case-study">4. Sports Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#outdated-technology-training-python-futuresystems">5. OUTDATED: Technology Training - Python &amp; FutureSystems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#section-6-physics-case-study">6. Section 6. Physics Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#big-data-use-cases-survey">7. Big Data Use Cases Survey</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-training-plotviz">8. Technology Training - Plotviz</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#e-commerce-and-lifestyle-case-study">9. e-Commerce and LifeStyle Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-training-knn-clustering">10. Technology Training - kNN &amp; Clustering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#cloud-computing-technology-for-big-data-applications-analytics-will-be-updated">11. Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-for-big-data-applications-and-analytics">12. Technology for Big Data Applications and Analytics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#sensors-case-study">13. Sensors Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#radar-case-study">14. Radar Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">15. Refcards</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">16. Gitlab</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_intro.html">Introduction to Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_big_data.html">Python for Big Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">15. Refcards</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">LaTeX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/links.html">Links Report</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/n-resources.html">Homework References</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">Contributing</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/links.html">Links Report</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/n-resources.html">Homework References</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/overview.html">Overview</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#about-the-course">About the Course</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#course-numbers">Course Numbers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#meeting-times">Meeting Times</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#office-hours">Office Hours</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#discussions-and-communication">Discussions and communication</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#calendar">Calendar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#common-mistakes">Common Mistakes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#systems-usage">Systems Usage</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#term-paper-or-project">Term Paper or Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#software-project">Software Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#term-paper">Term Paper</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#report-format">Report Format</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#code-repositories-deliverables">Code Repositories Deliverables</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#prerequisites">Prerequisites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#learning-outcomes">Learning Outcomes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#grading">Grading</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#academic-integrity-policy">Academic Integrity Policy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#instructors">Instructors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#teaching-assistants">Teaching Assistants</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#links">Links</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../i523/overview.html#updates">Updates</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">15. Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">16. Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">15. Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">Contributing</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/research.html">How to do Research?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/resources.html">LINKS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/technologies.html">Installing Cloudmesh Client</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/technologies.html#hadoop">Hadoop</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../i523/technologies.html#refernces">Refernces</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
@@ -630,6 +402,8 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
@@ -679,7 +453,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don&#8217;t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../faq.html#a-second-example">A second example</a></li>
@@ -718,17 +492,17 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">Gitlab</a><ul>
-<li><a class="reference internal" href="#getting-an-account">Getting an account</a></li>
-<li><a class="reference internal" href="#getting-a-repository">Getting a repository</a></li>
-<li><a class="reference internal" href="#upload-your-public-key">Upload your public key</a></li>
-<li><a class="reference internal" href="#how-to-configure-git-and-gitlab-for-your-computer">How to configure Git and Gitlab for your computer</a></li>
-<li><a class="reference internal" href="#using-web-browsers-to-upload">Using Web browsers to upload</a></li>
-<li><a class="reference internal" href="#using-git-gui-tools">Using Git GUI tools</a></li>
-<li><a class="reference internal" href="#submission-of-homework">Submission of homework</a></li>
-<li><a class="reference internal" href="#readme-md">README.md</a></li>
-<li><a class="reference internal" href="#git-resources">Git Resources</a></li>
-<li><a class="reference internal" href="#exercise">Exercise</a></li>
+<li><a class="reference internal" href="#">16. Gitlab</a><ul>
+<li><a class="reference internal" href="#getting-an-account">16.1. Getting an account</a></li>
+<li><a class="reference internal" href="#getting-a-repository">16.2. Getting a repository</a></li>
+<li><a class="reference internal" href="#upload-your-public-key">16.3. Upload your public key</a></li>
+<li><a class="reference internal" href="#how-to-configure-git-and-gitlab-for-your-computer">16.4. How to configure Git and Gitlab for your computer</a></li>
+<li><a class="reference internal" href="#using-web-browsers-to-upload">16.5. Using Web browsers to upload</a></li>
+<li><a class="reference internal" href="#using-git-gui-tools">16.6. Using Git GUI tools</a></li>
+<li><a class="reference internal" href="#submission-of-homework">16.7. Submission of homework</a></li>
+<li><a class="reference internal" href="#readme-md">16.8. README.md</a></li>
+<li><a class="reference internal" href="#git-resources">16.9. Git Resources</a></li>
+<li><a class="reference internal" href="#exercise">16.10. Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -771,7 +545,7 @@
     <div class="col-md-9 content">
       
   <div class="section" id="gitlab">
-<h1>Gitlab<a class="headerlink" href="#gitlab" title="Permalink to this headline">¶</a></h1>
+<h1>16. Gitlab<a class="headerlink" href="#gitlab" title="Permalink to this headline">¶</a></h1>
 <p>In case your course the use of <a class="reference external" href="https://gitlab.com/">GitLab.com</a>
 for your homework submissions this information will help you to get stated.</p>
 <p>Once you have completed the entry survey you will be granted access to
@@ -798,15 +572,15 @@ spaces. In general we recommend that you avoid using
 directoru names with capital letters spaces and _ in
 them. This will simplify your documentation efforts and
 make the URLs from git more readable. Also while on
-some OS&#8217;s the directories &#8220;MyDirectory&#8221; is different
-from &#8220;mydirectory&#8221; gitlab considers it teh same.
+some OS’s the directories “MyDirectory” is different
+from “mydirectory” gitlab considers it teh same.
 Furthermore our automated scripts that check your
 submission are case sensitive. We only will read the
 lower case directories. It is in your responsibility to
 assure proper spelling.</p>
 </div>
 <div class="section" id="getting-an-account">
-<h2>Getting an account<a class="headerlink" href="#getting-an-account" title="Permalink to this headline">¶</a></h2>
+<h2>16.1. Getting an account<a class="headerlink" href="#getting-an-account" title="Permalink to this headline">¶</a></h2>
 <p>Please go to gitlab and create an account. Use a nice account name that
 only includes characters in [a-zA-Z0-9].</p>
 <ul class="simple">
@@ -814,18 +588,18 @@ only includes characters in [a-zA-Z0-9].</p>
 </ul>
 </div>
 <div class="section" id="getting-a-repository">
-<h2>Getting a repository<a class="headerlink" href="#getting-a-repository" title="Permalink to this headline">¶</a></h2>
+<h2>16.2. Getting a repository<a class="headerlink" href="#getting-a-repository" title="Permalink to this headline">¶</a></h2>
 <p>Once you submitted the account to us you will recieve within a week an
 e-mail with your repository. It will be based on a Homework-ID (HID)
 that will be assigned to you by us. The HID will be the name of the
 directory in gitlab that you will be using to submit your homework.</p>
 </div>
 <div class="section" id="upload-your-public-key">
-<h2>Upload your public key<a class="headerlink" href="#upload-your-public-key" title="Permalink to this headline">¶</a></h2>
+<h2>16.3. Upload your public key<a class="headerlink" href="#upload-your-public-key" title="Permalink to this headline">¶</a></h2>
 <p>Please upload your public key to the repository as documented in gitlab.</p>
 </div>
 <div class="section" id="how-to-configure-git-and-gitlab-for-your-computer">
-<h2>How to configure Git and Gitlab for your computer<a class="headerlink" href="#how-to-configure-git-and-gitlab-for-your-computer" title="Permalink to this headline">¶</a></h2>
+<h2>16.4. How to configure Git and Gitlab for your computer<a class="headerlink" href="#how-to-configure-git-and-gitlab-for-your-computer" title="Permalink to this headline">¶</a></h2>
 <p>The proper way to use git is to install a client on your
 computer. Once you have done so, make sure to configure git to use
 your name and email address label your commits.:</p>
@@ -847,7 +621,7 @@ means.:</p>
 </div>
 </div>
 <div class="section" id="using-web-browsers-to-upload">
-<h2>Using Web browsers to upload<a class="headerlink" href="#using-web-browsers-to-upload" title="Permalink to this headline">¶</a></h2>
+<h2>16.5. Using Web browsers to upload<a class="headerlink" href="#using-web-browsers-to-upload" title="Permalink to this headline">¶</a></h2>
 <p>Although we do not recommend using the Web browser to add or modify
 files, it is possible. This means you could operate it without
 installing anything.  This will work, but it is not very
@@ -855,16 +629,16 @@ convenient. To conduct your project efficiently you certainly wil want
 to use the git command line inteface.</p>
 </div>
 <div class="section" id="using-git-gui-tools">
-<h2>Using Git GUI tools<a class="headerlink" href="#using-git-gui-tools" title="Permalink to this headline">¶</a></h2>
+<h2>16.6. Using Git GUI tools<a class="headerlink" href="#using-git-gui-tools" title="Permalink to this headline">¶</a></h2>
 <p>There are many git GUI tools available that directly integrate into
-your operating system finders, windows, ..., or PyCharm.
+your operating system finders, windows, …, or PyCharm.
 It is up to you to identify such tools and see if they are useful for
 you. Most of the people we work with us git from the command line, even
 if they use PyCharm or other tools that have build in git support.
 We find the commandline tools sufficient.</p>
 </div>
 <div class="section" id="submission-of-homework">
-<h2>Submission of homework<a class="headerlink" href="#submission-of-homework" title="Permalink to this headline">¶</a></h2>
+<h2>16.7. Submission of homework<a class="headerlink" href="#submission-of-homework" title="Permalink to this headline">¶</a></h2>
 <p>You will have a HID given to you. Let us assume the id is:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">S17</span><span class="o">-</span><span class="n">DG</span><span class="o">-</span><span class="mi">9999</span>
 </pre></div>
@@ -927,7 +701,7 @@ first add it using:</p>
 gitlab. Our TAs will answer them.</p>
 </div>
 <div class="section" id="readme-md">
-<h2>README.md<a class="headerlink" href="#readme-md" title="Permalink to this headline">¶</a></h2>
+<h2>16.8. README.md<a class="headerlink" href="#readme-md" title="Permalink to this headline">¶</a></h2>
 <p>You will have to create a README.md file in the top most directory of
 your repository It serves the purpose of identifying your submission
 for homework and information about yourself.</p>
@@ -962,7 +736,7 @@ delayed.</p>
 </div>
 </div>
 <div class="section" id="git-resources">
-<h2>Git Resources<a class="headerlink" href="#git-resources" title="Permalink to this headline">¶</a></h2>
+<h2>16.9. Git Resources<a class="headerlink" href="#git-resources" title="Permalink to this headline">¶</a></h2>
 <p>If you are unfamiliar with git you may find these resources useful:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://git-scm.com/book/en/v2">Pro Git book</a></li>
@@ -977,7 +751,7 @@ the only thing you have to do is replace hihub, for gitlab.</li>
 </ul>
 </div>
 <div class="section" id="exercise">
-<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<h2>16.10. Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
 <p>Gitlab.1: Create a gitlab account</p>
 <p>Gitlab.2: Create a README.md in your gitlab account with your information</p>
 </div>

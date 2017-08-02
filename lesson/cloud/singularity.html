@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Singularity &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Upload the key to the FutureSystem Portal" href="ssh-futuregrid.html" />
+    <link rel="prev" title="FutureSystems Cloud" href="futuresystems.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../index.html">Lessons</a></li>
+                <li><a href="../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+                <li><a href="https://piazza.com/class/ix39m27czn5uw">Piazza</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul class="simple">
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#a-second-example">A second example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id25">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Singularity</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul class="simple">
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Lessons</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#a-second-example">A second example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id25">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">Singularity</a></li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Links</b>
+<ul>
+  <li><a href="https://cloudmesh.github.io/classes/faq.html">FAQ</a> </li>  
+  <li><a href="https://cloudmesh.github.io/classes/i524/index.html#online-meetings">Meetings</a> </li>
+  <li><a href="https://iu.instructure.com/courses/1603897/assignments/syllabus">Zoom</a></li>
+
+  <li> <a href="https://cloudmesh.github.io/classes/i524/calendar.html#i524-calendar">Calendar</a>
+  <li> <a href="https://cloudmesh.github.io/classes/i524/assignments.html"><strong>Assignments</strong></a>
+  </li>
+  <li>
+    <a href="https://cloudmesh.github.io/classes/">
+      <img src="https://cloudmesh.github.io/classes/_static/html.jpg" width="40" height="40" alt="pdf"> Web Page
+    </a>
+  </li>
+  <li>
+    <a href="https://cloudmesh.github.io/classes/book.pdf">
+      <img src="https://cloudmesh.github.io/classes/_static/pdf.png" width="40" height="40" alt="pdf"> (Incomplete)
+    </a>
+  </li>
+</ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="singularity">
+<h1>Singularity<a class="headerlink" href="#singularity" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[USER@comet-dev ~]$ cat /etc/issue
+CentOS release 6.9 (Final)
+Kernel \r on an \m
+
+[USER@comet-dev ~]$ python --version
+Python 2.6.6
+
+[USER@comet-dev ~]$ module load singularity
+[USER@comet-dev ~]$ mkdir /dev/shm/cloudmesh
+[USER@comet-dev ~]$ cd /dev/shm/cloudmesh
+
+[USER@comet-dev cloudmesh]$ singularity pull docker://python:2.7.13
+Initializing Singularity image subsystem
+Opening image file: python-2.7.13.img
+Creating 1283MiB image
+Binding image to loop
+Creating file system within image
+Image is done: python-2.7.13.img
+Docker image path: index.docker.io/library/python:2.7.13
+Cache folder set to /home/USER/.singularity/docker
+Importing: base Singularity environment
+Importing: /home/USER/.singularity/docker/sha256:aghkjg....tar.gz
+Importing: /home/USER/.singularity/docker/sha256:bghkjg....tar.gz
+Importing: /home/USER/.singularity/docker/sha256:cghkjg....tar.gz
+Importing: /home/USER/.singularity/docker/sha256:dghkjg....tar.gz
+Importing: /home/USER/.singularity/docker/sha256:eghkjg....tar.gz
+Importing: /home/USER/.singularity/docker/sha256:fghkjg....tar.gz
+Importing: /home/USER/.singularity/docker/sha256:gghkjg....tar.gz
+Importing: /home/USER/.singularity/docker/sha256:hghkjg....tar.gz
+Importing: /home/USER/.singularity/metadata/sha256:ighkjg....tar.gz
+Done. Container is at: python-2.7.13.img
+
+
+[USER@comet-dev cloudmesh]$ sudo su
+[root@comet-dev cloudmesh]# module load singularity
+[root@comet-dev cloudmesh]# singularity exec --writable ./python-2.7.13.img pip install cloudmesh_client
+Collecting cloudmesh_client
+ Using cached cloudmesh_client-4.7.2-py2.py3-none-any.whl
+Collecting python-novaclient==7.1.0 (from cloudmesh_client)
+ Using cached python_novaclient-7.1.0-py2.py3-none-any.whl
+Collecting python-hostlist==1.17 (from cloudmesh_client)
+Collecting pyreadline==2.1 (from cloudmesh_client)
+Collecting azure-servicebus==0.20.1 (from cloudmesh_client)
+ Using cached azure_servicebus-0.20.1-py2.py3-none-any.whl
+Collecting azure-mgmt-resource==0.20.1 (from cloudmesh_client)
+ Using cached azure_mgmt_resource-0.20.1-py2.py3-none-any.whl
+Collecting enum34==1.1.6 (from cloudmesh_client)
+ Using cached enum34-1.1.6-py2-none-any.whl
+Collecting pyparsing==2.1.10 (from cloudmesh_client)
+ Using cached pyparsing-2.1.10-py2.py3-none-any.whl
+Collecting oslo.utils==3.22.0 (from cloudmesh_client)
+ Using cached oslo.utils-3.22.0-py2.py3-none-any.whl
+Collecting pytz==2016.10 (from cloudmesh_client)
+ Using cached pytz-2016.10-py2.py3-none-any.whl
+Collecting python-keystoneclient==3.10.0 (from cloudmesh_client)
+ Using cached python_keystoneclient-3.10.0-py2.py3-none-any.whl
+Collecting humanize==0.5.1 (from cloudmesh_client)
+Collecting httpsig==1.1.2 (from cloudmesh_client)
+ Using cached httpsig-1.1.2-py2.py3-none-any.whl
+Collecting azure-servicemanagement-legacy==0.20.2 (from cloudmesh_client)
+ Using cached azure_servicemanagement_legacy-0.20.2-py2.py3-none-any.whl
+Collecting idna==2.2 (from cloudmesh_client)
+ Using cached idna-2.2-py2.py3-none-any.whl
+Collecting azure-mgmt-network==0.20.1 (from cloudmesh_client)
+ Using cached azure_mgmt_network-0.20.1-py2.py3-none-any.whl
+Collecting cryptography==1.7.2 (from cloudmesh_client)
+Collecting azure-mgmt-compute==0.20.1 (from cloudmesh_client)
+ Using cached azure_mgmt_compute-0.20.1-py2.py3-none-any.whl
+Collecting apache-libcloud==1.5.0 (from cloudmesh_client)
+ Using cached apache_libcloud-1.5.0-py2.py3-none-any.whl
+Collecting pyasn1==0.1.9 (from cloudmesh_client)
+ Using cached pyasn1-0.1.9-py2.py3-none-any.whl
+Collecting Jinja2==2.8.1 (from cloudmesh_client)
+ Using cached Jinja2-2.8.1-py2.py3-none-any.whl
+Collecting netifaces==0.10.5 (from cloudmesh_client)
+Collecting azure-nspkg==1.0.0 (from cloudmesh_client)
+ Using cached azure_nspkg-1.0.0-py2.py3-none-any.whl
+Collecting oslo.serialization==2.16.0 (from cloudmesh_client)
+ Using cached oslo.serialization-2.16.0-py2.py3-none-any.whl
+Collecting appdirs==1.4.0 (from cloudmesh_client)
+ Using cached appdirs-1.4.0-py2.py3-none-any.whl
+Collecting azure-storage==0.20.3 (from cloudmesh_client)
+ Using cached azure_storage-0.20.3-py2-none-any.whl
+Collecting MarkupSafe==0.23 (from cloudmesh_client)
+Collecting azure-mgmt==0.20.2 (from cloudmesh_client)
+Collecting functools32==3.2.3.post2 (from cloudmesh_client)
+Collecting pycparser==2.17 (from cloudmesh_client)
+Collecting nose==1.3.7 (from cloudmesh_client)
+ Using cached nose-1.3.7-py2-none-any.whl
+Collecting azure-mgmt-storage==0.20.0 (from cloudmesh_client)
+ Using cached azure_mgmt_storage-0.20.0-py2.py3-none-any.whl
+Collecting PyYAML==3.12 (from cloudmesh_client)
+Collecting msgpack-python==0.4.8 (from cloudmesh_client)
+Collecting pycrypto==2.6.1 (from cloudmesh_client)
+Collecting azure-mgmt-common==0.20.0 (from cloudmesh_client)
+ Using cached azure_mgmt_common-0.20.0-py2.py3-none-any.whl
+Collecting ansible==2.2.1.0 (from cloudmesh_client)
+Collecting six==1.10.0 (from cloudmesh_client)
+ Using cached six-1.10.0-py2.py3-none-any.whl
+Collecting colorama==0.3.7 (from cloudmesh_client)
+ Using cached colorama-0.3.7-py2.py3-none-any.whl
+Collecting azure==1.0.3 (from cloudmesh_client)
+Collecting python-dateutil==2.6.0 (from cloudmesh_client)
+ Using cached python_dateutil-2.6.0-py2.py3-none-any.whl
+Collecting requests==2.13.0 (from cloudmesh_client)
+ Using cached requests-2.13.0-py2.py3-none-any.whl
+Collecting debtcollector==1.11.0 (from cloudmesh_client)
+ Using cached debtcollector-1.11.0-py2.py3-none-any.whl
+Collecting pytest==3.0.6 (from cloudmesh_client)
+ Using cached pytest-3.0.6-py2.py3-none-any.whl
+Collecting gitchangelog==2.4.1 (from cloudmesh_client)
+Collecting click==6.7 (from cloudmesh_client)
+ Using cached click-6.7-py2.py3-none-any.whl
+Collecting wrapt==1.10.8 (from cloudmesh_client)
+Collecting funcsigs==1.0.2 (from cloudmesh_client)
+ Using cached funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting paramiko==2.1.1 (from cloudmesh_client)
+ Using cached paramiko-2.1.1-py2.py3-none-any.whl
+Collecting SQLAlchemy==1.1.5 (from cloudmesh_client)
+Collecting sandman==0.9.8 (from cloudmesh_client)
+ Using cached sandman-0.9.8-py2-none-any.whl
+Collecting Babel==2.3.4 (from cloudmesh_client)
+ Using cached Babel-2.3.4-py2.py3-none-any.whl
+Collecting azure-common==1.1.4 (from cloudmesh_client)
+ Using cached azure_common-1.1.4-py2.py3-none-any.whl
+Collecting pyaml==16.12.2 (from cloudmesh_client)
+ Using cached pyaml-16.12.2-py2.py3-none-any.whl
+Collecting pbr==1.10.0 (from cloudmesh_client)
+ Using cached pbr-1.10.0-py2.py3-none-any.whl
+Collecting simplejson==3.10.0 (from cloudmesh_client)
+Collecting cloudmesh-timestring==1.6.2.1 (from cloudmesh_client)
+Collecting packaging==16.8 (from cloudmesh_client)
+ Using cached packaging-16.8-py2.py3-none-any.whl
+Collecting ipaddress==1.0.18 (from cloudmesh_client)
+ Using cached ipaddress-1.0.18-py2-none-any.whl
+Collecting Flask==0.12 (from cloudmesh_client)
+ Using cached Flask-0.12-py2.py3-none-any.whl
+Collecting future==0.16.0 (from cloudmesh_client)
+Collecting oslo.config==3.22.0 (from cloudmesh_client)
+ Using cached oslo.config-3.22.0-py2.py3-none-any.whl
+Collecting netaddr==0.7.19 (from cloudmesh_client)
+ Using cached netaddr-0.7.19-py2.py3-none-any.whl
+Collecting Flask-SQLAlchemy==2.1 (from cloudmesh_client)
+Collecting Flask-HTTPAuth==3.2.2 (from cloudmesh_client)
+Collecting prettytable==0.7.2 (from cloudmesh_client)
+Collecting positional==1.1.1 (from cloudmesh_client)
+Collecting docopt==0.6.2 (from cloudmesh_client)
+Collecting WTForms==2.1 (from cloudmesh_client)
+Collecting urllib3==1.20 (from cloudmesh_client)
+ Using cached urllib3-1.20-py2.py3-none-any.whl
+Collecting Flask-Admin==1.4.2 (from cloudmesh_client)
+Collecting Werkzeug==0.11.15 (from cloudmesh_client)
+ Using cached Werkzeug-0.11.15-py2.py3-none-any.whl
+Collecting cffi==1.9.1 (from cloudmesh_client)
+ Using cached cffi-1.9.1-cp27-cp27mu-manylinux1_x86_64.whl
+Collecting futures==3.0.5 (from cloudmesh_client)
+ Using cached futures-3.0.5-py2-none-any.whl
+Collecting monotonic==1.2 (from cloudmesh_client)
+ Using cached monotonic-1.2-py2.py3-none-any.whl
+Collecting rfc3986==0.4.1 (from cloudmesh_client)
+ Using cached rfc3986-0.4.1-py2.py3-none-any.whl
+Collecting iso8601==0.1.11 (from cloudmesh_client)
+ Using cached iso8601-0.1.11-py2.py3-none-any.whl
+Collecting oslo.i18n==3.12.0 (from cloudmesh_client)
+ Using cached oslo.i18n-3.12.0-py2.py3-none-any.whl
+Collecting py==1.4.32 (from cloudmesh_client)
+ Using cached py-1.4.32-py2.py3-none-any.whl
+Collecting azure-mgmt-nspkg==1.0.0 (from cloudmesh_client)
+ Using cached azure_mgmt_nspkg-1.0.0-py2.py3-none-any.whl
+Collecting jsonschema==2.5.1 (from cloudmesh_client)
+ Using cached jsonschema-2.5.1-py2.py3-none-any.whl
+Collecting stevedore==1.20.0 (from cloudmesh_client)
+ Using cached stevedore-1.20.0-py2.py3-none-any.whl
+Collecting itsdangerous==0.24 (from cloudmesh_client)
+Collecting keystoneauth1==2.18.0 (from cloudmesh_client)
+ Using cached keystoneauth1-2.18.0-py2.py3-none-any.whl
+
+ Requirement already satisfied: setuptools&gt;=11.3 in
+   /usr/local/lib/python2.7/site-packages (from
+   cryptography==1.7.2-&gt;cloudmesh_client)
+
+Installing collected packages: pytz, Babel, pbr, six, oslo.i18n,
+wrapt, funcsigs, debtcollector, iso8601, netifaces, monotonic,
+netaddr, pyparsing, oslo.utils, msgpack-python,
+oslo.serialization, positional, requests, stevedore,
+keystoneauth1, prettytable, simplejson, python-novaclient,
+python-hostlist, pyreadline, azure-nspkg, azure-common,
+azure-servicebus, azure-mgmt-nspkg, azure-mgmt-common,
+azure-mgmt-resource, enum34, rfc3986, oslo.config,
+python-keystoneclient, humanize, pycrypto, httpsig,
+azure-servicemanagement-legacy, idna, azure-mgmt-network,
+ipaddress, pyasn1, pycparser, cffi, cryptography,
+azure-mgmt-compute, apache-libcloud, MarkupSafe, Jinja2, appdirs,
+futures, python-dateutil, azure-storage, azure-mgmt-storage,
+azure-mgmt, functools32, nose, PyYAML, paramiko, ansible,
+colorama, azure, py, pytest, gitchangelog, click, SQLAlchemy,
+docopt, itsdangerous, Werkzeug, Flask, WTForms, Flask-Admin,
+Flask-SQLAlchemy, Flask-HTTPAuth, sandman, pyaml,
+cloudmesh-timestring, packaging, future, urllib3, jsonschema,
+cloudmesh-client
+
+Successfully installed Babel-2.3.4 Flask-0.12 Flask-Admin-1.4.2
+Flask-HTTPAuth-3.2.2 Flask-SQLAlchemy-2.1 Jinja2-2.8.1
+MarkupSafe-0.23 PyYAML-3.12 SQLAlchemy-1.1.5 WTForms-2.1
+Werkzeug-0.11.15 ansible-2.2.1.0 apache-libcloud-1.5.0
+appdirs-1.4.0 azure-1.0.3 azure-common-1.1.4 azure-mgmt-0.20.2
+azure-mgmt-common-0.20.0 azure-mgmt-compute-0.20.1
+azure-mgmt-network-0.20.1 azure-mgmt-nspkg-1.0.0
+azure-mgmt-resource-0.20.1 azure-mgmt-storage-0.20.0
+azure-nspkg-1.0.0 azure-servicebus-0.20.1
+azure-servicemanagement-legacy-0.20.2 azure-storage-0.20.3
+cffi-1.9.1 click-6.7 cloudmesh-client-4.7.2
+cloudmesh-timestring-1.6.2.1 colorama-0.3.7 cryptography-1.7.2
+debtcollector-1.11.0 docopt-0.6.2 enum34-1.1.6 funcsigs-1.0.2
+functools32-3.2.3.post2 future-0.16.0 futures-3.0.5
+gitchangelog-2.4.1 httpsig-1.1.2 humanize-0.5.1 idna-2.2
+ipaddress-1.0.18 iso8601-0.1.11 itsdangerous-0.24 jsonschema-2.5.1
+keystoneauth1-2.18.0 monotonic-1.2 msgpack-python-0.4.8
+netaddr-0.7.19 netifaces-0.10.5 nose-1.3.7 oslo.config-3.22.0
+oslo.i18n-3.12.0 oslo.serialization-2.16.0 oslo.utils-3.22.0
+packaging-16.8 paramiko-2.1.1 pbr-1.10.0 positional-1.1.1
+prettytable-0.7.2 py-1.4.32 pyaml-16.12.2 pyasn1-0.1.9
+pycparser-2.17 pycrypto-2.6.1 pyparsing-2.1.10 pyreadline-2.1
+pytest-3.0.6 python-dateutil-2.6.0 python-hostlist-1.17
+python-keystoneclient-3.10.0 python-novaclient-7.1.0 pytz-2016.10
+requests-2.13.0 rfc3986-0.4.1 sandman-0.9.8 simplejson-3.10.0
+six-1.10.0 stevedore-1.20.0 urllib3-1.20 wrapt-1.10.8
+
+
+[root@comet-dev cloudmesh]# exit
+exit
+
+
+[USER@comet-dev cloudmesh]$ mv python-2.7.13.img cloudmesh_client-4.7.2.img
+[USER@comet-dev ~]$ ls -lh /dev/shm/cloudmesh/cloudmesh_client-4.7.2.img
+-rwxr-xr-x 1 USER USER 1.3G Jun  9 21:07 /dev/shm/cloudmesh/cloudmesh_client-4.7.2.img
+
+
+[USER@comet-dev ~]$ singularity exec /dev/shm/cloudmesh/cloudmesh_client-4.7.2.img cat /etc/issue
+Debian GNU/Linux 8 \n \l
+
+
+[USER@comet-dev ~]$ singularity exec /dev/shm/cloudmesh/cloudmesh_client-4.7.2.img python --version
+Python 2.7.13
+
+
+[USER@comet-dev ~]$ singularity exec /dev/shm/cloudmesh/cloudmesh_client-4.7.2.img cm version
+~/.cloudmesh/cloudmesh.yaml created
+Model created
+ERROR: Please define a key first, e.g.: cm key add --ssh &lt;keyname&gt;
++------------------+---------+
+| name             | version |
++------------------+---------+
+| python           | 2.7.13  |
+| pip              | 8.1.2   |
+| cloudmesh_client | 4.7.2   |
+| git hash         |         |
++------------------+---------+
+You are running a supported version of python: 2.7.13
+You are running a supported version of pip: 8.1.2
+
+
+[USER@comet-dev ~]$ singularity exec /dev/shm/cloudmesh/cloudmesh_client-4.7.2.img cm comet init
+Initializing the comet configuration file...
+Set a default username (RETURN to skip):
+Set the active service endpoint to use. The availalbe endpoints are - dev/production [dev]:
+Set the base url for the nucleus dev service [https://comet-nucleus-dev.sdsc.edu/nucleus]:
+Set the api version for the nucleus dev service [v1]:
+Authenticating to the nucleus dev service and obtaining the apikey...
+Comet nucleus username [TBD]: USER
+Password:
+api key retrieval and set was successful!
+
+
+[USER@comet-dev ~]$ singularity exec /dev/shm/cloudmesh/cloudmesh_client-4.7.2.img cm comet ll
++-------+---------+-------+------------------+---------------+---------------+-----------+-------------+-------------+
+| Name  | Project | Count | Nodes            | Frontend (Fe) | State (Fe)    | Type (Fe) | allocations | Description |
++-------+---------+-------+------------------+---------------+---------------+-----------+-------------+-------------+
+| vc8   | ddp280  | 0     |                  | vc8           | nostate-error | VM        | ddp280      |             |
+| vct03 | ddp280  | 4     | vm-vct03-[00-03] | vct03         | nostate-error | VM        | ddp280      |             |
+| k8s   | sys200  | 16    | vm-k8s-[00-15]   | k8s           | nostate-error | VM        | sys200      |             |
+| vct06 | sys200  | 7     | vm-vct06-[00-06] | vct06         | nostate-error | VM        | sys200      |             |
+| vct01 | ddp280  | 2     | vm-vct01-[00-01] | vct01         | nostate-error | VM        | ddp280      |             |
+|       |         |       |                  |               |               |           | sds166      |             |
++-------+---------+-------+------------------+---------------+---------------+-----------+-------------+-------------+
+</pre></div>
+</div>
+<p>This is faster than installing a new Python version, setuptools and
+pip then creating a virtualenv to pip install cloudmesh_client into
+and not a bad way to build/test with arbitrary OS support/Python
+versions.</p>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Completing Techlist Assignments &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../../lesson/index.html">Lessons</a></li>
+                <li><a href="../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+                <li><a href="https://piazza.com/class/ix39m27czn5uw">Piazza</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul class="simple">
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#a-second-example">A second example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id25">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Completing Techlist Assignments</a><ul>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#setup-your-repository">Setup Your Repository</a></li>
+<li><a class="reference internal" href="#add-your-technology">Add Your Technology</a></li>
+<li><a class="reference internal" href="#tips">Tips</a><ul>
+<li><a class="reference internal" href="#why-do-i-not-see-that-my-changes-are-published-on-the-web-page">Why do I not see that my changes are published on the Web page?</a></li>
+<li><a class="reference internal" href="#how-do-i-know-if-i-did-it-right">How do I know if I did it right?</a></li>
+<li><a class="reference internal" href="#what-happens-when-i-cite-a-reference-more-than-once">What happens when I cite a reference more than once?</a></li>
+<li><a class="reference internal" href="#what-is-the-difference-between-label-and-key">What is the difference between label and key?</a></li>
+<li><a class="reference internal" href="#how-do-i-do-an-organization-as-author">How do I do an organization as author?</a></li>
+<li><a class="reference internal" href="#how-do-i-do-an-entry-that-does-not-have-an-author">How do I do an entry that does not have an author?</a></li>
+<li><a class="reference internal" href="#how-do-i-organize-multiple-authors">How do I organize multiple authors?</a></li>
+<li><a class="reference internal" href="#how-do-i-add-bullets-to-the-description">How do I add bullets to the description?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#learning-outcomes">Learning outcomes</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul class="simple">
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#a-second-example">A second example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id25">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">Completing Techlist Assignments</a><ul>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#setup-your-repository">Setup Your Repository</a></li>
+<li><a class="reference internal" href="#add-your-technology">Add Your Technology</a></li>
+<li><a class="reference internal" href="#tips">Tips</a><ul>
+<li><a class="reference internal" href="#why-do-i-not-see-that-my-changes-are-published-on-the-web-page">Why do I not see that my changes are published on the Web page?</a></li>
+<li><a class="reference internal" href="#how-do-i-know-if-i-did-it-right">How do I know if I did it right?</a></li>
+<li><a class="reference internal" href="#what-happens-when-i-cite-a-reference-more-than-once">What happens when I cite a reference more than once?</a></li>
+<li><a class="reference internal" href="#what-is-the-difference-between-label-and-key">What is the difference between label and key?</a></li>
+<li><a class="reference internal" href="#how-do-i-do-an-organization-as-author">How do I do an organization as author?</a></li>
+<li><a class="reference internal" href="#how-do-i-do-an-entry-that-does-not-have-an-author">How do I do an entry that does not have an author?</a></li>
+<li><a class="reference internal" href="#how-do-i-organize-multiple-authors">How do I organize multiple authors?</a></li>
+<li><a class="reference internal" href="#how-do-i-add-bullets-to-the-description">How do I add bullets to the description?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#learning-outcomes">Learning outcomes</a></li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Links</b>
+<ul>
+  <li><a href="https://cloudmesh.github.io/classes/faq.html">FAQ</a> </li>  
+  <li><a href="https://cloudmesh.github.io/classes/i524/index.html#online-meetings">Meetings</a> </li>
+  <li><a href="https://iu.instructure.com/courses/1603897/assignments/syllabus">Zoom</a></li>
+
+  <li> <a href="https://cloudmesh.github.io/classes/i524/calendar.html#i524-calendar">Calendar</a>
+  <li> <a href="https://cloudmesh.github.io/classes/i524/assignments.html"><strong>Assignments</strong></a>
+  </li>
+  <li>
+    <a href="https://cloudmesh.github.io/classes/">
+      <img src="https://cloudmesh.github.io/classes/_static/html.jpg" width="40" height="40" alt="pdf"> Web Page
+    </a>
+  </li>
+  <li>
+    <a href="https://cloudmesh.github.io/classes/book.pdf">
+      <img src="https://cloudmesh.github.io/classes/_static/pdf.png" width="40" height="40" alt="pdf"> (Incomplete)
+    </a>
+  </li>
+</ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="completing-techlist-assignments">
+<span id="techlist-tips"></span><h1>Completing Techlist Assignments<a class="headerlink" href="#completing-techlist-assignments" title="Permalink to this headline">¶</a></h1>
+<p>Watch the video at <a class="reference external" href="https://www.youtube.com/watch?v=roi7vezNmfo">https://www.youtube.com/watch?v=roi7vezNmfo</a></p>
+<p>From the video, you learn how to fork and create pull requests. We
+encourage you to watch the video. It is on purpose long. We assume
+that you are running the commands in virtualenv</p>
+<div class="section" id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">You have Ubuntu installed in Virtualbox. See lesson <span class="xref std std-doc">../lesson/linux/ubuntu</span>.</p>
+</li>
+<li><p class="first">You have prepared the Ubuntu VM as in lesson <a class="reference internal" href="ubuntu-setup.html"><span class="doc">Setting Up Ubuntu 16.04 for i524</span></a>
+and <a class="reference internal" href="ubuntu-setup.html#r-i524-ubuntu-setup-devtools"><span class="std std-ref">Installing Development Tools</span></a>.</p>
+</li>
+<li><p class="first">You have a GitHub account.</p>
+</li>
+<li><p class="first">You have configured git to identify as you as well as to use your
+preferred text editor. See lesson <span class="xref std std-doc">../lesson/prg/github</span>.</p>
+<p>Specifically, you should <strong>adapt</strong> the following commands:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git config --global user.name &quot;Albert Zweistein&quot;
+$ git config --global user.email &quot;albert.zweistein@gmail.com&quot;
+$ git config --global core.editor emacs
+</pre></div>
+</div>
+</li>
+<li><p class="first">You have created an ssh key on Ubuntu. See lesson <a class="reference internal" href="../../lesson/linux/ssh.html#s-ssh-generate"><span class="std std-ref">Generate a SSH key</span></a>
+or <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=23m37s">video</a>.</p>
+<p>You should do something like this to generate an ssh key:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ssh-keygen -C albert.zweistein@gmail.com
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in test.
+Your public key has been saved in test.pub.
+The key fingerprint is:
+SHA256:koA9ZYkSlBBpkR/W0bfIxLmViwQWY1qKqjTzGdK+7vQ albert.zweistein@gmail.com
+The key&#39;s randomart image is:
++---[RSA 2048]----+
+|o*=o.XO.. .      |
+|.o+=B+o* +       |
+|..++= + * o      |
+|. .. o * o       |
+|.= o  o S        |
+|o * o  .         |
+|.  =             |
+|  . o            |
+|  o+ E           |
++----[SHA256]-----+
+</pre></div>
+</div>
+</li>
+<li><p class="first">You have uploaded the <strong>public</strong> key to your github
+profile. See lesson <a class="reference internal" href="../../lesson/prg/github.html#upload-key"><span class="std std-ref">Upload Key</span></a> or <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=24m26s">video</a>.</p>
+<p>Specifically, copy the contents of your <code class="docutils literal"><span class="pre">.ssh/id_rsa.pub</span></code> file
+and add them to <a class="reference external" href="https://github.com/settings/keys">you github keys</a>.</p>
+<p>To get the contents of the public key, use the <code class="docutils literal"><span class="pre">cat</span></code> command.
+Something like the following:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cat .ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+kwxuJ46kIq20odlqQ/sLl0YPkG3yVcXS+IwyWxDiaxOyB3ZqVJPsCF7OKqA9WpIHsdWxXNtU0hD/ulO2DsIJI73tTF+ITDfeMs7A7pzFPmHwTRKIAGzsiiZkj7W2hQK6DFUt/x4fjwJImG3YrNjcJ2//2aOW88Dsoq/+8Hxz3Wm5uDpmkcX5aFFmkFV6oyZoVznUZqpIlRQbgM9b+kXr7pvnYYDrGVVY86frLMrGNKKXE+DXUPLRqUGYmLQ+62xw4I6xXaF4+AyR4j4uTY91Fq1ybSALkxgKkqrZavZudkAzc50nSTTbmgCSwEaAWw0Bz6eX28r4IJclAI98Apcl albert.zweistein@gmail.com
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Do not use the above public key. It will not work for you.</p>
+</div>
+</li>
+<li><p class="first">You have created a Python Virtual Environment and activated it. See lesson <a class="reference internal" href="../../lesson/prg/python_intro.html#virtual-environments"><span class="std std-ref">Virtual Environments</span></a>
+to learn what is Virtual Environment. And lesson <a class="reference internal" href="../../lesson/prg/python_intro.html#id2"><span class="std std-ref">virtualenv</span></a>
+to learn how to properly install and activate Virtualenv.</p>
+<p>To create a virtual env, use the <code class="docutils literal"><span class="pre">virtualenv</span></code> command.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ virtualenv ~/ENV
+Running virtualenv with interpreter /usr/bin/python2
+New python executable in /home/ubuntu/ENV/bin/python2
+Also creating executable in /home/ubuntu/ENV/bin/python
+Installing setuptools, pkg_resources, pip, wheel...done.
+</pre></div>
+</div>
+<p>To activate the virtual environment you created, use the the following command.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ source ~/ENV/bin/activate
+(ENV) $
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Notice how the shell prompt <code class="docutils literal"><span class="pre">(ENV)</span></code> changed upon activation.</p>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">As virtualenv stated, you <strong>must</strong> activate the virtual environment
+before it can be used.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="setup-your-repository">
+<h2>Setup Your Repository<a class="headerlink" href="#setup-your-repository" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Fork the class repository to your local. See lesson <a class="reference internal" href="../../lesson/prg/github.html#fork-repo"><span class="std std-ref">Fork</span></a> or <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=22m2s">video</a>.
+Go to class repository <a class="reference external" href="https://github.com/cloudmesh/classes/">https://github.com/cloudmesh/classes/</a> and click on the “Fork”
+button on the top right corner. This will redirect you to your Github page.
+Notice that the url has changed from:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">classes</span><span class="o">/</span>
+</pre></div>
+</div>
+<p>to:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">YOUR_GITHUB_USERNAME</span><span class="o">/</span><span class="n">classes</span>
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Verify that the url contains your github username in place of <code class="docutils literal"><span class="pre">YOUR_GITHUB_USERNAME</span></code>.</p>
+</div>
+</li>
+<li><p class="first">Ensure that you are on your forked repository on GitHub.</p>
+<p>Click on “Clone or download” (a green button on the top right) and copy the url.
+It should look something like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">YOUR_GITHUB_USERNAME</span><span class="o">/</span><span class="n">classes</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">On Ubuntu, use the <code class="docutils literal"><span class="pre">git</span> <span class="pre">clone</span></code> command to clone the repository
+with the above link. See <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=25m34s">video</a>.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git clone git@github.com:YOUR_GITHUB_USERNAME/classes.git
+Cloning into &#39;classes&#39;...
+remote: Counting objects: 13012, done.
+remote: Compressing objects: 100% (918/918), done.
+remote: Total 13012 (delta 727), reused 0 (delta 0), pack-reused 12029
+Receiving objects: 100% (13012/13012), 32.73 MiB | 13.42 MiB/s, done.
+Resolving deltas: 100% (9109/9109), done.
+Checking connectivity... done.
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">This will fail if you haven’t upload your public key as in the <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=22m42s">video</a>.</p>
+</div>
+</li>
+<li><p class="first">Enter the <code class="docutils literal"><span class="pre">classes</span></code> directories:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ cd classes
+</pre></div>
+</div>
+</li>
+<li><p class="first">Add the upstream repository as <code class="docutils literal"><span class="pre">upstream</span></code>, see lesson <a class="reference internal" href="../../lesson/prg/github.html#remote"><span class="std std-ref">Remote</span></a>.</p>
+<p>Verify that the <code class="docutils literal"><span class="pre">origin</span></code> points to your clone</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git remote -v
+origin    git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
+origin    git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
+</pre></div>
+</div>
+<p>Next, add the upstream:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git remote add upstream git://github.com/cloudmesh/classes
+</pre></div>
+</div>
+<p>Verify that the changes are as expected</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git remote -v
+origin    git@github.com:YOUR_GITHUB_USERNAME/classes.git (fetch)
+origin    git@github.com:YOUR_GITHUB_USERNAME/classes.git (push)
+upstream  git://github.com/cloudmesh/classes (fetch)
+upstream  git://github.com/cloudmesh/classes (push)
+</pre></div>
+</div>
+</li>
+<li><p class="first">Install the dependencies for building the website:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ pip install -r requirements.txt
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="add-your-technology">
+<h2>Add Your Technology<a class="headerlink" href="#add-your-technology" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Edit the following two files within the <code class="docutils literal"><span class="pre">classes</span></code> directory, see <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=19m34s">video</a>:</p>
+<ol class="arabic">
+<li><p class="first">add the paragraph about the technologies in <code class="docutils literal"><span class="pre">docs/source/i524/technologies.rst</span></code></p>
+</li>
+<li><p class="first">your references, go to  <code class="docutils literal"><span class="pre">docs/source/refs.bib</span></code></p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Make sure to find your <strong>HID</strong> in <code class="docutils literal"><span class="pre">refs.bib</span></code> and make your
+changes under that line.  This will help prevent conflicts
+when merging later.</p>
+</div>
+</li>
+</ol>
+</li>
+<li><p class="first">For the descriptions, remove advertisement adjectives and
+sentences from your description, and spellcheck.
+See <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=0s">Nagios example</a> to see how to search references,
+write your technology and references.</p>
+</li>
+<li><p class="first">For bibliographies references it is important that every reference is
+required to have owner field. For example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">owner</span> <span class="o">=</span> <span class="p">{</span><span class="n">TA</span><span class="o">-</span><span class="n">sp17</span><span class="o">-</span><span class="mi">0001</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>See <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=5m2s">Video</a> to check how to write the right
+references.</p>
+<p>In case your entry is MISC the howpublished field refers to the
+method on how it is published. A urls are posted in its own
+field. For example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">howpublished</span> <span class="o">=</span> <span class="p">{</span><span class="n">Web</span> <span class="n">Page</span><span class="p">}</span>
+<span class="n">url</span> <span class="o">=</span> <span class="p">{</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">google</span><span class="o">.</span><span class="n">com</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>You also have multiple optional tools to manage your references.
+See lesson <a class="reference internal" href="../../lesson/doc/latex.html#bibligraphies"><span class="std std-ref">Bibliographies</span></a>. Jabref is also introduced within
+<a class="reference external" href="https://youtu.be/roi7vezNmfo?t=8m6s">video</a>.</p>
+</li>
+<li><p class="first">After making your change, you should compile the webpage using
+command <code class="docutils literal"><span class="pre">make</span></code>. See <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=20m14s">video</a>.
+You can then open the locally generated copy of the class
+website using <code class="docutils literal"><span class="pre">make</span> <span class="pre">view</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ make
+(ENV) $ make view
+</pre></div>
+</div>
+</li>
+<li><p class="first">Once you have verified that your changes have been integrated
+correctly, you should commit your changes, see <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=31m29s">video</a> to check how to do it
+properly:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git commit \
+  -m &quot;new:usr: Added YOUR_TECHNOLOGY to techlist&quot; \
+  docs/source/i524/technologies.rst \
+  docs/source/refs.bib
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p>Make sure to replace <code class="docutils literal"><span class="pre">YOUR_TECHNOLOGY</span></code> with the technology you
+just provided the description for.</p>
+<p>To get credit for the assignment write your commit summary with your:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">new</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Meaningful</span> <span class="n">summary</span> <span class="n">of</span> <span class="n">what</span> <span class="n">you</span> <span class="n">did</span>
+</pre></div>
+</div>
+<p>For example for new contributions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">new</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Added</span> <span class="n">entry</span> <span class="k">for</span> <span class="n">Nagios</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">technology</span> <span class="nb">list</span>
+</pre></div>
+</div>
+<p>For example for changes contributions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">chg</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Changed</span> <span class="n">the</span> <span class="n">entire</span> <span class="n">paraagraph</span> <span class="k">for</span> <span class="n">Nagios</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">technology</span> <span class="nb">list</span>
+</pre></div>
+</div>
+<p>For example for fixed contributions:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span><span class="n">fix</span><span class="p">:</span><span class="n">usr</span><span class="p">:</span> <span class="n">Changed</span> <span class="n">spelling</span> <span class="k">for</span> <span class="n">Nagios</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">technology</span> <span class="nb">list</span>
+</pre></div>
+</div>
+</div>
+</li>
+<li><p class="first">Rebase your changes on top of any changes to upstream</p>
+<p>Since you are working on your own independant copy of the
+<code class="docutils literal"><span class="pre">classes</span></code> repository, it will soon be out of date.  In order to
+stay up to date, you need to <code class="docutils literal"><span class="pre">rebase</span></code> your changes on top of the
+upstream master branch.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">You should run the <code class="docutils literal"><span class="pre">fetch</span></code> and <code class="docutils literal"><span class="pre">rebase</span></code> very frequently.
+This will help reduce the frequency of conflicts.</p>
+</div>
+<ol class="loweralpha">
+<li><p class="first">Fetch any changes that have been commited to <code class="docutils literal"><span class="pre">upstream</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git fetch upstream master
+</pre></div>
+</div>
+</li>
+<li><p class="first">Replay your commits on top of the upstream changes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git rebase upstream/master
+</pre></div>
+</div>
+</li>
+<li><p class="first">If you should run into a merge conflict, you should abort the rebase:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git rebase --abort
+</pre></div>
+</div>
+<p>Next, make a copy of your changes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ cp docs/source/i524/technologies.rst my-technologies.rst
+(ENV) $ cp docs/source/refs.bib my-refs.bib
+</pre></div>
+</div>
+<p>You should then rerun the rebase, taking the upstream changes</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git rebase -Xours upstream/master
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Even though you pass the <code class="docutils literal"><span class="pre">-Xours</span></code> to git, it will
+automatically resolve the conflicts by using the upstream
+version. The <code class="docutils literal"><span class="pre">-Xours</span></code> is due to running the rebase from the
+perspective of the <code class="docutils literal"><span class="pre">upstream</span></code> version, rather than your
+modified version.</p>
+</div>
+<p>At this point you should incorportate your changes that you
+saved in <code class="docutils literal"><span class="pre">my-technologies.rst</span></code> and <code class="docutils literal"><span class="pre">my-refs.bib</span></code>. Go back to
+the previous step where you commit.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Do not commit your backup files. Remove them after rebasing
+successfully.</p>
+</div>
+</li>
+</ol>
+</li>
+<li><p class="first">Review the changed files to make sure you only change the two
+files. If you have other changes create separate pull requests for
+them.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p>You can verify that your commits only include changes to the two
+files using the <cite>diff</cite> subcommand. You’ll get something like the
+following:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git diff --stat origin/master
+docs/source/i524/technologies.rst | 10 ++++++++++
+docs/source/refs.bib              |  3 +++
+</pre></div>
+</div>
+</div>
+</li>
+<li><p class="first">You should now push your changes to your fork:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV) $ git push origin master
+</pre></div>
+</div>
+</li>
+<li><p class="first">Finally, create a pull request by going to your forked repository on Github.
+See <a class="reference external" href="https://youtu.be/roi7vezNmfo?t=36m7s">video</a> to check how to create a
+pull request and how the pull request works.
+Underneath the green “Clone or download” button you should see a
+line that says <code class="docutils literal"><span class="pre">Pull</span> <span class="pre">request</span></code>. Click <code class="docutils literal"><span class="pre">Pull</span> <span class="pre">request</span></code> and review
+your changes in the web browser. If you are satisfied, click the
+green “Create Pull Request”.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Fill out the subject line in the same format you make your
+commits, e.g: <code class="docutils literal"><span class="pre">new:usr:</span> <span class="pre">Added</span> <span class="pre">technology</span> <span class="pre">YOUR_TECHNOLOGY</span> <span class="pre">to</span>
+<span class="pre">techlist</span></code>.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="tips">
+<h2>Tips<a class="headerlink" href="#tips" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="why-do-i-not-see-that-my-changes-are-published-on-the-web-page">
+<h3>Why do I not see that my changes are published on the Web page?<a class="headerlink" href="#why-do-i-not-see-that-my-changes-are-published-on-the-web-page" title="Permalink to this headline">¶</a></h3>
+<p>Changes will take time to be reviewed and integrated into the Web
+page. Changes will be done in two steps. First, they will be merged
+into the branch I524. Later, your changes will be merged into the
+master branch. You will see your changes in the master branch.</p>
+</div>
+<div class="section" id="how-do-i-know-if-i-did-it-right">
+<h3>How do I know if I did it right?<a class="headerlink" href="#how-do-i-know-if-i-did-it-right" title="Permalink to this headline">¶</a></h3>
+<p>Check the <a class="reference external" href="https://github.com/cloudmesh/classes/pulls">https://github.com/cloudmesh/classes/pulls</a> to see your pull
+request.  When your changes were approved and merged with the master
+branch, your pull request will disappear.</p>
+</div>
+<div class="section" id="what-happens-when-i-cite-a-reference-more-than-once">
+<h3>What happens when I cite a reference more than once?<a class="headerlink" href="#what-happens-when-i-cite-a-reference-more-than-once" title="Permalink to this headline">¶</a></h3>
+<p>The developers of the module that allows us to use bibtex in sphinx
+omit the label when a reference is cited more than once. Back
+references are included in the reference section. We ignore this and
+hope the developers of the module will change this in future. You can
+certainly work with them to fix this and improve their module, but
+this is out of scope for this class. We simply ignore this issue.</p>
+</div>
+<div class="section" id="what-is-the-difference-between-label-and-key">
+<h3>What is the difference between label and key?<a class="headerlink" href="#what-is-the-difference-between-label-and-key" title="Permalink to this headline">¶</a></h3>
+<p>A key is only used to give bibtex a hint on how the bibtex entry is
+<strong>sorted</strong> in the bibliography. It is not used as label, or the
+specification of some category.</p>
+<p>A label is the actual identifier that you would use in the text to
+refer to the entry and is in the line with the &#64; character.</p>
+</div>
+<div class="section" id="how-do-i-do-an-organization-as-author">
+<h3>How do I do an organization as author?<a class="headerlink" href="#how-do-i-do-an-organization-as-author" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">author</span> <span class="o">=</span> <span class="p">{{</span><span class="n">This</span> <span class="n">Is</span> <span class="n">My</span> <span class="n">Organization</span><span class="p">}},</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="how-do-i-do-an-entry-that-does-not-have-an-author">
+<h3>How do I do an entry that does not have an author?<a class="headerlink" href="#how-do-i-do-an-entry-that-does-not-have-an-author" title="Permalink to this headline">¶</a></h3>
+<p>Leave the author field of, however now there are  no sorting
+criteria. To enable proper sorting you add a useful key that uses the
+placement in the reference section based on the key you put in.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">key</span> <span class="o">=</span> <span class="p">{</span><span class="n">put</span> <span class="n">me</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">sort</span> <span class="n">order</span> <span class="n">at</span> <span class="o">*</span><span class="n">put</span><span class="o">*</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="how-do-i-organize-multiple-authors">
+<h3>How do I organize multiple authors?<a class="headerlink" href="#how-do-i-organize-multiple-authors" title="Permalink to this headline">¶</a></h3>
+<p>Multiple authors need to be separated by the word <strong>and</strong>. If the
+lastname contains spaces, the lastname needs to be listed first
+followed by a comma and than the Firtsname:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">author</span> <span class="o">=</span> <span class="p">{</span><span class="n">von</span> <span class="n">Laszewski</span><span class="p">,</span> <span class="n">Gregor</span> <span class="ow">and</span> <span class="n">Albert</span> <span class="n">Zweistain</span> <span class="ow">and</span> <span class="n">Adele</span> <span class="n">Dreistein</span><span class="p">},</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="how-do-i-add-bullets-to-the-description">
+<h3>How do I add bullets to the description?<a class="headerlink" href="#how-do-i-add-bullets-to-the-description" title="Permalink to this headline">¶</a></h3>
+<p>If you already did some, ignore, but make sure to have the formatting
+done right. In general you should avoid bullet points as this is a
+description and not a power point presentation.
+In case you need to list items you can do it this way:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">technology</span> <span class="n">xyz</span> <span class="n">addresses</span> <span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="n">interoperability</span><span class="p">,</span> <span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="n">extensibility</span><span class="p">,</span> <span class="ow">and</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="n">an</span> <span class="n">example</span> <span class="k">for</span> <span class="n">avoiding</span> <span class="n">bullet</span> <span class="n">points</span> <span class="k">while</span>
+<span class="n">replacing</span> <span class="n">them</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">single</span> <span class="n">sentence</span>
+</pre></div>
+</div>
+<p>It will result in:</p>
+<p>The technology xyz addresses (a) interoperability, (b)
+extensibility, and (c) an example for avoiding bullet points while
+replaceing them in a single sentence</p>
+</div>
+</div>
+<div class="section" id="learning-outcomes">
+<h2>Learning outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">CANVAS is not a tool used in open source development and
+industry. It has limitations in scalability and in structuring
+effective communication with large numbers of
+students/collaborators.</p>
+<p>Instead we use industry accepted Github for homework submission. To
+showcase one way of collaborating with more than 70 collaborators
+we will use the class website to demonstrate how this can be
+achieved with forks and pull requests. The TAs are responsible for
+communicating with you how to do this. They will also organize the
+merge of your pull requests into the web page and give comments/feedback
+to you if you fail to meet the requirements.</p>
+</li>
+<li><p class="first">As you look over the list you get familiar with technologies of
+interest.</p>
+</li>
+<li><p class="first">You will learn how not to plagiarize.</p>
+</li>
+<li><p class="first">You will learn how to create proper references while
+using academic bibliography management tools.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

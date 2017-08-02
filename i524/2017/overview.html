@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>i524 Big Data and Open Source Software Projects (2017) &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../../lesson/index.html">Lessons</a></li>
+                <li><a href="../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+                <li><a href="https://piazza.com/class/ix39m27czn5uw">Piazza</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul class="simple">
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#a-second-example">A second example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id25">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">i524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li><a class="reference internal" href="#meeting-times">Meeting Times</a></li>
+<li><a class="reference internal" href="#online-meetings">Online Meetings</a></li>
+<li><a class="reference internal" href="#who-can-take-the-class">Who can take the class?</a></li>
+<li><a class="reference internal" href="#homework">Homework</a></li>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#open-source-publication-of-homework">Open Source Publication of Homework</a></li>
+<li><a class="reference internal" href="#piazza">Piazza</a></li>
+<li><a class="reference internal" href="#tips-on-how-to-achieve-your-best">Tips on how to achieve your best</a></li>
+<li><a class="reference internal" href="#submissions">Submissions</a></li>
+<li><a class="reference internal" href="#selected-project-ideas">Selected Project Ideas</a></li>
+<li><a class="reference internal" href="#software-project">Software Project</a></li>
+<li><a class="reference internal" href="#report-format">Report Format</a></li>
+<li><a class="reference internal" href="#github-repositories">Github repositories</a></li>
+<li><a class="reference internal" href="#code-repositories-deliverables">Code Repositories Deliverables</a></li>
+<li><a class="reference internal" href="#learning-outcomes">Learning Outcomes</a></li>
+<li><a class="reference internal" href="#academic-integrity-policy">Academic Integrity Policy</a></li>
+<li><a class="reference internal" href="#links">Links</a></li>
+<li><a class="reference internal" href="#course-numbers">Course Numbers</a></li>
+<li><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_intro.html">Introduction to Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/latex.html">LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/contributing.html">Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul class="simple">
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/org/index.html">Oragnization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-this-class-not-hosted-on-edx">Why is this class not hosted on EdX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-not-using-canvas-for-communicating-with-students">Why are you not using CANVAS for communicating with students?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-is-there-no-textbook">Why is there no textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#representative-bibliography">Representative Bibliography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-find-the-hosting-web-confusing">I find the hosting Web confusing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-i-do-not-know-python-what-do-i-do">I524: I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-properly-research-a-bibtex-entry">How to properly research a bibtex entry?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#a-second-example">A second example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-differnt-entry-types-and-fields">What are the differnt entry types and fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id6">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id11">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id14">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id19">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id23">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id25">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">i524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li><a class="reference internal" href="#meeting-times">Meeting Times</a></li>
+<li><a class="reference internal" href="#online-meetings">Online Meetings</a></li>
+<li><a class="reference internal" href="#who-can-take-the-class">Who can take the class?</a></li>
+<li><a class="reference internal" href="#homework">Homework</a></li>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#open-source-publication-of-homework">Open Source Publication of Homework</a></li>
+<li><a class="reference internal" href="#piazza">Piazza</a></li>
+<li><a class="reference internal" href="#tips-on-how-to-achieve-your-best">Tips on how to achieve your best</a></li>
+<li><a class="reference internal" href="#submissions">Submissions</a></li>
+<li><a class="reference internal" href="#selected-project-ideas">Selected Project Ideas</a></li>
+<li><a class="reference internal" href="#software-project">Software Project</a></li>
+<li><a class="reference internal" href="#report-format">Report Format</a></li>
+<li><a class="reference internal" href="#github-repositories">Github repositories</a></li>
+<li><a class="reference internal" href="#code-repositories-deliverables">Code Repositories Deliverables</a></li>
+<li><a class="reference internal" href="#learning-outcomes">Learning Outcomes</a></li>
+<li><a class="reference internal" href="#academic-integrity-policy">Academic Integrity Policy</a></li>
+<li><a class="reference internal" href="#links">Links</a></li>
+<li><a class="reference internal" href="#course-numbers">Course Numbers</a></li>
+<li><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Links</b>
+<ul>
+  <li><a href="https://cloudmesh.github.io/classes/faq.html">FAQ</a> </li>  
+  <li><a href="https://cloudmesh.github.io/classes/i524/index.html#online-meetings">Meetings</a> </li>
+  <li><a href="https://iu.instructure.com/courses/1603897/assignments/syllabus">Zoom</a></li>
+
+  <li> <a href="https://cloudmesh.github.io/classes/i524/calendar.html#i524-calendar">Calendar</a>
+  <li> <a href="https://cloudmesh.github.io/classes/i524/assignments.html"><strong>Assignments</strong></a>
+  </li>
+  <li>
+    <a href="https://cloudmesh.github.io/classes/">
+      <img src="https://cloudmesh.github.io/classes/_static/html.jpg" width="40" height="40" alt="pdf"> Web Page
+    </a>
+  </li>
+  <li>
+    <a href="https://cloudmesh.github.io/classes/book.pdf">
+      <img src="https://cloudmesh.github.io/classes/_static/pdf.png" width="40" height="40" alt="pdf"> (Incomplete)
+    </a>
+  </li>
+</ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="i524-big-data-and-open-source-software-projects-2017">
+<span id="index-0"></span><h1>i524 Big Data and Open Source Software Projects (2017)<a class="headerlink" href="#i524-big-data-and-open-source-software-projects-2017" title="Permalink to this headline">¶</a></h1>
+<p>This course studies software used in many commercial activities
+related to Big Data. The backdrop for course contains more than 370
+software subsystems illustrated in Figure 1.  We will describe the
+software architecture represented by this collection and work towards
+identifying best practices to deploy, access and interface with
+them. Topics of this class will include:</p>
+<div class="sidebar" id="index-1">
+<p class="first sidebar-title">Figure 1: Software Systems relevant for Big Data</p>
+<div class="align-center last figure">
+<a class="reference internal image-reference" href="../../_images/bigdata.png"><img alt="370 Technologies" src="../../_images/bigdata.png" style="width: 200px;" /></a>
+</div>
+</div>
+<ol class="arabic simple">
+<li>The cloud computing architecture underlying open source big data
+software and frameworks and contrast of them to high performance
+computing</li>
+<li>The software architecture with its different layers covering broad
+functionality and rationale for each layer.</li>
+<li>We will go through selected big data stack software from the list
+of more than 370</li>
+<li>We will be identifying how we can create and replicate software
+environments based on software deployed and used on clouds while
+using Containers, OpenStack and Ansible playbooks.</li>
+<li>Students will choose a number of open source members of the list
+each and create repeatable deployments as illustrated in class.</li>
+<li>The main activity of the course will be building a significant
+project using multiple subsystems combined with user code and
+data. Projects will be suggested or students can choose their own. A
+project report will summarize the work conducted.</li>
+<li>Topics taught in this class will be very relevant for industry as
+you are not only exposed to big data, but you will also be
+practically exposed to DevOps and collaborative code development
+tools as part of your homework and project assignment.</li>
+</ol>
+<p>Students of this class will need to conduct their project deployments
+in python using ansible and enabling a software stack that is useful
+for a big data analysis. While it is not necessary to know either
+python or ansible to take the class it is important that you have
+knowledge of a programming language so you can enhance your knowledge
+on them throughout the class and succeed. You will be expected to have
+a computer on which you have python 2.7.x installed.  You will be
+using chameleon and possibly our local cloud. Optionally some projects
+may use docker.</p>
+<p>Figure 2 illustrates that you can follow the components of the class
+in a variety of ways and in parallel. For example, you do not have to
+wait to start the project or to find out more about any of the
+subsystems.</p>
+<img src="../../_images/graphviz-4a0f061ade3cfd06c3793cabb8f3282d54e0a835.png" alt="digraph class {
+   rankdir=&quot;LR&quot;;
+   compound=true;
+   node [shape=box,
+         style=filled,
+         fillcolor=ivory];
+
+   subgraph cluster_prj {
+             &quot;Project Proposal&quot; -&gt; &quot;Project Approval&quot; -&gt;
+             &quot;Project Update&quot; -&gt; &quot;Final Project&quot;;
+             label = &quot;Project&quot;;
+     }
+
+   subgraph cluster_ppr {
+             &quot;Paper 1&quot; -&gt; &quot;Paper 2&quot; -&gt; &quot;Paper 3&quot;;
+             label = &quot;Technology Papers&quot;;
+     }
+
+
+   &quot;start&quot; [shape=circle,fillcolor=palegreen];
+   &quot;end&quot; [shape=circle,fillcolor=khaki];
+   &quot;midterm&quot; [shape=circle,fillcolor=salmon];
+
+   &quot;start&quot; -&gt; &quot;Technology&quot;;
+   &quot;start&quot; -&gt; &quot;Collaboration&quot;;
+   &quot;start&quot; -&gt; &quot;Systems&quot;;
+   &quot;start&quot; -&gt; &quot;Theory&quot;;
+   &quot;start&quot; -&gt; &quot;Web&quot; -&gt; &quot;Paper 1&quot; [lhead=cluster_ppr];
+   &quot;Paper 3&quot; -&gt; &quot;midterm&quot; [ltail=cluster_ppr];
+   &quot;midterm&quot; -&gt; &quot;end&quot;;
+   &quot;Theory&quot; -&gt; &quot;Technology&quot; -&gt; &quot;Project Proposal&quot; [lhead=cluster_prj];
+   &quot;Collaboration&quot; -&gt; &quot;Project Proposal&quot; [lhead=cluster_prj];
+   &quot;Collaboration&quot; -&gt; &quot;Paper 1&quot; [lhead=cluster_ppr];
+   &quot;Collaboration&quot; -&gt; &quot;Web&quot;;
+   &quot;Systems&quot; -&gt; &quot;Project Proposal&quot; [lhead=cluster_prj];
+   &quot;Theory&quot; -&gt; &quot;Web&quot;;
+   &quot;Theory&quot; -&gt; &quot;Paper 1&quot; [lhead=cluster_ppr];
+   &quot;Project Update&quot; -&gt; &quot;midterm&quot; [ltail=cluster_prj];
+   &quot;Final Project&quot; -&gt; &quot;end&quot; [ltail=cluster_prj];
+}" />
+<p><strong>Figure 2:</strong> Components of the Class</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>You do not have to take I523 in order to take I524.</p>
+<p><strong>For previous I523 class participants:</strong> While I523 is a
+beginners class I524 is a more advanced class and we expect that
+you know python which you hopefully have learned as part of
+I523 while doing a software project. If not, make sure you
+learn it before you take this class or consider
+<strong>significant</strong> additional time needed to learn it for the
+class.</p>
+<p class="last"><strong>Residential students need to enroll early</strong> so we avoid the
+situation like last year where we had many signing up, but
+did not even show up to the first lecture. I have asked that
+students from I523 have preference, but I am not sure if we
+can enforce this. So enroll ASAP. Those that are on the
+waiting list are recommended to show up in the first
+class. It is likely that you can join as others drop.</p>
+</div>
+<div class="section" id="meeting-times">
+<span id="index-2"></span><h2>Meeting Times<a class="headerlink" href="#meeting-times" title="Permalink to this headline">¶</a></h2>
+<p>The classes are published online. Residential students at Indiana
+University will participate in a discussion taking place at the
+following time:</p>
+<ul class="simple">
+<li>Monday 09:30am - 10:45am EST, I2 130</li>
+</ul>
+<p>For the 100% online students see the office hours.</p>
+</div>
+<div class="section" id="online-meetings">
+<h2>Online Meetings<a class="headerlink" href="#online-meetings" title="Permalink to this headline">¶</a></h2>
+<p>For the zoom information please go to</p>
+<p><a class="reference external" href="https://iu.instructure.com/courses/1603897/assignments/syllabus">https://iu.instructure.com/courses/1603897/assignments/syllabus</a></p>
+<p>A doodle was used and all students that answered the doodle have times
+that they specified. We covered 100% the time for the students through
+the following schedule:</p>
+<p>All times are in Eastern Standard Time.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="32%" />
+<col width="68%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Day of Week</strong></td>
+<td><strong>Meetings</strong></td>
+</tr>
+<tr class="row-even"><td>Monday</td>
+<td><div class="first last line-block">
+<div class="line">8-9am Office Hours (Vibhatha)</div>
+<div class="line">9:30-10:45am Residential Lecture</div>
+<div class="line">6-7pm Office Hours (Tony)</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td>Tuesday</td>
+<td><div class="first last line-block">
+<div class="line">1-2pm Office Hours (Dimitar)</div>
+<div class="line">4-5pm Office Hours (Jerome)</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td>Wednesday</td>
+<td>6-7pm Office Hours (Jerome)</td>
+</tr>
+<tr class="row-odd"><td>Thursday</td>
+<td>6-7pm Office Hours (Gregor)</td>
+</tr>
+<tr class="row-even"><td>Friday</td>
+<td>4-5pm Office Hours (Dimitar)</td>
+</tr>
+<tr class="row-odd"><td>Saturday</td>
+<td>8-9pm Office Hours (Miao)</td>
+</tr>
+<tr class="row-even"><td>Sunday</td>
+<td><div class="first last line-block">
+<div class="line">9-10am Office Hours (Vibhatha)</div>
+<div class="line">8-9pm Office Hours (Miao)</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="who-can-take-the-class">
+<h2>Who can take the class?<a class="headerlink" href="#who-can-take-the-class" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Although Undergrads can take this class it will be thaught as
+graduate class. Make sure you have enough time and fulfill the
+prerequisites such as knowing a programming language well. You need
+to have enough time to learn python if you do not know it.</li>
+<li>You can take I524 without taking I523, but you must be proficient
+in python. The overlap between I523 and I524 only relates to some
+introduction lectures and naturally lectures from the systems track
+such as github, report writing, introduction to python.</li>
+<li>Online students</li>
+<li>Residential students</li>
+</ul>
+</div>
+<div class="section" id="homework">
+<h2>Homework<a class="headerlink" href="#homework" title="Permalink to this headline">¶</a></h2>
+<p id="index-3">Grading policies are listed in Table 1.</p>
+<table border="1" class="colwidths-given docutils" id="id2">
+<caption><span class="caption-text">Table 1: Grading</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Percent</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>10%</td>
+<td>Class participation and contribution to Web pages.</td>
+</tr>
+<tr class="row-odd"><td>30%</td>
+<td>Three unique technology papers per student of the 370
+systems. Each paper as at least 2 pages per technology without
+references.</td>
+</tr>
+<tr class="row-even"><td>60%</td>
+<td>Project code and report with at least 6 pages without
+references. Much shorter reports will be returned without
+review. Do not artificially inflate contents.</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><strong>Technology papers:</strong> Technology papers must be non-overlapping in
+the entire class. As we have over 370 such technologies we should
+have enough for the entire class. If you see technologies missing,
+let us know and we see how to add them. Technology papers could be a
+survey of multiple technologies or an indepth analysis of a
+particular technology.</li>
+<li><strong>Technology paper groups:</strong> Groups of up to three students can work
+also on the technology papers. However the workload is not reduced,
+you will produce 3 times the number of group members technology
+papers of unique technologies. However, you can have multiple
+coauthors for each paper (up to three) that are part of your
+group. Please do not ask us how many technology papers you need to
+write if you are in a group. The rule is clearly specified. Example:
+Your group has 3 members, each of them has to produce 3 unique
+papers, thus you have to produce 9 unique technology papers for this
+group. If you have 2 members you have to produce 6, if you work
+alone you have to produce 3.</li>
+<li><strong>Technology deployment Homework:</strong> Each student will
+develop as a preparation for the project a deployment of a
+technology. Points may depend on completeness, effort of the
+deployment. Technology deployments should as much as possible be non
+overlapping. In many cases you chose wisely such deployments may
+line up with your technology papers as you can add a section
+reporting on your achievement and experience with such
+deployments.</li>
+<li><strong>Project groups:</strong> Groups of up to three students can work on a
+project but workload increases with each student and a work break
+down must be provided.  More than three students are not allowed. If
+you work in a group you will be asked to deploy a larger system or
+demonstrate deployability on multiple clouds or container frameworks
+while benchmarking and comparing them. A group project containing 2
+or 3 team members should not look like a project done by an
+individual. Please plan careful and make sure all team members
+contribute.</li>
+<li><strong>Frequent checkins</strong>: It is <strong>important</strong> to make frequent and
+often commits to the github repository as the activities will be
+monitored and will be integrated into the project grade.  Note that
+paper and project will take a considerable amount of time and doing
+proper time management is a must for this class. Avoid starting your
+project late. Procrastination does not pay off.</li>
+<li><strong>No bonus projects:</strong> This class will not have any bonus projects
+regrading to requests. Instead, you need to focus your time on the
+papers and the project assignments and homework.</li>
+<li><strong>Voluntary work:</strong> You are welcome to conduct assignments and
+exercises you find on the class Web page on your own. However, they
+are not graded or considered for extra credit.</li>
+<li><strong>Late homework</strong>: Any late homework will be receiving a 10% grade
+reduction.  As this is a large class and the assignments are not
+standard multiple choice questions, grading will take a considerable
+time. Some homework can not be delivered late as they are related to
+establish communication with you. Such <strong>deadline specific</strong>
+homework will receive 0 points in case they are late. See course
+calendar. It is the student’s responsibility to upload submissions
+well ahead of the deadline to avoid last minute problems with
+network connectivity, browser crashes, cloud issues, etc.</li>
+<li><strong>Chance for publishing a paper:</strong> If however you find that the work
+you do could lead to a publishable paper, you could work together
+with the course instructor as coauthors to conduct such an
+activity. However, this is going to be a significant effort and you
+need to decide if you like to conduct this. In such cases if the
+work is sufficient for publication submission, an A+ for the class
+could be considered. It will be a lot of work. The length of such a
+paper is typically 10-12 high quality pages including figures and
+references. We may elect for the final submission to use a different
+LaTeX style</li>
+</ul>
+</div>
+<div class="section" id="prerequisites">
+<span id="ref-i524-prerequisits"></span><h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<p id="index-4">We expect you are familiar with:</p>
+<ul class="simple">
+<li>Linux and the Operating system on which you will focus your
+deployment.</li>
+<li>Note that Windows as OS will not be sufficient as Ansible
+is not supported on it. However you can use virtualbox or log onto
+one of the clouds to get access to an OS that supports ansible. So
+you can use your Windows computer if it is powerful enough.</li>
+<li>Python 2.7.x (we will not use python 3 for this class as it
+is not yet portable with all systems) Although python is considered
+to be a straight forward language to learn, students that have not
+done any programming may find it challenging.</li>
+<li>Familiarity with the Python ecosystem. The best way to install
+python on a computer is to use virtualenv, and pip (which we will
+teach you as part of the class).</li>
+<li>Familiarity with an editor such as emacs, vi, jedit, pyCharm,
+eclipse, or other that you can use to program in and write your
+reports.</li>
+</ul>
+<p>If you are not familiar with these technologies, we expect that you
+get to know them before or during class. This may pose additional time
+commitment.</p>
+</div>
+<div class="section" id="open-source-publication-of-homework">
+<h2>Open Source Publication of Homework<a class="headerlink" href="#open-source-publication-of-homework" title="Permalink to this headline">¶</a></h2>
+<p id="index-5">As this class is about open source technologies, we will be using such
+technologies to gather the homework submissions. We will not be using
+CANVAS so we teach you these technologies that are often mandated in
+industry. CANVAS is not.</p>
+<p>As a consequence, all technology papers from all students will be
+available as a single big technical report. To achieve this all
+reports must be written in the same format. This will be LaTeX and all
+references have to be provided a bibtex file while you use jabref.
+Alternatively, lyx.org can be used, if you prefer to edit
+latex in <em>what you see is almost what you get</em> format. The use of
+sharelatex or overleave or lyx.org is allowed.</p>
+</div>
+<div class="section" id="piazza">
+<span id="index-6"></span><h2>Piazza<a class="headerlink" href="#piazza" title="Permalink to this headline">¶</a></h2>
+<p>All communication will be done via Piazza. We will not read e-mail
+send to our university or private e-mails. All instructors are
+following this rule. Any mail that is not sent via Piazza will be
+<strong>not read</strong> and <strong>deleted</strong>. This is also true for any mail send to
+the inbox system in CANVAS. We found CANVAS a not scalable solution
+for our class and will not use CANVAS for reaching out to you.   If you
+need a different mechanism to communicate with us, please ask on Piazza
+how to do that. Please note that private posts in piazza are shared
+among all instructors and TAs.</p>
+<p>To sign up in piazza please follow this link:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://piazza.com/iu/spring2017/i524">https://piazza.com/iu/spring2017/i524</a></li>
+</ul>
+<p>We have created a number of piazza folder to organize the posts int
+topics.  Thes folders are:</p>
+<dl class="docutils">
+<dt>help:</dt>
+<dd>Our help folder is just like a ticket system that is monitored by
+the TA’s. Once you file a question here, a TA will attend to it,
+and work with you. Once the issue you had is resolved, the TA is
+marking it as resolved. If you need to reopen a help message,
+please mark it again as unresolved or post a follow up.</dd>
+<dt>project:</dt>
+<dd>Questions related to projectsis posted here.</dd>
+<dt>logistics:</dt>
+<dd>Question regarding the logistics of the class are posted
+here. This includes questions about communication, meeting times,
+and other administrative activities.</dd>
+<dt>papers:</dt>
+<dd>Questions regarding the paper are posted here.</dd>
+<dt>grading:</dt>
+<dd>Questions regarding grades are posted here.</dd>
+<dt>clouds:</dt>
+<dd>Questions regarding cloud resources are posted here.</dd>
+<dt>faq:</dt>
+<dd>Some questions will be transformed to FAQ’s that we post here.
+Note also that we have an FAQ on the class Web page that you may
+want to visit. We try to move important FAQ’s from Piazza into the
+Web page, so it is important that you check both.</dd>
+<dt>meetings: Here we will post times for meetings with TA’s and</dt>
+<dd>instructors that are not yet posted on the Web page as part of the
+regular meeting times. Class participants are allowed to attend
+any Zoom meeting that we announce in this folder. For online
+students we will also determine a time for regular meetings. The
+TAs are required to hold 10 hours of meeting times upon request
+with you. Please make use of this.</dd>
+<dt>other:</dt>
+<dd>In case no folder matches for your question use other.</dd>
+</dl>
+</div>
+<div class="section" id="tips-on-how-to-achieve-your-best">
+<span id="index-7"></span><h2>Tips on how to achieve your best<a class="headerlink" href="#tips-on-how-to-achieve-your-best" title="Permalink to this headline">¶</a></h2>
+<p>While teaching our classes we noticed the following tips to achieve
+your best:</p>
+<ul class="simple">
+<li>Listening to the lectures</li>
+<li><strong>Set aside enough undisturbed time for the class</strong>. Switch off
+facebook, twitter, or other distracting social media systems when
+focussing on the class.</li>
+<li><strong>Ask for help</strong>. The TAs can schedule custom help office hours on
+appointment during reasonable times.</li>
+<li>Do not <strong>Procrastinate</strong>.</li>
+<li>Do not <strong>take your other classes more serious</strong>.</li>
+<li><strong>Start the project in the first 4 weeks of the class</strong></li>
+<li>Be aware that this class is not based on a text book and what this
+implies.</li>
+<li>Do not overestimate the technical abilities.</li>
+<li>Do not underestimate the time it takes to do the project.</li>
+<li>Do not forget to include benchmarks in your project.</li>
+<li>Unnecessarily struggling with LaTeX as you do not use an example we
+provide.</li>
+<li>Trying to do things just on Windows which is typically more difficult
+than using Linux.</li>
+<li>Not having a computer that is up to date. Update your memory and
+have a SSD</li>
+<li>Ignoring obvious security rules and not integrating ssh form the
+start into your projects.</li>
+<li>Not posting passwords into git. For example git does
+<strong>not</strong> allow to <strong>easily</strong> completely delete files that contain secret
+information such as passwords. It takes significant effort to do
+that. Make sure you do add in git on individual files and never
+just a bulk add.</li>
+<li>Having your colleagues do the work for you</li>
+<li>Underestimating the <strong>time</strong> it takes to do deployments</li>
+<li>Not reading our piazza posts and repeating the same question over
+and over</li>
+<li>Use Piazza to communicate and not CANVAS or e-mail.</li>
+<li>When you receive an e-mail from piazza, reply to it while clicking
+on the link instead of replying via e-mail directly. This is more
+reliable.</li>
+</ul>
+</div>
+<div class="section" id="submissions">
+<h2>Submissions<a class="headerlink" href="#submissions" title="Permalink to this headline">¶</a></h2>
+<p>Your papers and projects will be developed on GitHub and submitted
+using <span class="xref std std-doc">Pull Requests</span>.  The process
+is as follows:</p>
+<ol class="arabic simple">
+<li>fork the <a class="reference external" href="https://github.com/cloudmesh/sp17-i524">sp17-i524</a> repository.</li>
+<li>clone your fork and commit and push your changes.</li>
+<li>submit a pull request to the master branch of the origin repository.</li>
+</ol>
+<p>See the repository for details on the individual assignments. As it
+will periodically be updated, make sure you are familiar with the
+process of <a class="reference external" href="https://help.github.com/articles/syncing-a-fork/">Syncing a fork</a>.</p>
+<p>Some things to keep in mind:</p>
+<ul class="simple">
+<li>space on github is limited, so do not add datasets to the
+repository. Any datasets you use should be publicly hosted and
+deployed as part of your project ansible deployment scripts.</li>
+<li>never add ssh private keys to the repository. This results in a
+security risk, possible point deductions, and lots of time and
+effort to fix.</li>
+<li>all work will be licensed under the Apache 2 open source license.</li>
+<li>all submissions and discussion will be visible to the world.</li>
+</ul>
+</div>
+<div class="section" id="selected-project-ideas">
+<span id="index-8"></span><h2>Selected Project Ideas<a class="headerlink" href="#selected-project-ideas" title="Permalink to this headline">¶</a></h2>
+<p>Students can select from a number of project ideas. We will improve
+and add additional ideas throughout the semester. Students can also
+conduct their own projects. We recommend that you identify a project
+idea by the end of the first month of the class. Example project
+descriptions that you may want to take a look at include:</p>
+<ul class="simple">
+<li><a class="reference internal" href="../../projects/robots.html#robotswarm"><span class="std std-ref">Virtual Robot Swarm</span></a></li>
+<li><a class="reference internal" href="../../projects/dockerswarm.html#dockerswarm"><span class="std std-ref">Virtual Cluster with Docker Swarm</span></a></li>
+<li><a class="reference internal" href="../../projects/kubernetes.html#kubernetes"><span class="std std-ref">Virtual Cluster with Kubernetes</span></a></li>
+<li><a class="reference internal" href="../../projects/slurm.html#slurmcluster"><span class="std std-ref">Virtual SLURM Cluster</span></a></li>
+<li><a class="reference internal" href="../../projects/author.html#authordisambiguity-b"><span class="std std-ref">Author Disambiguty Problem</span></a></li>
+<li>NIST Big Data Working group examples: Selected and approved use case from
+<a class="reference external" href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf">http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-3.pdf</a></li>
+<li>Selected examples from Fall I523:
+Some students may have created an example as part of I523. Not all
+examples created as part of this class qualify for an I524
+project. Please contact Gregor von Laszewski via Piazza to discuss
+suitability of your previous I523 project. If such a project is
+selected, approved and used it is expected it is significantly
+enhanced.</li>
+<li>Cloudmesh Enhancements:
+A number of projects could center around the enhancements of
+cloudmesh for the improvement of big data projects using virtual
+machines and containers. This includes:<ul>
+<li>Development of REST services for cloudmesh while using cloudmesh
+client</li>
+<li>Development of benchmarking examples while using cloudmesh client</li>
+<li>Development of a better Azure interface to additional services</li>
+<li>Development of a better AWS interface to additional services</li>
+<li>Development of a Web interface while using django</li>
+<li>SLURM integration to create virtual clusters on comet</li>
+<li>Port cloudmesh client to Windows 10</li>
+<li>Integrate docker into cloudmesh and demonstrate its use</li>
+<li>Integrate kubernetes into cloudmesh and demonstrate its use</li>
+<li>Expand the HPC capabilities of cloudmesh</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="software-project">
+<h2>Software Project<a class="headerlink" href="#software-project" title="Permalink to this headline">¶</a></h2>
+<p>For a software project you have the choice of working individually or
+working in a team of up to three students. You can use the <strong>search
+teammate</strong> folder to find and form groups:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://piazza.com/class/ix39m27czn5uw?cid=5">https://piazza.com/class/ix39m27czn5uw?cid=5</a></li>
+</ul>
+<p>The following artifacts are part of the deliverables for a project</p>
+<dl class="docutils">
+<dt>Code:</dt>
+<dd>You must deliver the code in github. The code must be compilable
+and a TA may try to replicate to run your code. You MUST avoid
+lengthy install descriptions and everything must be installable
+from the command line. We will check submission. All team members
+must be responsible for one part of the project.</dd>
+<dt>Project Report:</dt>
+<dd><p class="first">A report must be produced while using the format discussed in the
+Report Format section. The following length is required:</p>
+<ul class="last simple">
+<li>4 pages, one student in the project</li>
+<li>6 pages, two students in the project</li>
+<li>8 pages, three students in the project</li>
+</ul>
+</dd>
+<dt>Work Breakdown:</dt>
+<dd><p class="first">The report contains in an appendix a section that is
+only needed for team projects. Include in the section a short but
+sufficiently detailed work breakdown documenting what the team has
+done. Back it up with commit information from github. Such as how
+many commits and lines of code a team member has contributed. The
+section does not count towards the overall length of the paper.</p>
+<p class="last">In addition, the graders will check the history of checkins to
+verify each team member has used github to checkin their
+contributions frequently. E.g. if we find that one of the students
+has not checked in code or documentation in the same way at other
+teammates, it will be questioned. An oral exam may be scheduled to
+verify that the student has contributed to the project. In an oral
+exam the student must be familiar with <strong>all</strong> aspects of the
+project not just the part you contributed.</p>
+</dd>
+<dt>License:</dt>
+<dd>All projects are developed under an open source license such
+as Apache 2.0 License. You will be required to add a LICENCE.txt
+file and if you use other software identify how it can be reused
+in your project. If your project uses different licenses, please
+add in a README.md file which packages are used and which license
+these packages have while adding a licenses file.</dd>
+<dt>Reproducibility:</dt>
+<dd>The reproducibility of your code will be tested
+twice. It is tetes by another student or team, it is also tested
+by a TA. A report of the testing team is provided. Your team will
+also be responsible for executing as many tests as you have team
+members on other projects. A reproducibility statement should be
+written with details about functionality, readability, and report
+quality. This statement does not have to be written in latex but
+uses RST.</dd>
+<dt>Requirements:</dt>
+<dd><ul class="first last simple">
+<li>Use of cloud resources are mandatory and can be substituted by
+kubeernetes or docker swarm</li>
+<li>Deployment must be done with ansible</li>
+<li>A Makefile or a cmd file as discussed in class is needed to
+deploy the software, start the program, conduct a
+parameter study/benchmark</li>
+<li>Report</li>
+<li>If project is conducted in a team at least two clouds are to be
+benchmarked and contrasted 2 team members = 2 clouds, 3 team
+members = 3 clouds. cloud could also be kubernetes or docker
+swarm</li>
+<li>Cloudmesh client is to be used to start the virtual cluster in
+order to avoid reinventing the wheel</li>
+<li>Cloudmesh contains deployments for hadoop and spark. If these
+technologies are used, it has to be shown that if the student(s)
+elect to write a new ansible script for it that it is better
+than the once provided by cloudmesh. Proof is to be provided by
+reproducible benchmarks. If this can not be achieved the
+student(s) have to write an additional ansible script for a
+technology listed in class or approved by the professor.</li>
+</ul>
+</dd>
+<dt>Additional links form another class:</dt>
+<dd><p class="first">This other class contains a section deployment
+projects that may inspire you. You can look at suggestions and
+conduct them, the rules
+listed under requirements above applies: e.g. deployment must be
+done in ansible and it must be done on a cloud, kubernetes, or
+docker swarm. I524 will not focus on analytics. However you still
+are able to do that, but it still must contain a deployment
+portion.</p>
+<ul class="last simple">
+<li><a class="reference internal" href="../../lesson/projects/index.html#projects"><span class="std std-ref">Software Projects</span></a></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="report-format">
+<h2>Report Format<a class="headerlink" href="#report-format" title="Permalink to this headline">¶</a></h2>
+<p>All reports will be using the format specified in Section <a class="reference internal" href="../../lesson/doc/report.html#reports"><span class="std std-ref">Report Format</span></a>.</p>
+<p>There will be <strong>NO EXCEPTION</strong> to this format. Documents not following
+this format or not looking professional will be returned
+without review.</p>
+</div>
+<div class="section" id="github-repositories">
+<h2>Github repositories<a class="headerlink" href="#github-repositories" title="Permalink to this headline">¶</a></h2>
+<p>Class content repository: <a class="reference external" href="https://github.com/cloudmesh/classes">https://github.com/cloudmesh/classes</a></p>
+<p>Class homework repository: <a class="reference external" href="https://github.com/cloudmesh/sp17-i524">https://github.com/cloudmesh/sp17-i524</a></p>
+</div>
+<div class="section" id="code-repositories-deliverables">
+<h2>Code Repositories Deliverables<a class="headerlink" href="#code-repositories-deliverables" title="Permalink to this headline">¶</a></h2>
+<p>Code repositories are for code, if you have additional libraries or
+data that are needed you need to develop a script or use a DevOps
+framework to install such software. They <strong>must</strong> not be checked into
+github. Thus zip files and .class, .o, precompiled python, .exe, core
+dumps, and other such files are not permissible in the
+project. If we find such files you will get a 20% deduction in your
+grade. Each project must be reproducible with a simple script. An
+example is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="o">....</span>
+<span class="n">make</span> <span class="n">install</span>
+<span class="n">make</span> <span class="n">run</span>
+<span class="n">make</span> <span class="n">view</span>
+</pre></div>
+</div>
+<p>Which would use a simple make file to install, run, and view the
+results. Naturally you can use ansible or shell scripts. It is not
+permissible to use GUI based DevOps preinstalled frameworks (such as
+the one you may have installed in your company or as part of another
+project). Everything must be installable from the command line.</p>
+</div>
+<div class="section" id="learning-outcomes">
+<h2>Learning Outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this headline">¶</a></h2>
+<p>Students will</p>
+<ol class="arabic simple">
+<li>gain a broad understanding of Big Data applications and open source
+technologies supporting them.</li>
+<li>have intense programming experience in Python and ansible and DevOps.</li>
+<li>use open source technologies to manage code in large groups of
+individuals.</li>
+<li>be able to communicate research in professional scientific reports.</li>
+</ol>
+<p>Outcome 1 is supported by a series of lectures around open source
+technologies for big data.</p>
+<p>Outcome 2 is supported by a significant software project that will
+take up a considerable amount of time to plan and execute.</p>
+<p>Outcome 1 and 4 is supported by writing 3 technology papers and a project
+report that is shared with all students. Students can gain additional
+insight from reading and reviewing other students contributions.</p>
+<p>Outcome 3 is supported by using piazza and github as well as
+contributing to the class Web page with git pull requests.</p>
+</div>
+<div class="section" id="academic-integrity-policy">
+<h2>Academic Integrity Policy<a class="headerlink" href="#academic-integrity-policy" title="Permalink to this headline">¶</a></h2>
+<p>We take academic integrity very seriously. You are required to abide
+by the Indiana University policy on academic integrity, as described
+in the Code of Student Rights, Responsibilities, and Conduct, as well
+as the Computer Science Statement on Academic Integrity
+(<a class="reference external" href="http://www.soic.indiana.edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf">http://www.soic.indiana.edu/doc/graduate/graduate-forms/Academic-Integrity-Guideline-FINAL-2015.pdf</a>). It
+is your responsibility to understand these policies. Briefly
+summarized, the work you submit for course assignments, projects,
+quizzes, and exams must be your own or that of your group, if group
+work is permitted. You may use the ideas of others but you must give
+proper credit. You may discuss assignments with other students but you
+must acknowledge them in the reference section according to scholarly
+citation rules. Please also make sure that you know how to not
+plagiarize text from other sources while reviewing citation rules.</p>
+<p>We will respond to acts of plagiarism and academic misconduct
+according to university policy. Sanctions typically involve a grade of
+0 for the assignment in question and/or a grade of F in the course. In
+addition, University policy requires us to report the incident to the
+Dean of Students, who may apply additional sanctions, including
+expulsion from the university.</p>
+<p>Students agree that by taking this course, papers and source code
+submitted to us may be subject to textual similarity review, for
+example by Turnitin.com. These submissions may be included as source
+documents in reference databases for the purpose of detecting
+plagiarism of such papers or codes.</p>
+<p>It is not acceptable to use for pay services to conduct your project.
+Please be aware that we monitor such services and have TAs speaking
+various languages and know about these services even in different
+countries. Also do not just translate a report written by someone in a
+different language and claim it to be your project.</p>
+</div>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<p>This page is conveniently managed with git. The location for the
+changes can be found at</p>
+<ul class="simple">
+<li><a class="reference external" href="https://cloudmesh.github.io/classes/">https://cloudmesh.github.io/classes/</a></li>
+</ul>
+<p>The repository is at</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/classes">https://github.com/cloudmesh/classes</a></li>
+</ul>
+<p>Issues can be submitted at</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/classes/issues">https://github.com/cloudmesh/classes/issues</a></li>
+</ul>
+<p>Or better use piazza so you notify us in our discussion lists.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://piazza.com/iu/i524">https://piazza.com/iu/i524</a></li>
+</ul>
+<p>If you detect errors, you could also create a merge request at</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/classes">https://github.com/cloudmesh/classes</a></li>
+</ul>
+</div>
+<div class="section" id="course-numbers">
+<h2>Course Numbers<a class="headerlink" href="#course-numbers" title="Permalink to this headline">¶</a></h2>
+<p>This course is offered for Graduate (and Undergraduate students with
+permission) at Indiana University and as an online course. To
+Register, for University credit please go to:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://registrar.indiana.edu/browser/soc4172/INFO/INFO-I524.shtml">http://registrar.indiana.edu/browser/soc4172/INFO/INFO-I524.shtml</a></li>
+<li><a class="reference external" href="http://registrar.indiana.edu/browser/soc4172/ENGR/ENGR-E599.shtml">http://registrar.indiana.edu/browser/soc4172/ENGR/ENGR-E599.shtml</a></li>
+</ul>
+<p>Please, select the course that is most suitable for your program:</p>
+<div class="highlight-none"><div class="highlight"><pre><span></span>INFO-I 524  BIG DATA SOFTWARE AND PROJECTS (3 CR)    Von Laszewski G
+         Above class open to graduates only
+         Above class taught online
+         Discussion (DIS)
+      30672 RSTR     09:30A-10:45A   M      I2 130    Von Laszewski G
+         Above class meets with ENGR-E 599
+INFO-I 524  BIG DATA SOFTWARE AND PROJECTS (3 CR)
+      30673 RSTR     ARR             ARR    ARR       Von Laszewski G
+         Above class open to graduates only
+         This is a 100% online class taught by IU Bloomington. No
+         on-campus class meetings are required. A distance education
+         fee may apply; check your campus bursar website for more
+         information
+
+ ENGR-E 599  TOPICS IN INTELL SYS ENGINEER (3 CR)
+       VT: BIG DATA SOFTWARE AND PROJECTS
+          ***** RSTR     ARR             ARR    ARR       Von Laszewski G
+             Discussion (DIS)
+       VT: BIG DATA SOFTWARE AND PROJECTS
+          33924 RSTR     09:30A-10:45A   M      I2 130    Von Laszewski G
+             Above class meets with INFO-I 524
+</pre></div>
+</div>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://hpc-abds.org/kaleidoscope/">http://hpc-abds.org/kaleidoscope/</a></p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
