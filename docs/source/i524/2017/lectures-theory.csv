@@ -1,0 +1,37 @@
+Overview,Course Overview,`Slides <https://drive.google.com/file/d/0Bx_sUfI4VkKSaHlDWkZkeGh4LVE/view?usp=sharing>`_,,Jan 1
+      ,Class Overview - Part 1,`Video <https://www.youtube.com/watch?v=Z2M5NsTsj2Y>`_,11:29,Jan 1
+      ,Class Overview - Part 2,`Video <https://www.youtube.com/watch?v=5VXhF_Z7Vdk>`_,04:10,Jan 1
+      ,Class Overview - Part 3,`Video <https://www.youtube.com/watch?v=DDXqLZcavas>`_,12:41,Jan 1
+Web Page,Course Web Page, `Web Page <https://cloudmesh.github.io/classes/index.html>`_,,Jan 1
+      ,Class Web Page - Part 1,`Video <https://www.youtube.com/watch?v=uE45GE1Ceok>`_,11:25,Jan 1
+      ,Class Web Page - Part 2,`Video <https://www.youtube.com/watch?v=Tkhu96TreMk>`_,17:31,Jan 1
+Techlist.1, TechList.1 Web Page, `Web Page <https://cloudmesh.github.io/classes/i524/technologies.html>`_, ,Jan 1
+      , TechList.1 Homework, `Video <https://www.youtube.com/watch?v=roi7vezNmfo>`_, 40:08,Jan 14
+Introduction ,Course Introduction,`Slides <https://drive.google.com/file/d/0Bx_sUfI4VkKSMHBUblVUMWg4Y00/view?usp=sharing>`_,,Jan 14
+      ,Introduction,`Video <https://www.youtube.com/watch?v=VWK7QdThOPQ>`_,0:13:59,Jan 14
+      ,Introduction - Real World Big Data,`Video <https://www.youtube.com/watch?v=hjrFaXMU1dg&list=PLLO4AVszo1SNIGlqjEBaQjLvc3lgpeI3M&index=2>`_,0:15:28,Jan 14
+      ,Introduction - Basic Trends and Jobs,`Video <https://www.youtube.com/watch?v=u5Y0aKbzync&index=3&list=PLLO4AVszo1SNIGlqjEBaQjLvc3lgpeI3M>`_,0:10:57,Jan 14
+Acess Patterns, Data Access Patterns and Introduction to using HPC-ABDS,`Slides <https://iu.box.com/s/o5rqlsop0jv98lqdon3h9qszk3soq31g>`_,,Jan 14
+    , A. Introduction to HPC-ABDS Software and Access Patterns,`Video <https://www.youtube.com/watch?v=6Kj9E38lUzU>`_ -  `Resource 1 <http://grids.ucs.indiana.edu/ptliupages/publications/HPC-ABDSDescribedv2.pdf>`_,0:27:45,Jan 14
+    , B. Science Examples (Data Access Patterns),`Video <https://www.youtube.com/watch?v=hYJ4_1A4kEU>`_ -  `Resource 2 <http://hpc-abds.org/kaleidoscope/>`_,0:18:38,Jan 14
+    , C. Remaining General Access Patterns,`Video <https://www.youtube.com/watch?v=hsEDKM7Zur4>`_,0:11:26,Jan 14
+    , D. Summary of HPC-ABDS Layers 1 - 6,`Video <https://www.youtube.com/watch?v=zVPKiGV0fk0>`_,0:14:32,Jan 14
+    , E. Summary of HPC-ABDS Layers 7 - 13,`Video <https://youtu.be/6Kj9E38lUzU>`_,0:30:52,Jan 14
+    , F. Summary of HPC-ABDS Layers 14 - 17,`Video <https://www.youtube.com/watch?v=13EQZ-6z91k>`_,0:28:02,Jan 14
+    , Final Part Summary of Stack,`Video <https://www.youtube.com/watch?v=0kj-NEl8VF4>`_,0:20:20,Jan 14
+Application Structure,Big Data Application Structure,`Slides <https://iu.box.com/s/zl71trvqfw6vv4wnc8xr6gf1qpc9a2dr>`_,,Jan 14
+    ,NIST Big Data Sub Groups,`Video <https://www.youtube.com/watch?v=12-BlQhnCxc>`_,0:23:25,Jan 14
+    ,Big Data Patterns - Sources of Parallelism,`Video <https://www.youtube.com/watch?v=tZfFQw5M8cU>`_,0:23:51,Jan 14
+    ,First and Second Set of Features,`Video <https://www.youtube.com/watch?v=PgUGXql34DM>`_,0:18:26,Jan 14
+    ,Machine Learning Aspect of Second Feature Set and the Third Set,`Video <https://www.youtube.com/watch?v=mNmmW5ZBjgs>`_,0:18:38,Jan 14
+Application Aspects,Aspects of Big Data Applications,`Slides <https://iu.box.com/s/atgkxucop1lzftkunf8al2fe74x65na6>`_,,Jan 14
+   ,Other sources of use cases and Classical Databases/SQL Solutions,`Video <https://youtu.be/dZRtHaf2MyA>`_,0:16:50,Jan 14
+   ,SQL Solutions -  Machine Learning Example -  and MapReduce,`Video <https://www.youtube.com/watch?v=PZDiJNS234A>`_,0:18:49,Jan 14
+   ,Clouds vs HPC -  Data Intensive vs. Simulation Problems,`Video <https://www.youtube.com/watch?v=gazESBGLlY8>`_,0:20:26,Jan 14
+Applications,Big Data Applications and Generalizing their Structure,`Slides <https://iu.box.com/s/01dndtucmynekgehur00vktfgcppgc1r>`_,,Jan 14
+   ,NIST UseCases and Image Based Applications Examples I,`Video <https://www.youtube.com/watch?v=tRoAx444A6U>`_,0:25:20,Jan 14
+   ,Image Based Applications II,`Video <https://www.youtube.com/watch?v=FDtnWGwotjA>`_,0:15:23,Jan 14
+   ,Internet of Things Based Applications,`Video <https://www.youtube.com/watch?v=cOuCSveoVYY>`_,0:25:25,Jan 14
+   ,Big Data Patterns - the Ogres and their Facets I,`Video <https://www.youtube.com/watch?v=CvCfRP7J6dU>`_,0:22:44,Jan 14
+   ,Facets of the Big Data Ogres II,`Video <https://www.youtube.com/watch?v=fGyUPApnwHw>`_,0:15:09,Jan 14
+Other,More of Software Stack,`Video <https://www.youtube.com/watch?v=apDXH_eVnEc>`_,0:24:00,Jan 14

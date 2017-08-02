@@ -1,0 +1,103 @@
+Course Information
+==================
+
+Warning: Information will change.
+
+Weekly project and class updates are mandatory. They will be recorded
+checked within a git repository that you will maintain.
+
+Calendar::
+
+  Full Term (16 Weeks)
+
+  Begins	Mon, Aug 21
+
+     * Sep 1, mastering Git. (Graded from that point on).
+       
+  Labor Day	Mon, Sept 4
+
+    Computer Setup for Big Data Completed (Graded)
+    Options:
+    * Virtual box 
+    * Raspberry Pi 3
+
+    * Sept 31. Paper 1 due (Graded) 
+      
+  Fall Break	Oct 6 - Oct 8
+
+     This is a good time to work ahead or catch up with  things.
+     We strongly advise to use this time wisely.
+
+  Auto W	Sun, Oct 22
+
+     * Oct 30 Paper 2 due (Graded)
+     * Oct 30 Programming excersises due (Graded)
+                   * results 
+                   * code qaulity
+                   * documentation
+                     
+  Thanksgiving	Nov 19 - Nov 26
+
+     This is a good time to work ahead or catch up with  things
+     We strongly advise to use this time wisely. Projects and paper
+     are due Dec 1. We will deduct 10% of the grade if not completed
+     by Dec 1.
+
+       Dec 1. Project and Paper due
+       Dec 1. If not doing a project Extended paper due
+
+     Although the paper is due on Dec 1. we may grant that you
+     continue to work on your paper based on a first review
+     (upon approval).
+     
+  Ends	Fri, Dec 15
+
+  Incompletes will receive 15% grade reduction
+
+This class ends on Dec 15 and not earlier. Residential students are required
+to attend all Friday classes including those held in Dec. Missing such classes
+will result in grade deductions.
+
+Residential students that did not attend classes regularly tend to do not as well
+in this class as their colleagues.
+
+Online students will be offered online help hours by TAs and the instructor. 
+
+  
+* http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml
+  
+https://www.soic.indiana.edu/undergraduate/courses/index.html?number=i423&department=INFO
+
+
+Graduate Residential::
+   
+        INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR)
+              *****          ARR             ARR    ARR       Von Laszewski G          50    8    0
+                 Above class open to graduates only
+                 Above class taught online
+                 Discussion (DIS)
+              13308          09:30A-10:45A   F      I2 150    Von Laszewski G          50    8    0
+                 Above class meets with INFO-I 423
+
+Graduate Online::
+  
+        INFO-I 523  BIG DATA APPLS & ANALYTICS (3 CR) 
+        I 523 : P - Data Science majors only
+              13310 RSTR     ARR             ARR    ARR       Von Laszewski G          90   78    0
+                 This is a 100% online class taught by IU Bloomington. No
+                 on-campus class meetings are required. A distance education
+                 fee may apply; check your campus bursar website for more
+                 information
+                 Above class for students not in residence on the Bloomington
+                 campus
+
+Undergraduate::
+  
+	       INFO-I 423  BIG DATA APPLS & ANALYTICS (3 CR)
+         CLSD ***** RSTR     ARR             ARR    ARR       Von Laszewski G          10    0    9
+                 Above class open to undergraduates only
+                 Above class taught online
+                 Discussion (DIS)
+         CLSD 13994 RSTR     09:30A-10:45A   F      I2 150    Von Laszewski G          10    0    9
+                 Above class meets with INFO-I 523
+                         
