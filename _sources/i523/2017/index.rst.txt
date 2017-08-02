@@ -8,14 +8,16 @@ I523 Big Data Applications and Analytics (2017)
              numbers in the presentations may not correspond to our
              outline here as we have restructured the material.
 
-.. warning:: This class has a significant amount of programming
+.. note:: This class has a significant amount of programming
              assignments. However an option of taking the class
-             without programming is available. Those electing not to
+             without programming project is available. Those electing not to
              do the programming need to write an additional paper.
              The maximum grade of those conducting the non programming
-             option is an A-.
+             option is an A-. It is still expected that you conduct
+             the programming assignments even if you do not chose the
+             programming project.
 
-.. warning:: This class will not have any bonus projects as we want
+.. note:: This class will not have any bonus projects as we want
              that you apply your focus on the class homework instead
              and make them outstanding.
              
