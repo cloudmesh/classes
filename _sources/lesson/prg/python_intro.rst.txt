@@ -107,6 +107,16 @@ Dependencies
 * `Matplotlib <http://matplotlib.org/>`_
 * `Pandas <http://pandas.pydata.org/>`_
 
+Aditional Information
+---------------------
+
+Python module of the week is a Web site that provides a number of short examples on how to use some elementary python
+modules. Not all modules are equally useful and you should decide if there are better alternatives. However for beginners
+this site provides a number of good examples
+
+* Python 2: https://pymotw.com/2/
+* Python 3: https://pymotw.com/3/
+
 Learning Goals
 --------------
 
@@ -260,8 +270,8 @@ program read the line ``print "Hello world from Python!"``, split it into
 the ``print`` statement and the ``"Hello world from Python!"`` string, and
 then executed the line, showing you the output.
 
-Variables and Simple Data Types
--------------------------------
+Variables
+---------
 
 You can store data into a **variable** to access it later.
 For instance, instead of:
@@ -279,8 +289,12 @@ store the string in a variable for convenient access:
    >>> print(hello)
    Hello world from Python!
 
+
+Data Types
+----------
+
 Booleans
---------
+^^^^^^^^
 
 A **boolean** is a value that indicates the "truthness" of something.
 You can think of it as a toggle: either "on" or "off", "one" or
@@ -310,8 +324,8 @@ You can combine booleans with **boolean operators**:
    >>> print(False or False)
    False
 
-Numbers and Math
-----------------
+Numbers
+^^^^^^^
 
 The interactive interpreter can also be used as a calculator.
 For instance, say we wanted to compute a multiple of 21:
@@ -363,8 +377,8 @@ expected:
    >>> print( (1 + 2) * (3 - 4) / 5.0 )
    -0.6
 
-Types and Using the REPL
-------------------------
+REPL (Read Eval Print Loop)
+----------------------------
 
 We have so far seen a few examples of types: **string**\s, **bool**\s,
 **int**\s, and **float**\s.  A **type** indicates that values of that
@@ -409,6 +423,9 @@ You can also ask for help about something using ``help()``:
 Control Statements
 ------------------
 
+Comparision
+^^^^^^^^^^^
+
 Computer programs do not only execute instructions. Occasionally, a
 choice needs to be made. Such as a choice is based on a
 condition. Python has several conditional operators:
@@ -447,7 +464,7 @@ execute multiple conditions using the ``elif`` and ``else`` keywords.
     ... <ENTER>
 
 Iteration
----------
+^^^^^^^^^
 
 To repeat code, the ``for`` keyword can be used. For example, to
 display the numbers from 1 to 10, we could write something like this:
@@ -485,8 +502,11 @@ We can also nest loops inside each other:
 In this case we have two nested loops. The code will iterate over
 the entire coordinate range (0,0) to (9,9)
 
+Datatypes
+---------
+
 Lists
------
+^^^^^
 
 see: https://www.tutorialspoint.com/python/python_lists.htm
 
@@ -600,7 +620,7 @@ creates a list of numbers:
   [2, 4, 6, 8]
     
 Sets
-----
+^^^^
 
 Python lists can contain duplicates as you saw above:
 
@@ -652,8 +672,8 @@ check containment. You can read about this in the `Python
 documentation for sets
 <https://docs.python.org/2/library/stdtypes.html#set>`_.
 
-Removal and Testing for Membership
-----------------------------------
+Removal and Testing for Membership in Sets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 One important advantage of a *set* over a *list* is that **access to
 elements is fast**. If you are familiar with different data structures
@@ -689,7 +709,7 @@ is orders of magnitude faster than in a list. This is important to
 keep in mind when you work with large amounts of data.
 
 Dictionaries
-------------
+^^^^^^^^^^^^
 
 One of the very important datastructures in python is a dictionary
 also refered to as *dict*.
@@ -732,8 +752,8 @@ You can iterate over a dict:
   Name Albert
   Class Scientist
 
-Keys and Values
------------------------------------------------------------------
+Dictionary Keys and Values
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can retrieve both the keys and values of a dictionary using the
 ``keys()`` and ``values()`` methods of the dictionary, respectively:
@@ -761,7 +781,7 @@ the same correspondence in general as long as **``keys()`` and
 ``values()`` are called one right after the other**.
 
 Counting with Dictionaries
------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 One application of dictionaries that frequently comes up is counting
 the elements in a sequence. For example, say we have a sequence of
@@ -809,6 +829,99 @@ elements of ``coin_flips``, notice a couple things about this example:
    of coin flips. ``sum`` is one of many built-in function you can
    `read about here
    <https://docs.python.org/2/library/functions.html>`_.
+
+
+Functions
+---------
+
+You can reuse code by putting it inside a function that you can call
+in other parts of your programs. Functions are also a good way of
+grouping code that logically belongs together in one coherent whole. A
+function has a unique name in the program. Once you call a function, it
+will execute its body which consists of one or more lines of code:
+
+.. code:: python
+
+    def check_triangle(a, b, c):
+	return \
+		a < b + c and a > abs(b - c) and \
+		b < a + c and b > abs(a - c) and \
+		c < a + b and c > abs(a - b)
+
+    print(check_triangle(4, 5, 6))
+
+The ``def`` keyword tells Python we are defining a function. As part
+of the definition, we have the function name, ``check_triangle``, and
+the parameters of the function -- variables that will be populated
+when the function is called.
+
+We call the function with arguments ``4``, ``5`` and ``6``, which are
+passed in order into the parameters ``a``, ``b`` and ``c``.  A
+function can be called several times with varying parameters. There is
+no limit to the number of function calls.
+
+It is also possible to store the output of a function in a variable,
+so it can be reused.
+
+.. code:: python
+
+   def check_triangle(a, b, c):
+	return \
+		a < b + c and a > abs(b - c) and \
+		b < a + c and b > abs(a - c) and \
+		c < a + b and c > abs(a - b)
+
+   result = check_triangle(4, 5, 6)
+   print(result)
+
+.. _doc_python_intro_sec_classes:
+
+Classes
+-------
+
+A class is an encapsulation of data and the processes that work on
+them. The data is represented in member variables, and the processes
+are defined in the methods of the class (methods are functions inside
+the class). For example, let's see how to define a ``Triangle`` class:
+
+.. code:: python
+
+   class Triangle(object):
+
+	def __init__(self, length, width, height, angle1, angle2, angle3):
+		if not self._sides_ok(length, width, height):
+			print('The sides of the triangle are invalid.')
+		elif not self._angles_ok(angle1, angle2, angle3):
+			print('The angles of the triangle are invalid.')
+
+		self._length = length
+		self._width = width
+		self._height = height
+
+		self._angle1 = angle1
+		self._angle2 = angle2
+		self._angle3 = angle3
+		
+	def _sides_ok(self, a, b, c):
+		return \
+			a < b + c and a > abs(b - c) and \
+			b < a + c and b > abs(a - c) and \
+			c < a + b and c > abs(a - b)
+
+	def _angles_ok(self, a, b, c):
+		return a + b + c == 180
+
+   triangle = Triangle(4, 5, 6, 35, 65, 80)
+
+Python has full Aobject-oriented programming (OOP) capabilities,
+however we can not cover all of them in a quick tutorial, so please
+refer to the `Python docs on classes and OOP
+<https://docs.python.org/2.7/tutorial/classes.html>`_.
+
+Database Access
+---------------
+
+see: https://www.tutorialspoint.com/python/python_database_access.htm
 
 Modules
 -------
@@ -915,98 +1028,6 @@ Let break this down a bit.
    <https://docs.python.org/2/library/string.html#format-string-syntax>`_
    to insert values into the string we are displaying.
 
-Functions
----------
-
-You can reuse code by putting it inside a function that you can call
-in other parts of your programs. Functions are also a good way of
-grouping code that logically belongs together in one coherent whole. A
-function has a unique name in the program. Once you call a function, it
-will execute its body which consists of one or more lines of code:
-
-.. code:: python
-
-    def check_triangle(a, b, c):
-	return \
-		a < b + c and a > abs(b - c) and \
-		b < a + c and b > abs(a - c) and \
-		c < a + b and c > abs(a - b)
-
-    print(check_triangle(4, 5, 6))
-
-The ``def`` keyword tells Python we are defining a function. As part
-of the definition, we have the function name, ``check_triangle``, and
-the parameters of the function -- variables that will be populated
-when the function is called.
-
-We call the function with arguments ``4``, ``5`` and ``6``, which are
-passed in order into the parameters ``a``, ``b`` and ``c``.  A
-function can be called several times with varying parameters. There is
-no limit to the number of function calls.
-
-It is also possible to store the output of a function in a variable,
-so it can be reused.
-
-.. code:: python
-
-   def check_triangle(a, b, c):
-	return \
-		a < b + c and a > abs(b - c) and \
-		b < a + c and b > abs(a - c) and \
-		c < a + b and c > abs(a - b)
-
-   result = check_triangle(4, 5, 6)
-   print(result)
-
-.. _doc_python_intro_sec_classes:
-
-Classes
--------
-
-A class is an encapsulation of data and the processes that work on
-them. The data is represented in member variables, and the processes
-are defined in the methods of the class (methods are functions inside
-the class). For example, let's see how to define a ``Triangle`` class:
-
-.. code:: python
-
-   class Triangle(object):
-
-	def __init__(self, length, width, height, angle1, angle2, angle3):
-		if not self._sides_ok(length, width, height):
-			print('The sides of the triangle are invalid.')
-		elif not self._angles_ok(angle1, angle2, angle3):
-			print('The angles of the triangle are invalid.')
-
-		self._length = length
-		self._width = width
-		self._height = height
-
-		self._angle1 = angle1
-		self._angle2 = angle2
-		self._angle3 = angle3
-		
-	def _sides_ok(self, a, b, c):
-		return \
-			a < b + c and a > abs(b - c) and \
-			b < a + c and b > abs(a - c) and \
-			c < a + b and c > abs(a - b)
-
-	def _angles_ok(self, a, b, c):
-		return a + b + c == 180
-
-   triangle = Triangle(4, 5, 6, 35, 65, 80)
-
-Python has full Aobject-oriented programming (OOP) capabilities,
-however we can not cover all of them in a quick tutorial, so please
-refer to the `Python docs on classes and OOP
-<https://docs.python.org/2.7/tutorial/classes.html>`_.
-
-Database Access
----------------
-
-see: https://www.tutorialspoint.com/python/python_database_access.htm
-   
 Installing Libraries
 --------------------
 
@@ -1025,6 +1046,26 @@ Our task here is to install the `autopep8`_ tool from PyPi.  This will
 allow us to illustrate the use if virtual environments using the
 ``virtualenv`` command, and installing and uninstalling PyPi packages
 using ``pip``.
+
+Using pip to Install Packages
+-----------------------------
+
+In order to install package from PyPI, use the ``pip`` command.
+We can search for PyPI for packages::
+
+  $ pip search --trusted-host pypi.python.org autopep8 pylint
+
+It appears that the top two results are what we want so install them::
+
+  $ pip install --trusted-host pypi.python.org autopep8 pylint
+
+This will cause ``pip`` to download the packages from PyPI, extract
+them, check their dependencies and install those as needed, then
+install the requested packages.
+
+.. note:: You can skip '--trusted-host pypi.python.org' option if you have a
+          patch on urllib3 on Python 2.7.9.
+
 
 .. _Virtual_Environments:
 
@@ -1152,25 +1193,6 @@ by hand would be a time-consuming and error-prone process.  Luckily,
 this is a common problem so there exist a couple packages to help in
 this situation.
 
-Using pip to Install Packages
------------------------------
-
-In order to install package from PyPI, use the ``pip`` command.
-We can search for PyPI for packages::
-  
-  $ pip search --trusted-host pypi.python.org autopep8 pylint
-
-It appears that the top two results are what we want so install them::
-
-  $ pip install --trusted-host pypi.python.org autopep8 pylint
-
-This will cause ``pip`` to download the packages from PyPI, extract
-them, check their dependencies and install those as needed, then
-install the requested packages.
-
-.. note:: You can skip '--trusted-host pypi.python.org' option if you have a
-          patch on urllib3 on Python 2.7.9.
-
 Using autopep8
 --------------
 
@@ -1273,6 +1295,8 @@ Ecosystem
 
 Autoenv: Directory-based Environments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Not recommended.
 
 Link: `Autoenv <https://pypi.python.org/pypi/autoenv/0.2.0>`
 

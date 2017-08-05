@@ -19,7 +19,7 @@
 
 
 Introduction
-------------------------
+---------------
 
 .. note:: You may find that some videos may have a different lesson,
 	  section or unit number. Please ignore this. In case the
@@ -102,10 +102,10 @@ Course Topics I
 Discussion of some of the available units:
 
 * Motivation: Big Data and the Cloud; Centerpieces of the Future Economy
-* Introduction: What is Big Data, Data Analytics and X-Informatics
+* Introduction: What is Big Data, Data Analytics
 * Python for Big Data Applications and Analytics: NumPy, SciPy, MatPlotlib
 * Using FutureGrid for Big Data Applications and Analytics Course
-* X-Informatics Physics Use Case, Discovery of Higgs Particle; Counting Events and Basic Statistics Parts I-IV.
+* Physics Use Case, Discovery of Higgs Particle; Counting Events and Basic Statistics Parts I-IV.
 
 
 Video: http://youtu.be/9NgG-AUOpYQ
@@ -117,9 +117,9 @@ Course Topics II
 
 Discussion of some more of the available units:
 
-* X-Informatics Use Cases: Big Data Use Cases Survey
+* Use Cases: Big Data Use Cases Survey
 * Using Plotviz Software for Displaying Point Distributions in 3D
-* X-Informatics Use Case: e-Commerce and Lifestyle with recommender systems
+* Use Case: e-Commerce and Lifestyle with recommender systems
 * Technology Recommender Systems - K-Nearest Neighbors, Clustering and heuristic methods
 * Parallel Computing Overview and familiar examples
 * Cloud Technology for Big Data Applications & Analytics
@@ -131,15 +131,15 @@ Course Topics III
 
 Discussion of the remainder of the available units:
 
-* X-Informatics Use Case: Web Search and Text Mining and their technologies
-* Technology for X-Informatics: PageRank
-* Technology for X-Informatics: Kmeans
-* Technology for X-Informatics: MapReduce
-* Technology for X-Informatics: Kmeans and MapReduce Parallelism
-* X-Informatics Use Case: Sports
-* X-Informatics Use Case: Health
-* X-Informatics Use Case: Sensors
-* X-Informatics Use Case: Radar for Remote Sensing.
+* Use Case: Web Search and Text Mining and their technologies
+* Technology: PageRank
+* Technologypi: Kmeans
+* Technologypi: MapReduce
+* Technologypi: Kmeans and MapReduce Parallelism
+* Use Case: Sports
+* Use Case: Health
+* Use Case: Sensors
+* Use Case: Radar for Remote Sensing.
 
 Video: http://youtu.be/rT4thK_i5ig
 
@@ -1279,7 +1279,7 @@ image-processing, signal processing, machine learning, etc.
 
 
 
-Python for Big Data and X-Informatics: NumPy, SciPy, MatPlotlib
+Python for Big Data: NumPy, SciPy, MatPlotlib
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This section is meant to give an overview of the python tools needed
@@ -1413,8 +1413,6 @@ ssh-keygen command line tool.
 
 Video: http://youtu.be/pQb2VV1zNIc
 
-
-
 Shell Access via SSH
 """"""""""""""""""""
 
@@ -1422,8 +1420,6 @@ This lesson explains how to get access FutureSystems resources vis SSH
 terminal with your registered SSH key.
 
 Video: http://youtu.be/aJDXfvOrzRE
-
-
 
 Advanced SSH
 """"""""""""
@@ -4097,7 +4093,7 @@ eigenvector. The unit is concluded by a calculation of PageRank for
 general web pages by extracting the secret from Google.
 
 
-Technology for X-Informatics: K-means (Python & Java Track)
+Technologypi: K-means (Python & Java Track)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
@@ -4164,7 +4160,7 @@ Video 3: https://youtu.be/N6QKyrhNVAc
 
 
 
-Technology for X-Informatics: MapReduce
+Technologypi: MapReduce
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 

@@ -27,7 +27,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Python for Big Data" href="python_big_data.html" />
-    <link rel="prev" title="Gitlab" href="gitlab.html" />
+    <link rel="prev" title="Introduction" href="../../i523/2017/course.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -69,9 +69,21 @@
       role="menu"
       aria-labelledby="dLabelGlobalToc"><ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Syllabus</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
-<li class="toctree-l2"><a class="reference internal" href="gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/fall2017.html">1. Course Information and Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#overview-of-data-science">Overview of Data Science</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#health-informatics-case-study">Health Informatics Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#sports-case-study">Sports Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#outdated-technology-training-python-futuresystems">OUTDATED: Technology Training - Python &amp; FutureSystems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#section-6-physics-case-study">Section 6. Physics Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#big-data-use-cases-survey">Big Data Use Cases Survey</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-training-plotviz">Technology Training - Plotviz</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#e-commerce-and-lifestyle-case-study">e-Commerce and LifeStyle Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-training-knn-clustering">Technology Training - kNN &amp; Clustering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#cloud-computing-technology-for-big-data-applications-analytics-will-be-updated">Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-for-big-data-applications-and-analytics">Technology for Big Data Applications and Analytics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#sensors-case-study">Sensors Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#radar-case-study">Radar Case Study</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Introduction to Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_big_data.html">Python for Big Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
@@ -104,7 +116,14 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/technologies.html">Technologies</a></li>
 </ul>
 </li>
 </ul>
@@ -247,32 +266,42 @@
 <li><a class="reference internal" href="#about-the-tutorial">About the Tutorial</a></li>
 <li><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
 <li><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li><a class="reference internal" href="#aditional-information">Aditional Information</a></li>
 <li><a class="reference internal" href="#learning-goals">Learning Goals</a></li>
 <li><a class="reference internal" href="#python-installation">Python Installation</a></li>
 <li><a class="reference internal" href="#id2">virtualenv</a></li>
 <li><a class="reference internal" href="#interactive-python">Interactive Python</a></li>
 <li><a class="reference internal" href="#python-3-features">Python 3 Features</a></li>
 <li><a class="reference internal" href="#statements-and-strings">Statements and Strings</a></li>
-<li><a class="reference internal" href="#variables-and-simple-data-types">Variables and Simple Data Types</a></li>
+<li><a class="reference internal" href="#variables">Variables</a></li>
+<li><a class="reference internal" href="#data-types">Data Types</a><ul>
 <li><a class="reference internal" href="#booleans">Booleans</a></li>
-<li><a class="reference internal" href="#numbers-and-math">Numbers and Math</a></li>
-<li><a class="reference internal" href="#types-and-using-the-repl">Types and Using the REPL</a></li>
-<li><a class="reference internal" href="#control-statements">Control Statements</a></li>
+<li><a class="reference internal" href="#numbers">Numbers</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#repl-read-eval-print-loop">REPL (Read Eval Print Loop)</a></li>
+<li><a class="reference internal" href="#control-statements">Control Statements</a><ul>
+<li><a class="reference internal" href="#comparision">Comparision</a></li>
 <li><a class="reference internal" href="#iteration">Iteration</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#datatypes">Datatypes</a><ul>
 <li><a class="reference internal" href="#lists">Lists</a></li>
 <li><a class="reference internal" href="#sets">Sets</a></li>
-<li><a class="reference internal" href="#removal-and-testing-for-membership">Removal and Testing for Membership</a></li>
+<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">Removal and Testing for Membership in Sets</a></li>
 <li><a class="reference internal" href="#dictionaries">Dictionaries</a></li>
-<li><a class="reference internal" href="#keys-and-values">Keys and Values</a></li>
+<li><a class="reference internal" href="#dictionary-keys-and-values">Dictionary Keys and Values</a></li>
 <li><a class="reference internal" href="#counting-with-dictionaries">Counting with Dictionaries</a></li>
-<li><a class="reference internal" href="#modules">Modules</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#functions">Functions</a></li>
 <li><a class="reference internal" href="#classes">Classes</a></li>
 <li><a class="reference internal" href="#database-access">Database Access</a></li>
+<li><a class="reference internal" href="#modules">Modules</a></li>
 <li><a class="reference internal" href="#installing-libraries">Installing Libraries</a></li>
+<li><a class="reference internal" href="#using-pip-to-install-packages">Using pip to Install Packages</a></li>
 <li><a class="reference internal" href="#virtual-environments">Virtual Environments</a></li>
 <li><a class="reference internal" href="#fixing-bad-code">Fixing Bad Code</a></li>
-<li><a class="reference internal" href="#using-pip-to-install-packages">Using pip to Install Packages</a></li>
 <li><a class="reference internal" href="#using-autopep8">Using autopep8</a></li>
 <li><a class="reference internal" href="#further-learning">Further Learning</a></li>
 <li><a class="reference internal" href="#writing-python-3-compatible-code">Writing Python 3 Compatible Code</a></li>
@@ -332,9 +361,21 @@
       role="menu"
       aria-labelledby="dLabelGlobalToc"><ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Syllabus</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
-<li class="toctree-l2"><a class="reference internal" href="gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/fall2017.html">1. Course Information and Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#overview-of-data-science">Overview of Data Science</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#health-informatics-case-study">Health Informatics Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#sports-case-study">Sports Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#outdated-technology-training-python-futuresystems">OUTDATED: Technology Training - Python &amp; FutureSystems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#section-6-physics-case-study">Section 6. Physics Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#big-data-use-cases-survey">Big Data Use Cases Survey</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-training-plotviz">Technology Training - Plotviz</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#e-commerce-and-lifestyle-case-study">e-Commerce and LifeStyle Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-training-knn-clustering">Technology Training - kNN &amp; Clustering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#cloud-computing-technology-for-big-data-applications-analytics-will-be-updated">Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#technology-for-big-data-applications-and-analytics">Technology for Big Data Applications and Analytics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#sensors-case-study">Sensors Case Study</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/course.html#radar-case-study">Radar Case Study</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Introduction to Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_big_data.html">Python for Big Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
@@ -367,7 +408,14 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/technologies.html">Technologies</a></li>
 </ul>
 </li>
 </ul>
@@ -500,32 +548,42 @@
 <li><a class="reference internal" href="#about-the-tutorial">About the Tutorial</a></li>
 <li><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
 <li><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li><a class="reference internal" href="#aditional-information">Aditional Information</a></li>
 <li><a class="reference internal" href="#learning-goals">Learning Goals</a></li>
 <li><a class="reference internal" href="#python-installation">Python Installation</a></li>
 <li><a class="reference internal" href="#id2">virtualenv</a></li>
 <li><a class="reference internal" href="#interactive-python">Interactive Python</a></li>
 <li><a class="reference internal" href="#python-3-features">Python 3 Features</a></li>
 <li><a class="reference internal" href="#statements-and-strings">Statements and Strings</a></li>
-<li><a class="reference internal" href="#variables-and-simple-data-types">Variables and Simple Data Types</a></li>
+<li><a class="reference internal" href="#variables">Variables</a></li>
+<li><a class="reference internal" href="#data-types">Data Types</a><ul>
 <li><a class="reference internal" href="#booleans">Booleans</a></li>
-<li><a class="reference internal" href="#numbers-and-math">Numbers and Math</a></li>
-<li><a class="reference internal" href="#types-and-using-the-repl">Types and Using the REPL</a></li>
-<li><a class="reference internal" href="#control-statements">Control Statements</a></li>
+<li><a class="reference internal" href="#numbers">Numbers</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#repl-read-eval-print-loop">REPL (Read Eval Print Loop)</a></li>
+<li><a class="reference internal" href="#control-statements">Control Statements</a><ul>
+<li><a class="reference internal" href="#comparision">Comparision</a></li>
 <li><a class="reference internal" href="#iteration">Iteration</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#datatypes">Datatypes</a><ul>
 <li><a class="reference internal" href="#lists">Lists</a></li>
 <li><a class="reference internal" href="#sets">Sets</a></li>
-<li><a class="reference internal" href="#removal-and-testing-for-membership">Removal and Testing for Membership</a></li>
+<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">Removal and Testing for Membership in Sets</a></li>
 <li><a class="reference internal" href="#dictionaries">Dictionaries</a></li>
-<li><a class="reference internal" href="#keys-and-values">Keys and Values</a></li>
+<li><a class="reference internal" href="#dictionary-keys-and-values">Dictionary Keys and Values</a></li>
 <li><a class="reference internal" href="#counting-with-dictionaries">Counting with Dictionaries</a></li>
-<li><a class="reference internal" href="#modules">Modules</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#functions">Functions</a></li>
 <li><a class="reference internal" href="#classes">Classes</a></li>
 <li><a class="reference internal" href="#database-access">Database Access</a></li>
+<li><a class="reference internal" href="#modules">Modules</a></li>
 <li><a class="reference internal" href="#installing-libraries">Installing Libraries</a></li>
+<li><a class="reference internal" href="#using-pip-to-install-packages">Using pip to Install Packages</a></li>
 <li><a class="reference internal" href="#virtual-environments">Virtual Environments</a></li>
 <li><a class="reference internal" href="#fixing-bad-code">Fixing Bad Code</a></li>
-<li><a class="reference internal" href="#using-pip-to-install-packages">Using pip to Install Packages</a></li>
 <li><a class="reference internal" href="#using-autopep8">Using autopep8</a></li>
 <li><a class="reference internal" href="#further-learning">Further Learning</a></li>
 <li><a class="reference internal" href="#writing-python-3-compatible-code">Writing Python 3 Compatible Code</a></li>
@@ -675,6 +733,16 @@ should identity which works best for you and set it up.</li>
 <li><a class="reference external" href="http://pandas.pydata.org/">Pandas</a></li>
 </ul>
 </div>
+<div class="section" id="aditional-information">
+<h2>Aditional Information<a class="headerlink" href="#aditional-information" title="Permalink to this headline">¶</a></h2>
+<p>Python module of the week is a Web site that provides a number of short examples on how to use some elementary python
+modules. Not all modules are equally useful and you should decide if there are better alternatives. However for beginners
+this site provides a number of good examples</p>
+<ul class="simple">
+<li>Python 2: <a class="reference external" href="https://pymotw.com/2/">https://pymotw.com/2/</a></li>
+<li>Python 3: <a class="reference external" href="https://pymotw.com/3/">https://pymotw.com/3/</a></li>
+</ul>
+</div>
 <div class="section" id="learning-goals">
 <h2>Learning Goals<a class="headerlink" href="#learning-goals" title="Permalink to this headline">¶</a></h2>
 <p>At the end of this lesson you will be able to:</p>
@@ -815,8 +883,8 @@ program read the line <code class="docutils literal"><span class="pre">print</sp
 the <code class="docutils literal"><span class="pre">print</span></code> statement and the <code class="docutils literal"><span class="pre">&quot;Hello</span> <span class="pre">world</span> <span class="pre">from</span> <span class="pre">Python!&quot;</span></code> string, and
 then executed the line, showing you the output.</p>
 </div>
-<div class="section" id="variables-and-simple-data-types">
-<h2>Variables and Simple Data Types<a class="headerlink" href="#variables-and-simple-data-types" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="variables">
+<h2>Variables<a class="headerlink" href="#variables" title="Permalink to this headline">¶</a></h2>
 <p>You can store data into a <strong>variable</strong> to access it later.
 For instance, instead of:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello world from Python!&#39;</span><span class="p">)</span>
@@ -830,8 +898,10 @@ store the string in a variable for convenient access:</p>
 </pre></div>
 </div>
 </div>
+<div class="section" id="data-types">
+<h2>Data Types<a class="headerlink" href="#data-types" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="booleans">
-<h2>Booleans<a class="headerlink" href="#booleans" title="Permalink to this headline">¶</a></h2>
+<h3>Booleans<a class="headerlink" href="#booleans" title="Permalink to this headline">¶</a></h3>
 <p>A <strong>boolean</strong> is a value that indicates the “truthness” of something.
 You can think of it as a toggle: either “on” or “off”, “one” or
 “zero”, “true” or “false”.  In fact, the only possible values of the
@@ -860,8 +930,8 @@ You can think of it as a toggle: either “on” or “off”, “one” or
 </pre></div>
 </div>
 </div>
-<div class="section" id="numbers-and-math">
-<h2>Numbers and Math<a class="headerlink" href="#numbers-and-math" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="numbers">
+<h3>Numbers<a class="headerlink" href="#numbers" title="Permalink to this headline">¶</a></h3>
 <p>The interactive interpreter can also be used as a calculator.
 For instance, say we wanted to compute a multiple of 21:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">21</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
@@ -903,8 +973,9 @@ expected:</p>
 </pre></div>
 </div>
 </div>
-<div class="section" id="types-and-using-the-repl">
-<h2>Types and Using the REPL<a class="headerlink" href="#types-and-using-the-repl" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="repl-read-eval-print-loop">
+<h2>REPL (Read Eval Print Loop)<a class="headerlink" href="#repl-read-eval-print-loop" title="Permalink to this headline">¶</a></h2>
 <p>We have so far seen a few examples of types: <strong>string</strong>s, <strong>bool</strong>s,
 <strong>int</strong>s, and <strong>float</strong>s.  A <strong>type</strong> indicates that values of that
 type support a certain set of operations. For instance, how would you
@@ -942,6 +1013,8 @@ go up/down line-by-line, or <code class="docutils literal"><span class="pre">q</
 </div>
 <div class="section" id="control-statements">
 <h2>Control Statements<a class="headerlink" href="#control-statements" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="comparision">
+<h3>Comparision<a class="headerlink" href="#comparision" title="Permalink to this headline">¶</a></h3>
 <p>Computer programs do not only execute instructions. Occasionally, a
 choice needs to be made. Such as a choice is based on a
 condition. Python has several conditional operators:</p>
@@ -974,7 +1047,7 @@ execute multiple conditions using the <code class="docutils literal"><span class
 </div>
 </div>
 <div class="section" id="iteration">
-<h2>Iteration<a class="headerlink" href="#iteration" title="Permalink to this headline">¶</a></h2>
+<h3>Iteration<a class="headerlink" href="#iteration" title="Permalink to this headline">¶</a></h3>
 <p>To repeat code, the <code class="docutils literal"><span class="pre">for</span></code> keyword can be used. For example, to
 display the numbers from 1 to 10, we could write something like this:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
@@ -1003,8 +1076,11 @@ starts counting from 0, so this code will also work:</p>
 <p>In this case we have two nested loops. The code will iterate over
 the entire coordinate range (0,0) to (9,9)</p>
 </div>
+</div>
+<div class="section" id="datatypes">
+<h2>Datatypes<a class="headerlink" href="#datatypes" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="lists">
-<h2>Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h2>
+<h3>Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h3>
 <p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_lists.htm">https://www.tutorialspoint.com/python/python_lists.htm</a></p>
 <p>Lists in Python are ordered sequences of elements, where each element
 can be accessed using a 0-based index.</p>
@@ -1091,7 +1167,7 @@ creates a list of numbers:</p>
 </div>
 </div>
 <div class="section" id="sets">
-<h2>Sets<a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h2>
+<h3>Sets<a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h3>
 <p>Python lists can contain duplicates as you saw above:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Jane&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Abby&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">]</span>
 </pre></div>
@@ -1133,8 +1209,8 @@ sets: <em>union</em>, <em>intersection</em>, <em>difference</em>, as well as ope
 check containment. You can read about this in the <a class="reference external" href="https://docs.python.org/2/library/stdtypes.html#set">Python
 documentation for sets</a>.</p>
 </div>
-<div class="section" id="removal-and-testing-for-membership">
-<h2>Removal and Testing for Membership<a class="headerlink" href="#removal-and-testing-for-membership" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="removal-and-testing-for-membership-in-sets">
+<h3>Removal and Testing for Membership in Sets<a class="headerlink" href="#removal-and-testing-for-membership-in-sets" title="Permalink to this headline">¶</a></h3>
 <p>One important advantage of a <em>set</em> over a <em>list</em> is that <strong>access to
 elements is fast</strong>. If you are familiar with different data structures
 from a Computer Science class, the Python list is implemented by an
@@ -1163,7 +1239,7 @@ is orders of magnitude faster than in a list. This is important to
 keep in mind when you work with large amounts of data.</p>
 </div>
 <div class="section" id="dictionaries">
-<h2>Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h2>
+<h3>Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h3>
 <p>One of the very important datastructures in python is a dictionary
 also refered to as <em>dict</em>.</p>
 <p>A dictionary represents a key value store:</p>
@@ -1199,8 +1275,8 @@ also refered to as <em>dict</em>.</p>
 </pre></div>
 </div>
 </div>
-<div class="section" id="keys-and-values">
-<h2>Keys and Values<a class="headerlink" href="#keys-and-values" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="dictionary-keys-and-values">
+<h3>Dictionary Keys and Values<a class="headerlink" href="#dictionary-keys-and-values" title="Permalink to this headline">¶</a></h3>
 <p>You can retrieve both the keys and values of a dictionary using the
 <code class="docutils literal"><span class="pre">keys()</span></code> and <code class="docutils literal"><span class="pre">values()</span></code> methods of the dictionary, respectively:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
@@ -1224,7 +1300,7 @@ the same correspondence in general as long as <strong>``keys()`` and
 ``values()`` are called one right after the other</strong>.</p>
 </div>
 <div class="section" id="counting-with-dictionaries">
-<h2>Counting with Dictionaries<a class="headerlink" href="#counting-with-dictionaries" title="Permalink to this headline">¶</a></h2>
+<h3>Counting with Dictionaries<a class="headerlink" href="#counting-with-dictionaries" title="Permalink to this headline">¶</a></h3>
 <p>One application of dictionaries that frequently comes up is counting
 the elements in a sequence. For example, say we have a sequence of
 coin flips:</p>
@@ -1265,6 +1341,86 @@ allows you to run <em>optimized</em> Python.</li>
 of coin flips. <code class="docutils literal"><span class="pre">sum</span></code> is one of many built-in function you can
 <a class="reference external" href="https://docs.python.org/2/library/functions.html">read about here</a>.</li>
 </ol>
+</div>
+</div>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<p>You can reuse code by putting it inside a function that you can call
+in other parts of your programs. Functions are also a good way of
+grouping code that logically belongs together in one coherent whole. A
+function has a unique name in the program. Once you call a function, it
+will execute its body which consists of one or more lines of code:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">check_triangle</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+    <span class="k">return</span> \
+            <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+            <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+            <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">check_triangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>The <code class="docutils literal"><span class="pre">def</span></code> keyword tells Python we are defining a function. As part
+of the definition, we have the function name, <code class="docutils literal"><span class="pre">check_triangle</span></code>, and
+the parameters of the function – variables that will be populated
+when the function is called.</p>
+<p>We call the function with arguments <code class="docutils literal"><span class="pre">4</span></code>, <code class="docutils literal"><span class="pre">5</span></code> and <code class="docutils literal"><span class="pre">6</span></code>, which are
+passed in order into the parameters <code class="docutils literal"><span class="pre">a</span></code>, <code class="docutils literal"><span class="pre">b</span></code> and <code class="docutils literal"><span class="pre">c</span></code>.  A
+function can be called several times with varying parameters. There is
+no limit to the number of function calls.</p>
+<p>It is also possible to store the output of a function in a variable,
+so it can be reused.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">check_triangle</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+     <span class="k">return</span> \
+             <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+             <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+             <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="n">check_triangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="classes">
+<span id="doc-python-intro-sec-classes"></span><h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<p>A class is an encapsulation of data and the processes that work on
+them. The data is represented in member variables, and the processes
+are defined in the methods of the class (methods are functions inside
+the class). For example, let’s see how to define a <code class="docutils literal"><span class="pre">Triangle</span></code> class:</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Triangle</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+
+     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">angle1</span><span class="p">,</span> <span class="n">angle2</span><span class="p">,</span> <span class="n">angle3</span><span class="p">):</span>
+             <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sides_ok</span><span class="p">(</span><span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">):</span>
+                     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The sides of the triangle are invalid.&#39;</span><span class="p">)</span>
+             <span class="k">elif</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_angles_ok</span><span class="p">(</span><span class="n">angle1</span><span class="p">,</span> <span class="n">angle2</span><span class="p">,</span> <span class="n">angle3</span><span class="p">):</span>
+                     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The angles of the triangle are invalid.&#39;</span><span class="p">)</span>
+
+             <span class="bp">self</span><span class="o">.</span><span class="n">_length</span> <span class="o">=</span> <span class="n">length</span>
+             <span class="bp">self</span><span class="o">.</span><span class="n">_width</span> <span class="o">=</span> <span class="n">width</span>
+             <span class="bp">self</span><span class="o">.</span><span class="n">_height</span> <span class="o">=</span> <span class="n">height</span>
+
+             <span class="bp">self</span><span class="o">.</span><span class="n">_angle1</span> <span class="o">=</span> <span class="n">angle1</span>
+             <span class="bp">self</span><span class="o">.</span><span class="n">_angle2</span> <span class="o">=</span> <span class="n">angle2</span>
+             <span class="bp">self</span><span class="o">.</span><span class="n">_angle3</span> <span class="o">=</span> <span class="n">angle3</span>
+
+     <span class="k">def</span> <span class="nf">_sides_ok</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+             <span class="k">return</span> \
+                     <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+                     <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
+                     <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
+
+     <span class="k">def</span> <span class="nf">_angles_ok</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+             <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">180</span>
+
+<span class="n">triangle</span> <span class="o">=</span> <span class="n">Triangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">80</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Python has full Aobject-oriented programming (OOP) capabilities,
+however we can not cover all of them in a quick tutorial, so please
+refer to the <a class="reference external" href="https://docs.python.org/2.7/tutorial/classes.html">Python docs on classes and OOP</a>.</p>
+</div>
+<div class="section" id="database-access">
+<h2>Database Access<a class="headerlink" href="#database-access" title="Permalink to this headline">¶</a></h2>
+<p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_database_access.htm">https://www.tutorialspoint.com/python/python_database_access.htm</a></p>
 </div>
 <div class="section" id="modules">
 <h2>Modules<a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h2>
@@ -1363,85 +1519,6 @@ capabilities</a>
 to insert values into the string we are displaying.</li>
 </ol>
 </div>
-<div class="section" id="functions">
-<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
-<p>You can reuse code by putting it inside a function that you can call
-in other parts of your programs. Functions are also a good way of
-grouping code that logically belongs together in one coherent whole. A
-function has a unique name in the program. Once you call a function, it
-will execute its body which consists of one or more lines of code:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">check_triangle</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
-    <span class="k">return</span> \
-            <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
-            <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
-            <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">check_triangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
-</pre></div>
-</div>
-<p>The <code class="docutils literal"><span class="pre">def</span></code> keyword tells Python we are defining a function. As part
-of the definition, we have the function name, <code class="docutils literal"><span class="pre">check_triangle</span></code>, and
-the parameters of the function – variables that will be populated
-when the function is called.</p>
-<p>We call the function with arguments <code class="docutils literal"><span class="pre">4</span></code>, <code class="docutils literal"><span class="pre">5</span></code> and <code class="docutils literal"><span class="pre">6</span></code>, which are
-passed in order into the parameters <code class="docutils literal"><span class="pre">a</span></code>, <code class="docutils literal"><span class="pre">b</span></code> and <code class="docutils literal"><span class="pre">c</span></code>.  A
-function can be called several times with varying parameters. There is
-no limit to the number of function calls.</p>
-<p>It is also possible to store the output of a function in a variable,
-so it can be reused.</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">check_triangle</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
-     <span class="k">return</span> \
-             <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
-             <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
-             <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="n">check_triangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="classes">
-<span id="doc-python-intro-sec-classes"></span><h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
-<p>A class is an encapsulation of data and the processes that work on
-them. The data is represented in member variables, and the processes
-are defined in the methods of the class (methods are functions inside
-the class). For example, let’s see how to define a <code class="docutils literal"><span class="pre">Triangle</span></code> class:</p>
-<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Triangle</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-
-     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">angle1</span><span class="p">,</span> <span class="n">angle2</span><span class="p">,</span> <span class="n">angle3</span><span class="p">):</span>
-             <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sides_ok</span><span class="p">(</span><span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">):</span>
-                     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The sides of the triangle are invalid.&#39;</span><span class="p">)</span>
-             <span class="k">elif</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_angles_ok</span><span class="p">(</span><span class="n">angle1</span><span class="p">,</span> <span class="n">angle2</span><span class="p">,</span> <span class="n">angle3</span><span class="p">):</span>
-                     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The angles of the triangle are invalid.&#39;</span><span class="p">)</span>
-
-             <span class="bp">self</span><span class="o">.</span><span class="n">_length</span> <span class="o">=</span> <span class="n">length</span>
-             <span class="bp">self</span><span class="o">.</span><span class="n">_width</span> <span class="o">=</span> <span class="n">width</span>
-             <span class="bp">self</span><span class="o">.</span><span class="n">_height</span> <span class="o">=</span> <span class="n">height</span>
-
-             <span class="bp">self</span><span class="o">.</span><span class="n">_angle1</span> <span class="o">=</span> <span class="n">angle1</span>
-             <span class="bp">self</span><span class="o">.</span><span class="n">_angle2</span> <span class="o">=</span> <span class="n">angle2</span>
-             <span class="bp">self</span><span class="o">.</span><span class="n">_angle3</span> <span class="o">=</span> <span class="n">angle3</span>
-
-     <span class="k">def</span> <span class="nf">_sides_ok</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
-             <span class="k">return</span> \
-                     <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
-                     <span class="n">b</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">c</span><span class="p">)</span> <span class="ow">and</span> \
-                     <span class="n">c</span> <span class="o">&lt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
-
-     <span class="k">def</span> <span class="nf">_angles_ok</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
-             <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">180</span>
-
-<span class="n">triangle</span> <span class="o">=</span> <span class="n">Triangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">80</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>Python has full Aobject-oriented programming (OOP) capabilities,
-however we can not cover all of them in a quick tutorial, so please
-refer to the <a class="reference external" href="https://docs.python.org/2.7/tutorial/classes.html">Python docs on classes and OOP</a>.</p>
-</div>
-<div class="section" id="database-access">
-<h2>Database Access<a class="headerlink" href="#database-access" title="Permalink to this headline">¶</a></h2>
-<p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_database_access.htm">https://www.tutorialspoint.com/python/python_database_access.htm</a></p>
-</div>
 <div class="section" id="installing-libraries">
 <h2>Installing Libraries<a class="headerlink" href="#installing-libraries" title="Permalink to this headline">¶</a></h2>
 <p>Often you may need functionality that is not present in Python’s
@@ -1457,6 +1534,26 @@ the <a class="reference external" href="https://pypi.python.org/pypi">Python Pac
 allow us to illustrate the use if virtual environments using the
 <code class="docutils literal"><span class="pre">virtualenv</span></code> command, and installing and uninstalling PyPi packages
 using <code class="docutils literal"><span class="pre">pip</span></code>.</p>
+</div>
+<div class="section" id="using-pip-to-install-packages">
+<h2>Using pip to Install Packages<a class="headerlink" href="#using-pip-to-install-packages" title="Permalink to this headline">¶</a></h2>
+<p>In order to install package from PyPI, use the <code class="docutils literal"><span class="pre">pip</span></code> command.
+We can search for PyPI for packages:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip search --trusted-host pypi.python.org autopep8 pylint
+</pre></div>
+</div>
+<p>It appears that the top two results are what we want so install them:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip install --trusted-host pypi.python.org autopep8 pylint
+</pre></div>
+</div>
+<p>This will cause <code class="docutils literal"><span class="pre">pip</span></code> to download the packages from PyPI, extract
+them, check their dependencies and install those as needed, then
+install the requested packages.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can skip ‘–trusted-host pypi.python.org’ option if you have a
+patch on urllib3 on Python 2.7.9.</p>
+</div>
 </div>
 <div class="section" id="virtual-environments">
 <span id="id7"></span><h2>Virtual Environments<a class="headerlink" href="#virtual-environments" title="Permalink to this headline">¶</a></h2>
@@ -1572,26 +1669,6 @@ by hand would be a time-consuming and error-prone process.  Luckily,
 this is a common problem so there exist a couple packages to help in
 this situation.</p>
 </div>
-<div class="section" id="using-pip-to-install-packages">
-<h2>Using pip to Install Packages<a class="headerlink" href="#using-pip-to-install-packages" title="Permalink to this headline">¶</a></h2>
-<p>In order to install package from PyPI, use the <code class="docutils literal"><span class="pre">pip</span></code> command.
-We can search for PyPI for packages:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip search --trusted-host pypi.python.org autopep8 pylint
-</pre></div>
-</div>
-<p>It appears that the top two results are what we want so install them:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip install --trusted-host pypi.python.org autopep8 pylint
-</pre></div>
-</div>
-<p>This will cause <code class="docutils literal"><span class="pre">pip</span></code> to download the packages from PyPI, extract
-them, check their dependencies and install those as needed, then
-install the requested packages.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">You can skip ‘–trusted-host pypi.python.org’ option if you have a
-patch on urllib3 on Python 2.7.9.</p>
-</div>
-</div>
 <div class="section" id="using-autopep8">
 <h2>Using autopep8<a class="headerlink" href="#using-autopep8" title="Permalink to this headline">¶</a></h2>
 <p>We can now run the bad code through autopep8 to fix formatting
@@ -1683,6 +1760,7 @@ program. Hint: modify the FizzBuzz program.</li>
 <h2>Ecosystem<a class="headerlink" href="#ecosystem" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="autoenv-directory-based-environments">
 <span id="autoenv"></span><h3>Autoenv: Directory-based Environments<a class="headerlink" href="#autoenv-directory-based-environments" title="Permalink to this headline">¶</a></h3>
+<p>Not recommended.</p>
 <p>Link: <cite>Autoenv &lt;https://pypi.python.org/pypi/autoenv/0.2.0&gt;</cite></p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>

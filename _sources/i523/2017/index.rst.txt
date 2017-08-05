@@ -23,55 +23,63 @@ I523 Big Data Applications and Analytics (2017)
              
 * Semester: Fall 2017
 
-   
+
 .. toctree::
    :caption: Course
    :maxdepth: 4
    :numbered:              
 
-   overview
-   course
-   /lesson/linux/refcards
-   assignments/assignments
-   /lesson/prg/gitlab
-   projects
-	      
-.. toctree::
-   :caption: Python for Big Data
-   :maxdepth: 2
+   fall2017
+   ../../lesson/communication/piazza
 
-   /lesson/prg/python_intro
-   /lesson/prg/python_big_data
-   /lesson/prg/python_lesson1   
+Syllabus
+========
 
-.. toctree::
-   :caption: Useful Tools and Tips
-   :maxdepth: 2
+* Introduction
+* Motivation for the course
+* Overview of Data Science and Big Data
+* Python
 
-   datasets
-   /lesson/linux/refcards	     
-   /lesson/linux/linux
-   /lesson/doc/latex
-   /lesson/linux/ubuntu
-   /lesson/linux/ssh
-   links
+  * Introduction to Python
+  * Introduction to Python for IOT
+  * Introduction to Python for Big Data
+  * Introduction to Visualization in Python
+  * Python Programming Assignments
 
-.. toctree::
-   :caption: APPENDIX
-   :maxdepth: 2
+* Writing Research Papers/Project Reports
 
-   n-resources
+* Usecases
 
-	      
-.. toctree::
-   :caption: Drafts(TODO)
-   :maxdepth: 2
+  * NIST Use Case Survey (51 use cases)
+  * Health Informatics
+  * Sports Informatics
+  * Physics
+  * e-commerce and Life style
+  * Web Search and Text Mining
+  * IoT
+  * Sensors Networks
 
-   drafts	        
+* Infrastructure
 
-.. toctree::
-   :caption: Contributing
-   :maxdepth: 2
+  * IoT Devices
+  * Cloud Computing
 
-   /lesson/contrib/contributing
+    * Chameleon Cloud
+
+  * Containers
+
+    * Echo virtual cluster
+    * Comet virtual cluster
+
+* Technologies
+
+  * Clusterimg
+  * K-Means
+  * Map Reduce
+  * Page Rank
+
+* Project
+
+
+Draft slides are available from :ref:`DraftLessons` .
 
