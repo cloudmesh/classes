@@ -1,7 +1,6 @@
+recommonmark
 sphinx
 sphinx_rtd_theme
-requests
-pandas
 sphinxcontrib-bibtex
 foundation-sphinx-theme
 sphinx_bootstrap_theme
@@ -13,3 +12,5 @@ Pygments
 jupyter
 nbconvert
 ghp-import
+requests
+pandas
