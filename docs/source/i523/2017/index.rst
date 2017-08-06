@@ -8,68 +8,83 @@ I523 Big Data Applications and Analytics (2017)
              numbers in the presentations may not correspond to our
              outline here as we have restructured the material.
 
-.. warning:: This class has a significant amount of programming
-             assignments. However an option of taking the class
-             without programming is available. Those electing not to
-             do the programming need to write an additional paper.
-             The maximum grade of those conducting the non programming
-             option is an A-.
+.. note:: This class has a significant amount of programming
+          assignments. However, an option of taking the class without
+          programming **project** is available. Those electing not to
+          do the programming project need to write a high quality
+          academic paper.  The maximum grade of those conducting the
+          academic paper option is an A-. It is still expected that
+          you conduct the programming assignments even if you do not
+          chose the programming project.
 
-.. warning:: This class will not have any bonus projects as we want
-             that you apply your focus on the class homework instead
-             and make them outstanding.
+.. note:: This class will not have any bonus projects as we want that
+          you focus on the class homework, programming
+          assignmenst and final project and make them outstanding.
              
 * Semester: Fall 2017
 
-   
+
 .. toctree::
    :caption: Course
    :maxdepth: 4
    :numbered:              
 
-   overview
-   course
-   /lesson/linux/refcards
-   assignments/assignments
-   /lesson/prg/gitlab
-   projects
-	      
-.. toctree::
-   :caption: Python for Big Data
-   :maxdepth: 2
+   fall2017
+   ../../lesson/communication/piazza
 
-   /lesson/prg/python_intro
-   /lesson/prg/python_big_data
-   /lesson/prg/python_lesson1   
+Syllabus
+--------
 
-.. toctree::
-   :caption: Useful Tools and Tips
-   :maxdepth: 2
+* Introduction
+* Motivation for the course
+* Overview of Data Science and Big Data
+* Collaboration Tools
 
-   datasets
-   /lesson/linux/refcards	     
-   /lesson/linux/linux
-   /lesson/doc/latex
-   /lesson/linux/ubuntu
-   /lesson/linux/ssh
-   links
+  * Piazza
+  * Gitlab
 
-.. toctree::
-   :caption: APPENDIX
-   :maxdepth: 2
+* Writing Research Papers/Project Reports
 
-   n-resources
+* Python
 
-	      
-.. toctree::
-   :caption: Drafts(TODO)
-   :maxdepth: 2
+  * Introduction to Python
+  * Introduction to Python for IOT
+  * Introduction to Python for Big Data
+  * Introduction to Visualization in Python
+  * Python Programming Assignments
 
-   drafts	        
+* Usecases
 
-.. toctree::
-   :caption: Contributing
-   :maxdepth: 2
+  * NIST Use Case Survey (51 use cases)
+  * Health Informatics
+  * Sports Informatics
+  * Physics
+  * e-commerce and Life style
+  * Web Search and Text Mining
+  * IoT
+  * Sensors Networks
 
-   /lesson/contrib/contributing
+* Infrastructure
+
+  * IoT Devices
+  * Cloud Computing
+
+    * Chameleon Cloud
+
+  * Containers
+
+    * Echo virtual cluster
+    * Comet virtual cluster
+
+* Technologies
+
+  * Clusterimg
+  * K-Means
+  * Map Reduce
+  * Page Rank
+
+* Project
+
+
+Draft slides are available from :ref:`DraftLessons` .
 

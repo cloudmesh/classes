@@ -1,7 +1,7 @@
 Piazza
 ======
 
-We use Pazza (https://piazza.com) because questions and answers on
+We use Piazza (https://piazza.com) because questions and answers on
 Piazza are community-edited.  Each question has a single students'
 that is collaboratively edited by all students and if needed an
 instructors' answer that is collaboratively edited by the instructor.
@@ -27,19 +27,20 @@ Older Classes
 * I523 Fall 2016: https://piazza.com/class/irqfvh1ctrg2vt
 
 
-Piazza Support with a lot of information is avalable at: 
+Piazza Support with a lot of information is available at:
 
 * http://support.piazza.com
 
 Canvas Integration
 ------------------
 
-Piazza is recommended IU supported technology within Canvas. It
-replaces the teh discussion groups with superior technology
+Piazza is one of the recommended IU supported technology within Canvas. It
+replaces the the CANVAS discussion groups with superior technology targeted
+to support large graduate student classes.
 
-To integrate piazza you can have three situations
+To access piazza you can have three situations
 
-a) you have nover logged into piazza 
+a) you have never logged into piazza
 
 >    If this applies to you send us your instructions and we add them here
 
@@ -65,7 +66,7 @@ Canvas sends the pertinent information (default email address primarily) to
 Piazza, Piazza creates the student's account and enrolls the student in the
 Piazza course. There is nothing you need to do to."
 
-If you have any questions regaring acessing piazza, please send them to 
+If you have any questions regarding accessing piazza, please send them to
 
 "Ricci, Margaret P" <mricci@iu.edu>
 
@@ -85,13 +86,13 @@ Making Piazza Work
 
 In order for Piazza to work students and instructors need to participate
 
-**Students oblibations:** Studnets must collaboratively work on an
+**Students participate:** Students must collaboratively work on an
 answer to a question. Students must not post irrelevant followups to a
 question. If you notice your comment was irrelevant, please delete it.
 Students must **search** prior to asking a new question if the
 question has already been asked. Duplicated questions can be merged.
 
-**Instructors obligation:** The instructor guides the students in
+**Instructors guide:** The instructor guides the students in
 order to obtain an answer to a question. In some cases the instructor
 may be the only one knowing the answer in which case he tries to
 provide it.
@@ -117,7 +118,7 @@ To give you an example of a **bad** question consider:
 >
 > Hi Professor:
 >
-> I read a nice article about potatos and updated my paper, please give me feedback
+> I read a nice article about potato's and updated my paper, please give me feedback
 >
 > Thank you
 >
@@ -136,14 +137,14 @@ Here the reasons why this can be improved:
 3. You have not included the link to your document so we do not know
    what you are talking about.
 
-The above question will simply be comented on (if at all):
+The above question will simply be commented on (if at all):
 
 "Missing information"
 
 Guide on how to ask good questions
 ----------------------------------
 
-This quide is adapted from 
+This guide is adapted from
 
 * http://www.techsupportalert.com/content/how-ask-question-when-you-want-technical-help.htm
 
@@ -157,18 +158,18 @@ Ten steps to getting your question answered on piazza
    it even happens that by thinking through the problem, you come up
    with the answer yourself.
 
-2. Verify that your question has not yet been answerd with a serach on
+2. Verify that your question has not yet been answered with a search on
    the Web, Class Web page, or class piazza, this may require multiple
    searches.
 
 3. In case it is a technical question, write down any error codes that
    appear on your screen. do **not use screenshots** if the text is
-   characters. This is because repleys my need to paste and copy from
+   characters. This is because a reply my need to paste and copy from
    the original. Also screenshots are not searchable. We will not
    answer any questions that post screenshots if they are not
    necessary. It is far easier to copy and paste and use terminal type
    in the formatting. Also if the text is posted it is
-   searchable. (Any unecesaary screnshot will recieve a point
+   searchable. (Any unnecessary screenshot will recieve a point
    deduction. Based on experience we have to do this as previous
    students in other classes ignored this policy).
 
