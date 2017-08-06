@@ -5,10 +5,10 @@ Writing Documents
    :glob:
    :maxdepth: 1
 	      
+   report
+   latex
    bibtex
    bibtex-7
    emacs
-   latex
-   report
    rst
    markdown
