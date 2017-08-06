@@ -7,35 +7,46 @@ Over the years we got tired of student that asked us how many pages a
 report needs to be and than turn around and play with spacing, fonts
 and other space manipulations to circumvent these
 recommendations. Thus we have adopted a much simpler approach. All
-reports **must** be written in the same format that we define on this
-page. Thus we require that all the reports and papers be written in
-LaTeX while using our **trivial** example template(s). 
- 
-The template for the report is available from:
+reports **must** be written in the same format that we define provide
+for this class. The template for the report is available from:
 
-* https://github.com/cloudmesh/classes/tree/master/docs/source/format/report
+*
+https://github.com/cloudmesh/classes/tree/master/docs/source/format/simple/latex
+
+Convenient compressed files are available at
+
+*
+https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.tar.gz
+*
+https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.zip
+
+
+
+It is in your best interest to use LaTeX. The good news is that
+we have made it simple for you to use and you are allowed to use
+online services. 
 
 An example report in PDF format is available:
 
-* `report.pdf <https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/report.pdf>`_
+* `report.pdf <https://github.com/cloudmesh/classes/blob/master/docs/source/format/simple/latex/report.pdf>`_
   
-It includes some very simple `makefile <https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/Makefile>`_
+It includes some very simple `makefile <https://github.com/cloudmesh/classes/blob/master/docs/source/format/simple/Makefile>`_
 and allows you to do editing with immediate preview as documented in
 the LaTeX lesson.  Due to LaTeX being a trivial ASCII based format and
 its superior bibliography management you wil save yourself many hours
 of work. 
 
-
-In case you are in a team, you can use either github/gitlab while
+In case you are in a team, you can use either git while
 collaboratively developing the LaTeX document, use sharelatex, or
 overleaf.
 
-Your final submission will include the bibliography file as a separate
-document. All images must be placed in an images folder and submitted
-in your repository with the originals. When using sharelatex or
-overleaf you must replicate the directory layout carefully. YOu must
-also make sure that all files and directories in sharelatex you use be
-copied back to github.
+Your final submission must be in git, we will not review any
+documents stored on sharelatex or overleaf. Your final submission will
+include the bibliography file as a separate document. All images must
+be placed in an images folder and submitted in your repository with
+the originals. When using sharelatex or overleaf you must replicate
+the directory layout carefully. You must also make sure that all files
+and directories in sharelatex you use be copied back to git.
 
 .. warning:: There will be **NO EXCEPTION** to this format. Hence if
 	     you do not know latex we recommend you get familiar with
@@ -45,12 +56,30 @@ copied back to github.
 	     returned without review.
 
 .. warning:: We found that students using MsWord or Google docs
-	     produce generally inferior reports with the danger of
+	     produce inferior reports with the danger of
 	     having a lower grade. Hence, in order to help you achieve
 	     the best grade possible, we no longer accept reports
 	     using these tools and require that all documents be
 	     written in LaTeX.
-	     
+
+As we have observed that **ALL** stduents that used MSWord in previous
+classes delivered inferior reports we adopted the
+following policy for this class to discourage the use of Word:
+
+* Any student wanting to use Word will get an automatic 20% point deduction, all
+  refernces must be managed in endnote. We like to point out that it
+  is **VERY** difficult to use endnote in a collaborative setting and
+  we have seen students working for months at a document and at the
+  end it was broken due to either bugs in word or endnote. We realy do
+  not want you to experience this. It is var easier to learn LaTeX
+  than to risk losing month worth of work. 
+  
+* Furthermore, we will reject any paper that is not using proper
+  bibliography management tools.
+
+Writing proper academic resources is part of **ANY** report handed in
+as part of a graduate course. 
+  
 Report Checklist
 ----------------
 
@@ -58,11 +87,11 @@ This incomplete list may serve as a way to check if you follow the rules
 
 #. Have you written the report in LaTeX in the specified format?
 #. Have you included an Acknowledgement section?
-#. Have you included the report in gitlab?
+#. Have you included the report in git?
 #. Have you specified the HID, names, and e-mails of all team members in
    your report. E.g. the Real Names that are registered in Canvas?
 #. Have you included the project number in the report?
-#. Have you included all images in native and PDF format in gitlab in
+#. Have you included all images in native and PDF format in git in
    the images folder?
 #. Have you added the bibliography file that you managed with jabref
 #. Have you added an appendix describing who did what in the project

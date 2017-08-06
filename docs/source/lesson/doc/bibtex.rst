@@ -22,7 +22,6 @@ We will address a number of important entry types which includes:
 * articles in a conference
 * articles in magazines (non scientific)
 * blogs
-
   
   
 Source code References
@@ -150,16 +149,311 @@ also to include the version in the note field such as::
 .. note:: All those that helped should add your HID to this entry with
 	  a space separated from each other 
 
-Wikipedia Entry
----------------
 
-Please fill out
+Researching proper bibtex entries
+----------------------------------------
 
-Web Page
---------
 
-Please fill out
+Article in a journal
+^^^^^^^^^^^^^^^^^^^^
 
+Many online bibtex entries are wrong or incomplete.  Often you may find via google a bibtex entry that may need some more reserach. Lets assume your first google quesry returns a publication and you cite it such as this::
+
+
+  @Unpublished{unpublished-google-sawzall,
+      Title = {{Interpreting the Data: Parallel Analysis with Sawzall}},
+      Author = {{Rob Pike, Sean Dorward, Robert Griesemer, Sean Quinlan}},
+      Note = {accessed 2017-01-28},
+      Month = {October},
+      Year = {2005},
+      Owner = {for the purpose of this discussion removed},
+      Timestamp = {2017.01.31}
+  }
+
+Could we improve this entry to achieve your best? We oberve:
+
+1. The author field has a wrong entry as the , is to be replaced by an and.
+
+2. The author feild  has authors and thus must not have a {{ }}
+
+3. The url is missing, as the simple google search actually finds a PDF document. 
+
+Let us investigate a bit more while searching for the title. We find
+
+ 
+A) https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwj_ytSA-PDRAhUH8IMKHaomC-oQFggaMAA&url=https%3A%2F%2Fresearch.google.com%2Farchive%2Fsawzall-sciprog.pdf&usg=AFQjCNHSSfKBwbxVAVPQ0td4rTjitKucpA&sig2=vbiVzi36B3gGFjIzlUKBDA&bvm=bv.146073913,d.amc
+
+B) https://research.google.com/pubs/pub61.html
+ 
+C) http://dl.acm.org/citation.cfm?id=1239658
+
+ 
+Let us look at A)
+
+As you can see from the url this is actualy some redirection to a
+google web page which probably is replaced by B as its from google
+research. So let us look at B)
+
+Now when you look at the link we find the url
+https://research.google.com/archive/sawzall-sciprog.pdf which
+redirects you to the PDF paper.
+ 
+When we go to B) we find surprisingly a bibtex entry as follows::
+
+  @article{61,
+    title = {Interpreting the Data: Parallel Analysis with Sawzall},
+    author = {Rob Pike and Sean Dorward and Robert Griesemer and Sean Quinlan},
+    year = 2005,
+    URL = {https://research.google.com/archive/sawzall.html},
+    journal = {Scientific Programming Journal},
+    pages = {277--298},
+    volume = {13}
+  }
+
+
+Now we could say lets be satisfied, but C) seems to be even more
+interesting as its from a major publisher. So lats just make sure we
+look at C)
+
+If you go to C, you find under the colored box entitled Tools and
+Resources a link called **bibtex**. Thus it seems a good idea to click
+on it. This will give you::
+
+ 
+
+  @article{Pike:2005:IDP:1239655.1239658,
+      author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
+      title = {Interpreting the Data: Parallel Analysis with Sawzall},
+      journal = {Sci. Program.},
+      issue_date = {October 2005},
+      volume = {13},
+      number = {4},
+      month = oct,
+      year = {2005},
+      issn = {1058-9244},
+      pages = {277--298},
+      numpages = {22},
+      url = {http://dx.doi.org/10.1155/2005/962135},
+      doi = {10.1155/2005/962135},
+      acmid = {1239658},
+      publisher = {IOS Press},
+      address = {Amsterdam, The Netherlands, The Netherlands},
+  }
+ 
+Now we seem to be at a position to combine our search result as neither entry is sufficient. As the doi number properly specifies a paper (look
+up what a doi is) we can replace the url with one that we find online,
+such as the one we found in A) Next we see that all field sin B are
+already coverd in C, so we take C) and add the url. Now as the label
+is graet and uniform for ACM, but for us a bit less convenient as its
+difficult to remember, we just change it while for example using
+authors, title, and year information. lets also make sure to do mostly
+lowercase in the label just as a convention. Thus our entry looks
+like::
+
+  @article{pike05swazall,
+      author = {Pike, Rob and Dorward, Sean and Griesemer, Robert and Quinlan, Sean},
+      title = {Interpreting the Data: Parallel Analysis with Sawzall},
+      journal = {Sci. Program.},
+      issue_date = {October 2005},
+      volume = {13},
+      number = {4},
+      month = oct,
+      year = {2005},
+      issn = {1058-9244},
+      pages = {277--298},
+      numpages = {22},
+      url = {https://research.google.com/archive/sawzall-sciprog.pdf},
+      doi = {10.1155/2005/962135},
+      acmid = {1239658},
+      publisher = {IOS Press},
+      address = {Amsterdam, The Netherlands, The Netherlands},
+  }
+ 
+As you can see properly specifying a refernce takes multiple google quesries and merging of the results you find from various returms. As you still have time to correct things I advise that you check your refernces and correct them. If the original refernce would have been graded it would have been graded with a "fail" instead of a "pass".
+
+ 
+Article in a conference proceedings
+-----------------------------------
+
+Lets look at a second obvious example that needs improvement::
+
+  
+  @InProceedings{wettinger-any2api,
+    Title                    = {Any2API - Automated APIfication},
+    Author                   = {Wettinger, Johannes and
+                                Uwe Breitenb{\"u}cher
+                                and Frank Leymann},
+    Booktitle                = {Proceedings of the 5th International
+                                Conference on Cloud Computing and
+				Services Science},
+    Year                     = {2015},
+    Pages                    = {475­486},
+    Publisher                = {SciTePress},
+
+    ISSN                     = {2326-7550},
+    Owner                    = {S17-IO-3005},
+    Url                      = {https://pdfs.semanticscholar.org/1cd4/4b87be8cf68ea5c4c642d38678a7b40a86de.pdf}
+  }
+
+As you can see this entry seems to define all required fields, so we
+could be tempted to stop here. But its good to double check. Lets do
+some queries against ACM, . and google scholar, so we jst type in
+the title, and if this is in a proceedings they should return hopeflly
+a predefined bibtex record for us.
+
+Lets query::
+
+  google: googlescholar Any2API Automated APIfication
+
+We get:
+
+* https://scholar.google.de/citations?view_op=view_citation&hl=en&user=j6lIXt0AAAAJ&citation_for_view=j6lIXt0AAAAJ:8k81kl-MbHgC
+
+On that page we see `Cite
+<https://scholar.google.com/scholar_lookup?title=Automated+drug+dispensing+system+reduces+medication+errors+in+an+intensive+care+setting&author=Chapuis&publication_year=2010#>`_
+
+So we find a PDF at
+https://pdfs.semanticscholar.org/1cd4/4b87be8cf68ea5c4c642d38678a7b40a86de.pdf
+
+Lets click on this and the document incldes a bibtex entry such as::
+
+  @inproceedings{Wettinger2015,	
+    author= {Johannes Wettinger and Uwe Breitenb{\"u}cher and Frank
+	     Leymann},
+    title = {Any2API - Automated APIfication},
+    booktitle = {Proceedings of the 5th International Conference on Cloud
+		 Computing and Service Science (CLOSER)},
+    year = {2015},
+    pages = {475--486},
+    publisher = {SciTePress}
+  }	
+
+Now lets add the URL and owner::
+
+  @inproceedings{Wettinger2015,	
+    author= {Johannes Wettinger and Uwe Breitenb{\"u}cher and Frank
+	     Leymann},
+    title = {Any2API - Automated APIfication},
+    booktitle = {Proceedings of the 5th International Conference on Cloud
+		 Computing and Service Science (CLOSER)},
+    year = {2015},
+    pages = {475--486},
+    publisher = {SciTePress},
+    url ={https://pdfs.semanticscholar.org/1cd4/4b87be8cf68ea5c4c642d38678a7b40a86de.pdf},
+    owner = {S17-IO-3005},
+  }	
+
+Should we be satisfied? No, even our original information we gathere
+provided more information. So lets continue. Lets googlesearch
+different queries with ACM or IEEE and the title. When doing the IEEE
+in the example we find an entry called
+
+`dlp: Frank Leyman <http%3A%2F%2Fdblp.uni-trier.de%2Fpers%2Fl%2FLeymann%3AFrank&usg=AFQjCNHCu-66qxWH0zRlPLr4DA8jIo5V-g&sig2=1vYdnGOEiMcLBEMpbeBA7g>`_ 
+
+Lets look at it and we find two entries::
+
+  @inproceedings{DBLP:conf/closer/WettingerBL15,
+    author    = {Johannes Wettinger and
+		 Uwe Breitenb{\"{u}}cher and
+		 Frank Leymann},
+    title     = {{ANY2API} - Automated APIfication - Generating APIs for Executables
+		 to Ease their Integration and Orchestration for Cloud Application
+		 Deployment Automation},
+    booktitle = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
+		 Cloud Computing and Services Science, Lisbon, Portugal, 20-22 May,
+		 2015.},
+    pages     = {475--486},
+    year      = {2015},
+    crossref  = {DBLP:conf/closer/2015},
+    url       = {http://dx.doi.org/10.5220/0005472704750486},
+    doi       = {10.5220/0005472704750486},
+    timestamp = {Tue, 04 Aug 2015 09:28:21 +0200},
+    biburl    = {http://dblp.uni-trier.de/rec/bib/conf/closer/WettingerBL15},
+    bibsource = {dblp computer science bibliography, http://dblp.org}
+  }
+
+  @proceedings{DBLP:conf/closer/2015,
+    editor    = {Markus Helfert and
+		 Donald Ferguson and
+		 V{\'{\i}}ctor M{\'{e}}ndez Mu{\-{n}}oz},
+    title     = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
+		 Cloud Computing and Services Science, Lisbon, Portugal, 20-22 May,
+		 2015},
+    publisher = {SciTePress},
+    year      = {2015},
+    isbn      = {978-989-758-104-5},
+    timestamp = {Tue, 04 Aug 2015 09:17:34 +0200},
+    biburl    = {http://dblp.uni-trier.de/rec/bib/conf/closer/2015},
+    bibsource = {dblp computer science bibliography, http://dblp.org}
+  }
+
+So lets look at the entry and see how to get a better one for our
+purpose to combine them. When using jabref, you see optional and
+required fields, we want to add as many as possible, regardless if
+optional or required, so Lets do that (I I write here in ASCII as
+easier to document::
+  
+
+
+    @InProceedings{,
+      author = 	 {},
+      title = 	 {},
+      OPTcrossref =  {},
+      OPTkey = 	 {},
+      OPTbooktitle = {},
+      OPTyear = 	 {},
+      OPTeditor = 	 {},
+      OPTvolume = 	 {},
+      OPTnumber = 	 {},
+      OPTseries = 	 {},
+      OPTpages = 	 {},
+      OPTmonth = 	 {},
+      OPTaddress = 	 {},
+      OPTorganization = {},
+      OPTpublisher = {},
+      OPTnote = 	 {},
+      OPTannote = 	 {}
+    }
+
+So lets copy and fill out the **form** from our various searches::
+
+    @InProceedings{Wettinger2015any2api,	
+      author    = {Johannes Wettinger and
+  		 Uwe Breitenb{\"{u}}cher and
+  		 Frank Leymann},
+      title     = {{ANY2API} - Automated APIfication - Generating APIs for Executables
+		 to Ease their Integration and Orchestration for Cloud Application
+		 Deployment Automation},
+      booktitle = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
+  		   Cloud Computing and Services Science},
+      year = 	 {2015},
+      editor    = {Markus Helfert and
+ 		   Donald Ferguson and
+		   V{\'{\i}}ctor M{\'{e}}ndez Mu{\-{n}}oz},
+      publisher = {SciTePress},
+      isbn      = {978-989-758-104-5},
+      pages = {475--486},
+      month = {20-22 May},
+      address = 	 {Lisbon, Portugal},
+      doi       = {10.5220/0005472704750486},
+      url ={https://pdfs.semanticscholar.org/1cd4/4b87be8cf68ea5c4c642d38678a7b40a86de.pdf},
+      owner = {S17-IO-3005},
+    }
+
+What are the differnt entry types and fields
+--------------------------------------------
+
+
+We were asked what are the different entry types and fields, so we did
+a google query and found the following useful information. please
+remember that we also have fields such as doi, owner, we will add
+status ={pass/fail} at time of grading to indicate if the refernce
+passes or fails. We may assign this to you so you get familiar with
+the identification if a referncei is ok or not.
+
+Please see https://en.wikipedia.org/wiki/BibTeX 
+
+    
 InProceedings
 -------------
 
@@ -180,4 +474,19 @@ Proceedings
 
 Please fill out
 
+
+Wikipedia Entry
+---------------
+
+Please fill out
+
+Blogs
+---------------
+
+Please fill out
+
+Web Page
+--------
+
+Please fill out
 
