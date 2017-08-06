@@ -33,11 +33,18 @@ I523 Big Data Applications and Analytics (2017)
    ../../lesson/communication/piazza
 
 Syllabus
-========
+--------
 
 * Introduction
 * Motivation for the course
 * Overview of Data Science and Big Data
+* Collaboration Tools
+
+  * Piazza
+  * Gitlab
+
+* Writing Research Papers/Project Reports
+
 * Python
 
   * Introduction to Python
@@ -45,8 +52,6 @@ Syllabus
   * Introduction to Python for Big Data
   * Introduction to Visualization in Python
   * Python Programming Assignments
-
-* Writing Research Papers/Project Reports
 
 * Usecases
 
