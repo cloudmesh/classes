@@ -5,31 +5,13 @@ FAQ
 How do I ask a question?
 ------------------------
 
-We are using piazza for asking question. Our intend is to first gather
-the answer on piazza and than move the answer in some form to the web
-page if appropriate.
+Test
 
-However asking a quaestion may require some effort on your part.
 
-We suggest the following
+see:
 
-* Before asking the quetion look at the Class Web site and in
-  piazza. Both have search functions that you can use.
-* Do not burry your question in an unrelated post. INstead use the
-  **New Post** button
-* Provide enough information in the questions. THis may include:
+`here <lesson/communication/piazza.html#guide-on-how-to-ask-good-questions>`_.
 
-  * yur name
-  * your HID
-  * the exact URL where the issue aooruce (if related to the Web page
-    or piaza)
-  * detailed description of what the error is about
-  * Make use of the online sessions so you can demonstrate the issue
-    if it complicated to describe
-
-A student als pointed to the following post:
- 
-http://www.techsupportalert.com/content/how-ask-question-when-you-want-technical-help.htm
 
 
 What are the prerequisites for this class?
@@ -42,16 +24,6 @@ in the appropriate class overview. Please review them carefully.
 See:
 
 * I524 :ref:`ref-i524-prerequisits`
-
-Why is this class not hosted on EdX?
-------------------------------------
-
-I523 and I524 were the first classes hosted on EdX. We wanted to
-continue offering them on EdX. However, the university system
-administrators mentioned to us that their systems are not ready to
-support this class in EdX. Unfortunately, this is out of our control
-and we hope that the university will soon update to an EdX system that
-can host our classes.
 
 Why are you not using CANVAS for communicating with students?
 -------------------------------------------------------------
@@ -352,28 +324,9 @@ which of them are relevant for you. In a lecture room you will find
 also that one student asks a question, while the professor answers the
 question to the entire class.
 
-I find the hosting Web confusing
---------------------------------
-
-Once in a while we find that a student finds the hosting of the class
-material on the class Web page confusing. This confusion can be
-overcome by doing the following:
-
-1. You may have to take time to explore the Web page and identify what
-   needs to be done for the class. However each class has a clear
-   overview page.
-2. You may have to learn to get used to a class that allows you to work
-   ahead. 
-3. You may have to learn to appreciate the additional material that
-   assist in learning about python, ansible, LaTex, or the many other
-   topics
-4. Please do not blame the instructors for things that are out of
-   their control: You may not be aware that it is not the instructors
-   fault that the university is not able to provide us with an EdX
-   server that works for us. Our choice would be to use EdX.
 
    
-I524: I do not know python. What do I do?
+I do not know python. What do I do?
 -----------------------------------------
 
 This class requires python. Please learn it. We will be using ansible

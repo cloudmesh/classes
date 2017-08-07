@@ -230,3 +230,15 @@ Ten steps to getting your question answered on piazza
     report your success. It is the least you can do to return
     something for the help you have been given. It will make you
     welcome in the forum the next time you go there for help.
+
+Exercise
+--------
+
+Piazza.1:
+    Enroll in piazza
+
+Piazza.2:
+    Post a short bio in the bio folder (optionally include a professional
+    portrait of yourself)
+
+           
