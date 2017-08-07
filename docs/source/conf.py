@@ -270,10 +270,6 @@ elif theme_bootstrap:
         ("Fork",
              "https://github.com/cloudmesh/classes",
              True),        
-        ("Piazza",
-             "https://piazza.com/class/ix39m27czn5uw",
-             True),
-
 
     ],
 

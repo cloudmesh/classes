@@ -3,6 +3,8 @@
 I523 Big Data Applications and Analytics (2017)
 ===============================================
 
+
+
 .. warning:: This material will be modified and updated on a weekly
              bases througought the semester. Some unit and section
              numbers in the presentations may not correspond to our
@@ -10,27 +12,40 @@ I523 Big Data Applications and Analytics (2017)
 
 .. note:: This class has a significant amount of programming
           assignments. However, an option of taking the class without
-          programming **project** is available. Those electing not to
-          do the programming project need to write a high quality
-          academic paper.  The maximum grade of those conducting the
-          academic paper option is an A-. It is still expected that
-          you conduct the programming assignments even if you do not
-          chose the programming project.
+          programming **term project** is available. This however does
+          not mean that you can skip the programming
+          assignments. Those electing doing the programming
+          project need to write a high quality **academic term paper**.  The
+          maximum grade of those conducting the academic paper option
+          is an A-. 
 
 .. note:: This class will not have any bonus projects as we want that
-          you focus on the class homework, programming
-          assignmenst and final project and make them outstanding.
-             
-* Semester: Fall 2017
+          you focus on the class assignments and make them truly outstanding.
 
+   
+Class Piazza
+------------
+
+We will be using Piazza for class discussion. The system is highly
+catered to getting you help fast and efficiently from classmates, the
+TA, and myself. Rather than emailing questions to the teaching staff,
+I encourage you to post your questions on Piazza. If you have any
+problems or feedback for the developers, email team@piazza.com.
+
+Find our class page at: https://piazza.com/iu/fall2017/i523/home
+
+Content
+-------
 
 .. toctree::
-   :caption: Course
+   :caption: Course I523 Fall 2017
    :maxdepth: 4
    :numbered:              
 
    fall2017
    ../../lesson/communication/piazza
+   ../../lesson/contrib/contributing
+
 
 Syllabus
 --------

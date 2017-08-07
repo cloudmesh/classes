@@ -18,8 +18,17 @@ I524
 
    i524/2017/index
 
- 
-Topic Lessons
+FAQ
+-------------
+
+.. toctree::
+   :maxdepth: 1
+	   
+   faq
+
+   
+   
+Lessons
 -------------
 
 .. toctree::
@@ -28,13 +37,12 @@ Topic Lessons
    lesson/index
    notebooks/index
 
-Other
+Changes
 -------------
 
 .. toctree::
    :maxdepth: 1
 	   
-   faq
    todo
    changelog
    
