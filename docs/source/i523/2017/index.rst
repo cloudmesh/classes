@@ -45,6 +45,8 @@ Content
    fall2017
    ../../lesson/communication/piazza
    ../../lesson/contrib/contributing
+   assignments
+   git
 
 
 Syllabus
