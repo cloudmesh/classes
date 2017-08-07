@@ -33,8 +33,9 @@ I encourage you to post your questions on Piazza. If you have any
 problems or feedback for the developers, email team@piazza.com.
 
 Find our class page at: https://piazza.com/iu/fall2017/i523/home
-          
-**Semester: Fall 2017**
+
+Content
+-------
 
 .. toctree::
    :caption: Course I523 Fall 2017

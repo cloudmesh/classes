@@ -4,12 +4,12 @@ Piazza
 We use Piazza (https://piazza.com) because questions and answers on
 Piazza are community-edited.  Each question has a single answer edited
 by the students of the class and if needed an instructors' answer that
-is collaboratively edited by the instructor.
+is collaboratively edited by the instructors.
 
 Due to this wiki-style Q&A, when a student has a question, one does
-not have to look through long e-mail threads but instead look at the
-answer. For details that lead up to the answer you can naturally look
-at some comments that lead up to the answer
+not have to look through long e-mail threads but instead can look at the
+answer. For details that lead up to the answer you are highly
+encouraged to also  look at some comments that lead up to the answer
 
 An advertisement video from Piazza summarizes the features:
 
@@ -127,7 +127,8 @@ To give you an example of a **bad** question consider::
 
   Hi Professor:
 
-  I read a nice article about apples and potato's and updated my paper, please give me feedback
+  I read a nice article about apples and potato's and updated my
+  paper. Please give me feedback
 
   Thank you
 
@@ -146,6 +147,10 @@ Here the reasons why this can be improved:
 3. You have not included the link to your document so we do not know
    what you are talking about. Remember there are many others students
    in the class
+
+4. You are using a different name from the one that you are registered
+   with. This can lead to confusion when we look up your name. We
+   prefer that you use only one name that is associated with your e-mail.
 
 The above question will simply be commented on (if at all):
 
