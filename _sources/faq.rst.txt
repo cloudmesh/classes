@@ -1,19 +1,6 @@
 FAQ
 ====
 
-
-How do I ask a question?
-------------------------
-
-Test
-
-
-see:
-
-`here <lesson/communication/piazza.html#guide-on-how-to-ask-good-questions>`_.
-
-
-
 What are the prerequisites for this class?
 ------------------------------------------
 
@@ -24,27 +11,6 @@ in the appropriate class overview. Please review them carefully.
 See:
 
 * I524 :ref:`ref-i524-prerequisits`
-
-Why are you not using CANVAS for communicating with students?
--------------------------------------------------------------
-
-We have found that Piazza supports our needs for communication better than Canvas.
-
-Why are you using github for submitting projects and papers?
-------------------------------------------------------------
-
-This class is about open source technology and we like that you benefit
-from material others in the class are developing or have developed. All
-assignments are openly submitted to the class github for everyone to
-see. As part of the goal of this class is to develop reusable
-deployments. Such reuse is only possible if the code is publicly
-available and others can benefit from it.
-
-The technology papers are made accessible so you can read other
-technology papers and can get an introduction in technologies that you
-may not yet know about. It also allows others to contribute to your
-technology papers and improve them.
-
 
 I am full time student at IUPUI. Can I take the online version?
 ---------------------------------------------------------------
@@ -82,24 +48,22 @@ The class is full what do I do?
 Do I need to buy a textbook?
 ----------------------------
 
-No, the resources will be provided for every unit. However, we
+We cover a wide range of topics and their subject-matter is constantly
+undergoing changes. A textbook would be out of date by the time of
+publishing. No, the resources will be provided for every unit. However, we
 recommend that you identify useful books for the class that can help
-you. Examples include
+you.
 
+#. Some O'Reiley books my come in handy.
 #. “Taming The Big Data Tidal Wave: Finding Opportunities in Huge Data
    Streams with Advanced Analytics”, Bill Franks Wiley ISBN:
    978-1-118-20878-6
 #. “Doing Data Science: Straight Talk from the Frontline”, Cathy O'Neil,
    Rachel Schutt, O'Reilly Media, ISBN 978-1449358655
+#. `Big data: The next frontier for innovation, competition, and
+   productivity <http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation>`_
 
 If you find good books, we like to add them here.
-   
-Why is there no textbook?
--------------------------
-
-We cover a wide range of topics and their subject-matter is constantly
-undergoing changes. A textbook would be out of date by the time of
-publishing.
 
 Do I need a computer to participate in this class?
 --------------------------------------------------
@@ -127,19 +91,39 @@ reasonable idea. However, do not go too cheap have enough memory and
 use an SSD if you can.
 
    
-Representative Bibliography
----------------------------
-
-#. `Big data: The next frontier for innovation, competition, and
-   productivity <http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation>`__
-#. `Big Data Spring 2015
-   Class <https://bigdatacoursespring2015.appspot.com>`__
 
 Where is the official IU calendar for the Fall?
 -----------------------------------------------
 
 Please follow this
 `link <http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml>`__
+
+
+How do I ask a question?
+------------------------
+
+* see: `here <lesson/communication/piazza.html#guide-on-how-to-ask-good-questions>`_.
+
+
+
+
+
+Why are you using github for submitting projects and papers?
+------------------------------------------------------------
+
+This class is about open source technology and we like that you benefit
+from material others in the class are developing or have developed. All
+assignments are openly submitted to the class github for everyone to
+see. As part of the goal of this class is to develop reusable
+deployments. Such reuse is only possible if the code is publicly
+available and others can benefit from it.
+
+The technology papers are made accessible so you can read other
+technology papers and can get an introduction in technologies that you
+may not yet know about. It also allows others to contribute to your
+technology papers and improve them.
+
+
 
 How to write a research article on computer science?
 ----------------------------------------------------

@@ -15,60 +15,101 @@ An advertisement video from Piazza summarizes the features:
 
 * https://www.youtube.com/watch?v=2jLSiN8E18w
 
-Classes hosted on Piazza
-
-* Fall 2017:
-    * I523 https://piazza.com/class/j5wll7vzylg25j
-
-
-Older Classes
-
-* I524 Spring 2017: https://piazza.com/class/ix39m27czn5uw
-* I523 Fall 2016: https://piazza.com/class/irqfvh1ctrg2vt
-
-
 Piazza Support with a lot of information is available at:
 
 * http://support.piazza.com
 
-Canvas Integration
-------------------
+Access to Piazza from Canvas 
+----------------------------
 
 Piazza is one of the recommended IU supported technologies within Canvas. It
 replaces the CANVAS discussion groups with superior technology targeted
 to support large student classes while also focussing on student engagement.
 
-To access piazza you can have the following situation:
+To access piazza you can have the following situations provided in the
+next four subsections. PLease read *ALL** of them **CAREFULLY**,
+decide which applies tou you and follow the instructions. If you have
+imporvements to this instructions, please let us know.
 
-a) you have never logged into piazza
+Situation: You have never logged into piazza
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
->    If this applies to you send us your instructions and we add them here
+First, Click the Piazza link on the left navigation of your Canvas course.
 
-b) you have logged into piazza and used your IU e-mail
+|image0|
 
->    If this applies to you send us your instructions and we add them here
+Second, create password and accept terms.
 
-c) you have logged into piazza and you used another non IU e-mail
+.. warning:: The email address shown on this screen is your default IU
+             email address. It is the address Canvas sends to all
+             integrated tools like Piazza. You can’t edit it, so don’t
+             try.
 
->    If this applies to you send us your instructions and we add them here
+.. note:: The password you create here is for accessing Piazza from a
+          mobile device. You must use the default IU email address
+          from this screen to access this account on another device,
+          so make a note of it.
 
-d) you have multiple accounts in piazza in which case you must merge them
+|image1|
 
->    If this applies to you send us your instructions and we add them here
+Choose current degree program (only important if you want to opt into
+their recruiting program on the next screen; choose whatever you want
+here)
 
-I post the official response form the CANVAS team here:
+Third, associate your IU account
+      
+|image2|
+      
+Forth, if all goes well you see the Success screen
 
-"When a student clicks the Piazza link in your course navigation, they will
-be authenticated through to Piazza. If the student already has a Piazza
-account that matches their default Canvas email, they will simply be
-enrolled in the Piazza course. If the student doesn't have an account,
-Canvas sends the pertinent information (default email address primarily) to
-Piazza, Piazza creates the student's account and enrolls the student in the
-Piazza course. There is nothing you need to do to."
+|image3|
 
-If you have any questions regarding accessing piazza, please send them to
+Situation: You have logged into piazza and used your default IU e-mail
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-"Ricci, Margaret P" <mricci@iu.edu>
+#. Click the Piazza link on the left navigation of your Canvas course.
+#. You will be automatically enrolled in the course Piazza site and
+   logged in.
+#. Start using Piazza.
+
+Situation: You have logged into piazza and you used another non IU e-mail
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Click the Piazza link on the left navigation of your Canvas course.
+#. Proceed as in #1 above. This will create your new Piazza account that
+   is linked to your courses in Canvas. This is the account you should
+   always use in your IU courses.
+#. If you wish to merge other accounts that you own, please see \ `Add
+   an email address or merge two
+   accounts <https://www.google.com/url?q=http://support.piazza.com/customer/portal/articles/1646661-add-an-email-address-or-merge-two-accounts&sa=D&ust=1502127148503000&usg=AFQjCNHyBFh3TMAtSDpFordYOfH0IE6kPA>`__\ .
+
+Situation: You have multiple accounts in piazza
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. If one of your multiple accounts corresponds with your default IU
+   email address, you will be automatically enrolled in the course
+   Piazza site and logged in.
+#. If none of your accounts corresponds to your default IU email
+   address, follow the instructions in #3 above.
+#. If you wish to merge other accounts that you own, please see \ `Add
+   an email address or merge two
+   accounts <https://www.google.com/url?q=http://support.piazza.com/customer/portal/articles/1646661-add-an-email-address-or-merge-two-accounts&sa=D&ust=1502127148504000&usg=AFQjCNHwO1kks2cnVLpWWCnOIEDFhl2fJA>`__\ .
+
+
+.. note:: I post the official response form the CANVAS team here:
+          "When a student clicks the Piazza link in your course
+          navigation, they will be authenticated through to Piazza. If
+          the student already has a Piazza account that matches their
+          default Canvas email, they will simply be enrolled in the
+          Piazza course. If the student doesn't have an account,
+          Canvas sends the pertinent information (default email
+          address primarily) to Piazza, Piazza creates the student's
+          account and enrolls the student in the Piazza course. There
+          is nothing you need to do to."
+
+          If you have any questions regarding accessing piazza, please send them to
+
+          "Ricci, Margaret P" <mricci@iu.edu>
 
 Verify you are on Piazza via a post
 -----------------------------------
@@ -231,6 +272,40 @@ Ten steps to getting your question answered on piazza
     something for the help you have been given. It will make you
     welcome in the forum the next time you go there for help.
 
+Piazza class Links
+------------------
+
+.. warning:: Using the following direct links can lead to you not
+             getting proper access via Canvas. If you
+             click on these links **before they create** the account
+             via the link in your current Canvas course, you will
+             create an account that is not matched up with Canvas.
+
+             To avoid issues make sure you integrate to piazza via
+             Canvas first.
+
+             If you have questions bout this contact Margaret Ricci.
+
+
+**THE LINK HAS PURPOSFULLY BEEN REMOVED FOR THE TIME BEING SO YOU ARE
+ FORCED TO ENROLL TO PIAZZA VIA CANVAS**
+
+.. comment:
+   
+   Classes hosted on Piazza
+
+   * Fall 2017:
+     * I523 https://piazza.com/class/j5wll7vzylg25j
+
+
+Older Classes
+
+* I524 Spring 2017: https://piazza.com/class/ix39m27czn5uw
+* I523 Fall 2016: https://piazza.com/class/irqfvh1ctrg2vt
+
+             
+             
+    
 Exercise
 --------
 
@@ -241,4 +316,11 @@ Piazza.2:
     Post a short bio in the bio folder (optionally include a professional
     portrait of yourself)
 
-           
+
+
+.. |image0| image:: images/image3.png
+.. |image1| image:: images/image1.png
+.. |image2| image:: images/image4.png
+.. |image3| image:: images/image2.png
+
+
