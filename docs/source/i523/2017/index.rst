@@ -42,11 +42,7 @@ Content
    :maxdepth: 4
    :numbered:              
 
-   fall2017
-   ../../lesson/communication/piazza
-   ../../lesson/contrib/contributing
-   assignments
-   git
+   class
 
 
 Syllabus
