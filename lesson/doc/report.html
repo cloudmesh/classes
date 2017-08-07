@@ -485,14 +485,14 @@
 <p>Although we provide <strong>trivial</strong> but detailed report format
 requirements, we observed over the years that some students still
 asked us can I make my report shorter, or can i use a different format?
-The answer to these question is <strong>no</strong>. Furthermore, we observed that
+The answer to these questions is <strong>no</strong>. Furthermore, we observed that
 the same students than went ahead and played with the formating and
-introduced empty lines, increased tables or figures, or worse the
+introduced empty lines, increased tables or figures, or worse modified the
 fontsize to circumvent the page limit requirement.</p>
 <p>Thus we have adopted a much simpler approach that is easy to summarize</p>
 <ol class="arabic simple">
 <li>We provide you with a <strong>high quality</strong> report template format that you
-must not change used by millions of researchers.</li>
+must not change and is used by millions of researchers.</li>
 <li>All references must be managed with jabref as reference management tool and
 must be provided in addition to the document.</li>
 <li>If your document does not follow the format or we find that you
@@ -505,30 +505,28 @@ report.</li>
 </ol>
 <p>The template for the report is available from:</p>
 <ul class="simple">
-<li></li>
+<li><a class="reference external" href="https://github.com/cloudmesh/classes/tree/master/docs/source/format/report">https://github.com/cloudmesh/classes/tree/master/docs/source/format/report</a></li>
 </ul>
-<p><a class="reference external" href="https://github.com/cloudmesh/classes/tree/master/docs/source/format/report">https://github.com/cloudmesh/classes/tree/master/docs/source/format/report</a></p>
-<p>Convenient compressed files are available at
-*
-<a class="reference external" href="https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.tar.gz">https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.tar.gz</a>
-*
-<a class="reference external" href="https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.zip">https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.zip</a></p>
-<p>YOu have two choices. A good one and a bad one.</p>
+<p>Convenient compressed files are available at</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.tar.gz">https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.tar.gz</a></li>
+<li><a class="reference external" href="https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.zip">https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.zip</a></li>
+</ul>
+<p>You have two choices. A good one and a bad one.</p>
 <p>The good choice is to use the LaTeX template and write your document
 in LaTeX. The bad one is to use the Word template and write the
-document in Word.</p>
-<p>Both templates are included in our git.</p>
+document in Word. Both templates are included in our git repository.</p>
 <p>Hence, it is in your best interest to use LaTeX. The good news is that
-we have made it simple for you to use and you are allowed to use
+we have made it simple for you to use it. Furthermore, you are allowed to use
 online services. An example report in PDF format is available:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/latex/report.pdf">report.pdf</a></li>
 </ul>
-<p>It includes some very simple <a class="reference external" href="https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/Makefile">makefile</a>
-and allows you to do editing with immediate preview as documented in
+<p>We provide a very simple <a class="reference external" href="https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/latex/Makefile">Makefile</a>
+that allows you to do editing with immediate preview as documented in
 the LaTeX lesson.  Due to LaTeX being a <strong>trivial</strong> ASCII based format
 and having a superior bibliography management you will save yourself
-many hours of work that you encounter with Word. We got feedback from
+many hours of work that you will face while fighting with Word. We got feedback from
 those that tried it and they thanked us later.  Furthermore, in case
 you are in a team, you can use either git while collaboratively
 developing the LaTeX document, use sharelatex, or overleaf.</p>
@@ -543,9 +541,9 @@ references, so you have to do the management of references
 twice. This is so that your document could be converted to LaTeX in
 case we think it suitable for publication in a conference or
 workshop.</li>
-<li>You do not modify the theme</li>
+<li>You do not modify the theme.</li>
 <li>All images and tables are placed at the end of the paper.</li>
-<li>Git wil be used to submit all documents.</li>
+<li>Git wil be used to submit all documents with regular updates.</li>
 </ol>
 <p>For LaTeX you will encounter a much more smooth experience.</p>
 <ol class="arabic simple">
@@ -572,20 +570,16 @@ overleaf you must replicate the directory layout carefully from our
 template and include your final documents in git with a Makefile that
 can recreate the document. It is in your responsibility that this
 works. We will regenerate the document from source before we grade
-it. Thus it is not sufficient to just check in the final PDF.</p>
+it. Thus it is not sufficient to just check in the final PDF.
+The report must be spell checked.</p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">There will be <strong>NO EXCEPTION</strong> to this.</p>
+<p class="last">There will be <strong>NO EXCEPTION</strong> to this. We will not
+review your report if its submission is incomplete.</p>
 </div>
-<p>For smooth development of reports we we recommend you get familiar
-with LaTeX. Reports that do not follow the specified format and
-are not accompanied by references managed with jabref and are not
-spell checked will be returned without review. As we have observed
-that <strong>ALL</strong> students that used MSWord in previous classes delivered
-inferior reports we highly recommend to use LaTeX.</p>
 <div class="section" id="report-checklist">
 <h2>Report Checklist<a class="headerlink" href="#report-checklist" title="Permalink to this headline">¶</a></h2>
-<p>This incomplete list may serve as a way to check if you follow the rules</p>
+<p>This partiald list may serve as a way to check if you follow the rules</p>
 <ol class="arabic simple">
 <li>Have you written the report in the specified format?</li>
 <li>Have you included an acknowledgement section?</li>
@@ -627,9 +621,12 @@ consistent progress.</li>
 <li>Is in your report directory a README.rst file in it as shown in the
 example project that we introduced you to?</li>
 </ol>
+<p>If you observe something missing let us know.</p>
 </div>
 <div class="section" id="readme-rst">
 <h2>README.rst<a class="headerlink" href="#readme-rst" title="Permalink to this headline">¶</a></h2>
+<p>In the directory that containes the report, please include the
+following README.rst file. Without this file we will not review your document:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Title</span><span class="p">:</span> <span class="n">The</span> <span class="n">title</span> <span class="n">of</span> <span class="n">your</span> <span class="n">paper</span> <span class="p">(</span><span class="n">one</span> <span class="n">line</span><span class="p">)</span>
 
 <span class="n">Author</span><span class="p">:</span> <span class="n">The</span> <span class="n">author</span> <span class="n">s</span> <span class="n">of</span> <span class="n">the</span> <span class="n">paper</span> <span class="p">(</span><span class="n">one</span> <span class="n">line</span><span class="p">)</span>
@@ -638,14 +635,14 @@ example project that we introduced you to?</li>
 
 <span class="n">PID</span><span class="p">:</span> <span class="n">The</span> <span class="n">PID</span> <span class="n">of</span> <span class="n">the</span> <span class="n">paper</span> <span class="p">(</span><span class="n">there</span> <span class="n">will</span> <span class="n">be</span> <span class="n">exactly</span> <span class="n">one</span><span class="p">)</span>
 
-<span class="n">e</span><span class="o">-</span><span class="n">mail</span><span class="p">:</span> <span class="n">The</span> <span class="n">e</span><span class="o">-</span><span class="n">mails</span> <span class="n">of</span> <span class="n">the</span> <span class="n">authors</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">order</span> <span class="n">of</span> <span class="n">the</span> <span class="n">author</span> <span class="nb">list</span> <span class="p">(</span><span class="n">one</span> <span class="n">line</span><span class="p">)</span>
+<span class="n">E</span><span class="o">-</span><span class="n">mail</span><span class="p">:</span> <span class="n">The</span> <span class="n">e</span><span class="o">-</span><span class="n">mails</span> <span class="n">of</span> <span class="n">the</span> <span class="n">authors</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">order</span> <span class="n">of</span> <span class="n">the</span> <span class="n">author</span> <span class="nb">list</span> <span class="p">(</span><span class="n">one</span> <span class="n">line</span><span class="p">)</span>
 
-<span class="nb">format</span><span class="p">:</span> <span class="n">latex</span> <span class="ow">or</span> <span class="n">word</span> <span class="p">(</span><span class="n">specify</span> <span class="n">one</span><span class="p">)</span>
+<span class="n">Format</span><span class="p">:</span> <span class="n">latex</span> <span class="ow">or</span> <span class="n">word</span> <span class="p">(</span><span class="n">specify</span> <span class="n">one</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Please note that all information has an empty line between them and
 all information is stored in one line</p>
-<p>This information is used to autogenerate the Class proceedings.</p>
+<p>This information is used to autogenerate the class proceedings.</p>
 </div>
 <div class="section" id="exercise">
 <h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>

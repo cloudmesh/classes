@@ -1,14 +1,6 @@
 **Syllabus**
 
-
-.. warning:: This Syllabus will be modified. A final Syllabus will be
-             available at the beginning of class. The class will be
-   	     enhanced with SIGNIFICANT programming activities. However
-	     an option of taking the class without programming is
-	     available, but the maximum grade is limited to an A- in
-	     that case.
-
-
+.. warning:: This Syllabus will be updated throughout the semester.
 
 .. contents::
    :local:
@@ -29,25 +21,36 @@ Introduction
 This section has a technical overview of course followed by a broad
 motivation for course.
 
-The course overview covers it's content and structure. It presents the
-X-Informatics fields (defined values of X) and the Rallying cry of
-course: Use Clouds running Data Analytics Collaboratively processing
-Big Data to solve problems in X-Informatics ( or e-X). The courses is
-set up as a MOOC divided into units that vary in length but are
-typically around an hour and those are further subdivided into 5-15
-minute lessons.
+The course overview covers it's content and structure. It presents an
+introduction to general field of Big Data and Analytics. We are
+especially analysing the many different application areas in which Big
+Data can be applied. As Big Datais typically not just used in
+isolation but is part of a larger Informatics issue for a particular
+field we also use the term X-Informatics, where X defines a usecase or
+area of specialization in which Big Data is applied to. As such we
+organize the class around the the *Rallying Cry* of course: Use Clouds
+running Data Analytics Collaboratively processing Big Data to solve
+problems in X-Informatics.
+
+The courses is set up as a number of lessons that are typically
+between 20 minutes to an hour. The lessons are either provided as
+written documents or as video lectures. They are enhanced by an in
+person meeting that takes place either in a lecture room for
+residential students or as online meeting for online students. 
 
 The course covers a mix of applications (the X in X-Informatics) and
 technologies needed to support the field electronically i.e. to
 process the application data. The overview ends with a discussion of
-course content at highest level. The course starts with a longish
-Motivation unit summarizing clouds and data science, then units
-describing applications (X = Physics, e-Commerce, Web Search and Text
+course content at highest level. The course starts with a motivation
+summarizing clouds and data science, then units describing
+applications in areas such as Physics, e-Commerce, Web Search and Text
 mining, Health, Sensors and Remote Sensing). These are interspersed
 with discussions of infrastructure (clouds) and data analytics
 (algorithms like clustering and collaborative filtering used in
-applications). The course uses either Python or Java and there are
-Side MOOCs discussing Python and Java tracks.
+applications). The course uses Python as primary programming language.
+We will be introducing practical use of cloud resources so that you
+have the oportunity to explore example analytics applications on
+smaller data sets that you define.
 
 The course motivation starts with striking examples of the data deluge
 with examples from research, business and the consumer. The growing
@@ -58,8 +61,7 @@ of scientific research are described with growing importance of data
 oriented version.He covers 3 major X-informatics areas: Physics,
 e-Commerce and Web Search followed by a broad discussion of cloud
 applications. Parallel computing in general and particular features of
-MapReduce are described. He comments on a data science education and
-the benefits of using MOOC's.
+MapReduce are described. 
 
 
 
@@ -70,26 +72,14 @@ We provide a short introduction to the course covering it's
 content and structure. It presents the X-Informatics fields (defined
 values of X) and the Rallying cry of course: Use Clouds running Data
 Analytics Collaboratively processing Big Data to solve problems in
-X-Informatics ( or e-X). The courses is set up as a MOOC divided into
-units that vary in length but are typically around an hour and those
-are further subdivided into 5-15 minute lessons. It follows
-discussion of mechanics of course with a list of all the units
-offered.
+X-Informatics (or e-X). 
 
-Video: https://youtu.be/CRYz3iTJxRQ
+Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
 
-VIdeo with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
+Overall Introduction  Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
 
-
-Overall Introduction
-""""""""""""""""""""
-
-This course gives an overview of big data from a use case
-(application) point of view noting that big data in field X drives the
-concept of X-Informatics. It covers applications, algorithms and
-infrastructure/technology (cloud computing). We are providing a short
-overview of the Syllabus
-
+Overview of Topics
+^^^^^^^^^^^^^^^^^^
 
 Video: https://youtu.be/Gpivfx4v5eY
 

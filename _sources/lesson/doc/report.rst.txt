@@ -6,15 +6,15 @@ Report Format
 Although we provide **trivial** but detailed report format
 requirements, we observed over the years that some students still
 asked us can I make my report shorter, or can i use a different format?
-The answer to these question is **no**. Furthermore, we observed that
+The answer to these questions is **no**. Furthermore, we observed that
 the same students than went ahead and played with the formating and
-introduced empty lines, increased tables or figures, or worse the
+introduced empty lines, increased tables or figures, or worse modified the
 fontsize to circumvent the page limit requirement.
 
 Thus we have adopted a much simpler approach that is easy to summarize
 
 1. We provide you with a **high quality** report template format that you
-   must not change used by millions of researchers.
+   must not change and is used by millions of researchers.
 2. All references must be managed with jabref as reference management tool and
    must be provided in addition to the document.
 3. If your document does not follow the format or we find that you
@@ -27,42 +27,40 @@ Thus we have adopted a much simpler approach that is easy to summarize
 
 The template for the report is available from:
 
-*
-https://github.com/cloudmesh/classes/tree/master/docs/source/format/report
+* https://github.com/cloudmesh/classes/tree/master/docs/source/format/report
 
 Convenient compressed files are available at
-*
-https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.tar.gz
-*
-https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.zip
+
+* https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.tar.gz
+* https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.zip
 
 
-YOu have two choices. A good one and a bad one.
+You have two choices. A good one and a bad one.
 
 The good choice is to use the LaTeX template and write your document
 in LaTeX. The bad one is to use the Word template and write the
-document in Word.
-
-Both templates are included in our git.
+document in Word. Both templates are included in our git repository.
 
 .. warning: Over the years, we have not yet found **ANY** student that
    has written a better report in Word than students that use
-   LaTeX. THis is based on teh fact that students useing LaTeX focus
+   LaTeX. This is based on the fact that students useing LaTeX focus
    on writing content and students using Word focus on making their
-   reports pretty and focus less on content.
+   reports pretty and focus less on content. We also found that
+   including images into papers in Word is inferior to the mechanisms
+   that LaTeX provides.
 
 Hence, it is in your best interest to use LaTeX. The good news is that
-we have made it simple for you to use and you are allowed to use
+we have made it simple for you to use it. Furthermore, you are allowed to use
 online services. An example report in PDF format is available:
 
 * `report.pdf <https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/latex/report.pdf>`_
   
-It includes some very simple `Makefile
-<https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/Makefile>`_
-and allows you to do editing with immediate preview as documented in
+We provide a very simple `Makefile
+<https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/latex/Makefile>`_
+that allows you to do editing with immediate preview as documented in
 the LaTeX lesson.  Due to LaTeX being a **trivial** ASCII based format
 and having a superior bibliography management you will save yourself
-many hours of work that you encounter with Word. We got feedback from
+many hours of work that you will face while fighting with Word. We got feedback from
 those that tried it and they thanked us later.  Furthermore, in case
 you are in a team, you can use either git while collaboratively
 developing the LaTeX document, use sharelatex, or overleaf.
@@ -78,9 +76,9 @@ However, we allow you to use word under the following conditions:
    twice. This is so that your document could be converted to LaTeX in
    case we think it suitable for publication in a conference or
    workshop.
-3. You do not modify the theme
+3. You do not modify the theme.
 4. All images and tables are placed at the end of the paper.
-5. Git wil be used to submit all documents.
+5. Git wil be used to submit all documents with regular updates.
    
 For LaTeX you will encounter a much more smooth experience.
 
@@ -108,22 +106,17 @@ template and include your final documents in git with a Makefile that
 can recreate the document. It is in your responsibility that this
 works. We will regenerate the document from source before we grade
 it. Thus it is not sufficient to just check in the final PDF. 
+The report must be spell checked.
 
-.. warning:: There will be **NO EXCEPTION** to this.
-
+.. warning:: There will be **NO EXCEPTION** to this. We will not
+             review your report if its submission is incomplete.
 
              
-For smooth development of reports we we recommend you get familiar
-with LaTeX. Reports that do not follow the specified format and
-are not accompanied by references managed with jabref and are not
-spell checked will be returned without review. As we have observed
-that **ALL** students that used MSWord in previous classes delivered
-inferior reports we highly recommend to use LaTeX.
   
 Report Checklist
 ----------------
 
-This incomplete list may serve as a way to check if you follow the rules
+This partiald list may serve as a way to check if you follow the rules
 
 #. Have you written the report in the specified format?
 #. Have you included an acknowledgement section?
@@ -165,10 +158,13 @@ This incomplete list may serve as a way to check if you follow the rules
 #. Is in your report directory a README.rst file in it as shown in the
    example project that we introduced you to?
 
+If you observe something missing let us know.
+
 README.rst
 ----------
 
-::
+In the directory that containes the report, please include the
+following README.rst file. Without this file we will not review your document::
 
    Title: The title of your paper (one line)
 
@@ -178,19 +174,14 @@ README.rst
 
    PID: The PID of the paper (there will be exactly one)
 
-   e-mail: The e-mails of the authors in the order of the author list (one line)
+   E-mail: The e-mails of the authors in the order of the author list (one line)
 
-   format: latex or word (specify one)
+   Format: latex or word (specify one)
    
 Please note that all information has an empty line between them and
 all information is stored in one line
 
-This information is used to autogenerate the Class proceedings.
-
-.. warning: As a final word of warning. We do not recommend you use
-   Word. We do recommend you us LaTeX. Ultimately you will safe
-   yourself many hours of work.
-
+This information is used to autogenerate the class proceedings.
 
 
 

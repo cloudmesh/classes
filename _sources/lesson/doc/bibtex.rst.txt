@@ -651,3 +651,30 @@ As a result we obtain the entry::
     pages = {296},
     url = {http://www.ebook.de/de/product/21687528/norman_maurer_netty_in_action.html},
   }
+
+Bibtex import to MSWord
+------------------------
+
+XML import
+^^^^^^^^^^
+
+Plaease respond back to us if you have used this and give feedback.
+
+1. In JabRef, export the bibliography in MS Word 2008 xml format
+2. Name the file Sources.xml (case sensitive)
+3. In OSX with MS Word 2015: Go to ~/Library/Containers/com.microsoft.word/Data/Library/Application Support/Microsoft/Office.
+4. Rename the original Sources.xml file to Sources.xml.bak
+5. Copy the generated Sources.xml in this folder
+6. Restart MS Word.
+
+We do not know what needs to be done in case you need to make changes
+to the refernces. Please report back your experiences. To avoid issues
+we recommend that you use LaTeX. and not MSWord.
+
+
+BibTex4Word
+^^^^^^^^^^^
+
+We have not tried this:
+
+* http://www.ee.ic.ac.uk/hp/staff/dmb/perl/index.html
