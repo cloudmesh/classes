@@ -1,25 +1,29 @@
 
-pyenv
-=====
+Managing Multiple Python Versions with Pyenv
+============================================
 
-pyenv allows users to switch between multiple versions of Python
-[https://github.com/yyuu/pyenv].
-
-pyenv allows:
+Python has several versions that are used by the community. This
+inlcudes Python 2 and Python 3, but alls different management of the
+python libraries. As each OS may have their own version of python
+installed. It is not recommended that you modify that version. Instead
+you may want to create a localized python instalation that you as a
+user can modify. To do that we recommend *pyenv*. Pyenv allows users
+to switch between multiple versions of Python
+(https://github.com/yyuu/pyenv). To summarize:
 
 * users to  change the global Python version on a per-user basis;
 * users to enable support for per-project Python versions;
 * easy version changes without complex environment variable
   management;
 * to search installed commands accross different python versions;
-* integrate with tox [https://tox.readthedocs.io/en/latest/].
+* integrate with tox (https://tox.readthedocs.io/).
 
 Install pyenv on OSX
 --------------------
 
 We describe here a mechanism of installing pyenv with homebrew. Other
 mechanisms can be found on the pyenv documentation page
-[https://github.com/yyuu/pyenv-installer]. First, make sure you have
+(https://github.com/yyuu/pyenv-installer). First, make sure you have
 xcode installed::
   
    $ xcode-select --install
@@ -33,12 +37,33 @@ some compression tools::
    brew install pyenv pyenv-virtualenv pyenv-virtualenvwrapper
    brew install readline xz
 
+Install pyenv on Ubuntu
+-----------------------
 
-Python Versions
----------------
-In order to use pyenv, you need to have more than one python version
-installed. We recommend you download and install python 2.7.13
-and 3.6 from python.org [https://www.python.org/downloads/]
+.. warning:: the instalation on ubuntu is not tested and we are
+             looking fro feedback
+             
+::
+
+   sudo apt-get update
+   sudo apt-get install git python-pip make build-essential libssl-dev
+   sudo apt-get install zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev
+   sudo pip install virtualenvwrapper
+
+   git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+   git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
+
+   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+   echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+   echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+   echo 'pyenv virtualenvwrapper' >> ~/.bashrc
+
+
+Instalation without pyenv
+-------------------------
+If you need to have more than one python version
+installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
+and 3.6.1 from python.org (https://www.python.org/downloads/)
 
 Install Different Python Versions
 ---------------------------------
@@ -47,7 +72,7 @@ You can now install different versions of python into your local
 environment with the following commands::
 
    $ pyenv install 2.7.13
-   $ pyenv install 3.6.0
+   $ pyenv install 3.6.1
 
 You can set the global python defualt version with::
 
@@ -61,7 +86,7 @@ Associate a specifc environment name with a certain python version,
 use the following commands::
   
    $ pyenv virtualenv 2.7.13 ENV2
-   $ pyenv virtualenv 3.6.0 ENV3
+   $ pyenv virtualenv 3.6.1 ENV3
 
 In the example above, `ENV2` would represent python 2.7.13 while `ENV3`
 would represent python 3.6.0. Often it is easier to type the alias rather 

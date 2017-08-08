@@ -5,9 +5,6 @@ Introduction to Python
 ======================
 
 
-Acknowledgments
----------------
-
 Portions of this lesson have been adapted from the `official Python
 Tutorial`_ copyright `Python Software Foundation`_.
 
@@ -15,42 +12,32 @@ Tutorial`_ copyright `Python Software Foundation`_.
 .. _Python Software Foundation: http://www.python.org/
 
    
-Description
------------
-
 Python is an easy to learn programming language. It has efficient
 high-level data structures and a simple but effective approach to
 object-oriented programming. Python’s simple syntax and dynamic
 typing, together with its interpreted nature, make it an ideal
 language for scripting and rapid application development in many areas
-on most platforms.
-
-The Python interpreter and the extensive standard library are freely
-available in source or binary form for all major platforms from the
-Python Web site, https://www.python.org/, and may be freely
-distributed. The same site also contains distributions of and pointers
-to many free third party Python modules, programs and tools, and
-additional documentation.
-
-The Python interpreter is easily extended with new functions and data
-types implemented in C or C++ (or other languages callable from
-C). Python is also suitable as an extension language for customizable
-applications.
-
-Philosophy
-----------
+on most platforms. The Python interpreter and the extensive standard
+library are freely available in source or binary form for all major
+platforms from the Python Web site, https://www.python.org/, and may
+be freely distributed. The same site also contains distributions of
+and pointers to many free third party Python modules, programs and
+tools, and additional documentation. The Python interpreter can be
+extended with new functions and data types implemented in C or C++ (or
+other languages callable from C). Python is also suitable as an
+extension language for customizable applications.
 
 Python is an interpreted, dynamic, high-level programming language
-suitable for a wide range of applications. The `The Zen of Python`_
-summarizes some of its philosophy including:
+suitable for a wide range of applications.
+
+
+The philosophy of python is sumamrized in `The Zen of Python`_
+as follows:
 
 * Explicit is better than implicit
 * Simple is better than complex
 * Complex is better than complicated
 * Readability counts
-
-Features
---------
 
 The main features of Python are:
 
@@ -73,7 +60,15 @@ About the Tutorial
 This tutorial introduces the reader informally to the basic concepts
 and features of the Python language and system. It helps to have a
 Python interpreter handy for hands-on experience, but all examples are
-self-contained, so the tutorial can be read off-line as well.
+self-contained, so the tutorial can be read off-line as well. At the
+end of this lesson you will be able to:
+
+- use Python
+- use the interactive Python interface
+- understand the basic syntax of Python
+- write and run Python programs stored in a file
+- have an overview of the standard library
+- install Python libraries using ``pyenv`` or ``virtualenv``
 
 This tutorial does not attempt to be comprehensive and cover every
 single feature, or even every commonly used feature. Instead, it
@@ -85,19 +80,16 @@ modules.
 
 .. _The Zen of Python: https://www.python.org/dev/peps/pep-0020/
 
-Prerequisite
-------------
+In order to conduct this lesson you need
 
-In order to conduct this lesson you should
-
-* A computer with Python 2.7.x (and preferably, virtualenv)
+* A computer with Python 2.7.13 or 3.6.1
 * Familiarity with command line usage
 * A text editor such as `PyCharm
   <https://www.jetbrains.com/pycharm/>`_, emacs, vi or others. You
   should identity which works best for you and set it up.
 
-Dependencies
-------------
+Links
+-----
 
 * `Python <https://www.python.org/>`_
 * `Pip <https://pip.pypa.io/en/stable/>`_
@@ -106,37 +98,28 @@ Dependencies
 * `SciPy <https://scipy.org/>`_
 * `Matplotlib <http://matplotlib.org/>`_
 * `Pandas <http://pandas.pydata.org/>`_
+* `pyenv <https://github.com/pyenv/pyenv>`_
+* `PyCharm <https://github.com/pyenv/pyenv>`_
 
-Aditional Information
----------------------
-
-Python module of the week is a Web site that provides a number of short examples on how to use some elementary python
-modules. Not all modules are equally useful and you should decide if there are better alternatives. However for beginners
-this site provides a number of good examples
+Python module of the week is a Web site that provides a number of
+short examples on how to use some elementary python modules. Not all
+modules are equally useful and you should decide if there are better
+alternatives. However for beginners this site provides a number of
+good examples
 
 * Python 2: https://pymotw.com/2/
 * Python 3: https://pymotw.com/3/
 
-Learning Goals
---------------
 
-At the end of this lesson you will be able to:
-
-- use Python
-- use the interactive Python interface
-- understand the basic syntax of Python
-- write and run Python programs stored in a file
-- have an overview of the standard library
-- install Python libraries using ``virtualenv``
 
 Python Installation
 -------------------
 
 Python is easy to install and very good instructions for most
 platforms can be found on the python.org Web page. We will be using
-Python 2.7.13 and not Python 3.
+Python 2.7.13 and/or Python 3 in our activities.
 
-In addition to Python, it is useful to have `pip
+To manage python modules, it is useful to have `pip
 <https://pypi.python.org/pypi/pip>`_ package installation tool on your
 system.
 
@@ -145,15 +128,239 @@ installed.  However, we also recommend that for the class you use
 Python's virtualenv (see below) to isolate your development Python
 from the system installed Python.
 
-.. _virtualenv_:
 
-virtualenv
-----------
+Managing custom Python installs
+-------------------------------
+
 
 Often you have your own computer and you do not like to change its
 environment to keep it in pristine condition. Python comes with mnay
 libraries that could for example conflict with libraries that you have
-installed. To avoid this it is bets to work in an isolated python
+installed. To avoid this it is bets to work in an isolated python we
+can use tools such as virtualenv, pyenv or pyvenv for 3.6.1. Which you
+use depends on you, but we highly recommend pyenv if you can.
+
+
+
+Managing Multiple Python Versions with Pyenv
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Python has several versions that are used by the community. This
+inlcudes Python 2 and Python 3, but alls different management of the
+python libraries. As each OS may have their own version of python
+installed. It is not recommended that you modify that version. Instead
+you may want to create a localized python instalation that you as a
+user can modify. To do that we recommend *pyenv*. Pyenv allows users
+to switch between multiple versions of Python
+(https://github.com/yyuu/pyenv). To summarize:
+
+* users to  change the global Python version on a per-user basis;
+* users to enable support for per-project Python versions;
+* easy version changes without complex environment variable
+  management;
+* to search installed commands accross different python versions;
+* integrate with tox (https://tox.readthedocs.io/).
+
+Instalation without pyenv
+"""""""""""""""""""""""""
+If you need to have more than one python version
+installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
+and 3.6.1 from python.org (https://www.python.org/downloads/)
+  
+Install pyenv on OSX
+""""""""""""""""""""
+
+We describe here a mechanism of installing pyenv with homebrew. Other
+mechanisms can be found on the pyenv documentation page
+(https://github.com/yyuu/pyenv-installer). First, make sure you have
+xcode installed::
+  
+   $ xcode-select --install
+
+Next install homebrew, pyenv, pyenv-virtualenv and
+pyenv-virtualwrapper. Additionally install readline and
+some compression tools::
+
+   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   brew update
+   brew install pyenv pyenv-virtualenv pyenv-virtualenvwrapper
+   brew install readline xz
+
+Install pyenv on Ubuntu
+"""""""""""""""""""""""
+
+.. warning:: the instalation on ubuntu is not tested and we are
+             looking fro feedback
+             
+::
+
+   sudo apt-get update
+   sudo apt-get install git python-pip make build-essential libssl-dev
+   sudo apt-get install zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev
+   sudo pip install virtualenvwrapper
+
+   git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+   git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
+
+   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+   echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+   echo 'eval $(pyenv init -)"' >> ~/.bashrc
+   echo 'pyenv virtualenvwrapper' >> ~/.bashrc
+
+
+   
+
+
+Install Different Python Versions
+"""""""""""""""""""""""""""""""""
+
+You can now install different versions of python into your local
+environment with the following commands::
+
+   $ pyenv install 2.7.13
+   $ pyenv install 3.6.1
+
+You can set the global python defualt version with::
+
+   $ pyenv global 2.7.13
+
+Type the following to determine which versions you have available::
+
+   $ pyenv version
+
+Associate a specifc environment name with a certain python version,
+use the following commands::
+  
+   $ pyenv virtualenv 2.7.13 ENV2
+   $ pyenv virtualenv 3.6.1 ENV3
+
+In the example above, `ENV2` would represent python 2.7.13 while `ENV3`
+would represent python 3.6.0. Often it is easier to type the alias rather 
+than the explicit version.
+   
+Set up the Shell
+""""""""""""""""
+
+To make all work smoothly from your terminal, you can 
+include the follwowing in your .bashrc files::
+
+   export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+   eval "$(pyenv init -)"
+   eval "$(pyenv virtualenv-init -)"
+
+   __pyenv_version_ps1() {
+     local ret=$?;
+     output=$(pyenv version-name)
+     if [[ ! -z $output ]]; then
+       echo -n "($output)"
+     fi
+     return $ret;
+   }
+
+   PS1="\$(__pyenv_version_ps1) ${PS1}"
+
+We recommend that you do this towards the end of your file.   
+   
+Switching Environments
+""""""""""""""""""""""
+
+After setting up the different environments, switching between them is now easy.
+Simply use the following commands::
+
+  
+  (2.7.13) laptop~ gregor$ pyenv activate ENV2
+  (ENV2) laptop~ gregor$ pyenv activate ENV3
+  (ENV3) laptop~ gregor$ pyenv activate ENV2
+  (ENV2) laptop~ gregor$ pyenv deactivate ENV2
+  (2.7.13) laptop~ gregor$ 
+
+To make it even easier, you can add the following lines to your `.bash_provild`
+file::
+
+  alias ENV2="pyenv activate ENV2"
+  alias ENV3="pyenv activate ENV3"
+
+If you start a new terminal, you can switch between the different
+versions of python simply by typing::
+
+  $ ENV2
+  $ ENV3
+
+Try it out.
+
+Make sure pip is up to date
+"""""""""""""""""""""""""""
+
+As you will want to install other packages, make sure pip is up to
+date::
+
+   pip install pip -U
+
+
+Anaconda
+""""""""
+
+.. warning:: We do not recommend that you use anaconda as it may
+	     interfere with your default python interpreters and
+	     setup.
+
+.. warning:: This section about anaconda is experimental and has not
+             been tested.
+
+
+You can add anaconda to your pyenv with the following commands::
+
+   pyenv install anaconda2-4.3.1
+   pyenv install anaconda3-4.3.1
+
+Here we install both the version 2 and version 3 python environments
+from anavconda. Please be aware that the install may tacke several
+minutes. Make sure to install the latest release which you can find
+out if you leave of the version after the 2 or 3.
+   
+When executing::
+
+   pyenv versions
+
+you will see after the install completed the anaconda versiosn installed::
+   
+   pyenv versions
+   system
+   2.7.13
+   2.7.13/envs/ENV2
+   3.6.1
+   3.6.1/envs/ENV3
+*  ENV2 (set by PYENV_VERSION environment variable)
+   ENV3
+   anaconda2-4.3.1
+   anaconda3-4.3.1
+
+Let us now create virtualenv for anaconda::
+
+   $ pyenv virtualenv anaconda2-4.3.1 ANA2
+   $ pyenv virtualenv anaconda3-4.3.1 ANA3
+
+   
+   
+Excersise
+"""""""""
+
+pyenv.1:
+   Write installation instructions for an operating system of your choice
+   and add to this documentation.
+
+pyenv.2:
+   Replicate the steps above, so you can type in ENV2 and ENV3 in your
+   terminals to switch between python 2 and 3.
+   
+
+   
+
+.. _virtualenv_:
+
+virtualenv
+^^^^^^^^^^
+
 environment while using virtualenv,. Documentation about it can be
 found at::
 
@@ -215,8 +422,8 @@ This interactive prompt does the following:
 This is why you may see the interactive loop referred to as a
 **REPL**: **R**\ead-**E**\valuate-**P**\rint-**L**\oop.
 
-Python 3 Features
---------------------
+Python 3 Features in Python 2
+-----------------------------
 
 As mentioned earlier, we assume you will use Python 2.7.X because
 there are still some libraries that haven't been ported to
@@ -1044,11 +1251,17 @@ the `Python Package Index`_ (or PyPi for short).
 
 Our task here is to install the `autopep8`_ tool from PyPi.  This will
 allow us to illustrate the use if virtual environments using the
-``virtualenv`` command, and installing and uninstalling PyPi packages
-using ``pip``.
+``pyenv`` or ``virtualenv`` command, and installing and uninstalling
+PyPi packages using ``pip``.
 
 Using pip to Install Packages
 -----------------------------
+
+Let's now look at another important tool for Python development: the
+Python Package Index, or PyPI for short.  PyPI provides a large set of
+third-party python packages.  If you want to do something in python,
+first check pypi, as odd are someone already ran into the problem and
+created a package solving it.
 
 In order to install package from PyPI, use the ``pip`` command.
 We can search for PyPI for packages::
@@ -1063,130 +1276,23 @@ This will cause ``pip`` to download the packages from PyPI, extract
 them, check their dependencies and install those as needed, then
 install the requested packages.
 
-.. note:: You can skip '--trusted-host pypi.python.org' option if you have a
-          patch on urllib3 on Python 2.7.9.
+.. note:: You can skip '--trusted-host pypi.python.org' option if you have
+          patched urllib3 on Python 2.7.9.
 
 
 .. _Virtual_Environments:
 
-Virtual Environments
---------------------
-
-Often when you use shared computing resources, such as
-``india.futuresystems.org`` you will not have permission to install
-applications in the default global location.
-
-Let's see where ``grep`` is located::
-
-  $ which grep
-  /bin/grep
-
-It seems that there are many programs installed in ``/bin`` such as
-``mkdir`` and ``pwd``::
-
-  $ ls /bin
-  alsacard    dbus-cleanup-sockets  env             hostname         mailx          pwd
-  alsaunmute  dbus-daemon           ex              igawk            mkdir          raw
-  ...
-
-If we wished to add a new program it seems like putting it in ``/bin``
-is the place to start.  Let's create an empty file
-``/bin/hello-$PORTALNAME``::
-
-  $ touch /bin/hello-$(whoami)
-  touch: cannot touch `/bin/hello-albert': Permission denied
+Foramtting and Checking Python Code
+-----------------------------------
 
 
-.. tip::
-
-   Recall that $PORTALNAME is your username on FutureSystems, which
-   can also be obtained using the ``whoami`` shell command.  t seems
-   that this is not possible.  Since ``india`` is a shared resources
-   not all users should be allowed to make changes that could affect
-   everyone else.  Only a small number of users, the administrators,
-   have the ability to globally modify the system.
-
-We can still create our program in our home directory::
-
-  $ touch ~/hello-$(whoami)
-
-but this becomes cumbersome very quickly if we have a large number of
-programs to install.  Additionally, it is not a good idea to modify
-the global environment of one's computing system as this can lead to
-instability and bizarre errors.
-
-A virtual environment is a way of encapsulating and automating the
-creation and use of a computing environment that is consistent and
-self-contained.
-
-The tool we use with Python to accomplish this is called ``virtualenv``.
-
-Let's try it out. Start by cleaning up our test earlier and going
-into the home directory::
-
-  $ rm ~/hello-$(whoami)
-  $ cd ~
-
-
-Now lets create a virtual env::
-
-  $ virtualenv ENV
-  PYTHONHOME is set.  You *must* activate the virtualenv before using it
-  New python executable in ENV/bin/python
-  Installing setuptools............done.
-  Installing pip...............done.
-
-
-When using ``virtualenv`` you pass the directory where you which to
-create the virtual environment, in this case ``ENV`` in the current
-(home) directory.  We are then told that we must activate the virtual
-environment before using it and that the python program, setuptools,
-and pip are installed.
-
-Let's see what we have::
-
-  $ ls ENV/bin
-  activate  activate.csh  activate.fish  activate_this.py  easy_install
-  easy_install-2.7  pip  pip-2.7  python  python2  python2.7
-
-It seems that there are several programs installed.  Let's see where
-our current ``python`` is and what happens after activating this
-environment::
-  $ which python
-  /N/soft/python/2.7/bin/python
-  $ source ENV/bin/activate
-  (ENV) $ which python
-  ~/ENV/bin/python
-
-.. important::
-
-   As virtualenv stated, you **must** activate the virtual environment
-   before it can be used.
-
-.. tip::
-
-   Notice how the shell prompt changed upon activation.
-
-Fixing Bad Code
----------------
-
-Let's now look at another important tool for Python development: the
-Python Package Index, or PyPI for short.  PyPI provides a large set of
-third-party python packages.  If you want to do something in python,
-first check pypi, as odd are someone already ran into the problem and
-created a package solving it.
-
-I'm going to demonstrate creating a user python environment,
-installing a couple packages from pypi, and use them to examine some
-code.
-
-First, get the bad code like so::
+First, get the bad code::
 
   $ wget --no-check-certificate http://git.io/pXqb -O bad_code_example.py
 
-Let's examine the code::
+Examine the code::
 
-  $ nano bad_code_example.py
+  $ emacs bad_code_example.py
 
 As you can see, this is very dense and hard to read.  Cleaning it up
 by hand would be a time-consuming and error-prone process.  Luckily,
@@ -1201,8 +1307,7 @@ problems::
 
   $ autopep8 bad_code_example.py >code_example_autopep8.py
 
-Let's look at the result.
-This is considerably better than before.
+Let us look at the result.  This is considerably better than before.
 It is easy to tell what the example1 and example2 functions are doing.
 
 It is a good idea to develop a habit of using ``autopep8`` in your
@@ -1214,6 +1319,9 @@ flag::
   $ autopep8 -i file.py # update in place
 
 .. _Python Package Index: https://pypi.python.org/pypi
+
+If you use pyCharm you have the ability to use a similar function
+while p;ressing on ``Inspect Code``. 
 
 Further Learning
 ----------------
@@ -1231,13 +1339,11 @@ There is much more to python than what we have covered here:
 - docopts
 - humanize
 
-.. note:: you can receive extra credit if you contribute such a
-	  section of your choice addressing the above topics
-
 Writing Python 3 Compatible Code
 --------------------------------
 
-see: http://python-future.org/compatible_idioms.html
+To write python 2 and 3 compatib;e code we recommend that you take a
+look at: http://python-future.org/compatible_idioms.html
 
 Using Python on FutureSystems
 -----------------------------
@@ -1258,35 +1364,6 @@ you.
    The details of what the ``module load`` command does are described
    in the future lesson :doc:`modules`.
    
-Exercises
----------
-
-.. _lab-python-1:
-
-Lab - Python - FizzBuzz
-^^^^^^^^^^^^^^^^^^^^^^^
-
-Write a python program called fizzbuzz.py that accepts an integer n
-from the command line.  Pass this integer to a function called
-fizzbuzz.
-
-The fizzbuzz function should then iterate from 1 to n.  If the ith
-number is a multiple of three, print "fizz", if a multiple of 5 print
-"buzz", if a multiple of both print "fizzbuzz", else print the value.
-
-
-.. _lab-python-2:
-
-Lab - Python - Setup for FutureSystems
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-#. Create a virtualenv ``~/ENV``
-#. Modify your ``~/.bashrc`` shell file to activate your environment
-   upon login.
-#. Install the ``docopt`` python package using ``pip``
-#. Write a program that uses ``docopt`` to define a commandline
-   program. Hint: modify the FizzBuzz program.
-#. Demonstrate the program works and submit the code and output.
 
 Ecosystem
 ---------
@@ -1462,16 +1539,9 @@ bonus projects such as
 * deploy run and document cloudmesh on ironpython
 * other documentation that would be useful
 
-Useful Ecosystem Links
------------------------------------------------
-
-* https://virtualenvwrapper.readthedocs.io
-* https://github.com/yyuu/pyenv
-* https://amaral.northwestern.edu/resources/guides/pyenv-tutorial
-* https://godjango.com/96-django-and-python-3-how-to-setup-pyenv-for-multiple-pythons/
-* https://www.accelebrate.com/blog/the-many-faces-of-python-and-how-to-manage-them/
-
 .. _python-resources:
+
+
 
 Resources
 ---------
@@ -1483,6 +1553,11 @@ options include `Tutorials Point`_ or `Code Academy`_, and the Python wiki page
 contains a long list of `references for learning`_ as well.
 Additional resources include:
 
+* https://virtualenvwrapper.readthedocs.io
+* https://github.com/yyuu/pyenv
+* https://amaral.northwestern.edu/resources/guides/pyenv-tutorial
+* https://godjango.com/96-django-and-python-3-how-to-setup-pyenv-for-multiple-pythons/
+* https://www.accelebrate.com/blog/the-many-faces-of-python-and-how-to-manage-them/
 * http://ivory.idyll.org/articles/advanced-swc/
 * http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
 * http://www.youtube.com/watch?v=0vJJlVBVTFg
@@ -1512,3 +1587,35 @@ otherwise stated.
 .. _Tutorials Point: http://www.tutorialspoint.com/python/
 .. _references for learning: https://wiki.python.org/moin/BeginnersGuide/Programmers
 .. _Learn Python: https://www.learnpython.org
+
+
+.. _lab-python-1:
+.. _lab-python-2:
+
+Exercises
+---------
+
+
+
+Python.1:
+    Write a python program called `iterate.py` that
+    accepts an integer n from the command line.  Pass this integer to
+    a function called `itterate`.
+
+    The `iterate` function should then iterate from 1 to n.  If the
+    ith number is a multiple of three, print "multiple of 3", if a
+    multiple of 5 print "multiple of 5", if a multiple of both print
+    "multiple of 3 and 5", else print the value.
+
+
+Python.2:
+    Setup for FutureSystems
+
+
+    #. Create a virtualenv ``~/ENV``
+    #. Modify your ``~/.bashrc`` shell file to activate your environment
+       upon login.
+    #. Install the ``docopt`` python package using ``pip``
+    #. Write a program that uses ``docopt`` to define a commandline
+       program. Hint: modify the FizzBuzz program.
+    #. Demonstrate the program works and submit the code and output.

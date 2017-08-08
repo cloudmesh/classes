@@ -10,9 +10,12 @@ And press the fork icon. Now you can clone or directly manipulate your
 fork from the web browser. If you clone, you need to make sure you
 clone from your fork.
 
+We assume you use Python 3.6.1
+
 Next, you can cd to the `classes` directory and make the
 modifications. Check them locally with::
 
+  pip install -r requirements.txt
   make html 
   make view
 
@@ -41,3 +44,9 @@ Contrib.2:
    contribution can be added. Work with others that review your
    section before submitting so we make sure no one else is working on
    this already. If they do we bring you in contact with them.
+
+Contrib.3:
+   How do you clone from your fork? What is the difference betweem
+   your fork and the main repository? How do you identify it is your
+   fork you clone from?
+   
