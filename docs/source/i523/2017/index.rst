@@ -4,20 +4,19 @@ I523 Big Data Applications and Analytics (2017)
 ===============================================
 
 
-
 .. warning:: This material will be modified and updated on a weekly
              bases througought the semester. Some unit and section
              numbers in the presentations may not correspond to our
              outline here as we have restructured the material.
 
 .. note:: This class has a significant amount of programming
-          assignments. However, an option of taking the class without
-          programming **term project** is available. This however does
-          not mean that you can skip the programming
-          assignments. Those electing doing the programming
-          project need to write a high quality **academic term paper**.  The
-          maximum grade of those conducting the academic paper option
-          is an A-. 
+          assignments. One of the assignments is going to be a **term
+          project** that requires programming. However it is possible
+          to substitue the term project with an **academic term
+          paper** that does not require programming. This however does
+          not mean that you can skip the other programming
+          assignments. Those electing doing the term paper can receive
+          a maximum grade of an A- for the class.
 
 .. note:: This class will not have any bonus projects as we want that
           you focus on the class assignments and make them truly outstanding.
@@ -39,29 +38,25 @@ Content
 
 .. toctree::
    :caption: Course I523 Fall 2017
-   :maxdepth: 4
+   :maxdepth: 2
    :numbered:              
 
    class
-
-
-Syllabus
---------
+   writing
+   code
+   python
+   iot
+   
+Additional Content
+------------------
 
 * Introduction
 * Motivation for the course
 * Overview of Data Science and Big Data
-* Collaboration Tools
-
-  * Piazza
-  * Gitlab
 
 * Writing Research Papers/Project Reports
 
 * Python
-
-  * Introduction to Python
-  * Introduction to Python for IOT
   * Introduction to Python for Big Data
   * Introduction to Visualization in Python
   * Python Programming Assignments

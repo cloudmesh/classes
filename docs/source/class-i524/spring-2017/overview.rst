@@ -3,8 +3,11 @@
 Overview
 ========
 
- http://datascience.scholargrid.org
- 
+.. comment:
+
+   http://datascience.scholargrid.org
+
+
 * slides and videos:
   https://iu.app.box.com/s/pes3skivaj77lgdfb5g02g5vna1ehew5
 
@@ -39,8 +42,6 @@ this page weekly for changes.
 Meeting Times
 -------------
 
-.. todo:: Fix the meeting times
-
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place at the
 following time:
@@ -52,8 +53,6 @@ For the 100% online students see the office hours.
 
 Office Hours
 ------------
-
-.. todo:: Fix the office hours
 
 Office hours will be held every week
 
@@ -100,8 +99,6 @@ Discussions and communication
 Online discussions and communication will be conducted in piazza at
 the following URL:
 
-.. todo:: fix piazza link
-
 https://piazza.com/iu/fall2016/infoi523/home
 
 Discussions are conducted in clearly marked folders/topics. For
@@ -118,8 +115,6 @@ either in e-mail or in the discussion lists.
 
 Calendar
 ---------
-
-.. todo:: fix calendar
 
 All sessions refer to Sections, Discussions and Units 
 
@@ -239,8 +234,6 @@ The following sections will be replaced:
 
 * TBD: :ref:`S5`
 
-.. todo:: fix the discussion links
-
 .. _d1: https://piazza.com/class/irqfvh1ctrg2vt?cid=10
 .. _d2: https://piazza.com/class/irqfvh1ctrg2vt?cid=11
 .. _d3: https://piazza.com/class/irqfvh1ctrg2vt?cid=12
@@ -286,8 +279,6 @@ resources you may have access to. This may include:
 
 Term Paper or Project
 ----------------------------------------------------------------------
-
-.. todo:: verify this policy for this class
 
 You have a choice to write a term paper or do a software project. This
 will constitute to **50%** of your class grade.
@@ -357,8 +348,6 @@ Additional links:
 Term Paper
 -----------
 
-.. todo:: fix piazza link
-
 Teams:
     Up to three people. You can use the
     `discussion forum in the folder term-project <https://piazza.com/class/irqfvh1ctrg2vt>`_
@@ -399,9 +388,6 @@ Additional links:
 
 Report Format
 ---------------
-
-.. todo:: THIS SECTION WILL CHNAGE, WE WILL ONLY ACCEPT SHARELATEX, WE
-	  MAY USE SIMPLER FORMAT SUCH AS SPRINGER BOOK 
 
 All reports will be using the ACM proceedings format. The MSWord template
 can be found here:
@@ -582,8 +568,6 @@ plagiarism of such papers or codes.
 Instructors
 ------------
 
-.. todo:: fix instructors and their bio
-
 The course presents lectures in online form given by the instructors
 listed bellow. Many others have helped making this material available
 and may not be listed here.
@@ -750,18 +734,13 @@ Warehousing.
 Links
 ------
 
-.. todo:: fix links
-
 This page is published at the following locations:
 
-* OpenEdX: http://openedx.scholargrid.org/courses/SoIC/INFO-I-523/Fall_2016/about
 * Readthedocs: http://bdaafall2016.readthedocs.io/en/latest/
 * Source: https://gitlab.com/cloudmesh/fall2016
 
 Updates
 -------
-
-.. todo:: fix links
 
 This page is conveniently managed with git. The location for the
 changes can be found at 

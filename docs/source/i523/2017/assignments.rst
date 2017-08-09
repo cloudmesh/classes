@@ -18,3 +18,8 @@ Add yourself to Gitlab
 
 * Gitlab.i523.1
 * Gitlab.i523.2
+
+Learn Python and do
+
+* Python.1
+* CMD5.2

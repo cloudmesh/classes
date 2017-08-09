@@ -15,8 +15,11 @@ ifeq ($(UNAME), CYGWIN_NT-6.3)
 BROWSER=/cygdrive/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
 endif
 
-doc: 
+doc: convert
 	cd docs; make html
+
+convert:
+	cd docs/source; ./convert.py
 
 all: doc pdf
 	echo done

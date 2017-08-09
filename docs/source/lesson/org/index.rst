@@ -1,4 +1,4 @@
-Oragnization
+Organization
 ============
 
 Any course we teach in the department needs some basic knowledge about

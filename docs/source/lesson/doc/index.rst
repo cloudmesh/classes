@@ -12,3 +12,4 @@ Writing Documents
    emacs
    rst
    markdown
+   type
