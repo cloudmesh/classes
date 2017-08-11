@@ -81,7 +81,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">2.4. LaTeX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
@@ -293,7 +293,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">2.4. LaTeX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
@@ -466,34 +466,44 @@
     <div class="col-md-9 content">
       
   <div class="section" id="docker">
-<span id="docker"></span><h1>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h1>
+<h1>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="installing-docker-community-edition">
-<span id="installing-docker-community-edition"></span><h2>Installing Docker Community Edition<a class="headerlink" href="#installing-docker-community-edition" title="Permalink to this headline">¶</a></h2>
+<h2>Installing Docker Community Edition<a class="headerlink" href="#installing-docker-community-edition" title="Permalink to this headline">¶</a></h2>
 <p>To install docker on your computer, please visit the page:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://www.docker.com/community-edition">Docker Community Edition</a></li>
+<li><a class="reference external" href="https://www.docker.com/community-edition">Docker Community
+Edition</a></li>
 </ul>
-<p>Here you will find a variety of packages, one of which will hopefully suitable for your OS. The supported operating systems currently include:</p>
+<p>Here you will find a variety of packages, one of which will hopefully
+suitable for your OS. The supported operating systems currently include:</p>
 <ul class="simple">
 <li>OSX, Windows, Centos, Debian, Fedora, Ubuntu, AWS, Azure</li>
 </ul>
 <p>Please chose the one most suitable for you.</p>
 <div class="section" id="instalation-for-osx">
-<span id="instalation-for-osx"></span><h3>Instalation for OSX<a class="headerlink" href="#instalation-for-osx" title="Permalink to this headline">¶</a></h3>
+<h3>Instalation for OSX<a class="headerlink" href="#instalation-for-osx" title="Permalink to this headline">¶</a></h3>
 <p>The docker community edition for OSX can be found at the following link</p>
 <ul class="simple">
-<li><a class="reference external" href="https://store.docker.com/editions/community/docker-ce-desktop-mac?tab=description">Information for OSX</a></li>
+<li><a class="reference external" href="https://store.docker.com/editions/community/docker-ce-desktop-mac?tab=description">Information for
+OSX</a></li>
 </ul>
 <p>We recommend that at this time you get the</p>
 <ul class="simple">
-<li>[Docker CE for MAC (stable)] (https://download.docker.com/mac/stable/Docker.dmg)</li>
+<li>[Docker CE for MAC (stable)]
+(<a class="reference external" href="https://download.docker.com/mac/stable/Docker.dmg">https://download.docker.com/mac/stable/Docker.dmg</a>)</li>
 </ul>
-<p>This will download a dmg file to your machine, that you than will need to install by double clicking and allowing access to the dmg file. Upon instalation a  <code class="docutils literal"><span class="pre">whale</span></code> in the top status bar shows that Docker is running, and you can acess it via a terminal.</p>
-<p><img alt="image: menu bar" src="https://d1q6f0aelx0por.cloudfront.net/icons/whale-in-menu-bar.png" /></p>
+<p>This will download a dmg file to your machine, that you than will need
+to install by double clicking and allowing access to the dmg file. Upon
+instalation a <code class="docutils literal"><span class="pre">whale</span></code> in the top status bar shows that Docker is
+running, and you can acess it via a terminal.</p>
+<div class="figure" id="id1">
+<img alt="image: menu bar" src="https://d1q6f0aelx0por.cloudfront.net/icons/whale-in-menu-bar.png" />
+<p class="caption"><span class="caption-text">image: menu bar</span></p>
+</div>
 </div>
 </div>
 <div class="section" id="testing-if-the-install-works">
-<span id="testing-if-the-install-works"></span><h2>Testing if the install works<a class="headerlink" href="#testing-if-the-install-works" title="Permalink to this headline">¶</a></h2>
+<h2>Testing if the install works<a class="headerlink" href="#testing-if-the-install-works" title="Permalink to this headline">¶</a></h2>
 <p>To test if it works execute the following commands in a terminal:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ docker version
 </pre></div>
@@ -525,25 +535,25 @@
 <p>Once executed you should see an outout similar to</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>Unable to find image &#39;hello-world:latest&#39; locally
 latest: Pulling from library/hello-world
-78445dd45222: Pull complete 
+78445dd45222: Pull complete
 Digest: sha256:c5515758d4c5e1e838e9cd307f6c6a .....
 Status: Downloaded newer image for hello-world:latest
 
 Hello from Docker!
-This message shows that your installation appears to 
+This message shows that your installation appears to
 be working correctly.
 
 To generate this message, Docker took the following steps:
 1. The Docker client contacted the Docker daemon.
-2. The Docker daemon pulled the &quot;hello-world&quot; image 
+2. The Docker daemon pulled the &quot;hello-world&quot; image
    from the Docker Hub.
-3. The Docker daemon created a new container from that 
-   image which runs the executable that produces the 
+3. The Docker daemon created a new container from that
+   image which runs the executable that produces the
    output you are currently reading.
-4. The Docker daemon streamed that output to the Docker 
+4. The Docker daemon streamed that output to the Docker
    client, which sent it to your terminal.
 
-To try something more ambitious, you can run an Ubuntu container 
+To try something more ambitious, you can run an Ubuntu container
 with:
 
 $ docker run -it ubuntu bash

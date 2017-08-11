@@ -45,7 +45,8 @@ Content
    writing
    code
    python
-
+   iot
+   
 Additional Content
 ------------------
 
@@ -56,9 +57,6 @@ Additional Content
 * Writing Research Papers/Project Reports
 
 * Python
-
-  * Introduction to Python
-  * Introduction to Python for IOT
   * Introduction to Python for Big Data
   * Introduction to Visualization in Python
   * Python Programming Assignments

@@ -4,7 +4,6 @@ Python
 .. toctree::
    :caption: Python
    :maxdepth: 4
-   :numbered:              
 
    ../../lesson/prg/pyenv
    ../../lesson/prg/python   

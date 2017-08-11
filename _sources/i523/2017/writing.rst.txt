@@ -4,7 +4,6 @@ Documenting Research
 .. toctree::
    :caption: Writing up Research
    :maxdepth: 1
-   :numbered:              
 
    ../../lesson/doc/type      
    ../../lesson/doc/latex
