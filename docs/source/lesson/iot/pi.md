@@ -52,17 +52,27 @@ The version of Dexter that you want to flash onto your sd card is called Raspbia
 
 ## Update
 
-	sudo apt-get upgrade
 	sudo apt-get update
+	sudo apt-get upgrade
 	sudo apt-get install emacs
+	dpkg -l > ~/Desktop/packages.list
+	pip freeze > ~/Desktop/pip-freeze-initial.list
 
-	curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
 	
-add to ~/.bash_profile	
+add to .bashrc
+
+	cd
+	git clone git://github.com/yyuu/pyenv.git .pyenv
+	echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+	echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+	echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+	source ~/.bashrc
 	
 	export PATH="/home/pi/.pyenv/bin:$PATH"
 	eval "$(pyenv init -)"
 	eval "$(pyenv virtualenv-init -)"
+	
+	curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
 
 source 
 
@@ -82,7 +92,19 @@ check if they are already installed
 
 ### cloudmesh.pi (Jon)
 
-two ways to install pi and source
+cloudmesh.pi is a repository for our GrovePi module classes. These classes require Dexter software, so you need to either have Raspian for Robots or download the software separately.
+
+If you have Raspian for Robots, run the following in your terminal:
+
+	cd
+	mkdir github
+	cd github
+	git clone https://github.com/cloudmesh/cloudmesh.pi.git
+	cd cloudmesh.pi
+	sudo pip install .
+	
+
+
 
 ### Install VNC
 
