@@ -1,34 +1,31 @@
-
 # Raspberry PI 3
 
-## SD CARD
+
+## Raspbery PI for IOT (Gregor)
+
+## Hardware
+
+see hardware page we have
+
+## Instalation (Jon)
+
+Describe how to install the two different os and list advantages,
+disadvantages ov approach
+
+### Instalation of Dexter (Jon)
+
+### Instalation with NOOBS (Jon)
+
+Prepare SD CARD
 
 1. Download Noobs https://www.raspberrypi.org/downloads/noobs/ Takes >26 min
 2. Format SD card with Disk Utility
    https://www.raspberrypi.org/learning/noobs-install/elcapitan/ MS-DOS (FAT) 
 3. Copy Files, Drag all files from the NOOBS folder onto the sd card
 
+##Configure
 
-## Connecting
-
-Hostnames:
-
-* raspberrypi.local 
-* raspberrypi.
-
-change
-
-recovery.cmdline
-
-
-
-	runinstaller quiet ramdisk_size=32768 root=/dev/ram0 init=/init vt.cur_default=1 elevator=deadline
-	silentinstall runinstaller quiet ramdisk_size=32768 root=/dev/ram0 init=/init vt.cur_default=1 elevator=deadline
-	
-
-Connect the cable
-	
-You will see the activity LEDs flash while the OS installs.  Depending on your SD-Card this can take up to 40-60 minutes.
+### Prepare OS
 
 ## Update
 
@@ -46,6 +43,67 @@ add to ~/.bash_profile
 
 source 
 
+### Update to Python 3.6.1
+
+see how we do this in osx/linux can this be done on raspbery?
+if not document update from source with altinstall
+
+### Install scientific Libraries
+
+check if they are already installed
+
+* numpy
+* matplotlib
+* scipy
+* scikitlearn
+
+### cloudmesh.pi (Jon)
+
+two ways to install pi and source
+
+### Install VNC
+
+describe how to install and configure VNC
+
+
+## Sensors (Jon)
+
+### Grove Sensors (Jon)
+
+we already have draft
+
+### Non Grove Sensors (Jon)
+
+Elegoo as example
+
+
+
+
+## Notes To integrates
+
+
+### Connecting
+
+Hostnames:
+
+* raspberrypi.local 
+* raspberrypi.
+
+change
+
+recovery.cmdline
+
+forgot what these were:
+
+	runinstaller quiet ramdisk_size=32768 root=/dev/ram0 init=/init vt.cur_default=1 elevator=deadline
+	silentinstall runinstaller quiet ramdisk_size=32768 root=/dev/ram0 init=/init vt.cur_default=1 elevator=deadline
+	
+
+Connect the cable
+	
+You will see the activity LEDs flash while the OS installs.  Depending on your SD-Card this can take up to 40-60 minutes.
+
+
 
 ## VLC on OSX
 
@@ -60,14 +118,13 @@ source
 * [https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/](https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/)
 * [https://www.hackster.io/bestd25/pi-car-016e66](https://www.hackster.io/bestd25/pi-car-016e66)
 
-## STreaming video
+## Streaming video
 
 * [https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android](https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android)
 
-# Linux commandline
+## Linux Commandline
 
 * [http://www.computerworld.com/article/2598082/linux/linux-linux-command-line-cheat-sheet.html](http://www.computerworld.com/article/2598082/linux/linux-linux-command-line-cheat-sheet.html)
-
 
 
 ## Enable SPI
@@ -117,8 +174,7 @@ Set the I2C bus speed to 400KHz by adding to /boot/config.txt:
 
     dtparam=i2c1_baudrate=400000
 
-reboot. 
-In terminal change directories to
+reboot. In terminal change directories to
 
 	cd /home/pi/github/RTIMULib2/RTIMULib/IMUDrivers
 	
@@ -147,7 +203,7 @@ In terminal
 	sudo make install
 	sudo ldconfig
 
-## compile RTIMULib Apps
+## Compile RTIMULib Apps
 
 	cd /home/pi/github/RTIMULib2/Linux/RTIMULibCal
 	make clean; make -j4
@@ -213,9 +269,8 @@ comandline has (cv) in front
 	wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.1.0.zip
 	unzip opencv.zip
 	unzip opencv_contrib.zip
-=======
 
-# Lessons and projects
+## Lessons and Projects
 
 * [Gui](https://www.raspberrypi.org/learning/getting-started-with-guis/worksheet/)  
 * [Solder](https://www.raspberrypi.org/learning/getting-started-with-guis/)  

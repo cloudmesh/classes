@@ -21,17 +21,19 @@ I523 Big Data Applications and Analytics (2017)
 .. note:: This class will not have any bonus projects as we want that
           you focus on the class assignments and make them truly outstanding.
 
+
+.. comment:
    
-Class Piazza
-------------
+   Class Piazza
+   ------------
 
-We will be using Piazza for class discussion. The system is highly
-catered to getting you help fast and efficiently from classmates, the
-TA, and myself. Rather than emailing questions to the teaching staff,
-I encourage you to post your questions on Piazza. If you have any
-problems or feedback for the developers, email team@piazza.com.
+   We will be using Piazza for class discussion. The system is highly
+   catered to getting you help fast and efficiently from classmates, the
+   TA, and myself. Rather than emailing questions to the teaching staff,
+   you post your questions on Piazza. If you have any
+   problems or feedback for the developers, email team@piazza.com.
 
-Find our class page at: https://piazza.com/iu/fall2017/i523/home
+   Find our class page at: https://piazza.com/iu/fall2017/i523/home
 
 Content
 -------
