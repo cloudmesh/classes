@@ -52,11 +52,16 @@ The version of Dexter that you want to flash onto your sd card is called Raspbia
 
 ## Update
 
+The following are essential updates:
+
 	sudo apt-get update
 	sudo apt-get upgrade
 	sudo apt-get install emacs
 	dpkg -l > ~/Desktop/packages.list
 	pip freeze > ~/Desktop/pip-freeze-initial.list
+	
+The following are necessary for the scientific libraries, but they require lots of space. Our sd cards do not have enough space for them.
+
 	sudo apt-get install build-essential python-dev python-distlib python-setuptools python-pip python-wheel libzmq-dev libgdal-dev
 	sudo apt-get install xsel xclip libxml2-dev libxslt-dev python-lxml python-h5py python-numexpr python-dateutil python-six python-tz python-bs4 python-html5lib python-openpyxl python-tables python-xlrd python-xlwt cython python-sqlalchemy python-xlsxwriter python-jinja2 python-boto python-gflags python-googleapi python-httplib2 python-zmq libspatialindex-dev
 	sudo pip install bottleneck rtree
@@ -88,14 +93,13 @@ if not document update from source with altinstall
 ### Install scientific Libraries
 
 check if they are already installed
+we don't have enough space to install all of these.
 
-	sudo apt-get install python-numpy python-matplotlib python-mpltoolkits.basemap python-scipy python-sklearn python-statsmodels python-pandas
+	sudo apt-get install python-numpy python-matplotlib python-scipy python-sklearn python-pandas
 
-numpy: 
-
-matplotlib:  
-
-scipy:  
+numpy  
+matplotlib  
+scipy  
 scikitlearn
 
 ### cloudmesh.pi (Jon)
