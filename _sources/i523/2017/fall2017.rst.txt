@@ -1,7 +1,7 @@
 Course Information and Calendar
 ===============================
 
-Warning: Information will change.
+.. warning:: Information will change. Please, revisit frequently.
 
 .. note:: This class ends on Dec 15 and not earlier. Residential
    students are required to attend all Friday classes including those
@@ -9,12 +9,14 @@ Warning: Information will change.
    reduction. We will implement a strict policy. Only for medical
    reasons a class can be missed. The reasoning for this is that
    residential students that did not attend classes regularly tend to
-   do not as well in this class as their colleagues.
+   do not as well in this class as their colleagues. As we want that
+   you achive your best we strongly advise to attend and give with
+   this policy an additional motivating factor.
 
 Notebook
 --------
 
-Students are required to maintain a notebook in github in which they
+Students are required to maintain a *class notebook* in github in which they
 summarize their weekly activities for this course. This includes a
 self maintained list of which lecture material they viewed.
 
