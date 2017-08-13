@@ -33,17 +33,13 @@ program that is installed as part of a command tool called cloudmesh.
 Install Cloudmesh Robot
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-WARNING:
+.. warning:: The following install from pip is not yet working. To install the
+   robot command you simply type::
 
-::
+      $ pip install cloudmesh.robot
 
-    The install from pip is not yet working
-    To install the robot command you simply type::
-
-        $ pip install cloudmesh.robot
-
-    This will install a program `cms` on your computer that allows you to
-    easily communicate with the robot. 
+   This will install a program ``cms`` on your computer that allows you to
+   easily communicate with the robot.
 
 Developers are however encouraged to work with the source code. Thus you
 will need to first obtain it with the following commands:
@@ -385,60 +381,42 @@ The good thing about this board is that you do not need to press any
 buttons as it detects the upload nicely. If not make sure to reset it or
 for flasshing press both buttons. You can do the following:
 
-Probe the board with
-
-::
+Probe the board with::
 
     cms robot probe
 
 Erasing the feather is simple as it has a bild in mechanism to detect if
-it is going to be erased. Hence no reset button needs to be pressed
-
-::
+it is going to be erased. Hence no reset button needs to be pressed::
 
     cms robot flash erase
 
-Get the python image
-
-::
+Get the python image::
 
     cms robot fetch python
 
 Flashing is conducted with 460800 baud, it will take about 15 seconds.
-After flashing you should try to login
-
-::
+After flashing you should try to login::
 
     cms robot login
 
-Set the boudrate to 115200
-
-::
+Set the boudrate to 115200::
 
     CTRL-A CTRL-B>
 
     *** baud: 
 
-type in
-
-::
+type in::
 
     115200 <ENTER>
 
-Make sure that echo is switched to OFF
-
-::
+Make sure that echo is switched to OFF::
 
     CTRL-A CTRL-C
 
-toogles it. Now you should see
-
-::
+toogles it. Now you should see::
 
     >>>
 
-Try typing in
-
-::
+Try typing in::
 
     print("Hello")
