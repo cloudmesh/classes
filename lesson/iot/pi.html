@@ -232,17 +232,42 @@
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">5.4. Raspberry PI 3</a><ul>
-<li><a class="reference internal" href="#sd-card">5.4.1. SD CARD</a></li>
-<li><a class="reference internal" href="#connecting">5.4.2. Connecting</a></li>
-<li><a class="reference internal" href="#update">5.4.3. Update</a></li>
-<li><a class="reference internal" href="#vlc-on-osx">5.4.4. VLC on OSX</a></li>
-<li><a class="reference internal" href="#streaming-video">5.4.5. Streaming video</a></li>
-<li><a class="reference internal" href="#linux-commandline">5.4.6. Linux Commandline</a></li>
-<li><a class="reference internal" href="#enable-spi">5.4.7. Enable SPI</a></li>
-<li><a class="reference internal" href="#rtimulib2">5.4.8. RTIMUlib2</a></li>
-<li><a class="reference internal" href="#compile-rtimulib-apps">5.4.9. Compile RTIMULib Apps</a></li>
-<li><a class="reference internal" href="#camera">5.4.10. Camera</a></li>
-<li><a class="reference internal" href="#lessons-and-projects">5.4.11. Lessons and Projects</a></li>
+<li><a class="reference internal" href="#raspbery-pi-for-iot-gregor">5.4.1. Raspbery PI for IOT (Gregor)</a></li>
+<li><a class="reference internal" href="#hardware">5.4.2. Hardware</a></li>
+<li><a class="reference internal" href="#installation">5.4.3. Installation</a><ul>
+<li><a class="reference internal" href="#erasing-the-sd-card">5.4.3.1. Erasing the SD Card</a></li>
+<li><a class="reference internal" href="#installation-of-noobs">5.4.3.2. Installation of NOOBS</a></li>
+<li><a class="reference internal" href="#installation-of-dexter">5.4.3.3. Installation of Dexter</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#configure">5.4.4. Configure</a><ul>
+<li><a class="reference internal" href="#prepare-os">5.4.4.1. Prepare OS</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#update">5.4.5. Update</a><ul>
+<li><a class="reference internal" href="#update-to-python-3-6-1">5.4.5.1. Update to Python 3.6.1</a></li>
+<li><a class="reference internal" href="#install-scientific-libraries">5.4.5.2. Install scientific Libraries</a></li>
+<li><a class="reference internal" href="#cloudmesh-pi-jon">5.4.5.3. cloudmesh.pi (Jon)</a></li>
+<li><a class="reference internal" href="#install-vnc">5.4.5.4. Install VNC</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sensors-jon">5.4.6. Sensors (Jon)</a><ul>
+<li><a class="reference internal" href="#grove-sensors-jon">5.4.6.1. Grove Sensors (Jon)</a></li>
+<li><a class="reference internal" href="#non-grove-sensors-jon">5.4.6.2. Non Grove Sensors (Jon)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#notes-to-integrates">5.4.7. Notes To integrates</a><ul>
+<li><a class="reference internal" href="#connecting">5.4.7.1. Connecting</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#vlc-on-osx">5.4.8. VLC on OSX</a></li>
+<li><a class="reference internal" href="#streaming-video">5.4.9. Streaming video</a></li>
+<li><a class="reference internal" href="#linux-commandline">5.4.10. Linux Commandline</a></li>
+<li><a class="reference internal" href="#enable-spi">5.4.11. Enable SPI</a></li>
+<li><a class="reference internal" href="#rtimulib2">5.4.12. RTIMUlib2</a></li>
+<li><a class="reference internal" href="#compile-rtimulib-apps">5.4.13. Compile RTIMULib Apps</a></li>
+<li><a class="reference internal" href="#camera">5.4.14. Camera</a></li>
+<li><a class="reference internal" href="#lessons-and-projects">5.4.15. Lessons and Projects</a></li>
 </ul>
 </li>
 </ul>
@@ -439,17 +464,42 @@
 </ul>
 </li><ul>
 <li><a class="reference internal" href="#">5.4. Raspberry PI 3</a><ul>
-<li><a class="reference internal" href="#sd-card">5.4.1. SD CARD</a></li>
-<li><a class="reference internal" href="#connecting">5.4.2. Connecting</a></li>
-<li><a class="reference internal" href="#update">5.4.3. Update</a></li>
-<li><a class="reference internal" href="#vlc-on-osx">5.4.4. VLC on OSX</a></li>
-<li><a class="reference internal" href="#streaming-video">5.4.5. Streaming video</a></li>
-<li><a class="reference internal" href="#linux-commandline">5.4.6. Linux Commandline</a></li>
-<li><a class="reference internal" href="#enable-spi">5.4.7. Enable SPI</a></li>
-<li><a class="reference internal" href="#rtimulib2">5.4.8. RTIMUlib2</a></li>
-<li><a class="reference internal" href="#compile-rtimulib-apps">5.4.9. Compile RTIMULib Apps</a></li>
-<li><a class="reference internal" href="#camera">5.4.10. Camera</a></li>
-<li><a class="reference internal" href="#lessons-and-projects">5.4.11. Lessons and Projects</a></li>
+<li><a class="reference internal" href="#raspbery-pi-for-iot-gregor">5.4.1. Raspbery PI for IOT (Gregor)</a></li>
+<li><a class="reference internal" href="#hardware">5.4.2. Hardware</a></li>
+<li><a class="reference internal" href="#installation">5.4.3. Installation</a><ul>
+<li><a class="reference internal" href="#erasing-the-sd-card">5.4.3.1. Erasing the SD Card</a></li>
+<li><a class="reference internal" href="#installation-of-noobs">5.4.3.2. Installation of NOOBS</a></li>
+<li><a class="reference internal" href="#installation-of-dexter">5.4.3.3. Installation of Dexter</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#configure">5.4.4. Configure</a><ul>
+<li><a class="reference internal" href="#prepare-os">5.4.4.1. Prepare OS</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#update">5.4.5. Update</a><ul>
+<li><a class="reference internal" href="#update-to-python-3-6-1">5.4.5.1. Update to Python 3.6.1</a></li>
+<li><a class="reference internal" href="#install-scientific-libraries">5.4.5.2. Install scientific Libraries</a></li>
+<li><a class="reference internal" href="#cloudmesh-pi-jon">5.4.5.3. cloudmesh.pi (Jon)</a></li>
+<li><a class="reference internal" href="#install-vnc">5.4.5.4. Install VNC</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sensors-jon">5.4.6. Sensors (Jon)</a><ul>
+<li><a class="reference internal" href="#grove-sensors-jon">5.4.6.1. Grove Sensors (Jon)</a></li>
+<li><a class="reference internal" href="#non-grove-sensors-jon">5.4.6.2. Non Grove Sensors (Jon)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#notes-to-integrates">5.4.7. Notes To integrates</a><ul>
+<li><a class="reference internal" href="#connecting">5.4.7.1. Connecting</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#vlc-on-osx">5.4.8. VLC on OSX</a></li>
+<li><a class="reference internal" href="#streaming-video">5.4.9. Streaming video</a></li>
+<li><a class="reference internal" href="#linux-commandline">5.4.10. Linux Commandline</a></li>
+<li><a class="reference internal" href="#enable-spi">5.4.11. Enable SPI</a></li>
+<li><a class="reference internal" href="#rtimulib2">5.4.12. RTIMUlib2</a></li>
+<li><a class="reference internal" href="#compile-rtimulib-apps">5.4.13. Compile RTIMULib Apps</a></li>
+<li><a class="reference internal" href="#camera">5.4.14. Camera</a></li>
+<li><a class="reference internal" href="#lessons-and-projects">5.4.15. Lessons and Projects</a></li>
 </ul>
 </li>
 </ul>
@@ -479,19 +529,166 @@
       
   <div class="section" id="raspberry-pi-3">
 <h1>5.4. Raspberry PI 3<a class="headerlink" href="#raspberry-pi-3" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="sd-card">
-<h2>5.4.1. SD CARD<a class="headerlink" href="#sd-card" title="Permalink to this headline">¶</a></h2>
-<ol class="arabic simple">
-<li>Download Noobs <a class="reference external" href="https://www.raspberrypi.org/downloads/noobs/">https://www.raspberrypi.org/downloads/noobs/</a> Takes &gt;26
-min</li>
-<li>Format SD card with Disk Utility
-<a class="reference external" href="https://www.raspberrypi.org/learning/noobs-install/elcapitan/">https://www.raspberrypi.org/learning/noobs-install/elcapitan/</a> MS-DOS
-(FAT)</li>
-<li>Copy Files, Drag all files from the NOOBS folder onto the sd card</li>
+<div class="section" id="raspbery-pi-for-iot-gregor">
+<h2>5.4.1. Raspbery PI for IOT (Gregor)<a class="headerlink" href="#raspbery-pi-for-iot-gregor" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="hardware">
+<h2>5.4.2. Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h2>
+<p>see hardware page we have</p>
+</div>
+<div class="section" id="installation">
+<h2>5.4.3. Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="erasing-the-sd-card">
+<h3>5.4.3.1. Erasing the SD Card<a class="headerlink" href="#erasing-the-sd-card" title="Permalink to this headline">¶</a></h3>
+<p>Before you can install an OS on your sd card, you must erase it and put
+it in the proper format.</p>
+<ol class="arabic">
+<li><p class="first">Insert your sd card into your micro-sd adapter and open Disk Utility
+with a spotlight search.</p>
+</li>
+<li><p class="first">In the Disk Utility, right click the name of the sd card and select
+erase.</p>
+</li>
+<li><p class="first">Name the sd card and format it as MS-DOS (FAT). Then click erase.</p>
+<center></center></li>
+<li><p class="first">If it does not erase the first time, try again. It sometimes takes
+multiple tries to work.</p>
+</li>
 </ol>
 </div>
+<div class="section" id="installation-of-noobs">
+<h3>5.4.3.2. Installation of NOOBS<a class="headerlink" href="#installation-of-noobs" title="Permalink to this headline">¶</a></h3>
+<p>NOOBS is an OS that includes Raspian. The official descrition of
+Raspbian can be found
+<a class="reference external" href="https://www.raspberrypi.org/downloads/raspbian/">here</a>. It comes
+pre-packaged with many useful programming tools, and is easy to use.</p>
+<ol class="arabic simple">
+<li>Download Noobs
+<a class="reference external" href="https://www.raspberrypi.org/downloads/noobs/">here</a>. This will
+take around 30 minutes.</li>
+<li>Go to your Finder and in Downloads, search for NOOBS.</li>
+<li>Open the NOOBS folder and drag its contents into the sd card in the
+devices section. There should be 20 files and folders in the NOOBS
+folder. The download should take about 3 minutes.</li>
+<li>Once installed, eject the sd card and put it in your raspberry pi.</li>
+<li>Power up your raspberry and you will see a menu like this</li>
+</ol>
+<p>10 . Select Raspbian and click <code class="docutils literal"><span class="pre">Install</span> <span class="pre">(i)</span></code></p>
+</div>
+<div class="section" id="installation-of-dexter">
+<h3>5.4.3.3. Installation of Dexter<a class="headerlink" href="#installation-of-dexter" title="Permalink to this headline">¶</a></h3>
+<p>The version of Dexter that you want to flash onto your sd card is called
+Raspbian for Robots. This is a Raspbian based os that is compatible with
+the GrovePi board. It also comes with pre-installed Dexter Industries
+software.</p>
+<ol class="arabic">
+<li><p class="first">First, download the most recent Dexter_Industries_jessie.zip file
+from
+<a class="reference external" href="https://sourceforge.net/projects/dexterindustriesraspbianflavor/">here</a>.</p>
+</li>
+<li><p class="first">Once the file has downloaded, uncompress it and insert your sd card
+into the micro-sd adapter.</p>
+</li>
+<li><p class="first">Open etcher and flash the uncompressed jessie image onto the sd card.</p>
+<center></center></li>
+<li><p class="first">Exect your sd card and insert it into your raspberry pi.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="configure">
+<h2>5.4.4. Configure<a class="headerlink" href="#configure" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="prepare-os">
+<h3>5.4.4.1. Prepare OS<a class="headerlink" href="#prepare-os" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="update">
+<h2>5.4.5. Update<a class="headerlink" href="#update" title="Permalink to this headline">¶</a></h2>
+<p>The following are essential updates:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">upgrade</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">emacs</span>
+<span class="n">dpkg</span> <span class="o">-</span><span class="n">l</span> <span class="o">&gt;</span> <span class="o">~/</span><span class="n">Desktop</span><span class="o">/</span><span class="n">packages</span><span class="o">.</span><span class="n">list</span>
+<span class="n">pip</span> <span class="n">freeze</span> <span class="o">&gt;</span> <span class="o">~/</span><span class="n">Desktop</span><span class="o">/</span><span class="n">pip</span><span class="o">-</span><span class="n">freeze</span><span class="o">-</span><span class="n">initial</span><span class="o">.</span><span class="n">list</span>
+</pre></div>
+</div>
+<p>The following are necessary for the scientific libraries, but they
+require lots of space. Our sd cards do not have enough space for them.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">build</span><span class="o">-</span><span class="n">essential</span> <span class="n">python</span><span class="o">-</span><span class="n">dev</span> <span class="n">python</span><span class="o">-</span><span class="n">distlib</span> <span class="n">python</span><span class="o">-</span><span class="n">setuptools</span> <span class="n">python</span><span class="o">-</span><span class="n">pip</span> <span class="n">python</span><span class="o">-</span><span class="n">wheel</span> <span class="n">libzmq</span><span class="o">-</span><span class="n">dev</span> <span class="n">libgdal</span><span class="o">-</span><span class="n">dev</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">xsel</span> <span class="n">xclip</span> <span class="n">libxml2</span><span class="o">-</span><span class="n">dev</span> <span class="n">libxslt</span><span class="o">-</span><span class="n">dev</span> <span class="n">python</span><span class="o">-</span><span class="n">lxml</span> <span class="n">python</span><span class="o">-</span><span class="n">h5py</span> <span class="n">python</span><span class="o">-</span><span class="n">numexpr</span> <span class="n">python</span><span class="o">-</span><span class="n">dateutil</span> <span class="n">python</span><span class="o">-</span><span class="n">six</span> <span class="n">python</span><span class="o">-</span><span class="n">tz</span> <span class="n">python</span><span class="o">-</span><span class="n">bs4</span> <span class="n">python</span><span class="o">-</span><span class="n">html5lib</span> <span class="n">python</span><span class="o">-</span><span class="n">openpyxl</span> <span class="n">python</span><span class="o">-</span><span class="n">tables</span> <span class="n">python</span><span class="o">-</span><span class="n">xlrd</span> <span class="n">python</span><span class="o">-</span><span class="n">xlwt</span> <span class="n">cython</span> <span class="n">python</span><span class="o">-</span><span class="n">sqlalchemy</span> <span class="n">python</span><span class="o">-</span><span class="n">xlsxwriter</span> <span class="n">python</span><span class="o">-</span><span class="n">jinja2</span> <span class="n">python</span><span class="o">-</span><span class="n">boto</span> <span class="n">python</span><span class="o">-</span><span class="n">gflags</span> <span class="n">python</span><span class="o">-</span><span class="n">googleapi</span> <span class="n">python</span><span class="o">-</span><span class="n">httplib2</span> <span class="n">python</span><span class="o">-</span><span class="n">zmq</span> <span class="n">libspatialindex</span><span class="o">-</span><span class="n">dev</span>
+<span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">bottleneck</span> <span class="n">rtree</span>
+</pre></div>
+</div>
+<p>add to .bashrc</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">yyuu</span><span class="o">/</span><span class="n">pyenv</span><span class="o">.</span><span class="n">git</span> <span class="o">.</span><span class="n">pyenv</span>
+<span class="n">echo</span> <span class="s1">&#39;export PYENV_ROOT=&quot;$HOME/.pyenv&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bashrc</span>
+<span class="n">echo</span> <span class="s1">&#39;export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bashrc</span>
+<span class="n">echo</span> <span class="s1">&#39;eval &quot;$(pyenv init -)&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bashrc</span>
+<span class="n">source</span> <span class="o">~/.</span><span class="n">bashrc</span>
+
+<span class="n">export</span> <span class="n">PATH</span><span class="o">=</span><span class="s2">&quot;/home/pi/.pyenv/bin:$PATH&quot;</span>
+<span class="nb">eval</span> <span class="s2">&quot;$(pyenv init -)&quot;</span>
+<span class="nb">eval</span> <span class="s2">&quot;$(pyenv virtualenv-init -)&quot;</span>
+
+<span class="n">curl</span> <span class="o">-</span><span class="n">L</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">raw</span><span class="o">.</span><span class="n">githubusercontent</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pyenv</span><span class="o">/</span><span class="n">pyenv</span><span class="o">-</span><span class="n">installer</span><span class="o">/</span><span class="n">master</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">pyenv</span><span class="o">-</span><span class="n">installer</span> <span class="o">|</span> <span class="n">bash</span>
+</pre></div>
+</div>
+<p>source</p>
+<div class="section" id="update-to-python-3-6-1">
+<h3>5.4.5.1. Update to Python 3.6.1<a class="headerlink" href="#update-to-python-3-6-1" title="Permalink to this headline">¶</a></h3>
+<p>see how we do this in osx/linux can this be done on raspbery? if not
+document update from source with altinstall</p>
+</div>
+<div class="section" id="install-scientific-libraries">
+<h3>5.4.5.2. Install scientific Libraries<a class="headerlink" href="#install-scientific-libraries" title="Permalink to this headline">¶</a></h3>
+<p>check if they are already installed we don’t have enough space to
+install all of these.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">python</span><span class="o">-</span><span class="n">numpy</span> <span class="n">python</span><span class="o">-</span><span class="n">matplotlib</span> <span class="n">python</span><span class="o">-</span><span class="n">scipy</span> <span class="n">python</span><span class="o">-</span><span class="n">sklearn</span> <span class="n">python</span><span class="o">-</span><span class="n">pandas</span>
+</pre></div>
+</div>
+<div class="line-block">
+<div class="line">numpy</div>
+<div class="line">matplotlib</div>
+<div class="line">scipy</div>
+<div class="line">scikitlearn</div>
+</div>
+</div>
+<div class="section" id="cloudmesh-pi-jon">
+<h3>5.4.5.3. cloudmesh.pi (Jon)<a class="headerlink" href="#cloudmesh-pi-jon" title="Permalink to this headline">¶</a></h3>
+<p>cloudmesh.pi is a repository for our GrovePi module classes. These
+classes require Dexter software, so you need to either have Raspian for
+Robots or download the software separately.</p>
+<p>If you have Raspian for Robots, run the following in your terminal:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span>
+<span class="n">mkdir</span> <span class="n">github</span>
+<span class="n">cd</span> <span class="n">github</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">.</span><span class="n">pi</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">cloudmesh</span><span class="o">.</span><span class="n">pi</span>
+<span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-vnc">
+<h3>5.4.5.4. Install VNC<a class="headerlink" href="#install-vnc" title="Permalink to this headline">¶</a></h3>
+<p>describe how to install and configure VNC</p>
+</div>
+</div>
+<div class="section" id="sensors-jon">
+<h2>5.4.6. Sensors (Jon)<a class="headerlink" href="#sensors-jon" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="grove-sensors-jon">
+<h3>5.4.6.1. Grove Sensors (Jon)<a class="headerlink" href="#grove-sensors-jon" title="Permalink to this headline">¶</a></h3>
+<p>we already have draft</p>
+</div>
+<div class="section" id="non-grove-sensors-jon">
+<h3>5.4.6.2. Non Grove Sensors (Jon)<a class="headerlink" href="#non-grove-sensors-jon" title="Permalink to this headline">¶</a></h3>
+<p>Elegoo as example</p>
+</div>
+</div>
+<div class="section" id="notes-to-integrates">
+<h2>5.4.7. Notes To integrates<a class="headerlink" href="#notes-to-integrates" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="connecting">
-<h2>5.4.2. Connecting<a class="headerlink" href="#connecting" title="Permalink to this headline">¶</a></h2>
+<h3>5.4.7.1. Connecting<a class="headerlink" href="#connecting" title="Permalink to this headline">¶</a></h3>
 <p>Hostnames:</p>
 <ul class="simple">
 <li>raspberrypi.local</li>
@@ -499,6 +696,7 @@ min</li>
 </ul>
 <p>change</p>
 <p>recovery.cmdline</p>
+<p>forgot what these were:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">runinstaller</span> <span class="n">quiet</span> <span class="n">ramdisk_size</span><span class="o">=</span><span class="mi">32768</span> <span class="n">root</span><span class="o">=/</span><span class="n">dev</span><span class="o">/</span><span class="n">ram0</span> <span class="n">init</span><span class="o">=/</span><span class="n">init</span> <span class="n">vt</span><span class="o">.</span><span class="n">cur_default</span><span class="o">=</span><span class="mi">1</span> <span class="n">elevator</span><span class="o">=</span><span class="n">deadline</span>
 <span class="n">silentinstall</span> <span class="n">runinstaller</span> <span class="n">quiet</span> <span class="n">ramdisk_size</span><span class="o">=</span><span class="mi">32768</span> <span class="n">root</span><span class="o">=/</span><span class="n">dev</span><span class="o">/</span><span class="n">ram0</span> <span class="n">init</span><span class="o">=/</span><span class="n">init</span> <span class="n">vt</span><span class="o">.</span><span class="n">cur_default</span><span class="o">=</span><span class="mi">1</span> <span class="n">elevator</span><span class="o">=</span><span class="n">deadline</span>
 </pre></div>
@@ -507,25 +705,9 @@ min</li>
 <p>You will see the activity LEDs flash while the OS installs. Depending on
 your SD-Card this can take up to 40-60 minutes.</p>
 </div>
-<div class="section" id="update">
-<h2>5.4.3. Update<a class="headerlink" href="#update" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">upgrade</span>
-<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
-<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">emacs</span>
-
-<span class="n">curl</span> <span class="o">-</span><span class="n">L</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">raw</span><span class="o">.</span><span class="n">githubusercontent</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pyenv</span><span class="o">/</span><span class="n">pyenv</span><span class="o">-</span><span class="n">installer</span><span class="o">/</span><span class="n">master</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">pyenv</span><span class="o">-</span><span class="n">installer</span> <span class="o">|</span> <span class="n">bash</span>
-</pre></div>
-</div>
-<p>add to ~/.bash_profile</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">export</span> <span class="n">PATH</span><span class="o">=</span><span class="s2">&quot;/home/pi/.pyenv/bin:$PATH&quot;</span>
-<span class="nb">eval</span> <span class="s2">&quot;$(pyenv init -)&quot;</span>
-<span class="nb">eval</span> <span class="s2">&quot;$(pyenv virtualenv-init -)&quot;</span>
-</pre></div>
-</div>
-<p>source</p>
 </div>
 <div class="section" id="vlc-on-osx">
-<h2>5.4.4. VLC on OSX<a class="headerlink" href="#vlc-on-osx" title="Permalink to this headline">¶</a></h2>
+<h2>5.4.8. VLC on OSX<a class="headerlink" href="#vlc-on-osx" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p class="first"><a class="reference external" href="http://www.videolan.org/vlc/index.en_GB.html">http://www.videolan.org/vlc/index.en_GB.html</a></p>
 </li>
@@ -543,23 +725,23 @@ your SD-Card this can take up to 40-60 minutes.</p>
 </ul>
 </div>
 <div class="section" id="streaming-video">
-<h2>5.4.5. Streaming video<a class="headerlink" href="#streaming-video" title="Permalink to this headline">¶</a></h2>
+<h2>5.4.9. Streaming video<a class="headerlink" href="#streaming-video" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android">https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android</a></li>
 </ul>
 </div>
 <div class="section" id="linux-commandline">
-<h2>5.4.6. Linux Commandline<a class="headerlink" href="#linux-commandline" title="Permalink to this headline">¶</a></h2>
+<h2>5.4.10. Linux Commandline<a class="headerlink" href="#linux-commandline" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="http://www.computerworld.com/article/2598082/linux/linux-linux-command-line-cheat-sheet.html">http://www.computerworld.com/article/2598082/linux/linux-linux-command-line-cheat-sheet.html</a></li>
 </ul>
 </div>
 <div class="section" id="enable-spi">
-<h2>5.4.7. Enable SPI<a class="headerlink" href="#enable-spi" title="Permalink to this headline">¶</a></h2>
+<h2>5.4.11. Enable SPI<a class="headerlink" href="#enable-spi" title="Permalink to this headline">¶</a></h2>
 <p>go to the configuration interfaces and enable</p>
 </div>
 <div class="section" id="rtimulib2">
-<h2>5.4.8. RTIMUlib2<a class="headerlink" href="#rtimulib2" title="Permalink to this headline">¶</a></h2>
+<h2>5.4.12. RTIMUlib2<a class="headerlink" href="#rtimulib2" title="Permalink to this headline">¶</a></h2>
 <p>git clone <a class="reference external" href="https://github.com/RTIMULib/RTIMULib2.git">https://github.com/RTIMULib/RTIMULib2.git</a> cd RTIMULib</p>
 <p>Add the following two lines to /etc/modules</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">i2c</span><span class="o">-</span><span class="n">bcm2708</span>
@@ -630,7 +812,7 @@ your SD-Card this can take up to 40-60 minutes.</p>
 </div>
 </div>
 <div class="section" id="compile-rtimulib-apps">
-<h2>5.4.9. Compile RTIMULib Apps<a class="headerlink" href="#compile-rtimulib-apps" title="Permalink to this headline">¶</a></h2>
+<h2>5.4.13. Compile RTIMULib Apps<a class="headerlink" href="#compile-rtimulib-apps" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">Linux</span><span class="o">/</span><span class="n">RTIMULibCal</span>
 <span class="n">make</span> <span class="n">clean</span><span class="p">;</span> <span class="n">make</span> <span class="o">-</span><span class="n">j4</span>
 <span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
@@ -661,7 +843,7 @@ your SD-Card this can take up to 40-60 minutes.</p>
 </div>
 </div>
 <div class="section" id="camera">
-<h2>5.4.10. Camera<a class="headerlink" href="#camera" title="Permalink to this headline">¶</a></h2>
+<h2>5.4.14. Camera<a class="headerlink" href="#camera" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/">Camera
 Tutorial</a></li>
@@ -698,7 +880,7 @@ Tutorial</a></li>
 </div>
 </div>
 <div class="section" id="lessons-and-projects">
-<h2>5.4.11. Lessons and Projects<a class="headerlink" href="#lessons-and-projects" title="Permalink to this headline">¶</a></h2>
+<h2>5.4.15. Lessons and Projects<a class="headerlink" href="#lessons-and-projects" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-guis/worksheet/">Gui</a></li>
 <li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-guis/">Solder</a></li>

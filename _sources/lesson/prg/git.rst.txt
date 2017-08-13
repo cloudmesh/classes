@@ -35,9 +35,16 @@ You can set also the editor with::
 
   $ git config --global core.editor emacs
 
+You will also need to decide if you want to push branches individually
+or all branches at the same time. It will be up to you to make what
+whill work for you best. To be on the safe side, you may want to set
+up pushing only the current branch with::
+
+  git config --global push.default simple
+
 More information about a first time setup is documented at::
 
-  $ http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup
+* http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup
 
 To check your setup you can say::
 
@@ -54,3 +61,4 @@ those tutorials. We found the following useful
 * saving changes: https://www.atlassian.com/git/tutorials/saving-changes
 * collaborating with git: https://www.atlassian.com/git/tutorials/syncing
 
+.. warning:: Please read the information on the screen when you set up 

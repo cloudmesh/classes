@@ -26,7 +26,7 @@
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="I523 Big Data Applications and Analytics (2016)" href="../../i523/2016/index.html" />
+    <link rel="next" title="5.6. Projects" href="projects.html" />
     <link rel="prev" title="5.4. Raspberry PI 3" href="pi.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -68,7 +68,6 @@
       role="menu"
       aria-labelledby="dLabelGlobalToc"><ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#class-piazza">Class Piazza</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../i523/2017/index.html#content">Content</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#additional-content">Additional Content</a></li>
 </ul>
@@ -88,7 +87,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">3. Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">1.3. Contributing</a></li>
 </ul>
 </li>
 </ul>
@@ -241,7 +240,7 @@
 <li><a class="reference internal" href="#rotary-angle-sensor">5.5.6. Rotary Angle Sensor</a></li>
 <li><a class="reference internal" href="#barometer">5.5.7. Barometer</a></li>
 <li><a class="reference internal" href="#distance-sensor">5.5.8. Distance Sensor</a></li>
-<li><a class="reference internal" href="#temperature">5.5.9. Temperature</a></li>
+<li><a class="reference internal" href="#temperature-sensor">5.5.9. Temperature Sensor</a></li>
 <li><a class="reference internal" href="#heartbeat-sensor">5.5.10. Heartbeat Sensor</a></li>
 <li><a class="reference internal" href="#joystick">5.5.11. Joystick</a></li>
 <li><a class="reference internal" href="#lcd-screen">5.5.12. LCD Screen</a></li>
@@ -289,7 +288,6 @@
       role="menu"
       aria-labelledby="dLabelGlobalToc"><ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#class-piazza">Class Piazza</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../i523/2017/index.html#content">Content</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#additional-content">Additional Content</a></li>
 </ul>
@@ -309,7 +307,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">3. Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">1.3. Contributing</a></li>
 </ul>
 </li>
 </ul>
@@ -452,7 +450,7 @@
 <li><a class="reference internal" href="#rotary-angle-sensor">5.5.6. Rotary Angle Sensor</a></li>
 <li><a class="reference internal" href="#barometer">5.5.7. Barometer</a></li>
 <li><a class="reference internal" href="#distance-sensor">5.5.8. Distance Sensor</a></li>
-<li><a class="reference internal" href="#temperature">5.5.9. Temperature</a></li>
+<li><a class="reference internal" href="#temperature-sensor">5.5.9. Temperature Sensor</a></li>
 <li><a class="reference internal" href="#heartbeat-sensor">5.5.10. Heartbeat Sensor</a></li>
 <li><a class="reference internal" href="#joystick">5.5.11. Joystick</a></li>
 <li><a class="reference internal" href="#lcd-screen">5.5.12. LCD Screen</a></li>
@@ -489,22 +487,24 @@
 <h1>5.5. GrovePi Modules<a class="headerlink" href="#grovepi-modules" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="intro">
 <h2>5.5.1. Intro<a class="headerlink" href="#intro" title="Permalink to this headline">¶</a></h2>
-<p>TODO: ALL IMAGES</p>
-<div class="line-block">
-<div class="line">[Electronics] (<a class="reference external" href="http://www.instructables.com/id/Basic-Electronics">http://www.instructables.com/id/Basic-Electronics</a>): An
-introduction to the basic principals of electronics.</div>
-<div class="line">[Volatage]
-(<a class="reference external" href="https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law">https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law</a>):
-An introduction to the physics of electricity.</div>
-<div class="line">[Unix] (<a class="reference external" href="https://info-ee.eps.surrey.ac.uk/Teaching/Unix/index.html">https://info-ee.eps.surrey.ac.uk/Teaching/Unix/index.html</a>): An
-introduction to the Unix os.</div>
-<div class="line"><a class="reference external" href="https://github.com/DexterInd/GrovePi/tree/master/Software/Python">grove
-examples</a>:
-A list of Dexter Industries example code for GrovePi modules. [GrovePi
-module classes]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/tree/master/cloudmesh/pi">https://github.com/cloudmesh/cloudmesh.pi/tree/master/cloudmesh/pi</a>):
-A repository for the GrovePi module classes.</div>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p class="last">Jon will do cleanup</p>
 </div>
+<ul class="simple">
+<li><a class="reference external" href="http://www.instructables.com/id/Basic-Electronics">Electronics</a>:
+An introduction to the basic principals of electronics.</li>
+<li><a class="reference external" href="https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law">Volatage</a>:
+An introduction to the physics of electricity.</li>
+<li><a class="reference external" href="https://info-ee.eps.surrey.ac.uk/Teaching/Unix/index.html">Unix</a>:
+An introduction to the Unix os.</li>
+<li><a class="reference external" href="https://github.com/DexterInd/GrovePi/tree/master/Software/Python">grove
+examples</a>:
+A list of Dexter Industries example code for GrovePi modules.</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/tree/master/cloudmesh/pi">GrovePi module
+classes</a>:
+A repository for the GrovePi module classes.</li>
+</ul>
 </div>
 <div class="section" id="led">
 <h2>5.5.2. LED<a class="headerlink" href="#led" title="Permalink to this headline">¶</a></h2>
@@ -524,10 +524,14 @@ class. Since it is connected to a digital output, the voltage has only
 two states, on and off. The default port for the LED class is D3. The
 code for the <code class="docutils literal"><span class="pre">LED</span></code> class can be found here:</p>
 <ul class="simple">
-<li>[LED Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/led.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/led.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/led.py">LED
+Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id1">
+<img alt="LED" src="../../_images/led.jpg" />
+<p class="caption"><span class="caption-text">LED</span></p>
+</div>
+</div>
 <div class="section" id="buzzer">
 <h2>5.5.3. Buzzer<a class="headerlink" href="#buzzer" title="Permalink to this headline">¶</a></h2>
 <p>Connect the buzzer to a digital port. The default port for the Buzzer
@@ -536,10 +540,14 @@ interchangeable. This is because they work on the same digital
 principal. Their two values are on and off. The code for the <code class="docutils literal"><span class="pre">Buzzer</span></code>
 class can be found here:</p>
 <ul class="simple">
-<li>[Buzzer Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/buzzer.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/buzzer.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/buzzer.py">Buzzer
+Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id2">
+<img alt="Buzzer" src="../../_images/buzzer.jpg" />
+<p class="caption"><span class="caption-text">Buzzer</span></p>
+</div>
+</div>
 <div class="section" id="relay">
 <h2>5.5.4. Relay<a class="headerlink" href="#relay" title="Permalink to this headline">¶</a></h2>
 <p>The relay acts as a switch in a circuit. When the value on the relay is
@@ -548,10 +556,14 @@ breaks the circuit and the current stops. Connect the relay to a digital
 port. The default digital port is D4. The <code class="docutils literal"><span class="pre">Relay</span></code> class can be found
 here:</p>
 <ul class="simple">
-<li>[Relay Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/relay.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/relay.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/relay.py">Relay
+Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id3">
+<img alt="Relay" src="../../_images/relay.jpg" />
+<p class="caption"><span class="caption-text">Relay</span></p>
+</div>
+</div>
 <div class="section" id="light-sensor">
 <h2>5.5.5. Light Sensor<a class="headerlink" href="#light-sensor" title="Permalink to this headline">¶</a></h2>
 <p>The light sensor measures ligh intensity and returns a value between 0
@@ -562,27 +574,36 @@ values. The <code class="docutils literal"><span class="pre">LightSensor</span><
 <li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/light.py">LightSensor
 Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id4">
+<img alt="Light Sensor" src="../../_images/light.jpg" />
+<p class="caption"><span class="caption-text">Light Sensor</span></p>
+</div>
+</div>
 <div class="section" id="rotary-angle-sensor">
 <h2>5.5.6. Rotary Angle Sensor<a class="headerlink" href="#rotary-angle-sensor" title="Permalink to this headline">¶</a></h2>
 <p>The rotary angle sensor measures the angle to which it is turned.
 Connect the sensor to an analog port. Port A0 is the default. The
 <code class="docutils literal"><span class="pre">RotarySensor</span></code> class can be found here:</p>
 <ul class="simple">
-<li>[RotarySensor Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/rotary.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/rotary.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/rotary.py">RotarySensor
+Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id5">
+<img alt="Rotary Angle Sensor" src="../../_images/rotary.jpg" />
+<p class="caption"><span class="caption-text">Rotary Angle Sensor</span></p>
+</div>
+</div>
 <div class="section" id="barometer">
 <h2>5.5.7. Barometer<a class="headerlink" href="#barometer" title="Permalink to this headline">¶</a></h2>
 <p>Connect the barometer to an I2C port. In addition to pressure, the
 GrovePi barometer measures temperature in Fahrenheit and Celcius. The
 <code class="docutils literal"><span class="pre">Barometer</span></code> class can be found here.</p>
 <ul class="simple">
-<li>[Barometer Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/barometer.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/barometer.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/barometer.py">Barometer
+Class</a></li>
 </ul>
-<center></center></div>
+<p>!Barometer](images/grovepi/barometer.jpg)</p>
+</div>
 <div class="section" id="distance-sensor">
 <h2>5.5.8. Distance Sensor<a class="headerlink" href="#distance-sensor" title="Permalink to this headline">¶</a></h2>
 <p>Connect the distance sensor to a digital port. The grovepi module has a
@@ -591,59 +612,83 @@ is improperly calibrated, so this DistanceSensor class has a calibration
 based on experimental data. The <code class="docutils literal"><span class="pre">DistanceSensor</span></code> class can be found
 here:</p>
 <ul class="simple">
-<li>[DistanceSensor Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/distance.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/distance.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/distance.py">DistanceSensor
+Class</a></li>
 </ul>
-<center></center></div>
-<div class="section" id="temperature">
-<h2>5.5.9. Temperature<a class="headerlink" href="#temperature" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id6">
+<img alt="Distance Sensor" src="../../_images/distance.jpg" />
+<p class="caption"><span class="caption-text">Distance Sensor</span></p>
+</div>
+</div>
+<div class="section" id="temperature-sensor">
+<h2>5.5.9. Temperature Sensor<a class="headerlink" href="#temperature-sensor" title="Permalink to this headline">¶</a></h2>
 <p>The temperature sensor measures both temperature and humidity. Connect
 the temperature sensor to a digital port. D7 is the default port. The
 <code class="docutils literal"><span class="pre">TemperatureSensor</span></code> class can be found here:</p>
 <ul class="simple">
-<li>[TemperatureSensor Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/temperature.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/temperature.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/temperature.py">TemperatureSensor
+Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id7">
+<img alt="Temperature Sensor" src="../../_images/temperature.jpg" />
+<p class="caption"><span class="caption-text">Temperature Sensor</span></p>
+</div>
+</div>
 <div class="section" id="heartbeat-sensor">
 <h2>5.5.10. Heartbeat Sensor<a class="headerlink" href="#heartbeat-sensor" title="Permalink to this headline">¶</a></h2>
 <p>Connect the heartbeat sensor to an I2C port. The heartbeat sensor
 returns the heart rate of the wearer. The <code class="docutils literal"><span class="pre">HeartbeatSensor</span></code> class can
 be found here:</p>
 <ul class="simple">
-<li>[HearbeatSensor Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/heartbeat.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/heartbeat.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/heartbeat.py">HearbeatSensor
+Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id8">
+<img alt="image" src="../../_images/heartbeat.jpg" />
+<p class="caption"><span class="caption-text">image</span></p>
+</div>
+</div>
 <div class="section" id="joystick">
 <h2>5.5.11. Joystick<a class="headerlink" href="#joystick" title="Permalink to this headline">¶</a></h2>
 <p>Connect the joystick to an analog port. A0 is the default port. The
 joystick has an x, y, and click status based on the current state of the
 module. The <code class="docutils literal"><span class="pre">Joystick</span></code> class can be found here:</p>
 <ul class="simple">
-<li>[Joystick Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/joystick.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/joystick.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/joystick.py">Joystick
+Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id9">
+<img alt="image" src="../../_images/joystick.jpg" />
+<p class="caption"><span class="caption-text">image</span></p>
+</div>
+</div>
 <div class="section" id="lcd-screen">
 <h2>5.5.12. LCD Screen<a class="headerlink" href="#lcd-screen" title="Permalink to this headline">¶</a></h2>
 <p>The LCD screen can be used to display text and colors. In order to use
 it, plug it into one of the I2C ports. The <code class="docutils literal"><span class="pre">LCD</span></code> class can be found
 here:</p>
 <ul class="simple">
-<li>[LCD Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/lcd.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/lcd.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/lcd.py">LCD
+Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id10">
+<img alt="LCD Screen" src="../../_images/lcd.jpg" />
+<p class="caption"><span class="caption-text">LCD Screen</span></p>
+</div>
+</div>
 <div class="section" id="moisture-sensor">
 <h2>5.5.13. Moisture Sensor<a class="headerlink" href="#moisture-sensor" title="Permalink to this headline">¶</a></h2>
 <p>Connect the moisture sensor to an analog port. The default port is A0.
 The <code class="docutils literal"><span class="pre">MoistureSensor</span></code> class can be found here:</p>
 <ul class="simple">
-<li>[MoistureSensor Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/moisture.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/moisture.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/moisture.py">MoistureSensor
+Class</a></li>
 </ul>
-<center></center><p>An example of the implimentation of the moisture sensor from Dexter
+<div class="figure" id="id11">
+<img alt="Moisture Sensor" src="../../_images/moisture.jpg" />
+<p class="caption"><span class="caption-text">Moisture Sensor</span></p>
+</div>
+<p>An example of the implimentation of the moisture sensor from Dexter
 Industries can be found
 <a class="reference external" href="https://github.com/DexterInd/GrovePi/blob/master/Projects/plant_monitor/plant_project.py">here</a>.
 The program is meant to measure the environmental conditions that affect
@@ -655,10 +700,15 @@ plant growth.</p>
 sensor. Connect the sensor to a digital point. D2 is the default port.
 The <code class="docutils literal"><span class="pre">WaterSensor</span></code> class can be found here:</p>
 <ul class="simple">
-<li>[WaterSensor Class]
-(<a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/water.py">https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/water.py</a>)</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/water.py">WaterSensor
+Class</a></li>
 </ul>
-<center></center></div>
+<div class="figure" id="id12">
+<img alt="Water Sensor" src="../../_images/water.jpg" />
+<p class="caption"><span class="caption-text">Water Sensor</span></p>
+</div>
+<p>&lt;</p>
+</div>
 </div>
 
 
