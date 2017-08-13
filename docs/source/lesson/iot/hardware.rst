@@ -61,9 +61,9 @@ less powerful and do not contain built-in Bluetooth or WiFi.
 -  excellent camera support
 -  excelent choice of expansion papcakes including Grove Sensors that
    make it easy to attach sensors and actuators. An example package is
-   the `Grove
-   starter <https://www.seeedstudio.com/Grove-Starter-Kit-for-Arduino-p-1855.html>`__
-   set for about $50
+   the `Grove Starter
+   Kit <https://www.amazon.com/GrovePi-Starter-Kit-Dexter-Industries/dp/B00TXTZ5SQ/ref=pd_lpo_vtph_147_bs_tr_img_1?_encoding=UTF8&psc=1&refRID=45QX6XSNZAG1NT8NES79>`__
+   for about $90
 
 *Disadvantages:*
 

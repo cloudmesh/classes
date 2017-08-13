@@ -43,6 +43,7 @@ Content
    :maxdepth: 2
    :numbered:              
 
+   preface
    class
    writing
    code

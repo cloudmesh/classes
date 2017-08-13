@@ -33,7 +33,9 @@ The raspberry PI 3 is a very good development platform. With its base price of $
 * Good environment for learning Linux and Python
 * Reasonable interfaces to IoT sensors
 * excellent camera support
-* excelent choice of expansion papcakes including Grove Sensors that make it easy to attach sensors and actuators. An example package is the [Grove starter](https://www.seeedstudio.com/Grove-Starter-Kit-for-Arduino-p-1855.html) set for about $50
+* excelent choice of expansion papcakes including Grove Sensors that make it easy to attach sensors and actuators. An example package is the [Grove Starter Kit](https://www.amazon.com/GrovePi-Starter-Kit-Dexter-Industries/dp/B00TXTZ5SQ/ref=pd_lpo_vtph_147_bs_tr_img_1?_encoding=UTF8&psc=1&refRID=45QX6XSNZAG1NT8NES79) for about $90
+
+
 
 *Disadvantages:*
 
