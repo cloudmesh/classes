@@ -10,6 +10,7 @@ Internet of Things
    esp8266
    hardware
    pi
-   projects
+   dexter
    grovepi
-   
+   vnc   
+   projects

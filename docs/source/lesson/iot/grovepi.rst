@@ -4,8 +4,6 @@ GrovePi Modules
 Intro
 -----
 
-.. todo:: Jon will do cleanup
-
 -  `Electronics <http://www.instructables.com/id/Basic-Electronics>`__:
    An introduction to the basic principals of electronics.
 -  `Volatage <https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law>`__:
@@ -234,5 +232,3 @@ The ``WaterSensor`` class can be found here:
    :alt: Water Sensor
 
    Water Sensor
-
-<
