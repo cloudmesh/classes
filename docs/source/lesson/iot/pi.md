@@ -15,9 +15,7 @@ Before you can install an OS on your sd card, you must erase it and put it in th
 1. Insert your sd card into your micro-sd adapter and open Disk Utility with a spotlight search.
 2. In the Disk Utility, right click the name of the sd card and select erase.
 3. Name the sd card and format it as MS-DOS (FAT). Then click erase.
-<center>
-<img src=images/diskutil.png style="width:">
-</center>
+![](images/diskutil.png)
 4. If it does not erase the first time, try again. It sometimes takes multiple tries to work.
 
 ### Installation of NOOBS
@@ -30,9 +28,9 @@ NOOBS is an OS that includes Raspian. The official descrition of Raspbian can be
 5. Power up your raspberry and you will see a menu like this  
 
 
-<img src="images/noobs.jpg">
+![](images/noobs.jpg)
 
-10 . Select Raspbian and click `Install (i)`
+6. Select Raspbian and click `Install (i)`
 
 ### Installation of Dexter
 The version of Dexter that you want to flash onto your sd card is called Raspbian for Robots. This is a Raspbian based os that is compatible with the GrovePi board. It also comes with pre-installed Dexter Industries software.  
@@ -40,10 +38,10 @@ The version of Dexter that you want to flash onto your sd card is called Raspbia
 1. First, download the most recent Dexter_Industries_jessie.zip file from [here](https://sourceforge.net/projects/dexterindustriesraspbianflavor/).
 2. Once the file has downloaded, uncompress it and insert your sd card into the micro-sd adapter.
 3. Open etcher and flash the uncompressed jessie image onto the sd card.
-<center>
-<img src="images/etcher.png">
-</center>
-4. Exect your sd card and insert it into your raspberry pi.
+
+![](images/etcher.png)
+
+4. Eject your sd card and insert it into your raspberry pi.
 
 
 ##Configure
