@@ -23,15 +23,7 @@ it in the proper format.
 2. In the Disk Utility, right click the name of the sd card and select
    erase.
 3. Name the sd card and format it as MS-DOS (FAT). Then click erase.
-
-   .. raw:: html
-
-      <center>
-
-   .. raw:: html
-
-      </center>
-
+   |image0|
 4. If it does not erase the first time, try again. It sometimes takes
    multiple tries to work.
 
@@ -53,7 +45,10 @@ pre-packaged with many useful programming tools, and is easy to use.
 4. Once installed, eject the sd card and put it in your raspberry pi.
 5. Power up your raspberry and you will see a menu like this
 
-10 . Select Raspbian and click ``Install (i)``
+.. figure:: images/noobs.jpg
+   :alt: 
+
+6. Select Raspbian and click ``Install (i)``
 
 Installation of Dexter
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -70,15 +65,10 @@ software.
    into the micro-sd adapter.
 3. Open etcher and flash the uncompressed jessie image onto the sd card.
 
-   .. raw:: html
+.. figure:: images/etcher.png
+   :alt: 
 
-      <center>
-
-   .. raw:: html
-
-      </center>
-
-4. Exect your sd card and insert it into your raspberry pi.
+4. Eject your sd card and insert it into your raspberry pi.
 
 Configure
 ---------
@@ -420,3 +410,5 @@ Lessons and Projects
    Follower <https://www.raspberrypi.org/blog/an-image-processing-robot-for-robocup-junior/>`__
 -  `Pi car
    flask <https://circuitdigest.com/microcontroller-projects/web-controlled-raspberry-pi-surveillance-robot>`__
+
+.. |image0| image:: images/diskutil.png
