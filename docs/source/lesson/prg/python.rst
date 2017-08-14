@@ -1280,6 +1280,48 @@ install the requested packages.
           patched urllib3 on Python 2.7.9.
 
 
+GUI
+---
+
+GUIZero
+^^^^^^^
+
+Install guizero with the following command:
+
+::
+
+    sudo pip3 install guizero
+
+For a comprehensive tutorial on guizero, `click
+here <https://lawsie.github.io/guizero/howto/>`__.
+
+Kivy
+^^^^
+
+You can install Kivy on OSX as followes::
+
+    brew install pkg-config sdl2 sdl2_image sdl2_ttf sdl2_mixer gstreamer
+    pip install -U Cython
+    pip install kivy
+    pip install pygame
+
+A hello world program for kivy is included in the cloudmesh.robot
+reporitoy. Which you can fine here
+
+.. todo:: Jon, put link of git prg here
+
+To run the program, please download it or execute it in
+cloudm,esh.robot as follows::
+
+    cd cloudmesh.robot/kivy
+    python test1.py
+
+To create stand alone packages with kivy, please see::
+
+-  https://kivy.org/docs/guide/packaging-osx.html
+
+
+          
 .. _Virtual_Environments:
 
 Foramtting and Checking Python Code
