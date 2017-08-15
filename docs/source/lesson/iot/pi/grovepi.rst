@@ -39,7 +39,7 @@ code for the ``LED`` class can be found here:
 -  `LED
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/led.py>`__
 
-.. figure:: images/grovepi/led.jpg
+.. figure:: ../images/grovepi/led.jpg
    :alt: LED
 
    LED
@@ -56,7 +56,7 @@ class can be found here:
 -  `Buzzer
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/buzzer.py>`__
 
-.. figure:: images/grovepi/buzzer.jpg
+.. figure:: ../images/grovepi/buzzer.jpg
    :alt: Buzzer
 
    Buzzer
@@ -73,7 +73,7 @@ here:
 -  `Relay
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/relay.py>`__
 
-.. figure:: images/grovepi/relay.jpg
+.. figure:: ../images/grovepi/relay.jpg
    :alt: Relay
 
    Relay
@@ -89,7 +89,7 @@ values. The ``LightSensor`` class can be found here:
 -  `LightSensor
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/light.py>`__
 
-.. figure:: images/grovepi/light.jpg
+.. figure:: ../images/grovepi/light.jpg
    :alt: Light Sensor
 
    Light Sensor
@@ -104,7 +104,7 @@ Connect the sensor to an analog port. Port A0 is the default. The
 -  `RotarySensor
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/rotary.py>`__
 
-.. figure:: images/grovepi/rotary.jpg
+.. figure:: ../images/grovepi/rotary.jpg
    :alt: Rotary Angle Sensor
 
    Rotary Angle Sensor
@@ -119,7 +119,10 @@ GrovePi barometer measures temperature in Fahrenheit and Celcius. The
 -  `Barometer
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/barometer.py>`__
 
-!Barometer](images/grovepi/barometer.jpg)
+.. figure:: ../images/grovepi/barometer.jpg
+   :alt: Barometer
+
+   Barometer
 
 Distance Sensor
 ---------------
@@ -133,7 +136,7 @@ here:
 -  `DistanceSensor
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/distance.py>`__
 
-.. figure:: images/grovepi/distance.jpg
+.. figure:: ../images/grovepi/distance.jpg
    :alt: Distance Sensor
 
    Distance Sensor
@@ -148,7 +151,7 @@ the temperature sensor to a digital port. D7 is the default port. The
 -  `TemperatureSensor
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/temperature.py>`__
 
-.. figure:: images/grovepi/temperature.jpg
+.. figure:: ../images/grovepi/temperature.jpg
    :alt: Temperature Sensor
 
    Temperature Sensor
@@ -163,7 +166,7 @@ be found here:
 -  `HearbeatSensor
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/heartbeat.py>`__
 
-.. figure:: images/grovepi/heartbeat.jpg
+.. figure:: ../images/grovepi/heartbeat.jpg
    :alt: image
 
    image
@@ -178,7 +181,7 @@ module. The ``Joystick`` class can be found here:
 -  `Joystick
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/joystick.py>`__
 
-.. figure:: images/grovepi/joystick.jpg
+.. figure:: ../images/grovepi/joystick.jpg
    :alt: image
 
    image
@@ -193,7 +196,7 @@ here:
 -  `LCD
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/lcd.py>`__
 
-.. figure:: images/grovepi/lcd.jpg
+.. figure:: ../images/grovepi/lcd.jpg
    :alt: LCD Screen
 
    LCD Screen
@@ -207,7 +210,7 @@ The ``MoistureSensor`` class can be found here:
 -  `MoistureSensor
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/moisture.py>`__
 
-.. figure:: images/grovepi/moisture.jpg
+.. figure:: ../images/grovepi/moisture.jpg
    :alt: Moisture Sensor
 
    Moisture Sensor
@@ -228,7 +231,7 @@ The ``WaterSensor`` class can be found here:
 -  `WaterSensor
    Class <https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/water.py>`__
 
-.. figure:: images/grovepi/water.jpg
+.. figure:: ../images/grovepi/water.jpg
    :alt: Water Sensor
 
    Water Sensor
