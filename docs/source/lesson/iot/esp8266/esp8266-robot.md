@@ -23,14 +23,7 @@ construct, scratch, tinker, python minstorm, hopscotch, robocell, vex robotics, 
 
 ### Safety:
 
-* In case of tornado, go to bathroom.
-* If you see tornado, come inside and into the bathroom.
-* In case of fire, students let instructor know, who will file them out in an orderly fashion after ringing the fire alarm.
-* Fire drill will happen at some point in the camp.
-* Supervision by team is required for saudering.
-* Supervision by team is required for hot glue gun/ superglue.
 * Crossing the wrong cable kills the robot.
-* No carrying people around.
 
 ### Options to choose from
 
@@ -48,7 +41,6 @@ draws out images with a pen, day to build, half day to adjust.
 
 ### Robot recycling example:
 
-* Robots are dumb.
 * Programming bugs don't allow robot to behave the way you want it to.
 * Be specific with your instructions.
 * You have to know the instructions that need to be given to the robot.
@@ -57,22 +49,22 @@ draws out images with a pen, day to build, half day to adjust.
 
 * Board.
 * Don't bend pins.
-* Don't lick (poisonous).
 * Only put wheels and motors on first.
 * Battery power wires face the ESP.
 * Build is different from the blueprint.
 * Don't wire through the middle hole.
+* Velro is better than screws
 
-![](carbot.jpg)
+![](../images/carbot.jpg)
 
 * Battery wiring: red wire goes to VIN, and black wire goes to GND.
 * Flat side of battery always goes to the spring of the battery pack.
 
-![](carbattery.jpg)
+![](../images/carbattery.jpg)
 
 * ESP wiring: black = A-, red = A+, red = B-, black = B+.
 
-![](carwires.jpg)
+![](../images/carwires.jpg)
 
 * Small screwdrivers strip screws, use green ones.
 
@@ -80,22 +72,24 @@ draws out images with a pen, day to build, half day to adjust.
 
 * Bottom right of screen.
 * Black window with `>_` icon.
-* `cms` command opens a graphic that says "cloudmesh".
-* `cms robot welcome` displays a graphic of R2D2 and C3PO.
-* `cms robot probe` displays the MAC address and TTY of the robots.
-* `cms robot help` displays a help menu  
-* `cms robot image fetch` fetches the image to be flashed on ESP8266.
-* `cms robot flash erase` erases the preexisting image on ESP8266.
-* `cms robot flash python` flashes python on to the ESP8266.
-* `cms robot login` logs into picocom.
-* `cd github` enters gitub directory in terminal from `~home`
-* `cd cloudmesh.robot` enters cloudmesh.robot from the github directory.
-* `git pull` does a github pull into a local directory.
-* `cd ESP8266` enters the ESP8266 directory from cloudmesh.robot.
-* `ls` lists items in a directory from terminal.
-* `cms robot credentials set` allows network credentials to be set on an ESP8266.
-* credentials will not be set on the ESP8266 if you're logged into picocom in another window.
-* `cms robot put cred` assigns preset credentials to ESP8266.
+
+| Command | Description |
+| ------- | ----------- |
+|`cms` | command opens a graphic that says "cloudmesh".
+| `cms robot welcome`| displays a graphic of R2D2 and C3PO.
+|`cms robot probe` |displays the MAC address and TTY of the robots.
+| `cms robot help` | displays a help menu  
+| `cms robot image fetch` | fetches the image to be flashed on ESP8266.
+| `cms robot flash erase` | erases the preexisting image on ESP8266.
+| `cms robot flash python` | flashes python on to the ESP8266.
+| `cms robot login` | logs into picocom.
+| `cd github` | enters gitub directory in terminal from `~home`
+| `cd cloudmesh.robot` | enters cloudmesh.robot from the github directory.
+| `git pull` | does a github pull into a local directory.
+| `cd ESP8266` | enters the ESP8266 directory from cloudmesh.robot.
+| `ls` | lists items in a directory from terminal.
+| `cms robot credentials set` | allows network credentials to be set on an ESP8266. Credentials will not be set on the ESP8266 if you're logged into picocom in another window. |
+|`cms robot put cred` | assigns preset credentials to ESP8266.
 
 ### Robot GUI.
 
