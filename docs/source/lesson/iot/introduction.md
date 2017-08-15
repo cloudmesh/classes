@@ -15,10 +15,11 @@ The reasons we chose them is that
 1. they are cheap,
 2. we can program both in python allowing us to use a single programming langauage for all projects and assignments, and
 2. they are sufficiently powerful and we can conduct real projects with them beyond toy projects.
+3. the devices, especially the Raspberry PI can be used to also learn Linux in case you do not have access to a linux computer. Please note however the raspberry will have memory and space limitations that you need to deal with. 
 
 Projects that you can do to test the devices are
 
-esp8266 (easy-moderate):
+esp8266 (easy-moderate, small memory):
 
 1. a LED blinker
 2. a dendrite
@@ -27,7 +28,7 @@ esp8266 (easy-moderate):
 5. a robot swarm
 4. an activity of your desire
 
-Raspberry Pi (easy-moderate):
+Raspberry Pi (easy-moderate, 32GB space limitation):
 
 1. a LED blinker
 1. a robot car
@@ -43,4 +44,9 @@ Crazyflie 2.0 (difficult):
 Please note that for those at IU we do have a Lab in which you can use some of the devices pointed out here.
 You can arrange for accessing the infrastructure or you simply can buy it for yourself. 
 
-We have a hardware page that summarizes wht you need. In case you want to  work on a swarm, we do have positioning sensors that simplify that task.
+We have a hardware page that summarizes what you need. In case you want to  work on a swarm, we do have positioning sensors that simplify that task.
+
+In general we think that these platforms provide a wonderful introduction into IoT and where it will move to. Such platforms were just a decade ago not powerful enough or too expensive. However today the provide a serious platform for developers. Sensors are available easily as most Android comparible sensors can be used. 
+
+Before we jump right into programming the devices, we like to point out that we dod not chose to use Arduinos, as their price advantage is no longer valid. We also find that esp8266 and Raspberry can interface with most sensors. Having the ability to easily use WiFi however is our primary reason for using them. Furthermore being able to attach a camera to the Raspberry is just superb. Image analysis will be one of the near term future drivers for big data.
+ 
