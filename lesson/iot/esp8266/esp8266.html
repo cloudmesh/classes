@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>6.4. ESP8266 &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="6.5. Raspberry PI 3" href="../pi/pi.html" />
+    <link rel="prev" title="6.3. Projects" href="../projects.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../../index.html">Lessons</a></li>
+                <li><a href="../../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id2">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id7">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id12">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id17">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id21">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id26">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id34">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id35">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id39">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id40">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">6.4. ESP8266</a><ul>
+<li><a class="reference internal" href="#installation">6.4.1. Installation</a><ul>
+<li><a class="reference internal" href="#option-a-osx-install-from-a-script">6.4.1.1. Option A: OSX install from a Script</a></li>
+<li><a class="reference internal" href="#setting-up-git">6.4.1.2. Setting Up Git</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#option-b-setup-from-pip">6.4.2. Option B: setup from pip</a><ul>
+<li><a class="reference internal" href="#option-b-install-cloudmesh-robot-from-source">6.4.2.1. Option B: Install Cloudmesh Robot from source</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#option-c-a-possible-setup-for-linux">6.4.3. Option C: A possible setup for Linux</a><ul>
+<li><a class="reference internal" href="#option-c-a-possible-setup-for-windows">6.4.3.1. Option C: A possible setup for Windows</a></li>
+<li><a class="reference internal" href="#option-c-installation-of-the-cloudmesh-robot-interface-via-pip">6.4.3.2. Option C: Installation of the cloudmesh.robot Interface via Pip</a></li>
+<li><a class="reference internal" href="#install-cloudmesh-robot-with-pip-not-working">6.4.3.3. Install Cloudmesh Robot with Pip (not working)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-cloudmesh-robot">6.4.4. Using cloudmesh robot</a><ul>
+<li><a class="reference internal" href="#testing-the-board">6.4.4.1. Testing the board</a></li>
+<li><a class="reference internal" href="#flashing-the-image-onto-the-robot-board">6.4.4.2. Flashing the image onto the robot board</a></li>
+<li><a class="reference internal" href="#erase-the-chip">6.4.4.3. Erase the chip</a></li>
+<li><a class="reference internal" href="#putting-python-on-the-chip">6.4.4.4. Putting Python on the chip</a></li>
+<li><a class="reference internal" href="#testing-if-it-works">6.4.4.5. Testing if it works</a></li>
+<li><a class="reference internal" href="#execute-an-arbitrary-program">6.4.4.6. Execute an arbitrary program</a></li>
+<li><a class="reference internal" href="#interactive-python-shell-on-the-board">6.4.4.7. Interactive Python shell on the board</a></li>
+<li><a class="reference internal" href="#cleaning-an-reinstalling-a-development-version">6.4.4.8. Cleaning an reinstalling a development version</a></li>
+<li><a class="reference internal" href="#nodemcu-esp12-dev-kit-pin-definition">6.4.4.9. NodeMCU ESP12 Dev Kit Pin Definition</a></li>
+<li><a class="reference internal" href="#led">6.4.4.10. LED</a><ul>
+<li><a class="reference internal" href="#program">6.4.4.10.1. Program</a></li>
+<li><a class="reference internal" href="#real-time-clock">6.4.4.10.2. Real Time Clock</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources">6.4.5. Resources</a></li>
+<li><a class="reference internal" href="#alternative-boords">6.4.6. Alternative boords</a><ul>
+<li><a class="reference internal" href="#huzzah-feather-esp8266">6.4.6.1. HUZZAH Feather esp8266</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#appendix">6.4.7. Appendix</a></li>
+<li><a class="reference internal" href="#installing-esp8266-usb-drivers">6.4.8. Installing ESP8266 USB drivers</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id2">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id7">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id12">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id17">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id21">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id26">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id34">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id35">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id39">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id40">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">6.4. ESP8266</a><ul>
+<li><a class="reference internal" href="#installation">6.4.1. Installation</a><ul>
+<li><a class="reference internal" href="#option-a-osx-install-from-a-script">6.4.1.1. Option A: OSX install from a Script</a></li>
+<li><a class="reference internal" href="#setting-up-git">6.4.1.2. Setting Up Git</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#option-b-setup-from-pip">6.4.2. Option B: setup from pip</a><ul>
+<li><a class="reference internal" href="#option-b-install-cloudmesh-robot-from-source">6.4.2.1. Option B: Install Cloudmesh Robot from source</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#option-c-a-possible-setup-for-linux">6.4.3. Option C: A possible setup for Linux</a><ul>
+<li><a class="reference internal" href="#option-c-a-possible-setup-for-windows">6.4.3.1. Option C: A possible setup for Windows</a></li>
+<li><a class="reference internal" href="#option-c-installation-of-the-cloudmesh-robot-interface-via-pip">6.4.3.2. Option C: Installation of the cloudmesh.robot Interface via Pip</a></li>
+<li><a class="reference internal" href="#install-cloudmesh-robot-with-pip-not-working">6.4.3.3. Install Cloudmesh Robot with Pip (not working)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-cloudmesh-robot">6.4.4. Using cloudmesh robot</a><ul>
+<li><a class="reference internal" href="#testing-the-board">6.4.4.1. Testing the board</a></li>
+<li><a class="reference internal" href="#flashing-the-image-onto-the-robot-board">6.4.4.2. Flashing the image onto the robot board</a></li>
+<li><a class="reference internal" href="#erase-the-chip">6.4.4.3. Erase the chip</a></li>
+<li><a class="reference internal" href="#putting-python-on-the-chip">6.4.4.4. Putting Python on the chip</a></li>
+<li><a class="reference internal" href="#testing-if-it-works">6.4.4.5. Testing if it works</a></li>
+<li><a class="reference internal" href="#execute-an-arbitrary-program">6.4.4.6. Execute an arbitrary program</a></li>
+<li><a class="reference internal" href="#interactive-python-shell-on-the-board">6.4.4.7. Interactive Python shell on the board</a></li>
+<li><a class="reference internal" href="#cleaning-an-reinstalling-a-development-version">6.4.4.8. Cleaning an reinstalling a development version</a></li>
+<li><a class="reference internal" href="#nodemcu-esp12-dev-kit-pin-definition">6.4.4.9. NodeMCU ESP12 Dev Kit Pin Definition</a></li>
+<li><a class="reference internal" href="#led">6.4.4.10. LED</a><ul>
+<li><a class="reference internal" href="#program">6.4.4.10.1. Program</a></li>
+<li><a class="reference internal" href="#real-time-clock">6.4.4.10.2. Real Time Clock</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources">6.4.5. Resources</a></li>
+<li><a class="reference internal" href="#alternative-boords">6.4.6. Alternative boords</a><ul>
+<li><a class="reference internal" href="#huzzah-feather-esp8266">6.4.6.1. HUZZAH Feather esp8266</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#appendix">6.4.7. Appendix</a></li>
+<li><a class="reference internal" href="#installing-esp8266-usb-drivers">6.4.8. Installing ESP8266 USB drivers</a></li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Links</b>
+<ul>
+    <li><a href="https://cloudmesh.github.io/classes/i523/2017">i523</a> </li>  
+    <li><a href="https://cloudmesh.github.io/classes/i524">i524</a> </li>  
+
+  </ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="esp8266">
+<span id="esp8266"></span><h1>6.4. ESP8266<a class="headerlink" href="#esp8266" title="Permalink to this headline">¶</a></h1>
+<p>When working with a external hardware such as the NodeMCU you will find
+a lot of information on the internet about it. It is a bit difficult at
+times to assess what you need to program it. You are exposed to many
+choices. A NodeMCU typically comes with Lua. However you have many other
+choices. Such choices include multiple programming languages such as
+Lua, MicroPython, Arduino/C, Go and others.</p>
+<p>As all of them are slightly different you need to identify which works
+best for you. In addition you need to install images, programs and
+libraries that support your specific language choice.</p>
+<p>For our first experiments we will be using MicroPython. This choice is
+motivated by the fact that Python is a well established and easy to
+learn programming language. Recently many educational institutions are
+offering Python as an introductory programming language making this
+choice even mor compelling</p>
+<p>To simplify the setup and use of the esp8266 for MicroPython we
+developed an easy to use commandline tool that allows users to set up
+their computer and interact more easily with the board. We believe that
+the interface is so simple that it can also be used in STEM activities
+and not just in the university or by advanced hobbyists.</p>
+<div class="section" id="installation">
+<span id="installation"></span><h2>6.4.1. Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>In this section we discuss the various ways on how to set up the esp8266 <code class="docutils literal"><span class="pre">cloudmesh.robot</span></code> development environment. You have several options to install it.</p>
+<ol class="simple">
+<li>Option A: OSX with scripts hosted on github (recommended)</li>
+<li>Option B: OSX from source</li>
+<li>OPtion C: Explore your own</li>
+</ol>
+<p>While we provide here a detailed option for OSX, you are free to explore other operating systems. We know that it can for example be installed on Ubuntu 16.04. We have not tested any of this on a Windows machine.</p>
+<p>We like to get feedback and instalation instructions.</p>
+<div class="section" id="option-a-osx-install-from-a-script">
+<span id="option-a-osx-install-from-a-script"></span><h3>6.4.1.1. Option A: OSX install from a Script<a class="headerlink" href="#option-a-osx-install-from-a-script" title="Permalink to this headline">¶</a></h3>
+<p>For OSX we have created two scripts that you will need</p>
+<ul class="simple">
+<li><a class="reference external" href="http://cloudmesh.github.io/get/robot/osx/system/">system.sh</a>, that installs pip, ansible, homebrew, xcode, virtualenv, readline, wget, lua, picocom, mosquito, aquaemacs, pycharm, numpy, matplotlib, libusb, USB drivers for selkected esp8266 (ch34x chip)</li>
+<li><a class="reference external" href="http://cloudmesh.github.io/get/robot/osx/user">user.sh</a>, that installs matplotlib, virtualenv, and the cloudmesh source in ~/github</li>
+</ul>
+<p>We recommend that you review these scripts carfully before you use them and check if they fit your needs. If they do not, please just download t hem and adapt them to your needs. The <strong>system</strong> script
+must be ran on an <strong>Administrator</strong> account as it requires sudo priviledges. The <strong>user</strong> script must be ran on a <strong>User</strong> account. We do not recommend to run the IoT software in an administrative account due to security best practices. To execute the  <strong>system</strong> script, type in the <em>Administrator account</em> terminal</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">curl</span> <span class="o">-</span><span class="n">fsSL</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">cloudmesh</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">get</span><span class="o">/</span><span class="n">robot</span><span class="o">/</span><span class="n">osx</span><span class="o">/</span><span class="n">system</span> <span class="o">|</span> <span class="n">sh</span>
+</pre></div>
+</div>
+<p>As earlier versions of pip may have some issues, this script will also update pip and setuptools to a neweer version</p>
+<p>To execute the  <strong>user</strong> script, type in the User account terminal</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span> <span class="n">curl</span> <span class="o">-</span><span class="n">fsSL</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">cloudmesh</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">get</span><span class="o">/</span><span class="n">robot</span><span class="o">/</span><span class="n">osx</span><span class="o">/</span><span class="n">user</span> <span class="o">|</span> <span class="n">sh</span>
+</pre></div>
+</div>
+<p>Together these scripts allow you to install in a simple way development tools for our IoT activities.</p>
+<p>The following steps are to be executed in the user environment.</p>
+<p><strong>Warning</strong>: <em>the scripts do not update pip and setuptool, which may be required due to a bug in setuptools prior to version 34 for setuptools. You may have to repeat the update on any pyenv environment that you use. How to do thi sis documented in a later section.</em></p>
+<p>To simplify use, we recommend that you make the following additions to your
+<code class="docutils literal"><span class="pre">~/.bash_profile</span></code> file so that python 3 is automatically activated, but does not interfere with the system installed python. Use the command</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ emacs ~/.bash_profile
+</pre></div>
+</div>
+<p>or your favourite editor to edit the file and add the following lines at the end.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>####################################################################### 
+# PYENV
+######################################################################
+open_emacs() {
+    # open -na Aquamacs $*
+    open -a Aquamacs $*    
+}
+alias e=open_emacs
+
+########################################################
+# PYENV
+########################################################
+export PYENV_VIRTUALENV_DISABLE_PROMPT=0
+eval &quot;$(pyenv init -)&quot;
+eval &quot;$(pyenv virtualenv-init -)&quot;
+__pyenv_version_ps1() {
+    local ret=$?;
+    output=$(pyenv version-name)
+    if [[ ! -z $output ]]; then
+    echo -n &quot;($output)&quot;
+    fi
+    return $ret;
+}
+PS1=&quot;\$(__pyenv_version_ps1) ${PS1}&quot;   
+alias ENV3=&quot;pyenv activate ENV3&quot;
+ENV3
+</pre></div>
+</div>
+<p>Once you start a new terminal you can edit files via aquaemacs by typing</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">e</span> <span class="n">FILENAME</span>
+</pre></div>
+</div>
+<p>where FILENAME is the name of the file you like to edit. However the file must exists, which you can simply do with</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">touch</span> <span class="n">FILENAME</span>
+</pre></div>
+</div>
+<p>Add the following lines at the end of the file</p>
+<p>To learn more about how to you automate the setup of an OSX machine, you may be inspired by</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/ricbra/dotfiles/blob/master/bin/setup_osx">https://github.com/ricbra/dotfiles/blob/master/bin/setup_osx</a></li>
+<li><a class="reference external" href="https://blog.vandenbrand.org/2016/01/04/how-to-automate-your-mac-os-x-setup-with-ansible/">https://blog.vandenbrand.org/2016/01/04/how-to-automate-your-mac-os-x-setup-with-ansible/</a></li>
+</ul>
+</div>
+<div class="section" id="setting-up-git">
+<span id="setting-up-git"></span><h3>6.4.1.2. Setting Up Git<a class="headerlink" href="#setting-up-git" title="Permalink to this headline">¶</a></h3>
+<p>Sooner or later you will be using git. We recommend that you set your identity on all computers that you will be using. To do this adapt the following example according to your github.com identity that you have. IF you do not, its time to greate one at github.com and follow the directions.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git config --global user.name &quot;Gregor von Laszewski&quot;
+$ git config --global user.email laszewski@gmail.com
+$ git config --global core.editor emacs
+$ git config --global push.default matching
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="option-b-setup-from-pip">
+<span id="option-b-setup-from-pip"></span><h2>6.4.2. Option B: setup from pip<a class="headerlink" href="#option-b-setup-from-pip" title="Permalink to this headline">¶</a></h2>
+<p>We have removed the pip setup instructions as they do not include installing the drivers.</p>
+<div class="section" id="option-b-install-cloudmesh-robot-from-source">
+<span id="option-b-install-cloudmesh-robot-from-source"></span><h3>6.4.2.1. Option B: Install Cloudmesh Robot from source<a class="headerlink" href="#option-b-install-cloudmesh-robot-from-source" title="Permalink to this headline">¶</a></h3>
+<p>Developers that already have a development environment (e.g. xcode is installed) can install cloudmesh robot also from the terminal while downloading the source.
+You will need to first obtain the source and compile it with the following commands:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ mkdir github
+$ cd github
+$ git clone https://github.com/cloudmesh/cloudmesh.common.git
+$ git clone https://github.com/cloudmesh/cloudmesh.cmd5.git
+$ git clone https://github.com/cloudmesh/cloudmesh.robot.git
+$ cd cloudmesh.robot
+$ make source
+</pre></div>
+</div>
+<p>To test out if the command has been installed, type</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot welcome
+</pre></div>
+</div>
+<p>If everything works you should see an ASCII image of R2D2 and C3PO.
+Next, we still have to install some additional programs before you can
+use other commands.</p>
+<p>Once you have installed cloudmesh robots you well be able to install a
+number of tools automatically with the command</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot osx install
+</pre></div>
+</div>
+<p>This will install services and tools including xcode, homebrew,
+macdown, pycharm, and aquaemacs. If you have some these tools already
+installed it will skip the instalation process for a particular tool.
+Please note that some of the tools require root access and thus you
+must be able to have ccess to sudo to run them from our tool. In addition you will need to install the OSX driver for the USB
+interface to the esp8266. This is achieved with (only to be done if you follow the install from source option)</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot osx driver
+</pre></div>
+</div>
+<p>Now please change your account to be again a standard account.</p>
+<p>Now you <strong>MUST REBOOT</strong> the machine. Without rebooting you will not be
+able to use the USB drivers.</p>
+</div>
+</div>
+<div class="section" id="option-c-a-possible-setup-for-linux">
+<span id="option-c-a-possible-setup-for-linux"></span><h2>6.4.3. Option C: A possible setup for Linux<a class="headerlink" href="#option-c-a-possible-setup-for-linux" title="Permalink to this headline">¶</a></h2>
+<p>On a linux computer we recommend that you install emacs, cmake and configure your git. Replace the user name and e-mail with the once that you used to register your account in git:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ mkdir github
+$ cd github
+$ git clone https://github.com/cloudmesh/cloudmesh.robot.git
+$ ssh-keygen
+$ sudo apt-get install -y emacs
+$ sudo apt-get install -y cmake
+$ sudo apt-get install -y libqt4-dev
+$ git config --global user.name &quot;Gregor von Laszewski&quot;
+$ git config --global user.email laszewski@gmail.com
+$ git config --global core.editor emacs
+$ git config --global push.default matching
+</pre></div>
+</div>
+<p>This setup is highly incomplete and does not include the setup of the USB drivers. Please help us completing the documentation.</p>
+<div class="section" id="option-c-a-possible-setup-for-windows">
+<span id="option-c-a-possible-setup-for-windows"></span><h3>6.4.3.1. Option C: A possible setup for Windows<a class="headerlink" href="#option-c-a-possible-setup-for-windows" title="Permalink to this headline">¶</a></h3>
+<p>We do not have tried to set this up on Windows or a virtualbox running Linux under windows. If you have tried it, please let us know. If you have difficulties just use a raspberry PI and skip the IoT projects</p>
+</div>
+<div class="section" id="option-c-installation-of-the-cloudmesh-robot-interface-via-pip">
+<span id="option-c-installation-of-the-cloudmesh-robot-interface-via-pip"></span><h3>6.4.3.2. Option C: Installation of the cloudmesh.robot Interface via Pip<a class="headerlink" href="#option-c-installation-of-the-cloudmesh-robot-interface-via-pip" title="Permalink to this headline">¶</a></h3>
+<p>.. warning:: this option does not include installing the USB drivers. You have to install them first. See examples on how to do that in our install scripts. Generally what we do in our user.sh script is the same way, but also includes the setup of python 3.6.1.</p>
+<p>To more easily interface with the robot we have developed a convenient
+program that is installed as part of a command tool called cloudmesh.</p>
+</div>
+<div class="section" id="install-cloudmesh-robot-with-pip-not-working">
+<span id="install-cloudmesh-robot-with-pip-not-working"></span><h3>6.4.3.3. Install Cloudmesh Robot with Pip (not working)<a class="headerlink" href="#install-cloudmesh-robot-with-pip-not-working" title="Permalink to this headline">¶</a></h3>
+<p>Note that pip may not include the newest version of cloudmesh.robot and we recommend you use the source install instead.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip install cloudmesh.robot 
+</pre></div>
+</div>
+<p>This will install a program <code class="docutils literal"><span class="pre">cms</span></code> on your computer that allows you to easily communicate with the robot.</p>
+</div>
+</div>
+<div class="section" id="using-cloudmesh-robot">
+<span id="using-cloudmesh-robot"></span><h2>6.4.4. Using cloudmesh robot<a class="headerlink" href="#using-cloudmesh-robot" title="Permalink to this headline">¶</a></h2>
+<p>Once you have successfully installed the drivers and the commands you
+can look at the manual page of the robot command with</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot help
+</pre></div>
+</div>
+<p>You will see a manual page like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Usage</span><span class="p">:</span>
+   <span class="n">robot</span> <span class="n">welcome</span>
+   <span class="n">robot</span> <span class="n">osx</span> <span class="n">install</span>
+   <span class="n">robot</span> <span class="n">osx</span> <span class="n">driver</span>
+   <span class="n">robot</span> <span class="n">image</span> <span class="n">fetch</span>
+   <span class="n">robot</span> <span class="n">probe</span> <span class="p">[</span><span class="o">--</span><span class="nb">format</span><span class="o">=</span><span class="n">FORMAT</span><span class="p">]</span>
+   <span class="n">robot</span> <span class="n">flash</span> <span class="n">erase</span> <span class="p">[</span><span class="o">--</span><span class="n">dryrun</span><span class="p">]</span>
+   <span class="n">robot</span> <span class="n">flash</span> <span class="n">python</span> <span class="p">[</span><span class="o">--</span><span class="n">dryrun</span><span class="p">]</span>
+   <span class="n">robot</span> <span class="n">test</span>
+   <span class="n">robot</span> <span class="n">run</span> <span class="n">PROGRAM</span>
+   <span class="n">robot</span> <span class="n">credentials</span> <span class="nb">set</span> <span class="n">SSID</span> <span class="n">USERNAME</span> <span class="n">PASSWORD</span>
+   <span class="n">robot</span> <span class="n">credentials</span> <span class="n">put</span>
+   <span class="n">robot</span> <span class="n">credentials</span> <span class="nb">list</span>
+   <span class="n">robot</span> <span class="n">login</span>
+   <span class="n">robot</span> <span class="nb">set</span> <span class="n">PORT</span> <span class="n">NOT</span> <span class="n">IMPLEMENTED</span>
+   <span class="n">robot</span> <span class="n">ls</span> <span class="p">[</span><span class="n">PATH</span><span class="p">]</span>
+   <span class="n">robot</span> <span class="n">put</span> <span class="p">[</span><span class="o">-</span><span class="n">o</span><span class="p">]</span> <span class="n">SOURCE</span> <span class="p">[</span><span class="n">DESTINATION</span><span class="p">]</span>
+   <span class="n">robot</span> <span class="n">get</span> <span class="n">PATH</span>
+   <span class="n">robot</span> <span class="n">rm</span> <span class="n">PATH</span>
+   <span class="n">robot</span> <span class="n">rmdir</span> <span class="n">PATH</span>
+   <span class="n">robot</span> <span class="n">dance</span> <span class="n">FILE</span> <span class="n">IPS</span>
+   <span class="n">robot</span> <span class="n">inventory</span> <span class="nb">list</span> <span class="p">[</span><span class="o">--</span><span class="n">cat</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">path</span><span class="o">=</span><span class="n">PATH</span><span class="p">]</span> <span class="p">[</span><span class="n">ID</span><span class="p">]</span>
+</pre></div>
+</div>
+<div class="section" id="testing-the-board">
+<span id="testing-the-board"></span><h3>6.4.4.1. Testing the board<a class="headerlink" href="#testing-the-board" title="Permalink to this headline">¶</a></h3>
+<p>Before you can use you ESP8266, you must have the appropriate drivers
+installed on your computer. Click on <a class="reference external" href="https://github.com/cloudmesh/cloudmesh.robot/blob/7859b395fd15e4d6ced679b05893c9a91957c956/documentation/source/espdrivers.md">this
+link</a>
+and follow the instructions on how to install these drivers.</p>
+<p>Next is to connect a esp8266 with a USB cable to the computer. The
+ESP8266 should look similar to this.</p>
+<p>After you connected it, press the reset button. Before doing anything on
+the board, we must test it. Once you have plugged it in, execute the
+following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot probe
+</pre></div>
+</div>
+<p>This command takes about ten seconds to execute. The ESP8266's led
+should flash irregularly as it is probed. When the probe is finished, an
+image similar to the following should appear in your terminal:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+-----------+---------------------------+</span>
+<span class="o">|</span> <span class="n">Attribute</span> <span class="o">|</span> <span class="n">Value</span>                     <span class="o">|</span>
+<span class="o">+-----------+---------------------------+</span>
+<span class="o">|</span> <span class="n">chipid</span>    <span class="o">|</span> <span class="sa">b</span><span class="s1">&#39; 0x00d0f9ec&#39;</span>            <span class="o">|</span>
+<span class="o">|</span> <span class="n">mac</span>       <span class="o">|</span> <span class="sa">b</span><span class="s1">&#39; 00:10:FA:6E:38:4A&#39;</span>     <span class="o">|</span>
+<span class="o">|</span> <span class="n">tty</span>       <span class="o">|</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">tty</span><span class="o">.</span><span class="n">wchusbserial1410</span> <span class="o">|</span>
+<span class="o">+-----------+---------------------------+</span>
+</pre></div>
+</div>
+<p>Please note that you should only have one board attached to your
+computer.</p>
+</div>
+<div class="section" id="flashing-the-image-onto-the-robot-board">
+<span id="flashing-the-image-onto-the-robot-board"></span><h3>6.4.4.2. Flashing the image onto the robot board<a class="headerlink" href="#flashing-the-image-onto-the-robot-board" title="Permalink to this headline">¶</a></h3>
+<p>Next we need to flash the image on the robot board. Naturally we need to
+fetch the image first from the internet. We do this with the command</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot image fetch
+</pre></div>
+</div>
+<p>This will fetch an image that contains MicroPython into your local
+directory.</p>
+<p>Next we need to <em>flash</em> the image on the board.</p>
+<p>Before you begin, make sure that the ESP8266 is connected to your
+computer. The board may come with a preinstalled image such as Lua or
+some custom image from the vendor. In order to write programs in python,
+we need to the chips to run micropython. To get micropython on our
+ESP8266's, a number of steps are required.</p>
+</div>
+<div class="section" id="erase-the-chip">
+<span id="erase-the-chip"></span><h3>6.4.4.3. Erase the chip<a class="headerlink" href="#erase-the-chip" title="Permalink to this headline">¶</a></h3>
+<p>First we need to erase the chip.</p>
+<p>Run the following command in your terminal terminal, and then <strong>stop.</strong></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot flash erase
+</pre></div>
+</div>
+<p>Your terminal should respond with the following query:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>/dev/tty.SLAB_USBtoUART
+Please press the right buttons
+continue? (Y/n)
+</pre></div>
+</div>
+<p>Before taking any further steps, press both buttons on the ESP8266 at
+the same time. Once you have done this, type <code class="docutils literal"><span class="pre">Y</span></code> and press <code class="docutils literal"><span class="pre">enter</span></code>. The
+process should take under ten seconds to complete.</p>
+</div>
+<div class="section" id="putting-python-on-the-chip">
+<span id="putting-python-on-the-chip"></span><h3>6.4.4.4. Putting Python on the chip<a class="headerlink" href="#putting-python-on-the-chip" title="Permalink to this headline">¶</a></h3>
+<p>Before proceeding, you must once again press both of the buttons on the
+ESP8266. Once this is done, you are ready to flash the chip with python
+with the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot flash python 
+</pre></div>
+</div>
+</div>
+<div class="section" id="testing-if-it-works">
+<span id="testing-if-it-works"></span><h3>6.4.4.5. Testing if it works<a class="headerlink" href="#testing-if-it-works" title="Permalink to this headline">¶</a></h3>
+<p>To test running a pyton program execute</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot test
+</pre></div>
+</div>
+<p>Be careful as it overwrites the file <code class="docutils literal"><span class="pre">test.py</span></code>. If the ESP8266 is set up
+properly, it should return this in your terminal:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Count</span> <span class="n">to</span> <span class="mi">3</span>
+<span class="mi">1</span>
+<span class="mi">2</span>
+<span class="mi">3</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="execute-an-arbitrary-program">
+<span id="execute-an-arbitrary-program"></span><h3>6.4.4.6. Execute an arbitrary program<a class="headerlink" href="#execute-an-arbitrary-program" title="Permalink to this headline">¶</a></h3>
+<p>Lets assume you have placed a program in the file <code class="docutils literal"><span class="pre">prg.py</span></code> with the
+command</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot put prg.py  
+</pre></div>
+</div>
+<p>You must reboot the ESP8266 before using a new program. This can be done
+manually by pressing the reset button on the chip, or in terminal with
+the command</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot reset
+</pre></div>
+</div>
+<p>Once the chip is reset, you can run <code class="docutils literal"><span class="pre">prg.py</span></code> with the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot run prg.py
+</pre></div>
+</div>
+</div>
+<div class="section" id="interactive-python-shell-on-the-board">
+<span id="interactive-python-shell-on-the-board"></span><h3>6.4.4.7. Interactive Python shell on the board<a class="headerlink" href="#interactive-python-shell-on-the-board" title="Permalink to this headline">¶</a></h3>
+<p>To get into the interactive python shell on the board you need to reset
+the ESP8266 and run the following command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cms robot login
+</pre></div>
+</div>
+</div>
+<div class="section" id="cleaning-an-reinstalling-a-development-version">
+<span id="cleaning-an-reinstalling-a-development-version"></span><h3>6.4.4.8. Cleaning an reinstalling a development version<a class="headerlink" href="#cleaning-an-reinstalling-a-development-version" title="Permalink to this headline">¶</a></h3>
+<p>IN case you are a developer and you need to modify the source code, we
+found that it is sometimes necessary to clean your development directory
+and libraries. The easiest way to do this is to go to the repository
+that you like to reinstall. Let us assume it is <em>cloudmesh.robot</em>. Than
+the following commands will clean the repository</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ cd cloudmesh.robot
+$ pip uninstall cloudmesh.robot
+</pre></div>
+</div>
+<p>Do the pip unisntall as many times till you see an error that no more
+cloudmesh.robot versions can be found. Than execute</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ make clean
+</pre></div>
+</div>
+<p>After this you can reinstall it with</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ python setup.py install; pip install -e .
+</pre></div>
+</div>
+<p>the -e flag is optional, but allows you to change the code without the
+need of recompiling. A very useful feature in python.</p>
+</div>
+<div class="section" id="nodemcu-esp12-dev-kit-pin-definition">
+<span id="nodemcu-esp12-dev-kit-pin-definition"></span><h3>6.4.4.9. NodeMCU ESP12 Dev Kit Pin Definition<a class="headerlink" href="#nodemcu-esp12-dev-kit-pin-definition" title="Permalink to this headline">¶</a></h3>
+<p>For V1.0</p>
+<p><img alt="nodemcs" src="../../../_images/nodemcu.png" /></p>
+<p>The GPIO numbers of teh NodeMCU, do not correspond with the actual
+numbers used in micropythons pin library. The numbers are as follows:</p>
+<p>Pin/GPIO      NodeMCU</p>
+<hr class="docutils" />
+<p>15            D8</p>
+</div>
+<div class="section" id="led">
+<span id="led"></span><h3>6.4.4.10. LED<a class="headerlink" href="#led" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="program">
+<span id="program"></span><h4>6.4.4.10.1. Program<a class="headerlink" href="#program" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">machine</span>
+<span class="n">led</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">)</span>
+<span class="n">led</span><span class="o">.</span><span class="n">high</span><span class="p">()</span>
+<span class="n">led</span><span class="o">.</span><span class="n">low</span><span class="p">()</span>
+
+
+<span class="kn">import</span> <span class="nn">machine</span>
+<span class="n">led</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">)</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="n">led</span><span class="o">.</span><span class="n">high</span><span class="p">()</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+    <span class="n">led</span><span class="o">.</span><span class="n">low</span><span class="p">()</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><img alt="breadboard" src="../../../_images/led-esp8266_bb.png" /></p>
+<p><img alt="schema" src="../../../_images/led-esp8266_schem.png" /></p>
+</div>
+<div class="section" id="real-time-clock">
+<span id="real-time-clock"></span><h4>6.4.4.10.2. Real Time Clock<a class="headerlink" href="#real-time-clock" title="Permalink to this headline">¶</a></h4>
+<p>Get the library urtc.py:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">raw</span><span class="o">.</span><span class="n">githubusercontent</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">adafruit</span><span class="o">/</span><span class="n">Adafruit</span><span class="o">-</span><span class="n">uRTC</span><span class="o">/</span><span class="n">master</span><span class="o">/</span><span class="n">urtc</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>Place it on the esp8266</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="n">cms</span> <span class="n">robot</span> <span class="n">put</span> <span class="n">urtc</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>Connect the board the following pins</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">SDA</span> <span class="n">to</span> <span class="n">pin</span> <span class="mi">5</span> <span class="o">=</span> <span class="n">D1</span>
+<span class="n">SCL</span> <span class="n">to</span> <span class="n">pin</span> <span class="mi">4</span> <span class="o">=</span> <span class="n">D2</span>
+</pre></div>
+</div>
+<p>Login to the board</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="n">cms</span> <span class="n">robot</span> <span class="n">login</span>
+</pre></div>
+</div>
+<p>Execute the following code</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="kn">import</span> <span class="nn">machine</span>
+    <span class="n">i2c</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">I2C</span><span class="p">(</span><span class="n">sda</span><span class="o">=</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">scl</span><span class="o">=</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span>
+    <span class="n">i2c</span><span class="o">.</span><span class="n">scan</span><span class="p">()</span>
+</pre></div>
+</div>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>  <span class="p">[</span><span class="mi">87</span><span class="p">,</span> <span class="mi">104</span><span class="p">]</span>
+</pre></div>
+</div>
+</div></blockquote>
+<div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="kn">from</span> <span class="nn">urtc</span> <span class="k">import</span> <span class="n">DS3231</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="n">DS3231</span><span class="p">(</span><span class="n">i2c</span><span class="p">)</span>
+
+    <span class="n">t</span><span class="o">.</span><span class="n">datetime</span><span class="p">()</span>
+</pre></div>
+</div>
+<blockquote>
+<div><div class="highlight-default"><div class="highlight"><pre><span></span>          <span class="n">DateTimeTuple</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="mi">2000</span><span class="p">,</span> <span class="n">month</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">day</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> 
+                                           <span class="n">weekday</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">hour</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">minute</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span>
+                                           <span class="n">second</span><span class="o">=</span><span class="mi">53</span><span class="p">,</span> <span class="n">millisecond</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>Assignment:
+Create an object orinted class and fill out the details while using code from <code class="docutils literal"><span class="pre">urtc.py</span></code></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Clock</span> <span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sda</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">scl</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+    
+<span class="n">c</span> <span class="o">=</span> <span class="n">Clock</span><span class="p">()</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">get</span><span class="p">())</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="resources">
+<span id="resources"></span><h2>6.4.5. Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>    <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">adafruit</span><span class="o">/</span><span class="n">Adafruit</span><span class="o">-</span><span class="n">uRTC</span><span class="o">/</span><span class="n">blob</span><span class="o">/</span><span class="n">master</span><span class="o">/</span><span class="n">urtc</span><span class="o">.</span><span class="n">py</span>
+    <span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">adafruit</span><span class="o">/</span><span class="n">Adafruit</span><span class="o">-</span><span class="n">uRTC</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="alternative-boords">
+<span id="alternative-boords"></span><h2>6.4.6. Alternative boords<a class="headerlink" href="#alternative-boords" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="huzzah-feather-esp8266">
+<span id="huzzah-feather-esp8266"></span><h3>6.4.6.1. HUZZAH Feather esp8266<a class="headerlink" href="#huzzah-feather-esp8266" title="Permalink to this headline">¶</a></h3>
+<p>Many different 8266 based alterantive boards exist. One of these boards
+is the HUZZAH Feather. IT behaves the same as the other boards, but ay
+be using differnt drivers and USB ports. The <em>cms robot</em> command line
+tool is clever enough to identify automatically if it is attached and
+uses the appropriate settings. More documentation about this board can
+be found at</p>
+<ul class="simple">
+<li><a class="reference external" href="https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-nodemcu-lua">doc</a></li>
+</ul>
+<p>This site has also many other examples and you can search for them with
+keywords such as feather, esp8266, micropython.</p>
+<p>An example on how to use the LED on the <em>feather</em> is documented at</p>
+<ul class="simple">
+<li><a class="reference external" href="https://learn.adafruit.com/micropython-basics-blink-a-led/blink-led">Feather HUZZAH
+ESP8266</a></li>
+</ul>
+<p>To place micropython on the feather you can plug in the to th eusb port.
+The good thing about this board is that you do not need to press any
+buttons as it detects the upload nicely. If not make sure to reset it or
+for flasshing press both buttons. You can do the following:</p>
+<p>Probe the board with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cms</span> <span class="n">robot</span> <span class="n">probe</span>
+</pre></div>
+</div>
+<p>Erasing the feather is simple as it has a bild in mechanism to detect if
+it is going to be erased. Hence no reset button needs to be pressed:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cms</span> <span class="n">robot</span> <span class="n">flash</span> <span class="n">erase</span>
+</pre></div>
+</div>
+<p>Get the python image:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cms</span> <span class="n">robot</span> <span class="n">fetch</span> <span class="n">python</span>
+</pre></div>
+</div>
+<p>Flashing is conducted with 460800 baud, it will take about 15 seconds.
+After flashing you should try to login:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cms</span> <span class="n">robot</span> <span class="n">login</span>
+</pre></div>
+</div>
+<p>Set the boudrate to 115200:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CTRL</span><span class="o">-</span><span class="n">A</span> <span class="n">CTRL</span><span class="o">-</span><span class="n">B</span><span class="o">&gt;</span>
+
+<span class="o">***</span> <span class="n">baud</span><span class="p">:</span> 
+</pre></div>
+</div>
+<p>type in:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="mi">115200</span> <span class="o">&lt;</span><span class="n">ENTER</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Make sure that echo is switched to OFF:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CTRL</span><span class="o">-</span><span class="n">A</span> <span class="n">CTRL</span><span class="o">-</span><span class="n">C</span>
+</pre></div>
+</div>
+<p>toogles it. Now you should see:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;</span>
+</pre></div>
+</div>
+<p>Try typing in:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="appendix">
+<span id="appendix"></span><h2>6.4.7. Appendix<a class="headerlink" href="#appendix" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="installing-esp8266-usb-drivers">
+<span id="installing-esp8266-usb-drivers"></span><h2>6.4.8. Installing ESP8266 USB drivers<a class="headerlink" href="#installing-esp8266-usb-drivers" title="Permalink to this headline">¶</a></h2>
+<p>We provide here a section to explain which drivers we have tested on various esp8266. Please note that if you have different versions you may need different drivers. On OSX we found that we get good results with the following commands</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">tap</span> <span class="n">mengbo</span><span class="o">/</span><span class="n">ch340g</span><span class="o">-</span><span class="n">ch34g</span><span class="o">-</span><span class="n">ch34x</span><span class="o">-</span><span class="n">mac</span><span class="o">-</span><span class="n">os</span><span class="o">-</span><span class="n">x</span><span class="o">-</span><span class="n">driver</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">mengbo</span><span class="o">/</span><span class="n">ch340g</span><span class="o">-</span><span class="n">ch34g</span><span class="o">-</span><span class="n">ch34x</span><span class="o">-</span><span class="n">mac</span><span class="o">-</span><span class="n">os</span><span class="o">-</span><span class="n">x</span><span class="o">-</span><span class="n">driver</span>
+<span class="n">brew</span> <span class="n">cask</span> <span class="n">install</span> <span class="n">wch</span><span class="o">-</span><span class="n">ch34x</span><span class="o">-</span><span class="n">usb</span><span class="o">-</span><span class="n">serial</span><span class="o">-</span><span class="n">driver</span>
+</pre></div>
+</div>
+<p>Start a new terminal after the driver has finished installing.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">silabs</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">Support</span><span class="o">%</span><span class="mi">20</span><span class="n">Documents</span><span class="o">/</span><span class="n">Software</span><span class="o">/</span><span class="n">Mac_OSX_VCP_Driver</span><span class="o">.</span><span class="n">zip</span>
+<span class="n">unzip</span> <span class="n">Mac_OSX_VCP_Driver</span><span class="o">.</span><span class="n">zip</span>
+</pre></div>
+</div>
+<p>Click on the driver install file contained inside the zip file and the driver should start installing. Once the driver has finished installing, make sure to start a new terminal.</p>
+<p>Please remember that you need to cloase all terminals, as well as reboot the computer to use the drivers. They will typically not work if you have not rebooted.</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

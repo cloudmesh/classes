@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Marvelmind &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../index.html">Lessons</a></li>
+                <li><a href="../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id7">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id12">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id17">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id21">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id26">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id29">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id34">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id35">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id38">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id39">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id40">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Marvelmind</a><ul>
+<li><a class="reference internal" href="#introduction-to-the-marvelmind-positioning-system">Introduction to the Marvelmind Positioning System</a></li>
+<li><a class="reference internal" href="#marvelmind-environment-setup">Marvelmind Environment Setup</a></li>
+<li><a class="reference internal" href="#marvelmind-stationary-beacon-setup">Marvelmind Stationary Beacon Setup</a></li>
+<li><a class="reference internal" href="#programming-in-python">Programming in Python</a></li>
+<li><a class="reference internal" href="#marvelmind-updates">Marvelmind Updates</a><ul>
+<li><a class="reference internal" href="#updating-marvelmind-modem">Updating Marvelmind modem.</a></li>
+<li><a class="reference internal" href="#updating-marvelmind-beacons">Updating Marvelmind beacons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id2">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id7">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id12">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id17">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id21">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id26">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id29">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id34">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id35">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id38">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id39">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id40">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">Marvelmind</a><ul>
+<li><a class="reference internal" href="#introduction-to-the-marvelmind-positioning-system">Introduction to the Marvelmind Positioning System</a></li>
+<li><a class="reference internal" href="#marvelmind-environment-setup">Marvelmind Environment Setup</a></li>
+<li><a class="reference internal" href="#marvelmind-stationary-beacon-setup">Marvelmind Stationary Beacon Setup</a></li>
+<li><a class="reference internal" href="#programming-in-python">Programming in Python</a></li>
+<li><a class="reference internal" href="#marvelmind-updates">Marvelmind Updates</a><ul>
+<li><a class="reference internal" href="#updating-marvelmind-modem">Updating Marvelmind modem.</a></li>
+<li><a class="reference internal" href="#updating-marvelmind-beacons">Updating Marvelmind beacons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Links</b>
+<ul>
+    <li><a href="https://cloudmesh.github.io/classes/i523/2017">i523</a> </li>  
+    <li><a href="https://cloudmesh.github.io/classes/i524">i524</a> </li>  
+
+  </ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="marvelmind">
+<span id="marvelmind"></span><h1>Marvelmind<a class="headerlink" href="#marvelmind" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction-to-the-marvelmind-positioning-system">
+<span id="introduction-to-the-marvelmind-positioning-system"></span><h2>Introduction to the Marvelmind Positioning System<a class="headerlink" href="#introduction-to-the-marvelmind-positioning-system" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference external" href="http://www.marvelmind.com">Marvelmind Indoor Navigation System</a> is an indoor
+navigation system designed used for providing location data to autonomous
+robots, vehicles (AGV) and copters. The precision is rated to be +-2cm.</p>
+<p>The following requirements need to be met to run it:</p>
+<ul class="simple">
+<li>One Windows PC with Windows 10 to configure the beacon.</li>
+<li>Antivirus software to assure the software you download and install is
+virus free.</li>
+<li>Marvelmind HW 4.5 or 4.9 package and additional beacons as needed.</li>
+</ul>
+<p>In our setup we use the PC to configure the beacons, but conduct all
+interaction with them thorugh a Mac with Mac OSX with MacOS Sierra version 10.12.5.</p>
+</div>
+<div class="section" id="marvelmind-environment-setup">
+<span id="marvelmind-environment-setup"></span><h2>Marvelmind Environment Setup<a class="headerlink" href="#marvelmind-environment-setup" title="Permalink to this headline">¶</a></h2>
+<p>Go to the marvelmind main page, on your Windows PC, at</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.marvelmind.com">https://www.marvelmind.com</a></li>
+</ul>
+<p>Scroll down to the <em>Dashboard SW v5.31 + Beacon SW v5.63 + Modem SW
+5.63</em> hyperlink, click it, and a download should start (the version
+numbers may change based on updates by Marvelmind). Once the zip file
+is finished downloading, make sure to run a <em>windows defender virus
+check</em> by rightclicking on the zip file and clicking &quot;Scan with
+windows defender&quot;. After making sure that there is no malware in the
+zip file, unzip it, and then unzip the dashboard folder, and the
+firmware folder for your particular beacon, either HW4.5 or HW4.9,
+included in the package.</p>
+<p>Now, go back to</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.marvelmind.com">https://www.marvelmind.com</a></li>
+</ul>
+<p>and scroll down to the <em>STM driver</em> column and download the zip file
+in it. Once the download has finished, unzip the file, and install the STM
+driver for your particular windows computer. This should only be done once, and it allows you to update your beacons and modems.</p>
+<ul class="simple">
+<li>If you would like to go straight to the beacon and modem firmware update instructions, you can <strong>Scroll past Figure 13 at the bottom of this manual</strong>.</li>
+</ul>
+<p>Now, you can start using the dashboard file that you unzipped earlier.</p>
+<p>Once you open the dashboard, you should be presented with an error, as shown in <em>Figure 1</em>.</p>
+<p><img alt="Figure 1" src="lesson/swarm/images/marvelmind/marvelmind-dashboard.png" /></p>
+<p><em>Figure 1: Marvelmind error if modem is not plugged in.</em></p>
+<p>You may get the error shown in <em>Figure 1</em> if you have not plugged in
+the Marvelmind modem into your Windows PC yet. The modem is shown
+in <em>Figure 2</em>. Without this modem plugged into your Windows PC with a microUSB cable, you will not be able to use the Marvelmind dashboard to set up your Marvelmind navigation environment.</p>
+<p><img alt="Figure 2" src="lesson/swarm/images/marvelmind/marvelmind-receiver.png" /></p>
+<p><em>Figure 2: Marvelmind modem.</em></p>
+<p>Once the modem is plugged into the Windows PC using a microUSB cable, with
+the Marvelmind dashboard running, the error should go away. You will
+be presented with a coordinate plane, as demonstrated in <em>Figure 3</em>.
+There should be an error at the top left corner of the coordinate
+plane stating that not enough beacons are available. This error is due
+to the fact that you have not turned on enough beacons required to
+track movement with the dashboard environment. You will need at least
+two beacons. You now need to set up stationary and mobile beacons, as
+needed, to fit your navigational needs.</p>
+<p><img alt="Figure 3" src="lesson/swarm/images/marvelmind/marvelmind-pos.png" /></p>
+<p><em>Figure 3: Marvelmind coordinate plane.</em></p>
+</div>
+<div class="section" id="marvelmind-stationary-beacon-setup">
+<span id="marvelmind-stationary-beacon-setup"></span><h2>Marvelmind Stationary Beacon Setup<a class="headerlink" href="#marvelmind-stationary-beacon-setup" title="Permalink to this headline">¶</a></h2>
+<p>Marvelmind uses stationary beacons in order to track its mobile
+beacons. Any Marvelmind beacon, <em>Figure 4</em>, can be assigned the duty
+of being stationary or mobile, and it is up to you to decide how many
+beacons you would like to set up as stationary, or tracker, beacons.
+The larger the space you operate your environment in, the larger the
+amount of tracker beacons you should use. Keep in mind, the stationary
+beacons need to be a good distance apart, 3 meters is a good measure,
+and their recommended height is at least 1.85 meters. Therefore it is
+a good idea to mount the stationary beacons on stands of heights equal
+to or greater than 1.85 meters using velcro tape, as shown in <em>Figure
+5</em>. In contrast to the original marvelmind documentation, we found that,
+in our room, the beacon mounted on the ceiling does not result in better
+positioning. Hence, we removed it and only run four stationary beacons in a square-shaped setup. This may vary based on your environment.</p>
+<p><img alt="Figure 4" src="lesson/swarm/images/marvelmind/marvelmind-beacon.png" /></p>
+<p><em>Figure 4: Marvelmind beacon.</em></p>
+<p><img alt="Figure 5" src="lesson/swarm/images/marvelmind/marvelmindstand.jpg" /></p>
+<p><em>Figure 5: Stand used to hold Marvelmind stationary beacon in place above recommended height.</em> <strong>Circled</strong>: Marvelmind stationary beacon.</p>
+<p>Now that you have set up your beacons on top of the stands, turn them
+on. The beacons will start showing up on the Marvelmind dashboard,
+they take approximately 8 seconds to wake up, as green circles with
+random device addresses assigned to them, consisting of numbers
+between 1 and 99, as shown in <em>Figure 6</em>. Keep track of the numbers
+Marvelmind assigns to each beacon. We recommend that you
+rename them to your liking. You can assign one of the beacons the
+coordinates (0,0,Z), Z being the height of the beacon, by making it
+the starting beacon. The menu to the right of the dashboard
+interface, <em>Figure 7</em>, has an option labeled <em>starting beacon
+tritalateration</em>. You can type the device address number of whichever
+beacon you would like to use as your point (0,0, Z) in terms of the x
+and y value, respectibly. The other beacons will now remap themselves
+around this beacon on the dashboard interface.</p>
+<p><img alt="Figure 6" src="lesson/swarm/images/marvelmind/figure6.png" /></p>
+<p><em>Figure 6: Marvelmind beacons as green circles.</em></p>
+<p><img alt="Figure 7" src="lesson/swarm/images/marvelmind/figure7.png" /></p>
+<p><em>Figure 7: First cell shows starting beacon trilateration.</em></p>
+<p>At the bottom of your dashboard there is a list of all 99 beacon
+addresses, as shown in <em>Figure 8</em>. Find each beacon the device address
+number of which you would like to change, and click on it and the menu
+presented to you on the right side of the dashboard interface should
+change to look like <em>Figure 9</em>. In this new menu, click the <em>Device
+address</em> option and type in whatever number, between 1 and 99, that
+you would like to assign to this specific beacon, as long as another
+active beacon does not have it. The beacon should now change device
+addresses. Do this for as many beacons as you like.</p>
+<p><img alt="Figure 8" src="lesson/swarm/images/marvelmind/figure8.png" /></p>
+<p><em>Figure 8: List of beacons circled red.</em></p>
+<p><img alt="Figure 9" src="lesson/swarm/images/marvelmind/figure9.png" /></p>
+<p><em>Figure 9: Menu you are presented with once you click a specific beacon to edit its settings.</em></p>
+<p><strong>Note:</strong> You may return to the modem view at any time by clicking the green rectangle button on the left side of the dashboard which reads modem VX.XX.XX, the &quot;X&quot; taking place of the firmware version number of your beacon, ours being V5.44.24 at the time this manual was written.</p>
+<p>Now that you have assigned your beacons device addresses to your
+liking and have picked a starting beacon, you can click the
+option <em>freeze map</em> at the bottom right corner of the coordinate
+plane, <em>Figure 10</em>, and lock your beacons as stationary on the
+Marvelmind screen. Now you can move on to introducing mobile beacons
+that will be picked up by these stationary beacons to your
+environment.</p>
+<p><img alt="Figure 10" src="lesson/swarm/images/marvelmind/figure10.png" /></p>
+<p><em>Figure 10: &quot;Freeze map&quot; option circled red.</em></p>
+<p>###Marvelmind Mobile Beacon Setup</p>
+<p>Once you have frozen the stationary beacons, you can now start
+introducing mobile beacons to Marvelmind. These mobile beacons can be
+mounted on whatever object you are trying to measure the movement of
+using Marvelmind, such as a robot. However you should make sure they
+are not obstructed much. In order to introduce a beacon as a mobile
+beacon, turn a beacon, or as many as you would like, on (make sure the
+stationary beacons are on also). Now the mobile beacon will show up
+green just like the other beacons on the dashboard. Find the beacon
+number in the list shown in <em>Figure 9</em> of this newly started beacon,
+renumber it like demonstrated earlier, or keep the randomly assigned address, if that's your preference. Click on the beacon number in the list and the menu
+on the right should change again, as demonstrated in <em>Figure 8</em>. Now,
+there should be an option at the top of this menu labeled <em>Hedgehog
+mode</em> and it should be <em>disabled</em>. Click on it so it says <em>enabled</em>.
+The beacon should now turn blue on the coordinate plane, as shown
+in <em>Figure 11</em>.</p>
+<p><img alt="Figure 11" src="lesson/swarm/images/marvelmind/figure11.png" /></p>
+<p><em>Figure 11: Hedgehog beacon and its setting.</em></p>
+<p>You can now move the beacon around as it is mobile, while the frozen
+beacons remain stationary. Now, the Marvelmind python program, which
+you will find in the dashboard package that you downloaded from google
+docs, can be used to track the coordinates of this beacon, essentially
+tracking whatever object it is mounted on. If you are mounting other
+objects on top of the device you are tracking in addition to the
+beacon, you will need holders for mobile beacons that allow the
+beacons to be mounted higher up than everything else mounted on the
+device, so that they do not block the sound recepters on the beacons,
+since that's the stationary beacons' way of receiving feedback from
+the mobile ones. <em>Figure 12</em> shows a selfie stick that can be
+purchased from any local store that seems to function very well as a
+holder for the beacons. Just make sure the beacon is not too far into
+the holder, because the sound recepters may become blocked off.</p>
+<p><img alt="Figure 12" src="lesson/swarm/images/marvelmind/figure12.png" /></p>
+<p><em>Figure 12: Selfie stick used as a hedgehog beacon holder (note how the sound receptors are elevated above the grip of the beacons).</em></p>
+</div>
+<div class="section" id="programming-in-python">
+<span id="programming-in-python"></span><h2>Programming in Python<a class="headerlink" href="#programming-in-python" title="Permalink to this headline">¶</a></h2>
+<p>In order to get coordinates of the beacons from the python program.
+Unplug the modem from the Windows PC after you have frozen your
+stationary beacons and introduced the mobile beacon(s). Plug it into
+your mac computer. Run the marvelmind.py program included in the
+program package that you can download, along with example.py for
+reference on using it,
+<a class="reference external" href="https://bitbucket.org/marvelmind_robotics/marvelmind.py/get/default.zip">here</a>,
+by typing <code class="docutils literal"><span class="pre">python</span> <span class="pre">marvelmind.py</span></code> into Terminal. If there is an error,
+open the marvelmind.py program in your python editor and scroll to
+line 175, which should look like this</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>  <span class="n">m</span> <span class="o">=</span> <span class="n">MarvelmindHedge</span><span class="p">(</span><span class="n">tty</span><span class="o">=</span><span class="s1">&#39;/dev/tty.usbmodemFD121&#39;</span><span class="p">)</span>   <span class="c1"># for macOS</span>
+</pre></div>
+</div>
+<p>Replace <code class="docutils literal"><span class="pre">tty.usbmodemFD121</span></code> with the usb tty for your computer
+assigned to that modem.</p>
+<p><strong>TODO: cms robot has a probe command that automatically discovers the
+USB/tty. I SUGGEST DOCUMENTING HOW TO USE THAT INSTEAD OF MAKING IT SO
+COMPLICATED WHILE NOT USING IT. see Probe in cloudmesh.robot</strong></p>
+<p>Once this issue is resolved, the program should start outputting
+coordinates of the remote beacons, as shown in <em>Figure 13</em>. You can
+now move the remote beacon(s) around and the marvelmind.py program
+will pick up on the movement, even if the dashboard on the Windows PC
+says there is no connection. You can now access these coordinates
+into your python programs.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>(ENV3) Ss-MacBook-Pro:tests username$ python marvelmind.py
+Hedge 0: X: 0, Y: 0, Z: 0 at    time T: 0.00
+...
+Hedge 0: X: 0, Y: 0, Z: 0 at time T: 0.00
+Hedge 18: X: 200.20, Y: 229.30, Z: 12.80 at time T: 9.71
+...
+Hedge 18: X: 199.30, Y: 235.40, Z: 12.90 at time T: 13.71
+...
+Hedge 18: X: 199.30, Y: 235.50, Z: 12.90 at time T: 15.71
+Hedge 18: X: 199.30, Y: 235.50, Z: 12.90 at time T: 15.71
+Hedge 18: X: 199.30, Y: 235.50, Z: 12.90 at time T: 15.71
+Hedge 18: X: 199.30, Y: 235.50, Z: 12.90 at time T: 15.71
+</pre></div>
+</div>
+<p><em>Figure 13: Marvelmind coordinates presented as units of (X,Y,Z, and time elapsed since the program has been running) in MacOS Terminal. Note how marvelmind.py takes a little over the aforementioned 8 seconds to start picking up on coordinates, since that's how long it takes the mobile beacon to wake up.</em></p>
+</div>
+<div class="section" id="marvelmind-updates">
+<span id="marvelmind-updates"></span><h2>Marvelmind Updates<a class="headerlink" href="#marvelmind-updates" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="updating-marvelmind-modem">
+<span id="updating-marvelmind-modem"></span><h3>Updating Marvelmind modem.<a class="headerlink" href="#updating-marvelmind-modem" title="Permalink to this headline">¶</a></h3>
+<p>First, open the marvelmind dashboard with the marvelmind modem plugged
+in to a Windows PC. You should be presented with a screen that looks
+likes this:</p>
+<p><img alt="" src="lesson/swarm/images/marvelmind/marvelmindupdate1.png" /></p>
+<p>As you notice, circled at the bottom left of the dashboard, in red, is
+the <strong>version number</strong> of the modem. If the modem is not on the latest
+update, according to <a class="reference external" href="https://www.marvelmind.com">Marvelmind.com</a>, and
+you wish to be on the latest update, click on the firmware tab at the
+top left of the dashboard, as circled in this figure:</p>
+<p><img alt="" src="lesson/swarm/images/marvelmind/marvelmindupdate2.png" /></p>
+<p>Navigate to the SW folder that you unzipped upon installation, and
+click on the folder labeled after your <strong>modem version</strong>, either 4.5
+or 4.9. Then find the modem <strong>firmware zip file</strong>, unzip it, and
+double click the <strong>hex file</strong> inside and you should be returned to the
+dashboard, as shown:</p>
+<p><img alt="" src="lesson/swarm/images/marvelmind/marvelmindupdate3.png" /></p>
+<p>Click <strong>next</strong>, and the update should start. Once the update has
+concluded, close the dashboard.</p>
+</div>
+<div class="section" id="updating-marvelmind-beacons">
+<span id="updating-marvelmind-beacons"></span><h3>Updating Marvelmind beacons<a class="headerlink" href="#updating-marvelmind-beacons" title="Permalink to this headline">¶</a></h3>
+<p>First, open the marvelmind dashboard with the marvelmind beacon
+plugged in to a Windows PC. You should be presented with a screen that
+looks likes this:</p>
+<p><img alt="" src="lesson/swarm/images/marvelmind/marvelmindupdate4.png" /></p>
+<p>As you notice, circled at the bottom left of the dashboard, in red, is
+the <strong>version number</strong> of the beacon. If the beacon is not on the
+latest update, according to
+<a class="reference external" href="https://www.marvelmind.com">Marvelmind.com</a>, and you wish to be on
+the latest update, click on the firmware tab at the top left of the
+dashboard, as circled in this figure:</p>
+<p><img alt="" src="lesson/swarm/images/marvelmind/marvelmindupdate5.png" /></p>
+<p>Navigate to the SW folder that you unzipped upon installation, and
+click on the folder labeled after your <strong>modem version</strong>, either 4.5
+or 4.9. Then find the beacon <strong>firmware zip file</strong>, unzip it, and
+double click the <strong>hex file</strong> inside and you should be returned to the
+dashboard, as shown:</p>
+<p><img alt="" src="lesson/swarm/images/marvelmind/marvelmindupdate6.png" /></p>
+<p>Click <strong>next</strong>, and the update should start. Once the update has
+concluded, close the dashboard.</p>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

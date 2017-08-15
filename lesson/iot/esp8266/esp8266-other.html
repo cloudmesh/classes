@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ESP8266 Other &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../../index.html">Lessons</a></li>
+                <li><a href="../../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id2">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id7">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id12">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id17">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id21">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id26">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id34">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id35">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id39">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id40">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">ESP8266 Other</a><ul>
+<li><a class="reference internal" href="#linux">Linux</a></li>
+<li><a class="reference internal" href="#miniterm">Miniterm</a></li>
+<li><a class="reference internal" href="#picocom">Picocom</a></li>
+<li><a class="reference internal" href="#ampy">Ampy</a></li>
+<li><a class="reference internal" href="#esptool">esptool</a></li>
+<li><a class="reference internal" href="#micropython">Micropython</a></li>
+<li><a class="reference internal" href="#lua">Lua</a></li>
+<li><a class="reference internal" href="#ampy">ampy</a></li>
+<li><a class="reference internal" href="#resources">Resources</a><ul>
+<li><a class="reference internal" href="#login">login</a></li>
+<li><a class="reference internal" href="#brew">Brew</a></li>
+<li><a class="reference internal" href="#esp8266-versions">esp8266 versions</a><ul>
+<li><a class="reference internal" href="#esp8266-motorshield">esp8266 Motorshield</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#projects">Projects</a></li>
+<li><a class="reference internal" href="#grove">Grove</a></li>
+<li><a class="reference internal" href="#power">Power</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id2">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id7">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id12">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id17">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id21">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id26">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id34">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id35">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id39">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id40">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">ESP8266 Other</a><ul>
+<li><a class="reference internal" href="#linux">Linux</a></li>
+<li><a class="reference internal" href="#miniterm">Miniterm</a></li>
+<li><a class="reference internal" href="#picocom">Picocom</a></li>
+<li><a class="reference internal" href="#ampy">Ampy</a></li>
+<li><a class="reference internal" href="#esptool">esptool</a></li>
+<li><a class="reference internal" href="#micropython">Micropython</a></li>
+<li><a class="reference internal" href="#lua">Lua</a></li>
+<li><a class="reference internal" href="#ampy">ampy</a></li>
+<li><a class="reference internal" href="#resources">Resources</a><ul>
+<li><a class="reference internal" href="#login">login</a></li>
+<li><a class="reference internal" href="#brew">Brew</a></li>
+<li><a class="reference internal" href="#esp8266-versions">esp8266 versions</a><ul>
+<li><a class="reference internal" href="#esp8266-motorshield">esp8266 Motorshield</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#projects">Projects</a></li>
+<li><a class="reference internal" href="#grove">Grove</a></li>
+<li><a class="reference internal" href="#power">Power</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Links</b>
+<ul>
+    <li><a href="https://cloudmesh.github.io/classes/i523/2017">i523</a> </li>  
+    <li><a href="https://cloudmesh.github.io/classes/i524">i524</a> </li>  
+
+  </ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="esp8266-other">
+<span id="esp8266-other"></span><h1>ESP8266 Other<a class="headerlink" href="#esp8266-other" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="linux">
+<span id="linux"></span><h2>Linux<a class="headerlink" href="#linux" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip install esptool 
+$ pip install pyserial 
+$ pip install adafruit-ampy 
+? install lua 
+? install picocom
+</pre></div>
+</div>
+</div>
+<div class="section" id="miniterm">
+<span id="miniterm"></span><h2>Miniterm<a class="headerlink" href="#miniterm" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ python -m serial.tools.miniterm -h
+</pre></div>
+</div>
+<p><a class="reference external" href="http://pyserial.readthedocs.io/en/latest/tools.html#module-serial.tools.miniterm">http://pyserial.readthedocs.io/en/latest/tools.html#module-serial.tools.miniterm</a></p>
+</div>
+<div class="section" id="picocom">
+<span id="picocom"></span><h2>Picocom<a class="headerlink" href="#picocom" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ picocom /dev/tty.wchusbserial1410 -b115200 ./probe.py
+</pre></div>
+</div>
+</div>
+<div class="section" id="ampy">
+<span id="ampy"></span><h2>Ampy<a class="headerlink" href="#ampy" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ampy -p /dev/tty.wchusbserial1410 -b115200 run test.py
+</pre></div>
+</div>
+<p><a class="reference external" href="https://drive.google.com/file/d/0BwAgplGeEjGPTnB5UXJnMzRMemc/view">https://drive.google.com/file/d/0BwAgplGeEjGPTnB5UXJnMzRMemc/view&gt;</a></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">usage</span><span class="p">:</span> <span class="n">esptool</span><span class="o">.</span><span class="n">py</span> <span class="p">[</span><span class="o">-</span><span class="n">h</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">port</span> <span class="n">PORT</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">baud</span> <span class="n">BAUD</span><span class="p">]</span>
+                  <span class="p">{</span><span class="n">load_ram</span><span class="p">,</span><span class="n">dump_mem</span><span class="p">,</span><span class="n">read_mem</span><span class="p">,</span><span class="n">write_mem</span><span class="p">,</span><span class="n">write_flash</span><span class="p">,</span><span class="n">run</span><span class="p">,</span>
+                  <span class="n">image_info</span><span class="p">,</span><span class="n">make_image</span><span class="p">,</span><span class="n">elf2image</span><span class="p">,</span><span class="n">read_mac</span><span class="p">,</span><span class="n">chip_id</span><span class="p">,</span><span class="n">flash_id</span><span class="p">,</span>
+                  <span class="n">read_flash</span><span class="p">,</span><span class="n">verify_flash</span><span class="p">,</span><span class="n">erase_flash</span><span class="p">,</span><span class="n">version</span><span class="p">}</span>
+                  <span class="o">...</span>
+
+<span class="n">esptool</span><span class="o">.</span><span class="n">py</span> <span class="n">v1</span><span class="o">.</span><span class="mi">3</span> <span class="o">-</span> <span class="n">ESP8266</span> <span class="n">ROM</span> <span class="n">Bootloader</span> <span class="n">Utility</span>
+
+<span class="n">positional</span> <span class="n">arguments</span><span class="p">:</span>
+  <span class="p">{</span><span class="n">load_ram</span><span class="p">,</span><span class="n">dump_mem</span><span class="p">,</span><span class="n">read_mem</span><span class="p">,</span><span class="n">write_mem</span><span class="p">,</span><span class="n">write_flash</span><span class="p">,</span><span class="n">run</span><span class="p">,</span><span class="n">image_info</span><span class="p">,</span>
+  <span class="n">make_image</span><span class="p">,</span><span class="n">elf2image</span><span class="p">,</span><span class="n">read_mac</span><span class="p">,</span><span class="n">chip_id</span><span class="p">,</span><span class="n">flash_id</span><span class="p">,</span><span class="n">read_flash</span><span class="p">,</span>
+  <span class="n">verify_flash</span><span class="p">,</span><span class="n">erase_flash</span><span class="p">,</span><span class="n">version</span><span class="p">}</span>
+                        <span class="n">Run</span> <span class="n">esptool</span> <span class="p">{</span><span class="n">command</span><span class="p">}</span> <span class="o">-</span><span class="n">h</span> <span class="k">for</span> <span class="n">additional</span> <span class="n">help</span>
+    <span class="n">load_ram</span>            <span class="n">Download</span> <span class="n">an</span> <span class="n">image</span> <span class="n">to</span> <span class="n">RAM</span> <span class="ow">and</span> <span class="n">execute</span>
+    <span class="n">dump_mem</span>            <span class="n">Dump</span> <span class="n">arbitrary</span> <span class="n">memory</span> <span class="n">to</span> <span class="n">disk</span>
+    <span class="n">read_mem</span>            <span class="n">Read</span> <span class="n">arbitrary</span> <span class="n">memory</span> <span class="n">location</span>
+    <span class="n">write_mem</span>           <span class="n">Read</span><span class="o">-</span><span class="n">modify</span><span class="o">-</span><span class="n">write</span> <span class="n">to</span> <span class="n">arbitrary</span> <span class="n">memory</span> <span class="n">location</span>
+    <span class="n">write_flash</span>         <span class="n">Write</span> <span class="n">a</span> <span class="n">binary</span> <span class="n">blob</span> <span class="n">to</span> <span class="n">flash</span>
+    <span class="n">run</span>                 <span class="n">Run</span> <span class="n">application</span> <span class="n">code</span> <span class="ow">in</span> <span class="n">flash</span>
+    <span class="n">image_info</span>          <span class="n">Dump</span> <span class="n">headers</span> <span class="kn">from</span> <span class="nn">an</span> <span class="n">application</span> <span class="n">image</span>
+    <span class="n">make_image</span>          <span class="n">Create</span> <span class="n">an</span> <span class="n">application</span> <span class="n">image</span> <span class="kn">from</span> <span class="nn">binary</span> <span class="n">files</span>
+    <span class="n">elf2image</span>           <span class="n">Create</span> <span class="n">an</span> <span class="n">application</span> <span class="n">image</span> <span class="kn">from</span> <span class="nn">ELF</span> <span class="n">file</span>
+    <span class="n">read_mac</span>            <span class="n">Read</span> <span class="n">MAC</span> <span class="n">address</span> <span class="kn">from</span> <span class="nn">OTP</span> <span class="n">ROM</span>
+    <span class="n">chip_id</span>             <span class="n">Read</span> <span class="n">Chip</span> <span class="n">ID</span> <span class="kn">from</span> <span class="nn">OTP</span> <span class="n">ROM</span>
+    <span class="n">flash_id</span>            <span class="n">Read</span> <span class="n">SPI</span> <span class="n">flash</span> <span class="n">manufacturer</span> <span class="ow">and</span> <span class="n">device</span> <span class="n">ID</span>
+    <span class="n">read_flash</span>          <span class="n">Read</span> <span class="n">SPI</span> <span class="n">flash</span> <span class="n">content</span>
+    <span class="n">verify_flash</span>        <span class="n">Verify</span> <span class="n">a</span> <span class="n">binary</span> <span class="n">blob</span> <span class="n">against</span> <span class="n">flash</span>
+    <span class="n">erase_flash</span>         <span class="n">Perform</span> <span class="n">Chip</span> <span class="n">Erase</span> <span class="n">on</span> <span class="n">SPI</span> <span class="n">flash</span>
+    <span class="n">version</span>             <span class="n">Print</span> <span class="n">esptool</span> <span class="n">version</span>
+
+<span class="n">optional</span> <span class="n">arguments</span><span class="p">:</span>
+  <span class="o">-</span><span class="n">h</span><span class="p">,</span> <span class="o">--</span><span class="n">help</span>            <span class="n">show</span> <span class="n">this</span> <span class="n">help</span> <span class="n">message</span> <span class="ow">and</span> <span class="n">exit</span>
+  <span class="o">--</span><span class="n">port</span> <span class="n">PORT</span><span class="p">,</span> <span class="o">-</span><span class="n">p</span> <span class="n">PORT</span>  <span class="n">Serial</span> <span class="n">port</span> <span class="n">device</span>
+  <span class="o">--</span><span class="n">baud</span> <span class="n">BAUD</span><span class="p">,</span> <span class="o">-</span><span class="n">b</span> <span class="n">BAUD</span>  <span class="n">Serial</span> <span class="n">port</span> <span class="n">baud</span> <span class="n">rate</span> <span class="n">used</span> <span class="n">when</span> <span class="n">flashing</span><span class="o">/</span><span class="n">reading</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="esptool">
+<span id="esptool"></span><h2>esptool<a class="headerlink" href="#esptool" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ esptool.py -p /dev/tty.wchusbserial1440 chip_id
+$ esptool.py -p /dev/tty.wchusbserial1440 read_mac
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span>cfg.ssid=“DoitWiFi”; cfg.pwd=“12345678”
+</pre></div>
+</div>
+<p>http://192.168.4.1/</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>esptool –port /dev/tty.wchusbserial1460 write_flash 0x00000 doit_integer_car_512k_20150701.bin
+
+esptool –port /dev/tty.wchusbserial1460 write_flash 0x00000 doit_integer_webserver_512k_20150701.bin
+
+esptool –port /dev/tty.wchusbserial1460 erase_flash
+
+esptool v1.3 Connecting.... Running Cesanta flasher stub... Erasing
+</pre></div>
+</div>
+<p>flash (this may take a while)... Erase took 10.6 seconds</p>
+<p><a class="reference external" href="http://micropython.org/live/">http://micropython.org/live/</a></p>
+</div>
+<div class="section" id="micropython">
+<span id="micropython"></span><h2>Micropython<a class="headerlink" href="#micropython" title="Permalink to this headline">¶</a></h2>
+<p>Download image from</p>
+<p>micropython.org</p>
+<p>Flash</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ esptool.py –port /dev/tty.wchusbserial1410 write_flash –flash_size=detect 0 esp8266-20170108-v1.8.7.bin
+</pre></div>
+</div>
+<p>reset the chip
+start</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ picocom /dev/tty.wchusbserial1410 -b115200
+</pre></div>
+</div>
+<p>terminal</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ picocom /dev/tty.wchusbserial1410
+</pre></div>
+</div>
+<p>Run Code</p>
+<p>test.py:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Count to 10:&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Running:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ampy</span> <span class="o">--</span><span class="n">port</span> <span class="o">/</span><span class="n">serial</span><span class="o">/</span><span class="n">port</span> <span class="n">run</span> <span class="n">test</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>/serial/port is the path or name of the serial port connected to the MicroPython board.</li>
+</ul>
+<p>Copy a file to the board</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ampy --port /serial/port put test.py
+</pre></div>
+</div>
+<p>Copy a Directory to the board</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ampy --port /serial/port put adafruit_driver
+</pre></div>
+</div>
+<p>Copy a file or directory from the board</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ampy --port /serial/port get boot.py
+</pre></div>
+</div>
+<p>| comand | execute                                |
+|--------|----------------------------------------|
+| mkdir  | ampy --port /serial/port mkdir foo     |
+| ls     | ampy --port /serial/port ls            |
+| rm     | ampy --port /serial/port rm test.py    |
+| rmdir  | ampy --port /serial/port rmdir test    |</p>
+<p>Boot see:</p>
+<p><a class="reference external" href="https://learn.adafruit.com/micropython-basics-load-files-and-run-code/boot-scripts">https://learn.adafruit.com/micropython-basics-load-files-and-run-code/boot-scripts </a></p>
+</div>
+<div class="section" id="lua">
+<span id="lua"></span><h2>Lua<a class="headerlink" href="#lua" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">pin</span> <span class="o">=</span><span class="mi">1</span> 
+<span class="o">&gt;</span> <span class="n">gpio</span><span class="o">.</span><span class="n">mode</span><span class="p">(</span><span class="n">pin</span><span class="p">,</span> <span class="n">gpio</span><span class="o">.</span><span class="n">OUTPUT</span><span class="p">)</span> 
+<span class="o">&gt;</span> <span class="n">gpio</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">pin</span><span class="p">,</span> <span class="n">gpio</span><span class="o">.</span><span class="n">HIGH</span><span class="p">)</span> 
+<span class="o">&gt;</span> <span class="n">gpio</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">pin</span><span class="p">,</span> <span class="n">gpio</span><span class="o">.</span><span class="n">LOW</span><span class="p">)</span>     
+<span class="o">&gt;</span> <span class="n">gpio</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">pin</span><span class="p">,</span> <span class="n">gpio</span><span class="o">.</span><span class="n">LOW</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="n">gpio</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">pin</span><span class="p">,</span> <span class="n">gpio</span><span class="o">.</span><span class="n">LOW</span><span class="p">)</span> 
+<span class="o">&gt;</span> <span class="n">pin</span><span class="o">=</span><span class="mi">2</span> 
+<span class="o">&gt;</span> <span class="n">gpio</span><span class="o">.</span><span class="n">mode</span><span class="p">(</span><span class="n">pin</span><span class="p">,</span> <span class="n">gpio</span><span class="o">.</span><span class="n">OUTPUT</span><span class="p">)</span> 
+<span class="o">&gt;</span> <span class="n">gpio</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">pin</span><span class="p">,</span> <span class="n">gpio</span><span class="o">.</span><span class="n">HIGH</span><span class="p">)</span> 
+<span class="o">&gt;</span> <span class="n">gpio</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">pin</span><span class="p">,</span> <span class="n">gpio</span><span class="o">.</span><span class="n">LOW</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="ampy">
+<span id="id1"></span><h2>ampy<a class="headerlink" href="#ampy" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy">https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy</a></p>
+</div>
+<div class="section" id="resources">
+<span id="resources"></span><h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="login">
+<span id="login"></span><h3>login<a class="headerlink" href="#login" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">picocom</span> <span class="n">v2</span><span class="o">.</span><span class="mi">2</span>
+
+<span class="n">port</span> <span class="ow">is</span>        <span class="p">:</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">tty</span><span class="o">.</span><span class="n">wchusbserial1460</span>
+<span class="n">flowcontrol</span>    <span class="p">:</span> <span class="n">none</span>
+<span class="n">baudrate</span> <span class="ow">is</span>    <span class="p">:</span> <span class="mi">115200</span>
+<span class="n">parity</span> <span class="ow">is</span>      <span class="p">:</span> <span class="n">none</span>
+<span class="n">databits</span> <span class="n">are</span>   <span class="p">:</span> <span class="mi">8</span>
+<span class="n">stopbits</span> <span class="n">are</span>   <span class="p">:</span> <span class="mi">1</span>
+<span class="n">escape</span> <span class="ow">is</span>      <span class="p">:</span> <span class="n">C</span><span class="o">-</span><span class="n">a</span>
+<span class="n">local</span> <span class="n">echo</span> <span class="ow">is</span>  <span class="p">:</span> <span class="n">no</span>
+<span class="n">noinit</span> <span class="ow">is</span>      <span class="p">:</span> <span class="n">no</span>
+<span class="n">noreset</span> <span class="ow">is</span>     <span class="p">:</span> <span class="n">no</span>
+<span class="n">nolock</span> <span class="ow">is</span>      <span class="p">:</span> <span class="n">no</span>
+<span class="n">send_cmd</span> <span class="ow">is</span>    <span class="p">:</span> <span class="n">sz</span> <span class="o">-</span><span class="n">vv</span>
+<span class="n">receive_cmd</span> <span class="ow">is</span> <span class="p">:</span> <span class="n">rz</span> <span class="o">-</span><span class="n">vv</span> <span class="o">-</span><span class="n">E</span>
+<span class="n">imap</span> <span class="ow">is</span>        <span class="p">:</span> <span class="n">lfcrlf</span><span class="p">,</span>
+<span class="n">omap</span> <span class="ow">is</span>        <span class="p">:</span> 
+<span class="n">emap</span> <span class="ow">is</span>        <span class="p">:</span> <span class="n">crcrlf</span><span class="p">,</span><span class="n">delbs</span><span class="p">,</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="brew">
+<span id="brew"></span><h3>Brew<a class="headerlink" href="#brew" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first">http://blog.coldflake.com/posts/Minimal-Development-Setup-for-Mac-OS/</p>
+<p>$ brew install tree
+$ brew install wget
+$ brew install picocom
+$ brew install htop-osx
+$ brew install dos2unix
+$ brew install jq
+$ brew install tig  # git ascii browser
+$ brew install sqlite
+$ brew cask install omnigraffle
+$ brew cask install virtualbox
+$ brew tap homebrew/science
+$ brew install opencv
+$ brew link opencv</p>
+</li>
+<li><p class="first"><a class="reference external" href="https://books.google.com/books?id=zOx3CgAAQBAJ&amp;pg=PA20&amp;lpg=PA20&amp;dq=useful+homebrew+packages+arduino&amp;source=bl&amp;ots=LifN_I7SJK&amp;sig=6CW-ph8l05Jf4gqkP6NzK7uV9qc&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjcifT-tYjUAhVI7YMKHdSKAXoQ6AEITjAH#v=onepage&amp;q=useful%20homebrew%20packages%20arduino&amp;f=false">opencv install via homebrew</a></p>
+</li>
+</ul>
+</div>
+<div class="section" id="esp8266-versions">
+<span id="esp8266-versions"></span><h3>esp8266 versions<a class="headerlink" href="#esp8266-versions" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://www.losant.com/blog/top-6-esp8266-modules">top-6-esp8266-modules</a></li>
+</ul>
+<div class="section" id="esp8266-motorshield">
+<span id="esp8266-motorshield"></span><h4>esp8266 Motorshield<a class="headerlink" href="#esp8266-motorshield" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><a class="reference external" href="http://micropython.org/resources/docs/en/latest/esp8266/esp8266/tutorial/pins.html?highlight=gpio">micropython gpio</a></li>
+<li><a class="reference external" href="https://cdn.hackaday.io/files/8856378895104/user-mannual-for-esp-12e-motor-shield.pdf">motorshield manual</a></li>
+<li><a class="reference external" href="https://smartarduino.gitbooks.io/user-manual-for-wifi-car-by-nodemcu-doitcar-/content/31_code_for_ap_case_on_doitcar.html">doitcar lua program</a></li>
+<li><a class="reference external" href="https://blog.squix.org/2015/09/esp8266-nodemcu-motor-shield-review.html">esp8266-nodemcu-motor-shield-review</a></li>
+</ul>
+<p>Jumper</p>
+<p>The motor shield has some jumpers. We need better information about them. Here some starting points.</p>
+<p><em>If you use two power sources, remove the jumper which connects VM and VIN.</em></p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.instructables.com/id/Motorize-IoT-With-ESP8266/">http://www.instructables.com/id/Motorize-IoT-With-ESP8266/</a></li>
+<li><a class="reference external" href="https://blog.the-jedi.co.uk/2015/11/26/nodemcu-motor-shield-review/">Node MCU Motorshield</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="projects">
+<span id="projects"></span><h3>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://www.google.com/search?q=esp8266+projects&amp;rlz=1C5CHFA_enUS727US727&amp;oq=esp8266+&amp;aqs=chrome.0.69i59l3j69i61j69i60l2.3594j0j4&amp;sourceid=chrome&amp;ie=UTF-8">Google search on esp8266 projects</a></li>
+<li><a class="reference external" href="http://randomnerdtutorials.com/getting-started-with-esp8266-wifi-transceiver-review/">http://randomnerdtutorials.com/getting-started-with-esp8266-wifi-transceiver-review/</a></li>
+</ul>
+</div>
+<div class="section" id="grove">
+<span id="grove"></span><h3>Grove<a class="headerlink" href="#grove" title="Permalink to this headline">¶</a></h3>
+<p>GroveKit</p>
+<ul class="simple">
+<li><a class="reference external" href="https://cknodemcu.wordpress.com/2016/04/21/esp8266-grove-kit-arrived/">esp8266-grove-kit</a></li>
+<li><a class="reference external" href="http://bbs.smartarduino.com/attachment.php?aid=20">Grovekit manual</a></li>
+<li>Grove kit has different plugs</li>
+</ul>
+<p>Grove Base Shield</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.amazon.com/Seeedstudio-Grove-Base-Shield-NodeMCU/dp/B018FNOWFM/ref=pd_lpo_sbs_504_t_0?_encoding=UTF8&amp;psc=1&amp;refRID=PG5ZRRG08AYRA5XYNF5E">Seeedstudio-Grove-Base-Shield-NodeMCU Amazon</a></li>
+<li><a class="reference external" href="https://www.seeedstudio.com/Grove-Base-Shield-for-NodeMCU-p-2513.html">Grove-Base-Shield-for-NodeMCU Seedstudio</a></li>
+</ul>
+<p>Wio</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.digikey.com/en/maker/blogs/wio-node-grove-esp8266-wifi-module/57ad3656de7a4e8bb1ba5b2c82d4352f">wio-node-grove-esp8266-wifi-module</a> (from digikey)</li>
+<li><a class="reference external" href="https://solarbotics.com/product/30314/">Wio Node</a> (from solarrobotics)</li>
+<li><a class="reference external" href="https://solarbotics.com/product/30316/">Wio Link</a></li>
+</ul>
+</div>
+<div class="section" id="power">
+<span id="power"></span><h3>Power<a class="headerlink" href="#power" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://henrysbench.capnfatz.com/henrys-bench/arduino-projects-tips-and-more/powering-the-esp-12e-nodemcu-development-board/">Power</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

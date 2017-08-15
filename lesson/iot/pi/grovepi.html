@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>6.7. GrovePi Modules &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="6.8. Sensors" href="sensors.html" />
+    <link rel="prev" title="6.6. Dexter" href="dexter.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../../index.html">Lessons</a></li>
+                <li><a href="../../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id2">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id7">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id12">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id17">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id21">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id26">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id34">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id35">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id39">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id40">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">6.7. GrovePi Modules</a><ul>
+<li><a class="reference internal" href="#intro">6.7.1. Intro</a></li>
+<li><a class="reference internal" href="#led">6.7.2. LED</a></li>
+<li><a class="reference internal" href="#buzzer">6.7.3. Buzzer</a></li>
+<li><a class="reference internal" href="#relay">6.7.4. Relay</a></li>
+<li><a class="reference internal" href="#light-sensor">6.7.5. Light Sensor</a></li>
+<li><a class="reference internal" href="#rotary-angle-sensor">6.7.6. Rotary Angle Sensor</a></li>
+<li><a class="reference internal" href="#barometer">6.7.7. Barometer</a></li>
+<li><a class="reference internal" href="#distance-sensor">6.7.8. Distance Sensor</a></li>
+<li><a class="reference internal" href="#temperature-sensor">6.7.9. Temperature Sensor</a></li>
+<li><a class="reference internal" href="#heartbeat-sensor">6.7.10. Heartbeat Sensor</a></li>
+<li><a class="reference internal" href="#joystick">6.7.11. Joystick</a></li>
+<li><a class="reference internal" href="#lcd-screen">6.7.12. LCD Screen</a></li>
+<li><a class="reference internal" href="#moisture-sensor">6.7.13. Moisture Sensor</a></li>
+<li><a class="reference internal" href="#water-sensor">6.7.14. Water Sensor</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/links.html">Links Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id2">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id7">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id12">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id17">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id21">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id26">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id34">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id35">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id39">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id40">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">6.7. GrovePi Modules</a><ul>
+<li><a class="reference internal" href="#intro">6.7.1. Intro</a></li>
+<li><a class="reference internal" href="#led">6.7.2. LED</a></li>
+<li><a class="reference internal" href="#buzzer">6.7.3. Buzzer</a></li>
+<li><a class="reference internal" href="#relay">6.7.4. Relay</a></li>
+<li><a class="reference internal" href="#light-sensor">6.7.5. Light Sensor</a></li>
+<li><a class="reference internal" href="#rotary-angle-sensor">6.7.6. Rotary Angle Sensor</a></li>
+<li><a class="reference internal" href="#barometer">6.7.7. Barometer</a></li>
+<li><a class="reference internal" href="#distance-sensor">6.7.8. Distance Sensor</a></li>
+<li><a class="reference internal" href="#temperature-sensor">6.7.9. Temperature Sensor</a></li>
+<li><a class="reference internal" href="#heartbeat-sensor">6.7.10. Heartbeat Sensor</a></li>
+<li><a class="reference internal" href="#joystick">6.7.11. Joystick</a></li>
+<li><a class="reference internal" href="#lcd-screen">6.7.12. LCD Screen</a></li>
+<li><a class="reference internal" href="#moisture-sensor">6.7.13. Moisture Sensor</a></li>
+<li><a class="reference internal" href="#water-sensor">6.7.14. Water Sensor</a></li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Links</b>
+<ul>
+    <li><a href="https://cloudmesh.github.io/classes/i523/2017">i523</a> </li>  
+    <li><a href="https://cloudmesh.github.io/classes/i524">i524</a> </li>  
+
+  </ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="grovepi-modules">
+<h1>6.7. GrovePi Modules<a class="headerlink" href="#grovepi-modules" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="intro">
+<h2>6.7.1. Intro<a class="headerlink" href="#intro" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://www.instructables.com/id/Basic-Electronics">Electronics</a>:
+An introduction to the basic principals of electronics.</li>
+<li><a class="reference external" href="https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law">Volatage</a>:
+An introduction to the physics of electricity.</li>
+<li><a class="reference external" href="https://info-ee.eps.surrey.ac.uk/Teaching/Unix/index.html">Unix</a>:
+An introduction to the Unix os.</li>
+<li><a class="reference external" href="https://github.com/DexterInd/GrovePi/tree/master/Software/Python">grove
+examples</a>:
+A list of Dexter Industries example code for GrovePi modules.</li>
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/tree/master/cloudmesh/pi">GrovePi module
+classes</a>:
+A repository for the GrovePi module classes.</li>
+</ul>
+</div>
+<div class="section" id="led">
+<h2>6.7.2. LED<a class="headerlink" href="#led" title="Permalink to this headline">¶</a></h2>
+<p>An LED is the simplest possible module for a raspberry pi, as it is
+responsive only to the provided power. For an LED to emit light, it must
+be exposed to a voltage greater than a certain threshold value. Above
+this voltage, the conductivity of the diode increases exponentially and
+its brightness increases likewise. If the current through the LED
+becomes too high, the LED will burn out. The following link leads to a
+tutorial from Dexter Industries for the LED module.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.dexterindustries.com/GrovePi/projects-for-the-raspberry-pi/raspberry-pi-led-tutorial/">Dexter LED
+tutorial</a></li>
+</ul>
+<p>Connect the LED To a digital port. The following code describes an LED
+class. Since it is connected to a digital output, the voltage has only
+two states, on and off. The default port for the LED class is D3. The
+code for the <code class="docutils literal"><span class="pre">LED</span></code> class can be found here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/led.py">LED
+Class</a></li>
+</ul>
+<div class="figure" id="id1">
+<img alt="LED" src="lesson/iot/pi/images/grovepi/led.jpg" />
+<p class="caption"><span class="caption-text">LED</span></p>
+</div>
+</div>
+<div class="section" id="buzzer">
+<h2>6.7.3. Buzzer<a class="headerlink" href="#buzzer" title="Permalink to this headline">¶</a></h2>
+<p>Connect the buzzer to a digital port. The default port for the Buzzer
+class is D3. You will notice that the Buzzer class and the LED class are
+interchangeable. This is because they work on the same digital
+principal. Their two values are on and off. The code for the <code class="docutils literal"><span class="pre">Buzzer</span></code>
+class can be found here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/buzzer.py">Buzzer
+Class</a></li>
+</ul>
+<div class="figure" id="id2">
+<img alt="Buzzer" src="lesson/iot/pi/images/grovepi/buzzer.jpg" />
+<p class="caption"><span class="caption-text">Buzzer</span></p>
+</div>
+</div>
+<div class="section" id="relay">
+<h2>6.7.4. Relay<a class="headerlink" href="#relay" title="Permalink to this headline">¶</a></h2>
+<p>The relay acts as a switch in a circuit. When the value on the relay is
+1, it allows current to flow through it. When the value is 0, the relay
+breaks the circuit and the current stops. Connect the relay to a digital
+port. The default digital port is D4. The <code class="docutils literal"><span class="pre">Relay</span></code> class can be found
+here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/relay.py">Relay
+Class</a></li>
+</ul>
+<div class="figure" id="id3">
+<img alt="Relay" src="lesson/iot/pi/images/grovepi/relay.jpg" />
+<p class="caption"><span class="caption-text">Relay</span></p>
+</div>
+</div>
+<div class="section" id="light-sensor">
+<h2>6.7.5. Light Sensor<a class="headerlink" href="#light-sensor" title="Permalink to this headline">¶</a></h2>
+<p>The light sensor measures ligh intensity and returns a value between 0
+and 1023. Connect the light sensor to an analog port. The default port
+is A0. The analog port allows the light sensor to return a range of
+values. The <code class="docutils literal"><span class="pre">LightSensor</span></code> class can be found here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/light.py">LightSensor
+Class</a></li>
+</ul>
+<div class="figure" id="id4">
+<img alt="Light Sensor" src="lesson/iot/pi/images/grovepi/light.jpg" />
+<p class="caption"><span class="caption-text">Light Sensor</span></p>
+</div>
+</div>
+<div class="section" id="rotary-angle-sensor">
+<h2>6.7.6. Rotary Angle Sensor<a class="headerlink" href="#rotary-angle-sensor" title="Permalink to this headline">¶</a></h2>
+<p>The rotary angle sensor measures the angle to which it is turned.
+Connect the sensor to an analog port. Port A0 is the default. The
+<code class="docutils literal"><span class="pre">RotarySensor</span></code> class can be found here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/rotary.py">RotarySensor
+Class</a></li>
+</ul>
+<div class="figure" id="id5">
+<img alt="Rotary Angle Sensor" src="lesson/iot/pi/images/grovepi/rotary.jpg" />
+<p class="caption"><span class="caption-text">Rotary Angle Sensor</span></p>
+</div>
+</div>
+<div class="section" id="barometer">
+<h2>6.7.7. Barometer<a class="headerlink" href="#barometer" title="Permalink to this headline">¶</a></h2>
+<p>Connect the barometer to an I2C port. In addition to pressure, the
+GrovePi barometer measures temperature in Fahrenheit and Celcius. The
+<code class="docutils literal"><span class="pre">Barometer</span></code> class can be found here.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/barometer.py">Barometer
+Class</a></li>
+</ul>
+<p>!Barometer](images/grovepi/barometer.jpg)</p>
+</div>
+<div class="section" id="distance-sensor">
+<h2>6.7.8. Distance Sensor<a class="headerlink" href="#distance-sensor" title="Permalink to this headline">¶</a></h2>
+<p>Connect the distance sensor to a digital port. The grovepi module has a
+built-in function to read the distance from the distance sensor, but it
+is improperly calibrated, so this DistanceSensor class has a calibration
+based on experimental data. The <code class="docutils literal"><span class="pre">DistanceSensor</span></code> class can be found
+here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/distance.py">DistanceSensor
+Class</a></li>
+</ul>
+<div class="figure" id="id6">
+<img alt="Distance Sensor" src="lesson/iot/pi/images/grovepi/distance.jpg" />
+<p class="caption"><span class="caption-text">Distance Sensor</span></p>
+</div>
+</div>
+<div class="section" id="temperature-sensor">
+<h2>6.7.9. Temperature Sensor<a class="headerlink" href="#temperature-sensor" title="Permalink to this headline">¶</a></h2>
+<p>The temperature sensor measures both temperature and humidity. Connect
+the temperature sensor to a digital port. D7 is the default port. The
+<code class="docutils literal"><span class="pre">TemperatureSensor</span></code> class can be found here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/temperature.py">TemperatureSensor
+Class</a></li>
+</ul>
+<div class="figure" id="id7">
+<img alt="Temperature Sensor" src="lesson/iot/pi/images/grovepi/temperature.jpg" />
+<p class="caption"><span class="caption-text">Temperature Sensor</span></p>
+</div>
+</div>
+<div class="section" id="heartbeat-sensor">
+<h2>6.7.10. Heartbeat Sensor<a class="headerlink" href="#heartbeat-sensor" title="Permalink to this headline">¶</a></h2>
+<p>Connect the heartbeat sensor to an I2C port. The heartbeat sensor
+returns the heart rate of the wearer. The <code class="docutils literal"><span class="pre">HeartbeatSensor</span></code> class can
+be found here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/heartbeat.py">HearbeatSensor
+Class</a></li>
+</ul>
+<div class="figure" id="id8">
+<img alt="image" src="lesson/iot/pi/images/grovepi/heartbeat.jpg" />
+<p class="caption"><span class="caption-text">image</span></p>
+</div>
+</div>
+<div class="section" id="joystick">
+<h2>6.7.11. Joystick<a class="headerlink" href="#joystick" title="Permalink to this headline">¶</a></h2>
+<p>Connect the joystick to an analog port. A0 is the default port. The
+joystick has an x, y, and click status based on the current state of the
+module. The <code class="docutils literal"><span class="pre">Joystick</span></code> class can be found here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/joystick.py">Joystick
+Class</a></li>
+</ul>
+<div class="figure" id="id9">
+<img alt="image" src="lesson/iot/pi/images/grovepi/joystick.jpg" />
+<p class="caption"><span class="caption-text">image</span></p>
+</div>
+</div>
+<div class="section" id="lcd-screen">
+<h2>6.7.12. LCD Screen<a class="headerlink" href="#lcd-screen" title="Permalink to this headline">¶</a></h2>
+<p>The LCD screen can be used to display text and colors. In order to use
+it, plug it into one of the I2C ports. The <code class="docutils literal"><span class="pre">LCD</span></code> class can be found
+here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/lcd.py">LCD
+Class</a></li>
+</ul>
+<div class="figure" id="id10">
+<img alt="LCD Screen" src="lesson/iot/pi/images/grovepi/lcd.jpg" />
+<p class="caption"><span class="caption-text">LCD Screen</span></p>
+</div>
+</div>
+<div class="section" id="moisture-sensor">
+<h2>6.7.13. Moisture Sensor<a class="headerlink" href="#moisture-sensor" title="Permalink to this headline">¶</a></h2>
+<p>Connect the moisture sensor to an analog port. The default port is A0.
+The <code class="docutils literal"><span class="pre">MoistureSensor</span></code> class can be found here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/moisture.py">MoistureSensor
+Class</a></li>
+</ul>
+<div class="figure" id="id11">
+<img alt="Moisture Sensor" src="lesson/iot/pi/images/grovepi/moisture.jpg" />
+<p class="caption"><span class="caption-text">Moisture Sensor</span></p>
+</div>
+<p>An example of the implimentation of the moisture sensor from Dexter
+Industries can be found
+<a class="reference external" href="https://github.com/DexterInd/GrovePi/blob/master/Projects/plant_monitor/plant_project.py">here</a>.
+The program is meant to measure the environmental conditions that affect
+plant growth.</p>
+</div>
+<div class="section" id="water-sensor">
+<h2>6.7.14. Water Sensor<a class="headerlink" href="#water-sensor" title="Permalink to this headline">¶</a></h2>
+<p>The water sensor measures the amount of water in the environment of the
+sensor. Connect the sensor to a digital point. D2 is the default port.
+The <code class="docutils literal"><span class="pre">WaterSensor</span></code> class can be found here:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/water.py">WaterSensor
+Class</a></li>
+</ul>
+<div class="figure" id="id12">
+<img alt="Water Sensor" src="lesson/iot/pi/images/grovepi/water.jpg" />
+<p class="caption"><span class="caption-text">Water Sensor</span></p>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
