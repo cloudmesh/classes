@@ -1,5 +1,11 @@
 # Sensors
 
+This section is to be completed by the students of the class. 
+
+Task is to develop an object oriented class for one of the sensors. An example for such a class can be found at:
+
+* [https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/led.py](https://github.com/cloudmesh/cloudmesh.pi/blob/master/cloudmesh/pi/led.py)
+
 ## Compass
 
 TODO: which compas sensor
