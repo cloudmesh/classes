@@ -140,7 +140,7 @@ installed. To avoid this it is bets to work in an isolated python we
 can use tools such as virtualenv, pyenv or pyvenv for 3.6.1. Which you
 use depends on you, but we highly recommend pyenv if you can.
 
-
+.. _section_pyenv:
 
 Managing Multiple Python Versions with Pyenv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -190,7 +190,7 @@ Install pyenv on Ubuntu
 """""""""""""""""""""""
 
 .. warning:: the instalation on ubuntu is not tested and we are
-             looking fro feedback
+             looking for feedback
              
 ::
 
@@ -208,7 +208,7 @@ Install pyenv on Ubuntu
    echo 'pyenv virtualenvwrapper' >> ~/.bashrc
 
 
-   
+
 
 
 Install Different Python Versions
@@ -235,7 +235,7 @@ use the following commands::
    $ pyenv virtualenv 3.6.1 ENV3
 
 In the example above, `ENV2` would represent python 2.7.13 while `ENV3`
-would represent python 3.6.0. Often it is easier to type the alias rather 
+would represent python 3.6.1. Often it is easier to type the alias rather 
 than the explicit version.
    
 Set up the Shell
@@ -268,14 +268,14 @@ After setting up the different environments, switching between them is now easy.
 Simply use the following commands::
 
   
-  (2.7.13) laptop~ gregor$ pyenv activate ENV2
-  (ENV2) laptop~ gregor$ pyenv activate ENV3
-  (ENV3) laptop~ gregor$ pyenv activate ENV2
-  (ENV2) laptop~ gregor$ pyenv deactivate ENV2
-  (2.7.13) laptop~ gregor$ 
+  (2.7.13) $ pyenv activate ENV2
+  (ENV2) $ pyenv activate ENV3
+  (ENV3) $ pyenv activate ENV2
+  (ENV2) $ pyenv deactivate ENV2
+  (2.7.13) $ 
 
-To make it even easier, you can add the following lines to your `.bash_provild`
-file::
+To make it even easier, you can add the following lines to your
+`.bash_profile` file::
 
   alias ENV2="pyenv activate ENV2"
   alias ENV3="pyenv activate ENV3"
@@ -286,7 +286,12 @@ versions of python simply by typing::
   $ ENV2
   $ ENV3
 
-Try it out.
+
+Instalation without pyenv
+-------------------------
+If you need to have more than one python version
+installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
+and 3.6.1 from python.org (https://www.python.org/downloads/)
 
 Make sure pip is up to date
 """""""""""""""""""""""""""
@@ -330,7 +335,7 @@ you will see after the install completed the anaconda versiosn installed::
    2.7.13/envs/ENV2
    3.6.1
    3.6.1/envs/ENV3
-*  ENV2 (set by PYENV_VERSION environment variable)
+   *ENV2 (set by PYENV_VERSION environment variable)
    ENV3
    anaconda2-4.3.1
    anaconda3-4.3.1
@@ -340,7 +345,17 @@ Let us now create virtualenv for anaconda::
    $ pyenv virtualenv anaconda2-4.3.1 ANA2
    $ pyenv virtualenv anaconda3-4.3.1 ANA3
 
-   
+To activate it you can now use::
+
+  $ pyenv activate ENV3
+  $ pyenv activate ENV2
+
+However, anaconda may modify your .bashrc or .bash_profile files and ,
+may result in incompatibilities with other python versions. For this
+reason we recommend not to use it. If you find ways to get it to work
+reliably with other versions, please let us know and we update this
+tutorial.
+
    
 Excersise
 """""""""
@@ -1308,13 +1323,13 @@ You can install Kivy on OSX as followes::
 A hello world program for kivy is included in the cloudmesh.robot
 reporitoy. Which you can fine here
 
-.. todo:: Jon, put link of git prg here
+* https://github.com/cloudmesh/cloudmesh.robot/tree/master/projects/kivy
 
 To run the program, please download it or execute it in
-cloudm,esh.robot as follows::
+cloudmesh.robot as follows::
 
-    cd cloudmesh.robot/kivy
-    python test1.py
+    cd cloudmesh.robot/projects/kivy
+    python swim.py
 
 To create stand alone packages with kivy, please see::
 
@@ -1428,8 +1443,8 @@ when you ``cd`` into it. It's easy to use and install.
 
 This is great for...
 
-   - auto-activating virtualenvs
-   - project-specific environment variables
+* auto-activating virtualenvs
+* project-specific environment variables
 
 
 Here is how to use it. Add the ENV you created with virtualenv into
@@ -1461,9 +1476,9 @@ Using git::
 
 Before sourcing activate.sh, you can set the following variables:
 
-   - ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
-   - ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
-   - ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
+* ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
+ * ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
+* ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
 
 
 Autoenv overrides ``cd``. If you already do this, invoke
@@ -1661,3 +1676,4 @@ Python.2:
     #. Write a program that uses ``docopt`` to define a commandline
        program. Hint: modify the FizzBuzz program.
     #. Demonstrate the program works and submit the code and output.
+

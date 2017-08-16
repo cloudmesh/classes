@@ -111,7 +111,45 @@ The report must be spell checked.
 .. warning:: There will be **NO EXCEPTION** to this. We will not
              review your report if its submission is incomplete.
 
-             
+Leverage parallel editing
+-------------------------
+
+In most cases you will be able to work in groups on class
+projects. This allows you to develop the report collaboratively. Here
+are some options:
+
+#. LaTeX and git: THis option will likely safe you time as you can
+   use jabref also for manageing collaborative bibliographies and
+#. MS onedrive: It allows you to edit a word document in
+   collaboration. We recommend that you use a local installed version
+   of Word and do the editiong with that, rather than useing the
+   online verison. The online editor has some bugs. See also
+   (untested):
+   http://www.paulkiddie.com/2009/07/jabref-exports-to-word-2007-xml/,
+   http://usefulcodes.blogspot.com/2015/01/using-jabref-to-import-bib-to-microsoft.html 
+#. Google Drive: google drive could be used to collaborate on text
+   that is than pasted into document. he final document will not
+   accept as google document. You must use the 2 column ACM
+   template. We observed that students that use google docs lack
+   structure and we no longer allow it as final document format. It
+   also does not allow us to uniformly compare the documents between
+   each other. It is easy to transfer it to LaTeX.
+
+Timemanagement Tips
+-------------------
+
+Obviously taking a class takes time
+
+#. It takes time to read the information
+#. It takes time understand the information
+#. It takes time to do the project
+#. This will get you in trouble: *There are still 10 weeks left till
+   the project is due so let me start in 4 weeks ...*. Postponing the
+   project till the last moment
+
+#. Do not spend significant time on unimportant documentation and
+   setup. Instead spend time to develop cmd5 comamnds and scripts that
+   do these things automatically
   
 Report Checklist
 ----------------
@@ -131,6 +169,7 @@ This partiald list may serve as a way to check if you follow the rules
 #. Have you added an appendix describing who did what in the project
    or report?
 #. Have you spellchecked the paper?
+#. Are you useing **a** and **the** properly? 
 #. Have you made sure you do not plagiarize?
 #. Have you not used phrases such as shown in the Figure below, but
    instead used as shown in Figure 3 when referring to the 3rd
@@ -157,8 +196,27 @@ This partiald list may serve as a way to check if you follow the rules
    consistent progress.
 #. Is in your report directory a README.rst file in it as shown in the
    example project that we introduced you to?
-
+   
 If you observe something missing let us know.
+
+In case you are allowed to use word The following applies in addition
+
+#. Are you manageing your refernces in jabref and endnote (we need
+   both)
+#. Are you using the right template we have a special 2 column template
+   for the class that is a modified version from the 2 column ACM
+   template
+#. Are you using build in numbered section management? MSWord has
+   Sections that must be used
+#.  Are you using real bulleted lists in Word and not just a "*" or a
+    "-"?
+#. Have you carelessly pasted and copied into the document without
+   using proper formats. E.g. in MSWord this is a problem. You need to
+   fix the format and use the build in format. Not that if you paste
+   wrong you effect the format styles.
+#. Have you created not only a docx document but also the PDF.
+#. Make sure you use .docx and not .doc
+
 
 README.rst
 ----------

@@ -18,17 +18,15 @@ The source code for cmd5 is located in github:
 
 * https://github.com/cloudmesh/cmd5
 
-Installation from source
------------------------
+Creating a Python Development Environment
+-----------------------------------------
 
 We recommend that you use a virtualenv either with virtualenv or
-pyenv. This can be either achieved vor virtualenv with::
+pyenv. This is in detail documented in the Section :ref:`section_pyenv`.
 
-    virtualenv ~/ENV2
 
-or for pyenv, with::
-
-    pyenev virtualenv 2.7.13 ENV2
+Installation from source
+-----------------------
 
 Cmd5 can easily deployed with pip::
 
@@ -43,7 +41,7 @@ recommend you install the cloudmesh sys command with::
 In case you like to work with the source please cone the following
 directories from github::
 
-  mkdir ~/github
+  mkdir -p ~/github
   cd ~/github
 
   git clone https://github.com/cloudmesh/cloudmesh.common.git
@@ -90,7 +88,7 @@ It will print the banner and enter the shell::
     cms>
 
 
-To see the list of commands you can say
+To see the list of commands you can say::
 
     cms> help
 
