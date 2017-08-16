@@ -41,7 +41,7 @@ Install pyenv on Ubuntu
 -----------------------
 
 .. warning:: the instalation on ubuntu is not tested and we are
-             looking fro feedback
+             looking for feedback
              
 ::
 
