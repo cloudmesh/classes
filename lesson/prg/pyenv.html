@@ -87,7 +87,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">3. Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">2.3. Contributing</a></li>
 </ul>
 </li>
 </ul>
@@ -302,7 +302,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/links.html">Links Report</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">3. Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">2.3. Contributing</a></li>
 </ul>
 </li>
 </ul>
@@ -590,14 +590,14 @@ PS1=&quot;\$(__pyenv_version_ps1) ${PS1}&quot;
 <h2>5.1.6. Switching Environments<a class="headerlink" href="#switching-environments" title="Permalink to this headline">¶</a></h2>
 <p>After setting up the different environments, switching between them is now easy.
 Simply use the following commands:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>(2.7.13) laptop~ gregor$ pyenv activate ENV2
-(ENV2) laptop~ gregor$ pyenv activate ENV3
-(ENV3) laptop~ gregor$ pyenv activate ENV2
-(ENV2) laptop~ gregor$ pyenv deactivate ENV2
-(2.7.13) laptop~ gregor$
+<div class="highlight-default"><div class="highlight"><pre><span></span>(2.7.13) $ pyenv activate ENV2
+(ENV2) $ pyenv activate ENV3
+(ENV3) $ pyenv activate ENV2
+(ENV2) $ pyenv deactivate ENV2
+(2.7.13) $
 </pre></div>
 </div>
-<p>To make it even easier, you can add the following lines to your <cite>.bash_provild</cite>
+<p>To make it even easier, you can add the following lines to your <cite>.bash_profile</cite>
 file:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">alias</span> <span class="n">ENV2</span><span class="o">=</span><span class="s2">&quot;pyenv activate ENV2&quot;</span>
 <span class="n">alias</span> <span class="n">ENV3</span><span class="o">=</span><span class="s2">&quot;pyenv activate ENV3&quot;</span>
@@ -645,20 +645,19 @@ out if you leave of the version after the 2 or 3.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pyenv</span> <span class="n">versions</span>
 </pre></div>
 </div>
-<p>you will see after the install completed the anaconda versiosn installed.</p>
-<blockquote>
-<div>pyenv versions
-system
-2.7.13
-2.7.13/envs/ENV2
-3.6.1
-3.6.1/envs/ENV3</div></blockquote>
-<ul class="simple">
-<li>ENV2 (set by PYENV_VERSION environment variable)
-ENV3
-anaconda2-4.3.1
-anaconda3-4.3.1</li>
-</ul>
+<p>you will see after the install completed the anaconda versiosn installed:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pyenv</span> <span class="n">versions</span>
+<span class="n">system</span>
+<span class="mf">2.7</span><span class="o">.</span><span class="mi">13</span>
+<span class="mf">2.7</span><span class="o">.</span><span class="mi">13</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">ENV2</span>
+<span class="mf">3.6</span><span class="o">.</span><span class="mi">1</span>
+<span class="mf">3.6</span><span class="o">.</span><span class="mi">1</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">ENV3</span>
+<span class="o">*</span> <span class="n">ENV2</span> <span class="p">(</span><span class="nb">set</span> <span class="n">by</span> <span class="n">PYENV_VERSION</span> <span class="n">environment</span> <span class="n">variable</span><span class="p">)</span>
+<span class="n">ENV3</span>
+<span class="n">anaconda2</span><span class="o">-</span><span class="mf">4.3</span><span class="o">.</span><span class="mi">1</span>
+<span class="n">anaconda3</span><span class="o">-</span><span class="mf">4.3</span><span class="o">.</span><span class="mi">1</span>
+</pre></div>
+</div>
 <p>Let us now create virtualenv for anaconda:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv virtualenv anaconda2-4.3.1 ANA2
 $ pyenv virtualenv anaconda3-4.3.1 ANA3

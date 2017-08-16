@@ -122,13 +122,13 @@ After setting up the different environments, switching between them is now easy.
 Simply use the following commands::
 
   
-  (2.7.13) laptop~ gregor$ pyenv activate ENV2
-  (ENV2) laptop~ gregor$ pyenv activate ENV3
-  (ENV3) laptop~ gregor$ pyenv activate ENV2
-  (ENV2) laptop~ gregor$ pyenv deactivate ENV2
-  (2.7.13) laptop~ gregor$ 
+  (2.7.13) $ pyenv activate ENV2
+  (ENV2) $ pyenv activate ENV3
+  (ENV3) $ pyenv activate ENV2
+  (ENV2) $ pyenv deactivate ENV2
+  (2.7.13) $ 
 
-To make it even easier, you can add the following lines to your `.bash_provild`
+To make it even easier, you can add the following lines to your `.bash_profile`
 file::
 
   alias ENV2="pyenv activate ENV2"
@@ -176,7 +176,7 @@ When executing::
 
    pyenv versions
 
-you will see after the install completed the anaconda versiosn installed. 
+you will see after the install completed the anaconda versiosn installed::
    
    pyenv versions
    system
@@ -184,7 +184,7 @@ you will see after the install completed the anaconda versiosn installed.
    2.7.13/envs/ENV2
    3.6.1
    3.6.1/envs/ENV3
-*  ENV2 (set by PYENV_VERSION environment variable)
+   * ENV2 (set by PYENV_VERSION environment variable)
    ENV3
    anaconda2-4.3.1
    anaconda3-4.3.1
