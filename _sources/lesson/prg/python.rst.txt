@@ -140,7 +140,7 @@ installed. To avoid this it is bets to work in an isolated python we
 can use tools such as virtualenv, pyenv or pyvenv for 3.6.1. Which you
 use depends on you, but we highly recommend pyenv if you can.
 
-
+.. _section_pyenv:
 
 Managing Multiple Python Versions with Pyenv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1323,13 +1323,13 @@ You can install Kivy on OSX as followes::
 A hello world program for kivy is included in the cloudmesh.robot
 reporitoy. Which you can fine here
 
-.. todo:: Jon, put link of git prg here
+* https://github.com/cloudmesh/cloudmesh.robot/tree/master/projects/kivy
 
 To run the program, please download it or execute it in
-cloudm,esh.robot as follows::
+cloudmesh.robot as follows::
 
-    cd cloudmesh.robot/kivy
-    python test1.py
+    cd cloudmesh.robot/projects/kivy
+    python swim.py
 
 To create stand alone packages with kivy, please see::
 
@@ -1476,9 +1476,9 @@ Using git::
 
 Before sourcing activate.sh, you can set the following variables:
 
-   - ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
-   - ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
-   - ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
+* ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
+ * ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
+* ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
 
 
 Autoenv overrides ``cd``. If you already do this, invoke
@@ -1676,3 +1676,4 @@ Python.2:
     #. Write a program that uses ``docopt`` to define a commandline
        program. Hint: modify the FizzBuzz program.
     #. Demonstrate the program works and submit the code and output.
+

@@ -149,7 +149,10 @@ for. Use of docker swarm is allowed.
 Requirements
 ~~~~~~~~~~~~
 
-.. todo:: list requirements as differing from "Common Requirements"
+Deployment projects must include a repeatable deployment framework
+that uses cmd5 and ansible. When using ansible it should be called
+from a custoom cmd5 program.
+
 
 
 Example projects
@@ -216,7 +219,9 @@ interpret your analysis code in your README.
 Requirements
 ~~~~~~~~~~~~
 
-.. todo:: list requirements as differing from "Common Requirements"
+An analytocs project may focus on a sophisticated and academically
+correct usage of an analytics of data. It must be significant and not
+just a simple replication of what others have done before. 
 
 
 Example projects
