@@ -15,7 +15,7 @@ Before you can install an OS on your sd card, you must erase it and put it in th
 1. Insert your sd card into your micro-sd adapter and open Disk Utility with a spotlight search.
 2. In the Disk Utility, right click the name of the sd card and select erase.
 3. Name the sd card and format it as MS-DOS (FAT). Then click erase.
-![](images/diskutil.png)
+![](../images/diskutil.png)
 4. If it does not erase the first time, try again. It sometimes takes multiple tries to work.
 
 ### Installation of NOOBS
@@ -28,7 +28,7 @@ NOOBS is an OS that includes Raspian. The official descrition of Raspbian can be
 5. Power up your raspberry and you will see a menu like this  
 
 
-![](images/noobs.jpg)
+![](../images/noobs.jpg)
 
 6. Select Raspbian and click `Install (i)`
 
@@ -39,7 +39,7 @@ The version of Dexter that you want to flash onto your sd card is called Raspbia
 2. Once the file has downloaded, uncompress it and insert your sd card into the micro-sd adapter.
 3. Open etcher and flash the uncompressed jessie image onto the sd card.
 
-![](images/etcher.png)
+![](../images/etcher.png)
 
 4. Eject your sd card and insert it into your raspberry pi.
 
