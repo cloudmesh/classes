@@ -45,6 +45,7 @@ Content
 
    preface
    class
+   organization
    writing
    code
    python
