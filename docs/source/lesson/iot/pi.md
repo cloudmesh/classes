@@ -15,11 +15,11 @@ Before you can install an OS on your sd card, you must erase it and put it in th
 1. Insert your sd card into your micro-sd adapter and open Disk Utility with a spotlight search.
 2. In the Disk Utility, right click the name of the sd card and select erase.
 3. Name the sd card and format it as MS-DOS (FAT). Then click erase.
-![](../images/diskutil.png)
+![](images/diskutil.png)
 4. If it does not erase the first time, try again. It sometimes takes multiple tries to work.
 
 ### Installation of NOOBS
-NOOBS is an OS that includes Raspian. The official descrition of Raspbian can be found [here](https://www.raspberrypi.org/downloads/raspbian/). It comes pre-packaged with many useful programming tools, and is easy to use.
+NOOBS is an OS that includes Raspian. The official descrition of Raspbian can be found [here](https://www.raspberrypi.org/downloads/raspbian/). It comes pre-packaged with many useful programming tools, and is easy to use. Before you start, make sure that your sd card has been erased and formatted properly.
 
 1. Download Noobs [here](https://www.raspberrypi.org/downloads/noobs/). This will take around 30 minutes.
 2. Go to your Finder and in Downloads, search for NOOBS.
@@ -28,18 +28,18 @@ NOOBS is an OS that includes Raspian. The official descrition of Raspbian can be
 5. Power up your raspberry and you will see a menu like this  
 
 
-![](../images/noobs.jpg)
+![](images/noobs.jpg)
 
 6. Select Raspbian and click `Install (i)`
 
 ### Installation of Dexter
-The version of Dexter that you want to flash onto your sd card is called Raspbian for Robots. This is a Raspbian based os that is compatible with the GrovePi board. It also comes with pre-installed Dexter Industries software.  
+The version of Dexter that you want to flash onto your sd card is called Raspbian for Robots. This is a Raspbian based os that is compatible with the GrovePi board. It also comes with pre-installed Dexter Industries software. Before you start, make sure that your sd card has been erased and formatted properly. 
 
 1. First, download the most recent Dexter_Industries_jessie.zip file from [here](https://sourceforge.net/projects/dexterindustriesraspbianflavor/).
 2. Once the file has downloaded, uncompress it and insert your sd card into the micro-sd adapter.
 3. Open etcher and flash the uncompressed jessie image onto the sd card.
 
-![](../images/etcher.png)
+![](images/etcher.png)
 
 4. Eject your sd card and insert it into your raspberry pi.
 
@@ -55,101 +55,38 @@ The following are essential updates:
 	sudo apt-get update
 	sudo apt-get upgrade
 	sudo apt-get install emacs
-	dpkg -l > ~/Desktop/packages.list
-	pip freeze > ~/Desktop/pip-freeze-initial.list
 	
-The following are necessary for the scientific libraries, but they require lots of space. Our sd cards do not have enough space for them.
-
-	sudo apt-get install build-essential python-dev python-distlib python-setuptools python-pip python-wheel libzmq-dev libgdal-dev
-	sudo apt-get install xsel xclip libxml2-dev libxslt-dev python-lxml python-h5py python-numexpr python-dateutil python-six python-tz python-bs4 python-html5lib python-openpyxl python-tables python-xlrd python-xlwt cython python-sqlalchemy python-xlsxwriter python-jinja2 python-boto python-gflags python-googleapi python-httplib2 python-zmq libspatialindex-dev
-	sudo pip install bottleneck rtree
+Change your default python version:
 	
-
+	$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+	$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 2
+	$ sudo update-alternatives --config python
 	
-add to .bashrc
-
-	cd
-	git clone git://github.com/yyuu/pyenv.git .pyenv
-	echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-	echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-	echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-	source ~/.bashrc
+Select the version of python that you wish to be your default. 
 	
-	export PATH="/home/pi/.pyenv/bin:$PATH"
-	eval "$(pyenv init -)"
-	eval "$(pyenv virtualenv-init -)"
-	
-	curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
-
-source 
+pyenv does not seem to work on raspberry pi's
 
 ### Update to Python 3.6.1
-
-## change python version
-
-
-* [https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux]  (https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux)
-
-Upgrade setuptools for pip install with 
-
-        $ pip3 install --upgrade setuptools
-        
-
-Test your python version with
-
-        $ python --version
-        
-Check your python version alternatives
-   
-        $ update-alternatives --list python
-        
-If python2.7 is not in your alternatives, add it with 
-
-        $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
-        
-If python3.4 is not in your alternatives, add it with 
-
-        $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 2
-        
-Now make python3.4 to your default with
-
-        update-alternatives --config python
-Select python3.4
-
-        
-
-## install 3.6.1
-
-To install python 3.6.1, follow steps 1 and 2. This is unnecessary for our purposes.
-
-* [better get 3.6.1](https://gist.github.com/dschep/24aa61672a2092246eaca2824400d37f)
-
-## install cloudmesh.pi
-
-pip install cloudmesh.pi
-
-
-pip install cloudmesh.pi with
-        
-        $ git clone https://github.com/cloudmesh/cloudmesh.pi.git
-        $ cd cloudmesh.pi
-        $ sudo pip3 install .
-
 
 see how we do this in osx/linux can this be done on raspbery?
 if not document update from source with altinstall
 
 ### Install scientific Libraries
 
-check if they are already installed
-we don't have enough space to install all of these.
+These scientific libraries have not been entirely implemented. These instructions are incomplete.
 
 	sudo apt-get install python-numpy python-matplotlib python-scipy python-sklearn python-pandas
 
-numpy  
-matplotlib  
-scipy  
-scikitlearn
+numpy: `sudo apt-get install python-numpy`  
+matplotlib: Extremely Slow
+
+	git clone https://github.com/matplotlib/matplotlib
+	cd matplotlib
+	python3 setup.py build
+	sudo python3 setup.py install
+	
+scipy: `$ sudo apt-get install python3-scipy`
+scikitlearn: 
 
 ### cloudmesh.pi (Jon)
 
@@ -165,11 +102,9 @@ If you have Raspian for Robots, run the following in your terminal:
 	sudo pip install .
 	
 
-
-
 ### Install VNC
 
-describe how to install and configure VNC
+VNC comes pre-installed with NOOBS os, but you must enable it in your raspberry pi preferences.
 
 
 ## Sensors (Jon)
@@ -383,22 +318,3 @@ comandline has (cv) in front
 * [PI Camera Line Follower](https://www.raspberrypi.org/blog/an-image-processing-robot-for-robocup-junior/)  
 * [Pi car flask](https://circuitdigest.com/microcontroller-projects/web-controlled-raspberry-pi-surveillance-robot)
 
-
-
-## OTHER TO BE INTEGRATED
-
-### PI emulator on Windows
-
-We have not yet tried it, but we like to hear back from you on experiences with 
-
-* https://sourceforge.net/projects/rpiqemuwindows/
-
-
-### Scratch
-
-* [scratch](https://github.com/DexterInd/GrovePi/tree/master/Software/Scratch)
-
-
-## Web Server
-
-* [Web Server Flask](https://www.raspberrypi.org/learning/python-web-server-with-flask/worksheet/)
