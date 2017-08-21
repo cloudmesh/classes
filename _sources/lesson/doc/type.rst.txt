@@ -12,6 +12,7 @@ blog:
     in an informal or conversational style.
 
 Advantages:
+
 * encourages spontaneous posts
 * encourages small short contributions
 * chronologically ordered
@@ -19,6 +20,7 @@ Advantages:
 * online services exists to set up blogs
   
 Disadvantages:
+
 * structuring data is difficult (some blog software support it)
 * not suitable for formal development of a paper
 * often lack of sophisticated track change features
@@ -44,10 +46,12 @@ Advantages:
 * written in python and using bash, so extensions and custom automation are possible
   
 Disadvantage:
+
 * requires compile step
 * When using markdown github can render individual page
 
 Others:
+
 * Read the Docs (https://readthedocs.org/)
 * Doxygen (http://www.stack.nl/~dimitri/doxygen/)
 * MkDocs (http://www.mkdocs.org/)
@@ -91,11 +95,13 @@ visualization, sharing and collaboration features to Hadoop and Spark.
 
 
 Advantages:
+
 * integration to various framework
 * Web framework
 * integration with spark, hadoop
 
 Disadvantages:
+
 * larger framework
 * must leverages existing deployments of spak, hadoop
 
@@ -131,32 +137,28 @@ Editors
 * MacDown/Markdown editors
 * pyCharm
 
-Collaboratories
-===============
+
+References
+----------
+
+Collaboratories:
+
+* Myers JD, TC Allison, SJ Bittner, BT Didier, M Frenklach, WH Green,
+  YL Ho, J Hewson, WS Koegler, CS Lansing, D Leahy, M Lee, R McCoy, M
+  Minkoff, S Nijsure, G von Laszewski, D Montoya, L Oluwole, CM
+  Pancerella, R Pinzon, W Pitz, LA Rahn, B Ruscic, KL Schuchardt, EG
+  Stephan, A Wagner, TL Windus, and C Yang. 2005. "A Collaborative
+  Informatics Infrastructure for Multi-scale Science." Cluster
+  Computing 8(4):243-253.
+* Metadata in the Collaboratory for Multi-Scale Chemical Science
+  Carmen Pancerella, John Hewson, Wendy Koegler, David Leahy, Michael
+  Lee, Larry Rahn, Christine Yang, James D. Myers, Brett Didier,
+  Renata McCoy, Karen Schuchardt, Eric Stephan, Theresa Windus, Kaizar
+  Amin, Sandra Bittner, Carina Lansing, Michael Minkoff, Sandeep
+  Nijsure, Gregor von Laszewski, Reinhardt Pinzon, Branko Ruscic, Al
+  Wagner, Baoshan Wang, William Pitz, Yen-Ling Ho, David Montoya, Lili
+  Xu, Thomas C. Allison, William H. Green, Jr., Michael Frenklach
+  http://dcpapers.dublincore.org/pubs/article/view/740/736
 
 
-Authors work work
 
-Myers JD, TC Allison, SJ Bittner, BT Didier, M Frenklach, WH Green, YL
-Ho, J Hewson, WS Koegler, CS Lansing, D Leahy, M Lee, R McCoy, M
-Minkoff, S Nijsure, G von Laszewski, D Montoya, L Oluwole, CM
-Pancerella, R Pinzon, W Pitz, LA Rahn, B Ruscic, KL Schuchardt, EG
-Stephan, A Wagner, TL Windus, and C Yang. 2005. "A Collaborative
-Informatics Infrastructure for Multi-scale Science." Cluster Computing
-8(4):243-253.
-
-
-Metadata in the Collaboratory for Multi-Scale Chemical Science
-Carmen Pancerella, John Hewson, Wendy Koegler, David Leahy, Michael
-Lee, Larry Rahn, Christine Yang, James D. Myers, Brett Didier, Renata
-McCoy, Karen Schuchardt, Eric Stephan, Theresa Windus, Kaizar Amin,
-Sandra Bittner, Carina Lansing, Michael Minkoff, Sandeep Nijsure,
-Gregor von Laszewski, Reinhardt Pinzon, Branko Ruscic, Al Wagner,
-Baoshan Wang, William Pitz, Yen-Ling Ho, David Montoya, Lili Xu,
-Thomas C. Allison, William H. Green, Jr., Michael Frenklach
-
-http://dcpapers.dublincore.org/pubs/article/view/740/736
-
-
-Gateways
-========

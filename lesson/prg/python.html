@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>5.1. Introduction to Python &#8212; Big Data Classes</title>
+    <title>6.1. Introduction to Python &#8212; Big Data Classes</title>
     <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -22,12 +22,12 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
-    <script type="text/javascript" src="../../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="5.2. CMD5" href="python-cmd5.html" />
-    <link rel="prev" title="5. Python" href="../../i523/2017/python.html" />
+    <link rel="next" title="6.2. CMD5" href="python-cmd5.html" />
+    <link rel="prev" title="6. Python" href="../../i523/2017/python.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -82,11 +82,11 @@
 <li class="toctree-l2"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">4.2. LaTeX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">3. Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">2.3. Contributing</a></li>
 </ul>
 </li>
 </ul>
@@ -230,74 +230,81 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">5.1. Introduction to Python</a><ul>
-<li><a class="reference internal" href="#about-the-tutorial">5.1.1. About the Tutorial</a></li>
-<li><a class="reference internal" href="#links">5.1.2. Links</a></li>
-<li><a class="reference internal" href="#python-installation">5.1.3. Python Installation</a></li>
-<li><a class="reference internal" href="#managing-custom-python-installs">5.1.4. Managing custom Python installs</a><ul>
-<li><a class="reference internal" href="#managing-multiple-python-versions-with-pyenv">5.1.4.1. Managing Multiple Python Versions with Pyenv</a><ul>
-<li><a class="reference internal" href="#instalation-without-pyenv">5.1.4.1.1. Instalation without pyenv</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-osx">5.1.4.1.2. Install pyenv on OSX</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-ubuntu">5.1.4.1.3. Install pyenv on Ubuntu</a></li>
-<li><a class="reference internal" href="#install-different-python-versions">5.1.4.1.4. Install Different Python Versions</a></li>
-<li><a class="reference internal" href="#set-up-the-shell">5.1.4.1.5. Set up the Shell</a></li>
-<li><a class="reference internal" href="#switching-environments">5.1.4.1.6. Switching Environments</a></li>
+<li><a class="reference internal" href="#">6.1. Introduction to Python</a><ul>
+<li><a class="reference internal" href="#about-the-tutorial">6.1.1. About the Tutorial</a></li>
+<li><a class="reference internal" href="#links">6.1.2. Links</a></li>
+<li><a class="reference internal" href="#python-installation">6.1.3. Python Installation</a></li>
+<li><a class="reference internal" href="#managing-custom-python-installs">6.1.4. Managing custom Python installs</a><ul>
+<li><a class="reference internal" href="#managing-multiple-python-versions-with-pyenv">6.1.4.1. Managing Multiple Python Versions with Pyenv</a><ul>
+<li><a class="reference internal" href="#instalation-without-pyenv">6.1.4.1.1. Instalation without pyenv</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-osx-from-git">6.1.4.1.2. Install pyenv on OSX from git</a></li>
+<li><a class="reference internal" href="#instalation-of-homebrew">6.1.4.1.3. Instalation of Homebrew</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-osx-with-homebrew">6.1.4.1.4. Install pyenv on OSX with Homebrew</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-ubuntu">6.1.4.1.5. Install pyenv on Ubuntu</a></li>
+<li><a class="reference internal" href="#install-different-python-versions">6.1.4.1.6. Install Different Python Versions</a></li>
+<li><a class="reference internal" href="#set-up-the-shell">6.1.4.1.7. Set up the Shell</a></li>
+<li><a class="reference internal" href="#switching-environments">6.1.4.1.8. Switching Environments</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a class="reference internal" href="#id3">5.1.5. Instalation without pyenv</a><ul>
-<li><a class="reference internal" href="#id4">5.1.5.1. virtualenv</a></li>
+<li><a class="reference internal" href="#id3">6.1.5. Instalation without pyenv</a><ul>
+<li><a class="reference internal" href="#miniconda">6.1.5.1. Miniconda</a><ul>
+<li><a class="reference internal" href="#anaconda">6.1.5.1.1. Anaconda</a></li>
+<li><a class="reference internal" href="#excersise">6.1.5.1.2. Excersise</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#interactive-python">5.1.6. Interactive Python</a></li>
-<li><a class="reference internal" href="#python-3-features-in-python-2">5.1.7. Python 3 Features in Python 2</a></li>
-<li><a class="reference internal" href="#statements-and-strings">5.1.8. Statements and Strings</a></li>
-<li><a class="reference internal" href="#variables">5.1.9. Variables</a></li>
-<li><a class="reference internal" href="#data-types">5.1.10. Data Types</a><ul>
-<li><a class="reference internal" href="#booleans">5.1.10.1. Booleans</a></li>
-<li><a class="reference internal" href="#numbers">5.1.10.2. Numbers</a></li>
+<li><a class="reference internal" href="#id4">6.1.5.2. virtualenv</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#repl-read-eval-print-loop">5.1.11. REPL (Read Eval Print Loop)</a></li>
-<li><a class="reference internal" href="#control-statements">5.1.12. Control Statements</a><ul>
-<li><a class="reference internal" href="#comparision">5.1.12.1. Comparision</a></li>
-<li><a class="reference internal" href="#iteration">5.1.12.2. Iteration</a></li>
+<li><a class="reference internal" href="#interactive-python">6.1.6. Interactive Python</a></li>
+<li><a class="reference internal" href="#python-3-features-in-python-2">6.1.7. Python 3 Features in Python 2</a></li>
+<li><a class="reference internal" href="#statements-and-strings">6.1.8. Statements and Strings</a></li>
+<li><a class="reference internal" href="#variables">6.1.9. Variables</a></li>
+<li><a class="reference internal" href="#data-types">6.1.10. Data Types</a><ul>
+<li><a class="reference internal" href="#booleans">6.1.10.1. Booleans</a></li>
+<li><a class="reference internal" href="#numbers">6.1.10.2. Numbers</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#datatypes">5.1.13. Datatypes</a><ul>
-<li><a class="reference internal" href="#lists">5.1.13.1. Lists</a></li>
-<li><a class="reference internal" href="#sets">5.1.13.2. Sets</a></li>
-<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">5.1.13.3. Removal and Testing for Membership in Sets</a></li>
-<li><a class="reference internal" href="#dictionaries">5.1.13.4. Dictionaries</a></li>
-<li><a class="reference internal" href="#dictionary-keys-and-values">5.1.13.5. Dictionary Keys and Values</a></li>
-<li><a class="reference internal" href="#counting-with-dictionaries">5.1.13.6. Counting with Dictionaries</a></li>
+<li><a class="reference internal" href="#repl-read-eval-print-loop">6.1.11. REPL (Read Eval Print Loop)</a></li>
+<li><a class="reference internal" href="#control-statements">6.1.12. Control Statements</a><ul>
+<li><a class="reference internal" href="#comparision">6.1.12.1. Comparision</a></li>
+<li><a class="reference internal" href="#iteration">6.1.12.2. Iteration</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#functions">5.1.14. Functions</a></li>
-<li><a class="reference internal" href="#classes">5.1.15. Classes</a></li>
-<li><a class="reference internal" href="#database-access">5.1.16. Database Access</a></li>
-<li><a class="reference internal" href="#modules">5.1.17. Modules</a></li>
-<li><a class="reference internal" href="#installing-libraries">5.1.18. Installing Libraries</a></li>
-<li><a class="reference internal" href="#using-pip-to-install-packages">5.1.19. Using pip to Install Packages</a></li>
-<li><a class="reference internal" href="#gui">5.1.20. GUI</a><ul>
-<li><a class="reference internal" href="#guizero">5.1.20.1. GUIZero</a></li>
-<li><a class="reference internal" href="#kivy">5.1.20.2. Kivy</a></li>
+<li><a class="reference internal" href="#datatypes">6.1.13. Datatypes</a><ul>
+<li><a class="reference internal" href="#lists">6.1.13.1. Lists</a></li>
+<li><a class="reference internal" href="#sets">6.1.13.2. Sets</a></li>
+<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">6.1.13.3. Removal and Testing for Membership in Sets</a></li>
+<li><a class="reference internal" href="#dictionaries">6.1.13.4. Dictionaries</a></li>
+<li><a class="reference internal" href="#dictionary-keys-and-values">6.1.13.5. Dictionary Keys and Values</a></li>
+<li><a class="reference internal" href="#counting-with-dictionaries">6.1.13.6. Counting with Dictionaries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#foramtting-and-checking-python-code">5.1.21. Foramtting and Checking Python Code</a></li>
-<li><a class="reference internal" href="#using-autopep8">5.1.22. Using autopep8</a></li>
-<li><a class="reference internal" href="#further-learning">5.1.23. Further Learning</a></li>
-<li><a class="reference internal" href="#writing-python-3-compatible-code">5.1.24. Writing Python 3 Compatible Code</a></li>
-<li><a class="reference internal" href="#using-python-on-futuresystems">5.1.25. Using Python on FutureSystems</a></li>
-<li><a class="reference internal" href="#ecosystem">5.1.26. Ecosystem</a><ul>
-<li><a class="reference internal" href="#autoenv-directory-based-environments">5.1.26.1. Autoenv: Directory-based Environments</a></li>
-<li><a class="reference internal" href="#pypi">5.1.26.2. pypi</a></li>
-<li><a class="reference internal" href="#alternative-installations">5.1.26.3. Alternative Installations</a></li>
+<li><a class="reference internal" href="#functions">6.1.14. Functions</a></li>
+<li><a class="reference internal" href="#classes">6.1.15. Classes</a></li>
+<li><a class="reference internal" href="#database-access">6.1.16. Database Access</a></li>
+<li><a class="reference internal" href="#modules">6.1.17. Modules</a></li>
+<li><a class="reference internal" href="#installing-libraries">6.1.18. Installing Libraries</a></li>
+<li><a class="reference internal" href="#using-pip-to-install-packages">6.1.19. Using pip to Install Packages</a></li>
+<li><a class="reference internal" href="#gui">6.1.20. GUI</a><ul>
+<li><a class="reference internal" href="#guizero">6.1.20.1. GUIZero</a></li>
+<li><a class="reference internal" href="#kivy">6.1.20.2. Kivy</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#resources">5.1.27. Resources</a></li>
-<li><a class="reference internal" href="#exercises">5.1.28. Exercises</a></li>
+<li><a class="reference internal" href="#foramtting-and-checking-python-code">6.1.21. Foramtting and Checking Python Code</a></li>
+<li><a class="reference internal" href="#using-autopep8">6.1.22. Using autopep8</a></li>
+<li><a class="reference internal" href="#further-learning">6.1.23. Further Learning</a></li>
+<li><a class="reference internal" href="#writing-python-3-compatible-code">6.1.24. Writing Python 3 Compatible Code</a></li>
+<li><a class="reference internal" href="#using-python-on-futuresystems">6.1.25. Using Python on FutureSystems</a></li>
+<li><a class="reference internal" href="#ecosystem">6.1.26. Ecosystem</a><ul>
+<li><a class="reference internal" href="#autoenv-directory-based-environments">6.1.26.1. Autoenv: Directory-based Environments</a></li>
+<li><a class="reference internal" href="#pypi">6.1.26.2. pypi</a></li>
+<li><a class="reference internal" href="#alternative-installations">6.1.26.3. Alternative Installations</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources">6.1.27. Resources</a></li>
+<li><a class="reference internal" href="#exercises">6.1.28. Exercises</a></li>
 </ul>
 </li>
 </ul>
@@ -354,11 +361,11 @@
 <li class="toctree-l2"><a class="reference internal" href="python_lesson1.html">Python Fingerprint Example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">3.4. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">4.2. LaTeX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">3. Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">2.3. Contributing</a></li>
 </ul>
 </li>
 </ul>
@@ -492,74 +499,81 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">5.1. Introduction to Python</a><ul>
-<li><a class="reference internal" href="#about-the-tutorial">5.1.1. About the Tutorial</a></li>
-<li><a class="reference internal" href="#links">5.1.2. Links</a></li>
-<li><a class="reference internal" href="#python-installation">5.1.3. Python Installation</a></li>
-<li><a class="reference internal" href="#managing-custom-python-installs">5.1.4. Managing custom Python installs</a><ul>
-<li><a class="reference internal" href="#managing-multiple-python-versions-with-pyenv">5.1.4.1. Managing Multiple Python Versions with Pyenv</a><ul>
-<li><a class="reference internal" href="#instalation-without-pyenv">5.1.4.1.1. Instalation without pyenv</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-osx">5.1.4.1.2. Install pyenv on OSX</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-ubuntu">5.1.4.1.3. Install pyenv on Ubuntu</a></li>
-<li><a class="reference internal" href="#install-different-python-versions">5.1.4.1.4. Install Different Python Versions</a></li>
-<li><a class="reference internal" href="#set-up-the-shell">5.1.4.1.5. Set up the Shell</a></li>
-<li><a class="reference internal" href="#switching-environments">5.1.4.1.6. Switching Environments</a></li>
+<li><a class="reference internal" href="#">6.1. Introduction to Python</a><ul>
+<li><a class="reference internal" href="#about-the-tutorial">6.1.1. About the Tutorial</a></li>
+<li><a class="reference internal" href="#links">6.1.2. Links</a></li>
+<li><a class="reference internal" href="#python-installation">6.1.3. Python Installation</a></li>
+<li><a class="reference internal" href="#managing-custom-python-installs">6.1.4. Managing custom Python installs</a><ul>
+<li><a class="reference internal" href="#managing-multiple-python-versions-with-pyenv">6.1.4.1. Managing Multiple Python Versions with Pyenv</a><ul>
+<li><a class="reference internal" href="#instalation-without-pyenv">6.1.4.1.1. Instalation without pyenv</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-osx-from-git">6.1.4.1.2. Install pyenv on OSX from git</a></li>
+<li><a class="reference internal" href="#instalation-of-homebrew">6.1.4.1.3. Instalation of Homebrew</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-osx-with-homebrew">6.1.4.1.4. Install pyenv on OSX with Homebrew</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-ubuntu">6.1.4.1.5. Install pyenv on Ubuntu</a></li>
+<li><a class="reference internal" href="#install-different-python-versions">6.1.4.1.6. Install Different Python Versions</a></li>
+<li><a class="reference internal" href="#set-up-the-shell">6.1.4.1.7. Set up the Shell</a></li>
+<li><a class="reference internal" href="#switching-environments">6.1.4.1.8. Switching Environments</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a class="reference internal" href="#id3">5.1.5. Instalation without pyenv</a><ul>
-<li><a class="reference internal" href="#id4">5.1.5.1. virtualenv</a></li>
+<li><a class="reference internal" href="#id3">6.1.5. Instalation without pyenv</a><ul>
+<li><a class="reference internal" href="#miniconda">6.1.5.1. Miniconda</a><ul>
+<li><a class="reference internal" href="#anaconda">6.1.5.1.1. Anaconda</a></li>
+<li><a class="reference internal" href="#excersise">6.1.5.1.2. Excersise</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#interactive-python">5.1.6. Interactive Python</a></li>
-<li><a class="reference internal" href="#python-3-features-in-python-2">5.1.7. Python 3 Features in Python 2</a></li>
-<li><a class="reference internal" href="#statements-and-strings">5.1.8. Statements and Strings</a></li>
-<li><a class="reference internal" href="#variables">5.1.9. Variables</a></li>
-<li><a class="reference internal" href="#data-types">5.1.10. Data Types</a><ul>
-<li><a class="reference internal" href="#booleans">5.1.10.1. Booleans</a></li>
-<li><a class="reference internal" href="#numbers">5.1.10.2. Numbers</a></li>
+<li><a class="reference internal" href="#id4">6.1.5.2. virtualenv</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#repl-read-eval-print-loop">5.1.11. REPL (Read Eval Print Loop)</a></li>
-<li><a class="reference internal" href="#control-statements">5.1.12. Control Statements</a><ul>
-<li><a class="reference internal" href="#comparision">5.1.12.1. Comparision</a></li>
-<li><a class="reference internal" href="#iteration">5.1.12.2. Iteration</a></li>
+<li><a class="reference internal" href="#interactive-python">6.1.6. Interactive Python</a></li>
+<li><a class="reference internal" href="#python-3-features-in-python-2">6.1.7. Python 3 Features in Python 2</a></li>
+<li><a class="reference internal" href="#statements-and-strings">6.1.8. Statements and Strings</a></li>
+<li><a class="reference internal" href="#variables">6.1.9. Variables</a></li>
+<li><a class="reference internal" href="#data-types">6.1.10. Data Types</a><ul>
+<li><a class="reference internal" href="#booleans">6.1.10.1. Booleans</a></li>
+<li><a class="reference internal" href="#numbers">6.1.10.2. Numbers</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#datatypes">5.1.13. Datatypes</a><ul>
-<li><a class="reference internal" href="#lists">5.1.13.1. Lists</a></li>
-<li><a class="reference internal" href="#sets">5.1.13.2. Sets</a></li>
-<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">5.1.13.3. Removal and Testing for Membership in Sets</a></li>
-<li><a class="reference internal" href="#dictionaries">5.1.13.4. Dictionaries</a></li>
-<li><a class="reference internal" href="#dictionary-keys-and-values">5.1.13.5. Dictionary Keys and Values</a></li>
-<li><a class="reference internal" href="#counting-with-dictionaries">5.1.13.6. Counting with Dictionaries</a></li>
+<li><a class="reference internal" href="#repl-read-eval-print-loop">6.1.11. REPL (Read Eval Print Loop)</a></li>
+<li><a class="reference internal" href="#control-statements">6.1.12. Control Statements</a><ul>
+<li><a class="reference internal" href="#comparision">6.1.12.1. Comparision</a></li>
+<li><a class="reference internal" href="#iteration">6.1.12.2. Iteration</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#functions">5.1.14. Functions</a></li>
-<li><a class="reference internal" href="#classes">5.1.15. Classes</a></li>
-<li><a class="reference internal" href="#database-access">5.1.16. Database Access</a></li>
-<li><a class="reference internal" href="#modules">5.1.17. Modules</a></li>
-<li><a class="reference internal" href="#installing-libraries">5.1.18. Installing Libraries</a></li>
-<li><a class="reference internal" href="#using-pip-to-install-packages">5.1.19. Using pip to Install Packages</a></li>
-<li><a class="reference internal" href="#gui">5.1.20. GUI</a><ul>
-<li><a class="reference internal" href="#guizero">5.1.20.1. GUIZero</a></li>
-<li><a class="reference internal" href="#kivy">5.1.20.2. Kivy</a></li>
+<li><a class="reference internal" href="#datatypes">6.1.13. Datatypes</a><ul>
+<li><a class="reference internal" href="#lists">6.1.13.1. Lists</a></li>
+<li><a class="reference internal" href="#sets">6.1.13.2. Sets</a></li>
+<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">6.1.13.3. Removal and Testing for Membership in Sets</a></li>
+<li><a class="reference internal" href="#dictionaries">6.1.13.4. Dictionaries</a></li>
+<li><a class="reference internal" href="#dictionary-keys-and-values">6.1.13.5. Dictionary Keys and Values</a></li>
+<li><a class="reference internal" href="#counting-with-dictionaries">6.1.13.6. Counting with Dictionaries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#foramtting-and-checking-python-code">5.1.21. Foramtting and Checking Python Code</a></li>
-<li><a class="reference internal" href="#using-autopep8">5.1.22. Using autopep8</a></li>
-<li><a class="reference internal" href="#further-learning">5.1.23. Further Learning</a></li>
-<li><a class="reference internal" href="#writing-python-3-compatible-code">5.1.24. Writing Python 3 Compatible Code</a></li>
-<li><a class="reference internal" href="#using-python-on-futuresystems">5.1.25. Using Python on FutureSystems</a></li>
-<li><a class="reference internal" href="#ecosystem">5.1.26. Ecosystem</a><ul>
-<li><a class="reference internal" href="#autoenv-directory-based-environments">5.1.26.1. Autoenv: Directory-based Environments</a></li>
-<li><a class="reference internal" href="#pypi">5.1.26.2. pypi</a></li>
-<li><a class="reference internal" href="#alternative-installations">5.1.26.3. Alternative Installations</a></li>
+<li><a class="reference internal" href="#functions">6.1.14. Functions</a></li>
+<li><a class="reference internal" href="#classes">6.1.15. Classes</a></li>
+<li><a class="reference internal" href="#database-access">6.1.16. Database Access</a></li>
+<li><a class="reference internal" href="#modules">6.1.17. Modules</a></li>
+<li><a class="reference internal" href="#installing-libraries">6.1.18. Installing Libraries</a></li>
+<li><a class="reference internal" href="#using-pip-to-install-packages">6.1.19. Using pip to Install Packages</a></li>
+<li><a class="reference internal" href="#gui">6.1.20. GUI</a><ul>
+<li><a class="reference internal" href="#guizero">6.1.20.1. GUIZero</a></li>
+<li><a class="reference internal" href="#kivy">6.1.20.2. Kivy</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#resources">5.1.27. Resources</a></li>
-<li><a class="reference internal" href="#exercises">5.1.28. Exercises</a></li>
+<li><a class="reference internal" href="#foramtting-and-checking-python-code">6.1.21. Foramtting and Checking Python Code</a></li>
+<li><a class="reference internal" href="#using-autopep8">6.1.22. Using autopep8</a></li>
+<li><a class="reference internal" href="#further-learning">6.1.23. Further Learning</a></li>
+<li><a class="reference internal" href="#writing-python-3-compatible-code">6.1.24. Writing Python 3 Compatible Code</a></li>
+<li><a class="reference internal" href="#using-python-on-futuresystems">6.1.25. Using Python on FutureSystems</a></li>
+<li><a class="reference internal" href="#ecosystem">6.1.26. Ecosystem</a><ul>
+<li><a class="reference internal" href="#autoenv-directory-based-environments">6.1.26.1. Autoenv: Directory-based Environments</a></li>
+<li><a class="reference internal" href="#pypi">6.1.26.2. pypi</a></li>
+<li><a class="reference internal" href="#alternative-installations">6.1.26.3. Alternative Installations</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources">6.1.27. Resources</a></li>
+<li><a class="reference internal" href="#exercises">6.1.28. Exercises</a></li>
 </ul>
 </li>
 </ul>
@@ -588,7 +602,7 @@
     <div class="col-md-9 content">
       
   <div class="section" id="introduction-to-python">
-<span id="python-intro"></span><h1>5.1. Introduction to Python<a class="headerlink" href="#introduction-to-python" title="Permalink to this headline">¶</a></h1>
+<span id="python-intro"></span><h1>6.1. Introduction to Python<a class="headerlink" href="#introduction-to-python" title="Permalink to this headline">¶</a></h1>
 <p>Portions of this lesson have been adapted from the <a class="reference external" href="https://docs.python.org/2/tutorial/">official Python
 Tutorial</a> copyright <a class="reference external" href="http://www.python.org/">Python Software Foundation</a>.</p>
 <p>Python is an easy to learn programming language. It has efficient
@@ -630,7 +644,7 @@ and is applied for web development, scientific computing, embedded
 applications, artificial intelligence, software development, and
 information security, to name a few.</p>
 <div class="section" id="about-the-tutorial">
-<h2>5.1.1. About the Tutorial<a class="headerlink" href="#about-the-tutorial" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.1. About the Tutorial<a class="headerlink" href="#about-the-tutorial" title="Permalink to this headline">¶</a></h2>
 <p>This tutorial introduces the reader informally to the basic concepts
 and features of the Python language and system. It helps to have a
 Python interpreter handy for hands-on experience, but all examples are
@@ -653,14 +667,14 @@ you will be ready to learn more about the various Python library
 modules.</p>
 <p>In order to conduct this lesson you need</p>
 <ul class="simple">
-<li>A computer with Python 2.7.13 or 3.6.1</li>
+<li>A computer with Python 2.7.13 or 3.6.2</li>
 <li>Familiarity with command line usage</li>
 <li>A text editor such as <a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a>, emacs, vi or others. You
 should identity which works best for you and set it up.</li>
 </ul>
 </div>
 <div class="section" id="links">
-<h2>5.1.2. Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.2. Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://www.python.org/">Python</a></li>
 <li><a class="reference external" href="https://pip.pypa.io/en/stable/">Pip</a></li>
@@ -683,7 +697,7 @@ good examples</p>
 </ul>
 </div>
 <div class="section" id="python-installation">
-<h2>5.1.3. Python Installation<a class="headerlink" href="#python-installation" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.3. Python Installation<a class="headerlink" href="#python-installation" title="Permalink to this headline">¶</a></h2>
 <p>Python is easy to install and very good instructions for most
 platforms can be found on the python.org Web page. We will be using
 Python 2.7.13 and/or Python 3 in our activities.</p>
@@ -695,15 +709,15 @@ Python’s virtualenv (see below) to isolate your development Python
 from the system installed Python.</p>
 </div>
 <div class="section" id="managing-custom-python-installs">
-<h2>5.1.4. Managing custom Python installs<a class="headerlink" href="#managing-custom-python-installs" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.4. Managing custom Python installs<a class="headerlink" href="#managing-custom-python-installs" title="Permalink to this headline">¶</a></h2>
 <p>Often you have your own computer and you do not like to change its
 environment to keep it in pristine condition. Python comes with mnay
 libraries that could for example conflict with libraries that you have
 installed. To avoid this it is bets to work in an isolated python we
-can use tools such as virtualenv, pyenv or pyvenv for 3.6.1. Which you
+can use tools such as virtualenv, pyenv or pyvenv for 3.6.2. Which you
 use depends on you, but we highly recommend pyenv if you can.</p>
 <div class="section" id="managing-multiple-python-versions-with-pyenv">
-<span id="section-pyenv"></span><h3>5.1.4.1. Managing Multiple Python Versions with Pyenv<a class="headerlink" href="#managing-multiple-python-versions-with-pyenv" title="Permalink to this headline">¶</a></h3>
+<span id="section-pyenv"></span><h3>6.1.4.1. Managing Multiple Python Versions with Pyenv<a class="headerlink" href="#managing-multiple-python-versions-with-pyenv" title="Permalink to this headline">¶</a></h3>
 <p>Python has several versions that are used by the community. This
 inlcudes Python 2 and Python 3, but alls different management of the
 python libraries. As each OS may have their own version of python
@@ -721,17 +735,27 @@ management;</li>
 <li>integrate with tox (<a class="reference external" href="https://tox.readthedocs.io/">https://tox.readthedocs.io/</a>).</li>
 </ul>
 <div class="section" id="instalation-without-pyenv">
-<h4>5.1.4.1.1. Instalation without pyenv<a class="headerlink" href="#instalation-without-pyenv" title="Permalink to this headline">¶</a></h4>
+<h4>6.1.4.1.1. Instalation without pyenv<a class="headerlink" href="#instalation-without-pyenv" title="Permalink to this headline">¶</a></h4>
 <p>If you need to have more than one python version
 installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
-and 3.6.1 from python.org (<a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>)</p>
+and 3.6.2 from python.org (<a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>)</p>
 </div>
-<div class="section" id="install-pyenv-on-osx">
-<h4>5.1.4.1.2. Install pyenv on OSX<a class="headerlink" href="#install-pyenv-on-osx" title="Permalink to this headline">¶</a></h4>
-<p>We describe here a mechanism of installing pyenv with homebrew. Other
-mechanisms can be found on the pyenv documentation page
-(<a class="reference external" href="https://github.com/yyuu/pyenv-installer">https://github.com/yyuu/pyenv-installer</a>). First, make sure you have
-xcode installed:</p>
+<div class="section" id="install-pyenv-on-osx-from-git">
+<h4>6.1.4.1.2. Install pyenv on OSX from git<a class="headerlink" href="#install-pyenv-on-osx-from-git" title="Permalink to this headline">¶</a></h4>
+<p>This is our recommended way to install pyenv on OSX:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+$ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+$ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
+$ echo &#39;export PYENV_ROOT=&quot;$HOME/.pyenv&quot;&#39; &gt;&gt; ~/.bash_profile
+$ echo &#39;export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;&#39; &gt;&gt; ~/.bash_profile
+</pre></div>
+</div>
+</div>
+<div class="section" id="instalation-of-homebrew">
+<h4>6.1.4.1.3. Instalation of Homebrew<a class="headerlink" href="#instalation-of-homebrew" title="Permalink to this headline">¶</a></h4>
+<p>In many ocasions it is peneficial to use readline as it provides nice
+editing features for the terminal and xz for compressiom. First, make
+sure you have xcode installed:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ xcode-select --install
 </pre></div>
 </div>
@@ -740,39 +764,54 @@ pyenv-virtualwrapper. Additionally install readline and
 some compression tools:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">ruby</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span>
 <span class="n">brew</span> <span class="n">update</span>
-<span class="n">brew</span> <span class="n">install</span> <span class="n">pyenv</span> <span class="n">pyenv</span><span class="o">-</span><span class="n">virtualenv</span> <span class="n">pyenv</span><span class="o">-</span><span class="n">virtualenvwrapper</span>
 <span class="n">brew</span> <span class="n">install</span> <span class="n">readline</span> <span class="n">xz</span>
 </pre></div>
 </div>
 </div>
+<div class="section" id="install-pyenv-on-osx-with-homebrew">
+<h4>6.1.4.1.4. Install pyenv on OSX with Homebrew<a class="headerlink" href="#install-pyenv-on-osx-with-homebrew" title="Permalink to this headline">¶</a></h4>
+<p>We describe here a mechanism of installing pyenv with homebrew. Other
+mechanisms can be found on the pyenv documentation page
+(<a class="reference external" href="https://github.com/yyuu/pyenv-installer">https://github.com/yyuu/pyenv-installer</a>).
+You must have homebrew installed as discussed in the previous section.</p>
+<p>To install pyenv with homebrew execute in the terminal:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">pyenv</span> <span class="n">pyenv</span><span class="o">-</span><span class="n">virtualenv</span> <span class="n">pyenv</span><span class="o">-</span><span class="n">virtualenvwrapper</span>
+</pre></div>
+</div>
+</div>
 <div class="section" id="install-pyenv-on-ubuntu">
-<h4>5.1.4.1.3. Install pyenv on Ubuntu<a class="headerlink" href="#install-pyenv-on-ubuntu" title="Permalink to this headline">¶</a></h4>
+<h4>6.1.4.1.5. Install pyenv on Ubuntu<a class="headerlink" href="#install-pyenv-on-ubuntu" title="Permalink to this headline">¶</a></h4>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">the instalation on ubuntu is not tested and we are
 looking for feedback</p>
 </div>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
-<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">git</span> <span class="n">python</span><span class="o">-</span><span class="n">pip</span> <span class="n">make</span> <span class="n">build</span><span class="o">-</span><span class="n">essential</span> <span class="n">libssl</span><span class="o">-</span><span class="n">dev</span>
-<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">zlib1g</span><span class="o">-</span><span class="n">dev</span> <span class="n">libbz2</span><span class="o">-</span><span class="n">dev</span> <span class="n">libreadline</span><span class="o">-</span><span class="n">dev</span> <span class="n">libsqlite3</span><span class="o">-</span><span class="n">dev</span>
-<span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">virtualenvwrapper</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get update
+$ sudo apt-get install git python-pip make build-essential libssl-dev
+$ sudo apt-get install zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev
+$ sudo pip install virtualenvwrapper
 
-<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">yyuu</span><span class="o">/</span><span class="n">pyenv</span><span class="o">.</span><span class="n">git</span> <span class="o">~/.</span><span class="n">pyenv</span>
-<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">yyuu</span><span class="o">/</span><span class="n">pyenv</span><span class="o">-</span><span class="n">virtualenvwrapper</span><span class="o">.</span><span class="n">git</span> <span class="o">~/.</span><span class="n">pyenv</span><span class="o">/</span><span class="n">plugins</span><span class="o">/</span><span class="n">pyenv</span><span class="o">-</span><span class="n">virtualenvwrapper</span>
+$ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+$ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+$ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
 
-<span class="n">echo</span> <span class="s1">&#39;export PYENV_ROOT=&quot;$HOME/.pyenv&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bashrc</span>
-<span class="n">echo</span> <span class="s1">&#39;export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bashrc</span>
-<span class="n">echo</span> <span class="s1">&#39;eval $(pyenv init -)&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bashrc</span>
-<span class="n">echo</span> <span class="s1">&#39;pyenv virtualenvwrapper&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bashrc</span>
+$ echo &#39;export PYENV_ROOT=&quot;$HOME/.pyenv&quot;&#39; &gt;&gt; ~/.bashrc
+$ echo &#39;export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashrc
 </pre></div>
 </div>
 </div>
 <div class="section" id="install-different-python-versions">
-<h4>5.1.4.1.4. Install Different Python Versions<a class="headerlink" href="#install-different-python-versions" title="Permalink to this headline">¶</a></h4>
-<p>You can now install different versions of python into your local
+<h4>6.1.4.1.6. Install Different Python Versions<a class="headerlink" href="#install-different-python-versions" title="Permalink to this headline">¶</a></h4>
+<p>Pyenv provides a large list of different python versions. To see the
+entire list please use the command</p>
+<blockquote>
+<div>$ pyenv install -l</div></blockquote>
+<p>However, for us we only need to worry about python 2.7.13 and python
+3.6.2 (once 3.6.2 becomes available we will use that).
+You can now install different versions of python into your local
 environment with the following commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv install 2.7.13
-$ pyenv install 3.6.1
+$ pyenv install 3.6.2
 </pre></div>
 </div>
 <p>You can set the global python defualt version with:</p>
@@ -786,15 +825,15 @@ $ pyenv install 3.6.1
 <p>Associate a specifc environment name with a certain python version,
 use the following commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv virtualenv 2.7.13 ENV2
-$ pyenv virtualenv 3.6.1 ENV3
+$ pyenv virtualenv 3.6.2 ENV3
 </pre></div>
 </div>
 <p>In the example above, <cite>ENV2</cite> would represent python 2.7.13 while <cite>ENV3</cite>
-would represent python 3.6.1. Often it is easier to type the alias rather
+would represent python 3.6.2. Often it is easier to type the alias rather
 than the explicit version.</p>
 </div>
 <div class="section" id="set-up-the-shell">
-<h4>5.1.4.1.5. Set up the Shell<a class="headerlink" href="#set-up-the-shell" title="Permalink to this headline">¶</a></h4>
+<h4>6.1.4.1.7. Set up the Shell<a class="headerlink" href="#set-up-the-shell" title="Permalink to this headline">¶</a></h4>
 <p>To make all work smoothly from your terminal, you can
 include the follwowing in your .bashrc files:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>export PYENV_VIRTUALENV_DISABLE_PROMPT=1
@@ -816,7 +855,7 @@ PS1=&quot;\$(__pyenv_version_ps1) ${PS1}&quot;
 <p>We recommend that you do this towards the end of your file.</p>
 </div>
 <div class="section" id="switching-environments">
-<h4>5.1.4.1.6. Switching Environments<a class="headerlink" href="#switching-environments" title="Permalink to this headline">¶</a></h4>
+<h4>6.1.4.1.8. Switching Environments<a class="headerlink" href="#switching-environments" title="Permalink to this headline">¶</a></h4>
 <p>After setting up the different environments, switching between them is now easy.
 Simply use the following commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>(2.7.13) $ pyenv activate ENV2
@@ -842,15 +881,42 @@ $ ENV3
 </div>
 </div>
 <div class="section" id="id3">
-<h2>5.1.5. Instalation without pyenv<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.5. Instalation without pyenv<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p>If you need to have more than one python version
 installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
-and 3.6.1 from python.org (<a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>)</p>
+and 3.6.2 from python.org (<a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>)</p>
 <p>As you will want to install other packages, make sure pip is up to
 date:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">pip</span> <span class="o">-</span><span class="n">U</span>
 </pre></div>
 </div>
+<p>pyenv  virtualenv anaconda3-4.3.1 ANA3
+pyenv activate ANA3</p>
+<div class="section" id="miniconda">
+<h3>6.1.5.1. Miniconda<a class="headerlink" href="#miniconda" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ mkdir ana
+$ cd ana
+$ pyenv install miniconda3-latest
+$ pyenv local miniconda3-latest
+$ pyenv activate miniconda3-latest
+$ conda create -n ana anaconda
+</pre></div>
+</div>
+<p>activate:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ source activate ana
+</pre></div>
+</div>
+<p>deactivate:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ source deactivate
+</pre></div>
+</div>
+<p>cloudmesh cmd5:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip install cloudmesh.cmd5
+$ pip install cloudmesh.sys
+</pre></div>
+</div>
+<div class="section" id="anaconda">
+<h4>6.1.5.1.1. Anaconda<a class="headerlink" href="#anaconda" title="Permalink to this headline">¶</a></h4>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">We do not recommend that you use anaconda as it may
@@ -860,17 +926,33 @@ setup.</p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">This section about anaconda is experimental and has not
-been tested.</p>
+been tested. We are looking for contributors that help
+completing it.</p>
 </div>
 <p>You can add anaconda to your pyenv with the following commands:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pyenv</span> <span class="n">install</span> <span class="n">anaconda2</span><span class="o">-</span><span class="mf">4.3</span><span class="o">.</span><span class="mi">1</span>
-<span class="n">pyenv</span> <span class="n">install</span> <span class="n">anaconda3</span><span class="o">-</span><span class="mf">4.3</span><span class="o">.</span><span class="mi">1</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pyenv</span> <span class="n">install</span> <span class="n">anaconda3</span><span class="o">-</span><span class="mf">4.3</span><span class="o">.</span><span class="mi">1</span>
 </pre></div>
 </div>
-<p>Here we install both the version 2 and version 3 python environments
-from anavconda. Please be aware that the install may tacke several
-minutes. Make sure to install the latest release which you can find
-out if you leave of the version after the 2 or 3.</p>
+<p>To switch more easily we recommand that you use the following in your
+<cite>.bash_profile</cite> file:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">alias</span> <span class="n">ANA</span><span class="o">=</span><span class="s2">&quot;pyenv activate anaconda3-4.3.1&quot;</span>
+</pre></div>
+</div>
+<p>Once you have done this you can easily switch to anaconda with the
+command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ ANA
+</pre></div>
+</div>
+<p>Terminology in annaconda could lead to confusion. Thus we like to point out that
+the verion number of anaconda is unrelated to the python
+version. Furthermore, anaconda uses the term root not for the root
+user, but for the originating directory in which the anaconda program
+is installed.</p>
+<p>In case you like to build your own conda packages at a later time we
+recommend that you install the <cite>conda-build</cite> package:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ conda install conda-build
+</pre></div>
+</div>
 <p>When executing:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pyenv</span> <span class="n">versions</span>
 </pre></div>
@@ -880,22 +962,19 @@ out if you leave of the version after the 2 or 3.</p>
 <span class="n">system</span>
 <span class="mf">2.7</span><span class="o">.</span><span class="mi">13</span>
 <span class="mf">2.7</span><span class="o">.</span><span class="mi">13</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">ENV2</span>
-<span class="mf">3.6</span><span class="o">.</span><span class="mi">1</span>
-<span class="mf">3.6</span><span class="o">.</span><span class="mi">1</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">ENV3</span>
-<span class="o">*</span><span class="n">ENV2</span> <span class="p">(</span><span class="nb">set</span> <span class="n">by</span> <span class="n">PYENV_VERSION</span> <span class="n">environment</span> <span class="n">variable</span><span class="p">)</span>
+<span class="mf">3.6</span><span class="o">.</span><span class="mi">2</span>
+<span class="mf">3.6</span><span class="o">.</span><span class="mi">2</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">ENV3</span>
+<span class="n">ENV2</span>
 <span class="n">ENV3</span>
-<span class="n">anaconda2</span><span class="o">-</span><span class="mf">4.3</span><span class="o">.</span><span class="mi">1</span>
-<span class="n">anaconda3</span><span class="o">-</span><span class="mf">4.3</span><span class="o">.</span><span class="mi">1</span>
+<span class="o">*</span> <span class="n">anaconda3</span><span class="o">-</span><span class="mf">4.3</span><span class="o">.</span><span class="mi">1</span> <span class="p">(</span><span class="nb">set</span> <span class="n">by</span> <span class="n">PYENV_VERSION</span> <span class="n">environment</span> <span class="n">variable</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Let us now create virtualenv for anaconda:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv virtualenv anaconda2-4.3.1 ANA2
-$ pyenv virtualenv anaconda3-4.3.1 ANA3
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv virtualenv anaconda3-4.3.1 ANA
 </pre></div>
 </div>
 <p>To activate it you can now use:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv activate ENV3
-$ pyenv activate ENV2
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv ANA
 </pre></div>
 </div>
 <p>However, anaconda may modify your .bashrc or .bash_profile files and ,
@@ -903,6 +982,9 @@ may result in incompatibilities with other python versions. For this
 reason we recommend not to use it. If you find ways to get it to work
 reliably with other versions, please let us know and we update this
 tutorial.</p>
+</div>
+<div class="section" id="excersise">
+<h4>6.1.5.1.2. Excersise<a class="headerlink" href="#excersise" title="Permalink to this headline">¶</a></h4>
 <dl class="docutils">
 <dt>pyenv.1:</dt>
 <dd>Write installation instructions for an operating system of your choice
@@ -911,8 +993,10 @@ and add to this documentation.</dd>
 <dd>Replicate the steps above, so you can type in ENV2 and ENV3 in your
 terminals to switch between python 2 and 3.</dd>
 </dl>
+</div>
+</div>
 <div class="section" id="id4">
-<span id="id5"></span><h3>5.1.5.1. virtualenv<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<span id="id5"></span><h3>6.1.5.2. virtualenv<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <p>environment while using virtualenv,. Documentation about it can be
 found at:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">*</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">virtualenv</span><span class="o">.</span><span class="n">pypa</span><span class="o">.</span><span class="n">io</span>
@@ -942,7 +1026,7 @@ found in our lesson on Linux &lt;bashrc&gt;`.</p>
 </div>
 </div>
 <div class="section" id="interactive-python">
-<h2>5.1.6. Interactive Python<a class="headerlink" href="#interactive-python" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.6. Interactive Python<a class="headerlink" href="#interactive-python" title="Permalink to this headline">¶</a></h2>
 <p>Python can be used interactively.  Start by entering the interactive
 loop by executing the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ python
@@ -974,7 +1058,7 @@ along you will not need to type in the prompt.</p>
 <strong>REPL</strong>: <strong>R</strong>ead-<strong>E</strong>valuate-<strong>P</strong>rint-<strong>L</strong>oop.</p>
 </div>
 <div class="section" id="python-3-features-in-python-2">
-<h2>5.1.7. Python 3 Features in Python 2<a class="headerlink" href="#python-3-features-in-python-2" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.7. Python 3 Features in Python 2<a class="headerlink" href="#python-3-features-in-python-2" title="Permalink to this headline">¶</a></h2>
 <p>As mentioned earlier, we assume you will use Python 2.7.X because
 there are still some libraries that haven’t been ported to
 Python 3. However, there are some features of Python 3 we can and want
@@ -1000,7 +1084,7 @@ meaning that <code class="docutils literal"><span class="pre">5</span> <span cla
 </div>
 </div>
 <div class="section" id="statements-and-strings">
-<h2>5.1.8. Statements and Strings<a class="headerlink" href="#statements-and-strings" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.8. Statements and Strings<a class="headerlink" href="#statements-and-strings" title="Permalink to this headline">¶</a></h2>
 <p>Let us explore the syntax of Python.  Type into the interactive loop
 and press Enter:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello world from Python!&quot;</span><span class="p">)</span>
@@ -1025,7 +1109,7 @@ the <code class="docutils literal"><span class="pre">print</span></code> stateme
 then executed the line, showing you the output.</p>
 </div>
 <div class="section" id="variables">
-<h2>5.1.9. Variables<a class="headerlink" href="#variables" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.9. Variables<a class="headerlink" href="#variables" title="Permalink to this headline">¶</a></h2>
 <p>You can store data into a <strong>variable</strong> to access it later.
 For instance, instead of:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello world from Python!&#39;</span><span class="p">)</span>
@@ -1040,9 +1124,9 @@ store the string in a variable for convenient access:</p>
 </div>
 </div>
 <div class="section" id="data-types">
-<h2>5.1.10. Data Types<a class="headerlink" href="#data-types" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.10. Data Types<a class="headerlink" href="#data-types" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="booleans">
-<h3>5.1.10.1. Booleans<a class="headerlink" href="#booleans" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.10.1. Booleans<a class="headerlink" href="#booleans" title="Permalink to this headline">¶</a></h3>
 <p>A <strong>boolean</strong> is a value that indicates the “truthness” of something.
 You can think of it as a toggle: either “on” or “off”, “one” or
 “zero”, “true” or “false”.  In fact, the only possible values of the
@@ -1072,7 +1156,7 @@ You can think of it as a toggle: either “on” or “off”, “one” or
 </div>
 </div>
 <div class="section" id="numbers">
-<h3>5.1.10.2. Numbers<a class="headerlink" href="#numbers" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.10.2. Numbers<a class="headerlink" href="#numbers" title="Permalink to this headline">¶</a></h3>
 <p>The interactive interpreter can also be used as a calculator.
 For instance, say we wanted to compute a multiple of 21:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">21</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
@@ -1116,7 +1200,7 @@ expected:</p>
 </div>
 </div>
 <div class="section" id="repl-read-eval-print-loop">
-<h2>5.1.11. REPL (Read Eval Print Loop)<a class="headerlink" href="#repl-read-eval-print-loop" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.11. REPL (Read Eval Print Loop)<a class="headerlink" href="#repl-read-eval-print-loop" title="Permalink to this headline">¶</a></h2>
 <p>We have so far seen a few examples of types: <strong>string</strong>s, <strong>bool</strong>s,
 <strong>int</strong>s, and <strong>float</strong>s.  A <strong>type</strong> indicates that values of that
 type support a certain set of operations. For instance, how would you
@@ -1153,9 +1237,9 @@ go up/down line-by-line, or <code class="docutils literal"><span class="pre">q</
 </div>
 </div>
 <div class="section" id="control-statements">
-<h2>5.1.12. Control Statements<a class="headerlink" href="#control-statements" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.12. Control Statements<a class="headerlink" href="#control-statements" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="comparision">
-<h3>5.1.12.1. Comparision<a class="headerlink" href="#comparision" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.12.1. Comparision<a class="headerlink" href="#comparision" title="Permalink to this headline">¶</a></h3>
 <p>Computer programs do not only execute instructions. Occasionally, a
 choice needs to be made. Such as a choice is based on a
 condition. Python has several conditional operators:</p>
@@ -1188,7 +1272,7 @@ execute multiple conditions using the <code class="docutils literal"><span class
 </div>
 </div>
 <div class="section" id="iteration">
-<h3>5.1.12.2. Iteration<a class="headerlink" href="#iteration" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.12.2. Iteration<a class="headerlink" href="#iteration" title="Permalink to this headline">¶</a></h3>
 <p>To repeat code, the <code class="docutils literal"><span class="pre">for</span></code> keyword can be used. For example, to
 display the numbers from 1 to 10, we could write something like this:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
@@ -1219,9 +1303,9 @@ the entire coordinate range (0,0) to (9,9)</p>
 </div>
 </div>
 <div class="section" id="datatypes">
-<h2>5.1.13. Datatypes<a class="headerlink" href="#datatypes" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.13. Datatypes<a class="headerlink" href="#datatypes" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="lists">
-<h3>5.1.13.1. Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.13.1. Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h3>
 <p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_lists.htm">https://www.tutorialspoint.com/python/python_lists.htm</a></p>
 <p>Lists in Python are ordered sequences of elements, where each element
 can be accessed using a 0-based index.</p>
@@ -1297,7 +1381,7 @@ can use <code class="docutils literal"><span class="pre">insert</span></code> an
 <span class="go">[&#39;Lincoln&#39;, &#39;Albert&#39;, &#39;Liz&#39;, &#39;John&#39;, &#39;Liz&#39;, &#39;Lindsay&#39;]</span>
 </pre></div>
 </div>
-<p>The Python documentation contains a <a href="#id10"><span class="problematic" id="id11">`full list of list operations &lt;&gt;`_</span></a>.</p>
+<p>The Python documentation contains a <a href="#id11"><span class="problematic" id="id12">`full list of list operations &lt;&gt;`_</span></a>.</p>
 <p>To go back to the <code class="docutils literal"><span class="pre">range</span></code> function you used earlier, it simply
 creates a list of numbers:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
@@ -1308,7 +1392,7 @@ creates a list of numbers:</p>
 </div>
 </div>
 <div class="section" id="sets">
-<h3>5.1.13.2. Sets<a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.13.2. Sets<a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h3>
 <p>Python lists can contain duplicates as you saw above:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Jane&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Abby&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">]</span>
 </pre></div>
@@ -1351,7 +1435,7 @@ check containment. You can read about this in the <a class="reference external" 
 documentation for sets</a>.</p>
 </div>
 <div class="section" id="removal-and-testing-for-membership-in-sets">
-<h3>5.1.13.3. Removal and Testing for Membership in Sets<a class="headerlink" href="#removal-and-testing-for-membership-in-sets" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.13.3. Removal and Testing for Membership in Sets<a class="headerlink" href="#removal-and-testing-for-membership-in-sets" title="Permalink to this headline">¶</a></h3>
 <p>One important advantage of a <em>set</em> over a <em>list</em> is that <strong>access to
 elements is fast</strong>. If you are familiar with different data structures
 from a Computer Science class, the Python list is implemented by an
@@ -1380,7 +1464,7 @@ is orders of magnitude faster than in a list. This is important to
 keep in mind when you work with large amounts of data.</p>
 </div>
 <div class="section" id="dictionaries">
-<h3>5.1.13.4. Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.13.4. Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h3>
 <p>One of the very important datastructures in python is a dictionary
 also refered to as <em>dict</em>.</p>
 <p>A dictionary represents a key value store:</p>
@@ -1417,7 +1501,7 @@ also refered to as <em>dict</em>.</p>
 </div>
 </div>
 <div class="section" id="dictionary-keys-and-values">
-<h3>5.1.13.5. Dictionary Keys and Values<a class="headerlink" href="#dictionary-keys-and-values" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.13.5. Dictionary Keys and Values<a class="headerlink" href="#dictionary-keys-and-values" title="Permalink to this headline">¶</a></h3>
 <p>You can retrieve both the keys and values of a dictionary using the
 <code class="docutils literal"><span class="pre">keys()</span></code> and <code class="docutils literal"><span class="pre">values()</span></code> methods of the dictionary, respectively:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
@@ -1441,7 +1525,7 @@ the same correspondence in general as long as <strong>``keys()`` and
 ``values()`` are called one right after the other</strong>.</p>
 </div>
 <div class="section" id="counting-with-dictionaries">
-<h3>5.1.13.6. Counting with Dictionaries<a class="headerlink" href="#counting-with-dictionaries" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.13.6. Counting with Dictionaries<a class="headerlink" href="#counting-with-dictionaries" title="Permalink to this headline">¶</a></h3>
 <p>One application of dictionaries that frequently comes up is counting
 the elements in a sequence. For example, say we have a sequence of
 coin flips:</p>
@@ -1485,7 +1569,7 @@ of coin flips. <code class="docutils literal"><span class="pre">sum</span></code
 </div>
 </div>
 <div class="section" id="functions">
-<h2>5.1.14. Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.14. Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
 <p>You can reuse code by putting it inside a function that you can call
 in other parts of your programs. Functions are also a good way of
 grouping code that logically belongs together in one coherent whole. A
@@ -1522,7 +1606,7 @@ so it can be reused.</p>
 </div>
 </div>
 <div class="section" id="classes">
-<span id="doc-python-intro-sec-classes"></span><h2>5.1.15. Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<span id="doc-python-intro-sec-classes"></span><h2>6.1.15. Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
 <p>A class is an encapsulation of data and the processes that work on
 them. The data is represented in member variables, and the processes
 are defined in the methods of the class (methods are functions inside
@@ -1560,11 +1644,11 @@ however we can not cover all of them in a quick tutorial, so please
 refer to the <a class="reference external" href="https://docs.python.org/2.7/tutorial/classes.html">Python docs on classes and OOP</a>.</p>
 </div>
 <div class="section" id="database-access">
-<h2>5.1.16. Database Access<a class="headerlink" href="#database-access" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.16. Database Access<a class="headerlink" href="#database-access" title="Permalink to this headline">¶</a></h2>
 <p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_database_access.htm">https://www.tutorialspoint.com/python/python_database_access.htm</a></p>
 </div>
 <div class="section" id="modules">
-<h2>5.1.17. Modules<a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.17. Modules<a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h2>
 <p>Make sure you are no longer in the interactive interpreter.
 If you are you can type <code class="docutils literal"><span class="pre">quit()</span></code> and press Enter to exit.</p>
 <p>You can save your programs to files which the interpreter can then
@@ -1661,7 +1745,7 @@ to insert values into the string we are displaying.</li>
 </ol>
 </div>
 <div class="section" id="installing-libraries">
-<h2>5.1.18. Installing Libraries<a class="headerlink" href="#installing-libraries" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.18. Installing Libraries<a class="headerlink" href="#installing-libraries" title="Permalink to this headline">¶</a></h2>
 <p>Often you may need functionality that is not present in Python’s
 standard library.  In this case you have two option:</p>
 <ul class="simple">
@@ -1671,13 +1755,13 @@ standard library.  In this case you have two option:</p>
 <p>Often you can find a previous implementation of what you need.
 Since this is a common situation, there is a service supporting it:
 the <a class="reference external" href="https://pypi.python.org/pypi">Python Package Index</a> (or PyPi for short).</p>
-<p>Our task here is to install the <a href="#id12"><span class="problematic" id="id13">`autopep8`_</span></a> tool from PyPi.  This will
+<p>Our task here is to install the <a href="#id13"><span class="problematic" id="id14">`autopep8`_</span></a> tool from PyPi.  This will
 allow us to illustrate the use if virtual environments using the
 <code class="docutils literal"><span class="pre">pyenv</span></code> or <code class="docutils literal"><span class="pre">virtualenv</span></code> command, and installing and uninstalling
 PyPi packages using <code class="docutils literal"><span class="pre">pip</span></code>.</p>
 </div>
 <div class="section" id="using-pip-to-install-packages">
-<h2>5.1.19. Using pip to Install Packages<a class="headerlink" href="#using-pip-to-install-packages" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.19. Using pip to Install Packages<a class="headerlink" href="#using-pip-to-install-packages" title="Permalink to this headline">¶</a></h2>
 <p>Let’s now look at another important tool for Python development: the
 Python Package Index, or PyPI for short.  PyPI provides a large set of
 third-party python packages.  If you want to do something in python,
@@ -1702,9 +1786,9 @@ patched urllib3 on Python 2.7.9.</p>
 </div>
 </div>
 <div class="section" id="gui">
-<h2>5.1.20. GUI<a class="headerlink" href="#gui" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.20. GUI<a class="headerlink" href="#gui" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="guizero">
-<h3>5.1.20.1. GUIZero<a class="headerlink" href="#guizero" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.20.1. GUIZero<a class="headerlink" href="#guizero" title="Permalink to this headline">¶</a></h3>
 <p>Install guizero with the following command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">pip3</span> <span class="n">install</span> <span class="n">guizero</span>
 </pre></div>
@@ -1713,7 +1797,7 @@ patched urllib3 on Python 2.7.9.</p>
 here</a>.</p>
 </div>
 <div class="section" id="kivy">
-<h3>5.1.20.2. Kivy<a class="headerlink" href="#kivy" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.20.2. Kivy<a class="headerlink" href="#kivy" title="Permalink to this headline">¶</a></h3>
 <p>You can install Kivy on OSX as followes:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">pkg</span><span class="o">-</span><span class="n">config</span> <span class="n">sdl2</span> <span class="n">sdl2_image</span> <span class="n">sdl2_ttf</span> <span class="n">sdl2_mixer</span> <span class="n">gstreamer</span>
 <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">U</span> <span class="n">Cython</span>
@@ -1739,7 +1823,7 @@ cloudmesh.robot as follows:</p>
 </div>
 </div>
 <div class="section" id="foramtting-and-checking-python-code">
-<span id="virtual-environments"></span><h2>5.1.21. Foramtting and Checking Python Code<a class="headerlink" href="#foramtting-and-checking-python-code" title="Permalink to this headline">¶</a></h2>
+<span id="virtual-environments"></span><h2>6.1.21. Foramtting and Checking Python Code<a class="headerlink" href="#foramtting-and-checking-python-code" title="Permalink to this headline">¶</a></h2>
 <p>First, get the bad code:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ wget --no-check-certificate http://git.io/pXqb -O bad_code_example.py
 </pre></div>
@@ -1754,7 +1838,7 @@ this is a common problem so there exist a couple packages to help in
 this situation.</p>
 </div>
 <div class="section" id="using-autopep8">
-<h2>5.1.22. Using autopep8<a class="headerlink" href="#using-autopep8" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.22. Using autopep8<a class="headerlink" href="#using-autopep8" title="Permalink to this headline">¶</a></h2>
 <p>We can now run the bad code through autopep8 to fix formatting
 problems:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ autopep8 bad_code_example.py &gt;code_example_autopep8.py
@@ -1774,7 +1858,7 @@ $ autopep8 -i file.py # update in place
 while p;ressing on <code class="docutils literal"><span class="pre">Inspect</span> <span class="pre">Code</span></code>.</p>
 </div>
 <div class="section" id="further-learning">
-<h2>5.1.23. Further Learning<a class="headerlink" href="#further-learning" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.23. Further Learning<a class="headerlink" href="#further-learning" title="Permalink to this headline">¶</a></h2>
 <p>There is much more to python than what we have covered here:</p>
 <ul class="simple">
 <li>conditional expression (<code class="docutils literal"><span class="pre">if</span></code>, <code class="docutils literal"><span class="pre">if...then</span></code>,``if..elif..then``)</li>
@@ -1790,12 +1874,12 @@ while p;ressing on <code class="docutils literal"><span class="pre">Inspect</spa
 </ul>
 </div>
 <div class="section" id="writing-python-3-compatible-code">
-<h2>5.1.24. Writing Python 3 Compatible Code<a class="headerlink" href="#writing-python-3-compatible-code" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.24. Writing Python 3 Compatible Code<a class="headerlink" href="#writing-python-3-compatible-code" title="Permalink to this headline">¶</a></h2>
 <p>To write python 2 and 3 compatib;e code we recommend that you take a
 look at: <a class="reference external" href="http://python-future.org/compatible_idioms.html">http://python-future.org/compatible_idioms.html</a></p>
 </div>
 <div class="section" id="using-python-on-futuresystems">
-<h2>5.1.25. Using Python on FutureSystems<a class="headerlink" href="#using-python-on-futuresystems" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.25. Using Python on FutureSystems<a class="headerlink" href="#using-python-on-futuresystems" title="Permalink to this headline">¶</a></h2>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">This is only important if you use Futuresystems resources.</p>
@@ -1814,9 +1898,9 @@ in the future lesson <span class="xref std std-doc">modules</span>.</p>
 </div>
 </div>
 <div class="section" id="ecosystem">
-<h2>5.1.26. Ecosystem<a class="headerlink" href="#ecosystem" title="Permalink to this headline">¶</a></h2>
+<h2>6.1.26. Ecosystem<a class="headerlink" href="#ecosystem" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="autoenv-directory-based-environments">
-<span id="autoenv"></span><h3>5.1.26.1. Autoenv: Directory-based Environments<a class="headerlink" href="#autoenv-directory-based-environments" title="Permalink to this headline">¶</a></h3>
+<span id="autoenv"></span><h3>6.1.26.1. Autoenv: Directory-based Environments<a class="headerlink" href="#autoenv-directory-based-environments" title="Permalink to this headline">¶</a></h3>
 <p>Not recommended.</p>
 <p>Link: <cite>Autoenv &lt;https://pypi.python.org/pypi/autoenv/0.2.0&gt;</cite></p>
 <div class="admonition warning">
@@ -1878,7 +1962,7 @@ $ echo &#39;source ~/.autoenv/activate.sh&#39; &gt;&gt; ~/.bashrc
 </dl>
 </div>
 <div class="section" id="pypi">
-<h3>5.1.26.2. pypi<a class="headerlink" href="#pypi" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.26.2. pypi<a class="headerlink" href="#pypi" title="Permalink to this headline">¶</a></h3>
 <p>Link: <a class="reference external" href="https://pypi.python.org/pypi">pypi</a></p>
 <p>The Python Package Index is a large repository of software for the
 Python programming language containing a large number of packages
@@ -1897,7 +1981,7 @@ be the package called cloudmesh_client which you can install with:</p>
 <p>If all goes well the package will be installed.</p>
 </div>
 <div class="section" id="alternative-installations">
-<h3>5.1.26.3. Alternative Installations<a class="headerlink" href="#alternative-installations" title="Permalink to this headline">¶</a></h3>
+<h3>6.1.26.3. Alternative Installations<a class="headerlink" href="#alternative-installations" title="Permalink to this headline">¶</a></h3>
 <p>The basic installation of python is provided by python.org. However
 others claim to have alternative environments that allow you to
 install python. This includes</p>
@@ -1977,7 +2061,7 @@ generate a conda packge form github</li>
 </div>
 </div>
 <div class="section" id="resources">
-<span id="python-resources"></span><h2>5.1.27. Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<span id="python-resources"></span><h2>6.1.27. Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
 <p>If you are unfamiliar with programming in Python, we also refer you
 to some of the numerous online resources. You may wish to start with
 <a class="reference external" href="https://www.learnpython.org">Learn Python</a> or the book <a class="reference external" href="http://learnpythonthehardway.org/book/">Learn Python the Hard Way</a>. Other
@@ -2008,7 +2092,7 @@ Please note that for this class you can reuse such libraries if not
 otherwise stated.</p>
 </div>
 <div class="section" id="exercises">
-<span id="lab-python-2"></span><span id="lab-python-1"></span><h2>5.1.28. Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
+<span id="lab-python-2"></span><span id="lab-python-1"></span><h2>6.1.28. Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
 <dt>Python.1:</dt>
 <dd><p class="first">Write a python program called <cite>iterate.py</cite> that

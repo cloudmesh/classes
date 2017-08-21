@@ -1,0 +1,116 @@
+Instructors
+===========
+
+The course presents lectures in online form given by the instructors
+listed bellow. Many others have helped making this material available
+and may not be listed here. For this class support is provided by
+
+* Gregor von Laszewski (PhD)
+* Geoffrey C. Fox (PhD)
+* Jerome Mitchell (Teaching Assistant)
+* Vibhatha Abeykoon (Teaching Assistant)
+
+
+Dr. Gregor von Laszewski
+------------------------
+
+.. image:: /images/gregor2.png
+
+Gregor von Laszewski is an Assistant Director of Cloud Computing in
+the DSC. His is also an Adj. Assoc. Professor of the Intelligent
+Systems Engineering Department at Indiana University. He held a
+position at Argonne National Laboratory from Nov. 1996 – Aug.  2009
+where he was last a scientist and a fellow of the Computation
+Institute at University of Chicago. During the last two years of that
+appointment he was on sabbatical and held a position as Associate
+Professor and the Director of a Lab at Rochester Institute of
+Technology focussing on Cyberinfrastructure. He received a Masters
+Degree in 1990 from the University of Bonn, Germany, and a Ph.D. in
+1996 from Syracuse University in computer science. He was involved in
+Grid computing since the term was coined. He was the lead of the Java
+Commodity Grid Kit (http://www.cogkit.org) which provides till today a
+basis for many Grid related projects including the Globus
+toolkit. Current research interests are in the areas of Cloud
+computing. He is leading the effort to develop a simple IaaS client
+available at as OpenSource project at
+http://cloudmesh.github.io/client/
+
+His Web page is located at http://gregor.cyberaide.org. To contact him
+please send mail to laszewski@gmail.com. For class related e-mail
+please use Piazza for this class.
+
+In his free time he teaches Lego Robotics to high school students. In 2015
+the team won the 2nd prize in programming design in Indiana. If you like
+to volunteer helping in this effort please contact him.
+
+He offers also the opportunity to work with him on interesting
+independent studies. Current topics include but are not limited to
+
+* cloudmesh
+* big data for NIST
+* big data benchmarking.
+* scientific impact of supercomputer and data centers.
+* STEM and other educational activities while using robotics or big data
+   
+Please contact me if you are interested in this.
+
+Dr. Geoffrey C. Fox
+-------------------
+
+.. image:: /images/gcf.jpg
+
+Greoffrey C. Fox received a Ph.D. in Theoretical Physics from Cambridge University
+and is now distinguished professor of Informatics and Computing, and
+Physics at Indiana University where he is director of the Digital
+Science Center, Chair of Department of Intelligent Systems Engineering
+and Director of the Data Science program at the School of Informatics
+and Computing.  He previously held positions at Caltech, Syracuse
+University and Florida State University after being a postdoc at the
+Institute of Advanced Study at Princeton, Lawrence Berkeley Laboratory
+and Peterhouse College Cambridge. He has supervised the PhD of 68
+students and published around 1200 papers in physics and computer
+science with an index of 70 and over 26000 citations.  He currently
+works in applying computer science from infrastructure to analytics in
+Biology, Pathology, Sensor Clouds, Earthquake and Ice-sheet Science,
+Image processing, Deep Learning, Manufacturing, Network Science and
+Particle Physics. The infrastructure work is built around Software
+Defined Systems on Clouds and Clusters. The analytics focuses on
+scalable parallelism.
+
+He is involved in several projects to enhance the capabilities of
+Minority Serving Institutions. He has experience in online education
+and its use in MOOCs for areas like Data and Computational Science. He
+is a Fellow of APS (Physics) and ACM (Computing).
+
+Teaching Assistants
+-------------------
+
+Jerome Mitchell
+^^^^^^^^^^^^^^^
+
+.. image:: /images/jerome.png
+
+**Jerome Mitchell** is a Ph.D candidate in computer science at Indiana
+University and is interested in coupling the fields of computer and
+polar science. He has participated in the United State Antarctic
+Program, (USAP), where he collaborated with a multidisciplinary team
+of engineers and scientists to design a mobile robot for harsh polar
+environments to autonomously collect ice sheet data, decrease the
+human footprint of polar expeditions, and enhance measurement
+precision. His current work include: using machine learning techniques
+to help polar scientists identify bedrock and internal layers in radar
+imagery. He has also been involved in facilitating workshops to
+educate faculty and students on the importance of parallel and
+distributed computing at minority-serving institutions.
+
+
+Vibhatha Abeykoon
+^^^^^^^^^^^^^^^^^
+
+.. image:: /images/vb.png
+     
+**Vibhatha Abeykoon** is a PhD student in the Intelligent Systems Engineering program at
+Indiana University since August 2016. His research interests include
+machine learning, singal processing, source seperation, deep learning, big data and distributed systems. As part of his
+PhD he conducts research with Professor Geoffrey C. Fox and Assistant Professor Minje Kim. His thesis topic is TBD.
+

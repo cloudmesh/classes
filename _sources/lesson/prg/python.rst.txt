@@ -82,7 +82,7 @@ modules.
 
 In order to conduct this lesson you need
 
-* A computer with Python 2.7.13 or 3.6.1
+* A computer with Python 2.7.13 or 3.6.2
 * Familiarity with command line usage
 * A text editor such as `PyCharm
   <https://www.jetbrains.com/pycharm/>`_, emacs, vi or others. You
@@ -137,7 +137,7 @@ Often you have your own computer and you do not like to change its
 environment to keep it in pristine condition. Python comes with mnay
 libraries that could for example conflict with libraries that you have
 installed. To avoid this it is bets to work in an isolated python we
-can use tools such as virtualenv, pyenv or pyvenv for 3.6.1. Which you
+can use tools such as virtualenv, pyenv or pyvenv for 3.6.2. Which you
 use depends on you, but we highly recommend pyenv if you can.
 
 .. _section_pyenv:
@@ -165,15 +165,27 @@ Instalation without pyenv
 """""""""""""""""""""""""
 If you need to have more than one python version
 installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
-and 3.6.1 from python.org (https://www.python.org/downloads/)
-  
-Install pyenv on OSX
-""""""""""""""""""""
+and 3.6.2 from python.org (https://www.python.org/downloads/)
 
-We describe here a mechanism of installing pyenv with homebrew. Other
-mechanisms can be found on the pyenv documentation page
-(https://github.com/yyuu/pyenv-installer). First, make sure you have
-xcode installed::
+
+Install pyenv on OSX from git 
+""""""""""""""""""""""""""""""
+
+This is our recommended way to install pyenv on OSX::
+
+  $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+  $ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+  $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
+  $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+  $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+
+
+Instalation of Homebrew
+"""""""""""""""""""""""
+
+In many ocasions it is peneficial to use readline as it provides nice
+editing features for the terminal and xz for compressiom. First, make
+sure you have xcode installed::
   
    $ xcode-select --install
 
@@ -183,9 +195,21 @@ some compression tools::
 
    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
    brew update
-   brew install pyenv pyenv-virtualenv pyenv-virtualenvwrapper
    brew install readline xz
 
+Install pyenv on OSX with Homebrew
+""""""""""""""""""""""""""""""""""
+
+We describe here a mechanism of installing pyenv with homebrew. Other
+mechanisms can be found on the pyenv documentation page
+(https://github.com/yyuu/pyenv-installer).
+You must have homebrew installed as discussed in the previous section.
+
+To install pyenv with homebrew execute in the terminal::
+
+  brew install pyenv pyenv-virtualenv pyenv-virtualenvwrapper
+
+   
 Install pyenv on Ubuntu
 """""""""""""""""""""""
 
@@ -194,31 +218,34 @@ Install pyenv on Ubuntu
              
 ::
 
-   sudo apt-get update
-   sudo apt-get install git python-pip make build-essential libssl-dev
-   sudo apt-get install zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev
-   sudo pip install virtualenvwrapper
+   $ sudo apt-get update
+   $ sudo apt-get install git python-pip make build-essential libssl-dev
+   $ sudo apt-get install zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev
+   $ sudo pip install virtualenvwrapper
 
-   git clone https://github.com/yyuu/pyenv.git ~/.pyenv
-   git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
+   $ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+   $ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv   
+   $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
 
-   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-   echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-   echo 'eval $(pyenv init -)"' >> ~/.bashrc
-   echo 'pyenv virtualenvwrapper' >> ~/.bashrc
-
-
-
+   $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+   $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 
 
 Install Different Python Versions
 """""""""""""""""""""""""""""""""
 
+Pyenv provides a large list of different python versions. To see the
+entire list please use the command
+
+   $ pyenv install -l
+
+However, for us we only need to worry about python 2.7.13 and python
+3.6.2 (once 3.6.2 becomes available we will use that).
 You can now install different versions of python into your local
 environment with the following commands::
 
    $ pyenv install 2.7.13
-   $ pyenv install 3.6.1
+   $ pyenv install 3.6.2
 
 You can set the global python defualt version with::
 
@@ -232,10 +259,10 @@ Associate a specifc environment name with a certain python version,
 use the following commands::
   
    $ pyenv virtualenv 2.7.13 ENV2
-   $ pyenv virtualenv 3.6.1 ENV3
+   $ pyenv virtualenv 3.6.2 ENV3
 
 In the example above, `ENV2` would represent python 2.7.13 while `ENV3`
-would represent python 3.6.1. Often it is easier to type the alias rather 
+would represent python 3.6.2. Often it is easier to type the alias rather 
 than the explicit version.
    
 Set up the Shell
@@ -291,7 +318,7 @@ Instalation without pyenv
 -------------------------
 If you need to have more than one python version
 installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
-and 3.6.1 from python.org (https://www.python.org/downloads/)
+and 3.6.2 from python.org (https://www.python.org/downloads/)
 
 Make sure pip is up to date
 """""""""""""""""""""""""""
@@ -302,6 +329,36 @@ date::
    pip install pip -U
 
 
+pyenv  virtualenv anaconda3-4.3.1 ANA3
+pyenv activate ANA3
+
+   
+Miniconda
+^^^^^^^^^
+
+::
+
+   $ mkdir ana
+   $ cd ana
+   $ pyenv install miniconda3-latest
+   $ pyenv local miniconda3-latest
+   $ pyenv activate miniconda3-latest
+   $ conda create -n ana anaconda
+
+activate::
+  
+   $ source activate ana
+
+deactivate::
+
+  $ source deactivate
+
+
+cloudmesh cmd5::
+
+  $ pip install cloudmesh.cmd5
+  $ pip install cloudmesh.sys
+  
 Anaconda
 """"""""
 
@@ -310,19 +367,36 @@ Anaconda
 	     setup.
 
 .. warning:: This section about anaconda is experimental and has not
-             been tested.
+             been tested. We are looking for contributors that help
+             completing it.
 
 
 You can add anaconda to your pyenv with the following commands::
 
-   pyenv install anaconda2-4.3.1
-   pyenv install anaconda3-4.3.1
+  pyenv install anaconda3-4.3.1
 
-Here we install both the version 2 and version 3 python environments
-from anavconda. Please be aware that the install may tacke several
-minutes. Make sure to install the latest release which you can find
-out if you leave of the version after the 2 or 3.
-   
+To switch more easily we recommand that you use the following in your
+`.bash_profile` file::
+
+  alias ANA="pyenv activate anaconda3-4.3.1"
+
+Once you have done this you can easily switch to anaconda with the
+command::
+
+  $ ANA
+  
+Terminology in annaconda could lead to confusion. Thus we like to point out that
+the verion number of anaconda is unrelated to the python
+version. Furthermore, anaconda uses the term root not for the root
+user, but for the originating directory in which the anaconda program
+is installed. 
+
+In case you like to build your own conda packages at a later time we
+recommend that you install the `conda-build` package::
+
+  $ conda install conda-build
+
+
 When executing::
 
    pyenv versions
@@ -333,22 +407,20 @@ you will see after the install completed the anaconda versiosn installed::
    system
    2.7.13
    2.7.13/envs/ENV2
-   3.6.1
-   3.6.1/envs/ENV3
-   *ENV2 (set by PYENV_VERSION environment variable)
+   3.6.2
+   3.6.2/envs/ENV3
+   ENV2 
    ENV3
-   anaconda2-4.3.1
-   anaconda3-4.3.1
+   * anaconda3-4.3.1 (set by PYENV_VERSION environment variable)
+
 
 Let us now create virtualenv for anaconda::
 
-   $ pyenv virtualenv anaconda2-4.3.1 ANA2
-   $ pyenv virtualenv anaconda3-4.3.1 ANA3
+   $ pyenv virtualenv anaconda3-4.3.1 ANA
 
 To activate it you can now use::
 
-  $ pyenv activate ENV3
-  $ pyenv activate ENV2
+  $ pyenv ANA
 
 However, anaconda may modify your .bashrc or .bash_profile files and ,
 may result in incompatibilities with other python versions. For this
