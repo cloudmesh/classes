@@ -1,5 +1,11 @@
 # Security
 
+These instructions are primarily developed for Smith
+Research Center. Please note that at other locations instructors may not have weather
+radios and you will have to apply your own judgement. Also make sure
+that in all locations you are you know where your nearest Tornado
+shelter is.
+
 ## Windows and sliding doors
 
 The building has a small number of windows and sliding doors that can be opened. They are not to be used.
@@ -26,7 +32,7 @@ We experience an average of more than 20 tornadoes a year in Indiana, and the be
 
 ## Fire
 
-![fire](images/exit.png)
+![Image Exit Sign](../../images/exit.png)
 
 Evacuate if
 
@@ -107,28 +113,4 @@ present a safety barrier between you and the area where the drones
 fly. Other than opening the dedicated entry points to the flying area
 the nets must not be touched. Failure to do so may result in expulsion
 from the class.
-
-## Recreational Recess Activities (for STEM students only)
-
-As part of the camp, instructors may decide to do some recreational
-indoor and outdoor activities. Participants are required to follow
-instructions from instructors and avoiding dangerous activities. The
-same recess rules as in your school apply. If in doubt, ask.
-
-Rules and expectations:
-
-* No physical contact (i.e., pushing, hitting, fighting, kicking) or tackle sports.
-* No carrying others on your back.
-* Keep sticks, rocks, and snow on the ground and do not throw them.
-* There will be NO jumping off of equipment, tables, benches.
-* Soccer balls, kickballs, footballs, etc. may be brought onto the field. Be carefull not to hurt others.
-* Enjoy playing in the green space around the rugby are, but stay close to the building and in sight.
-* No climbing on the fences and trees or running through plants/ trees.
-
-Character expectations:
-
-* Students need to follow the teacher’s/associate’s directions 
-* Use only acceptable language–swearing, name-calling is not allowed. Give put-ups instead!
-* Invite and include all when playing – “Don’t say, you can’t play!”
-* No bullying
 

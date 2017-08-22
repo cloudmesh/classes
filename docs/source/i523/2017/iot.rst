@@ -16,7 +16,7 @@ IoT
    ../../lesson/iot/pi/vnc
    ../../lesson/iot/turtle
    ../../lesson/iot/tools
-   ../../lesson/iot/mblock   
+
 
 
    

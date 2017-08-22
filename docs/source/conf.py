@@ -261,6 +261,9 @@ elif theme_bootstrap:
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
+        ("i523",
+             "i523/2017/index.html",
+             True),
         ("Lessons",
              "lesson/index.html",
              True),
