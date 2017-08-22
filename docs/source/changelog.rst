@@ -23,6 +23,9 @@ Changes
 
 Other
 ~~~~~
+- Update README.rst. [tifabi]
+
+  Modified grammar in first line from "The class is published and updated on regular basis at" to "The class is published and updated on a regular basis at"
 - 3.2.0. [Gregor von Laszewski]
 - Version 3.2.0. [Gregor von Laszewski]
 
