@@ -66,7 +66,7 @@ IoT Hardware
 As part of this class you also have the ability to take part in some
 Internet of Things related projects and assignments. If you like to
 experiment with real hardware, I recommend you to buy an esp8266 or a
-Rasperry PI 3. In fact the hardware of both are so cheap that you
+Raspberry PI 3. In fact the hardware of both are so cheap that you
 could experiment with both of them. Please consult with our hardware
 page what is possible. While an esp8266 can be purchased for about $7
 a Raspberry Pi with case and power supply will cost you about $50.
@@ -180,7 +180,15 @@ reproducible environments that could be used by anyone in the class.
 Track 2: Theory
 ^^^^^^^^^^^^^^^
 
-The theory track includes a number of online lectures that introduces you to a variety of topics related to Big Data. You have especially the opportunity to become part of a project that would contribute to the understanding and the development of a Big Data Architecture developed in collaboration with NIST. Other topics that are covered include IoT, Health Care, Physics, Science, Biology, Genomics, and so forth. We will update the Theory track on a weekly basis and will release lectures in the specified areas. Knowing how to write is a preparation for your term project/paper.
+The theory track includes a number of online lectures that introduces
+you to a variety of topics related to Big Data. You have especially
+the opportunity to become part of a project that would contribute to
+the understanding and the development of a Big Data Architecture
+developed in collaboration with NIST. Other topics that are covered
+include IoT, Health Care, Physics, Science, Biology, Genomics, and so
+forth. We will update the Theory track on a weekly basis and will
+release lectures in the specified areas. Knowing how to write is a
+preparation for your term project/paper.
 
 Track 3: Writing
 ^^^^^^^^^^^^^^^^
@@ -202,14 +210,14 @@ report, or a magazine article, or a blog. Knowing how to write is a
 preparation for your term project/paper.
 
 .. note:: We noticed a curious observation in previous classes. Other
-          than one or two exceptions papers written in LaTeX wer much
+          than one or two exceptions papers written in LaTeX were much
           better structured an the content was better than papers
           written in Word. Thus LaTeX papers typically received higher
           grades. 
 
 
 Track 4: Term Paper/Project
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The major deliverable of the course is a term project or paper. The
 exact details will be posted on the Web page and depends on if you
