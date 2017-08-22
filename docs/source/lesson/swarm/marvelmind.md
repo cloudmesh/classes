@@ -46,7 +46,7 @@ Now, you can start using the dashboard file that you unzipped earlier.
 
 Once you open the dashboard, you should be presented with an error, as shown in *Figure 1*.
 
-![Figure 1](../../../images/swarm/marvelmind-dashboard.png)
+![Figure 1](../../../images/marvelmind-dashboard.png)
 
 *Figure 1: Marvelmind error if modem is not plugged in.*
 
