@@ -1,27 +1,34 @@
-I524 
-================================================
+Classes
+=======
 
-**Big Data and Open Source Software Projects**
+I523
+----
+
+.. toctree::
+   :maxdepth: 1
+
+   i523/2017/index              
+   i523/2016/index
+
+I524
+----
 
 .. toctree::
    :maxdepth: 1
 
-   i524/preface/index
-   i524/index
-   i524/calendar
-   i524/lectures
-   i524/assignments
+   i524/2017/index
 
-I524 Technologies
------------------
+FAQ
+-------------
 
 .. toctree::
    :maxdepth: 1
-	      
-   i524/hids-techs	   
-   i524/technologies
+	   
+   faq
 
-Topic Lessons
+   
+   
+Lessons
 -------------
 
 .. toctree::
@@ -29,7 +36,13 @@ Topic Lessons
 	   
    lesson/index
    notebooks/index
-   faq
+
+Changes
+-------------
+
+.. toctree::
+   :maxdepth: 1
+	   
    todo
    changelog
    

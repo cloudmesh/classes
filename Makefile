@@ -15,8 +15,11 @@ ifeq ($(UNAME), CYGWIN_NT-6.3)
 BROWSER=/cygdrive/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
 endif
 
-doc: 
+doc: convert
 	cd docs; make html
+
+convert:
+	cd docs/source; ./convert.py
 
 all: doc pdf
 	echo done
@@ -61,7 +64,7 @@ pdfview:
 	$(BROWSER) docs/build/latex/i524-notes.pdf
 
 watch:
-	watchmedo shell-command --patterns="Makefile;*.rst;*.csv;*.py" --recursive --command='make doc'
+	watchmedo shell-command --patterns="Makefile;*.rst;*.md;*.csv;*.py" --recursive --command='make doc'
 
 build: clean
 	touch docs/source/index.rst

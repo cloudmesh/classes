@@ -1,5 +1,5 @@
 Word Count 1: Parallel Python
-============
+=============================
 
 Introduction
 ------------

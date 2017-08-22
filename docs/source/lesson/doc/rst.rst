@@ -296,6 +296,6 @@ Todo
       
       .. todo:: an example
 
-.. todo:: an example
+.. image:: ../../images/todo.png
 
-	
+
