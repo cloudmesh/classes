@@ -1,11 +1,28 @@
-.. _s:changelog:
-
 Changelog
 =========
 
 
 %%version%% (unreleased)
 ------------------------
+
+New
+~~~
+- Add robot car drawing. [Gregor von Laszewski]
+- Move esp documentation to rst. [Gregor von Laszewski]
+- Preface. [Gregor von Laszewski]
+- Add grove sensors. [Gregor von Laszewski]
+- Iot/pi.md uptdate. [Gregor von Laszewski]
+- Add ipython kmeans. [Gregor von Laszewski]
+- Add md convert script. [Gregor von Laszewski]
+- Add iot section placeholder. [Gregor von Laszewski]
+
+Changes
+~~~~~~~
+- Clenupn of iot, adding link to changelog. [Gregor von Laszewski]
+- Cleanup. [Gregor von Laszewski]
+
+Other
+~~~~~
 - 3.2.0. [Gregor von Laszewski]
 - Version 3.2.0. [Gregor von Laszewski]
 
