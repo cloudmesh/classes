@@ -29,7 +29,9 @@ X-Informatics Case Study: Health Informatics
 Overview
 """""""""""""
 
-Slides: https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
+.. todo:: The slides or videos are going to be updated 
+          
+          Slides: https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
 
 This section starts by discussing general aspects of Big Data and
 Health including data sizes, different areas including genomics, EBI,
@@ -59,7 +61,9 @@ given in radiology, genomics, personalized medicine, and the
 Quantified Self movement, with sizes and access to European
 Bioinformatics Institute.
 
-Video: http://youtu.be/i7volfOVAmY
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/i7volfOVAmY
 
 
 
@@ -70,7 +74,9 @@ This covers trends of costs and type of healthcare with low cost
 genomes and an aging population. Social media and government Brain
 initiative.
 
-Video: http://youtu.be/tAT3pux4zeg
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/tAT3pux4zeg
 
 
 Telemedicine (Virtual Health)
@@ -79,7 +85,9 @@ Telemedicine (Virtual Health)
 This describes increasing use of telemedicine and how we tried and
 failed to do this in 1994.
 
-Video: http://youtu.be/4JbGim9FFXg
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/4JbGim9FFXg
 
 
 Big Data and Healthcare Industry
@@ -87,7 +95,9 @@ Big Data and Healthcare Industry
 
 Summary of an industry survey by GE and Accenture.
 
-Video: http://youtu.be/wgK9JIUiWpQ
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/wgK9JIUiWpQ
 
 
 Medical Big Data in the Clouds
@@ -95,19 +105,25 @@ Medical Big Data in the Clouds
 
 An impressive exemplar Cloud-based medicine system from Potsdam.
 
-Video: http://youtu.be/-D9mEdM62uY
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/-D9mEdM62uY
 
 
 Medical image Big Data
 """"""""""""""""""""""
 
-Video: http://youtu.be/aaNplveyKf0
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/aaNplveyKf0
 
 
 Clouds and Health
 """""""""""""""""
 
-Video: http://youtu.be/9Whkl_UPS5g
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/9Whkl_UPS5g
 
 
 McKinsey Report on the big-data revolution in US health care
@@ -127,7 +143,9 @@ data transformation should provide the leadership required for the
 associated cultural transformation; Companies must develop a range of
 big data capabilities.
 
-Video: http://youtu.be/bBoHzRjMEmY
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/bBoHzRjMEmY
 
 
 Microsoft Report on Big Data in Health
@@ -138,7 +156,9 @@ Science Data, Patient & Consumer Data, Claims & Cost Data and
 Correlational Data. Three approaches are Live data feed, Advanced
 analytics and Social analytics.
 
-Video: http://youtu.be/PjffvVgj1PE
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/PjffvVgj1PE
 
 
 
@@ -151,7 +171,9 @@ My decisions; Liberate the data; Connect up everything; Revolutionize
 health; and Include Everyone removing the current correlation between
 health and wealth.
 
-Video: http://youtu.be/9mbt_ZSs0iw
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/9mbt_ZSs0iw
 
 
 Medicine and the Internet of Things
@@ -160,7 +182,9 @@ Medicine and the Internet of Things
 The Internet of Things will have great impact on health including
 telemedicine and wearables. Examples are given.
 
-Video: http://youtu.be/QGRfWlvw584
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/QGRfWlvw584
 
 
 
@@ -170,7 +194,9 @@ Extrapolating to 2032
 A study looks at 4 scenarios for healthcare in 2032. Two are positive,
 one middle of the road and one negative.
 
-Video: http://youtu.be/Qel4gmBxy8U
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/Qel4gmBxy8U
 
 
 Genomics, Proteomics and Information Visualization I
@@ -188,7 +214,9 @@ is discussed. We note that the MDS approach is related to the well
 known chisq method and some aspects of nonlinear minimization of chisq
 (Least Squares) are discussed.
 
-Video: http://youtu.be/r1yENstaAUE
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/r1yENstaAUE
 
 
 Genomics, Proteomics and Information Visualization II
@@ -211,7 +239,9 @@ emphasizing the importance of visualizing results of data analytics.
 The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
-Video: http://youtu.be/_F1Eo6bfN0w
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/_F1Eo6bfN0w
 
 
 Genomics, Proteomics and Information Visualization III
@@ -234,9 +264,11 @@ emphasizing the importance of visualizing results of data analytics.
 The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
-Video: http://youtu.be/R1svGGKipkc
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/R1svGGKipkc
 
-Slides: https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
+          Slides: https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
 
 
 Resources

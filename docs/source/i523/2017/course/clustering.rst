@@ -20,7 +20,9 @@ visualized in Matplotlib in 2D and with Plotviz in 3D. The concept of
 training and testing sets are introduced with training set
 pre-labelled.
 
-Slides: https://iu.app.box.com/s/i9et3dxnhr3qt5gn14bg
+.. todo:: The slides or videos are going to be updated
+
+          Slides: https://iu.app.box.com/s/i9et3dxnhr3qt5gn14bg
 
 Files:
 
@@ -43,9 +45,11 @@ to classify 3 test points. Second we consider a 3D dataset that has
 already been classified and show how to normalize. In this lesson we
 just use Matplotlib to give 2D plots.
 
-Video 1: https://youtu.be/o16L0EqsQ_g
+.. todo:: The slides or videos are going to be updated
+          
+          Video 1: https://youtu.be/o16L0EqsQ_g
 
-Video 2: https://youtu.be/JK5p24mnTjs
+          Video 2: https://youtu.be/JK5p24mnTjs
 
 
 3D Visualization
@@ -55,7 +59,9 @@ The lesson modifies the online code to allow it to produce files
 readable by PlotViz. We visualize already classified 3D set and rotate
 in 3D.
 
-https://youtu.be/fLtH-ZI1Jqk
+.. todo:: The slides or videos are going to be updated
+          
+          Video: https://youtu.be/fLtH-ZI1Jqk
 
 
 Testing k'th Nearest Neighbor Algorithms
@@ -69,7 +75,9 @@ different classification from that input. One can experiment with
 different sizes of the two subsets. The Python implementation of
 algorithm is analyzed in detail.
 
-https://youtu.be/zLaPGMIQ9So
+.. todo:: The slides or videos are going to be updated
+          
+          Video https://youtu.be/zLaPGMIQ9So
 
 Clustering and heuristic methods
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -83,9 +91,9 @@ local optima, the use of annealing to avoid this and value of
 heuristic algorithms.
 
 
+.. todo:: The slides or videos are going to be updated
 
-
-Slides: https://iu.app.box.com/s/70qn6d61oln9b50jqobl
+          Slides: https://iu.app.box.com/s/70qn6d61oln9b50jqobl
 
 
 Files:
@@ -104,7 +112,10 @@ We introduce the k means algorithm in a gentle fashion and
 describes its key features including dangers of local minima. A simple
 example from Wikipedia is examined.
 
-https://youtu.be/3KTNJ0Okrqs
+
+.. todo:: The slides or videos are going to be updated
+          
+          Video: https://youtu.be/3KTNJ0Okrqs
 
 
 Clustering of Recommender System Example
@@ -115,7 +126,9 @@ with an ''optimal'' clustering into 3 clusters using a fancy
 deterministic annealing method that is similar to k means. The new
 clustering has centers marked.
 
-https://youtu.be/yl_KZ86NT-A
+.. todo:: The slides or videos are going to be updated
+          
+          Video: https://youtu.be/yl_KZ86NT-A
 
 
 Clustering of Recommender Example into more than 3 Clusters
@@ -126,7 +139,9 @@ into 28 separate clusters that are naturally smaller in size and
 divide 3D space covered by 1000 points into compact geometrically
 local regions.
 
-https://youtu.be/JWZmh48l0cw
+.. todo:: The slides or videos are going to be updated
+          
+          Video: https://youtu.be/JWZmh48l0cw
 
 
 
@@ -139,7 +154,9 @@ rife with local optima. The key idea behind annealing to avoid local
 optima is described. The pervasive greedy optimization method is
 described.
 
-https://youtu.be/Zmq8O_axCmc
+.. todo:: The slides or videos are going to be updated
+          
+          Video: https://youtu.be/Zmq8O_axCmc
 
 
 Clustering in General
@@ -155,7 +172,9 @@ is described. Examples are then given using PlotViz from 2D clustering
 of a mass spectrometry example and the results of clustering genomic
 data mapped into 3D with Multi Dimensional Scaling MDS.
 
-https://youtu.be/JejNZhBxjRU
+.. todo:: The slides or videos are going to be updated
+          
+          Video: https://youtu.be/JejNZhBxjRU
 
 
 
@@ -165,7 +184,9 @@ Heuristics
 Some remarks are given on heuristics; why are they so important why
 getting exact answers is often not so important?
 
-https://youtu.be/KT22YuX8ZMY
+.. todo:: The slides or videos are going to be updated
+          
+          Video: https://youtu.be/KT22YuX8ZMY
 
 
 Resources

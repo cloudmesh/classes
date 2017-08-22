@@ -65,16 +65,21 @@ values of X) and the Rallying cry of course: Use Clouds running Data
 Analytics Collaboratively processing Big Data to solve problems in
 X-Informatics (or e-X). 
 
-Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
+.. todo:: The slides or videos are going to be updated 
+          
 
-Overall Introduction  Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
+          Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
+
+          Overall Introduction  Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
 
 Overview of Topics
 ^^^^^^^^^^^^^^^^^^
 
-Video: https://youtu.be/Gpivfx4v5eY
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: https://youtu.be/Gpivfx4v5eY
 
-Video with cc: https://www.youtube.com/watch?v=aqgDnu5fRMM
+          Video with cc: https://www.youtube.com/watch?v=aqgDnu5fRMM
 
 
 Course Topics I
@@ -88,8 +93,9 @@ Discussion of some of the available units:
 * Using FutureGrid for Big Data Applications and Analytics Course
 * Physics Use Case, Discovery of Higgs Particle; Counting Events and Basic Statistics Parts I-IV.
 
-
-Video: http://youtu.be/9NgG-AUOpYQ
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/9NgG-AUOpYQ
 
 
 Course Topics II
@@ -105,7 +111,9 @@ Discussion of some more of the available units:
 * Parallel Computing Overview and familiar examples
 * Cloud Technology for Big Data Applications & Analytics
 
-Video http://youtu.be/pxuyjeLQc54
+.. todo:: The slides or videos are going to be updated 
+            
+          Video http://youtu.be/pxuyjeLQc54
 
 Course Topics III
 """""""""""""""""
@@ -122,7 +130,9 @@ Discussion of the remainder of the available units:
 * Use Case: Sensors
 * Use Case: Radar for Remote Sensing.
 
-Video: http://youtu.be/rT4thK_i5ig
+.. todo:: The slides or videos are going to be updated 
+            
+          Video: http://youtu.be/rT4thK_i5ig
 
 Course Motivation
 ^^^^^^^^^^^^^^^^^
@@ -142,7 +152,9 @@ and particular features of MapReduce are described. He comments on a
 data science education and the benefits of using MOOC's.
 
 
-Slides: https://iu.box.com/s/muldo1qkcdlpdeiog3zo
+.. todo:: The slides or videos are going to be updated  
+          
+          Slides: https://iu.box.com/s/muldo1qkcdlpdeiog3zo
 
 
 Emerging Technologies
@@ -155,7 +167,9 @@ economic imperative, computing model, research model, Opportunities in
 advancing computing, Opportunities in X-Informatics, Data Science
 Education
 
-Video: http://youtu.be/kyJxstTivoI
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/kyJxstTivoI
 
 
 Data Deluge
@@ -176,7 +190,9 @@ Finance, Health, Intelligence, Lifestyle, Marketing, Medicine,
 Pathology, Policy, Radar, Security, Sensor, Social, Sustainability,
 Wealth and Wellness"
 
-Video: http://youtu.be/sVNV0NxlQ6A
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/sVNV0NxlQ6A
 
 
 
@@ -187,7 +203,9 @@ Jobs abound in clouds and data science. There are documented shortages
 in data science, computer science and the major tech companies
 advertise for new talent.
 
-Video: http://youtu.be/h9u7YeKkHHU
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/h9u7YeKkHHU
 
 
 Industrial Trends
@@ -198,7 +216,9 @@ comparative decrease in desktop access, the export of internet
 content, the change in dominant client operating systems, use of
 social media, thriving Chinese internet companies.
 
-Video: http://youtu.be/EIRIPDYN5nM
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/EIRIPDYN5nM
 
 Digital Disruption of Old Favorites
 """""""""""""""""""""""""""""""""""
@@ -207,7 +227,9 @@ Not everything goes up. The rise of the Internet has led to declines
 in some traditional areas including Shopping malls and Postal
 Services.
 
-Video: http://youtu.be/RxGopRuMWOE
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/RxGopRuMWOE
 
 
 
@@ -224,7 +246,9 @@ consolidation. Then key characteristics of clouds are reviewed with
 expected high growth in Infrastructure, Platform and Software as a
 Service.
 
-Video: http://youtu.be/NBZPQqXKbiw
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/NBZPQqXKbiw
 
 
 Research Model
@@ -235,7 +259,9 @@ Research Model
 We introduce the 4 paradigms of scientific research with the
 focus on the new fourth data driven methodology.
 
-Video: http://youtu.be/2ke459BRBhw
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/2ke459BRBhw
 
 
 Data Science Process
@@ -246,7 +272,9 @@ We introduce the DIKW data to information to knowledge to
 wisdom paradigm. Data flows through cloud services transforming itself
 and emerging as new information to input into other transformations.
 
-Video: http://youtu.be/j9ytOaBoe2k
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/j9ytOaBoe2k
 
 Physics-Informatics
 """""""""""""""""""
@@ -258,7 +286,9 @@ as a bump in a histogram; something that so amazed him 50 years ago
 that he got a PhD in this field. He left field partly due to the
 incredible size of author lists on papers.
 
-Video: http://youtu.be/qUB0q4AOavY
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/qUB0q4AOavY
 
 
 Recommender Systems
@@ -272,8 +302,11 @@ recommendation and muses about the power of viewing all sorts of
 things as items in a bag or more abstractly some space with funny
 properties.
 
-Video 1: http://youtu.be/Aj5k0Sa7XGQ
-Video 2: http://youtu.be/VHS7il5OdjM
+.. todo:: The slides or videos are going to be updated 
+          
+          Video 1: http://youtu.be/Aj5k0Sa7XGQ
+
+          Video 2: http://youtu.be/VHS7il5OdjM
 
 
 
@@ -285,7 +318,9 @@ overview of the data analytics for web search, Pagerank as a method of
 ranking web pages returned and uses material from Yahoo on the subtle
 algorithms for dynamic personalized choice of material for web pages.
 
-Video: http://youtu.be/i9gR9PdVXUU
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/i9gR9PdVXUU
 
 
 Cloud Application in Research
@@ -295,7 +330,9 @@ We describe scientific applications and how they map onto
 clouds, supercomputers, grids and high throughput systems. He likes
 the cloud use of the Internet of Things and gives examples.
 
-Video: http://youtu.be/C19-5WQH2TU
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/C19-5WQH2TU
 
 
 Parallel Computing and MapReduce
@@ -304,7 +341,9 @@ Parallel Computing and MapReduce
 We define MapReduce and gives a homely example from fruit
 blending.
 
-Video: http://youtu.be/BbW1PFNnKrE
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/BbW1PFNnKrE
 
 
 Data Science Education
@@ -323,7 +362,9 @@ model. Grading and mentoring models and important online tools are
 discussed. Clouds have MOOC's describing them and MOOC's are stored in
 clouds; a pleasing symmetry.
 
-Video: http://youtu.be/x2LuiX8DYLs
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/x2LuiX8DYLs
 
 
 
@@ -337,7 +378,9 @@ ecosystem in one sentence "Use Clouds running Data Analytics
 Collaboratively processing Big Data to solve problems in X-Informatics
 educated in data science"
 
-Video: http://youtu.be/C0GszJg-MjE
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/C0GszJg-MjE
 
 
 Resources
