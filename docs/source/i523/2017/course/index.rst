@@ -12,23 +12,22 @@
    :maxdepth: 2
 
    introduction
-   cloud.rst
-   clustering.rst
-   health.rst
-   introduction.rst
-   lifestyle.rst
-   overview.rst
-   physics.rst
+   overview
+   usecases   
+   health
+   lifestyle
+   physics
    radar,rst
-   sensor.rst
-   sport.rst
-   technology.rst
-   usecases.rst
-
+   sensor
+   sport
+   technology
+   web
+   
 .. toctree::
    :caption: Track Technology
    :maxdepth: 2
 
-   python-tech.rst
-   python.rst
-
+   python-tech
+   python
+   cloud
+   clustering

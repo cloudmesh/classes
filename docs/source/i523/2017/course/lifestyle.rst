@@ -258,7 +258,7 @@ Resources
 
 * http://pages.cs.wisc.edu/~beechung/icml11-tutorial/
 
-Unit 22. Item-based Collaborative Filtering and its Technologies
+Item-based Collaborative Filtering and its Technologies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We move on to item-based collaborative filtering where items

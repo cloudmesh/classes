@@ -1,6 +1,6 @@
 .. _S6:
 
-Section 6. Physics Case Study
+Physics Case Study
 ----------------------------------------------------------------------
 
 

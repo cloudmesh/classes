@@ -50,7 +50,8 @@ individual cores. Many examples are given and it is stressed that
 issues in parallel computing are seen in day to day life for
 communication, synchronization, load balancing and decomposition.
 
-
+.. todo:: The slides or videos are going to be updated
+          
 Slides: https://iu.app.box.com/s/nau0rsr39kyej240s4yz
 
 
@@ -68,6 +69,8 @@ separate tasks processing different data parts -- is described with
 MPI and MapReduce as two approaches. The challenges of data
 decomposition in irregular problems is noted.
 
+.. todo:: The slides or videos are going to be updated
+          
 Video 1: https://youtu.be/R-wHQW2YuRE
 
 Video 2: https://youtu.be/iIi9wdvlwCM
@@ -90,6 +93,8 @@ Amdahl's law and the relation between data and processor topology. The
 lesson concludes with other examples from nature including collections
 of neurons (the brain) and ants.
 
+.. todo:: The slides or videos are going to be updated
+          
 Video 1: https://youtu.be/8rtjoe8AeJw
 
 Video 2: https://youtu.be/7sCgH_TTPGk
@@ -109,7 +114,9 @@ Hadrian's wall is followed by a slide summarizing this quaint
 comparison between Big data parallelism and the construction of a
 large wall.
 
-https://youtu.be/ZD2AQ08cy8I
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/ZD2AQ08cy8I
 
 
 Resources
@@ -143,7 +150,8 @@ applications. Gartner also has specific predictions for cloud
 computing growth areas.
 
 
-
+.. todo:: The slides or videos are going to be updated
+          
 Slides: https://iu.app.box.com/s/p3lztuu9kv240pdm66141or9b8p1uvzb
 
 
@@ -156,7 +164,9 @@ where e-moreorlessanything is another term for
 moreorlessanything-Informatics and generalizes early discussion of
 e-Science and e-Business.
 
-https://youtu.be/gHz0cu195ZM
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/gHz0cu195ZM
 
 
 
@@ -172,7 +182,9 @@ Network (NaaS) -- are introduced with Research aaS and other
 capabilities (for example Sensors aaS are discussed later) being built
 on top of these.
 
-https://youtu.be/Od_mYXRs5As
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/Od_mYXRs5As
 
 
 What and Why is Cloud Computing: Several Other Views I
@@ -181,6 +193,8 @@ What and Why is Cloud Computing: Several Other Views I
 This lesson contains 5 slides with diverse comments on ''what is cloud
 computing'' from the web.
 
+.. todo:: The slides or videos are going to be updated
+          
 Video 1: https://youtu.be/5VeqMjXKU_Y
 
 Video 2: https://youtu.be/J963LR0PS_g
@@ -198,7 +212,9 @@ itself is at the top of the hype and by definition predictions of doom
 are emerging. Before too much excitement sets in, note that spinach is
 above clouds and Big data in Google trends.
 
-https://youtu.be/N7aEtU1mUwc
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/N7aEtU1mUwc
 
 
 Simple Examples of use of Cloud Computing
@@ -210,7 +226,9 @@ consolidation for multiple Microsoft database applications and the
 second is the benefits of scale comparing gmail to multiple smaller
 installations. It ends with some fiscal comments.
 
-https://youtu.be/VCctCP6BKEo
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/VCctCP6BKEo
 
 
 Value of Cloud Computing
@@ -218,7 +236,9 @@ Value of Cloud Computing
 
 Some comments on fiscal value of cloud computing.
 
-https://youtu.be/HM1dZCxdsaA
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/HM1dZCxdsaA
 
 
 
@@ -243,7 +263,7 @@ Platform (middleware) capabilities with examples from Amazon and
 academic studies. We summarize the 21 layers and almost 300 software
 packages in the HPC-ABDS Software Stack explaining how they are used.
 
-
+.. todo:: The slides or videos are going to be updated
 
 Slides: https://iu.app.box.com/s/k61o0ff1w6jkn5zmpaaiw02yth4v4alh
 
@@ -254,7 +274,9 @@ What is Cloud Computing
 This lesson gives some general remark of cloud systems from an
 architecture and application perspective.
 
-https://youtu.be/h3Rpb0Eyj1c
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/h3Rpb0Eyj1c
 
 
 Introduction to Cloud Software Architecture: IaaS and PaaS I
@@ -264,7 +286,9 @@ We discuss cloud software for the cloud starting at virtual
 machine management (IaaS) and the broad Platform (middleware)
 capabilities with examples from Amazon and academic studies.
 
-https://youtu.be/1AnyJYyh490
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/1AnyJYyh490
 
 
 Introduction to Cloud Software Architecture: IaaS and PaaS II
@@ -277,7 +301,9 @@ Platform (middleware) capabilities with examples from Amazon and
 academic studies. We summarize the 21 layers and almost 300 software
 packages in the HPC-ABDS Software Stack explaining how they are used.
 
-https://youtu.be/hVpFAUHcAd4
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/hVpFAUHcAd4
 
 
 Using the HPC-ABDS Software Stack
@@ -285,7 +311,9 @@ Using the HPC-ABDS Software Stack
 
 Using the HPC-ABDS Software Stack.
 
-https://youtu.be/JuTQdRW78Pg
+.. todo:: The slides or videos are going to be updated
+
+Video: https://youtu.be/JuTQdRW78Pg
 
 
 Resources
@@ -308,6 +336,8 @@ data intensive problems, comparison with high performance computing,
 science clouds and the Internet of Things. Remarks on Security, Fault
 Tolerance and Synchronicity issues in cloud follow.
 
+.. todo:: The slides or videos are going to be updated
+          
 Slides: https://iu.app.box.com/s/0bn57opwe56t0rx4k18bswupfwj7culv
 
 
@@ -322,6 +352,8 @@ modular data centers that trade scalability for fault tolerance. Sizes
 of cloud centers and supercomputers are discussed as is "green"
 computing.
 
+.. todo:: The slides or videos are going to be updated
+          
 Video 1: https://youtu.be/j0P32DmQjI8
 
 Video 2: https://youtu.be/3HAGqz34AB4
@@ -333,6 +365,8 @@ Analysis of Major Cloud Providers
 
 Gartner 2014 Analysis of leading cloud providers.
 
+.. todo:: The slides or videos are going to be updated
+          
 https://youtu.be/Tu8hE1SeT28
 
 
@@ -342,6 +376,8 @@ Commercial Cloud Storage Trends
 
 Use of Dropbox, iCloud, Box etc.
 
+.. todo:: The slides or videos are going to be updated
+          
 https://youtu.be/i5OI6R526kM
 
 
@@ -356,6 +392,8 @@ discuss both storage and program fault tolerance noting that parallel
 computing is especially sensitive to faults as a fault in one task
 will impact all other tasks in the parallel job.
 
+.. todo:: The slides or videos are going to be updated
+          
 Video 1: https://youtu.be/nkeSOMTGbbo
 
 Video 2: https://youtu.be/ORd3aBhc2Rc
@@ -366,6 +404,8 @@ Science Clouds
 
 Science Applications and Internet of Things.
 
+.. todo:: The slides or videos are going to be updated
+          
 https://youtu.be/2PDvpZluyvs
 
 
@@ -376,6 +416,8 @@ Security
 This short lesson discusses the need for security and issues in its
 implementation.
 
+.. todo:: The slides or videos are going to be updated
+          
 https://youtu.be/NojXG3fbrEo
 
 
@@ -388,6 +430,8 @@ storage and program fault tolerance noting that parallel computing is
 especially sensitive to faults as a fault in one task will impact all
 other tasks in the parallel job.
 
+.. todo:: The slides or videos are going to be updated
+          
 https://youtu.be/OMZiSiN7dlU
 
 
@@ -433,7 +477,8 @@ architecture perspective and Big Data Processing from an application
 perspective with commercial examples including eBay.
 
 
-
+.. todo:: The slides or videos are going to be updated
+          
 Slides: https://iu.app.box.com/s/ftfpybxm8jzjepzp409vgair1fttv3m1
 
 
@@ -443,7 +488,9 @@ The 10 Interaction scenarios (access patterns) I
 The next 3 lessons describe the way users and data interact with the
 system.
 
-https://youtu.be/vB4rCNri_P0
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/vB4rCNri_P0
 
 
 
@@ -453,7 +500,9 @@ The 10 Interaction scenarios. Science Examples
 This lesson describes the way users and data interact with the system
 for some science examples.
 
-https://youtu.be/cFX1PQpiSbk
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/cFX1PQpiSbk
 
 
 Remaining general access patterns
@@ -462,7 +511,9 @@ Remaining general access patterns
 This lesson describe the way users and data interact with the system
 for the final set of examples.
 
-https://youtu.be/-dtE9zXB-I0
+.. todo:: The slides or videos are going to be updated
+          
+Video: https://youtu.be/-dtE9zXB-I0
 
 
 Data in the Cloud
@@ -472,7 +523,9 @@ Databases, File systems, Object Stores and NOSQL are discussed and
 compared. The way to build a modern data repository in the cloud is
 introduced.
 
-https://youtu.be/HdtIOnk3qX4
+.. todo:: The slides or videos are going to be updated
+          
+          Video: https://youtu.be/HdtIOnk3qX4
 
 
 Applications Processing Big Data
@@ -482,7 +535,9 @@ This lesson collects remarks on Big data processing from several
 sources: Berkeley, Teradata, IBM, Oracle and eBay with architectures
 and application opportunities.
 
-https://youtu.be/d6A2m4GR-hw
+.. todo:: The slides or videos are going to be updated
+          
+          Video: https://youtu.be/d6A2m4GR-hw
 
 
 Resources
@@ -499,265 +554,5 @@ Resources
 * https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf
 * http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html
 
-.. _S12:
-
-Section 12. Web Search and Text Mining and their technologies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This section starts with an overview of data mining and puts our study
-of classification, clustering and exploration methods in context. We
-examine the problem to be solved in web and text search and note the
-relevance of history with libraries, catalogs and concordances. An
-overview of web search is given describing the continued evolution of
-search engines and the relation to the field of Information
-Retrieval. The importance of recall, precision and diversity is
-discussed. The important Bag of Words model is introduced and both
-Boolean queries and the more general fuzzy indices. The important
-vector space model and revisiting the Cosine Similarity as a distance
-in this bag follows. The basic TF-IDF approach is dis
-cussed. Relevance is discussed with a probabilistic model while the
-distinction between Bayesian and frequency views of probability
-distribution completes this unit.
-
-We start with an overview of the different steps (data
-analytics) in web search and then goes key steps in detail starting
-with document preparation. An inverted index is described and then how
-it is prepared for web search. The Boolean and Vector Space approach
-to query processing follow. This is followed by Link Structure
-Analysis including Hubs, Authorities and PageRank. The application of
-PageRank ideas as reputation outside web search is covered. The web
-graph structure, crawling it and issues in web advertising and search
-follow. The use of clustering and topic models completes section
-
-
-
-
-Unit 30. Web Search and Text Mining I
-"""""""""""""""""""""""""""""""""""""
-
-
-The unit starts with the web with its size, shape (coming from the
-mutual linkage of pages by URL's) and universal power laws for number
-of pages with particular number of URL's linking out or in to
-page. Information retrieval is introduced and compared to web
-search. A comparison is given between semantic searches as in
-databases and the full text search that is base of Web search. The
-origin of web search in libraries, catalogs and concordances is
-summarized. DIKW -- Data Information Knowledge Wisdom -- model for web
-search is discussed. Then features of documents, collections and the
-important Bag of Words representation. Queries are presented in
-context of an Information Retrieval architecture. The method of
-judging quality of results including recall, precision and diversity
-is described. A time line for evolution of search engines is given.
-
-Boolean and Vector Space models for query including the cosine
-similarity are introduced. Web Crawlers are discussed and then the
-steps needed to analyze data from Web and produce a set of
-terms. Building and accessing an inverted index is followed by the
-importance of term specificity and how it is captured in TF-IDF. We
-note how frequencies are converted into belief and relevance.
-
-
-Slides: https://iu.app.box.com/s/qo7itbtcxp2b58syz3jg
-
-
-
-Web and Document/Text Search: The Problem
-"""""""""""""""""""""""""""""""""""""""""
-
-This lesson starts with the web with its size, shape (coming from the
-mutual linkage of pages by URL's) and universal power laws for number
-of pages with particular number of URL's linking out or in to page.
-
-https://youtu.be/T12BccKe8p4
-
-
-
-Information Retrieval leading to Web Search
-"""""""""""""""""""""""""""""""""""""""""""
-
-Information retrieval is introduced A comparison is given between
-semantic searches as in databases and the full text search that is
-base of Web search. The ACM classification illustrates potential
-complexity of ontologies. Some differences between web search and
-information retrieval are given.
-
-https://youtu.be/KtWhk2cdRa4
-
-
-History behind Web Search
-"""""""""""""""""""""""""
-
-The origin of web search in libraries, catalogs and concordances is
-summarized.
-
-https://youtu.be/J7D61uH5gVM
-
-
-
-Key Fundamental Principles behind Web Search
-""""""""""""""""""""""""""""""""""""""""""""
-
-This lesson describes the DIKW -- Data Information Knowledge Wisdom --
-model for web search. Then it discusses documents, collections and the
-important Bag of Words representation.
-
-https://youtu.be/yPFi6xFnDHE
-
-
-Information Retrieval (Web Search) Components
-"""""""""""""""""""""""""""""""""""""""""""""
-
-
-This describes queries in context of an Information Retrieval
-architecture. The method of judging quality of results including
-recall, precision and diversity is described.
-
-https://youtu.be/EGsnonXgb3Y
-
-
-Search Engines
-""""""""""""""
-
-This short lesson describes a time line for evolution of search
-engines. The first web search approaches were directly built on
-Information retrieval but in 1998 the field was changed when Google
-was founded and showed the importance of URL structure as exemplified
-by PageRank.
-
-https://youtu.be/kBV-99N6f7k
-
-
-Boolean and Vector Space Models
-"""""""""""""""""""""""""""""""
-
-This lesson describes the Boolean and Vector Space models for query
-including the cosine similarity.
-
-https://youtu.be/JzGBA0OhsIk
-
-
-
-Web crawling and Document Preparation
-"""""""""""""""""""""""""""""""""""""
-
-This describes a Web Crawler and then the steps needed to analyze data
-from Web and produce a set of terms.
-
-https://youtu.be/Wv-r-PJ9lro
-
-
-Indices
-"""""""
-
-This lesson describes both building and accessing an inverted
-index. It describes how phrases are treated and gives details of query
-structure from some early logs.
-
-https://youtu.be/NY2SmrHoBVM
-
-
-TF-IDF and Probabilistic Models
-"""""""""""""""""""""""""""""""
-
-It describes the importance of term specificity and how it is captured
-in TF-IDF. It notes how frequencies are converted into belief and
-relevance.
-
-https://youtu.be/9P_HUmpselU
-
-
-
-Resources
-"""""""""
-
-* http://saedsayad.com/data_mining_map.htm
-* http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html
-
-* The Web Graph: an Overview Jean-Loup Guillaume and Matthieu Latapy
-  https://hal.archives-ouvertes.fr/file/index/docid/54458/filename/webgraph.pdf
-* Constructing a reliable Web graph with information on browsing behavior, Yiqun Liu, Yufei Xue, Danqing Xu, Rongwei Cen, Min Zhang, Shaoping Ma, Liyun Ru
-  http://www.sciencedirect.com/science/article/pii/S0167923612001844
-
-* http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
-
-Web Search and Text Mining II
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-
-We start with an overview of the different steps (data analytics) in
-web search. This is followed by Link Structure Analysis including
-Hubs, Authorities and PageRank. The application of PageRank ideas as
-reputation outside web search is covered. Issues in web advertising
-and search follow. his leads to emerging field of computational
-advertising. The use of clustering and topic models completes unit
-with Google News as an example.
-
-
-Slides: https://iu.app.box.com/s/iuzc1qfep748z1o2kgx2
-
-
-Data Analytics for Web Search
-"""""""""""""""""""""""""""""
-
-This short lesson describes the different steps needed in web search
-including: Get the digital data (from web or from scanning); Crawl
-web; Preprocess data to get searchable things (words, positions); Form
-Inverted Index mapping words to documents; Rank relevance of documents
-with potentially sophisticated techniques; and integrate technology to
-support advertising and ways to allow or stop pages artificially
-enhancing relevance.
-
-https://youtu.be/ugyycKBjaBQ
-
-
-Link Structure Analysis including PageRank I
-""""""""""""""""""""""""""""""""""""""""""""
-
-The value of links and the concepts of Hubs and Authorities are
-discussed. This leads to definition of PageRank with
-examples. Extensions of PageRank viewed as a reputation are discussed
-with journal rankings and university department rankings as
-examples. There are many extension of these ideas which are not
-discussed here although topic models are covered briefly in a later
-lesson.
-
-Video 1: https://youtu.be/1oXdopVxqfI
-
-Video 2: https://youtu.be/OCn-gCTxvrU
-
-
-Web Advertising and Search
-""""""""""""""""""""""""""
-
-Internet and mobile advertising is growing fast and can be
-personalized more than for traditional media. There are several
-advertising types Sponsored search, Contextual ads, Display ads and
-different models: Cost per viewing, cost per clicking and cost per
-action. This leads to emerging field of computational advertising.
-
-https://youtu.be/GgkmG0NzQvg
-
-
-
-Clustering and Topic Models
-"""""""""""""""""""""""""""
-
-We discuss briefly approaches to defining groups of documents. We
-illustrate this for Google News and give an example that this can give
-different answers from word-based analyses. We mention some work at
-Indiana University on a Latent Semantic Indexing model.
-
-https://youtu.be/95cHMyZ-TUs
-
-
-Resources
-"""""""""
-
-* http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
-* https://en.wikipedia.org/wiki/PageRank
-* http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html
-* Meeker/Wu May 29 2013 Internet Trends D11 Conference http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013
 
 .. _S13:
