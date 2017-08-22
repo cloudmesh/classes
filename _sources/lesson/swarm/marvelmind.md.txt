@@ -46,7 +46,7 @@ Now, you can start using the dashboard file that you unzipped earlier.
 
 Once you open the dashboard, you should be presented with an error, as shown in *Figure 1*.
 
-![Figure 1](images/marvelmind/marvelmind-dashboard.png)
+![Figure 1](../../images/marvelmind-dashboard.png)
 
 *Figure 1: Marvelmind error if modem is not plugged in.*
 
@@ -54,7 +54,7 @@ You may get the error shown in *Figure 1* if you have not plugged in
 the Marvelmind modem into your Windows PC yet. The modem is shown
 in *Figure 2*. Without this modem plugged into your Windows PC with a microUSB cable, you will not be able to use the Marvelmind dashboard to set up your Marvelmind navigation environment.
 
-![Figure 2](images/marvelmind/marvelmind-receiver.png)
+![Figure 2](../../images/marvelmind/marvelmind-receiver.png)
 
 *Figure 2: Marvelmind modem.*
 
@@ -68,7 +68,7 @@ track movement with the dashboard environment. You will need at least
 two beacons. You now need to set up stationary and mobile beacons, as
 needed, to fit your navigational needs.
 
-![Figure 3](images/marvelmind/marvelmind-pos.png)
+![Figure 3](../../images/marvelmind/marvelmind-pos.png)
 
 *Figure 3: Marvelmind coordinate plane.*
 
@@ -88,11 +88,11 @@ to or greater than 1.85 meters using velcro tape, as shown in *Figure
 in our room, the beacon mounted on the ceiling does not result in better
 positioning. Hence, we removed it and only run four stationary beacons in a square-shaped setup. This may vary based on your environment.
 
-![Figure 4](images/marvelmind/marvelmind-beacon.png)
+![Figure 4](../../images/marvelmind/marvelmind-beacon.png)
 
 *Figure 4: Marvelmind beacon.*
 
-![Figure 5](images/marvelmind/marvelmindstand.jpg)
+![Figure 5](../../images/marvelmind/marvelmindstand.jpg)
 
 *Figure 5: Stand used to hold Marvelmind stationary beacon in place above recommended height.* **Circled**: Marvelmind stationary beacon.
 
@@ -111,11 +111,11 @@ beacon you would like to use as your point (0,0, Z) in terms of the x
 and y value, respectibly. The other beacons will now remap themselves
 around this beacon on the dashboard interface.
 
-![Figure 6](images/marvelmind/figure6.png)
+![Figure 6](../../images/marvelmind/figure6.png)
 
 *Figure 6: Marvelmind beacons as green circles.*
 
-![Figure 7](images/marvelmind/figure7.png)
+![Figure 7](../../images/marvelmind/figure7.png)
 
 *Figure 7: First cell shows starting beacon trilateration.*
 
@@ -129,11 +129,11 @@ you would like to assign to this specific beacon, as long as another
 active beacon does not have it. The beacon should now change device
 addresses. Do this for as many beacons as you like.
 
-![Figure 8](images/marvelmind/figure8.png)
+![Figure 8](../../images/marvelmind/figure8.png)
 
 *Figure 8: List of beacons circled red.*
 
-![Figure 9](images/marvelmind/figure9.png)
+![Figure 9](../../images/marvelmind/figure9.png)
 
 *Figure 9: Menu you are presented with once you click a specific beacon to edit its settings.*
 
@@ -147,7 +147,7 @@ Marvelmind screen. Now you can move on to introducing mobile beacons
 that will be picked up by these stationary beacons to your
 environment.
 
-![Figure 10](images/marvelmind/figure10.png)
+![Figure 10](../../images/marvelmind/figure10.png)
 
 *Figure 10: "Freeze map" option circled red.*
 
@@ -169,7 +169,7 @@ mode* and it should be *disabled*. Click on it so it says *enabled*.
 The beacon should now turn blue on the coordinate plane, as shown
 in *Figure 11*.
 
-![Figure 11](images/marvelmind/figure11.png)
+![Figure 11](../../images/marvelmind/figure11.png)
 
 *Figure 11: Hedgehog beacon and its setting.*
 
@@ -188,7 +188,7 @@ purchased from any local store that seems to function very well as a
 holder for the beacons. Just make sure the beacon is not too far into
 the holder, because the sound recepters may become blocked off.
 
-![Figure 12](images/marvelmind/figure12.png)
+![Figure 12](../../images/marvelmind/figure12.png)
 
 *Figure 12: Selfie stick used as a hedgehog beacon holder (note how the sound receptors are elevated above the grip of the beacons).*
 
@@ -244,7 +244,7 @@ First, open the marvelmind dashboard with the marvelmind modem plugged
 in to a Windows PC. You should be presented with a screen that looks
 likes this:
 
-![](images/marvelmind/marvelmindupdate1.png)
+![](../../images/marvelmind/marvelmindupdate1.png)
 
 As you notice, circled at the bottom left of the dashboard, in red, is
 the **version number** of the modem. If the modem is not on the latest
@@ -252,7 +252,7 @@ update, according to [Marvelmind.com](https://www.marvelmind.com), and
 you wish to be on the latest update, click on the firmware tab at the
 top left of the dashboard, as circled in this figure:
 
-![](images/marvelmind/marvelmindupdate2.png)
+![](../../images/marvelmind/marvelmindupdate2.png)
 
 Navigate to the SW folder that you unzipped upon installation, and
 click on the folder labeled after your **modem version**, either 4.5
@@ -260,7 +260,7 @@ or 4.9. Then find the modem **firmware zip file**, unzip it, and
 double click the **hex file** inside and you should be returned to the
 dashboard, as shown:
 
-![](images/marvelmind/marvelmindupdate3.png)
+![](../../images/marvelmind/marvelmindupdate3.png)
 
 Click **next**, and the update should start. Once the update has
 concluded, close the dashboard.
@@ -273,7 +273,7 @@ First, open the marvelmind dashboard with the marvelmind beacon
 plugged in to a Windows PC. You should be presented with a screen that
 looks likes this:
 
-![](images/marvelmind/marvelmindupdate4.png)
+![](../../images/marvelmind/marvelmindupdate4.png)
 
 As you notice, circled at the bottom left of the dashboard, in red, is
 the **version number** of the beacon. If the beacon is not on the
@@ -282,7 +282,7 @@ latest update, according to
 the latest update, click on the firmware tab at the top left of the
 dashboard, as circled in this figure:
 
-![](images/marvelmind/marvelmindupdate5.png)
+![](../../images/marvelmind/marvelmindupdate5.png)
 
 Navigate to the SW folder that you unzipped upon installation, and
 click on the folder labeled after your **modem version**, either 4.5
@@ -290,7 +290,7 @@ or 4.9. Then find the beacon **firmware zip file**, unzip it, and
 double click the **hex file** inside and you should be returned to the
 dashboard, as shown:
 
-![](images/marvelmind/marvelmindupdate6.png)
+![](../../images/marvelmind/marvelmindupdate6.png)
 
 Click **next**, and the update should start. Once the update has
 concluded, close the dashboard.

@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>14. Physics Case Study &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="15. Sensors Case Study" href="sensor.html" />
+    <link rel="prev" title="13. e-Commerce and LifeStyle Case Study" href="lifestyle.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../index.html">i523</a></li>
+                <li><a href="../../../lesson/index.html">Lessons</a></li>
+                <li><a href="../../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">14. Physics Case Study</a><ul>
+<li><a class="reference internal" href="#looking-for-higgs-particles-bumps-in-histograms-experiments-and-accelerators-part-1">14.1. Looking for Higgs Particles, Bumps in Histograms, Experiments and Accelerators (Part 1)</a><ul>
+<li><a class="reference internal" href="#looking-for-higgs-particle-and-counting-introduction-i">14.1.1. Looking for Higgs Particle and Counting Introduction I</a></li>
+<li><a class="reference internal" href="#looking-for-higgs-particle-and-counting-introduction-ii">14.1.2. Looking for Higgs Particle and Counting Introduction II</a></li>
+<li><a class="reference internal" href="#physics-informatics-looking-for-higgs-particle-experiments">14.1.3. Physics-Informatics Looking for Higgs Particle Experiments</a></li>
+<li><a class="reference internal" href="#accelerator-picture-gallery-of-big-science">14.1.4. Accelerator Picture Gallery of Big Science</a></li>
+<li><a class="reference internal" href="#resources">14.1.5. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#looking-for-higgs-particles-python-event-counting-for-signal-and-background-part-2">14.2. Looking for Higgs Particles: Python Event Counting for Signal and Background (Part 2)</a><ul>
+<li><a class="reference internal" href="#physics-use-case-ii-1-class-software">14.2.1. Physics Use Case II 1: Class Software</a></li>
+<li><a class="reference internal" href="#physics-use-case-ii-2-event-counting">14.2.2. Physics Use Case II 2: Event Counting</a></li>
+<li><a class="reference internal" href="#physics-use-case-ii-3-with-python-examples-of-signal-plus-background">14.2.3. Physics Use Case II 3: With Python examples of Signal plus Background</a></li>
+<li><a class="reference internal" href="#physics-use-case-ii-4-change-shape-of-background-num-of-higgs-particles">14.2.4. Physics Use Case II 4: Change shape of background &amp; num of Higgs Particles</a></li>
+<li><a class="reference internal" href="#id1">14.2.5. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#looking-for-higgs-particles-random-variables-physics-and-normal-distributions">14.3. Looking for Higgs Particles: Random Variables, Physics and Normal Distributions</a><ul>
+<li><a class="reference internal" href="#statistics-overview-and-fundamental-idea-random-variables">14.3.1. Statistics Overview and Fundamental Idea: Random Variables</a></li>
+<li><a class="reference internal" href="#physics-and-random-variables-i">14.3.2. Physics and Random Variables I</a></li>
+<li><a class="reference internal" href="#physics-and-random-variables-ii">14.3.3. Physics and Random Variables II</a></li>
+<li><a class="reference internal" href="#statistics-of-events-with-normal-distributions">14.3.4. Statistics of Events with Normal Distributions</a></li>
+<li><a class="reference internal" href="#gaussian-distributions">14.3.5. Gaussian Distributions</a></li>
+<li><a class="reference internal" href="#using-statistics">14.3.6. Using Statistics</a></li>
+<li><a class="reference internal" href="#id2">14.3.7. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#looking-for-higgs-particles-random-numbers-distributions-and-central-limit-theorem-part-3">14.4. Looking for Higgs Particles: Random Numbers, Distributions and Central Limit Theorem (Part 3)</a><ul>
+<li><a class="reference internal" href="#generators-and-seeds-i">14.4.1. Generators and Seeds I</a></li>
+<li><a class="reference internal" href="#generators-and-seeds-ii">14.4.2. Generators and Seeds II</a></li>
+<li><a class="reference internal" href="#binomial-distribution">14.4.3. Binomial Distribution</a></li>
+<li><a class="reference internal" href="#accept-reject">14.4.4. Accept-Reject</a></li>
+<li><a class="reference internal" href="#monte-carlo-method">14.4.5. Monte Carlo Method</a></li>
+<li><a class="reference internal" href="#poisson-distribution">14.4.6. Poisson Distribution</a></li>
+<li><a class="reference internal" href="#central-limit-theorem">14.4.7. Central Limit Theorem</a></li>
+<li><a class="reference internal" href="#interpretation-of-probability-bayes-v-frequency">14.4.8. Interpretation of Probability: Bayes v. Frequency</a></li>
+<li><a class="reference internal" href="#id3">14.4.9. Resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">14. Physics Case Study</a><ul>
+<li><a class="reference internal" href="#looking-for-higgs-particles-bumps-in-histograms-experiments-and-accelerators-part-1">14.1. Looking for Higgs Particles, Bumps in Histograms, Experiments and Accelerators (Part 1)</a><ul>
+<li><a class="reference internal" href="#looking-for-higgs-particle-and-counting-introduction-i">14.1.1. Looking for Higgs Particle and Counting Introduction I</a></li>
+<li><a class="reference internal" href="#looking-for-higgs-particle-and-counting-introduction-ii">14.1.2. Looking for Higgs Particle and Counting Introduction II</a></li>
+<li><a class="reference internal" href="#physics-informatics-looking-for-higgs-particle-experiments">14.1.3. Physics-Informatics Looking for Higgs Particle Experiments</a></li>
+<li><a class="reference internal" href="#accelerator-picture-gallery-of-big-science">14.1.4. Accelerator Picture Gallery of Big Science</a></li>
+<li><a class="reference internal" href="#resources">14.1.5. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#looking-for-higgs-particles-python-event-counting-for-signal-and-background-part-2">14.2. Looking for Higgs Particles: Python Event Counting for Signal and Background (Part 2)</a><ul>
+<li><a class="reference internal" href="#physics-use-case-ii-1-class-software">14.2.1. Physics Use Case II 1: Class Software</a></li>
+<li><a class="reference internal" href="#physics-use-case-ii-2-event-counting">14.2.2. Physics Use Case II 2: Event Counting</a></li>
+<li><a class="reference internal" href="#physics-use-case-ii-3-with-python-examples-of-signal-plus-background">14.2.3. Physics Use Case II 3: With Python examples of Signal plus Background</a></li>
+<li><a class="reference internal" href="#physics-use-case-ii-4-change-shape-of-background-num-of-higgs-particles">14.2.4. Physics Use Case II 4: Change shape of background &amp; num of Higgs Particles</a></li>
+<li><a class="reference internal" href="#id1">14.2.5. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#looking-for-higgs-particles-random-variables-physics-and-normal-distributions">14.3. Looking for Higgs Particles: Random Variables, Physics and Normal Distributions</a><ul>
+<li><a class="reference internal" href="#statistics-overview-and-fundamental-idea-random-variables">14.3.1. Statistics Overview and Fundamental Idea: Random Variables</a></li>
+<li><a class="reference internal" href="#physics-and-random-variables-i">14.3.2. Physics and Random Variables I</a></li>
+<li><a class="reference internal" href="#physics-and-random-variables-ii">14.3.3. Physics and Random Variables II</a></li>
+<li><a class="reference internal" href="#statistics-of-events-with-normal-distributions">14.3.4. Statistics of Events with Normal Distributions</a></li>
+<li><a class="reference internal" href="#gaussian-distributions">14.3.5. Gaussian Distributions</a></li>
+<li><a class="reference internal" href="#using-statistics">14.3.6. Using Statistics</a></li>
+<li><a class="reference internal" href="#id2">14.3.7. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#looking-for-higgs-particles-random-numbers-distributions-and-central-limit-theorem-part-3">14.4. Looking for Higgs Particles: Random Numbers, Distributions and Central Limit Theorem (Part 3)</a><ul>
+<li><a class="reference internal" href="#generators-and-seeds-i">14.4.1. Generators and Seeds I</a></li>
+<li><a class="reference internal" href="#generators-and-seeds-ii">14.4.2. Generators and Seeds II</a></li>
+<li><a class="reference internal" href="#binomial-distribution">14.4.3. Binomial Distribution</a></li>
+<li><a class="reference internal" href="#accept-reject">14.4.4. Accept-Reject</a></li>
+<li><a class="reference internal" href="#monte-carlo-method">14.4.5. Monte Carlo Method</a></li>
+<li><a class="reference internal" href="#poisson-distribution">14.4.6. Poisson Distribution</a></li>
+<li><a class="reference internal" href="#central-limit-theorem">14.4.7. Central Limit Theorem</a></li>
+<li><a class="reference internal" href="#interpretation-of-probability-bayes-v-frequency">14.4.8. Interpretation of Probability: Bayes v. Frequency</a></li>
+<li><a class="reference internal" href="#id3">14.4.9. Resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Web Links</b>
+<ul>
+    <li><a href="https://cloudmesh.github.io/classes/i523/2017">i523</a> </li>  
+    <li><a href="https://cloudmesh.github.io/classes/i524">i524</a> </li>  
+
+  </ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="physics-case-study">
+<span id="s6"></span><h1>14. Physics Case Study<a class="headerlink" href="#physics-case-study" title="Permalink to this headline">¶</a></h1>
+<p>This section starts by describing the LHC accelerator at CERN and
+evidence found by the experiments suggesting existence of a Higgs
+Boson. The huge number of authors on a paper, remarks on histograms
+and Feynman diagrams is followed by an accelerator picture
+gallery. The next unit is devoted to Python experiments looking at
+histograms of Higgs Boson production with various forms of shape of
+signal and various background and with various event totals. Then
+random variables and some simple principles of statistics are
+introduced with explanation as to why they are relevant to Physics
+counting experiments. The unit introduces Gaussian (normal)
+distributions and explains why they seen so often in natural
+phenomena. Several Python illustrations are given. Random Numbers with
+their Generators and Seeds lead to a discussion of Binomial and
+Poisson Distribution. Monte-Carlo and accept-reject methods. The
+Central Limit Theorem concludes discussion.</p>
+<div class="section" id="looking-for-higgs-particles-bumps-in-histograms-experiments-and-accelerators-part-1">
+<h2>14.1. Looking for Higgs Particles, Bumps in Histograms, Experiments and Accelerators (Part 1)<a class="headerlink" href="#looking-for-higgs-particles-bumps-in-histograms-experiments-and-accelerators-part-1" title="Permalink to this headline">¶</a></h2>
+<p>This unit is devoted to Python and Java experiments looking at
+histograms of Higgs Boson production with various forms of shape of
+signal and various background and with various event totals. The
+lectures use Python but use of Java is described.</p>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Slides: <a class="reference external" href="https://iu.app.box.com/s/6uz4ofnnd9usv75cab71">https://iu.app.box.com/s/6uz4ofnnd9usv75cab71</a></p>
+</div>
+<p>Files: <a class="reference download internal" href="../../../_downloads/higgs_classI_sloping.py" download=""><code class="xref download docutils literal"><span class="pre">HiggsClassI-Sloping.py</span></code></a></p>
+<div class="section" id="looking-for-higgs-particle-and-counting-introduction-i">
+<h3>14.1.1. Looking for Higgs Particle and Counting Introduction I<a class="headerlink" href="#looking-for-higgs-particle-and-counting-introduction-i" title="Permalink to this headline">¶</a></h3>
+<p>We return to particle case with slides used in introduction and stress
+that particles often manifested as bumps in histograms and those bumps
+need to be large enough to stand out from background in a
+statistically significant fashion.</p>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/VQAupoFUWTg">http://youtu.be/VQAupoFUWTg</a></p>
+</div>
+</div>
+<div class="section" id="looking-for-higgs-particle-and-counting-introduction-ii">
+<h3>14.1.2. Looking for Higgs Particle and Counting Introduction II<a class="headerlink" href="#looking-for-higgs-particle-and-counting-introduction-ii" title="Permalink to this headline">¶</a></h3>
+<p>We give a few details on one LHC experiment ATLAS. Experimental
+physics papers have a staggering number of authors and quite big
+budgets. Feynman diagrams describe processes in a fundamental
+fashion.</p>
+<div class="admonition-todo admonition" id="index-2">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/UAMzmOgjj7I">http://youtu.be/UAMzmOgjj7I</a></p>
+</div>
+</div>
+<div class="section" id="physics-informatics-looking-for-higgs-particle-experiments">
+<h3>14.1.3. Physics-Informatics Looking for Higgs Particle Experiments<a class="headerlink" href="#physics-informatics-looking-for-higgs-particle-experiments" title="Permalink to this headline">¶</a></h3>
+<p>We give a few details on one LHC experiment ATLAS. Experimental
+physics papers have a staggering number of authors and quite big
+budgets. Feynman diagrams describe processes in a fundamental
+fashion.</p>
+<div class="admonition-todo admonition" id="index-3">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/BW12d780qT8">http://youtu.be/BW12d780qT8</a></p>
+</div>
+</div>
+<div class="section" id="accelerator-picture-gallery-of-big-science">
+<h3>14.1.4. Accelerator Picture Gallery of Big Science<a class="headerlink" href="#accelerator-picture-gallery-of-big-science" title="Permalink to this headline">¶</a></h3>
+<p>This lesson gives a small picture gallery of
+accelerators. Accelerators, detection chambers and magnets in tunnels
+and a large underground laboratory used fpr experiments where you need
+to be shielded from background like cosmic rays.</p>
+<div class="admonition-todo admonition" id="index-4">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/WLJIxWWMYi8">http://youtu.be/WLJIxWWMYi8</a></p>
+</div>
+</div>
+<div class="section" id="resources">
+<h3>14.1.5. Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h3>
+<div class="admonition-todo admonition" id="index-5">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf">http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf</a></li>
+<li><a class="reference external" href="http://www.interactions.org/cms/?pid=6002">http://www.interactions.org/cms/?pid=6002</a></li>
+<li><a class="reference external" href="http://www.interactions.org/cms/?pid=1032811">http://www.interactions.org/cms/?pid=1032811</a></li>
+<li><a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S037026931200857X">http://www.sciencedirect.com/science/article/pii/S037026931200857X</a></li>
+<li><a class="reference external" href="http://biologos.org/blog/what-is-the-higgs-boson">http://biologos.org/blog/what-is-the-higgs-boson</a></li>
+<li><a class="reference external" href="http://www.atlas.ch/pdf/ATLAS_fact_sheets.pdf">http://www.atlas.ch/pdf/ATLAS_fact_sheets.pdf</a></li>
+<li><a class="reference external" href="http://www.nature.com/news/specials/lhc/interactive.html">http://www.nature.com/news/specials/lhc/interactive.html</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="looking-for-higgs-particles-python-event-counting-for-signal-and-background-part-2">
+<h2>14.2. Looking for Higgs Particles: Python Event Counting for Signal and Background (Part 2)<a class="headerlink" href="#looking-for-higgs-particles-python-event-counting-for-signal-and-background-part-2" title="Permalink to this headline">¶</a></h2>
+<p>This unit is devoted to Python experiments looking at
+histograms of Higgs Boson production with various forms of shape of
+signal and various background and with various event totals.</p>
+<div class="admonition-todo admonition" id="index-6">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Slides: <a class="reference external" href="https://iu.app.box.com/s/77iw9brrugz2pjoq6fw1">https://iu.app.box.com/s/77iw9brrugz2pjoq6fw1</a></p>
+</div>
+<p>Files:</p>
+<ul class="simple">
+<li><a class="reference download internal" href="../../../_downloads/higgs_classI_sloping.py" download=""><code class="xref download docutils literal"><span class="pre">HiggsClassI-Sloping.py</span></code></a></li>
+<li><a class="reference download internal" href="../../../_downloads/higgs_classIII.py" download=""><code class="xref download docutils literal"><span class="pre">HiggsClassIII.py</span></code></a></li>
+<li><a class="reference download internal" href="../../../_downloads/higgs_classII_uniform.py" download=""><code class="xref download docutils literal"><span class="pre">HiggsClassIIUniform.py</span></code></a></li>
+</ul>
+<div class="section" id="physics-use-case-ii-1-class-software">
+<h3>14.2.1. Physics Use Case II 1: Class Software<a class="headerlink" href="#physics-use-case-ii-1-class-software" title="Permalink to this headline">¶</a></h3>
+<p>We discuss how this unit uses Java and Python on both a backend server
+(FutureGrid) or a local client. WE point out useful book on Python for
+data analysis. This builds on technology training in Section 3.</p>
+<div class="admonition-todo admonition" id="index-7">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/tOFJEUM-Vww">http://youtu.be/tOFJEUM-Vww</a></p>
+</div>
+</div>
+<div class="section" id="physics-use-case-ii-2-event-counting">
+<h3>14.2.2. Physics Use Case II 2: Event Counting<a class="headerlink" href="#physics-use-case-ii-2-event-counting" title="Permalink to this headline">¶</a></h3>
+<p>We define ‘’event counting’’ data collection environments. We discuss
+the python and Java code to generate events according to a particular
+scenario (the important idea of Monte Carlo data). Here a sloping
+background plus either a Higgs particle generated similarly to LHC
+observation or one observed with better resolution (smaller
+measurement error).</p>
+<div class="admonition-todo admonition" id="index-8">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/h8-szCeFugQ">http://youtu.be/h8-szCeFugQ</a></p>
+</div>
+</div>
+<div class="section" id="physics-use-case-ii-3-with-python-examples-of-signal-plus-background">
+<h3>14.2.3. Physics Use Case II 3: With Python examples of Signal plus Background<a class="headerlink" href="#physics-use-case-ii-3-with-python-examples-of-signal-plus-background" title="Permalink to this headline">¶</a></h3>
+<p>This uses Monte Carlo data both to generate data like the experimental
+observations and explore effect of changing amount of data and
+changing measurement resolution for Higgs.</p>
+<div class="admonition-todo admonition" id="index-9">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/bl2f0tAzLj4">http://youtu.be/bl2f0tAzLj4</a></p>
+</div>
+</div>
+<div class="section" id="physics-use-case-ii-4-change-shape-of-background-num-of-higgs-particles">
+<h3>14.2.4. Physics Use Case II 4: Change shape of background &amp; num of Higgs Particles<a class="headerlink" href="#physics-use-case-ii-4-change-shape-of-background-num-of-higgs-particles" title="Permalink to this headline">¶</a></h3>
+<p>This lesson continues the examination of Monte Carlo data looking at
+effect of change in number of Higgs particles produced and in change
+in shape of background.</p>
+<div class="admonition-todo admonition" id="index-10">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/bw3fd5cfQhk">http://youtu.be/bw3fd5cfQhk</a></p>
+</div>
+</div>
+<div class="section" id="id1">
+<h3>14.2.5. Resources<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Python for Data Analysis: Agile Tools for Real World Data By Wes
+McKinney, Publisher: O’Reilly Media, Released: October 2012,
+Pages: 472.</li>
+</ul>
+<div class="admonition-todo admonition" id="index-11">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://jwork.org/scavis/api/">http://jwork.org/scavis/api/</a></li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/DataMelt">https://en.wikipedia.org/wiki/DataMelt</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="looking-for-higgs-particles-random-variables-physics-and-normal-distributions">
+<h2>14.3. Looking for Higgs Particles: Random Variables, Physics and Normal Distributions<a class="headerlink" href="#looking-for-higgs-particles-random-variables-physics-and-normal-distributions" title="Permalink to this headline">¶</a></h2>
+<p>We introduce random variables and some simple principles of
+statistics and explains why they are relevant to Physics counting
+experiments. The unit introduces Gaussian (normal) distributions and
+explains why they seen so often in natural phenomena. Several Python
+illustrations are given. Java is currently not available in this
+unit.</p>
+<div class="admonition-todo admonition" id="index-12">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Slides: <a class="reference external" href="https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y">https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y</a></p>
+</div>
+<p><a class="reference download internal" href="../../../_downloads/higgs_classIII.py" download=""><code class="xref download docutils literal"><span class="pre">HiggsClassIII.py</span></code></a></p>
+<div class="section" id="statistics-overview-and-fundamental-idea-random-variables">
+<h3>14.3.1. Statistics Overview and Fundamental Idea: Random Variables<a class="headerlink" href="#statistics-overview-and-fundamental-idea-random-variables" title="Permalink to this headline">¶</a></h3>
+<p>We go through the many different areas of statistics covered in the
+Physics unit. We define the statistics concept of a random variable.</p>
+<div class="admonition-todo admonition" id="index-13">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/0oZzALLzYBM">http://youtu.be/0oZzALLzYBM</a></p>
+</div>
+</div>
+<div class="section" id="physics-and-random-variables-i">
+<h3>14.3.2. Physics and Random Variables I<a class="headerlink" href="#physics-and-random-variables-i" title="Permalink to this headline">¶</a></h3>
+<p>We describe the DIKW pipeline for the analysis of this type of physics
+experiment and go through details of analysis pipeline for the LHC
+ATLAS experiment. We give examples of event displays showing the final
+state particles seen in a few events. We illustrate how physicists
+decide whats going on with a plot of expected Higgs production
+experimental cross sections (probabilities) for signal and background.</p>
+<div class="admonition-todo admonition" id="index-14">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/Tn3GBxgplxg">http://youtu.be/Tn3GBxgplxg</a></p>
+</div>
+</div>
+<div class="section" id="physics-and-random-variables-ii">
+<h3>14.3.3. Physics and Random Variables II<a class="headerlink" href="#physics-and-random-variables-ii" title="Permalink to this headline">¶</a></h3>
+<p>We describe the DIKW pipeline for the analysis of this type of physics
+experiment and go through details of analysis pipeline for the LHC
+ATLAS experiment. We give examples of event displays showing the final
+state particles seen in a few events. We illustrate how physicists
+decide whats going on with a plot of expected Higgs production
+experimental cross sections (probabilities) for signal and background.</p>
+<div class="admonition-todo admonition" id="index-15">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/qWEjp0OtvdA">http://youtu.be/qWEjp0OtvdA</a></p>
+</div>
+</div>
+<div class="section" id="statistics-of-events-with-normal-distributions">
+<h3>14.3.4. Statistics of Events with Normal Distributions<a class="headerlink" href="#statistics-of-events-with-normal-distributions" title="Permalink to this headline">¶</a></h3>
+<p>We introduce Poisson and Binomial distributions and define independent
+identically distributed (IID) random variables. We give the law of
+large numbers defining the errors in counting and leading to Gaussian
+distributions for many things. We demonstrate this in Python
+experiments.</p>
+<div class="admonition-todo admonition" id="index-16">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/LMBtpWOOQLo">http://youtu.be/LMBtpWOOQLo</a></p>
+</div>
+</div>
+<div class="section" id="gaussian-distributions">
+<h3>14.3.5. Gaussian Distributions<a class="headerlink" href="#gaussian-distributions" title="Permalink to this headline">¶</a></h3>
+<p>We introduce the Gaussian distribution and give Python examples of the
+fluctuations in counting Gaussian distributions.</p>
+<div class="admonition-todo admonition" id="index-17">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/LWIbPa-P5W0">http://youtu.be/LWIbPa-P5W0</a></p>
+</div>
+</div>
+<div class="section" id="using-statistics">
+<h3>14.3.6. Using Statistics<a class="headerlink" href="#using-statistics" title="Permalink to this headline">¶</a></h3>
+<p>We discuss the significance of a standard deviation and role of biases
+and insufficient statistics with a Python example in getting incorrect
+answers.</p>
+<div class="admonition-todo admonition" id="index-18">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/n4jlUrGwgic">http://youtu.be/n4jlUrGwgic</a></p>
+</div>
+</div>
+<div class="section" id="id2">
+<h3>14.3.7. Resources<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="admonition-todo admonition" id="index-19">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://indico.cern.ch/event/20453/session/6/contribution/15?materialId=slides">http://indico.cern.ch/event/20453/session/6/contribution/15?materialId=slides</a></li>
+<li><a class="reference external" href="http://www.atlas.ch/photos/events.html">http://www.atlas.ch/photos/events.html</a></li>
+<li><a class="reference external" href="http://cms.web.cern.ch/">http://cms.web.cern.ch/</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="looking-for-higgs-particles-random-numbers-distributions-and-central-limit-theorem-part-3">
+<h2>14.4. Looking for Higgs Particles: Random Numbers, Distributions and Central Limit Theorem (Part 3)<a class="headerlink" href="#looking-for-higgs-particles-random-numbers-distributions-and-central-limit-theorem-part-3" title="Permalink to this headline">¶</a></h2>
+<p>We discuss Random Numbers with their Generators and Seeds. It
+introduces Binomial and Poisson Distribution. Monte-Carlo and
+accept-reject methods are discussed. The Central Limit Theorem and
+Bayes law concludes discussion. Python and Java (for student - not
+reviewed in class) examples and Physics applications are given.</p>
+<div class="admonition-todo admonition" id="index-20">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Slides: <a class="reference external" href="https://iu.app.box.com/s/me7738igixwzc9h9qwe1">https://iu.app.box.com/s/me7738igixwzc9h9qwe1</a></p>
+</div>
+<p>Files:</p>
+<ul class="simple">
+<li><a class="reference download internal" href="../../../_downloads/higgs_classIV_seeds.py" download=""><code class="xref download docutils literal"><span class="pre">HiggsClassIII.py</span></code></a></li>
+</ul>
+<div class="section" id="generators-and-seeds-i">
+<h3>14.4.1. Generators and Seeds I<a class="headerlink" href="#generators-and-seeds-i" title="Permalink to this headline">¶</a></h3>
+<p>We define random numbers and describe how to generate them on the
+computer giving Python examples. We define the seed used to define to
+specify how to start generation.</p>
+<div class="admonition-todo admonition" id="index-21">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/76jbRphjRWo">http://youtu.be/76jbRphjRWo</a></p>
+</div>
+</div>
+<div class="section" id="generators-and-seeds-ii">
+<h3>14.4.2. Generators and Seeds II<a class="headerlink" href="#generators-and-seeds-ii" title="Permalink to this headline">¶</a></h3>
+<p>We define random numbers and describe how to generate them on the
+computer giving Python examples. We define the seed used to define to
+specify how to start generation.</p>
+<div class="admonition-todo admonition" id="index-22">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/9QY5qkQj2Ag">http://youtu.be/9QY5qkQj2Ag</a></p>
+</div>
+</div>
+<div class="section" id="binomial-distribution">
+<h3>14.4.3. Binomial Distribution<a class="headerlink" href="#binomial-distribution" title="Permalink to this headline">¶</a></h3>
+<p>We define binomial distribution and give LHC data as an example of
+where this distribution valid.</p>
+<div class="admonition-todo admonition" id="index-23">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/DPd-eVI_twQ">http://youtu.be/DPd-eVI_twQ</a></p>
+</div>
+</div>
+<div class="section" id="accept-reject">
+<h3>14.4.4. Accept-Reject<a class="headerlink" href="#accept-reject" title="Permalink to this headline">¶</a></h3>
+<p>We introduce an advanced method <strong>accept/reject</strong> for generating
+random variables with arbitrary distributions.</p>
+<div class="admonition-todo admonition" id="index-24">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/GfshkKMKCj8">http://youtu.be/GfshkKMKCj8</a></p>
+</div>
+</div>
+<div class="section" id="monte-carlo-method">
+<h3>14.4.5. Monte Carlo Method<a class="headerlink" href="#monte-carlo-method" title="Permalink to this headline">¶</a></h3>
+<p>We define Monte Carlo method which usually uses accept/reject method
+in typical case for distribution.</p>
+<div class="admonition-todo admonition" id="index-25">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/kIQ-BTyDfOQ">http://youtu.be/kIQ-BTyDfOQ</a></p>
+</div>
+</div>
+<div class="section" id="poisson-distribution">
+<h3>14.4.6. Poisson Distribution<a class="headerlink" href="#poisson-distribution" title="Permalink to this headline">¶</a></h3>
+<p>We extend the Binomial to the Poisson distribution and give a set of
+amusing examples from Wikipedia.</p>
+<div class="admonition-todo admonition" id="index-26">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/WFvgsVo-k4s">http://youtu.be/WFvgsVo-k4s</a></p>
+</div>
+</div>
+<div class="section" id="central-limit-theorem">
+<h3>14.4.7. Central Limit Theorem<a class="headerlink" href="#central-limit-theorem" title="Permalink to this headline">¶</a></h3>
+<p>We introduce Central Limit Theorem and give examples from Wikipedia.</p>
+<div class="admonition-todo admonition" id="index-27">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/ZO53iKlPn7c">http://youtu.be/ZO53iKlPn7c</a></p>
+</div>
+</div>
+<div class="section" id="interpretation-of-probability-bayes-v-frequency">
+<h3>14.4.8. Interpretation of Probability: Bayes v. Frequency<a class="headerlink" href="#interpretation-of-probability-bayes-v-frequency" title="Permalink to this headline">¶</a></h3>
+<p>This lesson describes difference between Bayes and frequency views of
+probability. Bayes’s law of conditional probability is derived and
+applied to Higgs example to enable information about Higgs from
+multiple channels and multiple experiments to be accumulated.</p>
+<div class="admonition-todo admonition" id="index-28">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/jzDkExAQI9M">http://youtu.be/jzDkExAQI9M</a></p>
+</div>
+</div>
+<div class="section" id="id3">
+<h3>14.4.9. Resources<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="admonition-todo admonition" id="index-29">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Pseudorandom_number_generator">https://en.wikipedia.org/wiki/Pseudorandom_number_generator</a></li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Mersenne_Twister">https://en.wikipedia.org/wiki/Mersenne_Twister</a></li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Mersenne_prime">https://en.wikipedia.org/wiki/Mersenne_prime</a></li>
+<li>CMS-PAS-HIG-12-041 Updated results on the new boson discovered in
+the search for the standard model Higgs boson in the ZZ to 4 leptons
+channel in pp collisions at sqrt(s) = 7 and 8 TeV
+<a class="reference external" href="http://cds.cern.ch/record/1494488?ln=en">http://cds.cern.ch/record/1494488?ln=en</a></li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Poisson_distribution">https://en.wikipedia.org/wiki/Poisson_distribution</a></li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Central_limit_theorem">https://en.wikipedia.org/wiki/Central_limit_theorem</a></li>
+<li><a class="reference external" href="http://jwork.org/scavis/api/">http://jwork.org/scavis/api/</a></li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/DataMelt">https://en.wikipedia.org/wiki/DataMelt</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

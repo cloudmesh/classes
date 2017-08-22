@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>12. Health Informatics Case Study &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="13. e-Commerce and LifeStyle Case Study" href="lifestyle.html" />
+    <link rel="prev" title="11. Big Data Use Cases Survey" href="usecases.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../index.html">i523</a></li>
+                <li><a href="../../../lesson/index.html">Lessons</a></li>
+                <li><a href="../../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">12. Health Informatics Case Study</a><ul>
+<li><a class="reference internal" href="#x-informatics-case-study-health-informatics">12.1. X-Informatics Case Study: Health Informatics</a><ul>
+<li><a class="reference internal" href="#overview">12.1.1. Overview</a></li>
+<li><a class="reference internal" href="#big-data-and-health">12.1.2. Big Data and Health</a></li>
+<li><a class="reference internal" href="#status-of-healthcare-today">12.1.3. Status of Healthcare Today</a></li>
+<li><a class="reference internal" href="#telemedicine-virtual-health">12.1.4. Telemedicine (Virtual Health)</a></li>
+<li><a class="reference internal" href="#big-data-and-healthcare-industry">12.1.5. Big Data and Healthcare Industry</a></li>
+<li><a class="reference internal" href="#medical-big-data-in-the-clouds">12.1.6. Medical Big Data in the Clouds</a></li>
+<li><a class="reference internal" href="#medical-image-big-data">12.1.7. Medical image Big Data</a></li>
+<li><a class="reference internal" href="#clouds-and-health">12.1.8. Clouds and Health</a></li>
+<li><a class="reference internal" href="#mckinsey-report-on-the-big-data-revolution-in-us-health-care">12.1.9. McKinsey Report on the big-data revolution in US health care</a></li>
+<li><a class="reference internal" href="#microsoft-report-on-big-data-in-health">12.1.10. Microsoft Report on Big Data in Health</a></li>
+<li><a class="reference internal" href="#eu-report-on-redesigning-health-in-europe-for-2020">12.1.11. EU Report on Redesigning health in Europe for 2020</a></li>
+<li><a class="reference internal" href="#medicine-and-the-internet-of-things">12.1.12. Medicine and the Internet of Things</a></li>
+<li><a class="reference internal" href="#extrapolating-to-2032">12.1.13. Extrapolating to 2032</a></li>
+<li><a class="reference internal" href="#genomics-proteomics-and-information-visualization-i">12.1.14. Genomics, Proteomics and Information Visualization I</a></li>
+<li><a class="reference internal" href="#genomics-proteomics-and-information-visualization-ii">12.1.15. Genomics, Proteomics and Information Visualization II</a></li>
+<li><a class="reference internal" href="#genomics-proteomics-and-information-visualization-iii">12.1.16. Genomics, Proteomics and Information Visualization III</a></li>
+<li><a class="reference internal" href="#resources">12.1.17. Resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">12. Health Informatics Case Study</a><ul>
+<li><a class="reference internal" href="#x-informatics-case-study-health-informatics">12.1. X-Informatics Case Study: Health Informatics</a><ul>
+<li><a class="reference internal" href="#overview">12.1.1. Overview</a></li>
+<li><a class="reference internal" href="#big-data-and-health">12.1.2. Big Data and Health</a></li>
+<li><a class="reference internal" href="#status-of-healthcare-today">12.1.3. Status of Healthcare Today</a></li>
+<li><a class="reference internal" href="#telemedicine-virtual-health">12.1.4. Telemedicine (Virtual Health)</a></li>
+<li><a class="reference internal" href="#big-data-and-healthcare-industry">12.1.5. Big Data and Healthcare Industry</a></li>
+<li><a class="reference internal" href="#medical-big-data-in-the-clouds">12.1.6. Medical Big Data in the Clouds</a></li>
+<li><a class="reference internal" href="#medical-image-big-data">12.1.7. Medical image Big Data</a></li>
+<li><a class="reference internal" href="#clouds-and-health">12.1.8. Clouds and Health</a></li>
+<li><a class="reference internal" href="#mckinsey-report-on-the-big-data-revolution-in-us-health-care">12.1.9. McKinsey Report on the big-data revolution in US health care</a></li>
+<li><a class="reference internal" href="#microsoft-report-on-big-data-in-health">12.1.10. Microsoft Report on Big Data in Health</a></li>
+<li><a class="reference internal" href="#eu-report-on-redesigning-health-in-europe-for-2020">12.1.11. EU Report on Redesigning health in Europe for 2020</a></li>
+<li><a class="reference internal" href="#medicine-and-the-internet-of-things">12.1.12. Medicine and the Internet of Things</a></li>
+<li><a class="reference internal" href="#extrapolating-to-2032">12.1.13. Extrapolating to 2032</a></li>
+<li><a class="reference internal" href="#genomics-proteomics-and-information-visualization-i">12.1.14. Genomics, Proteomics and Information Visualization I</a></li>
+<li><a class="reference internal" href="#genomics-proteomics-and-information-visualization-ii">12.1.15. Genomics, Proteomics and Information Visualization II</a></li>
+<li><a class="reference internal" href="#genomics-proteomics-and-information-visualization-iii">12.1.16. Genomics, Proteomics and Information Visualization III</a></li>
+<li><a class="reference internal" href="#resources">12.1.17. Resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Web Links</b>
+<ul>
+    <li><a href="https://cloudmesh.github.io/classes/i523/2017">i523</a> </li>  
+    <li><a href="https://cloudmesh.github.io/classes/i524">i524</a> </li>  
+
+  </ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="health-informatics-case-study">
+<span id="s3"></span><h1>12. Health Informatics Case Study<a class="headerlink" href="#health-informatics-case-study" title="Permalink to this headline">¶</a></h1>
+<p>This section starts by discussing general aspects of Big Data and
+Health including data sizes, different areas including genomics, EBI,
+radiology and the Quantified Self movement. We review current state of
+health care and trends associated with it including increased use of
+Telemedicine. We summarize an industry survey by GE and Accenture and
+an impressive exemplar Cloud-based medicine system from Potsdam. We
+give some details of big data in medicine. Some remarks on Cloud
+computing and Health focus on security and privacy issues.</p>
+<p>We survey an April 2013 McKinsey report on the Big Data revolution in
+US health care; a Microsoft report in this area and a European Union
+report on how Big Data will allow patient centered care in the future.
+Examples are given of the Internet of Things, which will have great
+impact on health including wearables. A study looks at 4 scenarios for
+healthcare in 2032. Two are positive, one middle of the road and one
+negative. The final topic is Genomics, Proteomics and Information
+Visualization.</p>
+<div class="section" id="x-informatics-case-study-health-informatics">
+<h2>12.1. X-Informatics Case Study: Health Informatics<a class="headerlink" href="#x-informatics-case-study-health-informatics" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="overview">
+<h3>12.1.1. Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h3>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Slides: <a class="reference external" href="https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa">https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa</a></p>
+</div>
+<p>This section starts by discussing general aspects of Big Data and
+Health including data sizes, different areas including genomics, EBI,
+radiology and the Quantified Self movement. We review current state of
+health care and trends associated with it including increased use of
+Telemedicine. We summarize an industry survey by GE and Accenture and
+an impressive exemplar Cloud-based medicine system from Potsdam. We
+give some details of big data in medicine. Some remarks on Cloud
+computing and Health focus on security and privacy issues.</p>
+<p>We survey an April 2013 McKinsey report on the Big Data revolution in
+US health care; a Microsoft report in this area and a European Union
+report on how Big Data will allow patient centered care in the future.
+Examples are given of the Internet of Things, which will have great
+impact on health including wearables. A study looks at 4 scenarios for
+healthcare in 2032. Two are positive, one middle of the road and one
+negative. The final topic is Genomics, Proteomics and Information
+Visualization.</p>
+</div>
+<div class="section" id="big-data-and-health">
+<h3>12.1.2. Big Data and Health<a class="headerlink" href="#big-data-and-health" title="Permalink to this headline">¶</a></h3>
+<p>This lesson starts with general aspects of Big Data and Health
+including listing subareas where Big data important. Data sizes are
+given in radiology, genomics, personalized medicine, and the
+Quantified Self movement, with sizes and access to European
+Bioinformatics Institute.</p>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/i7volfOVAmY">http://youtu.be/i7volfOVAmY</a></p>
+</div>
+</div>
+<div class="section" id="status-of-healthcare-today">
+<h3>12.1.3. Status of Healthcare Today<a class="headerlink" href="#status-of-healthcare-today" title="Permalink to this headline">¶</a></h3>
+<p>This covers trends of costs and type of healthcare with low cost
+genomes and an aging population. Social media and government Brain
+initiative.</p>
+<div class="admonition-todo admonition" id="index-2">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/tAT3pux4zeg">http://youtu.be/tAT3pux4zeg</a></p>
+</div>
+</div>
+<div class="section" id="telemedicine-virtual-health">
+<h3>12.1.4. Telemedicine (Virtual Health)<a class="headerlink" href="#telemedicine-virtual-health" title="Permalink to this headline">¶</a></h3>
+<p>This describes increasing use of telemedicine and how we tried and
+failed to do this in 1994.</p>
+<div class="admonition-todo admonition" id="index-3">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/4JbGim9FFXg">http://youtu.be/4JbGim9FFXg</a></p>
+</div>
+</div>
+<div class="section" id="big-data-and-healthcare-industry">
+<h3>12.1.5. Big Data and Healthcare Industry<a class="headerlink" href="#big-data-and-healthcare-industry" title="Permalink to this headline">¶</a></h3>
+<p>Summary of an industry survey by GE and Accenture.</p>
+<div class="admonition-todo admonition" id="index-4">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/wgK9JIUiWpQ">http://youtu.be/wgK9JIUiWpQ</a></p>
+</div>
+</div>
+<div class="section" id="medical-big-data-in-the-clouds">
+<h3>12.1.6. Medical Big Data in the Clouds<a class="headerlink" href="#medical-big-data-in-the-clouds" title="Permalink to this headline">¶</a></h3>
+<p>An impressive exemplar Cloud-based medicine system from Potsdam.</p>
+<div class="admonition-todo admonition" id="index-5">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/-D9mEdM62uY">http://youtu.be/-D9mEdM62uY</a></p>
+</div>
+</div>
+<div class="section" id="medical-image-big-data">
+<h3>12.1.7. Medical image Big Data<a class="headerlink" href="#medical-image-big-data" title="Permalink to this headline">¶</a></h3>
+<div class="admonition-todo admonition" id="index-6">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/aaNplveyKf0">http://youtu.be/aaNplveyKf0</a></p>
+</div>
+</div>
+<div class="section" id="clouds-and-health">
+<h3>12.1.8. Clouds and Health<a class="headerlink" href="#clouds-and-health" title="Permalink to this headline">¶</a></h3>
+<div class="admonition-todo admonition" id="index-7">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/9Whkl_UPS5g">http://youtu.be/9Whkl_UPS5g</a></p>
+</div>
+</div>
+<div class="section" id="mckinsey-report-on-the-big-data-revolution-in-us-health-care">
+<h3>12.1.9. McKinsey Report on the big-data revolution in US health care<a class="headerlink" href="#mckinsey-report-on-the-big-data-revolution-in-us-health-care" title="Permalink to this headline">¶</a></h3>
+<p>This lesson covers 9 aspects of the McKinsey report. These are the
+convergence of multiple positive changes has created a tipping point
+for innovation; Primary data pools are at the heart of the big data
+revolution in healthcare; Big data is changing the paradigm: these are
+the value pathways; Applying early successes at scale could reduce US
+healthcare costs by $300 billion to $450 billion; Most new big-data
+applications target consumers and providers across pathways;
+Innovations are weighted towards influencing individual
+decision-making levers; Big data innovations use a range of public,
+acquired, and proprietary data types; Organizations implementing a big
+data transformation should provide the leadership required for the
+associated cultural transformation; Companies must develop a range of
+big data capabilities.</p>
+<div class="admonition-todo admonition" id="index-8">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/bBoHzRjMEmY">http://youtu.be/bBoHzRjMEmY</a></p>
+</div>
+</div>
+<div class="section" id="microsoft-report-on-big-data-in-health">
+<h3>12.1.10. Microsoft Report on Big Data in Health<a class="headerlink" href="#microsoft-report-on-big-data-in-health" title="Permalink to this headline">¶</a></h3>
+<p>This lesson identifies data sources as Clinical Data, Pharma &amp; Life
+Science Data, Patient &amp; Consumer Data, Claims &amp; Cost Data and
+Correlational Data. Three approaches are Live data feed, Advanced
+analytics and Social analytics.</p>
+<div class="admonition-todo admonition" id="index-9">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/PjffvVgj1PE">http://youtu.be/PjffvVgj1PE</a></p>
+</div>
+</div>
+<div class="section" id="eu-report-on-redesigning-health-in-europe-for-2020">
+<h3>12.1.11. EU Report on Redesigning health in Europe for 2020<a class="headerlink" href="#eu-report-on-redesigning-health-in-europe-for-2020" title="Permalink to this headline">¶</a></h3>
+<p>This lesson summarizes an EU Report on Redesigning health in Europe
+for 2020. The power of data is seen as a lever for change in My Data,
+My decisions; Liberate the data; Connect up everything; Revolutionize
+health; and Include Everyone removing the current correlation between
+health and wealth.</p>
+<div class="admonition-todo admonition" id="index-10">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/9mbt_ZSs0iw">http://youtu.be/9mbt_ZSs0iw</a></p>
+</div>
+</div>
+<div class="section" id="medicine-and-the-internet-of-things">
+<h3>12.1.12. Medicine and the Internet of Things<a class="headerlink" href="#medicine-and-the-internet-of-things" title="Permalink to this headline">¶</a></h3>
+<p>The Internet of Things will have great impact on health including
+telemedicine and wearables. Examples are given.</p>
+<div class="admonition-todo admonition" id="index-11">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/QGRfWlvw584">http://youtu.be/QGRfWlvw584</a></p>
+</div>
+</div>
+<div class="section" id="extrapolating-to-2032">
+<h3>12.1.13. Extrapolating to 2032<a class="headerlink" href="#extrapolating-to-2032" title="Permalink to this headline">¶</a></h3>
+<p>A study looks at 4 scenarios for healthcare in 2032. Two are positive,
+one middle of the road and one negative.</p>
+<div class="admonition-todo admonition" id="index-12">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/Qel4gmBxy8U">http://youtu.be/Qel4gmBxy8U</a></p>
+</div>
+</div>
+<div class="section" id="genomics-proteomics-and-information-visualization-i">
+<h3>12.1.14. Genomics, Proteomics and Information Visualization I<a class="headerlink" href="#genomics-proteomics-and-information-visualization-i" title="Permalink to this headline">¶</a></h3>
+<p>A study of an Azure application with an Excel frontend and a cloud
+BLAST backend starts this lesson. This is followed by a big data
+analysis of personal genomics and an analysis of a typical DNA
+sequencing analytics pipeline. The Protein Sequence Universe is
+defined and used to motivate Multi dimensional Scaling MDS. Sammon’s
+method is defined and its use illustrated by a metagenomics example.
+Subtleties in use of MDS include a monotonic mapping of the
+dissimilarity function. The application to the COG Proteomics dataset
+is discussed. We note that the MDS approach is related to the well
+known chisq method and some aspects of nonlinear minimization of chisq
+(Least Squares) are discussed.</p>
+<div class="admonition-todo admonition" id="index-13">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/r1yENstaAUE">http://youtu.be/r1yENstaAUE</a></p>
+</div>
+</div>
+<div class="section" id="genomics-proteomics-and-information-visualization-ii">
+<h3>12.1.15. Genomics, Proteomics and Information Visualization II<a class="headerlink" href="#genomics-proteomics-and-information-visualization-ii" title="Permalink to this headline">¶</a></h3>
+<p>This lesson continues the discussion of the COG Protein Universe
+introduced in the last lesson. It is shown how Proteomics clusters are
+clearly seen in the Universe browser. This motivates a side remark on
+different clustering methods applied to metagenomics. Then we discuss
+the Generative Topographic Map GTM method that can be used in
+dimension reduction when original data is in a metric space and is in
+this case faster than MDS as GTM computational complexity scales like
+N not N squared as seen in MDS.</p>
+<p>Examples are given of GTM including an application to topic models in
+Information Retrieval. Indiana University has developed a
+deterministic annealing improvement of GTM. 3 separate clusterings are
+projected for visualization and show very different structure
+emphasizing the importance of visualizing results of data analytics.
+The final slide shows an application of MDS to generate and visualize
+phylogenetic trees.</p>
+<div class="admonition-todo admonition" id="index-14">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/_F1Eo6bfN0w">http://youtu.be/_F1Eo6bfN0w</a></p>
+</div>
+</div>
+<div class="section" id="genomics-proteomics-and-information-visualization-iii">
+<h3>12.1.16. Genomics, Proteomics and Information Visualization III<a class="headerlink" href="#genomics-proteomics-and-information-visualization-iii" title="Permalink to this headline">¶</a></h3>
+<p>This lesson continues the discussion of the COG Protein Universe
+introduced in the last lesson. It is shown how Proteomics clusters are
+clearly seen in the Universe browser. This motivates a side remark on
+different clustering methods applied to metagenomics. Then we discuss
+the Generative Topographic Map GTM method that can be used in
+dimension reduction when original data is in a metric space and is in
+this case faster than MDS as GTM computational complexity scales like
+N not N squared as seen in MDS.</p>
+<p>Examples are given of GTM including an application to topic models in
+Information Retrieval. Indiana University has developed a
+deterministic annealing improvement of GTM. 3 separate clusterings are
+projected for visualization and show very different structure
+emphasizing the importance of visualizing results of data analytics.
+The final slide shows an application of MDS to generate and visualize
+phylogenetic trees.</p>
+<div class="admonition-todo admonition" id="index-15">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p>Video: <a class="reference external" href="http://youtu.be/R1svGGKipkc">http://youtu.be/R1svGGKipkc</a></p>
+<p class="last">Slides: <a class="reference external" href="https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa">https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa</a></p>
+</div>
+</div>
+<div class="section" id="resources">
+<h3>12.1.17. Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://wiki.nci.nih.gov/display/CIP/CIP+Survey+of+Biomedical+Imaging+Archives">https://wiki.nci.nih.gov/display/CIP/CIP+Survey+of+Biomedical+Imaging+Archives</a></li>
+<li><a class="reference external" href="http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf">http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf</a></li>
+<li><a class="reference external" href="http://www.ieee-icsc.org/ICSC2010/Tony%20Hey%20-%2020100923.pdf">http://www.ieee-icsc.org/ICSC2010/Tony%20Hey%20-%2020100923.pdf</a></li>
+<li><a class="reference external" href="http://quantifiedself.com/larry-smarr/">http://quantifiedself.com/larry-smarr/</a></li>
+<li><a class="reference external" href="http://www.ebi.ac.uk/Information/Brochures/">http://www.ebi.ac.uk/Information/Brochures/</a></li>
+<li><a class="reference external" href="http://www.kpcb.com/internet-trends">http://www.kpcb.com/internet-trends</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/drsteventucker/wearable-health-fitness-trackers-and-the-quantified-self">http://www.slideshare.net/drsteventucker/wearable-health-fitness-trackers-and-the-quantified-self</a></li>
+<li><a class="reference external" href="http://www.siam.org/meetings/sdm13/sun.pdf">http://www.siam.org/meetings/sdm13/sun.pdf</a></li>
+<li><a class="reference external" href="http://en.wikipedia.org/wiki/Calico_%28company%29">http://en.wikipedia.org/wiki/Calico_%28company%29</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/GSW_Worldwide/2015-health-trends">http://www.slideshare.net/GSW_Worldwide/2015-health-trends</a></li>
+<li><a class="reference external" href="http://www.accenture.com/SiteCollectionDocuments/PDF/Accenture-Industrial-Internet-Changing-Competitive-Landscape-Industries.pdf">http://www.accenture.com/SiteCollectionDocuments/PDF/Accenture-Industrial-Internet-Changing-Competitive-Landscape-Industries.pdf</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/schappy/how-realtime-analysis-turns-big-medical-data-into-precision-medicine">http://www.slideshare.net/schappy/how-realtime-analysis-turns-big-medical-data-into-precision-medicine</a></li>
+<li><a class="reference external" href="http://medcitynews.com/2013/03/the-body-in-bytes-medical-images-as-a-source-of-healthcare-big-data-infographic/">http://medcitynews.com/2013/03/the-body-in-bytes-medical-images-as-a-source-of-healthcare-big-data-infographic/</a></li>
+<li><a class="reference external" href="http://healthinformatics.wikispaces.com/file/view/cloud_computing.ppt">http://healthinformatics.wikispaces.com/file/view/cloud_computing.ppt</a></li>
+<li><a class="reference external" href="http://www.mckinsey.com/~/media/McKinsey/dotcom/Insights/Health%20care/The%20big-data%20revolution%20in%20US%20health%20care/The%20big-data%20revolution%20in%20US%20health%20care%20Accelerating%20value%20and%20innovation.ashx">http://www.mckinsey.com/~/media/McKinsey/dotcom/Insights/Health%20care/The%20big-data%20revolution%20in%20US%20health%20care/The%20big-data%20revolution%20in%20US%20health%20care%20Accelerating%20value%20and%20innovation.ashx</a></li>
+<li><a class="reference external" href="https://partner.microsoft.com/download/global/40193764">https://partner.microsoft.com/download/global/40193764</a></li>
+<li><a class="reference external" href="http://ec.europa.eu/information_society/activities/health/docs/policy/taskforce/redesigning_health-eu-for2020-ehtf-report2012.pdf">http://ec.europa.eu/information_society/activities/health/docs/policy/taskforce/redesigning_health-eu-for2020-ehtf-report2012.pdf</a></li>
+<li><a class="reference external" href="http://www.kpcb.com/internet-trends">http://www.kpcb.com/internet-trends</a></li>
+<li><a class="reference external" href="http://www.liveathos.com/apparel/app">http://www.liveathos.com/apparel/app</a></li>
+<li><a class="reference external" href="http://debategraph.org/Poster.aspx?aID=77">http://debategraph.org/Poster.aspx?aID=77</a></li>
+<li><a class="reference external" href="http://www.oerc.ox.ac.uk/downloads/presentations-from-events/microsoftworkshop/gannon">http://www.oerc.ox.ac.uk/downloads/presentations-from-events/microsoftworkshop/gannon</a></li>
+<li><a class="reference external" href="http://www.delsall.org">http://www.delsall.org</a></li>
+<li><a class="reference external" href="http://salsahpc.indiana.edu/millionseq/mina/16SrRNA_index.html">http://salsahpc.indiana.edu/millionseq/mina/16SrRNA_index.html</a></li>
+<li><a class="reference external" href="http://www.geatbx.com/docu/fcnindex-01.html">http://www.geatbx.com/docu/fcnindex-01.html</a></li>
+<li><a class="reference external" href="https://wiki.nci.nih.gov/display/CIP/CIP+Survey+of+Biomedical+Imaging+Archives">https://wiki.nci.nih.gov/display/CIP/CIP+Survey+of+Biomedical+Imaging+Archives</a></li>
+<li><a class="reference external" href="http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf">http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf</a></li>
+<li><a class="reference external" href="http://www.ieee-icsc.org/ICSC2010/Tony%20Hey%20-%2020100923.pdf">http://www.ieee-icsc.org/ICSC2010/Tony%20Hey%20-%2020100923.pdf</a></li>
+<li><a class="reference external" href="http://quantifiedself.com/larry-smarr/">http://quantifiedself.com/larry-smarr/</a></li>
+<li><a class="reference external" href="http://www.ebi.ac.uk/Information/Brochures/">http://www.ebi.ac.uk/Information/Brochures/</a></li>
+<li><a class="reference external" href="http://www.kpcb.com/internet-trends">http://www.kpcb.com/internet-trends</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/drsteventucker/wearable-health-fitness-trackers-and-the-quantified-self">http://www.slideshare.net/drsteventucker/wearable-health-fitness-trackers-and-the-quantified-self</a></li>
+<li><a class="reference external" href="http://www.siam.org/meetings/sdm13/sun.pdf">http://www.siam.org/meetings/sdm13/sun.pdf</a></li>
+<li><a class="reference external" href="http://en.wikipedia.org/wiki/Calico_%28company%29">http://en.wikipedia.org/wiki/Calico_%28company%29</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/GSW_Worldwide/2015-health-trends">http://www.slideshare.net/GSW_Worldwide/2015-health-trends</a></li>
+<li><a class="reference external" href="http://www.accenture.com/SiteCollectionDocuments/PDF/Accenture-Industrial-Internet-Changing-Competitive-Landscape-Industries.pdf">http://www.accenture.com/SiteCollectionDocuments/PDF/Accenture-Industrial-Internet-Changing-Competitive-Landscape-Industries.pdf</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/schappy/how-realtime-analysis-turns-big-medical-data-into-precision-medicine">http://www.slideshare.net/schappy/how-realtime-analysis-turns-big-medical-data-into-precision-medicine</a></li>
+<li><a class="reference external" href="http://medcitynews.com/2013/03/the-body-in-bytes-medical-images-as-a-source-of-healthcare-big-data-infographic/">http://medcitynews.com/2013/03/the-body-in-bytes-medical-images-as-a-source-of-healthcare-big-data-infographic/</a></li>
+<li><a class="reference external" href="http://healthinformatics.wikispaces.com/file/view/cloud_computing.ppt">http://healthinformatics.wikispaces.com/file/view/cloud_computing.ppt</a></li>
+<li><a class="reference external" href="http://www.mckinsey.com/~/media/McKinsey/dotcom/Insights/Health%20care/The%20big-data%20revolution%20in%20US%20health%20care/The%20big-data%20revolution%20in%20US%20health%20care%20Accelerating%20value%20and%20innovation.ashx">http://www.mckinsey.com/~/media/McKinsey/dotcom/Insights/Health%20care/The%20big-data%20revolution%20in%20US%20health%20care/The%20big-data%20revolution%20in%20US%20health%20care%20Accelerating%20value%20and%20innovation.ashx</a></li>
+<li><a class="reference external" href="https://partner.microsoft.com/download/global/40193764">https://partner.microsoft.com/download/global/40193764</a></li>
+<li><a class="reference external" href="http://ec.europa.eu/information_society/activities/health/docs/policy/taskforce/redesigning_health-eu-for2020-ehtf-report2012.pdf">http://ec.europa.eu/information_society/activities/health/docs/policy/taskforce/redesigning_health-eu-for2020-ehtf-report2012.pdf</a></li>
+<li><a class="reference external" href="http://www.kpcb.com/internet-trends">http://www.kpcb.com/internet-trends</a></li>
+<li><a class="reference external" href="http://www.liveathos.com/apparel/app">http://www.liveathos.com/apparel/app</a></li>
+<li><a class="reference external" href="http://debategraph.org/Poster.aspx?aID=77">http://debategraph.org/Poster.aspx?aID=77</a></li>
+<li><a class="reference external" href="http://www.oerc.ox.ac.uk/downloads/presentations-from-events/microsoftworkshop/gannon">http://www.oerc.ox.ac.uk/downloads/presentations-from-events/microsoftworkshop/gannon</a></li>
+<li><a class="reference external" href="http://www.delsall.org">http://www.delsall.org</a></li>
+<li><a class="reference external" href="http://salsahpc.indiana.edu/millionseq/mina/16SrRNA_index.html">http://salsahpc.indiana.edu/millionseq/mina/16SrRNA_index.html</a></li>
+<li><a class="reference external" href="http://www.geatbx.com/docu/fcnindex-01.html">http://www.geatbx.com/docu/fcnindex-01.html</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

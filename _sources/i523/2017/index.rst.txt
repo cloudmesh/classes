@@ -52,53 +52,10 @@ Content
    code
    python
    iot
+   course/index
    
 Additional Content
 ------------------
 
-* Introduction
-* Motivation for the course
-* Overview of Data Science and Big Data
-
-* Writing Research Papers/Project Reports
-
-* Python
-  * Introduction to Python for Big Data
-  * Introduction to Visualization in Python
-  * Python Programming Assignments
-
-* Usecases
-
-  * NIST Use Case Survey (51 use cases)
-  * Health Informatics
-  * Sports Informatics
-  * Physics
-  * e-commerce and Life style
-  * Web Search and Text Mining
-  * IoT
-  * Sensors Networks
-
-* Infrastructure
-
-  * IoT Devices
-  * Cloud Computing
-
-    * Chameleon Cloud
-
-  * Containers
-
-    * Echo virtual cluster
-    * Comet virtual cluster
-
-* Technologies
-
-  * Clusterimg
-  * K-Means
-  * Map Reduce
-  * Page Rank
-
-* Project
-
-
-Draft slides are available from :ref:`DraftLessons` .
+Additional draft slides are available from :ref:`DraftLessons` .
 

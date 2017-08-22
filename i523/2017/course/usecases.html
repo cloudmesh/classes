@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>11. Big Data Use Cases Survey &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="12. Health Informatics Case Study" href="health.html" />
+    <link rel="prev" title="10. Overview of Data Science" href="overview.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../index.html">i523</a></li>
+                <li><a href="../../../lesson/index.html">Lessons</a></li>
+                <li><a href="../../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">11. Big Data Use Cases Survey</a><ul>
+<li><a class="reference internal" href="#overview-of-nist-big-data-public-working-group-nbd-pwg-process-and-results">11.1. Overview of NIST Big Data Public Working Group (NBD-PWG) Process and Results</a><ul>
+<li><a class="reference internal" href="#introduction-to-nist-big-data-public-working-group-nbd-pwg-process">11.1.1. Introduction to NIST Big Data Public Working Group (NBD-PWG) Process</a></li>
+<li><a class="reference internal" href="#definitions-and-taxonomies-subgroup">11.1.2. Definitions and Taxonomies Subgroup</a></li>
+<li><a class="reference internal" href="#reference-architecture-subgroup">11.1.3. Reference Architecture Subgroup</a></li>
+<li><a class="reference internal" href="#security-and-privacy-subgroup">11.1.4. Security and Privacy Subgroup</a></li>
+<li><a class="reference internal" href="#technology-roadmap-subgroup">11.1.5. Technology Roadmap Subgroup</a></li>
+<li><a class="reference internal" href="#requirements-and-use-case-subgroup-introduction-i">11.1.6. Requirements and Use Case Subgroup Introduction I</a></li>
+<li><a class="reference internal" href="#requirements-and-use-case-subgroup-introduction-ii">11.1.7. Requirements and Use Case Subgroup Introduction II</a></li>
+<li><a class="reference internal" href="#requirements-and-use-case-subgroup-introduction-iii">11.1.8. Requirements and Use Case Subgroup Introduction III</a></li>
+<li><a class="reference internal" href="#resources">11.1.9. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#big-data-use-cases">11.2. 51 Big Data Use Cases</a><ul>
+<li><a class="reference internal" href="#government-use-cases-i">11.2.1. Government Use Cases I</a></li>
+<li><a class="reference internal" href="#government-use-cases-ii">11.2.2. Government Use Cases II</a></li>
+<li><a class="reference internal" href="#commercial-use-cases-i">11.2.3. Commercial Use Cases I</a></li>
+<li><a class="reference internal" href="#commercial-use-cases-ii">11.2.4. Commercial Use Cases II</a></li>
+<li><a class="reference internal" href="#commercial-use-cases-iii">11.2.5. Commercial Use Cases III</a></li>
+<li><a class="reference internal" href="#defense-use-cases-i">11.2.6. Defense Use Cases I</a></li>
+<li><a class="reference internal" href="#defense-use-cases-ii">11.2.7. Defense Use Cases II</a></li>
+<li><a class="reference internal" href="#healthcare-and-life-science-use-cases-i">11.2.8. Healthcare and Life Science Use Cases I</a></li>
+<li><a class="reference internal" href="#healthcare-and-life-science-use-cases-ii">11.2.9. Healthcare and Life Science Use Cases II</a></li>
+<li><a class="reference internal" href="#healthcare-and-life-science-use-cases-iii">11.2.10. Healthcare and Life Science Use Cases III</a></li>
+<li><a class="reference internal" href="#deep-learning-and-social-networks-use-cases">11.2.11. Deep Learning and Social Networks Use Cases</a></li>
+<li><a class="reference internal" href="#research-ecosystem-use-cases">11.2.12. Research Ecosystem Use Cases</a></li>
+<li><a class="reference internal" href="#astronomy-and-physics-use-cases-i">11.2.13. Astronomy and Physics Use Cases I</a></li>
+<li><a class="reference internal" href="#astronomy-and-physics-use-cases-ii">11.2.14. Astronomy and Physics Use Cases II</a></li>
+<li><a class="reference internal" href="#environment-earth-and-polar-science-use-cases-i">11.2.15. Environment, Earth and Polar Science Use Cases I</a></li>
+<li><a class="reference internal" href="#environment-earth-and-polar-science-use-cases-ii">11.2.16. Environment, Earth and Polar Science Use Cases II</a></li>
+<li><a class="reference internal" href="#energy-use-case">11.2.17. Energy Use Case</a></li>
+<li><a class="reference internal" href="#id1">11.2.18. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#features-of-51-big-data-use-cases">11.3. Features of 51 Big Data Use Cases</a><ul>
+<li><a class="reference internal" href="#summary-of-use-case-classification-i">11.3.1. Summary of Use Case Classification I</a></li>
+<li><a class="reference internal" href="#summary-of-use-case-classification-ii">11.3.2. Summary of Use Case Classification II</a></li>
+<li><a class="reference internal" href="#summary-of-use-case-classification-iii">11.3.3. Summary of Use Case Classification III</a></li>
+<li><a class="reference internal" href="#database-sql-use-case-classification">11.3.4. Database(SQL) Use Case Classification</a></li>
+<li><a class="reference internal" href="#nosql-use-case-classification">11.3.5. NoSQL Use Case Classification</a></li>
+<li><a class="reference internal" href="#use-case-classifications-i">11.3.6. Use Case Classifications I</a></li>
+<li><a class="reference internal" href="#use-case-classifications-ii-part-1">11.3.7. Use Case Classifications II Part 1</a></li>
+<li><a class="reference internal" href="#use-case-classifications-ii-part-2">11.3.8. Use Case Classifications II Part 2</a></li>
+<li><a class="reference internal" href="#use-case-classifications-iii-part-1">11.3.9. Use Case Classifications III Part 1</a></li>
+<li><a class="reference internal" href="#use-case-classifications-iii-part-2">11.3.10. Use Case Classifications III Part 2</a></li>
+<li><a class="reference internal" href="#id2">11.3.11. Resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">11. Big Data Use Cases Survey</a><ul>
+<li><a class="reference internal" href="#overview-of-nist-big-data-public-working-group-nbd-pwg-process-and-results">11.1. Overview of NIST Big Data Public Working Group (NBD-PWG) Process and Results</a><ul>
+<li><a class="reference internal" href="#introduction-to-nist-big-data-public-working-group-nbd-pwg-process">11.1.1. Introduction to NIST Big Data Public Working Group (NBD-PWG) Process</a></li>
+<li><a class="reference internal" href="#definitions-and-taxonomies-subgroup">11.1.2. Definitions and Taxonomies Subgroup</a></li>
+<li><a class="reference internal" href="#reference-architecture-subgroup">11.1.3. Reference Architecture Subgroup</a></li>
+<li><a class="reference internal" href="#security-and-privacy-subgroup">11.1.4. Security and Privacy Subgroup</a></li>
+<li><a class="reference internal" href="#technology-roadmap-subgroup">11.1.5. Technology Roadmap Subgroup</a></li>
+<li><a class="reference internal" href="#requirements-and-use-case-subgroup-introduction-i">11.1.6. Requirements and Use Case Subgroup Introduction I</a></li>
+<li><a class="reference internal" href="#requirements-and-use-case-subgroup-introduction-ii">11.1.7. Requirements and Use Case Subgroup Introduction II</a></li>
+<li><a class="reference internal" href="#requirements-and-use-case-subgroup-introduction-iii">11.1.8. Requirements and Use Case Subgroup Introduction III</a></li>
+<li><a class="reference internal" href="#resources">11.1.9. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#big-data-use-cases">11.2. 51 Big Data Use Cases</a><ul>
+<li><a class="reference internal" href="#government-use-cases-i">11.2.1. Government Use Cases I</a></li>
+<li><a class="reference internal" href="#government-use-cases-ii">11.2.2. Government Use Cases II</a></li>
+<li><a class="reference internal" href="#commercial-use-cases-i">11.2.3. Commercial Use Cases I</a></li>
+<li><a class="reference internal" href="#commercial-use-cases-ii">11.2.4. Commercial Use Cases II</a></li>
+<li><a class="reference internal" href="#commercial-use-cases-iii">11.2.5. Commercial Use Cases III</a></li>
+<li><a class="reference internal" href="#defense-use-cases-i">11.2.6. Defense Use Cases I</a></li>
+<li><a class="reference internal" href="#defense-use-cases-ii">11.2.7. Defense Use Cases II</a></li>
+<li><a class="reference internal" href="#healthcare-and-life-science-use-cases-i">11.2.8. Healthcare and Life Science Use Cases I</a></li>
+<li><a class="reference internal" href="#healthcare-and-life-science-use-cases-ii">11.2.9. Healthcare and Life Science Use Cases II</a></li>
+<li><a class="reference internal" href="#healthcare-and-life-science-use-cases-iii">11.2.10. Healthcare and Life Science Use Cases III</a></li>
+<li><a class="reference internal" href="#deep-learning-and-social-networks-use-cases">11.2.11. Deep Learning and Social Networks Use Cases</a></li>
+<li><a class="reference internal" href="#research-ecosystem-use-cases">11.2.12. Research Ecosystem Use Cases</a></li>
+<li><a class="reference internal" href="#astronomy-and-physics-use-cases-i">11.2.13. Astronomy and Physics Use Cases I</a></li>
+<li><a class="reference internal" href="#astronomy-and-physics-use-cases-ii">11.2.14. Astronomy and Physics Use Cases II</a></li>
+<li><a class="reference internal" href="#environment-earth-and-polar-science-use-cases-i">11.2.15. Environment, Earth and Polar Science Use Cases I</a></li>
+<li><a class="reference internal" href="#environment-earth-and-polar-science-use-cases-ii">11.2.16. Environment, Earth and Polar Science Use Cases II</a></li>
+<li><a class="reference internal" href="#energy-use-case">11.2.17. Energy Use Case</a></li>
+<li><a class="reference internal" href="#id1">11.2.18. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#features-of-51-big-data-use-cases">11.3. Features of 51 Big Data Use Cases</a><ul>
+<li><a class="reference internal" href="#summary-of-use-case-classification-i">11.3.1. Summary of Use Case Classification I</a></li>
+<li><a class="reference internal" href="#summary-of-use-case-classification-ii">11.3.2. Summary of Use Case Classification II</a></li>
+<li><a class="reference internal" href="#summary-of-use-case-classification-iii">11.3.3. Summary of Use Case Classification III</a></li>
+<li><a class="reference internal" href="#database-sql-use-case-classification">11.3.4. Database(SQL) Use Case Classification</a></li>
+<li><a class="reference internal" href="#nosql-use-case-classification">11.3.5. NoSQL Use Case Classification</a></li>
+<li><a class="reference internal" href="#use-case-classifications-i">11.3.6. Use Case Classifications I</a></li>
+<li><a class="reference internal" href="#use-case-classifications-ii-part-1">11.3.7. Use Case Classifications II Part 1</a></li>
+<li><a class="reference internal" href="#use-case-classifications-ii-part-2">11.3.8. Use Case Classifications II Part 2</a></li>
+<li><a class="reference internal" href="#use-case-classifications-iii-part-1">11.3.9. Use Case Classifications III Part 1</a></li>
+<li><a class="reference internal" href="#use-case-classifications-iii-part-2">11.3.10. Use Case Classifications III Part 2</a></li>
+<li><a class="reference internal" href="#id2">11.3.11. Resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Web Links</b>
+<ul>
+    <li><a href="https://cloudmesh.github.io/classes/i523/2017">i523</a> </li>  
+    <li><a href="https://cloudmesh.github.io/classes/i524">i524</a> </li>  
+
+  </ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="big-data-use-cases-survey">
+<span id="s7"></span><h1>11. Big Data Use Cases Survey<a class="headerlink" href="#big-data-use-cases-survey" title="Permalink to this headline">¶</a></h1>
+<p>This section covers 51 values of X and an overall study of Big data
+that emerged from a NIST (National Institute for Standards and
+Technology) study of Big data. The section covers the NIST Big Data
+Public Working Group (NBD-PWG) Process and summarizes the work of five
+subgroups: Definitions and Taxonomies Subgroup, Reference Architecture
+Subgroup, Security and Privacy Subgroup, Technology Roadmap Subgroup
+and the Requirements andUse Case Subgroup. 51 use cases collected in
+this process are briefly discussed with a classification of the source
+of parallelism and the high and low level computational structure. We
+describe the key features of this classification.</p>
+<div class="section" id="overview-of-nist-big-data-public-working-group-nbd-pwg-process-and-results">
+<h2>11.1. Overview of NIST Big Data Public Working Group (NBD-PWG) Process and Results<a class="headerlink" href="#overview-of-nist-big-data-public-working-group-nbd-pwg-process-and-results" title="Permalink to this headline">¶</a></h2>
+<p>This unit covers the NIST Big Data Public Working Group (NBD-PWG)
+Process and summarizes the work of five subgroups: Definitions and
+Taxonomies Subgroup, Reference Architecture Subgroup, Security and
+Privacy Subgroup, Technology Roadmap Subgroup and the Requirements and
+Use Case Subgroup. The work of latter is continued in next two units.</p>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Slides: <a class="reference external" href="https://iu.app.box.com/s/bgr7lyaz7uazcarangqd">https://iu.app.box.com/s/bgr7lyaz7uazcarangqd</a></p>
+</div>
+<div class="section" id="introduction-to-nist-big-data-public-working-group-nbd-pwg-process">
+<h3>11.1.1. Introduction to NIST Big Data Public Working Group (NBD-PWG) Process<a class="headerlink" href="#introduction-to-nist-big-data-public-working-group-nbd-pwg-process" title="Permalink to this headline">¶</a></h3>
+<p>The focus of the (NBD-PWG) is to form a community of interest from
+industry, academia, and government, with the goal of developing a
+consensus definitions, taxonomies, secure reference architectures, and
+technology roadmap. The aim is to create vendor-neutral, technology
+and infrastructure agnostic deliverables to enable big data
+stakeholders to pick-and-choose best analytics tools for their
+processing and visualization requirements on the most suitable
+computing platforms and clusters while allowing value-added from big
+data service providers and flow of data between the stakeholders in a
+cohesive and secure manner.</p>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/ofRfHBKpyvg">http://youtu.be/ofRfHBKpyvg</a></p>
+</div>
+</div>
+<div class="section" id="definitions-and-taxonomies-subgroup">
+<h3>11.1.2. Definitions and Taxonomies Subgroup<a class="headerlink" href="#definitions-and-taxonomies-subgroup" title="Permalink to this headline">¶</a></h3>
+<p>The focus is to gain a better understanding of the principles of Big
+Data. It is important to develop a consensus-based common language and
+vocabulary terms used in Big Data across stakeholders from industry,
+academia, and government. In addition, it is also critical to identify
+essential actors with roles and responsibility, and subdivide them
+into components and sub-components on how they interact/ relate with
+each other according to their similarities and differences.</p>
+<p>For Definitions: Compile terms used from all stakeholders regarding
+the meaning of Big Data from various standard bodies, domain
+applications, and diversified operational environments. For
+Taxonomies: Identify key actors with their roles and responsibilities
+from all stakeholders, categorize them into components and
+subcomponents based on their similarities and differences. In
+particular data Science and Big Data terms are discussed.</p>
+<div class="admonition-todo admonition" id="index-2">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/sGshHN-DdbE">http://youtu.be/sGshHN-DdbE</a></p>
+</div>
+</div>
+<div class="section" id="reference-architecture-subgroup">
+<h3>11.1.3. Reference Architecture Subgroup<a class="headerlink" href="#reference-architecture-subgroup" title="Permalink to this headline">¶</a></h3>
+<p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus-based approach
+to orchestrate vendor-neutral, technology and infrastructure agnostic
+for analytics tools and computing environments. The goal is to enable
+Big Data stakeholders to pick-and-choose technology-agnostic analytics
+tools for processing and visualization in any computing platform and
+cluster while allowing value-added from Big Data service providers and
+the flow of the data between the stakeholders in a cohesive and secure
+manner. Results include a reference architecture with well defined
+components and linkage as well as several exemplars.</p>
+<div class="admonition-todo admonition" id="index-3">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/JV596ZH36YA">http://youtu.be/JV596ZH36YA</a></p>
+</div>
+</div>
+<div class="section" id="security-and-privacy-subgroup">
+<h3>11.1.4. Security and Privacy Subgroup<a class="headerlink" href="#security-and-privacy-subgroup" title="Permalink to this headline">¶</a></h3>
+<p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus secure
+reference architecture to handle security and privacy issues across
+all stakeholders. This includes gaining an understanding of what
+standards are available or under development, as well as identifies
+which key organizations are working on these standards. The Top Ten
+Big Data Security and Privacy Challenges from the CSA (Cloud Security
+Alliance) BDWG are studied. Specialized use cases include
+Retail/Marketing, Modern Day Consumerism, Nielsen Homescan, Web
+Traffic Analysis, Healthcare, Health Information Exchange, Genetic
+Privacy, Pharma Clinical Trial Data Sharing, Cyber-security,
+Government, Military and Education.</p>
+<div class="admonition-todo admonition" id="index-4">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/Gbk0LaWE3lM">http://youtu.be/Gbk0LaWE3lM</a></p>
+</div>
+</div>
+<div class="section" id="technology-roadmap-subgroup">
+<h3>11.1.5. Technology Roadmap Subgroup<a class="headerlink" href="#technology-roadmap-subgroup" title="Permalink to this headline">¶</a></h3>
+<p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus vision with
+recommendations on how Big Data should move forward by performing a
+good gap analysis through the materials gathered from all other NBD
+subgroups. This includes setting standardization and adoption
+priorities through an understanding of what standards are available or
+under development as part of the recommendations. Tasks are gather
+input from NBD subgroups and study the taxonomies for the actors’
+roles and responsibility, use cases and requirements, and secure
+reference architecture; gain understanding of what standards are
+available or under development for Big Data; perform a thorough gap
+analysis and document the findings; identify what possible barriers
+may delay or prevent adoption of Big Data; and document vision and
+recommendations.</p>
+<div class="admonition-todo admonition" id="index-5">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/GCc9yfErmd0">http://youtu.be/GCc9yfErmd0</a></p>
+</div>
+</div>
+<div class="section" id="requirements-and-use-case-subgroup-introduction-i">
+<h3>11.1.6. Requirements and Use Case Subgroup Introduction I<a class="headerlink" href="#requirements-and-use-case-subgroup-introduction-i" title="Permalink to this headline">¶</a></h3>
+<p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus list of Big
+Data requirements across all stakeholders. This includes gathering and
+understanding various use cases from diversified application
+domains.Tasks are gather use case input from all stakeholders; derive
+Big Data requirements from each use case; analyze/prioritize a list of
+challenging general requirements that may delay or prevent adoption of
+Big Data deployment; develop a set of general patterns capturing the
+‘’essence’’ of use cases (not done yet) and work with Reference
+Architecture to validate requirements and reference architecture by
+explicitly implementing some patterns based on use cases. The progress
+of gathering use cases (discussed in next two units) and requirements
+systemization are discussed.</p>
+<div class="admonition-todo admonition" id="index-6">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/sztqNXJ9P6c">http://youtu.be/sztqNXJ9P6c</a></p>
+</div>
+</div>
+<div class="section" id="requirements-and-use-case-subgroup-introduction-ii">
+<h3>11.1.7. Requirements and Use Case Subgroup Introduction II<a class="headerlink" href="#requirements-and-use-case-subgroup-introduction-ii" title="Permalink to this headline">¶</a></h3>
+<p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus list of Big
+Data requirements across all stakeholders. This includes gathering and
+understanding various use cases from diversified application
+domains.Tasks are gather use case input from all stakeholders; derive
+Big Data requirements from each use case; analyze/prioritize a list of
+challenging general requirements that may delay or prevent adoption of
+Big Data deployment; develop a set of general patterns capturing the
+‘’essence’’ of use cases (not done yet) and work with Reference
+Architecture to validate requirements and reference architecture by
+explicitly implementing some patterns based on use cases. The progress
+of gathering use cases (discussed in next two units) and requirements
+systemization are discussed.</p>
+<div class="admonition-todo admonition" id="index-7">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/0sbfIqHUauI">http://youtu.be/0sbfIqHUauI</a></p>
+</div>
+</div>
+<div class="section" id="requirements-and-use-case-subgroup-introduction-iii">
+<h3>11.1.8. Requirements and Use Case Subgroup Introduction III<a class="headerlink" href="#requirements-and-use-case-subgroup-introduction-iii" title="Permalink to this headline">¶</a></h3>
+<p>The focus is to form a community of interest from industry, academia,
+and government, with the goal of developing a consensus list of Big
+Data requirements across all stakeholders. This includes gathering and
+understanding various use cases from diversified application
+domains.Tasks are gather use case input from all stakeholders; derive
+Big Data requirements from each use case; analyze/prioritize a list of
+challenging general requirements that may delay or prevent adoption of
+Big Data deployment; develop a set of general patterns capturing the
+‘’essence’’ of use cases (not done yet) and work with Reference
+Architecture to validate requirements and reference architecture by
+explicitly implementing some patterns based on use cases. The progress
+of gathering use cases (discussed in next two units) and requirements
+systemization are discussed.</p>
+<div class="admonition-todo admonition" id="index-8">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="http://youtu.be/u59559nqjiY">http://youtu.be/u59559nqjiY</a></p>
+</div>
+</div>
+<div class="section" id="resources">
+<h3>11.1.9. Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>NIST Big Data Public Working Group (NBD-PWG) Process
+<a class="reference external" href="https://www.nist.gov/el/cyber-physical-systems/big-data-pwg">https://www.nist.gov/el/cyber-physical-systems/big-data-pwg</a></li>
+<li>Big Data Definitions: <a class="reference external" href="http://dx.doi.org/10.6028/NIST.SP.1500-1">http://dx.doi.org/10.6028/NIST.SP.1500-1</a> (link is external)</li>
+<li>Big Data Taxonomies: <a class="reference external" href="http://dx.doi.org/10.6028/NIST.SP.1500-2">http://dx.doi.org/10.6028/NIST.SP.1500-2</a> (link is external)</li>
+<li>Big Data Use Cases and Requirements: <a class="reference external" href="http://dx.doi.org/10.6028/NIST.SP.1500-3">http://dx.doi.org/10.6028/NIST.SP.1500-3</a> (link is external)</li>
+<li>Big Data Security and Privacy: <a class="reference external" href="http://dx.doi.org/10.6028/NIST.SP.1500-4">http://dx.doi.org/10.6028/NIST.SP.1500-4</a> (link is external)</li>
+<li>Big Data Architecture White Paper Survey: <a class="reference external" href="http://dx.doi.org/10.6028/NIST.SP.1500-5">http://dx.doi.org/10.6028/NIST.SP.1500-5</a> (link is external)</li>
+<li>Big Data Reference Architecture: <a class="reference external" href="http://dx.doi.org/10.6028/NIST.SP.1500-6">http://dx.doi.org/10.6028/NIST.SP.1500-6</a> (link is external)</li>
+<li>Big Data Standards Roadmap: <a class="reference external" href="http://dx.doi.org/10.6028/NIST.SP.1500-7">http://dx.doi.org/10.6028/NIST.SP.1500-7</a> (link is external)</li>
+</ul>
+<p>Some of the links bellow may be outdated. Please let us know the new
+links and notify us of the outdated links.</p>
+<ul>
+<li><p class="first">DCGSA Standard Cloud:&nbsp;<a class="reference external" href="https://www.youtube.com/watch?v=l4Qii7T8zeg">https://www.youtube.com/watch?v=l4Qii7T8zeg</a></p>
+</li>
+<li><p class="first">On line 51 Use Cases <a class="reference external" href="http://bigdatawg.nist.gov/usecases.php">http://bigdatawg.nist.gov/usecases.php</a></p>
+</li>
+<li><p class="first">Summary of Requirements Subgroup
+<a class="reference external" href="http://bigdatawg.nist.gov/_uploadfiles/M0245_v5_6066621242.docx">http://bigdatawg.nist.gov/_uploadfiles/M0245_v5_6066621242.docx</a></p>
+</li>
+<li><p class="first">Use Case 6 Mendeley <a class="reference external" href="http://mendeley.com%20http//dev.mendeley.com">http://mendeley.com%20http//dev.mendeley.com</a></p>
+</li>
+<li><p class="first">Use Case 7 Netflix
+<a class="reference external" href="http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutoria">http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutoria</a></p>
+</li>
+<li><p class="first">Use Case 8 Search
+<a class="reference external" href="http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013">http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013</a>,
+<a class="reference external" href="http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html">http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html</a>,
+<a class="reference external" href="http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws">http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws</a>,
+<a class="reference external" href="http://www.slideshare.net/beechung/recommender-systems-tutorialpart1intro">http://www.slideshare.net/beechung/recommender-systems-tutorialpart1intro</a>,
+<a class="reference external" href="http://www.worldwidewebsize.com/">http://www.worldwidewebsize.com/</a></p>
+</li>
+<li><p class="first">Use Case 9 IaaS (Infrastructure as a Service) Big Data Business
+Continuity &amp; Disaster Recovery (BC/DR) Within A Cloud Eco-System
+provided by Cloud Service Providers (CSPs) and Cloud Brokerage
+Service Providers (CBSPs) <a class="reference external" href="http://www.disasterrecovery.org/">http://www.disasterrecovery.org/</a></p>
+</li>
+<li><p class="first">Use Case 11 and Use Case 12 Simulation driven Materials Genomics
+<a class="reference external" href="https://www.materialsproject.org/">https://www.materialsproject.org/</a></p>
+</li>
+<li><p class="first">Use Case 13 Large Scale Geospatial Analysis and Visualization
+<a class="reference external" href="http://www.opengeospatial.org/standards">http://www.opengeospatial.org/standards</a>,
+<a class="reference external" href="http://geojson.org/">http://geojson.org/</a>&nbsp;,
+<a class="reference external" href="http://earth-info.nga.mil/publications/specs/printed/CADRG/cadrg.html">http://earth-info.nga.mil/publications/specs/printed/CADRG/cadrg.html</a></p>
+</li>
+<li><p class="first">Use Case 14 Object identification and tracking from Wide Area Large
+Format Imagery (WALF) Imagery or Full Motion Video (FMV) - Persistent
+Surveillance
+<a class="reference external" href="http://www.militaryaerospace.com/topics/m/video/79088650/persistent-surveillance-relies-on-extracting-relevant-data-points-and-connecting-the-dots.htm">http://www.militaryaerospace.com/topics/m/video/79088650/persistent-surveillance-relies-on-extracting-relevant-data-points-and-connecting-the-dots.htm</a>,
+<a class="reference external" href="http://www.defencetalk.com/wide-area-persistent-surveillance-revolutionizes-tactical-isr-45745/">http://www.defencetalk.com/wide-area-persistent-surveillance-revolutionizes-tactical-isr-45745/</a></p>
+</li>
+<li><p class="first">Use Case 15 Intelligence Data Processing and Analysis
+<a class="reference external" href="http://www.afcea-aberdeen.org/files/presentations/AFCEAAberdeen_DCGSA_COLWells_PS.pdf">http://www.afcea-aberdeen.org/files/presentations/AFCEAAberdeen_DCGSA_COLWells_PS.pdf</a>,
+<a class="reference external" href="http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012_T14_SmithEtAl_HorizontalIntegrationOfWarfighterIntel.pdf">http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012_T14_SmithEtAl_HorizontalIntegrationOfWarfighterIntel.pdf</a>,
+<a class="reference external" href="http://stids.c4i.gmu.edu/STIDS2011/papers/STIDS2011_CR_T1_SalmenEtAl.pdf">http://stids.c4i.gmu.edu/STIDS2011/papers/STIDS2011_CR_T1_SalmenEtAl.pdf</a>,
+<a class="reference external" href="https://www.youtube.com/watch?v=l4Qii7T8zeg">https://www.youtube.com/watch?v=l4Qii7T8zeg</a>,
+<a class="reference external" href="http://dcgsa.apg.army.mil/">http://dcgsa.apg.army.mil/</a></p>
+</li>
+<li><p class="first">Use Case 16 Electronic Medical Record (EMR) Data: <a class="reference external" href="http://www.regenstrief.org/">Regenstrief
+Institute</a> , <a class="reference external" href="http://loinc.org/">Logical observation
+identifiers names and codes</a> , <a class="reference external" href="http://www.ihie.org/">Indiana Health
+Information Exchange</a> , <a class="reference external" href="http://www.iom.edu/Activities/Quality/LearningHealthcare.aspx">Institute of
+Medicine Learning Healthcare
+System</a></p>
+</li>
+<li><p class="first">Use Case 17 Pathology Imaging/digital pathology;
+<a class="reference external" href="https://web.cci.emory.edu/confluence/display/PAIS">https://web.cci.emory.edu/confluence/display/PAIS</a>&nbsp;,&nbsp;<a class="reference external" href="https://web.cci.emory.edu/confluence/display/HadoopGIS">https://web.cci.emory.edu/confluence/display/HadoopGIS</a></p>
+</li>
+<li><p class="first">Use Case 19 Genome in a Bottle Consortium:
+<a class="reference external" href="https://bigdatacoursespring2015.appspot.com/www.genomeinabottle.org">www.genomeinabottle.org</a></p>
+</li>
+<li><p class="first">Use Case 20 Comparative analysis for metagenomes and genomes
+<a class="reference external" href="http://img.jgi.doe.gov/">http://img.jgi.doe.gov/</a></p>
+</li>
+<li><p class="first">Use Case 25 <a class="reference external" href="https://www.biodiversitycatalogue.org/">Biodiversity</a>
+and <a class="reference external" href="http://www.lifewatch.eu/web/guest/home">LifeWatch</a></p>
+</li>
+<li><p class="first">Use Case 26 Deep Learning: Recent popular press coverage of deep
+learning technology:
+<a class="reference external" href="http://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html">http://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html</a>&nbsp;,
+<a class="reference external" href="http://www.nytimes.com/2012/06/26/technology/in-a-big-network-of-computers-evidence-of-machine-learning.html">http://www.nytimes.com/2012/06/26/technology/in-a-big-network-of-computers-evidence-of-machine-learning.html</a>&nbsp;,
+<a class="reference external" href="http://www.wired.com/2013/06/andrew_ng/">http://www.wired.com/2013/06/andrew_ng/</a>,</p>
+<p>A recent research paper on HPC for Deep Learning:
+<a class="reference external" href="http://www.stanford.edu/~acoates/papers/CoatesHuvalWangWuNgCatanzaro_icml2013.pdf">http://www.stanford.edu/~acoates/papers/CoatesHuvalWangWuNgCatanzaro_icml2013.pdf</a>,
+Widely-used tutorials and references for Deep Learning:
+<a class="reference external" href="http://ufldl.stanford.edu/wiki/index.php/Main_Page">http://ufldl.stanford.edu/wiki/index.php/Main_Page</a>,
+<a class="reference external" href="http://deeplearning.net/">http://deeplearning.net/</a></p>
+</li>
+<li><p class="first">Use Case 27 Organizing large-scale, unstructured collections of
+consumer photos <a class="reference external" href="http://vision.soic.indiana.edu/projects/disco/">http://vision.soic.indiana.edu/projects/disco/</a></p>
+</li>
+<li><p class="first">Use Case 28 Truthy: Information diffusion research from Twitter Data
+<a class="reference external" href="http://truthy.indiana.edu/">http://truthy.indiana.edu/</a>&nbsp;,&nbsp;<a class="reference external" href="http://cnets.indiana.edu/groups/nan/truthy/">http://cnets.indiana.edu/groups/nan/truthy/</a>&nbsp;,&nbsp;<a class="reference external" href="http://cnets.indiana.edu/groups/nan/despic/">http://cnets.indiana.edu/groups/nan/despic/</a></p>
+</li>
+<li><p class="first">Use Case 30 CINET: Cyberinfrastructure for Network (Graph) Science
+and Analytics <a class="reference external" href="http://cinet.vbi.vt.edu/cinet_new/">http://cinet.vbi.vt.edu/cinet_new/</a></p>
+</li>
+<li><p class="first">Use Case 31 NIST Information Access Division analytic technology
+performance measurement, evaluations, and standards
+<a class="reference external" href="http://www.nist.gov/itl/iad/">http://www.nist.gov/itl/iad/</a></p>
+</li>
+<li><p class="first">Use Case 32 DataNet Federation Consortium DFC: <a class="reference external" href="http://datafed.org/">The DataNet
+Federation Consortium</a> ,
+<a class="reference external" href="http://irods.org/">iRODS</a></p>
+</li>
+<li><p class="first">Use Case 33 The ‘Discinnet process’, metadata &lt; - &gt; big data global
+experiment <a class="reference external" href="http://www.discinnet.org/">http://www.discinnet.org/</a></p>
+</li>
+<li><p class="first">Use Case 34 Semantic Graph-search on Scientific Chemical and
+Text-based Data
+<a class="reference external" href="http://www.eurekalert.org/pub_releases/2013-07/aiop-ffm071813.php">http://www.eurekalert.org/pub_releases/2013-07/aiop-ffm071813.php</a> ,
+<a class="reference external" href="http://xpdb.nist.gov/chemblast/pdb.pl">http://xpdb.nist.gov/chemblast/pdb.pl</a></p>
+</li>
+<li><p class="first">Use Case 35 Light source beamlines
+<a class="reference external" href="http://www-als.lbl.gov/">http://www-als.lbl.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="https://www1.aps.anl.gov/">https://www1.aps.anl.gov/</a></p>
+</li>
+<li><p class="first">Use Case 36 <a class="reference external" href="http://crts.caltech.edu/">CRTS survey</a> , <a class="reference external" href="http://www.lpl.arizona.edu/css/">CSS
+survey</a> ; For an overview of the
+classification challenges, see, e.g., <a class="reference external" href="http://arxiv.org/abs/1209.1681">http://arxiv.org/abs/1209.1681</a></p>
+</li>
+<li><p class="first">Use Case 37 DOE Extreme Data from Cosmological Sky Survey and
+Simulations
+<a class="reference external" href="http://www.lsst.org/lsst/">http://www.lsst.org/lsst/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.nersc.gov/">http://www.nersc.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.nersc.gov/assets/Uploads/HabibcosmosimV2.pdf">http://www.nersc.gov/assets/Uploads/HabibcosmosimV2.pdf</a></p>
+</li>
+<li><p class="first">Use Case 38 Large Survey Data for Cosmology <a class="reference external" href="http://desi.lbl.gov/">http://desi.lbl.gov/</a> ,
+<a class="reference external" href="http://www.darkenergysurvey.org/">http://www.darkenergysurvey.org/</a></p>
+</li>
+<li><p class="first">Use Case 39 Particle Physics: Analysis of LHC Large Hadron Collider
+Data: Discovery of Higgs particle
+<a class="reference external" href="http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf">http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf</a>&nbsp;,
+<a class="reference external" href="http://www.es.net/assets/pubs_presos/High-throughput-lessons-from-the-LHC-experience.Johnston.TNC2013.pdf">http://www.es.net/assets/pubs_presos/High-throughput-lessons-from-the-LHC-experience.Johnston.TNC2013.pdf</a></p>
+</li>
+<li><p class="first">Use Case 40 Belle II High Energy Physics Experiment
+<a class="reference external" href="http://belle2.kek.jp/">http://belle2.kek.jp/</a></p>
+</li>
+<li><p class="first">Use Case 41 EISCAT 3D incoherent scatter radar system
+<a class="reference external" href="https://www.eiscat3d.se/">https://www.eiscat3d.se/</a></p>
+</li>
+<li><p class="first">Use Case 42 ENVRI, Common Operations of Environmental Research
+Infrastructure, <a class="reference external" href="http://envri.eu/">ENVRI Project website</a> ,
+<a class="reference external" href="http://confluence.envri.eu:8090/display/ERM/Start">ENVRI Reference
+Model</a> ,
+<a class="reference external" href="http://confluence.envri.eu:8090/download/attachments/327687/D3.3%20Analysis%20of%20Requirements%20V1.0.pdf?version=1&amp;modificationDate=1366965933706&amp;api=v2">ENVRI deliverable D3.2 : Analysis of common requirements of
+Environmental Research
+Infrastructures</a>
+, <a class="reference external" href="https://www.icos-ri.eu/">ICOS</a> , <a class="reference external" href="http://www.euro-argo.eu/">Euro -
+Argo</a> , <a class="reference external" href="https://www.eiscat3d.se/node">EISCAT
+3D</a> ,
+<a class="reference external" href="http://www.lifewatch.com/">LifeWatch</a> ,
+<a class="reference external" href="http://www.epos-eu.org/">EPOS</a> ,
+<a class="reference external" href="http://www.emso-eu.org/">EMSO</a></p>
+</li>
+<li><p class="first">Use Case 43 Radar Data Analysis for CReSIS Remote Sensing of Ice
+Sheets <a class="reference external" href="https://www.cresis.ku.edu/">https://www.cresis.ku.edu/</a></p>
+</li>
+<li><p class="first">Use Case 44 UAVSAR Data Processing, Data Product Delivery, and Data
+Services
+<a class="reference external" href="http://uavsar.jpl.nasa.gov/">http://uavsar.jpl.nasa.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.asf.alaska.edu/program/sdc">http://www.asf.alaska.edu/program/sdc</a>&nbsp;,&nbsp;<a class="reference external" href="http://geo-gateway.org/main.html">http://geo-gateway.org/main.html</a></p>
+</li>
+<li><p class="first">Use Case 47 Atmospheric Turbulence - Event Discovery and Predictive
+Analytics
+<a class="reference external" href="http://oceanworld.tamu.edu/resources/oceanography-book/teleconnections.htm">http://oceanworld.tamu.edu/resources/oceanography-book/teleconnections.htm</a>
+,
+<a class="reference external" href="http://www.forbes.com/sites/toddwoody/2012/03/21/meet-the-scientists-mining-big-data-to-predict-the-weather/">http://www.forbes.com/sites/toddwoody/2012/03/21/meet-the-scientists-mining-big-data-to-predict-the-weather/</a></p>
+</li>
+<li><p class="first">Use Case 48 Climate Studies using the Community Earth System Model at
+DOE.s NERSC center
+<a class="reference external" href="http://www-pcmdi.llnl.gov/">http://www-pcmdi.llnl.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.nersc.gov/">http://www.nersc.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="http://science.energy.gov/ber/research/cesd/">http://science.energy.gov/ber/research/cesd/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www2.cisl.ucar.edu/">http://www2.cisl.ucar.edu/</a></p>
+</li>
+<li><p class="first">Use Case 50 DOE-BER AmeriFlux and FLUXNET Networks
+<a class="reference external" href="http://ameriflux.lbl.gov/">http://ameriflux.lbl.gov/</a> , <a class="reference external" href="http://www.fluxdata.org/default.aspx">http://www.fluxdata.org/default.aspx</a></p>
+</li>
+<li><p class="first">Use Case 51 Consumption forecasting in Smart Grids
+<a class="reference external" href="http://smartgrid.usc.edu/">http://smartgrid.usc.edu/</a>,
+<a class="reference external" href="http://ganges.usc.edu/wiki/Smart_Grid">http://ganges.usc.edu/wiki/Smart_Grid</a>,
+<a class="reference external" href="https://www.ladwp.com/ladwp/faces/ladwp/aboutus/a-power/a-p-smartgridla?_afrLoop=157401916661989&amp;_afrWindowMode=0&amp;_afrWindowId=null#%40%3F_afrWindowId%3Dnull%26_afrLoop%3D157401916661989%26_afrWindowMode%3D0%26_adf.ctrl-state%3Db7yulr4rl_17">https://www.ladwp.com/ladwp/faces/ladwp/aboutus/a-power/a-p-smartgridla?_afrLoop=157401916661989&amp;_afrWindowMode=0&amp;_afrWindowId=null#%40%3F_afrWindowId%3Dnull%26_afrLoop%3D157401916661989%26_afrWindowMode%3D0%26_adf.ctrl-state%3Db7yulr4rl_17</a>,
+<a class="reference external" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6475927">http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6475927</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="big-data-use-cases">
+<h2>11.2. 51 Big Data Use Cases<a class="headerlink" href="#big-data-use-cases" title="Permalink to this headline">¶</a></h2>
+<p>This units consists of one or more slides for each of the 51 use
+cases - typically additional (more than one) slides are associated
+with pictures. Each of the use cases is identified with source of
+parallelism and the high and low level computational structure. As
+each new classification topic is introduced we briefly discuss it but
+full discussion of topics is given in following unit.</p>
+<p>Slides: <a class="reference external" href="https://iu.app.box.com/s/cvki350s0a12o404a524">https://iu.app.box.com/s/cvki350s0a12o404a524</a></p>
+<div class="section" id="government-use-cases-i">
+<h3>11.2.1. Government Use Cases I<a class="headerlink" href="#government-use-cases-i" title="Permalink to this headline">¶</a></h3>
+<p>This covers Census 2010 and 2000 - Title 13 Big Data; National
+Archives and Records Administration Accession NARA, Search, Retrieve,
+Preservation; Statistical Survey Response Improvement (Adaptive
+Design) and Non-Traditional Data in Statistical Survey Response
+Improvement (Adaptive Design).</p>
+<p>Video: <a class="reference external" href="http://youtu.be/gCqBFYDDzSQ">http://youtu.be/gCqBFYDDzSQ</a></p>
+</div>
+<div class="section" id="government-use-cases-ii">
+<h3>11.2.2. Government Use Cases II<a class="headerlink" href="#government-use-cases-ii" title="Permalink to this headline">¶</a></h3>
+<p>This covers Census 2010 and 2000 - Title 13 Big Data; National
+Archives and Records Administration Accession NARA, Search, Retrieve,
+Preservation; Statistical Survey Response Improvement (Adaptive
+Design) and Non-Traditional Data in Statistical Survey Response
+Improvement (Adaptive Design).</p>
+<p>Video: <a class="reference external" href="http://youtu.be/y0nIed-Nxjw">http://youtu.be/y0nIed-Nxjw</a></p>
+</div>
+<div class="section" id="commercial-use-cases-i">
+<h3>11.2.3. Commercial Use Cases I<a class="headerlink" href="#commercial-use-cases-i" title="Permalink to this headline">¶</a></h3>
+<p>This covers Cloud Eco-System, for Financial Industries (Banking,
+Securities &amp; Investments, Insurance) transacting business within the
+United States; Mendeley - An International Network of Research;
+Netflix Movie Service; Web Search; IaaS (Infrastructure as a Service)
+Big Data Business Continuity &amp; Disaster Recovery (BC/DR) Within A
+Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
+Simulation driven Materials Genomics.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/P1iuViI-AKc">http://youtu.be/P1iuViI-AKc</a></p>
+</div>
+<div class="section" id="commercial-use-cases-ii">
+<h3>11.2.4. Commercial Use Cases II<a class="headerlink" href="#commercial-use-cases-ii" title="Permalink to this headline">¶</a></h3>
+<p>This covers Cloud Eco-System, for Financial Industries (Banking,
+Securities &amp; Investments, Insurance) transacting business within the
+United States; Mendeley - An International Network of Research;
+Netflix Movie Service; Web Search; IaaS (Infrastructure as a Service)
+Big Data Business Continuity &amp; Disaster Recovery (BC/DR) Within A
+Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
+Simulation driven Materials Genomics.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/epFH4w_Q9lc">http://youtu.be/epFH4w_Q9lc</a></p>
+</div>
+<div class="section" id="commercial-use-cases-iii">
+<h3>11.2.5. Commercial Use Cases III<a class="headerlink" href="#commercial-use-cases-iii" title="Permalink to this headline">¶</a></h3>
+<p>This covers Cloud Eco-System, for Financial Industries (Banking,
+Securities &amp; Investments, Insurance) transacting business within the
+United States; Mendeley - An International Network of Research;
+Netflix Movie Service; Web Search; IaaS (Infrastructure as a Service)
+Big Data Business Continuity &amp; Disaster Recovery (BC/DR) Within A
+Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
+Simulation driven Materials Genomics.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/j5kWjL4y7Bo">http://youtu.be/j5kWjL4y7Bo</a></p>
+</div>
+<div class="section" id="defense-use-cases-i">
+<h3>11.2.6. Defense Use Cases I<a class="headerlink" href="#defense-use-cases-i" title="Permalink to this headline">¶</a></h3>
+<p>This covers Large Scale Geospatial Analysis and Visualization; Object
+identification and tracking from Wide Area Large Format Imagery (WALF)
+Imagery or Full Motion Video (FMV) - Persistent Surveillance and
+Intelligence Data Processing and Analysis.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/8hXG7dinhjg">http://youtu.be/8hXG7dinhjg</a></p>
+</div>
+<div class="section" id="defense-use-cases-ii">
+<h3>11.2.7. Defense Use Cases II<a class="headerlink" href="#defense-use-cases-ii" title="Permalink to this headline">¶</a></h3>
+<p>This covers Large Scale Geospatial Analysis and Visualization; Object
+identification and tracking from Wide Area Large Format Imagery (WALF)
+Imagery or Full Motion Video (FMV) - Persistent Surveillance and
+Intelligence Data Processing and Analysis.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/MplyAfmuxko">http://youtu.be/MplyAfmuxko</a></p>
+</div>
+<div class="section" id="healthcare-and-life-science-use-cases-i">
+<h3>11.2.8. Healthcare and Life Science Use Cases I<a class="headerlink" href="#healthcare-and-life-science-use-cases-i" title="Permalink to this headline">¶</a></h3>
+<p>This covers Electronic Medical Record (EMR) Data; Pathology
+Imaging/digital pathology; Computational Bioimaging; Genomic
+Measurements; Comparative analysis for metagenomes and genomes;
+Individualized Diabetes Management; Statistical Relational Artificial
+Intelligence for Health Care; World Population Scale Epidemiological
+Study; Social Contagion Modeling for Planning, Public Health and
+Disaster Management and Biodiversity and LifeWatch.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/jVARCWVeYxQ">http://youtu.be/jVARCWVeYxQ</a></p>
+</div>
+<div class="section" id="healthcare-and-life-science-use-cases-ii">
+<h3>11.2.9. Healthcare and Life Science Use Cases II<a class="headerlink" href="#healthcare-and-life-science-use-cases-ii" title="Permalink to this headline">¶</a></h3>
+<p>This covers Electronic Medical Record (EMR) Data; Pathology
+Imaging/digital pathology; Computational Bioimaging; Genomic
+Measurements; Comparative analysis for metagenomes and genomes;
+Individualized Diabetes Management; Statistical Relational Artificial
+Intelligence for Health Care; World Population Scale Epidemiological
+Study; Social Contagion Modeling for Planning, Public Health and
+Disaster Management and Biodiversity and LifeWatch.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/y9zJzrH4P8k">http://youtu.be/y9zJzrH4P8k</a></p>
+</div>
+<div class="section" id="healthcare-and-life-science-use-cases-iii">
+<h3>11.2.10. Healthcare and Life Science Use Cases III<a class="headerlink" href="#healthcare-and-life-science-use-cases-iii" title="Permalink to this headline">¶</a></h3>
+<p>This covers Electronic Medical Record (EMR) Data; Pathology
+Imaging/digital pathology; Computational Bioimaging; Genomic
+Measurements; Comparative analysis for metagenomes and genomes;
+Individualized Diabetes Management; Statistical Relational Artificial
+Intelligence for Health Care; World Population Scale Epidemiological
+Study; Social Contagion Modeling for Planning, Public Health and
+Disaster Management and Biodiversity and LifeWatch.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/eU5emeI3AmM">http://youtu.be/eU5emeI3AmM</a></p>
+</div>
+<div class="section" id="deep-learning-and-social-networks-use-cases">
+<h3>11.2.11. Deep Learning and Social Networks Use Cases<a class="headerlink" href="#deep-learning-and-social-networks-use-cases" title="Permalink to this headline">¶</a></h3>
+<p>This covers Large-scale Deep Learning; Organizing large-scale,
+unstructured collections of consumer photos; Truthy: Information
+diffusion research from Twitter Data; Crowd Sourcing in the Humanities
+as Source for Bigand Dynamic Data; CINET: Cyberinfrastructure for
+Network (Graph) Science and Analytics and NIST Information Access
+Division analytic technology performance measurement, evaluations, and
+standards.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/WLSe6MF4ha4">http://youtu.be/WLSe6MF4ha4</a></p>
+</div>
+<div class="section" id="research-ecosystem-use-cases">
+<h3>11.2.12. Research Ecosystem Use Cases<a class="headerlink" href="#research-ecosystem-use-cases" title="Permalink to this headline">¶</a></h3>
+<p>DataNet Federation Consortium DFC; The ‘Discinnet process’, metadata -
+big data global experiment; Semantic Graph-search on Scientific
+Chemical and Text-based Data and Light source beamlines.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/pZ6JucTCKcw">http://youtu.be/pZ6JucTCKcw</a></p>
+</div>
+<div class="section" id="astronomy-and-physics-use-cases-i">
+<h3>11.2.13. Astronomy and Physics Use Cases I<a class="headerlink" href="#astronomy-and-physics-use-cases-i" title="Permalink to this headline">¶</a></h3>
+<p>This covers Catalina Real-Time Transient Survey (CRTS): a digital,
+panoramic, synoptic sky survey; DOE Extreme Data from Cosmological Sky
+Survey and Simulations; Large Survey Data for Cosmology; Particle
+Physics: Analysis of LHC Large Hadron Collider Data: Discovery of
+Higgs particle and Belle II High Energy Physics Experiment.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/rWqkF-b3Kwk">http://youtu.be/rWqkF-b3Kwk</a></p>
+</div>
+<div class="section" id="astronomy-and-physics-use-cases-ii">
+<h3>11.2.14. Astronomy and Physics Use Cases II<a class="headerlink" href="#astronomy-and-physics-use-cases-ii" title="Permalink to this headline">¶</a></h3>
+<p>This covers Catalina Real-Time Transient Survey (CRTS): a digital,
+panoramic, synoptic sky survey; DOE Extreme Data from Cosmological Sky
+Survey and Simulations; Large Survey Data for Cosmology; Particle
+Physics: Analysis of LHC Large Hadron Collider Data: Discovery of
+Higgs particle and Belle II High Energy Physics Experiment.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/RxLCB6yLmpk">http://youtu.be/RxLCB6yLmpk</a></p>
+</div>
+<div class="section" id="environment-earth-and-polar-science-use-cases-i">
+<h3>11.2.15. Environment, Earth and Polar Science Use Cases I<a class="headerlink" href="#environment-earth-and-polar-science-use-cases-i" title="Permalink to this headline">¶</a></h3>
+<p>EISCAT 3D incoherent scatter radar system; ENVRI, Common Operations of
+Environmental Research Infrastructure; Radar Data Analysis for CReSIS
+Remote Sensing of Ice Sheets; UAVSAR Data Processing, DataProduct
+Delivery, and Data Services; NASA LARC/GSFC iRODS Federation Testbed;
+MERRA Analytic Services MERRA/AS; Atmospheric Turbulence - Event
+Discovery and Predictive Analytics; Climate Studies using the
+Community Earth System Model at DOE’s NERSC center; DOE-BER Subsurface
+Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and
+FLUXNET Networks.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/u2zTIGwsJwU">http://youtu.be/u2zTIGwsJwU</a></p>
+</div>
+<div class="section" id="environment-earth-and-polar-science-use-cases-ii">
+<h3>11.2.16. Environment, Earth and Polar Science Use Cases II<a class="headerlink" href="#environment-earth-and-polar-science-use-cases-ii" title="Permalink to this headline">¶</a></h3>
+<p>EISCAT 3D incoherent scatter radar system; ENVRI, Common Operations of
+Environmental Research Infrastructure; Radar Data Analysis for CReSIS
+Remote Sensing of Ice Sheets; UAVSAR Data Processing, DataProduct
+Delivery, and Data Services; NASA LARC/GSFC iRODS Federation Testbed;
+MERRA Analytic Services MERRA/AS; Atmospheric Turbulence - Event
+Discovery and Predictive Analytics; Climate Studies using the
+Community Earth System Model at DOE’s NERSC center; DOE-BER Subsurface
+Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and
+FLUXNET Networks.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/sH3B3gXuJ7E">http://youtu.be/sH3B3gXuJ7E</a></p>
+</div>
+<div class="section" id="energy-use-case">
+<h3>11.2.17. Energy Use Case<a class="headerlink" href="#energy-use-case" title="Permalink to this headline">¶</a></h3>
+<p>This covers Consumption forecasting in Smart Grids.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/ttmVypmgWmw">http://youtu.be/ttmVypmgWmw</a></p>
+</div>
+<div class="section" id="id1">
+<h3>11.2.18. Resources<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>DCGSA Standard Cloud:&nbsp;<a class="reference external" href="https://www.youtube.com/watch?v=l4Qii7T8zeg">https://www.youtube.com/watch?v=l4Qii7T8zeg</a></li>
+<li>NIST Big Data Public Working Group (NBD-PWG) Process
+<a class="reference external" href="http://bigdatawg.nist.gov/home.php">http://bigdatawg.nist.gov/home.php</a></li>
+<li>On line 51 Use Cases <a class="reference external" href="http://bigdatawg.nist.gov/usecases.php">http://bigdatawg.nist.gov/usecases.php</a></li>
+<li>Summary of Requirements Subgroup
+<a class="reference external" href="http://bigdatawg.nist.gov/_uploadfiles/M0245_v5_6066621242.docx">http://bigdatawg.nist.gov/_uploadfiles/M0245_v5_6066621242.docx</a></li>
+<li>Use Case 6 Mendeley <a class="reference external" href="http://mendeley.com%20http//dev.mendeley.com">http://mendeley.com%20http//dev.mendeley.com</a></li>
+<li>Use Case 7 Netflix
+<a class="reference external" href="http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutoria">http://www.slideshare.net/xamat/building-largescale-realworld-recommender-systems-recsys2012-tutoria</a></li>
+<li>Use Case 8 Search
+<a class="reference external" href="http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013">http://www.slideshare.net/kleinerperkins/kpcb-internet-trends-2013</a>&nbsp;,&nbsp;<a class="reference external" href="http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html">http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws">http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.slideshare.net/beechung/recommender-systems-tutorialpart1intro">http://www.slideshare.net/beechung/recommender-systems-tutorialpart1intro</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.worldwidewebsize.com/">http://www.worldwidewebsize.com/</a></li>
+<li>Use Case 9 IaaS (Infrastructure as a Service) Big Data Business
+Continuity &amp; Disaster Recovery (BC/DR) Within A Cloud Eco-System
+provided by Cloud Service Providers (CSPs) and Cloud Brokerage
+Service Providers (CBSPs) <a class="reference external" href="http://www.disasterrecovery.org/">http://www.disasterrecovery.org/</a></li>
+<li>Use Case 11 and Use Case 12 Simulation driven Materials Genomics
+<a class="reference external" href="https://www.materialsproject.org/">https://www.materialsproject.org/</a></li>
+<li>Use Case 13 Large Scale Geospatial Analysis and Visualization
+<a class="reference external" href="http://www.opengeospatial.org/standards">http://www.opengeospatial.org/standards</a>&nbsp;,&nbsp;<a class="reference external" href="http://geojson.org/">http://geojson.org/</a>&nbsp;,&nbsp;<a class="reference external" href="http://earth-info.nga.mil/publications/specs/printed/CADRG/cadrg.html">http://earth-info.nga.mil/publications/specs/printed/CADRG/cadrg.html</a></li>
+<li>Use Case 14 Object identification and tracking from Wide Area Large
+Format Imagery (WALF) Imagery or Full Motion Video (FMV) - Persistent
+Surveillance
+<a class="reference external" href="http://www.militaryaerospace.com/topics/m/video/79088650/persistent-surveillance-relies-on-extracting-relevant-data-points-and-connecting-the-dots.htm">http://www.militaryaerospace.com/topics/m/video/79088650/persistent-surveillance-relies-on-extracting-relevant-data-points-and-connecting-the-dots.htm</a>
+,
+<a class="reference external" href="http://www.defencetalk.com/wide-area-persistent-surveillance-revolutionizes-tactical-isr-45745/">http://www.defencetalk.com/wide-area-persistent-surveillance-revolutionizes-tactical-isr-45745/</a></li>
+<li>Use Case 15 Intelligence Data Processing and Analysis
+<a class="reference external" href="http://www.afcea-aberdeen.org/files/presentations/AFCEAAberdeen_DCGSA_COLWells_PS.pdf">http://www.afcea-aberdeen.org/files/presentations/AFCEAAberdeen_DCGSA_COLWells_PS.pdf</a>&nbsp;,`&nbsp;<a class="reference external" href="http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012_T14_SmithEtAl_HorizontalIntegrationOfWarfighterIntel.pdf">http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012_T14_SmithEtAl_HorizontalIntegrationOfWarfighterIntel.pdf</a> &lt;<a class="reference external" href="http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012_T14_SmithEtAl_HorizontalIntegrationOfWarfighterIntel.pdf">http://stids.c4i.gmu.edu/papers/STIDSPapers/STIDS2012_T14_SmithEtAl_HorizontalIntegrationOfWarfighterIntel.pdf</a>&gt;`__&nbsp;,&nbsp;<a class="reference external" href="http://stids.c4i.gmu.edu/STIDS2011/papers/STIDS2011_CR_T1_SalmenEtAl.pdf">http://stids.c4i.gmu.edu/STIDS2011/papers/STIDS2011_CR_T1_SalmenEtAl.pdf</a>&nbsp;,&nbsp;<a class="reference external" href="https://www.youtube.com/watch?v=l4Qii7T8zeg">https://www.youtube.com/watch?v=l4Qii7T8zeg</a>&nbsp;,&nbsp;<a class="reference external" href="http://dcgsa.apg.army.mil/">http://dcgsa.apg.army.mil/</a></li>
+<li>Use Case 16 Electronic Medical Record (EMR) Data: <a class="reference external" href="http://www.regenstrief.org/">Regenstrief
+Institute</a> , <a class="reference external" href="http://loinc.org/">Logical observation
+identifiers names and codes</a> , <a class="reference external" href="http://www.ihie.org/">Indiana Health
+Information Exchange</a> , <a class="reference external" href="http://www.iom.edu/Activities/Quality/LearningHealthcare.aspx">Institute of
+Medicine Learning Healthcare
+System</a></li>
+<li>Use Case 17 Pathology Imaging/digital pathology;
+<a class="reference external" href="https://web.cci.emory.edu/confluence/display/PAIS">https://web.cci.emory.edu/confluence/display/PAIS</a>&nbsp;,&nbsp;<a class="reference external" href="https://web.cci.emory.edu/confluence/display/HadoopGIS">https://web.cci.emory.edu/confluence/display/HadoopGIS</a></li>
+<li>Use Case 19 Genome in a Bottle Consortium:
+<a class="reference external" href="https://bigdatacoursespring2015.appspot.com/www.genomeinabottle.org">www.genomeinabottle.org</a></li>
+<li>Use Case 20 Comparative analysis for metagenomes and genomes
+<a class="reference external" href="http://img.jgi.doe.gov/">http://img.jgi.doe.gov/</a></li>
+<li>Use Case 25 <a class="reference external" href="https://www.biodiversitycatalogue.org/">Biodiversity</a>
+and <a class="reference external" href="http://www.lifewatch.eu/web/guest/home">LifeWatch</a></li>
+<li>Use Case 26 Deep Learning: Recent popular press coverage of deep
+learning technology:
+<a class="reference external" href="http://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html">http://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.nytimes.com/2012/06/26/technology/in-a-big-network-of-computers-evidence-of-machine-learning.html">http://www.nytimes.com/2012/06/26/technology/in-a-big-network-of-computers-evidence-of-machine-learning.html</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.wired.com/2013/06/andrew_ng/">http://www.wired.com/2013/06/andrew_ng/</a>&nbsp;;&nbsp;A
+recent research paper on HPC for Deep Learning:
+<a class="reference external" href="http://www.stanford.edu/~acoates/papers/CoatesHuvalWangWuNgCatanzaro_icml2013.pdf">http://www.stanford.edu/~acoates/papers/CoatesHuvalWangWuNgCatanzaro_icml2013.pdf</a>
+Widely-used tutorials and references for Deep Learning:
+<a class="reference external" href="http://ufldl.stanford.edu/wiki/index.php/Main_Page">http://ufldl.stanford.edu/wiki/index.php/Main_Page</a> ,
+<a class="reference external" href="http://deeplearning.net/">http://deeplearning.net/</a></li>
+<li>Use Case 27 Organizing large-scale, unstructured collections of
+consumer photos <a class="reference external" href="http://vision.soic.indiana.edu/projects/disco/">http://vision.soic.indiana.edu/projects/disco/</a></li>
+<li>Use Case 28 Truthy: Information diffusion research from Twitter Data
+<a class="reference external" href="http://truthy.indiana.edu/">http://truthy.indiana.edu/</a>&nbsp;,&nbsp;<a class="reference external" href="http://cnets.indiana.edu/groups/nan/truthy/">http://cnets.indiana.edu/groups/nan/truthy/</a>&nbsp;,&nbsp;<a class="reference external" href="http://cnets.indiana.edu/groups/nan/despic/">http://cnets.indiana.edu/groups/nan/despic/</a></li>
+<li>Use Case 30 CINET: Cyberinfrastructure for Network (Graph) Science
+and Analytics <a class="reference external" href="http://cinet.vbi.vt.edu/cinet_new/">http://cinet.vbi.vt.edu/cinet_new/</a></li>
+<li>Use Case 31 NIST Information Access Division analytic technology
+performance measurement, evaluations, and standards
+<a class="reference external" href="http://www.nist.gov/itl/iad/">http://www.nist.gov/itl/iad/</a></li>
+<li>Use Case 32 DataNet Federation Consortium DFC: <a class="reference external" href="http://datafed.org/">The DataNet
+Federation Consortium</a> ,
+<a class="reference external" href="http://irods.org/">iRODS</a></li>
+<li>Use Case 33 The ‘Discinnet process’, metadata &lt; - &gt; big data global
+experiment <a class="reference external" href="http://www.discinnet.org/">http://www.discinnet.org/</a></li>
+<li>Use Case 34 Semantic Graph-search on Scientific Chemical and
+Text-based Data
+<a class="reference external" href="http://www.eurekalert.org/pub_releases/2013-07/aiop-ffm071813.php">http://www.eurekalert.org/pub_releases/2013-07/aiop-ffm071813.php</a> ,
+<a class="reference external" href="http://xpdb.nist.gov/chemblast/pdb.pl">http://xpdb.nist.gov/chemblast/pdb.pl</a></li>
+<li>Use Case 35 Light source beamlines
+<a class="reference external" href="http://www-als.lbl.gov/">http://www-als.lbl.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="https://www1.aps.anl.gov/">https://www1.aps.anl.gov/</a></li>
+<li>Use Case 36 <a class="reference external" href="http://crts.caltech.edu/">CRTS survey</a> , <a class="reference external" href="http://www.lpl.arizona.edu/css/">CSS
+survey</a> ; For an overview of the
+classification challenges, see, e.g., <a class="reference external" href="http://arxiv.org/abs/1209.1681">http://arxiv.org/abs/1209.1681</a></li>
+<li>Use Case 37 DOE Extreme Data from Cosmological Sky Survey and
+Simulations
+<a class="reference external" href="http://www.lsst.org/lsst/">http://www.lsst.org/lsst/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.nersc.gov/">http://www.nersc.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.nersc.gov/assets/Uploads/HabibcosmosimV2.pdf">http://www.nersc.gov/assets/Uploads/HabibcosmosimV2.pdf</a></li>
+<li>Use Case 38 Large Survey Data for Cosmology <a class="reference external" href="http://desi.lbl.gov/">http://desi.lbl.gov/</a> ,
+<a class="reference external" href="http://www.darkenergysurvey.org/">http://www.darkenergysurvey.org/</a></li>
+<li>Use Case 39 Particle Physics: Analysis of LHC Large Hadron Collider
+Data: Discovery of Higgs particle
+<a class="reference external" href="http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf">http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.es.net/assets/pubs_presos/High-throughput-lessons-from-the-LHC-experience.Johnston.TNC2013.pdf">http://www.es.net/assets/pubs_presos/High-throughput-lessons-from-the-LHC-experience.Johnston.TNC2013.pdf</a></li>
+<li>Use Case 40 Belle II High Energy Physics Experiment
+<a class="reference external" href="http://belle2.kek.jp/">http://belle2.kek.jp/</a></li>
+<li>Use Case 41 EISCAT 3D incoherent scatter radar system
+<a class="reference external" href="https://www.eiscat3d.se/">https://www.eiscat3d.se/</a></li>
+<li>Use Case 42 ENVRI, Common Operations of Environmental Research
+Infrastructure, <a class="reference external" href="http://envri.eu/">ENVRI Project website</a> ,
+<a class="reference external" href="http://confluence.envri.eu:8090/display/ERM/Start">ENVRI Reference
+Model</a> ,
+<a class="reference external" href="http://confluence.envri.eu:8090/download/attachments/327687/D3.3%20Analysis%20of%20Requirements%20V1.0.pdf?version=1&amp;modificationDate=1366965933706&amp;api=v2">ENVRI deliverable D3.2 : Analysis of common requirements of
+Environmental Research
+Infrastructures</a>
+, <a class="reference external" href="https://www.icos-ri.eu/">ICOS</a> , <a class="reference external" href="http://www.euro-argo.eu/">Euro -
+Argo</a> , <a class="reference external" href="https://www.eiscat3d.se/node">EISCAT
+3D</a> ,
+<a class="reference external" href="http://www.lifewatch.com/">LifeWatch</a> ,
+<a class="reference external" href="http://www.epos-eu.org/">EPOS</a> ,
+<a class="reference external" href="http://www.emso-eu.org/">EMSO</a></li>
+<li>Use Case 43 Radar Data Analysis for CReSIS Remote Sensing of Ice
+Sheets <a class="reference external" href="https://www.cresis.ku.edu/">https://www.cresis.ku.edu/</a></li>
+<li>Use Case 44 UAVSAR Data Processing, Data Product Delivery, and Data
+Services
+<a class="reference external" href="http://uavsar.jpl.nasa.gov/">http://uavsar.jpl.nasa.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.asf.alaska.edu/program/sdc">http://www.asf.alaska.edu/program/sdc</a>&nbsp;,&nbsp;<a class="reference external" href="http://geo-gateway.org/main.html">http://geo-gateway.org/main.html</a></li>
+<li>Use Case 47 Atmospheric Turbulence - Event Discovery and Predictive
+Analytics
+<a class="reference external" href="http://oceanworld.tamu.edu/resources/oceanography-book/teleconnections.htm">http://oceanworld.tamu.edu/resources/oceanography-book/teleconnections.htm</a>
+,
+<a class="reference external" href="http://www.forbes.com/sites/toddwoody/2012/03/21/meet-the-scientists-mining-big-data-to-predict-the-weather/">http://www.forbes.com/sites/toddwoody/2012/03/21/meet-the-scientists-mining-big-data-to-predict-the-weather/</a></li>
+<li>Use Case 48 Climate Studies using the Community Earth System Model at
+DOE.s NERSC center
+<a class="reference external" href="http://www-pcmdi.llnl.gov/">http://www-pcmdi.llnl.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www.nersc.gov/">http://www.nersc.gov/</a>&nbsp;,&nbsp;<a class="reference external" href="http://science.energy.gov/ber/research/cesd/">http://science.energy.gov/ber/research/cesd/</a>&nbsp;,&nbsp;<a class="reference external" href="http://www2.cisl.ucar.edu/">http://www2.cisl.ucar.edu/</a></li>
+<li>Use Case 50 DOE-BER AmeriFlux and FLUXNET Networks
+<a class="reference external" href="http://ameriflux.lbl.gov/">http://ameriflux.lbl.gov/</a> , <a class="reference external" href="http://www.fluxdata.org/default.aspx">http://www.fluxdata.org/default.aspx</a></li>
+<li>Use Case 51 Consumption forecasting in Smart Grids
+<a class="reference external" href="http://smartgrid.usc.edu/">http://smartgrid.usc.edu/</a>&nbsp;,&nbsp;<a class="reference external" href="http://ganges.usc.edu/wiki/Smart_Grid">http://ganges.usc.edu/wiki/Smart_Grid</a>&nbsp;,&nbsp;<a class="reference external" href="https://www.ladwp.com/ladwp/faces/ladwp/aboutus/a-power/a-p-smartgridla?_afrLoop=157401916661989&amp;_afrWindowMode=0&amp;_afrWindowId=null#%40%3F_afrWindowId%3Dnull%26_afrLoop%3D157401916661989%26_afrWindowMode%3D0%26_adf.ctrl-state%3Db7yulr4rl_17">https://www.ladwp.com/ladwp/faces/ladwp/aboutus/a-power/a-p-smartgridla?_afrLoop=157401916661989&amp;_afrWindowMode=0&amp;_afrWindowId=null#%40%3F_afrWindowId%3Dnull%26_afrLoop%3D157401916661989%26_afrWindowMode%3D0%26_adf.ctrl-state%3Db7yulr4rl_17</a>&nbsp;,&nbsp;<a class="reference external" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6475927">http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6475927</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="features-of-51-big-data-use-cases">
+<h2>11.3. Features of 51 Big Data Use Cases<a class="headerlink" href="#features-of-51-big-data-use-cases" title="Permalink to this headline">¶</a></h2>
+<p>This unit discusses the categories used to classify the 51 use-cases. These categories include concepts used for parallelism and low and high level computational structure. The first lesson is an introduction to all categories and the further lessons give details of particular categories.</p>
+<p>Slides: <a class="reference external" href="https://iu.app.box.com/s/azpn47brv4o46iij9xvb">https://iu.app.box.com/s/azpn47brv4o46iij9xvb</a></p>
+<div class="section" id="summary-of-use-case-classification-i">
+<h3>11.3.1. Summary of Use Case Classification I<a class="headerlink" href="#summary-of-use-case-classification-i" title="Permalink to this headline">¶</a></h3>
+<p>This discusses concepts used for parallelism and low and high level
+computational structure. Parallelism can be over People (users or
+subjects), Decision makers; Items such as Images, EMR, Sequences;
+observations, contents of online store; Sensors – Internet of Things;
+Events; (Complex) Nodes in a Graph; Simple nodes as in a learning
+network; Tweets, Blogs, Documents, Web Pages etc.; Files or data to be
+backed up, moved or assigned metadata; Particles/cells/mesh
+points. Low level computational types include PP (Pleasingly
+Parallel); MR (MapReduce); MRStat; MRIter (Iterative MapReduce);
+Graph; Fusion; MC (Monte Carlo) and Streaming. High level
+computational types include Classification; S/Q (Search and Query);
+Index; CF (Collaborative Filtering); ML (Machine Learning); EGO (Large
+Scale Optimizations); EM (Expectation maximization); GIS; HPC;
+Agents. Patterns include Classic Database; NoSQL; Basic processing of
+data as in backup or metadata; GIS; Host of Sensors processed on
+demand; Pleasingly parallel processing; HPC assimilated with
+observational data; Agent-based models; Multi-modal data fusion or
+Knowledge Management; Crowd Sourcing.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/dfgH6YvHCGE">http://youtu.be/dfgH6YvHCGE</a></p>
+</div>
+<div class="section" id="summary-of-use-case-classification-ii">
+<h3>11.3.2. Summary of Use Case Classification II<a class="headerlink" href="#summary-of-use-case-classification-ii" title="Permalink to this headline">¶</a></h3>
+<p>This discusses concepts used for parallelism and low and high level
+computational structure. Parallelism can be over People (users or
+subjects), Decision makers; Items such as Images, EMR, Sequences;
+observations, contents of online store; Sensors – Internet of Things;
+Events; (Complex) Nodes in a Graph; Simple nodes as in a learning
+network; Tweets, Blogs, Documents, Web Pages etc.; Files or data to be
+backed up, moved or assigned metadata; Particles/cells/mesh
+points. Low level computational types include PP (Pleasingly
+Parallel); MR (MapReduce); MRStat; MRIter (Iterative MapReduce);
+Graph; Fusion; MC (Monte Carlo) and Streaming. High level
+computational types include Classification; S/Q (Search and Query);
+Index; CF (Collaborative Filtering); ML (Machine Learning); EGO (Large
+Scale Optimizations); EM (Expectation maximization); GIS; HPC;
+Agents. Patterns include Classic Database; NoSQL; Basic processing of
+data as in backup or metadata; GIS; Host of Sensors processed on
+demand; Pleasingly parallel processing; HPC assimilated with
+observational data; Agent-based models; Multi-modal data fusion or
+Knowledge Management; Crowd Sourcing.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/TjHus5-HaMQ">http://youtu.be/TjHus5-HaMQ</a></p>
+</div>
+<div class="section" id="summary-of-use-case-classification-iii">
+<h3>11.3.3. Summary of Use Case Classification III<a class="headerlink" href="#summary-of-use-case-classification-iii" title="Permalink to this headline">¶</a></h3>
+<p>This discusses concepts used for parallelism and low and high level
+computational structure. Parallelism can be over People (users or
+subjects), Decision makers; Items such as Images, EMR, Sequences;
+observations, contents of online store; Sensors – Internet of Things;
+Events; (Complex) Nodes in a Graph; Simple nodes as in a learning
+network; Tweets, Blogs, Documents, Web Pages etc.; Files or data to be
+backed up, moved or assigned metadata; Particles/cells/mesh
+points. Low level computational types include PP (Pleasingly
+Parallel); MR (MapReduce); MRStat; MRIter (Iterative MapReduce);
+Graph; Fusion; MC (Monte Carlo) and Streaming. High level
+computational types include Classification; S/Q (Search and Query);
+Index; CF (Collaborative Filtering); ML (Machine Learning); EGO (Large
+Scale Optimizations); EM (Expectation maximization); GIS; HPC;
+Agents. Patterns include Classic Database; NoSQL; Basic processing of
+data as in backup or metadata; GIS; Host of Sensors processed on
+demand; Pleasingly parallel processing; HPC assimilated with
+observational data; Agent-based models; Multi-modal data fusion or
+Knowledge Management; Crowd Sourcing.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/EbuNBbt4rQc">http://youtu.be/EbuNBbt4rQc</a></p>
+</div>
+<div class="section" id="database-sql-use-case-classification">
+<h3>11.3.4. Database(SQL) Use Case Classification<a class="headerlink" href="#database-sql-use-case-classification" title="Permalink to this headline">¶</a></h3>
+<p>This discusses classic (SQL) datbase approach to data handling with
+Search&amp;Query and Index features. Comparisons are made to NoSQL
+approaches.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/8QDcUWjA9Ok">http://youtu.be/8QDcUWjA9Ok</a></p>
+</div>
+<div class="section" id="nosql-use-case-classification">
+<h3>11.3.5. NoSQL Use Case Classification<a class="headerlink" href="#nosql-use-case-classification" title="Permalink to this headline">¶</a></h3>
+<p>This discusses NoSQL (compared in previous lesson) with HDFS, Hadoop
+and Hbase. The Apache Big data stack is introduced and further details
+of comparison with SQL.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/aJ127gkHQUs">http://youtu.be/aJ127gkHQUs</a></p>
+</div>
+<div class="section" id="use-case-classifications-i">
+<h3>11.3.6. Use Case Classifications I<a class="headerlink" href="#use-case-classifications-i" title="Permalink to this headline">¶</a></h3>
+<p>This discusses a subset of use case features: GIS, Sensors. the
+support of data analysis and fusion by streaming data between filters.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/STAoaS1T2bM">http://youtu.be/STAoaS1T2bM</a></p>
+</div>
+<div class="section" id="use-case-classifications-ii-part-1">
+<h3>11.3.7. Use Case Classifications II Part 1<a class="headerlink" href="#use-case-classifications-ii-part-1" title="Permalink to this headline">¶</a></h3>
+<p>This discusses a subset of use case features: Pleasingly parallel,
+MRStat, Data Assimilation, Crowd sourcing, Agents, data fusion and
+agents, EGO and security.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/_tJRzG-jS4A">http://youtu.be/_tJRzG-jS4A</a></p>
+</div>
+<div class="section" id="use-case-classifications-ii-part-2">
+<h3>11.3.8. Use Case Classifications II Part 2<a class="headerlink" href="#use-case-classifications-ii-part-2" title="Permalink to this headline">¶</a></h3>
+<p>This discusses a subset of use case features: Pleasingly parallel,
+MRStat, Data Assimilation, Crowd sourcing, Agents, data fusion and
+agents, EGO and security.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/5iHdzMNviZo">http://youtu.be/5iHdzMNviZo</a></p>
+</div>
+<div class="section" id="use-case-classifications-iii-part-1">
+<h3>11.3.9. Use Case Classifications III Part 1<a class="headerlink" href="#use-case-classifications-iii-part-1" title="Permalink to this headline">¶</a></h3>
+<p>This discusses a subset of use case features: Classification, Monte
+Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and
+local analytics (machine learning), parallel computing, Expectation
+Maximization, graphs and Collaborative Filtering.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/tITbuwCRVzs">http://youtu.be/tITbuwCRVzs</a></p>
+</div>
+<div class="section" id="use-case-classifications-iii-part-2">
+<h3>11.3.10. Use Case Classifications III Part 2<a class="headerlink" href="#use-case-classifications-iii-part-2" title="Permalink to this headline">¶</a></h3>
+<p>This discusses a subset of use case features: Classification, Monte
+Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and
+local analytics (machine learning), parallel computing, Expectation
+Maximization, graphs and Collaborative Filtering.</p>
+<p>Video: <a class="reference external" href="http://youtu.be/0zaXWo8A4Co">http://youtu.be/0zaXWo8A4Co</a></p>
+</div>
+<div class="section" id="id2">
+<h3>11.3.11. Resources<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>See previous section</p>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

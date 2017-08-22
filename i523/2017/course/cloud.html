@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>21. Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated) &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="22. Technology Training - kNN &amp; Clustering" href="clustering.html" />
+    <link rel="prev" title="20. OUTDATED: Technology Training - Python &amp; FutureSystems" href="python.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../index.html">i523</a></li>
+                <li><a href="../../../lesson/index.html">Lessons</a></li>
+                <li><a href="../../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">21. Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated)</a><ul>
+<li><a class="reference internal" href="#parallel-computing-overview-of-basic-principles-with-familiar-examples">21.1. Parallel Computing: Overview of Basic Principles with familiar Examples</a><ul>
+<li><a class="reference internal" href="#decomposition">21.1.1. Decomposition</a></li>
+<li><a class="reference internal" href="#parallel-computing-in-society">21.1.2. Parallel Computing in Society</a></li>
+<li><a class="reference internal" href="#parallel-processing-for-hadrian-s-wall">21.1.3. Parallel Processing for Hadrian’s Wall</a></li>
+<li><a class="reference internal" href="#resources">21.1.4. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cloud-computing-technology-part-i-introduction">21.2. Cloud Computing Technology Part I: Introduction</a><ul>
+<li><a class="reference internal" href="#cyberinfrastructure-for-e-moreorlessanything">21.2.1. Cyberinfrastructure for E-MoreOrLessAnything</a></li>
+<li><a class="reference internal" href="#what-is-cloud-computing-introduction">21.2.2. What is Cloud Computing: Introduction</a></li>
+<li><a class="reference internal" href="#what-and-why-is-cloud-computing-several-other-views-i">21.2.3. What and Why is Cloud Computing: Several Other Views I</a></li>
+<li><a class="reference internal" href="#gartner-s-emerging-technology-landscape-for-clouds-and-big-data">21.2.4. Gartner’s Emerging Technology Landscape for Clouds and Big Data</a></li>
+<li><a class="reference internal" href="#simple-examples-of-use-of-cloud-computing">21.2.5. Simple Examples of use of Cloud Computing</a></li>
+<li><a class="reference internal" href="#value-of-cloud-computing">21.2.6. Value of Cloud Computing</a></li>
+<li><a class="reference internal" href="#id1">21.2.7. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cloud-computing-technology-part-ii-software-and-systems">21.3. Cloud Computing Technology Part II: Software and Systems</a><ul>
+<li><a class="reference internal" href="#what-is-cloud-computing">21.3.1. What is Cloud Computing</a></li>
+<li><a class="reference internal" href="#introduction-to-cloud-software-architecture-iaas-and-paas-i">21.3.2. Introduction to Cloud Software Architecture: IaaS and PaaS I</a></li>
+<li><a class="reference internal" href="#introduction-to-cloud-software-architecture-iaas-and-paas-ii">21.3.3. Introduction to Cloud Software Architecture: IaaS and PaaS II</a></li>
+<li><a class="reference internal" href="#using-the-hpc-abds-software-stack">21.3.4. Using the HPC-ABDS Software Stack</a></li>
+<li><a class="reference internal" href="#id2">21.3.5. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cloud-computing-technology-part-iii-architectures-applications-and-systems">21.4. Cloud Computing Technology Part III: Architectures, Applications and Systems</a><ul>
+<li><a class="reference internal" href="#cloud-data-center-architectures">21.4.1. Cloud (Data Center) Architectures</a></li>
+<li><a class="reference internal" href="#analysis-of-major-cloud-providers">21.4.2. Analysis of Major Cloud Providers</a></li>
+<li><a class="reference internal" href="#commercial-cloud-storage-trends">21.4.3. Commercial Cloud Storage Trends</a></li>
+<li><a class="reference internal" href="#cloud-applications-i">21.4.4. Cloud Applications I</a></li>
+<li><a class="reference internal" href="#science-clouds">21.4.5. Science Clouds</a></li>
+<li><a class="reference internal" href="#security">21.4.6. Security</a></li>
+<li><a class="reference internal" href="#comments-on-fault-tolerance-and-synchronicity-constraints">21.4.7. Comments on Fault Tolerance and Synchronicity Constraints</a></li>
+<li><a class="reference internal" href="#id3">21.4.8. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cloud-computing-technology-part-iv-data-systems">21.5. Cloud Computing Technology Part IV: Data Systems</a><ul>
+<li><a class="reference internal" href="#the-10-interaction-scenarios-access-patterns-i">21.5.1. The 10 Interaction scenarios (access patterns) I</a></li>
+<li><a class="reference internal" href="#the-10-interaction-scenarios-science-examples">21.5.2. The 10 Interaction scenarios. Science Examples</a></li>
+<li><a class="reference internal" href="#remaining-general-access-patterns">21.5.3. Remaining general access patterns</a></li>
+<li><a class="reference internal" href="#data-in-the-cloud">21.5.4. Data in the Cloud</a></li>
+<li><a class="reference internal" href="#applications-processing-big-data">21.5.5. Applications Processing Big Data</a></li>
+<li><a class="reference internal" href="#id4">21.5.6. Resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">I523 Big Data Applications and Analytics (2017)</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/contributing.html">3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lesson/index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lesson/devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">21. Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated)</a><ul>
+<li><a class="reference internal" href="#parallel-computing-overview-of-basic-principles-with-familiar-examples">21.1. Parallel Computing: Overview of Basic Principles with familiar Examples</a><ul>
+<li><a class="reference internal" href="#decomposition">21.1.1. Decomposition</a></li>
+<li><a class="reference internal" href="#parallel-computing-in-society">21.1.2. Parallel Computing in Society</a></li>
+<li><a class="reference internal" href="#parallel-processing-for-hadrian-s-wall">21.1.3. Parallel Processing for Hadrian’s Wall</a></li>
+<li><a class="reference internal" href="#resources">21.1.4. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cloud-computing-technology-part-i-introduction">21.2. Cloud Computing Technology Part I: Introduction</a><ul>
+<li><a class="reference internal" href="#cyberinfrastructure-for-e-moreorlessanything">21.2.1. Cyberinfrastructure for E-MoreOrLessAnything</a></li>
+<li><a class="reference internal" href="#what-is-cloud-computing-introduction">21.2.2. What is Cloud Computing: Introduction</a></li>
+<li><a class="reference internal" href="#what-and-why-is-cloud-computing-several-other-views-i">21.2.3. What and Why is Cloud Computing: Several Other Views I</a></li>
+<li><a class="reference internal" href="#gartner-s-emerging-technology-landscape-for-clouds-and-big-data">21.2.4. Gartner’s Emerging Technology Landscape for Clouds and Big Data</a></li>
+<li><a class="reference internal" href="#simple-examples-of-use-of-cloud-computing">21.2.5. Simple Examples of use of Cloud Computing</a></li>
+<li><a class="reference internal" href="#value-of-cloud-computing">21.2.6. Value of Cloud Computing</a></li>
+<li><a class="reference internal" href="#id1">21.2.7. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cloud-computing-technology-part-ii-software-and-systems">21.3. Cloud Computing Technology Part II: Software and Systems</a><ul>
+<li><a class="reference internal" href="#what-is-cloud-computing">21.3.1. What is Cloud Computing</a></li>
+<li><a class="reference internal" href="#introduction-to-cloud-software-architecture-iaas-and-paas-i">21.3.2. Introduction to Cloud Software Architecture: IaaS and PaaS I</a></li>
+<li><a class="reference internal" href="#introduction-to-cloud-software-architecture-iaas-and-paas-ii">21.3.3. Introduction to Cloud Software Architecture: IaaS and PaaS II</a></li>
+<li><a class="reference internal" href="#using-the-hpc-abds-software-stack">21.3.4. Using the HPC-ABDS Software Stack</a></li>
+<li><a class="reference internal" href="#id2">21.3.5. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cloud-computing-technology-part-iii-architectures-applications-and-systems">21.4. Cloud Computing Technology Part III: Architectures, Applications and Systems</a><ul>
+<li><a class="reference internal" href="#cloud-data-center-architectures">21.4.1. Cloud (Data Center) Architectures</a></li>
+<li><a class="reference internal" href="#analysis-of-major-cloud-providers">21.4.2. Analysis of Major Cloud Providers</a></li>
+<li><a class="reference internal" href="#commercial-cloud-storage-trends">21.4.3. Commercial Cloud Storage Trends</a></li>
+<li><a class="reference internal" href="#cloud-applications-i">21.4.4. Cloud Applications I</a></li>
+<li><a class="reference internal" href="#science-clouds">21.4.5. Science Clouds</a></li>
+<li><a class="reference internal" href="#security">21.4.6. Security</a></li>
+<li><a class="reference internal" href="#comments-on-fault-tolerance-and-synchronicity-constraints">21.4.7. Comments on Fault Tolerance and Synchronicity Constraints</a></li>
+<li><a class="reference internal" href="#id3">21.4.8. Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cloud-computing-technology-part-iv-data-systems">21.5. Cloud Computing Technology Part IV: Data Systems</a><ul>
+<li><a class="reference internal" href="#the-10-interaction-scenarios-access-patterns-i">21.5.1. The 10 Interaction scenarios (access patterns) I</a></li>
+<li><a class="reference internal" href="#the-10-interaction-scenarios-science-examples">21.5.2. The 10 Interaction scenarios. Science Examples</a></li>
+<li><a class="reference internal" href="#remaining-general-access-patterns">21.5.3. Remaining general access patterns</a></li>
+<li><a class="reference internal" href="#data-in-the-cloud">21.5.4. Data in the Cloud</a></li>
+<li><a class="reference internal" href="#applications-processing-big-data">21.5.5. Applications Processing Big Data</a></li>
+<li><a class="reference internal" href="#id4">21.5.6. Resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Web Links</b>
+<ul>
+    <li><a href="https://cloudmesh.github.io/classes/i523/2017">i523</a> </li>  
+    <li><a href="https://cloudmesh.github.io/classes/i524">i524</a> </li>  
+
+  </ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="cloud-computing-technology-for-big-data-applications-analytics-will-be-updated">
+<span id="s11"></span><h1>21. Cloud Computing Technology for Big Data Applications &amp; Analytics (will be updated)<a class="headerlink" href="#cloud-computing-technology-for-big-data-applications-analytics-will-be-updated" title="Permalink to this headline">¶</a></h1>
+<p>We describe the central role of Parallel computing in Clouds and Big
+Data which is decomposed into lots of ‘’Little data’’ running in
+individual cores. Many examples are given and it is stressed that
+issues in parallel computing are seen in day to day life for
+communication, synchronization, load balancing and
+decomposition. Cyberinfrastructure for e-moreorlessanything or
+moreorlessanything-Informatics and the basics of cloud computing are
+introduced. This includes virtualization and the important ‘’as a
+Service’’ components and we go through several different definitions
+of cloud computing.</p>
+<p>Gartner’s Technology Landscape includes hype cycle and priority matrix
+and covers clouds and Big Data. Two simple examples of the value of
+clouds for enterprise applications are given with a review of
+different views as to nature of Cloud Computing. This IaaS
+(Infrastructure as a Service) discussion is followed by PaaS and SaaS
+(Platform and Software as a Service). Features in Grid and cloud
+computing and data are treated. We summarize the 21 layers and almost
+300 software packages in the HPC-ABDS Software Stack explaining how
+they are used.</p>
+<p>Cloud (Data Center) Architectures with physical setup, Green Computing
+issues and software models are discussed followed by the Cloud
+Industry stakeholders with a 2014 Gartner analysis of Cloud computing
+providers. This is followed by applications on the cloud including
+data intensive problems, comparison with high performance computing,
+science clouds and the Internet of Things. Remarks on Security, Fault
+Tolerance and Synchronicity issues in cloud follow. We describe the
+way users and data interact with a cloud system. The Big Data
+Processing from an application perspective with commercial examples
+including eBay concludes section after a discussion of data system
+architectures.</p>
+<div class="section" id="parallel-computing-overview-of-basic-principles-with-familiar-examples">
+<h2>21.1. Parallel Computing: Overview of Basic Principles with familiar Examples<a class="headerlink" href="#parallel-computing-overview-of-basic-principles-with-familiar-examples" title="Permalink to this headline">¶</a></h2>
+<p>We describe the central role of Parallel computing in Clouds and Big
+Data which is decomposed into lots of ‘’Little data’’ running in
+individual cores. Many examples are given and it is stressed that
+issues in parallel computing are seen in day to day life for
+communication, synchronization, load balancing and decomposition.</p>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Slides: <a class="reference external" href="https://iu.app.box.com/s/nau0rsr39kyej240s4yz">https://iu.app.box.com/s/nau0rsr39kyej240s4yz</a></p>
+<div class="section" id="decomposition">
+<h3>21.1.1. Decomposition<a class="headerlink" href="#decomposition" title="Permalink to this headline">¶</a></h3>
+<p>We describe why parallel computing is essential with Big Data
+and distinguishes parallelism over users to that over the data in
+problem. The general ideas behind data decomposition are given
+followed by a few often whimsical examples dreamed up 30 years ago in
+the early heady days of parallel computing. These include scientific
+simulations, defense outside missile attack and computer chess. The
+basic problem of parallel computing – efficient coordination of
+separate tasks processing different data parts – is described with
+MPI and MapReduce as two approaches. The challenges of data
+decomposition in irregular problems is noted.</p>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video 1: <a class="reference external" href="https://youtu.be/R-wHQW2YuRE">https://youtu.be/R-wHQW2YuRE</a></p>
+<p>Video 2: <a class="reference external" href="https://youtu.be/iIi9wdvlwCM">https://youtu.be/iIi9wdvlwCM</a></p>
+<p>Video 3: <a class="reference external" href="https://youtu.be/F0aeeLeTD9I">https://youtu.be/F0aeeLeTD9I</a></p>
+</div>
+<div class="section" id="parallel-computing-in-society">
+<h3>21.1.2. Parallel Computing in Society<a class="headerlink" href="#parallel-computing-in-society" title="Permalink to this headline">¶</a></h3>
+<p>This lesson from the past notes that one can view society as an
+approach to parallel linkage of people. The largest example given is
+that of the construction of a long wall such as that (Hadrian’s wall)
+between England and Scotland. Different approaches to parallelism are
+given with formulae for the speed up and efficiency. The concepts of
+grain size (size of problem tackled by an individual processor) and
+coordination overhead are exemplified. This example also illustrates
+Amdahl’s law and the relation between data and processor topology. The
+lesson concludes with other examples from nature including collections
+of neurons (the brain) and ants.</p>
+<div class="admonition-todo admonition" id="index-2">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video 1: <a class="reference external" href="https://youtu.be/8rtjoe8AeJw">https://youtu.be/8rtjoe8AeJw</a></p>
+<p>Video 2: <a class="reference external" href="https://youtu.be/7sCgH_TTPGk">https://youtu.be/7sCgH_TTPGk</a></p>
+</div>
+<div class="section" id="parallel-processing-for-hadrian-s-wall">
+<h3>21.1.3. Parallel Processing for Hadrian’s Wall<a class="headerlink" href="#parallel-processing-for-hadrian-s-wall" title="Permalink to this headline">¶</a></h3>
+<p>This lesson returns to Hadrian’s wall and uses it to illustrate
+advanced issues in parallel computing. First We describe the
+basic SPMD – Single Program Multiple Data – model. Then irregular
+but homogeneous and heterogeneous problems are discussed. Static and
+dynamic load balancing is needed. Inner parallelism (as in vector
+instruction or the multiple fingers of masons) and outer parallelism
+(typical data parallelism) are demonstrated. Parallel I/O for
+Hadrian’s wall is followed by a slide summarizing this quaint
+comparison between Big data parallelism and the construction of a
+large wall.</p>
+<div class="admonition-todo admonition" id="index-3">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/ZD2AQ08cy8I">https://youtu.be/ZD2AQ08cy8I</a></p>
+</div>
+<div class="section" id="resources">
+<h3>21.1.4. Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Solving Problems in Concurrent Processors-Volume 1,
+with M. Johnson, G. Lyzenga, S. Otto, J. Salmon, D. Walker, Prentice
+Hall, March 1988.</li>
+<li>Parallel Computing Works!, with P. Messina, R. Williams, Morgan
+Kaufman (1994). <a class="reference external" href="http://www.netlib.org/utk/lsi/pcwLSI/text/">http://www.netlib.org/utk/lsi/pcwLSI/text/</a></li>
+<li>The Sourcebook of Parallel Computing book edited by Jack Dongarra,
+Ian Foster, Geoffrey Fox, William Gropp, Ken Kennedy, Linda Torczon,
+and Andy White, Morgan Kaufmann, November 2002.</li>
+<li>Geoffrey Fox Computational Sciences and Parallelism to appear in
+Encyclopedia on Parallel Computing edited by David Padua and
+published by
+Springer. <a class="reference external" href="http://grids.ucs.indiana.edu/ptliupages/publications/SpringerEncyclopedia_Fox.pdf">http://grids.ucs.indiana.edu/ptliupages/publications/SpringerEncyclopedia_Fox.pdf</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cloud-computing-technology-part-i-introduction">
+<h2>21.2. Cloud Computing Technology Part I: Introduction<a class="headerlink" href="#cloud-computing-technology-part-i-introduction" title="Permalink to this headline">¶</a></h2>
+<p>We discuss Cyberinfrastructure for e-moreorlessanything or
+moreorlessanything-Informatics and the basics of cloud computing. This
+includes virtualization and the important ‘as a Service’ components
+and we go through several different definitions of cloud
+computing.Gartner’s Technology Landscape includes hype cycle and
+priority matrix and covers clouds and Big Data. The unit concludes
+with two simple examples of the value of clouds for enterprise
+applications. Gartner also has specific predictions for cloud
+computing growth areas.</p>
+<div class="admonition-todo admonition" id="index-4">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Slides: <a class="reference external" href="https://iu.app.box.com/s/p3lztuu9kv240pdm66141or9b8p1uvzb">https://iu.app.box.com/s/p3lztuu9kv240pdm66141or9b8p1uvzb</a></p>
+<div class="section" id="cyberinfrastructure-for-e-moreorlessanything">
+<h3>21.2.1. Cyberinfrastructure for E-MoreOrLessAnything<a class="headerlink" href="#cyberinfrastructure-for-e-moreorlessanything" title="Permalink to this headline">¶</a></h3>
+<p>This introduction describes Cyberinfrastructure or e-infrastructure
+and its role in solving the electronic implementation of any problem
+where e-moreorlessanything is another term for
+moreorlessanything-Informatics and generalizes early discussion of
+e-Science and e-Business.</p>
+<div class="admonition-todo admonition" id="index-5">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/gHz0cu195ZM">https://youtu.be/gHz0cu195ZM</a></p>
+</div>
+<div class="section" id="what-is-cloud-computing-introduction">
+<h3>21.2.2. What is Cloud Computing: Introduction<a class="headerlink" href="#what-is-cloud-computing-introduction" title="Permalink to this headline">¶</a></h3>
+<p>Cloud Computing is introduced with an operational definition involving
+virtualization and efficient large data centers that can rent
+computers in an elastic fashion. The role of services is essential –
+it underlies capabilities being offered in the cloud. The four basic
+aaS’s – Software (SaaS), Platform (Paas), Infrastructure (IaaS) and
+Network (NaaS) – are introduced with Research aaS and other
+capabilities (for example Sensors aaS are discussed later) being built
+on top of these.</p>
+<div class="admonition-todo admonition" id="index-6">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/Od_mYXRs5As">https://youtu.be/Od_mYXRs5As</a></p>
+</div>
+<div class="section" id="what-and-why-is-cloud-computing-several-other-views-i">
+<h3>21.2.3. What and Why is Cloud Computing: Several Other Views I<a class="headerlink" href="#what-and-why-is-cloud-computing-several-other-views-i" title="Permalink to this headline">¶</a></h3>
+<p>This lesson contains 5 slides with diverse comments on ‘’what is cloud
+computing’’ from the web.</p>
+<div class="admonition-todo admonition" id="index-7">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video 1: <a class="reference external" href="https://youtu.be/5VeqMjXKU_Y">https://youtu.be/5VeqMjXKU_Y</a></p>
+<p>Video 2: <a class="reference external" href="https://youtu.be/J963LR0PS_g">https://youtu.be/J963LR0PS_g</a></p>
+<p>Video 3: <a class="reference external" href="https://youtu.be/_ryLXUnOAzo">https://youtu.be/_ryLXUnOAzo</a></p>
+</div>
+<div class="section" id="gartner-s-emerging-technology-landscape-for-clouds-and-big-data">
+<h3>21.2.4. Gartner’s Emerging Technology Landscape for Clouds and Big Data<a class="headerlink" href="#gartner-s-emerging-technology-landscape-for-clouds-and-big-data" title="Permalink to this headline">¶</a></h3>
+<p>This lesson gives Gartner’s projections around futures of cloud and
+Big data. We start with a review of hype charts and then go into
+detailed Gartner analyses of the Cloud and Big data areas. Big data
+itself is at the top of the hype and by definition predictions of doom
+are emerging. Before too much excitement sets in, note that spinach is
+above clouds and Big data in Google trends.</p>
+<div class="admonition-todo admonition" id="index-8">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/N7aEtU1mUwc">https://youtu.be/N7aEtU1mUwc</a></p>
+</div>
+<div class="section" id="simple-examples-of-use-of-cloud-computing">
+<h3>21.2.5. Simple Examples of use of Cloud Computing<a class="headerlink" href="#simple-examples-of-use-of-cloud-computing" title="Permalink to this headline">¶</a></h3>
+<p>This short lesson gives two examples of rather straightforward
+commercial applications of cloud computing. One is server
+consolidation for multiple Microsoft database applications and the
+second is the benefits of scale comparing gmail to multiple smaller
+installations. It ends with some fiscal comments.</p>
+<div class="admonition-todo admonition" id="index-9">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/VCctCP6BKEo">https://youtu.be/VCctCP6BKEo</a></p>
+</div>
+<div class="section" id="value-of-cloud-computing">
+<h3>21.2.6. Value of Cloud Computing<a class="headerlink" href="#value-of-cloud-computing" title="Permalink to this headline">¶</a></h3>
+<p>Some comments on fiscal value of cloud computing.</p>
+<div class="admonition-todo admonition" id="index-10">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/HM1dZCxdsaA">https://youtu.be/HM1dZCxdsaA</a></p>
+</div>
+<div class="section" id="id1">
+<h3>21.2.7. Resources<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing">http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis">http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis</a></li>
+<li><a class="reference external" href="https://setandbma.wordpress.com/2012/08/10/hype-cycle-2012-emerging-technologies/">https://setandbma.wordpress.com/2012/08/10/hype-cycle-2012-emerging-technologies/</a></li>
+<li><a class="reference external" href="http://insights.dice.com/2013/01/23/big-data-hype-is-imploding-gartner-analyst-2/">http://insights.dice.com/2013/01/23/big-data-hype-is-imploding-gartner-analyst-2/</a></li>
+<li><a class="reference external" href="http://research.microsoft.com/pubs/78813/AJ18_EN.pdf">http://research.microsoft.com/pubs/78813/AJ18_EN.pdf</a></li>
+<li><a class="reference external" href="http://static.googleusercontent.com/media/www.google.com/en//green/pdfs/google-green-computing.pdf">http://static.googleusercontent.com/media/www.google.com/en//green/pdfs/google-green-computing.pdf</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cloud-computing-technology-part-ii-software-and-systems">
+<h2>21.3. Cloud Computing Technology Part II: Software and Systems<a class="headerlink" href="#cloud-computing-technology-part-ii-software-and-systems" title="Permalink to this headline">¶</a></h2>
+<p>We cover different views as to nature of architecture and
+application for Cloud Computing. Then we discuss cloud software for
+the cloud starting at virtual machine management (IaaS) and the broad
+Platform (middleware) capabilities with examples from Amazon and
+academic studies. We summarize the 21 layers and almost 300 software
+packages in the HPC-ABDS Software Stack explaining how they are used.</p>
+<div class="admonition-todo admonition" id="index-11">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Slides: <a class="reference external" href="https://iu.app.box.com/s/k61o0ff1w6jkn5zmpaaiw02yth4v4alh">https://iu.app.box.com/s/k61o0ff1w6jkn5zmpaaiw02yth4v4alh</a></p>
+<div class="section" id="what-is-cloud-computing">
+<h3>21.3.1. What is Cloud Computing<a class="headerlink" href="#what-is-cloud-computing" title="Permalink to this headline">¶</a></h3>
+<p>This lesson gives some general remark of cloud systems from an
+architecture and application perspective.</p>
+<div class="admonition-todo admonition" id="index-12">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/h3Rpb0Eyj1c">https://youtu.be/h3Rpb0Eyj1c</a></p>
+</div>
+<div class="section" id="introduction-to-cloud-software-architecture-iaas-and-paas-i">
+<h3>21.3.2. Introduction to Cloud Software Architecture: IaaS and PaaS I<a class="headerlink" href="#introduction-to-cloud-software-architecture-iaas-and-paas-i" title="Permalink to this headline">¶</a></h3>
+<p>We discuss cloud software for the cloud starting at virtual
+machine management (IaaS) and the broad Platform (middleware)
+capabilities with examples from Amazon and academic studies.</p>
+<div class="admonition-todo admonition" id="index-13">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/1AnyJYyh490">https://youtu.be/1AnyJYyh490</a></p>
+</div>
+<div class="section" id="introduction-to-cloud-software-architecture-iaas-and-paas-ii">
+<h3>21.3.3. Introduction to Cloud Software Architecture: IaaS and PaaS II<a class="headerlink" href="#introduction-to-cloud-software-architecture-iaas-and-paas-ii" title="Permalink to this headline">¶</a></h3>
+<p>We cover different views as to nature of architecture and
+application for Cloud Computing. Then we discuss cloud software for
+the cloud starting at virtual machine management (IaaS) and the broad
+Platform (middleware) capabilities with examples from Amazon and
+academic studies. We summarize the 21 layers and almost 300 software
+packages in the HPC-ABDS Software Stack explaining how they are used.</p>
+<div class="admonition-todo admonition" id="index-14">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/hVpFAUHcAd4">https://youtu.be/hVpFAUHcAd4</a></p>
+</div>
+<div class="section" id="using-the-hpc-abds-software-stack">
+<h3>21.3.4. Using the HPC-ABDS Software Stack<a class="headerlink" href="#using-the-hpc-abds-software-stack" title="Permalink to this headline">¶</a></h3>
+<p>Using the HPC-ABDS Software Stack.</p>
+<div class="admonition-todo admonition" id="index-15">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/JuTQdRW78Pg">https://youtu.be/JuTQdRW78Pg</a></p>
+</div>
+<div class="section" id="id2">
+<h3>21.3.5. Resources<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis">http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis</a></li>
+<li><a class="reference external" href="http://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf">http://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf</a></li>
+<li><a class="reference external" href="http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf">http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf</a></li>
+<li><a class="reference external" href="http://cloudonomic.blogspot.com/2009/02/cloud-taxonomy-and-ontology.html">http://cloudonomic.blogspot.com/2009/02/cloud-taxonomy-and-ontology.html</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cloud-computing-technology-part-iii-architectures-applications-and-systems">
+<h2>21.4. Cloud Computing Technology Part III: Architectures, Applications and Systems<a class="headerlink" href="#cloud-computing-technology-part-iii-architectures-applications-and-systems" title="Permalink to this headline">¶</a></h2>
+<p>We start with a discussion of Cloud (Data Center)
+Architectures with physical setup, Green Computing issues and software
+models. We summarize a 2014 Gartner analysis of Cloud computing
+providers. This is followed by applications on the cloud including
+data intensive problems, comparison with high performance computing,
+science clouds and the Internet of Things. Remarks on Security, Fault
+Tolerance and Synchronicity issues in cloud follow.</p>
+<div class="admonition-todo admonition" id="index-16">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Slides: <a class="reference external" href="https://iu.app.box.com/s/0bn57opwe56t0rx4k18bswupfwj7culv">https://iu.app.box.com/s/0bn57opwe56t0rx4k18bswupfwj7culv</a></p>
+<div class="section" id="cloud-data-center-architectures">
+<h3>21.4.1. Cloud (Data Center) Architectures<a class="headerlink" href="#cloud-data-center-architectures" title="Permalink to this headline">¶</a></h3>
+<p>Some remarks on what it takes to build (in software) a cloud ecosystem,
+and why clouds are the data center of the future are followed by
+pictures and discussions of several data centers from Microsoft
+(mainly) and Google. The role of containers is stressed as part of
+modular data centers that trade scalability for fault tolerance. Sizes
+of cloud centers and supercomputers are discussed as is “green”
+computing.</p>
+<div class="admonition-todo admonition" id="index-17">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video 1: <a class="reference external" href="https://youtu.be/j0P32DmQjI8">https://youtu.be/j0P32DmQjI8</a></p>
+<p>Video 2: <a class="reference external" href="https://youtu.be/3HAGqz34AB4">https://youtu.be/3HAGqz34AB4</a></p>
+</div>
+<div class="section" id="analysis-of-major-cloud-providers">
+<h3>21.4.2. Analysis of Major Cloud Providers<a class="headerlink" href="#analysis-of-major-cloud-providers" title="Permalink to this headline">¶</a></h3>
+<p>Gartner 2014 Analysis of leading cloud providers.</p>
+<div class="admonition-todo admonition" id="index-18">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p><a class="reference external" href="https://youtu.be/Tu8hE1SeT28">https://youtu.be/Tu8hE1SeT28</a></p>
+</div>
+<div class="section" id="commercial-cloud-storage-trends">
+<h3>21.4.3. Commercial Cloud Storage Trends<a class="headerlink" href="#commercial-cloud-storage-trends" title="Permalink to this headline">¶</a></h3>
+<p>Use of Dropbox, iCloud, Box etc.</p>
+<div class="admonition-todo admonition" id="index-19">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p><a class="reference external" href="https://youtu.be/i5OI6R526kM">https://youtu.be/i5OI6R526kM</a></p>
+</div>
+<div class="section" id="cloud-applications-i">
+<h3>21.4.4. Cloud Applications I<a class="headerlink" href="#cloud-applications-i" title="Permalink to this headline">¶</a></h3>
+<p>This short lesson discusses the need for security and issues in its
+implementation. Clouds trade scalability for greater possibility of
+faults but here clouds offer good support for recovery from faults. We
+discuss both storage and program fault tolerance noting that parallel
+computing is especially sensitive to faults as a fault in one task
+will impact all other tasks in the parallel job.</p>
+<div class="admonition-todo admonition" id="index-20">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video 1: <a class="reference external" href="https://youtu.be/nkeSOMTGbbo">https://youtu.be/nkeSOMTGbbo</a></p>
+<p>Video 2: <a class="reference external" href="https://youtu.be/ORd3aBhc2Rc">https://youtu.be/ORd3aBhc2Rc</a></p>
+</div>
+<div class="section" id="science-clouds">
+<h3>21.4.5. Science Clouds<a class="headerlink" href="#science-clouds" title="Permalink to this headline">¶</a></h3>
+<p>Science Applications and Internet of Things.</p>
+<div class="admonition-todo admonition" id="index-21">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p><a class="reference external" href="https://youtu.be/2PDvpZluyvs">https://youtu.be/2PDvpZluyvs</a></p>
+</div>
+<div class="section" id="security">
+<h3>21.4.6. Security<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h3>
+<p>This short lesson discusses the need for security and issues in its
+implementation.</p>
+<div class="admonition-todo admonition" id="index-22">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p><a class="reference external" href="https://youtu.be/NojXG3fbrEo">https://youtu.be/NojXG3fbrEo</a></p>
+</div>
+<div class="section" id="comments-on-fault-tolerance-and-synchronicity-constraints">
+<h3>21.4.7. Comments on Fault Tolerance and Synchronicity Constraints<a class="headerlink" href="#comments-on-fault-tolerance-and-synchronicity-constraints" title="Permalink to this headline">¶</a></h3>
+<p>Clouds trade scalability for greater possibility of faults but here
+clouds offer good support for recovery from faults. We discuss both
+storage and program fault tolerance noting that parallel computing is
+especially sensitive to faults as a fault in one task will impact all
+other tasks in the parallel job.</p>
+<div class="admonition-todo admonition" id="index-23">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p><a class="reference external" href="https://youtu.be/OMZiSiN7dlU">https://youtu.be/OMZiSiN7dlU</a></p>
+</div>
+<div class="section" id="id3">
+<h3>21.4.8. Resources<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing">http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing</a></li>
+<li><a class="reference external" href="http://www.eweek.com/c/a/Cloud-Computing/AWS-Innovation-Means-Cloud-Domination-307831">http://www.eweek.com/c/a/Cloud-Computing/AWS-Innovation-Means-Cloud-Domination-307831</a></li>
+<li>CSTI General Assembly 2012, Washington, D.C., USA Technical Activities Coordinating Committee (TACC) Meeting, Data Management, Cloud Computing and the Long Tail of Science October 2012 Dennis Gannon.</li>
+<li><a class="reference external" href="http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf">http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf</a></li>
+<li><a class="reference external" href="http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/">http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/</a></li>
+<li><a class="reference external" href="https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/">https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/</a></li>
+<li><a class="reference external" href="http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf">http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis">http://www.slideshare.net/JensNimis/cloud-computing-tutorial-jens-nimis</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus">http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus</a></li>
+<li><a class="reference external" href="http://www.venus-c.eu/Pages/Home.aspx">http://www.venus-c.eu/Pages/Home.aspx</a></li>
+<li>Geoffrey Fox and Dennis Gannon Using Clouds for Technical Computing To be published in Proceedings of HPC 2012 Conference at Cetraro, Italy June 28 2012 <a class="reference external" href="http://grids.ucs.indiana.edu/ptliupages/publications/Clouds_Technical_Computing_FoxGannonv2.pdf">http://grids.ucs.indiana.edu/ptliupages/publications/Clouds_Technical_Computing_FoxGannonv2.pdf</a></li>
+<li><a class="reference external" href="https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf">https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf</a></li>
+<li>Taming The Big Data Tidal Wave: Finding Opportunities in Huge Data Streams with Advanced Analytics, Bill Franks Wiley ISBN: 978-1-118-20878-6</li>
+<li>Anjul Bhambhri, VP of Big Data, IBM <a class="reference external" href="http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html">http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html</a></li>
+<li>Conquering Big Data with the Oracle Information Model, Helen Sun, Oracle</li>
+<li>Hugh Williams VP Experience, Search &amp; Platforms, eBay <a class="reference external" href="http://businessinnovation.berkeley.edu/fisher-cio-leadership-program/">http://businessinnovation.berkeley.edu/fisher-cio-leadership-program/</a></li>
+<li>Dennis Gannon, Scientific Computing Environments, <a class="reference external" href="http://www.nitrd.gov/nitrdgroups/images/7/73/D_Gannon_2025_scientific_computing_environments.pdf">http://www.nitrd.gov/nitrdgroups/images/7/73/D_Gannon_2025_scientific_computing_environments.pdf</a></li>
+<li><a class="reference external" href="http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf">http://research.microsoft.com/en-us/um/redmond/events/cloudfutures2012/tuesday/Keynote_OpportunitiesAndChallenges_Yousef_Khalidi.pdf</a></li>
+<li><a class="reference external" href="http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/">http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/</a></li>
+<li><a class="reference external" href="https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/">https://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/</a></li>
+<li><a class="reference external" href="http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf">http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf</a></li>
+<li><a class="reference external" href="http://searchcloudcomputing.techtarget.com/feature/Cloud-computing-experts-forecast-the-market-climate-in-2014">http://searchcloudcomputing.techtarget.com/feature/Cloud-computing-experts-forecast-the-market-climate-in-2014</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus">http://www.slideshare.net/botchagalupe/introduction-to-clouds-cloud-camp-columbus</a></li>
+<li><a class="reference external" href="http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing">http://www.slideshare.net/woorung/trend-and-future-of-cloud-computing</a></li>
+<li><a class="reference external" href="http://www.venus-c.eu/Pages/Home.aspx">http://www.venus-c.eu/Pages/Home.aspx</a></li>
+<li><a class="reference external" href="http://www.kpcb.com/internet-trends">http://www.kpcb.com/internet-trends</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cloud-computing-technology-part-iv-data-systems">
+<h2>21.5. Cloud Computing Technology Part IV: Data Systems<a class="headerlink" href="#cloud-computing-technology-part-iv-data-systems" title="Permalink to this headline">¶</a></h2>
+<p>We describe the way users and data interact with a cloud system. The
+unit concludes with the treatment of data in the cloud from an
+architecture perspective and Big Data Processing from an application
+perspective with commercial examples including eBay.</p>
+<div class="admonition-todo admonition" id="index-24">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Slides: <a class="reference external" href="https://iu.app.box.com/s/ftfpybxm8jzjepzp409vgair1fttv3m1">https://iu.app.box.com/s/ftfpybxm8jzjepzp409vgair1fttv3m1</a></p>
+<div class="section" id="the-10-interaction-scenarios-access-patterns-i">
+<h3>21.5.1. The 10 Interaction scenarios (access patterns) I<a class="headerlink" href="#the-10-interaction-scenarios-access-patterns-i" title="Permalink to this headline">¶</a></h3>
+<p>The next 3 lessons describe the way users and data interact with the
+system.</p>
+<div class="admonition-todo admonition" id="index-25">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/vB4rCNri_P0">https://youtu.be/vB4rCNri_P0</a></p>
+</div>
+<div class="section" id="the-10-interaction-scenarios-science-examples">
+<h3>21.5.2. The 10 Interaction scenarios. Science Examples<a class="headerlink" href="#the-10-interaction-scenarios-science-examples" title="Permalink to this headline">¶</a></h3>
+<p>This lesson describes the way users and data interact with the system
+for some science examples.</p>
+<div class="admonition-todo admonition" id="index-26">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/cFX1PQpiSbk">https://youtu.be/cFX1PQpiSbk</a></p>
+</div>
+<div class="section" id="remaining-general-access-patterns">
+<h3>21.5.3. Remaining general access patterns<a class="headerlink" href="#remaining-general-access-patterns" title="Permalink to this headline">¶</a></h3>
+<p>This lesson describe the way users and data interact with the system
+for the final set of examples.</p>
+<div class="admonition-todo admonition" id="index-27">
+<p class="first admonition-title">Todo</p>
+<p class="last">The slides or videos are going to be updated</p>
+</div>
+<p>Video: <a class="reference external" href="https://youtu.be/-dtE9zXB-I0">https://youtu.be/-dtE9zXB-I0</a></p>
+</div>
+<div class="section" id="data-in-the-cloud">
+<h3>21.5.4. Data in the Cloud<a class="headerlink" href="#data-in-the-cloud" title="Permalink to this headline">¶</a></h3>
+<p>Databases, File systems, Object Stores and NOSQL are discussed and
+compared. The way to build a modern data repository in the cloud is
+introduced.</p>
+<div class="admonition-todo admonition" id="index-28">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="https://youtu.be/HdtIOnk3qX4">https://youtu.be/HdtIOnk3qX4</a></p>
+</div>
+</div>
+<div class="section" id="applications-processing-big-data">
+<h3>21.5.5. Applications Processing Big Data<a class="headerlink" href="#applications-processing-big-data" title="Permalink to this headline">¶</a></h3>
+<p>This lesson collects remarks on Big data processing from several
+sources: Berkeley, Teradata, IBM, Oracle and eBay with architectures
+and application opportunities.</p>
+<div class="admonition-todo admonition" id="index-29">
+<p class="first admonition-title">Todo</p>
+<p>The slides or videos are going to be updated</p>
+<p class="last">Video: <a class="reference external" href="https://youtu.be/d6A2m4GR-hw">https://youtu.be/d6A2m4GR-hw</a></p>
+</div>
+</div>
+<div class="section" id="id4">
+<h3>21.5.6. Resources<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://bigdatawg.nist.gov/_uploadfiles/M0311_v2_2965963213.pdf">http://bigdatawg.nist.gov/_uploadfiles/M0311_v2_2965963213.pdf</a></li>
+<li><a class="reference external" href="https://dzone.com/articles/hadoop-t-etl">https://dzone.com/articles/hadoop-t-etl</a></li>
+<li><a class="reference external" href="http://venublog.com/2013/07/16/hadoop-summit-2013-hive-authorization/">http://venublog.com/2013/07/16/hadoop-summit-2013-hive-authorization/</a></li>
+<li><a class="reference external" href="https://indico.cern.ch/event/214784/session/5/contribution/410">https://indico.cern.ch/event/214784/session/5/contribution/410</a></li>
+<li><a class="reference external" href="http://asd.gsfc.nasa.gov/archive/hubble/a_pdf/news/facts/FS14.pdf">http://asd.gsfc.nasa.gov/archive/hubble/a_pdf/news/facts/FS14.pdf</a></li>
+<li><a class="reference external" href="http://blogs.teradata.com/data-points/announcing-teradata-aster-big-analytics-appliance/">http://blogs.teradata.com/data-points/announcing-teradata-aster-big-analytics-appliance/</a></li>
+<li><a class="reference external" href="http://wikibon.org/w/images/2/20/Cloud-BigData.png">http://wikibon.org/w/images/2/20/Cloud-BigData.png</a></li>
+<li><a class="reference external" href="http://hortonworks.com/hadoop/yarn/">http://hortonworks.com/hadoop/yarn/</a></li>
+<li><a class="reference external" href="https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf">https://berkeleydatascience.files.wordpress.com/2012/01/20120119berkeley.pdf</a></li>
+<li><a class="reference external" href="http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html">http://fisheritcenter.haas.berkeley.edu/Big_Data/index.html</a></li>
+</ul>
+<span class="target" id="s13"></span></div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
