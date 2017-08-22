@@ -3,12 +3,7 @@ Instructors
 
 The course presents lectures in online form given by the instructors
 listed bellow. Many others have helped making this material available
-and may not be listed here. For this class support is provided by
-
-* Gregor von Laszewski (PhD)
-* Geoffrey C. Fox (PhD)
-* Jerome Mitchell (Teaching Assistant)
-* Vibhatha Abeykoon (Teaching Assistant)
+and may not be listed here. 
 
 
 Dr. Gregor von Laszewski
@@ -85,32 +80,32 @@ is a Fellow of APS (Physics) and ACM (Computing).
 Teaching Assistants
 -------------------
 
-Jerome Mitchell
-^^^^^^^^^^^^^^^
+Hyungro Lee
+^^^^^^^^^^^
 
-.. image:: /images/jerome.png
+.. image:: /images/Hyungro.jpg
 
-**Jerome Mitchell** is a Ph.D candidate in computer science at Indiana
-University and is interested in coupling the fields of computer and
-polar science. He has participated in the United State Antarctic
-Program, (USAP), where he collaborated with a multidisciplinary team
-of engineers and scientists to design a mobile robot for harsh polar
-environments to autonomously collect ice sheet data, decrease the
-human footprint of polar expeditions, and enhance measurement
-precision. His current work include: using machine learning techniques
-to help polar scientists identify bedrock and internal layers in radar
-imagery. He has also been involved in facilitating workshops to
-educate faculty and students on the importance of parallel and
-distributed computing at minority-serving institutions.
+**Hyungro Lee** is a PhD candidate in Computer Science at Indiana
+University working with Dr. Geoffrey C. Fox. Prior to beginning the
+PhD program, Hyungro worked as a software engineer in the Cyworld
+Group (social networking platform in South Korea) at SK
+Communications, developing communications platforms including emails,
+texts and messaging at large scale to support over 40 million
+users. From this work he developed an interest in how distributed
+systems achieve scalability and high availability along with managing
+resources efficiently. He is currently working on the FutureSystems
+project to support Big Data Analysis Software Stacks in Virtual
+Clusters. He was also working on the FutureGrid project, an NSF funded
+significant new experimental computing grid and cloud test-bed to the
+research community, together with user supports. His research
+interests are parallel and distributed systems, and cloud computing
 
+Juliet Zerick
+^^^^^^^^^^^^^
 
-Vibhatha Abeykoon
-^^^^^^^^^^^^^^^^^
+.. todo:: Juliet, please add bio
 
-.. image:: /images/vb.png
-     
-**Vibhatha Abeykoon** is a PhD student in the Intelligent Systems Engineering program at
-Indiana University since August 2016. His research interests include
-machine learning, singal processing, source seperation, deep learning, big data and distributed systems. As part of his
-PhD he conducts research with Professor Geoffrey C. Fox and Assistant Professor Minje Kim. His thesis topic is TBD.
+Saber Sheybani
+^^^^^^^^^^^^^^
 
+.. todo:: Saber, please add bio

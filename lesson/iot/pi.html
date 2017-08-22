@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Raspberry PI 3 &#8212; Big Data Classes</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     'Draft',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          classes</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="../../i523/2017/index.html">i523</a></li>
+                <li><a href="../index.html">Lessons</a></li>
+                <li><a href="../../changelog.html">Changes</a></li>
+                <li><a href="https://github.com/cloudmesh/classes">Fork</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">2.3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Raspberry PI 3</a><ul>
+<li><a class="reference internal" href="#raspbery-pi-for-iot-gregor">Raspbery PI for IOT (Gregor)</a></li>
+<li><a class="reference internal" href="#hardware">Hardware</a></li>
+<li><a class="reference internal" href="#installation">Installation</a><ul>
+<li><a class="reference internal" href="#erasing-the-sd-card">Erasing the SD Card</a></li>
+<li><a class="reference internal" href="#installation-of-noobs">Installation of NOOBS</a></li>
+<li><a class="reference internal" href="#installation-of-dexter">Installation of Dexter</a></li>
+<li><a class="reference internal" href="#prepare-os">Prepare OS</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#update">Update</a><ul>
+<li><a class="reference internal" href="#update-to-python-3-6-1">Update to Python 3.6.1</a></li>
+<li><a class="reference internal" href="#install-scientific-libraries">Install scientific Libraries</a></li>
+<li><a class="reference internal" href="#cloudmesh-pi-jon">cloudmesh.pi (Jon)</a></li>
+<li><a class="reference internal" href="#install-vnc">Install VNC</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sensors-jon">Sensors (Jon)</a><ul>
+<li><a class="reference internal" href="#grove-sensors-jon">Grove Sensors (Jon)</a></li>
+<li><a class="reference internal" href="#non-grove-sensors-jon">Non Grove Sensors (Jon)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#notes-to-integrates">Notes To integrates</a><ul>
+<li><a class="reference internal" href="#connecting">Connecting</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#vlc-on-osx">VLC on OSX</a></li>
+<li><a class="reference internal" href="#camera-on-pi">Camera on Pi</a></li>
+<li><a class="reference internal" href="#streaming-video">Streaming video</a></li>
+<li><a class="reference internal" href="#linux-commandline">Linux Commandline</a></li>
+<li><a class="reference internal" href="#enable-spi">Enable SPI</a></li>
+<li><a class="reference internal" href="#rtimulib2">RTIMUlib2</a></li>
+<li><a class="reference internal" href="#compile-rtimulib-apps">Compile RTIMULib Apps</a></li>
+<li><a class="reference internal" href="#camera">Camera</a></li>
+<li><a class="reference internal" href="#lessons-and-projects">Lessons and Projects</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2017/index.html">I523 Big Data Applications and Analytics (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#content">Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2017/index.html#additional-content">Additional Content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../i523/2016/index.html">I523 Big Data Applications and Analytics (2016)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/course.html">Syllabus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/assignments/assignments.html">Homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/gitlab.html">Gitlab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_big_data.html">Python for Big Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/python_lesson1.html">Python Fingerprint Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/refcards.html">Refcards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/latex.html">4.2. LaTeX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/ssh.html">Using SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i523/2016/n-resources.html">Homework References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/contributing.html">2.3. Contributing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../i524/2017/index.html">I524 Big Data and Open Source Software Projects (2017)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/preface/index.html">Preface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/overview.html">i524 Big Data and Open Source Software Projects (2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/calendar.html">I524 Calendar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/lectures.html">I524 Lectures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/assignments.html">I524 Assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/hids-techs.html">HID Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../i524/2017/technologies.html">Technologies</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-prerequisites-for-this-class">What are the prerequisites for this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-full-time-student-at-iupui-can-i-take-the-online-version">I am full time student at IUPUI. Can I take the online version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-a-residential-student-at-iu-can-i-take-the-online-version-only">I am a residential student at IU. Can I take the online version only?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#the-class-is-full-what-do-i-do">The class is full what do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-buy-a-textbook">Do I need to buy a textbook?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-a-computer-to-participate-in-this-class">Do I need a computer to participate in this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#where-is-the-official-iu-calendar-for-the-fall">Where is the official IU calendar for the Fall?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-do-i-ask-a-question">How do I ask a question?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#why-are-you-using-github-for-submitting-projects-and-papers">Why are you using github for submitting projects and papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-write-a-research-article-on-computer-science">How to write a research article on computer science?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#which-bibliography-manager-is-required-for-the-class">Which bibliography manager is required for the class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-use-endnote-or-other-bibliography-managers">Can I use endnote or other bibliography managers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#plagiarism-test-and-resources-related-to-that">Plagiarism test and resources related to that</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-many-hours-will-this-course-take-to-work-on-every-week">How many hours will this course take to work on every week?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#is-all-classes-material-final">Is all classes material final?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-changes-to-the-web-page">What are the changes to the web page?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-lectures-should-i-learn-when">What lectures should I learn when?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-you-doing-the-papers">I524: Why are you doing the papers?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-are-there-no-homework-to-test-me-on-skills-such-as-ansible-or-python">I524: Why are there no homework to test me on skills such as ansible or python?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i524-why-not-use-chef-or-another-devops-framework">I524: Why not use chef or another DevOps framework?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-lost">I am lost?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-like-technology-topic-project-etc">I do not like Technology/Topic/Project/etc?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-am-not-able-to-attend-the-online-hours">I am not able to attend the online hours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-need-to-attend-the-online-sessions">Do I need to attend the online sessions?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-leaning-outcomes">What are the leaning outcomes?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#there-are-so-many-messages-on-piazza-i-can-not-keep-up">There are so many messages on Piazza I can not keep up.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#i-do-not-know-python-what-do-i-do">I do not know python. What do I do?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-solve-merge-conflict-in-pull-request">How to solve merge conflict in Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#building-cloudmesh-classes-in-local-machine">Building cloudmesh/classes in local machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rolling-back-uninstall-of-cryptography">Rolling back uninstall of cryptography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-sole-merge-conflict-in-a-pull-request">How to sole Merge Conflict in a Pull Request?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#cheat-sheet-for-linux-commands">Cheat sheet for Linux commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-techlist-1-homework">Tips: TechList.1 homework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#citations">Citations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#spelling">Spelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#rubric">Rubric</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#timeliness">Timeliness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#outdated-tech-ology">Outdated Tech ology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#techlist-1-and-paper-1-pagecount">Techlist 1 and Paper 1 : Pagecount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-install-virtualbox">Tips to Install Virtualbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#do-i-generate-the-ssh-key-on-ubuntu-vm">Do I generate the SSH key on Ubuntu VM ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#ways-to-run-ubuntu-on-windows-10">Ways to run Ubuntu on Windows 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#don-t-use-anaconda">Don’t use Anaconda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#using-ssh-key-for-git-push">Using SSH Key for Git Push</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#can-i-write-the-papers-on-osx">Can I write the papers on OSX?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-is-the-nature-of-team-collaboration-on-papers">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#id1">What is the nature of team collaboration on papers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-the-due-dates-for-assignments">What are the due dates for assignments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#what-are-good-places-to-find-refernce-entries">What are good places to find refernce entries?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-install-matplotlib">How to install Matplotlib?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#how-to-test-if-your-os-can-install-cloudmesh-client">How to test if your OS can install cloudmesh_client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#os-x">OS X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../faq.html#tips-to-write-a-good-paper">Tips to write a Good Paper</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Lessons</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../cloud/index.html">Cloud (under construction)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contrib/index.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../doc/index.html">Writing Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../linux/index.html">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../org/index.html">Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prg/index.html">Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data/index.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/index.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../projects/draft.html">Software Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../iaas/index.html">IaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/ansible/index.html">Ansible</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/chef.html">Chef</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/comparison.html">Compaprison of Configuration management software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/composite_cluster.html">Composite Clusters (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/deployment.html">Dynamic deployment of arbitrary X software on VC (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/hadoop.html">Hadoop Virtual Cluster Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/juju.html">Ubuntu Juju</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/mongodb_cluster.html">MongoDB Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openmpi_cluster.html">OpenMPI Virtual Cluster (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/openstack_heat.html">OpenStack Heat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/other.html">Other (Under Preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview.html">DevOps (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/overview_vc.html">Overview Virtual Cluster (under preparation)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/puppet.html">Puppet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack-ex1-output.html">Full Message of <code class="docutils literal"><span class="pre">salt-call</span></code> Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../devops/saltstack.html">SaltStack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks/index.html">Notebooks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../todo.html">Todos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../todo.html#general">General</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#version-unreleased">%%version%% (unreleased)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id1">3.2.0 (2017-08-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id5">3.1.1 (2017-02-19)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id10">3.1.0 (2017-02-10)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id15">3.0.9 (2017-01-30)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id20">3.0.8 (2017-01-22)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id24">3.0.7 (2017-01-20)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id29">3.0.6 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id32">3.0.5 (2017-01-11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id37">3.0.4 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id38">3.0.3 (2017-01-09)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id41">3.0.2 (2017-01-07)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id42">3.0.1 (2017-01-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../changelog.html#id43">3.0 (2017-01-06)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li><ul>
+<li><a class="reference internal" href="#">Raspberry PI 3</a><ul>
+<li><a class="reference internal" href="#raspbery-pi-for-iot-gregor">Raspbery PI for IOT (Gregor)</a></li>
+<li><a class="reference internal" href="#hardware">Hardware</a></li>
+<li><a class="reference internal" href="#installation">Installation</a><ul>
+<li><a class="reference internal" href="#erasing-the-sd-card">Erasing the SD Card</a></li>
+<li><a class="reference internal" href="#installation-of-noobs">Installation of NOOBS</a></li>
+<li><a class="reference internal" href="#installation-of-dexter">Installation of Dexter</a></li>
+<li><a class="reference internal" href="#prepare-os">Prepare OS</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#update">Update</a><ul>
+<li><a class="reference internal" href="#update-to-python-3-6-1">Update to Python 3.6.1</a></li>
+<li><a class="reference internal" href="#install-scientific-libraries">Install scientific Libraries</a></li>
+<li><a class="reference internal" href="#cloudmesh-pi-jon">cloudmesh.pi (Jon)</a></li>
+<li><a class="reference internal" href="#install-vnc">Install VNC</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sensors-jon">Sensors (Jon)</a><ul>
+<li><a class="reference internal" href="#grove-sensors-jon">Grove Sensors (Jon)</a></li>
+<li><a class="reference internal" href="#non-grove-sensors-jon">Non Grove Sensors (Jon)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#notes-to-integrates">Notes To integrates</a><ul>
+<li><a class="reference internal" href="#connecting">Connecting</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#vlc-on-osx">VLC on OSX</a></li>
+<li><a class="reference internal" href="#camera-on-pi">Camera on Pi</a></li>
+<li><a class="reference internal" href="#streaming-video">Streaming video</a></li>
+<li><a class="reference internal" href="#linux-commandline">Linux Commandline</a></li>
+<li><a class="reference internal" href="#enable-spi">Enable SPI</a></li>
+<li><a class="reference internal" href="#rtimulib2">RTIMUlib2</a></li>
+<li><a class="reference internal" href="#compile-rtimulib-apps">Compile RTIMULib Apps</a></li>
+<li><a class="reference internal" href="#camera">Camera</a></li>
+<li><a class="reference internal" href="#lessons-and-projects">Lessons and Projects</a></li>
+</ul>
+</li>
+</ul>
+<p></p>
+<hr>
+<small>
+<b>Web Links</b>
+<ul>
+    <li><a href="https://cloudmesh.github.io/classes/i523/2017">i523</a> </li>  
+    <li><a href="https://cloudmesh.github.io/classes/i524">i524</a> </li>  
+
+  </ul>
+</small>
+
+<p></p>
+<hr>
+<form action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="raspberry-pi-3">
+<span id="raspberry-pi-3"></span><h1>Raspberry PI 3<a class="headerlink" href="#raspberry-pi-3" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="raspbery-pi-for-iot-gregor">
+<span id="raspbery-pi-for-iot-gregor"></span><h2>Raspbery PI for IOT (Gregor)<a class="headerlink" href="#raspbery-pi-for-iot-gregor" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="hardware">
+<span id="hardware"></span><h2>Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h2>
+<p>see hardware page we have</p>
+</div>
+<div class="section" id="installation">
+<span id="installation"></span><h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="erasing-the-sd-card">
+<span id="erasing-the-sd-card"></span><h3>Erasing the SD Card<a class="headerlink" href="#erasing-the-sd-card" title="Permalink to this headline">¶</a></h3>
+<p>Before you can install an OS on your sd card, you must erase it and put it in the proper format.</p>
+<ol class="simple">
+<li>Insert your sd card into your micro-sd adapter and open Disk Utility with a spotlight search.</li>
+<li>In the Disk Utility, right click the name of the sd card and select erase.</li>
+<li>Name the sd card and format it as MS-DOS (FAT). Then click erase.
+<img alt="" src="../../_images/diskutil.png" /></li>
+<li>If it does not erase the first time, try again. It sometimes takes multiple tries to work.</li>
+</ol>
+</div>
+<div class="section" id="installation-of-noobs">
+<span id="installation-of-noobs"></span><h3>Installation of NOOBS<a class="headerlink" href="#installation-of-noobs" title="Permalink to this headline">¶</a></h3>
+<p>NOOBS is an OS that includes Raspian. The official descrition of Raspbian can be found <a class="reference external" href="https://www.raspberrypi.org/downloads/raspbian/">here</a>. It comes pre-packaged with many useful programming tools, and is easy to use. Before you start, make sure that your sd card has been erased and formatted properly.</p>
+<ol class="simple">
+<li>Download Noobs <a class="reference external" href="https://www.raspberrypi.org/downloads/noobs/">here</a>. This will take around 30 minutes.</li>
+<li>Go to your Finder and in Downloads, search for NOOBS.</li>
+<li>Open the NOOBS folder and drag its contents into the sd card in the devices section. There should be 20 files and folders in the NOOBS folder. The download should take about 3 minutes.</li>
+<li>Once installed, eject the sd card and put it in your raspberry pi.</li>
+<li>Power up your raspberry and you will see a menu like this</li>
+</ol>
+<p><img alt="" src="../../_images/noobs.jpg" /></p>
+<ol class="simple">
+<li>Select Raspbian and click <code class="docutils literal"><span class="pre">Install</span> <span class="pre">(i)</span></code></li>
+</ol>
+</div>
+<div class="section" id="installation-of-dexter">
+<span id="installation-of-dexter"></span><h3>Installation of Dexter<a class="headerlink" href="#installation-of-dexter" title="Permalink to this headline">¶</a></h3>
+<p>The version of Dexter that you want to flash onto your sd card is called Raspbian for Robots. This is a Raspbian based os that is compatible with the GrovePi board. It also comes with pre-installed Dexter Industries software. Before you start, make sure that your sd card has been erased and formatted properly.</p>
+<ol class="simple">
+<li>First, download the most recent Dexter_Industries_jessie.zip file from <a class="reference external" href="https://sourceforge.net/projects/dexterindustriesraspbianflavor/">here</a>.</li>
+<li>Once the file has downloaded, uncompress it and insert your sd card into the micro-sd adapter.</li>
+<li>Open etcher and flash the uncompressed jessie image onto the sd card.</li>
+</ol>
+<p><img alt="" src="../../_images/etcher.png" /></p>
+<ol class="simple">
+<li>Eject your sd card and insert it into your raspberry pi.</li>
+</ol>
+<p>##Configure</p>
+</div>
+<div class="section" id="prepare-os">
+<span id="prepare-os"></span><h3>Prepare OS<a class="headerlink" href="#prepare-os" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="update">
+<span id="update"></span><h2>Update<a class="headerlink" href="#update" title="Permalink to this headline">¶</a></h2>
+<p>The following are essential updates:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">upgrade</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">emacs</span>
+</pre></div>
+</div>
+<p>Change your default python version:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 2
+$ sudo update-alternatives --config python
+</pre></div>
+</div>
+<p>Select the version of python that you wish to be your default.</p>
+<p>pyenv does not seem to work on raspberry pi's</p>
+<div class="section" id="update-to-python-3-6-1">
+<span id="update-to-python-3-6-1"></span><h3>Update to Python 3.6.1<a class="headerlink" href="#update-to-python-3-6-1" title="Permalink to this headline">¶</a></h3>
+<p>see how we do this in osx/linux can this be done on raspbery?
+if not document update from source with altinstall</p>
+</div>
+<div class="section" id="install-scientific-libraries">
+<span id="install-scientific-libraries"></span><h3>Install scientific Libraries<a class="headerlink" href="#install-scientific-libraries" title="Permalink to this headline">¶</a></h3>
+<p>These scientific libraries have not been entirely implemented. These instructions are incomplete.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">python</span><span class="o">-</span><span class="n">numpy</span> <span class="n">python</span><span class="o">-</span><span class="n">matplotlib</span> <span class="n">python</span><span class="o">-</span><span class="n">scipy</span> <span class="n">python</span><span class="o">-</span><span class="n">sklearn</span> <span class="n">python</span><span class="o">-</span><span class="n">pandas</span>
+</pre></div>
+</div>
+<p>numpy: <code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">python-numpy</span></code>matplotlib: Extremely Slow</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">matplotlib</span>
+<span class="n">cd</span> <span class="n">matplotlib</span>
+<span class="n">python3</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">build</span>
+<span class="n">sudo</span> <span class="n">python3</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>scipy: <code class="docutils literal"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">python3-scipy</span></code>
+scikitlearn:</p>
+</div>
+<div class="section" id="cloudmesh-pi-jon">
+<span id="cloudmesh-pi-jon"></span><h3>cloudmesh.pi (Jon)<a class="headerlink" href="#cloudmesh-pi-jon" title="Permalink to this headline">¶</a></h3>
+<p>cloudmesh.pi is a repository for our GrovePi module classes. These classes require Dexter software, so you need to either have Raspian for Robots or download the software separately.</p>
+<p>If you have Raspian for Robots, run the following in your terminal:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span>
+<span class="n">mkdir</span> <span class="n">github</span>
+<span class="n">cd</span> <span class="n">github</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">/</span><span class="n">cloudmesh</span><span class="o">.</span><span class="n">pi</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">cloudmesh</span><span class="o">.</span><span class="n">pi</span>
+<span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-vnc">
+<span id="install-vnc"></span><h3>Install VNC<a class="headerlink" href="#install-vnc" title="Permalink to this headline">¶</a></h3>
+<p>VNC comes pre-installed with NOOBS os, but you must enable it in your raspberry pi preferences.</p>
+</div>
+</div>
+<div class="section" id="sensors-jon">
+<span id="sensors-jon"></span><h2>Sensors (Jon)<a class="headerlink" href="#sensors-jon" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="grove-sensors-jon">
+<span id="grove-sensors-jon"></span><h3>Grove Sensors (Jon)<a class="headerlink" href="#grove-sensors-jon" title="Permalink to this headline">¶</a></h3>
+<p>we already have draft</p>
+</div>
+<div class="section" id="non-grove-sensors-jon">
+<span id="non-grove-sensors-jon"></span><h3>Non Grove Sensors (Jon)<a class="headerlink" href="#non-grove-sensors-jon" title="Permalink to this headline">¶</a></h3>
+<p>Elegoo as example</p>
+</div>
+</div>
+<div class="section" id="notes-to-integrates">
+<span id="notes-to-integrates"></span><h2>Notes To integrates<a class="headerlink" href="#notes-to-integrates" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="connecting">
+<span id="connecting"></span><h3>Connecting<a class="headerlink" href="#connecting" title="Permalink to this headline">¶</a></h3>
+<p>Hostnames:</p>
+<ul class="simple">
+<li>raspberrypi.local</li>
+<li>raspberrypi.</li>
+</ul>
+<p>change</p>
+<p>recovery.cmdline</p>
+<p>forgot what these were:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">runinstaller</span> <span class="n">quiet</span> <span class="n">ramdisk_size</span><span class="o">=</span><span class="mi">32768</span> <span class="n">root</span><span class="o">=/</span><span class="n">dev</span><span class="o">/</span><span class="n">ram0</span> <span class="n">init</span><span class="o">=/</span><span class="n">init</span> <span class="n">vt</span><span class="o">.</span><span class="n">cur_default</span><span class="o">=</span><span class="mi">1</span> <span class="n">elevator</span><span class="o">=</span><span class="n">deadline</span>
+<span class="n">silentinstall</span> <span class="n">runinstaller</span> <span class="n">quiet</span> <span class="n">ramdisk_size</span><span class="o">=</span><span class="mi">32768</span> <span class="n">root</span><span class="o">=/</span><span class="n">dev</span><span class="o">/</span><span class="n">ram0</span> <span class="n">init</span><span class="o">=/</span><span class="n">init</span> <span class="n">vt</span><span class="o">.</span><span class="n">cur_default</span><span class="o">=</span><span class="mi">1</span> <span class="n">elevator</span><span class="o">=</span><span class="n">deadline</span>
+</pre></div>
+</div>
+<p>Connect the cable</p>
+<p>You will see the activity LEDs flash while the OS installs.  Depending on your SD-Card this can take up to 40-60 minutes.</p>
+</div>
+</div>
+<div class="section" id="vlc-on-osx">
+<span id="vlc-on-osx"></span><h2>VLC on OSX<a class="headerlink" href="#vlc-on-osx" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://www.videolan.org/vlc/index.en_GB.html">http://www.videolan.org/vlc/index.en_GB.html</a></li>
+<li><a class="reference external" href="http://get.videolan.org/vlc/2.2.6/macosx/vlc-2.2.6.dmg">http://get.videolan.org/vlc/2.2.6/macosx/vlc-2.2.6.dmg</a></li>
+<li><a class="reference external" href="http://www.mybigideas.co.uk/RPi/RPiCamera/">http://www.mybigideas.co.uk/RPi/RPiCamera/</a></li>
+<li></li>
+</ul>
+</div>
+<div class="section" id="camera-on-pi">
+<span id="camera-on-pi"></span><h2>Camera on Pi<a class="headerlink" href="#camera-on-pi" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">vlc</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/">https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/</a></li>
+<li><a class="reference external" href="https://www.hackster.io/bestd25/pi-car-016e66">https://www.hackster.io/bestd25/pi-car-016e66</a></li>
+</ul>
+</div>
+<div class="section" id="streaming-video">
+<span id="streaming-video"></span><h2>Streaming video<a class="headerlink" href="#streaming-video" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android">https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android</a></li>
+</ul>
+</div>
+<div class="section" id="linux-commandline">
+<span id="linux-commandline"></span><h2>Linux Commandline<a class="headerlink" href="#linux-commandline" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://www.computerworld.com/article/2598082/linux/linux-linux-command-line-cheat-sheet.html">http://www.computerworld.com/article/2598082/linux/linux-linux-command-line-cheat-sheet.html</a></li>
+</ul>
+</div>
+<div class="section" id="enable-spi">
+<span id="enable-spi"></span><h2>Enable SPI<a class="headerlink" href="#enable-spi" title="Permalink to this headline">¶</a></h2>
+<p>go to the configuration interfaces and enable</p>
+</div>
+<div class="section" id="rtimulib2">
+<span id="rtimulib2"></span><h2>RTIMUlib2<a class="headerlink" href="#rtimulib2" title="Permalink to this headline">¶</a></h2>
+<p>git clone https://github.com/RTIMULib/RTIMULib2.git
+cd RTIMULib</p>
+<p>Add the following two lines to /etc/modules</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">i2c</span><span class="o">-</span><span class="n">bcm2708</span>
+<span class="n">i2c</span><span class="o">-</span><span class="n">dev</span>
+</pre></div>
+</div>
+<p>reboot</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ls</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">i2c</span><span class="o">-*</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">i2c</span><span class="o">-</span><span class="n">tools</span>
+
+<span class="n">sudo</span> <span class="n">i2cdetect</span> <span class="o">-</span><span class="n">y</span> <span class="mi">1</span>
+         <span class="mi">0</span>  <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="n">a</span>  <span class="n">b</span>  <span class="n">c</span>  <span class="n">d</span>  <span class="n">e</span>  <span class="n">f</span>
+<span class="mi">00</span><span class="p">:</span>          <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> 
+<span class="mi">10</span><span class="p">:</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> 
+<span class="mi">20</span><span class="p">:</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> 
+<span class="mi">30</span><span class="p">:</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> 
+<span class="mi">40</span><span class="p">:</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> 
+<span class="mi">50</span><span class="p">:</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> 
+<span class="mi">60</span><span class="p">:</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="mi">68</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> 
+<span class="mi">70</span><span class="p">:</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span> <span class="o">--</span>
+</pre></div>
+</div>
+<p><img alt="Pinout" src="lesson/iot/images/rasp3.png" /></p>
+<p>create a file /etc/udev/rules.d/90-i2c.rules and add the line:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">KERNEL</span><span class="o">==</span><span class="s2">&quot;i2c-[0-7]&quot;</span><span class="p">,</span><span class="n">MODE</span><span class="o">=</span><span class="s2">&quot;0666&quot;</span>
+</pre></div>
+</div>
+<p>note: does not work</p>
+<p>instead we do</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">chmod</span> <span class="mi">666</span> <span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">i2c</span><span class="o">-</span><span class="mi">1</span> 
+</pre></div>
+</div>
+<p>Set the I2C bus speed to 400KHz by adding to /boot/config.txt:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">dtparam</span><span class="o">=</span><span class="n">i2c1_baudrate</span><span class="o">=</span><span class="mi">400000</span>
+</pre></div>
+</div>
+<p>reboot. In terminal change directories to</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">RTIMULib</span><span class="o">/</span><span class="n">IMUDrivers</span>
+</pre></div>
+</div>
+<p>and open</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">emacs</span> <span class="n">RTIMUDefs</span><span class="o">.</span><span class="n">h</span>
+</pre></div>
+</div>
+<p>In RTIMUDefs.h change</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1">#define MPU9250_ID 0x71</span>
+</pre></div>
+</div>
+<p>To</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1">#define MPU9250_ID 0x73</span>
+
+
+
+<span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">RTIMULib</span>
+</pre></div>
+</div>
+<p>In terminal</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="n">build</span>
+<span class="n">cd</span> <span class="n">build</span>
+<span class="n">cmake</span> <span class="o">..</span>
+<span class="n">make</span> <span class="o">-</span><span class="n">j4</span>
+<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
+<span class="n">sudo</span> <span class="n">ldconfig</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="compile-rtimulib-apps">
+<span id="compile-rtimulib-apps"></span><h2>Compile RTIMULib Apps<a class="headerlink" href="#compile-rtimulib-apps" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">Linux</span><span class="o">/</span><span class="n">RTIMULibCal</span>
+<span class="n">make</span> <span class="n">clean</span><span class="p">;</span> <span class="n">make</span> <span class="o">-</span><span class="n">j4</span>
+<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
+<span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">Linux</span><span class="o">/</span><span class="n">RTIMULibDrive</span>
+<span class="n">make</span> <span class="n">clean</span><span class="p">;</span> <span class="n">make</span> <span class="o">-</span><span class="n">j4</span>
+<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
+<span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">Linux</span><span class="o">/</span><span class="n">RTIMULibDrive10</span>
+<span class="n">make</span> <span class="n">clean</span><span class="p">;</span> <span class="n">make</span> <span class="o">-</span><span class="n">j4</span>
+<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
+<span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">Linux</span><span class="o">/</span><span class="n">RTIMULibDrive11</span>
+<span class="n">make</span> <span class="n">clean</span><span class="p">;</span> <span class="n">make</span> <span class="o">-</span><span class="n">j4</span>
+<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
+
+
+<span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">Linux</span><span class="o">/</span><span class="n">RTIMULibDemo</span>    
+<span class="n">qmake</span> <span class="n">clean</span>
+<span class="n">make</span> <span class="n">clean</span>
+<span class="n">qmake</span>
+<span class="n">make</span> <span class="o">-</span><span class="n">j4</span>
+<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
+<span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">Linux</span><span class="o">/</span><span class="n">RTIMULibDemoGL</span>
+<span class="n">qmake</span> <span class="n">clean</span>
+<span class="n">make</span> <span class="n">clean</span>
+<span class="n">qmake</span>
+<span class="n">make</span> <span class="o">-</span><span class="n">j4</span>
+<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="camera">
+<span id="camera"></span><h2>Camera<a class="headerlink" href="#camera" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/">Camera Tutorial</a></li>
+</ul>
+<p>.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">libjpeg</span><span class="o">-</span><span class="n">dev</span> <span class="n">libtiff5</span><span class="o">-</span><span class="n">dev</span> <span class="n">libjasper</span><span class="o">-</span><span class="n">dev</span> <span class="n">libpng12</span><span class="o">-</span><span class="n">dev</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">libavcodec</span><span class="o">-</span><span class="n">dev</span> <span class="n">libavformat</span><span class="o">-</span><span class="n">dev</span> <span class="n">libswscale</span><span class="o">-</span><span class="n">dev</span> <span class="n">libv4l</span><span class="o">-</span><span class="n">dev</span>
+
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">libxvidcore</span><span class="o">-</span><span class="n">dev</span> <span class="n">libx264</span><span class="o">-</span><span class="n">dev</span>
+
+<span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">virtualenv</span> <span class="n">virtualenvwrapper</span>
+<span class="n">sudo</span> <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">~/.</span><span class="n">cache</span><span class="o">/</span><span class="n">pip</span>
+</pre></div>
+</div>
+<p>copy into ~/.profile:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span> <span class="n">echo</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2"># virtualenv and virtualenvwrapper&quot;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">profile</span>
+ <span class="n">echo</span> <span class="s2">&quot;export WORKON_HOME=$HOME/.virtualenvs&quot;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">profile</span>
+ <span class="n">echo</span> <span class="s2">&quot;source /usr/local/bin/virtualenvwrapper.sh&quot;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">profile</span>
+</pre></div>
+</div>
+<p>source ~/.profile</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">mkvirtualenv</span> <span class="n">cv</span> <span class="o">-</span><span class="n">p</span> <span class="n">python3</span>
+</pre></div>
+</div>
+<p>workon cv</p>
+<p>comandline has (cv) in front</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">numpy</span>
+
+<span class="n">wget</span> <span class="o">-</span><span class="n">O</span> <span class="n">opencv</span><span class="o">.</span><span class="n">zip</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">Itseez</span><span class="o">/</span><span class="n">opencv</span><span class="o">/</span><span class="n">archive</span><span class="o">/</span><span class="mf">3.1</span><span class="o">.</span><span class="mf">0.</span><span class="n">zip</span>
+<span class="n">wget</span> <span class="o">-</span><span class="n">O</span> <span class="n">opencv_contrib</span><span class="o">.</span><span class="n">zip</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">Itseez</span><span class="o">/</span><span class="n">opencv_contrib</span><span class="o">/</span><span class="n">archive</span><span class="o">/</span><span class="mf">3.1</span><span class="o">.</span><span class="mf">0.</span><span class="n">zip</span>
+<span class="n">unzip</span> <span class="n">opencv</span><span class="o">.</span><span class="n">zip</span>
+<span class="n">unzip</span> <span class="n">opencv_contrib</span><span class="o">.</span><span class="n">zip</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="lessons-and-projects">
+<span id="lessons-and-projects"></span><h2>Lessons and Projects<a class="headerlink" href="#lessons-and-projects" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-guis/worksheet/">Gui</a></li>
+<li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-guis/">Solder</a></li>
+<li><a class="reference external" href="https://www.raspberrypi.org/blog/an-image-processing-robot-for-robocup-junior/">PI Camera Line Follower</a></li>
+<li><a class="reference external" href="https://circuitdigest.com/microcontroller-projects/web-controlled-raspberry-pi-surveillance-robot">Pi car flask</a></li>
+</ul>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Gregor von Laszewski.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
