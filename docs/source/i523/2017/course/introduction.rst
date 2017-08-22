@@ -1,3 +1,5 @@
+.. _S1: 
+
 
 Introduction
 ---------------
@@ -376,4 +378,4 @@ Resources
 * http://iucloudsummerschool.appspot.com/preview
 * https://www.youtube.com/watch?v=M3jcSCA9_hM
 
-.. _S2:
+

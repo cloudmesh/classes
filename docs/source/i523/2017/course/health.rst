@@ -1,3 +1,5 @@
+.. _S3:
+
 Health Informatics Case Study
 -----------------------------------------
 

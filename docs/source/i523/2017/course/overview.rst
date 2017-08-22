@@ -1,3 +1,5 @@
+.. _S2:
+
 Overview of Data Science
 ------------------------
 
@@ -345,4 +347,4 @@ Resources
 * http://www.mckinsey.com/mgi/publications/big_data/index.asp
 * http://cra.org/ccc/docs/nitrdsymposium/pdfs/keyes.pdf
 
-.. _S3:
+
