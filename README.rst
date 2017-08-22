@@ -1,7 +1,7 @@
 README
 ========
  
-This repository contains class material. The class is published and updated on regular basis at:
+This repository contains class material. The class is published and updated on a regular basis at:
 
 * https://cloudmesh.github.io/classes/
 

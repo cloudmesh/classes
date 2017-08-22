@@ -6,5 +6,7 @@ Preface
    :maxdepth: 4
 
    ../../lesson/preface/preface
-   ../../lesson/preface/security   
+   ../../lesson/preface/security
+   disclaimer
+   instructors
 

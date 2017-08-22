@@ -45,7 +45,7 @@ pre-packaged with many useful programming tools, and is easy to use.
 4. Once installed, eject the sd card and put it in your raspberry pi.
 5. Power up your raspberry and you will see a menu like this
 
-.. figure:: images/noobs.jpg
+.. figure:: ../images/noobs.jpg
    :alt: 
 
 6. Select Raspbian and click ``Install (i)``
@@ -65,7 +65,7 @@ software.
    into the micro-sd adapter.
 3. Open etcher and flash the uncompressed jessie image onto the sd card.
 
-.. figure:: images/etcher.png
+.. figure:: ../images/etcher.png
    :alt: 
 
 4. Eject your sd card and insert it into your raspberry pi.
@@ -504,4 +504,4 @@ Web Server
 -  `Web Server
    Flask <https://www.raspberrypi.org/learning/python-web-server-with-flask/worksheet/>`__
 
-.. |image0| image:: images/diskutil.png
+.. |image0| image:: ../images/diskutil.png

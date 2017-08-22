@@ -3,6 +3,8 @@
 I523 Big Data Applications and Analytics (2017)
 ===============================================
 
+.. warning:: The first lectures will be release on Aug 25, 2017. For
+             now we just provide initial draft material. 
 
 .. warning:: This material will be modified and updated on a weekly
              bases througought the semester. Some unit and section
@@ -45,6 +47,7 @@ Content
 
    preface
    class
+   organization
    writing
    code
    python

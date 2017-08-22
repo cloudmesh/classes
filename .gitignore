@@ -1,4 +1,5 @@
 .idea
+.#*
 *.projectile
 docs/source/notebooks/*.rst
 docs/source/notebooks/*.tex
