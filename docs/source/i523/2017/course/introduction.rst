@@ -10,7 +10,7 @@ Introduction
 
 
 This section has a technical overview of course followed by a broad
-motivation for course.
+motivation for course hosted at :cite:`www-cloudmesh-classes`.
 
 The course overview covers it's content and structure. It presents an
 introduction to general field of Big Data and Analytics. We are

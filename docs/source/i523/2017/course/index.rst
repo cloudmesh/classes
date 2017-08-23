@@ -12,7 +12,6 @@
    :maxdepth: 2
 
    incomplete
-   introduction
    overview
    usecases   
    health
