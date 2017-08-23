@@ -27,7 +27,7 @@ Start a New Instance
 Starting a new instance is not difficult but requires a few steps like keypair registration and floating ip association. The simple instructions will be provided in this page.
 
 SSH Key Pair Registration
-""""""""""""""""""""""""
+"""""""""""""""""""""""""
 
 If this is a first time to run an instance, the keypair registration is required. We assume you have a key registered on India Juno which is a previous release of OpenStack. Let's register your key on OpenStack Kilo. Juno and Kilo are separate clouds so we need to register your key on both sides.
 

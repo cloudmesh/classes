@@ -65,7 +65,7 @@ values of X) and the Rallying cry of course: Use Clouds running Data
 Analytics Collaboratively processing Big Data to solve problems in
 X-Informatics (or e-X). 
 
-.. comment:: old link to 2016 is reserved
+.. comment old link to 2016 is reserved
 
    Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
 
@@ -161,7 +161,7 @@ broad discussion of cloud applications. Parallel computing in general
 and particular features of MapReduce are described. He comments on a
 data science education and the benefits of using MOOC's.
 
-.. comment:: 2016 video reserved
+.. comment 2016 video reserved
           
           Slides: https://iu.box.com/s/muldo1qkcdlpdeiog3zo
 
@@ -180,7 +180,7 @@ Education
 
 * Slides: `PPT <https://iu.box.com/s/su3skkw8crjktoh74smpm782wb9kn2tk>`_
          
-.. comment:: 2016 video reserved
+.. comment 2016 video reserved
 
           Video: http://youtu.be/kyJxstTivoI
 
@@ -206,7 +206,7 @@ Wealth and Wellness"
 * Video: `MP4 <https://iu.box.com/s/8ycztqsdd8v7ju49f0wnb9ur4nw4cc5e>`_
 * Slides: `PPT <https://iu.box.com/s/ux8ke0y8r6hw6pkqtix8wm2chemdv0jz>`_
          
-.. comment:: 2016 video reserved
+.. comment 2016 video reserved
 
           Video: http://youtu.be/sVNV0NxlQ6A
 
@@ -223,7 +223,7 @@ advertise for new talent.
 
 * Slides: `PPT <https://iu.box.com/s/fz3pzgxqxwscblhszw6m39gyo3ghp3kz>`_
 
-.. comment:: 2016 video reserved
+.. comment 2016 video reserved
 
           Video: http://youtu.be/h9u7YeKkHHU
 
@@ -243,7 +243,7 @@ social media, thriving Chinese internet companies.
 * Video C: `MP4 <https://iu.box.com/s/c7itvdw1fzx5p1zrsens252n5j9yp586>`_
 * Slides C: `PPT <https://iu.box.com/s/crkdar0yh0axro6jb4h4bc8x50ez1xsw>`_
 
-.. comment:: 2016 video reserved
+.. comment 2016 video reserved
 
          Video: http://youtu.be/EIRIPDYN5nM
 
@@ -257,7 +257,7 @@ Services.
 * Video: `MP4 <https://iu.box.com/s/4nh8w0kof68ip6u6i71ocbsvzfsom9g5>`_
 * Slides: `PPT <https://iu.box.com/s/rz79glfr9r9q54kg3nxizj0ww9kpn4rt>`_
 
-.. comment:: 2016 video reserved
+.. comment 2016 video reserved
 
           Video: http://youtu.be/RxGopRuMWOE
 
@@ -281,7 +281,7 @@ Service.
 * Video B: `MP4 <https://iu.box.com/s/8leh5xg0lhtsa6rqyf96v3af61nwz7ar>`_
 * Slides B: `PPT <https://iu.box.com/s/5mfjgep7jkza45p88ko02llqt88ktbpd>`_
 
-.. comment:: 2016 video reserved
+.. comment 2016 video reserved
 
           Video: http://youtu.be/NBZPQqXKbiw
 
@@ -297,7 +297,7 @@ focus on the new fourth data driven methodology.
 * Video: `MP4 <https://iu.box.com/s/xnfdnahl98s7mrjxn2wvr71mg1k48f98>`_
 * Slides: `PPT <https://iu.box.com/s/q442jzt643jg81s8r8fb0v47fgsj7i5n>`_
 
-.. comment:: 2016 video reserved
+.. comment 2016 video reserved
 
           Video: http://youtu.be/2ke459BRBhw
 
@@ -313,7 +313,7 @@ and emerging as new information to input into other transformations.
 * Video: `MP4 <https://iu.box.com/s/v3887x4ez3wcrxuqm06sbef6b99z6q6k>`_
 * Slides: `PPT <https://iu.box.com/s/1l3tuhbe2xx2njxqboywi0u3rcko765v>`_
 
-.. comment:: 2016 video reserved
+.. comment 2016 video reserved
 
           Video: http://youtu.be/j9ytOaBoe2k
 
@@ -330,7 +330,7 @@ incredible size of author lists on papers.
 * Video: `MP4 <https://iu.box.com/s/m360z9afj6wn4vlwpjanll4bgt7z6h6y>`_
 * Slides: `PPT <https://iu.box.com/s/hk12p46f07kbp8wne6dwc8e3aisdz7k4>`_
 
-.. comment::
+.. comment
 
           Video: http://youtu.be/qUB0q4AOavY
 
@@ -351,7 +351,7 @@ properties.
 
 * Video II: `MP4 <https://iu.box.com/s/2c014toq5d5kqtr0chjkro64mecintid>`_
   Slides II: `PPT <https://iu.box.com/s/iu50p5xxwh9erjh9tt3asdowyr69c0dn>`_
-.. comment::
+.. comment
 
           Video 1: http://youtu.be/Aj5k0Sa7XGQ
 
@@ -370,7 +370,7 @@ algorithms for dynamic personalized choice of material for web pages.
 * Video: `MP4 <https://iu.box.com/s/jl35vu8gbcib7xhi0g6al3bey554kryu>`_
 * Slides: `PPT <https://iu.box.com/s/bes7v51m9srgebmgg87kimfcvqzykm5x>`_
 
-.. comment::
+.. comment
           
           Video: http://youtu.be/i9gR9PdVXUU
 
@@ -385,7 +385,7 @@ the cloud use of the Internet of Things and gives examples.
 * Video: `MP4 <https://iu.box.com/s/yjihksgp5yfkmw0avdb7hyuhwzfy341w>`_
 * Slides: `PPT <https://iu.box.com/s/u3ix2zk513o1r5z38b5gwgjp39xxmhuf>`_
 
-.. comment::
+.. comment
           
           Video: http://youtu.be/C19-5WQH2TU
 
@@ -399,7 +399,7 @@ blending.
 * Video: `MP4 <https://iu.box.com/s/3vby6cilwb048684z57aitxlvl8go2no>`_
 * Slides: `PPT <https://iu.box.com/s/ngxp60flsc67ajbbhzejegtzzl6ydl3h>`_
 
-.. comment::
+.. comment
           
           Video: http://youtu.be/BbW1PFNnKrE
 
@@ -423,7 +423,7 @@ clouds; a pleasing symmetry.
 * Video: `MP4 <https://iu.box.com/s/ikih2y5uxsmsoy2e98wh2nqv110jeelt>`_
 * Slides: `PPT <https://iu.box.com/s/wr6qfimu70j7d95vcu8p2kwjhuw8scvf>`_
 
-.. comment::
+.. comment
 
           Video: http://youtu.be/x2LuiX8DYLs
 
@@ -442,7 +442,7 @@ educated in data science"
 * Video: `MP4 <https://iu.box.com/s/oc0l9irv3p9u4eh4ff983afwajtrtg4i>`_
 * Slides: `PPT <https://iu.box.com/s/bbk20mnp47682s0rwdb601nqbaszmxbk>`_
 
-.. comment::
+.. comment
 
           Video: http://youtu.be/C0GszJg-MjE
 

@@ -1,7 +1,7 @@
 .. _S6:
 
 Physics Case Study
-----------------------------------------------------------------------
+------------------
 
 
 This section starts by describing the LHC accelerator at CERN and
@@ -22,7 +22,7 @@ Central Limit Theorem concludes discussion.
 
 
 Looking for Higgs Particles, Bumps in Histograms, Experiments and Accelerators (Part 1)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This unit is devoted to Python and Java experiments looking at
 histograms of Higgs Boson production with various forms of shape of

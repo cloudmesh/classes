@@ -2,9 +2,9 @@
 
 .. _techlist-tips:
 
-========================================
+===============================
 Completing Techlist Assignments
-========================================
+===============================
 
 Watch the video at https://www.youtube.com/watch?v=roi7vezNmfo
 
@@ -199,7 +199,7 @@ Setup Your Repository
 
 
 Add Your Technology
---------------------
+-------------------
 
 #. Edit the following two files within the ``classes`` directory, see `video
    <https://youtu.be/roi7vezNmfo?t=19m34s>`_:
@@ -410,7 +410,7 @@ request.  When your changes were approved and merged with the master
 branch, your pull request will disappear.
 
 What happens when I cite a reference more than once?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The developers of the module that allows us to use bibtex in sphinx
 omit the label when a reference is cited more than once. Back
@@ -478,7 +478,7 @@ replaceing them in a single sentence
 
   
 Learning outcomes
-------------------
+-----------------
 
 1. CANVAS is not a tool used in open source development and
    industry. It has limitations in scalability and in structuring

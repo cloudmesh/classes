@@ -418,7 +418,7 @@ directory for you, so you need to announce teams on Piazza. A post
 will be made to collect the team information.
 
 Working Alone
-^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 A README.rst file needs to be included that contains the following
 information (please be mindfull with the spaces, there is an empty
