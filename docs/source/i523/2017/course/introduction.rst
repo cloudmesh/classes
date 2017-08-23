@@ -463,3 +463,10 @@ Resources
 * https://www.youtube.com/watch?v=M3jcSCA9_hM
 
 
+References
+""""""""""
+
+.. bibliography:: ../../../refs.bib
+   :style: unsrt
+
+cited

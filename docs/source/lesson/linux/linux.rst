@@ -113,7 +113,9 @@ short cuts.
 .bashrc and .bash_profile
 -----------------------------
 
-.. warning:: Not yet implemented.
+.. todo:: THis section will be filled out. However we have some very
+          good material provided for a .bash_profile file as part of
+          setting up pyenv.
 
 Exercise
 --------
