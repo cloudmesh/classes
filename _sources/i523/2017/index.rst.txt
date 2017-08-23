@@ -47,6 +47,7 @@ Content
 
    preface
    class
+   waitlist
    organization
    writing
    code
