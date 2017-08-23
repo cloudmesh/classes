@@ -489,7 +489,7 @@ Resources
 References
 """"""""""
 
-.. bibliography:: ../../../refs.bib
+.. bibliography:: ../../../i-refs.bib
+   :cited:
+   :labelprefix: I
    :style: unsrt
-
-cited
