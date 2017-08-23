@@ -209,7 +209,7 @@ To see all currently running VMs, use the command::
    $ cm vm list
 
 Logging In To A VM
------------------
+------------------
 
 To login to the vm you need to assign a publicly available IP
 address. You can do this with::
