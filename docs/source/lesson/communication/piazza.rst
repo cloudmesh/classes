@@ -120,6 +120,10 @@ yourself. One that you could include in a paper.
 An example is provided at https://laszewski.github.io/bio.html
 with an image at https://laszewski.github.io/_images/gregor.jpg
 
+Use the subject line *Biography: Firstname Lastname* and post it into
+the bio folder.
+
+
 
 Making Piazza Work
 ------------------
@@ -313,10 +317,8 @@ Piazza.1:
     Enroll in piazza
 
 Piazza.2:
-    Post a short bio in the bio folder (optionally include a professional
-    portrait of yourself)
-
-
+    Post a short formal bio in the bio folder (optionally include a professional
+    portrait of yourself). 
 
 .. |image0| image:: images/image3.png
 .. |image1| image:: images/image1.png
