@@ -235,7 +235,7 @@ Install Different Python Versions
 """""""""""""""""""""""""""""""""
 
 Pyenv provides a large list of different python versions. To see the
-entire list please use the command
+entire list please use the command::
 
    $ pyenv install -l
 
@@ -321,7 +321,7 @@ installed and do not want or can use pyenv, we recommend you download and instal
 and 3.6.2 from python.org (https://www.python.org/downloads/)
 
 Make sure pip is up to date
-"""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As you will want to install other packages, make sure pip is up to
 date::
@@ -332,11 +332,30 @@ date::
 pyenv  virtualenv anaconda3-4.3.1 ANA3
 pyenv activate ANA3
 
-   
+Anaconda and Miniconda
+----------------------
+
+.. warning:: We do not recommend that you use anaconda or miniconda as it may
+	     interfere with your default python interpreters and
+	     setup.
+
+Please note that beginners to pyton should always use anaconda or
+miniconda only afterthey have installed pyenv and use it. For this
+class neither anaconda nor miniconda is required. In fact we do not
+recommend it. We keep this section as we know that other classes at IU
+may use anaconda. We are not aware if these classes teach you the
+right way to install it, with *pyenv*.
+
+
 Miniconda
 ^^^^^^^^^
 
-::
+.. warning:: This section about miniconda is experimental and has not
+             been tested. We are looking for contributors that help
+             completing it. If you use anaconda or miniconda we
+             recommend to manage it via pyenv.
+
+To install mini conda you can use the following commands::
 
    $ mkdir ana
    $ cd ana
@@ -345,26 +364,22 @@ Miniconda
    $ pyenv activate miniconda3-latest
    $ conda create -n ana anaconda
 
-activate::
+To activate use::
   
    $ source activate ana
 
-deactivate::
+To deactivate use::
 
   $ source deactivate
 
-
-cloudmesh cmd5::
+To install cloudmesh cmd5 please use:: 
 
   $ pip install cloudmesh.cmd5
   $ pip install cloudmesh.sys
+
   
 Anaconda
-""""""""
-
-.. warning:: We do not recommend that you use anaconda as it may
-	     interfere with your default python interpreters and
-	     setup.
+^^^^^^^^
 
 .. warning:: This section about anaconda is experimental and has not
              been tested. We are looking for contributors that help
@@ -428,6 +443,11 @@ reason we recommend not to use it. If you find ways to get it to work
 reliably with other versions, please let us know and we update this
 tutorial.
 
+To install cloudmesh cmd5 please use::
+
+  $ pip install cloudmesh.cmd5
+  $ pip install cloudmesh.sys
+  
    
 Excersise
 """""""""
