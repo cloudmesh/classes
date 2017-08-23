@@ -65,12 +65,22 @@ values of X) and the Rallying cry of course: Use Clouds running Data
 Analytics Collaboratively processing Big Data to solve problems in
 X-Informatics (or e-X). 
 
+.. comment:: old link to 2016 is reserved
+
+   Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
+
+   Overall Introduction Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
+                  
+
 .. todo:: The slides or videos are going to be updated 
           
+          https://iu.box.com/s/qze1sfggref5gzfix253wde20ne49ikz
 
           Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
 
           Overall Introduction  Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
+          
+          Overall Introduction Video: f:`youtube <https://youtu.be/CRYz3iTJxRQ>`_
 
 Overview of Topics
 ^^^^^^^^^^^^^^^^^^
@@ -191,7 +201,11 @@ Pathology, Policy, Radar, Security, Sensor, Social, Sustainability,
 Wealth and Wellness"
 
 .. todo:: The slides or videos are going to be updated  
-          
+
+          Video: `Box <https://iu.box.com/s/8ycztqsdd8v7ju49f0wnb9ur4nw4cc5e>`_
+         
+.. comment:: 2016 video reserved
+
           Video: http://youtu.be/sVNV0NxlQ6A
 
 
@@ -204,7 +218,11 @@ in data science, computer science and the major tech companies
 advertise for new talent.
 
 .. todo:: The slides or videos are going to be updated 
-          
+        
+          Video: `Box <https://iu.box.com/s/499mvs5pof1qz0x7sfplybnf9qz5ub7s>`_
+
+.. comment:: 2016 video reserved
+
           Video: http://youtu.be/h9u7YeKkHHU
 
 
@@ -217,8 +235,16 @@ content, the change in dominant client operating systems, use of
 social media, thriving Chinese internet companies.
 
 .. todo:: The slides or videos are going to be updated  
-          
-          Video: http://youtu.be/EIRIPDYN5nM
+
+          Video A: `Box <https://iu.box.com/s/y76dinn0zs6klbxdxxd4ft54l05zjg83>`_
+
+          Video B: `Box <https://iu.box.com/s/7fx1nkg1c079fnweppg34hvp4d22katn>`_
+
+          Video C: `Box <https://iu.box.com/s/c7itvdw1fzx5p1zrsens252n5j9yp586>`_
+
+.. comment:: 2016 video reserved
+
+         Video: http://youtu.be/EIRIPDYN5nM
 
 Digital Disruption of Old Favorites
 """""""""""""""""""""""""""""""""""
@@ -228,7 +254,11 @@ in some traditional areas including Shopping malls and Postal
 Services.
 
 .. todo:: The slides or videos are going to be updated  
-          
+         
+          Video: `Box <https://iu.box.com/s/4nh8w0kof68ip6u6i71ocbsvzfsom9g5>`_
+
+.. comment:: 2016 video reserved
+
           Video: http://youtu.be/RxGopRuMWOE
 
 
@@ -247,7 +277,13 @@ expected high growth in Infrastructure, Platform and Software as a
 Service.
 
 .. todo:: The slides or videos are going to be updated  
-          
+
+          Video A: `Box <https://iu.box.com/s/lvfth40ba70wbfcgu9lgkqt4dbwigp2r>`_
+
+          Video B: `Box <https://iu.box.com/s/8leh5xg0lhtsa6rqyf96v3af61nwz7ar>`_
+
+.. comment:: 2016 video reserved
+
           Video: http://youtu.be/NBZPQqXKbiw
 
 
@@ -260,7 +296,11 @@ We introduce the 4 paradigms of scientific research with the
 focus on the new fourth data driven methodology.
 
 .. todo:: The slides or videos are going to be updated  
-          
+         
+          Video: `Box <https://iu.box.com/s/xnfdnahl98s7mrjxn2wvr71mg1k48f98>`_
+
+.. comment:: 2016 video reserved
+
           Video: http://youtu.be/2ke459BRBhw
 
 
@@ -273,7 +313,11 @@ wisdom paradigm. Data flows through cloud services transforming itself
 and emerging as new information to input into other transformations.
 
 .. todo:: The slides or videos are going to be updated  
-          
+         
+          Video: `Box <https://iu.box.com/s/v3887x4ez3wcrxuqm06sbef6b99z6q6k>`_
+
+.. comment:: 2016 video reserved
+
           Video: http://youtu.be/j9ytOaBoe2k
 
 Physics-Informatics
