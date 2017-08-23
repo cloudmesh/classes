@@ -53,6 +53,8 @@ Content
    code
    python
    iot
+   lesson/linux/virtualbox
+   lesson/linux/linux
    course/index
    
 Additional Content
