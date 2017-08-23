@@ -47,8 +47,8 @@ Content
 
    preface
    class
-   waitlist
    organization
+   course/introduction
    writing
    code
    python
