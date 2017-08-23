@@ -2,7 +2,7 @@
 
 
 Introduction
----------------
+------------
 
 .. note:: You may find that some videos may have a different lesson,
 	  section or unit number. Please ignore this. In case the
@@ -57,7 +57,7 @@ MapReduce are described.
 
 
 Course Introduction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 We provide a short introduction to the course covering it's
 content and structure. It presents the X-Informatics fields (defined
@@ -176,9 +176,9 @@ economic imperative, computing model, research model, Opportunities in
 advancing computing, Opportunities in X-Informatics, Data Science
 Education
 
-Video: `Box <https://iu.box.com/s/qze1sfggref5gzfix253wde20ne49ikz>`_ (Course Motivation and Emerging Technologies are combined)
+* Video: `Box <https://iu.box.com/s/qze1sfggref5gzfix253wde20ne49ikz>`_ (Course Motivation and Emerging Technologies are combined)
 
-Slide: `PPT <https://iu.box.com/s/su3skkw8crjktoh74smpm782wb9kn2tk>`_
+* Slides: `PPT <https://iu.box.com/s/su3skkw8crjktoh74smpm782wb9kn2tk>`_
          
 .. comment:: 2016 video reserved
 
@@ -186,7 +186,7 @@ Slide: `PPT <https://iu.box.com/s/su3skkw8crjktoh74smpm782wb9kn2tk>`_
 
 
 Data Deluge
-"""""""""""""""""""""
+"""""""""""
 
 We give some amazing statistics for total storage; uploaded
 video and uploaded photos; the social media interactions every minute;
@@ -203,9 +203,8 @@ Finance, Health, Intelligence, Lifestyle, Marketing, Medicine,
 Pathology, Policy, Radar, Security, Sensor, Social, Sustainability,
 Wealth and Wellness"
 
-          Video: `Box <https://iu.box.com/s/8ycztqsdd8v7ju49f0wnb9ur4nw4cc5e>`_
-
-          Slide: `PPT <https://iu.box.com/s/ux8ke0y8r6hw6pkqtix8wm2chemdv0jz>`_
+* Video: `Box <https://iu.box.com/s/8ycztqsdd8v7ju49f0wnb9ur4nw4cc5e>`_
+* Slides: `PPT <https://iu.box.com/s/ux8ke0y8r6hw6pkqtix8wm2chemdv0jz>`_
          
 .. comment:: 2016 video reserved
 
@@ -214,15 +213,15 @@ Wealth and Wellness"
 
 
 Jobs
-"""""""""""""""
+""""
 
 Jobs abound in clouds and data science. There are documented shortages
 in data science, computer science and the major tech companies
 advertise for new talent.
 
-          Video: `Box <https://iu.box.com/s/tiqq12zepqcbrf0cwimjiyo6gl0sy6l9>`_
+* Video: `Box <https://iu.box.com/s/tiqq12zepqcbrf0cwimjiyo6gl0sy6l9>`_
 
-          Slide: `PPT <https://iu.box.com/s/fz3pzgxqxwscblhszw6m39gyo3ghp3kz>`_
+* Slides: `PPT <https://iu.box.com/s/fz3pzgxqxwscblhszw6m39gyo3ghp3kz>`_
 
 .. comment:: 2016 video reserved
 
@@ -237,17 +236,12 @@ comparative decrease in desktop access, the export of internet
 content, the change in dominant client operating systems, use of
 social media, thriving Chinese internet companies.
 
-          Video A: `Box <https://iu.box.com/s/y76dinn0zs6klbxdxxd4ft54l05zjg83>`_
-
-          Slide A: `PPT <https://iu.box.com/s/6wqebjoqsigb2au3eokyw9wx6pldqdx3>`_
-
-          Video B: `Box <https://iu.box.com/s/7fx1nkg1c079fnweppg34hvp4d22katn>`_
-
-          Slide B: `PPT <https://iu.box.com/s/mvde8q5f10k7zetlcm0mgh8xtvobwjwq>`_
-
-          Video C: `Box <https://iu.box.com/s/c7itvdw1fzx5p1zrsens252n5j9yp586>`_
-
-          Slide C: `PPT <https://iu.box.com/s/crkdar0yh0axro6jb4h4bc8x50ez1xsw>`_
+* Video A: `Box <https://iu.box.com/s/y76dinn0zs6klbxdxxd4ft54l05zjg83>`_
+* Slides A: `PPT <https://iu.box.com/s/6wqebjoqsigb2au3eokyw9wx6pldqdx3>`_
+* Video B: `Box <https://iu.box.com/s/7fx1nkg1c079fnweppg34hvp4d22katn>`_
+* Slides B: `PPT <https://iu.box.com/s/mvde8q5f10k7zetlcm0mgh8xtvobwjwq>`_
+* Video C: `Box <https://iu.box.com/s/c7itvdw1fzx5p1zrsens252n5j9yp586>`_
+* Slides C: `PPT <https://iu.box.com/s/crkdar0yh0axro6jb4h4bc8x50ez1xsw>`_
 
 .. comment:: 2016 video reserved
 
@@ -260,9 +254,8 @@ Not everything goes up. The rise of the Internet has led to declines
 in some traditional areas including Shopping malls and Postal
 Services.
 
-          Video: `Box <https://iu.box.com/s/4nh8w0kof68ip6u6i71ocbsvzfsom9g5>`_
-
-          Slide: `PPT <https://iu.box.com/s/rz79glfr9r9q54kg3nxizj0ww9kpn4rt>`_
+* Video: `Box <https://iu.box.com/s/4nh8w0kof68ip6u6i71ocbsvzfsom9g5>`_
+* Slides: `PPT <https://iu.box.com/s/rz79glfr9r9q54kg3nxizj0ww9kpn4rt>`_
 
 .. comment:: 2016 video reserved
 
@@ -283,13 +276,10 @@ consolidation. Then key characteristics of clouds are reviewed with
 expected high growth in Infrastructure, Platform and Software as a
 Service.
 
-          Video A: `Box <https://iu.box.com/s/lvfth40ba70wbfcgu9lgkqt4dbwigp2r>`_
-
-          Slide A: `PPT <https://iu.box.com/s/e4flickhqxv9m340s9ce3bhfyl6lxya4>`_
-
-          Video B: `Box <https://iu.box.com/s/8leh5xg0lhtsa6rqyf96v3af61nwz7ar>`_
-
-          Slide B: `PPT <https://iu.box.com/s/5mfjgep7jkza45p88ko02llqt88ktbpd>`_
+* Video A: `Box <https://iu.box.com/s/lvfth40ba70wbfcgu9lgkqt4dbwigp2r>`_
+* Slides A: `PPT <https://iu.box.com/s/e4flickhqxv9m340s9ce3bhfyl6lxya4>`_
+* Video B: `Box <https://iu.box.com/s/8leh5xg0lhtsa6rqyf96v3af61nwz7ar>`_
+* Slides B: `PPT <https://iu.box.com/s/5mfjgep7jkza45p88ko02llqt88ktbpd>`_
 
 .. comment:: 2016 video reserved
 
@@ -304,9 +294,8 @@ Research Model
 We introduce the 4 paradigms of scientific research with the
 focus on the new fourth data driven methodology.
 
-          Video: `Box <https://iu.box.com/s/xnfdnahl98s7mrjxn2wvr71mg1k48f98>`_
-
-          Slide: `PPT <https://iu.box.com/s/q442jzt643jg81s8r8fb0v47fgsj7i5n>`_
+* Video: `Box <https://iu.box.com/s/xnfdnahl98s7mrjxn2wvr71mg1k48f98>`_
+* Slides: `PPT <https://iu.box.com/s/q442jzt643jg81s8r8fb0v47fgsj7i5n>`_
 
 .. comment:: 2016 video reserved
 
@@ -321,9 +310,8 @@ We introduce the DIKW data to information to knowledge to
 wisdom paradigm. Data flows through cloud services transforming itself
 and emerging as new information to input into other transformations.
 
-          Video: `Box <https://iu.box.com/s/v3887x4ez3wcrxuqm06sbef6b99z6q6k>`_
-
-          Slide: `PPT <https://iu.box.com/s/1l3tuhbe2xx2njxqboywi0u3rcko765v>`_
+* Video: `Box <https://iu.box.com/s/v3887x4ez3wcrxuqm06sbef6b99z6q6k>`_
+* Slides: `PPT <https://iu.box.com/s/1l3tuhbe2xx2njxqboywi0u3rcko765v>`_
 
 .. comment:: 2016 video reserved
 
