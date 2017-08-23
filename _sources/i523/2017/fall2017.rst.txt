@@ -165,6 +165,7 @@ Informatics Graduate Online::
                  Above class for students not in residence on the Bloomington
                  campus
 
+                 
 
 Informatics Undergraduate::
 
@@ -175,7 +176,17 @@ Informatics Undergraduate::
                  Discussion (DIS)
             CLSD 13994 RSTR     09:30A-10:45A   F      I2 150    Von Laszewski G
                  Above class meets with INFO-I 523
-                         
+
+Topics in Intelligent Systems Engeneering::
+  
+        ENGR-E 599  TOPICS IN INTELL SYS ENGINEER (3 CR)
+           VT: BIG DATA SOFTWARE AND PROJECTS
+              ***** RSTR     ARR             ARR    ARR       Von Laszewski G           
+                 Discussion (DIS)
+           VT: BIG DATA SOFTWARE AND PROJECTS
+              33924 RSTR     09:30A-10:45A   M      I2 130    Von Laszewski G           
+                 Above class meets with INFO-I 524
+                 
 
 Waitlist
 --------
@@ -306,10 +317,14 @@ following time according to the information provieded by the
 registrar.
 
 
-* 01:00P-02:15P  ENGR-E 534 Smith Research Center, 151E
+* 01:00P-02:15P  Friday ENGR-E 534 Smith Research Center, 151E
 
-* 09:30A-10:45A  I523/I423 other residential,  I2 150 
+* 09:30A-10:45A  Friday I523/I423 other residential,  I2 150
 
+* 09:30A-10:45A  Monday E599 I2 130  Intelligent Systems Engeneering   
+
+We like to move the Monday class to Friday
+  
 
 Office Hours
 ============

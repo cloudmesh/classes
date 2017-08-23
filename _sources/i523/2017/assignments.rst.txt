@@ -10,16 +10,21 @@ Using Piazza
 * Piazza.1
 * Piazza.2
 
-Learning about Git Pull Requests while using the Class web page as example. Only make small changes based on a paragraph and create a pull request for it.
+Please create the following accounts
+
+* https://www.chameleoncloud.org/ 
+* https://portal.futuresystems.org/
+* Organization.2: https://github.com 
+  
+Learning about Git Pull Requests while using the Class web page as
+example. Only make small changes based on a paragraph and create a
+pull request for it. 
 
 * Contrib.1
-
-Add yourself to Gitlab
-
-* Gitlab.i523.1
-* Gitlab.i523.2
 
 Learn Python and do
 
 * Python.1
 * CMD5.2
+
+  
