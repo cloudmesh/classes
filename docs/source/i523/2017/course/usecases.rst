@@ -25,7 +25,9 @@ Taxonomies Subgroup, Reference Architecture Subgroup, Security and
 Privacy Subgroup, Technology Roadmap Subgroup and the Requirements and
 Use Case Subgroup. The work of latter is continued in next two units.
 
-Slides: https://iu.app.box.com/s/bgr7lyaz7uazcarangqd
+.. todo:: The slides or videos are going to be updated
+
+          Slides: https://iu.app.box.com/s/bgr7lyaz7uazcarangqd
 
 
 Introduction to NIST Big Data Public Working Group (NBD-PWG) Process
@@ -42,7 +44,9 @@ computing platforms and clusters while allowing value-added from big
 data service providers and flow of data between the stakeholders in a
 cohesive and secure manner.
 
-Video: http://youtu.be/ofRfHBKpyvg
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/ofRfHBKpyvg
 
 
 
@@ -65,7 +69,9 @@ from all stakeholders, categorize them into components and
 subcomponents based on their similarities and differences. In
 particular data Science and Big Data terms are discussed.
 
-Video: http://youtu.be/sGshHN-DdbE
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/sGshHN-DdbE
 
 Reference Architecture Subgroup
 """""""""""""""""""""""""""""""
@@ -81,7 +87,9 @@ the flow of the data between the stakeholders in a cohesive and secure
 manner. Results include a reference architecture with well defined
 components and linkage as well as several exemplars.
 
-Video: http://youtu.be/JV596ZH36YA
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/JV596ZH36YA
 
 
 Security and Privacy Subgroup
@@ -100,7 +108,9 @@ Traffic Analysis, Healthcare, Health Information Exchange, Genetic
 Privacy, Pharma Clinical Trial Data Sharing, Cyber-security,
 Government, Military and Education.
 
-Video: http://youtu.be/Gbk0LaWE3lM
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/Gbk0LaWE3lM
 
 Technology Roadmap Subgroup
 """""""""""""""""""""""""""
@@ -120,7 +130,9 @@ analysis and document the findings; identify what possible barriers
 may delay or prevent adoption of Big Data; and document vision and
 recommendations.
 
-Video: http://youtu.be/GCc9yfErmd0
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/GCc9yfErmd0
 
 
 
@@ -142,7 +154,9 @@ explicitly implementing some patterns based on use cases. The progress
 of gathering use cases (discussed in next two units) and requirements
 systemization are discussed.
 
-Video: http://youtu.be/sztqNXJ9P6c
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/sztqNXJ9P6c
 
 
 Requirements and Use Case Subgroup Introduction II
@@ -162,7 +176,9 @@ explicitly implementing some patterns based on use cases. The progress
 of gathering use cases (discussed in next two units) and requirements
 systemization are discussed.
 
-Video: http://youtu.be/0sbfIqHUauI
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/0sbfIqHUauI
 
 
 
@@ -183,7 +199,9 @@ explicitly implementing some patterns based on use cases. The progress
 of gathering use cases (discussed in next two units) and requirements
 systemization are discussed.
 
-Video: http://youtu.be/u59559nqjiY
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/u59559nqjiY
 
 
 Resources

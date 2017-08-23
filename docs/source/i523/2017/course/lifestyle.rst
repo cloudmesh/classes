@@ -65,10 +65,9 @@ humble ranking has become such a dominant driver of the world's
 economy.
 
 
-
-
-
-Slides: https://iu.app.box.com/s/v2coa6mxql12iax4yc8f
+.. todo:: The slides or videos are going to be updated  
+          
+          Slides: https://iu.app.box.com/s/v2coa6mxql12iax4yc8f
 
 
 
@@ -80,7 +79,9 @@ people or perhaps collections of items to collections of people where
 items can be other people, products in a store, movies, jobs, events,
 web pages etc. We present this as "yet another optimization problem".
 
-https://youtu.be/rymBt1kdyVU
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: https://youtu.be/rymBt1kdyVU
 
 
 Recommender Systems Introduction
@@ -94,7 +95,9 @@ contrast recommender systems based on user profile and context; the
 most familiar collaborative filtering of others ranking; item
 properties; knowledge and hybrid cases mixing some or all of these.
 
-https://youtu.be/KbjBKrzFYKg
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: https://youtu.be/KbjBKrzFYKg
 
 
 Kaggle Competitions
@@ -103,7 +106,9 @@ Kaggle Competitions
 We look at Kaggle competitions with examples from web site. In
 particular we discuss an Irvine class project involving ranking jokes.
 
-https://youtu.be/DFH7GPrbsJA
+.. todo:: The slides or videos are going to be updated 
+          
+          Videohttps://youtu.be/DFH7GPrbsJA
 
 
 
@@ -114,7 +119,9 @@ Examples of Recommender Systems
 We go through a list of 9 recommender systems from the same Irvine
 class.
 
-https://youtu.be/1Eh1epQj-EQ
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: https://youtu.be/1Eh1epQj-EQ
 
 
 Netflix on Recommender Systems I
@@ -134,8 +141,11 @@ Netflix Kaggle competition to improve its rating system. The analogy
 to maximizing click through rate is given and the objectives of
 optimization are given.
 
-Video 1: https://youtu.be/tXsU5RRAD-w
-Video 2: https://youtu.be/GnAol5aGuEo
+.. todo:: The slides or videos are going to be updated 
+          
+          Video 1: https://youtu.be/tXsU5RRAD-w
+
+          Video 2: https://youtu.be/GnAol5aGuEo
 
 
 Consumer Data Science
@@ -151,7 +161,10 @@ interface, data, AB testing, systems and architectures. We comment on
 optimizing for a household rather than optimizing for individuals in
 household.
 
-https://youtu.be/B8cjaOQ57LI
+
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: https://youtu.be/B8cjaOQ57LI
 
 
 Resources
@@ -182,8 +195,9 @@ in user rankings to predict their interests, and the Pearson
 correlation, used to statistically quantify correlations between users
 viewed as points in a space of items.
 
-
-Slides: https://iu.app.box.com/s/pqa1xpk7g4jnr7k2xlbe
+.. todo:: The slides or videos are going to be updated 
+          
+          Slides: https://iu.app.box.com/s/pqa1xpk7g4jnr7k2xlbe
 
 
 Recap and Examples of Recommender Systems
@@ -192,7 +206,9 @@ Recap and Examples of Recommender Systems
 We start with a quick recap of recommender systems from previous unit;
 what they are with brief examples.
 
-https://youtu.be/dcdm5AfGZ64
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: https://youtu.be/dcdm5AfGZ64
 
 
 
@@ -202,7 +218,9 @@ Examples of Recommender Systems
 We give 2 examples in more detail: namely Google News and Markdown in
 Retail.
 
-https://youtu.be/og07mH9fU0M
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: https://youtu.be/og07mH9fU0M
 
 
 Recommender Systems in Yahoo Use Case Example I
@@ -221,11 +239,13 @@ stress that if though we have big data, the recommender data is
 sparse. We discuss the approach that involves both batch (offline) and
 on-line (real time) components.
 
-Video 1: https://youtu.be/FBn7HpGFNvg
+.. todo:: The slides or videos are going to be updated 
+          
+          Video 1: https://youtu.be/FBn7HpGFNvg
 
-Video 2: https://youtu.be/VS2Y4lAiP5A
+          Video 2: https://youtu.be/VS2Y4lAiP5A
 
-Video 3: https://youtu.be/HrRJWEF8EfU
+          Video 3: https://youtu.be/HrRJWEF8EfU
 
 
 
@@ -239,9 +259,11 @@ rankings allow one to predict their interests, and typically this
 quantified by the Pearson correlation, used to statistically quantify
 correlations between users.
 
-Video 1: https://youtu.be/lsf_AE-8dSk
+.. todo:: The slides or videos are going to be updated 
+          
+          Video 1: https://youtu.be/lsf_AE-8dSk
 
-Video 2: https://youtu.be/U7-qeX2ItPk
+          Video 2: https://youtu.be/U7-qeX2ItPk
 
 Vector Space Formulation of Recommender Systems
 """""""""""""""""""""""""""""""""""""""""""""""
@@ -250,7 +272,9 @@ We go through recommender systems thinking of them as formulated in a
 funny vector space. This suggests using clustering to make
 recommendations.
 
-https://youtu.be/IlQUZOXlaSU
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: https://youtu.be/IlQUZOXlaSU
 
 
 Resources
@@ -268,7 +292,9 @@ the k Nearest Neighbors algorithm. General features like the curse of
 dimensionality in high dimensions are discussed.
 
 
-Slides: https://iu.app.box.com/s/fvrwds7zd65m79a7uur3
+.. todo:: The slides or videos are going to be updated 
+          
+          Slides: https://iu.app.box.com/s/fvrwds7zd65m79a7uur3
 
 
 Item-based Collaborative Filtering I
@@ -283,9 +309,12 @@ optimizations and how batch processing can help. We discuss different
 Likert ranking scales and issues with new items that do not have a
 significant number of rankings.
 
-Video 1: https://youtu.be/25sBgh3HwxY
+.. todo:: The slides or videos are going to be updated 
+          
 
-Video 2: https://youtu.be/SM8EJdAa4mw
+          Video 1: https://youtu.be/25sBgh3HwxY
+
+          Video 2: https://youtu.be/SM8EJdAa4mw
 
 
 k Nearest Neighbors and High Dimensional Spaces
@@ -297,4 +326,6 @@ describe performance issues. This algorithm illustrates the curse of
 dimensionality. If items were a real vectors in a low dimension space,
 there would be faster solution methods.
 
-https://youtu.be/2NqUsDGQDy8
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: https://youtu.be/2NqUsDGQDy8

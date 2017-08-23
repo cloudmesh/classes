@@ -15,7 +15,9 @@ ubiquitous or smart cities and homes including U-Korea; and finally
 the smart electric grid.
 
 
-Slides: https://iu.box.com/s/9a5y7p7xvhjqgrc9zjob8gorv3ft4kyq
+.. todo:: The slides or videos are going to be updated
+
+          Slides: https://iu.box.com/s/9a5y7p7xvhjqgrc9zjob8gorv3ft4kyq
 
 
 Internet of Things
@@ -30,7 +32,9 @@ drones and self driving cars and more generally transportation
 systems. The lesson gives many examples of distributed sensors, which
 form a Grid that is controlled by a cloud.
 
-https://youtu.be/fFMvxYW6Yu0
+.. todo:: The slides or videos are going to be updated
+
+          Video: https://youtu.be/fFMvxYW6Yu0
 
 
 Robotics and IOT Expectations
@@ -38,7 +42,9 @@ Robotics and IOT Expectations
 
 Examples of Robots and Drones.
 
-https://youtu.be/VqXvn0dwqxs
+.. todo:: The slides or videos are going to be updated
+
+          Video: https://youtu.be/VqXvn0dwqxs
 
 
 Industrial Internet of Things
@@ -46,8 +52,12 @@ Industrial Internet of Things
 
 We summarize surveys and expectations Industry wide.
 
-* Video 1: https://youtu.be/jqQJjtTEsEo
-* Video 2: https://youtu.be/YiIvQRCi3j8
+
+.. todo:: The slides or videos are going to be updated
+
+          Video 1: https://youtu.be/jqQJjtTEsEo
+
+          Video 2: https://youtu.be/YiIvQRCi3j8
 
 
 
@@ -60,7 +70,9 @@ it. The performance of system is measured in terms of processing
 latency as a function of number of involved sensors with each
 delivering data at 1.8 Mbps rate.
 
-https://youtu.be/0egT1FsVGrU
+.. todo:: The slides or videos are going to be updated
+
+          Video: https://youtu.be/0egT1FsVGrU
 
 
 Earth/Environment/Polar Science data gathered by Sensors
@@ -72,7 +84,9 @@ the CReSIS polar remote sensing project and then looks at the NSF
 Ocean Observing Initiative and NASA's MODIS or Moderate Resolution
 Imaging Spectroradiometer instrument on a satellite.
 
-https://youtu.be/CS2gX7axWfI
+.. todo:: The slides or videos are going to be updated
+
+          Video: https://youtu.be/CS2gX7axWfI
 
 
 Ubiquitous/Smart Cities
@@ -81,7 +95,9 @@ Ubiquitous/Smart Cities
 For Ubiquitous/Smart cities we give two examples: Iniquitous Korea and
 smart electrical grids.
 
-https://youtu.be/MFFIItQ3SOo
+.. todo:: The slides or videos are going to be updated
+
+          Video: https://youtu.be/MFFIItQ3SOo
 
 
 
@@ -95,7 +111,9 @@ of life and GDP. U-Korea aims to improve the latter by Pervasive
 computing, everywhere, anytime i.e. by spreading sensors
 everywhere. The example of a 'High-Tech Utopia' New Songdo is given.
 
-https://youtu.be/wdot23r4YKs
+.. todo:: The slides or videos are going to be updated
+
+          Video: https://youtu.be/wdot23r4YKs
 
 
 Smart Grid
@@ -108,12 +126,16 @@ variety of new instruments include smart meters, power monitors, and
 measures of solar irradiance, wind speed, and temperature. One goal is
 autonomous local power units where good use is made of waste heat.
 
-https://youtu.be/m3eX8act0GU
+.. todo:: The slides or videos are going to be updated
+
+          Video: https://youtu.be/m3eX8act0GU
 
 
 
 Resources
 ^^^^^^^^^
+
+.. todo:: The slides or videos are going to be updated
 
 * https://www.gesoftware.com/minds-and-machines
 * https://www.gesoftware.com/predix
@@ -124,4 +146,4 @@ Resources
 * http://www.getransportation.com/railconnect360/rail-landscape
 * http://www.gesoftware.com/sites/default/files/GE-Software-Modernizing-Machine-to-Machine-Interactions.pdf
 
-.. _S15:
+

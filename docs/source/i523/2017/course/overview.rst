@@ -50,7 +50,9 @@ Information to Knowledge to Wisdom) pipeline. Then more detail is
 given on the flood of data from Internet and Industry applications
 with eBay and General Electric discussed in most detail.
 
-Slides: https://iu.box.com/s/rmnw3soy81kc82a5qzow
+.. todo:: The slides or videos are going to be updated 
+          
+          Slides: https://iu.box.com/s/rmnw3soy81kc82a5qzow
 
 
 
@@ -64,8 +66,9 @@ Use Clouds running Data Analytics Collaboratively processing Big Data
 to solve problems in X-Informatics. We list many values of X you can
 defined in various activities across the world.
 
-
-Video: http://youtu.be/AKkyWF95Fp4
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/AKkyWF95Fp4
 
 Jobs
 """"
@@ -76,7 +79,9 @@ reports by Microsoft and the McKinsey institute respectively. We show
 a plot from LinkedIn showing rapid increase in the number of data
 science and analytics jobs as a function of time.
 
-Video: http://youtu.be/pRlfEigUJAc
+.. todo:: The slides or videos are going to be updated 
+          
+          Video: http://youtu.be/pRlfEigUJAc
 
 
 Data Deluge: General Structure
@@ -89,7 +94,9 @@ how it is integrated into an enterprise IT architecture. We give some
 views as to what characterizes Big data and why data science is a
 science that is needed to interpret all the data.
 
-Video: http://youtu.be/mPJ9twAFRQU
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/mPJ9twAFRQU
 
 Data Science: Process
 """""""""""""""""""""
@@ -99,7 +106,9 @@ knowledge and then wisdom, policy and decisions. This pipeline is
 illustrated with Google maps and we show how complex the ecosystem of
 data, transformations (filters) and its derived forms is.
 
-Video: http://youtu.be/ydH34L-z0Rk
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/ydH34L-z0Rk
 
 
 
@@ -110,7 +119,9 @@ We give examples of Big data from the Internet with Tweets, uploaded
 photos and an illustration of the vitality and size of many commodity
 applications.
 
-Video: http://youtu.be/rtuq5y2Bx2g
+.. todo:: The slides or videos are going to be updated  
+          
+          Video: http://youtu.be/rtuq5y2Bx2g
 
 
 
@@ -124,11 +135,13 @@ offline in shopping malls. We give examples from ebay showing how
 analytics allowing them to refine and improve the customer
 experiences.
 
-Video 1: http://youtu.be/PJz38t6yn_s
+.. todo:: The slides or videos are going to be updated  
+          
+          Video 1: http://youtu.be/PJz38t6yn_s
+          
+          Video 2: http://youtu.be/fESm-2Vox9M
 
-Video 2: http://youtu.be/fESm-2Vox9M
-
-Video 3: http://youtu.be/fcvn-IxPO00
+          Video 3: http://youtu.be/fcvn-IxPO00
 
 
 Resources
@@ -166,9 +179,9 @@ individually modest data adding up to a lot. The last lesson
 emphasizes how everyday devices ~~ the Internet of Things ~~ are being
 used to create a wealth of data.
 
-
-
-Slides: https://iu.box.com/s/e73lyv9sx7xcaqymb2n6
+.. todo:: The slides or videos are going to be updated  
+          
+          Slides: https://iu.box.com/s/e73lyv9sx7xcaqymb2n6
 
 
 
@@ -181,9 +194,11 @@ discovery of Higgs particle (Covered in more detail in later lessons),
 European Bioinformatics Institute and contrast to Facebook and
 Walmart.
 
-Video 1: http://youtu.be/u1h6bAkuWQ8
+.. todo:: The slides or videos are going to be updated
 
-Video 2: http://youtu.be/_JfcUg2cheg
+          Video 1: http://youtu.be/u1h6bAkuWQ8
+
+          Video 2: http://youtu.be/_JfcUg2cheg
 
 
 Implications for Scientific Method
@@ -194,7 +209,9 @@ research based on data driven inquiry. We contrast this with third ~~
 computation or simulation based discovery - methodology which emerged
 itself some 25 years ago.
 
-Video: http://youtu.be/srEbOAmU_g8
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/srEbOAmU_g8
 
 
 
@@ -206,7 +223,9 @@ experiment has 3000 people collaborate!.Then there are individual
 investigators who don't generate a lot of data each but together they
 add up to Big data.
 
-Video: http://youtu.be/dwzEKEGYhqE
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/dwzEKEGYhqE
 
 
 Internet of Things
@@ -216,7 +235,9 @@ A final category of Big data comes from the Internet of Things where
 lots of small devices ~~ smart phones, web cams, video games collect
 and disseminate data and are controlled and coordinated in the cloud.
 
-Video: http://youtu.be/K2anbyxX48w
+.. todo:: The slides or videos are going to be updated
+
+          Video: http://youtu.be/K2anbyxX48w
 
 
 Resources
