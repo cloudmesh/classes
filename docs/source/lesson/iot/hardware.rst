@@ -180,7 +180,7 @@ Grove Sensors
 
 Grove sensors have ready-made cables that make them easy to attach to
 the Raspberry PI. However, they are more expensive. You still need a
-Raspberry PI. No soldering iron and no breadboards are required.
+Raspberry PI. And a GrovePi board. No soldering iron and no breadboards are required.
 
 -  `Grove Starter
    Set <https://www.seeedstudio.com/Grove-Starter-Kit-for-Arduino-p-1855.html>`__
