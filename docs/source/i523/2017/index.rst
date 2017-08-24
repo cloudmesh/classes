@@ -41,22 +41,18 @@ Content
 -------
 
 .. toctree::
-   :caption: Course I523 Fall 2017
+   :caption: i523
    :maxdepth: 2
    :numbered:              
 
-   preface
-   class
-   organization
-   course/introduction
-   writing
-   code
-   python
-   iot
-   lesson/linux/virtualbox
-   lesson/linux/linux
+   index-organization
+   index-writing
    course/index
-   
+   index-practice
+
+
+
+      
 Additional Content
 ------------------
 
