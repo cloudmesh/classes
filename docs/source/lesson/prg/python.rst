@@ -68,7 +68,7 @@ end of this lesson you will be able to:
 - understand the basic syntax of Python
 - write and run Python programs stored in a file
 - have an overview of the standard library
-- install Python libraries using ``pyenv`` or ``virtualenv``
+- install Python libraries using ``pyenv`` or if it is not avalable ``virtualenv``
 
 This tutorial does not attempt to be comprehensive and cover every
 single feature, or even every commonly used feature. Instead, it

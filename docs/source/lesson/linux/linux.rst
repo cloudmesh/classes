@@ -117,6 +117,23 @@ short cuts.
           good material provided for a .bash_profile file as part of
           setting up pyenv.
 
+
+Usage of a particular command and all the attributes associated with
+it, use 'man' command. Avoid using 'rm -r' command to delete files
+recursively. A good way to avoid accidental deletion is to include the
+following in your .bash_profile file::
+
+  alias e=open_emacs
+  alias rm='rm -i'
+  alias mv='mv -i' 
+  alias h='history'
+
+More Information
+
+
+https://cloudmesh.github.io/classes/lesson/linux/refcards.html 
+
+   
 Exercise
 --------
 
