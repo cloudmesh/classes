@@ -458,7 +458,13 @@
       
   <div class="section" id="contributing">
 <h1>2.6. Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h1>
-<p>Contributing content to this web page is easy. First, you have to fork
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">We assume you are using a Linux or OSX operating system. If
+you use WIndows, you can use virtual box and install for
+example ubuntu 16.04.</p>
+</div>
+<p>Contributing content to this web page is easy. First, you have to <strong>fork</strong>
 the repository while going to the link:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://github.com/cloudmesh/classes">https://github.com/cloudmesh/classes</a></li>
@@ -466,22 +472,23 @@ the repository while going to the link:</p>
 <p>And press the fork icon. Now you can clone or directly manipulate your
 fork from the web browser. If you clone, you need to make sure you
 clone from your fork.</p>
-<p>We assume you use Python 3.6.1</p>
+<p>We assume you use Python 3.6.2. If not please find instructions on how
+to install it. We recommend that you use pyenv so yo ucan install
+multiole python environments.</p>
 <p>Next, you can cd to the <cite>classes</cite> directory and make the
 modifications. Check them locally with:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
-<span class="n">make</span> <span class="n">html</span>
+<span class="n">make</span>
 <span class="n">make</span> <span class="n">view</span>
 </pre></div>
 </div>
 <p>To change things you can simply edit files in the docs/source
-directory. Commit the changes and push them into your local fork. Now
+directory. Commit the changes and push them into your <strong>local fork</strong>. Now
 you can create on the web page for the classes a pull request.</p>
 <p>If accepted the request will be merged and you will be credited via
-your github account. Make sure you use git config to set your name and e-mail.</p>
-<p>Please also make sure you do not confuse GitHub and gitlab. While this
-web page is located in GitHub, your activities for the class are done
-in gitlab.</p>
+your github account. Make sure you use git config to set your name and
+e-mail. Please remember that pull requests are merged by a human and
+it will take time. This is not an instantemeous action.</p>
 <div class="section" id="exercise">
 <h2>2.6.1. Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
@@ -498,6 +505,43 @@ this already. If they do we bring you in contact with them.</dd>
 <dd>How do you clone from your fork? What is the difference betweem
 your fork and the main repository? How do you identify it is your
 fork you clone from?</dd>
+<dt>Contrib.4:</dt>
+<dd><p class="first">We use the creation of the class Web site on your computer to
+benchmark your machine. This benchmark will be used as part of some
+class assignments. To do so execute the follwoing and write
+down/copy the times you get:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">clean</span>
+<span class="n">time</span> <span class="n">make</span>
+</pre></div>
+</div>
+<p>You will see something like:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">real</span>       <span class="mi">2</span><span class="n">m36</span><span class="o">.</span><span class="mi">662</span><span class="n">s</span>
+<span class="n">user</span>       <span class="mi">2</span><span class="n">m34</span><span class="o">.</span><span class="mi">473</span><span class="n">s</span>
+<span class="n">sys</span>        <span class="mi">0</span><span class="n">m1</span><span class="o">.</span><span class="mi">467</span><span class="n">s</span>
+</pre></div>
+</div>
+<p>Now we want you to run it again after you touched a file:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">touch</span> <span class="n">docs</span><span class="o">/</span><span class="n">source</span><span class="o">/</span><span class="n">faq</span><span class="o">.</span><span class="n">rst</span>
+</pre></div>
+</div>
+<p>Now rerun the timed make. You will see an output such as:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">real</span>       <span class="mi">0</span><span class="n">m27</span><span class="o">.</span><span class="mi">853</span><span class="n">s</span>
+<span class="n">user</span>       <span class="mi">0</span><span class="n">m27</span><span class="o">.</span><span class="mi">394</span><span class="n">s</span>
+<span class="n">sys</span>        <span class="mi">0</span><span class="n">m0</span><span class="o">.</span><span class="mi">334</span><span class="n">s</span>
+</pre></div>
+</div>
+<p>The only thing we are interested in is the time behind real, as
+well as some information about your computer, e.g.:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">computer</span><span class="p">:</span> <span class="n">MacBook</span> <span class="n">Pro</span><span class="p">,</span> <span class="mi">15</span><span class="o">-</span><span class="ow">in</span><span class="p">,</span> <span class="mi">2016</span><span class="p">,</span> <span class="mf">2.9</span><span class="n">GHz</span><span class="p">,</span> <span class="mi">16</span><span class="n">GB</span><span class="p">,</span> <span class="mi">2133</span><span class="n">Mhz</span><span class="p">,</span> <span class="n">LPDDR3</span>
+<span class="n">make</span> <span class="n">clean</span><span class="p">:</span> <span class="mi">2</span><span class="n">m36</span><span class="o">.</span><span class="mi">662</span><span class="n">s</span>
+<span class="n">make</span> <span class="n">update</span><span class="p">:</span> <span class="mi">0</span><span class="n">m27</span><span class="o">.</span><span class="mi">853</span><span class="n">s</span>
+<span class="n">python</span><span class="p">:</span> <span class="mf">3.6</span><span class="o">.</span><span class="mi">2</span>
+</pre></div>
+</div>
+<p class="last">We will post a form in which you can enter your information. We
+found that we can use this information to check if you may have an
+issue with your computer or your setup.</p>
+</dd>
 </dl>
 </div>
 </div>

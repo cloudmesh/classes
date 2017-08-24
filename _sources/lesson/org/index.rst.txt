@@ -1,7 +1,7 @@
 Organization
 ============
 
-Any course we teach in the department needs some basic knowledge about
+MAny course we teach in the department needs some basic knowledge about
 linux, programming, cloud computing, and documentation creation. We
 have taken the lessons from a number of courses and made them
 available as general available lessons. This enables you to leverage
