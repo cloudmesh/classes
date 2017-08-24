@@ -41,7 +41,6 @@ Content
 -------
 
 .. toctree::
-   :caption: i523
    :maxdepth: 2
    :numbered:              
 
