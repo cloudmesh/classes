@@ -33,7 +33,7 @@ The raspberry PI 3 is a very good development platform. With its base price of $
 * Good environment for learning Linux and Python
 * Reasonable interfaces to IoT sensors
 * excellent camera support
-* excelent choice of expansion papcakes including Grove Sensors that make it easy to attach sensors and actuators. An example package is the [Grove Starter Kit](https://www.amazon.com/GrovePi-Starter-Kit-Dexter-Industries/dp/B00TXTZ5SQ/ref=pd_lpo_vtph_147_bs_tr_img_1?_encoding=UTF8&psc=1&refRID=45QX6XSNZAG1NT8NES79) for about $90
+* excellent choice of expansion packages including Grove Sensors that make it easy to attach sensors and actuators. An example package is the [Grove Starter Kit](https://www.amazon.com/GrovePi-Starter-Kit-Dexter-Industries/dp/B00TXTZ5SQ/ref=pd_lpo_vtph_147_bs_tr_img_1?_encoding=UTF8&psc=1&refRID=45QX6XSNZAG1NT8NES79) for about $90
 
 
 
@@ -45,7 +45,7 @@ The raspberry PI 3 is a very good development platform. With its base price of $
 
 ## ESP8266 Robot Car Kit
 
-The ESP8266 has many variants. Some of which are difficult to interface with. However, this does not apply for the ESP8266 NodeMCU. This board is originally flashed with *Lua*, however it can easily be reflashed with MicroPython. In addition it is often offered as part of a platform to develop a robot car. There are argubly better kits available, but the proice of $24 for the entire kit is hard to beat. Unfortunately the version of python, as well as the limited memory make the esp8266 not a full fledged platform for python programming and you will quickly see its limitations. Interfacing with it, however, as an IoT device will gain you a lot of insides.
+The ESP8266 has many variants. Some of which are difficult to interface with. However, this does not apply for the ESP8266 NodeMCU. This board is originally flashed with *Lua*, however it can easily be reflashed with MicroPython. In addition it is often offered as part of a platform to develop a robot car. There are argubly better kits available, but the proice of $24 for the entire kit is hard to beat. Unfortunately the version of python, as well as the limited memory make the esp8266 not a full fledged platform for python programming and you will quickly see its limitations. Interfacing with it, however, as an IoT device will gain you a lot of insights.
 
 *Configuration:*
 
@@ -78,7 +78,7 @@ However it does not include a breadboard like other kits. Hence we recommend tha
 
 
 * $29.99 [shark](https://www.amazon.com/Swimmer-Inflatable-Flying-Replacement-Balloon/dp/B00658LN3E/ref=pd_bxgy_21_img_2?_encoding=UTF8&pd_rd_i=B00658LN3E&pd_rd_r=F71N2YCYE6Z0BCCEPQJC&pd_rd_w=AwYab&pd_rd_wg=rHTnv&psc=1&refRID=F71N2YCYE6Z0BCCEPQJC)
-	* cheaper ballones leak
+	* cheaper balloons leak
 	* before assembly and putting gas in make sure components work. 
 	* gas will last typically for one week
 	* $39.99 gas can be purchased in party store 
