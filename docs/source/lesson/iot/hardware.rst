@@ -131,7 +131,7 @@ Fish Kit
    `shark <https://www.amazon.com/Swimmer-Inflatable-Flying-Replacement-Balloon/dp/B00658LN3E/ref=pd_bxgy_21_img_2?_encoding=UTF8&pd_rd_i=B00658LN3E&pd_rd_r=F71N2YCYE6Z0BCCEPQJC&pd_rd_w=AwYab&pd_rd_wg=rHTnv&psc=1&refRID=F71N2YCYE6Z0BCCEPQJC>`__
 
    -  cheaper balloons leak
-   -  before assembly and putting gas in make sure components work.
+   -  before assembly and putting gas in, make sure components work.
    -  gas will last typically for one week
    -  $39.99 gas can be purchased in party store
 
