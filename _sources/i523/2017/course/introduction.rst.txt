@@ -54,95 +54,133 @@ e-Commerce and Web Search followed by a broad discussion of cloud
 applications. Parallel computing in general and particular features of
 MapReduce are described. 
 
+We discuss in this course include the following topics. We may change
+the order of the topics to allow for maximal flexibility and parallel
+learning experiences.
 
+Writing Track:
 
-Course Introduction
-^^^^^^^^^^^^^^^^^^^
+* Writing a short review article
+* Writing a porject or term report
 
-We provide a short introduction to the course covering it's
-content and structure. It presents the X-Informatics fields (defined
-values of X) and the Rallying cry of course: Use Clouds running Data
-Analytics Collaboratively processing Big Data to solve problems in
-X-Informatics (or e-X). 
-
-.. comment old link to 2016 is reserved
-
-   Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
-
-   Overall Introduction Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
-                  
-
-.. todo:: The slides or videos are going to be updated 
-          
-          https://iu.box.com/s/qze1sfggref5gzfix253wde20ne49ikz
-
-          Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
-
-          Overall Introduction  Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
-          
-          Overall Introduction Video: f:`youtube <https://youtu.be/CRYz3iTJxRQ>`_
-
-Overview of Topics
-^^^^^^^^^^^^^^^^^^
-
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: https://youtu.be/Gpivfx4v5eY
-
-          Video with cc: https://www.youtube.com/watch?v=aqgDnu5fRMM
-
-
-Course Topics I
-"""""""""""""""
-
-Discussion of some of the available units:
+Theory Track:
 
 * Motivation: Big Data and the Cloud; Centerpieces of the Future Economy
 * Introduction: What is Big Data, Data Analytics
-* Python for Big Data Applications and Analytics: NumPy, SciPy, MatPlotlib
-* Using FutureGrid for Big Data Applications and Analytics Course
 * Physics Use Case, Discovery of Higgs Particle; Counting Events and Basic Statistics Parts I-IV.
-
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/9NgG-AUOpYQ
-
-
-Course Topics II
-""""""""""""""""
-
-
-Discussion of some more of the available units:
-
 * Use Cases: Big Data Use Cases Survey
-* Using Plotviz Software for Displaying Point Distributions in 3D
-* Use Case: e-Commerce and Lifestyle with recommender systems
-* Technology Recommender Systems - K-Nearest Neighbors, Clustering and heuristic methods
+
+  * Use Case: e-Commerce and Lifestyle with recommender systems
+  * Use Case: Web Search and Text Mining and their technologies
+  * Use Case: Sports
+  * Use Case: Health
+  * Use Case: Sensors
+  * Use Case: Radar for Remote Sensing.
+
 * Parallel Computing Overview and familiar examples
 * Cloud Technology for Big Data Applications & Analytics
 
-.. todo:: The slides or videos are going to be updated 
-            
-          Video http://youtu.be/pxuyjeLQc54
+  
+Practice Track:
 
-Course Topics III
-"""""""""""""""""
+* Python for Big Data Applications and Analytics: NumPy, SciPy, MatPlotlib
+* Using FutureGrid for Big Data Applications and Analytics Course
+* Using Chameleon Cloud for Big Data Applications and Analytics Course  
+* [optional] Using Plotviz Software for Displaying Point Distributions in 3D
+* Recommender Systems - K-Nearest Neighbors, Clustering and heuristic methods
+* PageRank
+* Kmeans
+* MapReduce
+* Kmeans and MapReduce Parallelism
 
-Discussion of the remainder of the available units:
+..
+  Course Introduction
+  ^^^^^^^^^^^^^^^^^^^
 
-* Use Case: Web Search and Text Mining and their technologies
-* Technology: PageRank
-* Technologypi: Kmeans
-* Technologypi: MapReduce
-* Technologypi: Kmeans and MapReduce Parallelism
-* Use Case: Sports
-* Use Case: Health
-* Use Case: Sensors
-* Use Case: Radar for Remote Sensing.
+  We provide a short introduction to the course covering it's
+  content and structure. It presents the X-Informatics fields (defined
+  values of X) and the Rallying cry of course: Use Clouds running Data
+  Analytics Collaboratively processing Big Data to solve problems in
+  X-Informatics (or e-X). 
 
-.. todo:: The slides or videos are going to be updated 
-            
-          Video: http://youtu.be/rT4thK_i5ig
+  .. comment old link to 2016 is reserved
+
+     Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
+
+     Overall Introduction Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
+
+
+  .. todo:: The slides or videos are going to be updated 
+
+            https://iu.box.com/s/qze1sfggref5gzfix253wde20ne49ikz
+
+            Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
+
+            Overall Introduction  Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
+
+            Overall Introduction Video: f:`youtube <https://youtu.be/CRYz3iTJxRQ>`_
+
+  Overview of Topics
+  ^^^^^^^^^^^^^^^^^^
+
+  .. todo:: The slides or videos are going to be updated 
+
+            Video: https://youtu.be/Gpivfx4v5eY
+
+            Video with cc: https://www.youtube.com/watch?v=aqgDnu5fRMM
+
+
+  Course Topics I
+  """""""""""""""
+
+  Discussion of some of the available units:
+
+  * Motivation: Big Data and the Cloud; Centerpieces of the Future Economy
+  * Introduction: What is Big Data, Data Analytics
+  * Python for Big Data Applications and Analytics: NumPy, SciPy, MatPlotlib
+  * Using FutureGrid for Big Data Applications and Analytics Course
+  * Physics Use Case, Discovery of Higgs Particle; Counting Events and Basic Statistics Parts I-IV.
+
+  .. todo:: The slides or videos are going to be updated 
+
+            Video: http://youtu.be/9NgG-AUOpYQ
+
+
+  Course Topics II
+  """"""""""""""""
+
+
+  Discussion of some more of the available units:
+
+  * Use Cases: Big Data Use Cases Survey
+  * Using Plotviz Software for Displaying Point Distributions in 3D
+  * Use Case: e-Commerce and Lifestyle with recommender systems
+  * Technology Recommender Systems - K-Nearest Neighbors, Clustering and heuristic methods
+  * Parallel Computing Overview and familiar examples
+  * Cloud Technology for Big Data Applications & Analytics
+
+  .. todo:: The slides or videos are going to be updated 
+
+            Video http://youtu.be/pxuyjeLQc54
+
+  Course Topics III
+  """""""""""""""""
+
+  Discussion of the remainder of the available units:
+
+  * Use Case: Web Search and Text Mining and their technologies
+  * Technology: PageRank
+  * Technologypi: Kmeans
+  * Technologypi: MapReduce
+  * Technologypi: Kmeans and MapReduce Parallelism
+  * Use Case: Sports
+  * Use Case: Health
+  * Use Case: Sensors
+  * Use Case: Radar for Remote Sensing.
+
+  .. todo:: The slides or videos are going to be updated 
+
+            Video: http://youtu.be/rT4thK_i5ig
 
 Course Motivation
 ^^^^^^^^^^^^^^^^^

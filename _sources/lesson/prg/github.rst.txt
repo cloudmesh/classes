@@ -105,7 +105,6 @@ change, and cleanup strategy for when a pull request is finished.
 
 Checkout
 --------
-
 Change where and what you're working on with the checkout
 command. Whether we're switching branches, wanting to look at the
 working tree at a specific commit in history, or discarding edits we
@@ -177,5 +176,5 @@ Github.3:
   branch?
 
 Github.4:
-  Find a spelling error in theo Web page or a contribution and create
+  Find a spelling error in the Web page or a contribution and create
   a pull request for it.

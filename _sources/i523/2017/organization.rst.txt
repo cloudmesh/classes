@@ -140,7 +140,7 @@ money time on AWS. Hoever, be careful with the cloud its easy to spend
 lots of money there if you ar enot careful.
 
 Parallel Tracks
---------------
+---------------
 
 In this class we start out with three parallel tracks. You will be doing all of them.
 
@@ -245,7 +245,7 @@ you should not expect to get an A if you yourself are not convinced
 about your project or are unsure about it. Common sense prevales. 
 
 Self Discipline
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 As this class has no graded tests and only few graded homework, we
 like that you deliver an **exceptional** project report or paper.
 Instead of focussing on preparing for tests we provide you with the
