@@ -108,7 +108,15 @@ Juliet Zerick
 Saber Sheybani
 ^^^^^^^^^^^^^^
 
-.. todo:: Saber, please add bio
+.. image:: /images/saber.jpg
+
+**Saber Sheybani** is a PhD student of Intelligent Systems Engineering - 
+Neuroengineering at Indiana University Bloomington. He works with Dr 
+Eleftherios Garyfallidis on medical image processing. He has contributed 
+to DIPY, which is one of the most widely used software packages for 
+Diffusion-MRI data analysis. He has also worked on parameter estimation 
+for biological neural networks with Dr Eduardo Izquierdo. His research 
+interests span the application of computational tools on analyzing neural data.
 
 Grace Yuying Li
 ^^^^^^^^^^^^^^^
