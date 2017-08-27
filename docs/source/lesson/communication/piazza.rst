@@ -392,20 +392,29 @@ will be updated here once this occurs.
 In case you decide to post privately and the information is useful for
 others also, the message will be published to the class.
 
-    
+A convenient post with all folders that are useful to know is posted
+at:
+
+* https://piazza.com/class/j5wll7vzylg25j?cid=103
+
+If you click on the foldername, you can see all posts in that folder.
+
 Exercise
 --------
 
-Piazza.1:
+EPiazza.1:
     Enroll in piazza
 
-Piazza.2:
+EPiazza.2:
     Post a short formal bio in the bio folder (optionally include a professional
-    portrait of yourself). 
+    portrait of yourself). Make sure you understand what a formal bio is.
+
+EPiazza.3:
+    How do you find out within Piazza which assignments have been posted?
+    
 
 .. |image0| image:: images/image3.png
 .. |image1| image:: images/image1.png
 .. |image2| image:: images/image4.png
 .. |image3| image:: images/image2.png
-
 
