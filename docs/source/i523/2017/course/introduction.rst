@@ -67,9 +67,9 @@ Theory Track:
 
 * Motivation: Big Data and the Cloud; Centerpieces of the Future Economy
 * Introduction: What is Big Data, Data Analytics
-* Physics Use Case, Discovery of Higgs Particle; Counting Events and Basic Statistics Parts I-IV.
 * Use Cases: Big Data Use Cases Survey
-
+  
+  * Use Case, Physics Discovery of Higgs Particle
   * Use Case: e-Commerce and Lifestyle with recommender systems
   * Use Case: Web Search and Text Mining and their technologies
   * Use Case: Sports

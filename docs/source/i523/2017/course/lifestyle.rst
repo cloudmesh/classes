@@ -95,9 +95,7 @@ contrast recommender systems based on user profile and context; the
 most familiar collaborative filtering of others ranking; item
 properties; knowledge and hybrid cases mixing some or all of these.
 
-.. todo:: The slides or videos are going to be updated  
-          
-          Video: https://youtu.be/KbjBKrzFYKg
+* Video: https://youtu.be/KbjBKrzFYKg
 
 
 Kaggle Competitions
@@ -106,9 +104,7 @@ Kaggle Competitions
 We look at Kaggle competitions with examples from web site. In
 particular we discuss an Irvine class project involving ranking jokes.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Videohttps://youtu.be/DFH7GPrbsJA
+* Video: https://youtu.be/DFH7GPrbsJA
 
 
 
@@ -119,9 +115,7 @@ Examples of Recommender Systems
 We go through a list of 9 recommender systems from the same Irvine
 class.
 
-.. todo:: The slides or videos are going to be updated  
-          
-          Video: https://youtu.be/1Eh1epQj-EQ
+* Video: https://youtu.be/1Eh1epQj-EQ
 
 
 Netflix on Recommender Systems I
@@ -218,9 +212,7 @@ Examples of Recommender Systems
 We give 2 examples in more detail: namely Google News and Markdown in
 Retail.
 
-.. todo:: The slides or videos are going to be updated  
-          
-          Video: https://youtu.be/og07mH9fU0M
+* Video: https://youtu.be/og07mH9fU0M
 
 
 Recommender Systems in Yahoo Use Case Example I
@@ -259,11 +251,9 @@ rankings allow one to predict their interests, and typically this
 quantified by the Pearson correlation, used to statistically quantify
 correlations between users.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video 1: https://youtu.be/lsf_AE-8dSk
+* Video 1: https://youtu.be/lsf_AE-8dSk
 
-          Video 2: https://youtu.be/U7-qeX2ItPk
+* Video 2: https://youtu.be/U7-qeX2ItPk
 
 Vector Space Formulation of Recommender Systems
 """""""""""""""""""""""""""""""""""""""""""""""
@@ -271,10 +261,8 @@ Vector Space Formulation of Recommender Systems
 We go through recommender systems thinking of them as formulated in a
 funny vector space. This suggests using clustering to make
 recommendations.
-
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: https://youtu.be/IlQUZOXlaSU
+        
+* Video: https://youtu.be/IlQUZOXlaSU
 
 
 Resources
@@ -314,7 +302,8 @@ significant number of rankings.
 
           Video 1: https://youtu.be/25sBgh3HwxY
 
-          Video 2: https://youtu.be/SM8EJdAa4mw
+          
+* Video 2: https://youtu.be/SM8EJdAa4mw
 
 
 k Nearest Neighbors and High Dimensional Spaces
@@ -326,6 +315,4 @@ describe performance issues. This algorithm illustrates the curse of
 dimensionality. If items were a real vectors in a low dimension space,
 there would be faster solution methods.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: https://youtu.be/2NqUsDGQDy8
+* Video: https://youtu.be/2NqUsDGQDy8

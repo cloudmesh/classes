@@ -121,9 +121,8 @@ Medical image Big Data
 Clouds and Health
 """""""""""""""""
 
-.. todo:: The slides or videos are going to be updated 
           
-          Video: http://youtu.be/9Whkl_UPS5g
+* Video: http://youtu.be/9Whkl_UPS5g
 
 
 McKinsey Report on the big-data revolution in US health care
@@ -156,9 +155,8 @@ Science Data, Patient & Consumer Data, Claims & Cost Data and
 Correlational Data. Three approaches are Live data feed, Advanced
 analytics and Social analytics.
 
-.. todo:: The slides or videos are going to be updated 
           
-          Video: http://youtu.be/PjffvVgj1PE
+* Video: http://youtu.be/PjffvVgj1PE
 
 
 
@@ -214,9 +212,7 @@ is discussed. We note that the MDS approach is related to the well
 known chisq method and some aspects of nonlinear minimization of chisq
 (Least Squares) are discussed.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/r1yENstaAUE
+* Video: http://youtu.be/r1yENstaAUE
 
 
 Genomics, Proteomics and Information Visualization II
@@ -239,9 +235,7 @@ emphasizing the importance of visualizing results of data analytics.
 The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/_F1Eo6bfN0w
+* Video: http://youtu.be/_F1Eo6bfN0w
 
 
 Genomics, Proteomics and Information Visualization III
@@ -264,10 +258,11 @@ emphasizing the importance of visualizing results of data analytics.
 The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/R1svGGKipkc
+   
+* Video: http://youtu.be/R1svGGKipkc
 
+.. todo:: The slides or videos are going to be updated
+   
           Slides: https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
 
 
