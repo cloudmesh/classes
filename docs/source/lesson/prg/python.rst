@@ -1745,7 +1745,7 @@ Exercises
 EPython.1:
     Write a python program called `iterate.py` that
     accepts an integer n from the command line.  Pass this integer to
-    a function called `itterate`.
+    a function called `iterate`.
 
     The `iterate` function should then iterate from 1 to n.  If the
     ith number is a multiple of three, print "multiple of 3", if a

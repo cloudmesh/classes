@@ -367,8 +367,8 @@ discussion:
     Any content that deserves its seperate discussion and is not
     covered in the above folder.
 
-In addition te these general folders we also have two folders which
-**MUST NOT BE USED BY ANY STUDENT** to post content. These folders
+In addition to these general folders we also have two folders which
+**MUST NOT BE USED BY ANY STUDENT TO POST CONTENT**. These folders
 serve to communicate your assignments and are used internally between
 Grgeor and the TA's.
 
