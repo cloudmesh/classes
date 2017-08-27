@@ -118,10 +118,15 @@ Diffusion-MRI data analysis. He has also worked on parameter estimation
 for biological neural networks with Dr Eduardo Izquierdo. His research 
 interests span the application of computational tools on analyzing neural data.
 
-Grace Yuying Li
+Grace(Yuying) Li
 ^^^^^^^^^^^^^^^
+.. image:: /images/Grace.jpg
 
-.. todo:: Grace, please add bio
+**Grace(Yuying) Li** is a PhD student of Intelligent Systems Engineering –
+Computer Engineering at Indiana University Bloomington. She received a Master
+Degree in Computer Science from Indiana University Bloomington in 2016. She
+worked with Dr Qin Zhang on Streaming Algorithms, and she contributed to
+Streaming Algorithms Library written by Cython. Her research interest is Algorithms on Autonomous Robotics. 
 
 
 Miao	Jiang
