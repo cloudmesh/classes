@@ -42,23 +42,39 @@ class, but also once you graduate. We will have a special lecture for
 you on this topic and we expect that you provide us with feedback
 about your github username.
 
-Assignments:
+Exercises
+^^^^^^^^^
 
-Organization.1:
+EOrganization.1:
     register for the class
 
-Organization.2:
+EOrganization.2:
      obtain a github.com account
      
-Organization.3:
+EOrganization.3:
      enroll in Piazza via Canvas (see instructions in the class outline)
 
-Organization.4:
+EOrganization.4:
      create a post in Piazza (use the bio folder) (we need to verify
      you can post). Please use a formal Bio and do not use the word
      "I". There are already some examples in Piazza that you can
      follow. Take a look at the bios of the instructors.
-     
+
+EOrganization.4:
+     obtien a chameleon cloud account
+
+EOrganization.5:
+     obtain a futuresystems.org account
+
+.. warning:: Account creation on futuresystems and chameleon is only done
+             during **working hours** and it may take up to 48 hours to get
+             feedback. Do not ask us any questions if the 48 hours have not
+             passed. For example If you ask on Friday after 5pm EST,
+             do not expect to get an asnwer back before Wednesday. As
+             the next working day starts on Monday + 48 hours is at
+             the end of Tuesday, meaning you get feedback back on
+             Wednesday. Thus dependent on when you ask it may take 4
+             days for an answer.
 
 IoT Hardware
 ------------

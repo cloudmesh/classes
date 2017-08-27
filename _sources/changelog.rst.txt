@@ -21,6 +21,7 @@ New
 
 Changes
 ~~~~~~~
+- Add an E before exercises. [Gregor von Laszewski]
 - Corrected mistakes in reference and updated reviewer ID.
   [yatinsharma7]
 - Corrected reference  mistake for S17-IR-2031. [yatinsharma7]
