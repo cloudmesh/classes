@@ -19,16 +19,18 @@ Using Piazza
 * EPiazza.1
 * EPiazza.2
 * EPiazza.3  
+* Eorganization.1
+* Eorganization.2
+* Eorganization.3
+* Eorganization.4
+* Eorganization.5
 
-Please create the following accounts
+How do you find the assignments?:
+    go to the class web page and search for the string `EOrganization`
+    or `EPiazza`. A web link will sho up that contains a section wher
+    you can find details about the assignment.
 
-* https://www.chameleoncloud.org/ 
-* https://portal.futuresystems.org/
-* Organization.2: https://github.com 
-
-Fill out the survey
-  
-Complete within the first week 
+Complete the above within the first week! 
 
 Week 2
 ------
@@ -46,5 +48,8 @@ Learning about Git pull Requests while using the Class web page as
 example. Only make small changes based on a paragraph and create a
 pull request for it. 
 
+* EContrib.0
 * EContrib.1
+* EContrib.5
+
   
