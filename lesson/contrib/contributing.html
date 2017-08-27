@@ -226,7 +226,8 @@
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">5. Contributing</a><ul>
-<li><a class="reference internal" href="#exercise">5.1. Exercise</a></li>
+<li><a class="reference internal" href="#md-vs-rst">5.1. MD vs. RST</a></li>
+<li><a class="reference internal" href="#exercise">5.2. Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -416,7 +417,8 @@
 </ul>
 </li><ul>
 <li><a class="reference internal" href="#">5. Contributing</a><ul>
-<li><a class="reference internal" href="#exercise">5.1. Exercise</a></li>
+<li><a class="reference internal" href="#md-vs-rst">5.1. MD vs. RST</a></li>
+<li><a class="reference internal" href="#exercise">5.2. Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -461,8 +463,8 @@ the repository while going to the link:</p>
 fork from the web browser. If you clone, you need to make sure you
 clone from your fork.</p>
 <p>We assume you use Python 3.6.2. If not please find instructions on how
-to install it. We recommend that you use pyenv so yo ucan install
-multiole python environments.</p>
+to install it. We recommend that you use pyenv so you can install
+multiple python environments.</p>
 <p>Next, you can cd to the <cite>classes</cite> directory and make the
 modifications. Check them locally with:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
@@ -476,27 +478,37 @@ you can create on the web page for the classes a pull request.</p>
 <p>If accepted the request will be merged and you will be credited via
 your github account. Make sure you use git config to set your name and
 e-mail. Please remember that pull requests are merged by a human and
-it will take time. This is not an instantemeous action.</p>
+it will take time. This is not an instantaneous action.</p>
+<div class="section" id="md-vs-rst">
+<h2>5.1. MD vs. RST<a class="headerlink" href="#md-vs-rst" title="Permalink to this headline">¶</a></h2>
+<p>If you see an .md file and an .rst file in the same directory, never
+edit the rst file. This file will be automatically created. In a
+future version we will remove the rst file and only have the md file
+in the directory.</p>
+</div>
 <div class="section" id="exercise">
-<h2>5.1. Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<h2>5.2. Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
-<dt>Contrib.1:</dt>
+<dt>EContrib.0:</dt>
+<dd>If you find an md file and an rst file with the same prefix, which
+filed should you edit?</dd>
+<dt>EContrib.1:</dt>
 <dd>Identify a spelling error on the web page or another item
 to improve. Fork the Web page, fix the error and create a pull request.</dd>
-<dt>Contrib.2:</dt>
+<dt>EContrib.2:</dt>
 <dd>Identify a section that is not covered by this material, but could
 be useful. Add such a section and create a pull request so your
 contribution can be added. Work with others that review your
 section before submitting so we make sure no one else is working on
 this already. If they do we bring you in contact with them.</dd>
-<dt>Contrib.3:</dt>
-<dd>How do you clone from your fork? What is the difference betweem
+<dt>EContrib.3:</dt>
+<dd>How do you clone from your fork? What is the difference between
 your fork and the main repository? How do you identify it is your
 fork you clone from?</dd>
-<dt>Contrib.4:</dt>
+<dt>EContrib.4:</dt>
 <dd><p class="first">We use the creation of the class Web site on your computer to
 benchmark your machine. This benchmark will be used as part of some
-class assignments. To do so execute the follwoing and write
+class assignments. To do so execute the following and write
 down/copy the times you get:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">clean</span>
 <span class="n">time</span> <span class="n">make</span>
