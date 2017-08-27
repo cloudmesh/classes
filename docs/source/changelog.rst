@@ -7,6 +7,7 @@ Changelog
 
 New
 ~~~
+- Add explanation for piaza folders for i523. [Gregor von Laszewski]
 - Added bio. [Grace Li]
 - Added Bio. [Saber Sheybani]
 - Add robot car drawing. [Gregor von Laszewski]
