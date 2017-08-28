@@ -19,11 +19,11 @@ Using Piazza
 * EPiazza.1 :ref:`e-piazza`
 * EPiazza.2 :ref:`e-piazza`
 * EPiazza.3 :ref:`e-piazza`
-* Eorganization.1 :ref:`e-organization`
-* Eorganization.2 :ref:`e-organization`
-* Eorganization.3 :ref:`e-organization`
-* Eorganization.4 :ref:`e-organization`
-* Eorganization.5 :ref:`e-organization`
+* EOrganization.1 :ref:`e-organization`
+* EOrganization.2 :ref:`e-organization`
+* EOrganization.3 :ref:`e-organization`
+* EOrganization.4 :ref:`e-organization`
+* EOrganization.5 :ref:`e-organization`
 
 How do you find the assignments?:
     go to the class web page and search for the string `EOrganization`
