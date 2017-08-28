@@ -42,8 +42,10 @@ class, but also once you graduate. We will have a special lecture for
 you on this topic and we expect that you provide us with feedback
 about your github username.
 
-Exercises
-^^^^^^^^^
+.. _e-organization:
+
+Exercise
+^^^^^^^^
 
 EOrganization.1:
     register for the class

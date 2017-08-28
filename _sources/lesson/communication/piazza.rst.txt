@@ -399,6 +399,8 @@ at:
 
 If you click on the foldername, you can see all posts in that folder.
 
+.. _e-piazza:
+   
 Exercise
 --------
 
