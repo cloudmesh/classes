@@ -21,6 +21,8 @@ New
 
 Changes
 ~~~~~~~
+- Add lincs to Exercise assignments so they are easier to find. [Gregor
+  von Laszewski]
 - Add an E before exercises. [Gregor von Laszewski]
 - Corrected mistakes in reference and updated reviewer ID.
   [yatinsharma7]
@@ -33,6 +35,9 @@ Changes
 
 Other
 ~~~~~
+- Sensors Update. [Grace Li]
+- Radar update. [Grace Li]
+- Bio: Usr update. [Grace Li]
 - :chg:usr: remove some todo's videos need to be still republished.
   [Gregor von Laszewski]
 - Update github.rst. [acastrob]
