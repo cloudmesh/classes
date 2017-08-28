@@ -84,9 +84,8 @@ base of Web search. The ACM classification illustrates potential
 complexity of ontologies. Some differences between web search and
 information retrieval are given.
 
-.. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/KtWhk2cdRa4
+* Video: https://youtu.be/KtWhk2cdRa4
 
 
 History behind Web Search
@@ -95,9 +94,7 @@ History behind Web Search
 The origin of web search in libraries, catalogs and concordances is
 summarized.
 
-.. todo:: The slides or videos are going to be updated
-          
-          Video: https://youtu.be/J7D61uH5gVM
+* Video: https://youtu.be/J7D61uH5gVM
 
 
 
@@ -107,10 +104,8 @@ Key Fundamental Principles behind Web Search
 This lesson describes the DIKW -- Data Information Knowledge Wisdom --
 model for web search. Then it discusses documents, collections and the
 important Bag of Words representation.
-
-.. todo:: The slides or videos are going to be updated
-          
-          Video: https://youtu.be/yPFi6xFnDHE
+         
+* Video: https://youtu.be/yPFi6xFnDHE
 
 
 Information Retrieval (Web Search) Components
@@ -121,9 +116,7 @@ This describes queries in context of an Information Retrieval
 architecture. The method of judging quality of results including
 recall, precision and diversity is described.
 
-.. todo:: The slides or videos are going to be updated
-          
-          Video: https://youtu.be/EGsnonXgb3Y
+* Video: https://youtu.be/EGsnonXgb3Y
 
 
 Search Engines
@@ -135,9 +128,7 @@ Information retrieval but in 1998 the field was changed when Google
 was founded and showed the importance of URL structure as exemplified
 by PageRank.
 
-.. todo:: The slides or videos are going to be updated
-          
-          Video: https://youtu.be/kBV-99N6f7k
+* Video: https://youtu.be/kBV-99N6f7k
 
 
 Boolean and Vector Space Models
@@ -146,9 +137,7 @@ Boolean and Vector Space Models
 This lesson describes the Boolean and Vector Space models for query
 including the cosine similarity.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: https://youtu.be/JzGBA0OhsIk
+* Video: https://youtu.be/JzGBA0OhsIk
 
 
 
@@ -158,11 +147,11 @@ Web crawling and Document Preparation
 This describes a Web Crawler and then the steps needed to analyze data
 from Web and produce a set of terms.
 
-.. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/Wv-r-PJ9lro
+* Video: https://youtu.be/Wv-r-PJ9lro
 
 
+          
 Indices
 ^^^^^^^
 
@@ -170,9 +159,7 @@ This lesson describes both building and accessing an inverted
 index. It describes how phrases are treated and gives details of query
 structure from some early logs.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video https://youtu.be/NY2SmrHoBVM
+* Video: https://youtu.be/NY2SmrHoBVM
 
 
 TF-IDF and Probabilistic Models
@@ -182,9 +169,7 @@ It describes the importance of term specificity and how it is captured
 in TF-IDF. It notes how frequencies are converted into belief and
 relevance.
 
-.. todo:: The slides or videos are going to be updated
-   
-          Video: https://youtu.be/9P_HUmpselU
+* Video: https://youtu.be/9P_HUmpselU
 
 
 
@@ -247,11 +232,12 @@ examples. There are many extension of these ideas which are not
 discussed here although topic models are covered briefly in a later
 lesson.
 
+
 .. todo:: The slides or videos are going to be updated
 
-          Video 1: https://youtu.be/1oXdopVxqfI
-
-          Video 2: https://youtu.be/OCn-gCTxvrU
+          * Video 1: https://youtu.be/1oXdopVxqfI
+          
+          * Video 2: https://youtu.be/OCn-gCTxvrU
 
 
 Web Advertising and Search
@@ -265,7 +251,7 @@ action. This leads to emerging field of computational advertising.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/GgkmG0NzQvg
+          * Video: https://youtu.be/GgkmG0NzQvg
 
 
 
@@ -277,9 +263,8 @@ illustrate this for Google News and give an example that this can give
 different answers from word-based analyses. We mention some work at
 Indiana University on a Latent Semantic Indexing model.
 
-.. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/95cHMyZ-TUs
+* Video: https://youtu.be/95cHMyZ-TUs
 
 
 Resources
