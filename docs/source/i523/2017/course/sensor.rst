@@ -70,9 +70,7 @@ it. The performance of system is measured in terms of processing
 latency as a function of number of involved sensors with each
 delivering data at 1.8 Mbps rate.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: https://youtu.be/0egT1FsVGrU
+* Video: https://youtu.be/0egT1FsVGrU
 
 
 Earth/Environment/Polar Science data gathered by Sensors
@@ -84,9 +82,7 @@ the CReSIS polar remote sensing project and then looks at the NSF
 Ocean Observing Initiative and NASA's MODIS or Moderate Resolution
 Imaging Spectroradiometer instrument on a satellite.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: https://youtu.be/CS2gX7axWfI
+* Video: https://youtu.be/CS2gX7axWfI
 
 
 Ubiquitous/Smart Cities
@@ -95,9 +91,7 @@ Ubiquitous/Smart Cities
 For Ubiquitous/Smart cities we give two examples: Iniquitous Korea and
 smart electrical grids.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: https://youtu.be/MFFIItQ3SOo
+* Video: https://youtu.be/MFFIItQ3SOo
 
 
 
@@ -126,9 +120,7 @@ variety of new instruments include smart meters, power monitors, and
 measures of solar irradiance, wind speed, and temperature. One goal is
 autonomous local power units where good use is made of waste heat.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: https://youtu.be/m3eX8act0GU
+* Video: https://youtu.be/m3eX8act0GU
 
 
 
