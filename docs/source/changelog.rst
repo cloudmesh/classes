@@ -7,6 +7,9 @@ Changelog
 
 New
 ~~~
+- Add explanation for piaza folders for i523. [Gregor von Laszewski]
+- Added bio. [Grace Li]
+- Added Bio. [Saber Sheybani]
 - Add robot car drawing. [Gregor von Laszewski]
 - Move esp documentation to rst. [Gregor von Laszewski]
 - Preface. [Gregor von Laszewski]
@@ -18,11 +21,25 @@ New
 
 Changes
 ~~~~~~~
+- Add an E before exercises. [Gregor von Laszewski]
+- Corrected mistakes in reference and updated reviewer ID.
+  [yatinsharma7]
+- Corrected reference  mistake for S17-IR-2031. [yatinsharma7]
+- Add other tas, introduce contribution benchmark, add GrovePi board.
+  [Gregor von Laszewski]
+- Update organization. [Gregor von Laszewski]
 - Clenupn of iot, adding link to changelog. [Gregor von Laszewski]
 - Cleanup. [Gregor von Laszewski]
 
 Other
 ~~~~~
+- :chg:usr: remove some todo's videos need to be still republished.
+  [Gregor von Laszewski]
+- Update github.rst. [acastrob]
+
+  correcting spelling error on line 179. There was an additional character -"o"- that had to be deleted.
+- The first half (8/16) video clips are updated, rest will be done by
+  Saber. [Hyungro Lee]
 - Update README.rst. [tifabi]
 
   Modified grammar in first line from "The class is published and updated on regular basis at" to "The class is published and updated on a regular basis at"

@@ -175,16 +175,16 @@ takes to contribute new commands in a dynamic fashion.
 Excersise
 ---------
 
-CMD5.1:
+ECMD5.1:
     Install cmd5 on your computer.
 
-CMD5.2:
+ECMD5.2:
     Write a new command with your firstname as the command name.
 
-CMD5.3:
+ECMD5.3:
     Write a new command and experiment with docopt syntax and argument
     interpretation of the dict with if conditions.
 
-CMD5.4:
+ECMD5.4:
     If you have useful extensions that you like us to add by default,
     please work with us.

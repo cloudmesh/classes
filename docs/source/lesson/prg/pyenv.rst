@@ -49,11 +49,11 @@ Let us now create virtualenv for anaconda::
 Excersise
 ---------
 
-pyenv.1:
+Econda.1:
    Write installation instructions for an operating system of your choice
    and add to this documentation.
 
-pyenv.2:
+Econda.2:
    Replicate the steps above, so you can type in ENV2 and ENV3 in your
    terminals to switch between python 2 and 3.
    
