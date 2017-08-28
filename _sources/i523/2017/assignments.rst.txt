@@ -24,7 +24,15 @@ Using Piazza
 * EOrganization.3 :ref:`e-organization`
 * EOrganization.4 :ref:`e-organization`
 * EOrganization.5 :ref:`e-organization`
+* Conduct the entry survey after you have done the above assignments: https://piazza.com/class/j5wll7vzylg25j?cid=67
+* Learn about Piazza folders: https://piazza.com/class/j5wll7vzylg25j?cid=103
 
+Optional Assignment:
+
+* Buy Hardware for Iot https://piazza.com/class/j5wll7vzylg25j?cid=55
+
+
+  
 How do you find the assignments?:
     go to the class web page and search for the string `EOrganization`
     or `EPiazza`. A web link will sho up that contains a section where
@@ -34,24 +42,39 @@ How do you find the assignments?:
 
 Complete the above within the first week! 
 
-Week 2
-------
+Week 2 (Not yet released)
+-------------------------
 
-* https://piazza.com/class/j5wll7vzylg25j?cid=103
+This may take multiple weeks to complete for some of you:
 
-Some of you may take multiple weeks doing this:
+Learn Python
 
-Learn Python and do
+* EPython.1 :ref:`e-python`
 
-* EPython.1
-* ECMD5.2
 
+Week 3 (Not yet released)
+-------------------------
+
+This assignment may take some of you multiple weeks.
+
+Implement a command using 
+
+* ECMD5.2 :ref:`e-cmd5`
+
+that is called "hello" that prints hello world. Use docopts to define
+the command.
+
+.. note:: Use `cms sys generate command hello`
+
+There will be a tutorial about this.
+  
 Learning about Git pull Requests while using the Class web page as
 example. Only make small changes based on a paragraph and create a
 pull request for it. 
 
-* EContrib.0
-* EContrib.1
-* EContrib.5
+* EContrib.0 :ref:`e-contrib`
+* EContrib.1 :ref:`e-contrib`
+* EContrib.5 :ref:`e-contrib`
 
+There will be tutorials about this
   

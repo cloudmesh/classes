@@ -42,12 +42,13 @@ edit the rst file. This file will be automatically created. In a
 future version we will remove the rst file and only have the md file
 in the directory. 
 
+.. _e-contrib:
 
 Exercise
 --------
 
 To do this assignment you need to learn about making small changes nd
-how to document them with gitchangelog: 
+how to document them with `gitchangelog`: 
 
 * if you fix a spelling error: your commit message must 
  "chg:dev: corrected spelling error"

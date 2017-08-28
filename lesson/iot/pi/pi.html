@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>4.3.5. Raspberry PI 3 &#8212; Big Data Classes</title>
+    <title>4.5.5. Raspberry PI 3 &#8212; Big Data Classes</title>
     <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -26,8 +26,8 @@
     <script type="text/javascript" src="../../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="4.3.6. Dexter" href="dexter.html" />
-    <link rel="prev" title="4.3.4. ESP8266" href="../esp8266/esp8266.html" />
+    <link rel="next" title="4.5.6. Dexter" href="dexter.html" />
+    <link rel="prev" title="4.5.4. ESP8266" href="../esp8266/esp8266.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -82,7 +82,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../prg/python_big_data.html">Python for Big Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../prg/python_lesson1.html">Python Fingerprint Example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">4.1. Linux Shell</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../doc/latex.html">2.2. LaTeX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../linux/ssh.html">Using SSH Keys</a></li>
@@ -225,54 +225,54 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">4.3.5. Raspberry PI 3</a><ul>
-<li><a class="reference internal" href="#raspbery-pi-for-iot-gregor">4.3.5.1. Raspbery PI for IOT (Gregor)</a></li>
-<li><a class="reference internal" href="#hardware">4.3.5.2. Hardware</a></li>
-<li><a class="reference internal" href="#installation">4.3.5.3. Installation</a><ul>
-<li><a class="reference internal" href="#erasing-the-sd-card">4.3.5.3.1. Erasing the SD Card</a></li>
-<li><a class="reference internal" href="#installation-of-noobs">4.3.5.3.2. Installation of NOOBS</a></li>
-<li><a class="reference internal" href="#installation-of-dexter">4.3.5.3.3. Installation of Dexter</a></li>
+<li><a class="reference internal" href="#">4.5.5. Raspberry PI 3</a><ul>
+<li><a class="reference internal" href="#raspbery-pi-for-iot-gregor">4.5.5.1. Raspbery PI for IOT (Gregor)</a></li>
+<li><a class="reference internal" href="#hardware">4.5.5.2. Hardware</a></li>
+<li><a class="reference internal" href="#installation">4.5.5.3. Installation</a><ul>
+<li><a class="reference internal" href="#erasing-the-sd-card">4.5.5.3.1. Erasing the SD Card</a></li>
+<li><a class="reference internal" href="#installation-of-noobs">4.5.5.3.2. Installation of NOOBS</a></li>
+<li><a class="reference internal" href="#installation-of-dexter">4.5.5.3.3. Installation of Dexter</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#configure">4.3.5.4. Configure</a><ul>
-<li><a class="reference internal" href="#prepare-os">4.3.5.4.1. Prepare OS</a></li>
+<li><a class="reference internal" href="#configure">4.5.5.4. Configure</a><ul>
+<li><a class="reference internal" href="#prepare-os">4.5.5.4.1. Prepare OS</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#update">4.3.5.5. Update</a><ul>
-<li><a class="reference internal" href="#update-to-python-3-6-1">4.3.5.5.1. Update to Python 3.6.1</a></li>
+<li><a class="reference internal" href="#update">4.5.5.5. Update</a><ul>
+<li><a class="reference internal" href="#update-to-python-3-6-1">4.5.5.5.1. Update to Python 3.6.1</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#change-python-version">4.3.5.6. change python version</a></li>
-<li><a class="reference internal" href="#install-3-6-1">4.3.5.7. install 3.6.1</a></li>
-<li><a class="reference internal" href="#install-cloudmesh-pi">4.3.5.8. install cloudmesh.pi</a><ul>
-<li><a class="reference internal" href="#install-scientific-libraries">4.3.5.8.1. Install scientific Libraries</a></li>
-<li><a class="reference internal" href="#cloudmesh-pi-jon">4.3.5.8.2. cloudmesh.pi (Jon)</a></li>
-<li><a class="reference internal" href="#install-vnc">4.3.5.8.3. Install VNC</a></li>
+<li><a class="reference internal" href="#change-python-version">4.5.5.6. change python version</a></li>
+<li><a class="reference internal" href="#install-3-6-1">4.5.5.7. install 3.6.1</a></li>
+<li><a class="reference internal" href="#install-cloudmesh-pi">4.5.5.8. install cloudmesh.pi</a><ul>
+<li><a class="reference internal" href="#install-scientific-libraries">4.5.5.8.1. Install scientific Libraries</a></li>
+<li><a class="reference internal" href="#cloudmesh-pi-jon">4.5.5.8.2. cloudmesh.pi (Jon)</a></li>
+<li><a class="reference internal" href="#install-vnc">4.5.5.8.3. Install VNC</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#sensors-jon">4.3.5.9. Sensors (Jon)</a><ul>
-<li><a class="reference internal" href="#grove-sensors-jon">4.3.5.9.1. Grove Sensors (Jon)</a></li>
-<li><a class="reference internal" href="#non-grove-sensors-jon">4.3.5.9.2. Non Grove Sensors (Jon)</a></li>
+<li><a class="reference internal" href="#sensors-jon">4.5.5.9. Sensors (Jon)</a><ul>
+<li><a class="reference internal" href="#grove-sensors-jon">4.5.5.9.1. Grove Sensors (Jon)</a></li>
+<li><a class="reference internal" href="#non-grove-sensors-jon">4.5.5.9.2. Non Grove Sensors (Jon)</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#notes-to-integrates">4.3.5.10. Notes To integrates</a><ul>
-<li><a class="reference internal" href="#connecting">4.3.5.10.1. Connecting</a></li>
+<li><a class="reference internal" href="#notes-to-integrates">4.5.5.10. Notes To integrates</a><ul>
+<li><a class="reference internal" href="#connecting">4.5.5.10.1. Connecting</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#vlc-on-osx">4.3.5.11. VLC on OSX</a></li>
-<li><a class="reference internal" href="#streaming-video">4.3.5.12. Streaming video</a></li>
-<li><a class="reference internal" href="#linux-commandline">4.3.5.13. Linux Commandline</a></li>
-<li><a class="reference internal" href="#enable-spi">4.3.5.14. Enable SPI</a></li>
-<li><a class="reference internal" href="#rtimulib2">4.3.5.15. RTIMUlib2</a></li>
-<li><a class="reference internal" href="#compile-rtimulib-apps">4.3.5.16. Compile RTIMULib Apps</a></li>
-<li><a class="reference internal" href="#camera">4.3.5.17. Camera</a></li>
-<li><a class="reference internal" href="#lessons-and-projects">4.3.5.18. Lessons and Projects</a></li>
-<li><a class="reference internal" href="#other-to-be-integrated">4.3.5.19. OTHER TO BE INTEGRATED</a><ul>
-<li><a class="reference internal" href="#pi-emulator-on-windows">4.3.5.19.1. PI emulator on Windows</a></li>
-<li><a class="reference internal" href="#scratch">4.3.5.19.2. Scratch</a></li>
+<li><a class="reference internal" href="#vlc-on-osx">4.5.5.11. VLC on OSX</a></li>
+<li><a class="reference internal" href="#streaming-video">4.5.5.12. Streaming video</a></li>
+<li><a class="reference internal" href="#linux-commandline">4.5.5.13. Linux Commandline</a></li>
+<li><a class="reference internal" href="#enable-spi">4.5.5.14. Enable SPI</a></li>
+<li><a class="reference internal" href="#rtimulib2">4.5.5.15. RTIMUlib2</a></li>
+<li><a class="reference internal" href="#compile-rtimulib-apps">4.5.5.16. Compile RTIMULib Apps</a></li>
+<li><a class="reference internal" href="#camera">4.5.5.17. Camera</a></li>
+<li><a class="reference internal" href="#lessons-and-projects">4.5.5.18. Lessons and Projects</a></li>
+<li><a class="reference internal" href="#other-to-be-integrated">4.5.5.19. OTHER TO BE INTEGRATED</a><ul>
+<li><a class="reference internal" href="#pi-emulator-on-windows">4.5.5.19.1. PI emulator on Windows</a></li>
+<li><a class="reference internal" href="#scratch">4.5.5.19.2. Scratch</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#web-server">4.3.5.20. Web Server</a></li>
+<li><a class="reference internal" href="#web-server">4.5.5.20. Web Server</a></li>
 </ul>
 </li>
 </ul>
@@ -328,7 +328,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../prg/python_big_data.html">Python for Big Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../prg/python_lesson1.html">Python Fingerprint Example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../linux/refcards.html">Refcards</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">Linux Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../linux/linux.html">4.1. Linux Shell</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../doc/latex.html">2.2. LaTeX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../linux/ubuntu.html">Ubuntu Development Configurations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../linux/ssh.html">Using SSH Keys</a></li>
@@ -461,54 +461,54 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">4.3.5. Raspberry PI 3</a><ul>
-<li><a class="reference internal" href="#raspbery-pi-for-iot-gregor">4.3.5.1. Raspbery PI for IOT (Gregor)</a></li>
-<li><a class="reference internal" href="#hardware">4.3.5.2. Hardware</a></li>
-<li><a class="reference internal" href="#installation">4.3.5.3. Installation</a><ul>
-<li><a class="reference internal" href="#erasing-the-sd-card">4.3.5.3.1. Erasing the SD Card</a></li>
-<li><a class="reference internal" href="#installation-of-noobs">4.3.5.3.2. Installation of NOOBS</a></li>
-<li><a class="reference internal" href="#installation-of-dexter">4.3.5.3.3. Installation of Dexter</a></li>
+<li><a class="reference internal" href="#">4.5.5. Raspberry PI 3</a><ul>
+<li><a class="reference internal" href="#raspbery-pi-for-iot-gregor">4.5.5.1. Raspbery PI for IOT (Gregor)</a></li>
+<li><a class="reference internal" href="#hardware">4.5.5.2. Hardware</a></li>
+<li><a class="reference internal" href="#installation">4.5.5.3. Installation</a><ul>
+<li><a class="reference internal" href="#erasing-the-sd-card">4.5.5.3.1. Erasing the SD Card</a></li>
+<li><a class="reference internal" href="#installation-of-noobs">4.5.5.3.2. Installation of NOOBS</a></li>
+<li><a class="reference internal" href="#installation-of-dexter">4.5.5.3.3. Installation of Dexter</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#configure">4.3.5.4. Configure</a><ul>
-<li><a class="reference internal" href="#prepare-os">4.3.5.4.1. Prepare OS</a></li>
+<li><a class="reference internal" href="#configure">4.5.5.4. Configure</a><ul>
+<li><a class="reference internal" href="#prepare-os">4.5.5.4.1. Prepare OS</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#update">4.3.5.5. Update</a><ul>
-<li><a class="reference internal" href="#update-to-python-3-6-1">4.3.5.5.1. Update to Python 3.6.1</a></li>
+<li><a class="reference internal" href="#update">4.5.5.5. Update</a><ul>
+<li><a class="reference internal" href="#update-to-python-3-6-1">4.5.5.5.1. Update to Python 3.6.1</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#change-python-version">4.3.5.6. change python version</a></li>
-<li><a class="reference internal" href="#install-3-6-1">4.3.5.7. install 3.6.1</a></li>
-<li><a class="reference internal" href="#install-cloudmesh-pi">4.3.5.8. install cloudmesh.pi</a><ul>
-<li><a class="reference internal" href="#install-scientific-libraries">4.3.5.8.1. Install scientific Libraries</a></li>
-<li><a class="reference internal" href="#cloudmesh-pi-jon">4.3.5.8.2. cloudmesh.pi (Jon)</a></li>
-<li><a class="reference internal" href="#install-vnc">4.3.5.8.3. Install VNC</a></li>
+<li><a class="reference internal" href="#change-python-version">4.5.5.6. change python version</a></li>
+<li><a class="reference internal" href="#install-3-6-1">4.5.5.7. install 3.6.1</a></li>
+<li><a class="reference internal" href="#install-cloudmesh-pi">4.5.5.8. install cloudmesh.pi</a><ul>
+<li><a class="reference internal" href="#install-scientific-libraries">4.5.5.8.1. Install scientific Libraries</a></li>
+<li><a class="reference internal" href="#cloudmesh-pi-jon">4.5.5.8.2. cloudmesh.pi (Jon)</a></li>
+<li><a class="reference internal" href="#install-vnc">4.5.5.8.3. Install VNC</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#sensors-jon">4.3.5.9. Sensors (Jon)</a><ul>
-<li><a class="reference internal" href="#grove-sensors-jon">4.3.5.9.1. Grove Sensors (Jon)</a></li>
-<li><a class="reference internal" href="#non-grove-sensors-jon">4.3.5.9.2. Non Grove Sensors (Jon)</a></li>
+<li><a class="reference internal" href="#sensors-jon">4.5.5.9. Sensors (Jon)</a><ul>
+<li><a class="reference internal" href="#grove-sensors-jon">4.5.5.9.1. Grove Sensors (Jon)</a></li>
+<li><a class="reference internal" href="#non-grove-sensors-jon">4.5.5.9.2. Non Grove Sensors (Jon)</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#notes-to-integrates">4.3.5.10. Notes To integrates</a><ul>
-<li><a class="reference internal" href="#connecting">4.3.5.10.1. Connecting</a></li>
+<li><a class="reference internal" href="#notes-to-integrates">4.5.5.10. Notes To integrates</a><ul>
+<li><a class="reference internal" href="#connecting">4.5.5.10.1. Connecting</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#vlc-on-osx">4.3.5.11. VLC on OSX</a></li>
-<li><a class="reference internal" href="#streaming-video">4.3.5.12. Streaming video</a></li>
-<li><a class="reference internal" href="#linux-commandline">4.3.5.13. Linux Commandline</a></li>
-<li><a class="reference internal" href="#enable-spi">4.3.5.14. Enable SPI</a></li>
-<li><a class="reference internal" href="#rtimulib2">4.3.5.15. RTIMUlib2</a></li>
-<li><a class="reference internal" href="#compile-rtimulib-apps">4.3.5.16. Compile RTIMULib Apps</a></li>
-<li><a class="reference internal" href="#camera">4.3.5.17. Camera</a></li>
-<li><a class="reference internal" href="#lessons-and-projects">4.3.5.18. Lessons and Projects</a></li>
-<li><a class="reference internal" href="#other-to-be-integrated">4.3.5.19. OTHER TO BE INTEGRATED</a><ul>
-<li><a class="reference internal" href="#pi-emulator-on-windows">4.3.5.19.1. PI emulator on Windows</a></li>
-<li><a class="reference internal" href="#scratch">4.3.5.19.2. Scratch</a></li>
+<li><a class="reference internal" href="#vlc-on-osx">4.5.5.11. VLC on OSX</a></li>
+<li><a class="reference internal" href="#streaming-video">4.5.5.12. Streaming video</a></li>
+<li><a class="reference internal" href="#linux-commandline">4.5.5.13. Linux Commandline</a></li>
+<li><a class="reference internal" href="#enable-spi">4.5.5.14. Enable SPI</a></li>
+<li><a class="reference internal" href="#rtimulib2">4.5.5.15. RTIMUlib2</a></li>
+<li><a class="reference internal" href="#compile-rtimulib-apps">4.5.5.16. Compile RTIMULib Apps</a></li>
+<li><a class="reference internal" href="#camera">4.5.5.17. Camera</a></li>
+<li><a class="reference internal" href="#lessons-and-projects">4.5.5.18. Lessons and Projects</a></li>
+<li><a class="reference internal" href="#other-to-be-integrated">4.5.5.19. OTHER TO BE INTEGRATED</a><ul>
+<li><a class="reference internal" href="#pi-emulator-on-windows">4.5.5.19.1. PI emulator on Windows</a></li>
+<li><a class="reference internal" href="#scratch">4.5.5.19.2. Scratch</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#web-server">4.3.5.20. Web Server</a></li>
+<li><a class="reference internal" href="#web-server">4.5.5.20. Web Server</a></li>
 </ul>
 </li>
 </ul>
@@ -537,18 +537,18 @@
     <div class="col-md-9 content">
       
   <div class="section" id="raspberry-pi-3">
-<h1>4.3.5. Raspberry PI 3<a class="headerlink" href="#raspberry-pi-3" title="Permalink to this headline">¶</a></h1>
+<h1>4.5.5. Raspberry PI 3<a class="headerlink" href="#raspberry-pi-3" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="raspbery-pi-for-iot-gregor">
-<h2>4.3.5.1. Raspbery PI for IOT (Gregor)<a class="headerlink" href="#raspbery-pi-for-iot-gregor" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.1. Raspbery PI for IOT (Gregor)<a class="headerlink" href="#raspbery-pi-for-iot-gregor" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="hardware">
-<h2>4.3.5.2. Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.2. Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h2>
 <p>see hardware page we have</p>
 </div>
 <div class="section" id="installation">
-<h2>4.3.5.3. Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.3. Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="erasing-the-sd-card">
-<h3>4.3.5.3.1. Erasing the SD Card<a class="headerlink" href="#erasing-the-sd-card" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.3.1. Erasing the SD Card<a class="headerlink" href="#erasing-the-sd-card" title="Permalink to this headline">¶</a></h3>
 <p>Before you can install an OS on your sd card, you must erase it and put
 it in the proper format.</p>
 <ol class="arabic simple">
@@ -563,7 +563,7 @@ multiple tries to work.</li>
 </ol>
 </div>
 <div class="section" id="installation-of-noobs">
-<h3>4.3.5.3.2. Installation of NOOBS<a class="headerlink" href="#installation-of-noobs" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.3.2. Installation of NOOBS<a class="headerlink" href="#installation-of-noobs" title="Permalink to this headline">¶</a></h3>
 <p>NOOBS is an OS that includes Raspian. The official descrition of
 Raspbian can be found
 <a class="reference external" href="https://www.raspberrypi.org/downloads/raspbian/">here</a>. It comes
@@ -587,7 +587,7 @@ folder. The download should take about 3 minutes.</li>
 </ol>
 </div>
 <div class="section" id="installation-of-dexter">
-<h3>4.3.5.3.3. Installation of Dexter<a class="headerlink" href="#installation-of-dexter" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.3.3. Installation of Dexter<a class="headerlink" href="#installation-of-dexter" title="Permalink to this headline">¶</a></h3>
 <p>The version of Dexter that you want to flash onto your sd card is called
 Raspbian for Robots. This is a Raspbian based os that is compatible with
 the GrovePi board. It also comes with pre-installed Dexter Industries
@@ -609,13 +609,13 @@ into the micro-sd adapter.</li>
 </div>
 </div>
 <div class="section" id="configure">
-<h2>4.3.5.4. Configure<a class="headerlink" href="#configure" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.4. Configure<a class="headerlink" href="#configure" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="prepare-os">
-<h3>4.3.5.4.1. Prepare OS<a class="headerlink" href="#prepare-os" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.4.1. Prepare OS<a class="headerlink" href="#prepare-os" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 <div class="section" id="update">
-<h2>4.3.5.5. Update<a class="headerlink" href="#update" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.5. Update<a class="headerlink" href="#update" title="Permalink to this headline">¶</a></h2>
 <p>The following are essential updates:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
 <span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">upgrade</span>
@@ -648,11 +648,11 @@ require lots of space. Our sd cards do not have enough space for them.</p>
 </div>
 <p>source</p>
 <div class="section" id="update-to-python-3-6-1">
-<h3>4.3.5.5.1. Update to Python 3.6.1<a class="headerlink" href="#update-to-python-3-6-1" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.5.1. Update to Python 3.6.1<a class="headerlink" href="#update-to-python-3-6-1" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 <div class="section" id="change-python-version">
-<h2>4.3.5.6. change python version<a class="headerlink" href="#change-python-version" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.6. change python version<a class="headerlink" href="#change-python-version" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>[<a class="reference external" href="https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux">https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux</a>]
 (<a class="reference external" href="https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux">https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux</a>)</li>
@@ -684,7 +684,7 @@ require lots of space. Our sd cards do not have enough space for them.</p>
 <p>Select python3.4</p>
 </div>
 <div class="section" id="install-3-6-1">
-<h2>4.3.5.7. install 3.6.1<a class="headerlink" href="#install-3-6-1" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.7. install 3.6.1<a class="headerlink" href="#install-3-6-1" title="Permalink to this headline">¶</a></h2>
 <p>To install python 3.6.1, follow steps 1 and 2. This is unnecessary for
 our purposes.</p>
 <ul class="simple">
@@ -693,7 +693,7 @@ our purposes.</p>
 </ul>
 </div>
 <div class="section" id="install-cloudmesh-pi">
-<h2>4.3.5.8. install cloudmesh.pi<a class="headerlink" href="#install-cloudmesh-pi" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.8. install cloudmesh.pi<a class="headerlink" href="#install-cloudmesh-pi" title="Permalink to this headline">¶</a></h2>
 <p>pip install cloudmesh.pi</p>
 <p>pip install cloudmesh.pi with</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ git clone https://github.com/cloudmesh/cloudmesh.pi.git
@@ -704,7 +704,7 @@ $ sudo pip3 install .
 <p>see how we do this in osx/linux can this be done on raspbery? if not
 document update from source with altinstall</p>
 <div class="section" id="install-scientific-libraries">
-<h3>4.3.5.8.1. Install scientific Libraries<a class="headerlink" href="#install-scientific-libraries" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.8.1. Install scientific Libraries<a class="headerlink" href="#install-scientific-libraries" title="Permalink to this headline">¶</a></h3>
 <p>check if they are already installed we don’t have enough space to
 install all of these.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">python</span><span class="o">-</span><span class="n">numpy</span> <span class="n">python</span><span class="o">-</span><span class="n">matplotlib</span> <span class="n">python</span><span class="o">-</span><span class="n">scipy</span> <span class="n">python</span><span class="o">-</span><span class="n">sklearn</span> <span class="n">python</span><span class="o">-</span><span class="n">pandas</span>
@@ -718,7 +718,7 @@ install all of these.</p>
 </div>
 </div>
 <div class="section" id="cloudmesh-pi-jon">
-<h3>4.3.5.8.2. cloudmesh.pi (Jon)<a class="headerlink" href="#cloudmesh-pi-jon" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.8.2. cloudmesh.pi (Jon)<a class="headerlink" href="#cloudmesh-pi-jon" title="Permalink to this headline">¶</a></h3>
 <p>cloudmesh.pi is a repository for our GrovePi module classes. These
 classes require Dexter software, so you need to either have Raspian for
 Robots or download the software separately.</p>
@@ -733,25 +733,25 @@ Robots or download the software separately.</p>
 </div>
 </div>
 <div class="section" id="install-vnc">
-<h3>4.3.5.8.3. Install VNC<a class="headerlink" href="#install-vnc" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.8.3. Install VNC<a class="headerlink" href="#install-vnc" title="Permalink to this headline">¶</a></h3>
 <p>describe how to install and configure VNC</p>
 </div>
 </div>
 <div class="section" id="sensors-jon">
-<h2>4.3.5.9. Sensors (Jon)<a class="headerlink" href="#sensors-jon" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.9. Sensors (Jon)<a class="headerlink" href="#sensors-jon" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="grove-sensors-jon">
-<h3>4.3.5.9.1. Grove Sensors (Jon)<a class="headerlink" href="#grove-sensors-jon" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.9.1. Grove Sensors (Jon)<a class="headerlink" href="#grove-sensors-jon" title="Permalink to this headline">¶</a></h3>
 <p>we already have draft</p>
 </div>
 <div class="section" id="non-grove-sensors-jon">
-<h3>4.3.5.9.2. Non Grove Sensors (Jon)<a class="headerlink" href="#non-grove-sensors-jon" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.9.2. Non Grove Sensors (Jon)<a class="headerlink" href="#non-grove-sensors-jon" title="Permalink to this headline">¶</a></h3>
 <p>Elegoo as example</p>
 </div>
 </div>
 <div class="section" id="notes-to-integrates">
-<h2>4.3.5.10. Notes To integrates<a class="headerlink" href="#notes-to-integrates" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.10. Notes To integrates<a class="headerlink" href="#notes-to-integrates" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="connecting">
-<h3>4.3.5.10.1. Connecting<a class="headerlink" href="#connecting" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.10.1. Connecting<a class="headerlink" href="#connecting" title="Permalink to this headline">¶</a></h3>
 <p>Hostnames:</p>
 <ul class="simple">
 <li>raspberrypi.local</li>
@@ -770,7 +770,7 @@ your SD-Card this can take up to 40-60 minutes.</p>
 </div>
 </div>
 <div class="section" id="vlc-on-osx">
-<h2>4.3.5.11. VLC on OSX<a class="headerlink" href="#vlc-on-osx" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.11. VLC on OSX<a class="headerlink" href="#vlc-on-osx" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p class="first"><a class="reference external" href="http://www.videolan.org/vlc/index.en_GB.html">http://www.videolan.org/vlc/index.en_GB.html</a></p>
 </li>
@@ -788,23 +788,23 @@ your SD-Card this can take up to 40-60 minutes.</p>
 </ul>
 </div>
 <div class="section" id="streaming-video">
-<h2>4.3.5.12. Streaming video<a class="headerlink" href="#streaming-video" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.12. Streaming video<a class="headerlink" href="#streaming-video" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android">https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android</a></li>
 </ul>
 </div>
 <div class="section" id="linux-commandline">
-<h2>4.3.5.13. Linux Commandline<a class="headerlink" href="#linux-commandline" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.13. Linux Commandline<a class="headerlink" href="#linux-commandline" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="http://www.computerworld.com/article/2598082/linux/linux-linux-command-line-cheat-sheet.html">http://www.computerworld.com/article/2598082/linux/linux-linux-command-line-cheat-sheet.html</a></li>
 </ul>
 </div>
 <div class="section" id="enable-spi">
-<h2>4.3.5.14. Enable SPI<a class="headerlink" href="#enable-spi" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.14. Enable SPI<a class="headerlink" href="#enable-spi" title="Permalink to this headline">¶</a></h2>
 <p>go to the configuration interfaces and enable</p>
 </div>
 <div class="section" id="rtimulib2">
-<h2>4.3.5.15. RTIMUlib2<a class="headerlink" href="#rtimulib2" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.15. RTIMUlib2<a class="headerlink" href="#rtimulib2" title="Permalink to this headline">¶</a></h2>
 <p>git clone <a class="reference external" href="https://github.com/RTIMULib/RTIMULib2.git">https://github.com/RTIMULib/RTIMULib2.git</a> cd RTIMULib</p>
 <p>Add the following two lines to /etc/modules</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">i2c</span><span class="o">-</span><span class="n">bcm2708</span>
@@ -875,7 +875,7 @@ your SD-Card this can take up to 40-60 minutes.</p>
 </div>
 </div>
 <div class="section" id="compile-rtimulib-apps">
-<h2>4.3.5.16. Compile RTIMULib Apps<a class="headerlink" href="#compile-rtimulib-apps" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.16. Compile RTIMULib Apps<a class="headerlink" href="#compile-rtimulib-apps" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">pi</span><span class="o">/</span><span class="n">github</span><span class="o">/</span><span class="n">RTIMULib2</span><span class="o">/</span><span class="n">Linux</span><span class="o">/</span><span class="n">RTIMULibCal</span>
 <span class="n">make</span> <span class="n">clean</span><span class="p">;</span> <span class="n">make</span> <span class="o">-</span><span class="n">j4</span>
 <span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
@@ -906,7 +906,7 @@ your SD-Card this can take up to 40-60 minutes.</p>
 </div>
 </div>
 <div class="section" id="camera">
-<h2>4.3.5.17. Camera<a class="headerlink" href="#camera" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.17. Camera<a class="headerlink" href="#camera" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/">Camera
 Tutorial</a></li>
@@ -943,7 +943,7 @@ Tutorial</a></li>
 </div>
 </div>
 <div class="section" id="lessons-and-projects">
-<h2>4.3.5.18. Lessons and Projects<a class="headerlink" href="#lessons-and-projects" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.18. Lessons and Projects<a class="headerlink" href="#lessons-and-projects" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-guis/worksheet/">Gui</a></li>
 <li><a class="reference external" href="https://www.raspberrypi.org/learning/getting-started-with-guis/">Solder</a></li>
@@ -954,9 +954,9 @@ flask</a></li>
 </ul>
 </div>
 <div class="section" id="other-to-be-integrated">
-<h2>4.3.5.19. OTHER TO BE INTEGRATED<a class="headerlink" href="#other-to-be-integrated" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.19. OTHER TO BE INTEGRATED<a class="headerlink" href="#other-to-be-integrated" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="pi-emulator-on-windows">
-<h3>4.3.5.19.1. PI emulator on Windows<a class="headerlink" href="#pi-emulator-on-windows" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.19.1. PI emulator on Windows<a class="headerlink" href="#pi-emulator-on-windows" title="Permalink to this headline">¶</a></h3>
 <p>We have not yet tried it, but we like to hear back from you on
 experiences with</p>
 <ul class="simple">
@@ -964,14 +964,14 @@ experiences with</p>
 </ul>
 </div>
 <div class="section" id="scratch">
-<h3>4.3.5.19.2. Scratch<a class="headerlink" href="#scratch" title="Permalink to this headline">¶</a></h3>
+<h3>4.5.5.19.2. Scratch<a class="headerlink" href="#scratch" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><a class="reference external" href="https://github.com/DexterInd/GrovePi/tree/master/Software/Scratch">scratch</a></li>
 </ul>
 </div>
 </div>
 <div class="section" id="web-server">
-<h2>4.3.5.20. Web Server<a class="headerlink" href="#web-server" title="Permalink to this headline">¶</a></h2>
+<h2>4.5.5.20. Web Server<a class="headerlink" href="#web-server" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://www.raspberrypi.org/learning/python-web-server-with-flask/worksheet/">Web Server
 Flask</a></li>
