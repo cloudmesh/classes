@@ -27,7 +27,7 @@ Using Piazza
 
 How do you find the assignments?:
     go to the class web page and search for the string `EOrganization`
-    or `EPiazza`. A web link will sho up that contains a section wher
+    or `EPiazza`. A web link will sho up that contains a section where
     you can find details about the assignment.
 
     Alternatively click on the Exercise link, gets you there faster ...
