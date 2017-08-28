@@ -63,7 +63,7 @@ EOrganization.4:
      follow. Take a look at the bios of the instructors.
 
 EOrganization.4:
-     obtien a chameleon cloud account
+     obtain a chameleon cloud account
 
 EOrganization.5:
      obtain a futuresystems.org account
