@@ -2,7 +2,6 @@ IoT
 ================
 
 .. toctree::
-   :caption: IoT
    :maxdepth: 4
 
    ../../lesson/iot/introduction                 

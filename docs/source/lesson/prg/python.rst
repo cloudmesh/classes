@@ -1739,6 +1739,8 @@ otherwise stated.
 .. _lab-python-1:
 .. _lab-python-2:
 
+.. _e-python:
+
 Exercises
 ---------
 
@@ -1754,14 +1756,11 @@ EPython.1:
 
 
 EPython.2:
-    Setup for FutureSystems
-
-
-    #. Create a virtualenv `~/ENV`
+    #. Create a pyenv or virtualenv `~/ENV`
     #. Modify your `~/.bashrc` shell file to activate your environment
        upon login.
     #. Install the `docopt` python package using `pip`
     #. Write a program that uses `docopt` to define a commandline
-       program. Hint: modify the FizzBuzz program.
+       program. Hint: modify the iterate program.
     #. Demonstrate the program works and submit the code and output.
 
