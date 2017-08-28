@@ -16,19 +16,23 @@ Week 1
 
 Using Piazza
 
-* EPiazza.1
-* EPiazza.2
-* EPiazza.3  
+* EPiazza.1 :ref:`e-piazza`
+* EPiazza.2 :ref:`e-piazza`
+* EPiazza.3 :ref:`e-piazza`
+* EOrganization.1 :ref:`e-organization`
+* EOrganization.2 :ref:`e-organization`
+* EOrganization.3 :ref:`e-organization`
+* EOrganization.4 :ref:`e-organization`
+* EOrganization.5 :ref:`e-organization`
 
-Please create the following accounts
+How do you find the assignments?:
+    go to the class web page and search for the string `EOrganization`
+    or `EPiazza`. A web link will sho up that contains a section wher
+    you can find details about the assignment.
 
-* https://www.chameleoncloud.org/ 
-* https://portal.futuresystems.org/
-* Organization.2: https://github.com 
+    Alternatively click on the Exercise link, gets you there faster ...
 
-Fill out the survey
-  
-Complete within the first week 
+Complete the above within the first week! 
 
 Week 2
 ------
@@ -46,5 +50,8 @@ Learning about Git pull Requests while using the Class web page as
 example. Only make small changes based on a paragraph and create a
 pull request for it. 
 
+* EContrib.0
 * EContrib.1
+* EContrib.5
+
   

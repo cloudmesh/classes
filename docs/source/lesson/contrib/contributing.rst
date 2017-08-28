@@ -2,7 +2,7 @@ Contributing
 ============
 
 .. note:: We assume you are using a Linux or OSX operating system. If
-          you use WIndows, you can use virtual box and install for
+          you use Windows, you can use virtual box and install for
           example ubuntu 16.04.
    
 Contributing content to this web page is easy. First, you have to **fork**
@@ -45,6 +45,23 @@ in the directory.
 
 Exercise
 --------
+
+To do this assignment you need to learn about making small changes nd
+how to document them with gitchangelog: 
+
+* if you fix a spelling error: your commit message must 
+ "chg:dev: corrected spelling error"
+* if you try to add a larger text you added real content, you can use
+  "chg:usr: added section about how to do this and that and the other"
+  where you replace this and that and the other with what you actually
+  contributed
+
+.. warning:: do always create small pull request. They are easier to
+             accept. If you create many different changes in many
+             different locations in files the likelihood is that we
+             reject the pull request and you have to split it up and
+             redu, costing time on your side. This is part of learning
+             how we use git.
 
 EContrib.0:
    If you find an md file and an rst file with the same prefix, which
@@ -103,7 +120,9 @@ EContrib.4:
    found that we can use this information to check if you may have an
    issue with your computer or your setup.
 
-
+EContrib.5:
+   Why do we ask you to do multiple pull requests? What could be the
+   consequence if you make hundrets of changes in one pull request?
 
    
    
