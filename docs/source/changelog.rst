@@ -21,6 +21,8 @@ New
 
 Changes
 ~~~~~~~
+- Improve TOC, add links to assignments. [Gregor von Laszewski]
+- Update TOC. [Gregor von Laszewski]
 - Add lincs to Exercise assignments so they are easier to find. [Gregor
   von Laszewski]
 - Add an E before exercises. [Gregor von Laszewski]
