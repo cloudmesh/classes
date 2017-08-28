@@ -60,6 +60,32 @@ Bibliography:
     you have naturally much less work to do. What you chose is up to
     you.
 
+Report Format:
+       All reports will be using the our common format. This format is
+       not the same as the ACM format, so if you use sytsems such as
+       overleaf or sharelatex, you need to upload it and use it
+       there.
+
+       The format for LaTeX and Word found here:
+
+       * `report.zip <https://github.com/cloudmesh/classes/raw/master/docs/source/format/report.zip>`_
+
+       * `report.tar.gz <https://github.com/cloudmesh/classes/raw/master/docs/source/format/report.tar.gz>`_
+                 
+There will be **NO EXCEPTION** to this format. In case you are in a
+team, you can use either github while collaboratively developing the
+LaTeX document or use MicrosoftOne Drive which allows collaborative
+editing features. All bibliographical entries must be put into a
+bibliography manager such as jabref, endnote, or Mendeley. This will
+guarantee that you follow proper citation styles. You can use either
+ACM or IEEE reference styles. Your final submission will include the
+bibliography file as a separate document.
+
+Documents that do not follow the ACM format and are not accompanied by
+references managed with jabref or endnote or are not spell checked
+will be returned without review.
+
+
 Software Project
 ^^^^^^^^^^^^^^^^
 
@@ -82,13 +108,11 @@ Deliverables
 The following artifacts are part of the deliverables for a project
 
 Code:
-
     You must deliver the **source code** in gitlab. The code must be
     compilable and a TA may try to replicate to run your code. You
     MUST avoid lengthy install descriptions and everything must be
     installable from the command line. We will check submission. All
     team members must be responsible for one or all parts of the project.
-
 
     Code repositories are for code, if you have additional libraries
     that are needed you need to develop a script or use a DevOps
@@ -128,9 +152,6 @@ License:
     please add in a README.rst file which packages are used and which
     license these packages have.
 
-Additional links:
-    * :ref:`projects`
-
 Term Paper
 ^^^^^^^^^^
 
@@ -141,41 +162,10 @@ for a term paper. A report must be produced while using the format
 discussed in the Report Format section. The following length is
 required:
 
-    * 9 pages, one student in the project
-    * 12 pages, two student in the project
-    * 15 pages, three student in the project
+* 9 pages, one student in the project
+* 12 pages, two student in the project
+* 15 pages, three student in the project
 
-
-Additional links:
-    * :ref:`reports`
-    
-
-Report Format - TBD
--------------------
-
-All reports will be using the ACM proceedings format. The MSWord
-template can be found here:
-
-* :download:`paper-report.docx </files/paper-report.docx>`
-
-A LaTeX version can be found at
-
-* https://www.acm.org/publications/proceedings-template
-
-however you have to remove the ACM copyright notice in the LaTeX version.
-
-There will be **NO EXCEPTION** to this format. In case you are in a
-team, you can use either github while collaboratively developing the
-LaTeX document or use MicrosoftOne Drive which allows collaborative
-editing features. All bibliographical entries must be put into a
-bibliography manager such as jabref, endnote, or Mendeley. This will
-guarantee that you follow proper citation styles. You can use either
-ACM or IEEE reference styles. Your final submission will include the
-bibliography file as a separate document.
-
-Documents that do not follow the ACM format and are not accompanied by
-references managed with jabref or endnote or are not spell checked
-will be returned without review.
 
 
 Grading

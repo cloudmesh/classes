@@ -2,7 +2,6 @@ Practice Track
 ==============
 
 .. toctree::
-   :caption: Practice
    :maxdepth: 2
    
    code
