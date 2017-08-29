@@ -16,6 +16,7 @@ Week 1
 
 Using Piazza
 
+* Watch the introduction video at: https://youtu.be/yC3PNkb_9mI
 * EPiazza.1 :ref:`e-piazza`
 * EPiazza.2 :ref:`e-piazza`
 * EPiazza.3 :ref:`e-piazza`
@@ -47,6 +48,10 @@ Week 2 (Not yet released)
 
 This may take multiple weeks to complete for some of you:
 
+Learn on how to use piazza for the class
+
+* EPiazza.4 :ref:`e-piazza`
+  
 Learn Python
 
 * EPython.1 :ref:`e-python`

@@ -399,8 +399,15 @@ at:
 
 If you click on the foldername, you can see all posts in that folder.
 
+Video about i523 Piazza
+-----------------------
+
+A video on how piazzza is used in i523 is shown at:
+
+* https://youtu.be/9hnW-327CMQ
+
 .. _e-piazza:
-   
+
 Exercise
 --------
 
@@ -413,7 +420,10 @@ EPiazza.2:
 
 EPiazza.3:
     How do you find out within Piazza which assignments have been posted?
-    
+
+EPiazza.4:
+    Please watch the Video about i523 Piazza
+
 
 .. |image0| image:: images/image3.png
 .. |image1| image:: images/image1.png
