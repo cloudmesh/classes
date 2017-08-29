@@ -16,6 +16,7 @@ Week 1
 
 Using Piazza
 
+* Watch the introduction video at: https://www.youtube.com/watch?v=yC3PNkb_9mI
 * EPiazza.1 :ref:`e-piazza`
 * EPiazza.2 :ref:`e-piazza`
 * EPiazza.3 :ref:`e-piazza`
