@@ -227,7 +227,8 @@
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">1.5. Contributing</a><ul>
 <li><a class="reference internal" href="#md-vs-rst">1.5.1. MD vs. RST</a></li>
-<li><a class="reference internal" href="#exercise">1.5.2. Exercise</a></li>
+<li><a class="reference internal" href="#using-github">1.5.2. Using GitHub</a></li>
+<li><a class="reference internal" href="#exercise">1.5.3. Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -418,7 +419,8 @@
 </li><ul>
 <li><a class="reference internal" href="#">1.5. Contributing</a><ul>
 <li><a class="reference internal" href="#md-vs-rst">1.5.1. MD vs. RST</a></li>
-<li><a class="reference internal" href="#exercise">1.5.2. Exercise</a></li>
+<li><a class="reference internal" href="#using-github">1.5.2. Using GitHub</a></li>
+<li><a class="reference internal" href="#exercise">1.5.3. Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -451,8 +453,8 @@
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">We assume you are using a Linux or OSX operating system. If
-you use Windows, you can use virtual box and install for
-example ubuntu 16.04.</p>
+you use Windows, you can use virtualbox and install for
+example ubuntu 16.04. An alternative is to use gitbash</p>
 </div>
 <p>Contributing content to this web page is easy. First, you have to <strong>fork</strong>
 the repository while going to the link:</p>
@@ -463,7 +465,7 @@ the repository while going to the link:</p>
 fork from the web browser. If you clone, you need to make sure you
 clone from your fork.</p>
 <p>We assume you use Python 3.6.2. If not please find instructions on how
-to install it. We recommend that you use pyenv so you can install
+to install it. We recommend that you use <cite>pyenv</cite> so you can install
 multiple python environments.</p>
 <p>Next, you can cd to the <cite>classes</cite> directory and make the
 modifications. Check them locally with:</p>
@@ -486,20 +488,72 @@ edit the rst file. This file will be automatically created. In a
 future version we will remove the rst file and only have the md file
 in the directory.</p>
 </div>
+<div class="section" id="using-github">
+<span id="e-contrib"></span><h2>1.5.2. Using GitHub<a class="headerlink" href="#using-github" title="Permalink to this headline">¶</a></h2>
+<p>These instructions assume that you are using git from the
+commandline. For Linux or OSX, please follow our instructions on how
+to install it which is provided as part of the lessons.</p>
+<p>If you use windows you can install
+<a href="#id1"><span class="problematic" id="id2">:ref:`git for windows &lt;https://git-for-windows.github.io/&gt;`_</span></a> and than
+you can open up Gitbash in your classes directory.</p>
+<p>First you need to initialize your directory for use with Git:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">init</span>
+</pre></div>
+</div>
+<p>Next you need to set your user name and email to get credit for your
+work:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">user</span><span class="o">.</span><span class="n">name</span> <span class="s2">&quot;Firstname Lastname&quot;</span>
+<span class="n">it</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">user</span><span class="o">.</span><span class="n">email</span> <span class="n">yourusername</span><span class="nd">@iu</span><span class="o">.</span><span class="n">edu</span>
+</pre></div>
+</div>
+<p>Next you need to pull the information down from your forked repository.
+You will need to enter your Github username and password when
+prompted:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">pull</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">username</span><span class="o">/</span><span class="n">classes</span>
+</pre></div>
+</div>
+<p>With all the files downloaded to your local directory, you can begin editing
+the rst files with a plain text editor.</p>
+<p>When you have changes to commit to the repository, you will first have to set
+the origin for the changes. You only need to do this the first time you commit
+changes, so do not worry about this step every time you push your
+changes:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">username</span><span class="o">/</span><span class="n">classes</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+<p>Now you are ready to add the files you changed:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">add</span> <span class="o">-</span><span class="n">A</span>
+</pre></div>
+</div>
+<p>Then commit the changes with a meaningful comment explaining what you
+did:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;A message indicating what you changed&quot;</span>
+</pre></div>
+</div>
+<p>Finally you can push your changes up to Github:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span>
+</pre></div>
+</div>
+<p>Once you have done that, open up a browser and go to your forked project on Github.
+When you have verified that the changes are there, you can issue a pull request for
+your work to be integrated into the original repository by clicking the <em>Pull Request</em>
+field in the right hand corner beneath the topics.</p>
+</div>
 <div class="section" id="exercise">
-<span id="e-contrib"></span><h2>1.5.2. Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<h2>1.5.3. Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
 <p>To do this assignment you need to learn about making small changes nd
 how to document them with <cite>gitchangelog</cite>:</p>
-<ul class="simple">
-<li>if you fix a spelling error: your commit message must</li>
-</ul>
-<blockquote>
-<div>“chg:dev: corrected spelling error”</div></blockquote>
-<ul class="simple">
-<li>if you try to add a larger text you added real content, you can use
+<ul>
+<li><p class="first">if you fix a spelling error: your commit message must:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">chg</span><span class="p">:</span><span class="n">dev</span><span class="p">:</span> <span class="n">corrected</span> <span class="n">spelling</span> <span class="n">error</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">if you try to add a larger text you added real content, you can use
 “chg:usr: added section about how to do this and that and the other”
 where you replace this and that and the other with what you actually
-contributed</li>
+contributed</p>
+</li>
 </ul>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
