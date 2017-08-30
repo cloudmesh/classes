@@ -124,12 +124,12 @@ Code:
         make install
         make run
         make view
-        
-     Which would use a simple make file to install, run, and view the
-     results. Naturally you can use cmd5 (we teach this in class),
-     ansible or shell scripts. It is not permissible to use GUI based
-     DevOps preinstalled frameworks. Everything must be installable
-     form the command line.
+
+    Which would use a simple make file to install, run, and view the
+    results. Naturally you can use cmd5 (we teach this in class),
+    ansible or shell scripts. It is not permissible to use GUI based
+    DevOps preinstalled frameworks. Everything must be installable
+    form the command line.
 
 Data:
     If the data is small it can be added into a data directory in github. If you have

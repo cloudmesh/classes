@@ -567,18 +567,17 @@ that are needed you need to develop a script or use a DevOps
 framework to install such software. Thus zip files and .class, .o
 files are not permissible in the project. Each project must be
 reproducible with a simple script. An example is:</p>
-<div class="last highlight-default"><div class="highlight"><pre><span></span>   <span class="n">git</span> <span class="n">clone</span> <span class="o">....</span>
-   <span class="n">make</span> <span class="n">install</span>
-   <span class="n">make</span> <span class="n">run</span>
-   <span class="n">make</span> <span class="n">view</span>
-
-<span class="n">Which</span> <span class="n">would</span> <span class="n">use</span> <span class="n">a</span> <span class="n">simple</span> <span class="n">make</span> <span class="n">file</span> <span class="n">to</span> <span class="n">install</span><span class="p">,</span> <span class="n">run</span><span class="p">,</span> <span class="ow">and</span> <span class="n">view</span> <span class="n">the</span>
-<span class="n">results</span><span class="o">.</span> <span class="n">Naturally</span> <span class="n">you</span> <span class="n">can</span> <span class="n">use</span> <span class="n">cmd5</span> <span class="p">(</span><span class="n">we</span> <span class="n">teach</span> <span class="n">this</span> <span class="ow">in</span> <span class="n">class</span><span class="p">),</span>
-<span class="n">ansible</span> <span class="ow">or</span> <span class="n">shell</span> <span class="n">scripts</span><span class="o">.</span> <span class="n">It</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">permissible</span> <span class="n">to</span> <span class="n">use</span> <span class="n">GUI</span> <span class="n">based</span>
-<span class="n">DevOps</span> <span class="n">preinstalled</span> <span class="n">frameworks</span><span class="o">.</span> <span class="n">Everything</span> <span class="n">must</span> <span class="n">be</span> <span class="n">installable</span>
-<span class="n">form</span> <span class="n">the</span> <span class="n">command</span> <span class="n">line</span><span class="o">.</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="o">....</span>
+<span class="n">make</span> <span class="n">install</span>
+<span class="n">make</span> <span class="n">run</span>
+<span class="n">make</span> <span class="n">view</span>
 </pre></div>
 </div>
+<p class="last">Which would use a simple make file to install, run, and view the
+results. Naturally you can use cmd5 (we teach this in class),
+ansible or shell scripts. It is not permissible to use GUI based
+DevOps preinstalled frameworks. Everything must be installable
+form the command line.</p>
 </dd>
 <dt>Data:</dt>
 <dd>If the data is small it can be added into a data directory in github. If you have
