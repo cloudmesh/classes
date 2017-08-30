@@ -47,9 +47,13 @@ in the directory.
 Using GitHub
 ------------
 
-These instructions assume that you are using Gitbash, not the GUI.
+These instructions assume that you are using git from the
+commandline. For Linux or OSX, please follow our instructions on how
+to install it which is provided as part of the lessons.
 
-Open up Gitbash in your classes directory.
+If you use windows you can install
+:ref:`git for windows <https://git-for-windows.github.io/>`_ and than
+you can open up Gitbash in your classes directory.
 
 First you need to initialize your directory for use with Git.
 	``git init``
@@ -59,18 +63,18 @@ Next you need to set your user name and email to get credit for your work.
 	``git config --global user.email yourusername@iu.edu``
 
 Next you need to pull the information down from your forked repository.
-You'll need to enter your Github username and password when prompted.
+You will need to enter your Github username and password when prompted.
 	``git pull https://github.com/username/classes``
 
 With all the files downloaded to your local directory, you can begin editing
 the rst files with a plain text editor.
 
-When you have changes to commit to the repository, you'll first have to set
+When you have changes to commit to the repository, you will first have to set
 the origin for the changes. You only need to do this the first time you commit
-changes, so don't worry about this step every time you push your changes.
+changes, so do not worry about this step every time you push your changes.
 	``git remote add origin https://github.com/username/classes.git``
 
-Now you're ready to add the files you changed.
+Now you are ready to add the files you changed.
 	``git add -A``
 
 Then commit the changes with a meaningful comment explaining what you did.
@@ -79,9 +83,9 @@ Then commit the changes with a meaningful comment explaining what you did.
 Finally you can push your changes up to Github.
 	``git push -u origin master``
 	
-Once you've done that, open up a browser and go to your forked project on Github.
-When you've verified that the changes are there, you can issue a pull request for
-your work to be integrated into the original repository by clicking the "Pull Request"
+Once you have done that, open up a browser and go to your forked project on Github.
+When you have verified that the changes are there, you can issue a pull request for
+your work to be integrated into the original repository by clicking the *Pull Request*
 field in the right hand corner beneath the topics.
 
 Exercise
