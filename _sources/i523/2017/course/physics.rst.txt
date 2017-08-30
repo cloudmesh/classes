@@ -36,8 +36,8 @@ lectures use Python but use of Java is described.
 
 Files: :download:`HiggsClassI-Sloping.py </files/python/physics/mr_higgs/higgs_classI_sloping.py>`
 
-Looking for Higgs Particle and Counting Introduction I
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Looking for Higgs Particle and Counting Introduction
+""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 We return to particle case with slides used in introduction and stress
 that particles often manifested as bumps in histograms and those bumps
@@ -48,9 +48,6 @@ statistically significant fashion.
 
           Video: http://youtu.be/VQAupoFUWTg
 
-
-Looking for Higgs Particle and Counting Introduction II
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 We give a few details on one LHC experiment ATLAS. Experimental
 physics papers have a staggering number of authors and quite big
@@ -204,8 +201,8 @@ Physics unit. We define the statistics concept of a random variable.
           Video: http://youtu.be/0oZzALLzYBM
 
 
-Physics and Random Variables I
-""""""""""""""""""""""""""""""
+Physics and Random Variables
+""""""""""""""""""""""""""""
 
 We describe the DIKW pipeline for the analysis of this type of physics
 experiment and go through details of analysis pipeline for the LHC
@@ -214,20 +211,9 @@ state particles seen in a few events. We illustrate how physicists
 decide whats going on with a plot of expected Higgs production
 experimental cross sections (probabilities) for signal and background.
 
-*          Video: http://youtu.be/Tn3GBxgplxg
+* Video A: http://youtu.be/Tn3GBxgplxg
 
-
-Physics and Random Variables II
-"""""""""""""""""""""""""""""""
-
-We describe the DIKW pipeline for the analysis of this type of physics
-experiment and go through details of analysis pipeline for the LHC
-ATLAS experiment. We give examples of event displays showing the final
-state particles seen in a few events. We illustrate how physicists
-decide whats going on with a plot of expected Higgs production
-experimental cross sections (probabilities) for signal and background.
-
-*          Video: http://youtu.be/qWEjp0OtvdA
+* Video B: http://youtu.be/qWEjp0OtvdA
 
 
 
@@ -290,8 +276,8 @@ Files:
 
 * :download:`HiggsClassIII.py </files/python/physics/calculated_dice_roll/higgs_classIV_seeds.py>`
 
-Generators and Seeds I
-""""""""""""""""""""""
+Generators and Seeds
+""""""""""""""""""""
 
 We define random numbers and describe how to generate them on the
 computer giving Python examples. We define the seed used to define to
@@ -300,14 +286,6 @@ specify how to start generation.
 .. todo:: The slides or videos are going to be updated
 
           Video: http://youtu.be/76jbRphjRWo
-
-
-Generators and Seeds II
-"""""""""""""""""""""""
-
-We define random numbers and describe how to generate them on the
-computer giving Python examples. We define the seed used to define to
-specify how to start generation.
 
 *          Video: http://youtu.be/9QY5qkQj2Ag
 

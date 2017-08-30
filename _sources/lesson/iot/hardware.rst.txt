@@ -18,9 +18,9 @@ We see the following arguments for using IoT hardware:
 -  You will get experience with two platforms esp8266 and Raspberry PI 3
 -  You can customise your choices by conducting some fun projects.
 -  You have the opportunity to find alternative hardware choices such as
-   the WiPy or the ESP32. You may find cheaper or better
-   alternatives if you buy kits when they are available. And learn in
-   getting an overview about such devices and kits.
+   the WiPy or the ESP32. You may find cheaper or better alternatives if
+   you buy kits when they are available. And learn in getting an
+   overview about such devices and kits.
 
 *Note:* Ordering from overseas suppliers may take significant time, so
 make sure to plan ahead. Prices given here are done to provide an
@@ -77,12 +77,12 @@ The ESP8266 has many variants. Some of which are difficult to interface
 with. However, this does not apply for the ESP8266 NodeMCU. This board
 is originally flashed with *Lua*, however it can easily be reflashed
 with MicroPython. In addition it is often offered as part of a platform
-to develop a robot car. There are arguably better kits available, but the
-price of $24 for the entire kit is hard to beat. Unfortunately the
+to develop a robot car. There are arguably better kits available, but
+the price of $24 for the entire kit is hard to beat. Unfortunately the
 version of python, as well as the limited memory make the esp8266 not a
 full fledged platform for python programming and you will quickly see
 its limitations. Interfacing with it, however, as an IoT device will
-gain you a lot of insides.
+gain you a lot of insights.
 
 *Configuration:*
 
@@ -113,7 +113,7 @@ Sensor Kit
 ----------
 
 It is fun to attach sensors to your IoT board. There are many kits
-available and we encourage you to do comparisons. One such kit is
+ab]vailable and we encourage you to do comparisions. One such kit is
 
 -  $29.99 `Elegoo 37
    Sensors <https://www.amazon.com/Elegoo-Upgraded-Modules-Tutorial-Arduino/dp/B01MG49ZQ5/ref=sr_1_7?s=electronics&ie=UTF8&qid=1499251441&sr=1-7&keywords=elegoo>`__
@@ -130,8 +130,8 @@ Fish Kit
 -  $29.99
    `shark <https://www.amazon.com/Swimmer-Inflatable-Flying-Replacement-Balloon/dp/B00658LN3E/ref=pd_bxgy_21_img_2?_encoding=UTF8&pd_rd_i=B00658LN3E&pd_rd_r=F71N2YCYE6Z0BCCEPQJC&pd_rd_w=AwYab&pd_rd_wg=rHTnv&psc=1&refRID=F71N2YCYE6Z0BCCEPQJC>`__
 
-   -  cheaper ballones leak
-   -  before assembly and putting gas in make sure components work.
+   -  cheaper balloons leak
+   -  before assembly and putting gas in, make sure components work.
    -  gas will last typically for one week
    -  $39.99 gas can be purchased in party store
 
@@ -180,7 +180,7 @@ Grove Sensors
 
 Grove sensors have ready-made cables that make them easy to attach to
 the Raspberry PI. However, they are more expensive. You still need a
-Raspberry PI. And a GrovePi board. No soldering iron and no breadboards are required.
+Raspberry PI. No soldering iron and no breadboards are required.
 
 -  `Grove Starter
    Set <https://www.seeedstudio.com/Grove-Starter-Kit-for-Arduino-p-1855.html>`__

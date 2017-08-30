@@ -2,7 +2,6 @@ Theory Track
 ============
 
 .. toctree::
-   :caption: Track Theory
    :maxdepth: 2
 
    introduction
