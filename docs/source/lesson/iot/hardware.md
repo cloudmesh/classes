@@ -33,7 +33,7 @@ The raspberry PI 3 is a very good development platform. With its base price of $
 * Good environment for learning Linux and Python
 * Reasonable interfaces to IoT sensors
 * excellent camera support
-* excellent choice of expansion papcakes including Grove Sensors that make it easy to attach sensors and actuators. An example package is the [Grove Starter Kit](https://www.amazon.com/GrovePi-Starter-Kit-Dexter-Industries/dp/B00TXTZ5SQ/ref=pd_lpo_vtph_147_bs_tr_img_1?_encoding=UTF8&psc=1&refRID=45QX6XSNZAG1NT8NES79) for about $90
+* excellent choice of expansion packages including Grove Sensors that make it easy to attach sensors and actuators. An example package is the [Grove Starter Kit](https://www.amazon.com/GrovePi-Starter-Kit-Dexter-Industries/dp/B00TXTZ5SQ/ref=pd_lpo_vtph_147_bs_tr_img_1?_encoding=UTF8&psc=1&refRID=45QX6XSNZAG1NT8NES79) for about $90
 
 
 
@@ -78,8 +78,8 @@ However it does not include a breadboard like other kits. Hence we recommend tha
 
 
 * $29.99 [shark](https://www.amazon.com/Swimmer-Inflatable-Flying-Replacement-Balloon/dp/B00658LN3E/ref=pd_bxgy_21_img_2?_encoding=UTF8&pd_rd_i=B00658LN3E&pd_rd_r=F71N2YCYE6Z0BCCEPQJC&pd_rd_w=AwYab&pd_rd_wg=rHTnv&psc=1&refRID=F71N2YCYE6Z0BCCEPQJC)
-	* cheaper ballones leak
-	* before assembly and putting gas in make sure components work. 
+	* cheaper ballons leak
+	* before assembly and putting gas in, make sure components work. 
 	* gas will last typically for one week
 	* $39.99 gas can be purchased in party store 
 * 2 g9 servo
