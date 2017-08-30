@@ -32,7 +32,7 @@ follow. The use of clustering and topic models completes section
 
 
 Web Search and Text Mining I
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 The unit starts with the web with its size, shape (coming from the
@@ -221,8 +221,8 @@ enhancing relevance.
           Video: https://youtu.be/ugyycKBjaBQ
 
 
-Link Structure Analysis including PageRank I
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Link Structure Analysis including PageRank
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The value of links and the concepts of Hubs and Authorities are
 discussed. This leads to definition of PageRank with

@@ -118,8 +118,8 @@ class.
 * Video: https://youtu.be/1Eh1epQj-EQ
 
 
-Netflix on Recommender Systems I
-""""""""""""""""""""""""""""""""
+Netflix on Recommender Systems
+""""""""""""""""""""""""""""""
 
 This is Part 1.
 
@@ -215,8 +215,8 @@ Retail.
 * Video: https://youtu.be/og07mH9fU0M
 
 
-Recommender Systems in Yahoo Use Case Example I
-"""""""""""""""""""""""""""""""""""""""""""""""
+Recommender Systems in Yahoo Use Case Example
+"""""""""""""""""""""""""""""""""""""""""""""
 
 We describe in greatest detail the methods used to optimize Yahoo web
 sites. There are two lessons discussing general approach and a third
@@ -241,8 +241,8 @@ on-line (real time) components.
 
 
 
-User-based nearest-neighbor collaborative filtering I
-"""""""""""""""""""""""""""""""""""""""""""""""""""""
+User-based nearest-neighbor collaborative filtering
+"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Collaborative filtering is a core approach to recommender
 systems. There is user-based and item-based collaborative filtering
