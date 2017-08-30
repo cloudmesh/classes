@@ -2,8 +2,8 @@ Contributing
 ============
 
 .. note:: We assume you are using a Linux or OSX operating system. If
-          you use Windows, you can use virtual box and install for
-          example ubuntu 16.04.
+          you use Windows, you can use virtualbox and install for
+          example ubuntu 16.04. An alternative is to use gitbash
    
 Contributing content to this web page is easy. First, you have to **fork**
 the repository while going to the link:
@@ -15,7 +15,7 @@ fork from the web browser. If you clone, you need to make sure you
 clone from your fork.
 
 We assume you use Python 3.6.2. If not please find instructions on how
-to install it. We recommend that you use pyenv so you can install
+to install it. We recommend that you use `pyenv` so you can install
 multiple python environments.
 
 Next, you can cd to the `classes` directory and make the
@@ -55,33 +55,44 @@ If you use windows you can install
 :ref:`git for windows <https://git-for-windows.github.io/>`_ and than
 you can open up Gitbash in your classes directory.
 
-First you need to initialize your directory for use with Git.
-	``git init``
+First you need to initialize your directory for use with Git::
+  
+	git init
 
-Next you need to set your user name and email to get credit for your work.
-	``git config --global user.name "Firstname Lastname``
-	``git config --global user.email yourusername@iu.edu``
+Next you need to set your user name and email to get credit for your
+work::
+
+	git config --global user.name "Firstname Lastname"
+	it config --global user.email yourusername@iu.edu
 
 Next you need to pull the information down from your forked repository.
-You will need to enter your Github username and password when prompted.
-	``git pull https://github.com/username/classes``
+You will need to enter your Github username and password when
+prompted::
+  
+	git pull https://github.com/username/classes
 
 With all the files downloaded to your local directory, you can begin editing
 the rst files with a plain text editor.
 
 When you have changes to commit to the repository, you will first have to set
 the origin for the changes. You only need to do this the first time you commit
-changes, so do not worry about this step every time you push your changes.
-	``git remote add origin https://github.com/username/classes.git``
+changes, so do not worry about this step every time you push your
+changes::
 
-Now you are ready to add the files you changed.
-	``git add -A``
+	git remote add origin https://github.com/username/classes.git
 
-Then commit the changes with a meaningful comment explaining what you did.
-	``git commit -m "A message indicating what you changed"``
+Now you are ready to add the files you changed::
+  
+	git add -A
 
-Finally you can push your changes up to Github.
-	``git push -u origin master``
+Then commit the changes with a meaningful comment explaining what you
+did::
+  
+	git commit -m "A message indicating what you changed"
+
+Finally you can push your changes up to Github::
+
+	git push -u origin master
 	
 Once you have done that, open up a browser and go to your forked project on Github.
 When you have verified that the changes are there, you can issue a pull request for
@@ -94,8 +105,10 @@ Exercise
 To do this assignment you need to learn about making small changes nd
 how to document them with `gitchangelog`: 
 
-* if you fix a spelling error: your commit message must 
- "chg:dev: corrected spelling error"
+* if you fix a spelling error: your commit message must::
+    
+    chg:dev: corrected spelling error
+  
 * if you try to add a larger text you added real content, you can use
   "chg:usr: added section about how to do this and that and the other"
   where you replace this and that and the other with what you actually
