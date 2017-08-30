@@ -42,13 +42,13 @@ This class is a full term class of 16 weeks.
 
   * Good day to work on projects, computer setup
 
-* Sept 31. Paper 1 due (Graded)
+* Oct 2, 9am. Paper 1 due (Graded)
 
-* Sept 31. Computer Setup due for Big Data Completed (Graded)
+* Oct 2, 9am. Computer Setup due for Big Data Completed (pass/fail)
 
-  * 50pts Linux Computer  or Linux VM on Virtual box
-  * 30pts Raspberry Pi 3
-  * 20pts ES8266 (only suitable for IoT)
+  * Linux Computer  or Linux VM on Virtual box
+  * Raspberry Pi 3
+  * ES8266 (only suitable for IoT)
 
 * Fall Break  Oct 6 - Oct 8
 
@@ -58,10 +58,10 @@ This class is a full term class of 16 weeks.
 * Auto W  Sun, Oct 22
 
   * Oct 30 Paper 2 due (Graded)
-  * Oct 30 General programming assignments due (Graded)
-    * results       30pts
-    * code quality  30pts
-    * documentation 40pts
+  * Oct 30 General programming assignments due (pass/fail)
+    * results      
+    * code quality  
+    * documentation 
                      
 * Nov 19 - Nov 26, Thanksgiving lecture free time
 
