@@ -22,7 +22,7 @@ are used for ice data acquisitions and analysis.
 
 
 Introduction
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
 
 This lesson motivates radar-informatics by building on previous
 discussions on why X-applications are growing in data size and why
@@ -34,69 +34,57 @@ can be used to sound the polar ice sheets and what we are doing with
 radar images to extract knowledge to be incorporated into numerical
 models.
 
-.. todo:: The slides or videos are going to be updated
-
-   Video: https://youtu.be/LXOncC2AhsI
+* Video: https://youtu.be/LXOncC2AhsI
 
 
 Remote Sensing
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 This lesson explains the basics of remote sensing, the characteristics
 of remote sensors and remote sensing applications. Emphasis is on
 image acquisition and data collection in the electromagnetic spectrum.
 
-.. todo:: The slides or videos are going to be updated
-
-   Video: https://youtu.be/TTrm9rmZySQ
+* Video: https://youtu.be/TTrm9rmZySQ
 
 
 Ice Sheet Science
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 
 This lesson provides a brief understanding on why melt water at the
 base of the ice sheet can be detrimental and why it’s important for
 sensors to sound the bedrock.
 
-.. todo:: The slides or videos are going to be updated
-
-   Video: https://youtu.be/rDpjMLguVBc
+* Video: https://youtu.be/rDpjMLguVBc
 
 
 Global Climate Change
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 This lesson provides an understanding and the processes for the
 greenhouse effect, how warming effects the Polar Regions, and the
 implications of a rise in sea level.
 
-.. todo:: The slides or videos are going to be updated
-
-   Video: https://youtu.be/f9hzzJX0qDs
+* Video: https://youtu.be/f9hzzJX0qDs
 
 
 
 Radio Overview
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 This lesson provides an elementary introduction to radar and its
 importance to remote sensing, especially to acquiring information
 about Greenland and Antarctica.
 
-.. todo:: The slides or videos are going to be updated
-
-   Video: https://youtu.be/PuI7F-RMKCI
+* Video: https://youtu.be/PuI7F-RMKCI
 
 
 
 Radio Informatics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 This lesson focuses on the use of sophisticated computer vision
 algorithms, such as active contours and a hidden markov model to
 support data analysis for extracting layers, so ice sheet models can
 accurately forecast future changes in climate.
 
-.. todo:: The slides or videos are going to be updated
-
-   Video: https://youtu.be/q3Pwyt49syE
+* Video: https://youtu.be/q3Pwyt49syE

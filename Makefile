@@ -80,6 +80,7 @@ view:
 
 log:
 	gitchangelog | fgrep -v ":dev:" | fgrep -v ":new:" > docs/source/changelog.rst
+	make
 	git commit -m "chg: dev: Update changelog" docs/source/changelog.rst
 	git push
 

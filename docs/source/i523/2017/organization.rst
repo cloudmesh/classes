@@ -42,23 +42,41 @@ class, but also once you graduate. We will have a special lecture for
 you on this topic and we expect that you provide us with feedback
 about your github username.
 
-Assignments:
+.. _e-organization:
 
-Organization.1:
+Exercise
+^^^^^^^^
+
+EOrganization.1:
     register for the class
 
-Organization.2:
+EOrganization.2:
      obtain a github.com account
      
-Organization.3:
+EOrganization.3:
      enroll in Piazza via Canvas (see instructions in the class outline)
 
-Organization.4:
+EOrganization.4:
      create a post in Piazza (use the bio folder) (we need to verify
      you can post). Please use a formal Bio and do not use the word
      "I". There are already some examples in Piazza that you can
      follow. Take a look at the bios of the instructors.
-     
+
+EOrganization.4:
+     obtain a chameleon cloud account
+
+EOrganization.5:
+     obtain a futuresystems.org account
+
+.. warning:: Account creation on futuresystems and chameleon is only done
+             during **working hours** and it may take up to 48 hours to get
+             feedback. Do not ask us any questions if the 48 hours have not
+             passed. For example If you ask on Friday after 5pm EST,
+             do not expect to get an asnwer back before Wednesday. As
+             the next working day starts on Monday + 48 hours is at
+             the end of Tuesday, meaning you get feedback back on
+             Wednesday. Thus dependent on when you ask it may take 4
+             days for an answer.
 
 IoT Hardware
 ------------
@@ -140,9 +158,10 @@ money time on AWS. Hoever, be careful with the cloud its easy to spend
 lots of money there if you ar enot careful.
 
 Parallel Tracks
---------------
+---------------
 
-In this class we start out with three parallel tracks. You will be doing all of them.
+In this class we start out with three parallel tracks. You will be
+doing all of them.
 
 Track 1: Practice
 ^^^^^^^^^^^^^^^^^
@@ -245,7 +264,7 @@ you should not expect to get an A if you yourself are not convinced
 about your project or are unsure about it. Common sense prevales. 
 
 Self Discipline
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 As this class has no graded tests and only few graded homework, we
 like that you deliver an **exceptional** project report or paper.
 Instead of focussing on preparing for tests we provide you with the

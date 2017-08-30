@@ -1,14 +1,7 @@
-**Syllabus**
-
-.. warning:: This Syllabus will be updated throughout the semester.
-
-.. contents::
-   :local:
-
-.. _errata:
+Theory Track
+============
 
 .. toctree::
-   :caption: Track Theory
    :maxdepth: 2
 
    introduction
@@ -17,17 +10,8 @@
    health
    lifestyle
    physics
-   radar,rst
+   radar
    sensor
    sport
-   technology
    web
-   
-.. toctree::
-   :caption: Track Technology
-   :maxdepth: 2
 
-   python-tech
-   python
-   cloud
-   clustering

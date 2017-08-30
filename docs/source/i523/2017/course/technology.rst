@@ -93,7 +93,7 @@ use of Python for new runs.
 
 
 
-Technologypi: MapReduce
+Technology: MapReduce
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 

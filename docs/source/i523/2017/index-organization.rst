@@ -1,13 +1,17 @@
-Class Management
-================
+Organization
+============
 
 .. toctree::
-   :caption: Course I523 Fall 2017
-   :maxdepth: 4
+   :maxdepth: 2
 
+   preface
    overview
    fall2017
    ../../lesson/communication/piazza
    ../../lesson/contrib/contributing
+   project
    assignments
    git
+   organization
+
+

@@ -3,9 +3,6 @@
 I523 Big Data Applications and Analytics (2017)
 ===============================================
 
-.. warning:: The first lectures will be release on Aug 25, 2017. For
-             now we just provide initial draft material. 
-
 .. warning:: This material will be modified and updated on a weekly
              bases througought the semester. Some unit and section
              numbers in the presentations may not correspond to our
@@ -41,64 +38,19 @@ Content
 -------
 
 .. toctree::
-   :caption: Course I523 Fall 2017
    :maxdepth: 2
    :numbered:              
 
-   preface
-   class
-   organization
-   writing
-   code
-   python
-   iot
-   
+   index-organization
+   index-writing
+   course/index
+   index-practice
+
+
+
+      
 Additional Content
 ------------------
 
-* Introduction
-* Motivation for the course
-* Overview of Data Science and Big Data
-
-* Writing Research Papers/Project Reports
-
-* Python
-  * Introduction to Python for Big Data
-  * Introduction to Visualization in Python
-  * Python Programming Assignments
-
-* Usecases
-
-  * NIST Use Case Survey (51 use cases)
-  * Health Informatics
-  * Sports Informatics
-  * Physics
-  * e-commerce and Life style
-  * Web Search and Text Mining
-  * IoT
-  * Sensors Networks
-
-* Infrastructure
-
-  * IoT Devices
-  * Cloud Computing
-
-    * Chameleon Cloud
-
-  * Containers
-
-    * Echo virtual cluster
-    * Comet virtual cluster
-
-* Technologies
-
-  * Clusterimg
-  * K-Means
-  * Map Reduce
-  * Page Rank
-
-* Project
-
-
-Draft slides are available from :ref:`DraftLessons` .
+Additional draft slides are available from :ref:`DraftLessons` .
 

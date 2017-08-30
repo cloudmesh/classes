@@ -2,7 +2,7 @@
 .. index:: I524 technologies
 
 Technologies
-======================================================================
+============
 
 
 In this section we find a number of technologies that are related to
@@ -15,7 +15,7 @@ projects is at
 
 
 Workflow-Orchestration
-----------------------------------------------------------------------
+----------------------
 
 1. ODE
 
@@ -1527,7 +1527,7 @@ Application and Analytics
 
 
 Application Hosting Frameworks
-----------------------------------------------------------------------
+------------------------------
 
 80. Google App Engine
 
@@ -1906,7 +1906,7 @@ Application Hosting Frameworks
 
 
 High level Programming
-----------------------------------------------------------------------
+----------------------
 
 104. Kite
 
@@ -2711,7 +2711,7 @@ Streams
 
 
 Basic Programming model and runtime, SPMD, MapReduce
-----------------------------------------------------------------------
+----------------------------------------------------
 
 143. Hadoop
 
@@ -2968,7 +2968,7 @@ Basic Programming model and runtime, SPMD, MapReduce
      :cite:`www-netsyslab`
 
 Inter process communication Collectives
-----------------------------------------------------------------------
+---------------------------------------
 
 160. point-to-point
 161. (a) publish-subscribe: MPI
@@ -3403,7 +3403,7 @@ Inter process communication Collectives
      ramp" for Big Data.
 
 In-memory databases/caches
-----------------------------------------------------------------------
+--------------------------
 
 
 183. Gora (general object from NoSQL)
@@ -3607,7 +3607,7 @@ In-memory databases/caches
      single-node system.
 
 Object-relational mapping
-----------------------------------------------------------------------
+-------------------------
 
 192. Hibernate
 
@@ -3709,7 +3709,7 @@ Object-relational mapping
      databases by using a JDBC-to-ODBC bridge.
      
 Extraction Tools
-----------------------------------------------------------------------
+----------------
 
 197. UIMA
 
@@ -3747,7 +3747,7 @@ Extraction Tools
 
 
 SQL(NewSQL)
-----------------------------------------------------------------------
+-----------
 
 198. Oracle
 
@@ -4097,7 +4097,7 @@ SQL(NewSQL)
      provides full mid-query fault tolerance.
 
 NoSQL
-----------------------------------------------------------------------
+-----
 
 218. Lucene
 
@@ -4829,7 +4829,7 @@ NoSQL
      high-reliability :cite:`www-google-datastore`.
 
 File management
-----------------------------------------------------------------------
+---------------
 
 254. iRODS
 
@@ -4982,7 +4982,7 @@ File management
      
 
 Data Transport
-----------------------------------------------------------------------
+--------------
 
 263. BitTorrent
 
@@ -5117,7 +5117,7 @@ Data Transport
      implemented by Greenplum as gpfdist.
 
 Cluster Resource Management
-----------------------------------------------------------------------
+---------------------------
 
 271. Mesos
 
@@ -5681,7 +5681,7 @@ File systems
 
 
 Interoperability
-----------------------------------------------------------------------
+----------------
 
 300. Libvirt
 
@@ -5893,7 +5893,7 @@ Interoperability
 308. Genesis
 
 DevOps
-----------------------------------------------------------------------
+------
 
 309. Docker (Machine, Swarm)
 
@@ -6432,7 +6432,7 @@ DevOps
      using well defined APIs.
 
 IaaS Management from HPC to hypervisors
-----------------------------------------------------------------------
+---------------------------------------
 
 339. Xen
 
@@ -6860,10 +6860,10 @@ IaaS Management from HPC to hypervisors
      checks” to monitor the server :cite:`www-amar53`.
 
 Cross-Cutting Functions
-----------------------------------------------------------------------
+-----------------------
 
 Monitoring
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 361. Ambari
 
@@ -6961,7 +6961,7 @@ Monitoring
      also detects problems very early on.
 
 Security & Privacy
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 365. InCommon
 
      The mission of InCommon is to "create and support a common trust
@@ -7103,7 +7103,7 @@ Security & Privacy
      authorization message from a known identity provider.
 
 Distributed Coordination
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 373. Google Chubby
 
@@ -7159,7 +7159,7 @@ Distributed Coordination
 376. JGroups
 
 Message and Data Protocols
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 377. Avro
 
