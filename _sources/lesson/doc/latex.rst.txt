@@ -264,9 +264,11 @@ View the PDF:
 
     open file
 
-A great example is provided at:
+.. todo:: This example needs to be moved to github
+          
+          A great example is provided at:
 
-* https://gitlab.com/cloudmesh/project-000/tree/master/report
+          * https://gitlab.com/cloudmesh/project-000/tree/master/report
 
 It not only showcases you an example file in ACM 2 column format, but
 also integrates with a bibliography. Furthermore, it provides a

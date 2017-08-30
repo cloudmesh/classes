@@ -108,7 +108,7 @@ Deliverables
 The following artifacts are part of the deliverables for a project
 
 Code:
-    You must deliver the **source code** in gitlab. The code must be
+    You must deliver the **source code** in github. The code must be
     compilable and a TA may try to replicate to run your code. You
     MUST avoid lengthy install descriptions and everything must be
     installable from the command line. We will check submission. All

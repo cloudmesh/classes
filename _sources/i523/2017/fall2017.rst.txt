@@ -30,10 +30,10 @@ This class is a full term class of 16 weeks.
 
 * Aug 25, Fri,  9am Setup communication pathways for the class (no extensions)
 
-  * You must have created a gitlab repository in our class repository. (Graded homework, no extensions)
+  * You must have created a github repository in our class repository. (Graded homework, no extensions)
   * You must be in the class Piazza (Graded homework, no extensions).
   * Why no extensions: if we can not communicate with you we can not conduct the class.
-    Everyone must be in piazza and gitlab timely. Instead of giving points we will deduct points
+    Everyone must be in piazza and github timely. Instead of giving points we will deduct points
     from everyone that has not done it in time. Those that registered late have one week from the
     time they registered to complete this task.
 
