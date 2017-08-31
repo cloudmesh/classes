@@ -260,7 +260,7 @@ In case you like to audit the class or like to take it as part of a
 nondegree program the following applies:
 
 Participation in the class is approved for non degree student and
-studnets that like to audit the clss under the following conditions:
+students that like to audit the clss under the following conditions:
 
 #. Due to limited space enrollment in the residential class is not
    allowed. The class must be taken online.
@@ -282,7 +282,7 @@ studnets that like to audit the clss under the following conditions:
    incomplete is requested. An incomplete requires 2 month review
    time.
 
-#. Accounts and services can not be shared and will be disabled once
+#. Accounts and services cannot be shared and will be disabled once
    the class is over.
 
 #. It is not allowed to use our services for profit (e.g. just
