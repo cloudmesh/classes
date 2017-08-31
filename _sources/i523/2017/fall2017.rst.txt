@@ -306,11 +306,7 @@ following time according to the information provieded by the
 registrar.
 
 
-* 01:00P-02:15P  Friday ENGR-E 534 Smith Research Center, 151E
-
-* 09:30A-10:45A  Friday I523/I423 other residential,  I2 150
-
-* 09:30A-10:45A  Monday E599 I2 130  Intelligent Systems Engeneering   
+* 09:30A-10:45A  Friday I523/I423/E534 other residential,  I2 150
 
 We like to move the Monday class to Friday
   
@@ -328,3 +324,7 @@ Residential Students:
 Online Studenst:
     A doodle poll will be provided allowing for 2-3 online meetings
     per week at different times.
+
+    Please use the following doodle to identify times:
+
+    * https://doodle.com/poll/gym73n8cy789vmw5
