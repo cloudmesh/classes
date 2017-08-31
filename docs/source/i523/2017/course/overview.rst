@@ -50,8 +50,10 @@ Information to Knowledge to Wisdom) pipeline. Then more detail is
 given on the flood of data from Internet and Industry applications
 with eBay and General Electric discussed in most detail.
 
-.. todo:: The slides or videos are going to be updated 
-          
+* Slides: `PDF <https://drive.google.com/open?id=0B88HKpainTSfenJ4dEZQOUxZSmM>`_
+
+.. comment::
+
           * Slides: https://iu.box.com/s/rmnw3soy81kc82a5qzow
 
 
@@ -173,8 +175,9 @@ individually modest data adding up to a lot. The last lesson
 emphasizes how everyday devices ~~ the Internet of Things ~~ are being
 used to create a wealth of data.
 
-.. todo:: The slides or videos are going to be updated  
-          
+* Slides: `PDF <https://drive.google.com/open?id=0B88HKpainTSfZzhqZHVKbllZcTA>`_ 
+.. comment::
+
           * Slides: https://iu.box.com/s/e73lyv9sx7xcaqymb2n6
 
 
@@ -269,8 +272,10 @@ the big data to give big wisdom. There are many ways to describe data
 science and several are discussed to give a good composite picture of
 this emerging field.
 
-.. todo:: The slides or videos are going to be updated
-          
+* Slides: `PDF <https://drive.google.com/open?id=0B88HKpainTSfV1FwdktnbTl3T1k>`_
+
+.. comment::
+
           * Slides: https://iu.box.com/s/38z9ryldgi3b8dgcbuan
 
 
@@ -285,7 +290,9 @@ terms of power consumption and the environment are also touched upon,
 followed by a list of the most critical features of Cloud computing
 and a comparison to supercomputing.
 
-.. todo:: The slides or videos are going to be updated  
+* Video: `m4v <https://drive.google.com/open?id=0B88HKpainTSfR20xcUdLbDQzeGs>`_
+
+.. comment::
 
           * Video: http://youtu.be/8RBzooC_2Fw
 
