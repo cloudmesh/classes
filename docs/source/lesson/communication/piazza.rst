@@ -290,16 +290,11 @@ Piazza class Links
 
              If you have questions bout this contact Margaret Ricci.
 
+Classes hosted on Piazza
 
-**THE LINK HAS PURPOSFULLY BEEN REMOVED FOR THE TIME BEING SO YOU ARE
- FORCED TO ENROLL TO PIAZZA VIA CANVAS**
-
-.. comment:
-   
-   Classes hosted on Piazza
-
-   * Fall 2017:
-     * I523 https://piazza.com/class/j5wll7vzylg25j
+* Fall 2017:
+  
+  * I523: https://piazza.com/iu/fall2017/i523/home
 
 
 Older Classes
@@ -307,22 +302,131 @@ Older Classes
 * I524 Spring 2017: https://piazza.com/class/ix39m27czn5uw
 * I523 Fall 2016: https://piazza.com/class/irqfvh1ctrg2vt
 
-             
-             
+Piazza Curration for I523
+-------------------------
+
+We are using Piazza in a currated fashion and we like that all
+students participate in this. This will allow Piazza to become a
+superior tool for all in the class. IN general we only allow **exactly
+one folder** for a message. If a message is wrongly filed it will be
+corrected, either by students or TAs.
+
+As part of this we are intrducing anumber of folders. Some of which
+must not be used by students. We list the folllowing folders and their
+purpose:
+
+logistics:
+    Any question and discussion related to the logistics of the course
     
+lectures:
+    Any question and discussion related to the lectures.
+    
+p1:
+    Any question and discussion related to paper 1.
+    
+p2:
+    Any question and discussion related to paper 2.
+
+proj-iot:
+    Any question and discussion related to iot projects.
+    
+proj-term:
+    Any question and discussion related to the term project.
+
+python:
+    Any question and discussion related to python.
+    
+pi:
+    Any question and discussion related to the Raspberry Pi 3. We are
+    not using older Raspberry Pi's and therefore can not comment to them.
+    
+8266:
+    Any question and discussion related to the esp8266.
+    
+bio:
+    A homework folder in which you only publish your bio. The bio
+    needs to be published as a *note*. This assignment also serves us
+    to see if you are in piazza. Please do this assignment ASSAP. You
+    need to post a formal bio. See the many great examples in the
+    folder.
+    
+help:
+    If you need help and none of the other folders fits, please use
+    this folder. If information from here will result into new Web
+    page content it will be added and marked into the folder
+    *resolved*. See the *resolved* folder for more detail.
+
+resolved:
+    Sometimes we move some general help messages to the resolved
+    folder in case the help message results into information that is
+    posted on our class Web page. We than will add a link to where in
+    the class Web page this question was answered. The TAs will
+    aggressively try to put information into the Web page.
+
+discussion:
+    Any content that deserves its seperate discussion and is not
+    covered in the above folder.
+
+In addition to these general folders we also have two folders which
+**MUST NOT BE USED BY ANY STUDENT TO POST CONTENT**. These folders
+serve to communicate your assignments and are used internally between
+Grgeor and the TA's.
+
+*assignments*:
+    This folder only lists the assignments. At any time in the class
+    you can click on the assignment folder and list the assignments
+    given to the class. THus there is no confusion which assignments
+    have been given. In case students have questions about
+    assignments they should not use the *assignments* folder, but the
+    *help* folder. TAs are instructed to correct wrongly filed
+    messages in folders. 
+    
+*ta*:
+    Any question and discussion you have for the ta's.
+    Typically you should however use the folder *help*. Gregor use
+    most often the *ta* folder for internal coordination with the tas.
+    
+It may be necessary to create new folders for the class. Their meeing
+will be updated here once this occurs.
+
+In case you decide to post privately and the information is useful for
+others also, the message will be published to the class.
+
+A convenient post with all folders that are useful to know is posted
+at:
+
+* https://piazza.com/class/j5wll7vzylg25j?cid=103
+
+If you click on the foldername, you can see all posts in that folder.
+
+Video about i523 Piazza
+-----------------------
+
+A video on how piazzza is used in i523 is shown at:
+
+* https://youtu.be/9hnW-327CMQ
+
+.. _e-piazza:
+
 Exercise
 --------
 
-Piazza.1:
+EPiazza.1:
     Enroll in piazza
 
-Piazza.2:
+EPiazza.2:
     Post a short formal bio in the bio folder (optionally include a professional
-    portrait of yourself). 
+    portrait of yourself). Make sure you understand what a formal bio is.
+
+EPiazza.3:
+    How do you find out within Piazza which assignments have been posted?
+
+EPiazza.4:
+    Please watch the Video about i523 Piazza
+
 
 .. |image0| image:: images/image3.png
 .. |image1| image:: images/image1.png
 .. |image2| image:: images/image4.png
 .. |image3| image:: images/image2.png
-
 

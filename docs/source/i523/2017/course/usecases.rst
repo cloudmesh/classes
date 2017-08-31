@@ -1,6 +1,8 @@
 
 .. _S7:
 
+.. _s-big-data-uise-case-survey:
+
 Big Data Use Cases Survey
 ----------------------------------------------------------------------
 
@@ -135,6 +137,48 @@ recommendations.
           Video: http://youtu.be/GCc9yfErmd0
 
 
+Interfaces subgroup
+"""""""""""""""""""
+
+This subgroup is working on the following document:
+*NIST Big Data Interoperability Framework: Volume 8, Reference
+Architecture Interface*.
+
+This document summarizes interfaces that are instrumental for the
+interaction with Clouds, Containers, and HPC systems to manage virtual
+clusters to support the NIST Big Data Reference Architecture
+(NBDRA). The Representational State Transfer (REST) paradigm is used
+to define these interfaces allowing easy integration and adoption by a
+wide variety of frameworks. . This volume, Volume 8, uses the work
+performed by the NBD-PWG to identify objects instrumental for the NIST
+Big Data Reference Architecture (NBDRA) which is introduced in the
+NBDIF: Volume 6, Reference Architecture.
+
+This presentation was given at the *2nd NIST Big Data Public Working
+Group (NBD-PWG) Workshop* in Washington DC in June 2017. It explains
+our thoughts on deriving automatically a refernce architecture form
+the Refernce Architecture Interface specifications directly from the
+document.
+
+The workshop Web page is located at
+
+* https://bigdatawg.nist.gov/workshop2.php
+
+The agenda of teh workshop is as follows:
+  
+* https://bigdatawg.nist.gov/2017_NIST_Big_Data_PWG_WorkshopAgenda_with_Speakers_Bio.pdf
+
+The Web cas of the presentation is given bellow, while you need to fast forward to a particular time
+
+* Webcast: https://www.nist.gov/news-events/events/2017/06/2nd-nist-big-data-public-working-group-nbd-pwg-workshop
+
+  *   see: Big Data Working Group Day 1, part 2 Time start: 21:00 min, Time end: 44:00
+  
+* Slides: https://github.com/cloudmesh/cloudmesh.rest/blob/master/docs/NBDPWG-vol8.pptx?raw=true
+* Document: https://github.com/cloudmesh/cloudmesh.rest/raw/master/docs/NIST.SP.1500-8-draft.pdf
+  
+You are welcome to view other presentations if you are interested. 
+
 
 Requirements and Use Case Subgroup Introduction I
 """""""""""""""""""""""""""""""""""""""""""""""""
@@ -156,52 +200,11 @@ systemization are discussed.
 
 .. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/sztqNXJ9P6c
+          * Video: http://youtu.be/sztqNXJ9P6c
 
+          * Video: http://youtu.be/0sbfIqHUauI
 
-Requirements and Use Case Subgroup Introduction II
-""""""""""""""""""""""""""""""""""""""""""""""""""
-
-The focus is to form a community of interest from industry, academia,
-and government, with the goal of developing a consensus list of Big
-Data requirements across all stakeholders. This includes gathering and
-understanding various use cases from diversified application
-domains.Tasks are gather use case input from all stakeholders; derive
-Big Data requirements from each use case; analyze/prioritize a list of
-challenging general requirements that may delay or prevent adoption of
-Big Data deployment; develop a set of general patterns capturing the
-''essence'' of use cases (not done yet) and work with Reference
-Architecture to validate requirements and reference architecture by
-explicitly implementing some patterns based on use cases. The progress
-of gathering use cases (discussed in next two units) and requirements
-systemization are discussed.
-
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/0sbfIqHUauI
-
-
-
-Requirements and Use Case Subgroup Introduction III
-"""""""""""""""""""""""""""""""""""""""""""""""""""
-
-The focus is to form a community of interest from industry, academia,
-and government, with the goal of developing a consensus list of Big
-Data requirements across all stakeholders. This includes gathering and
-understanding various use cases from diversified application
-domains.Tasks are gather use case input from all stakeholders; derive
-Big Data requirements from each use case; analyze/prioritize a list of
-challenging general requirements that may delay or prevent adoption of
-Big Data deployment; develop a set of general patterns capturing the
-''essence'' of use cases (not done yet) and work with Reference
-Architecture to validate requirements and reference architecture by
-explicitly implementing some patterns based on use cases. The progress
-of gathering use cases (discussed in next two units) and requirements
-systemization are discussed.
-
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/u59559nqjiY
+          * Video: http://youtu.be/u59559nqjiY
 
 
 Resources
@@ -352,7 +355,7 @@ links and notify us of the outdated links.
 
 
 51 Big Data Use Cases
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 This units consists of one or more slides for each of the 51 use
 cases - typically additional (more than one) slides are associated
@@ -362,116 +365,66 @@ each new classification topic is introduced we briefly discuss it but
 full discussion of topics is given in following unit.
 
 
+.. todo:: The slides or videos are going to be updated
 
-Slides: https://iu.app.box.com/s/cvki350s0a12o404a524
-
-
-Government Use Cases I
-""""""""""""""""""""""
-
-This covers Census 2010 and 2000 - Title 13 Big Data; National
-Archives and Records Administration Accession NARA, Search, Retrieve,
-Preservation; Statistical Survey Response Improvement (Adaptive
-Design) and Non-Traditional Data in Statistical Survey Response
-Improvement (Adaptive Design).
-
-Video: http://youtu.be/gCqBFYDDzSQ
+          * Slides: https://iu.app.box.com/s/cvki350s0a12o404a524
 
 
-Government Use Cases II
-"""""""""""""""""""""""
-
-This covers Census 2010 and 2000 - Title 13 Big Data; National
-Archives and Records Administration Accession NARA, Search, Retrieve,
-Preservation; Statistical Survey Response Improvement (Adaptive
-Design) and Non-Traditional Data in Statistical Survey Response
-Improvement (Adaptive Design).
-
-Video: http://youtu.be/y0nIed-Nxjw
-
-
-Commercial Use Cases I
-""""""""""""""""""""""
-
-This covers Cloud Eco-System, for Financial Industries (Banking,
-Securities & Investments, Insurance) transacting business within the
-United States; Mendeley - An International Network of Research;
-Netflix Movie Service; Web Search; IaaS (Infrastructure as a Service)
-Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
-Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
-Simulation driven Materials Genomics.
-
-Video: http://youtu.be/P1iuViI-AKc
-
-
-Commercial Use Cases II
-"""""""""""""""""""""""
-
-This covers Cloud Eco-System, for Financial Industries (Banking,
-Securities & Investments, Insurance) transacting business within the
-United States; Mendeley - An International Network of Research;
-Netflix Movie Service; Web Search; IaaS (Infrastructure as a Service)
-Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
-Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
-Simulation driven Materials Genomics.
-
-Video: http://youtu.be/epFH4w_Q9lc
-
-
-Commercial Use Cases III
-""""""""""""""""""""""""
-
-This covers Cloud Eco-System, for Financial Industries (Banking,
-Securities & Investments, Insurance) transacting business within the
-United States; Mendeley - An International Network of Research;
-Netflix Movie Service; Web Search; IaaS (Infrastructure as a Service)
-Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
-Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
-Simulation driven Materials Genomics.
-
-Video: http://youtu.be/j5kWjL4y7Bo
-
-
-
-Defense Use Cases I
-"""""""""""""""""""
-
-This covers Large Scale Geospatial Analysis and Visualization; Object
-identification and tracking from Wide Area Large Format Imagery (WALF)
-Imagery or Full Motion Video (FMV) - Persistent Surveillance and
-Intelligence Data Processing and Analysis.
-
-Video: http://youtu.be/8hXG7dinhjg
-
-
-Defense Use Cases II
+Government Use Cases
 """"""""""""""""""""
 
+This covers Census 2010 and 2000 - Title 13 Big Data; National
+Archives and Records Administration Accession NARA, Search, Retrieve,
+Preservation; Statistical Survey Response Improvement (Adaptive
+Design) and Non-Traditional Data in Statistical Survey Response
+Improvement (Adaptive Design).
+
+.. todo:: The slides or videos are going to be updated
+
+          * Video A: http://youtu.be/gCqBFYDDzSQ
+
+          * Video B: http://youtu.be/y0nIed-Nxjw
+
+
+Commercial Use Cases
+""""""""""""""""""""
+
+This covers Cloud Eco-System, for Financial Industries (Banking,
+Securities & Investments, Insurance) transacting business within the
+United States; Mendeley - An International Network of Research;
+Netflix Movie Service; Web Search; IaaS (Infrastructure as a Service)
+Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
+Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
+Simulation driven Materials Genomics.
+
+.. todo:: The slides or videos are going to be updated
+
+          * Video A: http://youtu.be/P1iuViI-AKc
+
+          * Video B: http://youtu.be/epFH4w_Q9lc
+
+          * Video C: http://youtu.be/j5kWjL4y7Bo
+
+
+
+Defense Use Cases
+"""""""""""""""""
+
 This covers Large Scale Geospatial Analysis and Visualization; Object
 identification and tracking from Wide Area Large Format Imagery (WALF)
 Imagery or Full Motion Video (FMV) - Persistent Surveillance and
 Intelligence Data Processing and Analysis.
 
-Video: http://youtu.be/MplyAfmuxko
+.. todo:: The slides or videos are going to be updated
+
+          * Video A: http://youtu.be/8hXG7dinhjg
+
+          * Video B: http://youtu.be/MplyAfmuxko
 
 
 
-Healthcare and Life Science Use Cases I
-"""""""""""""""""""""""""""""""""""""""
-
-This covers Electronic Medical Record (EMR) Data; Pathology
-Imaging/digital pathology; Computational Bioimaging; Genomic
-Measurements; Comparative analysis for metagenomes and genomes;
-Individualized Diabetes Management; Statistical Relational Artificial
-Intelligence for Health Care; World Population Scale Epidemiological
-Study; Social Contagion Modeling for Planning, Public Health and
-Disaster Management and Biodiversity and LifeWatch.
-
-Video: http://youtu.be/jVARCWVeYxQ
-
-
-Healthcare and Life Science Use Cases II
-"""""""""""""""""""""""""""""""""""""""""""""""""""
+Healthcare and Life Science Use Cases
+"""""""""""""""""""""""""""""""""""""
 
 This covers Electronic Medical Record (EMR) Data; Pathology
 Imaging/digital pathology; Computational Bioimaging; Genomic
@@ -481,21 +434,13 @@ Intelligence for Health Care; World Population Scale Epidemiological
 Study; Social Contagion Modeling for Planning, Public Health and
 Disaster Management and Biodiversity and LifeWatch.
 
-Video: http://youtu.be/y9zJzrH4P8k
+.. todo:: The slides or videos are going to be updated
 
+          * Video A: http://youtu.be/jVARCWVeYxQ
 
-Healthcare and Life Science Use Cases III
-"""""""""""""""""""""""""""""""""""""""""
+          * Video B: http://youtu.be/y9zJzrH4P8k
 
-This covers Electronic Medical Record (EMR) Data; Pathology
-Imaging/digital pathology; Computational Bioimaging; Genomic
-Measurements; Comparative analysis for metagenomes and genomes;
-Individualized Diabetes Management; Statistical Relational Artificial
-Intelligence for Health Care; World Population Scale Epidemiological
-Study; Social Contagion Modeling for Planning, Public Health and
-Disaster Management and Biodiversity and LifeWatch.
-
-Video: http://youtu.be/eU5emeI3AmM
+          * Video C: http://youtu.be/eU5emeI3AmM
 
 
 
@@ -510,7 +455,9 @@ Network (Graph) Science and Analytics and NIST Information Access
 Division analytic technology performance measurement, evaluations, and
 standards.
 
-Video: http://youtu.be/WLSe6MF4ha4
+.. todo:: The slides or videos are going to be updated
+
+          * Video: http://youtu.be/WLSe6MF4ha4
 
 
 Research Ecosystem Use Cases
@@ -520,24 +467,14 @@ DataNet Federation Consortium DFC; The 'Discinnet process', metadata -
 big data global experiment; Semantic Graph-search on Scientific
 Chemical and Text-based Data and Light source beamlines.
 
-Video: http://youtu.be/pZ6JucTCKcw
+.. todo:: The slides or videos are going to be updated
+
+          * Video: http://youtu.be/pZ6JucTCKcw
 
 
 
-Astronomy and Physics Use Cases I
-"""""""""""""""""""""""""""""""""
-
-This covers Catalina Real-Time Transient Survey (CRTS): a digital,
-panoramic, synoptic sky survey; DOE Extreme Data from Cosmological Sky
-Survey and Simulations; Large Survey Data for Cosmology; Particle
-Physics: Analysis of LHC Large Hadron Collider Data: Discovery of
-Higgs particle and Belle II High Energy Physics Experiment.
-
-Video: http://youtu.be/rWqkF-b3Kwk
-
-
-Astronomy and Physics Use Cases II
-""""""""""""""""""""""""""""""""""
+Astronomy and Physics Use Cases
+"""""""""""""""""""""""""""""""
 
 This covers Catalina Real-Time Transient Survey (CRTS): a digital,
 panoramic, synoptic sky survey; DOE Extreme Data from Cosmological Sky
@@ -545,7 +482,11 @@ Survey and Simulations; Large Survey Data for Cosmology; Particle
 Physics: Analysis of LHC Large Hadron Collider Data: Discovery of
 Higgs particle and Belle II High Energy Physics Experiment.
 
-Video: http://youtu.be/RxLCB6yLmpk
+.. todo:: The slides or videos are going to be updated
+
+          * Video A: http://youtu.be/rWqkF-b3Kwk
+
+          * Video B: http://youtu.be/RxLCB6yLmpk
 
 
 
@@ -562,24 +503,11 @@ Community Earth System Model at DOE's NERSC center; DOE-BER Subsurface
 Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and
 FLUXNET Networks.
 
-Video: http://youtu.be/u2zTIGwsJwU
+.. todo:: The slides or videos are going to be updated
 
+          * Video A: http://youtu.be/u2zTIGwsJwU
 
-
-Environment, Earth and Polar Science Use Cases II
-"""""""""""""""""""""""""""""""""""""""""""""""""
-
-EISCAT 3D incoherent scatter radar system; ENVRI, Common Operations of
-Environmental Research Infrastructure; Radar Data Analysis for CReSIS
-Remote Sensing of Ice Sheets; UAVSAR Data Processing, DataProduct
-Delivery, and Data Services; NASA LARC/GSFC iRODS Federation Testbed;
-MERRA Analytic Services MERRA/AS; Atmospheric Turbulence - Event
-Discovery and Predictive Analytics; Climate Studies using the
-Community Earth System Model at DOE's NERSC center; DOE-BER Subsurface
-Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and
-FLUXNET Networks.
-
-Video: http://youtu.be/sH3B3gXuJ7E
+          * Video B: http://youtu.be/sH3B3gXuJ7E
 
 
 
@@ -588,7 +516,9 @@ Energy Use Case
 
 This covers Consumption forecasting in Smart Grids.
 
-Video: http://youtu.be/ttmVypmgWmw
+.. todo:: The slides or videos are going to be updated
+
+          * Video: http://youtu.be/ttmVypmgWmw
 
 
 Resources
@@ -713,10 +643,14 @@ Resources
 Features of 51 Big Data Use Cases
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This unit discusses the categories used to classify the 51 use-cases. These categories include concepts used for parallelism and low and high level computational structure. The first lesson is an introduction to all categories and the further lessons give details of particular categories.
+This unit discusses the categories used to classify the 51
+use-cases. These categories include concepts used for parallelism and
+low and high level computational structure. The first lesson is an
+introduction to all categories and the further lessons give details of
+particular categories.
 
 
-Slides: https://iu.app.box.com/s/azpn47brv4o46iij9xvb
+* Slides: https://iu.app.box.com/s/azpn47brv4o46iij9xvb
 
 
 Summary of Use Case Classification I
@@ -741,56 +675,13 @@ demand; Pleasingly parallel processing; HPC assimilated with
 observational data; Agent-based models; Multi-modal data fusion or
 Knowledge Management; Crowd Sourcing.
 
-Video: http://youtu.be/dfgH6YvHCGE
+.. todo:: The slides or videos are going to be updated
 
-Summary of Use Case Classification II
-"""""""""""""""""""""""""""""""""""""
+          * Video A: http://youtu.be/dfgH6YvHCGE
 
-This discusses concepts used for parallelism and low and high level
-computational structure. Parallelism can be over People (users or
-subjects), Decision makers; Items such as Images, EMR, Sequences;
-observations, contents of online store; Sensors – Internet of Things;
-Events; (Complex) Nodes in a Graph; Simple nodes as in a learning
-network; Tweets, Blogs, Documents, Web Pages etc.; Files or data to be
-backed up, moved or assigned metadata; Particles/cells/mesh
-points. Low level computational types include PP (Pleasingly
-Parallel); MR (MapReduce); MRStat; MRIter (Iterative MapReduce);
-Graph; Fusion; MC (Monte Carlo) and Streaming. High level
-computational types include Classification; S/Q (Search and Query);
-Index; CF (Collaborative Filtering); ML (Machine Learning); EGO (Large
-Scale Optimizations); EM (Expectation maximization); GIS; HPC;
-Agents. Patterns include Classic Database; NoSQL; Basic processing of
-data as in backup or metadata; GIS; Host of Sensors processed on
-demand; Pleasingly parallel processing; HPC assimilated with
-observational data; Agent-based models; Multi-modal data fusion or
-Knowledge Management; Crowd Sourcing.
+          * Video B: http://youtu.be/TjHus5-HaMQ
 
-Video: http://youtu.be/TjHus5-HaMQ
-
-
-Summary of Use Case Classification III
-""""""""""""""""""""""""""""""""""""""
-
-This discusses concepts used for parallelism and low and high level
-computational structure. Parallelism can be over People (users or
-subjects), Decision makers; Items such as Images, EMR, Sequences;
-observations, contents of online store; Sensors – Internet of Things;
-Events; (Complex) Nodes in a Graph; Simple nodes as in a learning
-network; Tweets, Blogs, Documents, Web Pages etc.; Files or data to be
-backed up, moved or assigned metadata; Particles/cells/mesh
-points. Low level computational types include PP (Pleasingly
-Parallel); MR (MapReduce); MRStat; MRIter (Iterative MapReduce);
-Graph; Fusion; MC (Monte Carlo) and Streaming. High level
-computational types include Classification; S/Q (Search and Query);
-Index; CF (Collaborative Filtering); ML (Machine Learning); EGO (Large
-Scale Optimizations); EM (Expectation maximization); GIS; HPC;
-Agents. Patterns include Classic Database; NoSQL; Basic processing of
-data as in backup or metadata; GIS; Host of Sensors processed on
-demand; Pleasingly parallel processing; HPC assimilated with
-observational data; Agent-based models; Multi-modal data fusion or
-Knowledge Management; Crowd Sourcing.
-
-Video: http://youtu.be/EbuNBbt4rQc
+          * Video C: http://youtu.be/EbuNBbt4rQc
 
 
 Database(SQL) Use Case Classification
@@ -800,7 +691,9 @@ This discusses classic (SQL) datbase approach to data handling with
 Search&Query and Index features. Comparisons are made to NoSQL
 approaches.
 
-Video: http://youtu.be/8QDcUWjA9Ok
+.. todo:: The slides or videos are going to be updated
+
+          * Video: http://youtu.be/8QDcUWjA9Ok
 
 
 NoSQL Use Case Classification
@@ -810,7 +703,9 @@ This discusses NoSQL (compared in previous lesson) with HDFS, Hadoop
 and Hbase. The Apache Big data stack is introduced and further details
 of comparison with SQL.
 
-Video: http://youtu.be/aJ127gkHQUs
+.. todo:: The slides or videos are going to be updated
+
+          * Video: http://youtu.be/aJ127gkHQUs
 
 
 Use Case Classifications I
@@ -819,52 +714,38 @@ Use Case Classifications I
 This discusses a subset of use case features: GIS, Sensors. the
 support of data analysis and fusion by streaming data between filters.
 
-Video: http://youtu.be/STAoaS1T2bM
+.. todo:: The slides or videos are going to be updated
+
+          * Video: http://youtu.be/STAoaS1T2bM
 
 
-Use Case Classifications II Part 1
-""""""""""""""""""""""""""""""""""
-
-This discusses a subset of use case features: Pleasingly parallel,
-MRStat, Data Assimilation, Crowd sourcing, Agents, data fusion and
-agents, EGO and security.
-
-Video: http://youtu.be/_tJRzG-jS4A
-
-
-
-Use Case Classifications II Part 2
-""""""""""""""""""""""""""""""""""
+Use Case Classifications II
+"""""""""""""""""""""""""""
 
 This discusses a subset of use case features: Pleasingly parallel,
 MRStat, Data Assimilation, Crowd sourcing, Agents, data fusion and
 agents, EGO and security.
 
-Video: http://youtu.be/5iHdzMNviZo
+.. todo:: The slides or videos are going to be updated
+
+          * Video A: http://youtu.be/_tJRzG-jS4A
+
+          * Video B: http://youtu.be/5iHdzMNviZo
 
 
-Use Case Classifications III Part 1
-"""""""""""""""""""""""""""""""""""
-
-
+Use Case Classifications III
+""""""""""""""""""""""""""""
+            
 This discusses a subset of use case features: Classification, Monte
 Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and
 local analytics (machine learning), parallel computing, Expectation
 Maximization, graphs and Collaborative Filtering.
 
-Video: http://youtu.be/tITbuwCRVzs
+.. todo:: The slides or videos are going to be updated
 
+          * Video B: http://youtu.be/tITbuwCRVzs
 
-
-Use Case Classifications III Part 2
-"""""""""""""""""""""""""""""""""""
-
-This discusses a subset of use case features: Classification, Monte
-Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and
-local analytics (machine learning), parallel computing, Expectation
-Maximization, graphs and Collaborative Filtering.
-
-Video: http://youtu.be/0zaXWo8A4Co
+          * Video C: http://youtu.be/0zaXWo8A4Co
 
 
 Resources

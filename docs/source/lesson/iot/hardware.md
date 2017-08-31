@@ -2,7 +2,7 @@
 
 When teaching programming you may find yourself in a situation that things can be done on your computer, but you may not want to install programs that help you to learn programming on your computer. However, we have a solution (or several) for you. We will have some fun with hardware for IoT that at the same time can be used to teach you some very elementary skills in programming. However, if you would rather use your computer you certainly can do this too.
 
-We see the followingarguments for using IoT hardware:
+We see the following arguments for using IoT hardware:
 
 * You will have fun with inexpensive hardware
 * You will get hands on experience with IOT devices
@@ -10,9 +10,9 @@ We see the followingarguments for using IoT hardware:
 * You can keep your current computer unchanged
 * You will get experience with two platforms esp8266 and Raspberry PI 3
 * You can customise your choices by conducting some fun projects. 
-* You have the opportunity to find alternative hardware choices such as the WiPy or the ESP32. You may find find cheaper or better alternatives if you buy kits when they are available. And learn in getting an overview about such devices and kits.
+* You have the opportunity to find alternative hardware choices such as the WiPy or the ESP32. You may find cheaper or better alternatives if you buy kits when they are available. And learn in getting an overview about such devices and kits.
 
-*Note:*  Ordering from overseas supplieres may take significant time, so make sure to plan ahead. Prices given here are done to provide an estimate, they may vary.
+*Note:*  Ordering from overseas suppliers may take significant time, so make sure to plan ahead. Prices given here are done to provide an estimate, they may vary.
 
 ## Raspberry Pi 3
 
@@ -33,7 +33,7 @@ The raspberry PI 3 is a very good development platform. With its base price of $
 * Good environment for learning Linux and Python
 * Reasonable interfaces to IoT sensors
 * excellent camera support
-* excelent choice of expansion papcakes including Grove Sensors that make it easy to attach sensors and actuators. An example package is the [Grove Starter Kit](https://www.amazon.com/GrovePi-Starter-Kit-Dexter-Industries/dp/B00TXTZ5SQ/ref=pd_lpo_vtph_147_bs_tr_img_1?_encoding=UTF8&psc=1&refRID=45QX6XSNZAG1NT8NES79) for about $90
+* excellent choice of expansion packages including Grove Sensors that make it easy to attach sensors and actuators. An example package is the [Grove Starter Kit](https://www.amazon.com/GrovePi-Starter-Kit-Dexter-Industries/dp/B00TXTZ5SQ/ref=pd_lpo_vtph_147_bs_tr_img_1?_encoding=UTF8&psc=1&refRID=45QX6XSNZAG1NT8NES79) for about $90
 
 
 
@@ -45,7 +45,7 @@ The raspberry PI 3 is a very good development platform. With its base price of $
 
 ## ESP8266 Robot Car Kit
 
-The ESP8266 has many variants. Some of which are difficult to interface with. However, this does not apply for the ESP8266 NodeMCU. This board is originally flashed with *Lua*, however it can easily be reflashed with MicroPython. In addition it is often offered as part of a platform to develop a robot car. There are argubly better kits available, but the proice of $24 for the entire kit is hard to beat. Unfortunately the version of python, as well as the limited memory make the esp8266 not a full fledged platform for python programming and you will quickly see its limitations. Interfacing with it, however, as an IoT device will gain you a lot of insides.
+The ESP8266 has many variants. Some of which are difficult to interface with. However, this does not apply for the ESP8266 NodeMCU. This board is originally flashed with *Lua*, however it can easily be reflashed with MicroPython. In addition it is often offered as part of a platform to develop a robot car. There are arguably better kits available, but the price of $24 for the entire kit is hard to beat. Unfortunately the version of python, as well as the limited memory make the esp8266 not a full fledged platform for python programming and you will quickly see its limitations. Interfacing with it, however, as an IoT device will gain you a lot of insights.
 
 *Configuration:*
 
@@ -78,8 +78,8 @@ However it does not include a breadboard like other kits. Hence we recommend tha
 
 
 * $29.99 [shark](https://www.amazon.com/Swimmer-Inflatable-Flying-Replacement-Balloon/dp/B00658LN3E/ref=pd_bxgy_21_img_2?_encoding=UTF8&pd_rd_i=B00658LN3E&pd_rd_r=F71N2YCYE6Z0BCCEPQJC&pd_rd_w=AwYab&pd_rd_wg=rHTnv&psc=1&refRID=F71N2YCYE6Z0BCCEPQJC)
-	* cheaper ballones leak
-	* before assembly and putting gas in make sure components work. 
+	* cheaper balloons leak
+	* before assembly and putting gas in, make sure components work. 
 	* gas will last typically for one week
 	* $39.99 gas can be purchased in party store 
 * 2 g9 servo
@@ -107,7 +107,7 @@ Two models are good. Adafruit has some added features, but may need soldering
 
 ### Simple sensors
 
-Simple sensors can be attached to the boards with cables (that you need to purchase seperately). Examples include
+Simple sensors can be attached to the boards with cables (that you need to purchase separately). Examples include
 
 * [Elegoo 37 sensor kit](https://www.amazon.com/Elegoo-Sensor-Module-Arduino-MEGA/dp/B009OVGKTQ/ref=sr_1_5?s=electronics&ie=UTF8&qid=1500678010&sr=1-5&keywords=grove+sensor)
 * [Breadboard Cable](https://www.amazon.com/Breadboard-Wires-Aoyoho-Multicolored-Jumper/dp/B01GK2Q4ZQ/ref=sr_1_1?s=electronics&ie=UTF8&qid=1500678142&sr=1-1&keywords=bread+board+cab%3Be)

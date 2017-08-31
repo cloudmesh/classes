@@ -2,7 +2,6 @@ Writing Track
 =============
 
 .. toctree::
-   :caption: Writing
    :maxdepth: 2
 
    ../../lesson/doc/type      

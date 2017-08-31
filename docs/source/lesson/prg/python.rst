@@ -31,7 +31,7 @@ Python is an interpreted, dynamic, high-level programming language
 suitable for a wide range of applications.
 
 
-The philosophy of python is sumamrized in `The Zen of Python`_
+The philosophy of python is summarized in `The Zen of Python`_
 as follows:
 
 * Explicit is better than implicit
@@ -68,7 +68,7 @@ end of this lesson you will be able to:
 - understand the basic syntax of Python
 - write and run Python programs stored in a file
 - have an overview of the standard library
-- install Python libraries using ``pyenv`` or if it is not avalable ``virtualenv``
+- install Python libraries using `pyenv` or if it is not available `virtualenv`
 
 This tutorial does not attempt to be comprehensive and cover every
 single feature, or even every commonly used feature. Instead, it
@@ -146,10 +146,10 @@ Managing Multiple Python Versions with Pyenv
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Python has several versions that are used by the community. This
-inlcudes Python 2 and Python 3, but alls different management of the
+includes Python 2 and Python 3, but alls different management of the
 python libraries. As each OS may have their own version of python
 installed. It is not recommended that you modify that version. Instead
-you may want to create a localized python instalation that you as a
+you may want to create a localized python installation that you as a
 user can modify. To do that we recommend *pyenv*. Pyenv allows users
 to switch between multiple versions of Python
 (https://github.com/yyuu/pyenv). To summarize:
@@ -158,7 +158,7 @@ to switch between multiple versions of Python
 * users to enable support for per-project Python versions;
 * easy version changes without complex environment variable
   management;
-* to search installed commands accross different python versions;
+* to search installed commands across different python versions;
 * integrate with tox (https://tox.readthedocs.io/).
 
 Instalation without pyenv
@@ -183,8 +183,8 @@ This is our recommended way to install pyenv on OSX::
 Instalation of Homebrew
 """""""""""""""""""""""
 
-In many ocasions it is peneficial to use readline as it provides nice
-editing features for the terminal and xz for compressiom. First, make
+In many occasions it is beneficial to use readline as it provides nice
+editing features for the terminal and xz for completion. First, make
 sure you have xcode installed::
   
    $ xcode-select --install
@@ -213,7 +213,7 @@ To install pyenv with homebrew execute in the terminal::
 Install pyenv on Ubuntu
 """""""""""""""""""""""
 
-.. warning:: the instalation on ubuntu is not tested and we are
+.. warning:: the installation on ubuntu is not tested and we are
              looking for feedback
              
 ::
@@ -247,7 +247,7 @@ environment with the following commands::
    $ pyenv install 2.7.13
    $ pyenv install 3.6.2
 
-You can set the global python defualt version with::
+You can set the global python default version with::
 
    $ pyenv global 2.7.13
 
@@ -255,7 +255,7 @@ Type the following to determine which versions you have available::
 
    $ pyenv version
 
-Associate a specifc environment name with a certain python version,
+Associate a specific environment name with a certain python version,
 use the following commands::
   
    $ pyenv virtualenv 2.7.13 ENV2
@@ -269,7 +269,7 @@ Set up the Shell
 """"""""""""""""
 
 To make all work smoothly from your terminal, you can 
-include the follwowing in your .bashrc files::
+include the following in your .bashrc files::
 
    export PYENV_VIRTUALENV_DISABLE_PROMPT=1
    eval "$(pyenv init -)"
@@ -291,8 +291,8 @@ We recommend that you do this towards the end of your file.
 Switching Environments
 """"""""""""""""""""""
 
-After setting up the different environments, switching between them is now easy.
-Simply use the following commands::
+After setting up the different environments, switching between them is
+now easy.  Simply use the following commands::
 
   
   (2.7.13) $ pyenv activate ENV2
@@ -316,9 +316,10 @@ versions of python simply by typing::
 
 Instalation without pyenv
 -------------------------
-If you need to have more than one python version
-installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
-and 3.6.2 from python.org (https://www.python.org/downloads/)
+
+If you need to have more than one python version installed and do not
+want or can use pyenv, we recommend you download and install python
+2.7.13 and 3.6.2 from python.org (https://www.python.org/downloads/)
 
 Make sure pip is up to date
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -390,7 +391,7 @@ You can add anaconda to your pyenv with the following commands::
 
   pyenv install anaconda3-4.3.1
 
-To switch more easily we recommand that you use the following in your
+To switch more easily we recommend that you use the following in your
 `.bash_profile` file::
 
   alias ANA="pyenv activate anaconda3-4.3.1"
@@ -400,11 +401,11 @@ command::
 
   $ ANA
   
-Terminology in annaconda could lead to confusion. Thus we like to point out that
-the verion number of anaconda is unrelated to the python
-version. Furthermore, anaconda uses the term root not for the root
-user, but for the originating directory in which the anaconda program
-is installed. 
+Terminology in annaconda could lead to confusion. Thus we like to
+point out that the version number of anaconda is unrelated to the
+python version. Furthermore, anaconda uses the term root not for the
+root user, but for the originating directory in which the anaconda
+program is installed.
 
 In case you like to build your own conda packages at a later time we
 recommend that you install the `conda-build` package::
@@ -416,7 +417,7 @@ When executing::
 
    pyenv versions
 
-you will see after the install completed the anaconda versiosn installed::
+you will see after the install completed the anaconda versions installed::
    
    pyenv versions
    system
@@ -449,14 +450,14 @@ To install cloudmesh cmd5 please use::
   $ pip install cloudmesh.sys
   
    
-Excersise
+Exercise
 """""""""
 
-pyenv.1:
+Epyenv.1:
    Write installation instructions for an operating system of your choice
    and add to this documentation.
 
-pyenv.2:
+Epyenv.2:
    Replicate the steps above, so you can type in ENV2 and ENV3 in your
    terminals to switch between python 2 and 3.
    
@@ -491,8 +492,8 @@ To activate it you can use the command::
 
   $ source ~/ENV/bin/activate
 
-you can put this command in your bashrc or bash_profile command so you
-do not forget to activate it. :ref:``Instructions for this can be
+you can put this command in your `.bashrc` or `.bash_profile` files so you
+do not forget to activate it. :ref:`Instructions for this can be
 found in our lesson on Linux <bashrc>`.
 
 Interactive Python
@@ -510,7 +511,7 @@ You should see something like the following::
   Type "help", "copyright", "credits" or "license" for more information.
   >>>
   
-The ``>>>`` is the prompt for the interpreter. This is similar to the
+The `>>>` is the prompt for the interpreter. This is similar to the
 shell interpreter you have been using.
 
 .. tip::
@@ -542,8 +543,8 @@ these features available to any subsequent code we write::
 
 .. note::
 
-   The first of these imports allows us to use the ``print`` function
-   to output text to the screen, instead of the ``print`` statement,
+   The first of these imports allows us to use the `print` function
+   to output text to the screen, instead of the `print` statement,
    which Python 2 uses. This is simply a `design decision
    <https://www.python.org/dev/peps/pep-3105/>`_ that better reflects
    Python's underlying philosophy.
@@ -553,9 +554,9 @@ these features available to any subsequent code we write::
    The second of these imports makes sure that the `division operator
    <https://www.python.org/dev/peps/pep-0238/>`_ behaves in a way a
    newcomer to the language might find more intruitive. In Python 2,
-   division ``/`` is *floor division* when the arguments are integers,
-   meaning that ``5 / 2 == 2``, for example. In Python 3, division
-   ``/`` is *true division*, thus ``5 / 2 == 2.5``.
+   division `/` is *floor division* when the arguments are integers,
+   meaning that `5 / 2 == 2`, for example. In Python 3, division
+   `/` is *true division*, thus `5 / 2 == 2.5`.
 
 Statements and Strings
 ----------------------
@@ -566,7 +567,7 @@ and press Enter::
   >>> print("Hello world from Python!")
   Hello world from Python!
 
-What happened: the ``print`` function was given a **string** to
+What happened: the `print` function was given a **string** to
 process. A string is a sequence of characters.  A **character** can be
 a alphabetic (A through Z, lower and upper case), numeric (any of the
 digits), white space (spaces, tabs, newlines, etc), syntactic
@@ -580,8 +581,8 @@ by surrounding the characters in double quotes.
    :doc:`../../lesson/linux/shell` lesson.
 
 So, what happened when you pressed Enter?  The interactive Python
-program read the line ``print "Hello world from Python!"``, split it into
-the ``print`` statement and the ``"Hello world from Python!"`` string, and
+program read the line `print "Hello world from Python!"`, split it into
+the `print` statement and the `"Hello world from Python!"` string, and
 then executed the line, showing you the output.
 
 Variables
@@ -610,18 +611,18 @@ Data Types
 Booleans
 ^^^^^^^^
 
-A **boolean** is a value that indicates the "truthness" of something.
+A **boolean** is a value that indicates *truthness* of something.
 You can think of it as a toggle: either "on" or "off", "one" or
 "zero", "true" or "false".  In fact, the only possible values of the
-**boolean** (or ``bool``) type in Python are:
+**boolean** (or `bool`) type in Python are:
 
-- ``True``
-- ``False``
+- `True`
+- `False`
 
 You can combine booleans with **boolean operators**:
 
-- ``and``
-- ``or``
+- `and`
+- `or`
 
 .. code:: python
 
@@ -649,21 +650,21 @@ For instance, say we wanted to compute a multiple of 21:
    >>> print(21 * 2)
    42
 
-We saw here the ``print`` statement again. We passed in the result of
-the operation ``21 * 2``.  An **integer** (or **int**) in Python is a
+We saw here the `print` statement again. We passed in the result of
+the operation `21 * 2`.  An **integer** (or **int**) in Python is a
 numeric value without a fractional component (those are called
 **floating point** numbers, or **float** for short).
 
 The mathematical operators compute the related mathematical operation
 to the provided numbers.  Some operators are:
 
-- ``*`` --- multiplication
-- ``/`` --- division
-- ``+`` --- addition
-- ``-`` --- subtraction
-- ``**`` --- exponent
+- `*` --- multiplication
+- `/` --- division
+- `+` --- addition
+- `-` --- subtraction
+- `**` --- exponent
 
-Exponentiation is read as ``x**y`` is ``x`` to the ``y``\th power:
+Exponentiation is read as `x**y` is `x` to the `y`\th power:
 
 .. math::
 
@@ -709,7 +710,7 @@ error:
 
 There are many different types beyond what we have seen so far, such
 as **dictionaries**\s, **list**\s, **set**\s. One handy way of using
-the interactive python is to get the type of a value using ``type()``:
+the interactive python is to get the type of a value using `type()`:
 
 .. code:: python
 
@@ -720,7 +721,7 @@ the interactive python is to get the type of a value using ``type()``:
    >>> type(3.14)
    <type 'float'>
 
-You can also ask for help about something using ``help()``:
+You can also ask for help about something using `help()`:
 
 .. code:: python
 
@@ -730,9 +731,9 @@ You can also ask for help about something using ``help()``:
 
 .. tip::
 
-   Using ``help()`` opens up a pager. To navigate you can use the
-   spacebar to go down a page ``w`` to go up a page, the arrow keys to
-   go up/down line-by-line, or ``q`` to exit.
+   Using `help()` opens up a pager. To navigate you can use the
+   spacebar to go down a page `w` to go up a page, the arrow keys to
+   go up/down line-by-line, or `q` to exit.
 
 Control Statements
 ------------------
@@ -763,8 +764,8 @@ choice using the if keyword. For example:
     ...    <ENTER>
 
 In this example, *You guessed correctly!* will only be printed if the
-variable ``x`` equals to four (see table above). Python can also
-execute multiple conditions using the ``elif`` and ``else`` keywords.
+variable `x` equals to four (see table above). Python can also
+execute multiple conditions using the `elif` and `else` keywords.
 
 .. code:: python
 
@@ -780,7 +781,7 @@ execute multiple conditions using the ``elif`` and ``else`` keywords.
 Iteration
 ^^^^^^^^^
 
-To repeat code, the ``for`` keyword can be used. For example, to
+To repeat code, the `for` keyword can be used. For example, to
 display the numbers from 1 to 10, we could write something like this:
 
 .. code:: python
@@ -788,7 +789,7 @@ display the numbers from 1 to 10, we could write something like this:
     >>> for i in range(1, 11):
     ...    print('Hello!')
 
-The second argument to ``range``, *11*, is not inclusive, meaning that
+The second argument to `range`, *11*, is not inclusive, meaning that
 the loop will only get to *10* before it finishes.  Python itself
 starts counting from 0, so this code will also work:
 
@@ -797,7 +798,7 @@ starts counting from 0, so this code will also work:
     >>> for i in range(0, 10):
     ...    print(i + 1)
 
-In fact, the ``range`` function defaults to starting value of *0*, so the above is equivalent to:
+In fact, the `range` function defaults to starting value of *0*, so the above is equivalent to:
 
 .. code:: python
 
@@ -828,7 +829,7 @@ Lists in Python are ordered sequences of elements, where each element
 can be accessed using a 0-based index.
 
 To define a list, you simply list its elements between square brackest
-``[]``:
+`[]`:
 
 .. code:: python
 
@@ -850,7 +851,7 @@ elements from the end of the list. Thus, the last element has index
   'John'
 
 Python also allows you to take whole slices of the list by specifing a
-beginning and end of the slice separated by a colon ``:``:
+beginning and end of the slice separated by a colon `:`:
 
 .. code:: python
 
@@ -863,7 +864,7 @@ is inclusive and the ending one, exclusive.
 Python provides a variety of methods for manipulating the members of a
 list.
 
-You can add elements with ``append``:
+You can add elements with `append`:
 
 .. code:: python
 
@@ -873,7 +874,7 @@ You can add elements with ``append``:
 
 As you can see, the elements in a list need not be unique.
 
-Merge two lists with ``extend``:
+Merge two lists with `extend`:
 
 .. code:: python
 
@@ -881,14 +882,14 @@ Merge two lists with ``extend``:
   >>> names
   ['Albert', 'Jane', 'Liz', 'John', 'Abby', 'Liz', 'Lindsay', 'Connor']
 
-Find the index of the first occurrence of an element with ``index``:
+Find the index of the first occurrence of an element with `index`:
 
 .. code:: python
 
   >>> names.index('Liz')
   2
 
-Remove elements by value with ``remove``:
+Remove elements by value with `remove`:
 
 .. code:: python
 
@@ -896,7 +897,7 @@ Remove elements by value with ``remove``:
   >>> names
   ['Albert', 'Jane', 'Liz', 'John', 'Liz', 'Lindsay', 'Connor']
 
-Remove elements by index with ``pop``:
+Remove elements by index with `pop`:
 
 .. code:: python
 
@@ -905,11 +906,11 @@ Remove elements by index with ``pop``:
   >>> names
   ['Albert', 'Liz', 'John', 'Liz', 'Lindsay', 'Connor']
 
-Notice that ``pop`` returns the element being removed, while
-``remove`` does not.
+Notice that `pop` returns the element being removed, while
+`remove` does not.
 
 If you are familiar with stacks from other programming languages, you
-can use ``insert`` and ``pop``:
+can use `insert` and `pop`:
 
 .. code:: python
 
@@ -923,7 +924,7 @@ can use ``insert`` and ``pop``:
 
 The Python documentation contains a `full list of list operations <>`_.
 
-To go back to the ``range`` function you used earlier, it simply
+To go back to the `range` function you used earlier, it simply
 creates a list of numbers:
 
 .. code:: python
@@ -971,15 +972,15 @@ However, we can convert a set to a list easily:
 
 Notice that in this case, the order of elements in the new list
 matches the order in which the elements were displayed when we create
-the set (we had ``set(['Lincoln', 'John', 'Albert', 'Liz',
-'Lindsay'])`` and now we have ``['Lincoln', 'John', 'Albert', 'Liz',
-'Lindsay']``). You should not assume this is the case in general. That
+the set (we had `set(['Lincoln', 'John', 'Albert', 'Liz',
+'Lindsay'])` and now we have `['Lincoln', 'John', 'Albert', 'Liz',
+'Lindsay']`). You should not assume this is the case in general. That
 is, don't make any assumptions about the order of elements in a set
 when it is converted to any type of sequential data structure.
 
-You can change a set's contents using the ``add``, ``remove`` and
-``update`` methods which correspond to the ``append``, ``remove`` and
-``extend`` methods in a list. In addition to these, *set* objects
+You can change a set's contents using the `add`, `remove` and
+`update` methods which correspond to the `append`, `remove` and
+`extend` methods in a list. In addition to these, *set* objects
 support the operations you may be familiar with from mathematical
 sets: *union*, *intersection*, *difference*, as well as operations to
 check containment. You can read about this in the `Python
@@ -1025,8 +1026,8 @@ keep in mind when you work with large amounts of data.
 Dictionaries
 ^^^^^^^^^^^^
 
-One of the very important datastructures in python is a dictionary
-also refered to as *dict*.
+One of the very important data structures in python is a dictionary
+also referred to as *dict*.
 
 A dictionary represents a key value store:
 
@@ -1070,7 +1071,7 @@ Dictionary Keys and Values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can retrieve both the keys and values of a dictionary using the
-``keys()`` and ``values()`` methods of the dictionary, respectively:
+`keys()` and `values()` methods of the dictionary, respectively:
 
 .. code:: python
      
@@ -1080,19 +1081,19 @@ You can retrieve both the keys and values of a dictionary using the
   [100, 'Albert', 'Scientist']
 
 Both methods return lists. Notice, however, that the order in which
-the elements appear in the returned lists (``Age``, ``Name``,
-``Class``) is different from the order in which we listed the elements
-when we declared the dictionary initially (``Name``, ``Age``,
-``Class``). It is important to keep this in mind: **you can't make any
+the elements appear in the returned lists (`Age`, `Name`,
+`Class`) is different from the order in which we listed the elements
+when we declared the dictionary initially (`Name`, `Age`,
+`Class`). It is important to keep this in mind: **you can't make any
 assumptions about the order in which the elements of a dictionary will
-be returned by the ``keys()`` and ``values()`` methods**.
+be returned by the `keys()` and `values()` methods**.
 
-However, you can assume that if you call ``keys()`` and ``values()``
+However, you can assume that if you call `keys()` and `values()`
 in sequence, the order of elements will at least correspond in both
-methods. In the above example ``Age`` corresponds to ``100``, ``Name``
-to ``'Albert``, and ``Class`` to ``Scientist``, and you will observe
-the same correspondence in general as long as **``keys()`` and
-``values()`` are called one right after the other**.
+methods. In the above example `Age` corresponds to `100`, `Name`
+to `'Albert`, and `Class` to `Scientist`, and you will observe
+the same correspondence in general as long as **`keys()` and
+`values()` are called one right after the other**.
 
 Counting with Dictionaries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1108,7 +1109,7 @@ coin flips:
   >>> die_rolls
   ['heads', 'tails', 'heads', 'tails', 'heads', 'heads', 'tails', 'heads', 'heads', 'heads']
 
-The actual list ``die_rolls`` will likely be different when you
+The actual list `die_rolls` will likely be different when you
 execute this on your computer since the outcomes of the die rolls are
 random.
 
@@ -1127,20 +1128,20 @@ many heads and tails we have in the list:
   >>> print('Probability of tails: %.2f' % (counts['tails'] / sum(counts.values())))
   Probability of tails: 0.30
 
-In addition to how we use the dictionary ``counts`` to count the
-elements of ``coin_flips``, notice a couple things about this example:
+In addition to how we use the dictionary `counts` to count the
+elements of `coin_flips`, notice a couple things about this example:
 
-#. We used the ``assert outcome in counts`` statement. The ``assert``
+#. We used the `assert outcome in counts` statement. The `assert`
    statement in Python allows you to easily insert debugging
    statements in your code to help you discover errors more
-   quickly. ``assert`` statements are executed whenever the internal
-   Python ``__debug__`` variable is set to ``True``, which is always
-   the case unless you start Python with the ``-O`` option which
+   quickly. `assert` statements are executed whenever the internal
+   Python `__debug__` variable is set to `True`, which is always
+   the case unless you start Python with the `-O` option which
    allows you to run *optimized* Python.
 
 #. When we computed the probability of tails, we used the built-in
-   ``sum`` function, which allowed us to quickly find the total number
-   of coin flips. ``sum`` is one of many built-in function you can
+   `sum` function, which allowed us to quickly find the total number
+   of coin flips. `sum` is one of many built-in function you can
    `read about here
    <https://docs.python.org/2/library/functions.html>`_.
 
@@ -1164,13 +1165,13 @@ will execute its body which consists of one or more lines of code:
 
     print(check_triangle(4, 5, 6))
 
-The ``def`` keyword tells Python we are defining a function. As part
-of the definition, we have the function name, ``check_triangle``, and
+The `def` keyword tells Python we are defining a function. As part
+of the definition, we have the function name, `check_triangle`, and
 the parameters of the function -- variables that will be populated
 when the function is called.
 
-We call the function with arguments ``4``, ``5`` and ``6``, which are
-passed in order into the parameters ``a``, ``b`` and ``c``.  A
+We call the function with arguments `4`, `5` and `6`, which are
+passed in order into the parameters `a`, `b` and `c`.  A
 function can be called several times with varying parameters. There is
 no limit to the number of function calls.
 
@@ -1196,7 +1197,7 @@ Classes
 A class is an encapsulation of data and the processes that work on
 them. The data is represented in member variables, and the processes
 are defined in the methods of the class (methods are functions inside
-the class). For example, let's see how to define a ``Triangle`` class:
+the class). For example, let's see how to define a `Triangle` class:
 
 .. code:: python
 
@@ -1241,13 +1242,13 @@ Modules
 -------
 
 Make sure you are no longer in the interactive interpreter.
-If you are you can type ``quit()`` and press Enter to exit.
+If you are you can type `quit()` and press Enter to exit.
 
 You can save your programs to files which the interpreter can then
 execute.  This has the benefit of allowing you to track changes made
 to your programs and sharing them with other people.
 
-Start by opening a new file ``hello.py`` in the Python editor of your
+Start by opening a new file `hello.py` in the Python editor of your
 choice. If you don't have a preferred editor, we recommend `PyCharm
 <https://www.jetbrains.com/pycharm/>`_.
 
@@ -1265,7 +1266,7 @@ command line::
   from __future__ import print_statement, division
   print("Hello world!")
 
-To execute your program pass the file as a parameter to the ``python``
+To execute your program pass the file as a parameter to the `python`
 command::
 
   $ python hello.py
@@ -1273,7 +1274,7 @@ command::
 
 Files in which Python code is stored are called **module**\s. You can
 execute a Python module form the command line like you just did, or
-you can import it in other Python code using the ``import`` statement.
+you can import it in other Python code using the `import` statement.
 
 Let's write a more involved Python program that will receive as input
 the lengths of the three sides of a triangle, and will output whether
@@ -1307,7 +1308,7 @@ and greater than the difference of the lengths of the other two sides.::
 		a, b, c, valid_triangle
 	))
 
-Assuming we save the program in a file called ``check_triangle.py``,
+Assuming we save the program in a file called `check_triangle.py`,
 we can run it like so::
 
   $ python check_triangle.py 4 5 6
@@ -1315,29 +1316,29 @@ we can run it like so::
 
 Let break this down a bit.
 
-#. We are importing the ``print_function`` and ``division`` modules
+#. We are importing the `print_function` and `division` modules
    from Python 3 like we did earlier in this tutorial. It's a good
    idea to always include these in your programs.
 #. We've defined a boolean expression that tells us if the sides that
    were input define a valid triangle. The result of the expression is
-   stored in the ``valid_triangle`` variable.  inside are true, and
-   ``False`` otherwise.
-#. We've used the backslash symbol ``\`` to format are code
+   stored in the `valid_triangle` variable.  inside are true, and
+   `False` otherwise.
+#. We've used the backslash symbol `\` to format are code
    nicely. The backslash simply indicates that the current line is
    being continued on the next line.
-#. When we run the program, we do the check ``if __name__ ==
-   '__main__'``. ``__name__`` is an internal Python variable that
+#. When we run the program, we do the check `if __name__ ==
+   '__main__'`. `__name__` is an internal Python variable that
    allows us to tell whether the current file is being run from the
-   command line (value ``__name__``), or is being imported by a module
+   command line (value `__name__`), or is being imported by a module
    (the value will be the name of the module). Thus, with this
    statement we're just making sure the program is being run by the
    command line.
-#. We are using the ``docopt`` module to handle command line
+#. We are using the `docopt` module to handle command line
    arguments. The advantage of using this module is that it generates
    a usage help statement for the program and enforces command line
    arguments automatically. All of this is done by parsing the
    docstring at the top of the file.
-#. In the ``print`` function, we are using `Python's string formatting
+#. In the `print` function, we are using `Python's string formatting
    capabilities
    <https://docs.python.org/2/library/string.html#format-string-syntax>`_
    to insert values into the string we are displaying.
@@ -1358,8 +1359,8 @@ the `Python Package Index`_ (or PyPi for short).
 
 Our task here is to install the `autopep8`_ tool from PyPi.  This will
 allow us to illustrate the use if virtual environments using the
-``pyenv`` or ``virtualenv`` command, and installing and uninstalling
-PyPi packages using ``pip``.
+`pyenv` or `virtualenv` command, and installing and uninstalling
+PyPi packages using `pip`.
 
 Using pip to Install Packages
 -----------------------------
@@ -1370,7 +1371,7 @@ third-party python packages.  If you want to do something in python,
 first check pypi, as odd are someone already ran into the problem and
 created a package solving it.
 
-In order to install package from PyPI, use the ``pip`` command.
+In order to install package from PyPI, use the `pip` command.
 We can search for PyPI for packages::
 
   $ pip search --trusted-host pypi.python.org autopep8 pylint
@@ -1379,7 +1380,7 @@ It appears that the top two results are what we want so install them::
 
   $ pip install --trusted-host pypi.python.org autopep8 pylint
 
-This will cause ``pip`` to download the packages from PyPI, extract
+This will cause `pip` to download the packages from PyPI, extract
 them, check their dependencies and install those as needed, then
 install the requested packages.
 
@@ -1413,7 +1414,7 @@ You can install Kivy on OSX as followes::
     pip install pygame
 
 A hello world program for kivy is included in the cloudmesh.robot
-reporitoy. Which you can fine here
+repository. Which you can fine here
 
 * https://github.com/cloudmesh/cloudmesh.robot/tree/master/projects/kivy
 
@@ -1431,7 +1432,7 @@ To create stand alone packages with kivy, please see::
           
 .. _Virtual_Environments:
 
-Foramtting and Checking Python Code
+Formatting and Checking Python Code
 -----------------------------------
 
 
@@ -1459,9 +1460,9 @@ problems::
 Let us look at the result.  This is considerably better than before.
 It is easy to tell what the example1 and example2 functions are doing.
 
-It is a good idea to develop a habit of using ``autopep8`` in your
-python-development workflow.  For instance: use ``autopep8`` to check
-a file, and if it passes, make any changes in place using the ``-i``
+It is a good idea to develop a habit of using `autopep8` in your
+python-development workflow.  For instance: use `autopep8` to check
+a file, and if it passes, make any changes in place using the `-i`
 flag::
 
   $ autopep8 file.py    # check output to see of passes
@@ -1470,16 +1471,16 @@ flag::
 .. _Python Package Index: https://pypi.python.org/pypi
 
 If you use pyCharm you have the ability to use a similar function
-while p;ressing on ``Inspect Code``. 
+while p;ressing on `Inspect Code`. 
 
 Further Learning
 ----------------
 
 There is much more to python than what we have covered here:
 
-- conditional expression (``if``, ``if...then``,``if..elif..then``)
-- function definition(``def``)
-- class definition (``class``)
+- conditional expression (`if`, `if...then`,`if..elif..then`)
+- function definition(`def`)
+- class definition (`class`)
 - function positional arguments and keyword arguments
 - lambda expression
 - iterators
@@ -1504,82 +1505,19 @@ Then at the shell prompt execute the following command::
 
   $ module load python
 
-This will make the ``python`` and ``virtualenv`` commands available to
+This will make the `python` and `virtualenv` commands available to
 you.
 
 
 .. tip::
 
-   The details of what the ``module load`` command does are described
+   The details of what the `module load` command does are described
    in the future lesson :doc:`modules`.
    
 
 Ecosystem
 ---------
 
-.. _autoenv_:
-
-Autoenv: Directory-based Environments
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Not recommended.
-
-Link: `Autoenv <https://pypi.python.org/pypi/autoenv/0.2.0>`
-
-.. warning:: We do not recommend that you use autoenv. INstead we
-	     recommend that you use pyenv. For this class neither is
-	     important.
-	     
-If a directory contains a ``.env`` file, it will automatically be executed
-when you ``cd`` into it. It's easy to use and install.
-
-This is great for...
-
-* auto-activating virtualenvs
-* project-specific environment variables
-
-
-Here is how to use it. Add the ENV you created with virtualenv into
-``.env`` file within your project directory::
-
-   $ echo "source ~/ENV/bin/activate" > yourproject/.env
-   $ echo "echo 'whoa'" > yourproject/.env
-   $ cd project
-   whoa
-
-Here is how to install.
-Mac OS X Using Homebrew::
-
-   $ brew install autoenv
-   $ echo "source $(brew --prefix autoenv)/activate.sh" >> ~/.bash_profile
-
-
-Using pip::
-
-   $ pip install autoenv
-   $ echo "source `which activate.sh`" >> ~/.bashrc
-
-
-Using git::
-
-   $ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
-   $ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
-
-
-Before sourcing activate.sh, you can set the following variables:
-
-* ``AUTOENV_AUTH_FILE``: Authorized env files, defaults to ``~/.autoenv_authorized``
- * ``AUTOENV_ENV_FILENAME``: Name of the ``.env`` file, defaults to ``.env``
-* ``AUTOENV_LOWER_FIRST``: Set this variable to flip the order of ``.env`` files executed
-
-
-Autoenv overrides ``cd``. If you already do this, invoke
-``autoenv_init`` within your custom ``cd`` after sourcing
-``activate.sh``.
-
-Autoenv can be disabled via ``unset cd`` if you experience I/O issues
-   with certain file systems, particularly those that are FUSE-based
-   (such as ``smbnetfs``).
 
 pypi
 ^^^^
@@ -1690,6 +1628,66 @@ bonus projects such as
 
 .. _python-resources:
 
+.. _autoenv_:
+
+Autoenv: Directory-based Environments
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. warning:: We do not recommend that you use autoenv. Instead we
+	     recommend that you use `pyenv`.
+
+Link: `Autoenv <https://pypi.python.org/pypi/autoenv/0.2.0>`
+	     
+If a directory contains a `.env` file, it will automatically be executed
+when you `cd` into it. It's easy to use and install.
+
+This is useful for 
+
+* auto-activating virtualenvs
+* project-specific environment variables
+
+
+To use it add the ENV you created with virtualenv into `.env` file
+within your project directory::
+
+   $ echo "source ~/ENV/bin/activate" > yourproject/.env
+   $ echo "echo 'whoa'" > yourproject/.env
+   $ cd project
+   whoa
+
+
+To install it on Mac OS X use Homebrew::
+
+   $ brew install autoenv
+   $ echo "source $(brew --prefix autoenv)/activate.sh" >> ~/.bash_profile
+
+
+To install it using pip use::
+
+   $ pip install autoenv
+   $ echo "source `which activate.sh`" >> ~/.bashrc
+
+
+To install it using git use::
+
+   $ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
+   $ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
+
+
+Before sourcing activate.sh, you can set the following variables:
+
+* `AUTOENV_AUTH_FILE`: Authorized env files, defaults to `~/.autoenv_authorized`
+* `AUTOENV_ENV_FILENAME`: Name of the `.env` file, defaults to `.env`
+* `AUTOENV_LOWER_FIRST`: Set this variable to flip the order of `.env` files executed
+
+
+Autoenv overrides `cd`. If you already do this, invoke
+`autoenv_init` within your custom `cd` after sourcing
+`activate.sh`.
+
+Autoenv can be disabled via `unset cd` if you experience I/O issues
+   with certain file systems, particularly those that are FUSE-based
+   (such as `smbnetfs`).
 
 
 Resources
@@ -1741,15 +1739,15 @@ otherwise stated.
 .. _lab-python-1:
 .. _lab-python-2:
 
+.. _e-python:
+
 Exercises
 ---------
 
-
-
-Python.1:
+EPython.1:
     Write a python program called `iterate.py` that
     accepts an integer n from the command line.  Pass this integer to
-    a function called `itterate`.
+    a function called `iterate`.
 
     The `iterate` function should then iterate from 1 to n.  If the
     ith number is a multiple of three, print "multiple of 3", if a
@@ -1757,15 +1755,12 @@ Python.1:
     "multiple of 3 and 5", else print the value.
 
 
-Python.2:
-    Setup for FutureSystems
-
-
-    #. Create a virtualenv ``~/ENV``
-    #. Modify your ``~/.bashrc`` shell file to activate your environment
+EPython.2:
+    #. Create a pyenv or virtualenv `~/ENV`
+    #. Modify your `~/.bashrc` shell file to activate your environment
        upon login.
-    #. Install the ``docopt`` python package using ``pip``
-    #. Write a program that uses ``docopt`` to define a commandline
-       program. Hint: modify the FizzBuzz program.
+    #. Install the `docopt` python package using `pip`
+    #. Write a program that uses `docopt` to define a commandline
+       program. Hint: modify the iterate program.
     #. Demonstrate the program works and submit the code and output.
 

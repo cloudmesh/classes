@@ -583,8 +583,15 @@ how you can use OpenStack on FutureSystems. This includes the following:
 Excersises
 ----------------------------------------------------------------------
 
-#. Create a VM on india and login
-#. Create a volume and attach it to the vm
-#. Read up on the OpenStack web page what vilumes are for.
-#. Log into horizon and explore the interface. Start up a VM, create a
+Ehavana.1:
+   Create a VM on india and login
+
+Ehavana.2:
+   Create a volume and attach it to the vm
+
+Ehavana.3:
+   Read up on the OpenStack web page what vilumes are for.
+
+Ehavana.4:
+   Log into horizon and explore the interface. Start up a VM, create a
    volume and attach it to the VM. Assign a public ip and log in.

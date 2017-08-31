@@ -2,14 +2,13 @@ Practice Track
 ==============
 
 .. toctree::
-   :caption: Practice
    :maxdepth: 2
-   
-   code
+
+   ../../lesson/linux/linux
+   ../../lesson/linux/virtualbox
    python
+   code
    iot
-   lesson/linux/virtualbox
-   lesson/linux/linux
    python-tech
    cloud
    clustering

@@ -1,7 +1,7 @@
 .. _S3:
 
 Health Informatics Case Study
------------------------------------------
+-----------------------------
 
 This section starts by discussing general aspects of Big Data and
 Health including data sizes, different areas including genomics, EBI,
@@ -23,11 +23,11 @@ Visualization.
 
 
 X-Informatics Case Study: Health Informatics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 Overview
-"""""""""""""
+""""""""
 
 .. todo:: The slides or videos are going to be updated 
           
@@ -121,9 +121,8 @@ Medical image Big Data
 Clouds and Health
 """""""""""""""""
 
-.. todo:: The slides or videos are going to be updated 
           
-          Video: http://youtu.be/9Whkl_UPS5g
+* Video: http://youtu.be/9Whkl_UPS5g
 
 
 McKinsey Report on the big-data revolution in US health care
@@ -156,9 +155,8 @@ Science Data, Patient & Consumer Data, Claims & Cost Data and
 Correlational Data. Three approaches are Live data feed, Advanced
 analytics and Social analytics.
 
-.. todo:: The slides or videos are going to be updated 
           
-          Video: http://youtu.be/PjffvVgj1PE
+* Video: http://youtu.be/PjffvVgj1PE
 
 
 
@@ -214,9 +212,7 @@ is discussed. We note that the MDS approach is related to the well
 known chisq method and some aspects of nonlinear minimization of chisq
 (Least Squares) are discussed.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/r1yENstaAUE
+* Video: http://youtu.be/r1yENstaAUE
 
 
 Genomics, Proteomics and Information Visualization II
@@ -239,35 +235,12 @@ emphasizing the importance of visualizing results of data analytics.
 The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/_F1Eo6bfN0w
+* Video A: http://youtu.be/_F1Eo6bfN0w
+   
+* Video B: http://youtu.be/R1svGGKipkc
 
-
-Genomics, Proteomics and Information Visualization III
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-This lesson continues the discussion of the COG Protein Universe
-introduced in the last lesson. It is shown how Proteomics clusters are
-clearly seen in the Universe browser. This motivates a side remark on
-different clustering methods applied to metagenomics. Then we discuss
-the Generative Topographic Map GTM method that can be used in
-dimension reduction when original data is in a metric space and is in
-this case faster than MDS as GTM computational complexity scales like
-N not N squared as seen in MDS.
-
-Examples are given of GTM including an application to topic models in
-Information Retrieval. Indiana University has developed a
-deterministic annealing improvement of GTM. 3 separate clusterings are
-projected for visualization and show very different structure
-emphasizing the importance of visualizing results of data analytics.
-The final slide shows an application of MDS to generate and visualize
-phylogenetic trees.
-
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/R1svGGKipkc
-
+.. todo:: The slides or videos are going to be updated
+   
           Slides: https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
 
 
