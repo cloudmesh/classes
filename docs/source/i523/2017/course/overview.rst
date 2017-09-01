@@ -68,8 +68,10 @@ Use Clouds running Data Analytics Collaboratively processing Big Data
 to solve problems in X-Informatics. We list many values of X you can
 defined in various activities across the world.
 
-.. todo:: The slides or videos are going to be updated 
-          
+* Video: `MP4 <https://drive.google.com/open?id=0B88HKpainTSfMXNTZGd5NmJ3V1E>`_
+
+.. comment::
+
           * Video: http://youtu.be/AKkyWF95Fp4
 
 Jobs
