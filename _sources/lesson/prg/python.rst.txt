@@ -183,6 +183,14 @@ This is our recommended way to install pyenv on OSX::
 Instalation of Homebrew
 """""""""""""""""""""""
 
+Before installing anything on your computer make sure you have enough
+space. Use in the terminal the command::
+
+  $ df -h
+
+which gives your an overview of your file system. If you do not have
+enough space, please make sure you free up unused files from your drive.
+
 In many occasions it is beneficial to use readline as it provides nice
 editing features for the terminal and xz for completion. First, make
 sure you have xcode installed::
@@ -224,7 +232,7 @@ Install pyenv on Ubuntu
    $ sudo pip install virtualenvwrapper
 
    $ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
-   $ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv   
+   $ git clone https://github.com/pyenv/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv   
    $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
 
    $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc

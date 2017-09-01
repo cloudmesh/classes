@@ -750,6 +750,13 @@ $ echo &#39;export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;&#39; &gt;&gt; ~/.bash_
 </div>
 <div class="section" id="instalation-of-homebrew">
 <h4>4.3.1.4.1.3. Instalation of Homebrew<a class="headerlink" href="#instalation-of-homebrew" title="Permalink to this headline">¶</a></h4>
+<p>Before installing anything on your computer make sure you have enough
+space. Use in the terminal the command:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ df -h
+</pre></div>
+</div>
+<p>which gives your an overview of your file system. If you do not have
+enough space, please make sure you free up unused files from your drive.</p>
 <p>In many occasions it is beneficial to use readline as it provides nice
 editing features for the terminal and xz for completion. First, make
 sure you have xcode installed:</p>
@@ -789,7 +796,7 @@ $ sudo apt-get install zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev
 $ sudo pip install virtualenvwrapper
 
 $ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
-$ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+$ git clone https://github.com/pyenv/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
 $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
 
 $ echo &#39;export PYENV_ROOT=&quot;$HOME/.pyenv&quot;&#39; &gt;&gt; ~/.bashrc
