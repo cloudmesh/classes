@@ -192,8 +192,8 @@ Install pyenv on OSX from git
 This is our recommended way to install pyenv on OSX::
 
   $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-  $ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
-  $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
+  $ git clone https://github.com/pyenv/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
+  $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
   $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
   $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 
