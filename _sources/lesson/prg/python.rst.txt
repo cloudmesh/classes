@@ -167,6 +167,24 @@ If you need to have more than one python version
 installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
 and 3.6.2 from python.org (https://www.python.org/downloads/)
 
+Disabeling wrong python installs on OSX
+"""""""""""""""""""""""""""""""""""""""
+
+While working with students we have seen at times that they take other
+classes either at universities or online that teach them how to
+program in python. Unfortuanatley, although they seem to do that they
+often ignore to teach you how to properly install python. I just
+reachentl had a students that had installed python 7 times on his OSX
+machine, while another student had 3 different instalations, all of
+which confliced with each other as they were not set up properly.
+
+We recommend that you inspect if you have a files such as ~/.bashrc or
+~/.bashrc_profile in your ehome directory and identify if it activates
+various versions of python on your computer. If so you could try to
+deactivate them while outcommenting the various versions with the #
+character at the beginning of the line, start a new terminal and see
+if the terminal shell still works. Than you can follow our
+instructions here while using an install on pyenv.
 
 Install pyenv on OSX from git 
 """"""""""""""""""""""""""""""

@@ -232,13 +232,14 @@
 <li><a class="reference internal" href="#managing-custom-python-installs">4.3.1.4. Managing custom Python installs</a><ul>
 <li><a class="reference internal" href="#managing-multiple-python-versions-with-pyenv">4.3.1.4.1. Managing Multiple Python Versions with Pyenv</a><ul>
 <li><a class="reference internal" href="#instalation-without-pyenv">4.3.1.4.1.1. Instalation without pyenv</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-osx-from-git">4.3.1.4.1.2. Install pyenv on OSX from git</a></li>
-<li><a class="reference internal" href="#instalation-of-homebrew">4.3.1.4.1.3. Instalation of Homebrew</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-osx-with-homebrew">4.3.1.4.1.4. Install pyenv on OSX with Homebrew</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-ubuntu">4.3.1.4.1.5. Install pyenv on Ubuntu</a></li>
-<li><a class="reference internal" href="#install-different-python-versions">4.3.1.4.1.6. Install Different Python Versions</a></li>
-<li><a class="reference internal" href="#set-up-the-shell">4.3.1.4.1.7. Set up the Shell</a></li>
-<li><a class="reference internal" href="#switching-environments">4.3.1.4.1.8. Switching Environments</a></li>
+<li><a class="reference internal" href="#disabeling-wrong-python-installs-on-osx">4.3.1.4.1.2. Disabeling wrong python installs on OSX</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-osx-from-git">4.3.1.4.1.3. Install pyenv on OSX from git</a></li>
+<li><a class="reference internal" href="#instalation-of-homebrew">4.3.1.4.1.4. Instalation of Homebrew</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-osx-with-homebrew">4.3.1.4.1.5. Install pyenv on OSX with Homebrew</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-ubuntu">4.3.1.4.1.6. Install pyenv on Ubuntu</a></li>
+<li><a class="reference internal" href="#install-different-python-versions">4.3.1.4.1.7. Install Different Python Versions</a></li>
+<li><a class="reference internal" href="#set-up-the-shell">4.3.1.4.1.8. Set up the Shell</a></li>
+<li><a class="reference internal" href="#switching-environments">4.3.1.4.1.9. Switching Environments</a></li>
 </ul>
 </li>
 </ul>
@@ -499,13 +500,14 @@
 <li><a class="reference internal" href="#managing-custom-python-installs">4.3.1.4. Managing custom Python installs</a><ul>
 <li><a class="reference internal" href="#managing-multiple-python-versions-with-pyenv">4.3.1.4.1. Managing Multiple Python Versions with Pyenv</a><ul>
 <li><a class="reference internal" href="#instalation-without-pyenv">4.3.1.4.1.1. Instalation without pyenv</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-osx-from-git">4.3.1.4.1.2. Install pyenv on OSX from git</a></li>
-<li><a class="reference internal" href="#instalation-of-homebrew">4.3.1.4.1.3. Instalation of Homebrew</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-osx-with-homebrew">4.3.1.4.1.4. Install pyenv on OSX with Homebrew</a></li>
-<li><a class="reference internal" href="#install-pyenv-on-ubuntu">4.3.1.4.1.5. Install pyenv on Ubuntu</a></li>
-<li><a class="reference internal" href="#install-different-python-versions">4.3.1.4.1.6. Install Different Python Versions</a></li>
-<li><a class="reference internal" href="#set-up-the-shell">4.3.1.4.1.7. Set up the Shell</a></li>
-<li><a class="reference internal" href="#switching-environments">4.3.1.4.1.8. Switching Environments</a></li>
+<li><a class="reference internal" href="#disabeling-wrong-python-installs-on-osx">4.3.1.4.1.2. Disabeling wrong python installs on OSX</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-osx-from-git">4.3.1.4.1.3. Install pyenv on OSX from git</a></li>
+<li><a class="reference internal" href="#instalation-of-homebrew">4.3.1.4.1.4. Instalation of Homebrew</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-osx-with-homebrew">4.3.1.4.1.5. Install pyenv on OSX with Homebrew</a></li>
+<li><a class="reference internal" href="#install-pyenv-on-ubuntu">4.3.1.4.1.6. Install pyenv on Ubuntu</a></li>
+<li><a class="reference internal" href="#install-different-python-versions">4.3.1.4.1.7. Install Different Python Versions</a></li>
+<li><a class="reference internal" href="#set-up-the-shell">4.3.1.4.1.8. Set up the Shell</a></li>
+<li><a class="reference internal" href="#switching-environments">4.3.1.4.1.9. Switching Environments</a></li>
 </ul>
 </li>
 </ul>
@@ -737,8 +739,25 @@ management;</li>
 installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
 and 3.6.2 from python.org (<a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>)</p>
 </div>
+<div class="section" id="disabeling-wrong-python-installs-on-osx">
+<h4>4.3.1.4.1.2. Disabeling wrong python installs on OSX<a class="headerlink" href="#disabeling-wrong-python-installs-on-osx" title="Permalink to this headline">¶</a></h4>
+<p>While working with students we have seen at times that they take other
+classes either at universities or online that teach them how to
+program in python. Unfortuanatley, although they seem to do that they
+often ignore to teach you how to properly install python. I just
+reachentl had a students that had installed python 7 times on his OSX
+machine, while another student had 3 different instalations, all of
+which confliced with each other as they were not set up properly.</p>
+<p>We recommend that you inspect if you have a files such as ~/.bashrc or
+~/.bashrc_profile in your ehome directory and identify if it activates
+various versions of python on your computer. If so you could try to
+deactivate them while outcommenting the various versions with the #
+character at the beginning of the line, start a new terminal and see
+if the terminal shell still works. Than you can follow our
+instructions here while using an install on pyenv.</p>
+</div>
 <div class="section" id="install-pyenv-on-osx-from-git">
-<h4>4.3.1.4.1.2. Install pyenv on OSX from git<a class="headerlink" href="#install-pyenv-on-osx-from-git" title="Permalink to this headline">¶</a></h4>
+<h4>4.3.1.4.1.3. Install pyenv on OSX from git<a class="headerlink" href="#install-pyenv-on-osx-from-git" title="Permalink to this headline">¶</a></h4>
 <p>This is our recommended way to install pyenv on OSX:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 $ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
@@ -749,7 +768,7 @@ $ echo &#39;export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;&#39; &gt;&gt; ~/.bash_
 </div>
 </div>
 <div class="section" id="instalation-of-homebrew">
-<h4>4.3.1.4.1.3. Instalation of Homebrew<a class="headerlink" href="#instalation-of-homebrew" title="Permalink to this headline">¶</a></h4>
+<h4>4.3.1.4.1.4. Instalation of Homebrew<a class="headerlink" href="#instalation-of-homebrew" title="Permalink to this headline">¶</a></h4>
 <p>Before installing anything on your computer make sure you have enough
 space. Use in the terminal the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ df -h
@@ -773,7 +792,7 @@ some compression tools:</p>
 </div>
 </div>
 <div class="section" id="install-pyenv-on-osx-with-homebrew">
-<h4>4.3.1.4.1.4. Install pyenv on OSX with Homebrew<a class="headerlink" href="#install-pyenv-on-osx-with-homebrew" title="Permalink to this headline">¶</a></h4>
+<h4>4.3.1.4.1.5. Install pyenv on OSX with Homebrew<a class="headerlink" href="#install-pyenv-on-osx-with-homebrew" title="Permalink to this headline">¶</a></h4>
 <p>We describe here a mechanism of installing pyenv with homebrew. Other
 mechanisms can be found on the pyenv documentation page
 (<a class="reference external" href="https://github.com/yyuu/pyenv-installer">https://github.com/yyuu/pyenv-installer</a>).
@@ -784,7 +803,7 @@ You must have homebrew installed as discussed in the previous section.</p>
 </div>
 </div>
 <div class="section" id="install-pyenv-on-ubuntu">
-<h4>4.3.1.4.1.5. Install pyenv on Ubuntu<a class="headerlink" href="#install-pyenv-on-ubuntu" title="Permalink to this headline">¶</a></h4>
+<h4>4.3.1.4.1.6. Install pyenv on Ubuntu<a class="headerlink" href="#install-pyenv-on-ubuntu" title="Permalink to this headline">¶</a></h4>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">the installation on ubuntu is not tested and we are
@@ -805,7 +824,7 @@ $ echo &#39;export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashr
 </div>
 </div>
 <div class="section" id="install-different-python-versions">
-<h4>4.3.1.4.1.6. Install Different Python Versions<a class="headerlink" href="#install-different-python-versions" title="Permalink to this headline">¶</a></h4>
+<h4>4.3.1.4.1.7. Install Different Python Versions<a class="headerlink" href="#install-different-python-versions" title="Permalink to this headline">¶</a></h4>
 <p>Pyenv provides a large list of different python versions. To see the
 entire list please use the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ pyenv install -l
@@ -838,7 +857,7 @@ would represent python 3.6.2. Often it is easier to type the alias rather
 than the explicit version.</p>
 </div>
 <div class="section" id="set-up-the-shell">
-<h4>4.3.1.4.1.7. Set up the Shell<a class="headerlink" href="#set-up-the-shell" title="Permalink to this headline">¶</a></h4>
+<h4>4.3.1.4.1.8. Set up the Shell<a class="headerlink" href="#set-up-the-shell" title="Permalink to this headline">¶</a></h4>
 <p>To make all work smoothly from your terminal, you can
 include the following in your .bashrc files:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>export PYENV_VIRTUALENV_DISABLE_PROMPT=1
@@ -860,7 +879,7 @@ PS1=&quot;\$(__pyenv_version_ps1) ${PS1}&quot;
 <p>We recommend that you do this towards the end of your file.</p>
 </div>
 <div class="section" id="switching-environments">
-<h4>4.3.1.4.1.8. Switching Environments<a class="headerlink" href="#switching-environments" title="Permalink to this headline">¶</a></h4>
+<h4>4.3.1.4.1.9. Switching Environments<a class="headerlink" href="#switching-environments" title="Permalink to this headline">¶</a></h4>
 <p>After setting up the different environments, switching between them is
 now easy.  Simply use the following commands:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>(2.7.13) $ pyenv activate ENV2
