@@ -21,6 +21,11 @@ New
 
 Changes
 ~~~~~~~
+- Improve pyenv install instructions. [Gregor von Laszewski]
+- Fix pyenv install on ubuntu. [Gregor von Laszewski]
+- Add meeting doodle. [Gregor von Laszewski]
+- Add the project page. [Gregor von Laszewski]
+- Add piazza video for i523. [Gregor von Laszewski]
 - Improve TOC, add links to assignments. [Gregor von Laszewski]
 - Update TOC. [Gregor von Laszewski]
 - Add lincs to Exercise assignments so they are easier to find. [Gregor
@@ -37,6 +42,13 @@ Changes
 
 Other
 ~~~~~
+- M4v changed to mp4. [Hyungro Lee]
+- I523_F17_minor_typo_corrections_audit_section. [Sean Shiverick]
+- Added a section for using Github. [William H Knapp III]
+- Fixed a couples spelling errors. [William H Knapp III]
+- Fixed a couples spelling errors. [William H Knapp III]
+- Update fall2017.rst. [elenadesigner]
+
 - Sensors Update. [Grace Li]
 - Radar update. [Grace Li]
 - Bio: Usr update. [Grace Li]
