@@ -292,7 +292,7 @@ terms of power consumption and the environment are also touched upon,
 followed by a list of the most critical features of Cloud computing
 and a comparison to supercomputing.
 
-* Video: `m4v <https://drive.google.com/open?id=0B88HKpainTSfR20xcUdLbDQzeGs>`_
+* Video: `MP4 <https://drive.google.com/open?id=0B88HKpainTSfR20xcUdLbDQzeGs>`_
 
 .. comment::
 
