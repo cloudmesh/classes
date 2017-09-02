@@ -214,6 +214,9 @@ economic imperative, computing model, research model, Opportunities in
 advancing computing, Opportunities in X-Informatics, Data Science
 Education
 
+.. todo:: Miao, copy mp4 and ppt to folder in google, add new link
+          here once it is done
+
 * Video: `MP4 <https://iu.box.com/s/qze1sfggref5gzfix253wde20ne49ikz>`_ (Course Motivation and Emerging Technologies are combined)
 
 * Slides: `PPT <https://iu.box.com/s/su3skkw8crjktoh74smpm782wb9kn2tk>`_
@@ -240,6 +243,9 @@ Chemistry, Climate, Crisis, Earth Science, Energy, Environment,
 Finance, Health, Intelligence, Lifestyle, Marketing, Medicine,
 Pathology, Policy, Radar, Security, Sensor, Social, Sustainability,
 Wealth and Wellness"
+
+.. todo:: Grace, copy mp4 and ppt to folder in google, add new link
+          here once it is done
 
 * Video: `MP4 <https://iu.box.com/s/8ycztqsdd8v7ju49f0wnb9ur4nw4cc5e>`_
 * Slides: `PPT <https://iu.box.com/s/ux8ke0y8r6hw6pkqtix8wm2chemdv0jz>`_
