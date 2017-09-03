@@ -130,8 +130,9 @@ Streaming Algorithms Library written with Cython. Her research interest is
 Algorithms on Autonomous Robotics. 
 
 
-Miao	Jiang
+Miao Jiang
 ^^^^^^^^^^^
 
-.. todo:: Miao, please add bio
+.. image:: /images/Miao.jpg
+**Miao Jiang** is a PhD student of Intelligent Systems Engineering at Indiana University Bloomington. Before coming to IUB, he received Master of Science from Santa Clara University and Beacholor of Computer Engineering from University of Minnesota. His research interest is machine learning.
           
