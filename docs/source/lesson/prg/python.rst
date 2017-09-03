@@ -1784,6 +1784,12 @@ otherwise stated.
 
 .. _e-python:
 
+Jupyter Notebook Tutorials
+--------------------------
+
+A Short Introduction to Jupyter Notebooks and NumPy :doc:`./Jupyter-NumPy-tutorial-I523-F2017.ipynb`.
+.. _Link to Web View: 
+
 Exercises
 ---------
 
