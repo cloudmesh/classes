@@ -214,9 +214,13 @@ economic imperative, computing model, research model, Opportunities in
 advancing computing, Opportunities in X-Informatics, Data Science
 Education
 
-* Video: `MP4 <https://iu.box.com/s/qze1sfggref5gzfix253wde20ne49ikz>`_ (Course Motivation and Emerging Technologies are combined)
+.. i523/public/videos/introduction/motivation-012-1.mp4
 
-* Slides: `PPT <https://iu.box.com/s/su3skkw8crjktoh74smpm782wb9kn2tk>`_
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsV2RvMlFzSDNPZEU/view?usp=sharing>`_ (Course Motivation and Emerging Technologies are combined)
+
+.. i523/public/videos/introduction/motivation-012-1.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsT3BVRmU5bHFua1E/view?usp=sharing>`_
          
 .. comment 2016 video reserved
 
@@ -241,8 +245,14 @@ Finance, Health, Intelligence, Lifestyle, Marketing, Medicine,
 Pathology, Policy, Radar, Security, Sensor, Social, Sustainability,
 Wealth and Wellness"
 
-* Video: `MP4 <https://iu.box.com/s/8ycztqsdd8v7ju49f0wnb9ur4nw4cc5e>`_
-* Slides: `PPT <https://iu.box.com/s/ux8ke0y8r6hw6pkqtix8wm2chemdv0jz>`_
+
+.. i523/public/videos/introduction/motivation-012-2.mp4
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsV0hYWVB1eDJYdjA/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-2novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsRUtKYTJaT0FUWG8/view?usp=sharing>`_
          
 .. comment 2016 video reserved
 
@@ -257,9 +267,13 @@ Jobs abound in clouds and data science. There are documented shortages
 in data science, computer science and the major tech companies
 advertise for new talent.
 
-* Video: `MP4 <https://iu.box.com/s/tiqq12zepqcbrf0cwimjiyo6gl0sy6l9>`_
+.. i523/public/videos/introduction/motivation-012-3.mp4
 
-* Slides: `PPT <https://iu.box.com/s/fz3pzgxqxwscblhszw6m39gyo3ghp3kz>`_
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsZkp2VzRqbDJ1cXM/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-3novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsZ2oyN0dGWmVQb0E/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -274,12 +288,29 @@ comparative decrease in desktop access, the export of internet
 content, the change in dominant client operating systems, use of
 social media, thriving Chinese internet companies.
 
-* Video A: `MP4 <https://iu.box.com/s/y76dinn0zs6klbxdxxd4ft54l05zjg83>`_
-* Slides A: `PPT <https://iu.box.com/s/6wqebjoqsigb2au3eokyw9wx6pldqdx3>`_
-* Video B: `MP4 <https://iu.box.com/s/7fx1nkg1c079fnweppg34hvp4d22katn>`_
-* Slides B: `PPT <https://iu.box.com/s/mvde8q5f10k7zetlcm0mgh8xtvobwjwq>`_
-* Video C: `MP4 <https://iu.box.com/s/c7itvdw1fzx5p1zrsens252n5j9yp586>`_
-* Slides C: `PPT <https://iu.box.com/s/crkdar0yh0axro6jb4h4bc8x50ez1xsw>`_
+.. i523/public/videos/introduction/motivation-012-4a.mp4
+
+* Video A: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsa3BwTHg4bm1WaDg/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-4a-novid.pptx
+
+* Slides A: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsNXQwUXlOMmFtQTg/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-4b.mp4
+
+* Video B: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRzNUTzZNRUVIUk0/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-4b-novid.pptx
+
+* Slides B: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsOTdiUUxMLTlscWs/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-4c.mp4
+
+* Video C: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRlZLb1RFUEVjeVU/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-4c-movid.pptx
+
+* Slides C: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsRDlINHpDXzQzSmM/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -291,10 +322,15 @@ Digital Disruption of Old Favorites
 Not everything goes up. The rise of the Internet has led to declines
 in some traditional areas including Shopping malls and Postal
 Services.
-          
-* Video: `MP4 <https://iu.box.com/s/4nh8w0kof68ip6u6i71ocbsvzfsom9g5>`_
 
-* Slides: `PPT <https://iu.box.com/s/rz79glfr9r9q54kg3nxizj0ww9kpn4rt>`_
+
+.. i523/public/videos/introduction/motivation-012-5.mp4
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsbm5CZ3FsM2IxVk0/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-5novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsVWVaTEl0VGlUT1E/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -315,10 +351,21 @@ consolidation. Then key characteristics of clouds are reviewed with
 expected high growth in Infrastructure, Platform and Software as a
 Service.
 
-* Video A: `MP4 <https://iu.box.com/s/lvfth40ba70wbfcgu9lgkqt4dbwigp2r>`_
-* Slides A: `PPT <https://iu.box.com/s/e4flickhqxv9m340s9ce3bhfyl6lxya4>`_
-* Video B: `MP4 <https://iu.box.com/s/8leh5xg0lhtsa6rqyf96v3af61nwz7ar>`_
-* Slides B: `PPT <https://iu.box.com/s/5mfjgep7jkza45p88ko02llqt88ktbpd>`_
+.. i523/public/videos/introduction/motivation-012-6a.mp4
+
+* Video A: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-6a-novid.pptx
+
+* Slides A: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-6b.mp4
+
+* Video B: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsVURyQ1BIaTFKbTA/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-6b-novid.pptx
+
+* Slides B: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsX0NRcXZhMkphOVk/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -333,8 +380,14 @@ Research Model
 We introduce the 4 paradigms of scientific research with the
 focus on the new fourth data driven methodology.
 
-* Video: `MP4 <https://iu.box.com/s/xnfdnahl98s7mrjxn2wvr71mg1k48f98>`_
-* Slides: `PPT <https://iu.box.com/s/q442jzt643jg81s8r8fb0v47fgsj7i5n>`_
+.. i523/public/videos/introduction/motivation-012-7.mp4
+
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsb2dkTUxCVkh1Slk/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-7novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseVNLNWdjVXY1bUE/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -349,8 +402,13 @@ We introduce the DIKW data to information to knowledge to
 wisdom paradigm. Data flows through cloud services transforming itself
 and emerging as new information to input into other transformations.
 
-* Video: `MP4 <https://iu.box.com/s/v3887x4ez3wcrxuqm06sbef6b99z6q6k>`_
-* Slides: `PPT <https://iu.box.com/s/1l3tuhbe2xx2njxqboywi0u3rcko765v>`_
+.. i523/public/videos/introduction/motivation-012-8.mp4
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsOHZ2bWo4Vk1WakE/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-8novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseVZmTWxrdkZId2M/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -366,8 +424,13 @@ as a bump in a histogram; something that so amazed him 50 years ago
 that he got a PhD in this field. He left field partly due to the
 incredible size of author lists on papers.
 
-* Video: `MP4 <https://iu.box.com/s/m360z9afj6wn4vlwpjanll4bgt7z6h6y>`_
-* Slides: `PPT <https://iu.box.com/s/hk12p46f07kbp8wne6dwc8e3aisdz7k4>`_
+.. i523/public/videos/introduction/motivation-012-9.mp4
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsbHVvZi1MRzNCbjg/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-9novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsXzdVbWlqNG91b2M/view?usp=sharing>`_
 
 .. comment
 
@@ -385,11 +448,22 @@ recommendation and muses about the power of viewing all sorts of
 things as items in a bag or more abstractly some space with funny
 properties.
 
-* Video: `MP4 <https://iu.box.com/s/np2nc7dy1phyugh95wdvw652pkwezp8u>`_
-* Slides: `PPT <https://iu.box.com/s/sqqs4bmy5eenkfdsmdh0zqn972si55ci>`_
+.. i523/public/videos/introduction/motivation-012-10.mp4
 
-* Video II: `MP4 <https://iu.box.com/s/2c014toq5d5kqtr0chjkro64mecintid>`_
-  Slides II: `PPT <https://iu.box.com/s/iu50p5xxwh9erjh9tt3asdowyr69c0dn>`_
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsc0dmQXN0alFJQW8/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-10novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSnhOVXhoUmR0YlE/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-11.mp4
+
+* Video II: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRDc1azd6UkFlemM/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-11novid.pptx
+
+* Slides II: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSjZGaVRqbVJOdmc/view?usp=sharing>`_
+
 .. comment
 
           Video 1: http://youtu.be/Aj5k0Sa7XGQ
@@ -406,8 +480,13 @@ overview of the data analytics for web search, Pagerank as a method of
 ranking web pages returned and uses material from Yahoo on the subtle
 algorithms for dynamic personalized choice of material for web pages.
 
-* Video: `MP4 <https://iu.box.com/s/jl35vu8gbcib7xhi0g6al3bey554kryu>`_
-* Slides: `PPT <https://iu.box.com/s/bes7v51m9srgebmgg87kimfcvqzykm5x>`_
+.. i523/public/videos/introduction/motivation-012-12.mp4
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsektTWGJYVGFxcFk/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-12novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseS1ZejJuVjhmWVE/view?usp=sharing>`_
 
 .. comment
           
@@ -421,8 +500,13 @@ We describe scientific applications and how they map onto
 clouds, supercomputers, grids and high throughput systems. He likes
 the cloud use of the Internet of Things and gives examples.
 
-* Video: `MP4 <https://iu.box.com/s/yjihksgp5yfkmw0avdb7hyuhwzfy341w>`_
-* Slides: `PPT <https://iu.box.com/s/u3ix2zk513o1r5z38b5gwgjp39xxmhuf>`_
+.. i523/public/videos/introduction/motivation-012-13.mp4
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsNlJVR2JOQk13Z2M/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-13novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSlVxX2JoLUdQQTg/view?usp=sharing>`_
 
 .. comment
           
@@ -435,8 +519,13 @@ Parallel Computing and MapReduce
 We define MapReduce and gives a homely example from fruit
 blending.
 
-* Video: `MP4 <https://iu.box.com/s/3vby6cilwb048684z57aitxlvl8go2no>`_
-* Slides: `PPT <https://iu.box.com/s/ngxp60flsc67ajbbhzejegtzzl6ydl3h>`_
+.. i523/public/videos/introduction/motivation-012-14.mp4
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsWFUtdGJQTEd1TFk/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-14novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsdnZqWUVKRUJuR28/view?usp=sharing>`_
 
 .. comment
           
@@ -459,8 +548,13 @@ model. Grading and mentoring models and important online tools are
 discussed. Clouds have MOOC's describing them and MOOC's are stored in
 clouds; a pleasing symmetry.
 
-* Video: `MP4 <https://iu.box.com/s/ikih2y5uxsmsoy2e98wh2nqv110jeelt>`_
-* Slides: `PPT <https://iu.box.com/s/wr6qfimu70j7d95vcu8p2kwjhuw8scvf>`_
+.. i523/public/videos/introduction/motivation-012-15.mp4
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsUGtTWjNUVHpWRXM/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-15novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsNGVqUUE3WTZtSGM/view?usp=sharing>`_
 
 .. comment
 
@@ -478,8 +572,14 @@ ecosystem in one sentence "Use Clouds running Data Analytics
 Collaboratively processing Big Data to solve problems in X-Informatics
 educated in data science"
 
-* Video: `MP4 <https://iu.box.com/s/oc0l9irv3p9u4eh4ff983afwajtrtg4i>`_
-* Slides: `PPT <https://iu.box.com/s/bbk20mnp47682s0rwdb601nqbaszmxbk>`_
+
+.. i523/public/videos/introduction/motivation-012-16.mp4
+
+* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsNVJKZVlHTENNQTA/view?usp=sharing>`_
+
+.. i523/public/videos/introduction/motivation-012-16novid.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsdHRuN2hMQnBmXzg/view?usp=sharing>`_
 
 .. comment
 
