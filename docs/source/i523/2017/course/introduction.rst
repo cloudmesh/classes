@@ -628,7 +628,8 @@ Resources
 References
 """"""""""
 
-.. bibliography:: ../../../i-refs.bib
-   :cited:
-   :labelprefix: I
+.. bibliography:: introduction-tmp.bib
+   :labelprefix: intro
    :style: unsrt
+   :cited:
+

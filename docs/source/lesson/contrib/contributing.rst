@@ -99,6 +99,46 @@ When you have verified that the changes are there, you can issue a pull request 
 your work to be integrated into the original repository by clicking the *Pull Request*
 field in the right hand corner beneath the topics.
 
+Adding bibligraphic references
+------------------------------
+
+We use a single refrence file formated in *bibtex*. The file is
+located in docs/source/refs.bib. We use sphinx-bibtex to manage the
+refernces in rst pages. However, it has the disadvantage that we can
+only have on refrence section per bib file. In order to simplify
+management as we may cite the same refernces in differnt files it is
+not useful to develop a bib file for each rst file. INstead we
+developed the following pragmatic approach.
+
+Here is the process that we automatically apply in the *Makefile*
+
+* We identify all rst files that have the cite command in it.
+* We copy the refs.bib file into the same directory as the originating
+  rst file. Lets assume the file is called *filename.rst*
+* We than rename in the file for this directory to *filename-tmp.bib*
+  indicating it is not checked into github
+* In gitignore we have a rule that excludes them 
+
+The only thing you have to do in order to use refernces is to make the
+index unique and to add a section such as the following to your
+document::
+  
+  References
+  ----------
+
+  .. bibliography:: filename-tmp.bib
+     :style: unsrt
+     :cited:
+     :labelprefix: filename
+
+Please note the unique filename. To properly geberate the citations we
+remommend you use::
+
+  make clean; make
+
+  
+
+
 Exercise
 --------
 

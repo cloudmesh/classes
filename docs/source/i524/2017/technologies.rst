@@ -7825,6 +7825,7 @@ Open Discussion:
 References
 ----------
 
-.. bibliography:: ../refs.bib
+.. bibliography:: technologies-tmp.bib
    :style: unsrt
    :cited:
+   :labelprefix: tech4
