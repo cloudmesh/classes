@@ -290,9 +290,13 @@ You can set the global python default version with::
 
    $ pyenv global 2.7.13
 
-Type the following to determine which versions you have available::
+Type the following to determine which version you activated::
 
    $ pyenv version
+
+Type the following to determine which versions you have available::
+
+   $ pyenv versions
 
 Associate a specific environment name with a certain python version,
 use the following commands::
