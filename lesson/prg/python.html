@@ -804,11 +804,11 @@ You must have homebrew installed as discussed in the previous section.</p>
 </div>
 <div class="section" id="install-pyenv-on-ubuntu">
 <h4>4.3.1.4.1.6. Install pyenv on Ubuntu<a class="headerlink" href="#install-pyenv-on-ubuntu" title="Permalink to this headline">¶</a></h4>
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">the installation on ubuntu is not tested and we are
-looking for feedback</p>
-</div>
+<p>The following steps will install pyenv in a new ubuntu 16.04
+distribution.</p>
+<p>Start up a terminal and execute in the terminal the following
+commands. We recommend that you do it one command at a time so you can
+observe if the command succeeds:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get update
 $ sudo apt-get install git python-pip make build-essential libssl-dev
 $ sudo apt-get install zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev
@@ -821,6 +821,19 @@ $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins
 $ echo &#39;export PYENV_ROOT=&quot;$HOME/.pyenv&quot;&#39; &gt;&gt; ~/.bashrc
 $ echo &#39;export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;&#39; &gt;&gt; ~/.bashrc
 </pre></div>
+</div>
+<p>Now that you have installed pyenv it is not yet activated in your
+current terminal. The easiest thing to do is to start a new terminal
+and typ in:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">which</span> <span class="n">pyenv</span>
+</pre></div>
+</div>
+<p>If you see a response pyenv is installed and you can proceed with the
+next steps.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Please remember whenever you modify .bashrc or
+.bash_profile you need to start a new terminal.</p>
 </div>
 </div>
 <div class="section" id="install-different-python-versions">
