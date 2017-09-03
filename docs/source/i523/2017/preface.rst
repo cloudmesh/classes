@@ -9,4 +9,5 @@ Preface
    ../../lesson/preface/security
    disclaimer
    instructors
+   ../../lesson/preface/honesty   
 

@@ -322,6 +322,7 @@ Not everything goes up. The rise of the Internet has led to declines
 in some traditional areas including Shopping malls and Postal
 Services.
 
+
 .. i523/public/videos/introduction/motivation-012-5.mp4
 
 * Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsbm5CZ3FsM2IxVk0/view?usp=sharing>`_

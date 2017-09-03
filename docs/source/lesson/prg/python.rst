@@ -167,6 +167,24 @@ If you need to have more than one python version
 installed and do not want or can use pyenv, we recommend you download and install python 2.7.13
 and 3.6.2 from python.org (https://www.python.org/downloads/)
 
+Disabeling wrong python installs on OSX
+"""""""""""""""""""""""""""""""""""""""
+
+While working with students we have seen at times that they take other
+classes either at universities or online that teach them how to
+program in python. Unfortuanatley, although they seem to do that they
+often ignore to teach you how to properly install python. I just
+reachentl had a students that had installed python 7 times on his OSX
+machine, while another student had 3 different instalations, all of
+which confliced with each other as they were not set up properly.
+
+We recommend that you inspect if you have a files such as ~/.bashrc or
+~/.bashrc_profile in your ehome directory and identify if it activates
+various versions of python on your computer. If so you could try to
+deactivate them while outcommenting the various versions with the #
+character at the beginning of the line, start a new terminal and see
+if the terminal shell still works. Than you can follow our
+instructions here while using an install on pyenv.
 
 Install pyenv on OSX from git 
 """"""""""""""""""""""""""""""
@@ -174,14 +192,22 @@ Install pyenv on OSX from git
 This is our recommended way to install pyenv on OSX::
 
   $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-  $ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
-  $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
+  $ git clone https://github.com/pyenv/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv
+  $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
   $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
   $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 
 
 Instalation of Homebrew
 """""""""""""""""""""""
+
+Before installing anything on your computer make sure you have enough
+space. Use in the terminal the command::
+
+  $ df -h
+
+which gives your an overview of your file system. If you do not have
+enough space, please make sure you free up unused files from your drive.
 
 In many occasions it is beneficial to use readline as it provides nice
 editing features for the terminal and xz for completion. First, make
@@ -224,7 +250,7 @@ Install pyenv on Ubuntu
    $ sudo pip install virtualenvwrapper
 
    $ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
-   $ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv   
+   $ git clone https://github.com/pyenv/pyenv-virtualenv.git ~/.pyenv/plugins/pyenv-virtualenv   
    $ git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
 
    $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
@@ -1739,6 +1765,8 @@ otherwise stated.
 .. _lab-python-1:
 .. _lab-python-2:
 
+.. _e-python:
+
 Exercises
 ---------
 
@@ -1754,14 +1782,11 @@ EPython.1:
 
 
 EPython.2:
-    Setup for FutureSystems
-
-
-    #. Create a virtualenv `~/ENV`
+    #. Create a pyenv or virtualenv `~/ENV`
     #. Modify your `~/.bashrc` shell file to activate your environment
        upon login.
     #. Install the `docopt` python package using `pip`
     #. Write a program that uses `docopt` to define a commandline
-       program. Hint: modify the FizzBuzz program.
+       program. Hint: modify the iterate program.
     #. Demonstrate the program works and submit the code and output.
 

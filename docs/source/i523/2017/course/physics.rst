@@ -36,8 +36,8 @@ lectures use Python but use of Java is described.
 
 Files: :download:`HiggsClassI-Sloping.py </files/python/physics/mr_higgs/higgs_classI_sloping.py>`
 
-Looking for Higgs Particle and Counting Introduction I
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Looking for Higgs Particle and Counting Introduction
+""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 We return to particle case with slides used in introduction and stress
 that particles often manifested as bumps in histograms and those bumps
@@ -49,17 +49,12 @@ statistically significant fashion.
           Video: http://youtu.be/VQAupoFUWTg
 
 
-Looking for Higgs Particle and Counting Introduction II
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 We give a few details on one LHC experiment ATLAS. Experimental
 physics papers have a staggering number of authors and quite big
 budgets. Feynman diagrams describe processes in a fundamental
 fashion.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/UAMzmOgjj7I
+*        Video: http://youtu.be/UAMzmOgjj7I
 
 
 Physics-Informatics Looking for Higgs Particle Experiments
@@ -70,9 +65,7 @@ physics papers have a staggering number of authors and quite big
 budgets. Feynman diagrams describe processes in a fundamental
 fashion.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/BW12d780qT8
+*        Video: http://youtu.be/BW12d780qT8
 
 
 Accelerator Picture Gallery of Big Science
@@ -83,23 +76,22 @@ accelerators. Accelerators, detection chambers and magnets in tunnels
 and a large underground laboratory used fpr experiments where you need
 to be shielded from background like cosmic rays.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/WLJIxWWMYi8
+*        Video: http://youtu.be/WLJIxWWMYi8
 
 
 Resources
 """""""""
 
-.. todo:: The slides or videos are going to be updated
-
 * http://grids.ucs.indiana.edu/ptliupages/publications/Where%20does%20all%20the%20data%20come%20from%20v7.pdf
-* http://www.interactions.org/cms/?pid=6002
-* http://www.interactions.org/cms/?pid=1032811
 * http://www.sciencedirect.com/science/article/pii/S037026931200857X
-* http://biologos.org/blog/what-is-the-higgs-boson
-* http://www.atlas.ch/pdf/ATLAS_fact_sheets.pdf
 * http://www.nature.com/news/specials/lhc/interactive.html
+
+.. comment::
+
+        * http://www.interactions.org/cms/?pid=6002
+        * http://www.interactions.org/cms/?pid=1032811
+        * http://biologos.org/blog/what-is-the-higgs-boson
+        * http://www.atlas.ch/pdf/ATLAS_fact_sheets.pdf
 
 Looking for Higgs Particles: Python Event Counting for Signal and Background (Part 2)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -144,9 +136,7 @@ background plus either a Higgs particle generated similarly to LHC
 observation or one observed with better resolution (smaller
 measurement error).
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/h8-szCeFugQ
+*          Video: http://youtu.be/h8-szCeFugQ
 
 
 Physics Use Case II 3: With Python examples of Signal plus Background
@@ -156,9 +146,7 @@ This uses Monte Carlo data both to generate data like the experimental
 observations and explore effect of changing amount of data and
 changing measurement resolution for Higgs.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/bl2f0tAzLj4
+*          Video: http://youtu.be/bl2f0tAzLj4
 
 
 
@@ -169,9 +157,7 @@ This lesson continues the examination of Monte Carlo data looking at
 effect of change in number of Higgs particles produced and in change
 in shape of background.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/bw3fd5cfQhk
+*          Video: http://youtu.be/bw3fd5cfQhk
 
 
 Resources
@@ -180,7 +166,6 @@ Resources
 * Python for Data Analysis: Agile Tools for Real World Data By Wes
   McKinney, Publisher: O'Reilly Media, Released: October 2012,
   Pages: 472.
-.. todo:: The slides or videos are going to be updated
 
 * http://jwork.org/scavis/api/
 * https://en.wikipedia.org/wiki/DataMelt
@@ -216,8 +201,8 @@ Physics unit. We define the statistics concept of a random variable.
           Video: http://youtu.be/0oZzALLzYBM
 
 
-Physics and Random Variables I
-""""""""""""""""""""""""""""""
+Physics and Random Variables
+""""""""""""""""""""""""""""
 
 We describe the DIKW pipeline for the analysis of this type of physics
 experiment and go through details of analysis pipeline for the LHC
@@ -226,24 +211,9 @@ state particles seen in a few events. We illustrate how physicists
 decide whats going on with a plot of expected Higgs production
 experimental cross sections (probabilities) for signal and background.
 
-.. todo:: The slides or videos are going to be updated
+* Video A: http://youtu.be/Tn3GBxgplxg
 
-          Video: http://youtu.be/Tn3GBxgplxg
-
-
-Physics and Random Variables II
-"""""""""""""""""""""""""""""""
-
-We describe the DIKW pipeline for the analysis of this type of physics
-experiment and go through details of analysis pipeline for the LHC
-ATLAS experiment. We give examples of event displays showing the final
-state particles seen in a few events. We illustrate how physicists
-decide whats going on with a plot of expected Higgs production
-experimental cross sections (probabilities) for signal and background.
-
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/qWEjp0OtvdA
+* Video B: http://youtu.be/qWEjp0OtvdA
 
 
 
@@ -256,9 +226,7 @@ large numbers defining the errors in counting and leading to Gaussian
 distributions for many things. We demonstrate this in Python
 experiments.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/LMBtpWOOQLo
+*          Video: http://youtu.be/LMBtpWOOQLo
 
 
 Gaussian Distributions
@@ -267,9 +235,7 @@ Gaussian Distributions
 We introduce the Gaussian distribution and give Python examples of the
 fluctuations in counting Gaussian distributions.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/LWIbPa-P5W0
+*          Video: http://youtu.be/LWIbPa-P5W0
 
 
 
@@ -280,19 +246,15 @@ We discuss the significance of a standard deviation and role of biases
 and insufficient statistics with a Python example in getting incorrect
 answers.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/n4jlUrGwgic
+*          Video: http://youtu.be/n4jlUrGwgic
 
 
 Resources
 """""""""
 
-.. todo:: The slides or videos are going to be updated
-
 * http://indico.cern.ch/event/20453/session/6/contribution/15?materialId=slides
 * http://www.atlas.ch/photos/events.html
-* http://cms.web.cern.ch/
+* https://cms.cern/
 
 Looking for Higgs Particles: Random Numbers, Distributions and Central Limit Theorem (Part 3)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -314,8 +276,8 @@ Files:
 
 * :download:`HiggsClassIII.py </files/python/physics/calculated_dice_roll/higgs_classIV_seeds.py>`
 
-Generators and Seeds I
-""""""""""""""""""""""
+Generators and Seeds
+""""""""""""""""""""
 
 We define random numbers and describe how to generate them on the
 computer giving Python examples. We define the seed used to define to
@@ -325,17 +287,7 @@ specify how to start generation.
 
           Video: http://youtu.be/76jbRphjRWo
 
-
-Generators and Seeds II
-"""""""""""""""""""""""
-
-We define random numbers and describe how to generate them on the
-computer giving Python examples. We define the seed used to define to
-specify how to start generation.
-
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/9QY5qkQj2Ag
+*          Video: http://youtu.be/9QY5qkQj2Ag
 
 
 Binomial Distribution
@@ -344,9 +296,7 @@ Binomial Distribution
 We define binomial distribution and give LHC data as an example of
 where this distribution valid.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/DPd-eVI_twQ
+*          Video: http://youtu.be/DPd-eVI_twQ
 
 
 Accept-Reject
@@ -355,9 +305,7 @@ Accept-Reject
 We introduce an advanced method **accept/reject** for generating
 random variables with arbitrary distributions.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/GfshkKMKCj8
+*          Video: http://youtu.be/GfshkKMKCj8
 
 
 
@@ -368,9 +316,7 @@ Monte Carlo Method
 We define Monte Carlo method which usually uses accept/reject method
 in typical case for distribution.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/kIQ-BTyDfOQ
+*          Video: http://youtu.be/kIQ-BTyDfOQ
 
 
 
@@ -381,9 +327,7 @@ Poisson Distribution
 We extend the Binomial to the Poisson distribution and give a set of
 amusing examples from Wikipedia.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/WFvgsVo-k4s
+*          Video: http://youtu.be/WFvgsVo-k4s
 
 
 
@@ -392,9 +336,7 @@ Central Limit Theorem
 
 We introduce Central Limit Theorem and give examples from Wikipedia.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/ZO53iKlPn7c
+*          Video: http://youtu.be/ZO53iKlPn7c
 
 
 
@@ -406,16 +348,12 @@ probability. Bayes's law of conditional probability is derived and
 applied to Higgs example to enable information about Higgs from
 multiple channels and multiple experiments to be accumulated.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/jzDkExAQI9M
+*          Video: http://youtu.be/jzDkExAQI9M
 
 
 
 Resources
 """""""""
-
-.. todo:: The slides or videos are going to be updated
 
 * https://en.wikipedia.org/wiki/Pseudorandom_number_generator
 * https://en.wikipedia.org/wiki/Mersenne_Twister

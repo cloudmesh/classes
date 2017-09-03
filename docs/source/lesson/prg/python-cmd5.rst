@@ -171,6 +171,7 @@ automatically. Thus there is no need to introduce a sepaarte help
 method as would normally be needed in CMD while reducing the effort it
 takes to contribute new commands in a dynamic fashion.
 
+.. _e-cmd5:
 
 Excersise
 ---------

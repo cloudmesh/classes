@@ -30,10 +30,10 @@ This class is a full term class of 16 weeks.
 
 * Aug 25, Fri,  9am Setup communication pathways for the class (no extensions)
 
-  * You must have created a gitlab repository in our class repository. (Graded homework, no extensions)
+  * You must have created a github repository in our class repository. (Graded homework, no extensions)
   * You must be in the class Piazza (Graded homework, no extensions).
   * Why no extensions: if we can not communicate with you we can not conduct the class.
-    Everyone must be in piazza and gitlab timely. Instead of giving points we will deduct points
+    Everyone must be in piazza and github timely. Instead of giving points we will deduct points
     from everyone that has not done it in time. Those that registered late have one week from the
     time they registered to complete this task.
 
@@ -42,13 +42,13 @@ This class is a full term class of 16 weeks.
 
   * Good day to work on projects, computer setup
 
-* Sept 31. Paper 1 due (Graded)
+* Oct 2, 9am. Paper 1 due (Graded)
 
-* Sept 31. Computer Setup due for Big Data Completed (Graded)
+* Oct 2, 9am. Computer Setup due for Big Data Completed (pass/fail)
 
-  * 50pts Linux Computer  or Linux VM on Virtual box
-  * 30pts Raspberry Pi 3
-  * 20pts ES8266 (only suitable for IoT)
+  * Linux Computer  or Linux VM on Virtual box
+  * Raspberry Pi 3
+  * ES8266 (only suitable for IoT)
 
 * Fall Break  Oct 6 - Oct 8
 
@@ -58,10 +58,10 @@ This class is a full term class of 16 weeks.
 * Auto W  Sun, Oct 22
 
   * Oct 30 Paper 2 due (Graded)
-  * Oct 30 General programming assignments due (Graded)
-    * results       30pts
-    * code quality  30pts
-    * documentation 40pts
+  * Oct 30 General programming assignments due (pass/fail)
+    * results      
+    * code quality  
+    * documentation 
                      
 * Nov 19 - Nov 26, Thanksgiving lecture free time
 
@@ -124,12 +124,15 @@ The folloing course numbers are sections of this class
 * FA17-BL-INFO-I523-13308
 * FA17-BL-INFO-I523-13310
 
-The official registration information can be found here.
+The official registration information can be found here:
 
 * http://registrar.indiana.edu/official-calendar/official-calendar-fall.shtml
   
 We summarize, but like to point out that the information here may have
-changed. We advise to visit the official page.
+changed. We advise to visit the official page. However important to
+note is that all residential students meet::
+
+              09:30A-10:45A   Friday      I2 150 
 
 Engineering Residential::
 
@@ -138,8 +141,7 @@ Engineering Residential::
                  Above class open to graduate engineering students only
                  Above class taught online
                  Discussion (DIS)
-              36124 RSTR     01:00P-02:15P   F      HD TBA    Von Laszewski G
-                             new 09:30A-10:45A   F      I2 150    Von Laszewski G
+              36124 RSTR     09:30A-10:45A   F      I2 150    Von Laszewski G
               Above class meets in the Smith Research Center, 151E
 
 Informatics Graduate Residential::
@@ -258,7 +260,7 @@ In case you like to audit the class or like to take it as part of a
 nondegree program the following applies:
 
 Participation in the class is approved for non degree student and
-studnets that like to audit the clss under the following conditions:
+students that like to audit the clss under the following conditions:
 
 #. Due to limited space enrollment in the residential class is not
    allowed. The class must be taken online.
@@ -280,7 +282,7 @@ studnets that like to audit the clss under the following conditions:
    incomplete is requested. An incomplete requires 2 month review
    time.
 
-#. Accounts and services can not be shared and will be disabled once
+#. Accounts and services cannot be shared and will be disabled once
    the class is over.
 
 #. It is not allowed to use our services for profit (e.g. just
@@ -296,7 +298,7 @@ studnets that like to audit the clss under the following conditions:
 
 
 Meeting Times
-=============
+-------------
 
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place at the
@@ -304,17 +306,13 @@ following time according to the information provieded by the
 registrar.
 
 
-* 01:00P-02:15P  Friday ENGR-E 534 Smith Research Center, 151E
-
-* 09:30A-10:45A  Friday I523/I423 other residential,  I2 150
-
-* 09:30A-10:45A  Monday E599 I2 130  Intelligent Systems Engeneering   
+* 09:30A-10:45A  Friday I523/I423/E534 other residential,  I2 150
 
 We like to move the Monday class to Friday
   
 
 Office Hours
-============
+------------
 
 Residential Students:
     Residential students participate in the official meeting times. If
@@ -326,3 +324,7 @@ Residential Students:
 Online Studenst:
     A doodle poll will be provided allowing for 2-3 online meetings
     per week at different times.
+
+    Please use the following doodle to identify times:
+
+    * https://doodle.com/poll/gym73n8cy789vmw5
