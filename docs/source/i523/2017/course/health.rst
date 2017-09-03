@@ -142,9 +142,9 @@ data transformation should provide the leadership required for the
 associated cultural transformation; Companies must develop a range of
 big data capabilities.
 
-.. todo:: The slides or videos are going to be updated 
+
           
-          Video: http://youtu.be/bBoHzRjMEmY
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMobEJ2RHVXemJCMTQ/view?usp=sharing
 
 
 Microsoft Report on Big Data in Health
@@ -169,9 +169,8 @@ My decisions; Liberate the data; Connect up everything; Revolutionize
 health; and Include Everyone removing the current correlation between
 health and wealth.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/9mbt_ZSs0iw
+
+* Video: http://youtu.be/9mbt_ZSs0iw
 
 
 Medicine and the Internet of Things
@@ -180,9 +179,7 @@ Medicine and the Internet of Things
 The Internet of Things will have great impact on health including
 telemedicine and wearables. Examples are given.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/QGRfWlvw584
+* Video: https://drive.google.com/file/d/0B5plU-u0wqModHA4Y2FYTXNYOWc/view?usp=sharing
 
 
 
@@ -192,9 +189,7 @@ Extrapolating to 2032
 A study looks at 4 scenarios for healthcare in 2032. Two are positive,
 one middle of the road and one negative.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/Qel4gmBxy8U
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoLTJqNUVLT3RqTkU/view?usp=sharing
 
 
 Genomics, Proteomics and Information Visualization I
@@ -212,7 +207,7 @@ is discussed. We note that the MDS approach is related to the well
 known chisq method and some aspects of nonlinear minimization of chisq
 (Least Squares) are discussed.
 
-* Video: http://youtu.be/r1yENstaAUE
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoVzduODM0Z2dFYWM/view?usp=sharing
 
 
 Genomics, Proteomics and Information Visualization II
@@ -235,13 +230,11 @@ emphasizing the importance of visualizing results of data analytics.
 The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
-* Video A: http://youtu.be/_F1Eo6bfN0w
+* Video A: https://drive.google.com/file/d/0B5plU-u0wqMobXdEQWRHWl95UTA/view?usp=sharing
    
-* Video B: http://youtu.be/R1svGGKipkc
+* Video B: https://drive.google.com/file/d/0B5plU-u0wqModlhmdVUwdGlQNTA/view?usp=sharing
 
-.. todo:: The slides or videos are going to be updated
-   
-          Slides: https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
+* Slides: https://drive.google.com/file/d/0B5plU-u0wqMoUUp0MGRDYldMTzA/view?usp=sharing
 
 
 Resources
