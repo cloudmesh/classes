@@ -110,7 +110,7 @@ Practice Track:
      Overall Introduction Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
 
 
-  .. todo:: The slides or videos are going to be updated 
+  .. todo:: Grace, Saber, The slides or videos are going to be updated 
 
             https://iu.box.com/s/qze1sfggref5gzfix253wde20ne49ikz
 
@@ -123,7 +123,7 @@ Practice Track:
   Overview of Topics
   ^^^^^^^^^^^^^^^^^^
 
-  .. todo:: The slides or videos are going to be updated 
+  .. todo:: Grace, Saber, The slides or videos are going to be updated 
 
             Video: https://youtu.be/Gpivfx4v5eY
 
@@ -141,7 +141,7 @@ Practice Track:
   * Using FutureGrid for Big Data Applications and Analytics Course
   * Physics Use Case, Discovery of Higgs Particle; Counting Events and Basic Statistics Parts I-IV.
 
-  .. todo:: The slides or videos are going to be updated 
+  .. todo:: Grace, Saber, The slides or videos are going to be updated 
 
             Video: http://youtu.be/9NgG-AUOpYQ
 
@@ -159,7 +159,7 @@ Practice Track:
   * Parallel Computing Overview and familiar examples
   * Cloud Technology for Big Data Applications & Analytics
 
-  .. todo:: The slides or videos are going to be updated 
+  .. todo:: Grace, Saber, The slides or videos are going to be updated 
 
             Video http://youtu.be/pxuyjeLQc54
 
