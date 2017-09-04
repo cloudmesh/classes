@@ -1784,6 +1784,15 @@ otherwise stated.
 
 .. _e-python:
 
+Jupyter Notebook Tutorials
+--------------------------
+
+A Short Introduction to Jupyter Notebooks and NumPy 
+To view the notebook, open this link in a background tab <https://nbviewer.jupyter.org/>
+and copy and paste the following link in the URL input area
+<https://cloudmesh.github.io/classes/lesson/prg/Jupyter-NumPy-tutorial-I523-F2017.ipynb>
+Then hit Go!
+
 Exercises
 ---------
 
