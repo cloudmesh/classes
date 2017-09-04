@@ -184,7 +184,7 @@ Workflow-Orchestration
     BioKepler is a Kepler module of scientific workflow components to
     execute a set of bioinformatics tools using distributed execution
     patterns :cite:`www-biokepler`. It contains a specialized set of
-    actors called “bioActors” for running bioinformatic tools,
+    actors called "bioActors" for running bioinformatic tools,
     directors providing distributed data-parallel(DPP) execution on
     Big Data platforms such as Hadoop and Spark they are also
     configurable and reusable :cite:`www-biokepler-demos`. BioKepler
@@ -680,9 +680,9 @@ Application and Analytics
 36. R
 
     R, a GNU project, is a successor to S - a statistical programming
-    language. It offers a range of capabilities – “programming
+    language. It offers a range of capabilities – "programming
     language, high level graphics, interfaces to other languages and
-    debugging”. "R is an integrated suite of software facilities for
+    debugging". "R is an integrated suite of software facilities for
     data manipulation, calculation and graphical display". The
     statistical and graphical techniques provided by R make it popular
     in the statistical community. The statistical techniques provided
@@ -1089,10 +1089,10 @@ Application and Analytics
     direct and indirect relations or patterns in the elements of the
     data, can be easily seen through graphs. The analysis of graphs
     can unveil significant insights. Oracle PGX (Parallel Graph
-    AnalytiX) is a toolkit for graph analysis.  “It is a fast,
+    AnalytiX) is a toolkit for graph analysis.  "It is a fast,
     parallel, in-memory graph analytic framework that allows users to
     load up their graph data, run analytic algorithms on them, and to
-    browse or store the result” :cite:`www-pgx`. Graphs can be loaded
+    browse or store the result" :cite:`www-pgx`. Graphs can be loaded
     from various sources like SQL and NoSQL databases, Apache Spark
     and Hadoop :cite:`www-ora`.
     
@@ -1219,12 +1219,12 @@ Application and Analytics
     
 64. Dream:Lab
 
-    DREAM:Lab stands for “Distributed Research on Emerging
-    Applications and Machines Lab.” :cite:`dream` DREAM:Lab is
+    DREAM:Lab stands for "Distributed Research on Emerging
+    Applications and Machines Lab." :cite:`dream` DREAM:Lab is
     centered around distributed systems research to enable expeditious
     utilization of distributed data and computing
-    systems. :cite:`dream` DREAM:Lab utilizes the “capabilities of
-    hundereds of personal computers” to allow access to supercomputing
+    systems. :cite:`dream` DREAM:Lab utilizes the "capabilities of
+    hundereds of personal computers" to allow access to supercomputing
     resources to average individuals. :cite:`rao` The DREAM:Lab
     pursues this goal by utilizing distributed computing. :cite:`rao`
     Distributed computing consists of independent computing resources
@@ -1249,21 +1249,21 @@ Application and Analytics
     different users or tables.Fusion Table uses two-layer storage,
     Bigtable and Magastore. The information rows are stored in bigdata
     table called *Rows*, user can merge the multiple table in to one,
-    from multiple users. “Megastore is a library on top of
-    bigtable”. :cite:`GoogleFusionTable2012` Data visualization is one
+    from multiple users. "Megastore is a library on top of
+    bigtable". :cite:`GoogleFusionTable2012` Data visualization is one
     the feature, where user can see the visual representation of their
     data as soon as they upload it. User can store the data along with
     geospatial information as well.
 
 66. CINET
 
-    A representation of connected entities such as “physical,
-    biological and social phenomena”:cite:`www-bi.vt.edu` predictive
+    A representation of connected entities such as "physical,
+    biological and social phenomena" :cite:`www-bi-vt-edu` predictive
     model. Network science has grown its importance understanding
     these phenomena Cyberinfrastructure is middleware tool helps study
-    Network science, :cite:`www-portal.futuresystems.org/projects/233`
-    “by providing unparalleled computational and analytic environment
-    for researcher”.
+    Network science, :cite:`www-portal-futuresystems-org-projects-233`
+    "by providing unparalleled computational and analytic environment
+    for researcher".
  
     Network science involves study of graph a large volume which
     requires high power computing which usually cant be achieve by
@@ -1273,8 +1273,8 @@ Application and Analytics
     infrastructure smartly suitable for submitted job.
      
     It provides structural and dynamic network analysis, has number of
-    algorithms for “network analysis such as shortest path, sub path,
-    motif counting, centrality and graph traversal”. CiNet has number
+    algorithms for "network analysis such as shortest path, sub path,
+    motif counting, centrality and graph traversal". CiNet has number
     of range of network visualization modules.  CiNet is actively
     being used by several universities, researchers and analysist.
 
@@ -1450,7 +1450,7 @@ Application and Analytics
     graphics in a web browser.It is written in javascript and uses
     WebGL, HTML5 or SVG. Users can animate HTML elements using CSS3 or
     even import models from 3D modelling apps
-    :cite:`www-three.js-wiki`. In order to display anything using
+    :cite:`www-threejs-wiki`. In order to display anything using
     three.js we need three basic features, which are scene, camera and
     renderer. This will result in rendering the scene with a
     camera. In addition to these three features , we can add
@@ -1474,12 +1474,12 @@ Application and Analytics
     
 77. DC.js
 
-    According to :cite:`www-dcjs`: “DC.js is a javascript charting
+    According to :cite:`www-dcjs`: "DC.js is a javascript charting
     library with native crossfilter support, allowing exploration on
     large multi-dimensional datasets. It uses d3 to render charts in
     CSS-friendly SVG format. Charts rendered using dc.js are data
     driven and reactive and therefore provide instant feedback to user
-    interaction.” DC.js library can be used to perform data anlysis
+    interaction." DC.js library can be used to perform data anlysis
     on both mobile devices and different browsers. Under the dc
     namespace the following chart classes are included: barChart,
     boxplot, bubbleChart, bubbleOverlay, compositeChart, dataCount,
@@ -1561,7 +1561,7 @@ Application Hosting Frameworks
     AppScale is an application hosting platform. This platform helps
     to deploy and scale the unmodified Google App Engine application,
     which run the application on any cloud infrastructure in public,
-    private and on premise cluster. :cite:`www-AppScale` AppScale
+    private and on premise cluster. :cite:`www-appscale` AppScale
     provide rapid, API development platform that can run on any cloud
     infrastructure. The platform separates the app logic and its
     service part to have control over application deployment, data
@@ -1570,12 +1570,12 @@ Application Hosting Frameworks
     Java applications. It supports single and multimode deployment,
     which will help with large, dataset or CPU. AppScale allows to
     deploy app in thee main mode i.e. dev/test, production and
-    customize deployment.  :cite:`www-apscale-deployment`
+    customize deployment.  :cite:`www-appscale-deployment`
 
 82. Red Hat OpenShift
 
     OpenShift was launched as a PaaS (Platform as a
-    Service) by Red Hat in the Red Hat Summit, 2011 :cite:`www-paas`.
+    Service) by Red Hat in the Red Hat Summit, 2011 :cite:`www-paas-openshift`.
     It is a cloud application development and hosting platform that 
     envisages shifting of the developer's focus to development by 
     automating the management and scaling of applications 
@@ -1590,7 +1590,7 @@ Application Hosting Frameworks
 
     OpenShift is powered by Origin, which is in turn built using 
     Docker container packaging and Kubernetes container cluster 
-    :cite:`openshift-blog`.  Due to this, OpenShift offers a lot of
+    :cite:`www-openshift-blog`.  Due to this, OpenShift offers a lot of
     options, including online, on-premise and open source project
     options.
     
@@ -1630,11 +1630,11 @@ Application Hosting Frameworks
     AWS Elastic Beanstalk is an orchestration service offered from
     Amazon Web Services which provides user with a platform for easy
     and quick deployment of their WebApps and services
-    :cite:`www-amazon elastic beanstalk`. Amazon Elastic BeanStack
+    :cite:`www-amazon-elastic-beanstalk`. Amazon Elastic BeanStack
     automatically handles the deployment details of capacity
     provisioning by Amazon Cloud Watch, Elastic Load Balancing,
     Auto-scaling, and application health monitoring of the WebApps and
-    service :cite:`amazon elastic beanstalk-book`. AWS Management
+    service :cite:`amazon-elastic-beanstalk-book`. AWS Management
     Console allows the users to configure an automatic scaling
     mechanism of AWS Elastic Beanstalk. Elastic Load Balancing enables
     a load balancer, which automatically spreads the load across all
@@ -1652,7 +1652,7 @@ Application Hosting Frameworks
     and the Windows Server 2012 R2 AMI. Both AMIs are supported and
     maintained by Amazon Web Services and are designed to provide a
     stable, secure, and high-performance execution environment for
-    Amazon EC2 Cloud computing":cite:`www-amazon elastic beanstalk`.
+    Amazon EC2 Cloud computing":cite:`www-amazon-elastic-beanstalk`.
 
 86. Azure
 
@@ -1759,8 +1759,8 @@ Application Hosting Frameworks
     
 93. appfog
 
-    According to :cite:`wee`, “AppFog is a platform as a service (PaaS)
-    provider.” Platform as a service provides a platform for the
+    According to :cite:`wee`, "AppFog is a platform as a service (PaaS)
+    provider." Platform as a service provides a platform for the
     development of web applications without the necessity of
     purchasing the software and infrastructure that supports
     it. :cite:`kepes` PaaS provides an environment for the creation of
@@ -1889,7 +1889,7 @@ Application Hosting Frameworks
 
      Atmosphere is developed by CyVerse (previously named as iPlant
      Collaborative).  It is a cloud-computing platform. It allows one
-     to launch his own “isolated virtual machine (VM) image
+     to launch his own "isolated virtual machine (VM) image
      :cite:`www-at1`.  It does not require any machine
      specification. It can be run on any device
      (tablet/desktop/laptop) and any machine(Linux/Windows/Max/Unix).
@@ -1946,7 +1946,7 @@ High level Programming
      map reduce jobs which are then executed by Hadoop.  Hive also
      contains Metastore which includes schemas and statistics which is
      useful in query compilation, optimization and data exploration
-     :cite:`hive`
+     :cite:`www-hive`
 
 106. HCatalog
 107. Tajo
@@ -2145,12 +2145,12 @@ High level Programming
      
 114. PolyBase
 
-     “PolyBase is a technology that accesses and combines both non-relational
+     "PolyBase is a technology that accesses and combines both non-relational
      and relational data, all from within SQL Server. It allows you to run 
      queries on external data in Hadoop or Azure Blob storage acts 
      mediator between SQL and non SQL data store it makes the analysis 
      of the relation data and other data that is non structure to 
-     tables (Hadoop).”`:cite:www-polybase` Unless there is a way to 
+     tables (Hadoop)."`:cite:www-polybase` Unless there is a way to 
      transfer data between the data stores it is always difficult to do so. 
      PolyBase bridges this gap by operating on data that is external 
      to SQL server. It don’t require additional software, querying to 
@@ -2161,9 +2161,9 @@ High level Programming
      It can query data store in Hadoop using T-SQL, polybase also makes 
      it easy to access the Azure blob data using T-SQL. There is no 
      need for a separate ETL or import tool while importing data 
-     from Hadoop, “Azure blob storage or Azure Data Lake into relational 
+     from Hadoop, "Azure blob storage or Azure Data Lake into relational 
      tables. It leverages Microsoft’s Columnstore technology and analysis 
-     capabilities while importing”`:cite:www-polybase`. It also archives 
+     capabilities while importing"`:cite:www-polybase`. It also archives 
      data into Hadoop Azure blob and data lake store in cost effective way. 
 
      Push computation to Hadoop. The query optimizer makes a cost-based 
@@ -2573,8 +2573,8 @@ Streams
      as an analytics layer :cite:`www-linkedinquora`. LinkedIn
      partitioned the user’s data into separate DB’s stored it in XML
      format. Voldemort is a key lookup system used to store the
-     analytically-derived data for the products like “People You
-     May Know”. Voldemort stores the data in key-value form
+     analytically-derived data for the products like "People You
+     May Know". Voldemort stores the data in key-value form
      :cite:`www-linkedinquora`. LinkedIn has exposed REST
      API to get the user data :cite:`www-linkedindevelopers`.
 
@@ -2623,7 +2623,7 @@ Streams
      facebook comprises of hundreds of systems distributed across
      multiple data centers that needs a continiuous monitoring to
      track their health and performance which is done by Operational
-     Data Store(ODS) :cite:`facebook-paper-2017`. ODS comprises of a
+     Data Store(ODS) :cite:`facebook-paper-2016`. ODS comprises of a
      time series database (TSDB), which is a query service, and a
      detection and alerting system. ODS’s TSDB is built atop the HBase
      storage system. Time series data from services running on
@@ -2819,17 +2819,17 @@ Basic Programming model and runtime, SPMD, MapReduce
 
      a. Disco from discoproject.org represents an implementation of
      mapreduce for distributed computing that benefits end users by
-     relieving them of the need to handle “difficult technicalities
+     relieving them of the need to handle "difficult technicalities
      related to distribution such as communication protocols, load
-     balancing, locking, job scheduling, and fault tolerance.”
+     balancing, locking, job scheduling, and fault tolerance."
      :cite:`www-whatis-discoproject` Its designers wrote the software
      in Erlang, an inherently fault tolerant language. In addition,
      Disco’s creators chose Erlang because they believe it best meets
-     the software’s need to handle “tens of thousands of tasks in
-     parallel.” :cite:`www-erlangprime-discoproject` Python was used
-     for Disco’s libraries. Finally, Disco supports pipelines, “a
+     the software’s need to handle "tens of thousands of tasks in
+     parallel." :cite:`www-erlangprime-discoproject` Python was used
+     for Disco’s libraries. Finally, Disco supports pipelines, "a
      linear sequence of stages, where the outputs of each stage are
-     grouped into the input of the subsequent stage.”
+     grouped into the input of the subsequent stage."
      :cite:`www-clarridge-discoproject` Its designers implemented
      Disco’s libraries in Python. Disco originated within Nokia
      Corp. to handle large data sets.  Since then it has proven itself
@@ -2837,8 +2837,8 @@ Basic Programming model and runtime, SPMD, MapReduce
      Nokia. :cite:`www-nokia-discoproject`
 
      b. DISCO from the research group Service Engineering (SE),
-     :cite:`www-discoabout-discoabstractionlayer` serves as “an
-     abstraction layer for OpenStack‘s orchestration component [Heat]”
+     :cite:`www-discoabout-discoabstractionlayer` serves as "an
+     abstraction layer for OpenStack‘s orchestration component [Heat]"
      SE based DISCO on its prior orchestration framework, Hurtle. The
      software sets up a computer cluster and deploys the user’s choice
      of distributed computing architecture onto the cluster based on
@@ -2917,12 +2917,12 @@ Basic Programming model and runtime, SPMD, MapReduce
      
      Galois system was built by intelligent software systems team at
      University of Texas, Austin. As explained in
-     :cite:`www-galoisSite`, “Galois is a system that automatically
+     :cite:`www-galoisSite`, "Galois is a system that automatically
      executes 'Galoized' serial C++ or Java code in parallel on
      shared-memory machines. It works by exploiting amorphous
      data-parallelism, which is present even in irregular codes that
      are organized around pointer-based data structures such as graphs
-     and trees”. By using Galois provided data structures programmers
+     and trees". By using Galois provided data structures programmers
      can write serial programs that gives the performance of parallel
      execution. Galois employs annotations at loop levels to
      understand correct context during concurrent execution and
@@ -3009,15 +3009,15 @@ Inter process communication Collectives
      Based on :cite:`www-hpx-5`, High Performance ParallelX (HPX-5)
      is an open source, distributed model that provides opportunity
      for operations to run unmodified on one-to-many nodes. The
-     dynamic nature of the model accommodates effective “computing
-     resource management and task scheduling”. It is portable and
+     dynamic nature of the model accommodates effective "computing
+     resource management and task scheduling". It is portable and
      performance-oriented. HPX-5 was developed by IU Center for
      Research in Extreme Scale Technologies (CREST). Concurrency is
      provided by lightweight control object (LCO) synchronization and
      asynchronous remote procedure calls. ParallelX component allows
      for termination detection and supplies per-process
-     collectives. It “addresses the challenges of starvation, latency,
-     overhead, waiting, energy and reliability”. Finally, it supports
+     collectives. It "addresses the challenges of starvation, latency,
+     overhead, waiting, energy and reliability". Finally, it supports
      OpenCL to use distributed GPU and coprocessors. HPX-5 could be
      compiled on various OS platforms , however it was only tested on
      several Linux and Darwin (10.11) platforms. Required
@@ -3091,8 +3091,8 @@ Inter process communication Collectives
 
      RabbitMQ is a message broker :cite:`www-rabbitmq` which allows
      services to exchange messages in a fault tolerant manner. It
-     provides variety of features which “enables software applications
-     to connect and scale”. Features are: reliability, flexible
+     provides variety of features which "enables software applications
+     to connect and scale". Features are: reliability, flexible
      routing, clustering, federation, highly available queues,
      multi-protocol, many clients, management UI, tracing, plugin
      system, commercial support, large community and user
@@ -3125,12 +3125,12 @@ Inter process communication Collectives
 
         RabbitMQ is based on AMPQ :cite:`ampq-article` (Advanced
         Message Queuing Protocol) messaging model. AMPQ is described
-        as follows “messages are published to exchanges, which are
+        as follows "messages are published to exchanges, which are
         often compared to post offices or mailboxes. Exchanges then
         distribute message copies to queues using rules called
         bindings. Then AMQP brokers either deliver messages to
         consumers subscribed to queues, or consumers fetch/pull
-        messages from queues on demand”
+        messages from queues on demand"
 
 169. NaradaBrokering
 
@@ -3573,14 +3573,14 @@ In-memory databases/caches
      individual hardware thread to scale, k-safety (synchronous
      replication) to provide high availability, and a combination of
      continuous snapshots and command logging for durability (crash
-     recovery) :cite:`voltdb-www`. The in-memory, scale-out
+     recovery) :cite:`www-voltdb`. The in-memory, scale-out
      architecture couples the speed of traditional streaming solutions
      with the consistency of an operational database. This gives a
      simplified technology stack that delivers low-latency response
      times (1ms) and hundreds of thousands of transactions per
      second. VoltDB allows users to ingest data, analyze data, and act
      on data in milliseconds, allowing users to create per-person,
-     real-time experiences :cite:`voltdb-wiki`.
+     real-time experiences :cite:`www-voltdb`.
 
 191. H-Store
 
@@ -3629,7 +3629,7 @@ Object-relational mapping
      time in comparison to JDBC.  But it is slower at runtime as it
      generates many SQL statements at runtime. It is database
      independent. For batch processing it is advisable to use JDBC
-     over Hibernate :cite:`hibernate`
+     over Hibernate :cite:`www-hibernate`
 
 193. OpenJPA
 
@@ -4175,8 +4175,8 @@ NoSQL
 
 223. ZHT
 
-     According to :cite:`datasys`, “ZHT is a zero-hop distributed hash
-     table.” Distributed hash tables effectively break a hash table up
+     According to :cite:`datasys`, "ZHT is a zero-hop distributed hash
+     table." Distributed hash tables effectively break a hash table up
      and assign different nodes responsibility for managing different
      pieces of the larger hash table. :cite:`wiley` To retrieve a
      value in a distributed hash table, one needs to find the node
@@ -4185,9 +4185,9 @@ NoSQL
      the distributed hash table has a reference to the closest two
      nodes in the node list. :cite:`wiley` In a ZHT, however, every
      node contains information concerning the location of every other
-     node. :cite:`Li` Through this approach, ZHT aims to provide “high
+     node. :cite:`Li` Through this approach, ZHT aims to provide "high
      availability, good fault tolerance, high throughput, and low
-     latencies, at extreme scales of millions of nodes.” :cite:`Li`
+     latencies, at extreme scales of millions of nodes." :cite:`Li`
      Some of the defining characteristics of ZHT are that it is
      light-weight, allows nodes to join and leave dynamically, and
      utilizes replication to obtain fault tolerance among
@@ -4544,8 +4544,8 @@ NoSQL
 
 240. RYA
 
-     Rya is a “scalable system for storing and retrieving RDF data in
-     a cluster of nodes.” :cite:`Punnoose` RDF stands for Resource
+     Rya is a "scalable system for storing and retrieving RDF data in
+     a cluster of nodes." :cite:`Punnoose` RDF stands for Resource
      Description Framework. :cite:`Punnoose` RDF is a model that
      facilitates the exchange of data on a network. :cite:`w3` RDF
      utilizes a form commonly referred to as a triple, an object that
@@ -4632,15 +4632,15 @@ NoSQL
 
 245. AllegroGraph
      
-     “AllegroGraph is a database technology that enables businesses to
+     "AllegroGraph is a database technology that enables businesses to
      extract sophisticated decision insights and predictive analytics
      from their highly complex, distributed data that can’t be
      answered with conventional databases, i.e., it turns complex data
-     into actionable business insights.” :cite:`www-Allegro` It can be
+     into actionable business insights." :cite:`www-Allegro` It can be
      viewed as a closed source database that is used for storage and
      retrieval of data in the form of triples (triple is a data entity
-     composed of subject-predicate-object like “Professor teaches
-     students”).  Information in a triplestore is retrieved using a
+     composed of subject-predicate-object like "Professor teaches
+     students").  Information in a triplestore is retrieved using a
      query language. Query languages can be classified into database
      query languages or information retrieval query languages. The
      difference is that a database query language gives exact answers
@@ -4648,8 +4648,8 @@ NoSQL
      finds documents containing requested information.  Triple
      format represents information in a machine-readable format.
      Every part of the triple is individually addressable via
-     unique URLs — for example, the statement “Professor teaches
-     students” might be represented in RDF(Resource Description
+     unique URLs — for example, the statement "Professor teaches
+     students" might be represented in RDF(Resource Description
      Framework ) as  http://example.name#Professor12
      http://xmlns.com/foaf/0.1/teacheshttp:
      //example.name#students. Using this representation, semantic data
@@ -4941,7 +4941,7 @@ File management
      of the row. Storing the data in this format enables RCFile to
      accomplish fast loading and query processing.A shell utility is
      available for reading RCFile data and metadata
-     :cite:`www-rcfile`. According to :cite:`he2011rcfile`, RCFile has
+     :cite:`www-rcfile-cat`. According to :cite:`he2011rcfile`, RCFile has
      been chosen in Facebook data warehouse system as the default
      option. It has also been adopted by Hive and Pig, the two most
      widely used data analysis systems developed in Facebook and
@@ -5067,7 +5067,7 @@ Data Transport
 
      Flume is distributed, reliable and available service for
      efficiently collecting, aggregating and moving large amounts of
-     log data :cite:`apche-flume`. Flume was created to allow you to
+     log data :cite:`apache-flume`. Flume was created to allow you to
      flow data from a source into your Hadoop® environment.  In Flume,
      the entities you work with are called sources, decorators, and
      sinks. A source can be any data source, and Flume has many
@@ -5151,8 +5151,8 @@ Cluster Resource Management
      management project :cite:`www-cloudera` . It’s a resource
      management technology which make a pace between, the way
      applications use Hadoop system resources & node manager
-     agents. Yarn, “split up the functionalities of resource
-     management and job scheduling/monitoring”. The NodeManager watch
+     agents. Yarn, "split up the functionalities of resource
+     management and job scheduling/monitoring". The NodeManager watch
      the resource (cpu, memory, disk,network) usage the container and
      report the same to ResourceManager. Resource manager will take a
      decision on allocation of resources to the
@@ -5424,7 +5424,7 @@ File systems
      internet of Things, aim to standardise the semantic data model
      generated from smart devices, homes, factories etc.  It include
      automation, control, energy, HVAC, lighting and other
-     environmental systems.  :cite:`www-project-haystack.org`
+     environmental systems.  :cite:`www-project-haystack`
      
      Building block of Project haystack is on TagModel tagging of
      metadata stored in key/value pair applied to entity such id, dis,
@@ -5667,10 +5667,10 @@ File systems
      storage. To have high availability and performance among
      different regions in the geo-redundant storage offering. If you
      want high availability and redundancy with a single region one
-     can go for “Regional” storage. Nearline and Coldline’ are the
-     different archival storage techniques. “Nearline” storage
+     can go for "Regional" storage. Nearline and Coldline’ are the
+     different archival storage techniques. "Nearline" storage
      offering is for the archived data which the user access less than
-     once a month . “Coldline’ storage is the storage which is used
+     once a month . "Coldline’ storage is the storage which is used
      for the data which is touched less than once a year.
 
      All the data in Google Cloud storage belongs inside a project. A
@@ -5768,7 +5768,7 @@ Interoperability
 
      The Open Cloud Computing Interface (OCCI) is a RESTful
      Protocol and API that provides specifications  and remote
-     management for the development of “interoperable tools”
+     management for the development of "interoperable tools"
      :cite:`www-occi`. It supports IaaS, PaaS and SaaS and
      focuses on integration, portability, interoperability,
      innovation and extensibility. It provides a set of documents
@@ -5795,8 +5795,8 @@ Interoperability
 
      The OCCI Protocol defines the common set of names provided
      for the IaaS cloud services user that specify requested
-     system requirements. It is often denoted as “resource
-     templates” or “flavours”   :cite:`drescher-parak-wallom-2015`.
+     system requirements. It is often denoted as "resource
+     templates" or "flavours"   :cite:`drescher-parak-wallom-2015`.
 
      OCCI RESTful HTTP Protocol describes communications between
      server and client on OCCI platform via HTTP protocol
@@ -5874,9 +5874,9 @@ Interoperability
      changes. SAGA provides this high level interface which has the
      underlying mechanisms and adapters to make the appropriate calls
      in an intelligent fashion so that it can work on any underlying
-     grid system. “SAGA was built to provide a standardized, common
+     grid system. "SAGA was built to provide a standardized, common
      interface across various grid middleware systems and their
-     versions” :cite:`www-saga-ogf-document`.
+     versions" :cite:`www-saga-ogf-document`.
 
      As SAGA is to be implemented on different types of middleware it
      does not specify a single security model but provides hooks to
@@ -6321,7 +6321,7 @@ DevOps
      provided by such cloud will gets incompatible with others. So,
      to providing the solution which can compatible with multi-cloud
      platform is a tedious job. To achieve this CloudML provides a
-     “domain-specific modelling language along with run time environment”
+     "domain-specific modelling language along with run time environment"
      :cite:`www-cloudml`.It provides the interoperability and provide
      vendor lock-in, also it provides the solution on specification of
      provisioning, deployment, and adaptation concerns of multi-cloud
@@ -6584,9 +6584,9 @@ IaaS Management from HPC to hypervisors
 
      Linux-VServers are used on web hosting services, pooling
      resources and containing any security
-     breach. :cite:`www.linux-vserver.org/Paper` “Linux servers
+     breach. :cite:`www-linux-vserver-org` "Linux servers
      consist of three building blocks Hardware, Kernel and
-     Applications” the purpose of kernel is to provide abstraction
+     Applications" the purpose of kernel is to provide abstraction
      layer between hardware and application. Linux-Vserver provides
      VPS securely partitioning the resources on computer system in
      such a way that process cannot mount denial of service out of the
@@ -6622,7 +6622,7 @@ IaaS Management from HPC to hypervisors
      components include: Cinder, Horizon, Keystone, Glance, Ceilometer and 
      Heat. The main goal of Openstack is to allow business to build 
      Amazon-like cloud services in their own data centers.OpenStack is 
-     licensed under the Apache 2.0 license :cite:`Apache-License` 
+     licensed under the Apache 2.0 license :cite:`www-apache-license` 
 	
 348. OpenNebula
 
@@ -6647,8 +6647,8 @@ IaaS Management from HPC to hypervisors
      (IaaS). IaaS are systems that give users the ability to run and
      control entire virtual machine instances deployed across a
      variety physical resources :cite:`paper-eucalyptus`. Eucalyptus
-     is an acronym for “Elastic Utility Computing Architecture for
-     Linking Your Programs to Useful Systems.”
+     is an acronym for "Elastic Utility Computing Architecture for
+     Linking Your Programs to Useful Systems."
 
      A Eucalyptus private cloud is deployed on an enterprise’s data
      center infrastructure and is accessed by users over the
@@ -6696,8 +6696,8 @@ IaaS Management from HPC to hypervisors
 	  
 352. CoreOS
      
-     :cite:`www-core` states that “CoreOS is a linux operating system
-     used for clustered deployments.” CoreOS allows applications to
+     :cite:`www-core` states that "CoreOS is a linux operating system
+     used for clustered deployments." CoreOS allows applications to
      run on containers. CoreOS can be run on clouds, virtual or
      physical servers. CoreOS allows the ability for automatic software
      updates inorder to make sure containers in cluster are secure and
@@ -6738,7 +6738,7 @@ IaaS Management from HPC to hypervisors
      abbreviation of Elastic Sky X. ESXi installs directly onto your
      physical server enabling it to be partitioned into multiple
      logical servers referred to as virtual machines.  Management of
-     VMware ESXi is done via APIs. This allows for an “agent-less”
+     VMware ESXi is done via APIs. This allows for an "agent-less"
      approach to hardware monitoring and system management. VMware
      also provides remote command lines, such as the vSphere Command
      Line Interface (vCLI) and PowerCLI, to provide command and
@@ -6838,11 +6838,11 @@ IaaS Management from HPC to hypervisors
      records for same DNS name. The resource record sets collection
      holds current state of the DNS that make up managed zones it is
      unmodifiable or cannot be modified easily and changes to record
-     sets. It supports “A” address records, “AAAA” IPv6, “CAA”
-     Certificate authority, “CNAME” canonical name, “MX” mail
-     exchange, “NAPTR” naming authority pointer, “NS” Name server
-     record, “SOA” start of authority, “SPF” Sender policy framework,
-     “SRV” service locator, “TXT” text record.
+     sets. It supports "A" address records, "AAAA" IPv6, "CAA"
+     Certificate authority, "CNAME" canonical name, "MX" mail
+     exchange, "NAPTR" naming authority pointer, "NS" Name server
+     record, "SOA" start of authority, "SPF" Sender policy framework,
+     "SRV" service locator, "TXT" text record.
 
 360. Amazon Route 53
 
@@ -6856,8 +6856,8 @@ IaaS Management from HPC to hypervisors
      always goes to the closest server location to reduce query
      latency. The Route 53 server returns the IP address enabling the
      browser to load the website or application. Route 53 can also be
-     used for registering domain names and arranging DNS “health
-     checks” to monitor the server :cite:`www-amar53`.
+     used for registering domain names and arranging DNS "health
+     checks" to monitor the server :cite:`www-amar53`.
 
 Cross-Cutting Functions
 -----------------------
@@ -7450,7 +7450,7 @@ New Technologies (To Be Integrated by the AIs)
      transactions. Omid employs a lock free approach from concurrency 
      and can scale beyond 100,000 transactions per second. At Yahoo,
      millions of transactions per day are processed by Omid.
-     :cite:`www-www-yahooomid`. 
+     :cite:`www-yahooomid`. 
 
      Omid is currently in the Apache Incubator.  All projects accepted 
      by the Apache Software Foundation (ASF) undergo an incubation 
@@ -7533,8 +7533,8 @@ New Technologies (To Be Integrated by the AIs)
 
 394. Apache Apex
      
-     Apache Apex is “a YARN(Hadoop 2.0)-native platform that unifies
-     cloud and batch processing” :cite:`www-apacheapexwiki`.This
+     Apache Apex is "a YARN(Hadoop 2.0)-native platform that unifies
+     cloud and batch processing" :cite:`www-apacheapexwiki`.This
      project was developed under Apache License 2.0 and was driven by
      Data Torrent. It can be used for processing both streams of data
      and static files making it more relevant in the context of
@@ -7556,23 +7556,23 @@ New Technologies (To Be Integrated by the AIs)
 
      Apache Knox
 
-     According to :cite:'knox', “the Apache Knox Gateway is a REST API
-     Gateway for interacting with Apache Hadoop clusters.” REST stands
+     According to :cite:'knox', "the Apache Knox Gateway is a REST API
+     Gateway for interacting with Apache Hadoop clusters." REST stands
      for Representational State Transfer and is web architectural
      style designed for distributed hypermedia systems and defines a
      set of constraints. :cite:'fielding' API Gateways manage concerns
-     related to “Authentication, Transport Security, Load-balancing,
+     related to "Authentication, Transport Security, Load-balancing,
      Request Dispatching (including fault tolerance and service
-     discovery), Depenency Resolution, Transport Transformations.”
+     discovery), Depenency Resolution, Transport Transformations."
      :cite:'peyrott' Although every Apache Hadoop cluster has its own
-     set of REST APIs, Knox will represent all of them as “a single
-     cluster specific application context path.” :cite:'knox' Knox
+     set of REST APIs, Knox will represent all of them as "a single
+     cluster specific application context path." :cite:'knox' Knox
      protects Apache Hadoop clusters, by way of its gateway function,
-     by aiding “the control, integration, monitoring and automation of
-     critical administrative and analytical needs.” :cite:'knox' Some
-     Apache Hadoop Services that integrate with Knox are, “Ambari,
+     by aiding "the control, integration, monitoring and automation of
+     critical administrative and analytical needs." :cite:'knox' Some
+     Apache Hadoop Services that integrate with Knox are, "Ambari,
      WebHDFS (HDFS), Templeton (Hcatalog), Stargate (Hbase), Oozie,
-     Hive/JDBC, Yarn RM, [and] Storm.”  :cite:'knox' Apache Knox has a
+     Hive/JDBC, Yarn RM, [and] Storm."  :cite:'knox' Apache Knox has a
      configuration driven method to aid in the addition of new routing
      services. :cite:'knox' This allows support for new and custom
      Apache Hadoop REST APIs to be added to the Knox gateway quickly
