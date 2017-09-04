@@ -76,6 +76,8 @@ Please, do not work on gh-pages or try to create a merge from gh-pages into mast
 Known External Repositores
 ============================
 
+These are older repositories:
+
 - `fall-2016`_: ``git@gitlab.com:cloudmesh/fall2016.git``
 - `spring-2016`_: ``git@github.com:cglmoocs/bdossspring2016.git``
 
