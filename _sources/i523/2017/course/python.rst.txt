@@ -1,3 +1,5 @@
+:orphan:
+
 .. _S5:
 
 OUTDATED: Technology Training - Python & FutureSystems
