@@ -30,7 +30,7 @@ signal and various background and with various event totals. The
 lectures use Python but use of Java is described.
 
 
-.. todo:: The slides or videos are going to be updated
+.. todo:: Garace, The slides or videos are going to be updated
 
           Slides: https://iu.app.box.com/s/6uz4ofnnd9usv75cab71
 
@@ -44,7 +44,7 @@ that particles often manifested as bumps in histograms and those bumps
 need to be large enough to stand out from background in a
 statistically significant fashion.
 
-.. todo:: The slides or videos are going to be updated
+.. todo:: Grace, The slides or videos are going to be updated
 
           Video: http://youtu.be/VQAupoFUWTg
 
@@ -100,8 +100,13 @@ This unit is devoted to Python experiments looking at
 histograms of Higgs Boson production with various forms of shape of
 signal and various background and with various event totals.
 
+.. adobe presnter source, found in box in folder ....
+   
+.. adobe presnter source, found in googledocs in folder ....
 
-.. todo:: The slides or videos are going to be updated
+.. adobe presenter, no where found, ask sidd and wiggum
+   
+.. todo:: Grace, The slides or videos are going to be updated
 
           Slides: https://iu.app.box.com/s/77iw9brrugz2pjoq6fw1
 
@@ -120,7 +125,7 @@ We discuss how this unit uses Java and Python on both a backend server
 (FutureGrid) or a local client. WE point out useful book on Python for
 data analysis. This builds on technology training in Section 3.
 
-.. todo:: The slides or videos are going to be updated
+.. todo:: Grace, The slides or videos are going to be updated
 
           Video: http://youtu.be/tOFJEUM-Vww
 
@@ -183,7 +188,7 @@ unit.
 
 
 
-.. todo:: The slides or videos are going to be updated
+.. todo:: Grace, The slides or videos are going to be updated
 
    Slides: https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y
 
@@ -196,7 +201,7 @@ Statistics Overview and Fundamental Idea: Random Variables
 We go through the many different areas of statistics covered in the
 Physics unit. We define the statistics concept of a random variable.
 
-.. todo:: The slides or videos are going to be updated
+.. todo:: Grace, The slides or videos are going to be updated
 
           Video: http://youtu.be/0oZzALLzYBM
 
@@ -267,7 +272,7 @@ Bayes law concludes discussion. Python and Java (for student - not
 reviewed in class) examples and Physics applications are given.
 
 
-.. todo:: The slides or videos are going to be updated
+.. todo:: Grace, The slides or videos are going to be updated
 
           Slides: https://iu.app.box.com/s/me7738igixwzc9h9qwe1
 
@@ -283,7 +288,7 @@ We define random numbers and describe how to generate them on the
 computer giving Python examples. We define the seed used to define to
 specify how to start generation.
 
-.. todo:: The slides or videos are going to be updated
+.. todo:: Grace, The slides or videos are going to be updated
 
           Video: http://youtu.be/76jbRphjRWo
 
