@@ -1779,10 +1779,6 @@ otherwise stated.
 .. _Learn Python: https://www.learnpython.org
 
 
-.. _lab-python-1:
-.. _lab-python-2:
-
-.. _e-python:
 
 Jupyter Notebook Tutorials
 --------------------------
@@ -1792,6 +1788,12 @@ To view the notebook, open this link in a background tab <https://nbviewer.jupyt
 and copy and paste the following link in the URL input area
 <https://cloudmesh.github.io/classes/lesson/prg/Jupyter-NumPy-tutorial-I523-F2017.ipynb>
 Then hit Go!
+
+
+.. _lab-python-1:
+.. _lab-python-2:
+
+.. _e-python:
 
 Exercises
 ---------
