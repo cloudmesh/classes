@@ -4,6 +4,7 @@ sphinx_rtd_theme
 sphinxcontrib-bibtex
 foundation-sphinx-theme
 sphinx_bootstrap_theme
+sphinxcontrib-exceltable
 sphinxcontrib-fulltoc
 sphinx-prompt
 pybtex
