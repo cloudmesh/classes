@@ -290,9 +290,13 @@ You can set the global python default version with::
 
    $ pyenv global 2.7.13
 
-Type the following to determine which versions you have available::
+Type the following to determine which version you activated::
 
    $ pyenv version
+
+Type the following to determine which versions you have available::
+
+   $ pyenv versions
 
 Associate a specific environment name with a certain python version,
 use the following commands::
@@ -1773,6 +1777,17 @@ otherwise stated.
 .. _Tutorials Point: http://www.tutorialspoint.com/python/
 .. _references for learning: https://wiki.python.org/moin/BeginnersGuide/Programmers
 .. _Learn Python: https://www.learnpython.org
+
+
+
+Jupyter Notebook Tutorials
+--------------------------
+
+A Short Introduction to Jupyter Notebooks and NumPy 
+To view the notebook, open this link in a background tab <https://nbviewer.jupyter.org/>
+and copy and paste the following link in the URL input area
+<https://cloudmesh.github.io/classes/lesson/prg/Jupyter-NumPy-tutorial-I523-F2017.ipynb>
+Then hit Go!
 
 
 .. _lab-python-1:

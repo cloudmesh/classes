@@ -308,7 +308,7 @@ registrar.
 
 * 09:30A-10:45A  Friday I523/I423/E534 other residential,  I2 150
 
-We like to move the Monday class to Friday
+The Monday class has been moved to Friday
   
 
 Office Hours
@@ -322,9 +322,15 @@ Residential Students:
     have been answered by online students.
 
 Online Studenst:
-    A doodle poll will be provided allowing for 2-3 online meetings
-    per week at different times.
+   Using a doodle poll from the online students, we have identified the 
+   following times for the online meetings:
+   * Mon 6-7pm (Gregor, Juliette)
+   * Mon 7-8 pm (Gregor, Juliette)
+   * Fri 4-5pm (Miao, Saber)
+   * Sat 10-11am (Grace, Miao)
+   * Additional meeting times to be determined
 
-    Please use the following doodle to identify times:
+   The link for joining the meeting on Zoom is https://iu.zoom.us/j/235405252
+   For more up-to-date details, refer to Piazza.
 
-    * https://doodle.com/poll/gym73n8cy789vmw5
+

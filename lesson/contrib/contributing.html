@@ -228,7 +228,8 @@
 <li><a class="reference internal" href="#">1.5. Contributing</a><ul>
 <li><a class="reference internal" href="#md-vs-rst">1.5.1. MD vs. RST</a></li>
 <li><a class="reference internal" href="#using-github">1.5.2. Using GitHub</a></li>
-<li><a class="reference internal" href="#exercise">1.5.3. Exercise</a></li>
+<li><a class="reference internal" href="#adding-bibligraphic-references">1.5.3. Adding bibligraphic references</a></li>
+<li><a class="reference internal" href="#exercise">1.5.4. Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -420,7 +421,8 @@
 <li><a class="reference internal" href="#">1.5. Contributing</a><ul>
 <li><a class="reference internal" href="#md-vs-rst">1.5.1. MD vs. RST</a></li>
 <li><a class="reference internal" href="#using-github">1.5.2. Using GitHub</a></li>
-<li><a class="reference internal" href="#exercise">1.5.3. Exercise</a></li>
+<li><a class="reference internal" href="#adding-bibligraphic-references">1.5.3. Adding bibligraphic references</a></li>
+<li><a class="reference internal" href="#exercise">1.5.4. Exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -539,8 +541,44 @@ When you have verified that the changes are there, you can issue a pull request 
 your work to be integrated into the original repository by clicking the <em>Pull Request</em>
 field in the right hand corner beneath the topics.</p>
 </div>
+<div class="section" id="adding-bibligraphic-references">
+<h2>1.5.3. Adding bibligraphic references<a class="headerlink" href="#adding-bibligraphic-references" title="Permalink to this headline">¶</a></h2>
+<p>We use a single refrence file formated in <em>bibtex</em>. The file is
+located in docs/source/refs.bib. We use sphinx-bibtex to manage the
+refernces in rst pages. However, it has the disadvantage that we can
+only have on refrence section per bib file. In order to simplify
+management as we may cite the same refernces in differnt files it is
+not useful to develop a bib file for each rst file. INstead we
+developed the following pragmatic approach.</p>
+<p>Here is the process that we automatically apply in the <em>Makefile</em></p>
+<ul class="simple">
+<li>We identify all rst files that have the cite command in it.</li>
+<li>We copy the refs.bib file into the same directory as the originating
+rst file. Lets assume the file is called <em>filename.rst</em></li>
+<li>We than rename in the file for this directory to <em>filename-tmp.bib</em>
+indicating it is not checked into github</li>
+<li>In gitignore we have a rule that excludes them</li>
+</ul>
+<p>The only thing you have to do in order to use refernces is to make the
+index unique and to add a section such as the following to your
+document:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">References</span>
+<span class="o">----------</span>
+
+<span class="o">..</span> <span class="n">bibliography</span><span class="p">::</span> <span class="n">filename</span><span class="o">-</span><span class="n">tmp</span><span class="o">.</span><span class="n">bib</span>
+   <span class="p">:</span><span class="n">style</span><span class="p">:</span> <span class="n">unsrt</span>
+   <span class="p">:</span><span class="n">cited</span><span class="p">:</span>
+   <span class="p">:</span><span class="n">labelprefix</span><span class="p">:</span> <span class="n">filename</span>
+</pre></div>
+</div>
+<p>Please note the unique filename. To properly geberate the citations we
+remommend you use:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">clean</span><span class="p">;</span> <span class="n">make</span>
+</pre></div>
+</div>
+</div>
 <div class="section" id="exercise">
-<h2>1.5.3. Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<h2>1.5.4. Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
 <p>To do this assignment you need to learn about making small changes nd
 how to document them with <cite>gitchangelog</cite>:</p>
 <ul>

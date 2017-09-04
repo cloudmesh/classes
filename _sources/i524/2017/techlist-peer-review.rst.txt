@@ -96,3 +96,13 @@ Reviewers
    :header-rows: 1
    :widths: 70, 70
    :file: techlist-peer-review.csv
+
+
+References
+=========
+
+.. bibliography:: techlist-peer-review-tmp.bib
+   :labelprefix: peer
+   :style: unsrt
+   :cited:
+          
