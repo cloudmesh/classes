@@ -65,7 +65,7 @@ humble ranking has become such a dominant driver of the world's
 economy.
 
 
-.. todo:: The slides or videos are going to be updated  
+.. todo:: Saber, The slides or videos are going to be updated  
           
           Slides: https://iu.app.box.com/s/v2coa6mxql12iax4yc8f
 
@@ -79,7 +79,7 @@ people or perhaps collections of items to collections of people where
 items can be other people, products in a store, movies, jobs, events,
 web pages etc. We present this as "yet another optimization problem".
 
-.. todo:: The slides or videos are going to be updated 
+.. todo:: Saber, The slides or videos are going to be updated 
           
           Video: https://youtu.be/rymBt1kdyVU
 
@@ -135,7 +135,7 @@ Netflix Kaggle competition to improve its rating system. The analogy
 to maximizing click through rate is given and the objectives of
 optimization are given.
 
-.. todo:: The slides or videos are going to be updated 
+.. todo:: Saber, The slides or videos are going to be updated 
           
           Video 1: https://youtu.be/tXsU5RRAD-w
 
@@ -156,7 +156,7 @@ optimizing for a household rather than optimizing for individuals in
 household.
 
 
-.. todo:: The slides or videos are going to be updated  
+.. todo:: Saber, The slides or videos are going to be updated  
           
           Video: https://youtu.be/B8cjaOQ57LI
 
@@ -189,7 +189,7 @@ in user rankings to predict their interests, and the Pearson
 correlation, used to statistically quantify correlations between users
 viewed as points in a space of items.
 
-.. todo:: The slides or videos are going to be updated 
+.. todo:: Saber, The slides or videos are going to be updated 
           
           Slides: https://iu.app.box.com/s/pqa1xpk7g4jnr7k2xlbe
 
@@ -200,7 +200,7 @@ Recap and Examples of Recommender Systems
 We start with a quick recap of recommender systems from previous unit;
 what they are with brief examples.
 
-.. todo:: The slides or videos are going to be updated 
+.. todo:: Saber, The slides or videos are going to be updated 
           
           Video: https://youtu.be/dcdm5AfGZ64
 
@@ -231,7 +231,7 @@ stress that if though we have big data, the recommender data is
 sparse. We discuss the approach that involves both batch (offline) and
 on-line (real time) components.
 
-.. todo:: The slides or videos are going to be updated 
+.. todo:: Saber, The slides or videos are going to be updated 
           
           Video 1: https://youtu.be/FBn7HpGFNvg
 
@@ -280,7 +280,7 @@ the k Nearest Neighbors algorithm. General features like the curse of
 dimensionality in high dimensions are discussed.
 
 
-.. todo:: The slides or videos are going to be updated 
+.. todo:: Saber, The slides or videos are going to be updated 
           
           Slides: https://iu.app.box.com/s/fvrwds7zd65m79a7uur3
 
@@ -297,7 +297,7 @@ optimizations and how batch processing can help. We discuss different
 Likert ranking scales and issues with new items that do not have a
 significant number of rankings.
 
-.. todo:: The slides or videos are going to be updated 
+.. todo:: Saber, The slides or videos are going to be updated 
           
 
           Video 1: https://youtu.be/25sBgh3HwxY

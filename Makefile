@@ -20,6 +20,7 @@ doc: convert
 
 convert:
 	cd docs/source; ./convert.py
+	python bin/citations.py 
 
 all: doc pdf
 	echo done

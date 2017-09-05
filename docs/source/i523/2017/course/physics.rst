@@ -31,6 +31,7 @@ lectures use Python but use of Java is described.
 
 .. i523/public/videos/physics/lecture-8.pptx
 
+
 * Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsV3ZPNXlyWmhVeFE/view?usp=sharing>`_
 
 
@@ -106,7 +107,9 @@ signal and various background and with various event totals.
 
 .. adobe presenter, no where found, ask sidd and wiggum
    
+
 .. i523/public/videos/physics/lecture-9.pptx
+
 
 * Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsMURyUUYyUnJueGc/view?usp=sharing>`_
 
@@ -187,6 +190,7 @@ unit.
 
 
 .. i523/public/videos/physics/lecture-10.pptx
+
 
 * Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsN1FIdTBOQUx3VFE/view?usp=sharing>`_
 

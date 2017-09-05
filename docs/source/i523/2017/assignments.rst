@@ -43,7 +43,7 @@ How do you find the assignments?:
 
 Complete the above within the first week! 
 
-Week 2 (Not yet released)
+Week 2
 -------------------------
 
 This may take multiple weeks to complete for some of you:
@@ -56,6 +56,10 @@ Learn Python
 
 * EPython.1 :ref:`e-python`
 
+Paper 1 Topic
+Identify the topic for your individual paper 1 and post it on 
+Piazza: https://piazza.com/class/j5wll7vzylg25j?cid=158 .
+The paper will be due one month after we have approved your topic.
 
 Week 3 (Not yet released)
 -------------------------

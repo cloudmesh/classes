@@ -1,3 +1,5 @@
+:orphan:
+
 **Syllabus**
 
 .. warning:: This Syllabus will be updated throughout the semester.

@@ -1,3 +1,5 @@
+:orphan:
+
 Ansible Assignment
 ==================
 
