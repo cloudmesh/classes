@@ -245,11 +245,7 @@ identification and tracking from Wide Area Large Format Imagery (WALF)
 Imagery or Full Motion Video (FMV) - Persistent Surveillance and
 Intelligence Data Processing and Analysis.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/8hXG7dinhjg
-
-          * Video B: http://youtu.be/MplyAfmuxko
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoWlFReVRMUTEtekk/view?usp=sharing
 
 
 
