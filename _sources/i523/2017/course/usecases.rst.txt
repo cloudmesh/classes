@@ -105,9 +105,7 @@ Traffic Analysis, Healthcare, Health Information Exchange, Genetic
 Privacy, Pharma Clinical Trial Data Sharing, Cyber-security,
 Government, Military and Education.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/Gbk0LaWE3lM
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoX1FGSExzbUdYX3M/view?usp=sharing
 
 Technology Roadmap Subgroup
 """""""""""""""""""""""""""
@@ -127,11 +125,8 @@ analysis and document the findings; identify what possible barriers
 may delay or prevent adoption of Big Data; and document vision and
 recommendations.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/GCc9yfErmd0
-
-
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoSFRVaUlJWFBCME0/view?usp=sharing
+          
 Interfaces subgroup
 """""""""""""""""""
 
@@ -175,7 +170,7 @@ The Web cas of the presentation is given bellow, while you need to fast forward 
 You are welcome to view other presentations if you are interested. 
 
 
-Requirements and Use Case Subgroup Introduction I
+Requirements and Use Case Subgroup Introduction 
 """""""""""""""""""""""""""""""""""""""""""""""""
 
 
