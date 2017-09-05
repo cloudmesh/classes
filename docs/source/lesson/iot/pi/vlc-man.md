@@ -1,3 +1,5 @@
+:orphan:
+
 /Applications/VLC.app/Contents/MacOS/VLC
 
 >     Usage: vlc [options] [stream] ...

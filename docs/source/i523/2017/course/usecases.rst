@@ -27,11 +27,9 @@ Taxonomies Subgroup, Reference Architecture Subgroup, Security and
 Privacy Subgroup, Technology Roadmap Subgroup and the Requirements and
 Use Case Subgroup. The work of latter is continued in next two units.
 
-.. todo:: The slides or videos are going to be updated
 
-          Slides: https://iu.app.box.com/s/bgr7lyaz7uazcarangqd
-
-
+* Slides: https://drive.google.com/file/d/0B5plU-u0wqMobnI5UHlMT0F5Qmc/view?usp=sharing
+          
 Introduction to NIST Big Data Public Working Group (NBD-PWG) Process
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -219,11 +217,7 @@ parallelism and the high and low level computational structure. As
 each new classification topic is introduced we briefly discuss it but
 full discussion of topics is given in following unit.
 
-
-.. todo:: The slides or videos are going to be updated
-
-          * Slides: https://iu.app.box.com/s/cvki350s0a12o404a524
-
+* Slides: https://drive.google.com/file/d/0B5plU-u0wqMoRW03SVZBLVRkOGM/view?usp=sharing
 
 Government Use Cases
 """"""""""""""""""""
@@ -387,7 +381,7 @@ introduction to all categories and the further lessons give details of
 particular categories.
 
 
-* Slides: https://iu.app.box.com/s/azpn47brv4o46iij9xvb
+* Slides: https://drive.google.com/file/d/0B5plU-u0wqMocjc4S2N0bmUxME0/view?usp=sharing
 
 
 Summary of Use Case Classification I
