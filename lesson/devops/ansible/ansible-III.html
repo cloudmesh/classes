@@ -229,7 +229,7 @@
 <li><a class="reference internal" href="#ansible-galaxy-helloworld">Ansible Galaxy helloworld</a><ul>
 <li><a class="reference internal" href="#create-the-directory">create the directory</a></li>
 <li><a class="reference internal" href="#fill-in-information">fill in information</a></li>
-<li><a class="reference internal" href="#test-it-out">test it out</a></li>
+<li><a class="reference internal" href="#test-it-out">Test it out</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#a-complete-ansible-galaxy-project">A Complete Ansible Galaxy Project</a></li>
@@ -425,7 +425,7 @@
 <li><a class="reference internal" href="#ansible-galaxy-helloworld">Ansible Galaxy helloworld</a><ul>
 <li><a class="reference internal" href="#create-the-directory">create the directory</a></li>
 <li><a class="reference internal" href="#fill-in-information">fill in information</a></li>
-<li><a class="reference internal" href="#test-it-out">test it out</a></li>
+<li><a class="reference internal" href="#test-it-out">Test it out</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#a-complete-ansible-galaxy-project">A Complete Ansible Galaxy Project</a></li>
@@ -458,62 +458,87 @@
       
   <div class="section" id="ansible-iii-ansible-galaxy">
 <h1>Ansible III: Ansible Galaxy<a class="headerlink" href="#ansible-iii-ansible-galaxy" title="Permalink to this headline">¶</a></h1>
-<p>By finishing the first two chapters, you should be able to compose Ansible projects to install, configure or do other maintenances on your software packages. We introduced the powerful component <code class="docutils literal"><span class="pre">Roles</span></code> in the previous chapters, and emphasized the concepts of modularize and re-usability. With these preparations, we are ready to start working on Ansible Galaxy.</p>
-<p>Think Ansible Galaxy as of an marketplace, where developers can share Ansible Roles to complete their system administration tasks. Roles exchanged in Ansible Galaxy community need to follow common conventions so that all participants know what to expect. We will illustrate details in this chapter.</p>
-<p>It is good to follow the Ansible Galaxy standard during your development assignment as much as possible, however, you will submit your assignments to this class’s repository not the global Galaxy community.</p>
+<p>By finishing the first two chapters, you should be able to compose
+Ansible projects to install, configure or do other maintenances on
+your software packages. We introduced the powerful component <code class="docutils literal"><span class="pre">Roles</span></code>
+in the previous chapters, and emphasized the concepts of modularize
+and re-usability. With these preparations, we are ready to start
+working on Ansible Galaxy.</p>
+<p>Think Ansible Galaxy as of an marketplace, where developers can share
+Ansible Roles to complete their system administration tasks. Roles
+exchanged in Ansible Galaxy community need to follow common
+conventions so that all participants know what to expect. We will
+illustrate details in this chapter.</p>
+<p>It is good to follow the Ansible Galaxy standard during your
+development assignment as much as possible, however, you will submit
+your assignments to this class’s repository not the global Galaxy
+community.</p>
 <div class="section" id="ansible-galaxy-helloworld">
 <h2>Ansible Galaxy helloworld<a class="headerlink" href="#ansible-galaxy-helloworld" title="Permalink to this headline">¶</a></h2>
-<p>Let us start with a simplest case: We will build an Ansible Galaxy project. This project will install the Emacs software package on your localhost as the target host. It is a “helloworld” project only meant to get us familiar with Ansible Galaxy project structures.</p>
+<p>Let us start with a simplest case: We will build an Ansible Galaxy
+project. This project will install the Emacs software package on your
+localhost as the target host. It is a “helloworld” project only meant
+to get us familiar with Ansible Galaxy project structures.</p>
 <div class="section" id="create-the-directory">
 <h3>create the directory<a class="headerlink" href="#create-the-directory" title="Permalink to this headline">¶</a></h3>
-<p>Setup your submission directory after you clone and rebased with <a class="reference external" href="https://github.com/cloudmesh/sp17-i524">https://github.com/cloudmesh/sp17-i524</a>:</p>
+<p>Setup your submission directory after you clone and rebased with
+<a class="reference external" href="https://github.com/cloudmesh/sp17-i524">https://github.com/cloudmesh/sp17-i524</a>:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ git rebase upstream/master
 $ ./setup galaxy &lt;your HID&gt;
 </pre></div>
 </div>
-<p>It will create a folder named after your HID inside directory galaxy/. Your Galaxy related assignments will be completed and submitted there. Go ahead and create files <code class="docutils literal"><span class="pre">README.md</span></code>, <code class="docutils literal"><span class="pre">playbook.yml</span></code>, <code class="docutils literal"><span class="pre">inventory</span></code> and a subdirectory <code class="docutils literal"><span class="pre">roles/</span></code> then. playbook.yml is your project playbook. It should perform the Emacs installation task by executing the corresponding role you will develop in the folder ‘roles/’. The only difference is that we will construct the role with the help of ansible-galaxy this time.</p>
+<p>It will create a folder named after your HID inside directory
+galaxy/. Your Galaxy related assignments will be completed and
+submitted there. Go ahead and create files <code class="docutils literal"><span class="pre">README.md</span></code>,
+<code class="docutils literal"><span class="pre">playbook.yml</span></code>, <code class="docutils literal"><span class="pre">inventory</span></code> and a subdirectory <code class="docutils literal"><span class="pre">roles/</span></code>
+then. playbook.yml is your project playbook. It should perform the
+Emacs installation task by executing the corresponding role you will
+develop in the folder ‘roles/’. The only difference is that we will
+construct the role with the help of ansible-galaxy this time.</p>
 <p>Now, let ansible-galaxy initialize the directory structure for you:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ cd roles
 $ ansible-galaxy init &lt;to-be-created-role-name&gt;
 </pre></div>
 </div>
-<p>The naming convention is to concatenate your name and the role name by a dot. Here is how it looks like:</p>
+<p>The naming convention is to concatenate your name and the role name by
+a dot. Here is how it looks like:</p>
 <img alt="../../../_images/ansible-galaxy-init-structure.png" src="../../../_images/ansible-galaxy-init-structure.png" />
 </div>
 <div class="section" id="fill-in-information">
 <h3>fill in information<a class="headerlink" href="#fill-in-information" title="Permalink to this headline">¶</a></h3>
-<p>Let us fill in information to our project. There are several <code class="docutils literal"><span class="pre">main.yml</span></code> files in different folders, and we will illustrate their usages.</p>
-<ul class="simple">
-<li>defaults and vars</li>
-</ul>
-<p>These folders should hold variables key-value pairs for your playbook scripts. We will leave them empty in this example.</p>
-<ul class="simple">
-<li>files</li>
-</ul>
-<p>This folder is for files need to be copied to the target hosts. Data files or configuration files can be specified if needed. We will leave it empty too.</p>
-<ul class="simple">
-<li>templates</li>
-</ul>
-<p>Similar missions to files/, templates is allocated for template files. Keep empty for a simple Emacs installation.</p>
-<ul class="simple">
-<li>handlers</li>
-</ul>
-<p>This is reserved for services running on target hosts. For example, to restart a service under certain circumstance.</p>
-<ul class="simple">
-<li>tasks</li>
-</ul>
-<p>This file is the actual script for all tasks. You can use the role you built previously for Emacs installation here:</p>
+<p>Let us fill in information to our project. There are several
+<code class="docutils literal"><span class="pre">main.yml</span></code> files in different folders, and we will illustrate their
+usages.</p>
+<dl class="docutils">
+<dt>defaults and vars:</dt>
+<dd>These folders should hold variables key-value pairs for your playbook
+scripts. We will leave them empty in this example.</dd>
+<dt>files:</dt>
+<dd>This folder is for files need to be copied to the target
+hosts. Data files or configuration files can be specified if
+needed. We will leave it empty too.</dd>
+<dt>templates:</dt>
+<dd>Similar missions to files/, templates is allocated for template
+files. Keep empty for a simple Emacs installation.</dd>
+<dt>handlers:</dt>
+<dd>This is reserved for services running on target hosts. For
+example, to restart a service under certain circumstance.</dd>
+</dl>
+<p>tasks:</p>
+<blockquote>
+<div><p>This file is the actual script for all tasks. You can use the role
+you built previously for Emacs installation here:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
 <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">install</span> <span class="n">Emacs</span> <span class="n">on</span> <span class="n">Ubuntu</span> <span class="mf">16.04</span>
   <span class="n">become</span><span class="p">:</span> <span class="n">yes</span>
   <span class="n">package</span><span class="p">:</span> <span class="n">name</span><span class="o">=</span><span class="n">emacs</span> <span class="n">state</span><span class="o">=</span><span class="n">present</span>
 </pre></div>
 </div>
-<ul class="simple">
-<li>meta</li>
-</ul>
-<p>Lastly, we provide necessary metatdata for our Ansible Galaxy project for shipping:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
+</div></blockquote>
+<dl class="docutils">
+<dt>meta:</dt>
+<dd><p class="first">Provide necessary metatdata for our Ansible Galaxy project for shipping:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span><span class="o">---</span>
 <span class="n">galaxy_info</span><span class="p">:</span>
   <span class="n">author</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">you</span> <span class="n">name</span><span class="o">&gt;</span>
   <span class="n">description</span><span class="p">:</span> <span class="n">emacs</span> <span class="n">installation</span> <span class="n">on</span> <span class="n">Ubuntu</span> <span class="mf">16.04</span>
@@ -530,19 +555,26 @@ $ ansible-galaxy init &lt;to-be-created-role-name&gt;
 <span class="n">dependencies</span><span class="p">:</span> <span class="p">[]</span>
 </pre></div>
 </div>
+</dd>
+</dl>
 </div>
 <div class="section" id="test-it-out">
-<h3>test it out<a class="headerlink" href="#test-it-out" title="Permalink to this headline">¶</a></h3>
-<p>You have your Ansible Galaxy role ready now. To test it as a user, go to your HID directory and edit the other two files <code class="docutils literal"><span class="pre">inventory</span></code> and <code class="docutils literal"><span class="pre">playbook.yml</span></code>, which are already generated for you in directory <code class="docutils literal"><span class="pre">tests</span></code> by the script:</p>
+<h3>Test it out<a class="headerlink" href="#test-it-out" title="Permalink to this headline">¶</a></h3>
+<p>You have your Ansible Galaxy role ready now. To test it as a user, go
+to your HID directory and edit the other two files <code class="docutils literal"><span class="pre">inventory</span></code> and
+<code class="docutils literal"><span class="pre">playbook.yml</span></code>, which are already generated for you in directory
+<code class="docutils literal"><span class="pre">tests</span></code> by the script:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ ansible-playbook -i ./hosts playbook.yml
 </pre></div>
 </div>
-<p>After running this playbook, you should have Emacs installed on localhost.</p>
+<p>After running this playbook, you should have Emacs installed on
+localhost.</p>
 </div>
 </div>
 <div class="section" id="a-complete-ansible-galaxy-project">
 <h2>A Complete Ansible Galaxy Project<a class="headerlink" href="#a-complete-ansible-galaxy-project" title="Permalink to this headline">¶</a></h2>
-<p>We are going to use ansible-galaxy to setup a sample project. This sample project will:</p>
+<p>We are going to use ansible-galaxy to setup a sample project. This
+sample project will:</p>
 <ul class="simple">
 <li>use a cloud cluster with multiple VMs</li>
 <li>deploy Apache Spark on this cluster</li>

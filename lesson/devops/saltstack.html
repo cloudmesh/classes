@@ -677,7 +677,9 @@ pull from which environments, next it defines which matches systems should draw
 from.</p>
 <ul>
 <li><p class="first">Create <code class="docutils literal"><span class="pre">top.sls</span></code> file for <code class="docutils literal"><span class="pre">webserver</span></code>:</p>
-<p>nano /srv/salt/top.sls</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nano</span> <span class="o">/</span><span class="n">srv</span><span class="o">/</span><span class="n">salt</span><span class="o">/</span><span class="n">top</span><span class="o">.</span><span class="n">sls</span>
+</pre></div>
+</div>
 </li>
 </ul>
 <p>The <code class="docutils literal"><span class="pre">base</span></code> environment will be loaded. type the following three lines in the
@@ -689,7 +691,9 @@ from.</p>
 </div>
 <ul>
 <li><p class="first">Create <code class="docutils literal"><span class="pre">webserver.sls</span></code> file to install Apache:</p>
-<p>nano /srv/salt/webserver.sls</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">nano</span> <span class="o">/</span><span class="n">srv</span><span class="o">/</span><span class="n">salt</span><span class="o">/</span><span class="n">webserver</span><span class="o">.</span><span class="n">sls</span>
+</pre></div>
+</div>
 </li>
 </ul>
 <p>The <code class="docutils literal"><span class="pre">webserver.sls</span></code> content include <code class="docutils literal"><span class="pre">apache2</span></code> package installation:</p>
@@ -936,7 +940,9 @@ run salt like this:</p>
 you can apply commands on particular minions.</p>
 <ul>
 <li><p class="first">Available grains can be listed by using the <code class="docutils literal"><span class="pre">grains.ls</span></code> module:</p>
-<p>salt ‘*’ grains.ls</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">salt</span> <span class="s1">&#39;*&#39;</span> <span class="n">grains</span><span class="o">.</span><span class="n">ls</span>
+</pre></div>
+</div>
 </li>
 </ul>
 <p>The output looks like so:</p>
@@ -965,7 +971,9 @@ you can apply commands on particular minions.</p>
 </div>
 <ul>
 <li><p class="first">If you use ‘grains.items’, you will see the values in each grain:</p>
-<p>salt ‘*’ grains.items</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">salt</span> <span class="s1">&#39;*&#39;</span> <span class="n">grains</span><span class="o">.</span><span class="n">items</span>
+</pre></div>
+</div>
 </li>
 </ul>
 <p>The output looks like so:</p>

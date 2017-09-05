@@ -1,10 +1,10 @@
 .. _ref-class-lesson-devops-saltstack:
 
 SaltStack
-======================================================================
+=========
 
 Overview
-----------------------------------------------------------------------
+--------
 
 This lesson will introduce you to SaltStack, a configuration
 management system.
@@ -12,7 +12,7 @@ management system.
 .. tip:: Duration: 1 hour and 30 minutes
 
 Prerequisite
-----------------------------------------------------------------------
+------------
 
 In order to conduct this lesson, you should have knowledge of
 
@@ -20,7 +20,7 @@ In order to conduct this lesson, you should have knowledge of
 * `Package Managers <../linux/packagemanagement.html>`_
 
 Description
-----------------------------------------------------------------------
+-----------
 
 Salt or SaltStack is an open source software for managing configurations and
 execution application. It is written in Python and runs with ZeroMQ which is an
@@ -30,7 +30,7 @@ For more introduction to Salt, see here:
 http://docs.saltstack.com/en/latest/topics/index.html
 
 Salt Installation
--------------------------------------------------------------------------------
+-----------------
 
 Salt can be installed by package management tools or a simple installation
 script. This lesson is based on FutureSystems which means you create a VM
@@ -41,7 +41,7 @@ OpenStack instance on FutureSystems.
     <../iaas/openstack.html#launching-a-new-instance>`_
 
 Guideline on India FutureSystems
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You *DON'T* install Salt on India. If you see the cursor like:
 
@@ -58,7 +58,7 @@ instance on India OpenStack and SSH into your VM to run and install your
 software. You will have a full access of your virtual machine instance.
 
 Quick instructions
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""
 
 * Launch a VM instance is::
 
@@ -69,7 +69,7 @@ Quick instructions
     ssh ubuntu@[IP ADDRESS]
 
 ``root`` Access
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 We will install Salt and other software using ``root`` account. Using ``root``
 account means that you have a permission to use entire system resources without
@@ -89,7 +89,7 @@ If you see ``root`` label, you are in ``root`` account on your machine::
 
 
 Update Hostname
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 If you see ``sudo: unable to resolve host``, try to add hostname with the
 following command::
@@ -98,7 +98,7 @@ following command::
 
 
 Ubuntu
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 First, add the salt repository.
 
@@ -127,7 +127,7 @@ salt-cloud, salt-ssh, and salt-api will be installed.
   sudo apt-get install salt-api
 
 One-Line Installation Salt Minion
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 With a caution, one-line installation can be used to have a quick installation
 on various operating systems.
@@ -142,7 +142,7 @@ Or two lines will be used::
   sudo sh install_salt.sh
 
 SLS Files
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^
 
 SaLt State file (SLS) is instructions of tasks in which a system should be in,
 and what applications should be installed and configured. SLS data is written
@@ -152,7 +152,7 @@ example of starting a Apache web server so that you can understand basic flows
 in the use case.
 
 Salt State Tree
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 Salt state tree is a collection of SLS files that live under the directory
 specified in ``file_roots``. We use a default directory ``/srv/salt`` to store
@@ -163,7 +163,7 @@ sls files.
   sudo mkdir /srv/salt
 
 Top File
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 
 The top file (``top.sls``) is to map what **SLS modules** get loaded onto what
 **minions** via the state system. For example **apache sls module** can be
@@ -174,7 +174,7 @@ from.
 
 * Create ``top.sls`` file for ``webserver``::
 
-  nano /srv/salt/top.sls
+     nano /srv/salt/top.sls
 
 The ``base`` environment will be loaded. type the following three lines in the
 ``top.sls`` file::
@@ -185,19 +185,19 @@ The ``base`` environment will be loaded. type the following three lines in the
 
 * Create ``webserver.sls`` file to install Apache::
 
-  nano /srv/salt/webserver.sls
+     nano /srv/salt/webserver.sls
 
 The ``webserver.sls`` content include ``apache2`` package installation::
 
-  apache2:              # ID declaration
-    pkg:                # state declaration
-      - installed       # function declaration
+    apache2:              # ID declaration
+      pkg:                # state declaration
+        - installed       # function declaration
 
 .. note::  Use **httpd** for Fedora/RHEL, **apache** for others in the package
            name.
 
 Salt Call
--------------------------------------------------------------------------------
+---------
 
 We use ``salt-call`` command to try our example of running an Apache web server.
 With ``--local`` option, we can simply run Salt without communicating with a
@@ -233,7 +233,7 @@ The expected output messages look like so::
 Now, you have Apache up and running.
 
 Test
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^
 
 Check your Apache is running with ``nc`` command.
 
@@ -246,7 +246,7 @@ You have running Apache if you see the message like so::
   Connection to salt 80 port [tcp/http] succeeded!
 
 How It Works
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
 
 The instructions we made are executed in the following order:
 
@@ -261,7 +261,7 @@ The instructions we made are executed in the following order:
 * The Salt minion now have Apache web server installed.
 
 Master and Minion
--------------------------------------------------------------------------------
+-----------------
 
 In the previous example, we tested Salt Minion in a local mode without a master.
 Salt uses a client-server model to propagate configurations, so we will have an
@@ -270,7 +270,7 @@ apply this master-minion example to your systems if you have multiple machines
 to manage.
 
 Installation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
 
 We already installed a Salt master and a minion in the earlier section, but
 here is a reminder of the installation.
@@ -289,7 +289,7 @@ If you don't have ``salt-key`` or ``salt-master`` command, you need to run
 these commands.
 
 List of Registered Minions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The following command Lists all public keys registered on the master. Salt uses
 key-based authentication so the registered keys are important to communicate
@@ -324,7 +324,7 @@ registered. The output looks like this::
  Rejected Keys:
 
 Nginx Installation and Start
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Before we install and start Nginx web server, we may need to stop an Apache web
 server first which uses HTTP (80) port.
@@ -377,14 +377,14 @@ The output looks like so::
         you need to specify an exact name of the software.
 
 Other Commands
--------------------------------------------------------------------------------
+--------------
 
 In the previous example, we saw Salt can install and start a service but we
 didn't try other commands.  Salt has many other commands to control remote
 systems in parallel. Let's review a few commands.
 
 Ping
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^
 
 To check remote machines are alive, we can use ``ping``.
 
@@ -395,7 +395,7 @@ To check remote machines are alive, we can use ``ping``.
       True
 
 System Command
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 If you have a system command to execute remotely, you can use ``cmd.run``
 sub-command. Our test result looks like so:
@@ -424,7 +424,7 @@ sub-command. Our test result looks like so:
               RX bytes:1541859 (1.5 MB)  TX bytes:1541859 (1.5 MB)
 
 sys.doc
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^
 
 It returns all possible sub commands.
 
@@ -435,7 +435,7 @@ It returns all possible sub commands.
          sys.doc|more``
 
 Grains
--------------------------------------------------------------------------------
+------
 
 One of the interesting features in Salt is Grains. It runs commands when the
 remote machines satisfy the conditions specified with ``-G`` option.  For
@@ -456,7 +456,7 @@ you can apply commands on particular minions.
 
 * Available grains can be listed by using the ``grains.ls`` module::
 
-  salt '*' grains.ls
+    salt '*' grains.ls
 
 The output looks like so::
 
@@ -485,7 +485,7 @@ The output looks like so::
 
 * If you use 'grains.items', you will see the values in each grain::
 
-  salt '*' grains.items
+    salt '*' grains.items
 
 The output looks like so::
 
@@ -504,7 +504,7 @@ For more information, see details here:
 http://docs.saltstack.com/en/latest/topics/targeting/grains.html
 
 References
--------------------------------------------------------------------------------
+----------
 
 This lesson is based on the Salt Documentation. Some reference web pages are:
 
@@ -527,10 +527,10 @@ This lesson is based on the Salt Documentation. Some reference web pages are:
 .. _ref-class-lesson-devops-saltstack-exercises:
 
 Exercises
-----------------------------------------------------------------------
+---------
 
 Exercise I
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 SaltStack.1:
   1. Turn on the type script by ``script salt_ex1_$USERNAME.txt` (Replace $USERNAME with your id) 
