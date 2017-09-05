@@ -188,12 +188,13 @@ explicitly implementing some patterns based on use cases. The progress
 of gathering use cases (discussed in next two units) and requirements
 systemization are discussed.
 
-.. todo:: The slides or videos are going to be updated
 
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMocG5DUm1XSHFTMWc/view?usp=sharing
+
+
+  .. 
           * Video: http://youtu.be/sztqNXJ9P6c
-
           * Video: http://youtu.be/0sbfIqHUauI
-
           * Video: http://youtu.be/u59559nqjiY
 
 
@@ -220,12 +221,7 @@ Preservation; Statistical Survey Response Improvement (Adaptive
 Design) and Non-Traditional Data in Statistical Survey Response
 Improvement (Adaptive Design).
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/gCqBFYDDzSQ
-
-          * Video B: http://youtu.be/y0nIed-Nxjw
-
+* Video: https://drive.google.com/file/d/0B5plU-u0wqModmVBU1NvU3VxbDg/view?usp=sharing
 
 Commercial Use Cases
 """"""""""""""""""""
@@ -238,14 +234,7 @@ Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
 Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
 Simulation driven Materials Genomics.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/P1iuViI-AKc
-
-          * Video B: http://youtu.be/epFH4w_Q9lc
-
-          * Video C: http://youtu.be/j5kWjL4y7Bo
-
+* Video: https://drive.google.com/file/d/0B5plU-u0wqModmVBU1NvU3VxbDg/view?usp=sharing
 
 
 Defense Use Cases
