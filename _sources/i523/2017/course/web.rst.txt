@@ -69,9 +69,9 @@ This lesson starts with the web with its size, shape (coming from the
 mutual linkage of pages by URL's) and universal power laws for number
 of pages with particular number of URL's linking out or in to page.
 
-.. todo:: The slides or videos are going to be updated
+
           
-          Video: https://youtu.be/T12BccKe8p4
+* Video:https://drive.google.com/file/d/0B1Of61fJF7WscTdYUUVHNW9uRUU/view?usp=sharing
 
 
 
@@ -216,9 +216,8 @@ with potentially sophisticated techniques; and integrate technology to
 support advertising and ways to allow or stop pages artificially
 enhancing relevance.
 
-.. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/ugyycKBjaBQ
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsNEJxbWVRQ2lnc1U/view?usp=sharing
 
 
 Link Structure Analysis including PageRank
@@ -233,11 +232,10 @@ discussed here although topic models are covered briefly in a later
 lesson.
 
 
-.. todo:: The slides or videos are going to be updated
 
-          * Video 1: https://youtu.be/1oXdopVxqfI
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WseFFsUk9ZNXRURGM/view?usp=sharing
           
-          * Video 2: https://youtu.be/OCn-gCTxvrU
+
 
 
 Web Advertising and Search
@@ -249,9 +247,8 @@ advertising types Sponsored search, Contextual ads, Display ads and
 different models: Cost per viewing, cost per clicking and cost per
 action. This leads to emerging field of computational advertising.
 
-.. todo:: The slides or videos are going to be updated
           
-          * Video: https://youtu.be/GgkmG0NzQvg
+* Video:https://drive.google.com/file/d/0B1Of61fJF7WsbjZMNDlvemNZNUk/view?usp=sharing
 
 
 

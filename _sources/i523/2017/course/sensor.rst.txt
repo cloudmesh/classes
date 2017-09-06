@@ -36,9 +36,8 @@ drones and self driving cars and more generally transportation
 systems. The lesson gives many examples of distributed sensors, which
 form a Grid that is controlled by a cloud.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: https://youtu.be/fFMvxYW6Yu0
+* Video:https://drive.google.com/file/d/0B1Of61fJF7WsZkpSQUd3MWp3UG8/view?usp=sharing
 
 
 Robotics and IOT Expectations
@@ -46,9 +45,9 @@ Robotics and IOT Expectations
 
 Examples of Robots and Drones.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: https://youtu.be/VqXvn0dwqxs
+
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsMjFWdHRPVHZvbzA/view?usp=sharing
 
 
 Industrial Internet of Things
@@ -57,11 +56,9 @@ Industrial Internet of Things
 We summarize surveys and expectations Industry wide.
 
 
-.. todo:: The slides or videos are going to be updated
 
-          Video 1: https://youtu.be/jqQJjtTEsEo
+* Video 1:https://drive.google.com/file/d/0B1Of61fJF7WsRlFneWpGYVhaaW8/view?usp=sharing
 
-          Video 2: https://youtu.be/YiIvQRCi3j8
 
 
 
@@ -109,9 +106,9 @@ of life and GDP. U-Korea aims to improve the latter by Pervasive
 computing, everywhere, anytime i.e. by spreading sensors
 everywhere. The example of a 'High-Tech Utopia' New Songdo is given.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: https://youtu.be/wdot23r4YKs
+
+* Video:https://drive.google.com/file/d/0B1Of61fJF7WsTGVGZksyS1NUNXM/view?usp=sharing
 
 
 Smart Grid
@@ -124,7 +121,7 @@ variety of new instruments include smart meters, power monitors, and
 measures of solar irradiance, wind speed, and temperature. One goal is
 autonomous local power units where good use is made of waste heat.
 
-* Video: https://youtu.be/m3eX8act0GU
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsMGNLMXk1NXpNR0E/view?usp=sharing
 
 
 
