@@ -53,7 +53,7 @@ communication, synchronization, load balancing and decomposition.
 
 .. todo:: The slides or videos are going to be updated
           
-Slides: https://iu.app.box.com/s/nau0rsr39kyej240s4yz
+          * Slides: https://iu.app.box.com/s/nau0rsr39kyej240s4yz
 
 
 Decomposition 
@@ -72,16 +72,14 @@ decomposition in irregular problems is noted.
 
 .. todo:: The slides or videos are going to be updated
           
-Video 1: https://youtu.be/R-wHQW2YuRE
-
-Video 2: https://youtu.be/iIi9wdvlwCM
-
-Video 3: https://youtu.be/F0aeeLeTD9I
+          * Video 1: https://youtu.be/R-wHQW2YuRE
+          * Video 2: https://youtu.be/iIi9wdvlwCM
+          * Video 3: https://youtu.be/F0aeeLeTD9I
 
 
 
-Parallel Computing in Society 
-"""""""""""""""""""""""""""""""
+Parallel Computing in Society
+"""""""""""""""""""""""""""""
 
 This lesson from the past notes that one can view society as an
 approach to parallel linkage of people. The largest example given is
@@ -96,9 +94,8 @@ of neurons (the brain) and ants.
 
 .. todo:: The slides or videos are going to be updated
           
-Video 1: https://youtu.be/8rtjoe8AeJw
-
-Video 2: https://youtu.be/7sCgH_TTPGk
+          * Video 1: https://youtu.be/8rtjoe8AeJw
+          * Video 2: https://youtu.be/7sCgH_TTPGk
 
 
 Parallel Processing for Hadrian's Wall
@@ -117,7 +114,7 @@ large wall.
 
 .. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/ZD2AQ08cy8I
+          * Video: https://youtu.be/ZD2AQ08cy8I
 
 
 Resources
@@ -137,7 +134,7 @@ Resources
   Springer. http://grids.ucs.indiana.edu/ptliupages/publications/SpringerEncyclopedia_Fox.pdf
 
 Cloud Computing Technology Part I: Introduction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 We discuss Cyberinfrastructure for e-moreorlessanything or
@@ -153,7 +150,7 @@ computing growth areas.
 
 .. todo:: The slides or videos are going to be updated
           
-Slides: https://iu.app.box.com/s/p3lztuu9kv240pdm66141or9b8p1uvzb
+          * Slides: https://iu.app.box.com/s/p3lztuu9kv240pdm66141or9b8p1uvzb
 
 
 Cyberinfrastructure for E-MoreOrLessAnything
@@ -167,7 +164,7 @@ e-Science and e-Business.
 
 .. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/gHz0cu195ZM
+          * Video: https://youtu.be/gHz0cu195ZM
 
 
 
@@ -185,7 +182,7 @@ on top of these.
 
 .. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/Od_mYXRs5As
+          * Video: https://youtu.be/Od_mYXRs5As
 
 
 What and Why is Cloud Computing: Several Other Views I
@@ -196,11 +193,9 @@ computing'' from the web.
 
 .. todo:: The slides or videos are going to be updated
           
-Video 1: https://youtu.be/5VeqMjXKU_Y
-
-Video 2: https://youtu.be/J963LR0PS_g
-
-Video 3: https://youtu.be/_ryLXUnOAzo
+          * Video 1: https://youtu.be/5VeqMjXKU_Y
+          * Video 2: https://youtu.be/J963LR0PS_g
+          * Video 3: https://youtu.be/_ryLXUnOAzo
 
 
 Gartner's Emerging Technology Landscape for Clouds and Big Data
@@ -215,7 +210,7 @@ above clouds and Big data in Google trends.
 
 .. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/N7aEtU1mUwc
+          * Video: https://youtu.be/N7aEtU1mUwc
 
 
 Simple Examples of use of Cloud Computing
@@ -229,7 +224,7 @@ installations. It ends with some fiscal comments.
 
 .. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/VCctCP6BKEo
+          * Video: https://youtu.be/VCctCP6BKEo
 
 
 Value of Cloud Computing
@@ -239,7 +234,7 @@ Some comments on fiscal value of cloud computing.
 
 .. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/HM1dZCxdsaA
+          * Video: https://youtu.be/HM1dZCxdsaA
 
 
 
@@ -266,7 +261,7 @@ packages in the HPC-ABDS Software Stack explaining how they are used.
 
 .. todo:: The slides or videos are going to be updated
 
-Slides: https://iu.app.box.com/s/k61o0ff1w6jkn5zmpaaiw02yth4v4alh
+          * Slides: https://iu.app.box.com/s/k61o0ff1w6jkn5zmpaaiw02yth4v4alh
 
 
 What is Cloud Computing
@@ -277,34 +272,26 @@ architecture and application perspective.
 
 .. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/h3Rpb0Eyj1c
+          * Video: https://youtu.be/h3Rpb0Eyj1c
 
 
 Introduction to Cloud Software Architecture: IaaS and PaaS I
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-We discuss cloud software for the cloud starting at virtual
-machine management (IaaS) and the broad Platform (middleware)
-capabilities with examples from Amazon and academic studies.
+We discuss cloud software for the cloud starting at virtual machine
+management (IaaS) and the broad Platform (middleware) capabilities
+with examples from Amazon and academic studies.  We cover different
+views as to nature of architecture and application for Cloud
+Computing. Then we discuss cloud software for the cloud starting at
+virtual machine management (IaaS) and the broad Platform (middleware)
+capabilities with examples from Amazon and academic studies. We
+summarize the 21 layers and almost 300 software packages in the
+HPC-ABDS Software Stack explaining how they are used.
 
 .. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/1AnyJYyh490
-
-
-Introduction to Cloud Software Architecture: IaaS and PaaS II
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-We cover different views as to nature of architecture and
-application for Cloud Computing. Then we discuss cloud software for
-the cloud starting at virtual machine management (IaaS) and the broad
-Platform (middleware) capabilities with examples from Amazon and
-academic studies. We summarize the 21 layers and almost 300 software
-packages in the HPC-ABDS Software Stack explaining how they are used.
-
-.. todo:: The slides or videos are going to be updated
-          
-Video: https://youtu.be/hVpFAUHcAd4
+          * Video: https://youtu.be/1AnyJYyh490
+          * Video: https://youtu.be/hVpFAUHcAd4
 
 
 Using the HPC-ABDS Software Stack
@@ -314,7 +301,7 @@ Using the HPC-ABDS Software Stack.
 
 .. todo:: The slides or videos are going to be updated
 
-Video: https://youtu.be/JuTQdRW78Pg
+          * Video: https://youtu.be/JuTQdRW78Pg
 
 
 Resources
@@ -339,7 +326,7 @@ Tolerance and Synchronicity issues in cloud follow.
 
 .. todo:: The slides or videos are going to be updated
           
-Slides: https://iu.app.box.com/s/0bn57opwe56t0rx4k18bswupfwj7culv
+          * Slides: https://iu.app.box.com/s/0bn57opwe56t0rx4k18bswupfwj7culv
 
 
 Cloud (Data Center) Architectures 
@@ -355,9 +342,8 @@ computing.
 
 .. todo:: The slides or videos are going to be updated
           
-Video 1: https://youtu.be/j0P32DmQjI8
-
-Video 2: https://youtu.be/3HAGqz34AB4
+          * Video 1: https://youtu.be/j0P32DmQjI8
+          * Video 2: https://youtu.be/3HAGqz34AB4
 
 
 
@@ -368,7 +354,7 @@ Gartner 2014 Analysis of leading cloud providers.
 
 .. todo:: The slides or videos are going to be updated
           
-https://youtu.be/Tu8hE1SeT28
+          * Video: https://youtu.be/Tu8hE1SeT28
 
 
 
@@ -379,7 +365,7 @@ Use of Dropbox, iCloud, Box etc.
 
 .. todo:: The slides or videos are going to be updated
           
-https://youtu.be/i5OI6R526kM
+          * Video: https://youtu.be/i5OI6R526kM
 
 
 
@@ -395,9 +381,8 @@ will impact all other tasks in the parallel job.
 
 .. todo:: The slides or videos are going to be updated
           
-Video 1: https://youtu.be/nkeSOMTGbbo
-
-Video 2: https://youtu.be/ORd3aBhc2Rc
+          * Video 1: https://youtu.be/nkeSOMTGbbo
+          * Video 2: https://youtu.be/ORd3aBhc2Rc
 
 
 Science Clouds
@@ -419,7 +404,7 @@ implementation.
 
 .. todo:: The slides or videos are going to be updated
           
-https://youtu.be/NojXG3fbrEo
+          * Video: https://youtu.be/NojXG3fbrEo
 
 
 Comments on Fault Tolerance and Synchronicity Constraints
@@ -433,7 +418,7 @@ other tasks in the parallel job.
 
 .. todo:: The slides or videos are going to be updated
           
-https://youtu.be/OMZiSiN7dlU
+          * Video: https://youtu.be/OMZiSiN7dlU
 
 
 

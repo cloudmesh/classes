@@ -2,7 +2,7 @@
 .. _S9:
 
 e-Commerce and LifeStyle Case Study
-----------------------------------------------------------------------
+-----------------------------------
 
 Recommender systems operate under the hood of such widely recognized
 sites as Amazon, eBay, Monster and Netflix where everything is a
@@ -45,7 +45,7 @@ annealing to avoid this and value of heuristic algorithms.
 
 
 Recommender Systems: Introduction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We introduce Recommender systems as an optimization technology
 used in a variety of applications and contexts online. They operate in
@@ -271,7 +271,7 @@ Resources
 * http://pages.cs.wisc.edu/~beechung/icml11-tutorial/
 
 Item-based Collaborative Filtering and its Technologies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We move on to item-based collaborative filtering where items
 are viewed as points in a space of users. The Cosine Similarity is
@@ -285,8 +285,8 @@ dimensionality in high dimensions are discussed.
           Slides: https://iu.app.box.com/s/fvrwds7zd65m79a7uur3
 
 
-Item-based Collaborative Filtering I
-""""""""""""""""""""""""""""""""""""
+Item-based Collaborative Filtering
+""""""""""""""""""""""""""""""""""
 
 We covered user-based collaborative filtering in the previous
 unit. Here we start by discussing memory-based real time and model

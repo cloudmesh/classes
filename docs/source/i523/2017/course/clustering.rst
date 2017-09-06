@@ -3,7 +3,7 @@
 .. _S10:
 
 Technology Training - kNN & Clustering
-----------------------------------------------------------------------
+--------------------------------------
 
 This section is meant to provide a discussion on the kth Nearest
 Neighbor (kNN) algorithm and clustering using K-means. Python version
@@ -12,8 +12,8 @@ Python are mentioned in the slides. Plotviz is used for generating 3D
 visualizations.
 
 
-Recommender Systems - K-Nearest Neighbors (Python & Java Track)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Recommender Systems - K-Nearest Neighbors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We discuss simple Python k Nearest Neighbor code and its
 application to an artificial data set in 3 dimensions. Results are
@@ -35,8 +35,8 @@ Files:
 * :download:`clusterFinal-M30-C28.pviz </files/python/knn/clusterFinal-M30-C28.pviz>`
 
 
-Python k'th Nearest Neighbor Algorithms I
-"""""""""""""""""""""""""""""""""""""""""
+Python k'th Nearest Neighbor Algorithms
+"""""""""""""""""""""""""""""""""""""""
 
 This lesson considers the Python k Nearest Neighbor code found on the
 web associated with a book by Harrington on Machine Learning. There
@@ -48,9 +48,8 @@ just use Matplotlib to give 2D plots.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video 1: https://youtu.be/o16L0EqsQ_g
-
-          Video 2: https://youtu.be/JK5p24mnTjs
+          * Video 1: https://youtu.be/o16L0EqsQ_g
+          * Video 2: https://youtu.be/JK5p24mnTjs
 
 
 3D Visualization
