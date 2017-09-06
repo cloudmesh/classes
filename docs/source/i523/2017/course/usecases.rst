@@ -44,10 +44,8 @@ computing platforms and clusters while allowing value-added from big
 data service providers and flow of data between the stakeholders in a
 cohesive and secure manner.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/ofRfHBKpyvg
-
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMobXdqZHNRSFVaQnc/view?usp=sharing
+          
 
 
 Definitions and Taxonomies Subgroup
@@ -69,9 +67,10 @@ from all stakeholders, categorize them into components and
 subcomponents based on their similarities and differences. In
 particular data Science and Big Data terms are discussed.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/sGshHN-DdbE
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoMHE4XzFrS0hxOGs/view?usp=sharing
+
+  
 
 Reference Architecture Subgroup
 """""""""""""""""""""""""""""""
@@ -87,9 +86,7 @@ the flow of the data between the stakeholders in a cohesive and secure
 manner. Results include a reference architecture with well defined
 components and linkage as well as several exemplars.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/JV596ZH36YA
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoOVh1NjlwTkE5emM/view?usp=sharing
 
 
 Security and Privacy Subgroup
@@ -108,9 +105,7 @@ Traffic Analysis, Healthcare, Health Information Exchange, Genetic
 Privacy, Pharma Clinical Trial Data Sharing, Cyber-security,
 Government, Military and Education.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/Gbk0LaWE3lM
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoX1FGSExzbUdYX3M/view?usp=sharing
 
 Technology Roadmap Subgroup
 """""""""""""""""""""""""""
@@ -130,11 +125,8 @@ analysis and document the findings; identify what possible barriers
 may delay or prevent adoption of Big Data; and document vision and
 recommendations.
 
-.. todo:: The slides or videos are going to be updated
-
-          Video: http://youtu.be/GCc9yfErmd0
-
-
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoSFRVaUlJWFBCME0/view?usp=sharing
+          
 Interfaces subgroup
 """""""""""""""""""
 
@@ -178,7 +170,7 @@ The Web cas of the presentation is given bellow, while you need to fast forward 
 You are welcome to view other presentations if you are interested. 
 
 
-Requirements and Use Case Subgroup Introduction I
+Requirements and Use Case Subgroup Introduction 
 """""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -196,14 +188,8 @@ explicitly implementing some patterns based on use cases. The progress
 of gathering use cases (discussed in next two units) and requirements
 systemization are discussed.
 
-.. todo:: The slides or videos are going to be updated
 
-          * Video: http://youtu.be/sztqNXJ9P6c
-
-          * Video: http://youtu.be/0sbfIqHUauI
-
-          * Video: http://youtu.be/u59559nqjiY
-
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMocG5DUm1XSHFTMWc/view?usp=sharing
 
 
 
@@ -228,12 +214,7 @@ Preservation; Statistical Survey Response Improvement (Adaptive
 Design) and Non-Traditional Data in Statistical Survey Response
 Improvement (Adaptive Design).
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/gCqBFYDDzSQ
-
-          * Video B: http://youtu.be/y0nIed-Nxjw
-
+* Video: https://drive.google.com/file/d/0B5plU-u0wqModmVBU1NvU3VxbDg/view?usp=sharing
 
 Commercial Use Cases
 """"""""""""""""""""
@@ -246,14 +227,7 @@ Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
 Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
 Simulation driven Materials Genomics.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/P1iuViI-AKc
-
-          * Video B: http://youtu.be/epFH4w_Q9lc
-
-          * Video C: http://youtu.be/j5kWjL4y7Bo
-
+* Video: https://drive.google.com/file/d/0B5plU-u0wqModmVBU1NvU3VxbDg/view?usp=sharing
 
 
 Defense Use Cases
@@ -264,11 +238,7 @@ identification and tracking from Wide Area Large Format Imagery (WALF)
 Imagery or Full Motion Video (FMV) - Persistent Surveillance and
 Intelligence Data Processing and Analysis.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/8hXG7dinhjg
-
-          * Video B: http://youtu.be/MplyAfmuxko
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoWlFReVRMUTEtekk/view?usp=sharing
 
 
 
@@ -283,13 +253,7 @@ Intelligence for Health Care; World Population Scale Epidemiological
 Study; Social Contagion Modeling for Planning, Public Health and
 Disaster Management and Biodiversity and LifeWatch.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/jVARCWVeYxQ
-
-          * Video B: http://youtu.be/y9zJzrH4P8k
-
-          * Video C: http://youtu.be/eU5emeI3AmM
+* Video A: https://drive.google.com/file/d/0B5plU-u0wqMoNkxMQ3Vpd2lONzA/view?usp=sharing
 
 
 
@@ -304,9 +268,7 @@ Network (Graph) Science and Analytics and NIST Information Access
 Division analytic technology performance measurement, evaluations, and
 standards.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/WLSe6MF4ha4
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMobzBEd3d5UzdBc3c/view?usp=sharing
 
 
 Research Ecosystem Use Cases
@@ -316,9 +278,7 @@ DataNet Federation Consortium DFC; The 'Discinnet process', metadata -
 big data global experiment; Semantic Graph-search on Scientific
 Chemical and Text-based Data and Light source beamlines.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/pZ6JucTCKcw
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoTWhpVkFHTkc2YzA/view?usp=sharing
 
 
 
@@ -331,16 +291,11 @@ Survey and Simulations; Large Survey Data for Cosmology; Particle
 Physics: Analysis of LHC Large Hadron Collider Data: Discovery of
 Higgs particle and Belle II High Energy Physics Experiment.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/rWqkF-b3Kwk
-
-          * Video B: http://youtu.be/RxLCB6yLmpk
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoVGZqdnJQci1kbmc/view?usp=sharing
 
 
-
-Environment, Earth and Polar Science Use Cases I
-""""""""""""""""""""""""""""""""""""""""""""""""
+Environment, Earth and Polar Science Use Cases
+""""""""""""""""""""""""""""""""""""""""""""""
 
 EISCAT 3D incoherent scatter radar system; ENVRI, Common Operations of
 Environmental Research Infrastructure; Radar Data Analysis for CReSIS
@@ -352,11 +307,7 @@ Community Earth System Model at DOE's NERSC center; DOE-BER Subsurface
 Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and
 FLUXNET Networks.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/u2zTIGwsJwU
-
-          * Video B: http://youtu.be/sH3B3gXuJ7E
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoOHgyWkJoTm15eWs/view?usp=sharing
 
 
 
@@ -365,9 +316,8 @@ Energy Use Case
 
 This covers Consumption forecasting in Smart Grids.
 
-.. todo:: The slides or videos are going to be updated
 
-          * Video: http://youtu.be/ttmVypmgWmw
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoclJBLURmaGptY2s/view?usp=sharing
 
 
 
@@ -406,13 +356,7 @@ demand; Pleasingly parallel processing; HPC assimilated with
 observational data; Agent-based models; Multi-modal data fusion or
 Knowledge Management; Crowd Sourcing.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/dfgH6YvHCGE
-
-          * Video B: http://youtu.be/TjHus5-HaMQ
-
-          * Video C: http://youtu.be/EbuNBbt4rQc
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoY2hQeEhHUTZZNkk/view?usp=sharing
 
 
 Database(SQL) Use Case Classification
@@ -422,9 +366,7 @@ This discusses classic (SQL) datbase approach to data handling with
 Search&Query and Index features. Comparisons are made to NoSQL
 approaches.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/8QDcUWjA9Ok
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoM3ZXb3lTUkZkcTA/view?usp=sharing
 
 
 NoSQL Use Case Classification
@@ -434,9 +376,7 @@ This discusses NoSQL (compared in previous lesson) with HDFS, Hadoop
 and Hbase. The Apache Big data stack is introduced and further details
 of comparison with SQL.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/aJ127gkHQUs
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoNjJSMmJBSl9Wamc/view?usp=sharing
 
 
 Use Case Classifications I
@@ -445,9 +385,7 @@ Use Case Classifications I
 This discusses a subset of use case features: GIS, Sensors. the
 support of data analysis and fusion by streaming data between filters.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/STAoaS1T2bM
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoZ1RPSVFSTEhZQWs/view?usp=sharing
 
 
 Use Case Classifications II
@@ -457,11 +395,8 @@ This discusses a subset of use case features: Pleasingly parallel,
 MRStat, Data Assimilation, Crowd sourcing, Agents, data fusion and
 agents, EGO and security.
 
-.. todo:: The slides or videos are going to be updated
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoUzJqS2hvV3VCZGs/view?usp=sharing
 
-          * Video A: http://youtu.be/_tJRzG-jS4A
-
-          * Video B: http://youtu.be/5iHdzMNviZo
 
 
 Use Case Classifications III
@@ -472,11 +407,7 @@ Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and
 local analytics (machine learning), parallel computing, Expectation
 Maximization, graphs and Collaborative Filtering.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video B: http://youtu.be/tITbuwCRVzs
-
-          * Video C: http://youtu.be/0zaXWo8A4Co
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoVFFEQ3lxR1lVdTg/view?usp=sharing
 
 
 
