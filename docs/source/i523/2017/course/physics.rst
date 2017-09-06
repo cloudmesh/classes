@@ -29,10 +29,11 @@ histograms of Higgs Boson production with various forms of shape of
 signal and various background and with various event totals. The
 lectures use Python but use of Java is described.
 
+.. i523/public/videos/physics/lecture-8.pptx
 
-.. todo:: Garace, The slides or videos are going to be updated
 
-          Slides: https://iu.app.box.com/s/6uz4ofnnd9usv75cab71
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsV3ZPNXlyWmhVeFE/view?usp=sharing>`_
+
 
 Files: :download:`HiggsClassI-Sloping.py </files/python/physics/mr_higgs/higgs_classI_sloping.py>`
 
@@ -106,10 +107,11 @@ signal and various background and with various event totals.
 
 .. adobe presenter, no where found, ask sidd and wiggum
    
-.. todo:: Grace, The slides or videos are going to be updated
 
-          Slides: https://iu.app.box.com/s/77iw9brrugz2pjoq6fw1
+.. i523/public/videos/physics/lecture-9.pptx
 
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsMURyUUYyUnJueGc/view?usp=sharing>`_
 
 Files:
 
@@ -187,10 +189,10 @@ illustrations are given. Java is currently not available in this
 unit.
 
 
+.. i523/public/videos/physics/lecture-10.pptx
 
-.. todo:: Grace, The slides or videos are going to be updated
 
-   Slides: https://iu.app.box.com/s/bcyze7h8knj6kvhyr05y
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsN1FIdTBOQUx3VFE/view?usp=sharing>`_
 
 :download:`HiggsClassIII.py </files/python/physics/number_theory/higgs_classIII.py>`
 
@@ -216,7 +218,9 @@ state particles seen in a few events. We illustrate how physicists
 decide whats going on with a plot of expected Higgs production
 experimental cross sections (probabilities) for signal and background.
 
+
 * Video A: http://youtu.be/Tn3GBxgplxg
+
 
 * Video B: http://youtu.be/qWEjp0OtvdA
 
@@ -272,9 +276,9 @@ Bayes law concludes discussion. Python and Java (for student - not
 reviewed in class) examples and Physics applications are given.
 
 
-.. todo:: Grace, The slides or videos are going to be updated
+.. i523/public/videos/physics/lecture-11.pptx
 
-          Slides: https://iu.app.box.com/s/me7738igixwzc9h9qwe1
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseU1ZWEVhR0FpR2M/view?usp=sharing>`_
 
 
 Files:
