@@ -192,13 +192,6 @@ systemization are discussed.
 * Video: https://drive.google.com/file/d/0B5plU-u0wqMocG5DUm1XSHFTMWc/view?usp=sharing
 
 
-  .. 
-          * Video: http://youtu.be/sztqNXJ9P6c
-          * Video: http://youtu.be/0sbfIqHUauI
-          * Video: http://youtu.be/u59559nqjiY
-
-
-
 
 51 Big Data Use Cases
 ^^^^^^^^^^^^^^^^^^^^^
@@ -260,13 +253,7 @@ Intelligence for Health Care; World Population Scale Epidemiological
 Study; Social Contagion Modeling for Planning, Public Health and
 Disaster Management and Biodiversity and LifeWatch.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/jVARCWVeYxQ
-
-          * Video B: http://youtu.be/y9zJzrH4P8k
-
-          * Video C: http://youtu.be/eU5emeI3AmM
+* Video A: https://drive.google.com/file/d/0B5plU-u0wqMoNkxMQ3Vpd2lONzA/view?usp=sharing
 
 
 
@@ -281,9 +268,7 @@ Network (Graph) Science and Analytics and NIST Information Access
 Division analytic technology performance measurement, evaluations, and
 standards.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/WLSe6MF4ha4
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMobzBEd3d5UzdBc3c/view?usp=sharing
 
 
 Research Ecosystem Use Cases
@@ -293,9 +278,7 @@ DataNet Federation Consortium DFC; The 'Discinnet process', metadata -
 big data global experiment; Semantic Graph-search on Scientific
 Chemical and Text-based Data and Light source beamlines.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/pZ6JucTCKcw
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoTWhpVkFHTkc2YzA/view?usp=sharing
 
 
 
@@ -308,16 +291,11 @@ Survey and Simulations; Large Survey Data for Cosmology; Particle
 Physics: Analysis of LHC Large Hadron Collider Data: Discovery of
 Higgs particle and Belle II High Energy Physics Experiment.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/rWqkF-b3Kwk
-
-          * Video B: http://youtu.be/RxLCB6yLmpk
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoVGZqdnJQci1kbmc/view?usp=sharing
 
 
-
-Environment, Earth and Polar Science Use Cases I
-""""""""""""""""""""""""""""""""""""""""""""""""
+Environment, Earth and Polar Science Use Cases
+""""""""""""""""""""""""""""""""""""""""""""""
 
 EISCAT 3D incoherent scatter radar system; ENVRI, Common Operations of
 Environmental Research Infrastructure; Radar Data Analysis for CReSIS
@@ -329,11 +307,7 @@ Community Earth System Model at DOE's NERSC center; DOE-BER Subsurface
 Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and
 FLUXNET Networks.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/u2zTIGwsJwU
-
-          * Video B: http://youtu.be/sH3B3gXuJ7E
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoOHgyWkJoTm15eWs/view?usp=sharing
 
 
 
@@ -342,9 +316,8 @@ Energy Use Case
 
 This covers Consumption forecasting in Smart Grids.
 
-.. todo:: The slides or videos are going to be updated
 
-          * Video: http://youtu.be/ttmVypmgWmw
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoclJBLURmaGptY2s/view?usp=sharing
 
 
 
@@ -383,13 +356,7 @@ demand; Pleasingly parallel processing; HPC assimilated with
 observational data; Agent-based models; Multi-modal data fusion or
 Knowledge Management; Crowd Sourcing.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video A: http://youtu.be/dfgH6YvHCGE
-
-          * Video B: http://youtu.be/TjHus5-HaMQ
-
-          * Video C: http://youtu.be/EbuNBbt4rQc
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoY2hQeEhHUTZZNkk/view?usp=sharing
 
 
 Database(SQL) Use Case Classification
@@ -399,9 +366,7 @@ This discusses classic (SQL) datbase approach to data handling with
 Search&Query and Index features. Comparisons are made to NoSQL
 approaches.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/8QDcUWjA9Ok
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoM3ZXb3lTUkZkcTA/view?usp=sharing
 
 
 NoSQL Use Case Classification
@@ -411,9 +376,7 @@ This discusses NoSQL (compared in previous lesson) with HDFS, Hadoop
 and Hbase. The Apache Big data stack is introduced and further details
 of comparison with SQL.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/aJ127gkHQUs
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoNjJSMmJBSl9Wamc/view?usp=sharing
 
 
 Use Case Classifications I
@@ -422,9 +385,7 @@ Use Case Classifications I
 This discusses a subset of use case features: GIS, Sensors. the
 support of data analysis and fusion by streaming data between filters.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video: http://youtu.be/STAoaS1T2bM
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoZ1RPSVFSTEhZQWs/view?usp=sharing
 
 
 Use Case Classifications II
@@ -434,11 +395,8 @@ This discusses a subset of use case features: Pleasingly parallel,
 MRStat, Data Assimilation, Crowd sourcing, Agents, data fusion and
 agents, EGO and security.
 
-.. todo:: The slides or videos are going to be updated
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoUzJqS2hvV3VCZGs/view?usp=sharing
 
-          * Video A: http://youtu.be/_tJRzG-jS4A
-
-          * Video B: http://youtu.be/5iHdzMNviZo
 
 
 Use Case Classifications III
@@ -449,11 +407,7 @@ Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and
 local analytics (machine learning), parallel computing, Expectation
 Maximization, graphs and Collaborative Filtering.
 
-.. todo:: The slides or videos are going to be updated
-
-          * Video B: http://youtu.be/tITbuwCRVzs
-
-          * Video C: http://youtu.be/0zaXWo8A4Co
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoVFFEQ3lxR1lVdTg/view?usp=sharing
 
 
 
