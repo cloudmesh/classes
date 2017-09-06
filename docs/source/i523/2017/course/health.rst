@@ -61,7 +61,7 @@ given in radiology, genomics, personalized medicine, and the
 Quantified Self movement, with sizes and access to European
 Bioinformatics Institute.
 
-.. todo:: The slides or videos are going to be updated 
+.. todo::Thomas, The slides or videos are going to be updated 
           
           Video: http://youtu.be/i7volfOVAmY
 
