@@ -1,5 +1,7 @@
 \documentclass[sigconf]{acmart}
 
+\usepackage{hyperref}
+
 \usepackage{endfloat}
 \renewcommand{\efloatseparator}{\mbox{}} % no new page between figures
 
@@ -260,6 +262,11 @@ A couple of citations with DOIs: \cite{2004:ITE:1009386.1010128,
 
 Online citations: \cite{TUGInstmem, Thornburg01, CTANacmart}.  
 
+We use jabref to manage all citations. A paper without managing a bib
+file will be returned without review. in the bibtex file all urls are
+added to rfernces with the {\it url} filed. They are not to be
+included in the {\it howpublished} or {\it note} field. 
+
 
 \subsection{Tables}
 
@@ -500,6 +507,6 @@ Of course, reading the source code is always useful.  The file
 \end{acks}
 
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{sample-bibliography} 
+\bibliography{report} 
 
 \end{document}

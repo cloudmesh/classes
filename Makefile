@@ -20,6 +20,7 @@ doc: convert
 
 convert:
 	cd docs/source; ./convert.py
+	python bin/citations.py 
 
 all: doc pdf
 	echo done
@@ -72,7 +73,7 @@ build: clean
 bpublish: publish
 	cp docs/build/latex/book.pdf docs/build/html
 
-publish:
+publish: clean doc
 	ghp-import -n -p docs/build/html
 
 view:

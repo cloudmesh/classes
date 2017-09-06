@@ -63,6 +63,7 @@ References
 
 .. rubric:: References
 
-.. bibliography:: ../../references.bib
+.. bibliography:: technologies-tmp.bib
+   :labelprefix: tech0
    :style: unsrt
    :cited:

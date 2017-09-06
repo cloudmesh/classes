@@ -56,9 +56,9 @@ terms. Building and accessing an inverted index is followed by the
 importance of term specificity and how it is captured in TF-IDF. We
 note how frequencies are converted into belief and relevance.
 
-.. todo:: The slides or videos are going to be updated
-          
-          Slides: https://iu.app.box.com/s/qo7itbtcxp2b58syz3jg
+.. i523/public/videos/web/lecture-26.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseW5oNW5KY0g5dEk/view?usp=sharing>`_
 
 
 
@@ -187,7 +187,7 @@ Resources
 * http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
 
 Web Search and Text Mining II
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -200,9 +200,9 @@ advertising. The use of clustering and topic models completes unit
 with Google News as an example.
 
 
-.. todo:: The slides or videos are going to be updated
-          
-          Slides: https://iu.app.box.com/s/iuzc1qfep748z1o2kgx2
+.. i523/public/videos/web/lecture-27.pptx
+
+* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsaW44NnU5YXptUkU/view?usp=sharing>`_
 
 
 Data Analytics for Web Search

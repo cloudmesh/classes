@@ -239,10 +239,12 @@ To install pyenv with homebrew execute in the terminal::
 Install pyenv on Ubuntu
 """""""""""""""""""""""
 
-.. warning:: the installation on ubuntu is not tested and we are
-             looking for feedback
-             
-::
+The following steps will install pyenv in a new ubuntu 16.04
+distribution.
+
+Start up a terminal and execute in the terminal the following
+commands. We recommend that you do it one command at a time so you can
+observe if the command succeeds::
 
    $ sudo apt-get update
    $ sudo apt-get install git python-pip make build-essential libssl-dev
@@ -256,7 +258,18 @@ Install pyenv on Ubuntu
    $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
    $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 
+Now that you have installed pyenv it is not yet activated in your
+current terminal. The easiest thing to do is to start a new terminal
+and typ in::
 
+  which pyenv
+
+If you see a response pyenv is installed and you can proceed with the
+next steps.
+
+.. note:: Please remember whenever you modify .bashrc or
+          .bash_profile you need to start a new terminal.
+   
 Install Different Python Versions
 """""""""""""""""""""""""""""""""
 
@@ -277,9 +290,13 @@ You can set the global python default version with::
 
    $ pyenv global 2.7.13
 
-Type the following to determine which versions you have available::
+Type the following to determine which version you activated::
 
    $ pyenv version
+
+Type the following to determine which versions you have available::
+
+   $ pyenv versions
 
 Associate a specific environment name with a certain python version,
 use the following commands::
@@ -1760,6 +1777,17 @@ otherwise stated.
 .. _Tutorials Point: http://www.tutorialspoint.com/python/
 .. _references for learning: https://wiki.python.org/moin/BeginnersGuide/Programmers
 .. _Learn Python: https://www.learnpython.org
+
+
+
+Jupyter Notebook Tutorials
+--------------------------
+
+A Short Introduction to Jupyter Notebooks and NumPy 
+To view the notebook, open this link in a background tab <https://nbviewer.jupyter.org/>
+and copy and paste the following link in the URL input area
+<https://cloudmesh.github.io/classes/lesson/prg/Jupyter-NumPy-tutorial-I523-F2017.ipynb>
+Then hit Go!
 
 
 .. _lab-python-1:

@@ -100,10 +100,16 @@ significant new experimental computing grid and cloud test-bed to the
 research community, together with user supports. His research
 interests are parallel and distributed systems, and cloud computing
 
-Juliet Zerick
-^^^^^^^^^^^^^
+Juliette Zerick
+^^^^^^^^^^^^^^^
 
-.. todo:: Juliet, please add bio
+**Juliette Zerick** is a first-year ISE grad. She has not yet picked
+a specialization, but she has taken a liking to robotics. She received
+her undergraduate degree at the University of Mary Washington and
+has traveled to various schools and labs, eventually winding up working
+as a data scientist at AT&T, and now Indiana University. She does not
+like having her picture taken, so to locate her, just look for the TA
+lugging a motorcycle helmet around.
 
 Saber Sheybani
 ^^^^^^^^^^^^^^

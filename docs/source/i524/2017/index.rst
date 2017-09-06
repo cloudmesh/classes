@@ -6,7 +6,6 @@ I524 Big Data and Open Source Software Projects (2017)
 
    preface/index
    overview
-   index
    calendar
    lectures
    assignments

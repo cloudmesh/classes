@@ -59,7 +59,6 @@ given in radiology, genomics, personalized medicine, and the
 Quantified Self movement, with sizes and access to European
 Bioinformatics Institute.
 
-
 Video: https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
 
 
