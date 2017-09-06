@@ -29,9 +29,7 @@ X-Informatics Case Study: Health Informatics
 Overview
 """"""""
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Slides: https://iu.app.box.com/s/4v7omhmfpzd4y1bkpy9iab6o4jyephoa
+Slides: https://drive.google.com/file/d/0B5plU-u0wqMoODFRVF9CT1NPbEk/view?usp=sharing
 
 This section starts by discussing general aspects of Big Data and
 Health including data sizes, different areas including genomics, EBI,
@@ -61,9 +59,8 @@ given in radiology, genomics, personalized medicine, and the
 Quantified Self movement, with sizes and access to European
 Bioinformatics Institute.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/i7volfOVAmY
+
+Video: https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
 
 
 
@@ -74,9 +71,8 @@ This covers trends of costs and type of healthcare with low cost
 genomes and an aging population. Social media and government Brain
 initiative.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/tAT3pux4zeg
+
+Video: https://drive.google.com/file/d/0B5plU-u0wqMoOEYxVzQxQWtpZXM/view?usp=sharing
 
 
 Telemedicine (Virtual Health)
@@ -85,9 +81,8 @@ Telemedicine (Virtual Health)
 This describes increasing use of telemedicine and how we tried and
 failed to do this in 1994.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/4JbGim9FFXg
+
+Video: https://drive.google.com/file/d/0B5plU-u0wqMoVWxfeHVaWWR4c0E/view?usp=sharing
 
 
 Big Data and Healthcare Industry
@@ -95,9 +90,8 @@ Big Data and Healthcare Industry
 
 Summary of an industry survey by GE and Accenture.
 
-.. todo:: The slides or videos are going to be updated  
-          
-          Video: http://youtu.be/wgK9JIUiWpQ
+
+Video: https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
 
 
 Medical Big Data in the Clouds
@@ -105,17 +99,14 @@ Medical Big Data in the Clouds
 
 An impressive exemplar Cloud-based medicine system from Potsdam.
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/-D9mEdM62uY
+
+Video: https://drive.google.com/file/d/0B5plU-u0wqMoSXk3cFd0Z0Yyems/view?usp=sharing
 
 
 Medical image Big Data
 """"""""""""""""""""""
 
-.. todo:: The slides or videos are going to be updated 
-          
-          Video: http://youtu.be/aaNplveyKf0
+Video: https://drive.google.com/file/d/0B5plU-u0wqMoT1JsYnJXRFFpdWM/view?usp=sharing
 
 
 Clouds and Health
