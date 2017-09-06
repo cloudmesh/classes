@@ -45,9 +45,8 @@ that particles often manifested as bumps in histograms and those bumps
 need to be large enough to stand out from background in a
 statistically significant fashion.
 
-.. todo:: Grace, The slides or videos are going to be updated
 
-          Video: http://youtu.be/VQAupoFUWTg
+* Video: https://drive.google.com/file/d/0B5plU-u0wqMoTDdKYUxPRHFFV3M/view?usp=sharing
 
 
 We give a few details on one LHC experiment ATLAS. Experimental
@@ -127,9 +126,11 @@ We discuss how this unit uses Java and Python on both a backend server
 (FutureGrid) or a local client. WE point out useful book on Python for
 data analysis. This builds on technology training in Section 3.
 
-.. todo:: Grace, The slides or videos are going to be updated
 
-          Video: http://youtu.be/tOFJEUM-Vww
+ * Video: https://drive.google.com/file/d/0B1Of61fJF7WsMm12eG5HQVNHUms/view?usp=sharing
+   
+
+This video contains Java information, but we are no longer using Java in this class.
 
 
 
@@ -203,9 +204,9 @@ Statistics Overview and Fundamental Idea: Random Variables
 We go through the many different areas of statistics covered in the
 Physics unit. We define the statistics concept of a random variable.
 
-.. todo:: Grace, The slides or videos are going to be updated
 
-          Video: http://youtu.be/0oZzALLzYBM
+
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsV0VxQldFQzFuUTQ/view?usp=sharing
 
 
 Physics and Random Variables
@@ -292,9 +293,8 @@ We define random numbers and describe how to generate them on the
 computer giving Python examples. We define the seed used to define to
 specify how to start generation.
 
-.. todo:: Grace, The slides or videos are going to be updated
 
-          Video: http://youtu.be/76jbRphjRWo
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsTEM0em1YYW83RnM/view?usp=sharing
 
 *          Video: http://youtu.be/9QY5qkQj2Ag
 
