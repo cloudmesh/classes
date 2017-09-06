@@ -183,8 +183,8 @@ one middle of the road and one negative.
 * Video: https://drive.google.com/file/d/0B5plU-u0wqMoLTJqNUVLT3RqTkU/view?usp=sharing
 
 
-Genomics, Proteomics and Information Visualization I
-""""""""""""""""""""""""""""""""""""""""""""""""""""
+Genomics, Proteomics and Information Visualization
+""""""""""""""""""""""""""""""""""""""""""""""""""
 
 A study of an Azure application with an Excel frontend and a cloud
 BLAST backend starts this lesson. This is followed by a big data
@@ -198,13 +198,11 @@ is discussed. We note that the MDS approach is related to the well
 known chisq method and some aspects of nonlinear minimization of chisq
 (Least Squares) are discussed.
 
-* Video: https://drive.google.com/file/d/0B5plU-u0wqMoVzduODM0Z2dFYWM/view?usp=sharing
+
+* Video A: https://drive.google.com/file/d/0B5plU-u0wqMoVzduODM0Z2dFYWM/view?usp=sharing
 
 
-Genomics, Proteomics and Information Visualization II
-"""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-This lesson continues the discussion of the COG Protein Universe
+Next we continue the discussion of the COG Protein Universe
 introduced in the last lesson. It is shown how Proteomics clusters are
 clearly seen in the Universe browser. This motivates a side remark on
 different clustering methods applied to metagenomics. Then we discuss
@@ -221,9 +219,15 @@ emphasizing the importance of visualizing results of data analytics.
 The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
+.. todo:: Miao, please check there was conflict here
+
 * Video A: https://drive.google.com/file/d/0B5plU-u0wqMobXdEQWRHWl95UTA/view?usp=sharing
    
 * Video B: https://drive.google.com/file/d/0B5plU-u0wqModlhmdVUwdGlQNTA/view?usp=sharing
+
+.. google:i523/public/videos/health/big-data-in-clouds.mp4
+
+.. https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
 
 * Slides: https://drive.google.com/file/d/0B5plU-u0wqMoUUp0MGRDYldMTzA/view?usp=sharing
 
