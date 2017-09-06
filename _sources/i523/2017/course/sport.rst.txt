@@ -74,8 +74,6 @@ Another, Sabermetrics Example, Summary of Sabermetrics.
 Resources
 """""""""
 
-.. todo:: The slides or videos are going to be updated
-
 * http://www.slideshare.net/BrandEmotivity/sports-analytics-innovation-summit-data-powered-storytelling
 * http://www.sloansportsconference.com/
 * http://sabr.org/
@@ -157,8 +155,6 @@ FIELDf/X, MLBAM, HITf/X, COMMANDf/X.
 Resources
 """""""""
 
-.. todo:: The slides or videos are going to be updated
-
 * http://vincegennaro.mlblogs.com/
 * https://www.youtube.com/watch?v=H-kx-x_d0Mk
 * http://www.sportvision.com/media/pitchfx-how-it-works
@@ -228,8 +224,6 @@ Tennis, Horse Racing, and Continued Emphasis on Spatial Visualization.
 
 Resources
 """""""""
-
-.. todo:: The slides or videos are going to be updated
 
 * http://www.sloansportsconference.com/?page_id=481&sort_cate=Research%20Paper
 * http://www.slideshare.net/Tricon_Infotech/big-data-for-big-sports

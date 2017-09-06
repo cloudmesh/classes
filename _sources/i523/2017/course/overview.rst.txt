@@ -135,11 +135,9 @@ offline in shopping malls. We give examples from ebay showing how
 analytics allowing them to refine and improve the customer
 experiences.
           
-Video 1: http://youtu.be/PJz38t6yn_s
-          
-Video 2: http://youtu.be/fESm-2Vox9M
-
-Video 3: http://youtu.be/fcvn-IxPO00
+* Video 1: http://youtu.be/PJz38t6yn_s
+* Video 2: http://youtu.be/fESm-2Vox9M
+* Video 3: http://youtu.be/fcvn-IxPO00
 
 
 Resources
@@ -194,9 +192,8 @@ European Bioinformatics Institute and contrast to Facebook and
 Walmart.
 
 
-Video 1: http://youtu.be/u1h6bAkuWQ8
-
-Video 2: http://youtu.be/_JfcUg2cheg
+* Video 1: http://youtu.be/u1h6bAkuWQ8
+* Video 2: http://youtu.be/_JfcUg2cheg
 
 
 Implications for Scientific Method
@@ -309,9 +306,8 @@ Big data are compared. We give an example where "More data usually
 beats better algorithms". We discuss examples of intelligent big data
 and list 8 different types of data deluge
 
-Video 1: http://youtu.be/FMktnTQGyrw
-
-Video 2: http://youtu.be/QNVZobXHiZw
+* Video 1: http://youtu.be/FMktnTQGyrw
+* Video 2: http://youtu.be/QNVZobXHiZw
 
 
 
@@ -329,20 +325,19 @@ data through the DIKW pipeline.
 Data Analytics
 """"""""""""""
 
+Slides:
+
+* http://archive2.cra.org/ccc/files/docs/nitrdsymposium/keyes.pdf
+
 We stress the importance of data analytics giving examples from
 several fields. We note that better analytics is as important as
-better computing and storage capability.
+better computing and storage capability.  In the second video we look
+at High Performance Computing in Science and Engineering: the Tree and
+the Fruit.
 
-Video 1: http://youtu.be/RPVojR8jrb8
 
-
-Link to the slide:
-http://archive2.cra.org/ccc/files/docs/nitrdsymposium/keyes.pdf
-
-High Performance Computing in Science and Engineering: the Tree and
-the Fruit
-
-Video 2: http://youtu.be/wOSgywqdJDY
+* Video 1: http://youtu.be/RPVojR8jrb8
+* Video 2: http://youtu.be/wOSgywqdJDY
 
 
 
