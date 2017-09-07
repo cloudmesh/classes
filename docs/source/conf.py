@@ -43,6 +43,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.graphviz',
     'sphinxcontrib.bibtex'
+#    'sphinxcontrib.exceltable'    
 ]
 
 extensions += ['sphinx-prompt']    

@@ -1,9 +1,13 @@
 Bibliography Management
 =======================
 
-.. warning:: THis page is under active development and students are
-	     encouraged to contribute
-	     
+.. note:: Students are actively encouraged to improve this page.
+
+.. todo:: Saber, integrate some of the lesseons and examples we have
+          in i524 piazza into this page. Search for bibtex and als for
+          "Open Discussion:"
+
+.. todo:: Saber, make all keys in bibtex entries lower case
 
 In this section we will explain how to find and properly generate
 bibliographic entries. We are using bibtex for this as it is easy to
@@ -376,9 +380,9 @@ Lets look at it and we find two entries::
     editor    = {Markus Helfert and
 		 Donald Ferguson and
 		 V{\'{\i}}ctor M{\'{e}}ndez Mu{\-{n}}oz},
-    title     = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
+    title     = {{CLOSER 2015 - Proceedings of the 5th International Conference on
 		 Cloud Computing and Services Science, Lisbon, Portugal, 20-22 May,
-		 2015},
+		 2015}},
     publisher = {SciTePress},
     year      = {2015},
     isbn      = {978-989-758-104-5},
@@ -412,7 +416,8 @@ easier to document::
       OPTorganization = {},
       OPTpublisher = {},
       OPTnote = 	 {},
-      OPTannote = 	 {}
+      OPTannote = 	 {},
+      url = {}
     }
 
 So lets copy and fill out the **form** from our various searches::
@@ -421,11 +426,11 @@ So lets copy and fill out the **form** from our various searches::
       author    = {Johannes Wettinger and
   		 Uwe Breitenb{\"{u}}cher and
   		 Frank Leymann},
-      title     = {{ANY2API} - Automated APIfication - Generating APIs for Executables
+      title     = {{ANY2API - Automated APIfication - Generating APIs for Executables
 		 to Ease their Integration and Orchestration for Cloud Application
-		 Deployment Automation},
-      booktitle = {{CLOSER} 2015 - Proceedings of the 5th International Conference on
-  		   Cloud Computing and Services Science},
+		 Deployment Automation}},
+      booktitle = {{CLOSER 2015 - Proceedings of the 5th International Conference on
+  		   Cloud Computing and Services Science}},
       year = 	 {2015},
       editor    = {Markus Helfert and
  		   Donald Ferguson and
@@ -457,17 +462,130 @@ Please see https://en.wikipedia.org/wiki/BibTeX
 InProceedings
 -------------
 
+
 Please fill out
+
+::
+
+  @InProceedings{,
+    author =       {},
+    title =        {},
+    OPTcrossref =  {},
+    OPTkey =       {},
+    OPTbooktitle = {},
+    OPTyear =      {},
+    OPTeditor =    {},
+    OPTvolume =    {},
+    OPTnumber =    {},
+    OPTseries =    {},
+    OPTpages =     {},
+    OPTmonth =     {},
+    OPTaddress =   {},
+    OPTorganization = {},
+    OPTpublisher = {},
+    OPTnote =      {},
+    OPTannote =    {},
+    url = {}
+  }
+
+::
+
+  @inproceedings{vonLaszewski15tas,
+    author =	 {DeLeon, Robert L. and Furlani, Thomas R. and Gallo,
+                    Steven M. and White, Joseph P. and Jones, Matthew
+                    D. and Patra, Abani and Innus, Martins and Yearke,
+                    Thomas and Palmer, Jeffrey T. and Sperhac, Jeanette
+                    M. and Rathsam, Ryan and Simakov, Nikolay and von
+                    Laszewski, Gregor and Wang, Fugang},
+    title =	 {{TAS View of XSEDE Users and Usage}},
+    booktitle =	 {Proceedings of the 2015 XSEDE Conference: Scientific
+                    Advancements Enabled by Enhanced
+                    Cyberinfrastructure},
+    series =	 {XSEDE '15},
+    year =	 2015,
+    isbn =	 {978-1-4503-3720-5},
+    location =	 {St. Louis, Missouri},
+    pages =	 {21:1--21:8},
+    articleno =	 21,
+    numpages =	 8,
+    url =		 {http://doi.acm.org/10.1145/2792745.2792766},
+    doi =		 {10.1145/2792745.2792766},
+    acmid =	 2792766,
+    publisher =	 {ACM},
+    address =	 {New York, NY, USA},
+    keywords =	 {HPC, SUPReMM, TAS, XDMoD, XSEDE usage, XSEDE users},
+  }
 
 TechReport
 ----------
 
 Please fill out
 
+::
+
+  @TechReport{,
+    author =       {},
+    title =        {},
+    institution =  {},
+    year =         {},
+    OPTkey =       {},
+    OPTtype =      {},
+    OPTnumber =    {},
+    OPTaddress =   {},
+    OPTmonth =     {},
+    OPTnote =      {},
+    OPTannote =    {},
+    url = {}    
+  }
+
+::
+
+  @TechReport{las05exp,
+    title =	 {{The Java CoG Kit Experiment Manager}},
+    Author =	 {von Laszewski, Gregor},
+    Institution =	 {Argonne National Laboratory},
+    Year =	 2005,
+    Month =	 jun,
+    Number =	 {P1259},
+    url = {https://laszewski.github.io/papers/vonLaszewski-exp.pdf}
+  }
+ 
 Article
 -------
 
 Please fill out
+
+::
+
+  @Article{,
+    author =       {},
+    title =        {},
+    journal =      {},
+    year =         {},
+    OPTkey =       {},
+    OPTvolume =    {},
+    OPTnumber =    {},
+    OPTpages =     {},
+    OPTmonth =     {},
+    OPTnote =      {},
+    OPTannote =    {},,
+    url = {}
+  }
+
+::
+
+  @Article{las05gridhistory,
+    title =	 {{The Grid-Idea and Its Evolution}},
+    author =	 {von Laszewski, Gregor},
+    journal =	 {Journal of Information Technology},
+    year =	 2005,
+    month =	 jun,
+    number =	 6,
+    pages =	 {319-329},
+    volume =	 47,
+    doi =		 {10.1524/itit.2005.47.6.319},
+    url = {https://laszewski.github.io/papers/vonLaszewski-grid-idea.pdf}
+  }
 
 Proceedings
 -----------
@@ -475,20 +593,149 @@ Proceedings
 Please fill out
 
 
+::
+
+  @Proceedings{,
+    title =        {},
+    year =         {},
+    OPTkey =       {},
+    OPTbooktitle = {},
+    OPTeditor =    {},
+    OPTvolume =    {},
+    OPTnumber =    {},
+    OPTseries =    {},
+    OPTaddress =   {},
+    OPTmonth =     {},
+    OPTorganization = {},
+    OPTpublisher = {},
+    OPTnote =      {},
+    OPTannote =    {},
+    url = {}
+  }
+
+::
+ 
+  @Proceedings{las12fedcloud-proc,
+    title =	 {{FederatedClouds '12: Proceedings of the 2012
+                    Workshop on Cloud Services, Federation, and the 8th
+                    Open Cirrus Summit}},
+    year =	 2012,
+    address =	 {New York, NY, USA},
+    editor =	 {vonLaszewski, Gregor and Robert Grossman and Michael
+                    Kozuchand Rick McGeerand Dejan Milojicic},
+    publisher =	 {ACM},
+    iSBN =	 {978-1-4503-1754-2},
+    location =	 {San Jose, California, USA},
+    url =
+                    {http://dl.acm.org/citation.cfm?id=2378975&picked=prox&cfid=389635474&cftoken=32712991}
+  }
+
 Wikipedia Entry
 ---------------
 
 Please fill out
 
+
+::
+
+  @Misc{,
+    OPTkey =       {},
+    OPTauthor =    {},
+    OPTtitle =     {},
+    OPThowpublished = {},
+    OPTmonth =     {},
+    OPTyear =      {},
+    OPTnote =      {},
+    OPTannote =    {},
+    url = {}
+  }
+
+::
+
+  @Misc{www-ode-wikipedia,
+    Title =	 {Apache ODE},
+    HowPublished = {Web Page},
+    Note =	 {Accessed: 2017-2-11},
+    Key =		 {Apache ODE},
+    Url =		 {https://en.wikipedia.org/wiki/Apache_ODE}
+  }
+  
 Blogs
 ---------------
 
 Please fill out
 
+::
+
+  @Misc{,
+    OPTkey =       {},
+    OPTauthor =    {},
+    OPTtitle =     {},
+    OPThowpublished = {},
+    OPTmonth =     {},
+    OPTyear =      {},
+    OPTnote =      {},
+    OPTannote =    {},
+    OPTurl = {}
+  }
+
+::
+
+  @Misc{www-clarridge-discoproject-blog,
+    title =	 {Disco - A Powerful Erlang and Python Map/Reduce
+                    Framework},
+    uthor =	 {Clarridge, Tait},
+    howpublished = {Blog},
+    month =	 may,
+    note =	 {Accessed: 25-feb-2017},
+    year =	 2014,
+    url =  {http://www.taitclarridge.com/techlog/2014/05/disco-a-powerful-erlang-and-python-mapreduce-framework.html}
+  }
+
 Web Page
 --------
 
 Please fill out
+
+
+::
+
+  @Misc{, 
+    OPTkey =       {}, 
+    OPTauthor =    {}, 
+    OPTtitle =     {}, 
+    OPThowpublished = {}, 
+    OPTmonth =     {}, 
+    OPTyear =      {}, 
+    OPTnote =      {},
+    OPTannote =    {},
+    url = {}
+  }
+
+::
+
+  @Misc{www-cloudmesh-classes,
+    OPTkey =       {},
+    author =    {von Laszewski, Gregor},
+    title =     {Cloudmesh Classes},
+    howpublished = {Web Page},
+    OPTmonth =     {},
+    OPTyear =      {},
+    OPTnote =      {},
+    OPTannote =    {},
+    url = {https://cloudmesh.github.io/classes/}
+  }
+
+::
+
+  @Misc{www-awslambda,
+    title =	 {AWS Lambda},
+    author =	 {{Amazon}},
+    key =		 {AWS Lambda},
+    howpublished = {Web Page},
+    url =		 {https://aws.amazon.com/lambda/faqs/}
+  }
+
 
 Book
 ----------------------------

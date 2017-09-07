@@ -1,3 +1,5 @@
+:orphan:
+
 ## Recreational Recess Activities (for STEM students only)
 
 As part of courses (typically offered in camp settings) we may also
