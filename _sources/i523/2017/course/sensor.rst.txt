@@ -16,11 +16,9 @@ the smart electric grid.
 
 
 .. i523/public/videos/sensors/lecture-36-lessons-2-4.pptx
-
-* Slides: `PPT1 <https://drive.google.com/file/d/0B1Of61fJF7WsSnRPaUdJQzVmejA/view?usp=sharing>`_
-
 .. i523/public/videos/sensors/lecture-36-lessons-1-5-6-7-8.pptx
-
+   
+* Slides: `PPT1 <https://drive.google.com/file/d/0B1Of61fJF7WsSnRPaUdJQzVmejA/view?usp=sharing>`_
 * Slides: `PPT2 <https://drive.google.com/file/d/0B1Of61fJF7WsdVFOdHpWdzdSYmc/view?usp=sharing>`_
 
 
