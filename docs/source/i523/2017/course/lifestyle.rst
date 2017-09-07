@@ -134,15 +134,11 @@ Netflix Kaggle competition to improve its rating system. The analogy
 to maximizing click through rate is given and the objectives of
 optimization are given.
  
-          
-<<<<<<< HEAD
-          * Video 1: https://youtu.be/tXsU5RRAD-w
-          * Video 2: https://youtu.be/GnAol5aGuEo
-=======
+
+
  * Video : https://drive.google.com/file/d/0B1Of61fJF7WsSldPN0FCcGNmY1k/view?usp=sharing
 
 
->>>>>>> 19d80432c6ec6a5897216ed5627257d9ab229494
 
 
 Consumer Data Science
@@ -160,11 +156,11 @@ household.
 
  
           
-<<<<<<< HEAD
-          * Video: https://youtu.be/B8cjaOQ57LI
-=======
+
 * Video: https://youtu.be/B8cjaOQ57LI
->>>>>>> 19d80432c6ec6a5897216ed5627257d9ab229494
+
+* Video: https://youtu.be/B8cjaOQ57LI
+
 
 
 Resources
@@ -195,15 +191,10 @@ in user rankings to predict their interests, and the Pearson
 correlation, used to statistically quantify correlations between users
 viewed as points in a space of items.
 
-<<<<<<< HEAD
-.. todo:: Saber, The slides or videos are going to be updated 
-          
-          * Slides: https://iu.app.box.com/s/pqa1xpk7g4jnr7k2xlbe
-=======
 
           
- * Slides:https://drive.google.com/file/d/0B5plU-u0wqMoRmxNUVBVdFREQXc/view?usp=sharing
->>>>>>> 19d80432c6ec6a5897216ed5627257d9ab229494
+ * Slides: https://drive.google.com/file/d/0B5plU-u0wqMoRmxNUVBVdFREQXc/view?usp=sharing
+
 
 
 Recap and Examples of Recommender Systems
@@ -214,11 +205,9 @@ what they are with brief examples.
 
 
           
-<<<<<<< HEAD
-          * Video: https://youtu.be/dcdm5AfGZ64
-=======
+
  * Video: https://drive.google.com/file/d/0B1Of61fJF7WsWFJ2V0FGaExmX0k/view?usp=sharing
->>>>>>> 19d80432c6ec6a5897216ed5627257d9ab229494
+
 
 
 
@@ -249,17 +238,13 @@ on-line (real time) components.
 
 
           
-<<<<<<< HEAD
-          * Video 1: https://youtu.be/FBn7HpGFNvg
-          * Video 2: https://youtu.be/VS2Y4lAiP5A
-          * Video 3: https://youtu.be/HrRJWEF8EfU
-=======
+
 * Video 1: https://youtu.be/FBn7HpGFNvg
 
 * Video 2: https://youtu.be/VS2Y4lAiP5A
 
 * Video 3: https://youtu.be/HrRJWEF8EfU
->>>>>>> 19d80432c6ec6a5897216ed5627257d9ab229494
+
 
 
 
