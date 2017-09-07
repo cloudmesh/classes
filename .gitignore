@@ -23,4 +23,4 @@ build
 .vagrant
 .env
 .ipynb_checkpoints
-.swp
+*.swp
