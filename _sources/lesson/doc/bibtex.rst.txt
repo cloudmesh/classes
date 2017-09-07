@@ -5,6 +5,8 @@ Bibliography Management
 	     encouraged to contribute
 	     
 
+.. todo:: Saber, make all keys in bibtex entries lower case
+
 In this section we will explain how to find and properly generate
 bibliographic entries. We are using bibtex for this as it is easy to
 use and generates reasonable entries that can be included in
@@ -412,7 +414,8 @@ easier to document::
       OPTorganization = {},
       OPTpublisher = {},
       OPTnote = 	 {},
-      OPTannote = 	 {}
+      OPTannote = 	 {},
+      url = {}
     }
 
 So lets copy and fill out the **form** from our various searches::
@@ -479,7 +482,8 @@ Please fill out
     OPTorganization = {},
     OPTpublisher = {},
     OPTnote =      {},
-    OPTannote =    {}
+    OPTannote =    {},
+    url = {}
   }
 
 ::
@@ -528,7 +532,8 @@ Please fill out
     OPTaddress =   {},
     OPTmonth =     {},
     OPTnote =      {},
-    OPTannote =    {}
+    OPTannote =    {},
+    url = {}    
   }
 
 ::
@@ -561,7 +566,8 @@ Please fill out
     OPTpages =     {},
     OPTmonth =     {},
     OPTnote =      {},
-    OPTannote =    {}
+    OPTannote =    {},,
+    url = {}
   }
 
 ::
@@ -601,7 +607,8 @@ Please fill out
     OPTorganization = {},
     OPTpublisher = {},
     OPTnote =      {},
-    OPTannote =    {}
+    OPTannote =    {},
+    url = {}
   }
 
 ::
@@ -637,7 +644,8 @@ Please fill out
     OPTmonth =     {},
     OPTyear =      {},
     OPTnote =      {},
-    OPTannote =    {}
+    OPTannote =    {},
+    url = {}
   }
 
 ::
@@ -665,7 +673,8 @@ Please fill out
     OPTmonth =     {},
     OPTyear =      {},
     OPTnote =      {},
-    OPTannote =    {}
+    OPTannote =    {},
+    OPTurl = {}
   }
 
 ::
@@ -673,7 +682,7 @@ Please fill out
   @Misc{www-clarridge-discoproject-blog,
     title =	 {Disco - A Powerful Erlang and Python Map/Reduce
                     Framework},
-    author =	 {Clarridge, Tait},
+    uthor =	 {Clarridge, Tait},
     howpublished = {Blog},
     month =	 may,
     note =	 {Accessed: 25-feb-2017},
@@ -697,7 +706,8 @@ Please fill out
     OPTmonth =     {}, 
     OPTyear =      {}, 
     OPTnote =      {},
-    OPTannote =    {}
+    OPTannote =    {},
+    url = {}
   }
 
 ::

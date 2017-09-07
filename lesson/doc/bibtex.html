@@ -511,6 +511,10 @@
 <p class="last">THis page is under active development and students are
 encouraged to contribute</p>
 </div>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p class="last">Saber, make all keys in bibtex entries lower case</p>
+</div>
 <p>In this section we will explain how to find and properly generate
 bibliographic entries. We are using bibtex for this as it is easy to
 use and generates reasonable entries that can be included in
@@ -873,7 +877,8 @@ easier to document:</p>
   <span class="n">OPTorganization</span> <span class="o">=</span> <span class="p">{},</span>
   <span class="n">OPTpublisher</span> <span class="o">=</span> <span class="p">{},</span>
   <span class="n">OPTnote</span> <span class="o">=</span>          <span class="p">{},</span>
-  <span class="n">OPTannote</span> <span class="o">=</span>        <span class="p">{}</span>
+  <span class="n">OPTannote</span> <span class="o">=</span>        <span class="p">{},</span>
+  <span class="n">url</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -933,7 +938,8 @@ the identification if a referncei is ok or not.</p>
   <span class="n">OPTorganization</span> <span class="o">=</span> <span class="p">{},</span>
   <span class="n">OPTpublisher</span> <span class="o">=</span> <span class="p">{},</span>
   <span class="n">OPTnote</span> <span class="o">=</span>      <span class="p">{},</span>
-  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{}</span>
+  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{},</span>
+  <span class="n">url</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -979,7 +985,8 @@ the identification if a referncei is ok or not.</p>
   <span class="n">OPTaddress</span> <span class="o">=</span>   <span class="p">{},</span>
   <span class="n">OPTmonth</span> <span class="o">=</span>     <span class="p">{},</span>
   <span class="n">OPTnote</span> <span class="o">=</span>      <span class="p">{},</span>
-  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{}</span>
+  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{},</span>
+  <span class="n">url</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -1009,7 +1016,8 @@ the identification if a referncei is ok or not.</p>
   <span class="n">OPTpages</span> <span class="o">=</span>     <span class="p">{},</span>
   <span class="n">OPTmonth</span> <span class="o">=</span>     <span class="p">{},</span>
   <span class="n">OPTnote</span> <span class="o">=</span>      <span class="p">{},</span>
-  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{}</span>
+  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{},,</span>
+  <span class="n">url</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -1045,7 +1053,8 @@ the identification if a referncei is ok or not.</p>
   <span class="n">OPTorganization</span> <span class="o">=</span> <span class="p">{},</span>
   <span class="n">OPTpublisher</span> <span class="o">=</span> <span class="p">{},</span>
   <span class="n">OPTnote</span> <span class="o">=</span>      <span class="p">{},</span>
-  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{}</span>
+  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{},</span>
+  <span class="n">url</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -1077,7 +1086,8 @@ the identification if a referncei is ok or not.</p>
   <span class="n">OPTmonth</span> <span class="o">=</span>     <span class="p">{},</span>
   <span class="n">OPTyear</span> <span class="o">=</span>      <span class="p">{},</span>
   <span class="n">OPTnote</span> <span class="o">=</span>      <span class="p">{},</span>
-  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{}</span>
+  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{},</span>
+  <span class="n">url</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -1102,14 +1112,15 @@ the identification if a referncei is ok or not.</p>
   <span class="n">OPTmonth</span> <span class="o">=</span>     <span class="p">{},</span>
   <span class="n">OPTyear</span> <span class="o">=</span>      <span class="p">{},</span>
   <span class="n">OPTnote</span> <span class="o">=</span>      <span class="p">{},</span>
-  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{}</span>
+  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{},</span>
+  <span class="n">OPTurl</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="p">}</span>
 </pre></div>
 </div>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="nd">@Misc</span><span class="p">{</span><span class="n">www</span><span class="o">-</span><span class="n">clarridge</span><span class="o">-</span><span class="n">discoproject</span><span class="o">-</span><span class="n">blog</span><span class="p">,</span>
   <span class="n">title</span> <span class="o">=</span>      <span class="p">{</span><span class="n">Disco</span> <span class="o">-</span> <span class="n">A</span> <span class="n">Powerful</span> <span class="n">Erlang</span> <span class="ow">and</span> <span class="n">Python</span> <span class="n">Map</span><span class="o">/</span><span class="n">Reduce</span>
                   <span class="n">Framework</span><span class="p">},</span>
-  <span class="n">author</span> <span class="o">=</span>     <span class="p">{</span><span class="n">Clarridge</span><span class="p">,</span> <span class="n">Tait</span><span class="p">},</span>
+  <span class="n">uthor</span> <span class="o">=</span>      <span class="p">{</span><span class="n">Clarridge</span><span class="p">,</span> <span class="n">Tait</span><span class="p">},</span>
   <span class="n">howpublished</span> <span class="o">=</span> <span class="p">{</span><span class="n">Blog</span><span class="p">},</span>
   <span class="n">month</span> <span class="o">=</span>      <span class="n">may</span><span class="p">,</span>
   <span class="n">note</span> <span class="o">=</span>       <span class="p">{</span><span class="n">Accessed</span><span class="p">:</span> <span class="mi">25</span><span class="o">-</span><span class="n">feb</span><span class="o">-</span><span class="mi">2017</span><span class="p">},</span>
@@ -1130,7 +1141,8 @@ the identification if a referncei is ok or not.</p>
   <span class="n">OPTmonth</span> <span class="o">=</span>     <span class="p">{},</span>
   <span class="n">OPTyear</span> <span class="o">=</span>      <span class="p">{},</span>
   <span class="n">OPTnote</span> <span class="o">=</span>      <span class="p">{},</span>
-  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{}</span>
+  <span class="n">OPTannote</span> <span class="o">=</span>    <span class="p">{},</span>
+  <span class="n">url</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="p">}</span>
 </pre></div>
 </div>
