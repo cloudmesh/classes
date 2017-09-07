@@ -134,7 +134,7 @@ Netflix Kaggle competition to improve its rating system. The analogy
 to maximizing click through rate is given and the objectives of
 optimization are given.
  
- * Video : https://drive.google.com/file/d/0B1Of61fJF7WsSldPN0FCcGNmY1k/view?usp=sharing
+* Video : https://drive.google.com/file/d/0B1Of61fJF7WsSldPN0FCcGNmY1k/view?usp=sharing
 
 
 
@@ -155,7 +155,6 @@ household.
           
 
 * Video: https://youtu.be/B8cjaOQ57LI
-
 * Video: https://youtu.be/B8cjaOQ57LI
 
 
@@ -190,7 +189,7 @@ viewed as points in a space of items.
 
 
           
- * Slides: https://drive.google.com/file/d/0B5plU-u0wqMoRmxNUVBVdFREQXc/view?usp=sharing
+* Slides: https://drive.google.com/file/d/0B5plU-u0wqMoRmxNUVBVdFREQXc/view?usp=sharing
 
 
 
@@ -203,7 +202,7 @@ what they are with brief examples.
 
           
 
- * Video: https://drive.google.com/file/d/0B1Of61fJF7WsWFJ2V0FGaExmX0k/view?usp=sharing
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsWFJ2V0FGaExmX0k/view?usp=sharing
 
 
 
@@ -233,13 +232,8 @@ stress that if though we have big data, the recommender data is
 sparse. We discuss the approach that involves both batch (offline) and
 on-line (real time) components.
 
-
-          
-
 * Video 1: https://youtu.be/FBn7HpGFNvg
-
 * Video 2: https://youtu.be/VS2Y4lAiP5A
-
 * Video 3: https://youtu.be/HrRJWEF8EfU
 
 

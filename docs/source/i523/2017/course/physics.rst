@@ -54,7 +54,7 @@ physics papers have a staggering number of authors and quite big
 budgets. Feynman diagrams describe processes in a fundamental
 fashion.
 
-*        Video: http://youtu.be/UAMzmOgjj7I
+* Video: http://youtu.be/UAMzmOgjj7I
 
 
 Physics-Informatics Looking for Higgs Particle Experiments
@@ -127,7 +127,7 @@ We discuss how this unit uses Java and Python on both a backend server
 data analysis. This builds on technology training in Section 3.
 
 
- * Video: https://drive.google.com/file/d/0B1Of61fJF7WsMm12eG5HQVNHUms/view?usp=sharing
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsMm12eG5HQVNHUms/view?usp=sharing
    
 
 This video contains Java information, but we are no longer using Java in this class.
@@ -203,8 +203,6 @@ Statistics Overview and Fundamental Idea: Random Variables
 
 We go through the many different areas of statistics covered in the
 Physics unit. We define the statistics concept of a random variable.
-
-
 
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsV0VxQldFQzFuUTQ/view?usp=sharing
 
