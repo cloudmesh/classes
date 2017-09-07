@@ -135,14 +135,9 @@ to maximizing click through rate is given and the objectives of
 optimization are given.
  
           
-<<<<<<< HEAD
-          * Video 1: https://youtu.be/tXsU5RRAD-w
-          * Video 2: https://youtu.be/GnAol5aGuEo
-=======
+
  * Video : https://drive.google.com/file/d/0B1Of61fJF7WsSldPN0FCcGNmY1k/view?usp=sharing
 
-
->>>>>>> 19d80432c6ec6a5897216ed5627257d9ab229494
 
 
 Consumer Data Science
