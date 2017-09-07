@@ -20,9 +20,12 @@ Students are required to maintain a *class notebook* in github in which they
 summarize their weekly activities for this course. This includes a
 self maintained list of which lecture material they viewed.
 
+We only will have 3 due dates
+ 
 
 Calendar
 --------
+
 
 This class is a full term class of 16 weeks.
 
@@ -42,13 +45,9 @@ This class is a full term class of 16 weeks.
 
   * Good day to work on projects, computer setup
 
-* Oct 2, 9am. Paper 1 due (Graded)
+* Oct 9, 9am. Paper 1 due (Graded)
 
-* Oct 2, 9am. Computer Setup due for Big Data Completed (pass/fail)
-
-  * Linux Computer  or Linux VM on Virtual box
-  * Raspberry Pi 3
-  * ES8266 (only suitable for IoT)
+* Oct 2 Computer Setup completed
 
 * Fall Break  Oct 6 - Oct 8
 
@@ -57,12 +56,14 @@ This class is a full term class of 16 weeks.
 
 * Auto W  Sun, Oct 22
 
-  * Oct 30 Paper 2 due (Graded)
   * Oct 30 General programming assignments due (pass/fail)
     * results      
     * code quality  
     * documentation 
-                     
+
+      
+* Nov 6, 9am Paper 2 due (Graded)
+      
 * Nov 19 - Nov 26, Thanksgiving lecture free time
 
   This is a good time to work ahead or catch up with  things
@@ -70,8 +71,8 @@ This class is a full term class of 16 weeks.
   are due Dec 1. We will deduct 10% of the grade if not completed
   by Dec 1.
 
-  * Dec 1. Project and Paper due
-  * Dec 1. If not doing a project Extended paper due
+  * Dec 4, 9am. Project and Paper due
+  * Dec 4, 9am. If not doing a project Extended paper due
 
   Although the paper is due on Dec 1. we may grant that you
   continue to work on your paper based on a first review
@@ -87,6 +88,12 @@ This class is a full term class of 16 weeks.
 
 * Ends  Fri, Dec 15
 
+Graded Assignment Due Dates
+---------------------------
+
+* Paper 1 - Oct 9th 9am
+* Paper 2 - Nov 6th 9am
+* Final Project - Dec 4th, 9am
 
 
 Incomplete
