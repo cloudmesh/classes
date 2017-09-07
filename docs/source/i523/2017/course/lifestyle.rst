@@ -137,9 +137,8 @@ optimization are given.
 
 .. todo:: Thomas, The slides or videos are going to be updated 
           
-          Video 1: https://youtu.be/tXsU5RRAD-w
-
-          Video 2: https://youtu.be/GnAol5aGuEo
+          * Video 1: https://youtu.be/tXsU5RRAD-w
+          * Video 2: https://youtu.be/GnAol5aGuEo
 
 
 Consumer Data Science
@@ -158,7 +157,7 @@ household.
 
 .. todo:: Thomas, The slides or videos are going to be updated  
           
-          Video: https://youtu.be/B8cjaOQ57LI
+          * Video: https://youtu.be/B8cjaOQ57LI
 
 
 Resources
@@ -189,9 +188,9 @@ in user rankings to predict their interests, and the Pearson
 correlation, used to statistically quantify correlations between users
 viewed as points in a space of items.
 
-.. todo::  The slides or videos are going to be updated 
+.. todo:: Saber, The slides or videos are going to be updated 
           
-          Slides: https://iu.app.box.com/s/pqa1xpk7g4jnr7k2xlbe
+          * Slides: https://iu.app.box.com/s/pqa1xpk7g4jnr7k2xlbe
 
 
 Recap and Examples of Recommender Systems
@@ -202,7 +201,7 @@ what they are with brief examples.
 
 .. todo:: Thomas, The slides or videos are going to be updated 
           
-          Video: https://youtu.be/dcdm5AfGZ64
+          * Video: https://youtu.be/dcdm5AfGZ64
 
 
 
@@ -233,11 +232,9 @@ on-line (real time) components.
 
 .. todo:: Thomas, The slides or videos are going to be updated 
           
-          Video 1: https://youtu.be/FBn7HpGFNvg
-
-          Video 2: https://youtu.be/VS2Y4lAiP5A
-
-          Video 3: https://youtu.be/HrRJWEF8EfU
+          * Video 1: https://youtu.be/FBn7HpGFNvg
+          * Video 2: https://youtu.be/VS2Y4lAiP5A
+          * Video 3: https://youtu.be/HrRJWEF8EfU
 
 
 
@@ -252,7 +249,6 @@ quantified by the Pearson correlation, used to statistically quantify
 correlations between users.
 
 * Video 1: https://youtu.be/lsf_AE-8dSk
-
 * Video 2: https://youtu.be/U7-qeX2ItPk
 
 Vector Space Formulation of Recommender Systems
@@ -282,7 +278,7 @@ dimensionality in high dimensions are discussed.
 
 .. todo:: Thomas, The slides or videos are going to be updated 
           
-          Slides: https://iu.app.box.com/s/fvrwds7zd65m79a7uur3
+          * Slides: https://iu.app.box.com/s/fvrwds7zd65m79a7uur3
 
 
 Item-based Collaborative Filtering
@@ -297,10 +293,10 @@ optimizations and how batch processing can help. We discuss different
 Likert ranking scales and issues with new items that do not have a
 significant number of rankings.
 
-.. todo:: Saber, The slides or videos are going to be updated 
+.. todo:: Thomas, The slides or videos are going to be updated 
           
 
-          Video 1: https://youtu.be/25sBgh3HwxY
+          * Video 1: https://youtu.be/25sBgh3HwxY
 
           
 * Video 2: https://youtu.be/SM8EJdAa4mw
