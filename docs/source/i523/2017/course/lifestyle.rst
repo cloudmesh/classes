@@ -134,10 +134,7 @@ Netflix Kaggle competition to improve its rating system. The analogy
 to maximizing click through rate is given and the objectives of
 optimization are given.
  
-
-
  * Video : https://drive.google.com/file/d/0B1Of61fJF7WsSldPN0FCcGNmY1k/view?usp=sharing
-
 
 
 
