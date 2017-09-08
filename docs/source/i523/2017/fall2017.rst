@@ -342,7 +342,7 @@ Residential Students:
     residential students should not use them till not all questions
     have been answered by online students.
 
-Online Studenst:
+Online Students:
    Using a doodle poll from the online students, we have identified the 
    following times for the online meetings:
 
