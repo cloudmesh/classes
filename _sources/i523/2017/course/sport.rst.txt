@@ -30,9 +30,7 @@ stadiums and media/advertising. We look at classic baseball averages
 and sophisticated measures like Wins Above Replacement.
 
 
-.. todo:: The slides or videos are going to be updated
-
-          Slides: https://iu.box.com/s/trsxko7icktb7htqfickfsws0cqmvt2j
+* Slides: https://drive.google.com/file/d/0B8936_ytjfjmaUVMVlFnU1lGc2s/view
 
 
 Introduction and Sabermetrics (Baseball Informatics) Lesson
@@ -42,9 +40,8 @@ Introduction to all Sports Informatics, Moneyball The 2002-2003
 Oakland Athletics, Diamond Dollars economic model of baseball,
 Performance - Dollar relationship, Value of a Win.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/oviNJ-_fLto
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmTHFfcTBJOGpTajg/view
 
 
 Basic Sabermetrics
@@ -54,9 +51,8 @@ Different Types of Baseball Data, Sabermetrics, Overview of all data,
 Details of some statistics based on basic data, OPS, wOBA, ERA, ERC,
 FIP, UZR.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/-5JYfQXC2ew
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmcDVETmktOGdWcHM/view
 
 
 Wins Above Replacement
@@ -66,9 +62,8 @@ Wins above Replacement WAR, Discussion of Calculation, Examples,
 Comparisons of different methods, Coefficient of Determination,
 Another, Sabermetrics Example, Summary of Sabermetrics.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/V5uzUS6jdHw
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmT0hwbEFRcmZXZWs/view
 
 
 Resources
@@ -106,10 +101,8 @@ from using video from PITCHf/X, FIELDf/X, HITf/X, COMMANDf/X and
 MLBAM.
 
 
-.. todo:: The slides or videos are going to be updated
 
-          Slides: https://iu.box.com/s/o2kikemoh2580ohzt2pn3y3jps4f7wr3
-
+* Slides: https://drive.google.com/file/d/0B8936_ytjfjmYVNHUU9LTmhyaGc/view
 
 Pitching Clustering
 """""""""""""""""""
@@ -117,9 +110,8 @@ Pitching Clustering
 A Big Data Pitcher Clustering method introduced by Vince Gennaro, Data
 from Blog and video at 2013 SABR conference.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/I06_AOKyB20
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmNlpENlRLVGJGMDA/view
 
 Pitcher Quality
 """""""""""""""
@@ -127,9 +119,8 @@ Pitcher Quality
 Results of optimizing match ups, Data from video at 2013 SABR
 conference.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/vAPJx8as4_0
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmVXpIM0MyRW9jcnM/view
 
 
 PITCHf/X
@@ -137,23 +128,22 @@ PITCHf/X
 
 Examples of use of PITCHf/X.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/JN1-sCa9Bjs
-
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmWXU3Y3c1eThTbGs/view
 
 Other Video Data Gathering in Baseball
 """"""""""""""""""""""""""""""""""""""
 
 FIELDf/X, MLBAM, HITf/X, COMMANDf/X.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/zGGThkkIJg8
+
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmSF83dWhNUkFEZ2s/view
 
 
 Resources
 """""""""
+
 
 * http://vincegennaro.mlblogs.com/
 * https://www.youtube.com/watch?v=H-kx-x_d0Mk
@@ -176,9 +166,7 @@ Olympics, NFL Football, Basketball, Tennis and Horse Racing.
 
 
 
-.. todo:: The slides or videos are going to be updated
-
-          Slides: https://iu.box.com/s/ho0ktliih8cj0oyl929axwwu6083e8ck
+* Slides: https://drive.google.com/file/d/0B8936_ytjfjmaVotRDI1el9lX2c/view
 
 
 Wearables
@@ -186,9 +174,9 @@ Wearables
 
 Consumer Sports, Stake Holders, and Multiple Factors.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/1UzvNHzFCFQ
+
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmRk1jU2tMeG11Zk0/view
 
 
 Soccer and the Olympics
@@ -196,9 +184,8 @@ Soccer and the Olympics
 
 Soccer, Tracking Players and Balls, Olympics.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/01mlZ2KBkzE
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmNERNd3BLbnJIREE/view
 
 
 Spatial Visualization in NFL and NBA
@@ -206,9 +193,8 @@ Spatial Visualization in NFL and NBA
 
 NFL, NBA, and Spatial Visualization.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/Q0Pt97BwRlo
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmLUV3M1RydTdNTkU/view
 
 
 Tennis and Horse Racing
@@ -216,14 +202,14 @@ Tennis and Horse Racing
 
 Tennis, Horse Racing, and Continued Emphasis on Spatial Visualization.
 
-.. todo:: The slides or videos are going to be updated
 
-          Video: http://youtu.be/EuXrtfHG3cY
+* Video: https://drive.google.com/file/d/0B8936_ytjfjmeHc4QnZRQnpXMms/view
 
 
 
 Resources
 """""""""
+
 
 * http://www.sloansportsconference.com/?page_id=481&sort_cate=Research%20Paper
 * http://www.slideshare.net/Tricon_Infotech/big-data-for-big-sports

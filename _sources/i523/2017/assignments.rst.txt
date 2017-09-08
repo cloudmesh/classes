@@ -56,10 +56,11 @@ Learn Python
 
 * EPython.1 :ref:`e-python`
 
-Paper 1 Topic
-Identify the topic for your individual paper 1 and post it on 
-Piazza: https://piazza.com/class/j5wll7vzylg25j?cid=158 .
-The paper will be due one month after we have approved your topic.
+Paper 1 Topic:
+   Identify the topic for your individual paper 1 and post it on 
+   Piazza: https://piazza.com/class/j5wll7vzylg25j?cid=158 .
+   The paper will be due on Oct 9, 9am.
+   
 
 Week 3 (Not yet released)
 -------------------------
@@ -86,4 +87,14 @@ pull request for it.
 * EContrib.5 :ref:`e-contrib`
 
 There will be tutorials about this
-  
+
+Polls:
+   Please fill out the following polls on Piazza. They will used to track your progress.
+
+   * Who has or will have a Raspberry Pi or esp8266? https://piazza.com/class/j5wll7vzylg25j?cid=182
+
+   * Where do you intend to program in python? https://piazza.com/class/j5wll7vzylg25j?cid=183
+
+   * What is your python knowledge? https://piazza.com/class/j5wll7vzylg25j?cid=184
+
+   * Which lectures did you view? https://piazza.com/class/j5wll7vzylg25j?cid=185

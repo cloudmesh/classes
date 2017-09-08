@@ -142,7 +142,7 @@ remommend you use::
 Exercise
 --------
 
-To do this assignment you need to learn about making small changes nd
+To do this assignment you need to learn about making small changes and
 how to document them with `gitchangelog`: 
 
 * if you fix a spelling error: your commit message must::
