@@ -192,7 +192,7 @@ Thus you will have the most of them on your system.
 
 -  pdflatex: the latex program producing pdf
 -  bibtex: to create bibliographies
--  jabref: less fancy GUI to bibtex files
+-  jabref: GUI application to bibtex files (http://www.jabref.org/)
 
 Make sure you check that these programs are there, for example with
 the Linux commands::
@@ -239,6 +239,7 @@ LaTeX for Windows
 ^^^^^^^^^^^^^^^^^
 
 * https://www.latex-project.org/get/
+
 
   
 Online Services
@@ -402,9 +403,10 @@ Jabref is a very simple to use bibliography manager for LaTeX and
 other systems. It can create a multitude of bibliography file formats
 and allows upload in other online bibliography managers.
 
-Video: https://youtu.be/cMtYOHCHZ3k
+* Installation: Go to http://www.jabref.org/ and click download
 
-Video with cc: https://www.youtube.com/watch?v=QVbifcLgMic
+* Video: https://youtu.be/cMtYOHCHZ3k
+* Video with cc: https://www.youtube.com/watch?v=QVbifcLgMic
 
 
 jabref and MSWord
@@ -481,7 +483,7 @@ available at:
 
 Installation instructions are available at
 
-https://www.mendeley.com/features/reference-manager/
+* https://www.mendeley.com/features/reference-manager/
 
 When dealing with large databases, we found the integration of Mendeley into
 word slow.
