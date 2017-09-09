@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>1. Lectures &#8212; Big Data Classes</title>
+    <title>1.7. How to Build a Search Engine (SaaS) &#8212; Big Data Classes</title>
     <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -223,7 +223,12 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">1. Lectures</a></li>
+<li><a class="reference internal" href="#">1.7. How to Build a Search Engine (SaaS)</a><ul>
+<li><a class="reference internal" href="#google-components">1.7.1. Google Components</a></li>
+<li><a class="reference internal" href="#google-architecture">1.7.2. Google Architecture</a></li>
+<li><a class="reference internal" href="#google-history">1.7.3. Google History</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -410,7 +415,12 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">1. Lectures</a></li>
+<li><a class="reference internal" href="#">1.7. How to Build a Search Engine (SaaS)</a><ul>
+<li><a class="reference internal" href="#google-components">1.7.1. Google Components</a></li>
+<li><a class="reference internal" href="#google-architecture">1.7.2. Google Architecture</a></li>
+<li><a class="reference internal" href="#google-history">1.7.3. Google History</a></li>
+</ul>
+</li>
 </ul>
 <p></p>
 <hr>
@@ -436,100 +446,24 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="lectures">
-<h1>1. Lectures<a class="headerlink" href="#lectures" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="fundamentals.html">1.1. Cloud Computing Fundamentals</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#course-info">1.1.1. Course Info</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#introduction">1.1.2. Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#data-center-model">1.1.3. Data Center Model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#data-intensive-sciences">1.1.4. Data Intensive Sciences</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#iaas-paas-and-saas">1.1.5. IaaS, PaaS and SaaS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#challenges">1.1.6. Challenges</a></li>
+  <div class="section" id="how-to-build-a-search-engine-saas">
+<h1>1.7. How to Build a Search Engine (SaaS)<a class="headerlink" href="#how-to-build-a-search-engine-saas" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="google-components">
+<h2>1.7.1. Google Components<a class="headerlink" href="#google-components" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=IWMcv7HbbPM">Youtube</a></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="iaas.html">1.2. How to Run VMs (IaaS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#course-expectations">1.2.1. Course Expectations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#student-work-1">1.2.2. Student Work 1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#student-work-2">1.2.3. Student Work 2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#growth-of-virtual-machines">1.2.4. Growth of Virtual Machines</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#implementation-levels">1.2.5. Implementation Levels</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#tools-and-mechanisms">1.2.6. Tools and Mechanisms</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#cpu-memory-i-o-devices">1.2.7. CPU, Memory &amp; I/O Devices</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#clusters-and-resource-mgmt">1.2.8. Clusters and Resource Mgmt.</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#data-center-automation">1.2.9. Data Center Automation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#clouds-in-the-workplace">1.2.10. Clouds in the Workplace</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#checklists-challenges">1.2.11. Checklists &amp; Challenges</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#data-center-setup">1.2.12. Data Center Setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#cultivating-clouds">1.2.13. Cultivating Clouds</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#applying-for-futuresystems-account">1.2.14. Applying for FutureSystems Account</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#futuresystems-india-openstack">1.2.15. FutureSystems India OpenStack</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#starting-vms-on-futuresystems">1.2.16. Starting VMs on FutureSystems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#hadoop-wordcount-on-vms">1.2.17. Hadoop WordCount on VMs</a></li>
+</div>
+<div class="section" id="google-architecture">
+<h2>1.7.2. Google Architecture<a class="headerlink" href="#google-architecture" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=syZHezdbdRY">Youtube</a></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="mapreduce.html">1.3. How to Run MapReduce (PaaS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#apache-data-analysis-open-stack">1.3.1. Apache Data Analysis Open Stack</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#mapreduce">1.3.2. MapReduce</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#hadoop-framework">1.3.3. Hadoop Framework</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#hadoop-tasks">1.3.4. Hadoop Tasks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#fault-tolerance">1.3.5. Fault Tolerance</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#programming-on-a-computer-cluster">1.3.6. Programming on a Computer Cluster</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#how-hadoop-runs-on-a-mapreduce-job">1.3.7. How Hadoop Runs on a MapReduce Job</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#literature-review">1.3.8. Literature Review</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#introduction-to-blast">1.3.9. Introduction to BLAST</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#blast-parallelization">1.3.10. BLAST Parallelization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#simd-vs-mimd-spmd-vs-mpmd">1.3.11. SIMD vs MIMD;SPMD vs MPMD</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#data-locality">1.3.12. Data Locality</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#optimal-data-locality">1.3.13. Optimal Data Locality</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#task-granularity">1.3.14. Task Granularity</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#resource-utilization-and-speculative-execution">1.3.15. Resource Utilization and Speculative Execution</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="iterative-mapreduce.html">1.4. How to Run Iterative MapReduce (PaaS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#mapreduce-refresher">1.4.1. MapReduce Refresher</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#google-search-engine-1">1.4.2. Google Search Engine 1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#google-search-engine-2">1.4.3. Google Search Engine 2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#hadoop-pagerank">1.4.4. Hadoop PageRank</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#discussions-parallel-thinking">1.4.5. Discussions &amp; Parallel Thinking</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#hadoop-extensions">1.4.6. Hadoop Extensions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#iterative-mapreduce-models">1.4.7. Iterative MapReduce Models</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#parallel-processes">1.4.8. Parallel Processes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#static-and-variable-data">1.4.9. Static and Variable Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#mapreduce-model-comparison">1.4.10. MapReduce Model Comparison</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#twister-k-means">1.4.11. Twister K-means</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#coding-iterative-alternatives">1.4.12. Coding &amp; Iterative Alternatives</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="nosql.html">1.5. How to Store Data (NoSQL)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#rdbms-vs-nosql">1.5.1. RDBMS vs. NoSQL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#nosql-characteristics">1.5.2. NoSQL Characteristics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#bigtable">1.5.3. BigTable</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#hbase">1.5.4. HBase</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#hbase-coding">1.5.5. HBase Coding</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#indexing-applications">1.5.6. Indexing Applications</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#related-work">1.5.7. Related Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#indexamples">1.5.8. Indexamples</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#indexing-101">1.5.9. Indexing 101</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#social-media-searches">1.5.10. Social Media Searches</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#analysis-algorithms">1.5.11. Analysis Algorithms</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="iot.html">1.6. Internet of Things</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#everyday-data">1.6.1. Everyday Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#streaming-the-data-ocean">1.6.2. Streaming the Data Ocean</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#streams-of-events">1.6.3. Streams of Events</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#faults-frameworks">1.6.4. Faults &amp; Frameworks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#spouts-to-bolts">1.6.5. Spouts to Bolts</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="saas.html">1.7. How to Build a Search Engine (SaaS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="saas.html#google-components">1.7.1. Google Components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="saas.html#google-architecture">1.7.2. Google Architecture</a></li>
-<li class="toctree-l2"><a class="reference internal" href="saas.html#google-history">1.7.3. Google History</a></li>
-</ul>
-</li>
+</div>
+<div class="section" id="google-history">
+<h2>1.7.3. Google History<a class="headerlink" href="#google-history" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=Kg0NK0XUkHw">Youtube</a></li>
 </ul>
 </div>
 </div>

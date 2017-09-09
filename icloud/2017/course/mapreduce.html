@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>1. Lectures &#8212; Big Data Classes</title>
+    <title>1.3. How to Run MapReduce (PaaS) &#8212; Big Data Classes</title>
     <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -223,7 +223,24 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">1. Lectures</a></li>
+<li><a class="reference internal" href="#">1.3. How to Run MapReduce (PaaS)</a><ul>
+<li><a class="reference internal" href="#apache-data-analysis-open-stack">1.3.1. Apache Data Analysis Open Stack</a></li>
+<li><a class="reference internal" href="#mapreduce">1.3.2. MapReduce</a></li>
+<li><a class="reference internal" href="#hadoop-framework">1.3.3. Hadoop Framework</a></li>
+<li><a class="reference internal" href="#hadoop-tasks">1.3.4. Hadoop Tasks</a></li>
+<li><a class="reference internal" href="#fault-tolerance">1.3.5. Fault Tolerance</a></li>
+<li><a class="reference internal" href="#programming-on-a-computer-cluster">1.3.6. Programming on a Computer Cluster</a></li>
+<li><a class="reference internal" href="#how-hadoop-runs-on-a-mapreduce-job">1.3.7. How Hadoop Runs on a MapReduce Job</a></li>
+<li><a class="reference internal" href="#literature-review">1.3.8. Literature Review</a></li>
+<li><a class="reference internal" href="#introduction-to-blast">1.3.9. Introduction to BLAST</a></li>
+<li><a class="reference internal" href="#blast-parallelization">1.3.10. BLAST Parallelization</a></li>
+<li><a class="reference internal" href="#simd-vs-mimd-spmd-vs-mpmd">1.3.11. SIMD vs MIMD;SPMD vs MPMD</a></li>
+<li><a class="reference internal" href="#data-locality">1.3.12. Data Locality</a></li>
+<li><a class="reference internal" href="#optimal-data-locality">1.3.13. Optimal Data Locality</a></li>
+<li><a class="reference internal" href="#task-granularity">1.3.14. Task Granularity</a></li>
+<li><a class="reference internal" href="#resource-utilization-and-speculative-execution">1.3.15. Resource Utilization and Speculative Execution</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -410,7 +427,24 @@
 </ul>
 </ul>
 </li><ul>
-<li><a class="reference internal" href="#">1. Lectures</a></li>
+<li><a class="reference internal" href="#">1.3. How to Run MapReduce (PaaS)</a><ul>
+<li><a class="reference internal" href="#apache-data-analysis-open-stack">1.3.1. Apache Data Analysis Open Stack</a></li>
+<li><a class="reference internal" href="#mapreduce">1.3.2. MapReduce</a></li>
+<li><a class="reference internal" href="#hadoop-framework">1.3.3. Hadoop Framework</a></li>
+<li><a class="reference internal" href="#hadoop-tasks">1.3.4. Hadoop Tasks</a></li>
+<li><a class="reference internal" href="#fault-tolerance">1.3.5. Fault Tolerance</a></li>
+<li><a class="reference internal" href="#programming-on-a-computer-cluster">1.3.6. Programming on a Computer Cluster</a></li>
+<li><a class="reference internal" href="#how-hadoop-runs-on-a-mapreduce-job">1.3.7. How Hadoop Runs on a MapReduce Job</a></li>
+<li><a class="reference internal" href="#literature-review">1.3.8. Literature Review</a></li>
+<li><a class="reference internal" href="#introduction-to-blast">1.3.9. Introduction to BLAST</a></li>
+<li><a class="reference internal" href="#blast-parallelization">1.3.10. BLAST Parallelization</a></li>
+<li><a class="reference internal" href="#simd-vs-mimd-spmd-vs-mpmd">1.3.11. SIMD vs MIMD;SPMD vs MPMD</a></li>
+<li><a class="reference internal" href="#data-locality">1.3.12. Data Locality</a></li>
+<li><a class="reference internal" href="#optimal-data-locality">1.3.13. Optimal Data Locality</a></li>
+<li><a class="reference internal" href="#task-granularity">1.3.14. Task Granularity</a></li>
+<li><a class="reference internal" href="#resource-utilization-and-speculative-execution">1.3.15. Resource Utilization and Speculative Execution</a></li>
+</ul>
+</li>
 </ul>
 <p></p>
 <hr>
@@ -436,100 +470,189 @@
       </div>
     <div class="col-md-9 content">
       
-  <div class="section" id="lectures">
-<h1>1. Lectures<a class="headerlink" href="#lectures" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="fundamentals.html">1.1. Cloud Computing Fundamentals</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#course-info">1.1.1. Course Info</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#introduction">1.1.2. Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#data-center-model">1.1.3. Data Center Model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#data-intensive-sciences">1.1.4. Data Intensive Sciences</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#iaas-paas-and-saas">1.1.5. IaaS, PaaS and SaaS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fundamentals.html#challenges">1.1.6. Challenges</a></li>
+  <div class="section" id="how-to-run-mapreduce-paas">
+<h1>1.3. How to Run MapReduce (PaaS)<a class="headerlink" href="#how-to-run-mapreduce-paas" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="apache-data-analysis-open-stack">
+<h2>1.3.1. Apache Data Analysis Open Stack<a class="headerlink" href="#apache-data-analysis-open-stack" title="Permalink to this headline">¶</a></h2>
+<p>The buildup of Big Data has seen the development of new data storage systems
+like MapReduce and Hadoop. Apache’s Big Data Stack houses a host of programs
+designed around Google’s offerings like MapReduce. The architecture of Hadoop
+1.0 and 2.0 are compared, along with an examination of the MapReduce concept. A
+demo video of Twister-MDS includes a 3-dimensional representation of data
+cluster sorting through the PlotViz program. Data analysis tool Twister boasts
+features like in-memory support of tasks, data flow separation, and
+portability.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=6vkgvGtyv4Q">Youtube</a></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="iaas.html">1.2. How to Run VMs (IaaS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#course-expectations">1.2.1. Course Expectations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#student-work-1">1.2.2. Student Work 1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#student-work-2">1.2.3. Student Work 2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#growth-of-virtual-machines">1.2.4. Growth of Virtual Machines</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#implementation-levels">1.2.5. Implementation Levels</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#tools-and-mechanisms">1.2.6. Tools and Mechanisms</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#cpu-memory-i-o-devices">1.2.7. CPU, Memory &amp; I/O Devices</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#clusters-and-resource-mgmt">1.2.8. Clusters and Resource Mgmt.</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#data-center-automation">1.2.9. Data Center Automation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#clouds-in-the-workplace">1.2.10. Clouds in the Workplace</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#checklists-challenges">1.2.11. Checklists &amp; Challenges</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#data-center-setup">1.2.12. Data Center Setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#cultivating-clouds">1.2.13. Cultivating Clouds</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#applying-for-futuresystems-account">1.2.14. Applying for FutureSystems Account</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#futuresystems-india-openstack">1.2.15. FutureSystems India OpenStack</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#starting-vms-on-futuresystems">1.2.16. Starting VMs on FutureSystems</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iaas.html#hadoop-wordcount-on-vms">1.2.17. Hadoop WordCount on VMs</a></li>
+</div>
+<div class="section" id="mapreduce">
+<h2>1.3.2. MapReduce<a class="headerlink" href="#mapreduce" title="Permalink to this headline">¶</a></h2>
+<p>MapReduce was designed by Google to address the problem of large-scale data
+processing. A breakdown of basic MapReduce terms and functions follows. Use of
+MapReduce has flourished since its premier, as illustrated by an in-depth
+example of its use in WordCount. Finally the basic process of MapReduce is
+shown.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=sSIGaDaulvA">Youtube</a></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="mapreduce.html">1.3. How to Run MapReduce (PaaS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#apache-data-analysis-open-stack">1.3.1. Apache Data Analysis Open Stack</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#mapreduce">1.3.2. MapReduce</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#hadoop-framework">1.3.3. Hadoop Framework</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#hadoop-tasks">1.3.4. Hadoop Tasks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#fault-tolerance">1.3.5. Fault Tolerance</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#programming-on-a-computer-cluster">1.3.6. Programming on a Computer Cluster</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#how-hadoop-runs-on-a-mapreduce-job">1.3.7. How Hadoop Runs on a MapReduce Job</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#literature-review">1.3.8. Literature Review</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#introduction-to-blast">1.3.9. Introduction to BLAST</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#blast-parallelization">1.3.10. BLAST Parallelization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#simd-vs-mimd-spmd-vs-mpmd">1.3.11. SIMD vs MIMD;SPMD vs MPMD</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#data-locality">1.3.12. Data Locality</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#optimal-data-locality">1.3.13. Optimal Data Locality</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#task-granularity">1.3.14. Task Granularity</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mapreduce.html#resource-utilization-and-speculative-execution">1.3.15. Resource Utilization and Speculative Execution</a></li>
+</div>
+<div class="section" id="hadoop-framework">
+<h2>1.3.3. Hadoop Framework<a class="headerlink" href="#hadoop-framework" title="Permalink to this headline">¶</a></h2>
+<p>Hadoop is an open source version of MapReduce designed for broad application in
+terms of code and settings. Storage is done in the Hadoop Distributed File
+System through master and slave nodes. Compute is handled by JobTracker and
+TaskTracker; the duties of these two intertwined programs are then explored
+more fully.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=Vuroqly6FTE">Youtube</a></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="iterative-mapreduce.html">1.4. How to Run Iterative MapReduce (PaaS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#mapreduce-refresher">1.4.1. MapReduce Refresher</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#google-search-engine-1">1.4.2. Google Search Engine 1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#google-search-engine-2">1.4.3. Google Search Engine 2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#hadoop-pagerank">1.4.4. Hadoop PageRank</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#discussions-parallel-thinking">1.4.5. Discussions &amp; Parallel Thinking</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#hadoop-extensions">1.4.6. Hadoop Extensions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#iterative-mapreduce-models">1.4.7. Iterative MapReduce Models</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#parallel-processes">1.4.8. Parallel Processes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#static-and-variable-data">1.4.9. Static and Variable Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#mapreduce-model-comparison">1.4.10. MapReduce Model Comparison</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#twister-k-means">1.4.11. Twister K-means</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iterative-mapreduce.html#coding-iterative-alternatives">1.4.12. Coding &amp; Iterative Alternatives</a></li>
+</div>
+<div class="section" id="hadoop-tasks">
+<h2>1.3.4. Hadoop Tasks<a class="headerlink" href="#hadoop-tasks" title="Permalink to this headline">¶</a></h2>
+<p>The Map stage of MapReduce is shown in greater detail. This process starts with
+Hadoop Distributed File System, which handles the input data. Key value pairs
+are assigned to the data blocks. Combiner reduces data size and Partitioner
+determines distribution of keys among reducers. Intermediate data is stored in
+a circular buffer before being sent to reduce tasks. Shuffle and Merge are used
+to order and reduce size of intermediate data. Reduce tasks take over then to
+determine the output data format. A final chart illustrates the concept of
+parallelism in MapReduce.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=UN4t3tvdjms">Youtube</a></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="nosql.html">1.5. How to Store Data (NoSQL)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#rdbms-vs-nosql">1.5.1. RDBMS vs. NoSQL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#nosql-characteristics">1.5.2. NoSQL Characteristics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#bigtable">1.5.3. BigTable</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#hbase">1.5.4. HBase</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#hbase-coding">1.5.5. HBase Coding</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#indexing-applications">1.5.6. Indexing Applications</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#related-work">1.5.7. Related Work</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#indexamples">1.5.8. Indexamples</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#indexing-101">1.5.9. Indexing 101</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#social-media-searches">1.5.10. Social Media Searches</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nosql.html#analysis-algorithms">1.5.11. Analysis Algorithms</a></li>
+</div>
+<div class="section" id="fault-tolerance">
+<h2>1.3.5. Fault Tolerance<a class="headerlink" href="#fault-tolerance" title="Permalink to this headline">¶</a></h2>
+<p>Fault tolerance is a natural benefit of MapReduce. The master node pings worker
+nodes regularly to verify they are working, and acts accordingly if they do not
+respond. A diagram illustrates the files which are in charge of things like
+number of map and reduce tasks, and what to do when the limit is reached on the
+buffer. The lecture ends with a discussion of class assignments.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=a3AlOTmD42k">Youtube</a></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="iot.html">1.6. Internet of Things</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#everyday-data">1.6.1. Everyday Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#streaming-the-data-ocean">1.6.2. Streaming the Data Ocean</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#streams-of-events">1.6.3. Streams of Events</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#faults-frameworks">1.6.4. Faults &amp; Frameworks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="iot.html#spouts-to-bolts">1.6.5. Spouts to Bolts</a></li>
+</div>
+<div class="section" id="programming-on-a-computer-cluster">
+<h2>1.3.6. Programming on a Computer Cluster<a class="headerlink" href="#programming-on-a-computer-cluster" title="Permalink to this headline">¶</a></h2>
+<p>Hadoop is now a large part of Yahoo!’s system setup, as well as handling a
+tremendous variety of data in other areas like medicine and business. A list of
+time spans for actions in system requirements is given. The original MapReduce
+was designed to resolve problems like load balancing and machine failures.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=rRR2ALa5CUA">Youtube</a></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="saas.html">1.7. How to Build a Search Engine (SaaS)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="saas.html#google-components">1.7.1. Google Components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="saas.html#google-architecture">1.7.2. Google Architecture</a></li>
-<li class="toctree-l2"><a class="reference internal" href="saas.html#google-history">1.7.3. Google History</a></li>
+</div>
+<div class="section" id="how-hadoop-runs-on-a-mapreduce-job">
+<h2>1.3.7. How Hadoop Runs on a MapReduce Job<a class="headerlink" href="#how-hadoop-runs-on-a-mapreduce-job" title="Permalink to this headline">¶</a></h2>
+<p>A detailed diagram of the MapReduce job framework is given. This includes task
+status updates, shuffling, and writing data to nodes. MapReduce is a C++
+framework, while Hadoop is written in Java. Shuffling and sorting occurs in the
+map phase. Reduce reads and writes files to HDFS, and the merger generates the
+final result. The second Quiz is given at the end.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=KWLY_maNEPA">Youtube</a></li>
 </ul>
-</li>
+</div>
+<div class="section" id="literature-review">
+<h2>1.3.8. Literature Review<a class="headerlink" href="#literature-review" title="Permalink to this headline">¶</a></h2>
+<p>This video deals primarily with scientific papers written on the topic of
+MapReduce and related programs. There is a certain criteria for judging
+scientific submissions. The first paper highlights Google File System, covering
+topics like data chunks, metadata, and replicas. This is followed by MapReduce
+and BigTable.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=5YmjrhEFQsk">Youtube</a></li>
+</ul>
+</div>
+<div class="section" id="introduction-to-blast">
+<h2>1.3.9. Introduction to BLAST<a class="headerlink" href="#introduction-to-blast" title="Permalink to this headline">¶</a></h2>
+<p>There are four types of programming model communication patterns:
+embarrassingly parallel (only map), classic map/reduce, iterative map/reduce,
+and loosely synchronous. The basic bioinformatics BLAST (Basic Local Alignment
+Sequence Tool) program data flow is illustrated. An example of database
+creation comes from the Seattle Children’s Hospital. BLAST uses scores to find
+similar sequences in databases.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=i3H9HmUYfq8">Youtube</a></li>
+</ul>
+</div>
+<div class="section" id="blast-parallelization">
+<h2>1.3.10. BLAST Parallelization<a class="headerlink" href="#blast-parallelization" title="Permalink to this headline">¶</a></h2>
+<p>The role of master and worker nodes in BLAST multi-thread usage is discussed.
+BLAST can be parallelized in several ways: multi-thread, query segmentation,
+and database segmentation. BLAST is pleasingly parallel in application, but
+many programs are not. Further information about articles featuring BLAST is
+provided at the end.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=isc0MjkwTlk">Youtube</a></li>
+</ul>
+</div>
+<div class="section" id="simd-vs-mimd-spmd-vs-mpmd">
+<h2>1.3.11. SIMD vs MIMD;SPMD vs MPMD<a class="headerlink" href="#simd-vs-mimd-spmd-vs-mpmd" title="Permalink to this headline">¶</a></h2>
+<p>Four types of parallel models: SISD (traditional PCs), SIMD (GPUs), MISD
+(shuttle flight control computer), MIMD (distributed systems). Point-to-point
+(P2P) communication in MPI is used as an example of parallelization. Each
+successive process adds its own stamp to the data before passing it on to the
+next. Matrix multiplication for scientific applications differs from the norm
+in that data is sent in a matrix, not a string. WordCount functions in a
+map/reduce pattern. These are all types of SIMD. SPMD and MPMD are two other
+types of model.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=zHQiR56Zmtc">Youtube</a></li>
+</ul>
+</div>
+<div class="section" id="data-locality">
+<h2>1.3.12. Data Locality<a class="headerlink" href="#data-locality" title="Permalink to this headline">¶</a></h2>
+<p>A brief review is given of previous topics. As opposed to MPI and HPC,
+MapReduce brings the computation to the data, rather than vice-versa. This is
+done to limit energy usage and network congestion. Several factors such as
+number of nodes and tasks can impact data locality. An equation to improve data
+locality is tested in an experiment, whose results are given. By default,
+Hadoop determines scheduling of tasks to available slots in terms of best local
+composition, not global.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=RqLA7_asK50">Youtube</a></li>
+</ul>
+</div>
+<div class="section" id="optimal-data-locality">
+<h2>1.3.13. Optimal Data Locality<a class="headerlink" href="#optimal-data-locality" title="Permalink to this headline">¶</a></h2>
+<p>Global data optimization can be achieved through a proposed algorithm given
+here. Task, slot, and cost are factors in this algorithm. Network bandwidth
+must also be taken into consideration when assigning tasks to slots. Linear Sum
+Assignment Problems require greater time to finish when matrix size is
+increased. Two different scheduling algorithms were designed to improve the
+original one in Hadoop. An experiment was run comparing all three, with the
+network topology-aware algorithm clearly outperforming the others.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=Ok8vdrFXo5w">Youtube</a></li>
+</ul>
+</div>
+<div class="section" id="task-granularity">
+<h2>1.3.14. Task Granularity<a class="headerlink" href="#task-granularity" title="Permalink to this headline">¶</a></h2>
+<p>Size of data blocks affects load balancing and overhead. Using Bag of Divisible
+Tasks method, tasks can be split into sub-tasks and distributed amongst slots
+to maximize efficiency. When splitting tasks, one must take into account when
+and which tasks to split, as well as how and how many. In our current proposed
+algorithm, tasks are split until each slot is occupied. It also uses ASPK
+(Aggressive Scheduling with Prior Knowledge) to split larger tasks first and
+when the performance gain is deemed optimal. Optimal and Expected Remaining Job
+Execution Time can help determine task splitting. Several examples are offered
+with either single or multiple jobs.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=u9UpgTnOZz4">Youtube</a></li>
+</ul>
+</div>
+<div class="section" id="resource-utilization-and-speculative-execution">
+<h2>1.3.15. Resource Utilization and Speculative Execution<a class="headerlink" href="#resource-utilization-and-speculative-execution" title="Permalink to this headline">¶</a></h2>
+<p>Resource stealing involves appropriating cores that are kept in reserve on
+separate nodes and returning them when the computation is over. Speculative
+execution addresses fault tolerance; when the master node notices a task is
+running slowly, it will start a speculative task which can take over if it is
+determined the original task will not finish in time. Overuse of speculative
+tasks can lead to poor data locality and higher energy demands.</p>
+<ul class="simple">
+<li>Video: <a class="reference external" href="https://www.youtube.com/watch?v=wWyFiqDIYus">Youtube</a></li>
 </ul>
 </div>
 </div>
