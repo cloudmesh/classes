@@ -227,8 +227,8 @@ superior. TeXmaker is installed with::
 
 Other instalations:
 
-  * kile is installed by default
-  * https://www.tug.org/texworks/ (Works on ubuntu, Windows, OSX)
+* kile is installed by default
+* https://www.tug.org/texworks/ (Works on ubuntu, Windows, OSX)
 
 LaTeX for OSX
 ^^^^^^^^^^^^^
