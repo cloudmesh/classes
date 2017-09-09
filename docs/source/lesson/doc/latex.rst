@@ -184,7 +184,8 @@ Local Install
 
 Installing LaTeX is trivial, and is documented on the internet very
 well. However, it requires sufficient space and time as
-it is a large environment. In addition to LaTeX we recommend that you
+it is a large environment. A system such as TeX Live takes in full
+install about 5.5 GB. In addition to LaTeX we recommend that you
 install `jabref` and use it for bibliography management.
 
 Thus you will have the most of them on your system.
