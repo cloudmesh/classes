@@ -9,3 +9,4 @@ Content
    :numbered:
 
    course/index
+   assignment/index
