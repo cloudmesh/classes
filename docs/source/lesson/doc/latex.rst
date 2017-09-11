@@ -182,8 +182,10 @@ Installation
 Local Install
 ^^^^^^^^^^^^^
 
-Installing LaTeX is trivial, but requires sufficient space and time as
-it is a large environment. In addition to LaTeX we recommend that you
+Installing LaTeX is trivial, and is documented on the internet very
+well. However, it requires sufficient space and time as
+it is a large environment. A system such as TeX Live takes in full
+install about 5.5 GB. In addition to LaTeX we recommend that you
 install `jabref` and use it for bibliography management.
 
 Thus you will have the most of them on your system.
@@ -200,7 +202,45 @@ the Linux commands::
    which jabref (on OSX you may have an icon for it)
 
 If these commands are missing, please install them.
+For the newest documentation on instalation of LaTeX we recommend you
+look up the instalation for your specific OS.
 
+Install on Ubuntu 16.04
+^^^^^^^^^^^^^^^^^^^^^^^
+
+The easiest way to install it on ubuntu is to use the terminal and
+type in (make sure you have enough space)::
+
+  sudo apt-get install texlive-full
+
+One of the best editors for LaTeX is emacs as you can also do
+bibliography management with it and not just LaTeX. However, other
+editors are avaialable including:
+
+* Kile, TeXworks, JLatexEditor, Gedit LaTeX Plugin, TeXMaker
+
+Please look up how to install them if you like to use them. TeXMaker
+is popular, However I find the combination of emacs and latexmk
+superior. TeXmaker is installed with::
+
+  sudo apt-get install texmaker
+
+Other instalations:
+
+  * kile is installed by default
+  * https://www.tug.org/texworks/ (Works on ubuntu, Windows, OSX)
+
+LaTeX for OSX
+^^^^^^^^^^^^^
+
+* https://www.latex-project.org/get/
+
+LaTeX for Windows
+^^^^^^^^^^^^^^^^^
+
+* https://www.latex-project.org/get/
+
+  
 Online Services
 ^^^^^^^^^^^^^^^
 
@@ -229,7 +269,14 @@ OSA template.
 
 Features of overleaf are documented at: https://www.overleaf.com/benefits
 
+Paperia
+-------
 
+We do not know where this service is located. However it offers
+similar services as Sharelatex and Overleaf. IN addition it seems to
+have unlimited collaborators and can sync into github.
+
+* https://papeeria.com/
 
 The LaTeX Cycle
 ---------------
