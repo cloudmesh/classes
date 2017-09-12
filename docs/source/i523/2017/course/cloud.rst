@@ -51,9 +51,9 @@ individual cores. Many examples are given and it is stressed that
 issues in parallel computing are seen in day to day life for
 communication, synchronization, load balancing and decomposition.
 
-.. todo:: The slides or videos are going to be updated
+
           
-Slides: https://iu.app.box.com/s/nau0rsr39kyej240s4yz
+* Slides: https://drive.google.com/file/d/0B8936_ytjfjmZDRqMldzSVhVem8/view?usp=sharing
 
 
 Decomposition 
@@ -70,13 +70,13 @@ separate tasks processing different data parts -- is described with
 MPI and MapReduce as two approaches. The challenges of data
 decomposition in irregular problems is noted.
 
-.. todo:: The slides or videos are going to be updated
+
           
-Video 1: https://youtu.be/R-wHQW2YuRE
+* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsWXgtNndQN0Jydkk/view?usp=sharing
 
-Video 2: https://youtu.be/iIi9wdvlwCM
+* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsQ1pMLWhXQV92OXM/view?usp=sharing
 
-Video 3: https://youtu.be/F0aeeLeTD9I
+* Video 3: https://drive.google.com/file/d/0B1Of61fJF7WsaVZLOEUzc0VuWjQ/view?usp=sharing
 
 
 
@@ -94,11 +94,10 @@ Amdahl's law and the relation between data and processor topology. The
 lesson concludes with other examples from nature including collections
 of neurons (the brain) and ants.
 
-.. todo:: The slides or videos are going to be updated
           
-Video 1: https://youtu.be/8rtjoe8AeJw
+* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsY3hEeTJvTFYtN2s/view?usp=sharing
 
-Video 2: https://youtu.be/7sCgH_TTPGk
+* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsU1ROMmpNNTlUTUU/view?usp=sharing
 
 
 Parallel Processing for Hadrian's Wall
@@ -115,9 +114,8 @@ Hadrian's wall is followed by a slide summarizing this quaint
 comparison between Big data parallelism and the construction of a
 large wall.
 
-.. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/ZD2AQ08cy8I
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsNEtLOTNNN3dlNjQ/view?usp=sharing
 
 
 Resources
@@ -151,9 +149,9 @@ applications. Gartner also has specific predictions for cloud
 computing growth areas.
 
 
-.. todo:: The slides or videos are going to be updated
+
           
-Slides: https://iu.app.box.com/s/p3lztuu9kv240pdm66141or9b8p1uvzb
+* Slides: https://drive.google.com/file/d/0B8936_ytjfjmdmF2Uy1vWS0xTFU/view?usp=sharing
 
 
 Cyberinfrastructure for E-MoreOrLessAnything
@@ -165,9 +163,8 @@ where e-moreorlessanything is another term for
 moreorlessanything-Informatics and generalizes early discussion of
 e-Science and e-Business.
 
-.. todo:: The slides or videos are going to be updated
-          
-Video: https://youtu.be/gHz0cu195ZM
+
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsbXpEdF8zWFh4aXc/view?usp=sharing
 
 
 
@@ -183,9 +180,8 @@ Network (NaaS) -- are introduced with Research aaS and other
 capabilities (for example Sensors aaS are discussed later) being built
 on top of these.
 
-.. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/Od_mYXRs5As
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsdDdsYkw0dXdHS1U/view?usp=sharing
 
 
 What and Why is Cloud Computing: Several Other Views I
@@ -194,13 +190,12 @@ What and Why is Cloud Computing: Several Other Views I
 This lesson contains 5 slides with diverse comments on ''what is cloud
 computing'' from the web.
 
-.. todo:: The slides or videos are going to be updated
           
-Video 1: https://youtu.be/5VeqMjXKU_Y
+* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsNm1jVVJMUVpCUlU/view?usp=sharing
 
-Video 2: https://youtu.be/J963LR0PS_g
+* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsV1RJcldzRlctRlk/view?usp=sharing
 
-Video 3: https://youtu.be/_ryLXUnOAzo
+* Video 3: https://drive.google.com/file/d/0B1Of61fJF7WsOUlxVHZ4MlN0RXc/view?usp=sharing
 
 
 Gartner's Emerging Technology Landscape for Clouds and Big Data
@@ -213,9 +208,9 @@ itself is at the top of the hype and by definition predictions of doom
 are emerging. Before too much excitement sets in, note that spinach is
 above clouds and Big data in Google trends.
 
-.. todo:: The slides or videos are going to be updated
+
           
-Video: https://youtu.be/N7aEtU1mUwc
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsaTg5aEZ0cHJuM0k/view?usp=sharing
 
 
 Simple Examples of use of Cloud Computing
@@ -227,19 +222,16 @@ consolidation for multiple Microsoft database applications and the
 second is the benefits of scale comparing gmail to multiple smaller
 installations. It ends with some fiscal comments.
 
-.. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/VCctCP6BKEo
-
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsLTBoM0NpYzVxOHc/view?usp=sharing
 
 Value of Cloud Computing
 """"""""""""""""""""""""
 
 Some comments on fiscal value of cloud computing.
 
-.. todo:: The slides or videos are going to be updated
           
-Video: https://youtu.be/HM1dZCxdsaA
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsSFdfZ0hodDlnUGM/view?usp=sharing
 
 
 
@@ -264,10 +256,9 @@ Platform (middleware) capabilities with examples from Amazon and
 academic studies. We summarize the 21 layers and almost 300 software
 packages in the HPC-ABDS Software Stack explaining how they are used.
 
-.. todo:: The slides or videos are going to be updated
 
-Slides: https://iu.app.box.com/s/k61o0ff1w6jkn5zmpaaiw02yth4v4alh
 
+* Slides: https://drive.google.com/file/d/0B8936_ytjfjmUHlEVG1wSUhDNnM/view?usp=sharing
 
 What is Cloud Computing
 """""""""""""""""""""""
@@ -275,9 +266,9 @@ What is Cloud Computing
 This lesson gives some general remark of cloud systems from an
 architecture and application perspective.
 
-.. todo:: The slides or videos are going to be updated
+
           
-Video: https://youtu.be/h3Rpb0Eyj1c
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsYlRhOHU5ci1seXc/view?usp=sharing
 
 
 Introduction to Cloud Software Architecture: IaaS and PaaS I
@@ -286,15 +277,6 @@ Introduction to Cloud Software Architecture: IaaS and PaaS I
 We discuss cloud software for the cloud starting at virtual
 machine management (IaaS) and the broad Platform (middleware)
 capabilities with examples from Amazon and academic studies.
-
-.. todo:: The slides or videos are going to be updated
-          
-Video: https://youtu.be/1AnyJYyh490
-
-
-Introduction to Cloud Software Architecture: IaaS and PaaS II
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 We cover different views as to nature of architecture and
 application for Cloud Computing. Then we discuss cloud software for
 the cloud starting at virtual machine management (IaaS) and the broad
@@ -302,9 +284,9 @@ Platform (middleware) capabilities with examples from Amazon and
 academic studies. We summarize the 21 layers and almost 300 software
 packages in the HPC-ABDS Software Stack explaining how they are used.
 
-.. todo:: The slides or videos are going to be updated
-          
-Video: https://youtu.be/hVpFAUHcAd4
+
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsUm1XanBaaWtpQWM/view?usp=sharing        
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsMXpfTTlvNDBkbTQ/view?usp=sharing
 
 
 Using the HPC-ABDS Software Stack
@@ -312,9 +294,9 @@ Using the HPC-ABDS Software Stack
 
 Using the HPC-ABDS Software Stack.
 
-.. todo:: The slides or videos are going to be updated
 
-Video: https://youtu.be/JuTQdRW78Pg
+
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsUTdlNmlYWDUyTlE/view?usp=sharing
 
 
 Resources
@@ -337,9 +319,9 @@ data intensive problems, comparison with high performance computing,
 science clouds and the Internet of Things. Remarks on Security, Fault
 Tolerance and Synchronicity issues in cloud follow.
 
-.. todo:: The slides or videos are going to be updated
+
           
-Slides: https://iu.app.box.com/s/0bn57opwe56t0rx4k18bswupfwj7culv
+* Slides: https://drive.google.com/file/d/0B8936_ytjfjmTHlzcGN3SzFNTTA/view?usp=sharing
 
 
 Cloud (Data Center) Architectures 
@@ -353,11 +335,11 @@ modular data centers that trade scalability for fault tolerance. Sizes
 of cloud centers and supercomputers are discussed as is "green"
 computing.
 
-.. todo:: The slides or videos are going to be updated
-          
-Video 1: https://youtu.be/j0P32DmQjI8
 
-Video 2: https://youtu.be/3HAGqz34AB4
+          
+* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsYkxKelV2bTlMZ1k/view?usp=sharing
+
+* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsRHJhN3VMaDJLTG8/view?usp=sharing
 
 
 
@@ -366,9 +348,9 @@ Analysis of Major Cloud Providers
 
 Gartner 2014 Analysis of leading cloud providers.
 
-.. todo:: The slides or videos are going to be updated
+
           
-https://youtu.be/Tu8hE1SeT28
+* video: https://drive.google.com/file/d/0B1Of61fJF7WsUXBjRUJpX1BaSjA/view?usp=sharing
 
 
 
@@ -377,9 +359,9 @@ Commercial Cloud Storage Trends
 
 Use of Dropbox, iCloud, Box etc.
 
-.. todo:: The slides or videos are going to be updated
+
           
-https://youtu.be/i5OI6R526kM
+* video: https://drive.google.com/file/d/0B1Of61fJF7WsZjR5VHQ2MXFmbjg/view?usp=sharing
 
 
 
@@ -393,11 +375,10 @@ discuss both storage and program fault tolerance noting that parallel
 computing is especially sensitive to faults as a fault in one task
 will impact all other tasks in the parallel job.
 
-.. todo:: The slides or videos are going to be updated
           
-Video 1: https://youtu.be/nkeSOMTGbbo
+* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsYXlKVXk0aG8tZFk/view?usp=sharing
 
-Video 2: https://youtu.be/ORd3aBhc2Rc
+* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WseGVUNHhGTHpZbVU/view?usp=sharing
 
 
 Science Clouds
@@ -405,9 +386,9 @@ Science Clouds
 
 Science Applications and Internet of Things.
 
-.. todo:: The slides or videos are going to be updated
+
           
-https://youtu.be/2PDvpZluyvs
+* video: https://drive.google.com/file/d/0B1Of61fJF7Wsd0lZejhPTkItZEE/view?usp=sharing
 
 
 
@@ -417,9 +398,9 @@ Security
 This short lesson discusses the need for security and issues in its
 implementation.
 
-.. todo:: The slides or videos are going to be updated
+
           
-https://youtu.be/NojXG3fbrEo
+* video: https://drive.google.com/file/d/0B1Of61fJF7WsajE4QkljRUExLWM/view?usp=sharing
 
 
 Comments on Fault Tolerance and Synchronicity Constraints
@@ -431,9 +412,8 @@ storage and program fault tolerance noting that parallel computing is
 especially sensitive to faults as a fault in one task will impact all
 other tasks in the parallel job.
 
-.. todo:: The slides or videos are going to be updated
           
-https://youtu.be/OMZiSiN7dlU
+* video: https://drive.google.com/file/d/0B1Of61fJF7WsdHRZV1VrTklWYVE/view?usp=sharing
 
 
 
@@ -478,9 +458,8 @@ architecture perspective and Big Data Processing from an application
 perspective with commercial examples including eBay.
 
 
-.. todo:: The slides or videos are going to be updated
-          
-Slides: https://iu.app.box.com/s/ftfpybxm8jzjepzp409vgair1fttv3m1
+
+* Slides: https://drive.google.com/file/d/0B1Of61fJF7WsN1RPVFRLUGJLZGs/view?usp=sharing
 
 
 The 10 Interaction scenarios (access patterns) I
@@ -489,9 +468,8 @@ The 10 Interaction scenarios (access patterns) I
 The next 3 lessons describe the way users and data interact with the
 system.
 
-.. todo:: The slides or videos are going to be updated
-          
-Video: https://youtu.be/vB4rCNri_P0
+
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsWldDNm1oNXdPQmc/view?usp=sharing
 
 
 
@@ -501,9 +479,8 @@ The 10 Interaction scenarios. Science Examples
 This lesson describes the way users and data interact with the system
 for some science examples.
 
-.. todo:: The slides or videos are going to be updated
-          
-Video: https://youtu.be/cFX1PQpiSbk
+
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsQTlvLWs4cm5NRE0/view?usp=sharing
 
 
 Remaining general access patterns
@@ -512,9 +489,9 @@ Remaining general access patterns
 This lesson describe the way users and data interact with the system
 for the final set of examples.
 
-.. todo:: The slides or videos are going to be updated
+
           
-Video: https://youtu.be/-dtE9zXB-I0
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsYVVRWmdpanV4Vlk/view?usp=sharing
 
 
 Data in the Cloud
@@ -524,9 +501,8 @@ Databases, File systems, Object Stores and NOSQL are discussed and
 compared. The way to build a modern data repository in the cloud is
 introduced.
 
-.. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/HdtIOnk3qX4
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsRzR6eHZwelVuOG8/view?usp=sharing
 
 
 Applications Processing Big Data
@@ -536,9 +512,8 @@ This lesson collects remarks on Big data processing from several
 sources: Berkeley, Teradata, IBM, Oracle and eBay with architectures
 and application opportunities.
 
-.. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/d6A2m4GR-hw
+* Video: https://drive.google.com/file/d/0B1Of61fJF7WsUG9UVGFOQXNXbnc/view?usp=sharing
 
 
 Resources
