@@ -1,7 +1,7 @@
 .. _S14:
 
 Sensors Case Study
-----------------------------------------------------------------------
+------------------
 
 We start with the Internet of Things IoT giving examples like
 monitors of machine operation, QR codes, surveillance cameras,
@@ -25,7 +25,7 @@ the smart electric grid.
 
 
 Internet of Things
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 There are predicted to be 24-50 Billion devices on the Internet by
 2020; these are typically some sort of sensor defined as any source or
@@ -41,7 +41,7 @@ form a Grid that is controlled by a cloud.
 
 
 Robotics and IOT Expectations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Examples of Robots and Drones.
 
@@ -51,7 +51,7 @@ Examples of Robots and Drones.
 
 
 Industrial Internet of Things
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We summarize surveys and expectations Industry wide.
 
@@ -63,7 +63,7 @@ We summarize surveys and expectations Industry wide.
 
 
 Sensor Clouds
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 We describe the architecture of a Sensor Cloud control
 environment and gives example of interface to an older version of
@@ -75,7 +75,7 @@ delivering data at 1.8 Mbps rate.
 
 
 Earth/Environment/Polar Science data gathered by Sensors
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This lesson gives examples of some sensors in the
 Earth/Environment/Polar Science field. It starts with material from
@@ -87,7 +87,7 @@ Imaging Spectroradiometer instrument on a satellite.
 
 
 Ubiquitous/Smart Cities
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 
 For Ubiquitous/Smart cities we give two examples: Iniquitous Korea and
 smart electrical grids.
@@ -97,7 +97,7 @@ smart electrical grids.
 
 
 U-Korea (U=Ubiquitous)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 Korea has an interesting positioning where it is first worldwide in
 broadband access per capita, e-government, scientific literacy and
@@ -112,7 +112,7 @@ everywhere. The example of a 'High-Tech Utopia' New Songdo is given.
 
 
 Smart Grid
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 The electrical Smart Grid aims to enhance USA's aging electrical
 infrastructure by pervasive deployment of sensors and the integration
@@ -127,8 +127,6 @@ autonomous local power units where good use is made of waste heat.
 
 Resources
 ^^^^^^^^^
-
-.. todo:: The slides or videos are going to be updated
 
 * https://www.gesoftware.com/minds-and-machines
 * https://www.gesoftware.com/predix

@@ -187,7 +187,7 @@ Resources
 * http://www.ifis.cs.tu-bs.de/teaching/ss-11/irws
 
 Web Search and Text Mining II
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 

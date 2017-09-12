@@ -205,7 +205,7 @@ data science education and the benefits of using MOOC's.
 
 
 Emerging Technologies
-"""""""""""""""""""""""
+"""""""""""""""""""""
 
 This presents the overview of talk, some trends in computing and data
 and jobs. Gartner's emerging technology hype cycle shows many areas of
@@ -339,7 +339,7 @@ Services.
 
 
 Computing Model
-""""""""""""""""
+"""""""""""""""
 
 *Industry adopted clouds which are attractive for data analytics*
 

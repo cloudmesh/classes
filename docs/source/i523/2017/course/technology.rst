@@ -1,7 +1,7 @@
 :orphan:
 
 Technology for Big Data Applications and Analytics
-----------------------------------------------------------------------
+--------------------------------------------------
 
 We use the K-means Python code in SciPy package to show real
 code for clustering. After a simple example we generate 4 clusters of
@@ -25,8 +25,8 @@ eigenvector. The unit is concluded by a calculation of PageRank for
 general web pages by extracting the secret from Google.
 
 
-Technologypi: K-means 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Technologypi: K-means
+^^^^^^^^^^^^^^^^^^^^^
 
 We use the K-means Python code in SciPy package to show real
 code for clustering. After a simple example we generate 4 clusters of
@@ -67,8 +67,8 @@ and make definition consistent with code in SciPy.
 
 
 
-Analysis of 4 Artificial Clusters 
-"""""""""""""""""""""""""""""""""""
+Analysis of 4 Artificial Clusters
+"""""""""""""""""""""""""""""""""
 
 We present clustering results on the artificial set of 1000 2D points
 described in previous lesson for 3 choices of cluster sizes *small*
@@ -96,7 +96,7 @@ use of Python for new runs.
 
 
 Technology: MapReduce
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 
 We describe the basic architecture of MapReduce and a homely
@@ -125,7 +125,7 @@ inspected by the user.
 
 
 Advanced Topics
-"""""""""""""""""
+"""""""""""""""
 
 This defines 4 types of MapReduce and the Map Collective model of
 Qiu. The Iterative MapReduce model from Indiana University called
@@ -140,7 +140,7 @@ Azure are presented.
 
 
 Technology: Kmeans and MapReduce Parallelism
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 We modify the SciPy K-means code to support a MapReduce
@@ -161,8 +161,8 @@ Files:
 
 * :download:`ParallelKmeans </files/python/k_means/parallel_kmeans.py>`
 
-MapReduce Kmeans in Python 
-""""""""""""""""""""""""""""
+MapReduce Kmeans in Python
+""""""""""""""""""""""""""
 
 We modify the SciPy K-means code to support a MapReduce
 execution style and runs it in this short unit. This illustrates the
@@ -178,8 +178,8 @@ generalized to scalable parallelism.
           Video 2: https://youtu.be/LLrTWWdE3T0
 
 
-Technology: PageRank 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Technology: PageRank
+^^^^^^^^^^^^^^^^^^^^
 
 We use Python to Calculate PageRank from Web Linkage Matrix
 showing several different formulations of the basic matrix equations
@@ -197,8 +197,8 @@ Files:
 * :download:`pagerank2.py </files/python/page_rank/pagerank2.py>`
 
 
-Calculate PageRank from Web Linkage Matrix I
-""""""""""""""""""""""""""""""""""""""""""""
+Calculate PageRank from Web Linkage Matrix
+""""""""""""""""""""""""""""""""""""""""""
 
 We take two simple matrices for 6 and 8 web sites respectively
 to illustrate the calculation of PageRank.
@@ -211,7 +211,7 @@ to illustrate the calculation of PageRank.
 
 
 
-Calculate PageRank of a real page
+Calculate PageRank of a Real Page
 """""""""""""""""""""""""""""""""
 
 This tiny lesson presents a Python code that finds the Page Rank that

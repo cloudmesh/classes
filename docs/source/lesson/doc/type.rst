@@ -1,7 +1,8 @@
 Communicating Research
 ======================
 
-It is important to have tools that allow us to communicate
+It is important to have tools that allow us to communicate. 
+
 
 Blogs
 -----
@@ -108,6 +109,11 @@ Disadvantages:
 Research Paper
 --------------
 
+To inspire you we like to start with a lecture given by Simon Peyton Jones:
+
+* "How to write a paper" https://www.youtube.com/watch?v=g3dkRsTqdDA
+
+  
 Writing
 ^^^^^^^
 

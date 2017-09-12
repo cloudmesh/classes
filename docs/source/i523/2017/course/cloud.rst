@@ -53,7 +53,11 @@ communication, synchronization, load balancing and decomposition.
 
 
           
+<<<<<<< HEAD
 * Slides: https://drive.google.com/file/d/0B8936_ytjfjmZDRqMldzSVhVem8/view?usp=sharing
+=======
+          * Slides: https://iu.app.box.com/s/nau0rsr39kyej240s4yz
+>>>>>>> origin/master
 
 
 Decomposition 
@@ -72,16 +76,22 @@ decomposition in irregular problems is noted.
 
 
           
+<<<<<<< HEAD
 * Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsWXgtNndQN0Jydkk/view?usp=sharing
 
 * Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsQ1pMLWhXQV92OXM/view?usp=sharing
 
 * Video 3: https://drive.google.com/file/d/0B1Of61fJF7WsaVZLOEUzc0VuWjQ/view?usp=sharing
+=======
+          * Video 1: https://youtu.be/R-wHQW2YuRE
+          * Video 2: https://youtu.be/iIi9wdvlwCM
+          * Video 3: https://youtu.be/F0aeeLeTD9I
 
 
+>>>>>>> origin/master
 
-Parallel Computing in Society 
-"""""""""""""""""""""""""""""""
+Parallel Computing in Society
+"""""""""""""""""""""""""""""
 
 This lesson from the past notes that one can view society as an
 approach to parallel linkage of people. The largest example given is
@@ -95,9 +105,14 @@ lesson concludes with other examples from nature including collections
 of neurons (the brain) and ants.
 
           
+<<<<<<< HEAD
 * Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsY3hEeTJvTFYtN2s/view?usp=sharing
 
 * Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsU1ROMmpNNTlUTUU/view?usp=sharing
+=======
+          * Video 1: https://youtu.be/8rtjoe8AeJw
+          * Video 2: https://youtu.be/7sCgH_TTPGk
+>>>>>>> origin/master
 
 
 Parallel Processing for Hadrian's Wall
@@ -115,7 +130,11 @@ comparison between Big data parallelism and the construction of a
 large wall.
 
           
+<<<<<<< HEAD
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsNEtLOTNNN3dlNjQ/view?usp=sharing
+=======
+          * Video: https://youtu.be/ZD2AQ08cy8I
+>>>>>>> origin/master
 
 
 Resources
@@ -135,7 +154,7 @@ Resources
   Springer. http://grids.ucs.indiana.edu/ptliupages/publications/SpringerEncyclopedia_Fox.pdf
 
 Cloud Computing Technology Part I: Introduction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 We discuss Cyberinfrastructure for e-moreorlessanything or
@@ -151,7 +170,11 @@ computing growth areas.
 
 
           
+<<<<<<< HEAD
 * Slides: https://drive.google.com/file/d/0B8936_ytjfjmdmF2Uy1vWS0xTFU/view?usp=sharing
+=======
+          * Slides: https://iu.app.box.com/s/p3lztuu9kv240pdm66141or9b8p1uvzb
+>>>>>>> origin/master
 
 
 Cyberinfrastructure for E-MoreOrLessAnything
@@ -163,8 +186,14 @@ where e-moreorlessanything is another term for
 moreorlessanything-Informatics and generalizes early discussion of
 e-Science and e-Business.
 
+<<<<<<< HEAD
 
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsbXpEdF8zWFh4aXc/view?usp=sharing
+=======
+.. todo:: The slides or videos are going to be updated
+          
+          * Video: https://youtu.be/gHz0cu195ZM
+>>>>>>> origin/master
 
 
 
@@ -181,7 +210,11 @@ capabilities (for example Sensors aaS are discussed later) being built
 on top of these.
 
           
+<<<<<<< HEAD
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsdDdsYkw0dXdHS1U/view?usp=sharing
+=======
+          * Video: https://youtu.be/Od_mYXRs5As
+>>>>>>> origin/master
 
 
 What and Why is Cloud Computing: Several Other Views I
@@ -191,11 +224,17 @@ This lesson contains 5 slides with diverse comments on ''what is cloud
 computing'' from the web.
 
           
+<<<<<<< HEAD
 * Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsNm1jVVJMUVpCUlU/view?usp=sharing
 
 * Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsV1RJcldzRlctRlk/view?usp=sharing
 
 * Video 3: https://drive.google.com/file/d/0B1Of61fJF7WsOUlxVHZ4MlN0RXc/view?usp=sharing
+=======
+          * Video 1: https://youtu.be/5VeqMjXKU_Y
+          * Video 2: https://youtu.be/J963LR0PS_g
+          * Video 3: https://youtu.be/_ryLXUnOAzo
+>>>>>>> origin/master
 
 
 Gartner's Emerging Technology Landscape for Clouds and Big Data
@@ -210,7 +249,11 @@ above clouds and Big data in Google trends.
 
 
           
+<<<<<<< HEAD
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsaTg5aEZ0cHJuM0k/view?usp=sharing
+=======
+          * Video: https://youtu.be/N7aEtU1mUwc
+>>>>>>> origin/master
 
 
 Simple Examples of use of Cloud Computing
@@ -223,7 +266,12 @@ second is the benefits of scale comparing gmail to multiple smaller
 installations. It ends with some fiscal comments.
 
           
+<<<<<<< HEAD
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsLTBoM0NpYzVxOHc/view?usp=sharing
+=======
+          * Video: https://youtu.be/VCctCP6BKEo
+
+>>>>>>> origin/master
 
 Value of Cloud Computing
 """"""""""""""""""""""""
@@ -231,7 +279,11 @@ Value of Cloud Computing
 Some comments on fiscal value of cloud computing.
 
           
+<<<<<<< HEAD
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsSFdfZ0hodDlnUGM/view?usp=sharing
+=======
+          * Video: https://youtu.be/HM1dZCxdsaA
+>>>>>>> origin/master
 
 
 
@@ -257,6 +309,10 @@ academic studies. We summarize the 21 layers and almost 300 software
 packages in the HPC-ABDS Software Stack explaining how they are used.
 
 
+<<<<<<< HEAD
+=======
+          * Slides: https://iu.app.box.com/s/k61o0ff1w6jkn5zmpaaiw02yth4v4alh
+>>>>>>> origin/master
 
 * Slides: https://drive.google.com/file/d/0B8936_ytjfjmUHlEVG1wSUhDNnM/view?usp=sharing
 
@@ -268,12 +324,17 @@ architecture and application perspective.
 
 
           
+<<<<<<< HEAD
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsYlRhOHU5ci1seXc/view?usp=sharing
+=======
+          * Video: https://youtu.be/h3Rpb0Eyj1c
+>>>>>>> origin/master
 
 
 Introduction to Cloud Software Architecture: IaaS and PaaS I
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+<<<<<<< HEAD
 We discuss cloud software for the cloud starting at virtual
 machine management (IaaS) and the broad Platform (middleware)
 capabilities with examples from Amazon and academic studies.
@@ -287,6 +348,22 @@ packages in the HPC-ABDS Software Stack explaining how they are used.
 
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsUm1XanBaaWtpQWM/view?usp=sharing        
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsMXpfTTlvNDBkbTQ/view?usp=sharing
+=======
+We discuss cloud software for the cloud starting at virtual machine
+management (IaaS) and the broad Platform (middleware) capabilities
+with examples from Amazon and academic studies.  We cover different
+views as to nature of architecture and application for Cloud
+Computing. Then we discuss cloud software for the cloud starting at
+virtual machine management (IaaS) and the broad Platform (middleware)
+capabilities with examples from Amazon and academic studies. We
+summarize the 21 layers and almost 300 software packages in the
+HPC-ABDS Software Stack explaining how they are used.
+
+.. todo:: The slides or videos are going to be updated
+          
+          * Video: https://youtu.be/1AnyJYyh490
+          * Video: https://youtu.be/hVpFAUHcAd4
+>>>>>>> origin/master
 
 
 Using the HPC-ABDS Software Stack
@@ -295,8 +372,12 @@ Using the HPC-ABDS Software Stack
 Using the HPC-ABDS Software Stack.
 
 
+<<<<<<< HEAD
 
 * Video: https://drive.google.com/file/d/0B1Of61fJF7WsUTdlNmlYWDUyTlE/view?usp=sharing
+=======
+          * Video: https://youtu.be/JuTQdRW78Pg
+>>>>>>> origin/master
 
 
 Resources
@@ -321,7 +402,11 @@ Tolerance and Synchronicity issues in cloud follow.
 
 
           
+<<<<<<< HEAD
 * Slides: https://drive.google.com/file/d/0B8936_ytjfjmTHlzcGN3SzFNTTA/view?usp=sharing
+=======
+          * Slides: https://iu.app.box.com/s/0bn57opwe56t0rx4k18bswupfwj7culv
+>>>>>>> origin/master
 
 
 Cloud (Data Center) Architectures 
@@ -337,9 +422,14 @@ computing.
 
 
           
+<<<<<<< HEAD
 * Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsYkxKelV2bTlMZ1k/view?usp=sharing
 
 * Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsRHJhN3VMaDJLTG8/view?usp=sharing
+=======
+          * Video 1: https://youtu.be/j0P32DmQjI8
+          * Video 2: https://youtu.be/3HAGqz34AB4
+>>>>>>> origin/master
 
 
 
@@ -350,7 +440,11 @@ Gartner 2014 Analysis of leading cloud providers.
 
 
           
+<<<<<<< HEAD
 * video: https://drive.google.com/file/d/0B1Of61fJF7WsUXBjRUJpX1BaSjA/view?usp=sharing
+=======
+          * Video: https://youtu.be/Tu8hE1SeT28
+>>>>>>> origin/master
 
 
 
@@ -361,7 +455,11 @@ Use of Dropbox, iCloud, Box etc.
 
 
           
+<<<<<<< HEAD
 * video: https://drive.google.com/file/d/0B1Of61fJF7WsZjR5VHQ2MXFmbjg/view?usp=sharing
+=======
+          * Video: https://youtu.be/i5OI6R526kM
+>>>>>>> origin/master
 
 
 
@@ -376,9 +474,14 @@ computing is especially sensitive to faults as a fault in one task
 will impact all other tasks in the parallel job.
 
           
+<<<<<<< HEAD
 * Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsYXlKVXk0aG8tZFk/view?usp=sharing
 
 * Video 2: https://drive.google.com/file/d/0B1Of61fJF7WseGVUNHhGTHpZbVU/view?usp=sharing
+=======
+          * Video 1: https://youtu.be/nkeSOMTGbbo
+          * Video 2: https://youtu.be/ORd3aBhc2Rc
+>>>>>>> origin/master
 
 
 Science Clouds
@@ -400,7 +503,11 @@ implementation.
 
 
           
+<<<<<<< HEAD
 * video: https://drive.google.com/file/d/0B1Of61fJF7WsajE4QkljRUExLWM/view?usp=sharing
+=======
+          * Video: https://youtu.be/NojXG3fbrEo
+>>>>>>> origin/master
 
 
 Comments on Fault Tolerance and Synchronicity Constraints
@@ -413,7 +520,11 @@ especially sensitive to faults as a fault in one task will impact all
 other tasks in the parallel job.
 
           
+<<<<<<< HEAD
 * video: https://drive.google.com/file/d/0B1Of61fJF7WsdHRZV1VrTklWYVE/view?usp=sharing
+=======
+          * Video: https://youtu.be/OMZiSiN7dlU
+>>>>>>> origin/master
 
 
 

@@ -2,7 +2,7 @@
 .. _S9:
 
 e-Commerce and LifeStyle Case Study
-----------------------------------------------------------------------
+-----------------------------------
 
 Recommender systems operate under the hood of such widely recognized
 sites as Amazon, eBay, Monster and Netflix where everything is a
@@ -45,7 +45,7 @@ annealing to avoid this and value of heuristic algorithms.
 
 
 Recommender Systems: Introduction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We introduce Recommender systems as an optimization technology
 used in a variety of applications and contexts online. They operate in
@@ -134,9 +134,7 @@ Netflix Kaggle competition to improve its rating system. The analogy
 to maximizing click through rate is given and the objectives of
 optimization are given.
  
-          
  * Video : https://drive.google.com/file/d/0B1Of61fJF7WsSldPN0FCcGNmY1k/view?usp=sharing
-
 
 
 
@@ -155,7 +153,11 @@ household.
 
  
           
+
 * Video: https://youtu.be/B8cjaOQ57LI
+
+* Video: https://youtu.be/B8cjaOQ57LI
+
 
 
 Resources
@@ -188,7 +190,8 @@ viewed as points in a space of items.
 
 
           
- * Slides:https://drive.google.com/file/d/0B5plU-u0wqMoRmxNUVBVdFREQXc/view?usp=sharing
+ * Slides: https://drive.google.com/file/d/0B5plU-u0wqMoRmxNUVBVdFREQXc/view?usp=sharing
+
 
 
 Recap and Examples of Recommender Systems
@@ -199,7 +202,9 @@ what they are with brief examples.
 
 
           
+
  * Video: https://drive.google.com/file/d/0B1Of61fJF7WsWFJ2V0FGaExmX0k/view?usp=sharing
+
 
 
 
@@ -230,11 +235,13 @@ on-line (real time) components.
 
 
           
+
 * Video 1: https://youtu.be/FBn7HpGFNvg
 
 * Video 2: https://youtu.be/VS2Y4lAiP5A
 
 * Video 3: https://youtu.be/HrRJWEF8EfU
+
 
 
 
@@ -249,7 +256,6 @@ quantified by the Pearson correlation, used to statistically quantify
 correlations between users.
 
 * Video 1: https://youtu.be/lsf_AE-8dSk
-
 * Video 2: https://youtu.be/U7-qeX2ItPk
 
 Vector Space Formulation of Recommender Systems
@@ -268,7 +274,7 @@ Resources
 * http://pages.cs.wisc.edu/~beechung/icml11-tutorial/
 
 Item-based Collaborative Filtering and its Technologies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We move on to item-based collaborative filtering where items
 are viewed as points in a space of users. The Cosine Similarity is
@@ -280,8 +286,8 @@ dimensionality in high dimensions are discussed.
 * Slides: https://drive.google.com/file/d/0B5plU-u0wqMoR0otVFhjODJablk/view?usp=sharing
 
 
-Item-based Collaborative Filtering I
-""""""""""""""""""""""""""""""""""""
+Item-based Collaborative Filtering
+""""""""""""""""""""""""""""""""""
 
 We covered user-based collaborative filtering in the previous
 unit. Here we start by discussing memory-based real time and model
@@ -294,8 +300,6 @@ significant number of rankings.
        
 
 * Video 1: https://drive.google.com/file/d/0B1Of61fJF7Wsa0JORU5kSTZCTXM/view?usp=sharing
-
-          
 * Video 2: https://youtu.be/SM8EJdAa4mw
 
 
