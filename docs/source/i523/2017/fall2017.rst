@@ -346,15 +346,11 @@ Online Students:
    Using a doodle poll from the online students, we have identified the 
    following times for the online meetings:
 
-   * Mon 6-7 PM (Gregor, Juliette)
-   
-   * Mon 7-8 PM (Gregor, Juliette)
-
-   * Fri 4-5 PM (Miao, Saber)
-
-   * Sat 10-11 AM (Grace, Miao)
-
-   * Tue 6-7 PM (Saber, Grace)
+   * Mon 6-7 PM EST   (Gregor, Juliette)
+   * Mon 7-8 PM EST   (Gregor, Juliette)
+   * Fri 4-5 PM EST   (Saber, Miao)
+   * Sat 10-11 AM EST (Saber, Miao)
+   * Wed 5-6 PM EST   (Juliette, no meeting notes for this meeting time, 
 
    The link for joining the meeting on Zoom is https://iu.zoom.us/j/235405252
 

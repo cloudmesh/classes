@@ -29,7 +29,7 @@ X-Informatics Case Study: Health Informatics
 Overview
 """"""""
 
-Slides: https://drive.google.com/file/d/0B5plU-u0wqMoODFRVF9CT1NPbEk/view?usp=sharing
+Slides: (131 pages) https://drive.google.com/file/d/0B5plU-u0wqMoODFRVF9CT1NPbEk/view?usp=sharing
 
 This section starts by discussing general aspects of Big Data and
 Health including data sizes, different areas including genomics, EBI,
@@ -59,7 +59,7 @@ given in radiology, genomics, personalized medicine, and the
 Quantified Self movement, with sizes and access to European
 Bioinformatics Institute.
 
-Video: https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
+Video: (10:02 mm:ss) https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
 
 
 
