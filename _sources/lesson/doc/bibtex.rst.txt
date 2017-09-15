@@ -925,3 +925,6 @@ BibTex4Word
 We have not tried this:
 
 * http://www.ee.ic.ac.uk/hp/staff/dmb/perl/index.html
+
+You are highly recommended to use Jabref for bibliography management in this class.
+Here is an introductory video on Jabref: https://youtu.be/roi7vezNmfo?t=8m6s
