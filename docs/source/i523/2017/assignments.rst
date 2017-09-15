@@ -62,7 +62,7 @@ Paper 1 Topic:
    The paper will be due on Oct 9, 9am.
    
 
-Week 3 (Not yet released)
+Week 3
 -------------------------
 
 This assignment may take some of you multiple weeks.
@@ -98,3 +98,8 @@ Polls:
    * What is your python knowledge? https://piazza.com/class/j5wll7vzylg25j?cid=184
 
    * Which lectures did you view? https://piazza.com/class/j5wll7vzylg25j?cid=185
+
+Week 4
+-------------------------
+Please identify your paper 2 topic immediately. Post it in the Followup Discussion section 
+of this Piazza post with the specified format: https://piazza.com/class/j5wll7vzylg25j?cid=187
