@@ -88,8 +88,8 @@ pull request for it.
 
 There will be tutorials about this
 
-Polls:
-   Please fill out the following polls on Piazza. They will used to track your progress.
+Polls
+   Please fill out the following polls on Piazza. They will used to track your progress:
 
    * Who has or will have a Raspberry Pi or esp8266? https://piazza.com/class/j5wll7vzylg25j?cid=182
 
@@ -103,3 +103,28 @@ Week 4
 -------------------------
 Please identify your paper 2 topic immediately. Post it in the Followup Discussion section 
 of this Piazza post with the specified format: https://piazza.com/class/j5wll7vzylg25j?cid=187
+
+Week 5
+-------------------------
+* Please read the following post on Piazza and make sure your README.md file is up to date (Deadline: Friday 22 Sept 9am): https://piazza.com/class/j5wll7vzylg25j?cid=252
+
+
+* Experiments
+   A number of experiments are posted on Piazza. They are not assignments, but are experiments 
+   and if you do them right, they will lead to material that can be shared with all students. 
+   Experiments can lead to discussion points that go into your discussion grade. Here are the links:
+
+   * Description https://piazza.com/class/j5wll7vzylg25j?cid=240
+   * E: Experimenting with gitbash on windows https://piazza.com/class/j5wll7vzylg25j?cid=236
+   * E: Experimenting Windows Subsystem for Linux Documentation https://piazza.com/class/j5wll7vzylg25j?cid=237
+   * E: Experimenting with MQTT https://piazza.com/class/j5wll7vzylg25j?cid=238
+   * E: Experimenting with Graphs https://piazza.com/class/j5wll7vzylg25j?cid=239
+   * E: Experimenting with IoT sculptures https://piazza.com/class/j5wll7vzylg25j?cid=241
+   * E: Build a camera enhanced Raspbery Pi robot car https://piazza.com/class/j5wll7vzylg25j?cid=242
+
+   * E: Build a Raspbery PI docker swarm cluster https://piazza.com/class/j5wll7vzylg25j?cid=243
+
+
+
+
+
