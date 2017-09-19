@@ -10,3 +10,5 @@ Content
 
    course/index
    assignment/index
+   evaluation/index
+   participation/index

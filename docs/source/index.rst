@@ -18,6 +18,14 @@ I524
 
    i524/2017/index
 
+iCloud
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   icloud/2017/index
+
 FAQ
 -------------
 
