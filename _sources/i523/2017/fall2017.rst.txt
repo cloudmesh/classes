@@ -32,7 +32,20 @@ into these sections during the week. We can see from the github logs
 when you changed the notbook.md file to monitor progress. The
 management of the notebokk will be part of your discussion grade.
 
-A sample note book is available at:
+The format of the notebook is very specific and must follow these
+rules:
+
+* use headings with the # character and have a space after the #
+* use bullets in each topic.
+* each bullet must have an individual date that is of the form
+  mm/dd/yy:
+  
+  
+Please examin carefully the sample note book is available at:
+
+* https://raw.githubusercontent.com/bigdata-i523/sample-hid000/master/notebook.md
+
+This will render inmd as:
 
 * https://github.com/bigdata-i523/sample-hid000/blob/master/notebook.md
  
@@ -355,8 +368,10 @@ Residential Students:
     We suggest that you let the TA's know before you come, in order to 
     make sure there are not too many people coming at the same time.
 
-    If a meeting is needed with Gregor, this is done upon appointment. TAs will figure out if a meeting is needed.
-    Please prepare your questions ahead of time, and place them in Piazza first.
+    If a meeting is needed with Gregor, this is done upon appointment
+    Tue-Thu 10am - 2:30pm. TAs will figure out if a meeting is needed.
+    Please prepare your questions ahead of time, and place them in
+    Piazza first. 
 
 
 Online Students:
