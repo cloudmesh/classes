@@ -218,8 +218,8 @@ In case you are allowed to use word The following applies in addition
 #. Make sure you use .docx and not .doc
 
 
-README.rst
-----------
+README.md
+---------
 
 For I523, Fall 2017, we will manage all papers via github.com. You
 will be added to our github at
