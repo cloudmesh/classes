@@ -3,6 +3,8 @@
 How to Run VMs (IaaS)
 -------------------------------------------------------------------------------
 
+* 17 Video lectures (2 hours 7 minutes 9 seconds)
+
 Course Expectations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -13,7 +15,7 @@ testbed shows how clouds offer advantages of provisioning and virtual cluster
 support. Overhead and performance issues are touched upon through charts
 showing the use of three different virtual clusters.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=j3sUW376pw8>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=j3sUW376pw8>`_ (7:45)
 
 Student Work 1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -22,7 +24,7 @@ The work of previous B649 students is presented, covering a variety of topics
 and software: HBase, DryadLINQ, virtualization, commercial cloud storage, and
 IU’s Twister iterative MapReduce.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=DYG6_bUGsqY>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=DYG6_bUGsqY>`_ (8:48)
 
 Student Work 2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -35,7 +37,7 @@ K-means clustering, etc. Following this the benefits/vulnerabilities of clouds
 and some of their most well-known programs are showcased in other research
 assignments.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=DqaQ0kemmaw>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=DqaQ0kemmaw>`_ (10:03)
 
 Growth of Virtual Machines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -49,7 +51,7 @@ specifications. Four different types of VM architecture, defined by the layer
 which the virtual machine monitor (VMM) runs on. VM is identical to physical
 machines and can be saved and stored, as well as migrated across hardware.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=5oKoAPCXLws>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=5oKoAPCXLws>`_ (10:16)
 
 Implementation Levels
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -62,7 +64,7 @@ CUDA is a high performance computing library, not designed for VMs; vCUDA is a
 virtual layer that allows interaction between CUDA and VMs, creating a virtual
 CUDA library.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=Le-kv-eAhvg>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=Le-kv-eAhvg>`_ (7:57)
 
 Tools and Mechanisms
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -76,7 +78,7 @@ Para-virtualization does not need to modify the guest OS like full
 virtualization and works through hypercalls. An example is the ESX server from
 VMware.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=VYz5rp5HDVE>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=VYz5rp5HDVE>`_ (7:32)
 
 CPU, Memory & I/O Devices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -89,7 +91,7 @@ Extended Page Table. A virtualization layer for an I/O device is possible,
 allowing it to act like a physical device and manage host and guest addresses,
 shown in a detailed VMware example.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=I_J4eUUavSY>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=I_J4eUUavSY>`_ (6:41)
 
 Clusters and Resource Mgmt.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -102,7 +104,7 @@ in a virtual cluster. Should a VM fail for any reason, its image can be
 migrated to a new host so work is not lost. An example of this is demonstrated
 with XEN.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=Mn9pgGtFy4g>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=Mn9pgGtFy4g>`_ (5:07)
 
 Data Center Automation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -113,7 +115,7 @@ Eucalyptus, OpenNebula, and vSphere. Eucalyptus is shown in greater detail.
 Trust issues in cloud security are answered in virtual machines. Suggested
 reading material is provided at the end.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=mvXBRvTwAVg>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=mvXBRvTwAVg>`_ (3:30)
 
 Clouds in the Workplace
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -126,7 +128,7 @@ LinkedIn, Amazon S3, and Google App Engine. Different variations of clouds like
 IaaS and PaaS are offered by both open source and commercial providers. Cloud
 systems are composed of separate elements like Eucalyptus, Xen and VMware.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=Endt6mWUfEo>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=Endt6mWUfEo>`_ (7:13)
 
 Checklists & Challenges
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -145,7 +147,7 @@ environments. However there are distinct advantages clouds potentially have to
 offer: standardized APIs can eliminate lock-in, and encryption offers data
 confidentiality.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=cwtWpZcWuQ0>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=cwtWpZcWuQ0>`_ (9:08)
 
 Data Center Setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -162,7 +164,7 @@ or attached to outside connections like InfiniBand. Switches can form an array
 of racks. The distribution of memory across a local, rack, or array server in
 warehouse server setup is listed.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=zBVtXzqF2ew>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=zBVtXzqF2ew>`_ (7:49)
 
 Cultivating Clouds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -179,23 +181,25 @@ future. Clouds have become ubiquitous in all aspects of the private and public
 sector. In the future clouds must take into account user privacy, data security
 and copyright protection.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=zxoqRdvXM28>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=zxoqRdvXM28>`_ (5:10)
 
 Applying for FutureSystems Account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Video: `Youtube <https://www.youtube.com/watch?v=98ERlWi3k3U>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=98ERlWi3k3U>`_ (5:32)
 
 FutureSystems India OpenStack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* Video: `Youtube <https://www.youtube.com/watch?v=hyKYTpNmJZc>`_
+
+* Video: `Youtube <https://www.youtube.com/watch?v=hyKYTpNmJZc>`_ (10:28)
 
 Starting VMs on FutureSystems
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Video: `Youtube <https://www.youtube.com/watch?v=RPnhJs4IcfQ>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=RPnhJs4IcfQ>`_ (6:40)
 
 Hadoop WordCount on VMs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* Video: `Youtube <https://www.youtube.com/watch?v=1TrjmcPHrRU>`_
+
+* Video: `Youtube <https://www.youtube.com/watch?v=1TrjmcPHrRU>`_ (7:30)
 

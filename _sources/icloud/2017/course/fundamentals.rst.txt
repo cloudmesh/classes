@@ -2,6 +2,8 @@
 Cloud Computing Fundamentals
 -------------------------------------------------------------------------------
 
+* 6 Video lectures (48 minutes 20 seconds)
+
 Course Info
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -10,7 +12,7 @@ schedule and homework submissions. Key cloud computing topics are highlighted.
 A selection of recommended and required textbooks is given, followed by an
 overview of the course structure.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=Kde5YVUwDTQ>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=Kde5YVUwDTQ>`_ (13:13)
 
 Introduction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -23,7 +25,7 @@ through clouds. A more in-depth look at Unit 1 follows, focusing on the
 chapters from Distributed and Cloud Computing: From Parallel Processing to the
 Internet of Things.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=5lKj8_nqj9k>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=5lKj8_nqj9k>`_ (8:31)
 
 Data Center Model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -35,7 +37,7 @@ Service, Platform as a Service, and Software as a Service. AzureBlast is used
 as an example of how to utilize the cloud setup. Certain misconceptions about
 clouds are then presented for further discussion.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=6Hq_LuLB-RU>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=6Hq_LuLB-RU>`_ (8:08)
   
 Data Intensive Sciences
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -47,7 +49,7 @@ research has also undergone an upgrade. However, the average scientist would
 rather focus on their own research rather than spend time trying to learn
 different methods of cloud and supercomputing.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=Ptoj3BME_z4>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=Ptoj3BME_z4>`_ (2:44)
 
 IaaS, PaaS and SaaS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,7 +60,7 @@ clouds trades cost and control for efficiency. Following this is an exploration
 of the MapReduce program, and an illustration of its concepts through
 WordCount. Finally, four distinct approaches to MapReduce are compared.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=_irz3v1gT-A>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=_irz3v1gT-A>`_ (10:17)
 
 Challenges
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -72,4 +74,4 @@ clouds still have clear advantages over traditional computing models. A quiz is
 offered at the end asking students to correctly place software in a hierarchy
 of computing.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=VpDRGcBe4s8>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=VpDRGcBe4s8>`_ (5:27)

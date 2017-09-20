@@ -2,6 +2,8 @@
 How to Run MapReduce (PaaS)
 ===============================================================================
 
+* 15 Video lectures (1 hour 58 minutes 4 seconds)
+
 Apache Data Analysis Open Stack
 -------------------------------------------------------------------------------
 
@@ -14,7 +16,7 @@ cluster sorting through the PlotViz program. Data analysis tool Twister boasts
 features like in-memory support of tasks, data flow separation, and
 portability.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=6vkgvGtyv4Q>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=6vkgvGtyv4Q>`_ (12:01)
 
 MapReduce
 -------------------------------------------------------------------------------
@@ -25,7 +27,7 @@ MapReduce has flourished since its premier, as illustrated by an in-depth
 example of its use in WordCount. Finally the basic process of MapReduce is
 shown.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=sSIGaDaulvA>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=sSIGaDaulvA>`_ (9:07)
 
 Hadoop Framework
 -------------------------------------------------------------------------------
@@ -36,7 +38,7 @@ System through master and slave nodes. Compute is handled by JobTracker and
 TaskTracker; the duties of these two intertwined programs are then explored
 more fully.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=Vuroqly6FTE>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=Vuroqly6FTE>`_ (8:32)
 
 
 Hadoop Tasks
@@ -51,7 +53,7 @@ to order and reduce size of intermediate data. Reduce tasks take over then to
 determine the output data format. A final chart illustrates the concept of
 parallelism in MapReduce.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=UN4t3tvdjms>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=UN4t3tvdjms>`_ (11:01)
 
 Fault Tolerance
 -------------------------------------------------------------------------------
@@ -62,7 +64,7 @@ respond. A diagram illustrates the files which are in charge of things like
 number of map and reduce tasks, and what to do when the limit is reached on the
 buffer. The lecture ends with a discussion of class assignments.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=a3AlOTmD42k>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=a3AlOTmD42k>`_ (2:45)
 
 
 Programming on a Computer Cluster
@@ -73,7 +75,7 @@ tremendous variety of data in other areas like medicine and business. A list of
 time spans for actions in system requirements is given. The original MapReduce
 was designed to resolve problems like load balancing and machine failures.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=rRR2ALa5CUA>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=rRR2ALa5CUA>`_ (6:01)
 
 
 How Hadoop Runs on a MapReduce Job
@@ -85,8 +87,7 @@ framework, while Hadoop is written in Java. Shuffling and sorting occurs in the
 map phase. Reduce reads and writes files to HDFS, and the merger generates the
 final result. The second Quiz is given at the end.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=KWLY_maNEPA>`_
-
+* Video: `Youtube <https://www.youtube.com/watch?v=KWLY_maNEPA>`_ (9:25)
 
 Literature Review
 -------------------------------------------------------------------------------
@@ -97,7 +98,7 @@ scientific submissions. The first paper highlights Google File System, covering
 topics like data chunks, metadata, and replicas. This is followed by MapReduce
 and BigTable.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=5YmjrhEFQsk>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=5YmjrhEFQsk>`_ (9:43)
 
 Introduction to BLAST
 -------------------------------------------------------------------------------
@@ -109,7 +110,7 @@ Sequence Tool) program data flow is illustrated. An example of database
 creation comes from the Seattle Children’s Hospital. BLAST uses scores to find
 similar sequences in databases.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=i3H9HmUYfq8>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=i3H9HmUYfq8>`_ (8:27)
 
 BLAST Parallelization
 -------------------------------------------------------------------------------
@@ -120,7 +121,7 @@ and database segmentation. BLAST is pleasingly parallel in application, but
 many programs are not. Further information about articles featuring BLAST is
 provided at the end.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=isc0MjkwTlk>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=isc0MjkwTlk>`_ (4:44)
 
 
 SIMD vs MIMD;SPMD vs MPMD
@@ -135,7 +136,7 @@ in that data is sent in a matrix, not a string. WordCount functions in a
 map/reduce pattern. These are all types of SIMD. SPMD and MPMD are two other
 types of model.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=zHQiR56Zmtc>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=zHQiR56Zmtc>`_ (9:42)
 
 Data Locality
 -------------------------------------------------------------------------------
@@ -148,7 +149,7 @@ locality is tested in an experiment, whose results are given. By default,
 Hadoop determines scheduling of tasks to available slots in terms of best local
 composition, not global.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=RqLA7_asK50>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=RqLA7_asK50>`_ (8:36)
 
 Optimal Data Locality
 -------------------------------------------------------------------------------
@@ -161,7 +162,7 @@ increased. Two different scheduling algorithms were designed to improve the
 original one in Hadoop. An experiment was run comparing all three, with the
 network topology-aware algorithm clearly outperforming the others.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=Ok8vdrFXo5w>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=Ok8vdrFXo5w>`_ (4:17)
 
 Task Granularity
 -------------------------------------------------------------------------------
@@ -176,7 +177,7 @@ when the performance gain is deemed optimal. Optimal and Expected Remaining Job
 Execution Time can help determine task splitting. Several examples are offered
 with either single or multiple jobs.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=u9UpgTnOZz4>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=u9UpgTnOZz4>`_ (9:51)
 
 
 Resource Utilization and Speculative Execution
@@ -189,5 +190,6 @@ running slowly, it will start a speculative task which can take over if it is
 determined the original task will not finish in time. Overuse of speculative
 tasks can lead to poor data locality and higher energy demands.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=wWyFiqDIYus>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=wWyFiqDIYus>`_ (3:52)
+
 
