@@ -221,6 +221,70 @@ In case you are allowed to use word The following applies in addition
 README.rst
 ----------
 
+For I523, Fall 2017, we will manage all papers via github.com. You
+will be added to our github at
+
+* https://github.com/bigdata-i523
+
+and assigned an hid (homework index directory) directory with a unique
+hid number for you. In addition, once you decide for a project, you
+will aslso get a project id (pid) and a directory in which you place
+the projects. Projects must not be placed in hid directories as they
+are treated differently and a class proceedings is automatically created
+based on your submission.
+
+As part of the hid directory, you will need to create a README.md file
+in it, that **must** follow a specific format. The good news is that
+we have developed an easy template that with common sense you can
+modify easily. The template is located at
+
+* https://raw.githubusercontent.com/bigdata-i523/sample-hid000/master/README.md
+
+As the format may have been updated over time it does not hurt to
+revisit it and compare with your README.md and make corrections.  It
+is important that you follow the format and not eliminate the lines
+with the three quotes. The text in the quotes is actually yaml. yaml
+is a data format the any data scientist must know. If you do not, you
+can look it up. However, if you follow our rules you should be
+good. If you find a rule missing for our purpose, let us know. We like
+to keep it simple and want you to fill out the *template* with your
+information.
+
+Simple rules:
+
+* replace the hid nimber with your hid number.
+* naturally if you see sample- in the directory name you need to
+  delete that as your directory name does not have sample- in it.
+* do not ignore where the author is to be placed, it is in a list
+  starting with a -
+* there is always a space after a -
+* do not introduce empty lines
+* do not use TAB and make sure your editor does not bay accident
+  automatically creates tabs. This is probably the most frequent error
+  we see.
+* do not use any : & _ in the attribute text including titles
+* an object defined in the READMe.md must have on a single type
+  field. for example in the project section. Make sure you select only
+  one type and delete the other
+* in case you have long paragraphs you can use the > after the
+  abstract
+* Once you understood how the readme works, please delete the comment
+  section.
+  
+ 
+  
+
+
+Here are some simple rules to follow:
+
+* 
+
+
+
+   
+README.rst (for I524, Spring 2017)
+----------------------------------
+
 In the directory that containes the report, please include the
 following README.rst file. Without this file we will not review your document::
 
