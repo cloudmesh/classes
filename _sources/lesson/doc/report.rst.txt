@@ -187,15 +187,28 @@ This partiald list may serve as a way to check if you follow the rules
    location than you think. Figures are allowed to float. If you want
    you can place all figures at the end of the report?
 #. Are all figures and tables at the end?
-#. Do not use the word "I"?
+#. Do not use the word "I" instead use we even if you are the sole
+   author?
+#. Do not use the phrase "In this paper/report we show" instead use
+   "We show". It is not important if this is a paper or a report and
+   does not need to be mentioned.
 #. Do not artificially inflate your report if you are bellow the page
    limit and have nothing to say anymore.
 #. If your paper limit is 12 pages but you want to hand in 120 pages,
    please check first with an instructor ;-)
 #. Check in your current work of the report on a weekly basis to show
    consistent progress.
-#. Is in your report directory a README.rst file in it as shown in the
+#. Please use the dedicated report format for class. It may not be the
+   ACM or IEEE format, but may have some additions that make
+   management of bibliographies easier. Do follow our instructions for
+   bibliographies.
+#. Do not use the characters & # % in the paper if you use LaTeX. If
+   you use them you prabably need a \ in front of them.
+#. If you want to say and do not use & but use the word and.
+#. (I524) Is in your report directory a README.rst file in it as shown in the
    example project that we introduced you to?
+#. (I523) you do not have to place a readme in your report or paper
+   directories. Instead create a README.md in your hid or pid directories.
    
 If you observe something missing let us know.
 
@@ -217,6 +230,9 @@ In case you are allowed to use word The following applies in addition
 #. Have you created not only a docx document but also the PDF.
 #. Make sure you use .docx and not .doc
 
+   
+If you have other things to add, send them via piazza and we will add
+them here.
 
 README.md
 ---------
