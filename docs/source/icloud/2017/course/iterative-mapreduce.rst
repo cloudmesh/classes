@@ -2,6 +2,8 @@
 How to Run Iterative MapReduce (PaaS)
 ===============================================================================
 
+* 12 Video lectures (1 hour 37 minutes 32 seconds)
+
 MapReduce Refresher
 -------------------------------------------------------------------------------
 
@@ -11,7 +13,7 @@ engine. Amount of tasks performed on this engine increased considerably over
 the course of a single decade.
 
 
-* Video: `Youtube <https://www.youtube.com/watch?v=0TRTdzgC_N0>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=0TRTdzgC_N0>`_ (9:00)
 
 Google Search Engine 1
 -------------------------------------------------------------------------------
@@ -23,7 +25,7 @@ through subsets of documents or words. Basic differences between index and doc
 servers are discussed. Cache servers save previous query results and can bypass
 index/doc servers for repeat queries.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=S2oT7uMw5Yg>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=S2oT7uMw5Yg>`_ (8:04)
 
 Google Search Engine 2
 -------------------------------------------------------------------------------
@@ -38,7 +40,7 @@ searches were added in 2007, among others. Google File System, MapReduce and
 BigTable are key components of Google’s current search structure. A discussion
 of the initial Google proposal paper follows.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=pxos3Yt6y6I>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=pxos3Yt6y6I>`_ (8:32)
 
 Hadoop PageRank
 -------------------------------------------------------------------------------
@@ -47,7 +49,7 @@ PageRank algorithm in Google ranks a webpage’s popularity and relevance. The
 PageRank calculation formula is examined. After this comes an example of its
 performance and further mathematical formulae involved in its application.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=GCp5OLLOrH0>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=GCp5OLLOrH0>`_ (7:58)
 
 Discussions & Parallel Thinking
 -------------------------------------------------------------------------------
@@ -63,7 +65,7 @@ with a list of related reading. Seven important questions are asked concerning
 parallel computing. 13 ‘Dwarves’ are different methods of parallel computing,
 including MapReduce.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=ISJp7TUzo1s>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=ISJp7TUzo1s>`_ (11:12)
 
 Hadoop Extensions
 -------------------------------------------------------------------------------
@@ -74,7 +76,7 @@ Haloop, Spark and Pregel. A comparison of their features and capabilities is
 included.
 
 
-* Video: `Youtube <https://www.youtube.com/watch?v=gS7TImRZZ1g>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=gS7TImRZZ1g>`_ (5:37)
 
 Iterative MapReduce Models
 -------------------------------------------------------------------------------
@@ -86,7 +88,7 @@ reduce tasks which aggregate output and allow legacy code. Loosely Synchronous
 is an MPI model used in computation and communication of scientific
 applications.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=CXDdWmAWIvk>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=CXDdWmAWIvk>`_ (6:46)
 
 Parallel Processes
 -------------------------------------------------------------------------------
@@ -101,7 +103,7 @@ MapReduce is designed to improve I/O and handle intermediate data, task
 scheduling, and fault tolerance. Versions of MapReduce like Hadoop, Dryad and
 MPI boast different features and programming languages.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=JAYvkIZ8TuE>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=JAYvkIZ8TuE>`_ (9:44)
 
 Static and Variable Data
 -------------------------------------------------------------------------------
@@ -125,7 +127,7 @@ data in partitions. Twister employs static scheduling. Fault tolerance is
 reserved for failures that terminate running tasks. Static data can then be
 used to reassign the failed iterations. A list of Twister APIs is given.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=UJHQ3VvWOTA>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=UJHQ3VvWOTA>`_ (11:01)
 
 MapReduce Model Comparison
 -------------------------------------------------------------------------------
@@ -138,7 +140,7 @@ Multi-dimensional Scaling, and finally Loosely Synchronous with Matrix
 Multiplication Algorithms. In all cases, Twister outperforms or is close to the
 competition.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=n7RVGrC-wcs>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=n7RVGrC-wcs>`_ (6:56)
 
 Twister K-means
 -------------------------------------------------------------------------------
@@ -155,7 +157,7 @@ data points increases, Twister’s runtimes get progressively faster. In a final
 set of runs against Hadoop, DryadLINQ, and MPI, Twister outperforms all but
 MPI.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=-G5jlzABo-Y>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=-G5jlzABo-Y>`_ (7:28)
 
 Coding & Iterative Alternatives
 -------------------------------------------------------------------------------
@@ -165,5 +167,5 @@ MapReduce has many programs designed around its setup, including other
 iterative versions like Haloop, Pregel, and Spark. Twister can extend the use
 of traditional MapReduce to more complex applications.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=QTCpiwnwjvo>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=QTCpiwnwjvo>`_ (5:14)
 

@@ -2,10 +2,12 @@
 How to Store Data (NoSQL)
 ===============================================================================
 
+* 11 Video lectures (1 hour 26 minutes 8 seconds)
+
 RDBMS vs. NoSQL
 -------------------------------------------------------------------------------
 
-* Video: `Youtube <https://www.youtube.com/watch?v=dJunqER9lb8>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=dJunqER9lb8>`_ (9:22)
 
 NoSQL Characteristics
 -------------------------------------------------------------------------------
@@ -20,7 +22,7 @@ can coexist for a shared-data system. NoSQL comes in two varieties, each with
 pros and cons: Key-Value or schema-less. Common advantages of NoSQL include
 their being open source and fault tolerant.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=BjtTDiKhqk8>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=BjtTDiKhqk8>`_ (10:31)
 
 BigTable
 -------------------------------------------------------------------------------
@@ -32,7 +34,7 @@ these servers. Memory is conserved by making SSTables and memtables compact.
 BigTable is used in features of Google like their search engine and Google
 Earth.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=JAlz9AI5I-M>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=JAlz9AI5I-M>`_ (6:55)
 
 HBase
 -------------------------------------------------------------------------------
@@ -44,7 +46,7 @@ analytic processing. HBase has a row-column structure similar to BigTable as
 well as master and slave nodes. Its place in the architecture of HDFS is shown
 in a diagram.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=i-ibhuVs-ck>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=i-ibhuVs-ck>`_ (7:37)
 
 HBase Coding
 -------------------------------------------------------------------------------
@@ -52,7 +54,7 @@ HBase Coding
 This video gives an overview of the code used in the installation of HBase and
 connecting to it.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=KbFMpYRBTtU>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=KbFMpYRBTtU>`_ (4:30)
 
 Indexing Applications
 -------------------------------------------------------------------------------
@@ -65,7 +67,7 @@ data in particular is a huge source of data with numerous subsets, all of which
 demands specific approaches in terms of search queries. There are three stages
 to this approach: query, analysis, and visualization.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=MxgabfoGH-M>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=MxgabfoGH-M>`_ (9:33)
 
 Related Work
 -------------------------------------------------------------------------------
@@ -77,7 +79,7 @@ strategies have limits; for instance, they cannot support range queries or only
 retrieve Top ‘n’ most relevant topics. Customizability of indexing among NoSQL
 databases is desirable.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=NDjAdFSVzxo>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=NDjAdFSVzxo>`_ (5:56)
 
 Indexamples
 -------------------------------------------------------------------------------
@@ -88,7 +90,7 @@ structure contains index keys, entry IDs among multiple entries, and additional
 fields. Index configuration allows for customizability through choice of
 fields, which can be anything from timestamps, text, or retweet status.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=Ec3VFeTGuo8>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=Ec3VFeTGuo8>`_ (8:35)
 
 Indexing 101
 -------------------------------------------------------------------------------
@@ -105,7 +107,7 @@ query evaluation is made between IndexedHBase and Riak, with Riak being more
 efficient with small data loads but IndexedHBase proving superior for
 large-scale data.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=eKQaLkw-HBU>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=eKQaLkw-HBU>`_ (9:53)
 
 Social Media Searches
 -------------------------------------------------------------------------------
@@ -116,7 +118,7 @@ information in tweets, and attempting to arrange streaming tweets. Apache Open
 Stack upgrades Hadoop 2.0 with YARN and a new HDFS. A diagram displays an
 indexing setup for social media data with YARN.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=a3tcL-Qw9to>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=a3tcL-Qw9to>`_ (6:19)
 
 Analysis Algorithms
 -------------------------------------------------------------------------------
@@ -127,4 +129,4 @@ data, mapping, and reducing. Rather than scanning all raw data present, indices
 allow for searching only the relevant data. An example is given illustrating
 how this decreases the time needed to search hashtags in Twitter.
 
-* Video: `Youtube <https://www.youtube.com/watch?v=MxoMd4mdshE>`_
+* Video: `Youtube <https://www.youtube.com/watch?v=MxoMd4mdshE>`_ (6:57)
