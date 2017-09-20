@@ -37,10 +37,15 @@ rules:
 
 * use headings with the # character and have a space after the #
 * use bullets in each topic.
-* each bullet must have an individual date that is of the form
-  mm/dd/yy:
-  
-  
+* each bullet **must** have an individual date that is of the form
+  mm/dd/yy. Please do not lump bullet points under s single date. Have
+  each bullet point its own date
+* if you have done the activity in a period than add the second date
+  to it mm/dd/yy - mm/dd/yy
+* If you refer to section numbers in your notebook, please aslo add
+  the section title as the section numbers may change in case we need
+  to add content
+
 Please examin carefully the sample note book is available at:
 
 * https://raw.githubusercontent.com/bigdata-i523/sample-hid000/master/notebook.md
