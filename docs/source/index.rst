@@ -1,6 +1,8 @@
 Classes
 =======
 
+
+
 I523
 ----
 
@@ -18,6 +20,16 @@ I524
 
    i524/2017/index
 
+Results from the classes:
+
+* Big Data Software Vol 1.:
+  https://github.com/cloudmesh/sp17-i524/blob/master/paper1/proceedings.pdf
+* Big Data Software Vol 2.:
+  https://github.com/cloudmesh/sp17-i524/blob/master/paper2/proceedings.pdf
+* Big Data Projects:
+  https://github.com/cloudmesh/sp17-i524/blob/master/project/projects.pdf
+
+   
 iCloud
 ------
 
