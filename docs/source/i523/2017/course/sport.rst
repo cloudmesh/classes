@@ -30,7 +30,7 @@ stadiums and media/advertising. We look at classic baseball averages
 and sophisticated measures like Wins Above Replacement.
 
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmaUVMVlFnU1lGc2s/view
+* Slides: 40 pages https://drive.google.com/file/d/0B8936_ytjfjmaUVMVlFnU1lGc2s/view
 
 
 Introduction and Sabermetrics (Baseball Informatics) Lesson
@@ -41,7 +41,7 @@ Oakland Athletics, Diamond Dollars economic model of baseball,
 Performance - Dollar relationship, Value of a Win.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmTHFfcTBJOGpTajg/view
+* Video: 31min 4sec: https://drive.google.com/file/d/0B8936_ytjfjmTHFfcTBJOGpTajg/view
 
 
 Basic Sabermetrics
@@ -52,7 +52,7 @@ Details of some statistics based on basic data, OPS, wOBA, ERA, ERC,
 FIP, UZR.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmcDVETmktOGdWcHM/view
+* Video: 26min 53sec: https://drive.google.com/file/d/0B8936_ytjfjmcDVETmktOGdWcHM/view
 
 
 Wins Above Replacement
@@ -63,7 +63,7 @@ Comparisons of different methods, Coefficient of Determination,
 Another, Sabermetrics Example, Summary of Sabermetrics.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmT0hwbEFRcmZXZWs/view
+* Video: 30min 43sec: https://drive.google.com/file/d/0B8936_ytjfjmT0hwbEFRcmZXZWs/view
 
 
 Resources
