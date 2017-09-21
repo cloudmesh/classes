@@ -16,8 +16,8 @@ doodle poll.
 
 .. figure:: ../../images/i523-overview.png
    :alt: Overview
-   
-**Figure:** Components of the Class 
+
+**Figure:** Components of the Class
 
 First Week
 ----------
@@ -52,8 +52,13 @@ EOrganization.1:
 
 EOrganization.2:
      obtain a github.com account
+<<<<<<< HEAD
      
 EOrganization.3:
+=======
+
+Organization.3:
+>>>>>>> Spelling correction
      enroll in Piazza via Canvas (see instructions in the class outline)
 
 EOrganization.4:
@@ -62,6 +67,7 @@ EOrganization.4:
      "I". There are already some examples in Piazza that you can
      follow. Take a look at the bios of the instructors.
 
+<<<<<<< HEAD
 EOrganization.4:
      obtain a chameleon cloud account
 
@@ -77,6 +83,8 @@ EOrganization.5:
              the end of Tuesday, meaning you get feedback back on
              Wednesday. Thus dependent on when you ask it may take 4
              days for an answer.
+=======
+>>>>>>> Spelling correction
 
 IoT Hardware
 ------------
@@ -106,7 +114,7 @@ will than compare that time with the time recorded by the computer
 system as well as with your target application and will deduct points
 form your project if you can not justify why you have not shut down
 your VMs. A resource section needs to be added to your report
-justifying the used resources. 
+justifying the used resources.
 
 Why is this such a big deal you may ask? For example we estimate if
 every student in class violates this policy it would cost about
@@ -131,7 +139,7 @@ Using Your Own Computer
 In many cases however you could be using your own personal computer,
 but make sure the computer is up-to-date. This does not mean that you
 need to buy a new computer, or need to upgrade it. However, if you
-consider an upgrade of an older machine please consider the following. 
+consider an upgrade of an older machine please consider the following.
 
 These days we recommend that your computer has a solid-state drive and
 fast maximized memory. Todays home computers have typically 16 GB off
@@ -142,11 +150,11 @@ make sure all chips in your computer are the same.
 When it comes to buying a solid-state drive, make sure that you buy
 one that is compatible with motherboards bus speed. As you may want to
 reuse your solid-state drive at a later time I suggest to get a 6GB/s
-SSD and not a 3GB/s. 
+SSD and not a 3GB/s.
 
 Students that only had a chromebook and took this class gave us the
 feedback that they are too inconvenient as they do not allow you to
-program directly in python on them. 
+program directly in python on them.
 
 If money is an issue, you can buy a Raspberry Pi and edit your
 programs there and when satisfied run them on a cloud.
@@ -170,11 +178,11 @@ Trak 1 introduces you to using python for Big Data. Although you do
 not need to know any programming language, it is certainly useful as
 it will make this course much easier for you. We had students that had
 no prior programming knowledge and successfully completed the course.
-So we know it can be done. We also had other students that dropped the 
+So we know it can be done. We also had other students that dropped the
 class as they felt they need more time to learn programming. It will
 be up to you to make that assessment. The course is designed in such a
 fashion, that there is enough time to learn programming and do a project.
-  
+
 We provide you with a general introduction to Python. This includes
 enough knowledge so you can conduct a project with it. We will
 reinforce this knowledge while exposing you to IoT devices that you can
@@ -183,18 +191,18 @@ Residential students that have purchased a Raspberry PI, will also
 have the opportunity to integrate them between each other to create a
 compute cluster or a virtual cluster while using state of the art
 container technology. You can than compare the compute power of that
-cluster with your own Laptop, or a cluster hosted in the cloud. 
+cluster with your own Laptop, or a cluster hosted in the cloud.
 
 We will build on these technologies to introduce you to python
 libraries that can be used for big data. We also will introduce you to
 analytics algorithm such as k-means and others to understand some of
-their intrinsic functionality. 
+their intrinsic functionality.
 
 Optionally, we also offer you the chance to integrate DevOps into your
 projects (which is typically covered in I524) for the most advanced
 students of the class. However, we have a real simple solution while
 using our own cloudmesh cmd5 to provide an easy interface to
-reproducible environments that could be used by anyone in the class. 
+reproducible environments that could be used by anyone in the class.
 
 Track 2: Theory
 ^^^^^^^^^^^^^^^
@@ -232,7 +240,7 @@ preparation for your term project/paper.
           than one or two exceptions papers written in LaTeX were much
           better structured an the content was better than papers
           written in Word. Thus LaTeX papers typically received higher
-          grades. 
+          grades.
 
 
 Track 4: Term Paper/Project
@@ -247,21 +255,21 @@ sufficiently familiar with Track 1-3. However you can also use the
 project to for example learn python and engage in a goal oriented
 learning activity while working towards implementing your project and
 integrating the python lessons that you encounter. The same is valid
-for the theory. 
+for the theory.
 
 It is **expected** that you identify a suitable analysis and data set
 for the project and that you learn how to apply this analysis as well
-as justify it. 
+as justify it.
 
 More details will be posted once we have introduced you to some
-elementary concepts so we can discuss them easier. 
+elementary concepts so we can discuss them easier.
 
 Furthermore, it is also important to note that if you do not do a
 project (this is your option) the maximum grade for the entire class
 is limited to an A-. It will be up to you to assess what you want to
 do and self assessment is a real good way to do that. In any case,
 you should not expect to get an A if you yourself are not convinced
-about your project or are unsure about it. Common sense prevales. 
+about your project or are unsure about it. Common sense prevales.
 
 Self Discipline
 ^^^^^^^^^^^^^^^
@@ -278,18 +286,18 @@ All this requires discipline. For example, if you believe you are so
 good that you can do a project within one week before deadline, you
 will **certainly fail**. To avoid this and to introduce discipline,
 you will also be monitored on progress and we check your github for
-activities which will be part of the participation grade. 
+activities which will be part of the participation grade.
 
 Fun
 ^^^
 I hope you have fun and are able to integrate in the projects your own
-thoughts and interrests.
+thoughts and interests.
 
 Uniqueness
 ^^^^^^^^^^
 We will try to have every project or paper to be non overlapping with
 another topic, If there are overlaps we may ask you to modify your
-focus. 
+focus.
 
 
 
