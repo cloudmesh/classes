@@ -85,6 +85,9 @@ Documents that do not follow the ACM format and are not accompanied by
 references managed with jabref or endnote or are not spell checked
 will be returned without review.
 
+More details about the format can be found at
+
+* https://cloudmesh.github.io/classes/lesson/doc/report.html
 
 Software Project
 ^^^^^^^^^^^^^^^^

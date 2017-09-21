@@ -187,15 +187,28 @@ This partiald list may serve as a way to check if you follow the rules
    location than you think. Figures are allowed to float. If you want
    you can place all figures at the end of the report?
 #. Are all figures and tables at the end?
-#. Do not use the word "I"?
+#. Do not use the word "I" instead use we even if you are the sole
+   author?
+#. Do not use the phrase "In this paper/report we show" instead use
+   "We show". It is not important if this is a paper or a report and
+   does not need to be mentioned.
 #. Do not artificially inflate your report if you are bellow the page
    limit and have nothing to say anymore.
 #. If your paper limit is 12 pages but you want to hand in 120 pages,
    please check first with an instructor ;-)
 #. Check in your current work of the report on a weekly basis to show
    consistent progress.
-#. Is in your report directory a README.rst file in it as shown in the
+#. Please use the dedicated report format for class. It may not be the
+   ACM or IEEE format, but may have some additions that make
+   management of bibliographies easier. Do follow our instructions for
+   bibliographies.
+#. Do not use the characters & # % in the paper if you use LaTeX. If
+   you use them you prabably need a \ in front of them.
+#. If you want to say and do not use & but use the word and.
+#. (I524) Is in your report directory a README.rst file in it as shown in the
    example project that we introduced you to?
+#. (I523) you do not have to place a readme in your report or paper
+   directories. Instead create a README.md in your hid or pid directories.
    
 If you observe something missing let us know.
 
@@ -217,9 +230,67 @@ In case you are allowed to use word The following applies in addition
 #. Have you created not only a docx document but also the PDF.
 #. Make sure you use .docx and not .doc
 
+   
+If you have other things to add, send them via piazza and we will add
+them here.
 
-README.rst
-----------
+README.md
+---------
+
+For I523, Fall 2017, we will manage all papers via github.com. You
+will be added to our github at
+
+* https://github.com/bigdata-i523
+
+and assigned an hid (homework index directory) directory with a unique
+hid number for you. In addition, once you decide for a project, you
+will aslso get a project id (pid) and a directory in which you place
+the projects. Projects must not be placed in hid directories as they
+are treated differently and a class proceedings is automatically created
+based on your submission.
+
+As part of the hid directory, you will need to create a README.md file
+in it, that **must** follow a specific format. The good news is that
+we have developed an easy template that with common sense you can
+modify easily. The template is located at
+
+* https://raw.githubusercontent.com/bigdata-i523/sample-hid000/master/README.md
+
+As the format may have been updated over time it does not hurt to
+revisit it and compare with your README.md and make corrections.  It
+is important that you follow the format and not eliminate the lines
+with the three quotes. The text in the quotes is actually yaml. yaml
+is a data format the any data scientist must know. If you do not, you
+can look it up. However, if you follow our rules you should be
+good. If you find a rule missing for our purpose, let us know. We like
+to keep it simple and want you to fill out the *template* with your
+information.
+
+Simple rules:
+
+* replace the hid nimber with your hid number.
+* naturally if you see sample- in the directory name you need to
+  delete that as your directory name does not have sample- in it.
+* do not ignore where the author is to be placed, it is in a list
+  starting with a -
+* there is always a space after a -
+* do not introduce empty lines
+* do not use TAB and make sure your editor does not bay accident
+  automatically creates tabs. This is probably the most frequent error
+  we see.
+* do not use any : & _ in the attribute text including titles
+* an object defined in the README.md must have on a single type
+  field. for example in the project section. Make sure you select only
+  one type and delete the other
+* in case you have long paragraphs you can use the > after the
+  abstract
+* Once you understood how the README.md works, please delete the comment
+  section.
+  
+
+   
+README.rst (for I524, Spring 2017)
+----------------------------------
 
 In the directory that containes the report, please include the
 following README.rst file. Without this file we will not review your document::

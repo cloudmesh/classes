@@ -15,10 +15,9 @@ I523 Big Data Applications and Analytics (2017)
           paper** that does not require programming. This however does
           not mean that you can skip the other programming
           assignments. Those electing doing the term paper can receive
-          a maximum grade of an A- for the class.
-
-.. note:: This class will not have any bonus projects as we want that
-          you focus on the class assignments and make them truly outstanding.
+          a maximum grade of an A- for the class. This class will not
+          have any bonus projects as we want that you focus on the
+          class assignments and make them truly outstanding.
 
 
 .. comment:
