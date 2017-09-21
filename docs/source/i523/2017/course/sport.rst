@@ -30,7 +30,7 @@ stadiums and media/advertising. We look at classic baseball averages
 and sophisticated measures like Wins Above Replacement.
 
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmaUVMVlFnU1lGc2s/view
+* Slides: 40 pages: https://drive.google.com/file/d/0B8936_ytjfjmaUVMVlFnU1lGc2s/view
 
 
 Introduction and Sabermetrics (Baseball Informatics) Lesson
@@ -41,7 +41,7 @@ Oakland Athletics, Diamond Dollars economic model of baseball,
 Performance - Dollar relationship, Value of a Win.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmTHFfcTBJOGpTajg/view
+* Video: 31min 4sec: https://drive.google.com/file/d/0B8936_ytjfjmTHFfcTBJOGpTajg/view
 
 
 Basic Sabermetrics
@@ -52,7 +52,7 @@ Details of some statistics based on basic data, OPS, wOBA, ERA, ERC,
 FIP, UZR.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmcDVETmktOGdWcHM/view
+* Video: 26min 53sec: https://drive.google.com/file/d/0B8936_ytjfjmcDVETmktOGdWcHM/view
 
 
 Wins Above Replacement
@@ -63,7 +63,7 @@ Comparisons of different methods, Coefficient of Determination,
 Another, Sabermetrics Example, Summary of Sabermetrics.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmT0hwbEFRcmZXZWs/view
+* Video: 30min 43sec: https://drive.google.com/file/d/0B8936_ytjfjmT0hwbEFRcmZXZWs/view
 
 
 Resources
@@ -102,7 +102,7 @@ MLBAM.
 
 
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmYVNHUU9LTmhyaGc/view
+* Slides: 41 pages: https://drive.google.com/file/d/0B8936_ytjfjmYVNHUU9LTmhyaGc/view
 
 Pitching Clustering
 """""""""""""""""""
@@ -111,7 +111,7 @@ A Big Data Pitcher Clustering method introduced by Vince Gennaro, Data
 from Blog and video at 2013 SABR conference.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmNlpENlRLVGJGMDA/view
+* Video: 20min 59sec: https://drive.google.com/file/d/0B8936_ytjfjmNlpENlRLVGJGMDA/view
 
 Pitcher Quality
 """""""""""""""
@@ -120,7 +120,7 @@ Results of optimizing match ups, Data from video at 2013 SABR
 conference.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmVXpIM0MyRW9jcnM/view
+* Video: 10min 2sec: https://drive.google.com/file/d/0B8936_ytjfjmVXpIM0MyRW9jcnM/view
 
 
 PITCHf/X
@@ -129,7 +129,7 @@ PITCHf/X
 Examples of use of PITCHf/X.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmWXU3Y3c1eThTbGs/view
+* Video: 10min 39sec: https://drive.google.com/file/d/0B8936_ytjfjmWXU3Y3c1eThTbGs/view
 
 Other Video Data Gathering in Baseball
 """"""""""""""""""""""""""""""""""""""
@@ -138,7 +138,7 @@ FIELDf/X, MLBAM, HITf/X, COMMANDf/X.
 
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmSF83dWhNUkFEZ2s/view
+* Video: 18min 5sec: https://drive.google.com/file/d/0B8936_ytjfjmSF83dWhNUkFEZ2s/view
 
 
 Resources
@@ -166,7 +166,7 @@ Olympics, NFL Football, Basketball, Tennis and Horse Racing.
 
 
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmaVotRDI1el9lX2c/view
+* Slides: 44 pages: https://drive.google.com/file/d/0B8936_ytjfjmaVotRDI1el9lX2c/view
 
 
 Wearables
@@ -176,7 +176,7 @@ Consumer Sports, Stake Holders, and Multiple Factors.
 
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmRk1jU2tMeG11Zk0/view
+* Video: 22min 2sec: https://drive.google.com/file/d/0B8936_ytjfjmRk1jU2tMeG11Zk0/view
 
 
 Soccer and the Olympics
@@ -185,7 +185,7 @@ Soccer and the Olympics
 Soccer, Tracking Players and Balls, Olympics.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmNERNd3BLbnJIREE/view
+* Video: 8min 28sec: https://drive.google.com/file/d/0B8936_ytjfjmNERNd3BLbnJIREE/view
 
 
 Spatial Visualization in NFL and NBA
@@ -194,7 +194,7 @@ Spatial Visualization in NFL and NBA
 NFL, NBA, and Spatial Visualization.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmLUV3M1RydTdNTkU/view
+* Video: 15min 19sec: https://drive.google.com/file/d/0B8936_ytjfjmLUV3M1RydTdNTkU/view
 
 
 Tennis and Horse Racing
@@ -203,7 +203,7 @@ Tennis and Horse Racing
 Tennis, Horse Racing, and Continued Emphasis on Spatial Visualization.
 
 
-* Video: https://drive.google.com/file/d/0B8936_ytjfjmeHc4QnZRQnpXMms/view
+* Video: 8min 52sec: https://drive.google.com/file/d/0B8936_ytjfjmeHc4QnZRQnpXMms/view
 
 
 
