@@ -44,7 +44,7 @@ computing platforms and clusters while allowing value-added from big
 data service providers and flow of data between the stakeholders in a
 cohesive and secure manner.
 
-* Video: 13:02: https://drive.google.com/file/d/0B5plU-u0wqMobXdqZHNRSFVaQnc/view?usp=sharing
+* Video: 13:02: Introduction: https://drive.google.com/file/d/0B5plU-u0wqMobXdqZHNRSFVaQnc/view?usp=sharing
           
 
 
@@ -68,7 +68,7 @@ subcomponents based on their similarities and differences. In
 particular data Science and Big Data terms are discussed.
 
 
-* Video: 7:42: https://drive.google.com/file/d/0B5plU-u0wqMoMHE4XzFrS0hxOGs/view?usp=sharing
+* Video: 7:42: Taxonomies: https://drive.google.com/file/d/0B5plU-u0wqMoMHE4XzFrS0hxOGs/view?usp=sharing
 
   
 
@@ -86,7 +86,7 @@ the flow of the data between the stakeholders in a cohesive and secure
 manner. Results include a reference architecture with well defined
 components and linkage as well as several exemplars.
 
-* Video: 10:05: https://drive.google.com/file/d/0B5plU-u0wqMoOVh1NjlwTkE5emM/view?usp=sharing
+* Video: 10:05: Architecture: https://drive.google.com/file/d/0B5plU-u0wqMoOVh1NjlwTkE5emM/view?usp=sharing
 
 
 Security and Privacy Subgroup
@@ -105,7 +105,7 @@ Traffic Analysis, Healthcare, Health Information Exchange, Genetic
 Privacy, Pharma Clinical Trial Data Sharing, Cyber-security,
 Government, Military and Education.
 
-* Video: 9:51: https://drive.google.com/file/d/0B5plU-u0wqMoX1FGSExzbUdYX3M/view?usp=sharing
+* Video: 9:51: Security: https://drive.google.com/file/d/0B5plU-u0wqMoX1FGSExzbUdYX3M/view?usp=sharing
 
 Technology Roadmap Subgroup
 """""""""""""""""""""""""""
@@ -125,7 +125,7 @@ analysis and document the findings; identify what possible barriers
 may delay or prevent adoption of Big Data; and document vision and
 recommendations.
 
-* Video: 4:14: https://drive.google.com/file/d/0B5plU-u0wqMoSFRVaUlJWFBCME0/view?usp=sharing
+* Video: 4:14: Technology: https://drive.google.com/file/d/0B5plU-u0wqMoSFRVaUlJWFBCME0/view?usp=sharing
           
 Interfaces subgroup
 """""""""""""""""""
@@ -160,7 +160,7 @@ The agenda of teh workshop is as follows:
 
 The Web cas of the presentation is given bellow, while you need to fast forward to a particular time
 
-* Webcast: https://www.nist.gov/news-events/events/2017/06/2nd-nist-big-data-public-working-group-nbd-pwg-workshop
+* Webcast: Interface subgroup: https://www.nist.gov/news-events/events/2017/06/2nd-nist-big-data-public-working-group-nbd-pwg-workshop
 
   *   see: Big Data Working Group Day 1, part 2 Time start: 21:00 min, Time end: 44:00
   
@@ -189,7 +189,7 @@ of gathering use cases (discussed in next two units) and requirements
 systemization are discussed.
 
 
-* Video: 27:28: https://drive.google.com/file/d/0B5plU-u0wqMocG5DUm1XSHFTMWc/view?usp=sharing
+* Video: 27:28: Requirements: https://drive.google.com/file/d/0B5plU-u0wqMocG5DUm1XSHFTMWc/view?usp=sharing
 
 
 
@@ -203,7 +203,7 @@ parallelism and the high and low level computational structure. As
 each new classification topic is introduced we briefly discuss it but
 full discussion of topics is given in following unit.
 
-* Slides (100 pages): https://drive.google.com/file/d/0B5plU-u0wqMoRW03SVZBLVRkOGM/view?usp=sharing
+* Slides (100 pages): Usecases: https://drive.google.com/file/d/0B5plU-u0wqMoRW03SVZBLVRkOGM/view?usp=sharing
 
 Government Use Cases
 """"""""""""""""""""
@@ -214,7 +214,7 @@ Preservation; Statistical Survey Response Improvement (Adaptive
 Design) and Non-Traditional Data in Statistical Survey Response
 Improvement (Adaptive Design).
 
-* Video: 17:43: https://drive.google.com/file/d/0B5plU-u0wqModmVBU1NvU3VxbDg/view?usp=sharing
+* Video: 17:43: Government Use Cases: https://drive.google.com/file/d/0B5plU-u0wqModmVBU1NvU3VxbDg/view?usp=sharing
 
 Commercial Use Cases
 """"""""""""""""""""
@@ -227,7 +227,7 @@ Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
 Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
 Simulation driven Materials Genomics.
 
-* Video: 17:43: https://drive.google.com/file/d/0B5plU-u0wqModmVBU1NvU3VxbDg/view?usp=sharing
+* Video: 17:43: Commercial Use Cases: https://drive.google.com/file/d/0B5plU-u0wqModmVBU1NvU3VxbDg/view?usp=sharing
 
 
 Defense Use Cases
@@ -238,7 +238,7 @@ identification and tracking from Wide Area Large Format Imagery (WALF)
 Imagery or Full Motion Video (FMV) - Persistent Surveillance and
 Intelligence Data Processing and Analysis.
 
-* Video: 15:43: https://drive.google.com/file/d/0B5plU-u0wqMoWlFReVRMUTEtekk/view?usp=sharing
+* Video: 15:43: Defense Use Cases: https://drive.google.com/file/d/0B5plU-u0wqMoWlFReVRMUTEtekk/view?usp=sharing
 
 
 
@@ -253,7 +253,7 @@ Intelligence for Health Care; World Population Scale Epidemiological
 Study; Social Contagion Modeling for Planning, Public Health and
 Disaster Management and Biodiversity and LifeWatch.
 
-* Video A: 30:11: https://drive.google.com/file/d/0B5plU-u0wqMoNkxMQ3Vpd2lONzA/view?usp=sharing
+* Video A: 30:11: Healthcare and Life Science Use Cases: https://drive.google.com/file/d/0B5plU-u0wqMoNkxMQ3Vpd2lONzA/view?usp=sharing
 
 
 
@@ -268,7 +268,7 @@ Network (Graph) Science and Analytics and NIST Information Access
 Division analytic technology performance measurement, evaluations, and
 standards.
 
-* Video: 14:19: https://drive.google.com/file/d/0B5plU-u0wqMobzBEd3d5UzdBc3c/view?usp=sharing
+* Video: 14:19: Deep Learning and Social Networks Use Cases: https://drive.google.com/file/d/0B5plU-u0wqMobzBEd3d5UzdBc3c/view?usp=sharing
 
 
 Research Ecosystem Use Cases
@@ -278,7 +278,7 @@ DataNet Federation Consortium DFC; The 'Discinnet process', metadata -
 big data global experiment; Semantic Graph-search on Scientific
 Chemical and Text-based Data and Light source beamlines.
 
-* Video: 9:09: https://drive.google.com/file/d/0B5plU-u0wqMoTWhpVkFHTkc2YzA/view?usp=sharing
+* Video: 9:09: Research Ecosystem Use Cases: https://drive.google.com/file/d/0B5plU-u0wqMoTWhpVkFHTkc2YzA/view?usp=sharing
 
 
 
@@ -291,7 +291,7 @@ Survey and Simulations; Large Survey Data for Cosmology; Particle
 Physics: Analysis of LHC Large Hadron Collider Data: Discovery of
 Higgs particle and Belle II High Energy Physics Experiment.
 
-* Video: 17:33: https://drive.google.com/file/d/0B5plU-u0wqMoVGZqdnJQci1kbmc/view?usp=sharing
+* Video: 17:33: Astronomy and Physics Use Cases: https://drive.google.com/file/d/0B5plU-u0wqMoVGZqdnJQci1kbmc/view?usp=sharing
 
 
 Environment, Earth and Polar Science Use Cases
@@ -307,7 +307,7 @@ Community Earth System Model at DOE's NERSC center; DOE-BER Subsurface
 Biogeochemistry Scientific Focus Area and DOE-BER AmeriFlux and
 FLUXNET Networks.
 
-* Video: 25:29: https://drive.google.com/file/d/0B5plU-u0wqMoOHgyWkJoTm15eWs/view?usp=sharing
+* Video: 25:29: Environment, Earth and Polar Science Use Cases: https://drive.google.com/file/d/0B5plU-u0wqMoOHgyWkJoTm15eWs/view?usp=sharing
 
 
 
@@ -317,7 +317,7 @@ Energy Use Case
 This covers Consumption forecasting in Smart Grids.
 
 
-* Video: 4:01: https://drive.google.com/file/d/0B5plU-u0wqMoclJBLURmaGptY2s/view?usp=sharing
+* Video: 4:01: Energy Use Case: https://drive.google.com/file/d/0B5plU-u0wqMoclJBLURmaGptY2s/view?usp=sharing
 
 
 
@@ -356,7 +356,7 @@ demand; Pleasingly parallel processing; HPC assimilated with
 observational data; Agent-based models; Multi-modal data fusion or
 Knowledge Management; Crowd Sourcing.
 
-* Video: 23:39: https://drive.google.com/file/d/0B5plU-u0wqMoY2hQeEhHUTZZNkk/view?usp=sharing
+* Video: 23:39: Summary of Use Case Classification: https://drive.google.com/file/d/0B5plU-u0wqMoY2hQeEhHUTZZNkk/view?usp=sharing
 
 
 Database(SQL) Use Case Classification
@@ -366,7 +366,7 @@ This discusses classic (SQL) datbase approach to data handling with
 Search&Query and Index features. Comparisons are made to NoSQL
 approaches.
 
-* Video: 11:13: https://drive.google.com/file/d/0B5plU-u0wqMoM3ZXb3lTUkZkcTA/view?usp=sharing
+* Video: 11:13: Database(SQL) Use Case Classification: https://drive.google.com/file/d/0B5plU-u0wqMoM3ZXb3lTUkZkcTA/view?usp=sharing
 
 
 NoSQL Use Case Classification
@@ -376,7 +376,7 @@ This discusses NoSQL (compared in previous lesson) with HDFS, Hadoop
 and Hbase. The Apache Big data stack is introduced and further details
 of comparison with SQL.
 
-* Video: 11:20 https://drive.google.com/file/d/0B5plU-u0wqMoNjJSMmJBSl9Wamc/view?usp=sharing
+* Video: 11:20 NoSQL Use Case Classification: https://drive.google.com/file/d/0B5plU-u0wqMoNjJSMmJBSl9Wamc/view?usp=sharing
 
 
 Use Case Classifications I
@@ -385,7 +385,7 @@ Use Case Classifications I
 This discusses a subset of use case features: GIS, Sensors. the
 support of data analysis and fusion by streaming data between filters.
 
-* Video: 12:42: https://drive.google.com/file/d/0B5plU-u0wqMoZ1RPSVFSTEhZQWs/view?usp=sharing
+* Video: 12:42: Use Case Classifications I: https://drive.google.com/file/d/0B5plU-u0wqMoZ1RPSVFSTEhZQWs/view?usp=sharing
 
 
 Use Case Classifications II
@@ -395,7 +395,7 @@ This discusses a subset of use case features: Pleasingly parallel,
 MRStat, Data Assimilation, Crowd sourcing, Agents, data fusion and
 agents, EGO and security.
 
-* Video: 20:18: https://drive.google.com/file/d/0B5plU-u0wqMoUzJqS2hvV3VCZGs/view?usp=sharing
+* Video: 20:18: Use Case Classifications II: https://drive.google.com/file/d/0B5plU-u0wqMoUzJqS2hvV3VCZGs/view?usp=sharing
 
 
 
@@ -407,7 +407,7 @@ Carlo, Streaming, PP, MR, MRStat, MRIter and HPC(MPI), global and
 local analytics (machine learning), parallel computing, Expectation
 Maximization, graphs and Collaborative Filtering.
 
-* Video: 17:25: https://drive.google.com/file/d/0B5plU-u0wqMoVFFEQ3lxR1lVdTg/view?usp=sharing
+* Video: 17:25: Use Case Classifications III: https://drive.google.com/file/d/0B5plU-u0wqMoVFFEQ3lxR1lVdTg/view?usp=sharing
 
 
 
