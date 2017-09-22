@@ -269,7 +269,7 @@ packages in the HPC-ABDS Software Stack explaining how they are used.
 
 
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmUHlEVG1wSUhDNnM/view?usp=sharing
+* Slides (32 pages): https://drive.google.com/file/d/0B8936_ytjfjmUHlEVG1wSUhDNnM/view?usp=sharing
 
 What is Cloud Computing
 """""""""""""""""""""""
@@ -279,7 +279,7 @@ architecture and application perspective.
 
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsYlRhOHU5ci1seXc/view?usp=sharing
+* Video: 6:20: https://drive.google.com/file/d/0B1Of61fJF7WsYlRhOHU5ci1seXc/view?usp=sharing
 
 
 
@@ -297,8 +297,8 @@ academic studies. We summarize the 21 layers and almost 300 software
 packages in the HPC-ABDS Software Stack explaining how they are used.
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsUm1XanBaaWtpQWM/view?usp=sharing        
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsMXpfTTlvNDBkbTQ/view?usp=sharing
+* Video: 7:42: https://drive.google.com/file/d/0B1Of61fJF7WsUm1XanBaaWtpQWM/view?usp=sharing        
+* Video: 6:42: https://drive.google.com/file/d/0B1Of61fJF7WsMXpfTTlvNDBkbTQ/view?usp=sharing
 
 We discuss cloud software for the cloud starting at virtual machine
 management (IaaS) and the broad Platform (middleware) capabilities
@@ -311,8 +311,8 @@ summarize the 21 layers and almost 300 software packages in the
 HPC-ABDS Software Stack explaining how they are used.
 
           
-          * Video: https://youtu.be/1AnyJYyh490
-          * Video: https://youtu.be/hVpFAUHcAd4
+          * Video: 7:42: https://youtu.be/1AnyJYyh490
+          * Video: 6:43: https://youtu.be/hVpFAUHcAd4
 
 
 
@@ -323,7 +323,7 @@ Using the HPC-ABDS Software Stack.
 
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsUTdlNmlYWDUyTlE/view?usp=sharing
+* Video: 27:50: https://drive.google.com/file/d/0B1Of61fJF7WsUTdlNmlYWDUyTlE/view?usp=sharing
 
 
 
@@ -350,7 +350,7 @@ Tolerance and Synchronicity issues in cloud follow.
 
           
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmTHlzcGN3SzFNTTA/view?usp=sharing
+* Slides (64 pages): https://drive.google.com/file/d/0B8936_ytjfjmTHlzcGN3SzFNTTA/view?usp=sharing
 
 
 
@@ -367,9 +367,9 @@ computing.
 
 
 
-* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsYkxKelV2bTlMZ1k/view?usp=sharing
+* Video 1: 8:38: https://drive.google.com/file/d/0B1Of61fJF7WsYkxKelV2bTlMZ1k/view?usp=sharing
 
-* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsRHJhN3VMaDJLTG8/view?usp=sharing
+* Video 2: 9:59: https://drive.google.com/file/d/0B1Of61fJF7WsRHJhN3VMaDJLTG8/view?usp=sharing
 
 
 
