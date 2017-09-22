@@ -8,8 +8,9 @@ of classification, clustering and exploration methods in context. We
 examine the problem to be solved in web and text search and note the
 relevance of history with libraries, catalogs and concordances. An
 overview of web search is given describing the continued evolution of
-search engines and the relation to the field of Information
-https://www.youtube.com/watch?v=kIQ-BTyDfOQ&feature=youtu.beRetrieval. The importance of recall, precision and diversity is
+search engines and the relation to the field of Information.
+
+The importance of recall, precision and diversity is
 discussed. The important Bag of Words model is introduced and both
 Boolean queries and the more general fuzzy indices. The important
 vector space model and revisiting the Cosine Similarity as a distance
@@ -28,6 +29,8 @@ PageRank ideas as reputation outside web search is covered. The web
 graph structure, crawling it and issues in web advertising and search
 follow. The use of clustering and topic models completes section
 
+
+BUG Montecarlo WHY HERE https://www.youtube.com/watch?v=kIQ-BTyDfOQ&feature=youtu.beRetrieval.
 
 
 
@@ -71,7 +74,7 @@ of pages with particular number of URL's linking out or in to page.
 
 
           
-* Video: 9:56: https://drive.google.com/file/d/0B1Of61fJF7WscTdYUUVHNW9uRUU/view?usp=sharing
+* Video: 9:56: TextMining Part: https://drive.google.com/file/d/0B1Of61fJF7WscTdYUUVHNW9uRUU/view?usp=sharing
 
 
 
@@ -85,7 +88,7 @@ complexity of ontologies. Some differences between web search and
 information retrieval are given.
 
           
-* Video: 6:06: https://youtu.be/KtWhk2cdRa4
+* Video: 6:06: Information Retrival: https://youtu.be/KtWhk2cdRa4
 
 
 History behind Web Search
@@ -94,7 +97,7 @@ History behind Web Search
 The origin of web search in libraries, catalogs and concordances is
 summarized.
 
-* Video: 5:48: https://youtu.be/J7D61uH5gVM
+* Video: 5:48: Web Search History: https://youtu.be/J7D61uH5gVM
 
 
 
@@ -116,7 +119,7 @@ This describes queries in context of an Information Retrieval
 architecture. The method of judging quality of results including
 recall, precision and diversity is described.
 
-* Video: 5:06: https://youtu.be/EGsnonXgb3Y
+* Video: 5:06: Fundametal Principals of Web Search: https://youtu.be/EGsnonXgb3Y
 
 
 Search Engines
@@ -128,7 +131,7 @@ Information retrieval but in 1998 the field was changed when Google
 was founded and showed the importance of URL structure as exemplified
 by PageRank.
 
-* Video: 3:08: https://youtu.be/kBV-99N6f7k
+* Video: 3:08: Search Engines: https://youtu.be/kBV-99N6f7k
 
 
 Boolean and Vector Space Models
@@ -137,7 +140,7 @@ Boolean and Vector Space Models
 This lesson describes the Boolean and Vector Space models for query
 including the cosine similarity.
 
-* Video: 6:17: https://youtu.be/JzGBA0OhsIk
+* Video: 6:17: Boolean and Vector Space Model: https://youtu.be/JzGBA0OhsIk
 
 
 
@@ -148,7 +151,7 @@ This describes a Web Crawler and then the steps needed to analyze data
 from Web and produce a set of terms.
 
           
-* Video: 4:55: https://youtu.be/Wv-r-PJ9lro
+* Video: 4:55: Web crawling and Document Preparation: https://youtu.be/Wv-r-PJ9lro
 
 
           
@@ -159,7 +162,7 @@ This lesson describes both building and accessing an inverted
 index. It describes how phrases are treated and gives details of query
 structure from some early logs.
 
-* Video: 5:44: https://youtu.be/NY2SmrHoBVM
+* Video: 5:44: Indices: https://youtu.be/NY2SmrHoBVM
 
 
 TF-IDF and Probabilistic Models
@@ -169,7 +172,7 @@ It describes the importance of term specificity and how it is captured
 in TF-IDF. It notes how frequencies are converted into belief and
 relevance.
 
-* Video: 3:57: https://youtu.be/9P_HUmpselU
+* Video: 3:57: TF-IDF and Probabilistic Models: https://youtu.be/9P_HUmpselU
 
 
 
@@ -217,7 +220,7 @@ support advertising and ways to allow or stop pages artificially
 enhancing relevance.
 
           
-* Video: 6:11: https://drive.google.com/file/d/0B1Of61fJF7WsNEJxbWVRQ2lnc1U/view?usp=sharing
+* Video: 6:11: Web Search and Text Mining II: https://drive.google.com/file/d/0B1Of61fJF7WsNEJxbWVRQ2lnc1U/view?usp=sharing
 
 
 Link Structure Analysis including PageRank
@@ -233,7 +236,7 @@ lesson.
 
 
 
-* Video: 17:24: https://drive.google.com/file/d/0B1Of61fJF7WseFFsUk9ZNXRURGM/view?usp=sharing
+* Video: 17:24: Realated Applications: https://drive.google.com/file/d/0B1Of61fJF7WseFFsUk9ZNXRURGM/view?usp=sharing
           
 
 
@@ -248,7 +251,7 @@ different models: Cost per viewing, cost per clicking and cost per
 action. This leads to emerging field of computational advertising.
 
           
-* Video: 9:02: https://drive.google.com/file/d/0B1Of61fJF7WsbjZMNDlvemNZNUk/view?usp=sharing
+* Video: 9:02: Web Advertising and Search: https://drive.google.com/file/d/0B1Of61fJF7WsbjZMNDlvemNZNUk/view?usp=sharing
 
 
 
@@ -261,7 +264,7 @@ different answers from word-based analyses. We mention some work at
 Indiana University on a Latent Semantic Indexing model.
 
           
-* Video: 6:21: https://youtu.be/95cHMyZ-TUs
+* Video: 6:21: Clustering and Topic Models: https://youtu.be/95cHMyZ-TUs
 
 
 Resources
