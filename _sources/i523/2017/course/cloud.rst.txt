@@ -53,7 +53,7 @@ communication, synchronization, load balancing and decomposition.
 
 
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmZDRqMldzSVhVem8/view?usp=sharing
+* Slides: (33 Pages) https://drive.google.com/file/d/0B8936_ytjfjmZDRqMldzSVhVem8/view?usp=sharing
 
 
 Decomposition 
@@ -72,11 +72,11 @@ decomposition in irregular problems is noted.
 
 
 
-* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsWXgtNndQN0Jydkk/view?usp=sharing
+* Video 1: 8:51: https://drive.google.com/file/d/0B1Of61fJF7WsWXgtNndQN0Jydkk/view?usp=sharing
 
-* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsQ1pMLWhXQV92OXM/view?usp=sharing
+* Video 2: 13:22: https://drive.google.com/file/d/0B1Of61fJF7WsQ1pMLWhXQV92OXM/view?usp=sharing
 
-* Video 3: https://drive.google.com/file/d/0B1Of61fJF7WsaVZLOEUzc0VuWjQ/view?usp=sharing
+* Video 3: 9:22: https://drive.google.com/file/d/0B1Of61fJF7WsaVZLOEUzc0VuWjQ/view?usp=sharing
 
 Parallel Computing in Society
 """""""""""""""""""""""""""""
@@ -93,9 +93,9 @@ lesson concludes with other examples from nature including collections
 of neurons (the brain) and ants.
 
 
-* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsY3hEeTJvTFYtN2s/view?usp=sharing
+* Video 1: 8:24: https://drive.google.com/file/d/0B1Of61fJF7WsY3hEeTJvTFYtN2s/view?usp=sharing
 
-* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsU1ROMmpNNTlUTUU/view?usp=sharing
+* Video 2: 8:01: https://drive.google.com/file/d/0B1Of61fJF7WsU1ROMmpNNTlUTUU/view?usp=sharing
 
 
 
@@ -115,7 +115,7 @@ large wall.
 
           
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsNEtLOTNNN3dlNjQ/view?usp=sharing
+* Video: 9:24: https://drive.google.com/file/d/0B1Of61fJF7WsNEtLOTNNN3dlNjQ/view?usp=sharing
 
 
 
@@ -153,7 +153,7 @@ computing growth areas.
 
           
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmdmF2Uy1vWS0xTFU/view?usp=sharing
+* Slides: (45 pages) https://drive.google.com/file/d/0B8936_ytjfjmdmF2Uy1vWS0xTFU/view?usp=sharing
 
 
 
@@ -167,7 +167,7 @@ moreorlessanything-Informatics and generalizes early discussion of
 e-Science and e-Business.
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsbXpEdF8zWFh4aXc/view?usp=sharing
+* Video: 13:34: https://drive.google.com/file/d/0B1Of61fJF7WsbXpEdF8zWFh4aXc/view?usp=sharing
 
 
 
@@ -185,7 +185,7 @@ capabilities (for example Sensors aaS are discussed later) being built
 on top of these.
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsdDdsYkw0dXdHS1U/view?usp=sharing
+* Video: 12:01: https://drive.google.com/file/d/0B1Of61fJF7WsdDdsYkw0dXdHS1U/view?usp=sharing
 
 
 
@@ -197,11 +197,11 @@ computing'' from the web.
 
           
 
-* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsNm1jVVJMUVpCUlU/view?usp=sharing
+* Video 1: 5:25: https://drive.google.com/file/d/0B1Of61fJF7WsNm1jVVJMUVpCUlU/view?usp=sharing
 
-* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsV1RJcldzRlctRlk/view?usp=sharing
+* Video 2: 6:41: https://drive.google.com/file/d/0B1Of61fJF7WsV1RJcldzRlctRlk/view?usp=sharing
 
-* Video 3: https://drive.google.com/file/d/0B1Of61fJF7WsOUlxVHZ4MlN0RXc/view?usp=sharing
+* Video 3: 7:27: https://drive.google.com/file/d/0B1Of61fJF7WsOUlxVHZ4MlN0RXc/view?usp=sharing
 
 
 
@@ -217,7 +217,7 @@ above clouds and Big data in Google trends.
 
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsaTg5aEZ0cHJuM0k/view?usp=sharing
+* Video: 11:26: https://drive.google.com/file/d/0B1Of61fJF7WsaTg5aEZ0cHJuM0k/view?usp=sharing
 
 
 
@@ -231,7 +231,7 @@ second is the benefits of scale comparing gmail to multiple smaller
 installations. It ends with some fiscal comments.
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsLTBoM0NpYzVxOHc/view?usp=sharing
+* Video: 3:26: https://drive.google.com/file/d/0B1Of61fJF7WsLTBoM0NpYzVxOHc/view?usp=sharing
 
 
 Value of Cloud Computing
@@ -240,7 +240,7 @@ Value of Cloud Computing
 Some comments on fiscal value of cloud computing.
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsSFdfZ0hodDlnUGM/view?usp=sharing
+* Video: 4:20: https://drive.google.com/file/d/0B1Of61fJF7WsSFdfZ0hodDlnUGM/view?usp=sharing
 
 
 
@@ -269,7 +269,7 @@ packages in the HPC-ABDS Software Stack explaining how they are used.
 
 
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmUHlEVG1wSUhDNnM/view?usp=sharing
+* Slides (32 pages): https://drive.google.com/file/d/0B8936_ytjfjmUHlEVG1wSUhDNnM/view?usp=sharing
 
 What is Cloud Computing
 """""""""""""""""""""""
@@ -279,7 +279,7 @@ architecture and application perspective.
 
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsYlRhOHU5ci1seXc/view?usp=sharing
+* Video: 6:20: https://drive.google.com/file/d/0B1Of61fJF7WsYlRhOHU5ci1seXc/view?usp=sharing
 
 
 
@@ -297,8 +297,8 @@ academic studies. We summarize the 21 layers and almost 300 software
 packages in the HPC-ABDS Software Stack explaining how they are used.
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsUm1XanBaaWtpQWM/view?usp=sharing        
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsMXpfTTlvNDBkbTQ/view?usp=sharing
+* Video: 7:42: https://drive.google.com/file/d/0B1Of61fJF7WsUm1XanBaaWtpQWM/view?usp=sharing        
+* Video: 6:42: https://drive.google.com/file/d/0B1Of61fJF7WsMXpfTTlvNDBkbTQ/view?usp=sharing
 
 We discuss cloud software for the cloud starting at virtual machine
 management (IaaS) and the broad Platform (middleware) capabilities
@@ -311,8 +311,8 @@ summarize the 21 layers and almost 300 software packages in the
 HPC-ABDS Software Stack explaining how they are used.
 
           
-          * Video: https://youtu.be/1AnyJYyh490
-          * Video: https://youtu.be/hVpFAUHcAd4
+          * Video: 7:42: https://youtu.be/1AnyJYyh490
+          * Video: 6:43: https://youtu.be/hVpFAUHcAd4
 
 
 
@@ -323,7 +323,7 @@ Using the HPC-ABDS Software Stack.
 
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsUTdlNmlYWDUyTlE/view?usp=sharing
+* Video: 27:50: https://drive.google.com/file/d/0B1Of61fJF7WsUTdlNmlYWDUyTlE/view?usp=sharing
 
 
 
@@ -350,7 +350,7 @@ Tolerance and Synchronicity issues in cloud follow.
 
           
 
-* Slides: https://drive.google.com/file/d/0B8936_ytjfjmTHlzcGN3SzFNTTA/view?usp=sharing
+* Slides (64 pages): https://drive.google.com/file/d/0B8936_ytjfjmTHlzcGN3SzFNTTA/view?usp=sharing
 
 
 
@@ -367,9 +367,9 @@ computing.
 
 
 
-* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsYkxKelV2bTlMZ1k/view?usp=sharing
+* Video 1: 8:38: https://drive.google.com/file/d/0B1Of61fJF7WsYkxKelV2bTlMZ1k/view?usp=sharing
 
-* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WsRHJhN3VMaDJLTG8/view?usp=sharing
+* Video 2: 9:59: https://drive.google.com/file/d/0B1Of61fJF7WsRHJhN3VMaDJLTG8/view?usp=sharing
 
 
 
@@ -381,7 +381,7 @@ Gartner 2014 Analysis of leading cloud providers.
 
 
 
-* video: https://drive.google.com/file/d/0B1Of61fJF7WsUXBjRUJpX1BaSjA/view?usp=sharing
+* video: 21:40: https://drive.google.com/file/d/0B1Of61fJF7WsUXBjRUJpX1BaSjA/view?usp=sharing
 
 
 
@@ -394,7 +394,7 @@ Use of Dropbox, iCloud, Box etc.
 
           
 
-* video: https://drive.google.com/file/d/0B1Of61fJF7WsZjR5VHQ2MXFmbjg/view?usp=sharing
+* video: 3:07: https://drive.google.com/file/d/0B1Of61fJF7WsZjR5VHQ2MXFmbjg/view?usp=sharing
 
 
 
@@ -410,9 +410,9 @@ computing is especially sensitive to faults as a fault in one task
 will impact all other tasks in the parallel job.
 
 
-* Video 1: https://drive.google.com/file/d/0B1Of61fJF7WsYXlKVXk0aG8tZFk/view?usp=sharing
+* Video 1: 7:57: https://drive.google.com/file/d/0B1Of61fJF7WsYXlKVXk0aG8tZFk/view?usp=sharing
 
-* Video 2: https://drive.google.com/file/d/0B1Of61fJF7WseGVUNHhGTHpZbVU/view?usp=sharing
+* Video 2: 7:44: https://drive.google.com/file/d/0B1Of61fJF7WseGVUNHhGTHpZbVU/view?usp=sharing
 
 
 
@@ -423,7 +423,7 @@ Science Applications and Internet of Things.
 
 
           
-* video: https://drive.google.com/file/d/0B1Of61fJF7Wsd0lZejhPTkItZEE/view?usp=sharing
+* video: 19:26: https://drive.google.com/file/d/0B1Of61fJF7Wsd0lZejhPTkItZEE/view?usp=sharing
 
 
 
@@ -435,7 +435,7 @@ implementation.
 
 
 
-* video: https://drive.google.com/file/d/0B1Of61fJF7WsajE4QkljRUExLWM/view?usp=sharing
+* video: 2:34: https://drive.google.com/file/d/0B1Of61fJF7WsajE4QkljRUExLWM/view?usp=sharing
 
 
 
@@ -449,7 +449,7 @@ especially sensitive to faults as a fault in one task will impact all
 other tasks in the parallel job.
 
 
-* video: https://drive.google.com/file/d/0B1Of61fJF7WsdHRZV1VrTklWYVE/view?usp=sharing
+* video: 8:55: https://drive.google.com/file/d/0B1Of61fJF7WsdHRZV1VrTklWYVE/view?usp=sharing
 
 
 
@@ -496,7 +496,7 @@ perspective with commercial examples including eBay.
 
 
 
-* Slides: https://drive.google.com/file/d/0B1Of61fJF7WsN1RPVFRLUGJLZGs/view?usp=sharing
+* Slides: (49 pages): https://drive.google.com/file/d/0B1Of61fJF7WsN1RPVFRLUGJLZGs/view?usp=sharing
 
 
 The 10 Interaction scenarios (access patterns) I
@@ -506,7 +506,7 @@ The next 3 lessons describe the way users and data interact with the
 system.
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsWldDNm1oNXdPQmc/view?usp=sharing
+* Video: 10:26: https://drive.google.com/file/d/0B1Of61fJF7WsWldDNm1oNXdPQmc/view?usp=sharing
 
 
 
@@ -517,7 +517,7 @@ This lesson describes the way users and data interact with the system
 for some science examples.
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsQTlvLWs4cm5NRE0/view?usp=sharing
+* Video: 16:34: https://drive.google.com/file/d/0B1Of61fJF7WsQTlvLWs4cm5NRE0/view?usp=sharing
 
 
 Remaining general access patterns
@@ -528,7 +528,7 @@ for the final set of examples.
 
 
           
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsYVVRWmdpanV4Vlk/view?usp=sharing
+* Video: 11:36: https://drive.google.com/file/d/0B1Of61fJF7WsYVVRWmdpanV4Vlk/view?usp=sharing
 
 
 Data in the Cloud
@@ -539,7 +539,7 @@ compared. The way to build a modern data repository in the cloud is
 introduced.
 
           
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsRzR6eHZwelVuOG8/view?usp=sharing
+* Video: 10:24: https://drive.google.com/file/d/0B1Of61fJF7WsRzR6eHZwelVuOG8/view?usp=sharing
 
 
 Applications Processing Big Data
@@ -550,7 +550,7 @@ sources: Berkeley, Teradata, IBM, Oracle and eBay with architectures
 and application opportunities.
 
           
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsUG9UVGFOQXNXbnc/view?usp=sharing
+* Video: 8:45: https://drive.google.com/file/d/0B1Of61fJF7WsUG9UVGFOQXNXbnc/view?usp=sharing
 
 
 Resources

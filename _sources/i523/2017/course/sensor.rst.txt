@@ -18,8 +18,8 @@ the smart electric grid.
 .. i523/public/videos/sensors/lecture-36-lessons-2-4.pptx
 .. i523/public/videos/sensors/lecture-36-lessons-1-5-6-7-8.pptx
    
-* Slides: `PPT1 <https://drive.google.com/file/d/0B1Of61fJF7WsSnRPaUdJQzVmejA/view?usp=sharing>`_
-* Slides: `PPT2 <https://drive.google.com/file/d/0B1Of61fJF7WsdVFOdHpWdzdSYmc/view?usp=sharing>`_
+* Slides (31 slides): `PPT1 <https://drive.google.com/file/d/0B1Of61fJF7WsSnRPaUdJQzVmejA/view?usp=sharing>`_
+* Slides (44 slides): `PPT2 <https://drive.google.com/file/d/0B1Of61fJF7WsdVFOdHpWdzdSYmc/view?usp=sharing>`_
 
 
 Internet of Things
@@ -35,7 +35,7 @@ systems. The lesson gives many examples of distributed sensors, which
 form a Grid that is controlled by a cloud.
 
 
-* Video:https://drive.google.com/file/d/0B1Of61fJF7WsZkpSQUd3MWp3UG8/view?usp=sharing
+* Video: 12:36: Internet of Things: https://drive.google.com/file/d/0B1Of61fJF7WsZkpSQUd3MWp3UG8/view?usp=sharing
 
 
 Robotics and IOT Expectations
@@ -45,7 +45,7 @@ Examples of Robots and Drones.
 
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsMjFWdHRPVHZvbzA/view?usp=sharing
+* Video 8:05: Robotics and IOT Expectations: https://drive.google.com/file/d/0B1Of61fJF7WsMjFWdHRPVHZvbzA/view?usp=sharing
 
 
 Industrial Internet of Things
@@ -55,7 +55,11 @@ We summarize surveys and expectations Industry wide.
 
 
 
-* Video 1:https://drive.google.com/file/d/0B1Of61fJF7WsRlFneWpGYVhaaW8/view?usp=sharing
+<<<<<<< HEAD
+* Video 1:24:02: Industrial Internet of Things: https://drive.google.com/file/d/0B1Of61fJF7WsRlFneWpGYVhaaW8/view?usp=sharing
+=======
+* Video 1:24:02: Internet of Things I: https://drive.google.com/file/d/0B1Of61fJF7WsRlFneWpGYVhaaW8/view?usp=sharing
+>>>>>>> 2278d21c891f73ce0cf0ec628e524f507280c76b
 
 
 
@@ -69,7 +73,7 @@ it. The performance of system is measured in terms of processing
 latency as a function of number of involved sensors with each
 delivering data at 1.8 Mbps rate.
 
-* Video: https://youtu.be/0egT1FsVGrU
+* Video: 4:40: Sensor Clouds: https://youtu.be/0egT1FsVGrU
 
 
 Earth/Environment/Polar Science data gathered by Sensors
@@ -81,7 +85,7 @@ the CReSIS polar remote sensing project and then looks at the NSF
 Ocean Observing Initiative and NASA's MODIS or Moderate Resolution
 Imaging Spectroradiometer instrument on a satellite.
 
-* Video: https://youtu.be/CS2gX7axWfI
+* Video: 4:58: Earth/Environment/Polar Science data gathered by Sensors: https://youtu.be/CS2gX7axWfI
 
 
 Ubiquitous/Smart Cities
@@ -90,7 +94,7 @@ Ubiquitous/Smart Cities
 For Ubiquitous/Smart cities we give two examples: Iniquitous Korea and
 smart electrical grids.
 
-* Video: https://youtu.be/MFFIItQ3SOo
+* Video : 1:44: Ubiquitous/Smart Cities: https://youtu.be/MFFIItQ3SOo
 
 
 
@@ -106,7 +110,11 @@ everywhere. The example of a 'High-Tech Utopia' New Songdo is given.
 
 
 
-* Video:https://drive.google.com/file/d/0B1Of61fJF7WsTGVGZksyS1NUNXM/view?usp=sharing
+<<<<<<< HEAD
+* Video: 2:49: U-Korea:  https://drive.google.com/file/d/0B1Of61fJF7WsTGVGZksyS1NUNXM/view?usp=sharing
+=======
+* Video: 2:49: U-Korea (U=Ubiquitous): https://drive.google.com/file/d/0B1Of61fJF7WsTGVGZksyS1NUNXM/view?usp=sharing
+>>>>>>> 2278d21c891f73ce0cf0ec628e524f507280c76b
 
 
 Smart Grid
@@ -119,7 +127,7 @@ variety of new instruments include smart meters, power monitors, and
 measures of solar irradiance, wind speed, and temperature. One goal is
 autonomous local power units where good use is made of waste heat.
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsMGNLMXk1NXpNR0E/view?usp=sharing
+* Video: 6:04: Smart Grid: https://drive.google.com/file/d/0B1Of61fJF7WsMGNLMXk1NXpNR0E/view?usp=sharing
 
 
 

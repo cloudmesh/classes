@@ -23,7 +23,7 @@ pre-labelled.
 
 .. todo:: The slides or videos are going to be updated
 
-          Slides: https://iu.app.box.com/s/i9et3dxnhr3qt5gn14bg
+          Slides (23 pages): https://iu.app.box.com/s/i9et3dxnhr3qt5gn14bg
 
 Files:
 
@@ -48,8 +48,8 @@ just use Matplotlib to give 2D plots.
 
 .. todo:: The slides or videos are going to be updated
           
-          * Video 1: https://youtu.be/o16L0EqsQ_g
-          * Video 2: https://youtu.be/JK5p24mnTjs
+          * Video 1: 7:03: Python k'th Nearest Neighbor Algorithms I: https://youtu.be/o16L0EqsQ_g
+          * Video 2: 8:20: Python k'th Nearest Neighbor Algorithms II: https://youtu.be/JK5p24mnTjs
 
 
 3D Visualization
@@ -61,7 +61,7 @@ in 3D.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/fLtH-ZI1Jqk
+          Video: 7:41: Recommender System IV 3: Visualization: https://youtu.be/fLtH-ZI1Jqk
 
 
 Testing k'th Nearest Neighbor Algorithms
@@ -77,7 +77,7 @@ algorithm is analyzed in detail.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video https://youtu.be/zLaPGMIQ9So
+          Video: 10:06: Recommender System IV 4: Testing k'th Nearest Neighbor Algorithms: https://youtu.be/zLaPGMIQ9So
 
 Clustering and heuristic methods
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -93,7 +93,7 @@ heuristic algorithms.
 
 .. todo:: The slides or videos are going to be updated
 
-          Slides: https://iu.app.box.com/s/70qn6d61oln9b50jqobl
+          Slides (35 slides): https://iu.app.box.com/s/70qn6d61oln9b50jqobl
 
 
 Files:
@@ -115,7 +115,7 @@ example from Wikipedia is examined.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/3KTNJ0Okrqs
+          Video: 9:06: Kmeans Clustering: https://youtu.be/3KTNJ0Okrqs
 
 
 Clustering of Recommender System Example
@@ -128,7 +128,7 @@ clustering has centers marked.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/yl_KZ86NT-A
+          Video: 9:00: Clustering of Recommender System Example: https://youtu.be/yl_KZ86NT-A
 
 
 Clustering of Recommender Example into more than 3 Clusters
@@ -141,7 +141,7 @@ local regions.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/JWZmh48l0cw
+          Video: 8:13: Clustering into more than 3 Clusters: https://youtu.be/JWZmh48l0cw
 
 
 
@@ -156,7 +156,7 @@ described.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/Zmq8O_axCmc
+          Video: 9:23: Local Optima in Clustering: https://youtu.be/Zmq8O_axCmc
 
 
 Clustering in General
@@ -174,7 +174,7 @@ data mapped into 3D with Multi Dimensional Scaling MDS.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/JejNZhBxjRU
+          Video: 8:33: Clustering in General: https://youtu.be/JejNZhBxjRU
 
 
 
@@ -186,7 +186,7 @@ getting exact answers is often not so important?
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: https://youtu.be/KT22YuX8ZMY
+          Video: 5:54: Heuristics: https://youtu.be/KT22YuX8ZMY
 
 
 Resources

@@ -50,11 +50,11 @@ Information to Knowledge to Wisdom) pipeline. Then more detail is
 given on the flood of data from Internet and Industry applications
 with eBay and General Electric discussed in most detail.
 
-* Slides: `PDF <https://drive.google.com/open?id=0B88HKpainTSfenJ4dEZQOUxZSmM>`_
+* Slides (45 pages): `PDF <https://drive.google.com/open?id=0B88HKpainTSfenJ4dEZQOUxZSmM>`_
 
 .. comment::
 
-          * Slides: https://iu.box.com/s/rmnw3soy81kc82a5qzow
+          * Slides (45 pages): https://iu.box.com/s/rmnw3soy81kc82a5qzow
 
 
 
@@ -68,11 +68,11 @@ Use Clouds running Data Analytics Collaboratively processing Big Data
 to solve problems in X-Informatics. We list many values of X you can
 defined in various activities across the world.
 
-* Video: `MP4 <https://drive.google.com/open?id=0B88HKpainTSfMXNTZGd5NmJ3V1E>`_
+* Video: 9:49:  `MP4 <https://drive.google.com/open?id=0B88HKpainTSfMXNTZGd5NmJ3V1E>`_
 
 .. comment::
 
-          * Video: http://youtu.be/AKkyWF95Fp4
+          * Video: 9:49: http://youtu.be/AKkyWF95Fp4
 
 Jobs
 """"
@@ -84,7 +84,7 @@ a plot from LinkedIn showing rapid increase in the number of data
 science and analytics jobs as a function of time.
 
 
-* Video: http://youtu.be/pRlfEigUJAc
+* Video: 2:58: http://youtu.be/pRlfEigUJAc
 
 
 Data Deluge: General Structure
@@ -98,7 +98,7 @@ views as to what characterizes Big data and why data science is a
 science that is needed to interpret all the data.
 
           
-* Video: http://youtu.be/mPJ9twAFRQU
+* Video: 13:04: http://youtu.be/mPJ9twAFRQU
 
 Data Science: Process
 """""""""""""""""""""
@@ -109,7 +109,7 @@ illustrated with Google maps and we show how complex the ecosystem of
 data, transformations (filters) and its derived forms is.
 
           
-* Video: http://youtu.be/ydH34L-z0Rk
+* Video: 4:27: http://youtu.be/ydH34L-z0Rk
 
 
 
@@ -121,7 +121,7 @@ photos and an illustration of the vitality and size of many commodity
 applications.
 
           
-* Video: http://youtu.be/rtuq5y2Bx2g
+* Video: 3:42: http://youtu.be/rtuq5y2Bx2g
 
 
 
@@ -135,9 +135,9 @@ offline in shopping malls. We give examples from ebay showing how
 analytics allowing them to refine and improve the customer
 experiences.
           
-* Video 1: http://youtu.be/PJz38t6yn_s
-* Video 2: http://youtu.be/fESm-2Vox9M
-* Video 3: http://youtu.be/fcvn-IxPO00
+* Video 1: 6:00: http://youtu.be/PJz38t6yn_s
+* Video 2: 7:34: http://youtu.be/fESm-2Vox9M
+* Video 3: 9:37: http://youtu.be/fcvn-IxPO00
 
 
 Resources
@@ -175,10 +175,10 @@ individually modest data adding up to a lot. The last lesson
 emphasizes how everyday devices ~~ the Internet of Things ~~ are being
 used to create a wealth of data.
 
-* Slides: `PDF <https://drive.google.com/open?id=0B88HKpainTSfZzhqZHVKbllZcTA>`_ 
+* Slides (22 pages): `PDF <https://drive.google.com/open?id=0B88HKpainTSfZzhqZHVKbllZcTA>`_ 
 .. comment::
 
-          * Slides: https://iu.box.com/s/e73lyv9sx7xcaqymb2n6
+          * Slides (22 pages): https://iu.box.com/s/e73lyv9sx7xcaqymb2n6
 
 
 
@@ -192,8 +192,8 @@ European Bioinformatics Institute and contrast to Facebook and
 Walmart.
 
 
-* Video 1: http://youtu.be/u1h6bAkuWQ8
-* Video 2: http://youtu.be/_JfcUg2cheg
+* Video 1: 11:27: http://youtu.be/u1h6bAkuWQ8
+* Video 2: 11:49: http://youtu.be/_JfcUg2cheg
 
 
 Implications for Scientific Method
@@ -204,7 +204,7 @@ research based on data driven inquiry. We contrast this with third ~~
 computation or simulation based discovery - methodology which emerged
 itself some 25 years ago.
 
-* Video: http://youtu.be/srEbOAmU_g8
+* Video: 5:07: http://youtu.be/srEbOAmU_g8
 
 
 
@@ -216,7 +216,7 @@ experiment has 3000 people collaborate!.Then there are individual
 investigators who don't generate a lot of data each but together they
 add up to Big data.
 
-* Video: http://youtu.be/dwzEKEGYhqE
+* Video: 2:10: http://youtu.be/dwzEKEGYhqE
 
 
 Internet of Things
@@ -226,7 +226,7 @@ A final category of Big data comes from the Internet of Things where
 lots of small devices ~~ smart phones, web cams, video games collect
 and disseminate data and are controlled and coordinated in the cloud.
 
-* Video: http://youtu.be/K2anbyxX48w
+* Video: 5:45: http://youtu.be/K2anbyxX48w
 
 
 Resources
@@ -271,11 +271,11 @@ the big data to give big wisdom. There are many ways to describe data
 science and several are discussed to give a good composite picture of
 this emerging field.
 
-* Slides: `PDF <https://drive.google.com/open?id=0B88HKpainTSfV1FwdktnbTl3T1k>`_
+* Slides (35 pages): `PDF <https://drive.google.com/open?id=0B88HKpainTSfV1FwdktnbTl3T1k>`_
 
 .. comment::
 
-          * Slides: https://iu.box.com/s/38z9ryldgi3b8dgcbuan
+          * Slides (35 pages): https://iu.box.com/s/38z9ryldgi3b8dgcbuan
 
 
 
@@ -289,11 +289,11 @@ terms of power consumption and the environment are also touched upon,
 followed by a list of the most critical features of Cloud computing
 and a comparison to supercomputing.
 
-* Video: `MP4 <https://drive.google.com/open?id=0B88HKpainTSfR20xcUdLbDQzeGs>`_
+* Video: 16:04: `MP4 <https://drive.google.com/open?id=0B88HKpainTSfR20xcUdLbDQzeGs>`_
 
 .. comment::
 
-          * Video: http://youtu.be/8RBzooC_2Fw
+          * Video: 16:04: http://youtu.be/8RBzooC_2Fw
 
 
 
@@ -306,8 +306,8 @@ Big data are compared. We give an example where "More data usually
 beats better algorithms". We discuss examples of intelligent big data
 and list 8 different types of data deluge
 
-* Video 1: http://youtu.be/FMktnTQGyrw
-* Video 2: http://youtu.be/QNVZobXHiZw
+* Video 1: 8:02: http://youtu.be/FMktnTQGyrw
+* Video 2: 6:24: http://youtu.be/QNVZobXHiZw
 
 
 
@@ -318,14 +318,14 @@ We describe and critique one view of the work of a data scientists.
 Then we discuss and contrast 7 views of the process needed to speed
 data through the DIKW pipeline.
 
-* Video: http://youtu.be/lpQ-Q9ZidR4
+* Video: 11:28: http://youtu.be/lpQ-Q9ZidR4
 
 
 
 Data Analytics
 """"""""""""""
 
-Slides:
+Slides (30 pages):
 
 * http://archive2.cra.org/ccc/files/docs/nitrdsymposium/keyes.pdf
 
@@ -336,8 +336,8 @@ at High Performance Computing in Science and Engineering: the Tree and
 the Fruit.
 
 
-* Video 1: http://youtu.be/RPVojR8jrb8
-* Video 2: http://youtu.be/wOSgywqdJDY
+* Video 1: 7:28: http://youtu.be/RPVojR8jrb8
+* Video 2: 6:51: http://youtu.be/wOSgywqdJDY
 
 
 
