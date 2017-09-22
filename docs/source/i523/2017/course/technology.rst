@@ -205,9 +205,9 @@ to illustrate the calculation of PageRank.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video 1: 9:18: https://youtu.be/rLWUvvcHrCQ
+          Video 1: 9:18: PageRank I: https://youtu.be/rLWUvvcHrCQ
 
-          Video 2: 9:57: https://youtu.be/UzQRukCFQv8
+          Video 2: 9:57: PageRank II: https://youtu.be/UzQRukCFQv8
 
 
 
@@ -219,6 +219,6 @@ Google calculates for any page on the web.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: 9:57: https://youtu.be/8L_72bRLQVk
+          Video: 9:57: PageRank III: https://youtu.be/8L_72bRLQVk
 
 
