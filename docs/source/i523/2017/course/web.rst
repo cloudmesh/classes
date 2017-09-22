@@ -9,7 +9,7 @@ examine the problem to be solved in web and text search and note the
 relevance of history with libraries, catalogs and concordances. An
 overview of web search is given describing the continued evolution of
 search engines and the relation to the field of Information
-Retrieval. The importance of recall, precision and diversity is
+https://www.youtube.com/watch?v=kIQ-BTyDfOQ&feature=youtu.beRetrieval. The importance of recall, precision and diversity is
 discussed. The important Bag of Words model is introduced and both
 Boolean queries and the more general fuzzy indices. The important
 vector space model and revisiting the Cosine Similarity as a distance
@@ -58,7 +58,7 @@ note how frequencies are converted into belief and relevance.
 
 .. i523/public/videos/web/lecture-26.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseW5oNW5KY0g5dEk/view?usp=sharing>`_
+* Slides (56 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseW5oNW5KY0g5dEk/view?usp=sharing>`_
 
 
 
@@ -71,7 +71,7 @@ of pages with particular number of URL's linking out or in to page.
 
 
           
-* Video:https://drive.google.com/file/d/0B1Of61fJF7WscTdYUUVHNW9uRUU/view?usp=sharing
+* Video: 9:56: https://drive.google.com/file/d/0B1Of61fJF7WscTdYUUVHNW9uRUU/view?usp=sharing
 
 
 
@@ -85,7 +85,7 @@ complexity of ontologies. Some differences between web search and
 information retrieval are given.
 
           
-* Video: https://youtu.be/KtWhk2cdRa4
+* Video: 6:06: https://youtu.be/KtWhk2cdRa4
 
 
 History behind Web Search
@@ -94,7 +94,7 @@ History behind Web Search
 The origin of web search in libraries, catalogs and concordances is
 summarized.
 
-* Video: https://youtu.be/J7D61uH5gVM
+* Video: 5:48: https://youtu.be/J7D61uH5gVM
 
 
 
@@ -105,7 +105,7 @@ This lesson describes the DIKW -- Data Information Knowledge Wisdom --
 model for web search. Then it discusses documents, collections and the
 important Bag of Words representation.
          
-* Video: https://youtu.be/yPFi6xFnDHE
+* Video: 9:30: https://youtu.be/yPFi6xFnDHE
 
 
 Information Retrieval (Web Search) Components
@@ -116,7 +116,7 @@ This describes queries in context of an Information Retrieval
 architecture. The method of judging quality of results including
 recall, precision and diversity is described.
 
-* Video: https://youtu.be/EGsnonXgb3Y
+* Video: 5:06: https://youtu.be/EGsnonXgb3Y
 
 
 Search Engines
@@ -128,7 +128,7 @@ Information retrieval but in 1998 the field was changed when Google
 was founded and showed the importance of URL structure as exemplified
 by PageRank.
 
-* Video: https://youtu.be/kBV-99N6f7k
+* Video: 3:08: https://youtu.be/kBV-99N6f7k
 
 
 Boolean and Vector Space Models
@@ -137,7 +137,7 @@ Boolean and Vector Space Models
 This lesson describes the Boolean and Vector Space models for query
 including the cosine similarity.
 
-* Video: https://youtu.be/JzGBA0OhsIk
+* Video: 6:17: https://youtu.be/JzGBA0OhsIk
 
 
 
@@ -148,7 +148,7 @@ This describes a Web Crawler and then the steps needed to analyze data
 from Web and produce a set of terms.
 
           
-* Video: https://youtu.be/Wv-r-PJ9lro
+* Video: 4:55: https://youtu.be/Wv-r-PJ9lro
 
 
           
@@ -159,7 +159,7 @@ This lesson describes both building and accessing an inverted
 index. It describes how phrases are treated and gives details of query
 structure from some early logs.
 
-* Video: https://youtu.be/NY2SmrHoBVM
+* Video: 5:44: https://youtu.be/NY2SmrHoBVM
 
 
 TF-IDF and Probabilistic Models
@@ -169,7 +169,7 @@ It describes the importance of term specificity and how it is captured
 in TF-IDF. It notes how frequencies are converted into belief and
 relevance.
 
-* Video: https://youtu.be/9P_HUmpselU
+* Video: 3:57: https://youtu.be/9P_HUmpselU
 
 
 
@@ -179,7 +179,7 @@ Resources
 * http://saedsayad.com/data_mining_map.htm
 * http://webcourse.cs.technion.ac.il/236621/Winter2011-2012/en/ho_Lectures.html
 
-* The Web Graph: an Overview Jean-Loup Guillaume and Matthieu Latapy
+* The Web Graph: an Overviews://www.youtube.com/watch?v=yPFi6xFnDHE&feature=youtu.be Jean-Loup Guillaume and Matthieu Latapy
   https://hal.archives-ouvertes.fr/file/index/docid/54458/filename/webgraph.pdf
 * Constructing a reliable Web graph with information on browsing behavior, Yiqun Liu, Yufei Xue, Danqing Xu, Rongwei Cen, Min Zhang, Shaoping Ma, Liyun Ru
   http://www.sciencedirect.com/science/article/pii/S0167923612001844
@@ -202,7 +202,7 @@ with Google News as an example.
 
 .. i523/public/videos/web/lecture-27.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsaW44NnU5YXptUkU/view?usp=sharing>`_
+* Slides (33 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsaW44NnU5YXptUkU/view?usp=sharing>`_
 
 
 Data Analytics for Web Search
@@ -217,7 +217,7 @@ support advertising and ways to allow or stop pages artificially
 enhancing relevance.
 
           
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WsNEJxbWVRQ2lnc1U/view?usp=sharing
+* Video: 6:11: https://drive.google.com/file/d/0B1Of61fJF7WsNEJxbWVRQ2lnc1U/view?usp=sharing
 
 
 Link Structure Analysis including PageRank
@@ -233,7 +233,7 @@ lesson.
 
 
 
-* Video: https://drive.google.com/file/d/0B1Of61fJF7WseFFsUk9ZNXRURGM/view?usp=sharing
+* Video: 17:24: https://drive.google.com/file/d/0B1Of61fJF7WseFFsUk9ZNXRURGM/view?usp=sharing
           
 
 
@@ -248,7 +248,7 @@ different models: Cost per viewing, cost per clicking and cost per
 action. This leads to emerging field of computational advertising.
 
           
-* Video:https://drive.google.com/file/d/0B1Of61fJF7WsbjZMNDlvemNZNUk/view?usp=sharing
+* Video: 9:02: https://drive.google.com/file/d/0B1Of61fJF7WsbjZMNDlvemNZNUk/view?usp=sharing
 
 
 
@@ -261,7 +261,7 @@ different answers from word-based analyses. We mention some work at
 Indiana University on a Latent Semantic Indexing model.
 
           
-* Video: https://youtu.be/95cHMyZ-TUs
+* Video: 6:21: https://youtu.be/95cHMyZ-TUs
 
 
 Resources
