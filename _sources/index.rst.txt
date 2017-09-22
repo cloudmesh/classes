@@ -12,6 +12,13 @@ I523
    i523/2017/index              
    i523/2016/index
 
+THe following is a draft version of the upcomming reports:
+
+* Big Data Usecases Vol 1.:
+
+  * https://github.com/laszewski/laszewski.github.io/blob/master/papers/vonLaszewski-i523.pdf
+  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523.pdf
+   
 I524
 ----
 
