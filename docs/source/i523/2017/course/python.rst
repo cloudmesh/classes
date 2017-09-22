@@ -51,7 +51,7 @@ is an Integrated Development Environment (IDE) used for programming in
 Python. It provides code analysis, a graphical debugger, an integrated
 unit tester, integration with git.
 
-Video: https://youtu.be/X8ZpbZweJcw
+Video: 8:56: Pycharm: https://youtu.be/X8ZpbZweJcw
 
 
 Python in 45 minutes
@@ -79,11 +79,11 @@ data. This helps to organize in a more intuitive fashion and also
 helps us use the various matrix operations which are popularly used by
 the machine learning community.
 
-Video 1: http://youtu.be/mN_JpGO9Y6s
+Video 1: 11:53: Numpy 1: http://youtu.be/mN_JpGO9Y6s
 
-Video 2: http://youtu.be/7QfW7AT7UNU
+Video 2: 11:26: Numpy 2: http://youtu.be/7QfW7AT7UNU
 
-Video 3: http://youtu.be/Ccb67Q5gpsk
+Video 3: 11:51: Numpy 3: http://youtu.be/Ccb67Q5gpsk
 
 
 Matplotlib
@@ -93,9 +93,9 @@ Matplotlib is a data visualization package. It allows you to create
 graphs charts and other such diagrams. It supports Images in JPEG,
 GIF, TIFF format.
 
-Video 1: http://youtu.be/3UOvB5OmtYE
+Video 1: 11:21: Matplotlib 1: http://youtu.be/3UOvB5OmtYE
 
-Video 2: http://youtu.be/9ONSnsN4hcg
+Video 2: 8:32: Matplotlib 2: http://youtu.be/9ONSnsN4hcg
 
 
 Scipy 1
@@ -106,9 +106,9 @@ the shelf algorithms / operations implemented. These include
 algorithms from calculus(like integration), statistics, linear
 algebra, image-processing, signal processing, machine learning, etc.
 
-Video 1: http://youtu.be/lpC6Mn-09jY
+Video 1: 6:57: Scipy 1: http://youtu.be/lpC6Mn-09jY
 
-Video 2: http://youtu.be/-XKBz7qCUqw
+Video 2: 8:52: http://youtu.be/-XKBz7qCUqw
 
 OUTDATED: Using FutureSystems (Please do not do yet)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -131,7 +131,7 @@ services and features.
 FirstProgram.java:
 http://openedx.scholargrid.org:18010/c4x/SoIC/INFO-I-523/asset/FirstProgram.java
 
-Video: http://youtu.be/RibpNSyd4qg
+Video: 12:12: FutureGid: http://youtu.be/RibpNSyd4qg
 
 Creating Portal Account
 """""""""""""""""""""""
@@ -141,7 +141,7 @@ first step in gaining access to FutureSystems.
 
 See Lesson 4 and 7 for SSH key generation on Linux, OSX or Windows.
 
-Video: http://youtu.be/X6zeVEALzTk
+Video: 11:50: FutureGrid Introduction: http://youtu.be/X6zeVEALzTk
 
 OUTDATED: Upload an OpenId
 """"""""""""""""""""""""""
@@ -149,7 +149,7 @@ OUTDATED: Upload an OpenId
 This lesson explains how to upload and use OpenID to easily log into
 the FutureSystems portal.
 
-Video: http://youtu.be/rZzpCYWDEpI
+Video: 1:34: Upload an OpenID: http://youtu.be/rZzpCYWDEpI
 
 
 SSH Key Generation using ssh-keygen command
@@ -159,7 +159,7 @@ SSH keys are used to identify user accounts in most systems including
 FutureSystems. This lesson walks you through generating an SSH key via
 ssh-keygen command line tool.
 
-Video: http://youtu.be/pQb2VV1zNIc
+Video: 4:06: ssh-key gen: http://youtu.be/pQb2VV1zNIc
 
 Shell Access via SSH
 """"""""""""""""""""
@@ -167,7 +167,7 @@ Shell Access via SSH
 This lesson explains how to get access FutureSystems resources vis SSH
 terminal with your registered SSH key.
 
-Video: http://youtu.be/aJDXfvOrzRE
+Video: 2:34 Shell Access via SSH: http://youtu.be/aJDXfvOrzRE
 
 Advanced SSH
 """"""""""""
@@ -175,7 +175,7 @@ Advanced SSH
 This lesson shows you how to write SSH 'config' file in advanced
 settings.
 
-Video: http://youtu.be/eYanElmtqMo
+Video: 2:47: Advanced SSH: http://youtu.be/eYanElmtqMo
 
 
 SSH Key Generation via putty (Windows user only)
@@ -187,7 +187,7 @@ You will learn how to create an SSH key using PuTTYgen, add the public
 key to you FutureSystems portal, and then login using the PuTTY SSH
 client.
 
-Video: http://youtu.be/irmVJKwWQCU
+Video: 3:51: Windows users: http://youtu.be/irmVJKwWQCU
 
 
 Using FS - Creating VM using Cloudmesh and running IPython
@@ -200,7 +200,7 @@ this upcoming lessons.
 Instruction is at:
 http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/cm-mooc.html
 
-Video: http://youtu.be/nbZbJxheLwc
+Video: 19:28: Using FS - Creating VM using Cloudmesh and running IPython: http://youtu.be/nbZbJxheLwc
 
 ..
     COMMENT
@@ -213,5 +213,5 @@ Video: http://youtu.be/nbZbJxheLwc
     Instruction is here:
     http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/javafiles.html
 
-    Video: http://youtu.be/E1SVmLb_QK8
+    Video: 6:24: Java Class Programs on Virtual Machine: http://youtu.be/E1SVmLb_QK8
 
