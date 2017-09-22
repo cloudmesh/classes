@@ -63,7 +63,7 @@ and make definition consistent with code in SciPy.
 
 .. todo:: The slides or videos are going to be updated
 
-          Video: 11:42: https://youtu.be/I79ISV6XBbE
+          Video: 11:42: Kmeans I: https://youtu.be/I79ISV6XBbE
 
 
 
@@ -87,11 +87,11 @@ use of Python for new runs.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video 1: 11:54: https://youtu.be/Srgq9VDg4C8
+          Video 1: 11:54: Kmeans II: https://youtu.be/Srgq9VDg4C8
 
-          Video 2: 9:59: https://youtu.be/rjyAXjA_mOk
+          Video 2: 9:59: Kmeans III: https://youtu.be/rjyAXjA_mOk
 
-          Video 3: 8:38: https://youtu.be/N6QKyrhNVAc
+          Video 3: 8:38: Kmeans IV: https://youtu.be/N6QKyrhNVAc
 
 
 
@@ -121,7 +121,7 @@ inspected by the user.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: 9:46: https://youtu.be/67qFY64aj7g
+          Video: 9:46: MapReduce Introduction: https://youtu.be/67qFY64aj7g
 
 
 Advanced Topics
@@ -134,9 +134,9 @@ Azure are presented.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video 1: 11:16: https://youtu.be/lo4movzSyVw
+          Video 1: 11:16: MapReduce II: https://youtu.be/lo4movzSyVw
 
-          Video 2: 9:13: https://youtu.be/wnanWncQBow
+          Video 2: 9:13: MapReduce III: https://youtu.be/wnanWncQBow
 
 
 Technology: Kmeans and MapReduce Parallelism
@@ -173,9 +173,9 @@ generalized to scalable parallelism.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video 1: 9:00: https://youtu.be/2El1oL3gKpQ
+          Video 1: 9:00: Kmeans Python I: https://youtu.be/2El1oL3gKpQ
 
-          Video 2: 7:18: https://youtu.be/LLrTWWdE3T0
+          Video 2: 7:18: Kmeans Python II: https://youtu.be/LLrTWWdE3T0
 
 
 Technology: PageRank
@@ -205,9 +205,9 @@ to illustrate the calculation of PageRank.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video 1: 9:18: https://youtu.be/rLWUvvcHrCQ
+          Video 1: 9:18: PageRank I: https://youtu.be/rLWUvvcHrCQ
 
-          Video 2: 9:57: https://youtu.be/UzQRukCFQv8
+          Video 2: 9:57: PageRank II: https://youtu.be/UzQRukCFQv8
 
 
 
@@ -219,6 +219,6 @@ Google calculates for any page on the web.
 
 .. todo:: The slides or videos are going to be updated
           
-          Video: 9:57: https://youtu.be/8L_72bRLQVk
+          Video: 9:57: PageRank III: https://youtu.be/8L_72bRLQVk
 
 

@@ -105,29 +105,18 @@ Practice Track:
 
   .. comment old link to 2016 is reserved
 
-     Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
-
-     Overall Introduction Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
+     Overall Introduction OLD Video: 11:58: https://youtu.be/CRYz3iTJxRQ
 
 
-  .. todo:: Grace, Saber, The slides or videos are going to be updated 
-
-            https://iu.box.com/s/qze1sfggref5gzfix253wde20ne49ikz
-
-            Overall Introduction Video: https://youtu.be/CRYz3iTJxRQ
-
-            Overall Introduction  Video with cc: https://www.youtube.com/watch?v=WZxnCa9Ltoc
-
-            Overall Introduction Video: f:`youtube <https://youtu.be/CRYz3iTJxRQ>`_
 
   Overview of Topics
   ^^^^^^^^^^^^^^^^^^
 
   .. todo:: Grace, Saber, The slides or videos are going to be updated 
 
-            Video: https://youtu.be/Gpivfx4v5eY
+            Video: 8:07: Introduction: https://youtu.be/Gpivfx4v5eY
 
-            Video with cc: https://www.youtube.com/watch?v=aqgDnu5fRMM
+            Video with cc: 8:07: Introduction: https://www.youtube.com/watch?v=aqgDnu5fRMM
 
 
   Course Topics I
@@ -143,7 +132,7 @@ Practice Track:
 
   .. todo:: Grace, Saber, The slides or videos are going to be updated 
 
-            Video: 17:02: http://youtu.be/9NgG-AUOpYQ
+            Video: 17:02: Deatails of each unit: http://youtu.be/9NgG-AUOpYQ
 
 
   Course Topics II
@@ -161,7 +150,7 @@ Practice Track:
 
   .. todo:: Grace, Saber, The slides or videos are going to be updated 
 
-            Video 14:08: http://youtu.be/pxuyjeLQc54
+            Video 14:08: Details of each unit II: http://youtu.be/pxuyjeLQc54
 
   Course Topics III
   """""""""""""""""
@@ -180,7 +169,7 @@ Practice Track:
 
   .. todo:: The slides or videos are going to be updated 
 
-            Video: 14:24: http://youtu.be/rT4thK_i5ig
+            Video: 14:24: Details of each unit III: http://youtu.be/rT4thK_i5ig
 
 Course Motivation
 ^^^^^^^^^^^^^^^^^
@@ -216,11 +205,11 @@ Education
 
 .. i523/public/videos/introduction/motivation-012-1.mp4
 
-* Video: 40:14:  `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsV2RvMlFzSDNPZEU/view?usp=sharing>`_ (Course Motivation and Emerging Technologies are combined)
+* Video: 40:14:  `Motivation <https://drive.google.com/file/d/0B1Of61fJF7WsV2RvMlFzSDNPZEU/view?usp=sharing>`_ (Course Motivation and Emerging Technologies are combined)
 
 .. i523/public/videos/introduction/motivation-012-1.pptx
 
-* Slides (30 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsT3BVRmU5bHFua1E/view?usp=sharing>`_
+* Slides (30 pages): ` Motivation <https://drive.google.com/file/d/0B1Of61fJF7WsT3BVRmU5bHFua1E/view?usp=sharing>`_
          
 .. comment 2016 video reserved
 
@@ -248,15 +237,15 @@ Wealth and Wellness"
 
 .. i523/public/videos/introduction/motivation-012-2.mp4
 
-* Video: 30:38: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsV0hYWVB1eDJYdjA/view?usp=sharing>`_
+* Video: 30:38: `Data Deluge <https://drive.google.com/file/d/0B1Of61fJF7WsV0hYWVB1eDJYdjA/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-2novid.pptx
 
-* Slides (20 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsRUtKYTJaT0FUWG8/view?usp=sharing>`_
+* Slides (20 pages): `Data Deluge <https://drive.google.com/file/d/0B1Of61fJF7WsRUtKYTJaT0FUWG8/view?usp=sharing>`_
          
 .. comment 2016 video reserved
 
-          Video: http://youtu.be/sVNV0NxlQ6A
+          Video: 26:06 : Data Deluge: http://youtu.be/sVNV0NxlQ6A
 
 
 
@@ -269,15 +258,12 @@ advertise for new talent.
 
 .. i523/public/videos/introduction/motivation-012-3.mp4
 
-* Video: 9:39: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsZkp2VzRqbDJ1cXM/view?usp=sharing>`_
+* Video: 9:39: `JOBS: <https://drive.google.com/file/d/0B1Of61fJF7WsZkp2VzRqbDJ1cXM/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-3novid.pptx
 
-* Slides (8 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsZ2oyN0dGWmVQb0E/view?usp=sharing>`_
+* Slides (8 pages): `JOBS: <https://drive.google.com/file/d/0B1Of61fJF7WsZ2oyN0dGWmVQb0E/view?usp=sharing>`_
 
-.. comment 2016 video reserved
-
-          Video: http://youtu.be/h9u7YeKkHHU
 
 
 Industrial Trends
@@ -290,27 +276,27 @@ social media, thriving Chinese internet companies.
 
 .. i523/public/videos/introduction/motivation-012-4a.mp4
 
-* Video A: 19:25: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsa3BwTHg4bm1WaDg/view?usp=sharing>`_
+* Video A: 19:25: `Industrial Trends <https://drive.google.com/file/d/0B1Of61fJF7Wsa3BwTHg4bm1WaDg/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4a-novid.pptx
 
-* Slides A (16 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsNXQwUXlOMmFtQTg/view?usp=sharing>`_
+* Slides A (16 pages): `Industrial Trends <https://drive.google.com/file/d/0B1Of61fJF7WsNXQwUXlOMmFtQTg/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4b.mp4
 
-* Video B: 16:54: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRzNUTzZNRUVIUk0/view?usp=sharing>`_
+* Video B: 16:54: `Industrial Trends II <https://drive.google.com/file/d/0B1Of61fJF7WsRzNUTzZNRUVIUk0/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4b-novid.pptx
 
-* Slides B (16 pages) : `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsOTdiUUxMLTlscWs/view?usp=sharing>`_
+* Slides B (16 pages) : `Indusrial Trends II <https://drive.google.com/file/d/0B1Of61fJF7WsOTdiUUxMLTlscWs/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4c.mp4
 
-* Video C: 30:13: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRlZLb1RFUEVjeVU/view?usp=sharing>`_
+* Video C: 30:13: `Indusrial Trends III <https://drive.google.com/file/d/0B1Of61fJF7WsRlZLb1RFUEVjeVU/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4c-movid.pptx
 
-* Slides C (21 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsRDlINHpDXzQzSmM/view?usp=sharing>`_
+* Slides C (21 pages): `Industrial Trends III <https://drive.google.com/file/d/0B1Of61fJF7WsRDlINHpDXzQzSmM/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -326,15 +312,13 @@ Services.
 
 .. i523/public/videos/introduction/motivation-012-5.mp4
 
-* Video: 32:54: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsbm5CZ3FsM2IxVk0/view?usp=sharing>`_
+* Video: 32:54: `Digital Distruption and transformation <https://drive.google.com/file/d/0B1Of61fJF7Wsbm5CZ3FsM2IxVk0/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-5novid.pptx
 
-* Slides (28 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsVWVaTEl0VGlUT1E/view?usp=sharing>`_
+* Slides (28 pages): `Digital Distruption and transformation <https://drive.google.com/file/d/0B1Of61fJF7WsVWVaTEl0VGlUT1E/view?usp=sharing>`_
 
-.. comment 2016 video reserved
 
-          Video: http://youtu.be/RxGopRuMWOE
 
 
 
@@ -353,23 +337,20 @@ Service.
 
 .. i523/public/videos/introduction/motivation-012-6a.mp4
 
-* Video A: 24:03: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
+* Video A: 24:03: `Computing Model I <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-6a-novid.pptx
 
-* Slides A (14 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
+* Slides A (14 pages): `Computing Model I <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-6b.mp4
 
-* Video B: 28:18: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsVURyQ1BIaTFKbTA/view?usp=sharing>`_
+* Video B: 28:18: `Computing Model II <https://drive.google.com/file/d/0B1Of61fJF7WsVURyQ1BIaTFKbTA/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-6b-novid.pptx
 
-* Slides B (27 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsX0NRcXZhMkphOVk/view?usp=sharing>`_
+* Slides B (27 pages): `Computing Model II <https://drive.google.com/file/d/0B1Of61fJF7WsX0NRcXZhMkphOVk/view?usp=sharing>`_
 
-.. comment 2016 video reserved
-
-          Video: http://youtu.be/NBZPQqXKbiw
 
 
 Research Model
@@ -383,15 +364,13 @@ focus on the new fourth data driven methodology.
 .. i523/public/videos/introduction/motivation-012-7.mp4
 
 
-* Video: 7:32: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsb2dkTUxCVkh1Slk/view?usp=sharing>`_
+* Video: 7:32: `Research Model <https://drive.google.com/file/d/0B1Of61fJF7Wsb2dkTUxCVkh1Slk/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-7novid.pptx
 
-* Slides (4 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseVNLNWdjVXY1bUE/view?usp=sharing>`_
+* Slides (4 pages): `Research Model <https://drive.google.com/file/d/0B1Of61fJF7WseVNLNWdjVXY1bUE/view?usp=sharing>`_
 
-.. comment 2016 video reserved
 
-          Video: http://youtu.be/2ke459BRBhw
 
 
 Data Science Process
@@ -404,15 +383,13 @@ and emerging as new information to input into other transformations.
 
 .. i523/public/videos/introduction/motivation-012-8.mp4
 
-* Video: 15:42: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsOHZ2bWo4Vk1WakE/view?usp=sharing>`_
+* Video: 15:42: `Data Science Process <https://drive.google.com/file/d/0B1Of61fJF7WsOHZ2bWo4Vk1WakE/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-8novid.pptx
 
-* Slides (10 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseVZmTWxrdkZId2M/view?usp=sharing>`_
+* Slides (10 pages): `Data Science Process <https://drive.google.com/file/d/0B1Of61fJF7WseVZmTWxrdkZId2M/view?usp=sharing>`_
 
-.. comment 2016 video reserved
 
-          Video: http://youtu.be/j9ytOaBoe2k
 
 Physics-Informatics
 """""""""""""""""""
@@ -426,15 +403,13 @@ incredible size of author lists on papers.
 
 .. i523/public/videos/introduction/motivation-012-9.mp4
 
-* Video: 13:27: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsbHVvZi1MRzNCbjg/view?usp=sharing>`_
+* Video: 13:27: `Physics_informatics <https://drive.google.com/file/d/0B1Of61fJF7WsbHVvZi1MRzNCbjg/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-9novid.pptx
 
-* Slides (6 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsXzdVbWlqNG91b2M/view?usp=sharing>`_
+* Slides (6 pages): `Physics_inforamtics <https://drive.google.com/file/d/0B1Of61fJF7WsXzdVbWlqNG91b2M/view?usp=sharing>`_
 
-.. comment
 
-          Video: http://youtu.be/qUB0q4AOavY
 
 
 Recommender Systems
@@ -450,25 +425,19 @@ properties.
 
 .. i523/public/videos/introduction/motivation-012-10.mp4
 
-* Video: 12:21: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsc0dmQXN0alFJQW8/view?usp=sharing>`_
+* Video: 12:21: `Recommender Systems I <https://drive.google.com/file/d/0B1Of61fJF7Wsc0dmQXN0alFJQW8/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-10novid.pptx
 
-* Slides (9 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSnhOVXhoUmR0YlE/view?usp=sharing>`_
+* Slides (9 pages): `Recommender Systems I <https://drive.google.com/file/d/0B1Of61fJF7WsSnhOVXhoUmR0YlE/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-11.mp4
 
-* Video II: 9:44:  `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRDc1azd6UkFlemM/view?usp=sharing>`_
+* Video II: 9:44:  `Recommender Systems II <https://drive.google.com/file/d/0B1Of61fJF7WsRDc1azd6UkFlemM/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-11novid.pptx
 
-* Slides II (6 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSjZGaVRqbVJOdmc/view?usp=sharing>`_
-
-.. comment
-
-          Video 1: http://youtu.be/Aj5k0Sa7XGQ
-
-          Video 2: http://youtu.be/VHS7il5OdjM
+* Slides II (6 pages): `Recommender Systems II <https://drive.google.com/file/d/0B1Of61fJF7WsSjZGaVRqbVJOdmc/view?usp=sharing>`_
 
 
 
@@ -482,15 +451,11 @@ algorithms for dynamic personalized choice of material for web pages.
 
 .. i523/public/videos/introduction/motivation-012-12.mp4
 
-* Video: 12:05: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsektTWGJYVGFxcFk/view?usp=sharing>`_
+* Video: 12:05: `Web Search and Information Retrieval <https://drive.google.com/file/d/0B1Of61fJF7WsektTWGJYVGFxcFk/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-12novid.pptx
 
-* Slides (6 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseS1ZejJuVjhmWVE/view?usp=sharing>`_
-
-.. comment
-          
-          Video: http://youtu.be/i9gR9PdVXUU
+* Slides (6 pages): `Web Search and Information Retrieval <https://drive.google.com/file/d/0B1Of61fJF7WseS1ZejJuVjhmWVE/view?usp=sharing>`_
 
 
 Cloud Application in Research
@@ -502,15 +467,13 @@ the cloud use of the Internet of Things and gives examples.
 
 .. i523/public/videos/introduction/motivation-012-13.mp4
 
-* Video: 33:51: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsNlJVR2JOQk13Z2M/view?usp=sharing>`_
+* Video: 33:51: `Cloud Applications in Research <https://drive.google.com/file/d/0B1Of61fJF7WsNlJVR2JOQk13Z2M/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-13novid.pptx
 
-* Slides (20 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSlVxX2JoLUdQQTg/view?usp=sharing>`_
+* Slides (20 pages): `Cloud Applications in Research <https://drive.google.com/file/d/0B1Of61fJF7WsSlVxX2JoLUdQQTg/view?usp=sharing>`_
 
-.. comment
-          
-          Video: http://youtu.be/C19-5WQH2TU
+
 
 
 Parallel Computing and MapReduce
@@ -521,15 +484,13 @@ blending.
 
 .. i523/public/videos/introduction/motivation-012-14.mp4
 
-* Video: 14:02: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsWFUtdGJQTEd1TFk/view?usp=sharing>`_
+* Video: 14:02: `Computing and MapReduce <https://drive.google.com/file/d/0B1Of61fJF7WsWFUtdGJQTEd1TFk/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-14novid.pptx
 
-* Slides (9 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsdnZqWUVKRUJuR28/view?usp=sharing>`_
+* Slides (9 pages): `Computing and MapReduce <https://drive.google.com/file/d/0B1Of61fJF7WsdnZqWUVKRUJuR28/view?usp=sharing>`_
 
-.. comment
-          
-          Video: http://youtu.be/BbW1PFNnKrE
+
 
 
 Data Science Education
@@ -550,15 +511,13 @@ clouds; a pleasing symmetry.
 
 .. i523/public/videos/introduction/motivation-012-15.mp4
 
-* Video: 28:08: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsUGtTWjNUVHpWRXM/view?usp=sharing>`_
+* Video: 28:08: `Data Science Education <https://drive.google.com/file/d/0B1Of61fJF7WsUGtTWjNUVHpWRXM/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-15novid.pptx
 
-* Slides (19 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsNGVqUUE3WTZtSGM/view?usp=sharing>`_
+* Slides (19 pages): `Data Science Education <https://drive.google.com/file/d/0B1Of61fJF7WsNGVqUUE3WTZtSGM/view?usp=sharing>`_
 
-.. comment
 
-          Video: http://youtu.be/x2LuiX8DYLs
 
 
 
@@ -575,11 +534,11 @@ educated in data science"
 
 .. i523/public/videos/introduction/motivation-012-16.mp4
 
-* Video: 4:59: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsNVJKZVlHTENNQTA/view?usp=sharing>`_
+* Video: 4:59: `Conclusions <https://drive.google.com/file/d/0B1Of61fJF7WsNVJKZVlHTENNQTA/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-16novid.pptx
 
-* Slides (4 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsdHRuN2hMQnBmXzg/view?usp=sharing>`_
+* Slides (4 pages): `Conclusions <https://drive.google.com/file/d/0B1Of61fJF7WsdHRuN2hMQnBmXzg/view?usp=sharing>`_
 
 .. comment
 

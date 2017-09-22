@@ -32,7 +32,7 @@ can be used to sound the polar ice sheets and what we are doing with
 radar images to extract knowledge to be incorporated into numerical
 models.
 
-* Video: 3:31: https://youtu.be/LXOncC2AhsI
+* Video: 3:31: Radar INformatics: https://youtu.be/LXOncC2AhsI
 
 
 Remote Sensing
@@ -42,7 +42,7 @@ This lesson explains the basics of remote sensing, the characteristics
 of remote sensors and remote sensing applications. Emphasis is on
 image acquisition and data collection in the electromagnetic spectrum.
 
-* Video: 6:43: https://youtu.be/TTrm9rmZySQ
+* Video: 6:43: Remote Sensing : https://youtu.be/TTrm9rmZySQ
 
 
 Ice Sheet Science
@@ -53,7 +53,7 @@ This lesson provides a brief understanding on why melt water at the
 base of the ice sheet can be detrimental and why it’s important for
 sensors to sound the bedrock.
 
-* Video: 1:00: https://youtu.be/rDpjMLguVBc
+* Video: 1:00: Ice Sheet Science: https://youtu.be/rDpjMLguVBc
 
 
 Global Climate Change
@@ -63,7 +63,7 @@ This lesson provides an understanding and the processes for the
 greenhouse effect, how warming effects the Polar Regions, and the
 implications of a rise in sea level.
 
-* Video: 2:51: https://youtu.be/f9hzzJX0qDs
+* Video: 2:51: Global Climate Change: https://youtu.be/f9hzzJX0qDs
 
 
 
@@ -73,7 +73,7 @@ This lesson provides an elementary introduction to radar and its
 importance to remote sensing, especially to acquiring information
 about Greenland and Antarctica.
 
-* Video: 4:16: https://youtu.be/PuI7F-RMKCI
+* Video: 4:16: Radio Overview: https://youtu.be/PuI7F-RMKCI
 
 
 
@@ -85,4 +85,4 @@ algorithms, such as active contours and a hidden markov model to
 support data analysis for extracting layers, so ice sheet models can
 accurately forecast future changes in climate.
 
-* Video: 3:35 https://youtu.be/q3Pwyt49syE
+* Video: 3:35 Radio Informatics: https://youtu.be/q3Pwyt49syE
