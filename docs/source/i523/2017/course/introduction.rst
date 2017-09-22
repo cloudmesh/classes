@@ -143,7 +143,7 @@ Practice Track:
 
   .. todo:: Grace, Saber, The slides or videos are going to be updated 
 
-            Video: http://youtu.be/9NgG-AUOpYQ
+            Video: 17:02: http://youtu.be/9NgG-AUOpYQ
 
 
   Course Topics II
@@ -161,7 +161,7 @@ Practice Track:
 
   .. todo:: Grace, Saber, The slides or videos are going to be updated 
 
-            Video http://youtu.be/pxuyjeLQc54
+            Video 14:08: http://youtu.be/pxuyjeLQc54
 
   Course Topics III
   """""""""""""""""
@@ -180,7 +180,7 @@ Practice Track:
 
   .. todo:: The slides or videos are going to be updated 
 
-            Video: http://youtu.be/rT4thK_i5ig
+            Video: 14:24: http://youtu.be/rT4thK_i5ig
 
 Course Motivation
 ^^^^^^^^^^^^^^^^^
@@ -216,11 +216,11 @@ Education
 
 .. i523/public/videos/introduction/motivation-012-1.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsV2RvMlFzSDNPZEU/view?usp=sharing>`_ (Course Motivation and Emerging Technologies are combined)
+* Video: 40:14:  `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsV2RvMlFzSDNPZEU/view?usp=sharing>`_ (Course Motivation and Emerging Technologies are combined)
 
 .. i523/public/videos/introduction/motivation-012-1.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsT3BVRmU5bHFua1E/view?usp=sharing>`_
+* Slides (30 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsT3BVRmU5bHFua1E/view?usp=sharing>`_
          
 .. comment 2016 video reserved
 
@@ -248,11 +248,11 @@ Wealth and Wellness"
 
 .. i523/public/videos/introduction/motivation-012-2.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsV0hYWVB1eDJYdjA/view?usp=sharing>`_
+* Video: 30:38: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsV0hYWVB1eDJYdjA/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-2novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsRUtKYTJaT0FUWG8/view?usp=sharing>`_
+* Slides (20 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsRUtKYTJaT0FUWG8/view?usp=sharing>`_
          
 .. comment 2016 video reserved
 
@@ -269,11 +269,11 @@ advertise for new talent.
 
 .. i523/public/videos/introduction/motivation-012-3.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsZkp2VzRqbDJ1cXM/view?usp=sharing>`_
+* Video: 9:39: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsZkp2VzRqbDJ1cXM/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-3novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsZ2oyN0dGWmVQb0E/view?usp=sharing>`_
+* Slides (8 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsZ2oyN0dGWmVQb0E/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -290,27 +290,27 @@ social media, thriving Chinese internet companies.
 
 .. i523/public/videos/introduction/motivation-012-4a.mp4
 
-* Video A: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsa3BwTHg4bm1WaDg/view?usp=sharing>`_
+* Video A: 19:25: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsa3BwTHg4bm1WaDg/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4a-novid.pptx
 
-* Slides A: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsNXQwUXlOMmFtQTg/view?usp=sharing>`_
+* Slides A (16 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsNXQwUXlOMmFtQTg/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4b.mp4
 
-* Video B: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRzNUTzZNRUVIUk0/view?usp=sharing>`_
+* Video B: 16:54: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRzNUTzZNRUVIUk0/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4b-novid.pptx
 
-* Slides B: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsOTdiUUxMLTlscWs/view?usp=sharing>`_
+* Slides B (16 pages) : `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsOTdiUUxMLTlscWs/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4c.mp4
 
-* Video C: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRlZLb1RFUEVjeVU/view?usp=sharing>`_
+* Video C: 30:13: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRlZLb1RFUEVjeVU/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-4c-movid.pptx
 
-* Slides C: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsRDlINHpDXzQzSmM/view?usp=sharing>`_
+* Slides C (21 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsRDlINHpDXzQzSmM/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -326,11 +326,11 @@ Services.
 
 .. i523/public/videos/introduction/motivation-012-5.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsbm5CZ3FsM2IxVk0/view?usp=sharing>`_
+* Video: 32:54: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsbm5CZ3FsM2IxVk0/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-5novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsVWVaTEl0VGlUT1E/view?usp=sharing>`_
+* Slides (28 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsVWVaTEl0VGlUT1E/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -353,19 +353,19 @@ Service.
 
 .. i523/public/videos/introduction/motivation-012-6a.mp4
 
-* Video A: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
+* Video A: 24:03: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-6a-novid.pptx
 
-* Slides A: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
+* Slides A (14 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-6b.mp4
 
-* Video B: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsVURyQ1BIaTFKbTA/view?usp=sharing>`_
+* Video B: 28:18: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsVURyQ1BIaTFKbTA/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-6b-novid.pptx
 
-* Slides B: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsX0NRcXZhMkphOVk/view?usp=sharing>`_
+* Slides B (27 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsX0NRcXZhMkphOVk/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -383,11 +383,11 @@ focus on the new fourth data driven methodology.
 .. i523/public/videos/introduction/motivation-012-7.mp4
 
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsb2dkTUxCVkh1Slk/view?usp=sharing>`_
+* Video: 7:32: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsb2dkTUxCVkh1Slk/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-7novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseVNLNWdjVXY1bUE/view?usp=sharing>`_
+* Slides (4 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseVNLNWdjVXY1bUE/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -404,11 +404,11 @@ and emerging as new information to input into other transformations.
 
 .. i523/public/videos/introduction/motivation-012-8.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsOHZ2bWo4Vk1WakE/view?usp=sharing>`_
+* Video: 15:42: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsOHZ2bWo4Vk1WakE/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-8novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseVZmTWxrdkZId2M/view?usp=sharing>`_
+* Slides (10 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseVZmTWxrdkZId2M/view?usp=sharing>`_
 
 .. comment 2016 video reserved
 
@@ -426,11 +426,11 @@ incredible size of author lists on papers.
 
 .. i523/public/videos/introduction/motivation-012-9.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsbHVvZi1MRzNCbjg/view?usp=sharing>`_
+* Video: 13:27: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsbHVvZi1MRzNCbjg/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-9novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsXzdVbWlqNG91b2M/view?usp=sharing>`_
+* Slides (6 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsXzdVbWlqNG91b2M/view?usp=sharing>`_
 
 .. comment
 
@@ -450,19 +450,19 @@ properties.
 
 .. i523/public/videos/introduction/motivation-012-10.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsc0dmQXN0alFJQW8/view?usp=sharing>`_
+* Video: 12:21: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7Wsc0dmQXN0alFJQW8/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-10novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSnhOVXhoUmR0YlE/view?usp=sharing>`_
+* Slides (9 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSnhOVXhoUmR0YlE/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-11.mp4
 
-* Video II: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRDc1azd6UkFlemM/view?usp=sharing>`_
+* Video II: 9:44:  `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsRDc1azd6UkFlemM/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-11novid.pptx
 
-* Slides II: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSjZGaVRqbVJOdmc/view?usp=sharing>`_
+* Slides II (6 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSjZGaVRqbVJOdmc/view?usp=sharing>`_
 
 .. comment
 
@@ -482,11 +482,11 @@ algorithms for dynamic personalized choice of material for web pages.
 
 .. i523/public/videos/introduction/motivation-012-12.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsektTWGJYVGFxcFk/view?usp=sharing>`_
+* Video: 12:05: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsektTWGJYVGFxcFk/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-12novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseS1ZejJuVjhmWVE/view?usp=sharing>`_
+* Slides (6 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseS1ZejJuVjhmWVE/view?usp=sharing>`_
 
 .. comment
           
@@ -502,11 +502,11 @@ the cloud use of the Internet of Things and gives examples.
 
 .. i523/public/videos/introduction/motivation-012-13.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsNlJVR2JOQk13Z2M/view?usp=sharing>`_
+* Video: 33:51: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsNlJVR2JOQk13Z2M/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-13novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSlVxX2JoLUdQQTg/view?usp=sharing>`_
+* Slides (20 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsSlVxX2JoLUdQQTg/view?usp=sharing>`_
 
 .. comment
           
@@ -521,11 +521,11 @@ blending.
 
 .. i523/public/videos/introduction/motivation-012-14.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsWFUtdGJQTEd1TFk/view?usp=sharing>`_
+* Video: 14:02: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsWFUtdGJQTEd1TFk/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-14novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsdnZqWUVKRUJuR28/view?usp=sharing>`_
+* Slides (9 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsdnZqWUVKRUJuR28/view?usp=sharing>`_
 
 .. comment
           
@@ -550,11 +550,11 @@ clouds; a pleasing symmetry.
 
 .. i523/public/videos/introduction/motivation-012-15.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsUGtTWjNUVHpWRXM/view?usp=sharing>`_
+* Video: 28:08: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsUGtTWjNUVHpWRXM/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-15novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsNGVqUUE3WTZtSGM/view?usp=sharing>`_
+* Slides (19 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsNGVqUUE3WTZtSGM/view?usp=sharing>`_
 
 .. comment
 
@@ -575,11 +575,11 @@ educated in data science"
 
 .. i523/public/videos/introduction/motivation-012-16.mp4
 
-* Video: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsNVJKZVlHTENNQTA/view?usp=sharing>`_
+* Video: 4:59: `MP4 <https://drive.google.com/file/d/0B1Of61fJF7WsNVJKZVlHTENNQTA/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-16novid.pptx
 
-* Slides: `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsdHRuN2hMQnBmXzg/view?usp=sharing>`_
+* Slides (4 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsdHRuN2hMQnBmXzg/view?usp=sharing>`_
 
 .. comment
 
