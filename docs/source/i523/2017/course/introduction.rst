@@ -188,9 +188,6 @@ broad discussion of cloud applications. Parallel computing in general
 and particular features of MapReduce are described. He comments on a
 data science education and the benefits of using MOOC's.
 
-.. comment 2016 video reserved
-          
-          Slides: https://iu.box.com/s/muldo1qkcdlpdeiog3zo
 
 
 Emerging Technologies
@@ -203,17 +200,14 @@ economic imperative, computing model, research model, Opportunities in
 advancing computing, Opportunities in X-Informatics, Data Science
 Education
 
-.. i523/public/videos/introduction/motivation-012-1.mp4
+
 
 * Video: 40:14:  `Motivation <https://drive.google.com/file/d/0B1Of61fJF7WsV2RvMlFzSDNPZEU/view?usp=sharing>`_ (Course Motivation and Emerging Technologies are combined)
 
-.. i523/public/videos/introduction/motivation-012-1.pptx
+
 
 * Slides (30 pages): ` Motivation <https://drive.google.com/file/d/0B1Of61fJF7WsT3BVRmU5bHFua1E/view?usp=sharing>`_
          
-.. comment 2016 video reserved
-
-          Video: http://youtu.be/kyJxstTivoI
 
 
 Data Deluge
@@ -235,17 +229,15 @@ Pathology, Policy, Radar, Security, Sensor, Social, Sustainability,
 Wealth and Wellness"
 
 
-.. i523/public/videos/introduction/motivation-012-2.mp4
+
 
 * Video: 30:38: `Data Deluge <https://drive.google.com/file/d/0B1Of61fJF7WsV0hYWVB1eDJYdjA/view?usp=sharing>`_
 
-.. i523/public/videos/introduction/motivation-012-2novid.pptx
+
 
 * Slides (20 pages): `Data Deluge <https://drive.google.com/file/d/0B1Of61fJF7WsRUtKYTJaT0FUWG8/view?usp=sharing>`_
          
-.. comment 2016 video reserved
 
-          Video: 26:06 : Data Deluge: http://youtu.be/sVNV0NxlQ6A
 
 
 
@@ -256,11 +248,10 @@ Jobs abound in clouds and data science. There are documented shortages
 in data science, computer science and the major tech companies
 advertise for new talent.
 
-.. i523/public/videos/introduction/motivation-012-3.mp4
+
 
 * Video: 9:39: `JOBS: <https://drive.google.com/file/d/0B1Of61fJF7WsZkp2VzRqbDJ1cXM/view?usp=sharing>`_
 
-.. i523/public/videos/introduction/motivation-012-3novid.pptx
 
 * Slides (8 pages): `JOBS: <https://drive.google.com/file/d/0B1Of61fJF7WsZ2oyN0dGWmVQb0E/view?usp=sharing>`_
 
@@ -298,9 +289,6 @@ social media, thriving Chinese internet companies.
 
 * Slides C (21 pages): `Industrial Trends III <https://drive.google.com/file/d/0B1Of61fJF7WsRDlINHpDXzQzSmM/view?usp=sharing>`_
 
-.. comment 2016 video reserved
-
-         Video: http://youtu.be/EIRIPDYN5nM
 
 Digital Disruption of Old Favorites
 """""""""""""""""""""""""""""""""""

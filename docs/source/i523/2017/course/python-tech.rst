@@ -65,7 +65,7 @@ structure of Plotviz interface. The next two slides explain the core
 3D and 2D manipulations respectively. Note all files used in examples
 are available to students.
 
-Video: 7:58: http://youtu.be/4aQlCmQ1jfY
+Video: 7:58: Motivation: http://youtu.be/4aQlCmQ1jfY
 
 
 
@@ -78,7 +78,7 @@ size/color/labels and Legend of points. The second example shows a
 dataset (coming from GTM dimension reduction) with significant
 structure. This has .pviz and a .txt versions that are compared.
 
-Video: 9:45: http://youtu.be/nCTT5mI_j_Q
+Video: 9:45: Example I: http://youtu.be/nCTT5mI_j_Q
 
 
 Example of Use II: Proteomics and Synchronized Rotation
@@ -91,7 +91,7 @@ compare two datasets with synchronized rotation of a dataset clustered
 in 2 different ways; this dataset comes from k Nearest Neighbor
 discussion.
 
-Video: 9:14: http://youtu.be/lDbIhnLrNkk
+Video: 9:14: Proteomics and Synchronized Rotation: http://youtu.be/lDbIhnLrNkk
 
 
 
@@ -102,7 +102,7 @@ This starts by describing use of Labels and Glyphs and the Default
 mode in Plotviz. Then we illustrate sophisticated use of these ideas
 to view a large Proteomics dataset.
 
-Video: 8:37: http://youtu.be/KBkUW_QNSvs
+Video: 8:37: Larger Proteomics Sample: http://youtu.be/KBkUW_QNSvs
 
 
 Example of Use IV: Tools and Examples
@@ -112,7 +112,7 @@ This lesson starts by describing the Plotviz tools and then sets up
 two examples -- Oil Flow and Trading -- described in PowerPoint. It
 finishes with the Plotviz viewing of Oil Flow data.
 
-Video: 10:17: `<http://youtu.be/zp_709imR40>`
+Video: 10:17: Plotviz I: http://youtu.be/zp_709imR40
 
 
 Example of Use V: Final Examples
@@ -124,7 +124,7 @@ large biology examples with 446K and 100K points and each with over
 100 clusters. We finish remarks on Plotviz software structure and how
 to download. We also remind you that a picture is worth a 1000 words.
 
-Video: 14:58: `<http://youtu.be/FKoCfTJ_cDM>`
+Video: 14:58: Plotviz II http://youtu.be/FKoCfTJ_cDM
 
 
 
