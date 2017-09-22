@@ -80,7 +80,7 @@ items can be other people, products in a store, movies, jobs, events,
 web pages etc. We present this as "yet another optimization problem".
 
           
-* Video: 8:06: https://drive.google.com/file/d/0B1Of61fJF7WsT2FYVk50YUZQRlE/view?usp=sharing
+* Video: 8:06: Recommender Systems I: https://drive.google.com/file/d/0B1Of61fJF7WsT2FYVk50YUZQRlE/view?usp=sharing
 
 
 Recommender Systems Introduction
@@ -94,7 +94,7 @@ contrast recommender systems based on user profile and context; the
 most familiar collaborative filtering of others ranking; item
 properties; knowledge and hybrid cases mixing some or all of these.
 
-* Video: 12:56: https://youtu.be/KbjBKrzFYKg
+* Video: 12:56: Recommender Systems Introduction: https://youtu.be/KbjBKrzFYKg
 
 
 Kaggle Competitions
@@ -103,7 +103,7 @@ Kaggle Competitions
 We look at Kaggle competitions with examples from web site. In
 particular we discuss an Irvine class project involving ranking jokes.
 
-* Video: 3:36: https://youtu.be/DFH7GPrbsJA
+* Video: 3:36: Kaggle Competitions: https://youtu.be/DFH7GPrbsJA
 
 
 
@@ -114,7 +114,7 @@ Examples of Recommender Systems
 We go through a list of 9 recommender systems from the same Irvine
 class.
 
-* Video: 1:00: https://youtu.be/1Eh1epQj-EQ
+* Video: 1:00: Examples of Recommender Systems: https://youtu.be/1Eh1epQj-EQ
 
 
 Netflix on Recommender Systems
@@ -134,7 +134,7 @@ Netflix Kaggle competition to improve its rating system. The analogy
 to maximizing click through rate is given and the objectives of
 optimization are given.
  
-* Video : 14:20: https://drive.google.com/file/d/0B1Of61fJF7WsSldPN0FCcGNmY1k/view?usp=sharing
+* Video : 14:20: Netflix on Recommender Systems: https://drive.google.com/file/d/0B1Of61fJF7WsSldPN0FCcGNmY1k/view?usp=sharing
 
 
 
@@ -154,7 +154,7 @@ household.
  
           
 
-* Video: 13:04: https://youtu.be/B8cjaOQ57LI
+* Video: 13:04: Consumer Data Science: https://youtu.be/B8cjaOQ57LI
 
 
 
@@ -201,7 +201,7 @@ what they are with brief examples.
 
           
 
-* Video: 5:48: https://drive.google.com/file/d/0B1Of61fJF7WsWFJ2V0FGaExmX0k/view?usp=sharing
+* Video: 5:48: Recap and Examples of Recommender Systems: https://drive.google.com/file/d/0B1Of61fJF7WsWFJ2V0FGaExmX0k/view?usp=sharing
 
 
 
@@ -212,7 +212,7 @@ Examples of Recommender Systems
 We give 2 examples in more detail: namely Google News and Markdown in
 Retail.
 
-* Video: 8:34: https://youtu.be/og07mH9fU0M
+* Video: 8:34: Examples of Recommender Systems: https://youtu.be/og07mH9fU0M
 
 
 Recommender Systems in Yahoo Use Case Example
@@ -231,9 +231,9 @@ stress that if though we have big data, the recommender data is
 sparse. We discuss the approach that involves both batch (offline) and
 on-line (real time) components.
 
-* Video 1: 8:46: https://youtu.be/FBn7HpGFNvg
-* Video 2: 10:48: https://youtu.be/VS2Y4lAiP5A
-* Video 3: 3:21: https://youtu.be/HrRJWEF8EfU
+* Video 1: 8:46: Recap of Recommender Systems II: https://youtu.be/FBn7HpGFNvg
+* Video 2: 10:48: Recap of Recommender Systems III: https://youtu.be/VS2Y4lAiP5A
+* Video 3: 3:21: Case Study of Recommender systems: https://youtu.be/HrRJWEF8EfU
 
 
 
@@ -248,8 +248,8 @@ rankings allow one to predict their interests, and typically this
 quantified by the Pearson correlation, used to statistically quantify
 correlations between users.
 
-* Video 1: 7:20: https://youtu.be/lsf_AE-8dSk
-* Video 2: 7:29:  https://youtu.be/U7-qeX2ItPk
+* Video 1: 7:20: User-based nearest-neighbor collaborative filtering I: https://youtu.be/lsf_AE-8dSk
+* Video 2: 7:29: User-based nearest-neighbor collaborative filtering II: https://youtu.be/U7-qeX2ItPk
 
 Vector Space Formulation of Recommender Systems
 """""""""""""""""""""""""""""""""""""""""""""""
@@ -258,7 +258,7 @@ We go through recommender systems thinking of them as formulated in a
 funny vector space. This suggests using clustering to make
 recommendations.
         
-* Video: 9:06: https://youtu.be/IlQUZOXlaSU
+* Video: 9:06: Vector Space Formulation of Recommender Systems new: https://youtu.be/IlQUZOXlaSU
 
 
 Resources
@@ -292,8 +292,8 @@ Likert ranking scales and issues with new items that do not have a
 significant number of rankings.
        
 
-* Video 1: 11:18: https://drive.google.com/file/d/0B1Of61fJF7Wsa0JORU5kSTZCTXM/view?usp=sharing
-* Video 2: 7:16: https://youtu.be/SM8EJdAa4mw
+* Video 1: 11:18: Item Based Filtering: https://drive.google.com/file/d/0B1Of61fJF7Wsa0JORU5kSTZCTXM/view?usp=sharing
+* Video 2: 7:16: k Nearest Neighbors and High Dimensional Spaces: https://youtu.be/SM8EJdAa4mw
 
 
 k Nearest Neighbors and High Dimensional Spaces
@@ -305,4 +305,4 @@ describe performance issues. This algorithm illustrates the curse of
 dimensionality. If items were a real vectors in a low dimension space,
 there would be faster solution methods.
 
-* Video: 10:03: https://youtu.be/2NqUsDGQDy8
+* Video: 10:03: k Nearest Neighbors and High Dimensional Spaces: https://youtu.be/2NqUsDGQDy8
