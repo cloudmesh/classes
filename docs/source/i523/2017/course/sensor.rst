@@ -18,8 +18,8 @@ the smart electric grid.
 .. i523/public/videos/sensors/lecture-36-lessons-2-4.pptx
 .. i523/public/videos/sensors/lecture-36-lessons-1-5-6-7-8.pptx
    
-* Slides (31 pages): `PPT1 <https://drive.google.com/file/d/0B1Of61fJF7WsSnRPaUdJQzVmejA/view?usp=sharing>`_
-* Slides (44 pages): `PPT2 <https://drive.google.com/file/d/0B1Of61fJF7WsdVFOdHpWdzdSYmc/view?usp=sharing>`_
+* Slides (31 slides): `PPT1 <https://drive.google.com/file/d/0B1Of61fJF7WsSnRPaUdJQzVmejA/view?usp=sharing>`_
+* Slides (44 slides): `PPT2 <https://drive.google.com/file/d/0B1Of61fJF7WsdVFOdHpWdzdSYmc/view?usp=sharing>`_
 
 
 Internet of Things
@@ -55,7 +55,11 @@ We summarize surveys and expectations Industry wide.
 
 
 
+<<<<<<< HEAD
 * Video 1:24:02: Industrial Internet of Things: https://drive.google.com/file/d/0B1Of61fJF7WsRlFneWpGYVhaaW8/view?usp=sharing
+=======
+* Video 1:24:02: Internet of Things I: https://drive.google.com/file/d/0B1Of61fJF7WsRlFneWpGYVhaaW8/view?usp=sharing
+>>>>>>> 2278d21c891f73ce0cf0ec628e524f507280c76b
 
 
 
@@ -106,7 +110,11 @@ everywhere. The example of a 'High-Tech Utopia' New Songdo is given.
 
 
 
+<<<<<<< HEAD
 * Video: 2:49: U-Korea:  https://drive.google.com/file/d/0B1Of61fJF7WsTGVGZksyS1NUNXM/view?usp=sharing
+=======
+* Video: 2:49: U-Korea (U=Ubiquitous): https://drive.google.com/file/d/0B1Of61fJF7WsTGVGZksyS1NUNXM/view?usp=sharing
+>>>>>>> 2278d21c891f73ce0cf0ec628e524f507280c76b
 
 
 Smart Grid
