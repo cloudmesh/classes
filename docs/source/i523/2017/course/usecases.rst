@@ -227,7 +227,7 @@ Big Data Business Continuity & Disaster Recovery (BC/DR) Within A
 Cloud Eco-System; Cargo Shipping; Materials Data for Manufacturing and
 Simulation driven Materials Genomics.
 
-* Video: 17:43: Commercial Use Cases: https://drive.google.com/file/d/0B5plU-u0wqModmVBU1NvU3VxbDg/view?usp=sharing
+* Video: 17:43: Commercial Use Cases: https://drive.google.com/file/d/0B5plU-u0wqMoX2tFWUFCSVZ4NFE/view
 
 
 Defense Use Cases
