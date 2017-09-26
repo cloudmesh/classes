@@ -358,15 +358,4 @@ multiple channels and multiple experiments to be accumulated.
 
 Resources
 """""""""
-
-* https://en.wikipedia.org/wiki/Pseudorandom_number_generator
-* https://en.wikipedia.org/wiki/Mersenne_Twister
-* https://en.wikipedia.org/wiki/Mersenne_prime
-* CMS-PAS-HIG-12-041 Updated results on the new boson discovered in
-  the search for the standard model Higgs boson in the ZZ to 4 leptons
-  channel in pp collisions at sqrt(s) = 7 and 8 TeV
-  http://cds.cern.ch/record/1494488?ln=en
-* https://en.wikipedia.org/wiki/Poisson_distribution
-* https://en.wikipedia.org/wiki/Central_limit_theorem
-* http://jwork.org/scavis/api/
-* https://en.wikipedia.org/wiki/DataMelt
+..bibliography:: physics-references.bib
