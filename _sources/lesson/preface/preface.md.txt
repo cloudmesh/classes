@@ -41,3 +41,8 @@ Menu selections
 Man page:
 
 > ls(1)
+
+Note:
+    .. note:: This is a note
+
+test
