@@ -46,7 +46,8 @@ need to be large enough to stand out from background in a
 statistically significant fashion.
 
 
-* Video: 13:49: Discovery of Higgs Particle: https://drive.google.com/file/d/0B5plU-u0wqMoTDdKYUxPRHFFV3M/view?usp=sharing
+* Video: 13:49: Discovery of Higgs Particle: https://www.youtube.com/watch?v=iaypHlgFyuU
+
 
 
 We give a few details on one LHC experiment ATLAS. Experimental
@@ -127,7 +128,7 @@ We discuss how this unit uses Java and Python on both a backend server
 data analysis. This builds on technology training in Section 3.
 
 
-* Video: 9:30: Higgs Particle Events and Counting: https://drive.google.com/file/d/0B1Of61fJF7WsMm12eG5HQVNHUms/view?usp=sharing
+* Video: 9:30: Higgs Particle Events and Counting: https://www.youtube.com/watch?v=L8j2qB4lSZ0
    
 
 This video contains Java information, but we are no longer using Java in this class.
@@ -204,8 +205,7 @@ Statistics Overview and Fundamental Idea: Random Variables
 We go through the many different areas of statistics covered in the
 Physics unit. We define the statistics concept of a random variable.
 
-* Video: 8:19: Random variables and normal distributions: https://drive.google.com/file/d/0B1Of61fJF7WsV0VxQldFQzFuUTQ/view?usp=sharing
-
+* Video: 8:19: Random variables and normal distributions: https://www.youtube.com/watch?v=_sLGyt4qWWk
 
 Physics and Random Variables
 """"""""""""""""""""""""""""
@@ -290,7 +290,7 @@ computer giving Python examples. We define the seed used to define to
 specify how to start generation.
 
 
-* Video: 6:28: Higgs Particle Counting Errors: https://drive.google.com/file/d/0B1Of61fJF7WsTEM0em1YYW83RnM/view?usp=sharing
+* Video: 6:28: Higgs Particle Counting Errors: https://www.youtube.com/watch?v=de4AQ9AFt54
 * Video: 7:10: Generators and Seeds II: http://youtu.be/9QY5qkQj2Ag
 
 

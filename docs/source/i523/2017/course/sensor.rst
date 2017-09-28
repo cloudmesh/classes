@@ -45,7 +45,8 @@ Examples of Robots and Drones.
 
 
 
-* Video 8:05: Robotics and IOT Expectations: https://drive.google.com/file/d/0B1Of61fJF7WsMjFWdHRPVHZvbzA/view?usp=sharing
+* Video 8:05: Robotics and IOT Expectations: https://www.youtube.com/watch?v=ABP0Yygw2Zg
+
 
 
 Industrial Internet of Things
@@ -55,7 +56,8 @@ We summarize surveys and expectations Industry wide.
 
 
 
-* Video 1:24:02: Industrial Internet of Things: https://drive.google.com/file/d/0B1Of61fJF7WsRlFneWpGYVhaaW8/view?usp=sharing
+* Video 1:24:02: Industrial Internet of Things: https://www.youtube.com/watch?v=kxKzBfd62Og
+
 
 
 Sensor Clouds

@@ -198,7 +198,7 @@ known chisq method and some aspects of nonlinear minimization of chisq
 (Least Squares) are discussed.
 
 
-* Video A: 6:56: Genomics, Proteomics and Information Visualization: https://drive.google.com/file/d/0B5plU-u0wqMoVzduODM0Z2dFYWM/view?usp=sharing
+* Video A: 6:56: Genomics, Proteomics and Information Visualization: https://www.youtube.com/watch?v=zGzBtxq1ZRE
 
 
 Next we continue the discussion of the COG Protein Universe
