@@ -74,7 +74,7 @@ of pages with particular number of URL's linking out or in to page.
 
 
           
-* Video: 9:56: TextMining Part: https://drive.google.com/file/d/0B1Of61fJF7WscTdYUUVHNW9uRUU/view?usp=sharing
+* Video: 9:56: TextMining Part: https://www.youtube.com/watch?v=RFBeAWBkUsI
 
 
 
@@ -220,7 +220,7 @@ support advertising and ways to allow or stop pages artificially
 enhancing relevance.
 
           
-* Video: 6:11: Web Search and Text Mining II: https://drive.google.com/file/d/0B1Of61fJF7WsNEJxbWVRQ2lnc1U/view?usp=sharing
+* Video: 6:11: Web Search and Text Mining II: https://www.youtube.com/watch?v=kHEFxhWwhx0
 
 
 Link Structure Analysis including PageRank
@@ -236,10 +236,8 @@ lesson.
 
 
 
-* Video: 17:24: Realated Applications: https://drive.google.com/file/d/0B1Of61fJF7WseFFsUk9ZNXRURGM/view?usp=sharing
+* Video: 17:24: Realated Applications: https://www.youtube.com/watch?v=ApDu-7_1LYk
           
-
-
 
 Web Advertising and Search
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -251,8 +249,7 @@ different models: Cost per viewing, cost per clicking and cost per
 action. This leads to emerging field of computational advertising.
 
           
-* Video: 9:02: Web Advertising and Search: https://drive.google.com/file/d/0B1Of61fJF7WsbjZMNDlvemNZNUk/view?usp=sharing
-
+* Video: 9:02: Web Advertising and Search: https://www.youtube.com/watch?v=375sY1YMk5U
 
 
 Clustering and Topic Models
