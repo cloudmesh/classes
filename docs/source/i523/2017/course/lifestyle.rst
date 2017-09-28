@@ -80,7 +80,8 @@ items can be other people, products in a store, movies, jobs, events,
 web pages etc. We present this as "yet another optimization problem".
 
           
-* Video: 8:06: Recommender Systems I: https://drive.google.com/file/d/0B1Of61fJF7WsT2FYVk50YUZQRlE/view?usp=sharing
+* Video: 8:06: Recommender Systems I: https://www.youtube.com/watch?v=kO023BIW2dw
+
 
 
 Recommender Systems Introduction
@@ -201,7 +202,7 @@ what they are with brief examples.
 
           
 
-* Video: 5:48: Recap and Examples of Recommender Systems: https://drive.google.com/file/d/0B1Of61fJF7WsWFJ2V0FGaExmX0k/view?usp=sharing
+* Video: 5:48: Recap and Examples of Recommender Systems: https://www.youtube.com/watch?v=PwS8UE4TDS4
 
 
 
