@@ -59,7 +59,7 @@ given in radiology, genomics, personalized medicine, and the
 Quantified Self movement, with sizes and access to European
 Bioinformatics Institute.
 
-Video: 10:02 : Big Data and Health: https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
+Video: 10:02 : Big Data and Health: https://www.youtube.com/watch?v=ZkM-yZJQ1Cg
 
 
 
@@ -71,7 +71,7 @@ genomes and an aging population. Social media and government Brain
 initiative.
 
 
-Video: 16:09 : Status of Healthcare Today: https://drive.google.com/file/d/0B5plU-u0wqMoOEYxVzQxQWtpZXM/view?usp=sharing
+Video: 16:09 : Status of Healthcare Today: https://www.youtube.com/watch?v=x9TpdMBqYrk
 
 
 Telemedicine (Virtual Health)
@@ -81,7 +81,7 @@ This describes increasing use of telemedicine and how we tried and
 failed to do this in 1994.
 
 
-Video: 8:21: Telemedicine: https://drive.google.com/file/d/0B5plU-u0wqMoVWxfeHVaWWR4c0E/view?usp=sharing
+Video: 8:21: Telemedicine: https://www.youtube.com/watch?v=Pe4CVXQaL_U
 
 
 Big Data and Healthcare Industry
@@ -90,7 +90,7 @@ Big Data and Healthcare Industry
 Summary of an industry survey by GE and Accenture.
 
 
-Video: 10:02: Big Data and Healthcare Indusry: https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
+Video: 10:02: Big Data and Healthcare Indusry: https://www.youtube.com/watch?v=64YOUnRJVZU
 
 
 Medical Big Data in the Clouds
@@ -99,13 +99,13 @@ Medical Big Data in the Clouds
 An impressive exemplar Cloud-based medicine system from Potsdam.
 
 
-Video: 15:02: Medical Big Data in the Clouds https://drive.google.com/file/d/0B5plU-u0wqMoSXk3cFd0Z0Yyems/view?usp=sharing
+Video: 15:02: Medical Big Data in the Clouds https://www.youtube.com/watch?v=GldSVijkJcM
 
 
 Medical image Big Data
 """"""""""""""""""""""
 
-Video: 6:33: Midical Image Big Data: https://drive.google.com/file/d/0B5plU-u0wqMoT1JsYnJXRFFpdWM/view?usp=sharing
+Video: 6:33: Midical Image Big Data: https://www.youtube.com/watch?v=GOcVtwx2R2k
 
 
 Clouds and Health
@@ -134,7 +134,7 @@ big data capabilities.
 
 
           
-* Video: 14:53: McKinsey Report: https://drive.google.com/file/d/0B5plU-u0wqMobEJ2RHVXemJCMTQ/view?usp=sharing
+* Video: 14:53: McKinsey Report: https://www.youtube.com/watch?v=fu-TWnIk980
 
 
 Microsoft Report on Big Data in Health
@@ -169,7 +169,7 @@ Medicine and the Internet of Things
 The Internet of Things will have great impact on health including
 telemedicine and wearables. Examples are given.
 
-* Video: 8:17: Medicine and the Internet of Things: https://drive.google.com/file/d/0B5plU-u0wqModHA4Y2FYTXNYOWc/view?usp=sharing
+* Video: 8:17: Medicine and the Internet of Things: https://www.youtube.com/watch?v=Jk3EeFzZnuU
 
 
 
@@ -179,7 +179,7 @@ Extrapolating to 2032
 A study looks at 4 scenarios for healthcare in 2032. Two are positive,
 one middle of the road and one negative.
 
-* Video: 15:13: Extrapolating to 2032: https://drive.google.com/file/d/0B5plU-u0wqMoLTJqNUVLT3RqTkU/view?usp=sharing
+* Video: 15:13: Extrapolating to 2032: https://www.youtube.com/watch?v=a5G4HACeokg
 
 
 Genomics, Proteomics and Information Visualization

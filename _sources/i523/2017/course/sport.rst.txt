@@ -41,7 +41,8 @@ Oakland Athletics, Diamond Dollars economic model of baseball,
 Performance - Dollar relationship, Value of a Win.
 
 
-* Video: 31min 4sec: Introduction and Sabermetrics (Baseball Informatics) Lesson: https://drive.google.com/file/d/0B8936_ytjfjmTHFfcTBJOGpTajg/view
+* Video: 31min 4sec: Introduction and Sabermetrics (Baseball Informatics) Lesson: https://www.youtube.com/watch?v=Dd4zV__G5Q8
+
 
 
 Basic Sabermetrics
@@ -52,7 +53,7 @@ Details of some statistics based on basic data, OPS, wOBA, ERA, ERC,
 FIP, UZR.
 
 
-* Video: 26min 53sec: Basic Sabermetrics: https://drive.google.com/file/d/0B8936_ytjfjmcDVETmktOGdWcHM/view
+* Video: 26min 53sec: Basic Sabermetrics: https://www.youtube.com/watch?v=L0X-RQJZKrs
 
 
 Wins Above Replacement
@@ -63,7 +64,7 @@ Comparisons of different methods, Coefficient of Determination,
 Another, Sabermetrics Example, Summary of Sabermetrics.
 
 
-* Video: 30min 43sec: Wins Above Replacement: https://drive.google.com/file/d/0B8936_ytjfjmT0hwbEFRcmZXZWs/view
+* Video: 30min 43sec: Wins Above Replacement: https://www.youtube.com/watch?v=D6PHqPor4LA
 
 
 Resources
@@ -111,7 +112,7 @@ A Big Data Pitcher Clustering method introduced by Vince Gennaro, Data
 from Blog and video at 2013 SABR conference.
 
 
-* Video: 20min 59sec: Pitching Clustering: https://drive.google.com/file/d/0B8936_ytjfjmNlpENlRLVGJGMDA/view
+* Video: 20min 59sec: Pitching Clustering: https://www.youtube.com/watch?v=rZ9-b54aEvw
 
 Pitcher Quality
 """""""""""""""
@@ -120,7 +121,8 @@ Results of optimizing match ups, Data from video at 2013 SABR
 conference.
 
 
-* Video: 10min 2sec: Pitcher Quality: https://drive.google.com/file/d/0B8936_ytjfjmVXpIM0MyRW9jcnM/view
+* Video: 10min 2sec: Pitcher Quality: https://www.youtube.com/watch?v=OkkUaySvXOY
+
 
 
 PITCHf/X
@@ -129,7 +131,7 @@ PITCHf/X
 Examples of use of PITCHf/X.
 
 
-* Video: 10min 39sec: PITCHf/X: https://drive.google.com/file/d/0B8936_ytjfjmWXU3Y3c1eThTbGs/view
+* Video: 10min 39sec: PITCHf/X: https://www.youtube.com/watch?v=m7IXhsHgQmE
 
 Other Video Data Gathering in Baseball
 """"""""""""""""""""""""""""""""""""""
@@ -138,7 +140,7 @@ FIELDf/X, MLBAM, HITf/X, COMMANDf/X.
 
 
 
-* Video: 18min 5sec: Other Video Data Gathering in Baseball: https://drive.google.com/file/d/0B8936_ytjfjmSF83dWhNUkFEZ2s/view
+* Video: 18min 5sec: Other Video Data Gathering in Baseball: https://www.youtube.com/watch?v=nKZiOOGccms
 
 
 Resources
@@ -176,7 +178,7 @@ Consumer Sports, Stake Holders, and Multiple Factors.
 
 
 
-* Video: 22min 2sec: Wearables: https://drive.google.com/file/d/0B8936_ytjfjmRk1jU2tMeG11Zk0/view
+* Video: 22min 2sec: Wearables: https://www.youtube.com/watch?v=F_cPq6xIXw0
 
 
 Soccer and the Olympics
@@ -185,7 +187,7 @@ Soccer and the Olympics
 Soccer, Tracking Players and Balls, Olympics.
 
 
-* Video: 8min 28sec: Soccer and the Olympics: https://drive.google.com/file/d/0B8936_ytjfjmNERNd3BLbnJIREE/view
+* Video: 8min 28sec: Soccer and the Olympics: https://www.youtube.com/watch?v=AiZneaLJMTs
 
 
 Spatial Visualization in NFL and NBA
@@ -194,7 +196,7 @@ Spatial Visualization in NFL and NBA
 NFL, NBA, and Spatial Visualization.
 
 
-* Video: 15min 19sec: Spatial Visualization in NFL and NBA: https://drive.google.com/file/d/0B8936_ytjfjmLUV3M1RydTdNTkU/view
+* Video: 15min 19sec: Spatial Visualization in NFL and NBA: https://www.youtube.com/watch?v=Uorh3RJLC1s
 
 
 Tennis and Horse Racing
@@ -203,7 +205,7 @@ Tennis and Horse Racing
 Tennis, Horse Racing, and Continued Emphasis on Spatial Visualization.
 
 
-* Video: 8min 52sec: Tennis and Horse Racing: https://drive.google.com/file/d/0B8936_ytjfjmeHc4QnZRQnpXMms/view
+* Video: 8min 52sec: Tennis and Horse Racing: https://www.youtube.com/watch?v=2P-pismFSrI
 
 
 

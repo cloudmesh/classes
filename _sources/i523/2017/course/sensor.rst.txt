@@ -35,7 +35,7 @@ systems. The lesson gives many examples of distributed sensors, which
 form a Grid that is controlled by a cloud.
 
 
-* Video: 12:36: Internet of Things: https://drive.google.com/file/d/0B1Of61fJF7WsZkpSQUd3MWp3UG8/view?usp=sharing
+* Video: 12:36: Internet of Things: https://www.youtube.com/watch?v=0O0-mz-CWtQ
 
 
 Robotics and IOT Expectations
@@ -55,13 +55,7 @@ We summarize surveys and expectations Industry wide.
 
 
 
-<<<<<<< HEAD
 * Video 1:24:02: Industrial Internet of Things: https://drive.google.com/file/d/0B1Of61fJF7WsRlFneWpGYVhaaW8/view?usp=sharing
-=======
-* Video 1:24:02: Internet of Things I: https://drive.google.com/file/d/0B1Of61fJF7WsRlFneWpGYVhaaW8/view?usp=sharing
->>>>>>> 2278d21c891f73ce0cf0ec628e524f507280c76b
-
-
 
 
 Sensor Clouds
@@ -109,13 +103,7 @@ computing, everywhere, anytime i.e. by spreading sensors
 everywhere. The example of a 'High-Tech Utopia' New Songdo is given.
 
 
-
-<<<<<<< HEAD
-* Video: 2:49: U-Korea:  https://drive.google.com/file/d/0B1Of61fJF7WsTGVGZksyS1NUNXM/view?usp=sharing
-=======
-* Video: 2:49: U-Korea (U=Ubiquitous): https://drive.google.com/file/d/0B1Of61fJF7WsTGVGZksyS1NUNXM/view?usp=sharing
->>>>>>> 2278d21c891f73ce0cf0ec628e524f507280c76b
-
+* Video: 2:49: U-Korea (U=Ubiquitous): https://www.youtube.com/watch?v=U38zWbSI2n4
 
 Smart Grid
 ^^^^^^^^^^
@@ -127,7 +115,8 @@ variety of new instruments include smart meters, power monitors, and
 measures of solar irradiance, wind speed, and temperature. One goal is
 autonomous local power units where good use is made of waste heat.
 
-* Video: 6:04: Smart Grid: https://drive.google.com/file/d/0B1Of61fJF7WsMGNLMXk1NXpNR0E/view?usp=sharing
+* Video: 6:04: Smart Grid: https://www.youtube.com/watch?v=UfEiIzaZzI8
+
 
 
 
