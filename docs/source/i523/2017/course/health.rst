@@ -29,7 +29,7 @@ X-Informatics Case Study: Health Informatics
 Overview
 """"""""
 
-Slides: (131 pages) Health Informatics: https://drive.google.com/file/d/0B5plU-u0wqMoODFRVF9CT1NPbEk/view?usp=sharing
+Slides: (131 pages) `Health Informatics (PDF) <https://drive.google.com/open?id=0B6wqDMIyK2P7UGRJNmlkYkNkQk0>`_
 
 This section starts by discussing general aspects of Big Data and
 Health including data sizes, different areas including genomics, EBI,
@@ -223,7 +223,7 @@ phylogenetic trees.
    
 * Video B: 7:41: Genomics, Proteomics and Information Visualization: II: https://drive.google.com/file/d/0B5plU-u0wqModlhmdVUwdGlQNTA/view?usp=sharing
 
-* Slides: (131 pages) Genomics, Proteomics and Information Visualization: https://drive.google.com/file/d/0B5plU-u0wqMoUUp0MGRDYldMTzA/view?usp=sharing
+* Slides: (131 pages) `Genomics, Proteomics and Information Visualization (PDF) <https://drive.google.com/open?id=0B8936_ytjfjmX0lEMWhMX2kwRHc>`_
 
 
 Resources
