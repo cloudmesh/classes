@@ -253,8 +253,7 @@ Intelligence for Health Care; World Population Scale Epidemiological
 Study; Social Contagion Modeling for Planning, Public Health and
 Disaster Management and Biodiversity and LifeWatch.
 
-* Video A: 30:11: Healthcare and Life Science Use Cases: https://drive.google.com/file/d/0B5plU-u0wqMoNkxMQ3Vpd2lONzA/view?usp=sharing
-
+* Video A: 30:11: Healthcare and Life Science Use Cases: https://www.youtube.com/watch?v=uGeYrXENlpU
 
 
 Deep Learning and Social Networks Use Cases
