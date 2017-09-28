@@ -27,12 +27,7 @@ to query processing follow. This is followed by Link Structure
 Analysis including Hubs, Authorities and PageRank. The application of
 PageRank ideas as reputation outside web search is covered. The web
 graph structure, crawling it and issues in web advertising and search
-follow. The use of clustering and topic models completes section
-
-
-BUG Montecarlo WHY HERE https://www.youtube.com/watch?v=kIQ-BTyDfOQ&feature=youtu.beRetrieval.
-
-
+follow. The use of clustering and topic models completes the section.
 
 Web Search and Text Mining I
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
