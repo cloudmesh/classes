@@ -13,6 +13,7 @@ A selection of recommended and required textbooks is given, followed by an
 overview of the course structure.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=Kde5YVUwDTQ>`_ (13:13)
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfYjU4QzdDSms0Nk0>`_
 
 Introduction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
