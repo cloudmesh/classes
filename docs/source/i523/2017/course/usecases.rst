@@ -28,7 +28,7 @@ Privacy Subgroup, Technology Roadmap Subgroup and the Requirements and
 Use Case Subgroup. The work of latter is continued in next two units.
 
 
-* Slides (45 pages): https://drive.google.com/file/d/0B5plU-u0wqMobnI5UHlMT0F5Qmc/view?usp=sharing
+* Slides (45 pages): `PDF <https://drive.google.com/open?id=0B8936_ytjfjmODIxNGttU1pveWc>`_
           
 Introduction to NIST Big Data Public Working Group (NBD-PWG) Process
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -203,7 +203,7 @@ parallelism and the high and low level computational structure. As
 each new classification topic is introduced we briefly discuss it but
 full discussion of topics is given in following unit.
 
-* Slides (100 pages): Usecases: https://drive.google.com/file/d/0B5plU-u0wqMoRW03SVZBLVRkOGM/view?usp=sharing
+* Slides (100 pages): `PDF <https://drive.google.com/open?id=0B8936_ytjfjmYUlKckhLSUQxMUk>`_
 
 Government Use Cases
 """"""""""""""""""""
@@ -328,7 +328,7 @@ introduction to all categories and the further lessons give details of
 particular categories.
 
 
-* Slides (43 pages): https://drive.google.com/file/d/0B5plU-u0wqMocjc4S2N0bmUxME0/view?usp=sharing
+* Slides (43 pages): `PDF <https://drive.google.com/open?id=0B8936_ytjfjmREJTMHhjMktXRHc>_
 
 
 Summary of Use Case Classification I
