@@ -265,7 +265,7 @@ social media, thriving Chinese internet companies.
 
 .. i523/public/videos/introduction/motivation-012-4a.mp4
 
-* Video A: 19:25: `Industrial Trends <https://drive.google.com/file/d/0B1Of61fJF7Wsa3BwTHg4bm1WaDg/view?usp=sharing>`_
+* Video A: 19:25: `Industrial Trends <https://www.youtube.com/watch?v=32vD7uN7fqY>`_
 
 .. i523/public/videos/introduction/motivation-012-4a-novid.pdf
 
@@ -273,7 +273,7 @@ social media, thriving Chinese internet companies.
 
 .. i523/public/videos/introduction/motivation-012-4b.mp4
 
-* Video B: 16:54: `Industrial Trends II <https://drive.google.com/file/d/0B1Of61fJF7WsRzNUTzZNRUVIUk0/view?usp=sharing>`_
+* Video B: 16:54: `Industrial Trends II <https://www.youtube.com/watch?v=O8fgXAQcnvw>`_
 
 .. i523/public/videos/introduction/motivation-012-4b-novid.pdf
 
@@ -281,7 +281,7 @@ social media, thriving Chinese internet companies.
 
 .. i523/public/videos/introduction/motivation-012-4c.mp4
 
-* Video C: 30:13: `Indusrial Trends III <https://drive.google.com/file/d/0B1Of61fJF7WsRlZLb1RFUEVjeVU/view?usp=sharing>`_
+* Video C: 30:13: `Indusrial Trends III <https://www.youtube.com/watch?v=kW38MG7ukzs>`_
 
 .. i523/public/videos/introduction/motivation-012-4c-novid.pdf
 
@@ -323,7 +323,7 @@ Service.
 
 .. i523/public/videos/introduction/motivation-012-6a.mp4
 
-* Video A: 24:03: `Computing Model I <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
+* Video A: 24:03: `Computing Model I <https://www.youtube.com/watch?v=oYKTCKFGTco>`_
 
 .. i523/public/videos/introduction/motivation-012-6a-novid.pdf
 
@@ -331,7 +331,7 @@ Service.
 
 .. i523/public/videos/introduction/motivation-012-6b.mp4
 
-* Video B: 28:18: `Computing Model II <https://drive.google.com/file/d/0B1Of61fJF7WsVURyQ1BIaTFKbTA/view?usp=sharing>`_
+* Video B: 28:18: `Computing Model II <https://www.youtube.com/watch?v=km_eXHq7m3o>`_
 
 .. i523/public/videos/introduction/motivation-012-6b-novid.pdf
 
@@ -419,7 +419,7 @@ properties.
 
 .. i523/public/videos/introduction/motivation-012-11.mp4
 
-* Video II: 9:44:  `Recommender Systems II <https://drive.google.com/file/d/0B1Of61fJF7WsRDc1azd6UkFlemM/view?usp=sharing>`_
+* Video II: 9:44:  `Recommender Systems II <https://www.youtube.com/watch?v=Y4S0jY0yfEE>`_
 
 .. i523/public/videos/introduction/motivation-012-11novid.pdf
 
