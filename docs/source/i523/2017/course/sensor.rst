@@ -35,7 +35,7 @@ systems. The lesson gives many examples of distributed sensors, which
 form a Grid that is controlled by a cloud.
 
 
-* Video: 12:36: Internet of Things: https://drive.google.com/file/d/0B1Of61fJF7WsZkpSQUd3MWp3UG8/view?usp=sharing
+* Video: 12:36: Internet of Things: https://www.youtube.com/watch?v=0O0-mz-CWtQ
 
 
 Robotics and IOT Expectations
@@ -127,7 +127,8 @@ variety of new instruments include smart meters, power monitors, and
 measures of solar irradiance, wind speed, and temperature. One goal is
 autonomous local power units where good use is made of waste heat.
 
-* Video: 6:04: Smart Grid: https://drive.google.com/file/d/0B1Of61fJF7WsMGNLMXk1NXpNR0E/view?usp=sharing
+* Video: 6:04: Smart Grid: https://www.youtube.com/watch?v=UfEiIzaZzI8
+
 
 
 
