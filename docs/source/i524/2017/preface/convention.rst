@@ -1,6 +1,8 @@
 Conventions
 ===========
 
+test
+
 `$`
     When showing examples of commands, the `$` symbol precedes the
     actual command. So, the other lines are the output obtained after
@@ -23,3 +25,4 @@ Menu selections:
 
 Man page:
     *ls(1)*
+
