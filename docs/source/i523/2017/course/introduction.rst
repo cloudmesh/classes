@@ -204,7 +204,7 @@ Education
 
 * Video: 40:14:  `Motivation <https://drive.google.com/file/d/0B1Of61fJF7WsV2RvMlFzSDNPZEU/view?usp=sharing>`_ (Course Motivation and Emerging Technologies are combined)
 
-* Slides (30 pages): `Motivation <https://drive.google.com/file/d/0B1Of61fJF7WsT3BVRmU5bHFua1E/view?usp=sharing>`_
+* Slides (30 pages): `Motivation <https://drive.google.com/file/d/0B8936_ytjfjmOUZraHc4M1ptczA/view?usp=sharing>`_
          
 
 
@@ -233,7 +233,7 @@ Wealth and Wellness"
 
 
 
-* Slides (20 pages): `Data Deluge <https://drive.google.com/file/d/0B1Of61fJF7WsRUtKYTJaT0FUWG8/view?usp=sharing>`_
+* Slides (20 pages): `Data Deluge <https://drive.google.com/open?id=0B8936_ytjfjmUXY3anBaeU9lLVU>`_
          
 
 
@@ -251,7 +251,7 @@ advertise for new talent.
 * Video: 9:39: `JOBS: <https://www.youtube.com/watch?v=KsjiQS8uXDA>`_
 
 
-* Slides (8 pages): `JOBS: <https://drive.google.com/file/d/0B1Of61fJF7WsZ2oyN0dGWmVQb0E/view?usp=sharing>`_
+* Slides (8 pages): `JOBS: <https://drive.google.com/open?id=0B8936_ytjfjmaG50YW9TeWdvUTg>`_
 
 
 
@@ -265,27 +265,27 @@ social media, thriving Chinese internet companies.
 
 .. i523/public/videos/introduction/motivation-012-4a.mp4
 
-* Video A: 19:25: `Industrial Trends <https://drive.google.com/file/d/0B1Of61fJF7Wsa3BwTHg4bm1WaDg/view?usp=sharing>`_
+* Video A: 19:25: `Industrial Trends <https://www.youtube.com/watch?v=32vD7uN7fqY>`_
 
-.. i523/public/videos/introduction/motivation-012-4a-novid.pptx
+.. i523/public/videos/introduction/motivation-012-4a-novid.pdf
 
-* Slides A (16 pages): `Industrial Trends <https://drive.google.com/file/d/0B1Of61fJF7WsNXQwUXlOMmFtQTg/view?usp=sharing>`_
+* Slides A (16 pages): `Industrial Trends <https://drive.google.com/open?id=0B8936_ytjfjmWW1SdXgxWkRLYjg>`_
 
 .. i523/public/videos/introduction/motivation-012-4b.mp4
 
-* Video B: 16:54: `Industrial Trends II <https://drive.google.com/file/d/0B1Of61fJF7WsRzNUTzZNRUVIUk0/view?usp=sharing>`_
+* Video B: 16:54: `Industrial Trends II <https://www.youtube.com/watch?v=O8fgXAQcnvw>`_
 
-.. i523/public/videos/introduction/motivation-012-4b-novid.pptx
+.. i523/public/videos/introduction/motivation-012-4b-novid.pdf
 
-* Slides B (16 pages) : `Indusrial Trends II <https://drive.google.com/file/d/0B1Of61fJF7WsOTdiUUxMLTlscWs/view?usp=sharing>`_
+* Slides B (16 pages) : `Indusrial Trends II <https://drive.google.com/open?id=0B8936_ytjfjmeEV2R19ORzhBQVE>`_
 
 .. i523/public/videos/introduction/motivation-012-4c.mp4
 
-* Video C: 30:13: `Indusrial Trends III <https://drive.google.com/file/d/0B1Of61fJF7WsRlZLb1RFUEVjeVU/view?usp=sharing>`_
+* Video C: 30:13: `Indusrial Trends III <https://www.youtube.com/watch?v=kW38MG7ukzs>`_
 
-.. i523/public/videos/introduction/motivation-012-4c-movid.pptx
+.. i523/public/videos/introduction/motivation-012-4c-novid.pdf
 
-* Slides C (21 pages): `Industrial Trends III <https://drive.google.com/file/d/0B1Of61fJF7WsRDlINHpDXzQzSmM/view?usp=sharing>`_
+* Slides C (21 pages): `Industrial Trends III <https://drive.google.com/open?id=0B8936_ytjfjmNDZKcE1MSU45ZG8>`_
 
 
 Digital Disruption of Old Favorites
@@ -300,9 +300,9 @@ Services.
 
 * Video: 32:54: `Digital Distruption and transformation <https://www.youtube.com/watch?v=bw9yYXwe7Bs>`_
 
-.. i523/public/videos/introduction/motivation-012-5novid.pptx
+.. i523/public/videos/introduction/motivation-012-5novid.pdf
 
-* Slides (28 pages): `Digital Distruption and transformation <https://drive.google.com/file/d/0B1Of61fJF7WsVWVaTEl0VGlUT1E/view?usp=sharing>`_
+* Slides (28 pages): `Digital Distruption and transformation <https://drive.google.com/open?id=0B8936_ytjfjmdW5CYnBtME9FVTQ>`_
 
 
 
@@ -323,19 +323,19 @@ Service.
 
 .. i523/public/videos/introduction/motivation-012-6a.mp4
 
-* Video A: 24:03: `Computing Model I <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
+* Video A: 24:03: `Computing Model I <https://www.youtube.com/watch?v=oYKTCKFGTco>`_
 
-.. i523/public/videos/introduction/motivation-012-6a-novid.pptx
+.. i523/public/videos/introduction/motivation-012-6a-novid.pdf
 
-* Slides A (14 pages): `Computing Model I <https://drive.google.com/file/d/0B1Of61fJF7WsMVIwUm5XMHREX1U/view?usp=sharing>`_
+* Slides A (14 pages): `Computing Model I <https://drive.google.com/open?id=0B8936_ytjfjmTU9nNml2bUlsUHM>`_
 
 .. i523/public/videos/introduction/motivation-012-6b.mp4
 
-* Video B: 28:18: `Computing Model II <https://drive.google.com/file/d/0B1Of61fJF7WsVURyQ1BIaTFKbTA/view?usp=sharing>`_
+* Video B: 28:18: `Computing Model II <https://www.youtube.com/watch?v=km_eXHq7m3o>`_
 
-.. i523/public/videos/introduction/motivation-012-6b-novid.pptx
+.. i523/public/videos/introduction/motivation-012-6b-novid.pdf
 
-* Slides B (27 pages): `Computing Model II <https://drive.google.com/file/d/0B1Of61fJF7WsX0NRcXZhMkphOVk/view?usp=sharing>`_
+* Slides B (27 pages): `Computing Model II <https://drive.google.com/open?id=0B8936_ytjfjmNHhLYnI0X0YxdFE>`_
 
 
 
@@ -352,9 +352,9 @@ focus on the new fourth data driven methodology.
 
 * Video: 7:32: `Research Model <https://www.youtube.com/watch?v=xkeECe3mmjI>`_
 
-.. i523/public/videos/introduction/motivation-012-7novid.pptx
+.. i523/public/videos/introduction/motivation-012-7novid.pdf
 
-* Slides (4 pages): `Research Model <https://drive.google.com/file/d/0B1Of61fJF7WseVNLNWdjVXY1bUE/view?usp=sharing>`_
+* Slides (4 pages): `Research Model <https://drive.google.com/open?id=0B8936_ytjfjma0pMbHJnek02dDA>`_
 
 
 
@@ -371,9 +371,9 @@ and emerging as new information to input into other transformations.
 
 * Video: 15:42: `Data Science Process <https://drive.google.com/file/d/0B1Of61fJF7WsOHZ2bWo4Vk1WakE/view?usp=sharing>`_
 
-.. i523/public/videos/introduction/motivation-012-8novid.pptx
+.. i523/public/videos/introduction/motivation-012-8novid.pdf
 
-* Slides (10 pages): `Data Science Process <https://drive.google.com/file/d/0B1Of61fJF7WseVZmTWxrdkZId2M/view?usp=sharing>`_
+* Slides (10 pages): `Data Science Process <https://drive.google.com/open?id=0B8936_ytjfjmVDVZa01keW0wQmc>`_
 
 
 
@@ -391,9 +391,9 @@ incredible size of author lists on papers.
 
 * Video: 13:27: `Physics_informatics <https://www.youtube.com/watch?v=KstIH2aQ60Y>`_
 
-.. i523/public/videos/introduction/motivation-012-9novid.pptx
+.. i523/public/videos/introduction/motivation-012-9novid.pdf
 
-* Slides (6 pages): `Physics_inforamtics <https://drive.google.com/file/d/0B1Of61fJF7WsXzdVbWlqNG91b2M/view?usp=sharing>`_
+* Slides (6 pages): `Physics_inforamtics <https://drive.google.com/open?id=0B8936_ytjfjmc2J2TWgwWGRwaFk>`_
 
 
 
@@ -413,17 +413,17 @@ properties.
 
 * Video: 12:21: `Recommender Systems I <https://drive.google.com/file/d/0B1Of61fJF7Wsc0dmQXN0alFJQW8/view?usp=sharing>`_
 
-.. i523/public/videos/introduction/motivation-012-10novid.pptx
+.. i523/public/videos/introduction/motivation-012-10novid.pdf
 
-* Slides (9 pages): `Recommender Systems I <https://drive.google.com/file/d/0B1Of61fJF7WsSnhOVXhoUmR0YlE/view?usp=sharing>`_
+* Slides (9 pages): `Recommender Systems I <https://drive.google.com/open?id=0B8936_ytjfjmOXlVd2FsSUkwekk>`_
 
 .. i523/public/videos/introduction/motivation-012-11.mp4
 
-* Video II: 9:44:  `Recommender Systems II <https://drive.google.com/file/d/0B1Of61fJF7WsRDc1azd6UkFlemM/view?usp=sharing>`_
+* Video II: 9:44:  `Recommender Systems II <https://www.youtube.com/watch?v=Y4S0jY0yfEE>`_
 
-.. i523/public/videos/introduction/motivation-012-11novid.pptx
+.. i523/public/videos/introduction/motivation-012-11novid.pdf
 
-* Slides II (6 pages): `Recommender Systems II <https://drive.google.com/file/d/0B1Of61fJF7WsSjZGaVRqbVJOdmc/view?usp=sharing>`_
+* Slides II (6 pages): `Recommender Systems II <https://drive.google.com/open?id=0B8936_ytjfjmMzM2M3RhMEJ4bjQ>`_
 
 
 
@@ -439,9 +439,9 @@ algorithms for dynamic personalized choice of material for web pages.
 
 * Video: 12:05: `Web Search and Information Retrieval <https://www.youtube.com/watch?v=p-0NtNTzoh8>`_
 
-.. i523/public/videos/introduction/motivation-012-12novid.pptx
+.. i523/public/videos/introduction/motivation-012-12novid.pdf
 
-* Slides (6 pages): `Web Search and Information Retrieval <https://drive.google.com/file/d/0B1Of61fJF7WseS1ZejJuVjhmWVE/view?usp=sharing>`_
+* Slides (6 pages): `Web Search and Information Retrieval <https://drive.google.com/open?id=0B8936_ytjfjmSm8zNmZ5VFJxRms>`_
 
 
 Cloud Application in Research
@@ -455,9 +455,9 @@ the cloud use of the Internet of Things and gives examples.
 
 * Video: 33:51: `Cloud Applications in Research <https://www.youtube.com/watch?v=U3ZG2qOFpxE>`_
 
-.. i523/public/videos/introduction/motivation-012-13novid.pptx
+.. i523/public/videos/introduction/motivation-012-13novid.pdf
 
-* Slides (20 pages): `Cloud Applications in Research <https://drive.google.com/file/d/0B1Of61fJF7WsSlVxX2JoLUdQQTg/view?usp=sharing>`_
+* Slides (20 pages): `Cloud Applications in Research <https://drive.google.com/open?id=0B8936_ytjfjma0RhdU0zdkxmczA>`_
 
 
 
@@ -472,9 +472,9 @@ blending.
 
 * Video: 14:02: `Computing and MapReduce <https://www.youtube.com/watch?v=aQ8NMxe9IsU>`_
 
-.. i523/public/videos/introduction/motivation-012-14novid.pptx
+.. i523/public/videos/introduction/motivation-012-14novid.pdf
 
-* Slides (9 pages): `Computing and MapReduce <https://drive.google.com/file/d/0B1Of61fJF7WsdnZqWUVKRUJuR28/view?usp=sharing>`_
+* Slides (9 pages): `Computing and MapReduce <https://drive.google.com/open?id=0B8936_ytjfjmeTl4NWhHRjJMOGc>`_
 
 
 
@@ -499,9 +499,9 @@ clouds; a pleasing symmetry.
 
 * Video: 28:08: `Data Science Education <https://www.youtube.com/watch?v=bA_eNjJTmRQ>`_
 
-.. i523/public/videos/introduction/motivation-012-15novid.pptx
+.. i523/public/videos/introduction/motivation-012-15novid.pdf
 
-* Slides (19 pages): `Data Science Education <https://drive.google.com/file/d/0B1Of61fJF7WsNGVqUUE3WTZtSGM/view?usp=sharing>`_
+* Slides (19 pages): `Data Science Education <https://drive.google.com/open?id=0B8936_ytjfjmT0J1RjYwY1VwZ1k>`_
 
 
 
@@ -522,9 +522,9 @@ educated in data science"
 
 * Video: 4:59: `Conclusions <https://www.youtube.com/watch?v=FmcR5mrhYvk>`_
 
-.. i523/public/videos/introduction/motivation-012-16novid.pptx
+.. i523/public/videos/introduction/motivation-012-16novid.pdf
 
-* Slides (4 pages): `Conclusions <https://drive.google.com/file/d/0B1Of61fJF7WsdHRuN2hMQnBmXzg/view?usp=sharing>`_
+* Slides (4 pages): `Conclusions <https://drive.google.com/open?id=0B8936_ytjfjmVjRNeG1pdUNnMlE>`_
 
 .. comment
 

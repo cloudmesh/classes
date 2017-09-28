@@ -135,7 +135,8 @@ Netflix Kaggle competition to improve its rating system. The analogy
 to maximizing click through rate is given and the objectives of
 optimization are given.
  
-* Video : 14:20: Netflix on Recommender Systems: https://drive.google.com/file/d/0B1Of61fJF7WsSldPN0FCcGNmY1k/view?usp=sharing
+* Video : 14:20: Netflix on Recommender Systems: https://www.youtube.com/watch?v=ModhdIT9D24
+
 
 
 
@@ -293,7 +294,7 @@ Likert ranking scales and issues with new items that do not have a
 significant number of rankings.
        
 
-* Video 1: 11:18: Item Based Filtering: https://drive.google.com/file/d/0B1Of61fJF7Wsa0JORU5kSTZCTXM/view?usp=sharing
+* Video 1: 11:18: Item Based Filtering: https://www.youtube.com/watch?v=HTdYGaOTlFI
 * Video 2: 7:16: k Nearest Neighbors and High Dimensional Spaces: https://youtu.be/SM8EJdAa4mw
 
 
