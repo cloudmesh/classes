@@ -369,7 +369,7 @@ and emerging as new information to input into other transformations.
 
 .. i523/public/videos/introduction/motivation-012-8.mp4
 
-* Video: 15:42: `Data Science Process <https://drive.google.com/file/d/0B1Of61fJF7WsOHZ2bWo4Vk1WakE/view?usp=sharing>`_
+* Video: 15:42: `Data Science Process <https://www.youtube.com/watch?v=KstIH2aQ60Y>`_
 
 .. i523/public/videos/introduction/motivation-012-8novid.pdf
 
@@ -389,7 +389,7 @@ incredible size of author lists on papers.
 
 .. i523/public/videos/introduction/motivation-012-9.mp4
 
-* Video: 13:27: `Physics_informatics <https://www.youtube.com/watch?v=KstIH2aQ60Y>`_
+* Video: 13:27: `Physics_informatics <https://www.youtube.com/watch?v=2A7Z741FCHs>`_
 
 .. i523/public/videos/introduction/motivation-012-9novid.pdf
 
@@ -411,7 +411,7 @@ properties.
 
 .. i523/public/videos/introduction/motivation-012-10.mp4
 
-* Video: 12:21: `Recommender Systems I <https://drive.google.com/file/d/0B1Of61fJF7Wsc0dmQXN0alFJQW8/view?usp=sharing>`_
+* Video: 12:21: `Recommender Systems I <https://www.youtube.com/watch?v=LXhng3fcG9o>`_
 
 .. i523/public/videos/introduction/motivation-012-10novid.pdf
 
