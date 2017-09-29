@@ -56,7 +56,7 @@ note how frequencies are converted into belief and relevance.
 
 .. i523/public/videos/web/lecture-26.pptx
 
-* Slides (56 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseW5oNW5KY0g5dEk/view?usp=sharing>`_
+* Slides (56 pages): `PDF <https://drive.google.com/open?id=0B8936_ytjfjmeWVSYk9RVXcyOFk>`_
 
 
 
@@ -198,9 +198,7 @@ advertising. The use of clustering and topic models completes unit
 with Google News as an example.
 
 
-.. i523/public/videos/web/lecture-27.pptx
-
-* Slides (33 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsaW44NnU5YXptUkU/view?usp=sharing>`_
+* Slides (33 pages): `PDF <https://drive.google.com/open?id=0B6wqDMIyK2P7YmpLbzQ0X2xpbDg>`_
 
 
 Data Analytics for Web Search
