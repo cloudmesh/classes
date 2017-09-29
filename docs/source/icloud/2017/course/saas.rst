@@ -7,6 +7,7 @@ Google Components
 -------------------------------------------------------------------------------
 
 * Video: `Youtube <https://www.youtube.com/watch?v=IWMcv7HbbPM>`_ (7:02)
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfYWZ0dDlrNThkVms>`_
 
 Google Architecture
 -------------------------------------------------------------------------------

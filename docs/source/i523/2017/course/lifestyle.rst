@@ -67,7 +67,7 @@ economy.
 
  
           
-* Slides (45 pages): https://drive.google.com/file/d/0B5plU-u0wqMoYzJmQzNVOE11Zzg/view?usp=sharing
+* Slides (45 pages): `PDF <https://drive.google.com/open?id=0B6wqDMIyK2P7YkIwczVfQlJqVG8>`_
 
 
 
@@ -190,7 +190,7 @@ viewed as points in a space of items.
 
 
           
-* Slides (49 pages): https://drive.google.com/file/d/0B5plU-u0wqMoRmxNUVBVdFREQXc/view?usp=sharing
+* Slides (49 pages): `PDF <https://drive.google.com/open?id=0B6wqDMIyK2P7UVloVElaZ2FXcTg>`_
 
 
 
@@ -278,7 +278,7 @@ the k Nearest Neighbors algorithm. General features like the curse of
 dimensionality in high dimensions are discussed.
 
           
-* Slides (18 pages): https://drive.google.com/file/d/0B5plU-u0wqMoR0otVFhjODJablk/view?usp=sharing
+* Slides (18 pages): `PDF <https://drive.google.com/open?id=0B6wqDMIyK2P7UExxVFc5YlpOZ28>`_
 
 
 Item-based Collaborative Filtering

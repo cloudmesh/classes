@@ -16,7 +16,7 @@ the processes fueling global climate change and explains what methods
 are used for ice data acquisitions and analysis.
 
 
-* Slides(58 pages): https://drive.google.com/file/d/0B5plU-u0wqMocWtaS0JfNXJFQUU/view?usp=sharing
+* Slides(58 pages): `PDF <https://drive.google.com/open?id=0B8936_ytjfjmZ0VzZ0ZIenpUMTQ>`_
 
 
 Introduction

@@ -15,11 +15,11 @@ ubiquitous or smart cities and homes including U-Korea; and finally
 the smart electric grid.
 
 
-.. i523/public/videos/sensors/lecture-36-lessons-2-4.pptx
-.. i523/public/videos/sensors/lecture-36-lessons-1-5-6-7-8.pptx
+.. i523/public/videos/sensors/3-8...1.pdf
+.. i523/public/videos/sensors/3-8...2.pdf
    
-* Slides (31 slides): `PPT1 <https://drive.google.com/file/d/0B1Of61fJF7WsSnRPaUdJQzVmejA/view?usp=sharing>`_
-* Slides (44 slides): `PPT2 <https://drive.google.com/file/d/0B1Of61fJF7WsdVFOdHpWdzdSYmc/view?usp=sharing>`_
+* Slides (31 slides): `PDF1 <https://drive.google.com/open?id=0B8936_ytjfjmVXZCUnR3TnVMMFk>`_
+* Slides (44 slides): `PDF2 <https://drive.google.com/open?id=0B8936_ytjfjmelMwSUl6Q1lLV1k>`_
 
 
 Internet of Things

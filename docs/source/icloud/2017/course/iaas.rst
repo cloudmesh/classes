@@ -17,6 +17,10 @@ showing the use of three different virtual clusters.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=j3sUW376pw8>`_ (7:45)
 
+.. todo:: slide is outdated
+
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
+
 Student Work 1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -25,6 +29,7 @@ and software: HBase, DryadLINQ, virtualization, commercial cloud storage, and
 IU’s Twister iterative MapReduce.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=DYG6_bUGsqY>`_ (8:48)
+* Slide: `PDF (Page 7-11) <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
 
 Student Work 2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -39,6 +44,10 @@ assignments.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=DqaQ0kemmaw>`_ (10:03)
 
+.. todo:: slide is outdated
+
+* Slide: `PDF (Page 12-27) <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
+
 Growth of Virtual Machines
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -52,6 +61,7 @@ which the virtual machine monitor (VMM) runs on. VM is identical to physical
 machines and can be saved and stored, as well as migrated across hardware.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=5oKoAPCXLws>`_ (10:16)
+* Slide: `PDF (Page 28-40) <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
 
 Implementation Levels
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -65,6 +75,7 @@ virtual layer that allows interaction between CUDA and VMs, creating a virtual
 CUDA library.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=Le-kv-eAhvg>`_ (7:57)
+* Slide: `PDF (Page 41-46) <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
 
 Tools and Mechanisms
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -79,6 +90,7 @@ virtualization and works through hypercalls. An example is the ESX server from
 VMware.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=VYz5rp5HDVE>`_ (7:32)
+* Slide: `PDF (Page 47-57) <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
 
 CPU, Memory & I/O Devices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -92,6 +104,7 @@ allowing it to act like a physical device and manage host and guest addresses,
 shown in a detailed VMware example.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=I_J4eUUavSY>`_ (6:41)
+* Slide: `PDF (Page 58-65) <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
 
 Clusters and Resource Mgmt.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -105,6 +118,7 @@ migrated to a new host so work is not lost. An example of this is demonstrated
 with XEN.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=Mn9pgGtFy4g>`_ (5:07)
+* Slide: `PDF (Page 66-73) <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
 
 Data Center Automation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -116,6 +130,7 @@ Trust issues in cloud security are answered in virtual machines. Suggested
 reading material is provided at the end.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=mvXBRvTwAVg>`_ (3:30)
+* Slide: `PDF (Page 74-81) <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
 
 Clouds in the Workplace
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -129,6 +144,8 @@ IaaS and PaaS are offered by both open source and commercial providers. Cloud
 systems are composed of separate elements like Eucalyptus, Xen and VMware.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=Endt6mWUfEo>`_ (7:13)
+
+.. todo:: slide is missing
 
 Checklists & Challenges
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -149,6 +166,8 @@ confidentiality.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=cwtWpZcWuQ0>`_ (9:08)
 
+.. todo:: slide is missing
+
 Data Center Setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -165,6 +184,8 @@ of racks. The distribution of memory across a local, rack, or array server in
 warehouse server setup is listed.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=zBVtXzqF2ew>`_ (7:49)
+
+.. todo:: slide is missing
 
 Cultivating Clouds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -183,23 +204,29 @@ and copyright protection.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=zxoqRdvXM28>`_ (5:10)
 
+.. todo:: slide is missing
+
 Applying for FutureSystems Account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Video: `Youtube <https://www.youtube.com/watch?v=98ERlWi3k3U>`_ (5:32)
+* Slide: `PDF (Page 1-9) <https://drive.google.com/open?id=0B88HKpainTSfZENxeUlOcVFUTkU>`_
 
 FutureSystems India OpenStack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Video: `Youtube <https://www.youtube.com/watch?v=hyKYTpNmJZc>`_ (10:28)
+* Slide: `PDF (Page 10-16) <https://drive.google.com/open?id=0B88HKpainTSfZENxeUlOcVFUTkU>`_
 
 Starting VMs on FutureSystems
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Video: `Youtube <https://www.youtube.com/watch?v=RPnhJs4IcfQ>`_ (6:40)
+* Slide: n/a (video lecture only)
 
 Hadoop WordCount on VMs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Video: `Youtube <https://www.youtube.com/watch?v=1TrjmcPHrRU>`_ (7:30)
+* Slide: `PDF (Page 17-22) <https://drive.google.com/open?id=0B88HKpainTSfZENxeUlOcVFUTkU>`_
 
