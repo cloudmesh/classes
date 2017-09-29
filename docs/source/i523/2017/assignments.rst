@@ -125,6 +125,16 @@ Week 5
    * E: Build a Raspbery PI docker swarm cluster https://piazza.com/class/j5wll7vzylg25j?cid=243
 
 
+Week 6
+-------------------------
+Group activity for Residential Students
 
+Work on one of the following discussion posts on Piazza. You will work in groups that were formed in the class on Friday Sep 25. Post the results of your work on Piazza by next Thursday (Oct 5) 11:59 PM
 
+   * Python 2 vs 3 https://piazza.com/class/j5wll7vzylg25j?cid=333
+   * Data formats https://piazza.com/class/j5wll7vzylg25j?cid=334
+   * Cloudmesh.cmd5 https://piazza.com/class/j5wll7vzylg25j?cid=335
+   * Raspberry Pi https://piazza.com/class/j5wll7vzylg25j?cid=336
+   * cloudmesh.cmd5 on Windows Native and with docker https://piazza.com/class/j5wll7vzylg25j?cid=337
+   * MQTT https://piazza.com/class/j5wll7vzylg25j?cid=338
 
