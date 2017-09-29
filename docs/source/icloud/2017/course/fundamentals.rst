@@ -13,6 +13,9 @@ A selection of recommended and required textbooks is given, followed by an
 overview of the course structure.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=Kde5YVUwDTQ>`_ (13:13)
+
+.. todo:: slide is outdated
+
 * Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfYjU4QzdDSms0Nk0>`_
 
 Introduction
@@ -28,6 +31,8 @@ Internet of Things.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=5lKj8_nqj9k>`_ (8:31)
 
+.. todo:: slide is missing
+
 Data Center Model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -39,6 +44,8 @@ as an example of how to utilize the cloud setup. Certain misconceptions about
 clouds are then presented for further discussion.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=6Hq_LuLB-RU>`_ (8:08)
+
+.. todo:: slide is missing
   
 Data Intensive Sciences
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -52,6 +59,8 @@ different methods of cloud and supercomputing.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=Ptoj3BME_z4>`_ (2:44)
 
+.. todo:: slide is missing
+
 IaaS, PaaS and SaaS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -62,6 +71,8 @@ of the MapReduce program, and an illustration of its concepts through
 WordCount. Finally, four distinct approaches to MapReduce are compared.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=_irz3v1gT-A>`_ (10:17)
+
+.. todo:: slide is missing
 
 Challenges
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -76,3 +87,5 @@ offered at the end asking students to correctly place software in a hierarchy
 of computing.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=VpDRGcBe4s8>`_ (5:27)
+
+.. todo:: slide is missing
