@@ -30,7 +30,7 @@ stadiums and media/advertising. We look at classic baseball averages
 and sophisticated measures like Wins Above Replacement.
 
 
-* Slides: 40 slides: https://drive.google.com/file/d/0B8936_ytjfjmaUVMVlFnU1lGc2s/view
+* Slides: 40 slides: `PDF <https://drive.google.com/open?id=0B8936_ytjfjmbWt6bGZuTFJ4TFE>`_
 
 
 Introduction and Sabermetrics (Baseball Informatics) Lesson
@@ -103,7 +103,7 @@ MLBAM.
 
 
 
-* Slides: 41 pages: https://drive.google.com/file/d/0B8936_ytjfjmYVNHUU9LTmhyaGc/view
+* Slides: 41 pages: `PDF <https://drive.google.com/open?id=0B8936_ytjfjmUDh0Y01GbW9tWnc>`_
 
 Pitching Clustering
 """""""""""""""""""
@@ -168,7 +168,7 @@ Olympics, NFL Football, Basketball, Tennis and Horse Racing.
 
 
 
-* Slides: 44 slides: https://drive.google.com/file/d/0B8936_ytjfjmaVotRDI1el9lX2c/view
+* Slides: 44 pages: `PDF <https://drive.google.com/open?id=0B8936_ytjfjmUGdpUzFaRzhyWXM>`_
 
 
 Wearables

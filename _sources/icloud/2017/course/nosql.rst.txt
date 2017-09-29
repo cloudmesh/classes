@@ -8,6 +8,7 @@ RDBMS vs. NoSQL
 -------------------------------------------------------------------------------
 
 * Video: `Youtube <https://www.youtube.com/watch?v=dJunqER9lb8>`_ (9:22)
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfaDFNbjNiMm44bnc>`_
 
 NoSQL Characteristics
 -------------------------------------------------------------------------------
@@ -68,6 +69,7 @@ demands specific approaches in terms of search queries. There are three stages
 to this approach: query, analysis, and visualization.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=MxgabfoGH-M>`_ (9:33)
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfWUh6dVNHcXloSnc>`_
 
 Related Work
 -------------------------------------------------------------------------------

@@ -28,6 +28,7 @@ pyenv. This is in detail documented in the Section :ref:`section_pyenv`.
 Installation from source
 ------------------------
 
+
 Cmd5 can easily deployed with pip::
 
   pip install cloudmesh.cmd5
@@ -49,15 +50,12 @@ directories from github::
   git clone https://github.com/cloudmesh/cloudmesh.sys.git  
 
   cd ~/github/cloudmesh.common
-  python setup.py install
   pip install .
 
   cd ~/github/cloudmesh.cmd5
-  python setup.py install
   pip install .
 
   cd ~/github/cloudmesh.sys
-  python setup.py install
   pip install .
 
 The common directory contains some useful libraries, the cmd5
@@ -114,7 +112,6 @@ cloudmesh. All you have to do is to cd into the directory and install
 the code::
 
   cd cloudmesh.mycommand
-  python setup.py install
   pip install .
 
 Adding your own command is easy. It is important that all objects are defined in the command
