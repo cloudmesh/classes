@@ -50,6 +50,7 @@ PageRank calculation formula is examined. After this comes an example of its
 performance and further mathematical formulae involved in its application.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=GCp5OLLOrH0>`_ (7:58)
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfWFpEZGxqSWRTYms>`_
 
 Discussions & Parallel Thinking
 -------------------------------------------------------------------------------
@@ -89,6 +90,7 @@ is an MPI model used in computation and communication of scientific
 applications.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=CXDdWmAWIvk>`_ (6:46)
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfMFBaNHprbWJwQms>`_
 
 Parallel Processes
 -------------------------------------------------------------------------------

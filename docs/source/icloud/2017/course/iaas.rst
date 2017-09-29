@@ -16,6 +16,7 @@ support. Overhead and performance issues are touched upon through charts
 showing the use of three different virtual clusters.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=j3sUW376pw8>`_ (7:45)
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfQU1uQmxZWHdWQ1k>`_
 
 Student Work 1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

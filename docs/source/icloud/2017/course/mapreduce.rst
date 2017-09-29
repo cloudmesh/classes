@@ -17,6 +17,7 @@ features like in-memory support of tasks, data flow separation, and
 portability.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=6vkgvGtyv4Q>`_ (12:01)
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfMnpCelpNQUpNdVEG>`_
 
 MapReduce
 -------------------------------------------------------------------------------
@@ -76,7 +77,7 @@ time spans for actions in system requirements is given. The original MapReduce
 was designed to resolve problems like load balancing and machine failures.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=rRR2ALa5CUA>`_ (6:01)
-
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfd3hkTG4yY2FYUVE>`_
 
 How Hadoop Runs on a MapReduce Job
 -------------------------------------------------------------------------------
@@ -137,6 +138,7 @@ map/reduce pattern. These are all types of SIMD. SPMD and MPMD are two other
 types of model.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=zHQiR56Zmtc>`_ (9:42)
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfT28zLTdKYWhGdGM>`_
 
 Data Locality
 -------------------------------------------------------------------------------
