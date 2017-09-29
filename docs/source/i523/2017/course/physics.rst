@@ -29,13 +29,11 @@ histograms of Higgs Boson production with various forms of shape of
 signal and various background and with various event totals. The
 lectures use Python but use of Java is described.
 
-.. i523/public/videos/physics/lecture-8.pptx
+
+* Slides (20 pages): `PDF <https://drive.google.com/open?id=0B8936_ytjfjmYXNoM3ZadGR6QlE>`_
 
 
-* Slides (20 slides): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsV3ZPNXlyWmhVeFE/view?usp=sharing>`_
-
-
-Files: :download:`HiggsClassI-Sloping.py </files/python/physics/mr_higgs/higgs_classI_sloping.py>`
+Files: :download:`HiggsClassI-Sloping.py </files/python/physics/mr_higgs/higgs_classI_sloping.py>`_
 
 Looking for Higgs Particle and Counting Introduction
 """"""""""""""""""""""""""""""""""""""""""""""""""""
@@ -108,10 +106,10 @@ signal and various background and with various event totals.
 .. adobe presenter, no where found, ask sidd and wiggum
    
 
-.. i523/public/videos/physics/lecture-9.pptx
+.. i523/public/videos/physics/lecture-9.pdf
 
 
-* Slides (29 slides): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsMURyUUYyUnJueGc/view?usp=sharing>`_
+* Slides (29 pages): `PDF <https://drive.google.com/open?id=0B8936_ytjfjmUHRpV2g2V28walE>`_
 
 Files:
 
@@ -191,10 +189,8 @@ illustrations are given. Java is currently not available in this
 unit.
 
 
-.. i523/public/videos/physics/lecture-10.pptx
 
-
-* Slides (39 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WsN1FIdTBOQUx3VFE/view?usp=sharing>`_
+* Slides (39 pages): `PDF <https://drive.google.com/open?id=0B8936_ytjfjmNWhrS0xadk16SWM>`_
 
 :download:`HiggsClassIII.py </files/python/physics/number_theory/higgs_classIII.py>`
 
@@ -272,10 +268,7 @@ accept-reject methods are discussed. The Central Limit Theorem and
 Bayes law concludes discussion. Python and Java (for student - not
 reviewed in class) examples and Physics applications are given.
 
-
-.. i523/public/videos/physics/lecture-11.pptx
-
-* Slides (44 pages): `PPT <https://drive.google.com/file/d/0B1Of61fJF7WseU1ZWEVhR0FpR2M/view?usp=sharing>`_
+* Slides (44 pages): `PDF <https://drive.google.com/open?id=0B8936_ytjfjmTUxkZXVRRmlBSUk>`_
 
 
 Files:
