@@ -114,14 +114,22 @@ the code::
   cd cloudmesh.mycommand
   pip install .
 
-Adding your own command is easy. It is important that all objects are defined in the command
-itself and that no global variables be use in order to allow each
-shell command to stand alone. Naturally you should develop API
-libraries outside of the cloudmesh shell command and reuse them in
-order to keep the command code as small as possible. We place the
-command in::
+Adding your own command is easy. It is important that all objects are
+defined in the command itself and that no global variables be used in
+order to allow each shell command to stand alone. Naturally you should
+develop API libraries outside of the cloudmesh shell command and reuse
+them in order to keep the command code as small as possible. We place
+the command in::
 
     cloudmsesh/mycommand/command/mycommand.py
+
+The directory `cloudmsesh/mycommand/command` must only have the
+`mycommand.py` file and an `__init__.py` file in it. No other file should
+be placed here. A ample api with a `Manager` class is placed in::
+
+    cloudmsesh/mycommand/api/manager.py
+
+You can use this template as start for your commands.
 
 An example for the bar command is presented at:
 
@@ -136,20 +144,37 @@ It shows how simple the command definition is (bar.py)::
     class BarCommand(PluginCommand):
 
         @command
-        def do_bar(self, args, arguments):
-            """
-            ::
-              Usage:
-                    command -f FILE
-                    command FILE
-                    command list
-              This command does some useful things.
-              Arguments:
-                  FILE   a file name
-              Options:
-                  -f      specify the file
-            """
-            print(arguments)
+            def do_bar(self, args, arguments):
+        """
+        ::
+
+          Usage:
+                bar --file=FILE
+                bar list
+
+          This command does some useful things.
+
+          Arguments:
+              FILE   a file name
+
+          Options:
+              -f      specify the file
+
+        """
+        arguments.FILE = arguments['--file'] or None
+
+        print(arguments)
+
+        m = Manager()
+
+
+        if arguments.FILE:
+            print("option a")
+            m.list(arguments.FILE)
+
+        elif arguments.list:
+            print("option b")
+            m.list("just calling list without parameter")
 
 An important difference to other CMD solutions is that our commands
 can leverage (besides the standrad definition), docopts as a way to
