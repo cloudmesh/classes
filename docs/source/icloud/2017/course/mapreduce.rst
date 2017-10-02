@@ -17,7 +17,10 @@ features like in-memory support of tasks, data flow separation, and
 portability.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=6vkgvGtyv4Q>`_ (12:01)
-* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfMnpCelpNQUpNdVEG>`_
+
+.. todo: slide is outdated (twister-MDS is missing)
+
+* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfMnpCelpNQUpNdVE>`_
 
 MapReduce
 -------------------------------------------------------------------------------
@@ -29,6 +32,7 @@ example of its use in WordCount. Finally the basic process of MapReduce is
 shown.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=sSIGaDaulvA>`_ (9:07)
+* Slide: `PDF (Page 6-14) <https://drive.google.com/open?id=0B88HKpainTSfMnpCelpNQUpNdVE>`_
 
 Hadoop Framework
 -------------------------------------------------------------------------------
@@ -40,7 +44,7 @@ TaskTracker; the duties of these two intertwined programs are then explored
 more fully.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=Vuroqly6FTE>`_ (8:32)
-
+* Slide: `PDF (Page 15-23) <https://drive.google.com/open?id=0B88HKpainTSfMnpCelpNQUpNdVE>`_
 
 Hadoop Tasks
 -------------------------------------------------------------------------------
@@ -55,6 +59,7 @@ determine the output data format. A final chart illustrates the concept of
 parallelism in MapReduce.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=UN4t3tvdjms>`_ (11:01)
+* Slide: `PDF (Page 24-35) <https://drive.google.com/open?id=0B88HKpainTSfMnpCelpNQUpNdVE>`_
 
 Fault Tolerance
 -------------------------------------------------------------------------------
@@ -66,6 +71,7 @@ number of map and reduce tasks, and what to do when the limit is reached on the
 buffer. The lecture ends with a discussion of class assignments.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=a3AlOTmD42k>`_ (2:45)
+* Slide: `PDF (Page 36-41) <https://drive.google.com/open?id=0B88HKpainTSfMnpCelpNQUpNdVE>`_
 
 
 Programming on a Computer Cluster
@@ -77,7 +83,7 @@ time spans for actions in system requirements is given. The original MapReduce
 was designed to resolve problems like load balancing and machine failures.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=rRR2ALa5CUA>`_ (6:01)
-* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfd3hkTG4yY2FYUVE>`_
+* Slide: `PDF (Page 1-7) <https://drive.google.com/open?id=0B88HKpainTSfd3hkTG4yY2FYUVE>`_
 
 How Hadoop Runs on a MapReduce Job
 -------------------------------------------------------------------------------
@@ -90,6 +96,10 @@ final result. The second Quiz is given at the end.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=KWLY_maNEPA>`_ (9:25)
 
+.. todo: Slide is outdated, quiz2 from video is not addressed in the slide
+
+* Slide: `PDF (Page 8-15) <https://drive.google.com/open?id=0B88HKpainTSfd3hkTG4yY2FYUVE>`_
+
 Literature Review
 -------------------------------------------------------------------------------
 
@@ -100,6 +110,7 @@ topics like data chunks, metadata, and replicas. This is followed by MapReduce
 and BigTable.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=5YmjrhEFQsk>`_ (9:43)
+* Slide: `PDF (Page 16-27) <https://drive.google.com/open?id=0B88HKpainTSfd3hkTG4yY2FYUVE>`_
 
 Introduction to BLAST
 -------------------------------------------------------------------------------
@@ -112,6 +123,7 @@ creation comes from the Seattle Children’s Hospital. BLAST uses scores to find
 similar sequences in databases.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=i3H9HmUYfq8>`_ (8:27)
+* Slide: `PDF (Page 1-12) <https://drive.google.com/open?id=0B88HKpainTSfdnFvY1V3dlFTRlE>`_
 
 BLAST Parallelization
 -------------------------------------------------------------------------------
@@ -123,6 +135,7 @@ many programs are not. Further information about articles featuring BLAST is
 provided at the end.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=isc0MjkwTlk>`_ (4:44)
+* Slide: `PDF (Page 13-19) <https://drive.google.com/open?id=0B88HKpainTSfdnFvY1V3dlFTRlE>`_
 
 
 SIMD vs MIMD;SPMD vs MPMD
@@ -138,7 +151,7 @@ map/reduce pattern. These are all types of SIMD. SPMD and MPMD are two other
 types of model.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=zHQiR56Zmtc>`_ (9:42)
-* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfT28zLTdKYWhGdGM>`_
+.. todo: slide is missing
 
 Data Locality
 -------------------------------------------------------------------------------
@@ -152,6 +165,7 @@ Hadoop determines scheduling of tasks to available slots in terms of best local
 composition, not global.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=RqLA7_asK50>`_ (8:36)
+* Slide: `PDF (Page 10-16) <https://drive.google.com/open?id=0B88HKpainTSfT28zLTdKYWhGdGM>`_
 
 Optimal Data Locality
 -------------------------------------------------------------------------------
@@ -165,6 +179,7 @@ original one in Hadoop. An experiment was run comparing all three, with the
 network topology-aware algorithm clearly outperforming the others.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=Ok8vdrFXo5w>`_ (4:17)
+* Slide: `PDF (Page 17-28) <https://drive.google.com/open?id=0B88HKpainTSfT28zLTdKYWhGdGM>`_
 
 Task Granularity
 -------------------------------------------------------------------------------
@@ -180,7 +195,7 @@ Execution Time can help determine task splitting. Several examples are offered
 with either single or multiple jobs.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=u9UpgTnOZz4>`_ (9:51)
-
+* Slide: `PDF (Page 29-44) <https://drive.google.com/open?id=0B88HKpainTSfT28zLTdKYWhGdGM>`_
 
 Resource Utilization and Speculative Execution
 -------------------------------------------------------------------------------
@@ -194,4 +209,6 @@ tasks can lead to poor data locality and higher energy demands.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=wWyFiqDIYus>`_ (3:52)
 
+.. todo: slide is outdated
 
+* Slide: `PDF (Page 46-53) <https://drive.google.com/open?id=0B88HKpainTSfT28zLTdKYWhGdGM>`_
