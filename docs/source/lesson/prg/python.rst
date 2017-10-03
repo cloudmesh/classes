@@ -239,6 +239,159 @@ You can also ask for help about something using `help()`:
    spacebar to go down a page `w` to go up a page, the arrow keys to
    go up/down line-by-line, or `q` to exit.
 
+Module Management
+------------------
+A module allows you to logically organize your Python code. Grouping
+related code into a module makes the code easier to understand and use.
+A module is a Python object with arbitrarily named attributes that you
+can bind and reference. A module is a file consisting of Python code. A
+module can define functions, classes and variables. A module can also
+include runnable code.
+
+Import Statement
+^^^^^^^^^^^^^^^^
+  When the interpreter encounters an import statement, it imports the
+  module if the module is present in the search path. A search path is a
+  list of directories that the interpreter searches before importing a
+  module.
+  The from...import Statement Python's from statement lets you import
+  specific attributes from a module into the current namespace. The
+  from...import has the following syntax − from modname:
+
+import name1[, name2[, ... nameN]]
+
+When the interpreter encounters an import statement, it imports the
+module if the module is present in the search path. A search path is a
+list of directories that the interpreter searches before importing a
+module.
+
+The from ... import Statement
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Python's from statement lets you import specific attributes from a
+module into the current namespace. The from ... import has the following
+syntax::
+
+::
+
+    from module1 import name1[, name2[, ... nameN]]
+
+Date Time in Python
+-------------------
+The datetime module supplies classes for manipulating dates and times in
+both simple and complex ways. While date and time arithmetic is
+supported, the focus of the implementation is on efficient attribute
+extraction for output formatting and manipulation. For related
+functionality, see also the time and calendar modules.
+
+The import Statement You can use any Python source file as a module by
+executing an import statement in some other Python source file.
+
+.. code:: python
+
+	>>>from datetime import datetime
+
+This module offers a generic date/time string parser which is able to
+parse most known formats to represent a date and/or time.
+
+.. code:: python
+
+    >>>from dateutil.parser import parse
+
+pandas is an open source Python library for data analysis that needs to
+be imported.
+
+.. code:: python
+
+    >>>import pandas as pd
+
+Create a string variable with the class start time
+
+.. code:: python
+
+    >>>fall_start = '08-21-2017'
+	
+Convert the string to datetime format
+
+.. code:: python
+
+    >>>datetime.strptime(fall_start, '%m-%d-%Y')
+    datetime.datetime(2017, 8, 21, 0, 0)
+	
+Creating a list of strings as dates
+
+.. code:: python
+
+    >>>class_dates = ['8/25/2017', '9/1/2017', '9/8/2017', '9/15/2017', '9/22/2017', '9/29/2017']
+	
+Convert Class\_dates strings into datetime format and save the list into
+variable a
+
+.. code:: python
+
+    >>>a = [datetime.strptime(x, '%m/%d/%Y') for x in class_dates]
+	
+Use parse() to attempt to auto-convert common string formats. Parser
+must be a string or character stream, not list.
+
+.. code:: python
+
+    >>>parse(fall_start)
+    datetime.datetime(2017, 8, 21, 0, 0)
+
+Use parse() on every element of the Class\_dates string.
+
+.. code:: python
+
+    >>>[parse(x) for x in class_dates] 
+    [datetime.datetime(2017, 8, 25, 0, 0),
+     datetime.datetime(2017, 9, 1, 0, 0),
+     datetime.datetime(2017, 9, 8, 0, 0),
+     datetime.datetime(2017, 9, 15, 0, 0),
+     datetime.datetime(2017, 9, 22, 0, 0),
+     datetime.datetime(2017, 9, 29, 0, 0)]	
+
+Use parse, but designate that the day is first.
+
+.. code:: python
+
+    >>>parse (fall_start, dayfirst=True)
+    datetime.datetime(2017, 8, 21, 0, 0)
+
+Create a dataframe.A DataFrame is a tablular data structure comprised of
+rows and columns, akin to a spreadsheet, database table. DataFrame as a
+group of Series objects that share an index (the column names).
+
+.. code:: python
+
+    >>>import pandas as pd
+    >>>data = {'class_dates': ['8/25/2017 18:47:05.069722', '9/1/2017 18:47:05.119994', 
+                            '9/8/2017 18:47:05.178768', '9/15/2017 18:47:05.230071', 
+                            '9/22/2017 18:47:05.230071', '9/29/2017 18:47:05.280592'], 
+            'complete': [1, 0, 1, 1, 0, 1]} 
+    >>>df = pd.DataFrame(data, columns = ['class_dates', 'complete'])
+    >>>print(df)
+	                 class_dates  complete
+    0  8/25/2017 18:47:05.069722         1
+    1   9/1/2017 18:47:05.119994         0
+    2   9/8/2017 18:47:05.178768         1
+    3  9/15/2017 18:47:05.230071         1
+    4  9/22/2017 18:47:05.230071         0
+    5  9/29/2017 18:47:05.280592         1
+
+Convert df['date'] from string to datetime
+
+.. code:: python
+
+    >>>import pandas as pd
+    >>>pd.to_datetime(df['class_dates'])
+    0   2017-08-25 18:47:05.069722
+    1   2017-09-01 18:47:05.119994
+    2   2017-09-08 18:47:05.178768
+    3   2017-09-15 18:47:05.230071
+    4   2017-09-22 18:47:05.230071
+    5   2017-09-29 18:47:05.280592
+    Name: class_dates, dtype: datetime64[ns]
+
 Control Statements
 ------------------
 
@@ -1215,6 +1368,10 @@ Additional resources include:
 * http://www.korokithakis.net/tutorials/python/
 * http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
 * http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
+* https://docs.python.org/3.3/tutorial/modules.html
+* https://www.learnpython.org/en/Modules\_and\_Packages
+* https://docs.python.org/2/library/datetime.html
+* https://chrisalbon.com/python/strings\_to\_datetime.html
 
 
 A very long list of useful information are also available from

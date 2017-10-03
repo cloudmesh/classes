@@ -8,7 +8,7 @@ RDBMS vs. NoSQL
 -------------------------------------------------------------------------------
 
 * Video: `Youtube <https://www.youtube.com/watch?v=dJunqER9lb8>`_ (9:22)
-* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfaDFNbjNiMm44bnc>`_
+* Slide: `PDF (Page 1-10) <https://drive.google.com/open?id=0B88HKpainTSfaDFNbjNiMm44bnc>`_
 
 NoSQL Characteristics
 -------------------------------------------------------------------------------
@@ -24,6 +24,7 @@ pros and cons: Key-Value or schema-less. Common advantages of NoSQL include
 their being open source and fault tolerant.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=BjtTDiKhqk8>`_ (10:31)
+* Slide: `PDF (Page 11-26) <https://drive.google.com/open?id=0B88HKpainTSfaDFNbjNiMm44bnc>`_
 
 BigTable
 -------------------------------------------------------------------------------
@@ -36,6 +37,7 @@ BigTable is used in features of Google like their search engine and Google
 Earth.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=JAlz9AI5I-M>`_ (6:55)
+* Slide: `PDF (Page 28-42) <https://drive.google.com/open?id=0B88HKpainTSfaDFNbjNiMm44bnc>`_
 
 HBase
 -------------------------------------------------------------------------------
@@ -48,6 +50,7 @@ well as master and slave nodes. Its place in the architecture of HDFS is shown
 in a diagram.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=i-ibhuVs-ck>`_ (7:37)
+* Slide: `PDF (Page 44-59) <https://drive.google.com/open?id=0B88HKpainTSfaDFNbjNiMm44bnc>`_
 
 HBase Coding
 -------------------------------------------------------------------------------
@@ -56,6 +59,7 @@ This video gives an overview of the code used in the installation of HBase and
 connecting to it.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=KbFMpYRBTtU>`_ (4:30)
+* Slide: `PDF (Page 60-66) <https://drive.google.com/open?id=0B88HKpainTSfaDFNbjNiMm44bnc>`_
 
 Indexing Applications
 -------------------------------------------------------------------------------
@@ -69,7 +73,7 @@ demands specific approaches in terms of search queries. There are three stages
 to this approach: query, analysis, and visualization.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=MxgabfoGH-M>`_ (9:33)
-* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfWUh6dVNHcXloSnc>`_
+* Slide: `PDF (Page 1-10) <https://drive.google.com/open?id=0B88HKpainTSfWUh6dVNHcXloSnc>`_
 
 Related Work
 -------------------------------------------------------------------------------
@@ -82,6 +86,7 @@ retrieve Top ‘n’ most relevant topics. Customizability of indexing among NoS
 databases is desirable.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=NDjAdFSVzxo>`_ (5:56)
+* Slide: `PDF (Page 11-14) <https://drive.google.com/open?id=0B88HKpainTSfWUh6dVNHcXloSnc>`_
 
 Indexamples
 -------------------------------------------------------------------------------
@@ -93,6 +98,7 @@ fields. Index configuration allows for customizability through choice of
 fields, which can be anything from timestamps, text, or retweet status.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=Ec3VFeTGuo8>`_ (8:35)
+* Slide: `PDF (Page 15-19) <https://drive.google.com/open?id=0B88HKpainTSfWUh6dVNHcXloSnc>`_
 
 Indexing 101
 -------------------------------------------------------------------------------
@@ -110,6 +116,7 @@ efficient with small data loads but IndexedHBase proving superior for
 large-scale data.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=eKQaLkw-HBU>`_ (9:53)
+* Slide: `PDF (Page 20-27) <https://drive.google.com/open?id=0B88HKpainTSfWUh6dVNHcXloSnc>`_
 
 Social Media Searches
 -------------------------------------------------------------------------------
@@ -121,6 +128,7 @@ Stack upgrades Hadoop 2.0 with YARN and a new HDFS. A diagram displays an
 indexing setup for social media data with YARN.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=a3tcL-Qw9to>`_ (6:19)
+* Slide: `PDF (Page 28-34) <https://drive.google.com/open?id=0B88HKpainTSfWUh6dVNHcXloSnc>`_
 
 Analysis Algorithms
 -------------------------------------------------------------------------------
@@ -132,3 +140,4 @@ allow for searching only the relevant data. An example is given illustrating
 how this decreases the time needed to search hashtags in Twitter.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=MxoMd4mdshE>`_ (6:57)
+* Slide: `PDF (Page 35-40) <https://drive.google.com/open?id=0B88HKpainTSfWUh6dVNHcXloSnc>`_
