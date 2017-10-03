@@ -15,6 +15,8 @@ the course of a single decade.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=0TRTdzgC_N0>`_ (9:00)
 
+.. todo: slide is missing
+
 Google Search Engine 1
 -------------------------------------------------------------------------------
 
@@ -26,6 +28,10 @@ servers are discussed. Cache servers save previous query results and can bypass
 index/doc servers for repeat queries.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=S2oT7uMw5Yg>`_ (8:04)
+
+.. todo: slide is outdated
+
+* Slide: `PDF (Page 15-20) <https://drive.google.com/open?id=0B88HKpainTSfYWZ0dDlrNThkVms>`_
 
 Google Search Engine 2
 -------------------------------------------------------------------------------
@@ -42,6 +48,10 @@ of the initial Google proposal paper follows.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=pxos3Yt6y6I>`_ (8:32)
 
+.. todo: slide is outdated
+
+* Slide: `PDF (Page 21-26) <https://drive.google.com/open?id=0B88HKpainTSfYWZ0dDlrNThkVms>`_
+
 Hadoop PageRank
 -------------------------------------------------------------------------------
 
@@ -50,7 +60,7 @@ PageRank calculation formula is examined. After this comes an example of its
 performance and further mathematical formulae involved in its application.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=GCp5OLLOrH0>`_ (7:58)
-* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfWFpEZGxqSWRTYms>`_
+* Slide: `PDF (Page 1-9) <https://drive.google.com/open?id=0B88HKpainTSfWFpEZGxqSWRTYms>`_
 
 Discussions & Parallel Thinking
 -------------------------------------------------------------------------------
@@ -68,6 +78,10 @@ including MapReduce.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=ISJp7TUzo1s>`_ (11:12)
 
+.. todo: slide is outdated
+
+* Slide: `PDF (Page 10-21) <https://drive.google.com/open?id=0B88HKpainTSfWFpEZGxqSWRTYms>`_
+
 Hadoop Extensions
 -------------------------------------------------------------------------------
 
@@ -76,8 +90,9 @@ parallel processing. Twister is an iterative map-reduce framework, as are
 Haloop, Spark and Pregel. A comparison of their features and capabilities is
 included.
 
-
 * Video: `Youtube <https://www.youtube.com/watch?v=gS7TImRZZ1g>`_ (5:37)
+
+.. todo: slide is missing
 
 Iterative MapReduce Models
 -------------------------------------------------------------------------------
@@ -90,7 +105,7 @@ is an MPI model used in computation and communication of scientific
 applications.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=CXDdWmAWIvk>`_ (6:46)
-* Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfMFBaNHprbWJwQms>`_
+* Slide: `PDF (Page 1-3) <https://drive.google.com/open?id=0B88HKpainTSfMFBaNHprbWJwQms>`_
 
 Parallel Processes
 -------------------------------------------------------------------------------
@@ -106,6 +121,7 @@ scheduling, and fault tolerance. Versions of MapReduce like Hadoop, Dryad and
 MPI boast different features and programming languages.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=JAYvkIZ8TuE>`_ (9:44)
+* Slide: `PDF (Page 4-9) <https://drive.google.com/open?id=0B88HKpainTSfMFBaNHprbWJwQms>`_
 
 Static and Variable Data
 -------------------------------------------------------------------------------
@@ -130,6 +146,7 @@ reserved for failures that terminate running tasks. Static data can then be
 used to reassign the failed iterations. A list of Twister APIs is given.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=UJHQ3VvWOTA>`_ (11:01)
+* Slide: `PDF (Page 10-23) <https://drive.google.com/open?id=0B88HKpainTSfMFBaNHprbWJwQms>`_
 
 MapReduce Model Comparison
 -------------------------------------------------------------------------------
@@ -143,6 +160,7 @@ Multiplication Algorithms. In all cases, Twister outperforms or is close to the
 competition.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=n7RVGrC-wcs>`_ (6:56)
+* Slide: `PDF (Page 24-33) <https://drive.google.com/open?id=0B88HKpainTSfMFBaNHprbWJwQms>`_
 
 Twister K-means
 -------------------------------------------------------------------------------
@@ -160,6 +178,7 @@ set of runs against Hadoop, DryadLINQ, and MPI, Twister outperforms all but
 MPI.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=-G5jlzABo-Y>`_ (7:28)
+* Slide: `PDF (Page 34-42) <https://drive.google.com/open?id=0B88HKpainTSfMFBaNHprbWJwQms>`_
 
 Coding & Iterative Alternatives
 -------------------------------------------------------------------------------
@@ -170,4 +189,5 @@ iterative versions like Haloop, Pregel, and Spark. Twister can extend the use
 of traditional MapReduce to more complex applications.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=QTCpiwnwjvo>`_ (5:14)
+* Slide: `PDF (Page 43-51) <https://drive.google.com/open?id=0B88HKpainTSfMFBaNHprbWJwQms>`_
 
