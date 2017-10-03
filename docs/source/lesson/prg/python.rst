@@ -355,7 +355,7 @@ Use parse, but designate that the day is first.
 .. code:: python
 
     >>>parse (fall_start, dayfirst=True)
-	datetime.datetime(2017, 8, 21, 0, 0)
+    datetime.datetime(2017, 8, 21, 0, 0)
 
 Create a dataframe.A DataFrame is a tablular data structure comprised of
 rows and columns, akin to a spreadsheet, database table. DataFrame as a
@@ -384,7 +384,7 @@ Convert df['date'] from string to datetime
 
     >>>import pandas as pd
     >>>pd.to_datetime(df['class_dates'])
-	0   2017-08-25 18:47:05.069722
+    0   2017-08-25 18:47:05.069722
     1   2017-09-01 18:47:05.119994
     2   2017-09-08 18:47:05.178768
     3   2017-09-15 18:47:05.230071
