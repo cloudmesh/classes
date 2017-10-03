@@ -30,7 +30,7 @@ Using Piazza
 
 Optional Assignment:
 
-* Buy Hardware for Iot https://piazza.com/class/j5wll7vzylg25j?cid=55
+* Buy Hardware for IoT https://piazza.com/class/j5wll7vzylg25j?cid=55
 
 
   
@@ -120,9 +120,9 @@ Week 5
    * E: Experimenting with MQTT https://piazza.com/class/j5wll7vzylg25j?cid=238
    * E: Experimenting with Graphs https://piazza.com/class/j5wll7vzylg25j?cid=239
    * E: Experimenting with IoT sculptures https://piazza.com/class/j5wll7vzylg25j?cid=241
-   * E: Build a camera enhanced Raspbery Pi robot car https://piazza.com/class/j5wll7vzylg25j?cid=242
+   * E: Build a camera enhanced Raspberry Pi robot car https://piazza.com/class/j5wll7vzylg25j?cid=242
 
-   * E: Build a Raspbery PI docker swarm cluster https://piazza.com/class/j5wll7vzylg25j?cid=243
+   * E: Build a Raspberry PI docker swarm cluster https://piazza.com/class/j5wll7vzylg25j?cid=243
 
 
 Week 6

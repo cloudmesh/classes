@@ -26,7 +26,7 @@
     <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="4.3.27. CMD5" href="python-cmd5.html" />
+    <link rel="next" title="4.3.29. CMD5" href="python-cmd5.html" />
     <link rel="prev" title="4.3.2. Python Installation" href="python-install.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -241,45 +241,51 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#repl-read-eval-print-loop">4.3.8. REPL (Read Eval Print Loop)</a></li>
-<li><a class="reference internal" href="#control-statements">4.3.9. Control Statements</a><ul>
-<li><a class="reference internal" href="#comparision">4.3.9.1. Comparision</a></li>
-<li><a class="reference internal" href="#iteration">4.3.9.2. Iteration</a></li>
+<li><a class="reference internal" href="#module-management">4.3.9. Module Management</a><ul>
+<li><a class="reference internal" href="#import-statement">4.3.9.1. Import Statement</a></li>
+<li><a class="reference internal" href="#the-from-import-statement">4.3.9.2. The from … import Statement</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#datatypes">4.3.10. Datatypes</a><ul>
-<li><a class="reference internal" href="#lists">4.3.10.1. Lists</a></li>
-<li><a class="reference internal" href="#sets">4.3.10.2. Sets</a></li>
-<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">4.3.10.3. Removal and Testing for Membership in Sets</a></li>
-<li><a class="reference internal" href="#dictionaries">4.3.10.4. Dictionaries</a></li>
-<li><a class="reference internal" href="#dictionary-keys-and-values">4.3.10.5. Dictionary Keys and Values</a></li>
-<li><a class="reference internal" href="#counting-with-dictionaries">4.3.10.6. Counting with Dictionaries</a></li>
+<li><a class="reference internal" href="#date-time-in-python">4.3.10. Date Time in Python</a></li>
+<li><a class="reference internal" href="#control-statements">4.3.11. Control Statements</a><ul>
+<li><a class="reference internal" href="#comparision">4.3.11.1. Comparision</a></li>
+<li><a class="reference internal" href="#iteration">4.3.11.2. Iteration</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#functions">4.3.11. Functions</a></li>
-<li><a class="reference internal" href="#classes">4.3.12. Classes</a></li>
-<li><a class="reference internal" href="#database-access">4.3.13. Database Access</a></li>
-<li><a class="reference internal" href="#modules">4.3.14. Modules</a></li>
-<li><a class="reference internal" href="#installing-libraries">4.3.15. Installing Libraries</a></li>
-<li><a class="reference internal" href="#using-pip-to-install-packages">4.3.16. Using pip to Install Packages</a></li>
-<li><a class="reference internal" href="#gui">4.3.17. GUI</a><ul>
-<li><a class="reference internal" href="#guizero">4.3.17.1. GUIZero</a></li>
-<li><a class="reference internal" href="#kivy">4.3.17.2. Kivy</a></li>
+<li><a class="reference internal" href="#datatypes">4.3.12. Datatypes</a><ul>
+<li><a class="reference internal" href="#lists">4.3.12.1. Lists</a></li>
+<li><a class="reference internal" href="#sets">4.3.12.2. Sets</a></li>
+<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">4.3.12.3. Removal and Testing for Membership in Sets</a></li>
+<li><a class="reference internal" href="#dictionaries">4.3.12.4. Dictionaries</a></li>
+<li><a class="reference internal" href="#dictionary-keys-and-values">4.3.12.5. Dictionary Keys and Values</a></li>
+<li><a class="reference internal" href="#counting-with-dictionaries">4.3.12.6. Counting with Dictionaries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#formatting-and-checking-python-code">4.3.18. Formatting and Checking Python Code</a></li>
-<li><a class="reference internal" href="#using-autopep8">4.3.19. Using autopep8</a></li>
-<li><a class="reference internal" href="#further-learning">4.3.20. Further Learning</a></li>
-<li><a class="reference internal" href="#writing-python-3-compatible-code">4.3.21. Writing Python 3 Compatible Code</a></li>
-<li><a class="reference internal" href="#using-python-on-futuresystems">4.3.22. Using Python on FutureSystems</a></li>
-<li><a class="reference internal" href="#ecosystem">4.3.23. Ecosystem</a><ul>
-<li><a class="reference internal" href="#pypi">4.3.23.1. pypi</a></li>
-<li><a class="reference internal" href="#alternative-installations">4.3.23.2. Alternative Installations</a></li>
-<li><a class="reference internal" href="#autoenv-directory-based-environments">4.3.23.3. Autoenv: Directory-based Environments</a></li>
+<li><a class="reference internal" href="#functions">4.3.13. Functions</a></li>
+<li><a class="reference internal" href="#classes">4.3.14. Classes</a></li>
+<li><a class="reference internal" href="#database-access">4.3.15. Database Access</a></li>
+<li><a class="reference internal" href="#modules">4.3.16. Modules</a></li>
+<li><a class="reference internal" href="#installing-libraries">4.3.17. Installing Libraries</a></li>
+<li><a class="reference internal" href="#using-pip-to-install-packages">4.3.18. Using pip to Install Packages</a></li>
+<li><a class="reference internal" href="#gui">4.3.19. GUI</a><ul>
+<li><a class="reference internal" href="#guizero">4.3.19.1. GUIZero</a></li>
+<li><a class="reference internal" href="#kivy">4.3.19.2. Kivy</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#resources">4.3.24. Resources</a></li>
-<li><a class="reference internal" href="#jupyter-notebook-tutorials">4.3.25. Jupyter Notebook Tutorials</a></li>
-<li><a class="reference internal" href="#exercises">4.3.26. Exercises</a></li>
+<li><a class="reference internal" href="#formatting-and-checking-python-code">4.3.20. Formatting and Checking Python Code</a></li>
+<li><a class="reference internal" href="#using-autopep8">4.3.21. Using autopep8</a></li>
+<li><a class="reference internal" href="#further-learning">4.3.22. Further Learning</a></li>
+<li><a class="reference internal" href="#writing-python-3-compatible-code">4.3.23. Writing Python 3 Compatible Code</a></li>
+<li><a class="reference internal" href="#using-python-on-futuresystems">4.3.24. Using Python on FutureSystems</a></li>
+<li><a class="reference internal" href="#ecosystem">4.3.25. Ecosystem</a><ul>
+<li><a class="reference internal" href="#pypi">4.3.25.1. pypi</a></li>
+<li><a class="reference internal" href="#alternative-installations">4.3.25.2. Alternative Installations</a></li>
+<li><a class="reference internal" href="#autoenv-directory-based-environments">4.3.25.3. Autoenv: Directory-based Environments</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources">4.3.26. Resources</a></li>
+<li><a class="reference internal" href="#jupyter-notebook-tutorials">4.3.27. Jupyter Notebook Tutorials</a></li>
+<li><a class="reference internal" href="#exercises">4.3.28. Exercises</a></li>
 </ul>
 </ul>
 </li>
@@ -482,45 +488,51 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#repl-read-eval-print-loop">4.3.8. REPL (Read Eval Print Loop)</a></li>
-<li><a class="reference internal" href="#control-statements">4.3.9. Control Statements</a><ul>
-<li><a class="reference internal" href="#comparision">4.3.9.1. Comparision</a></li>
-<li><a class="reference internal" href="#iteration">4.3.9.2. Iteration</a></li>
+<li><a class="reference internal" href="#module-management">4.3.9. Module Management</a><ul>
+<li><a class="reference internal" href="#import-statement">4.3.9.1. Import Statement</a></li>
+<li><a class="reference internal" href="#the-from-import-statement">4.3.9.2. The from … import Statement</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#datatypes">4.3.10. Datatypes</a><ul>
-<li><a class="reference internal" href="#lists">4.3.10.1. Lists</a></li>
-<li><a class="reference internal" href="#sets">4.3.10.2. Sets</a></li>
-<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">4.3.10.3. Removal and Testing for Membership in Sets</a></li>
-<li><a class="reference internal" href="#dictionaries">4.3.10.4. Dictionaries</a></li>
-<li><a class="reference internal" href="#dictionary-keys-and-values">4.3.10.5. Dictionary Keys and Values</a></li>
-<li><a class="reference internal" href="#counting-with-dictionaries">4.3.10.6. Counting with Dictionaries</a></li>
+<li><a class="reference internal" href="#date-time-in-python">4.3.10. Date Time in Python</a></li>
+<li><a class="reference internal" href="#control-statements">4.3.11. Control Statements</a><ul>
+<li><a class="reference internal" href="#comparision">4.3.11.1. Comparision</a></li>
+<li><a class="reference internal" href="#iteration">4.3.11.2. Iteration</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#functions">4.3.11. Functions</a></li>
-<li><a class="reference internal" href="#classes">4.3.12. Classes</a></li>
-<li><a class="reference internal" href="#database-access">4.3.13. Database Access</a></li>
-<li><a class="reference internal" href="#modules">4.3.14. Modules</a></li>
-<li><a class="reference internal" href="#installing-libraries">4.3.15. Installing Libraries</a></li>
-<li><a class="reference internal" href="#using-pip-to-install-packages">4.3.16. Using pip to Install Packages</a></li>
-<li><a class="reference internal" href="#gui">4.3.17. GUI</a><ul>
-<li><a class="reference internal" href="#guizero">4.3.17.1. GUIZero</a></li>
-<li><a class="reference internal" href="#kivy">4.3.17.2. Kivy</a></li>
+<li><a class="reference internal" href="#datatypes">4.3.12. Datatypes</a><ul>
+<li><a class="reference internal" href="#lists">4.3.12.1. Lists</a></li>
+<li><a class="reference internal" href="#sets">4.3.12.2. Sets</a></li>
+<li><a class="reference internal" href="#removal-and-testing-for-membership-in-sets">4.3.12.3. Removal and Testing for Membership in Sets</a></li>
+<li><a class="reference internal" href="#dictionaries">4.3.12.4. Dictionaries</a></li>
+<li><a class="reference internal" href="#dictionary-keys-and-values">4.3.12.5. Dictionary Keys and Values</a></li>
+<li><a class="reference internal" href="#counting-with-dictionaries">4.3.12.6. Counting with Dictionaries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#formatting-and-checking-python-code">4.3.18. Formatting and Checking Python Code</a></li>
-<li><a class="reference internal" href="#using-autopep8">4.3.19. Using autopep8</a></li>
-<li><a class="reference internal" href="#further-learning">4.3.20. Further Learning</a></li>
-<li><a class="reference internal" href="#writing-python-3-compatible-code">4.3.21. Writing Python 3 Compatible Code</a></li>
-<li><a class="reference internal" href="#using-python-on-futuresystems">4.3.22. Using Python on FutureSystems</a></li>
-<li><a class="reference internal" href="#ecosystem">4.3.23. Ecosystem</a><ul>
-<li><a class="reference internal" href="#pypi">4.3.23.1. pypi</a></li>
-<li><a class="reference internal" href="#alternative-installations">4.3.23.2. Alternative Installations</a></li>
-<li><a class="reference internal" href="#autoenv-directory-based-environments">4.3.23.3. Autoenv: Directory-based Environments</a></li>
+<li><a class="reference internal" href="#functions">4.3.13. Functions</a></li>
+<li><a class="reference internal" href="#classes">4.3.14. Classes</a></li>
+<li><a class="reference internal" href="#database-access">4.3.15. Database Access</a></li>
+<li><a class="reference internal" href="#modules">4.3.16. Modules</a></li>
+<li><a class="reference internal" href="#installing-libraries">4.3.17. Installing Libraries</a></li>
+<li><a class="reference internal" href="#using-pip-to-install-packages">4.3.18. Using pip to Install Packages</a></li>
+<li><a class="reference internal" href="#gui">4.3.19. GUI</a><ul>
+<li><a class="reference internal" href="#guizero">4.3.19.1. GUIZero</a></li>
+<li><a class="reference internal" href="#kivy">4.3.19.2. Kivy</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#resources">4.3.24. Resources</a></li>
-<li><a class="reference internal" href="#jupyter-notebook-tutorials">4.3.25. Jupyter Notebook Tutorials</a></li>
-<li><a class="reference internal" href="#exercises">4.3.26. Exercises</a></li>
+<li><a class="reference internal" href="#formatting-and-checking-python-code">4.3.20. Formatting and Checking Python Code</a></li>
+<li><a class="reference internal" href="#using-autopep8">4.3.21. Using autopep8</a></li>
+<li><a class="reference internal" href="#further-learning">4.3.22. Further Learning</a></li>
+<li><a class="reference internal" href="#writing-python-3-compatible-code">4.3.23. Writing Python 3 Compatible Code</a></li>
+<li><a class="reference internal" href="#using-python-on-futuresystems">4.3.24. Using Python on FutureSystems</a></li>
+<li><a class="reference internal" href="#ecosystem">4.3.25. Ecosystem</a><ul>
+<li><a class="reference internal" href="#pypi">4.3.25.1. pypi</a></li>
+<li><a class="reference internal" href="#alternative-installations">4.3.25.2. Alternative Installations</a></li>
+<li><a class="reference internal" href="#autoenv-directory-based-environments">4.3.25.3. Autoenv: Directory-based Environments</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources">4.3.26. Resources</a></li>
+<li><a class="reference internal" href="#jupyter-notebook-tutorials">4.3.27. Jupyter Notebook Tutorials</a></li>
+<li><a class="reference internal" href="#exercises">4.3.28. Exercises</a></li>
 </ul>
 <p></p>
 <hr>
@@ -757,10 +769,139 @@ spacebar to go down a page <cite>w</cite> to go up a page, the arrow keys to
 go up/down line-by-line, or <cite>q</cite> to exit.</p>
 </div>
 </div>
+<div class="section" id="module-management">
+<h1>4.3.9. Module Management<a class="headerlink" href="#module-management" title="Permalink to this headline">¶</a></h1>
+<p>A module allows you to logically organize your Python code. Grouping
+related code into a module makes the code easier to understand and use.
+A module is a Python object with arbitrarily named attributes that you
+can bind and reference. A module is a file consisting of Python code. A
+module can define functions, classes and variables. A module can also
+include runnable code.</p>
+<div class="section" id="import-statement">
+<h2>4.3.9.1. Import Statement<a class="headerlink" href="#import-statement" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>When the interpreter encounters an import statement, it imports the
+module if the module is present in the search path. A search path is a
+list of directories that the interpreter searches before importing a
+module.
+The from…import Statement Python’s from statement lets you import
+specific attributes from a module into the current namespace. The
+from…import has the following syntax − from modname:</div></blockquote>
+<p>import name1[, name2[, … nameN]]</p>
+<p>When the interpreter encounters an import statement, it imports the
+module if the module is present in the search path. A search path is a
+list of directories that the interpreter searches before importing a
+module.</p>
+</div>
+<div class="section" id="the-from-import-statement">
+<h2>4.3.9.2. The from … import Statement<a class="headerlink" href="#the-from-import-statement" title="Permalink to this headline">¶</a></h2>
+<p>Python’s from statement lets you import specific attributes from a
+module into the current namespace. The from … import has the following
+syntax:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">::</span>
+</pre></div>
+</div>
+<blockquote>
+<div>from module1 import name1[, name2[, … nameN]]</div></blockquote>
+</div>
+</div>
+<div class="section" id="date-time-in-python">
+<h1>4.3.10. Date Time in Python<a class="headerlink" href="#date-time-in-python" title="Permalink to this headline">¶</a></h1>
+<p>The datetime module supplies classes for manipulating dates and times in
+both simple and complex ways. While date and time arithmetic is
+supported, the focus of the implementation is on efficient attribute
+extraction for output formatting and manipulation. For related
+functionality, see also the time and calendar modules.</p>
+<p>The import Statement You can use any Python source file as a module by
+executing an import statement in some other Python source file.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;from datetime import datetime</span>
+</pre></div>
+</div>
+<p>This module offers a generic date/time string parser which is able to
+parse most known formats to represent a date and/or time.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;from dateutil.parser import parse</span>
+</pre></div>
+</div>
+<p>pandas is an open source Python library for data analysis that needs to
+be imported.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;import pandas as pd</span>
+</pre></div>
+</div>
+<p>Create a string variable with the class start time</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;fall_start = &#39;08-21-2017&#39;</span>
+</pre></div>
+</div>
+<p>Convert the string to datetime format</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;datetime.strptime(fall_start, &#39;%m-%d-%Y&#39;)</span>
+<span class="go">datetime.datetime(2017, 8, 21, 0, 0)</span>
+</pre></div>
+</div>
+<p>Creating a list of strings as dates</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;class_dates = [&#39;8/25/2017&#39;, &#39;9/1/2017&#39;, &#39;9/8/2017&#39;, &#39;9/15/2017&#39;, &#39;9/22/2017&#39;, &#39;9/29/2017&#39;]</span>
+</pre></div>
+</div>
+<p>Convert Class_dates strings into datetime format and save the list into
+variable a</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;a = [datetime.strptime(x, &#39;%m/%d/%Y&#39;) for x in class_dates]</span>
+</pre></div>
+</div>
+<p>Use parse() to attempt to auto-convert common string formats. Parser
+must be a string or character stream, not list.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;parse(fall_start)</span>
+<span class="go">datetime.datetime(2017, 8, 21, 0, 0)</span>
+</pre></div>
+</div>
+<p>Use parse() on every element of the Class_dates string.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;[parse(x) for x in class_dates]</span>
+<span class="go">[datetime.datetime(2017, 8, 25, 0, 0),</span>
+<span class="go"> datetime.datetime(2017, 9, 1, 0, 0),</span>
+<span class="go"> datetime.datetime(2017, 9, 8, 0, 0),</span>
+<span class="go"> datetime.datetime(2017, 9, 15, 0, 0),</span>
+<span class="go"> datetime.datetime(2017, 9, 22, 0, 0),</span>
+<span class="go"> datetime.datetime(2017, 9, 29, 0, 0)]</span>
+</pre></div>
+</div>
+<p>Use parse, but designate that the day is first.</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;parse (fall_start, dayfirst=True)</span>
+<span class="go">datetime.datetime(2017, 8, 21, 0, 0)</span>
+</pre></div>
+</div>
+<p>Create a dataframe.A DataFrame is a tablular data structure comprised of
+rows and columns, akin to a spreadsheet, database table. DataFrame as a
+group of Series objects that share an index (the column names).</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;import pandas as pd</span>
+<span class="go">&gt;&gt;&gt;data = {&#39;class_dates&#39;: [&#39;8/25/2017 18:47:05.069722&#39;, &#39;9/1/2017 18:47:05.119994&#39;,</span>
+<span class="go">                        &#39;9/8/2017 18:47:05.178768&#39;, &#39;9/15/2017 18:47:05.230071&#39;,</span>
+<span class="go">                        &#39;9/22/2017 18:47:05.230071&#39;, &#39;9/29/2017 18:47:05.280592&#39;],</span>
+<span class="go">        &#39;complete&#39;: [1, 0, 1, 1, 0, 1]}</span>
+<span class="go">&gt;&gt;&gt;df = pd.DataFrame(data, columns = [&#39;class_dates&#39;, &#39;complete&#39;])</span>
+<span class="go">&gt;&gt;&gt;print(df)</span>
+<span class="go">                     class_dates  complete</span>
+<span class="go">0  8/25/2017 18:47:05.069722         1</span>
+<span class="go">1   9/1/2017 18:47:05.119994         0</span>
+<span class="go">2   9/8/2017 18:47:05.178768         1</span>
+<span class="go">3  9/15/2017 18:47:05.230071         1</span>
+<span class="go">4  9/22/2017 18:47:05.230071         0</span>
+<span class="go">5  9/29/2017 18:47:05.280592         1</span>
+</pre></div>
+</div>
+<p>Convert df[‘date’] from string to datetime</p>
+<div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;import pandas as pd</span>
+<span class="go">&gt;&gt;&gt;pd.to_datetime(df[&#39;class_dates&#39;])</span>
+<span class="go">0   2017-08-25 18:47:05.069722</span>
+<span class="go">1   2017-09-01 18:47:05.119994</span>
+<span class="go">2   2017-09-08 18:47:05.178768</span>
+<span class="go">3   2017-09-15 18:47:05.230071</span>
+<span class="go">4   2017-09-22 18:47:05.230071</span>
+<span class="go">5   2017-09-29 18:47:05.280592</span>
+<span class="go">Name: class_dates, dtype: datetime64[ns]</span>
+</pre></div>
+</div>
+</div>
 <div class="section" id="control-statements">
-<h1>4.3.9. Control Statements<a class="headerlink" href="#control-statements" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.11. Control Statements<a class="headerlink" href="#control-statements" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="comparision">
-<h2>4.3.9.1. Comparision<a class="headerlink" href="#comparision" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.11.1. Comparision<a class="headerlink" href="#comparision" title="Permalink to this headline">¶</a></h2>
 <p>Computer programs do not only execute instructions. Occasionally, a
 choice needs to be made. Such as a choice is based on a
 condition. Python has several conditional operators:</p>
@@ -793,7 +934,7 @@ execute multiple conditions using the <cite>elif</cite> and <cite>else</cite> ke
 </div>
 </div>
 <div class="section" id="iteration">
-<h2>4.3.9.2. Iteration<a class="headerlink" href="#iteration" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.11.2. Iteration<a class="headerlink" href="#iteration" title="Permalink to this headline">¶</a></h2>
 <p>To repeat code, the <cite>for</cite> keyword can be used. For example, to
 display the numbers from 1 to 10, we could write something like this:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
@@ -824,9 +965,9 @@ the entire coordinate range (0,0) to (9,9)</p>
 </div>
 </div>
 <div class="section" id="datatypes">
-<h1>4.3.10. Datatypes<a class="headerlink" href="#datatypes" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.12. Datatypes<a class="headerlink" href="#datatypes" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="lists">
-<h2>4.3.10.1. Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.12.1. Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h2>
 <p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_lists.htm">https://www.tutorialspoint.com/python/python_lists.htm</a></p>
 <p>Lists in Python are ordered sequences of elements, where each element
 can be accessed using a 0-based index.</p>
@@ -913,7 +1054,7 @@ creates a list of numbers:</p>
 </div>
 </div>
 <div class="section" id="sets">
-<h2>4.3.10.2. Sets<a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.12.2. Sets<a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h2>
 <p>Python lists can contain duplicates as you saw above:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Albert&#39;</span><span class="p">,</span> <span class="s1">&#39;Jane&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Abby&#39;</span><span class="p">,</span> <span class="s1">&#39;Liz&#39;</span><span class="p">]</span>
 </pre></div>
@@ -956,7 +1097,7 @@ check containment. You can read about this in the <a class="reference external" 
 documentation for sets</a>.</p>
 </div>
 <div class="section" id="removal-and-testing-for-membership-in-sets">
-<h2>4.3.10.3. Removal and Testing for Membership in Sets<a class="headerlink" href="#removal-and-testing-for-membership-in-sets" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.12.3. Removal and Testing for Membership in Sets<a class="headerlink" href="#removal-and-testing-for-membership-in-sets" title="Permalink to this headline">¶</a></h2>
 <p>One important advantage of a <em>set</em> over a <em>list</em> is that <strong>access to
 elements is fast</strong>. If you are familiar with different data structures
 from a Computer Science class, the Python list is implemented by an
@@ -985,7 +1126,7 @@ is orders of magnitude faster than in a list. This is important to
 keep in mind when you work with large amounts of data.</p>
 </div>
 <div class="section" id="dictionaries">
-<h2>4.3.10.4. Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.12.4. Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h2>
 <p>One of the very important data structures in python is a dictionary
 also referred to as <em>dict</em>.</p>
 <p>A dictionary represents a key value store:</p>
@@ -1022,7 +1163,7 @@ also referred to as <em>dict</em>.</p>
 </div>
 </div>
 <div class="section" id="dictionary-keys-and-values">
-<h2>4.3.10.5. Dictionary Keys and Values<a class="headerlink" href="#dictionary-keys-and-values" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.12.5. Dictionary Keys and Values<a class="headerlink" href="#dictionary-keys-and-values" title="Permalink to this headline">¶</a></h2>
 <p>You can retrieve both the keys and values of a dictionary using the
 <cite>keys()</cite> and <cite>values()</cite> methods of the dictionary, respectively:</p>
 <div class="code python highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
@@ -1046,7 +1187,7 @@ the same correspondence in general as long as <strong>`keys()` and
 `values()` are called one right after the other</strong>.</p>
 </div>
 <div class="section" id="counting-with-dictionaries">
-<h2>4.3.10.6. Counting with Dictionaries<a class="headerlink" href="#counting-with-dictionaries" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.12.6. Counting with Dictionaries<a class="headerlink" href="#counting-with-dictionaries" title="Permalink to this headline">¶</a></h2>
 <p>One application of dictionaries that frequently comes up is counting
 the elements in a sequence. For example, say we have a sequence of
 coin flips:</p>
@@ -1090,7 +1231,7 @@ of coin flips. <cite>sum</cite> is one of many built-in function you can
 </div>
 </div>
 <div class="section" id="functions">
-<h1>4.3.11. Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.13. Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h1>
 <p>You can reuse code by putting it inside a function that you can call
 in other parts of your programs. Functions are also a good way of
 grouping code that logically belongs together in one coherent whole. A
@@ -1127,7 +1268,7 @@ so it can be reused.</p>
 </div>
 </div>
 <div class="section" id="classes">
-<span id="doc-python-intro-sec-classes"></span><h1>4.3.12. Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h1>
+<span id="doc-python-intro-sec-classes"></span><h1>4.3.14. Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h1>
 <p>A class is an encapsulation of data and the processes that work on
 them. The data is represented in member variables, and the processes
 are defined in the methods of the class (methods are functions inside
@@ -1165,11 +1306,11 @@ however we can not cover all of them in a quick tutorial, so please
 refer to the <a class="reference external" href="https://docs.python.org/2.7/tutorial/classes.html">Python docs on classes and OOP</a>.</p>
 </div>
 <div class="section" id="database-access">
-<h1>4.3.13. Database Access<a class="headerlink" href="#database-access" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.15. Database Access<a class="headerlink" href="#database-access" title="Permalink to this headline">¶</a></h1>
 <p>see: <a class="reference external" href="https://www.tutorialspoint.com/python/python_database_access.htm">https://www.tutorialspoint.com/python/python_database_access.htm</a></p>
 </div>
 <div class="section" id="modules">
-<h1>4.3.14. Modules<a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.16. Modules<a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h1>
 <p>Make sure you are no longer in the interactive interpreter.
 If you are you can type <cite>quit()</cite> and press Enter to exit.</p>
 <p>You can save your programs to files which the interpreter can then
@@ -1266,7 +1407,7 @@ to insert values into the string we are displaying.</li>
 </ol>
 </div>
 <div class="section" id="installing-libraries">
-<h1>4.3.15. Installing Libraries<a class="headerlink" href="#installing-libraries" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.17. Installing Libraries<a class="headerlink" href="#installing-libraries" title="Permalink to this headline">¶</a></h1>
 <p>Often you may need functionality that is not present in Python’s
 standard library.  In this case you have two option:</p>
 <ul class="simple">
@@ -1282,7 +1423,7 @@ allow us to illustrate the use if virtual environments using the
 PyPi packages using <cite>pip</cite>.</p>
 </div>
 <div class="section" id="using-pip-to-install-packages">
-<h1>4.3.16. Using pip to Install Packages<a class="headerlink" href="#using-pip-to-install-packages" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.18. Using pip to Install Packages<a class="headerlink" href="#using-pip-to-install-packages" title="Permalink to this headline">¶</a></h1>
 <p>Let’s now look at another important tool for Python development: the
 Python Package Index, or PyPI for short.  PyPI provides a large set of
 third-party python packages.  If you want to do something in python,
@@ -1307,9 +1448,9 @@ patched urllib3 on Python 2.7.9.</p>
 </div>
 </div>
 <div class="section" id="gui">
-<h1>4.3.17. GUI<a class="headerlink" href="#gui" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.19. GUI<a class="headerlink" href="#gui" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="guizero">
-<h2>4.3.17.1. GUIZero<a class="headerlink" href="#guizero" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.19.1. GUIZero<a class="headerlink" href="#guizero" title="Permalink to this headline">¶</a></h2>
 <p>Install guizero with the following command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">pip3</span> <span class="n">install</span> <span class="n">guizero</span>
 </pre></div>
@@ -1318,7 +1459,7 @@ patched urllib3 on Python 2.7.9.</p>
 here</a>.</p>
 </div>
 <div class="section" id="kivy">
-<h2>4.3.17.2. Kivy<a class="headerlink" href="#kivy" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.19.2. Kivy<a class="headerlink" href="#kivy" title="Permalink to this headline">¶</a></h2>
 <p>You can install Kivy on OSX as followes:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">brew</span> <span class="n">install</span> <span class="n">pkg</span><span class="o">-</span><span class="n">config</span> <span class="n">sdl2</span> <span class="n">sdl2_image</span> <span class="n">sdl2_ttf</span> <span class="n">sdl2_mixer</span> <span class="n">gstreamer</span>
 <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">U</span> <span class="n">Cython</span>
@@ -1344,7 +1485,7 @@ cloudmesh.robot as follows:</p>
 </div>
 </div>
 <div class="section" id="formatting-and-checking-python-code">
-<span id="virtual-environments"></span><h1>4.3.18. Formatting and Checking Python Code<a class="headerlink" href="#formatting-and-checking-python-code" title="Permalink to this headline">¶</a></h1>
+<span id="virtual-environments"></span><h1>4.3.20. Formatting and Checking Python Code<a class="headerlink" href="#formatting-and-checking-python-code" title="Permalink to this headline">¶</a></h1>
 <p>First, get the bad code:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ wget --no-check-certificate http://git.io/pXqb -O bad_code_example.py
 </pre></div>
@@ -1359,7 +1500,7 @@ this is a common problem so there exist a couple packages to help in
 this situation.</p>
 </div>
 <div class="section" id="using-autopep8">
-<h1>4.3.19. Using autopep8<a class="headerlink" href="#using-autopep8" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.21. Using autopep8<a class="headerlink" href="#using-autopep8" title="Permalink to this headline">¶</a></h1>
 <p>We can now run the bad code through autopep8 to fix formatting
 problems:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>$ autopep8 bad_code_example.py &gt;code_example_autopep8.py
@@ -1379,7 +1520,7 @@ $ autopep8 -i file.py # update in place
 while p;ressing on <cite>Inspect Code</cite>.</p>
 </div>
 <div class="section" id="further-learning">
-<h1>4.3.20. Further Learning<a class="headerlink" href="#further-learning" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.22. Further Learning<a class="headerlink" href="#further-learning" title="Permalink to this headline">¶</a></h1>
 <p>There is much more to python than what we have covered here:</p>
 <ul class="simple">
 <li>conditional expression (<cite>if</cite>, <cite>if…then</cite>,`if..elif..then`)</li>
@@ -1395,12 +1536,12 @@ while p;ressing on <cite>Inspect Code</cite>.</p>
 </ul>
 </div>
 <div class="section" id="writing-python-3-compatible-code">
-<h1>4.3.21. Writing Python 3 Compatible Code<a class="headerlink" href="#writing-python-3-compatible-code" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.23. Writing Python 3 Compatible Code<a class="headerlink" href="#writing-python-3-compatible-code" title="Permalink to this headline">¶</a></h1>
 <p>To write python 2 and 3 compatib;e code we recommend that you take a
 look at: <a class="reference external" href="http://python-future.org/compatible_idioms.html">http://python-future.org/compatible_idioms.html</a></p>
 </div>
 <div class="section" id="using-python-on-futuresystems">
-<h1>4.3.22. Using Python on FutureSystems<a class="headerlink" href="#using-python-on-futuresystems" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.24. Using Python on FutureSystems<a class="headerlink" href="#using-python-on-futuresystems" title="Permalink to this headline">¶</a></h1>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">This is only important if you use Futuresystems resources.</p>
@@ -1419,9 +1560,9 @@ in the future lesson <span class="xref std std-doc">modules</span>.</p>
 </div>
 </div>
 <div class="section" id="ecosystem">
-<h1>4.3.23. Ecosystem<a class="headerlink" href="#ecosystem" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.25. Ecosystem<a class="headerlink" href="#ecosystem" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="pypi">
-<h2>4.3.23.1. pypi<a class="headerlink" href="#pypi" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.25.1. pypi<a class="headerlink" href="#pypi" title="Permalink to this headline">¶</a></h2>
 <p>Link: <a class="reference external" href="https://pypi.python.org/pypi">pypi</a></p>
 <p>The Python Package Index is a large repository of software for the
 Python programming language containing a large number of packages
@@ -1440,7 +1581,7 @@ be the package called cloudmesh_client which you can install with:</p>
 <p>If all goes well the package will be installed.</p>
 </div>
 <div class="section" id="alternative-installations">
-<h2>4.3.23.2. Alternative Installations<a class="headerlink" href="#alternative-installations" title="Permalink to this headline">¶</a></h2>
+<h2>4.3.25.2. Alternative Installations<a class="headerlink" href="#alternative-installations" title="Permalink to this headline">¶</a></h2>
 <p>The basic installation of python is provided by python.org. However
 others claim to have alternative environments that allow you to
 install python. This includes</p>
@@ -1519,7 +1660,7 @@ generate a conda packge form github</li>
 </ul>
 </div>
 <div class="section" id="autoenv-directory-based-environments">
-<span id="autoenv"></span><span id="python-resources"></span><h2>4.3.23.3. Autoenv: Directory-based Environments<a class="headerlink" href="#autoenv-directory-based-environments" title="Permalink to this headline">¶</a></h2>
+<span id="autoenv"></span><span id="python-resources"></span><h2>4.3.25.3. Autoenv: Directory-based Environments<a class="headerlink" href="#autoenv-directory-based-environments" title="Permalink to this headline">¶</a></h2>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">We do not recommend that you use autoenv. Instead we
@@ -1573,7 +1714,7 @@ $ echo &#39;source ~/.autoenv/activate.sh&#39; &gt;&gt; ~/.bashrc
 </div>
 </div>
 <div class="section" id="resources">
-<h1>4.3.24. Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.26. Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h1>
 <p>If you are unfamiliar with programming in Python, we also refer you
 to some of the numerous online resources. You may wish to start with
 <a class="reference external" href="https://www.learnpython.org">Learn Python</a> or the book <a class="reference external" href="http://learnpythonthehardway.org/book/">Learn Python the Hard Way</a>. Other
@@ -1592,6 +1733,10 @@ Additional resources include:</p>
 <li><a class="reference external" href="http://www.korokithakis.net/tutorials/python/">http://www.korokithakis.net/tutorials/python/</a></li>
 <li><a class="reference external" href="http://www.afterhoursprogramming.com/tutorial/Python/Introduction/">http://www.afterhoursprogramming.com/tutorial/Python/Introduction/</a></li>
 <li><a class="reference external" href="http://www.greenteapress.com/thinkpython/thinkCSpy.pdf">http://www.greenteapress.com/thinkpython/thinkCSpy.pdf</a></li>
+<li><a class="reference external" href="https://docs.python.org/3.3/tutorial/modules.html">https://docs.python.org/3.3/tutorial/modules.html</a></li>
+<li><a class="reference external" href="https://www.learnpython.org/en/Modules_and_Packages">https://www.learnpython.org/en/Modules_and_Packages</a></li>
+<li><a class="reference external" href="https://docs.python.org/2/library/datetime.html">https://docs.python.org/2/library/datetime.html</a></li>
+<li><a class="reference external" href="https://chrisalbon.com/python/strings_to_datetime.html">https://chrisalbon.com/python/strings_to_datetime.html</a></li>
 </ul>
 <p>A very long list of useful information are also available from</p>
 <ul class="simple">
@@ -1604,7 +1749,7 @@ Please note that for this class you can reuse such libraries if not
 otherwise stated.</p>
 </div>
 <div class="section" id="jupyter-notebook-tutorials">
-<h1>4.3.25. Jupyter Notebook Tutorials<a class="headerlink" href="#jupyter-notebook-tutorials" title="Permalink to this headline">¶</a></h1>
+<h1>4.3.27. Jupyter Notebook Tutorials<a class="headerlink" href="#jupyter-notebook-tutorials" title="Permalink to this headline">¶</a></h1>
 <p>A Short Introduction to Jupyter Notebooks and NumPy
 To view the notebook, open this link in a background tab &lt;<a class="reference external" href="https://nbviewer.jupyter.org/">https://nbviewer.jupyter.org/</a>&gt;
 and copy and paste the following link in the URL input area
@@ -1612,7 +1757,7 @@ and copy and paste the following link in the URL input area
 Then hit Go!</p>
 </div>
 <div class="section" id="exercises">
-<span id="e-python"></span><span id="lab-python-2"></span><span id="lab-python-1"></span><h1>4.3.26. Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h1>
+<span id="e-python"></span><span id="lab-python-2"></span><span id="lab-python-1"></span><h1>4.3.28. Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h1>
 <dl class="docutils">
 <dt>EPython.1:</dt>
 <dd><p class="first">Write a python program called <cite>iterate.py</cite> that

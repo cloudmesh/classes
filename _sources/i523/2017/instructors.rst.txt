@@ -54,7 +54,7 @@ Dr. Geoffrey C. Fox
 
 .. image:: /images/gcf.jpg
 
-Greoffrey C. Fox received a Ph.D. in Theoretical Physics from Cambridge University
+Geoffrey C. Fox received a Ph.D. in Theoretical Physics from Cambridge University
 and is now distinguished professor of Informatics and Computing, and
 Physics at Indiana University where he is director of the Digital
 Science Center, Chair of Department of Intelligent Systems Engineering
@@ -132,7 +132,7 @@ Miao Jiang
 
 **Miao Jiang** is a PhD student of Intelligent Systems Engineering at
  Indiana University Bloomington. Before coming to IUB, he received
- Master of Science from Santa Clara University and Beacholor of
+ Master of Science from Santa Clara University and Bachelor of
  Computer Engineering from University of Minnesota. His research
  interest is machine learning.
           
