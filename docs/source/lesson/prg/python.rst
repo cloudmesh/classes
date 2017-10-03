@@ -1368,6 +1368,10 @@ Additional resources include:
 * http://www.korokithakis.net/tutorials/python/
 * http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
 * http://www.greenteapress.com/thinkpython/thinkCSpy.pdf
+* https://docs.python.org/3.3/tutorial/modules.html
+* https://www.learnpython.org/en/Modules\_and\_Packages
+* https://docs.python.org/2/library/datetime.html
+* https://chrisalbon.com/python/strings\_to\_datetime.html
 
 
 A very long list of useful information are also available from
