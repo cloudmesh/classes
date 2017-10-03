@@ -10,7 +10,7 @@ Course Information and Calendar
    reasons a class can be missed. The reasoning for this is that
    residential students that did not attend classes regularly tend to
    do not as well in this class as their colleagues. As we want that
-   you achive your best we strongly advise to attend and give with
+   you achieve your best we strongly advise to attend and give with
    this policy an additional motivating factor.
 
 Notebook
@@ -20,17 +20,17 @@ Students are required to maintain a *class notebook* in github in
 which they summarize their weekly activities for this course. This
 includes a self maintained list of which lecture material they viewed.
 
-The notbook is maintained in the class github.com in your hid project
+The notebook is maintained in the class github.com in your hid project
 folder. It is a file called notebook.md that uses markdown as format.
 While using md, you can either edit it locally and upload to github,
 or directly edit it via the git hub Web editor.
 
-You will be responsible to set up and maintaing the notebook.md and
+You will be responsible to set up and maintaining the notebook.md and
 update it accordingly. We suggest that you prepare sections such as:
-Logistic, Theroy, Practice, Writing and put in bullet form what you have done
+Logistic, Theory, Practice, Writing and put in bullet form what you have done
 into these sections during the week. We can see from the github logs
 when you changed the notbook.md file to monitor progress. The
-management of the notebokk will be part of your discussion grade.
+management of the notebook will be part of your discussion grade.
 
 The format of the notebook is very specific and must follow these
 rules:
@@ -46,7 +46,7 @@ rules:
   the section title as the section numbers may change in case we need
   to add content
 
-Please examin carefully the sample note book is available at:
+Please examine carefully the sample note book is available at:
 
 * https://raw.githubusercontent.com/bigdata-i523/sample-hid000/master/notebook.md
 
@@ -292,34 +292,26 @@ Auditing the class
              class. If the class is full and degree seeking students
              are on the waiting list auditing and non-degree students
              will have to wait till all others have been able to
-             enroll. IF space permits only than autiting and non
+             enroll. IF space permits only than auditing and non
              degree students can enroll.
    
 In case you like to audit the class or like to take it as part of a
-nondegree program the following applies:
+non-degree program the following applies:
 
 Participation in the class is approved for non degree student and
-students that like to audit the clss under the following conditions:
+students that like to audit the class under the following conditions:
 
 #. Due to limited space enrollment in the residential class is not
    allowed. The class must be taken online.
 
 #. To assure that the full value of the class is applied all homework
-   (graded and ungraded) must be conducted.
+   (graded and ungraded) must be conducted, however we will not grade
+   your assignments.
 
 #. For non degree students and students that audit the class an
    incomplete will not be allowed. The class homework must be
    completed in the semester as some software and services will only
-   be accessible during the semester. In case an incomplete takes
-   place additional effort may take place on the students side as
-   software and course material in the class evolve. As we use
-   state-of-the-art software we can naturally not guarantee that
-   software that needs to be updated will be available in the same
-   form after or even during the the class as this contradicts the
-   definition of state-of-the-art (e.g. if a software update is needed
-   it will be applied). A10% grade deduction will be applied if an
-   incomplete is requested. An incomplete requires 2 month review
-   time.
+   be accessible during the semester. 
 
 #. Accounts and services cannot be shared and will be disabled once
    the class is over.
@@ -335,13 +327,16 @@ students that like to audit the clss under the following conditions:
    is over. Projects can be conducted as part of the class that do not
    require access to the cloud.
 
+#. There will not be any recommendation letter be provided based on
+   auditing the class from the instructors. If a certificat of
+   attendance is needed please contact the university administration.
 
 Meeting Times
 -------------
 
 The classes are published online. Residential students at Indiana
 University will participate in a discussion taking place at the
-following time according to the information provieded by the
+following time according to the information provided by the
 registrar.
 
 
@@ -355,7 +350,7 @@ Office Hours
 
 Residential Students:
     Residential students participate in the official meeting times. If
-    additional times are requiered, they have to be done on
+    additional times are required, they have to be done on
     appointment. As online hours are reserved for online students,
     residential students should not use them till not all questions
     have been answered by online students.
@@ -373,7 +368,7 @@ Residential Students:
     We suggest that you let the TA's know before you come, in order to 
     make sure there are not too many people coming at the same time.
 
-    Resitential students can also use the online student meeting
+    Residential students can also use the online student meeting
     times. However, in that case online students will be served
     first. It is probably good to check into the zoom meeting and
     identify if the TA has time. They will be in zoom.

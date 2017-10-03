@@ -21,7 +21,7 @@ report/paper. However the length is a bit lower than for a term paper.
 Team
 ^^^^
 
-Software projects and term paperd can be conducted with one, two or
+Software projects and term papers can be conducted with one, two or
 three class members.  We do not allow more than three members in a
 project. It will be up to you to determine a team, but we recommend
 that you chose wisely. Naturally if a team member does not contribute
@@ -37,8 +37,8 @@ Both Projects and Term paper have the following common deliverables
 
 Work Breakdown:
     This is an appendix to the document that describes in detail who did what in
-    the project. This section comes in a new page after the refernces. It does not
-    count towards the page length of the document. It also uncludes explicit URLs to
+    the project. This section comes in a new page after the references. It does not
+    count towards the page length of the document. It also includes explicit URLs to
     the the git history that documents the statistics to demonstrate not only one
     student has worked on the project. If you can not provide such a statistic or all
     checkins have been made by a single student, the project has shown that they have
@@ -49,20 +49,20 @@ Work Breakdown:
 Bibliography:
     All bibliography has to be provided in a jabref/bibtex file. This
     is regardless if you use LaTeX or Word. Ther is **NO EXCEPTION**
-    to this rule. PLease be advised doing refrences right takes some
+    to this rule. PLease be advised doing references right takes some
     time so you want to do this early.  Please note that exports of
     Endnote or other bibliography management tools do not lead to
     properly formatted bibtex files, despite they claiming to do
     so. You will have to clean them up and we recommend to do it the
     other way around. Manage your bibliography with jabref, and if you
-    like to ues it import them to endnote or other toosl. NAturally
+    like to use it import them to endnote or other tools. Naturally
     you may have to do some cleanup to. If you use LaTeX and jabref,
     you have naturally much less work to do. What you chose is up to
     you.
 
 Report Format:
        All reports will be using the our common format. This format is
-       not the same as the ACM format, so if you use sytsems such as
+       not the same as the ACM format, so if you use systems such as
        overleaf or sharelatex, you need to upload it and use it
        there.
 
@@ -137,7 +137,7 @@ Code:
 Data:
     If the data is small it can be added into a data directory in github. If you have
     larger data, it should be downloaded from the internet. IT is in your
-    responsibility to develop a download progra,
+    responsibility to develop a download program,
 
 Project Report:
     A report must be produced while using the format discussed in the
@@ -199,7 +199,7 @@ Projects or term papers will receive a 10% grade reduction.
 * 10% Participation/Discussion
 
 All other assignments are pass/fail assignments and are geared towards
-you being able to explore trather than you being bound by small
+you being able to explore rather than you being bound by small
 assignments.
 
 

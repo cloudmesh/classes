@@ -68,11 +68,11 @@ EOrganization.4:
 EOrganization.5:
      obtain a futuresystems.org account
 
-.. warning:: Account creation on futuresystems and chameleon is only done
+.. warning:: Account creation on FutureSystems and chameleon is only done
              during **working hours** and it may take up to 48 hours to get
              feedback. Do not ask us any questions if the 48 hours have not
              passed. For example If you ask on Friday after 5pm EST,
-             do not expect to get an asnwer back before Wednesday. As
+             do not expect to get an answer back before Wednesday. As
              the next working day starts on Monday + 48 hours is at
              the end of Tuesday, meaning you get feedback back on
              Wednesday. Thus dependent on when you ask it may take 4

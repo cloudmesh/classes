@@ -25,10 +25,10 @@ motivation for course.
 
 The course overview covers it's content and structure. It presents an
 introduction to general field of Big Data and Analytics. We are
-especially analysing the many different application areas in which Big
+especially analyzing the many different application areas in which Big
 Data can be applied. As Big Datais typically not just used in
 isolation but is part of a larger Informatics issue for a particular
-field we also use the term X-Informatics, where X defines a usecase or
+field we also use the term X-Informatics, where X defines a use case or
 area of specialization in which Big Data is applied to. As such we
 organize the class around the the *Rallying Cry* of course: Use Clouds
 running Data Analytics Collaboratively processing Big Data to solve
@@ -51,7 +51,7 @@ with discussions of infrastructure (clouds) and data analytics
 (algorithms like clustering and collaborative filtering used in
 applications). The course uses Python as primary programming language.
 We will be introducing practical use of cloud resources so that you
-have the oportunity to explore example analytics applications on
+have the opportunity to explore example analytics applications on
 smaller data sets that you define.
 
 The course motivation starts with striking examples of the data deluge
@@ -724,7 +724,7 @@ Resources
 """""""""
 
 * CSTI General Assembly 2012, Washington, D.C., USA Technical Activities Coordinating Committee (TACC) Meeting, Data Management, Cloud Computing and the Long Tail of Science October 2012 Dennis Gannon
-* Dan Reed Roger Barga Dennis Gannon Rich Wolskihttp://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf
+* Dan Reed Roger Barga Dennis Gannon Rich Wolski http://research.microsoft.com/en-us/people/barga/sc09_cloudcomp_tutorial.pdf
 * http://www.datacenterknowledge.com/archives/2011/05/10/uptime-institute-the-average-pue-is-1-8/
 * http://loosebolts.wordpress.com/2008/12/02/our-vision-for-generation-4-modular-data-centers-one-way-of-getting-it-just-right/
 * http://www.mediafire.com/file/zzqna34282frr2f/koomeydatacenterelectuse2011finalversion.pdf
