@@ -198,8 +198,8 @@ known chisq method and some aspects of nonlinear minimization of chisq
 (Least Squares) are discussed.
 
 
-* Video A: 6:56: Genomics, Proteomics and Information Visualization: https://www.youtube.com/watch?v=zGzBtxq1ZRE
-
+* Video A: 6:56: (streamed with optional CC)  Genomics, Proteomics and Information Visualization: https://www.youtube.com/watch?v=zGzBtxq1ZRE
+* Video A: 6:56: (unstreamed without CC) Genomics, Proteomics and Information Visualization: https://drive.google.com/file/d/0B5plU-u0wqMoVzduODM0Z2dFYWM/view?usp=sharing
 
 Next we continue the discussion of the COG Protein Universe
 introduced in the last lesson. It is shown how Proteomics clusters are
