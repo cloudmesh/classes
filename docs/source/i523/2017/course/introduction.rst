@@ -229,9 +229,9 @@ Wealth and Wellness"
 
 
 
-* Video: 30:38: `Data Deluge <https://www.youtube.com/watch?v=7VHPXJv3DN4>`_
+* Video: 30:38: (streamed with optional CC)  `Data Deluge <https://www.youtube.com/watch?v=7VHPXJv3DN4>`_
 
-
+* Video: 30:38: (unstreamed without CC) `Data Deluge <https://drive.google.com/file/d/0B1Of61fJF7WsV0hYWVB1eDJYdjA/view?usp=sharing>`_
 
 * Slides (20 pages): `Data Deluge <https://drive.google.com/open?id=0B8936_ytjfjmUXY3anBaeU9lLVU>`_
          
@@ -248,8 +248,8 @@ advertise for new talent.
 
 
 
-* Video: 9:39: `JOBS: <https://www.youtube.com/watch?v=KsjiQS8uXDA>`_
-
+* Video: 9:39: (streamed with optional cC) `JOBS: <https://www.youtube.com/watch?v=KsjiQS8uXDA>`_
+* Video: 9:39: (unstreamed without CC)  `JOBS: <https://drive.google.com/file/d/0B1Of61fJF7WsZkp2VzRqbDJ1cXM/view?usp=sharing>`_
 
 * Slides (8 pages): `JOBS: <https://drive.google.com/open?id=0B8936_ytjfjmaG50YW9TeWdvUTg>`_
 
@@ -298,7 +298,8 @@ Services.
 
 .. i523/public/videos/introduction/motivation-012-5.mp4
 
-* Video: 32:54: `Digital Distruption and transformation <https://www.youtube.com/watch?v=bw9yYXwe7Bs>`_
+* Video: 32:54: (streamed with optional CC)  `Digital Distruption and transformation <https://www.youtube.com/watch?v=bw9yYXwe7Bs>`_
+-* Video: 32:54: (unstreamed without CC) `Digital Distruption and transformation <https://drive.google.com/file/d/0B1Of61fJF7Wsbm5CZ3FsM2IxVk0/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-5novid.pdf
 
@@ -350,7 +351,8 @@ focus on the new fourth data driven methodology.
 .. i523/public/videos/introduction/motivation-012-7.mp4
 
 
-* Video: 7:32: `Research Model <https://www.youtube.com/watch?v=xkeECe3mmjI>`_
+* Video: 7:32: (streamed with optional CC)  `Research Model <https://www.youtube.com/watch?v=xkeECe3mmjI>`_
+* Video: 7:32: (unstreamed without CC) `Research Model <https://drive.google.com/file/d/0B1Of61fJF7Wsb2dkTUxCVkh1Slk/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-7novid.pdf
 
@@ -389,7 +391,8 @@ incredible size of author lists on papers.
 
 .. i523/public/videos/introduction/motivation-012-9.mp4
 
-* Video: 13:27: `Physics_informatics <https://www.youtube.com/watch?v=2A7Z741FCHs>`_
+* Video: 13:27: (streamed with optional CC) `Physics_informatics <https://www.youtube.com/watch?v=2A7Z741FCHs>`_
+* Video: 13:27: (unstreamed without CC)  `Physics_informatics <https://drive.google.com/file/d/0B1Of61fJF7WsbHVvZi1MRzNCbjg/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-9novid.pdf
 
@@ -437,7 +440,8 @@ algorithms for dynamic personalized choice of material for web pages.
 
 .. i523/public/videos/introduction/motivation-012-12.mp4
 
-* Video: 12:05: `Web Search and Information Retrieval <https://www.youtube.com/watch?v=p-0NtNTzoh8>`_
+* Video: 12:05: (streamed with optional CC)  `Web Search and Information Retrieval <https://www.youtube.com/watch?v=p-0NtNTzoh8>`_
+* Video: 12:05: (unstreamed without CC)  `Web Search and Information Retrieval <https://drive.google.com/file/d/0B1Of61fJF7WsektTWGJYVGFxcFk/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-12novid.pdf
 
@@ -453,7 +457,8 @@ the cloud use of the Internet of Things and gives examples.
 
 .. i523/public/videos/introduction/motivation-012-13.mp4
 
-* Video: 33:51: `Cloud Applications in Research <https://www.youtube.com/watch?v=U3ZG2qOFpxE>`_
+* Video: 33:51: (streamed with optional CC) `Cloud Applications in Research <https://www.youtube.com/watch?v=U3ZG2qOFpxE>`_
+* Video: 33:51: (unstreamed without CC)  `Cloud Applications in Research <https://drive.google.com/file/d/0B1Of61fJF7WsNlJVR2JOQk13Z2M/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-13novid.pdf
 
@@ -470,7 +475,8 @@ blending.
 
 .. i523/public/videos/introduction/motivation-012-14.mp4
 
-* Video: 14:02: `Computing and MapReduce <https://www.youtube.com/watch?v=aQ8NMxe9IsU>`_
+* Video: 14:02: (streamed with optional CC) `Computing and MapReduce <https://www.youtube.com/watch?v=aQ8NMxe9IsU>`_
+* Video: 14:02: (unstreamed without CC) `Computing and MapReduce <https://drive.google.com/file/d/0B1Of61fJF7WsWFUtdGJQTEd1TFk/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-14novid.pdf
 
@@ -497,7 +503,8 @@ clouds; a pleasing symmetry.
 
 .. i523/public/videos/introduction/motivation-012-15.mp4
 
-* Video: 28:08: `Data Science Education <https://www.youtube.com/watch?v=bA_eNjJTmRQ>`_
+* Video: 28:08: (streamed with optional CC) `Data Science Education <https://www.youtube.com/watch?v=bA_eNjJTmRQ>`_
+* Video: 28:08: (unstreamed without CC) `Data Science Education <https://drive.google.com/file/d/0B1Of61fJF7WsUGtTWjNUVHpWRXM/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-15novid.pdf
 
@@ -520,7 +527,8 @@ educated in data science"
 
 .. i523/public/videos/introduction/motivation-012-16.mp4
 
-* Video: 4:59: `Conclusions <https://www.youtube.com/watch?v=FmcR5mrhYvk>`_
+* Video: 4:59: (streamed with optional CC) `Conclusions <https://www.youtube.com/watch?v=FmcR5mrhYvk>`_
+* Video: 4:59: (unstreamed without CC) `Conclusions <https://drive.google.com/file/d/0B1Of61fJF7WsNVJKZVlHTENNQTA/view?usp=sharing>`_
 
 .. i523/public/videos/introduction/motivation-012-16novid.pdf
 
