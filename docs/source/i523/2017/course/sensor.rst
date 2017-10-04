@@ -105,7 +105,7 @@ computing, everywhere, anytime i.e. by spreading sensors
 everywhere. The example of a 'High-Tech Utopia' New Songdo is given.
 
 
-* Video: 2:49: U-Korea (U=Ubiquitous): https://www.youtube.com/watch?v=U38zWbSI2n4
+* Video: 2:49: U-Korea (U=Ubiquitous): (streamed with optional CC)  https://www.youtube.com/watch?v=U38zWbSI2n4 (unstreamed without CC) https://drive.google.com/file/d/0B1Of61fJF7WsTGVGZksyS1NUNXM/view?usp=sharing
 
 Smart Grid
 ^^^^^^^^^^
