@@ -18,7 +18,7 @@ portability.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=6vkgvGtyv4Q>`_ (12:01)
 
-.. todo: slide is outdated (twister-MDS is missing)
+.. todo:: slide is outdated (twister-MDS is missing)
 
 * Slide: `PDF <https://drive.google.com/open?id=0B88HKpainTSfMnpCelpNQUpNdVE>`_
 
@@ -96,7 +96,7 @@ final result. The second Quiz is given at the end.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=KWLY_maNEPA>`_ (9:25)
 
-.. todo: Slide is outdated, quiz2 from video is not addressed in the slide
+.. todo:: Slide is outdated, quiz2 from video is not addressed in the slide
 
 * Slide: `PDF (Page 8-15) <https://drive.google.com/open?id=0B88HKpainTSfd3hkTG4yY2FYUVE>`_
 
@@ -151,7 +151,7 @@ map/reduce pattern. These are all types of SIMD. SPMD and MPMD are two other
 types of model.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=zHQiR56Zmtc>`_ (9:42)
-.. todo: slide is missing
+.. todo:: slide is missing
 
 Data Locality
 -------------------------------------------------------------------------------
@@ -209,6 +209,6 @@ tasks can lead to poor data locality and higher energy demands.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=wWyFiqDIYus>`_ (3:52)
 
-.. todo: slide is outdated
+.. todo:: slide is outdated
 
 * Slide: `PDF (Page 46-53) <https://drive.google.com/open?id=0B88HKpainTSfT28zLTdKYWhGdGM>`_

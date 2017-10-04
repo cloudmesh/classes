@@ -15,7 +15,7 @@ the course of a single decade.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=0TRTdzgC_N0>`_ (9:00)
 
-.. todo: slide is missing
+.. todo:: slide is missing
 
 Google Search Engine 1
 -------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ index/doc servers for repeat queries.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=S2oT7uMw5Yg>`_ (8:04)
 
-.. todo: slide is outdated
+.. todo:: slide is outdated
 
 * Slide: `PDF (Page 15-20) <https://drive.google.com/open?id=0B88HKpainTSfYWZ0dDlrNThkVms>`_
 
@@ -48,7 +48,7 @@ of the initial Google proposal paper follows.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=pxos3Yt6y6I>`_ (8:32)
 
-.. todo: slide is outdated
+.. todo:: slide is outdated
 
 * Slide: `PDF (Page 21-26) <https://drive.google.com/open?id=0B88HKpainTSfYWZ0dDlrNThkVms>`_
 
@@ -78,7 +78,7 @@ including MapReduce.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=ISJp7TUzo1s>`_ (11:12)
 
-.. todo: slide is outdated
+.. todo:: slide is outdated
 
 * Slide: `PDF (Page 10-21) <https://drive.google.com/open?id=0B88HKpainTSfWFpEZGxqSWRTYms>`_
 
@@ -92,7 +92,7 @@ included.
 
 * Video: `Youtube <https://www.youtube.com/watch?v=gS7TImRZZ1g>`_ (5:37)
 
-.. todo: slide is missing
+.. todo:: slide is missing
 
 Iterative MapReduce Models
 -------------------------------------------------------------------------------
