@@ -1,6 +1,15 @@
 LaTeX
 =====
 
+
+
+https://wch.github.io/latexsheet/latexsheet.pdf
+
+http://tug.ctan.org/info/lshort/english/lshort.pdf
+https://en.wikibooks.org/wiki/LaTeX
+
+
+
 Introduction
 ------------
 

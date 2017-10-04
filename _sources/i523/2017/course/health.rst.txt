@@ -59,7 +59,7 @@ given in radiology, genomics, personalized medicine, and the
 Quantified Self movement, with sizes and access to European
 Bioinformatics Institute.
 
-Video: 10:02 : Big Data and Health: https://www.youtube.com/watch?v=ZkM-yZJQ1Cg
+Video: 10:02 : Big Data and Health: (streamed with optional CC) https://www.youtube.com/watch?v=ZkM-yZJQ1Cg (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
 
 
 
@@ -71,7 +71,7 @@ genomes and an aging population. Social media and government Brain
 initiative.
 
 
-Video: 16:09 : Status of Healthcare Today: https://www.youtube.com/watch?v=x9TpdMBqYrk
+Video: 16:09 : Status of Healthcare Today: (streamed with optional CC) https://www.youtube.com/watch?v=x9TpdMBqYrk (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMoOEYxVzQxQWtpZXM/view?usp=sharing
 
 
 Telemedicine (Virtual Health)
@@ -81,7 +81,7 @@ This describes increasing use of telemedicine and how we tried and
 failed to do this in 1994.
 
 
-Video: 8:21: Telemedicine: https://www.youtube.com/watch?v=Pe4CVXQaL_U
+Video: 8:21: Telemedicine: (streamed with optional CC) https://www.youtube.com/watch?v=Pe4CVXQaL_U (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMoVWxfeHVaWWR4c0E/view?usp=sharing
 
 
 Big Data and Healthcare Industry
@@ -90,7 +90,7 @@ Big Data and Healthcare Industry
 Summary of an industry survey by GE and Accenture.
 
 
-Video: 10:02: Big Data and Healthcare Indusry: https://www.youtube.com/watch?v=64YOUnRJVZU
+Video: 10:02: Big Data and Healthcare Indusry: (streamed with optional CC) https://www.youtube.com/watch?v=64YOUnRJVZU (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
 
 
 Medical Big Data in the Clouds
@@ -99,13 +99,13 @@ Medical Big Data in the Clouds
 An impressive exemplar Cloud-based medicine system from Potsdam.
 
 
-Video: 15:02: Medical Big Data in the Clouds https://www.youtube.com/watch?v=GldSVijkJcM
+Video: 15:02: Medical Big Data in the Clouds (streamed with optional CC) https://www.youtube.com/watch?v=GldSVijkJcM (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMoSXk3cFd0Z0Yyems/view?usp=sharing
 
 
 Medical image Big Data
 """"""""""""""""""""""
 
-Video: 6:33: Midical Image Big Data: https://www.youtube.com/watch?v=GOcVtwx2R2k
+Video: 6:33: Midical Image Big Data: (streamed with optional CC) https://www.youtube.com/watch?v=GOcVtwx2R2k (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMoT1JsYnJXRFFpdWM/view?usp=sharing
 
 
 Clouds and Health
@@ -134,7 +134,7 @@ big data capabilities.
 
 
           
-* Video: 14:53: McKinsey Report: https://www.youtube.com/watch?v=fu-TWnIk980
+* Video: 14:53: McKinsey Report: (streamed with optional CC) https://www.youtube.com/watch?v=fu-TWnIk980 (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMobEJ2RHVXemJCMTQ/view?usp=sharing
 
 
 Microsoft Report on Big Data in Health
@@ -169,7 +169,7 @@ Medicine and the Internet of Things
 The Internet of Things will have great impact on health including
 telemedicine and wearables. Examples are given.
 
-* Video: 8:17: Medicine and the Internet of Things: https://www.youtube.com/watch?v=Jk3EeFzZnuU
+* Video: 8:17: Medicine and the Internet of Things: (streamed with optional CC) https://www.youtube.com/watch?v=Jk3EeFzZnuU (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqModHA4Y2FYTXNYOWc/view?usp=sharing
 
 
 
@@ -179,7 +179,7 @@ Extrapolating to 2032
 A study looks at 4 scenarios for healthcare in 2032. Two are positive,
 one middle of the road and one negative.
 
-* Video: 15:13: Extrapolating to 2032: https://www.youtube.com/watch?v=a5G4HACeokg
+* Video: 15:13: Extrapolating to 2032: (streamed with optional CC) https://www.youtube.com/watch?v=a5G4HACeokg (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMoLTJqNUVLT3RqTkU/view?usp=sharing
 
 
 Genomics, Proteomics and Information Visualization
@@ -198,8 +198,8 @@ known chisq method and some aspects of nonlinear minimization of chisq
 (Least Squares) are discussed.
 
 
-* Video A: 6:56: Genomics, Proteomics and Information Visualization: https://www.youtube.com/watch?v=zGzBtxq1ZRE
-
+* Video A: 6:56: (streamed with optional CC)  Genomics, Proteomics and Information Visualization: https://www.youtube.com/watch?v=zGzBtxq1ZRE
+* Video A: 6:56: (unstreamed without CC) Genomics, Proteomics and Information Visualization: https://drive.google.com/file/d/0B5plU-u0wqMoVzduODM0Z2dFYWM/view?usp=sharing
 
 Next we continue the discussion of the COG Protein Universe
 introduced in the last lesson. It is shown how Proteomics clusters are

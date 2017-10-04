@@ -1,0 +1,404 @@
+.. _reports:
+
+Documenting Scientific Research
+===============================
+
+An important part of any scientific research is to document it. This
+is often done through scientific confernces or journal articles. Hence
+it is important to learn how to prepare and submit such papers. Most
+conferences accept typically the papers in PDF format but require the
+papers to be prepared on MSWord or in LaTeX. While working with many
+students in the past we noticed however that those students using Word
+often spend unnecessarily countles hours on trying to make there
+papers beautiful while actually violating the template provided by the
+conference. Furthermrore, we noticed that the same students had issues
+with bibliography management. Instead of Word helping the student it
+provided the illusion to be easier than LaTeX but when adding up the
+time spend on the paper we found that LaTeX actually saved time. This
+has been especially true with the advent of collaborative editing
+services such as sharelatex \cite{} and overleaf \cite{}.
+
+In this section we provide you with a professional template that is
+used for either system based on the ACM standard that you can use to
+write papers. Naturally this will be extremely useful if the quality
+of your research is strong enough to be submitted to a conference.
+We structure this section as follows. Although we do not recommend
+that you use MSWord for your editing of a scientific paper, we have
+included a short section about it and outline some of its pitfalls
+that initially you may not think is problematic, but has proven to be
+an issue with students. Next we will focus on introducing you to LaTeX
+and showcasing you the advantages and disadvantages. We will dedictae
+an entire section on bibliography management and teach you jhow to use
+jabref which clearly has advantages for us. 
+
+Having a uniform report format not only helps the students but allow
+allows the comparision of paper length and effort as part of teaching
+a course. We have added an entire section to this chapter that
+discusses how we can manage a *Class Proceedings* form papers that are
+contributed by teams in the class.
+
+Professional Paper Format
+-------------------------
+
+The report format we suggest here is based on the standard ACM
+proccedings format. It is of very high quality and can be adapted for
+your own activities. Moreover, it is possible to use most of teh text
+to adapt to other formats in case the conference you intend to submit
+your paper to has a different format. The ACM format is always a good
+start. 
+
+Important is that you do not need to change the template but you can
+change some parameters in case you are not submitting the paper to a
+conference but use it for class papers. Certainly you should not
+change the spacing or the layout and instead focus on writing
+content. As for bibliography management we recommend you use jabref
+which we will introduce in Section \ref{}.
+
+We recommend that you carefully study the requirements for the report
+format. We would nat want that your paper gets rejected by a journal,
+conference or the class just because you try to modify the format or
+do not follow the establishe publication guidlines.
+
+The template we are providing is available from:
+
+* https://github.com/cloudmesh/classes/tree/master/docs/source/format/report
+
+Convenient compressed files are available at
+
+* https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.tar.gz
+* https://github.com/cloudmesh/classes/tree/master/docs/source/format/report.zip
+
+You will find in it a modified ACM proceedings templates for Word and
+for LaTeX that has an identification box removed on the lower left
+hand side of the firts page. This is done for classes so that you have
+more space to write. In case you must submit to a confernce you can
+use the original ACM template. This template can be found at
+
+
+Submission Requirements
+-----------------------
+
+Althogh the initial requirement for some conferences or journals is
+the document PDF, in many cases you must be prepared to provide the
+source when submitting to the conference. This includes the submission
+of the original images in an images foder. You may ba asked to package
+the document into a folder with all of its sources and submit to the
+conference for professional publication.
+
+
+Microsoft Word
+--------------
+
+Microsoft word will provide you with the initial impression that you
+will safe lots of time writing in it while you see the layout of the
+document. This will be initaially true, but once you progress to the
+more challanging parts and later pages such as image menagement and
+bibliography management you will see some issues. Thes include that
+figure placement in Word need sto be done just right in order for
+images to be where they need. We have seen students spending hours
+with the placement of figures in a paper but when they did additional
+cahnges the images jumped around and were not at the place wher eteh
+students expected them to be. SO if you work with images, make sure
+you understand how to place them. Also always use relative caption
+counters so that if an image gets placed elsewhere the counter stays
+consistent. So nefer use justthe number, but a refernce to the figure
+when referring to it. Recently a new bibliography management system
+was added to Word. However, however it is not well documented and the
+refrences are placed in the system bibliography rather than a local
+managed bibliography. This mah have severe consequences when working
+with many authors on a paper. The same is true when using Endnote. We
+have heard in many occasions that the combination of endnote and Word
+destroyed documents. You certainly do not want that to happen the day
+before your deadline. Also in classes we observed that those using
+LaTeX deliver better structured and written papers as the focus is on
+text and not beatuiful layout.
+
+For all these reasons we do not recommend that you use Word.
+
+LaTeX
+-----
+
+In LaTeX where we have an easier time with this as we can just ignore
+all of these issues due to relative good image palcement and excellent
+support for academic reference management. Hence, it is in your best
+interest to use LaTeX. The information we provide here will make it
+easy for you to get started and write a paper in no time as it is just
+like filling out a form.
+
+
+Working in a Team
+-----------------
+
+Today reaserch is done in potentially large reasearch teams. This also
+include thewriting of a document. There are multiple ways this is done
+these days and depends on the system you chose.
+
+In MSWord you can use skydrive, while for LaTeX you can use sharelatex
+and overleaf. However, in many cases the use of github is possible as
+the same grousps that develop teh code are also familiar with
+github. Thus we provide you here also with the introdcution on how to
+write a document in github while group members can contribute.
+
+Here are the options:
+
+#. LaTeX and git: This option will likely safe you time as you can
+   use jabref also for manageing collaborative bibliographies and
+#. sharelatex: an online tool to write latex documents
+#. overleaf: an online tool to write latex documents
+#. MS onedrive: It allows you to edit a word document in
+   collaboration. We recommend that you use a local installed version
+   of Word and do the editiong with that, rather than useing the
+   online verison. The online editor has some bugs. See also
+   (untested):
+   http://www.paulkiddie.com/2009/07/jabref-exports-to-word-2007-xml/,
+   http://usefulcodes.blogspot.com/2015/01/using-jabref-to-import-bib-to-microsoft.html 
+#. Google Drive: google drive could be used to collaborate on text
+   that is than pasted into document. However it is just a starting
+   point as it does not support typically the format required by the
+   publisher. Hence at one point you need to swithc to one of the
+   other systems.
+
+
+Timemanagement
+--------------
+
+Obviously writing a paper takes time and you need to carfully make
+sure you devote enough time to it. The important part is that the
+paper should not be an after thought but should be the initial
+activity to conduct and execute your research. Remeber that
+
+#. It takes time to read the information
+#. It takes time understand the information
+#. It takes time to do the research
+
+For deadlines the following will get you in trouble:
+
+#. *There are still 10 weeks left till
+   the deadline, so let me start in 4 week ...*. Procrastenation is
+   your worst enemy.
+
+#. If you work in a team that has time managemnet issues address them
+   immediately
+
+#. Do not undersstimate the time it takes to prepare the final
+   submission into the submission system. Prepare automated scripts
+   that can deliver the package for submission in minutes rather than
+   hours by hand.
+
+
+  
+Paper Checklist
+---------------
+
+In this section we summarize a number of checks that you may perform
+to make sure your paper is properly fomated and in excelent
+shape. Naturally this list is just a partial list and if you find
+things we shoudl add here, let us know.
+
+#. Have you written the report in the specified format?
+#. Have you included an acknowledgement section?
+#. Have you included the paper in the submission system (In our class
+   it is git)?
+#. Have you specified proper identification in the submission
+   system. THis is typically a form or ASCII text that needs to be
+   filled out (In our case it is a README.md file that includes a
+   homework ID, names of the authors, and e-mails)?
+#. Have you included all images in native and PDF format in the
+   submission system?
+#. Have you added the bibliography file that you managed (In our case
+   jabref to make it simple for you)?
+#. In case you used word have you also provided the jabref?
+#. In case of a class and if you do a multiauthor paper, have you
+   added an appendix describing who did what in the paper?
+#. Have you spellchecked the paper?
+#. Are you useing **a** and **the** properly? 
+#. Have you made sure you do not plagiarize?
+#. Is the title properly capitallized?
+#. Have you not used phrases such as shown in the Figure below, but
+   instead used as shown in Figure 3 when referring to the 3rd
+   figure?
+#. Have you capitalized "Figure 3", "Table 1", ... ?
+#. Have you removed any figure that is not referred explicitly in the
+   text (As shown in Figure ..) 
+#. Are the figure captions bellow the figures and not on top. (Do
+   not include the titles of the figures in the figure itself but instead use the caption
+   or that information?
+#. When using tables have you put the table caption on top?
+#. Make the figures large enough so we can read the details. If needed
+   make the figure over two columns?
+#. Do not worry about the figure placement if they are at a different
+   location than you think. Figures are allowed to float. If you want
+   you can place all figures at the end of the report?
+#. Are all figures and tables at the end?
+#. In case you copied a figure from another paper you need to ask for
+   copyright permission. IN case of a class paper you **must** include
+   a refernce to the original in the caption.
+#. Do not use the word "I" instead use we even if you are the sole
+   author?
+#. Do not use the phrase "In this paper/report we show" instead use
+   "We show". It is not important if this is a paper or a report and
+   does not need to be mentioned.
+#. Do not artificially inflate your paper if you are bellow the page
+   limit and have nothing to say anymore.
+#. If your paper limit is 12 pages but you want to hand in 120 pages,
+   please check first ;-)
+#. Do not use the characters & # % in the paper if you use LaTeX. If
+   you use them you prabably need a \ in front of them.
+#. If you want to say and do not use & but use the word and.
+#. Latex uses double single open quotes and douple single closed
+   quotes for quates. Have you made sure you replaced them?
+#. Pasting and copying from the Web often results in non ascii
+   charaters to be used in your text, please remove them and replace
+   accordingly.
+
+In case of a class   
+   
+#. Check in your current work of the paper on a weekly basis to show
+   consistent progress.
+#. Please use the dedicated report format for class. It may not be the
+   ACM or IEEE format, but may have some additions that make
+   management of bibliographies easier. Do follow our instructions for
+   bibliographies.
+
+
+In case you are allowed to use word in class, such as the one we teach
+at IU, the following applies in addition:
+
+#. Are you manageing your refernces in jabref and endnote (we need
+   both)
+#. Are you using the right template we have a special 2 column template
+   for the class that is a modified version from the 2 column ACM
+   template
+#. Are you using build in numbered section management? MSWord has
+   Sections that must be used
+#.  Are you using real bulleted lists in Word and not just a "*" or a
+    "-"?
+#. Have you carelessly pasted and copied into the document without
+   using proper formats. E.g. in MSWord this is a problem. You need to
+   fix the format and use the build in format. Not that if you paste
+   wrong you effect the format styles.
+#. Have you created not only a docx document but also the PDF.
+#. Make sure you use .docx and not .doc
+
+
+If you observe something missing let us know.
+
+
+Example Paper
+-------------
+
+An example report in PDF format is available:
+
+* `report.pdf <https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/latex/report.pdf>`_
+
+
+Creating the PDF from LaTeX on your Computer
+--------------------------------------------
+
+Latex can be easily installoed on any computer as long as you have
+enough space. Furthermore if your machine can execute the make command
+we have provided in the standard report format a simple 
+`Makefile
+<https://github.com/cloudmesh/classes/blob/master/docs/source/format/report/latex/Makefile>`_
+that allows you to do editing with immediate preview as documented in
+the LaTeX lesson.
+
+
+Class Specific README.md
+------------------------
+
+For the class we will manage all papers via github.com. You
+will be added to our github at
+
+* https://github.com/bigdata-i523
+
+and assigned an hid (homework index directory) directory with a unique
+hid number for you. In addition, once you decide for a project, you
+will aslso get a project id (pid) and a directory in which you place
+the projects. Projects must not be placed in hid directories as they
+are treated differently and a class proceedings is automatically created
+based on your submission.
+
+As part of the hid directory, you will need to create a README.md file
+in it, that **must** follow a specific format. The good news is that
+we have developed an easy template that with common sense you can
+modify easily. The template is located at
+
+* https://raw.githubusercontent.com/bigdata-i523/sample-hid000/master/README.md
+
+As the format may have been updated over time it does not hurt to
+revisit it and compare with your README.md and make corrections.  It
+is important that you follow the format and not eliminate the lines
+with the three quotes. The text in the quotes is actually yaml. yaml
+is a data format the any data scientist must know. If you do not, you
+can look it up. However, if you follow our rules you should be
+good. If you find a rule missing for our purpose, let us know. We like
+to keep it simple and want you to fill out the *template* with your
+information.
+
+Simple rules:
+
+* replace the hid nimber with your hid number.
+* naturally if you see sample- in the directory name you need to
+  delete that as your directory name does not have sample- in it.
+* do not ignore where the author is to be placed, it is in a list
+  starting with a -
+* there is always a space after a -
+* do not introduce empty lines
+* do not use TAB and make sure your editor does not bay accident
+  automatically creates tabs. This is probably the most frequent error
+  we see.
+* do not use any : & _ in the attribute text including titles
+* an object defined in the README.md must have on a single type
+  field. for example in the project section. Make sure you select only
+  one type and delete the other
+* in case you have long paragraphs you can use the > after the
+  abstract
+* Once you understood how the README.md works, please delete the comment
+  section.
+* Add a chapter topic that your paper belongs to
+  
+
+   
+
+Exercise
+--------
+
+Report.1:
+  Install latex and jabref on your system
+
+Report.2:
+  Check out the report example directory. Create a PDF and view
+  it. Modify and recompile.
+
+Report.4:
+  Learn about the different bibliographic entry formats in bibtex
+
+Report.5:
+  What is an article in a magazine? Is it really an Article or a Misc?
+
+Report.6:
+  What is an InProceedings and how does it differ from Conference?
+
+Report.7:  
+  What is a Misc?
+
+Report.8:
+  Why are spaces, underscores in directory names
+  problematic and why should you avoid using them for your projects
+
+Report.9:
+  Write an objective report about the advantages and disadvantages of
+  programs to write reports.
+
+Report.10:
+  Why is it advantageous that directories are lowercase have no
+  underscore or space in the name?
+
+
+
+
+
+
+
+		   

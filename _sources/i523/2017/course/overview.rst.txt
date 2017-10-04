@@ -68,8 +68,8 @@ Use Clouds running Data Analytics Collaboratively processing Big Data
 to solve problems in X-Informatics. We list many values of X you can
 defined in various activities across the world.
 
-* Video: 9:49:  `MP4 <https://www.youtube.com/watch?v=8T0OtdR9Bp4>`_
-
+* Video: 9:49: (streamed with optional CC)  `MP4 <https://www.youtube.com/watch?v=8T0OtdR9Bp4>`_
+* Video: 9:49: (unstreamed without CC)  `MP4 <https://drive.google.com/open?id=0B88HKpainTSfMXNTZGd5NmJ3V1E>`_
 .. comment::
 
           * Video: 9:49: http://youtu.be/AKkyWF95Fp4
@@ -289,8 +289,8 @@ terms of power consumption and the environment are also touched upon,
 followed by a list of the most critical features of Cloud computing
 and a comparison to supercomputing.
 
-* Video: 16:04: `MP4 <https://www.youtube.com/watch?v=trIFW-rucgM>`_
-
+* Video: 16:04: (streamed with optional CC) `MP4 <https://www.youtube.com/watch?v=trIFW-rucgM>`_
+* Video: 16:04: (unstreamed without CC) `MP4 <https://drive.google.com/open?id=0B88HKpainTSfR20xcUdLbDQzeGs>`_
 .. comment::
 
           * Video: 16:04: http://youtu.be/8RBzooC_2Fw
