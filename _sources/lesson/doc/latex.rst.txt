@@ -1,17 +1,304 @@
 LaTeX
 =====
 
+Characters
+----------
+
+LaTeX is a command language and as such uses some special characters
+as part of the language. Thus if you want to use these characters
+either in your text or bibliography you need to be especially carful
+about. These characters include % \ $ # _
+
+Other than in hypreref links and urls you need to put a backslash in
+front of them. For example to print a % in the text you need to use::
+
+  \%
+
+Furthermore tthe character " is not at all used as discussed in the
+next section.
+
+
+Highlighting Text
+-----------------
+
+Quotes are not written with the " character, but are embedded in two
+left single quotes and two right single quotes::
+
+  ``This is a quote''
+
+which will result in: 
+
+"This is a quote"
+
+In many papers we see that the quote is misused while putting quotes
+around a word. However quotes are often just used to quote a text from
+another paper. Instead of using quotes authors may actually emphasise
+a word. LaTeX has a special command for that using::
+
+  {\em this is emphasized}
+
+resulting in
+
+*this is emphasized*
+
+
+To write a text as bold (which should also be avoided as bold is
+typically used in section headers), you can use::
+
+  {\em this is bold fett}
+
+resulting in
+
+**this is bold fett**
+
+
+Sections
+--------
+
+LaTeX provides a convenient mechanism to structure a paper with
+sections and subsections THis is achieved with the following
+commands::
+
+  \section{This is a Section}
+  \subsection{This is a Subsection}
+  \subsubsection{This is a Subsubsection}  
+    
+Once you use one of these commands the next paragraph will start
+bellow the section command.
+
+In addition you have the command::
+
+  \paragraph{This is a paragraph.}
+
+  The line is behind the paragraph heading
+
+The command is special as it does not introduce a new line between the
+Heading and the next line even if you include empty lines
+  
+Empty Lines
+-----------
+
+Multiple empty lines will be reduced to asingle empty line.
+
+Itemize
+-------
+
+Itemized lists can be written as::
+
+   \begin{itemize}
+      \item First item
+      \item Second item
+   \begin{itemize}
+
+resulting in
+   
+* First item
+* Second item
+  
+   
+Enumerate
+---------
+
+Enumerations can be written as::
+
+   \begin{enumerate}
+      \item First item
+      \item Second item
+   \begin{enumerate}
+
+resulting in 
+
+#. First item
+#. Second item
+
+Descriptions
+------------
+
+Description lists can be written as::
+
+   \begin{itemize}
+      \item[Cloud] My definition of a Cloud.
+      \item[Big Data] My definition of Big Data
+   \begin{itemize}
+
+Cloud:
+   My definition of a Cloud
+Big Data:
+   My definition of Big Data
+   
+Images
+------
+
+Figures are extremly easy to handle by including them from source. We
+realy do never worry about the placement as LaTeX does typically a
+very good job of doing this.::
+
+   In Figure \ref{F:graph} we show a black and white graph about ... .
+   
+   \begin{figure}
+     \includegraphics[width=\columnwidth]{images/graph.pdf}
+     \caption{A sample black and white graphic. \cite{las17graph}}
+     \label{F:graph}
+   \end{figure}
+
+Note that `las17graph` must be a label of a valid bibtex entry. This
+is needed if you have copied the image from elsewhere to avoid
+plagiarism. However, if you came up with the graph yourself than you
+do not need a citation.
+
+We recommend that you place in your paper
+drafts all images at the which can be done with the `endfloat` package 
+
+This can be enabled if you include the following lines before
+begin document command::
+
+  \usepackage{endfloat}
+  \renewcommand{\efloatseparator}{\mbox{}} 
+
+  \begin{document}
+
+  
+Tables
+------
+
+tables from csv
+tables by hand
+
+
+Labels
+------
+
+As we saw already for figures and tables it is recommended to use the `label` and
+`ref` commands to refer to figure or table numbers. This applies also
+to sections. Thus I can place a label after a section::
+
+    \section{Introduction}\label{S:introduction}
+
+and write elswhere in the paper::
+
+    As we showcased in Section \ref{S:introduction}
+
+Furthermore to conveniently distinguish sections tables and figures,
+we use the prefix S T F followed by a colon for the label. This helps
+organizing your paper in case you have many lables.
+
+Math
+----
+
+One of the strength of LaTeX thi the ability to write easily
+sophisticated mathematical expressions on paper with high quality. A
+good online resouce is provided by the following online resource from
+which we have copied some examples:
+
+* https://en.wikibooks.org/wiki/LaTeX/Mathematics
+
+  
+
+Exponensts are using the ^ charater::
+   
+  $ (a + b)^2 = a^2 + 2ab + b^{c+2} $
+
+.. math::
+
+   (a - b)^2 = a^2 - 2ab + b^2
+
+
+Greek letters are referred to by their name preceeded by the slash:: 
+
+   $ \alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi $
+
+.. math::
+
+   $ \alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi $
+
+
+Limits can be written as follows::
+  
+   $ \lim_{x \to \infty} \exp(-x) = 0 $
+   
+.. math::
+
+   \lim_{x \to \infty} \exp(-x) = 0
+
+Fractions are indicated by the frac command, and binomials by binom::
+   
+$ \frac{n!}{k!(n-k)!} = \binom{n}{k} $   
+
+.. math::
+
+   \frac{n!}{k!(n-k)!} = \binom{n}{k}
+
+Matricies can be created as follows::
+
+   A_{m,n} = 
+   \begin{pmatrix}
+     a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+     a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+     \vdots  & \vdots  & \ddots & \vdots  \\
+     a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
+   \end{pmatrix}
+
+.. math::
+
+   A_{m,n} = 
+   \begin{pmatrix}
+     a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+     a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+     \vdots  & \vdots  & \ddots & \vdots  \\
+     a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
+   \end{pmatrix}
+
+ 
+
+ACM Proceedings Format
+----------------------
+
+.. only:: latex
+
+   \begin{figure}
+   \centering
+   \includegraphics[width=3cm]{./images/doc/ieee.png}
+   \caption{}
+   \end{figure}
+          
+
+* http://www.acm.org/publications/proceedings-template
+
+
+IEEE Proceedings Format
+-----------------------
+
+.. only:: latex
+
+   \begin{figure}
+   \centering
+   \includegraphics[width=3cm]{./images/doc/ieee.png}
+   \caption{}
+   \end{figure}
+
+
+* https://www.ieee.org/conferences_events/conferences/publishing/templates.html
+
+
+Bibliography
+------------
+
+Point to separate section
 
 
 https://wch.github.io/latexsheet/latexsheet.pdf
 
 http://tug.ctan.org/info/lshort/english/lshort.pdf
-https://en.wikibooks.org/wiki/LaTeX
 
+https://en.wikibooks.org/wiki/LaTeX
+https://upload.wikimedia.org/wikipedia/commons/2/2d/LaTeX.pdf
 
 
 Introduction
 ------------
+
+https://latexforhumans.wordpress.com/2008/10/11/the-best-guides-to-latex/
+https://www.latex-project.org/help/books/
 
 Mastering a text processing system is an essential part of a researcher's
 life. Not knowing how to use a text processing system can slow down the
@@ -23,8 +310,11 @@ fine with the documentation provided here. For serious users, I recommend
 purchasing a book. Examples for books include
 
 -  LaTeX Users and Reference Guide, by Leslie Lamport
+   https://www.amazon.com/LaTeX-Document-Preparation-System-2nd/dp/0201529831/ref=sr_1_2?s=books&ie=UTF8&qid=1507114870&sr=1-2&keywords=lamport
 -  LaTeX an Introduction, by Helmut Kopka
+   https://www.amazon.com/Guide-LaTeX-4th-Helmut-Kopka/dp/0321173856/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=2BB4APDFEX34A4JM65ZB
 -  The LaTeX Companion, by Frank Mittelbach
+   https://www.amazon.com/LaTeX-Companion-Techniques-Computer-Typesetting/dp/0201362996
 
 If you do not want to buy a book you can find a lot of useful
 information in the LaTeX reference manual.
