@@ -99,6 +99,92 @@ When you have verified that the changes are there, you can issue a pull request 
 your work to be integrated into the original repository by clicking the *Pull Request*
 field in the right hand corner beneath the topics.
 
+
+Creating a Pull Request in GitHub
+---------------------------------
+
+Create a pull request to propose and collaborate on changes to a
+repository. These changes are proposed in a branch, which ensures that
+the master branch only contains finished and approved work. Pull
+requests can only be opened if there are differences between your branch
+and the upstream branch. You can specify which branch you'd like to
+merge your changes into when you create your pull request.
+
+Create a branch
+^^^^^^^^^^^^^^^
+
+Branching is the way to work on different versions of a repository at
+one time. When you create a branch off the master branch, you’re making
+a copy, or snapshot, of master as it was at that point in time. If
+someone else made changes to the master branch while you were working on
+your branch, you could pull in those updates. When a change is ready,
+they merge their branch into master. You can follow the steps for
+creating a branch:
+
+-  Click the drop down at the top of the file list that says branch:
+   master on your repository.
+
+-  Type a branch name, for example: new\_branch, into the text box.
+
+-  Select the blue Create branch box or press “Enter” on the keyboard.
+
+.. figure:: im2.png
+   :alt: title
+
+   title
+
+Make and commit changes
+^^^^^^^^^^^^^^^^^^^^^^^
+
+-  pencil icon in the upper right corner of the file view to edit.
+-  Write a commit message that describes your changes.
+-  Click Commit changes button.
+
+.. figure:: im3.png
+   :alt: title
+
+   title
+
+.. figure:: im4.png
+   :alt: title
+
+   title
+
+Pull Request
+^^^^^^^^^^^^
+
+As soon as you make a commit, you can open a pull request and start a
+discussion, even before the code is finished. \* Click the Pull Request
+tab, then from the Pull Request page, click the green New pull request
+button. \* Look over your changes in the diffs on the Compare page, make
+sure they’re what you want to submit. \* When you think that you are
+ready to submit, click the big green Create Pull Request button. \* Give
+your pull request a title and write a brief description of your changes.
+
+.. figure:: im5.png
+   :alt: title
+
+   title
+
+Merge your Pull Request
+^^^^^^^^^^^^^^^^^^^^^^^
+
+In this final step, it’s time to bring your changes together – merging
+your edited branch into the master branch.
+
+-  Click the green Merge pull request button to merge the changes into
+   master.
+-  Click Confirm merge.
+-  Go ahead and delete the branch, since its changes have been
+   incorporated, with the Delete branch button in the purple box.
+
+.. figure:: im1.png
+   :alt: title
+
+   title
+
+
+
 Adding bibligraphic references
 ------------------------------
 
