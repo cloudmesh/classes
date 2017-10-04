@@ -41,9 +41,7 @@ Oakland Athletics, Diamond Dollars economic model of baseball,
 Performance - Dollar relationship, Value of a Win.
 
 
-* Video: 31min 4sec: Introduction and Sabermetrics (Baseball Informatics) Lesson: https://www.youtube.com/watch?v=Dd4zV__G5Q8
-
-
+* Video: 31min 4sec: Introduction and Sabermetrics (Baseball Informatics) Lesson: (streamed with optional CC) https://www.youtube.com/watch?v=Dd4zV__G5Q8 (unstreamed without CC) https://drive.google.com/file/d/0B8936_ytjfjmTHFfcTBJOGpTajg/view
 
 Basic Sabermetrics
 """"""""""""""""""
@@ -53,7 +51,7 @@ Details of some statistics based on basic data, OPS, wOBA, ERA, ERC,
 FIP, UZR.
 
 
-* Video: 26min 53sec: Basic Sabermetrics: https://www.youtube.com/watch?v=L0X-RQJZKrs
+* Video: 26min 53sec: Basic Sabermetrics: (streamed with optional CC) https://www.youtube.com/watch?v=L0X-RQJZKrs (unstreamed without CC)  https://drive.google.com/file/d/0B8936_ytjfjmcDVETmktOGdWcHM/view
 
 
 Wins Above Replacement
@@ -64,7 +62,7 @@ Comparisons of different methods, Coefficient of Determination,
 Another, Sabermetrics Example, Summary of Sabermetrics.
 
 
-* Video: 30min 43sec: Wins Above Replacement: https://www.youtube.com/watch?v=D6PHqPor4LA
+* Video: 30min 43sec: Wins Above Replacement: (streamed with optional CC) https://www.youtube.com/watch?v=D6PHqPor4LA (unstreamed without CC) https://drive.google.com/file/d/0B8936_ytjfjmT0hwbEFRcmZXZWs/view
 
 
 Resources
@@ -112,7 +110,7 @@ A Big Data Pitcher Clustering method introduced by Vince Gennaro, Data
 from Blog and video at 2013 SABR conference.
 
 
-* Video: 20min 59sec: Pitching Clustering: https://www.youtube.com/watch?v=rZ9-b54aEvw
+* Video: 20min 59sec: Pitching Clustering: (streamed with optional CC) https://www.youtube.com/watch?v=rZ9-b54aEvw (unstreamed without CC) https://drive.google.com/file/d/0B8936_ytjfjmNlpENlRLVGJGMDA/view
 
 Pitcher Quality
 """""""""""""""
@@ -121,7 +119,7 @@ Results of optimizing match ups, Data from video at 2013 SABR
 conference.
 
 
-* Video: 10min 2sec: Pitcher Quality: https://www.youtube.com/watch?v=OkkUaySvXOY
+* Video: 10min 2sec: Pitcher Quality: (streamed with optional CC) https://www.youtube.com/watch?v=OkkUaySvXOY (unstreamed without CC) https://drive.google.com/file/d/0B8936_ytjfjmVXpIM0MyRW9jcnM/view
 
 
 
@@ -131,7 +129,7 @@ PITCHf/X
 Examples of use of PITCHf/X.
 
 
-* Video: 10min 39sec: PITCHf/X: https://www.youtube.com/watch?v=m7IXhsHgQmE
+* Video: 10min 39sec: PITCHf/X: (streamed with optional CC) https://www.youtube.com/watch?v=m7IXhsHgQmE (unstreamed without CC) https://drive.google.com/file/d/0B8936_ytjfjmWXU3Y3c1eThTbGs/view
 
 Other Video Data Gathering in Baseball
 """"""""""""""""""""""""""""""""""""""
@@ -140,7 +138,7 @@ FIELDf/X, MLBAM, HITf/X, COMMANDf/X.
 
 
 
-* Video: 18min 5sec: Other Video Data Gathering in Baseball: https://www.youtube.com/watch?v=nKZiOOGccms
+* Video: 18min 5sec: Other Video Data Gathering in Baseball: (streamed with optional CC) https://www.youtube.com/watch?v=nKZiOOGccms (unstreamed without CC) https://drive.google.com/file/d/0B8936_ytjfjmSF83dWhNUkFEZ2s/view
 
 
 Resources
@@ -178,7 +176,7 @@ Consumer Sports, Stake Holders, and Multiple Factors.
 
 
 
-* Video: 22min 2sec: Wearables: https://www.youtube.com/watch?v=F_cPq6xIXw0
+* Video: 22min 2sec: Wearables: (streamed with optional CC) https://www.youtube.com/watch?v=F_cPq6xIXw0 (unstreamed without CC) https://drive.google.com/file/d/0B8936_ytjfjmRk1jU2tMeG11Zk0/view
 
 
 Soccer and the Olympics
@@ -187,7 +185,7 @@ Soccer and the Olympics
 Soccer, Tracking Players and Balls, Olympics.
 
 
-* Video: 8min 28sec: Soccer and the Olympics: https://www.youtube.com/watch?v=AiZneaLJMTs
+* Video: 8min 28sec: Soccer and the Olympics: (streamed with optional CC) https://www.youtube.com/watch?v=AiZneaLJMTs (unstreamed without CC) https://drive.google.com/file/d/0B8936_ytjfjmNERNd3BLbnJIREE/view
 
 
 Spatial Visualization in NFL and NBA
@@ -196,7 +194,7 @@ Spatial Visualization in NFL and NBA
 NFL, NBA, and Spatial Visualization.
 
 
-* Video: 15min 19sec: Spatial Visualization in NFL and NBA: https://www.youtube.com/watch?v=Uorh3RJLC1s
+* Video: 15min 19sec: Spatial Visualization in NFL and NBA: (streamed with optional CC) https://www.youtube.com/watch?v=Uorh3RJLC1s (unstreamed wihtout CC) https://drive.google.com/file/d/0B8936_ytjfjmLUV3M1RydTdNTkU/view
 
 
 Tennis and Horse Racing
@@ -205,7 +203,7 @@ Tennis and Horse Racing
 Tennis, Horse Racing, and Continued Emphasis on Spatial Visualization.
 
 
-* Video: 8min 52sec: Tennis and Horse Racing: https://www.youtube.com/watch?v=2P-pismFSrI
+* Video: 8min 52sec: Tennis and Horse Racing: (streamed with CC) https://www.youtube.com/watch?v=2P-pismFSrI (unstreamed without CC) ttps://drive.google.com/file/d/0B8936_ytjfjmeHc4QnZRQnpXMms/view
 
 
 
