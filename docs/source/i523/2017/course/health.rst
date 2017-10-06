@@ -219,9 +219,9 @@ The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
 
-* Video A: 10:33: Genomics, Proteomics and Information Visualization I: https://drive.google.com/file/d/0B5plU-u0wqMobXdEQWRHWl95UTA/view?usp=sharing
+* Video A: 10:33: Genomics, Proteomics and Information Visualization I: (streamed with optional CC) https://youtu.be/SYU6m9zI6QI (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMobXdEQWRHWl95UTA/view?usp=sharing
    
-* Video B: 7:41: Genomics, Proteomics and Information Visualization: II: https://drive.google.com/file/d/0B5plU-u0wqModlhmdVUwdGlQNTA/view?usp=sharing
+* Video B: 7:41: Genomics, Proteomics and Information Visualization: II: (streamed with optional CC) https://youtu.be/bELinPhA7iM (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqModlhmdVUwdGlQNTA/view?usp=sharing
 
 * Slides: (131 pages) `Genomics, Proteomics and Information Visualization (PDF) <https://drive.google.com/open?id=0B8936_ytjfjmX0lEMWhMX2kwRHc>`_
 
