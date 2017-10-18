@@ -90,7 +90,7 @@ Big Data and Healthcare Industry
 Summary of an industry survey by GE and Accenture.
 
 
-Video: 10:02: Big Data and Healthcare Indusry: (streamed with optional CC) https://www.youtube.com/watch?v=64YOUnRJVZU (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
+Video: 10:02: Big Data and Healthcare Indusry: (streamed with optional CC) https://youtu.be/SJhXdV4WfoI (unstreamed without CC) https://drive.google.com/open?id=0B5plU-u0wqMoSXRVYVV3ZlVvMnM
 
 
 Medical Big Data in the Clouds
