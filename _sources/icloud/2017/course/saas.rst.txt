@@ -18,7 +18,7 @@ Google Architecture
 Google History
 -------------------------------------------------------------------------------
 
-.. todo: Video is overlapped with other lectures
+.. todo:: Video is overlapped with other lectures
   - 1.7.3. Google History: https://youtu.be/Kg0NK0XUkHw?t=175 (starting 2:55)
   - 1.4.2. Google Search Engine 1: https://www.youtube.com/watch?v=S2oT7uMw5Yg
   - 1.4.3. Google Search Engine 2: https://www.youtube.com/watch?v=pxos3Yt6y6I

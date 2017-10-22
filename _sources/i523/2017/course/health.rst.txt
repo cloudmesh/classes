@@ -90,7 +90,7 @@ Big Data and Healthcare Industry
 Summary of an industry survey by GE and Accenture.
 
 
-Video: 10:02: Big Data and Healthcare Indusry: (streamed with optional CC) https://www.youtube.com/watch?v=64YOUnRJVZU (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMoRlVwZlk0UERxVUk/view?usp=sharing
+Video: 10:02: Big Data and Healthcare Indusry: (streamed with optional CC) https://youtu.be/SJhXdV4WfoI (unstreamed without CC) https://drive.google.com/open?id=0B5plU-u0wqMoSXRVYVV3ZlVvMnM
 
 
 Medical Big Data in the Clouds
@@ -219,9 +219,9 @@ The final slide shows an application of MDS to generate and visualize
 phylogenetic trees.
 
 
-* Video A: 10:33: Genomics, Proteomics and Information Visualization I: https://drive.google.com/file/d/0B5plU-u0wqMobXdEQWRHWl95UTA/view?usp=sharing
+* Video A: 10:33: Genomics, Proteomics and Information Visualization I: (streamed with optional CC) https://youtu.be/SYU6m9zI6QI (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqMobXdEQWRHWl95UTA/view?usp=sharing
    
-* Video B: 7:41: Genomics, Proteomics and Information Visualization: II: https://drive.google.com/file/d/0B5plU-u0wqModlhmdVUwdGlQNTA/view?usp=sharing
+* Video B: 7:41: Genomics, Proteomics and Information Visualization: II: (streamed with optional CC) https://youtu.be/bELinPhA7iM (unstreamed without CC) https://drive.google.com/file/d/0B5plU-u0wqModlhmdVUwdGlQNTA/view?usp=sharing
 
 * Slides: (131 pages) `Genomics, Proteomics and Information Visualization (PDF) <https://drive.google.com/open?id=0B8936_ytjfjmX0lEMWhMX2kwRHc>`_
 

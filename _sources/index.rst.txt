@@ -20,7 +20,8 @@ THe following is a draft version of the upcomming reports:
 
 * Big Data Handbook
 
-  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-bigdata.pdf
+  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-bigdata-v1.pdf
+  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-bigdata-v2.pdf  
     
 I524
 ----

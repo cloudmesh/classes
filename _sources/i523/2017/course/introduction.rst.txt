@@ -202,7 +202,7 @@ Education
 
 
 
-* Video: 40:14:  `Motivation <https://drive.google.com/file/d/0B1Of61fJF7WsV2RvMlFzSDNPZEU/view?usp=sharing>`_ (Course Motivation and Emerging Technologies are combined)
+* Video: 40:14: Motivation (Course Motivation and Emerging Technologies are combined): (streamed with optional CC) https://youtu.be/E5x01OYwv60 (unstreamed without CC) <https://drive.google.com/file/d/0B1Of61fJF7WsV2RvMlFzSDNPZEU/view?usp=sharing
 
 * Slides (30 pages): `Motivation <https://drive.google.com/file/d/0B8936_ytjfjmOUZraHc4M1ptczA/view?usp=sharing>`_
          
