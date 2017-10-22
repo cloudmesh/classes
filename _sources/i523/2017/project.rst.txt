@@ -68,9 +68,12 @@ Report Format:
 
        The format for LaTeX and Word found here:
 
-       * `report.zip <https://github.com/cloudmesh/classes/raw/master/docs/source/format/report.zip>`_
+       * https://github.com/bigdata-i523/sample-hid000/tree/master/paper1
 
-       * `report.tar.gz <https://github.com/cloudmesh/classes/raw/master/docs/source/format/report.tar.gz>`_
+       Please copy all files into your project directory and modify
+       accordingly. Naturally you do not need to copy the sample
+       images. A README.md file is included with additional information.
+
                  
 There will be **NO EXCEPTION** to this format. In case you are in a
 team, you can use either github while collaboratively developing the
