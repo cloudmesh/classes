@@ -12,7 +12,7 @@ I523
    i523/2017/index              
    i523/2016/index
 
-THe following is a draft version of the upcomming reports:
+Tee following is a draft version of the upcomming reports:
 
 * Big Data Usecases Vol 1.:
 
@@ -20,8 +20,16 @@ THe following is a draft version of the upcomming reports:
 
 * Big Data Handbook
 
-  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-bigdata-v1.pdf
-  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-bigdata-v2.pdf  
+  View:
+  
+  * https://github.com/laszewski/laszewski.github.io/blob/master/papers/vonLaszewski-i523-v1.pdf
+  * https://github.com/laszewski/laszewski.github.io/blob/master/papers/vonLaszewski-i523-v2.pdf
+
+  Download:
+  
+  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v1.pdf
+  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v2.pdf
+
     
 I524
 ----
