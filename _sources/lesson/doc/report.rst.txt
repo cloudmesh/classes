@@ -209,8 +209,8 @@ In case you are allowed to use word The following applies in addition
 If you have other things to add, send them via piazza and we will add
 them here.
 
-README.md
----------
+README.yml
+----------
 
 For I523, Fall 2017, we will manage all papers via github.com. You
 will be added to our github at
@@ -224,22 +224,24 @@ the projects. Projects must not be placed in hid directories as they
 are treated differently and a class proceedings is automatically created
 based on your submission.
 
-As part of the hid directory, you will need to create a README.md file
+As part of the hid directory, you will need to create a README.yml file
 in it, that **must** follow a specific format. The good news is that
 we have developed an easy template that with common sense you can
 modify easily. The template is located at
 
-* https://raw.githubusercontent.com/bigdata-i523/sample-hid000/master/README.md
+* https://raw.githubusercontent.com/bigdata-i523/sample-hid000/master/README.yml
 
 As the format may have been updated over time it does not hurt to
-revisit it and compare with your README.md and make corrections.  It
-is important that you follow the format and not eliminate the lines
-with the three quotes. The text in the quotes is actually yaml. yaml
-is a data format the any data scientist must know. If you do not, you
-can look it up. However, if you follow our rules you should be
-good. If you find a rule missing for our purpose, let us know. We like
-to keep it simple and want you to fill out the *template* with your
-information.
+revisit it and compare with your README.yml and make corrections.  It
+is important that you follow the format. And adher to the YAML file
+format. It is your responsibility to learn about yaml and make sure
+the File follows this format. YAML files can be checked for
+correctness either with online or with locally installed tools. We do
+recommend that you use:
+
+   yamllint
+
+That you can install for various OS including Linux and OSX.
 
 Simple rules:
 
@@ -259,8 +261,6 @@ Simple rules:
   one type and delete the other
 * in case you have long paragraphs you can use the > after the
   abstract
-* Once you understood how the README.md works, please delete the comment
-  section.
   
 
    
