@@ -14,4 +14,5 @@ Lessons
    projects/index
    projects/draft
    iaas/index
+   docker/index
    devops/index
