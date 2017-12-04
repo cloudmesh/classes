@@ -19,17 +19,11 @@ Tee following is a draft version of the upcomming reports:
   * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523.pdf
 
 * Big Data Handbook
-
-  View:
   
-  * https://github.com/laszewski/laszewski.github.io/blob/master/papers/vonLaszewski-i523-v1.pdf
-  * https://github.com/laszewski/laszewski.github.io/blob/master/papers/vonLaszewski-i523-v2.pdf
-
-  Download:
-  
-  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v1.pdf
-  * https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v2.pdf
-
+  * Paper 1: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v1.pdf
+  * Paper 2: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v2.pdf
+  * Project: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v3.pdf
+    
     
 I524
 ----
