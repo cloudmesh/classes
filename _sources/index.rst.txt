@@ -27,8 +27,6 @@ Tee following is a draft version of the upcomming reports:
     or
     https://tinyurl.com/cloudmesh/vonLaszewski-i523-v3.pdf
 
-    * <500: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v3-1.pdf
-     * >501: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v3-2.pdf
     
 I524
 ----
