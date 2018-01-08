@@ -23,8 +23,12 @@ Tee following is a draft version of the upcomming reports:
   * Paper 1: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v1.pdf
   * Paper 2: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v2.pdf
   * Project:
-       * <500: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v3-1.pdf
-       * >501: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v3-2.pdf
+    https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v3.pdf
+    or
+    https://tinyurl.com/cloudmesh/vonLaszewski-i523-v3.pdf
+
+    * <500: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v3-1.pdf
+     * >501: https://github.com/laszewski/laszewski.github.io/raw/master/papers/vonLaszewski-i523-v3-2.pdf
     
 I524
 ----
